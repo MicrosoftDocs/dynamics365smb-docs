@@ -29,16 +29,28 @@ ESR is an electronic debtor service that uses payment slips to collect money. It
 ## LSV+  
 LSV+ is a direct debit service that is used for processing payments. Companies can release customer payments directly from the customer's bank using direct debit. You can request and collect customer payments using direct debit in the LSV+ bank format, or in the DebitDirect PostFinance format. For more information, see [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md).  
 
-## SEPA Credit Transfers  
+## SEPA Credit Transfers
+
 To export payments according to the SEPA standard, you must use a bank account. To make sure that the related general ledger entries are consistent with those generated for local Swiss payment methods (see above), the value in the **Bank Acc. Posting Group** field on the **Bank Account Card** page must point to the relevant general ledger account. For more information about how to export SEPA payments, see [Create SEPA Direct Debit Collection Entries and Export to a Bank File](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).  
 
-## See Also  
- [Import Swiss Bank Clearing Numbers](how-to-import-swiss-bank-clearing-numbers.md)  
- [Swiss Electronic Payments Using ESR](swiss-electronic-payments-using-esr.md)  
- [Print ESR Invoices](how-to-print-esr-invoices.md)  
- [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md)  
- [Switzerland Local Functionality](switzerland-local-functionality.md)  
- [Making Payments](../../payables-make-payments.md)
+### IBAN and QR-IBAN
 
+In Switzerland, requests for payments based on SEPA credit transfers can include a regular IBAN code for the bank or a QR-IBAN code. For more information, see [QR-Bill Management](ui-extensions-qr-bill-management.md).  
+
+The IBAN type on the recipient bank account must match the payment reference type on the entry when you try to pay a vendor. If the payment reference is a QR reference, [!INCLUDE [prod_short](../../includes/prod_short.md)] will check that the IBAN on the vendor bank account is a QR-IBAN code. If the payment reference is a creditor reference, that IBAN must be a normal IBAN.  
+
+> [!TIP]
+> If a vendor uses both types of accounts regularly, create multiple vendor bank accounts and use them accordingly. For more information, see [Using multiple bank accounts as issuers of QR-Bills](ui-extensions-qr-bill-management.md#multiplebankaccounts).
+
+## See Also
+
+[QR-Bill Management in the Swiss Version](ui-extensions-qr-bill-management.md)  
+[Import Swiss Bank Clearing Numbers](how-to-import-swiss-bank-clearing-numbers.md)  
+[Swiss Electronic Payments Using ESR](swiss-electronic-payments-using-esr.md)  
+[Print ESR Invoices](how-to-print-esr-invoices.md)  
+[Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md)  
+[Switzerland Local Functionality](switzerland-local-functionality.md)  
+[Making Payments](../../payables-make-payments.md)
+[Create SEPA Direct Debit Collection Entries and Export to a Bank File](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

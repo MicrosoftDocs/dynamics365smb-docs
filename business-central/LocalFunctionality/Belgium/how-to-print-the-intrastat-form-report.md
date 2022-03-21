@@ -3,7 +3,7 @@
     description: The Intrastat - Form report must be used for reporting to Intrastat to report the movement of goods.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

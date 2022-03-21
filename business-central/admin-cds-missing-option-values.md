@@ -1,12 +1,12 @@
 ---
 title: "Handling Missing Option Values"
 description: Learn how to prevent full synchronization from failing because the options differ in mapped fields. This processes require the help of a developer.
-author: bholtorf
+author: brentholtorf
 
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.date: 06/14/2021
 ---

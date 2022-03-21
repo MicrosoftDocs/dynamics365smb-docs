@@ -3,7 +3,7 @@
     description: You can archive sales and purchase orders, quotes, return orders, and blanket orders so that you can use the archived document to recreate the document that it was archived from.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

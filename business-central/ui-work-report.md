@@ -3,13 +3,14 @@ title: Working with Reports, Batch Jobs, and XMLports
 description: Learn about entering a report into a job queue and scheduling it to be processed at a specific date and time.
 author: jswymer
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 06/21/2021
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 02/09/2022
 ms.author: jswymer
 
 ---
@@ -28,7 +29,7 @@ You find reports in the **Reports** tab on selected pages, or you can use search
 
 When you open a report, batch job, or XMLport, you're typically presented with a request page where you set various options and filters that determine what to include in the report. The following sections explain how to use the request page to build, preview, and print a report.
 
-## <a name="SavedSettings"></a>Using default values - predefined settings 
+## <a name="SavedSettings"></a>Using default values - predefined settings
 
 Most request pages include the **Use default values from** field. This field lets you select predefined settings for the report, which automatically set options and filters for the report. Select an entry from the drop-down list, and you'll see the options and filters on the request page change accordingly.
 
@@ -80,67 +81,18 @@ In the preview, use the menu bar on the report preview to:
 
 You can save a report to a PDF document, Microsoft Word document, or Microsoft Excel worksheet by choosing the **Send to** button, and then making your selection.
 
-### Send to Excel
+### About sending to Excel
 
-<!-- The following table describes the options for saving the report results as a worksheet in an Excel workbook.
+You can work with [!INCLUDE [prod_short](includes/prod_short.md)] data in Excel for further analysis. For more information, see [Analyzing Report Data with Excel](report-analyze-excel.md).  
+<!--
+### About sending to Word
 
-|Option  |Description  |
-|---------|---------|
-|Microsoft Excel Document (data and layout)|Export the report results with the RDLC layout applied. Use this option if you want to export the data one time, and only want to make minor changes to its appearance, such as font and color scheme. <br><br>**Note**: Some reports might export numbers as text, so it's a good idea to verify the numbers. |
-|Microsoft Excel Document (data only)|Export the report results and the criteria that was used to generate them, such as the parameters you specified on the request page, metadata, and the fields that control the layout of the printed report. Use this option when you want to do ad hoc analysis of the data or diagnose data issues in reports. For example, you can filter the data and use Power Pivot to display it.<br><br>This option exports all columns, including columns that hold formatting instructions for other values and filters. In columns that hold binary data like images, instead of actually values, fields will include the text **Binary data ({0} bytes)**, where **{0}** indicates the number of bytes.<br><br>**NOTE** With Business Central on-premises, the Business Central Server includes a configurations setting, called **Max Data Rows Allowed to Send to Excel**. This setting limits the number of rows that can be exported to Excel. If you don't see the expected number of rows, it might be because of this setting. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) or contact your administrator.|-->
-
-There are two options for saving the report results as a worksheet in an Excel workbook: **Microsoft Excel Document (data and layout)** and **Microsoft Excel Document (data only)**
-
-#### [Microsoft Excel Document (data and layout)](#tab/data-and-layout)
-
-This option is only available for reports that use an RDLC layout. It exports the report results with the RDLC layout applied. Use this option if you want to export the data one time, and only want to make minor changes to its appearance, such as font and color scheme.
-
-#### <a name="exportdataonly"></a>[Microsoft Excel Document (data only)](#tab/data-only)
-
-The **Microsoft Excel Document (data only)** option exports the report results and the criteria that was used to generate them&mdash;but it doesn't include the report layout. The Excel file will include the full dataset, as raw data, arranged in rows and columns. All data columns of the report's dataset are included, regardless of whether they're used in the report layout.  Use this option when you want to:
-
-- Do ad hoc analysis of the data. For example, you can filter the data and use Power Pivot to display it.
-
-  Each time you export results, a new worksheet is created. Using the **Microsoft Excel Document (data only)** option, you can run the same report and reuse formatting changes. For example, for Power Pivot, you can run the report again for another time period, copy the results to the worksheet, and then refresh the worksheet. You can also find a reporting app on [AppSource](https://appsource.microsoft.com/).
-- Inspect the report dataset when you're creating or modifying custom report layouts.
-
-  For information about creating custom report layouts, see [Creating or Modifying Custom Report Layouts](ui-how-create-custom-report-layout.md)
-- Diagnose data issues in reports.
-
-##### For administrators
-
-- **Microsoft Excel Document (data only)** was introduced as an optional feature in the 2021 release wave 1, update 18.3. To give users access to this feature, enable the **Save report dataset to Microsoft Excel Document** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management). In 2021 release wave 2, this feature becomes permanent, so you won't have to enable it.
-
-- User accounts will need the **<!--Export Report Dataset To Excel-->Allow Action Export Report Dataset To Excel** permission, which you can apply by using the **Troubleshooting Tools** permission set or **Export Report Excel** permission set.  
-
-- You can't export a report that has more than 1,048,576 rows or 16,384 columns.
-
-    > [!NOTE]
-    > With Business Central on-premises, the maximum number of exported rows might be even less. Business Central Server includes a configuration setting, called **Max Data Rows Allowed to Send to Excel**, for decreasing the limit from the maximum value. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) or contact your administrator.
-
-##### For developers and advanced users
-
-The **Microsoft Excel Document (data only)** option exports all columns, including columns that hold filters and formatting instructions for other values. Here are a few points of interest:
-
-- Binary data in a field, like an image, isn't exported.
-
-  In columns that hold binary data, fields will include the text **Binary data ({0} bytes)**, where **{0}** indicates the number of bytes.
-- Starting in Business Central 2021 release wave 2, the Excel file also includes the **Report Metadata** worksheet.
-
-  This worksheet shows the filters applied to the report and general report properties, like the name, ID, and extension details. The filters are shown in the **Filter (DataItem::Table::FilterGroupNo::FieldName)** column. The filters in this column include filters set on the report's request page. It also includes filters defined in AL code, for example, by the [DataItemLink property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemlink-reports-property) and [DataItemTableView property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemtableview-property).
-
-For more information about report design, see [Report Overview](/dynamics365/business-central/dev-itpro/developer/devenv-reports).
-
----
-
-> [!NOTE]
-> Some reports export numbers as text, which prevents you from doing calculations or using Power Pivot on the cells in the Excel worksheet. After exporting, it's a good idea to verify the numbers in the worksheet. If you want to do analysis and charting on the numbers, change the format of the relevant cells from **Text** to **Number**. For more information about formatting numbers in cells, see this video [Formatting Numbers in Cells in Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
-
-### Microsoft Word Document
 Use the **Microsoft Word Document** option to generate a report as a Word document.  
 
 > [!NOTE]
 > You can specify the layout to use for each report on the **Report Selection** page in the **Selected Layout** field. The default setting for reports is **RDLC (built-in)**, which produces reports in the same, or similar, layout as the **Microsoft Word Document** layout. However, the key difference is whether you want to generate a single or multiple report documents. For single documents, you can use the RDLC (built-in) option. For multiple documents, set the **Microsoft Word Document** as the default layout for the report. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
+
+-->
 
 ## <a name="ScheduleReport"></a> Scheduling a Report to Run
 

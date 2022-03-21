@@ -3,7 +3,7 @@
     description: Electronic banking allows you to electronically exchange data with Belgian financial institutions. This ensures faster processing times and avoids errors.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

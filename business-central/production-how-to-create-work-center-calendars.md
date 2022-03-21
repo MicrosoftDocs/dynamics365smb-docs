@@ -3,7 +3,7 @@
     description: Creating and enabling a work center calendar involves several tasks including setting up shop calendars and creating work shifts.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

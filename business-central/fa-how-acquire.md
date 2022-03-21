@@ -3,13 +3,13 @@ title: Acquire Fixed Assets
 description: You can set up a fixed asset, assign a depreciation book, and record the fixed asset’s acquisition cost.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.search.form: 5605, 5551, 5600, 5628, 5629
+ms.search.form: 5605, 5551, 5600, 5628, 5629, 5633
 ms.date: 12/03/2021
 ms.author: edupont
 

@@ -3,7 +3,7 @@
     description: Business Central supports Intrastat reporting according to German requirements. You can meet the requirement to report your trade with other EU countries.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

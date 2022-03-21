@@ -3,7 +3,7 @@ title: Invoice your bookings in Business Central
 description: This topic explains learning how you can perform bulk invoicing from Microsoft Bookings in Business Central.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

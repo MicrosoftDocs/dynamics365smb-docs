@@ -3,7 +3,7 @@ title: Entering custom declaration information in Russia
 description: Russian enhancements include custom declarations.
 author: AndreiPanko
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

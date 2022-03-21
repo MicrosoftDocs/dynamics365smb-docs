@@ -3,7 +3,7 @@ title: Create Production Order Headers
 description: You can create a production order manually, and the first step is to create a production order header.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

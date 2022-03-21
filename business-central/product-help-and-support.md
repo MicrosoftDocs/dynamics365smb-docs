@@ -4,7 +4,7 @@ description: Find product Help, guidance, troubleshooting tips, and assistance, 
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
-ms.service: dynamics365-business-central
+ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 01/28/2022
 ---

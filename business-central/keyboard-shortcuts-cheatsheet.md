@@ -1,8 +1,8 @@
 ---
 title: PC Keyboard Shortcuts Quick Reference
 description: "A print-friendly reference sheet containing the most popular keyboard shortcuts for PC users."
-author: bholtorf
-ms.service: dynamics365-business-central
+author: brentholtorf
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

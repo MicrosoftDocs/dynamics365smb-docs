@@ -43,3 +43,5 @@ Or a bulleted list, such as the following:
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

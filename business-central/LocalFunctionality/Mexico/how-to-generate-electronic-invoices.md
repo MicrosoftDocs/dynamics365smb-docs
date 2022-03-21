@@ -1,16 +1,16 @@
 ---
-title: Generate Electronic Invoices [MX]
-description: After you post a sales invoice in the Mexican version, you must generate an electronic invoice that will be sent to the customer.
-author: edupont04
+    title: Generate Electronic Invoices [MX]
+    description: After you post a sales invoice in the Mexican version, you must generate an electronic invoice that will be sent to the customer.
+    author: edupont04
 
-ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 132
-ms.date: 06/18/2021
-ms.author: edupont
+    ms.service: dynamics365-business-central
+    ms.topic: conceptual
+    ms.devlang: na
+    ms.tgt_pltfrm: na
+    ms.workload: na
+    ms.search.keywords:
+    ms.date: 02/16/2022
+    ms.author: edupont
 
 ---
 # Generate Electronic Invoices in the Mexican Version
@@ -23,7 +23,13 @@ The following procedure describes how to generate electronic invoices for sales 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoice**, and then choose the related link.  
 2. Select the posted invoice.  
-3. Choose the **Send Electronic Document** action. An email will be sent to the customer with the electronic invoice attached as an XML file. If you selected the **Send PDF Report** field on the **General Ledger Setup** page, a PDF will be included with the XML file.  
+3. Choose the **Send Electronic Document** action, and then specify if you want to also request a digital stamp for the document.  
+
+    If you choose **Request Stamp**, the posted invoice will be digitally signed by your PAC, and you can then send the posted invoice afterwards. if you choose **Request Stamp and Send**, the posted invoice is digitally signed and sent in one step.
+
+    An email will be sent to the customer with the electronic invoice attached as an XML file. If you selected the **Send PDF Report** field on the **General Ledger Setup** page, a PDF will be included with the XML file.  
+
+    You can view of the status of the electronic invoice on the **Shipping & Billing** FastTab.
 4. Optionally, choose the **Export E-Document as XML** action. Select the location where you want to save the electronic invoice as an XML file.  
 
 To verify the electronic invoice activity, on the **Posted Sales Invoice** page, on the **Invoicing** FastTab, the **Electronic Document Sent** and **No. of E-Document Submissions** fields will be updated.  

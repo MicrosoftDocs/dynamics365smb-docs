@@ -1,9 +1,9 @@
 ---
 title: Using Word Templates for Bulk Communications | Microsoft Docs
 description: Word templates can make it easy to bulk create documents that are personalized for specific entities.
-author: bholtorf
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

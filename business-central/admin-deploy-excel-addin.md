@@ -2,7 +2,7 @@
 title: Getting the Business Central Add-in for Excel
 description: Learn about how to get users the Business Central add-in for Excel. 
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,16 +1,17 @@
 ---
-    title: Assembly Management
-    description: Support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality.
-    author: SorenGP
+title: Assembly Management
+description: Support companies that supply products to their customers by combining components in simple processes without the need of manufacturing functionality.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: kit, kitting
-    ms.date: 06/14/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: kit, kitting
+ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.date: 06/14/2021
+ms.author: edupont
 
 ---
 # Assembly Management

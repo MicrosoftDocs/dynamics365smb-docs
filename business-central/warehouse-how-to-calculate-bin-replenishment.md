@@ -1,16 +1,17 @@
 ---
-    title: How to Calculate Bin Replenishment | Microsoft Docs
-    description: When the location is set up to use directed put-away and pick, priorities of the put-away template for the location are taken into account when putting receipts away.
-    author: SorenGP
+title: Calculate Bin Replenishment
+description: When the location is set up to use directed put-away and pick, priorities of the put-away template for the location are taken into account when putting receipts away.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 7315, 7351
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Calculate Bin Replenishment
@@ -45,8 +46,8 @@ The next time you calculate bin replenishment, the suggestions that you have del
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Picking by FEFO](warehouse-picking-by-fefo.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
-[Assembly Management](assembly-assemble-items.md)    
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md) 
+[Assembly Management](assembly-assemble-items.md)
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

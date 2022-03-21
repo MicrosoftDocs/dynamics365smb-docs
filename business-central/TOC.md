@@ -88,14 +88,16 @@
 ##### [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
 
 ## Try
+### [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)
+### [Dynamics 365 Business Central trial FAQ](trial-faq.md)
 ### [Trials and Subscriptions](across-preview.md)
-### [Getting Ready for Doing Business](ui-get-ready-business.md)
+### [Get Ready for Doing Business](ui-get-ready-business.md)
 ### [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ### [Extending Your Trial Version](admin-extend-trial.md)
 ### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ## Buy
-### [Getting Started with a Subscription](across-preview.md#getting-started-with-a-subscription)
-### [Getting Ready for Doing Business](ui-get-ready-business.md)
+### [Get Started with a Subscription](across-preview.md#get-started-with-a-subscription)
+### [Get Ready for Doing Business](ui-get-ready-business.md)
 
 ## Quick Starts
 ### [Business Central Quick Starts](quick-start-business-central.md)
@@ -116,29 +118,29 @@
 #### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 #### [Set Up Reminder Terms and Levels](finance-setup-reminders.md)
 #### [Set Up Finance Charge Terms](finance-setup-finance-charges.md)
-#### [Set Up Value-Added Tax (VAT)](finance-setup-vat.md)
 #### [Set Up Calculations and Posting Methods for Value-Added Tax (VAT)](finance-setup-vat.md)
 #### [Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)
 #### [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md)
-#### [Setting Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)
+#### [Set Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)
+#### [Set Up Currencies](finance-set-up-currencies.md)
 #### [Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md)
 #### [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)
 #### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 #### [Set Up Multiple Interest Rates](finance-how-to-set-up-multiple-interest-rates.md)
 #### [Set Up Invoice Rounding](finance-set-up-invoice-rounding.md)
-#### [Setting Up the Chart of Accounts](finance-setup-chart-accounts.md)
-#### [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
+#### [Set Up the Chart of Accounts](finance-setup-chart-accounts.md)
+#### [Set Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
 #### [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)
 #### [Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)
 #### [Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)
 ### Setting Up Banking
-#### [Setting Up Banking](bank-setup-banking.md)
+#### [Set Up Banking](bank-setup-banking.md)
 #### [Set Up Bank Accounts](bank-how-setup-bank-accounts.md)
 #### [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)
 #### [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)
 #### [Select a Check Layout](finance-how-define-check-layouts.md)
 ### Setting Up Sales
-#### [Setting Up Sales](sales-setup-sales.md)
+#### [Set Up Sales](sales-setup-sales.md)
 #### [Register New Customers](sales-how-register-new-customers.md)
 #### [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md)
 #### [Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)
@@ -298,6 +300,7 @@
 #### [Changing from a QuickBooks App to Business Central](across-quickbooks-to-business-edition.md)
 #### [Bulk Invoicing for Microsoft Bookings](finance-bookings.md)
 #### [Import Business Data from Other Finance Systems](across-import-data-configuration-packages.md)
+### [Company Information Overview](admin-company-information.md)
 ### [Create Number Series](ui-create-number-series.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
 ### [Set Up Printers](ui-specify-printer-selection-reports.md)
@@ -483,6 +486,7 @@
 #### [Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries](receivables-how-apply-sales-transactions-manually.md)
 #### [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)
 #### [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Send Reminders of Outstanding Balances](receivables-send-reminders.md)
 #### [Block Customers](receivables-how-block-customers.md)
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md)
@@ -556,7 +560,7 @@
 #### [Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Reporting Costs and Reconciling with the General Ledger
-##### [Reporting Costs](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Reporting Costs](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)
 ##### [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
 #### [Adjust and Reconcile Inventory Cost with General Ledger with Job Queue](finance-adjust-reconcile-inventory-cost-job-queue.md)
@@ -583,6 +587,7 @@
 #### [Company Consolidation](finance-consolidated-company-reporting.md)
 #### [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md)
 ### [Understanding the General Ledger and the COA](finance-general-ledger.md)
+### [Currencies in Business Central](finance-currencies.md)
 ### [Working with Dimensions](finance-dimensions.md)
 ### [Troubleshooting and Correcting Dimensions](finance-troubleshooting-correcting-dimensions.md)
 ### [Create G/L Budgets](finance-how-create-budgets.md)
@@ -1261,7 +1266,6 @@
 #### [Local Functionality in the Mexican Version](LocalFunctionality/Mexico/mexico-local-functionality.md)
 #### Tax
 ##### [Set Up and Generate DIOT Reports](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
-##### [Set Up Calculations and Posting Methods for VAT](finance-setup-vat.md)  
 ##### [Tax Identification Types for Mexico](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [VAT Recalculation](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Electronic Invoicing
@@ -1461,6 +1465,7 @@
 ##### [Inventory Act of Receivables And Payables INV-17](LocalFunctionality/Russia/Inventory-Act-of-Receivables-And-Payables-INV-17.md)
 ##### [Item General Ledger Turnover](LocalFunctionality/Russia/Item-General-Ledger-Turnover.md)
 ##### [Create the TORG-29 Goods Report](LocalFunctionality/Russia/How-to-Create-the-TORG-29-Goods-Report.md)
+##### [Bill of Lading](LocalFunctionality/Russia/bill-of-lading.md)
 #### Human Resources
 ##### [HR in the Russian Version](LocalFunctionality/Russia/Human-Resources.md)
 ##### [Payroll](LocalFunctionality/Russia/Payroll.md)
@@ -1605,6 +1610,120 @@
 ##### [Print Troubleshooting Reports](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Submit Regulatory Alerts](submit-regulatory-alerts.md)
 
+<!--Reporting landing page-->
+# Business Intelligence and reporting 
+
+## [Overview](reports-bi-reporting.md)
+
+## Use Reports in Daily Work
+### [Overview](reports-use-reports.md)
+### [Running Reports](ui-work-report.md)
+### [Bookmarking a Report](ui-bookmarks.md)
+### [Analyzing Report Data with Excel](report-analyze-excel.md)
+<!--### [Using the report inbox] (missing.md)-->
+### [Printing Reports](ui-specify-printer-selection-reports.md#default)
+### [Scheduling Reports](ui-work-report.md#ScheduleReport)
+### [Managing Saved Report Settings](reports-saving-reusing-settings.md)
+### [Changing the default Report Layout](ui-how-change-layout-currently-used-report.md)
+
+## Built-in Reports
+### [Report Overview](reports-available-reports.md)
+### Finance
+#### [Financial analytics](bi.md)
+#### [Analyze Financial Statements With Excel](finance-analyze-excel.md)
+#### [Key Financial Reports](finance-reports.md)
+#### [Accounts Receivable Reports](receivables-reports.md)
+#### [Accounts Payable Reports](payables-reports.md)
+#### [Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
+#### [Consolidate Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
+
+### Sales
+#### [Sales Reports](sales-reports.md)
+#### [Blanket Sales Order Status](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
+#### [Package Tracking](sales-how-track-packages.md)
+#### [View unposted and posted blanket sales order lines](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
+
+### Purchasing
+#### [Purchasing Reports](purchase-reports.md)
+#### [View Purchasing Ledger Entries](ui-post-purchases.md#viewing-ledger-entries)
+
+### Inventory and Warehouse
+#### [Inventory and Warehouse Reports](inventory-wms-reports.md)
+#### [Item Availability](inventory-how-availability-overview.md)
+#### [Track Items with Serial, Lot, and Package Numbers](inventory-how-work-item-tracking.md)
+#### [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)
+#### [Audit the Reconciliation between the Inventory Ledger and the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
+#### [View cross-docked items in a shipment or pick worksheet](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+
+### Project
+#### [Project Reports](project-reports.md)
+#### [View job usage estimates](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
+#### [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md)
+
+### Fixed Assets
+#### [Fixed Assets Reports](fa-reports.md)
+#### [Monitoring maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
+#### [Monitoring insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
+#### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+#### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+#### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+
+### Assembly Management
+#### [Assembly Management Reports](assembly-reports.md)
+#### [View the Bill Of Material (BOM) structure](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+
+### Manufacturing
+#### [Production Reports](production-reports.md)
+#### [Viewing Load on Work and Machine Centers](production-how-to-view-the-load-on-work-centers.md)
+#### [Viewing work center ledger entries](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+
+### Service Management
+#### [Viewing Service Statistics](service-service-statistics.md)
+#### [Service orders overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Service quotes overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Posted service document overview](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+## Ad-hoc Data Analysis
+### [Overview](reports-adhoc-analysis.md)
+### [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
+### [Searching and Filtering FAQ](ui-search-filter-faq.yml)
+### [Analyzing page data in Excel](across-work-with-excel.md)
+### [Analyzing report data with Excel](ui-work-report.md#saving-a-report-to-a-file)
+### [Financial analytics](bi.md)
+
+## Built-in Analytics 
+### [Overview](reports-built-in-analytics.md)
+### [Intelligent Insights](about-intelligent-cloud.md)
+### [Work with Power BI Reports](across-working-with-powerbi.md)
+### [Financial analytics](bi.md)
+### [Analyze Financial Statements With Excel](finance-analyze-excel.md)
+### [Consolidate Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
+### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
+
+## Analyze Data in Business Intelligence Tools
+### [Overview](reports-external-analysis.md)
+### [Using Power BI with Business Central](admin-powerbi.md)
+### [Analyze Financial Statements with Excel](finance-analyze-excel.md)
+### [Extracting data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Reading data with the Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+## Developing reports
+### [Overview](reports-develop-reports.md)
+### Developing report layouts
+#### [Layout types (Word and RDLC)](ui-manage-report-layouts.md)
+#### [Create a new Layout](ui-how-create-custom-report-layout.md)
+#### [Using fonts in Layouts](ui-fonts.md)  
+#### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
+#### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
+#### [Update a Layout](ui-update-report-layouts.md)
+#### [Change the default Layout](ui-how-change-layout-currently-used-report.md)
+### Developing report datasets
+#### [Report Development Guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
+#### [Report Performance Tuning Guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+
+<!--Security landing page-->
 # Security, Privacy, Compliance
 ## Security and Protection
 ### [Security and Protection Overview (in English only)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

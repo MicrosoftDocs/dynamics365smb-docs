@@ -1,34 +1,34 @@
 ---
-    title: How to Create Manual Remittance Payments
-    description: Generally, payments are created automatically in the payment journal using the remittance suggestion function.
+title: Create Manual Remittance Payments [NO]
+description: Generally, payments are created automatically in the payment journal using the remittance suggestion function in the Norwegian version of Business Central.
+author: SorenGP
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
-# Create Manual Remittance Payments
+# Create Manual Remittance Payments in the Norwegian Version
+
 Generally, payments are created automatically in the payment journal using the remittance suggestion function. However, you can also create a payment manually, either as a payment of an existing invoice or as a payment without a link to an existing invoice, such as a payment to a vendor.  
 
 ## To create a manual remittance payment  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Info**, and then choose the related link.  
-2.  On the **Payment Info** page, choose the **Initialize Payment Info** action.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Info**, and then choose the related link.  
+2. On the **Payment Info** page, choose the **Initialize Payment Info** action.  
 
     If the payment is linked to an existing vendor ledger entry, information will be transferred from the entry. If the payment is not linked to a vendor ledger entry, only partial information will be created.  
 
-3.  Choose the **OK** button.  
+3. Choose the **OK** button.  
 
-## See Also  
+## See Also
+
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
  [Create Remittance Accounts](how-to-create-remittance-accounts.md)   

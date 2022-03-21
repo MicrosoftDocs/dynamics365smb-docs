@@ -1,9 +1,9 @@
 ---
     title: Handling Lot Sizes
     description: This topic describes different ways to handle lot sizes. 
-    author: bholtorf
+    author: brentholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

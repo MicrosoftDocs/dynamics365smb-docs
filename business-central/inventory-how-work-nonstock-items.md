@@ -1,15 +1,14 @@
 ---
-title: Create and Manage Catalog Items| Microsoft Docs
+title: Create and Manage Catalog Items
 description: Describes how to trade in items that are in your vendors list of items but not in your own list of items.
-documentationcenter: ''
 author: SorenGP
 
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
+ms.search.forms: 5725, 5726, 5732
 ms.date: 04/01/2021
 ms.author: edupont
 

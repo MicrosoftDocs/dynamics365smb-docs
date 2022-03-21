@@ -3,7 +3,7 @@ title: Set Up FA Insurance
 description: You set up an insurance card and general insurance policy information to manage fixed asset insurance coverage.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

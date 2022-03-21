@@ -4,7 +4,7 @@ description: Use the Cloud Migration Base extension to connect your on-premises 
 author: edupont04
 manager: edupont
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

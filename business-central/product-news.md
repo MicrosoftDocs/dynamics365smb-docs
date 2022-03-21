@@ -3,7 +3,7 @@ title: New and planned in the default version
 description: Learn where to find the latest news and updates for new and existing features in the default version of Business Central.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 06/22/2021

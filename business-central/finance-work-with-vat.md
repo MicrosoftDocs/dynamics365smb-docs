@@ -1,21 +1,21 @@
 ---
 title: How to work With VAT on Sales and Purchases
 description: This topic describes the various ways of working with VAT both manually and with automatic setup, to help you meet country specific regulations.
-author: bholtorf
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases
-ms.search.form: 118, 130, 142, 459, 460, 525
+ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
 
 ---
 # Work with VAT on Sales and Purchases
-If your country or region requires you to calculate value-added tax (VAT) on sales and purchase transactions so that you can report the amounts to a tax authority, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to calculate VAT automatically on sales and purchase documents. For more information, see [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).
+If your country or region requires you to calculate and report value-added tax (VAT) on sales and purchase transactions, you can set up [!INCLUDE[prod_short](includes/prod_short.md)] to calculate VAT. For more information, see [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).
 
 There are, however, some VAT-related tasks that you can do manually. For example, you might need to correct a posted amount if you discover that a vendor uses a different rounding method.  
 
@@ -23,35 +23,48 @@ There are, however, some VAT-related tasks that you can do manually. For example
 > You can let [!INCLUDE[prod_short](includes/prod_short.md)] validate VAT registration numbers and other company information when you create or update documents. For more information, see [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md).
 
 ## Calculating and Displaying VAT Amounts in Sales and Purchase Documents  
-You can calculate and display VAT amounts in sales and purchase documents differently, depending on the type of customer or vendor that you are dealing with. You can also override the calculated VAT amount to match the VAT amount calculated by your vendor on a given transaction.  
+When you choose an item number in the **No.** field on a sales or purchase document, [!INCLUDE[prod_short](includes/prod_short.md)] fills in the **Unit Price** and **Line Amount** fields. The unit price comes from either the **Item** card or the item prices allowed for the item and customer. [!INCLUDE[prod_short](includes/prod_short.md)] calculates the line amount when you enter a quantity for the line.  
 
-### Unit Price and Line Amount Including/Excluding VAT on Sales Documents  
-When you choose an item number in the **No.** field on a sales document, [!INCLUDE[prod_short](includes/prod_short.md)] fills in the **Unit Price** field. The unit price comes from either the **Item** card or the item prices allowed for the item and customer. [!INCLUDE[prod_short](includes/prod_short.md)] calculates the **Line Amount** when you enter a quantity for the line.  
+If you want the unit prices and line amounts to include VAT, for example, if you are selling to retail consumers, choose the **Prices Including VAT** check box on the document. For more information, see [Including or Excluding VAT in Prices and Line Amounts](#including-or-excluding-vat-in-prices-and-line-amounts). 
 
-If you are selling to retail consumers, you may want prices on sales documents to include VAT. To do this, choose the **Prices Including VAT** check box on the document.  
+You can calculate and display VAT amounts in sales and purchase documents differently, depending on the type of customer or vendor you're dealing with. You can also change the calculated VAT amount manually, for example, so that it matches the VAT amount calculated by your vendor on a given transaction.
 
-### Including or Excluding VAT on Prices
-If the **Prices Including VAT** check box is chosen on a sales document, the **Unit Price** and **Line Amount** fields include VAT, and the field names will also reflect this. By default, VAT is not included in these fields.  
+### Including or Excluding VAT in Prices and Line Amounts
+If you choose the **Prices Including VAT** check box on a sales document, the **Unit Price** and **Line Amount** fields will include VAT. By default, the values in these fields do not include VAT. The names of the fields reflect whether prices include VAT.  
 
-If the field is not selected, application will fill in the **Unit Price** and **Line Amount** field excluding VAT and the field names will reflect this.  
-
-You can set up the default setting of the **Prices Including VAT** for all sales documents for a customer in the **Prices Including VAT** field on the **Customer** card. You can also set up item prices to include or exclude VAT. Normally, item prices contained in the Item Card will be the price excluding VAT. The application uses the information from the **Price Includes VAT** field on the **Item** card to determine the unit price amount for sales documents.  
+You can set up the default setting of the **Prices Including VAT** for all sales documents for a customer in the **Prices Including VAT** field on the **Customer** card. You can also set up item prices to include or exclude VAT. Typically, prices on the Item Card will exclude VAT. 
 
 The following table provides an overview of how application calculates the unit price amounts for a sales document when you have not set up prices on the **Sales Prices** page:  
 
-|**Price Includes VAT field on Item Card**|**Prices Including VAT field in Sales Header**|**Action Performed**|  
+|**Price Includes VAT field on Item Card**|**Prices Including VAT field**|**Action Performed**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
-|No check mark|No check mark|The **Unit Price** on the Item Card is copied to **Unit Price Excl. VAT** field on the sales lines.|  
-|No check mark|Check mark|The application calculates the VAT amount per unit and adds to the **Unit Price** on the Item Card. This total Unit Price is then entered in the **Unit Price Incl. VAT field** on the sales lines.|  
-|Check mark|No check mark|The application calculates the VAT amount included in the **Unit Price** on the Item Card using the VAT% related to the VAT Bus. Posting Gr. (Price) and the VAT Prod. Posting Group combination. The **Unit Price** on the Item Card, reduced by the VAT amount, is then entered in the **Unit Price Excl. VAT** field in the sales lines.|  
-|Check mark|Check mark|The **Unit Price** on the Item Card is copied to **Unit Price Incl. VAT** field on the sales lines.|
+|Not Enabled|Not Enabled|The **Unit Price** on the Item Card is copied to **Unit Price Excl. VAT** field on the sales lines.|  
+|Not Enabled|Enabled|The application calculates the VAT amount per unit and adds to the **Unit Price** on the Item Card. This total unit price is then entered in the **Unit Price Incl. VAT field** on the sales lines.|  
+|Enabled|Not Enabled|The application calculates the VAT amount included in the **Unit Price** field on the **Item Card** using the VAT percentage related to the VAT Bus. Posting Gr. (Price) and the VAT Prod. Posting Group combination. The **Unit Price** on the Item Card, reduced by the VAT amount, is then entered in the **Unit Price Excl. VAT** field in the sales lines. For more information, see [Using VAT Business Posting Groups and Customer Price Groups](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups).|  
+|Enabled|Enabled|The **Unit Price** on the Item Card is copied to **Unit Price Incl. VAT** field on the sales lines.|
+
+#### Using VAT Business Posting Groups and Customer Price Groups 
+If you want prices to include VAT, you can use VAT business posting groups to calculate the amount based on the VAT posting setup for the group. For more information, see [Set up VAT business posting groups](finance-setup-vat.md#set-up-vat-business-posting-groups).
+
+Depending on what you want to do, you can assign a VAT business posting group to customers or sales documents in the following ways:
+
+* To use the same VAT rate for all customers, you can choose a group in the **VAT Business Posting Group (Price)** field on the **Sales & Receivables Setup** page.
+* To use a VAT rate for a specific customer, you can choose a group in the **VAT Business Posting Group (Price)** field on the **Customer Card** page. 
+* To use a VAT rate for a specific of customers, You can choose a group in the **VAT Business Posting Group (Price)**field on the **Customer Price Group** page. For example, this is useful when you want a price to apply to all customers in a certain geographical region or a specific industry.
+* On all sales documents in the **VAT Business Posting Group** field. The VAT amount specified for the group is used only for the document you're currently working on.
+
+> [!NOTE]
+> If you do not specify a group in the **VAT Business Posting Group (Price)** field VAT will not be included in prices.
+
+#### Examples
+Factors such as the country or region you're selling in, or the type of industries you sell to, can impact the amount of VAT that you must account for. For example, a restaurant might charge 6% VAT for meals that are eaten in-house, and 17% for takeaway. To accomplish that, you create a VAT business posting group (price) for in-house and one for takeaway.
 
 ## Correcting VAT Amounts Manually in Sales and Purchase Documents  
-You can make corrections to posted VAT entries. This allows you to change the total sales or purchase VAT amounts without changing the VAT base. You may need to do this, for example, if you receive an invoice from a vendor that has calculated VAT incorrectly.  
+You can make corrections to posted VAT entries so that you can change the total sales or purchase VAT amounts without changing the VAT base. For example, if you receive an invoice from a vendor with an incorrect VAT amount.  
 
 Although you may have set up one or more combinations to handle import VAT, you must set up at least one VAT product posting group. For example, you can name it **CORRECT** for correction purposes, unless you can use the same general ledger account in the **Purchase VAT Account** field on the VAT posting setup line. For more information, see [Setting Up to Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).
 
-If a payment discount has been calculated on the basis of an invoice amount that includes VAT, you revert the payment discount part of the VAT amount when the payment discount is granted. Note that you must activate the **Adjust for Payments Disc.** field in both the general ledger setup in general and the VAT posting setup for specific combinations of a VAT business posting group and a VAT product posting group.  
+If a payment discount has been calculated based on an invoice amount that includes VAT, you revert the payment discount part of the VAT amount when the payment discount is granted. Note that you must activate the **Adjust for Payments Disc.** field in both the general ledger setup in general and the VAT posting setup for specific combinations of a VAT business posting group and a VAT product posting group.  
 
 ### To set the system up for manual VAT entry in sales documents
 The following describes how to enable manual VAT changes on sales documents. The steps are similar on the **Purchases & Payables Setup** page.

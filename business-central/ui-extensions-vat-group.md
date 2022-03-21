@@ -1,10 +1,8 @@
 ---
 title: The VAT Group Management Extension
 description: You can engage with other businesses to form a VAT group, and act as either a member or representative of the group when reporting VAT.
-author: bholtorf
-manager: annbe
+author: brentholtorf
 
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -82,9 +80,9 @@ Set up the VAT group member by starting the **Set up VAT Group Management** assi
 5. Choose **Authentication Type**, choose **OAuth2**, and then choose **Next**.
 6. In the **Client ID** field, enter the ID provided by the VAT group representative.
 7. In the **Client Secret provided by the VAT Group representative** field, enter the secret provided by the VAT group representative.
-8. In the **OAuth 2.0 Authority Endpoint** field, enter *https://login.microsoftonline.com/common/oauth2*.
-9. In the **OAuth 2.0 Resource URL** field, enter *https://api.businesscentral.dynamics.com/*.
-10. In the **OAuth 2.0 Redirect URL** field, enter *https://businesscentral.dynamics.com/OAuthLanding.htm*. 
+8. In the **OAuth 2.0 Authority Endpoint** field, enter `https://login.microsoftonline.com/common/oauth2`.
+9. In the **OAuth 2.0 Resource URL** field, enter `https://api.businesscentral.dynamics.com/`.
+10. In the **OAuth 2.0 Redirect URL** field, enter `https://businesscentral.dynamics.com/OAuthLanding.htm`. 
 11. When you have specified the various fields, choose **Next**, and then enter the user credentials that were provided by the VAT group representative.
 12. Choose the VAT report configuration that you use to report VAT to authorities in your country.
 
@@ -92,7 +90,7 @@ Set up the VAT group member by starting the **Set up VAT Group Management** assi
 
 ## Using the VAT Group Management Features
 
-VAT group members use the standard processes to prepare VAT returns. The only difference is to choose the **VATGROUP** report version, which submits the VAT return to the VAT group representative rather than the authorities. For more information, see [About the VAT Return report](finance-how-report-vat.md#about-the-vat-return-report).
+VAT group members use the standard processes to prepare VAT returns. The only difference is to choose the **VATGROUP** report version, which submits the VAT return to the VAT group representative rather than the authorities. For more information, see [About the VAT Return report](finance-how-report-vat.md#vatreturn).
 
 The following sections describe the tasks that VAT group representatives must perform.
 

@@ -1,9 +1,9 @@
 ---
 title: Opening Business Central Files in OneDrive
 description: Learn how you can share Business Central data through OneDrive for Business. 
-author: bholtorf
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords:

@@ -3,13 +3,13 @@ title: Set Up Intercompany Transaction Posting
 description: Create your intercompany vendors and customers as so-called intercompany partners, and set up an intercompany chart of accounts.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 605, 620, 602, 603, 601, 600, 652, 606, 607, 609, 608, 621
+ms.search.form: 605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621
 ms.date: 04/01/2021
 ms.author: edupont
 

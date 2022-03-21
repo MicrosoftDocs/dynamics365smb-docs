@@ -1,19 +1,21 @@
 ---
-    title: How to Manage Company Configuration in a Worksheet
-    description: The configuration worksheet is the central location in which you can plan, track, and perform your company configuration work. 
-    author: SorenGP
+title: Manage Company Configuration in a Worksheet
+description: The configuration worksheet is the central location in which you can plan, track, and perform your company configuration work. 
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/14/2021
-    ms.author: edupont
+    
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 8632
+ms.date: 06/14/2021
+ms.author: edupont
 
 ---
 # Manage Company Configuration in a Worksheet
+
 The configuration worksheet is the central location in which you can plan, track, and perform your configuration work. You can create a worksheet for each company that you are working with or create a standard configuration worksheet that can be used for configuring multiple identical companies.  
 
 The first step in preparing a configuration package is to select a company that you have already set up and modified to suit most of your solution needs. This company serves as the baseline for your configuration work on new companies. In the worksheet, you designate the tables that you want your configuration to control and handle. Since most tables in [!INCLUDE[prod_short](includes/prod_short.md)] have relationships and dependencies to other tables, you should also include those related tables as necessary. Together, these tables will then serve as the structure around which you will build a new company. Subsequent steps help you package and then deploy your configuration.  

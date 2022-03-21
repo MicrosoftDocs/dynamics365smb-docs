@@ -3,7 +3,7 @@
     description: The planning functions suggest possible actions for the user to take based on the demand/supply situation and the items' planning parameters.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

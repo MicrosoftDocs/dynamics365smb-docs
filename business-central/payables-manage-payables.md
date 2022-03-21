@@ -3,7 +3,7 @@ title: Overview of Tasks to Manage Accounts Payable
 description: Outlines tasks to manage accounts payable, for example, paying creditors or applying outgoing payments to ledger entries to close invoices or credit memos.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na

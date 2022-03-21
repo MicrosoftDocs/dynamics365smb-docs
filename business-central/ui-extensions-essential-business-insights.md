@@ -2,9 +2,9 @@
 title: Display Actionable Insights in Role Centers
 description: Learn how the Essential Business Insights extension rotates a series of business insights on Role Centers.
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

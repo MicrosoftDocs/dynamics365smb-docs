@@ -3,7 +3,7 @@
     description: Set up your business to report on a cash basis with Cash Accounting Criteria (CAC) using the 340 Reports for Small Businesses.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

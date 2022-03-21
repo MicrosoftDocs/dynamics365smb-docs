@@ -3,7 +3,7 @@
     description: A Work Center card organizes the fixed values and requirements of the production resource, and thus governs the output of production performed in that work center.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

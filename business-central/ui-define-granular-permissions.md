@@ -3,13 +3,13 @@ title: Define Granular Permissions
 description: This topic describes how to define granular permissions by giving certain users access to objects and assigning permission sets to them.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 1, 119, 9807, 9808, 9830, 9831
+ms.search.form: 1, 119, 8930, 9807, 9808, 9830, 9831
 ms.date: 06/23/2021
 ms.author: edupont
 
@@ -245,7 +245,6 @@ Administrators can define periods of time during which specified users are able 
 2. On the **User Setup** page opens, choose the **New** action.
 3. In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users in the system.
 4. Fill in the fields as necessary.
-
 
 ## Viewing permission changes telemetry 
 

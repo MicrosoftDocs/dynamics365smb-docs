@@ -4,7 +4,7 @@ description: After you have set up electronic banking and generated payment sugg
 
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

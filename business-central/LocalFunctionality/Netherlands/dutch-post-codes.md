@@ -3,7 +3,7 @@
     description: Subscribe to getting post codes and post code updates for your business. These updates are important for marketing and relationship management activities.
     author: edupont04
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

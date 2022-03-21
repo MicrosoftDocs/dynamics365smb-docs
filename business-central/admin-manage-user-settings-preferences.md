@@ -3,7 +3,7 @@ title: Manage user settings and preferences as the administrator
 description: Manage user settings and preferences in Dynamics 365 Business Central.
 author: sorenfriisalexandersen
 
-ms.service: dynamics365-business-central
+
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na

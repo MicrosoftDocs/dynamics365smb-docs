@@ -3,7 +3,7 @@ title: Set Up Fixed Assets
 description: Learn about the sequence of tasks you must do to set up fixed assets, such as machinery or buildings.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

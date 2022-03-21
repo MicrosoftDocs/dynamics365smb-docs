@@ -3,7 +3,7 @@ title: Set Up and Export Sales VAT Advance Notifications
 description: In Business Central, to create valid sales VAT advance notifications, you must set up the declaration and other setup pages.
 author: sorenfriisalexandersen
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

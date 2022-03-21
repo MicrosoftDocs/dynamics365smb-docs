@@ -1,9 +1,9 @@
 ---
 title: Company and Business Unit Mapping | Microsoft Docs
 description: Companies are both a legal and business constructs, and they are used to secure and visualize business data.
-author: bholtorf
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

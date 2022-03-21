@@ -3,7 +3,7 @@
     description: Attach a hyperlink to a document, or a website to a specific record, such as a customer or document.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

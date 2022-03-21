@@ -3,7 +3,7 @@
     description: You can export financial data and tax data according to the process for digital audits (GoBD/GDPdU), which is based on German tax law.
     author: edupont
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

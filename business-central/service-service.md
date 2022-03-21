@@ -3,7 +3,7 @@ title: Service Management
 description: Learn to use features in Business Central designed manage and track services to support repair shop and field service operations.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

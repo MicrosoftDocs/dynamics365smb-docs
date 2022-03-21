@@ -3,7 +3,7 @@
     description: Read about how to manage the flow of serial and lot numbers in your inventory using the Item Tracking Lines page.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

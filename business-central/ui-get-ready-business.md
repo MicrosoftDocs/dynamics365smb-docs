@@ -1,9 +1,9 @@
 ---
-title: Getting Ready for Doing Business
+title: Get Ready for Doing Business
 description: Outlines the assisted setup guides, videos, help topics, and pages and pages to use to get ready for doing business in Business Central.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,7 +12,7 @@ ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 09/29/2021
 ms.author: edupont
 ---
-# Getting Ready for Doing Business
+# Get Ready for Doing Business
 
 Congratulations, you have just initiated your first company in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -82,6 +82,7 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 [Business Central Quick Starts](quick-start-business-central.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
+[Company Information Overview](admin-company-information.md)  
 [Accessibility and Keyboard Shortcuts](ui-accessibility.md)  
 [Trials and Subscriptions](across-preview.md)  
 [Business Functionality](across-business-functionality.md)  
@@ -89,6 +90,7 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 [Search in the help pane](product-help-and-support.md#search-in-the-help-pane)  
 [Resources for Help and Support](product-help-and-support.md)  
 [Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Migrate Data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

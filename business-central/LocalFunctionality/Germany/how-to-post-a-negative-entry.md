@@ -3,7 +3,7 @@ title: How to Post a Negative Entry [DE]
 description: Use the Correction field to post a negative debit instead of a credit, or to post a negative credit instead of a debit on an account to meet legal requirements.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 06/18/2021

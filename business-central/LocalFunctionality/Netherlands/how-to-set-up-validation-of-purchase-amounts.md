@@ -3,7 +3,7 @@ title: Set Up Validation of Purchase Amounts [NL]
 description: Activate the Check Doc. Total Amounts function to validate the total amount of purchase documents before posting a purchase invoice and purchase credit memo.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 06/25/2021

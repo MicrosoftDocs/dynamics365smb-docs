@@ -1,9 +1,9 @@
 ---
 title: Synchronizing Business Central and Dataverse
 description: Learn about synchronizing data between Business Central and Dataverse.
-author: bholtorf
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

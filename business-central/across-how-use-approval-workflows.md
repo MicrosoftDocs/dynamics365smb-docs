@@ -3,7 +3,7 @@ title: Approve or Reject Documents in Workflows| Microsoft Docs
 description: Request, reject, or delegate an approval of, for example, a purchase or sales document, as part of a workflow.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: reject, delegate, request

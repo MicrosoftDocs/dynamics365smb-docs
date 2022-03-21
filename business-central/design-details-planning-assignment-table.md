@@ -3,7 +3,7 @@
     description: This topic provides insight into what happens when a change in the demand or supply patterns requires that you calculate how you plan for an item.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,21 +1,21 @@
 ---
-title: Create and Run a Batch Job | Microsoft Docs
+title: Run Batch Jobs and XMLports
 description: You run batch jobs to process data and update information, for example, to do periodic accounting activities, or to do calculations.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
+ms.search.form: 672, 676, 682, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: solsen
 
 ---
 # Run Batch Jobs and XMLports
+
 A batch job is a routine that processes data in batches, for example the **Adjust Exchange Rates** batch job. There are batch jobs that perform periodic accounting activities, such as closing the income statement at the end of a fiscal year. Many batch jobs do calculation work, such as calculation of finance charges, exchange rate adjustment, and calculation of unit prices.
 
 A batch job is like a report, except the batch job uses the result of its work to update information directly, instead of printing the results.

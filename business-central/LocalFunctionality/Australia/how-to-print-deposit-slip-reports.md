@@ -3,7 +3,7 @@
     description: The Deposit Slip report displays cash and check details in a format required by the bank in the Australian version.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

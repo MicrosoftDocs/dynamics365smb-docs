@@ -3,7 +3,7 @@ title: Set Up Bank Data Conversion
 description: You can set up bank accounts to keep track of transactions and import or export bank feeds, such as Yodlee.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

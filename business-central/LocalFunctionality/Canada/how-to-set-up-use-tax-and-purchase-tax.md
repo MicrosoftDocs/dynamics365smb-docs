@@ -3,7 +3,7 @@
     description: Sales and purchase tax includes taxes that companies pay for using items in the Canadian version.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

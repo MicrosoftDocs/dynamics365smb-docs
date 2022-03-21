@@ -3,7 +3,7 @@ title: Receive and Convert Electronic Documents
 description: This topic describes how to receive electronic documents directly from trading partners or from an OCR service.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

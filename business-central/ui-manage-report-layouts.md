@@ -90,8 +90,10 @@ In addition to the type, layouts are further divided into three categories, base
 
   For more information, see [Create and Modify Custom Report Layouts (legacy)](ui-how-create-custom-report-layout.md).
 
+For information that will help you decide what type is best for you, see [Decide what type of layout you want](ui-get-started-layouts..md#decide).
+
 > [!IMPORTANT]
-> The important thing to remember is that you can't modify extension layouts from the Business Central client. For example, you aren't allowed to change the layout name or type, or upload and replace it with another version. If you try, you'll get an error message. You'll have to create a user-defined or custom layout based on the extension layout instead.
+> One important thing to remember is that you can't modify extension layouts from the Business Central client. For example, you aren't allowed to change the layout name or type, or upload and replace it with another version. If you try, you'll get an error message. You'll have to create a user-defined or custom layout based on the extension layout instead.
 
 <!--
 ### Built-in and custom report layouts

@@ -34,7 +34,7 @@ With this concept in mind. there are basically three or four tasks involved in s
 
 ## Get started
 
-Depending on what your situation is, the actual tasks will vary. Use the following table for specific guidelines to help you get started.
+Depending on what your situation is, the actual tasks will vary. Use the following table to help you get started.
 
 |What do you want to do?|See...|
 |-----------------------|------|
@@ -63,7 +63,7 @@ There are two ways to create a new layout from an existing. One way is by saving
 
 ## [Copying](#tab/copy)
 
-Copying a layout is a quick and easy way to create a new layout based aon an existing layout. To make modifications to the layout, though, you still have to export it. 
+Copying a layout is a quick and easy way to create a new layout that the same as an existing layout. Once you have the copy, you make modifications by exporting the layout. 
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Select the layout that you want a copy of for your new layout, then choose the **Edit Info** action.
@@ -78,7 +78,7 @@ Copying a layout is a quick and easy way to create a new layout based aon an exi
    The new layout shows in the **Report Layouts** page.
 5. If you want to make changes to the new layout, see [Modify an existing layout](#modify).
 
-### [Exporting](#tab/export)
+### [Exporting/Importing](#tab/export)
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Select the layout that you want a copy of for your new layout, then choose the **Export Layout** action.
@@ -127,6 +127,8 @@ Follow these steps to modify an existing user-defined layout.
 
    * [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
    * [Work with Excel Layouts](ui-excel-report-layouts.md)
+   * [Work with RDLC Layouts](ui-rdlc-report-layouts.md)
+
 
    Make changes to the file and save it.
 

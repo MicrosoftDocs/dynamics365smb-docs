@@ -18,7 +18,7 @@ Business Central comes with many built-in layouts that you can use on your repor
 
 ## Overview
 
-When working with report layouts, it helps to think of the layout as a file that's imported and assigned to a report. Regardless of the layout type, how you manage layouts in Business Central is basically the same. For the most part, you'll work from the **Report Layouts** page. The main difference is how you design the layout using the application software that it's built on, like Word, Excel, or SQL Server Report Builder.
+When working with report layouts, it helps to think of the layout as a file that's imported and assigned to a report. Regardless of the layout type, how you manage layouts in Business Central is basically the same. For the most part, you'll work from the **Report Layouts** page. The main difference is how you design the layout, which is done by using the application software that it's built on, like Word, Excel, or SQL Server Report Builder.
 
 With this concept in mind. there are basically three or four tasks involved in setting up a layout on a report:
 
@@ -27,12 +27,10 @@ With this concept in mind. there are basically three or four tasks involved in s
 3. Make changes to the layout file in the appropriate application.
 4. Add the new layout file to the report.
 
-
-> [!NOTE]
-> You can't edit or replace an extension layout, which is a layout that comes from an extension. You can only replace user-defined layouts. An extension layout has information about the source extension in the **Extension** column.
+> [!IMPORTANT]
+> You can't modify or replace an extension layout, which is a layout that originates from an extension. You can only replace user-defined layouts. On the **Report Layouts** page, an extension layout has information about the source extension in the **Extension** column.
 >
 > To learn about the difference between extension layouts and user-defined layouts, see [Layout source](ui-manage-report-layouts.md#layout-sources).
-
 
 ## Get started
 
@@ -71,11 +69,7 @@ Copying a layout is a quick and easy way to create a new layout based aon an exi
    The **Report Layouts** page appears and lists all the layouts currently available for all reports.
 2. Select the layout that you want a copy of for your new layout, then choose the **Edit Info** action.
 
-    > [!NOTE]
-   > You can't copy a layout that comes from an extension. You can only copy user-defined extensions. An extension layout will include information about the source extension in the **Extension** column.
-    >
-    > To learn about the difference between extension layouts and user-defined layouts, see [Layout source](ui-manage-report-layouts.md#layout-sources).
-
+    If you select an extension layout, you're prompted whether you want to make a copy. 
 3. Change the **Layout Name**.
 4. Turn the **Save Changes to Copy** switch to **On**, then select **OK**
 

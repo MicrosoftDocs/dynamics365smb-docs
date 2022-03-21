@@ -20,28 +20,35 @@ Business Central comes with many built-in layouts that you can use on your repor
 
 When working with report layouts, it helps to think of the layout as a file that's imported and assigned to a report. Regardless of the layout type, how you manage layouts in Business Central is basically the same. For the most part, you'll work from the **Report Layouts** page. The main difference is how you design the layout using the application software that it's built on, like Word, Excel, or SQL Server Report Builder.
 
-With this concept in mind. there are basically three or fours tasks involved in setting up a layout on a report:
+With this concept in mind. there are basically three or four tasks involved in setting up a layout on a report:
 
 1. Decide on the layout type.
 2. Export a copy of an existing layout of the same type to use as a starting point.
 3. Make changes to the layout file in the appropriate application.
 4. Add the new layout file to the report.
 
+
+> [!NOTE]
+> You can't edit or replace an extension layout, which is a layout that comes from an extension. You can only replace user-defined layouts. An extension layout has information about the source extension in the **Extension** column.
+>
+> To learn about the difference between extension layouts and user-defined layouts, see [Layout source](ui-manage-report-layouts.md#layout-sources).
+
+
 ## Get started
 
-However, depending on what your situations is, the actual tasks will vary. Use the following table for specific guidelines to suit your situation.
+Depending on what your situation is, the actual tasks will vary. Use the following table for specific guidelines to suit your situation.
 
 |What do you want to do?|See...|
 |-----------------------|------|
 |Figure out what's the best layout type to use for my situation|[Decide what type of layout you want](#decide)|
-|Create a new layout for a report based on an existing layout, and keep the existing layout as it is.|[Create a new layout](#create)|
-|Make changes to an existing layout used on a report|[Modify a layout](#modify)|
+|Create a new layout for a report that's based on an existing layout, keeping the existing layout as it is.|[Create a new layout](#create)|
+|Make changes to an existing layout that's used on a report|[Modify a layout](#modify)|
 |I have an new version of a layout file for a report. I want to replace the existing layout file.|[Replace a layout](#modify)|
 |Switch the current layout used by a report to another layout|[Setting the Layout Used by a Report](ui-set-report-layout.md)|
 
 ## <a name="decide"></a>Decide what type of layout you want
 
-The first thing to do is to decide which [layout type]() you want, like, Word, Excel, or RDLC [layout type](). The layout typ  will depend on how you want the generated report to look and your knowledge of application for creating the layouts, like Word, Excel, and SQL Server Report Builder.
+The first thing to do is to decide which [layout type](ui-manage-report-layouts.md#layout-types) you want, like, Word, Excel, or RDLC. The layout type  will depend on how you want the generated report to look and your knowledge of application for creating the layouts, like Word, Excel, and SQL Server Report Builder.
 
 * The general design concepts for Word and RDLC layouts are similar. However each type has certain design features that affect how the generated report appears in [!INCLUDE[prod_short](includes/prod_short.md)]. This means that the same report might look different when using the Word report layout compared to the RDLC report layout.
 
@@ -53,24 +60,30 @@ For information about how to switch the layout currently used on a report, see [
 
 ## <a name="create"></a>Create a new layout from an existing layout
 
-There are two ways to create a new layout from an existing. The easiest way is by saving the existing layout to a copy. The other way is to export the existing layout.
-
-> [!NOTE]
-> You can't copy a layout that comes from an extension. You can only copy user-defined extensions. To learn about the difference between extension layouts and user-defined layouts, see [Layout source](ui-manage-report-layouts.md#layout-sources).
+There are two ways to create a new layout from an existing. One way is by saving the existing layout to a copy. The other way is to export the existing layout.
 
 ## [Copying](#tab/copy)
+
+Copying a layout is a quick and easy way to create a new layout based aon an existing layout. To make modifications to the layout, though, you still have to export it. 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 
    The **Report Layouts** page appears and lists all the layouts currently available for all reports.
 2. Select the layout that you want a copy of for your new layout, then choose the **Edit Info** action.
+
+    > [!NOTE]
+   > You can't copy a layout that comes from an extension. You can only copy user-defined extensions. An extension layout will include information about the source extension in the **Extension** column.
+    >
+    > To learn about the difference between extension layouts and user-defined layouts, see [Layout source](ui-manage-report-layouts.md#layout-sources).
+
 3. Change the **Layout Name**.
 4. Turn the **Save Changes to Copy** switch to **On**, then select **OK**
 
    The new layout shoes in the **Report Layouts** page.
-5. If you want to make changes to the new layout, see [Exporting](#exporting).
+5. If you want to make changes to the new layout, see [Modify an existing layout](#modify).
 
 ### [Exporting](#tab/export)
+
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 
@@ -107,6 +120,8 @@ If you want to see how the report looks with the new layout, select the layout i
 
 ## <a name="modify"></a>Modify an existing layout
 
+Follow these steps to modify an existing user-defined layout.
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 
    The **Report Layouts** page appears and lists all the layouts currently available for all reports.
@@ -117,27 +132,48 @@ If you want to see how the report looks with the new layout, select the layout i
    > [!TIP]
    > To help you find the layout, use the **Search** box, **Filter** apne, and columns sorting.
 
-3. Open the layout file in the appropriate application, like Word for a .docx file, Excel for a .xlsx file, or SQL Report Builder for an .rdl file.
+3. Open the layout file in the appropriate application, like Word for a .docx file, Excel for a .xlsx file, or SQL Report Builder for an .rdl file. For more information, see:
+
+   * [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
+   * [Work with Excel Layouts](ui-excel-report-layouts.md)
 
    Make changes to the file and save it.
 
-4. Back on the **Report Layouts**, select the existing layout, then select the **Replace Layout** action.
+4. Back on the **Report Layouts** page, select the existing layout, then select the **Replace Layout** action.
 5. Select **OK** > **Choose** to open file explorer on your device.
 6. Find and select the Excel file, then select **Open**.
 
    The selected file is uploaded to the layout, and you return to the **Report Layouts** page.
 
-## <a name="replace"></a>Replace an existing layout with a new one
+## <a name="replace"></a>Replace an existing layout with a new version
+
+<!--
+> [!NOTE]
+> You can't edit or replace a layout that comes from an extension. You can only replace user-defined layouts An extension layout will include information about the source extension in the **Extension** column.
+>
+> To learn about the difference between extension layouts and user-defined layouts, see [Layout source](ui-manage-report-layouts.md#layout-sources).-->
+
+Follow these steps to replace the existing user-defined layout file with a new file.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
 
    The **Report Layouts** page appears and lists all the layouts currently available for all reports.
 2. Select the existing layout, then select the **Replace Layout** action.
-5. Select **OK** > **Choose** to open file explorer on your device.
-6. Find and select the Excel file, then select **Open**.
+3. Select **OK** > **Choose** to open file explorer on your device.
+4. Find and select the Excel file, then select **Open**.
 
    The selected file is uploaded to the layout, and you return to the **Report Layouts** page.
 
+## Rename a layout
+
+Follow these steps if yoy want to change the name and description of a user-defined layout.
+
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+
+   The **Report Layouts** page appears and lists all the layouts currently available for all reports.
+2. Select the layout that you want to rename, then choose the **Edit Info** action.
+3. Change the **Layout Name**, then select **OK**.
 
 ## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 

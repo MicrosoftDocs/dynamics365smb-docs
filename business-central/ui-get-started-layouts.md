@@ -18,23 +18,23 @@ Business Central comes with many built-in layouts that you can use on your repor
 
 ## Overview
 
-When working with report layouts, it helps to think of the layout as a file that's imported and assigned to a report. Regardless of the layout type, how you manage layouts in Business Central is basically the same. For the most part, you'll work from the **Report Layouts** page. The main difference is how you design the layout, which is done by using the application software that it's built on, like Word, Excel, or SQL Server Report Builder.
+When working with report layouts, it helps to think of the layout as a file that's imported and assigned to a report. Regardless of the layout type, how you manage layouts in Business Central is basically the same. For the most part, you'll work from the **Report Layouts** page. The main difference is how you design the layout, which is done by using the application software that the layout's built on, like Word, Excel, or SQL Server Report Builder.
 
 With this concept in mind. there are basically three or four tasks involved in setting up a layout on a report:
 
 1. Decide on the layout type.
-2. Export a copy of an existing layout of the same type to use as a starting point.
+2. Export a copy of an existing layout to use as a starting point.
 3. Make changes to the layout file in the appropriate application.
 4. Add the new layout file to the report.
 
 > [!IMPORTANT]
-> You can't modify or replace an extension layout, which is a layout that originates from an extension. You can only modify or replace user-defined layouts. On the **Report Layouts** page, an extension layout has information about the source extension in the **Extension** column.
+> You can't modify or replace an extension layout, which is a layout that originates from an extension. You can only modify or replace user-defined layouts. On the **Report Layouts** page, an extension layout will have information about the source extension in the **Extension** column.
 >
 > To learn about the difference between extension layouts and user-defined layouts, see [Layout source](ui-manage-report-layouts.md#layout-sources).
 
 ## Get started
 
-Depending on what your situation is, the actual tasks will vary. Use the following table for specific guidelines to suit your situation.
+Depending on what your situation is, the actual tasks will vary. Use the following table for specific guidelines to help you get started.
 
 |What do you want to do?|See...|
 |-----------------------|------|
@@ -43,6 +43,7 @@ Depending on what your situation is, the actual tasks will vary. Use the followi
 |Make changes to an existing layout that's used on a report|[Modify a layout](#modify)|
 |I have an new version of a layout file for a report. I want to replace the existing layout file.|[Replace a layout](#modify)|
 |Switch the current layout used by a report to another layout|[Setting the Layout Used by a Report](ui-set-report-layout.md)|
+|Change the name and description of a layout|[Rename a layout](#rename-layout)|
 
 ## <a name="decide"></a>Decide what type of layout you want
 

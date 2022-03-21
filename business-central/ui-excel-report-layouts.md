@@ -48,7 +48,7 @@ There are three ways to create an Excel layout file for a report as explained in
 
 You can use the following steps to create an Excel layout from any report, regardless of the current layout type. The Excel layout will contain the required **Data** sheet and table, a **Report Metadata** sheet, and nothing else.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. In the **Report Layouts** list, select any layout for the report, then choose the **Run Report** action.
 3. On the report request page, select **Send to** > **Microsoft Excel Document (data only)** > **OK**.
 
@@ -61,13 +61,13 @@ If there's already an Excel layout for a report, you use the existing layout as 
 
 #### Approach 1: Export the layout from the **Report Layouts** page
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Select the Excel layout from the list, then choose the **Export Layout** action from the top of the page.
 3. Open the file in Excel, make the changes, then save the file.
 
 #### Approach 2: Download the layout from the report's request page
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. In the **Report Layouts** list, select any layout for the report, then choose the **Run Report** action.
 3. On the report request page, select **Download**.
 4. Open the file in Excel, make the changes, then save the file.
@@ -82,7 +82,7 @@ This way is the most advanced. It requires knowledge of AL code, so it target pr
 
 Once you have the Excel layout file, the next task is to add it as a new layout for the report.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layouts**, and then choose the related link.
+[!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Select **New Layout**.
 3. Set the **Report ID** to report.
 4. Enter a name in  **Layout Name**.

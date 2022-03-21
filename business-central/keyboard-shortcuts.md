@@ -236,6 +236,14 @@ Role explorer gives you an overview and quick access to all the business feature
 |Shift F3 or Ctrl+Up Arrow|Move focus to the previous found feature in role explorer.|
 |Ctrl+Shift|Expand or collapse all sub-nodes, in addition to top-level nodes, when you choose the **Expand** or **Collapse** action.|
 
+##  <a name="keypad"></a> Numeric Keypad Shortcuts
+
+The following table describes the shortcuts on a numeric keypad.
+
+|Press these keys<br />(in macOS)|To do this|
+|--------------------------------|----------|
+|Alt+Decimal Separator|Switch the output of the decimal separator key on a numeric keypad.|
+
 ## See also
 
 [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  

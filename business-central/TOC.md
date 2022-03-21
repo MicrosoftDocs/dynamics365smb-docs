@@ -1722,6 +1722,7 @@
 <!--#### [Create a New Layout](ui-how-create-custom-report-layout.md)-->
 #### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
 #### [Work with Excel Layouts](ui-excel-report-layouts.md)
+#### [Work with RDLC Layouts](ui-rdlc-report-layouts.md)
 #### [Using Fonts in Layouts](ui-fonts.md)  
 <!--#### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
 #### [Update a Layout](ui-update-report-layouts.md)-->

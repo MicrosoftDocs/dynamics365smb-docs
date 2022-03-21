@@ -60,7 +60,7 @@ For more information, see [Work with Excel Layouts](ui-excel-report-layouts.md).
 
 RDLC layouts are based on client report definition layout files (.rdl or .rdlc file types). These layouts are created and modified by using SQL Server Report Builder or Microsoft RDLC Report Designer. The design concept for RDLC layouts is similar to Word layouts, where the layout determines what fields to show and how they're arranged. However, designing RDLC layouts is more advanced than Word layouts.
 
-[![Shows the an example of an RDLC layout.](media/rdlc-layout-overview.png)]((media/rdlc-layout-overview.png#lightbox)
+[![Shows the an example of an RDLC layout.](media/rdlc-layout-overview.png)](media/rdlc-layout-overview.png#lightbox)
 
 For more information, see [Create RDL Layout Report](/dynamics365/business-central/dev-itpro/developer/devenv-howto-rdl-report-layout).
 

@@ -431,7 +431,8 @@
 ##### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
 ##### [Workflow Notifications](across-setting-up-workflow-notifications.md)
 ##### [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
-##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
+##### [Create and Modify Layouts](ui-get-started-layouts.md)
+<!--##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)-->
 ##### [Set up Email](admin-how-setup-email.md)
 ##### [Create Workflows](across-how-to-create-workflows.md)
 ##### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
@@ -1717,14 +1718,15 @@
 ### [Overview](reports-develop-reports.md)
 ### Developing report layouts
 #### [Layout types (Word and RDLC)](ui-manage-report-layouts.md)
-#### [Create a New Layout](ui-how-create-custom-report-layout.md)
-#### [Using Fonts in Layouts](ui-fonts.md)  
+#### [Create and Modify Layouts](ui-get-started-layouts.md)
+<!--#### [Create a New Layout](ui-how-create-custom-report-layout.md)-->
 #### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
 #### [Work with Excel Layouts](ui-excel-report-layouts.md)
-#### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
-#### [Update a Layout](ui-update-report-layouts.md)
-#### [Set the Layout](ui-set-report-layout.md)
-#### [Set the Layout (legacy)](ui-how-change-layout-currently-used-report.md)
+#### [Using Fonts in Layouts](ui-fonts.md)  
+<!--#### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
+#### [Update a Layout](ui-update-report-layouts.md)-->
+#### [Set the Default Layout](ui-set-report-layout.md)
+<!--#### [Set the Layout (legacy)](ui-how-change-layout-currently-used-report.md)-->
 ### Developing report datasets
 #### [Report Development Guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Report Performance Tuning Guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)

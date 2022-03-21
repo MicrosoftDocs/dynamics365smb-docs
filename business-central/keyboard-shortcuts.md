@@ -242,7 +242,7 @@ The following table describes the shortcuts on a numeric keypad.
 
 |Press these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
-|Alt+Decimal Separator|Switch the output of the decimal separator key on a numeric keypad.|
+|Alt+Decimal Separator|Switch the output of the decimal separator key on a numeric keypad to a period.|
 
 ## See also
 

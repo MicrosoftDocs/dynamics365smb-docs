@@ -64,8 +64,6 @@ The first thing when creating a layout is to decide which [layout type](ui-manag
 
 * The general design concepts for Word and RDLC layouts are similar. However each type has certain design features that affect how the generated report appears in [!INCLUDE[prod_short](includes/prod_short.md)]. The same report might look different when using the Word layout compared to the RDLC layout.
 
-For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
-
 ## <a name="create"></a>Create a new layout
 
 There are two ways to create a new layout from an existing. One way is by saving the existing layout to a copy. The other way is to export the existing layout.
@@ -153,6 +151,7 @@ Follow these steps to modify an existing user-defined layout.
 6. Find and select the Excel file, then select **Open**.
 
    The selected file is uploaded to the layout, and you return to the **Report Layouts** page.
+7. If you want to see how the report looks with the new layout, select the layout in the list, then select **Run Report**.
 
 ## <a name="replace"></a>Replace a layout
 
@@ -164,6 +163,7 @@ Follow these steps to replace the existing user-defined layout file with a new f
 4. Find and select the Excel file, then select **Open**.
 
    The selected file is uploaded to the layout, and you return to the **Report Layouts** page.
+5. If you want to see how the report looks with the new layout, select the layout in the list, then select **Run Report**.
 
 ## Rename a layout
 

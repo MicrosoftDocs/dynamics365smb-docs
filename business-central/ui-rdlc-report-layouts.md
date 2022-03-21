@@ -14,7 +14,7 @@ ms.author: jswymer
 ---
 # Working with RDLC Layouts
 
-RDLC layouts are based on client report definition layout files (.rdl or .rdlc file types). The design concept for RDLC layouts is similar to Word layouts, where the layout determines what fields to show and how they're arranged. However, designing RDLC layouts is more advanced than Word layouts.
+RDLC layouts are based on client report definition layout files (.rdl or .rdlc file types). The design concepts for RDLC layouts are similar to other layout types. The layout determines what fields to show and how they're arranged. However, designing RDLC layouts is more advanced than Word and Excel layouts.
 
 [![Shows the different elements of an RDLC layout.](media/rdlc-layout.png)](media/rdlc-layout#lightbox)
 
@@ -32,7 +32,7 @@ Creating and modifying RDLC layouts is an advanced task, which is typically done
 
 - [Create RDL Layout Report](/dynamics365/business-central/dev-itpro/developer/devenv-howto-rdl-report-layout)
 
-    This article explains how to create an RDLC report layout from AL code..
+    This article explains how to create an RDLC report layout from AL code.
 
 - [Reports, Report Parts, and Report Definitions ](/sql/reporting-services/report-design/reports-report-parts-and-report-definitions-report-builder-and-ssrs?)
 
@@ -53,6 +53,5 @@ behind RDL/RDLC, and how to use Report Builder.
 [Business Intelligence](bi.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Analyzing Report Data with Excel](report-analyze-excel.md).
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

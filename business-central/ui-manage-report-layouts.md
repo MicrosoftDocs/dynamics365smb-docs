@@ -62,7 +62,7 @@ RDLC layouts are based on client report definition layout files (.rdl or .rdlc f
 
 [![Shows the an example of an RDLC layout.](media/rdlc-layout-overview.png)](media/rdlc-layout-overview.png#lightbox)
 
-For more information, see [Work with RDLC Layouts](/dynamics365/business-central/dev-itpro/developer/devenv-howto-rdl-report-layout).
+For more information, see [Work with RDLC Layouts](ui-rdlc-report-layouts.md).
 
 ### External
 

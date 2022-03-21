@@ -28,7 +28,7 @@ With this concept in mind. there are basically three or four tasks involved in s
 4. Add the new layout file to the report.
 
 > [!IMPORTANT]
-> You can't modify or replace an extension layout, which is a layout that originates from an extension. You can only modify or replace user-defined layouts. On the **Report Layouts** page, an extension layout will have information about the source extension in the **Extension** column.
+> You can't modify or replace an extension layout, which is a layout that originates from an extension. You can only modify or replace user-defined layouts. On the **Report Layouts** page, you can tell whether layout is an extension layout or user-defined layout by looking at **Extension** column. Anextension layout will have information about the source extension in the column.
 >
 > To learn about the difference between extension layouts and user-defined layouts, see [Layout source](ui-manage-report-layouts.md#layout-sources).
 

@@ -167,7 +167,10 @@ When you enter criteria, you can use all the numbers and letters that you normal
 |`P8..`|Information for accounting period 8 and after|  
 |`..23`|From the beginning date until 23-current month-current year 23:59:59|  
 |`23..`|From 23-current month-current year 0:00:00 until the end of time|  
-|`22..23`|From 22-current month-current year 0:00:00 until 23-current month-current year 23:59:59|  
+|`22..23`|From 22-current month-current year 0:00:00 until 23-current month-current year 23:59:59| 
+
+> [!TIP]
+> If you're using a numeric keypad, the decimal separator key may output a character other than a period (.). To switch to a period, press the 'Alt+Decimal Separator' keys on the numeric keypad. When you want to switch back, press Alt+Decimal Separator again. For more information, see [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).
 
 #### (&#124;) Either/or
 

@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
-ms.date: 03/21/2022
+ms.date: 03/22/2022
 ms.author: soalex
 
 ---
@@ -22,7 +22,7 @@ The QR-Bill Management extension is included and automatically installed in [!IN
 
 * Specify whether to use your IBAN or QR-IBAN.
 
-  QR-IBAN is an IBAN that contains a number between 30000 and 31999 on positions 5 to 10, such as *CH55 30024 123456789012*.
+  QR-IBAN is an IBAN that contains a number between 30000 and 31999 on positions 5 to 9, such as *CH55 30024 123456789012*.
 * Define how to display names and address on QR-bills, and to use the German Umlaut Chars Encoding. We recommend that you use the default values.
 * Select the default layout to use for QR-bills. The layout determines whether to use IBAN or QR-IBAN, whether the reference type is creditor or QR reference, and whether to include billing information in the SWICO format.
 * Enable sales and service invoice types, and payment methods, for the QR-bills.

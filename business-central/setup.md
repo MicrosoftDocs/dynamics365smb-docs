@@ -60,6 +60,7 @@ Some areas require you to be an administrator in your [!INCLUDE[prod_short](incl
 
 ## See Also
 
+[Company Information Overview](admin-company-information.md)  
 [Administration](admin-setup-and-administration.md)  
 [Finance](finance.md)  
 [Sales](sales-manage-sales.md)  

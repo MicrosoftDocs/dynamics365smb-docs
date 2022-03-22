@@ -1,7 +1,7 @@
 ---
-title: Use Invoicing and Business Central | Microsoft Docs
+title: Use Invoicing and Business Central
 description: Workaround for accessing Microsoft Invoicing when you have signed up for Dynamics 365 Business Central.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

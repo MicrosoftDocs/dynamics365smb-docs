@@ -1,7 +1,7 @@
 ---
-title: Work With Smart Notifications and Specify When You See Them | Microsoft Docs
+title: Work With Smart Notifications and Specify When You See Them
 description: You can receive notifications that inform you about status changes or events, for example, an overdue balance or low inventory.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual
@@ -9,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.author: bholtorf
 
 ---

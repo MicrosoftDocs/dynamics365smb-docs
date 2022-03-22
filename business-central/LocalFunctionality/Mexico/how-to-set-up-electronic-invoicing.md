@@ -59,10 +59,21 @@ Optionally, you can ask your Microsoft Certified Partner to modify the text that
 
 ## To set up customer and vendor information
 
-Finally, you must add information about your customers and vendors. The following section section describes how to specify this information to customers, but the same fields must be specified for vendors.
+You also must add information about your customers and vendors. The following section section describes how to specify this information to customers and vendors.
+
+### Set up customer information
 
 1. Choose the ![A third lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Card**, and then choose the related link.
-2. In the **Customer Card** window, on the **Invoicing** FastTab, fill in the fields as described in the following table.
+2. In the **Customer Card** window, on the **General** FastTab, fill in the fields as described in the following table.
+
+    |Field|Description|
+    |------------------------------------|---------------------------------------|
+    |**CFDI Purpose**|Enter the CFDI purpose required for reporting to the Mexican tax authorities (SAT).|
+    |**CFDI Relation**|Enter the relation of the CFDI document.|
+    |**CFDI Export Code**|Enter a code to indicate if the customer is typically used for exports to other countries.|
+    |**SAT Tax Regime Classification**|Enter the tax scheme required for reporting to the Mexican tax authorities (SAT).|
+
+4. In the **Customer Card** window, on the **Invoicing** FastTab, fill in the fields as described in the following table.
 
     |Field|Description|
     |------------------------------------|---------------------------------------|
@@ -73,7 +84,33 @@ Finally, you must add information about your customers and vendors. The followin
     > [!NOTE]
     > If you select the **Prices Including VAT** field for a customer, the electronic documents will include VAT in all amounts, including unit prices. The electronic documents will also contain a separate element for VAT. If you want to avoid any possible confusion about the amounts including VAT, you can choose to not select the **Prices Including VAT** field.
 
-3. On the **Payments** FastTab, in the **Payment Method Code** field, specify the payment method that you want to use for this customer.
+4. On the **Payments** FastTab, in the **Payment Method Code** field, specify the payment method that you want to use for this customer.
+
+### Set up vendor information
+
+1. Choose the ![A third lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Card**, and then choose the related link.
+2. In the **Vendor Card** window, on the **Payments** FastTab, fill in the fields as described in the following table.
+
+    |Field|Description|
+    |------------------------------------|---------------------------------------|
+    |**RFC No.**|Enter the federal registration number for taxpayers. The RFC number must contain 12 digits.|
+    |**CURP No.**|Enter the unique fiscal card identification number. The CURP number must contain 18 digits.|
+    |**State Inscription**|Enter the tax ID number that is assigned by state tax authorities to every person or corporation.|
+
+## To set up location information
+
+Finally, you must add information about locations you use. The following section section describes how to specify this information to locations.
+
+1. Choose the ![A third lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Location Card**, and then choose the related link.
+2. In the **Location Card** window, on the **Address & Contact** FastTab, fill in the fields as described in the following table.
+
+    |Field|Description|
+    |------------------------------------|---------------------------------------|
+    |**SAT State Code**|Enter the state, entity, region, community, or similar definitions where the domicile of the origin and / or destination of the goods or merchandise that are moved in the different means of transport is located.|
+    |**SAT Municipality Code**|Enter the municipality, delegation or mayoralty, county, or similar definitions where the destination address of the goods or merchandise that are moved in the different means of transport is located.|
+    |**SAT Locality Code**|Enter the city, town, district, or similar definition where the domicile of origin and / or destination of the goods or merchandise that are moved in the different means of transport is located.|
+    |**SAT Suburb Code**|Enter the SAT suburb code where the domicile of the origin or destination of the goods or merchandise that are moved in the different means of transport is located.|
+    |**SAT Postal Code**|Enter the SAT postal code where the domicile of the origin or destination of the goods or merchandise that are moved in the different means of transport is located.|
 
 ## To map key data to the CFDI fields
 

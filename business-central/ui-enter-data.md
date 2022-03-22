@@ -268,7 +268,7 @@ When using the decimal separator key of numeric keyboard to enter data, the actu
 For example, suppose you're using a numeric keyboard that uses a period (.) as the decimal separator key. But, you're entering data for a regional language that uses a comma (**,**) for the decimal separator, like Danish (Denmark) or French (France). So, you want decimals like "1.23" to be entered as "1,23". In this case, you can go to the **My Settings** page and set the **Region** to the target regional language, like **Danish (Denmark)** or **French (France)**. For more information, see [Change Basic Settings](ui-change-basic-settings.md#region).
 
 > [!TIP]
-> There may be occasions when you want to use the decimal separator to enter a period. For example, suppose you were entering a date range in a filter, like `01/01/2022..04/01/2022`, or anything that requires a period. To accommodate this, you press the Alt+Decimal Separator keys on the numeric keyboard. This key combination switches the decimal separator between outputting a period and the decimal separator determined by the **Region** setting.
+> There may be occasions when you want to use the decimal separator to enter a period (.). For example, suppose you were entering a date range in a filter, like `01/01/2022..04/01/2022`, or anything that requires a period. To accommodate this case, press the Alt+Decimal Separator keys on the numeric keyboard. This key combination switches the decimal separator between outputting a period and the decimal separator as determined by the **Region** setting.
 
 ## See Also
 

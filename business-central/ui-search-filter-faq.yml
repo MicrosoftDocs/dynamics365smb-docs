@@ -75,7 +75,7 @@ sections:
       - question: |
           How do I change the output of the decimal separator key on my numeric keypad?
         answer: |
-          By default, the output character of the decimal separator is determined by the regional setting of Business Central, which you set on the **My Settings** page. You can temporarily switch it to a period (.) by pressing the 'Alt+Decimal Separator' keys on the keypad. Press 'Alt+Decimal Separator' again to switch back. For more information, see [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).
+          By default, the output character of the decimal separator is determined by the region setting of Business Central, which you set on the **My Settings** page. You can temporarily switch it to a period (.) by pressing the 'Alt+Decimal Separator' keys on the keypad. Press 'Alt+Decimal Separator' again to switch back. For more information, see [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).
           
 additionalContent: |
 

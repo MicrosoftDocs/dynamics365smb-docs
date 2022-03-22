@@ -16,7 +16,10 @@ ms.author: edupont
 ---
 # Electronic Invoicing in the Mexican Version
 
-Mexican companies must be able to send invoices electronically as Comprobante Fiscal Digital por Internet (CFDI) files. [!INCLUDE[prod_short](../../includes/prod_short.md)] supports CFDI so that you can export sales and service invoices and credit memos as electronic documents that have the required digital signature.  
+Mexican companies must be able to send invoices electronically as Comprobante Fiscal Digital por Internet (CFDI) files. [!INCLUDE[prod_short](../../includes/prod_short.md)] supports CFDI so that you can export sales and service invoices and credit memos as electronic documents that have the required digital signature.
+
+> [!NOTE]
+> The tax authority (Servicio de Administración Tributaria) announced a version 4.0 of the online digital tax receipt (comprobante fiscal digital por internet—CFDI) system. After effective date, vouchers cannot be issued in versions other than 4.0. Accordingly [!INCLUDE[prod_short](includes/prod_short.md)] updated CFDI feature to to be in line with new regulations.  
 
 The CFDI file is an XML file that contains:  
 
@@ -36,12 +39,20 @@ The CFDI file is an XML file that contains:
 > [!IMPORTANT]  
 > You will be submitting the electronic invoices to a PAC, which is an authorized service provider appointed by the Mexican tax authorities (SAT). SAT has certified more than one PAC in Mexico, and you must obtain the appropriate information to communicate with the PAC of your choice. By default, [!INCLUDE [prod_short](../../includes/prod_short.md)] supports integration with [Interfactura](https://interfactura.com/), but you can use another PAC of your choice.  
 
+## Prerequisites
+Before you start, make sure you fill in the following fields in **Company Information**:
+- **SAT Tax Regime Classification** - Specifies the tax scheme required for reporting to the Mexican tax authorities (SAT)
+- **RFC No.** - Specifies the federal registration number for taxpayers.
+- **CURP No.** - Specifies the unique fiscal card identification number. The CURP number must contain 18 digits
+- **State Inscription** - Specifies the tax ID number that is assigned by state tax authorities to every person or corporation.
+- **Tax Scheme** - Specifies the tax scheme that the company complies with.
+
 ## Getting Started
 
 Before you can use [!INCLUDE[prod_short](../../includes/prod_short.md)] for electronic invoicing, you must obtain the appropriate certification, digital stamp, and control numbers from the tax authorities. You must install the certificate on the computer where the CFDI files will be generated. For more information, see [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md). For information about SAT certificates and keys, see the [Servicio de Administracíon Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772) website.  
 
 > [!TIP]
-> Use the **Set up Mexican CFDI information** assisted setup guide to map information about your company and how you use [!INCLUDE [prod_short](../../includes/prod_short.md)] to the various fields in the CFDI files.
+> Use the **Set up Mexican CFDI information** assisted setup guide to map information about your company and how you use [!INCLUDE [prod_short](../../includes/prod_short.md)] to the various fields in the CFDI files such as Payment Terms or Unit of Measures.
 
 You also must specify the web services that you will use to communicate with the PAC in order to obtain digital stamps. For more information, see [Set Up PAC Web Services](how-to-set-up-pac-web-services.md).  
 

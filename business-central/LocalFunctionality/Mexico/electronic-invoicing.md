@@ -16,7 +16,10 @@ ms.author: edupont
 ---
 # Electronic Invoicing in the Mexican Version
 
-Mexican companies must be able to send invoices electronically as Comprobante Fiscal Digital por Internet (CFDI) files. [!INCLUDE[prod_short](../../includes/prod_short.md)] supports CFDI so that you can export sales and service invoices and credit memos as electronic documents that have the required digital signature.  
+Mexican companies must be able to send invoices electronically as Comprobante Fiscal Digital por Internet (CFDI) files. [!INCLUDE[prod_short](../../includes/prod_short.md)] supports CFDI so that you can export sales and service invoices and credit memos as electronic documents that have the required digital signature.
+
+> [!NOTE]
+> The tax authority (Servicio de Administración Tributaria) announced a version 4.0 of the online digital tax receipt (comprobante fiscal digital por internet—CFDI) system. After effective date, vouchers cannot be issued in versions other than 4.0. Accordingly [!INCLUDE[prod_short](includes/prod_short.md)] updated CFDI feature to to be in line with new regulations.  
 
 The CFDI file is an XML file that contains:  
 

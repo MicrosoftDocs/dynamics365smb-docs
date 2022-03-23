@@ -61,7 +61,7 @@ For more information, see [Share Records and Page Links in Microsoft Teams](acro
     If you’re not sure whether you have an account, or if you don’t know your credentials for signing in, contact your company administrator to help you get started.
 
     > [!TIP]
-    > If your organization doesn't have a [!INCLUDE [prod_short](includes/prod_short.md)] subscription, you can sign up for a free trial. For more information, see [Getting Started with a Trial](across-preview.md#getting-started-with-a-trial).
+    > If your organization doesn't have a [!INCLUDE [prod_short](includes/prod_short.md)] subscription, you can sign up for a free trial. For more information, see [Getting Started with a Trial](across-preview.md#get-started-with-a-trial).
 
 2. As an administrator, see [Managing Microsoft Teams Integration with Business Central](admin-teams-integration.md) for information about getting users set up to work with [!INCLUDE [prod_short](includes/prod_short.md)] and Teams.
 3. Install [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. See [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).

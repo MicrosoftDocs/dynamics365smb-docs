@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
-ms.date: 03/17/2022
+ms.date: 03/23/2022
 ms.author: edupont
 
 ---
@@ -35,9 +35,11 @@ For more information, see [Administration of Business Central Online](/dynamics3
 
 ### <a name="licensespermissions"></a>Configure permissions based on licenses
 
-Starting in 2022 release wave 1, admins can configure permissions sets and user groups based on the different license types.<!--Note to translators: The names in *italics* or capitalized in this section must not be translated.-->  
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
-For example, the most commonly used license, *Dynamics 365 Business Central Team Member*, is set up by default to have the user groups *D365 Team Member* and *Excel Export Action* plus the following permissions sets:
+Admins can configure permissions sets and user groups based on the different license types.<!--Note to translators: The names in *italics* or capitalized in this section must not be translated.-->  
+
+For example, the commonly used license, *Dynamics 365 Business Central Team Member*, is set up by default to have the user groups *D365 Team Member* and *Excel Export Action* plus the following permissions sets:
 
 - D365 READ
 - D365 TEAM MEMBER
@@ -56,6 +58,9 @@ If this is not the right setup for a particular tenant, the admin can change tha
 
     In our example, the admin wants to remove the permission to edit in Excel, so they remove the *Excel Export Action* user group from the Team Member license. Going forward, new users that are assigned the Team Member license will not get the option to export data to Excel. If the organization changes their minds about this, they can just go back to the **License Configuration** page and switch off the customization for that license type.  
 
+> [!IMPORTANT]
+> This customization of permissions only take effect for new users that you assign the relevant license. Existing users are not updated. We recommend that you customize permissions before you start assigning users licenses in the Microsoft 365 admin center.
+
 ### <a name="adduser"></a>To add users or update user information and license assignments in Business Central
 
 After you add users or change user information in the Microsoft 365 Admin Center, you can quickly import the user information to [!INCLUDE[prod_short](includes/prod_short.md)]. This includes license assignments.  
@@ -67,7 +72,7 @@ After you add users or change user information in the Microsoft 365 Admin Center
 If you are adding new users, the next step is to assign user groups and permissions. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md). If you are updating user information, and the update includes a license change, the users will be assigned to the appropriate user group and their permission sets will be updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).  
 
 > [!NOTE]
-> All users must be assigned to the same license, either Essential or Premium. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/business-central/overview/) website.
+> All users in an environment must be assigned to the same license, either Essential or Premium. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/business-central/overview/) website.
 
 For more information about synchronizing user information with Microsoft 365, see the [Synchronization with Microsoft 365](#m365) section.
 

@@ -28,7 +28,7 @@ With this concept in mind. there are basically three or four tasks involved in s
 4. Add the new layout file to the report.
 
 > [!IMPORTANT]
-> You can't modify or replace an extension layout, which is a layout that originates from an extension. You can only modify or replace user-defined layouts. On the **Report Layouts** page, you can tell whether layout is an extension layout or user-defined layout by looking at **Extension** column. An extension layout will show information about the source extension in the column.
+> You can't modify or replace an extension layout, which is a layout that originates from an extension. You can only modify or replace user-defined layouts. On the **Report Layouts** page, you can tell whether layout is an extension layout or user-defined layout by looking at **Extension** column. An extension layout will show information about the source extension in the column. The **Extension** column will be empty for a user-defined layout.
 >
 > To learn about the difference between extension layouts and user-defined layouts, see [Layout source](ui-manage-report-layouts.md#layout-sources).
 
@@ -56,21 +56,21 @@ The first thing when creating a layout is to decide which [layout type](ui-manag
 
 * Not all reports and document have a dataset that is optimized for use with an Excel layout. For example, aggregations and complex calculations work best with RDLC or Word layouts. The same is true for documents.
 
-* If you're only making style changes like font type, size and colors, Word layout are also a good choice.
+* If you're only making style changes like font type, size and colors, a Word layout are also a good choice.
 
 * Adding data fields or rearranging data fields in Word or RDLC is more advanced than with Excel.
 
-* Word and RDLC layouts are good to use for reported that will eventually be printed.  
+* Word and RDLC layouts are good to use for reports that will eventually be printed.  
 
 * The general design concepts for Word and RDLC layouts are similar. However each type has certain design features that affect how the generated report appears in [!INCLUDE[prod_short](includes/prod_short.md)]. The same report might look different when using the Word layout compared to the RDLC layout.
 
 ## <a name="create"></a>Create a new layout
 
-There are two ways to create a new layout from an existing. One way is by saving the existing layout to a copy. The other way is to export the existing layout.
+There are two ways to create a new layout from an existing layout. One way is by saving the existing layout to a copy. The other way is to export the existing layout.
 
 ## [Copying](#tab/copy)
 
-Copying is a quick way to create a new layout that's the same as an existing layout. Once you have the copy, you make modifications by exporting the layout. 
+Copying is a quick way to create a new layout that's the same as an existing layout. Once you have the copy, you'll make modifications by exporting the layout. 
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Select the layout that you want a copy of for your new layout, then choose the **Edit Info** action.

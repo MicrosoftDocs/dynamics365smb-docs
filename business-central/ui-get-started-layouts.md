@@ -43,7 +43,7 @@ Depending on what your situation is, the actual tasks will vary. Use the followi
 |Make changes to an existing layout that's used on a report|[Modify a layout](#modify)|
 |I have a new version of a layout file for a report. I want to replace the existing layout file.|[Replace a layout](#replace)|
 |Switch the current layout used by a report to another layout|[Setting the Layout Used by a Report](ui-set-report-layout.md)|
-|Change the name and description of a layout|[Rename a layout](#rename-layout)|
+|Change the name and description of a layout|[Rename a layout](#rename)|
 
 ## <a name="decide"></a>Decide what type of layout you want
 

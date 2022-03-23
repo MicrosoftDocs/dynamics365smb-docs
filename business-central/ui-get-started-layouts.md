@@ -165,7 +165,7 @@ Follow these steps to replace the existing user-defined layout file with a new f
    The selected file is uploaded to the layout, and you return to the **Report Layouts** page.
 5. If you want to see how the report looks with the new layout, select the layout in the list, then select **Run Report**.
 
-## Rename a layout
+## <a name="rename"></a>Rename a layout
 
 Follow these steps if you want to change the name and description of a user-defined layout.
 

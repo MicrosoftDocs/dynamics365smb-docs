@@ -57,17 +57,17 @@ The sharing feature in Business Central is based on OneDrive. So to learn more a
 
 ## First-time sign in from Business Central
 
-When you use the **Open in OneDrive** or **Share** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following in your OneDrive:
+When you use the **Open in OneDrive** or **Share** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following things:
 
 1. Opens the **Please review terms and conditions** page. Read the page, and if you agree with the terms and conditions, select **Agree** to continue.
-2. The **Pick an account** appears. Select your account or **use another account** if you don't see, then enter the user name and password when prompted.
-1. Creates a folder named [!INCLUDE[prod_short](includes/prod_short.md)]. 
-1. In the [!INCLUDE[prod_short](includes/prod_short.md)] folder, it creates another folder with the same name as the company you're working in. If you work in more than one company, it will create a folder for the company you're working in when you use the **Open in OneDrive** and **Share** actions. 
-1. Puts a copy of the file you selected in the folder, and then opens the file. The next time you use the action, it only copies and opens the file. 
+2. Opens the **Pick an account** page  Select your account or **use another account** if you don't see your own, then enter the user name and password when prompted.
+3. Creates a folder named [!INCLUDE[prod_short](includes/prod_short.md)] in OneDrive. 
+4. In the [!INCLUDE[prod_short](includes/prod_short.md)] folder, it creates another folder with the same name as the company you're working in. If you work in more than one company, it will create a folder for the company you're working in when you use the **Open in OneDrive** and **Share** actions. 
+5. Puts a copy of the file you selected in the folder, and then opens the file. The next time you use the action, it only copies and opens the file. 
 
 ## Managing multiple copies of a file
 
-When you choose **Open in OneDrive** or **Share** , the file is copied from [!INCLUDE[prod_short](includes/prod_short.md)] to your folder in OneDrive. If you edit the file in OneDrive, the copies of the file will be different. To update [!INCLUDE[prod_short](includes/prod_short.md)] with the latest file, remove the existing file from [!INCLUDE[prod_short](includes/prod_short.md)] and then upload the latest copy.
+When you choose **Open in OneDrive** or **Share**, the file is copied from [!INCLUDE[prod_short](includes/prod_short.md)] to your folder in OneDrive. If you edit the file in OneDrive, the copies of the file will be different. To update [!INCLUDE[prod_short](includes/prod_short.md)] with the latest file, remove the existing file from [!INCLUDE[prod_short](includes/prod_short.md)] and then upload the latest copy.
 
 Also, when a file with the same name already exists in OneDrive, [!INCLUDE[prod_short](includes/prod_short.md)] will provide a choice to either replace the file or keep both files. If you choose to keep both files, the new file is copied to OneDrive and given a filename with suffix number, like  “Items (2).xlsx,”. The original file isn't changed. 
 

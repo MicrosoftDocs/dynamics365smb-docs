@@ -181,11 +181,9 @@ Follow these steps if you want to change the name and description of a user-defi
 ## See Also
 
 [Managing Report Layouts](ui-manage-report-layouts.md)
-[Working with Word Layouts](ui-how-add-fields-word-report-layout.md) 
+[Working with Word Layouts](ui-how-add-fields-word-report-layout.md)  
 [Working with Excel Layouts](ui-excel-report-layouts.md)  
 [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
-[Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md) 
-[Business Intelligence](bi.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,7 +7,6 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 06/11/2021
 ms.author: jswymer
-
 ---
 # Sharing Business Data from Business Central
 

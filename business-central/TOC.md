@@ -366,21 +366,26 @@
 ### [Bookmark a Page or Report on Your Role Center](ui-bookmarks.md)
 ### [Displaying Lists in Different Ways](across-display-lists-different-views.md)
 ## Printing Reports and Running Batch Jobs and XMLports
-### [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)
+### [Run and Print Reports](ui-work-report.md)
 ### [Set Up Printers](ui-specify-printer-selection-reports.md)
 ### [Schedule a Report to Run](ui-work-report.md#ScheduleReport)
 ### [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md)
 ### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
 ### [Run Batch Jobs and XML ports](ui-how-run-batch-jobs.md)
 ## Changing the Look of Externally-Facing Documents
-### [Managing Report and Document Layouts](ui-manage-report-layouts.md)
-### [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)
-### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
-### [Import and Export Custom Report Layouts](ui-how-import-and-export-report-layout.md)
-### [Update Custom Report Layouts](ui-update-report-layouts.md)
+### [About Report and Document Layouts](ui-manage-report-layouts.md)
+### [Get Started Creating Layouts](ui-get-started-layouts.md)
+### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
+### [Work with Excel Layouts](ui-excel-report-layouts.md)
+### [Work with RDLC Layouts](ui-rdlc-report-layouts.md)
+### [Set the Layout Used by a Report](ui-set-report-layout.md)
 ### [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)
-### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
 ### [Available Fonts](ui-fonts.md)
+### Using Legacy Features
+#### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
+#### [Import and Export Custom Report Layouts](ui-how-import-and-export-report-layout.md)
+#### [Update Custom Report Layouts](ui-update-report-layouts.md)
+#### [Set the Layout Used by a Report](ui-how-change-layout-currently-used-report.md)
 ## Sharing Business Data
 ### [Overview](across-share-data-features.md)
 ### [Sharing Records and Page Links in Teams](across-working-with-teams.md)
@@ -432,7 +437,8 @@
 ##### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
 ##### [Workflow Notifications](across-setting-up-workflow-notifications.md)
 ##### [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
-##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
+##### [Create and Modify Layouts](ui-get-started-layouts.md)
+<!--##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)-->
 ##### [Set up Email](admin-how-setup-email.md)
 ##### [Create Workflows](across-how-to-create-workflows.md)
 ##### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
@@ -1629,7 +1635,8 @@
 ### [Printing Reports](ui-specify-printer-selection-reports.md#default)
 ### [Scheduling Reports](ui-work-report.md#ScheduleReport)
 ### [Managing Saved Report Settings](reports-saving-reusing-settings.md)
-### [Changing the default Report Layout](ui-how-change-layout-currently-used-report.md)
+### [Set the Layout Used by a Report](ui-set-report-layout.md)
+### [(Legacy) Set the Layout Used by a Report](ui-how-change-layout-currently-used-report.md)
 
 ## Built-in Reports
 ### [Report Overview](reports-available-reports.md)
@@ -1717,12 +1724,16 @@
 ### [Overview](reports-develop-reports.md)
 ### Developing report layouts
 #### [Layout types (Word and RDLC)](ui-manage-report-layouts.md)
-#### [Create a new Layout](ui-how-create-custom-report-layout.md)
-#### [Using fonts in Layouts](ui-fonts.md)  
+#### [Create and Modify Layouts](ui-get-started-layouts.md)
+<!--#### [Create a New Layout](ui-how-create-custom-report-layout.md)-->
 #### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
-#### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
-#### [Update a Layout](ui-update-report-layouts.md)
-#### [Change the default Layout](ui-how-change-layout-currently-used-report.md)
+#### [Work with Excel Layouts](ui-excel-report-layouts.md)
+#### [Work with RDLC Layouts](ui-rdlc-report-layouts.md)
+#### [Using Fonts in Layouts](ui-fonts.md)  
+<!--#### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
+#### [Update a Layout](ui-update-report-layouts.md)-->
+#### [Set the Default Layout](ui-set-report-layout.md)
+<!--#### [Set the Layout (legacy)](ui-how-change-layout-currently-used-report.md)-->
 ### Developing report datasets
 #### [Report Development Guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Report Performance Tuning Guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)

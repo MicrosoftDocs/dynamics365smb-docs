@@ -1687,21 +1687,21 @@
 ### Manufacturing
 #### [Production Reports](production-reports.md)
 #### [Viewing Load on Work and Machine Centers](production-how-to-view-the-load-on-work-centers.md)
-#### [Viewing work center ledger entries](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+#### [Viewing Work Center Ledger Entries](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
 
 ### Service Management
 #### [Viewing Service Statistics](service-service-statistics.md)
-#### [Service orders overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Service quotes overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Posted service document overview](service-service-posting.md#to-view-information-about-a-posted-service-document)
+#### [Service Orders Overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Service Quotes Overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Posted Service Document Overview](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
 ## Ad-hoc Data Analysis
 ### [Overview](reports-adhoc-analysis.md)
 ### [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
 ### [Searching and Filtering FAQ](ui-search-filter-faq.yml)
-### [Analyzing page data in Excel](across-work-with-excel.md)
-### [Analyzing report data with Excel](ui-work-report.md#saving-a-report-to-a-file)
-### [Financial analytics](bi.md)
+### [Analyzing Page Data in Excel](across-work-with-excel.md)
+### [Analyzing Report Data with Excel](report-analyze-excel.md)
+### [Financial Analytics](bi.md)
 
 ## Built-in Analytics 
 ### [Overview](reports-built-in-analytics.md)
@@ -1710,7 +1710,7 @@
 ### [Financial analytics](bi.md)
 ### [Analyze Financial Statements With Excel](finance-analyze-excel.md)
 ### [Consolidate Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
-### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+### [Report Usage Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 
 
 ## Analyze Data in Business Intelligence Tools

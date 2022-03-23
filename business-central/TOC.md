@@ -377,6 +377,7 @@
 ### [Get Started Creating Layouts](ui-get-started-layouts.md)
 ### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
 ### [Work with Excel Layouts](ui-excel-report-layouts.md)
+### [Work with RDLC Layouts](ui-rdlc-report-layouts.md)
 ### [Set the Layout Used by a Report](ui-set-report-layout.md)
 ### [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)
 ### [Available Fonts](ui-fonts.md)

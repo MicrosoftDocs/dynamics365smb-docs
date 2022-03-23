@@ -32,7 +32,7 @@ There are two ways to set which layout a report uses. One way is from the **Repo
   It's easy to find a specific layout by sorting or filtering the list. Once you find the layout, you can set it for a report with a single selection.
 
   > [!NOTE]
-  > You can't use the **Report Layouts** page for Word and RDLC layouts that were created by using the legacy **Custom Layouts** feature. In fact, you won't even see these custom layouts listed on the **Report Layouts** page page. For these layouts, you can only set them by using **Report Layout Selection** page.
+  > You can't use the **Report Layouts** page for Word and RDLC layouts that were created by using the legacy **Custom Layouts** feature. In fact, you won't even see these custom layouts listed on the **Report Layouts** page. For these layouts, you can only set them by using **Report Layout Selection** page.
 
 ## Set the layout from the Report Layouts page
 

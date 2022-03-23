@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 02/16/2022
+    ms.date: 02/17/2022
     ms.author: edupont
 
 ---
@@ -64,7 +64,7 @@ You also must add information about your customers and vendors. The following se
 ### Set up customer information
 
 1. Choose the ![A third lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Card**, and then choose the related link.
-2. In the **Customer Card** window, on the **General** FastTab, fill in the fields as described in the following table.
+2. In the **Customer Card** window, on the **General** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]. The following table describes some of the complex CFDI-related fields.  
 
     |Field|Description|
     |------------------------------------|---------------------------------------|
@@ -73,13 +73,14 @@ You also must add information about your customers and vendors. The following se
     |**CFDI Export Code**|Enter a code to indicate if the customer is typically used for exports to other countries.|
     |**SAT Tax Regime Classification**|Enter the tax scheme required for reporting to the Mexican tax authorities (SAT).|
 
-4. In the **Customer Card** window, on the **Invoicing** FastTab, fill in the fields as described in the following table.
+3. In the **Customer Card** window, on the **Invoicing** FastTab, fill in the fields [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]. The following table describes some of the complex CFDI-related fields.  
 
     |Field|Description|
     |------------------------------------|---------------------------------------|
     |**RFC No.**|Enter the federal registration number for taxpayers. The RFC number must contain 12 digits.|
     |**CURP No.**|Enter the unique fiscal card identification number. The CURP number must contain 18 digits.|
     |**State Inscription**|Enter the tax ID number that is assigned by state tax authorities to every person or corporation.|
+    |**CFDI Export Code**| Enter the relevant code to indicate if the customer is typically used for exports to other countries. Use 01 no export, 02 for exported goods, and 03 for temporary exports, such as services or assembly.|
 
     > [!NOTE]
     > If you select the **Prices Including VAT** field for a customer, the electronic documents will include VAT in all amounts, including unit prices. The electronic documents will also contain a separate element for VAT. If you want to avoid any possible confusion about the amounts including VAT, you can choose to not select the **Prices Including VAT** field.

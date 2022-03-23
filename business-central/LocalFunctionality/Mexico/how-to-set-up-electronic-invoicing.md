@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 02/17/2022
+    ms.date: 03/23/2022
     ms.author: edupont
 
 ---
@@ -29,7 +29,12 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
 
     > [!NOTE]
     > You must fill in the **SAT Postal Code** field. If you cannot see the field on the **General** Fast Tab, choose the **More** action to show more fields.
-3. On the **Tax** FastTab, fill in the fields as described in the following table.  
+3. On the **Shipping** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] The following table describes some of the complex CFDI-related fields.  
+
+    |Field|Description|  
+    |------------------------------------|---------------------------------------|
+    |**SCT Permission Type** and **SCT Permission Name**|These fields specify a permission that has been provided by the Secretaría de Comunicaciones y Transportes. The permission must correspond to the type of motor transport that the company uses for the transfer of goods or merchandise if you transport goods and merchandise in the national territory.|
+4. On the **Tax** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] The following table describes some of the complex CFDI-related fields.  
 
     |Field|Description|  
     |------------------------------------|---------------------------------------|
@@ -38,9 +43,6 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
     |**RFC No.**|Enter the federal registration number for taxpayers. The Registro Federal de Contribuyentes (RFC) tax identification type can be applied to companies and to people. An RFC number for a company is 12 characters, while an RFC number for a person is 13 characters. However, since [!INCLUDE [prod_short](../../includes/prod_short.md)] targets businesses, only 12 digit RFC numbers are currently supported.|
     |**CURP No.**|Enter the unique fiscal card identification number. The Cédula de identification fiscal con clave única de registro de población (CURP) tax identification type can only be applied to people. A CURP number is 18 characters.|
     |**State Inscription**|Enter the tax ID number that is assigned by state tax authorities to every person or corporation.|
-    |**SCT Permission Type** and **SCT Permission Name**|These fields specify a permission that has been provided by the Secretaría de Comunicaciones y Transportes. The permission must correspond to the type of motor transport that the company uses for the transfer of goods or merchandise if you transport goods and merchandise in the national territory.|
-
-    Fill in the remaining fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
 ## To set up general ledger information  
 
@@ -51,7 +53,7 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
     |------------------------------------|---------------------------------------|
     |**Enabled**|Choose this field to switch to use digitally signed documents, and then fill in the remaining fields on this FastTab.|
     |**SAT Certificate**|Specify the SAT certificate. For more information, see the [To add the certificates](how-to-set-up-pac-web-services.md#to-add-the-certificates) section.|
-    |**Send PDF Report**|Select to include a PDF when you email electronic invoices to customers or vendors. Electronic invoices are always sent as an XML file, this option allows you to include a PDF with the XML file.|  
+    |**Send PDF Report**|Choose this field to include a PDF when you email electronic invoices to customers or vendors. Electronic invoices are always sent as an XML file, this option allows you to include a PDF with the XML file.|  
     |**PAC Code**|Specify the authorized service provider, PAC, that you want apply digital stamps to your electronic invoices. For more information, see [Set Up PAC Web Services](how-to-set-up-pac-web-services.md).|
     |**PAC Environment**|Specify if your company is using the web services of your authorized service provider, PAC, in a test environment or a production environment.|
 
@@ -63,8 +65,8 @@ You also must add information about your customers and vendors. The following se
 
 ### Set up customer information
 
-1. Choose the ![A third lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Card**, and then choose the related link.
-2. In the **Customer Card** window, on the **General** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]. The following table describes some of the complex CFDI-related fields.  
+1. Choose the ![A third lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
+2. For each customer in the **Customers** list, open the customer card, and then fill in the fields on the **General** FastTab. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] The following table describes some of the complex CFDI-related fields.  
 
     |Field|Description|
     |------------------------------------|---------------------------------------|
@@ -73,37 +75,39 @@ You also must add information about your customers and vendors. The following se
     |**CFDI Export Code**|Enter a code to indicate if the customer is typically used for exports to other countries.|
     |**SAT Tax Regime Classification**|Enter the tax scheme required for reporting to the Mexican tax authorities (SAT).|
 
-3. In the **Customer Card** window, on the **Invoicing** FastTab, fill in the fields [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]. The following table describes some of the complex CFDI-related fields.  
+3. On the **Invoicing** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] The following table describes some of the complex CFDI-related fields.  
 
     |Field|Description|
     |------------------------------------|---------------------------------------|
     |**RFC No.**|Enter the federal registration number for taxpayers. The RFC number must contain 12 digits.|
     |**CURP No.**|Enter the unique fiscal card identification number. The CURP number must contain 18 digits.|
     |**State Inscription**|Enter the tax ID number that is assigned by state tax authorities to every person or corporation.|
-    |**CFDI Export Code**| Enter the relevant code to indicate if the customer is typically used for exports to other countries. Use 01 no export, 02 for exported goods, and 03 for temporary exports, such as services or assembly.|
 
     > [!NOTE]
     > If you select the **Prices Including VAT** field for a customer, the electronic documents will include VAT in all amounts, including unit prices. The electronic documents will also contain a separate element for VAT. If you want to avoid any possible confusion about the amounts including VAT, you can choose to not select the **Prices Including VAT** field.
 
-4. On the **Payments** FastTab, in the **Payment Method Code** field, specify the payment method that you want to use for this customer.
+4. On the **Payments** FastTab, in the **Payment Method Code** field, specify the payment method that you want to use for this customer.  
+5. Repeat steps 2-4 for all other customers.  
 
 ### Set up vendor information
 
-1. Choose the ![A third lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendor Card**, and then choose the related link.
-2. In the **Vendor Card** window, on the **Payments** FastTab, fill in the fields as described in the following table.
+1. Choose the ![A third lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+2. For each vendor in the **Vendors** list, open the vendor card, and then fill in the fields on the **General** FastTab. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]  
+3. On the **Payments** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] The following table describes some of the complex CFDI-related fields.  
 
     |Field|Description|
     |------------------------------------|---------------------------------------|
     |**RFC No.**|Enter the federal registration number for taxpayers. The RFC number must contain 12 digits.|
     |**CURP No.**|Enter the unique fiscal card identification number. The CURP number must contain 18 digits.|
     |**State Inscription**|Enter the tax ID number that is assigned by state tax authorities to every person or corporation.|
+4. Repeat steps 2-3 for all other vendors.  
 
 ## To set up location information
 
 Finally, you must add information about locations you use. The following section section describes how to specify this information to locations.
 
-1. Choose the ![A third lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Location Card**, and then choose the related link.
-2. In the **Location Card** window, on the **Address & Contact** FastTab, fill in the fields as described in the following table.
+1. Choose the ![A third lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
+2. For each location in the **Locations** list, open the location card, and then, on the **Address & Contact** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] The following table describes some of the complex CFDI-related fields.  
 
     |Field|Description|
     |------------------------------------|---------------------------------------|
@@ -112,6 +116,7 @@ Finally, you must add information about locations you use. The following section
     |**SAT Locality Code**|Enter the city, town, district, or similar definition where the domicile of origin and / or destination of the goods or merchandise that are moved in the different means of transport is located.|
     |**SAT Suburb Code**|Enter the SAT suburb code where the domicile of the origin or destination of the goods or merchandise that are moved in the different means of transport is located.|
     |**SAT Postal Code**|Enter the SAT postal code where the domicile of the origin or destination of the goods or merchandise that are moved in the different means of transport is located.|
+3. Repeat step 2 for all other locations.  
 
 ## To map key data to the CFDI fields
 

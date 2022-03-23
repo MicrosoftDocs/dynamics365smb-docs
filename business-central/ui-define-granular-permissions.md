@@ -68,13 +68,13 @@ The following procedure explains how to create user groups manually. To create u
 To quickly define a new user group, you can copy all permission sets from an existing user group to your new user group.
 
 > [!NOTE]
-> The user group members are not copied to the new user group. You must add them manually afterwards. For more information, see [To group users in user groups](ui-define-granular-permissions.md#to-group-users-in-user-groups).
+> The user group members are not copied to the new user group. You must add them manually afterwards. For more information, see [To group users in user groups](#to-group-users-in-user-groups).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Groups**, and then choose the related link.
 2. Select the user group that you want to copy, and then choose the **Copy User Group** action.
 3. In the **New User Group Code** field, enter a name for the group, and then choose the **OK** button.
 
-The new user group is added to the **User Groups** page. Proceed to add users. For more information, see [To group users in user groups](ui-define-granular-permissions.md#to-group-users-in-user-groups).  
+The new user group is added to the **User Groups** page. Proceed to add users. For more information, see [To group users in user groups](#to-group-users-in-user-groups).  
 
 ### To assign permission sets to user groups
 

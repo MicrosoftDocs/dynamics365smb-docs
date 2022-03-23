@@ -1,110 +1,32 @@
 ---
 title: Update Currency Exchange Rates (contains video)
-description: Track amounts in different currencies using currency codes, let Business Central help you adjust FX exchange rates of posted entries with an external service.
-author: SorenGP
+description: If you track amounts in different currencies, you can let Business Central help you adjust FX exchange rates of posted entries with an external service.
+author: edupont04
 
 
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 02/17/2022
+ms.date: 03/15/2022
 ms.author: edupont
 
 ---
 # Update Currency Exchange Rates
 
-As companies operate in more countries/regions, it becomes essential that they are able to trade and report financial information in more than one currency. The local currency (LCY) is defined in the **General Ledger Setup** page as described in the article [Setting Up Finance](finance-setup-finance.md). Once the local currency (LCY) has been defined, it will be represented as a blank currency, so when the **Currency** field is blank, it means that the currency is LCY.  
-
-Next, you must set up currency codes for each currency that you use if you buy or sell in currencies other than your local currency (LCY). Also bank accounts can be created using currencies. It is possible to record G/L transactions in different currencies, however, the G/L transaction will always be posted in the local currency (LCY).
-
-> [!Important]
-> Do not create the local currency code both in the **General Ledger Setup** and in the **Currencies** page. This will create confusion between the blank currency and the LCY code in the currency table, and bank accounts, customers or vendors might accidentally be created, some with the blank currency and some with the LCY code.
-
-Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a currency exchange rate assigned. By designating a second currency as a so-called additional reporting currency, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically record amounts in both LCY and this additional reporting currency on each G/L entry and other entries, such as VAT entries. For more information, see [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md). The additional reporting currency is most often used to facilitate financial reporting to owners that reside in countries/regions using different currencies than the local currency (LCY).  
-
-> [!IMPORTANT]
-> If you want to use an additional reporting currency for financial reporting, make sure that you understand the limitations. For more information, see [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
-
-> [!NOTE]  
-> When you post to G/L using a currency code, such as to post an expense in a general journal using a currency code, the transaction is converted to LCY using the currency exchange rate for the posting date. The G/L entry will not contain information of which currency was used, only its value in LCY. If you want to keep track of the original currency, such as for an invoice, you must use the sales and purchase documents as well as bank accounts that do store currency code information for the entries.
+You can define different currencies in [!INCLUDE [prod_short](includes/prod_short.md)], for example if you do trade in currencies other than your local currency. Then, to help you keep track of changes in currency exchange rates, you can manage the currencies manually, or you can set up a currency exchange rate service.
 
 ## Currencies
 
-> [!NOTE]  
+> [!TIP]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)] if you are looking for real time information about foreign exchange (FX) rates or historical rates, you will find it referred to as currency. In addition to this article, see also [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
 
-You specify the currency codes in the **Currencies**, including extra information and settings that are necessary for each currency code.
+[!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
-> [!TIP]
-> Create the currencies with the international ISO code as the code to simplify working with the currency in the future.
-
-|Field|Description|  
-|---------------------------------|---------------------------------------|  
-|**Code**|The identifier for the currency.|
-|**Description**|A free text description of the currency.|
-|**ISO Code**|The international three letter code to the currency defined in ISO 4217.|
-|**ISO Numeric code**|The international numeric reference to the currency defined in ISO 4217.|
-|**Exchange Rate Date**|The latest actual exchange rate date.|
-|**EMU Currency**|Specifies if the currency is an EMU (Economic and Monetary Union) currency, such as EUR.|
-|**Realized Gains Account**|The account where the actual gain will be posted when you receive payments for receivables or register the actual currency rate on payments to payables. For an example of a receivable currency transaction, see the example below this table. |
-|**Realized Losses Account**|The account where the actual loss will be posted when you receive payments for receivables or register the actual currency rate on payments to payables. For an example of a receivable currency transaction, see the example below this table. |
-|**Unrealized Gains Account**|The account where the theoretical gain will be posted when you perform a currency adjustment.|
-|**Unrealized Losses Account**|The account where the theoretical loss will be posted when you perform a currency adjustment.|
-|**Amount Rounding Precision**|Some currencies have other formats for invoice amounts than are defined in the **General Ledger Setup** page. If you change the amount rounding precision for a currency, all invoice amounts in that currency will be rounded with the updated precision.|
-|**Amount Decimal Places**|Some currencies have other formats for invoice amounts than are defined in the **General Ledger Setup** page. If you change the amount decimal places for a currency, all invoice amounts in the currency will be rounded with the updated decimals|
-|**Invoice Rounding Type**|Specifies the method to use if the amounts must be rounded. The options are **Nearest**, **Up**, and **Down**.|
-|**Unit-Amount Rounding Precision**|Some currencies have other formats for unit amounts than are defined in the **General Ledger Setup** page. if you change the unit amount rounding precision for a currency, all unit amounts in the currency will be rounded with the updated precision.|
-|**Unit-Amount Decimal Places**|Some currencies have other formats for unit amounts than are defined in the **General Ledger Setup** page. If you change the unit amount decimal places for a currency, all unit amounts in the currency will be rounded with the updated decimals.|
-|**Application Rounding Precision**|Specifies the size of the interval that is allowed as a rounding difference when you apply entries in different currencies to one another.|
-|**Conversion LCY Rounding. Debit Account**|Specifies conversion information that must also contain a debit account if you want to insert correction lines for rounding differences in the general journals using the **Insert Conv. LCY Rndg. Lines** action.|
-|**Conversion LCY Rounding Credit Account**|Specifies conversion information that must also contain a credit account if you wish to insert correction lines for rounding differences in the general journals using the **Insert Conv. LCY Rndg. Lines** action.|
-|**Last Date Adjusted**|The date of the last currency adjustment.|
-|**Last Date Modified**|The date of the change to the setup of the currency.|
-|**Payment Tolerance %**|The maximum payment tolerance % set for this currency. For more information, see [Payment Tolerance and Payment Discount Tolerance](finance-payment-tolerance-and-payment-discount-tolerance.md). |
-|**Max. Payment Tolerance Amount**|The maximum payment tolerance amount set for this currency. For more information, see [Payment Tolerance and Payment Discount Tolerance](finance-payment-tolerance-and-payment-discount-tolerance.md). |
-|**Currency Factor**|Specifies the relationship between the currency and the local currency using the actual currency rate.|
-|**Realized G/L Gains Account**|Specifies the G/L account that is used to post exchange rate gains for currency adjustments between the local currency (LCY) and the additional reporting currency. The exchange rate gains are calculated when the Adjust Exchange Rates batch job is run to adjust general ledger accounts. This field might not be visible by default. It can be retrieved by personalizing the page.|
-|**Realized G/L Losses Account**|Specifies the G/L account that is used to post exchange rate losses for currency adjustments between the local currency (LCY) and the additional reporting currency. The exchange rate gains are calculated when the Adjust Exchange Rates batch job is run to adjust general ledger accounts. This field might not be visible by default. It can be retrieved by personalizing the page.|
-|**Residual Gains Account**|Specifies the G/L account that is used to post residual gain amounts (rounding differences) when an additional reporting currency is used in the general ledger application area. This field might not be visible by default. It can be retrieved by personalizing the page.|
-|**Residual Losses Account**|Specifies the G/L account that is used to post residual loss amounts (rounding differences) when an additional reporting currency is used in the general ledger application area. This field might not be visible by default. It can be retrieved by personalizing the page.|
-|**Max. VAT Difference Allowed**|The maximum amount allowed for VAT differences in this currency. For more information, see [Correcting VAT Amounts Manually in Sales and Purchase Documents](finance-work-with-vat.md#correcting-vat-amounts-manually-in-sales-and-purchase-documents). This field might not be visible by default. It can be retrieved by personalizing the page.|
-|**VAT Rounding Type**|Specifies the rounding method for correcting VAT amounts manually in sales and purchase documents. This field might not be visible by default. It can be retrieved by personalizing the page.|
+You specify the currency codes in the **Currencies** list, including extra information and settings that are necessary for each currency code. For more information, see [Currencies](finance-set-up-currencies.md#curr)
 
 ### Example of a receivable currency transaction
 
-When you receive an invoice from a company in a foreign currency, it is fairly easy to calculate the local currency (LCY) value of the invoice based on today's currency rate. However, the invoice often comes with payment terms so you can delay the payment to a later date, which implies a potentially different currency rate. This issue in combination with the fact that bank currency rates always differ from the official currency rates makes it impossible to anticipate the exact local currency (LCY) amount that is required to cover the invoice. If the due date of the invoice extends to the next month, you might also have to revaluate the local currency (LCY) amount at the end of the month. The currency adjustment is necessary because the new LCY value that is required to cover the invoice amount might be different, and the company debt to the vendor has potentially changed. The new LCY amount might be higher or lower than the previous amount and will therefore represent a gain or a loss. However, since the invoice has not been paid yet, the gain or loss is considered *unrealized*. Later, the invoice is paid, and the bank has returned with the actual currency rate for the payment. It is not until now the *realized* gain or loss is calculated. This unrealized gain or loss is then reversed, and the realized gain or loss is posted instead.
-
-In the following example, an invoice is received on January 1 with the currency amount of 1000. At the time, the currency rate is 1.123.
-
-|Date|Action|Currency Amount|Document Rate|LCY Amount on document|Adjustment Rate|Unrealized Gains Amount|Payment Rate|Realized Losses Amount|  
-|-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
-|1/1|**Invoice**|1000|1.123|1123|||||
-|1/31|**Adjustment**|1000||1125|1.125|2|||
-|2/15|**Adjustment Reversal on payment**|1000||||-2|||
-|2/15|**Payment**|1000||1120|||1.120|-3|
-
-At the end of the month, a currency adjustment is performed where the adjustment currency rate has been set to 1.125, which triggers an unrealized gain of 2.
-
-At the time of payment, the actual currency rate registered on the bank transaction shows a currency rate of 1.120.
-
-Here there is an unrealized transaction, and therefore it will be reversed together with the payment.
-
-Finally, the payment is registered and the actual loss is posted to the realized losses account.
-
-## Available Currency Functions
-
-The following table outlines key actions on the **Currencies** page. Some of the actions are explained in the next sections.  
-
-|Menu|Action|Description|
-|-------------|--------------|------------------------------|
-|**Process**|**Suggest Accounts**|Use accounts from the other currencies. The most frequently used accounts will be inserted.|
-||Change Payment Tolerance|Change either or both the maximum payment tolerance and the payment tolerance percentage, and filter by currency. For more information, see [Payment Tolerance and Payment Discount Tolerance](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-||**Exch. Rates**|View updated exchange rates for the currencies that you use.|
-||**Adjust Exch. Rates**|Adjust general ledger, customer, vendor, and bank account entries to reflect a more updated balance if the exchange rate has changed since the entries were posted.|
-||**Exchange Rate Adjust. Register**|View the results of running the **Adjust Exchange Rates** batch job. One line is created for each currency or each combination of currency and posting group that is included in the adjustment.|
-|**Exchange Rate Service**|**Exchange Rate Services**|View or edit the setup of the services that are set up to fetch updated currency exchange rates when you choose the **Update Exchange Rates** action.|
-||**Update Exchange Rates**|Get the latest currency exchange rates from a service provider.|
-|**Reports**|**Foreign Currency Balance**|View the balances for all customers and vendors in both foreign currencies and in local currency (LCY). The report displays two LCY balances. One is the foreign currency balance converted to LCY by using the exchange rate at the time of the transaction. The other is the foreign currency balance converted to LCY by using the exchange rate of the work date.|
+[!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
 ## Exchange Rates
 
@@ -200,6 +122,9 @@ The value in the **Exchange Rate** field on the **Currencies** page is updated w
 ## See Related Training at [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## See Also
+
+[Currencies in Business Central](finance-currencies.md)  
+[Set Up Currencies](finance-set-up-currencies.md)  
 [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)  
 [Closing Years and Periods](year-close-years-periods.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

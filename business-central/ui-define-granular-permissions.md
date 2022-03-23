@@ -262,7 +262,8 @@ You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to send changes th
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  
 [Add Users to Microsoft 365 for business](/microsoft-365/admin/add-users/add-users)  
-[Security and Protection in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in Developer and IT-pro Help
+[Security and Protection in Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) in Developer and IT-pro Help  
+[Assign a telemetry ID to users](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights#assign-a-telemetry-id-to-users)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

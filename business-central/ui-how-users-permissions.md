@@ -119,6 +119,7 @@ For on-premises deployments, the administrator creates, edits, and deletes users
 [Licensing in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing)  
 [Add Users to Microsoft 365 for business](/microsoft-365/admin/add-users/add-users)  
 [Security and Protection in Business Central (administration content)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
+[Assign a telemetry ID to users](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights#assign-a-telemetry-id-to-users)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

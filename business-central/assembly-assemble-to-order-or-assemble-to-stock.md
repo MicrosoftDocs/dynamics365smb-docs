@@ -1,16 +1,17 @@
 ---
-    title: Understanding Assemble to Order and Assemble to Stock
-    description: Assembly items can be supplied by assembling them when they are ordered or by assembling them to be kept in inventory until they are need on a sales order.
-    author: bholtorf
+title: Understanding Assemble to Order and Assemble to Stock
+description: Assembly items can be supplied by assembling them when they are ordered or by assembling them to be kept in inventory until they are need on a sales order.
+author: brentholtorf
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: kit, kitting
-    ms.date: 06/15/2021
-    ms.author: bholtorf
+    
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: kit, kitting
+ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.date: 06/15/2021
+ms.author: bholtorf
 
 ---
 # Understanding Assemble to Order and Assemble to Stock
@@ -66,20 +67,29 @@ When you enter an assemble-to-order item on a sales line, an assembly order is a
 
  An example of why you would want to modify the quantity to assemble is that you want to partially post shipment of inventory quantities before the assembly output can be shipped.  
 
- The following table explains the rules that define the minimum and maximum values that you can enter in the **Quantity to Assemble** field to deviate from the default value in a combination scenario. The table shows a combination scenario where the **Qty. to Ship** field on the linked sales order line is changed from 7 to 4, and the **Quantity to Assemble** is therefore defaulted to 4.  
+ The following tables explain the rules that define the minimum and maximum values that you can enter in the **Quantity to Assemble** field to deviate from the default value in a combination scenario. The table shows a combination scenario where the **Qty. to Ship** field on the linked sales order line is changed from 7 to 4, and the **Quantity to Assemble** is therefore defaulted to 4.  
 
-|-|Sales Order Line|Assembly Order Header|||||||  
-|-|----------------------|---------------------------|-|-|-|-|-|-|  
-||**Quantity**|**Qty. to Ship**|**Qty. to Assemble to Order**|**Quantity Shipped**|**Quantity**|**Quantity to Assemble**|**Assembled Quantity**|**Remaining Quantity**|  
-|Initial|10|7|7|0|7|7|0|7|  
-|Change||4||||4 (inserted by default)|||  
+- Sales Order Line
 
- Based on the above situation, you can only modify the **Quantity to Assemble** field as follows:  
+    |                | **Quantity** | **Qty. to Ship** | **Qty. to Assemble to Order** | **Quantity Shipped** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Initial value**| 10          | 7                | 7                             | 0                    |
+    |**Change**      |              | 4                |                               |                      |
 
--   The minimum quantity that you can enter is 1. This is because you must at least assemble one unit to be able to sell the four units, assuming that the remaining three are available in the inventory.  
--   The maximum quantity that you can enter is 4. This is to ensure that you do not assemble more of this assemble-to-order item than what is needed on the sale.  
+- Assembly Order Header
 
-## See Also  
+    |                | **Quantity** | **Qty. to Ship** | **Qty. to Assemble to Order** | **Quantity Shipped** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Initial value**| 7           | 7                | 0                             | 7                    |
+    |**Change**      |              | 4 (inserted by default)|                         |                      |
+
+Based on this example, you can only modify the **Quantity to Assemble** field as follows:  
+
+- The minimum quantity that you can enter is 1. This is because you must at least assemble one unit to be able to sell the four units, assuming that the remaining three are available in the inventory.  
+- The maximum quantity that you can enter is 4. This is to ensure that you do not assemble more of this assemble-to-order item than what is needed on the sale.  
+
+## See Also
+
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  

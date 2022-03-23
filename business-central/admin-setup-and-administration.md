@@ -3,7 +3,7 @@ title: Administrative tasks in Business Central
 description: Some tasks in Business Central requires central administration and setup. See what they are and learn what to do.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

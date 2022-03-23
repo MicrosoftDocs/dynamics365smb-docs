@@ -3,7 +3,7 @@
     description: You can post payments after you have received Lastschrift Verfahren (LSV+) payment advice from the bank.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

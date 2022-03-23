@@ -3,12 +3,13 @@ title: Available Fonts
 description: Learn about the pre-installed fonts that you can use for your externally-facing reports.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 11/30/2021
 ms.author: edupont
 

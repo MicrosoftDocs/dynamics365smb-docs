@@ -3,7 +3,7 @@ title:  Cash Flow Overview
 description: An overview of cash inflows and outflows to help forecast money to be received and payed out.
 author: jill-kotel-andersson
     
-ms.service: dynamics365-business-central
+
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na

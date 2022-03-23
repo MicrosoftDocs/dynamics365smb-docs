@@ -1,16 +1,16 @@
 ---
-    title: Print VAT Audit Reports
-    description: Learn how Business Central supports the British requirements for VAT audits.
-    author: edupont04
+title: Print VAT Audit Reports
+description: Learn how Business Central supports the British requirements for VAT audits.
+author: edupont04
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+    
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.form: 317, 320
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Print VAT Audit Reports in the British Version

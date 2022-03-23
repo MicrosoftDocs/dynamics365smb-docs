@@ -1,16 +1,17 @@
 ---
-    title: Unrealized Sales Tax & Sales Payment Discounts
-    description: You can use the General Ledger Setup page to set up unrealized sales tax in the US version. 
-    author: SorenGP
+title: Unrealized Sales Tax & Sales Payment Discounts
+description: You can use the General Ledger Setup page to set up unrealized sales tax in the US version. 
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/25/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 315, 466, 467, 468, 469
+ms.date: 06/25/2021
+ms.author: edupont
 
 ---
 # Set Up Unrealized Sales Tax and Sales Payment Discounts in the US Version

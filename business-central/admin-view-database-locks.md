@@ -2,11 +2,12 @@
 title: "View Database Locks"
 description: Learn how you can view information about customer database locks right from the client interface in Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 9511
 ms.date: 06/14/2021
 ms.author: jswymer
 ---

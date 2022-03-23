@@ -1,22 +1,24 @@
 ---
-    title: How to Set Up Base Calendars
+    title: Set Up Base Calendars
     description: You can assign a base calendar to your company and its business partners, to calculate delivery and receipt dates according to the specified working days.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.form: 7600, 7601, 7602, 5703
     ms.date: 06/11/2021
     ms.author: edupont
 
 ---
 # Set Up Base Calendars
+
 You can assign a base calendar to your company and its business partners, such as customers, vendors, or locations. Delivery and receipt dates on future sales order, purchase order, transfer order, and production order lines are calculated according to the calendar’s specified working days. The main task in setting up a new base calendar is to specify and define the non-working days that you want to apply.  
 
-## To set up a base calendar  
+## To set up a base calendar
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Base Calendar**, and then choose the related link.  
 2.  Choose the **New** action.  
 3.  Fill in the **Code** field.  
@@ -38,6 +40,7 @@ When you make an entry, the **Nonworking** field is selected. You can choose to 
 Specifies a date formula for the time that it takes to replenish the item. It is used to calculate the **Planned Receipt Date** field, if calculating forward, and **Order Date** field, if calculating backwards. See [Lead Time Calculation](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## Lead Time Calculation
+
 Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days. Accordingly, the two date fields on purchase order lines are calculated as follows under different conditions.
 
 |Calculation Direction|Vendor Calendar Defined|Vendor Calendar Not Defined|

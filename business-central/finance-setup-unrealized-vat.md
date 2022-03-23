@@ -1,9 +1,9 @@
 ---
-title: Setting Up Unrealized Value Added Tax
+title: Set Up Unrealized Value Added Tax
 description: If you're using cash-based accounting, you can specify how to handle unrealized VAT for sales and purchases.
-author: bholtorf
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -21,7 +21,7 @@ If you are using cash-based accounting methods, you can set up [!INCLUDE[prod_sh
 
 ## To use general ledger accounts for unrealized VAT
 
-You can choose to have VAT amounts calculated and posted to a temporary general ledger account when an invoice is posted, and then posted to the correct general ledger account and included in VAT statements when the actual payment of the invoice is posted. Before you can do this, you must complete the VAT posting setup.
+You can choose to have VAT amounts calculated and posted to a temporary general ledger account when an invoice is posted, and then posted to the correct general ledger account and included in VAT statements when the actual payment of the invoice is posted. Before you can do this, you must complete the [VAT posting setup](finance-setup-vat.md).
 
 To use accounts for unrealized VAT, follow these steps:
 

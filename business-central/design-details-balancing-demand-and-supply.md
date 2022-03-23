@@ -3,7 +3,7 @@
     description: To understand how the planning system works it is necessary to understand the prioritized goals of the planning system achieved by balancing supply with demand.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

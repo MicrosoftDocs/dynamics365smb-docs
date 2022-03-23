@@ -3,7 +3,7 @@
     description: This topic gives an overview of the different ways to create routings including prerequisites required and how to create routing links.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

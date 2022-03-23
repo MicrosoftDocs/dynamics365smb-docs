@@ -3,7 +3,7 @@
     description: You must submit an annual report that shows the monetary value of inventory items for the fiscal year.
     author: edupont04
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

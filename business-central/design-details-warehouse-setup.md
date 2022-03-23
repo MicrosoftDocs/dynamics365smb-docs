@@ -3,7 +3,7 @@
     description: Warehouse functionality contains different levels of complexity, which is largely defined by the bin setup on location cards.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

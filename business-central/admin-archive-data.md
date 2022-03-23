@@ -1,16 +1,16 @@
 ---
-    title: The Data Archive Extension
-    description: Archiving data creates a low-cost backup of your records.
-    author: bholtorf
+title: The Data Archive Extension
+description: Archiving data creates a low-cost backup of your records.
+author: brentholtorf
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/14/2021
-    ms.author: bholtorf
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.form: 630
+ms.date: 06/14/2021
+ms.author: bholtorf
 
 ---
 
@@ -36,19 +36,19 @@ The Data Archive extensions is used by the following batch jobs for date compres
 
 |Batch jobs  |
 |---------|
-|Date Comp. Item Budget Entries     |
-|Date Compress Bank Acc. Ledger     |
-|Date Compress Customer Ledger     |
-|Date Compress FA Ledger     |
-|Date Compress General Ledger     |
-|Date Compress Insurance Ledger     |
-|Date Compress Maint. Ledger     |
-|Date Compress Maint. Ledger     |
-|Date Compress Resource Ledger     |
-|Date Compress VAT Entries     |
-|Date Compress Vendor Ledger     |
-|Date Compress Whse. Entries     |
-|Date Compr. G/L Budget Entries     |
+|Date Comp. Item Budget Entries |
+|Date Compress Bank Acc. Ledger |
+|Date Compress Customer Ledger |
+|Date Compress FA Ledger |
+|Date Compress General Ledger |
+|Date Compress Insurance Ledger |
+|Date Compress Maint. Ledger |
+|Date Compress Maint. Ledger |
+|Date Compress Resource Ledger |
+|Date Compress VAT Entries |
+|Date Compress Vendor Ledger |
+|Date Compress Whse. Entries |
+|Date Compr. G/L Budget Entries |
 
 To start archiving data when you run one of the batch jobs, turn on the **Archive Deleted Entries** toggle.
 

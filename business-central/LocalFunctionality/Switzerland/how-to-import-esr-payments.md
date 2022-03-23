@@ -3,7 +3,7 @@
     description: After you receive payment from a customer, you can receive the ESR file that contains information about paid invoices from your bank electronically. 
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

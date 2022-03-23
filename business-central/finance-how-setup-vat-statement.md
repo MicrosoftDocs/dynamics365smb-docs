@@ -1,8 +1,8 @@
 ---
 title: Set Up a VAT Statement
 description: This topic tells you how to set Up a VAT Statement Template and VAT Statement Names to meet changing tax authority requirements.
-author: bholtorf
-ms.service: dynamics365-business-central
+author: brentholtorf
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

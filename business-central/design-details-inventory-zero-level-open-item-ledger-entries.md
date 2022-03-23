@@ -3,7 +3,7 @@ title: Inventory Zero Open Item Ledger Entries
 description: This article addresses an issue where the inventory level is zero although open item ledger entries exist.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

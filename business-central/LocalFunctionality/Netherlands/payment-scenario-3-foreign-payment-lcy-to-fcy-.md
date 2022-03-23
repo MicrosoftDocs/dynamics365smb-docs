@@ -3,7 +3,7 @@
     description: This topic describes a scenario where you can use telebanking for trade with domestic and foreign customers and vendors.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

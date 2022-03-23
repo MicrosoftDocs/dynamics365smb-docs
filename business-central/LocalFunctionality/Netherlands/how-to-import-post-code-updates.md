@@ -3,7 +3,7 @@
     description: The post code file can be imported and update the relevant data of the Post Code Range table.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

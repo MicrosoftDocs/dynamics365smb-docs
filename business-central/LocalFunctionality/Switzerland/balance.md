@@ -3,7 +3,7 @@
     description: This topic explains how to use the General Ledger Acc. Provisional Balance page to view posted ledger entries.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

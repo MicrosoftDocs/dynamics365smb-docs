@@ -3,7 +3,7 @@ title: Overview of Tasks to Set Up Business Central
 description: Read an overview of the tasks to set up, initialize, and configure Business Central to suit your needs.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -60,6 +60,7 @@ Some areas require you to be an administrator in your [!INCLUDE[prod_short](incl
 
 ## See Also
 
+[Company Information Overview](admin-company-information.md)  
 [Administration](admin-setup-and-administration.md)  
 [Finance](finance.md)  
 [Sales](sales-manage-sales.md)  

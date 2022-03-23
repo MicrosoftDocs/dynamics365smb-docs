@@ -1,22 +1,21 @@
 ---
-    title: How to Export Remittance Payments [NO]
-    description: This topic explains how you can use the export remittance payments process to export the payments file to your computer.
+title: Export Remittance Payments [NO]
+description: This topic explains how you can use the export remittance payments process to export the payments file to your computer in the Norwegian version of Business Central.
+author: SorenGP
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/21/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
+ms.date: 06/21/2021
+ms.author: edupont
 
 ---
 # Export Remittance Payments in the Norwegian Version
+
 You can use the export remittance payments process to export the payments file to your computer. You can then transfer the remittance payments to the bank.  
 
 > [!IMPORTANT]  

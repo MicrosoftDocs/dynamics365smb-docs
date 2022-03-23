@@ -1,9 +1,9 @@
 ---
 title: Manual Synchronization of Table Mappings | Microsoft Docs
 description: The synchronization copies data between Microsoft Dataverse tables and Business Central to keep both systems up-to-date.
-author: bholtorf
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,7 @@ ms.author: bholtorf
 ---
 
 # Manually Synchronize Table Mappings
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 An integration table mapping associates a [!INCLUDE[prod_short](includes/prod_short.md)] table, such as customer, with a [!INCLUDE[prod_short](includes/cds_long_md.md)] table, such as account. Synchronizing an integration table mapping enables you to synchronize data in all records of the [!INCLUDE[prod_short](includes/prod_short.md)] table and [!INCLUDE[prod_short](includes/cds_long_md.md)] table that are coupled. Additionally, depending on the configuration of the table mapping, synchronization can create and couple new records in the destination solution for uncoupled records in the source.  
 

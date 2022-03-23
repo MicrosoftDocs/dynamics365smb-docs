@@ -3,7 +3,7 @@ title: Purchase Items for a Sale
 description: From a sales invoice, to purchase products, you can create a purchase invoice for a vendor or supplier.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

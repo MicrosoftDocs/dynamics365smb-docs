@@ -1,20 +1,21 @@
 ---
-    title: How to View Remittance Error Codes
-    description: For a remittance error, the error code from the bank and an explanation of the error will be shown for the payment on the Waiting Journal page.
+title: View Remittance Error Codes [NO]
+description: For a remittance error, the error code from the bank and an explanation of the error will be shown for the payment on the Waiting Journal page in the Norwegian version of Business Central.
+author: SorenGP
 
-    author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
-# View Remittance Error Codes
+# View Remittance Error Codes in the Norwegian Version
+
 For a remittance error, the error code from the bank and an explanation of the error will be shown for the payment on the **Waiting Journal** page.  
 
 ## To view error codes  

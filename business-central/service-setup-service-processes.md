@@ -1,9 +1,9 @@
 ---
     title: Set Up Service Management Processes | Microsoft Docs
     description: Learn how to set up processes that help ensure your customers are satisfied with your customer service.
-    author: bholtorf
+    author: brentholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

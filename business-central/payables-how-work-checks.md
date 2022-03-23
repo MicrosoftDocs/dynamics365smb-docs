@@ -3,7 +3,7 @@ title: Issue, Print, Cancel, and Void Checks
 description: Describes how to issue checks using the payment journal, print checks, and void or view check ledger entries in Business Central.  
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@
     description: This walkthrough introduces you to the project management features in jobs which allow you to schedule the usage of your company's resources and more.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

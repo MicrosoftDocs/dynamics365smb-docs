@@ -3,7 +3,7 @@ title: Automatic Payments and Automatic Bills [IT]
 description: The following topic explains how to set up the relevant information in Business Central to manage automatic payments and bills.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,19 +1,17 @@
 ---
-    title: Types of Payment Returns Files [NO]
-    description: Norwegian enhancements include two types of payment return files that can be imported -  receipt returns and settlement returns.
+title: Types of Payment Returns Files [NO]
+description: Norwegian enhancements include two types of payment return files that can be imported into Business Central.
+author: SorenGP
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/21/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
+ms.date: 06/21/2021
+ms.author: edupont
 
 ---
 # Types of Payment Returns Files in the Norwegian Version

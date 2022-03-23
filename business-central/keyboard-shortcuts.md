@@ -1,8 +1,8 @@
 ---
 title: "Keyboard Shortcuts"
 description: "The complete list of keyboard shortcut combinations to work efficiently with your data."
-author: bholtorf
-ms.service: dynamics365-business-central
+author: brentholtorf
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

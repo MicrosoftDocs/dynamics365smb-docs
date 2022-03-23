@@ -1,6 +1,6 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
+
 ms.topic: include
 ms.date: 07/13/2021
 ms.author: edupont

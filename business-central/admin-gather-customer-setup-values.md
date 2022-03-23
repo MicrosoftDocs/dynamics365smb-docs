@@ -1,16 +1,17 @@
 ---
-    title: Gather Customer Setup Values
-    description: Configuration questionnaire helps reduce implementation by streamlining setting up new companies and offering customers an Excel or XML file.
-    author: SorenGP
+title: Gather Customer Setup Values
+description: Configuration questionnaire helps reduce implementation by streamlining setting up new companies and offering customers an Excel or XML file.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/14/2021
-    ms.author: edupont
+    
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 8610, 8613
+ms.date: 06/14/2021
+ms.author: edupont
 
 ---
 # Gather Customer Setup Values

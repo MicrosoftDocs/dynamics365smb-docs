@@ -1,20 +1,21 @@
 ---
-    title: Remittance Errors [NO]
-    description: Remittance errors for payments may occur when data is transferred after payments have been sent to the bank. These errors are reported on the Return Error page.
+title: Remittance Errors [NO]
+description: Remittance errors for payments may occur when data is transferred after payments have been sent to the bank. These errors are reported on the Return Error page.
+author: SorenGP
 
-    author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/21/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
+ms.date: 06/21/2021
+ms.author: edupont
 
 ---
 # Remittance Errors in the Norwegian Version
+
 Remittance errors for payments may occur when data is transferred and after payments have been sent to the bank. Both kinds of errors are reported on the **Return Error** page.  
 
 The remittance system handles all error codes which can be sent through the return files. It is not required to manually cancel payments rejected by the bank.  

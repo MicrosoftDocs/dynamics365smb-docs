@@ -1,16 +1,15 @@
 ---
 title: Business Intelligence
 description: Business Central contains a number of features that help you gather, analyze, and share valuable company data for business intelligence and decision making.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
+ms.search.form: 103, 198, 490
 ms.date: 06/14/2021
 ms.author: edupont
 

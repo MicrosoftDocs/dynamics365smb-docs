@@ -3,7 +3,7 @@ title: Create a Demand Forecast
 description: Learn about the demand forecasting features, and how you can create sales and production forecasts.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

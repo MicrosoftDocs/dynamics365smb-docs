@@ -1,19 +1,17 @@
 ---
-    title: How to Create Payment Slips
-    description: You can create payments slips to manage vendor and customer payments. Before you create payment slips, you must set up payment classes.
+title: Create Payment Slips [FR]
+description: You can create payments slips to manage vendor and customer payments in the French version of Business Central. Before you create payment slips, you must set up payment classes.
+author: SorenGP
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Create Payment Slips
@@ -122,8 +120,8 @@ After you create a payment slip, you can generate payment files and send them to
 ## See Also  
  [Payment Management](payment-management.md)   
  [Set Up Payment Classes](how-to-set-up-payment-classes.md)   
- [Set Up Payment Statuses](how-to-set-up-payment-statuses.md)   
- [Set Up Payment Steps](how-to-set-up-payment-steps.md)   
+ [Set Up Payment Statuses](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   
+ [Set Up Payment Steps](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)   
  [Set Up Payment Addresses](how-to-set-up-payment-addresses.md)   
  [Post Payment Slips](how-to-post-payment-slips.md)   
  [Archive Payment Slips](how-to-archive-payment-slips.md)   

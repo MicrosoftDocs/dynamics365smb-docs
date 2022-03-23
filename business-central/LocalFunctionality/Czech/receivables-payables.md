@@ -3,7 +3,7 @@ title: Payables and Receivables in the Czech Version
 description: This section describes local functionality in the Czech version - Payables and Receivables.
 author: ACMartinKunes
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords: Czech, Receivables, Payables, Finance, CZ, Cash
 ms.date: 06/17/2021

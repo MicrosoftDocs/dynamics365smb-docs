@@ -3,8 +3,9 @@ title: Manage storage by deleting documents or compressing data
 description: Learn how to deal with accumulating historic documents (and reduce the amount of data stored in a database) by deleting or compressing them.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
+ms.search.form: 107, 9040
 ms.date: 06/14/2021
 ms.author: edupont
 

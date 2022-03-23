@@ -3,7 +3,7 @@ title: Posting Red Storno corrections in Russia
 description: Russian enhancements include support for Red Storno corrections.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

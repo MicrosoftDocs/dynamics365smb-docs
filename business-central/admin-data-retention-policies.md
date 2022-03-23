@@ -1,16 +1,17 @@
 ---
-    title: Clean Up Data with Retention Policies | Microsoft Docs
-    description: You can specify how often you want to delete certain types of data.
-    author: bholtorf
+title: Clean Up Data with Retention Policies
+description: You can specify how often you want to delete certain types of data.
+author: brentholtorf
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: delete, data, retention, policy, policies
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: delete, data, retention, policy, policies
+ms.search.form: 3903, 3901
+ms.date: 04/01/2021
+ms.author: bholtorf
 
 ---
 # Define Retention Policies

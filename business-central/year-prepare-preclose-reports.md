@@ -3,7 +3,7 @@ title: Overview of Pre-Closing Reports to Verify Account Accuracy
 description: Provides an overview of the reports you can use to verify the accuracy of accounts before closing the books at the end of a year or period.
 author: jswymer
 
-ms.service: dynamics365-business-central
+
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na

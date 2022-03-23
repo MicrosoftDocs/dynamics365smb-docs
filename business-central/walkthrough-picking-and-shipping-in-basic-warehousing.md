@@ -3,7 +3,7 @@
     description: In Business Central, the outbound processes for picking and shipping can be performed in the following four ways depending on the warehouse complexity level.
     author: jill-kotel-andersson
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

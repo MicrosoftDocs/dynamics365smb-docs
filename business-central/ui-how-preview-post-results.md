@@ -1,11 +1,9 @@
 ---
-title: Preview Entries Before You Post a Document or Journal | Microsoft Docs
+title: Preview Entries Before You Post a Document or Journal
 description: You can make sure that entries for documents and journals are accurate before you post them to the general ledger.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

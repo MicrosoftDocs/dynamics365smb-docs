@@ -3,7 +3,7 @@ title: Creating tax registers in Russia
 description: Describes how to create tax registers in Russia.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

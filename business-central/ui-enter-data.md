@@ -1,14 +1,15 @@
 ---
-title: How to Enter Data in Business Central
+title: Enter Data in Business Central
 description: There are many general features that help you enter data easier, faster, and more precise. The basic principles and advanced features are described here.
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
-ms.date: 01/05/2022
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 03/23/2022
 ms.author: jswymer
 ---
 # Entering Data

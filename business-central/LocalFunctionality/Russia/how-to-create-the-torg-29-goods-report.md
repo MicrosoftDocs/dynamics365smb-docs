@@ -3,7 +3,7 @@ title: Creating the TORG-29 goods report in Russia
 description: Russian enhancements include support forthe TORG-29 goods report.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

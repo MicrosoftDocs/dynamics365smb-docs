@@ -3,7 +3,7 @@
     description: To submit VAT statements electronically in text format in the Spanish version of Business Central, create templates to manage the formats.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

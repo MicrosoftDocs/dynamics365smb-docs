@@ -9,8 +9,8 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.search.form: 17, 18, 20, 21, 37, 65, 99, 118, 312, 313, 314, 395, 552, 569, 570, 634, 790, 791, 1158
-ms.date: 12/03/2021
+ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
+ms.date: 01/21/2022
 ms.author: edupont
 
 ---
@@ -18,25 +18,32 @@ ms.author: edupont
 
 The general ledger stores your financial data, and the chart of accounts shows the accounts that all general ledger entries are posted to. [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard chart of accounts that is ready to support your business.
 
-## General Ledger Setup and General Posting Setup
+## General ledger setup and general posting setup
 
-The setup of the general ledger is at the core of financial processes because it defines how you post data.  
+The setup of the general ledger is at the core of financial processes because it defines how you post data. Two pages play an important part in configuring your finance processes:  
 
-On the **General Ledger Setup** page, you specify how to handle certain accounting issues in your company, such as:  
+* The **General Ledger Setup** page
 
-* Invoice rounding details  
-* Address formats  
-* Financial reporting  
+    On the **General Ledger Setup** page, you specify how to handle certain accounting issues in your company, such as:  
 
-> [!TIP]
-> The **General Ledger Setup** page includes generic fields and fields that are particular to your country or region. If you are not sure of the meaning of a field, we suggest you work with your accountant to determine whether it is of relevance to your organization.  
+    * Invoice rounding details  
+    * Address formats  
+    * Financial reporting  
 
-Similarly, on the **General Posting Setup** page, you specify how you want to set up combinations of general business and general product posting groups. Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. You fill in a line for each combination of business posting group and product posting group. But you can also open each line in its own posting setup card. For more information, see [Posting Group Setups](finance-posting-groups.md).  
+    > [!TIP]
+    > The **General Ledger Setup** page includes generic fields and fields that are particular to your country or region. If you are not sure of the meaning of a field, we suggest you work with your accountant to determine whether it is of relevance to your organization. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-> [!TIP]
-> If you cannot see the fields that you are looking for in the **General Posting Setup** page, then use the horizontal scroll bar at the bottom of the page to scroll to the right.  
+    Open the page [here](https://businesscentral.dynamics.com/?page=118)
+* The **General Posting Setup** page
 
-## The Chart of Accounts
+    Similarly, on the **General Posting Setup** page, you specify how you want to set up combinations of general business and general product posting groups. Posting groups map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. You fill in a line for each combination of business posting group and product posting group. But you can also open each line in its own posting setup card. For more information, see [Posting Group Setups](finance-posting-groups.md).  
+
+    > [!TIP]
+    > If you cannot see the fields that you are looking for in the **General Posting Setup** page, then use the horizontal scroll bar at the bottom of the page to scroll to the right.  
+
+    Open the page [here](https://businesscentral.dynamics.com/?page=314)
+
+## The chart of accounts
 
 The chart of accounts shows all general ledger accounts. From the chart of accounts, you can do things like:  
 
@@ -46,9 +53,9 @@ The chart of accounts shows all general ledger accounts. From the chart of accou
 * See a list of posting groups that post to that account.
 * View separate debit and credit balances for a single account  
 
-You can add, change, or delete general ledger accounts. However, to prevent discrepancies, you can't delete a general ledger account if it's data is used in the chart of accounts.  
+You can add, change, or delete general ledger accounts. However, to prevent discrepancies, you can't delete a general ledger account if its data is used in the chart of accounts. Also, starting with 2022 release wave 2, you can also block the accidental deletion of accounts in sensitive periods. For more information, see [Deleting accounts](finance-setup-chart-accounts.md#delete-accounts).  
 
-## Account Categories
+## Account categories
 
 You can personalize the structure of your financial statements by mapping general ledger accounts to account categories.  
 
@@ -66,14 +73,14 @@ For example, the default balance statement has a subcategory for *Cash* under *C
 
     * One for petty cash  
     * One for your checking account  
-2. Specify the additional report definition **Cash Accounts** for these subcategories.  
+2. Specify the another report definition **Cash Accounts** for these subcategories.  
 3. Indent them under the **Cash** subcategory.  
 
 The next time you generate account schedules, your balance statement will show a total balance for cash and two lines with balances for petty cash and the checking account.  
 
-## Getting a Quick Overview
+## Get a quick overview
 
-The Chart of Accounts page displays accounts in a hierarchical list that offers fast access to the key information for each account. However, the list is static, and if you have a lot of accounts you might have to do a bit of scrolling to view information for different accounts. If you just want a quick overview of the basics, such as net changes and balances, the **Chart of Accounts Overview** page is a useful alternative. The column layout on the page is now the same as you’ll find on the Chart of Accounts page (there are just fewer of them), so you won’t have to reorient yourself, and you can expand or collapse the hierarchical levels to condense the view. To make it easy to switch between the pages, the **Chart of Accounts Overview** page is available from the Chart of Accounts page.
+The **Chart of Accounts** page displays accounts in a hierarchical list that offers fast access to the key information for each account. However, the list is static, and if you have many accounts, you might have to do a bit of scrolling to view information for different accounts. If you just want a quick overview of the basics, such as net changes and balances, the **Chart of Accounts Overview** page is a useful alternative. The column layout on the page is now the same as you’ll find on the **Chart of Accounts** page (there are just fewer of them), so you won’t have to reorient yourself, and you can expand or collapse the hierarchical levels to condense the view. To make it easy to switch between the pages, the **Chart of Accounts Overview** page is available from the **Chart of Accounts** page.
 
 ## Access to create and edit accounts and account categories
 
@@ -82,7 +89,7 @@ In a small organization, such as the CRONUS demonstration company, most users ca
 ## See Also
 
 [Finance](finance.md)  
-[Setting Up or Changing the Chart of Accounts](finance-setup-chart-accounts.md)  
+[Set Up or Changing the Chart of Accounts](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 

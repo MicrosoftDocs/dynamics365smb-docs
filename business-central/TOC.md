@@ -69,11 +69,11 @@
 #### [Save and Personalize List Views](ui-views.md)
 #### [Bookmark a Page or Report on Your Role Center](ui-bookmarks.md)
 #### [Display Lists in Different Ways](across-display-lists-different-views.md)
-### Print Reports and Run Batch Jobs and XMLports
+### Run and Print Reports
 #### [Run and Print Reports](ui-work-report.md)
 #### [Set Up Printers](ui-specify-printer-selection-reports.md)
 #### [Schedule a Report to Run](ui-work-report.md#ScheduleReport)
-#### [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md)
+#### [Manage Saved Settings](reports-saving-reusing-settings.md)
 #### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
 #### [Run Batch Jobs and XML ports](ui-how-run-batch-jobs.md)
 ### Change the Look of Externally-Facing Documents

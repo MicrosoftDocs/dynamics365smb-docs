@@ -1,5 +1,5 @@
 ---
-title: Using Business Central with Outlook| Microsoft Docs
+title: Using Business Central with Outlook
 description: This service has deep integration with Microsoft 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
 author: jswymer
 
@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 08/13/2021
+ms.date: 03/21/2022
 ms.author: jswymer
 
 ---
@@ -49,7 +49,7 @@ For more information, see [Use add-ins in Outlook on the web](https://support.of
 
 ## Work with contacts and documents using the Contact Insights add-in
 
-Let's say that you get an email from a customer that wants to get a quote on some items. Directly in Outlook, you can open the [!INCLUDE[prod_short](includes/prod_short.md)] add-in, which recognizes the sender as a customer, and opens the customer card for that company. From this dashboard, you see overview information for the customer, and can drill down for more detail on specific documents. You can also dig into the sales history for the customer. If it's a new contact, you can create them as a new customer in [!INCLUDE[prod_short](includes/prod_short.md)] without leaving Outlook.  
+Let's say that you get an email from a customer that wants to get a quote on some items. Directly in Outlook, you open the [!INCLUDE[prod_short](includes/prod_short.md)] add-in, which recognizes the sender as a customer, and opens the customer card for that company. From this dashboard, you see overview information for the customer, and drill down for more detail on specific documents. You can also dig into the sales history for the customer. If it's a new contact, you can create them as a new customer in [!INCLUDE[prod_short](includes/prod_short.md)] without leaving Outlook.  
 
 In the add-in, you can create a sales quote and send it back to this customer without leaving Outlook. All of the information that you need to send the sales quote is available in your business inbox in Outlook. Once you have the data entered, you post the quote and send it by email. [!INCLUDE[prod_short](includes/prod_short.md)] generates a .PDF file with the sales quote and attaches it to the email message that you draft in the add-in.  
 
@@ -77,13 +77,13 @@ The action bar at the top of the [!INCLUDE[prod_short](includes/prod_short.md)] 
 
 For example, you can open the full contact details as you would see them in [!INCLUDE[prod_short](includes/prod_short.md)]. If you work with more that one [!INCLUDE[prod_short](includes/prod_short.md)] company, you can easily switch between companies.
 
-### Track incoming documents 
+### Track incoming documents
 
 Perhaps you use the **Incoming Documents** list in [!INCLUDE[prod_short](includes/prod_short.md)] to track documents for processing that vendors send to you, such as a purchase invoice that needs to be paid. If you do, you can easily create Incoming Documents records from the Outlook add-in and include the email attachments.
 
-1. When you receive an email from a vendor that has an attachment, choose ![Business Central add-in icon in Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Contact Insights**. 
+1. When you receive an email from a vendor that has an attachment, choose ![Business Central add-in icon in Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Contact Insights**.  
 
-2. In the action bar of the add-in, choose **Show more actions**, then choose the **Send to Incoming Documents…**. 
+2. In the action bar of the add-in, choose **Show more actions**, then choose the **Send to Incoming Documents…** action.  
 
 ### Create and send new document to a contact
 
@@ -91,11 +91,39 @@ Perhaps you use the **Incoming Documents** list in [!INCLUDE[prod_short](include
 2. Make changes to the document in the **[!INCLUDE[prod_short](includes/prod_short.md)]** add-in pane.
 3. When the document is ready to send to the contact, in the action bar, choose **Show more actions**, then choose the **Send by Email** action.
 
+### Attach files to records
+
+Your email inbox often serves as a source of incoming files that initiate or unblock workflows. Files can include things like PDF invoice payments, photos of goods, or requirements in a Word document. When working in Outlook with Business Central records like vendors, customers, purchase invoices, or sales orders, you can attach these files to the records.
+
+There's a couple ways you can attach files. One way is to upload files from your device. The other way is upload files that are attached to an email. For example, suppose you get an email with files from a contact. The add-in will automatically display the contact record that matches the email sender. From there, you can navigate to a document for the contact, like the latest sales order. Once you've identified the order that the email relates to, you quickly upload the files from the email to that order.
+
+![Shows how to add attachments from an email to records in Business Central.](media/outlook-attach-file.png)
+
+After attaching a file, coworkers can instantly download and view the file from the **Attachments** FactBox in any of their Business Central clients. Or, they can open the file in OneDrive to share and collaborate with their department.
+
+#### How to attach a file
+
+1. Open the email, choose ![Business Central add-in icon in Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Contact Insights**.
+2. In the action bar of the add-in, choose **Show more actions** > **Attachments**.
+
+    The **Attached Documents** page opens to list any documents that are already attached to the record.
+3. Choose **Attached File(s)...**, then choose one of the following options:
+
+   - Choose **Attach from email** to upload all or selected files that are attached to the email.
+   - Choose **Upload from file** to upload one or files from your device.
+
+> [!NOTE]
+> You can't attach files to all records. This feature is available for records that use the **Attachments** FactBox, such as a vendor, customer, purchase invoice, or sales order.
+
 ## View a document from an email using the Document View add-in
 
 Whether it's an email you sent or received, you can surface any [!INCLUDE[prod_short](includes/prod_short.md)] document, like the sales quote, directly in Outlook. From there, you can make changes and navigate to related information&mdash;just as you would from within [!INCLUDE[prod_short](includes/prod_short.md)].
 
-If you're using the Outlook app, just choose **Document Link** at the top of the email message. For Outlook on the web, look for the document reference link in the email message. The reference link text will include the document number, which is based on the number series used in [!INCLUDE[prod_short](includes/prod_short.md)]. For example, the link for a sales quote would be something like **Sales Quote S-QUO1000**.
+If you're using the Outlook app, just choose **Document Link** at the top of the email message. For Outlook on the web, look for the document reference link in the email message. The reference link text will include the document number, which is based on the number series used in [!INCLUDE[prod_short](includes/prod_short.md)]. For example, the link for a sales quote would be something like **Sales Quote S-QUO1000**.  
+
+> [!TIP]
+> Starting in 2022 release wave 1, documents open in a new browser window with all the capabilities that you know from [!INCLUDE [prod_short](includes/prod_short.md)]. You can navigate from a document to a list and back again, open lists in Excel, send documents to be printed, and run or preview related reports. You also have all of the familiar keyboard shortcuts right there when you open documents from Outlook.  
+
 
 ## See Related Training at [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

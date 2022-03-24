@@ -1,5 +1,5 @@
 ---
-title: Set Up Sales Prices and Discounts for Customers | Microsoft Docs
+title: Set Up Sales Prices and Discounts for Customers
 description: Describes how to set up and apply pricing and discount agreements for sales documents.
 author: brentholtorf
 
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.search.form: 1345, 7002, 7007, 7015, 7016, 7023
+ms.search.form: 1345, 7002, 7007, 7015, 7016, 7024, 7023, 7024
 ms.date: 04/01/2021
 ms.author: bholtorf
 

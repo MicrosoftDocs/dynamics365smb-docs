@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2021
+ms.date: 01/27/2022
 ms.author: bholtorf
 ---
 
@@ -235,6 +235,14 @@ Role explorer gives you an overview and quick access to all the business feature
 |F3 or Ctrl+Down Arrow|Moves focus to the next found feature in role explorer. F3 will move focus to the **Find** box after the last found feature.|
 |Shift F3 or Ctrl+Up Arrow|Move focus to the previous found feature in role explorer.|
 |Ctrl+Shift|Expand or collapse all sub-nodes, in addition to top-level nodes, when you choose the **Expand** or **Collapse** action.|
+
+##  <a name="keypad"></a> Numeric Keypad Shortcuts
+
+The following table describes the shortcuts on a numeric keypad.
+
+|Press these keys<br />(in macOS)|To do this|
+|--------------------------------|----------|
+|Alt+Decimal Separator|Switch the output of the decimal separator key to either a period (.) or the character determined by the **Region** setting of the **My Settings** page. For more information, see [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).|
 
 ## See also
 

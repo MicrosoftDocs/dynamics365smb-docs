@@ -21,7 +21,7 @@ The following topics describe local functionality that is unique to the Mexican 
     * [Tax Identification Types for Mexico](tax-identification-types-for-mexico.md) **Available Now**
     * [VAT Recalculation](vat-recalculation.md) **Available Now**
 
-* Electronic Invoicing
+* Electronic Invoicing (updated to CFDI 4.0)
     * [Electronic Invoicing](electronic-invoicing.md) **Available Now**
     * [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md) **Available Now**
     * [Generate Electronic Invoices](how-to-generate-electronic-invoices.md) **Available Now**

@@ -9,29 +9,37 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 605, 620, 602, 603, 601, 600, 652, 606, 607, 609, 608, 621
-ms.date: 04/01/2021
+ms.search.form: 605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621
+ms.date: 03/09/2022
 ms.author: edupont
 
 ---
 # Set Up Intercompany Transaction Posting
 
-To send a transaction (such as a sales journal line) from one company and have the corresponding transaction (such as a purchase journal line) automatically created in the partner company, the companies involved must agree on a common chart of accounts and set of dimensions to use with intercompany transactions. The intercompany chart of accounts can be, for example, a simplified version of the parent company's chart of accounts. Each company maps their full chart of accounts to the shared intercompany chart of accounts, and each company maps their dimensions to the intercompany dimensions.  
+Intercompany postings make accounting for two or more companies an easier task for a centralized finance department as well as bookkeepers in intercompany partner companies. To send a transaction (such as a sales journal line) from one company and have the corresponding transaction (such as a purchase journal line) automatically created in the partner company, the companies involved must agree on a common chart of accounts and set of dimensions to use with intercompany transactions. The intercompany chart of accounts can be, for example, a simplified version of the parent company's chart of accounts. Each company maps their full chart of accounts to the shared intercompany chart of accounts, and each company maps their dimensions to the intercompany dimensions.  
 
-You must also set up an intercompany partner code for each partner company, which is agreed upon by all of the companies, and then assign that to customer and vendor cards respectively by filling in the **Intercompany Partner Code** field.  
+You must also set up an intercompany partner code for each [!INCLUDE [prod_short](includes/prod_short.md)] company, which is agreed upon by all of the companies, and then assign that to customer and vendor cards, respectively.  
 
 If you create or receive intercompany lines with items, you can either use your own item numbers, or you can set up your partner's item numbers for each relevant item, either in the **Vendor Item No.** field or in the **Common Item No.** field on the item card. You can also use the **Item Reference** function to map your items' numbers to your intercompany partners descriptions of the items, open the card of each item, and then choose the **Item References** action to set up references between your item descriptions and those of the intercompany partner. For more information, see [Use Item References](inventory-how-use-item-cross-refs.md). 
 
 If you will make intercompany sales transactions that include resources, you must fill in the **IC Partner Purch. G/L Acc. No.** field on the resource card for each relevant resource. This is the number of the intercompany general ledger account that the amount for this resource will be posted to in your partner's company. For more information, see [Set Up Resources](projects-how-setup-resources.md).
 
-## To set up companies for intercompany transactions
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
-2. On the **Company Information** page, fill in the **Intercompany Partner Code**, **Intercompany Inbox Type**. and **Intercompany Inbox Details** fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+## To set up a company for intercompany transactions
 
-## To set intercompany partners
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Setup**, and then choose the related link.  
+2. On the **Intercompany Setup** page, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+  > [!NOTE]
+  > 2022 release wave 1 introduces a new **Intercompany Setup** page so that you can also specify if this company must automatically create journal lines based on an intercompany partner's posts from the **IC General Journal** page. If your organization has used [!INCLUDE [prod_short](includes/prod_short.md)] before this release wave, you must switch on the new experience in the **Feature Management** page. For more information, see [Auto-accept transactions for intercompany journals](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/intercompany-postings-have-auto-accept-transaction-enabled-intercompany-general-journals).
+
+In versions older than 2022 release wave 1, you must fill in three intercompany-related fields in the **Company Information** page instead.  
+
+## To set up intercompany partners
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Partners**, and then choose the related link.
 2. Choose the **New** action.
 3. On the **Intercompany Partner** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Repeat steps 2 and 3 for all other companies that are part of this intercompany setup.
 
 > [!NOTE]
 > In [!INCLUDE[prod_short](includes/prod_short.md)] online, you cannot use file locations to transfer transactions to your partners because [!INCLUDE[prod_short](includes/prod_short.md)] does not have access to your local network. Therefore, if you choose **File Location** in the **Transfer Type** field, the **Folder Path** field is not available. Instead, the file will be downloaded to the Downloads folder on your computer. You then send the file to someone in the partner company, for example, by email. For a more direct process, we recommend that you choose **Email** instead.

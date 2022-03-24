@@ -18,7 +18,6 @@ ms.author: bholtorf
 
 |Press these keys|To do this|  
 |-|-|
-|Alt+Decimal Separator|Toggle output of decimal separator key on numeric keypad|
 |Alt+F2|Show and hide the FactBox pane|
 |Alt+N|Create a new record|
 |Alt+Shift+N|Close a newly created record and create a new one|

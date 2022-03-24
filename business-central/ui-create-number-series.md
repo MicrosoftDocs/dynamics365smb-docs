@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
-ms.date: 02/22/2022
+ms.date: 03/24/2022
 ms.author: edupont
 
 ---
@@ -19,7 +19,8 @@ ms.author: edupont
 For each company that you set up, you need to assign unique identification codes to things such as general ledger accounts, customer and vendor accounts, invoices, and other documents. Numbering is important not only for identification. A well-designed numbering system also makes the company more manageable and easy to analyze, and can reduce the number of errors that occur in data entry.
 
 > [!Important]
-> By default, gaps are not allowed in number series because the exact history of financial transactions must be available for auditing, by law, and therefore must follow an unbroken sequence with no deleted numbers.<br /><br />
+> By default, gaps are not allowed in number series because the exact history of financial transactions must be available for auditing, by law, and therefore must follow an unbroken sequence with no deleted numbers.
+> 
 > If you want to allow gaps in certain number series, then first consult with your auditor or accounting manager to ensure that you adhere to the legal requirements in your country/region. For more information, see the [Gaps in Number Series](#gaps-in-number-series) section.
 
 > [!NOTE]  

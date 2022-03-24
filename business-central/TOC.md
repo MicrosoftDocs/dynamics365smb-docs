@@ -109,10 +109,10 @@
 ## Setting Up Business Central
 ### [Overview of Tasks](setup.md)
 ### Setting Up Finance
-#### [Setting Up Finance](finance-setup-finance.md)
+#### [Set Up Finance](finance-setup-finance.md)
 #### [Set Up Payment Methods](finance-payment-methods.md)
 #### [Set Up Payment Terms](finance-payment-terms.md)
-#### [Setting Up Posting Groups](finance-posting-groups.md)
+#### [Set Up Posting Groups](finance-posting-groups.md)
 #### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
@@ -151,13 +151,13 @@
 #### [Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)
 #### [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)
 ### Setting Up Purchasing
-#### [Setting Up Purchasing](purchasing-setup-purchasing.md)
+#### [Set Up Purchasing](purchasing-setup-purchasing.md)
 #### [Register New Vendors](purchasing-how-register-new-vendors.md)
 #### [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Prioritize Vendors](purchasing-how-prioritize-vendors.md)
 #### [Set Up Purchasers](purchasing-how-setup-purchasers.md)
 ### Setting Up Inventory
-#### [Setting Up Inventory](inventory-setup-inventory.md)
+#### [Set Up Inventory](inventory-setup-inventory.md)
 #### [Set Up General Inventory Information](inventory-how-setup-general.md)
 #### [Work with Responsibility Centers](inventory-responsibility-centers.md)
 #### [Set Up Locations](inventory-how-setup-locations.md)
@@ -169,12 +169,12 @@
 #### [Categorize Items](inventory-how-categorize-items.md)
 #### [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)
 ### Setting Up Project Management
-#### [Setting Up Projects](projects-setup-projects.md)
+#### [Set Up Projects](projects-setup-projects.md)
 #### [Set Up Resources](projects-how-setup-resources.md)
 #### [Set Up Time Sheets](projects-how-setup-time-sheets.md)
 #### [Set Up Jobs](projects-how-setup-jobs.md)
 ### Setting Up Fixed Assets
-#### [Setting Up Fixed Assets](fa-setup.md)
+#### [Set Up Fixed Assets](fa-setup.md)
 #### [Set Up General Fixed Assets Information](fa-how-setup-general.md)
 #### [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md)
 #### [Define Depreciation Methods](fa-depreciation-methods.md)
@@ -182,7 +182,7 @@
 #### [Set Up Fixed Asset Insurance](fa-how-setup-insurance.md)
 #### [Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
 ### Setting Up Warehouse Management
-#### [Setting Up Warehouses](warehouse-setup-warehouse.md)
+#### [Set Up Warehouses](warehouse-setup-warehouse.md)
 #### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)
 #### [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md)
 #### [Create Bins](warehouse-how-to-create-individual-bins.md)
@@ -199,7 +199,7 @@
 #### [Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 #### [Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)
 ### Setting Up Manufacturing
-#### [Setting Up Manufacturing](production-configure-production-processes.md)
+#### [Set Up Manufacturing](production-configure-production-processes.md)
 #### [Create Work Center Calendars](production-how-to-create-work-center-calendars.md)
 #### [Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)
 #### [Create Routings](production-how-to-create-routings.md)
@@ -211,7 +211,7 @@
 #### [Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)
 #### [Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
 ### Setting Up Service Management
-#### [Setting Up Service Management](service-setup-service.md)
+#### [Set Up Service Management](service-setup-service.md)
 #### [Create Service Items](service-how-to-create-service-items.md)
 #### [Set Up Standard Service Codes](service-how-setup-service-coding.md)
 #### [Configure Service Processes](service-setup-service-processes.md)

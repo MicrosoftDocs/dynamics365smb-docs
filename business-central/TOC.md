@@ -31,7 +31,7 @@
 ### [Extend Your Trial Version](admin-extend-trial.md)
 ### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ## Buy
-### [Get Started with a Subscription](across-preview.md#getting-started-with-a-subscription)
+### [Get Started with a Subscription](across-preview.md#get-started-with-a-subscription)
 ### [Get Ready for Doing Business](ui-get-ready-business.md)
 
 ## Quick Starts
@@ -70,7 +70,7 @@
 #### [Bookmark a Page or Report on Your Role Center](ui-bookmarks.md)
 #### [Display Lists in Different Ways](across-display-lists-different-views.md)
 ### Print Reports and Run Batch Jobs and XMLports
-#### [Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)
+#### [Run and Print Reports](ui-work-report.md)
 #### [Set Up Printers](ui-specify-printer-selection-reports.md)
 #### [Schedule a Report to Run](ui-work-report.md#ScheduleReport)
 #### [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md)

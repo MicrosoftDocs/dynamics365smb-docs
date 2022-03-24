@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 02/09/2022
+ms.date: 03/24/2022
 ms.author: jswymer
 
 ---
@@ -23,7 +23,7 @@ Batch jobs and XMLports do more or less the same as reports, but are used more f
 > [!NOTE]
 > This topic refers mainly to "report", but similar information applies to batch jobs and XMLports.
 
-## Getting started
+## Get started
 
 You find reports in the **Reports** tab on selected pages, or you can use search ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") to find reports by name.
 

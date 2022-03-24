@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
 
 ---
@@ -19,7 +19,8 @@ ms.author: edupont
 For each company that you set up, you need to assign unique identification codes to things such as general ledger accounts, customer and vendor accounts, invoices, and other documents. Numbering is important not only for identification. A well-designed numbering system also makes the company more manageable and easy to analyze, and can reduce the number of errors that occur in data entry.
 
 > [!Important]
-> By default, gaps are not allowed in number series because the exact history of financial transactions must be available for auditing, by law, and therefore must follow an unbroken sequence with no deleted numbers.<br /><br />
+> By default, gaps are not allowed in number series because the exact history of financial transactions must be available for auditing, by law, and therefore must follow an unbroken sequence with no deleted numbers.
+> 
 > If you want to allow gaps in certain number series, then first consult with your auditor or accounting manager to ensure that you adhere to the legal requirements in your country/region. For more information, see the [Gaps in Number Series](#gaps-in-number-series) section.
 
 > [!NOTE]  
@@ -38,11 +39,14 @@ If you want to use more than one number series code for one type of master data 
 Not all records that you create in [!INCLUDE[prod_short](includes/prod_short.md)] are financial transactions that must use sequential numbering. Customer cards, sales quotes, and warehouse activities are examples of records that are assigned a number from a number series, but are not subject to financial auditing and/or can be deleted. For such number series, you can select the **Allow Gaps in Nos.** check box on the **No. Series Lines** page. This setting can also be changed after creating the number series. For more information, see [To create a new number series](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## Behavior of the No. field on documents and cards
-On sales, purchase, and transfer documents and on all cards, the **No.** can be filled in automatically from a number series or manually, and it can be set up to be invisible.
+
+On sales, purchase, and transfer documents and on all cards, the **No.** field can be filled in automatically from a predefined number series, or you can add it manually. However, under certain circumstances, the **No.** field is invisible to prevent you from editing it.  
 
 The **No.** field can be filled in three ways:
 
-1. If only one number series for the type of document or card exists where the **Default Nos.** check box is selected and the **Manual Nos.** check box is not selected, then the field is automatically filled with the next number in the series, and the **No.** field will not be visible.
+1. If only one number series for the type of document or card exists, and the **Default Nos.** field is selected and the **Manual Nos.** field is not selected for that number series, then the field is automatically filled with the next number in the series. The **No.** field will not be visible on the card or document.  
+
+    Even if you define templates with various number series for customers, if the number series that is defined in the **Sales & Receivables Setup** page is set up in this way, the **No.** field will be invisible on the customer card, no matter which template you use. The same applies to other types of cards and documents.  
 
     > [!NOTE]  
     > If the number series does not function, for example because it has run out of numbers, then the **No.** field will be visible and you can manually enter a number or resolve the issues on the **No. Series** page.
@@ -68,7 +72,7 @@ When you open a new document or card that a number series exists for, then the r
 > [!TIP]
 > To allow users to specify numbers manually when they register a new customer or vendor, for example, choose the **Manual Nos.** field on the number series itself. To disallow manual number, clear the field.
 
-You can assign number series to the templates that you set up for the different types of customers and vendors that your sales people and purchasers most often add to your [!INCLUDE [prod_short](includes/prod_short.md)]. In that case, set up the relevant number series, link them through relationships, and then add the first number series in the relevant relationship to the relevant setup page.  
+You can assign number series to the templates that you set up for the different types of customers and vendors that your sales people and purchasers most often add to your [!INCLUDE [prod_short](includes/prod_short.md)]. In that case, set up the relevant number series, link them through relationships, and then add the first number series in the relevant relationship to the relevant setup page. Then, when a user creates a customer, they choose the relevant template, and the new customer gets a number assigned from the number series that is defined for that template.  
 
 ## To create relationships between number series
 

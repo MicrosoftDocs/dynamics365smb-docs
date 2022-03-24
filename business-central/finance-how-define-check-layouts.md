@@ -3,22 +3,25 @@ title: Specify the Layout of a Check
 description: You can design and print your checks in different formats to conform with standards set by your local authorities.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
+ms.search.form: 374, 404
 ms.date: 06/16/2021
 ms.author: edupont
 
 ---
 # Select a Check Layout
+
 You can design your checks to conform with the standards set by the local authorities. Check images can be printed in English, French, or Spanish.
 
 Checks are designed to print in both the United States and Canadian check image formats in either a check-stub-check format or a stub-stub-check format.
 
 ## To select a check layout
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Bank Account**, and then choose the related link.
 2. On the **Report Selection - Bank Acc.** page, in the **Usage** field, select **Check**.
 3. Select one of the following report IDs.
@@ -46,33 +49,38 @@ In update 15.3 and newer, Magnetic Ink Character Recognition (MICR) fonts are in
 > For security and legal reasons, you cannot upload custom fonts to the [!INCLUDE[prod_short](includes/prod_short.md)] environment.
 
 ### MICR E-13B Specifications
+
 The following summarizes specifications for the MICR E-13B fonts that may be useful when calibrating fonts to be on check layouts with specific MICR printers.
 
 ![MICR E-13B Specifications.](media/font_MICR_E-13B_Specifications.png "MICR E-13B Specifications")
 
 ### Delimiter characters
+
 ![Delimiter characters.](media/font-micr-letters.png "Delimiter characters")
 
 The full specification of MICR E-13B fonts can be found in the supplier's documentation here: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### MICR CMC-7 Specifications
+
 The following CMC-7 fonts are available in [!INCLUDE[prod_short](includes/prod_short.md)] online:
 
 - IDAutomationCMC7
 - IDAutomationCMC7n10
 - IDAutomationCMC7n25
--	IDAutomationCMC7n40
+- IDAutomationCMC7n40
 
 The following summarizes specifications for the MICR CMC-7 fonts that may be useful when calibrating fonts to be on check layouts with specific MICR printers.
 
 ![MICR CMC-7 Specifications.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 Specifications")
 
 ### Delimiter characters
+
 ![Delimiter characters for CMC-7.](media/font-cmc7-letters.png "Delimiter characters for CMC-7")
 
 The full specification of MICR CMC-7 fonts can be found in the supplier's documentation here: (http://www.idautomation.com/micr-fonts/cmc7/).
 
 ### Secure Font Specifications
+
 The following summarizes specifications for check security fonts that may be useful when calibrating fonts to be on check layouts with specific MICR printers.
 
 ![Check Security Font Specifications.](media/font_check-security-font_Specifications.png "Check Security Font Specifications")
@@ -82,6 +90,7 @@ The full specification of check security fonts can be found in the supplier's do
 Fonts for other purposes are also available in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Available Fonts](ui-fonts.md)
 
 ## See Also
+
 [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)  
 [Fonts in Business Central](ui-fonts.md)  
 [Managing Payables](payables-manage-payables.md)  

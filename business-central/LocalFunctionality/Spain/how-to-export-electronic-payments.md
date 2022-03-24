@@ -4,7 +4,7 @@ description: In Business Central, you can use the following pages to export paym
 
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

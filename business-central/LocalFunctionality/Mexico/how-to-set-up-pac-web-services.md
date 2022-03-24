@@ -1,18 +1,16 @@
 ---
-    title: How to Set Up PAC Web Services
+    title: Set Up PAC Web Services
     description: Before you can send invoices and credit memos electronically, you must specify one or more providers of the electronic stamp that must be included in invoices in Mexico.
+    author: edupont04
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
-
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.search.form: 10455, 10456
+    ms.date: 02/16/2022
     ms.author: edupont
 
 ---
@@ -25,29 +23,49 @@ To use web services, you must identify the name of the method on the web service
 
 If your PAC offers the service of canceling signed documents, you must specify two web methods: one web method for requesting the digital stamp, and the other for canceling an already signed document.  
 
+Before you can set up the web services, you must upload two certificates:
+
+* A PAC .pfx file
+* A SAT .pfx file
+
+These certificates are used by the communication component and configured in the **General Ledger Setup** page. For more information, see [To set up general ledger information](how-to-set-up-electronic-invoicing.md#to-set-up-general-ledger-information).  
+
+## To add the certificates
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Certificates**, and then choose the related link.  
+2. Choose the **New** action, specify the relevant certificate, and then, in the **Certificate** page, fill in the fields as appropriate. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
+3. Repeat step 2 for the second certificate.  
+4. Close the page.  
+
 ## To set up a PAC web service  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **PAC Web Services**, and then choose the related link.  
-2.  Fill in the fields as described in the following table.  
+2. In the **PAC Web Services** page, add the relevant web services. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
-    |Field|Description|  
-    |------------------------------------|---------------------------------------|  
-    |**Environment**|Specify if the web service is for a test environment or a production environment.|  
-    |**Type**|Specify if the web method is for requesting a digital stamp or for canceling.|  
-    |**Method Name**|Specify the name of the web method, such as **GeneraTimbre** or **CancelaTimbre**.|  
-    |**Address**|Specify the URL of the web method.|  
+    For each web service, you must specify the relevant certificate. You must also add additional details.  
 
-    Contact your PAC for this information.  
+    1. For the relevant web service, choose the **Related** action, choose the **PAC Web Service** menu item, and then choose the **Details** action.  
+    2. Fill in the fields as described in the following table.  
 
-5.  Repeat the steps for any additional PAC that you want to set up.  
+        |Field|Description|
+        |------------------------------------|---------------------------------------|
+        |**Environment**|Specify if the web service is for a test environment or a production environment.|
+        |**Type**|Specify if the web method is for requesting a digital stamp or for canceling.|
+        |**Method Name**|Specify the name of the web method, such as *GeneraTimbre* or *CancelaTimbre*.|
+        |**Address**|Specify the URL of the web method.|
+
+        Contact your PAC for this information.  
+
+3. Repeat the steps for any additional PAC that you want to set up.  
 
     > [!IMPORTANT]  
     >  SAT has certified more than one PAC in Mexico, and you must obtain the appropriate information for communication with the PAC of your choice.  
 
-## See Also  
- [Electronic Invoicing](electronic-invoicing.md)   
- [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)  
- [Mexico Local Functionality](mexico-local-functionality.md)
+## See Also
+
+[Electronic Invoicing](electronic-invoicing.md)  
+[Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md)  
+[Mexico Local Functionality](mexico-local-functionality.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

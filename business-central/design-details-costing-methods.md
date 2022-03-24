@@ -3,13 +3,12 @@
     description: This topic describes how the costing method affects how actual and budgeted values are capitalized and used in the cost calculation.
     author: bholtorf
 
-    ms.service: dynamics365-business-central
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/14/2021
+    ms.date: 03/24/2022
     ms.author: bholtorf
 
 ---
@@ -65,25 +64,13 @@ The following table shows the inventory increases and decreases that the example
 
 For items with costing methods that use actual cost as the valuation base (**FIFO**, **LIFO**, **Average**, or **Specific**), inventory increases are valued at the item's acquisition cost.  
 
- The following table shows how inventory increases are valued for all costing methods except **Standard**.  
+- **Standard**  
 
-|Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
-|------------------|--------------|----------------------------|---------------|  
-|01-01-20|1|10.00|1|  
-|01-01-20|1|20.00|2|  
-|01-01-20|1|30.00|3|  
+    For items using the **Standard** costing method, inventory increases are valued at the item's current standard cost.  
 
 #### Standard  
 
 For items using the **Standard** costing method, inventory increases are valued at the item's current standard cost.  
-
- The following table shows how inventory increases are valued for the **Standard** costing method.  
-
-|Posting Date|Quantity|Cost Amount (Actual)|Entry No.|  
-|------------------|--------------|----------------------------|---------------|  
-|01-01-20|1|15.00|1|  
-|01-01-20|1|15.00|2|  
-|01-01-20|1|15.00|3|  
 
 ### Effect of Costing Methods on Valuing Inventory Decreases
 
@@ -147,8 +134,8 @@ For items using the **Standard** costing method, inventory increases are valued 
 
     The following table shows how inventory decreases are valued for the **Specific** costing method.  
 
-    |Posting Date|Quantity|Cost Amount (Actual)|Applies-to Entry|Entry No.|  
-    |------------------|--------------|----------------------------|-----------------------|---------------|  
+    |Posting Date|Quantity|Cost Amount (Actual)|Applies-to Entry|Entry No.|
+    |------------|--------|--------------------|----------------|---------|  
     |02-01-20|-1|-20.00|**2**|4|  
     |03-01-20|-1|-10.00|**1**|5|  
     |04-01-20|-1|-30.00|**3**|6|  

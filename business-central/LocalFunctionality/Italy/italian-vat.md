@@ -1,13 +1,14 @@
 ---
-    title: Italian VAT
-    description: In the Italian version, VAT can be deducted if the goods or services purchased by the company are used in the production of its income.
-    author: edupont04
+title: Italian VAT
+description: In the Italian version, VAT can be deducted if the goods or services purchased by the company are used in the production of its income.
+author: edupont04
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.search.keywords:
+ms.search.form: 12100, 12104, 12105, 12111, 12112, 12113, 12122, 12126, 12127, 12133, 12135, 12151, 12158, 12187, 12189, 12198, 12199, 12202
+ms.date: 06/18/2021
+ms.author: edupont
 
 ---
 # Italian VAT
@@ -94,7 +95,7 @@ You must submit a VAT transactions report electronically to the tax authorities.
 ## See Also
 
 [Set Up VAT](../../finance-setup-vat.md)  
-[Record VAT](../../finance-how-report-vat.md)  
+[Report VAT](../../finance-how-report-vat.md)  
  [Prepare for VAT Transactions Reports](how-to-prepare-for-vat-transactions-reports.md)  
  [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md)  
  [Submit VAT Statements](how-to-submit-vat-statements.md)  

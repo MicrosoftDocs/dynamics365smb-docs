@@ -1,12 +1,9 @@
 ---
     title: Posting Depreciation Differences [FI]
     description: How to post the difference in accumulated depreciation between the different depreciation methods be calculated and posted to the general ledger.  
-
-    services: project-madeira 
-    documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

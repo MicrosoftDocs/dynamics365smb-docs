@@ -3,12 +3,12 @@
     description: You can set up payment tolerance to close an invoice when the payment does not fully cover the amount on the invoice.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.form: 118, 314, 395
     ms.date: 10/29/2021
     ms.author: edupont
 

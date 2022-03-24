@@ -1,17 +1,15 @@
 ---
     title: Set Up 340 Reports for Small Businesses [ES]
     description: Set up your business to report on a cash basis with Cash Accounting Criteria (CAC) using the 340 Reports for Small Businesses.
-
-    services: project-madeira 
-    documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    ms.search.form: 10737, 10738, 10744
     ms.date: 06/25/2021
     ms.author: edupont
 

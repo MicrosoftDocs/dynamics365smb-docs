@@ -1,45 +1,141 @@
 ---
-    title: Norwegian VAT Reporting [NO]
-    description: Norwegian enhancements in Business Central allow you to calculate and report VAT to the Norwegian tax authorities.
+title: Norwegian VAT Reporting [NO]
+description: Norwegian enhancements in Business Central allow you to calculate and report VAT to the Norwegian tax authorities.
+author: edupont04
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/21/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.form: 737, 738, 10601, 10604
+ms.date: 01/31/2022
+ms.author: edupont
 
 ---
 # Norwegian VAT Reporting in the Norwegian Version
-[!INCLUDE[prod_short](../../includes/prod_short.md)] ../../includes Norwegian enhancements that allow you to calculate and report VAT to the Norwegian tax authorities.  
+
+[!INCLUDE[prod_short](../../includes/prod_short.md)] provides features that allow you to calculate and report VAT returns to the Norwegian tax authorities.  
 
 This topic shows the typical steps that you should follow when reporting Norwegian VAT.  
 
-## Print the Trade Settlement  
-First, you must print the trade settlement. Use the **Tradesettlement** report to print the trade settlement that is required by the authorities.  
+> [!IMPORTANT]
+> This article assumes that you have set up VAT reporting. For more information, see [Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md) and [Report VAT to Tax Authorities](../../finance-how-report-vat.md).
 
-This report prints detailed information about the posted VAT in the specified period. On the last page of the report, the actual trade settlement to report is printed.  
+## Set Up Business Central to Generate and Submit Electronic VAT Returns
 
-This report can be printed as many times as required. No posting or other changes are made to the data when you use this report.  
+To submit VAT returns to Norwegian tax authorities, an administrator must create a connection to ID-Porten at Digitaliseringsdirektoratet.  
 
-## Check the Trade Settlement  
-Next, you must check the trade settlement. Verify that the amounts in the trade settlement are correct, and make any necessary adjustments.  
+> [!TIP]
+> We recommend that you always use [!INCLUDE [prod_short](../../includes/prod_short.md)] in a browser to set up the connection to ID-Porten.
 
-## Post VAT  
-If the information in the trade settlement is correct, the final step is to post the VAT using the **Calc. and Post VAT Settlement** report. It is required that you manually specify the correct VAT period in the **Starting Date** and **Ending Date** fields. Generally, these dates correspond to the period previously specified in the **Tradesettlement** report.  
+### Register your company with ID-Porten
+To register your company with ID-Porten, follow the steps provided by [Samarbeidsportalen](https://samarbeid.digdir.no/id-porten/ta-i-bruk-id-porten/94). After you register, note the following information. You will need it when you use the assisted setup guide to authorize [!INCLUDE[prod_short](../../includes/prod_short.md)] to access ID-Porten.
 
-When using this report, you can decide not to post if you want to check the results before you actually post VAT.  
+* Valid redirection URIs
+* Client ID
+* Client secret
 
-When posting VAT, the corresponding VAT period is created and marked as closed in the **Settled VAT Period** table. If you specify a period that does not correspond to one of the typical six Norwegian VAT periods, all periods that are affected by the specified date interval are closed.  
+> [!IMPORTANT]
+> It's important to safely store the client ID and client secret of the integration point.
 
-## See Also  
- [Norway Local Functionality](norway-local-functionality.md)
+### Set up the integration point
+After you register your company in ID-Porten, the next step is to create an integration point in your company's account in ID-Porten. For more information, see [integration point](https://docs.digdir.no/oidc_index.html).
 
+1. Sign in to [Skatteetaten](https://skatteetaten.github.io/mva-meldingen/english/idportenauthentication/).
+2. On the navigation pane, choose **Integrasjoner**, and under **Produksjon**, choose **Ver 2**.
+3. Choose **New Integration** to add a new integration point.
+4. Fill in the fields as described in the following table.
+
+| Parameter name (Norwegian) |  Parameter description | Parameter value |
+|---|---|---|---|
+| Difi-tjeneste | Select the service to be assigned correct scopes. | Select **API-klient**. |
+| Scopes | The application programming interfaces (APIs)/resources that the integration can access. | <p>Select the following scopes:</p><ul><li>**openid**</li><li>**skatteetaten:mvameldinginnsending**</li><li>**skatteetaten:mvameldingvalidering**</li></ul> |
+| Kundens org.nr. | The organization number of the service owner. | You don't have to specify a value in this field. The required value is automatically set when the setup of the integration point is saved. |
+| Integrasjonens identifikator | The unique identifier of the service. | You don't have to specify a value in this field. The required value is automatically set when the setup of the integration point is saved. |
+| Navn på integrasjonen | The name of the integration as it appears in the sign-in window. | Specify **Microsoft Dynamics 365 Finance**. |
+| Beskrivelse | A brief description of the service (for example, "Meeting portal for NN municipality"). | Specify **Integration with Microsoft Dynamics 365 Finance**. |
+| Tillatte grant types | A grant represents the user's consent to retrieve an access token. By selecting specific grants, you consent to the corresponding methods of retrieving an access token. | <p>Select the following grant types:</p><ul><li>**authorization_code**</li><li>**refresh_token**</li></ul> |
+| Klientautentiseringsmetode | The method of authentication of your client. | Specify **client_secret_post**. |
+| Applikasjonstype | The application (or client) type is the type of runtime environment that the client is running under. OAuth2 chapter 2.1 lists the available options. The choice of client type is a security assessment that the customer will perform. | Select **web**. |
+| Gyldig(e) redirect uri-er | This parameter applies only to personal sign-in integrations. It specifies the URIs that the client is allowed to go to after sign-in. | The URI is a combination of your base URI and OAuthLanding.htm. This value differs depending on whether you are using Business Central online or on-premises. For online, use the following URI, http://www.businesscentral.dynamics.com/OAuthLanding.htm. The following is an example of a URI for on-premises, `http://<hostname>/OAuthLanding.htm`. |
+| Gyldig(e) post logout redirect uri-er | This parameter applies only to personal sign-in integrations. It specifies the URIs that the client is allowed to go to after sign-out. | Specify `https://skatteetaten.no`. |
+| Frontchannel logout uri | The URI that the provider sends a request to upon sign-out that is triggered by another client in the same session. If you don't set this parameter, there is a risk that the user might still be signed in to your service when they sign out of ID-porten. | Specify `https://skatteetaten.no`. |
+| Frontchannel logout krever sesjons-id | This parameter applies only to personal sign-in integrations. It's a flag that determines whether the issuer and session ID parameters are passed together with **frontchannel_logout_uri**. | Leave this checkbox cleared. |
+| Tilbake-uri | This parameter applies only to personal sign-in integrations. It specifies the URI that a user is sent back to when they cancel sign-in. | Specify `https://skatteetaten.no`. |
+| Authorization levetid (sekunder) | The lifetime of the registered authorization. In an OpenID Connect context, this authorization will be access to the "userinfo" endpoint. The value must be specified in seconds. | Specify **31536000** (= one year). |
+| Access token levetid (sekunder) | The lifetime of the issued **access_token** in seconds. | Specify **7200** (= two hours). |
+| Refresh token levetid (sekunder) | The lifetime of the issued **refresh_token** in seconds. | Specify **0** (zero). |
+| Refresh token type | <ul><li>**One-time** – You get a new **refresh_token** at each refresh of **access_token**.</li><li>**Reusable** – A refresh of **access_token** doesn't change **refresh_token**.</li></ul> | Specify **Engangs**. |
+
+:::image type="content" source="../../media/nor-vat-return-integration-point.png" alt-text="Integration point settings for Norwegian VAT":::
+
+### Set Up Electronic VAT Reporting
+To make it easier to set up VAT reporting, [!INCLUDE[prod_short](../../includes/prod_short.md)] provides the **Set up an electronic VAT submission** assisted setup guide. 
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
+2. Choose **Set up an electronic VAT submission** to start the assisted setup guide. The guide will help you complete the following steps:
+
+* Authorize [!INCLUDE[prod_short](../../includes/prod_short.md)] to connect to ID-Porten.
+
+    On the **Electronic VAT Setup** page, enter the **Client ID**, **Client Secret**, and **Redirect URI** from your company's registration for ID-Porten. Then, choose **Open OAuth 2.0 setup page** action. On the **OAuth 2.0 Setup** page, choose the **Request Authorization Code** action to receive the token you will need to connect. This requires the identification number, password, and pin for a user who is allowed to submit VAT returns. After you provide those credentials, choose **MinID** as the electronic ID.
+* Verify that you are using the correct VAT registration number for your company.
+
+    A message will prompt you to open the Company Information page, where you can double-check the VAT registration number for your setup.
+* Update the rates for the VAT codes that require reporting.
+
+    [!INCLUDE[prod_short](../../includes/prod_short.md)] provides 32 VAT codes, however, some VAT codes do not require that you report VAT. You can automatically update the rates for VAT codes. Also, VAT codes can vary, for example, for different industries or types of business. On the **VAT Codes** page, you can use the **Edit List** action and then assign or remove the codes and rates that are relevant for your business. 
+  
+    > [!NOTE]
+    > The update assigns the rates that were valid in December, 2021. You are responsible for ensuring that those rates are still valid.
+
+* Define your VAT posting setup to ensure that VAT amounts are posted to the correct accounts. For more information, see [Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md).
+* Create a VAT statement to map the VAT business posting group with the VAT product posting group. 
+
+    The mapping determines how you post and track VAT in [!INCLUDE[prod_short](../../includes/prod_short.md)]. You assign the VAT codes to use for sales and purchasing.
+
+> [!NOTE]
+> In addition to the settings described above, we automatically create a VAT report configuration for submitting returns and getting responses. You can view the configuration on the **VAT Reports Configuration** page.
+
+## Create and Submit a VAT Return
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Returns**, and then choose the related link.
+2. Choose **New**.
+3. In the **Version** field, choose **Elec VAT**.
+4. Optional: In the **KID** field, specify a payment identification number.
+5. Choose **Suggest Lines** to open the **VAT Report Request Page** page, where you specify criteria for generating lines for the report.
+6. After you've specified the criteria, choose **OK**.  
+7. On the **VAT Settlement** page, choose **Release**. This will validate that the information can be submitted to the Norwegian tax authorities.
+8. To submit the VAT return, choose **Submit**. The status of the VAT return will change to **Submitted**.
+9. To view whether the tax authorities have accepted your submission, choose **Receive Response**.
+
+   > [!NOTE]
+   > The response from the tax authority will not be immediately available.  
+
+## Troubleshoot Your Connection to ID-Porten
+If you do not receive a response after you submit your return, for example, within 24 hours, you can contact ID-Porten and ask them to verify that they received your return. To help them identify your return, you can send the value from the Message ID field. By default, the field is hidden, but you can use page inspection to get the value. For more information, see [Inspecting Pages in Business Central](../../across-inspect-page.md). 
+
+You can also send a copy of the XML files for your submission and the response you received. To get the files, on the **VAT Return** page, choose the **Download Submission Message** and **Download Response Message** actions.  
+
+## <a name="vat-periods"></a>Close VAT Periods
+
+To align with legal requirements, VAT periods are to be closed after settling. Normally, a fiscal year consist of six VAT periods, numbered 1 to 6. When the VAT is settled, the period is closed for further posting.  
+
+> [!TIP]
+> Not all organizations use the standard six VAT periods. Which periods the current organization uses is defined in the **VAT Period** page.
+
+You can view information about settled periods in the **Settled VAT Period** page. The closed periods are created by the report **Calc. and Post VAT Settlement** when you post VAT. If you want to post in the closed VAT period, you can open the period again by clearing the **Closed** field.  
+
+## Tradesettlement report
+
+Before January 2022, you used the **Tradesettlement** report to report VAT. This report is no longer described in this article, but you can read about it in the [Dynamics NAV 2016 documentation archive](/previous-versions/dynamicsnav-2016/dn283106(v=nav.90)).  
+
+## See Also
+
+[Norwegian VAT Codes](norwegian-vat-codes.md)  
+[Proportional VAT](proportional-vat.md)  
+[Norway Local Functionality](norway-local-functionality.md)  
+[Work with VAT on Sales and Purchases](../../finance-work-with-vat.md)  
+[Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md)  
+[The VAT Group Management Extension](../../ui-extensions-vat-group.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

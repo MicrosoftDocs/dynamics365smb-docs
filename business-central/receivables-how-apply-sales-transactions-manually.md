@@ -1,19 +1,21 @@
 ---
-title: Apply Customer Ledger Entries to Reconcile Payments | Microsoft Docs
+title: Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries
 description: Describes how to apply customer cash receipts or refunds to one or more open customer ledger entries and reconcile customer payments.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
+ms.search.form: 25, 255
 ms.date: 04/01/2021
 ms.author: edupont
 
 ---
 # Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries
+
 When you receive a cash receipt from a customer, or you make a cash refund, you must decide whether to apply the payment or refund to close one or more open debit or credit entries. You can specify the amount you want to apply. For example, you can apply partial payments to customer ledger entries. Closing customer ledger entries makes sure that information such as customer statistics, account statements, and finance charges are correct.
 
 > [!TIP]  

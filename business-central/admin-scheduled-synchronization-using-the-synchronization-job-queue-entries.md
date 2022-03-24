@@ -1,9 +1,9 @@
 ---
 title: Synchronizing Business Central and Dataverse
 description: Learn about synchronizing data between Business Central and Dataverse.
-author: bholtorf
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,7 @@ ms.author: bholtorf
 ---
 
 # Scheduling a Synchronization between Business Central and Dataverse
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 You can synchronize [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on scheduled intervals by setting up jobs in the job queue. The synchronization jobs synchronize data in [!INCLUDE[prod_short](includes/prod_short.md)] records and [!INCLUDE[cds_long_md](includes/cds_long_md.md)] records that have been previously coupled together. Or for records that are not already coupled, depending on the synchronization direction and rules, the synchronization jobs can create and couple new records in the destination system. 
 

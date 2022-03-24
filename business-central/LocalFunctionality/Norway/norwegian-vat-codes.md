@@ -3,14 +3,16 @@ title: Norwegian VAT Codes
 description: In the Norwegian version of Business Central, VAT processing information can be easily set up using standard Norwegian VAT codes.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
+ms.search.form: 10602, 10697, 10698, 10604
 ms.date: 04/01/2021
 ms.author: edupont
 
 ---
 # Norwegian VAT Codes
+
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], VAT processing information can be easily set up using standard Norwegian VAT codes. The following table shows the standard Norwegian VAT codes.  
 
 |**Code**|**Description**|  

@@ -3,9 +3,9 @@ title: Payment Journal Templates and Batches [BE]
 description: In the Belgian version payment suggestions are generated and posted in payment journals. The payment journal is similar to the structure of other journal types.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
-ms.search.keywords:
+ms.search.form: 256, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 06/25/2021
 ms.author: edupont
 

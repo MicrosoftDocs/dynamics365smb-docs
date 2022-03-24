@@ -3,7 +3,7 @@
     description: This topic talks about the sequence of the outbound warehouse flow from released source documents to ready-to-ship items.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

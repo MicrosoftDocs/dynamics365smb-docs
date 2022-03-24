@@ -3,7 +3,7 @@ title: Payment Times Reporting in the Australian version
 description: Payment Times Reporting is not directly supported in the Australian version of Business Central, but this article can help you get to the data you need to report.
 author: sorenfriisalexandersen
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 06/07/2021

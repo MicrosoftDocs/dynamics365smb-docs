@@ -1,22 +1,25 @@
 ---
-    title: Terminology in Cost Accounting
-    description: This topic defines the key terms that are used in cost accounting, such as allocation key and allocation source.
-    author: SorenGP
+title: Terminology in Cost Accounting
+description: This topic defines the key terms that are used in cost accounting, such as allocation key and allocation source.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/16/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 1123
+ms.date: 06/16/2021
+ms.author: edupont
 
 ---
 # Terminology in Cost Accounting
+
 This topic defines the key terms that are used in cost accounting.  
 
-## Key Terms  
+## Key Terms
+
  The following table shows definitions of the key terms in cost accounting.  
 
 |**Term**|**Definition**|  

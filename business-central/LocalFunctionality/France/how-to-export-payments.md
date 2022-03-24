@@ -6,7 +6,7 @@
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -33,7 +33,7 @@ The next time you make a payment that is based on this payment step, the payment
 
 ## See Also  
  [Set Up Payment Classes](how-to-set-up-payment-classes.md)   
- [Set Up Payment Steps](how-to-set-up-payment-steps.md)
+ [Set Up Payment Steps](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

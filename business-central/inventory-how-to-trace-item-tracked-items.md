@@ -1,16 +1,16 @@
 ---
-    title: Trace Item-Tracked Items
-    description: You can see where an item-tracked item was used, including how and when it was received, produced or returned with Item Tracing and Find Entries features.
-    author: SorenGP
+title: Trace Item-Tracked Items
+description: You can see where an item-tracked item was used, including how and when it was received, produced or returned with Item Tracing and Find Entries features.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/16/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.forms: 6520,
+ms.date: 06/16/2021
+ms.author: edupont
 
 ---
 # Trace Item-Tracked Items
@@ -28,25 +28,25 @@ These features can be particularly useful in quality control when you need to fi
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracing**, and then choose the related link.  
 2.  In the filter fields at the top of the page, enter the specific item numbers or a filter on the item numbers that you would like to trace.  
-3.  In the **Show Components** field, select whether you would like to also see where the components for the items came from. Your options in this field are as follows.  
+3.  In the **Show Components** field, select whether to also see where the components for the items came from. The following table describes the options.  
 
     |Field|Description|  
     |----------------------------------|---------------------------------------|  
-    |**No**|Select this option if you do not want to see any components.|  
-    |**Item-tracked Only**|Select this option if you want to see only components that have lot or serial numbers.|  
-    |**All**|Select this option if you want to see all components.|  
+    |**No**|Do not show components.|  
+    |**Item-tracked Only**|Show only components that have lot or serial numbers.|  
+    |**All**|Show all components.|  
 
-4.  In the **Trace Method** field, select the method you would like to use for tracing the item. The options are as follows  
+4.  In the **Trace Method** field, select the method to use for tracing the item. The following table describes the options.  
 
     |Field|Description|  
     |----------------------------------|---------------------------------------|  
-    |**Usage->Origin**|This method traces the item starting from where it was used to where it came from. For instance, if a manufactured item was sold to a customer, the **Item Tracing** page shows this with the sales shipment line first, which you can then expand to see from which production order it came.|  
-    |**Origin->Usage**|This method traces the item starting from where it came into inventory to where it was used. For instance, if a manufactured item was sold to a customer, the **Item Tracing** page shows this with the finished production order first, which you can then expand to see sale shipment lines where the item was used.|  
+    |**Usage->Origin**|Trace the item from where it was used to where it came from. For instance, if a manufactured item was sold to a customer, the **Item Tracing** page shows this with the sales shipment line first, which you can then expand to see from which production order it came.|  
+    |**Origin->Usage**|Trace the item from where it came into inventory to where it was used. For instance, if a manufactured item was sold to a customer, the **Item Tracing** page shows this with the finished production order first, which you can then expand to see the sale shipment lines where the item was used.|  
 
 5.  Choose the **Trace** action to run the trace.  
 
 > [!NOTE]  
->  If you have received the same lot on more transactions, then the **Item Tracing** page may not show all transactions. Only applied transactions are shown.  
+>  Only applied transactions are shown. If you have received the same lot on multiple transactions, the **Item Tracing** page may not show all transactions.   
 
 > [!NOTE]  
 >  If additional transaction history under an item tracing line has already been traced by another line above it, then the **Already Traced** check box is selected. To provide a simpler view, such underlying lines are not shown.  

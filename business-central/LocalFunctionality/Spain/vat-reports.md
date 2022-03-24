@@ -6,7 +6,7 @@
     documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -41,13 +41,18 @@ There are two report template types in the **VAT Statement Name** table:
 - **One-Column Report**  
 - **Two-Columns Report**  
 
-### VAT-VIES Declaration  
-With VAT-VIES declaration you can run a batch file to generate European Union (EU) sales reports. The batch file exports the entries in the required file format for submission to customs and tax authorities.  
+### VAT-VIES Declaration
 
-## See Also  
- [Spain Local Functionality](spain-local-functionality.md)   
- [Report 340](report-340.md)   
- [Report 347](report-347.md)
+You can report VAT on sales to other countries in the European Union (EU). For more information, see [Report VAT to Tax Authorities](../../finance-how-report-vat.md).  
+
+[!INCLUDE [finance-ecsaleslist](../../includes/finance-ecsaleslist.md)]
+
+## See Also
+
+[Spain Local Functionality](spain-local-functionality.md)  
+[Report 340](report-340.md)  
+[Report 347](report-347.md)  
+[Report VAT to Tax Authorities](../../finance-how-report-vat.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

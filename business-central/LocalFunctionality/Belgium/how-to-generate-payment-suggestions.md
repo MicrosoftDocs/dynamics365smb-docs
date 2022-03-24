@@ -1,17 +1,14 @@
 ---
-    title: How to Generate Payment Suggestions [BE]
+    title: Generate Payment Suggestions [BE]
     description: After you have set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.
-
-    services: project-madeira 
-    documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.form: 256
     ms.date: 06/17/2021
     ms.author: edupont
 
@@ -44,7 +41,7 @@ When the batch job is finished, the payment journal contains all vendor ledger e
  [Set Up Vendors for Automatic Payment Suggestions](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
  [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
  [Test Electronic Payments](how-to-test-electronic-payments.md)   
- [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
+ [Manage Electronic Payment Lines](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments)   
  [Print Payment Files](how-to-print-payment-files.md)
 
 

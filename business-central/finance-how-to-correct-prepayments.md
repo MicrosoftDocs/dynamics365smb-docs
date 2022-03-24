@@ -1,16 +1,16 @@
 ---
-    title: How to Correct Prepayments
-    description: You can make a correction to an order after you have posted a prepayment invoice for the order and add new lines to an order after issuing a prepayment.
-    author: SorenGP
+title: Correct Prepayments
+description: You can make a correction to an order after you have posted a prepayment invoice for the order and add new lines to an order after issuing a prepayment.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/16/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.form: 44, 48, 42, 50, 52, 9305, 9307
+ms.date: 06/16/2021
+ms.author: edupont
 
 ---
 # Correct Prepayments

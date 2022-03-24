@@ -3,13 +3,12 @@ metadata:
   title: "About Searching and Filtering in Business Central"
   description: "Answers frequently-asked questions about Search and Filter."
   author: mikebcMSFT
-  ms.service: dynamics365-business-central
-  ms.topic: conceptual
+  ms.topic: faq
   ms.reviewer: edupont04
   ms.search.keywords: keyboarding, productivity, how do i, filter pane
+  ms.search.form: TellMe
   ms.date: 04/01/2021
   ms.author: mikebc
-    
 title: Searching and Filtering FAQ
 summary: This article answers some common questions you might have about searching and filtering in Business Central.
 

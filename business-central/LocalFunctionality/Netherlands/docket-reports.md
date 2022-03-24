@@ -3,7 +3,7 @@
     description: The Dutch telebanking application allows you to combine ledger entries for the same customer or vendor into one payment or collection order to the bank.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,20 +1,21 @@
 ---
-    title: How to Set Up Declaration Types [BE]
-    description: In Business Central, there are two types of declaration in the Belgian version, the simplified declaration and the extended declaration.
+title: Set Up Declaration Types [BE]
+description: In Business Central, there are two types of declaration in the Belgian version, the simplified declaration and the extended declaration.
 
-    author: SorenGP
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/17/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 06/17/2021
+ms.author: edupont
 
 ---
 # Set Up Declaration Types in the Belgian Version
+
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], there are two types of declaration:  
 
 - Simplified declaration  
@@ -26,11 +27,12 @@ When using the extended declaration, you will also need to set up an Incoterm in
 
 ## To set up declaration types  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
-2.  Select the **Simplified Intrastat Decl.** check box to set up a simplified declaration type. Clear this field to use extended declaration.  
-3.  Choose the **OK** button.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+2. Select the **Simplified Intrastat Decl.** check box to set up a simplified declaration type. Clear this field to use extended declaration.  
+3. Choose the **OK** button.  
 
-## See Also  
+## See Also
+
  [Belgian Intrastat Reporting](belgian-intrastat-reporting.md)   
  [Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)   
  [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   

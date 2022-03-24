@@ -1,21 +1,22 @@
 ---
-title: Use Time Sheets for Projects
-description: Describes how to create a time sheet for a job, copy planning lines to it, define work types, fill in the time sheet, and submit it for approval.
+title: Use Time Sheets
+description: Describes how to create a time sheet, define work types, fill in the time sheet, and submit it for approval.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.date: 08/24/2021
+ms.search.form: 950, 951, 973
+ms.date: 03/01/2022
 ms.author: edupont
 
 ---
-# Use Time Sheets for Projects
+# Use Time Sheets
 
-You use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. You must have permissions to be able to create time sheets.
+You can use time sheets in [!INCLUDE [prod_short](includes/prod_short.md)] to track absence, and to track time and resources that are spent on a project. With time management, you can identify issues early, and avoid delays or cost overruns. With time sheets, a resource can easily report time usage for an individual or a machine, and a manager can easily review the usage and its allocation. This article describes how to create a time sheet, define work types, fill in the time sheet, and submit it for approval.  
 
 You can copy and use your job planning lines in a time sheet. In that way, you must only enter the information in one place and the line information is always correct.
 
@@ -28,64 +29,108 @@ Before you can use time sheets, you must set up general information and specify 
 
 ## To create time sheets
 
-You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. Then, the time sheet owner can open it and record time that has been spent on a task.
+You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks. Then, the time sheet owner can open it and record time that has been spent on a task. You can also [schedule the batch job to run automatically](ui-work-report.md#ScheduleReport).  
+
+> [!IMPORTANT]
+> You must have permissions to be able to create time sheets. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.
-2. On the **Time Sheet List** page, choose the **Create Time Sheets** action.
+2. On the **Time Sheets** page, choose the **Create Time Sheets** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > The **Use Time Sheet** and **Time Sheet Owner User ID** fields must be filled in on the card for the resource of the time sheet.
+
+    Optionally, choose the **Schedule** action to specify how often you want the task to run automatically. For example, to configure the task to run weekly for four weeks, in the **Schedule a Report - Create Time Sheets** page, set the **Next Run Date Formula** field to *4W*. For more information, see [Scheduling a Report to Run](ui-work-report.md#ScheduleReport).  
 4. Choose the **OK** button.  
 
-You can view the time sheets that you have created on the **Time Sheet list** page.
+You can view the time sheets that you have created on the **Time Sheets** page. Each time sheet consists of one or more lines that define the time that you want to submit for approval. The following table describes the types of lines that you can add to the time sheet.
+
+| **Field** | **Description** |
+|---|---|
+| | Use to add a note or marker in the **Description** field of the time sheet line. For example, you can use this field to categorize time sheet entries. If you leave the **Type** field empty for a time sheet line, you cannot enter time values in the weekday fields for that line. |
+| Absence | Use to register the time you are absent during a work week. To complete the information for the line, specify the type of absence in the **Cause of Absence Code** field. |
+| Assembly Order | Used to register time for assembly orders. A time sheet line of this type is created during the posting of assembly order lines for which the resource is set up to use time sheets. You cannot manually select a line of this type. |
+| Job | Use to register time usage for a project. To complete the information for the line, specify the job number and the job task number for which you want to register time. You can register time for lines that you have not scheduled.|
+| Resource | Use to register time usage for a resource. To complete the information for the line, provide a description of the work. |
+| Service | Use to register time usage for a service order or service credit memo. |
+
+For example, to submit a time sheet for a work week where you worked on cleaning tasks most days but had one day off due to medical appointments, you would add lines as illustrated in the following table.
+
+| Type | Description | Work Type Code | Absence Type Code |
+|--|--|--|--|
+| Resource | Work hours | Cleaning |  |
+| Absence | Time off |  | Health |
+|  | I had to take Tuesday off due to a medical appointment. |  |  |
+
+In this hypothetical example, you would then register the relevant hours across the relevant days in the fields for each weekday.  
+
+> [!TIP]
+> In most cases, your company will have predefined work types for the various types of lines. In those cases, you just choose the relevant work type from the list, and then you add your own description.  
+>
+> Choose the work type by choosing the :::image type="icon" source="media/assist-edit-icon.png" border="false"::: button in the **Description** field, by choosing the **Activity Details** action and then specifying it in the page that opens, or by choosing it in the **Work Type Code** field or the **Absence Type Code** field, respectively. In this case, you can ignore the [To define work types and add one to a time sheet](#to-define-work-types-and-add-one-to-a-time-sheet) section.  
+
+## To reuse time sheet lines in other time sheets
+
+If your time sheet information remains the same from time period to time period, you can save time by copying the lines from the previous time period. Then, you just enter your time usage for the new period.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.  
+2. Open the time sheet for a period later than the period for an existing time sheet with lines.  
+3. Choose the **Copy Lines from Previous Time Sheet** action.
+
+The lines are copied, including details such as type and description. For example, if the line is related to a job, the **Job No.** is copied. All copied lines have the status **Open**. You can now modify the lines as needed.
 
 ## To copy job planning lines to a time sheet
 The following procedure describes how to quickly add job planning lines to a time sheet.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.  
-2. On the **Time Sheet List** page, select a time sheet for the relevant time period.  
-3. Choose the **Line** action, and then choose the **Create lines from job planning** action. Any job planning lines in the time sheet time period are copied to the time sheet for the person or machine in the **Resource No.** field on the time sheet.
+2. On the **Time Sheets** page, select a time sheet for the relevant time period.  
+3. Choose the **Create lines from job planning** action. Any job planning lines in the time sheet time period are copied to the time sheet for the person or machine in the **Resource No.** field on the time sheet.
 
 ## To define work types and add one to a time sheet
-You can define the work type for all time sheet lines for jobs. In this way, you can add information that you need to bill the customer for different types of work.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.   
-2. Open the relevant time sheet.
-3. Choose the **Description** field.  
-4. On the **Time Sheet Line Job Detail** page, choose the **Work Type Code** field, and select a work type from the list, such as **Miles**.  
-5. If no work types exist, chose the **New** action.
-6. On the **Work Types** page, fill in the fields as necessary.
-7. Repeat step 4 to assign the new work type to the time sheet.
+You can define the work type for all time sheet lines for service orders, job orders, and resources. In this way, you can add information that you need to bill the customer for different types of work.  
 
-## To reuse time sheet lines in other time sheets
-If your time sheet information remains the same from time period to time period, you can save time by copying the lines from the previous time period. Then, you just enter your time usage for the new period.
+1. In the **Time Sheets** page, choose the relevant time sheet.
+2. On the first of the lines in the **Lines** section, choose the **Type** field, and then choose the relevant type, such as *Resource*.  
+3. Choose the **Description** field, and then, in the **Time Sheet Line Resource Detail** page, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+    1. If no work types exist, chose the **New** action.
+    2. On the **Work Types** page, fill in the fields as necessary, and then return to the time sheet.
+4. Fill in the rest of the time sheet. For more information, see the [To fill in time sheet lines and submit for approval](#to-fill-in-time-sheet-lines-and-submit-for-approval) section.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.  
-2. Open the time sheet for a period later than the period for an existing time sheet with lines.  
-3. Choose the **Line** action, and then choose the **Copy Lines from Previous Time Sheet** action.
-
-The lines are copied, including details such as type and description. For example, if the line is related to a job, the **Job No.** is copied. All copied lines have the status **Open**. You can now modify the lines as needed.
+> [!TIP]
+> Similar steps apply to defining absence codes.
 
 ## To fill in time sheet lines and submit for approval
-Time sheet registration is tracked in hours, the standard base unit of measure for resources. By default, a time sheet shows the common work days of Monday through Friday.
+
+Time sheet registration is tracked in hours, the standard base unit of measure for resources. By default, a time sheet shows the common work days of Monday through Friday.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Time Sheets**, and then choose the related link.  
 2. Select a time sheet for the relevant period.
 3. Fill in the fields on a line as necessary. Enter the number of hours used by the resource on each day of the week.  
 
+    In most cases, to track work, you add a line of type *Resource*, and then you register hours spent each day. If you want to register absence, you add a line of type *Absence*.  
+
     > [!TIP]  
-    >   You can review the sum of time sheet hours that you have entered in the **Actual/Budgeted Summary** FactBox.  
-4. Repeat step 3 for other work types that the resource performs.
-5. Choose the **Process** action, then choose the **Submit** action, and then choose the **All open lines** action to submit all lines or the **Selected lines only** action to submit only the lines that are selected on the **Time Sheet** page.  
+    > You can review the sum of time sheet hours that you have entered in the **Actual/Budgeted Summary** FactBox.  
+4. Repeat step 3 for other work types that the resource performs.  
+
+    Next, you must decide if you want to submit all lines on the time sheet, or if you want to submit individual lines.  
+
+    * To submit the time sheet for one or more lines, choose the relevant line, and then choose the **Submit** action.
+
+        In the submission page, choose the **Selected lines only** option. The line changes state from *Open* to *Submitted*.
+    * To submit the time sheet for all open lines, choose the **Submit** action at the top of the **Time Sheet** page.  
+
+        You'll be asked to confirm that you want to submit all open lines on the current time sheet.  
 
     > [!NOTE]  
-    >   You can only submit time sheet lines for which you have entered time.  
-6. To modify information on a line that has been set to **Submitted**, select the line, and then choose the **Reopen** action.
+    > You can only submit time sheet lines for which you have entered time.  
+5. To modify information on a line that has been set to **Submitted**, select the line, and then choose the **Reopen** action.
 
     > [!NOTE]  
     >   A manager may reject a time sheet line that is submitted for approval. If a line has the status **Rejected**, you can make changes to the line, and then choose **Submit** again.  
-7. Choose the **OK** button.
+6. Choose the **OK** button.
 
 ## To approve or reject a time sheet
 A time sheet must be submitted for approval before it can be used. You can approve and reject individual lines on a time sheet or send them back to the submitter for additional action. A time sheet can be approved in two ways:

@@ -3,7 +3,7 @@
     description: You can report VAT electronically to the tax authorities in the Austrian version.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

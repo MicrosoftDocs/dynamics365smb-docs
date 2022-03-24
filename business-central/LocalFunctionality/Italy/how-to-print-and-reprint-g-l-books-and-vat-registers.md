@@ -4,12 +4,13 @@
 
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    ms.search.form: 12141, 12143, 12149, 12150
     ms.date: 06/24/2021
     ms.author: edupont
 

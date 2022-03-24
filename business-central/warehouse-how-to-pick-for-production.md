@@ -3,7 +3,7 @@
     description: When your warehouse location requires pick processing but not shipment processing, use the Inventory Pick page to organize and record picking the components.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

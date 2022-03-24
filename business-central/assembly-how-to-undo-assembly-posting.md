@@ -1,16 +1,17 @@
 ---
-    title: How to Undo Assembly Posting
-    description: Sometimes you may need to undo a posted assembly order, for example when the order was posted with mistakes that must be corrected.
-    author: SorenGP
+title: Undo Assembly Posting
+description: Sometimes you may need to undo a posted assembly order, for example when the order was posted with mistakes that must be corrected.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: kit, kitting
-    ms.date: 06/14/2021
-    ms.author: edupont
+    
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: kit, kitting
+ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.date: 06/14/2021
+ms.author: edupont
 
 ---
 # Undo Assembly Posting

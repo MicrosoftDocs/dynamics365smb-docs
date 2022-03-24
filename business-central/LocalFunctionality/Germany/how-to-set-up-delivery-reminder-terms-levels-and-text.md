@@ -3,12 +3,13 @@
     description: To create delivery reminders, you must perform certain setup in the German version.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    ms.search.form: 5005279, 5005280, 5005281, 5005282, 5005283
     ms.date: 04/01/2021
     ms.author: edupont
 

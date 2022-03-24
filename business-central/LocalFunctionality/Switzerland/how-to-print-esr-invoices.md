@@ -3,12 +3,13 @@
     description: This topic describes how you can print an Einzahlungsschein mit Referenznummer (ESR) payment slip invoices and coupons.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    ms.search.form: 3010531, 3010532
     ms.date: 06/21/2021
     ms.author: edupont
 

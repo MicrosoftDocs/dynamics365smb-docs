@@ -3,7 +3,7 @@
     description: Learn how to use pricing features to set up and customize your application so that you apply and adjust pricing on service items, repairs and orders.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

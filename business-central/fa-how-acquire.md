@@ -1,17 +1,16 @@
 ---
-title: Acquire Fixed Assets| Microsoft Docs
+title: Acquire Fixed Assets
 description: You can set up a fixed asset, assign a depreciation book, and record the fixed asset’s acquisition cost.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 04/01/2021
+ms.search.form: 5605, 5551, 5600, 5628, 5629, 5633
+ms.date: 12/03/2021
 ms.author: edupont
 
 ---
@@ -74,14 +73,14 @@ If you make an error when posting an acquisition cost, you can remove the entry 
 For example, if you post an acquisition with the wrong date, you must correct it as soon as possible because the fixed asset posting date is used for many calculations.
 
 > [!IMPORTANT]  
->   You cannot use the **Reverse Transactions** function for fixed asset entries.
+> You cannot use the **Reverse Transactions** function for fixed asset entries.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cancel FA Entries**, and then choose the related link.
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Choose the **OK** button to run the batch job.
-4. When the incorrect entry or entries are canceled, proceed to post the correct acquisition cost.
-
-To cancel ledger entries for multiple fixed assets at a time, use the **Cancel FA Ledger Entries** batch job.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Ledger Entries**, and then choose the related link.  
+2. In the **FA Ledger Entries** page, select the entry or entries that you want to cancel.  
+3. Choose the **Actions** menu, and then choose the **Cancel Entries** action.
+4. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Choose the **OK** button to run the batch job.
+6. When the incorrect entry or entries are canceled, proceed to post the correct acquisition cost.
 
 ## To post the salvage value together with the acquisition cost
 You can post the salvage value together with the acquisition cost from a fixed asset journal.

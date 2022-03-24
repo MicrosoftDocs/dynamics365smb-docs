@@ -1,20 +1,22 @@
 ---
-    title: How to Set Up Electronic Banking [BE]
+    title: Set Up Electronic Banking [BE]
     description: With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers.
-
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    ms.search.form: 11308
+
     ms.date: 04/01/2021
     ms.author: edupont
 
 ---
 # Set Up Electronic Banking in the Belgian Version
+
 With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers. Before you can use electronic banking, you must set up the following information:  
 
 - Electronic banking setup.  
@@ -41,7 +43,7 @@ With electronic banking, you can make electronic payments to domestic, internati
  [Generate Payment Suggestions](how-to-generate-payment-suggestions.md)   
  [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
  [Test Electronic Payments](how-to-test-electronic-payments.md)   
- [Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md)   
+ [Manage Electronic Payment Lines](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments)   
  [Print Payment Files](how-to-print-payment-files.md)
  [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md)
 

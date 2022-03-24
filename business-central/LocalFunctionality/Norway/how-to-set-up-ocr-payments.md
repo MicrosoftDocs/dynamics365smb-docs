@@ -1,19 +1,17 @@
 ---
-    title: How to Set Up OCR Payments
-    description: You can process electronic payments from customers according to a predefined payment ID. This is often referred to as an optical character recognition (OCR) payment.
+title: Set Up OCR Payments [NO]
+description: You can process electronic payments from customers according to a predefined payment ID in the Norwegian version. This is often referred to as an optical character recognition (OCR) payment.
+author: SorenGP
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 15000100
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Set Up OCR Payments

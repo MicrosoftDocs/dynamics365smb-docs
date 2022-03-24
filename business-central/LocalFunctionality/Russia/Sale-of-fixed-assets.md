@@ -3,7 +3,7 @@ title: Selling fixed assets in Russia
 description: Russian enhancements include managing sales or transfers of fixed assets.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

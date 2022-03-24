@@ -3,7 +3,7 @@ title: Bank and cash management in Russia
 description: Russian enhancements include bank and chash management.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

@@ -3,7 +3,7 @@
     description: Cost components are different types of costs that make up the value of an inventory increase or decrease.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,21 +1,21 @@
 ---
-title: Using Human Resources Functionality| Microsoft Docs
+title: Manage Human Resources
 description: You can register new personnel, edit information about existing staff, and record and analyze absence.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
+ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212, 5221, 5228
 ms.date: 04/01/2021
 ms.author: edupont
 
 ---
 # Manage Human Resources
+
 In [!INCLUDE[prod_short](includes/prod_short.md)], you can keep detailed records of your employees. You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.
 
 You can also register employee absences, which allows you to analyze registered absences as necessary.
@@ -30,6 +30,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Record employees' absence and view absence statistics by various filters. |[Manage Employee Absence](hr-how-manage-absence.md) |
 
 ## See Also
+
 [Finance](finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)        

@@ -1,14 +1,15 @@
 ---
-title: Understanding How To Post Purchase Documents
+title: Post Purchase Documents
 description: Learn about the different posting functions to post purchase documents, and how to update posted documents.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
 

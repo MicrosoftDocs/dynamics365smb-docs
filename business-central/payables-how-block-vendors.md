@@ -1,17 +1,18 @@
 ---
-    title: How to Block Purchases from to Vendors
-    description: Read about how to block vendors from being included in any transactions, or just how to block new payments to them.
+title: Block Vendors
+description: Read about how to block vendors from being included in any transactions, or just how to block new payments to them.
 
-    author: bholtorf
+author: brentholtorf
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/22/2021
-    ms.author: bholtorf
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 27
+ms.date: 06/22/2021
+ms.author: bholtorf
 
 ---
 # Block Vendors

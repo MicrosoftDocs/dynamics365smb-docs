@@ -3,7 +3,7 @@
     description: This topic covers the different ways to work on service tasks. The Service Tasks page gives an overview of all the service items that need attention.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

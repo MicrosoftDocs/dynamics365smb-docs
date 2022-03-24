@@ -3,7 +3,7 @@ title: Compensation Localization for Czech
 description: The application provides functionality for offsetting receivables and payables in Business Central for the Czech Republic.
 author: v-pejano
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords: Czech, Compensation, Finance, CZ, Cash
 ms.date: 04/01/2021

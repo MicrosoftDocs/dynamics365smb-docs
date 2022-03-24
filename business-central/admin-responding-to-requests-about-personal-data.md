@@ -1,9 +1,9 @@
 ---
 title: Responding to Requests About Personal Data
 description: This topic tells you how to respond to requests about personal data. This is known as a data subject request.
-author: bholtorf
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.author: bholtorf
 ms.custom: na
 ms.date: 06/14/2021

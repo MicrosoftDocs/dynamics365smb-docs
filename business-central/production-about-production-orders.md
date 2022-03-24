@@ -1,37 +1,38 @@
 ---
-    title: About Production Orders
-    description: Learn about production orders, and how they are used to manage the conversion of purchased materials into manufactured items. 
-    author: SorenGP
+title: About Production Orders
+description: Learn about production orders, and how they are used to manage the conversion of purchased materials into manufactured items. 
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/22/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917 
+ms.date: 06/22/2021
+ms.author: edupont
 
 ---
 # About Production Orders
+
 Production orders are used to manage the conversion of purchased materials into manufactured items. Production orders route work through various work or machine centers on the shop floor.  
 
 Before proceeding with production, most companies perform supply planning, typically once a week, to calculate how many production orders and purchase orders to execute to fulfill that week’s sales demand. Purchase orders supply the components that are required according to the production BOM to produce the end items.
 
 Production orders are the central components of application's manufacturing functionality and they contain the following information:  
 
--   Products planned for manufacturing  
--   Materials required for the planned production orders  
--   Products that have just been manufactured  
--   Materials that have already been selected  
--   Products that have been manufactured in the past  
--   Materials that were used in previous manufacturing operations  
+- Products planned for manufacturing  
+- Materials required for the planned production orders  
+- Products that have just been manufactured  
+- Materials that have already been selected  
+- Products that have been manufactured in the past  
+- Materials that were used in previous manufacturing operations  
 
 Production orders are the starting points for:  
 
--   Planning future manufacturing  
--   Controlling current manufacturing  
--   Tracking of finished manufacturing  
+- Planning future manufacturing  
+- Controlling current manufacturing  
+- Tracking of finished manufacturing  
 
 ## Production Order Creation  
 Production orders can be created on an order-by-order basis manually from the **Production Order** page, or generated from the **Sales Order Planning** or **Order Planning** pages. Multiple orders are created from the **Planning Worksheet** page.  
@@ -47,10 +48,10 @@ Production orders are created using information from:
 ## Limitations on Production Order Creation  
 Production orders are automatically reserved and tracked to their source when:  
 
--   Created from the **[Planning Worksheet](production-how-to-run-mps-and-mrp.md)**.  
--   Created from the **[Sales Order Planning](production-how-to-create-production-orders-from-sales-orders.md)** page  
--   Created from the **[Order Planning](production-how-to-plan-for-new-demand.md)** page  
--   Using the **[Replan](production-how-to-replan-refresh-production-orders.md)** function on production orders  
+- Created from the **[Planning Worksheet](production-how-to-run-mps-and-mrp.md)**.  
+- Created from the **[Sales Order Planning](production-how-to-create-production-orders-from-sales-orders.md)** page  
+- Created from the **[Order Planning](production-how-to-plan-for-new-demand.md)** page  
+- Using the **[Replan](production-how-to-replan-refresh-production-orders.md)** function on production orders  
 
 For more information, see [Track Relations Between Demand and Supply](production-how-track-demand-supply.md).
 
@@ -113,9 +114,9 @@ The application offers a variety of options for how a manufacturing company migh
 
 Consumption of materials may be processed through the [consumption journal](production-how-to-post-consumption.md), but also may be recorded automatically by application, known as automatic reporting (flushing). The reporting methods are:  
 
--   Manual  
--   Forward  
--   Backward  
+- Manual  
+- Forward  
+- Backward  
 
 Manual consumption reporting uses the consumption journal to specify material picking.  
 
@@ -177,9 +178,9 @@ However, the Production Journal differs from the Consumption and Output journals
 In the production journal, consumption quantities are posted as negative item ledger entries, output quantities are posted as positive ledger entries, and times spent are posted as capacity ledger entries.  
 
 ## See Also
-[Manufacturing](production-manage-manufacturing.md)    
+[Manufacturing](production-manage-manufacturing.md)
 [Setting Up Manufacturing](production-configure-production-processes.md)  
-[Planning](production-planning.md)      
+[Planning](production-planning.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

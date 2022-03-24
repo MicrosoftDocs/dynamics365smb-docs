@@ -1,9 +1,9 @@
 ---
-title: Set Up a Salesperson | Microsoft Docs'
+title: Set Up a Salesperson (contains video) | Microsoft Docs'
 description: You can set up a identifier for each of your salespeople, so you can track an individual's performance or assign a salesperson to a contact.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

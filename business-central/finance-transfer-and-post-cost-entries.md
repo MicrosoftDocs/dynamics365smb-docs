@@ -1,45 +1,46 @@
 ---
-    title: Transferring and Posting Cost Entries
-    description: Before you define cost allocations, you must understand the various sources that cost entries come from.
-    author: SorenGP
+title: Transferring and Posting Cost Entries
+description: Before you define cost allocations, you must understand the various sources that cost entries come from.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/16/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.form:  1100, 1103, 1104, 1108, 1113, 1135
+ms.date: 06/16/2021
+ms.author: edupont
 
 ---
 # Transferring and Posting Cost Entries
+
 Before you define cost allocations, you must understand how cost entries come from the following sources:  
 
--   Automatic transfer of general ledger entries.  
--   Manual cost posting for pure cost entries, internal charges, and manual allocations.  
--   Automatic allocation postings for actual costs.  
--   Transfer of budget entries to actual.
+- Automatic transfer of general ledger entries.  
+- Manual cost posting for pure cost entries, internal charges, and manual allocations.  
+- Automatic allocation postings for actual costs.  
+- Transfer of budget entries to actual.
 
 ## Criteria for Transferring General Ledger Entries to Cost Entries
 It is important to understand the criteria for transferring general ledger entries to cost entries. During the transfer, the **Transfer GL Entries to CA** batch job uses the following criteria to determine if and how the general ledger entries are transferred.  
 
 General ledger entries are transferred if:  
 
--   The entries have dimension values corresponding to either a cost center or a cost object.  
--   The entries have dimension values that correspond to a cost center and a cost object. For these entries, the cost center takes precedence. This helps avoid a situation where a cost type appears in both a cost object and a cost center and is therefore counted twice in the statistics.  
--   The document number in the entries is empty, so it will appear with a document number of 0000 in the cost entries.  
--   The entries are transferred to a cost type that allows for combined entries and these entries are transferred as a combined entry either monthly or daily.  
+- The entries have dimension values corresponding to either a cost center or a cost object.  
+- The entries have dimension values that correspond to a cost center and a cost object. For these entries, the cost center takes precedence. This helps avoid a situation where a cost type appears in both a cost object and a cost center and is therefore counted twice in the statistics.  
+- The document number in the entries is empty, so it will appear with a document number of 0000 in the cost entries.  
+- The entries are transferred to a cost type that allows for combined entries and these entries are transferred as a combined entry either monthly or daily.  
 
 General ledger entries are not transferred if:  
 
--   The entries have dimension values that do not correspond to a cost center or a cost object.  
--   The entries have an amount of zero.  
--   The entries have a general ledger account that has been deleted.  
--   The entries have a general ledger account that is not of the type **Income Statement**.  
--   The entries have a general ledger account that is not assigned a cost type.  
--   The entries have a posting date before the **Starting Date for G/L Transfer**.  
--   The entries have been posted with a closing date. These are typically entries that set back the balance of the income statement at the end of the year.
+- The entries have dimension values that do not correspond to a cost center or a cost object.  
+- The entries have an amount of zero.  
+- The entries have a general ledger account that has been deleted.  
+- The entries have a general ledger account that is not of the type **Income Statement**.  
+- The entries have a general ledger account that is not assigned a cost type.  
+- The entries have a posting date before the **Starting Date for G/L Transfer**.  
+- The entries have been posted with a closing date. These are typically entries that set back the balance of the income statement at the end of the year.
 
 ## Transferring General Ledger Entries to Cost Entries
 You can transfer general ledger entries to cost entries.  
@@ -60,7 +61,7 @@ Before you run the process for transferring general ledger entries to cost entri
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer GL Entries to CA**, and then choose the related link.  
 2.  Choose the **Yes** button to start the transfer. The process transfers all general ledger entries that have not already been transferred.  
 
-    During the transfer, the process creates connections in the entries in the **Cost Entry** table and the **Cost Register** table. This makes it possible to trace the source of cost entries.
+During the transfer, the process creates connections in the entries in the **Cost Entry** table and the **Cost Register** table. This makes it possible to trace the source of cost entries.
 
 ## Automatic Transfer and Combined Entries
 In cost accounting, you can transfer general ledger entries to a cost type by using a combined posting. You can specify if a cost type receives combined entries in the **Combine Entries** field in the cost type definition. The following table describes the different options.  

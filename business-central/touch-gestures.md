@@ -2,7 +2,7 @@
 title: "Touch and pen gestures"
 description: "Learn about touch and pen gestures that help you work efficiently with your data from tablets and phones."
 author: jswymer
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -35,6 +35,6 @@ Business Central built-in charts display useful information about business data 
 
 [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  
 [Assistive Features](ui-accessibility.md)  
-[Getting Started](product-get-started.md)  
+[Getting Started](/dynamics365/business-central/ui-get-ready-business)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

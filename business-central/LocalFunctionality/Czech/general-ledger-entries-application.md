@@ -3,7 +3,7 @@ title: General Ledger Entries Application [CZ]
 description: The local functionality in the General ledger entries application allows companies to work with temporary and transfer accounts in the general ledger.
 author: ACMartinKunes
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords: Czech, finance, CZ, General ledger, Entries
 ms.date: 06/24/2021

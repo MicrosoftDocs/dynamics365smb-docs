@@ -1,9 +1,9 @@
 ---
-title: Link a Sales Order to a Purchase Order for Direct Shipment | Microsoft Docs
+title: Make Drop Shipments (contains video)
 description: Describes how to create a sales order linked to a purchase order to enable shipment directly from the vendor to the customer.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -37,12 +37,12 @@ To prepare a drop shipment, you indicate on the purchase order that it must be s
 2. In the **Ship-to** field, select **Customer Address**.
 3. In the **Customer** field, select the customer that you are selling to.
 4. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
-5. On the **Sales List** page, select the sales order that you prepared in [To create a sales order for drop shipment](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
+5. On the **Sales List** page, select the sales order that you prepared in [To create a sales order for drop shipment](#to-create-a-sales-order-for-drop-shipment).
 6. Choose the **OK** button.
 
 The line information from the sales order is inserted on the purchase order line(s).
 
-You can now instruct the vendor to ship the items to your customer, for example, by mailing the purchase order as a PDF.     
+You can now instruct the vendor to ship the items to your customer, for example, by mailing the purchase order as a PDF. If your vendor provides a tracking number or similar information, you can choose to record that information in a purchase order line of type *Comment*.  
 
 ## To create multiple purchase orders for drop shipments
 

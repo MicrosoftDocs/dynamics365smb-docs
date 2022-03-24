@@ -3,7 +3,7 @@
     description: Fiscal documents must contain all company information. You can enter all relevant data on the Company Information page when setting up a company.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

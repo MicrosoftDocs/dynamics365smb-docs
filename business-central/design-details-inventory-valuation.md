@@ -3,7 +3,7 @@
     description: Inventory valuation is the determination of the cost of an inventory item.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

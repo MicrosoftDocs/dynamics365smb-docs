@@ -3,12 +3,13 @@
     description: Read about how you issue and print delivery reminders so that you can send reminders to vendors in the German version of Business Central.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    ms.search.form: 5005272, 5005273, 5005274, 5005275, 5005276
     ms.date: 04/01/2021
     ms.author: edupont
 

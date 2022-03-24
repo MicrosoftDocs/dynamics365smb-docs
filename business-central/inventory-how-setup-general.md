@@ -1,14 +1,15 @@
 ---
 title: Set Up General Inventory Information
 description: Describes how to define the general inventory setup so that you can manage your warehouse and stock.
-author: bholtorf
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
+ms.search.form: 30, 456, 461
 ms.date: 07/28/2021
 ms.author: edupont
 

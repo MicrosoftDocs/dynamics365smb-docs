@@ -1,9 +1,9 @@
 ---
     title: Basic Experience Extension | Microsoft Docs
     description: This extension is a modernized alternative to Microsoft Dynamics C5.
-    author: bholtorf
+    author: brentholtorf
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

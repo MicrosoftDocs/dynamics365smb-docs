@@ -1,13 +1,14 @@
 ---
     title: Reconciling Bank Accounts [US]
     description: This topic describes how to reconcile bank account ledger entries with bank statements in the North American version.
-    author: bholtorf
-    ms.service: dynamics365-business-central
+    author: brentholtorf
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    ms.search.form: 389, 10120,10121,10122,10123,10124,10125,10126,10127,10128,10129,10130,10131,10133,10134
     ms.date: 07/16/2021
     ms.author: bholtorf
 

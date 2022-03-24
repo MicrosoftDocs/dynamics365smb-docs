@@ -1,14 +1,15 @@
 ---
-title: Close a Fiscal Year and Accounting Periods | Microsoft Docs
+title: Close a Fiscal Year and Accounting Periods
 description: Outlines the tasks to close a fiscal year or accounting period, for example, making sure documents and journals are posted and verifying bank balances.
 author: jswymer
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
 

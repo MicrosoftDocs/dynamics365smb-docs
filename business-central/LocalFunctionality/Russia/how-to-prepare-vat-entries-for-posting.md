@@ -3,7 +3,7 @@ title: Preparing VAT entries for posting in Russia
 description: Russian enhancements include periodically remit the net VAT from sales and purchase transactions to the tax authorities.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

@@ -1,9 +1,9 @@
 ---
 title: Create Business Contacts
 description: Outlines the tasks involved in creating contacts and defining your business relationships on the Contact Card.
-author: bholtorf
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

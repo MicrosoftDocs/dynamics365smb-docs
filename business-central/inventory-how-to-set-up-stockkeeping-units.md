@@ -1,22 +1,22 @@
 ---
-    title: How to Set Up Stockkeeping Units | Microsoft Docs
-    description: You can use stockkeeping units to record information about your items for a specific location or a specific variant code.
-    author: SorenGP
+title: How to Set Up Stockkeeping Units
+description: You can use stockkeeping units to record information about your items for a specific location or a specific variant code.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.forms: 5704, 5700, 5702, 5701
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Set Up Stockkeeping Units
-You can use stockkeeping units to record information about your items for a specific location or a specific variant code.  
+You can use stockkeeping units to record information about items for a specific location or a variant code.  
 
- Stockkeeping units are a supplement to item cards. They do not replace them, although they are related to them. Stockkeeping units allow you to differentiate information about an item for a specific location, such as a warehouse or distribution center, or a specific variant, such as different shelf numbers and different replenishment information, for the same item.  
+Stockkeeping units are a supplement to item cards. They do not replace them, although they are related to them. Stockkeeping units allow you to differentiate information about an item for a specific location, such as a warehouse or distribution center, or a specific variant, such as different shelf numbers and different replenishment information, for the same item.  
 
 ## To set up a stockkeeping unit  
 

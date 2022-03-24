@@ -1,16 +1,17 @@
 ---
-    title: How to Combine Receipts | Microsoft Docs
-    description: If you want to invoice more than one purchase receipt at a time, you can use the Combine Receipts function.
-    author: SorenGP
+title: Combine Receipts on a Single Invoice
+description: If you want to invoice more than one purchase receipt at a time, you can use the Combine Receipts function.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 136, 145, 146, 9308
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Combine Receipts on a Single Invoice

@@ -1,26 +1,27 @@
 ---
-    title: How to Correct VAT Reports [DE]
+    title: Correct VAT Reports [DE]
     description: If you have to submit a corrective VAT report or delete a submitted VAT report, you must create a new VAT report. 
     author: SorenGP
-
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    ms.search.form: 26101
     ms.date: 06/18/2021
     ms.author: edupont
 
 ---
 # Correct VAT Reports in the German Version
+
 If you have to submit a corrective VAT report or delete a submitted VAT report, you must create a new VAT report. According to the legislation, a corrective report must be submitted within a month of the initial report.  
 
 When you create a corrective report, the report will contain two line types per corrected line. In one line type, Cancellation, the base value of the VAT is reported as a cancellation. All other information remains the same, and cannot be edited. On a new line, Correction type, you can make corrections as needed to the VAT amount. The **Suggest Lines** action, however, will suggest the correct amount based on the filters and posted documents. You cannot correct or modify the **VAT Registration No.** Each period being corrected needs its own corrective report.  
 
 The **Suggest Lines** action recalculates the values to report. The **Correct Lines** action is used to make manual changes. You can combine the effects of the two actions to correct your report.  
 
-**Example corrections scenarios**  
+## Example corrections scenarios
 
 1.  If you post additional VAT entries after you submit the Standard report in the report period, choose **Suggest Lines** in the **Process** group to get the updated amounts.  
 

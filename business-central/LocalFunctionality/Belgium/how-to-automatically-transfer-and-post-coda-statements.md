@@ -1,22 +1,20 @@
 ---
-    title: How to Automatically Transfer and Post CODA Statements [BE]
+    title: Automatically Transfer and Post CODA Statements [BE]
     description: After you have applied and processed all CODA statement lines, you can transfer the CODA statement lines to a financial journal.
-
-    services: project-madeira 
-    documentationcenter: ''
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.form: 2000040
     ms.date: 06/17/2021
     ms.author: edupont
 
 ---
 # Automatically Transfer and Post CODA Statements in the Belgian Version
+
 After you have applied and processed all CODA statement lines, you can transfer the CODA statement lines to a financial journal.  
 
 After transferring the statement lines, you can post the lines in a corresponding general journal. If no such general journal exists, you cannot transfer the lines. You can create a journal to handle CODA statements. For more information, see [Create Financial Journals](how-to-create-financial-journals.md).  

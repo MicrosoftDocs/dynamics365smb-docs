@@ -1,28 +1,32 @@
 ---
 title: Set Up Time Sheets and Their Approval
-description: You set up time sheets to track the time used on jobs and using resources, helping you with project management, staffing, and capacity
+description: You set up time sheets to track the time used on tasks and projects, helping you with project management, staffing, and capacity
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
-ms.date: 10/01/2021
+ms.search.form: 977, 462, 76, 77
+ms.date: 12/13/2021
 ms.author: edupont
 
 ---
 # Set Up Time Sheets
 
-Time sheets in [!INCLUDE[prod_short](includes/prod_short.md)] handle time registration in weekly increments of seven days. You use them to track the time used on jobs, and you can use them to record simple resource time registration. Before you can use time sheets, you must specify how you want them to be set up and configured.
+Time sheets in [!INCLUDE[prod_short](includes/prod_short.md)] handle time registration in weekly increments of seven days. You can use them to track the time used on projects, and you can use them to record simple resource time registration. Before you can use time sheets, you must specify which users will submit time sheets and how you want to configure time sheets.  
 
-After you have set up how your organization will use time sheets, you can specify if and how time sheets are approved. Depending on the needs of your organization, you can designate:
+> [!TIP]
+> In [!INCLUDE [prod_short](includes/prod_short.md)], the users of time sheets are *resources*. This way, you can use time sheets to track the work of non-employees, for example. To track the work of your own employees, or to use time sheets to track employee absence, you must associate *employees* with *resources* in the setup guide.  
+
+Optionally, specify if and how time sheets are approved. Depending on the needs of your organization, you can designate:
 
 * One or more users as the time sheet administrator and approver for all time sheets.
 * A time sheet approver for each resource.
 
-When you have set up time sheets, you can create time sheets for resources, assign them to job planning lines, and post time sheet lines. For more information, see [Use Time Sheets](projects-how-use-time-sheets.md).  
+When you have set up time sheets, you can create time sheets for resources, and the resources can post time sheet lines. Optionally, assign time sheets to job planning lines. For more information, see [Use Time Sheets](projects-how-use-time-sheets.md).  
 
 ## Set up time sheets with the assisted setup guide
 
@@ -35,9 +39,13 @@ Starting in 2021 release wave 2, you can use an assisted setup guide to help you
 >
 > The same feature also makes it easy to manage time sheets on a mobile device.
 
+Open the **Set Up Time Sheets** assisted setup guide from the [Assisted Setup](https://businesscentral.dynamics.com/?page=1801) page.
+
 The assisted setup guide takes you through the following steps:
 
 1. Set up the participants in the time sheet processes
+
+    The first page in the guide shows you the number of users in your [!INCLUDE [prod_short](includes/prod_short.md)]. It also shows other required and optional information.  
 2. Specify the first day of a work week in this organization
 
     The first day of a work week will be the default first day for all time sheets.
@@ -46,14 +54,11 @@ The assisted setup guide takes you through the following steps:
     This person can edit and delete all time sheets. Optionally, add the same role to other people in the **User Setup** page.
 4. Set up the resources who will use time sheets, and the people who will approve time sheets
 
-    > [!NOTE]
-    > For projects and jobs, the users of time sheets are *resources*, not employees. So to be able to track the work of your employees, you must associate resources with employees in the setup guide.
-
-At the end of the setup guide, you can choose to let [!INCLUDE [prod_short](includes/prod_short.md)] create time sheets based on your configuration. Alternatively, run the assisted setup guide again, or complete the setup manually.  
+At the end of the setup guide, you can choose to let [!INCLUDE [prod_short](includes/prod_short.md)] create time sheets based on your configuration. View the new time sheets in the **Time Sheets** page, which you can open [here](https://businesscentral.dynamics.com/?page=951). Alternatively, run the assisted setup guide again, or complete the setup manually.  
 
 ## Set up time sheets manually
 
-The following sections describe how to set up time sheets if you do not use the **Set up time sheets** assisted setup guide.  
+The following sections describe how to set up time sheets if you do not use the **Set Up Time Sheets** assisted setup guide.  
 
 ### To set up general information for time sheets manually
 
@@ -88,9 +93,9 @@ The following sections describe how to set up time sheets if you do not use the 
 
 ## See Also
 
-[Use Time Sheets for Jobs](projects-how-use-time-sheets.md)  
+[Use Time Sheets for Projects](projects-how-use-time-sheets.md)  
 [To create time sheets](projects-how-use-time-sheets.md#to-create-time-sheets)  
-[Record Consumption or Usage for Jobs](projects-how-record-job-usage.md)  
+[Record Consumption or Usage for Projects](projects-how-record-job-usage.md)  
 [Setting Up Project Management](projects-setup-projects.md)  
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  

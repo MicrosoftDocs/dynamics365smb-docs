@@ -1,8 +1,8 @@
 ---
     title: Set Up Business Units for Business Activity Statements (AU)
     description: Describes how to consolidate the financial statements of various companies into one financial statement.
-    author: bholtorf
-    ms.service: dynamics365-business-central
+    author: brentholtorf
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@
     description: After you have created a configuration package, deploy the package to your customer for implementation. You use the configuration with a new empty company.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

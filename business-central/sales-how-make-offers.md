@@ -3,7 +3,7 @@ title: Make Sales Quotes
 description: Read about how to create a sales offer or a request for proposal (RFQ) document to record your offer to a customer or prospect to sell products under certain terms.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,13 +1,14 @@
 ---
-title: Working with the General Functionality in Business Central  | Microsoft Docs
+title: Working with Business Central  (contains video)
 description: Describes the general functionality you use to interact with data in Business Central, such as entering values, sorting data, and changing views.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
 

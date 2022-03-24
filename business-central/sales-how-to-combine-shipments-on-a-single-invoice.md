@@ -3,13 +3,13 @@
     description: If you want to invoice more than one shipment at a time, you can use the combined shipments feature.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 12/16/2021
     ms.author: edupont
 
 ---
@@ -30,6 +30,9 @@ Before you can create a combined shipment, more than one sales shipment for the 
 
     If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the invoice and re-run the **Get Shipment Lines** function.  
 7. To post the invoice, choose the **Post** action.  
+
+> [!TIP]  
+> If you have shipped orders where the **Sell-to Customer No.** is different from the **Bill-to Customer No.**, those lines are not displayed in the **Get Shipment Lines** report. Use personalization to add the **Sell-to Customer** field to the page and remove the filter. Now you can add shipment lines to the invoice regardless of the value in the **Sell-to Customer No.** field, as long as the **Bill-to Customer No.** field on the shipment lines matches the value on the sales invoice.  
 
 ## To automatically combine shipments on a single invoice  
 [!INCLUDE[prod_short](includes/prod_short.md)] will select only sales orders where **Combine Shipments** is chosen. 

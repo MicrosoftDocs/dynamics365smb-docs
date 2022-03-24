@@ -3,13 +3,14 @@ title: Set Up Reminder Terms and Levels
 description: Learn how to set up Business Central so that you can send a reminder to a customer about a payment that is due and add charges, or fees to the payment because of the delay.
 author: edupont04
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2021
+ms.search.form: 431, 432, 436, 478
+ms.date: 02/09/2022
 ms.author: edupont
 
 ---
@@ -97,6 +98,7 @@ After you have set up the reminder terms, with additional levels and text, enter
 ## See also
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
+[Send Reminders of Outstanding Balances](receivables-send-reminders.md)  
 [Set Up Finance Charge Terms](finance-setup-finance-charges.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 

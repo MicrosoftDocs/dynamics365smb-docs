@@ -3,12 +3,12 @@ title: Move Items in Advanced Warehouse Configuration
 description: This topic explains how a senior employee can arrange moving items in advanced warehouse configurations - applicable to locations with directed put-away and pick.
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords:
+ms.search.form: 7351
 ms.date: 06/24/2021
 ms.author: edupont
 

@@ -1,16 +1,16 @@
 ---
-    title: Batch Post Consumption
-    description: If the flushing method is Manual, you must post the components manually, using a consumption journal.
-    author: SorenGP
+title: Batch Post Consumption
+description: If the flushing method is Manual, you must post the components manually, using a consumption journal.
+author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.form: 99000846, 99000850
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # Batch Post Production Consumption

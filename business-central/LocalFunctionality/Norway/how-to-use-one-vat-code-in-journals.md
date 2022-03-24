@@ -1,20 +1,21 @@
 ---
-    title: How to Use One VAT Code in Journals
-    description: In Norway, you can use the feature one VAT code in a journal, so that you can post VAT by using a single field, VAT Code.
+title: Use One VAT Code in Journals [NO]
+description: In Norway, you can use the feature one VAT code in a journal, so that you can post VAT by using a single field, VAT Code.
+author: SorenGP
 
-    author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 10602, 10697, 10698, 10604
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
-# Use One VAT Code in Journals
+# Use One VAT Code in Journals in Norway
+
 In Norway, you can use the feature one VAT code in a journal, so that you can post VAT by using a single field, **VAT Code**. After it is set up, the one VAT code is a quick way to fill in the commonly used VAT fields.  
 
 To set up the VAT code for purchase orders and sales orders, the corresponding VAT business posting groups and the VAT product posting groups have to be defined.  
@@ -28,7 +29,7 @@ The VAT rate is calculated from the combination of VAT business posting groups, 
 3.  Enter information in the **Code**, **General Posting Type**, and **Description** fields for each VAT code.  
 4.  Choose the **OK** button to close the **VAT Codes** page.  
 
- he following procedure explains the VAT posting setup.  
+The following procedure explains the VAT posting setup.  
 
 ## To set up VAT posting  
 
@@ -36,12 +37,12 @@ The VAT rate is calculated from the combination of VAT business posting groups, 
 2.  Choose the **New** action.  
 3.  In the **VAT Posting Setup** card, fill in the following fields:  
 
-    - **VAT Business Posting Group**  
-    - **VAT Product Posting Group**  
-    - **VAT Identifier**  
-    - **VAT Percentage**  
-    - **Sales VAT Account**  
-    - **Purchase VAT Account**  
+- **VAT Business Posting Group**  
+- **VAT Product Posting Group**  
+- **VAT Identifier**  
+- **VAT Percentage**  
+- **Sales VAT Account**  
+- **Purchase VAT Account**  
 
 4.  In the **VAT Code** field, select a code from the list.  
 

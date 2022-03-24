@@ -3,8 +3,8 @@
     description: To support the physical handling of items on the zone and bin level, all information must be traced for each transaction or movement in the warehouse.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
+    
+    ms.topic: overview
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na

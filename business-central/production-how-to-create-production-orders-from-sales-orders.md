@@ -3,12 +3,12 @@
     description: Learn the different ways to create production orders for produced items directly from sales orders.
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.keywords:
+    ms.search.form: 99000883, 99000884
     ms.date: 06/22/2021
     ms.author: edupont
 

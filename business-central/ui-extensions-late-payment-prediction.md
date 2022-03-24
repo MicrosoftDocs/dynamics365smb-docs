@@ -1,19 +1,19 @@
 ---
 title: Predict Late Payments for Sales Documents
-description: This topic expalains how to use our predictive model to predict whether an invoice will be paid on time.
-author: bholtorf
+description: This topic explains how to use our predictive model to predict whether an invoice will be paid on time.
+author: brentholtorf
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 06/23/2021
+ms.date: 12/20/2021
 ms.author: bholtorf
-
 ---
-# The Late Payment Prediction Extension  
+# The Late Payment Prediction Extension
+
 Effectively managing receivables is important to the overall financial health of a business. The Late Payment Prediction extension can help you reduce outstanding receivables and fine-tune your collections strategy by predicting whether sales invoices will be paid on time. For example, if a payment is predicted to be late, you might decide to adjust the terms of payment or the payment method for the customer.
 
 ## Getting Started
@@ -103,10 +103,13 @@ You can also create your own predictive web service based on a public model name
 7. Choose the **Use My Azure Subscription** check box.
 8. On the **My Model Credentials** FastTab, enter the API URL and API key for your model.  .  
 
-## See Also  
+## See Related Training at [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
+
+## See Also
+
 [Azure Machine Learning Studio Documentation](/azure/machine-learning/classic/)  
 [Customizing Business Central Using Extensions](ui-extensions.md)  
 [Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
-
+[Use Artificial Intelligence in Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

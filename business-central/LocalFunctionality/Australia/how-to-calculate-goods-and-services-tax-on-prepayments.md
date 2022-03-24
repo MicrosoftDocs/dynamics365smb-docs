@@ -2,12 +2,13 @@
     title: Calculate Goods and Services Tax on Prepayments (AU)
     description: Describes how to calculate goods and services tax (GST) for partial payments or prepayments based on the total invoice amount, instead of on a partial amount.
     author: SorenGP
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
+    ms.search.form: 28164,28165,28166,28167
     ms.date: 04/01/2021
     ms.author: edupont
 

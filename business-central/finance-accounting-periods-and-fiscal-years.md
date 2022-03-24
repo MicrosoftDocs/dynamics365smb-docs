@@ -1,16 +1,16 @@
 ---
-    title: Working with Accounting Periods and Fiscal Years | Microsoft Docs
-    description: Learn how to work with accounting periods to define when your company reports financial performance.
-    author: bholtorf
+title: Working with Accounting Periods and Fiscal Years
+description: Learn how to work with accounting periods to define when your company reports financial performance.
+author: brentholtorf
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.form: 100
+ms.date: 04/01/2021
+ms.author: bholtorf
 
 ---
 # Work with Accounting Periods and Fiscal Years

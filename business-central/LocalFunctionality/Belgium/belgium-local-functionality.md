@@ -3,7 +3,7 @@ title: Belgium Local Functionality
 description: The following topics describe the various local functionality in the Belgian version of Business Central.
 author: sorenfriisalexandersen
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 06/17/2021
@@ -27,6 +27,7 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md) **Available Now**
     * [Set Up Declaration Types](how-to-set-up-declaration-types.md) **Available Now**
     * [Export Intrastat Third-Party Declarations](how-to-export-intrastat-third-party-declararations.md) **Available Now**
+    * Declarations F01DGS and F02CMS **2022 release wave 2**
 
 * Banking & Payments
     * [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md) **Available Now**
@@ -45,14 +46,14 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Import CODA Statements](how-to-import-coda-statements.md) **Available Now**
     * [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md) **Available Now**
     * [Print Payment Files](how-to-print-payment-files.md) **Available Now**
-    * [Activate SEPA Payments](how-to-activate-sepa-payments.md) **Available Now**
-    * [File Non-Euro SEPA Payments](how-to-file-non-euro-sepa-payments.md) **Available Now**
+    * [Activate SEPA Payments](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments) **Available Now**
+    * [File Non-Euro SEPA Payments](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments) **Available Now**
     * [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md) **Available Now**
-    * [Set Up Domiciliations](how-to-set-up-domiciliations.md) **Available Now**
-    * [Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md) **Available Now**
-    * [Test Domiciliations](how-to-test-domiciliations.md) **Available Now**
-    * [Export and Post Domiciliations](how-to-export-and-post-domiciliations.md) **Available Now**
-    * [Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md) **Available Now**
+    * [Set Up Domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
+    * [Edit and Delete Domiciliation Lines](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
+    * [Test Domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
+    * [Export and Post Domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
+    * [Generate Domiciliation Suggestions](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
     * [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md) **Available Now**
     
 * Core Finance

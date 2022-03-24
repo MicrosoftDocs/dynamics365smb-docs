@@ -1,21 +1,21 @@
 ---
 title: Undo a Posting by Posting a Reversing Entry
 description: If you have made an erroneous posting in the general journal, then you can use the Reverse Transaction function to undo the posting with a correct audit trail.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
+ms.search.form: 20, 25, 29, 38, 202, 5912, 
 ms.date: 07/22/2021
 ms.author: edupont
 
 ---
 # Reverse Journal Postings and Undo Receipts/Shipments
+
 Reverse journal postings are not only used for correcting errors but they can also be used for clearing out an old accruals entry before entering a new one, for example. You select the entry and create a reverse entry (entries identical to the original entry but with opposite sign in the amount field) with the same document number and posting date as the original entry. After reversing an entry, you must make the correct entry.
 
 You can only reverse entries that are posted from a general journal line. An entry can only be reversed once.
@@ -76,6 +76,7 @@ The following describes how to undo a posted return shipment of items or resourc
 8.  Correct the entry in the **Quantity** field and post the purchase return order again.  
 
 ## See Also
+
 [Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)  
 [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  
 [Work with General Journals](ui-work-general-journals.md)  

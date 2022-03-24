@@ -3,7 +3,7 @@ title: Setting up vendor prepayments in Russia
 description: Russian enhancements include prepayments to vendors.
 author: DianaMalina
 
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021

@@ -29,3 +29,5 @@ Remember to add See Also links, and to add the new article to the TOC.md file.
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Administration](admin-setup-and-administration.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

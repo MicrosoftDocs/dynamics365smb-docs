@@ -3,12 +3,10 @@ metadata:
   title: FAQ About Using Business Central
   description: "Answers common questions about how to sign up for or buy Business Central, extend a trial, cancel a subscription, and find training and other support."
   author: edupont04
-  ms.service: dynamics365-business-central
-  ms.topic: conceptual
+  ms.topic: faq
   ms.search.keywords: "FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend"
   ms.date: 09/29/2021
   ms.author: edupont
-    
 title: Frequently Asked Questions about Using Business Central
 summary: |
   This section contains answers to frequently asked questions about signing up for a trial, buying a subscription, and using [!INCLUDE[prod_short](includes/prod_short.md)]. You can also learn how to get technical support.  
@@ -176,14 +174,14 @@ additionalContent: |
   [Use [!INCLUDE[prod_short](includes/prod_short.md)] as Your Business Inbox in Outlook](admin-outlook.md)  
   [Use [!INCLUDE[prod_short](includes/prod_short.md)] without Outlook](admin-no-outlook.md)  
   [Change Basic Settings](ui-change-basic-settings.md)  
-  [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-  [Getting answers to questions](product-get-started.md#getting-answers-to-questions)  
+  [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+  [Getting answers to questions](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)  
   [Resources for Help and Support](product-help-and-support.md)  
   [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
   [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
   [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
   [Service Terms](compliance/compliance-service-compliance.md#service-terms)  
-  [FAQ About Developer and ITPro Experiences](/dynamics365/business-central/dev-itpro/faq)
-
+  [FAQ About Developer and Admin Experiences](/dynamics365/business-central/dev-itpro/faq)
+  [Migrate On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)
   ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
   [!INCLUDE[footer-include](includes/footer-banner.md)]

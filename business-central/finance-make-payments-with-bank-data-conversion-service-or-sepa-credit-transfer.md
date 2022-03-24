@@ -1,16 +1,17 @@
 ---
-    title: Make Payments with AMC Banking (US) or SEPA Credit Transfer (EU)
-    description: Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
-    author: bholtorf
+title: Make Payments with AMC Banking (US) or SEPA Credit Transfer (EU)
+description: Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
+author: brentholtorf
 
-    ms.service: dynamics365-business-central
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/06/2021
-    ms.author: bholtorf
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
+ms.date: 07/06/2021
+ms.author: bholtorf
 
 ---
 # Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer
@@ -63,7 +64,7 @@ Before you can process payment electronically by exporting payment files in the 
 3. On the **Payment** FastTab, in the **Payment Method Code** field, choose **BANK**.  
 4. In the **Preferred Bank Account** field, choose the bank to which the money will be transferred when it is processed by your electronic bank.  
 
-     If you have not yet set up a bank for this vendor, you can do so now. For more information, see [To set up vendor bank accounts for export of bank files](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). The value in the **Preferred Bank Account** field is copied to the **Recipient Bank Account** field on the **Payment Journal** page.  
+    If you have not yet set up a bank for this vendor, you can do so now. For more information, see [To set up vendor bank accounts for export of bank files](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). The value in the **Preferred Bank Account** field is copied to the **Recipient Bank Account** field on the **Payment Journal** page.  
 
 ### To set the payment journal up to export payment files
 

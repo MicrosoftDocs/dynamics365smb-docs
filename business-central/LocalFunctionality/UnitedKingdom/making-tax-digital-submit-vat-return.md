@@ -2,26 +2,27 @@
 title: 'Making Tax Digital - Submitting VAT Returns'
 description: Business Central includes features to manage your VAT and comply with Making Tax Digital. This article describes how to set up and use these features.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: making tax digital, vat, vat return, submit vat, making tax digital software, hmrc, tax
-ms.date: 04/01/2021
+ms.search.form: 10539, 743
+ms.date: 02/16/2022
 ms.author: soalex
 
 ---
 # Making Tax Digital in the United Kingdom
 
-Her Majesty's Revenue and Customs (HMRC) has implemented the first step of Making Tax Digital, which imposes new requirements on VAT registered businesses above the VAT threshold. Requirements will be implemented in phases. In the first phase, with a deadline in April 2019, the following requirements took effect:
+Her Majesty's Revenue and Customs (HMRC) has implemented the first steps of *Making Tax Digital*, which imposes new requirements on VAT registered businesses above the VAT threshold. [!INCLUDE [prod_short](../../includes/prod_short.md)] supports the first rounds of *Making Tax Digital*, which took effect in April 2019:
 
 * Keeping records digitally
 
-  Businesses must now keep all their records digitally. For users of ERP systems, this requirement will not have any impact since they already keep their records digitally in these systems.  
+  Businesses must now keep all their records digitally. For users of finance systems, such as [!INCLUDE [prod_short](../../includes/prod_short.md)], this requirement will not have any impact since they already keep their records digitally in these systems.  
 * Submit VAT return electronically using [software recognized by HMRC](https://www.gov.uk/guidance/software-for-sending-income-tax-updates).  
 
-Starting in 2021, the electronic statements must also include information that helps prevent fraud. For more information, see [Send Fraud Prevention Data](fraud-prevention-data.md).  
+Since 2021, the electronic statements must also include information that helps prevent fraud. For more information, see [Send Fraud Prevention Data](fraud-prevention-data.md).  
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] supports Making Tax Digital and the GovTalk service.
 
@@ -38,7 +39,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)] you can use the VAT Retu
 
 ## Set up Making Tax Digital for VAT
 
-The Making Tax Digital feature uses a service connection to communicate with HMRC. To make it easy to establish communications, [!INCLUDE[prod_short](../../includes/prod_short.md)] provides the **HMRC VAT Setup** service connection, which contains most of the information needed to communicate with HMRC. To finish the connection, you must give the **Dynamics 365 Business Central MTD VAT** application the authority to interact with HMRC on your behalf. Microsoft manages the **Dynamics 365 Business Central MTD VAT** application on the HMRC web site, and the application is a requirement for the connection. You give permission by requesting an authorization code from HMRC, and then copying the code to the service connection. The following steps describe how to set up the service connection.  
+The *Making Tax Digital* integration uses a service connection to communicate with HMRC. To make it easy to establish communications, [!INCLUDE[prod_short](../../includes/prod_short.md)] provides the **HMRC VAT Setup** service connection, which contains most of the information needed to communicate with HMRC. To finish the connection, you must give the **Dynamics 365 Business Central MTD VAT** application the authority to interact with HMRC on your behalf. Microsoft manages the **Dynamics 365 Business Central MTD VAT** application on the HMRC web site, and the application is a requirement for the connection. You give permission by requesting an authorization code from HMRC, and then copying the code to the service connection. The following steps describe how to set up the service connection.  
   
 > [!Note]
 > If you are using [!INCLUDE [prod_short](../../includes/prod_short.md)] on-premises, there are some additional steps to set up the features for Making Tax Digital. In [!INCLUDE [prod_short](../../includes/prod_short.md)] online, these happen automatically. For more information, see the [Additional Setup Requirements for On-Premises Versions](#additional-setup-requirements-for-on-premises-versions) section.
@@ -56,6 +57,11 @@ The Making Tax Digital feature uses a service connection to communicate with HMR
 
     > [!Note]
     > [!INCLUDE[prod_short](../../includes/prod_short.md)] will use the authorization code to test whether the service connection can communicate with HMRC. If the connection is successful, a confirmation page prompts you to verify your VAT registration number. To open the **Company Information** page and verify the number is correct, and the one you have used to register with HMRC, choose **Yes**.
+
+You must also fill in the fields on the **VAT Report Setup** page. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] For more information, see [Set up VAT reporting](../../finance-setup-vat.md#set-up-vat-reporting).  
+
+> [!IMPORTANT]
+> Starting in March 2022, the **User IP Address Service** must specify an endpoint for the service that your company uses to extract and submit the IP address of the user who sends the VAT report. For more information, see [IP addresses](fraud-prevention-data.md#ip-addresses).
 
 ### Additional Setup Requirements for On-Premises Versions
 
@@ -88,7 +94,7 @@ HMRC maintains a list of VAT obligations for companies, which are the periods fo
 ### To retrieve the VAT return periods from HMRC
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
-2. On the **VAT Return Periods** page, choose **Process**, and then choose **Get VAT Return Periods**.
+2. On the **VAT Return Periods** page, choose the **Get VAT Return Periods** action.
 3. Enter the **Start Date** and **End Date** to specify the period for which to get the VAT return periods, and then choose **OK**.  
 
 The VAT obligations are now retrieved from HMRC and you can view them on the **VAT Return Periods** page. A confirmation page shows how many obligations were retrieved.
@@ -103,12 +109,12 @@ Use this report to submit VAT for sales and purchase documents, such as purchase
 ### To create and submit a VAT return
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
-2. On the **VAT Return Periods** page, choose **Process**, and then choose **Create VAT Return**.
+2. On the **VAT Return Periods** page, choose the relvant period, and then choose the **Create VAT Return** action.
 3. If you want to open the VAT return, on the confirmation page, choose **Yes**.
 4. On the **VAT Return** page, to calculate and prepare the amounts for the VAT return, choose **Process**, and then choose the **Suggest Lines** action.  
 5. Fill in the fields as necessary, and then choose the **OK** button. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
-  VAT amounts display in the **Report Lines** section on the **VAT Return** page.  
+    VAT amounts display in the **Report Lines** section on the **VAT Return** page.  
 6. To release the VAT return and prepare it for submission, choose **Process**, and then choose the **Release** action. After you release a VAT return, you cannot edit it. If you need to change something, you must reopen the return. Releasing the VAT return does not submit it.
 7. To submit the VAT return to HMRC, choose **Process**, and then choose the **Submit** action.  
 
@@ -165,6 +171,7 @@ Certain online documentation at HMRC refers to the term *Sandbox*. This term ref
 
 [Send Fraud Prevention Data](fraud-prevention-data.md)  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  
+[Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md)  
 [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md)  
 [The VAT Group Management Extension](../../ui-extensions-vat-group.md)  
 [Customizing [!INCLUDE[prod_short](../../includes/prod_short.md)] Using Extensions](../../ui-extensions.md)  

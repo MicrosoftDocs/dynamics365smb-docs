@@ -3,7 +3,7 @@
     description: This walkthrough describes how you can use account schedules to make cash flow forecasts in Business Central. 
     author: SorenGP
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

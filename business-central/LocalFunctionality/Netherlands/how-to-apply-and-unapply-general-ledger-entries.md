@@ -3,7 +3,7 @@
     description: Applying temporary general ledger entries allows companies to work with temporary and transfer accounts in the general ledger.
     author: edupont04
 
-    ms.service: dynamics365-business-central
+    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -10,13 +10,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 10458, 10459, 27001, 27002, 27003, 27010,27011, 27011, 27012, 27013,27014,27015, 27016, 27017, 27018, 27040, 27041, 27042, 27043, 27044
-ms.date: 11/25/2021
+ms.date: 03/23/2022
 ms.author: edupont
 
 ---
 # Electronic Invoicing in the Mexican Version
 
-Mexican companies must be able to send invoices electronically as Comprobante Fiscal Digital por Internet (CFDI) files. [!INCLUDE[prod_short](../../includes/prod_short.md)] supports CFDI so that you can export sales and service invoices and credit memos as electronic documents that have the required digital signature.  
+Mexican companies must be able to send invoices electronically as Comprobante Fiscal Digital por Internet (CFDI) files. [!INCLUDE[prod_short](../../includes/prod_short.md)] supports CFDI so that you can export sales and service invoices and credit memos as electronic documents that have the required digital signature.
+
+> [!NOTE]
+> The tax authority (Servicio de Administración Tributaria) announced a version 4.0 of the online digital tax receipt (comprobante fiscal digital por internet—CFDI) system. After effective date, vouchers cannot be issued in versions other than 4.0. Accordingly [!INCLUDE[prod_short](../../includes/prod_short.md)] updated CFDI feature to to be in line with new regulations.  
 
 The CFDI file is an XML file that contains:  
 
@@ -47,6 +50,8 @@ You also must specify the web services that you will use to communicate with the
 
 > [!IMPORTANT]  
 > SAT has certified more than one PAC in Mexico, and you must obtain the appropriate information to communicate with the PAC of your choice.  
+
+You must also specify information about your own company and each of your customers and vendors. For more information, see [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md).  
 
 ## Sending Electronic Invoices
 

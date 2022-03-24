@@ -94,7 +94,7 @@ This field determines how the amount on the journal line is treated after postin
 > The VAT fields can be filled in on either the recurring journal line or on the allocation journal line but not on both. That is, they can be filled in on the **Allocations** page only if the corresponding lines in the recurring journal are not filled in.
 
 ### Recurring Frequency field
-This field determines how often the entry on the journal line will be posted. It is a date formula field, and it must be filled in for recurring journal lines. For more information, see [Use Date Formulas](ui-enter-date-ranges.md#using-date-formulas).
+This field determines how often the entry on the journal line will be posted. It is a date formula field, and it must be filled in for recurring journal lines. For more information, see [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas).
 
 #### Examples
 If the journal line must be posted every month, enter "1M". After every posting, the date in the **Posting Date** field will be updated to the same date in the next month.

@@ -91,7 +91,7 @@ If you create more reminders than you have defined levels for, the conditions fo
     For example, if you write **You owe %9 %7 due on %2.**, then the resulting reminder will contain the following text: **You owe USD 1.200,50 due on 02-02-2014.**.
 
     > [!NOTE]
-    > The due date is calculated according to the date formula that you enter. For more information, see [Use Date Formulas](ui-enter-date-ranges.md#using-date-formulas).
+    > The due date is calculated according to the date formula that you enter. For more information, see [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas).
 
 After you have set up the reminder terms, with additional levels and text, enter one of the codes on each of the customer cards. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
 

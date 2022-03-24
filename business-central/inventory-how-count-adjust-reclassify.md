@@ -171,7 +171,7 @@ You can also use the **Adjust Inventory** function as a simple way to place purc
 ### To adjust the inventory quantity of multiple items in basic warehouse configurations
 On the **Item Journal** page, you can post item transaction directly to adjust inventory in connection with purchases, sales, and positive or negative adjustments without using documents.
 
-If you often use the item journal to post the same or similar journal lines, for example, in connection with material consumption, you can use the **Standard Item Journal** page to make this recurring work easier. For more information, see [Work with Standard Journals](ui-work-general-journals.md#working-with-standard-journals).
+If you often use the item journal to post the same or similar journal lines, for example, in connection with material consumption, you can use the **Standard Item Journal** page to make this recurring work easier. For more information, see [Work with Standard Journals](ui-work-general-journals.md#work-with-standard-journals).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

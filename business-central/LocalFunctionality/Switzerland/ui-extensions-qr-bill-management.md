@@ -16,7 +16,7 @@ ms.author: soalex
 
 Since July 1, 2020, companies in Switzerland must be able to receive QR-bills. QR-bills are payment slips that follow invoices, and are a country-wide initiative to streamline payment processes. QR-bills replace all existing payment slips and ESR-related functionality. They contain all of the information needed to make payments, and a QR code on the payment slip makes it easy to import the information into [!INCLUDE[prod_short](../../includes/prod_short.md)]. All relevant information is imported and used to generate payments for the vendor who sent the QR-bill, including the payment reference, which automatically gets included in Vendor Ledger Entries and exported in payment files to the bank.
 
-## Get started with the QR-Bill Management extension
+## <a name="get-started"></a>Get started with the QR-Bill Management extension
 
 The QR-Bill Management extension is included and automatically installed in [!INCLUDE[prod_short](../../includes/prod_short.md)]. To get started with the extension, you must make a few configuration changes in [!INCLUDE[prod_short](../../includes/prod_short.md)]. An easy way to that is to use the Set Up QR-Bill assisted setup guide. The guide will help you enter information, such as:
 
@@ -46,7 +46,7 @@ If your customer is also using [!INCLUDE[prod_short](../../includes/prod_short.m
 
 For ESR references, you could configure information, for example, so that they contain the customer number and invoice number. You cannot configure the payment reference in QR-bills. There will always be a 1:1 relation between an issued QR-bill and a payment, which makes reconciliation easy and eliminates the need to configure the payment reference on QR-bills. Instead, [!INCLUDE[prod_short](../../includes/prod_short.md)] uses a unique counter for the payment reference. Additionally, logic is in place to block import or scan of the same payment reference twice.  
 
-### Formats for QR references and creditor references
+### <a name"formats"></a>Formats for QR references and creditor references
 
 The QR reference consists of 26 numerical positions plus a check digit.  
 

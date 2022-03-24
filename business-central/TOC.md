@@ -109,16 +109,16 @@
 ## Setting Up Business Central
 ### [Overview of Tasks](setup.md)
 ### Setting Up Finance
-#### [Setting Up Finance](finance-setup-finance.md)
+#### [Set Up Finance](finance-setup-finance.md)
 #### [Set Up Payment Methods](finance-payment-methods.md)
 #### [Set Up Payment Terms](finance-payment-terms.md)
-#### [Setting Up Posting Groups](finance-posting-groups.md)
+#### [Set Up Posting Groups](finance-posting-groups.md)
+#### [Set Up Value-Added Tax (VAT)](finance-setup-vat.md)
 #### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 #### [Set Up Reminder Terms and Levels](finance-setup-reminders.md)
 #### [Set Up Finance Charge Terms](finance-setup-finance-charges.md)
-#### [Set Up Calculations and Posting Methods for Value-Added Tax (VAT)](finance-setup-vat.md)
 #### [Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)
 #### [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md)
 #### [Set Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)
@@ -151,13 +151,13 @@
 #### [Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)
 #### [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)
 ### Setting Up Purchasing
-#### [Setting Up Purchasing](purchasing-setup-purchasing.md)
+#### [Set Up Purchasing](purchasing-setup-purchasing.md)
 #### [Register New Vendors](purchasing-how-register-new-vendors.md)
 #### [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Prioritize Vendors](purchasing-how-prioritize-vendors.md)
 #### [Set Up Purchasers](purchasing-how-setup-purchasers.md)
 ### Setting Up Inventory
-#### [Setting Up Inventory](inventory-setup-inventory.md)
+#### [Set Up Inventory](inventory-setup-inventory.md)
 #### [Set Up General Inventory Information](inventory-how-setup-general.md)
 #### [Work with Responsibility Centers](inventory-responsibility-centers.md)
 #### [Set Up Locations](inventory-how-setup-locations.md)
@@ -169,12 +169,12 @@
 #### [Categorize Items](inventory-how-categorize-items.md)
 #### [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)
 ### Setting Up Project Management
-#### [Setting Up Projects](projects-setup-projects.md)
+#### [Set Up Projects](projects-setup-projects.md)
 #### [Set Up Resources](projects-how-setup-resources.md)
 #### [Set Up Time Sheets](projects-how-setup-time-sheets.md)
 #### [Set Up Jobs](projects-how-setup-jobs.md)
 ### Setting Up Fixed Assets
-#### [Setting Up Fixed Assets](fa-setup.md)
+#### [Set Up Fixed Assets](fa-setup.md)
 #### [Set Up General Fixed Assets Information](fa-how-setup-general.md)
 #### [Set Up Fixed Asset Depreciation](fa-how-setup-depreciation.md)
 #### [Define Depreciation Methods](fa-depreciation-methods.md)
@@ -182,7 +182,7 @@
 #### [Set Up Fixed Asset Insurance](fa-how-setup-insurance.md)
 #### [Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
 ### Setting Up Warehouse Management
-#### [Setting Up Warehouses](warehouse-setup-warehouse.md)
+#### [Set Up Warehouses](warehouse-setup-warehouse.md)
 #### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)
 #### [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md)
 #### [Create Bins](warehouse-how-to-create-individual-bins.md)
@@ -199,7 +199,7 @@
 #### [Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 #### [Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)
 ### Setting Up Manufacturing
-#### [Setting Up Manufacturing](production-configure-production-processes.md)
+#### [Set Up Manufacturing](production-configure-production-processes.md)
 #### [Create Work Center Calendars](production-how-to-create-work-center-calendars.md)
 #### [Set Up Work Centers and Machine Centers](production-how-to-set-up-work-and-machine-centers.md)
 #### [Create Routings](production-how-to-create-routings.md)
@@ -211,7 +211,7 @@
 #### [Set Up Standard Routing Lines](production-how-set-up-standard-routing-lines.md)
 #### [Subcontract Manufacturing](production-how-to-subcontract-manufacturing.md)
 ### Setting Up Service Management
-#### [Setting Up Service Management](service-setup-service.md)
+#### [Set Up Service Management](service-setup-service.md)
 #### [Create Service Items](service-how-to-create-service-items.md)
 #### [Set Up Standard Service Codes](service-how-setup-service-coding.md)
 #### [Configure Service Processes](service-setup-service-processes.md)
@@ -366,21 +366,31 @@
 ### [Bookmark a Page or Report on Your Role Center](ui-bookmarks.md)
 ### [Displaying Lists in Different Ways](across-display-lists-different-views.md)
 ## Printing Reports and Running Batch Jobs and XMLports
-### [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)
+### [Run and Print Reports](ui-work-report.md)
 ### [Set Up Printers](ui-specify-printer-selection-reports.md)
 ### [Schedule a Report to Run](ui-work-report.md#ScheduleReport)
 ### [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md)
 ### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
 ### [Run Batch Jobs and XML ports](ui-how-run-batch-jobs.md)
 ## Changing the Look of Externally-Facing Documents
-### [Managing Report and Document Layouts](ui-manage-report-layouts.md)
-### [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)
-### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
-### [Import and Export Custom Report Layouts](ui-how-import-and-export-report-layout.md)
-### [Update Custom Report Layouts](ui-update-report-layouts.md)
+### [About Report and Document Layouts](ui-manage-report-layouts.md)
+### [Get Started Creating Layouts](ui-get-started-layouts.md)
+### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
+### [Work with Excel Layouts](ui-excel-report-layouts.md)
+### [Work with RDLC Layouts](ui-rdlc-report-layouts.md)
+### [Set the Layout Used by a Report](ui-set-report-layout.md)
 ### [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)
-### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
 ### [Available Fonts](ui-fonts.md)
+### Using Legacy Features
+#### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
+#### [Import and Export Custom Report Layouts](ui-how-import-and-export-report-layout.md)
+#### [Update Custom Report Layouts](ui-update-report-layouts.md)
+#### [Set the Layout Used by a Report](ui-how-change-layout-currently-used-report.md)
+## Sharing Business Data
+### [Overview](across-share-data-features.md)
+### [Sharing Records and Page Links in Teams](across-working-with-teams.md)
+### [Sharing Files in OneDrive](across-share-onedrive.md)
+### [Viewing and Editing in Excel](across-work-with-excel.md)
 ## Accessibility, Keyboard Shortcuts, and Touch Gestures
 ### [Accessibility](ui-accessibility.md)
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)
@@ -427,7 +437,8 @@
 ##### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
 ##### [Workflow Notifications](across-setting-up-workflow-notifications.md)
 ##### [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
-##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
+##### [Create and Modify Layouts](ui-get-started-layouts.md)
+<!--##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)-->
 ##### [Set up Email](admin-how-setup-email.md)
 ##### [Create Workflows](across-how-to-create-workflows.md)
 ##### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
@@ -539,7 +550,7 @@
 #### [Cost Accounting Overview](finance-manage-cost-accounting.md)
 #### [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)
 #### [About Cost Accounting](finance-about-cost-accounting.md)
-#### [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)
+#### [Set Up] Cost Accounting](finance-set-up-cost-accounting.md)
 #### [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)
 #### [Defining and Allocating Costs](finance-define-and-allocate-costs.md)
 #### [Creating Cost Budgets](finance-create-cost-budgets.md)
@@ -552,7 +563,7 @@
 #### [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
 #### [Design Details: Inventory Costing](design-details-inventory-costing.md)
 #### [Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)
-#### [Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)
+#### [Set Up] Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)
 #### [Revalue Inventory](inventory-how-revalue-inventory.md)
 #### [Adjust Item Costs](inventory-how-adjust-item-costs.md)
 #### [Handle Inventory and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)
@@ -712,7 +723,7 @@
 
 ## Relationship Management
 ### [Relationship Management Overview](marketing-relationship-management.md)
-### [Setting Up Relationship Management](marketing-setup-marketing.md)
+### [Set Up] Relationship Management](marketing-setup-marketing.md)
 ### Managing Contacts
 #### [Contacts](marketing-contacts.md)
 #### [Set Up Contacts](marketing-setup-contacts.md)
@@ -1115,7 +1126,7 @@
 
 ### India
 #### [Overview](LocalFunctionality/India/india-local-functionality.md)
-#### [Setting Up Posting Number Series](LocalFunctionality/India/posting-no-series-setup.md)
+#### [Set Up] Posting Number Series](LocalFunctionality/India/posting-no-series-setup.md)
 #### Tax Engine
 ##### [Overview](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Tax Engine Import Export configuration](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1541,17 +1552,17 @@
 ##### [VAT Rates for Switzerland](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 #### Banking & Payments
 ##### [QR-Bill Management](LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
+##### [Swiss Electronic Payments](LocalFunctionality/Switzerland/swiss-electronic-payments.md)
+##### [Swiss Electronic Payments Using ESR](LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr.md)
+##### [Swiss Electronic Payments Using LSV](LocalFunctionality/Switzerland/swiss-electronic-payments-using-lsv-.md)
+##### [Process an LSV Collection](LocalFunctionality/Switzerland/how-to-process-an-lsv-collection.md)
+##### [Post LSV Payments](LocalFunctionality/Switzerland/how-to-post-lsv-payments.md)
 ##### [Close an LSV Collection](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 ##### [Export Payments Using LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 ##### [Import ESR Payments](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)
 ##### [Print ESR Invoices](LocalFunctionality/Switzerland/how-to-print-esr-invoices.md)
 ##### [Import Swiss Bank Clearing Numbers](LocalFunctionality/Switzerland/how-to-import-swiss-bank-clearing-numbers.md)
-##### [Post LSV Payments](LocalFunctionality/Switzerland/how-to-post-lsv-payments.md)
 ##### [Print Vendor Payments List Reports](LocalFunctionality/Switzerland/how-to-print-vendor-payments-list-reports.md)
-##### [Process an LSV Collection](LocalFunctionality/Switzerland/how-to-process-an-lsv-collection.md)
-##### [Swiss Electronic Payments](LocalFunctionality/Switzerland/swiss-electronic-payments.md)
-##### [Swiss Electronic Payments Using ESR](LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr.md)
-##### [Swiss Electronic Payments Using LSV](LocalFunctionality/Switzerland/swiss-electronic-payments-using-lsv-.md)
 #### Core Finance
 ##### [Swiss General Ledger Accounts](LocalFunctionality/Switzerland/swiss-general-ledger-accounts.md)
 ##### [Balance](LocalFunctionality/Switzerland/balance.md)
@@ -1624,7 +1635,8 @@
 ### [Printing Reports](ui-specify-printer-selection-reports.md#default)
 ### [Scheduling Reports](ui-work-report.md#ScheduleReport)
 ### [Managing Saved Report Settings](reports-saving-reusing-settings.md)
-### [Changing the default Report Layout](ui-how-change-layout-currently-used-report.md)
+### [Set the Layout Used by a Report](ui-set-report-layout.md)
+### [(Legacy) Set the Layout Used by a Report](ui-how-change-layout-currently-used-report.md)
 
 ## Built-in Reports
 ### [Report Overview](reports-available-reports.md)
@@ -1675,21 +1687,21 @@
 ### Manufacturing
 #### [Production Reports](production-reports.md)
 #### [Viewing Load on Work and Machine Centers](production-how-to-view-the-load-on-work-centers.md)
-#### [Viewing work center ledger entries](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+#### [Viewing Work Center Ledger Entries](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
 
 ### Service Management
 #### [Viewing Service Statistics](service-service-statistics.md)
-#### [Service orders overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Service quotes overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Posted service document overview](service-service-posting.md#to-view-information-about-a-posted-service-document)
+#### [Service Orders Overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Service Quotes Overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Posted Service Document Overview](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
 ## Ad-hoc Data Analysis
 ### [Overview](reports-adhoc-analysis.md)
 ### [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
 ### [Searching and Filtering FAQ](ui-search-filter-faq.yml)
-### [Analyzing page data in Excel](across-work-with-excel.md)
-### [Analyzing report data with Excel](ui-work-report.md#saving-a-report-to-a-file)
-### [Financial analytics](bi.md)
+### [Analyzing Page Data in Excel](across-work-with-excel.md)
+### [Analyzing Report Data with Excel](report-analyze-excel.md)
+### [Financial Analytics](bi.md)
 
 ## Built-in Analytics 
 ### [Overview](reports-built-in-analytics.md)
@@ -1698,7 +1710,7 @@
 ### [Financial analytics](bi.md)
 ### [Analyze Financial Statements With Excel](finance-analyze-excel.md)
 ### [Consolidate Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
-### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+### [Report Usage Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 
 
 ## Analyze Data in Business Intelligence Tools
@@ -1712,12 +1724,16 @@
 ### [Overview](reports-develop-reports.md)
 ### Developing report layouts
 #### [Layout types (Word and RDLC)](ui-manage-report-layouts.md)
-#### [Create a new Layout](ui-how-create-custom-report-layout.md)
-#### [Using fonts in Layouts](ui-fonts.md)  
+#### [Create and Modify Layouts](ui-get-started-layouts.md)
+<!--#### [Create a New Layout](ui-how-create-custom-report-layout.md)-->
 #### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
-#### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
-#### [Update a Layout](ui-update-report-layouts.md)
-#### [Change the default Layout](ui-how-change-layout-currently-used-report.md)
+#### [Work with Excel Layouts](ui-excel-report-layouts.md)
+#### [Work with RDLC Layouts](ui-rdlc-report-layouts.md)
+#### [Using Fonts in Layouts](ui-fonts.md)  
+<!--#### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
+#### [Update a Layout](ui-update-report-layouts.md)-->
+#### [Set the Default Layout](ui-set-report-layout.md)
+<!--#### [Set the Layout (legacy)](ui-how-change-layout-currently-used-report.md)-->
 ### Developing report datasets
 #### [Report Development Guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Report Performance Tuning Guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
@@ -1799,7 +1815,7 @@
 ## Integrating with Microsoft Dataverse
 ### [Integrate with Microsoft Dataverse](admin-common-data-service.md)
 ### [Data Ownership Models](admin-cds-company-concept.md)
-### [Setting Up User Accounts for Integrating with Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
+### [Set Up] User Accounts for Integrating with Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Connect to Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synchronizing Business Central and Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)

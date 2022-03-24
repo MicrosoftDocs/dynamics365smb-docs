@@ -6,39 +6,63 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
-ms.date: 10/26/2021
+ms.date: 03/21/2022
 ---
 
 # Resources for Help and Support
 
-In [!INCLUDE[prod_long](includes/prod_long.md)], the Help menu item (the question mark in the top-right corner) gives you access to a help pane that can help you find answers to your questions.  
+Tips and guidance for how to use [!INCLUDE[prod_long](includes/prod_long.md)], how to get unblocked, where to learn more, and how to find technical information is all available from inside [!INCLUDE [prod_short](includes/prod_short.md)]. This article describes how to find what.  
 
-## Search in the help pane
+## In-product tips
+
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] These links can also access content that is published to other websites, such as the websites of providers of any apps that are installed in your [!INCLUDE [prod_short](includes/prod_short.md)].  
+
+## Help pane
+
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+
+In [!INCLUDE [prod_short](includes/prod_short.md)], the Help menu item (the question mark in the top-right corner) gives you access to a Help pane that can help you find answers to your questions. The Help pane has different content, depending on how you access it. The following list describes the cards that are always, or nearly always, present:  
+
+[!INCLUDE [ua-help-pane-links-default](includes/ua-help-pane-links-default.md)]
+
+The following list describes how you can access the Help pane and whether cards are added to it:
+
+- Choose the *Learn more* link on a tooltip for a field
+
+  The following card is added to the Help pane:
+
+  - The field's tooltip
+- Choose the *Learn more* link on a tooltip for an action
+- Choose the Help menu item (the question mark in the top-right corner)
+- Use the Ctrl+F1 keyboard shortcut from anywhere
+
+> [!TIP]
+> When you choose a link, the target article opens in a new browser tab. You can choose to un-dock the browser tab, then, so that you can view the relevant information side-by-side with [!INCLUDE [prod_short](includes/prod_short.md)]. The pane remains open while you navigate through [!INCLUDE [prod_short](includes/prod_short.md)] so that content you searched for remains visible.  
+
+## Search in the Help pane
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
-2021 release wave 2 includes a new help pane that has a search tab. Use the search field to search for guidance about how to use the product, built-in capabilities, and available training modules. Depending on your search terms, the pane shows five or more links with a short description. Choose a link, or refine your search terms. When you choose a link, the target article opens in a new browser tab. You can choose to un-dock the browser tab, then, so that you can view the relevant information side-by-side with [!INCLUDE [prod_short](includes/prod_short.md)]. The pane remains open while you navigate through [!INCLUDE [prod_short](includes/prod_short.md)] so that content you searched for remains visible.  
+Use the search field at the top of the Help pane to search for guidance about how to use the product, built-in capabilities, and available training modules. Depending on your search terms, the pane shows five or more links with a short description. Choose a link, or refine your search terms. When you choose a link, the target article opens in a new browser tab. You can choose to un-dock the browser tab, then, so that you can view the relevant information side-by-side with [!INCLUDE [prod_short](includes/prod_short.md)]. The pane remains open while you navigate through [!INCLUDE [prod_short](includes/prod_short.md)] so that content you searched for remains visible.  
 
 > [!NOTE]
-> In the current version of [!INCLUDE [prod_short](includes/prod_short.md)], the search field in the help pane only applies to content that is published to the docs.microsoft.com site.
-
-[!INCLUDE [ua-get-help](includes/ua-get-help.md)] These links can also access content that is published to other websites, such as the websites of providers of any apps that mare installed in your [!INCLUDE [prod_short](includes/prod_short.md)].  
+> In the current version of [!INCLUDE [prod_short](includes/prod_short.md)], the search field in the Help pane only applies to content that is published to the [Docs.microsoft.com](/dynamics365/business-central) site.
 
 ## Help & Support page
 
-From the help pane, you can access the **Help & Support** page inside [!INCLUDE [prod_short](includes/prod_short.md)] that includes helpful links. You can also see how you can contact technical support for your [!INCLUDE[prod_short](includes/prod_short.md)].  
+From the Help pane, you can access the **Help & Support** page inside [!INCLUDE [prod_short](includes/prod_short.md)] that includes helpful links. You can also see how you can contact technical support for your [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 This section outlines the resources available to you in the different sections of the **Help and Support** page as outlined in the following list:
 
-- [Find Answers](#find-answers)  
-- [Product Help](#product-help)  
+- [Find answers](#find-answers)  
+- [Help](#product-help)  
 - [Community](#community)  
 - [Blog](#blog)  
-- [Capabilities Coming Soon](#capabilities-coming-soon)  
-- [Do More with Your Trial](#do-more-with-your-trial)  
-- [Give Feedback](#give-feedback)  
+- [Capabilities coming soon](#capabilities-coming-soon)  
+- [Do more with your trial](#do-more-with-your-trial)  
+- [Give feedback](#give-feedback)  
 - [Troubleshooting](#troubleshooting)  
-- [Report a Problem](#report-a-problem)  
+- [Report a problem](#report-a-problem)  
 - [Support contacts](#support-contacts)  
 
 > [!TIP]
@@ -55,6 +79,7 @@ The **Find it** section includes two links to product Help:
 - Help about the page you were just viewing in [!INCLUDE[prod_short](includes/prod_short.md)]  
 
   This link is automatically generated. If [!INCLUDE[prod_short](includes/prod_short.md)] can't find the relevant link, the landing page on [Docs.microsoft.com](index.md) for the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is shown. For example, if the page was part of an app that didn't add context-sensitive Help mapping to [!INCLUDE[prod_short](includes/prod_short.md)], the *Learn link* defaults to the landing page.  
+  
 - Help landing page for [!INCLUDE[prod_short](includes/prod_short.md)]  
 
   The functionality in the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is described on the [Docs.microsoft.com](/dynamics365/business-central) site. For more information, see the [Using the docs.microsoft.com site to learn more](#use-the-docsmicrosoftcom-site-to-learn-more) section. You can also extend and customize [!INCLUDE[prod_short](includes/prod_short.md)] with apps from AppSource. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -69,20 +94,20 @@ If you don't yet have a partner, the Community can also help you get unblocked i
 
 We talk about new capabilities on [the Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), including if there are special considerations.  
 
-#### Capabilities Coming Soon
+#### Capabilities coming soon
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is updated with major feature updates every six months, and with monthly service updates. Choose the link to view the latest release plan. You can also get an overview of upcoming and recently released capabilities in [the release plans across Dynamics 365](/dynamics365/release-plans/).  
 
 For the longer term overview, the [!INCLUDE[prod_short](includes/prod_short.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) shows the general priorities for [!INCLUDE[prod_short](includes/prod_short.md)] in the coming years.  
 
-### Do More with Your Trial
+### Do more with your trial
 
 This section gives you shortcuts to Microsoft AppSource where you can find solutions and services from [!INCLUDE[prod_short](includes/prod_short.md)] partners. Use the links to explore the full capabilities of [!INCLUDE[prod_short](includes/prod_short.md)] before you decide if you want to buy a subscription. You can also find a link to contact the sales team.
 
 > [!NOTE]
 > This section is only available in [!INCLUDE[prod_short](includes/prod_short.md)] online trial experiences. If you already bought [!INCLUDE[prod_short](includes/prod_short.md)], the section isn't longer visible.
 
-### Give Feedback
+### Give feedback
 
 On the [Dynamics 365 Ideas site](https://aka.ms/bcideas), you can provide suggestions for new feature and capabilities. Your input goes directly to Business Central's engineering backlog for investigation and prioritization.  
 
@@ -101,7 +126,7 @@ As the internal administrator, you have access to the admin center where you can
 - [Monitoring and analyzing telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
 - [Enable sending telemetry to Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
-### Report a Problem
+### Report a problem
 
 Your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner will help you with technical support. This section makes it easy for you to contact your reselling partner, if they've submitted their support contact details. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then can't resolve the problem, they'll raise a support ticket with Microsoft.  
 
@@ -150,7 +175,7 @@ The table of contents includes a group of content that describes [local function
 The local functionality content describes the capabilities in [!INCLUDE [prod_short](includes/prod_short.md)] that can help you be compliant in the supported markets, such as tax statements and other reports. In some cases, the difference between the default version and the country-specific version is invisible to users. In other cases, users must set up reporting or electronic invoicing in a specific way. If you can't find a description of a certain button or action in the general section, you can hopefully find it in the *Local Functionality* section.  
 
 > [!TIP]
-> On the docs.microsoft.com site as well as in the in-product search field and in the help pane, the search results show some context for the target article. The context includes the link that might show the name of a country, or a short description that calls out a certain capability or a country, for example.
+> On the docs.microsoft.com site as well as in the in-product search field and in the Help pane, the search results show some context for the target article. The context includes the link that might show the name of a country, or a short description that calls out a certain capability or a country, for example.
 
 ### Finding other content
 

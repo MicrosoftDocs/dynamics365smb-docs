@@ -1,5 +1,5 @@
 ---
-    title: How to Print VAT Reports [GB]
+    title: Print VAT Reports [GB]
     description: This topic explains the different reports that you can use to report VAT information and how to print each one.
     author: SorenGP
 

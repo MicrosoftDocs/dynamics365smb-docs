@@ -8,26 +8,26 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/29/2021
+ms.date: 01/28/2022
 ms.author: edupont
 
 ---
 # Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Highly adaptable and rich with features, [!INCLUDE[prod_short](includes/prod_short.md)] enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more. Companies can easily add functionality that is relevant to the region of operation, and that is customized to support even highly specialized industries.  
+[!INCLUDE[prod_short](includes/prod_short.md)] is a business management solution for small and mid-sized organizations that automates and streamlines business processes and helps you manage your business. Highly adaptable and rich with features, [!INCLUDE[prod_short](includes/prod_short.md)] enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more. Companies can easily add functionality that is relevant to the region of operation, and that is customized to support even highly specialized industries. [!INCLUDE[prod_short](includes/prod_short.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability.  
 
-[Learn how to get a free trial here](trial-signup.md).  
-
-If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Otherwise, [get the overview](https://dynamics.microsoft.com/business-central/overview/),  [take the guided tour](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), and then [start a free trial](https://go.microsoft.com/fwlink/?linkid=847861). Check out the [quick start articles](quick-start-business-central.md) to help you get to know [!INCLUDE [prod_short](includes/prod_short.md)]. For more information about onboarding to [!INCLUDE[prod_short](includes/prod_short.md)], see [Getting Ready for Doing Business](ui-get-ready-business.md).  
+If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Otherwise, [get the overview](https://dynamics.microsoft.com/business-central/overview/), [take the guided tour](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), and then [learn how to start a free trial](trial-signup.md). Check out the [quick start articles](quick-start-business-central.md) to help you get to know [!INCLUDE [prod_short](includes/prod_short.md)]. For more information about onboarding to [!INCLUDE[prod_short](includes/prod_short.md)], see [Get Ready for Doing Business](ui-get-ready-business.md).  
 
 > [!TIP]
 > Did you land here from inside [!INCLUDE [prod_short](includes/prod_short.md)]? If you are not sure where to find what you are looking for, you can **filter by titles** in the navigation pane to the left, or you can use the **Search** field at the top of the browser window.  
 >
 > You can also use the search capabilities in [!INCLUDE [prod_short](includes/prod_short.md)] to find relevant documentation. For more information, see [Finding Pages and Information with Tell Me](ui-search.md).
 
-## Overview
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability. In the navigation panel to the left, you can find information about using [!INCLUDE[prod_short](includes/prod_short.md)] in your company. Find links to descriptions of the most commonly used capabilities in the [Business Processes](#business-processes) section.  
+## Microsoft Docs
+
+In the navigation panel to the left, you can find information about using [!INCLUDE[prod_short](includes/prod_short.md)] in your company. Find links to descriptions of the most commonly used capabilities in the [Business Processes](#business-processes) section. See also the [Use the docs.microsoft.com site to learn more](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more) section.  
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
@@ -103,6 +103,7 @@ You can also view videos of new and commonly used capabilities in our video libr
 [Getting [!INCLUDE[prod_short](includes/prod_short.md)] on Your Mobile Device](install-mobile-app.md)  
 [Working with Dimensions](finance-dimensions.md)  
 [Resources for Help and Support](product-help-and-support.md)  
+[Use the docs.microsoft.com site to learn more](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Compliance](compliance/compliance-overview.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Online Service Terms](compliance/compliance-service-compliance.md#service-terms)  
 [Major Updates and Minor Updates of Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  

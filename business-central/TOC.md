@@ -366,21 +366,31 @@
 ### [Bookmark a Page or Report on Your Role Center](ui-bookmarks.md)
 ### [Displaying Lists in Different Ways](across-display-lists-different-views.md)
 ## Printing Reports and Running Batch Jobs and XMLports
-### [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)
+### [Run and Print Reports](ui-work-report.md)
 ### [Set Up Printers](ui-specify-printer-selection-reports.md)
 ### [Schedule a Report to Run](ui-work-report.md#ScheduleReport)
 ### [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md)
 ### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
 ### [Run Batch Jobs and XML ports](ui-how-run-batch-jobs.md)
 ## Changing the Look of Externally-Facing Documents
-### [Managing Report and Document Layouts](ui-manage-report-layouts.md)
-### [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)
-### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
-### [Import and Export Custom Report Layouts](ui-how-import-and-export-report-layout.md)
-### [Update Custom Report Layouts](ui-update-report-layouts.md)
+### [About Report and Document Layouts](ui-manage-report-layouts.md)
+### [Get Started Creating Layouts](ui-get-started-layouts.md)
+### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
+### [Work with Excel Layouts](ui-excel-report-layouts.md)
+### [Work with RDLC Layouts](ui-rdlc-report-layouts.md)
+### [Set the Layout Used by a Report](ui-set-report-layout.md)
 ### [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)
-### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
 ### [Available Fonts](ui-fonts.md)
+### Using Legacy Features
+#### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
+#### [Import and Export Custom Report Layouts](ui-how-import-and-export-report-layout.md)
+#### [Update Custom Report Layouts](ui-update-report-layouts.md)
+#### [Set the Layout Used by a Report](ui-how-change-layout-currently-used-report.md)
+## Sharing Business Data
+### [Overview](across-share-data-features.md)
+### [Sharing Records and Page Links in Teams](across-working-with-teams.md)
+### [Sharing Files in OneDrive](across-share-onedrive.md)
+### [Viewing and Editing in Excel](across-work-with-excel.md)
 ## Accessibility, Keyboard Shortcuts, and Touch Gestures
 ### [Accessibility](ui-accessibility.md)
 ### [Keyboard Shortcuts](keyboard-shortcuts.md)
@@ -427,7 +437,8 @@
 ##### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
 ##### [Workflow Notifications](across-setting-up-workflow-notifications.md)
 ##### [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
-##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
+##### [Create and Modify Layouts](ui-get-started-layouts.md)
+<!--##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)-->
 ##### [Set up Email](admin-how-setup-email.md)
 ##### [Create Workflows](across-how-to-create-workflows.md)
 ##### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
@@ -1541,17 +1552,17 @@
 ##### [VAT Rates for Switzerland](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 #### Banking & Payments
 ##### [QR-Bill Management](LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
+##### [Swiss Electronic Payments](LocalFunctionality/Switzerland/swiss-electronic-payments.md)
+##### [Swiss Electronic Payments Using ESR](LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr.md)
+##### [Swiss Electronic Payments Using LSV](LocalFunctionality/Switzerland/swiss-electronic-payments-using-lsv-.md)
+##### [Process an LSV Collection](LocalFunctionality/Switzerland/how-to-process-an-lsv-collection.md)
+##### [Post LSV Payments](LocalFunctionality/Switzerland/how-to-post-lsv-payments.md)
 ##### [Close an LSV Collection](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 ##### [Export Payments Using LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 ##### [Import ESR Payments](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)
 ##### [Print ESR Invoices](LocalFunctionality/Switzerland/how-to-print-esr-invoices.md)
 ##### [Import Swiss Bank Clearing Numbers](LocalFunctionality/Switzerland/how-to-import-swiss-bank-clearing-numbers.md)
-##### [Post LSV Payments](LocalFunctionality/Switzerland/how-to-post-lsv-payments.md)
 ##### [Print Vendor Payments List Reports](LocalFunctionality/Switzerland/how-to-print-vendor-payments-list-reports.md)
-##### [Process an LSV Collection](LocalFunctionality/Switzerland/how-to-process-an-lsv-collection.md)
-##### [Swiss Electronic Payments](LocalFunctionality/Switzerland/swiss-electronic-payments.md)
-##### [Swiss Electronic Payments Using ESR](LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr.md)
-##### [Swiss Electronic Payments Using LSV](LocalFunctionality/Switzerland/swiss-electronic-payments-using-lsv-.md)
 #### Core Finance
 ##### [Swiss General Ledger Accounts](LocalFunctionality/Switzerland/swiss-general-ledger-accounts.md)
 ##### [Balance](LocalFunctionality/Switzerland/balance.md)
@@ -1624,7 +1635,8 @@
 ### [Printing Reports](ui-specify-printer-selection-reports.md#default)
 ### [Scheduling Reports](ui-work-report.md#ScheduleReport)
 ### [Managing Saved Report Settings](reports-saving-reusing-settings.md)
-### [Changing the default Report Layout](ui-how-change-layout-currently-used-report.md)
+### [Set the Layout Used by a Report](ui-set-report-layout.md)
+### [(Legacy) Set the Layout Used by a Report](ui-how-change-layout-currently-used-report.md)
 
 ## Built-in Reports
 ### [Report Overview](reports-available-reports.md)
@@ -1675,21 +1687,21 @@
 ### Manufacturing
 #### [Production Reports](production-reports.md)
 #### [Viewing Load on Work and Machine Centers](production-how-to-view-the-load-on-work-centers.md)
-#### [Viewing work center ledger entries](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+#### [Viewing Work Center Ledger Entries](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
 
 ### Service Management
 #### [Viewing Service Statistics](service-service-statistics.md)
-#### [Service orders overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Service quotes overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Posted service document overview](service-service-posting.md#to-view-information-about-a-posted-service-document)
+#### [Service Orders Overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Service Quotes Overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Posted Service Document Overview](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
 ## Ad-hoc Data Analysis
 ### [Overview](reports-adhoc-analysis.md)
 ### [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)
 ### [Searching and Filtering FAQ](ui-search-filter-faq.yml)
-### [Analyzing page data in Excel](across-work-with-excel.md)
-### [Analyzing report data with Excel](ui-work-report.md#saving-a-report-to-a-file)
-### [Financial analytics](bi.md)
+### [Analyzing Page Data in Excel](across-work-with-excel.md)
+### [Analyzing Report Data with Excel](report-analyze-excel.md)
+### [Financial Analytics](bi.md)
 
 ## Built-in Analytics 
 ### [Overview](reports-built-in-analytics.md)
@@ -1698,7 +1710,7 @@
 ### [Financial analytics](bi.md)
 ### [Analyze Financial Statements With Excel](finance-analyze-excel.md)
 ### [Consolidate Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
-### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+### [Report Usage Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 
 
 ## Analyze Data in Business Intelligence Tools
@@ -1712,12 +1724,16 @@
 ### [Overview](reports-develop-reports.md)
 ### Developing report layouts
 #### [Layout types (Word and RDLC)](ui-manage-report-layouts.md)
-#### [Create a new Layout](ui-how-create-custom-report-layout.md)
-#### [Using fonts in Layouts](ui-fonts.md)  
+#### [Create and Modify Layouts](ui-get-started-layouts.md)
+<!--#### [Create a New Layout](ui-how-create-custom-report-layout.md)-->
 #### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
-#### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
-#### [Update a Layout](ui-update-report-layouts.md)
-#### [Change the default Layout](ui-how-change-layout-currently-used-report.md)
+#### [Work with Excel Layouts](ui-excel-report-layouts.md)
+#### [Work with RDLC Layouts](ui-rdlc-report-layouts.md)
+#### [Using Fonts in Layouts](ui-fonts.md)  
+<!--#### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
+#### [Update a Layout](ui-update-report-layouts.md)-->
+#### [Set the Default Layout](ui-set-report-layout.md)
+<!--#### [Set the Layout (legacy)](ui-how-change-layout-currently-used-report.md)-->
 ### Developing report datasets
 #### [Report Development Guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Report Performance Tuning Guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)

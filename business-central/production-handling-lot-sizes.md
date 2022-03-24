@@ -1,7 +1,7 @@
 ---
     title: Handling Lot Sizes
     description: This topic describes different ways to handle lot sizes. 
-    author: bholtorf
+    author: brentholtorf
 
     
     ms.topic: conceptual

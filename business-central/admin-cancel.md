@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/01/2021
+ms.date: 02/23/2022
 ms.author: edupont
 
 ---
@@ -23,7 +23,7 @@ If you signed up for the free trial and do not want to continue with [!INCLUDE[p
 
 You must ask your Microsoft 365 administrator to remove the trial subscription from your company's account in the [Microsoft 365 admin center](https://admin.microsoft.com/).  
 
-If you signed up for [!INCLUDE[prod_short](includes/prod_short.md)] using a non-Microsoft 365 business account, you do not have a Microsoft 365 administrator. Instead, you must unsubscribe by contacting the [!INCLUDE[prod_short](includes/prod_short.md)] Cancelation team by sending an email message at [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). You must include the name of your [!INCLUDE[prod_short](includes/prod_short.md)] tenant in the message so that we can identify you. You can find this information in the **Help and Support** page. For more information, see [Resources for Help and Support](product-help-and-support.md).  
+If you signed up for [!INCLUDE[prod_short](includes/prod_short.md)] using a non-Microsoft 365 business account, you do not have a Microsoft 365 administrator. Instead, you must unsubscribe by contacting the [!INCLUDE[prod_short](includes/prod_short.md)] Cancellation team by sending an email message at [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). You must include the name of your [!INCLUDE[prod_short](includes/prod_short.md)] tenant in the message so that we can identify you. You can find this information in the **Help and Support** page. For more information, see [Resources for Help and Support](product-help-and-support.md).  
 
 ## Unsubscribing by removing [!INCLUDE[prod_short](includes/prod_short.md)] from your Microsoft 365 experience
 

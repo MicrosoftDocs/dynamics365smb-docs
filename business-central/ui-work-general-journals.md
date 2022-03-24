@@ -1,7 +1,7 @@
 ---
 title: Working with General Journals to Post Directly to G/L
 description: Learn about using journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts. Use recurring journals to post accruals and allocate balances by dimension values.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

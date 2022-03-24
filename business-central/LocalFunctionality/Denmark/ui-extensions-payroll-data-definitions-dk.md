@@ -1,7 +1,7 @@
 ---
     title: Payroll Data Definitions [DK]
     description: This topic explains how the payroll data definitions extension makes it easy to exchange data with payroll service providers in Denmark.
-    author: bholtorf
+    author: brentholtorf
 
     
     ms.topic: conceptual

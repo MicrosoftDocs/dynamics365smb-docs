@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 610
+ms.search.form: 600, 610
 ms.date: 06/16/2021
 ms.author: edupont
 

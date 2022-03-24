@@ -1,7 +1,7 @@
 ---
 title: Transfer Data from a QuickBooks App
 description: You can migrate data such as customers, vendors, inventory items, and G/L accounts from QuickBooks apps to Business Central.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

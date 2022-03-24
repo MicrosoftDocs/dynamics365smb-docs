@@ -1,16 +1,17 @@
 ---
-    title: Prepare a Configuration Package
-    description: Learn now to prepare a RapidStart configuration package that can help you set up new companies based on existing data.
-    author: bholtorf
+title: Prepare a Configuration Package
+description: Learn now to prepare a RapidStart configuration package that can help you set up new companies based on existing data.
+author: brentholtorf
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/23/2021
-    ms.author: bholtorf
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.search.form: 8614, 8615
+ms.date: 07/23/2021
+ms.author: bholtorf
 
 ---
 # Prepare a Configuration Package

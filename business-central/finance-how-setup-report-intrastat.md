@@ -1,7 +1,7 @@
 ---
 title: Set Up and Report Intrastat
 description: Learn how to set up Intrastat reporting features, and how to report trade with companies in other EU countries.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual
@@ -24,7 +24,7 @@ Before you can use the Intrastat journal to report Intrastat information, there 
 * **Intrastat Setup**: Intrastat Setup page is used to enable intrastat reporting and set defaults for it. You can specify whether you need to report Intrastat from shipments (dispatches), receipts (arrivals) or both depending on thresholds set by your local regulations. You can also set default transaction types for regular and return documents, used for nature of transaction reporting.
 * **Intrastat journal templates**: You must set up the Intrastat journal templates and batches you will use. Because Intrastat is reported monthly, you must create 12 Intrastat journal batches based on the same template.  
 * **Commodity codes**: Customs and tax authorities have established numerical codes that classify items and services. You specify these codes on items.
-* **Transaction nature codes**: Countries and regions have different codes for types of Intrastat transactions, such as ordinary purchase and sale, exchange of returned goods, and exchange of non-returned goods. Set up all of the codes that apply to your country/region. You use these codes on sales and purchase documents, and when you process returns. 
+* **Transaction nature codes**: Countries and regions have different codes for types of Intrastat transactions, such as ordinary purchase and sale, exchange of returned goods, and exchange of non-returned goods. Set up all of the codes that apply to your country/region. You use these codes on the **Foreign Trade** FastTab on sales and purchase documents, and when you process returns. 
 
     > [!NOTE]
     > Starting in January 2022, Intrastat requires different transaction nature code for dispatches to private individuals or non-VAT registered businesses and VAT registered businesses. To comply with this requirement, we recommend that you review and/or add new transaction nature codes in the **Transaction Types** page accoridng to the requirements in your country. You should als review and update the **Partner Type** field to *Person* for private individual or non-VAT registered businesses customers in the relevant **Customer** page. If you are unsure about the correct partner type or transaction type to use, we recommend that you ask an expert in your country or region. 

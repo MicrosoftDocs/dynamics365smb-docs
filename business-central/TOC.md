@@ -113,12 +113,12 @@
 #### [Set Up Payment Methods](finance-payment-methods.md)
 #### [Set Up Payment Terms](finance-payment-terms.md)
 #### [Set Up Posting Groups](finance-posting-groups.md)
+#### [Set Up Value-Added Tax (VAT)](finance-setup-vat.md)
 #### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 #### [Set Up Reminder Terms and Levels](finance-setup-reminders.md)
 #### [Set Up Finance Charge Terms](finance-setup-finance-charges.md)
-#### [Set Up Calculations and Posting Methods for Value-Added Tax (VAT)](finance-setup-vat.md)
 #### [Set Up Unrealized VAT for Cash-Based Accounting](finance-setup-unrealized-vat.md)
 #### [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md)
 #### [Set Up Source Codes and Reason Codes for Audit Trails](finance-setup-trail-codes.md)
@@ -550,7 +550,7 @@
 #### [Cost Accounting Overview](finance-manage-cost-accounting.md)
 #### [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)
 #### [About Cost Accounting](finance-about-cost-accounting.md)
-#### [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)
+#### [Set Up] Cost Accounting](finance-set-up-cost-accounting.md)
 #### [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)
 #### [Defining and Allocating Costs](finance-define-and-allocate-costs.md)
 #### [Creating Cost Budgets](finance-create-cost-budgets.md)
@@ -563,7 +563,7 @@
 #### [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
 #### [Design Details: Inventory Costing](design-details-inventory-costing.md)
 #### [Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)
-#### [Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)
+#### [Set Up] Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)
 #### [Revalue Inventory](inventory-how-revalue-inventory.md)
 #### [Adjust Item Costs](inventory-how-adjust-item-costs.md)
 #### [Handle Inventory and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)
@@ -723,7 +723,7 @@
 
 ## Relationship Management
 ### [Relationship Management Overview](marketing-relationship-management.md)
-### [Setting Up Relationship Management](marketing-setup-marketing.md)
+### [Set Up] Relationship Management](marketing-setup-marketing.md)
 ### Managing Contacts
 #### [Contacts](marketing-contacts.md)
 #### [Set Up Contacts](marketing-setup-contacts.md)
@@ -1126,7 +1126,7 @@
 
 ### India
 #### [Overview](LocalFunctionality/India/india-local-functionality.md)
-#### [Setting Up Posting Number Series](LocalFunctionality/India/posting-no-series-setup.md)
+#### [Set Up] Posting Number Series](LocalFunctionality/India/posting-no-series-setup.md)
 #### Tax Engine
 ##### [Overview](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Tax Engine Import Export configuration](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1815,7 +1815,7 @@
 ## Integrating with Microsoft Dataverse
 ### [Integrate with Microsoft Dataverse](admin-common-data-service.md)
 ### [Data Ownership Models](admin-cds-company-concept.md)
-### [Setting Up User Accounts for Integrating with Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
+### [Set Up] User Accounts for Integrating with Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Connect to Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synchronizing Business Central and Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)

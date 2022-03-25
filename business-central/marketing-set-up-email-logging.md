@@ -58,7 +58,7 @@ You must set up your installation to use HTTPS. For more information, see [Confi
 
 ### To register an application in Azure AD for connecting from Business Central to Exchange Online
 
-The following steps assume that you use Azure Active Directory to manage identities and access. For more information, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). If you do not use Azure Active Directory, see [Using Another Identity and Access Management Service](marketing-set-up-email-logging.md#using-another-identity-and-access-management-service). 
+The following steps assume that you use Azure Active Directory to manage identities and access. For more information, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). If you do not use Azure Active Directory, see [Use Another Identity and Access Management Service](marketing-set-up-email-logging.md#use-another-identity-and-access-management-service). 
 
 1. In the Azure Portal, under **Manage**, choose **Authentication**.
 2. Under **Redirect URL**, add the redirect URL that is suggested on the **Marketing Setup** page in [!INCLUDE[prod_short](includes/prod_short.md)]. If the redirect URL on the Marketing Setup page is empty, find the suggested redirect URL on the **Email Logging Assisted Setup** page.
@@ -103,7 +103,7 @@ The following steps assume that you use Azure Active Directory to manage identit
    > [!NOTE]
    > If you are not prompted to sign in with your administrator account, it might be because pop ups are blocked. To sign in, allow pop-ups from https://login.microsoftonline.com.
 
-### Using Another Identity and Access Management Service
+### Use Another Identity and Access Management Service
 If you are not using Azure Active Directory to manage identities and access, you will need some help from a developer. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the OnGetEmailLoggingClientId and OnGetEmailLoggingClientSecret events in codeunit 1641 "Setup Email Logging".
 
 ### To stop logging email

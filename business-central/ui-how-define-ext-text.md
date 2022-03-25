@@ -40,7 +40,7 @@ You can now add this extended text to documents. The following procedure explain
 ## See Also
 
 [Setting Up Inventory](inventory-setup-inventory.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

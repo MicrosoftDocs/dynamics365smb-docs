@@ -1,5 +1,5 @@
 ---
-title: Set Up Sales Prices and Discounts for Customers | Microsoft Docs
+title: Set Up Sales Prices and Discounts for Customers
 description: Describes how to set up and apply pricing and discount agreements for sales documents.
 author: brentholtorf
 
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.search.form: 1345, 7002, 7007, 7015, 7016, 7023
+ms.search.form: 1345, 7002, 7007, 7015, 7016, 7024, 7023, 7024
 ms.date: 04/01/2021
 ms.author: bholtorf
 
@@ -69,7 +69,7 @@ By default, the status of new price lists is Draft. Draft price lists are not in
 
 ---
 
-## Using Sales and Purchase Price Lists
+## Use Sales and Purchase Price Lists
 > [!NOTE]
 > Using price lists requires that your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -262,7 +262,7 @@ If no special price can be calculated for the item on the line, then either the 
 
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

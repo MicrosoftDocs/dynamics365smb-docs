@@ -1,7 +1,7 @@
 ---
 title: Update Custom Report Layouts
 description: Learn how to update a custom report layout used on a report when there are design changes to the report's data set, for example.
-author: SorenGP
+author: jswymer
 
 
 ms.topic: conceptual
@@ -13,7 +13,9 @@ ms.date: 06/24/2021
 ms.author: edupont
 
 ---
-# Update Custom Report Layouts
+# (Legacy) Update Custom Report Layouts
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Occasionally, you may need to update a custom report layout that is used on a report. This is required when there has been a design change to the report's data set, for example, a field that is used in the layout has been removed from the report data set. If a report layout requires updating, you will get an error message when you try to preview, print or save the report.  
 
@@ -63,7 +65,7 @@ After you modify the layout, try to update the layout again.
 
 ## See Also  
  [Managing Report Layouts](ui-manage-report-layouts.md)  
- [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
+ [Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

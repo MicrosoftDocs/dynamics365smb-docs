@@ -43,7 +43,7 @@ When you set up inventory items, you must assign a costing method. The method ca
 
 For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).
 
-## Using Assembly Orders to Change Costing Method Assignments
+## Use Assembly Orders to Change Costing Method Assignments
 
 This section describes the following steps for changing the costing method assigned to an item:
 

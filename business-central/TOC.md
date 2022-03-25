@@ -1792,8 +1792,9 @@
 ### [Customize Pages for Profiles](ui-personalization-manage.md)
 ### [Change Which Features are Displayed](ui-experiences.md)
 ### [Set Up a Colored Indicator on Cues](admin-how-set-up-colored-indicator-on-cues.md)
-### Customize Use Extensions
+### Customize with Extensions
 #### [Extensions Overview](ui-extensions.md)
+#### [Install and Uninstall Extensions](ui-extensions-install-uninstall.md)
 #### [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Company Hub](ui-extensions-company-hub.md)

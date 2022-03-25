@@ -27,6 +27,8 @@ Bank accounts work differently depending on whether a currency code is specified
 
   All transactions that are made to this account must be in the same currency as is specified on the account. All checks that are issued from this account must also have this currency.  
 
+You can save time on data entry by making a bank account the default account to use for the currency specified for the account. If you do, the account will be assigned to sales and service documents that use the currency. To make the account the default for sales and service documents, on the **Bank Account Card** page, turn on the **Use as Default for Currency** toggle. If needed, you can choose a different account when you're working on a document.
+
 A bank account is an integrated part of [!INCLUDE[prod_short](includes/prod_short.md)] and plays a role in many other capabilities. The following illustration shows the most important relations:
 
 ![Illustration of bank account relations.](media/Set-Up-Bank-Accounts/Bank_Account_Relations.png)

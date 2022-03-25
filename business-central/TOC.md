@@ -53,7 +53,7 @@
 ### [Copy and Paste FAQ](faq-copy-paste.yml)
 ### [Work with Calendar Dates and Times](ui-enter-date-ranges.md)
 ### [Detect Mandatory Fields](ui-mandatory-fields.md)
-### [Chang Language and Region](about-locale-language.md)
+### [Change Language and Region](about-locale-language.md)
 ### [View and Edit in Excel](across-work-with-excel.md)
 ### [Store and Share Files in OneDrive](across-share-onedrive.md)
 ### [Manage Attachments, Links, and Notes on Cards and Documents](ui-how-add-link-to-record.md)
@@ -77,7 +77,7 @@
 #### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
 #### [Run Batch Jobs and XML ports](ui-how-run-batch-jobs.md)
 ### Change the Look of Externally-Facing Documents
-#### [Manage Report and Document Layouts](ui-manage-report-layouts.md)
+#### [About Report and Document Layouts](ui-manage-report-layouts.md)
 #### [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)
 #### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
 #### [Import and Export Custom Report Layouts](ui-how-import-and-export-report-layout.md)
@@ -85,6 +85,11 @@
 #### [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)
 #### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
 #### [Available Fonts](ui-fonts.md)
+## Sharing Business Data
+### [Overview](across-share-data-features.md)
+### [Sharing Records and Page Links in Teams](across-working-with-teams.md)
+### [Sharing Files in OneDrive](across-share-onedrive.md)
+### [Viewing and Editing in Excel](across-work-with-excel.md)
 ### Accessibility, Keyboard Shortcuts, and Touch Gestures
 #### [Accessibility](ui-accessibility.md)
 #### [Keyboard Shortcuts](keyboard-shortcuts.md)
@@ -92,7 +97,6 @@
 #### [Touch and Pen Gestures](touch-gestures.md)
 ### [Troubleshoot: Access Camera and Location](ui-troubleshooting-camera-location.md)
 ### [Intelligent Insights (online only)](about-intelligent-cloud.md)
-
 ## Frequently Asked Questions
 ### [Frequently Asked Questions](across-faq.yml)
 ### [Tell Me FAQ](ui-search-faq.md)

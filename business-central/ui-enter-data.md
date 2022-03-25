@@ -54,6 +54,8 @@ When the cursor is shown at the end of the field value:
 > [!NOTE]
 > After you specify a value, Business Central will only check that it's valid after you click outside the field or set focus to another element, such as the next field.  
 
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
+
 ## Keyboard Shortcuts
 
 There are several keyboard shortcuts that let you work "mouse-free" and speed up your data entry. These keyboard shortcuts are especially useful with large-scale entries and repetitive typing tasks.

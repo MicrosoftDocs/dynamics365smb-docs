@@ -54,7 +54,7 @@ The **Acc. Schedule Overview** page is where you preview the financial report th
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.  
 2. On the **Account Schedules** page, choose the **New** action to create a new account schedule name.
 3. Alternatively, choose the **Copy Account Schedule** action, fill in the two fields, and then choose the **OK** button.
-4. Fill in the fields as necessary. In the **Default Column Layout** field select an existing layout. You can edit it later if you want.
+4. Fill in the fields as necessary. In the **Default Column Layout** field, select an existing layout. You can edit it later if you want.
 
     You use column layouts to define columns for different parameters by which the financial data on the rows are shown. For example, you can design a column layout to compare net change and balance for the same period this year and last year, with four columns. For more information, see [To edit a column layout](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
@@ -68,7 +68,7 @@ You have now defined the basis of the account schedule, the rows of financial da
 
 ### To edit a column layout
 
-You use column layouts to define what columns should be included in the resulting report. For example, you can design a layout to compare net change and balance for the same period this year and last year.
+You use column layouts to define what columns should be included in the resulting report. For example, you can design a layout to compare net change and balance for the same period this year and last year. You can have up to 15 columns. This is useful, for example, if you want to view budgets for 12 months and include a column that shows the total.
 
 > [!NOTE]
 > A printed/previewed/saved version of an account schedule can display a maximum of five columns. If the account schedule is only meant for analysis on the **Acc. Schedule Overview** page, you can create as many columns as you want.
@@ -102,7 +102,7 @@ You can use an account schedule to create a statement comparing general ledger f
 2. On the **Account Schedule Names** page, select an account schedule.  
 3. Choose the **Edit Account Schedule** action  
 4. On the **Account Schedule** page, in the **Name** field, select the default account schedule name.
-5. Choose the **Insert Accounts** action.  
+5. Choose the **Insert G/L Accounts** action.  
 6. Select the accounts that you want to include in your statement, and then choose the **OK** button.
 
     The accounts are now inserted into your account schedule. If you want you can also change the column layout.  
@@ -146,7 +146,17 @@ If you want to calculate by regular time periods, you must enter a formula in th
 
 For more information about date formulas, see [Work with Calendar Dates and Times](ui-enter-date-ranges.md).  
 
-## See Related Training at [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
+## Import or Export Account Schedules
+You can import and export account schedules as RapidStart configuration packages. For example, this is useful for sharing them with other companies. The package is created in a .rapidstart file, which delivers the package contents in a compressed format.
+
+### To import and export account schedules
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.
+2. Choose the account schedule, and then choose the **Import Account Schedule** or **Export Account Schedule** actions, depending on what you want to do. 
+
+> [!NOTE]
+> When you import account schedules, existing records that have the same names as those you are importing will be deleted.
+
+## See related training at [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## See Also
 

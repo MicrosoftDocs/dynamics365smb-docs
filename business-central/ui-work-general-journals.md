@@ -48,7 +48,9 @@ To help prevent delays when posting, you can turn on a background check that wil
 
 When you enable the validation the **Journal Check** FactBox displays next to the journal lines and will show issues in the current line and the whole batch. Validation happens when you load a finance journal batch, and when you choose another journal line. The **Issues total** tile in the FactBox shows the total number of issues that [!INCLUDE[prod_short](includes/prod_short.md)] found, and you can choose it to open an overview the issues. 
 
-You can use the **Show Lines with Issues** and **Show All Lines** actions to toggle between journal lines that have or don't have issues. The new **Journal Line Details** FactBox provides quick overview and access to data from journal lines, such as the G/L account, customer, or vendor, as well as to the posting setup for specific accounts.     
+You can use the **Show Lines with Issues** and **Show All Lines** actions to toggle between journal lines that have or don't have issues. The new **Journal Line Details** FactBox provides quick overview and access to data from journal lines, such as the G/L account, customer, or vendor, as well as to the posting setup for specific accounts.   
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
 ### Reversing Journals to Correct Mistakes
 When working with journals that have many lines and something goes wrong, it's important to have an easy way to correct mistakes. The **Posted General Journal** page offers a couple of actions that can help.

@@ -135,12 +135,12 @@ The following are examples of how Send As and Send on Behalf are used in [!INCLU
 ## Set Up Document Sending Profiles
 You can set up a preferred method of sending sales documents for each of your customers so that you do not have to select a sending option, such as whether to send the document by email or as an electronic document, every time you send a document. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 
-## Set Up Public Folders and Rules for Email Logging in Exchange Online
+## Optional: Set Up Email Logging in Exchange Online
 Get more out of the communications between salespeople and your existing or potential customers by tracking email exchanges, and then turning them into actionable opportunities. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  
-
+<!--
 [!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
-Next, you connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  
+Next, you connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  -->
 
 ## Setting Up Email for Business Central On-Premises 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises can integrate with services that are based on Microsoft Azure. For example, you can use Cortana Intelligence for smarter cash flow forecasts, Power BI to visualize your business, and Exchange Online for sending email. Integration with these services is based on an app registration in Azure Active Directory. The app registration provides authentication and authorization services for communications. To use the email capabilities in [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you must register [!INCLUDE[prod_short](includes/prod_short.md)] as an app in the Azure portal, and then connect [!INCLUDE[prod_short](includes/prod_short.md)] to the app registration. The following sections describe how.

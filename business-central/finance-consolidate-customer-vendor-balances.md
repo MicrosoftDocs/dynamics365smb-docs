@@ -2,8 +2,6 @@
 title: Consolidate Balances for a Company that is a Customer and a Vendor
 description: Describes how to consolidate balances for a customer that is also a vendor.
 author: brentholtorf
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,6 +10,7 @@ ms.search.keywords: payment process, cash receipt
 ms.search.form: 5052, 21, 5050 
 ms.date: 04/01/2021
 ms.author: bholtorf
+ROBOTS: NOINDEX
 
 ---
 # Consolidate Balances for a Company that is a Customer and a Vendor

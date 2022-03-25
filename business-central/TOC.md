@@ -77,14 +77,19 @@
 #### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
 #### [Run Batch Jobs and XML ports](ui-how-run-batch-jobs.md)
 ### Change the Look of Externally-Facing Documents
-#### [About Report and Document Layouts](ui-manage-report-layouts.md)
-#### [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)
+### [About Report and Document Layouts](ui-manage-report-layouts.md)
+### [Get Started Creating Layouts](ui-get-started-layouts.md)
+### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)
+### [Work with Excel Layouts](ui-excel-report-layouts.md)
+### [Work with RDLC Layouts](ui-rdlc-report-layouts.md)
+### [Set the Layout Used by a Report](ui-set-report-layout.md)
+### [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)
+### [Available Fonts](ui-fonts.md)
+### Using Legacy Features
 #### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)
 #### [Import and Export Custom Report Layouts](ui-how-import-and-export-report-layout.md)
 #### [Update Custom Report Layouts](ui-update-report-layouts.md)
-#### [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md)
-#### [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md)
-#### [Available Fonts](ui-fonts.md)
+#### [Set the Layout Used by a Report](ui-how-change-layout-currently-used-report.md)
 ## Sharing Business Data
 ### [Overview](across-share-data-features.md)
 ### [Sharing Records and Page Links in Teams](across-working-with-teams.md)
@@ -1538,13 +1543,13 @@
 
 ## Use Reports in Daily Work
 ### [Overview](reports-use-reports.md)
-### [Running Reports](ui-work-report.md)
-### [Bookmarking a Report](ui-bookmarks.md)
-### [Analyzing Report Data with Excel](report-analyze-excel.md)
+### [Run Reports](ui-work-report.md)
+### [Bookmark a Report](ui-bookmarks.md)
+### [Analyze Report Data with Excel](report-analyze-excel.md)
 <!--### [Using the report inbox] (missing.md)-->
-### [Printing Reports](ui-specify-printer-selection-reports.md#default)
-### [Scheduling Reports](ui-work-report.md#ScheduleReport)
-### [Managing Saved Report Settings](reports-saving-reusing-settings.md)
+### [Print Reports](ui-specify-printer-selection-reports.md#default)
+### [Schedule Reports](ui-work-report.md#ScheduleReport)
+### [Manage Saved Report Settings](reports-saving-reusing-settings.md)
 ### [Set the Layout Used by a Report](ui-set-report-layout.md)
 ### [(Legacy) Set the Layout Used by a Report](ui-how-change-layout-currently-used-report.md)
 

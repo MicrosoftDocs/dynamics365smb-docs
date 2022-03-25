@@ -616,6 +616,7 @@
 ### [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Analyzing Financial Statements in Excel](finance-analyze-excel.md)
 ### [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
+### [Create Bank Deposits](bank-create-bank-deposits.md)
 ### [Accountant Experiences in Business Central](finance-accounting.md)
 ### [Multi-Site and International Organizations](finance-multi-site-organizations.md)
 

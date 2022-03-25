@@ -1,7 +1,7 @@
 ﻿---
 title: Create a Firm Planned Production Order and Change It
 description: Walkthrough for a production planner at Contoso Coffee who wants to create a firm planned production order and then modify it.
-ms.date: 03/18/2022
+ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
@@ -45,13 +45,13 @@ Shortly after he finishes this task, he is asked to increase the order to 50 uni
 
 3. Choose the **Refresh Production Order** action.  
 
-        The start date has now been pushed back to April 20. This is not an acceptable date for Eduardo.
+    The start date has now been pushed back to April 20. This is not an acceptable date for Eduardo.
 
 4. Trigger a forward scheduling of the production order.
 
-    1.On the **Schedule** FastTab, set the **Starting Date** field to *April 23*.
+    1. On the **Schedule** FastTab, set the **Starting Date** field to *April 23*.
 
-        The starting for the order is now April 25, and the ending date is May 2. The due date for the order is set one day later, May 3. Eduardo now knows that it will take until May 3 to deliver the increased order.
+    The starting for the order is now April 25, and the ending date is May 2. The due date for the order is set one day later, May 3. Eduardo now knows that it will take until May 3 to deliver the increased order.
 
 > [!NOTE]
 > Scheduling an order by changing its starting or ending date does not require the **Refresh Production Order** batch job because all dates recalculate automatically.

@@ -1,7 +1,7 @@
 ﻿---
 title: Introduction to Contoso Coffee Demo Data
 description: Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the manufacturing capabilities in Business Central.
-ms.date: 03/18/2022
+ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
@@ -10,7 +10,7 @@ ms.author: andreipa
 
 # Introduction to Contoso Coffee Demo Data
 
-CONTOSO is a fictitious company that produces consumer and commercial coffee makers. The **Contoso Coffee** apps for Business Central add demo data that you can use to learn how to use the manufacturing capabilities in Business Central.  
+Contoso Coffee is a fictitious company that produces consumer and commercial coffee makers. The **Contoso Coffee** apps for Business Central add demo data that you can use to learn how to use the manufacturing capabilities in Business Central.  
 
 The app provides four products that are optimized for different scenarios:
 
@@ -46,7 +46,9 @@ To use the Contoso Coffee demo data, you must install two apps in the relevant c
 
     This app adds country-specific content on top of the base application.
 
-Once the relevant apps are installed, go to the [Contoso Coffee Demo Data](https://businesscentral.dynamics.com/?page=4760) page in [!INCLUDE [prod_short](../includes/prod_short.md)], change the default settings to suit your needs. The following tables describes the settings:  
+Add the apps to an empty company in a paid subscription or as part of a trial. For example, create a new company with no sample data from the **Create New Company** assisted setup guide that you can open from the **Companies** list. Then add the apps from the [marketplace](../ui-extensions-install-uninstall.md#install) if they are not already listed in the **Extension Management** page.  
+
+Once the relevant apps are installed, go to the [Contoso Coffee Demo Data](https://businesscentral.dynamics.com/?page=4760) page in [!INCLUDE [prod_short](../includes/prod_short.md)], and change the default settings to suit your needs. The following tables describes the settings:  
 
 |Field  |Description  |
 |---------|---------|

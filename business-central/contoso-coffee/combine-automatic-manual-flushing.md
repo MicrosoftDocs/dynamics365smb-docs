@@ -54,7 +54,7 @@ You are the production planner at Contoso Coffee. You must create a new producti
 
 5. Manually register output for electrical wiring.  
 
-    You must manually fill in the **Setup Time** and **Run Time** fields. You can also specify the actually produced quantity and scrap. Enter *6* as the output quantity and *2* as the scrap quantity. Post the output.
+    You must manually fill in the **Setup Time** and **Run Time** fields. You can also specify the actually produced quantity and scrap. Enter *3* as the output quantity and post the output.
 
     1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
 
@@ -71,7 +71,7 @@ You are the production planner at Contoso Coffee. You must create a new producti
     6. Change the **Quantity** field from *5* to *3*.
 
     7. Choose **Post**.  
-    8. Close the consumption journal.
+    8. Close the output journal.
 
 6. Review the item ledger entries for the production order.
 
@@ -103,4 +103,5 @@ That's it for manual and automatic flushing of components.
 
 ## See also
 
+[Flush Components According to Operation Output](../production-how-to-flush-components-according-to-operation-output.md)  
 [Introduction to Contoso Coffee Demo Data](contoso-coffee-intro.md)  

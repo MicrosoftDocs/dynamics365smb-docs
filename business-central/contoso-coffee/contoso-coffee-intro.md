@@ -33,7 +33,7 @@ The app provides four products that are optimized for different scenarios:
 The manufacturing activities for all scenarios use the *NORTH* location.  
 
 > [!IMPORTANT]
-> Before you run any of the scenarios for Contoso Coffee, post any item journal lines with opening balances.
+> Before you run any of the scenarios for Contoso Coffee, post any item journal lines with opening balances. For more requirements, see the [Set up Contoso Coffee data](#set-up-contoso-coffee-data) section.
 
 ## Set up Contoso Coffee data
 
@@ -77,7 +77,7 @@ The Contoso Coffee demo data currently supports the following scenarios for test
 5. [Use Order Planning to Create and Reserve Supply](order-planning-create-reserve-supply.md)  
 6. [Set Up and Process a Subcontracting Operation](set-up-process-subcontracting-operation.md)  
 7. [Set Up New Capacity](set-up-new-capacity.md)  
-8. [Variants](variants.md)  
+8. [Forecast demand for item variants with different BOMs assigned](variants.md)  
 
 Read the steps for each scenario in the relevant article.  
 

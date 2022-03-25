@@ -14,7 +14,7 @@ In this article, we take you through the steps to use the Contoso Coffee demo da
 
 ## Scenario
 
-Contoso Coffee has decided to add another coffee maker to their product line: **SP-SCM1008 Airpot Lite**. This coffee maker is identical to the existing item **SP-SCM1009 Airpot**, except that it does not include the warming plate, **SP-BOM1104**. In a separate step, the on/off light, **SP-BOM1106** is removed for a variantof the Airpot Lite BOM.
+Contoso Coffee has decided to add another coffee maker to their product line: **SP-SCM1008 Airpot Lite**. This coffee maker is identical to the existing item **SP-SCM1009 Airpot**, except that it does not include the warming plate, **SP-BOM1104**. In a separate step, the on/off light, **SP-BOM1106** is removed for a version of the Airpot Lite BOM.
 
 Oscar, the process engineer at Contoso Coffee, must set up a new production BOM to define the initial component requirements for the Airpot Lite. He must then set up a new BOM version, with a start date of July 01, to align with further plans on releasing another edition.
 
@@ -71,7 +71,7 @@ Oscar, the process engineer at Contoso Coffee, must set up a new production BOM 
 
     2. Close the BOM Version
 
-The new coffee maker is now set up as a production BOM with one variant.  
+The new coffee maker is now set up as a production BOM with one version.  
 
 ## See also
 

@@ -14,7 +14,7 @@ In this article, we take you through the steps to use the Contoso Coffee demo da
 
 ## Scenario
 
-You are the production planner at Contoso Coffee. Unknown to you, the order processor at Contoso Coffee, Susan, has just entered a sales order for 100 units of item **1001, Touring Bicycle**, due on February 05. The order is from customer 10000, The Canon Group PLC. You become aware of this demand when you run your weekly **Calculate Plan** function in the order planning area in [!INCLUDE [prod_short](../includes/prod_short.md)]. You use order planning to create the required production order for the supply. Because you are creating the production order to fulfill the requirements of a specific sales order, you decide to reserve the output of the production order on behalf of the sales order.  
+You are the production planner at Contoso Coffee. You created a production order for 100 units of the item **SP-SCM1009, Airpot**, and you want to plan subassemblies for this order. You use order planning to create the required production order for the supply. Because you are creating the production order to fulfill the requirements of a specific order, you decide to reserve the output of the production order.  
 
 ## Steps
 

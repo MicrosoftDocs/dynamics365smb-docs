@@ -71,7 +71,7 @@ Microsoft provides the following extensions:
 * [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 
-## Uploade a Per-Tenant Extension (PTE)
+## Upload a Per-Tenant Extension (PTE)
 
 You upload a PTE by using the **Extension Management** page. On the **Extension Management** page, go to **Manage**, then choose **Upload Extension**. On the **Upload and Deploy Extension** page, specify the .app file to upload. To proceed, choose the **Accept** button, and then the **Deploy** button, this will start the process of deploying the PTE.
 

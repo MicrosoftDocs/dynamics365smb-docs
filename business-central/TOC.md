@@ -1723,7 +1723,7 @@
 ## Developing reports
 ### [Overview](reports-develop-reports.md)
 ### Developing report layouts
-#### [Layout types (Word and RDLC)](ui-manage-report-layouts.md)
+#### [Layout types (Word, Excel, RDLC)](ui-manage-report-layouts.md)
 #### [Create and Modify Layouts](ui-get-started-layouts.md)
 <!--#### [Create a New Layout](ui-how-create-custom-report-layout.md)-->
 #### [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)

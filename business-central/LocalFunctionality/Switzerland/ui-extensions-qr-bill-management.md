@@ -8,26 +8,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
-ms.date: 09/06/2021
+ms.date: 03/22/2022
 ms.author: soalex
 
 ---
 # QR-Bill Management in the Swiss Version of Business Central
-From July 1st 2020, companies in Switzerland must be able to receive QR-bills. QR-bills are payment slips that follow invoices, and are a country-wide initiative to streamline payment processes. QR-bills replace all existing payment slips and ESR-related functionality. They contain all of the information needed to make payments, and a QR code on the payment slip makes it easy to import the information into [!INCLUDE[prod_short](../../includes/prod_short.md)]. All relevant information is imported and used to generate payments for the vendor who sent the QR-bill, including the payment reference, which automatically gets included in Vendor Ledger Entries and exported in payment files to the bank.
 
-## Get started with the QR-Bill Management Extension
+Since July 1, 2020, companies in Switzerland must be able to receive QR-bills. QR-bills are payment slips that follow invoices, and are a country-wide initiative to streamline payment processes. QR-bills replace all existing payment slips and ESR-related functionality. They contain all of the information needed to make payments, and a QR code on the payment slip makes it easy to import the information into [!INCLUDE[prod_short](../../includes/prod_short.md)]. All relevant information is imported and used to generate payments for the vendor who sent the QR-bill, including the payment reference, which automatically gets included in Vendor Ledger Entries and exported in payment files to the bank.
+
+## <a name="get-started"></a>Get started with the QR-Bill Management extension
+
 The QR-Bill Management extension is included and automatically installed in [!INCLUDE[prod_short](../../includes/prod_short.md)]. To get started with the extension, you must make a few configuration changes in [!INCLUDE[prod_short](../../includes/prod_short.md)]. An easy way to that is to use the Set Up QR-Bill assisted setup guide. The guide will help you enter information, such as:
 
 * Specify whether to use your IBAN or QR-IBAN.
+
+  QR-IBAN is an IBAN that contains a number between 30000 and 31999 on positions 5 to 9, such as *CH55 30024 123456789012*.
 * Define how to display names and address on QR-bills, and to use the German Umlaut Chars Encoding. We recommend that you use the default values.
 * Select the default layout to use for QR-bills. The layout determines whether to use IBAN or QR-IBAN, whether the reference type is creditor or QR reference, and whether to include billing information in the SWICO format.
 * Enable sales and service invoice types, and payment methods, for the QR-bills.
 * Specify the journal template and journal batch to use when generating purchase journals from scanned or imported QR-bills.
 
-If needed, you can change these settings on the following pages: 
+If needed, you can change these settings on the following pages:  
 
-* **QR-Bill Setup** to change general settings. 
-* **QR-Bill Layout** to change layout settings.
+* **QR-Bill Setup** to change general settings.  
+* **QR-Bill Layout** to change layout settings.  
 
 ## Issuing QR-Bills
 You can enable QR-bills for sales and service invoices. This adds an entry to **Report Selection - Sales** that generates an extra PDF with the QR-bill when invoices are generated. 
@@ -36,10 +40,20 @@ You can enable QR-bills for sales and service invoices. This adds an entry to **
 When you create a QR-bill you can include billing information in the SWICO format, as advocated by SIX, the Swiss payment infrastructure provider. Ideally, business applications that produce or import QR-bills should also be able to process information such as the VAT amount, the vendor's invoice number, and so on, because it can be valuable for the payable invoice. In [!INCLUDE[prod_short](../../includes/prod_short.md)], we import this information but use only the vendor's invoice number. If you want to use the other information you can create your own customization.
 
 ## Understanding the Payment Reference
-Payment processes are are all about paying the right amount to the right party, and making it easy for them to reconcile payments to close outstanding accounts. The QR-Bill Management extension handles this by generating a payment reference for QR-bills that are unique for invoices issued in a specific company, which means the same payment reference cannot be issued more than one time. If your customer is also using [!INCLUDE[prod_short](../../includes/prod_short.md)], the payment reference is imported when receiving QR-bills, transferred to the Vendor Ledger Entries page, and used as a reference when creating vendor payments. For more information, see [Receiving QR-Bills](ui-extensions-qr-bill-management.md#receiving-qr-bills). The flow is similar to the previous ESR Reference functionality that the QR-bills are replacing. Eventually, payment files (pain.001) will be sent from the customer's business app to their bank with the message to transfer the amounts to the vendor's account. The bank will produce a customer statement file (camt.054) that the vendor can import to reconcile accounts. This file will include the payment reference and is imported through the Data Exchange Framework that is updated by the QR-Bill Management extension to import camt.054 files.  
-For ESR references you could configure information, for example, so that they contain the customer number and invoice number. You cannot configure the payment reference in QR-bills. There will always be a 1:1 relation between an issued QR-bill and a payment, which makes reconciliation easy and eliminates the need to configure the payment reference on QR-bills. Instead, [!INCLUDE[prod_short](../../includes/prod_short.md)] uses a unique counter for the payment reference. Additionally, logic is in place to block import or scan of the same payment reference twice.
+Payment processes are are all about paying the right amount to the right party, and making it easy for them to reconcile payments to close outstanding accounts. The QR-Bill Management extension handles this by generating a payment reference for QR-bills that are unique for invoices issued in a specific company, which means the same payment reference cannot be issued more than one time.  
 
-## Using multiple bank accounts as issuers of QR-Bills
+If your customer is also using [!INCLUDE[prod_short](../../includes/prod_short.md)], the payment reference is imported when receiving QR-bills, transferred to the Vendor Ledger Entries page, and used as a reference when creating vendor payments. For more information, see [Receiving QR-Bills](ui-extensions-qr-bill-management.md#receiving-qr-bills). The flow is similar to the previous ESR Reference functionality that the QR-bills are replacing. Eventually, payment files (pain.001) will be sent from the customer's business app to their bank with the message to transfer the amounts to the vendor's account. The bank will produce a customer statement file (camt.054) that the vendor can import to reconcile accounts. This file will include the payment reference and is imported through the Data Exchange Framework that is updated by the QR-Bill Management extension to import camt.054 files.  
+
+For ESR references, you could configure information, for example, so that they contain the customer number and invoice number. You cannot configure the payment reference in QR-bills. There will always be a 1:1 relation between an issued QR-bill and a payment, which makes reconciliation easy and eliminates the need to configure the payment reference on QR-bills. Instead, [!INCLUDE[prod_short](../../includes/prod_short.md)] uses a unique counter for the payment reference. Additionally, logic is in place to block import or scan of the same payment reference twice.  
+
+### <a name"formats"></a>Formats for QR references and creditor references
+
+The QR reference consists of 26 numerical positions plus a check digit.  
+
+The ISO Creditor Reference (ISO 11649) enables the creditor to make automatic comparisons between their bills and the incoming payments. It must include the value *RF* in position 1-2 and a correct test character in position 3-4, and can include up to a maximum of 25 characters.  
+
+## <a name="multiplebankaccounts"></a>Using multiple bank accounts as issuers of QR-Bills
+
 Issuers of QR-Bills can use multiple bank accounts to route payments into different bank accounts. This is tied to the Payment Method on which you can specify the **QR-Bill Bank Account No.**. When specified, the IBAN/QR-IBAN information from this bank account will be used on QR-Bills that use the given Payment Method. This way you can route incoming payments into the desired bank account. If you do not use multiple bank accounts and specify the **QR-Bill Bank Account No.** on the Payment Method card, the QR-IBAN/IBAN information from Company Information is used on QR-Bills instead. Make sure you have at least your primary bank account information set up there.
 
 > [!Note]

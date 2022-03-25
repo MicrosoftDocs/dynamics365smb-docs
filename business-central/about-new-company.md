@@ -3,7 +3,6 @@ title: Create new companies using an assisted setup guide
 description: It's easy to create a new, blank company in Business Central. An assisted setup guide helps you through the steps, and you can import your existing business data.
 author: edupont04
 
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -22,16 +21,14 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], the container for business da
 
 If you decide to add a company to your [!INCLUDE[prod_short](includes/prod_short.md)], you can use the **Create New Company** assisted setup guide to get you started. The setup wizard is available from the **Companies** page and from the lookup in the **Company** field on the **My Settings** page.  
 
-The setup wizard offers three templates and a blank option:
+The setup wizard offers two templates and a blank option:
 
 - **Evaluation - Sample Data**  
-    This creates a company that is similar to the demonstration company with sample data and setup data.  
+    This creates a company that is similar to the demonstration company with sample data and setup data. This type of company is available to you without switching to [a 30-day trial period](across-preview.md#add-your-own-data-to-an-empty-trial-company), which the other types do.  
 - **Production - Setup Data Only**  
-    This creates a company that is similar to **My Company** with setup data but without sample data.
-- **Advanced Evaluation - Complete Sample Data**
-    This creates a company with setup data and complete sample data for all features, including Manufacturing and Service Management.
+    This creates a company that is similar to **My Company** with setup data but without sample data. You will be able to use this company for [a 30-day trial period](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
 - **Create New - No Data**  
-    This creates a blank company without setup data.  
+    This creates a blank company without setup data. You will be able to use this company for [a 30-day trial period](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
 
 If you want to get started easily with a new company, choose **Production - Setup Data Only** and then import your own business data, such as customers, items, and vendors. Choose the **New** template if you want to set everything up from scratch. In that case, you can use the **Company Setup** assisted setup guide to help you get started with essential setup data.  
 
@@ -67,6 +64,10 @@ Once a company has been created, you can't change it's name. But you can change 
 
 > [!TIP]
 > You can rename a company if you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.
+
+## Add Contoso Coffee
+
+The Contoso Coffee app provides demonstration data that can help you explore the capabilities of [!INCLUDE [prod_short](includes/prod_short.md)]. Find the app in AppSource, and install it in an empty company, for example a company in a sandbox environment.  
 
 ## See Also
 

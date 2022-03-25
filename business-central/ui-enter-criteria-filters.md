@@ -128,7 +128,7 @@ You can set a simple filter directly on a list within using the filter pane, nam
 
 ### Setting Filters in Reports, Batch Jobs, and XMLports
 
-For reports and XMLports, the filters are visible directly on the request page. The request page displays the last used filters according to your selection in the **Use default values from** field. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
+For reports and XMLports, the filters are visible directly on the request page. The request page displays the last used filters according to your selection in the **Use default values from** field. For more information, see [Use Saved Settings](ui-work-report.md#SavedSettings).
 
 The main **Filter** section shows the default filter fields that you use to delimit which records to include in the report or XMLport. To add a filter, choose the **+ Filter** action. Then, type the name of the field that you want to filter by, or pick a field from the drop-down list.
 
@@ -150,7 +150,7 @@ Columns that already have filters are indicated by the ![Filter icon.](media/ui-
 When you enter criteria, you can use all the numbers and letters that you normally use in the field. But there's also a set of special symbols that you can use as operators to further filter the results. The following sections describe these symbols and how to use them as operators in filters.
 
 > [!TIP]
-> For more information about filtering dates and times, see [Working with Calendar Dates and Times](ui-enter-date-ranges.md).
+> For more information about filtering dates and times, see [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]
 > - There may be situations where the value that you want to filter on contains a symbol that's an operator. For more information about handling these situtions, see [Filtering on Values That Contain Symbols](#symbols) for more instructions about handling this situation.
@@ -306,7 +306,7 @@ Use `%myvendors` in the vendor **No** field to display all records for vendors t
 
 [Searching and Filtering FAQ](ui-search-filter-faq.yml)  
 [Save and Personalize List Views](ui-views.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

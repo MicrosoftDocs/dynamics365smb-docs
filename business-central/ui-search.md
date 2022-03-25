@@ -63,7 +63,7 @@ We have shown Tell Me to a range of stakeholders, noted the questions that they 
 ## See Related Training at [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## See Also
-[Working with Business Central](ui-work-product.md)  
+[Work with Business Central](ui-work-product.md)  
 [Add a Page Action to Your Role Center](ui-bookmarks.md)
 
 

@@ -80,7 +80,7 @@ However, you can choose to set up just one zone and to organize your warehouse a
 [Create Bins](warehouse-how-to-create-individual-bins.md)  
 [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)
 

@@ -61,10 +61,10 @@ We recommend setting the **Block Deletion of G/L Accounts** field to *Yes*. We a
 
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
-[Working with Dimensions](finance-dimensions.md)  
+[Work with Dimensions](finance-dimensions.md)  
 [Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Work with Account Schedules](bi-how-work-account-schedule.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Close Income Statement Accounts in the French Version](LocalFunctionality/France/how-to-close-income-statement-accounts.md)  
 [Print Income Statements in the Australian Version](LocalFunctionality/Australia/how-to-print-income-statements.md)  
 [Print Income Statements in the New Zealand Version](LocalFunctionality/NewZealand/how-to-print-income-statements.md)  

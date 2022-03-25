@@ -105,7 +105,7 @@ Choose the *Change when I receive notifications* link to view or change the noti
 ## See Also
 
 [Creating New Companies](about-new-company.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

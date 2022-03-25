@@ -43,7 +43,7 @@ sections:
         answer: |
           Your filters and adjustments to predefined filters are remembered throughout the session (while you remain signed in), even if you navigate away from the page. You can permanently save filters as a named view of the list by choosing the ![Save View](media/save_view_icon.png "Save View") icon in the filter pane. For more information, see [List Views FAQ](ui-views-faq.yml). Note that, unlike filters, search text is not remembered when you navigate away from a page and is not saved when you save a view.
           
-          On report request pages, you can also save filters or use predefined filters. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
+          On report request pages, you can also save filters or use predefined filters. For more information, see [Use Saved Settings](ui-work-report.md#SavedSettings).
           
       - question: |
           Is this the same as Advanced Filters and Limit Totals in Microsoft Dynamics NAV?

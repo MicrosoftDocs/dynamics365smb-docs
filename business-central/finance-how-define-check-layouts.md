@@ -37,8 +37,7 @@ When you have set up check layouts, you can print checks from the **Payment Jour
 
 To change one of these default check layouts, use either the Word or the RDLC integration to do so. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
-## Using MICR and Security Fonts
-
+## Use MICR and Security Fonts
 The online version of [!INCLUDE[prod_short](includes/prod_short.md)] contains pre-installed fonts on the servers that can be used when defining check layouts. The following outlines which fonts are available and has links to detailed information by the 3rd-party suppliers of the fonts.
 
 > [!Important]
@@ -97,7 +96,7 @@ Fonts for other purposes are also available in [!INCLUDE[prod_short](includes/pr
 [Managing Payables](payables-manage-payables.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)   
 [Completing Period-End Processes](year-how-complete-period-end-processes.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 
 

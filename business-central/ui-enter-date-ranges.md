@@ -14,7 +14,7 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# Working with Calendar Dates and Times
+# Work with Calendar Dates and Times
 
 [!INCLUDE[prod_short](includes/prod_long.md)] offers multiple ways to enter dates and times, including powerful features that accelerate data entry, or help you write complex calendar expressions. There are various places throughout the application where you can enter dates and times in fields. For example, on a sales order, you can set the shipment date. When filtering lists or report data, you can enter dates and times to pinpoint only the data that you are interested in.
 
@@ -130,7 +130,7 @@ On lists, totals and reports, you can set filters on dates, times and datetimes 
 
 You can use any of the valid formats in date range filters. For example, mon14 3..t 4p applied on a datetime field results in a filter from 3 AM on Monday in week 14 of the current work date year, inclusive, until today at 4PM, inclusive.
 
-## Using Date Formulas
+## Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields or filters.
 
 > [!NOTE]
@@ -216,7 +216,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## Using Date Formulas
+## Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -336,7 +336,7 @@ To see what unit of measure is being used in a duration field, enter a number an
 For example, if the unit of measure is hours, the number 5 is converted to 5 hrs.
 
 ## See Also
-[Working with [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)  
 [Entering Criteria in Filters ](ui-enter-criteria-filters.md)  
 

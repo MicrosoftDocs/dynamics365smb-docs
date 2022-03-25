@@ -60,7 +60,7 @@ You can now go to your customer and vendor cards to specify which of the layouts
 
 ## See Also
 [Managing Report Layouts](ui-manage-report-layouts.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

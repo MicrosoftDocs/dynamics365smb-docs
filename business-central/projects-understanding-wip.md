@@ -34,9 +34,9 @@ To track the value in the general ledger, you can calculate WIP and post the val
 
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  
-[Purchasing](purchasing-manage-purchasing.md)  
-[Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Purchasing](purchasing-manage-purchasing.md)         
+[Sales](sales-manage-sales.md)      
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

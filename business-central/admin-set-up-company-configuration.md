@@ -1,19 +1,20 @@
 ---
-    title: Set Up Company Configuration
-    description: As a partner, get Business Central set up right for your customer with default or customer-specific configurations that you bundle into configuration packages.
-    author: SorenGP
+title: Set Up Company Configuration
+description: As a partner, get Business Central set up right for your customer with default or customer-specific configurations that you bundle into configuration packages.
+author: SorenGP
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
-# Set Up Company Configuration
+# Set Up Company Configuration with RapidStart Services
+
 The implementation process begins with the Microsoft partner. As a partner, you are responsible for thinking through the configuration details and creating a package that a customer can easily apply. Before you create a new company in [!INCLUDE [prod_short](includes/prod_short.md)] online or on-premises, you should plan how it will be configured. You must consider basic setup data and the types of data that your [!INCLUDE[prod_short](includes/prod_short.md)] solution will require. You bundle all of this information in configuration packages.
 
 RapidStart Services also provides you with the tools that you will use to migrate any legacy data, such as customers and vendors.  

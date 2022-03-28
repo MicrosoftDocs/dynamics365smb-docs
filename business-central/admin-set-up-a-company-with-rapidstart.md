@@ -14,7 +14,7 @@ ms.date: 03/28/2022
 ms.author: edupont
 
 ---
-# Setting Up a Company With RapidStart Services
+# Set Up a Company with RapidStart Services
 
 You can set up a new company in [!INCLUDE[prod_short](includes/prod_short.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks.  
 

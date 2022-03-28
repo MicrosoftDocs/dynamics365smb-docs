@@ -1,6 +1,6 @@
 ---
 title: Manage Company Configuration in a Worksheet
-description: The configuration worksheet is the central location in which you can plan, track, and perform your company configuration work. 
+description: If you use RapidStart Services, the configuration worksheet is the central location in which you can plan, track, and perform your company configuration work. 
 author: SorenGP
 
     
@@ -14,7 +14,7 @@ ms.date: 06/14/2021
 ms.author: edupont
 
 ---
-# Manage Company Configuration in a Worksheet
+# Manage Company Configuration in a Worksheet with RapidStart Services
 
 The configuration worksheet is the central location in which you can plan, track, and perform your configuration work. You can create a worksheet for each company that you are working with or create a standard configuration worksheet that can be used for configuring multiple identical companies.  
 

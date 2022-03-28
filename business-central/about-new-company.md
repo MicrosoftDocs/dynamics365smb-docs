@@ -58,7 +58,7 @@ Once you have the basics in place, you can set up remaining core areas. Then, yo
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
-For more information, see [Switching to Another Company or Environment](ui-organization-switch.md).  
+For more information, see [Switching to Another Company or Environment](ui-organization-switch.md). For more information about environments, see [Understanding the Infrastructure of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology) (in English only).  
 
 ## Changing a company's name
 

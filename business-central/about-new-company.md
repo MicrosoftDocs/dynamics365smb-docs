@@ -13,11 +13,11 @@ ms.date: 04/01/2021
 ms.author: edupont
 
 ---
-# Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]
+# Create New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], the container for business data that belongs to a business unit or legal entity is referred to as a *company*. When you sign up for [!INCLUDE[prod_short](includes/prod_short.md)], you are given a demonstration company and an empty company, *My Company*. Switching between the companies is easy: just go to **My Settings** and move to the other company. But you can also create new companies in [!INCLUDE[prod_short](includes/prod_short.md)] depending on your business needs. When you create a new company, an assisted setup guide helps you get the basics in place. Then, you can import relevant data from your legacy system or another company in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Creating a New Company
+## Choose the right template
 
 If you decide to add a company to your [!INCLUDE[prod_short](includes/prod_short.md)], you can use the **Create New Company** assisted setup guide to get you started. The setup wizard is available from the **Companies** page and from the lookup in the **Company** field on the **My Settings** page.  
 
@@ -37,14 +37,14 @@ If you want to get started easily with a new company, choose **Production - Setu
 
 During your 30 day trial, you can create any number of new companies, but they will only be available during your trial. For more information, contact your [!INCLUDE[prod_short](includes/prod_short.md)] partner.  
 
-## Copying a company
+## Copy a company
 
 On the **Companies** page, you can use the **Copy** action to create a second company based on the contents of an existing company. This is useful, for example, when you want to test a company without disrupting production data.
 
 > [!Important]
 > This function cannot be used to take a backup of a company. Taking a company backup begins by exporting the database as a .bacpac file. For more information, see [Exporting Databases](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) in the development and administration help.
 
-## Company Setup
+## Set up the company
 
 When you sign in to a new company, the **Company Setup** wizard runs automatically and helps you get started. You will be asked for information about your business, such as the address, bank details, and inventory costing method. We ask for this information because it is used as a basis for many areas in [!INCLUDE[prod_short](includes/prod_short.md)] that you will then not have to set up manually later.  
 
@@ -52,13 +52,13 @@ For example, your company address is included in invoices and other documents, y
 
 Once you have the basics in place, you can set up remaining core areas. Then, you are ready to add business data, such as customers and vendors. For more information, see [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## Companies and Environments
+## Companies and environments
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
 For more information, see [Switching to Another Company or Environment](ui-organization-switch.md). 
 
-## Changing a Company's Name
+## Changing a company's name
 
 Once a company has been created, you can't change it's name. But you can change its **Display Name**, which is text that will be shown for the company throughout the application.  
 
@@ -67,7 +67,7 @@ Once a company has been created, you can't change it's name. But you can change 
 
 ## Add Contoso Coffee
 
-The Contoso Coffee app provides demonstration data that can help you explore the capabilities of [!INCLUDE [prod_short](includes/prod_short.md)]. Find the app in AppSource, and install it in an empty company, for example a company in a sandbox environment.  
+The Contoso Coffee app provides demonstration data that can help you explore the advanced capabilities of [!INCLUDE [prod_short](includes/prod_short.md)]. Find the app in AppSource, and install it in an empty company, for example a company in a sandbox environment. For more information, see [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md).  
 
 ## See Also
 

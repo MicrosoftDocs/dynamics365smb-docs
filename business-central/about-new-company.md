@@ -15,7 +15,9 @@ ms.author: edupont
 ---
 # Create New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-In [!INCLUDE[prod_short](includes/prod_short.md)], the container for business data that belongs to a business unit or legal entity is referred to as a *company*. When you sign up for [!INCLUDE[prod_short](includes/prod_short.md)], you are given a demonstration company and an empty company, *My Company*. Switching between the companies is easy: just go to **My Settings** and move to the other company. But you can also create new companies in [!INCLUDE[prod_short](includes/prod_short.md)] depending on your business needs. When you create a new company, an assisted setup guide helps you get the basics in place. Then, you can import relevant data from your legacy system or another company in [!INCLUDE[prod_short](includes/prod_short.md)].  
+In [!INCLUDE[prod_short](includes/prod_short.md)], the container for business data that belongs to a business unit or legal entity is referred to as a *company*. When you sign up for [!INCLUDE[prod_short](includes/prod_short.md)], you are given a demonstration company and an empty company, *My Company*. Switching between the companies is easy: just go to **My Settings** and move to the other company. But you can also create new companies in [!INCLUDE[prod_short](includes/prod_short.md)] depending on your business needs.  
+
+When you create a new company, an assisted setup guide helps you get the basics in place. Then, you can import relevant data from your legacy system or another company in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## Choose the right template
 
@@ -35,7 +37,7 @@ If you want to get started easily with a new company, choose **Production - Setu
 > [!NOTE]  
 > When you create a new company, it takes a few minutes before you can access it in [!INCLUDE[prod_short](includes/prod_short.md)]. The setup status on the **Companies** page shows when the new company is ready for you. Then, you can switch to the new company by using **My Settings**.  
 
-During your 30 day trial, you can create any number of new companies, but they will only be available during your trial. For more information, contact your [!INCLUDE[prod_short](includes/prod_short.md)] partner.  
+During your 30 day trial, you can create any number of new companies, but they will only be available during your trial. For more information, contact your [!INCLUDE[prod_short](includes/prod_short.md)] partner. See also the [Dynamics 365 Business Central trial FAQ](trial-faq.md) article.  
 
 ## Copy a company
 
@@ -56,7 +58,7 @@ Once you have the basics in place, you can set up remaining core areas. Then, yo
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
-For more information, see [Switching to Another Company or Environment](ui-organization-switch.md). 
+For more information, see [Switching to Another Company or Environment](ui-organization-switch.md).  
 
 ## Changing a company's name
 
@@ -76,6 +78,7 @@ The Contoso Coffee app provides demonstration data that can help you explore the
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-
+[Trials and Subscriptions](across-preview.md)  
+[Understanding the Infrastructure of Business Central Online (English only)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

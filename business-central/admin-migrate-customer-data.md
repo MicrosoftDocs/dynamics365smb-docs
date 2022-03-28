@@ -1,7 +1,7 @@
 ---
 title: Migrate Customer Data
-description: You can migrate existing customer data from an existing system to Business Central using RapidStart Services - or just enter it directly into the company.
-author: SorenGP
+description: You can migrate existing customer data from an existing system to Business Central using an assisted setup guide. Alternatively, use Excel and RapidStart Services.
+author: edupont04
 
     
 ms.topic: conceptual
@@ -15,7 +15,9 @@ ms.author: edupont
 ---
 # Migrate Customer Data
 
-You can migrate existing customer data from an existing ERP system to [!INCLUDE[prod_short](includes/prod_short.md)] using the data migration tools of RapidStart Services. You can use Excel files as the data carrier. You can also manually move the data by entering it directly in the company. Alternatively, you can use the **Cloud Migration** guide help you move data. For more information, see [Migrate Data](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the admin content.
+You can migrate existing customer data from an existing ERP system to [!INCLUDE[prod_short](includes/prod_short.md)] online using the cloud migration process for supported versions. Alternatively, you can migrate to [!INCLUDE [prod_short](includes/prod_short.md)] on-premises using the data migration tools of RapidStart Services, and then switch to the cloud. For more information, see [Migrate On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the admin content (English only).  
+
+In this article, we look at the configuration files that you can export from and import into [!INCLUDE [prod_short](includes/prod_short.md)]. The content was written with on-premises deployments in mind.  
 
 > [!NOTE]
 > Fields of type Blob cannot be exported/imported using Excel.

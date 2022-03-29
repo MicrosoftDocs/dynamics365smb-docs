@@ -41,7 +41,7 @@ There are two ways to set which layout a report uses. One way is from the **Repo
 
 ## Set the layout from Report Layout Selection page
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.
   
    The page lists all the reports that are available for the company that's specified in the **Company** field at the top of the page. The **Layout Description** field specifies the layout that the report currently uses.
 2. Set the **Company** field at the top to the company that includes the report.

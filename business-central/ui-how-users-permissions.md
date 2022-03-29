@@ -36,7 +36,7 @@ For more information, see [Administration of Business Central Online](/dynamics3
 > [!NOTE]
 > After you add users in the Microsoft 365 Admin Center, we recommend that you update the user information in [!INCLUDE[prod_short](includes/prod_short.md)] as soon as possible. Keeping user information current is easy to do, and helps ensure that people can always sign in. For more information, see [To add users or update user information and license assignments in Business Central](#adduser).<br>
 > 
-> Updating user information is especially important if you've customized permission sets for the license. If a new user tries to sign in to [!INCLUDE[prod_short](includes/prod_short.md)] before you've added them, they might not be able to. For more information, see [Configure permissions based on licenses](ui-how-user-permissions.md#configure-permissions-based-on-licenses). 
+> Updating user information is especially important if you've customized permission sets for the license. If a new user tries to sign in to [!INCLUDE[prod_short](includes/prod_short.md)] before you've added them, they might not be able to. For more information, see [Configure permissions based on licenses](#licensespermissions). 
 > 
 > However, users who experience this problem aren't actually blocked. They can either use the **Go back home** action, or simply sign in again to resolve the issue.
 

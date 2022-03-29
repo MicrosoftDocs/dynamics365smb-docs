@@ -45,7 +45,7 @@ You must also create a general journal template for deposits. You use general jo
 
 The deposits will be cash receipts, so you might want to reuse your number series for cash receipt journals. Alternatively, if you need to distinguish between bank deposit and cash receipt journal entries, use a different number series.
 
-You'll also need to create a batch job for the template. To create a batch job, on the **General Journal Templates** page, choose the **Batches** action. For more information, see [Using Journal Templates and Batches](ui-work-general-journals.md#using-journal-templates-and-batches).
+You'll also need to create a batch job for the template. To create a batch job, on the **General Journal Templates** page, choose the **Batches** action. For more information, see [Using Journal Templates and Batches](ui-work-general-journals.md#use-journal-templates-and-batches).
 
 ## Dimensions on Bank Deposit Lines
 The lines on the bank deposit will automatically use the default dimensions you specified in the **Department Code** and **Customer group Code** fields. When you choose **Customer** or **Vendor** in the **Account Type** field, the dimensions that are specified for the customer or vendor will replace the defaults. You can change the dimensions on the lines, if needed.

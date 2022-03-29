@@ -233,7 +233,7 @@ The prepayments functionality in [!INCLUDE[prod_short](includes/prod_short.md)] 
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Finance](finance.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)
 
 

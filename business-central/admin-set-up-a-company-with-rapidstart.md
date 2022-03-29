@@ -1,6 +1,6 @@
 ---
 title: Set Up a Company With RapidStart Services
-description: You can set up a new company in Business Central with RapidStart services  to enhance productivity by automating and simplifying recurring tasks.
+description: You can set up a new company in Business Central with RapidStart services to enhance productivity by automating and simplifying recurring tasks.
 author: SorenGP
 
 
@@ -10,13 +10,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 8610, 8614, 8615, 8620, 8632
-ms.date: 06/14/2021
+ms.date: 03/28/2022
 ms.author: edupont
 
 ---
-# Setting Up a Company With RapidStart Services
+# Set Up a Company with RapidStart Services
 
 You can set up a new company in [!INCLUDE[prod_short](includes/prod_short.md)] with RapidStart Services, which is a tool designed to shorten deployment times, improve quality of implementation, introduce a repeatable approach to implementations, and enhance productivity by automating and simplifying recurring tasks.  
+
+Use these capabilities to scale your business as a reseller. Most of the relevant pages apply to both [!INCLUDE [prod_short](includes/prod_short.md)] online and on-premises. However, some processes rely on access to files on disk and are too complex to use for [!INCLUDE [prod_short](includes/prod_short.md)] online. For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, you probably want to use Windows PowerShell to help you deploy. For more information, see [Administration of Business Central On-Premises](/dynamics365/business-central/dev-itpro/administration/administration) and [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration), respectively.  
 
 RapidStart Services helps you gain an overview of the setup process of your new company by providing a worksheet in which you can set up the tables often involved in the configuration process of new companies. As you do this, you can create a questionnaire to guide your customers through the collection of setup information. Your customers have the option of using the questionnaire to set up application areas, or they can open the setup page directly and do the setup there. Most importantly, RapidStart Services helps you, as a customer, prepare the company with default setup data that you can fine-tune and customize. Lastly, when you use RapidStart Services, you can configure and migrate existing customer data, such as a list of customers or items, into the new company.
 

@@ -10,12 +10,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
 ms.search.form: 600, 605, 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
-ms.date: 04/01/2021
+ms.date: 03/09/2022
 ms.author: edupont
 
 ---
 # Manage the Intercompany Inbox and Outbox
 All of the intercompany transactions that you receive electronically from your intercompany partners are listed in the intercompany Inbox.  
+
+However, depending on how intercompany is set up for your company, some transactions are automatically replicated to the relevant intercompany partners. Starting in 2022 release wave 1, you can set up the company for automatic creation of received intercompany transactions from intercompany partners, posted through the intercompany general journal. For more information, see [To fill in and post an intercompany journal](intercompany-how-work-documents-journals.md#to-fill-in-and-post-an-intercompany-journal).  
 
 ## Organizing the Inbox  
  You can use the filter fields at the top of the inbox page to determine which transactions are shown on the page. For example, if you only want to look at transactions a particular partner created, you can enter filters in the **Transaction Source** and **Intercompany Partner Code** filters.  
@@ -48,14 +50,16 @@ You can use the **Show Transaction Source** field to filter the **Intercompany I
  > If the intercompany partners are in the same database, then transactions are transferred without the need for file or email. See the **Transfer Type** field on the **Intercompany Partner** page. <br /><br />
 In that case, you can set the system up to bypass the inbox and outbox by selecting the **Auto. Accept Transactions** check box on the **Intercompany Partner** page and the **Auto. Send Transactions** check box on the **Intercompany Setup** page respectively. Incoming intercompany transactions can be automatically accepted only if task scheduler is enabled. For more information, see [Configure Business Central Server - Task Scheduler Settings](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
 
-## To import intercompany transactions from a file  
+## To import intercompany transactions from a file
+
+[!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
+
 If you have an intercompany partner that is not in the same database as your company, you can receive intercompany transactions from that partner in an .xml file. Then you must import the transactions into your inbox.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information** , and then choose the related link.
-2. Save the file to the location that you specified in the **Intercompany Inbox Details** field on the **Company Information** page.  
-3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Inbox Transactions**, and then choose the related link.
-4. On the **Intercompany Inbox Transactions** page, choose the **Import Transaction File** action.  
-5. on the page that appears, select the .xml file that contains the transactions, and then choose the **Open** button.  
+1. Save the file to the location that you specified in the **Intercompany Inbox Details** field when you set up intercompany.  
+2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Inbox Transactions**, and then choose the related link.
+3. On the **Intercompany Inbox Transactions** page, choose the **Import Transaction File** action.  
+4. on the page that appears, select the .xml file that contains the transactions, and then choose the **Open** button.  
 
 The transactions are imported into the inbox and you can now process them.
 
@@ -98,8 +102,8 @@ The following procedure describes to re-create inbox transactions, but the same 
 [Managing Intercompany Transactions](intercompany-manage.md)  
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
-[Working with General Journals](ui-work-general-journals.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with General Journals](ui-work-general-journals.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

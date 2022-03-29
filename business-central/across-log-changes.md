@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
 
 ---
@@ -37,8 +37,7 @@ Also for performance reasons, the change log is turned off during the process of
 > * The user selected another company or Role Center.
 > * The user signed out and signed in again.
 
-### Working with the Change Log
-
+### Work with the Change Log
 You activate and deactivate the change log on the **Change Log Setup** page. When a user activates or deactivates the change log, this activity is logged, so you can always see which user deactivated or reactivated the change log.
 
 On the **Change Log Setup** page, if you choose the **Tables** action, you can specify which tables you want to track changes for, and which changes to track. [!INCLUDE[prod_short](includes/prod_short.md)] also tracks several system tables.
@@ -52,8 +51,7 @@ After you have set up the change log, activated it, and made a change to data, y
 
 From some pages in [!INCLUDE [prod_short](includes/prod_short.md)], you can view an activity log that shows the status and any errors from files that you export from or import into [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-### Working with Activity Logs
-
+### Work with Activity Logs
 The information is displayed in the **Activity Log** page according to the context that it is opened from. For example, you can open the page from the **Document Exchange Service Setup**, **Incoming Document**, **Posted Sales Invoice**, and **Posted Sales Credit Memo** pages. You can empty the list of log entries, or just clear the list of entries older than seven days.  
 
 ## Monitoring Sensitive Fields
@@ -79,7 +77,7 @@ You can manage settings for field monitoring, such as whether to send an email n
 > [!NOTE]
 > After you add one or more fields and start monitoring, you must sign out of [!INCLUDE[prod_short](includes/prod_short.md)] and sign in again to apply your settings.
 
-### Working with Field Monitoring
+### Work with Field Monitoring
 
 Entries for all changed values for monitored fields are available on the **Monitored Fields Log Entries** page. For example, entries contain the following information:
 
@@ -106,7 +104,7 @@ You can create retention policies to delete unneeded data in logs after a period
 [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)    
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Define Retention Policies](admin-data-retention-policies.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

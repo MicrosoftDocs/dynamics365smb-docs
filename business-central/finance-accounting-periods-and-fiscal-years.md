@@ -13,7 +13,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ---
-# Working with Accounting Periods and Fiscal Years
+# Work with Accounting Periods and Fiscal Years
 
 Accounting periods, which are also known as reporting periods, are periods of time for which a company or organization reports financial performance, for example, by generating their income statement or balance sheet. Typically, accounting periods refer to the company's fiscal year, which can contain several accounting periods, such as months or quarters.
 

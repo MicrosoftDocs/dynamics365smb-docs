@@ -34,7 +34,7 @@ You can print the **OCR Journal – Test** report to test the imported payment t
  [Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)   
  [Set Up OCR Payments](how-to-set-up-ocr-payments.md)   
  [Import and Post OCR Payments](how-to-import-and-post-ocr-payments.md)   
- [Working with General Journals](../../ui-work-general-journals.md)
+ [Work with General Journals](../../ui-work-general-journals.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

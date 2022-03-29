@@ -43,7 +43,7 @@ This article describes how to get started using Power BI Desktop to create repor
 
 - Download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional).
 
-  For more information, see [Using the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](#theme) in this article.
+  For more information, see [Use the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](#theme) in this article.
 
 ## <a name="getdata"></a>Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop
 

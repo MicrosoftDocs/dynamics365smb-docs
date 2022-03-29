@@ -13,7 +13,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 
 ---
-# Using Business Central without Outlook
+# Use Business Central without Outlook
 [!INCLUDE[prod_short](includes/prod_short.md)] has deep integration with Microsoft 365, and you can use [!INCLUDE[prod_short](includes/prod_short.md)] as your business inbox in Outlook. But if you do not have Outlook, you can work with [!INCLUDE[prod_short](includes/prod_short.md)] in the browser or on your mobile device.  
 
 ## Sending Email
@@ -22,7 +22,7 @@ You can send documents such as invoices as email using your business email addre
 
 ## See Also
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Using Business Central as your Business Inbox in Outlook](admin-outlook.md)  
+[Use Business Central as your Business Inbox in Outlook](admin-outlook.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)
 

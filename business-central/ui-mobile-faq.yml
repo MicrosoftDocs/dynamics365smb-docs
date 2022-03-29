@@ -63,7 +63,7 @@ sections:
       - question: |
           Can I connect the app to our on-premises solution?
         answer: |
-          Yes, you can! It's a slightly different way to signing in, that's all. For more information, see [Using Business Central on-premises?](install-mobile-app.md#using-business-central-on-premises).  
+          Yes, you can! It's a slightly different way to signing in, that's all. For more information, see [Use Business Central on-premises?](install-mobile-app.md#use-business-central-on-premises).  
 
       - question: |
           Can a guest user use the app to access our Business Central solution?

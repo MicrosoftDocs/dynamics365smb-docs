@@ -57,4 +57,4 @@ To schedule a task for reconciling inventory with the general ledger, choose Cod
 [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

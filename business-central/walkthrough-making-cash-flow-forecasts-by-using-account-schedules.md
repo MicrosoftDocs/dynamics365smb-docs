@@ -144,6 +144,6 @@ Ken is now ready to assign the column layout to the account schedule name.
 [Work with Account Schedules](bi-how-work-account-schedule.md)  
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
 [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

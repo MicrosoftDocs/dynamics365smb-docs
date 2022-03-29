@@ -1,9 +1,7 @@
 ---
 title: Create Production BOMs
 description: Learn how to create a production bill of material (BOM), new versions of a production BOM, and how to use the quantity calculation formula.
-author: SorenGP
-
-
+author: bholtorf
 ms.topic: conceptual
 ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
@@ -82,6 +80,10 @@ The relation of the individual components is defined by the calculation formula.
 - **Length x Width** - Quantity = Quantity per * Length x Width  
 - **Length x Width x Depth** - Quantity = Quantity per x Length x Width x Depth  
 - **Weight** - Quantity = Quantity per x Weight  
+- **Fixed Quantity** - Quantity = Quantity per
+
+> [!NOTE]
+> The **Fixed Quantity** calculation formula ensures that the consumption of a component is the same, regardless of the scrap or output quantities. For production order components, when the **Calculation Formula** field is set to **Fixed Quantity**, the **Expected Quantity** field value is always equal to the **Quantity per** field. The scrap percentage that is defined on the same line is ignored. Fixed quantity is respected by the **Availability by BOM** report. The report will show the item as the bottleneck if the available quantity is less than the quantity in the **Quantity Per Parent** field. The **Able to Make Parent** and **Able to Make Top Item** fields are always blank, regardless of the available quantity. Fixed quantity is also included in calculations for standard costs. The lot size for the produced item impacts the cost that is allocated for one item.
 
 ### Example
 
@@ -95,7 +97,7 @@ In a production BOM, seventy metal parts with the dimensions length = 0.20 m and
 [Planning](production-planning.md)   
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

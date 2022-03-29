@@ -15,20 +15,20 @@ ms.author: bholtorf
 
 ---
 # Set Up Email
-People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can make that easier to do by connecting one or more email accounts to [!INCLUDE[prod_short](includes/prod_short.md)], so you can send documents without having to open an email app. You can compose each message individually with basic formatting tools, such as fonts, styles, colors, and so on, and add attachments of up to 100MB. Administrators can also set up report layouts that include only the key information from documents. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
+People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can connect one or more email accounts to [!INCLUDE[prod_short](includes/prod_short.md)], so you can send documents without having to open an email app. You can compose each message individually with basic formatting tools, such as fonts, styles, colors, and so on. You can also add attachments of up to 100 MB. Additionally, administrators can set up report layouts that include only the key information from documents. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
 
-The email capabilities in [!INCLUDE[prod_short](includes/prod_short.md)] are for outbound messages only. You cannot receive replies, that is, there is no inbox page in [!INCLUDE[prod_short](includes/prod_short.md)].
+The email capabilities in [!INCLUDE[prod_short](includes/prod_short.md)] are for outbound messages only. You can't receive replies, that is, there's no Inbox page in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
-> You can use the email capabilities of [!INCLUDE[prod_short](includes/prod_short.md)] online only with Exchange Online. We do not support hybrid scenarios, such as connecting [!INCLUDE[prod_short](includes/prod_short.md)] online to an on-premises version of Exchange.
+> You can use the email capabilities of [!INCLUDE[prod_short](includes/prod_short.md)] online only with Exchange Online. We don't support hybrid scenarios, such as connecting [!INCLUDE[prod_short](includes/prod_short.md)] online to an on-premises version of Exchange.
 > 
-> If you are using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, before you can set up email you must create an app registration for [!INCLUDE[prod_short](includes/prod_short.md)] in Azure portal. The app registration will enable [!INCLUDE[prod_short](includes/prod_short.md)] to authorize and authenticate with your email provider. For more information, see [Setting Up Email for Business Central On-Premises](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). In [!INCLUDE[prod_short](includes/prod_short.md)] online, we handle this for you.
+> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, before you can set up email you must create an app registration for [!INCLUDE[prod_short](includes/prod_short.md)] in the Azure Portal. The app registration will enable [!INCLUDE[prod_short](includes/prod_short.md)] to authorize and authenticate with your email provider. For more information, see [Setting Up Email for Business Central On-Premises](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). In [!INCLUDE[prod_short](includes/prod_short.md)] online, we handle this for you.
 
 ## Required Permissions
 To set up email, you must have the **EMAIL SETUP** permission set. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md). 
 
 ## Adding Email Accounts
-You add email accounts through extensions that enable accounts from different providers to connect to [!INCLUDE[prod_short](includes/prod_short.md)]. The standard extensions let you use accounts from Microsoft Exchange Online, but other extensions may be available that let you connect accounts from other providers, such as Gmail.
+You add email accounts through extensions that enable accounts from different providers to connect to [!INCLUDE[prod_short](includes/prod_short.md)]. The standard extensions let you use accounts from Microsoft Exchange Online. However, other extensions that let you connect accounts from other providers, such as Gmail, might be available.
 
 After you add an email account, you can specify predefined business scenarios in which to use the account to send emails. For example, you can specify that all users send sales documents from one account, and purchase documents from another. For more information, see [Assign Email Scenarios to Email Accounts](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
@@ -36,7 +36,7 @@ The following table describes the email extensions that are available by default
 
 |Extension  |Description  |Examples of when to use  |
 |---------|---------|---------|
-|**Microsoft 365**|Everyone sends email from a shared mailbox in Exchange Online.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. This requires that you set up a shared mailbox in the Microsoft 365 admin center. For more information, see [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
+|**Microsoft 365**|Everyone sends email from a shared mailbox in Exchange Online.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. This option requires that you set up a shared mailbox in the Microsoft 365 admin center. For more information, see [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Current User**|Everyone sends email from the account they used to sign in to [!INCLUDE[prod_short](includes/prod_short.md)].|Allow communications from individual accounts.|
 |**Other (SMTP)**|Use SMTP protocol to send emails.|Allow communications through your SMTP mail server. |
 
@@ -48,10 +48,10 @@ The following table describes the email extensions that are available by default
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
 ## Legacy SMTP Settings and the Email - SMTP Connector Extension
-If you're already using [!INCLUDE[prod_short](includes/prod_short.md)] and have configured email through the legacy SMTP setup, you can continue using your setup in parallel with the Email - SMTP Connector extension. When we update your [!INCLUDE[prod_short](includes/prod_short.md)] to the next release version, we will copy your legacy SMTP settings to the Email - SMTP Connector extension. When ready, your administrator can turn on the enhanced email capabilities and you will start using the Email - SMTP Connector extension. For more information, see [About Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management#about-feature-management). However, there is no synchronization between the SMTP Connector extension and the legacy settings. If you change the SMTP settings in the extension, you should make the same changes in the legacy SMTP setup, or vice versa.
+If you're using the legacy SMTP setup in [!INCLUDE[prod_short](includes/prod_short.md)], you can continue to do so in parallel with the Email - SMTP Connector extension. When we update your [!INCLUDE[prod_short](includes/prod_short.md)] to the next release version, we'll copy your legacy SMTP settings to the Email - SMTP Connector extension. When ready, your administrator can turn on the enhanced email capabilities and you'll start using the Email - SMTP Connector extension. For more information, see [About Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management#about-feature-management). However, there's no synchronization between the SMTP Connector extension and the legacy settings. If you change the SMTP settings in the extension, you should make the same changes in the legacy SMTP setup, or vice versa.
 
 > [!NOTE]
-> If you have customizations that rely on the legacy SMTP email setup, there is a chance that something will go wrong with your customizations if you start using email extensions. We recommend that you set up and test the extensions before you turn on the feature switch for enhanced email capabilities.
+> If you have customizations that rely on the legacy SMTP email setup, there's a chance that something will go wrong with your customizations if you start using email extensions. We recommend that you set up and test the extensions before you turn on the feature switch for enhanced email capabilities.
 
 > [!IMPORTANT]
 > If you are using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can use the OAuth 2.0 for authentication but you must create an application registration in the Azure portal, and then run the **Set up Azure Active Directory** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Azure AD. For more information, see [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
@@ -60,7 +60,7 @@ If you're already using [!INCLUDE[prod_short](includes/prod_short.md)] and have 
 The **Set Up Email** assisted setup guide can help you get started quickly with emails.
 
 > [!NOTE]
-> You must have a default email account, even if you add only one account. The default account will be used for all email scenarios that are not assigned to an account. For more information, see [Assign Email Scenarios to Email Accounts](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
+> You must have a default email account, even if you add only one account. The default account will be used for all email scenarios that aren't assigned to an account. For more information, see [Assign Email Scenarios to Email Accounts](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Set Up Email Accounts**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
@@ -72,7 +72,7 @@ The **Set Up Email** assisted setup guide can help you get started quickly with 
 
 is this still true?-->
 ## Assign Email Scenarios to Email Accounts
-Email scenarios are processes that involve sending a document, such as a sales or purchase order, or a notification, such as an invitation to an external accountant. You can use specific email accounts for specific scenarios. For example, you can specify that all users always send sales documents from one account, purchase documents from another, and warehouse or production documents from a third account. You can assign, reassign, and remove scenarios whenever you want, but you can only assign a scenario to one email account at a time. The default email account will be used for all scenarios that are not assigned to an account.
+Email scenarios are processes that involve sending a document. For example, a sales or purchase order or a notification, such as an invitation to an external accountant. You can use specific email accounts for specific scenarios. For example, you can specify that all users always send sales documents from one account, purchase documents from another, and warehouse or production documents from a third account. You can assign, reassign, and remove scenarios whenever you want, but you can only assign a scenario to one email account at a time. The default email account will be used for all scenarios that are not assigned to an account.
  
 <!--
 ## To set up email
@@ -87,6 +87,19 @@ Email scenarios are processes that involve sending a document, such as a sales o
 
 -->
 
+## Set Up View Policies
+You can control the email messages that a user can see in the Email Outbox and Sent Emails pages.
+
+On the **User Email View Policies**, choose a user, and then choose one of the following options in the **Email View Policy** field:
+
+* **View own emails** - The user can view only their own email messages.
+* **View all emails** - The user can view all email messages, including emails that were sent by other users.
+* **View if access to all related records** - This is the default view policy. The user can view email messages that other users sent if the user has access to the record that was sent and all related. For example, User A sent a posted sales invoice to a customer. User B can see the email message if they have access to both the invoice and the customer.
+* **View if access to any related records** - The user can view email messages that were sent by other people if the user has access to at least one record that is related to the record that was sent. For example, User A sent a posted sales invoice to a customer. User B can see the email message if they have access to either the invoice or the customer.
+
+> [!NOTE]
+>  If you leave the **User ID** field empty and then choose the Email View Policy action, the policy that you define applies to all users.
+
 ## Set Up Reusable Email Texts and Layouts for Sales and Purchase Documents
 You can use reports to include key information from sales and purchase documents in texts for emails. This procedure describes how to set up the **Sales - Invoice** report for posted sales invoices, but the process is similar for other reports.
 
@@ -96,9 +109,9 @@ You can use reports to include key information from sales and purchase documents
 4. Select the **Use for Email Body** check box.
 5. Choose the **Email Body Layout Description** field, and then select a layout from the list.
 
-    Report layouts define both the style and the content of the text in the email, including texts such as a greeting or instructions that precede the document information. If your organization has many layouts, you can see all available report layouts if you choose the **Select from full list**.
+    Report layouts define the style and the content of the text in the email. This includes texts such as a greeting or instructions that precede the document information. If your organization has many layouts, you can choose **Select from full list** to access all available report layouts.
 6. To view or edit the layout that the email text is based on, select the layout on the **Custom Report Layouts** page, and then choose the **Update Layout** action.
-7. If you want to offer customers to pay for sales electronically, you can set up the related payment service, such as PayPal, and then have the PayPal information and link inserted in the email text. For more information, see [Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md).
+7. If you want to let customers use a payment service, such as PayPal, you'll need to set up the service. Afterward, the PayPal information and link are inserted in the email text. For more information, see [Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md).
 8. Choose the **OK** button.
 
 Now, when you choose, for example, the **Send** action on the **Posted Sales Invoice** page, the email body will contain the document information of report 1306 preceded by styled standard text according to the report layout that you selected in step 5.
@@ -133,7 +146,7 @@ The following are examples of how Send As and Send on Behalf are used in [!INCLU
 > [!INCLUDE[prod_short](includes/prod_short.md)] will determine which address to display in the following order: <br><br> 1. The address specified in the **E-Mail** field on the **Approval User Setup** page for messages in a workflow. <br> 2. The address specified in the **Send As** field in the **SMTP Email Setup** page. <br> 3. The address specified in the **User ID** field in the **SMTP Email Setup** page.
 
 ## Set Up Document Sending Profiles
-You can set up a preferred method of sending sales documents for each of your customers so that you do not have to select a sending option, such as whether to send the document by email or as an electronic document, every time you send a document. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
+You can save time by setting up a preferred method of sending sales documents for each of your customers. If you do, you won't have to select a sending option, such as whether to send the document by email or as an electronic document, every time you send a document. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 
 ## Optional: Set Up Email Logging in Exchange Online
 Get more out of the communications between salespeople and your existing or potential customers by tracking email exchanges, and then turning them into actionable opportunities. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  
@@ -165,7 +178,7 @@ If you are using a legacy SMTP setup or the SMTP connector and want to use OAuth
 |Microsoft Graph / SMTP.Send|Delegated|Send emails from mailboxes using SMTP AUTH.         |
 |Office 365 Exchange Online / User.Read |Delegated|Sign in and read user profile.         |
 
-When you create your app registration, note the following information. You will need it to connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration.
+When you create your app registration, note the following information. You'll need it to connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration.
  
 * Application (client) ID 
 * Redirect URI (optional)

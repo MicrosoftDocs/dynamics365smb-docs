@@ -38,7 +38,7 @@ Next, you connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange O
 > [!NOTE]
 > These steps require administrator access for Exchange Online.
 
-Prepare a shared mailbox in the Exchange admin center. Alternatively, you can also use Exchange Online PowerShell. For more information, see [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox) or [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true).
+Prepare a shared mailbox in the Exchange admin center. Alternatively, you can also use Exchange Online PowerShell. For more information, see [Create a shared mailbox](/microsoft-365/admin/email/create-a-shared-mailbox) or [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true).
 
 > [!NOTE]
 > If you use Exchange Management PowerShell, your changes are available in the Exchange admin center after a delay. The delay might be several hours.
@@ -47,7 +47,7 @@ Prepare a shared mailbox in the Exchange admin center. Alternatively, you can al
 The account that you'll use for email logging is an Exchange Online account. The scheduled job will use the account to connect to the shared mailbox and process emails. This account should not be associated with a specific person. Add the email account to the members for the shared mailbox. For more information, see [Use the EAC to edit shared mailbox delegation](/exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation).
 
 ### Allow other users to see logged emails
-You can allow another user to open an email message in Exchange that is related to an interaction log entry from [!INCLUDE[prod_short](includes/prod_short.md)]. To do that, give the user ``Read`` permission to the **Archive** folder in the shared mailbox. For more information, see [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true).
+You can allow another user to open an email message in Exchange that is related to an interaction log entry from [!INCLUDE[prod_short](includes/prod_short.md)]. To do that, give the user ``Read`` permission to the **Archive** folder in the shared mailbox. For more information, see [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true).
 
 ### Create mail flow rules
 Mail flow rules look for specific conditions on messages and take action on them. Create two mail flow rules based on the information in the following table. For more information, see [Manage mail flow rules in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules?preserve-view=true) and [Mail flow rule actions in Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions?preserve-view=true).

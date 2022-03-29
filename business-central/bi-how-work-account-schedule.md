@@ -150,7 +150,7 @@ For more information about date formulas, see [Work with Calendar Dates and Time
 You can import and export account schedules as RapidStart configuration packages. For example, this is useful for sharing them with other companies. The package is created in a .rapidstart file, which delivers the package contents in a compressed format.
 
 ### To import and export account schedules
-1. Choose the ![Lightbulb that opens the Tell Me feature 4.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.
 2. Choose the account schedule, and then choose the **Import Account Schedule** or **Export Account Schedule** actions, depending on what you want to do. 
 
 > [!NOTE]

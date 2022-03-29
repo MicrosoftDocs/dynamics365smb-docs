@@ -36,14 +36,14 @@ The following table describes the email extensions that are available by default
 
 |Extension  |Description  |Examples of when to use  |
 |---------|---------|---------|
-|**Microsoft 365**|Everyone sends email from a shared mailbox in Exchange Online.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. This option requires that you set up a shared mailbox in the Microsoft 365 admin center. For more information, see [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
-|**Current User**|Everyone sends email from the account they used to sign in to [!INCLUDE[prod_short](includes/prod_short.md)].|Allow communications from individual accounts.|
+|**Microsoft 365 Connector**|Everyone sends email from a shared mailbox in Exchange Online.|When all messages come from the same department, for example, your sales organization sends messages from a sales@cronus.com account. This option requires that you set up a shared mailbox in the Microsoft 365 admin center. For more information, see [Shared mailboxes](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
+|**Current User Connector**|Everyone sends email from the account they used to sign in to [!INCLUDE[prod_short](includes/prod_short.md)].|Allow communications from individual accounts.|
 |**Other (SMTP)**|Use SMTP protocol to send emails.|Allow communications through your SMTP mail server. |
 
 > [!NOTE]
-> The **Microsoft 365** and **Current User** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Microsoft 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. 
+> The **Microsoft 365 Connector** and **Current User Connector** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Microsoft 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. Additionally, these extensions require that the **Allow HttpClient Requests** setting is enabled. To check whether it is enabled for these extensions, go to the **Extension Management** page, choose the extension, and then choose the **Configure** option.
 >
-> Additionally, external users, such as delegated admins and external accountants, cannot use these extensions to send email messages from [!INCLUDE[prod_short](includes/prod_short.md)].
+> External users, such as delegated admins and external accountants, cannot use these extensions to send email messages from [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 

@@ -47,10 +47,9 @@ To assign a template to an API, you must go through the following steps.
 ## See Also
 
 [API Documentation](/dynamics-nav/fin-graph)  
-[Developing Connect Apps for [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
+[Develop Connect Apps for [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
 [Enabling the APIs](/dynamics-nav/enabling-apis-for-dynamics-nav)  
 [Endpoints for the APIs](/dynamics-nav/endpoints-apis-for-dynamics)  
-[Setting Up a Company with RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

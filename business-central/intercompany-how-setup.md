@@ -16,13 +16,16 @@ ms.author: edupont
 ---
 # Set Up Intercompany Transaction Posting
 
-Intercompany postings make accounting for two or more companies an easier task for a centralized finance department as well as bookkeepers in intercompany partner companies. To send a transaction (such as a sales journal line) from one company and have the corresponding transaction (such as a purchase journal line) automatically created in the partner company, the companies involved must agree on a common chart of accounts and set of dimensions to use with intercompany transactions. The intercompany chart of accounts can be, for example, a simplified version of the parent company's chart of accounts. Each company maps their full chart of accounts to the shared intercompany chart of accounts, and each company maps their dimensions to the intercompany dimensions.  
+Intercompany postings make accounting for two or more companies an easier task for a centralized finance department and bookkeepers in intercompany partner companies. To send a transaction (such as a sales journal line) from one company and have the corresponding transaction (such as a purchase journal line) automatically created in the partner company, the companies involved must agree on a common chart of accounts and set of dimensions to use with intercompany transactions. The intercompany chart of accounts can be, for example, a simplified version of the parent company's chart of accounts. Each company maps their full chart of accounts to the shared intercompany chart of accounts, and each company maps their dimensions to the intercompany dimensions.  
 
 You must also set up an intercompany partner code for each [!INCLUDE [prod_short](includes/prod_short.md)] company, which is agreed upon by all of the companies, and then assign that to customer and vendor cards, respectively.  
 
 If you create or receive intercompany lines with items, you can either use your own item numbers, or you can set up your partner's item numbers for each relevant item, either in the **Vendor Item No.** field or in the **Common Item No.** field on the item card. You can also use the **Item Reference** function to map your items' numbers to your intercompany partners descriptions of the items, open the card of each item, and then choose the **Item References** action to set up references between your item descriptions and those of the intercompany partner. For more information, see [Use Item References](inventory-how-use-item-cross-refs.md). 
 
-If you will make intercompany sales transactions that include resources, you must fill in the **IC Partner Purch. G/L Acc. No.** field on the resource card for each relevant resource. This is the number of the intercompany general ledger account that the amount for this resource will be posted to in your partner's company. For more information, see [Set Up Resources](projects-how-setup-resources.md).
+If you will make intercompany sales transactions that include resources, you must fill in the **IC Partner Purch. G/L Acc. No.** field on the resource card for each relevant resource. This is the number of the intercompany general ledger account that the amount for this resource will be posted to in your partner's company. For more information, see [Set Up Resources](projects-how-setup-resources.md). 
+
+> [!NOTE]
+> Intercompany purchase transactions that include resources, fixed assets, and item charges are not fully supported. In your intercompany partner's company, the **Line Type** field will be blank on purchase document lines that include these entities. You must manually update the field. 
 
 ## To set up a company for intercompany transactions
 
@@ -52,9 +55,9 @@ In versions older than 2022 release wave 1, you must fill in three intercompany-
 5. Repeat steps 1 through 4 for customers.
 
 ## To set up intercompany charts of accounts
-In order for a group of companies to make intercompany transactions, they must agree on a chart of accounts to use as a common reference. You must agree with your partner companies on the account numbers that all of you will use when you create intercompany transactions. For example, the parent company of the group creates a simplified version of their own chart of accounts, exports this intercompany chart of accounts from their database into an XML file and distributes it to each of the companies in the group.  
+In order for a group of companies to make intercompany transactions, they must agree on a chart of accounts to use as a common reference. You must agree with your partner companies on the account numbers that you'll all use when you create intercompany transactions. For example, the parent company of the group creates a simplified version of their own chart of accounts, then exports it to an XML file that it distributes it to each company in the group.  
 
-If your company is the parent company and has the defining intercompany chart of accounts that your group will use as a common reference, follow the [To set up the defining intercompany chart of accounts](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts) procedure.  
+If the chart of accounts for your company defines the intercompany chart of accounts for your partner companies, follow the process described in [To set up the defining intercompany chart of accounts](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts).  
 
 If your company is a subsidiary company and you receive an XML file containing the common intercompany chart of accounts, follow the [To import the intercompany chart of accounts](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts) procedure.  
 
@@ -78,13 +81,13 @@ When a file exists for defining the intercompany chart of accounts, intercompany
 The **IC Chart of Accounts** page is filled with new or edited G/L account lines according to the intercompany chart of accounts in the file. Any existing, unrelated lines on the page remain unchanged.
 
 ### To map the intercompany chart of accounts to your company's chart of accounts  
-When you have defined or imported the intercompany chart of accounts that you and your intercompany partners have agreed to use, you must associate each of the intercompany G/L accounts with one of your company's G/L accounts. On the **IC Chart of Accounts** page, you specify how intercompany G/L accounts on incoming transactions will be translated into G/L accounts from your company's chart of accounts.
+When you've defined or imported the intercompany chart of accounts that you and your intercompany partners have agreed to use, you must associate each of the intercompany G/L accounts with one of your company's G/L accounts. On the **IC Chart of Accounts** page, you specify how intercompany G/L accounts on incoming transactions will be translated into G/L accounts from your company's chart of accounts.
 
 If the accounts in the intercompany chart of accounts have the same numbers as the corresponding accounts in the chart of accounts, you can map the accounts automatically.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.  
 2. Select the lines that you want to map automatically, and then choose the **Map to Acc. with Same No** action.  
-3. For each intercompany general ledger account that was not mapped automatically, fill in the **Map-to G/L Acc. No.** field.  
+3. For each intercompany general ledger account that wasn't mapped automatically, fill in the **Map-to G/L Acc. No.** field.  
 
 ## To set up default intercompany partner general ledger accounts  
 When you create an intercompany sales or purchase line to send as an outgoing transaction, you enter an account from the intercompany chart of accounts as a default for which account in your partner's company the amount is posted to. On the **Chart of Accounts** page, for accounts that you regularly use on outgoing intercompany sales or purchase lines, you can specify a default intercompany partner general ledger account. For example, for your receivables accounts, you can enter the corresponding payables accounts from the intercompany chart of accounts.  
@@ -97,7 +100,7 @@ Then, when you enter a general ledger account in the **Bal. Account No.** field 
 
 ## To set up intercompany dimensions
 
-If you and your intercompany partners want to be able to exchange transactions with dimensions linked to them, then you must agree on the dimensions that all of you will use. For example, the parent company of the group creates a simplified version of their own set of dimensions, exports these intercompany dimensions into an XML file and distributes it to each of the companies in the group. Each of the subsidiaries then imports the XML file into the **Intercompany Dimensions** page and maps the intercompany dimensions to the dimensions in their own **Dimensions** page.  
+If you and your intercompany partners want to to exchange transactions with dimensions linked to them, you must agree on the dimensions that all of you will use. For example, the parent company of the group creates a simplified version of their own set of dimensions, exports them to an XML file that it distributes to each company in the group. Each of the subsidiaries then imports the XML file into the **Intercompany Dimensions** page and maps the intercompany dimensions to the dimensions in their own **Dimensions** page.  
 
 > [!NOTE]
 > Each company in [!INCLUDE [prod_short](includes/prod_short.md)] must map dimensions to intercompany dimensions for outgoing documents, and map intercompany dimensions to their own dimensions for incoming documents. This mapping helps assure consistency across the companies. For more information, see the [To map intercompany dimensions to your company's dimensions](#to-map-intercompany-dimensions-to-your-companys-dimensions) section.
@@ -123,7 +126,7 @@ When a file exists for the defining intercompany dimensions, intercompany partne
 The lines on the **Intercompany Dimensions** page and the **Intercompany Dimension Values** page are imported.  
 
 ### To map intercompany dimensions to your company's dimensions
-When you have defined or imported the dimensions that you and your intercompany partners have agreed to use, you must associate each of the intercompany dimensions with one of your company's dimensions, and vice versa. On the **Intercompany Dimensions** page, you specify how intercompany dimensions on *incoming transactions* will be translated into dimensions from your company's list of dimensions. On the **Dimensions** page, you specify how your dimensions will be translated into intercompany dimensions on *outgoing transactions*.
+When you've defined or imported the dimensions that you and your intercompany partners have agreed to use, you must associate each of the intercompany dimensions with one of your company's dimensions, and vice versa. On the **Intercompany Dimensions** page, you specify how intercompany dimensions on *incoming transactions* will be translated into dimensions from your company's list of dimensions. On the **Dimensions** page, you specify how your dimensions will be translated into intercompany dimensions on *outgoing transactions*.
 
 If any of the intercompany dimensions have the same code as the corresponding dimensions in your company's list of dimensions, then you can have application automatically map the dimensions, then you can map the accounts automatically.  
 
@@ -131,7 +134,7 @@ In the following steps, you first map intercompany dimensions to dimensions for 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Dimensions**, and then choose the related link.
 2. On the **Intercompany Dimensions** page, select the lines that you want to automatically map, and then choose the **Map to Dim. with Same Code** action.'
-3. For each intercompany dimension that is not mapped automatically, fill in the **Map-to Dimension Code** field.
+3. For each intercompany dimension that isn't mapped automatically, fill in the **Map-to Dimension Code** field.
 
     You may have to add the field to your view. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 4. Choose the **Intercompany Dimension Values** action.
@@ -140,7 +143,7 @@ In the following steps, you first map intercompany dimensions to dimensions for 
     Proceed to map dimensions to intercompany dimensions by performing similar steps.
 6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dimensions**, and then choose the related link.
 7. On the **Dimensions** page, select the lines that you want to automatically map, and then choose the **Map to IC Dim. with Same Code** action.
-8. For each intercompany dimension that is not mapped automatically, fill in the **Map-to IC Dimension Value Code** field.
+8. For each intercompany dimension that isn't mapped automatically, fill in the **Map-to IC Dimension Value Code** field.
 9. Choose the **Dimension Values** action.
 10. On the **Dimension Values** page, fill in the **Map-to IC Dimension Value Code** field.
 

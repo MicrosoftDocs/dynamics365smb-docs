@@ -30,7 +30,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-|Understand basic functions of the **Payment Journal** page, which is a based on the general journal, to prepare to post payments to vendors or employees.|[Working with General Journals](ui-work-general-journals.md)|
+|Understand basic functions of the **Payment Journal** page, which is a based on the general journal, to prepare to post payments to vendors or employees.|[Work with General Journals](ui-work-general-journals.md)|
 |Post payments to vendors or employees and refunds to customers, and optionally apply the payments to the related unpaid invoices/credit memos to close them as paid.|[Record Payments and Refunds](payables-how-post-payments-refunds.md)|
 | Use a function on the **Payment Journal** page to suggest vendor payments according to selected criteria, such as due date, discount eligibility, and your liquidity. |[Suggest Vendor Payments](payables-how-suggest-vendor-payments.md) |
 | Issue checks for vendor payments or customer refunds, either as print-outs or as computer checks. Void checks before or after posting. |[Make Check Payments](payables-how-work-checks.md) |
@@ -42,7 +42,7 @@ The following table describes a sequence of tasks, with links to the topics that
 [Managing Payables](payables-manage-payables.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

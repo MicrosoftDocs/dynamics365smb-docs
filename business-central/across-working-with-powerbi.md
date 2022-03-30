@@ -11,7 +11,7 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Working with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)]
+# Work with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)]
 
 In this article, you learn some of the basics about viewing Power BI reports in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -60,7 +60,7 @@ Connecting to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] is s
 
 Once connected, you can select a report from the Power BI part on pages.
 
-## Working with Power BI reports
+## Work with Power BI reports
 
 ### Show reports on list pages
 
@@ -104,7 +104,7 @@ To upload a report, select the **Upload Report** action from the drop-down comma
 After the report uploads to your Power BI workspace, it automatically uploads to other users' Power BI workspaces.
 
 > [!NOTE]
-> Uploading a report requires that you have SUPER user permissions in [!INCLUDE[prod_short](includes/prod_short.md)]. Also, you can't upload reports with [!INCLUDE [prod_short](includes/prod_short.md)] on-premises. With on-premises, you upload reports directly to your Power BI workspace. For more information, see [Working with [!INCLUDE [prod_short](includes/prod_short.md)] Data In Power BI](across-working-with-business-central-in-powerbi.md).
+> Uploading a report requires that you have SUPER user permissions in [!INCLUDE[prod_short](includes/prod_short.md)]. Also, you can't upload reports with [!INCLUDE [prod_short](includes/prod_short.md)] on-premises. With on-premises, you upload reports directly to your Power BI workspace. For more information, see [Work with [!INCLUDE [prod_short](includes/prod_short.md)] Data In Power BI](across-working-with-business-central-in-powerbi.md).
 
 ## Fixing problems
 
@@ -129,7 +129,7 @@ It's probably because the report's name doesn't contain the name of the list pag
 [Business Central and Power BI](admin-powerbi.md)  
 [Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data](across-how-use-financials-data-source-powerbi.md)  
 [Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
-[Working with [!INCLUDE [prod_short](includes/prod_short.md)] Data in Power BI](across-working-with-business-central-in-powerbi.md)  
+[Work with [!INCLUDE [prod_short](includes/prod_short.md)] Data in Power BI](across-working-with-business-central-in-powerbi.md)  
 [Power BI for consumers](/power-bi/consumer/end-user-consumer)  
 [The 'new look' of the Power BI service](/power-bi/service-new-look)  
 [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
@@ -138,9 +138,9 @@ It's probably because the report's name doesn't contain the name of the list pag
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
-[Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power Apps Data Source](across-how-use-financials-data-source-powerapps.md)  
-[Using [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
+[Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
+[Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power Apps Data Source](across-how-use-financials-data-source-powerapps.md)  
+[Use [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate](across-how-use-financials-data-source-flow.md)  
 
 
 

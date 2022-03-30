@@ -28,7 +28,7 @@ When you modify one of these fields on the contact company card, application wil
 
 For more information, see [Create Contacts](marketing-create-contact-companies.md).
 
-## Using Predefined Defaults on New Contacts
+## Use Predefined Defaults on New Contacts
 You can decide that the application automatically assigns a specific language code, territory code, salesperson code, and country/region code as defaults to each new contact you create. You can also enter a default sales cycle code that application automatically assigns to each new opportunity you create.
 
 The inheritance of fields overwrites the default values you have set up. For example, if you have set up English as the default language, but the contact company's language is German, application will automatically assign German as the language code for the contact persons recorded for that company.
@@ -55,7 +55,7 @@ You can choose to have application automatically search for duplicates each time
 
 ## See Also
 [Managing Contacts](marketing-contacts.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

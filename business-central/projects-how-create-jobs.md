@@ -24,6 +24,8 @@ The layer structure enables you to divide the job into smaller tasks, and theref
 > [!TIP]
 > Choose the **New Job** action on the **Project Manager** Role Center to launch an assisted setup guide that takes you through the steps of creating a job with integrated tasks and planning lines. The following procedure describes how to perform the steps manually. For an example of how to create a job manually, see [Video: How to create a job in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
 
+Sometimes the party that is receiving a service is different from the party that is paying the bill. On the **Jobs** page, you can specify the customer who will benefit from the project in the **Sell-to** fields, and the party to invoice in the **Bill-to** fields. You can also specify where the work will happen by selecting from a list of ship-to addresses for the customer, add information about external references to simplify communication about the project, and overwrite the standard financial terms of the project.
+
 ## To create a job card
 You create a job card and then create job task lines and job planning lines for it.
 
@@ -70,7 +72,7 @@ A job planning line can have one of the following types.
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -52,7 +52,7 @@ With the add-in, you can get fresh data from [!INCLUDE [prod_short](includes/pro
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
-[Working with Business Central](ui-work-product.md)  
+[Work with Business Central](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

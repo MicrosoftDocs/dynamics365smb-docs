@@ -64,7 +64,7 @@ You can specify the data to synchronize for an entity, such as a customer or con
 You can uncouple one or more records from list pages or the **Coupled Data Synchronization Errors** page by choosing one or more lines and choosing **Delete Coupling**. You can also remove all couplings for one or more table mappings on the **Integration Table Mappings** page.
 
 ## See Also  
-[Using Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md)
+[Use Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

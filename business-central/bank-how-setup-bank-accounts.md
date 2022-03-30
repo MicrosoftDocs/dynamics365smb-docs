@@ -27,6 +27,8 @@ Bank accounts work differently depending on whether a currency code is specified
 
   All transactions that are made to this account must be in the same currency as is specified on the account. All checks that are issued from this account must also have this currency.  
 
+You can save time on data entry by making a bank account the default account to use for the currency specified for the account. If you do, the account will be assigned to sales and service documents that use the currency. To make the account the default for sales and service documents, on the **Bank Account Card** page, turn on the **Use as Default for Currency** toggle. If needed, you can choose a different account when you're working on a document.
+
 A bank account is an integrated part of [!INCLUDE[prod_short](includes/prod_short.md)] and plays a role in many other capabilities. The following illustration shows the most important relations:
 
 ![Illustration of bank account relations.](media/Set-Up-Bank-Accounts/Bank_Account_Relations.png)
@@ -160,7 +162,7 @@ The following table explains key fields.
 
 ## To set up your bank account for import or export of bank files
 
-Fields on the **Transfer** FastTab on the **Bank Account Card** page are related to import and export of bank feeds and files. For more information, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) and [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
+Fields on the **Transfer** FastTab on the **Bank Account Card** page are related to import and export of bank feeds and files. For more information, see [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) and [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Open the card for a bank account that you will export or import bank files for.
@@ -213,7 +215,7 @@ The illustration shows the route of outbound payments:
 
 ## To set up vendor bank accounts for export of bank files
 
-Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are related to export of bank feeds and files. For more information, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) and [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are related to export of bank feeds and files. For more information, see [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) and [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the card for a vendor whose bank account you will export payment bank files to.
@@ -247,7 +249,7 @@ To get a more condensed view of your cash accounts in financial reporting, use t
 [Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Payment Reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Understanding the General Ledger and the COA](finance-general-ledger.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

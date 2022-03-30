@@ -28,7 +28,7 @@ On the **Payment Journal** page, you can process payments to your vendors by exp
 
 ## Setting Up the AMC Banking 365 Fundamentals Extension
 
-Activate the AMC Banking 365 Fundamentals extension to have any bank statement file converted to a format that you can import or to have your exported payment files converted to the format that your bank requires. For more information, see [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).
+Activate the AMC Banking 365 Fundamentals extension to have any bank statement file converted to a format that you can import or to have your exported payment files converted to the format that your bank requires. For more information, see [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).
 
 ## Setting Up SEPA Credit Transfer
 
@@ -90,7 +90,7 @@ When you are ready to make payments to your vendors, or reimbursements to your e
 In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], the AMC Banking 365 Fundamentals extension is available. In North American versions, the same extension can be used to send payment files as electronic funds transfer (EFT), however with a slightly different process. See step 6 in [To export payments to a bank file](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
 
 > [!NOTE]  
-> Before you can export payment files from the payment journal, you must specify the electronic format for the involved bank account, and you must enable the AMC Banking 365 Fundamentals extension. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md) and [Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md). In addition, you must select the **Allow Payment Export** check box on the **General Journal Batches** page. For more information, see [Working with General Journals](ui-work-general-journals.md).  
+> Before you can export payment files from the payment journal, you must specify the electronic format for the involved bank account, and you must enable the AMC Banking 365 Fundamentals extension. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md) and [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md). In addition, you must select the **Allow Payment Export** check box on the **General Journal Batches** page. For more information, see [Work with General Journals](ui-work-general-journals.md).  
 
 You use the **Credit Transfer Registers** page to view the payment files that have been exported from the payment journal. From this page, you can also re-export payment files in case of technical errors or file changes. Note, however, that exported EFT files are not shown in this page and cannot be re-exported.  
 
@@ -153,9 +153,9 @@ When the electronic payment is successfully processed by the bank, post the paym
 
 ## See Also
 
-[Using the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)  
+[Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)  
 [Managing Payables](payables-manage-payables.md)  
-[Working with General Journals](ui-work-general-journals.md)  
+[Work with General Journals](ui-work-general-journals.md)  
 [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
 
 

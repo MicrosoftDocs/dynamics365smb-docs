@@ -10,7 +10,6 @@ ms.search.keywords: payment process, cash receipt
 ms.search.form: 5052, 21, 5050 
 ms.date: 04/01/2021
 ms.author: bholtorf
-ROBOTS: NOINDEX
 
 ---
 # Consolidate Balances for a Company that is a Customer and a Vendor

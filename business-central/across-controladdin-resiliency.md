@@ -1,6 +1,6 @@
 ---
 title: "Control Add-In Resiliency in Business Central"
-description: What can I do if control add-ins in my Business Central are slow.
+description: What to if control add-ins or custom controls are resulting in reduced functionality in Business Central.
 ms.custom: na
 ms.reviewer: na
 ms.suite: na

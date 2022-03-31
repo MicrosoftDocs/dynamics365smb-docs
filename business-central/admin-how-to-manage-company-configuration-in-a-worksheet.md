@@ -1,6 +1,6 @@
 ---
 title: Manage Company Configuration in a Worksheet
-description: The configuration worksheet is the central location in which you can plan, track, and perform your company configuration work. 
+description: If you use RapidStart Services, the configuration worksheet is the central location in which you can plan, track, and perform your company configuration work. 
 author: SorenGP
 
     
@@ -14,7 +14,7 @@ ms.date: 06/14/2021
 ms.author: edupont
 
 ---
-# Manage Company Configuration in a Worksheet
+# Manage Company Configuration in a Worksheet with RapidStart Services
 
 The configuration worksheet is the central location in which you can plan, track, and perform your configuration work. You can create a worksheet for each company that you are working with or create a standard configuration worksheet that can be used for configuring multiple identical companies.  
 
@@ -24,8 +24,9 @@ To aide you in tracking and reviewing your work, use the **Config. Package Table
 
 The following procedures demonstrate how to add and customize table information for your configuration.  
 
-## To open the configuration worksheet  
-1.  In [!INCLUDE[prod_short](includes/prod_short.md)], open the company that is the baseline for configuration, and then open its RapidStart Services Implementer Role Center.  
+## To open the configuration worksheet
+
+1.  In [!INCLUDE[prod_short](includes/prod_short.md)], open the company that is the baseline for configuration.  
 2.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Configuration Worksheet**, and then choose the related link.  
 
 ## To add a table to the worksheet  
@@ -39,9 +40,9 @@ The following procedures demonstrate how to add and customize table information 
     > [!NOTE]  
     > Related tables will not be added with the **Get Related Tables** action if either of the following is true:
     > - The relation is conditional.  
-    > Example: If you get related tables for the **Customer** table, then the **Location** table will not be added, since it is only conditionally related to the **Customer** table, namely if the **Location Code** field in the **Customer** table is filled in.  
+    >     Example: If you get related tables for the **Customer** table, then the **Location** table will not be added, since it is only conditionally related to the **Customer** table, namely if the **Location Code** field in the **Customer** table is filled in.  
     > - The related table is filtered.  
-    > Example: A field in the related table has a WHERE clause. The reason for this is that the involved relations information is stored in the **Field** system table, which is not fully accessible to the application.  
+    >     Example: A field in the related table has a WHERE clause. The reason for this is that the involved relations information is stored in the **Field** system table, which is not fully accessible to the application.  
     > You must add such types of tables manually by following step 4 in this procedure.  
 
 8.  To modify the resulting list of tables, select a table that you want to remove, and then choose the **Delete** action.  

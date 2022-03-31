@@ -82,6 +82,7 @@ Microsoft partners and resellers can create an extensions that they can use to c
 
 ## See Also
 
+[Install and Uninstall Extensions](ui-extensions-install-uninstall.md)  
 [Customize Business Central](ui-customizing-overview.md)  
 [Business Central Extensions by Other Providers](ui-extensions-other.md)  
 [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  

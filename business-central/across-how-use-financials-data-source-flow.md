@@ -12,7 +12,7 @@ ms.author: edupont
 author: jswymer
 ---
 
-# Using [!INCLUDE[prod_short](includes/prod_short.md)] in an Automated Workflow
+# Use [!INCLUDE[prod_short](includes/prod_short.md)] in an Automated Workflow
 
 You can use your [!INCLUDE[prod_short](includes/prod_short.md)] data as part of a workflow in Microsoft Power Automate.
 

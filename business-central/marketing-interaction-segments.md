@@ -45,7 +45,7 @@ On the **Logged Segments** page, you can decide to create a follow-up segment co
 [Recording Interactions With Contacts](marketing-interactions.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
 [Creating and Managing Contacts](marketing-contacts.md)  
-[Working with Business Central](ui-work-product.md)
+[Work with Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

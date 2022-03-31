@@ -110,7 +110,7 @@ You can easily correct or cancel a posted purchase invoice before you pay the ve
 [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)  
 [Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Prepare Drop Shipments](sales-how-drop-shipment.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

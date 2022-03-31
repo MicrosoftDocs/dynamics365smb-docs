@@ -101,7 +101,7 @@ The selected number will now be used to fill in the **No.** field on the card or
 
 ## See Also
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

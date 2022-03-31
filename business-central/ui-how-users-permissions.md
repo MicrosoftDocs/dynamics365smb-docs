@@ -13,9 +13,9 @@ ms.author: edupont
 ---
 # Create Users According to Licenses
 
-This article describes how administrators add users and define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)], and which permissions are given to different user types according to the licenses.  
+This article describes how administrators create users and define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)]. This article also covers how to assign permissions to different types users according to your product licenses.
 
-When you create users in [!INCLUDE[prod_short](includes/prod_short.md)], you can assign specific permissions to them through permission sets and user groups. User groups make it easier to manage permissions for multiple users at the same time. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
+When you create users in [!INCLUDE[prod_short](includes/prod_short.md)], you can assign permissions to them through permission sets and organize users in user groups. User groups make it easier to manage permissions for multiple users at the same time. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
 
 For more information about the different types of licenses and how licensing works in [!INCLUDE[prod_short](includes/prod_short.md)], [download the Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
@@ -24,9 +24,9 @@ For more information about the different types of licenses and how licensing wor
 
 ## Manage users and licenses in online tenants
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] online, the number of users is defined by the subscription and added to your tenant in the Microsoft Partner Center, typically by your Microsoft partner. For more information, see [Add a new customer](/partner-center/add-a-new-customer) and [Create, suspend, or cancel customer subscriptions](/partner-center/create-a-new-subscription) in the Microsoft Partner Center help.
+In the online version of [!INCLUDE[prod_short](includes/prod_short.md)], your subscription defines the number of users you're allowed. Users are added to your tenant in the Microsoft Partner Center, typically by your Microsoft partner. For more information, see [Add a new customer](/partner-center/add-a-new-customer) and [Create, suspend, or cancel customer subscriptions](/partner-center/create-a-new-subscription) in the Microsoft Partner Center help.
 
-To define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)], you must assign product licenses to users according to the roles that they will perform in [!INCLUDE[prod_short](includes/prod_short.md)]. This can be done in the following ways:
+To define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)], you assign product licenses to users according to the work they'll do in [!INCLUDE[prod_short](includes/prod_short.md)]. You can assign licenses in several ways:
 
 - Your company's Microsoft 365 administrator can do it in the [Microsoft 365 Admin Center](https://admin.microsoft.com). For more information, see [Add users individually or in bulk to Microsoft 365](/microsoft-365/admin/add-users/add-users).  
 - A Microsoft partner can assign licenses in the Microsoft 365 Admin Center or in the Microsoft Partner Center. For more information, see [User management tasks for customer accounts](/partner-center/assign-licenses-to-users) in the Microsoft Partner Center Help.
@@ -69,14 +69,13 @@ If this is not the right setup for a particular tenant, the admin can change tha
 > This customization of permissions only take effect for new users that you assign the relevant license. Existing users are not updated. We recommend that you customize permissions before you start assigning users licenses in the Microsoft 365 admin center.
 
 ### <a name="adduser"></a>To add users or update user information and license assignments in Business Central
-
-After you add users or change user information in the Microsoft 365 Admin Center, you can quickly import the user information to [!INCLUDE[prod_short](includes/prod_short.md)]. This includes license assignments.  
+After you add users or change user information in the Microsoft 365 Admin Center, you can quickly import the user information to [!INCLUDE[prod_short](includes/prod_short.md)]. The import includes license assignments. 
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using an administrator account.
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.  
 3. Choose **Update Users from Microsoft 365**.
 
-If you are adding new users, the next step is to assign user groups and permissions. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md). If you are updating user information, and the update includes a license change, the users will be assigned to the appropriate user group and their permission sets will be updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).  
+When adding new users, the next step is to assign user groups and permissions. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md). If you're updating user information, and the update includes a license change, users are assigned to the appropriate user group and their permission sets are updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).  
 
 > [!NOTE]
 > All users in an environment must be assigned to the same license, either Essential or Premium. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/business-central/overview/) website.
@@ -88,7 +87,7 @@ For more information about synchronizing user information with Microsoft 365, se
 
 ### To remove a user's access to the system
 
-In online deployments, you can remove a user's access to [!INCLUDE[prod_short](includes/prod_short.md)]. All references to the user are kept, but the user cannot sign in and active sessions for the user are stopped.
+In online deployments, you can remove a user's access to [!INCLUDE[prod_short](includes/prod_short.md)]. All references to the user are kept. However, the user can't sign in and active sessions for the user are stopped.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Open the **User Card** page for the relevant user, and then, in the **Status** field, select **Disabled**.
@@ -103,9 +102,9 @@ When you assign a license for [!INCLUDE[prod_short](includes/prod_short.md)] to 
 - The administrator can add the user by choosing the **Update Users from Microsoft 365** action on the **Users** page as described in the [To add a user or update user information in Business Central](#adduser) section.
 - The license information will update automatically when the user signs in for the first time.
 
-In both cases, a number of settings are made automatically. These are listed in the second and third columns in the table below.
+In both cases, several settings are made automatically. These settings are listed in the second and third columns in the table below.
 
-If you change user information in Microsoft 365 you can update [!INCLUDE[prod_short](includes/prod_short.md)] to reflect the change. Depending on what you want to update, use one of the actions on the **Users** page. The actions are described in the last three columns in the table below.
+If you change user information in Microsoft 365, you can update [!INCLUDE[prod_short](includes/prod_short.md)] to reflect the change. Depending on what you want to update, use one of the actions on the **Users** page. The actions are described in the last three columns in the table below.
 
 > [!NOTE]
 > The actions described in the following table are accurate, however, the only one that you need is **Update Users from Microsoft 365**, which was added to simplify the process. The other actions will be removed in a future version of [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -125,7 +124,7 @@ This section has been moved to [Licensing in Dynamics 365 Business Central](/dyn
 
 ## Manage users and licenses in on-premises deployments
 
-For on-premises deployments, the number of user licenses is specified in the license file (.flf). When an administrator or Microsoft partner uploads the license file, the administrator can specify which users can sign in to [!INCLUDE[prod_short](includes/prod_short.md)].
+For on-premises deployments, the number of user licenses is specified in the license file (.flf). When an administrator or Microsoft partner uploads the license file, they can specify which users can sign in to [!INCLUDE[prod_short](includes/prod_short.md)].
 
 For on-premises deployments, the administrator creates, edits, and deletes users directly from the **Users** page.
 

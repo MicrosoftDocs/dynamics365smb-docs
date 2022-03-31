@@ -288,6 +288,7 @@
 ##### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 ##### [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md)
 ##### [Field Mapping for the AMC Banking 365 Fundamentals Extension](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+
 ## Finance
 ### [Finance Overview](finance.md)
 ### [Financial Reports](finance-reports.md)
@@ -402,9 +403,11 @@
 #### [Close Accounting Periods](year-close-account-periods.md)
 #### [Close Income Statement Accounts](year-close-income-statement.md)
 #### [Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)
+
 ### Consolidate Financial Data from Multiple Companies
 #### [Company Consolidation](finance-consolidated-company-reporting.md)
 #### [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md)
+### [Consolidate Balances for a Company that is a Customer and a Vendor](finance-consolidate-customer-vendor-balances.md)
 ### [Understand the General Ledger and the COA](finance-general-ledger.md)
 ### [Work with Dimensions](finance-dimensions.md)
 ### [Troubleshoot and Correct Dimensions](finance-troubleshooting-correcting-dimensions.md)
@@ -1781,7 +1784,6 @@
 #### [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Company Hub](ui-extensions-company-hub.md)
-#### [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
 #### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
 #### [Essential Business Insights](ui-extensions-essential-business-insights.md)
 #### [Image Analyzer](ui-extensions-image-analyzer.md)

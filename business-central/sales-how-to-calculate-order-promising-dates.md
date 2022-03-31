@@ -122,7 +122,7 @@ Before an item can be included in the order promising calculation, it must be ma
 ## See Also  
 [Sales](sales-manage-sales.md)  
 [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

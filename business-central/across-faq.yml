@@ -110,7 +110,7 @@ sections:
       - question: |
           What is the integration with Microsoft 365 about?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] online is fully integrated with Microsoft 365 so that you can navigate freely between Microsoft 365 apps and [!INCLUDE[prod_short](includes/prod_short.md)] using the app launcher. In [!INCLUDE[prod_short](includes/prod_short.md)], you can open data in Excel, print reports using Word, and you can work with your [!INCLUDE[prod_short](includes/prod_short.md)] data in Outlook, for example. For more information, see [Using [!INCLUDE[prod_short](includes/prod_short.md)] as your Business Inbox in Outlook](admin-outlook.md).  
+          [!INCLUDE[prod_short](includes/prod_short.md)] online is fully integrated with Microsoft 365 so that you can navigate freely between Microsoft 365 apps and [!INCLUDE[prod_short](includes/prod_short.md)] using the app launcher. In [!INCLUDE[prod_short](includes/prod_short.md)], you can open data in Excel, print reports using Word, and you can work with your [!INCLUDE[prod_short](includes/prod_short.md)] data in Outlook, for example. For more information, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] as your Business Inbox in Outlook](admin-outlook.md).  
           
       - question: |
           Can I extend my 30-day "New Company" trial period?
@@ -171,8 +171,8 @@ additionalContent: |
   [Searching and Filtering FAQ](ui-search-filter-faq.yml)  
   [List Views FAQ](ui-views-faq.yml)  
   [Changing Language and Locale](about-locale-language.md)  
-  [Using [!INCLUDE[prod_short](includes/prod_short.md)] as Your Business Inbox in Outlook](admin-outlook.md)  
-  [Using [!INCLUDE[prod_short](includes/prod_short.md)] without Outlook](admin-no-outlook.md)  
+  [Use [!INCLUDE[prod_short](includes/prod_short.md)] as Your Business Inbox in Outlook](admin-outlook.md)  
+  [Use [!INCLUDE[prod_short](includes/prod_short.md)] without Outlook](admin-no-outlook.md)  
   [Change Basic Settings](ui-change-basic-settings.md)  
   [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
   [Getting answers to questions](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)  

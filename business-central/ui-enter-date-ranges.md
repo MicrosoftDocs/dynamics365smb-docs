@@ -14,7 +14,7 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# Working with Calendar Dates and Times
+# Work with Calendar Dates and Times
 
 [!INCLUDE[prod_short](includes/prod_long.md)] offers multiple ways to enter dates and times, including powerful features that accelerate data entry, or help you write complex calendar expressions. There are various places throughout the application where you can enter dates and times in fields. For example, on a sales order, you can set the shipment date. When filtering lists or report data, you can enter dates and times to pinpoint only the data that you are interested in.
 
@@ -60,12 +60,15 @@ The week number scheme is always ISO 8601, where week 1 is the week with 4 Janua
 
 In a date field you can enter two, four, six, or eight digits:
 
--   If you enter only two digits, this is interpreted as the day, and it will add the month and the year of the work date.
+- If you enter only two digits, this is interpreted as the day, and it will add the month and the year of the work date.
 
--   If you enter four digits, this is interpreted as the day and the month, and it will add the year of the work date. The order of the day and month is determined by your region settings. Even if your region settings have the year before the day and month, four digits are interpreted as the day and month.
+- If you enter four digits, this is interpreted as the day and the month, and it will add the year of the work date. The order of the day and month is determined by your region settings. Even if your region settings have the year before the day and month, four digits are interpreted as the day and month.
 
--   If the date you want to enter is in the range 01/01/1930 through 12/31/2029, you can enter the year with two digits; otherwise, enter the year with four digits.
+- If the date you want to enter is in the range 01/01/1950 through 12/31/2049, you can enter the year with two digits; otherwise, enter the year with four digits.
 
+  > [!NOTE]
+  > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the two-digit year range may be different. Administrators can change the range by modifying the **CalendarTwoDigitYearMax** setting of the [!INCLUDE[prod_short](includes/prod_short.md)] server. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
+ 
 ### Today
 
 Enter the word for _today_, in the language specified on the **My Settings** page, to set the date on a record to today's date. Instead of entering the entire word, you can enter part of the word, starting from the beginning. For example, in English, you can enter _t_ or _tod_, as long as it is not also the start of another word.
@@ -127,7 +130,7 @@ On lists, totals and reports, you can set filters on dates, times and datetimes 
 
 You can use any of the valid formats in date range filters. For example, mon14 3..t 4p applied on a datetime field results in a filter from 3 AM on Monday in week 14 of the current work date year, inclusive, until today at 4PM, inclusive.
 
-## Using Date Formulas
+## Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields or filters.
 
 > [!NOTE]
@@ -213,7 +216,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## Using Date Formulas
+## Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -333,7 +336,7 @@ To see what unit of measure is being used in a duration field, enter a number an
 For example, if the unit of measure is hours, the number 5 is converted to 5 hrs.
 
 ## See Also
-[Working with [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Date Calculation for Purchases](purchasing-date-calculation-for-purchases.md)  
 [Entering Criteria in Filters ](ui-enter-criteria-filters.md)  
 

@@ -23,7 +23,7 @@ You can have purchase invoices created automatically by using the OCR (Optical C
 
 Products can be both inventory items and services. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
-For all purchase processes, you can incorporate an approval workflow, for example, to require that large purchases are approved by the accounting manager. For more information, see [Using Approval Workflows](across-how-use-approval-workflows.md).
+For all purchase processes, you can incorporate an approval workflow, for example, to require that large purchases are approved by the accounting manager. For more information, see [Use Approval Workflows](across-how-use-approval-workflows.md).
 
 The following table describes a sequence of tasks, with links to the topics that describe them.
 
@@ -52,7 +52,7 @@ The following table describes a sequence of tasks, with links to the topics that
 [Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Managing Projects](projects-manage-projects.md)    
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

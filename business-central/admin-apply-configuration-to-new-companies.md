@@ -1,6 +1,6 @@
 ---
     title: Apply Configuration to New Companies
-    description: After you have created a configuration package, deploy the package to your customer for implementation. You use the configuration with a new empty company.
+    description: After you have created a configuration package, deploy the package to your customer for implementation. You use the configuration with a new empty company if you use RapidStart Services.
     author: SorenGP
 
     
@@ -13,7 +13,7 @@
     ms.author: edupont
 
 ---
-# Apply Configurations to New Companies
+# Apply Configurations to New Companies with RapidStart Services
 After you have created a configuration package, the next step is to deploy the package to your customer for implementation. You work with the configuration package within a new empty company.  
 
  The following table describes a sequence of tasks with links to topics that describe them.

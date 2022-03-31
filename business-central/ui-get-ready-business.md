@@ -80,7 +80,7 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 ## See also
 
 [Business Central Quick Starts](quick-start-business-central.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Company Information Overview](admin-company-information.md)  
 [Accessibility and Keyboard Shortcuts](ui-accessibility.md)  

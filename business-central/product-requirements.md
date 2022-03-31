@@ -65,7 +65,7 @@ The administration center is designed to work with the current version of the fo
 - Firefox for Windows
 - Safari for macOS
 
-## Using Business Central on-premises
+## Use Business Central on-premises
 
 If you want to deploy Business Central on-premises, you should check the system requirements. For more information, see [System Requirements for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18) and [Deployment Overview](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 

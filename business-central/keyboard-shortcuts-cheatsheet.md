@@ -75,11 +75,18 @@ ms.author: bholtorf
 |-|-|
 |Ctrl+Shift+Enter|Go to next Quick Entry field outside a list|
 |Enter/Shift+Enter|Go to next/previous Quick Entry field|
+
 ##### Report Preview
 
 |Press these keys|To do this|
 |-|-|
 |Ctrl+Home/End|Go to the first/last page|
+
+#### Numeric Keypad
+
+|Press these keys|To do this|  
+|-|-|
+|Alt+Decimal Separator|Toggle output of decimal separator key on numeric keypad|
 
 > [!TIP]
 > For a graphical, print-friendly version, choose the following image and download the PDF file.

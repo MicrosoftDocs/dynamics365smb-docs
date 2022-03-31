@@ -1,18 +1,17 @@
 ---
 title: "Handling Missing Option Values"
-description: Learn how to prevent full synchronization from failing because the options differ in mapped fields. This processes require the help of a developer.
+description: Learn how to prevent full synchronization from failing because the options differ in mapped fields. This process requires help from a developer.
 author: brentholtorf
-
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
-
 ms.topic: conceptual
-ms.date: 06/14/2021
+ms.date: 03/23/2022
 ---
 
 # Handling Missing Option Values
-
+> [!NOTE]
+> In 2022 release wave 1 you can create your own option mappings. For more information, see [Customizing option mappings with Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). The new capabilities require that your administrator enables **Feature Update: Map to option sets in Dataverse without code** on the **Feature Management** page. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 This topic is intended for a technical audience. The processes it describes require the help of a developer.
 

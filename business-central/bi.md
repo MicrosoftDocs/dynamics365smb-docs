@@ -17,7 +17,7 @@ ms.author: edupont
 # Business Intelligence
 Businesses capture a tremendous amount of data through daily activity. This data, which reflects such things as the organization's sales figures, purchases, operational expenses, employee salaries, and budgets, can become valuable information, or business intelligence, for decision makers. [!INCLUDE[prod_short](includes/prod_short.md)] contains a number of features that help you gather, analyze, and share your company data.
 
-The Dimensions functionality plays an important role in business intelligence. A dimension is data that you can add to an entry as a kind of marker. This data is used to group entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Among other uses, you use dimensions  when defining analysis views and when creating account schedules for reporting. For more information, see [Working with Dimensions](finance-dimensions.md).
+The Dimensions functionality plays an important role in business intelligence. A dimension is data that you can add to an entry as a kind of marker. This data is used to group entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Among other uses, you use dimensions  when defining analysis views and when creating account schedules for reporting. For more information, see [Work with Dimensions](finance-dimensions.md).
 
 > [!TIP]
 > As a quick way to analyze transactional data by dimensions, you can filter totals in the chart of accounts and entries in all **Entries** pages by dimensions. Look for the **Set Dimension Filter** action.  
@@ -36,10 +36,10 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## See Also
 [Finance](finance.md)    
-[Using Business Central as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
+[Use Business Central as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
 [Closing Fiscal Periods](year-close-years-periods.md)  
 [Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

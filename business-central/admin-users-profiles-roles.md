@@ -82,7 +82,7 @@ When a profile is created, you can select different check boxes that define if, 
     - **Show in Role Explorer** to specify if actions to business features included in the profile are shown in the extended view of the role explorer, a feature overview. For more information, see [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
 ## To export profiles
-You can export profiles from [!INCLUDE[prod_short](includes/prod_short.md)], for example to reuse them in another tenant. The profiles are exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Using the Client to Create Profiles and Page Customizations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+You can export profiles from [!INCLUDE[prod_short](includes/prod_short.md)], for example to reuse them in another tenant. The profiles are exported to a zip file containing .al files that can be reused to develop extensions. For more information, see [Use the Client to Create Profiles and Page Customizations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * On the **Profiles (Roles)** page, choose the **Export Profiles** action.
 

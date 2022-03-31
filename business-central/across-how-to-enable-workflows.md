@@ -28,7 +28,7 @@ When you have created a workflow and you are sure that it is ready to start, you
  [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)   
  [Delete Workflows](across-how-to-delete-workflows.md)   
  [Setting Up Workflows](across-set-up-workflows.md)   
- [Using Workflows](across-use-workflows.md)   
+ [Use Workflows](across-use-workflows.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Workflow](across-workflow.md)   
 

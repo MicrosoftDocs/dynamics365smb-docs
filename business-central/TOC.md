@@ -1801,7 +1801,6 @@
 #### [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Company Hub](ui-extensions-company-hub.md)
-#### [Dynamics GP Data Migration](ui-extensions-dynamicsgp-data-migration.md)
 #### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
 #### [Essential Business Insights](ui-extensions-essential-business-insights.md)
 #### [Image Analyzer](ui-extensions-image-analyzer.md)

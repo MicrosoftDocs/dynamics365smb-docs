@@ -46,7 +46,7 @@ If your customer is also using [!INCLUDE[prod_short](../../includes/prod_short.m
 
 For ESR references, you could configure information, for example, so that they contain the customer number and invoice number. You cannot configure the payment reference in QR-bills. There will always be a 1:1 relation between an issued QR-bill and a payment, which makes reconciliation easy and eliminates the need to configure the payment reference on QR-bills. Instead, [!INCLUDE[prod_short](../../includes/prod_short.md)] uses a unique counter for the payment reference. Additionally, logic is in place to block import or scan of the same payment reference twice.  
 
-### <a name"formats"></a>Formats for QR references and creditor references
+### <a name="formats"></a>Formats for QR references and creditor references
 
 The QR reference consists of 26 numerical positions plus a check digit.  
 

@@ -178,7 +178,7 @@ WIP inventory can be revalued as long as the revaluation date is not later than 
  [Design Details: Inventory Valuation](design-details-inventory-valuation.md)
  [Managing Inventory Costs](finance-manage-inventory-costs.md)  
  [Finance](finance.md)  
- [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

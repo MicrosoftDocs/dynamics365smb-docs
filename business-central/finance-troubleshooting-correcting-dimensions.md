@@ -101,7 +101,7 @@ If the Undo action is not available, for example because you have made many corr
 
 Use caution when correcting large sets of entries, for example, sets that include more than 10,000 entries. If you can, we recommend that you use the filters to run the corrections on smaller sets of data. It's also a good idea to run corrections outside the normal business hours. 
 
-### Using Analysis Views with Dimension Corrections
+### Use Analysis Views with Dimension Corrections
 
 If **Update on Posting** is enabled for an analysis view, [!INCLUDE[prod_short](includes/prod_short.md)] can the view when documents and journals are posted. You can also update views with this setting enabled with results of dimension corrections. To do so, turn on the **Update Analysis Views** toggle. Updating analysis views can impact performance, especially for large data sets, so we recommend that you update analysis views only for small data sets.  
 
@@ -116,11 +116,11 @@ If a correction does not complete, a warning will display on the correction card
 > [!NOTE]
 > Resetting an incomplete correction will not affect updates to analysis views because those happen at the end of the correction process.
 
-### Using Cost Accounting with Corrected G/L Entries
+### Use Cost Accounting with Corrected G/L Entries
 
 After you correct dimensions your data for cost accounting will be out of sync. Cost accounting uses dimensions to aggregate amounts for cost centers and cost objects, and to run cost allocations. Changing dimensions for G/L entries will probably mean that you re-run your cost accounting models. Whether you need to just delete a few cost registers and re-run allocations, or you need to delete everything and re-run all of your models depends on the data that has been updated and how your cost accounting capabilities are set up. You must manually identify where dimension corrections will impact cost accounting and where updates are needed. [!INCLUDE[prod_short](includes/prod_short.md)] does not currently provide an automated way to do that.
 
 ## See Also
 
-[Working with Dimensions](finance-dimensions.md)
+[Work with Dimensions](finance-dimensions.md)
 [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  

@@ -60,7 +60,7 @@ For each entry type, you can see the invoiced amount, usage (amount), cost amoun
 
 * (Invoiced Amount - Usage (Cost)) x 100 / Invoiced Amount  
 
-## Using Trendscapes
+## Use Trendscapes
 For service items and service contracts, the **Service Item Trendscape** or **Service Contract Trendscape** pages provides a scrollable summary of service ledger entries in a period of time for a specific service item or contract. To view the trendscape, open the service item or service contract, choose the **Statistics** action, and then choose **Trendscape**.
 
 When you scroll the list, the amounts are calculated in the local currency according to the specified time interval. All amounts are calculated from service ledger entries, which are entries that are created when you post service orders or service invoices.

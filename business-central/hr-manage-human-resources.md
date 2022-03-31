@@ -32,7 +32,7 @@ The following table describes a sequence of tasks, with links to the topics that
 ## See Also
 
 [Finance](finance.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)        
 
 

@@ -37,7 +37,7 @@ LSV+ is a direct debit service that is used for processing payments. Companies c
 
 To export payments according to the SEPA standard, you must use a bank account. On those bank accounts, the **Bank Acc. Posting Group** field must specify the relevant general ledger account. This way, the related general ledger entries will be consistent with the entries that are generated for the Swiss payment methods. For more information about how to export SEPA payments, see [Create SEPA Direct Debit Collection Entries and Export to a Bank File](../../finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).  
 
-### <a name="iban-qr"</a>IBAN and QR-IBAN
+### <a name="iban-qr"></a>IBAN and QR-IBAN
 
 In Switzerland, requests for payments based on SEPA credit transfers can include a regular IBAN code for the bank account or a QR-IBAN code. For more information, see [QR-Bill Management](ui-extensions-qr-bill-management.md).  
 

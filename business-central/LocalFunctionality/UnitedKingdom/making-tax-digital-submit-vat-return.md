@@ -175,6 +175,6 @@ Certain online documentation at HMRC refers to the term *Sandbox*. This term ref
 [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md)  
 [The VAT Group Management Extension](../../ui-extensions-vat-group.md)  
 [Customizing [!INCLUDE[prod_short](../../includes/prod_short.md)] Using Extensions](../../ui-extensions.md)  
-[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

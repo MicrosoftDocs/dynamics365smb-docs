@@ -13,7 +13,9 @@ ms.date: 04/01/2021
 ms.author: edupont
 
 ---
-# Create and Modify Custom Report Layouts
+# (Legacy) Create and Modify Custom Report Layouts
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 By default, a report will have a built-in report layout, which can be either an RDLC report layout or Word report layout, or both. You can't modify built-in layouts. But you can create your own custom layouts that enable you to change the appearance of report when it's viewed, printed, or saved. You can create multiple custom report layouts for the same report, and then switch the layout that is used by a report as needed.
 
@@ -59,24 +61,24 @@ To modify a report layout, you must first export the report layout as a file to 
 
 ### To modify a custom layout
 
-1.  You export a custom layout from the **Custom Report Layouts** page. If this page isn't already open, search for and open the **Report Layout Selection** page, select the report that has the layout that you want to modify, and then choose the **Custom Layouts** action.  
-2.  On the **Custom Report Layouts** page, select the layout that you want to modify, choose the **Export Layout** action, and then choose **Save** or **Save As** to save the report layout document to a location on your computer or network.  
+1. You export a custom layout from the **Custom Report Layouts** page. If this page isn't already open, search for and open the **Report Layout Selection** page, select the report that has the layout that you want to modify, and then choose the **Custom Layouts** action.  
+2. On the **Custom Report Layouts** page, select the layout that you want to modify, choose the **Export Layout** action, and then choose **Save** or **Save As** to save the report layout document to a location on your computer or network.  
+3. Open the report layout document that you saved, and then make changes.
 
-3.  Open the report layout document that you saved, and then make changes.
+   If you're changing a Word layout, open the layout document in Word. For editing details, see [Work with Word Layouts](ui-how-add-fields-word-report-layout.md)<!--the next section [Making Changes to the Report Layout](ui-how-create-custom-report-layout.md#MakeChangesToLayout)-->.
 
-      If you're changing a Word layout, open the layout document in Word. For editing details, see the next section [Making Changes to the Report Layout](ui-how-create-custom-report-layout.md#MakeChangesToLayout).
+   RDLC report layouts are more advanced than Word report layouts. For more information about modifying an RDLC report layout, see [Designing RDLC Report Layouts](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
-      RDLC report layouts are more advanced than Word report layouts. For more information about modifying an RDLC report layout, see [Designing RDLC Report Layouts](/dynamics-nav/Designing-RDLC-Report-Layouts).
+   Remember to save you changes when done.
 
-      Remember to save you changes when done.
-
-4.  Return to the **Custom Report Layouts** page, select the report layout that you exported and modified, and then choose the **Import Layout** action.  
+4. Return to the **Custom Report Layouts** page, select the report layout that you exported and modified, and then choose the **Import Layout** action.  
 
 5. In the **Import** dialog box, select **Choose** to find and select the modified report layout document, and then choose **Open**.
 
 > [!IMPORTANT]
 > Remember to import the report layout document that you modified. Otherwise, the new report layout will not be available.
 
+<!--
 ##  <a name="MakeChangesToLayout"></a> Create and Modify Custom Report Layouts
 
 To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word, like you do with any Word document.
@@ -108,7 +110,7 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 ### Adding data fields
 
-Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  
+Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
 ## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
@@ -117,10 +119,10 @@ Adding data fields from a report dataset is a more advanced and requires some kn
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)  
 [Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
-[Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
+[Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
 [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md) 
 [Business Intelligence](bi.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

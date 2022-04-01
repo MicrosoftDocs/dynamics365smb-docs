@@ -68,6 +68,11 @@ sections:
         answer: |
           When pasting into [!INCLUDE[prod_short](includes/prod_short.md)], each row is checked to make sure that values in each column are valid. If a column contains a value that is not valid, the pasting is stopped, and an error message is displayed. To avoid this, make sure that the columns have valid values before you paste them.
 
+      - question: Can I also copy links to pages and records?
+        answer: |
+          Yes. For more information, see [Sharing Business Data from Business Central](across-share-data-features.md).
+
+
 
 additionalContent: |
   ## Next steps

@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords:
-ms.date: 06401/2022
+ms.date: 04/01/2022
 ms.author: jswymer
 ---
 # Sharing Business Data from Business Central

@@ -69,6 +69,7 @@ With the Business Central app for Teams, you can copy a link from any Business C
 
     > [!TIP]
     > If you get a message like: **Business Central wants to show a preview of this link.**, it means that you don't have the Business Central app for Teams installed. To install the app, select **Show Preview** and follow the instructions.
+
 6. The first time you paste a link into a conversation, you'll be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)] and give consent for the app to retrieve data. Just follow the on-screen instructions.
 
     > [!NOTE]

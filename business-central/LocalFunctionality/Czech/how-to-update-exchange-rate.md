@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Updating Exchange Rates in the Czech Version
+# Updating Exchange Rate in the Czech Version
 
 The company is allowed to automatically update currency exchange rates using the exchange rate service.  
 

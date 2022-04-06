@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Extended User Control in the Czech Version
+# How to Setup Extended User Control in the Czech Version
 
 This feature in User Setup in combination with new User Setup Lines table allows setting and providing the following control:
 

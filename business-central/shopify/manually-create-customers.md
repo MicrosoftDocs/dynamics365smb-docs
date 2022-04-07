@@ -23,6 +23,6 @@ In the Shopify Shop Customer List, you can select open the Shopify customer card
 
 ![](media/image72.png)
 
-## Order Processing
+
 
 

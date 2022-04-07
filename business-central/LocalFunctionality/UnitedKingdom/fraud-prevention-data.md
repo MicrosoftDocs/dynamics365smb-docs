@@ -91,7 +91,7 @@ Your company can sign up for any of the following endpoints:
 * [https://jsonip.com](https://jsonip.com)  
 
 > [!IMPORTANT]
-> The **User IP Address Service** field is available in version 19.5 and later.
+> The **User IP Address Service** field is available in version 19.5 and later. Your admin can manage your organization's version of [!INCLUDE [prod_short](../../includes/prod_short.md)] in the admin center.
 
 ## See Also
 

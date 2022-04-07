@@ -1,6 +1,4 @@
 # [Getting started](getting-started.md)
-# [Shopify](shopify.md)
-## [Install the Scaptify app](shopify.md#install-the-scaptify-app)
 # [Microsoft Dynamics 365 Business Central](microsoft-dynamics-365-business-central.md)
 ## [Setup Shops](microsoft-dynamics-365-business-central.md#setup-shops)
 ## [Item Synchronization](microsoft-dynamics-365-business-central.md#item-synchronization)

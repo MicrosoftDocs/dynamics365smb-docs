@@ -1,4 +1,5 @@
-﻿# [Shopify](shopify.md)
+# [Getting started](shopify-getting-started.md)
+# [Shopify](shopify.md)
 ## [Create Shopify Account](shopify.md#create-shopify-account)
 ## [Configure Shopify Account](shopify.md#configure-shopify-account)
 ## [Install the Scaptify app](shopify.md#install-the-scaptify-app)

@@ -37,7 +37,7 @@ manager:
 
 
 ### Starting from Business Central
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
 2. Choose the **New** action.  
 3. Fill in the **Code** field.  
 4. Fill in **Shopify URL** field with url to online shop your want to connect to.

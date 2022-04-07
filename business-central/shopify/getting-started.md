@@ -19,6 +19,9 @@ manager:
   
 - Addional sales channel, like Shopify POS, are supported.
 
+#### Recomended settings
+- Disable **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
+
 ### For [!INCLUDE[prod_short](../includes/prod_short.md)]
 - **Connect to Shopify for [!INCLUDE[prod_short](../includes/prod_short.md)]** extension is installed
 

@@ -1,5 +1,5 @@
 ---
-title: Czech Local Functionality - Extended User Control
+title: Set Up Extended User Control [CZ]
 description: The majority of companies in the Czech Republic request the following improvements to be implemented in user setup and control.
 author: v-pejano
 
@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Extended User Control in the Czech Version
+# Set Up Extended User Control in the Czech Version
 
 This feature in User Setup in combination with new User Setup Lines table allows setting and providing the following control:
 

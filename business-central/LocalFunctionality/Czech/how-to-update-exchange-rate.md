@@ -1,5 +1,5 @@
 ---
-title: Czech Local Functionality - Exchange Rate Updating
+title: Update Exchange Rates [CZ]
 description: The ability to automatically update currency exchange rates from the CNB (Czech National Bank) in the Czech version of Business Central.
 author: v-pejano
 
@@ -11,7 +11,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Updating Exchange Rate in the Czech Version
+# Update Exchange Rates in the Czech Version
 
 The company is allowed to automatically update currency exchange rates using the exchange rate service.  
 

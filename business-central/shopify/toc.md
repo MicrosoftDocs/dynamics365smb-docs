@@ -1,7 +1,5 @@
 # [Getting started](getting-started.md)
-# [Microsoft Dynamics 365 Business Central](microsoft-dynamics-365-business-central.md)
-## [Setup Shops](microsoft-dynamics-365-business-central.md#setup-shops)
-## [Item Synchronization](microsoft-dynamics-365-business-central.md#item-synchronization)
+# [TBD - move to other articles](microsoft-dynamics-365-business-central.md)
 # [Synchronize item to Shopify](synchronize-item-to-shopify.md)
 ## [Setup Items to synchronize](synchronize-item-to-shopify.md#setup-items-to-synchronize)
 ## [Setup locations](synchronize-item-to-shopify.md#setup-locations)

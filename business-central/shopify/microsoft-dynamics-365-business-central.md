@@ -9,64 +9,20 @@ ms.author: andreipa
 manager: 
 ---
 
-# Microsoft Dynamics 365 Business Central
+#TBD - move to other articles:
+====================
 
-## Shopify Connector Setup
 
-This section describes the Shopify Connector Setup in Microsoft Dynamics 365 Business Central
-
--   In Microsoft Dynamics 365 Business Central go to the search function and choose 'Shopify Connector Setup'
-
-![](media/image11.png)
-
-The setup wizard will start :
-
-![](media/image12.png)
-
--   Click Next on the welcome page.
-
--   Complete your company information and click next.
-
-![](media/image13.png)
-
--   When you finish the wizard, the license key will be created.
-
-![](media/image14.png)
-
-![](media/image15.png)
-
--   You can consult your license key and restrictions in the Shopify Connector Setup page.
-
-![](media/image16.png)
 
 ## Setup Shops
 
-From the Shopify Connector Setup, you can create a connection to your Shopify Shops.
 
--   Open the Shopify Shops page via *Home &gt; Navigation &gt; Shops*
+-   Select the language code.   //TBD: to be moved to Customer sync
 
--   Create a new shop via 'New'.
+-   Activate the log.   //TBD: to be moved to "other, part trouleshouting. 
 
-![](media/image17.png)
+-   Select 'Allow Background Syncs' if you want to run the synchronization in background.    //TBD: to be moved to "other, part trouleshouting. 
 
--   Or follow the path 'Scaptify &gt; Shops'
-
-![](media/image18.png)
-
-Link your Shopify Shop.
-
-![Graphical user interface  text  application  email Description automatically generated](media/image19.png)
-
--   Enter a Code for your Shopify Shop.
-
--   Enter the URL of your Shopify Store, together with the Shopify Access Key.  
-    See [Install Scaptify app](shopify.md#install-the-scaptify-app).
-
--   Select the language code.
-
--   Activate the log.
-
--   Select 'Allow Background Syncs' if you want to run the synchronization in background.
 
 The next step is to define how you want to synchronize your data. Depending on your choices, some fields will be added or will disappear.
 
@@ -143,7 +99,5 @@ The last step is to do some settings for order processing.
 -   When you use multiple VAT/tax percentages, Business Central should be leading. If Business Central is not leading and you use Collections in Shopify to handle Taxes you should use the same naming convention in Business Central for Tax setup, furthermore, the item should already exist in Business Central. When this is not the case a new item is created based on the defined item template and uses the VAT/tax percentage defined in this template, not the one set in the Shopify Shop.
 
 The Shopify Connector is now setup and ready to use.
-
-## Item Synchronization
 
 

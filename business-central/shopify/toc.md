@@ -25,7 +25,6 @@
 ## [Manually sync customers](synchronize-customers.md#manually-sync-customers)
 ## [Verify customer creation](synchronize-customers.md#verify-customer-creation)
 # [Manually create customers](manually-create-customers.md)
-## [Order Processing](manually-create-customers.md#order-processing)
 # [Setup Order Processing](setup-order-processing.md)
 ## [Shipment method translations](setup-order-processing.md#shipment-method-translations)
 ## [Shipping agents](setup-order-processing.md#shipping-agents)

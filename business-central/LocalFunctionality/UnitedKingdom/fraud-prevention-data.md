@@ -6,7 +6,7 @@ author: edupont04
 ms.topic: conceptual
 ms.search.keywords: fraud prevention, making tax digital, making tax digital software, hmrc, tax
 ms.search.form: 10539, 743
-ms.date: 02/16/2022
+ms.date: 04/08/2022
 ms.author: edupont
 
 ---
@@ -81,7 +81,7 @@ When you run the **Get Current Headers** process in the **HMRC Fraud Prevention 
 
 ## IP addresses
 
-Since March 2022, you must specify an endpoint for the service that your company uses to extract and submit the IP address of the user who sends the VAT report. This is a requirement of HMRC so that they can validate the sender. The endpoint must be specified in the **User IP Address Service** field in the **VAT Report Setup** page. For more information, see [Set up VAT reporting](../../finance-setup-vat.md#set-up-vat-reporting).  
+Starting in 2022, you must specify an endpoint for the service that your company uses to extract and submit the IP address of the user who sends the VAT report. This is a requirement of HMRC so that they can validate the sender. The endpoint must be specified in the **User IP Address Service** field in the **VAT Report Setup** page. For more information, see [Set up VAT reporting](../../finance-setup-vat.md#set-up-vat-reporting).  
 
 Your company can sign up for any of the following endpoints:
 
@@ -91,7 +91,7 @@ Your company can sign up for any of the following endpoints:
 * [https://jsonip.com](https://jsonip.com)  
 
 > [!IMPORTANT]
-> The **User IP Address Service** field is available in version 19.5 and later.
+> The **User IP Address Service** field is available in version 20.1 and later.
 
 ## See Also
 

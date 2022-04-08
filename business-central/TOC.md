@@ -1580,7 +1580,7 @@
 #### Use Microsoft Teams with Business Central
 ##### [Overview](across-teams-overview.md)
 ##### [Manage Teams Integration](admin-teams-integration.md)
-##### [Instal Business Central App for Teams](across-install-app-for-teams.md)
+##### [Install Business Central App for Teams](across-install-app-for-teams.md)
 ##### [Search for Customers, Vendors, and Contacts](across-search-contacts-teams.md)
 ##### [Share Records and Page Links in Teams](across-working-with-teams.md)
 ##### [Change Company and Other Settings](across-teams-settings.md)

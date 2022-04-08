@@ -26,6 +26,9 @@ When you create the connection between the apps, [!INCLUDE[prod_short](includes/
 > [!Note]
 > If you are using an on-premises version of [!INCLUDE[prod_short](includes/prod_short.md)], the integration table mappings are stored in table 5335 Integration Table Mappings, where you can view and edit the mappings. Complex mappings and synchronization rules are defined in codeunit 5341. 
 
+### Additional Mappings 
+Payment terms, shipment methods, and shipping agents can change, and it can be important to be able to adjust them. If you enable the **Feature Update: Map to option sets in Dataverse without code** feature on the [Feature Management](https://businesscentral.dynamics.com/?page=2610) page, you can manually add integration table mappings for payment terms (PAYMENT TERMS), shipment methods (SHIPMENT METHOD), and shipping agents (SHIPPING AGENT). This mapping can help ensure that your policies are the same for these setups in [!INCLUDE[prod_short](includes/cds_long_md.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+
 ### Synchronization Rules
 An integration table mapping also includes rules that control how integration synchronization jobs synchronize records in a [!INCLUDE[prod_short](includes/prod_short.md)] table and an table in [!INCLUDE[prod_short](includes/cds_long_md.md)]. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->
 

@@ -25,18 +25,18 @@ manager:
 ### For [!INCLUDE[prod_short](../includes/prod_short.md)]
 - **Connect to Shopify for [!INCLUDE[prod_short](../includes/prod_short.md)]** extension is installed
 
-  Extension is pre-installed for all new signups. If you need to install extensions from Market place, see [Installing and Uninstalling Extensions](../ui-extensions-install-uninstall.md#install)
+  Extension is pre-installed for all new signups and trials. If you need to install extensions from Market place, see [Installing and Uninstalling Extensions](../ui-extensions-install-uninstall.md#install). Follow steps below if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## Connecting Shopify and Business Central
-### Starting from Shopify
+## Install **Dynamics 365 Business Central** app to your Shopify online store
+For existing [!INCLUDE[prod_short](../includes/prod_short.md)] this is optional step and can be skipped.
 1. Find [Dynamics 365 Business Central](https://fwlink?=TDB) app on the [Shopify AppStore](https://apps.shopify.com/)
 2. Choose **Add App** button. Login into your Shopify account if prompted. Select online shop if you have more than one.
 3. Review privacy and permissions details and choose **Install App** button.
   You can find and open installed **Dynamics 365 Business Central** app in the **Apps** section on the sidebar of **Shopify admin**.
-4. Choose **Sign up now** to start [!INCLUDE[prod_short](../includes/prod_short.md)] trial or **Sign in** if you already using [!INCLUDE[prod_short](../includes/prod_short.md)]
+4. Choose **Sign up now** to start [!INCLUDE[prod_short](../includes/prod_short.md)] trial or **Sign in** if you already using [!INCLUDE[prod_short](../includes/prod_short.md)]. You'll be redirected to your [!INCLUDE[prod_short](../includes/prod_short.md)] at https://businesscentral.dynamics.com/. 
+5. Next steps should be done in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-
-### Starting from Business Central
+## Connecting [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify online store
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
 2. Choose the **New** action.  
 3. Fill in the **Code** field.  

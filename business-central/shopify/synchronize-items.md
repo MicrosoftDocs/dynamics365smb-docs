@@ -79,13 +79,7 @@ Following settings let you manage the process of exporting items:
 |**Default Inventory Policy**|Select Deny to prevent negative stock of Shopify side. |
 |**Can Update Shopify Products**|Define if Business Central can only create items or also update items. Select if after initial sync triggered by **Add Item** action, you plan to update products manually using **Sync Product** action or via job queue for reccuring updates. Remeber to select **To Shopify** in the **Item Sync** field.|
 
-### Price calculation remarks.
-- For price calculation it is important to have the **Default Customer Template** field filled in. 
-- Remember to fill in **Currency Code** if your online shop uses different currency than LCY. 
-- When determining price system uses "Lowest price" logic. Means if Unit Price defined in the Item Card is lower to what is defined in the price group, Unit Price from Item Card will be used.
-  
-# WIP  
-   
+
 ## Execute Item Synchronization
 
 There are number of possibilities to perform full or partial synchronization of items.
@@ -93,14 +87,19 @@ There are number of possibilities to perform full or partial synchronization of 
 ### Initial sync of items from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and then choose the related link.
 2. Choose the **Add Items** action. 
-3. Fill in Shop Code. If you open the **Shopify Product** window from the Shop Card, the Shop Code will be populated automatically.
+3. Fill in the **Shop Code** field. If you open the **Shopify Product** window from the **Shop Card** window, the Shop Code will be populated automatically.
 4. Define filters on items as necessary. For example you can filter by item no. or item category code.
 5. Click ok.
 
-In result of items are automatically created in Shopify with prices, but without images and inventory levels. 
+In result of items are automatically created in Shopify with prices, but without images and inventory levels. The operation might take some time if you are adding large number of items. 
 
+### Sync of products from Shopify to [!INCLUDE[prod_short](../includes/prod_short.md)]
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
+2. Select the Shop for which you want to synchronize items to open **Shopify Shop Card** page.
+3. Choose the **Sync Products** action. 
 
- 
+Alternativelly you can use the **Sync Products** action on the **Shopify Products** window or search for **Sync Products** batch job.
+
 
 ### Ad-hock updates of Shopify Products
 When user updates records in the **Shopify Product** table following changes will be synchronized with Shopify.
@@ -116,15 +115,8 @@ Based on value in the **Remove Product Action** in **Shopify Shop Card**, system
 - *Status to Draft* - status of product in Shopify will be set to Draft.
 - *Status to Archived* - product will be archived in Shopify.
 
-
-
-
-
-
-
-
 ## Sync item images
-For already syncrhronized items you can also configure synchronization of images. 
+For already synchronized items you can also configure synchronization of images. 
 **Sync Item Images**
 - *Blank* - synchronizations of items is disabled
 - *To Shopify* - Picture of Items are exported to Shopify
@@ -134,7 +126,7 @@ You can initialize synchronization of items in two ways.
 
 ### Sync product images from the Shopify Shop window
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
-2. Select the Shop for which you want to synchronize items to open **Shopify Shop Card** page.
+2. Select the Shop for which you want to synchronize images to open **Shopify Shop Card** page.
 3. Choose the **Sync Product Images** action. 
 
 ### Sync product images from the Shopify Products window
@@ -142,168 +134,46 @@ You can initialize synchronization of items in two ways.
 2. Choose the **Sync Product Images** action. 
 
 
-## 
-
-## Setup locations
-
-In Shopify you can define more than one location via 'Settings' &gt; 'Locations'.
-
-![](media/image48.png)
-
-These locations need to be available in Microsoft Dynamics 365 Business Central.
-
-On the Shopify Shop Card: Process &gt; Locations
-
-![](media/image49.png)
-
-Use the function 'Get Shopify Locations' to get the locations from Shopify.
-
-![](media/image35.png)
-
-The locations appear in Business Central. Link the Shopify location with the location in Business Central.
-
--   Table filter: determines the location(s) for which the stock must be counted.
-
--   Default location: determines the location to be used in the orders.
-
-![](media/image36.png)
-
-Uncheck 'Disable' if you want to sync the inventory for this location to Business Central.
-
-
-
-
-
-
-## Inventory Synchronization
-
-The inventory of Shopify goes to Business Central. If there is a difference with the calculated inventory in Business Central, the inventory is updated in Shopify.
-
-
-On the tab 'Inventory Synchronization' of the Shopify Shop Card, you can enter to sync inventory.
-
-![](media/image54.png)
-
-- **Inventory Synchronization**  
-    Define if you want to manage your inventory in Shopify based on Business Central.
-
-- **Default Inventory Policy**  
-    Define if you to prevent negative inventory.
-
-    -   Continue: The inventory can go negative.
-
-    -   Deny: You want to prevent negative inventory.
-
-
-# Execute stock synchronization
-
-On your Shopify Shop Card or on your Shopify Products, you can execute the function 'Sync inventory'.
-
-The inventory of Shopify goes to Business Central. If there is a difference with the calculated inventory in Business Central, the inventory is updated in Shopify.
-
-![](media/image56.png)
-
-You can verify this on the admin page of your Shopify account.
-
-![](media/image57.png)
-
-On het Shopify Products page in Business Central, you can find the 'Shopify Inventory Factbox'. In this factbox you get an overview of the Shopify Stock and the last calculated inventory in Business Central. There is a record per location.
-
-![](media/image58.png)
-
-
-
-
-
-
-
-
-
-# Synchronize item to Shopify
-
- 
-
-When you navigate to 'Products' on you Shopify Shop Card, you can add the items from Dynamics 365 Business Central you want to synchronize to Shopify.
-
-
-
-
-
-
-<u>Remark:</u> It is possible to add 'Item tags' to your items in Dynamics 365 Business Central. These tags are also synchronized to Shopify.
-
-![Graphical user interface  application Description automatically generated](media/image30.png)
-
-![Graphical user interface  application Description automatically generated](media/image31.png)
-
-![Graphical user interface  application  table Description automatically generated](media/image32.png)
-
-
-
-
-## Setup locations
-
-In Shopify you can define more than one location via 'Settings' &gt; 'Locations'.
-
-![](media/image33.png)
-
-These locations need to be available in Microsoft Dynamics 365 Business Central.
-
-On the Shopify Shop Card: Process &gt; Locations
-
-![](media/image34.png)
-
-Use the function 'Get Shopify Locations' to get the locations from Shopify.
-
-![](media/image35.png)
-
-The locations appear in Business Central. Link the Shopify location with the location in Business Central.
-
--   Table filter: determines the location(s) for which the stock must be counted.
-
--   Default location: determines the location to be used in the orders.
-
-![](media/image36.png)
-
-Uncheck 'Disable' if you want to sync the inventory for this location to Business Central.
-
-## Execute Item Synchronization
-
-## By batch task
-
-In the Role center, use the search function to find the task "Sync products":
-
-![](media/image37.png)
-
-![](media/image38.png)
-
-When executing this task, the configured items are synchronized to your Shopify account.
-
-You can verify this on the admin page of your Shopify account.
-
-## By action 'Sync'
-
-When you navigate to 'Products' on you Shopify Shop Card, you can execute the function 'Sync Products' to synchronize the items to your Shopify Account. Only the updated products and fields are synchronized.
-
-![Graphical user interface  text  application Description automatically generated](media/image39.png)
-
-You can verify this on the admin page of your Shopify account.
-
-![](media/image40.png)
-
-![](media/image41.png)
-
-![](media/image42.png)
-
-
-## Sync Prices to Shopify
-
-Once you've updated your prices in Dynamics 365 Business Central, you can only synchronize prices to Shopify using the 'Sync Prices to Shopify' function on the 'Shopify Products' page.
-
-![Graphical user interface  application Description automatically generated](media/image44.png)
-
-Remark: The price taken follows the standard price calculation of Dynamics 365 Business Central. The lowest valid price is taken.
-
-
+## Sync prices to Shopify
+For synchronized items you can export prices:
+
+### Sync prices from the Shopify Products window
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and then choose the related link.
+2. Choose the **Sync Prices to Shopify** action. 
+
+### Price calculation remarks.
+- For price calculation it is important to have the **Default Customer Template** field filled in. 
+- Remember to fill in **Currency Code** if your online shop uses different currency than LCY. 
+- When determining price system uses "Lowest price" logic. Means if Unit Price defined in the Item Card is lower to what is defined in the price group, Unit Price from Item Card will be used.
+
+
+## Inventory 
+For already synchronized items you can also configure synchronization of inventory. There are two conditions that must be met:
+1. Inventory Tracking must be enabled for product in Shopify. If items are exported to Shopify, consider enabling **Inventory Tracked** toggle in the **Shopify Shop** card. For more information, see [Export items to Shopify](synchronize-items.md#export-items-to-shopify).
+2. Inventory synch must be enabled for **Shopify Locations**
+
+### To enable inventory sync
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
+2. Select the Shop for which you want to synchronize invenotry to open **Shopify Shop Card** page.
+3. Choose the **Locations** action to open **Shopify Shop Locations**
+4. Choose the **Get Shopify Locations** action to import all locations defined in the Shopify. You can see the in Admin -> Settings -> Locations.
+5. Fill in the **Location Filter** if you want to include invenotry only from some locations. For example you can enter *EAST|WEST*, so only inventory from these two locations will will be available for sales via online shop.
+6. Remove toggle from the **Disabled** field to enable invenotry sync for selected shopify locations
+
+You can initialize synchronization of inventory in two ways.
+
+### Sync inventory from the Shopify Shop window
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
+2. Select the Shop for which you want to synchronize images to open **Shopify Shop Card** page.
+3. Choose the **Sync inventory** action. 
+
+### Sync inventory from the Shopify Products window
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and then choose the related link.
+2. Choose the **Sync inventory** action. 
+
+### Inventory remarks.
+- System calculates  the **Projected Available Balance** and export it to Shopify
+- You can inspect the Stock information received from Shopify is in the **Shopify Inventory Factbox** page. In this factbox you get an overview of the Shopify Stock and the last calculated inventory in Business Central. There is a record per location.
+- If Stock information in Shopify is different from **Projected Available Balance** in [!INCLUDE[prod_short](../includes/prod_short.md)], then Stock will be updated in Shopify.
 
 

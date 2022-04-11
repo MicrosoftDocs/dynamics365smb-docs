@@ -48,8 +48,8 @@ Repeat steps 2-6 for all online shops you want to connect.
 
 ### Next steps
 Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_short.md)]. Now need to define how and what you want to syncronize.
-- Syncrhonize items. For more infomration, see [TBD]
-- Synchronize customers. For more infomration, see [TBD]
-- Synchronize orders. For more infomration, see [TBD]
-- Other settins. For more infomration, see [TBD]
+- Synchronize items. For more information, see [Synchronize Items](synchronize-items.md)
+- Synchronize customers. For more information, see [TBD]
+- Synchronize orders. For more information, see [TBD]
+- Other settins. For more information, see [TBD]
 

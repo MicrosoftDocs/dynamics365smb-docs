@@ -36,7 +36,7 @@ These two scenarios are always enabled.
 Either you import items from Shopify in bulk or together with import of orders, these items first will be added to the **Shopify Product** and **Shopify Variant** tables. Following settings let you manage the process:
 |Field|Description|
 |------|-----------|
-|**Auto create unknown items**|When shopify products and variants are imported to [!INCLUDE[prod_short](../includes/prod_short.md)], system always tries to find matching record in the item list first. Enable this option if you want to create new item and/or for records where system didn't find the matching record. New item will be created using imported data and **Item Template Code**. **SKU Type** impacts how system performs matching and creates new Item and/or Item Variant. For more information, see [Product Mapping](synchronize-items.md#)||
+|**Auto create unknown items**|When shopify products and variants are imported to [!INCLUDE[prod_short](../includes/prod_short.md)], system always tries to find matching record in the item list first. **SKU Type** impacts how system performs matching and creates new Item and/or Item Variant. For more information, see [Product Mapping](synchronize-items.md#). Enable this option if you want to create new item and/or for records where system didn't find the matching record. New item will be created using imported data and **Item Template Code**. If this option is disabled you will need to create Item manually and use **Map Product** action from **Shopify Products** page.|
 |**Item Template Code**|Used together with **Auto create unknown items**.<br> Choose template to be used for automatically created items.|
 |**SKU Type**|Choose how you want to use **SKU** value imported from Shopify during item/variant mapping and creation. For more information, see [How SKU and Barcode defined in Shopify product impact mapping and creation of items and variants](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-impact-mapping-and-creation-of-items-and-variants-in-includeprod_short)|
 |**SKU Field Separator**|Used together with **SKU Type** set to **Item. No + Variant Code** option.<br> Define a separator that system should use to split SKU. <br>For example: if in Shopify you create the variant with SKU '1000/001', fill '/' in the **SKU Field Separator** field to get the item number in [!INCLUDE[prod_short](../includes/prod_short.md)] as '1000' and the item variant code as '001'.
@@ -61,6 +61,8 @@ The following table outlines the impact of **Barcode** field.
 |Impact on mapping|Impact on creation|
 |-----------------|------------------|
 |System will perform search among **Item References** of type Barcode for value defined in the Barcode field in Shopify. If founded Item Reference record contains variant code, this variant code will be used by system to map Shopify variant.|Barcode is saved as **Item Reference** for item and/or item variant.|
+
+> [!NOTE] You can trigger mapping for selected product/variants or all imported not mapped products by choosing **Try Find Product Mapping** (for selected) or **Try Find Mappings** (for all).
 
 ## Export items to Shopify
 First you need to choose which elements of your item list will be exported to Shopify. Use **Add Item** action from the **Shopify Products** window to add items to the Shopify products list. 
@@ -172,7 +174,7 @@ For synchronized items you can export prices:
 - When determining price system uses "Lowest price" logic. Means if Unit Price defined in the Item Card is lower to what is defined in the price group, Unit Price from Item Card will be used.
 
 
-## Inventory 
+## Sync Inventory to Shopify
 For already synchronized items you can also configure synchronization of inventory. There are two conditions that must be met:
 1. Inventory Tracking must be enabled for product in Shopify. If items are exported to Shopify, consider enabling **Inventory Tracked** toggle in the **Shopify Shop** card. For more information, see [Export items to Shopify](synchronize-items.md#export-items-to-shopify).
 2. Inventory synch must be enabled for **Shopify Locations**

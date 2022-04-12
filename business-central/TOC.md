@@ -1606,6 +1606,7 @@
 ##### [FAQ](power-bi-faq.md)
 #### Use Power Automate with Business Central
 ##### [Use Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
+##### [Troubleshoot Your Automated Workflows](across-flow-troubleshoot.md)  
 #### Use Power Apps with Business Central
 ##### [Connecting to Your Business Central Data to Build a Business App Use Power Apps](across-how-use-financials-data-source-powerapps.md)
 #### [Change from a QuickBooks App to Business Central](across-quickbooks-to-business-edition.md)

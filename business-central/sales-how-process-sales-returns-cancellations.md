@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.search.form: 44, 134, 143, 9302, 9304, 6662
+ms.search.form: 44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
 ms.date: 09/27/2021
 ms.author: edupont
 
@@ -152,7 +152,7 @@ For more information, see [Design Details: Inventory Costing](design-details-inv
 [Managing Payables](payables-manage-payables.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

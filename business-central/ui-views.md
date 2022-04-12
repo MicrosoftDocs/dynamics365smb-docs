@@ -43,7 +43,7 @@ As the number of views on a page grows, you may need more control over how views
 ## See Also
 [List Views FAQ](ui-views-faq.yml)  
 [Personalize Your Workspace](ui-personalization-user.md)    
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 

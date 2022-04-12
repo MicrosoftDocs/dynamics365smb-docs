@@ -6,7 +6,7 @@ author: edupont04
 
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: 347
+ms.search.form: 347, Report_301, Report_304, Report_305, Report_312, Report_317, Report_319, Report_321, Report_322, Report_329
 ms.date: 07/13/2021
 ms.author: edupont
 
@@ -22,7 +22,7 @@ To help you manage your accounts payable in [!INCLUDE [prod_short](includes/prod
 ## See also
 
 [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
-[Working with Dimensions](finance-dimensions.md)  
+[Work with Dimensions](finance-dimensions.md)  
 [Managing Fixed Assets](fa-manage.md)  
 [Local Functionality Overview](about-localization.md)  
 [Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  

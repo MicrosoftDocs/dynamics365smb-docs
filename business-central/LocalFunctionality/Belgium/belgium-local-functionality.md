@@ -27,6 +27,7 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md) **Available Now**
     * [Set Up Declaration Types](how-to-set-up-declaration-types.md) **Available Now**
     * [Export Intrastat Third-Party Declarations](how-to-export-intrastat-third-party-declararations.md) **Available Now**
+    * Declarations F01DGS and F02CMS **2022 release wave 2**
 
 * Banking & Payments
     * [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md) **Available Now**
@@ -67,7 +68,7 @@ The following topics describe local functionality that is unique to the Belgian 
 
 ## See Also
 
-[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

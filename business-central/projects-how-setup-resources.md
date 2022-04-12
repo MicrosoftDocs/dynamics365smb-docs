@@ -23,8 +23,10 @@ When resources are used or sold in a job, the prices and costs associated with t
 You specify the default amount per hour when the resource is created. For example, if you use a specific machine on a job for five hours, the job would be calculated based on the amount per hour.
 
 > [!NOTE]
-> You can purchase external resources, for example to invoice a vendor for work delivered. For more information, see [Record Purchases](purchasing-how-record-purchases.md).<br /><br />
-> In that case, it is recommended that you name or group such external resources to indicate their purpose so they are not confused with your internal resources.
+> You can purchase external resources, for example, to invoice a vendor for work delivered. For more information, see [Record Purchases](purchasing-how-record-purchases.md).<br /><br />
+> For external resources, we recommend that you name or group them so that they are not confused with your internal resources.
+>  
+> If you are posting intercompany transactions, although you can a resource to a line on a sales order, if you convert the sales order to a purchase order on the receiving side the resource will not be included. To use resources in intercompany transactions, use the **IC Purch. G/L Acc. No.** field on the resource card to specify the account to which to post the expenses.
 
 ## To set up a resource
 Create a card for each resource that you want to use in projects.
@@ -76,7 +78,7 @@ In addition to price specified on the resource card, you can set up alternate pr
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

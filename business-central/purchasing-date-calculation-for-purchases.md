@@ -31,7 +31,7 @@ If there is a requested receipt date on the purchase order line, then that date 
 If you entered a requested receipt date on the purchase order header, then that date is copied to the corresponding field on all the lines. You can change this date on any of the lines, or you can remove the date on the line.  
 
 > [!NOTE]
-> If your process is based on backward calculation, for example, if you use the requested receipt date to get the order date, we recommend that you use date formulas that have fixed durations, such as "5D" for five days or "1W" for one week. Date formulas without fixed durations, such as "CW" for current week or CM for current month, can result in incorrect date calculations. For more information about date formulas, see [Working with Calendar Dates and Times](ui-enter-date-ranges.md).
+> If your process is based on backward calculation, for example, if you use the requested receipt date to get the order date, we recommend that you use date formulas that have fixed durations, such as "5D" for five days or "1W" for one week. Date formulas without fixed durations, such as "CW" for current week or CM for current month, can result in incorrect date calculations. For more information about date formulas, see [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 ## Calculating without a requested delivery date
 
@@ -55,7 +55,7 @@ However, the lead time value on the vendor card is used only if a lead time is n
 
 [Date Calculation for Sales](sales-date-calculation-for-sales.md)   
 [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

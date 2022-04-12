@@ -130,7 +130,7 @@ For examples of how you can use the fields on the **Planning** FastTab, see [Set
 [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
 [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
 [Design Details: Planning Parameters](design-details-planning-parameters.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

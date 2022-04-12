@@ -6,6 +6,7 @@ author: edupont04
 
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316
 ms.date: 07/13/2021
 ms.author: edupont
 
@@ -21,7 +22,7 @@ To help you manage your accounts receivable in [!INCLUDE [prod_short](includes/p
 ## See also
 
 [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
-[Working with Dimensions](finance-dimensions.md)  
+[Work with Dimensions](finance-dimensions.md)  
 [Managing Fixed Assets](fa-manage.md)  
 [Local Functionality Overview](about-localization.md)  
 [Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  

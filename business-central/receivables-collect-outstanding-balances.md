@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.search.form: 6, 25, 440, 448, 452
+ms.search.form: 6, 25, 440, 443, 448, 452
 ms.date: 02/09/2022
 ms.author: edupont
 
@@ -118,7 +118,7 @@ When you issue a reminder, a reminder entry is created on the **Reminder/Fin. Ch
 [Set Up Finance Charge Terms](finance-setup-finance-charges.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

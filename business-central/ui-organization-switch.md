@@ -3,7 +3,6 @@ title: Switching to Another Company or Environment
 description: If you do work for multiple organizations, you can quickly switch between the environments and companies.
 author: brentholtorf
 
-
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
@@ -14,17 +13,21 @@ ms.author: bholtorf
 
 # Switching to Another Company or Environment
 
+[!INCLUDE [prod_short](includes/prod_short.md)] is available in many different countries and supports many different types of organizations. Your organization might set up [!INCLUDE [prod_short](includes/prod_short.md)] so that you have to understand the terms *company* and *environment*.  
+
 [!INCLUDE [company_environment](includes/company_environment.md)] For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
 > If you often switch between companies, or work with [!INCLUDE[prod_short](includes/prod_short.md)] from within another app like Microsoft Teams, it can be easy to lose track of where you are. To help you keeping track, you can add a badge that will display the company name, so you can quickly verify that you're in the right place. For more information, see [To display a company badge for quick access to company information](ui-change-basic-settings.md#badge).
 
+Depending on your browser, you can also pin the different companies to your favourites bar.  
+
 ## Switch to Another Environment
 
-When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the environments that you can access are available on the Office.com. 
+When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the environments that you can access are available on the Office.com.  
 
 1. Select the **App Launcher** icon ![App Launcher.](media/app-launcher-icon.png "The App Launcher provides access to more features").
-2. If you don't see an app for [!INCLUDE[prod_short](includes/prod_short.md)] in the pane that opens, then choose **Office 365**. Then, enter **Business Central** in the **Search** box or select **All Apps** > **Business Apps**.   
+2. If you don't see an app for [!INCLUDE[prod_short](includes/prod_short.md)] in the pane that opens, then choose **Office 365**. Then, enter **Business Central** in the **Search** box or select **All Apps** > **Business Apps**.  
 3. There will be one [!INCLUDE[prod_short](includes/prod_short.md)] app listed for each type of environment, like production and sandbox. To switch to another environment, choose the [!INCLUDE[prod_short](includes/prod_short.md)] app for the type of environment it is. If there's more than one environment of a certain type, you'll then be asked to choose the environment to access.
 
 <!--
@@ -49,8 +52,9 @@ When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], you can
 
 ## See Also
 
-[The Business Central Administration Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Change Basic Settings](ui-change-basic-settings.md)  
+[Environments and companies (English only)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
+[The Business Central Administration Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

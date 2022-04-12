@@ -273,7 +273,7 @@ Cloud printing is designed for documents of a reasonable size. Most cloud servic
 ## See Also
 
 [Printing a Report](ui-work-report.md#PrintReport)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Run Batch Jobs](ui-how-run-batch-jobs.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 

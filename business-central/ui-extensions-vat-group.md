@@ -88,7 +88,7 @@ Set up the VAT group member by starting the **Set up VAT Group Management** assi
 
   For example, in the United Kingdom, the VAT report configuration would be set up to report VAT to HMRC. The VAT Group Management extension copies this setup, but replaces the submission codeunit with one that supports submission to the VAT group representative rather than the tax authorities. The codeunit is provided by Microsoft. When done, choose **Next**.
 
-## Using the VAT Group Management Features
+## Use the VAT Group Management Features
 
 VAT group members use the standard processes to prepare VAT returns. The only difference is to choose the **VATGROUP** report version, which submits the VAT return to the VAT group representative rather than the authorities. For more information, see [About the VAT Return report](finance-how-report-vat.md#vatreturn).
 

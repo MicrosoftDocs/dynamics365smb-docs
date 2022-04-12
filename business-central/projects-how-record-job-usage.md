@@ -66,6 +66,23 @@ This lets you track and compare your original estimates against actual results a
 4. Update the journal with any modifications that may be needed.  
 5. Choose the **Post**.
 
+## Create inventory and warehouse pick documents for a job
+
+To create inventory and warehouse pick documents for jobs, your administrator must enable **Feature Update: Enable inventory and warehouse pick from Jobs** on the **Feature Management** page.
+
+The feature adds the **Create Inventory Pick** and **Create Warehouse Pick** actions to the **Job Card**. To create or register a pick document, use the **Put-away/Pick Lines/Movement Lines** or **Registered Pick Lines** actions. For more informations about picks, see [Pick Items](warehouse-pick-items.md)
+
+You can use the actions under the following conditions:
+* The **Status** of the job is **Open**.
+* The **Line Type** of the job planning line is **Budget** or **Both Budget and Billable**.
+* The **Type** of the job planning line is **Item**.
+* **Require Pick** is enabled for the related location.
+* **Directed Pick and Put-away** is disabled.
+
+> [!NOTE] 
+> Although the setting is called **Require Pick**, you can still post consumption directly from the job journal line for the location. If your location is set up to require pick processing but not shipment processing, you use the **Inventory Pick** page to organize and print the picking information. You also use the page to enter and post the result of the pick, which in turn posts the consumption of the items. 
+> 
+> If your location is set up to require both pick and shipment processing, meaning that you have chosen both the **Require Pick** and **Require Shipment** fields on the **Location Card** page, use the **Warehouse Pick** page to handle the pick. Warehouse picks are similar to inventory picks. The difference is that rather than posting the picking information you register the pick. This registration doesn't post consumption, it just makes the items available for posting. As a warehouse manager, you can use a pick worksheet to organize pick information before creating the individual warehouse pick instructions
 
 
 ## To review planning lines for a job ledger entry
@@ -84,7 +101,7 @@ After you have posted job journal lines, you can see the planning lines that are
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)      
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

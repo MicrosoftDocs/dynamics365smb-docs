@@ -81,7 +81,7 @@ When a page is bookmarked, the page will always open in the view mode from the b
 
 ## See Also
 [Personalize Your Workspace](ui-personalization-user.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 

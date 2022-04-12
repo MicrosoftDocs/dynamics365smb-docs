@@ -43,7 +43,7 @@ This article describes how to get started using Power BI Desktop to create repor
 
 - Download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional).
 
-  For more information, see [Using the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](#theme) in this article.
+  For more information, see [Use the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](#theme) in this article.
 
 ## <a name="getdata"></a>Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop
 
@@ -78,7 +78,7 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
       - **Company name**
         - **Advanced APIs**
 
-          This folder lists advanced API pages published by Microsoft, like the [Business Central automation APIs](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) and [custom API pages for Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Custom API pages are further grouped in folders by [APIPublisher](/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/business-central/dev-itpro/developer/properties/devenv-apigroup-property) properties of the API page source code.
+          This folder lists advanced API pages published by Microsoft, like the [Business Central automation APIs](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) and [custom API pages for Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Custom API pages are further grouped in folders by [APIPublisher](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apigroup-property) properties of the API page source code.
 
         - **Standard APIs v2.0**
 

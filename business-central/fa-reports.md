@@ -6,6 +6,7 @@ author: edupont04
 
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_5600, Report_5601, Report_5603, Report_5604, Report_5605, Report_5606, Report_5607, Report_5608, Report_5610
 ms.date: 07/13/2021
 ms.author: edupont
 
@@ -21,7 +22,7 @@ To help you manage your fixed assets in [!INCLUDE [prod_short](includes/prod_sho
 ## See also
 
 [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
-[Working with Dimensions](finance-dimensions.md)  
+[Work with Dimensions](finance-dimensions.md)  
 [Managing Fixed Assets](fa-manage.md)  
 [Local Functionality Overview](about-localization.md)  
 [Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  

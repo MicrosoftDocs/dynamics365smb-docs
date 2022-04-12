@@ -6,6 +6,7 @@ metadata:
   ms.topic: faq
   ms.reviewer: edupont04
   ms.search.keywords: keyboarding, productivity, how do i, filter pane
+  ms.search.form: TellMe
   ms.date: 04/01/2021
   ms.author: mikebc
 title: Searching and Filtering FAQ
@@ -42,7 +43,7 @@ sections:
         answer: |
           Your filters and adjustments to predefined filters are remembered throughout the session (while you remain signed in), even if you navigate away from the page. You can permanently save filters as a named view of the list by choosing the ![Save View](media/save_view_icon.png "Save View") icon in the filter pane. For more information, see [List Views FAQ](ui-views-faq.yml). Note that, unlike filters, search text is not remembered when you navigate away from a page and is not saved when you save a view.
           
-          On report request pages, you can also save filters or use predefined filters. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
+          On report request pages, you can also save filters or use predefined filters. For more information, see [Use Saved Settings](ui-work-report.md#SavedSettings).
           
       - question: |
           Is this the same as Advanced Filters and Limit Totals in Microsoft Dynamics NAV?
@@ -70,6 +71,11 @@ sections:
           Will Microsoft extend the filter pane experience?
         answer: |
           At Microsoft, we're constantly listening to feedback from our diverse community of users and acting upon the top community suggestions. If you are interested in extending the filter pane to more form factors and more types of lists, or have a great idea on how to improve it, add an idea or vote for existing ideas at [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas).
+
+      - question: |
+          How do I change the output of the decimal separator key on my numeric keypad?
+        answer: |
+          By default, the output character of the decimal separator is determined by the region setting of Business Central, which you set on the **My Settings** page. You can temporarily switch it to a period (.) by pressing the 'Alt+Decimal Separator' keys on the keypad. Press 'Alt+Decimal Separator' again to switch back. For more information, see [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).
           
 additionalContent: |
 

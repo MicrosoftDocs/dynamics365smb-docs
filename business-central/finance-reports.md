@@ -6,6 +6,7 @@ author: edupont04
 
 ms.topic: conceptual
 ms.search.keywords: reporting
+ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
 ms.date: 04/12/2021
 ms.author: edupont
 
@@ -36,10 +37,10 @@ The following articles describe some of the key tasks for analyzing the state of
 [Creating Cost Budgets](finance-create-cost-budgets.md)  
 [Report VAT to Tax Authorities](finance-how-report-vat.md)  
 [Closing Years and Periods](year-close-years-periods.md)  
-[Using Pre-Closing Reports](year-prepare-preclose-reports.md)  
+[Use Pre-Closing Reports](year-prepare-preclose-reports.md)  
 [Preparing Closing Statements](year-prepare-close-statement.md)  
 [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
-[Working with Dimensions](finance-dimensions.md)  
+[Work with Dimensions](finance-dimensions.md)  
 [Accounts Receivable Reports and Analytics](receivables-reports.md)  
 [Accounts Payable Reports and Analytics](payables-reports.md)  
 [Fixed Assets Reports and Analytics](fa-reports.md)  

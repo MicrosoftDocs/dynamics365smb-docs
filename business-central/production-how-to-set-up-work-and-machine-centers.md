@@ -36,18 +36,19 @@ The following primarily describes how to set up a work center. The steps to set 
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. In the **Work Center Group** field, select the higher-level resource grouping that the work center is organized under, if relevant. Choose the **New** action in the drop-down list.  
-5. Select the **Blocked** field if you want to prevent the work center from being used in any processing. This means that output cannot be posted for an item that is produced at the work center. For more information, see [Post Production Output](production-how-to-post-output-quantity.md).
-6. In the **Direct Unit Cost** field, enter the cost of producing one unit of measure at this work center, excluding any other cost elements. This cost is often referred to as the *direct labor rate*.  
-7. In the **Indirect Cost %** field, enter the general operation costs of using the work center as a percentage of the direct unit cost. This percentage amount is added to the direct cost in the calculation of the unit cost.  
-8. In the **Overhead Rate** field, enter any non-operational costs, for example maintenance expenses, of the work center as an absolute amount.  
+5. In the **Alternate Work Center** field, select the work center to use if this work center isn't available or when demand exceeds its capacity. The alternate work center is for information only, and isn't automatically included in planning processes.
+6. Select the **Blocked** field if you want to prevent the work center from being used in any processing. This means that output cannot be posted for an item that is produced at the work center. For more information, see [Post Production Output](production-how-to-post-output-quantity.md).
+7. In the **Direct Unit Cost** field, enter the cost of producing one unit of measure at this work center, excluding any other cost elements. This cost is often referred to as the *direct labor rate*.  
+8. In the **Indirect Cost %** field, enter the general operation costs of using the work center as a percentage of the direct unit cost. This percentage amount is added to the direct cost in the calculation of the unit cost.  
+9. In the **Overhead Rate** field, enter any non-operational costs, for example maintenance expenses, of the work center as an absolute amount.  
 
     The **Unit Cost** field contains the calculated unit cost of producing one unit of measure at this work center, including all cost elements, as follows:  
 
     Unit Cost = Direct Unit Cost + (Direct Unit Cost x Indirect Cost %) + Overhead Rate.  
 
-9. In the **Unit Cost Calculation** field, define whether the above calculation should be based on the amount of time used:  **Time**, or on the number of produced units:  **Units**.  
-10. Select the **Specific Unit Cost** field if you want to define the work center's unit cost on the routing line where it is being used. This may be relevant for operations with dramatically different capacity costs than what would normally be processed at that work center.  
-11. In the **Flushing Method** field, select whether output posting at this work center should be calculated and posted manually or automatically, using either of the following methods.
+10. In the **Unit Cost Calculation** field, define whether the above calculation should be based on the amount of time used:  **Time**, or on the number of produced units:  **Units**.  
+11. Select the **Specific Unit Cost** field if you want to define the work center's unit cost on the routing line where it is being used. This may be relevant for operations with dramatically different capacity costs than what would normally be processed at that work center.  
+12. In the **Flushing Method** field, select whether output posting at this work center should be calculated and posted manually or automatically, using either of the following methods.
 
     |Option|Description|
     |------|-----------|
@@ -58,17 +59,17 @@ The following primarily describes how to set up a work center. The steps to set 
     > [!NOTE]
     > If necessary, the flushing method selected here, can be overridden for individual operations by changing the setting on routing lines
 
-12. In the **Unit of Measure Code** field, enter the time unit in which this work center's cost calculation and capacity planning are made.
+13. In the **Unit of Measure Code** field, enter the time unit in which this work center's cost calculation and capacity planning are made.
     In order to be able to constantly monitor consumption, you must first set up a method of measure. The units you enter are basic units. For example, the processing time is measured in hours and minutes.
 
     > [!NOTE]  
     > If you select to use Days then remember that 1 day = 24 hours - and not 8 (working hours).
 
-13. In the **Capacity** field, define whether the work center has more than one machine or person working at the same time. If your [!INCLUDE[prod_short](includes/prod_short.md)] installation does not include the Machine Center functionality, then the value in this field must be **1**.  
-14. In the **Efficiency** field, enter the percentage of the expected standard output that this work center actually outputs. If you enter **100**, it means that the work center has an actual output that is the same as the standard output.  
-15. Select the **Consolidated Calendar** check box if you are also using machine centers. This ensures that calendar entries are rolled up from machine center calendars.  
-16. In the **Shop Calendar Code** field, select a shop calendar. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
-17. In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work center. 
+14. In the **Capacity** field, define whether the work center has more than one machine or person working at the same time. If your [!INCLUDE[prod_short](includes/prod_short.md)] installation does not include the Machine Center functionality, then the value in this field must be **1**.  
+15. In the **Efficiency** field, enter the percentage of the expected standard output that this work center actually outputs. If you enter **100**, it means that the work center has an actual output that is the same as the standard output.  
+16. Select the **Consolidated Calendar** check box if you are also using machine centers. This ensures that calendar entries are rolled up from machine center calendars.  
+17. In the **Shop Calendar Code** field, select a shop calendar. For more information, see [Create Shop Calendars](production-how-to-create-work-center-calendars.md).  
+18. In the **Queue Time** field, specify a fixed time span that must pass before assigned work can begin at this work center. 
 
 > [!NOTE]
 > Use queue times to provide a buffer between the time that a component arrives at a machine or work center and when the operation actually starts. For example, a part is delivered to a machine center at 10:00 but it takes an hour to mount it on the machine so the operation does not start until 11.00. To account for that hour, the queue time would be one hour. The value of the **Queue Time** field on a machine or work center card plus the sum of the values in the **Setup Time**, **Run Time**, **Wait Time**, and **Move Time** fields on the item routing line combine to give the production lead time of the item. This helps provide accurate overall production times.  
@@ -184,7 +185,7 @@ When planning with capacity-constrained resources, the system ensures that no re
 [Planning](production-planning.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

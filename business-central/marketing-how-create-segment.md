@@ -1,8 +1,6 @@
 ---
-title: Create Segments| Microsoft Docs
+title: Create Segments
 description: Describes how to create a segment for a group of contacts in Business Central, for example, in order to target several contacts with a direct mail.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 
 
@@ -11,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
+ms.search.form: 5091, 5093
 ms.date: 04/01/2021
 ms.author: jswymer
 
@@ -31,7 +30,7 @@ You can now add contacts to the segment. For more information, see [Add Contacts
 ## See Also
 [Managing Segments](marketing-segments.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

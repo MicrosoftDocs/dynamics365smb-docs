@@ -80,24 +80,26 @@ Following settings let you manage the process of exporting items:
 |**Can Update Shopify Products**|Define if Business Central can only create items or also update items. Select if after initial sync triggered by **Add Item** action, you plan to update products manually using **Sync Product** action or via job queue for reccuring updates. Remeber to select **To Shopify** in the **Item Sync** field.|
 
 ### Fields mapping overview
-|Shopify|[!INCLUDE[prod_short](../includes/prod_short.md)]|
-|------|-----------------|
-|Status|For export: accordingly to the **Create Product Status Value** in the **Shopify Shop Card**. For more information, see [Ad-hock updates of Shopify Products](synchronize-items.md#Ad-hock-updates-of-Shopify-Products). Not imported.|
-|Title|Description. For export: if Language Code defined and corresponding Item translation exists, it will be used instead.|
-|Description|For export: combines extended texts and attributes, if corresponding toggles in the Shopify Shop Card are enbaled. Respectes Language Code.|
-|SEO Page Title|For export: empty, see [Ad-hock updates of Shopify Products](synchronize-items.md#Ad-hock-updates-of-Shopify-Products). Not imported.|
-|SEO Meta description|For export: empty, see [Ad-hock updates of Shopify Products](synchronize-items.md#Ad-hock-updates-of-Shopify-Products). Not imported.|
-|Media|Image, for more informations, see [Sync Item Images](synchronize-items.md#sync-item-images)|
-|Price|For export: final end-customer price calculated with respect of Item Price Group, Item Discownt Group, Currency Code, Customer Template Code. Not imported.|
-|Compare at price|For export: price without discount calculated with respect of Item Price Group, Item Discownt Group, Currency Code, Customer Template Code. Not imported.|
-|Cost per item|Unit Cost|
-|SKU|For export, see **SKU Type** in the [Export items to Shopify](synchronize-items.md#Export-items-to-Shopify), for import, see [How SKU and Barcode defined in Shopify product impact mapping and creation of items and variants](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-impact-mapping-and-creation-of-items-and-variants-in-includeprod_short)|
-|Barcode|**Item References** of type Barcode|
-|Track quantity|For export: accordingly to the **Inventory Tracked** in the **Shopify Shop Card**. For more information, see [Inventory](synchronize-items.md#Inventory). Not imported.|
-|Continue selling when out of stock|For export: accordingly to the **Default Invenotry Policy** in the **Shopify Shop Card**. Not imported.|
-|Type|Item Category Code. Mapping by Description. If Type doesn't exists on Shopify, it will be added as Custom Type.|
-|Vendor|Vendor No. Mapping by Name.|
-|Weight|For export: Gross Weight. Not imported.|
+|Shopify|Source when exported from [!INCLUDE[prod_short](../includes/prod_short.md)]|Target when imported to [!INCLUDE[prod_short](../includes/prod_short.md)]|
+|------|-----------------|-----------------|
+|Status|Accordingly to the **Create Product Status Value** in the **Shopify Shop Card**. For more information, see [Ad-hock updates of Shopify Products](synchronize-items.md#Ad-hock-updates-of-Shopify-Products).|Not used.|
+|Title|**Description**. If Language Code defined and corresponding Item Translation exists, translation will be used instead of Description.|**Description**|
+|Description|Combines extended texts and attributes, if corresponding toggles in the Shopify Shop Card are enbaled. Respectes Language Code.|Not used.|
+|SEO Page Title|Fix value: empty, see [Ad-hock updates of Shopify Products](synchronize-items.md#Ad-hock-updates-of-Shopify-Products). |Not used.|
+|SEO Meta description|Fix value: empty, see [Ad-hock updates of Shopify Products](synchronize-items.md#Ad-hock-updates-of-Shopify-Products). |Not used.|
+|Media|**Image**, for more informations, see [Sync Item Images](synchronize-items.md#sync-item-images)|**Image**|
+|Price|End-customer price calculated with respect of Item Price Group, Item Discownt Group, Currency Code, Customer Template Code. |Not used.|
+|Compare at price|Price without discount calculated with respect of Item Price Group, Item Discownt Group, Currency Code, Customer Template Code. |Not used.|
+|Cost per item|**Unit Cost**|**Unit Cost**|
+|SKU|See **SKU Type** in the [Export items to Shopify](synchronize-items.md#Export-items-to-Shopify)| See [How SKU and Barcode defined in Shopify product impact mapping and creation of items and variants](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-impact-mapping-and-creation-of-items-and-variants-in-includeprod_short)|
+|Barcode|**Item References** of type Barcode|**Item References** of type Barcode|
+|Track quantity|Accordingly to the **Inventory Tracked** in the **Shopify Shop Card**. For more information, see [Inventory](synchronize-items.md#Inventory).|Not used.|
+|Continue selling when out of stock|Accordingly to the **Default Invenotry Policy** in the **Shopify Shop Card**. Not imported.|Not used.|
+|Type|**Description** of **Item Category Code**. If Type doesn't exists on Shopify, it will be added as Custom Type.|**Item Category Code**. Mapping by Description.|
+|Vendor|**Name** of vendor from **Vendor No.** |**Vendor No.** Mapping by Name.|
+|Weight|**Gross Weight**.|Not used.|
+|Taxable|Fixed value: Enabled.|Not used.|
+|Tax Codes|**Tax Group Code**. Only relevant for sales taxes. For more information, see (taxes)[TBD]. |Not used.|
 
 Tags. Imported tags can be reviewed in the **Tags** factox in the **Shopify Product**. To edit tags choose **Tags** action in the **Shopify Product** page.
 

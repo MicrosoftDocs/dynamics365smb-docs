@@ -50,3 +50,46 @@ The last step is to do some settings for order processing.
 Taxes:
 When you use multiple VAT/tax percentages, [!INCLUDE[prod_short](../includes/prod_short.md)] should be leading. Furthermore, the item should already exist in [!INCLUDE[prod_short](../includes/prod_short.md)]. A new item is created based on the defined item template and uses the VAT/tax percentage defined in this template, not the one set in the Shopify Shop.
 
+##  Gift Cards
+
+In the Shopify Shop, you can buy gift cards. When you synchronize orders, gift cards are also synchronized to 'Gift Cards'.
+
+![](media/image114.png)
+
+You get an overview of the sold gift cards and the used amount of de gift card with the relevant transactions.
+
+![](media/image115.png)
+
+## Payouts
+
+If your store has Shopify Payments enabled, then you receive payments through Shopify Payouts when a customer pays using Shopify Payments and specific accelerated checkouts.
+
+The payouts can also be synchronized to Microsoft Dynamics 365 Business Central.
+
+Go to your Shopify Shop and execute 'Sync Payouts'.
+
+![](media/image116.png)
+
+You get an overview of the payouts if you navigate to 'Scaptify' and then to 'Payouts'. You get a view of the details of the payouts.
+
+![](media/image117.png)
+
+![](media/image118.png)
+
+## Troubleshooting
+
+When a synchronization task from / to Shopify fails, you can activate logging on the tab 'General' in the Shopify Shop Card:
+
+![](media/image119.png)
+
+After you start the synchronization task again, you can check the Scaptify Log Entries for any errors / information:
+
+![](media/image120.png)
+
+![](media/image121.png)
+
+![](media/image122.png)
+
+Make sure to disable the logging when not needed, or to delete the entries periodically.
+
+![](media/image123.png)

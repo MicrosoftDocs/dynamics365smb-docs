@@ -11,9 +11,7 @@ manager:
 
 # Setup Order Processing
 
-On the tab 'Order Processing' of the Shopify Shop Card, you can define some setup for order processing.
-
-![](media/image73.png)
+On the **Shopify Shop Card**, you can define some setup for order processing.
 
 - **Shipping Cost Account**  
     Define the g/l account that should be used for shipping costs.
@@ -24,10 +22,8 @@ On the tab 'Order Processing' of the Shopify Shop Card, you can define some setu
 - **Tip account**  
     Define the g/l account that should be used for obtained tips.
 
-- **Shopify Order No. on Doc. Line  
- **Check this option if you want to show the Shopify order number on the sales lines.
-
-![](media/image74.png)
+- **Shopify Order No. on Doc. Line**  
+    Check this option if you want to create sales line of type Comment with Shopify order number.
 
 - **Auto Create Orders**  
     Determine whether order in Microsoft Dynamics 365 Business Central may be created automatically.
@@ -55,9 +51,7 @@ When you have synchronized orders, the Shopify delivery methods are retrieved in
 
 Name is the delivery method in Shopify. In 'Code', you set the corresponding shipping method in Microsoft Dynamics 365 Business Central.
 
-![](media/image75.png)
-
-![](media/image76.png)
+>[!NOTE] if multiple shipping costs assosiated with Sales ORder - only one will be used in the Header.
 
 ## Shipping agents
 
@@ -69,13 +63,9 @@ When you navigate to the list of Shipping agents in Microsoft Dynamics 365 Busin
 
 When you have synchronized orders, the Shopify payment methods are retrieved in Business Central. Go to your Shopify Shop and open the 'Shipment payment Translations'.
 
-![](media/image78.png)
-
 You can define Payment Method translations for your Shopify Shop. The fields 'Gateway' and 'Credit Card Company' retrieved from Shopify. In 'Payment method' you define the corresponding method in Microsoft Dynamics 365 Business Central.
 
 If a customer pays part via visa card and part via maestro, you can assign priorities. The payment method with the highest priority will be entered in the order. If both payment methods have the same priority, the payment method of the highest amount will be used.
-
-![](media/image79.png)
 
 
 
@@ -90,8 +80,6 @@ When an order is placed in Shopify, you can synchronize this to Dynamics 365 Bus
 
 You can find this task by using the search function from the Role Center:
 
-![](media/image80.png)
-
 ![](media/image81.png)
 
 It is possible to apply filters to synchronize only a limited number of orders, e.g. only those who have been paid in full or whose risk level is low.
@@ -100,19 +88,14 @@ When executing this task, the Shopify Orders are imported in Dynamics 365 Busine
 
 ## By action 'Sync orders from Shopify'
 
-When you navigate to the Shopify Orders via your Shopify Shop, you can execute the function 'Sync Orders From Shopify' to synchronize the orders from your Shopify Account.
+When you navigate to the Shopify Orders via your Shopify Shop, you can execute the function **Sync Orders From Shopify** to synchronize the orders from your Shopify Account.
 
-![Graphical user interface  text  application Description automatically generated](media/image82.png)
-
-![Graphical user interface  application Description automatically generated](media/image83.png)
 
 ## By job queue
 
 You can also schedule a job that runs for example every few minutes.
 
 You can find the job queue entries by using the search function from the Role Center:
-
-![](media/image84.png)
 
 Define the recurrence of the job queue and start the job queue 'Sync Orders from Shopify'.
 
@@ -121,23 +104,19 @@ Define the recurrence of the job queue and start the job queue 'Sync Orders from
 
 # View Shopify Orders
 
-You can find the Shopify Orders using the search function from the Role Center.
+You can find the **Shopify Orders** using the search function from the Role Center.
 
-![](media/image86.png)
 
 ## All Shopify Orders
 
-This are all the open orders of all Shopify Shop Accounts
+This are all the open orders of all Shopify Shop Accounts.
+>[!NOTE] Only open orders are there.
 
-![Graphical user interface  application Description automatically generated](media/image87.png)
 
 ## Shopify Orders of a specific shop
 
-Navigate to the Shopify Shop to get an overview of all the Shopify Orders for this Shop.
+Navigate to the Shopify Shop to get an overview of all the Shopify Orders for this Shop, including archived orders.
 
-![](media/image88.png)
-
-![](media/image89.png)
 
 
 

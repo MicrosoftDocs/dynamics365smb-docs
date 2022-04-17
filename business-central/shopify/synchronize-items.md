@@ -29,8 +29,8 @@ These two scenarios are always enabled.
 |Option|Description|
 |------|-----------|
 |**Blank**|Products will be imported together with import of orders. Products will be exported to Shopify if user runs **Add Item** action from the **Shopify Products** window. This is default behavior. |
-|**To Shopify**| Select if after initial sync triggered by **Add Item** action, you plan to update products manually using **Sync Product** action or via job queue for reccuring updates. Other than that it equals to **Blank** option. For initial sync you must use **Add Item** action from the **Shopify Products** window. Remember to enable **Can Update Shopify Product** field.|
-|**From Shopify**|Select if you plan import products from Shopify in bulk either manually using **Sync Product** action or via job queue for reccuring updates. Other than that it equals to **Blank** option.|
+|**To Shopify**| Select if after initial sync triggered by **Add Item** action, you plan to update products manually using **Sync Product** action or via job queue for recurring updates. Other than that it equals to **Blank** option. For initial sync you must use **Add Item** action from the **Shopify Products** window. Remember to enable **Can Update Shopify Product** field.|
+|**From Shopify**|Select if you plan import products from Shopify in bulk either manually using **Sync Product** action or via job queue for recurring updates. Other than that it equals to **Blank** option.|
 
 ## Import items from Shopify
 Either you import items from Shopify in bulk or together with import of orders, these items first will be added to the **Shopify Product** and **Shopify Variant** tables. Following settings let you manage the process:
@@ -79,7 +79,7 @@ Following settings let you manage the process of exporting items:
 |**SKU Field Separator**|Define a separator for **Item. No + Variant Code** option.|
 |**Inventory Tracked**|Select how system should populated Track Inventory field for products exported to Shopify. For products in Shopify, where Track Inventory is enabled you can update availability information from [!INCLUDE[prod_short](../includes/prod_short.md)]. For more information, see [Inventory](synchronize-items.md#Inventory)|
 |**Default Inventory Policy**|Select Deny to prevent negative stock of Shopify side. |
-|**Can Update Shopify Products**|Define if Business Central can only create items or also update items. Select if after initial sync triggered by **Add Item** action, you plan to update products manually using **Sync Product** action or via job queue for reccuring updates. Remeber to select **To Shopify** in the **Item Sync** field.|
+|**Can Update Shopify Products**|Define if Business Central can only create items or also update items. Select if after initial sync triggered by **Add Item** action, you plan to update products manually using **Sync Product** action or via job queue for recurring updates. Remeber to select **To Shopify** in the **Item Sync** field.|
 
 ### Fields mapping overview
 |Shopify|Source when exported from [!INCLUDE[prod_short](../includes/prod_short.md)]|Target when imported to [!INCLUDE[prod_short](../includes/prod_short.md)]|

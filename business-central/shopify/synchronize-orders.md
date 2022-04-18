@@ -26,36 +26,30 @@ On the **Shopify Shop Card**, you can define some setup for order processing.
     Check this option if you want to create sales line of type Comment with Shopify order number.
 
 - **Auto Create Orders**  
-    Determine whether order in Microsoft Dynamics 365 Business Central may be created automatically.
+    Select if sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] must be created automatically.
 
 - **Tax area source  
     **Define your tax area source and the sequence that needs to be followed.
 
     -   No taxes
-
     -   Ship-to &gt; Sell-to &gt; Bill-to
-
     -   Ship-to &gt; Bill-to &gt; Sell-to
-
     -   Sell-to &gt; Ship-to &gt; Bill-to
-
     -   Sell-to &gt; Bill-to &gt; Ship-to
-
     -   Bill-to &gt; Sell-to &gt; Ship-to
-
     -   Bill-to &gt; Ship-to &gt; Sell-to
 
 ## Shipment method translations
 
-When you have synchronized orders, the Shopify delivery methods are retrieved in Business Central. Go to your Shopify Shop and open the 'Shipment Method Translations'.
+When you have synchronized orders, the Shopify delivery methods are retrieved in [!INCLUDE[prod_short](../includes/prod_short.md)]. Go to your Shopify Shop and open the 'Shipment Method Translations'.
 
-Name is the delivery method in Shopify. In 'Code', you set the corresponding shipping method in Microsoft Dynamics 365 Business Central.
+Name is the delivery method in Shopify. In 'Code', you set the corresponding shipping method in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
->[!NOTE] if multiple shipping costs assosiated with Sales ORder - only one will be used in the Header.
+>[!NOTE] if multiple shipping charges assosiated with Sales Order - only one will be used in the Header.
 
 ## Shipping agents
 
-When you navigate to the list of Shipping agents in Microsoft Dynamics 365 Business Central, the column 'Shopify Tracking Company' is added. Select the tracking company in Shopify where you can track your items.
+When you navigate to the list of Shipping agents in [!INCLUDE[prod_short](../includes/prod_short.md)], the column 'Shopify Tracking Company' is added. Select the tracking company in Shopify where you can track your items.
 
 ![](media/image77.png)
 
@@ -63,7 +57,7 @@ When you navigate to the list of Shipping agents in Microsoft Dynamics 365 Busin
 
 When you have synchronized orders, the Shopify payment methods are retrieved in Business Central. Go to your Shopify Shop and open the 'Shipment payment Translations'.
 
-You can define Payment Method translations for your Shopify Shop. The fields 'Gateway' and 'Credit Card Company' retrieved from Shopify. In 'Payment method' you define the corresponding method in Microsoft Dynamics 365 Business Central.
+You can define Payment Method translations for your Shopify Shop. The fields 'Gateway' and 'Credit Card Company' retrieved from Shopify. In 'Payment method' you define the corresponding method in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 If a customer pays part via visa card and part via maestro, you can assign priorities. The payment method with the highest priority will be entered in the order. If both payment methods have the same priority, the payment method of the highest amount will be used.
 
@@ -71,58 +65,29 @@ If a customer pays part via visa card and part via maestro, you can assign prior
 
 
 
+## Execute Order Synchronization
 
-# Execute Order Synchronization
+There are number of possibilities to perform import and update of sales orders.
+>[!NOTE] Archived orders in Shopify will can not be imported. Disable **Automatically archive the order** in the **Order Processing** section of the **Checkout** settings in your **Shopify admin** to make sure that all orders are imported to [!INCLUDE[prod_short](../includes/prod_short.md)]. If you need to import archived order, use **Unarchive Orders** action in the [Orders](https://www.shopify.com/admin/orders) page of Shopify Admin.
 
-## By batch task
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
+2. Select the Shop for which you want to synchronize items to open **Shopify Shop Card** page.
+3. Choose the **Orders** action. 
+4. Choose **Sync Orders From Shopify**
+5. Define filters on orders as necessary. For example you can import fully paid orders or with low risk level.
+6 Click ok.
 
-When an order is placed in Shopify, you can synchronize this to Dynamics 365 Business Central by executing the task "Sync Orders from Shopify".
+Alternativelly you can search for **Sync Orders From Shopify** batch job.
 
-You can find this task by using the search function from the Role Center:
+>[!NOTE] You can navigate to the **Shopify Orders** window directly, in this case you will see orders from all shops, but only open. To review completed orders you need to open **Shopify Orders** page from the specific **Shopify Shop Card** window.
 
-![](media/image81.png)
-
-It is possible to apply filters to synchronize only a limited number of orders, e.g. only those who have been paid in full or whose risk level is low.
-
-When executing this task, the Shopify Orders are imported in Dynamics 365 Business Central.
-
-## By action 'Sync orders from Shopify'
-
-When you navigate to the Shopify Orders via your Shopify Shop, you can execute the function **Sync Orders From Shopify** to synchronize the orders from your Shopify Account.
-
-
-## By job queue
-
-You can also schedule a job that runs for example every few minutes.
-
-You can find the job queue entries by using the search function from the Role Center:
-
-Define the recurrence of the job queue and start the job queue 'Sync Orders from Shopify'.
-
-![](media/image85.png)
-
-
-# View Shopify Orders
-
-You can find the **Shopify Orders** using the search function from the Role Center.
-
-
-## All Shopify Orders
-
-This are all the open orders of all Shopify Shop Accounts.
->[!NOTE] Only open orders are there.
-
-
-## Shopify Orders of a specific shop
-
-Navigate to the Shopify Shop to get an overview of all the Shopify Orders for this Shop, including archived orders.
 
 
 
 
 # Synchronize orders from Shopify
 
-Synchronize the orders from Shopify again to update the fulfillment status in Dynamics 365 Business Central.
+Synchronize the orders from Shopify again to update the fulfillment status in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ![](media/image106.png)
 
@@ -138,17 +103,11 @@ Open the Shopify Orders of the Shopify Shop
 
 ![](media/image110.png)
 
-## Reset sync
 
-On the Shopify Shop card, there are functions available to reset the sync. This function ensures that when the sync is executed, all data is synced and not just the changes that have happened compared to the previous sync.
-
-This function only applies to syncs from Shopify to Business Central.
-
-![](media/image111.png)
 
 ## Transactions
 
-The transactions that took place in Shopify can be viewed in Business Central via 'Transactions'. They are synchronized together with the orders.
+The transactions that took place in Shopify can be viewed in [!INCLUDE[prod_short](../includes/prod_short.md)] via 'Transactions'. They are synchronized together with the orders.
 
 ![](media/image112.png)
 
@@ -221,18 +180,6 @@ Remark: If no sales order can be created for the Shopify Order, an error message
 
 ![](media/image100.png)
 
-## By job queue
-
-You can also schedule a job to process the Shopify orders that runs for example every few minutes.
-
-You can find the job queue entries by using the search function from the Role Center:
-
-![](media/image84.png)
-
-Define the recurrence of the job queue 'Process Shopify Orders' and start the job queue.
-
-![](media/image101.png)
-
 
 
 
@@ -242,6 +189,8 @@ When a sales order that is created from a Shopify Order, is shipped, you can syn
 
 The customer will automatically receive a shipment notice email.
 When a Shipping Agent and a Tracking Code is specified on the shipment, the tracking information will be included in the email.
+
+>[!NOTE] Remember to execute Synchronize Orders from Shopify because the batch job not only imports status of order - like Fulfilled, but also archives completelly paid and fulfilled orders in both Shopify and in [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 ![](media/image102.png)
 
@@ -255,14 +204,3 @@ This task can be found by using the search function on the Role Center.
 
 ![](media/image104.png)
 
-## By job queue
-
-You can also schedule a job to synchronize shipments to Shopify orders that runs for example every few minutes.
-
-You can find the job queue entries by using the search function from the Role Center:
-
-![](media/image84.png)
-
-Define the recurrence of the job queue 'Sync Shipments to Shopify' and start the job queue.
-
-![](media/image105.png)

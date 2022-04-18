@@ -17,7 +17,7 @@ manager:
 ## Setup Shops
 
 
--   Activate the log.   //TBD: to be moved to "other, part trouleshouting. 
+
 
 -   Select 'Allow Background Syncs' if you want to run the synchronization in background.    //TBD: to be moved to "other, part trouleshouting. 
 
@@ -76,20 +76,4 @@ You get an overview of the payouts if you navigate to 'Scaptify' and then to 'Pa
 
 ![](media/image118.png)
 
-## Troubleshooting
 
-When a synchronization task from / to Shopify fails, you can activate logging on the tab 'General' in the Shopify Shop Card:
-
-![](media/image119.png)
-
-After you start the synchronization task again, you can check the Scaptify Log Entries for any errors / information:
-
-![](media/image120.png)
-
-![](media/image121.png)
-
-![](media/image122.png)
-
-Make sure to disable the logging when not needed, or to delete the entries periodically.
-
-![](media/image123.png)

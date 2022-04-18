@@ -61,4 +61,13 @@ You get an overview of the payouts if you navigate to 'Scaptify' and then to 'Pa
 
 ![](media/image118.png)
 
+## Transactions
+
+The transactions that took place in Shopify can be viewed in [!INCLUDE[prod_short](../includes/prod_short.md)] via 'Transactions'. They are synchronized together with the orders.
+
+![](media/image112.png)
+
+![](media/image113.png)
+
+
 

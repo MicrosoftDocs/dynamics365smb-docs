@@ -34,6 +34,21 @@ Make sure to disable the logging when not needed, or to delete the entries perio
 ![](media/image123.png)
 
 
+## Data Capture
+
+Regardless of the **Log Activated** setting, system always logs some responces from Shopify which you can inspect or download using the **Data Capture List** windows.
+
+Choose the **Retrieved Shopify Data** action in one of following pages:
+- **Shopify Order**
+- **Shopify Order Fulfilments**
+- **Shopify Order Shipping Costs**
+- **Shopify Order Transactions**
+- **Shopify Payouts**
+- **Shopify Payment Transactions**
+- **Shopify Transactions**
+
+
+
 ## Reset sync
 
 On the Shopify Shop card, there are functions available to reset the sync. This function ensures that when the sync is executed, all data is synced and not just the changes that have happened compared to the previous sync.

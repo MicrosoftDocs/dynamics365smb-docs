@@ -11,7 +11,9 @@ manager:
 
 
 
-## Troubleshooting
+# Troubleshooting
+
+-   Activate the log.   //TBD: to be moved to "other, part trouleshouting. 
 
 When a synchronization task from / to Shopify fails, you can activate logging on the tab 'General' in the Shopify Shop Card:
 

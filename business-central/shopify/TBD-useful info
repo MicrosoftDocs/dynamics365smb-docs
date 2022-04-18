@@ -19,31 +19,16 @@ manager:
 
 
 
--   Select 'Allow Background Syncs' if you want to run the synchronization in background.    //TBD: to be moved to "other, part trouleshouting. 
-
-
-
-
-
 
 Customer:
 
 -   Define which fields in Business Central needs to be filled with which fields in Shopify.
 
 
-
 Remark: The customer created is the bill-to customer.
 
 
 
-
-The last step is to do some settings for order processing.
-
--   Enter the 'Shipping cost Account', the Sold Gift Card account and the Tip account.
-
--   Select if you want to show your Shopify Order No. in the lines of your Sales document in Dynamics 365 Business Central
-
--   Tax Area Source
 
 **There are some <u>restrictions</u> for the Tax/VAT setup.**
 

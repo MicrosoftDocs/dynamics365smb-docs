@@ -20,8 +20,8 @@ When import order from Shopify system tries to select customer to use and it doe
 2. If **Customer Import From Shopify** and **Default Customer No.** is defined, then **Default Customer No.** is used.
 3. Next steps depends on **Customer Mapping Type**. 
 - **Always take the default customer**, then use customer defined in the **Default Customer No.** field in **Shopify Shop Card** window.
-- **By EMail/Phone**, first system tries to find existing customer by Id, then by email, then by phone. 
-- **By Bill-to Info**, first system tries to find existing customer by Id, then by bill-to addresse information.
+- **By EMail/Phone**, first system tries to find existing customer by Id, then by email, then by phone. If not found - system creates new customer.
+- **By Bill-to Info**, first system tries to find existing customer by Id, then by bill-to addresse information. If not found - system creates new customer.
 
 ## Important setting when importing customers from Shopify
 Either you import customers from Shopify in bulk or together with import of orders, following settings let you manage the process:

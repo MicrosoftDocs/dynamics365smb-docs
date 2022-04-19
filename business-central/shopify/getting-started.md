@@ -21,7 +21,7 @@ manager:
 ### Recomended settings
 - Disable **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
 
-### Demo settings
+### Settings for trial and demo scenarios
 - Activate *(for testing) Bogus Gateway* as test payment provider in the [**Payments**](https://www.shopify.com/admin/settings/payments) settings in your **Shopify admin**.
 - Add Gift Card into Products - Gift cards, if you plan to demonstrate Gift card scenario.
 - Consider selecting *Accounts are optional* option in the **Customer accounts** section of the Checkout setting.

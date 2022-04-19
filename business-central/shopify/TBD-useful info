@@ -14,75 +14,12 @@ manager:
 
 
 
-## Setup Shops
 
 
 
 
 
-Customer:
 
--   Define which fields in Business Central needs to be filled with which fields in Shopify.
-
-
-Remark: The customer created is the bill-to customer.
-
-
-
-
-**There are some <u>restrictions</u> for the Tax/VAT setup.**
-
-Taxes:
-When you use multiple VAT/tax percentages, [!INCLUDE[prod_short](../includes/prod_short.md)] should be leading. Furthermore, the item should already exist in [!INCLUDE[prod_short](../includes/prod_short.md)]. A new item is created based on the defined item template and uses the VAT/tax percentage defined in this template, not the one set in the Shopify Shop.
-
-
-- **Tax area source** - defines priority of tax codes. Applies to contries that are using sales tax. For more information see [Tax on Shopify](TBD).
-    Define your tax area source and the sequence that needs to be followed.
-
-    -   No taxes
-    -   Ship-to &gt; Sell-to &gt; Bill-to
-    -   Ship-to &gt; Bill-to &gt; Sell-to
-    -   Sell-to &gt; Ship-to &gt; Bill-to
-    -   Sell-to &gt; Bill-to &gt; Ship-to
-    -   Bill-to &gt; Sell-to &gt; Ship-to
-    -   Bill-to &gt; Ship-to &gt; Sell-to
-
-
-##  Gift Cards
-
-- **Sold Gift Card Account**, for more information, see [Gift Card](TBD)
-
-In the Shopify Shop, you can buy gift cards. When you synchronize orders, gift cards are also synchronized to 'Gift Cards'.
-
-![](media/image114.png)
-
-You get an overview of the sold gift cards and the used amount of de gift card with the relevant transactions.
-
-![](media/image115.png)
-
-## Payouts
-
-If your store has Shopify Payments enabled, then you receive payments through Shopify Payouts when a customer pays using Shopify Payments and specific accelerated checkouts.
-
-The payouts can also be synchronized to Microsoft Dynamics 365 Business Central.
-
-Go to your Shopify Shop and execute 'Sync Payouts'.
-
-![](media/image116.png)
-
-You get an overview of the payouts if you navigate to 'Scaptify' and then to 'Payouts'. You get a view of the details of the payouts.
-
-![](media/image117.png)
-
-![](media/image118.png)
-
-## Transactions
-
-The transactions that took place in Shopify can be viewed in [!INCLUDE[prod_short](../includes/prod_short.md)] via 'Transactions'. They are synchronized together with the orders.
-
-![](media/image112.png)
-
-![](media/image113.png)
 
 
 

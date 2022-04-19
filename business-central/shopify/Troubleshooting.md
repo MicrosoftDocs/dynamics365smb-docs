@@ -15,24 +15,15 @@ manager:
 
 ## Logs
 
--   Activate the log.   //TBD: to be moved to "other, part trouleshouting. 
+If a synchronization task fails, you can activate logging by enabling **Log Enable** toggle in the in the **Shopify Shop Card** and manually trigger sychronization task and review logs.
 
-When a synchronization task from / to Shopify fails, you can activate logging on the tab 'General' in the Shopify Shop Card:
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Log Entries**, and then choose the related link.
+2. Select related log entry and open the **Shopify Log Entry** window.
+3. Review request, status code and description, response.
 
-![](media/image119.png)
+Remember to disable logging to avoid negative performance impact and increaing size of database.
 
-After you start the synchronization task again, you can check the Scaptify Log Entries for any errors / information:
-
-![](media/image120.png)
-
-![](media/image121.png)
-
-![](media/image122.png)
-
-Make sure to disable the logging when not needed, or to delete the entries periodically.
-
-![](media/image123.png)
-
+From **Shopify Log Entries** window you can trigger deletion of all log entries or ones that are older than 7 days.
 
 ## Data Capture
 
@@ -47,12 +38,8 @@ Choose the **Retrieved Shopify Data** action in one of following pages:
 - **Shopify Payment Transactions**
 - **Shopify Transactions**
 
-
-
 ## Reset sync
 
-On the Shopify Shop card, there are functions available to reset the sync. This function ensures that when the sync is executed, all data is synced and not just the changes that have happened compared to the previous sync.
+For performance reason system imports only those Customers, Product, Orders which were created or changed since previous synchronization. On the **Shopify Shop card**, there are functions available to setup date/time of previous synchronization or completelly reset it. This function ensures that when the sync is executed, all data is synced and not just the changes that have happened compared to the previous sync.
 
-This function only applies to syncs from Shopify to [!INCLUDE[prod_short](../includes/prod_short.md)].
-
-![](media/image111.png)
+This function only applies to syncs from Shopify to [!INCLUDE[prod_short](../includes/prod_short.md)] and can be useful if you need to restore deleted master data and or order.

@@ -23,6 +23,8 @@ When import order from Shopify system tries to select customer to use and it doe
 - **By EMail/Phone**, first system tries to find existing customer by Id, then by email, then by phone. If not found - system creates new customer.
 - **By Bill-to Info**, first system tries to find existing customer by Id, then by bill-to addresse information. If not found - system creates new customer.
 
+>[!NOTE] System uses information from bill-to address and creates Bill-To Customer in [!INCLUDE[prod_short](../includes/prod_short.md)]. Sell-to Customer is equal to Bill-to Customer.
+
 ## Important setting when importing customers from Shopify
 Either you import customers from Shopify in bulk or together with import of orders, following settings let you manage the process:
 |Field|Description|

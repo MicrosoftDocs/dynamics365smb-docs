@@ -20,7 +20,7 @@ Besides normal item, your Shopify order can have additional amounts on top, such
 Enable **Auto Create Orders**  to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] once Shopify order is imported.
 Sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] contains link to Shopify order. If you enable **Shopify Order No. on Doc. Line** then this information will be repeated in sales line of type Comment.
 
-For countries that are using sales tax, you can define priority on how to select tax area code in the **Tax area source** field. For more information, see [Tax on Shopify](TBD).
+With the **Tax area source** field you can define priority on how to select tax ara code or VAT Business Posting Group based on address. This is mainly relevant for countries with sales tax, but can be also used for VAT countries. For more information, see [Tax remarks](TBD).
  
 ### Shipment method mapping
 If you want automatically fill in **Shipment method code** for sales documents imported from Shopify, you need to configure **Shipment method mapping**.
@@ -46,10 +46,10 @@ If you want automatically fill in **Payment method code** for sales documents im
 ## Execute Order Synchronization
 
 There are number of possibilities to perform import and update of sales orders.
->[!NOTE] Archived orders in Shopify will can not be imported. Disable **Automatically archive the order** in the **Order Processing** section of the **Checkout** settings in your **Shopify admin** to make sure that all orders are imported to [!INCLUDE[prod_short](../includes/prod_short.md)]. If you need to import archived order, use **Unarchive Orders** action in the [Orders](https://www.shopify.com/admin/orders) page of Shopify Admin.
+>[!NOTE] Archived orders in Shopify can not be imported. Disable **Automatically archive the order** in the **Order Processing** section of the **Checkout** settings in your **Shopify admin** to make sure that all orders are imported to [!INCLUDE[prod_short](../includes/prod_short.md)]. If you need to import archived order, use **Unarchive Orders** action in the [Orders](https://www.shopify.com/admin/orders) page of Shopify Admin.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
-2. Select the Shop for which you want to synchronize items to open **Shopify Shop Card** page.
+2. Select the Shop for which you want to import orders to open **Shopify Shop Card** page.
 3. Choose the **Orders** action. 
 4. Choose **Sync Orders From Shopify**
 5. Define filters on orders as necessary. For example you can import fully paid orders or with low risk level.
@@ -85,6 +85,12 @@ If your settings prevents system to create customer automatically and it could n
 - You can select a Customer template code and create and assign the customer via the **Create new customer** action in the **Shopify Order**. 
 - You can map existing customer to the related **Shopify Customer** in the **Shopify Customers** window and then choose the **Find Mapping** action in the **Shopify Order**. 
 
+### Tax remarks
+While imported Shopify Order contains information aobut taxes, when you create sales document the taxes will be recalculated. That's why it is important that VAT/Tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+* Multiple product tax/VAT rates. For example some product categories are liable for reduced tax rate. Those items must exist in [!INCLUDE[prod_short](../includes/prod_short.md)] and be mapped to Shopify Products. Otherwise with automatic creation of missing items the VAT Product Posting Group will be used.
+
+* Address dependent tax rates. Use the **Tax area source** field together with **Customer Templates** table to overwrite standard logic that fills in **Tax Area Code** in the sales document. The **Tax area source** field specifies priority of where system should take information about Country/Region and Country/Province. Then system finds corresponding record in the Shopify Customer Templates and uses **Tax Area Code**, **Tax Liable**, **VAT Bus. Posting Group** in creates sales document.
 
 
 ## Synchronize Shipments to Shopify
@@ -101,9 +107,36 @@ If a Shipping Agent and a Tracking Code is specified on the shipment, the tracki
 >[!NOTE] Remember to execute **Synchronize Orders from Shopify** to update Fulfilment status of order in [!INCLUDE[prod_short](../includes/prod_short.md)], but also archives completelly paid and fulfilled orders in both Shopify and in [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 
-### Shipping agents
+### Shipping agents and tracking URL
+If the **Posted Sales Shipment** document contains **Shipping Agent Code** and/or **Package Tracking No.** this information will be send to Shopify and to end-customer in the shipping confirmation email.
 
-When you navigate to the list of Shipping agents in [!INCLUDE[prod_short](../includes/prod_short.md)], the column 'Shopify Tracking Company' is added. Select the tracking company in Shopify where you can track your items.
+Tracking company will be populated based on Shipping Agent record in following priorities (from highest to lowest):
+* **Shopify Tracking Company**
+* **Name**
+* **Code**
 
-![](media/image77.png)
+If the **Package Tracking URL** field is filled in for Shipping Agent record, then shipping confirmation will contain Tracking URL as well.
+
+## Gift Cards
+In the Shopify Shop you can sell gift cards, which can be later used to pay for real products.
+
+When dealing with gift cards, it is important to fill in **Sold Gift Card Account** in the **Shopify Shop Card** window. The sold gift card will be syncronized together with orders as line.
+Applied gift card will be also imported with order, but now as transaction. Notice that gift card doesn't reduce amount to invoice.
+
+To review issued and applied gift cards choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Gift Cards**, and then choose the related link.
+
+## Transactions
+The payments transactions that took place in Shopify are synchronized together with the orders and can be viewed from the Shopify Order.
+
+To review all transactions choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transactions**, and then choose the related link.
+
+## Payouts
+
+If your store has Shopify Payments enabled, then you receive payments through Shopify Payouts when a customer pays using Shopify Payments and specific accelerated checkouts.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
+2. Select the Shop for which you want to synchronize payouts to open **Shopify Shop Card** page.
+3. Choose the **Sync Payouts** action. 
+
+To review all payouts choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payouts**, and then choose the related link.
 

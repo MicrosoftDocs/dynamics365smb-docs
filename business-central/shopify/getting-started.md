@@ -11,23 +11,29 @@ manager:
 
 # Getting Started
 
-## Prerequisites
-### For Shopify
+## Prerequisites for Shopify
 - Shopify account and online store.
 
   To create a new Shopify Account or sign up for a free 14-day trial navigate to https://www.shopify.com/. For more information on how to create and personalize your online store, see https://help.shopify.com/.
   
 - Addional sales channel, like Shopify POS, are supported.
 
-#### Recomended settings
+### Recomended settings
 - Disable **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
 
-### For [!INCLUDE[prod_short](../includes/prod_short.md)]
+### Demo settings
+- Activate *(for testing) Bogus Gateway* as test payment provider in the [**Payments**](https://www.shopify.com/admin/settings/payments) settings in your **Shopify admin**.
+- Add Gift Card into Products - Gift cards, if you plan to demonstrate Gift card scenario.
+- Consider selecting *Accounts are optional* option in the **Customer accounts** section of the Checkout setting.
+- Consider selecting *Company name* - *Optional* option in the **Customer information** section of the Checkout setting.
+- Enable **Show tipping options at checkout** in the **Tipping** section of the Checkout setting if you plan to demonstrate Tipping scenario.
+
+## Prerequisites for [!INCLUDE[prod_short](../includes/prod_short.md)]
 - **Connect to Shopify for [!INCLUDE[prod_short](../includes/prod_short.md)]** extension is installed
 
-  Extension is pre-installed for all new signups and trials. If you need to install extensions from Market place, see [Installing and Uninstalling Extensions](../ui-extensions-install-uninstall.md#install). Follow steps below if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
+Extension is pre-installed for all new signups and trials. If you need to install extensions from Market place, see [Installing and Uninstalling Extensions](../ui-extensions-install-uninstall.md#install). Follow steps below if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## Install **Dynamics 365 Business Central** app to your Shopify online store
+## Installing **Dynamics 365 Business Central** app to your Shopify online store
 For existing [!INCLUDE[prod_short](../includes/prod_short.md)] this is optional step and can be skipped.
 1. Find [Dynamics 365 Business Central](https://fwlink?=TDB) app on the [Shopify AppStore](https://apps.shopify.com/)
 2. Choose **Add App** button. Login into your Shopify account if prompted. Select online shop if you have more than one.
@@ -49,7 +55,6 @@ Repeat steps 2-6 for all online shops you want to connect.
 ### Next steps
 Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_short.md)]. Now need to define how and what you want to syncronize.
 - Synchronize items. For more information, see [Synchronize Items](synchronize-items.md)
-- Synchronize customers. For more information, see [Synchronize Customers.md](synchronize-customers.md)
-- Synchronize orders. For more information, see [TBD]
-- Other settins. For more information, see [TBD]
+- Synchronize customers. For more information, see [Synchronize Customers](synchronize-customers.md)
+- Synchronize orders. For more information, see [Synchronize Orders](synchronize-orders.md)
 

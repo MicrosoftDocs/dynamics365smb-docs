@@ -9,61 +9,39 @@ ms.author: andreipa
 manager: 
 ---
 
-# Setup Order Processing
+# Synchonize and fulfill sales orders
 
-On the **Shopify Shop Card**, you can define some setup for order processing.
-
-- **Shipping Cost Account**  
-    Define the G/L account that should be used for shipping costs.
-
-- **Sold Gift Card Account**  
-    Define the G/L account that should be used for the sale of gift cards.
-
+## Settings related to import of orders on the Shopify Shop Card
+Besides normal item, your Shopify order can have additional amounts on top, such as shipping charges or, if enabled, tips. These amounts will be posted directly to G/L Accounts. Choose G/L Account that should be used for specific transactions:
+- **Shipping Cost Account**
+- **Sold Gift Card Account**, for more information, see [Gift Card](TBD)
 - **Tip account**  
-    Define the G/L account that should be used for obtained tips.
 
-- **Shopify Order No. on Doc. Line**  
-    Check this option if you want to create sales line of type Comment with Shopify order number.
+Enable **Auto Create Orders**  to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] once Shopify order is imported.
+Sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] contains link to Shopify order. If you enable **Shopify Order No. on Doc. Line** then this information will be repeated in sales line of type Comment.
 
-- **Auto Create Orders**  
-    Select if sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] must be created automatically.
+For countries that are using sales tax, you can define priority on how to select tax area code in the **Tax area source** field. For more information, see [Tax on Shopify](TBD).
+ 
+### Shipment method mapping
+If you want automatically fill in **Shipment method code** for sales documents imported from Shopify, you need to configure **Shipment method mapping**.
 
-- **Tax area source**  
-    Define your tax area source and the sequence that needs to be followed.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
+2. Select the Shop for which you want to define mapping to open **Shopify Shop Card** page.
+3. Choose the **Shipment Method Mapping** action. 
+4. Fill in the **Name** field with name of shipping method from Shopify. You can find them in the [**Shipping**](https://www.shopify.com/admin/settings/payments) settings in your **Shopify admin**. The record also created automatically when you import shopify orders.
+5. Fill in the **Code** with the corresponding shipping method in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-    -   No taxes
-    -   Ship-to &gt; Sell-to &gt; Bill-to
-    -   Ship-to &gt; Bill-to &gt; Sell-to
-    -   Sell-to &gt; Ship-to &gt; Bill-to
-    -   Sell-to &gt; Bill-to &gt; Ship-to
-    -   Bill-to &gt; Sell-to &gt; Ship-to
-    -   Bill-to &gt; Ship-to &gt; Sell-to
+>[!NOTE] If multiple shipping charges are assosiated with Sales Order - only one will be selected as Shipping Method and assigned to sales document.
 
-## Shipment method translations
+### Payment method mapping
+If you want automatically fill in **Payment method code** for sales documents imported from Shopify, you need to configure **Payment method mapping**.
 
-When you have synchronized orders, the Shopify delivery methods are retrieved in [!INCLUDE[prod_short](../includes/prod_short.md)]. Go to your Shopify Shop and open the 'Shipment Method Translations'.
-
-Name is the delivery method in Shopify. In 'Code', you set the corresponding shipping method in [!INCLUDE[prod_short](../includes/prod_short.md)].
-
->[!NOTE] if multiple shipping charges assosiated with Sales Order - only one will be used in the Header.
-
-## Shipping agents
-
-When you navigate to the list of Shipping agents in [!INCLUDE[prod_short](../includes/prod_short.md)], the column 'Shopify Tracking Company' is added. Select the tracking company in Shopify where you can track your items.
-
-![](media/image77.png)
-
-## Payment method translations
-
-When you have synchronized orders, the Shopify payment methods are retrieved in Business Central. Go to your Shopify Shop and open the 'Shipment payment Translations'.
-
-You can define Payment Method translations for your Shopify Shop. The fields 'Gateway' and 'Credit Card Company' retrieved from Shopify. In 'Payment method' you define the corresponding method in [!INCLUDE[prod_short](../includes/prod_short.md)].
-
-If a customer pays part via visa card and part via maestro, you can assign priorities. The payment method with the highest priority will be entered in the order. If both payment methods have the same priority, the payment method of the highest amount will be used.
-
-
-
-
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
+2. Select the Shop for which you want to define mapping to open **Shopify Shop Card** page.
+3. Choose the **Payment Method Mapping** action. 
+4. Fill in the **Gateway** and **Credit Card Company** fields with name of payment method from Shopify. The record also created automatically when you import shopify orders.
+5. Fill in the **Payment Method** with the corresponding payment method in [!INCLUDE[prod_short](../includes/prod_short.md)].
+6. Fill in the **Priority** field for cases when customer uses multiple means of payment. The payment method with the highest priority will be selected in the sales document. If both payment methods have the same priority, the payment method with the highest amount will be used.
 
 ## Execute Order Synchronization
 
@@ -122,4 +100,10 @@ If a Shipping Agent and a Tracking Code is specified on the shipment, the tracki
 
 >[!NOTE] Remember to execute **Synchronize Orders from Shopify** to update Fulfilment status of order in [!INCLUDE[prod_short](../includes/prod_short.md)], but also archives completelly paid and fulfilled orders in both Shopify and in [!INCLUDE[prod_short](../includes/prod_short.md)]
 
+
+### Shipping agents
+
+When you navigate to the list of Shipping agents in [!INCLUDE[prod_short](../includes/prod_short.md)], the column 'Shopify Tracking Company' is added. Select the tracking company in Shopify where you can track your items.
+
+![](media/image77.png)
 

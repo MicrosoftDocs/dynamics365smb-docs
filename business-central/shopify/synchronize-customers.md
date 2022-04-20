@@ -10,7 +10,7 @@ manager:
 ---
 
 # Synchronize customers
-When importing order from Shopify, the information about customer is essential for further processing of document in [!INCLUDEprod_short]. Hence you have two main  options and their combinations:
+When importing order from Shopify, the information about customer is essential for further processing of document in [!INCLUDE[prod_short](../includes/prod_short.md)]. Hence you have two main  options and their combinations:
 * Use special customer for all orders.
 * Import customers from Shopify.
 
@@ -18,10 +18,10 @@ When importing order from Shopify, the information about customer is essential f
 When import order from Shopify system tries to select customer to use and it does it in following order:
 1. If **Fixed Customer No.** is defined in the **Customer Template** for corresponding country, then **Fixed Customer No.** will be used, regardless of settings in **Customer Import From Shopify** and **Customer Mapping Type**.
 2. If **Customer Import From Shopify** and **Default Customer No.** is defined, then **Default Customer No.** is used.
-3. Next steps depends on **Customer Mapping Type**. 
+3. Next steps depend on **Customer Mapping Type**. 
 - **Always take the default customer**, then use customer defined in the **Default Customer No.** field in **Shopify Shop Card** window.
 - **By EMail/Phone**, first system tries to find existing customer by Id, then by email, then by phone. If not found - system creates new customer.
-- **By Bill-to Info**, first system tries to find existing customer by Id, then by bill-to addresse information. If not found - system creates new customer.
+- **By Bill-to Info**, first system tries to find existing customer by Id, then by bill-to address information. If not found - system creates new customer.
 
 > [!NOTE]
 > System uses information from bill-to address and creates Bill-To Customer in [!INCLUDE[prod_short](../includes/prod_short.md)]. Sell-to Customer is equal to Bill-to Customer.
@@ -31,20 +31,20 @@ Either you import customers from Shopify in bulk or together with import of orde
 
 |Field|Description|
 |------|-----------|
-|**Customer Import from Shopify**|Select **All Customers** if you plan import customers from Shopify in bulk either manually using **Sync Customers** action or via job queue for recurring updates. Regardless of selection customer information will be always imported together with order, but wether this infomation will be used depends on **Customer Templates** and setting in the **Customer Mapping Type** field.|
+|**Customer Import from Shopify**|Select **All Customers** if you plan import customers from Shopify in bulk either manually using **Sync Customers** action or via job queue for recurring updates. Regardless of selection customer information will be always imported together with order, however will this information be used depends on **Customer Templates** and setting in the **Customer Mapping Type** field.|
 |**Customer Mapping Type**|Define how you want system to perform mapping.<br>- **By Email/Phone** if you want to system to map imported Shopify customer to existing customer in [!INCLUDE[prod_short](../includes/prod_short.md)] using email and phone.</br>- **By BillTo Info** if you want to system to map imported Shopify customer to existing customer in [!INCLUDE[prod_short](../includes/prod_short.md)] using address information of party that receives invoice.</br>Select **Always Take the Default customer** if you want system to use customer from the **Default Customer** field. |
 |**Shopify Can Update Customers**| Select if you want system to update customers founded, when  **By Email/Phone** or **By BillTo Info** options are selected in the **Customer Mapping Type** field.| 
-|**Auto Create Unknown Customers**| Select if you want system to create missing customers, when  **By Email/Phone** or **By BillTo Info** options are selected in the **Customer Mapping Type** field. New customer will be created using imported data and **Customer Template Code** defined on **Shopify Shop Card** or **Shopify Customer Template** pages. Notice that Shopify customer must have at least one address.</br>If this option is disabled you will need to create Customer manually and link it to the Shopify customer. You can always trigger creation of customer manually from the **Shopify Order** page. .|
-|**Customer Template Code**|Used together with **Auto create unknown customers**.<br> Choose default template to be used for automatically created customers. You can define templates per country/region in the **Customer Templates** window, which might be particularly useful for proper tax calculation of taxes.|
+|**Auto Create Unknown Customers**| Select if you want system to create missing customers, when  **By Email/Phone** or **By BillTo Info** options are selected in the **Customer Mapping Type** field. New customer will be created using imported data and **Customer Template Code** defined on **Shopify Shop Card** or **Shopify Customer Template** pages. Notice that Shopify customer must have at least one address.</br>If this option is disabled you will need to create Customer manually and link it to the Shopify customer. You can always trigger creation of customer manually from the **Shopify Order** page.|
+|**Customer Template Code**|Used together with **Auto create unknown customers**.<br> Choose default template to be used for automatically created customers. You can define templates per country/region in the **Customer Templates** window, which is useful for proper tax calculation of taxes. For more information, see [Tax remarks](synchronize-orders.md#tax-remarks).|
 
 ### Customer template per country
 
 Some settings can be defined per county/region level, or even state/province configured in [Shipping and Delivery](https://www.shopify.com/admin/settings/shipping) in Shopify. 
 
 **Customer Template** allows you for each country:
-1. Specify **Fixed Customer No.**, which takes priority over election in the  in the **Customer Import from Shopify** and **Customer Mapping Type** fields and used in the imported sales order.
+1. Specify **Fixed Customer No.**, which takes priority over selection in the **Customer Import from Shopify** and **Customer Mapping Type** fields and used in the imported sales order.
 2. Define **Customer Template Code**, which will be used to create missing customers, if **Auto Create Unknown Customers** is enabled. If **Customer Template Code** is empty, then system will use **Customer Template Code** defined on the **Shopify Shop Card**. 
-3. In some cases **Customer Template Code** per country isn't enough to ensure right calcualtion of taxes. This is particularty true for countries with sales tax per provice/county. 
+3. In some cases **Customer Template Code** per country isn't enough to ensure right calculation of taxes, for example for countries with sales tax per provice/county. 
 
 > [!NOTE]
 > The country codes are ISO 3166-1 alpha-2 country codes. For more information: <https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode>
@@ -56,7 +56,7 @@ You can export existings customers to Shopify in bulk. As result customer and on
 |Field|Description|
 |------|-----------|
 |**Export customer to Shopify**|Select if you plan to export all customers with a valid e-mail address or phone from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify in bulk either manually using **Sync Customers** action or via job queue for recurring updates.|
-|**Can update Shopify Customers**|Used together with **Export customer to Shopify**. Enable if want propogate later updates from [!INCLUDE[prod_short](../includes/prod_short.md)] for customers that already exists in Shopify.|
+|**Can update Shopify Customers**|Used together with **Export customer to Shopify**. Enable if want propagate later updates from [!INCLUDE[prod_short](../includes/prod_short.md)] for customers that already exist in Shopify.|
 
 > [!NOTE]
 > Once you created customers in Shopify, you may want to send customers direct invitations to encourage them to activate an account.
@@ -73,7 +73,7 @@ You can populate First Name and Last Name based on data from Customer Card in [!
 
 Customer is Shopify also has default address, which in addition to First Name, Last Name, email and/or phone may contain Company and address.
 
-You can populate Company based on data from Customer Card in [!INCLUDE[prod_short](../includes/prod_short.md)]. 
+You can populate Company field based on data from Customer Card in [!INCLUDE[prod_short](../includes/prod_short.md)]. 
 
 |Priority|Field in Customer Card|Description|
 |------|------|-----------|
@@ -89,4 +89,4 @@ For addresses where county/province is used, select *Code* or *Name* in the **Co
 2. Select the Shop for which you want to synchronize items to open **Shopify Shop Card** page.
 3. Choose the **Sync Customers** action. 
 
-Alternativelly you can use the **Start Customer Sync** action on the **Shopify Customers** window or search for **Sync Customers** batch job.
+Alternatively you can use the **Start Customer Sync** action on the **Shopify Customers** window or search for **Sync Customers** batch job.

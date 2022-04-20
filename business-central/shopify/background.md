@@ -1,6 +1,6 @@
 ---
-title: 
-description: 
+title: Execute tasks in background 
+description: Configure synchronization of data between Business Central and Shopify in background.
 ms.date: 03/21/2022
 ms.topic: article
 ms.service: dynamics365-business-central
@@ -11,7 +11,7 @@ manager:
 
 # Execute tasks in background
 
-App allows perform some tasks in background. Two modes are supported:
+Extension allows perform some tasks in background. Two modes are supported:
 - Manually triggered task will be immidiately scheduled via **Job Queue Entries**
 - Reccuring tasks scheduled in **Job Queue* Entries*
 
@@ -24,6 +24,7 @@ App allows perform some tasks in background. Two modes are supported:
 Now when you trigger sync action, instead of execution in foreground, that force you to wait when it is completed before you can do next action, the task will be created as **Job Queue Entry** and will be executed as soon as possible in non-blocking manner. 
 
 ## To schedule recurring tasks 
+
 You can schedule following of reccuring activities to be executed in non-attended manner. For more information about scheduling tasks, see [Job Queue](../admin-job-queues-schedule-tasks.md).
 
 |Task|Object|

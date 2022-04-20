@@ -1611,7 +1611,7 @@
 #### [Change from a QuickBooks App to Business Central](across-quickbooks-to-business-edition.md)
 #### [Bulk Invoicing for Microsoft Bookings](finance-bookings.md)
 #### [Import Business Data from Other Finance Systems](across-import-data-configuration-packages.md)
-### [Company Information Overview](admin-company-information.md)
+### [Company Information](admin-company-information.md)
 ### [Create Number Series](ui-create-number-series.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
 ### [Set Up Printers](ui-specify-printer-selection-reports.md)

@@ -1,6 +1,6 @@
 # [Getting started](getting-started.md)
 # [Synchronize items](synchronize-items.md)
 # [Synchronize customers](synchronize-customers.md)
-# [Synchonize and fulfill sales orders](synchronize-orders.md)
+# [Synchronize and fulfill sales orders](synchronize-orders.md)
 # [Execute tasks in background](background.md)
 # [Troubleshooting](troubleshooting.md)

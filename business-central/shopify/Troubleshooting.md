@@ -1,6 +1,6 @@
 ---
-title: 
-description: 
+title: Troubleshooting
+description: Learn what to do if something when wrong during synchronization of data between Shopify and Business Central
 ms.date: 03/21/2022
 ms.topic: article
 ms.service: dynamics365-business-central
@@ -8,7 +8,6 @@ author: edupont04
 ms.author: andreipa
 manager: 
 ---
-
 
 
 # Troubleshooting
@@ -43,3 +42,13 @@ Choose the **Retrieved Shopify Data** action in one of following pages:
 For performance reason system imports only those Customers, Product, Orders which were created or changed since previous synchronization. On the **Shopify Shop card**, there are functions available to setup date/time of previous synchronization or completelly reset it. This function ensures that when the sync is executed, all data is synced and not just the changes that have happened compared to the previous sync.
 
 This function only applies to syncs from Shopify to [!INCLUDE[prod_short](../includes/prod_short.md)] and can be useful if you need to restore deleted master data and or order.
+
+## Update access token
+
+If [!INCLUDE[prod_short](../includes/prod_short.md)] can not connect to your Shopify account, try resetting access token.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
+2. Select the Shop for which you want to get access token to open **Shopify Shop Card** page.
+3. Fill in the **Code** field.  
+4. Choose the **Request Access** action.
+5. If prompted login into your Shopify account.

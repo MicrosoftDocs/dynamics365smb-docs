@@ -1,6 +1,6 @@
 ---
-title: 
-description: 
+title: Getting started with connector to Shopify
+description: First steps when configuring connection between Business Central and Shopify
 ms.date: 03/21/2022
 ms.topic: article
 ms.service: dynamics365-business-central
@@ -31,7 +31,7 @@ manager:
 ## Prerequisites for [!INCLUDE[prod_short](../includes/prod_short.md)]
 - **Connect to Shopify for [!INCLUDE[prod_short](../includes/prod_short.md)]** extension is installed
 
-Extension is pre-installed for all new signups and trials. If you need to install extensions from Market place, see [Installing and Uninstalling Extensions](../ui-extensions-install-uninstall.md#install). Follow steps below if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
+Extension is pre-installed for all new signups and trials. If you need to install extensions from Market place, see [Installing and Uninstalling Extensions](../ui-extensions-install-uninstall.md#installing-an-extension). Follow steps below if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## Installing **Dynamics 365 Business Central** app to your Shopify online store
 For existing [!INCLUDE[prod_short](../includes/prod_short.md)] this is optional step and can be skipped.

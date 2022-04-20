@@ -12,8 +12,8 @@ manager:
 # Execute tasks in background
 
 Extension allows perform some tasks in background. Two modes are supported:
-- Manually triggered task will be immidiately scheduled via **Job Queue Entries**
-- Reccuring tasks scheduled in **Job Queue* Entries*
+- Manually triggered task will be immediately scheduled via **Job Queue Entries**
+- Recurring tasks scheduled in **Job Queue* Entries*
 
 ## To enable execution of tasks in background for specific shop
 
@@ -21,11 +21,11 @@ Extension allows perform some tasks in background. Two modes are supported:
 2. Select the Shop for which you want to synchronize items to open **Shopify Shop Card** page.
 3. Enable **Allow Background Syncs** toggle. 
 
-Now when you trigger sync action, instead of execution in foreground, that force you to wait when it is completed before you can do next action, the task will be created as **Job Queue Entry** and will be executed as soon as possible in non-blocking manner. 
+Now when you trigger sync action, instead of execution in foreground, that forces you to wait when it's completed before you can do next action, the task will be created as **Job Queue Entry** and will be executed as soon as possible in non-blocking manner. 
 
 ## To schedule recurring tasks 
 
-You can schedule following of reccuring activities to be executed in non-attended manner. For more information about scheduling tasks, see [Job Queue](../admin-job-queues-schedule-tasks.md).
+You can schedule following of recurring activities to be executed in non-attended manner. For more information about scheduling tasks, see [Job Queue](../admin-job-queues-schedule-tasks.md).
 
 |Task|Object|
 |------|------------|

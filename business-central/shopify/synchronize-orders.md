@@ -1,6 +1,6 @@
 ---
-title: 
-description: 
+title: Synchonize and fulfill sales orders
+description: Setup and execute import and processing of sales order from Shopify.
 ms.date: 03/21/2022
 ms.topic: article
 ms.service: dynamics365-business-central
@@ -14,13 +14,13 @@ manager:
 ## Settings related to import of orders on the Shopify Shop Card
 Besides normal item, your Shopify order can have additional amounts on top, such as shipping charges or, if enabled, tips. These amounts will be posted directly to G/L Accounts. Choose G/L Account that should be used for specific transactions:
 - **Shipping Cost Account**
-- **Sold Gift Card Account**, for more information, see [Gift Card](TBD)
+- **Sold Gift Card Account**, for more information, see [Gift Card](synchronize-orders.md#gift-cards)
 - **Tip account**  
 
 Enable **Auto Create Orders**  to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] once Shopify order is imported.
 Sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] contains link to Shopify order. If you enable **Shopify Order No. on Doc. Line** then this information will be repeated in sales line of type Comment.
 
-With the **Tax area source** field you can define priority on how to select tax ara code or VAT Business Posting Group based on address. This is mainly relevant for countries with sales tax, but can be also used for VAT countries. For more information, see [Tax remarks](TBD).
+With the **Tax area source** field you can define priority on how to select tax ara code or VAT Business Posting Group based on address. This is mainly relevant for countries with sales tax, but can be also used for VAT countries. For more information, see [Tax remarks](synchronize-orders.md#tax-remarks).
  
 ### Shipment method mapping
 If you want automatically fill in **Shipment method code** for sales documents imported from Shopify, you need to configure **Shipment method mapping**.
@@ -31,7 +31,8 @@ If you want automatically fill in **Shipment method code** for sales documents i
 4. Fill in the **Name** field with name of shipping method from Shopify. You can find them in the [**Shipping**](https://www.shopify.com/admin/settings/payments) settings in your **Shopify admin**. The record also created automatically when you import shopify orders.
 5. Fill in the **Code** with the corresponding shipping method in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
->[!NOTE] If multiple shipping charges are assosiated with Sales Order - only one will be selected as Shipping Method and assigned to sales document.
+> [!NOTE]
+> If multiple shipping charges are assosiated with Sales Order - only one will be selected as Shipping Method and assigned to sales document.
 
 ### Payment method mapping
 If you want automatically fill in **Payment method code** for sales documents imported from Shopify, you need to configure **Payment method mapping**.
@@ -46,7 +47,8 @@ If you want automatically fill in **Payment method code** for sales documents im
 ## Execute Order Synchronization
 
 There are number of possibilities to perform import and update of sales orders.
->[!NOTE] Archived orders in Shopify can not be imported. Disable **Automatically archive the order** in the **Order Processing** section of the **Checkout** settings in your **Shopify admin** to make sure that all orders are imported to [!INCLUDE[prod_short](../includes/prod_short.md)]. If you need to import archived order, use **Unarchive Orders** action in the [Orders](https://www.shopify.com/admin/orders) page of Shopify Admin.
+> [!NOTE]
+> Archived orders in Shopify can not be imported. Disable **Automatically archive the order** in the **Order Processing** section of the **Checkout** settings in your **Shopify admin** to make sure that all orders are imported to [!INCLUDE[prod_short](../includes/prod_short.md)]. If you need to import archived order, use **Unarchive Orders** action in the [Orders](https://www.shopify.com/admin/orders) page of Shopify Admin.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
 2. Select the Shop for which you want to import orders to open **Shopify Shop Card** page.
@@ -59,7 +61,8 @@ Alternativelly you can search for **Sync Orders From Shopify** batch job.
 
 Once import completed, you can explore Shopofy Order and find all related informatio, such as payment transactions, shipping costs, fulfillments, risk level. You can also see order confirmation send to the customer by choosing **Shopify Status Page** action.
 
->[!NOTE] You can navigate to the **Shopify Orders** window directly, in this case you will see orders from all shops, but only open. To review completed orders you need to open **Shopify Orders** page from the specific **Shopify Shop Card** window.
+> [!NOTE]
+> You can navigate to the **Shopify Orders** window directly, in this case you will see orders from all shops, but only open. To review completed orders you need to open **Shopify Orders** page from the specific **Shopify Shop Card** window.
 
 
 ## Create Sales Document in [!INCLUDE[prod_short](../includes/prod_short.md)] 
@@ -104,7 +107,8 @@ When a sales order that is created from a Shopify Order, is shipped, you can syn
 Order in Shopify will be marked as fulfilled. The customer will automatically receive a shipment notice email or sms.
 If a Shipping Agent and a Tracking Code is specified on the shipment, the tracking information will be included in the email.
 
->[!NOTE] Remember to execute **Synchronize Orders from Shopify** to update Fulfilment status of order in [!INCLUDE[prod_short](../includes/prod_short.md)], but also archives completelly paid and fulfilled orders in both Shopify and in [!INCLUDE[prod_short](../includes/prod_short.md)]
+> [!NOTE]
+> Remember to execute **Synchronize Orders from Shopify** to update Fulfilment status of order in [!INCLUDE[prod_short](../includes/prod_short.md)], but also archives completelly paid and fulfilled orders in both Shopify and in [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 
 ### Shipping agents and tracking URL
@@ -132,7 +136,7 @@ To review all transactions choose the ![Lightbulb that opens the Tell Me feature
 
 ## Payouts
 
-If your store has Shopify Payments enabled, then you receive payments through Shopify Payouts when a customer pays using Shopify Payments and specific accelerated checkouts.
+If your store has Shopify Payments enabled, then you receive payments through Shopify Payouts when a customer pays using Shopify Payments and accelerated checkouts.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
 2. Select the Shop for which you want to synchronize payouts to open **Shopify Shop Card** page.

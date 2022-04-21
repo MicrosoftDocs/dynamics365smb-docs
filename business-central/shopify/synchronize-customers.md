@@ -51,7 +51,7 @@ Some settings can be defined per county/region level, or even state/province con
 
 
 ## Exporting customers to Shopify
-You can export existings customers to Shopify in bulk. As result customer and one default address will be created. Following settings let you manage the process:
+You can export existing customers to Shopify in bulk. As result customer and one default address will be created. Following settings let you manage the process:
 
 |Field|Description|
 |------|-----------|

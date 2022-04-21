@@ -54,7 +54,7 @@ Following procedure describes how to perform import and update of sales orders.
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
 2. Select the Shop for which you want to import orders to open **Shopify Shop Card** page.
 3. Choose the **Orders** action. 
-4. Choose **Sync Orders From Shopify**
+4. Choose the **Sync Orders From Shopify** action.
 5. Define filters on orders as necessary. For example you can import fully paid orders or with low risk level.
 6. Click ok.
 

@@ -56,7 +56,7 @@ Following procedure describes how to perform import and update of sales orders.
 3. Choose the **Orders** action. 
 4. Choose **Sync Orders From Shopify**
 5. Define filters on orders as necessary. For example you can import fully paid orders or with low risk level.
-6 Click ok.
+6. Click ok.
 
 Alternatively you can search for **Sync Orders From Shopify** batch job.
 

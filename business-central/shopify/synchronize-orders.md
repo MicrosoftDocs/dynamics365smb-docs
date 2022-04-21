@@ -77,7 +77,7 @@ If **Auto Create Orders** toggle is enabled on **Shopify Shop Card** system will
 4. Select order for which you want to create sales document and choose the **Create Sales Documents** action
 5. Click Yes.
 
-If Shopify Order requires fulfillment system will create **Sales Order**, for fulfilled shopify orders, for example ones that contain only gift card, system will create **Sales Invoice**.
+If Shopify Order requires fulfillment system will create **Sales Order**, for fulfilled Shopify orders, for example ones that contain only gift card, system will create **Sales Invoice**.
 
 A sales document is now created and can be handled by using the standard [!INCLUDE[prod_short](../includes/prod_short.md)] functionalities.
 

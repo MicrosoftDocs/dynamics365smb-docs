@@ -47,15 +47,15 @@ For existing [!INCLUDE[prod_short](../includes/prod_short.md)] this step is opti
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
 2. Choose the **New** action.  
 3. Fill in the **Code** field.  
-4. Fill in **Shopify URL** field with url to online shop you want to connect to.
+4. Fill in **Shopify URL** field with URL to online shop you want to connect to.
 5. Choose the **Request Access** action.
 6. If prompted login into your Shopify account, review privacy and permissions details and choose **Install App** button.
  
 Repeat steps 2-6 for all online shops you want to connect.
 
 ### Next steps
-Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_short.md)]. Now need to define how and what you want to synchronize.
-- Synchronize items. For more information, see [Synchronize Items](synchronize-items.md)
-- Synchronize customers. For more information, see [Synchronize Customers](synchronize-customers.md)
-- Synchronize orders. For more information, see [Synchronize Orders](synchronize-orders.md)
+Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_short.md)]. In next steps you will define how and what to synchronize.
+- [Synchronize Items](synchronize-items.md)
+- [Synchronize Customers](synchronize-customers.md)
+- [Synchronize Orders](synchronize-orders.md)
 

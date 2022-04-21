@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
+ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9024, 9006, 9007, 9010
 ms.date: 08/13/2021
 ms.author: jswymer
 

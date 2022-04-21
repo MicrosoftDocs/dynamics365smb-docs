@@ -20,6 +20,7 @@ To create a new Shopify Account or sign up for a free 14-day trial navigate to h
 
 ### Recommended settings
 - Disable **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
+- Enable **Automatically fulfill only the gift cards of the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
 
 ### Settings for trial and demo scenarios
 - Activate *(for testing) Bogus Gateway* as test payment provider in the [**Payments**](https://www.shopify.com/admin/settings/payments) settings in your **Shopify admin**.

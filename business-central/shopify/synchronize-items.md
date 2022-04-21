@@ -199,7 +199,7 @@ For already synchronized items you can also configure synchronization of invento
 3. Choose the **Locations** action to open **Shopify Shop Locations**
 4. Choose the **Get Shopify Locations** action to import all locations defined in the Shopify. You can find them in the [**Locations**](https://www.shopify.com/admin/settings/locations) settings in your **Shopify admin**.
 5. Fill in the **Location Filter** if you want to include inventory only from some locations. For example you can enter *EAST|WEST*, so only inventory from these two locations will be available for sales via online shop.
-6. Remove toggle from the **Disabled** field to enable inventory sync for selected shopify locations
+6. Remove toggle from the **Disabled** field to enable inventory sync for selected Shopify locations
 
 You can initialize synchronization of inventory in two ways.
 

@@ -12,7 +12,7 @@ manager:
 # Synchronize customers
 When importing order from Shopify, the information about customer is essential for further processing of document in [!INCLUDE[prod_short](../includes/prod_short.md)]. Hence you have two main  options and their combinations:
 * Use special customer for all orders.
-* Import customers from Shopify.
+* Import actual customer information from Shopify, here also included option when you export customer to Shopfy from [!INCLUDE[prod_short](../includes/prod_short.md)] first.
 
 ## How system chooses which customer to use
 When import order from Shopify system tries to select customer to use and it does it in following order:

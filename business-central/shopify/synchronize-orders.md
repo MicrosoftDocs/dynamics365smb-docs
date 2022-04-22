@@ -72,7 +72,7 @@ If **Auto Create Orders** toggle is enabled on **Shopify Shop Card** system will
 
 ### To create sales document:
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
-2. Select the Shop for which you want to synchronize items to open **Shopify Shop Card** page.
+2. Select the Shop for which you want to synchronize orders to open **Shopify Shop Card** page.
 3. Choose the **Orders** action. 
 4. Select order for which you want to create sales document and choose the **Create Sales Documents** action
 5. Click Yes.

@@ -34,22 +34,22 @@ Install **Dynamics 365 Business Central** app to your Shopify online store
 
 In created [!INCLUDE[prod_short](../includes/prod_short.md)] do following:
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
-2. Choose the New action.
+2. Choose the **New** action.
 3. Fill *DEMO1* in the **Code** field.
 4. Fill in **Shopify URL** field with URL to online shop you want to connect to.
 5. Choose the **Request Access** action.
 
 Configure Shopify shop as describen below:
-1. Enable the **Log Activated ** toggle
-2. Disable the **Allow Background Sync** toggle
+1. Enable the **Log Enabled** toggle.
+2. Disable the **Allow Background Sync** toggle.
 3. Select **To Shopify** in the **Sync Item Images** field.
-4. Enable the **Sync Item Attributes** toggle
-5. Select **Item No.** in the SKU Type
-6. Enable **Inventory Tracked** toggle
+4. Enable the **Sync Item Attributes** toggle.
+5. Select **Item No. + Variant** in the **SKU Mapping**.
+6. Enable **Inventory Tracked** toggle.
 7. Select **Deny** in the **Default Inventory Policy**
 8. Enable the **Auto Create Unknown Customers** toggle
 9. Fill in the **Customer Template Code** field with appropriate template
-10. Fill in the **Shipping Cost Account**, the **Sold Gift Card Account**, the **Tip Account** with revenue account. For example, in US use *40100*.
+10. Fill in the **Shipping Cost Account**, the **Tip Account** with revenue account. For example, in US use *40100*.
 11. Enable the **Auto Create Orders** toggle.
 
 Configure location mapping.
@@ -70,19 +70,20 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)]
 1.	Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and then choose the related link.
 2.	Choose the **Add Items** action.
 3.	Fill *DEMO1* in the **Shop Code** field. 
-4.	Set filter *CHAIR* on the **Item Category Code** field.
-5.	Click ok and wait till initial synchronization of items and prices is competed.
+4.	Set filter *CHAIR* on the **Item Category Code** field (add filter field if necessary).
+5.	Click **ok** and wait till initial synchronization of items and prices is competed.
 6.	Choose the **Sync Product Images** action.
 7.	Choose the **Sync Inventory** action.
 
-In Shopify online store, open product catalog. Notice:
-- Product titles and images
-- Availability indicator
-Open BERLIN Guest Chair, yellow. Notice:
+In Shopify online store.
+Open product catalog. Notice:
+- Product titles and images.
+- Availability indicator.
+Open *BERLIN Guest Chair, yellow*. Notice:
 - Description with item attributes
 - Price
 
-Choose **Buy it now** buttin and proceed to checkout.
+Choose **Buy it now** button and proceed to checkout.
 
 1. Fill *cl@contoso.com* (or email where you want to receive order and shipping confirmations) in **Email or mobile phone number**
 2. Fill *Claudia Lawson* in the **First name** and **Last name**.
@@ -118,7 +119,7 @@ Now physical and financial data is registered in [!INCLUDE[prod_short](../includ
 2. Click **Ok**.
 
 In Shopify Admin. 
-Notice that the order is now marked as Fulfilled. You can also review Shipment details and see Tracking URL there. If you run **Sync Orders From Shopify** again, order will be archived in both systems.
+Notice that the order is now marked as *Fulfilled*. You can also review Shipment details and see Tracking URL there. If you run **Sync Orders From Shopify** again, order will be archived in both systems.
 
 ## Walkthrough: Invite your customers to your new online store
 
@@ -139,12 +140,16 @@ Choose **Send account invite** to invite customer.
 ## Walkthrough: Fine tuning of item management
 
 ### Scenario
-You would like to add more flexibility to your processes around managing of items. You want to imporove product description. You also want to add additional review steps, before products become available to end-customer.
+You would like to add more flexibility and control to your processes around managing of items. You want to imporove product description. You also want to add additional review steps, before products become available to end-customer.
 
 ### Steps
 In [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 Prepare data.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer PRie Group**, and then choose the related link.
+2. Add new price group. Fill *SHOPIFY* in the **Code** field. 
+3. Close the **Customer Price Group** window.
+
 1.	Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2.	Select item *1896-S, Athens Desk*.
 3.	Choose **Variants** action, and add two varians *PREMIUM, Athens Desk, Premium edition* and *ESSENTIAL, Athens Desk, Essential edition*.
@@ -159,7 +164,7 @@ Prepare data.
 - **Unit Price** *700*
 7. Add another price
 - **Sales Type** *Customer Price Group*, 
-- **Sales Code** *SHOPIFY* (create if missing), 
+- **Sales Code** *SHOPIFY*, 
 - **Type** *Item*,
 - **Code** *1896-S*
 - **Variant Code** *PREMIUM*
@@ -196,23 +201,26 @@ Execute sync.
 3. Choose the **Products** action to open **Shopify Products** window.
 4. Choose the **Add Items** action.
 5. Set filter *TABLE* on the **Item Category Code** field.
-6.	Choose the **Sync Product Images** action.
-7.	Choose the **Sync Inventory** action.
+6. Choose the **Sync Product Images** action.
+7. Choose the **Sync Inventory** action.
 
-3 products will be added. Notice status is set to *Draft*, hence items are not visible in the Shopify online store.
-1. Select line with item 1920-S, ANTWERP Conference Table. Fill *Rectangular meeting table Antwerp, 10 seats, black* in the **SEO Title**
+3 products are added. Notice status is set to *Draft*, hence items are not visible in the Shopify online store.
+1. Select line with item *1920-S, ANTWERP Conference Table*. Fill *Rectangular meeting table Antwerp, 10 seats, black* in the **SEO Title**
 2. Select *Active* in the **Status** field.
 3. Select line with item *1906-S, ATHENS, Mobile Pedestal* and choose the **Delete** action.
 
 In Shopify Admin. 
 Notice that all products have different status.
 - ANTWERP Conference Table is *Active* because we changed status in **Shopify Product** window.
-- ATHENS Desc is *Draft* becuase we configured default status for all items to be *Draft*.
+- ATHENS Desk is *Draft* becuase we configured default status for all items to be *Draft*.
 - ATHENS Mobile Pedestal is *Archived* because we configured shop to automatically assign status *Archived* for deleted products.
 
 Notice that Inventory for ANTWERP Conference Table is 100, because we configured system ti use inventory only form two locations MAIN and EAST. Invenotry on other locations is ignored.
 
 Open *ANTWERP Conference Table*, notice **Custom Type**, **Vendor**, **Weight** fields and Search engine listing preview section.
-Open *Athens Desk* notice **Custom Type** and **Vendor** Fields.
-Scroll down to Variants section, notice how SKU is populated.
+Open *Athens Desk* notice values in **Custom Type** and **Vendor** fields.
+Scroll down to **Variants** section, notice how **SKU** is populated. 
+Choose **Edit** to review barcode and prices.
 
+In Shopify online store.
+Open product catalog, find *ATHENS Desk*  product. Notice that different options are available. When selecting different optins prices are different. Pay attention to discownt information.

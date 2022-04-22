@@ -86,7 +86,7 @@ For addresses where county/province is used, select *Code* or *Name* in the **Co
 ## Synchronize customers
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
-2. Select the Shop for which you want to synchronize items to open **Shopify Shop Card** page.
+2. Select the Shop for which you want to synchronize customers to open **Shopify Shop Card** page.
 3. Choose the **Sync Customers** action. 
 
 Alternatively you can use the **Start Customer Sync** action on the **Shopify Customers** window or search for **Sync Customers** batch job.

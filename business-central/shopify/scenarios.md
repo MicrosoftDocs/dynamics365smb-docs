@@ -41,7 +41,7 @@ In created [!INCLUDE[prod_short](../includes/prod_short.md)] do following:
 
 Configure Shopify shop as describen below:
 1. Enable the **Log Enabled** toggle.
-2. Disable the **Allow Background Sync** toggle.
+2. Disable the **Allow Background Syncs** toggle.
 3. Select **To Shopify** in the **Sync Item Images** field.
 4. Enable the **Sync Item Attributes** toggle.
 6. Enable **Inventory Tracked** toggle.
@@ -54,7 +54,7 @@ Configure Shopify shop as describen below:
 Configure location mapping.
 1. Choose the **Locations** action to open **Shopify Shop Locations**.
 2. Choose the **Get Shopify Locations** action to import all locations defined in the Shopify. 
-3. Fill in *EAST|MAIN* the **Location Filter**.
+3. Fill in *''|EAST|MAIN* the **Location Filter**.
 4. Remove toggle from the **Disabled** field to enable inventory sync for selected Shopify location
 
 
@@ -191,9 +191,9 @@ Adjust synchronization settings.
 3. Select *SHOPIFY* in the **Customer Price Group** field.
 4. Select *RETAIL* in the **Customer Discount Group** field.
 5. Enable the **Sync Item Extended Text** field.
-6. Select *Item No.+ Variant Code* in the **SKU Type** field.
-7. Select **Draft** in the **Create Product Status Value** field.
-8. Select **Status to Archived** in the **Remove Product Action** field.
+6. Select *Item No.+ Variant Code* in the **SKU Mapping** field.
+7. Select **Draft** in the **Status for Created Products** field.
+8. Select **Status to Archived** in the **Action for Removed Product** field.
 
 Execute sync.
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.

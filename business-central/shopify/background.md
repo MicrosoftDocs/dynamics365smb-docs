@@ -32,8 +32,9 @@ You can schedule following of recurring activities to be executed in non-attende
 |**Sync Orders from Shopify**|Report 30104 Sync Orders From Shopify|
 |**Process Shopify Orders**|Report 30103 Shopify Create Sales Orders|
 |**Sync Shipments to Shopify**|Report 30109 Sync Shipment to Shopify|
-|Sync products|TBD|
-|Sync inventory|TBD|
-|Sync prices|TBD|
-|Sync customers|TBD|
+|**Sync products and or prices**|Report 30108 Shopify Sync Products|
+|**Sync inventory**|Report 30102 Sync Stock to Shopify|
+|**Sync Images**|Report 30107 Shopify Sync Images|
+|**Sync Customers**|Report 30100 Shopify Sync Customers|
+|**Sync Payments**|Report 30105 Shopify Sync Payments|
 

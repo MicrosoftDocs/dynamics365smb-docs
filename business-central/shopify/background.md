@@ -13,7 +13,7 @@ manager:
 
 Extension allows perform some tasks in background. Two modes are supported:
 - Manually triggered task will be immediately scheduled via **Job Queue Entries**
-- Recurring tasks scheduled in **Job Queue* Entries*
+- Recurring tasks scheduled in **Job Queue* Entries**
 
 ## To enable execution of tasks in background for specific shop
 

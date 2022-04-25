@@ -37,16 +37,16 @@ Either you import items from Shopify in bulk or together with import of orders, 
 
 |Field|Description|
 |------|-----------|
-|**Auto create unknown items**|When shopify products and variants are imported to [!INCLUDE[prod_short](../includes/prod_short.md)], system always tries to find matching record in the item list first. **SKU Type** impacts how system performs matching and creates new Item and/or Item Variant. For more information, see [Product Mapping](synchronize-items.md#). Enable this option if you want to create new item and/or for records where system didn't find the matching record. New item will be created using imported data and **Item Template Code**. If this option is disabled, you will need to create Item manually and use **Map Product** action from **Shopify Products** page.|
+|**Auto create unknown items**|When shopify products and variants are imported to [!INCLUDE[prod_short](../includes/prod_short.md)], system always tries to find matching record in the item list first. **SKU Mapping** impacts how system performs matching and creates new Item and/or Item Variant. For more information, see [Product Mapping](synchronize-items.md#). Enable this option if you want to create new item and/or for records where system didn't find the matching record. New item will be created using imported data and **Item Template Code**. If this option is disabled, you will need to create Item manually and use **Map Product** action from **Shopify Products** page.|
 |**Item Template Code**|Used together with **Auto create unknown items**.<br> Choose template to be used for automatically created items.|
-|**SKU Type**|Choose how you want to use **SKU** value imported from Shopify during item/variant mapping and creation. For more information, see [How SKU and Barcode defined in Shopify product impact mapping and creation of items and variants](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-impact-mapping-and-creation-of-items-and-variants-in-business-central)|
-|**SKU Field Separator**|Used together with **SKU Type** set to **Item. No + Variant Code** option.<br> Define a separator that system should use to split SKU. <br>For example: if in Shopify you create the variant with SKU '1000/001', fill '/' in the **SKU Field Separator** field to get the item number in [!INCLUDE[prod_short](../includes/prod_short.md)] as '1000' and the item variant code as '001'.
-|**Variant Prefix**|Used together with **SKU Type** set to **Variant Code** or **Item. No + Variant Code** options as fallback strategy when SKU coming from Shopify is empty.<br>If you want system to create Item Variant in [!INCLUDE[prod_short](../includes/prod_short.md)], you will need to fill in **Code**. By default system will use value defined in the SKU field imported from Shopify. However if SKU is empty, it will generate code starting with defined variant prefix and "001".|
+|**SKU Mapping**|Choose how you want to use **SKU** value imported from Shopify during item/variant mapping and creation. For more information, see [How SKU and Barcode defined in Shopify product impact mapping and creation of items and variants](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-impact-mapping-and-creation-of-items-and-variants-in-business-central)|
+|**SKU Field Separator**|Used together with **SKU Mapping** set to **Item. No + Variant Code** option.<br> Define a separator that system should use to split SKU. <br>For example: if in Shopify you create the variant with SKU '1000/001', fill '/' in the **SKU Field Separator** field to get the item number in [!INCLUDE[prod_short](../includes/prod_short.md)] as '1000' and the item variant code as '001'.
+|**Variant Prefix**|Used together with **SKU Mapping** set to **Variant Code** or **Item. No + Variant Code** options as fallback strategy when SKU coming from Shopify is empty.<br>If you want system to create Item Variant in [!INCLUDE[prod_short](../includes/prod_short.md)], you will need to fill in **Code**. By default system will use value defined in the SKU field imported from Shopify. However if SKU is empty, it will generate code starting with defined variant prefix and "001".|
 |**Shopify Can Update Item**|Select if you want system automatically update items and/or variants.|
 
 
 ### How SKU and Barcode defined in Shopify product impact mapping and creation of items and variants in [!INCLUDE[prod_short](../includes/prod_short.md)]
-When products are imported from Shopify to **Shopify Products** and **Shopify Variants** tables, system tries to find existing records. The following table outlines the difference between the options in the **SKU Type** field.
+When products are imported from Shopify to **Shopify Products** and **Shopify Variants** tables, system tries to find existing records. The following table outlines the difference between the options in the **SKU Mapping** field.
 
 |Option|Impact on mapping|Impact on creation|
 |------|-----------------|------------------|
@@ -78,7 +78,7 @@ Following settings let you manage the process of exporting items:
 |**Sync Item Extended Text**|Select if you want to sync the extended text of the item. Because it will be added to Description, it can contain HTML code. |
 |**Sync Item Attributes**|Select if you want to sync the item attributes of the item. Attributes will be formatted as table and included into Description field on Shopify.|
 |**Language Code**|If selected system will use translated versions when for Title, Attributes and Extended text.|
-|**SKU Type**|Choose how you want to populate SKU field in Shopify. Supported options are:<br> - **Item No.** to use Item No for both products and variants.<br> - **Item No.+ Variant Code**  to create SKU by concatenating values of two fields. For items without variants system will use only Item No.<br>- **Item Vendor No.** to use Item Vendor No defined in the Item Card for both products and variants.<br> - **Barcode** - uses **Item Reference** of type Barcode. This option respects variants. |
+|**SKU Mapping**|Choose how you want to populate SKU field in Shopify. Supported options are:<br> - **Item No.** to use Item No for both products and variants.<br> - **Item No.+ Variant Code**  to create SKU by concatenating values of two fields. For items without variants system will use only Item No.<br>- **Item Vendor No.** to use Item Vendor No defined in the Item Card for both products and variants.<br> - **Barcode** - uses **Item Reference** of type Barcode. This option respects variants. |
 |**SKU Field Separator**|Define a separator for **Item. No + Variant Code** option.|
 |**Inventory Tracked**|Select how system should populate Track Inventory field for products exported to Shopify. For products in Shopify, where Track Inventory is enabled you can update availability information from [!INCLUDE[prod_short](../includes/prod_short.md)]. For more information, see [Inventory](synchronize-items.md#sync-inventory-to-shopify)|
 |**Default Inventory Policy**|Select Deny to prevent negative stock of Shopify side. |
@@ -88,8 +88,8 @@ Following settings let you manage the process of exporting items:
 
 |Shopify|Source when exported from [!INCLUDE[prod_short](../includes/prod_short.md)]|Target when imported to [!INCLUDE[prod_short](../includes/prod_short.md)]|
 |------|-----------------|-----------------|
-|Status|Accordingly to the **Create Product Status Value** in the **Shopify Shop Card**. For more information, see [Ad-hock updates of Shopify Products](synchronize-items.md#ad-hock-updates-of-shopify-products).|Not used.|
-|Title|**Description**. If Language Code defined and corresponding Item Translation exists, translation will be used instead of Description.|**Description**|
+|Status|Accordingly to the **Status for Created Products** in the **Shopify Shop Card**. For more information, see [Ad-hock updates of Shopify Products](synchronize-items.md#ad-hock-updates-of-shopify-products).|Not used.|
+|Title|**Description**. If Language Code defined and corresponding Item Translation exists, item translation will be used instead of Description.|**Description**|
 |Description|Combines extended texts and attributes, if corresponding toggles in the Shopify Shop Card are enabled. Respects Language Code.|Not used.|
 |SEO Page Title|Fix value: empty, see [Ad-hock updates of Shopify Products](synchronize-items.md#ad-hock-updates-of-shopify-products). |Not used.|
 |SEO Meta description|Fix value: empty, see [Ad-hock updates of Shopify Products](synchronize-items.md#ad-hock-updates-of-shopify-products). |Not used.|
@@ -97,7 +97,7 @@ Following settings let you manage the process of exporting items:
 |Price|End-customer price calculated with respect of Item Price Group, Item Discount Group, Currency Code, Customer Template Code. |Not used.|
 |Compare at price|Price without discount calculated with respect of Item Price Group, Item Discount Group, Currency Code, Customer Template Code. |Not used.|
 |Cost per item|**Unit Cost**|**Unit Cost**|
-|SKU|See **SKU Type** in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify)| See [How SKU and Barcode defined in Shopify product impact mapping and creation of items and variants](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-impact-mapping-and-creation-of-items-and-variants-in-business-central)|
+|SKU|See **SKU Mapping** in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify)| See [How SKU and Barcode defined in Shopify product impact mapping and creation of items and variants](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-impact-mapping-and-creation-of-items-and-variants-in-business-central)|
 |Barcode|**Item References** of type Barcode|**Item References** of type Barcode|
 |Track quantity|Accordingly to the **Inventory Tracked** in the **Shopify Shop Card**. For more information, see [Inventory](synchronize-items.md#sync-inventory-to-shopify).|Not used.|
 |Continue selling when out of stock|Accordingly to the **Default Inventory Policy** in the **Shopify Shop Card**. Not imported.|Not used.|
@@ -144,7 +144,7 @@ Update:
 * **SEO Description**
 
 Deletion:
-Based on value in the **Remove Product Action** in **Shopify Shop Card**, system may update product in Shopify when record is deleted from the **Shopify Products** page.
+Based on value in the **Action for Removed Products** in **Shopify Shop Card**, system may update product in Shopify when record is deleted from the **Shopify Products** page.
 * **Blank** - nothing will happen, if necessary user needs to perform needed action from Shopify Admin.
 * **Status to Draft** - status of product in Shopify will be set to Draft.
 * **Status to Archived** - product will be archived in Shopify.

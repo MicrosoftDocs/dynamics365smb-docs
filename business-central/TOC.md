@@ -237,8 +237,9 @@
 ##### [Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md)
 ##### [Manage Many Incoming Document Records](across-how-manage-many-income-document-records.md)
 
-### Approval Workflows
-#### [Approval Workflow Overview](across-workflow.md)
+### Workflows
+#### [Workflow Overview](across-workflow.md)
+#### [Use Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
 #### Set Up Workflows
 ##### [Set Up Workflows](across-set-up-workflows.md)
 ##### [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)
@@ -259,7 +260,6 @@
 ##### [Restrict and Allow Usage of a Record](across-how-to-restrict-and-allow-usage-of-a-record.md)
 ##### [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)
 ##### [Delete Workflows](across-how-to-delete-workflows.md)
-##### [Use Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
 <!--data exchange-->
 ### Exchange Data Electronically
 #### [OData Exchange Overview](across-data-exchange.md)

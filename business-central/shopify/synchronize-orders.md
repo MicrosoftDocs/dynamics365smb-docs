@@ -29,7 +29,7 @@ If you want automatically fill in **Shipment method code** for sales documents i
 2. Select the Shop for which you want to define mapping to open **Shopify Shop Card** page.
 3. Choose the **Shipment Method Mapping** action. 
 4. Fill in the **Name** field with name of shipping method from Shopify. You can find them in the [**Shipping**](https://www.shopify.com/admin/settings/payments) settings in your **Shopify admin**. The record also created automatically when you import shopify orders.
-5. Fill in the **Code** with the corresponding shipping method in [!INCLUDE[prod_short](../includes/prod_short.md)].
+5. Fill in the **Shipment Method Code** with the corresponding shipping method in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 > [!NOTE]
 > If multiple shipping charges are assosiated with Sales Order - only one will be selected as Shipping Method and assigned to sales document.
@@ -41,7 +41,7 @@ If you want automatically fill in **Payment method code** for sales documents im
 2. Select the Shop for which you want to define mapping to open **Shopify Shop Card** page.
 3. Choose the **Payment Method Mapping** action. 
 4. Fill in the **Gateway** and **Credit Card Company** fields with name of payment method from Shopify. The record also created automatically when you import shopify orders.
-5. Fill in the **Payment Method** with the corresponding payment method in [!INCLUDE[prod_short](../includes/prod_short.md)].
+5. Fill in the **Payment Method Code** with the corresponding payment method in [!INCLUDE[prod_short](../includes/prod_short.md)].
 6. Fill in the **Priority** field for cases when customer uses multiple means of payment. The payment method with the highest priority will be selected in the sales document. If both payment methods have the same priority, the payment method with the highest amount will be used.
 
 ## Execute Order Synchronization
@@ -94,7 +94,7 @@ While imported Shopify Order contains information about taxes, when you create s
 
 * Multiple product tax/VAT rates. For example some product categories are liable for reduced tax rate. Those items must exist in [!INCLUDE[prod_short](../includes/prod_short.md)] and be mapped to Shopify Products. Otherwise with automatic creation of missing items the VAT Product Posting Group will be used.
 
-* Address dependent tax rates. Use the **Tax area source** field together with **Customer Templates** table to overwrite standard logic that fills in **Tax Area Code** in the sales document. The **Tax area source** field specifies priority of where system should take information about Country/Region and Country/Province. Then system finds corresponding record in the Shopify Customer Templates and uses **Tax Area Code**, **Tax Liable**, **VAT Bus. Posting Group** in creates sales document.
+* Address dependent tax rates. Use the **Tax area priority** field together with **Customer Templates** table to overwrite standard logic that fills in **Tax Area Code** in the sales document. The **Tax area priority** field specifies priority of where system should take information about Country/Region and Country/Province. Then system finds corresponding record in the Shopify Customer Templates and uses **Tax Area Code**, **Tax Liable**, **VAT Bus. Posting Group** when creates sales document.
 
 
 ## Synchronize Shipments to Shopify

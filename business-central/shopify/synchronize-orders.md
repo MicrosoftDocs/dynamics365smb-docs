@@ -27,8 +27,8 @@ If you want automatically fill in **Shipment method code** for sales documents i
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
 2. Select the Shop for which you want to define mapping to open **Shopify Shop Card** page.
-3. Choose the **Shipment Method Mapping** action. 
-4. Fill in the **Name** field with name of shipping method from Shopify. You can find them in the [**Shipping**](https://www.shopify.com/admin/settings/payments) settings in your **Shopify admin**. The record also created automatically when you import shopify orders.
+3. Choose the **Shipment Method Mapping** action. The records for shipping methods defined in the [**Shipping**](https://www.shopify.com/admin/settings/payments) settings in your **Shopify admin** created automatically.
+4. In the **Name** field you can see name of shipping method from Shopify.
 5. Fill in the **Shipment Method Code** with the corresponding shipping method in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 > [!NOTE]

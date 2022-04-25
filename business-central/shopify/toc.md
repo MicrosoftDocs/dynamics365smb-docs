@@ -4,3 +4,4 @@
 # [Synchronize and fulfill sales orders](synchronize-orders.md)
 # [Execute tasks in background](background.md)
 # [Troubleshooting](troubleshooting.md)
+# [Test and training scenarios](scenarios.md)

@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions
-ms.date: 04/25/2022
+ms.date: 04/26/2022
 ms.author: edupont
 author: jswymer
 ---
@@ -24,49 +24,26 @@ Once the admin has connected [!INCLUDE [prod_short](includes/prod_short.md)] wit
 > You must have a valid account with [!INCLUDE[prod_short](includes/prod_short.md)] and with Power Automate.  
 
 > [!TIP]
-> In addition to Power Automate, you can use approval workflow functionality within [!INCLUDE[prod_short](includes/prod_short.md)]. Note that although they are two separate workflow systems, any approval workflow template that you create with Power Automate is added to the list of workflows within [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Workflows](across-workflow.md).  
+> In addition to Power Automate, you can use another workflow capability within [!INCLUDE[prod_short](includes/prod_short.md)]. Note that although they are two separate workflow systems, any approval workflow template that you create with Power Automate is added to the list of workflows within [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Workflows](across-workflow.md).  
 
 ## Automated workflows
 
-Many pages have an **Automate** action. This action gives you access to workflows that your admin, another user, or Microsoft has defined as relevant for that page. These automated workflows open in a pane inside [!INCLUDE [prod_short](includes/prod_short.md)] online so that you remain within context of the business process you were in the middle of. Just choose the relevant link to trigger the workflow. The connection to Power Automate is already set up for you.  
+Many pages have an **Automate** action. This action gives you access to workflows that your admin, another user, or Microsoft has defined as relevant for that page. These automated workflows open in a pane inside [!INCLUDE [prod_short](includes/prod_short.md)] online so that you remain within context of the business process you were in the middle of. In some pages, the **Automate** action hides under the **More Options** menu, but find it, choose the **Power Automate** menu item, and then choose the relevant link to trigger the workflow. The connection to Power Automate is already set up for you.  
 
 Most flows will require you to fill in a field or two before you choose the **Run flow** action.  
 
 > [!TIP]
-> If you don't see an **Automate** action, then your [!INCLUDE [prod_short](includes/prod_short.md)] has not yet been set up to use Power Automate. For more information, ask your admin.
+> If you don't see an **Automate** action, then your [!INCLUDE [prod_short](includes/prod_short.md)] probably hasn't yet been set up to use Power Automate. For more information, ask your admin.
 
-## Add automated flows ad manual instant flows
+## Add automated flows and manual instant flows
 
-You can create flows at the [powerautomate.microsoft.com](https://powerautomate.microsoft.com) website. However, if your admin has switched on the capability for running Power Automate flows from inside [!INCLUDE [prod_short](includes/prod_short.md)] online, you can start the process of building a flow from the **Automate** action on the relevant pages. Just choose the **Power Automate** menu item, and then choose the **Create a flow** action to connect to Power Automate.
+You can create flows at the [powerautomate.microsoft.com](https://powerautomate.microsoft.com) website. However, if your admin has switched on the capability to run Power Automate flows from inside [!INCLUDE [prod_short](includes/prod_short.md)] online, you can start the process of building a flow from the **Automate** action on the relevant pages. In some pages, the **Automate** action hides under the **More Options** menu, but find it, choose the **Power Automate** menu item, and then choose the **Create a flow** action. Power Automate then opens in a new browser tab, and you are signed in automatically.
 
-With Power Automate, you can create business flows directly in-house and rely on citizen developers​. You can also connect to various cloud services:​
-
-- Dataverse  
-- Outlook  
-- Teams  
-- Approvals  
-- Excel  
-- SharePoint  
-- Connectors to third party services  
-
-Starting in April 2022, the updated Business Central connector for Power Automate​ gives you even more power:
-
-- Filter to a specific page or table with the [Find records (V3)](/connectors/dynamicssmbsaas/#find-records-(v3)) action  ​
-- Pass context or parameters to Power Automate​  
-
-  - Environment name, such as PRODUCTION​  
-  - Company, such as Contoso​  
-  - Table ID, such as the table underlying the current page​  
-  - System ID, such as a specific record ID​  
-  - Page ID, meaning the page that the flow was triggered from  
-  - WebClientURL to open a specific page object
-- Enhance user experience with additional input  
-
-For more information, see [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) in the administration content.  
+With Power Automate, you can create business flows directly in-house and rely on citizen developers​. For more information, see [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) in the administration content.  
 
 ## Manage workflows
 
-You can get an overview of all workflows that you have access to by choosing the **Manage workflows** action in the **Power Automate** menu.  
+You can get an overview of all workflows that you have access to by choosing the **Manage workflows** action in the **Power Automate** menu. The list opens in a new browser tab, and you signed in to Power Automate automatically. There, you can see when each flow ran most recently.  
 
 ## Troubleshooting
 

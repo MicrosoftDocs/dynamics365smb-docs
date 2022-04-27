@@ -17,7 +17,7 @@ manager:
 Start by creating an Azure Active Directory tenant and getting administration login and password. For more information, see [Preparing demonstrations of [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md).
 You can stop at step 6, once you got the administrator account that you got as part of your demo account, typically called something like *admin@CRMbc123456.onmicrosoft.com*.
 
-Navigate to https://www.shopify.com/ and use this administrator account to sign for a free 14-day trial.
+Navigate to https://www.shopify.com/ and use this administrator account to sign for a free 14-day trial. For more information on how to create and personalize your online store, see https://help.shopify.com/.
 
 In the **Shopify Admin** of created shop do following **Settings**:
 *	Disable **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.

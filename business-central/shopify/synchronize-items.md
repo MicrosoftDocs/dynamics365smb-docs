@@ -169,6 +169,9 @@ You can initialize synchronization of images in two ways.
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and then choose the related link.
 2. Choose the **Sync Product Images** action. 
 
+### Image synchronization remars
+
+- When exporting images from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify the new images will be added to Shopify, keeping old images intact. So if you updated image in [!INCLUDE[prod_short](../includes/prod_short.md)], you will need to delete old ones in Shopify Admin.
 
 ## Sync prices to Shopify
 

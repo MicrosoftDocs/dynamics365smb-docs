@@ -1569,6 +1569,7 @@
 ##### [Synchronize with Contacts in Outlook](admin-synchronize-outlook-contacts.md)
 ##### [Optimize Outlook](admin-outlook-optimize.md)
 ##### [Use Business Central without Outlook](admin-no-outlook.md)
+##### [FAQ](ui-outlook-addin-faq.yml)
 ### Set Up Reports
 #### [Report Selection](across-report-selections.md)
 ### Set Up Connections

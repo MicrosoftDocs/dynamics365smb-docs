@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.form:
 ms.date: 04/01/2021
 ms.author: jswymer
 
@@ -16,6 +16,8 @@ ms.author: jswymer
 # Sorting, Searching, and Filtering
 
 There are a few things that you can do that will help you scan, find, and limit records on a list or in a report or XMLport. These include sorting, searching, and filtering. You can apply some or all of these simultaneously to quickly find or analyze your data.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 For reports and XMLports, as on lists, you can set filters to delimit which data to include in the report or XMLport, but you can't sort and search.
 

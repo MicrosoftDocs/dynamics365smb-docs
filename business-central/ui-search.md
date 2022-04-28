@@ -31,6 +31,8 @@ At the bottom of the **Tell Me** window is an action called **exploring**, which
 > [!NOTE]  
 >   If you prefer to use your keyboard, use the Tab key and Arrow keys to choose an item in the results. If you press the Enter key on your keyboard without choosing a result, [!INCLUDE[prod_short](includes/prod_short.md)] opens the result that is listed first.
 
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+
 ### Finding an Action on the Current Page
 The **On Current Page** section lets you find and perform actions on the page you have open. For example, if the **Sales Quote** page is open and you type "customer," the section includes an action that opens the customer card for the customer chosen on the sales quote.
 

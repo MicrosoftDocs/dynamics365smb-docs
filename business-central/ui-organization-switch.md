@@ -22,6 +22,8 @@ ms.author: bholtorf
 
 Depending on your browser, you can also pin the different companies to your favourites bar.  
 
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+
 ## Switch to Another Environment
 
 When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the environments that you can access are available on the Office.com.  

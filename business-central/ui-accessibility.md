@@ -26,6 +26,8 @@ This article provides information about the features that make [!INCLUDE[prod_sh
 - Zoom in or out on any page
 - Tooltips on elements in the user interface
 
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+
 ## <a name="Navigation"></a> Navigation
   
 You can use different combinations of the Tab, Shift, and arrow keys of your keyboard to move between elements on a page. Elements include actions, fields and columns, parts, and other controls. In general, press Tab or Shift+Tab to move to the next or previous element.

@@ -19,6 +19,8 @@ You can get an overview of all the business features that are available for your
 
 Each element on the role explorer is an action that opens a page. Accordingly, you can also use the role explorer as a means to navigate in [!INCLUDE[prod_short](includes/prod_short.md)].
 
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+
 ## Open the role explorer
 
 You can open the role explorer from the Role Center and all list pages and from the **Tell Me** window.

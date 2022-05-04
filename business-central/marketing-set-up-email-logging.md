@@ -62,7 +62,7 @@ Mail flow rules look for specific conditions on messages and take action on them
 
 ---
 
-## Setting Up [!INCLUDE[prod_short](includes/prod_short.md)] to Log Email Messages
+## Set Up [!INCLUDE[prod_short](includes/prod_short.md)] to Log Email Messages
 These steps are the same for both the current and new experiences.
 
 Get started with email logging in two easy steps:
@@ -84,14 +84,27 @@ Get started with email logging in two easy steps:
 - View the content of the email message that was exchanged by selecting **Process** and then **Show Attachments**.
 - Turn an email exchange into a sales opportunity. If an entry looks promising, you can turn it into an opportunity and then manage its progress toward a sale. To turn an email exchange into an opportunity, choose the entry, then **Process**, and then **Create Opportunity**. For more information, see [Managing Sales Opportunities](marketing-manage-sales-opportunities.md).
 
-## Connecting On-Premises Versions to Microsoft Exchange
+## Mailbox and folder limits in Exchange Online
+There are mailbox and folder limits in Exchange Online, such as limits for folder sizes and the number of messages. For more information, see [Exchange Online limits](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) and [Limits for public folders in Exchange Server](/Exchange/collaboration/public-folders/limits?view=exchserver-2019).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] stores logged email messages in a folder in Exchange Online. [!INCLUDE[prod_short](includes/prod_short.md)] also stores a link to each logged message. The links open the logged messages in Exchange Online from the Interaction Log Entries, Contact Card, and Salespersons Card pages in [!INCLUDE[prod_short](includes/prod_short.md)]. If a logged message is moved to another folder, the link will be broken. For example, a message might be moved manually, or Exchange Online might automatically start AutoSplit when a storage limit is reached.
+
+The following steps can help you avoid breaking links to messages in Exchange Online.
+
+1. Don't move existing messages to another folder after you change settings for your email logging setup. Keeping existing messages where they are will preserve the links. Links to messages in the new folder will be valid.
+2. Avoid reaching the mailbox and folder limits. If you're about to reach a limit, take the following steps:
+    1. Set up a new shared mailbox (new experience) or a new shared folder (current experience) in Exchange Online.
+    2. Update your email flow rules in Exchange Online.
+    3. Update your email logging setup in Business Central accordingly
+
+## Connect On-Premises Versions to Microsoft Exchange
 
 You can connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to Exchange on-premises or Exchange Online for email logging. For both versions of Exchange, settings for the connection are available on the **Marketing Setup** page. For Exchange Online, you can also use an assisted setup guide.
 
 > [!IMPORTANT]
 > The new experience doesn't support a connection to Exchange on-premises. If you must use Exchange on-premises, do not enable the feature update for the new experience.
 
-## Connecting to Exchange On-Premises
+## Connect to Exchange On-Premises
 ## [Current Experience](#tab/current-experience)
 To connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to Exchange on-premises, on the **Marketing Setup** page, you can use **Basic** as the **Authentication Type**, and then enter credentials for the user account for Exchange on-premises. Then turn on the **Enabled** toggle to start logging email.
 
@@ -100,7 +113,7 @@ The new experience does not support connections to Exchange on-premises.
 
 ---
 
-## Connecting to Exchange Online
+## Connect to Exchange Online
 To connect to Exchange Online you must register an application in Azure Active Directory. Provide the application ID, key vault secret, and the redirect URL to use for the registration. The redirect URL is pre-set and should work for most installations. For more information, see [To register an application in Azure AD for connecting from Business Central to Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
 You must also use **OAuth2** as the **Authentication Type**. You must also register an application in Azure Active Directory. Provide the application ID, key vault secret, and the redirect URL to use for the registration. The redirect URL is pre-populated and should work for most installations. For more information, see To register an application in Azure AD for connecting from Business Central to Exchange Online below.
@@ -209,6 +222,8 @@ Disable your current setup, change the user on the **Email Logging** page, and t
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Logging**, and then choose the related link. 
 2. Choose **Actions**, and then **Renew Token**.
 3. Sign in with the Exchange Online account that the scheduled job will use to connect to the shared mailbox and process emails.
+
+
 
 ## See Also
 [Managing Relationships](marketing-relationship-management.md)

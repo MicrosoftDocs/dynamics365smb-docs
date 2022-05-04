@@ -5,3 +5,4 @@
 # [Execute tasks in background](background.md)
 # [Troubleshooting](troubleshooting.md)
 # [Test and training scenarios](scenarios.md)
+# [FAQ](FAQ.md)

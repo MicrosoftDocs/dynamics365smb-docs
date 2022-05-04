@@ -24,10 +24,16 @@ In the **Shopify Admin** of created shop do following **Settings**:
 *	Consider selecting *Accounts are optional* option in the **Customer accounts** section of the Checkout setting.
 *	Consider selecting *Company name - Optional* option in the **Customer information** section of the Checkout setting.
 *	Enable **Show tipping options at checkout** in the **Tipping** section of the Checkout setting, if you plan to demonstrate [Tipping scenario](TBD).
-*	Activate *(for testing) Bogus Gateway* as test payment provider in the [**Payments**](https://www.shopify.com/admin/settings/payments) settings.
+*	Activate test payments. You have two options. Start by navigating to [**Payments**](https://www.shopify.com/admin/settings/payments) settings:
+1. *(for testing) Bogus Gateway*, for more information, see [Activate Bogus Gateway for testing](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
+2. *Shopify payments* in test mode, for more information, see [Testing Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
+* For trial stores you need to select plan in the [**Plan**](https://www.shopify.com/admin/settings/plan) setting.
+
+>[!Important]
+>To avoid payments, remeber to cancel your Shopify trial.
 
 Install **Dynamics 365 Business Central** app to your Shopify online store
-1. Find [Dynamics 365 Business Central](https://fwlink/?=TDB) app on the [Shopify AppStore](https://apps.shopify.com/).
+1. Find [Dynamics 365 Business Central](https://apps.shopify.com/dynamics-365-business-central) app on the [Shopify AppStore](https://apps.shopify.com/).
 2. Choose **Add App** button. Login into your Shopify account if prompted. 
 3. Review privacy and permissions details and choose **Install App** button. You can find and open installed **Dynamics 365 Business Central** app in the Apps section on the sidebar of **Shopify admin**.
 4. Choose **Sign up now** to start [!INCLUDE[prod_short](../includes/prod_short.md)] trial, use administrator account.
@@ -37,13 +43,15 @@ In created [!INCLUDE[prod_short](../includes/prod_short.md)] do following:
 2. Choose the **New** action.
 3. Fill *DEMO1* in the **Code** field.
 4. Fill in **Shopify URL** field with URL to online shop you want to connect to.
-5. Choose the **Request Access** action.
+5. Activate **Enabled** toggle, review and accept terms and conditions.
+6. Choose the **Request Access** action.
 
 Configure Shopify shop as describen below:
 1. Enable the **Log Enabled** toggle.
 2. Disable the **Allow Background Syncs** toggle.
-3. Select **To Shopify** in the **Sync Item Images** field.
-4. Enable the **Sync Item Attributes** toggle.
+3. Select **To Shopify** in the **Sync Item** field.
+4. Select **To Shopify** in the **Sync Item Images** field.
+5. Enable the **Sync Item Attributes** toggle.
 6. Enable **Inventory Tracked** toggle.
 7. Select **Deny** in the **Default Inventory Policy**
 8. Enable the **Auto Create Unknown Customers** toggle
@@ -62,7 +70,7 @@ Configure location mapping.
 ## Walkthrough: Start selling products online
 
 ### Scenario
-You want try Shopify as an online store and don’t want to spend much time on setting things up, especially because you already maintain your items in [!INCLUDE[prod_short](../includes/prod_short.md)] properly. You immidiatelly get new customer, who are so happy with your shop that they decide to leave some tips.
+You want try Shopify as an online store and don’t want to spend much time on setting things up, especially because you already maintain your items in [!INCLUDE[prod_short](../includes/prod_short.md)] properly. Once you configured your Shopify online store, you immidiatelly get new customer, who are so happy with your shop and buying experience, so that they decide to leave some tips at checkout.
 
 ### Steps
 In **[!INCLUDE[prod_short](../includes/prod_short.md)]**
@@ -78,8 +86,8 @@ In **[!INCLUDE[prod_short](../includes/prod_short.md)]**
 In **Shopify online store**.
 Open product catalog. Notice:
 - Product titles, images, prices.
-- Availability indicator.
-Open *MEXICO Swivel Chair, black*. Notice that description contains with item attributes
+- Availability indicator (sold out for out-of-stock products).
+Choose any product that can be sold, for example *BERLIN Swivel Chair, yellow*. Notice that description contains item attributes.
 
 Choose **Buy it now** button and proceed to checkout.
 
@@ -89,8 +97,8 @@ Choose **Buy it now** button and proceed to checkout.
 4. Enable **Save this information for next time** checkbox.
 5. Choose **Continue to shipping** button.
 6. Keep *Standard* shipping method and choose **Continue to payment** button.
-7. Select 10% tip
-8. Fill *1* in the **Credit Card** field.
+7. Select 10% tip.
+8. Fill *1* in the **Credit Card** field if you use *(for testing) Bogus Gateway*, fill *5555 5555 5555 4444* in the **Credit Card** field if you use *Shopify payments* in test mode.
 9. Fill in the **Name on card** field.
 10. Fill in the **Expiration date** field with current month/year.
 11. Fill *111* in the **Security code**.
@@ -111,7 +119,7 @@ Sales order is a demand, that if necessary, with help of planning engine can be 
 4. Choose the **Reopen** action.
 5. Fill *DHL* in the **Agent** field.
 6. Fill *123456789* in the **Package Tracking No.**. 
-7. Choose the **Post** action, keep **Ship and Invoice** option and click **Ok**.
+7. Choose the **Post** action, keep **Ship and Invoice** option, and click **Ok**.
 
 Now physical and financial data is registered in [!INCLUDE[prod_short](../includes/prod_short.md)]. It’s time to notify Shopify about changes.
 
@@ -157,7 +165,7 @@ Prepare data.
 2.	Select item *1896-S, Athens Desk*.
 3.	Choose **Variants** action, and add two varians *PREMIUM, Athens Desk, Premium edition* and *ESSENTIAL, Athens Desk, Essential edition*.
 4.	Choose **Extended Text**, create new extended text valid for all language codes. Fill *Shopify* in the **Description** field.
-5.	Add following description with HTML tags: <b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>
+5.	Add following description with HTML tags: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`
 6.	Choose **Sales Prices**, and add new prices:
 
 |Line|**Sales Type**|**Sales Code**|Type|Code|Variant Code<br>(add field via personalization)|Unit Price|

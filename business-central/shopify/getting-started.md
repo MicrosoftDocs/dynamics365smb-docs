@@ -20,14 +20,8 @@ To create a new Shopify Account or sign up for a free 14-day trial navigate to h
 
 ### Recommended settings
 - Disable **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
-- Enable **Automatically fulfill only the gift cards of the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
 
-### Settings for trial and demo scenarios
-- Activate *(for testing) Bogus Gateway* as test payment provider in the [**Payments**](https://www.shopify.com/admin/settings/payments) settings in your **Shopify admin**.
-- Add Gift Card into Products - Gift cards, if you plan to demonstrate Gift card scenario.
-- Consider selecting *Accounts are optional* option in the **Customer accounts** section of the Checkout setting.
-- Consider selecting *Company name* - *Optional* option in the **Customer information** section of the Checkout setting.
-- Enable **Show tipping options at checkout** in the **Tipping** section of the Checkout setting if you plan to demonstrate Tipping scenario.
+For more information about Shopify settings for demo and trial scenarios, see [Test and training scenarios](scenarios.md#preparation)
 
 ## Prerequisites for [!INCLUDE[prod_short](../includes/prod_short.md)]
 - **Connect to Shopify for [!INCLUDE[prod_short](../includes/prod_short.md)]** extension is installed
@@ -48,10 +42,11 @@ For existing [!INCLUDE[prod_short](../includes/prod_short.md)] this step is opti
 2. Choose the **New** action.  
 3. Fill in the **Code** field.  
 4. Fill in **Shopify URL** field with URL to online shop you want to connect to.
-5. Choose the **Request Access** action.
-6. If prompted login into your Shopify account, review privacy and permissions details and choose **Install App** button.
+5. Activate **Enabled** toggle, review and accept terms and conditions.
+6. Choose the **Request Access** action.5. Choose the **Request Access** action.
+7. If prompted login into your Shopify account, review privacy and permissions details and choose **Install App** button.
  
-Repeat steps 2-6 for all online shops you want to connect.
+Repeat steps 2-7 for all online shops you want to connect.
 
 ### Next steps
 Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_short.md)]. In next steps you will define how and what to synchronize.

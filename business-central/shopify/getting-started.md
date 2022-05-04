@@ -30,7 +30,7 @@ Extension is pre-installed for all new signups and trials. If you need to instal
 
 ## Installing **Dynamics 365 Business Central** app to your Shopify online store
 For existing [!INCLUDE[prod_short](../includes/prod_short.md)] this step is optional and can be skipped.
-1. Find [Dynamics 365 Business Central](https://fwlink?=TDB) app on the [Shopify AppStore](https://apps.shopify.com/)
+1. Find [Dynamics 365 Business Central](https://apps.shopify.com/dynamics-365-business-central) app on the [Shopify AppStore](https://apps.shopify.com/)
 2. Choose **Add App** button. Login into your Shopify account if prompted. Select online shop if you have more than one.
 3. Review privacy and permissions details and choose **Install App** button.
   You can find and open installed **Dynamics 365 Business Central** app in the **Apps** section on the sidebar of **Shopify admin**.

@@ -55,7 +55,7 @@ You can export existing customers to Shopify in bulk. As result customer and one
 
 |Field|Description|
 |------|-----------|
-|**Export Customer to Shopify**|Select if you plan to export all customers with a valid e-mail address or phone from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify in bulk either manually using **Sync Customers** action or via job queue for recurring updates.|
+|**Export Customer to Shopify**|Select if you plan to export all customers with a valid e-mail address from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify in bulk either manually using **Sync Customers** action or via job queue for recurring updates.|
 |**Can update Shopify Customers**|Used together with **Export customer to Shopify**. Enable if want propagate later updates from [!INCLUDE[prod_short](../includes/prod_short.md)] for customers that already exist in Shopify.|
 
 > [!NOTE]

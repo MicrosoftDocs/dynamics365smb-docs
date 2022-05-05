@@ -11,3 +11,4 @@
 # [Troubleshooting](troubleshooting.md)
 
 # [Test and training scenarios](scenarios.md)
+# [FAQ](FAQ.md)

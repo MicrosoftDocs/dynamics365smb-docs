@@ -1,5 +1,5 @@
 ---
-title: Execute tasks in background 
+title: Running tasks in background 
 description: Configure synchronization of data between Business Central and Shopify in background.
 ms.date: 03/21/2022
 ms.topic: article

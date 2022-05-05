@@ -9,11 +9,12 @@ ms.author: andreipa
 manager: 
 ---
 
-# Execute tasks in background
+# Running tasks in background
 
-Extension allows perform some tasks in background. Two modes are supported:
+Extension will grant the ability to perform some tasks in the background. Two modes are supported:
+
 - Manually triggered task will be immediately scheduled via **Job Queue Entries**
-- Recurring tasks scheduled in **Job Queue* Entries**
+- Recurring tasks will be scheduled in **Job Queue* Entries**
 
 ## To enable execution of tasks in background for specific shop
 

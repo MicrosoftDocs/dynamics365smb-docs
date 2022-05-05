@@ -101,10 +101,10 @@ If you want to give access to multiple companies, then you must log into each co
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Closing Years and Periods](year-close-years-periods.md)  
-[Working with Dimensions](finance-dimensions.md)  
+[Work with Dimensions](finance-dimensions.md)  
 [Analyzing Financial Statements in Excel](finance-analyze-excel.md)  
 [Manage Work across Multiple Companies in the Company Hub](company-hub.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Setting Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)  
 
 

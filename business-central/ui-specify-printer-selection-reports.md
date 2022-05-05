@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.search.form: 8900, 9018, 9022
+ms.search.form: 8900
 ms.date: 06/24/2021
 ms.author: jswymer
 ---
@@ -273,7 +273,7 @@ Cloud printing is designed for documents of a reasonable size. Most cloud servic
 ## See Also
 
 [Printing a Report](ui-work-report.md#PrintReport)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Run Batch Jobs](ui-how-run-batch-jobs.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 

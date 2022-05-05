@@ -8,7 +8,7 @@
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
-    ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510
+    ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008
     ms.date: 06/24/2021
     ms.author: edupont
 
@@ -130,7 +130,7 @@ When you handle an over-receipt, you can either increase the value in the **Qty.
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

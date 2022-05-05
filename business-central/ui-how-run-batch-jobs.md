@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
-ms.search.form: 672, 676, 682, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 672, 676, 682
 ms.date: 04/01/2021
 ms.author: solsen
 
@@ -31,7 +31,7 @@ You can schedule when a batch job runs. For more information, see [Use Job Queue
 ## See Also
 [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
 [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

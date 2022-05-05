@@ -8,16 +8,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
 
 ---
-# Working with [!INCLUDE[prod_short](includes/prod_short.md)]
+# Work with [!INCLUDE[prod_short](includes/prod_short.md)]
 
 When performing business tasks, you interact with data in different ways, such as creating records and entering data, sorting and filtering data, writing notes, and outputting data to other applications.
 
 For example, you can adjust the size and position of any page, expand the width of columns and increase the height of column headers, and change the sorting of data in columns. And if you want to use the horizontal scroll bar to view all columns on a list page or on document lines, you will see that there is a vertical freeze pane to restrict some columns from scrolling.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="cheatsheet"></a>Tips and Tricks
 
@@ -40,7 +42,7 @@ The following table lists some of the general functionality with links to topics
 | Filter data in views, reports, or functions by using special symbols and characters. |[Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md) |
 |Learn the many general functions that help you enter data in a quick and easy way.|[Entering Data](ui-enter-data.md)|
 |Learn how to quickly copy and paste data including by using keyboard shortcuts.|[Copying and Pasting FAQ](faq-copy-paste.yml)|
-| View or process data in specific date ranges. |[Working with Calendar Dates and Times](ui-enter-date-ranges.md) |
+| View or process data in specific date ranges. |[Work with Calendar Dates and Times](ui-enter-date-ranges.md) |
 | See which fields must be filled in. |[Detecting Mandatory Fields](ui-mandatory-fields.md) |
 |Understand how the computer locale affects the user interface and the Help site and how to change the language.|[Changing Language and Locale](about-locale-language.md)|
 |Learn how to interact with Excel from practically anywhere in [!INCLUDE[prod_short](includes/prod_short.md)]|[Viewing and Editing in Excel](across-work-with-excel.md)|
@@ -48,7 +50,7 @@ The following table lists some of the general functionality with links to topics
 | Change basic settings such as company, work date, and Role Center. |[Change Basic Settings](ui-change-basic-settings.md) |
 |Get notified about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance.|[Manage Notifications](ui-smart-notifications.md)|
 | Change which and where UI elements are shown to fit your preferences.|[Personalize Your Workspace](ui-personalization-user.md) |
-|Define, preview, print, or save reports and define and run batch jobs.|[Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)|
+|Define, preview, print, or save reports and define and run batch jobs.|[Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)|
 | Manage the content and format of reports and documents, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more.|[Managing Report and Document Layouts](ui-manage-report-layouts.md) |
 |Learn about features and capabilities that make [!INCLUDE[prod_short](includes/prod_short.md)] readily available to people with disabilities.|[Accessibility and Keyboard Shortcuts](ui-accessibility.md)|
 

@@ -7,7 +7,7 @@ author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 
 ms.date: 04/01/2021
 ms.author: edupont
 
@@ -51,7 +51,7 @@ This procedure describes how attach a posted sales invoice to an email as a PDF 
 You can quickly compose emails for contacts, customers, vendors, salespeople/purchasers, and bank accounts directly from the pages for those entities. Just choose **Process**, and then **Send Email** to open the email editor. For bank accounts, the **Send Email** action is under **Actions**.
 
 > [!TIP]
-> If you often send email messages that are similar in nature, or want to send a bulk communication, for example, to advertise a sales campaign, using Word templates with email can speed up the process. You can create a template for an entities such as customers, vendors, and contacts, that will generate the content of an email message for you, and even personalize the content for the recipient based on data in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Using Word Templates for Bulk Communication](ui-mail-merge.md).  
+> If you often send email messages that are similar in nature, or want to send a bulk communication, for example, to advertise a sales campaign, using Word templates with email can speed up the process. You can create a template for an entities such as customers, vendors, and contacts, that will generate the content of an email message for you, and even personalize the content for the recipient based on data in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Use Word Templates for Bulk Communication](ui-mail-merge.md).  
 
 ## Documents marked as printed when they are sent
 
@@ -73,7 +73,7 @@ The **Email Outbox** is where you'll find the emails that you saved as drafts, a
 [Managing Report and Document Layouts](ui-manage-report-layouts.md)  
 [Set up Email](admin-how-setup-email.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

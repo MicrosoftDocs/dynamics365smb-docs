@@ -22,7 +22,7 @@ ms.author: edupont
 
 [Set Up Automatic Account Posting Groups](how-to-set-up-automatic-account-posting-groups.md)  
 [Setting Up Posting Groups](../../finance-posting-groups.md)  
-[Working with General Journals](../../ui-work-general-journals.md)  
+[Work with General Journals](../../ui-work-general-journals.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

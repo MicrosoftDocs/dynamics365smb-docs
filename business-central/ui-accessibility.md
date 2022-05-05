@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: jswymer
 
@@ -25,6 +25,8 @@ This article provides information about the features that make [!INCLUDE[prod_sh
 - Support for common assistive technologies 
 - Zoom in or out on any page
 - Tooltips on elements in the user interface
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="Navigation"></a> Navigation
   
@@ -80,7 +82,7 @@ You can find additional information about accessibility with Microsoft products 
 ## See Also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Frequently Asked Questions](across-faq.yml)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

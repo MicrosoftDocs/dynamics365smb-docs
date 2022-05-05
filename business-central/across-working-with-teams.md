@@ -41,7 +41,7 @@ The following sections describe the different ways in detail.
 
 With the Business Central app for Teams, you can copy a link from any Business Central record, like a customer or sales order, and paste the link into a Teams conversation. The app connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)]\. It then expands the link into a compact, interactive card that displays information about the record. Once in the conversation, you and coworkers can view more details about the record, edit data, and take action&mdash;without leaving Teams.
 
-[![Teams integration with Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams integration with Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 ### Prerequisites
 
@@ -56,38 +56,36 @@ With the Business Central app for Teams, you can copy a link from any Business C
 1. Sign in to [!INCLUDE [prod_short](includes/prod_short.md)] using your browser.
 2. Open the record that you want to share.
 
-    The app is designed to display card type pages from [!INCLUDE [prod_short](includes/prod_short.md)]\. So open a page that displays a single record, like an item, customer, or sales order. You can't use it for role centers or pages that display several records in a list.
+    The app is designed to display a card for almost any type of [!INCLUDE [prod_short](includes/prod_short.md)] page. But it provides the best experience when used for pages that display a single record, such as an item, customer, or sales order.
+3. Copy the link to the page.
 
-3. Copy the entire URL from the browser's address bar.
+    There are two ways to copy the link. The easiest and preferred way is to select  **Share** ![Share icon in Business Central](media/share-icon.png) > **Copy Link**. The other way is to, copy the entire URL from the browser's address bar.
 
-   ![Copy Business Central URL from browser.](media/teams-url-v2.png)
+    [![Copy Business Central URL from browser.](media/teams-copy-link.png)](media/teams-copy-link.png#lightbox)
 4. Go to Teams and start a conversation, which can be chat with a person, group of persons, or a team channel.
+5. Paste the link (URL) in the message box where you compose a message.
 
-    <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
-5. Paste the URL in the message box where you compose a message.
+    ![Paste Business Central URL in Teams.](media/teams-paste-url-v2.png)
 
-   ![Paste Business Central URL in Teams.](media/teams-paste-url-v2.png)
+    > [!TIP]
+    > If you get a message like: *Business Central wants to show a preview of this link.*, it means that you don't have the Business Central app for Teams installed. To install the app, select **Show Preview** and follow the instructions.
 6. The first time you paste a link into a conversation, you'll be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)] and give consent for the app to retrieve data. Just follow the on-screen instructions.
 
     > [!NOTE]
     > You'll only have to do this step once.
-
 7. Wait a moment while a card is generated in the message box.
-
 8. When the card appears, review the contents of the card carefully for any sensitive information before sending the message. This step is important because once you send the message, everyone in the conversation can see the card.
-
 9. If the card looks good, select **Send** to submit it to the conversation.
 
     > [!TIP]
     > After the card appears, and before you select **Send**, you can delete the pasted URL if you like.
-
 10. To view more details or make changes to the record shown in the card, select **Details**. For more information, see the next section.
 
 ### View card details
 
-Once a card's been sent to a conversation, all participants with the [proper permissions](admin-teams-integration.md#permissions) can select **Details** to open a window that displays more information about the record&mdash;and possibly make changes to the record. It doesn't matter if you're the one sending the card or the one receiving the card. The **Details** feature is especially useful to recipients, because it quickly provides them with concise, targeted information about the record, as opposed to having to scan the full record.
+Once a card's been sent to a conversation, all participants with the [proper permissions](admin-teams-integration.md#permissions) can select **Details** to open a window that displays more information about the record&mdash;and possibly make changes to the record. It doesn't matter if you're the one sending the card or the one receiving the card. The **Details** feature is especially useful to recipients, because it quickly provides them with concise, targeted information about the record.
 
-The details window is similar to what you'd see in [!INCLUDE [prod_short](includes/prod_short.md)] the record. But it's slightly trimmed for Teams. When you're finished viewing and making changes, close the window to return to the Teams conversation.
+The details window is similar to what you'd see in [!INCLUDE [prod_short](includes/prod_short.md)], but it's focused on the page or record that the card is about. When you're finished viewing and making changes, close the window to return to the Teams conversation.
 
 Here are a couple things to keep in mind when working with the card details:
 

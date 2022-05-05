@@ -1,6 +1,6 @@
 ---
 title: Prepare Customer Data Migration with Templates
-description: Learn how to use configuration templates to structure existing customer data before you migrate the master data to the new company in Business Central.
+description: If you use RapidStart Services, you can use configuration templates to structure existing customer data before you migrate the master data to the new company in Business Central.
 author: SorenGP
 
     

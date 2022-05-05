@@ -83,7 +83,7 @@ The following table describes the standard payment application rules in [!INCLUD
 [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

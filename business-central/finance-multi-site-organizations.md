@@ -64,7 +64,7 @@ Align the organization with your business goals by providing a common understand
 
 | **Business requirement** | **How Business Central supports it** | **Learn more** |
 |-------------------------|-------------------------|-------------------------|
-| Share insights with sites without extensive IT support. | Create KPIs and business intelligence dashboards in Power BI based on your data. | [Working with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md) |
+| Share insights with sites without extensive IT support. | Create KPIs and business intelligence dashboards in Power BI based on your data. | [Work with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md) |
 | Develop custom financial reports. | Generate parameter-based financial reports. | [Business Intelligence](bi.md) |
 | Align on the facts. | Generate, view, and share reports with internal and external stakeholders. | [Financial Reports](finance-reports.md) |
 | Analyze data in Excel. | Fact-find, troubleshoot, and do ad hoc analyses in Microsoft Excel. | [Analyze Financial Statements in Excel](finance-analyze-excel.md) |
@@ -81,7 +81,7 @@ APIs and XMLports simplify the process of connecting instances of [!INCLUDE[prod
 | Post and import XML documents. | Codeunits can be exposed as unbound actions to support posting and ingestion of XML documents. For processing XML documents, XMLports can be applied. Unbound actions are also capable of generating an XML or JSON document. | [XMLport Objects](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
 | Make maintenance easier through electronic data exchange. | An electronic data exchange solution can be added to serve as an integration layer between the headquarter company and sites. | [Data Exchange Framework](across-about-the-data-exchange-framework.md) |
 | Exchange data between different systems. | Use XMLports to create XML documents, which can then be exchanged between a headquarter company that uses one system and sites that use Business Central. | [XMLport Overview](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
-| Orchestrate complex data exchanges. | Use a combination of XMLports with Business Central and Microsoft BizTalk Server to meet unique needs at your sites.</br>For complex needs, use an electronic data exchange solution based on BizTalk Server and Commerce Gateway in Business Central in combination with the XMLports. | [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md) |
+| Orchestrate complex data exchanges. | Use a combination of XMLports with Business Central and Microsoft BizTalk Server to meet unique needs at your sites.</br>For complex needs, use an electronic data exchange solution based on BizTalk Server and Commerce Gateway in Business Central in combination with the XMLports. | [Work with Reports, Batch Jobs, and XMLports](ui-work-report.md) |
 | Connect to 3<sup>rd</sup> party solutions and services. | APIs establish a point-to-point connection between Business Central and 3<sup>rd</sup> party solutions and services. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
@@ -103,11 +103,11 @@ The headquarter company must be able to react quickly to business changes at eac
 | **Business requirement** | **How Business Central supports it** | **Learn more** |
 |-------------------------|-------------------------|-------------------------|
 | Automatically generate email alerts. | Set up alerts in Power Automate that will generate emails to inform you of critical business conditions at sites or supply chain partners. | [Business Central and Power BI](admin-powerbi.md) |
-| Use standard or custom alerts. | Use 12 different templates included for Business Central or set up your own alerts to suit your business. | [Using Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md) |
+| Use standard or custom alerts. | Use 12 different templates included for Business Central or set up your own alerts to suit your business. | [Use Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md) |
 
 ## See Also
 [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

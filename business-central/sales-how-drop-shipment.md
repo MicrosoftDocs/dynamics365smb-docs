@@ -27,28 +27,35 @@ When a sales order is marked for drop shipment, and you create a purchase order 
 To prepare a drop shipment, you create a sales order for an item and indicate on the sales line that the sale requires drop shipment.
 
 1. Create a sales order for an item. For more information, see [Sell Products](sales-how-sell-products.md).
-2. On the sales order line for the drop shipment, select the **Drop Shipment** check box. Use the **Choose Columns** function if the field is not visible. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
+2. On the sales order line for the drop shipment, select the **Drop Shipment** check box. 
+
+> [!TIP]
+> By default, the Drop Shipment check box isn't available on the lines. If it isn't, you can add it by personalizing the section of page that contains the lines. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 ## To create the purchase order for drop shipment
 
 To prepare a drop shipment, you indicate on the purchase order that it must be shipped to your customer, not to yourself.
 
-1. Create a purchase order. Do not fill any fields on the lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
+1. Create a purchase order. Don't fill any fields on the lines. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 2. In the **Ship-to** field, select **Customer Address**.
-3. In the **Customer** field, select the customer that you are selling to.
+3. In the **Customer** field, select the customer that you're selling to.
 4. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
 5. On the **Sales List** page, select the sales order that you prepared in [To create a sales order for drop shipment](#to-create-a-sales-order-for-drop-shipment).
 6. Choose the **OK** button.
 
 The line information from the sales order is inserted on the purchase order line(s).
 
-You can now instruct the vendor to ship the items to your customer, for example, by mailing the purchase order as a PDF. If your vendor provides a tracking number or similar information, you can choose to record that information in a purchase order line of type *Comment*.  
+You can now tell your vendor to ship the items directly to the customer. For example, you might send them the order by email. 
+
+If your vendor provides a tracking number or similar information, you can add that information in a purchase order line of type *Comment*.  
 
 ## To create multiple purchase orders for drop shipments
 
-You can also use the requisition worksheet to create the purchase order for the vendor. The advantage of using the requisition worksheet is that it can create purchase orders for all outstanding drop shipments, so you don't have to create each one individually.
+You can also use the requisition worksheet to create the purchase order for the vendor. 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requistion Worksheets**, and then choose the related link.
+The advantage of using the requisition worksheet is that it can create purchase orders for all outstanding drop shipments. That means you won't have to create each one individually.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Requisition Worksheets**, and then choose the related link.
 2. Choose the **Drop Shipments** action, and then choose the **Get Sales Order** action.
 3. Choose the **OK** button.
 4. Review the purchase order lines, and in the **Vendor No.** field, select vendor that supplies required goods. 
@@ -76,7 +83,7 @@ After the vendor ships the items, you can post the sales order as shipped. You c
 [Record Purchases](purchasing-how-record-purchases.md)  
 [Sales](sales-manage-sales.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

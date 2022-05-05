@@ -32,7 +32,7 @@ In the United States, when you sell to a customer at a location where you do not
 [Finance](../../finance.md)  
 [Setting Up Finance](../../finance.md)  
 [Set Up Sales Tax - Watch a Video](https://www.youtube.com/watch?v=qMs4BoSytN8&index=13&list=PLcakwueIHoT8K1m148oMqo7amR2a7Bz-8)  
-[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

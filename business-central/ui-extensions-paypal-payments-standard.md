@@ -18,7 +18,7 @@ ms.author: edupont
 # The PayPal Payments Standard Extension
 Customers continuously require higher customer service, both in terms of product quality but also in terms of delivery and payment options. The PayPal Payments Standard service helps you increase your customer service.
 
-As an alternative to collecting payments through bank transfer or credit cards, you can offer your customers to pay you through their PayPal account. When you send a sales invoice or sales order by email, there is a PayPal link in the email body and in the attached PDF document. When the customer chooses the link, the service page for their PayPal account appears showing the payment details for the sale. The customer can then pay the invoice as any other PayPal payment.
+As an alternative to collecting payments through bank transfer or credit cards, you can offer your customers to pay you through their PayPal account. When you send a sales invoice by email, there is a PayPal link in the email body and in the attached PDF document. When the customer chooses the link, the service page for their PayPal account appears showing the payment details for the sale. The customer can then pay the invoice as any other PayPal payment.
 
 The PayPal Payments Standard service provides the following benefits:
 
@@ -35,7 +35,7 @@ For more information, see [Enable Customer Payment Through PayPal](sales-how-ena
 ## See Also
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

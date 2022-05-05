@@ -1,7 +1,7 @@
 ---
 title: Set Up Financial Processes
 description: Learn about the tasks required to set up finance in your business to suit all your accounting, auditing, or bookkeeping needs.
-author: SorenGP
+author: edupont04
 
 
 ms.topic: conceptual
@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/16/2021
+ms.date: 01/21/2022
 ms.author: edupont
 
 ---
 # Setting Up Finance
 Before you can begin to run your business, you must specify rules and defaults for how you want to manage finance processes for that company. You start by setting up the core of the company's accounting records - the chart of accounts. Then you set up posting groups, which makes the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.
 
-Some finance setup can be done automatically with assisted setup guides, and some must be done manually. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).
+Some finance setup can be done automatically with assisted setup guides, and some must be done manually. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md). The **General Ledger Setup** page specifies how you handle many different accounting issues in your company. For example, you use this page to specify invoice rounding details, the currency code for your local currency, address formats, and whether you want to use an additional reporting currency. For more information, see [Understanding the General Ledger and the Chart of Accounts](finance-general-ledger.md).  
 
-You can use dimensions to add different types of information to every transaction. You can set up your company's basic dimensions, such as Projects and Departments. Later, you can add more dimensions when you need them, and you can set up temporary dimensions for use during a limited time period, for example, in connection with a sales campaign. For more information, see [Working with Dimensions](finance-dimensions.md).
+You can use dimensions to add different types of information to every transaction. You can set up your company's basic dimensions, such as *Projects* and *Departments*. Later, you can add more dimensions when you need them, and you can set up temporary dimensions for use during a limited time period, for example, in connection with a sales campaign. For more information, see [Working with Dimensions](finance-dimensions.md).
 
 Many of the setup tasks must be completed before you can begin recording financial transactions, but most settings can be changed at a later date. Some of the set up tasks are optional, for example, you only set up Intercompany Postings and Consolidations if you are working with multiple companies. Some setup tasks, such as specifying the period during which posting is allowed, may have to be repeated periodically.  
 
@@ -26,6 +26,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
+|View or edit the general ledger accounts to which all general ledger entries are posted|[Set Up or Change the Chart of Accounts](finance-setup-chart-accounts.md)|
 | Specify how you want to be paid by customers, and how you want to pay your vendors. |[Set Up Payment Methods](finance-payment-methods.md) |
 | Specify payment terms to manage due dates and to calculate possible payment discounts.|[Set Up Payment Terms](finance-payment-terms.md) |
 | Specify the posting groups that map entities like customers, vendors, items, resources, and sales and purchase documents to general ledger accounts. |[Set Up Posting Groups](finance-posting-groups.md)|
@@ -58,10 +59,10 @@ The following table describes a sequence of tasks, with links to the topics that
 
 [Finance](finance.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
-[Working with Dimensions](finance-dimensions.md)  
+[Work with Dimensions](finance-dimensions.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

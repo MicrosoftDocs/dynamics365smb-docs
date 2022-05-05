@@ -66,6 +66,12 @@ The **Adjust Exchange Rates** batch job is used to manually adjust the exchange 
 > [!TIP]
 > You can use a service to update exchange rates in the system automatically. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). However, this does not adjust exchange rates on already posted transactions. To update exchange rates on posted entries, use the **Adjust Exchange Rates** batch job.
 
+You can preview the effect that an adjustment will have on posting before you actually post by choosing **Preview** on the **Adjust Exchange Rates** page. Additionally, you can select whether the general ledger posting will be detailed (per entry) or summarized (per currency) by choosing **Summarize Entries**. You can also specify how to handle dimensions for unrealized gains and losses postings by choosing one of the following options in the **Transfer Dimension Values** field:  
+
+- **Source Entry**: G/L entries for unrealized gains and losses will have dimensions values transferred from the adjusted entry.
+- **By G/L Account**: G/L entries for unrealized gains and losses will have dimensions values transferred from the unrealized gains and losses G/L account's dimension settings source entry.
+- **No Transfer**: G/L entries for unrealized gains and losses won't have dimensions values.
+
 ### Effect on Customers and Vendors
 
 For customer and vendor accounts, the batch job adjusts the currency by using the exchange rate that is valid on the posting date that is specified in the batch job. The batch job calculates the differences for the individual currency balances and posts the amounts to the general ledger account that is specified in the **Unrealized Gains Acc.** field or the **Unrealized Losses Acc.** field on the **Currencies** page. Balancing entries are automatically posted to the receivables/payables account in the general ledger.
@@ -127,7 +133,7 @@ The value in the **Exchange Rate** field on the **Currencies** page is updated w
 [Set Up Currencies](finance-set-up-currencies.md)  
 [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)  
 [Closing Years and Periods](year-close-years-periods.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

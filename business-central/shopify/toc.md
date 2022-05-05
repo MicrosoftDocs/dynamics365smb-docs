@@ -1,8 +1,14 @@
 # [Getting started](getting-started.md)
+
 # [Synchronize items](synchronize-items.md)
+
 # [Synchronize customers](synchronize-customers.md)
+
 # [Synchronize and fulfill sales orders](synchronize-orders.md)
-# [Execute tasks in background](background.md)
+
+# [Run tasks in background](background.md)
+
 # [Troubleshooting](troubleshooting.md)
+
 # [Test and training scenarios](scenarios.md)
 # [FAQ](FAQ.md)

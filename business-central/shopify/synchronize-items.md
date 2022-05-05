@@ -11,10 +11,10 @@ manager:
 
 # Synchronize items and inventory
 
-Term **Items** in [!INCLUDE[prod_short](../includes/prod_short.md)] corresponds to *Products in Shopify*, which include physical goods, digital downloads, services, and gift cards that you sell.
+Term **Items** in [!INCLUDE[prod_short](../includes/prod_short.md)] corresponds to *Products in Shopify*, which includes physical goods, digital downloads, services and gift cards that you sell.
 There are two main purposes of synchronization of items:
 
-1. Master-data management is performed in [!INCLUDE[prod_short](../includes/prod_short.md)], and you need to export all or some data to Shopify and make it visible. You can export item name, description, image, prices, availability, variants, vendor details, barcodes, which can become immediately visible or first reviewed and enhanced by a responsible person.
+1. Master-data management is performed in [!INCLUDE[prod_short](../includes/prod_short.md)], you need to export all or some data to Shopify and make it visible. You can export item name, description, image, prices, availability, variants, vendor details, barcodes, which can become immediately visible or first reviewed and enhanced by a responsible person.
 2. When importing order from Shopify, the information about items are essential for further processing of document in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 These two scenarios are always enabled.
@@ -39,7 +39,7 @@ Either you import items from Shopify in bulk or together with import of orders, 
 |Field|Description|
 |------|-----------|
 |**Auto create unknown items**|When shopify products and variants are imported to [!INCLUDE[prod_short](../includes/prod_short.md)], system always tries to find matching record in the item list first. **SKU Mapping** impacts how system performs matching and creates new Item and/or Item Variant. For more information, see [Product Mapping](synchronize-items.md#). Enable this option if you want to create new item and/or for records where system didn't find the matching record. New item will be created using imported data and **Item Template Code**. If this option is disabled, you will need to create Item manually and use **Map Product** action from **Shopify Products** page.|
-|**Item Template Code**|Used together with **Auto create unknown items**. Choose template to be used for automatically created items.|
+|**Item Template Code**|Used together with **Auto create unknown items**. <br> Choose template to be used for automatically created items.|
 |**SKU Mapping**|Choose how you want to use **SKU** value imported from Shopify during item/variant mapping and creation. For more information, see [How SKU and Barcode defined in Shopify product impact mapping and creation of items and variants](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-impact-mapping-and-creation-of-items-and-variants-in-business-central)|
 |**SKU Field Separator**|Used together with **SKU Mapping** set to **Item. No + Variant Code** option.<br> Define a separator that system should use to split SKU. <br>For example: if in Shopify you create the variant with SKU '1000/001', fill '/' in the **SKU Field Separator** field to get the item number in [!INCLUDE[prod_short](../includes/prod_short.md)] as '1000' and the item variant code as '001'.
 |**Variant Prefix**|Used together with **SKU Mapping** set to **Variant Code** or **Item. No + Variant Code** options as fallback strategy when SKU coming from Shopify is empty.<br>If you want system to create Item Variant in [!INCLUDE[prod_short](../includes/prod_short.md)], you will need to fill in **Code**. By default system will use value defined in the SKU field imported from Shopify. However if SKU is empty, it will generate code starting with defined variant prefix and "001".|

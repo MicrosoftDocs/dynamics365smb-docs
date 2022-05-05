@@ -1,4 +1,4 @@
-# [Getting started](getting-started.md)
+# [Get started](get-started.md)
 
 # [Synchronize items](synchronize-items.md)
 
@@ -11,4 +11,5 @@
 # [Troubleshooting](troubleshooting.md)
 
 # [Test and training scenarios](scenarios.md)
+
 # [FAQ](FAQ.md)

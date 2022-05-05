@@ -13,7 +13,7 @@ ms.date: 04/01/2021
 ms.author: jswymer
 
 ---
-# Using Pre-Closing Reports
+# Use Pre-Closing Reports
 
 There are many standard reports that you can use to verify the accuracy of the accounts before closing the books at the end of a year or period. For example, you can use the **Customer - Trial Balance** report to verify that the balance for a customer posting group is equal to the balance on the corresponding general ledger account on a certain date.
 
@@ -36,7 +36,7 @@ To see a report, choose the ![Lightbulb that opens the Tell Me feature.](media/u
 ## See Also
 
 [Closing Years and Periods](year-close-years-periods.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 

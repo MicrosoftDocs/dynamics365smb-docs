@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
 
@@ -30,6 +30,8 @@ At the bottom of the **Tell Me** window is an action called **exploring**, which
 
 > [!NOTE]  
 >   If you prefer to use your keyboard, use the Tab key and Arrow keys to choose an item in the results. If you press the Enter key on your keyboard without choosing a result, [!INCLUDE[prod_short](includes/prod_short.md)] opens the result that is listed first.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ### Finding an Action on the Current Page
 The **On Current Page** section lets you find and perform actions on the page you have open. For example, if the **Sales Quote** page is open and you type "customer," the section includes an action that opens the customer card for the customer chosen on the sales quote.
@@ -63,7 +65,7 @@ We have shown Tell Me to a range of stakeholders, noted the questions that they 
 ## See Related Training at [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## See Also
-[Working with Business Central](ui-work-product.md)  
+[Work with Business Central](ui-work-product.md)  
 [Add a Page Action to Your Role Center](ui-bookmarks.md)
 
 

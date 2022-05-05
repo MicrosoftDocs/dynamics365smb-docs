@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.form: 130, 142, 1350, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 130, 142, 1350
 ms.date: 04/01/2021
 ms.author: edupont
 
@@ -60,6 +60,6 @@ You can edit certain fields on posted purchase documents, such as the **Package 
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
-ms.date: 08/13/2021
+ms.search.form: 1831, 1832
+ms.date: 04/27/2022
 ms.author: jswymer
 
 ---
 # Get the Business Central Add-in for Outlook
 
-With [!INCLUDE[prod_short](includes/prod_short.md)], you can manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook add-in, you can see financial data related to customers and vendors. You can also create and send financial documents, such as quotes and invoices.  
+With [!INCLUDE[prod_short](includes/prod_short.md)], you can manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook add-in, you'll  see financial data related to customers and vendors. You can also create and send financial documents, such as quotes and invoices.  
 
 There are two ways to get the Business Central add-in for Outlook installed, depending on your role in the organization:
 
@@ -35,9 +35,12 @@ The Business Central add-in for Outlook consists of two smaller add-ins:
 
     When an email refers to a business document number in the email body, this add-in provides a direct, in-line link from email body to the actual business document in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-For more information about what you do with the add-ins, see [Using Business Central as your Business Inbox in Outlook](work-outlook-addin.md).
+For more information about what you do with the add-ins, see [Use Business Central as your Business Inbox in Outlook](work-outlook-addin.md).
 
 Each add-in is provided as an XML file, called a *manifest*, which must be installed in Outlook of anyone who wants this functionality. These files describe how to activate the add-ins and connect to Business Central when they're used in Outlook. Working with these files is typically done by an admin. As a normal user, in most cases, you won't have to handle with these files directly. Either your admin will set up the add-in to install automatically for you or you'll use the built-in assisted setup to handle the installation.
+
+> [!IMPORTANT]
+> Working with multiple environments? The Business Central add-in for Outlook is designed to work with a single Business Central environment. When the add-in is installed, the name of the environment is included in the add-in's manifest. This configuration means that the add-in will only connect to the environment that it was installed from. To use the add-in with a different environment, you'll open the environment and install the add-in again.
 
 ## Deploy the add-in by using Centralized Deployment as an admin
 
@@ -80,7 +83,7 @@ Centralized Deployment is a feature in Microsoft 365 admin center that you use t
 > [!IMPORTANT]
 > A green check mark appears when the add-in is deployed to the admin center. However, it can take up to 24 hours before users see the add-in in Outlook app. Users might have to restart Outlook as well.
 
-When finished, you can always change the deployment in Microsoft 365 admin center, like assigning more users. For more information about deploying add-ins in the admin center, see [Deploy add-ins in the admin center](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+When finished, you can always change the deployment in Microsoft 365 admin center, like assigning more users. For more information about deploying add-ins in the admin center, see [Deploy add-ins in the admin center](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
 ## <a name="install"></a>Install the add-in for your own use
 
@@ -126,7 +129,7 @@ You're now ready to start using the add-in in Outlook.
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Minimum Requirements for Outlook](product-requirements.md#outlook)  
-[Using add-ins in Outlook on the web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Use add-ins in Outlook on the web](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -96,7 +96,7 @@ These steps differ, depending on whether your administrator has turned on the **
 
 ---
 
-## Working with Invoice Discounts and Service Charges
+## Work with Invoice Discounts and Service Charges
 When you use invoice discounts, the size of the invoice amount determines the size of the discount that is granted. On the **Invoice Discounts** page, you can also add a service charge to invoices over a certain amount.  <!--The Invoice Discounts page is hard to find.-->
 
 Before you can use invoice discounts with sales, you must enter certain information in application. You must decide which customers will be granted this type of discount, and the discount percentages you will use.  
@@ -195,4 +195,4 @@ When you have recorded special prices and line discounts for sales and purchases
 ## See Also
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
-[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Work with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

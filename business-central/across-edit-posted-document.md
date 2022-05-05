@@ -51,7 +51,7 @@ The posted sales shipment is updated.
 [General Business Functionality](ui-across-business-areas.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Posting Documents and Journals](ui-post-documents-journals.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -24,7 +24,7 @@ You can allocate an entry in a general journal to several different accounts whe
 The allocation features can be used with recurring general journals and in fixed assets journals.
 <!--You can also distribute the cost or revenue of a line to an intercompany partner when you post a sales or purchase document. When you post the document, a line will be posted in your general journal, and a corresponding line will be created in the intercompany outbox.-->
 
-The following procedures describe how to prepare to allocate costs in a recurring general journal by defining allocation keys. When allocation keys are defined, you complete and post the journal like any other recurring general journal. For more information, see [Working with General Journals](ui-work-general-journals.md).
+The following procedures describe how to prepare to allocate costs in a recurring general journal by defining allocation keys. When allocation keys are defined, you complete and post the journal like any other recurring general journal. For more information, see [Work with General Journals](ui-work-general-journals.md).
 
 ## To set up allocation keys
 
@@ -52,9 +52,9 @@ You can allocate an entry in a recurring general journal to several different ac
 
 ## See Also
 [Closing Years and Periods](year-close-years-periods.md)  
-[Working with General Journals](ui-work-general-journals.md)    
+[Work with General Journals](ui-work-general-journals.md)    
 [Posting Documents and Journals](ui-post-documents-journals.md)    
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

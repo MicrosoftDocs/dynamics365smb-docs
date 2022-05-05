@@ -1,6 +1,6 @@
 ---
 title: Gather Customer Setup Values
-description: Configuration questionnaire helps reduce implementation by streamlining setting up new companies and offering customers an Excel or XML file.
+description: If you want to use RapidStart Services, the configuration questionnaire helps reduce implementation by streamlining setting up new companies and offering customers an Excel or XML file.
 author: SorenGP
 
     
@@ -14,13 +14,13 @@ ms.date: 06/14/2021
 ms.author: edupont
 
 ---
-# Gather Customer Setup Values
+# Gather Customer Setup Values with RapidStart Services
 You use the configuration questionnaire to help reduce your implementation workload by streamlining the task of setting up the new company. You can generate the configuration questionnaire in [!INCLUDE[prod_short](includes/prod_short.md)] and then provide it to your customer as an Excel or XML file.  
 
 You can change all default values in a questionnaire to more closely match customer needs.  
 
 > [!TIP]  
->  For more information about defining setup values in supply planning fields, see [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md).  
+> For more information about defining setup values in supply planning fields, see [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md).  
 
 When your customer completes the questionnaire, you import the file into the customer's new [!INCLUDE[prod_short](includes/prod_short.md)] company. You and your customer validate the questionnaire answers before you apply them to the company.
 

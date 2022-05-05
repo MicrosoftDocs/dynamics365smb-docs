@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: 344, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 344
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
@@ -24,7 +24,7 @@ This feature is useful for finding the ledger entries that resulted from certain
 
 ## Get started
 
-The find entries feature is readily available on most pages that display posted documents or posted documents entries - for both lists and cards. So the first step is open one of these pages. Then, either choose the **Find Entries** action or press the Alt+G keys.
+The find entries feature is readily available on most pages that display posted documents or posted documents entries - for both lists and cards. So the first step is open one of these pages. Then, either choose the **Find Entries** action or press the Ctrl+Alt+G keys.
 
 The **Find Entries** page  includes all related documents and entries based on the document no. and posting date. The page is divided into three sections:
 
@@ -68,7 +68,7 @@ After you make a selection, enter the relevant search information in the fields 
 
 ## See Also
 
-[Working with Business Central](ui-work-product.md)  
+[Work with Business Central](ui-work-product.md)  
 [Add a Page Action to Your Role Center](ui-bookmarks.md)  
 [Trace Item-Tracked Items](inventory-how-to-trace-item-tracked-items.md)  
 

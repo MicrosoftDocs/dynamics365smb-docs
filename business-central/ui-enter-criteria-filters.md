@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form:
 ms.date: 04/01/2021
 ms.author: jswymer
 
@@ -16,6 +16,8 @@ ms.author: jswymer
 # Sorting, Searching, and Filtering
 
 There are a few things that you can do that will help you scan, find, and limit records on a list or in a report or XMLport. These include sorting, searching, and filtering. You can apply some or all of these simultaneously to quickly find or analyze your data.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 For reports and XMLports, as on lists, you can set filters to delimit which data to include in the report or XMLport, but you can't sort and search.
 
@@ -128,7 +130,7 @@ You can set a simple filter directly on a list within using the filter pane, nam
 
 ### Setting Filters in Reports, Batch Jobs, and XMLports
 
-For reports and XMLports, the filters are visible directly on the request page. The request page displays the last used filters according to your selection in the **Use default values from** field. For more information, see [Using Saved Settings](ui-work-report.md#SavedSettings).
+For reports and XMLports, the filters are visible directly on the request page. The request page displays the last used filters according to your selection in the **Use default values from** field. For more information, see [Use Saved Settings](ui-work-report.md#SavedSettings).
 
 The main **Filter** section shows the default filter fields that you use to delimit which records to include in the report or XMLport. To add a filter, choose the **+ Filter** action. Then, type the name of the field that you want to filter by, or pick a field from the drop-down list.
 
@@ -150,7 +152,7 @@ Columns that already have filters are indicated by the ![Filter icon.](media/ui-
 When you enter criteria, you can use all the numbers and letters that you normally use in the field. But there's also a set of special symbols that you can use as operators to further filter the results. The following sections describe these symbols and how to use them as operators in filters.
 
 > [!TIP]
-> For more information about filtering dates and times, see [Working with Calendar Dates and Times](ui-enter-date-ranges.md).
+> For more information about filtering dates and times, see [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]
 > - There may be situations where the value that you want to filter on contains a symbol that's an operator. For more information about handling these situtions, see [Filtering on Values That Contain Symbols](#symbols) for more instructions about handling this situation.
@@ -167,7 +169,10 @@ When you enter criteria, you can use all the numbers and letters that you normal
 |`P8..`|Information for accounting period 8 and after|  
 |`..23`|From the beginning date until 23-current month-current year 23:59:59|  
 |`23..`|From 23-current month-current year 0:00:00 until the end of time|  
-|`22..23`|From 22-current month-current year 0:00:00 until 23-current month-current year 23:59:59|  
+|`22..23`|From 22-current month-current year 0:00:00 until 23-current month-current year 23:59:59| 
+
+> [!TIP]
+> If you're using a numeric keypad, the decimal separator key may output a character other than a period (.). To switch to a period, press the 'Alt+Decimal Separator' keys on the numeric keypad. When you want to switch back, press 'Alt+Decimal Separator' again. For more information, see [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).
 
 #### (&#124;) Either/or
 
@@ -303,7 +308,7 @@ Use `%myvendors` in the vendor **No** field to display all records for vendors t
 
 [Searching and Filtering FAQ](ui-search-filter-faq.yml)  
 [Save and Personalize List Views](ui-views.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

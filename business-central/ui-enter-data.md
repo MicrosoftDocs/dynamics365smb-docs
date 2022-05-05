@@ -8,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.date: 03/23/2022
 ms.author: jswymer
 ---
 # Entering Data
 
 There are many general features that help you enter data easier, faster, and more precise. The basic principles and advanced features for entering data are described in this article.  
 
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+
 The examples in this article use the demonstration data.
 
-## Working with editable fields
+## Work with editable fields
+
 Fields in [!INCLUDE[prod_short](includes/prod_short.md)] may contain different editable data, such as text or currency amounts. Editable fields typically display an input box where you can type or choose a value. Non-editable fields are typically displayed with a gray background.   
 
 Some editable fields provide a picker to help you specify a value.  
@@ -52,6 +55,8 @@ When the cursor is shown at the end of the field value:
 
 > [!NOTE]
 > After you specify a value, Business Central will only check that it's valid after you click outside the field or set focus to another element, such as the next field.  
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
 
 ## Keyboard Shortcuts
 
@@ -103,9 +108,9 @@ Although a field is mandatory, you aren't forced to fill the field before you co
 
  Many fields have a down arrow button that you can choose. You choose the arrow to get a list of data that is available to enter in the field. The button has two functions depending on the type of field:  
 
--   Lookup - Displays information from another table that you can enter in the field. You can select one piece of data at a time.  
+- Lookup - Displays information from another table that you can enter in the field. You can select one piece of data at a time.  
 
--   Drop-down - Displays the set of options that exist for the field. You can select only one of the options.  
+- Drop-down - Displays the set of options that exist for the field. You can select only one of the options.  
 
 ## Copying and Pasting FAQ Fields and Lines
 
@@ -155,7 +160,7 @@ To open the current card or document in a new window, choose ![Open New Window.]
 > If you work in the Safari browser, a pop-up blocker may cause the new window to not open. If this is the case, specify the product URL as an allowed website. For information see, [Change preferences in Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > The same may happen in other browsers, such as Firefox. For more information, see [Pop-up blocker settings in Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Another way to multitask, is to open [!INCLUDE[prod_short](includes/prod_short.md)] on two or more browser tabs. When you do it this way, you should create a new tab and then copy/paste the URL of the original tab into the new tab. This way creates a new session.   
+Another way to multitask is to open [!INCLUDE[prod_short](includes/prod_short.md)] on two or more browser tabs. When you do it this way, you should create a new tab and then copy/paste the URL of the original tab into the new tab. This way creates a new session.   
 
 > [!NOTE]
 > Don't use the **Duplicate** function of the browser to create the new tab as this may cause actions on one tab to block actions on other tabs because they are part of the same session.
@@ -166,26 +171,26 @@ When entering numbers into quantity fields, such as the **Quantity** field on an
 
 ### Examples  
 
--   If you enter 19+19, the field is calculated to 38.  
+- If you enter 19+19, the field is calculated to 38.  
 
--   If you enter 41-9, the field is calculated to 32.  
+- If you enter 41-9, the field is calculated to 32.  
 
--   If you enter 12*4, the field is calculated to 48.  
+- If you enter 12*4, the field is calculated to 48.  
 
--   If you enter 12/4, the field is calculated to 3.  
+- If you enter 12/4, the field is calculated to 3.  
 
 ## Entering Negative Numbers
 
 You can enter negative numbers in two ways. The number -20.5 can be entered as:  
 
--   -20.5  
+- -20.5  
 
-    or
--   20.5-  
+  or
+- 20.5-  
 
- In both cases, the amount will be recorded in as -20.5.  
+In both cases, the amount will be recorded in as -20.5.  
 
- If the last character of the expression is a **+** or a **-**, the entire expression will be recorded with that sign. An example, **10-20+** will result in 10 and not -10.  
+If the last character of the expression is a **+** or a **-**, the entire expression will be recorded with that sign. An example, **10-20+** will result in 10 and not -10.  
 
 ## Entering Dates and Times
 
@@ -196,15 +201,18 @@ You can enter dates and times in all the fields that are assigned to dates (date
 
 ### Entering Dates
 
-You can either use the data picker to select a date from a calendar, or you can enter dates manually. This section provides a brief overview of how to enter dates. For more information, see [Working with Calendar Dates and Times](ui-enter-date-ranges.md).
+You can either use the data picker to select a date from a calendar, or you can enter dates manually. This section provides a brief overview of how to enter dates. For more information, see [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 For manually date entry, you can enter two, four, six, or eight digits:  
 
--   Two digits are interpreted as the day. It will add the month and the year of the work date.  
+- Two digits are interpreted as the day. It will add the month and the year of the work date.  
 
--   Four digits are interpreted as the day and the month. It will add the year of the work date.  
+- Four digits are interpreted as the day and the month. It will add the year of the work date.  
 
--   If the date you want is in the range 01/01/1930 through 12/31/2029, enter the year with two digits. Otherwise, enter the year with four digits.  
+- If the date you want is in the range 01/01/1950 through 12/31/2049, enter the year with two digits. Otherwise, enter the year with four digits.
+
+  > [!NOTE]
+  > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the two-digit year range may be different. Administrators can change the range by modifying the **CalendarTwoDigitYearMax** setting of the [!INCLUDE[prod_short](includes/prod_short.md)] server. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
 
 You can also enter a date as a weekday followed by a week number. Or, you can enter a year. For example, Mon25 or mon25 means Monday in week 25.  
 
@@ -262,14 +270,17 @@ Here are some examples.
 
 ## <a name="decimal"></a>Setting the decimal separator used by numeric keyboards
 
-When using the decimal separator key of numeric keyboard to enter data, the actual decimal separator that's entered in the field is determined by the region setting of your Business Central. You set the region in Business Central on the **My Settings** page.
+When using the decimal separator key on a numeric keypad to enter data, the actual decimal separator that's entered in the field is determined by your region setting in Business Central. Most regions use the period (.) or comma (,) symbol as a separator for decimal values, as you would typically see in currency amounts. The decimal key on your keypad adapts to your region. It's often different to the period or comma keys on the rest of your keyboard. You set the region in Business Central on the **My Settings**  page.
 
-For example, suppose you're using a numeric keyboard that uses a point (.) as the decimal separator key. But, you're entering data for a regional language that uses a comma (**,**) for the decimal separator, like Danish (Denmark) or French (France). So, you want decimals like "1.23" to be entered as "1,23". In this case, you can go to the **My Settings** page and set the **Region** to the target regional language, like **Danish (Denmark)** or **French (France)**. For more information, see [Change Basic Settings](ui-change-basic-settings.md#region).
+For example, suppose you're using a numeric keyboard that uses a period (.) as the decimal separator key. But you're entering data for a regional language that uses a comma (**,**) for the decimal separator, like French (France). So, you want decimals like "1.23" to be entered as "1,23". In this case, you can go to the **My Settings** page and set the **Region** to the target regional language to **French (France)**. For more information, see [Change Basic Settings](ui-change-basic-settings.md#region).
+
+> [!TIP]
+> There may be occasions when you want to use the decimal separator to enter a period (.). For example, suppose you were entering a date range in a filter, like `01/01/2022..04/01/2022`, or anything that requires a period. To accommodate this case, press the 'Alt+Decimal Separator' keys on the numeric keyboard. This key combination switches the decimal separator between outputting a period and the decimal separator as determined by the **Region** setting.
 
 ## See Also
 
 [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

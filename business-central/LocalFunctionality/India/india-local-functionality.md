@@ -132,7 +132,7 @@ The following topics describe the local functionality in the Indian version of [
 
 
 ## See Also
-[Working with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
 

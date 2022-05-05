@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: role explorer, find features, navigate
-ms.search.form: RoleExplorer, 9020, 9022, 9027, 9018
+ms.search.form: RoleExplorer, 9020, 9022, 9027, 9024
 ms.date: 08/01/2021
 ms.author: jswymer
 ---
@@ -18,6 +18,8 @@ ms.author: jswymer
 You can get an overview of all the business features that are available for your role, and for other roles if you go a step further. In the following documentation, this feature overview is referred to as the *role explorer*.
 
 Each element on the role explorer is an action that opens a page. Accordingly, you can also use the role explorer as a means to navigate in [!INCLUDE[prod_short](includes/prod_short.md)].
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## Open the role explorer
 
@@ -92,6 +94,6 @@ The actions that open pages are organized under nodes named after the features o
 ## See Also
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

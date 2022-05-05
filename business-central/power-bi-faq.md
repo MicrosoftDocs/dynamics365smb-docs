@@ -251,8 +251,8 @@ Some API pages, including most API v2.0 pages, have fields based on [AL Enum obj
 [Business Central and Power BI Introduction](admin-powerbi.md)  
 [Power BI Integration Overview](admin-powerbi-overview.md)  
 [Enabling Power BI in Business Central](admin-powerbi-setup.md)  
-[Working with Power BI Reports in Business Central](across-working-with-powerbi.md)  
-[Working with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md)  
+[Work with Power BI Reports in Business Central](across-working-with-powerbi.md)  
+[Work with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md)  
 [Building Power BI Reports to Display Business Central Data](across-how-use-financials-data-source-powerbi.md)    
 [Power BI documentation](/power-bi/)  
 

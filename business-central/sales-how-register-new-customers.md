@@ -84,6 +84,6 @@ You can choose not to have warnings telling you that the customer's credit limit
 [Create Number Series](ui-create-number-series.md)  
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

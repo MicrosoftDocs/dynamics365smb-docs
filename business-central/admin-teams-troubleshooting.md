@@ -152,6 +152,10 @@ When you paste text into the message box in the **Share to Teams** window, the t
 
 This problem can be caused by a various reasons. For example, the identity you are using to sign in must have access to Microsoft Teams, such as through a Microsoft 365 subscription.
 
+## My cards no longer have a popout button
+
+As of April 2022, links that are displayed as compact card in Teams will no longer contain the **Popout** button. To open that card in its own window, choose the **Details** button, then choose **Open in browser** from the ellipses menu (**...**) in the upper right corner of the window.
+
 ## See Also
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] and Microsoft Teams Integration Overview](across-teams-overview.md)  

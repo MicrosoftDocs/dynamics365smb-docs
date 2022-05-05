@@ -1,6 +1,6 @@
 ---
-    title: How to Configure New Companies | Microsoft Docs
-    description: You can configure and customize a new company that you have created. To fine tune your implementation, you proceed in three phases to complete your configuration.
+    title: Configure New Companies
+    description: You can configure and customize a new company that you have created with RapidStart Services. To fine tune your implementation, you proceed in three phases to complete your configuration.
     author: SorenGP
 
     
@@ -13,7 +13,7 @@
     ms.author: edupont
 
 ---
-# Configure New Companies
+# Configure New Companies with RapidStart Services
 To configure a new company in your solution implementation, you typically follow three phases. In the first phase, you import the configuration package, a .rapidstart file with the configuration information. In the second phase, you modify the configuration information and then apply it to your new company. In the final phase, you review and fix any errors.  
 
 The following procedures assume that you have created and saved a configuration package. For more information, see [Prepare a Configuration Package](admin-how-to-prepare-a-configuration-package.md).  

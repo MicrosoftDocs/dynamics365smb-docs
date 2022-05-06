@@ -11,8 +11,8 @@ manager:
 
 # Synchronize items and inventory
 
-Term **Items** in [!INCLUDE[prod_short](../includes/prod_short.md)] corresponds to *Products in Shopify*, which includes physical goods, digital downloads, services and gift cards that you sell.
-There are two main purposes of synchronization of items:
+Term **Items** in [!INCLUDE[prod_short](../includes/prod_short.md)] corresponds to *Products in Shopify* which includes physical goods, digital downloads, services and gift cards that you sell.
+There are two main reasons to synchronize the items:
 
 1. Master-data management is performed in [!INCLUDE[prod_short](../includes/prod_short.md)], you need to export all or some data to Shopify and make it visible. You can export item name, description, image, prices, availability, variants, vendor details, barcodes, which can become immediately visible or first reviewed and enhanced by a responsible person.
 2. When importing order from Shopify, the information about items are essential for further processing of document in [!INCLUDE[prod_short](../includes/prod_short.md)].

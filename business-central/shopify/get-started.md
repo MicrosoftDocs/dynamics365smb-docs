@@ -9,26 +9,26 @@ ms.author: andreipa
 manager: 
 ---
 
-# Getting Started
+# Get started
 
-In order to use Shopify with Business Central, you need to fullfil some requirements. This page will serve as a guide to complete the integration of your Shopify store with Business Central.
+To use Shopify with Business Central, you need to follow some steps. This page serves as a guide to complete the integration of your Shopify store with Business Central.
 
 ## Prerequisites for Shopify
 
-You need to have the following:
+You need to have:
 
 - Shopify account
-- Shopify store
+- Shopify online store
 
-To create a new Shopify Account or sign up for a free 14-day trial navigate to <https://www.shopify.com/>. For more information on how to create and personalize your online store, see <https://help.shopify.com/>.
+To create a new Shopify Account or sign-up for a free 14-day trial, navigate to <https://www.shopify.com/>. For more information on how to create and personalize your online store, see <https://help.shopify.com/>.
   
-- Additional sales channels are supported for e.g. Shopify POS.
+- Other sales channels are supported, for example, Shopify POS.
 
 ### Recommended settings
 
-- Disable **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
+- Deactivate **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
 
-For more information about Shopify settings for demo and trial scenarios, see [Test and training scenarios](scenarios.md#preparation)
+To know more about Shopify settings for demo and trial scenarios, see [Test and training scenarios](scenarios.md#preparation) 
 
 ## Prerequisites for [!INCLUDE[prod_short](../includes/prod_short.md)]
 
@@ -41,7 +41,7 @@ Extension is pre-installed for all new sign ups and trials. If you need to insta
 For existing [!INCLUDE[prod_short](../includes/prod_short.md)] this step is optional and can be skipped.
 
 1. Find [Dynamics 365 Business Central](https://apps.shopify.com/dynamics-365-business-central) app on the [Shopify AppStore](https://apps.shopify.com/)
-2. Choose **Add App** button. Login into your Shopify account if prompted. Select online shop if you have more than one.
+2. Choose **Add App** button. Sign-in into your Shopify account if prompted. Select online shop if you've more than one.
 3. After reviewing privacy and permissions, choose **Install App** button.
   You can find and open installed **Dynamics 365 Business Central** app in the **Apps** section on the sidebar of **Shopify admin**.
 4. Choose **Sign up now** to start [!INCLUDE[prod_short](../includes/prod_short.md)] trial or **Sign in** if you already have [!INCLUDE[prod_short](../includes/prod_short.md)]. You'll be redirected to your [!INCLUDE[prod_short](../includes/prod_short.md)] at <https://businesscentral.dynamics.com/>.
@@ -52,16 +52,16 @@ For existing [!INCLUDE[prod_short](../includes/prod_short.md)] this step is opti
 1. Go to search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop** and choose the related link.
 2. Choose the **New** action.  
 3. Fill in the **Code** field.  
-4. Fill in **Shopify URL** field with URL to online shop you want to connect to.
-5. Activate **Enabled** toggle, review and accept terms and conditions.
-6. Choose the **Request Access** action.5. Choose the **Request Access** action.
-7. If prompted login into your Shopify account, review privacy and permissions details and choose **Install App** button.
- 
+4. Type URL in **Shopify URL** field to online shop you want to connect to.
+5. Activate **Enabled** toggle, review and accept, terms and conditions.
+6. Choose the **Request Access** action.
+7. If prompted, sign-in into your Shopify account, review privacy and permissions and choose **Install App** button.
+
 Repeat steps 2-7 for all online shops you want to connect.
 
 ### Next steps
 
-Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_short.md)]. In next steps you will define how and what to synchronize.
+Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_short.md)]. In next steps, you'll define how and what to synchronize.
 
 - [Synchronize Items](synchronize-items.md)
 - [Synchronize Customers](synchronize-customers.md)

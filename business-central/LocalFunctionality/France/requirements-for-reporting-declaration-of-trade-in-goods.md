@@ -3,7 +3,7 @@ title: Requirements for Reporting Declaration of Trade in Goods [FR]
 description: This article shows a list of required fields that are needed for reporting Declaration of Trade in Goods (DEB) based on the DTI+ format in the French version of Business Central.
 author: SorenGP
 
-    
+
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -41,15 +41,15 @@ For France, Intrastat management implies to separate the declaration data for th
 
     The **Export DEB DTI** runs. You must specify the obligation level that you want to report. The **Transaction Specification Filter** field on the request page has a predefined value that depends on the specified obligation level. The value of this field is a filter that is applied to the **Transaction Specification** field of the Intrastat journal lines.  
 
-    When the report is run, only Intrastat journal lines with a value of the **Transaction Specification** field that matches the **Transaction Specification Filter** field are processed. The field **Transaction Specification Filter** is editable, so you can change its value according to your needs. The following table outlines the currently supported values:
+When the report is run, only Intrastat journal lines with a value of the **Transaction Specification** field that matches the **Transaction Specification Filter** field are processed. The field **Transaction Specification Filter** is editable, so you can change its value according to your needs. The following table outlines the currently supported values:
 
-    |Level|Filter|  
-    |----------|--------|  
-    |**Obligation Level 1**|11|19|21|29|  
-    |**Obligation Level 2**| “” (a blank filter, so that all Intrastat journal lines are processed)|  
-    |**Obligation Level 3**| “” |  
-    |**Obligation Level 4**|<>29&<>11&<>19 (lines with Transaction Specification 29, 11, 19 are not processed)|  
-    |**Obligation Level 5**|<>11&<>19|  
+| Level | Filter |
+|--|--|
+| **Obligation Level 1** | 11 | 19 | 21 | 29 |
+| **Obligation Level 2** | “” (a blank filter, so that all Intrastat journal lines are processed) |
+| **Obligation Level 3** | “” |
+| **Obligation Level 4** | `<>29&<>11&<>19` (lines with Transaction Specification 29, 11, 19 are not processed) |
+| **Obligation Level 5** | `<>11&<>19` |
 
 ## Validate Intrastat lines
 

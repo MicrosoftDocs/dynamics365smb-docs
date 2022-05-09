@@ -45,7 +45,7 @@ When the report is run, only Intrastat journal lines with a value of the **Trans
 
 | Level | Filter |
 |--|--|
-| **Obligation Level 1** | 11 | 19 | 21 | 29 |
+| **Obligation Level 1** | `11 | 19 | 21 | 29` |
 | **Obligation Level 2** | “” (a blank filter, so that all Intrastat journal lines are processed) |
 | **Obligation Level 3** | “” |
 | **Obligation Level 4** | `<>29&<>11&<>19` (lines with Transaction Specification 29, 11, 19 are not processed) |

@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 737, 738, 10601, 10604
+ms.search.form: 737, 738, 743, 10601, 10604
 ms.date: 01/31/2022
 ms.author: edupont
 
@@ -98,18 +98,31 @@ To make it easier to set up VAT reporting, [!INCLUDE[prod_short](../../includes/
 > In addition to the settings described above, we automatically create a VAT report configuration for submitting returns and getting responses. You can view the configuration on the **VAT Reports Configuration** page.
 
 ## Create and Submit a VAT Return
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Returns**, and then choose the related link.
-2. Choose **New**.
-3. In the **Version** field, choose **Elec VAT**.
-4. Optional: In the **KID** field, specify a payment identification number.
-5. Choose **Suggest Lines** to open the **VAT Report Request Page** page, where you specify criteria for generating lines for the report.
+### VAT Report Setup
+1. To set up a VAT report, choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report Setup**, and then choose the related link. 
+2. On the General FastTab, select the **Allow Modification** check box to let users modify VAT reports that have been submitted to the tax authorities. If the field is left blank, users must create a corrective or supplementary VAT report instead. 
+3. On the General FastTab, select the **Report VAT Base** check box if the VAT base must be calculated and shown to the user in the VAT reports. 
+4. On the General FastTab, select the **Report VAT Note** check box to make **VAT Note** field available for reporting from the VAT Return page. 
+5. On the Numbering FastTab, specify the number series that will be used for standard VAT reports. This will be the default numbering series that is used on any VAT Report that you then create. 
+6. On the Return Period and VAT Groum Management FastTabs, specify information for the fields. 
+7. Choose the OK button. 
+
+### VAT Return
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Returns**, and then choose the related link. 
+2. Choose **New**. 
+3. In the **Version** field, choose **Elec VAT**. 
+4. Optional: In the **KID** field, specify a payment identification number. 
+5. Choose **Suggest Lines** to open the **VAT Report Request Page** page, where you specify criteria for generating lines for the report. 
 6. After you've specified the criteria, choose **OK**.  
-7. On the **VAT Settlement** page, choose **Release**. This will validate that the information can be submitted to the Norwegian tax authorities.
-8. To submit the VAT return, choose **Submit**. The status of the VAT return will change to **Submitted**.
-9. To view whether the tax authorities have accepted your submission, choose **Receive Response**.
+7. On the **VAT Settlement** page, choose **Release**. This will validate that the information can be submitted to the Norwegian tax authorities. 
+8. To submit the VAT return, choose **Submit**. The status of the VAT return will change to **Submitted**. 
+9. To view whether the tax authorities have accepted your submission, choose **Receive Response**. 
 
    > [!NOTE]
    > The response from the tax authority will not be immediately available.  
+
+   > [!NOTE]
+   > If the **Report VAT Note** option on VAT Report Setup is enabled, then the **Note** field is visible and editable in the VAT Return page. Users can specify any free text there. The value of the Note field reflects in the submission message. 
 
 ## Troubleshoot Your Connection to ID-Porten
 If you do not receive a response after you submit your return, for example, within 24 hours, you can contact ID-Porten and ask them to verify that they received your return. To help them identify your return, you can send the value from the Message ID field. By default, the field is hidden, but you can use page inspection to get the value. For more information, see [Inspecting Pages in Business Central](../../across-inspect-page.md). 

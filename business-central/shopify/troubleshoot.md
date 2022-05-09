@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting
+title: Troubleshoot
 description: Learn what to do if something when wrong during synchronization of data between Shopify and Business Central
 ms.date: 03/21/2022
 ms.topic: article
@@ -10,7 +10,7 @@ manager:
 ---
 
 
-# Troubleshooting
+# Troubleshoot
 
 ## Logs
 

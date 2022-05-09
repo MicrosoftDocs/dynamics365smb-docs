@@ -12,6 +12,7 @@ manager:
 # Synchronize and fulfill sales orders
 
 ## Settings related to import of orders on the Shopify Shop Card
+
 Besides normal item, your Shopify order can have extra amounts on top, such as shipping charges or, if enabled, tips. These amounts will be posted directly to G/L Accounts. Choose G/L Account that should be used for specific transactions:
 - **Shipping Cost Account**
 - **Sold Gift Card Account**, for more information, see [Gift Card](synchronize-orders.md#gift-cards)

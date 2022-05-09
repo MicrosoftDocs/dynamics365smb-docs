@@ -1,6 +1,6 @@
 ---
-    title: SII Invoice Types in Sales and Purchase Documents
-    description: Shows the output of the various types that are used for invoices and credit memos in connection with SII and how they are implemented.
+    title: SII Setup and Invoice Types in Sales and Purchase Documents
+    description: Shows the basic SII setup and output of the various types that are used for invoices and credit memos in connection with SII and how they are implemented.
 
     author: SorenGP
 
@@ -15,6 +15,27 @@
     ms.author: edupont
 
 ---
+# SII Setup
+To enabble the SII module in Spanish version:
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SII Setup**, and then choose the related link.  
+2.  In the **General** FastTab, change to YES field **Enabled**. **Enabled** field is automatically enabled if you import certificate in field **Certificate Code** in the **Certificat** FastTab.
+3.  In the **Operation Date** field the user can choose between Posting Date or Document Date, to be used as *Operation Date* in the XML sent via SII to the Tax Authorities.
+4.  If you want to submit documents in batches you need to enable the  **Enable Batch Submission** field and to choose how you want to submit them in the **Job Batch Submission Threshold** field, where you can specifiy the minimal number of pending history records for the batch submission.
+    > [!NOTE]  
+    > You can use enabling batch submissions of documents as the following:
+    > - When you enable batch submissions you can either manually submit document in batches or automatically.
+    > - Not enabled: each document is submitted when you post the document, and the result is shown in the **SII History** page.
+    > - Automatically: Documents are transferred to **SII History** with **Status** = Pending when you post them and submitted in batches when threshold value is met or exceeded, see info on **Job Batch Submission Threshold** below.
+
+    > [!NOTE]  
+    > If you want to use **Job Batch Submission Threshold** you shoul now the following:
+    > - Specify the threshold number of documents with status = Pending that will trigger an automatic batch submission.
+    > - **Enabled** and **Enabled Batch submission** must both be set to Yes for the threshold value to have effect.
+    > -- If Threshold = 0, documents will be submitted in *single* submission mode, which means that they will be submitted when you post the document.
+    > -- If Threshold > 0 it is used for batch submission. If number of pending entries exceeds the threshold value the system submits ALL pending auto entries.
+    > -- User can always manually submit documents while they are Status = Pending (Retry, Retry All).
+5. Configure other fields, import valid certificate, and configure endpoints with targeted URLs.
+
 # SII - Invoice and Credit Memo Types in Sales and Purchase Documents
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] supports the Spanish SII requirements for VAT reporting (Immediate Information Supply).  

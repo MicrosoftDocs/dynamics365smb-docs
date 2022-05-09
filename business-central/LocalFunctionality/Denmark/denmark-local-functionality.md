@@ -22,6 +22,7 @@ The following topics describe the local functionality in the Danish version of [
 * VAT
     * [Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md) **Available Now**
     * [VAT-VIES Reporting](vat-vies-reporting.md) **Available Now**
+    * [VAT Registration Number Setup for Intrastat](vat-registration-no-intrastat.md)  
 
 * Banking & Payments
     * [FIK Details in the Payment Reconciliation Journal](fik-details-in-the-payment-reconciliation-journal.md) **Available Now**

@@ -721,6 +721,76 @@
             "source_path": "business-central/LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md",
             "redirect_url": "/dynamics365/business-central/localfunctionality/unitedstates/how-to-set-up-use-tax-and-purchase-tax",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/admin-apply-configuration-to-new-companies.md",
+            "redirect_url": "/dynamics365/business-central/dev-itpro/administration/apply-standard-company-configuration-packages",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/admin-gather-customer-setup-values.md",
+            "redirect_url": "/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/admin-how-to-configure-a-company-with-the-rapidstart-wizard.md",
+            "redirect_url": "/dynamics365/business-central/dev-itpro/administration/apply-standard-company-configuration-packages",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/admin-how-to-configure-new-companies.md",
+            "redirect_url": "/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/admin-how-to-create-a-new-company.md",
+            "redirect_url": "/dynamics365/business-central/dev-itpro/administration/apply-standard-company-configuration-packages",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/admin-how-to-copy-data-to-new-companies.md",
+            "redirect_url": "/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/admin-how-to-create-journal-opening-balances.md",
+            "redirect_url": "/dynamics365/business-central/dev-itpro/administration/apply-standard-company-configuration-packages",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/admin-how-to-manage-company-configuration-in-a-worksheet.md",
+            "redirect_url": "/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/admin-how-to-prepare-a-configuration-package.md",
+            "redirect_url": "/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/admin-migrate-customer-data.md",
+            "redirect_url": "/dynamics365/business-central/dev-itpro/administration/apply-company-configuration-packages",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/admin-set-up-a-company-with-rapidstart.md",
+            "redirect_url": "/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/admin-set-up-company-configuration.md",
+            "redirect_url": "/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/admin-tips-and-tricks-rapidstart-services.md",
+            "redirect_url": "/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/admin-use-templates-to-prepare-customer-data-for-migration.md",
+            "redirect_url": "/dynamics365/business-central/dev-itpro/administration/apply-company-configuration-packages",
+            "redirect_document_id": false
         }
 
     ]

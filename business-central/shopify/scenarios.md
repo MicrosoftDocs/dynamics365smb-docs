@@ -12,6 +12,8 @@ manager:
 
 # Test and training scenarios
 
+This section demonstrates common scenarios and walks you through the steps to test or train the users on workflow of integrated Business Central and Shopify store.
+
 ## Preparation
 
 Start by creating an Azure Active Directory tenant and get administration log-in and password. For more information, see [Preparing demonstrations of [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md), steps 1-6. You can stop once you get the administrator account that you got as part of your demo account, typically something like *admin@CRMbc123456.onmicrosoft.com*.
@@ -73,7 +75,7 @@ Configure location mapping:
 
 ## Walk-through: Start selling products online
 
-### Scenario 
+### Scenario
 
 Let's say, you want to try Shopify as an online store without spending much time on setting up things, especially because you already maintain your items in [!INCLUDE[prod_short](../includes/prod_short.md)] properly. Once you launched your Shopify online store, you immediately get new customers, who are happy and satisfied with your shop and their buying experience. So, they decide to leave some tips at checkout.
 

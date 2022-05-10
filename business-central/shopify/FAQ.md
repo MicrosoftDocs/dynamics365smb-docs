@@ -19,4 +19,3 @@ That will be changed in the future. No exact date available.
 ## Contribution
 
 This extension is open for contribution by community.
-

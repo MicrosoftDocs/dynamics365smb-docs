@@ -12,6 +12,8 @@ manager:
 
 # Troubleshoot
 
+It's possible to run into situations where you need to troubleshoot issues. This page defines steps to troubleshoot some common scenarios that may arise.
+
 ## Logs
 
 If a synchronization task fails, you can activate logging by enabling **Log Enable** toggle in the **Shopify Shop Card**. Manually trigger synchronization task and review logs.

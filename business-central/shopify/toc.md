@@ -8,7 +8,7 @@
 
 # [Run tasks in background](background.md)
 
-# [Troubleshooting](troubleshooting.md)
+# [Troubleshoot](troubleshoot.md)
 
 # [Test and training scenarios](scenarios.md)
 

@@ -11,7 +11,7 @@ manager:
 
 # Run tasks in background
 
-An extension will grant the ability to perform some tasks in the background. Two modes are supported:
+You can perform some tasks in the background. Two modes are supported:
 
 - Manually triggered task is scheduled immediately via **Job Queue Entries**
 - Recurring tasks are scheduled in **Job Queue Entries**

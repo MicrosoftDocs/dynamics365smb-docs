@@ -14,12 +14,12 @@ manager:
 Term **Items** in [!INCLUDE[prod_short](../includes/prod_short.md)] corresponds to products in Shopify, which includes physical goods, digital downloads, services, and gift cards that you sell.
 There are two main reasons to synchronize the items:
 
-1. Master-data management is performed in [!INCLUDE[prod_short](../includes/prod_short.md)], you need to export all or some data to Shopify and make it visible. You can export item name, description, image, prices, availability, variants, vendor details, and barcodes. Once imported, the items can become immediately visible or they can be reviewed and enhanced by a responsible person first.
+1. Primarily, the data management is performed in [!INCLUDE[prod_short](../includes/prod_short.md)], you need to export all or some data to Shopify and make it visible. You can export item name, description, image, prices, availability, variants, vendor details, and barcodes. Once imported, the items can become immediately visible or they can be reviewed and enhanced by a responsible person first.
 2. When order from Shopify is imported, the information about items is essential for further processing of document in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 These two scenarios are always enabled.
 
-Another scenario is when master-data management is performed in Shopify and you want to import those items in bulk to [!INCLUDE[prod_short](../includes/prod_short.md)]. This scenario can be useful for data-migration scenarios, when an existing online shop needs to be connected to new [!INCLUDE[prod_short](../includes/prod_short.md)].
+Another scenario is when data is managed in Shopify and you want to import those items in bulk to [!INCLUDE[prod_short](../includes/prod_short.md)]. This scenario can be useful for data-migration scenarios, when an existing online shop needs to be connected to new [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## To define item synchronizations
 
@@ -114,7 +114,7 @@ Following settings let you manage the process of exporting items:
 Imported tags can be reviewed in the **Tags** factbox in the **Shopify Product**. To edit tags, choose **Tags** action in the **Shopify Product** page.
 If **To Shopify** option is selected in the **Sync Item** field, assigned tags are exported to Shopify at next synchronization.
 
-## Execute Item Synchronization
+## Execute item synchronization
 
 Full or partial synchronization of items can be performed in many different ways.
 

@@ -67,7 +67,7 @@ Alternatively, you can search for **Sync Orders From Shopify** batch job.
 Once import is completed, you can explore Shopify order and find all related information, such as payment transactions, shipping costs, fulfillments, risk level. You can also see order confirmation sent to the customer by choosing **Shopify Status Page** action.
 
 > [!NOTE]
-> You can navigate to the **Shopify Orders** window directly. In this case, you'll see orders from all shops, but only open. To review completed orders, you need to open **Shopify Orders** page from the specific **Shopify Shop Card** window.
+> You can navigate to the **Shopify Orders** window directly and you'll see orders with *open* status from all shops. To review completed orders, you need to open **Shopify Orders** page from the specific **Shopify Shop Card** window.
 
 ## Create sales document in [!INCLUDE[prod_short](../includes/prod_short.md)]
 
@@ -81,7 +81,7 @@ If **Auto Create Orders** toggle is enabled on **Shopify Shop Card**, the system
 4. Select order for which you want to create sales document and choose the **Create Sales Documents** action.
 5. Select Yes.
 
-If Shopify order requires fulfillment system will create **Sales Order**, for fulfilled Shopify orders, for example ones that contain only gift card, system will create **Sales Invoice**.
+If Shopify order requires fulfillment, the system will create **Sales Order** for fulfilled Shopify orders. For example, ones that contain only gift card, system will create **Sales Invoice**.
 
 A sales document is now created and can be managed by using the standard [!INCLUDE[prod_short](../includes/prod_short.md)] functionalities.
 
@@ -113,7 +113,7 @@ Order in Shopify will be marked as fulfilled. The customer automatically receive
 If a Shipping agent and a Tracking code are specified on the shipment, the tracking information is included in the email.
 
 > [!NOTE]
-> Remember to execute **Synchronize Orders from Shopify** to update fulfillment status of order in [!INCLUDE[prod_short](../includes/prod_short.md)], but also archives completely paid and fulfilled orders in both Shopify and in [!INCLUDE[prod_short](../includes/prod_short.md)]
+> Remember to execute **Synchronize Orders from Shopify** to update fulfillment status of order in [!INCLUDE[prod_short](../includes/prod_short.md)]. The system also archives completely paid and fulfilled orders in both Shopify and in [!INCLUDE[prod_short](../includes/prod_short.md)] provided the conditions are met.
 
 ### Shipping agents and tracking URL
 
@@ -131,7 +131,7 @@ If the **Package Tracking URL** field is filled in for Shipping agent record, th
 
 In the Shopify shop you can sell gift cards, which can be later used to pay for real products.
 
-When dealing with gift cards, it's important to fill in **Sold Gift Card Account** in the **Shopify Shop Card** window. The sold gift card will be synchronized together with orders as line.
+When dealing with gift cards, it's important to fill in **Sold Gift Card Account** in the **Shopify Shop Card** window. The sold gift card will be synchronized together with orders in line.
 Applied gift card will also be imported with order, but now as transaction. Notice that gift card doesn't reduce amount to invoice.
 
 To review issued and applied gift cards, choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Gift Cards**, and then choose the related link.

@@ -14,79 +14,86 @@ manager:
 
 ## Preparation
 
-Start by creating an Azure Active Directory tenant and getting administration login and password. For more information, see [Preparing demonstrations of [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md).
-You can stop at step 6, once you got the administrator account that you got as part of your demo account, typically called something like *admin@CRMbc123456.onmicrosoft.com*.
+Start by creating an Azure Active Directory tenant and get administration log-in and password. For more information, see [Preparing demonstrations of [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md), steps 1-6. You can stop once you get the administrator account that you got as part of your demo account, typically something like *admin@CRMbc123456.onmicrosoft.com*.
 
-Navigate to https://www.shopify.com/ and use this administrator account to sign for a free 14-day trial. For more information on how to create and personalize your online store, see https://help.shopify.com/.
+Navigate to <https://www.shopify.com/> and use this administrator account to sign up for a free 14-day trial. For more information on how to create and personalize your online store, see <https://help.shopify.com/>.
 
-In the **Shopify Admin** of created shop do following **Settings**:
-*	Disable **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
-*	Consider selecting *Accounts are optional* option in the **Customer accounts** section of the Checkout setting.
-*	Consider selecting *Company name - Optional* option in the **Customer information** section of the Checkout setting.
-*	Enable **Show tipping options at checkout** in the **Tipping** section of the Checkout setting, if you plan to demonstrate [Tipping scenario](TBD).
-*	Activate test payments. You have two options. Start by navigating to [**Payments**](https://www.shopify.com/admin/settings/payments) settings:
+In the **Shopify Admin** of created shop, apply following **Settings**:
+
+* Deactivate **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
+* Consider selecting *Accounts are optional* option in the **Customer accounts** section of the checkout settings.
+* Consider selecting *Company name - Optional* option in the **Customer information** section of the checkout settings.
+* Enable **Show tipping options at checkout** in the **Tipping** section of the checkout settings, if you plan to demonstrate [Tipping scenario](TBD).
+* Activate test payments. You have two options. Start by navigating to [**Payments**](https://www.shopify.com/admin/settings/payments) settings:
+
 1. *(for testing) Bogus Gateway*, for more information, see [Activate Bogus Gateway for testing](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
 2. *Shopify payments* in test mode, for more information, see [Testing Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
-* For trial stores you need to select plan in the [**Plan**](https://www.shopify.com/admin/settings/plan) setting.
+
+* For trial stores, select plan in the [**Plan**](https://www.shopify.com/admin/settings/plan) settings.
 
 >[!Important]
->To avoid payments, remeber to cancel your Shopify trial.
+>To avoid payments, remember to cancel your Shopify trial.
 
-Install **Dynamics 365 Business Central** app to your Shopify online store
+Install **Dynamics 365 Business Central** app in your Shopify online store.
+
 1. Find [Dynamics 365 Business Central](https://apps.shopify.com/dynamics-365-business-central) app on the [Shopify AppStore](https://apps.shopify.com/).
-2. Choose **Add App** button. Login into your Shopify account if prompted. 
-3. Review privacy and permissions details and choose **Install App** button. You can find and open installed **Dynamics 365 Business Central** app in the Apps section on the sidebar of **Shopify admin**.
+2. Choose **Add App** button. Sign in into your Shopify account if prompted.
+3. Review privacy and permissions, and choose **Install App** button. You can find and open installed **Dynamics 365 Business Central** app in the Apps section on the sidebar of **Shopify admin**.
 4. Choose **Sign up now** to start [!INCLUDE[prod_short](../includes/prod_short.md)] trial, use administrator account.
 
-In created [!INCLUDE[prod_short](../includes/prod_short.md)] do following:
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
+In created [!INCLUDE[prod_short](../includes/prod_short.md)] account, do following steps:
+
+1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Choose the **New** action.
 3. Fill *DEMO1* in the **Code** field.
 4. Fill in **Shopify URL** field with URL to online shop you want to connect to.
 5. Activate **Enabled** toggle, review and accept terms and conditions.
 6. Choose the **Request Access** action.
 
-Configure Shopify shop as describen below:
+Configure Shopify shop as described below:
+
 1. Enable the **Log Enabled** toggle.
-2. Disable the **Allow Background Syncs** toggle.
+2. Deactivate the **Allow Background Syncs** toggle.
 3. Select **To Shopify** in the **Sync Item** field.
 4. Select **To Shopify** in the **Sync Item Images** field.
 5. Enable the **Sync Item Attributes** toggle.
 6. Enable **Inventory Tracked** toggle.
-7. Select **Deny** in the **Default Inventory Policy**
-8. Enable the **Auto Create Unknown Customers** toggle
-9. Fill in the **Customer Template Code** field with appropriate template
+7. Select **Deny** in the **Default Inventory Policy**.
+8. Enable the **Auto Create Unknown Customers** toggle.
+9. Fill in the **Customer Template Code** field with appropriate template.
 10. Fill in the **Shipping Cost Account**, the **Tip Account** with revenue account. For example, in US use *40100*.
 11. Enable the **Auto Create Orders** toggle.
 
-Configure location mapping.
+Configure location mapping:
+
 1. Choose the **Locations** action to open **Shopify Shop Locations**.
-2. Choose the **Get Shopify Locations** action to import all locations defined in the Shopify. 
+2. Choose the **Get Shopify Locations** action to import all locations defined in the Shopify.
 3. Fill in *''|EAST|MAIN* the **Location Filter**.
-4. Remove toggle from the **Disabled** field to enable inventory sync for selected Shopify location
+4. Deselect toggle from the **Disabled** field to enable inventory sync for selected Shopify location.
 
+## Walk-through: Start selling products online
 
+### Scenario 
 
-## Walkthrough: Start selling products online
-
-### Scenario
-You want try Shopify as an online store and don’t want to spend much time on setting things up, especially because you already maintain your items in [!INCLUDE[prod_short](../includes/prod_short.md)] properly. Once you configured your Shopify online store, you immidiatelly get new customer, who are so happy with your shop and buying experience, so that they decide to leave some tips at checkout.
+Let's say, you want to try Shopify as an online store without spending much time on setting up things, especially because you already maintain your items in [!INCLUDE[prod_short](../includes/prod_short.md)] properly. Once you launched your Shopify online store, you immediately get new customers, who are happy and satisfied with your shop and their buying experience. So, they decide to leave some tips at checkout.
 
 ### Steps
+
 In **[!INCLUDE[prod_short](../includes/prod_short.md)]**
 
-1.	Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and then choose the related link.
-2.	Choose the **Add Items** action.
-3.	Fill *DEMO1* in the **Shop Code** field. 
-4.	Set filter *CHAIR* on the **Item Category Code** field (add filter field if necessary).
-5.	Click **ok** and wait till initial synchronization of items and prices is competed.
-6.	Choose the **Sync Product Images** action.
-7.	Choose the **Sync Inventory** action.
+1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and choose the related link.
+2. Choose the **Add Items** action.
+3. Fill *DEMO1* in the **Shop Code** field.
+4. Set filter *CHAIR* on the **Item Category Code** field (add filter field if necessary).
+5. Click **ok** and wait until initial synchronization of items and prices is completed.
+6. Choose the **Sync Product Images** action.
+7. Choose the **Sync Inventory** action.
 
-In **Shopify online store**.
-Open product catalog. Notice:
-- Product titles, images, prices.
-- Availability indicator (sold out for out-of-stock products).
+In **Shopify online store**, open product catalog. Notice:
+
+* Product titles, images, and prices.
+* Availability indicator (sold out for out-of-stock products).
+
 Choose any product that can be sold, for example *BERLIN Swivel Chair, yellow*. Notice that description contains item attributes.
 
 Choose **Buy it now** button and proceed to checkout.
@@ -106,95 +113,103 @@ Choose **Buy it now** button and proceed to checkout.
 
 In **[!INCLUDE[prod_short](../includes/prod_short.md)]**
 
-1.	Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Orders**, and then choose the related link.
-2.	Choose the **Sync Orders From Shopify** action.
-3.	Click ok.
+1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Orders**, and choose the related link.
+2. Choose the **Sync Orders From Shopify** action.
+3. Click ok.
 
 Imported order is ready for processing.
+
 1. Select imported order to open **Shopify Order** window.
-2. Notice that new customer was created, as well as sales order.
+2. Notice that new customer and sales order is created.
 3. Explore **Risk** and **Shipping Cost** actions.
-4. Choose the **Sales Order** action to open **Sales Order** window.
-Sales order is a demand, that if necessary, with help of planning engine can be covered with Assembly, Production, or by Purchase. It also supports various warehouse handling processes with complete separation of duties. 
-4. Choose the **Reopen** action.
-5. Fill *DHL* in the **Agent** field.
-6. Fill *123456789* in the **Package Tracking No.**. 
-7. Choose the **Post** action, keep **Ship and Invoice** option, and click **Ok**.
+4. Choose the **Sales Order** action to open **Sales Order** window. Sales order is a demand, that if necessary, can be covered with assembly, production, or by purchase with the help of planning engine. It also supports various warehouse handling processes with complete separation of duties.
+5. Choose the **Reopen** action.
+6. Fill *DHL* in the **Agent** field.
+7. Fill *123456789* in the **Package Tracking No.**.
+8. Choose the **Post** action, keep **Ship and Invoice** option, and click **Ok**.
 
 Now physical and financial data is registered in [!INCLUDE[prod_short](../includes/prod_short.md)]. It’s time to notify Shopify about changes.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sync Shipments to Shopify**, and then choose the related link.
+1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sync Shipments to Shopify**, and choose the related link.
 2. Click **Ok**.
 
-In **Shopify Admin**. 
+In **Shopify Admin**.
 
 Notice that the order is now marked as *Fulfilled*. You can also review Shipment details and see Tracking URL there. If you run **Sync Orders From Shopify** again, order will be archived in both systems.
 
+## Walk-through: Invite your customers to your new online store
 
-## Walkthrough: Invite your customers to your new online store
+### Scenario 
 
-### Scenario
-After quick success with launch of your new online store, you want your current customers to start use it for placing orders.
+After a successful quick launch of your new online store, you want your current customers to visit it and start placing orders.
 
 ### Steps
+
 In **[!INCLUDE[prod_short](../includes/prod_short.md)]**
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
+
+1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the *DEMO1* Shop for which you want to synchronize customers to open the **Shopify Shop Card** page.
 3. Choose the **Sync Customers** action.
 
-In **Shopify Admin**. 
+In **Shopify Admin**.
 
 Notice that customers were imported.
-Open one of customers, notice that first name and last name are comming from the **Contact Name** field of the **Customer Card**. The company name can be found in the default address, linked to the customer.
+Open one of the customers. Notice that the first and last names of the customer are coming from the **Contact Name** field of the **Customer Card**. The company name can be found in the default address, linked to the customer.
 Choose **Send account invite** to invite customer.
 
-## Walkthrough: Fine tuning of item management
+## Walk-through: Fine tuning of item management
 
-### Scenario
-You would like to add more flexibility and control to your processes around managing of items. You want to imporove product description. You also want to add additional review steps, before products become available to end-customer.
+### Scenario 
+
+You'll like to add more flexibility and control to your processes around items management. You want to improve product description and like to add more review steps before products become available to end-customer.
 
 ### Steps
+
 In **[!INCLUDE[prod_short](../includes/prod_short.md)]**
 
 Prepare data.
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Price Group**, and then choose the related link.
-2. Add new price group. Fill *SHOPIFY* in the **Code** field. 
+
+1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Price Group**, and choose the related link.
+2. Add new price group. Fill *SHOPIFY* in the **Code** field.
 3. Close the **Customer Price Group** window.
 
-1.	Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
-2.	Select item *1896-S, Athens Desk*.
-3.	Choose **Variants** action, and add two varians *PREMIUM, Athens Desk, Premium edition* and *ESSENTIAL, Athens Desk, Essential edition*.
-4.	Choose **Extended Text**, create new extended text valid for all language codes. Fill *Shopify* in the **Description** field.
-5.	Add following description with HTML tags: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`
-6.	Choose **Sales Prices**, and add new prices:
+4. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and choose the related link.
+5. Select item *1896-S, Athens Desk*.
+6. Choose **Variants** action, and add two variants *PREMIUM, Athens Desk, Premium edition* and *ESSENTIAL, Athens Desk, Essential edition*.
+7. Choose **Extended Text**, create new extended text valid for all language codes. Fill *Shopify* in the **Description** field.
+8. Add following description with HTML tags: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`
+9. Choose **Sales Prices**, and add new prices:
 
 |Line|**Sales Type**|**Sales Code**|Type|Code|Variant Code<br>(add field via personalization)|Unit Price|
 |------|------------|------------|------------|------------|------------|------------|
 |1|Customer Price Group|SHOPIFY|Item|1896-S|ESSENTIAL|700|
 |2|Customer Price Group|SHOPIFY|Item|1896-S|PREMIUM|1000|
 
-7.	Choose **Sales Discounts**, and add new discount:
-- **Sales Type** *Customer Disc. Group*, 
-- **Sales Code** *RETAIL*, 
-- **Type** *Item*,
-- **Code** *1896-S*
-- **Unit of Measure Code** *PCS*
-- **Line Discount %** *10*
-8. Choose **Item References** and add lines
+10. Choose **Sales Discounts**, and add new discount:
+
+* **Sales Type** *Customer Disc. Group*
+* **Sales Code** *RETAIL*
+* **Type** *Item*
+* **Code** *1896-S*
+* **Unit of Measure Code** *PCS*
+* **Line Discount %** *10*
+
+11. Choose **Item References** and add lines
 
 |Line|**Reference Type**|**Reference No.**|Variant Code|
 |------|------------|------------|------------|
 |1|Barcode|77777777|ESSENTIAL|
 |2|Barcode|11111111|PREMIUM|
 
-9. Close **Item Card**.
-
-10.	Select item *1920-S, ANTWERP Conference Table*.
-11. Choose **Adjust Inventory** and fill *100* in the **New Inventory** field for locations *EAST* and *WEST*. Choose Ok.
 12. Close **Item Card**.
 
+13. Select item *1920-S, ANTWERP Conference Table*.
+14. Choose **Adjust Inventory** and fill *100* in the **New Inventory** field for locations *EAST* and *WEST*. Choose Ok.
+15. Close **Item Card**.
+
 Adjust synchronization settings.
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
+
+1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the *DEMO1* Shop for which you want to synchronize items to open Shopify Shop Card page.
 3. Select *SHOPIFY* in the **Customer Price Group** field.
 4. Select *RETAIL* in the **Customer Discount Group** field.
@@ -204,7 +219,8 @@ Adjust synchronization settings.
 8. Select **Status to Archived** in the **Action for Removed Product** field.
 
 Execute sync.
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
+
+1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the *DEMO1* Shop for which you want to synchronize items to open the **Shopify Shop Card** page.
 3. Choose the **Products** action to open **Shopify Products** window.
 4. Choose the **Add Items** action.
@@ -212,25 +228,27 @@ Execute sync.
 6. Choose the **Sync Product Images** action.
 7. Choose the **Sync Inventory** action.
 
-3 products are added. Notice status is set to *Draft*, hence items are not visible in the Shopify online store.
-1. Select line with item *1920-S, ANTWERP Conference Table*. Fill *Rectangular meeting table Antwerp, 10 seats, black* in the **SEO Title**
+Products are added. Notice status is set to *Draft*, hence items aren't visible in the Shopify online store.
+
+1. Select line with item *1920-S, ANTWERP Conference Table*. Fill *Rectangular meeting table Antwerp, 10 seats, black* in the **SEO Title**.
 2. Select *Active* in the **Status** field.
 3. Select line with item *1906-S, ATHENS, Mobile Pedestal* and choose the **Delete** action.
 
-In **Shopify Admin**. 
+In **Shopify Admin**.
 
 Notice that all products have different statuses.
-- *ANTWERP Conference Table* is *Active* because we changed status in **Shopify Product** window.
-- *ATHENS Desk* is *Draft* because we configured default status for all added products to be *Draft*.
-- *ATHENS Mobile Pedestal* is *Archived* because we configured shop to automatically assign status *Archived* for deleted products.
+
+* *ANTWERP Conference Table* is *Active* because we changed status in **Shopify Product** window.
+* *ATHENS Desk* is *Draft* because we configured default status for all added products to be *Draft*.
+* *ATHENS Mobile Pedestal* is *Archived* because we configured shop to automatically assign status *Archived* for deleted products.
 
 Notice that Inventory for ANTWERP Conference Table is 100, because we configured system to use inventory only from two locations MAIN and EAST. Inventory on other locations (WEST) is ignored.
 
-Open *ANTWERP Conference Table*, notice **Custom Type**, **Vendor**, **Weight**, **Cost per item** fields and **Search engine listing preview** section.
-Open *Athens Desk*, scroll down to **Variants** section, notice how **SKU** is populated. 
+Open *ANTWERP Conference Table*, notice **Custom Type**, **Vendor**, **Weight**, **Cost per item** fields, and **Search engine listing preview** section.
+Open *Athens Desk*, scroll down to **Variants** section, notice how **SKU** is populated.
 Choose **Edit** to review barcode and prices.
 Change status of *Athens Desk* to *Active* and choose **Preview** action.
 
 In **Shopify online store**.
 
-Open product catalog, find *ATHENS Desk*  product. Notice that different options are available. When selecting different optins prices are different. Pay attention to discount information.
+Open product catalog, find *ATHENS Desk*  product. Notice that different options are available. For different options, prices are different. Pay attention to discount information.

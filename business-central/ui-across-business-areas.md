@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9018
+ms.search.form: 9020, 9022, 9027, 9024
 ms.date: 04/01/2021
 ms.author: edupont
 
@@ -20,6 +20,8 @@ To support those business area-specific tasks, you can use a variety of general 
 
 > [!NOTE]
 > In addition to the business-related functions described in this section, you will use general UI functions every day to interact with the system. For more information, see [Work with Business Central](ui-work-product.md).
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 The following table lists these general business areas with links to topics that describe them.
 

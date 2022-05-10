@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
 
@@ -17,6 +17,8 @@ ms.author: edupont
 # Business Functionality
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides functionality for common business processes in small and mid-sized companies, mainly within wholesale and professional services. However, more complex processes, such as assembly, manufacturing, service, and directed warehouse management are also supported. [Learn how to get a free trial here](trial-signup.md).  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes standard configurations for most business processes, but you can change the configuration to suit your business' needs. From your Role Center, you can access assisted setup guides that help you configure certain scenarios and add features to [!INCLUDE[prod_short](includes/prod_short.md)]. Several areas of business functionality must be set up manually. The [Business Central quick start](quick-start-business-central.md) articles can help you take the first steps into making [!INCLUDE [prod_short](includes/prod_short.md)] your own. For more information, see [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 

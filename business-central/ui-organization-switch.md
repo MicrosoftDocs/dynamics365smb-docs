@@ -5,7 +5,7 @@ author: brentholtorf
 
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
 
@@ -21,6 +21,8 @@ ms.author: bholtorf
 > If you often switch between companies, or work with [!INCLUDE[prod_short](includes/prod_short.md)] from within another app like Microsoft Teams, it can be easy to lose track of where you are. To help you keeping track, you can add a badge that will display the company name, so you can quickly verify that you're in the right place. For more information, see [To display a company badge for quick access to company information](ui-change-basic-settings.md#badge).
 
 Depending on your browser, you can also pin the different companies to your favourites bar.  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## Switch to Another Environment
 

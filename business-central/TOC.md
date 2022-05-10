@@ -823,6 +823,7 @@
 #### VAT
 ##### [Print VAT Reconciliation Reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [VAT-VIES Reporting](LocalFunctionality/Denmark/vat-vies-reporting.md)
+##### [VAT Registration Number Setup for Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
 #### Banking & Payments
 ##### [FIK Details in the Payment Reconciliation Journal](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [The Payments and Reconciliations (DK) Extension](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -1569,6 +1570,7 @@
 ##### [Synchronize with Contacts in Outlook](admin-synchronize-outlook-contacts.md)
 ##### [Optimize Outlook](admin-outlook-optimize.md)
 ##### [Use Business Central without Outlook](admin-no-outlook.md)
+##### [FAQ](ui-outlook-addin-faq.yml)
 ### Set Up Reports
 #### [Report Selection](across-report-selections.md)
 ### Set Up Connections
@@ -1580,7 +1582,7 @@
 #### Use Microsoft Teams with Business Central
 ##### [Overview](across-teams-overview.md)
 ##### [Manage Teams Integration](admin-teams-integration.md)
-##### [Instal Business Central App for Teams](across-install-app-for-teams.md)
+##### [Install Business Central App for Teams](across-install-app-for-teams.md)
 ##### [Search for Customers, Vendors, and Contacts](across-search-contacts-teams.md)
 ##### [Share Records and Page Links in Teams](across-working-with-teams.md)
 ##### [Change Company and Other Settings](across-teams-settings.md)
@@ -1611,6 +1613,7 @@
 #### [Change from a QuickBooks App to Business Central](across-quickbooks-to-business-edition.md)
 #### [Bulk Invoicing for Microsoft Bookings](finance-bookings.md)
 #### [Import Business Data from Other Finance Systems](across-import-data-configuration-packages.md)
+### [Company Information](admin-company-information.md)
 ### [Create Number Series](ui-create-number-series.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
 ### [Set Up Printers](ui-specify-printer-selection-reports.md)

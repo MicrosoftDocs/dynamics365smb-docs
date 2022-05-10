@@ -92,7 +92,14 @@ When you enable the **New sales pricing experience** feature update on the **Fea
 > [!NOTE]
 > If prices are set only on item or resource cards, default price lists will not be filled in with those prices during feature data update. However, you can open any of default price lists or the Price Worksheet page and use the **Suggest Lines** action to add the prices set on item or resource cards. 
 
-* To use sales price lists, turn it off. Existing prices will be converted to a new price list for each combination of customer, customer group, or campaign, and the starting and ending dates and currencies. If you have many combinations, you'll have many price lists.
+* To use sales price lists, turn it off. Existing prices will be converted to a new price list for each combination of the following things: 
+
+* Customer
+* Customer group or campaign
+* Starting and ending dates
+* Currencies 
+
+If you have many combinations, you'll have many price lists.
 
 If you've already enabled the New Pricing Experience, you can create default price lists manually or specify an existing price list as the default. To set an existing price list as default, turn on the **Allow Updating Defaults** toggle on the price list. Then, on the **Sales & Receivables Setup**, **Purchase & Payables** or **Jobs Setup** pages, set the price list as the default.
 
@@ -126,13 +133,14 @@ If you want to copy sales prices, such as an individual customer's sales prices 
    > This batch job only creates suggestions and it does not implement the suggested changes. If you are satisfied with the suggestions and want to implement them, that is insert them on the **Sales Prices** page, choose the **Implement Price Changes** action on the **Sales Price Worksheet** page.
 
 #### [New Experience](#tab/new-experience/)  
+You can specify whether the new price list will use the settings from the header on the list you're copying, or the settings from the new list you're copying to. To use the settings from the price list you're copying prices to, turn on the **Use defaults from target** toggle.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Lists**, and then choose the related link. 
 2. Choose the price list to copy, and then choose **Copy Lines**.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
    > [!NOTE]
-   > You cannot have two lines that have the same settings but different prices. If that happens, a message will display when you activate a price list. You can choose the price to use by opening the list and deleting the incorrect price.  
+   > You can't have two items that have the same settings but different prices. If that happens, a message will display when you activate the price list. You can choose the price to use by opening the list and deleting the incorrect price.  
   
 ---
 
@@ -143,8 +151,8 @@ These steps differ, depending on whether your administrator has turned on the **
 
 To bulk update item prices, such as increase all prices by a percentage, you can fill in the Sales Price Worksheet page by using the following batch jobs:
 
-* **Suggest Sales Price on Wksh.** suggests changes by applying an adjustment factor to existing sales prices, or by copying existing sales price agreements to other customers, customer price groups, or sales campaigns.
-* **Suggest Item Price on Wksh.** suggests changes by applying an adjustment factor to existing unit prices on item cards, or by suggesting prices for new combinations of currency, units of measure, and so on. The unit prices on items aren't changed by this batch job.  
+* **Suggest Sales Price on Wksh.** suggests changes in one of two ways. Either by applying an adjustment factor to existing sales prices, or by copying existing sales price agreements to other customers, customer price groups, or sales campaigns.
+* **Suggest Item Price on Wksh.** suggests changes in one of two ways. Either by applying an adjustment factor to existing unit prices on item cards, or by suggesting prices for new combinations of currency, units of measure, and so on. The unit prices on items aren't changed by this batch job.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Worksheet**, and then choose the related link.  
 2. Choose the **Suggest Item Price on Wksh.** action.  
@@ -160,14 +168,14 @@ To bulk update item prices, such as increase all prices by a percentage, you can
 To update prices for multiple items, you must create a new price list, and then copy the lines from an existing price list. When you copy the lines you can use filters to specify what to copy, and you can specify an integer or decimal number in the **Adjustment Factor** field to increase or decrease prices. The price list must be in the **Draft** status. If needed, you can then deactivate the old price list.
 
 > [!NOTE]
-> You cannot have two lines that have the same settings but different prices. If that happens, a message will display when you activate a price list. You can choose the price to use by opening the list and deleting the incorrect price.  
+> You can't have two lines that have the same settings but different prices. If that happens, a message will display when you activate a price list. You can choose the price to use by opening the list and deleting the incorrect price.  
 
 ---
 
 ## Best Price Calculation
-After you record special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profits are always optimal. It calculates the best price on sales and purchase documents and on job and item journal lines.
+After you record special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates the best price on sales and purchase documents, and on job and item journal lines.
 
-The best price is the lowest permissible price with the highest permissible line discount on a given date. [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates best prices when it inserts the unit price and the line discount percentage for items on new document and journal lines.
+The best price is the lowest price with the highest line discount allowed on a given date. [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates best prices when it adds unit prices and the line discount percentages on document and journal lines.
 
 > [!NOTE]  
 > The following describes how the best price is calculated for sales. The calculation is the same for purchases.
@@ -196,7 +204,7 @@ Before you can use invoice discounts with sales, you must specify certain inform
 
 If you want invoice discounts to be calculated automatically, on the **Sales & Receivables Setup** page, turn on the **Calc Inv. Discount** toggle.  
 
-For each customer, you can specify whether you'll grant invoice discounts when an invoice meets certain criteria. For example, when the invoice amount is large enough. Invoice discounts can be in local currency for domestic customers, or in foreign currency for foreign customers.  
+You can specify whether you'll grant invoice discounts when an invoice meets certain criteria for each customer. For example, when the invoice amount is large enough. Invoice discounts can be in local currency for domestic customers, or in foreign currency for foreign customers.  
 
 You link discount percentages to specific invoice amounts on the **Cust. Invoice Discounts** page for each customer. You can enter any number of percentages. Each customer can have their own page, or you can link several customers to the same page.  
 
@@ -221,7 +229,7 @@ These steps differ, depending on whether your administrator has turned on the **
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a sales line discount to the customer.
 
 > [!Note]
-> When you open the **Sales Prices** and **Sales Line Discounts** pages from a specific customer, the **Sales Type Filter** and **Sales Code Filter** fields are set for the customer and cannot be changed or removed.
+> When you open the **Sales Prices** and **Sales Line Discounts** pages from a specific customer, the **Sales Type Filter** and **Sales Code Filter** fields are set for the customer and can't be changed or removed.
 >
 > To set up prices or line discounts for all customers, a customer price group, or a campaign, you must open the pages from an item card. Alternatively, for sales prices, use the **Sales Price Worksheet** page. For more information, see [To bulk update item prices](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 

@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 03/21/2022
+ms.date: 04/21/2022
 ms.author: jswymer
 
 ---
@@ -97,7 +97,7 @@ Your email inbox often serves as a source of incoming files that initiate or unb
 
 There's a couple ways you can attach files. One way is to upload files from your device. The other way is upload files that are attached to an email. For example, suppose you get an email with files from a contact. The add-in will automatically display the contact record that matches the email sender. From there, you can navigate to a document for the contact, like the latest sales order. Once you've identified the order that the email relates to, you quickly upload the files from the email to that order.
 
-![Shows how to add attachments from an email to records in Business Central.](media/outlook-attach-file.png)
+![Shows how to add attachments from an email to records in Business Central.](media/outlook-attach-files.png)
 
 After attaching a file, coworkers can instantly download and view the file from the **Attachments** FactBox in any of their Business Central clients. Or, they can open the file in OneDrive to share and collaborate with their department.
 

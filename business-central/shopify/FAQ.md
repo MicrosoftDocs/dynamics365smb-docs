@@ -1,15 +1,16 @@
 ---
-title: Technical details
+title: FAQ for technical details
 description: Implementation details related to extensions
-ms.date: 03/21/2022
+ms.date: 05/11/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
-manager: 
 ---
 
-# Technical details
+# FAQ for Technical Details
+
+This article contains a list of frequently asked questions.
 
 ## Extensibility
 
@@ -19,3 +20,6 @@ That will be changed in the future. No exact date available.
 ## Contribution
 
 This extension is open for contribution by community.
+
+## See Also
+

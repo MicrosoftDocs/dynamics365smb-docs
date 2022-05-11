@@ -1,5 +1,5 @@
 ---
-title: Run tasks in background 
+title: Run tasks the in background 
 description: Configure synchronization of data between Business Central and Shopify in background.
 ms.date: 03/21/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.author: andreipa
 manager: 
 ---
 
-# Run tasks in background
+# Run Tasks in the Background
 
 You can perform some tasks in the background. Two modes are supported:
 
 - Manually triggered task is scheduled immediately via **Job Queue Entries**
 - Recurring tasks are scheduled in **Job Queue Entries**
 
-## Run tasks in background for specific shop
+## Run tasks in the background for a specific shop
 
-1. Choose the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of **Shopify Shop** and choose the shop name from the list.
+1. Choose the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of **Shopify Shop** and then choose the shop name from the list.
 2. Select the Shop for which you want to synchronize items to open **Shopify Shop Card** page.
 3. Enable **Allow Background Syncs** toggle.
 
-Now when sync action is triggered, instead of task running in the foreground, it will ask you to wait. When it's completed, you can proceed to the next action. The task is created as **Job Queue Entry** and starts instantly in a non-blocking manner.
+Now, when the sync action is triggered, instead of a task running in the foreground, it will ask you to wait. When it's completed, you can proceed to the next action. The task is created as **Job Queue Entry** and starts instantly in a non-blocking manner.
 
 ## To schedule recurring tasks
 
@@ -38,3 +38,5 @@ You can schedule the following recurring activities to be performed in an automa
 |**Sync images**|Report 30107 Shopify Sync Images|
 |**Sync customers**|Report 30100 Shopify Sync Customers|
 |**Sync payments**|Report 30105 Shopify Sync Payments|
+
+## See Also

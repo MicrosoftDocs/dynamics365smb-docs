@@ -674,14 +674,14 @@
 #### [Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)
 <!--Shopify-->
 ## Online store with Shopify
-### [Get started with the Shopify connector](get-started.md)
-### [Synchronize items with Shopify](synchronize-items.md)
-### [Synchronize customers with Shopify](synchronize-customers.md)
-### [Synchronize and fulfill sales orders with Shopify](synchronize-orders.md)
-### [Run tasks in background](background.md)
-### [Troubleshoot the Shopify connector](troubleshoot.md)
-### [Test and training scenarios for the Shopify connector](scenarios.md)
-### [FAQ for the Shopify connector](FAQ.md)
+### [Get started with the Shopify connector](shopify/get-started.md)
+### [Synchronize items with Shopify](shopify/synchronize-items.md)
+### [Synchronize customers with Shopify](shopify/synchronize-customers.md)
+### [Synchronize and fulfill sales orders with Shopify](shopify/synchronize-orders.md)
+### [Run tasks in background](shopify/background.md)
+### [Troubleshoot the Shopify connector](shopify/troubleshoot.md)
+### [Test and training scenarios for the Shopify connector](shopify/scenarios.md)
+### [FAQ for the Shopify connector](shopify/FAQ.md)
 
 <!--Company Hub-->
 ## Company Hub

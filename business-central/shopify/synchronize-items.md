@@ -61,29 +61,29 @@ The following table outlines the effect of **Barcode** field.
 
 |Effect on mapping|Effect on creation|
 |-----------------|------------------|
-|System performs search among **Item References** of type Barcode for value defined in the Barcode field in Shopify. If founded item reference record contains variant code, this variant code will be used by system to map Shopify variant.|Barcode is saved as **Item Reference** for item and item variant.|
+|The System performs a search among **Item References** of type barcode for the value defined in the Barcode field in Shopify. If the found item reference record contains a variant code, this variant code will be used by the system to map the Shopify variant.|Barcode is saved as **Item Reference** for item and item variant.|
 
-> [!NOTE]
+> [!NOTE]  
 > You can trigger mapping for selected product/variants or all imported unmapped products by choosing **Try Find Product Mapping** (for selected) or **Try Find Mappings** (for all).
 
 ## Export items to Shopify
 
-Choose the elements from your item list, which will be exported to Shopify. Use **Add Item** action from the **Shopify Products** window to add items to the Shopify products list.
+Choose the elements from your item list, which will be exported to Shopify. Use the **Add Item** action from the **Shopify Products** window to add items to the Shopify products list.
 
-Following settings let you manage the process of exporting items:
+The following settings let you manage the process of exporting items:
 
 |Field|Description|
 |------|-----------|
 |**Customer Price Group**|Determine the price for an item in Shopify. The sales price of this customer price group is taken. If no group is entered, the price of the item card is used.|
 |**Customer Discount Group**|Determine the discount to be used for  calculating price of an item in Shopify. Discounted prices are stored in the **Price** field and full price is stored in the **Compare at Price** field.|
 |**Sync Item Extended Text**|Select to sync the extended text of the item. As it will be added to *Description*, it can contain HTML code. |
-|**Sync Item Attributes**|Select to sync the item attributes. Attributes are formatted as table and included into *Description* field on Shopify.|
-|**Language Code**|If selected, system will use translated versions for title, attributes, and extended text.|
-|**SKU Mapping**|Choose how you like to populate SKU field in Shopify. Supported options are:<br> - **Item No.** to use item no for both products and variants.<br> - **Item No.+ Variant Code**  to create SKU by concatenating values of two fields. For items without variants, system uses item no only.<br>- **Item Vendor No.** to use item vendor no defined in the *Item Card* for both products and variants.<br> - **Barcode** - uses **Item Reference** of barcode type. This option respects variants. |
+|**Sync Item Attributes**|Select to sync the item attributes. Attributes are formatted as a table and included into *Description* field on Shopify.|
+|**Language Code**|If selected, the system will use translated versions for title, attributes, and extended text.|
+|**SKU Mapping**|Choose how you like to populate the SKU field in Shopify. Supported options are:<br> - **Item No.** to use item no for both products and variants.<br> - **Item No.+ Variant Code**  to create a SKU by concatenating values of two fields. For items without variants, the system uses item no only.<br>- **Item Vendor No.** to use item vendor no defined in the *Item Card* for both products and variants.<br> - **Barcode** - uses **Item Reference** of barcode type. This option respects variants. |
 |**SKU Field Separator**|Define a separator for **Item. No + Variant Code** option.|
-|**Inventory Tracked**|Select how system should populate *Track Inventory* field for products exported to Shopify. You can update availability information from [!INCLUDE[prod_short](../includes/prod_short.md)] for products in Shopify whose track inventory is enabled. For more information, see [Inventory](synchronize-items.md#sync-inventory-to-shopify)|
+|**Inventory Tracked**|Select how the system should populate the **Track Inventory** field for products exported to Shopify. You can update availability information from [!INCLUDE[prod_short](../includes/prod_short.md)] for products in Shopify whose track inventory is enabled. For more information, see [Inventory](synchronize-items.md#sync-inventory-to-shopify).|
 |**Default Inventory Policy**|Select *Deny* to prevent negative stock of Shopify side. |
-|**Can Update Shopify Products**|Define if Business Central can only create items or can update items as well. Select this option, if after initial sync triggered by **Add Item** action, you plan to update products manually using **Sync Product** action or via job queue for recurring updates. Remember to select **To Shopify** in the **Item Sync** field.|
+|**Can Update Shopify Products**|Define if Business Central can only create items or can update items as well. Select this option, if after initial sync triggered by the **Add Item** action, you plan to update products manually using **Sync Product** action or via job queue for recurring updates. Remember to select **To Shopify** in the **Item Sync** field.|
 
 ### Fields mapping overview
 
@@ -95,8 +95,8 @@ Following settings let you manage the process of exporting items:
 |SEO page title|Fix value: empty, see [Ad-hock updates of Shopify Products](synchronize-items.md#ad-hock-updates-of-shopify-products). |Not used.|
 |SEO meta description|Fix value: empty, see [Ad-hock updates of Shopify Products](synchronize-items.md#ad-hock-updates-of-shopify-products). |Not used.|
 |Media|**Image**, for more information, see [Sync Item Images](synchronize-items.md#sync-item-images)|**Image**|
-|Price|End-customer price is calculated with respect to item price group, item discount group, currency code, customer template code. |Not used.|
-|Compare at price|Price without discount is calculated with respect to item price group, item discount group, currency code, customer template code. |Not used.|
+|Price|End-customer price is calculated with respect to item price group, item discount group, currency code, and customer template code. |Not used.|
+|Compare at price|Price without discount is calculated with respect to item price group, item discount group, currency code, and customer template code. |Not used.|
 |Cost per item|**Unit Cost**|**Unit Cost**|
 |SKU|See **SKU Mapping** in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify)| See [How SKU and Barcode defined in Shopify product affect mapping and creation of items and variants](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-impact-mapping-and-creation-of-items-and-variants-in-business-central)|
 |Barcode|**Item References** of barcode type|**Item References** of barcode type|
@@ -110,14 +110,14 @@ Following settings let you manage the process of exporting items:
 
 ### Tags
 
-Imported tags can be reviewed in the **Tags** factbox in the **Shopify Product**. To edit tags, choose **Tags** action in the **Shopify Product** page.
-If **To Shopify** option is selected in the **Sync Item** field, assigned tags are exported to Shopify at next synchronization.
+Imported tags can be reviewed in the **Tags** factbox in the **Shopify Product**. To edit tags, choose the **Tags** action in the **Shopify Product** page.
+If the **To Shopify** option is selected in the **Sync Item** field, assigned tags are exported to Shopify at next synchronization.
 
 ## Execute item synchronization
 
 Full or partial synchronization of items can be performed in many different ways.
 
-### Initial sync of items from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify
+### Initial sync of items from Business Central to Shopify
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products** and choose the related link.
 2. Choose the **Add Items** action.
@@ -137,7 +137,7 @@ Alternatively, use the **Sync Products** action on the **Shopify Products** wind
 
 ### Ad-hock updates of Shopify Products
 
-When the records are updated in the **Shopify Product** table, following changes are synchronized with Shopify.
+When the records are updated in the **Shopify Product** table, the following changes are synchronized with Shopify.
 
 Update:
 
@@ -146,9 +146,9 @@ Update:
 * **SEO Description**
 
 Deletion:
-Based on the value in **Action for Removed Products** in **Shopify Shop Card**, system may update product in Shopify when record is deleted from the **Shopify Products** page.
+Based on the value in **Action for Removed Products** in **Shopify Shop Card**, the system may update product in Shopify when record is deleted from the **Shopify Products** page.
 
-* **Blank** - nothing will happen. If necessary, user needs to perform required action from Shopify Admin.
+* **Blank** - nothing will happen. If necessary, the user needs to perform the required action from Shopify Admin.
 * **Status to Draft** - status of product in Shopify is set to Draft.
 * **Status to Archived** - product is archived in Shopify.
 
@@ -193,23 +193,23 @@ Prices can be exported for synchronized items in following ways:
 
 * For price calculation, it's important to have the **Default Customer Template** field filled in.
 * Remember to fill in **Currency Code** if your online shop uses different currency than LCY.
-* When determining price, system uses "Lowest price" logic. It means if unit price defined in the item card is lower than what is defined in the price group, unit price from item card is used.
+* When determining price, the system uses "Lowest price" logic. It means that if unit price defined in the item card is lower than what is defined in the price group, unit price from item card is used.
 
 ## Sync Inventory to Shopify
 
 Inventory synchronization can be configured for already synchronized items. There are two conditions that must be met:
 
-1. Inventory tracking must be enabled for product in Shopify. If items are exported to Shopify, consider enabling **Inventory Tracked** toggle in the **Shopify Shop** card. For more information, see [Export items to Shopify](synchronize-items.md#export-items-to-shopify).
-2. Inventory synch must be enabled for **Shopify Locations**
+1. Inventory tracking must be enabled for a product in Shopify. If items are exported to Shopify, consider enabling **Inventory Tracked** toggle in the **Shopify Shop** card. For more information, see [Export items to Shopify](synchronize-items.md#export-items-to-shopify).
+2. Inventory synch must be enabled for **Shopify Locations**.
 
 ### To enable inventory sync
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop** and choose the related link.
 2. Select the Shop for which you want to synchronize inventory to open **Shopify Shop Card** page.
-3. Choose the **Locations** action to open **Shopify Shop Locations**
+3. Choose the **Locations** action to open **Shopify Shop Locations**.
 4. Choose the **Get Shopify Locations** action to import all locations defined in the Shopify. You can find them in the [**Locations**](https://www.shopify.com/admin/settings/locations) settings in your **Shopify admin**.
 5. Fill in the **Location Filter** if you want to include inventory from specific locations only. For example, you can enter *EAST|WEST*, so that inventory from these two locations only is available for sales via online shop.
-6. Remove toggle from the **Disabled** field to enable inventory sync for selected Shopify locations
+6. Remove toggle from the **Disabled** field to enable inventory sync for selected Shopify locations.
 
 You can initialize inventory synchronization in two ways.
 
@@ -226,6 +226,10 @@ You can initialize inventory synchronization in two ways.
 
 ### Inventory remarks
 
-* System calculates the **Projected Available Balance** and export it to Shopify.
-* You can inspect the stock information received from Shopify in the **Shopify Inventory Factbox** page. In this factbox, you get an overview of the Shopify Stock and the last calculated inventory in Business Central. There's a record per location.
+* The system calculates the **Projected Available Balance** and export it to Shopify.
+* You can inspect the stock information received from Shopify in the **Shopify Inventory Factbox** page. In this factbox, you get an overview of the Shopify Stock and the last calculated inventory in [!INCLUDE[prod_short](../includes/prod_short.md)]. There's a record per location.
 * If Stock information in Shopify is different from **Projected Available Balance** in [!INCLUDE[prod_short](../includes/prod_short.md)], then Stock will be updated in Shopify.
+
+## See Also
+
+[Get Started with the Connector for Shopify](get-started.md)  

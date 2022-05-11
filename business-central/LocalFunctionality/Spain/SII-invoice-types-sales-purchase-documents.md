@@ -11,7 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.search.form: 10751, 10752, 10753, 10770, 10771
-    ms.date: 04/01/2021
+    ms.date: 04/21/2022
     ms.author: edupont
 
 ---
@@ -39,7 +39,7 @@ The following table shows the output of the various types that are used for invo
 |--|--|--|
 |F1|Invoice|Same structure as sales invoice, type F1, but with negative values|
 |F2|Simplified invoice (ticket)|Same structure as sales invoice type F2, but with negative values|
-|F3|Invoice issued to replace simplified invoices issued and filed|Not supported|
+|F3|Invoice issued to replace simplified invoices issued and filed|Same structure as sales invoice type F3, but with negative values|
 |F4|Invoice summary entry|Not supported|
 |R1|Corrected invoice (Error based on Art. 80.1, 80.2, and 80.6 LIVA)|Normal credit memo|
 |R2|Corrected invoice (Art. 80.3)|Same as normal credit memo|

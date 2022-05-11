@@ -1,12 +1,12 @@
 ---
 title: Run tasks the in background 
 description: Configure synchronization of data between Business Central and Shopify in background.
-ms.date: 03/21/2022
+ms.date: 05/11/2022
 ms.topic: article
 ms.service: dynamics365-business-central
+ms.reviewer: solsen
 author: edupont04
 ms.author: andreipa
-manager: 
 ---
 
 # Run Tasks in the Background
@@ -40,3 +40,5 @@ You can schedule the following recurring activities to be performed in an automa
 |**Sync payments**|Report 30105 Shopify Sync Payments|
 
 ## See Also
+
+[Get Started with the Connector for Shopify](get-started.md)  

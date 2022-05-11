@@ -10,7 +10,7 @@ ms.author: andreipa
 
 # FAQ for Technical Details
 
-This article contains a list of frequently asked questions.
+This article contains a list of frequently asked questions for the Shopify connector.
 
 ## Extensibility
 
@@ -23,3 +23,4 @@ This extension is open for contribution by community.
 
 ## See Also
 
+[Get Started with the Connector for Shopify](get-started.md)  

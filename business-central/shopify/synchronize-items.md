@@ -1,25 +1,24 @@
 ---
 title: Synchronize items and inventory
-description: Set up and execute synchronizations of items between Shopify and Business Central
-ms.date: 03/21/2022
+description: Set up and run synchronizations of items between Shopify and Business Central
+ms.date: 05/11/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
-manager: 
+ms.reviewer: solsen
 ---
 
-# Synchronize items and inventory
+# Synchronize Items and Inventory
 
-Term **Items** in [!INCLUDE[prod_short](../includes/prod_short.md)] corresponds to products in Shopify, which includes physical goods, digital downloads, services, and gift cards that you sell.
-There are two main reasons to synchronize the items:
+The term **Items** in [!INCLUDE[prod_short](../includes/prod_short.md)] corresponds to products in Shopify, which includes physical goods, digital downloads, services, and gift cards that you sell. There are two main reasons to synchronize the items:
 
 1. Primarily, the data management is performed in [!INCLUDE[prod_short](../includes/prod_short.md)], you need to export all or some data to Shopify and make it visible. You can export item name, description, image, prices, availability, variants, vendor details, and barcodes. Once imported, the items can become immediately visible or they can be reviewed and enhanced by a responsible person first.
-2. When order from Shopify is imported, the information about items is essential for further processing of document in [!INCLUDE[prod_short](../includes/prod_short.md)].
+2. When an order from Shopify is imported, the information about items is essential for further processing of document in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 These two scenarios are always enabled.
 
-Another scenario is when data is managed in Shopify and you want to import those items in bulk to [!INCLUDE[prod_short](../includes/prod_short.md)]. This scenario can be useful for data-migration scenarios, when an existing online shop needs to be connected to new [!INCLUDE[prod_short](../includes/prod_short.md)].
+Another scenario is when data is managed in Shopify and you want to import those items in bulk to [!INCLUDE[prod_short](../includes/prod_short.md)]. This scenario can be useful for data migration scenarios, when an existing online shop needs to be connected to a new [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## To define item synchronizations
 
@@ -34,29 +33,29 @@ Another scenario is when data is managed in Shopify and you want to import those
 
 ## Import items from Shopify
 
-Either you import items from Shopify in bulk or together with import of orders, these items are added to the **Shopify Product** and **Shopify Variant** tables first. Following settings let you manage the process:
+Either you import items from Shopify in bulk or together with import of orders, these items are added to the **Shopify Product** and **Shopify Variant** tables first. The following settings let you manage the process:
 
 |Field|Description|
 |------|-----------|
-|**Auto create unknown items**|When shopify products and variants are imported to [!INCLUDE[prod_short](../includes/prod_short.md)], system always tries to find matching record in the item list first. **SKU Mapping** impacts how system performs matching and creates new item and/or item variant. For more information, see [Product Mapping](synchronize-items.md#). Enable this option if you want to create a new item or when the system couldn't find a matching record. New item will be created using imported data and **Item Template Code**. If this option isn't enabled, you'll need to create an item manually and use **Map Product** action from **Shopify Products** page.|
-|**Item Template Code**|Used together with **Auto create unknown items**. <br> Choose template to be used for automatically created items.|
+|**Auto create unknown items**|When shopify products and variants are imported to [!INCLUDE[prod_short](../includes/prod_short.md)], the system always tries to find matching record in the item list first. **SKU Mapping** impacts how system performs matching and creates new item and/or item variant. For more information, see [Product Mapping](synchronize-items.md#). Enable this option if you want to create a new item or when the system couldn't find a matching record. The new item will be created using imported data and **Item Template Code**. If this option isn't enabled, you'll need to create an item manually and use **Map Product** action from **Shopify Products** page.|
+|**Item Template Code**|Used together with **Auto create unknown items**. <br> Choose the template to be used for automatically created items.|
 |**SKU Mapping**|Choose how you want to use **SKU** value imported from Shopify during item/variant mapping and creation. For more information, see [How SKU and Barcode defined in Shopify product affects mapping and creation of items and variants](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
-|**SKU Field Separator**|Used together with **SKU Mapping** set to **Item. No + Variant Code** option.<br> Define a separator that system should use to split SKU. <br>For example: if in Shopify you create the variant with SKU '1000/001', fill '/' in the **SKU Field Separator** field to get the item number in [!INCLUDE[prod_short](../includes/prod_short.md)] as '1000' and the item variant code as '001'.
-|**Variant Prefix**|Used together with **SKU Mapping** set to **Variant Code** or **Item. No + Variant Code** options as fallback strategy when SKU coming from Shopify is empty.<br>If you want system to create item variant in [!INCLUDE[prod_short](../includes/prod_short.md)], you'll need to fill in **Code**. By default, the system uses value defined in the SKU field imported from Shopify. However if SKU is empty, it will generate code starting with defined variant prefix and "001".|
-|**Shopify Can Update Item**|Select if you want system automatically update items and/or variants.|
+|**SKU Field Separator**|Used together with **SKU Mapping** set to **Item. No + Variant Code** option.<br> Define a separator that system should use to split SKU. <br>For example, if in Shopify you create the variant with SKU '1000/001', fill '/' in the **SKU Field Separator** field to get the item number in [!INCLUDE[prod_short](../includes/prod_short.md)] as '1000' and the item variant code as '001'.
+|**Variant Prefix**|Used together with **SKU Mapping** set to **Variant Code** or **Item. No + Variant Code** options as fallback strategy when the SKU coming from Shopify is empty.<br>If you want the system to create the item variant in [!INCLUDE[prod_short](../includes/prod_short.md)], you'll need to fill in **Code**. By default, the system uses the value defined in the SKU field imported from Shopify. However, if the SKU is empty, it will generate code starting with defined variant prefix and "001".|
+|**Shopify Can Update Item**|Select if you want the system to automatically update items and/or variants.|
 
-### How SKU and Barcode defined in Shopify product affects mapping and creation of items and variants in [!INCLUDE[prod_short](../includes/prod_short.md)]
+### How SKU and barcode defined in Shopify product affects mapping and creation of items and variants in Business Central
 
-When products are imported from Shopify to **Shopify Products** and **Shopify Variants** tables, system tries to find existing records. The following table outlines the difference among the options in the **SKU Mapping** field.
+When products are imported from Shopify to **Shopify Products** and **Shopify Variants** tables, the system tries to find existing records. The following table outlines the difference among the options in the **SKU Mapping** field.
 
 |Option|Effect on mapping|Effect on creation|
 |------|-----------------|------------------|
-|**Blank**|SKU field isn't used in item mapping routine.|No effect on creation of item. <br>Prevents creation of variants. It's useful when in sales order, only main item is used. A variant can still be mapped manually from **Shopify Product** window.|
-|**Item No.**|Select if SKU field contains item no.|No effect on creation of item without variants. For item with variants, each variant is created as a separate item.<br> For example: if Shopify has a product with two variants and their SKUs are '1000' and '2000', in [!INCLUDE[prod_short](../includes/prod_short.md)] system will create two items with numbers '1000' and '2000'.|
-|**Variant Code**|SKU field isn't used in item mapping routine.|No effect on creation of item. When an item variant is created, system uses value of SKU field as Code. If SKU is empty, the system generates code using **Variant Prefix** field.|
-|**Item No. + Variant Code**| Select if SKU field contains item no. and item variant code separated by value defined in the **SKU Field Separator** field.|When an item is created, system uses first part of value of SKU field as **No.**. If SKU is empty, the system generates item no using number series defined in the **Item Template Code** or **Item Nos.** from the **Inventory Setup** window.<br>When an item is created, variant system uses the second part of value of SKU field as **Code**. If SKU is empty, the system generates code using **Variant Prefix** field.|
-|**Vendor Item No.**| Select if SKU field contains vendor item no. Note that system won't use **Item Vendor No.** in the **Item card** window, but **Vendor Item No.** from the **Item Vendor Catalog**. If founded *Item Vendor Catalog* record contains variant code, the system will use this variant code to map Shopify variant.|If corresponding vendor exists in [!INCLUDE[prod_short](../includes/prod_short.md)], the SKU value will be used as **Vendor Item No.** in the **Item Card** and as **Item Reference** of type Vendor. <br>Prevents creation of variants. It's useful when in sales order, you want to use main item only. You still will be able to map variant manually from **Shopify Product** window.|
-|**Barcode**| Select if SKU field contains barcode. System will perform search among **Item References** of type Vendor. If founded Item Reference record contains variant code, this variant code will be used by system to map Shopify variant.|No effect on creation of item. <br>Prevents creation of variants. It can be useful if in sales order, only main item is used. A variant can still be mapped manually from **Shopify Product** window.|
+|**Blank**|The SKU field isn't used in item mapping routine.|No effect on creation of the item. <br>Prevents creation of variants. It's useful when in sales order, only main item is used. A variant can still be mapped manually from **Shopify Product** window.|
+|**Item No.**|Select if the SKU field contains the item no.|No effect on creation of item without variants. For an item with variants, each variant is created as a separate item.<br> For example, if Shopify has a product with two variants and their SKUs are '1000' and '2000', in [!INCLUDE[prod_short](../includes/prod_short.md)] system will create two items with numbers '1000' and '2000'.|
+|**Variant Code**|The SKU field isn't used in the item mapping routine.|No effect on creation of the item. When an item variant is created, the system uses value of the SKU field as Code. If the SKU is empty, the system generates code using the **Variant Prefix** field.|
+|**Item No. + Variant Code**| Select if the SKU field contains an item no. and the item variant code separated by value defined in the **SKU Field Separator** field.|When an item is created, the system uses the first part of the value of the SKU field as **No.**. If the SKU is empty, the system generates an item no using number series defined in the **Item Template Code** or **Item Nos.** from the **Inventory Setup** window.<br>When an item is created, the variant system uses the second part of value of the SKU field as **Code**. If the SKU is empty, the system generates code using the **Variant Prefix** field.|
+|**Vendor Item No.**| Select if the SKU field contains the vendor item no. Note that the system won't use **Item Vendor No.** in the **Item card** window, but **Vendor Item No.** from the **Item Vendor Catalog**. If the found *Item Vendor Catalog* record contains a variant code, the system will use this variant code to map the Shopify variant.|If a corresponding vendor exists in [!INCLUDE[prod_short](../includes/prod_short.md)], the SKU value will be used as **Vendor Item No.** in the **Item Card** and as **Item Reference** of type Vendor. <br>Prevents creation of variants. It's useful when you want to use main item only in the sales order. You will still be able to map a variant manually from **Shopify Product** window.|
+|**Barcode**| Select if the SKU field contains a barcode. The system will perform a search among **Item References** of type Vendor. If the found Item Reference record contains a variant code, this variant code will be used by the system to map the Shopify variant.|No effect on creation of the item. <br>Prevents creation of variants. It can be useful if only main item is used in the sales order. A variant can still be mapped manually from **Shopify Product** window.|
 
 The following table outlines the effect of **Barcode** field.
 

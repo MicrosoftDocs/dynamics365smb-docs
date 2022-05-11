@@ -1,58 +1,57 @@
 ---
 title: Test and training scenarios
-description: In this walkthrough, we take you through various integration scenarios between Shopify and Business Central
-ms.date: 03/21/2022
+description: In this walkthrough, we take you through various integration scenarios between Shopify and Business Central.
+ms.date: 05/11/2022
 ms.topic: article
 ms.service: dynamics365-business-central
+ms.reviewer: solsen
 author: edupont04
 ms.author: andreipa
-manager: 
 ---
 
 
-# Test and training scenarios
+# Test and Training Scenarios
 
-This section demonstrates common scenarios and walks you through the steps to test or train the users on workflow of integrated Business Central and Shopify store.
+This section demonstrates common scenarios and walks you through the steps to test or train the users on the workflow of the integrated [!INCLUDE[prod_short](../includes/prod_short.md)] and Shopify store.
 
 ## Preparation
 
 Start by creating an Azure Active Directory tenant and get administration log-in and password. For more information, see [Preparing demonstrations of [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md), steps 1-6. You can stop once you get the administrator account that you got as part of your demo account, typically something like *admin@CRMbc123456.onmicrosoft.com*.
 
-Navigate to <https://www.shopify.com/> and use this administrator account to sign up for a free 14-day trial. For more information on how to create and personalize your online store, see <https://help.shopify.com/>.
+Navigate to [Shopify](https://www.shopify.com) and use this administrator account to sign up for a free 14-day trial. For more information on how to create and personalize your online store, see [Shopify Help](https://help.shopify.com/).
 
-In the **Shopify Admin** of created shop, apply following **Settings**:
+In the **Shopify Admin** of the created shop, apply following **Settings**:
 
 * Deactivate **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
-* Consider selecting *Accounts are optional* option in the **Customer accounts** section of the checkout settings.
-* Consider selecting *Company name - Optional* option in the **Customer information** section of the checkout settings.
-* Enable **Show tipping options at checkout** in the **Tipping** section of the checkout settings, if you plan to demonstrate [Tipping scenario](TBD).
-* Activate test payments. You have two options. Start by navigating to [**Payments**](https://www.shopify.com/admin/settings/payments) settings:
-
-1. *(for testing) Bogus Gateway*, for more information, see [Activate Bogus Gateway for testing](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
-2. *Shopify payments* in test mode, for more information, see [Testing Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
+* Consider selecting the *Accounts are optional* option in the **Customer accounts** section of the checkout settings.
+* Consider selecting the *Company name - Optional* option in the **Customer information** section of the checkout settings.
+* Enable the **Show tipping options at checkout** option in the **Tipping** section of the checkout settings, if you plan to demonstrate [Tipping scenario](TBD).
+* Activate test payments. You have two options. Start by navigating to [**Payments**](https://www.shopify.com/admin/settings/payments) settings:  
+1. *(for testing) Bogus Gateway*. For more information, see [Activate Bogus Gateway for testing](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
+2. *Shopify payments* in test mode. For more information, see [Testing Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
 
 * For trial stores, select plan in the [**Plan**](https://www.shopify.com/admin/settings/plan) settings.
 
->[!Important]
->To avoid payments, remember to cancel your Shopify trial.
+> [!Important]  
+> To avoid payments, remember to cancel your Shopify trial.
 
-Install **Dynamics 365 Business Central** app in your Shopify online store.
+Install the **Dynamics 365 Business Central** app in your Shopify online store.
 
 1. Find [Dynamics 365 Business Central](https://apps.shopify.com/dynamics-365-business-central) app on the [Shopify AppStore](https://apps.shopify.com/).
-2. Choose **Add App** button. Sign in into your Shopify account if prompted.
-3. Review privacy and permissions, and choose **Install App** button. You can find and open installed **Dynamics 365 Business Central** app in the Apps section on the sidebar of **Shopify admin**.
-4. Choose **Sign up now** to start [!INCLUDE[prod_short](../includes/prod_short.md)] trial, use administrator account.
+2. Choose the **Add App** button. Sign in into your Shopify account if prompted.
+3. Review privacy and permissions, and then choose the **Install App** button. You can find and open the installed **Dynamics 365 Business Central** app in the Apps section on the sidebar of **Shopify admin**.
+4. Choose **Sign up now** to start the [!INCLUDE[prod_short](../includes/prod_short.md)] trial, and then use the administrator account.
 
-In created [!INCLUDE[prod_short](../includes/prod_short.md)] account, do following steps:
+In the created [!INCLUDE[prod_short](../includes/prod_short.md)] account, do following steps:
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Choose the **New** action.
-3. Fill *DEMO1* in the **Code** field.
-4. Fill in **Shopify URL** field with URL to online shop you want to connect to.
-5. Activate **Enabled** toggle, review and accept terms and conditions.
+3. In the **Code** field, fill *DEMO1*.
+4. In the **Shopify URL** field, fill in the URL to the online shop that you want to connect to.
+5. Activate the **Enabled** toggle, review and accept the terms and conditions.
 6. Choose the **Request Access** action.
 
-Configure Shopify shop as described below:
+Configure the Shopify shop as described below:
 
 1. Enable the **Log Enabled** toggle.
 2. Deactivate the **Allow Background Syncs** toggle.
@@ -63,21 +62,21 @@ Configure Shopify shop as described below:
 7. Select **Deny** in the **Default Inventory Policy**.
 8. Enable the **Auto Create Unknown Customers** toggle.
 9. Fill in the **Customer Template Code** field with appropriate template.
-10. Fill in the **Shipping Cost Account**, the **Tip Account** with revenue account. For example, in US use *40100*.
+10. Fill in the **Shipping Cost Account**, the **Tip Account** with revenue account. For example, in the US use *40100*.
 11. Enable the **Auto Create Orders** toggle.
 
 Configure location mapping:
 
 1. Choose the **Locations** action to open **Shopify Shop Locations**.
 2. Choose the **Get Shopify Locations** action to import all locations defined in the Shopify.
-3. Fill in *''|EAST|MAIN* the **Location Filter**.
+3. In the **Location Filter**, enter *''|EAST|MAIN*.
 4. Deselect toggle from the **Disabled** field to enable inventory sync for selected Shopify location.
 
-## Walk-through: Start selling products online
+## Walkthrough: Start selling products online
 
 ### Scenario
 
-Let's say, you want to try Shopify as an online store without spending much time on setting up things, especially because you already maintain your items in [!INCLUDE[prod_short](../includes/prod_short.md)] properly. Once you launched your Shopify online store, you immediately get new customers, who are happy and satisfied with your shop and their buying experience. So, they decide to leave some tips at checkout.
+Let's say, that you want to try Shopify as an online store without spending much time on setting up things, especially because you already maintain your items in [!INCLUDE[prod_short](../includes/prod_short.md)] properly. Once you launch your Shopify online store, you immediately get new customers, who are happy and satisfied with your shop and their buying experience. So, they decide to leave some tips at checkout.
 
 ### Steps
 
@@ -85,20 +84,20 @@ In **[!INCLUDE[prod_short](../includes/prod_short.md)]**
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and choose the related link.
 2. Choose the **Add Items** action.
-3. Fill *DEMO1* in the **Shop Code** field.
+3. In the the **Shop Code** field, enter *DEMO1*.
 4. Set filter *CHAIR* on the **Item Category Code** field (add filter field if necessary).
 5. Click **ok** and wait until initial synchronization of items and prices is completed.
 6. Choose the **Sync Product Images** action.
 7. Choose the **Sync Inventory** action.
 
-In **Shopify online store**, open product catalog. Notice:
+In **Shopify online store**, open the product catalog. Notice:
 
 * Product titles, images, and prices.
 * Availability indicator (sold out for out-of-stock products).
 
-Choose any product that can be sold, for example *BERLIN Swivel Chair, yellow*. Notice that description contains item attributes.
+Choose any product that can be sold, for example *BERLIN Swivel Chair, yellow*. Notice that the description contains item attributes.
 
-Choose **Buy it now** button and proceed to checkout.
+Choose the **Buy it now** button and proceed to checkout.
 
 1. Fill *cl@contoso.com* (or email where you want to receive order and shipping confirmations) in **Email or mobile phone number**
 2. Fill *Claudia Lawson* in the **First name** and **Last name**.
@@ -254,3 +253,7 @@ Change status of *Athens Desk* to *Active* and choose **Preview** action.
 In **Shopify online store**.
 
 Open product catalog, find *ATHENS Desk*  product. Notice that different options are available. For different options, prices are different. Pay attention to discount information.
+
+## See Also
+
+[Get Started with the Connector for Shopify](get-started.md)  

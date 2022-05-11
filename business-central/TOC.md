@@ -834,6 +834,7 @@
 #### VAT
 ##### [Print VAT Reconciliation Reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [VAT-VIES Reporting](LocalFunctionality/Denmark/vat-vies-reporting.md)
+##### [VAT Registration Number Setup for Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
 #### Banking & Payments
 ##### [FIK Details in the Payment Reconciliation Journal](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [The Payments and Reconciliations (DK) Extension](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -1771,23 +1772,6 @@
 ### [Classify Data Sensitivity](admin-classifying-data-sensitivity.md)
 ### [Respond to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)
 ### [Create New Companies](about-new-company.md)
-### Set Up a Company With RapidStart Services
-#### [RapidStart Overview](admin-set-up-a-company-with-rapidstart.md)
-#### Set Up Company Configuration
-##### [Company Configuration Overview](admin-set-up-company-configuration.md)
-##### [Manage Company Configuration in a Worksheet](admin-how-to-manage-company-configuration-in-a-worksheet.md)
-##### [Prepare a Configuration Package](admin-how-to-prepare-a-configuration-package.md)
-#### Apply Configurations to New Companies
-##### [Apply Configurations to New Companies](admin-apply-configuration-to-new-companies.md)
-##### [Create a New Company](admin-how-to-create-a-new-company.md)
-##### [Configure New Companies](admin-how-to-configure-new-companies.md)
-##### [Configure a Company with the RapidStart Wizard](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
-##### [Copy Data to New Companies](admin-how-to-copy-data-to-new-companies.md)
-##### [Create Journal Opening Balances](admin-how-to-create-journal-opening-balances.md)
-#### [Gather Customer Setup Data](admin-gather-customer-setup-values.md)
-#### [Prepare to Migrate Customer Data with Templates](admin-use-templates-to-prepare-customer-data-for-migration.md)
-#### [Migrate Customer Data](admin-migrate-customer-data.md)
-#### [Tips and Tricks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### [Log Changes](across-log-changes.md)
 ### [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ### [Manage Storage by Compressing Data or Deleting Documents](admin-manage-documents.md)

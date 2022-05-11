@@ -680,7 +680,6 @@
 ### [Synchronize and fulfill sales orders with Shopify](shopify/synchronize-orders.md)
 ### [Run tasks in background](shopify/background.md)
 ### [Troubleshoot the Shopify connector](shopify/troubleshoot.md)
-### [Test and training scenarios for the Shopify connector](shopify/scenarios.md)
 ### [FAQ for the Shopify connector](shopify/FAQ.md)
 
 <!--Company Hub-->

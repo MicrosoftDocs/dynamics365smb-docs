@@ -25,7 +25,7 @@ The default version of [!INCLUDE [prod_short](includes/prod_short.md)] supports 
 * Automated flows that you set up yourself  
 
   Any workflow template that you create with Power Automate is added to the list of workflow templates within [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Use Business Central in Power Automate Flows](across-how-use-financials-data-source-flow.md).  
-* Manually triggered flows from the **Automate** action ([!INCLUDE [prod_short](includes/prod_short.md)] online only)  
+* Manually triggered flows from the **Automate** action ([!INCLUDE [prod_short](includes/prod_short.md)] online only). For more information, see [Manual instant flows](across-how-use-financials-data-source-flow.md#manual-instant-flows).  
 
 ## Power Automate flows
 

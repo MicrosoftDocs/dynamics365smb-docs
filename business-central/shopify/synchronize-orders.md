@@ -11,7 +11,7 @@ ms.reviewer: solsen
 
 # Synchronize and Fulfill Sales Orders
 
-The following article describes the necessary settings and steps that you must perform to synchronize and fulfill sales orders.
+This article describes the necessary settings and steps that you must perform to synchronize and fulfill sales orders.
 
 ## Set import of orders on the Shopify Shop Card
 
@@ -22,7 +22,7 @@ A regular Shopify order can have extra amounts on top, such as shipping charges 
 - **Tip account**  
 
 Enable **Auto Create Orders**  to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] once the Shopify order is imported.
-The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] contains a link to the Shopify order. If you enable **Shopify Order No. on Doc. Line** then this information will be repeated in sales line of type *Comment*.
+The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] contains a link to the Shopify order. If, you enable **Shopify Order No. on Doc. Line** then this information will be repeated in sales line of type *Comment*.
 
 In the **Tax area source** field, you can define priority on how to select tax area code or VAT business posting group based on address. This step is relevant for countries with sales tax, but can be used for VAT countries. For more information, see [Tax remarks](synchronize-orders.md#tax-remarks).
 
@@ -34,7 +34,7 @@ In the **Tax area source** field, you can define priority on how to select tax a
 2. Select the Shop for which you want to define mapping to open **Shopify Shop Card** page.
 3. Choose the **Shipment Method Mapping** action. The records for shipping methods defined in the [**Shipping**](https://www.shopify.com/admin/settings/payments) settings in your **Shopify admin** gets created automatically.
 4. In the **Name** field, you can see name of shipping method from Shopify.
-5. Fill in the **Shipment Method Code** with the corresponding shipping method in [!INCLUDE[prod_short](../includes/prod_short.md)].
+5. Enter the **Shipment Method Code** with the corresponding shipping method in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 > [!NOTE]  
 > If multiple shipping charges are associated with a Sales order; only one will be selected as Shipping Method and assigned to sales document.
@@ -46,9 +46,9 @@ To fill in the **Payment method code** for sales documents imported from Shopify
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the Shop for which you want to define mapping to open **Shopify Shop Card** page.
 3. Choose the **Payment Method Mapping** action.
-4. Fill in the **Gateway** and **Credit Card Company** fields with name of payment method from Shopify. The record gets created automatically when you import shopify orders.
-5. Fill in the **Payment Method Code** with the corresponding payment method in [!INCLUDE[prod_short](../includes/prod_short.md)].
-6. Fill in the **Priority** field for cases when customer uses multiple means of payment. The payment method with the highest priority gets selected in the sales document. If both payment methods have the same priority, the payment method with the highest amount is used.
+4. In the **Gateway** and **Credit Card Company** fields, enter the name of payment method from Shopify. The record gets created automatically when you import shopify orders.
+5. Enter the **Payment Method Code** with the corresponding payment method in [!INCLUDE[prod_short](../includes/prod_short.md)].
+6. Set the **Priority** for cases when customer uses multiple means of payment. The payment method with the highest priority gets selected in the sales document. If both payment methods have the same priority, the payment method with the highest amount is used.
 
 ## Run order synchronization
 
@@ -73,7 +73,7 @@ Once the import is completed, you can explore Shopify order and find all related
 
 ## Create sales document in Business Central
 
-If the **Auto Create Orders** toggle is enabled on **Shopify Shop Card**, the system tries to create a sales document once order is imported. In case the system encounters issues, for example if a customer or product is missing, you'll need to fix the problem and try to create sales order again.
+If the **Auto Create Orders** toggle is enabled on **Shopify Shop Card**, the [!INCLUDE[prod_short](../includes/prod_short.md)] tries to create a sales document once order is imported. In case, the process encounters issues, for example if a customer or product is missing, you'll need to fix the problem and try to create sales order again.
 
 ### To create sales document
 
@@ -81,15 +81,15 @@ If the **Auto Create Orders** toggle is enabled on **Shopify Shop Card**, the sy
 2. Select the Shop for which you want to synchronize orders to open **Shopify Shop Card** page.
 3. Choose the **Orders** action.
 4. Select order for which you want to create sales document and choose the **Create Sales Documents** action.
-5. Select **Yes**.
+5. Choose, **Yes**.
 
-If Shopify order requires fulfillment, the system will create **Sales Order** for fulfilled Shopify orders. For example, ones that contain only gift card, the system will create **Sales Invoice**.
+If Shopify order requires fulfillment, the **Sales Order** will be created for fulfilled Shopify orders. For example, ones that contain only gift card, the **Sales Invoice** gets created.
 
 A sales document is now created and can be managed by using the standard [!INCLUDE[prod_short](../includes/prod_short.md)] functionalities.
 
 ### Manage missing customers
 
-If your settings prevent the system to create customer automatically and it can't find proper existing customer, you'll assign a customer to Shopify order manually. There are a few options:
+If your settings prevent creating customer automatically and a proper existing customer can't be found, you'll assign a customer to Shopify order manually. There are a few options:
 
 - You can assign the **Sell-to Customer No.** directly in the **Shopify Order** by choosing a customer from the list of existing customers.
 - You can select a customer template code, create, and assign the customer via the **Create new customer** action in the **Shopify Order**.
@@ -101,7 +101,7 @@ While the imported Shopify order contains information about taxes, the taxes get
 
 - Multiple product tax/VAT rates. For example, some product categories are liable for reduced tax rates. Those items must exist in [!INCLUDE[prod_short](../includes/prod_short.md)] and be mapped to Shopify products. Otherwise, with automatic creation of missing items, the VAT product posting group will be used.
 
-- Address-dependent tax rates. Use the **Tax area priority** field together with **Customer Templates** table to overwrite standard logic that fills in **Tax Area Code** in the sales document. The **Tax area priority** field specifies priority from where system should take information about country/region and state/province. Then the system finds corresponding record in the Shopify customer templates and uses **Tax Area Code**, **Tax Liable**, and **VAT Bus. Posting Group** when it creates a sales document.
+- Address-dependent tax rates. Use the **Tax area priority** field together with **Customer Templates** table to overwrite standard logic that fills in **Tax Area Code** in the sales document. The **Tax area priority** field specifies priority from where the function should take information about country/region and state/province. Then the corresponding record in the Shopify customer templates is found and **Tax Area Code**, **Tax Liable**, and **VAT Bus. Posting Group** is used when a sales document is created.
 
 ## Synchronize shipments to Shopify
 
@@ -109,16 +109,16 @@ When a sales order that is created from a Shopify Order, is shipped, you can syn
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sync Shipments to Shopify**, and choose the related link.
 2. Define filters on shipments as necessary. For example, you can update shipment posted at specific date.
-3. Select the **OK** button.
+3. Choose, **OK** button.
 
 The order in Shopify will be marked as fulfilled. The customer automatically receives a shipment notice email or text message (SMS). If a Shipping agent and a Tracking code are specified on the shipment, the tracking information is included in the email.
 
 > [!NOTE]  
-> Remember to run **Synchronize Orders from Shopify** to update fulfillment status of order in [!INCLUDE[prod_short](../includes/prod_short.md)]. The system also archives completely paid and fulfilled orders in both Shopify and in [!INCLUDE[prod_short](../includes/prod_short.md)] provided the conditions are met.
+> Remember to run **Synchronize Orders from Shopify** to update fulfillment status of order in [!INCLUDE[prod_short](../includes/prod_short.md)]. The connector functionality also archives completely paid and fulfilled orders in both Shopify and in [!INCLUDE[prod_short](../includes/prod_short.md)] provided the conditions are met.
 
 ### Shipping agents and tracking URL
 
-If the **Posted Sales Shipment** document contains **Shipping Agent Code** and/or **Package Tracking No.** this information will be sent to Shopify and to end-customer in the shipping confirmation email.
+If the **Posted Sales Shipment** document contains **Shipping Agent Code** and/or **Package Tracking No.**, this information will be sent to Shopify and to end-customer in the shipping confirmation email.
 
 Tracking company is populated based on Shipping Agent record in following priorities (from highest to lowest):
 
@@ -132,7 +132,7 @@ If the **Package Tracking URL** field is filled in for the Shipping agent record
 
 In the Shopify shop you can sell gift cards, which can be later used to pay for real products.
 
-When dealing with gift cards, it's important to fill in **Sold Gift Card Account** in the **Shopify Shop Card** window. The sold gift card will be synchronized together with orders in line. An applied gift card will also be imported with the order, but now as a transaction. Notice that the gift card doesn't reduce the amount to invoice.
+When dealing with gift cards, it's important to enter a value in **Sold Gift Card Account** field in the **Shopify Shop Card** window. The sold gift card will be synchronized together with orders in line. An applied gift card will also be imported with the order, but now as a transaction. Notice that the gift card doesn't reduce the amount to invoice.
 
 To review the issued and applied gift cards, choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Gift Cards**, and then choose the related link.
 

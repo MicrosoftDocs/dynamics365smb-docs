@@ -1,5 +1,5 @@
 ---
-title: Run tasks the in background 
+title: Run tasks in the background 
 description: Configure synchronization of data between Business Central and Shopify in background.
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,14 +11,14 @@ ms.author: andreipa
 
 # Run Tasks in the Background
 
-You can perform some tasks in the background. Two modes are supported:
+It's efficient to run some tasks simultaneously and in automated manner. You can perform such tasks in the background and can also set a schedule when you want those tasks to run automatically. To run tasks in the background, two modes are supported:
 
 - Manually triggered task is scheduled immediately via **Job Queue Entries**
 - Recurring tasks are scheduled in **Job Queue Entries**
 
 ## Run tasks in the background for a specific shop
 
-1. Choose the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of **Shopify Shop** and then choose the shop name from the list.
+1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter the name of **Shopify Shop**, and choose the shop name from the list.
 2. Select the Shop for which you want to synchronize items to open **Shopify Shop Card** page.
 3. Enable **Allow Background Syncs** toggle.
 
@@ -30,14 +30,14 @@ You can schedule the following recurring activities to be performed in an automa
 
 |Task|Object|
 |------|------------|
-|**Sync orders from Shopify**|Report 30104 Sync Orders From Shopify|
-|**Process Shopify orders**|Report 30103 Shopify Create Sales Orders|
-|**Sync shipments to Shopify**|Report 30109 Sync Shipment to Shopify|
-|**Sync products and/or prices**|Report 30108 Shopify Sync Products|
-|**Sync inventory**|Report 30102 Sync Stock to Shopify|
-|**Sync images**|Report 30107 Shopify Sync Images|
-|**Sync customers**|Report 30100 Shopify Sync Customers|
-|**Sync payments**|Report 30105 Shopify Sync Payments|
+|**Sync orders from Shopify**|Report 30104 Sync orders from Shopify|
+|**Process Shopify orders**|Report 30103 Shopify create sales orders|
+|**Sync shipments to Shopify**|Report 30109 Sync shipment to Shopify|
+|**Sync products and/or prices**|Report 30108 Shopify sync products|
+|**Sync inventory**|Report 30102 Sync stock to Shopify|
+|**Sync images**|Report 30107 Shopify sync images|
+|**Sync customers**|Report 30100 Shopify sync customers|
+|**Sync payments**|Report 30105 Shopify sync payments|
 
 ## See Also
 

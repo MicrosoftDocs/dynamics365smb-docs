@@ -122,7 +122,7 @@ To make it easier to set up VAT reporting, [!INCLUDE[prod_short](../../includes/
    > The response from the tax authority will not be immediately available.  
 
    > [!NOTE]
-   > If the **Report VAT Note** option on VAT Report Setup is enabled, then the **Note** field is visible and editable in the VAT Return page. Users can specify any free text there. The value of the Note field reflects in the submission message. 
+   > If you have selected the **Report VAT Note** option in the **VAT Report Setup** page, then the **Note** field is visible and editable in the **VAT Return** page. Users can specify any free text there. The value of the **Note** field will be included in the submission message. 
 
 ## Troubleshoot Your Connection to ID-Porten
 If you do not receive a response after you submit your return, for example, within 24 hours, you can contact ID-Porten and ask them to verify that they received your return. To help them identify your return, you can send the value from the Message ID field. By default, the field is hidden, but you can use page inspection to get the value. For more information, see [Inspecting Pages in Business Central](../../across-inspect-page.md). 

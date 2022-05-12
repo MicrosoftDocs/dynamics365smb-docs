@@ -237,21 +237,9 @@
 ##### [Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md)
 ##### [Manage Many Incoming Document Records](across-how-manage-many-income-document-records.md)
 
-### Workflow
+### Workflows
 #### [Workflow Overview](across-workflow.md)
-#### Set Up Workflows
-##### [Set Up Workflows](across-set-up-workflows.md)
-##### [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)
-##### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
-##### [Workflow Notifications](across-setting-up-workflow-notifications.md)
-##### [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
-##### [Create and Modify Layouts](ui-get-started-layouts.md)
-<!--##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)-->
-##### [Set up Email](admin-how-setup-email.md)
-##### [Create Workflows](across-how-to-create-workflows.md)
-##### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
-##### [Export and Import Workflows](across-how-to-export-and-import-workflows.md)
-##### [Walkthrough: Set Up and Use a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+#### [Use Business Central in Power Automate Flows](across-how-use-financials-data-source-flow.md)
 #### Use Workflows
 ##### [Use Workflows](across-use-workflows.md)
 ##### [Enable Workflows](across-how-to-enable-workflows.md)
@@ -259,7 +247,7 @@
 ##### [Restrict and Allow Usage of a Record](across-how-to-restrict-and-allow-usage-of-a-record.md)
 ##### [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)
 ##### [Delete Workflows](across-how-to-delete-workflows.md)
-
+<!--data exchange-->
 ### Exchange Data Electronically
 #### [OData Exchange Overview](across-data-exchange.md)
 #### [About the Data Exchange Framework](across-about-the-data-exchange-framework.md)
@@ -1330,6 +1318,7 @@
 ##### [Receivables Cartera Module](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Payments Cartera Module](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - Invoice and Credit Memo Types in Sales and Purchase Documents](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
+##### [Set Up SII for VAT Reporting](LocalFunctionality/Spain/sii-setup.md)
 #### Core Finance
 ##### [Set Up and Close Income Statement Balances](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Indent and Validate Chart of Accounts](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
@@ -1573,6 +1562,17 @@
 ##### [FAQ](ui-outlook-addin-faq.yml)
 ### Set Up Reports
 #### [Report Selection](across-report-selections.md)
+### Set Up Approval Workflows Based on Templates
+#### [Set Up Approval Workflows](across-set-up-workflows.md)
+#### [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)
+#### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
+#### [Workflow Notifications](across-setting-up-workflow-notifications.md)
+#### [Specify When and How to Receive Workflow Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
+#### [Create Workflows](across-how-to-create-workflows.md)
+#### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
+#### [Export and Import Workflows](across-how-to-export-and-import-workflows.md)
+#### [Walkthrough: Set Up and Use a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+<!--Connectors-->
 ### Set Up Connections
 #### [Get the Business Central Add-in for Excel](admin-deploy-excel-addin.md)
 #### Use Business Central as Your Business Inbox in Outlook 
@@ -1607,7 +1607,8 @@
 ###### [Use the Business Central Apps in Power BI](across-powerbi-business-central-apps.md)
 ##### [FAQ](power-bi-faq.md)
 #### Use Power Automate with Business Central
-##### [Use Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md)
+##### [Use Business Central in Power Automate Flows](across-how-use-financials-data-source-flow.md)
+##### [Troubleshoot Your Automated Workflows](across-flow-troubleshoot.md)  
 #### Use Power Apps with Business Central
 ##### [Connecting to Your Business Central Data to Build a Business App Use Power Apps](across-how-use-financials-data-source-powerapps.md)
 #### [Change from a QuickBooks App to Business Central](across-quickbooks-to-business-edition.md)

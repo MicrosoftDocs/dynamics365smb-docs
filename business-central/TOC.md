@@ -1563,15 +1563,15 @@
 ### Set Up Reports
 #### [Report Selection](across-report-selections.md)
 ### Set Up Approval Workflows Based on Templates
-##### [Set Up Approval Workflows](across-set-up-workflows.md)
-##### [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)
-##### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
-##### [Workflow Notifications](across-setting-up-workflow-notifications.md)
-##### [Specify When and How to Receive Workflow Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
-##### [Create Workflows](across-how-to-create-workflows.md)
-##### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
-##### [Export and Import Workflows](across-how-to-export-and-import-workflows.md)
-##### [Walkthrough: Set Up and Use a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+#### [Set Up Approval Workflows](across-set-up-workflows.md)
+#### [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)
+#### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
+#### [Workflow Notifications](across-setting-up-workflow-notifications.md)
+#### [Specify When and How to Receive Workflow Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
+#### [Create Workflows](across-how-to-create-workflows.md)
+#### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
+#### [Export and Import Workflows](across-how-to-export-and-import-workflows.md)
+#### [Walkthrough: Set Up and Use a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Set Up Connections
 #### [Get the Business Central Add-in for Excel](admin-deploy-excel-addin.md)

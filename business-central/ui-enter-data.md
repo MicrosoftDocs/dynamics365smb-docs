@@ -16,6 +16,8 @@ ms.author: jswymer
 
 There are many general features that help you enter data easier, faster, and more precise. The basic principles and advanced features for entering data are described in this article.  
 
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+
 The examples in this article use the demonstration data.
 
 ## Work with editable fields

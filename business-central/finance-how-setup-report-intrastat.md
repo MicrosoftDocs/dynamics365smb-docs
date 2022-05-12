@@ -122,7 +122,7 @@ The batch job retrieves all the item entries in the statistics period and insert
 6. Publish the changes that you have made in Excel back to [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!Note]
-> In [!INCLUDE[prod_short](includes/prod_short.md)] versions that do not support [**Edit in Excel**](across-work-with-excel.md#edit-in-excel) for journals, you can [create configuration packages](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package) to export and import Intrastat journal lines to Excel. 
+> In [!INCLUDE[prod_short](includes/prod_short.md)] versions that do not support [**Edit in Excel**](across-work-with-excel.md#edit-in-excel) for journals, you can create configuration packages to export and import Intrastat journal lines to Excel. For more information, see [Migrate On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in the administration content.
 
 ### Report Intrastat on a form or a file
 
@@ -164,6 +164,7 @@ In the **Tariff Numbers** page, add all the codes that you use. You must enter t
 ## See Related Training at [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## See Also
+
 [Financial Management](finance.md)
 
 

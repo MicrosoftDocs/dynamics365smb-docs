@@ -17,6 +17,8 @@ ms.author: jswymer
 
 On the **My Settings** page, you can see and change basic settings for your [!INCLUDE[prod_short](includes/prod_short.md)]. The changes that you make will only affect your workspace, not the workspaces of other users.  
 
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+
 ## <a name="role-center"></a>Role
 
 The role determines the home page, a starting screen that is designed for the needs of a specific role in an organization. Depending on your role, the home page, or role center, gives you an overview of the business, your department, or your personal tasks. It also helps you navigate to your daily tasks and find work that is assigned to you.

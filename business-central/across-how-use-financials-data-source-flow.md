@@ -49,6 +49,19 @@ You can get an overview of all workflows that you have access to by choosing the
 
 When you connect [!INCLUDE [prod_short](includes/prod_short.md)] with Power Automate to create automated workflows, you might run into error messages. For more information, see [Troubleshoot your [!INCLUDE[prod_short](includes/prod_short.md)] Automated Workflows](across-flow-troubleshoot.md).  
 
+### Flow doesn't run on all records created or changed
+
+#### Problem
+
+If an event creates or changes many records, the flow doesn't run on some or all records.
+
+#### Possible cause
+
+There's a limit on how many records that a flow can process. If more than 100 records are created or changed within the 30 seconds, the flow won't be triggered.
+
+> [!NOTE]
+> For developers, the flow triggering is done via webhook notifications, and this limitation is due to the way the Business Central connector handles `collection` notifications. For more information, see [Working with Webhooks in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions) in the Developer and IT Pro help.
+
 ## See Also
 
 [Get Ready for Doing Business](ui-get-ready-business.md)  

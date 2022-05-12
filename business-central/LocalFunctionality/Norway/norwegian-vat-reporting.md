@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 737, 738, 743, 10601, 10604
-ms.date: 01/31/2022
+ms.date: 05/12/2022
 ms.author: edupont
 
 ---
@@ -99,19 +99,19 @@ To make it easier to set up VAT reporting, [!INCLUDE[prod_short](../../includes/
 
 ## Create and Submit a VAT Return
 ### VAT Report Setup
-1. To set up a VAT report, choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report Setup**, and then choose the related link. 
-2. On the General FastTab, select the **Allow Modification** check box to let users modify VAT reports that have been submitted to the tax authorities. If the field is left blank, users must create a corrective or supplementary VAT report instead. 
-3. On the General FastTab, select the **Report VAT Base** check box if the VAT base must be calculated and shown to the user in the VAT reports. 
-4. On the General FastTab, select the **Report VAT Note** check box to make **VAT Note** field available for reporting from the VAT Return page. 
-5. On the Numbering FastTab, specify the number series that will be used for standard VAT reports. This will be the default numbering series that is used on any VAT Report that you then create. 
-6. On the Return Period and VAT Groum Management FastTabs, specify information for the fields. 
+1. To set up a VAT report, choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report Setup**, and then choose the related link.  
+2. On the **General** FastTab, select the **Allow Modification** field to let users modify VAT reports that have been submitted to the tax authorities. If the field is not selected, users must create a corrective or supplementary VAT report instead. 
+3. On the **General** FastTab, select the **Report VAT Base** field if the VAT base must be calculated and shown to the user in the VAT reports. 
+4. On the **General** FastTab, select the **Report VAT Note** field to make the **VAT Note** field available for reporting from the **VAT Return** page. 
+5. On the **Numbering** FastTab, specify the number series that will be used for standard VAT reports. This will be the default numbering series that is used on any VAT Report that you then create. 
+6. On the **Return Period** and **VAT Group Management** FastTabs, specify the relevant information. 
 7. Choose the OK button. 
 
 ### VAT Return
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Returns**, and then choose the related link.
-2. Choose **New**.
+2. Choose the **New** action.
 3. In the **Version** field, choose **Elec VAT**.
-4. Optional: In the **KID** field, specify a payment identification number.
+4. Optionally, in the **KID** field, specify a payment identification number.
 5. Choose **Suggest Lines** to open the **VAT Report Request Page** page, where you specify criteria for generating lines for the report.
 6. After you've specified the criteria, choose **OK**.  
 7. On the **VAT Settlement** page, choose **Release**. This will validate that the information can be submitted to the Norwegian tax authorities.

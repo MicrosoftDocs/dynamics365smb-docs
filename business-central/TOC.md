@@ -1330,6 +1330,7 @@
 ##### [Receivables Cartera Module](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Payments Cartera Module](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - Invoice and Credit Memo Types in Sales and Purchase Documents](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
+##### [Set Up SII for VAT Reporting](LocalFunctionality/Spain/sii-setup.md)
 #### Core Finance
 ##### [Set Up and Close Income Statement Balances](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Indent and Validate Chart of Accounts](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)

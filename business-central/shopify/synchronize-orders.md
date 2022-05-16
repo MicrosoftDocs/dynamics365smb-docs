@@ -1,7 +1,7 @@
 ---
 title: Synchronize and fulfill sales orders
 description: Set up and run import and processing of sales order from Shopify.
-ms.date: 05/11/2022
+ms.date: 05/16/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04

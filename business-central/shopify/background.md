@@ -11,9 +11,9 @@ ms.author: andreipa
 
 # Run Tasks in the Background
 
-It's efficient to run some tasks simultaneously and in automated manner. You can perform such tasks in the background and can also set a schedule when you want those tasks to run automatically. To run tasks in the background, two modes are supported:
+It's efficient to run some tasks simultaneously and in an automated manner. You can perform such tasks in the background and can also set a schedule when you want those tasks to run automatically. To run tasks in the background, two modes are supported:
 
-- Manually triggered task is scheduled immediately via **Job Queue Entries**
+- Manually triggered tasks are scheduled immediately via **Job Queue Entries**
 - Recurring tasks are scheduled in **Job Queue Entries**
 
 ## Run tasks in the background for a specific shop

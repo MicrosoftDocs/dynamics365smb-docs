@@ -1,7 +1,7 @@
 ---
 title: Getting started with connector for Shopify
 description: First steps when configuring connection between Business Central and Shopify
-ms.date: 05/11/2022
+ms.date: 05/16/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
@@ -15,7 +15,7 @@ ms.author: andreipa
 
 ## Prerequisites for Shopify
 
-You need to have:
+You must have:
 
 - A Shopify account
 - A Shopify online store
@@ -32,7 +32,7 @@ To know more about Shopify settings for demo and trial scenarios, see [Test and 
 
 ## Prerequisites for Business Central
 
-- Make sure **Connect to Shopify for [!INCLUDE[prod_short](../includes/prod_short.md)]** extension is installed.
+- Make sure that the **Connect to Shopify for [!INCLUDE[prod_short](../includes/prod_short.md)]** extension is installed.
 
 The extension is pre-installed for all new sign ups and trials. If you need to install extensions from the Market place, visit [Installing and Uninstalling Extensions](../ui-extensions-install-uninstall.md#installing-an-extension). Follow the steps listed below if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
 

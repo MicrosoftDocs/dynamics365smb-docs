@@ -18,7 +18,7 @@ When an order is imported from Shopify, the information about customer is essent
 
 ## How connector chooses which customer to use
 
-*Import order from Shopify* function tries to select customer in the following order:
+The *Import order from Shopify* function tries to select customer in the following order:
 
 1. If the **Default Customer No.** is defined in the **Shopify Customer Template** for the corresponding country, then **Default Customer No.** is used, regardless of the settings in **Customer Import From Shopify** and **Customer Mapping Type**.
 2. If **Customer Import From Shopify** and **Default Customer No.** is defined, then the **Default Customer No.** is used.
@@ -26,7 +26,7 @@ When an order is imported from Shopify, the information about customer is essent
 Next steps depend on **Customer Mapping Type**.
 
 * **Always take the default customer**, then use the customer defined in the **Default Customer No.** field in **Shopify Shop Card** window.
-* **By EMail/Phone**, the connector tries to find existing customer by ID first, then by email, and then by phone. If customer isn't found - the connector creates a new customer.
+* **By EMail/Phone**, the connector tries to find existing customer by ID first, then by email, and then by phone. If the customer isn't found - the connector creates a new customer.
 * **By Bill-to Info**, the connector tries to find existing customer by ID first and then by bill-to address information. If not found - the connector creates a new customer.
 
 > [!NOTE]  
@@ -50,8 +50,8 @@ Some settings can be defined at country/regional level, or at state/province lev
 
 The **Shopify Customer Template** lets you do following for each country:
 
-1. Specify the **Default Customer No.**, which takes priority over selection in the **Customer Import from Shopify** and **Customer Mapping Type** fields. It's used in the imported sales order.
-2. Define **Customer Template Code**, which is used to create missing customers, if **Auto Create Unknown Customers** is enabled. If **Customer Template Code** is empty, then the function uses **Customer Template Code** defined on the **Shopify Shop Card**.
+1. Specify the **Default Customer No.**, which takes priority over the selection in the **Customer Import from Shopify** and **Customer Mapping Type** fields. It's used in the imported sales order.
+2. Define the **Customer Template Code**, which is used to create missing customers, if **Auto Create Unknown Customers** is enabled. If **Customer Template Code** is empty, then the function uses **Customer Template Code** defined on the **Shopify Shop Card**.
 3. In some cases, **Customer Template Code** per country isn't enough to ensure right calculation of taxes. For example, for countries with sales tax.
 
 > [!NOTE]  

@@ -6,7 +6,7 @@ author: edupont04
 ms.topic: conceptual
 ms.search.keywords: fraud prevention, making tax digital, making tax digital software, hmrc, tax
 ms.search.form: 10539, 743
-ms.date: 04/08/2022
+ms.date: 04/11/2022
 ms.author: edupont
 
 ---
@@ -91,7 +91,7 @@ Your company can sign up for any of the following endpoints:
 * [https://jsonip.com](https://jsonip.com)  
 
 > [!IMPORTANT]
-> The **User IP Address Service** field is available in version 20.1 and later.
+> The **User IP Address Service** field is available in version 20.1 and later. Your admin can manage your organization's version of [!INCLUDE [prod_short](../../includes/prod_short.md)] in the admin center.
 
 ## See Also
 

@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 03/04/2022
+ms.date: 04/12/2022
 ms.author: bholtorf
 
 ---
@@ -215,13 +215,22 @@ You must set up information about how the tax authorities in your country or reg
 
 ## See Also
 
-[Setting up VAT Statement Templates and VAT Statement Names](finance-how-setup-vat-statement.md)  
-[Setting Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  
+[Set Up VAT Statement Templates and VAT Statement Names](finance-how-setup-vat-statement.md)  
+[Set Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  
 [Report VAT to a Tax Authority](finance-how-report-vat.md)  
 [Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
 [Work with the VAT Rate Change Tool](finance-how-use-vat-rate-change-tool.md)  
 [Verify VAT registration numbers](finance-how-validate-vat-registration-number.md)  
 [Local functionality in Business Central](about-localization.md)  
+[VAT Reporting in the German version](LocalFunctionality/Germany/vat-reporting.md)  
+[Belgian VAT](LocalFunctionality/Belgium/belgian-vat.md)  
+[Italian VAT](LocalFunctionality/Italy/italian-vat.md)  
+[Set Up Electronic VAT and ICP Declarations in the Dutch Version](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)  
+[VAT Reports in the Spanish Version](LocalFunctionality/Spain/vat-reports.md)  
+[Set Up Goods and Services Tax Posting in the Australian Version](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)  
+[VAT in the Czech Version](LocalFunctionality/Czech/finance-vat.md)  
+[VAT Reporting in the Norwegian Version](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
+[Reporting Goods/Services Tax and Harmonized Sales Tax in Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)  
 
 ## See Related Training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

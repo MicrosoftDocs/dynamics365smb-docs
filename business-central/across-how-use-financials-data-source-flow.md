@@ -1,126 +1,61 @@
 ---
-title: Connect Your Data with Power Automate| Microsoft Docs
-description: You can make your Business Central data available as a data source and specify an OData URL of your web services to build an automated workflow.
+title: Use Business Central in Power Automate Flows
+description: Set up and use Power Automate flows that creates or modifies Business Central data.
 
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions
-ms.date: 07/27/2021
+ms.date: 05/12/2022
 ms.author: edupont
 author: jswymer
 ---
 
-# Use [!INCLUDE[prod_short](includes/prod_short.md)] in an Automated Workflow
+# Use [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate Flows
 
-You can use your [!INCLUDE[prod_short](includes/prod_short.md)] data as part of a workflow in Microsoft Power Automate.
-
-> [!NOTE]
-> In addition to Power Automate, you can use the Workflow functionality within [!INCLUDE[prod_short](includes/prod_short.md)]. Note that although they are two separate workflow systems, any workflow template that you create with Power Automate is added to the list of workflows  within [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Workflow](across-workflow.md).  
+You can use your [!INCLUDE[prod_short](includes/prod_short.md)] data as part of a workflow in Microsoft Power Automate. Create your own flows and connect to your data with the [!INCLUDE [prod_short](includes/prod_short.md)] connector.  
 
 > [!NOTE]  
 > You must have a valid account with [!INCLUDE[prod_short](includes/prod_short.md)] and with Power Automate.  
 
-## Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power Automate
+> [!TIP]
+> In addition to Power Automate, you can use approval workflow templates in [!INCLUDE[prod_short](includes/prod_short.md)]. Although they are two separate workflow systems, any approval workflow template that you create with Power Automate is added to the list of workflows within [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Workflows](across-workflow.md).  
 
-1. In your browser, navigate to [flow.microsoft.com](https://flow.microsoft.com), and then sign in.
-2. Choose **My flows** from the ribbon at the top of the page.
-3. There are 3 ways to create a flow; **Start from template**, **Start from blank**, and **Start from a connector**. A template is a predefined flow that has been created for you. To use a template, select it and create a connection for each service the template uses. With the **Start from blank** and **Start from a connector** options, you can create a new flow completely from scratch.
-4. To create from blank, on the **My flows** page, choose the **Start from blank** and **Automated flow** options.
-5. Search for **Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]** connector.
-6. Define a name and choose the trigger you want to use for your flow.
-7. From the list of available triggers, select one of the [!INCLUDE[prod_short](includes/prod_short.md)] triggers available:  
+## Automated workflows
 
-    - *When a vendor approval is requested*  
-    - *When a general journal line approval is requested* 
-    - *When a record is deleted*
-    - *When a record is changed*
-    - *When a record is created*
-    - *When a record is modified*
-    - *When a general journal batch approval is requested* 
-    - *When a customer approval is requested*
-    - *When an item approval is requested*
-    - *When a purchase document approval is requested*
-    - *When a sales document approval is requested*
+With Power Automate, you can create business flows directly in-house and rely on citizen developers​. For more information, see [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) in the administration content.  
 
-8. Power Automate will prompt you to select an environment and company within your [!INCLUDE[prod_short](includes/prod_short.md)] tenant, plus any conditions in your data that you want to listen for.
+## Manual instant flows
 
-    > [!NOTE]
-    > The [!INCLUDE[prod_short](includes/prod_short.md)] connector for Power Automate supports multiple production and sandbox environments. If you haven't created multiple production or sandbox environments, **Production** is the only available option that you can choose.  
+Starting in May 2022, an admin of [!INCLUDE [prod_short](includes/prod_short.md)] online can [switch on a feature](admin-feature-management.md) to make it possible to run a Power Automate flow from most pages. For more information, see [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) in the administration content.  
 
-    At this point, you've successfully connected to your Business Central[!INCLUDE[prod_short](includes/prod_short.md)] data and are ready to begin building your flow.
+Once the admin has connected [!INCLUDE [prod_short](includes/prod_short.md)] with Power Automate, you'll see any flows that your organization has added when you choose the **Automate** action in the relevant pages. You run the flows without leaving [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-9. To create from a template, choose the **Start from template** option.
-10. Search for **Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]** templates.
-11. From the list of available templates, select one of the templates, and then choose **Create**.  
+These automated workflows open in a pane inside [!INCLUDE [prod_short](includes/prod_short.md)] online so that you remain within context of the business process you were in the middle of. In some pages, the **Automate** action hides under the **More Options** menu, but find it, choose the **Power Automate** menu item, and then choose the relevant link to trigger the workflow. The connection to Power Automate is already set up for you.  
 
-    - *Request Approval for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] sales order*
-    - *Request Approval for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] sales quote*
-    - *Request Approval for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] sales invoice*
-    - *Request Approval for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] sales credit memo*
-    - *Request Approval for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] customer*
-    - *Request Approval for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] purchase order*
-    - *Request Approval for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] purchase invoice*
-    - *Request Approval for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] purchase credit memo*  
-    - *Request Approval for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] item*
-    - *Request Approval for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] vendor*
-    - *Request Approval for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] general journal batch*  
-    - *Request Approval for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] general journal lines*
-12. Power Automate will display a list of services used in the flow template and will attempt to connect automatically to those services. If you haven't previously connected to a service, you'll be prompted to sign in to each of the services you need to connect to. A green checkmark will appear next to each service once a connection has been successfully made. Select **Continue**.
-13. Power Automate will prompt you to select an environment and company within your [!INCLUDE[prod_short](includes/prod_short.md)] tenant. Because each step in the flow is independent of the next, you may be required to define the environment and company multiple times when using a [!INCLUDE[prod_short](includes/prod_short.md)] Power Automate template.
+Most flows will require you to fill in a field or two before you choose the **Run flow** action.  
 
-For more information, see the [Power Automate Documentation](/power-automate/getting-started).
+> [!TIP]
+> If you don't see an **Automate** action, then your [!INCLUDE [prod_short](includes/prod_short.md)] probably hasn't yet been set up to use Power Automate. For more information, ask your admin.
 
-## Troubleshooting
+## Add more automated flows and manual instant flows
 
-### "Entity set not found” error
+You can create flows at the [powerautomate.microsoft.com](https://powerautomate.microsoft.com) website. However, if your admin has switched on the capability to run Power Automate flows from inside [!INCLUDE [prod_short](includes/prod_short.md)] online, you can start the process of building a flow from the **Automate** action on the relevant pages. In some pages, the **Automate** action hides under the **More Options** menu, but find it, choose the **Power Automate** menu item, and then choose the **Create a flow** action. Power Automate then opens in a new browser tab, and you're signed in automatically.
 
-#### Problem
+## Manage workflows
 
-When creating a new Power Automate Flow using a [!INCLUDE[prod_short](includes/prod_short.md)] approval trigger, like *When a purchase document approval is requested*, you get an error message similar to:
-
-**Entity set not found: \<name\>**
-
-where **\<name\>** is the service name of the missing web service, like **workflowWebhookSubscriptions** or **workflowPurchaseDocumentLines**.
-
-#### Possible cause
-
-Using Power Automate to integrate with your [!INCLUDE[prod_short](includes/prod_short.md)] approvals requires that certain page and codeunit objects are published as web services. By default, most of the required objects are published as web services for you. But in some cases, your environment may have been customized so that these objects are no longer published.
-
-#### Fix
-
-Go to the **Web Services** page and make sure that the following objects are published as web services. There should be an entry in the list for each object, with the **Published** check box selected. 
-
-|Object Type|Object ID|Object Name|Service Name|
-|-----------|---------|-----------|------------|
-|Codeunit|	1544	|WorkflowWebhookSubscription|WorkflowActionResponse|
-|Page|	6408|	workflowCustomers|	workflowCustomers|
-|Page	|6406	|workflowGenJournalBatches|	workflowGenJournalBatches|
-|Page	|6407	|workflowGenJournalLines|workflowGenJournalLines|
-|Page	|6409	|workflowItems|	workflowItems|
-|Page	|6405	|Purchase Document Line Entity|workflowPurchaseDocumentLines|
-|Page|	6404	|workflowPurchaseDocuments|	workflowPurchaseDocuments|
-|Page|	6403	|Sales Document Line Entity	|workflowSalesDocumentLines|
-|Page|	6402|	workflowSalesDocuments|	workflowSalesDocuments|
-|Page|	6410	|workflowVendors|	workflowVendors|
-|Page|	831	|workflowWebhookSubscriptions|	workflowWebhookSubscriptions|
-
-> [!NOTE]
-> The **Service Name** value must be exactly as shown in the table. Don't change or translate the service name.
-
-For more information about publishing web services, see [Publish a Web Service](across-how-publish-web-service.md).
+You can get an overview of all workflows that you have access to by choosing the **Manage workflows** action in the **Power Automate** menu. The list opens in a new browser tab, and you signed in to Power Automate automatically. There, you can see when each flow ran most recently.  
 
 ## See Also
 
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Workflow](across-workflow.md)  
-[Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
+[Troubleshoot Your [!INCLUDE[prod_short](includes/prod_short.md)] Automated Workflows](across-flow-troubleshoot.md)  
+[Get Ready for Doing Business](ui-get-ready-business.md)  
+[Workflows](across-workflow.md)  
+[Import Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
-[Manage [!INCLUDE[prod_long](includes/prod_long.md)] Workflows](across-use-workflows.md)  
-[Approval User Setup](across-how-to-set-up-approval-users.md)  
-[Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finance](finance.md)  
-
+[Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

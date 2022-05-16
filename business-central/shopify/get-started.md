@@ -35,7 +35,7 @@ To know more about Shopify settings for demo and trial scenarios, see [Test and 
 - Make sure that the **Connect to Shopify for [!INCLUDE[prod_short](../includes/prod_short.md)]** extension is installed.
 
 The extension is pre-installed for all new sign ups and trials. If you need to install extensions from the Market place, visit [Installing and Uninstalling Extensions](../ui-extensions-install-uninstall.md#installing-an-extension). Follow the steps listed below if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
-
+<!--
 ## Installing the **Dynamics 365 Business Central** app to your Shopify online store
 
 For existing [!INCLUDE[prod_short](../includes/prod_short.md)], this step is optional and can be skipped.
@@ -46,7 +46,7 @@ For existing [!INCLUDE[prod_short](../includes/prod_short.md)], this step is opt
   You can find and open the installed **Dynamics 365 Business Central** app in the **Apps** section on the sidebar of **Shopify admin**.
 4. Choose **Sign up now** to start [!INCLUDE[prod_short](../includes/prod_short.md)] trial or **Sign in** if you already have [!INCLUDE[prod_short](../includes/prod_short.md)]. You'll be redirected to your [!INCLUDE[prod_short](../includes/prod_short.md)] at [Business Central](https://businesscentral.dynamics.com).
 5. The next steps should be done in [!INCLUDE[prod_short](../includes/prod_short.md)].
-
+-->
 ## Connecting Business Central to the Shopify online store
 
 1. Go to search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop** and choose the related link.

@@ -28,7 +28,7 @@ From the **Shopify Log Entries** window, you can trigger deletion of all log ent
 
 ## Data capture
 
-Regardless of the **Log Activated** settings, some responses from Shopify always gets logged that you can inspect or download using the **Data Capture List** window.
+Regardless of the **Log Activated** settings, some responses from Shopify always get logged that you can inspect or download using the **Data Capture List** window.
 
 Choose the **Retrieved Shopify Data** action in one of following pages:
 
@@ -54,7 +54,7 @@ If [!INCLUDE[prod_short](../includes/prod_short.md)] can't connect to your Shopi
 2. Select the shop for which you want to get the access token to open the **Shopify Shop Card** page.
 3. In the **Code** field, enter the code.  
 4. Choose the **Request Access** action.
-5. If prompted sign-in into your Shopify account.
+5. If prompted sign-in to your Shopify account.
 
 ## See Also
 

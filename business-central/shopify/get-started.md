@@ -28,7 +28,7 @@ To create a new Shopify account or sign-up for a free 14-day trial, navigate to 
 
 - Deactivate **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
 
-To know more about Shopify settings for demo and trial scenarios, see [Test and training scenarios](/dynamics365/business-central/dev-itpro/administration/admin-shopify-connector.md#preparation).
+To know more about Shopify settings for demo and trial scenarios, see [Test and training scenarios](/dynamics365/business-central/dev-itpro/administration/admin-shopify-connector#preparation).
 
 ## Prerequisites for Business Central
 
@@ -68,5 +68,5 @@ Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_shor
 
 ## See Also
 
-[Test and training scenarios](/dynamics365/business-central/dev-itpro/administration/admin-shopify-connector.md).
+[Test and training scenarios](/dynamics365/business-central/dev-itpro/administration/admin-shopify-connector).
 

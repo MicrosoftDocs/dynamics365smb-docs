@@ -25,7 +25,7 @@ If you want to use Journal Templates during the posting of Purchase and Sales do
 
 ## See Also
 
-[Create Financial Journals in the Belgian Version](../../how-to-create-financial-journals.md)  
+[Create Financial Journals in the Belgian Version](how-to-create-financial-journals.md)  
 [Belgium Local Functionality](belgium-local-functionality.md)
 
 

@@ -660,6 +660,16 @@
 #### [Service Posting](service-service-posting.md)
 #### [Post Service Orders and Credit Memos](service-how-to-post-service-orders.md)
 #### [Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)
+<!--Shopify-->
+## Online store with Shopify
+### [Get started with the Shopify connector](shopify/get-started.md)
+### [Synchronize items with Shopify](shopify/synchronize-items.md)
+### [Synchronize customers with Shopify](shopify/synchronize-customers.md)
+### [Synchronize and fulfill sales orders with Shopify](shopify/synchronize-orders.md)
+### [Run tasks in background](shopify/background.md)
+### [Troubleshoot the Shopify connector](shopify/troubleshoot.md)
+### [FAQ for the Shopify connector](shopify/shopify-faq.md)
+
 <!--Company Hub-->
 ## Company Hub
 ### [Manage Work across Companies with the Company Hub](company-hub.md)

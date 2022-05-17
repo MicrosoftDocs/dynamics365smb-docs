@@ -20,7 +20,7 @@ You must have:
 - A Shopify account
 - A Shopify online store
 
-To create a new Shopify account or sign-up for a free 14-day trial, navigate to [Shopify](https://www.shopify.com/). For more information on how to create and personalize your online store, see [Shopify](https://www.shopify.com/).
+To create a new Shopify account or sign-up for a free 14-day trial, navigate to [Shopify](https://www.shopify.com/). For more information on how to create and personalize your online store, see [Shopify Help Center](https://help.shopify.com/).
   
 - Other sales channels are supported, for example, Shopify POS.
 
@@ -34,7 +34,7 @@ To know more about Shopify settings for demo and trial scenarios, see [Test and 
 
 - Make sure that the **Connect to Shopify for [!INCLUDE[prod_short](../includes/prod_short.md)]** extension is installed.
 
-The extension is pre-installed for all new sign ups and trials. If you need to install extensions from the Market place, visit [Installing and Uninstalling Extensions](../ui-extensions-install-uninstall.md#installing-an-extension). Follow the steps listed below if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
+The extension is pre-installed for all new sign ups and trials. If you need to install extensions from the Market place, visit [Installing and Uninstalling Extensions](../ui-extensions-install-uninstall.md#install). Follow the steps listed below if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
 <!--
 ## Installing the **Dynamics 365 Business Central** app to your Shopify online store
 
@@ -54,10 +54,9 @@ For existing [!INCLUDE[prod_short](../includes/prod_short.md)], this step is opt
 3. In the **Code** field, enter the desired code.  
 4. In **Shopify URL** field, type URL of your online shop, which needs to be connected.
 5. Activate **Enabled** toggle, review and accept the terms and conditions.
-6. Choose the **Request Access** action.
-7. If prompted, sign-in into your Shopify account, review privacy and permissions, and then choose the **Install App** button.
+6. If prompted, sign-in into your Shopify account, review privacy and permissions, and then choose the **Install App** button.
 
-Repeat steps 2-7 for all online shops that you want to connect.
+Repeat steps 2-6 for all online shops that you want to connect.
 
 ### Next steps
 
@@ -69,4 +68,4 @@ Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_shor
 
 ## See Also
 
-[Get Started with the Connector for Shopify](get-started.md)  
+[Test and training scenarios](scenarios.md#preparation).

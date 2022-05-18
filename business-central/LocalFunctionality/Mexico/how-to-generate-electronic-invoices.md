@@ -9,7 +9,8 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 02/16/2022
+    ms.search.form: 132, 25
+    ms.date: 05/18/2022
     ms.author: edupont
 
 ---
@@ -36,6 +37,21 @@ To verify the electronic invoice activity, on the **Posted Sales Invoice** page,
 
 > [!NOTE]  
 > [!INCLUDE[bp_refimplementation](../../includes/bp_refimplementation.md)]  
+
+# Receiving payments
+
+Mexican companies must be able to receive payments in accordance with CFDI withholdings and Payment Information version 2.0.
+
+To receive payment in accordance with CFDI version 2.0, users don’t need additional settings because required data will be prepared for customer invoices first. You cannot stamp payments without applied invoice having a stamp.
+
+> [!IMPORTANT]  
+> Current version of [!INCLUDE [prod_short](../../includes/prod_short.md)] supports receiving **customer payment information** related with the CFDI version 2.0, but **withholding receipt is currently out of scope**.  
+
+## To stamp the payment  
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Ledger Entries**, and then choose the related link.  
+2. Find a payment you applied the invoice and select this line.
+3. Choose the **Send** action, and then specify if you want to also request a digital stamp for the payment.
 
 ## See Also
 

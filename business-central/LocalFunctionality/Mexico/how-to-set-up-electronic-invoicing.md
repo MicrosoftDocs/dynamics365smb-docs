@@ -120,8 +120,36 @@ Finally, you must add information about locations you use. The following section
 
 ## To map key data to the CFDI fields
 
+### Assisted setup
+
 1. Choose the ![A fourth lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Mexican CFDI information**, and then choose the related link.
 2. Follow the steps in the **Set up Mexican CFDI information** assisted setup guide to map information about your company and how you use [!INCLUDE [prod_short](../../includes/prod_short.md)] to the various fields in the CFDI files.
+
+### Manual setup
+
+#### To map your country codes to the values that SAT requires:
+1. Choose the ![A fourth lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Countries/Regions**, and then choose the related link.
+2. In the **SAT Country Code** specifiy the country code required for reporting to the Mexican tax authorities (SAT).
+3. Repeat steps 1-2 for all country codes.
+
+#### To map your units of measure to the values that SAT requires:
+1. Choose the ![A fourth lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measure**, and then choose the related link.
+2. In the **SAT UofM Classification** field specifiy the unit of measure required for reporting to the Mexican tax authorities (SAT).
+3. Repeat steps 1-2 for all units of measure.
+
+#### To configure SAT Tax Regime Classification:
+1. Choose the ![A fourth lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SAT Tax Schemas**, and then choose the related link.
+2. Fill in the fields as appropriate. Hover over a field to read a short description.
+
+#### To map your payment methods to the values that SAT requires:
+1. Choose the ![A fourth lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.
+2. In the **SAT Method of Payment** field specifiy the payment method for paying to the Mexican tax authorities (SAT).
+3. Repeat steps 1-2 for all payment methods.
+
+#### To map your payment terms to the values that SAT requires:
+1. Choose the ![A fourth lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Terms**, and then choose the related link.
+2. In the **SAT Payment Form** field specifiy the number of the SAT payment form.
+3. Repeat steps 1-2 for all payment terms.
 
 ## See Also
 

@@ -120,12 +120,22 @@ Finally, you must add information about locations you use. The following section
 
 ## To map key data to the CFDI fields
 
+You can let [!INCLUDE [prod_short](../../includes/prod_short.md)] map relevant fields to the data structure that is required by CFDI by using the **Set up Mexican CFDI information** assisted setup guide, or you can map the fields manually.  
+
 ### Assisted setup
 
 1. Choose the ![A fourth lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Mexican CFDI information**, and then choose the related link.
 2. Follow the steps in the **Set up Mexican CFDI information** assisted setup guide to map information about your company and how you use [!INCLUDE [prod_short](../../includes/prod_short.md)] to the various fields in the CFDI files.
 
 ### Manual setup
+
+If you prefer to map the fields yourself, then you must update the following pages:
+
+- **Countries/Regions**  
+- **Units of Measure**  
+- **SAT Tax Schemas*  
+- **Payment Methods**  
+- **Payment Terms**  
 
 #### To map your country codes to the values that SAT requires:
 1. Choose the ![A fourth lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Countries/Regions**, and then choose the related link.

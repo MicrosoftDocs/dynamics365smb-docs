@@ -38,19 +38,19 @@ To verify the electronic invoice activity, on the **Posted Sales Invoice** page,
 > [!NOTE]  
 > [!INCLUDE[bp_refimplementation](../../includes/bp_refimplementation.md)]  
 
-# Receiving payments
+## Receive payments
 
-Mexican companies must be able to receive payments in accordance with CFDI withholdings and Payment Information version 2.0.
+Mexican companies must be able to receive payments in accordance with CFDI Withholdings and Payment Information version 2.0.
 
-To receive payment in accordance with CFDI version 2.0, users don’t need additional settings because required data will be prepared for customer invoices first. You cannot stamp payments without applied invoice having a stamp.
+To receive payment in accordance with CFDI version 2.0, you don't need additional settings because the required data will already have been included for the customer invoices. You cannot stamp a payment that is applied to an invoice that does not have a stamp.
 
 > [!IMPORTANT]  
-> Current version of [!INCLUDE [prod_short](../../includes/prod_short.md)] supports receiving **customer payment information** related with the CFDI version 2.0, but **withholding receipt is currently out of scope**.  
+> The current version of [!INCLUDE [prod_short](../../includes/prod_short.md)] supports receipt of *customer payment information* in accordance with CFDI version 2.0. However, *withholding receipt* is currently not supported in the default version of [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
 ## To stamp the payment  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Ledger Entries**, and then choose the related link.  
-2. Find a payment you applied the invoice and select this line.
+2. Find a payment that you applied to the electronic invoice, and then select this line.
 3. Choose the **Send** action, and then specify if you want to also request a digital stamp for the payment.
 
 ## See Also

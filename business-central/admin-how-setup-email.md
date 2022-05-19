@@ -103,6 +103,9 @@ On the **User Email View Policies**, choose a user, and then choose one of the f
 ## Set Up Reusable Email Texts and Layouts for Sales and Purchase Documents
 You can use reports to include key information from sales and purchase documents in texts for emails. This procedure describes how to set up the **Sales - Invoice** report for posted sales invoices, but the process is similar for other reports.
 
+> [!NOTE]
+> You must use the Word file type.
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Sales**, and then choose the related link.
 2. On the **Report Selection - Sales** page, in the **Usage** field, select **Invoice**.
 3. On a new line, in the **Report ID** field, select, for example, standard report 1306.

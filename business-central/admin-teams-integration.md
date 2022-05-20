@@ -26,7 +26,7 @@ This section describes the minimum requirements for the [!INCLUDE [prod_short](i
 
 - Required licenses
 
-    This table gives you an overview of the licenses needed for the [!INCLUDE [prod_short](includes/prod_short.md)] app features to work in Teams.
+    This table gives you an overview of the licenses needed for the [!INCLUDE [prod_short](includes/prod_short.md)] app features to work in Teams. The [!INCLUDE[prod_short](includes/prod_short.md)] app requires a Teams license from a Microsoft 365 Business or Enterprise subscription. Standalone Teams subscriptions such as Microsoft Teams (free) or Microsoft Teams Essentials aren't supported.
 
     |What|Teams license|[!INCLUDE [prod_short](includes/prod_short.md)] license|
     |----|---|---|

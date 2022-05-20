@@ -15,7 +15,6 @@ author: jswymer
 
 When you connect [!INCLUDE [prod_short](includes/prod_short.md)] with Power Automate to create automated workflows, you might run into error messages. This article provides suggested solutions to frequently recurring problems.
 
-
 ## Flow doesn't run on all records created or changed
 
 ### Problem
@@ -24,10 +23,10 @@ If an event creates or changes many records, the flow doesn't run on some or all
 
 ### Possible cause
 
-There's a limit on how many records that a flow can process. If more than 100 records are created or changed within the 30 seconds, the flow won't be triggered.
+Currently, there's a limit on how many records that a flow can process. If more than 100 records are created or changed within 30 seconds, the flow won't be triggered.
 
 > [!NOTE]
-> For developers, the flow triggering is done via webhook notifications, and this limitation is due to the way the Business Central connector handles `collection` notifications. For more information, see [Working with Webhooks in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions) in the Developer and Admin help.
+> For developers, the flow triggering is done via webhook notifications, and this limitation is due to the way the Business Central connector handles `collection` notifications. For more information, see [Working with Webhooks in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) in the Developer and Admin help.
 
 ## "Entity set not found” error
 

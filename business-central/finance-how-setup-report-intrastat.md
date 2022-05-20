@@ -19,6 +19,12 @@ ms.author: bholtorf
 All companies in the European Union must report their trade with other EU countries/regions. You must report the movement of goods to the statistics authorities in your country/region every month, and the report must be delivered to the tax authorities. This is referred to as Intrastat Reporting. You use the **Intrastat Journal** page to complete periodic Intrastat reports.  
 
 ## Required and Optional Setups
+
+> [!IMPORTANT]  
+> Pay attention that there is a field **Intrastat Partner Type** on Customer and Vednor card. Do not mix it with the field **Partner Type**, as these fields have the same values: *“ “ (blank), Company, Person*. The field **Intrastat Partner Type** replaced the field **Parter Type** in Intrastat reporting. Now it is possible to have different values for **Partner Type** and **Intrastat Partner Type** – the first one is still used in SEPA and defines the SEPA Direct Debit Scheme (Core or B2B), while the latter is used for Intrastat reporting only.
+> Please note that if the field **Intrastat Partner Type** is not defined, i.e. if it has a blank value, a value from the field **Partner Type** is used for Intrastat reporting.
+
+
 Before you can use the Intrastat journal to report Intrastat information, there are several things you must set up:  
 
 * **Intrastat Setup**: Intrastat Setup page is used to enable intrastat reporting and set defaults for it. You can specify whether you need to report Intrastat from shipments (dispatches), receipts (arrivals) or both depending on thresholds set by your local regulations. You can also set default transaction types for regular and return documents, used for nature of transaction reporting.
@@ -27,7 +33,7 @@ Before you can use the Intrastat journal to report Intrastat information, there 
 * **Transaction nature codes**: Countries and regions have different codes for types of Intrastat transactions, such as ordinary purchase and sale, exchange of returned goods, and exchange of non-returned goods. Set up all of the codes that apply to your country/region. You use these codes on the **Foreign Trade** FastTab on sales and purchase documents, and when you process returns. 
 
     > [!NOTE]
-    > Starting in January 2022, Intrastat requires different transaction nature code for dispatches to private individuals or non-VAT registered businesses and VAT registered businesses. To comply with this requirement, we recommend that you review and/or add new transaction nature codes in the **Transaction Types** page accoridng to the requirements in your country. You should als review and update the **Partner Type** field to *Person* for private individual or non-VAT registered businesses customers in the relevant **Customer** page. If you are unsure about the correct partner type or transaction type to use, we recommend that you ask an expert in your country or region. 
+    > Starting in January 2022, Intrastat requires different transaction nature code for dispatches to private individuals or non-VAT registered businesses and VAT registered businesses. To comply with this requirement, we recommend that you review and/or add new transaction nature codes in the **Transaction Types** page accoridng to the requirements in your country. You should also review and update the **Intrastat Partner Type** field to *Person* for private individual or non-VAT registered businesses customers in the relevant **Customer** page. If you are unsure about the correct intrastat partner type or transaction type to use, we recommend that you ask an expert in your country or region. 
  
 * **Transport methods**: There are seven, one-digit codes for Intrastat transport methods. **1** for sea, **2** for rail, **3** for road, **4** for air, **5** for post, **7** for fixed installations, and **9** for own propulsion (for eample, transporting a car by driving it). [!INCLUDE[prod_short](includes/prod_short.md)] does not require these codes, however, we recommend that the descriptions provide a similar meaning.  
 * **Transaction specifications**: Use these to supplement the descriptions from the transaction types.  
@@ -110,7 +116,7 @@ After you fill in the Intrastat journal, you can run the **Checklist report** ac
 The batch job retrieves all the item entries in the statistics period and inserts them as lines in the Intrastat journal. You can edit the lines if needed.  
 
 > [!IMPORTANT]  
-> The batch job retrieves only the entries that contain a country/region code for which an Intrastat code has been entered on the **Countries/Regions** page. Therefore, you must enter Intrastat codes for the country/region codes for which you will run the batch job. The batch job sets the **Partner VAT ID** field to *QV999999999999* for private individuals or non-VAT registered businesses (customers with the **Partner Type** field set to *Person*), and it uses the value of the **Tranaction Type** field on the posted item ledger entry or job ledger entry. 
+> The batch job retrieves only the entries that contain a country/region code for which an Intrastat code has been entered on the **Countries/Regions** page. Therefore, you must enter Intrastat codes for the country/region codes for which you will run the batch job. The batch job sets the **Partner VAT ID** field to *QV999999999999* for private individuals or non-VAT registered businesses (customers with the **Intrastat Partner Type** field set to *Person*), and it uses the value of the **Tranaction Type** field on the posted item ledger entry or job ledger entry. 
 
 ### To modify Intrastat journals lines
 

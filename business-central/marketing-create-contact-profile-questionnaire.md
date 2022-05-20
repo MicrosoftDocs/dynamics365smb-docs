@@ -9,27 +9,54 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
+ms.search.form: 5109, 5110
 ms.author: edupont
-ms.date: 06/22/2021
+ms.date: 05/20/2022
 ---
 
 # Use Profile Questionnaires to Classify Business Contacts
-You can set up profile questionnaires that you want to use when entering information about your contacts' profiles. Within each questionnaire, you can set up the different questions you intend to ask your contacts.  
+
+You can set up profile questionnaires that you want to use when entering information about your contacts' profiles. Within each questionnaire, you can set up the different questions you intend to ask your contacts. This way, you can group contacts so that your campaigns are more likely to target the right people based on the criteria that you define with the questionnaires.  
 
 You can also run the questionnaire to answer some of the questions based on contact, customer, or vendor data automatically.  
 
 ## To add a profile questionnaire
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Questionnaire Setup**, and then choose the related link.  
-2.  Choose the **New** Action.  
-3.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Questionnaire Setup**, and then choose the related link.  
+2. Choose the **New** Action.  
+3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## To add questions to a profile questionnaire
-1.  Choose the relevant profile questionnaire, and then choose the **Edit Questionnaire Setup** action.  
-2.  On the first empty line, in the **Type** field, choose **Question** and type your question in the **Description** field. Fill in the other fields on this line.  
-3.  On the next empty line, in the **Type** field, choose **Answer** and type your answer in the **Description** field.  
-4.  In the **Priority** field, select the priority. In the **From Value** and **To Value** fields, define a point range. Contacts that receive points within the defined range will get the answer.  
+
+1. Choose the relevant profile questionnaire, and then choose the **Edit Questionnaire Setup** action.  
+2. On the first empty line, in the **Type** field, choose **Question** and type your question in the **Description** field. Fill in the other fields on this line.  
+
+  Optionally, add details to the question.
+
+  1. Choose the line with the question, and then, choose the **Line** menu, and then choose **Question Details**.  
+
+  2. On the **Classification** FastTab in the **Profile Question Details** page, select the **Auto Contact Classification** field.  
+
+  3. In the **Contact Class. Field** field, select the **Rating** option.  
+
+  4. Fill in the **Min. % Questions Answered** field. The default is **0**.  
+
+      This specifies the number of questions in percentage that must be answered for this rating to be calculated.
+
+  5. On the **Actions** tab, in the **Page** group, choose **Answer Points**. Enter the points you want to give each answer listed in the **Answer Points** page.
+
+      If you want to get an overview of the points you have given each answer, choose the **Answer Points** action.
+
+  6. To run an update, return to the **Profile Questionnaire Setup** page. On the **Actions** menu, in the **Functions** group, choose **Update Classification**.
+
+    In the **Profile Questionnaire Setup** page, the number of contacts that meets this criteria is displayed in the **No. of Contacts** field, as well as on the **Contact Card** of each contact.
+
+3. On the next empty line, in the **Type** field, choose **Answer** and type your answer in the **Description** field.  
+4. In the **Priority** field, select the priority. In the **From Value** and **To Value** fields, define a point range. Contacts that receive points within the defined range will get the answer.  
 
 Repeat these steps to enter all the questions and answers within the profile questionnaire.
+
+
 
 After you have created a questionnaire, you must create contact ratings to classify your contacts. You can also set up questions that are rated automatically based on information in the contact card.  
 

@@ -60,6 +60,7 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md) **Available Now**
     * [Create Financial Journals](how-to-create-financial-journals.md) **Available Now**
     * [Export to Accon](how-to-export-to-accon.md) **Available Now**
+    * [[Make Journal Templates Mandatory]](specify-journal-template-mandatory.md) **Available Now**
 
 * General
     * [Enterprise Numbers and Branch Numbers](enterprise-numbers-and-branch-numbers.md) **Available Now**

@@ -26,16 +26,16 @@ This section describes the minimum requirements for the [!INCLUDE [prod_short](i
 
 - Required licenses
 
-    This table gives you an overview of the licenses needed for the [!INCLUDE [prod_short](includes/prod_short.md)] app features to work in Teams. The [!INCLUDE[prod_short](includes/prod_short.md)] app requires a Teams license through a Microsoft 365 Business or Enterprise subscription. Standalone Teams subscriptions such as Microsoft Teams (free) or Microsoft Teams Essentials aren't supported.
+    The [!INCLUDE[prod_short](includes/prod_short.md)] app requires a Teams license through a Microsoft 365 Business or Enterprise subscription. Standalone Teams subscriptions such as Microsoft Teams (free) or Microsoft Teams Essentials aren't supported. Most features of the [!INCLUDE[prod_short](includes/prod_short.md)] app for Teams also require a [!INCLUDE [prod_short](includes/prod_short.md)] license, as shown in the following table.
 
-    |What|Teams license|[!INCLUDE [prod_short](includes/prod_short.md)] license|
-    |----|---|---|
-    |Search for [!INCLUDE [prod_short](includes/prod_short.md)] contacts.|![check mark.](media/check.png "check")|![check mark](media/check.png "check")|
-    |Paste a link to a [!INCLUDE [prod_short](includes/prod_short.md)] record into a conversation, and send it as a card.|![check mark](media/check.png "check")|![check mark](media/check.png "check")|
-    |Share a link from a page in [!INCLUDE [prod_short](includes/prod_short.md)] to Teams conversation.|![check mark](media/check.png "check")|![check mark](media/check.png "check")|
-    |View a card of a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.|![check mark](media/check.png "check")||
-    |View more details of card for a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.|![check mark](media/check.png "check")|![check mark](media/check.png "check")|
-    |Open a page link in [!INCLUDE [prod_short](includes/prod_short.md)] from a conversation.|![check mark](media/check.png "check")|![check mark](media/check.png "check")|
+    |What|[!INCLUDE [prod_short](includes/prod_short.md)] license|
+    |----|---|
+    |Search for [!INCLUDE [prod_short](includes/prod_short.md)] contacts.|![check mark](media/check.png "check")|
+    |Paste a link to a [!INCLUDE [prod_short](includes/prod_short.md)] record into a conversation, and send it as a card.|![check mark](media/check.png "check")|
+    |Share a link from a page in [!INCLUDE [prod_short](includes/prod_short.md)] to Teams conversation.|![check mark](media/check.png "check")|
+    |View a card of a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.||
+    |View more details of card for a [!INCLUDE [prod_short](includes/prod_short.md)] record in a conversation.|![check mark](media/check.png "check")|
+    |Open a page link in [!INCLUDE [prod_short](includes/prod_short.md)] from a conversation.|![check mark](media/check.png "check")|
 
 - Allow URL previews
 

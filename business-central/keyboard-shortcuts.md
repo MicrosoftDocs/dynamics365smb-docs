@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 01/27/2022
+ms.date: 05/20/2022
 ms.author: bholtorf
 ---
 
@@ -54,7 +54,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Ctrl+Alt+Shift+C|Display information in the company badge.|
 |Ctrl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting Pages](across-inspect-page.md).|
 |Ctrl+C |Copy the value of field. If the field is in focus, and you haven't selected any text in the field, this will copy the entire value. If you've selected any text in the field, then it will copy the selected text only.|
-|Ctrl+F1|Open the help pane. For more information, see [Help Pane](product-help-and-support.md#help-pane). In Business Central 2021 release wave 2 and earlier, the shortcut directly opens the Business Central help article for the page. |
+|Ctrl+F1|Open the help pane. For more information, see [Help Pane](product-help-and-support.md#help-pane). In Business Central 2021 release wave 2 and earlier, the shortcut opens the Business Central help article for the page on Microsoft Docs. |
 |Ctrl+F12|Switch between wide and narrow layout view.|
 |Ctrl+Click|Navigate during personalizing or customizing when the action is highlighted with an arrowhead. For more information, see [Personalize Your Workspace](ui-personalization-user.md).|  
 |Ctrl+F5|Reload the [!INCLUDE[prod_short](includes/prod_short.md)] application. (Similar to selecting refresh/reload in the browser.)|

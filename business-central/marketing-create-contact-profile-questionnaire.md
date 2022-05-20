@@ -16,7 +16,9 @@ ms.date: 05/20/2022
 
 # Use Profile Questionnaires to Classify Business Contacts
 
-You can set up profile questionnaires that you want to use when entering information about your contacts' profiles. Within each questionnaire, you can set up the different questions you intend to ask your contacts. This way, you can group contacts so that your campaigns are more likely to target the right people based on the criteria that you define with the questionnaires.  
+You can rate a prospect so you can identify the ideal prospects to focus your sales campaign on. You can set up profile questionnaires that you want to use when entering information about your contacts' profiles. Within each questionnaire, you can set up the different questions you intend to ask your contacts. This way, you can group contacts so that your campaigns are more likely to target the right people based on the criteria that you define with the questionnaires.  
+
+With the right questionnaires, you can rate your prospects and group them into categories. You can use existing questions and answers and combine them with new questions and answers to form the basis of your rating. Each answer in the rating is given a point value and, depending on the range you set up for the categories (*From Value* and *To Value*), the rating system will group your contacts in the categories you have defined. For example, *ABC* customers, *High/Low loyalty* vendors, or *Platinum/Gold/Silver* prospects.  
 
 You can also run the questionnaire to answer some of the questions based on contact, customer, or vendor data automatically.  
 
@@ -31,23 +33,23 @@ You can also run the questionnaire to answer some of the questions based on cont
 1. Choose the relevant profile questionnaire, and then choose the **Edit Questionnaire Setup** action.  
 2. On the first empty line, in the **Type** field, choose **Question** and type your question in the **Description** field. Fill in the other fields on this line.  
 
-  Optionally, add details to the question.
+    Optionally, add details to the question.
 
-  1. Choose the line with the question, and then, choose the **Line** menu, and then choose **Question Details**.  
+    1. Choose the line with the question, and then, choose the **Line** menu, and then choose **Question Details**.  
 
-  2. On the **Classification** FastTab in the **Profile Question Details** page, select the **Auto Contact Classification** field.  
+    2. On the **Classification** FastTab in the **Profile Question Details** page, select the **Auto Contact Classification** field.  
 
-  3. In the **Contact Class. Field** field, select the **Rating** option.  
+    3. In the **Contact Class. Field** field, select the **Rating** option.  
 
-  4. Fill in the **Min. % Questions Answered** field. The default is **0**.  
+    4. Fill in the **Min. % Questions Answered** field. The default is **0**.  
 
-      This specifies the number of questions in percentage that must be answered for this rating to be calculated.
+        This specifies the number of questions in percentage that must be answered for this rating to be calculated.
 
-  5. On the **Actions** tab, in the **Page** group, choose **Answer Points**. Enter the points you want to give each answer listed in the **Answer Points** page.
+    5. On the **Actions** tab, in the **Page** group, choose **Answer Points**. Enter the points you want to give each answer listed in the **Answer Points** page.
 
-      If you want to get an overview of the points you have given each answer, choose the **Answer Points** action.
+        If you want to get an overview of the points you have given each answer, choose the **Answer Points** action.
 
-  6. To run an update, return to the **Profile Questionnaire Setup** page. On the **Actions** menu, in the **Functions** group, choose **Update Classification**.
+    6. To run an update, return to the **Profile Questionnaire Setup** page. On the **Actions** menu, in the **Functions** group, choose **Update Classification**.
 
     In the **Profile Questionnaire Setup** page, the number of contacts that meets this criteria is displayed in the **No. of Contacts** field, as well as on the **Contact Card** of each contact.
 
@@ -56,14 +58,17 @@ You can also run the questionnaire to answer some of the questions based on cont
 
 Repeat these steps to enter all the questions and answers within the profile questionnaire.
 
-
-
-After you have created a questionnaire, you must create contact ratings to classify your contacts. You can also set up questions that are rated automatically based on information in the contact card.  
+After you have created a questionnaire, you can use it to rate and classify your contacts. You can also set up questions that are rated automatically based on information in the contact card.  
 
 > [!NOTE]
-> If you enter a question that is automatically answered, choose <STRONG>Line</STRONG>, and then choose <STRONG>Question Details</STRONG>, to enter the criteria to automatically answer the question.
+> If you enter a question that is automatically answered, choose **Line**, and then choose **Question Details**, to enter the criteria to automatically answer the question.
+
+## Apply questionnaires to contacts
+
+You can apply your questionnaires to contacts manually. Just open the relevant contact card, and then choose the **Profile** action. Then, once you have applied the questionnaires that you want to apply, you can start using the categories in your campaigns.  
 
 ## The Automatic Classification of Contacts
+
 You can automatically classify your contacts according to customer, vendor, and contact information, by setting up automatically answered profile questions on the **Profile Questionnaire Setup** page.  
 
 > [!NOTE]

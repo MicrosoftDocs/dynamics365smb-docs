@@ -30,7 +30,7 @@ ms.author: bholtorf
 |Ctrl+Insert|Insert a new line on a document|
 |Ctrl-Delete|Delete the line on a document, journal, or worksheet|
 |Ctrl+Shift+F12|Maximize the line items part on a document page|
-|Ctrl+F1|Open the help pane<br />Navigate when personalizing and customizing|
+|Ctrl+F1|Open the help pane or a help article<br />Navigate when personalizing and customizing|
 |Ctrl+Click|Navigate when personalizing and customizing|
 |Shift+F12|Open the role explorer, a feature overview|
 |F5/Ctrl+F5|Refresh/reload page|

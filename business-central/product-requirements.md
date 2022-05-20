@@ -49,6 +49,8 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 
 **Platforms:** When using the [!INCLUDE[prod_short](includes/prod_short.md)] app in Teams for iOS or Android, the app requires that your mobile device is running one of the supported mobile platforms, listed earlier in this article.
 
+**Supported subscription:** The [!INCLUDE[prod_short](includes/prod_short.md)] app for Teams supports Microsoft 365 Business and Enterprise subscriptions, but not standalone Teams subscriptions such as Microsoft Teams (free) or Microsoft Teams Essentials.
+
 ## Excel
 
 **Edit in Excel:** To use the Excel add-in to make changes in Excel and push the changes back into [!INCLUDE[prod_short](includes/prod_short.md)], you need Excel 2019 or later. For more information, see [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md).  

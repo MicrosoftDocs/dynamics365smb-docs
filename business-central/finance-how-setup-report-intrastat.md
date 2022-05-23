@@ -153,6 +153,9 @@ You can submit the Intrastat report as a file. Before creating the file, you can
 6. Choose **Save**.  
 7. Browse to the location where you want to save the file, enter the file name, and then choose **Save**.
 
+> [!NOTE]
+> When the line in Intrastat has supplementary unit of measure, weight for the item will not be showed as this value is not required.
+
 ## Reorganize Intrastat Journals
 
 Because you must submit an Intrastat report every month, and you create a new journal batch for each report, you will eventually have many journal batches. The journal lines are not deleted automatically. You may want to reorganize the journal batch names periodically. You do this by deleting the journal batches that you no longer need. The journal lines in these batches are also deleted.  

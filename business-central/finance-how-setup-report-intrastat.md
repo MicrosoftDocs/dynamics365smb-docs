@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 01/28/2022
+ms.date: 05/23/2022
 ms.author: bholtorf
 
 ---
@@ -21,9 +21,9 @@ All companies in the European Union must report their trade with other EU countr
 ## Required and Optional Setups
 
 > [!IMPORTANT]  
-> Pay attention that there is a field **Intrastat Partner Type** on Customer and Vednor card. Do not mix it with the field **Partner Type**, as these fields have the same values: *“ “ (blank), Company, Person*. The field **Intrastat Partner Type** replaced the field **Parter Type** in Intrastat reporting. Now it is possible to have different values for **Partner Type** and **Intrastat Partner Type** – the first one is still used in SEPA and defines the SEPA Direct Debit Scheme (Core or B2B), while the latter is used for Intrastat reporting only.
-> Please note that if the field **Intrastat Partner Type** is not defined, i.e. if it has a blank value, a value from the field **Partner Type** is used for Intrastat reporting.
-
+> Customer cards and Vendor cards include a field, **Intrastat Partner Type**, that has the same option values as the **Partner Type** field: *"" (blank)*, *Company*, and *Person*. The **Intrastat Partner Type** field has replaced the **Parter Type** field in Intrastat reporting. **Partner Type** is used in SEPA to define theSEPA Direct Debit Scheme (Core or B2B). **Intrastat Partner Type** is used for Intrastat reporting only. This way, you can specifiy different values for the two fields, if you need to.
+> 
+> However, note that if the **Intrastat Partner Type** field is left blank, the value from the **Partner Type** field is used for Intrastat reporting.
 
 Before you can use the Intrastat journal to report Intrastat information, there are several things you must set up:  
 

@@ -1,18 +1,17 @@
 ---
-    title: Set Up Electronic Invoicing [MX]
-    description: Before you can send electronic documents in Mexico, you must set up Business Central to ensure that the required identification numbers are in place for CFDI.
-    author: edupont04
+title: Set Up Electronic Invoicing [MX]
+description: Before you can send electronic documents in Mexico, you must set up Business Central to ensure that the required identification numbers are in place for CFDI.
+author: edupont04
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 03/23/2022
-    ms.author: edupont
-
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 05/19/2022
+ms.author: edupont
 ---
+
 # Set Up Electronic Invoicing in the Mexican Version
 
 Before you can send electronic documents, you must set up [!INCLUDE[prod_short](../../includes/prod_short.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).  
@@ -61,7 +60,7 @@ Optionally, you can ask your Microsoft Certified Partner to modify the text that
 
 ## To set up customer and vendor information
 
-You also must add information about your customers and vendors. The following section section describes how to specify this information to customers and vendors.
+You also must add information about your customers and vendors. The following section describes how to specify this information to customers and vendors.
 
 ### Set up customer information
 
@@ -104,7 +103,7 @@ You also must add information about your customers and vendors. The following se
 
 ## To set up location information
 
-Finally, you must add information about locations you use. The following section section describes how to specify this information to locations.
+Finally, you must add information about locations you use. The following section describes how to specify this information to locations.
 
 1. Choose the ![A third lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.
 2. For each location in the **Locations** list, open the location card, and then, on the **Address & Contact** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] The following table describes some of the complex CFDI-related fields.  
@@ -120,8 +119,51 @@ Finally, you must add information about locations you use. The following section
 
 ## To map key data to the CFDI fields
 
+You can let [!INCLUDE [prod_short](../../includes/prod_short.md)] map relevant fields to the data structure that is required by CFDI by using the **Set up Mexican CFDI information** assisted setup guide, or you can map the fields manually.  
+
+### Assisted setup
+
 1. Choose the ![A fourth lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Mexican CFDI information**, and then choose the related link.
 2. Follow the steps in the **Set up Mexican CFDI information** assisted setup guide to map information about your company and how you use [!INCLUDE [prod_short](../../includes/prod_short.md)] to the various fields in the CFDI files.
+
+### Manual setup
+
+If you prefer to map the fields yourself, then you must update the following pages:
+
+- **Countries/Regions**  
+- **Units of Measure**  
+- **SAT Tax Schemas**  
+- **Payment Methods**  
+- **Payment Terms**  
+
+#### To map your country codes to the values that SAT requires
+
+1. Choose the ![A fifth lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Countries/Regions**, and then choose the related link.
+2. In the **SAT Country Code** field, specify the country code required for reporting to the Mexican tax authorities (SAT).
+3. Repeat steps 1-2 for all country codes.
+
+#### To map your units of measure to the values that SAT requires
+
+1. Choose the ![A sixth lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measure**, and then choose the related link.
+2. In the **SAT UofM Classification** field, specify the unit of measure required for reporting to the Mexican tax authorities (SAT).
+3. Repeat steps 1-2 for all units of measure.
+
+#### To configure SAT Tax Regime Classification
+
+1. Choose the ![A seventh lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SAT Tax Schemas**, and then choose the related link.
+2. Fill in the fields as appropriate. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
+
+#### To map your payment methods to the values that SAT requires
+
+1. Choose the ![An eight lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.
+2. In the **SAT Method of Payment** field, specify the payment method for paying the Mexican tax authorities (SAT).
+3. Repeat steps 1-2 for all payment methods.
+
+#### To map your payment terms to the values that SAT requires
+
+1. Choose the ![A ninth lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Terms**, and then choose the related link.
+2. In the **SAT Payment Form** field, specify the number of the SAT payment form.
+3. Repeat steps 1-2 for all payment terms.
 
 ## See Also
 

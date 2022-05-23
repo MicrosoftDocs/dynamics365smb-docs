@@ -52,10 +52,6 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+T|Open the **My Settings** page.|
 |Alt+Right Arrow|Look up additional information or underlying values for a field that contains the ![AssistEdit.](media/assist-edit-icon.png "AssistEdit button") button. This is used when the usual drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
 |Ctrl+Alt+Q<br />(Ctrl+Option+Q)|Open the **Find Entries** page to find documents and entries related to each other based on common information, like document number or posting date. For more information, see [Finding Related Entires for Posted Documents ](ui-find-entries.md)|
-
-Document number or posting date
-Business contact type, number, or external document number
-Item serial number or lot number. For more information, see [Finding Pages and Information with Tell Me](ui-search.md).|
 |Ctrl+Alt+Shift+C|Display information in the company badge.|
 |Ctrl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting Pages](across-inspect-page.md).|
 |Ctrl+C |Copy the value of field. If the field is in focus, and you haven't selected any text in the field, this will copy the entire value. If you've selected any text in the field, then it will copy the selected text only.|

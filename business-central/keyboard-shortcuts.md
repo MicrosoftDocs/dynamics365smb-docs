@@ -1,7 +1,7 @@
 ---
 title: "Keyboard Shortcuts"
 description: "The complete list of keyboard shortcut combinations to work efficiently with your data."
-author: brentholtorf
+author: jswymer
 
 ms.topic: conceptual
 ms.devlang: na
@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 05/20/2022
-ms.author: bholtorf
+ms.author: jswymer
 ---
 
 # Keyboard Shortcuts

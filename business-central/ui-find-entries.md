@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.search.form: 344
-ms.date: 04/01/2021
+ms.date: 05/23/2022
 ms.author: jswymer
 ---
 # Finding Related Entries for Posted Documents 
@@ -24,7 +24,7 @@ This feature is useful for finding the ledger entries that resulted from certain
 
 ## Get started
 
-The find entries feature is readily available from almost any page by pressing the Ctrl+Alt+Q keys. From pages that specifically display posted documents or posted documents entries&mdashfor both lists and cards&mdashyou can also open the feature by choosing the **Find Entries** action.
+The find entries feature is readily available from almost any page by pressing the Ctrl+Alt+Q keys. From pages that specifically display posted documents or posted documents entries&mdash;for both lists and cards&mdash;you can also open the feature by choosing the **Find Entries** action.
 
 The **Find Entries** page  includes all related documents and entries based on the document no. and posting date. The page is divided into three sections:
 

@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.search.form: TellMe
-ms.date: 06/24/2021
+ms.date: 05/23/2022
 ms.author: bholtorf
 
 ---
@@ -35,8 +35,10 @@ You can use Tell Me in the on-premises Web Client to find actions, pages, and re
 ### Is Tell Me available for all form factors?
 Tell Me is only available in the Web Client or Windows desktop app.
 
+<!-- removed in v20 because of Help pane
 ### Are the documentation results available in any language?
 The help articles display in the language you have specified in **My Settings**, if help is available in that language.
+-->
 
 ### Why don't I see a bookmark icon for my search results?
 The bookmark icon is not displayed in the Tell Me window when personalization is disabled for a user role.

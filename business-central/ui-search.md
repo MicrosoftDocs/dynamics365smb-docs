@@ -47,11 +47,13 @@ The pages and tasks that are listed depend on the user experience you chose for 
 ### Finding a Report or Archived Information
 The **Go to Reports and Analysis** section offers access to reporting tools. For example, you can open the **Balance Sheet** report from the list, or access archived documents and other information.  
 
+<!-- removed in v20 because of Help pane
 ### Finding Information in the Help
 Under **Documentation** you will see articles from the [!INCLUDE[prod_short](includes/prod_short.md)] documentation that describe concepts and provide step-by-step guidance for completing tasks in the application.    
 
 > [!NOTE]  
 > Documentation for third-party extensions is not included in the results.
+-->
 
 ### Getting More Functionality by Finding an App on Microsoft AppSource
 Our partner community is busily developing apps that add capabilities to [!INCLUDE[prod_short](includes/prod_short.md)]. The **Get from Microsoft AppSource** section lists apps for [!INCLUDE[prod_short](includes/prod_short.md)] that are available on Microsoft AppSource and are related to the keyword you searched for.

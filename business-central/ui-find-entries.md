@@ -24,7 +24,7 @@ This feature is useful for finding the ledger entries that resulted from certain
 
 ## Get started
 
-The find entries feature is readily available on most pages that display posted documents or posted documents entries - for both lists and cards. So the first step is open one of these pages. Then, either choose the **Find Entries** action or press the Ctrl+Alt+G keys.
+The find entries feature is readily available from almost any page by pressing the Ctrl+Alt+Q keys. From pages that specifically display posted documents or posted documents entries&mdashfor both lists and cards&mdashyou can also open the feature by choosing the **Find Entries** action.
 
 The **Find Entries** page  includes all related documents and entries based on the document no. and posting date. The page is divided into three sections:
 

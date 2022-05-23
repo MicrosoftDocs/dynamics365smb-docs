@@ -27,6 +27,7 @@ ms.author: jswymer
 |Alt+Down Arrow|Open a drop-down or look up|
 |Alt+T|Open the **My Settings** page|
 |Alt+Shift+W|Open the current card or document in a new window|
+|Ctrl+Alt+Q|Open **Find Entries**|
 |Ctrl+Insert|Insert a new line on a document|
 |Ctrl-Delete|Delete the line on a document, journal, or worksheet|
 |Ctrl+Shift+F12|Maximize the line items part on a document page|

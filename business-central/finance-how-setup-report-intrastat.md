@@ -154,7 +154,7 @@ You can submit the Intrastat report as a file. Before creating the file, you can
 7. Browse to the location where you want to save the file, enter the file name, and then choose **Save**.
 
 > [!NOTE]
-> When the line in Intrastat has supplementary unit of measure, weight for the item will not be showed as this value is not required.
+> When a line in the Intrastat report has a supplementary unit of measure, the weight of the item will not be shown, since this value is not required.
 
 ## Reorganize Intrastat Journals
 

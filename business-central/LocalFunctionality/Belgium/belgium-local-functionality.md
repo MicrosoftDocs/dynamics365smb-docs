@@ -66,7 +66,7 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Enterprise Numbers and Branch Numbers](enterprise-numbers-and-branch-numbers.md) **Available Now**
     * [Limit the Posting Period](how-to-limit-the-posting-period.md) **Available Now**
     * [Set the Work Date as the Posting Date](how-to-set-the-work-date-as-the-posting-date.md) **Available Now**
-    * [Make Journal Templates Mandatory in the Belgian Version](specify-journal-template-mandatory.md) **Available Now**
+    * [Make Journal Templates Mandatory](specify-journal-template-mandatory.md) **Available Now**
 
 ## See Also
 

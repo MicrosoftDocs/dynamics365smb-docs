@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.search.form: 2500
-ms.date: 03/25/2022
+ms.date: 05/24/2022
 ms.author: solsen
 ---
 
@@ -34,16 +34,16 @@ You can get new extensions from the marketplace at [AppSource.microsoft.com](htt
 > [!NOTE]  
 > Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for [!INCLUDE[prod_short](includes/prod_short.md)]. Use the same email account for other services and products for a smooth experience.  
 
-You can also get to the marketplace from inside [!INCLUDE[prod_short](includes/prod_short.md)]. On the **Extension Management** page, you can see the extensions that are currently installed, and you can open the **Extension Marketplace** page that shows the [!INCLUDE[prod_short](includes/prod_short.md)] extensions that are currently available in AppSource. If you choose the *More apps* link, you are taken to [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
+You can also get to the marketplace from inside [!INCLUDE[prod_short](includes/prod_short.md)]. On the **Extension Management** page, you can see the extensions that are currently installed, and you can open the **Extension Marketplace** page that shows the [!INCLUDE[prod_short](includes/prod_short.md)] extensions that are currently available in AppSource. If you choose the *More apps* link, you're taken to [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-If you choose an extension, you can read about what the extension does, and you can access Help for the extension to learn more. When you choose to get an extension, you must agree to the terms of use. If you get the extension from the AppSource website, you will be signed in to [!INCLUDE[prod_short](includes/prod_short.md)] to complete the installation.  
+If you choose an extension, you can read about what the extension does, and you can access Help for the extension to learn more. When you choose to get an extension, you must agree to the terms of use. If you get the extension from the AppSource website, you'll be signed in to [!INCLUDE[prod_short](includes/prod_short.md)] to complete the installation.  
 
 When you install an extension, you might have to set it up, such as specifying an account for use with the **PayPal Payments Standard for [!INCLUDE[prod_short](includes/prod_short.md)]** extension.
 Other extensions simply add fields to an existing page, or they add a new page, for example.
 
-If you uninstall an extension, and you then change your mind, you can install it again. When you uninstall an extension that you have been using, the data is preserved so that if you install the extension again, your data is still available. There are some extensions that are required. You are prevented from uninstalling these from the **Extension Management** page. If you try, an error message appears.
+If you uninstall an extension, and you then change your mind, you can install it again. When you uninstall an extension that you have been using, the data is preserved so that if you install the extension again, your data is still available. There are some extensions that are required. You're prevented from uninstalling these extensions from the **Extension Management** page. If you try, an error message appears.
 
-Some extensions are provided by Microsoft, and other extensions are provided by [other companies](ui-extensions-other.md). All extensions are tested before they are made available to you, but we recommend that you access the links that are provided with each extension to learn more about the extension before you choose to install it.
+Some extensions are provided by Microsoft, and other extensions are provided by [other companies](ui-extensions-other.md). All extensions are tested before they're made available to you, but we recommend that you access the links that are provided with each extension to learn more about the extension before you choose to install it.
 
 Microsoft provides the following extensions:
 
@@ -73,17 +73,21 @@ Microsoft provides the following extensions:
 
 ## Upload a Per-Tenant Extension (PTE)
 
-You upload a PTE by using the **Extension Management** page. On the **Extension Management** page, go to **Manage**, then choose **Upload Extension**. On the **Upload and Deploy Extension** page, specify the .app file to upload. To proceed, choose the **Accept** button, and then the **Deploy** button, this will start the process of deploying the PTE.
+You upload a PTE by using the **Extension Management** page. On the **Extension Management** page, go to **Manage**, then choose **Upload Extension**. On the **Upload and Deploy Extension** page, specify the .app file to upload. To proceed, choose the **Accept** button, and then the **Deploy** button, which will start the process of deploying the PTE.
 
-If the PTE contains breaking schema changes, it is possible to *force* an upload of it. To do that, in the **Schema Sync Mode** choose the **Force** option. You will get a confirmation dialog to accept before proceeding.  
+If the PTE contains breaking schema changes, it's possible to *force* an upload of it. To do that, in the **Schema Sync Mode** choose the **Force** option. You'll get a confirmation dialog to accept before proceeding.  
 
 ## Uninstall an Extension
 
-You uninstall an extension by using the **Extension Management** page. If you uninstall an extension, and you then change your mind, you can install the extension again. When you uninstall an extension that you have been using, data is by default preserved so that if you install the extension again. You can instead choose to delete the data with the extension. This is controlled by the **Delete Extension Data** checkbox. By default, this checkbox is *not enabled*.
+You uninstall an extension by using the **Extension Management** page. To uninstall an extension, select it on the page, then select the **Uninstall** action. If you uninstall an extension, and you then change your mind, you can install the extension again.
+
+When you uninstall an extension that you've been using, data is by default preserved in case you install the extension again. You can instead choose to delete the data with the extension. This operation is controlled by the **Delete Extension Data** switch. By default, this switch is **off**. When you try to turn on the **Delete Extension Data** switch for the extension, you'll get a confirmation dialog, and you must choose **Yes** to turn it on. After the **Delete Extension Data** switch is turned on, you can uninstall the extension, and you'll be asked to reconfirm that you want to uninstall the extension and delete the data.
 
 > [!IMPORTANT]  
-> If you enable the **Delete Extension Data** checkbox, you will get a confirmation dialog and you must choose **OK**. With the **Delete Extension Data** checkbox enabled, you can now uninstall the extension, and you will be asked to reconfirm that you want to uninstall the extension and delete the data. The action cannot be undone.
-Some extensions are required. You are prevented from uninstalling these from the **Extension Management** page. If you try, an error message appears.  
+> - There may be other extensions that require or depend on the extension that you want to uninstall in order to work. These other extensions are referred to as *dependents*. You can't uninstall an extension unless its dependents are also uninstalled.
+> - When you choose to uninstall an extension that has one or more dependents, you'll get a confirmation dialog that lists the dependents and asks whether you want to uninstall the extension and all its dependents. You'll have to select **Yes** to continue.
+> - If you turn on the **Delete Extension Data** switch, uninstalling the extension will delete all data for the extension **plus** data for all dependent extensions. The action cannot be undone.
+> - Some extensions are required. You are prevented from uninstalling these from the **Extension Management** page. If you try, an error message appears.  
 
 ## See Also
 

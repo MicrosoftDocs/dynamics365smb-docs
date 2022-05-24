@@ -23,11 +23,11 @@ ms.author: jswymer
 |Alt+Shift+N|Close a newly created record and create a new one|
 |Alt+O|Add a new note for the selected record|
 |Alt+Q|Open **Tell me**|
+|Ctrl+Alt+Q|Open **Find Entries**|
 |Alt+Up|Open tooltip or validation error|
 |Alt+Down Arrow|Open a drop-down or look up|
 |Alt+T|Open the **My Settings** page|
 |Alt+Shift+W|Open the current card or document in a new window|
-|Ctrl+Alt+Q|Open **Find Entries**|
 |Ctrl+Insert|Insert a new line on a document|
 |Ctrl-Delete|Delete the line on a document, journal, or worksheet|
 |Ctrl+Shift+F12|Maximize the line items part on a document page|

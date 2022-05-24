@@ -51,7 +51,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+Shift+N |Close a newly created page and open a new one to create a new record. Similarly, Alt+F9 posts a document and creates a new one.|
 |Alt+T|Open the **My Settings** page.|
 |Alt+Right Arrow|Look up additional information or underlying values for a field that contains the ![AssistEdit.](media/assist-edit-icon.png "AssistEdit button") button. Used when the usual drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
-|Ctrl+Alt+Q<br />(Ctrl+Option+Q)|Open the **Find Entries** page to find documents and entries related to each other based on common information, like document number or posting date. For more information, see [Finding Related Entires for Posted Documents ](ui-find-entries.md)|
+|Ctrl+Alt+Q<br />(Ctrl+Option+Cmd+Q)|Open the **Find Entries** page to find documents and entries related to each other based on common information, like document number or posting date. For more information, see [Finding Related Entires for Posted Documents ](ui-find-entries.md)|
 |Ctrl+Alt+Shift+C|Display information in the company badge.|
 |Ctrl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting Pages](across-inspect-page.md).|
 |Ctrl+C |Copy the value of field. If the field is in focus, and you haven't selected any text in the field, this will copy the entire value. If you've selected any text in the field, then it will copy the selected text only.|

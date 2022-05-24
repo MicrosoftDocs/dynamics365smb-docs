@@ -1,15 +1,15 @@
 ---
 title: "Keyboard Shortcuts"
 description: "The complete list of keyboard shortcut combinations to work efficiently with your data."
-author: brentholtorf
+author: jswymer
 
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 01/27/2022
-ms.author: bholtorf
+ms.date: 05/23/2022
+ms.author: jswymer
 ---
 
 # Keyboard Shortcuts
@@ -47,14 +47,15 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+Shift+F2|Shift between **Details** and **Attachments** in the FactBox pane.|
 |Alt+O|Add a new note for the selected record, even if the FactBox pane isn't open.|
 |Alt+Q<br />(Ctrl+Option+Q)|Open the **Tell Me** window. For more information, see [Finding Pages and Information with Tell Me](ui-search.md).|
+|Ctrl+Alt+Q<br />(Ctrl+Option+Cmd+Q)|Open the **Find Entries** page to find documents and entries related to each other based on common information, like document number or posting date. For more information, see [Finding Related Entires for Posted Documents ](ui-find-entries.md)|
 |Alt+N |Open a page to create a new record. (Similar to choosing the **New** and **+** actions.)|
 |Alt+Shift+N |Close a newly created page and open a new one to create a new record. Similarly, Alt+F9 posts a document and creates a new one.|
 |Alt+T|Open the **My Settings** page.|
-|Alt+Right Arrow|Look up additional information or underlying values for a field that contains the ![AssistEdit.](media/assist-edit-icon.png "AssistEdit button") button. This is used when the usual drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
+|Alt+Right Arrow|Look up additional information or underlying values for a field that contains the ![AssistEdit.](media/assist-edit-icon.png "AssistEdit button") button. Used when the usual drop-down button (Alt+Down Arrow) in the same field is used for another purpose.|
 |Ctrl+Alt+Shift+C|Display information in the company badge.|
 |Ctrl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting Pages](across-inspect-page.md).|
 |Ctrl+C |Copy the value of field. If the field is in focus, and you haven't selected any text in the field, this will copy the entire value. If you've selected any text in the field, then it will copy the selected text only.|
-|Ctrl+F1|Open the Business Central help for the page.|
+|Ctrl+F1|Open the [help pane](product-help-and-support.md#help-pane) or a Business Central help article on [Microsoft Docs](/dynamics365/business-central/), depending on your Business Central version.|
 |Ctrl+F12|Switch between wide and narrow layout view.|
 |Ctrl+Click|Navigate during personalizing or customizing when the action is highlighted with an arrowhead. For more information, see [Personalize Your Workspace](ui-personalization-user.md).|  
 |Ctrl+F5|Reload the [!INCLUDE[prod_short](includes/prod_short.md)] application. (Similar to selecting refresh/reload in the browser.)|
@@ -85,7 +86,7 @@ The following table describes the keyboard shortcuts that you can use on a list 
 |Ctrl+F9|Release document.|Same.|
 |*F7*|Open statistics.|Same.|
 |*F9*|Post, issue, register, or reverse document.|Same.|
-|*Shift+Ctrl+F*|Send suggested lines on the cash flow worsheets page.|Not applicable.|
+|*Shift+Ctrl+F*|Send suggested lines on the cash flow worksheets page.|Not applicable.|
 |*Shift+Ctrl+I*|View serial and lot numbers assigned to the line item on the document or journal.|Not applicable.|
 
 ### <a name="navigateshortcuts"></a>Navigating Between Rows and Columns
@@ -234,7 +235,7 @@ Role explorer gives you an overview and quick access to all the business feature
 |F3|Open the **Find** box in role explorer for finding features based on a given search word or term.|
 |F3 or Ctrl+Down Arrow|Moves focus to the next found feature in role explorer. F3 will move focus to the **Find** box after the last found feature.|
 |Shift F3 or Ctrl+Up Arrow|Move focus to the previous found feature in role explorer.|
-|Ctrl+Shift|Expand or collapse all sub-nodes, in addition to top-level nodes, when you choose the **Expand** or **Collapse** action.|
+|Ctrl+Shift|Expand or collapse all subnodes, in addition to top-level nodes, when you choose the **Expand** or **Collapse** action.|
 
 ##  <a name="keypad"></a> Numeric Keypad Shortcuts
 

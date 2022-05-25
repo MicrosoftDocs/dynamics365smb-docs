@@ -68,6 +68,7 @@ The following sections point to key articles that can help you get familiar with
 ## Development and administration content
 
 - [Development and Administration](/dynamics365/business-central/dev-itpro/index)
+- [Trials and Subscriptions](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 - [Development in AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Rules and Guidelines for AL Code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)

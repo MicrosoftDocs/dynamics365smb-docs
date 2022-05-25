@@ -101,13 +101,13 @@
 ## Try
 ### [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)
 ### [Dynamics 365 Business Central trial FAQ](trial-faq.md)
-### [Trials and Subscriptions](across-preview.md)
+### [Trials and Subscriptions (English only)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)
 ### [Get Ready for Doing Business](ui-get-ready-business.md)
 ### [Troubleshoot Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ### [Extend Your Trial Version](admin-extend-trial.md)
 ### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ## Buy
-### [Get Started with a Subscription](across-preview.md#get-started-with-a-subscription)
+### [Get Started with a Subscription](trial-signup.md#get-started-with-a-subscription)
 ### [Get Ready for Doing Business](ui-get-ready-business.md)
 
 ## Quick Starts

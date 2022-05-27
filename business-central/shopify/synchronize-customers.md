@@ -1,7 +1,7 @@
 ---
 title: Synchronize customers
 description: Import customers from or export to Shopify 
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
@@ -20,8 +20,8 @@ When an order is imported from Shopify, the information about customer is essent
 
 The *Import order from Shopify* function tries to select customer in the following order:
 
-1. If the **Default Customer No.** is defined in the **Shopify Customer Template** for the corresponding country, then **Default Customer No.** is used, regardless of the settings in **Customer Import From Shopify** and **Customer Mapping Type**.
-2. If **Customer Import From Shopify** and **Default Customer No.** is defined, then the **Default Customer No.** is used.
+1. If the **Default Customer No.** field is defined in the **Shopify Customer Template** for the corresponding country, then **Default Customer No.** is used, regardless of the settings in **Customer Import From Shopify** and **Customer Mapping Type**. For more information, see [Customer Template per Country](synchronize-customers.md#customer-template-per-country).
+2. If **Customer Import From Shopify** set to *None* and **Default Customer No.** is defined in the **Shopify Shop Card**, then the **Default Customer No.** is used.
 
 Next steps depend on **Customer Mapping Type**.
 
@@ -71,7 +71,7 @@ Existing customers can be exported to Shopify in bulk. As a result, a customer a
 
 ### Populate customer information in Shopify
 
-A customer in Shopify has first name, last name, email, and/or phone number. You can populate the first name and last name based on the data from customer card in [!INCLUDE[prod_short](../includes/prod_short.md)].
+A customer in Shopify has a first name, last name, email, and/or phone number. You can populate the first name and last name from the customer card in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 |Priority|Field in Customer card|Description|
 |------|------|-----------|
@@ -95,6 +95,8 @@ For addresses where country/province is used, select *Code* or *Name* in the **C
 3. Choose the **Sync Customers** action.
 
 Alternatively, you can use the **Start Customer Sync** action on the **Shopify Customers** window or search for **Sync Customers** batch job.
+
+You can schedule the task to be performed in an automated manner. For more information, see [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
 
 ## See Also
 

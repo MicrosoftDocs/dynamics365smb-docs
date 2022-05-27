@@ -23,6 +23,7 @@ The following topics describe local functionality that is unique to the French v
     * [Export General Ledger Entries for Tax Audits](how-to-export-general-ledger-entries-for-tax-audits.md) **Available Now**
     * [Export General Ledger Entries to an XML File](how-to-export-general-ledger-entries-to-an-xml-file.md) **Available Now**
     * [Requirements for Reporting Declaration of Trade in Goods](requirements-for-reporting-declaration-of-trade-in-goods.md) **Available Now**
+    * Reporting Declaration of Services DES **2022 release wave 2**
 
 * Banking & Payments
     * [Set Up Payment Addresses](how-to-set-up-payment-addresses.md) **Available Now**

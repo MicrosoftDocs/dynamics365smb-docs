@@ -52,9 +52,8 @@ If [!INCLUDE[prod_short](../includes/prod_short.md)] can't connect to your Shopi
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the shop for which you want to get the access token to open the **Shopify Shop Card** page.
-3. In the **Code** field, enter the code.  
-4. Choose the **Request Access** action.
-5. If prompted sign-in to your Shopify account.
+3. Choose the **Request Access** action.
+4. If prompted, sign in to your Shopify account.
 
 ## See Also
 

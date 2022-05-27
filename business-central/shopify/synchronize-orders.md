@@ -1,7 +1,7 @@
 ---
 title: Synchronize and fulfill sales orders
 description: Set up and run import and processing of sales order from Shopify.
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
@@ -22,7 +22,7 @@ A regular Shopify order can have extra amounts on top, such as shipping charges 
 - **Tip account**  
 
 Enable **Auto Create Orders**  to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] once the Shopify order is imported.
-The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] contains a link to the Shopify order. If, you enable **Shopify Order No. on Doc. Line** then this information will be repeated in sales line of type *Comment*.
+The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] contains a link to the Shopify order. If you select the **Shopify Order No. on Doc. Line** field, then this information will be repeated in sales lines of type *Comment*.
 
 In the **Tax area source** field, you can define priority on how to select tax area code or VAT business posting group based on address. This step is relevant for countries with sales tax, but can be used for VAT countries. For more information, see [Tax remarks](synchronize-orders.md#tax-remarks).
 
@@ -66,16 +66,20 @@ The following procedure describes how to import and update the sales orders.
 
 Alternatively, you can search for **Sync Orders From Shopify** batch job.
 
-Once the import is completed, you can explore the Shopify order and find all related information, such as payment transactions, shipping costs, fulfillments, risk level. You can also see order confirmation sent to the customer by choosing **Shopify Status Page** action.
+You can schedule the task to be performed in an automated manner. For more information, see [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
+
+## Review imported orders
+
+Once the import is completed, you can explore the Shopify order and find all related information. For example, find the payment transactions, shipping costs, risk level, or fulfillments if the order was already fulfilled in Shopify. You can also see any order confirmation that has been sent to the customer by choosing the **Shopify Status Page** action.
 
 > [!NOTE]  
 > You can navigate to the **Shopify Orders** window directly and you'll see orders with *open* status from all shops. To review completed orders, you need to open **Shopify Orders** page from the specific **Shopify Shop Card** window.
 
-## Create sales document in Business Central
+## Create sales documents in Business Central
 
-If the **Auto Create Orders** toggle is enabled on **Shopify Shop Card**, the [!INCLUDE[prod_short](../includes/prod_short.md)] tries to create a sales document once order is imported. In case, the process encounters issues, for example if a customer or product is missing, you'll need to fix the problem and try to create sales order again.
+If the **Auto Create Orders** toggle is enabled on **Shopify Shop Card**, the [!INCLUDE[prod_short](../includes/prod_short.md)] tries to create a sales document once order is imported. If the process runs into issues, such as if a customer or product is missing, you'll need to fix the problem. Then you can try to create the sales order again.
 
-### To create sales document
+### To create sales documents
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the Shop for which you want to synchronize orders to open **Shopify Shop Card** page.
@@ -83,7 +87,7 @@ If the **Auto Create Orders** toggle is enabled on **Shopify Shop Card**, the [!
 4. Select the order for which you want to create a sales document and choose the **Create Sales Documents** action.
 5. Choose **Yes**.
 
-If the Shopify order requires fulfillment, the **Sales Order** will be created for fulfilled Shopify orders. For example, ones that contain only gift card, the **Sales Invoice** gets created.
+If the Shopify order requires fulfillment, the **Sales Order** will be created. For completely fulfilled Shopify orders, such as those orders that contain only a gift card or which are already handled in Shopify, the **Sales Invoice** gets created.
 
 A sales document is now created and can be managed by using the standard [!INCLUDE[prod_short](../includes/prod_short.md)] functionalities.
 
@@ -97,7 +101,7 @@ If your settings prevent creating a customer automatically and a proper existing
 
 ### Tax remarks
 
-While the imported Shopify order contains information about taxes, the taxes get recalculated when you create sales document. That's why it's important that the VAT/Tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)].
+While the imported Shopify order contains information about taxes, the taxes get recalculated when you create the sales document. That recalculatiob makes it important that the VAT/tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 - Multiple product tax/VAT rates. For example, some product categories are liable for reduced tax rates. Those items must exist in [!INCLUDE[prod_short](../includes/prod_short.md)] and be mapped to Shopify products. Otherwise, with automatic creation of missing items, the VAT product posting group will be used.
 

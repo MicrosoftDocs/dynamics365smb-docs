@@ -1,7 +1,7 @@
 ---
 title: Synchronize items and inventory
 description: Set up and run synchronizations of items between Shopify and Business Central
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
@@ -18,7 +18,7 @@ The **Items** in [!INCLUDE[prod_short](../includes/prod_short.md)] are equivalen
 
 These two scenarios are always enabled.
 
-Another scenario is when data is managed in Shopify and you want to import those items in bulk to [!INCLUDE[prod_short](../includes/prod_short.md)]. This scenario can be useful for data migration events, when an existing online shop needs to be connected to a new [!INCLUDE[prod_short](../includes/prod_short.md)].
+A third scenario is to manage data in Shopify but import those items in bulk to [!INCLUDE[prod_short](../includes/prod_short.md)]. This scenario can be useful for data migration events, when you want to connect an existing online shop with a new [!INCLUDE[prod_short](../includes/prod_short.md)] environment.
 
 ## To define item synchronizations
 
@@ -27,9 +27,9 @@ Another scenario is when data is managed in Shopify and you want to import those
 
 |Option|Description|
 |------|-----------|
-|**Blank**| Products are imported together with import of orders. Products are exported to Shopify if user runs **Add Item** action from the **Shopify Products** window. This is the default behavior. |
-|**To Shopify**| Select this option if, after initial sync triggered by **Add Item** action, you plan to update products manually using **Sync Product** action or via job queue for recurring updates. Remember to enable **Can Update Shopify Product** field. If not enabled, it's equal to **Blank** option. |
-|**From Shopify**| Choose this option, if you plan to import products from Shopify in bulk; either manually using **Sync Product** action or via job queue for recurring updates. If no option is selected, it equals to **Blank** option.|
+|**Blank**| Products are imported together with import of orders. Products are exported to Shopify if a user runs the **Add Item** action from the **Shopify Products** page. This process is the default behavior. |
+|**To Shopify**| Select this option if, after initial sync triggered by **Add Item** action, you plan to update products manually using **Sync Product** action or via job queue for recurring updates. Remember to enable **Can Update Shopify Product** field. If not enabled, it's equal to **Blank** option. For more information, see [Export items to Shopify](synchronize-items.md#export-items-to-shopify)|
+|**From Shopify**| Choose this option, if you plan to import products from Shopify in bulk; either manually using **Sync Product** action or via job queue for recurring updates. If no option is selected, it equals to **Blank** option. For more details about import of items, see [Import items from Shopify](synchronize-items.md#import-items-from-shopify)|
 
 ## Import items from Shopify
 
@@ -37,9 +37,9 @@ Either you import items from Shopify in bulk or together with import of orders, 
 
 |Field|Description|
 |------|-----------|
-|**Auto create unknown items**|When shopify products and variants are imported to [!INCLUDE[prod_short](../includes/prod_short.md)], the [!INCLUDE[prod_short](../includes/prod_short.md)] function always tries to find matching record in the item list first. **SKU Mapping** impacts how the matching is performed and creates new item and/or item variant. For more information, see [Product Mapping](synchronize-items.md#). Enable this option if you want to create a new item or when a matching record doesn't exist. The new item will be created using imported data and **Item Template Code**. If this option isn't enabled, you'll need to create an item manually and use **Map Product** action from **Shopify Products** page.|
+|**Auto create unknown items**|When shopify products and variants are imported to [!INCLUDE[prod_short](../includes/prod_short.md)], the [!INCLUDE[prod_short](../includes/prod_short.md)] function always tries to find matching record in the item list first. **SKU Mapping** impacts how the matching is performed and creates new item and/or item variant. Enable this option if you want to create a new item or when a matching record doesn't exist. The new item will be created using imported data and **Item Template Code**. If this option isn't enabled, you'll need to create an item manually and use **Map Product** action from **Shopify Products** page.|
 |**Item Template Code**|Used together with **Auto create unknown items**. <br> Choose the template to be used for automatically created items.|
-|**SKU Mapping**|Choose how you want to use **SKU** value imported from Shopify during item/variant mapping and creation. For more information, see [How SKU and Barcode defined in Shopify product affects mapping and creation of items and variants](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
+|**SKU Mapping**|Choose how you want to use **SKU** value imported from Shopify during item/variant mapping and creation. For more information, see [How SKU and Barcode defined in Shopify product affects mapping and creation of items and variants](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
 |**SKU Field Separator**|Used together with **SKU Mapping** set to **Item. No + Variant Code** option.<br> Define a separator that should be used to split SKU. <br>For example, if in Shopify you create the variant with SKU '1000/001', type '/' in the **SKU Field Separator** field to get the item number in [!INCLUDE[prod_short](../includes/prod_short.md)] as '1000' and the item variant code as '001'.
 |**Variant Prefix**|Used together with **SKU Mapping** set to **Variant Code** or **Item. No + Variant Code** options as a fallback strategy when the SKU coming from Shopify is empty.<br>If you want to create the item variant in [!INCLUDE[prod_short](../includes/prod_short.md)] automatically, you'll need to enter a value in **Code**. By default, the value defined in the SKU field imported from Shopify is used. However, if the SKU is empty, it will generate code starting with defined variant prefix and "001".|
 |**Shopify Can Update Item**| Choose this option if you want to update items and/or variants automatically.|
@@ -95,10 +95,10 @@ The following settings let you manage the process of exporting items:
 |SEO page title|Fix value: empty, see [Ad-hock updates of Shopify Products](synchronize-items.md#ad-hock-updates-of-shopify-products). |Not used.|
 |SEO meta description|Fix value: empty, see [Ad-hock updates of Shopify Products](synchronize-items.md#ad-hock-updates-of-shopify-products). |Not used.|
 |Media|**Image**, for more information, see [Sync Item Images](synchronize-items.md#sync-item-images)|**Image**|
-|Price|End-customer price is calculated with respect to item price group, item discount group, currency code, and customer template code. |Not used.|
-|Compare at price|Price without discount is calculated with respect to item price group, item discount group, currency code, and customer template code. |Not used.|
+|Price|The calculation of the end-customer price includes the item price group, item discount group, currency code, and customer template code. |Not used.|
+|Compare at price|The calculation of price without discount includes the item price group, item discount group, currency code, and customer template code. |Not used.|
 |Cost per item|**Unit Cost**|**Unit Cost**|
-|SKU|See **SKU Mapping** in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify)| See [How SKU and Barcode defined in Shopify product affect mapping and creation of items and variants](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-impact-mapping-and-creation-of-items-and-variants-in-business-central)|
+|SKU|See **SKU Mapping** in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify)| See [How SKU and Barcode defined in Shopify product affect mapping and creation of items and variants](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
 |Barcode|**Item References** of barcode type|**Item References** of barcode type|
 |Track quantity|According to the **Inventory Tracked** in the **Shopify Shop Card**. For more information, see [Inventory](synchronize-items.md#sync-inventory-to-shopify).|Not used.|
 |Continue selling when out of stock|According to the **Default Inventory Policy** in the **Shopify Shop Card**. Not imported.|Not used.|
@@ -110,7 +110,7 @@ The following settings let you manage the process of exporting items:
 
 ### Tags
 
-Imported tags can be reviewed in the **Tags** factbox in the **Shopify Product**. To edit tags, choose the **Tags** action in the **Shopify Product** page.
+Review the imported tags in the **Tags** FactBox in the **Shopify Product** page. To edit tags, choose the **Tags** action in the **Shopify Product** page.
 If the **To Shopify** option is selected in the **Sync Item** field, assigned tags are exported to Shopify at next synchronization.
 
 ## Run item synchronization
@@ -134,6 +134,8 @@ The resulting items are automatically created in Shopify with prices but images 
 3. Choose the **Sync Products** action.
 
 Alternatively, use the **Sync Products** action on the **Shopify Products** window or search for **Sync Products** batch job.
+
+You can schedule the task to be performed in an automated manner. For more information, see [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
 
 ### Ad-hock updates of Shopify Products
 
@@ -190,8 +192,8 @@ Prices can be exported for synchronized items in the ways described below.
 
 ### Price calculation remarks
 
-* For price calculation, it's important to have a value in the **Default Customer Template** field.
-* Remember to enter a **Currency Code** if your online shop uses different currency than LCY.
+* For price calculation, it's important to have a value in the **Default Customer Template** field. [!INCLUDE[prod_short](../includes/prod_short.md)] uses the value of the **VAT Business Group** field to calculate the price including VAT. You might want to create a customer price group where you select the **Price including VAT** field and specify the relevant value in the **VAT Bus. Posting Gr. (Price)** field.
+* Enter a **Currency Code** if your online shop uses different currency than LCY. The specified currency must have exchange rates configured. If your online shop uses same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty.
 * When determining a price, [!INCLUDE[prod_short](../includes/prod_short.md)] uses "Lowest price" logic. It means that if unit price defined in the item card is lower than what is defined in the price group, the unit price from the item card is used.
 
 ## Sync inventory to Shopify
@@ -226,7 +228,7 @@ You can initialize inventory synchronization in two ways.
 ### Inventory remarks
 
 * The connector calculates the **Projected Available Balance** and export it to Shopify.
-* You can inspect the stock information received from Shopify in the **Shopify Inventory Factbox** page. In this factbox, you get an overview of the Shopify Stock and the last calculated inventory in [!INCLUDE[prod_short](../includes/prod_short.md)]. There's a record per location.
+* You can inspect the stock information received from Shopify in the **Shopify Inventory FactBox** page. In this FactBox, you get an overview of the Shopify Stock and the last calculated inventory in [!INCLUDE[prod_short](../includes/prod_short.md)]. There's a record per location.
 * If the stock information in Shopify is different from **Projected Available Balance** in [!INCLUDE[prod_short](../includes/prod_short.md)], then stock will be updated in Shopify.
 
 ## See Also

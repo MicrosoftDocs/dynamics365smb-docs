@@ -26,13 +26,13 @@ The Shopify connector gives customers the ability to connect their Shopify store
 
 ## Availability
 
-This feature is available only for [!INCLUDE[prod_short](../includes/prod_short.md)] online, starting with version 20.1. It isn't available for on-premises deployments. The app with the connector is pre-installed for new customers. Existing customers can download and install the app from AppSource. Customers need to have both a Business Central license and a Shopify license to use the connector. For more information about supported countries, languages, and editions of [!INCLUDE[prod_short](../includes/prod_short.md)], see [Shopify Connector on the AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
+This feature is available only for [!INCLUDE[prod_short](../includes/prod_short.md)] online, starting with version 20.1. It isn't available for on-premises deployments. The app with the connector is pre-installed for new envirnments. Organizations with existing environments can download and install the app from AppSource. The organization must have both a Business Central license and a Shopify license to use the connector. For more information about supported countries, languages, and editions of [!INCLUDE[prod_short](../includes/prod_short.md)], see [Shopify Connector on the AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
 
 ## Support
 
-Shopify Connector is covered by current support model. For more information, see [Technical Support](/dynamics365/business-central/dev-itpro/administration//manage-technical-support). 
+The Shopify connector is covered by the current support model. For more information, see [Technical Support](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (in English only). 
 
-To get help with Shopify start with [General Shopify Help Center](https://help.shopify.com/) or [24/7 Support for your store as a Shopify merchant](https://help.shopify.com/questions#/).
+To get help with Shopify, start with [General Shopify Help Center](https://help.shopify.com/) or [24/7 Support for your store as a Shopify merchant](https://help.shopify.com/questions#/).
 
 ## Extensibility
 

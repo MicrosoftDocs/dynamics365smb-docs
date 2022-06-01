@@ -29,6 +29,8 @@ To create a custom layout, you either make a copy of an existing custom layout o
 
 When custom report layouts are defined, you can select them from customer and vendor cards to specify that the selected layouts will be used for documents that you create for the customer or vendor in question. For more information, see [Define Document Layouts for Customers and Vendors](ui-define-customer-vendor-document-layouts.md).
 
+You can also use custom report layouts to add content to email messages. For example, report layouts can save time and help ensure consistency by reusing the same content when you communicate with your customers. To use custom report layouts with email, the file type for the layout must be Word. You cannot use the RDLC file type. For more information, see [Set Up Reusable Email Texts and Layouts for Sales and Purchase Documents](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents). 
+
 ## To create a custom layout
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Layout Selection**, and then choose the related link.

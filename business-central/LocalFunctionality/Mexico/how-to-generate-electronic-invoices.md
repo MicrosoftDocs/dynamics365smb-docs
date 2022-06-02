@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 132, 25
-ms.date: 05/19/2022
+ms.date: 06/01/2022
 ms.author: edupont
 
 ---
@@ -18,15 +18,24 @@ ms.author: edupont
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], after you post a sales invoice you must generate an electronic invoice that will be sent to the customer. You can also export the electronic invoice as an XML file, which you can save to a specified location.  
 
-The following procedure describes how to generate electronic invoices for sales invoices, but the same steps also apply to service invoices and credit memos.  
+The following procedure describes how to generate electronic invoices for sales invoices, but the same steps also apply the following documents:
+
+* Sales credit memos  
+* Sales shipments  
+* Transfer shipments  
+* Service invoices  
+* Service credit memos  
 
 ## To generate electronic invoices for sales invoices  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoice**, and then choose the related link.  
 2. Select the posted invoice.  
+
+    > [!NOTE]
+    > If you're canceling the posted document, you must specify a reason for the cancellation in the **CFDI Cancellation Reason** field, and you must specify which document substitutes the canceled document in the **Substitution Document No.** field. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 3. Choose the **Send Electronic Document** action, and then specify if you want to also request a digital stamp for the document.  
 
-    If you choose **Request Stamp**, the posted invoice will be digitally signed by your PAC, and you can then send the posted invoice afterwards. if you choose **Request Stamp and Send**, the posted invoice is digitally signed and sent in one step.
+    If you choose **Request Stamp**, the posted invoice will be digitally signed by your PAC, and you can then send the posted invoice afterwards. If you choose **Request Stamp and Send**, the posted invoice is digitally signed and sent in one step.
 
     An email will be sent to the customer with the electronic invoice attached as an XML file. If you selected the **Send PDF Report** field on the **General Ledger Setup** page, a PDF will be included with the XML file.  
 
@@ -40,7 +49,7 @@ To verify the electronic invoice activity, on the **Posted Sales Invoice** page,
 
 ## Receive payments
 
-Mexican companies must be able to receive payments in accordance with CFDI Withholdings and Payment Information version 2.0. To receive payment in accordance with CFDI version 2.0, you don't need additional settings because the required data will already have been included for the customer invoices. You cannot stamp a payment that is applied to an invoice that does not have a stamp.
+Mexican companies must be able to receive payments in accordance with CFDI Withholdings and Payment Information version 2.0. To receive payment in accordance with CFDI version 2.0, you don't need extra settings because the required data will already have been included for the customer invoices. You can't stamp a payment that is applied to an invoice that doesn't have a stamp.
 
 > [!IMPORTANT]  
 > The current version of [!INCLUDE [prod_short](../../includes/prod_short.md)] supports receipt of *customer payment information* in accordance with CFDI version 2.0. However, *withholding receipt* is currently not supported in the default version of [!INCLUDE [prod_short](../../includes/prod_short.md)].  

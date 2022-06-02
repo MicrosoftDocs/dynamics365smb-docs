@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 10458, 10459, 27001, 27002, 27003, 27010,27011, 27011, 27012, 27013,27014,27015, 27016, 27017, 27018, 27040, 27041, 27042, 27043, 27044
-ms.date: 03/23/2022
+ms.date: 06/01/2022
 ms.author: edupont
 
 ---
@@ -39,7 +39,7 @@ The CFDI file is an XML file that contains:
 > [!IMPORTANT]  
 > You will be submitting the electronic invoices to a PAC, which is an authorized service provider appointed by the Mexican tax authorities (SAT). SAT has certified more than one PAC in Mexico, and you must obtain the appropriate information to communicate with the PAC of your choice. By default, [!INCLUDE [prod_short](../../includes/prod_short.md)] supports integration with [Interfactura](https://interfactura.com/), but you can use another PAC of your choice.  
 
-## Getting Started
+## Get started
 
 Before you can use [!INCLUDE[prod_short](../../includes/prod_short.md)] for electronic invoicing, you must obtain the appropriate certification, digital stamp, and control numbers from the tax authorities. You must install the certificate on the computer where the CFDI files will be generated. For more information, see [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md). For information about SAT certificates and keys, see the [Servicio de Administracíon Tributaria](https://go.microsoft.com/fwlink/?LinkId=242772) website.  
 
@@ -53,7 +53,7 @@ You also must specify the web services that you will use to communicate with the
 
 You must also specify information about your own company and each of your customers and vendors. For more information, see [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md).  
 
-## Sending Electronic Invoices
+## Send electronic documents
 
 When you have posted an invoice or credit memo, you can send it to your customer. But first you must obtain a digital stamp from a PAC. [!INCLUDE[prod_short](../../includes/prod_short.md)] communicates with the PAC through web services to request a stamp, and the document is automatically digitally signed by your company and the PAC.  
 
@@ -66,7 +66,24 @@ If you also want to print the documents, the documents will include a Quick Resp
 
 For more information, see [Generate Electronic Invoices](how-to-generate-electronic-invoices.md).  
 
-## Communication Component
+## Cancel documents
+
+Sometimes you have to revert a transaction, such as if a location for a shipment has to be changed for some reason. Such cancellations must also be sent as electronic documents.  
+
+When you send a cancellation,  you must specify a reason for the cancellation, and you must specify which document substitutes the canceled document.  
+
+The following table provides an overview of the options for the **CFDI Cancellation Reason** field as of February 2022:
+
+|Option  |Description  |
+|---------|---------|
+|01     |Voucher issued with errors in relation.|
+|02     |Voucher issued with unrelated errors.|
+|03     |The operation was not carried out.|
+|04     |Related nominative operation in a global invoice.|
+
+If you choose code *01*, then you must also specify the document that substitutes the canceled document in the **Substitution Document No.** field.  
+
+## Communication component
 
 Technically, the [!INCLUDE[prod_short](../../includes/prod_short.md)] component for electronic invoicing deploys in a library assembly, Microsoft.Dynamics.NAV.MX.dll, which is included automatically with [!INCLUDE[prod_short](../../includes/prod_short.md)]. The component handles the communication with the PAC web services and also generates the QR codes that are included in the printed documents.  
 

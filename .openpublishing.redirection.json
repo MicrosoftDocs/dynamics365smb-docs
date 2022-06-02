@@ -794,7 +794,7 @@
         },
         {
             "source_path": "business-central/across-preview.md",
-            "redirect_url": "(/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)",
+            "redirect_url": "/dynamics365/business-central/dev-itpro/administration/trials-subscriptions",
             "redirect_document_id": false
         }
 

@@ -46,9 +46,9 @@ For optimal performance, the connector imports only customers, products, and ord
 
 This function only applies to syncs from Shopify to [!INCLUDE[prod_short](../includes/prod_short.md)] and can be useful if you need to restore deleted data such as products, customers, or deleted orders.
 
-## Update the access token
+## Request the access token
 
-If [!INCLUDE[prod_short](../includes/prod_short.md)] can't connect to your Shopify account, try resetting the access token. This might be needed in case of rotation of security keys or changes in required permissions (scopes).
+If [!INCLUDE[prod_short](../includes/prod_short.md)] can't connect to your Shopify account, try request the access token from Shopify. This might be needed in case of rotation of security keys or changes in required permissions (scopes).
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the shop for which you want to get the access token to open the **Shopify Shop Card** page.
@@ -59,13 +59,30 @@ The **Has AccessKey** toggle will be activated.
 
 ### Verify and enable permission to make Http requests when running in a non-production environment
 
-In order to work correctly Shopify Connector requires permission to make Http requests. When testing in Sandboxes, the Http requests are prohibited for all extensions. 
+In order to work correctly the Shopify Connector extension requires permission to make Http requests. When testing in Sandboxes, the Http requests are prohibited for all extensions. 
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Extension Management**, and choose the related link.
 2. Select the *Shopify Connector* extension.
 3. Choose the **Configure** action to open **Extension Setting** page.
 4. Make sure that the **Allow HTTPClient Requests** toggle is enabled.
 
+
+## Rotate Shopify Access key
+
+Following procedures describes how to to rotate the access token used by Shopify Connector to access your Shopify online shop.
+
+### In Shopify
+
+1. From your **Shopify admin**, go to [Apps](https://www.shopify.com/admin/apps).
+2. In the row with *Dynamics 365 Business Central** the app, click Delete.
+3. In the message that appears, click **Delete**.
+
+### In [!INCLUDE[prod_short](../includes/prod_short.md)]
+
+1. Go to search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop** and choose the related link.
+2. Select the shop for which you want to rotate the access token to open the **Shopify Shop Card** page.
+3. Choose the **Request Access** action.
+4. If prompted, sign-in into your Shopify account, review privacy and permissions, and then choose the **Install App** button.
 
 ## See Also
 

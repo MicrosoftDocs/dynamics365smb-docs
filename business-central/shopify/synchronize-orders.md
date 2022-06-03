@@ -50,6 +50,19 @@ To fill in the **Payment method code** for sales documents imported from Shopify
 5. Enter the **Payment Method Code** with the corresponding payment method in [!INCLUDE[prod_short](../includes/prod_short.md)].
 6. Set the **Priority** for cases when customer uses multiple means of payment. The payment method with the highest priority gets selected in the sales document. If both payment methods have the same priority, the payment method with the highest amount is used.
 
+### Location mapping
+
+To fill in the **Location Code** for sales documents imported from Shopify automatically, you need to configure **Shopify Shop Locations**.
+
+1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop** and choose the related link.
+2. Select the Shop for which you want to configure mapping of locations  to open **Shopify Shop Card** page.
+3. Choose the **Locations** action to open **Shopify Shop Locations**.
+4. Choose the **Get Shopify Locations** action to import all the locations defined in the Shopify. You can find them in the [**Locations**](https://www.shopify.com/admin/settings/locations) settings in your **Shopify admin**.
+5. Enter the **Location Code** with the corresponding location in [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+> [!NOTE]  
+> You must configure location mapping if the **Location Mandatory** toggle is enabled in the **Inventory Setup** card, otherwise you won't be able to create sales document.
+
 ## Run order synchronization
 
 The following procedure describes how to import and update the sales orders.

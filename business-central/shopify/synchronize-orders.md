@@ -58,7 +58,7 @@ To fill in the **Location Code** for sales documents imported from Shopify autom
 2. Select the Shop for which you want to configure mapping of locations  to open **Shopify Shop Card** page.
 3. Choose the **Locations** action to open **Shopify Shop Locations**.
 4. Choose the **Get Shopify Locations** action to import all the locations defined in the Shopify. You can find them in the [**Locations**](https://www.shopify.com/admin/settings/locations) settings in your **Shopify admin**.
-5. Enter the **Location Code** with the corresponding location in [!INCLUDE[prod_short](../includes/prod_short.md)].
+5. Enter the **Default Location Code** with the corresponding location in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 > [!NOTE]  
 > You must configure location mapping if the **Location Mandatory** toggle is enabled in the **Inventory Setup** card, otherwise you won't be able to create sales document.

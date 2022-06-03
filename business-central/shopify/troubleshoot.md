@@ -48,12 +48,24 @@ This function only applies to syncs from Shopify to [!INCLUDE[prod_short](../inc
 
 ## Update the access token
 
-If [!INCLUDE[prod_short](../includes/prod_short.md)] can't connect to your Shopify account, try resetting the access token.
+If [!INCLUDE[prod_short](../includes/prod_short.md)] can't connect to your Shopify account, try resetting the access token. This might be needed in case of rotation of security keys or changes in required permissions (scopes).
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the shop for which you want to get the access token to open the **Shopify Shop Card** page.
 3. Choose the **Request Access** action.
 4. If prompted, sign in to your Shopify account.
+
+The **Has AccessKey** toggle will be activated.
+
+### Verify and enable permission to make Http requests when running in a non-production environment
+
+In order to work correctly Shopify Connector requires permission to make Http requests. When testing in Sandboxes, the Http requests are prohibited for all extensions. 
+
+1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Extension Management**, and choose the related link.
+2. Select the *Shopify Connector* extension.
+3. Choose the **Configure** action to open **Extension Setting** page.
+4. Make sure that the **Allow HTTPClient Requests** toggle is enabled.
+
 
 ## See Also
 

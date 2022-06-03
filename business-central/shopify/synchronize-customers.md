@@ -52,7 +52,7 @@ The **Shopify Customer Template** lets you do following for each country:
 
 1. Specify the **Default Customer No.**, which takes priority over the selection in the **Customer Import from Shopify** and **Customer Mapping Type** fields. It's used in the imported sales order.
 2. Define the **Customer Template Code**, which is used to create missing customers, if **Auto Create Unknown Customers** is enabled. If **Customer Template Code** is empty, then the function uses **Customer Template Code** defined on the **Shopify Shop Card**.
-3. In some cases, **Customer Template Code** per country isn't enough to ensure right calculation of taxes. For example, for countries with sales tax.
+3. In some cases, **Customer Template Code** defined for country isn't enough to ensure right calculation of taxes. For example, for countries with sales tax. In this case the **Tax Areas** could be very useful addition.
 
 > [!NOTE]  
 > The country codes are ISO 3166-1 alpha-2 country codes. For more information, see [Country Code](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).

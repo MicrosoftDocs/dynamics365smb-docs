@@ -120,6 +120,18 @@ While the imported Shopify order contains information about taxes, the taxes get
 
 - Address-dependent tax rates. Use the **Tax area priority** field together with **Customer Templates** table to overwrite standard logic that fills in **Tax Area Code** in the sales document. The **Tax area priority** field specifies priority from where the function should take information about country/region and state/province. Then the corresponding record in the Shopify customer templates is found and **Tax Area Code**, **Tax Liable**, and **VAT Bus. Posting Group** is used when a sales document is created.
 
+### Impact of edits of orders
+
+|Edit|Impact|
+|------|-----------|
+|In Shopify, change fulfilment location | Original location will be synched to [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|In Shopify, edit order and change quantity| Order header and supplementary tables will be updated in [!INCLUDE[prod_short](../includes/prod_short.md)], lines won't. |
+|In Shopify, edit order and add new item | Order header will be updated, lines won't. |
+|In [!INCLUDE[prod_short](../includes/prod_short.md)], change location to another location, mapped to Shopify Locations. Post shipment. | After synchronization of fulfilment, location will be updated in Shopify. |
+|In [!INCLUDE[prod_short](../includes/prod_short.md)], change location to another location, not mapped to Shopify Locations. Post shipment. | Fulfilment won't be synchronized to Shopify. |
+|In [!INCLUDE[prod_short](../includes/prod_short.md)], change decrease quantity. Post shipment. | Shopify order will be marked as partially fulfilled. |
+|In [!INCLUDE[prod_short](../includes/prod_short.md)], add new item. Post shipment. | Shopify order will be marked as fulfilled. Lines won't be updated. |
+
 ## Synchronize shipments to Shopify
 
 When a sales order that is created from a Shopify order, is shipped, you can synchronize the shipments to Shopify.

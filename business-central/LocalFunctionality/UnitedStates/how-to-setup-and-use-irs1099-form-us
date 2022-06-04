@@ -1,0 +1,98 @@
+---
+title: How to Setup and Use IRS 1099 Form in the US
+description: The IRS requires the 1099 tax form for payments to vendors and you can specify a purchase document is 1099 liable and specify the 1099 code for the vendor.
+author: altotovi
+
+
+ms.topic: conceptual
+ms.workload: na
+ms.search.keywords: local, 1099
+ms.search.form: 26, 29, 50, 51, 10015, 10016, 10018, 10900
+ms.date: 06/04/2022
+ms.author: edupont
+
+---
+
+The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax form for payments to vendors. Copies of these forms must be sent to vendors annually on or before the last day of January. On your purchase documents, you can specify that the document is 1099 liable, and you can specify the 1099 code for the vendor.
+
+# Setup
+Before starting work, you need to set up **1099 Form Boxes** and **Vendors** as 1099 liable. The most common 1099 Codes are already set up and they are defined on the **1099 Form Box** page, where you can also add new 1099 Codes. Before you prepare your reporting for the new year, you must first upgrade your [!INCLUDE[prod_short](../../includes/prod_short.md)] to handle the new requirements.
+
+## To update the 1099 Form Boxes:
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **1099 Form Box**, and then choose the related link.
+2. Run the **Update Form Boxes** action on the **1099 Form Boxes** page.
+
+> [!IMPORTANT]
+> Running the action **Update Form Boxes** makes reporting for the previous year impossible, since some boxes change their meaning. Make sure that you have done all your reporting for the previous year before you update the form boxes to prepare your system for reporting for the new year.
+
+## To set up the Vendor as 1099 liable:
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+2. Open the relevant vendor's card.
+3. Choose the **Payments** FastTab and select the **IRS 1099 Code** field, where you can choose one of applicable IRS 1099 codes.
+
+# Documents and entries
+## To process the document as 1099 liable:
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoice**, and then choose the related link.
+2. Create a new entry and in the **Vendor Name** field on the **Purchase Invoice** header, enter the vendor with selected IRS 1099 code.
+3. Choose the **Shipping and Payment** FastTab and you will find that the **IRS 1099 Code** field has been automatically populated based on the Vendor configuration. If you want to use another code, you can override it with another one or delete it to have transaction without IRS 1099 code.
+4. Enter all information into the required fields for purchase invoice and post the document.
+5. Once the document is posted, within the **Vendor Ledger Entries** you will find that the **IRS 1099 Code** and **IRS 1099 Amount** fields are automatically populated.
+
+> [!NOTE]
+> Instead of a ***Purchase Invoice** you can also use **Purchase Order** as a document, but in this case the **IRS 1099 Code** field will be on the **Invoice Details** FastTab.
+
+## To correct posted entries:
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+2. Open the relevant vendor's card.
+3. On the **Vendor Card** page, choose **Ledge Entries** action to open the **Vendor Ledger Entries** page where you can review list of all transactions for your vendor.
+4. Locate the entry you want to correct.
+5. If you want to change IRS code, find the **IRS 1099 Code** field, and change the code for the right one.
+6. If you want to change the amount, find the **IRS 1099 Amount** field, and update the existing amount.
+
+# Reporting
+## To find IRS 1099 statistics:
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+2. Open the relevant vendor's card.
+3. On the **Vendor Card** page, choose **1099 Statistics** action to open the **Vendor 1099 Statistics** page.
+
+## To review IRS 1099 amounts for specific vendor:
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+2. Open the relevant vendor's card.
+3. On the **Vendor Card** page, choose **Vendor 1099 Information** action to open the **Vendor 1099 Information** report.
+4. Enter **Vendor No.** and **Date Filter** and choose **Print** or **Preview**.
+
+## To print 1099 tax forms:
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **1099 Form Boxes**, and then choose the related link.
+2. On the **1099 Form Boxes** page, choose **Reports** action and choose one of Vendor 1099 reports for printing:
+- **Vendor 1099-DIV** - Prints the federal form 1099-DIV for dividends and distribution. You can print all or specific 1099-DIV forms. The report uses the codes that apply to the DIV form amount boxes from the **1099 Form Boxes** page.
+- **Vendor 1099 Int** - Prints the federal form 1099-INT for interest income. You can print all or specific 1099-INT forms. The report uses the codes that apply to the INT form amount boxes from the **1099 Form Boxes** page.
+- **Vendor 1099-MISC** - Prints the federal form 1099-MISC for miscellaneous income. You can print all or specific 1099-MISC forms. The report uses the codes that apply to the MISC form amount boxes from the **1099 Form Boxes** page.
+- **Vendor 1099-NEC** – Prints the federal form 1099-NEC for non-employee compensation. You can print all or specific 1099-NEC forms. The report uses the codes that apply to the NEC form amount boxes from the **1099 Form Boxes** page.
+
+
+> [!NOTE]
+> Regulatory changes affecting this report and the table data are generally handled in end-of-year updates.
+
+## To submit the 1099 tax forms electronically:
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **1099 Form Boxes**, and then choose the related link.
+2. On the **1099 Form Boxes** page, choose **Vendor 1099 Magnetic Media** action.
+3. Specifies the 1099 forms that can be exported.
+
+The report uses the codes that apply to the form amount boxes from the **1099 Form Boxes** page. The codes are mapped to the form boxes in the file layouts of this report, therefore the table data and report version for a particular tax year must be in agreement. If any custom codes are added to the table these must be mapped to the form boxes inside this object.
+
+> [!NOTE]
+> The form information exported by this report is the same as the reports that print 1099 forms that are described in the previous section.
+
+> [!NOTE]
+> Regulatory changes affecting this report and the table data are generally handled in end-of-year updates.
+
+
+## See Also
+[Detaild about Reporting 1099 Transactions](tax-1099.md)
+[United States Local Functionality](united-states-local-functionality.md)  
+[Register New Vendors](../../purchasing-how-register-new-vendors.md)  
+[Record Purchase](../../purchasing-how-record-purchases.md)  
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

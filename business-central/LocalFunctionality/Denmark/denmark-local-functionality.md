@@ -19,6 +19,9 @@ The following topics describe the local functionality in the Danish version of [
 
 ## Feature Availability
 
+* Accounting
+    * Digital Vouchers (Changes to Danish Act of Bookkeeping) **2022 release wave 2**
+
 * VAT
     * [Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md) **Available Now**
     * [VAT-VIES Reporting](vat-vies-reporting.md) **Available Now**

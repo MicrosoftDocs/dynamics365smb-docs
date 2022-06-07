@@ -1,6 +1,6 @@
 ---
     title: Denmark Local Functionality
-    description: The following topic refers you to linked information that describes local functionality in Denmark.
+    description: The following article refers you to linked information that describes local functionality in Denmark.
     author: sorenfriisalexandersen
 
     
@@ -20,7 +20,7 @@ The following topics describe the local functionality in the Danish version of [
 ## Feature Availability
 
 * Accounting
-    * Digital Vouchers (Changes to Danish Act of Bookkeeping) **2022 release wave 2**
+    * Digital Vouchers (Changes to the Danish Bookkeeping Act) **2022 release wave 2**
 
 * VAT
     * [Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md) **Available Now**

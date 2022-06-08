@@ -14,7 +14,7 @@ The unit cost for items can be calculated in different ways according to how the
 
 As a rule, with costing method set as Standard, the **Unit Cost** field value is based on the standard cost for the item. The option also sets the field in the item table non-editable.
 
-If the costing method is FIFO, LIFO, Specific, or Average, than the unit cost is calculated as follows:
+If the costing method is FIFO, LIFO, Specific, or Average, then the unit cost is calculated as follows:
 
 * Unit cost = inventory value of available items (expected cost + invoiced cost) / quantity on hand
 
@@ -58,7 +58,7 @@ If you use the Average costing method, then an item’s unit cost is calculated 
  [Registering New Items](inventory-how-register-new-items.md)  
  [Inventory](inventory-manage-inventory.md)  
  [Sales](sales-manage-sales.md)  
- [Purchasing](purchasing-manage-purchase.md)  
+ [Purchasing](purchasing-manage-purchasing.md)  
  [Design Details: Costing Methods](design-details-costing-methods.md)  
  [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
 

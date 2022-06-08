@@ -9,7 +9,7 @@ ms.author: edupont
 
 ### Which email address I should use to sign up?
 
-Use your work or school email address. We'll establish your trial on your organization’s account. You cannot use email addresses provided by consumer email services or telecommunication providers, such as outlook.com, hotmail.com, gmail.com, and others.  
+Use your work or school email address. We'll establish your trial on your organization’s account. You can't use email addresses provided by consumer email services or telecommunication providers, such as *outlook.com*, *hotmail.com*, *gmail.com*, and others.  
 
 ### What are the system requirements for the trial?
 
@@ -34,7 +34,7 @@ When you sign up for the trial, you'll receive an email with the trial details. 
 
 ### How do I add more users to a trial?
 
-To add users, ask your administrator to go to the [Microsoft 365 admin center](https://admin.microsoft.com) where they can follow the [admin center guidance](/microsoft-365/admin/add-users/add-users) to add users up to the trial license limit. If the user you are adding already has a Microsoft 365 account, assign them the relevant license. For more information, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users) in the Microsoft 365 content.
+To add users, your administrator must go to the [Microsoft 365 admin center](https://admin.microsoft.com). Then they can follow the [admin center guidance](/microsoft-365/admin/add-users/add-users) to add users up to the trial license limit. If the user you're adding already has a Microsoft 365 account, assign them the relevant license. For more information, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users) in the Microsoft 365 content.
 
 ### How many users can I add to my trial environment?
 
@@ -42,7 +42,7 @@ You can add an unlimited number of users to the trial environment.
 
 ### How do I reset the trial environment?
 
-You can't reset the trial environment. But your admin can create fresh sandbox environments where you can play around with the various capabilities. For more information, see [Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types) in the admin content.  
+You can't reset the trial environment. But ask your admin to create a fresh sandbox environment so that you can play around with the various capabilities. For more information, see [Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types) in the admin content.  
 
 If you want to cancel [!INCLUDE [prod_short](prod_short.md)] during a trial period, you must ask your Microsoft 365 administrator to remove the trial subscription from your company's account in the [Microsoft 365 admin center](https://admin.microsoft.com/). See also [Unsubscribe or Remove [!INCLUDE[prod_short](prod_short.md)]](../admin-cancel.md).  
 

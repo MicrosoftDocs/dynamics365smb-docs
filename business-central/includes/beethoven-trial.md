@@ -2,7 +2,7 @@
 author: edupont04
 
 ms.topic: include
-ms.date: 02/23/2022
+ms.date: 06/08/2022
 ms.author: edupont
 ---
 ## Sign-up
@@ -45,8 +45,6 @@ You can add an unlimited number of users to the trial environment.
 You can't reset the trial environment. But your admin can create fresh sandbox environments where you can play around with the various capabilities. For more information, see [Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types) in the admin content.  
 
 If you want to cancel [!INCLUDE [prod_short](prod_short.md)] during a trial period, you must ask your Microsoft 365 administrator to remove the trial subscription from your company's account in the [Microsoft 365 admin center](https://admin.microsoft.com/). See also [Unsubscribe or Remove [!INCLUDE[prod_short](prod_short.md)]](../admin-cancel.md).  
-
-If you signed up for Dynamics 365 Business Central using a non-Microsoft 365 business account, you do not have a Microsoft 365 administrator. To unsubscribe, you must contact the [!INCLUDE[prod_short](prod_short.md)] Cancellation team by sending an email message at [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). You must include the name of your [!INCLUDE[prod_short](prod_short.md)] tenant in the message so that we can identify you. You can find this information in the **Help and Support** page that you can access from the **?** menu. For more information, see [Resources for Help and Support](../product-help-and-support.md).  
 
 ## Trial expiration and extension
 

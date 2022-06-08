@@ -9,15 +9,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 05/25/2022
+ms.date: 06/08/2022
 ms.author: edupont
 
 ---
 # Unsubscribe or Remove [!INCLUDE[prod_short](includes/prod_short.md)]
 
-If you want to stop using [!INCLUDE[prod_short](includes/prod_short.md)], you can close your account or get the license removed from your account. The steps to take are different if you're currently using the free trial, or if you have a subscription. Your administrator can learn more about the different types of trials and how to end them [here](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
+If you want to stop using [!INCLUDE[prod_short](includes/prod_short.md)], you can close your account or get the license removed from your account. The steps to take are different if you're currently using the free trial, or if you have a subscription.  
 
-We recommend that you export any data before you close your account. You can read about how to export data to Excel in the [Exporting Data to Other Finance Systems](about-export-data.md#exporting-data-to-other-finance-systems). If you would rather export all data to an Azure storage container, your Microsoft 365 administrator can do that in the admin center. For more information, see [Exporting Databases in the Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).  
+If you want to end a trial, your administrator can learn more about the different types of trials and how to end them [here](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
+
+If you want to end a subscription, your administrator must remove the subscription in the Microsoft 365 admin center. For more information, see [here](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?#removing-a-subscription).  
+
+> [!TIP]
+> We recommend that you export any data before you close your account.
+
+You can read about how to export data to Excel in the [Exporting Data to Other Finance Systems](about-export-data.md#exporting-data-to-other-finance-systems). If you would rather export all data to an Azure storage container, your Microsoft 365 administrator can do that in the admin center. For more information, see [Exporting Databases in the Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).  
 
 ## Removing [!INCLUDE[prod_short](includes/prod_short.md)] from your app launcher
 
@@ -25,7 +32,8 @@ If you want to hide [!INCLUDE[prod_short](includes/prod_short.md)] from your app
 
 ## See Also
 
-[Trials and Subscriptions](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
+[Business Central Trial FAQ](trial-faq.md)  
+[Trials and Subscriptions (for admins)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 [Get Ready for Doing Business](ui-get-ready-business.md)  
 [Create New Companies](about-new-company.md)  
 [Export Your Business Data to Excel](about-export-data.md)  

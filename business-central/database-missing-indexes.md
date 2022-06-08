@@ -16,7 +16,7 @@ ms.date: 05/31/2022
 
 Administrators and developers can make the database more efficient and ultimately enhance the application's performance by using information extracted by **Database Missing Indexes** in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-**Database Missing Indexes** provides you a list of potential columns that can be indexed and some useful information about them. This information will help you to make better decision for the optimal performance of your database and application. For more information about missing indexes and how they help you in achieving performance objectives through [!INCLUDE[prod_short](includes/prod_short.md)], see [Missing Indexes in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/database-missing-indexes).
+**Database Missing Indexes** provides you a list of potential columns that can be indexed and some useful information about them. This information will help you to make better decisions for the optimal performance of your database and application. For more information about missing indexes and how they help you in achieving performance objectives through [!INCLUDE[prod_short](includes/prod_short.md)], see [Missing Indexes in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/database-missing-indexes).
 
 ## See Also
 

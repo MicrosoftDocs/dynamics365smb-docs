@@ -358,6 +358,7 @@
 #### [About Inventory Costing](finance-learn-about-costing.md)
 #### [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)
 #### [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
+#### [How Costing Methods Impact the Item Unit Cost Card](finance-about-calculating-unit-cost.md)
 #### [Design Details: Inventory Costing](design-details-inventory-costing.md)
 #### [Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)
 #### [Set Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)

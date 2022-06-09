@@ -1,6 +1,6 @@
 ---
 title: About Unit Cost Calculation
-description: Learn how the costing method and other factors impact the Unit Cost field on the Item card.
+description: Learn how the costing method and other factors influence the Unit Cost field on the Item card.
 author: rubenseishima
 
 ms.service: dynamics365-business-central
@@ -18,7 +18,7 @@ For more information, see [Managing Inventory Costs](finance-manage-inventory-co
 
 The chosen costing method influences when the **Unit Cost** field is updated.
 
-When the costing method is set as *Standard*, the **Unit Cost** field is updated whenever the standard cost is changed, and users cannot edit the **Unit Cost** field. For more information, see [Updating Standard Costs](finance-how-to-update-standard-costs.md).
+When the costing method is set as *Standard*, the **Unit Cost** field is updated whenever the standard cost is changed, and users can't edit the **Unit Cost** field. For more information, see [Updating Standard Costs](finance-how-to-update-standard-costs.md).
 
 If the costing method is *FIFO*, *LIFO*, *Specific*, or *Average*, then the **Unit Cost** is updated in the following cases:
 
@@ -50,7 +50,7 @@ What you select in the **Costing Method** field influences how [!INCLUDE[prod_sh
 
 The **Unit Cost (LCY)** field on the purchase line or the **Unit Cost** field is filled on the item journal line by copying the value in the **Unit Cost** field on the item card. By using costing method set as *Standard*, this value is always based on the standard cost.
 
-When you post the purchase, the unit cost from the purchase line or item journal line is copied to the purchase item invoice entry, and it can be seen on the entry list for the item.
+When you post the purchase, [!INCLUDE[prod_short](includes/prod_short.md)] uses the unit cost from the purchase line or item journal line to the purchase item invoice entry. You can see it on the entry list for the item.
 
 ### All costing methods
 

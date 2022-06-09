@@ -1,5 +1,5 @@
 ---
-title: Set Up Sales Prices and Discounts for Customers | Microsoft Docs
+title: Record Special Sales Prices and Discounts
 description: Describes how to define pricing and discount agreements for sales documents.
 author: bholtorf
 
@@ -9,21 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2021
+ms.date: 06/03/2022
 ms.author: bholtorf
 
 ---
 
 # Record Special Sales Prices and Discounts
+
 > [!NOTE]
-> In 2020 release wave 2 we released streamlined processes for setting up and managing prices and discounts. If you're a new customer using that version, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> 2020 release wave 2 introduced new, streamlined processes for setting up and managing prices and discounts. If you're a new customer using the latest version, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports various pricing strategies, such as:
+
 * One-price-fits-all models where an item is always sold at the same price.
 * Special price agreements with specific customers, or groups of customers.
 * Campaigns when a sale meets criteria for a special offer. For example, criteria might be when an order meets a minimum quantity, is before a certain date, or includes a certain type of item.  
 
-To use a basic pricing model, you only need to specify a unit price when you set up an item or resource. That price will always be used on sales documents. For more advanced models, for example, when you want to offer special prices for a sales campaign, you can specify criteria on the **Sales Prices** page. You can offer special prices based on a combination of the following information: 
+To use a basic pricing model, you only need to specify a unit price when you set up an item or resource. That price will always be used on sales documents. For more advanced models, for example, when you want to offer special prices for a sales campaign, you can specify criteria on the **Sales Prices** page. You can offer special prices based on a combination of the following information:  
 
 * Customer
 * Item
@@ -173,34 +175,36 @@ To update prices for multiple items, you must create a new price list, and then 
 ---
 
 ## Best Price Calculation
-After you record special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates the best price on sales and purchase documents, and on job and item journal lines.
 
-The best price is the lowest price with the highest line discount allowed on a given date. [!INCLUDE[d365fin](includes/d365fin_md.md)] calculates best prices when it adds unit prices and the line discount percentages on document and journal lines.
+After you record special prices and line discounts for sales and purchases, [!INCLUDE[prod_short](includes/prod_short.md)] calculates the best price on sales and purchase documents, and on job and item journal lines.
+
+The best price is the lowest price with the highest line discount allowed on a given date. [!INCLUDE[prod_short](includes/prod_short.md)] calculates best prices when it adds unit prices and the line discount percentages on document and journal lines.
 
 > [!NOTE]  
-> The following describes how the best price is calculated for sales. The calculation is the same for purchases.
+> The following describes how the best price is calculated for sales. For purchases, the calculation is similar but is based on the available parameters. For example, item discount groups are not supported for purchasing.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks the combination of the bill-to customer and the item and then calculates the applicable unit price and line discount percentage, using the following criteria:
+1. [!INCLUDE[prod_short](includes/prod_short.md)] checks the combination of the bill-to customer and the item and then calculates the applicable unit price and line discount percentage, using the following criteria:
 
-    - Does the customer have a price/discount agreement, or does the customer belong to a group that does?
-    - Is the item or the item discount group on the line included in any of these price/discount agreements?
-    - Is the order date (or the posting date for the invoice and credit memo) within the starting and ending date of the price/discount agreement?
-    - Is a unit of measure code specified? If so, [!INCLUDE[d365fin](includes/d365fin_md.md)] checks for prices/discounts with the same unit of measure code, and prices/discounts with no unit of measure code.
+    * Does the customer have a price/discount agreement, or does the customer belong to a group that does?
+    * Is the item or the item discount group on the line included in any of these price/discount agreements?
+    * Is the order date (or the posting date for the invoice and credit memo) within the starting and ending date of the price/discount agreement?
+    * Is a unit of measure code specified? If so, [!INCLUDE[prod_short](includes/prod_short.md)] checks for prices/discounts with the same unit of measure code, and prices/discounts with no unit of measure code.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)] checks whether any price/discount agreements apply to information on the document or journal line. It then inserts the applicable unit price and line discount percentage using the following criteria:
+2. [!INCLUDE[prod_short](includes/prod_short.md)] checks whether any price/discount agreements apply to information on the document or journal line. It then inserts the applicable unit price and line discount percentage using the following criteria:
 
-    - Is there a minimum quantity requirement in the price/discount agreement that is fulfilled?
-    - Is there a currency requirement in the price/discount agreement that is fulfilled? If so, the lowest price and the highest line discount for that currency are inserted, even if local currency would provide a better price. If there's no price/discount agreement for the specified currency code, [!INCLUDE[d365fin](includes/d365fin_md.md)] inserts the lowest price and the highest line discount in your local currency.
+    * Is there a minimum quantity requirement in the price/discount agreement that is fulfilled?
+    * Is there a currency requirement in the price/discount agreement that is fulfilled? If so, the lowest price and the highest line discount for that currency are inserted, even if local currency would provide a better price. If there's no price/discount agreement for the specified currency code, [!INCLUDE[prod_short](includes/prod_short.md)] inserts the lowest price and the highest line discount in your local currency.
 
 If no special price can be calculated for the item on the line, then either the last direct cost or the unit price from the item card is inserted.
 
 ## Sales Invoice Discounts and Service Charges
+
 When you use invoice discounts, the total amount on the invoice determines the size of the discount that is granted. On the **Cust. Invoice Discounts** page, you can also add a service charge to invoices over a certain amount.  
 
 Before you can use invoice discounts with sales, you must specify certain information. You must make the following decisions:  
 
-- Which customers will be granted this type of discount?  
-- Which discount percentages you'll use?  
+* Which customers will be granted this type of discount?  
+* Which discount percentages you'll use?  
 
 If you want invoice discounts to be calculated automatically, on the **Sales & Receivables Setup** page, turn on the **Calc Inv. Discount** toggle.  
 
@@ -228,7 +232,7 @@ These steps differ, depending on whether your administrator has turned on the **
 2. Open the relevant customer card, and then choose the **Line Discounts** action.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a sales line discount to the customer.
 
-> [!Note]
+> [!NOTE]
 > When you open the **Sales Prices** and **Sales Line Discounts** pages from a specific customer, the **Sales Type Filter** and **Sales Code Filter** fields are set for the customer and can't be changed or removed.
 >
 > To set up prices or line discounts for all customers, a customer price group, or a campaign, you must open the pages from an item card. Alternatively, for sales prices, use the **Sales Price Worksheet** page. For more information, see [To bulk update item prices](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  

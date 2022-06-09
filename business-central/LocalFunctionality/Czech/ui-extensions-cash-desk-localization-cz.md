@@ -6,7 +6,7 @@ author: v-pejano
 
 ms.topic: conceptual
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
-ms.date: 04/01/2021
+ms.date: 05/31/2022
 ms.reviewer: edupont
 ms.author: v-pejano
 ---
@@ -23,7 +23,7 @@ The Cash Desks and Cash Documents features allow you to define cash accounts and
 - Receipt cash document, withdrawal of cash documents and their posting
 - Cash desk cases used as templates for usual accounting transactions
 - Payment application with customer and vendor ledger entries
-- Payment Application with advance invoices **(2021 release wave 1)**
+- Payment Application with advance invoices
 - Cash desk inventory
 - Output documents (receipt cash document, withdrawal cash document)
 - Reports - Cash Desk Account Book, Cash Desk Book, Cash Desk Hand Over

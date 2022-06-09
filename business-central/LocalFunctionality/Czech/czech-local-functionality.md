@@ -6,7 +6,7 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
-ms.date: 06/17/2021
+ms.date: 05/31/2022
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -18,7 +18,7 @@ The following topics describe the local functionality in the Czech version of [!
 ## Feature Availability
 
 * [Core Localization Pack for Czech (Extension)](ui-extensions-core-localization-pack-cz.md) **Available Now**
-* [Advanced Localization Pack for Czech (Extension)](ui-extensions-advanced-localization-pack-cz.md) **2021 release wave 1**
+* [Advanced Localization Pack for Czech (Extension)](ui-extensions-advanced-localization-pack-cz.md) **Available Now**
 
 * General
   * [General](general.md) **Available Now**
@@ -36,7 +36,7 @@ The following topics describe the local functionality in the Czech version of [!
 
 * Fixed Assets
   * [Fixed Assets](fixed-assets.md) **Available Now**
-  * [Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md) **2021 release wave 1**
+  * [Fixed Asset Localization for Czech (Extension)](ui-extensions-fixed-asset-localization-cz.md) **Available Now**
 
 * Banking and Payments
   * [Bank Feature](bank-feature.md) **Available Now**
@@ -48,7 +48,7 @@ The following topics describe the local functionality in the Czech version of [!
 * Payables and Receivables
   * [Payables and Receivables](receivables-payables.md) **Available Now**
   * [Intrastat](intrastat.md) **Available Now**
-  * [Compensation (Extension)](ui-extensions-compensations-localization-cz.md) **2021 release wave 1**
+  * [Compensation (Extension)](ui-extensions-compensations-localization-cz.md) **Available Now**
 
 * Inventory
   * [Inventory](inventory.md) **Available Now**

@@ -12,7 +12,7 @@ ms.author: a-reishima
 
 You can define sales line discounts for a group of customers instead of applying them individually.
 
-**Customer Discount Groups** work similarly to [customer price groups](sales-how-to-set-up-customer-price-groups.md) but can be combined with Item Discount Groups to quickly set line discounts to a number of items for selected customers.
+**Customer Discount Groups** work similarly to [customer price groups](sales-how-to-set-up-customer-price-groups.md) but can be combined with Item Discount Groups to quickly set line discounts to many items for selected customers.
 
 ## Create sales line discounts for a customer group
 
@@ -22,7 +22,7 @@ You can define sales line discounts for a group of customers instead of applying
 4. Fill in the **Sales Code** column with the discount group created on the previous page.
 5. Fill in the fields on the lines with the **Type** (Item or Item Discount Group), **Code**, **Unit of Measure Code**, and the **Line Discount %**.
 6. If the customer group needs to purchase a minimum quantity in order to gain the discount, fill in the **Minimum Quantity** field.
-7. If required, enter the **Starting Date** and **Ending Date** for the discount group.
+7. If necessary, enter the **Starting Date** and **Ending Date** for the discount group.
 8. If relevant, you can also specify the **Currency Code** or **Variant Code** after [personalizing the columns](ui-personalization-user.md).
 
 Repeat steps 4 through 8 for each item or item discount group you want to create a sales line discount for.

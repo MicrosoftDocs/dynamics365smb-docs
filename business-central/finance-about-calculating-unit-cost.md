@@ -1,6 +1,6 @@
 ---
 title: About Unit Cost Calculation
-description: Learn how costing method and other factors impact the Unit Cost field on the Item card.
+description: Learn how the costing method and other factors impact the Unit Cost field on the Item card.
 author: rubenseishima
 
 ms.service: dynamics365-business-central
@@ -12,11 +12,9 @@ ms.author: a-reishima
 
 The unit cost for items can be calculated in different ways according to how the **Costing Method** was defined in the [Company Setup](setup-best-practices-costing-method.md) or in the item card. The costing method determines whether an actual or a budgeted value is used in the cost calculation.
 
-As a rule, with costing method set as Standard, the **Unit Cost** field value is based on the standard cost for the item. The option also sets the field in the item table non-editable.
+As a rule, with costing method set as Standard, the **Unit Cost** field value is based on the standard cost for the item. The option also sets the field in the item card non-editable.
 
-If the costing method is FIFO, LIFO, Specific, or Average, then the unit cost is calculated as follows:
-
-* Unit cost = inventory value of available items (expected cost + invoiced cost) / quantity on hand
+For items with all other costing methods (FIFO, LIFO, Specific, or Average), the value is based on the calculation of the inventory available (expected costs and invoiced costs) divided by the quantity on hand.
 
 > [!NOTE]
 > You cannot change a costing method for an item after you have included the item in a transaction. For solutions on how to fix an incorrect costing method assigned to an item, see [Design Details: Changing the Costing Method for Items](design-details-changing-costing-methods.md).
@@ -82,12 +80,13 @@ If one of these conditions is true, then the **Unit Cost** field is updated with
 If you use the Average costing method, then an item’s unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. For items that use this costing method, you can choose the **Unit Cost** field on the item card to view the history of transactions that the average cost is calculated from in the **Average Cost Calc. Overview** window.
 
 ## See also
- [Managing Inventory Costs](finance-manage-inventory-costs.md)  
- [Registering New Items](inventory-how-register-new-items.md)  
- [Inventory](inventory-manage-inventory.md)  
- [Sales](sales-manage-sales.md)  
- [Purchasing](purchasing-manage-purchasing.md)  
- [Design Details: Costing Methods](design-details-costing-methods.md)  
- [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
+
+[Managing Inventory Costs](finance-manage-inventory-costs.md)  
+[Registering New Items](inventory-how-register-new-items.md)  
+[Inventory](inventory-manage-inventory.md)  
+[Sales](sales-manage-sales.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[Design Details: Costing Methods](design-details-costing-methods.md)  
+[Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

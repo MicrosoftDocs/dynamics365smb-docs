@@ -10,17 +10,17 @@ ms.author: a-reishima
 ---
 # About Unit Cost Calculation
 
-As a rule, with costing method set as Standard, the **Unit Cost** field value is based on the standard cost for the item. The option also sets the field in the item card non-editable.
+Each item has a unit cost that is calculated based on the company's costing method and other factors. As a rule, with the *Standard* costing method, the **Unit Cost** field value is based on the standard cost for the item. For all other costing methods (*FIFO*, *LIFO*, *Specific*, and *Average*), the unit cost is calculated based on the average unit cost across a period of time.  
 
-For items with all other costing methods (FIFO, LIFO, Specific, or Average), the unit cost calculation is based on the average Unit Cost of available items (expected costs and invoiced costs) divided by the quantity on hand.
+For more information, see [Managing Inventory Costs](finance-manage-inventory-costs.md).  
 
 ## When is the unit cost field updated
 
-The selected costing method influences when the **Unit Cost** field is updated.
+The chosen costing method influences when the **Unit Cost** field is updated.
 
-When the costing method is set as Standard, the **Unit Cost** field is updated whenever the standard cost is changed. For more information, see [Updating Standard Costs](finance-how-to-update-standard-costs.md).
+When the costing method is set as *Standard*, the **Unit Cost** field is updated whenever the standard cost is changed, and users cannot edit the **Unit Cost** field. For more information, see [Updating Standard Costs](finance-how-to-update-standard-costs.md).
 
-If the costing method is FIFO, LIFO, Specific, or Average, then the **Unit Cost** is updated in the following cases:
+If the costing method is *FIFO*, *LIFO*, *Specific*, or *Average*, then the **Unit Cost** is updated in the following cases:
 
 * When the item is cost-adjusted, automatically or by an [Adjust Cost](inventory-how-adjust-item-costs.md#to-adjust-item-costs-manually) task.
 * During the posting of purchase invoices, output, or positive adjustment if one of the following conditions is true:

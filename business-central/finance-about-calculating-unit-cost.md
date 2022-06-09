@@ -32,7 +32,7 @@ If one of these conditions is true, then the **Unit Cost** field is updated with
 > [!NOTE]
 > The **Unit Cost** field is not updated if the current unit cost is higher than zero and the new unit cost is zero. A unit cost of zero is considered an exception from regular business. Therefore, the current unit cost is retained to provide the last known, relevant value. This exception applies even if the existing inventory has been revalued to zero.
 
-In the **Unit Cost** field on the item card you can drill down to view the history of transactions that the average cost of units on hand is calculated from in the **Average Cost Calc. Overview** window.
+In the **Unit Cost** field on the item card, you can drill down to view the history of transactions that the average cost of units on hand is calculated from in the **Average Cost Calc. Overview** window.
 
 ## Unit cost calculation for purchases
 
@@ -48,7 +48,7 @@ What you select in the **Costing Method** field influences how [!INCLUDE[prod_sh
 
 ### Costing method Standard
 
-The **Unit Cost (LCY)** field on the purchase line or the **Unit Cost** field is filled on the item journal line by copying the value in the **Unit Cost** field on the item card. By using costing method set as Standard, this is always based on the standard cost.
+The **Unit Cost (LCY)** field on the purchase line or the **Unit Cost** field is filled on the item journal line by copying the value in the **Unit Cost** field on the item card. By using costing method set as Standard, this value is always based on the standard cost.
 
 When you post the purchase, the unit cost from the purchase line or item journal line is copied to the purchase item invoice entry, and it can be seen on the entry list for the item.
 

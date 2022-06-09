@@ -12,7 +12,7 @@ ms.author: a-reishima
 
 You can define sales line discounts for a group of customers instead of applying them individually.
 
-**Customer Discount Groups** work similarly to [customer price groups](sales-how-to-set-up-customer-price-groups.md) but can be combined with Item Discount Groups to quickly apply discounts to a number of items for selected customers.
+**Customer Discount Groups** work similarly to [customer price groups](sales-how-to-set-up-customer-price-groups.md) but can be combined with Item Discount Groups to quickly set line discounts to a number of items for selected customers.
 
 ## Create sales line discounts for a customer group
 

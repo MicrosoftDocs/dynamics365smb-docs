@@ -36,7 +36,7 @@ In the **Unit Cost** field on the item card, you can drill down to view the hist
 
 ## Unit cost calculation for purchases
 
-When you purchase items, the value in the **Last Direct Cost** field on the item card is copied to the **Direct Unit Cost** field on a purchase line or to the Unit Amount line on an item journal line.
+When you purchase items, the value in the **Last Direct Cost** field on the item card is copied to the **Direct Unit Cost** field on a purchase line or to the **Unit Amount** line on an item journal line.
 
 What you select in the **Costing Method** field influences how [!INCLUDE[prod_short](includes/prod_short.md)] calculates the contents of the **Unit Cost** field on the lines.
 
@@ -48,7 +48,7 @@ What you select in the **Costing Method** field influences how [!INCLUDE[prod_sh
 
 ### Costing method Standard
 
-The **Unit Cost (LCY)** field on the purchase line or the **Unit Cost** field is filled on the item journal line by copying the value in the **Unit Cost** field on the item card. By using costing method set as Standard, this value is always based on the standard cost.
+The **Unit Cost (LCY)** field on the purchase line or the **Unit Cost** field is filled on the item journal line by copying the value in the **Unit Cost** field on the item card. By using costing method set as *Standard*, this value is always based on the standard cost.
 
 When you post the purchase, the unit cost from the purchase line or item journal line is copied to the purchase item invoice entry, and it can be seen on the entry list for the item.
 
@@ -58,7 +58,7 @@ The unit cost from the source document line is used to calculate the contents of
 
 ## Unit cost calculation for sales
 
-When you sell items, the unit cost is copied from the Unit Cost field on the item card to the sales line or the item journal line.
+When you sell items, the unit cost is copied from the **Unit Cost** field on the item card to the sales line or the item journal line.
 
 When you post, the unit cost is copied to the sales invoice item entry, and it can be seen on the entry list for the item. [!INCLUDE[prod_short](includes/prod_short.md)] uses the unit cost from the source document line to calculate the contents of the **Cost Amount (Actual)** field, or if applicable, the **Cost Amount (Expected)** field in the value entry related to this item entry.
 

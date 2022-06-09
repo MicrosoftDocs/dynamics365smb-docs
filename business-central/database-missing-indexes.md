@@ -9,7 +9,7 @@ ms.search.keywords:
 ms.search.form: 9521
 audience: 
 ms.author: a-jaaamir
-ms.date: 05/31/2022
+ms.date: 06/09/2022
 
 ---
 # Database Missing Indexes in [!INCLUDE[prod_long](includes/prod_long.md)]
@@ -20,6 +20,6 @@ Administrators and developers can make the database more efficient and ultimatel
 
 ## See Also
 
-[Clustered and nonclustered indexes described](/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver16)  
+[Clustered and nonclustered indexes described](/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described)  
 [Optimizing SQL Server Performance with Business Central](/dynamics365/business-central/dev-itpro/administration/optimize-sql-server-performance)  
 [Performance Article For Developers](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

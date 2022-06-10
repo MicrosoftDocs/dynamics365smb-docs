@@ -107,7 +107,7 @@ The report uses the codes that apply to the form amount boxes from the **1099 Fo
 
 ## See Also
 
-[Detaild about Reporting 1099 Transactions](tax-1099.md)
+[Reporting Transactions as 1099 Liable](tax-1099.md)  
 [United States Local Functionality](united-states-local-functionality.md)  
 [Register New Vendors](../../purchasing-how-register-new-vendors.md)  
 [Record Purchase](../../purchasing-how-record-purchases.md)  

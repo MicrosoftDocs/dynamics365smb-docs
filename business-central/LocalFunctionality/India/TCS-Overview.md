@@ -11,7 +11,7 @@
     ms.workload: na
     ms.search.keywords: India, local, IN, English
     ms.date: 04/01/2021
-    ms.author: v-debapd
+    ms.author: bholtorf
 
 ---
 # Setting Up Tax Collected at Source (TCS), as per the Provisions of the Income Tax Act, 1961

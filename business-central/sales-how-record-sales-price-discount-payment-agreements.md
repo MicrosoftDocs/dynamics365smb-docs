@@ -278,6 +278,8 @@ Proceed to set up new the sales invoice discount terms.
 
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
+[Setting Up Customer Price Groups](sales-how-to-set-up-customer-price-groups.md)  
+[Setting Up Customer Discount Groups](sales-how-to-set-up-customer-discount-groups.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

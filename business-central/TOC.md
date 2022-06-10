@@ -1425,6 +1425,7 @@
 ##### [US Sales Tax](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Reporting Sales Tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Reporting Transactions as 1099 Liable in the US](LocalFunctionality/UnitedStates/tax-1099.md)  
+##### [Set Up and Use the IRS 1099 Form](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Set Up Use Tax and Purchase Tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Banking & Payments
@@ -1475,6 +1476,7 @@
 #### [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md)
 #### [Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Set Up Customer Price Groups](sales-how-to-set-up-customer-price-groups.md)
+#### [Set Up Customer Discount Groups](sales-how-to-set-up-customer-discount-groups.md)
 #### [Set Up Salespeople](sales-how-setup-salespeople.md)
 #### [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md)
 #### [Send Documents by Email](ui-how-send-documents-email.md)

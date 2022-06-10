@@ -61,6 +61,9 @@ After you have set up the customer price groups, you can enter the customer pric
 
 ## See Also
 
+[Sales](sales-manage-sales.md)  
+[Setting Up Sales](sales-setup-sales.md)  
 [Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)  
+[Setting Up Customer Discount Groups](sales-how-to-set-up-customer-discount-groups.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

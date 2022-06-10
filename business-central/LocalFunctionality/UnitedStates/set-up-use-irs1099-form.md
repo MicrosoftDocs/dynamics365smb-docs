@@ -1,13 +1,13 @@
 ---
 title: Set up and use the IRS 1099 Form [US]
-description: The IRS requires the 1099 tax form for payments to vendors and you can specify a purchase document is 1099 liable and specify the 1099 code for the vendor.
+description: Learn how to set up the 1099 tax form boxes so that you can submit the required reports.
 author: altotovi
 
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: local, 1099
 ms.search.form: 26, 29, 50, 51, 10015, 10016, 10018, 10900
-ms.date: 06/04/2022
+ms.date: 06/10/2022
 ms.author: altotovi
 ms.reviewer: edupont
 

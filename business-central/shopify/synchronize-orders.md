@@ -119,6 +119,8 @@ While the imported Shopify order contains information about taxes, the taxes get
 - Multiple product tax/VAT rates. For example, some product categories are liable for reduced tax rates. Those items must exist in [!INCLUDE[prod_short](../includes/prod_short.md)] and be mapped to Shopify products. Otherwise, with automatic creation of missing items, the VAT product posting group will be used.
 
 - Address-dependent tax rates. Use the **Tax area priority** field together with **Customer Templates** table to overwrite standard logic that fills in **Tax Area Code** in the sales document. The **Tax area priority** field specifies priority from where the function should take information about country/region and state/province. Then the corresponding record in the Shopify customer templates is found and **Tax Area Code**, **Tax Liable**, and **VAT Bus. Posting Group** is used when a sales document is created.
+ 
+- Price including Tax. The **Prices including Tax**/**Prices including VAT** field in the created sales document doesn't depend on customer, but on **Customer Template** from the Shopify Shop Card or Customer template per country.
 
 ### Impact of edits of orders
 

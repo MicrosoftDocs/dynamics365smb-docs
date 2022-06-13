@@ -57,7 +57,7 @@ To fill in the **Location Code** for sales documents imported from Shopify autom
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop** and choose the related link.
 2. Select the Shop for which you want to configure mapping of locations  to open **Shopify Shop Card** page.
 3. Choose the **Locations** action to open **Shopify Shop Locations**.
-4. Choose the **Get Shopify Locations** action to import all the locations defined in the Shopify. You can find them in the [**Locations**](https://www.shopify.com/admin/settings/locations) settings in your **Shopify admin**.
+4. Choose the **Get Shopify Locations** action to import all the locations defined in the Shopify. You can find them in the [**Locations**](https://www.shopify.com/admin/settings/locations) settings in your **Shopify admin**. Note that the location marked as *Default* will be used when importing unfulfilled Shopify orders.
 5. Enter the **Default Location Code** with the corresponding location in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 > [!NOTE]  

@@ -229,13 +229,11 @@
 ### Incoming Documents
 #### [Incoming Documents Overview](across-income-documents.md)
 #### [Set Up Incoming Documents](across-how-setup-income-documents.md)
-#### Process Incoming Documents
-##### [Process Incoming Documents](across-process-income-documents.md)
-##### [Create Incoming Document Records](across-how-create-income-document-records.md)
-##### [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
-##### [Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)
-##### [Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md)
-##### [Manage Many Incoming Document Records](across-how-manage-many-income-document-records.md)
+#### [Create Incoming Document Records](across-how-create-income-document-records.md)
+#### [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
+#### [Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)
+#### [Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md)
+#### [Manage Many Incoming Document Records](across-how-manage-many-income-document-records.md)
 
 ### Workflows
 #### [Workflow Overview](across-workflow.md)

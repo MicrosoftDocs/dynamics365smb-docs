@@ -17,11 +17,10 @@ ms.author: edupont
 You can offer certain items to your customers for their convenience, which you do not want to manage in your system until you start selling them. When you want to start managing such items in your system, you can convert them to normal item cards in two ways.
 
 * From a catalog item card, create a new item card based on a template.
-* From a sales order line of type **Item** with an empty **No** field, select a catalog item. An item card is then automatically created for the catalog item.
+* From a sales order or quote line of type **Item** with an empty **No** field, select a catalog item. An item card is then automatically created for the catalog item.
 
 > [!NOTE]  
-> You cannot select a catalog item from the **Sales Invoice** page.<br /><br />
-> You can select a catalog item from the **Sales Quote** page, but the catalog item will not be converted to a normal item when you use the **Make Order** function.
+> You cannot select a catalog item from the **Sales Invoice** page.
 
 A catalog item typically has the item number of the vendor who supplies it. To enable conversion of a catalog item card to a normal item card, you must first set up how vendor item numbering is converted to your own item numbering.   
 

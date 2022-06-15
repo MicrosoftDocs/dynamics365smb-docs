@@ -26,7 +26,7 @@ When the **Incoming Documents** feature is set up, you can use different functio
 
 As part of the setup, you must decide if you want to require approval of incoming documents. To require approval, you must [set up approvers and approval workflows](#to-set-up-approvers-of-incoming-document-records). If your organization doesn't intend to require approval, you can skip the next section.
 
-Finally, if you use an OCR service to convert PDF or image files representing incoming documents, [you must it set up](#to-set-up-an-OCR-service). Otherwise, you can also skip that section.
+Finally, if you use an OCR service to convert PDF or image files representing incoming documents, [you must it set up](#to-set-up-an-ocr-service). Otherwise, you can also skip that section.
 
 ## To set up approvers of incoming document records
 

@@ -50,7 +50,6 @@ The connection to the posted document is removed. You can now proceed to connect
 
 ## See also
 
-[Process Incoming Documents](across-process-income-documents.md)  
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

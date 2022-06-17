@@ -46,11 +46,14 @@ You can remove file attachments from non-posted documents at any time by deletin
 
 The connection to the posted document is removed. You can now proceed to connect another incoming document record to the posted document as described in this article.
 
+## See related training at [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/)
+
 ## See also
 
 [Process Incoming Documents](across-process-income-documents.md)  
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

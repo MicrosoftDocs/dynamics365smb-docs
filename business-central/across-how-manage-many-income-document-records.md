@@ -52,10 +52,13 @@ All incoming document records are displayed, including records where the **Proce
 > [!NOTE]  
 > You can also perform this action for the individual record on the **Incoming Document Card** page.
 
+## See related training at [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/)
+
 ## See also
   
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

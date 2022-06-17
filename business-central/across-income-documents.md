@@ -60,7 +60,7 @@ The incoming document process can consist of the following main activities:
 | From the **Chart of Accounts** and **General Ledger Entries** pages, use a search function to find general ledger entries for posted documents that don't have incoming document records and then centrally link to existing records or create new ones with attached document files. |[Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md) |
 | Get a better overview by setting incoming document records to *Processed* and remove them from the default view. |[Manage Many Incoming Document Records](across-how-manage-many-income-document-records.md) |
 
-## See related training at [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
+## See related training at [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/)
 
 ## See also
 
@@ -71,5 +71,6 @@ The incoming document process can consist of the following main activities:
 [Use Business Central as your Business Inbox in Outlook](work-outlook-addin.md)  
 [Send Documents and Emails](ui-how-send-documents-email.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

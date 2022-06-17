@@ -34,10 +34,13 @@ The **Posted Documents without Incoming Document** page opens showing posted pur
 
 If a relevant incoming document record doesn't exist on the **Incoming Documents** page, then you can create it. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).
 
+## See related training at [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/)
+
 ## See also
 
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

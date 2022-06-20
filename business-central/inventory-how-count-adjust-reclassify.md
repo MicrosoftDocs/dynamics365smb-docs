@@ -97,7 +97,6 @@ Synchronize item ledger and warehouse before you perform the warehouse physical 
 
      If you only have time to count the item in some bins and not others, you can discover discrepancies, register them, and later post them in the item journal using the **Calculate Whse. Adjustment** function.  
 
-
 ### To print the report to be used when counting
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Physical Inventory List**, and choose the related link.  
@@ -120,7 +119,6 @@ Employees can now proceed to count inventory and record any discrepancies on the
     -   If the quantity calculated is equal to the physical quantity, application registers an entry of 0 for both the bin and the adjustment bin. The entries are the record that on the registering date, a warehouse physical inventory was performed, and there was no discrepancy in inventory for the item.  
 
 When you register the warehouse physical inventory, you are not posting to the item ledger, the physical inventory ledger, or the value ledger, but the records are there for immediate reconciliation whenever necessary. If you like to keep precise records of what is happening in the warehouse, however, and you counted all of the bins where the items were registered, you should immediately post the warehouse results as an inventory physical inventory. For more information, see [synchronize quantities in the item ledger and warehouse](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
-
 
 ## To perform cycle counting
 
@@ -232,13 +230,13 @@ The following example is based on a location code. The steps are similar for oth
 
 For information about transferring items with full control of quantities shipped and received, see [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).
 
-## See related training at [Microsoft Learn](learn/modules/adjust-inventory/)
+## See related training at [Microsoft Learn](/learn/modules/adjust-inventory/)
 
 ## See also
 
 [CountInventory Using Documents](inventory-how-count-inventory-with-documents.md)  
-[Inventory](inventory-manage-inventory.md)
-[Warehouse Management](warehouse-manage-warehouse.md)    
+[Inventory](inventory-manage-inventory.md)  
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

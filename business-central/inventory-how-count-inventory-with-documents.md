@@ -240,14 +240,14 @@ You can specify the reports that must be printed at different stages by choosing
 > [!NOTE]
 > The available reports may vary based on your country's localization. The base application doesn't include any layouts.
 
-## See related training at [Microsoft Learn](learn/modules/adjust-inventory/)
+## See related training at [Microsoft Learn](/learn/modules/adjust-inventory/)
 
 ## See also
 
 [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)  
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Warehouse Management](warehouse-manage-warehouse.md)    
+[Warehouse Management](warehouse-manage-warehouse.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

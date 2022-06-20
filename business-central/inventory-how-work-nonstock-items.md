@@ -1,7 +1,7 @@
 ---
 title: Create and Manage Catalog Items
-description: Describes how to trade in items that are in your vendors list of items but not in your own list of items.
-author: SorenGP
+description: Describes how to sell items that you don't keep in your list of items.
+author: brentholtorf
 
 ms.topic: conceptual
 ms.devlang: na
@@ -9,39 +9,35 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.search.forms: 5725, 5726, 5732
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 20/06/2022
+ms.author: bholtorf
 
 ---
 # Work with Catalog Items
-You can offer certain items to your customers for their convenience, which you do not want to manage in your system until you start selling them. When you want to start managing such items in your system, you can convert them to normal item cards in two ways.
-
-* From a catalog item card, create a new item card based on a template.
-* From a sales order line of type **Item** with an empty **No** field, select a catalog item. An item card is then automatically created for the catalog item.
+Catalog items are items that you don't manage in [!INCLUDE[prod_short](includes/prod_short.md)] until you sell them. When you use the **Select Catalog Item** action to add a catalog item to a line on a sales order or quote, the catalog item is converted to a regular item.
 
 > [!NOTE]  
-> You cannot select a catalog item from the **Sales Invoice** page.<br /><br />
-> You can select a catalog item from the **Sales Quote** page, but the catalog item will not be converted to a normal item when you use the **Make Order** function.
+> You cannot select a catalog item from the **Sales Invoice** page.
 
-A catalog item typically has the item number of the vendor who supplies it. To enable conversion of a catalog item card to a normal item card, you must first set up how vendor item numbering is converted to your own item numbering.   
+A catalog item typically has the item number of the vendor who supplies it. Before you can convert a catalog item to a normal item, you must specify how to convert vendor item numbers to your item numbering. For more information, see [To set up how catalog item numbers are converted to your own numbering](inventory-how-work-nonstock-items.md#to-set-up-how-catalog-item-numbers-are-converted-to-your-own-numbering).    
 
 > [!Important]
 > Catalog items are not to be mistaken with non-inventory items, which are regular items that are given the type **Non-Inventory** to keep them out of availability and costing calculations, for example, because they are only used internally and have a low cost. For more information, see [About Item Types](inventory-about-item-types.md).
 
-## To create a catalog item
+## Create a catalog item
 Catalog item cards have much less information than normal item cards because you only use them to offer on quotes and in other ways. For that reason, they must be converted to normal item cards before you can post sales transactions for them.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Catalog Items**, and then choose the related link.
 2. Choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## To set up how catalog item numbers are converted to your own numbering
-To enable conversion of a catalog item card to a normal item card, you must first set up how the vendor's item numbering is converted to your own item number format.
+## Specify how catalog item numbers are converted to your own numbering
+Before you can convert a catalog item to a normal item, you must specify how to convert vendor item numbers to your item numbering.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Catalog Item Setup**, and then choose the related link.
 2. Fill in the fields as necessary.
 
-## To convert a catalog item to a normal item
+## Convert a catalog item to a normal item
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Catalog Items**, and then choose the related link.
 2. Open the card for a catalog item that you want to convert to a normal item.
 3. On the **Catalog Item Card** page, choose the **Create Item** action.

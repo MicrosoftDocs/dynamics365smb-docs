@@ -138,7 +138,8 @@ Cost objects are projects, products, or services of a company. The chart of cost
 * Transfer dimension values in the general ledger to the chart of cost objects. You can make any necessary adjustments after the transfer.  
 * Create a new chart of cost object that is independent of the general ledger or add a new cost object to an existing chart of cost objects. You must create each cost object individually.  
 
-### To transfer dimension values from the general ledger to the chart of cost objects  
+### To transfer dimension values from the general ledger to the chart of cost objects
+
 1.  Set a dimension to be the cost object dimension on the **Update CA Dimensions** page. Only the values from this dimension are transferred.  
 2.  Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Objects**, and then choose the related link.  
 3.  Choose the **Get Cost Objects from Dimension** action to transfer dimension values to the chart of cost objects. The function transfers the dimension values that you defined in step 1.  
@@ -148,7 +149,8 @@ Cost objects are projects, products, or services of a company. The chart of cost
 
 The chart of cost objects now contains all specified dimension values from the general ledger and includes titles and subtotals.  
 
-### To create new cost objects in the Chart of Cost Objects page  
+### To create new cost objects in the Chart of Cost Objects page
+
 You can set up and maintain cost objects in either the **Cost Object Card** card or on the **Chart of Cost Objects** page. In this procedure, you set up cost objects on the **Chart of Cost Objects** page.  
 
 1.  Open the **Chart of Cost Objects** page in edit mode.  
@@ -166,9 +168,11 @@ You can set up and maintain cost objects in either the **Cost Object Card** card
 >  If you have entered definitions in the **Total From/To** fields for **End-Total** cost objects before you run the indent function, then you must enter them again. The function overwrites the values in all **End-Total** fields.
 
 ## Defining Cost Centers and Cost Objects for Chart of Accounts
+
 You can automatically transfer the expense and income entries from the general ledger to cost accounting either for each general ledger posting or with a batch job. When you do the transfer, [!INCLUDE[prod_short](includes/prod_short.md)] only transfers the entries that are already linked to a cost center or a cost object. To establish a meaningful transfer, you must ensure that the cost centers and cost objects are correctly defined.  
 
-### Defining Default Dimension Values for General Ledger Accounts  
+### Defining Default Dimension Values for General Ledger Accounts
+
 For each general ledger account, you can define default dimension values in the **Default Dimension** table. The following example shows how to define that there should always be a DEPARTMENT cost center, but never be a PROJECT cost object when posting to a general ledger account.  
 
 |**Dimension Code**|**Value Posting**|  
@@ -176,7 +180,8 @@ For each general ledger account, you can define default dimension values in the 
 |Department|Code Mandatory|  
 |Project|No Code|  
 
-### Defining Dimension Values for Overhead Costs and Direct Costs  
+### Defining Dimension Values for Overhead Costs and Direct Costs
+
  You can transfer overhead costs to a cost center and direct costs to a cost object. The following table shows the optimal combination of the dimension setup values.  
 
 |Transfer To|Cost Center Posting|Cost Object Posting|  
@@ -187,9 +192,12 @@ For each general ledger account, you can define default dimension values in the 
 > [!NOTE]  
 >  To make sure that the predefined cost center and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box in the Cost Accounting Setup page.
 
-## See Also  
+## See related training at [Microsoft Learn](/learn/modules/cost-accounting-dynamics-365-business-central/)
+
+## See also
+
 [Accounting for Costs](finance-manage-cost-accounting.md)  
-[Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)   
+[Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)  
 [Defining and Allocating Costs](finance-define-and-allocate-costs.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -112,7 +112,12 @@ You can enter a currency code on a general journal line and post the line to a g
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
+## See related training at [Microsoft Learn](/learn/modules/currencies-exchange-rates-dynamics-365-business-central/)
+
 ## See also
 
 [Update Currency Exchange Rates](finance-how-update-currencies.md)  
 [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

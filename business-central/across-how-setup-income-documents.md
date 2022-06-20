@@ -48,7 +48,9 @@ Before you can create workflows that involve approval steps, you must set up the
 
 For more information, see [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md).  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/)
+
+## See also
 
 [Process Incoming Documents](across-process-income-documents.md)  
 [Incoming Documents](across-income-documents.md)  

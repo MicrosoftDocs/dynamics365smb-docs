@@ -142,7 +142,10 @@ As the administrator of [!INCLUDE[prod_short](includes/prod_short.md)] online, y
 
 For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can manage sessions using SQL Server Management Studio, for example. For more information, see [SQL Server technical documentation](/sql/sql-server).  
 
-## See Also  
+## See related training at [Microsoft Learn](/learn/modules/users-security-dynamics-365-business-central/)
+
+## See also
+
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Customize Pages for Profiles](ui-personalization-manage.md)  
 [Personalize Your Workspace](ui-personalization-user.md)  

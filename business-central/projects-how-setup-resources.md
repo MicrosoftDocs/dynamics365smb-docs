@@ -29,6 +29,7 @@ You specify the default amount per hour when the resource is created. For exampl
 > If you are posting intercompany transactions, although you can a resource to a line on a sales order, if you convert the sales order to a purchase order on the receiving side the resource will not be included. To use resources in intercompany transactions, use the **IC Purch. G/L Acc. No.** field on the resource card to specify the account to which to post the expenses.
 
 ## To set up a resource
+
 Create a card for each resource that you want to use in projects.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.
@@ -36,6 +37,7 @@ Create a card for each resource that you want to use in projects.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## To set up a resource group
+
 You can combine several resources in one resource group. All capacities and budgets of resource groups are accumulated from the individual resources. It is also possible to enter capacities for resource groups either independently of the accumulated values or in addition to them.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resource groups**, and then choose the related link.
@@ -43,6 +45,7 @@ You can combine several resources in one resource group. All capacities and budg
 3. Fill in the fields as necessary.
 
 ## To set capacity for a resource
+
 To calculate how much time a resource can spend on jobs, their capacity must first be set up as available time per period on the work calendar. This setup is used when you fill in job planning lines that contain the resource. For more information, see [Create Jobs](projects-how-create-jobs.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.
@@ -55,6 +58,7 @@ To calculate how much time a resource can spend on jobs, their capacity must fir
 8. Close the page.
 
 ## To set up alternate resource costs
+
 In addition to the cost specified on the resource card, you can set up alternate costs for each resource. For example, if you pay an employee a higher hourly rate for overtime, you can set up a resource cost for the overtime rate. The alternate cost that you set up for the resource will override the cost on the resource card when you use the resource in the resource journal.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.  
@@ -65,6 +69,7 @@ In addition to the cost specified on the resource card, you can set up alternate
 **Note**. To set up resource costs that will apply to all resources and resource groups, open the **Resource Costs** page and fill in the fields.
 
 ## To set up alternate resource prices
+
 In addition to price specified on the resource card, you can set up alternate prices for each resource. These alternate prices can be conditional. They can depend on whether the resource is used with a specific job or work type.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.
@@ -72,12 +77,15 @@ In addition to price specified on the resource card, you can set up alternate pr
 3. On the **Resource Prices** page, fill in the fields on a line as necessary.
 4. Repeat step 3 for each alternate resource price that you want to set up.
 
-## See Also
+## See related training at [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+
+## See also
+
 [Setting Up Project Management](projects-setup-projects.md)  
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  
-[Purchasing](purchasing-manage-purchasing.md)         
-[Sales](sales-manage-sales.md)      
+[Purchasing](purchasing-manage-purchasing.md)  
+[Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

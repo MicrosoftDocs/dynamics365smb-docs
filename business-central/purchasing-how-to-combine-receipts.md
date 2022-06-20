@@ -45,7 +45,9 @@ Alternatively, delete the individual orders manually.
 
 Repeat steps 1 through 3 for any other affected documents, such as blanket purchase orders.
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/)
+
+## See also
 
 [Purchasing](purchasing-manage-purchasing.md)  
 [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

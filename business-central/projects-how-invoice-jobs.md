@@ -15,6 +15,7 @@ ms.author: edupont
 
 ---
 # Invoice Jobs
+
 During the project, job costs from resource usage, materials, and job-related purchases can accumulate. As the job progresses, these transactions get posted to the job journal. It is important that all costs get recorded in the job journal before you invoice the customer.
 
 > [!NOTE]
@@ -28,6 +29,7 @@ You can invoice the whole job from the **Job Task Lines** page or only invoice s
 You can also invoice a company that is not the end customer. Sometimes the party that a project is for is different from the party that is paying the bill. On the **Jobs** page, you can specify the customer who will benefit from the project in the **Sell-to** fields, and the party to invoice in the **Bill-to** fields. 
 
 ## To create multiple job sales invoices
+
 You can create an invoice for a job or for one or more job tasks for a customer when either the work to be invoiced is complete or the date for invoicing based on an invoicing schedule has been reached.
 
 The following procedure shows how to use a batch job to invoice multiple jobs.  
@@ -43,6 +45,7 @@ You can review and post created invoices in the **Sales Invoices** window.
 > Alternatively, invoice a customer by selecting the job, and then choosing the **Create Job Sales Invoice** action. 
 
 ## To create and post job sales invoice from job planning lines
+
 You can create an invoice from a job planning lines, and indicate at that time the quantity of the item, resource, or general ledger account that you want to invoice.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
@@ -60,12 +63,14 @@ You can create an invoice from a job planning lines, and indicate at that time t
 > [!NOTE]  
 >   The above procedure is similar for creating, reviewing, and posting a job-related sales credit memo.
 
+## See related training at [Microsoft Learn](/learn/paths/post-job-usage-sales/)
 
-## See Also
+## See also
+
 [Managing Projects](projects-manage-projects.md)  
 [Finance](finance.md)  
-[Purchasing](purchasing-manage-purchasing.md)         
-[Sales](sales-manage-sales.md)      
+[Purchasing](purchasing-manage-purchasing.md)  
+[Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

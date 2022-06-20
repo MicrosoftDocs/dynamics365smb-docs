@@ -38,9 +38,10 @@ You can also contact the [[!INCLUDE[prod_short](includes/prod_short.md)] Sales t
 
 For more information about what you can do with [!INCLUDE [prod_short](includes/prod_short.md)], see [Getting Ready for Doing Business](ui-get-ready-business.md) and [Business Functionality](across-business-functionality.md).  
 
+## See related training at [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
+
 ## Additional resources
 
-- [Explore training on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 - [Visit our video library](across-videos.md)  
 - [Trial FAQ](trial-faq.md)  
 - [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)  

@@ -53,7 +53,8 @@ The following applies to sales orders after they have been created from blanket 
 - The invoiced blanket sales order remains in the system until it is deleted, either by deleting individual blanket orders or by running the **Delete Invoiced Blanket Sales Orders** batch job.  
 - If a customer is also recorded as a contact in the Marketing application area, and if you have specified an interaction template code for blanket sales order on the **Marketing Setup** page, an interaction is recorded in the Interaction Log Entry table when you select **Print** to print the blanket sales order.
 
-## To view the status of a blanket sales order  
+## To view the status of a blanket sales order
+
 You can see the status of a blanket sales order on the **Blanket Sales Order Statistics** page. This may be relevant when you start to invoice the order that is created from the blanket sales order.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.  
@@ -65,7 +66,8 @@ You can see the status of a blanket sales order on the **Blanket Sales Order Sta
 - On the **Prepayment** FastTab, you can see summary information about any prepaid amounts.  
 - On the **Vendor** FastTab, you can see certain basic information about the vendor.
 
-## To view unposted and posted blanket sales order lines   
+## To view unposted and posted blanket sales order lines
+
 The link between the blanket sales order and the originating sales order, and any other sales document, is retained after posting as a list of posted and unposted sales order invoice lines.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon enter **Blanket Sales Orders**, and then choose the related link.
@@ -90,7 +92,9 @@ The link between the blanket sales order and the originating sales order, and an
 
 5. On the **Sales Lines** page, choose the **Show Document** action to view the entry.
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+
+## See also
 
 [Sales](sales-manage-sales.md)  
 [Create Blanket Assembly Orders](assembly-how-to-create-blanket-assembly-orders.md)  

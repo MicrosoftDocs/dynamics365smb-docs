@@ -140,12 +140,14 @@ This topic shows an example of how to define allocations by using the dynamic al
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/allocate-costs-dynamics-365-business-central/)
 
- [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)   
- [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)   
- [Accounting for Costs](finance-manage-cost-accounting.md)   
- [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
+## See also
+
+ [Setting Up Cost Accounting](finance-set-up-cost-accounting.md)  
+ [Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md)  
+ [Accounting for Costs](finance-manage-cost-accounting.md)  
+ [Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)  
  [About Cost Accounting](finance-about-cost-accounting.md)
 
 

@@ -66,12 +66,14 @@ You can issue additional prepayment invoices for the order. To do this, increase
 
  When you are ready to post the rest of the invoice, post it as you would post any invoice, and the prepayment amount will automatically be deducted from the amount due.  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+
+## See also
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Walkthrough: Setting Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finance](finance.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Personalize Your Workspace](ui-personalization-user.md)  
 
 

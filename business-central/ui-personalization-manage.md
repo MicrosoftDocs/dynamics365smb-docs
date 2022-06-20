@@ -12,6 +12,7 @@ ms.author: edupont
 
 ---
 # Customize Pages for Profiles
+
 Users can personalize pages that make up their workspace to suit their own preferences. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 Administrators can customize pages for a profile, according to the related business role or department, for example, so that all users that are assigned the profile will see the customized page layout. The administrator customizes pages by using the same functionality as users do when they personalize pages.
@@ -22,6 +23,7 @@ Administrators can customize pages for a profile, according to the related busin
 Page customization starts from the **Profiles (Roles)** page, the administrator's starting point for managing users' profiles on individual profile cards. In addition to customizing the page layout, you control various other settings for profiles on the **Profile (Role)** page for each profile. For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 
 ## To customize pages for a profile
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
 2. Select the line for the profile that you want to customize pages for, and then choose the **Edit** action.
 3. Choose the **Customize pages** action.
@@ -47,6 +49,7 @@ You can get an overview of which pages are customized for a profile, for example
 On the **Customized Pages** page, you can delete customizations, and you can troubleshoot by scanning for potential issues.  
 
 ## To delete all customizations for a profile
+
 You can cancel all customizations that you have made for a profile. Customizations introduced with an extension and personalizations made by a user will not be deleted. You can delete all personalizations with another action. For more information, see [To delete all personalizations made by a user](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
 - On the **Profile (Role)** page for a customized profile, choose the **Clear customized pages** action.
@@ -54,6 +57,7 @@ You can cancel all customizations that you have made for a profile. Customizatio
 The layout on pages for the profile is reset to the default layout.  
 
 ## To delete customization for specific pages for a profile
+
 You can delete individual page customizations that you have made for a profile. Customizations introduced with an extension and personalizations made by a user will not be deleted. You can delete specific page personalizations with another action. For more information, see [To delete personalizations for specific pages](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
 1. On the **Profile (Role)** page, choose the **Manage customized pages** action.
@@ -61,7 +65,9 @@ You can delete individual page customizations that you have made for a profile. 
 
 The layout on the selected pages is adjusted to the changes you made.
 
-## See Also
+## See related training at [Microsoft Learn](/learn/paths/tailor-roles-design-ui/)
+
+## See also
 
 [Personalize Your Workspace](ui-personalization-user.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  

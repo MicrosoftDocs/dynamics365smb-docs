@@ -14,10 +14,11 @@
 
 ---
 # Pick for Production or Assembly in Basic Warehouse Configurations
+
 How you put away your pick components for production or assembly orders depends on how your warehouse is set up as a location. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
-
 ## Pick for Production in Basic Warehouse Configurations
+
 Flushishing method also affects the flow of components in production. For more information, see [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).
 
 In advanced warehouse configurations where locations require both picks and shipments, you must use the **Warehouse Pick** page to bring components with flushing method set to *Manual*, *Pick + Forward*, *Pick + Backward* to production orders. For more information, see [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
@@ -37,6 +38,7 @@ When production operations are integrated with warehouse processes, either by bi
 A system precondition for picking, or moving, components for source documents is that an outbound warehouse request exists to notify the warehouse area of the component need. The outbound warehouse request is created whenever the production order status is changed to Released or when a released production order is created.  
 
 ## To pick production components in basic warehouse configurations using Inventory Pick
+
 In basic warehouse configurations where the location is set up to use picking only, you can pick components for production activities with the **Inventory Pick** page. For more information, see [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
@@ -49,6 +51,7 @@ You can also create an **Inventory Pick** directly from the released production 
 Alternatively, you can use the **Inventory Movement** with reference to the source document to move items between bins. You will need to register consumption separately. For more information, see [Batch Post Production Consumption](production-how-to-post-consumption.md)
 
 ## Pick for Assembly in Basic Warehouse Configurations
+
 In advanced warehouse configurations where locations require both picks and shipments, you must use the **Warehouse Pick** page to bring components to assembly orders. For more information, see [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
 
 In basic warehouse configurations, you can also pick for assembly orders with the **Inventory Movement** page. 
@@ -56,6 +59,7 @@ In basic warehouse configurations, you can also pick for assembly orders with th
 In basic warehouse configurations where the location requires pick processing but not shipment processing, the **Inventory Pick** page is also used to pick, assemble, and ship for sales order where items must be assembled before they can be shipped. For more information, see [Handling Assemble-to-Order Item with Inventory Picks](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 ## Handling Assemble-to-Order Items with Inventory Picks
+
 The **Inventory Pick** page is also used to pick and ship for sales where items must be assembled before they can be shipped. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).
 
 Items to be shipped are not physically present in a bin until they are assembled and posted as output to a bin in the assembly area. This means that picking assemble-to-order items for shipment follows a special flow. From a bin, warehouse workers take the assembly items to the shipping dock and then post the inventory pick. The posted inventory pick then posts the assembly output, the component consumption, and the sales shipment.
@@ -75,15 +79,19 @@ If no bin code is specified on the sales order line, and no assembly output flow
 In combination scenarios, where a part of the quantity must first be assembled and another must be picked from inventory, a minimum of two inventory pick lines are created. One pick line is for the assemble-to-order quantity. The other pick line depends on which bins can fulfill the remaining quantity from inventory. Bin codes on the two lines are filled in different ways as described for the two different sales types respectively. For more information, see the “Combination Scenarios” section in [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## Filling the Consumption Bin
+
 This flow chart shows how the **Bin Code** field on production order component lines is filled according to your location setup.
 
 ![Bin flow chart.](media/binflow.png "BinFlow")
 
-## See Also
+## See related training at [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+
+## See also
+
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
-[Assembly Management](assembly-assemble-items.md)    
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
+[Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

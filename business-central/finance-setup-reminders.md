@@ -95,6 +95,8 @@ If you create more reminders than you have defined levels for, the conditions fo
 
 After you have set up the reminder terms, with additional levels and text, enter one of the codes on each of the customer cards. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
 
+## See related training at [Microsoft Learn](/learn/modules/send-reminders-dynamics-365-business-central/)
+
 ## See also
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  

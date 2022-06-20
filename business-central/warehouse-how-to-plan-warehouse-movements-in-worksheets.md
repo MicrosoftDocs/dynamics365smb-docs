@@ -14,9 +14,11 @@
 
 ---
 # Plan Warehouse Movements in Worksheets
+
 Plan movements in the worksheet using a bin replenishment function or manually planning the lines that you want to create as movement instructions.  
 
-## To calculate a replenishment movement  
+## To calculate a replenishment movement
+
 As the warehouse ships items out to customers, the bins with the highest bin rankings contain fewer and fewer items. To fill up these high-ranking pick bins with items from other bins, run the **Calculate Bin Replenishment** function on the **Movement Worksheet** page
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
@@ -37,7 +39,8 @@ As the warehouse ships items out to customers, the bins with the highest bin ran
 3.  Look through the lines and change them if necessary, or delete some of them if there is not enough time to perform them all.  
 4.  Choose the **Create Movement** action to make a warehouse instruction for action by warehouse employees.  
 
-## To move the entire contents of one or more bins by using the Get Bin Content function  
+## To move the entire contents of one or more bins by using the Get Bin Content function
+
 You can also use the movement worksheet to plan other movement of inventory within the warehouse. For example, when you want to place items in a bin for quality control, you can use the movement worksheet to plan this action and then create a movement to make instructions for an employee.  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Movement Worksheet**, and then choose the related link.  
@@ -61,7 +64,10 @@ You can also use the movement worksheet to plan other movement of inventory with
 6.  Delete the incomplete lines that you used for information.  
 7.  Once the movement worksheet lines accurately reflect how the movement action should be carried out by the warehouse employee, choose the **Create Movement** action to create the instructions for the employee.  
 
-## See Also  
+## See related training at [Microsoft Learn](/learn/modules/move-items/)
+
+## See also
+
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     

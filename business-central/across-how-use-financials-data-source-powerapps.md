@@ -46,7 +46,9 @@ When you have designed and built your app, you can share it with your colleagues
 > [!NOTE]
 > If you want to connect to [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, then you must choose the **Business Central (on-premises)** connector in step 3.  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/paths/power-apps-power-automate-business-central/)
+
+## See also
 
 [Create a canvas app from a template in Power Apps](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  

@@ -14,13 +14,15 @@
 
 ---
 # Create Special Orders
+
 You can create a special order for a specific catalog item to be shipped to a specific customer. Your vendor ships the item to your warehouse and you can then ship the item on to your customer either independently or together with other items on another order.  
 
 Special orders imply that the purchase and sales order are linked to ensure that the specific catalog item is picked and delivered to the customer.  
 
 Before you can use this feature, you must first set up the customer, vendor, and item cards necessary for the order.  
 
-## To create a special order  
+## To create a special order
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order**, and then choose the related link.  
 2. Choose the **New** action. Create and fill in a  sales order for the item. For more information, see [Sell Products](sales-how-sell-products.md).
 3.  On the **Lines** FastTab, fill in the sales line. In the **Purchasing Code** field, select a purchasing code that has the **Special Order** field selected.
@@ -39,7 +41,10 @@ A purchase order created as a special order for a sales order is respected by th
 > [!NOTE]  
 >  You cannot use the special order functionality if the item is already reserved. Therefore, for items that are sold on special orders, make sure the **Reserve** field on the item card is not set to **Always**.  
 
-## See Also  
+## See related training at [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+
+## See also
+
 [Work with Catalog Items](inventory-how-work-nonstock-items.md)  
 [Sales](sales-manage-sales.md)  
 [Make Drop Shipments](sales-how-drop-shipment.md)   

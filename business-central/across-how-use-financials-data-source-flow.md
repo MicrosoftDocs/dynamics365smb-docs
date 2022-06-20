@@ -47,7 +47,9 @@ You can create flows at the [powerautomate.microsoft.com](https://powerautomate.
 
 You can get an overview of all workflows that you have access to by choosing the **Manage workflows** action in the **Power Automate** menu. The list opens in a new browser tab, and you signed in to Power Automate automatically. There, you can see when each flow ran most recently.  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/use-power-automate/)
+
+## See also
 
 [Troubleshoot Your [!INCLUDE[prod_short](includes/prod_short.md)] Automated Workflows](across-flow-troubleshoot.md)  
 [Get Ready for Doing Business](ui-get-ready-business.md)  

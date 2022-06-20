@@ -118,7 +118,9 @@ You define variations of workflows by filling fields on workflow lines from fixe
 
 If a business scenario requires a workflow event or response that is not supported, a Microsoft partner must implement them through code, or you can set up a workflow using Power Automate. For more information, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] in an Automated Workflow](across-how-use-financials-data-source-flow.md) or [Events in AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) in the developer help, respectively.
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/use-approval-workflows/)
+
+## See also
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  
 [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)  

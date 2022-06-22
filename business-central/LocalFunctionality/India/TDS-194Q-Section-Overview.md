@@ -11,7 +11,7 @@
     ms.workload: na
     ms.search.keywords: India, local, IN, English
     ms.date: 06/25/2021
-    ms.author: v-debapd
+    ms.author: bholtorf
 
 ---
 # Setting Up Tax Deducted at Source (TDS) on purchase of goods under Section 194Q

@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords: India, local, IN, English
     ms.date: 04/01/2021
-    ms.author: v-debapd
+    ms.author: bholtorf
    
 ---
 # Tax Engine - Import/Export Configuration

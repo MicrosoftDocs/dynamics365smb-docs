@@ -21,7 +21,7 @@ The default version of [!INCLUDE [prod_short](includes/prod_short.md)] supports 
 
 * Automated approval workflows based on built-in workflow templates  
 
-  On the **Workflow Templates** page, you can see all available workflows. The trial version of [!INCLUDE[prod_short](includes/prod_short.md)] includes a number of pre-configured workflows represented by workflow templates that you can copy to create workflows. When you open a workflow template from the **Workflow Templates** page, and the workflow's name starts with *MS-*, then the workflow template is added by Microsoft.  
+  On the **Workflow Templates** page, you can see all available workflows. The trial version of [!INCLUDE[prod_short](includes/prod_short.md)] includes many pre-configured workflows represented by workflow templates that you can copy to create workflows. When you open a workflow template from the **Workflow Templates** page, and the workflow's name starts with *MS-*, then the workflow template is added by Microsoft.  
 * Automated flows that you set up yourself  
 
   Any workflow template that you create with Power Automate is added to the list of workflow templates within [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Use Business Central in Power Automate Flows](across-how-use-financials-data-source-flow.md).  
@@ -29,15 +29,15 @@ The default version of [!INCLUDE [prod_short](includes/prod_short.md)] supports 
 
 ## Power Automate flows
 
-For [!INCLUDE [prod_short](includes/prod_short.md)] online, you can sign up for Power Automate and then build powerful automated flows that you can run from inside [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate Flows](across-how-use-financials-data-source-flow.md).  
+Using [!INCLUDE [prod_short](includes/prod_short.md)] online, you can sign up for Power Automate and then build powerful automated flows that you can run from inside [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate Flows](across-how-use-financials-data-source-flow.md).  
 
 ## Automated approval workflows
 
 You create an approval workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.  
 
-If a business scenario requires a workflow event or response that is not supported in the default version, sign up for Power Automate. For more information, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate Flows](across-how-use-financials-data-source-flow.md). Alternatively, get an app or work with a Microsoft partner to customize the application code.  
+[!INCLUDE[workflow](includes/workflow.md)]
 
-To set up and use workflows that are not defined in Power Automate, check the following articles:  
+To set up and use workflows that aren't defined in Power Automate, check the following articles:  
 
 |**To**|**See**|  
 |------------|-------------|  

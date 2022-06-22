@@ -16,7 +16,7 @@ When a record, such as a purchase document or a customer card, needs to be appro
 
 You set up approval workflows on the **Workflow** page. You must also set up approval users, including any relevant amount limits, in the **Approval User Setup** page. For more information, see [Setting Up Workflows](across-set-up-workflows.md).  
 
-In addition to approval workflows described in this topic, you can perform various other workflow tasks. For more information, [Use Workflows](across-use-workflows.md).
+In addition to approval workflows described in this article, you can perform various other workflow tasks. For more information, see [Use Workflows](across-use-workflows.md).
 
 Core approval workflows for purchases documents, sales documents, payment journals, customer cards, and item cards are ready to start as guides. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).
 
@@ -27,9 +27,9 @@ The following task is performed by an approval user.
 1. On the page that presents the record, choose the **Send Approval Request** action.
 2. To see all your approval requests, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval Request Entries**, and then choose the related link.  
 
-The status of the approval entry is updated from **Created** to **Open**. The status of the record, for example a purchase invoice, is updated from **Open** to **Pending Approval** and remains locked for processing until all approvers have approved the record.
+The status of the approval entry is updated from **Created** to **Open**. The status of the record, for example, a purchase invoice, is updated from **Open** to **Pending Approval** and remains locked for processing until all approvers have approved the record.
 
-When the approver has approved the record, the status changes to **Released**. You can then continue your tasks with the record.
+When all required approvers have approved the record, the status changes to **Released**. You can then continue your tasks with the record.
 
 ## To cancel requests for approval
 
@@ -72,9 +72,9 @@ A notification to approve the request is sent to the substitute approver.
 
 The following task is performed by an approval user with approver rights.
 
-At regular intervals, you must remind approval workflow users of overdue approval requests that they must react on. You use the **Send Overdue Approval Notifications** function for this.
+At regular intervals, you must remind approval workflow users of overdue approval requests that they must react on. You use the **Send Overdue Approval Notifications** function to remind the users.
 
-The **Send Overdue Approval Notifications** function checks for all open approval requests that are currently overdue. Each approver that has at least one overdue approval entry receives a notification with the list of all their overdue approval requests. The notification is also sent to their approver and all the requesters of the overdue approvals. This helps if the overdue approval entry must be delegated to a substitute.
+The **Send Overdue Approval Notifications** function checks for all open approval requests that are currently overdue. Each approver that has at least one overdue approval entry receives a notification with the list of all their overdue approval requests. The notification is also sent to their approver and all the requesters of the overdue approvals. This last step helps if the overdue approval entry must be delegated to a substitute.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Overdue Approval Requests**, and then choose the related link.
 2. On the **Overdue Approval Requests** page, choose the **Send Overdue Approval Notifications** action.

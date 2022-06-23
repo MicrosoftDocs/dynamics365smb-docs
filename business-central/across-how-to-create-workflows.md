@@ -38,10 +38,10 @@ The workflow is divided into three sections:
    * An Incoming document is created or released
    * Approval of a document is requested
 
-2. **On Condition of**  
+2. **On Condition**  
    The **conditions** are related to the event and opens for creating filters for when the event is triggered.
 3. **Then Response**  
-   The **Responses** responds to what the next step in the work is.
+   The **responses** responds to what the next steps in the work are.
 
 For both types of events, the events are system-defined. New events must be added through the development of an extension.
 
@@ -56,7 +56,7 @@ For both types of events, the events are system-defined. New events must be adde
 7. In the **When Event** field, specify the event that must occur to start the workflow step.  
 
     When you choose the field, the **Workflow Events** page opens where you select from all the workflow events that exist.  
-8. In the **Condition** field, specify one or more conditions that must be met before the event in the **When Event** field can occur.  
+8. In the **On Condition** field, specify one or more conditions that must be met before the event in the **When Event** field can occur.  
 
     When you choose the field, the **Event Conditions** page opens where you choose from a list of filter fields that are relevant as conditions for the event in question. You can add new filter fields that you want to use as event conditions. You set event condition filters just as you set filters on report request pages.  
 
@@ -104,7 +104,7 @@ For both types of events, the events are system-defined. New events must be adde
     >  You can only change the indent of a step that does not have a subsequent step.  
 
 12. Repeat steps 7 through 11 to add more workflow steps, either before or after the step that you've created.  
-13. Select the **Enabled** check box to specify that the workflow will start as soon as the event on the first step of type **Entry Point** occurs. For more information, see [Use Workflows](across-use-workflows.md).  
+13. Turn on the **Enabled** toggle to specify that the workflow will start as soon as the event on the first step of type **Entry Point** occurs. For more information, see [Use Workflows](across-use-workflows.md).  
 
 > [!NOTE]  
 > Do not enable a workflow until you are sure that the workflow is completed and that the involved workflow steps can start.  

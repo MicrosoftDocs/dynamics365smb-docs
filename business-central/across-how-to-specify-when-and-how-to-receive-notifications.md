@@ -21,9 +21,7 @@ People can also change their notification setup by choosing the **Change Notific
 > [!NOTE]
 > Notifications are delivered according to the notification settings for the receiver, not the sender. That's an important distinction because it means that when someone requests an approval as part of a workflow their request is not necessarily sent immediately. Instead, it will be delivered according to the notification schedule specified in the approver's notification settings.
 
-Before you can set up an approval user’s notification preferences, you must set up the user as an approval user. For more information, see [Set Up Approval Users](across-how-to-set-up-approval-users.md).  
-
-You can define the layout of email notifications by customizing Report 1320, Notification Email. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).  
+Before you can set up an approval user's notification preferences, you must set up the user as an approval user. For more information, see [Set Up Approval Users](across-how-to-set-up-approval-users.md).  
 
 > [!NOTE]
 > If you want to use email as the notification method, you must set up email for both the sender and the receiver in [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Set up Email](admin-how-setup-email.md).

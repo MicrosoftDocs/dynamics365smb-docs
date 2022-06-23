@@ -15,7 +15,7 @@
 ---
 # Restrict and Allow Usage of a Record
 
-If you want to restrict a record from being used in certain activities, for example, until the record has been approved, you can incorporate two workflow responses in a workflow that controls the usage of the record. One workflow response will restrict usage of the record as defined by the workflow event and conditions. Another workflow response will allow usage of the record as defined by the workflow event and conditions. Two responses exist in the default version of [!INCLUDE[prod_short](includes/prod_short.md)] for this purpose: **Restrict usage of a record.** and **Allow usage of a record.**.
+If you want to restrict a record from being used in certain activities, for example, until the record has been approved, you can incorporate two workflow responses in a workflow that controls the usage of the record. One workflow response will restrict usage of the record as defined by the workflow event and conditions. Another workflow response will allow usage of the record as defined by the workflow event and conditions. Two responses exist in the default version of [!INCLUDE[prod_short](includes/prod_short.md)] for this purpose: **Add record restriction** and **Remove record restriction**.
 
 > [!NOTE]  
 > The default version of [!INCLUDE[prod_short](includes/prod_short.md)] offers support for restricting a record from being posted, from being exported as a payment, and from being printed as a check. To support other restrictions, a Microsoft partner must customize the application code.  

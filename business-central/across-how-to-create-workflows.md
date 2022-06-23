@@ -19,9 +19,9 @@ You can create workflows that connect business-process tasks performed by differ
 
 On the **Workflow** page, you create a workflow by listing the involved steps on the lines. Each step consists of a workflow event moderated by event conditions and a workflow response with response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.  
 
-When you create workflows, you can copy the steps from existing workflows or from workflow templates. Workflow templates represent non-editable workflows that exist in the generic version of [!INCLUDE[prod_short](includes/prod_short.md)]. The code for workflow templates that are added by Microsoft are prefixed with "MS-", such as in "MS-PIW". For more information, see [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
-
 [!INCLUDE[workflow](includes/workflow.md)]
+
+When you create workflows, you can copy the steps from existing workflows or from workflow templates. Workflow templates represent non-editable workflows that exist in the generic version of [!INCLUDE[prod_short](includes/prod_short.md)]. The code for workflow templates that are added by Microsoft are prefixed with "MS-", such as in "MS-PIW". For more information, see [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md).  
 
 > [!NOTE]  
 > All notifications about workflow steps are sent through a job queue. Make sure that the job queue reflects your business needs. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
@@ -55,7 +55,7 @@ For both types of events, the events are system-defined. New events must be adde
 6. In the **Category** field, specify which category the workflow belongs to.  
 7. In the **When Event** field, specify the event that must occur to start the workflow step.  
 
-    When you choose the field, the **Workflow Events** page opens where you select from all the workflow events that exist.  
+    When you choose the field, the **Workflow Events** page opens where you select from all available workflow events.  
 8. In the **On Condition** field, specify one or more conditions that must be met before the event in the **When Event** field can occur.  
 
     When you choose the field, the **Event Conditions** page opens where you choose from a list of filter fields that are relevant as conditions for the event in question. You can add new filter fields that you want to use as event conditions. You set event condition filters just as you set filters on report request pages.  
@@ -66,8 +66,8 @@ For both types of events, the events are system-defined. New events must be adde
     2. In the **Operator** field, select either **Decreased**, **Increased**, or **Changed**.  
 9. In the **Then Response** field, specify the response that will follow when the workflow event occurs.  
 
-     When you choose the field, the **Workflow Responses** page opens where you select from all workflow responses that exist and set response options for the selected response.  
-10. On the **Options for the Selected Response** FastTab, specify options for the workflow response, by selecting values in the different fields that appear, as follows:  
+     When you choose the field, the **Workflow Responses** page opens where you select from all available workflow responses and set response options for the selected response.  
+10. On the **Options for the Selected Response** FastTab, specify options for the workflow response by selecting values in the different fields that appear, as follows:  
 
     1. To specify options for a workflow response that involves sending a notification, fill the fields as described in the following table.  
 
@@ -139,7 +139,7 @@ In the following example, a new workflow is made to approve changes to the name 
     For more information, see [Set Up Approval Users](across-how-to-set-up-approval-users.md).  
     6. Add a third response, *Send approval request for the record and create a notification.*  
     7. Add a fourth response, *Show message "%1"*, and then, in the **Options for the Selected Response** section, in the Message field, specify **An approval request has been sent**.  
-    8. Choose the OK button to return to the workflow step.  
+    8. Choose the **OK** button to return to the workflow step.  
 
 5. In the next line, add a new workflow step for the *An approval request is approved.* event.  
 
@@ -149,7 +149,7 @@ In the following example, a new workflow is made to approve changes to the name 
 
       The result of this step is that the condition reads as *Pending Approvals:0* to indicate that this is the last approver.  
     4. In the **Then Response** field, choose the **Select Response** link, and then, in the **Workflow Responses** page, in the **Select Response** field, choose the *Send approval request for the record and create a notification* response.  
-    5. Choose the OK button.  
+    5. Choose the **OK** button.  
 6. In the next line, add a second workflow step for the *An approval request is approved* event.  
 
     1. In the **When Event** field, specify *An approval request is approved*.
@@ -157,20 +157,20 @@ In the following example, a new workflow is made to approve changes to the name 
 
       The result of this step is that the condition reads as *Pending Approvals:>0* to indicate that this is *not* the last approver.  
     3. In the **Then Response** field, choose the **Select Response** link, and then, in the **Workflow Responses** page, in the **Select Response** field, choose the *Send approval request for the record and create a notification* response.  
-    4. Choose the OK button.  
+    4. Choose the **OK** button.  
 7. In the next line, add a workflow step for the *An approval request is delegated* event.  
 
     1. In the **When Event** field, specify *An approval request is delegated*.  
     2. In the **On Condition** field,  leave the value as *Always*.  
     3. In the **Then Response** field, choose the **Select Response** link, and then, in the **Workflow Responses** page, in the **Select Response** field, choose the *Send approval request for the record and create a notification* response.  
-    4. Choose the OK button.  
+    4. Choose the **OK** button.  
 8. In the next line, add a second workflow step for the *An approval request is rejected* event.  
 
     1. In the **When Event** field, specify *An approval request is rejected*.  
     2. In the **On Condition** field,  leave the value as *Always*.  
     3. In the **Then Response** field, choose the **Select Response** link, and then, in the **Workflow Responses** page, in the **Select Response** field, choose the *Discard the new values* response.  
     4. Choose the **Add More Responses** link, and then add an entry for the *Reject the approval request for the record and create a notification* response
-    5. Choose the OK button.  
+    5. Choose the **OK** button.  
 9. To enable the workflow, turn on the **Enabled** toggle.  
 
 The following illustration provides an overview of the result of this procedure.  

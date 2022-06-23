@@ -19,7 +19,7 @@ ms.author: edupont
 
 To save time when creating new workflows, you can create workflows from workflow templates.  
 
-Workflow templates are non-editable workflows that exist in the generic version of [!INCLUDE[prod_short](includes/prod_short.md)]. The codes for workflow templates that are added by Microsoft are prefixed with “MS-“.  
+Workflow templates are non-editable workflows that exist in the default version of [!INCLUDE[prod_short](includes/prod_short.md)]. The codes for workflow templates created by Microsoft are prefixed with "MS-".  
 
 Another way to quickly create a workflow is to import an existing workflow that you have on a file outside of [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Export and Import Workflows](across-how-to-export-and-import-workflows.md).  
 
@@ -31,7 +31,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 2. Choose the **New Workflow from Template** action. The **Workflow Templates** page opens.  
 3. Select a workflow template, and then choose the **OK** button.  
 
-   The **Workflow** page opens for a new workflow containing all the information of the selected template. The value in the **Code** field is extended with, for example, “-01” to indicate that this is the first workflow that is created from the workflow template.  
+   The **Workflow** page opens for a new workflow containing all the information of the selected template. The value in the **Code** field is extended with, for example, "-01" to indicate that this is the first workflow that is created from the workflow template.  
 4. Proceed to create the workflow by editing the workflow steps or add new steps. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
 ## See related training at [Microsoft Learn](/learn/modules/create-workflows/)

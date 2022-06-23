@@ -112,7 +112,7 @@ Notice that the value in the **Status** field has changed to **Pending Approval*
 
 The value in the **Status** field on Alicia's purchase order changes to **Released**.  
 
-You have now set up and tested a simple approval workflow based on the first two steps of the Purchase Order Approval Workflow. You can easily extend this workflow to automatically post Alicia's purchase order when Sean approves it. To do this, you must enable the Purchase Invoice Workflow, in which the response to a released purchase invoice is to post it. First you must change the event condition on the first workflow step from (purchase) **Invoice** to **Order**.  
+You have now set up and tested a simple approval workflow based on the first two steps of the **Purchase Order Approval Workflow**. You can easily extend this workflow to automatically post Alicia's purchase order when Sean approves it. To do this, you must enable the **Purchase Invoice Workflow**, in which the response to a released purchase invoice is to post it. First you must change the event condition on the first workflow step from (purchase) **Invoice** to **Order**.  
 
 The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] includes many workflow templates for scenarios that are supported by the application code. Most of these templates are for approval workflows.  
 

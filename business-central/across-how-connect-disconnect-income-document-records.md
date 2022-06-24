@@ -50,6 +50,9 @@ The connection to the posted document is removed. You can now proceed to connect
 
 ## See also
 
+[Create Incoming Document Records](across-how-create-income-document-records.md)
+[Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
+[Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md)
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

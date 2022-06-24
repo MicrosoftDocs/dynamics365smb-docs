@@ -70,6 +70,9 @@ If you approve the incoming document record, the **Released** check box on the i
 
 ## See also
 
+[Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
+[Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)
+[Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md)
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

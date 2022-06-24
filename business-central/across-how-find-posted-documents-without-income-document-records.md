@@ -38,6 +38,9 @@ If a relevant incoming document record doesn't exist on the **Incoming Documents
 
 ## See also
 
+[Create Incoming Document Records](across-how-create-income-document-records.md)
+[Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)
+[Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

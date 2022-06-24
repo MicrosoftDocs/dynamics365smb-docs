@@ -56,6 +56,8 @@ All incoming document records are displayed, including records where the **Proce
 
 ## See also
   
+[Create Incoming Document Records](across-how-create-income-document-records.md)
+[Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

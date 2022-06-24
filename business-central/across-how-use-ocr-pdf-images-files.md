@@ -22,7 +22,7 @@ As an alternative to sending the file from the **Incoming Documents** page, the 
 
 After some seconds, the OCR service will send the processed file to the **Incoming Documents** page as an electronic document record that can be [converted to a purchase invoice for the vendor](#to-receive-the-resulting-electronic-document-from-the-ocr-service), a sales invoice, credit memo or a journal entry.
 
-Because OCR is based on optical recognition, it's likely that the OCR service will interpret characters in your PDF or image files wrongly when it first processes a certain vendor’s documents, for example. It may not interpret the company logo as the vendor’s name or it may misinterpret the total amount on a receipt because of its layout. To avoid these errors going forward, you can correct the errors in a separate version of the **Incoming Document** page. Then you send the corrections back to the OCR service to train it to interpret the specific characters and fields correctly next time it processes a PDF or image document for the same vendor. For more information, see [Train the OCR service to avoid errors](across-how-use-ocr-pdf-images-files.md#to-train-the-ocr-service-to-avoid-errors).
+Because OCR is based on optical recognition, it's likely that the OCR service will interpret characters in your PDF or image files wrongly when it first processes a certain vendor's documents, for example. It may not interpret the company logo as the vendor's name or it may misinterpret the total amount on a receipt because of its layout. To avoid these errors going forward, you can correct the errors in a separate version of the **Incoming Document** page. Then you send the corrections back to the OCR service to train it to interpret the specific characters and fields correctly next time it processes a PDF or image document for the same vendor. For more information, see [Train the OCR service to avoid errors](across-how-use-ocr-pdf-images-files.md#to-train-the-ocr-service-to-avoid-errors).
 
 The traffic of files to and from the OCR service is processed by a dedicated job queue entry. This job queue is created automatically when you enable the external OCR service connection. For more information, see [Set Up Incoming Documents](across-how-setup-income-documents.md).
 
@@ -42,7 +42,7 @@ The traffic of files to and from the OCR service is processed by a dedicated job
 
 ## To send a PDF or image file to the OCR service by email
 
-From your email application, you can forward an email to the OCR service provider with the PDF or image file attached. For information about the email address to send to, see the OCR service provider’s web site.
+From your email application, you can forward an email to the OCR service provider with the PDF or image file attached. For information about the email address to send to, see the OCR service provider's web site.
 
 Since no incoming document record exists for the file, a new record will be created automatically on the **Incoming Documents** page when the OCR service sends the resulting electronic document. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).
 
@@ -109,7 +109,7 @@ In addition to mapping to a vendor account or G/L accounts, you can also map tex
 
 ## To train the OCR service to avoid errors
 
-Because OCR is based on optical recognition, the OCR service can wrongly interpret characters in your PDF or image files when it first processes documents from a certain vendor, for example. It may not interpret the company logo as the vendor’s name or it may misinterpret the total amount on an expense receipt because of its layout. To avoid such errors going forward, you can correct data received by the OCR service and then send the feedback to the service.
+Because OCR is based on optical recognition, the OCR service can wrongly interpret characters in your PDF or image files when it first processes documents from a certain vendor, for example. It may not interpret the company logo as the vendor's name or it may misinterpret the total amount on an expense receipt because of its layout. To avoid such errors going forward, you can correct data received by the OCR service and then send the feedback to the service.
 
 The **OCR Data Correction** page, which you open from the **Incoming Document** page, shows the fields from the **Financial Information** FastTab in two columns, one with the OCR data editable and one with the OCR data read-only. When you choose the **Send OCR Feedback** button, the content of the **OCR Data Correction** page is sent to the OCR service. Next time the service processes PDF or image files that contain the data in question, your corrections will be incorporated to improve the document recognition.
 
@@ -127,6 +127,8 @@ The fields on the **Financial Information** FastTab on the **Incoming Document**
 
 ## See also
 
+[Create Incoming Document Records](across-how-create-income-document-records.md)
+[Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md)
 [Incoming Documents](across-income-documents.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

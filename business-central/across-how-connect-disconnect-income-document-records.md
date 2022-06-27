@@ -1,8 +1,6 @@
 ---
 title: Create Incoming Document Records From Docs
 description: You can store external business documents by attaching the document files to the related incoming document records.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 

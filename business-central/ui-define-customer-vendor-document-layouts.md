@@ -1,8 +1,6 @@
 ---
 title: Assign Document Layouts to Customers or Vendors
 description: Use document layouts to control the appearance and format of documents such as invoices and orders that you send to customers and vendors.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na

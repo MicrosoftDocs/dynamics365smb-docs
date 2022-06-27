@@ -1,8 +1,6 @@
 ---
 title: Create Incoming Document Records
 description: Use different functions on the Incoming Documents page to review expense receipts, manage OCR tasks, convert incoming document files and attach external files.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 

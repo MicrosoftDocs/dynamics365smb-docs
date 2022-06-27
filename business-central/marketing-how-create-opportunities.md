@@ -1,8 +1,6 @@
 ---
 title: Create Sales Opportunities
 description: This article describes how to create opportunities from a salesperson or a contact in Business Central.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 
 

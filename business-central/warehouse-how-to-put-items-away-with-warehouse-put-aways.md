@@ -14,6 +14,7 @@
 
 ---
 # Put Items Away with Warehouse Put-aways
+
 When your location is set up to require warehouse put-away processing and warehouse receive processing, you use the warehouse put-away documents function to control the putting away of items.  
 
 When you post a warehouse receipt, the source documents, such as purchase, inbound transfer, or sales return orders, are updated, the quantity received is posted to the item ledger, and the lines about the items received are sent to the put-away function in the warehouse. If you have internal put-away and pick, the internal put-away can also create lines for put-away.  
@@ -22,7 +23,8 @@ Depending on the warehouse setup, the lines are either made available to the put
 
 In addition to the standard ways to create warehouse put-aways that are described in this topic, you can create the put-away from the related posted warehouse receipt. This is useful if you have deleted put-away lines, or if you use directed put-away and pick and have decided not to use the put-away worksheet, because you can create or recreate put-away instructions from the posted receipt lines.  
 
-## To put items away without directed put-away and pick  
+## To put items away without directed put-away and pick
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-aways**, and then choose the related link.  
 2.  Open the warehouse put-away that is ready to handle.  
 
@@ -30,7 +32,8 @@ In addition to the standard ways to create warehouse put-aways that are describe
 3.  On each line, in the **Qty. to Handle** field, enter the quantity you want to put away.  
 4.  After you have completed putting the items away, choose the **Register Put-away** action to record the completion of the activity and make the items available for picking.  
 
-## To put items away with directed put-away and pick  
+## To put items away with directed put-away and pick
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-aways**, and then choose the related link.
     If put-away instructions have been created, a warehouse put-away is visible.  
 2.  Open the warehouse put-away that you want to work on.  
@@ -56,7 +59,8 @@ At locations that are set up to use directed put-away and pick, the following se
 
 The bin ranking is taken into consideration when more than one bin matches put-away template criteria. If both the put-away template criteria and the bin ranking are the same for more than one bin, the bin with the highest number is selected.
 
-## To create a put-away from a posted receipt  
+## To create a put-away from a posted receipt
+
  If your location uses both put-away processing and receive processing and you have deleted put-away lines, or if you use directed put-away and pick and have decided not to use the put-away worksheet, you can create or recreate put-away instructions for the posted receipt lines.
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Whse. Receipts**, and then choose the related link.  
@@ -66,13 +70,16 @@ The bin ranking is taken into consideration when more than one bin matches put-a
     If the **Document Status** field is blank, the receipt has not been put away at all. Otherwise, the field indicates the receipt is partially put-away or completely put-away.  
 
 4.  If the receipt is partially put away or not put away at all, choose the **Create Put-away** action.  
-5.  Fill in the batch job request page to create the put-away, and then choose the **OK** button.   
+5.  Fill in the batch job request page to create the put-away, and then choose the **OK** button.  
 
-## See Also  
+## See related training at [Microsoft Learn](/learn/modules/receive-put-away-items/)
+
+## See also
+
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
-[Assembly Management](assembly-assemble-items.md)    
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
+[Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -159,7 +159,9 @@ Requisition worksheet lines contain detailed information about the items that ne
 
 For details about planning with locations and transfers, see [Planning With or Without Locations](production-planning-with-without-locations.md).
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/plan-items-dynamics-365-business-central/)
+
+## See also
 
 [Design Details: Supply Planning](design-details-supply-planning.md)  
 [Planning](production-planning.md)  

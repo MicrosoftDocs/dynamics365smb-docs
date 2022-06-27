@@ -179,7 +179,9 @@ The following illustrations provides an overview of the result of this procedure
 
 Next, you must and test the workflow by opening an existing vendor and change the name. Verify that an approval request is made on changing the vendor name.
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/create-workflows/)
+
+## See also
 
 [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)  
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  

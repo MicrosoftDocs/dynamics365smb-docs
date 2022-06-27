@@ -59,9 +59,11 @@ You can manually specify the date formula on lines. Otherwise, [!INCLUDE[prod_sh
 3. Stockkeeping Unit Card
 4. Vendor Card
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/estimate-receipt-dates-dynamics-365-business-central/)
 
-[Date Calculation for Sales](sales-date-calculation-for-sales.md)   
+## See also
+
+[Date Calculation for Sales](sales-date-calculation-for-sales.md)  
 [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

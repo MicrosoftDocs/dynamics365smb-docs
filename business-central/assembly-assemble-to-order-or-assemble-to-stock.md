@@ -15,12 +15,14 @@ ms.author: bholtorf
 
 ---
 # Understanding Assemble to Order and Assemble to Stock
+
 Assembly items can be supplied in the following two processes:  
 
 -   Assemble to order.  
 -   Assemble to stock.  
 
-## Assemble to Order  
+## Assemble to Order
+
 You typically use *assemble to order* for items that you do not want to stock because you expect to customize them to customer requests or because you want to minimize the inventory carrying cost. The supporting functionality includes:  
 
 -   Ability to customize assembly items when taking a sales order.  
@@ -40,7 +42,8 @@ When you enter an assemble-to-order item on a sales line, an assembly order is a
 
  To enable this process, the **Assembly Policy** field on the item card must be **Assemble-to-Order**.  
 
-## Assemble to Stock  
+## Assemble to Stock
+
  You typically use *assemble to stock* for items that you want to assemble ahead of sales, such as to prepare for a kit campaign, and keep in stock until they are ordered. These items are usually standard items such as packaged kits that you do not offer to customize to customer requests.  
 
  In the assemble-to-stock process, the item is assembled without an immediate sales demand and is stocked in the warehouse as an inventory item for later sale or consumption as a subassembly. For more information, see [Assemble Items](assembly-how-to-assemble-items.md). From this point, the item is picked and processed as a single item and is treated like a finished production item.  
@@ -52,7 +55,8 @@ When you enter an assemble-to-order item on a sales line, an assembly order is a
 
  To enable this process, the **Assembly Policy** field on the item card must be **Assemble-to-Stock**.  
 
-## Combination Scenarios  
+## Combination Scenarios
+
  A general principle in Assembly Management is that when combined on a sales order line, assemble-to-order quantities must be shipped before inventory quantities.  
 
  If an assembly order is linked to a sales order line, then the value in the **Qty. to Assemble to Order** field on the sales order line is copied to the **Quantity to Assemble** field, via the **Quantity** field on the assembly order header. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -88,7 +92,9 @@ Based on this example, you can only modify the **Quantity to Assemble** field as
 - The minimum quantity that you can enter is 1. This is because you must at least assemble one unit to be able to sell the four units, assuming that the remaining three are available in the inventory.  
 - The maximum quantity that you can enter is 4. This is to ensure that you do not assemble more of this assemble-to-order item than what is needed on the sale.  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
+## See also
 
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Bills of Material](inventory-how-work-BOMs.md)  

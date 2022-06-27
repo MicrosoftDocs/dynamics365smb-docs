@@ -27,6 +27,7 @@ To increase your overview of items and to help you find them, you can categorize
 Planning for items to fulfill demand is covered as part of supply planning functionality. For more information, see [Planning](production-planning.md).  
 
 ## Inventory Reconciliation
+
 When you post inventory transactions, such as sales shipments, purchase invoices, or inventory adjustments, the changed item costs are recorded in item value entries. To reflect this change of inventory value in your financial books, the inventory costs are automatically posted to the related inventory accounts in the general ledger. For each inventory transaction that you post, the appropriate values are posted to the inventory account, adjustment account, and COGS account in the general ledger. For more information, see [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment. Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually. For more information, see [Adjust Item Costs](inventory-how-adjust-item-costs.md).  
@@ -55,7 +56,9 @@ The following table outlines related tasks.
 |Manage business operations in sales offices, a purchasing departments, or plant planning offices across multiple locations.|[Work with Responsibility Centers](inventory-responsibility-centers.md)|
 |Use resources with specific skills for various services and service items.|[Set Up Resource Allocation](service-how-setup-resource-allocation.md)|
 
-## See Also
+## See related training at [Microsoft Learn](/learn/paths/get-started-inventory-management/)
+
+## See also
 
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Purchasing](purchasing-manage-purchasing.md)  

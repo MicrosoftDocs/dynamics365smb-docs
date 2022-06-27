@@ -51,7 +51,9 @@ To set this up, you assign responsibility centers to users in three functional a
 > [!NOTE]  
 > Users can view only those posted documents that related to their own responsibility center. However, they can view all ledger entries and navigate to other posted documents from the ledger entries.
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/set-up-responsibility-centers/)
+
+## See also
 
 [Setting Up Inventory](inventory-setup-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  

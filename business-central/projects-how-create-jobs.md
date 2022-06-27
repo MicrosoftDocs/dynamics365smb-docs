@@ -13,6 +13,7 @@ ms.author: edupont
 
 ---
 # Create Jobs
+
 When you start a new project, you must create a job card with integrated job tasks and job planning lines, structured in two layers.  
 
 The first layer consists of job tasks. You must create at least one job task per job because all posting refers to a job task. Having at least one job task in your job enables you to set up job planning lines and to post consumption to the job.
@@ -31,6 +32,7 @@ Sometimes the party that is receiving a service is different from the party that
 * Overwrite the standard financial terms of the project.
 
 ## To create a job card
+
 You create a job card and then create job task lines and job planning lines for it.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
@@ -41,6 +43,7 @@ You create a job card and then create job task lines and job planning lines for 
 >   If you are using time sheets with your job, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the job. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
 
 ## To create tasks for a job
+
 A key part of creating a job is to specify the various tasks involved in the job. You specify tasks by creating one line per task on the **Tasks** FastTab on the **Job Card** page. Every job must have at least one task.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.
@@ -51,6 +54,7 @@ A key part of creating a job is to specify the various tasks involved in the job
 6. To specify the job tasks with information on other job tasks, choose the **Copy Job Tasks from** action, fill in the fields as necessary, and then choose the **OK** button.
 
 ## To create planning lines for a job
+
 You can refine your new job tasks on job planning lines. A planning line can capture the information that you want to track for a job. For example, you can track the resources the job requires, or the items that are needed. For example, you have a task to get a customer to approve a job. You associate the task with planning lines for items such as meeting the customer and assigning a resource.  
 
 A job planning line can have one of the following types.  
@@ -70,7 +74,9 @@ A job planning line can have one of the following types.
 4. On the **Job Planning Lines** page, on a new line, fill in the fields as necessary.
 5. Repeat steps 3 and 4 for all planning lines that you need for the job task.
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/create-new-job/)
+
+## See also
 
 [Project Management](projects-manage-projects.md)  
 [Video: How to create a job in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

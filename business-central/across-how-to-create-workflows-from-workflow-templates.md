@@ -1,8 +1,6 @@
 ---
 title: How to Create Workflows from Workflow Templates
 description: To save time when creating new workflows, you can create non-editable workflows from workflow templates prefixed with "MS".
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 

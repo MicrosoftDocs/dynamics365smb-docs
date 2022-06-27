@@ -15,10 +15,10 @@
 ---
 # Set Up Data Exports for a Digital Audit (GoBD/GDPdU) in the German Version
 
-You must set up data export record sources to be able to export data for a digital audit according to the Grundsätze zum Datenzugriff und zur Prüfkbarkeit digtaler Unterlagen (GDPdU). For each data export type, you must define one or more record sources, where each source is a table from which you want to export data. 
+You must set up data export record sources to be able to export data for a digital audit according to the Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen (GDPdU). For each data export type, you must define one or more record sources, where each source is a table from which you want to export data. 
 
 > [!NOTE]  
-> When someone opens **Data Exports** page for the first time, three data export records with predefined settings are created with the codes **GLAcc 2022**, **FAAcc 2022**, and **Item 2022**. Consider these data export records ready-made templates for exporting data from Business Central according to government requirements.
+> When someone opens **Data Exports** page for the first time, three data export records with predefined settings are created with the codes **GLAcc 2022**, **FAAcc 2022**, and **Item 2022**. Consider these data export records ready-made templates for exporting data from [!INCLUDE[prod_short](../../includes/prod_short.md)] according to government requirements.
 >
 > - **GLAcc 2022** can be used to export data related to G/L and personal data.
 > - **FAAcc 2022** can be used to export data related to fixed asset data.

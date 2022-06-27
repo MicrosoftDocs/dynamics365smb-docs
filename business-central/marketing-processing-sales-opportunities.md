@@ -1,8 +1,6 @@
 ---
 title: Process Sales Opportunities in Sales Cycles
 description: This topic describes the different ways you can process sales opportunities in sales cycles and move an opportunity through the stages of a sales cycle.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 
 

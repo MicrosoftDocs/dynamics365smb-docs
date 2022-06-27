@@ -1,8 +1,6 @@
 ---
 title: Using the PayPal Payments Standard Extension
 description: This topic describes how to use the standard extension to enable customers to make payments with PayPal.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 

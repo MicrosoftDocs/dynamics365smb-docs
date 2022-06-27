@@ -1,8 +1,6 @@
 ---
 title: Set Up Information for Contacts| Microsoft Docs
 description: Outlines the tasks to specify information and codes, for example, about industry groups and business relationships, before you set up contacts.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 

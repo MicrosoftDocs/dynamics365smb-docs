@@ -40,13 +40,12 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], the new 1099 Form Box c
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], a new 1099 Form Box code *DIV-05* has been added, and all the 1099 codes from DIV-05 to DIV-11 were upgraded to codes from DIV-06 to DIV-12. When you open the **IRS 1099 Form Box** page, a notification pops up to upgrade the form boxes. If you change the 1099 code on the **Vendor Card** page, a notification will display asking if you want to update the 1099 codes for all the associated entries (like purchase documents, journal lines, posted invoices, credit memos and vendor ledger entries).  
 
-## See Also
+## See also
 
 [Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md)  
 [United States Local Functionality](united-states-local-functionality.md)  
 [Register New Vendors](../../purchasing-how-register-new-vendors.md)  
 [Record Purchase](../../purchasing-how-record-purchases.md)  
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

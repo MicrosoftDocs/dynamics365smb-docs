@@ -65,20 +65,20 @@ Once the document is posted, you can go to the **Vendor Ledger Entries** list pa
 
 ## Reporting
 
-### To find IRS 1099 statistics
+### To find the IRS 1099 statistics
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor's card.
 3. On the **Vendor Card** page, choose the **1099 Statistics** action to open the **Vendor 1099 Statistics** page.
 
-### To review IRS 1099 amounts for specific vendor
+### To review IRS 1099 amounts for a specific vendor
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor's card.
 3. On the **Vendor Card** page, choose the **Vendor 1099 Information** action to open the **Vendor 1099 Information** report.  
 4. Set filters for vendor number and date, and then choose to print or preview the report.
 
-### To print 1099 tax forms
+### To print the 1099 tax forms
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **1099 Form Boxes**, and then choose the related link.
 2. On the **1099 Form Boxes** page, choose the **Reports** action, and then choose one of vendor 1099 reports for printing:
@@ -105,13 +105,12 @@ The report uses the codes that apply to the form amount boxes from the **1099 Fo
 > [!NOTE]
 > Regulatory changes affecting this report and the table data are generally handled in end-of-year updates.
 
-## See Also
+## See also
 
 [Regulatory 1099 Format Changes and Details](tax-1099-changes.md)  
 [United States Local Functionality](united-states-local-functionality.md)  
 [Register New Vendors](../../purchasing-how-register-new-vendors.md)  
 [Record Purchase](../../purchasing-how-record-purchases.md)  
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

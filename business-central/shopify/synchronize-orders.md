@@ -186,5 +186,3 @@ To review all payouts, choose the ![Lightbulb that opens the Tell Me feature.](.
 ## See also
 
 [Get Started with the Connector for Shopify](get-started.md)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

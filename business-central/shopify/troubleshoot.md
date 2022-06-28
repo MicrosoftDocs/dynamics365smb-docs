@@ -47,7 +47,7 @@ This function only applies to syncs from Shopify to [!INCLUDE[prod_short](../inc
 
 ## Request the access token
 
-If [!INCLUDE[prod_short](../includes/prod_short.md)] can't connect to your Shopify account, try to request the access token from Shopify. This might be needed in case of rotation of security keys or changes in required permissions (scopes).
+If [!INCLUDE[prod_short](../includes/prod_short.md)] can't connect to your Shopify account, try to request the access token from Shopify. This request might be needed if there is a rotation of security keys or changes in required permissions (scopes).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
 2. Select the shop for which you want to get the access token to open the **Shopify Shop Card** page.
@@ -67,13 +67,13 @@ In order to work correctly, the Shopify Connector extension requires permission 
 
 ## Rotate the Shopify Access key
 
-The following procedures describes how to to rotate the access token used by the Shopify Connector to access your Shopify online shop.
+The following procedures describe how to to rotate the access token used by the Shopify Connector to access your Shopify online shop.
 
 ### In Shopify
 
 1. From your **Shopify admin**, go to [Apps](https://www.shopify.com/admin/apps).
-2. In the row with the *Dynamics 365 Business Central** app, click **Delete**.
-3. In the message that appears, click **Delete**.
+2. In the row with the *Dynamics 365 Business Central** app, select **Delete**.
+3. In the message that appears, select **Delete**.
 
 ### In [!INCLUDE[prod_short](../includes/prod_short.md)]
 
@@ -85,5 +85,3 @@ The following procedures describes how to to rotate the access token used by the
 ## See also
 
 [Get Started with the Connector for Shopify](get-started.md)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

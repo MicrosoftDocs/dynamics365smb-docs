@@ -101,5 +101,3 @@ You can schedule the task to be performed in an automated manner. For more infor
 ## See also
 
 [Get Started with the Connector for Shopify](get-started.md)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

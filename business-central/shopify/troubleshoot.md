@@ -17,7 +17,7 @@ It's possible to run into situations where you need to troubleshoot issues when 
 
 If a synchronization task fails, you can activate logging by enabling the **Log Enable** toggle in the **Shopify Shop Card**. Manually trigger the synchronization task and review logs.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Log Entries**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Log Entries**, and then choose the related link.
 2. Select the related log entry and open the **Shopify Log Entry** window.
 3. Review the request, status code and description, and response.
 
@@ -49,7 +49,7 @@ This function only applies to syncs from Shopify to [!INCLUDE[prod_short](../inc
 
 If [!INCLUDE[prod_short](../includes/prod_short.md)] can't connect to your Shopify account, try to request the access token from Shopify. This request might be needed if there is a rotation of security keys or changes in required permissions (scopes).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
 2. Select the shop for which you want to get the access token to open the **Shopify Shop Card** page.
 3. Choose the **Request Access** action.
 4. If prompted, sign in to your Shopify account.
@@ -60,7 +60,7 @@ The **Has AccessKey** toggle will be activated.
 
 In order to work correctly, the Shopify Connector extension requires permission to make Http requests. When testing in Sandboxes, the Http requests are prohibited for all extensions.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Extension Management**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Extension Management**, and then choose the related link.
 2. Select the *Shopify Connector* extension.
 3. Choose the **Configure** action to open the **Extension Setting** page.
 4. Make sure that the **Allow HTTPClient Requests** toggle is enabled.
@@ -77,7 +77,7 @@ The following procedures describe how to to rotate the access token used by the 
 
 ### In [!INCLUDE[prod_short](../includes/prod_short.md)]
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
 2. Select the shop for which you want to rotate the access token to open the **Shopify Shop Card** page.
 3. Choose the **Request Access** action.
 4. If prompted, sign-in into your Shopify account, review privacy and permissions, and then choose the **Install App** button.

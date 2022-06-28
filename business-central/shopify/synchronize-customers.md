@@ -90,7 +90,7 @@ For addresses where the country/province is used, select *Code* or *Name* in the
 
 ## Sync customers
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
 2. Select the Shop for which you want to synchronize customers to open the **Shopify Shop Card** page.
 3. Choose the **Sync Customers** action.
 

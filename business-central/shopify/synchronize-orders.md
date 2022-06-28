@@ -30,7 +30,7 @@ In the **Tax area source** field, you can define priority on how to select tax a
 
 The **Shipment method code** for sales documents imported from Shopify can be filled in automatically. You need to configure the **Shipment Method Mapping**.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
 2. Select the Shop for which you want to define mapping to open the **Shopify Shop Card** page.
 3. Choose the **Shipment Method Mapping** action. The records for shipping methods defined in the [**Shipping**](https://www.shopify.com/admin/settings/payments) settings in your **Shopify admin** gets created automatically.
 4. In the **Name** field, you can see the name of the shipping method from Shopify.
@@ -43,7 +43,7 @@ The **Shipment method code** for sales documents imported from Shopify can be fi
 
 To fill in the **Payment method code** for sales documents imported from Shopify automatically, you need to configure the **Payment method mapping**.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
 2. Select the Shop for which you want to define mapping to open the **Shopify Shop Card** page.
 3. Choose the **Payment Method Mapping** action.
 4. In the **Gateway** and **Credit Card Company** fields, enter the name of the payment method from Shopify. The record gets created automatically when you import shopify orders.
@@ -54,7 +54,7 @@ To fill in the **Payment method code** for sales documents imported from Shopify
 
 To fill in the **Location Code** for sales documents imported from Shopify automatically, you need to configure the **Shopify Shop Locations**.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
 2. Select the Shop for which you want to configure the mapping of locations to open the **Shopify Shop Card** page.
 3. Choose the **Locations** action to open the **Shopify Shop Locations**.
 4. Choose the **Get Shopify Locations** action to import all the locations defined in Shopify. You can find them in the [**Locations**](https://www.shopify.com/admin/settings/locations) settings in your **Shopify admin** panel. Note that the location marked as *Default* will be used when importing unfulfilled Shopify orders.
@@ -70,7 +70,7 @@ The following procedure describes how to import and update the sales orders.
 > [!NOTE]  
 > Archived orders in Shopify can't be imported. Deactivate the **Automatically archive the order** option in the **Order Processing** section of the **Checkout** settings in your **Shopify admin** panel to make sure that all orders are imported to [!INCLUDE[prod_short](../includes/prod_short.md)]. If you need to import archived orders, use the **Unarchive Orders** action in the [Orders](https://www.shopify.com/admin/orders) page of the Shopify Admin panel.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
 2. Select the Shop for which you want to import orders to open the **Shopify Shop Card** page.
 3. Choose the **Orders** action.
 4. Choose the **Sync Orders From Shopify** action.
@@ -94,7 +94,7 @@ If the **Auto Create Orders** toggle is enabled on the **Shopify Shop Card**, [!
 
 ### To create sales documents
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
 2. Select the Shop for which you want to synchronize orders to open the **Shopify Shop Card** page.
 3. Choose the **Orders** action.
 4. Select the order for which you want to create a sales document and choose the **Create Sales Documents** action.
@@ -138,7 +138,7 @@ While the imported Shopify order contains information about taxes, the taxes get
 
 When a sales order that is created from a Shopify order is shipped, you can synchronize the shipments to Shopify.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sync Shipments to Shopify**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sync Shipments to Shopify**, and then choose the related link.
 2. Define the filters on shipments as necessary. For example, you can update a shipment posted at a specific date.
 3. Choose the **OK** button.
 
@@ -171,13 +171,13 @@ To review the issued and applied gift cards, choose the ![Lightbulb that opens t
 
 The payment transactions that took place at Shopify are synchronized together with the orders and can be viewed from the *Shopify Orders* page.
 
-To review all transactions, choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transactions**, and select the related link.
+To review all transactions, choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transactions**, and select the related link.
 
 ## Payouts
 
 If your store has Shopify payments enabled, you'll receive payments through *Shopify Payouts* when a customer pays using Shopify payments and accelerated checkouts.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
 2. Select the Shop for which you want to synchronize payouts to open the **Shopify Shop Card** page.
 3. Choose the **Sync Payouts** action.
 

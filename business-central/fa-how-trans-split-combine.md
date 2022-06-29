@@ -69,7 +69,9 @@ You can combine multiple fixed assets into one fixed asset, for example when you
 2. Fill in the fields as necessary.
 3. Choose the **Print** or **Preview** button.  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/paths/reclassify-fixed-assets/)
+
+## See also
 
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  

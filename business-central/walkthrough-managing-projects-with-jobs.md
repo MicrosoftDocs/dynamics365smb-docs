@@ -21,54 +21,63 @@ This walkthrough introduces you to the project management features in jobs. Jobs
 
  This walkthrough covers the setup of a new job in addition to some common tasks such as handling fixed pricing, making payment by installments, posting invoices from jobs, and copying jobs.  
 
-## About This Walkthrough  
+## About This Walkthrough
+
  This walkthrough demonstrates the following tasks:  
 
-### Setting Up a Job  
+### Setting Up a Job
+
  With the budget structure set up for jobs, creating a job is straightforward. This walkthrough covers the following procedures:  
 
 - Setting up job task lines and planning lines.  
 - Creating job-specific prices for items, resources, and general ledger accounts.  
 - Invoicing from a job.  
 
-### Handling Fixed Prices  
+### Handling Fixed Prices
+
  In jobs, you can handle fixed prices and the prices for services or goods that are agreed upon in advance with customers. In this walkthrough, you can do the following:  
 
 - See how contract and invoice values are determined.  
 - Allow for extra work in the schedule that has not been invoiced.  
 
-### Copying a Job  
+### Copying a Job
+
  This part of the walkthrough focuses on how to copy part or all of a job in order to reduce manual data entry and improve accuracy. It includes the following:  
 
 - Copying part of a job to a new job.  
 - Copying job-specific prices.  
 - Copying planning lines.  
 
-### Making Payment by Installment  
+### Making Payment by Installment
+
  When a large, expensive project lasts for a long period, the customer often makes an agreement with the company to pay by installments. This scenario shows how you set up payment by installments and covers:  
 
 - Creating payment by installments for a job.  
 - Invoicing payments to customers.  
 - Accounting for usage in a job set up for payment by installments.  
 
-## Roles  
+## Roles
+
  This walkthrough includes tasks for the following roles:  
 
 - Project Manager  
 - Project Team Member  
 
-## Prerequisites  
+## Prerequisites
+
  Before you can perform the tasks in the walkthrough, you must do the following:  
 
 - Install the CRONUS demonstration database.
 - Create sample data by using the steps in the following section.  
 
-## Story  
+## Story
+
 This walkthrough focuses on CRONUS, a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of its work is project oriented. Prakash is a project manager at CRONUS. He uses jobs to give him an overview of each ongoing job that CRONUS has started, as well as the jobs that are completed. He is usually the one who sets up deals with customers and enters the core of the job, which is task and planning lines in addition to prices, into [!INCLUDE[prod_short](includes/prod_short.md)]. He finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[prod_short](includes/prod_short.md)] enables copying jobs and payment by installments.
 
  Tricia, a project team member who reports to Prakash, is responsible for monitoring the job day-to-day. She enters her own work in addition to the work performed by technicians on every task. She records the items that they have used and the costs that they have incurred.  
 
-## Preparing Sample Data  
+## Preparing Sample Data
+
  To prepare for this walkthrough, you must add Tricia as a new resource.  
 
 ### To prepare the sample data  
@@ -106,7 +115,8 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
 4.  Choose the **OK**  button to save the changes.
 
-## Setting Up a Job  
+## Setting Up a Job
+
  In this scenario, CRONUS has won a contract with a customer, Progressive Home Furnishings, to design a conference and dining hall. The customer is based in the United States and the project will require special software. The project manager reaches an agreement with the customer and creates a job that covers the agreement.  
 
 ### To set up a job  
@@ -199,7 +209,8 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
 4. Close the page. Totals are updated on the **Job Task Lines** page.  
 
-## Calculating Remaining Usage  
+## Calculating Remaining Usage
+
  Tricia, the team project member, has been working on the job for a while and wants to register her hours and usage on the job. She has not worked more hours than was agreed upon with the customer in advance. She uses the **Calculate Remaining Usage** batch job to calculate remaining usage for the job in a job journal. For each task, the batch job calculates the difference between scheduled usage of items, resources, and general ledger expenses and the actual usage posted in job ledger entries. The remaining usage is then displayed in the job journal from where she can post it.  
 
 ### To calculate remaining usage  
@@ -216,7 +227,8 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
 The lines are now posted.  
 
-## Creating and Posting a Job Sales Invoice  
+## Creating and Posting a Job Sales Invoice
+
  Next, Tricia can create a new invoice for the whole job or for part of a job. She can also attach the invoice to another invoice for the same customer for the same job. In this case, she invoices for the whole job, because the project is now completed.  
 
 ### To create a job sales invoice  
@@ -249,7 +261,8 @@ The lines are now posted.
 2.  Choose the **Statistics** action. You can review detailed information about the job prices, costs, and profits in both local and foreign currencies.  
 3.  Choose the **Close** button to close the **Job Statistics** page.  
 
-## Handling Fixed Prices  
+## Handling Fixed Prices
+
  CRONUS has been contracted to set up conference rooms. As the project manager, Prakash wants a good overview of the tasks required for the job with the associated budgeted and incurred costs for each task. In addition, he wants to know the total contracted price for the job and the amount that has been invoiced to this point. He has reached an agreement with the customer regarding fixed pricing for the job.  
 
 ### To manage fixed pricing in jobs  
@@ -440,15 +453,18 @@ The following procedures show how to create a new job, set pricing, and then set
 2.  On the **Create Sales Invoice** page, set today's date as the posting date, specify **Per Task**, and choose the **OK** button to create an invoice with the default information. Choose the **OK** button to close the confirmation page.  
 3.  Choose the **Sales Invoice/Credit Memo** action. On the sales invoice, you can see that only the down payment is included in the invoice. You can now send this to the customer as agreed.  
 
-## Next Steps  
+## Next Steps
+
  This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[prod_short](includes/prod_short.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/paths/create-jobs/)
 
- [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)   
- [Setting Up Project Management](projects-setup-projects.md)   
- [Use Resources](projects-how-use-resources.md)   
- [Monitor Progress and Performance](projects-how-monitor-progress-performance.md)   
+## See also
+
+ [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
+ [Setting Up Project Management](projects-setup-projects.md)  
+ [Use Resources](projects-how-use-resources.md)  
+ [Monitor Progress and Performance](projects-how-monitor-progress-performance.md)  
  [Invoice Jobs](projects-how-invoice-jobs.md)  
  [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

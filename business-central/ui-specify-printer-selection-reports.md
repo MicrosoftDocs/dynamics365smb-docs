@@ -264,13 +264,16 @@ You or the administrator can also use the **Printer Selections** page to define 
 > More specific printer selections take precedence over a more general printer selections. For example, a printer selection that has values in the **User ID**, **Report ID**, and **Printer Name** fields takes precedence over a printer selection that has blank entries in the **User ID** or **Report ID** fields.
 
 ### Choosing the printer when running a report
+
 Instead of using the default printer when running a report, you can override this setting from the request page. Simply choose the wich printer you want to use for this invocation of the report in the **Printer** dropdown menu.
 
 ### Sizing Print Jobs
 
 Cloud printing is designed for documents of a reasonable size. Most cloud services, including PrintNode and HP ePrint, have a limit of 10 MB per job. If you need to print larger reports, you may have to split them in multiple printouts.
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
+
+## See also
 
 [Printing a Report](ui-work-report.md#PrintReport)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

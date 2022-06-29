@@ -96,7 +96,10 @@ After you have posted job journal lines, you can see the planning lines that are
 2. Select a relevant job journal, and then choose the **Ledger Entries** action.  
 3. On the **Job Ledger Entries** page, choose **Show Linked Job Planning Lines** action.
 
-## See Also
+## See related training at [Microsoft Learn](/learn/paths/post-job-usage-sales/)
+
+## See also
+
 [Project Management](projects-manage-projects.md)  
 [Finance](finance.md)  
 [Purchasing](purchasing-manage-purchasing.md)         

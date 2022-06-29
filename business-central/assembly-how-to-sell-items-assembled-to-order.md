@@ -14,6 +14,7 @@ ms.author: edupont
 
 ---
 # Sell Items Assembled to Order
+
 If the **Assembly Policy** field on the item card of an assembly item is **Assemble-to-Order**, then the item is not expected to be in inventory, and it must be assembled specifically to a sales order. When you enter the item on a sales order line, then an assembly order is automatically created and linked to the sales order.  
 
 > [!NOTE]  
@@ -24,7 +25,8 @@ In this procedure, you process the sale of an item that will be assembled accord
 > [!NOTE]  
 >  The following procedure does not include the standard sales order steps before the step where you enter the assemble-to-order item on a sales order line.  
 
-## To sell an item that is assembled to order  
+## To sell an item that is assembled to order
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
 2.  Create a sales order. For more information, see [Sell Products](sales-how-sell-products.md).  
 3.  In the **No.** field, enter an item that is set up to be assembled to order.  
@@ -48,7 +50,7 @@ In this procedure, you process the sale of an item that will be assembled accord
     >   
     >  On the header of linked assembly orders, only the **Starting Date** field can be changed to enable assembly workers to specify a date that is earlier than the due date when they will start the process. All fields on the lines of the linked assembly order can be changed so that warehouse workers can enter consumption figures during the process.  
 
-8.  Review or react to component availability issues. For example, select an available substitute item or establish a later due date.  
+8.  Review or react to component availability issues. For example, select an available substitute item.  
 9. Close the **Assemble-to-Order Lines** page. The linked assembly order is now ready to start to assemble the customized items by the due date.  
 10. On the sales order, choose the **Release** action to notify the assembly department that the assembly process can start.  
 11. In the assembly department, perform the steps of assembling the items that are sold in this procedure. For more information, see [Assemble Items](assembly-how-to-assemble-items.md).  
@@ -56,7 +58,10 @@ In this procedure, you process the sale of an item that will be assembled accord
 > [!NOTE]  
 > Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.
 
-## See Also  
+## See related training at [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+
+## See also
+
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  

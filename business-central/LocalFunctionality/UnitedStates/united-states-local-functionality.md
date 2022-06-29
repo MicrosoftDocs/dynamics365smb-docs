@@ -24,7 +24,7 @@ The following topics describe local functionality that is unique to the United S
   * [US Sales Tax](us-sales-tax.md) **Available Now**
   * [Reporting Sales Tax in the US](us-sales-tax.md) **Available Now**  
   * [Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md) **Available Now**  
-  * [Regulatory 1099 Format Changes and Details](tax-1099.md) **Available Now**  
+  * [Regulatory 1099 Format Changes and Details](tax-1099-changes.md) **Available Now**  
   * [Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md) **Available Now**  
   * [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Available Now**  
 

@@ -91,10 +91,12 @@ The following sections describe how to set up time sheets if you do not use the 
 > [!NOTE]  
 > You cannot change the ID of the time sheet approver if there are time sheets that have not yet been processed and have the status of **Submitted** or **Open**.
 
-## See Also
+## See related training at [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+
+## See also
 
 [Use Time Sheets for Projects](projects-how-use-time-sheets.md)  
-[To create time sheets](projects-how-use-time-sheets.md#to-create-time-sheets)  
+[How To Create Time Sheets](projects-how-use-time-sheets.md#to-create-time-sheets)  
 [Record Consumption or Usage for Projects](projects-how-record-job-usage.md)  
 [Setting Up Project Management](projects-setup-projects.md)  
 [Project Management](projects-manage-projects.md)  

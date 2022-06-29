@@ -34,6 +34,7 @@ You can pay with two types of checks. For both types, the **Bal. Account Type** 
 You can print up to 10 invoices on a page for a check stub. If a check applies to more than 10 invoices, when you print the stub we void the check on the first page and print the word VOID on the check. We then print the remainder of the invoices and the total check amount on the second page.
 
 ## To pay a vendor invoice with a computer check
+
 The following describes how to pay a vendor by check. The steps are similar to refund a customer by check.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.
@@ -53,6 +54,7 @@ Fully applied vendor ledger entries and bank ledger entries are created.
 > If you want to print and pay checks in more than one currency from different bank accounts, you must run the **Print Check** batch job separately for each currency and specify the appropriate bank account.
 
 ## To cancel printed checks that are not posted
+
 You can cancel non-posted checks after they have been printed by using the **Void Check** action on the **Payment Journal** page.
 
 1. On the **Payment Journal** page, choose the **Void Check**, and then choose which checks to cancel.
@@ -71,11 +73,15 @@ When check payment have been posted, you can only cancel (void) checks from the 
 5. Choose the **OK** button.
 
 ## To view a summary of posted checks
+
 If you want to review posted checks, for example to verify multiple checks paid to one vendor, you can use the **Bank Account - Check Details** report.
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account - Check Details**, and then choose the related link.
 2. Set filters as relevant, and then choose the **Preview** button.
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/use-checks-dynamics-365-business-central/)
+
+## See also
+
 [Making Payments](payables-make-payments.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Setting Up Banking](bank-setup-banking.md)  

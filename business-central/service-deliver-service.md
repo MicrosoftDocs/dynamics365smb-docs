@@ -1,8 +1,6 @@
 ---
 title: Overview of Tasks to Deliver Service | Microsoft Docs
 description: Outlines tasks to set up make sure that you deliver quality service and live up to agreements with customers.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 
 

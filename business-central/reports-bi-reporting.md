@@ -27,14 +27,16 @@ Small and mid-sized companies reply on built-in analytics and reporting that the
 | Learn how to integrate external business intelligence tools with [!INCLUDE[prod_short](includes/prod_short.md)].| [External Business Intelligence tools](reports-external-analysis.md) |
 |Learn how to modify report layouts or even develop your own reports from scratch. |[Developing reports](reports-develop-reports.md)|
 
-## See Also
+## See related training at [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
 
-[Use Reports in Daily Work](reports-use-reports.md)
-[Report Overview](reports-available-reports.md)
-[Ad-hoc data analysis](reports-adhoc-analysis.md)
-[Built-in Analytics](reports-built-in-analytics.md)
-[External Business Intelligence tools](reports-external-analysis.md)
-[Developing reports](reports-develop-reports.md)
+## See also
+
+[Use Reports in Daily Work](reports-use-reports.md)  
+[Report Overview](reports-available-reports.md)  
+[Ad-hoc data analysis](reports-adhoc-analysis.md)  
+[Built-in Analytics](reports-built-in-analytics.md)  
+[External Business Intelligence tools](reports-external-analysis.md)  
+[Developing reports](reports-develop-reports.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

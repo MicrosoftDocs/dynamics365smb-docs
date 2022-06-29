@@ -15,6 +15,7 @@ ms.author: edupont
 
 ---
 # Setting Up Fixed Assets
+
 Before you can work with Fixed Assets, you need to define a few things:  
 
 * How you insure, maintain, and depreciate fixed assets.  
@@ -38,8 +39,10 @@ The following table describes a sequence of tasks, with links to the topics that
 | Learn about different fixed asset depreciation methods. |[Depreciation Methods](fa-depreciation-methods.md) |
 | Learn about how to apply user-defined depreciation methods. |[Set Up User-Defined Depreciation Methods](fa-how-setup-user-defined-depreciation-method.md) |
 
+## See related training at [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
 
-## See Also
+## See also
+
 [Fixed Assets](fa-manage.md)  
 [Finance](finance.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  

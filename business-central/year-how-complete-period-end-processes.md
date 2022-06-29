@@ -60,7 +60,9 @@ ms.author: jswymer
 
 * Complete Tax Statements.  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/)
+
+## See also
 
 [Closing Years and Periods](year-close-years-periods.md)  
 [Closing Books](year-close-books.md)  

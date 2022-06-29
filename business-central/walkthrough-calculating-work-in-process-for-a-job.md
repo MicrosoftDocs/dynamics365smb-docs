@@ -19,7 +19,8 @@
 
 With jobs, you can schedule the usage of your company's resources and keep track of the various costs associated with the usage of resources on a specific project. Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses. If a job runs over a long period, you may want to transfer these costs to a Work in Process (WIP) account on the balance sheet while the job is being completed. You can then recognize the costs and sales in your income statement accounts when it is appropriate.  
 
-## About This Walkthrough  
+## About This Walkthrough
+
  This walkthrough illustrates the following tasks:  
 
 -   Calculating WIP.  
@@ -30,16 +31,20 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
  Each step of the process calculates the value and moves the job transactions to the general ledger. The calculation and posting steps are separated to help you review your data and to make modifications before posting to the general ledger. Therefore, you should make sure that all information is correct after you run the calculation batch jobs and before you run the posting batch jobs.  
 
-## Roles  
+## Roles
+
  This walkthrough uses the project team member (Tricia) as the persona.  
 
-## Prerequisites  
+## Prerequisites
+
  Before you can perform the tasks in the walkthrough, the [!INCLUDE[prod_short](includes/prod_short.md)] must be installed on your computer.  
 
-## Story  
+## Story
+
  This walkthrough focuses on CRONUS International Ltd., a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of the work at CRONUS is project-oriented and Tricia, a project team member, uses jobs to have an overview of each ongoing job that CRONUS has started and also the jobs that are completed. Some of the jobs can be very lengthy and can run over months. Tricia can use a WIP account to record the work in process and to track the costs throughout the job.  
 
-## Calculating WIP  
+## Calculating WIP
+
  CRONUS has taken on a lengthy project that has now extended across reporting periods. Tricia, a project team member, calculates the work in process (WIP) to make sure that the financial statement of the company will be accurate.  
 
  During this procedure, Tricia will select a specific group of tasks that will be included in the WIP calculation. On the **Job Task Lines** page, she can specify these lines in the **WIP-Total** column.  
@@ -106,7 +111,8 @@ With jobs, you can schedule the usage of your company's resources and keep track
 > [!NOTE]  
 >  Work in Process and Recognition is only calculated. It is not posted to the general ledger. To do so, you must run **Post WIP to G/L** batch job after you have calculated the WIP and Recognition.
 
-## Posting WIP to General Ledger  
+## Posting WIP to General Ledger
+
  Now that Tricia has calculated WIP for this job, she can post it to the general ledger.  
 
 ### To post WIP to general ledger  
@@ -129,7 +135,8 @@ With jobs, you can schedule the usage of your company's resources and keep track
 10. On the **WIP and Recognition** FastTab, notice that in the **Posted** column, the **Recog. Costs G/L Amount** field is now filled in, which indicates that WIP was posted to the general ledger successfully.  
 11. Choose the **OK** button to close the card.  
 
-## Reversing a WIP Posting  
+## Reversing a WIP Posting
+
  Tricia determines that the job tasks that were excluded from the calculation of WIP should have been calculated in WIP. She can reverse the incorrect postings without having to post new WIP postings.  
 
 ### To reverse a WIP posting  
@@ -151,13 +158,17 @@ With jobs, you can schedule the usage of your company's resources and keep track
     > [!NOTE]  
     >  Suppose Tricia calculated and posted WIP for a job with incorrect dates. Following the method that was discussed earlier, she can reverse the incorrect postings, correct the dates, and repost to the general ledger.  
 
-## Next Steps  
+## Next Steps
+
  This walkthrough has taken you through the steps of calculating WIP in [!INCLUDE[prod_short](includes/prod_short.md)]. In larger jobs, it may be useful to transfer the costs to a WIP account periodically while the job is being completed. This walkthrough has shown you how to exclude task lines from a calculation. It also shows you when you would have to recalculate. And finally, this walkthrough demonstrates how to post the WIP to the general ledger. An example of how to reverse a WIP posting to the general ledger is also included.  
 
-## See Also  
+## See related training at [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
+
+## See Also
+
  [Business Process Walkthroughs](walkthrough-business-process-walkthroughs.md)  
- [Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)   
- [Understanding WIP Methods](projects-understanding-wip.md)   
+ [Walkthrough: Managing Projects with Jobs](walkthrough-managing-projects-with-jobs.md)  
+ [Understanding WIP Methods](projects-understanding-wip.md)  
  [Monitor Progress and Performance](projects-how-monitor-progress-performance.md)  
  [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

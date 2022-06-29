@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.search.form: 5469
-ms.date: 04/01/2021
+ms.date: 06/07/2022
 ms.author: solsen
 ---
 
@@ -27,6 +27,9 @@ To use templates with the API library, you must first set up and define properti
 ## Assign the template to an API
 
 To assign a template to an API, you must go through the following steps.
+
+> [!NOTE]  
+> API templates can only be set up with the following API pages: contacts, countriesRegions, currencies, customers, employees, itemCategories, paymentMethods, paymentTerms, shipmentMethods, unitsOfMeasure, and vendors.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **API Setup**, and choose the related link.
 2. Choose **New**, and then choose the **Order** value for the record.  

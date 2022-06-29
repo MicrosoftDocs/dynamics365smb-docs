@@ -14,11 +14,12 @@ ms.date: 02/23/2022
 
 ### Can I convert the trial to a paid license?
 
-Yes, you can! For more information, see [Get Started with a Subscription](across-preview.md#get-started-with-a-subscription).  
+Yes, you can! For more information, see [Get Started with a Subscription](trial-signup.md#get-started-with-a-subscription).  
 
 ### What are the trial limits and quotas?
 
-The free trial includes sample data. If you want to try out Business Central with your own data, you can switch to a free 30-day trial with an empty company. For more information, see [[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](across-preview.md).  
+The free trial includes sample data. If you want to try out Business Central with your own data, you can switch to a free 30-day trial with an empty company. 
+Your administrator can learn more about trials and subscriptions [here](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
 ### How do I start using the trial?
 
@@ -44,9 +45,14 @@ Switch to the 30-day trial, and then add your own data. For more information, se
 
 You can't. If you accidentally delete sample data, ask your admin to create a new sandbox environment. For more information, see [Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types) in the admin content (in English only).  
 
+## See related training at [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
+
 ## See also
 
 [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)  
 [Frequently Asked Questions about Using Business Central](across-faq.yml)  
 [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](across-preview.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

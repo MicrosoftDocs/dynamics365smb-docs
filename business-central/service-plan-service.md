@@ -1,8 +1,6 @@
 ---
 title: Planning Service Processes
 description: This topic outlines various tasks to set up rules and values to define your service policies and processes.
-services: project-madeira
-documentationcenter: ''
 author: brentholtorf
 
 

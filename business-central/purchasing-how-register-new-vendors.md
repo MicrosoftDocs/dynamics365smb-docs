@@ -29,6 +29,7 @@ Vendor cards hold the information that is required to buy products from the vend
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## Adding new vendors
+
 You can add new vendors manually, by filling out the fields on the **Vendor Card** page, or you can use templates that contain predefined information. For example, you can create a templates for different types of vendor profiles. Using templates saves time when adding new vendors, and helps ensure that the information is correct each time. If you create templates for more than one type of vendor, you can choose the template to use when you add a vendor. If you create only one template it will be used for all new vendors. After you create a template, you can use the **Apply Template** action to apply it to one or more selected vendors. To create a template, you fill in the information that you want to reuse on the Vendor Card page, and then save it as a template. For more information, see [To save the Vendor Card page as a template](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
 > [!TIP]
@@ -54,7 +55,6 @@ You can edit the information on vendor cards at any time. However, if you have p
 > [!TIP]
 > You can change the IBAN on a vendor bank account without the change affecting your historical credit transfer register entries. Credit transfer register entries store the Recipient IBAN, Recepient Bank Account No. that were specified in the Vendor Bank Account and Recipient Name fields from the Vendor Card page when the entries were created.
 
-
 ## To save the vendor card as a template
 
 1. On the **Vendor Card** page, choose the **Save as Template** action. The **Vendor Template** page opens showing the vendor card as a template.
@@ -64,12 +64,15 @@ You can edit the information on vendor cards at any time. However, if you have p
 5. When you have completed the new vendor template, choose the **OK** button.  
    The vendor template is added to the list of vendor templates, so that you can use it to create new vendor cards.
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
+## See also
 
 [Merge Duplicate Records](sales-how-merge-duplicate-records.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Record Purchases](purchasing-how-record-purchases.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

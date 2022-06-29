@@ -27,7 +27,7 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md) **Available Now**
     * [Set Up Declaration Types](how-to-set-up-declaration-types.md) **Available Now**
     * [Export Intrastat Third-Party Declarations](how-to-export-intrastat-third-party-declararations.md) **Available Now**
-    * Declarations F01DGS and F02CMS **2022 release wave 2**
+    * Service Declarations F01DGS and F02CMS **2022 release wave 2**
 
 * Banking & Payments
     * [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md) **Available Now**
@@ -60,11 +60,13 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md) **Available Now**
     * [Create Financial Journals](how-to-create-financial-journals.md) **Available Now**
     * [Export to Accon](how-to-export-to-accon.md) **Available Now**
+    * [[Make Journal Templates Mandatory]](specify-journal-template-mandatory.md) **Available Now**
 
 * General
     * [Enterprise Numbers and Branch Numbers](enterprise-numbers-and-branch-numbers.md) **Available Now**
     * [Limit the Posting Period](how-to-limit-the-posting-period.md) **Available Now**
     * [Set the Work Date as the Posting Date](how-to-set-the-work-date-as-the-posting-date.md) **Available Now**
+    * [Make Journal Templates Mandatory](specify-journal-template-mandatory.md) **Available Now**
 
 ## See Also
 

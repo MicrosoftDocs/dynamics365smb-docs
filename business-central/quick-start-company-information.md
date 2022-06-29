@@ -29,8 +29,13 @@ You can enter all relevant data on the **Company Information** page when you set
 
 Once you have completed filling in the information, you can close the page.  
 
-## See Also  
+## See related training at [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+
+## See also  
 
 [Company Information Overview](admin-company-information.md)  
 [Set Up Company Information in Italy](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Business Central Quick Starts](quick-start-business-central.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -92,9 +92,9 @@ Phyllis requires all customers to be invoiced a 20% deposit for item 1896-S. Cus
 
     |**Sales Type**|**Sales Code**|**Item No.**|**Prepayment %**|  
     |--------------------|--------------------|------------------|----------------------|  
-    |**Customer**|**20000**|**1896-S**|**40**|  
-    |**All Customers**| |**1896-S**|**20**|  
-
+    |**Customer**|**20000**|**1896-S**|**40**|
+    |**Customer**|**20000**|**1900-S**|**30**|  
+    
     > [!TIP]
     > Depending on your country/region, you must also specify a tax group code on the **Costs & Posting** FastTab for item 1896-S. When you use the demonstration company, this field is already set.
 
@@ -229,7 +229,9 @@ You have also posted a prepayment invoice, created a second prepayment invoice w
 
 The prepayments functionality in [!INCLUDE[prod_short](includes/prod_short.md)] makes it easy to set up and enforce prepayment rules for customers and items, and it enables you to post every payment against an invoice.  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+
+## See also
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  
 [Finance](finance.md)  

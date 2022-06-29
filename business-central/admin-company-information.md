@@ -31,10 +31,15 @@ If your [!INCLUDE [prod_short](includes/prod_short.md)] includes multiple compan
 
 The default user experience in a [!INCLUDE [prod_short](includes/prod_short.md)] trial does not reveal all capabilities. You can switch on the full experience in the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+
+## See also
 
 [Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Company Information Quick Start](quick-start-company-information.md)  
 [Set Up Company Information in Italy](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

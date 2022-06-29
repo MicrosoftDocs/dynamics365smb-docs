@@ -66,10 +66,13 @@ You can set up and use workflows that connect business-process tasks performed b
 |View workflow step instances of status Completed.|[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)|  
 |Delete a workflow that you are sure will no longer be used.|[Delete Workflows](across-how-to-delete-workflows.md)|  
 
-## See Also  
-[Setting Up Workflows](across-set-up-workflows.md)   
-[Workflow](across-workflow.md)   
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## See related training at [Microsoft Learn](/learn/modules/create-workflows/)
+
+## See also
+
+[Setting Up Workflows](across-set-up-workflows.md)  
+[Workflow](across-workflow.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

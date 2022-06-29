@@ -11,7 +11,7 @@
     ms.workload: na
     ms.search.keywords: India, local, IN, English
     ms.date: 04/01/2021
-    ms.author: v-debapd
+    ms.author: bholtorf
 
 ---
 # TCS Calculation and Transactions as per Section 206C(1H)

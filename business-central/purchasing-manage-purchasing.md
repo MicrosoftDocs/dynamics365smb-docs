@@ -15,11 +15,12 @@ ms.author: edupont
 
 ---
 # Purchasing
+
 You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. If you need to control an inventory, purchase invoices are also used to dynamically update inventory levels so that you can minimize your inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices contribute to profit figures and other financial KPIs on your Role Center.
 
 You must use purchase orders if your purchasing process requires that you record partial receipts of an order quantity, for example, because the full quantity was not available at the vendor. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use purchase orders. For more information, see [Make Drop Shipments](sales-how-drop-shipment.md). In all other aspects, purchase orders work the same way as purchase invoices.
 
-You can have purchase invoices created automatically by using the OCR (Optical Character Recognition) service to convert PDF invoices from your vendors to electronic documents, which are then converted to purchase invoices by a workflow. To use this functionality, you must first sign up for the OCR service, and then perform various setup. For more information, see [Process Incoming Documents](across-process-income-documents.md).      
+You can have purchase invoices created automatically by using the OCR (Optical Character Recognition) service to convert PDF invoices from your vendors to electronic documents, which are then converted to purchase invoices by a workflow. To use this functionality, you must first sign up for the OCR service, and then perform various setup. For more information, see [Incoming Documents](across-income-documents.md).
 
 Products can be both inventory items and services. For more information, see [Register New Items](inventory-how-register-new-items.md).
 
@@ -45,13 +46,14 @@ The following table describes a sequence of tasks, with links to the topics that
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## See Related Training at [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
+## See related training at [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
 
-## See Also
+## See also
+
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Register New Vendors](purchasing-how-register-new-vendors.md)  
 [Managing Payables](payables-manage-payables.md)  
-[Managing Projects](projects-manage-projects.md)    
+[Managing Projects](projects-manage-projects.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 

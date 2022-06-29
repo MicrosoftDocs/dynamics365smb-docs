@@ -73,12 +73,14 @@ To work with the **Bin Creation Worksheet** page, you must be set up as a wareho
 
 Repeat the process for another set of bins until you have created all the bins in your warehouse.  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/create-new-bins/)
+
+## See also
 
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
-[Assembly Management](assembly-assemble-items.md)    
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
+[Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

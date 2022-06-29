@@ -11,6 +11,7 @@ ms.author: edupont
 
 ---
 # Create Payment Journal Templates and Batches in the Belgian Version
+
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], payment suggestions are generated and posted in payment journals. The structure of the payment journal is similar to the structure of other journal types. However, the payment journal contains some fields that are specific for processing payments. Before you can start generating payment suggestions, you have to set up a payment journal template and a payment journal batch.  
 
 You can assign a specific page and a test report to each journal template. This way, you can manage your domestic and international payments from this adjusted page. The specified *source code* will be copied to all the journal lines that are created based on the journal template. The code is also copied to the entries when they are posted. This way, you can always see where an entry has been posted from.
@@ -47,9 +48,9 @@ You can create multiple journal batches under each journal template. Several jou
 
 ## See Also
 
-[Belgian Electronic Payments](belgian-electronic-payments.md)   
-[Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
-[Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)
-
+[Belgian Electronic Payments](belgian-electronic-payments.md)  
+[Set Up Electronic Banking](how-to-set-up-electronic-banking.md)  
+[Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md)  
+[Make Journal Templates Mandatory](specify-journal-template-mandatory.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

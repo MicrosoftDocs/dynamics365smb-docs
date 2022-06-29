@@ -16,6 +16,9 @@ ms.author: jswymer
 
 Business Central comes with many built-in layouts that you can use on your reports. Other layouts may have been added as part of other extensions. But it's also possible to create your own reports either from scratch or based an existing layout.
 
+> [!IMPORTANT]
+> You can also use report layouts to add content to email messages. For example, report layouts can save time and help ensure consistency by reusing the same content when you communicate with your customers. To use custom report layouts with email, the file type for the layout must be Word. You cannot use the RDLC file type. For more information, see [Set Up Reusable Email Texts and Layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
+
 ## Overview
 
 When working with report layouts, it helps to think of the layout as a file that's imported and assigned to a report. Regardless of the layout type, how you manage layouts in Business Central is basically the same. Usually, you'll work from the **Report Layouts** page. The main difference is how you design the layout, which is done by using the application software that the layout's built on, like Word, Excel, or SQL Server Report Builder.
@@ -180,10 +183,11 @@ Follow these steps if you want to change the name and description of a user-defi
 
 ## See Also
 
-[Managing Report Layouts](ui-manage-report-layouts.md)
+[Managing Report Layouts](ui-manage-report-layouts.md)  
 [Working with Word Layouts](ui-how-add-fields-word-report-layout.md)  
 [Working with Excel Layouts](ui-excel-report-layouts.md)  
 [Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

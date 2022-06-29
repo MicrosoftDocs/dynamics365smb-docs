@@ -93,7 +93,9 @@ G/L entries to be posted to the specified deferral account, for example, Unearne
 2. On the **Sales Deferral Summary** page, in the **Balance as of** field, enter the date up to which you want to see deferred revenues.
 3. Choose the **Preview** button.
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/)
+
+## See also
 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

@@ -37,6 +37,7 @@ The following steps assume that you have already set up the relevant posting gro
 If you sell or dispose of part of a fixed asset, you must split up the asset before you can record the disposal transaction. For more information, see [Transfer, Split, or Combine Fixed Assets](fa-how-trans-split-combine.md).  
 
 ## To view disposal ledger entries
+
 When you sell or dispose of a fixed asset, the disposal value is posted to the general ledger where you can view the result.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
@@ -47,7 +48,9 @@ When you sell or dispose of a fixed asset, the disposal value is posted to the g
 
 The **General Ledger Entries** page opens where you can see the entries that the disposal posting resulted in.  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/dispose-fixed-assets/)
+
+## See also
 
 [Fixed Assets](fa-manage.md)  
 [Setting Up Fixed Assets](fa-setup.md)  

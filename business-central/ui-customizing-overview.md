@@ -15,6 +15,7 @@ ms.author: edupont
 
 ---
 # Customize Business Central
+
 There are different ways to customize the application to give you and your colleagues access to the features, functionality, and data that you need most, in a manner that bests suits your daily work. Those who see the changes will depend on what you do, as described in this table.
 
 > [!NOTE]
@@ -29,7 +30,10 @@ There are different ways to customize the application to give you and your colle
 > [!NOTE]
 > All feature descriptions in user documentation for [!INCLUDE[prod_short](includes/prod_short.md)] assume the **Premium** experience, meaning the descriptions cover the full scope of UI elements. Therefore, users with the **Essential** experience may in some topics read about functionality and UI elements that are not visible in their user interface. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
-## See Also
+## See related training at [Microsoft Learn](/learn/paths/tailor-roles-design-ui/)
+
+## See also
+
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

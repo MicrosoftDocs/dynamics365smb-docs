@@ -41,7 +41,7 @@ This procedure describes how attach a posted sales invoice to an email as a PDF 
 7. In the **Attachment** field, the generated invoice is attached by default as a PDF file.
 8. In the **Body** field, enter a short message to the recipient.
 
-    If a document-specific email text is set up on the **Report Selection - Sales** page, then the **Body** field is filled in automatically. For more information, see [Set Up Reusable Email Texts and Layouts for Sales and Purchase Documents](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents).
+    If a document-specific email text is set up on the **Report Selection - Sales** page, then the **Body** field is filled in automatically. For more information, see [Set Up Reusable Email Texts and Layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 9. Choose the **OK** button to send the email message.
 
 > [!NOTE]  

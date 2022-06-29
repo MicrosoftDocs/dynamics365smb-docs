@@ -28,7 +28,7 @@ In the following procedure, a firm planned production order is created. You can 
 3. In the **No.** field, insert the next number in the series.  
 4. In the **Source Type** field, select the source of the production order.
 
-Here you can select to produce for a family of items. For more information, see [Work With Production Families](production-how-work-family.md).
+    Here you can select to produce for a family of items. For more information, see [Work With Production Families](production-how-work-family.md).
 5. In the **Source No.** field, select the item number, family, or sales header for which the production order is to be generated.  
 6. Fill in the **Quantity** and **Due Date** fields according to your specifications.  
 

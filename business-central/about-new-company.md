@@ -28,11 +28,11 @@ If you decide to add a company to your [!INCLUDE[prod_short](includes/prod_short
 The setup wizard offers two templates and a blank option:
 
 - **Evaluation - Sample Data**  
-    This creates a company that is similar to the demonstration company with sample data and setup data. This type of company is available to you without switching to [a 30-day trial period](across-preview.md#add-your-own-data-to-an-empty-trial-company), which the other types do.  
+    This creates a company that is similar to the demonstration company with sample data and setup data. This type of company is available to you without switching to a 30-day trial period, which the other types do.  
 - **Production - Setup Data Only**  
-    This creates a company that is similar to **My Company** with setup data but without sample data. You'll be able to use this company for [a 30-day trial period](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    This creates a company that is similar to **My Company** with setup data but without sample data. You'll be able to use this company for a 30-day trial period.  
 - **Create New - No Data**  
-    This creates a blank company without setup data. You'll be able to use this company for [a 30-day trial period](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    This creates a blank company without setup data. You'll be able to use this company for a 30-day trial period.  
 
 If you want to get started easily with a new company, choose **Production - Setup Data Only** and then import your own business data, such as customers, items, and vendors. Choose the **New** template if you want to set up everything from scratch. In that case, you can use the **Company Setup** assisted setup guide to help you get started with essential setup data.  
 
@@ -40,6 +40,8 @@ If you want to get started easily with a new company, choose **Production - Setu
 > When you create a new company, it takes a few minutes before you can access it in [!INCLUDE[prod_short](includes/prod_short.md)]. The setup status on the **Companies** page shows when the new company is ready for you. Then, you can switch to the new company by using **My Settings**.  
 
 During your 30 day trial, you can create any number of new companies, but they'll only be available during your trial. For more information, contact your [!INCLUDE[prod_short](includes/prod_short.md)] partner. See also the [Dynamics 365 Business Central trial FAQ](trial-faq.md) article.  
+
+Your administrator can learn more about trials and subscriptions [here](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
 ## Copy a company
 
@@ -73,14 +75,16 @@ Once a company has been created, you can't change its name. But you can change i
 
 The Contoso Coffee app provides demonstration data to help you explore the advanced capabilities of [!INCLUDE [prod_short](includes/prod_short.md)]. Find the app in AppSource, and install it in an empty company, for example a company in a sandbox environment. For more information, see [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md).  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+
+## See also
 
 [Customizing Business Central](ui-customizing-overview.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Trials and Subscriptions](across-preview.md)  
 [Understanding the Infrastructure of Business Central Online (English only)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

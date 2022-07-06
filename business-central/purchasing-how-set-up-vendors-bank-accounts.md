@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 07/04/2022
 ms.author: a-reishima
 ---
-# Set Up Vendor Bank Account
+# Set Up Vendor Bank Accounts
 
 Just as you can use bank account information on [!INCLUDE [prod_short](includes/prod_short.md)] to keep track of your company's banking transactions, you can also set banking details for vendors. Vendor bank account data can simplify payments to suppliers when combined with the [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md) or the [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) feature, for example.
 

@@ -28,11 +28,11 @@ Finance-related purchase setup, such as payment methods and currencies, are cove
 | --- | --- |
 | Create a vendor card for each vendor that you purchase from. |[Register New Vendors](purchasing-how-register-new-vendors.md) |
 | Prioritize vendors |[Prioritize Vendors](purchasing-how-prioritize-vendors.md) |
-| Enter bank account information—including IBAN and SWIFT Codes—to your vendor's card. | [Set Up Vendor Bank Account](purchasing-how-setup-vendor-bank-accounts.md) |
+| Enter bank account information—including IBAN and SWIFT Codes—to your vendor's card. | [Set Up Vendor Bank Account](purchasing-how-set-up-vendors-bank-accounts.md) |
 | Set up purchasers, assign them vendors, and codes to track statistics. |[Set Up Purchasers](purchasing-how-setup-purchasers.md) |
 | Enter the different discounts and special prices that vendors grant you depending on item, quantities, and/or date. |[Record Purchase Price, Discount, and Payment Agreements](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Define what you pay for the items and services purchased by your company.  | [Set Up Prices and Discounts](across-prices-and-discounts.md) |
-| Create standard lines to be inserted on recurring purchase documents. | [Set up Recurring Purchase Lines](purchasing-how-recurring-purchase-lines.md) |
+| Create standard lines to be inserted on recurring purchase documents. | [Set up Recurring Purchase Lines](purchasing-how-work-recurring-purchase-lines.md) |
 | Create sequences of tasks to connect processes performed by different users, such as requesting and approving purchase orders. | [Set up Purchase Approval Workflows](across-set-up-workflows.md) |
 | Manage business interactions with your vendors, import received invoice documents, and register new suppliers using the Outlook email client. | [Set Up the Business Central Add-in for Outlook](admin-outlook.md) |
 | Review expense receipts, convert paper and electronic documents to journal lines, and digitalize paper invoices from vendors. | [Set Up Incoming Documents](across-how-setup-income-documents.md) |

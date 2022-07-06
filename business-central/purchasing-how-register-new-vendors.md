@@ -75,7 +75,7 @@ You can edit the information on vendor cards at any time. However, if you have p
 
 [Merge Duplicate Records](sales-how-merge-duplicate-records.md)  
 [Create Number Series](ui-create-number-series.md)  
-[Set Up Vendor Bank Account](purchasing-how-set-up-vendors-bank-account.md)  
+[Set Up Vendor Bank Account](purchasing-how-set-up-vendors-bank-accounts.md)  
 [Set Up Purchasers](purchasing-how-setup-purchasers.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Record Purchases](purchasing-how-record-purchases.md)  

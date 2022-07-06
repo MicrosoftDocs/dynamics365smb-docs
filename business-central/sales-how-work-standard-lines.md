@@ -18,7 +18,7 @@ ms.author: edupont
 
 If you often need to create sales lines with similar information, you can set up standard lines that you can then insert on recurring sales documents, for example, for recurring replenishment orders.  
 
-## To set up recurring sales lines
+## Set up recurring sales lines
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring Sales Lines**, and then choose the related link.  
 2. On the **Recurring Sales Lines** page, choose the **New** action.  
@@ -30,7 +30,7 @@ If you often need to create sales lines with similar information, you can set up
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## To assign recurring sales lines to a customer
+## Assign recurring sales lines to a customer
 
 Assign one or more recurring sales lines to a customer so that they are available to insert on sales documents for that customer.
 
@@ -52,9 +52,9 @@ Assign one or more recurring sales lines to a customer so that they are availabl
 |**Automatic**|If multiple recurring sales lines exist for the customer, you will get a notification from where you can pick which one to insert. If only one recurring sales line exists, it will be inserted automatically.<br /><br />This only works if the new document was created from a document list, for example by choosing the **New** action on the **Sales Orders** page. It does not work if the document was created from a customer card, for example.|
 |**Always Ask**|A notification appears and all existing recurring sales lines are shown so that you can select one.
 
-## To insert recurring sales lines on a sales invoice
+## Insert recurring sales lines on a sales invoice
 
-If recurring sales lines exist for the customer, you can insert them, or have them inserted, on all types of sales documents, such as a sales invoice. If you have activated the **Always Ask** options, you will be informed if recurring sales lines exist.
+If recurring sales lines exist for the customer, you can insert them, or have them inserted, on all types of sales documents, such as a sales invoice. If you have activated the **Always Ask** options while assigning recurring sales lines to customers, you will be informed if recurring sales lines exist.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.
 2. Open the sales invoice that you want to insert one or more standard sales lines on.
@@ -62,7 +62,7 @@ If recurring sales lines exist for the customer, you can insert them, or have th
 4. On the **Recurring Sales Lines** page, choose the lookup button in the **Code** field, and then select a set of standard sales lines.
 5. Choose the **OK** button to insert the standard sales lines on the invoice where you can reuse them as is or edit the information.
 
-## To create multiple sales invoices based on recurring sales lines
+## Create multiple sales invoices based on recurring sales lines
 
 You can use the **Create Recurring Sales Invoices** batch job to create sales invoices according to standard sales lines that are assigned to the customers and with posting dates within the valid-from and valid-to dates that you specify on the standard sales lines.
 

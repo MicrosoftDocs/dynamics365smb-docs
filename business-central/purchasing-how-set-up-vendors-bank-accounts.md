@@ -12,11 +12,14 @@ ms.author: a-reishima
 
 Just as you can use bank account information on [!INCLUDE [prod_short](includes/prod_short.md)] to keep track of your company's banking transactions, you can also set banking details for vendors. Vendor bank account data can simplify payments to suppliers when combined with the [AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md) or the [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) feature, for example.
 
-## To add or edit a vendor bank account
+## Add or edit a vendor bank account
 
 [!INCLUDE [purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## To set up a preferred vendor bank account
+> [!TIP]
+> You can set additional vendor bank accounts on the **Vendor Bank Account List** page.
+
+## Set up a preferred vendor bank account
 
 If a vendor has one or more bank accounts and you want to set a preferred option for the payment journal lines, follow these steps:
 

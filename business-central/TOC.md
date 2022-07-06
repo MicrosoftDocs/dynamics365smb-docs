@@ -472,7 +472,7 @@
 ### [Work With Blanket Purchase Orders](sales-how-to-create-blanket-sales-orders.md)
 ### [External Document Numbers on Purchase Documents](purchasing-ext-doc-no.md)
 ### [Enter External Document Numbers](across-enter-external-document-numbers.md)
-
+### [Create Recurring Purchase Lines](purchasing-how-work-recurring-purchase-lines.md)
 
 ## Inventory
 ### [Inventory Overview](inventory-manage-inventory.md)
@@ -1472,6 +1472,7 @@
 #### [Set Up Sales](sales-setup-sales.md)
 #### [Register New Customers](sales-how-register-new-customers.md)
 #### [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md)
+#### [Set Up Prices and Discounts](across-prices-and-discounts.md)
 #### [Record Special Sales Prices and Discounts](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Set Up Customer Price Groups](sales-how-to-set-up-customer-price-groups.md)
 #### [Set Up Customer Discount Groups](sales-how-to-set-up-customer-discount-groups.md)
@@ -1488,7 +1489,6 @@
 #### [Set Up Purchasers](purchasing-how-setup-purchasers.md)
 #### [Set Up Prices and Discounts](across-prices-and-discounts.md)
 #### [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
-#### [Create Recurring Purchase Lines](purchasing-how-work-recurring-purchase-lines.md)
 ### Set Up Inventory
 #### [Set Up Inventory](inventory-setup-inventory.md)
 #### [Set Up General Inventory Information](inventory-how-setup-general.md)

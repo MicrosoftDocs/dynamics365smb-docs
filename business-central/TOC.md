@@ -440,7 +440,7 @@
 ### [Sell Products](sales-how-sell-products.md)
 ### [Print the Picking List](sales-how-print-picking-list.md)
 ### [Post Sales](ui-post-sales.md)
-### [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)
+### [Create Recurring Sales Lines](sales-how-work-standard-lines.md)
 ### [Make Drop Shipments](sales-how-drop-shipment.md)
 ### [Create Special Orders](sales-how-to-create-special-orders.md)
 ### [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
@@ -1483,9 +1483,12 @@
 ### Set Up Purchasing
 #### [Set Up Purchasing](purchasing-setup-purchasing.md)
 #### [Register New Vendors](purchasing-how-register-new-vendors.md)
-#### [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Set Up Vendor Bank Accounts](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [Prioritize Vendors](purchasing-how-prioritize-vendors.md)
 #### [Set Up Purchasers](purchasing-how-setup-purchasers.md)
+#### [Set Up Prices and Discounts](across-prices-and-discounts.md)
+#### [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Create Recurring Purchase Lines](purchasing-how-work-recurring-purchase-lines.md)
 ### Set Up Inventory
 #### [Set Up Inventory](inventory-setup-inventory.md)
 #### [Set Up General Inventory Information](inventory-how-setup-general.md)

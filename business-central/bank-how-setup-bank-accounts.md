@@ -219,14 +219,7 @@ The illustration shows the route of outbound payments:
 
 Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are related to export of bank feeds and files. For more information, see [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) and [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
-2. Open the card for a vendor whose bank account you will export payment bank files to.
-3. Choose the **Bank Accounts** action.
-4. From the **Vendor Bank Accounts List**, choose the relevant bank account, or add a new bank account.  
-5. On the **Vendor Bank Account Card** page, on the **Transfer** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!WARNING]
-> Some fields on the vendor bank account contain sensitive data, such as the **Bank Branch No.**, **Bank Account No.**, **SWIFT Code**, and **IBAN Code** fields. For more information, see [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).
+[!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 ## Changing your bank account
 
@@ -254,6 +247,5 @@ To get a more condensed view of your cash accounts in financial reporting, use t
 [Payment Reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Understanding the General Ledger and the COA](finance-general-ledger.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

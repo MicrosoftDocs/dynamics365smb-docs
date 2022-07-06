@@ -23,7 +23,7 @@ Just as you can use bank account information on [!INCLUDE [prod_short](includes/
 
 If a vendor has one or more bank accounts and you want to set a preferred option for the payment journal lines, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](/media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the card for the vendor.
 3. On the **Payments** FastTab, choose the default vendor bank account in the **Preferred Bank Account Code** field.
 

@@ -72,7 +72,7 @@ The following procedures describe how to to rotate the access token used by the 
 ### In Shopify
 
 1. From your **Shopify admin**, go to [Apps](https://www.shopify.com/admin/apps).
-2. In the row with the *Dynamics 365 Business Central** app, select **Delete**.
+2. In the row with the **Dynamics 365 Business Central** app, select **Delete**.
 3. In the message that appears, select **Delete**.
 
 ### In [!INCLUDE[prod_short](../includes/prod_short.md)]

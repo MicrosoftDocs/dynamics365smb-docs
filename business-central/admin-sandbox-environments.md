@@ -72,7 +72,7 @@ For more information, see [Use Designer](/dynamics365/business-central/dev-itpro
 ## See also
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions]((/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
+[[!INCLUDE[prod_long](includes/prod_long.md)] Trials and Subscriptions](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 [Managing Environments in the Business Central administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types)  
 

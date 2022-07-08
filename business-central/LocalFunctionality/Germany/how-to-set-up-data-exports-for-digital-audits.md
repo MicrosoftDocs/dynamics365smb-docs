@@ -9,13 +9,21 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/18/2021
+    ms.date: 06/27/2022
     ms.author: edupont
 
 ---
 # Set Up Data Exports for a Digital Audit (GoBD/GDPdU) in the German Version
 
-You must set up data export record sources to be able to export data for a digital audit according to the Grundsätze zum Datenzugriff und zur Prüfkbarkeit digtaler Unterlagen (GDPdU). For each data export type, you must define one or more record sources, where each source is a table from which you want to export data.  
+You must set up data export record sources to be able to export data for a digital audit according to the Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen (GDPdU). For each data export type, you must define one or more record sources, where each source is a table from which you want to export data. 
+
+> [!NOTE]  
+> When someone opens **Data Exports** page for the first time, three data export records with predefined settings are created with the codes **GLAcc 2022**, **FAAcc 2022**, and **Item 2022**. Consider these data export records ready-made templates for exporting data from [!INCLUDE[prod_short](../../includes/prod_short.md)] according to government requirements.
+>
+> - **GLAcc 2022** can be used to export data related to G/L and personal data.
+> - **FAAcc 2022** can be used to export data related to fixed asset data.
+> - **Item 2022** can be used to export data related to item and invoice data.
+
 
 ## To set up a data export  
 
@@ -56,13 +64,19 @@ Next, you must specify the source for the data that will be exported.
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Table No.**|Select the number of the main table to export data from.<br /><br /> When you enter a value in the **Table No.** field, the **Table Name** field is updated.|  
-    |**Export Table Name**|Optional. Change the suggested name of the table to be used in the INDEX.XML file during the export.<br /><br /> The value of the **Export Table Name** field is used to generate the INDEX.XML file during the GDPdU data export. The default name is the name of the table without special characters due to the requirements of the auditors' tool.<br /><br /> **Tip:** In most cases, the **Export Table Name** and **Export File Name** fields are based on the same value.<br /><br /> There may be cases where you specify exporting the same table more than once. You can choose different Export Table Names for each table entry, and the Export File Name will be automatically adjusted to match. You can then change the Export File Name as long as it is unique.<br /><br /> [!INCLUDE[prod_short](../../includes/prod_short.md)] automatically names the files as follows.<br /><br /> **Table Name:** G/L Account<br /><br /> **Export Table Name**: GLAccount<br /><br /> **Export File Name:** GLAccount.txt<br /><br /> **Table Name:** G/L Account<br /><br /> **Export Table Name:** GLAccount1<br /><br /> **Export File Name:** GLAccount1.txt|  
+    |**Export Table Name**|Optional. An archive file with the necessary data will be created, containing an INDEX.XML file. You can change the suggested name of the table to be used in the INDEX.XML file during the export. The default name is the name of the table without special characters due to the requirements of the auditors' tool.<br /><br /> **Tip:** In most cases, the **Export Table Name** and **Export File Name** fields are based on the same value.<br /><br /> There may be cases where you specify exporting the same table more than once. You can choose different Export Table Names for each table entry, and the Export File Name will be automatically adjusted to match. You can then change the Export File Name as long as it is unique.<br /><br /> [!INCLUDE[prod_short](../../includes/prod_short.md)] automatically names the files as follows.<br /><br /> **Table Name:** G/L Account<br /><br /> **Export Table Name**: GLAccount<br /><br /> **Export File Name:** GLAccount.txt<br /><br /> **Table Name:** G/L Account<br /><br /> **Export Table Name:** GLAccount1<br /><br /> **Export File Name:** GLAccount1.txt|  
     |**Period Field No.**|Specify a filter for which date field will be used in setting the start date and end date of the report.<br /><br /> For example, if you select the **G/L Entry** table as your data export source, you can select one of the date fields that are available in that table.|  
     |**Table Filter**|Specify a field on which you want to set a filter.<br /><br /> On the **Table Filter** page, enter filter settings in the **Field Filter** column.<br /><br /> For example, you can specify a field that conveys information about the amount. You can also specify a date field and set a filter for it if you want to filter on a time period other than Start Date .. End Date. However, you cannot specify a date field and set a filter for it if the same field is already used in the Period Field No.|  
     |**Date Filter Field No.**|Specify a date filter field if the table has one.<br /><br /> If the table has more than one date filter, do not specify one in this field.|  
     |**Date Filter Handing**|Specify how the date filter is to be handled:<br /><br /> - \<blank\>: No filter is set.<br /><br /> - Period: Use the specified Start Date and End Date.<br /><br /> - End Date Only: Use the batch job's End Date.<br /><br /> - Start Date Only: Use the batch job's Start Date - 1.|  
     |**Export File Name**|Specify the name of the file that data from this table will be exported to.<br /><br /> For example, if the table is the **G/L Account** table, the value of the **Export Table Name** can be **GLAccount**, and the value of the **Export File Name** field can be **GLAccount.txt**.|  
     |**Key No.**|Optional. Specify the key field.|
+
+    > [!NOTE]  
+    > The INDEX.XML file contains table and field names in English based on the names of tables and fields. The names of tables and fields are defined in `<Name>` tags, and captions are defined in `<Description>` tags in the INDEX.xml file.   
+    
+    > [!NOTE]  
+    > Table and field names will be written as-is, including any spaces, dots, parentheses, and so on. The only characters that are removed from the names are *&*, *'* (single quote), *"* (double quote), *<* (less-than sign), and *>* (greater-than sign).   
 
     For more information, see [GDPdU Filter Examples](gdpdu-filter-examples.md).  
 

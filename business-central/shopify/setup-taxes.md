@@ -142,7 +142,7 @@ There you can define **Default Customer No.** or **Customer Template No.**. In b
 
 While the imported Shopify order contains information about taxes, the taxes get recalculated when you create the sales document. That recalculation makes it important that the VAT/tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-- Multiple product tax/VAT rates. For example, some product categories are liable for reduced tax rates. Those items must exist in [!INCLUDE[prod_short](../includes/prod_short.md)] and be mapped to Shopify products. Otherwise, with automatic creation of missing items, the VAT product posting group will be used.
+- Multiple product tax/VAT rates. For example, some product categories are liable for reduced tax rates. You can use [Tax Override](https://help.shopify.com/en/manual/taxes/tax-overrides#create-a-manual-collection-for-products-that-need-a-tax-override) feature in Shopify. When this items are imported and created in [!INCLUDE[prod_short](../includes/prod_short.md)] they will use tax setup from template filled in the Item Template Code of the Shopify Shop. Before importing orders with such items, you need to update the VAT product posting group.
 
 - Address-dependent tax rates. Use the **Tax area priority** field together with **Customer Templates** table to overwrite standard logic that fills in the **Tax Area Code** in the sales document. The **Tax area priority** field specifies the priority from where the function should take the information about the country/region and state/province. Then the corresponding record in the Shopify customer templates is found and the **Tax Area Code**, **Tax Liable**, and **VAT Bus. Posting Group** is used when a sales document is created.
 

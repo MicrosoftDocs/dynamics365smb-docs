@@ -11,7 +11,7 @@ ms.author: andreipa
 # Setting up Taxes
 
 In this guide we'll investigate how various setting on Shopify impact storefront prices and taxes displayed to the customer and how to configure [!INCLUDE[prod_short](../includes/prod_short.md)] to support setting on Shopify. This guide is not intended to be a comprehensive taxation guide. To learn more, contact your local tax authority or a tax professional.
-In following guide we assume that you are liable to pay taxes when selling goods locally or internationally.
+In following guide, we assume that you are liable to pay taxes when selling goods locally or internationally.
 
 ## Selling in domestic market 
 
@@ -36,9 +36,9 @@ Now you can define prices in the **Item Card** or **Sales Price List**. You can 
 
 In this paragraph we'll explore settings for scenarios, when you are required to collect taxes when selling to another country. For example, you are selling to other countries inside EU.
 
-Currently the **Shopify Connector** extension supports export of one price only. Shopify automatically applies local taxes, currencies, roundings. The **All prices includes tax** toggle will have following effect.
+Currently the **Shopify Connector** extension supports export of one price only. Shopify automatically applies local taxes, currencies, rounding. The **All prices include tax** toggle will have following effect.
 
-### All prices includes tax is enabled
+### All prices include tax is enabled
 
 ||Domestic sales|Foreign country where you collecting taxes|Foreign country where you don't collect taxes|
 |------------------------|--------|--------|--------|
@@ -48,7 +48,7 @@ Currently the **Shopify Connector** extension supports export of one price only.
 
 Price for customer stays intact, regardless of their location, but your margin is affected because of different tax rates in countries.
 
-### All prices includes tax is disabled
+### All prices include tax is disabled
 
 ||Domestic sales|Foreign country where you collecting taxes|Foreign country where you don't collect taxes|
 |------------------------|--------|--------|--------|
@@ -65,9 +65,9 @@ Because different countries have different requirements on whether tax should be
 You can do it by enabling the **Include or exclude tax based on your customer's country** in the **Other Markets - Preferences** section of the [**Markets**](https://www.shopify.com/admin/settings/markets) settings in your **Shopify admin**.
 
 >[Note!]
->This setting doeesn't affect the representation of prices in domestic market, which is controlled by the all prices includes tax toggle.
+>This setting doesn't affect the representation of prices in domestic market, which is controlled by the All prices include tax toggle.
 
-### All prices includes tax is enabled
+### All prices include tax is enabled
 
 ||Domestic sales|Foreign country, where tax included into price|Foreign country, where tax excluded|
 |------------------------|--------|--------|--------|
@@ -77,7 +77,7 @@ You can do it by enabling the **Include or exclude tax based on your customer's 
 
 Price for customer will change depending on their location.
 
-### All prices includes tax is disabled
+### All prices include tax is disabled
 
 ||Domestic sales|Foreign country, where tax included into price|Foreign country, where tax excluded|
 |------------------------|--------|--------|--------|
@@ -85,7 +85,7 @@ Price for customer will change depending on their location.
 |Tax rate %|20|25|10|
 |Price at checkout|1200|1250|1100|
 
-Notice that **All prices includes tax** toggle doesn't change how prices are displayed to international customers.
+Notice that **All prices include tax** toggle doesn't change how prices are displayed to international customers.
 
 ## Selling in EU
 
@@ -100,7 +100,7 @@ The **Collect VAT** in the **European Union** section of the [**Taxes and duties
 
 
 ### Collect VAT set to One-Stop Shop registration		
-In example below the All prices includes tax toggle is enabled. Price in Product card is set to 1200.	
+In example below the All prices include tax toggle is enabled. Price in Product card is set to 1200.	
 		
 ||Domestic sales|Foreign country with local tax rate 25|
 |------------------------|--------|--------|
@@ -109,7 +109,7 @@ In example below the All prices includes tax toggle is enabled. Price in Product
 |Price at checkout|1200|1250|		
 		
 ### Collect VAT set to  Micro-business exemption			
-In example below the All prices includes tax toggle is enabled. Price in Product card is set to 1200.	
+In example below the All prices include tax toggle is enabled. Price in Product card is set to 1200.	
 		
 ||Domestic sales|Foreign country with local tax rate 25|
 |------------------------|--------|--------|
@@ -119,7 +119,7 @@ In example below the All prices includes tax toggle is enabled. Price in Product
     
 Shopify ignores tax rate in the foreign country when calculating final prices and uses domestic tax rate.
 
-## Importing shopify orders sold internationally
+## Importing Shopify orders sold to international customers
 
 If you are collecting taxes from multiple countries, you most probably need to define country specific setting in [!INCLUDE[prod_short](../includes/prod_short.md)]. This is required because when sales document gets created in [!INCLUDE[prod_short](../includes/prod_short.md)], system calculates taxes instead of reusing ones imported from Shopify.
 
@@ -129,12 +129,12 @@ There you can define **Default Customer No.** or **Customer Template No.**. In b
 1. **General Business Posting Group** that is used for foreign customers.
 2. **VAT Business Posting Group** that is used for foreign customers.
 3. **Prices Including VAT** is aligned with setting on the Shopify side:
-* Set *Yes* if **All prices includes tax** is enabled and **Include or exclude tax based on your customer's country** is disabled.
-* Set *No* if **All prices includes tax** is disabled and **Include or exclude tax based on your customer's country** is disabled.
+* Set *Yes* if **All prices include tax** is enabled and **Include or exclude tax based on your customer's country** is disabled.
+* Set *No* if **All prices include tax** is disabled and **Include or exclude tax based on your customer's country** is disabled.
 * Set *Yes* if **Include or exclude tax based on your customer's country** is enabled and country/region is listed in the [Tax-inclusive countries](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing#tax-inclusive-versus-tax-exclusive-countries-and-regions).
 * Set *No* if **Include or exclude tax based on your customer's country** is enabled and country/region is not listed in [Tax-inclusive countries](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing#tax-inclusive-versus-tax-exclusive-countries-and-regions).
 
->[Note] **Prices Including VAT** is coming from tempalte, not from the specific customer. That's why it is important to have customer template defined.
+>[Note] **Prices Including VAT** is coming from template, not from the specific customer. That's why it is important to have customer template defined.
 
 ## Other tax remarks
 

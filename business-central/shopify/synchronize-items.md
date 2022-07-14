@@ -106,7 +106,7 @@ The following settings let you manage the process of exporting items:
 |Vendor|**Name** of vendor from **Vendor No.** |**Vendor No.** Mapping by name.|
 |Weight|**Gross Weight**.|Not used.|
 |Taxable|Fixed value: Enabled.|Not used.|
-|Tax Codes|**Tax Group Code**. Only relevant for sales taxes. For more information, see [taxes](synchronize-orders.md#tax-remarks). |Not used.|
+|Tax Codes|**Tax Group Code**. Only relevant for sales taxes. For more information, see [Setup taxes](setup-taxes.md). |Not used.|
 
 ### Tags
 
@@ -190,9 +190,9 @@ Prices can be exported for synchronized items in the ways described below.
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products** and choose the related link.
 2. Choose the **Sync Prices to Shopify** action.
 
-### Price calculation remarks1
+### Price calculation remarks
 
-* For price calculation, it's important to have a value in the **Default Customer Template** field. [!INCLUDE[prod_short](../includes/prod_short.md)] uses the value of the **VAT Business Group** field to calculate the price including VAT. You might want to create a customer price group where you select the **Price including VAT** field and specify the relevant value in the **VAT Bus. Posting Gr. (Price)** field.
+* For price calculation, it's important to have a value in the **Default Customer Template** field. For more information about, see [Setup taxes](tax-setup.md).
 * Enter a **Currency Code** if your online shop uses different currency than LCY. The specified currency must have exchange rates configured. If your online shop uses same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty.
 * When determining a price, [!INCLUDE[prod_short](../includes/prod_short.md)] uses "Lowest price" logic. It means that if unit price defined in the item card is lower than what is defined in the price group, the unit price from the item card is used.
 

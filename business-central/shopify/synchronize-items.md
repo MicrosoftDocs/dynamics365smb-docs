@@ -190,7 +190,7 @@ Prices can be exported for synchronized items in the ways described below.
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products** and choose the related link.
 2. Choose the **Sync Prices to Shopify** action.
 
-### Price calculation remarks
+### Price calculation remarks1
 
 * For price calculation, it's important to have a value in the **Default Customer Template** field. [!INCLUDE[prod_short](../includes/prod_short.md)] uses the value of the **VAT Business Group** field to calculate the price including VAT. You might want to create a customer price group where you select the **Price including VAT** field and specify the relevant value in the **VAT Bus. Posting Gr. (Price)** field.
 * Enter a **Currency Code** if your online shop uses different currency than LCY. The specified currency must have exchange rates configured. If your online shop uses same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty.

@@ -30,7 +30,7 @@ Fill in the **Customer Template Code** field in **Shopify Shop Card** page with 
 Now you can define prices in the **Item Card** or **Sales Price List**. You can define prices with or without tax. When exporting prices to Shopify, system will calculate price to include domestic tax and use this price in the Product card in Shopify.
 
 >[Note!]
->If you configured Shopify Connector to create customers automatically, you may need more fields in your template, for example **Customer Posting Group**. If you used default customer for imported orders, make sure this customer has same fields populated. You still need to fill in **Customer Template Code** as specified above.
+>If you configured Shopify Connector to create customers automatically, you may need more fields in your template, for example **Customer Posting Group**. If you used default customer for imported orders, make sure this customer has same fields populated. You still need to fill in **Customer Template Code** as specified above, because the **Prices including Tax**/**Prices including VAT** field in the created sales document doesn't depend on the customer, but on the **Customer Template** from the Shopify Shop Card or Customer template per country.
 
 ## Selling internationally
 
@@ -135,6 +135,16 @@ There you can define **Default Customer No.** or **Customer Template No.**. In b
 * Set *No* if **Include or exclde tax based on your customer's country** is enabled and country/region is not listed in [Tax-inclusive countries](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing#tax-inclusive-versus-tax-exclusive-countries-and-regions).
 
 >[Note] **Prices Including VAT** is coming from tempalte, not from the specific customer. That's why it is important to have customer template defined.
+
+## Other tax remarks
+
+### Tax remarks
+
+While the imported Shopify order contains information about taxes, the taxes get recalculated when you create the sales document. That recalculation makes it important that the VAT/tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+- Multiple product tax/VAT rates. For example, some product categories are liable for reduced tax rates. Those items must exist in [!INCLUDE[prod_short](../includes/prod_short.md)] and be mapped to Shopify products. Otherwise, with automatic creation of missing items, the VAT product posting group will be used.
+
+- Address-dependent tax rates. Use the **Tax area priority** field together with **Customer Templates** table to overwrite standard logic that fills in the **Tax Area Code** in the sales document. The **Tax area priority** field specifies the priority from where the function should take the information about the country/region and state/province. Then the corresponding record in the Shopify customer templates is found and the **Tax Area Code**, **Tax Liable**, and **VAT Bus. Posting Group** is used when a sales document is created.
 
 
 ## See Also

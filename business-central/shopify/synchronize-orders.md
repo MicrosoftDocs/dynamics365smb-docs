@@ -24,7 +24,7 @@ A regular Shopify order can have extra amounts on top, such as shipping charges 
 Enable **Auto Create Orders** to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] once the Shopify order is imported.
 The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] contains a link to the Shopify order. If you select the **Shopify Order No. on Doc. Line** field, then this information will be repeated in the sales lines of type *Comment*.
 
-In the **Tax area source** field, you can define priority on how to select tax area code or VAT business posting group based on address. This step is relevant for countries with sales tax, but can be used for VAT countries. For more information, see [Setup taxes](setup=taxes.md).
+In the **Tax area source** field, you can define priority on how to select tax area code or VAT business posting group based on address. This step is relevant for countries with sales tax, but can be used for VAT countries. For more information, see [Setup taxes](setup-taxes.md).
 
 ### Shipment method mapping
 

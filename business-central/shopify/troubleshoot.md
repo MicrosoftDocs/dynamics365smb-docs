@@ -82,6 +82,12 @@ The following procedures describe how to to rotate the access token used by the 
 3. Choose the **Request Access** action.
 4. If prompted, sign-in into your Shopify account, review privacy and permissions, and then choose the **Install App** button.
 
+## Known issues
+
+### Gen. Product Posting Group must have a value in Customer. It cannot be zero or empty.
+
+Fill in the **Customer Template Code** field on the **Shopify Shop Card** window with the template that has **Gen. Product Posting Group** populated. Customer template is used not only for creation of customers, but also for calculation of sales price and during creation of sales documents.
+
 ## See also
 
 [Get Started with the Connector for Shopify](get-started.md)  

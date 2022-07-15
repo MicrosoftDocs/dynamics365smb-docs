@@ -1774,6 +1774,7 @@
 ### [Manage User Settings and Preferences](admin-manage-user-settings-preferences.md)
 ### [Set Up Printers](ui-specify-printer-selection-reports.md)
 ### [Classify Data Sensitivity](admin-classifying-data-sensitivity.md)
+### [Privacy Notices Status](privacy-notices-status.md)
 ### [Respond to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)
 ### [Create New Companies](about-new-company.md)
 ### [Log Changes](across-log-changes.md)

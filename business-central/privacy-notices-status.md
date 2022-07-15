@@ -52,5 +52,6 @@ On the page, you'll find the table with the following columns:
 ## See also
 
 [Compliance Overview](/dynamics365/business-central/compliance/compliance-overview)  
+[Respond to Requests about Personal Data ](/dynamics365/business-central/admin-responding-to-requests-about-personal-data)  
 [Privacy Policy and Terms of Use ](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-checklist-i-privacypolicy-termsofuse)  
 [Data retention policies](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/define-retention-policies) 

@@ -23,7 +23,8 @@ A privacy notice states the data collection, data processing, and data privacy p
 
 ## Privacy Notices Status Page
 
-In [!INCLUDE[prod_short](includes/prod_short.md)], if users want to integrate their data with the Microsoft Exchange, Microsoft OneDrive, and Microsoft Teams, they need to agree or disagree to the privacy notice for each entity. Or an admin can agree or disagree to the privacy notices on their behalf. Admins can see the status of privacy notices on **Privacy Notices Status** page. You can find the **Privacy Notices Status** page in the [!INCLUDE[prod_short](includes/prod_short.md)] by writing the name of the page in the search bar. <br>
+In [!INCLUDE[prod_short](includes/prod_short.md)], if users want to integrate their data with the Microsoft Exchange, Microsoft OneDrive, and Microsoft Teams, they must agree or disagree to the privacy notice for each entity. Or an admin can agree or disagree to the privacy notices on their behalf. Admins can see the status of privacy notices on **Privacy Notices Status** page. You can find the **Privacy Notices Status** page in the [!INCLUDE[prod_short](includes/prod_short.md)] by writing the name of the page in the search bar.  
+
 On the page, you'll find a table with options to choose from for each of the services mentioned above. 
 
 | Column | Description |
@@ -33,7 +34,7 @@ On the page, you'll find a table with options to choose from for each of the ser
 | **Disagree for All** | An admin can disagree the privacy notice for all users. |
 | **Let User Decide** | Users decide whether they agree to the privacy notice for the service or not. |
 
->[!NOTE]
+> [!NOTE]
 > You can only view the status of privacy notices on the main **Privacy Notices Status** page. To edit the responses, you'll go to the **Edit List** on the action bar of the page. On the *Edit List*, you'll see that now the options are clickable and not greyed out.
 
 ## Privacy Notice Approvals

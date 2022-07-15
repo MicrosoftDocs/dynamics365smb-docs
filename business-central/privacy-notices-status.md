@@ -38,7 +38,7 @@ On the page, you'll find a table with options to choose from for each of the ser
 
 ## Privacy Notice Approvals
 
-Administrators can see the individual approvals and manage them on the **Privacy Notice Approvals** sub-page. If you go to the *Action* bar of the **Privacy Notices Action** page, under the *Actions*, you'll find the *Show individual approvals* option. This option will take you to the **Privacy Notice Approvals** page.<br>
+Administrators can see the individual approvals and manage them on the **Privacy Notice Approvals** subpage. If you go to the *Action* bar of the **Privacy Notices Action** page, under the *Actions*, you'll find the *Show individual approvals* option. This option will take you to the **Privacy Notice Approvals** page.<br>
 On the page, you'll find the table with the following columns: 
 
 | Column | Description |

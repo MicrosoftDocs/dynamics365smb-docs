@@ -84,7 +84,7 @@ The following settings let you manage the process of exporting items:
 |**Inventory Tracked**|Choose how the system should populate the **Track Inventory** field for products exported to Shopify. You can update availability information from [!INCLUDE[prod_short](../includes/prod_short.md)] for products in Shopify whose track inventory is enabled. For more information, see [Inventory](synchronize-items.md#sync-inventory-to-shopify).|
 |**Default Inventory Policy**|Choose *Deny* to prevent negative stock of the Shopify side. |
 |**Can Update Shopify Products**|Define if [!INCLUDE[prod_short](../includes/prod_short.md)] can only create items or can update items as well. Select this option, if you, after the initial sync triggered by the **Add Item** action, plan to update products manually using **Sync Product** action or via job queue for recurring updates. Remember to select **To Shopify** in the **Item Sync** field.|
-|**Customer Template Code**|Choose the default template to be used during price calculation. For more information, see [Tax Remarks](synchronize-orders.md#tax-remarks).|
+|**Customer Template Code**|Choose the default template to be used during price calculation. For more information, see [Setup taxes](setup-taxes.md).|
 
 
 ### Fields mapping overview

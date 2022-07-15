@@ -192,7 +192,7 @@ Prices can be exported for synchronized items in the ways described below.
 
 ### Price calculation remarks
 
-* For price calculation, it's important to have a value in the **Default Customer Template** field. For more information about, see [Setup taxes](tax-setup.md).
+* For price calculation, it's important to have a value in the **Default Customer Template** field. For more information, see [Setup taxes](setup-taxes.md).
 * Enter a **Currency Code** if your online shop uses different currency than LCY. The specified currency must have exchange rates configured. If your online shop uses same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty.
 * When determining a price, [!INCLUDE[prod_short](../includes/prod_short.md)] uses "Lowest price" logic. It means that if unit price defined in the item card is lower than what is defined in the price group, the unit price from the item card is used.
 

@@ -85,7 +85,7 @@ The better mapping information that you do in the payment reconciliation journal
 
 ## To set up bank accounts
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. On the **Bank Accounts** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -154,6 +154,7 @@ The following table explains key fields.
 -->
 
 ## Entering an opening balance
+
 To fill in the **Balance** field with an opening balance, you must post a bank account ledger entry with the amount in question. You can do this by performing a bank account reconciliation. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > Alternatively, you can implement the opening balance as a part of general data creation in new companies by using the **Migrate Business Data** assisted setup guide. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).  
@@ -162,9 +163,10 @@ To fill in the **Balance** field with an opening balance, you must post a bank a
 > It is important that you do not post the opening balance directly to the general ledger. Having entries in the G/L account that are posted directly to the G/L account will typically result in you not be able to to reconcile the bank account, or, for foreign currency bank accounts, result in differences accumulating as you post more bank reconciliations. Often, you post the opening bank balance directly to the bank account, and the amount then ends up in the G/L account. Alternatively, you reverse it later against the G/L account that you use to balance the opening general ledger balance. In both cases, you must balance any direct posting to the G/L account before you start your first bank reconciliation, and especially so if the bank account is in a foreign currency.
 
 ## To set up your bank account for import or export of bank files
+
 The fields related to the import and export of bank feeds and files are on the **Transfer** FastTab on the **Bank Account Card** page. For more information, see [Using the AMC Banking 365 Fundamentals Extension](ui-extensions-amc-banking.md) and [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature 2.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Open the card for a bank account that you will export or import bank files for.
 3. On the **Transfer** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -217,14 +219,7 @@ The illustration shows the route of outbound payments:
 
 Fields on the **Transfer** FastTab on the **Vendor Bank Account Card** page are related to export of bank feeds and files. For more information, see [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md) and [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
-2. Open the card for a vendor whose bank account you will export payment bank files to.
-3. Choose the **Bank Accounts** action.
-4. From the **Vendor Bank Accounts List**, choose the relevant bank account, or add a new bank account.  
-5. On the **Vendor Bank Account Card** page, on the **Transfer** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!WARNING]
-> Some fields on the vendor bank account contain sensitive data, such as the **Bank Branch No.**, **Bank Account No.**, **SWIFT Code**, and **IBAN Code** fields. For more information, see [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).
+[!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 ## Changing your bank account
 
@@ -237,7 +232,9 @@ After you create the new bank account, you should also create a new bank posting
 
 To get a more condensed view of your cash accounts in financial reporting, use the **Begin-Total** and **End-Total** accounts in your chart of accounts, the **Totaling** rows in account schedules, or G/L account categories. For more information, see the [Business Intelligence and Financial Reporting](bi.md) section.
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
+
+## See also
 
 [Setting Up Banking](bank-setup-banking.md)  
 [Setting Up Posting Groups](finance-posting-groups.md)  
@@ -250,6 +247,5 @@ To get a more condensed view of your cash accounts in financial reporting, use t
 [Payment Reconciliation](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Understanding the General Ledger and the COA](finance-general-ledger.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

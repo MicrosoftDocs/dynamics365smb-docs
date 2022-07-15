@@ -26,12 +26,14 @@ Each user who performs warehouse activities must be set up as a warehouse employ
 5. Select the **Default** check box to define the location as the only location where the employee can perform warehouse activities.  
 6. Repeat these steps to assign other employees to locations or assign non-default locations to existing warehouse employees.  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/get-started-warehouse-management/)
+
+## See also
 
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md) 
-[Assembly Management](assembly-assemble-items.md)
+[Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
+[Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

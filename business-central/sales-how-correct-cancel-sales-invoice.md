@@ -64,7 +64,9 @@ If the cancellation is related to a partial invoice posting, then the originatin
     A sales credit memo is automatically created and posted to void the initial posted sales invoice.
 5. Choose the **Show Corrective Credit Memo** action to view the posted sales credit memo that voids the initial posted sales invoice.
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/)
+
+## See also
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  

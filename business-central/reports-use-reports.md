@@ -27,8 +27,11 @@ A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information b
 | Running a report with the same options and filters? Learn how to use saved settings in the request page | [Managing Saved Report Settings](reports-saving-reusing-settings.md)|
 | Want to change the default layout for a report? | [Changing the default Report Layout](ui-how-change-layout-currently-used-report.md) |
 
-## See Also
+## See related training at [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
 
+## See also
+
+[Report Overview](reports-available-reports.md)  
 [Business Intelligence and Reporting Overview](ui-work-report.md)
 
 

@@ -14,6 +14,7 @@ ms.author: edupont
 
 ---
 # Set Up Stockkeeping Units
+
 You can use stockkeeping units to record information about items for a specific location or a variant code.  
 
 Stockkeeping units are a supplement to item cards. They do not replace them, although they are related to them. Stockkeeping units allow you to differentiate information about an item for a specific location, such as a warehouse or distribution center, or a specific variant, such as different shelf numbers and different replenishment information, for the same item.  
@@ -35,7 +36,10 @@ To create several stockkeeping units for an item, use the **Create Stockkeeping 
 > If the SKU is supplied through production, then the **Standard Cost** field is not used when invoicing and adjusting the actual cost of the produced item. Instead, the **Standard Cost** field on the underlying item card is used, and any variances are calculated against the cost shares of that item.<br /><br />
 > Because production BOMs and routing cannot be assigned to SKUs, then the unit cost roll-up and the related calculation of cost shares are also not available on SKUs. For more information, see [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
 
-## See Also  
+## See related training at [Microsoft Learn](/learn/modules/control-inventory-multiple-locations/)
+
+## See also
+
 [Register New Items](inventory-how-register-new-items.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Warehouse Management](warehouse-manage-warehouse.md)  

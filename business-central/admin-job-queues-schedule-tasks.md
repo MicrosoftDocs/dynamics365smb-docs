@@ -15,13 +15,16 @@ ms.author: edupont
 ---
 # Use Job Queues to Schedule Tasks
 
-Job queues in [!INCLUDE[prod_short](includes/prod_short.md)] enable users to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson * Sales Statistics** report weekly, to track sales by salesperson each week, or you might want to run the **Delegate Approval Requests** codeunit daily, to prevent documents from piling up or otherwise block the workflow.
+The Job Queues enable users to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson * Sales Statistics** report weekly to track sales by salesperson each week, or run the **Delegate Approval Requests** codeunit daily to prevent documents from piling up.
 
-The **Job Queue Entries** page lists all existing jobs. If you add a new job queue entry that you want to schedule, you must specify information about the type of object you want to run, such as a report or codeunit, and the name and object ID of the object that you want to run. You can also add parameters to specify the behavior of the job queue entry. For example, you can add a parameter to only send posted sales orders. You must have permission to run the particular report or codeunit, or an error will be returned when the job queue is run.  
+The **Job Queue Entries** page lists all existing jobs. If you add a new job queue entry that you want to schedule, you must provide some information. For example:
+* The type of object you want to run, such as a report or codeunit. You must have permission to run the particular report or codeunit.
+* The name and object ID of the object. 
+* Parameters to specify the behavior of the job queue entry. For example, you can add a parameter to only send posted sales orders. 
+* When, and how often, the job queue entry will run.
+
 > [!IMPORTANT]  
 > If you use the SUPER permissions set that comes with [!INCLUDE[prod_short](includes/prod_short.md)], you and your users have permissions to run all objects within the license. That is still not enough for Delegated Admin or users with Device license, who cannot create job queue entires.
-
-A job queue can have many entries, which are the jobs that the queue manages and runs. Information in the entry specifies what codeunit or report is run, when and how often the entry is run, in what category the job runs, and how it runs.  
 
 After job queues are set up and running, the status can change as follows within each recurring period:
 
@@ -31,11 +34,11 @@ After job queues are set up and running, the status can change as follows within
 * **Error**  
 * **Finished**  
 
-After a job has finished successfully, it is removed from the list of job queue entries unless it is a recurring job. If it is a recurring job, the **Earliest Start Time** field is adjusted to show the next time that the job is expected to run.  
+After a job finishes successfully it's removed from the list of job queue entries, unless it's a recurring job. For recurring jobs, the **Earliest Start Time** field is adjusted to show the next time that the job is expected to run.  
 
 ## Monitor status or errors in the job queue
 
-Data that is generated when a job queue is run is stored in the database, so that you can troubleshoot job queue errors.  
+Data that the job queue generates is stored in the database, so that you can troubleshoot job queue errors.  
 
 For each job queue entry, you can view and change the status. When you create a job queue entry, its status is set to **On Hold**. You can set the status to **Ready** and back to **On Hold**, for example. Otherwise, status information is updated automatically.
 
@@ -43,11 +46,14 @@ The following table describes the values of the **Status** field.
 
 | Status | Description |
 |--|--|
-| Ready | Indicates that the job queue entry is ready to be run. |
-| In Process | Indicates that the job queue entry is in process. This field is updated while the job queue is running. |
-| On Hold | Default. Indicates the status of the job queue entry when it is created. Choose the **Set Status to Ready** action to change the status to **Ready**. Choose the **Set On Hold** or **Suspend** actions to change the status back to **On Hold**. |
-| Error | Indicates that there is an error. Choose **Show Error** to see the error message. |
-| Finished | Indicates that the job queue entry is complete. |
+| Ready | The job queue entry is ready to be run. |
+| In Process | The job queue entry is in process. This field updates while the job queue is running. |
+| On Hold | The default status of the job queue entry when it's created. Choose the **Set Status to Ready** action to change the status to **Ready**. Choose the **Set On Hold** action to revert the status to **On Hold**. |
+| Error | Something went wrong. Choose **Show Error** to show the error message. |
+| Finished | The job queue entry is complete. |
+
+> [!Tip]  
+> Job queue entries stop running when there's an error. For example, this can be a problem when an entry connects to an external service, such as a bank feed. If the service is temporarily not available and the job queue entry can't connect, the entry will show an error and stop running. You'll have to manually restart the job queue entry. However, the **Maximum No. of Attempts** and **Rerun Delay (sec.)** fields can help you avoid this situation. The **Maximum No. of Attempts** field lets you specify how many times the job queue entry can fail before it stops trying to run. The **Rerun Delay (sec.)** field lets you specify the amount of time, in seconds, between attempts. The combination of these two fields might keep the job queue entry running until the external service becomes available.
 
 ### To view status for any job
 
@@ -61,16 +67,21 @@ The following table describes the values of the **Status** field.
 
 The **Scheduled Tasks** page in [!INCLUDE [prod_short](includes/prod_short.md)] shows which tasks are ready to run in the job queue. The page also shows information about the company that each task is set up to run in. However, only tasks that are marked as belonging to the current environment can run.  
 
-For example, if the current company is in an environment that is a copy of another environment, all scheduled tasks are automatically stopped. Use the **Scheduled Tasks** page to set tasks as ready to run in the job queue.  
+For example, all scheduled tasks stop if the company is in an environment that's a copy of another environment. Use the **Scheduled Tasks** page to set tasks as ready to run in the job queue.  
 
 > [!NOTE]
 > Internal administrators and users can schedule tasks to run. Delegated administrators cannot.
 
 ## The My Job Queue Part
 
-The **My Job Queue** part on your Role Center shows the job queues entries that you have started, but which are not yet finished. By default, the part is not visible, so you have to add it to your Role Center. For more information, see [Personalize Your Workspace](ui-personalization-user.md).  
+The **My Job Queue** part on your Role Center shows the job queues entries that you've started but aren't finished. By default the part isn't displayed, but you can add it to your Role Center. For more information, see [Personalize Your Workspace](ui-personalization-user.md).  
 
-The part shows which documents with your ID in the **Assigned User ID** field are being processed or are queued, including those related to background posting. The part can tell you at a glance whether there has been an error in the posting of a document or if there are errors in a job queue entry. The part also lets you cancel a document posting if it is not running.
+The part shows the following information:
+
+* Which documents with your ID in the **Assigned User ID** field are being processed or are queued, including documents that are posting in the background. 
+* Whether there was an error when posting a document or in the job queue entry. 
+
+The My Job Queue part also lets you cancel a document posting.
 
 ### To view an error from the My Job Queue part
 
@@ -87,13 +98,11 @@ For more information, see [Scheduling a Report to Run](ui-work-report.md#Schedul
 
 ### Schedule synchronization between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-If you have integrated [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[prod_short](includes/cds_long_md.md)], you can use the job queue to schedule when you want to synchronize data for the records that you have coupled in the two business apps. Depending on the direction and rules that you have defined for the integration, the synchronization jobs can also create new records in the destination app to match those in the source. For example, if a salesperson creates a new contact in [!INCLUDE[crm_md](includes/crm_md.md)], the synchronization job can create that contact for the coupled salesperson in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Scheduling a Synchronization between Business Central and Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
+If you've integrated [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[prod_short](includes/cds_long_md.md)], the job queue lets you schedule when to synchronize data. Depending on the direction and rules you've defined, the job queue entry can create records in one app to match records in the other. A good example is when you register a contact in [!INCLUDE[crm_md](includes/crm_md.md)], the job queue entry can set up that contact for you in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Scheduling a Synchronization between Business Central and Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
 ### Schedule the posting of sales and purchase orders
 
-Job queues are an effective tool to schedule the running of business processes in the background, such as when multiple users are trying to post sales orders, but only one order can be processed at a time.  
-
-For more information, see [To set up background posting with job queues](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
+You can use job queue entries to schedule business processes to run in the background. For example, background tasks are useful when multiple users post sales orders at the same time, but only one order can be processed at a time. For more information, see [To set up background posting with job queues](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
 
 ## Monitor the job queue with telemetry
 

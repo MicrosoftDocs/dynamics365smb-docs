@@ -14,6 +14,7 @@ ms.author: edupont
 
 ---
 # Quote an Assemble-to-Order Sale
+
 You can use assembly management to customize an assembly item to a customer’s request during the sales process. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
 
 As when you sell any other type of item, you can also create a sales quote for a customized assembly item before converting it to a sales order. This process involves several extra steps when you compare it to creating a regular sales quote, and it uses a variation of a linked assembly order, which is an assembly quote.
@@ -21,7 +22,8 @@ As when you sell any other type of item, you can also create a sales quote for a
 > [!NOTE]  
 >  Like all types of quotes, the quantities on assembly quotes are not used in availability, planning, or reservations.  
 
-## To create a sales quote for an assemble-to-order item  
+## To create a sales quote for an assemble-to-order item
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Quote**, and then choose the related link.  
 2.  Create a sales quote line with one line for an assembly item. For more information, see [Make Sales Quotes](sales-how-make-offers.md).  
 3.  In the **Qty. to Assemble to Order** field, enter the full quantity.
@@ -34,7 +36,10 @@ As when you sell any other type of item, you can also create a sales quote for a
 6.  When you have adjusted the assembly order lines according to the quote, close the **Assemble-to-Order Lines** page to return to the **Sales Quote** page.  
 7.  If the customer accepts the quote, then create a sales order for the quoted assembly item. For more information, see [Make Sales Quotes](sales-how-make-offers.md). The linked assembly quote and any customizations are linked to that new sales order to prepare for assembly of the item or items to be sold.  
 
-## See Also  
+## See related training at [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+
+## See also
+
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Bills of Material](inventory-how-work-BOMs.md)  
 [Inventory](inventory-manage-inventory.md)  

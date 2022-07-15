@@ -13,7 +13,6 @@ ms.date: 06/14/2021
 
 # Integrating with Microsoft Dataverse
 
-
 Business apps often use data from more than one source. [!INCLUDE[prod_short](includes/cds_long_md.md)] combines data into a single set of logic that makes it easier to connect other Dynamics 365 applications, such as [!INCLUDE[crm_md](includes/crm_md.md)] or your own application built on top of [!INCLUDE[prod_short](includes/cds_long_md.md)], to [!INCLUDE[prod_short_md](includes/prod_short.md)]. For more information about [!INCLUDE[prod_short](includes/cds_long_md.md)], see [What is Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
 
 The following steps provide an overview of the steps to integrate [!INCLUDE[prod_short](includes/cds_long_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -28,12 +27,15 @@ The following steps provide an overview of the steps to integrate [!INCLUDE[prod
 3. Synchronize data between the apps. For more information, see [Synchronizing Business Central and Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
 ## Getting Started with [!INCLUDE[prod_short](includes/cds_long_md.md)]
+
 To get started with [!INCLUDE[prod_short](includes/cds_long_md.md)] you will need a Microsoft Power Apps account. If you do not already have a Power Apps account, you can get one for free by visiting [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) and choosing the **Get started free** link. To learn more about how to get started with [!INCLUDE[prod_short](includes/cds_long_md.md)], see the [Get started with Dataverse](/learn/modules/get-started-with-powerapps-common-data-service/) module from Microsoft Learn.
 
 ## Bi-Directional or Uni-directional Data Synchronization
+
 Depending on your business needs, you can set up the integration to synchronize data either to or from one Dynamics 365 business app to another, or in both directions in near-real time through [!INCLUDE[prod_short](includes/cds_long_md.md)]. For example, if you integrate [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[crm_md](includes/crm_md.md)] through [!INCLUDE[prod_short](includes/cds_long_md.md)], a salesperson can create a sales order in [!INCLUDE[crm_md](includes/crm_md.md)] and the order will be synchronized to [!INCLUDE[prod_short](includes/prod_short.md)]. Conversely, from [!INCLUDE[crm_md](includes/crm_md.md)], the salesperson can view information from [!INCLUDE[prod_short](includes/prod_short.md)] about the availability of the item on the order. 
 
 ## Standard and Custom Entities
+
 [!INCLUDE[prod_short](includes/cds_long_md.md)] securely stores data in a set of tables, which are sets of records similar to how a table stores data within a database. [!INCLUDE[prod_short](includes/cds_long_md.md)] includes a base set of standard tables that cover typical scenarios, but you can also create custom tables specific to your organization. In [!INCLUDE[prod_short](includes/prod_short.md)], you can view standard and custom tables being synchronized on the Integration Table Mappings page.
 
 ## About the Business Central Base Integration Solution
@@ -57,12 +59,12 @@ For details about each role, such as the permissions and access levels, see [Set
 
 During connection setup, integration table mappings that are needed to synchronize data, are created. Entities in [!INCLUDE[prod_short](includes/cds_long_md.md)] are mapped to tables and table fields in Business Central through integration tables. For more information, see [Standard Entity Mapping for Synchronization](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/use-model-driven-apps-common-data-service/)
+
+## See also
+
 [Data Ownership Models](admin-cds-company-concept.md)  
 <!--needs to be removed as this is moved to dev-itpro docs[Walkthrough: Customizing an Integration with Dataverse](\dynamics365\business-central\dev-itpro\administration\administration-custom-cds-integration) -->
-
-
-
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

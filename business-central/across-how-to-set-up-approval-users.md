@@ -1,6 +1,6 @@
 ---
     title: Set Up Approval Users
-    description: Before you can create workflows that involve approval steps, you must set up the workflow users involved in the approval processes with approval User Setup.
+    description: Before you can create workflows that involve approval steps, you must set up the workflow users involved in the approval processes on the Approval User Setup page.
     author: SorenGP
 
     
@@ -36,14 +36,14 @@ Before you can create workflows that involve approval steps, you must set up the
     |**Salespers./Purch. Code**|Specify the salesperson or purchaser code that applies to the user in the **Salespers./Purch. Code** field.<br /><br /> You typically fill the **Salespers./Purch. Code** field if the salesperson or purchaser who is responsible for the customer or vendor is also the person who must approve the sales or purchase request in question.|  
     |**Approver ID**|Select the user ID of the user who must approve requests made by the user in the **User ID** field.|  
     |**Sales Amount Approval Limit**|Specify the maximum sales amount in LCY that the user in the **User ID** field can approve.|  
-    |**Unlimited Sales Approval**|Specify that the user in the **User ID** field can approve all sales requests regardless of their amount.<br /><br /> If you select this check box, then you cannot fill the **Sales Amount Approval Limit** field.|  
+    |**Unlimited Sales Approval**|Specify that the user in the **User ID** field can approve all sales requests regardless of their amount.<br /><br /> If you select this check box, then you can't fill the **Sales Amount Approval Limit** field.|  
     |**Purchase Amount Approval Limit**|Specify the maximum purchase amount in LCY that the user in the **User ID** field can approve.|  
-    |**Unlimited Purchase Approval**|Specify that the user in the **User ID** field can approve all purchase requests regardless of their amount.<br /><br /> If you select this check box, then you cannot fill the **Sales Amount Approval Limit** field.|  
+    |**Unlimited Purchase Approval**|Specify that the user in the **User ID** field can approve all purchase requests regardless of their amount.<br /><br /> If you select this check box, then you can't fill the **Sales Amount Approval Limit** field.|  
     |**Request Amount Approval Limit**|Specify the maximum amount in LCY that the user in the **User ID** field can approve for purchase quotes.<br /><br /> To use this field, you must select the **Approver Chain** option in the **Approver Limit Type** field on the **Workflow Response** page.|  
-    |**Unlimited Request Approval**|Specify that the user in the **User ID** field can approve all purchase quotes regardless of their amount.<br /><br /> If you select this check box, then you cannot fill the **Request Amount Approval Limit** field.|  
-    |**Substitute**|Select the user ID of the user who must approve requests made by the user in the **User ID** field if the user in the **Approver ID** is not available. <br /><br />**Note:**  The substitute can either be the user in the **Substitute** field, the direct approver, or the approval administrator, in that order of priority. For more information, see [Use Approval Workflows](across-how-use-approval-workflows.md).|  
+    |**Unlimited Request Approval**|Specify that the user in the **User ID** field can approve all purchase quotes regardless of their amount.<br /><br /> If you select this check box, then you can't fill the **Request Amount Approval Limit** field.|  
+    |**Substitute**|Select the user ID of the user who must approve requests made by the user in the **User ID** field if the user in the **Approver ID** isn't available. <br /><br />**Note:**  The substitute can either be the user in the **Substitute** field, the direct approver, or the approval administrator, in that order of priority. For more information, see [Use Approval Workflows](across-how-use-approval-workflows.md).|  
     |**Email**|Specify the email address of the user in the **User ID** field.|  
-    |**Approval Administrator**|Specify the user who has rights to unblock approval workflows, for example, by delegating approval requests to new substitute approvers and deleting overdue approval requests.|
+    |**Approval Administrator**|Specify the user who has rights to unblock approval workflow. For example, by delegating approval requests to new substitute approvers and deleting overdue approval requests.|
 
     > [!Note]
     > Only one person can be the approval administrator.
@@ -51,14 +51,16 @@ Before you can create workflows that involve approval steps, you must set up the
 3. To test the approval user setup, choose the **Approval User Setup Test** action.  
 4. Repeat steps 2 and 3 for every user who you want to set up as an approval user.  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/create-workflows/)
 
-[Set Up Workflow Users](across-how-to-set-up-workflow-users.md)   
-[Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)   
-[Create Workflows](across-how-to-create-workflows.md)   
-[Setting Up Workflows](across-set-up-workflows.md)   
-[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
-[Workflow](across-workflow.md)   
+## See also
+
+[Set Up Workflow Users](across-how-to-set-up-workflow-users.md)  
+[Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)  
+[Create Workflows](across-how-to-create-workflows.md)  
+[Setting Up Workflows](across-set-up-workflows.md)  
+[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Workflow](across-workflow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

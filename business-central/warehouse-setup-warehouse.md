@@ -39,11 +39,13 @@ The following table describes a sequence of tasks, with links to the topics that
 |Integrate bar code readers to your warehouse management solution. Only for on-premise deployment.|[Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
-## See Also
+## See related training at [Microsoft Learn](/learn/paths/set-up-warehouse-management/)
+
+## See also
 
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Assembly Management](assembly-assemble-items.md)
+[Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

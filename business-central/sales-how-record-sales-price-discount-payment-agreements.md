@@ -9,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
+ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
 

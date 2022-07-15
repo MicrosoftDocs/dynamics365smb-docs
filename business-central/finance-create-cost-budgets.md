@@ -29,11 +29,13 @@ You use the following pages to create and analyze cost budgets. Choose the ![Lig
 |See cost budget registers and cost budget entries.|**Cost Budget Registers** page|  
 |Print cost budget comparisons using various reports.|**Cost Acctg. Balance-Budget** report<br /><br /> **Cost Acctg. Statement-Budget** report<br /><br /> **Cost Budget by Cost Center** report<br /><br /> **Cost Budget by Cost Object** report|  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/cost-accounting-reports-dynamics-365-business-central/)
+
+## See also
 
 [Accounting for Costs](finance-manage-cost-accounting.md)  
 [Create G/L Budgets](finance-how-create-budgets.md)  
-[Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)   
+[Terminology in Cost Accounting](finance-terminology-in-cost-accounting.md)  
 [Defining and Allocating Costs](finance-define-and-allocate-costs.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

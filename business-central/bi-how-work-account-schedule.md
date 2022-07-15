@@ -16,19 +16,19 @@ ms.author: edupont
 ---
 # Prepare Financial Reporting with Account Schedules and Account Categories
 
-Use account schedules to get insight into the financial data stored in your chart of accounts. Account schedules analyze figures in G/L accounts, and compare general ledger entries with general ledger budget entries. The results display in charts on your Role Center, such as the Cash Flow chart, and in reports, such as the Income Statement and the Balance Sheet reports.
+Use account schedules to get insight into the financial data stored in your chart of accounts. Account schedules analyze figures in G/L accounts, and compare general ledger entries with general ledger budget entries. The results display in charts and reports on your Role Center, such as the Cash Flow chart and the Income Statement and Balance Sheet reports.
 
 You access these two reports, for example, with the **Financials Statements** action on the Business Manager and Accountant Role Centers.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] provides a few sample account schedules that you can use right away, or you can set up your own rows and columns to specify the figures to compare. For example, you can create account schedules to calculate profit margins on dimensions like departments or customer groups. You can create as many customized financial statements as you want.  
+[!INCLUDE[prod_short](includes/prod_short.md)] provides sample account schedules that you can use right away. You can also set up your own rows and columns to specify the figures to compare. For example, you can create account schedules to calculate profit margins on dimensions such as departments or customer groups. The number of customized financial statements you can create is unlimited.  
 
-Setting up account schedules requires an understanding of the financial data in the chart of accounts. For example, you can view general ledger entries as percentages of budget entries. This requires that budgets are created. For more information, see [Create G/L Budgets](finance-how-create-budgets.md).
+Setting up account schedules requires an understanding of the financial data in the chart of accounts. For example, you can view general ledger entries as percentages of budget entries, but that requires that you've created budgets. For more information, see [Create G/L Budgets](finance-how-create-budgets.md).
 
 ## Account Schedules
 
-Account schedules are used to arrange accounts listed in the chart of accounts in ways suited for presentation of information about those accounts. You can set up various layouts to define the information that you want to extract from the chart of accounts. One of the main functions of account schedules is to provide a place for calculations that cannot be made directly in the chart of accounts, such as creating subtotals for groups of accounts, which can be included in new totals and can then be used in other totals. For example, users can create account schedules to calculate profit margins on such dimensions as departments or customer groups. In addition, general ledger entries and general ledger budget entries can be filtered, for example, by net change or debit amount.
+Account schedules arrange accounts from your chart of accounts in ways that make data easy to present. You can set up various layouts to define the information that you want to extract from the chart of accounts. Account schedules provide a place for calculations that can't be made directly in the chart of accounts. For example, you can create subtotals for groups of accounts and then include that total in other totals. Another example is to calculate profit margins on dimensions such as departments or customer groups. Additionally, you can filter general ledger entries and general ledger budget entries, for example, by net change or debit amount.
 
-You can also compare two or more account schedules and column layouts by using formulas. This kind of comparison provides the ability to:
+You can also compare two or more account schedules and column layouts by using formulas, which lets you take the following actions:
 
 * Create customized financial reports.
 * Create as many account schedules as needed, each with a unique name.
@@ -47,28 +47,33 @@ You can use G/L account categories to change the layout of your financial statem
 
 You use account schedules to analyze figures in general ledger accounts or to compare general ledger entries with general ledger budget entries. For example, you can view the general ledger entries as percentages of the budget entries.
 
-The account schedules in the standard version of [!INCLUDE[prod_short](includes/prod_short.md)] are the basis of the standard financial reports, which may not suit the needs of your business. To quickly create your own financial reports, you can start by copying an existing account schedule. See step 3 below.
+The account schedules in the standard version of [!INCLUDE[prod_short](includes/prod_short.md)] are the basis of the standard financial reports, which may not suit the needs of your business. To quickly create your own financial reports, you can start by copying an existing account schedule, as described in step 3.
 
-The **Acc. Schedule Overview** page is where you preview the financial report that the account schedule defines. In the following, it is important to understand that what you set up as account schedule rows and columns can only be seen and validated on the **Acc. Schedule Overview** page, which you open from an account schedule by choosing the **Overview** action. The **Account Schedule** page itself is only a setup area.  
+> [!TIP]
+> After you create an account schedule, you can use the **Acc. Schedule Overview** page to preview and validate the financial report that the account schedule defines. To open the page, choose the **Overview** action.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.  
 2. On the **Account Schedules** page, choose the **New** action to create a new account schedule name.
-3. Alternatively, choose the **Copy Account Schedule** action, fill in the two fields, and then choose the **OK** button.
+3. Alternatively, if you want to reuse settings from an existing account schedule, choose the **Copy Account Schedule** action.
 4. Fill in the fields as necessary. In the **Default Column Layout** field, select an existing layout. You can edit it later if you want.
 
-    You use column layouts to define columns for different parameters by which the financial data on the rows are shown. For example, you can design a column layout to compare net change and balance for the same period this year and last year, with four columns. For more information, see [To edit a column layout](bi-how-work-account-schedule.md#to-edit-a-column-layout).
+    Column layouts define columns for the parameters by which the financial data on the rows is shown. For example, a column layout might contain four columns that let you compare net change and balance for the same period this year and last year. For more information, see [To edit a column layout](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
 5. Choose the **Edit Account Schedule** action.
-6. Create a row for each financial element that you want to appear in the report, such as one row for current assets and another row for fixed assets. For inspiration, see existing account schedules in the CRONUS demonstration company.
+6. Depending on what you want to analyze, choose the **Insert G/L Accounts**, **Insert CF Accounts**, and **Insert Cost Types** actions to create a row for each financial element. For example, you might have one row for current assets and another row for fixed assets. For inspiration, see the account schedules in the CRONUS demonstration company.
+
+    > [!NOTE]
+    > The **Row No.** field will show the first 10 characters of an identifier, for example, an account number. If you add elements with identifiers that start with the same 10 characters you'll have duplicates in the **Row No.** field. If needed, you can manually edit the identfiers after you insert the elements. The full identifiers are displayed in the **Totaling** field.
+
 7. Choose the **Overview** action to see the resulting financial report.
 8. On the **Acc. Schedule Overview** page, in the **Column Layout Name** field, select another column layout to see the financial data by other parameters.
 9. Choose the **OK** button.
 
-You have now defined the basis of the account schedule, the rows of financial data to be displayed, and an existing layout of columns to show the data on the rows per different parameters. If the default column layout that you selected in step 4 does not suit your purpose, follow the next procedure.
+You've now defined the basis of the account schedule, the rows of financial data to be displayed, and an existing layout of columns to show the data on the rows per different parameters. If the default column layout that you selected in step 4 doesn't suit your purpose, follow the next procedure.
 
 ### To edit a column layout
 
-You use column layouts to define what columns should be included in the resulting report. For example, you can design a layout to compare net change and balance for the same period this year and last year. You can have up to 15 columns. This is useful, for example, if you want to view budgets for 12 months and include a column that shows the total.
+You use column layouts to define what columns should be included in the resulting report. For example, you can design a layout to compare net change and balance for the same period this year and last year. You can have up to 15 columns, which is useful, for example, for viewing budgets for 12 months with a column that shows the total.
 
 > [!NOTE]
 > A printed/previewed/saved version of an account schedule can display a maximum of five columns. If the account schedule is only meant for analysis on the **Acc. Schedule Overview** page, you can create as many columns as you want.
@@ -83,7 +88,7 @@ You use column layouts to define what columns should be included in the resultin
 
 ### To create a column that calculates percentages
 
-Sometimes you may want to include a column in an account schedule to calculate percentages of a total. For example, if you have a number of rows that break down sales by dimension, you may want a column to indicate the percentage of total sales that each row represents.
+Sometimes you may want to include a column in an account schedule to calculate percentages of a total. For example, if you have rows that break down sales by dimension, you may want a column to indicate the percentage of total sales in each row.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 2.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.
 2. On the **Account Schedule Names** page, select an account schedule.  
@@ -96,7 +101,7 @@ Sometimes you may want to include a column in an account schedule to calculate p
 
 ## To set up account schedules with overviews
 
-You can use an account schedule to create a statement comparing general ledger figures and general leger budget figures.
+You can use an account schedule to create a statement comparing general ledger figures and general ledger budget figures.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.
 2. On the **Account Schedule Names** page, select an account schedule.  
@@ -105,9 +110,9 @@ You can use an account schedule to create a statement comparing general ledger f
 5. Choose the **Insert G/L Accounts** action.  
 6. Select the accounts that you want to include in your statement, and then choose the **OK** button.
 
-    The accounts are now inserted into your account schedule. If you want you can also change the column layout.  
+    The accounts are now inserted into your account schedule. If you want, you can also change the column layout.  
 7. Choose the **Overview** action.  
-8. On the **Acc. Schedule Overview** page, on the **Dimension Filters** FastTab, set the budget filter to the desired filter name.  
+8. On the **Acc. Schedule Overview** page, on the **Dimension Filters** FastTab, set the budget filter to the filter name you want to use.  
 9. Choose the **OK** button.  
 
 Now you can copy and paste your budget statement into a spreadsheet.  
@@ -116,9 +121,9 @@ Now you can copy and paste your budget statement into a spreadsheet.
 
 Your account schedule can compare the results of different accounting periods, such as this month versus same month last year. To do that, open the **Column Layout** page, and personalize it by adding the **Comparison Period Formula** field as a column. For more information, see [Personalize Your Workspace](ui-personalization-user.md). You can then set that field to a period formula.  
 
-An accounting period does not have to match the calendar, but each fiscal year must have the same number of accounting periods, even though each period can be different in length.  
+An accounting period doesn't have to match the calendar. However, each fiscal year must have the same number of accounting periods, even though each period can be different in length.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] uses the period formula to calculate the amount from the comparison period in relation to the period represented by the date filter on the report request. The comparison period is based on the period of the start date of the date filter. The abbreviations for period specifications are:
+[!INCLUDE[prod_short](includes/prod_short.md)] uses the period formula to calculate the amount from the comparison period in relation to the period represented by the date filter on the report. The comparison period is based on the period of the start date of the date filter. The abbreviations for period specifications are:
 
 | Abbreviation | Description                                                                           |
 | ------------ | ------------------------------------------------------------------------------------- |
@@ -147,7 +152,7 @@ If you want to calculate by regular time periods, you must enter a formula in th
 For more information about date formulas, see [Work with Calendar Dates and Times](ui-enter-date-ranges.md).  
 
 ## Import or Export Account Schedules
-You can import and export account schedules as RapidStart configuration packages. For example, this is useful for sharing them with other companies. The package is created in a .rapidstart file, which delivers the package contents in a compressed format.
+You can import and export account schedules as RapidStart configuration packages. For example, configuration packages are useful for sharing them with other companies. The package is created in a .rapidstart file, which delivers the package contents in a compressed format.
 
 ### To import and export account schedules
 1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Account Schedules**, and then choose the related link.

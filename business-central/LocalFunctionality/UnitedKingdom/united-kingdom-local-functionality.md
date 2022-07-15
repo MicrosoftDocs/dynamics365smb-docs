@@ -25,7 +25,7 @@ The following topics describe local functionality that is unique to the United K
     * [Print VAT Audit Reports](how-to-print-vat-audit-reports.md) **Available Now**
     * [Print VAT Reports](how-to-print-vat-reports.md) **Available Now**
     * [Set Up Reverse Charges on VAT](how-to-set-up-reverse-charges-on-vat.md) **Available Now**
-    * [VAT Group Management] (../../ui-extensions-vat-group.md) **Available Now**
+    * [VAT Group Management](../../ui-extensions-vat-group.md) **Available Now**
 
 * Banking & Payments
     * [Print Checks for APACS](how-to-print-checks-for-apacs.md) **Available Now**

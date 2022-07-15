@@ -30,6 +30,7 @@ On the **Pick Worksheets** page, you can set up pick lists that help employees g
 > For information about picking components for assembly orders generally, including situations where the assembly item is not due on a sales shipment, see [Pick for Assembly or Production in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## Sorting Lines on a Pick Worksheet
+
 You can sort lines by item, shelf number, source document, due date, or destination. Here are some examples of how sorting can be useful.
 
 * If you sort by due date, you can choose to delete all lines except those that need immediate attention. The less urgent lines are not deleted as such, but just sent back to the **Pick Selection** worksheet. When you create the pick, the lines have already been sorted by due date, and you can choose to assign the pick to an employee.
@@ -49,7 +50,9 @@ You can sort lines by item, shelf number, source document, due date, or destinat
 8. Choose the **Print** action to print the pick instructions.  
 9. After the pick is completed, choose the **Register** action.  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+
+## See also
 
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  

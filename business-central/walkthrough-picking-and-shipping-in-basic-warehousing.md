@@ -64,6 +64,7 @@ Ellen, the warehouse manager at CRONUS, sets up SOUTH warehouse for basic pick h
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
 ### Setting Up the Bin Codes
+
 Once you have the location set up, you must add two bins.
 
 #### To setup the bin codes
@@ -140,7 +141,9 @@ On the **Inventory Pick** page, you can manage all outbound warehouse activities
 
     The 30 Amsterdam Lamps are now registered as picked from bins S-01-0001 and S-01-0002, and a negative item ledger entry is created reflecting the posted sales shipment.  
 
-## See Also
+## See related training at [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+
+## See also
 
 [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)  
 [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)  

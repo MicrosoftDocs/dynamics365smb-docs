@@ -105,6 +105,13 @@ Item ledger entries of type Sale that result from posting assemble-to-order quan
 
 Posting sales order lines where a part is inventory quantity and another part is assemble-to-order quantity results in separate item ledger entries, one for the inventory quantity and one for the assemble-to-order quantity.  
 
+### Posting dates
+
+In general, posting dates are copied from a sales order to the linked assembly order. The posting date in the assembly order is automatically updates when you change the  posting date in the sales order directly or indirectly, such as if you change the posting date in the wareshouse shippment, inventory pick, or as part of a bulk posting.
+
+You can change the posting date in the assembly order manually. However, it can not be later then posting date in the linked sales order. The system will keep this date unless you update the posting date in the sales order.
+
+
 ## See Also  
  [Design Details: Inventory Costing](design-details-inventory-costing.md)   
  [Design Details: Production Order Posting](design-details-production-order-posting.md)   

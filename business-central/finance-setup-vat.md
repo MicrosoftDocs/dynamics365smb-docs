@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 04/12/2022
+ms.date: 07/08/2022
 ms.author: bholtorf
 
 ---
@@ -168,6 +168,21 @@ You can modify or delete a VAT clause, and your modifications will be reflected 
 2. Choose the **Translations** action.  
 3. In the **Language Code** field, choose the language you are translating to.  
 4. In the **Description** and **Description 2** fields, enter the translations of the descriptions. This text displays in the translated VAT report documents.  
+
+### To specify extended text for VAT clauses
+
+> [!NOTE]  
+> If your country or region requires longer text for the VAT clauses than the default version supports, you can specify the longer text for the VAT clauses as *extended text* so that it prints on the sales and purchase reports.  
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 11.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Clauses**, and then choose the related link.  
+2. Choose the **Extended texts** action.  
+3. Fill in the **Code** and **Description** fields.  
+3. Choose the **New** action.  
+4. Optionally, select the **All Language Codes** field, or specify the relevant language in the **Language Code** field if you use language codes.  
+5. Fill in the **Starting Date** and **Ending Date** fields if you want to limit the dates on which the extended text is used.  
+6. In the **Text** lines, write the extended text for your VAT clauses.  
+7. Select the relevant fields for the document types where you want the extended text printed.  
+8. Close the page.  
 
 ## Create a VAT posting setup to handle Import VAT
 

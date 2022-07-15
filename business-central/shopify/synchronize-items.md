@@ -84,6 +84,8 @@ The following settings let you manage the process of exporting items:
 |**Inventory Tracked**|Choose how the system should populate the **Track Inventory** field for products exported to Shopify. You can update availability information from [!INCLUDE[prod_short](../includes/prod_short.md)] for products in Shopify whose track inventory is enabled. For more information, see [Inventory](synchronize-items.md#sync-inventory-to-shopify).|
 |**Default Inventory Policy**|Choose *Deny* to prevent negative stock of the Shopify side. |
 |**Can Update Shopify Products**|Define if [!INCLUDE[prod_short](../includes/prod_short.md)] can only create items or can update items as well. Select this option, if you, after the initial sync triggered by the **Add Item** action, plan to update products manually using **Sync Product** action or via job queue for recurring updates. Remember to select **To Shopify** in the **Item Sync** field.|
+|**Customer Template Code**|Choose the default template to be used during price calculation. For more information, see [Tax Remarks](synchronize-orders.md#tax-remarks).|
+
 
 ### Fields mapping overview
 
@@ -95,7 +97,7 @@ The following settings let you manage the process of exporting items:
 |SEO page title|Fix value: empty, see [Ad-hock updates of Shopify Products](synchronize-items.md#ad-hock-updates-of-shopify-products). |Not used.|
 |SEO meta description|Fix value: empty, see [Ad-hock updates of Shopify Products](synchronize-items.md#ad-hock-updates-of-shopify-products). |Not used.|
 |Media|**Image**, for more information, see [Sync Item Images](synchronize-items.md#sync-item-images)|**Image**|
-|Price|The calculation of the end-customer price includes the item price group, item discount group, currency code, and customer template code. |Not used.|
+|Price|The calculation of the end-customer price includes the item price group, item discount group, currency code, and customer template code. |**Unit Price**|
 |Compare at price|The calculation of price without discount includes the item price group, item discount group, currency code, and customer template code. |Not used.|
 |Cost per item|**Unit Cost**|**Unit Cost**|
 |SKU|See **SKU Mapping** in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify)| See [How SKU and Barcode defined in Shopify product affect mapping and creation of items and variants](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|

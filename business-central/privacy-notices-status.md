@@ -9,7 +9,7 @@ ms.search.keywords:
 ms.search.form: 1565
 audience: 
 ms.author: a-jaaamir
-ms.date: 07/15/2022
+ms.date: 07/21/2022
 
 ---
 
@@ -19,7 +19,7 @@ This article discusses what a privacy notice is and explains the purpose of the 
 
 ## Privacy notice
 
-A privacy notice states the data collection, data processing, and data privacy policies followed by the organizations's data controller. It describes what data is collected and for what purposes, how the user's data is processed, how it's being stored, and who to contact if a user wants to ask something about their data. 
+A privacy notice states the data collection, data processing, and data privacy policies followed by the organizations's data controller. It's a document that describes what data is collected and for what purposes, how the user's data is processed, how it's being stored, and who to contact if a user wants to ask something about their data. 
 
 ## Privacy Notices Status page
 

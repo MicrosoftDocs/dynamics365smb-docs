@@ -33,6 +33,10 @@ You can unapply the applied general ledger entries and then open the closed entr
 4. Select the relevant general ledger entry, and then choose the **Set Applies-to ID** action.  
 
     The **Applies-to ID** field is updated with the user ID. The remaining amount is displayed in the **Balance** field on the **Apply General Ledger Entries** page.  
+
+    > [!IMPORTANT]  
+    > You can apply multiple entries only if all entries being applied can be fully closed.  
+
 5. Choose the **Post Application** action.  
 
     You can post the application even if the balance amount is equal to 0. When posted, the **Remaining Amount** field is affected as follows:  

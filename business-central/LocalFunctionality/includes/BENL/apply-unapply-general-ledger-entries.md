@@ -35,7 +35,7 @@ You can unapply the applied general ledger entries and then open the closed entr
     The **Applies-to ID** field is updated with the user ID. The remaining amount is displayed in the **Balance** field on the **Apply General Ledger Entries** page.  
 
     > [!IMPORTANT]  
-    > You can apply multiple entries only if all entries being applied can be fully closed.  
+    > You can apply multiple entries only if all entries that are being applied can be fully closed.  
 
 5. Choose the **Post Application** action.  
 

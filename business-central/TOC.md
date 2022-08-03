@@ -1308,6 +1308,7 @@
 ##### [Report 349](LocalFunctionality/Spain/report-349.md)  
 ##### [Create Report 349](LocalFunctionality/Spain/how-to-create-report-349.md)  
 ##### [Set Up 340 Reports for Small Businesses](LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses.md)
+##### [Set Up SII for VAT Reporting](LocalFunctionality/Spain/sii-setup.md)
 ##### [Create Templates for Telematic VAT Statements in Text File Format](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)
 ##### [Create Templates for Telematic VAT Statements in XML File Format](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)
 ##### [Export VAT Statements in XML Format](LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format.md)  
@@ -1328,7 +1329,6 @@
 ##### [Receivables Cartera Module](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Payments Cartera Module](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - Invoice and Credit Memo Types in Sales and Purchase Documents](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
-##### [Set Up SII for VAT Reporting](LocalFunctionality/Spain/sii-setup.md)
 #### Core Finance
 ##### [Set Up and Close Income Statement Balances](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Indent and Validate Chart of Accounts](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)

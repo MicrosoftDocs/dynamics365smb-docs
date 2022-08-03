@@ -10,13 +10,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 136, 145, 146, 9308
-ms.date: 04/01/2021
+ms.date: 08/03/2022
 ms.author: edupont
 
 ---
 # Combine Receipts on a Single Invoice
 
-If you want to invoice more than one purchase receipt at a time, you can use the **Combine Receipts** function.  
+If you want to invoice more than one purchase receipt at a time, you can select multiple receipt lines on the purchase invoice.  
 
 Before you can create a combined purchase receipt, more than one receipt from the same vendor in the same currency must be posted. In other words, you must have filled in two or more purchase orders and posted them as received, but not invoiced.  
 

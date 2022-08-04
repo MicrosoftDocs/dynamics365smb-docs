@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
-ms.date: 04/01/2021
+ms.date: 08/04/2022
 ms.author: edupont
 
 ---
@@ -57,18 +57,19 @@ You can define a WIP method for a job task, exclude some job tasks from WIP calc
 If you want to calculate WIP for each job task individually, WIP posting provides defined dimensions for the specific tasks.
 
 The **WIP-Total** specifies job tasks you want to group together when calculating WIP and recognition. In any group of tasks, there needs to be one task that satisfies two conditions:
-<!--But doesn't the parenthetical below contradict this -- if there is no total, the application sets the total for you, meaning the condition does not HAVE to be satisfied, right? Or am I missing something?-->
+<!--But doesn't the parenthetical below contradict this -* if there is no total, the application sets the total for you, meaning the condition does not HAVE to be satisfied, right? Or am I missing something?-->
 
-- Has a **WIP-Total** set to *Total*. (If there are no job tasks with **WIP-Total** set to *Total*, *Total* is set automatically on the last job task line when WIP is calculated for the first time.)
+* Has a **WIP-Total** set to *Total*. (If there are no job tasks with **WIP-Total** set to *Total*, *Total* is set automatically on the last job task line when WIP is calculated for the first time.)
 
-- Has a **Job Task No.** number that's the final one in the group or range of job tasks.
+* Has a **Job Task No.** number that's the final one in the group or range of job tasks.
 
 The following table describes the three options:
-|Field|Description|  
-|-------------------------------------|---------------------------------------|  
-|**\<blank\>**|Leave blank if the job task is part of a group of tasks.|  
-|**Total**|Defines the range or group of tasks included in the WIP and recognition calculation. Within the group, any job task with **Job Task Type** set to **Posting** is included in the WIP total, unless the task's **WIP-Total** field is set to **Excluded**.|  
-|**Excluded**|Applies only to a task with **Job Task Type** of **Posting**, in which case the task isn't included when WIP and recognition are calculated.|  
+
+| Field | Description |
+|--|--|
+| **\<blank\>** | Leave blank if the job task is part of a group of tasks. |
+| **Total** | Defines the range or group of tasks included in the WIP and recognition calculation. Within the group, any job task with **Job Task Type** set to **Posting** is included in the WIP total, unless the task's **WIP-Total** field is set to **Excluded**. |
+| **Excluded** | Applies only to a task with **Job Task Type** of **Posting**, in which case the task isn't included when WIP and recognition are calculated. |
 
 In the following example, job tasks are divided into two WIP total groupings, demonstrating how the **WIP-Total** field works:
 
@@ -89,9 +90,10 @@ In the following example, job tasks are divided into two WIP total groupings, de
 |1399|Total error correction|End-Total|**Total**|
 
 You'll notice:
-- *1000* through *1299*: WIP are calculated separately for this group of job tasks. Note however, that two of the tasks, 1010 and 1110, are excluded from the WIP calculation because their job task type is **Posting**.
 
-- *1300* through *1399*: WIP are calculated separately for this group of job tasks.
+* *1000* through *1299*: WIP are calculated separately for this group of job tasks. Note however, that two of the tasks, 1010 and 1110, are excluded from the WIP calculation because their job task type is **Posting**.
+
+* *1300* through *1399*: WIP are calculated separately for this group of job tasks.
 
 ## Calculate WIP
 
@@ -142,6 +144,7 @@ On the **Job Ledger Entries** page you can review the entries that are associate
 ## Find related training at [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
 
 ## See also
+
 [Walkthrough - Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
 [Managing Projects](projects-manage-projects.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  

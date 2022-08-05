@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
-ms.date: 04/01/2021
+ms.date: 08/03/2022
 ms.author: edupont
 
 ---
@@ -40,7 +40,15 @@ You create a job card and then create job task lines and job planning lines for 
 3. To specify the job with information on other jobs, choose the **Copy Job** action, fill in the fields as necessary, and then choose the **OK** button.
 
 > [!NOTE]  
->   If you are using time sheets with your job, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the job. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
+> If you are using time sheets with your job, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the job. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
+
+Optionally, mark actions on project as blocked using the **Blocked** field. the following table describes the effect of the options for this field.
+
+|Option  |Description  |
+|---------|---------|
+|Blank |All actions are allowed.|
+|Posting    |You can work with planning lines, but the job is blocked for posting. Choosing this option means that you cannot post any usage or sale on the job.|
+|All  |All actions are blocked.|
 
 ## To create tasks for a job
 

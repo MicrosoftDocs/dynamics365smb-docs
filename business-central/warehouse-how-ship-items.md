@@ -1,16 +1,14 @@
 ---
-    title: Ship Items
-    description: This topic describes how to ship items from your warehouse depending on your warehouse configuration for shipment processing.
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
-    ms.date: 06/24/2021
-    ms.author: edupont
+title: Ship Items
+description: This topic describes how to ship items from your warehouse depending on your warehouse configuration for shipment processing.
+author: SorenGP
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
+ms.date: 06/24/2021
+ms.author: edupont
 
 ---
 # Ship Items
@@ -34,7 +32,7 @@ The following describes how to ship items from a sales order. The steps are simi
 4. Choose the **Post** action.
 
 > [!NOTE]
-> If your organization does not use sales orders, then, when you post the sales invoice, [!INCLUDE [prod_short](includes/prod_short.md)] assumes that you have shipped the full quantity. If this contradicts with how your organization works, then we recommend that you use sales orders and register shipments as explain in this article.
+> If your organization does not use sales orders, then, when you post the sales invoice, [!INCLUDE [prod_short](includes/prod_short.md)] assumes that you have shipped the full quantity. If this contradicts with how your organization works, then we recommend that you use sales orders and register shipments as explained in this article.
 
 ## To ship items with a warehouse shipment
 
@@ -113,6 +111,5 @@ You can also use the pick worksheet to make several pick instructions into one i
 [Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Record Purchases with Purchase Invoices  (contains video)
 description: Describes how to purchase inventory, non-inventory items, or resources by creating and posting purchase invoices or orders.
 author: SorenGP
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -22,7 +20,7 @@ You create a purchase invoice or purchase order to record the cost of purchases 
 
 In addition to buying physical items (**Inventory** item type), which affect inventory valuation, you can purchase services represented by time units. You can do this either with the **Service** item type or with the **Resource** line type.
 
-When you receive the inventory items or when the purchased service is completed, you post the purchase invoice or order to update inventory and financial records and to activate payment to the vendor according to the payment terms. For more information, see [Posting Purchases](ui-post-purchases.md) and [Making Payments](payables-make-payments.md).
+When you receive the inventory items or when the purchased service is completed, you post the purchase invoice or order to update inventory and financial records and to activate payment to the vendor according to the payment terms. For more information, see [Posting Purchases](ui-post-purchases.md), [Receive Items](warehouse-how-receive-items.md), and [Making Payments](payables-make-payments.md).
 
 > [!CAUTION]  
 > Do not post a purchase invoice for physical items until you receive the items and know the final cost of the purchase, including any additional charges. Otherwise, your inventory value and profit figures may be skewed.
@@ -98,19 +96,19 @@ You can easily correct or cancel a posted purchase invoice before you pay the ve
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## See Related Training at [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/index)
+## See related training at [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/index)
 
-## See Also
+## See also
 
+[Posting Purchases](ui-post-purchases.md)  
+[Receive Items](warehouse-how-receive-items.md)  
+[Request Quotes](purchasing-how-request-quotes.md)  
+[Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)  
+[Prepare Drop Shipments](sales-how-drop-shipment.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  
 [Set Up Resources](projects-how-setup-resources.md)  
-[Posting Purchases](ui-post-purchases.md)  
-[Request Quotes](purchasing-how-request-quotes.md)  
-[Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)  
 [Register New Vendors](purchasing-how-register-new-vendors.md)  
-[Prepare Drop Shipments](sales-how-drop-shipment.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

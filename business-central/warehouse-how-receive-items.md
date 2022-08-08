@@ -1,16 +1,14 @@
 ---
-    title: Receive Items
-    description: This topic is an overview of the different ways of receiving items at a warehouse, for example items with a purchase order or items with a warehouse receipt.
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008
-    ms.date: 06/24/2021
-    ms.author: edupont
+title: Receive Items
+description: This topic is an overview of the different ways of receiving items at a warehouse, for example items with a purchase order or items with a warehouse receipt.
+author: SorenGP
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008
+ms.date: 06/24/2021
+ms.author: edupont
 
 ---
 # Receive Items
@@ -19,7 +17,7 @@ When items arrive at a warehouse that is not set up for warehouse receipt proces
 
 When items arrive at a warehouse that is set up for warehouse receipt processing, you must retrieve the lines of the released source document that triggered their receipt. If you have bins, you can either accept the default bin that is filled in, or if the item has never been used before in the warehouse, fill in the bin where the item should be put away. You must then fill in the quantities of the items you have received, and post the receipt.  
 
-## To receive items with a purchase order
+## Receive items with a purchase order
 
 The following describes how to receive items with a purchase order. The steps are similar for sales return orders and transfer orders.  
 
@@ -27,9 +25,8 @@ The following describes how to receive items with a purchase order. The steps ar
 2. Open an existing purchase order, or create a new one. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. In the **Qty. to Receive** field, enter the received quantity.
 
-  > [!NOTE]
-  > If the received quantity is higher than ordered on the purchase order, per the **Quantity** field, and the vendor has been set up to allow over-receipts, then you use the **Over-Receive** field to handle the excess quantity. For more information, see [To receive more items than ordered](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
-
+   > [!NOTE]
+   > If the received quantity is higher than ordered on the purchase order, per the **Quantity** field, and the vendor has been set up to allow over-receipts, then you use the **Over-Receive** field to handle the excess quantity. For more information, see [To receive more items than ordered](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
 4. Choose the **Post** action.
 
   The value in the **Qty. Received** field is updated. If this is a partial receipt, then the value is lower than the value in the **Quantity** field.
@@ -37,7 +34,7 @@ The following describes how to receive items with a purchase order. The steps ar
 > [!NOTE]
 > If you use a warehouse document to post the receipt, then you cannot use the **Post** action on the purchase order. Instead, a warehouse worker has already posted the purchase order quantity as received. For more information, see [To receive items with a warehouse receipt](warehouse-how-receive-items.md#to-receive-items-with-a-warehouse-receipt).
 
-## To receive items with a warehouse receipt
+## Receive items with a warehouse receipt
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -82,11 +79,11 @@ If you are not using warehouse put-away but you are using bins, the put-away of 
 >
 > If your location uses directed put-away and pick, then the put-away templates are used to calculate the best place to put the items away. This is then printed on the put-away instruction.
 
-## To receive more items than ordered
+## Receive more items than ordered
 
 When you receive more goods than you ordered, you may want to receive them instead of canceling the receipt. For example, it may be cheaper to keep the excess on your inventory than returning them or your vendor may offer you a discount for keeping them.
 
-### To set up over-receipts
+### Set up over-receipts
 
 You must define a percentage by which you allow the ordered quantity to be exceeded when receiving. You define this under an over-receipt code, which contains the percentage in the **Over-Receipt Tolerance %** field. You then assign the code to the cards of relevant items and/or vendors.  
 
@@ -104,7 +101,7 @@ The over-receipt code is assigned to the item. Any purchase order or warehouse r
 > [!NOTE]
 > You can set up an approval workflow to require that over-receipts must be approved before they can be handled. In that case, you must select the **Approval Required** check box on the **Over-Receipt Codes** page. For more information, see [Create Workflows](across-how-to-create-workflows.md).
 
-### To perform an over-receipt
+### Perform an over-receipt
 
 On purchase lines and warehouse receipt lines, the **Over-Receipt Quantity** field is used to record over-received quantities, meaning quantities that exceed the value in the **Quantity** field, the ordered quantity.
 
@@ -121,9 +118,9 @@ When you handle an over-receipt, you can either increase the value in the **Qty.
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] does not include functionality to automatically initiate the financial administration of over-receipts. You must manually handle this in agreement with the vendor, for example, by the vendor forwarding a new or updated invoice.
 
-## See Related Training at [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
+## See related training at [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
-## See Also
+## See also
 
 [Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
@@ -131,6 +128,5 @@ When you handle an over-receipt, you can either increase the value in the **Qty.
 [Assembly Management](assembly-assemble-items.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

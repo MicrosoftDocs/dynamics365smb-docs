@@ -20,7 +20,7 @@ When you ship items from a warehouse that is set up for warehouse shipment proce
 > [!NOTE]
 > If your warehouse uses cross-docking and bins, for each line, you can view the quantity of items that have been placed in the cross-dock bins. The application calculates these quantities automatically whenever the fields on the shipment are updated. If they are the items that apply to the shipment you are preparing, you can create a pick for all the lines and then complete the shipment. For more information, see [Cross-Dock Items](warehouse-how-to-cross-dock-items.md).
 
-## To ship items with a sales order
+## Ship items with a sales order
 
 The following describes how to ship items from a sales order. The steps are similar for purchase return orders, service orders, and outbound transfer orders.  
 
@@ -34,11 +34,11 @@ The following describes how to ship items from a sales order. The steps are simi
 > [!NOTE]
 > If your organization does not use sales orders, then, when you post the sales invoice, [!INCLUDE [prod_short](includes/prod_short.md)] assumes that you have shipped the full quantity. If this contradicts with how your organization works, then we recommend that you use sales orders and register shipments as explained in this article.
 
-## To ship items with a warehouse shipment
+## Ship items with a warehouse shipment
 
 First you create a shipment document from a business source document. Then you pick the specified items for the shipment.
 
-### To create a warehouse shipment
+### Create a warehouse shipment
 
 Typically, the employee who is responsible for shipping creates a warehouse shipment. The following procedure describes how to create the shipment manually in the default version of [!INCLUDE[prod_short](includes/prod_short.md)], but your organization might have automated part of the process, such as with the use of hand-held or mounted scanners that are supported by external providers.  
 
@@ -73,7 +73,7 @@ The lines of the source documents appear on the **Warehouse Shipment** page. The
 
 When you have the lines you want to ship, you can start the process that sends the lines to warehouse employees to pick.
 
-### To pick and ship
+### Pick and ship
 
 Typically, a warehouse worker responsible for picking creates a pick document, or opens an already created pick document.  
 

@@ -26,13 +26,13 @@ The following describes how to receive items with a purchase order. The steps ar
 3. In the **Qty. to Receive** field, enter the received quantity.
 
    > [!NOTE]
-   > If the received quantity is higher than ordered on the purchase order, per the **Quantity** field, and the vendor has been set up to allow over-receipts, then you use the **Over-Receive** field to handle the excess quantity. For more information, see [To receive more items than ordered](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+   > If the received quantity is higher than ordered on the purchase order, per the **Quantity** field, and the vendor has been set up to allow over-receipts, then you use the **Over-Receive** field to handle the excess quantity. For more information, see [To receive more items than ordered](warehouse-how-receive-items.md#receive-more-items-than-ordered).
 4. Choose the **Post** action.
 
   The value in the **Qty. Received** field is updated. If this is a partial receipt, then the value is lower than the value in the **Quantity** field.
 
 > [!NOTE]
-> If you use a warehouse document to post the receipt, then you cannot use the **Post** action on the purchase order. Instead, a warehouse worker has already posted the purchase order quantity as received. For more information, see [To receive items with a warehouse receipt](warehouse-how-receive-items.md#to-receive-items-with-a-warehouse-receipt).
+> If you use a warehouse document to post the receipt, then you cannot use the **Post** action on the purchase order. Instead, a warehouse worker has already posted the purchase order quantity as received. For more information, see [To receive items with a warehouse receipt](warehouse-how-receive-items.md#receive-items-with-a-warehouse-receipt).
 
 ## Receive items with a warehouse receipt
 

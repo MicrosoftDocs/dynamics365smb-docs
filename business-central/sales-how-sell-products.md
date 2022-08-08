@@ -24,7 +24,7 @@ In business environments where the customer pays immediately, for example by Pay
 
 You can even create directly-paid orders for non-registered customers by first setting up a "cash customer" card, which you point to on the sales order. For more information, see [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md).
 
-## To create a sales order
+## Create a sales order
 
 > [!NOTE]  
 > The following procedure assumes that the customer is already set up. For instructions on how to do this, please see [Register New Customers](sales-how-register-new-customers.md).

@@ -27,7 +27,7 @@ When you have accepted the vendor's quote, you can convert it to a purchase orde
 
 1. Open a purchase quote that is ready to convert, and then choose the **Make Order** action.
 
-The purchase quote is removed from the database. A purchase order is created based on the information in the purchase quote in which you can process the purchase, which can then be converted into a purchase invoice. In the **Quote No.** field on the purchase invoice or purchase order, you can see the number of the purchase quote that it was made from.
+The purchase quote is removed from the database. A purchase order is created based on the information in the purchase quote in which you can process the purchase, and then post a purchase invoice. In the **Quote No.** field on the purchase invoice or purchase order, you can see the number of the purchase quote that it was made from.
 
 > [!NOTE]
 > It is not possible to convert a purchase quote to a purchase invoice directly, like it is possible with sales quotes. For more details on how to create a purchase invoice, read the [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md) article.

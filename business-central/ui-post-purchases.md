@@ -2,15 +2,13 @@
 title: Post Purchase Documents
 description: Learn about the different posting functions to post purchase documents, and how to update posted documents.
 author: SorenGP
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.form: 
-ms.date: 06/24/2021
+ms.date: 08/08/2022
 ms.author: edupont
 
 ---
@@ -31,7 +29,7 @@ For each purchase document, a purchase entry is created in the **G/L Entry** tab
 For each purchase line, the following entries will be created:
 
 * An entry in the **Item Ledger Entry** table if the purchase line is of type **Item**.
-* An entry in the **G/L Entry** table if the purchase lines is of type **G/L Account**.
+* An entry in the **G/L Entry** table if the purchase line is of type **G/L Account**.
 * An entry in the **Resource Ledger Entry** table if the purchase line is of type **Resource**.
 
 In addition, purchase documents are always recorded in the **Purch. Recpt. Header** and **Purch. Inv. Header** tables.
@@ -41,7 +39,7 @@ Before you start to post, you can print a test report that contains all the info
 > [!IMPORTANT]  
 > When you post a purchase order for items, you can create both a receipt and an invoice. These can be done simultaneously or independently. You can also create a partial receipt and a partial invoice by completing the **Qty. to Receive** and **Qty. to Invoice** fields on the individual purchase order lines before you post. Note that you cannot create a purchase invoice for something that has not been received. That is, before you can invoice, you must have recorded a receipt, or you must choose to receive and invoice at the same time.
 >
-> To post a purchase invoice without recording a purchase receipt in [!INCLUDE[prod_short](prod_short.md)], create the document on the **Purchase Invoices** page. For more information, see [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md).
+> To post a purchase invoice without recording a purchase receipt in [!INCLUDE[prod_short](/includes/prod_short.md)], create the document on the **Purchase Invoices** page. For more information, see [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md).
 
 You can either post or post and print. If you choose to post and print, a report is printed when the order is posted. You can also choose the **Post Batch** function, which lets you post several orders at the same time. For more information, see [Post Multiple Documents at the Same Time](ui-batch-posting.md).
 

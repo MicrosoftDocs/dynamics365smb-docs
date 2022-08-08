@@ -122,9 +122,9 @@ You can even create directly-paid invoices for non-registered customers by first
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## See Related Training at [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
+## See related training at [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
 
-## See Also
+## See also
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
@@ -134,6 +134,5 @@ You can even create directly-paid invoices for non-registered customers by first
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Bulk Invoicing from Microsoft Bookings in Business Central](finance-bookings.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

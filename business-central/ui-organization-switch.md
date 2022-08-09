@@ -33,7 +33,7 @@ When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the env
 
    :::image type="content" source="media/app-launcher-bc-tile.png" alt-text="The Microsoft 365 app launcher showing the Business Central tile.":::  
 
-3. If there's more than one environment, you'll then be asked to choose the environment to access. 
+3. If there's more than one environment, you'll be asked to choose the environment to access.
 
 <!--
 The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.

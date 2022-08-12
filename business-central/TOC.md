@@ -441,6 +441,7 @@
 ### [Print the Picking List](sales-how-print-picking-list.md)
 ### [Post Sales](ui-post-sales.md)
 ### [Create Recurring Sales Lines](sales-how-work-standard-lines.md)
+### [Process Partial Shipments with Shipping Advice](sales-how-send-partial-shipments.md)
 ### [Make Drop Shipments](sales-how-drop-shipment.md)
 ### [Create Special Orders](sales-how-to-create-special-orders.md)
 ### [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)

@@ -1,6 +1,6 @@
 ---
 title: Ship Items
-description: This topic describes how to ship items from your warehouse depending on your warehouse configuration for shipment processing.
+description: This article describes how to ship items from your warehouse depending on your warehouse configuration for shipment processing.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -15,20 +15,20 @@ ms.author: edupont
 
 When you ship items from a warehouse that is not set up for warehouse shipment processing, you simply record the shipment on the related business document, such as a sales order, service order, purchase return order, or outbound transfer order.
 
-When you ship items from a warehouse that is set up for warehouse shipment processing, you can only ship items on the basis of source documents that other company units have released to the warehouse for action.
+When you ship items from a warehouse that is set up for warehouse shipment processing, you can only ship items based on source documents that other company units have released to the warehouse for action.
 
 > [!NOTE]
 > If your warehouse uses cross-docking and bins, for each line, you can view the quantity of items that have been placed in the cross-dock bins. The application calculates these quantities automatically whenever the fields on the shipment are updated. If they are the items that apply to the shipment you are preparing, you can create a pick for all the lines and then complete the shipment. For more information, see [Cross-Dock Items](warehouse-how-to-cross-dock-items.md).
 
 ## Ship items with a sales order
 
-The following describes how to ship items from a sales order. The steps are similar for purchase return orders, service orders, and outbound transfer orders.  
+The following instructions describe how to ship items from a sales order. The steps are similar for purchase return orders, service orders, and outbound transfer orders.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.
 2. Open an existing sales order, or create a new one. For more information, see [Sell Products](sales-how-sell-products.md).
 3. In the **Qty. to Ship** field, enter the shipped quantity.
 
-    The value in the **Qty. Shipped** field is updated. If this is a partial shipment, then the value is lower than the value in the **Quantity** field.
+    The value in the **Qty. Shipped** field is updated. If this is a partial shipment, then the value is lower than the value in the **Quantity** field. For more information, see [Process Partial Shipments](sales-how-send-partial-shipments.md).
 4. Choose the **Post** action.
 
 > [!NOTE]

@@ -2,8 +2,6 @@
 title: Overview of Tasks to Manage Sales
 description: Read all about how to use Business Central's services for managing sales activities with your customers with sales invoices, orders, quotes and more.
 author: SorenGP
-
-
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,6 +13,7 @@ ms.author: edupont
 
 ---
 # Sales
+
 You create a sales invoice or sales order to record your agreement with a customer to sell certain products on certain delivery and payment terms.
 
 You must use sales orders if your sales process requires that you can ship parts of an order quantity, for example, because the full quantity is not available at once. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use sales orders. In all other aspects, sales orders work the same way as sales invoices. With sales orders, you can also use the Order Promising functionality to communicate certain delivery dates to your customers.  
@@ -33,7 +32,7 @@ Sales documents can be sent as PDF files attached to email. The email body will 
 
 For all sales processes, you can incorporate an approval workflow, for example, to require that large sales to certain customers are approved by the accounting manager. For more information, see [Use Workflows](across-use-workflows.md).
 
-The following table describes a sequence of tasks, with links to the topics that describe them.
+The following table describes a sequence of tasks, with links to the articles that describe them.
 
 | To | See |
 | --- | --- |
@@ -43,6 +42,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Process a sales order that involves partial shipping or drop shipment. |[Sell Products](sales-how-sell-products.md) |
 |Understand what happens when you post sales documents.|[Posting Sales](ui-post-sales.md)|
 |Prepare to pick items for shipment.|[Print the Picking List](sales-how-print-picking-list.md)|
+| Fulfill a sales order with multiple partial shipments. | [Process Partial Shipments](sales-how-send-partial-shipments.md) |
 |Set up standard sales or purchase lines that you can quickly insert on documents, for example, for recurring replenishment orders.|[Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)|  
 | Link a sales order to a purchase order to sell a drop-shipment item that will be delivered directly from your vendor to your customer. |[Make Drop Shipments](sales-how-drop-shipment.md) |
 |Have a catalog item shipped from a vendor to your warehouse so that you can ship the item on to your customer.|[Create Special Orders](sales-how-to-create-special-orders.md)|
@@ -54,18 +54,18 @@ The following table describes a sequence of tasks, with links to the topics that
 |Inform your customers of order delivery dates by calculating either the capable-to-promise date or the available-to-promise date.|[Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)|
 |Resolve confusion when two or more records exist for the same customer.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 
-## See Related Training at [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
+## See related training at [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
 
-## See Also
+## See also
+
 [Setting Up Sales](sales-setup-sales.md)  
 [Register New Customers](sales-how-register-new-customers.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Managing Payables](payables-manage-payables.md)  
-[Project Management](projects-manage-projects.md)    
+[Project Management](projects-manage-projects.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

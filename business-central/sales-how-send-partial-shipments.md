@@ -13,9 +13,9 @@ ms.author: a-reishima
 
 In a partial shipment, an order isn't shipped entirely at once. For example, from an order for 100 units, you ship 40 units immediately and 60 units later. There are no limits on the number of shipments that can be made for an order.
 
-Before using partial shipments in [!INCLUDE [prod_short](includes/prod_short.md)], however, you need to specify that the customer accepts partial shipments, which can be done using the **Shipping Advice** field in the **Customer** card. Alternatively, if the customer only accepts complete shipments but exceptionally requests or agrees with a partial shipment for a specific sales order, you can change the **Shipping Advice** field before posting.
+However, before you can use partial shipments in [!INCLUDE [prod_short](includes/prod_short.md)], you must specify that the customer accepts partial shipments by setting the **Shipping Advice** field on the **Customer** card. Alternatively, if the customer only accepts complete shipments but exceptionally requests or agrees with a partial shipment for a specific sales order, you can change the **Shipping Advice** field before posting.
 
-By default, [!INCLUDE [prod_short](includes/prod_short.md)] sets the field in the **Customer** card as **Partial**, which allows partial shipments. If the field has the **Complete** setting selected, then the **Qty. to Ship** can't the used in sales orders.
+By default, [!INCLUDE [prod_short](includes/prod_short.md)] sets the field in the **Customer** card as **Partial**, which allows partial shipments. If the field specifies **Complete**, then the **Qty. to Ship** field is blocked in sales orders for that customer.
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 

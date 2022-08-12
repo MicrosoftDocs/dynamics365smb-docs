@@ -78,7 +78,7 @@ You can even create directly paid orders for non-registered customers by first s
 12. To only ship a part of the order quantity, enter that quantity in the **Qty. to Ship** field. The value is copied to the **Qty. to Invoice** field.
 
     > [!NOTE]
-    > If the **Shipping Advice** field is set as **Complete** in the **Shipping and Billing** FastTab, partial shipments will be disabled. For more information, see [Process Partial Shipments](sales-how-send-partial-shipments.md).
+    > If the **Shipping Advice** field is set as **Complete** in the **Shipping and Billing** FastTab, you cannot post partial shipments. For more information, see [Process Partial Shipments](sales-how-send-partial-shipments.md).
 13. To only invoice a part of the shipped quantity, enter that quantity in the **Qty. to Invoice** field. The quantity must be lower than the value in the **Qty. to Ship** field.  
 14. When the sales order lines are completed, choose the **Post and Send** action.
 

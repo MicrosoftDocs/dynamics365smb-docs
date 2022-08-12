@@ -84,6 +84,8 @@ The following settings let you manage the process of exporting items:
 |**Inventory Tracked**|Choose how the system should populate the **Track Inventory** field for products exported to Shopify. You can update availability information from [!INCLUDE[prod_short](../includes/prod_short.md)] for products in Shopify whose track inventory is enabled. For more information, see [Inventory](synchronize-items.md#sync-inventory-to-shopify).|
 |**Default Inventory Policy**|Choose *Deny* to prevent negative stock of the Shopify side. |
 |**Can Update Shopify Products**|Define if [!INCLUDE[prod_short](../includes/prod_short.md)] can only create items or can update items as well. Select this option, if you, after the initial sync triggered by the **Add Item** action, plan to update products manually using **Sync Product** action or via job queue for recurring updates. Remember to select **To Shopify** in the **Item Sync** field.|
+|**Customer Template Code**|Choose the default template to be used during price calculation. For more information, see [Setup taxes](setup-taxes.md).|
+
 
 ### Fields mapping overview
 
@@ -95,7 +97,7 @@ The following settings let you manage the process of exporting items:
 |SEO page title|Fix value: empty, see [Ad-hock updates of Shopify Products](synchronize-items.md#ad-hock-updates-of-shopify-products). |Not used.|
 |SEO meta description|Fix value: empty, see [Ad-hock updates of Shopify Products](synchronize-items.md#ad-hock-updates-of-shopify-products). |Not used.|
 |Media|**Image**, for more information, see [Sync Item Images](synchronize-items.md#sync-item-images)|**Image**|
-|Price|The calculation of the end-customer price includes the item price group, item discount group, currency code, and customer template code. |Not used.|
+|Price|The calculation of the end-customer price includes the item price group, item discount group, currency code, and customer template code. |**Unit Price**|
 |Compare at price|The calculation of price without discount includes the item price group, item discount group, currency code, and customer template code. |Not used.|
 |Cost per item|**Unit Cost**|**Unit Cost**|
 |SKU|See **SKU Mapping** in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify)| See [How SKU and Barcode defined in Shopify product affect mapping and creation of items and variants](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
@@ -106,7 +108,7 @@ The following settings let you manage the process of exporting items:
 |Vendor|**Name** of vendor from **Vendor No.** |**Vendor No.** Mapping by name.|
 |Weight|**Gross Weight**.|Not used.|
 |Taxable|Fixed value: Enabled.|Not used.|
-|Tax Codes|**Tax Group Code**. Only relevant for sales taxes. For more information, see [taxes](synchronize-orders.md#tax-remarks). |Not used.|
+|Tax Codes|**Tax Group Code**. Only relevant for sales taxes. For more information, see [Setup taxes](setup-taxes.md). |Not used.|
 
 ### Tags
 
@@ -192,7 +194,7 @@ Prices can be exported for synchronized items in the ways described below.
 
 ### Price calculation remarks
 
-* For price calculation, it's important to have a value in the **Default Customer Template** field. [!INCLUDE[prod_short](../includes/prod_short.md)] uses the value of the **VAT Business Group** field to calculate the price including VAT. You might want to create a customer price group where you select the **Price including VAT** field and specify the relevant value in the **VAT Bus. Posting Gr. (Price)** field.
+* For price calculation, it's important to have a value in the **Default Customer Template** field. For more information, see [Setup taxes](setup-taxes.md).
 * Enter a **Currency Code** if your online shop uses different currency than LCY. The specified currency must have exchange rates configured. If your online shop uses same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty.
 * When determining a price, [!INCLUDE[prod_short](../includes/prod_short.md)] uses "Lowest price" logic. It means that if unit price defined in the item card is lower than what is defined in the price group, the unit price from the item card is used.
 

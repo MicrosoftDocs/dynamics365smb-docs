@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, partial deliveries, customer sales order
+ms.search.keywords: trade, partial deliveries, customer sales order, shipping advice, partial shipments, 
 ms.search.form: 42, 48, 9305
 ms.date: 01/19/2022
 ms.author: edupont
@@ -22,7 +22,7 @@ When you deliver the products, either fully or partially, you post the sales ord
 
 In business environments where the customer pays immediately, for example by PayPal or cash, payment is recorded immediately when you post the sales order as invoiced, that is, the posted sales invoice is closed as fully applied. You select the relevant method in the **Payment Method Code** field on the sales order. See under step 8. For electronic payments, such as PayPal, you must also fill in the **Payment Service** field. For more information, see [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md).
 
-You can even create directly-paid orders for non-registered customers by first setting up a "cash customer" card, which you point to on the sales order. For more information, see [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md).
+You can even create directly paid orders for non-registered customers by first setting up a "cash customer" card, which you point to on the sales order. For more information, see [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md).
 
 ## Create a sales order
 
@@ -76,6 +76,9 @@ You can even create directly-paid orders for non-registered customers by first s
 
     If you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the **Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Inv. Discount Amount Excl. Tax** field. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 12. To only ship a part of the order quantity, enter that quantity in the **Qty. to Ship** field. The value is copied to the **Qty. to Invoice** field.
+
+    > [!NOTE]
+    > If the **Shipping Advice** field is set as **Complete** in the **Shipping and Billing** FastTab, partial shipments will be disabled. For more information, see [Process Partial Shipments](sales-how-send-partial-shipments.md).
 13. To only invoice a part of the shipped quantity, enter that quantity in the **Qty. to Invoice** field. The quantity must be lower than the value in the **Qty. to Ship** field.  
 14. When the sales order lines are completed, choose the **Post and Send** action.
 
@@ -100,6 +103,7 @@ The related item and customer ledger entries are now created in your system, and
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Print the Picking List](sales-how-print-picking-list.md)  
+[Process Partial Shipments](sales-how-send-partial-shipments.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

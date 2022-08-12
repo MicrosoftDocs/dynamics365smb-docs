@@ -2,8 +2,6 @@
 title: Register New Customers by Creating a Customer Card (contains video)
 description: Describes how to create a customer card to register information about each new customer or client that you sell to.
 author: SorenGP
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -24,7 +22,7 @@ Before you can register new customers, you must set up various sales codes that 
 
 ## Adding new customers
 
-You can add new customers manually, by filling out the fields on the **Customer Card** page, or you can use templates that contain predefined information. For example, you can create a templates for different types of customer profiles. Using templates saves time when adding new customers, and helps ensure that the information is correct each time. If you create templates for more than one type of customer, you can choose the template to use when you add a customer. If you create only one template it will be used for all new customers. After you create a template, you can use the **Apply Template** action to apply it to one or more selected customers. To create a template, you fill in the information that you want to reuse on the Customer Card page, and then save it as a template. For more information, see [To save the customer card as a template](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
+You can add new customers manually, by filling out the fields on the **Customer Card** page, or you can use templates that contain predefined information. For example, you can create templates for different types of customer profiles. Using templates saves time when adding new customers, and helps ensure that the information is correct each time. If you create templates for more than one type of customer, you can choose the template to use when you add a customer. If you create only one template, it will be used for all new customers. After you create a template, you can use the **Apply Template** action to apply it to one or more selected customers. To create a template, you fill in the information that you want to reuse on the Customer Card page, and then save it as a template. For more information, see [To save the customer card as a template](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
 > [!TIP]
 > It can be helpful to personalize the **Customer Template** page when you create a template. For example, you might want to add the **Credit Limit** field to a template. For more information, see [Personalize Your Workspace](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
@@ -85,6 +83,7 @@ You can choose not to have warnings telling you that the customer's credit limit
 [Defining Payment Methods](finance-payment-methods.md)  
 [Merge Duplicate Records](sales-how-merge-duplicate-records.md)  
 [Create Number Series](ui-create-number-series.md)  
+[Enable Partial Shipments with Shipping Advice](sales-how-send-partial-shipments.md)  
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -13,3 +13,13 @@ ms.author: edupont
 - What's an environment?
 
   Companies in [!INCLUDE[prod_short](prod_short.md)] online exist in what are referred to as *environments*. There are two types of environments, **Production** and **Sandbox**. In short, production environments contain live business data, and sandbox environments are used as a safe place to test things like new business processes or features. For more information, see [Types of environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments) (in English only). If you have access to a company, you have access to the environment it's in. If you have access to more than one company, and those companies are in different environments, when you sign in to [!INCLUDE[prod_short](prod_short.md)] you must specify the environment that you want to work in. Environments are particular to a given country, so if your organization works in multiple countries, you need separate environments for each country. For more information, see [Environments and companies](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology#environments-and-companies) (in English only).
+
+
+## test
+
+- vvvrb
+
+  fvfbfb
+- vwevwev
+- vrvrevre
+S

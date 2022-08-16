@@ -129,6 +129,18 @@ Sometimes a bank statement contain amounts for interest or fees charged. Such ba
 6. Refresh or reopen the **Bank Acc. Reconciliation** page. The new ledger entry will appear in the **Bank Account Ledger Entries** pane.
 7. Match the bank statement line with the bank account ledger entry, either manually or automatically.
 
+## Find outstanding transactions previous periods
+You can use the Bank Statement report to find outstanding transactions in previous periods. These are transactions that were opened before the statement date and have not been closed, or were closed after the bank reconciliation was posted.
+
+When you run the Bank Statement report from the Bank Statement List page, you can turn on the **Outstanding Entries** toggle and the report will include a section that lists outstanding entries.
+
+**Example**
+We have bank account ledger entries A, B, and C in our bank account for the month of August. When we reconcile our bank account for August we only find a bank statement line that matches entry A, so we post the reconciliation with entry A reconciled and B and C as outstanding entries.
+
+In September, we receive a payment for entry B and decide to reconcile our bank account. If we run the Bank Statement report before we post the reconciliation we'll have one reconciled transaction and one outstanding.
+
+If we print the report for August we'll have outstanding transactions for entries B and C, even though we closed entry B in September.
+
 ## Undo a bank account reconciliation
 If you discover a mistake in a posted bank reconciliation, you can use the **Undo** action on the **Bank Acc. Statement** page to correct the mistake. When you undo a posted bank reconciliation, the entries will be moved to the **Bank Reconciliation** page and marked as **Open**, meaning they are not reconciled. You can then correct the bank reconciliation and post it again.
 

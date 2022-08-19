@@ -90,7 +90,7 @@ Fill in the **Customer Template Code** field on the **Shopify Shop Card** window
 
 ### Importing data to your Shopify shop isn't enabled. Go to the shop card to enable it.
 
-On the **Shopify Shop Card**, turn on the **Allow Data Sync to Shopify** toggle.  This toggle is intended to protect the online shop from getting demo data from [!INCLUDE[prod_short](../includes/prod_short.md)].
+On the **Shopify Shop Card** window, turn on the **Allow Data Sync to Shopify** toggle.  This toggle is intended to protect the online shop from getting demo data from [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## See also
 

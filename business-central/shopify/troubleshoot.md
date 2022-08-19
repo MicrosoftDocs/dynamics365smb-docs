@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting the Shopify and Business Central synchronization
 description: Learn what to do if something went wrong during the synchronization of data between Shopify and Business Central
-ms.date: 05/16/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
@@ -81,6 +81,16 @@ The following procedures describe how to to rotate the access token used by the 
 2. Select the shop for which you want to rotate the access token to open the **Shopify Shop Card** page.
 3. Choose the **Request Access** action.
 4. If prompted, sign-in into your Shopify account, review privacy and permissions, and then choose the **Install App** button.
+
+## Known issues
+
+### Gen. Bus. Posting Group must have a value in Customer. It cannot be zero or empty.
+
+Fill in the **Customer Template Code** field on the **Shopify Shop Card** window with the template that has **Gen. Bus. Posting Group** populated. Customer template is used not only for creation of customers, but also for calculation of sales price and during creation of sales documents.
+
+### Importing data to your Shopify shop isn't enabled. Go to the shop card to enable it.
+
+On the **Shopify Shop Card**, turn on the **Allow Data Sync to Shopify** toggle.  This toggle is intended to protect the online shop from getting demo data from [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## See also
 

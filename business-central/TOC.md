@@ -296,6 +296,7 @@
 #### [Block Customers](receivables-how-block-customers.md)
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md)
+#### [Sales Tax in the Default Version of Business Central](sales-tax-concept.md)
 
 ### Manage Payables
 #### [Payables Overview](payables-manage-payables.md)

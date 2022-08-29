@@ -5,6 +5,7 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
+ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135, 
 author: AndreiPanko
 ms.author: andreipa
 ---
@@ -21,26 +22,26 @@ The Shopify connector includes the following capabilities:
 - Bi-directional synchronization of items or products  
 
   - The connector will sync images, item variants, barcodes, vendor item numbers, extended texts, and tags.  
-  -	Export item attributes to Shopify.  
-  -	Use selected customer price groups and discounts to define prices exported to Shopify.  
-  -	Decide whether items can be created automatically or only allow updates to existing products.  
+  -    Export item attributes to Shopify.  
+  -    Use selected customer price groups and discounts to define prices exported to Shopify.  
+  -    Decide whether items can be created automatically or only allow updates to existing products.  
 - Synchronization of inventory levels  
 
-  -	Choose some or all of the available locations in [!INCLUDE [prod_short](../includes/prod_short.md)].  
-  -	Update inventory levels on multiple locations in Shopify.  
+  -    Choose some or all of the available locations in [!INCLUDE [prod_short](../includes/prod_short.md)].  
+  -    Update inventory levels on multiple locations in Shopify.  
 - Bi-directional synchronization of customers  
 
-  -	Smart-map customers by phone and email.  
-  -	Use country-specific templates when creating customers, which helps ensure that tax settings are correct.  
+  -    Smart-map customers by phone and email.  
+  -    Use country-specific templates when creating customers, which helps ensure that tax settings are correct.  
 - Import of orders from Shopify  
 
-  -	During the import, you can automatically create customers in [!INCLUDE [prod_short](../includes/prod_short.md)] or decide to manage the customers in Shopify.  
-  -	Include orders created in other channels, such as Shopify POS or Amazon.  
-  -	Shipping costs, gift cards, tips, shipping and payment methods, transactions, and risk of fraud.  
+  -    During the import, you can automatically create customers in [!INCLUDE [prod_short](../includes/prod_short.md)] or decide to manage the customers in Shopify.  
+  -    Include orders created in other channels, such as Shopify POS or Amazon.  
+  -    Shipping costs, gift cards, tips, shipping and payment methods, transactions, and risk of fraud.  
   - Receive payout information from Shopify Payments.  
 - Easy tracking of fulfillment information  
 
-  -	Optionally choose to write item tracking information from [!INCLUDE [prod_short](../includes/prod_short.md)] into Shopify.  
+  -    Optionally choose to write item tracking information from [!INCLUDE [prod_short](../includes/prod_short.md)] into Shopify.  
 
 To use Shopify with [!INCLUDE [prod_short](../includes/prod_short.md)], you have a couple of things to do first. This article serves as a guide to complete the integration of your Shopify store with [!INCLUDE [prod_short](../includes/prod_short.md)].
 

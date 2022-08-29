@@ -4,6 +4,7 @@ description: Import customers from or export to Shopify
 ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
+ms.search.form: 30105, 30106, 30107, 30108, 30109, 
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen

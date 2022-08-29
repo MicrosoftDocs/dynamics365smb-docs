@@ -2,13 +2,12 @@
 title: Set up and generate DIOT reports | Microsoft Docs
 description: Use this extension to setup and generate DIOT declarations in Business Central for the Mexican authorities.
 author: sorenfriisalexandersen
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: extension, diot, authorities, export, compliance
+ms.search.keywords: extension, diot, authorities, export, compliance
+ms.search.form: 27030, 27031, 27032, 27033, 27034
 ms.date: 06/24/2021
 ms.author: soalex
 
@@ -18,13 +17,16 @@ ms.author: soalex
 
 As a company in Mexico, you must report VAT from vendor purchases to the Mexican government, to SAT - Servicio de Administración Tributaria. This can be done in [!INCLUDE[prod_short](../../includes/prod_short.md)] by generating a file that can be uploaded to SAT. This topic describes how to set up the functionality and generate the report. The DIOT (Declaración Informativa de Operaciones con Terceros) report functionality is created as an extension (app) for [!INCLUDE[prod_short](../../includes/prod_short.md)] and is preinstalled in the online version but must be installed manually in the on-premises version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
-## What Does this Extensions Handle?
+## What does this extension hHandle?
+
 The extension provides the following capabilities:
+
 * Setup of the DIOT-related information
 * Vendor settings
 * Export the DIOT report so it can be uploaded to the authorities
 
-## Setup of the Mexican DIOT Extension
+## Setup of the Mexican DIOT extension
+
 You set up the DIOT extension through Assisted Setup, which provides an easy, step-by-step guide for getting started with DIOT in [!INCLUDE[prod_short](../../includes/prod_short.md)]. If needed, you can run the guide several times until the setup is completed.
 
 1. In [!INCLUDE[prod_short](../../includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.  
@@ -49,19 +51,21 @@ You set up the DIOT extension through Assisted Setup, which provides an easy, st
     The setup of DIOT is now finished.
 9. Choose the **Finish** button.
 
-> [!Note]
-> Note that for the DIOT report, the vendor’s operation type will be used for all operations with that vendor unless you specifically change the value of the **DIOT Type Of Operation** in the document before you post it. The DIOT operation type for the vendor is not passed on to purchase documents automatically. If you want to use a type other than the one that is specified for the vendor, change the field on the purchase document manually.
+> [!NOTE]
+> Note that for the DIOT report, the vendor's operation type will be used for all operations with that vendor unless you specifically change the value of the **DIOT Type Of Operation** in the document before you post it. The DIOT operation type for the vendor is not passed on to purchase documents automatically. If you want to use a type other than the one that is specified for the vendor, change the field on the purchase document manually.
 
-## Optional Setup for Reporting Witholding Tax with the DIOT Extension
-The DIOT report exports data including witholding tax amounts for vendor transactions. Calculation of witholding tax is currently not supported in the Mexican version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. To work around this, you can post extra lines to a predefined general ledger account. The DIOT extension supports reporting witholding tax data in the following way:
+## Optional setup for reporting withholding tax with the DIOT extension
+
+The DIOT report exports data including withholding tax amounts for vendor transactions. Calculation of withholding tax is currently not supported in the Mexican version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. To work around this, you can post extra lines to a predefined general ledger account. The DIOT extension supports reporting withholding tax data in the following way:
 
 The **VAT Posting Setup** table has a new field, **DIOT WHT %**. By setting this field to a value other than zero, you indicate that all entries posted with this setup are to be considered as if they were posted with that amount of VAT withheld.
 
-For example, if you have transactions that are supposed to be 10% VAT and 5% witholding tax, use a posting setup where the **VAT %** field contains *10* and the **DIOT WHT %** field contains *5*.  
+For example, if you have transactions that are supposed to be 10% VAT and 5% withholding tax, use a posting setup where the **VAT %** field contains *10* and the **DIOT WHT %** field contains *5*.  
 
-This field will only affect the DIOT report calculations and not the actual posting of the lines/entries/documents, so you must continue the existing workaround that you may have for calculating witholding tax, regardless of setting up the DIOT Report extension.
+This field will only affect the DIOT report calculations and not the actual posting of the lines/entries/documents, so you must continue the existing workaround that you may have for calculating withholding tax, regardless of setting up the DIOT Report extension.
 
-### To create an export of DIOT report files  
+### To create an export of DIOT report files
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png) "Tell me what you want to do") icon, enter **Create DIOT Report**, and then choose the related link.  
 2. On the **Create DIOT report** request page, set the **Starting Date** and **Ending Date** fields to represent the period for which you wish to report.
 3. Choose the **OK** button.
@@ -70,9 +74,9 @@ This field will only affect the DIOT report calculations and not the actual post
 
 When the report runs without errors, you will be prompted to save the file **Diot.txt**, which you can then send to authorities.
 
-## See Also
-[Customizing [!INCLUDE[prod_short](../../includes/prod_short.md)] Using Extensions](../../ui-extensions.md)  
-[Getting Ready for Doing Business](../../ui-get-ready-business.md)
+## See also
 
+[Customizing [!INCLUDE[prod_short](../../includes/prod_short.md)] Using Extensions](../../ui-extensions.md)  
+[Getting Ready for Doing Business](../../ui-get-ready-business.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

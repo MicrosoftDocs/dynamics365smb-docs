@@ -2,13 +2,11 @@
 title: Norwegian VAT Reporting [NO]
 description: Norwegian enhancements in Business Central allow you to calculate and report VAT to the Norwegian tax authorities.
 author: edupont04
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 737, 738, 743, 10601, 10604
+ms.search.form: 737, 738, 743, 10601, 10604, 10692 ,10696
 ms.date: 05/12/2022
 ms.author: edupont
 
@@ -72,7 +70,7 @@ After you register your company in ID-Porten, the next step is to create an inte
 
 :::image type="content" source="../../media/nor-vat-return-integration-point.png" alt-text="Integration point settings for Norwegian VAT":::
 
-### Set Up Electronic VAT Reporting
+### Set up electronic VAT reporting
 
 To make it easier to set up VAT reporting, [!INCLUDE[prod_short](../../includes/prod_short.md)] provides the **Set up an electronic VAT submission** assisted setup guide. 
 
@@ -100,7 +98,7 @@ To make it easier to set up VAT reporting, [!INCLUDE[prod_short](../../includes/
 > [!NOTE]
 > In addition to the settings described above, we automatically create a VAT report configuration for submitting returns and getting responses. You can view the configuration on the **VAT Reports Configuration** page.
 
-### VAT Report Setup
+### VAT report setup
 
 1. To set up a VAT report, choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report Setup**, and then choose the related link.  
 2. On the **General** FastTab, to let users modify VAT reports that have been submitted to the tax authorities, select the **Allow Modification** field.  
@@ -114,7 +112,7 @@ To make it easier to set up VAT reporting, [!INCLUDE[prod_short](../../includes/
 6. On the **Return Period** and **VAT Group Management** FastTabs, specify the relevant information.  
 7. Choose the **OK** button.  
 
-## Create and Submit a VAT Return
+## Create and submit a VAT return
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Returns**, and then choose the related link.
 2. Choose the **New** action.
@@ -132,13 +130,13 @@ To make it easier to set up VAT reporting, [!INCLUDE[prod_short](../../includes/
    > [!NOTE]
    > If you have selected the **Report VAT Note** option in the **VAT Report Setup** page, then the **Note** field is visible and editable in the **VAT Return** page. Users can specify any free text there. The value of the **Note** field will be included in the submission message.  
 
-## Troubleshoot Your Connection to ID-Porten
+## Troubleshoot your connection to ID-Porten
 
 If you don't receive a response after you submit your return, such as within 24 hours, contact ID-Porten and ask them to verify that they received your return. To help them identify your return, you can send the value from the Message ID field. By default, the field is hidden, but you can use page inspection to get the value. For more information, see [Inspecting Pages in Business Central](../../across-inspect-page.md).  
 
 You can also send a copy of the XML files for your submission and the response you received. To get the files, on the **VAT Return** page, choose the **Download Submission Message** and **Download Response Message** actions.  
 
-## <a name="vat-periods"></a>Close VAT Periods
+## <a name="vat-periods"></a>Close VAT periods
 
 To align with legal requirements, VAT periods are to be closed after settling. Normally, a fiscal year consists of six VAT periods, numbered 1 to 6. When the VAT is settled, the period is closed for further posting.  
 
@@ -151,7 +149,7 @@ You can view information about settled periods in the **Settled VAT Period** pag
 
 Before January 2022, you used the **Tradesettlement** report to report VAT. This report is no longer described in this article, but you can read about it in the [Dynamics NAV 2016 documentation archive](/previous-versions/dynamicsnav-2016/dn283106(v=nav.90)).  
 
-## See Also
+## See also
 
 [Norwegian VAT Codes](norwegian-vat-codes.md)  
 [Proportional VAT](proportional-vat.md)  

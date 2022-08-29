@@ -4,6 +4,7 @@ description: Set up and run synchronizations of items between Shopify and Busine
 ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
+ms.search.form: 30116, 30117, 30126, 30127, 
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen

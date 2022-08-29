@@ -4,6 +4,7 @@ description: Set up and run import and processing of sales order from Shopify.
 ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
+ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30124, 30125, 30128, 30129, 30130, 30131, 30132, 30133, 30134, 
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen

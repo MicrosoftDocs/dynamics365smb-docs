@@ -2,13 +2,12 @@
 title: The Image Analyzer Extension
 description: This extension lets you analyze images of contact persons and items to find attributes, so you can quickly assign them in Business Central.
 author: brentholtorf
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
+ms.search.form: 2026, 2027, 2029, 
 ms.date: 05/19/2021
 ms.author: bholtorf
 
@@ -24,7 +23,7 @@ Image Analyzer is free in [!INCLUDE[prod_short](includes/prod_short.md)], but th
 
 After you enable the extension, Image Analyzer runs each time you import an image to an item or contact person. You will see the attributes, confidence level, and details right away, and can decide what to do with each attribute. If you imported images before you enabled the Image Analyzer extension, you must go to the item or contact cards and choose the **Analyze Picture** action.  
 
-## Privacy Notice
+## Privacy notice
 
 This extension uses the Computer Vision API from Azure Cognitive Services, which may have varying levels of compliance commitments than [!INCLUDE[prod_short](includes/prod_short.md)]. When you enable the Image Analyzer extension, Customer Data such as a contact image or an item image will be sent to the Computer Vision API. By installing this extension, you agree for this limited set of data to be sent to the Computer Vision API. Note that you may disable, as well as uninstall, the Image Analyzer extension at any time to discontinue use of this functionality. For more information, see [Microsoft Trust Center](https://go.microsoft.com/fwlink/?linkid=851463).
 
@@ -121,13 +120,12 @@ You can view the number of analyses you've done, and how many you can still do, 
 
 Alternatively, uninstall the extension completely. You can always fetch it again from AppSource. For more information, see [Installing and Uninstalling Extensions in Business Central](ui-extensions-install-uninstall.md#uninstall-an-extension).  
 
-## See Also
+## See also
 
 [Work with Item Attributes](inventory-how-work-item-attributes.md)  
 [Categorize Items](inventory-how-categorize-items.md)  
 [Use Profile Questionnaires to Classify Business Contacts](marketing-create-contact-profile-questionnaire.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

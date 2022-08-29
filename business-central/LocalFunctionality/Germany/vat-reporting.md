@@ -1,16 +1,15 @@
 ---
-    title: VAT Reporting in the German version
-    description: You can report VAT electronically to the tax authorities in the German version.
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+title: VAT Reporting in the German version
+description: You can report VAT electronically to the tax authorities in the German version.
+author: SorenGP
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.search.form: 11016, 11017, 11019, 11025, 11026, 11027, 11028
+ms.date: 04/01/2021
+ms.author: edupont
 
 ---
 # VAT Reporting in the German version
@@ -25,11 +24,11 @@ You can print the following local VAT reports.
 |**Sales VAT Adv. Not. Acc. Proof**|Confirms that entries in the VAT statement form are also posted in general ledger accounts.<br /><br /> To verify VAT in sales VAT advance notifications, select the same settings for the VAT statement form and the sales VAT advance notification.|  
 |**VAT Statement Schedule**|This report can be retrieved from the **VAT Statement** page.<br /><br /> Prints the settings in the VAT statement. Using this report, you can print the characteristics of the **Sales VAT Adv. Not. Acc. Proof**.|  
 
-## See Also  
+## See also
+
 [Sales VAT Advance Notifications](how-to-set-up-and-export-sales-vat-advance-notifications.md)  
 [Report VAT to the Tax Authorities](../../finance-how-report-vat.md)  
 [Work with VAT on Sales and Purchases](../../finance-work-with-vat.md)  
-[Set Up Reports for VAT and Intrastat](how-to-set-up-reports-for-vat-and-intrastat.md)
-
+[Set Up Reports for VAT and Intrastat](how-to-set-up-reports-for-vat-and-intrastat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

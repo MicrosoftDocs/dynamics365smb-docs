@@ -2,7 +2,6 @@
 title: Czech Local Functionality [CZ]
 description: The following topics describe the local functionality and features for the Czech version of Business Central.
 author: v-pejano
-
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
@@ -15,7 +14,7 @@ ms.author: v-pejano
 
 The following topics describe the local functionality in the Czech version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
-## Feature Availability
+## Feature availability
 
 * [Core Localization Pack for Czech (Extension)](ui-extensions-core-localization-pack-cz.md) **Available Now**
 * [Advanced Localization Pack for Czech (Extension)](ui-extensions-advanced-localization-pack-cz.md) **Available Now**
@@ -53,12 +52,11 @@ The following topics describe the local functionality in the Czech version of [!
 * Inventory
   * [Inventory](inventory.md) **Available Now**
 
-## See Also
+## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

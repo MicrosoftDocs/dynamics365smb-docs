@@ -1,5 +1,5 @@
 ---
-title: Using Business Central Apps in Power BI| Microsoft Docs
+title: Use the Business Central apps in Power BI
 description: Getting insight, business intelligence, and KPIs from your Business Central data is easy with the Business Central apps for Power BI.
 author: jswymer
 

@@ -1,4 +1,4 @@
-﻿# [Welcome to Business Central](index.md)
+﻿# [Welcome to Business Central](index.md)  
 # [New and Planned](product-news.md)
 # Get Started
 ## [Overview of Business Functionality](across-business-functionality.md)
@@ -225,6 +225,7 @@
 ### [Work with General Journals](ui-work-general-journals.md)
 ### [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ### [Let Business Central Suggest Values](ui-let-system-suggest-values.md)
+### [Use Online Maps to Find Locations and Directions](across-online-maps.md)
 
 ### Incoming Documents
 #### [Incoming Documents Overview](across-income-documents.md)
@@ -1635,6 +1636,7 @@
 ### [Create Number Series](ui-create-number-series.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
 ### [Set Up Printers](ui-specify-printer-selection-reports.md)
+### [Set Up Online Maps](across-online-maps-setup.md)
 ### [Get Business Central on Your Mobile Device](install-mobile-app.md)
 ### [Get Business Central on Your Desktop](install-desktop-app.md)
 <!--Reporting landing page-->

@@ -82,7 +82,7 @@
 ##### [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
 ##### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  
 ##### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
-#### Design Details: Item Tracking 
+#### Design Details: Item Tracking
 ##### [Item Tracking Design Details](design-details-item-tracking.md)
 ##### [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
 ##### [Design Details: Item Tracking Posting Structure](design-details-item-tracking-posting-structure.md)  

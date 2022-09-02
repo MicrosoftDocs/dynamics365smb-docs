@@ -2,8 +2,6 @@
     title: India Local Functionality | Microsoft Docs
     description: This section describes local functionality in India.
     author: v-debapd
-
-    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -15,10 +13,9 @@
 ---
 # India Local Functionality
 
-
 The following topics describe the local functionality in the Indian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Feature Availability
+## Feature availability
 
 * Tax Engine
     * [Overview](TaxEngine-001-Overview.md) **Available Now**
@@ -28,7 +25,6 @@ The following topics describe the local functionality in the Indian version of [
     * [Tax Engine Lookup](TaxEngine-004-Lookup.md) **Available Now**
     * [Tax Engine Design Consideration](TaxEngine-006-Design-Consideration.md) **Available Now**
     * [Tax Engine Script](TaxEngine-005-Script-Activities.md) **Available Now**
-   
 
 * GST
     * [GST Overview](GST-001-Basic-Setup.md) **Available Now**
@@ -69,12 +65,12 @@ The following topics describe the local functionality in the Indian version of [
     * [GST Credit and Liability Adjustment](GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice.md) **Available Now**
     * [GST Reconciliation](GST-Reconciliation.md) **Available Now**
     * [GST E-Way Bill](GST-E-Way-Bill.md) **Available Now**  
-    * [GST Input Cedit Adjustment](GST-Input-Tax-Credit-Adjustment.md) **Available Now**
-    * [GST Settelement](GST-Settelement.md) **Available Now**
+    * [GST Input Credit Adjustment](GST-Input-Tax-Credit-Adjustment.md) **Available Now**
+    * [GST Settlement](GST-Settelement.md) **Available Now**
     * [GST E-Invoice](GST-E-Invoice.md) **Available Now**
     * [GST Cess Basic Setup](GST-Cess-Basic-Setup.md) **Available Now**
     * [GST Cess Calculation](GST-Cess-Calculations.md) **Available Now**
-    * [GST on Serviec Management](GST-Service-Management.md) **Available Now**
+    * [GST on Service Management](GST-Service-Management.md) **Available Now**
     * [GST Input Service Distribution Overview](GST-Input-Service-Distribution-Overview.md) **Available Now**
     * [GST Input Service Distribution Process](GST-Input-Service-Distribution-Process.md) **Available Now**
     * [GST Input Service Distribution Transaction](GST-Input-Service-Distribution-Transaction.md) **Available Now**
@@ -103,7 +99,6 @@ The following topics describe the local functionality in the Indian version of [
     * [TCS 206C-1H-Overview](TCS-206C-1H-Overview.md) **Available Now**
     * [TCS 206C-1H-Transaction](TCS-206C-1H-Transactions.md) **Available Now**
 
-
 * Voucher Interface
     * [Voucher Interface Overview](Vouche-Interface-Overview.md) **Available Now**
     * [Voucher Interface Transaction](Voucher-Interface-Transactions.md) **Available Now**  
@@ -122,19 +117,17 @@ The following topics describe the local functionality in the Indian version of [
     * [Subcontracting Transactions](Subcontracting-Transactions.md) **Available Now**
     * [Create GST Liability](Subcontracting-Create-GST-Liability.md) **Available Now**
     * [Subcontracting Report](Subcontracting-Reports.md) **Available Now**
-    
-    
+
 * Stale Cheque
     * [Stale Cheque](Stale-Check.md) **Available Now**
 
 * Upgrade from an India Version of Dynamics NAV 2016 to the Latest Version of Business Central
     * [Business Central IN Data Migration Toolkit](/dynamics365/business-central/dev-itpro/upgrade/india-data-migration-toolkit-overview) **Available Now**
 
+## See also
 
-## See Also
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

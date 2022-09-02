@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
-ms.date: 03/24/2022
+ms.date: 08/26/2022
 ms.author: bholtorf
 
 ---
@@ -54,9 +54,11 @@ The following table describes the posting groups that are specific to types of d
 
 ### Allowing substitute customer or vendor posting groups on documents
 
+[!INCLUDE [preview](includes/preview.md)]
+
 You can let people choose a different customer and vendor posting groups than the defaults when they're working with sales or purchase documents and journals.
 
-To allow changes to customer posting groups, choose **Allow Alteration of Posting Group** on the **Sales & Receivable Setup** and **Service Mgt. Setup** pages, and the **Purchase & Payables Setup** page for vendor posting group changes.
+To allow changes to customer posting groups, choose **Allow Multiple Posting Groups** on the **Sales & Receivable Setup** and **Service Mgt. Setup** pages, and the **Purchase & Payables Setup** page for vendor posting group changes.
 
 On the **Customer Posting Groups** or **Vendor Posting Groups** pages, you can specify the posting groups to allow as substitutes by choosing **Substitutions**. Substitute posting groups can replace the default customer or vendor posting groups specified for a customer or vendor.
 

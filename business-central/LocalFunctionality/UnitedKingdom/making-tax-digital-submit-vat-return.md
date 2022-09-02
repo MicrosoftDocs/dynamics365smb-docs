@@ -1,14 +1,13 @@
 ---
-title: 'Making Tax Digital - Submitting VAT Returns'
+title: Making Tax Digital - Submitting VAT Returns
 description: Business Central includes features to manage your VAT and comply with Making Tax Digital. This article describes how to set up and use these features.
 author: sorenfriisalexandersen
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: making tax digital, vat, vat return, submit vat, making tax digital software, hmrc, tax
-ms.search.form: 10539, 743
+ms.search.form: 743, 10530, 10531, 10532, 10537, 10538, 10539, 
 ms.date: 02/16/2022
 ms.author: soalex
 
@@ -26,7 +25,7 @@ Since 2021, the electronic statements must also include information that helps p
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] supports Making Tax Digital and the GovTalk service.
 
-## Making Tax Digital for VAT Capabilities in Dynamics 365 Business Central
+## Making Tax Digital for VAT capabilities in Dynamics 365 Business Central
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)] you can use the VAT Return report for creating VAT reports. The Making Tax Digital VAT features extend this capability to communicate with HMRC. For example, the Making Tax Digital VAT extension lets you:
 
@@ -41,13 +40,13 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)] you can use the VAT Retu
 
 The *Making Tax Digital* integration uses a service connection to communicate with HMRC. To make it easy to establish communications, [!INCLUDE[prod_short](../../includes/prod_short.md)] provides the **HMRC VAT Setup** service connection, which contains most of the information needed to communicate with HMRC. To finish the connection, you must give the **Dynamics 365 Business Central MTD VAT** application the authority to interact with HMRC on your behalf. Microsoft manages the **Dynamics 365 Business Central MTD VAT** application on the HMRC web site, and the application is a requirement for the connection. You give permission by requesting an authorization code from HMRC, and then copying the code to the service connection. The following steps describe how to set up the service connection.  
   
-> [!Note]
+> [!NOTE]
 > If you are using [!INCLUDE [prod_short](../../includes/prod_short.md)] on-premises, there are some additional steps to set up the features for Making Tax Digital. In [!INCLUDE [prod_short](../../includes/prod_short.md)] online, these happen automatically. For more information, see the [Additional Setup Requirements for On-Premises Versions](#additional-setup-requirements-for-on-premises-versions) section.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose the related link.  
 2. On the **Service Connections** page, choose **HMRC VAT Setup**.
 
-    > [!Note]
+    > [!NOTE]
     > If you use [!INCLUDE[prod_short](../../includes/prod_short.md)] on-premises, you must also provide a client ID and client secret. If you are not sure what these are, contact your partner.  
 
 3. To open a GOV.UK website and request an authorization code, choose **Process**, then **Request Authorization Code**, and then choose **Continue**.  
@@ -55,7 +54,7 @@ The *Making Tax Digital* integration uses a service connection to communicate wi
 5. A confirmation page displays "Authorization granted" and an authorization code. To copy the authorization code, choose **Copy**.
 6. Return to the service connection you are setting up, and paste the authorization code in the **Enter Authorization Code** field. Then choose **Enter**. Note, that the authorization code is valid for 10 minutes and must be entered into [!INCLUDE[prod_short](../../includes/prod_short.md)] before expiry in order to set up the connection correctly.
 
-    > [!Note]
+    > [!NOTE]
     > [!INCLUDE[prod_short](../../includes/prod_short.md)] will use the authorization code to test whether the service connection can communicate with HMRC. If the connection is successful, a confirmation page prompts you to verify your VAT registration number. To open the **Company Information** page and verify the number is correct, and the one you have used to register with HMRC, choose **Yes**.
 
 You must also fill in the fields on the **VAT Report Setup** page. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] For more information, see [Set up VAT reporting](../../finance-setup-vat.md#set-up-vat-reporting).  
@@ -63,7 +62,7 @@ You must also fill in the fields on the **VAT Report Setup** page. [!INCLUDE [to
 > [!IMPORTANT]
 > Starting in March 2022, the **User IP Address Service** must specify an endpoint for the service that your company uses to extract and submit the IP address of the user who sends the VAT report. For more information, see [IP addresses](fraud-prevention-data.md#ip-addresses).
 
-### Additional Setup Requirements for On-Premises Versions
+### Additional setup requirements for on-premises versions
 
 1. You must add a VAT report configuration on the **VAT Reports Configuration** page.  
   
@@ -84,7 +83,7 @@ You must also fill in the fields on the **VAT Report Setup** page. [!INCLUDE [to
     e. Optional: If you want to automatically update the information about VAT obligations, specify how often to do so in the **Update Period Job Frequency** field, and then specify codeunit **10535** in the **Auto Receive Codeunit ID** field.  
     f. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
-## VAT Obligations
+## VAT obligations
 
 HMRC maintains a list of VAT obligations for companies, which are the periods for which they must report VAT and the due date for the report. HMRC exposes this information through their APIs, which enables [!INCLUDE[prod_short](../../includes/prod_short.md)] to retrieve the obligations. [!INCLUDE[prod_short](../../includes/prod_short.md)] stores VAT obligations as **VAT Return Periods**, and uses them to:
 
@@ -109,7 +108,7 @@ Use this report to submit VAT for sales and purchase documents, such as purchase
 ### To create and submit a VAT return
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
-2. On the **VAT Return Periods** page, choose the relvant period, and then choose the **Create VAT Return** action.
+2. On the **VAT Return Periods** page, choose the relevant period, and then choose the **Create VAT Return** action.
 3. If you want to open the VAT return, on the confirmation page, choose **Yes**.
 4. On the **VAT Return** page, to calculate and prepare the amounts for the VAT return, choose **Process**, and then choose the **Suggest Lines** action.  
 5. Fill in the fields as necessary, and then choose the **OK** button. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
@@ -120,13 +119,13 @@ Use this report to submit VAT for sales and purchase documents, such as purchase
 
 A successful submission of the VAT Return will result in a status of *Accepted* on the VAT Return. This status is based on the submission result at the HMRC. If the status after submission is not set to *Approved*, a previously submitted VAT Return can be retrieved from the HMRC.
 
-### To receive previously submitted VAT Returns from HMRC
+### To receive previously submitted VAT returns from HMRC
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
 2. On the **VAT Return Periods** page, choose the relevant VAT return period.
 3. On the **VAT Return Period Card** page, choose the **Receive Submitted VAT Returns** action.
 
-## VAT Liabilities and Payments
+## VAT liabilities and payments
 
 If you want to check the status of your VAT, you can retrieve information from HMRC about your VAT liabilities and payments. VAT liabilities are the amounts that you owed to HMRC, and show if there are outstanding amounts to be paid. VAT payments are the actual payments your company has made to HMRC.
 
@@ -167,7 +166,7 @@ Due to a limitation at HMRC, it is not possible to send test submissions of VAT 
 
 Certain online documentation at HMRC refers to the term *Sandbox*. This term refers to an environment for software developers such as Microsoft and others for testing their features during development. This environment is not intended for customer testing, and it is unrelated to [!INCLUDE[prod_short](../../includes/prod_short.md)] sandboxes.
 
-## See Also
+## See also
 
 [Send Fraud Prevention Data](fraud-prevention-data.md)  
 [United Kingdom Local Functionality](united-kingdom-local-functionality.md)  

@@ -2,12 +2,11 @@
 title: Microsoft Pay Standard
 description: The Microsoft Pay extension adds a Microsoft Pay link to your sales documents so customers can easily pay using Microsoft Pay.
 author: SorenGP
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 1080, 1081, 1083, 1085, 1087, 1089
 ms.date: 04/01/2021
 ms.author: edupont
 
@@ -26,7 +25,7 @@ ms.author: edupont
 
 Customers continuously require higher customer service, both in terms of the quality of product but also in terms of delivery and payment services. The Microsoft Pay service helps you increase your customer service.
 
-The Microsoft Pay extension adds a Microsoft Pay link to your sales documents so customers can easily pay using Microsoft Pay. Then you can send the documents by email to provide higher customer service and shorten the time it takes for customers’ payments to arrive on your bank account.
+The Microsoft Pay extension adds a Microsoft Pay link to your sales documents so customers can easily pay using Microsoft Pay. Then you can send the documents by email to provide higher customer service and shorten the time it takes for customers' payments to arrive on your bank account.
 
 The Microsoft Pay extension provides the following benefits:
 - Customer payments appear faster on your bank account.
@@ -38,10 +37,10 @@ The Microsoft Pay extension provides the following benefits:
 
 Enabling payment service extensions is free in [!INCLUDE[prod_short](includes/prod_short.md)], however, you will need to contact the payment service to get an account. For more information, see [Enable Customer Payment Through Payment Services](sales-how-enable-payment-service-extensions.md).
 
-## See Also
+## See also
+
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

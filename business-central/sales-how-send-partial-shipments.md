@@ -11,11 +11,12 @@ ms.author: a-reishima
 ---
 # Process Partial Shipments
 
-In a partial shipment, an order isn't shipped entirely at once. For example, from an order for 100 units, you ship 40 units immediately and 60 units later. There are no limits on the number of shipments that can be made for an order.
+In a partial shipment, an order isn't all shipped at once. For example, from an order for 100 units, you ship 40 units immediately and 60 units later. There are no limits on the number of shipments that can be made for an order.
 
-However, before you can use partial shipments in [!INCLUDE [prod_short](includes/prod_short.md)], you must specify that the customer accepts partial shipments by setting the **Shipping Advice** field on the **Customer** card. Alternatively, if the customer only accepts complete shipments but exceptionally requests or agrees with a partial shipment for a specific sales order, you can change the **Shipping Advice** field before posting.
+However, before you can use partial shipments in [!INCLUDE [prod_short](includes/prod_short.md)], you must specify that the customer accepts partial shipments by setting the **Shipping Advice** field on the **Customer** card. Alternatively, if the customer usually only accepts complete shipments but then requests or agrees with a partial shipment for a specific sales order, you can change the **Shipping Advice** field before posting.
 
-By default, [!INCLUDE [prod_short](includes/prod_short.md)] sets the field in the **Customer** card as **Partial**, which allows partial shipments. If the field specifies **Complete**, then the **Qty. to Ship** field is blocked in sales orders for that customer.
+By default, [!INCLUDE [prod_short](includes/prod_short.md)] sets the field in the **Customer** card as **Partial**, which allows partial shipments. If, however, the field has been adjusted to specify **Complete**, then the **Qty. to Ship** field is blocked in sales orders for that customer.
+<!--Just double-checking: should it be **Customer** card or **Customer Card**? I think I've mostly seen the latter, hence why I'm checking.-->
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
@@ -25,7 +26,7 @@ By default, [!INCLUDE [prod_short](includes/prod_short.md)] sets the field in th
 [Ship Items](warehouse-how-ship-items.md)  
 [Make Drop Shipments](sales-how-drop-shipment.md)  
 [Sales](sales-manage-sales.md)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Getting Ready for Doing Business](ui-get-ready-business.md)<!--Not sure if it's possible to change this title, but it reads better this way: Getting Ready To Do Business-->  
 [Administration](admin-setup-and-administration.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

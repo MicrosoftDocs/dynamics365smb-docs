@@ -14,7 +14,7 @@ ms.author: edupont
 ---
 # Request Quotes
 
-A purchase quote can be used as a preliminary draft for a purchase order, and the order can then be converted to a purchase invoice or an order.<!--the last part of this sentence seems redundant -- "the order can then be converted to...an order." Please rework as necessary-->
+A purchase quote can be used as a preliminary draft for a purchase order, which can then be converted to a purchase invoice.
 
 ## Create a purchase quote
 
@@ -27,7 +27,7 @@ When you have accepted the vendor's quote, you can convert it to a purchase orde
 
 1. Open the purchase quote you want to convert, then choose the **Make Order** action.
 
-The purchase quote is removed from the database. A purchase order is created based on the information in the purchase quote, which you can use to process the purchase, and then post a purchase invoice. In the **Quote No.** field on both the purchase order and purchase invoice you can see the number of the purchase quote they were made from.<!--From what I'm reading, the process seems to be "purchase quote > purchase order > purchase invoice. For that reason I changed a few things in this paragraph. Is that okay?-->
+The purchase quote is removed from the database. A purchase order is created based on the information in the purchase quote, which you can use to process the purchase, and then post a purchase invoice. In the **Quote No.** field on both the purchase order and purchase invoice you can see the number of the purchase quote they were made from.
 
 > [!NOTE]
 > It is not possible to convert a purchase quote to a purchase invoice directly, like it is possible with sales quotes. For details on how to create a purchase invoice, read [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md).

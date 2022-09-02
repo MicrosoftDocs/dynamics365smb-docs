@@ -69,7 +69,7 @@ The purchase is now reflected in inventory, resource ledgers, and financial reco
 
 ## When to use purchase orders
 
-You must use purchase orders if your purchasing process requires you to record partial receipts of an order quantity, for example, because the full quantity is not available at the vendor. If you deliver sold items directly from your vendor to your customer as a drop shipment, you must also use purchase orders. Learn more at [Make Drop Shipments](sales-how-drop-shipment.md). 
+You must use purchase orders if your purchasing process requires you to record partial receipts of an order quantity, for example, because the full quantity is not available at the vendor. If you deliver sold items directly from your vendor to your customer as a drop shipment, you must also use purchase orders. Learn more at [Make Drop Shipments](sales-how-drop-shipment.md).
 
 In all other aspects, purchase orders work the same as purchase invoices. The following procedure is based on a purchase invoice. The steps are similar for a purchase order.
 
@@ -77,9 +77,9 @@ In all other aspects, purchase orders work the same as purchase invoices. The fo
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-## Selling non-inventory items
+## Purchasing non-inventory items
 
-The items on a purchase invoice can be of the **Inventory**, **Service**, **Resource**, or **Non-Inventory** type, which specifies if the item is a physical inventory unit, a labor time unit, or a physical unit that is not kept in inventory. Learn more at [Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for all three item types.<!--Four inventory types are listed above, but this sentence references just three. If "Service" and "Resource" are consider one type (a labor time unit), we need to specify that I think, for clarity.-->
+The lines on a purchase invoice can be of the **Resource** or **Item** type. Item cards can be further classified as of the **Inventory**, **Service**, or **Non-Inventory** type, which specifies if the item is a physical inventory unit, a labor time unit (also applicable for resources), or a physical unit that is not kept in inventory. Learn more at [Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for all mentioned types.
 
 > [!NOTE]
 > With the **Resource** purchase line type, you can also purchase external resources, for example, to invoice a vendor for work delivered. Learn more at [Set Up Resources](projects-how-setup-resources.md).

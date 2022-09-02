@@ -12,15 +12,15 @@ ms.date: 09/02/2022
 ms.author: edupont
 
 ---
-# Sell Products with a Customer Sales Order  
+# Sell Products with a Customer Sales Order
 
-This article provides guidance on when you should use a customer sales order in addition to an invoice. If your sales process requires you to only ship parts of an order quantity, perhaps because the full quantity is not available right away, you can sell those products by making a customer sales order.<!--I'm a little confused by this. What products to sell does this last sentence reference -- the ones in the first shipment or the ones in subsequent shipments? Perhaps clarify?-->  
+This article provides guidance on when you should use a customer sales order in addition to an invoice. If your sales process requires you to only ship part of an order, perhaps because the full quantity is not available right away, you must process that sale by making a sales order.
 
 You must also use sales orders if you sell items that deliver directly from your vendor to your customer, in what is called a drop shipment. Learn more at [Make Drop Shipments](sales-how-drop-shipment.md). In all other respects, sales orders work the same way as sales invoices. Learn more at [Invoice Sales](sales-how-invoice-sales.md).
 
 When you deliver the products, either fully or partially, you post the sales order as shipped or as shipped and invoiced to create the related item and customer ledger entries in your system. When you post the sales order, you can also email it as a PDF attachment. You can prefill the email body with a summary of the order and payment information, such as a link to PayPal. Learn more at [Ship Items](warehouse-how-ship-items.md) and [Send Documents by Email](ui-how-send-documents-email.md).
 
-In business environments where the customer pays immediately, for example by PayPal or cash, payment is recorded immediately when you post the sales order as invoiced, that is, the posted sales invoice is closed as fully applied. You select the relevant method in the **Payment Method Code** field on the sales order. See step 8 below. For electronic payments, such as PayPal, you must also fill in the **Payment Service** field. Learn more at [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md).<!--Sorry -- how does step 8 below apply to this paragraph about payment methods? It seems to talk about discounts, and I don't see how it relates to or enhances the information here. Step 5 below seems to relate...?-->
+In business environments where the customer pays immediately, for example by PayPal or cash, payment is recorded immediately when you post the sales order as invoiced, that is, the posted sales invoice is closed as fully applied. You select the relevant method in the **Payment Method Code** field on the sales order. See step 5 below. For electronic payments, such as PayPal, you must also fill in the **Payment Service** field. Learn more at [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md).
 
 You can even create directly paid orders for non-registered customers by first setting up a "cash customer" card, which you point to on the sales order. Learn more at [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md).
 
@@ -106,6 +106,6 @@ The related item and customer ledger entries are now created in your system, and
 [Process Partial Shipments](sales-how-send-partial-shipments.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Send Documents by Email](ui-how-send-documents-email.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

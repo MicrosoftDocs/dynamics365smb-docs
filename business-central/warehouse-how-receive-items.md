@@ -64,8 +64,7 @@ The following describes how to receive items with a purchase order. The steps ar
 
     > [!NOTE]  
     >  To fill all lines in the **Qty. to Receive** field with zero, choose the **Delete Qty. to Receive** action. To fill it in once again with the quantity outstanding, choose the **Autofill Qty. to Receive** action.  
-
-    > [!NOTE]  <!--Do you want a Note stacked on a Note as it is here? The repetition kind of undercuts the value of a "Note". Perhaps change one to Tip or some such?-->
+    >
     >  You cannot receive more items than the number in the **Qty. Outstanding** field on the source document line. To receive more items, retrieve another source document that contains a line for the item using the filter function.  
 
 5. Post the warehouse receipt. The quantity fields are updated on the source documents, and the items are recorded as part of the company inventory.  

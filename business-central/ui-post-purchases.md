@@ -37,8 +37,8 @@ In addition, purchase documents are always recorded in the **Purch. Recpt. Heade
 Before you start to post, you can print a test report that contains all the information in the purchase order and indicates any errors there. To print the report, choose **Posting**, and then choose **Test Report**.
 
 > [!IMPORTANT]  
-> When you post a purchase order for items, you can create both a receipt and an invoice. These can be done simultaneously or independently. You can also create a partial receipt and a partial invoice by completing the **Qty. to Receive** and **Qty. to Invoice** fields on the individual purchase order lines before you post. Note that you cannot create a purchase invoice for products or services that have not been received. That is, before you can invoice, you must have recorded a receipt, or you must choose to receive and invoice at the same time.
-><!--So, in the last sentence above it says one thing, then in the first sentence below it seems to say another. Is that correct?-->
+> When you post a purchase order for items, you can create both a receipt and an invoice. These can be done simultaneously or independently. You can also create a partial receipt and a partial invoice by completing the **Qty. to Receive** and **Qty. to Invoice** fields on the individual purchase order lines before you post. Note that you cannot create a purchase invoice from a purchase order for products or services that have not been received. That is, before you can invoice, you must have recorded a receipt, or you must choose to receive and invoice at the same time.
+>
 > To post a purchase invoice without recording a purchase receipt in [!INCLUDE[prod_short](includes/prod_short.md)], create the document on the **Purchase Invoices** page. Learn more at [Record Purchases with Purchase Invoices](purchasing-how-record-purchases.md).
 
 You can either post or post and print. If you choose to post and print, a report is printed when the order is posted. You can also choose the **Post Batch** action to post several orders at the same time. Learn more at [Post Multiple Documents at the Same Time](ui-batch-posting.md).

@@ -1840,6 +1840,7 @@
 ### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshoot Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
+### [Use a Power Automate Flow for Alerts to Dataverse Entity Changes](admin-power-automate-flow-dataverse.md)
 ## Design Details
 ### [Application Design Details Overview](design-details-application-design.md)
 ### Design Details: Supply Planning

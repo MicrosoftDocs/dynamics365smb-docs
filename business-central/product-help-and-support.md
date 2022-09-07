@@ -133,7 +133,7 @@ Your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner will help 
 For more information, see [Escalating support issues to Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) in the administration content.  
 
 > [!NOTE]
-> With [!INCLUDE[prod_short](includes/prod_short.md)] online, the **Report a Problem** section is only available if you have paid for a [!INCLUDE[prod_short](includes/prod_short.md)] subscription. If you have signed up for a trial and have not yet purchased [!INCLUDE[prod_short](includes/prod_short.md)], you don't have a reselling partner, and you can't contact the Microsoft support team. You can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](/dynamics365/business-central/across-faq#findpartner).  
+> With [!INCLUDE[prod_short](includes/prod_short.md)] online, the **Report a Problem** section is only available if you have paid for a [!INCLUDE[prod_short](includes/prod_short.md)] subscription. If you have signed up for a trial and have not yet purchased [!INCLUDE[prod_short](includes/prod_short.md)], you don't have a reselling partner, and you can't contact the Microsoft support team. You can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. For more information, see [How do I find a reselling partner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner).  
 >
 > With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, this section is only available in 2020 release wave 2 (version 18) and later.
 
@@ -228,7 +228,7 @@ The same applies if you use [!INCLUDE [prod_short](includes/prod_short.md)] on-p
 
 [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
 [Business Central Quick Starts](quick-start-business-central.md)  
-[How do I find a reselling partner?](/dynamics365/business-central/across-faq#findpartner)  
+[How do I find a reselling partner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Help System (available in English only)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Blog post: Find the right resources and provide feedback](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
 [Business Central developer and administration docs](/dynamics365/business-central/dev-itpro/)  

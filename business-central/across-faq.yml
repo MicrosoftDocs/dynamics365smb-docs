@@ -5,7 +5,7 @@ metadata:
   author: edupont04
   ms.topic: faq
   ms.search.keywords: "FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend"
-  ms.date: 09/29/2021
+  ms.date: 09/07/2022
   ms.author: edupont
 title: Frequently Asked Questions about Using Business Central
 summary: |
@@ -27,7 +27,7 @@ sections:
           
           To help you get ready for doing business in [!INCLUDE[prod_short](includes/prod_short.md)], you can launch assisted setup guides, videos, or help topics for selected setup tasks. Learn more at [Getting Ready for Doing Business](ui-get-ready-business.md).  
           
-          When you are ready to buy [!INCLUDE[prod_short](includes/prod_short.md)], you can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. Learn more at [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner).  
+          When you're ready to buy [!INCLUDE[prod_short](includes/prod_short.md)], you can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. Learn more at [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner).  
           
       - question: |
           Where do I go if I have questions?
@@ -45,12 +45,12 @@ sections:
           
           This applies to [!INCLUDE [prod_short](includes/prod_short.md)] online and on-premises.  
           
-          Also, if the capability is published as an extension in AppSource, then there is a delay between the extension being announced and its availability in AppSource. This applies to [!INCLUDE [prod_short](includes/prod_short.md)] online only.  
+          Also, if the capability is published as an extension in AppSource, then there's a delay between the extension being announced and its availability in AppSource. This applies to [!INCLUDE [prod_short](includes/prod_short.md)] online only.  
           
       - question: |
           Are there any differences between an on-premises deployment and Business Central online?
         answer: |
-          Yes. [!INCLUDE [prod_short](includes/prod_short.md)] is optimized for online deployment, and some capabilities may run on premises only under certain circumstances, while others are not supported at all. Learn more at [Features not implemented in on-premises deployments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (available in English only).
+          Yes. [!INCLUDE [prod_short](includes/prod_short.md)] is optimized for online deployment, and some capabilities may run on premises only under certain circumstances, while others aren't supported at all. Learn more at [Features not implemented in on-premises deployments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (available in English only).
           
       - question: |
           Can I get training in Business Central?
@@ -59,18 +59,18 @@ sections:
           
           For more information about training across Dynamics 365 that is provided by Microsoft, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  
           
-          Additional content is provided by the [!INCLUDE[prod_short](includes/prod_short.md)] community, such as the [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) that is written by a partner.  
+          More content is provided by the [!INCLUDE[prod_short](includes/prod_short.md)] community, such as the [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) that is written by a partner.  
           
       - question: How do I get technical support for Business Central?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] is sold through partners, and you should contact your reselling partner to get help with technical problems. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then cannot resolve the problem, they will raise a support ticket with Microsoft.  
+          [!INCLUDE[prod_short](includes/prod_short.md)] is sold through partners, and you should contact your reselling partner to get help with technical problems. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then can't resolve the problem, they'll raise a support ticket with Microsoft.  
           
           Learn more at [Help and Support](product-help-and-support.md) and the [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) section.  
           
       - question: |
           Where is the save button?
         answer: |
-          There is no *save* button on pages like in other programs that you might be familiar with. In [!INCLUDE[prod_short](includes/prod_short.md)], changes that you make to a field are automatically saved as soon as you move to the next field or close the page, as long as there are no errors. When you make changes to a field and move to another field, you will see the text **Saving** in the top-right corner of the page, which will quickly change to **Saved** if no errors occur. If an error occurs, the text will change to **Not Saved**.  
+          there's no *save* button on pages like in other programs that you might be familiar with. In [!INCLUDE[prod_short](includes/prod_short.md)], changes that you make to a field are automatically saved as soon as you move to the next field or close the page, as long as there are no errors. When you make changes to a field and move to another field, you'll see the text **Saving** in the top-right corner of the page, which will quickly change to **Saved** if no errors occur. If an error occurs, the text will change to **Not Saved**.  
           
       - question: |
           Where do I find that line number?
@@ -79,22 +79,22 @@ sections:
           
           
       - question: |
-          Why does Help describe functionality that I cannot access?
+          Why does Help describe functionality that I can't access?
         answer: |
-          If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features are not visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. Learn more at [Change Which Features are Displayed](ui-experiences.md).  
+          If your Experience setting on the **Company Information** page is set to **Essential**, then UI elements for the Manufacturing and Service Management features aren't visible to you because they require the **Premium** experience. A text note is inserted in high-level help topics for these feature areas. Learn more at [Change Which Features are Displayed](ui-experiences.md).  
           
       - question: |
           Why is new information not available in my language?
         answer: |
-          On the docs.microsoft.com site, content about business functionality is published in a number of languages. The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it is then sent off for translation into the supported languages. This means that you will not be able to read this new content in your own language for up to 4 weeks.  
+          On the docs.microsoft.com site, content about business functionality is published in several languages. The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it's then sent off for translation into the supported languages. This means that you'll not be able to read this new content in your own language for up to four weeks.  
           
-          We understand the problems this can cause, and we encourage users to search for what they are looking for in English if they cannot find it in their own language.  
+          We understand the problems this can cause, and we encourage users to search for what they're looking for in English if they can't find it in their own language.  
           
       - question: What email address can I use with Business Central online?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] online requires that you use a work, or school, email address to sign up. [!INCLUDE[prod_short](includes/prod_short.md)] online does not support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.  
+          [!INCLUDE[prod_short](includes/prod_short.md)] online requires that you use a work, or school, email address to sign up. [!INCLUDE[prod_short](includes/prod_short.md)] online doesn't support email addresses provided by consumer email services or telecommunication providers. This includes outlook.com, hotmail.com, gmail.com, and others.  
           
-          If you try to sign up with a personal email address, you will get a message indicating to use a work or school email address. Learn more at [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md).  
+          If you try to sign up with a personal email address, you'll get a message indicating to use a work or school email address. Learn more at [Troubleshooting Self-Service Sign-Up](ui-troubleshoot-self-signup.md).  
           
           If you want to deploy [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, then you can use other authentication methods. Learn more at [Deployment of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  
           
@@ -105,7 +105,7 @@ sections:
           
           If the account you sign up with is a non-Microsoft 365 work account (such as joe@mysolution.com), and you have a Microsoft 365 subscription, then you can associate your domain (*mysolution.com*) with the Microsoft 365 subscription. Learn more at [What is a domain?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) in the Microsoft 365 content.  
           
-          If you do not have a Microsoft 365 subscription, and you do not want to buy one, then, when you sign up, we provision a new Azure Active Directory tenant for you so that you have access to the advanced administration tools in the Azure portal.  
+          If you don't have a Microsoft 365 subscription, and you don't want to buy one, then we provision a new Azure Active Directory tenant for you when you sign up so that you have access to the advanced administration tools in the Azure portal.  
           
       - question: |
           What is the integration with Microsoft 365 about?
@@ -115,7 +115,7 @@ sections:
       - question: |
           Can I extend my 30-day "New Company" trial period?
         answer: |
-          Yes. When the expiration date for your trial period is approaching we will display a notification to alert you when you sign in. The notification contains a link to the **Extend Trial Period** guide that you can use to extend your trial period. The extra 30 days start the moment you choose **Extend Trial** in the guide. You can extend the trial period one time yourself. After that, a Microsoft partner can extend it for another 30 days. Learn more at [Extend Your Trial Version](admin-extend-trial.md).
+          Yes. When the expiration date for your trial period is approaching, we'll display a notification to alert you when you sign in. The notification contains a link to the **Extend Trial Period** guide that you can use to extend your trial period. The extra 30 days start the moment you choose **Extend Trial** in the guide. You can extend the trial period one time yourself. After that, a Microsoft partner can extend it for another 30 days. Learn more at [Extend Your Trial Version](admin-extend-trial.md).
           
           > [!NOTE]
           > It may take up to two business days to complete the trial extension process.  
@@ -135,7 +135,7 @@ sections:
       - question: |
           Our administrator has moved me to another plan to give me another role, but I still see the same Home screen in Business Central?
         answer: |
-          This is a bit complicated, but it looks like your administrator didn't change your assigned role and assign user groups that match the new license. Essentially, your access to [!INCLUDE[prod_short](includes/prod_short.md)] is determined by the type of plan (license) that you have - this sets permissions, your assigned role and your default Home screen. You can change your current role manually in My Settings, but if you are moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home screen because your permissions were not changed.  
+          This is a bit complicated, but it looks like your administrator didn't change your assigned role and assign user groups that match the new license. Essentially, your access to [!INCLUDE[prod_short](includes/prod_short.md)] is determined by the type of plan (license) that you have - this sets permissions, your assigned role and your default Home screen. You can change your current role manually in My Settings, but if you're moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home screen because your permissions weren't changed.  
           
       - question: |
           Can I cancel my subscription?
@@ -151,7 +151,7 @@ sections:
         answer: |
           [!INCLUDE[prod_short](includes/prod_short.md)] is sold and implemented through a global network of Dynamics 365 partners with industry expertise. Contact a partner for a detailed assessment, consulting services, and additional pricing. Learn more at the **Pricing** section on the [Dynamics 365 Business Central page on microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
           
-          When you are ready to buy [!INCLUDE[prod_short](includes/prod_short.md)], you can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. You can also find solutions and services from partners in [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
+          When you're ready to buy [!INCLUDE[prod_short](includes/prod_short.md)], you can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. You can also find solutions and services from partners in [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
           
           If you want guidance from Microsoft, contact the [Microsoft Sales team](https://go.microsoft.com/fwlink/?linkid=828707).  
           

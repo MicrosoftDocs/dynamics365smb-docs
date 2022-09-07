@@ -55,7 +55,7 @@ sections:
       - question: |
           Can I get training in Business Central?
         answer: |
-          Yes, you can! You can find free eLearning content on the [Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). You can also ask your reselling partner for additional training. If you don't know who that is, see the [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) section.  
+          Yes, you can! You can find free eLearning content on the [Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). You can also ask your reselling partner for more training. If you don't know who that is, see the [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) section.  
           
           For more information about training across Dynamics 365 that is provided by Microsoft, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  
           
@@ -70,7 +70,7 @@ sections:
       - question: |
           Where is the save button?
         answer: |
-          there's no *save* button on pages like in other programs that you might be familiar with. In [!INCLUDE[prod_short](includes/prod_short.md)], changes that you make to a field are automatically saved as soon as you move to the next field or close the page, as long as there are no errors. When you make changes to a field and move to another field, you'll see the text **Saving** in the top-right corner of the page, which will quickly change to **Saved** if no errors occur. If an error occurs, the text will change to **Not Saved**.  
+          there's no *save* button on pages like in other programs that you might be familiar with. In [!INCLUDE[prod_short](includes/prod_short.md)], changes that you make to a field are automatically saved as soon as you move to the next field or close the page, as long as there are no errors. When you make changes to a field and move to another field, you'll see the text **Saving** in the top-right corner of the page. It changes to **Saved** quickly if no errors occur. If an error occurs, the text will change to **Not Saved**.  
           
       - question: |
           Where do I find that line number?
@@ -103,7 +103,7 @@ sections:
         answer: |
           No. But if you want to experience [!INCLUDE[prod_short](includes/prod_short.md)] as fully integrated with Microsoft 365, you can sign up for a 1-month free trial of Microsoft 365 [here](https://products.office.com/try).  
           
-          If the account you sign up with is a non-Microsoft 365 work account (such as joe@mysolution.com), and you have a Microsoft 365 subscription, then you can associate your domain (*mysolution.com*) with the Microsoft 365 subscription. Learn more at [What is a domain?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) in the Microsoft 365 content.  
+          If you sign up with a non-Microsoft 365 work account (such as joe@mysolution.com), and you have a Microsoft 365 subscription, then you can associate your domain (*mysolution.com*) with the Microsoft 365 subscription. Learn more at [What is a domain?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) in the Microsoft 365 content.  
           
           If you don't have a Microsoft 365 subscription, and you don't want to buy one, then we provision a new Azure Active Directory tenant for you when you sign up so that you have access to the advanced administration tools in the Azure portal.  
           
@@ -135,7 +135,7 @@ sections:
       - question: |
           Our administrator has moved me to another plan to give me another role, but I still see the same Home screen in Business Central?
         answer: |
-          This is a bit complicated, but it looks like your administrator didn't change your assigned role and assign user groups that match the new license. Essentially, your access to [!INCLUDE[prod_short](includes/prod_short.md)] is determined by the type of plan (license) that you have - this sets permissions, your assigned role and your default Home screen. You can change your current role manually in My Settings, but if you're moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home screen because your permissions weren't changed.  
+          It's a bit complicated, but it looks like your administrator didn't change your assigned role and assign user groups that match the new license. Essentially, your access to [!INCLUDE[prod_short](includes/prod_short.md)] is determined by the type of plan (license) that you have - this sets permissions, your assigned role and your default Home screen. You can change your current role manually in My Settings. But if you're moved to another plan, such as moving you from the Business plan to the Team Members plan, you might see the old Home screen because your permissions weren't changed.  
           
       - question: |
           Can I cancel my subscription?
@@ -149,7 +149,7 @@ sections:
           
       - question: How do I find a reselling partner?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] is sold and implemented through a global network of Dynamics 365 partners with industry expertise. Contact a partner for a detailed assessment, consulting services, and additional pricing. Learn more at the **Pricing** section on the [Dynamics 365 Business Central page on microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
+          [!INCLUDE[prod_short](includes/prod_short.md)] is sold and implemented through a global network of Dynamics 365 partners with industry expertise. Contact a partner for a detailed assessment, consulting services, and other services. Learn more at the **Pricing** section on the [Dynamics 365 Business Central page on microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
           
           When you're ready to buy [!INCLUDE[prod_short](includes/prod_short.md)], you can find a [!INCLUDE[prod_short](includes/prod_short.md)] partner on the [I'm looking for a solution provider](https://go.microsoft.com/fwlink/?linkid=2038145) page. You can also find solutions and services from partners in [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
           

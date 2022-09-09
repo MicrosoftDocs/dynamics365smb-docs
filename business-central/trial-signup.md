@@ -27,7 +27,7 @@ Your trial environment includes the same features as the paid version. The links
 
 ## Get started with a subscription
 
-Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, find a [!INCLUDE[prod_short](includes/prod_short.md)] partner. For more information, see [How do I find a reselling partner?](/dynamics365/business-central/across-faq#findpartner). The reselling partner can help you set up [!INCLUDE[prod_short](includes/prod_short.md)] to fit your business, including importing your data from your previous system. You can also customize [!INCLUDE[prod_short](includes/prod_short.md)] by adding apps from [the Microsoft commercial marketplace](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Each time you sign in during the trial period, a notification in a blue bar at the top displays the time remaining. If you decide to subscribe, find a [!INCLUDE[prod_short](includes/prod_short.md)] partner. For more information, see [How do I find a reselling partner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner). The reselling partner can help you set up [!INCLUDE[prod_short](includes/prod_short.md)] to fit your business, including importing your data from your previous system. You can also customize [!INCLUDE[prod_short](includes/prod_short.md)] by adding apps from [the Microsoft commercial marketplace](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] online uses Microsoft 365. If your company uses a different type of email setup, the reselling partner can help you decided how to migrate, or if you should use [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.  
 

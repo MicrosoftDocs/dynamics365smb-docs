@@ -20,22 +20,29 @@ Intercompany postings make accounting for two or more companies an easier task f
 
 You must also set up an intercompany partner code for each [!INCLUDE [prod_short](includes/prod_short.md)] company, which is agreed upon by all of the companies, and then assign that to customer and vendor cards, respectively.  
 
-If you create or receive intercompany lines with items, you can either use your own item numbers, or you can set up your partner's item numbers for each relevant item, either in the **Vendor Item No.** field or in the **Common Item No.** field on the item card. You can also use the **Item Reference** function to map your items' numbers to your intercompany partners descriptions of the items, open the card of each item, and then choose the **Item References** action to set up references between your item descriptions and those of the intercompany partner. For more information, see [Use Item References](inventory-how-use-item-cross-refs.md). 
+If you create or receive intercompany lines with items, you can either use your own item numbers, or you can set up your partner's item numbers for each relevant item, either in the **Vendor Item No.** field or in the **Common Item No.** field on the item card. You can also use the **Item Reference** function to map your items' numbers to your intercompany partners descriptions of the items, open the card of each item, and then choose the **Item References** action to set up references between your item descriptions and those of the intercompany partner. For more information, see [Use Item References](inventory-how-use-item-cross-refs.md).
 
-If you will make intercompany sales transactions that include resources, you must fill in the **IC Partner Purch. G/L Acc. No.** field on the resource card for each relevant resource. This is the number of the intercompany general ledger account that the amount for this resource will be posted to in your partner's company. For more information, see [Set Up Resources](projects-how-setup-resources.md). 
+If you will make intercompany sales transactions that include resources, you must fill in the **IC Partner Purch. G/L Acc. No.** field on the resource card for each relevant resource. This is the number of the intercompany general ledger account that the amount for this resource will be posted to in your partner's company. For more information, see [Set Up Resources](projects-how-setup-resources.md).
 
 > [!NOTE]
-> Intercompany purchase transactions that include resources, fixed assets, and item charges are not fully supported. In your intercompany partner's company, the **Line Type** field will be blank on purchase document lines that include these entities. You must manually update the field. 
+> Intercompany purchase transactions that include resources, fixed assets, and item charges are not fully supported. In your intercompany partner's company, the **Line Type** field will be blank on purchase document lines that include these entities. You must manually update the field.
+
+## Auto-Accept Transactions from Intercompany Partners
+
+2022 release wave 1 introduced a new **Intercompany Setup** page that can make it faster to process transactions from your intercompany partners. The page lets you specify whether this company automatically creates journal lines based on an intercompany partner's posts from the **IC General Journal** page. The journal lines are created for you, but not posted. You can use the following fields on the new Intercompany Setup page to specify where to create received intercompany journal transactions:
+
+* **Default IC Gen. Jnl. Template**
+* **Default IC Gen. Jnl. Batch**
+
+> [!NOTE]
+> If your organization used intercompany features in [!INCLUDE [prod_short](includes/prod_short.md)] before 2022 release wave 1, to auto-accept transactions your administrator must turn on the **Automatically accept intercompany general journal transactions** feature switch on the **Feature Management** page.
 
 ## To set up a company for intercompany transactions
 
+These fields to fill in differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update.
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Setup**, and then choose the related link.  
 2. On the **Intercompany Setup** page, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-  > [!NOTE]
-  > 2022 release wave 1 introduces a new **Intercompany Setup** page so that you can also specify if this company must automatically create journal lines based on an intercompany partner's posts from the **IC General Journal** page. If your organization has used [!INCLUDE [prod_short](includes/prod_short.md)] before this release wave, you must switch on the new experience in the **Feature Management** page. For more information, see [Auto-accept transactions for intercompany journals](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/intercompany-postings-have-auto-accept-transaction-enabled-intercompany-general-journals).
-
-In versions older than 2022 release wave 1, you must fill in three intercompany-related fields in the **Company Information** page instead.  
 
 ## To set up intercompany partners
 
@@ -48,6 +55,7 @@ In versions older than 2022 release wave 1, you must fill in three intercompany-
 > In [!INCLUDE[prod_short](includes/prod_short.md)] online, you cannot use file locations to transfer transactions to your partners because [!INCLUDE[prod_short](includes/prod_short.md)] does not have access to your local network. Therefore, if you choose **File Location** in the **Transfer Type** field, the **Folder Path** field is not available. Instead, the file will be downloaded to the Downloads folder on your computer. You then send the file to someone in the partner company, for example, by email. For a more direct process, we recommend that you choose **Email** instead.
 
 ## To set up intercompany vendors and intercompany customers
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Alternatively, access the vendor from the **Vendor No.** field on the **Intercompany Partner** page.
 3. Open the card for a vendor that is an intercompany partner. For more information, see [Register New Vendors](purchasing-how-register-new-vendors.md).
@@ -55,25 +63,31 @@ In versions older than 2022 release wave 1, you must fill in three intercompany-
 5. Repeat steps 1 through 4 for customers.
 
 ## To set up intercompany charts of accounts
+
 In order for a group of companies to make intercompany transactions, they must agree on a chart of accounts to use as a common reference. You must agree with your partner companies on the account numbers that you'll all use when you create intercompany transactions. For example, the parent company of the group creates a simplified version of their own chart of accounts, then exports it to an XML file that it distributes it to each company in the group.  
 
-If the chart of accounts for your company defines the intercompany chart of accounts for your partner companies, follow the process described in [To set up the defining intercompany chart of accounts](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts).  
+If the chart of accounts for your company defines the intercompany chart of accounts for your partner companies, follow the process described in [To set up the defining intercompany chart of accounts](intercompany-how-setup.md#to-set-up-the-intercompany-chart-of-accounts).  
 
 If your company is a subsidiary company and you receive an XML file containing the common intercompany chart of accounts, follow the [To import the intercompany chart of accounts](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts) procedure.  
 
-### To set up the defining intercompany chart of accounts
+### To set up the intercompany chart of accounts
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.
 2. On the **Intercompany Chart of Accounts** page, enter each account on a line on the page.  
 3. If your intercompany chart of accounts will be identical or similar to your regular chart of accounts, you can fill on the page automatically by choosing the **Copy from Chart of Accounts** action. You can edit the new lines as needed.
 
 ### To export an intercompany chart of accounts
-To allow your intercompany partners to import the defining chart of accounts, you must export it to a file.      
+
+To allow your intercompany partners to import the defining chart of accounts, you must export it to a file.
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.
 2. On the **Intercompany Chart of Accounts** page, choose the **Export** action, and then choose the **Save** button.
 3. Specify the file name and the location where you want to save the XML file, and then choose the **Save** button.  
 
 ### To import the intercompany chart of accounts  
+
 When a file exists for defining the intercompany chart of accounts, intercompany partners can import it to make sure they have the same accounts.  
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Chart of Accounts**, and then choose the related link.  
 2. On the **Intercompany Chart of Accounts** page, choose the **Import** action.  
 3. Select the file name and location of the XML file, and then choose the **Open** button.  
@@ -81,6 +95,7 @@ When a file exists for defining the intercompany chart of accounts, intercompany
 The **IC Chart of Accounts** page is filled with new or edited G/L account lines according to the intercompany chart of accounts in the file. Any existing, unrelated lines on the page remain unchanged.
 
 ### To map the intercompany chart of accounts to your company's chart of accounts  
+
 When you've defined or imported the intercompany chart of accounts that you and your intercompany partners have agreed to use, you must associate each of the intercompany G/L accounts with one of your company's G/L accounts. On the **IC Chart of Accounts** page, you specify how intercompany G/L accounts on incoming transactions will be translated into G/L accounts from your company's chart of accounts.
 
 If the accounts in the intercompany chart of accounts have the same numbers as the corresponding accounts in the chart of accounts, you can map the accounts automatically.
@@ -90,6 +105,7 @@ If the accounts in the intercompany chart of accounts have the same numbers as t
 3. For each intercompany general ledger account that wasn't mapped automatically, fill in the **Map-to G/L Acc. No.** field.  
 
 ## To set up default intercompany partner general ledger accounts  
+
 When you create an intercompany sales or purchase line to send as an outgoing transaction, you enter an account from the intercompany chart of accounts as a default for which account in your partner's company the amount is posted to. On the **Chart of Accounts** page, for accounts that you regularly use on outgoing intercompany sales or purchase lines, you can specify a default intercompany partner general ledger account. For example, for your receivables accounts, you can enter the corresponding payables accounts from the intercompany chart of accounts.  
 
 Then, when you enter a general ledger account in the **Bal. Account No.** field on an intercompany line with **Intercompany Partner** in the **Account Type** field, the **IC Partner G/L Account** field is automatically filled in.  
@@ -110,6 +126,7 @@ If your company is the parent company and has the defining set of intercompany d
 If your company is a subsidiary company and you receive an XML file containing the intercompany dimensions that your group will use as a common reference, follow the [To import intercompany dimensions](intercompany-how-setup.md#to-import-the-intercompany-dimensions) procedure.
 
 ### To define the intercompany dimensions
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Dimensions**, and then choose the related link.  
 2. On the **Intercompany Dimensions** page, enter each dimension on a line on the page.
 
@@ -118,7 +135,9 @@ If your company is a subsidiary company and you receive an XML file containing t
 4. Specify the file name and the location where you want to save the XML file, and then choose the **Save** button.  
 
 ### To import the intercompany dimensions  
+
 When a file exists for the defining intercompany dimensions, intercompany partners can import it to make sure they have the same dimensions.  
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intercompany Dimensions**, and then choose the related link.  
 2. On the **Intercompany Dimensions** page, choose the **Import** action.  
 3. Specify the file name and location of the XML file, and then choose the **Open** button.  
@@ -126,6 +145,7 @@ When a file exists for the defining intercompany dimensions, intercompany partne
 The lines on the **Intercompany Dimensions** page and the **Intercompany Dimension Values** page are imported.  
 
 ### To map intercompany dimensions to your company's dimensions
+
 When you've defined or imported the dimensions that you and your intercompany partners have agreed to use, you must associate each of the intercompany dimensions with one of your company's dimensions, and vice versa. On the **Intercompany Dimensions** page, you specify how intercompany dimensions on *incoming transactions* will be translated into dimensions from your company's list of dimensions. On the **Dimensions** page, you specify how your dimensions will be translated into intercompany dimensions on *outgoing transactions*.
 
 If any of the intercompany dimensions have the same code as the corresponding dimensions in your company's list of dimensions, then you can have application automatically map the dimensions, then you can map the accounts automatically.  

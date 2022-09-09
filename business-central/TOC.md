@@ -1,4 +1,4 @@
-﻿# [Welcome to Business Central](index.md)
+﻿# [Welcome to Business Central](index.md)  
 # [New and Planned](product-news.md)
 # Get Started
 ## [Overview of Business Functionality](across-business-functionality.md)
@@ -225,6 +225,7 @@
 ### [Work with General Journals](ui-work-general-journals.md)
 ### [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ### [Let Business Central Suggest Values](ui-let-system-suggest-values.md)
+### [Use Online Maps to Find Locations and Directions](across-online-maps.md)
 
 ### Incoming Documents
 #### [Incoming Documents Overview](across-income-documents.md)
@@ -442,6 +443,7 @@
 ### [Print the Picking List](sales-how-print-picking-list.md)
 ### [Post Sales](ui-post-sales.md)
 ### [Create Recurring Sales Lines](sales-how-work-standard-lines.md)
+### [Process Partial Shipments with Shipping Advice](sales-how-send-partial-shipments.md)
 ### [Make Drop Shipments](sales-how-drop-shipment.md)
 ### [Create Special Orders](sales-how-to-create-special-orders.md)
 ### [Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md)
@@ -1635,6 +1637,7 @@
 ### [Create Number Series](ui-create-number-series.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
 ### [Set Up Printers](ui-specify-printer-selection-reports.md)
+### [Set Up Online Maps](across-online-maps-setup.md)
 ### [Get Business Central on Your Mobile Device](install-mobile-app.md)
 ### [Get Business Central on Your Desktop](install-desktop-app.md)
 <!--Reporting landing page-->
@@ -1838,6 +1841,7 @@
 ### [Manually Synchronize Table Mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshoot Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
+### [Use a Power Automate Flow for Alerts to Dataverse Entity Changes](admin-power-automate-flow-dataverse.md)
 ## Design Details
 ### [Application Design Details Overview](design-details-application-design.md)
 ### Design Details: Supply Planning

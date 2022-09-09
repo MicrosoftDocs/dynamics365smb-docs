@@ -2,15 +2,13 @@
 title: Register New Customers by Creating a Customer Card (contains video)
 description: Describes how to create a customer card to register information about each new customer or client you sell to.
 author: SorenGP
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
 ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
-ms.date: 08/31/2022
+ms.date: 09/01/2022
 ms.author: edupont
 
 ---
@@ -19,6 +17,7 @@ ms.author: edupont
 Customers are your source of income. You must register each customer you sell to as a customer card. Customer cards contain the information required to sell products to the customer. Learn more at [Invoice Sales](sales-how-invoice-sales.md) and [Register New Items](inventory-how-register-new-items.md).  
 
 Before you can register new customers, you must set up various sales codes to choose from when you fill in customer cards. Learn more at [Setting Up Sales](sales-setup-sales.md).
+
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
@@ -82,7 +81,7 @@ You can choose not to have warnings tell you the customer's credit limit has bee
     |**Both Warnings**| Both the **Credit Limit** and the **Balance Due** fields on the customer's card are checked, and a warning is shown if the customer exceeds its credit limit or has an overdue balance.|
     |**Credit Limit**|The value in the **Credit Limit** field on the customer's card is compared with the customer's balance, and a warning is shown if the customer's balance exceeds this amount.|
     |**Overdue Balance**|The **Balance Due** field on the customer's card is checked, and a warning is shown if the customer has an overdue balance.|
-    |**No Warning**|No warnings are shown about the customer's status.|
+    |**No Warning**|No credit warnings are shown regarding the customer's status.|
 
 ## See related training at [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/).
 
@@ -91,6 +90,7 @@ You can choose not to have warnings tell you the customer's credit limit has bee
 [Defining Payment Methods](finance-payment-methods.md)  
 [Merge Duplicate Records](sales-how-merge-duplicate-records.md)  
 [Create Number Series](ui-create-number-series.md)  
+[Enable Partial Shipments with Shipping Advice](sales-how-send-partial-shipments.md)  
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
 [Use Online Maps to Find Locations and Directions](across-online-maps.md)  

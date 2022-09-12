@@ -27,7 +27,7 @@ Small and mid-sized companies reply on built-in analytics and reporting that the
 | Learn how to integrate external business intelligence tools with [!INCLUDE[prod_short](includes/prod_short.md)].| [External Business Intelligence tools](reports-external-analysis.md) |
 |Learn how to modify report layouts or even develop your own reports from scratch. |[Developing reports](reports-develop-reports.md)|
 
-## See related training at [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
+## See related [Microsoft training](/training/paths/setup-reporting-dynamics-365-business-central/)
 
 ## See also
 

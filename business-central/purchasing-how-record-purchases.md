@@ -98,7 +98,7 @@ You can easily correct or cancel a posted purchase invoice before you pay the ve
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## See Related Training at [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/processing-invoices-dynamics-365-business-central/index)
 
 ## See Also
 

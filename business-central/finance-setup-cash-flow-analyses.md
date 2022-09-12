@@ -121,7 +121,7 @@ You can also create your own predictive web service based on a public model name
 6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Setup**, and then choose the related link.  
 7. Expand the **Azure AI** FastTab, and then fill in the fields.  
 
-## See Related Training at [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## See Also
 

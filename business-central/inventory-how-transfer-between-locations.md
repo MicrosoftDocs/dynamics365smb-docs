@@ -59,7 +59,7 @@ To transfer items, locations and transfer routes must be set up. For more inform
 4. In the **New Location Code** field, enter the location that you want to transfer the items to.
 5. Choose the **Post** action.
 
-## See related training at [Microsoft Learn](/learn/modules/transfer-items/)
+## See related [Microsoft training](/training/modules/transfer-items/)
 
 ## See also
 

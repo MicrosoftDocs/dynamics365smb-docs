@@ -55,7 +55,7 @@ The following procedure describes how to receive a vendor invoice and convert it
 
     Any validation errors, typically related to wrong or missing master data in [!INCLUDE[prod_short](includes/prod_short.md)] will be shown on the **Error Messages** FastTab.  
 
-## See Related Training at [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## See Also
 

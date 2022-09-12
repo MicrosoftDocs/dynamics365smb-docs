@@ -45,8 +45,7 @@ Choose the **Zones** or **Bins** actions to view information about zones and bin
 
 You can change the configuration of a location later, but you cannot edit the setup of locations that have item ledger entries.  
 
-If you have multiple locations, you can define transfer routes between locations. For more information, see [To create a transfer route
-](inventory-how-setup-locations.md#to-create-a-transfer-route). 
+If you have multiple locations, you can define transfer routes between locations. For more information, see [To create a transfer route](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
 ### To create a transfer route
 
@@ -77,7 +76,7 @@ However, you can choose to set up just one zone and to organize your warehouse a
 ## Default Dimensions for Locations
 You set default dimensions for a location on the **Location Card** page by choosing **Dimensions**. Afterward, the location's default dimensions are assigned to documents when you choose the location on a line. If needed, you can delete or change the dimension on the line. In the **Value Posting** field, you can require people to specify dimensions for locations before they can post an entry. If you want to allow people to choose only certain dimension valuess, you can specify those in the **Allowed Values Filter** field. You can also include location dimension values on the **Default Dimension Priorities** page, and for combinations of priority and dimension rules on the **Dimension Combinations** page.
 
-## See related training at [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/trade-set-up-dynamics-365-business-central/)
 
 ## See also
 
@@ -89,6 +88,5 @@ You set default dimensions for a location on the **Location Card** page by choos
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

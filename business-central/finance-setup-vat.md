@@ -226,7 +226,7 @@ You must set up information about how the tax authorities in your country or reg
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## See related training at [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## See also
 

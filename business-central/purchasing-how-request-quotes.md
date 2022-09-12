@@ -31,7 +31,7 @@ When you have accepted the vendor's quote, you can convert it to a purchase invo
 
 The purchase quote is removed from the database. A purchase invoice or a purchase order is created based on the information in the purchase quote in which you can process the purchase. In the **Quote No.** field on the purchase invoice or purchase order, you can see the number of the purchase quote that it was made from.
 
-## See related training at [Microsoft Learn](/learn/modules/create-purchase-documents-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/create-purchase-documents-dynamics-365-business-central/)
 
 ## See also
 

@@ -59,7 +59,7 @@ Instead of viewing the actual and budgeted amounts for all accounts within a sin
 3. At the top of the page, fill in the fields as necessary to define what is shown.   
 4. To see a specification of an amount shown, choose the field.  
 
-## See Related Training at [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## See Also
 [Business Intelligence](bi.md)  

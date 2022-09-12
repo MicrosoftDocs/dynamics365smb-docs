@@ -34,7 +34,7 @@ The following table describes a sequence of tasks, with links to the topics that
 > [!TIP]
 > Use bank reconciliation to help verify that your books are up-to-date, and do not post the reconciliation until you are satisfied with the reconciliation.
 
-## See Related Training at [Microsoft Learn](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+## See related [Microsoft training](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
 
 ## See Also
 

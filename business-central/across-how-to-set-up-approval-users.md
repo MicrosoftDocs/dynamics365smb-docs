@@ -51,7 +51,7 @@ Before you can create workflows that involve approval steps, you must set up the
 3. To test the approval user setup, choose the **Approval User Setup Test** action.  
 4. Repeat steps 2 and 3 for every user who you want to set up as an approval user.  
 
-## See related training at [Microsoft Learn](/learn/modules/create-workflows/)
+## See related [Microsoft training](/training/modules/create-workflows/)
 
 ## See also
 

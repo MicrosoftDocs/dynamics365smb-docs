@@ -46,7 +46,7 @@ When you have designed and built your app, you can share it with your colleagues
 > [!NOTE]
 > If you want to connect to [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, then you must choose the **Business Central (on-premises)** connector in step 3.  
 
-## See related training at [Microsoft Learn](/learn/paths/power-apps-power-automate-business-central/)
+## See related [Microsoft training](/training/paths/power-apps-power-automate-business-central/)
 
 ## See also
 

@@ -48,7 +48,7 @@ In this procedure, you replace assemble-to-order quantities with inventory quant
 > [!CAUTION]  
 >  The **Bin Code** field on the sales order may be prefilled according to the **Assemble-to-Order Shpt. Bin Code** or the **From-Assembly Bin Code** field on the location card. In that case, the **Bin Code** field on the sales order line may be incorrect in this combination of assemble-to-order and assemble-to-stock quantities. It is a good idea to look in the **Bin Code** field and ensure that the placement works for all quantities. Alternatively, enter the two different quantities on separate sales order lines.  
 
-## See related training at [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## See also
 

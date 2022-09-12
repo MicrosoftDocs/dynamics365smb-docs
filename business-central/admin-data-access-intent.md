@@ -44,7 +44,7 @@ In database terms, this feature is commonly known as *read scale-out*. For more 
     > [!NOTE]
     > If an object that is editable, like the Customer Card, is set to **Read Only**, the primary database will still be used, regardless of the access intent, allowing users to make changes as normal.
 
-## See Related Training at [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
+## See related [Microsoft training](/training/paths/deploy-configure-dynamics-365-business-central/)
 
 ## See Also
 [Business Functionality](across-business-functionality.md)  

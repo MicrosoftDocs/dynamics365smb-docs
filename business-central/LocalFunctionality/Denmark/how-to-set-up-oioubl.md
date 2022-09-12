@@ -14,23 +14,27 @@
 
 ---
 # Set Up OIOUBL
+
 You must define a location for storing Offentlig Information Online UBL (OIOUBL) files when you create electronic documents such as invoices or credit memos. You must also define payment methods, payment terms, and item charges, and you must set up relevant customers for OIOUBL.  
 
 * Set up payment terms and item charges.  
 * Set up customers for OIOUBL.  
 
-### About OIOUBL Profiles  
+### About OIOUBL profiles
+
 OIOUBL profiles are adaptations of business processes for various types of transactions, and differ depending on the types and contents of the documents that are exchanged. In Denmark, the two profiles that are required are the **Simpel fakturaproces** (Procurement-OrdSim-BilSim-1.0) and **Billing Basic** (urn:www.nesubl.eu:profiles:profile5:ver2.0) profiles. The Billing Basic profile is based on the Northern European Subset (NES). Your customer must be able to receive documents in one of these profiles. If you are not sure, ask your customer about the profile they require. For more information, see the entry on OIOUBL profiles in the frequently asked questions section at [Digitaliseringsstyrelsen](https://aka.ms/Digitaliseringsstyrelsen).  
 
 The default profile for all customers is the Simpel fakturaproces profile, which is chosen on the **Sales & Receivables Setup** page. You specify the profile for a specific customer on the **Customer** card. If you want to use the Billing Basic profile you will need to add it. To do so, on the **Sales & Receivables Setup** page, choose the button in the **Default Profile Code** field, and then choose **New**. Enter a name for the code, and then in the **Profile** field, enter **urn:www.nesubl.eu:profiles:profile5:ver2.0**. You can then choose the profile either as the default profile, or for one or more customers.
 
-##To set up payment terms
+## To set up payment terms
+
 If you set up payment terms for customers, the electronic documents will include discounts you give for early payments.
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Terms**, and then choose the related link.  
 2.  In the **OIOXML Code** field, choose a code for each payment term that you will use for electronic invoices.  
 
-### To set up customers for OIOUBL  
+### To set up customers for OIOUBL
+
 You can use the **Offentlig kunde (OIOXML)** customer template to apply standard settings for OIOUBL to a new customer, or the **Apply Template** function to apply the settings in the template to an existing customer. The following steps describe how to manually complete the required fields for OIOUBL. <!--need to check whether this overwrites anything for existing customers-->
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
@@ -53,16 +57,17 @@ You can use the **Offentlig kunde (OIOXML)** customer template to apply standard
 
 For more information about how to set up a customer, see [Register New Customers](../../sales-how-register-new-customers.md).
 
-## To set up item charges  
+## To set up item charges
+
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Charges**, and then choose the related link.  
 2.  For each item charge, in the **Charge Category** field, select a category.  
 
 Finally, you must specify EAN numbers and account codes for the relevant customers. For more information, see [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md).  
 
-## See Also  
+## See also
+
 [Denmark Local Functionality](denmark-local-functionality.md)  
 [OIOUBL Electronic Invoicing Overview](oioubl-electronic-invoicing-overview.md)   
 [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md)   
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

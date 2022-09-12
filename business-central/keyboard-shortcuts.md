@@ -47,7 +47,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Alt+Shift+F2|Shift between **Details** and **Attachments** in the FactBox pane.|
 |Alt+O|Add a new note for the selected record, even if the FactBox pane isn't open.|
 |Alt+Q<br />(Ctrl+Option+Q)|Open the **Tell Me** window. For more information, see [Finding Pages and Information with Tell Me](ui-search.md).|
-|Ctrl+Alt+Q<br />(Ctrl+Option+Cmd+Q)|Open the **Find Entries** page to find documents and entries related to each other based on common information, like document number or posting date. For more information, see [Finding Related Entires for Posted Documents ](ui-find-entries.md)|
+|Ctrl+Alt+Q<br />(Ctrl+Option+Cmd+Q)|Open the **Find Entries** page to find documents and entries related to each other based on common information, like document number or posting date. For more information, see [Finding Related Entires for Posted Documents](ui-find-entries.md)|
 |Alt+N |Open a page to create a new record. (Similar to choosing the **New** and **+** actions.)|
 |Alt+Shift+N |Close a newly created page and open a new one to create a new record. Similarly, Alt+F9 posts a document and creates a new one.|
 |Alt+T|Open the **My Settings** page.|

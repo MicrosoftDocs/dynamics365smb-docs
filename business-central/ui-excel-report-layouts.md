@@ -130,7 +130,7 @@ To summarize what you can and can't do on the **Data** sheet:
 - Don't add any columns unless they're included in the report dataset.
 - You can place the sheets in any order. For example, the **Data** sheet can be first or last.
 
-## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## See Also
 

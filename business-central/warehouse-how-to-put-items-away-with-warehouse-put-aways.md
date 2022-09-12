@@ -72,7 +72,7 @@ The bin ranking is taken into consideration when more than one bin matches put-a
 4.  If the receipt is partially put away or not put away at all, choose the **Create Put-away** action.  
 5.  Fill in the batch job request page to create the put-away, and then choose the **OK** button.  
 
-## See related training at [Microsoft Learn](/learn/modules/receive-put-away-items/)
+## See related [Microsoft training](/training/modules/receive-put-away-items/)
 
 ## See also
 

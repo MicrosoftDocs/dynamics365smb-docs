@@ -91,7 +91,7 @@ The related item and customer ledger entries are now created in your system, and
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## See related training at [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## See also
 

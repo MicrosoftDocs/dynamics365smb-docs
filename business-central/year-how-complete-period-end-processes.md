@@ -60,7 +60,7 @@ ms.author: jswymer
 
 * Complete Tax Statements.  
 
-## See related training at [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
 ## See also
 

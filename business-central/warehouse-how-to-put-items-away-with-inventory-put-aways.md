@@ -74,7 +74,7 @@ Now that the request is created, the warehouse employee can create a new invento
 
 The posting process will post the receipt, or for production orders, the output, of the source document lines that have been put away, and if the location uses bins, the posting will also create warehouse entries to post the bin quantity changes.
 
-## See related training at [Microsoft Learn](/learn/modules/receive-put-away-items/)
+## See related [Microsoft training](/training/modules/receive-put-away-items/)
 
 ## See also
 

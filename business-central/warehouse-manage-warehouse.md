@@ -36,7 +36,7 @@ The inventory-related tasks of counting, adjusting, and reclassifying items may 
 |Pick items to be shipped, transferred, or consumed in assembly or production, according to the configured warehouse process.|[Picking Items](warehouse-pick-items.md)|
 |Record the shipment of items from warehouse locations, either with a sales order only, in simple location setups, or with a warehouse shipment, in case of semi or fully automated warehouse processes at the location.|[Ship Items](warehouse-how-ship-items.md)|  
 
-## See related training at [Microsoft Learn](/learn/modules/get-started-warehouse-management/)
+## See related [Microsoft training](/training/modules/get-started-warehouse-management/)
 
 ## See also
 

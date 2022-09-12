@@ -120,7 +120,7 @@ You define variations of workflows by filling fields on workflow lines from fixe
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## See related training at [Microsoft Learn](/learn/modules/use-approval-workflows/)
+## See related [Microsoft training](/training/modules/use-approval-workflows/)
 
 ## See also
 

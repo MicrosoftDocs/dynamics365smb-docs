@@ -141,7 +141,7 @@ On the **Inventory Pick** page, you can manage all outbound warehouse activities
 
     The 30 Amsterdam Lamps are now registered as picked from bins S-01-0001 and S-01-0002, and a negative item ledger entry is created reflecting the posted sales shipment.  
 
-## See related training at [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+## See related [Microsoft training](/training/paths/pick-ship-items-business-central/)
 
 ## See also
 

@@ -121,7 +121,7 @@ When you handle an over-receipt, you can either increase the value in the **Qty.
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] does not include functionality to automatically initiate the financial administration of over-receipts. You must manually handle this in agreement with the vendor, for example, by the vendor forwarding a new or updated invoice.
 
-## See Related Training at [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
+## See related [Microsoft training](/training/modules/receive-invoice-dynamics-d365-business-central/index)
 
 ## See Also
 

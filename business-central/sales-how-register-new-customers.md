@@ -84,7 +84,7 @@ You can choose not to have warnings tell you the customer's credit limit has bee
     |**Overdue Balance**|The **Balance Due** field on the customer's card is checked, and a warning is shown if the customer has an overdue balance.|
     |**No Warning**|No warnings are shown about the customer's status.|
 
-## See related training at [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/).
+## See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/).
 
 ## See also
 

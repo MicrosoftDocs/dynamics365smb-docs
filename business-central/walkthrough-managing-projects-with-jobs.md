@@ -457,7 +457,7 @@ The following procedures show how to create a new job, set pricing, and then set
 
  This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[prod_short](includes/prod_short.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
 
-## See related training at [Microsoft Learn](/learn/paths/create-jobs/)
+## See related [Microsoft training](/training/paths/create-jobs/)
 
 ## See also
 

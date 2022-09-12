@@ -147,7 +147,7 @@ To help you better understand personalization, here are some pointers.
 - Changes to a page in a pane will take effect on the page where ever it's shown.  
 - You can only add fields and columns from a predefined list, which is based on the page. You can't create new ones.
 
-## See Related Training at [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## See Also
 [Customize Pages for Profiles](ui-personalization-manage.md)  

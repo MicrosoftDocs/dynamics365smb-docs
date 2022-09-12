@@ -59,7 +59,7 @@ The following procedure shows how to create service items when you ship items on
 
     A service line of type **Cost** is inserted with the starting fee. The starting fee applies to the selected service item.
 
-## See related training at [Microsoft Learn](/learn/modules/create-items/)
+## See related [Microsoft training](/training/modules/create-items/)
 
 ## See also
 

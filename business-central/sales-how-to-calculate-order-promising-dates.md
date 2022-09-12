@@ -131,7 +131,7 @@ Before an item can be included in the order promising calculation, it must be ma
     - Select **Capable-to-Promise** if you know that the item is presently out of stock and you want to calculate the earliest date that the item can be available by issuing new replenishment requisitions.  
 5.  Choose the **Accept** button to accept the earliest shipment date available.  
 
-## See related training at [Microsoft Learn](/learn/modules/promising-sales-order-delivery-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
 
 ## See also
 

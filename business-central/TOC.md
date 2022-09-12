@@ -1,11 +1,11 @@
-﻿# [Welcome to Business Central](index.md)  
+# [Welcome to Business Central](index.md)  
 # [New and Planned](product-news.md)
 # Get Started
 ## [Overview of Business Functionality](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
 ## Learn
 ### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Business Process Walkthroughs
 #### [Available Walkthroughs](walkthrough-business-process-walkthroughs.md)
 #### [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)

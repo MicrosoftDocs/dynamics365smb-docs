@@ -28,7 +28,7 @@ The following steps provide an overview of the steps to integrate [!INCLUDE[prod
 
 ## Getting Started with [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-To get started with [!INCLUDE[prod_short](includes/cds_long_md.md)] you will need a Microsoft Power Apps account. If you do not already have a Power Apps account, you can get one for free by visiting [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) and choosing the **Get started free** link. To learn more about how to get started with [!INCLUDE[prod_short](includes/cds_long_md.md)], see the [Get started with Dataverse](/learn/modules/get-started-with-powerapps-common-data-service/) module from Microsoft Learn.
+To get started with [!INCLUDE[prod_short](includes/cds_long_md.md)] you will need a Microsoft Power Apps account. If you do not already have a Power Apps account, you can get one for free by visiting [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) and choosing the **Get started free** link. To learn more about how to get started with [!INCLUDE[prod_short](includes/cds_long_md.md)], see the [Get started with Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) module from Microsoft training.
 
 ## Bi-Directional or Uni-directional Data Synchronization
 
@@ -59,7 +59,7 @@ For details about each role, such as the permissions and access levels, see [Set
 
 During connection setup, integration table mappings that are needed to synchronize data, are created. Entities in [!INCLUDE[prod_short](includes/cds_long_md.md)] are mapped to tables and table fields in Business Central through integration tables. For more information, see [Standard Entity Mapping for Synchronization](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## See related training at [Microsoft Learn](/learn/modules/use-model-driven-apps-common-data-service/)
+## See related [Microsoft training](/training/modules/use-model-driven-apps-common-data-service/)
 
 ## See also
 

@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2021
+ms.date: 09/07/2022
 ms.author: jswymer
 ---
 
@@ -44,6 +44,8 @@ This article describes how to get started using Power BI Desktop to create repor
 - Download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional).
 
   For more information, see [Use the [!INCLUDE [prod_short](includes/prod_short.md)] report theme](#theme) in this article.
+
+[!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
 ## <a name="getdata"></a>Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power BI Desktop
 

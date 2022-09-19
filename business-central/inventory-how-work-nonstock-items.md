@@ -64,7 +64,7 @@ You can then fill or edit fields on the new item card as necessary. For more inf
 > [!NOTE]  
 > An item reference is automatically item between the vendor's item number and your new item number. For more information, see [Use Item References](inventory-how-use-item-cross-refs.md).
 
-## See related training at [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## See also
 

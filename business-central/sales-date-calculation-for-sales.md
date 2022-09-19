@@ -40,7 +40,7 @@ If you do not specify a requested delivery date on the sales order line, or if t
 - shipment date + outbound whse. handling time = planned shipment date
 - planned shipment date + shipping time = planned delivery date
 
-## See related training at [Microsoft Learn](/learn/modules/promising-sales-order-delivery-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
 
 ## See also
 

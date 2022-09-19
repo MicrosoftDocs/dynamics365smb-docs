@@ -77,7 +77,7 @@ In addition to price specified on the resource card, you can set up alternate pr
 3. On the **Resource Prices** page, fill in the fields on a line as necessary.
 4. Repeat step 3 for each alternate resource price that you want to set up.
 
-## See related training at [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+## See related [Microsoft training](/training/paths/set-up-jobs-resources/)
 
 ## See also
 

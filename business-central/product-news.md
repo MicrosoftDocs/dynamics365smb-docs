@@ -32,7 +32,7 @@ You can also explore the [Dynamics 365 Business Central Capabilities](https://dy
 
 [Visit Our Video Library](across-videos.md)  
 [Resources for Help and Support](product-help-and-support.md)  
-[Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Dynamics 365 Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Business Central Quick Starts](quick-start-business-central.md)  
 [Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/)  

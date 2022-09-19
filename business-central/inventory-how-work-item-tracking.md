@@ -222,7 +222,7 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 8. If you want to modify the existing information for the lot or serial number, you can record lot or serial information.  
 9. Post the journal to link the renewed item tracking numbers or expiration dates to the associated item ledger entry
 
-## See related training at [Microsoft Learn](/learn/modules/prepare-item-tracking/)
+## See related [Microsoft training](/training/modules/prepare-item-tracking/)
 
 ## See also
 

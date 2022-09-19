@@ -53,7 +53,7 @@ The following table describes a sequence of tasks, with links to the topics that
 > [!TIP]
 > Depending on your geographical location, some pages can contain fields that are not described in the articles that are listed here because they apply to local functionality or customizations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## See Related Training at [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+## See related [Microsoft training](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## See Also
 

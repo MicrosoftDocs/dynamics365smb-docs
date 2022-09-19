@@ -240,7 +240,7 @@ You can specify the reports that must be printed at different stages by choosing
 > [!NOTE]
 > The available reports may vary based on your country's localization. The base application doesn't include any layouts.
 
-## See related training at [Microsoft Learn](/learn/modules/adjust-inventory/)
+## See related [Microsoft training](/training/modules/adjust-inventory/)
 
 ## See also
 

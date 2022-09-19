@@ -230,7 +230,7 @@ The following example is based on a location code. The steps are similar for oth
 
 For information about transferring items with full control of quantities shipped and received, see [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).
 
-## See related training at [Microsoft Learn](/learn/modules/adjust-inventory/)
+## See related [Microsoft training](/training/modules/adjust-inventory/)
 
 ## See also
 

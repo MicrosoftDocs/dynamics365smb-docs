@@ -76,7 +76,7 @@ If you received an invoice for the item charge after you posted the original pur
 
 The item charge on the separate purchase invoice is now assigned to the item on the posted purchase receipt, thereby updating the item's inventory value with the cost of the item charge.
 
-## See related training at [Microsoft Learn](/learn/modules/post-purchase-item-charges-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
 
 ## See also
 

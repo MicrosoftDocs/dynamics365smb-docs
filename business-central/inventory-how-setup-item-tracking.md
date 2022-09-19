@@ -83,7 +83,7 @@ To enable item tracking you first have to assign the item tracking codes to an i
 3. On the **Item Tracking** FastTab, assign the appropriate item tracking codes and choose the **Item Tracking Code**, the **Serial Nos.**, and the **Lot Nos.**.
     1. Alternatively you can also create a new item tracking code by selecting the **New** action.
 
-## See related training at [Microsoft Learn](/learn/modules/prepare-item-tracking/)
+## See related [Microsoft training](/training/modules/prepare-item-tracking/)
 
 ## See also
 

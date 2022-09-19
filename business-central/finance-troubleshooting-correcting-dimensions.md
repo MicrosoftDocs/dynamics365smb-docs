@@ -120,7 +120,7 @@ If a correction does not complete, a warning will display on the correction card
 
 After you correct dimensions your data for cost accounting will be out of sync. Cost accounting uses dimensions to aggregate amounts for cost centers and cost objects, and to run cost allocations. Changing dimensions for G/L entries will probably mean that you re-run your cost accounting models. Whether you need to just delete a few cost registers and re-run allocations, or you need to delete everything and re-run all of your models depends on the data that has been updated and how your cost accounting capabilities are set up. You must manually identify where dimension corrections will impact cost accounting and where updates are needed. [!INCLUDE[prod_short](includes/prod_short.md)] does not currently provide an automated way to do that.
 
-## See related training at [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/dimensions-dynamics-365-business-central/)
 
 ## See also
 

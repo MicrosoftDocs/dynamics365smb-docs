@@ -55,7 +55,7 @@ To always post expenses that are related to fees from a specific bank, MyBank, t
 | --- | --- | --- | --- | --- |
 | MyBank |BLANK |60400|G/L Account |BLANK |
 
-## See related training at [Microsoft Learn](/learn/modules/use-journals-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/use-journals-dynamics-365-business-central/)
 
 ## See also
 

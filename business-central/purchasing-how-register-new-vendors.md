@@ -69,7 +69,7 @@ You can edit the information on vendor cards at any time. However, if you have p
 5. When you have completed the new vendor template, choose **OK**.  
    The vendor template is added to the list of vendor templates, so you can use it to create new vendor cards.
 
-## See related training at [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/).
+## See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/).
 
 ## See also
 

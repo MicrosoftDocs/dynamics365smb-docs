@@ -54,7 +54,7 @@ On the **Posted Purchase Invoice** page, you can choose the **Correct** button o
 
 If the cancellation is related to a partial invoice posting, then the originating purchase order line is updated to reflect the canceled invoiced quantity. The **Qty. to Invoice** and **Qty. Invoiced** fields on the related purchase order line are reset to the values before the partial posting.
 
-## See related training at [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/)
+## See related [Microsoft training](/training/modules/receive-invoice-dynamics-d365-business-central/)
 
 ## See also
 

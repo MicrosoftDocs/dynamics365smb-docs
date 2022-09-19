@@ -245,7 +245,7 @@ Some API pages, including most API v2.0 pages, have fields based on [AL Enum obj
 
 ---
 
-## See related training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## See also
 

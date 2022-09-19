@@ -44,7 +44,7 @@ The next time you calculate bin replenishment, the suggestions that you have del
 >   
 >  then the **From Zone** and **From Bin** fields will be blank because the algorithm to calculate from where to move the items is triggered only when you activate the **Create Movement** function.  
 
-## See related training at [Microsoft Learn](/learn/modules/move-items/)
+## See related [Microsoft training](/training/modules/move-items/)
 
 ## See also
 

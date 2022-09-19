@@ -27,11 +27,11 @@ If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in
 
 ## Microsoft Docs
 
-In the navigation panel to the left, you can find information about using [!INCLUDE[prod_short](includes/prod_short.md)] in your company. Find links to descriptions of the most commonly used capabilities in the [Business Processes](#business-processes) section. See also the [Use the docs.microsoft.com site to learn more](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more) section.  
+In the navigation panel to the left, you can find information about using [!INCLUDE[prod_short](includes/prod_short.md)] in your company. Find links to descriptions of the most commonly used capabilities in the [Business Processes](#business-processes) section. See also the [Learn more using the product documentation](product-help-and-support.md#learn-more-using-the-product-documentation) section.
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-You can also [visit our video library](across-videos.md), or start with the [Get started with Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) learning path on [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+You can also [visit our video library](across-videos.md), or start with the [Get started with Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/) learning path on [Microsoft training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
 > Unless otherwise specified, the content on the Docs.microsoft.com site reflects the latest version of [!INCLUDE[prod_short](includes/prod_short.md)] online. If your organization uses a different version of [!INCLUDE[prod_short](includes/prod_short.md)] online, then some capabilities might not yet be available. Also, if your organization uses [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you might be using an earlier version. For more information, see [Frequently Asked Questions](across-faq.yml).
@@ -75,7 +75,7 @@ The following sections point to key articles that can help you get familiar with
 
 ## Learn
 
-Find free e-learning content for [!INCLUDE[prod_short](includes/prod_short.md)] on [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+Find free e-learning content for [!INCLUDE[prod_short](includes/prod_short.md)] on [Microsoft training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 You can also view videos of new and commonly used capabilities in our video library. For more information, see [Visit Our Video Library](across-videos.md).  
 
@@ -91,11 +91,11 @@ You can also view videos of new and commonly used capabilities in our video libr
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## See Related Training at [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+## See related [Microsoft training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
 ## See Also
 
-[Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Dynamics 365 Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Business Central Quick Starts](quick-start-business-central.md)  
 [Getting Started with Business Central](ui-get-ready-business.md)  
 [Visit Our Video Library](across-videos.md)  
@@ -104,7 +104,7 @@ You can also view videos of new and commonly used capabilities in our video libr
 [Getting [!INCLUDE[prod_short](includes/prod_short.md)] on Your Mobile Device](install-mobile-app.md)  
 [Work with Dimensions](finance-dimensions.md)  
 [Resources for Help and Support](product-help-and-support.md)  
-[Use the docs.microsoft.com site to learn more](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more)  
+[Learn more using the product documentation](product-help-and-support.md#learn-more-using-the-product-documentation)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Compliance](compliance/compliance-overview.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Online Service Terms](compliance/compliance-service-compliance.md#service-terms)  
 [Major Updates and Minor Updates of Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  

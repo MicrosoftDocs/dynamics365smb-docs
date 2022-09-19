@@ -45,7 +45,7 @@ This video shows how to set up a workflow that will require a user to request so
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## See related training at [Microsoft Learn](/learn/modules/create-workflows/)
+## See related [Microsoft training](/training/modules/create-workflows/)
 
 ## See also
 

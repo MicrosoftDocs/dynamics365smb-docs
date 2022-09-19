@@ -32,7 +32,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
    The **Workflow** page opens for a new workflow containing all the information of the selected template. The value in the **Code** field is extended with, for example, "-01" to indicate that this is the first workflow that is created from the workflow template.  
 4. Proceed to create the workflow by editing the workflow steps or add new steps. For more information, see [Create Workflows](across-how-to-create-workflows.md).  
 
-## See related training at [Microsoft Learn](/learn/modules/create-workflows/)
+## See related [Microsoft training](/training/modules/create-workflows/)
 
 ## See also
 

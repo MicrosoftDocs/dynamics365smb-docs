@@ -41,7 +41,7 @@ Workflow users that function as approval users, both approval requesters and app
 6. Repeat step 5 to add more workflow users to the user group.  
 7. Repeat steps 2 through 6 to add more workflow user groups.  
 
-## See related training at [Microsoft Learn](/learn/modules/create-workflows/)
+## See related [Microsoft training](/training/modules/create-workflows/)
 
 ## See also
 

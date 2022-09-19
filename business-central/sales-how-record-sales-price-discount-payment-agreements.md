@@ -218,7 +218,7 @@ In addition to, or instead of, a discount percentage, you can link a service cha
 > [!TIP]  
 > Before you enter this information, it is a good idea to prepare an outline of the discount structure that you want to use. This makes it easier to see which customers can be linked to the same invoice discount page. The fewer pages you have to set up, the faster you can enter the basic information.
 
-For training in discounts in sales, see [Set up discounts for your customers](/learn/modules/customer-discounts-dynamics-365-business-central/index) at Microsoft Learn.  
+For training in discounts in sales, see [Set up discounts for your customers](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
 ### Calculating Invoice Discounts on Sales
 
@@ -273,7 +273,7 @@ Proceed to set up new the sales invoice discount terms.
 4. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
 5. Repeat steps 5 through 7 for each currency that the customer will receive a different invoice discount for.
 
-## See Related Training at [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/manage-sales-prices-dynamics-365-business-central/index)
 
 ## See Also
 

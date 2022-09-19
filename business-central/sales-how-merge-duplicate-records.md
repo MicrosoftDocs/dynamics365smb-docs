@@ -59,7 +59,7 @@ The following procedure is based on a customer card. The steps are similar for a
 > [!NOTE]
 > For contacts, you can use functionality to find duplicate contacts before you use the **Merge Duplicate** page. For more information, see [Searching for Duplicate Contacts](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## See related training at [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## See also
 

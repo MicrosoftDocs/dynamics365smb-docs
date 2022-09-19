@@ -73,7 +73,7 @@ To work with the **Bin Creation Worksheet** page, you must be set up as a wareho
 
 Repeat the process for another set of bins until you have created all the bins in your warehouse.  
 
-## See related training at [Microsoft Learn](/learn/modules/create-new-bins/)
+## See related [Microsoft training](/training/modules/create-new-bins/)
 
 ## See also
 

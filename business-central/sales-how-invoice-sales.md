@@ -120,7 +120,7 @@ You can even create directly paid invoices for non-registered customers by setti
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## See related training at [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index).
+## See related [Microsoft training](/training/modules/invoicing-customers-dynamics-365-business-central/index).
 
 ## See also
 

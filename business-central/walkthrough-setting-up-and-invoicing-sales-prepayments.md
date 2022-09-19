@@ -238,7 +238,7 @@ You've also posted a prepayment invoice, created a second prepayment invoice whe
 
 The prepayments capabilities make it easy to set up and enforce prepayment rules for customers and items. They also let you to post every payment against an invoice.  
 
-## See related training at [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## See also
 

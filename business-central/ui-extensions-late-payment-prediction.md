@@ -112,13 +112,13 @@ You can also create your own predictive web service based on a public model name
 7. Choose the **Use My Azure Subscription** check box.
 8. On the **My Model Credentials** FastTab, enter the API URL and API key for your model.  .  
 
-## See related training at [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
+## See related [Microsoft training](/training/modules/predict-late-payments-sales-documents/)
 
 ## See also
 
 [Azure Machine Learning Studio Documentation](/azure/machine-learning/classic/)  
 [Customizing Business Central Using Extensions](ui-extensions.md)  
 [Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
-[Use Artificial Intelligence in Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
+[Use Artificial Intelligence in Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

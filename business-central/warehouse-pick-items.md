@@ -41,7 +41,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Split a pick line into multiple lines, for example because there are not enough items to take from in the designated bin.|[Split Warehouse Activity Lines](warehouse-how-to-split-warehouse-activity-lines.md)|
 |Get immediate access to picks that are assigned to you as a warehouse worker.|[Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)|  
 
-## See related training at [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+## See related [Microsoft training](/training/paths/pick-ship-items-business-central/)
 
 ## See also
 

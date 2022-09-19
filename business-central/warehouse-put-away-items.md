@@ -36,7 +36,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Split a put-away line to place part of the put-away quantity in available bins because the designated bin is filled up.|[Split Warehouse Activity Lines](warehouse-how-to-split-warehouse-activity-lines.md)|
 |Get immediate access to put-aways that are assigned to you as a warehouse worker.|[Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)|
 
-## See related training at [Microsoft Learn](/learn/modules/receive-put-away-items/)
+## See related [Microsoft training](/training/modules/receive-put-away-items/)
 
 ## See also
 

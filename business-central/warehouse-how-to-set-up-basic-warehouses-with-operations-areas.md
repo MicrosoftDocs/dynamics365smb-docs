@@ -139,7 +139,7 @@ Making a bin dedicated provides similar functionality to using bin types, which 
 > [!NOTE]  
 >  The bin must be empty before you can select or clear the **Dedicated** field.
 
-## See related training at [Microsoft Learn](/learn/modules/get-started-warehouse-management/)
+## See related [Microsoft training](/training/modules/get-started-warehouse-management/)
 
 ## See also
 

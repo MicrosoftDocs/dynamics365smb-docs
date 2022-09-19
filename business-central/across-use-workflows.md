@@ -66,7 +66,7 @@ Before you can begin to use workflows, you must set up workflow users, create th
 |View workflow step instances of status **Completed**.|[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)|  
 |Delete a workflow that you're sure will no longer be used.|[Delete Workflows](across-how-to-delete-workflows.md)|  
 
-## See related training at [Microsoft Learn](/learn/modules/create-workflows/)
+## See related [Microsoft training](/training/modules/create-workflows/)
 
 ## See also
 

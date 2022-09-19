@@ -82,7 +82,7 @@ The **Find it** section includes two links to product Help:
   
 - Help landing page for [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  The functionality in the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is described on the [Docs.microsoft.com](/dynamics365/business-central) site. For more information, see the [Use the docs.microsoft.com site to learn more](#use-the-docsmicrosoftcom-site-to-learn-more) section. You can also extend and customize [!INCLUDE[prod_short](includes/prod_short.md)] with apps from AppSource. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prod_short](includes/prod_short.md)].  
+  The functionality in the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is described in the [Dynamics 365 Business Central documentation](/dynamics365/business-central) For more information, see the [Learn more using the product documentation](#learn-more-using-the-product-documentation) section. You can also extend and customize [!INCLUDE[prod_short](includes/prod_short.md)] with apps from AppSource. All apps provide links to the relevant product Help so that you can always find guidance for the different workflows in your version of [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### Community
 
@@ -146,13 +146,13 @@ To alert your partner to a problem, choose the link to either send an email or o
 > [!NOTE]
 > The support contacts information isn't available with [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.
 
-## Use the docs.microsoft.com site to learn more
+## Learn more using the product documentation
 
-The base version of [!INCLUDE [prod_short](includes/prod_short.md)] is extended and customized by a large community of partners. Each partner and many customers deploy their own Help to their own website. But you can always go to the [docs.microsoft.com](index.md) site to learn more. The site hosts different types of content, such as the following:
+The base version of [!INCLUDE [prod_short](includes/prod_short.md)] is extended and customized by a large community of partners. Each partner and many customers deploy their own Help to their own website. But you can always go to the [Dynamics 365 Business Central documentation](index.md) site to learn more. The site hosts different types of content, such as the following:
 
 - [Conceptual content about business functionality](index.md)  
 - [Documentation for developers](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
-- [Free learning paths and e-learning modules across multiple user profiles](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+- [Free learning paths and e-learning modules across multiple user profiles](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
 In this section, you can learn about how to navigate the business functionality content.  
 
@@ -160,7 +160,7 @@ In this section, you can learn about how to navigate the business functionality 
 
 ### Content on the site
 
-[This section](index.md) of the docs.microsoft.com site hosts content from Microsoft that represents the *Learn more* pillar in the user assistance model. In part, the *Learn more* content intends to answer those questions that the user interface can't answer, such as the following:
+[This section](index.md) of Microsoft Learn hosts content from Microsoft that represents the *Learn more* pillar in the user assistance model. In part, the *Learn more* content intends to answer those questions that the user interface can't answer, such as the following:
 
 - Where does this page fits into the bigger workflow?  
 - What comes next?  
@@ -175,11 +175,11 @@ The table of contents includes a group of content that describes [local function
 The local functionality content describes the capabilities in [!INCLUDE [prod_short](includes/prod_short.md)] that can help you be compliant in the supported markets, such as tax statements and other reports. In some cases, the difference between the default version and the country-specific version is invisible to users. In other cases, users must set up reporting or electronic invoicing in a specific way. If you can't find a description of a certain button or action in the general section, you can hopefully find it in the *Local Functionality* section.  
 
 > [!TIP]
-> On the docs.microsoft.com site as well as in the in-product search field and in the Help pane, the search results show some context for the target article. The context includes the link that might show the name of a country, or a short description that calls out a certain capability or a country, for example.
+> On the learn.microsoft.com site as well as in the in-product search field and in the Help pane, the search results show some context for the target article. The context includes the link that might show the name of a country, or a short description that calls out a certain capability or a country, for example.
 
 ### Finding other content
 
-If you land on an article that doesn't answer your question, you can find other content in two ways on the docs.microsoft.com site:
+If you land on an article that doesn't answer your question, you can find other content in two ways on Microsoft Learn:
 
 - Use the **Filter by title** field in the table of contents on the left side of the website
 
@@ -192,21 +192,21 @@ If you land on an article that doesn't answer your question, you can find other 
 
 ### Languages
 
-Content about business functionality is published in several languages. When you land on the docs.microsoft.com site from inside the product, you see the content in the same language as you've specified in [!INCLUDE [prod_short](includes/prod_short.md)], unless that language isn't available on the docs.microsoft.co. site.  
+Content about business functionality is published in several languages. When you land on Microsoft Learn from inside the product, you see the content in the same language as you've specified in [!INCLUDE [prod_short](includes/prod_short.md)], unless that language isn't available on Microsoft Learn.  
 
 You can change the language by changing the URL, or you can use the language toggle in the bottom-left corner of the website.  
 
 The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it's then sent off for translation into the supported languages. In some cases, you will not be able to read this new content in your own language for up to four weeks, but in most cases it only takes a week or two. You can always view the latest information by switching the language to *en-us*.  
 
-For each language, the table of contents is translated, but the content in the *Local Functionality* section is in English except for the country that corresponds to the current language. For example, in the Danish version of the docs.microsoft.com site (`https://docs.microsoft.com/da-dk/dynamics365/business-central/`), you can see the entries for Australian local functionality in Danish in the table of contents, but the articles are in English. Only the articles for Danish local functionality are translated into Danish.  
+For each language, the table of contents is translated, but the content in the *Local Functionality* section is in English except for the country that corresponds to the current language. For example, in the Danish version of Microsoft Learn (`https://learn.microsoft.com/da-dk/dynamics365/business-central/`), you can see the entries for Australian local functionality in Danish in the table of contents, but the articles are in English. Only the articles for Danish local functionality are translated into Danish.  
 
 ### Recommended content
 
-In March 2021, a new section appeared under most articles on the docs.microsoft.com site. The **Recommended content** section is automatically generated based on how each article is used with the rest of the docs.microsoft.com site. The links aren't static and change over time.
+In March 2021, a new section appeared under most articles on Microsoft Learn. The **Recommended content** section is automatically generated based on how each article is used with the rest of the site. The links aren't static and change over time.
 
 ### Tell us what you think
 
-On docs.microsoft.com, each article has two buttons at the end of the article. The *This product* button sends you to the Ideas site, and the **This page** button lets you submit feedback about the content through GitHub. In both cases, you must create an account if you don't already have one. For *product feedback*, you must sign in with your work or organizational email account. For *access to GitHub*, you can use any email address when you create an account.  
+With Microsoft Learn, each article has two buttons at the end of the article. The *This product* button sends you to the Ideas site, and the **This page** button lets you submit feedback about the content through GitHub. In both cases, you must create an account if you don't already have one. For *product feedback*, you must sign in with your work or organizational email account. For *access to GitHub*, you can use any email address when you create an account.  
 
 We welcome your contributions, both as pull requests with suggestions or corrections to the content, and as GitHub Issues with bugs or questions. But please be mindful that feedback and contributions to the *dynamics365smb-docs* repo is about the content, not about the product.  
 
@@ -215,7 +215,7 @@ We welcome your contributions, both as pull requests with suggestions or correct
 
 ### Navigating to other parts of the site
 
-The docs.microsoft.com hosts content for other products and other types of content. Use the links at the top of the site to navigate to the [Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) site or to the [Dynamics 365 release plans](/dynamics365/release-plans/), for example. You can also find a link to the
+Microsoft Learn hosts content for other products and other types of content. Use the links at the top of the site to navigate to [Microsoft training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) site or to the [Dynamics 365 release plans](/dynamics365/release-plans/), for example. You can also find a link to the
 [Dynamics 365 Community](https://community.dynamics.com/) site, for example.  
 
 ## Apps and other solutions
@@ -234,6 +234,6 @@ The same applies if you use [!INCLUDE [prod_short](includes/prod_short.md)] on-p
 [Business Central developer and administration docs](/dynamics365/business-central/dev-itpro/)  
 [Resources for Help and Support for Partners](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Technical Support](/dynamics365/business-central/dev-itpro/technical-support)  
-[Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Microsoft Learn site](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

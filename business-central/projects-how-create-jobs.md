@@ -82,7 +82,7 @@ A job planning line can have one of the following types.
 4. On the **Job Planning Lines** page, on a new line, fill in the fields as necessary.
 5. Repeat steps 3 and 4 for all planning lines that you need for the job task.
 
-## See related training at [Microsoft Learn](/learn/modules/create-new-job/)
+## See related [Microsoft training](/training/modules/create-new-job/)
 
 ## See also
 

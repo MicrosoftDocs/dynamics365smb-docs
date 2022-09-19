@@ -55,7 +55,7 @@ When the **Block Deletion of G/L Accounts** field is set to *Yes*, you cannot de
 
 We recommend setting the **Block Deletion of G/L Accounts** field to *Yes*. We also recommend that you always have a date set in the **Check G/L Acc. Deletion After** field, such as the time you're required to store your finance data.  
 
-## See Related Training at [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## See Also
 

@@ -12,7 +12,7 @@ ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
 
 For details about how to complete complex tasks, use dedicated HowTo articles. Use [!INCLUDE [prod_short](includes/prod_short.md)] for the product name.  
 
-For tips about MarkDown and style, see [Authoring Guide for Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/help/writing-guide).  
+For tips about MarkDown and style, see [Authoring Guide for Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide).  
 
 Remember to add See Also links, and to add the new article to the TOC.md file.  
 

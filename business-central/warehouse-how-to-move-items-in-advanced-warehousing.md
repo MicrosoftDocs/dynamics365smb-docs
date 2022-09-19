@@ -47,7 +47,7 @@ If your location uses directed put-away and pick, and you need to move items to 
 2.  Fill in the **Item No.**, **From Zone Code**, **From Bin Code**, **To Zone Code**, and **To Bin Code** fields.  
 3.  Choose the **Register** action.  
 
-## See related training at [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+## See related [Microsoft training](/training/modules/manage-internal-warehouse-processes/)
 
 ## See Also
 

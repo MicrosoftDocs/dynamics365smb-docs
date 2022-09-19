@@ -297,7 +297,7 @@ When you enter an entry in B1 in the fixed asset G/L journal and place a check m
 > [!NOTE]  
 > You cannot use the same number series in the fixed asset G/L journal and the fixed asset journal. When you post entries in the fixed asset G/L journal, you must leave the **Document No.** field empty. If you enter a number in the field, the the number is duplicated in the fixed asset journal. You'll have to manually change the document number before you can post the journal.  
 
-## See related training at [Microsoft Learn](/learn/modules/configure-depreciation-books/)
+## See related [Microsoft training](/training/modules/configure-depreciation-books/)
 
 ## See also
 

@@ -58,7 +58,7 @@ In this procedure, you process the sale of an item that will be assembled accord
 > [!NOTE]  
 > Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.
 
-## See related training at [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## See also
 

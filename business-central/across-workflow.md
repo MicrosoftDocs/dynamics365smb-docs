@@ -44,7 +44,7 @@ To set up and use workflows that aren't defined in Power Automate, check the fol
 |Set up workflow users, specify how users get notified, and create new workflows. For new workflows for unsupported scenarios, implement the required workflow elements by customizing the application code.|[Set Up Workflows](across-set-up-workflows.md)|  
 |Enable workflows, act on workflow notifications, including request approvals and approve requests to perform a workflow step. Archive and delete workflows.|[Use Workflows](across-use-workflows.md)|  
 
-## See related training at [Microsoft Learn](/learn/modules/create-workflows/)
+## See related [Microsoft training](/training/modules/create-workflows/)
 
 ## See also
 

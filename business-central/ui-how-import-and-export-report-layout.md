@@ -48,7 +48,7 @@ You can import and export an existing custom report layout as a file to and from
 
  The original custom report layout is replaced with the imported report layout.  
 
-## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## See Also
 

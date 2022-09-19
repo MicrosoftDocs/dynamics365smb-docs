@@ -163,7 +163,7 @@ If the next bank reconciliation you do is for August, consider changing the valu
 >
 >The Balance Last Statement is kept on the bank account to minimize mistakes when doing bank reconciliations, but it's also editable, allowing you to do your bank reconciliations in any order you want. This also means that if you undo a bank statement, the new ending balance might not be the balance last statement on the next bank statement. There's no feature that allows you to move a balance forward to all subsequent bank statements, so be aware of this when using Undo. 
 
-## See Related Training at [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## See Also
 

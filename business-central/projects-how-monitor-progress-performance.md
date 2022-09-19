@@ -141,7 +141,7 @@ All job-related entries are recorded in job registers and sequentially numbered,
 
 On the **Job Ledger Entries** page you can review the entries that are associated with any job.  
 
-## Find related training at [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
+## Find related [Microsoft training](/training/paths/calculate-post-job-wip/)
 
 ## See also
 

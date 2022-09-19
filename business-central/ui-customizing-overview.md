@@ -30,7 +30,7 @@ There are different ways to customize the application to give you and your colle
 > [!NOTE]
 > All feature descriptions in user documentation for [!INCLUDE[prod_short](includes/prod_short.md)] assume the **Premium** experience, meaning the descriptions cover the full scope of UI elements. Therefore, users with the **Essential** experience may in some topics read about functionality and UI elements that are not visible in their user interface. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
-## See related training at [Microsoft Learn](/learn/paths/tailor-roles-design-ui/)
+## See related [Microsoft training](/training/paths/tailor-roles-design-ui/)
 
 ## See also
 

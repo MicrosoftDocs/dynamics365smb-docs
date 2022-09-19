@@ -25,7 +25,7 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 2. Open the workflow that you want to enable.  
 3. On the **Workflow** page, turn on the **Enabled** toggle.  
 
-## See related training at [Microsoft Learn](/learn/modules/create-workflows/)
+## See related [Microsoft training](/training/modules/create-workflows/)
 
 ## See also
 

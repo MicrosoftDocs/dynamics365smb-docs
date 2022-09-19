@@ -143,7 +143,7 @@ The fields under **Advanced** set limitations on the generated report to control
 > [!NOTE]
 > The maximum values may be different for [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, and an administrator can change them. For more information, see [Configuring Business Central Server - Reports](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). For an overview of reports limitations [!INCLUDE[prod_short](includes/prod_short.md)] online, see [Operational Limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## See related training at [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
+## See related [Microsoft training](/training/paths/setup-reporting-dynamics-365-business-central/)
 
 ## See also
 

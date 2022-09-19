@@ -127,7 +127,7 @@ depreciation books.
 
 If the fixed assets are not integrated with the general ledger, skip step 6 and 8.
 
-## See related training at [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
+## See related [Microsoft training](/training/paths/set-up-fixed-assets-management/)
 
 ## See also
 

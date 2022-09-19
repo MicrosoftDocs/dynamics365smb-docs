@@ -56,7 +56,7 @@ There are two ways to set which layout a report uses. One way is from the **Repo
 
 Reports are designed to use a layout by default. You can switch back to the original default layout from **Report Layout Selection** page. Just select the report, then select the **Restore Default Selection** action at the top of the page.
 
-## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## See Also
 

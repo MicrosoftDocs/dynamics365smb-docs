@@ -36,7 +36,7 @@ To create several stockkeeping units for an item, use the **Create Stockkeeping 
 > If the SKU is supplied through production, then the **Standard Cost** field is not used when invoicing and adjusting the actual cost of the produced item. Instead, the **Standard Cost** field on the underlying item card is used, and any variances are calculated against the cost shares of that item.<br /><br />
 > Because production BOMs and routing cannot be assigned to SKUs, then the unit cost roll-up and the related calculation of cost shares are also not available on SKUs. For more information, see [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
 
-## See related training at [Microsoft Learn](/learn/modules/control-inventory-multiple-locations/)
+## See related [Microsoft training](/training/modules/control-inventory-multiple-locations/)
 
 ## See also
 

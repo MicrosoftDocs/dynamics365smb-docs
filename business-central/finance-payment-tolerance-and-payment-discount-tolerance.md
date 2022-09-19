@@ -275,7 +275,7 @@ Normal Application Rules
 
 (2) If payment falls in these ranges, all application entries can't be closed even with tolerance.
 
-## See related training at [Microsoft Learn](/learn/modules/enter-payments-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## See also
 

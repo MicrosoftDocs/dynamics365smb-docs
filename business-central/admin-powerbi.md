@@ -71,7 +71,7 @@ There are a few tasks that must be done before you can start using Power BI with
 
 -->
 
-## See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## See Also
 

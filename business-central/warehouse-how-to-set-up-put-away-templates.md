@@ -34,7 +34,7 @@ You can set up a number of put-away templates and select one of them to govern p
 
 You can create various put-away templates and then apply them as you see fit. The put-away template that you selected for the item or stockkeeping unit, if any is used first. If these fields are not filled in, then the put-away template that you selected for the warehouse on the **Bin Policies** FastTab on the location card is used.  
 
-## See related training at [Microsoft Learn](/learn/modules/put-away-templates/)
+## See related [Microsoft training](/training/modules/put-away-templates/)
 
 ## See also
 

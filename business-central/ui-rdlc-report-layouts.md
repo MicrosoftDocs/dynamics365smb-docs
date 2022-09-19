@@ -34,7 +34,7 @@ Creating and modifying RDLC layouts is an advanced task, which is typically done
 
     This article explains how to create an RDLC report layout from AL code.
 
-- [Reports, Report Parts, and Report Definitions ](/sql/reporting-services/report-design/reports-report-parts-and-report-definitions-report-builder-and-ssrs?)
+- [Reports, Report Parts, and Report Definitions](/sql/reporting-services/report-design/reports-report-parts-and-report-definitions-report-builder-and-ssrs?)
 
  The links you to the SQL Server Reporting Services documentation for RDL/RDLC. This documentation explains the concepts  
 behind RDL/RDLC, and how to use Report Builder.
@@ -42,7 +42,7 @@ behind RDL/RDLC, and how to use Report Builder.
 > [!NOTE]
 > Report Builder only recognizes .rdl file type;, not .rdlc. Layout files exported from Business Central are .rdlc file types. So to modify these layout in Report Builder, rename the file type to .rdl.
 
-## See Related Training at [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## See Also
 

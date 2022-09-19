@@ -110,9 +110,9 @@ Based on your migrated data, you can now proceed to create new sales or purchase
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Search in the help pane](product-help-and-support.md#search-in-the-help-pane)  
 [Resources for Help and Support](product-help-and-support.md)  
-[Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Microsoft training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Migrate Data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
-[Trials and Subscriptions](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions.md)  
+[Trials and Subscriptions](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

@@ -43,7 +43,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Learn about the difference between assembly BOMs and production BOMs and the involved processing differences.|[Work with Bills of Material](inventory-how-work-BOMs.md)|
 |Learn how assembly consumption and output are handled when you post assembly orders and how the derived item and resource costs are processed and distributed to the general ledger.|[Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)|  
 
-## See Related Training at [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+## See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## See Also
 

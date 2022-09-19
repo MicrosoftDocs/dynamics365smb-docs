@@ -32,7 +32,7 @@ The following table provides an overview of tasks that you typically perform to 
 | Close accounting periods and fiscal year, transfer income statement balances to balance sheet accounts and post the year end closing entry. |[Closing Books](year-close-books.md) |
 | Print reports that can assist you in creating financial statements. |[Preparing Closing Statements](year-prepare-close-statement.md) |
 
-## See Related Training at [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
 
 ## See Also
 

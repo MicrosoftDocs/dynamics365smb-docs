@@ -55,7 +55,7 @@ sections:
       - question: |
           Can I get training in Business Central?
         answer: |
-          Yes, you can! You can find free eLearning content on the [Microsoft Learn site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). You can also ask your reselling partner for more training. If you don't know who that is, see the [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) section.  
+          Yes, you can! You can find free eLearning content on the [Microsoft training site](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). You can also ask your reselling partner for more training. If you don't know who that is, see the [How do I find a reselling partner?](#how-do-i-find-a-reselling-partner) section.  
           
           For more information about training across Dynamics 365 that is provided by Microsoft, see the [Microsoft Dynamics 365 training](/dynamics365/get-started/training/index#dynamics-365-customers) page.  
           
@@ -86,7 +86,7 @@ sections:
       - question: |
           Why is new information not available in my language?
         answer: |
-          On the docs.microsoft.com site, content about business functionality is published in several languages. The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it's then sent off for translation into the supported languages. This means that you'll not be able to read this new content in your own language for up to four weeks.  
+          Microsoft Learn content about business functionality is published in several languages. The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it's then sent off for translation into the supported languages. This means that you'll not be able to read this new content in your own language for up to four weeks.  
           
           We understand the problems this can cause, and we encourage users to search for what they're looking for in English if they can't find it in their own language.  
           

@@ -101,7 +101,7 @@ You can also use the pick worksheet to make several pick instructions into one i
 > [!NOTE]
 > If you're waiting for the arrival of particular items at the warehouse and you use cross-dock functionality, then [!INCLUDE[prod_short](includes/prod_short.md)] calculates the quantity of the item in the cross-dock bin on each shipment or pick worksheet line. It updates this field each time you leave and open the shipment document or worksheet. Learn more at [Cross-Dock Items](warehouse-how-to-cross-dock-items.md).
 
-## See related training at [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/).
+## See related [Microsoft training](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
 ## See also
 

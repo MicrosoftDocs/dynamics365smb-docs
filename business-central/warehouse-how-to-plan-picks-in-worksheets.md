@@ -50,7 +50,7 @@ You can sort lines by item, shelf number, source document, due date, or destinat
 8. Choose the **Print** action to print the pick instructions.  
 9. After the pick is completed, choose the **Register** action.  
 
-## See related training at [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+## See related [Microsoft training](/training/modules/pick-ship-items-warehouse/)
 
 ## See also
 

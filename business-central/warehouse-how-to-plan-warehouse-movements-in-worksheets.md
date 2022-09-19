@@ -64,7 +64,7 @@ You can also use the movement worksheet to plan other movement of inventory with
 6.  Delete the incomplete lines that you used for information.  
 7.  Once the movement worksheet lines accurately reflect how the movement action should be carried out by the warehouse employee, choose the **Create Movement** action to create the instructions for the employee.  
 
-## See related training at [Microsoft Learn](/learn/modules/move-items/)
+## See related [Microsoft training](/training/modules/move-items/)
 
 ## See also
 

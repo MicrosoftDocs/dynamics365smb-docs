@@ -63,7 +63,7 @@ There are a few things in particular that you should do:
 * If you are using value added tax (VAT), you may need to add a business posting group and a product posting group to the posting setup so that you can post VAT amounts.
 * Verify the beginning balances for accounts in the general ledger. QuickBooks Online does not store the current balance for all accounts, so you might need to correct beginning balances.
 
-## See related training at [Microsoft Learn](/learn/modules/migrate-data-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## See also
 

@@ -36,7 +36,7 @@ The inventory-related tasks of counting, adjusting, and reclassifying items may 
 |Update the frequency at which bins, such as picking bins, must be replenished as a result of demand fluctuations.|[Calculate Bin Replenishment](warehouse-how-to-calculate-bin-replenishment.md)|
 |Restructure your warehouse with new bin codes and new bin characteristics and potentially move them around.|[Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|  
 
-## See related training at [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+## See related [Microsoft training](/training/modules/manage-internal-warehouse-processes/)
 
 ## See also
 

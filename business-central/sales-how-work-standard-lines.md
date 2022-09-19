@@ -73,7 +73,7 @@ You can use the **Create Recurring Sales Invoices** batch job to create sales in
 
 Sales invoices are created for the customers with the specified standard customer sales code, and any specified direct-debit information, for posting on the specified date.
 
-## See related training at [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## See also
 

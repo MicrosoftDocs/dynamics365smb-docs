@@ -70,7 +70,7 @@ In stead of using warehouse movement documents, you can record the moving of ite
     > [!NOTE]  
     >  Unlike with movement documents, a movement posted with the reclassification journal does not create a warehouse request to perform the physical task.  
 
-## See related training at [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+## See related [Microsoft training](/training/modules/manage-internal-warehouse-processes/)
 
 ## See also
 

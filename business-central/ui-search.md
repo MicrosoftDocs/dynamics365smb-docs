@@ -64,7 +64,7 @@ The **Tell me what you want to do** function does not search for data, such as c
 ## Questions?
 We have shown Tell Me to a range of stakeholders, noted the questions that they had in common, and turned our notes into a list frequently asked questions. If you are interested, see [Tell Me FAQ](ui-search-faq.md).
 
-## See Related Training at [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## See Also
 [Work with Business Central](ui-work-product.md)  

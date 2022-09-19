@@ -66,7 +66,7 @@ Some documents in [!INCLUDE[prod_short](includes/prod_short.md)] have a field th
 
 The **Email Outbox** is where you'll find the emails that you saved as drafts, and emails that failed to send, for example, if the email address was invalid. For messages that failed to send, you can choose **Show Error** or **Investigate Error** to troubleshoot the problem.  
 
-## See Related Training at [Microsoft Learn](/learn/modules/set-up-email/)
+## See related [Microsoft training](/training/modules/set-up-email/)
 
 ## See Also
 

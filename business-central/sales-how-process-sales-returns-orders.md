@@ -98,7 +98,7 @@ You can post this increased cost as an item charge in a credit memo or a return 
 
 When you post the sales return order, the restock charge is added to the relevant sales entry amount. In this way, you can maintain accurate inventory valuation.  
 
-## See Related Training at [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## See related [Microsoft training](/training/paths/return-items-dynamics-365-business-central/)
 
 ## See Also
 

@@ -72,7 +72,7 @@ After the warehouse shipment is posted, various fields on the sales order line a
 
 > In that case, the assemble-to-order quantity is handled as described in this topic, and the inventory quantity is handled as any other regular warehouse shipment line. For more information about combination scenarios, see [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## See related training at [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+## See related [Microsoft training](/training/modules/pick-ship-items-warehouse/)
 
 ## See also
 

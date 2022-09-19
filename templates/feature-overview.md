@@ -12,7 +12,7 @@ ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
 
 Snazzy introduction of the capability with plenty of buzzwords. Use [!INCLUDE [prod_short](includes/prod_short.md)] for the product name, and write in active sentences, such as "Get job done faster" and "With this capability, you can blah".  
 
-For tips about MarkDown and style, see [Authoring Guide for Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/help/writing-guide).  
+For tips about MarkDown and style, see [Authoring Guide for Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide).  
 
 Remember to add See Also links, and to add the new article to the TOC.md file.  
 

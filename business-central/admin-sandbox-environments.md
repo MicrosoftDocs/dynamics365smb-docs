@@ -25,7 +25,7 @@ Your administrator manages sandbox environments in the [administration center](/
 
 For example, if you want to create a sandbox for benchmarking, your administrator can create a dedicated environment in the administration center. For more information, see [Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types) in the developer and administration content.  
 
-You can also safely use sandboxes for training, such as for following a learning path from [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), because it's a safe environment to experiment with. If anything goes wrong, you just delete the sandbox and start over.  
+You can also safely use sandboxes for training, such as for following a learning path from [Microsoft training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), because it's a safe environment to experiment with. If anything goes wrong, you just delete the sandbox and start over.  
 
 Once you're done, you can remove the sandbox, using the administration center.  
 
@@ -67,7 +67,7 @@ For more information, see [Use Designer](/dynamics365/business-central/dev-itpro
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## See related training at [Microsoft Learn](/learn/modules/admin-online-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## See also
 

@@ -225,7 +225,7 @@ After you register your application in Azure portal, in [!INCLUDE[prod_short](in
 
 -->
 
-## See Related Training at [Microsoft Learn](/learn/modules/set-up-email/)
+## See related [Microsoft training](/training/modules/set-up-email/)
 
 ## See Also
 

@@ -161,7 +161,7 @@ You can import and export account schedules as RapidStart configuration packages
 > [!NOTE]
 > When you import account schedules, existing records that have the same names as those you are importing will be deleted.
 
-## See related training at [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## See Also
 

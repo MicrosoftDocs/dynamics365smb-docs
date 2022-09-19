@@ -116,7 +116,7 @@ You link discount percentages to specific invoice amounts on the **Invoice Disco
 In addition to (or instead of) a discount percentage, you can link a service charge amount to a specific invoice amount.  
 
 > [!TIP]  
-> Before you start entering this information, it is a good idea to prepare your discount structure beforehand, so it's easier to see which customers to link to the same invoice discount page. For more information about discounts in sales, see [Set up discounts for your customers](/learn/modules/customer-discounts-dynamics-365-business-central/index) at Microsoft Learn.  
+> Before you start entering this information, it is a good idea to prepare your discount structure beforehand, so it's easier to see which customers to link to the same invoice discount page. For more information about discounts in sales, see [Set up discounts for your customers](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
 ### To set up an invoice discount for a customer
 
@@ -202,7 +202,7 @@ To update prices for multiple items, you must create a new price list, and then 
 
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents, and on job and item journal lines. For more information, see [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## See related training at [Microsoft Learn](/learn/modules/customer-discounts-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/customer-discounts-dynamics-365-business-central/)
 
 ## See also
 

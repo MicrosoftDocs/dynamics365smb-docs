@@ -64,7 +64,7 @@ If you approve the incoming document record, the **Released** check box on the i
 6. On the **Insert File** page, select the file that represents the incoming document in question, and then choose the **Open** button.
 7. On the **Incoming Document** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## See related training at [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/)
+## See related [Microsoft training](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## See also
 

@@ -71,7 +71,7 @@ If for some reason the add-in doesn't install, contact your admin or try to inst
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
-## See Related Training at [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## See Also
 

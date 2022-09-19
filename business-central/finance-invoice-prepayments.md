@@ -32,7 +32,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Create an order, adjust the prepayment amounts, and issue an invoice for prepayment amounts.|[Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md)|  
 |Issue an additional prepayment invoice, either for additional items or for an additional deposit on the original order, or issue a prepayment credit memo.|[Correct Prepayments](finance-how-to-correct-prepayments.md)|  
 
-## See Related Training at [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## See Also
 

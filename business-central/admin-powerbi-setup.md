@@ -92,7 +92,7 @@ This section explains the requirements for a [!INCLUDE[prod_short](includes/prod
     To make the initial connection, open [!INCLUDE[prod_short](includes/prod_short.md)], and run **Get Started with Power BI** from the Home page. This action will lead you through the consent process, and check your Power BI license. When prompted sign in using an Azure admin account. For more information, see [Connect to Power BI - one time only](across-working-with-powerbi.md#connect).
 
 
-## See Related Training at [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
+## See related [Microsoft training](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## See Also
 

@@ -130,7 +130,7 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
 
 Now, you're ready to add the printers to  [!INCLUDE[prod_short](includes/prod_short.md)], set up default printers for reports, and print.  
 
-### Add Universal Printer printers to Business Central
+### Add Universal Print printers to Business Central
 
 After printers are set up and shared in Universal print, you're ready to them to Business Central for use. There are two ways to add Universal Print printers. You can add the printers all at once or individually, one at a time.
 

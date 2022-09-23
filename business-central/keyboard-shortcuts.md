@@ -55,7 +55,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Ctrl+Alt+Shift+C|Display information in the company badge.|
 |Ctrl+Alt+F1|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting Pages](across-inspect-page.md).|
 |Ctrl+C |Copy the value of field. If the field is in focus, and you haven't selected any text in the field, this will copy the entire value. If you've selected any text in the field, then it will copy the selected text only.|
-|Ctrl+F1|Open the [help pane](product-help-and-support.md#help-pane) or a Business Central help article on [Microsoft Docs](/dynamics365/business-central/), depending on your Business Central version.|
+|Ctrl+F1|Open the [help pane](product-help-and-support.md#help-pane) or a Business Central help article on [Microsoft Learn](/dynamics365/business-central/), depending on your Business Central version.|
 |Ctrl+F12|Switch between wide and narrow layout view.|
 |Ctrl+Click|Navigate during personalizing or customizing when the action is highlighted with an arrowhead. For more information, see [Personalize Your Workspace](ui-personalization-user.md).|  
 |Ctrl+F5|Reload the [!INCLUDE[prod_short](includes/prod_short.md)] application. (Similar to selecting refresh/reload in the browser.)|

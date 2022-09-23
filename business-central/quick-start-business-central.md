@@ -1,28 +1,30 @@
 ---
 title: Business Central Quick Starts
-description: Get up and running with Business Central with tips from the Quick Starts articles that help you fill in the first critical fields.
+description: Get up and running with Business Central with quick start articles and tips that help you fill in the first critical fields.
 author: jill-kotel-andersson
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.date: 09/29/2021
+ms.date: 08/25/2022
 ms.author: edupont
 
 ---
 
 # Business Central Quick Starts
 
-These quick start articles help you get started as soon as possible so that you can perform the basic functions that you need in [!INCLUDE[prod_short](includes/prod_short.md)].
+Quick start articles help you get set up sooner so you can begin performing the basic [!INCLUDE[prod_short](includes/prod_short.md)] functions you need.
 
-The following sections take you to guides for beginners that help you get familiar with the features you need in [!INCLUDE[prod_short](includes/prod_short.md)]. In each quick start, find links to more advanced content about the functionality, should you need it.
+The following sections offer beginner's guides that help you get familiar with the features you need in [!INCLUDE[prod_short](includes/prod_short.md)]. In each quick start, you'll find links to more advanced content about the functionality, should you need it.
 
 ## Provide basic information about your company
 
-The first step is to provide the basic information about your company. This includes information such as address, bank accounts, VAT number, and so on. This is explained in the [Company Information Quick Start](quick-start-company-information.md) article.
+The first step is to provide the basic information about your company. This includes information such as address, bank accounts, value-added tax (VAT) number, and so on. You'll find it explained in the [Company Information Quick Start](quick-start-company-information.md).
+
+## Prepare basic financial information
+
+Next, it's time to enter your company's financial information so you're ready to do business. Use [!INCLUDE[prod_short](includes/prod_short.md)]'s included chart of accounts (COA) to save time. And if you need to, you can customize it in a few steps by following the [Financial Information Quick Start](quick-start-financial-information.md).
 
 <!--
 ## Financial Basics
@@ -31,16 +33,17 @@ Financial Information
 (chart of accounts, but explained for non-accountants)
 -->
 
-<!--
-## Basic Reports and Output Documents
+## Print reports and customize documents
 
-Reports and Documents  
+Learn how to customize and print reports and documents such as sales invoices to better suit your business needs in the [Basic Reports and Documents Output Quick Start](quick-start-reports-and-documents.md).
+
+<!-- Reports and Documents  
 (final reports, but also documents - how do I style invoices to work better for me?)
 -->
 
 ## Sell products and services
 
-To quickly get up and running with selling products and services, see the [Quick Start for Sales](quick-start-sell-products-and-services.md) article.
+Get quickly up and running selling products and services by following the [Quick Start for Sales](quick-start-sell-products-and-services.md) article.
 
 <!--
 (customer, items, things on stock or not, orders versus invoices, get paid on time, etc.)
@@ -48,21 +51,23 @@ To quickly get up and running with selling products and services, see the [Quick
 
 ## Buy products and services
 
-To learn how to buy products and services, see the [Quick Start for Procurement](quick-start-procurement.md) article.  
+Learn how to buy products and services in the [Quick Start for Procurement](quick-start-procurement.md) article.  
 
 <!--
 (buy stuff, register in inventory, pay vendor)
 -->
 
-<!--
-## Understand Your Business with Business Intelligence
+## Understand your company with business intelligence
 
+Transform your business data into valuable insights using the tools demonstrated in the [Business Intelligence Quick Start](quick-start-business-intelligence.md).
+
+<!--
 Business Intelligence  
 (reports)
 -->
 
-## See Also
+## See also
 
-[Overview of Business Functionality](across-business-functionality.md)  
 [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
+[Overview of Business Functionality](across-business-functionality.md)  
 [Overview of Tasks to Set Up Business Central](setup.md)  

@@ -113,8 +113,11 @@
 ## Quick Starts
 ### [Business Central Quick Starts](quick-start-business-central.md)
 ### [Set up Company Information](quick-start-company-information.md)
+### [Enter Financial Information](quick-start-financial-information.md)
 ### [Sell Products and Services](quick-start-sell-products-and-services.md)
 ### [Buy Products and Services](quick-start-procurement.md)
+### [Customize and Print Reports and Documents](quick-start-reports-and-documents.md)
+### [Get Insights with Business Intelligence](quick-start-business-intelligence.md)
 
 <!--use-->
 ## Get productive in Business Central

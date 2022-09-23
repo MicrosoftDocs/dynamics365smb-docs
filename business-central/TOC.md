@@ -113,8 +113,11 @@
 ## Quick Starts
 ### [Business Central Quick Starts](quick-start-business-central.md)
 ### [Set up Company Information](quick-start-company-information.md)
+### [Enter Financial Information](quick-start-financial-information.md)
 ### [Sell Products and Services](quick-start-sell-products-and-services.md)
 ### [Buy Products and Services](quick-start-procurement.md)
+### [Customize and Print Reports and Documents](quick-start-reports-and-documents.md)
+### [Get Insights with Business Intelligence](quick-start-business-intelligence.md)
 
 <!--use-->
 ## Get productive in Business Central
@@ -239,13 +242,13 @@
 ### Workflows
 #### [Workflow Overview](across-workflow.md)
 #### [Use Business Central in Power Automate Flows](across-how-use-financials-data-source-flow.md)
-#### Use Workflows
-##### [Use Workflows](across-use-workflows.md)
-##### [Enable Workflows](across-how-to-enable-workflows.md)
-##### [Use Approval Workflows](across-how-use-approval-workflows.md)
+#### Use Approval Workflows
+##### [Use Approval Workflows](across-use-workflows.md)
+##### [Enable Approval Workflows](across-how-to-enable-workflows.md)
+##### [How to Use Approval Workflows](across-how-use-approval-workflows.md)
 ##### [Restrict and Allow Usage of a Record](across-how-to-restrict-and-allow-usage-of-a-record.md)
 ##### [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md)
-##### [Delete Workflows](across-how-to-delete-workflows.md)
+##### [Delete Approval Workflows](across-how-to-delete-workflows.md)
 <!--data exchange-->
 ### Exchange Data Electronically
 #### [OData Exchange Overview](across-data-exchange.md)
@@ -1585,11 +1588,11 @@
 #### [Set Up Approval Workflows](across-set-up-workflows.md)
 #### [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)
 #### [Set Up Approval Users](across-how-to-set-up-approval-users.md)
-#### [Workflow Notifications](across-setting-up-workflow-notifications.md)
+#### [Approval Workflow Notifications](across-setting-up-workflow-notifications.md)
 #### [Specify When and How to Receive Workflow Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Create Workflows](across-how-to-create-workflows.md)
+#### [Create Approval Workflows](across-how-to-create-workflows.md)
 #### [Create Workflows from Workflow Templates](across-how-to-create-workflows-from-workflow-templates.md)
-#### [Export and Import Workflows](across-how-to-export-and-import-workflows.md)
+#### [Export and Import Approval Workflows](across-how-to-export-and-import-workflows.md)
 #### [Walkthrough: Set Up and Use a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Set Up Connections
@@ -1626,7 +1629,7 @@
 ###### [Use the Business Central Apps in Power BI](across-powerbi-business-central-apps.md)
 ##### [FAQ](power-bi-faq.md)
 #### Use Power Automate with Business Central
-##### [Use Business Central in Power Automate Flows](across-how-use-financials-data-source-flow.md)
+##### [Use Power Automate Flows in Business Central](across-how-use-financials-data-source-flow.md)
 ##### [Troubleshoot Your Automated Workflows](across-flow-troubleshoot.md)  
 #### Use Power Apps with Business Central
 ##### [Connecting to Your Business Central Data to Build a Business App Use Power Apps](across-how-use-financials-data-source-powerapps.md)

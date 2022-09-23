@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
-ms.date: 04/01/2021
+ms.date: 09/16/2022
 ms.author: bholtorf
 ---
 # Use Dynamics 365 Sales from Business Central
@@ -71,7 +71,7 @@ This can also work if the original sales order contains write-in products, meani
 
 If the description of the item on the original sales order is long, an additional sales order line of the type **Comment** is created to hold the full text on the sales order in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Updates to fields on sales order headers, such as the Last Shipment Date or Requested Delivery Date fields, that are mapped in the **SALESORDER-ORDER** integration table mapping are periodically synchronized to [!INCLUDE[crm_md](includes/crm_md.md)]. Processes such as releasing a sales order and shipping or invoicing a sales order are posted to the sales order timeline in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Introduction to activity feeds](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
+Updates to fields on sales order headers, such as the Last Shipment Date or Requested Delivery Date fields, that are mapped in the **SALESORDER-ORDER** integration table mapping are periodically synchronized to [!INCLUDE[crm_md](includes/crm_md.md)]. Processes such as releasing, shipping, and invoicing a sales order are posted to the sales order timeline in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Introduction to activity feeds](/dynamics365/sales-enterprise/manage-activities). To enable posting and activities for orders in [!INCLUDE[crm_md](includes/crm_md.md)], see [Set up the Notes control to access information about posts for a custom entity](/dynamics365/customerengagement/on-premises/customize/notes-control-legacy) in the Customer Engagement documentation. The article refers to Customer Engagement on-premises, but the steps are the same for the online version. <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
 > Periodical synchronization based on the **SALESORDER-ORDER** integration table mapping will work only when sales order integration is enabled. For more information, see [Connection settings on the Sales Connection Setup Page](admin-prepare-dynamics-365-for-sales-for-integration.md). Only sales orders created from submitted sales orders in [!INCLUDE[crm_md](includes/crm_md.md)] are synchronized. For more information, see [Enable Sales Order Processing Integration](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).

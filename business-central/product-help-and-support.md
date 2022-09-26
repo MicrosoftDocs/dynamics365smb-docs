@@ -46,7 +46,7 @@ The following list describes how you can access the Help pane and whether cards 
 Use the search field at the top of the Help pane to search for guidance about how to use the product, built-in capabilities, and available training modules. Depending on your search terms, the pane shows five or more links with a short description. Choose a link, or refine your search terms. When you choose a link, the target article opens in a new browser tab. You can choose to un-dock the browser tab, then, so that you can view the relevant information side-by-side with [!INCLUDE [prod_short](includes/prod_short.md)]. The pane remains open while you navigate through [!INCLUDE [prod_short](includes/prod_short.md)] so that content you searched for remains visible.  
 
 > [!NOTE]
-> In the current version of [!INCLUDE [prod_short](includes/prod_short.md)], the search field in the Help pane only applies to content that is published to the [Docs.microsoft.com](/dynamics365/business-central) site.
+> In the current version of [!INCLUDE [prod_short](includes/prod_short.md)], the search field in the Help pane only applies to content that is published to the [Dynamics 365 Business Central documentation](/dynamics365/business-central) on Microsoft Learn.
 
 ## Help & Support page
 
@@ -78,7 +78,7 @@ The **Find it** section includes two links to product Help:
 
 - Help about the page you were just viewing in [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  This link is automatically generated. If [!INCLUDE[prod_short](includes/prod_short.md)] can't find the relevant link, the landing page on [Docs.microsoft.com](index.md) for the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is shown. For example, if the page was part of an app that didn't add context-sensitive Help mapping to [!INCLUDE[prod_short](includes/prod_short.md)], the *Learn link* defaults to the landing page.  
+  This link is automatically generated. If [!INCLUDE[prod_short](includes/prod_short.md)] can't find the relevant link, the [landing page on Microsoft Learn](index.md) for the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is shown. For example, if the page was part of an app that didn't add context-sensitive Help mapping to [!INCLUDE[prod_short](includes/prod_short.md)], the *Learn link* defaults to the landing page.  
   
 - Help landing page for [!INCLUDE[prod_short](includes/prod_short.md)]  
 

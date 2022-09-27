@@ -5,7 +5,7 @@ author: edupont04
 
 ms.topic: conceptual
 ms.search.form: 1
-ms.date: 04/20/2022
+ms.date: 08/26/2022
 ms.author: edupont
 ---
 
@@ -23,13 +23,37 @@ The **Company Information** page contains different fields and FastTabs, dependi
 
 Once you have completed filling in the information, you can close the page.  
 
-## Work with multiple companies
+## Working with multiple companies
 
-If your [!INCLUDE [prod_short](includes/prod_short.md)] includes multiple companies, your users might want to use *company badges* to keep track of which company they are currently working in. For more information, see [Display a company badge for quick access to company information](ui-change-basic-settings.md#badge).  
+If your [!INCLUDE [prod_short](includes/prod_short.md)] includes multiple companies, your users might want to use *company badges* to help them quickly identify and keep track of which company they're currently working in. For more information, see [Display a company badge](#badge).
+
+There are a few features you can use to switch among companies as you work, like the company switcher (Ctrl+O). Learn more at [Switch to Another Company or Environment](ui-organization-switch.md).
+
+## <a name="badge"></a>Display a company badge
+
+When there's more than one company or environment, you'll see the company switcher in upper-right side of tha app bar, near the search icon in the app bar. By default, the company switcher uses a standard company icon, like ![company icon Launcher.](media/ui-experience/company-icon.png "Displays the company switcher icon used when there is a single environment") and ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Displays the company switcher icon used when there are multiple environments").
+
+:::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Shows the company switcher icon in the heading of the Business Central client.":::  
+
+Using the **Company Information** page, you can replace the standard company icon with a custom badge on a per-company basis. If thThe company badge makes it easier for users to identify the company they're working in.
+
+1. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+2. When done, refresh the browser (press Ctrl+F5) to update the badge in the client.  
+
+> [!NOTE]
+> The company switcher was introduced in 2022 release wave 2, version 21. In earlier releases, the company badge isn't used for switching companies. It's shown in the upper-right corner of most pages, even when there's only one company. Selecting it will show the full company name and environment name. 
+
+## Change company display name
+
+The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
+
+1. Choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
+2. In the **Name** field, enter the new company name.
+3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
 ## Experience
 
-The default user experience in a [!INCLUDE [prod_short](includes/prod_short.md)] trial does not reveal all capabilities. You can switch on the full experience in the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).  
+The default user experience in a [!INCLUDE [prod_short](includes/prod_short.md)] trial doesn't reveal all capabilities. You can switch on the full experience in the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).  
 
 ## See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
 

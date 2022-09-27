@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 05/23/2022
+ms.date: 08/19/2022
 ms.author: jswymer
 ---
 
@@ -33,6 +33,7 @@ ms.author: jswymer
 |Ctrl+Shift+F12|Maximize the line items part on a document page|
 |Ctrl+F1|Open the help pane or a help article|
 |Ctrl+Click|Navigate when personalizing and customizing|
+|Ctrl+O|Switch company or environment|
 |Shift+F12|Open the role explorer, a feature overview|
 |F5/Ctrl+F5|Refresh/reload page|
 |Tab/Shift+Tab|Move focus to the next/previous element|

@@ -265,7 +265,7 @@ When you compose and send a message to chat that includes a card, all users will
 
 ### How do I find out which company a card in Teams belongs to?
 
-If you work across [!INCLUDE [prod_short.md](includes/prod_short.md)] companies, talk to your administrator about enabling a company badge for each company. When enabled, this eye-catching hint appears in any details window inside Teams, and displays the company and environment that record belongs to. To learn how to set up company badge, see [To display a company badge for quick access to company information](ui-change-basic-settings.md#badge).
+If you work across [!INCLUDE [prod_short.md](includes/prod_short.md)] companies, talk to your administrator about enabling a company badge for each company. When enabled, this eye-catching hint appears in any details window inside Teams, and displays the company and environment that record belongs to. To learn how to set up company badge, see [Display a company badge](admin-company-information.md#badge).
 
 ## [Work with card details](#tab/carddetails)
 

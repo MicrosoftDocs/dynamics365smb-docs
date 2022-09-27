@@ -124,6 +124,7 @@
 ### [General Functionality Overview](ui-work-product.md)
 ### [Print-Friendly Cheat Sheet](ui-work-product.md#cheatsheet)
 ### [Find Pages and Information with Tell Me](ui-search.md)
+### [Search for Specific Data](ui-search-data.md)
 ### [Find Pages with the Role Explorer](ui-role-explorer.md)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Sort, Search, and Filter](ui-enter-criteria-filters.md)

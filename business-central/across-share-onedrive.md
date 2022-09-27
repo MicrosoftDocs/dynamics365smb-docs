@@ -5,13 +5,13 @@ author: jswymer
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords:
-ms.date: 02/28/2022
+ms.date: 08/03/2022
 ms.author: jswymer
 
 ---
-# Opening and Sharing Business Central Files in OneDrive
+# Opening and Sharing Business Central Files in Microsoft OneDrive
 
-[!INCLUDE[prod_short](includes/prod_short.md)] makes it easy to store, manage, and share files with other people through OneDrive for Business. On most pages where files are available, such as the Report Inbox or files that are attached to records, you'll find an **Open in OneDrive** and **Share** action.
+[!INCLUDE[prod_short](includes/prod_short.md)] makes it easy to store, manage, and share files with other people through Microsoft OneDrive for Business. On most pages with available files, such as the Report Inbox or when files are attached to records, you'll find **Open in OneDrive** and **Share** actions.
 
 
 :::image type="content" source="media/onedrive-overview-report-inbox-w-outline.png" alt-text="The Open in OneDrive and Share actions for reports":::
@@ -22,32 +22,34 @@ ms.author: jswymer
 
 ## Open in OneDrive
 
-The **Open in OneDrive** action copies the file to your OneDrive and opens the file in their online applications, like Excel online, Word online, and PowerPoint online. 
+The **Open in OneDrive** action copies the file to your OneDrive and then opens the file in an application such as Microsoft Excel online, Microsoft Word online, or Microsoft PowerPoint online. 
 
-<!--## Working with Different Types of Files-->
+<!--## Working with different types of files-->
 
-When you choose **Open in OneDrive**, [!INCLUDE[prod_short](includes/prod_short.md)] identifies Excel, Word, and PowerPoint files and opens them in their online applications, that is, Excel online, Word online and PowerPoint online. You can annotate, edit, and collaborate with others without leaving the browser.
+When you choose **Open in OneDrive**, [!INCLUDE[prod_short](includes/prod_short.md)] identifies Excel, Word, and PowerPoint files and opens them in their online applications, that is, Excel online, Word online and PowerPoint online. 
 
-For other popular file types, like PDFs, text files, and images, OneDrive provides file viewers for printing, sharing, and more. If a file can't be viewed in OneDrive, you might be prompted to download it.
+Using the online versions of these applications, you can annotate, edit, and collaborate with others without leaving the browser.
+
+For other popular file types, such as PDFs, text files, and images, OneDrive provides file viewers that offer features for printing, sharing, and more. If a file can't be viewed in OneDrive, you might be prompted to download it.
 
 ## Share
 
-The **Share** action copies the file to your OneDrive and let's you share the file with other people and see who you've already shared the file with. When you select the **Share** action, the following page opens.
+The **Share** action copies the file to your OneDrive so you can see with whom you've already shared it as well as share the file with other people. When you select the **Share** action, the following page opens.
 
 :::image type="content" source="media/share-to-onedrive-dialog-v2.PNG" alt-text="Share file in OneDrive":::
 
-If you're familiar with OneDrive, you may recognize the page. You have two options for sharing the file: **Send link** and **Copy link**.
+If you're familiar with OneDrive, you may recognize the above-referenced page. You'll see you have two options for sharing the file: **Send link** and **Copy link**.
 
 - **Send link** let's you share the files with specific people. The people you share the file will get an email with a link to the file. The file will also appear in the **Shared** section of their OneDrive. Start by typing the email addresses or contact names in the **Name, group or email field**. Include a message below the  **Name, group or email field**, if you want.
 
   > [!TIP]
   > If you want to compose your message in Outlook, select the **Outlook** button. The link will be inserted into a draft email and everyone you entered to share with will be in the **To** list. With this option, you can author emails using all of Outlook's features, including formatting text, adding other attachments, inserting pictures or tables, and adding CC or BCC recipients.
 
-- **Copy link** copies a link to the file on your OneDrive so you can use the link in other places like Facebook, Twitter, or emails. 
+- **Copy link** copies a file link you can use to share the file through applications such as Facebook, Twitter, or email. 
 
-Before you send or copy the link, set the permission to the file that you want people to have. You can see the current setting under **Send link** and **Copy link**. In most cases, it will be **Anyone with the link can edit to open the link**, depending on settings set by your administrator. To change the permissions, select the link and make changes on the **Link Settings** page.
+Before you send or copy a file link, set the permission level you want people to have. You can see the current setting under **Send link** or **Copy link**. In most cases, it will be **Anyone with the link can edit**, depending on your administrator's settings. To change the permissions, select the link and make changes on the **Link Settings** page.
 
-The sharing feature in Business Central is based on OneDrive. So to learn more about sharing and permissions, see [Share OneDrive files and folders](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+The sharing feature in Business Central is based on OneDrive. Learn more about OneDrive sharing and permissions at [Share OneDrive files and folders](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 
 > [!NOTE]
 > The **Share** action isn't available in the Business Central app for mobile devices.
@@ -57,23 +59,36 @@ The sharing feature in Business Central is based on OneDrive. So to learn more a
 When you use the **Open in OneDrive** or **Share** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following things:
 
 1. Opens the **Please review terms and conditions** page. Read the page, and if you agree with the terms and conditions, select **Agree** to continue.
-2. Opens the **Pick an account** page  Select your account or **use another account** if you don't see your own, then enter the user name and password when prompted.
+2. Opens the **Pick an account** page. Select your account or **use another account** if you don't see your own, then enter the appropriate user name and password when prompted.
 3. Creates a folder named [!INCLUDE[prod_short](includes/prod_short.md)] in OneDrive. 
-4. In the [!INCLUDE[prod_short](includes/prod_short.md)] folder, it creates another folder with the same name as the company you're working in. If you work in more than one company, it will create a folder for the company you're working in when you use the **Open in OneDrive** and **Share** actions. 
-5. Puts a copy of the file you selected in the folder, and then opens the file. The next time you use the action, it only copies and opens the file. 
+4. Within the [!INCLUDE[prod_short](includes/prod_short.md)] folder, it creates a folder with the same name as the company you're working in. If you work in more than one company, [!INCLUDE[prod_short](includes/prod_short.md)] creates a folder for each company you're working in when you use the **Open in OneDrive** or **Share** action. 
+5. Puts a copy of the file you selected in the company name folder, and then opens the file. 
+
+Then, the next time you use the **Open in OneDrive** or **Share** action, [!INCLUDE[prod_short](includes/prod_short.md)] only copies and opens the file. 
 
 ## Managing multiple copies of a file
 
-When you choose **Open in OneDrive** or **Share**, the file is copied from [!INCLUDE[prod_short](includes/prod_short.md)] to your folder in OneDrive. If you edit the file in OneDrive, the copies of the file will be different. To update [!INCLUDE[prod_short](includes/prod_short.md)] with the latest file, remove the existing file from [!INCLUDE[prod_short](includes/prod_short.md)] and then upload the latest copy.
+When you choose **Open in OneDrive** or **Share**, the file is copied from [!INCLUDE[prod_short](includes/prod_short.md)] to your folder in OneDrive. If you edit the file in OneDrive, that file will be different from the [!INCLUDE[prod_short](includes/prod_short.md)] file. To update [!INCLUDE[prod_short](includes/prod_short.md)] with the latest file version, remove the existing file from [!INCLUDE[prod_short](includes/prod_short.md)] and upload the latest copy.
 
-Also, when a file with the same name already exists in OneDrive, [!INCLUDE[prod_short](includes/prod_short.md)] will provide a choice to either replace the file or keep both files. If you choose to keep both files, the new file is copied to OneDrive and given a filename with suffix number, like  "Items (2).xlsx,". The original file isn't changed. 
+If a file with the same name already exists in OneDrive, you'll be given the following choices:
 
-If you choose to replace the file, the new file is added to the version history for that file. The original file isn't lost, and you can view or restore previous versions of the file. 
+- **Use existing**
+
+  This option opens or shares the file that's already stored in OneDrive, instead of copying the file from Business Central.
+  
+- **Replace**
+  
+  This option replaces the existing file in OneDrive with the file you selected from Business Central. The original file isn't lost&mdash;you can see and restore it using the version history in OneDrive. Learn more at [Restore a previous version of a file stored in OneDrive](https://support.microsoft.com/office/restore-a-previous-version-of-a-file-stored-in-onedrive).
+
+- **Keep both**
+ 
+  This option keeps the existing file as-is and saves the file you selected from Business Central under a different name. The new name is similar to the existing name, except with a suffix number such  “Items (2).xlsx”.
 
 ## About your Business Central folder on OneDrive
 
-The folder and its content are private until you decide to share them with others. For example, you might decide to share content with one or more of your coworkers, or even people outside of your organization. 
-You can access your OneDrive from the **My Settings** page by choosing the link in the **Cloud Storage** field. For more information, see [Share OneDrive files and folders](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+The folder and its content are private until you decide to share them with others. So you might decide to share content with one or more of your coworkers, or even people outside of your organization. 
+
+You can access your OneDrive from the **My Settings** page by choosing the link in the **Cloud Storage** field. Learn more at [Share OneDrive files and folders](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 
 :::image type="content" source="media/my-settings-cloud-storage.PNG" alt-text="The Cloud Storage field in My Settings":::
 
@@ -84,4 +99,4 @@ You can create an extension and connect it to... For more information, see...-->
 
 [Business Central and OneDrive Integration](across-onedrive-overview.md)  
 [Managing OneDrive Integration with Business Central](admin-onedrive-integration.md)  
-[OneDrive FAQ](admin-onedrive-faq.md)  
+[OneDrive FAQ](admin-onedrive-faq.md)

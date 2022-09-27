@@ -1,6 +1,6 @@
 ---
-title: Install and Uninstall Extensions
-description: Learn about installing and uninstalling extensions in Business Central.
+title: Install and Uninstall Apps
+description: Learn how you can install and uninstall apps and extensions in Business Central.
 author: SusanneWindfeldPedersen
 
 ms.topic: conceptual
@@ -8,26 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.search.form: 2500
-ms.date: 05/24/2022
+ms.search.form: 2500, 20350
+ms.date: 09/22/2022
 ms.author: solsen
 ---
 
-# Install and Uninstall Extensions in Business Central
+# Install and Uninstall Apps in Business Central
 
-You can change [!INCLUDE[prod_short](includes/prod_short.md)] by installing extensions that, for example, add functionality, changes behavior, or gives you access to new online services. For more information, see [Customizing Business Central Using Extensions](ui-extensions.md).
+You can change [!INCLUDE[prod_short](includes/prod_short.md)] by installing apps that, for example, add functionality, changes behavior, or gives you access to new online services. For more information, see [Customize Business Central with Apps](ui-extensions.md).
 
 > [!NOTE]
-> To install or uninstall extensions from AppSource or add per-tenant extensions, you must have the right permissions. You must either be a member of the EXTEND. MGT. - ADMIN user group or you must have the EXTEND. MGT. - ADMIN permission set. If you are an administrator, you can assign user groups and permissions to other users in your company.
->
-> To use the functionality that is provided by an extension, such as opening pages, running reports, selecting actions, and so on, you must be assigned the permission sets that are installed as part of the extension.
+> To install or uninstall AppSource apps or add per-tenant extensions, you must have the right permissions. You must either be a member of the EXTEND. MGT. - ADMIN user group or you must have the EXTEND. MGT. - ADMIN permission set. If you are an administrator, you can assign user groups and permissions to other users in your company.
 
-> [!NOTE]  
-> The **EXTEND. MGT. - ADMIN** permission set was introduced in Business Central 2021 release wave 1 as a replacement for the **D365 EXTENSION MGT** permission set in earlier versions.
+To use the functionality that is provided by an extension, such as opening pages, running reports, selecting actions, and so on, you must be assigned the permission sets that are installed as part of the extension.
 
 ## <a name="install"></a>Install an Extension
 
-You manage extensions on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") in the top right corner, enter **Extension**, and then choose the related link.  
+You manage apps and extensions on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") in the top right corner, enter **Extension**, and then choose the related link.  
 
 You can get new extensions from the marketplace at [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Here, you can see all available extensions for [!INCLUDE[prod_short](includes/prod_short.md)], and you can get apps, extensions, and content packs for other Microsoft products. Set the relevant filters, take a look at the information for each extension, and get an extension for your [!INCLUDE[prod_short](includes/prod_short.md)].  
 

@@ -28,12 +28,17 @@ The following describes how to perform bank reconciliation with the **Bank Acc. 
 
 The lines on the **Bank Acc. Reconciliation** page are divided into two panes. The **Bank Statement Lines** pane shows either imported bank transactions or ledger entries with outstanding payments. The **Bank Account Ledger Entries** pane shows the ledger entries in the internal bank account.
 
-Reconciling bank transactions with internal bank entries is referred to as *matching*. You can choose to perform matching automatically by using the **Match Automatically** function. Alternatively, you can manually select lines in both panes to link each bank statement line to one or more related bank account ledger entries, and then use the **Match Manually** function. The **Applied** check box is selected on lines where entries match. For more information, see [Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md).
+Reconciling bank transactions with internal bank entries is referred to as *matching*. You can choose to perform matching automatically by using the **Match Automatically** function. Alternatively, you can manually select lines in both panes to link each bank statement line to one or more related bank account ledger entries, and then use the **Match Manually** function. The **Applied** checkbox is selected on lines where entries match. For more information, see [Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md).
 
 > [!NOTE]  
 > If bank statement lines relate to check ledger entries, you cannot use the matching functions. Instead, you must choose the **Apply Entries** action, and then select the relevant check ledger entry to match the bank statement line with.
 
 When the value in the **Total Balance** field in the **Bank Statement Lines** pane equals the total value of the **Balance To Reconcile** field plus the **Balance Last Statement** field in the **Bank Account Ledger Entries** pane, you can choose the **Post** action. Unmatched bank account ledger entries remain on the page, indicating discrepancies that you should resolve to reconcile the bank account.
+
+To double-check your bank account reconciliation before you post it, use the **Test Report** action to prepare a preview of the reconciliation. The report is available in the following contexts:
+
+* When you're preparing a bank reconciliation on the **Bank Acc. Reconciliation** page.
+* When you're reconciling payments on the **Payment Reconciliation Journals** page.
 
 Any lines that cannot be matched, indicated by a value in the **Difference** field, will remain on the **Bank Acc. Reconciliation** page after posting. They represent some kind of discrepancy that you must resolve before you can complete the bank account reconciliation. Typical business situations that may cause differences:
 
@@ -76,10 +81,10 @@ The **Bank Statement Lines** pane will be filled according to invoices in [!INCL
 3. In the **Ending Date** field, enter the latest posting date for the ledger entries to be reconciled.
 
 > [!NOTE]
-> Typically, the ending date will match the date specified in the **Statement Date** field. However, if you want to reconcile transactions for only part of a period, you can enter a different ending date. 
+> Typically, the ending date will match the date specified in the **Statement Date** field. However, if you want to reconcile transactions for only part of a period, you can enter a different ending date.
 
-1. Select the **Include Checks** check box to any suggest check ledger entries instead of the corresponding bank account ledger entries.
-1. Choose the **OK** button.
+4. If you don't want the bank account ledger entries to include unmatched open reversed entries, choose the **Exclude Reversed Entries** toggle. By default, the list of bank account ledger entries will include reversed entries up to the statement date.
+5. Choose the **OK** button.
 
 ## To match bank statement lines with bank account ledger entries automatically
 
@@ -93,25 +98,29 @@ You can investigate the basis for matches by using the **Match Details** action.
     If you enter 0 or leave the field blank, the **Match Automatically** action will only search for matching transaction dates on the bank account ledger entry posting date.
 3. Choose the **OK** button.
 
-    All bank statement lines and bank account ledger entries that can be matched change to green font, and the **Applied** check box is selected.
+    All bank statement lines and bank account ledger entries that can be matched change to green font, and the **Applied** checkbox is selected.
 4. To remove a match, select the bank statement line, and then choose the **Remove Match** action.
 
 > [!TIP]
-> You can use a mix of manual and automatic matching. If you have manually matched entries, automatic matching will not overwrite your selections. 
+> You can use a mix of manual and automatic matching. If you have manually matched entries, automatic matching will not overwrite your selections.
 
 ## To match bank statement lines with bank account ledger entries manually
+
+> [!TIP]
+> When matching lines and entries manually, the **Show All**, **Show Reversed Entries**, **Hide Reversed Entries**, and **Show Nonmatched** actions can make it easier to get an overview. By default, the bank account ledger entries don't include unmatched reversed entries. To include these entries in the list and match them manually, choose the **Show Reversed Entries** action. If you choose to hide reversed entries after you've made one or more matches, the matched entries are still shown.
+
 1. On the **Bank Acc. Reconciliation** page, select a non-applied line in the **Bank Statement Lines** pane.
-2. In the **Bank Account Ledger Entries** pane, select one or more banks account ledger entries that can be matched with the selected bank statement line. To choose multiple lines, press and hold the CTRL key.
+2. In the **Bank Account Ledger Entries** pane, select one or more banks account ledger entries that can be matched with the selected bank statement line. To choose multiple lines, press and hold the CTRL key and then choose the lines.
 
    > [!TIP]
    > You can also manually match multiple bank statement lines with one bank account ledger entry. For example, this might be useful if your bank deposit contained several payment methods, such as credit cards from different issuers, and your bank lists those as separate lines. 
 3. Choose the **Match Manually** action.
 
-    The selected bank statement line and the selected bank account ledger entries change to green font, and the **Applied** check box in the right pane is selected.
+    The selected bank statement line and the selected bank account ledger entries change to green font, and the **Applied** checkbox in the right pane is selected.
 4. Repeat steps 1 through 3 for all bank statement lines that are not matched.
 
 > [!TIP]
-> To remove a match, select the bank statement line, and then choose the **Remove Match** action. If you have matched multiple bank statement lines to a ledger entry, and need to remove one or more of the matched lines, all of the manual matches are removed for the ledger entry when you choose **Remove Match**. 
+> To remove a match, select the bank statement line, and then choose the **Remove Match** action. If you have matched multiple bank statement lines to a ledger entry, and need to remove one or more of the matched lines, all of the manual matches are removed for the ledger entry when you choose **Remove Match**.
 
 ## To create missing ledger entries to match bank statement lines with
 

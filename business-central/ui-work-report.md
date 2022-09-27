@@ -130,7 +130,12 @@ Or, you can ask your administrator to create a Word report layout for your most 
 
 ## Switching the report layout
 
-A report layout controls what is shown on a report, how it's arranged, and how it's styled. If you want to switch to a different layout, see [Set the Layout Used by a Report](ui-set-report-layout.md). Or, if you want to customize your own report layout, see [Get Started Creating Layouts](ui-get-started-layouts.md).
+A report layout controls what is shown on a report, how it's arranged, and how it's styled. There are a few ways to change the layout:
+
+- When you're setting up to run a report, you'll see the current layout in the **Report Layout** field of the request page. To temporarily switch to a different layout, select the **Report Layout** field, then choose from a list of available layouts for the report.
+- To change the default layout used by a report, then go to either the **Report Layouts** or **Report Layout Selection** pages.
+
+For more information, see [Set the Layout Used by a Report](ui-set-report-layout.md). Or, if you want to customize your own report layout, see [Get Started Creating Layouts](ui-get-started-layouts.md).
 
 ## Advanced options
 

@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 03/07/2022
+ms.date: 08/12/2022
 ms.author: jswymer
 ---
 # Setting the Layout Used by a Report
@@ -21,15 +21,18 @@ When there are multiple companies in the application, the layouts are set on a p
 
 ## Get started
 
-There are two ways to set which layout a report uses. One way is from the **Report Layout Selection** page. The other way is from the **Report Layouts** page. Each page has advantages, for example: 
+There are a few ways to set which layout a report uses. Each way has advantages, depending on what you're looking to do: 
 
-- The **Report Layout Selection** page displays a list of all reports.
+- From the report request page
 
-  This page indicates what the current layout for a report is. Plus, you can set layouts in different companies, without having to switch the company you're working with.
+  When setting up a report to run, the report request page includes the **Reports Layout** field that shows the current default layout used by the report. You can use this field to temporarily switch to another available layout the report you're running. After you run the report, the layout will revert to the default layout again. For more information, see [Run and Print Reports](ui-work-report.md#switching-the-report-layout).
 
-- The **Report Layouts** page displays all available layouts for each report in the current company.
+- From the **Report Layout Selection** page
 
-  It's easy to find a specific layout by sorting or filtering the list. Once you find the layout, you can set it for a report with a single selection.
+  The **Report Layout Selection** page displays a list of all reports. This page indicates what the current default layout for a report is. It lets you set layouts in different companies, without having to switch the company you're working with.
+
+- From the **Report Layouts** page
+  The **Report Layouts** page displays all available layouts for each report in the current company. It's also used to specify the default layout for reports. It's easy to find a specific layout by sorting or filtering the list. Once you find the layout, you can set it for a report with a single selection.
 
   > [!NOTE]
   > You can't use the **Report Layouts** page for Word and RDLC layouts that were created by using the legacy **Custom Layouts** feature. In fact, you won't even see these custom layouts listed on the **Report Layouts** page. For these layouts, you can only set them by using **Report Layout Selection** page.

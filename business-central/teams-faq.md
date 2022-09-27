@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 10/01/2021
+ms.date: 09/22/2022
 ms.author: jswymer
 ---
 # Teams FAQ
@@ -321,7 +321,7 @@ Guests don't have access to the app marketplace to install apps themselves. Howe
 
 ### Does Share to Teams send a compact card? 
 
-At this time, only a deep link to the page is shared. Recipients will see a hyperlink in your message, which they can select to take them to [!INCLUDE [prod_short.md](includes/prod_short.md)] in a separate browser window. 
+Yes. The link will automatically expand into a card if you have the Business Central app for Teams installed. 
 
 ### Will recipients receive the message from me or from a Business Central service account? 
 

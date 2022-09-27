@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 03/04/2022
+ms.date: 09/22/2022
 ms.author: jswymer
 ---
 
@@ -48,7 +48,7 @@ For more information, see [Share Records in Microsoft Teams](across-working-with
 
 ### Share links from pages in Business Central to Teams
 
-Directly from most collection and details pages in Business Central, you can use the **Share to Teams** action from the ![!The Share menu icon on pages.](media/share-icon.png "The Share menu displayed on a card.") icon to type a message, choose recipients, such as team members, groups or channels, and send the message with a link to the Business Central page.
+Directly from most collection and details pages in Business Central, you can use the **Share to Teams** action from the ![!The Share menu icon on pages.](media/share-icon.png "The Share menu displayed on a card.") icon to type a message, choose recipients, such as team members, groups or channels, and send the message with a link and to the Business Central page.
 
 ![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")
 

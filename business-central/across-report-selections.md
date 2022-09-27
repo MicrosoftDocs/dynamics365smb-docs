@@ -1,23 +1,23 @@
 ---
 title: Report Selection in Business Central
 description: Learn about how to set up the reports that you use to print various types of documents in Business Central.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
-ms.date: 03/11/2022
-ms.author: edupont
+ms.date: 06/09/2022
+ms.author: bholtorf
 
 ---
 # Report Selection in Business Central
 
-You can set up default reports to use to print documents for sales and purchases, such as orders, quotes, and invoices. For example, if you have a specific layout for sales invoices, you can specify that report in the **Report Selections - Sales** page so that it will be used to send or print sales invoices.  
-
-The **Report Selections** pages specify which report will be printed in different situations. [!INCLUDE [prod_short](includes/prod_short.md)] provides default configurations, but you can change them if needed. You can also add reports to the **Report Selection** pages if you want to print more than one report per document type, for example.  
+You can set up default reports to use to print sales, purchases, and service documents, such as orders, quotes, and invoices. For example, if you have a specific layout for sales invoices, you can specify that report in the **Report Selections - Sales** page so that it will be used to send or print sales invoices.  
 
 ## Available report selections
 
-[!INCLUDE [prod_short](includes/prod_short.md)] includes different **Report Selection** pages for different areas. The following table describes where you can find information about the different pages.  
+The **Report Selections** pages specify which report will be printed in different situations. [!INCLUDE [prod_short](includes/prod_short.md)] provides default configurations, but you can change them if needed. You can also add reports to the **Report Selection** pages if you want to print more than one report per document type, for example. 
+
+The following table describes where you can find information about the different pages.  
 
 |Area or task  |Learn more|
 |--------------|----------|
@@ -39,6 +39,7 @@ The default version of [!INCLUDE [prod_short](includes/prod_short.md)] includes 
 * **Report Selection - Bank Account**  
 * **Report Selections Reminder/Finance Charge**  
 * **Report Selection - Job**  
+* **Report Selection - Service**
 
 ## Example: Report selection for sales documents
 
@@ -48,11 +49,11 @@ The **Report Selection - Sales** page defines the default reports to use in diff
 
 Some types of documents can be sent as email attachments, and others can't. If a type of document can be sent by email, the **Report Selection** page will contain extra fields.  
 
-For example, in the **Report Selection - Sales** and **Report Selection - Purchase** pages, the following fields help you set up emailing:
+For example, on the **Report Selection - Sales** and **Report Selection - Purchase** pages, the following fields help you set up email:
 
 |Field name |Description  |
 |-----------|-------------|
-|**Use for Email Body**| Insert summarized information, such as invoice number, due date, and payment service link, in an email.        |
+|**Use for Email Body**| Insert summarized information, such as the invoice number, due date, or a link to a payment service in an email.        |
 |**Use for Email Attachment**| Attach the related document to the email.|
 |**Email Body Layout Description**|Specify the email body layout to use. Typically, the layout is a custom report layout. |
 

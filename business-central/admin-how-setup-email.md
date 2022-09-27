@@ -97,12 +97,12 @@ On the **User Email View Policies**, choose a user, and then choose one of the f
 >  If you leave the **User ID** field empty and then choose the Email View Policy action, the policy that you define applies to all users.
 
 ## Set Up Reusable Email Texts and Layouts
-You can use reports to include key information from sales and purchase documents in texts for emails. This procedure describes how to set up the **Sales - Invoice** report for posted sales invoices, but the process is similar for other reports.
+You can use reports to include key information from sales, purchase, and service documents in texts for emails. This procedure describes how to set up the **Sales - Invoice** report for posted sales invoices, but the process is similar for other reports.
 
 > [!NOTE]
 > To use the layout to create content for email messages, you must use the Word file type for your layout.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections Sales**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections - Sales**, and then choose the related link.
 2. On the **Report Selection - Sales** page, in the **Usage** field, select **Invoice**.
 3. On a new line, in the **Report ID** field, select, for example, standard report 1306.
 4. Select the **Use for Email Body** check box.
@@ -124,7 +124,7 @@ Alternatively, you can choose **Current User** to allow people to send messages 
 
 The following are examples of how Send As and Send on Behalf are used in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
- * You might want the purchase or sales orders that you send to vendors and customers to appear to comefrom a _noreply@yourcompanyname.com_ address.
+ * You might want the purchase or sales orders that you send to vendors and customers to appear to come from a _noreply@yourcompanyname.com_ address.
  * When your workflow sends an approval request by email using the email address of the requestor.
 
 > [!Note]

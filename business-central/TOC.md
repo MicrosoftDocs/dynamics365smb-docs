@@ -1614,7 +1614,8 @@
 #### Use OneDrive for Business with Business Central
 ##### [Overview](across-onedrive-overview.md)
 ##### [Manage OneDrive for Business Integration](admin-onedrive-integration.md)
-##### [Open Business Central Files in OneDrive](across-share-onedrive.md)
+###### [Configuring OneDrive Integration with Business Central On-premises](admin-onedrive-integration-onpremises.md)
+##### [Open and Share Files in OneDrive](across-share-onedrive.md)
 ##### [OneDrive FAQ](admin-onedrive-faq.md)
 #### Use Power BI with Business Central
 ##### [Introduction](admin-powerbi.md)

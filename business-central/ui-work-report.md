@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.search.form:
-ms.date: 03/24/2022
+ms.date: 09/09/2022
 ms.author: jswymer
 
 ---
@@ -79,7 +79,9 @@ In the preview, use the menu bar on the report preview to:
 
 ## Saving a report to a file
 
-You can save a report to a PDF document, Microsoft Word document, Microsoft Excel worksheet, or XML document by choosing the **Send to** button, and then making your selection.
+You can save a report to a PDF document, Microsoft Word document, Microsoft Excel worksheet, or XML document by choosing the **Send to** button, and then making your selection. A file is downloaded to your device.
+
+If your organization has configured OneDrive for system features, instead og being downloaded, Excel worksheets and Word documents are opened in your browser by using either Excel for the web or Word for the web.
 
 > [!TIP]
 > The **Microsoft Excel Document (data only)** and **XML Document** options are mostly for advanced purposes. You'd typically use these options for doing detailed data analysis. For more information, see [Analyzing Report Data with Excel and XML](report-analyze-excel.md).

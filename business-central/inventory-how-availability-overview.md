@@ -11,7 +11,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
 ms.search.form: 908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390
-ms.date: 06/16/2021
+ms.date: 09/21/2022
 ms.author: edupont
 
 ---
@@ -97,12 +97,29 @@ The **Item Availability by BOM Level** page shows information for the item on th
 The **Bottleneck** field specifies which item in the BOM structure restricts you from making a larger quantity than the quantity that is shown in the **Able to Make Top Item** field. For example, the bottleneck item can be a purchased component with an expected receipt date that is too late to make additional units of the top item by the date in the **Needed by Date** field.
 
 ## To view the availability of an item by its units of measure
+
 The **Item Availability by Unit of Measure** page shows the availability of an item in the units of measure that it is stored in.
 
 > [!NOTE]  
 > To keep this information accurate, you must convert item units of measure. For example, if you purchase an item in one unit of measure, such as boxes, and you sell items in another unit of measure, such as pieces, you must use an item journal to convert the units of measure, or "unbox" items. You can use a negative adjustment item journal line to reduce inventory in the purchase unit of measure, for example boxes, and a positive adjustment to increase inventory in the sales unit of measure, for example pieces. 
 
+## To view the availability of an item by its variants
+
+The **Item Availability by Variant** page shows the actual and projected availability of an item grouped according to variant code.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
+2. Open the card of an item that you want to view availability for.
+3. Choose the **Item Availability by** action, and then choose the **Variant** action.
+
+    The **Item Availability by Variant** page shows availability for every variant that exists for the item. The page is empty if no variants exist for the item.
+
+4. In the **View by** field, select the length of the time period that you want to view.
+5. View the availability figures in the different quantity fields for each line.
+
+[!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
+
 ## Assembly Availability Page
+
 The **Assembly Availability** page shows detailed availability information for the assembly item. It opens:
 
 - Automatically from a sales order line in assemble-to-order scenarios when you enter a quantity that causes a component availability issue.

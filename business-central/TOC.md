@@ -1,4 +1,4 @@
-# [Welcome to Business Central](index.md)  
+﻿# [Welcome to Business Central](index.md)  
 # [New and Planned](product-news.md)
 # Get Started
 ## [Overview of Business Functionality](across-business-functionality.md)
@@ -485,6 +485,7 @@
 ### [Register New Items](inventory-how-register-new-items.md)
 ### [Work with Bills of Material](inventory-how-work-BOMs.md)
 ### [Categorize Items](inventory-how-categorize-items.md)
+### [Manage Product Variants](inventory-item-variants.md)  
 ### [Work with Item Attributes](inventory-how-work-item-attributes.md)
 ### [Work with Catalog Items](inventory-how-work-nonstock-items.md)
 ### [Count and Adjust Inventory Use Documents](inventory-how-count-inventory-with-documents.md)

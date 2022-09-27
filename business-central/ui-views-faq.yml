@@ -8,7 +8,7 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: list, filter, pane, views
-  ms.date: 06/24/2021
+  ms.date: 08/09/2022
   ms.author: mikebc
 title: List Views FAQ
 summary: This article answers questions that our advanced users often ask about working with list views and saving filters.  
@@ -32,7 +32,7 @@ sections:
         answer: |
           There's a couple reasons why you might not see the Save icon and options menu alongside views in the filter pane.
           
-          One reason could be that personalization isn't enabled for your user role. In this case, you still have access system views that are a standard part of the pages. You can modify these views, like changing or adding filters. You just can't save the changes. Another reason could be that the page you're looking at is a *worksheet* type page&mdash;not a list.
+          One reason could be that personalization isn't enabled for your user role. In this case, you still have access to system views that are a standard part of the pages. You can modify these views, like changing or adding filters. You just can't save the changes. Another reason could be that the page you're looking at is a *worksheet* type page&mdash;not a list.
           
       - question: |
           On which page types can I use list views?
@@ -40,14 +40,14 @@ sections:
           Views are only available on list pages.
 
       - question: |
-          How do I know whether I'm on list type page
+          How do I know whether I'm on a list type page?
         answer: |
           Use page inspection. To open page inspection, press Ctrl+Alt+F1. Then, in the **Page** field, look for the word **List** in the parenthesis at the end.
 
       - question: |
           Are views also available on other form factors?
         answer: |
-          Yes. Any views you save on your desktop browser or desktop app will also be available on your tablet or smartphone. You can't modify or personalize views on mobile devices.
+          Yes. Any views you save on your desktop browser or desktop app will also be available on your tablet, smartphone, or when embedded in Microsoft Teams. You can't modify or personalize views on mobile devices.
 
       - question: |
           Are my personal views always accessible?
@@ -67,7 +67,7 @@ sections:
       - question: |
           How can I share my views with others?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] doesn't provide a way to share the precise list view. But you can share your current filters so that other users can see a similar list of records. In your desktop browser, just copy the URL and share it with your colleagues. Sharing filters isn't guaranteed to give the recipient an identical set of filters that you see in your browser.
+          [!INCLUDE[prod_short](includes/prod_short.md)] doesn't provide a way to share the precise list view. But you can share your current filters so that other users can see a similar list of records. In the Business Central Web client, choose a view then use the **Copy link** feature to copy the URL to your clipboard. just copy the URL and share it with your colleagues. Sharing filters isn't guaranteed to give the recipient an identical set of filters that you see in your browser.
           
       - question: |
           Can I search for views in the Tell Me window?
@@ -102,8 +102,11 @@ sections:
           - System views that are a standard part of the business application, or added by extensions or role-specific views. Unlike personal views, you can't save changes to filters back to that system view.
           - Legacy system views that are a standard part of the business application but were created using older versions of [!INCLUDE[prod_short](includes/prod_short.md)]. These views offer fewer options. You can only save them as a new view and can't hide or reorder them either. Legacy system views will be discontinued in a future update to [!INCLUDE[prod_short](includes/prod_short.md)].
           
+          > [!NOTE]
+          > Starting with Business Central 2023 release wave 2, legacy views will no longer be supported, and won't be displayed in the list page. Learn technical details about how developers can migrate to modern list views at [Migrating from Legacy Views to Modern Views](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). 
+
       - question: |
-          How do I convert legacy system views?
+          How do I get past limitations of legacy system views?
         answer: |
           Legacy system views are list views that were created by developers in older versions of [!INCLUDE[prod_short](includes/prod_short.md)] by placing them on the Role Center page. These views are now displayed directly on the list page but offer a degraded experience and fewer options. You can convert a legacy system view to a personal view that is fully customizable, simply by saving that legacy view as a new view. Similarly, administrators can choose to convert role-specific legacy system views by customizing the user role and saving the legacy view as a new role-specific view.
           

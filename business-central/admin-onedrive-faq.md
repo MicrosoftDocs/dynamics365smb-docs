@@ -39,7 +39,7 @@ Administrators can access the Service health dashboard as part of the Microsoft 
  
 ## Is OneDrive integration available to [!INCLUDE[prod_short](includes/prod_short.md)] on premises?
 
-Yes, but unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, it does require more setup. For more information, see [Configuring Business Central On-Premises](admin-onedrive-integration.md#configuring-business-central-on-premises).  
+Yes, but unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, it does require more setup. For more information, see [Configuring Business Central On-Premises](admin-onedrive-integration-onpremises.md).  
 
 ## Does [!INCLUDE[prod_short](includes/prod_short.md)] on premises connect with SharePoint Server?
 
@@ -98,14 +98,18 @@ This section provides information about how to identify and fix problems you mig
 
 ### Business Central can't find my OneDrive
 
-When this message displays, “Could not determine the location of your OneDrive for Business, contact your partner to set this up.”, check whether the user has accessed their OneDrive at least one time. If they haven't, ask the person to go to portal.office.com/onedrive to set it up. This task can take a while. If the message still displays after 24 hours, contact Support.  
+When this message displays, “Could not determine the location of your OneDrive for Business, contact your partner to set this up.”, check whether the user has accessed their OneDrive at least one time. If they haven't, ask the person to go to portal.office.com/onedrive to set it up. That can take a while. If the message still displays after 24 hours, contact Support.  
+ 
+### I'm having problems sharing from Outlook
+
+See [Can't share OneDrive files from Outlook.com](https://support.microsoft.com/en-us/office/can-t-share-onedrive-files-from-outlook-com-05d4cb21-40a2-40e3-b111-82cddb82d22f) on Microsoft Support.
 
 ### Actions Open in OneDrive and Share are missing
 
 There ara a couple things you can check:
 
 - Check that the application features for OneDrive are turned on in the **OneDrive Setup** assisted setup guide. See [Configure OneDrive using OneDrive Setup](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup).
-- Check that Microsoft OneDrive is set to **Agree** in the **Privacy Notices Status** page. See [Privacy Notices Status](privacy-notices-status.md)
+- Check that Microsoft OneDrive is set to **Agree** in the **Privacy Notices Status** page. See [Privacy Notices Status](privacy-notices-status.md).
 
 ## See Also
 

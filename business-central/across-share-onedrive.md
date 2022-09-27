@@ -28,17 +28,20 @@ The **Open in OneDrive** action copies the file to your OneDrive and opens the f
 
 When you choose **Open in OneDrive**, [!INCLUDE[prod_short](includes/prod_short.md)] identifies Excel, Word, and PowerPoint files and opens them in their online applications, that is, Excel online, Word online and PowerPoint online. You can annotate, edit, and collaborate with others without leaving the browser.
 
-For other popular file types, like PDFs, text files, and images, OneDrive provides file viewers that offer features for printing, sharing, and more. If a file can't be viewed in OneDrive, you might be prompted to download it.
+For other popular file types, like PDFs, text files, and images, OneDrive provides file viewers for printing, sharing, and more. If a file can't be viewed in OneDrive, you might be prompted to download it.
 
 ## Share
 
 The **Share** action copies the file to your OneDrive and let's you share the file with other people and see who you've already shared the file with. When you select the **Share** action, the following page opens.
 
-:::image type="content" source="media/share-to-onedrive-dialog.PNG" alt-text="Share file in OneDrive":::
+:::image type="content" source="media/share-to-onedrive-dialog-v2.PNG" alt-text="Share file in OneDrive":::
 
 If you're familiar with OneDrive, you may recognize the page. You have two options for sharing the file: **Send link** and **Copy link**.
 
-- **Send link** let's you share the files with specific people. The people you share the file will get an email with a link to the file. The file will also appear in the **Shared** section of their OneDrive. Start by typing the email addresses or contact names in the **Name, group or email field**.
+- **Send link** let's you share the files with specific people. The people you share the file will get an email with a link to the file. The file will also appear in the **Shared** section of their OneDrive. Start by typing the email addresses or contact names in the **Name, group or email field**. Include a message below the  **Name, group or email field**, if you want.
+
+  > [!TIP]
+  > If you want to compose your message in Outlook, select the **Outlook** button. The link will be inserted into a draft email and everyone you entered to share with will be in the **To** list. With this option, you can author emails using all of Outlook's features, including formatting text, adding other attachments, inserting pictures or tables, and adding CC or BCC recipients.
 
 - **Copy link** copies a link to the file on your OneDrive so you can use the link in other places like Facebook, Twitter, or emails. 
 

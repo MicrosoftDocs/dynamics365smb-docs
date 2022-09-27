@@ -46,4 +46,4 @@ The folder and its content are private until you decide to share them with other
 
 [Managing OneDrive Integration with Business Central](admin-onedrive-integration.md)  
 [Opening Business Central Files in OneDrive](across-share-onedrive.md)  
-[OneDrive FAQ](admin-onedrive-faq.md)
+[OneDrive FAQ](admin-onedrive-faq.md)  

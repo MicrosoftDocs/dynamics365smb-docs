@@ -101,6 +101,7 @@ Directly from most collection pages, like the **Items** page, and details pages,
  ![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")
 
 ### Prerequisites
+
 You have access to Microsoft Teams.
 
 ### Share a link
@@ -112,7 +113,7 @@ You have access to Microsoft Teams.
 5. The message box will include a link to the page. Add any more information if you like, then choose **Share**.
 6. The link has now been shared. If you want to go to the conversation, choose **Go to Teams**.
 
-## See Also
+## See also
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  
@@ -123,6 +124,5 @@ You have access to Microsoft Teams.
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

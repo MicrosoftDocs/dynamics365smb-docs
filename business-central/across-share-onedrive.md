@@ -19,12 +19,6 @@ ms.author: jswymer
 
 :::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="The Open in OneDrive and Share actions for attachments":::
 
-<!--
-:::image type="content" source="media/Open in OneDrive.PNG" alt-text="The Open in OneDrive action":::
-
- 
-:::image type="content" source="media/OneDrive attachment.PNG" alt-text="Share file attachments in OneDrive":::
--->
 
 ## Open in OneDrive
 
@@ -69,7 +63,7 @@ When you use the **Open in OneDrive** or **Share** action for the first time, [!
 
 When you choose **Open in OneDrive** or **Share**, the file is copied from [!INCLUDE[prod_short](includes/prod_short.md)] to your folder in OneDrive. If you edit the file in OneDrive, the copies of the file will be different. To update [!INCLUDE[prod_short](includes/prod_short.md)] with the latest file, remove the existing file from [!INCLUDE[prod_short](includes/prod_short.md)] and then upload the latest copy.
 
-Also, when a file with the same name already exists in OneDrive, [!INCLUDE[prod_short](includes/prod_short.md)] will provide a choice to either replace the file or keep both files. If you choose to keep both files, the new file is copied to OneDrive and given a filename with suffix number, like  “Items (2).xlsx,”. The original file isn't changed. 
+Also, when a file with the same name already exists in OneDrive, [!INCLUDE[prod_short](includes/prod_short.md)] will provide a choice to either replace the file or keep both files. If you choose to keep both files, the new file is copied to OneDrive and given a filename with suffix number, like  "Items (2).xlsx,". The original file isn't changed. 
 
 If you choose to replace the file, the new file is added to the version history for that file. The original file isn't lost, and you can view or restore previous versions of the file. 
 
@@ -83,7 +77,8 @@ You can access your OneDrive from the **My Settings** page by choosing the link 
 <!--## Extending the Connection to OneDrive
 You can create an extension and connect it to... For more information, see...-->
 
-## See Also
+## See also
+
 [Business Central and OneDrive Integration](across-onedrive-overview.md)  
 [Managing OneDrive Integration with Business Central](admin-onedrive-integration.md)  
-[OneDrive FAQ](admin-onedrive-faq.md)
+[OneDrive FAQ](admin-onedrive-faq.md)  

@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 02/06/2022
+ms.date: 08/16/2022
 ms.author: bholtorf
 
 ---
@@ -69,7 +69,9 @@ The **Set Up Email** assisted setup guide can help you get started quickly with 
 is this still true?-->
 ## Assign Email Scenarios to Email Accounts
 Email scenarios are processes that involve sending a document. For example, a sales or purchase order or a notification, such as an invitation to an external accountant. Specific email accounts can be used for specific scenarios. For example, you can specify that all users always send sales documents from one account, purchase documents from another, and warehouse or production documents from a third account. You can assign, reassign, and remove scenarios whenever you want. A scenario can only be assigned to one email account at a time. The default email account will be used for all scenarios that aren't assigned to an account.
- 
+
+On the **Email Scenario Assignment** page, you can choose the **Set Defrault Attachments** action to add attachments to email scenarios. The attachments will always be available when you compose an email for a document related to the scenario. Each email scenario can have one or more default attachments. Default attachments are automatically added to emails for the email scenario. For example, when you send a sales order by email, the default attachment specified for the Sales Order scenario will be added. Default attachments display in the **Attachments** section at the bottom of the **Compose an Email** page. You can manually add non-default attachments to the email.
+
 <!--
 ## To set up email
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.

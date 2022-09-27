@@ -102,7 +102,7 @@ When this message displays, “Could not determine the location of your OneDrive
 
 ### Actions Open in OneDrive and Share are missing
 
-There ara a couple things you can chec
+There ara a couple things you can check:
 
 - Check that the application features for OneDrive are turned on in the **OneDrive Setup** assisted setup guide. See [Configure OneDrive using OneDrive Setup](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup).
 - Check that Microsoft OneDrive is set to **Agree** in the **Privacy Notices Status** page. See [Privacy Notices Status](privacy-notices-status.md)

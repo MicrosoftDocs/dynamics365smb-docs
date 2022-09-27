@@ -93,6 +93,18 @@ G/L entries to be posted to the specified deferral account, for example, Unearne
 2. On the **Sales Deferral Summary** page, in the **Balance as of** field, enter the date up to which you want to see deferred revenues.
 3. Choose the **Preview** button.
 
+## To specify a period in which to allow deferral posting
+
+You can specify a period in which people can post transactions by entering dates in the **Allow Posting From** and **Allow Posting To** fields as follows:
+
+* For all users, on the **General Ledger Setup** page
+* For specific users, on the **User Setup** page
+
+If you've done that, you must make an exception for deferrals to allow them to be posted outside the period. To define the period, follow these steps.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** or **User Setup**, and then choose the related link.
+2. In the **Allow Deferral Posting From** and **Allow Deferral Posting To** fields, enter a start and end date for the period.
+
 ## See related [Microsoft training](/training/modules/processing-invoices-dynamics-365-business-central/)
 
 ## See also

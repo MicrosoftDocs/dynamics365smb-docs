@@ -15,7 +15,7 @@
 ---
 # Design Details: Central Concepts of the Planning System
 
-The planning functions are contained in a batch job that first selects the relevant items and period to plan for. Then, according to each item’s low-level code (BOM position), the batch job calls a code unit, which calculates a supply plan by balancing supply-demand sets and suggesting possible actions for the user to take. The suggested actions appear as lines in the planning worksheet or the requisition worksheet.  
+The planning functions are contained in a batch job that first selects the relevant items and period to plan for. Then, according to each item's low-level code (BOM position), the batch job calls a code unit, which calculates a supply plan by balancing supply-demand sets and suggesting possible actions for the user to take. The suggested actions appear as lines in the planning worksheet or the requisition worksheet.  
 
 ![Contents of the Planning Worksheets page.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Contents of the Planning Worksheets page")  
 
@@ -29,7 +29,7 @@ MRP and MPS, Calculate Net Change Plan, and Calculate Regenerative Plan are all 
 
 Note that the planning system includes no dedicated logic for capacity leveling or fine scheduling. Therefore, such scheduling work is performed as a separate discipline. The lack of direct integration between the two areas also means that substantial capacity or schedule changes will require that the planning is rerun.  
 
-## Planning Parameters
+## Planning parameters
 
 Planning parameters that the user sets for an item or a group of items control which actions the planning system will suggest in the various situations. The planning parameters are defined on each item card to control when, how much, and how to replenish.  
 
@@ -37,7 +37,7 @@ Planning parameters can also be defined for any combination of item, variant, an
 
 For more information, see [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md) and [Design Details: Planning Parameters](design-details-planning-parameters.md).  
 
-## Planning Starting Date
+## Planning starting date
 
 To avoid a supply plan that incorporates open orders in the past and suggests potentially impossible actions, the planning system treats all dates before the planning starting date as a frozen zone where the following special rule applies:  
 
@@ -47,7 +47,7 @@ In other words, it assumes that the plan for the past is executed according to t
 
 For more information, see [Dealing with Orders Before the Planning Starting Date](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
-## Dynamic Order Tracking (Pegging)
+## Dynamic order tracking (pegging)
 
 Dynamic Order Tracking, with its simultaneous creation of action messages in the planning worksheet, is not a part of the supply planning system in [!INCLUDE[prod_short](includes/prod_short.md)]. This feature links, in real-time, the demand and the quantities that could cover them, whenever a new demand or supply is created or changed.  
 
@@ -61,7 +61,7 @@ For more information, see [Design Details: Reservation, Order Tracking, and Acti
 
 In companies with a low item flow and less advanced product structures, it may be adequate to use the Dynamic Order Tracking as the main means of supply planning. However, in busier environments, the planning system should be used to ensure a properly balanced supply plan at all times.  
 
-### Dynamic Order Tracking versus the Planning System
+### Dynamic order tracking versus the planning system
 
 At a quick glance, it may be difficult to differentiate between the planning system and Dynamic Order Tracking. Both features display output in the planning worksheet by suggesting actions that the planner should take. However, the way this output is produced differs.  
 
@@ -79,13 +79,13 @@ After the planning run, no action messages remain in the Action Message Entry ta
 
 For more information, see [Order Tracking Links during Planning](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).  
 
-## Sequence and Priority in Planning
+## Sequence and priority in planning
 
 When establishing a plan, the sequence of the calculations is important to get the job done within a reasonable timeframe. In addition, the prioritization of requirements and resources play an important role in obtaining the best results.  
 
 The planning system in [!INCLUDE[prod_short](includes/prod_short.md)] is demand-driven. High-level items should be planned before low-level items, because the plan for high-level items might generate additional demand for the lower-level items. This means, for example, that retail locations should be planned before distribution centers are planned, because the plan for a retail location may include additional demand from the distribution center. On a detailed balancing level, this also means that a sales order should not trigger a new supply order if an already released supply order can cover the sales order. Likewise, a supply carrying a specific lot number should not be allocated to cover a generic demand if another demand requires this specific lot.  
 
-### Item Priority / Low-Level Code
+### Item priority / low-level code
 
 In a manufacturing environment, the demand for a finished, sellable item will result in derived demand for components that comprise the finished item. The bill-of-material structure controls the component structure and can cover several levels of semi-finished items. Planning an item at one level will cause derived demand for components at the next level, and so on. Eventually, this will result in derived demand for purchased items. Consequently, the planning system plans for items in order of their ranking in the total BOM hierarchy, starting with finished saleable items at the top level and continuing down through the product structure to the lower level items (according to the low-level code).  
 
@@ -95,7 +95,7 @@ The figures illustrate in which sequence the system makes suggestions for supply
 
 For more information about manufacturing considerations, see [Loading the Inventory Profiles](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
-#### Optimizing Performance for Low-Level Calculations
+#### Optimizing performance for low-level calculations
 
 Low-level code calculations can impact system performance. To mitigate the impact, you can disable **Dynamic low-level code calculation** on the **Manufacturing Setup** page. When you do, [!INCLUDE[prod_short](includes/prod_short.md)] will suggest that you create a recurrent job queue entry that will update low-level codes daily. You can ensure that the job will run outside working hours by specifying a start time in the **Earliest Start Date/Time** field.
 
@@ -104,33 +104,33 @@ You can also enable logic that speeds up low-level code calculations by selectin
 > [!IMPORTANT]
 > If you choose to optimize performance, [!INCLUDE[prod_short](includes/prod_short.md)] will use new calculation methods to determine low-level codes. If you have an extension that relies on the events used by the old calculations, the extension may stop working.   
 
-### Locations / Transfer-Level Priority
+### Locations / transfer-level priority
 
-Companies that operate at more than one location may need to plan for each location individually. For example, an item’s safety stock level and its reordering policy may differ from one location to another. In this case, the planning parameters must be specified per item and also per location.  
+Companies that operate at more than one location may need to plan for each location individually. For example, an item's safety stock level and its reordering policy may differ from one location to another. In this case, the planning parameters must be specified per item and also per location.  
 
 This is supported with the use of SKUs, where individual planning parameters can be specified at the SKU level. An SKU can be regarded as an item at a specific location. If the user has not defined a SKU for that location, application will default to the parameters that have been set on the item card. The application calculates a plan for active locations only, which is where there is existing demand or supply for the given item.  
 
-In principle, any item can be handled at any location, but the application’s approach to the location concept is quite strict. For example, a sales order at one location cannot be fulfilled by some quantity on stock at another location. The quantity on stock must first be transferred to the location specified on the sales order.  
+In principle, any item can be handled at any location, but the application's approach to the location concept is quite strict. For example, a sales order at one location cannot be fulfilled by some quantity on stock at another location. The quantity on stock must first be transferred to the location specified on the sales order.  
 
 ![Planning for stockkeeping units.](media/NAV_APP_supply_planning_1_SKU_planning.png "Planning for stockkeeping units")  
 
 For more information, see [Design Details: Transfers in Planning](design-details-transfers-in-planning.md).  
 
-### Order Priority
+### Order priority
 
 Within a given SKU, the requested or available date represents the highest priority; the demand of today should be dealt with before the demand of the coming days. But apart from this kind of priority, the different demand and supply types are sorted according to business importance to decide which demand should be satisfied before satisfying another demand. On the supply side, the order priority will tell what source of supply should be applied before applying other sources of supply.  
 
 For more information, see [Prioritizing Orders](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
-## Demand Forecasts and Blanket Orders
+## Demand forecasts and blanket orders
 
-Forecasts and blanket orders both represent anticipated demand. The blanket order, which covers a customer’s intended purchases over a specific period of time, acts to lessen the uncertainty of the overall forecast. The blanket order is a customer-specific forecast on top of the unspecified forecast as illustrated below.  
+Forecasts and blanket orders both represent anticipated demand. The blanket order, which covers a customer's intended purchases over a specific period of time, acts to lessen the uncertainty of the overall forecast. The blanket order is a customer-specific forecast on top of the unspecified forecast as illustrated below.  
 
 ![Planning with forecasts.](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planning with forecasts")  
 
 For more information, see [Forecast Demand is Reduced by Sales Orders](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
-## Planning Assignment
+## Planning assignment
 
 All items should be planned for, however, there is no reason to calculate a plan for an item unless there has been a change in the demand or supply pattern since the last time a plan was calculated.  
 
@@ -140,7 +140,7 @@ The planning system monitors such events and assigns the appropriate items for p
 
 For multiple locations, the assignment takes place at the level of item per location combination. If, for example, a sales order has been created at only one location, application will assign the item at that specific location for planning.  
 
-The reason for selecting items for planning is a matter of system performance. If no change in an item’s demand-supply pattern has occurred, the planning system will not suggest any actions to be taken. Without the planning assignment, the system would have to perform the calculations for all items in order to find out what to plan for, and that would drain system resources.  
+The reason for selecting items for planning is a matter of system performance. If no change in an item's demand-supply pattern has occurred, the planning system will not suggest any actions to be taken. Without the planning assignment, the system would have to perform the calculations for all items in order to find out what to plan for, and that would drain system resources.  
 
 The full list of reasons for assigning an item for planning is provided in [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md).  
 
@@ -155,7 +155,7 @@ In addition to these considerations, the planning system only plans for those it
 
 For more information about the automatic planning procedures, see [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md).  
 
-## Item Dimensions
+## Item dimensions
 
 Demand and supply can carry variant codes and location codes that must be respected when the planning system balances demand and supply.  
 
@@ -165,13 +165,13 @@ Instead of calculating any theoretical combination of variant and location, appl
 
 For more information on how the planning system deals with location codes on demand, see [Design Details: Demand at Blank Location](design-details-balancing-demand-and-supply.md).  
 
-## Item Attributes
+## Item attributes
 
 Apart from general item dimensions, such as item number, variant code, location code, and type of order, each demand and supply event can carry additional specifications in the form of serial/lot numbers. The planning system plans these attributes in certain ways depending on their level of specification.  
 
 An order-to-order link between demand and supply is another type of attribute that affects the planning system.  
 
-### Specific Attributes
+### Specific attributes
 
 Certain attributes on demand are specific and must be matched exactly by a corresponding supply. The following two specific attributes exist:  
 
@@ -185,7 +185,7 @@ For these attributes, the planning system applies the following rules:
 
 Accordingly, if a demand for specific attributes cannot be met by inventory or projected supplies, the planning system will suggest a new supply order to cover this specific demand with no regard of planning parameters.  
 
-### Non-Specific Attributes
+### Non-specific attributes
 
 Serial/lot-numbered items without specific item tracking setup may carry serial/lot numbers that do not need to be applied to the exact same serial/lot number, but can be applied to any serial/lot number. This gives the planning system more freedom to match, for example, a serialized demand with a serialized supply, typically in inventory.  
 
@@ -195,7 +195,7 @@ For more information, see [Serial/Lot Numbers are Loaded by Specification Level]
 
 For more information about how the planning system balances attributes, see [Serial/Lot Numbers and Order-to-Order Links are Exempt from the Frozen Zone](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
-## Order-to-Order Links
+## Order-to-order links
 
 Order-to-order procurement means that an item is purchased, assembled, or produced to exclusively cover a specific demand. Typically it relates to A-items and the motivation for choosing this policy can be that the demand is infrequent, the lead-time is insignificant, or the required attributes vary.  
 
@@ -247,13 +247,13 @@ The emergency warning is displayed in two situations:
 -   When the inventory is negative on the planning starting date.  
 -   When back-dated supply or demand events exist.  
 
-If an item’s inventory is negative on the planning starting date, the planning system suggests an emergency supply for the negative quantity to arrive on the planning starting date. The warning text states the starting date and the quantity of the emergency order. For more information, see [Handling Projected Negative Inventory](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
+If an item's inventory is negative on the planning starting date, the planning system suggests an emergency supply for the negative quantity to arrive on the planning starting date. The warning text states the starting date and the quantity of the emergency order. For more information, see [Handling Projected Negative Inventory](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
 Any document lines with due dates before the planning starting date are consolidated into one emergency supply order for the item to arrive on the planning starting date.  
 
 ### Exception
 
-The exception warning is displayed if the projected available inventory drops below the safety stock quantity. The planning system will suggest a supply order to meet the demand on its due date. The warning text states the item’s safety stock quantity and the date on which it is violated.  
+The exception warning is displayed if the projected available inventory drops below the safety stock quantity. The planning system will suggest a supply order to meet the demand on its due date. The warning text states the item's safety stock quantity and the date on which it is violated.  
 
 Violating the safety stock level is considered an exception because it should not occur if the reorder point has been set correctly. For more information, see [The Role of the Reorder Point](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
@@ -281,7 +281,7 @@ If the field is not selected, the Calculate Plan batch job will continue until i
 
 ![Error messages in the planning worksheet.](media/NAV_APP_supply_planning_1_error_log.png "Error messages in the planning worksheet")  
 
-## Planning Flexibility
+## Planning flexibility
 
 It is not always practical to plan an existing supply order, such as when production has started or extra people are hired on a specific day to do the job. To indicate whether an existing order can be changed by the planning system, all supply order lines have a Planning Flexibility field with two options: Unlimited or None. If the field is set to None, the planning system will not try to change the supply order line.  
 
@@ -289,14 +289,14 @@ The field can be manually set by the user, however, in some cases it will be set
 
 For more information about how this field is used, see [Design Details: Transfers in Planning](design-details-transfers-in-planning.md).  
 
-## Order Planning
+## Order planning
 
 The basic supply planning tool represented by the **Order Planning** page is designed for manual decision making. It does not consider any planning parameters and is therefore not discussed further in this document. For more information, see [Plan for New Demand Order by Order](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  It is not advisable to use Order Planning if the company already uses the planning or requisition worksheets. Supply orders created through the **Order Planning** page may be changed or deleted during the automated planning runs. This is because the automated planning run uses planning parameters and these may not be considered by the user who made the manual plan in the Order Planning page.  
 
-##  Finite Loading
+## Finite loading
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is a standard ERP system, not a dispatching or shop floor control system. It plans for a feasible utilization of resources by providing a rough-cut schedule, but it does not automatically create and maintain detailed schedules based on priorities or optimization rules.  
 
@@ -305,19 +305,18 @@ The intended use of the Capacity-Constrained Resource feature is 1): to avoid ov
 When planning with capacity-constrained resources, the system ensures that no resource is loaded above its defined capacity (critical load). This is done by assigning each operation to the nearest available time slot. If the time slot is not big enough to complete the entire operation, then the operation will be split into two or more parts placed in the nearest available time slots.  
 
 > [!NOTE]  
->  In case of operation splitting, the setup time is only assigned once because it is assumed that some manual adjustment is done to optimize the schedule.  
+> In case of operation splitting, the setup time is only assigned once because it is assumed that some manual adjustment is done to optimize the schedule.  
 
 Dampener time can be added to resources to minimize operation splitting. This enables the system to schedule load on the last possible day by exceeding the critical load percent slightly if this can reduce the number of operations that are split.  
 
 This completes the outline of central concepts relating to supply planning in [!INCLUDE[prod_short](includes/prod_short.md)]. The following sections investigate these concepts deeper and place them in the context of the core planning procedures, balancing demand and supply as well as the use of reordering policies.  
 
-## See Also
+## See also
 
-[Design Details: Transfers in Planning](design-details-transfers-in-planning.md)   
-[Design Details: Planning Parameters](design-details-planning-parameters.md)   
-[Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)   
-[Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)   
-[Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)
-
+[Design Details: Transfers in Planning](design-details-transfers-in-planning.md)  
+[Design Details: Planning Parameters](design-details-planning-parameters.md)  
+[Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)  
+[Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)  
+[Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank, format, data
 ms.search.form: 20100, 20101, 20102, 20105, 20106, 20107, 20109, 
-ms.date: 06/23/2021
+ms.date: 09/20/2022
 ms.author: bholtorf
 
 ---
@@ -47,7 +47,7 @@ Before people can use this extension, your administrator must copy the following
 
 For more information, see [To copy a permission set](ui-define-granular-permissions.md#to-copy-a-permission-set).
 
-For each new permission set, grant only the **Read** permission for the **AMC Banking Setup table (20101)**. For more information, see [To create or modify permissions manually](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
+For each new permission set, grant only the **Read** permission for the **AMC Banking Setup table (20101)**. For more information, see [To create or modify permissions manually](ui-define-granular-permissions.md#to-create-a-permission-set).
 
 ### To connect the extension to AMC Banking
 

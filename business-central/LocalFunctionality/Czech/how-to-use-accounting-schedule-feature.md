@@ -1,29 +1,28 @@
 ---
-title: Czech Local Functionality - Accounting Schedule Feature
-description: Improvements of the standard Account Schedules feature (common list of expressions, saving results, formulas drill-down, additional data sources).
-author: v-pejano
+title: Czech Local Functionality—Financial Report Feature
+description: Improvements to the standard financial reports feature (common list of expressions, saving results, formulas drill-down, additional data sources).
+author: brentholtorf
 
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 06/17/2021
-ms.reviewer: v-pejano
-ms.author: v-pejano
+ms.reviewer: bholtorf
+ms.author: bholtorf
 ---
 
-# Account Schedule Feature in the Czech Version
+# Financial Report Feature in the Czech Version
 
-As one of the most extensively used features for analysis and reporting, Eastern European countries often ask for the following improvements of the standard Account Schedules feature:
+Financial reports are one of the most extensively used features for analysis and reporting to which Eastern European countries often ask for these improvements:
 
-- Common list of expressions – A common list of expressions contains named lines that can be used in formulas of all account schedules. This is done by defining one of the account schedules as a common list of expressions called a Shared Account Schedule.
-- Saving results (current state) of analysis – This improvement allows users to store results of analysis done by using account schedules, modification of results, and retrieval of results later on.
-- Formulas drill-down – This improvement allows users to drill down on the results of formulas. Drill-down is now accessible for Totalling type formulas. Drilling down on the result of the formula shows the user a new page containing the list of elements used to calculate the results and their description.
-- Additional data sources – Apart from being able to perform analysis on GL entries, the user can perform analysis on VAT, customer, vendor, and value entries.
+- Common list of expressions – Contains named lines for use in formulas in all financial reports. You do this by defining one of the financial reports as a common list of expressions called a shared financial report.
+- Saving results (current state) of analysis – Allows you to store the results of analysis done using financial reports, modification of results, and retrieval of results later on.
+- Formulas drill-down – Allows you to drill down on the results of formulas, including for totalling type formulas. By drilling down on the result of the formula, you get a new page containing the list of elements used to calculate the results and their descriptions.
+- Additional data sources – Enables you to perform analysis on value-added tax (VAT), customer, vendor, and value entries in addition to performing analysis on general ledger (G/L) entries.
 
 ## See also
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

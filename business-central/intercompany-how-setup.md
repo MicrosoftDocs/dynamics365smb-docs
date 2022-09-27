@@ -54,6 +54,10 @@ These fields to fill in differ, depending on whether your administrator has turn
 > [!NOTE]
 > In [!INCLUDE[prod_short](includes/prod_short.md)] online, you cannot use file locations to transfer transactions to your partners because [!INCLUDE[prod_short](includes/prod_short.md)] does not have access to your local network. Therefore, if you choose **File Location** in the **Transfer Type** field, the **Folder Path** field is not available. Instead, the file will be downloaded to the Downloads folder on your computer. You then send the file to someone in the partner company, for example, by email. For a more direct process, we recommend that you choose **Email** instead.
 
+> [!NOTE]
+> For intercompany posting, when you've turned on the **Auto-accept Transaction** toggle on the **Intercompany Partner Card** page [!INCLUDE[prod_short](includes/prod_short.md)] suppresses messages warning about purchase invoices duplicating the original purchase order. Therefore, it's important to have a business process for managing duplicates. For example, by deleting such purchase orders when the purchase invoice is received from the intercompany partner.
+
+
 ## To set up intercompany vendors and intercompany customers
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.

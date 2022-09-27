@@ -39,8 +39,14 @@ The default role is **Business Manager**, but you can select another role to use
 
 A company functions as a container for data in [!INCLUDE[prod_short](includes/prod_short.md)]. There can be multiple companies in a database, but only one can be selected at a time.
 
+The **Company** field shows the company you're currently working in, and you can use it to switch to another company. The company name is always displayed at the upper-left corner and works as an action that you can choose to go back to the Role Center.
+
+> [!TIP]
+> You can also change the company by using the company switcher (Crtl+O). For more information about about this feature and other ways to change company or environment, see [Switching to Another Company or Environment](ui-organization-switch.md).
+
 The default company is called CRONUS and contains demonstration data only. You can create a new company with custom data. For more information, see [Creating New Companies](about-new-company.md).
 
+<!--
 ### To change the company name
 
 The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
@@ -57,7 +63,7 @@ You can add a customized badge in the top-right corner, which you can choose to 
 2. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]
-> If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)
+> If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
 ## <a name="work-date"></a>Work date
 The most commonly used work date is today's date. You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not today's date.

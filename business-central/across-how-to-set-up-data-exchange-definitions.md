@@ -1,19 +1,16 @@
 ---
-    title: Define how data is exchanged electronically | Microsoft Docs
-    description: You can use an external provider of OCR services to have PDF or image files turned into electronic documents.
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+title: Define how data is exchanged electronically 
+description: You can use an external provider of OCR services to have PDF or image files turned into electronic documents.
+author: SorenGP
+ms.topic: conceptual
+ms.workload: na
+ms.search.keywords:
+ms.date: 09/14/2022
+ms.author: edupont
 
 ---
 # Set Up Data Exchange Definitions
+
 You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to exchange data in specific tables with data on external files, for example to send and receive electronic documents, import and export bank data or other data, such as payroll, currency exchange rates, and item catalogues. For more information, see [Exchanging Data Electronically](across-data-exchange.md).  
 
 As preparation for creating a data exchange definition for a data file or stream, you can use the related XML schema to define which data elements to include on the **Column Definitions** FastTab. See step 6 in [To describe the formatting of lines and columns in the file](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). For more information, see the [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
@@ -21,7 +18,7 @@ As preparation for creating a data exchange definition for a data file or stream
 You normally set up data exchange definitions on the **Data Exchange Definition** page. However, when you set up a data exchange definition for the service of refreshing currency exchange rates, you start the process in the simplified **Exch. Rate Update Setup Card** page.  
 
 > [!NOTE]  
->  If the file that is being converted is in XML format, the term *“column”* in this topic should be interpreted as *“XML element containing data”*.  
+> If the file that is being converted is in XML format, the term *“column”* in this topic should be interpreted as *“XML element containing data”*.  
 
 This topic includes the following procedures:  
 
@@ -29,18 +26,18 @@ This topic includes the following procedures:
 * To export a data exchange definition as an XML file for use by others  
 * To import an XML file for an existing data exchange definition  
 
-## To create a data exchange definition  
+## Create a data exchange definition
+
 Creating a data exchange definition involves two tasks:  
 
-1. On the **Data Exchange Definition** page, describe the formatting of lines and columns in the file.  
-2. On the **Data Exchange Mapping** page, map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)].  
-
-This is described in the following procedures.  
+1. On the **Data Exchange Definition** page, describe the formatting of lines and columns in the file. Learn more in the [To describe the formatting of lines and columns in the file](#formatlinescolumns) section.  
+2. On the **Data Exchange Mapping** page, map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more in the [To map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields) section.  
 
 > [!TIP]
 > To see which codeunits Microsoft uses in existing definitions in the standard product, review the three **Codeunit** fields on the header of the **Field Mapping** page for each definition.
 
-#### To describe the formatting of lines and columns in the file  
+### <a name=formatlinescolumns></a>To describe the formatting of lines and columns in the file
+
 1. In the **Search** box, enter **Data Exchange Definitions**, and then choose the related link.  
 2. Choose the **New** action.  
 3. On the **General** FastTab, describe the data exchange definition and the data file type by filling the fields as described in the following table.  
@@ -66,9 +63,9 @@ This is described in the following procedures.
 4. On the **Line Definitions** FastTab, describe the formatting of lines in the data file by filling the fields as described in the following table.  
 
     > [!NOTE]  
-    >  For import of bank statements, you only create one line for the single format of the bank statement file that you want to import.  
-    >   
-    >  For export of payments, you can create a line for each payment type that you want to export. In that case, the **Column Definitions** FastTab shows different columns for each payment type.  
+    > For import of bank statements, you only create one line for the single format of the bank statement file that you want to import.  
+    >
+    > For export of payments, you can create a line for each payment type that you want to export. In that case, the **Column Definitions** FastTab shows different columns for each payment type.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -104,12 +101,15 @@ This is described in the following procedures.
  The next step in creating a data exchange definition is to decide which columns or XML elements in the data file map to which fields in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]  
->  The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[prod_short](includes/prod_short.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code on the **Data Exchange Definitions** page. For information about the specific field mapping of this SEPA CAMT support, see [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).  
+> The specific mapping depends on the business purpose of the data file to be exchanged and on local variations. Even the SEPA bank standard has local variations. [!INCLUDE[prod_short](includes/prod_short.md)] supports import of SEPA CAMT bank statement files out\-of\-the\-box. This is represented by the **SEPA CAMT** data exchange definition record code on the **Data Exchange Definitions** page. For information about the specific field mapping of this SEPA CAMT support, see [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-#### To map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]  
+### <a name=mapfields></a>To map columns in the data file to fields in [!INCLUDE[prod_short](includes/prod_short.md)]
+
 > [!TIP]
 > Sometimes the values in the fields that you want to map are different. For example, in one business app the language code for the United States is "U.S.,"
 but in the other it's "US." That means you must transform the value when you exchange data. This happens through transformation rules that you define for the fields. For more information, see [Transformation Rules](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
+
+Starting in 2022 release wave 2, you can also group by any field, use the key index to sort results, and the new transformation types **Rounding** and **Field Lookup**.
 
 1. On the **Line Definitions** FastTab, select the line for which you want to map columns to fields, and then choose **Field Mapping**. The **Data Exchange Mapping** page opens.  
 2. On the **General** FastTab, specify the mapping setup by filling the fields as described in the following table.  
@@ -138,7 +138,8 @@ but in the other it's "US." That means you must transform the value when you exc
 
 The data exchange definition is now ready to be enabled for users. For more information, see [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Set Up SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md), and [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
-### Transformation Rules
+## Transformation Rules
+
 If the values in the fields you are mapping differ, you must use transformation rules for data exchange definitions to make them the same. You define transformation rules for data exchange definitions by opening an existing definition, or creating a new definition, and then on the **Line Definitions** FastTab, choosing **Manage**, and then **Field Mapping**. Predefined rules are provided, but you can also create your own. The following table describes the types of transformations that you can perform.
 
 |Option|Description|
@@ -157,10 +158,11 @@ If the values in the fields you are mapping differ, you must use transformation 
 |**Custom**|This is an advanced option that requires assistance from a developer. It enables an integration event that that you can subscribe to if you want to use your own transformation code. If you are a developer and want to use this option, see the "Tip for Developers: Example of the Custom Option" section below.|
 |**Date and Time Formatting**|Define how to display the current date as well as the time of day.|
 
-#### Tip for Developers: Example of the Custom Option
+### Tip for Developers: Example of the Custom Option
+
 The following example shows how to implement your own transformation code.
 
-```
+```AL
 codeunit 60100 "Hello World"
 {
     [EventSubscriber(ObjectType::Table, Database::"Transformation Rule", 'OnTransformation', '', false, false)]
@@ -171,9 +173,11 @@ codeunit 60100 "Hello World"
     end;
 }
 ```
+
 After you define your rules you can test them. In the **Test** section, enter an example of a value that you want to transform, and then check the results.
 
 ### To export a data exchange definition as an XML file for use by others
+
 When you have created the data exchange definition for a specific data file, you can export the data exchange definition as an XML file that you can import. This is described in the following procedure.  
 
 1. In the **Search** box, enter **Data Exchange Definitions**, and then choose the related link.  
@@ -183,15 +187,17 @@ When you have created the data exchange definition for a specific data file, you
 
     If a data exchange definition has already been created, you just have to import the XML file into the Data Exchange Framework. This is described in the following procedure.  
 
-### To import an existing data exchange definition  
+### To import an existing data exchange definition
+
 1. Save the XML file that represents the data exchange definition in an appropriate location.  
 2. In the **Search** box, enter **Data Exchange Definitions**, and then choose the related link.  
-3. Choose the **New** action. The **Data Exchange Definitio** page opens.  
+3. Choose the **New** action. The **Data Exchange Definition** page opens.  
 4. Choose the **Import Data Exchange Definition** action.  
 5. Choose the file that you saved in step 1.  
 
-## See Also  
-[Setting Up Data Exchange](across-set-up-data-exchange.md)  
+## See also
+
+[Set Up Data Exchange](across-set-up-data-exchange.md)  
 [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
 [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  

@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 10/01/2021
+ms.date: 09/22/2022
 ms.author: jswymer
 ---
 # Teams FAQ
@@ -265,7 +265,7 @@ When you compose and send a message to chat that includes a card, all users will
 
 ### How do I find out which company a card in Teams belongs to?
 
-If you work across [!INCLUDE [prod_short.md](includes/prod_short.md)] companies, talk to your administrator about enabling a company badge for each company. When enabled, this eye-catching hint appears in any details window inside Teams, and displays the company and environment that record belongs to. To learn how to set up company badge, see [To display a company badge for quick access to company information](ui-change-basic-settings.md#badge).
+If you work across [!INCLUDE [prod_short.md](includes/prod_short.md)] companies, talk to your administrator about enabling a company badge for each company. When enabled, this eye-catching hint appears in any details window inside Teams, and displays the company and environment that record belongs to. To learn how to set up company badge, see [Display a company badge](admin-company-information.md#badge).
 
 ## [Work with card details](#tab/carddetails)
 
@@ -321,7 +321,7 @@ Guests don't have access to the app marketplace to install apps themselves. Howe
 
 ### Does Share to Teams send a compact card? 
 
-At this time, only a deep link to the page is shared. Recipients will see a hyperlink in your message, which they can select to take them to [!INCLUDE [prod_short.md](includes/prod_short.md)] in a separate browser window. 
+Yes. The link will automatically expand into a card if you have the Business Central app for Teams installed. 
 
 ### Will recipients receive the message from me or from a Business Central service account? 
 

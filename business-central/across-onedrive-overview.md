@@ -53,7 +53,7 @@ The folder and its content are private until you decide to share them with other
 -->
 
 > [!NOTE]
-> You can also connect your [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to OneDrive. However, there are a few things to do to make it work. For more information, see  [Configuring Business Central On-Premises](admin-onedrive-integration-onpremises.md).
+> You can also connect your [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to OneDrive. However, there are a few things to do to make it work. For more information, see [Configuring Business Central On-Premises](admin-onedrive-integration-onpremises.md).
 
 ## See also
 

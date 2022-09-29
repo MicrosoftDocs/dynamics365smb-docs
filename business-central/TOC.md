@@ -589,7 +589,7 @@
 ### [Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
 ### [Create Blanket Assembly Orders](assembly-how-to-create-blanket-assembly-orders.md)
 ### [Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)
-### [Work with Bills of Material](inventory-how-work-BOMs.md)
+### [Work with Assembly BOMs](assembly-how-work-assembly-boms.md)
 ### [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
 
 ## Manufacturing
@@ -1705,7 +1705,7 @@
 
 ### Assembly Management
 #### [Assembly Management Reports](assembly-reports.md)
-#### [View the Bill Of Material (BOM) structure](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+#### [View the Bill Of Material (BOM) structure](assembly-how-work-assembly-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
 
 ### Manufacturing
 #### [Production Reports](production-reports.md)

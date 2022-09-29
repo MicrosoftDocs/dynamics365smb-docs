@@ -16,6 +16,7 @@ ms.author: andreipa
 Assembly reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows production and business professionals to get insights and statistics about current and past assembly activities.  
 
 ## Reports
+
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]
 
 ## Tasks
@@ -27,7 +28,6 @@ The following articles describe some of the key tasks for analyzing the state of
 ## See also
 
 [Assembly Management](assembly-assemble-items.md)  
-[Work with Bills of Material](inventory-how-work-boms.md)  
-
+[Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

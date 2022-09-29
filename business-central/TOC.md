@@ -120,7 +120,7 @@
 ### [Get Insights with Business Intelligence](quick-start-business-intelligence.md)
 
 <!--use-->
-## Get productive in Business Central
+## Get Productive in Business Central
 ### [General Functionality Overview](ui-work-product.md)
 ### [Print-Friendly Cheat Sheet](ui-work-product.md#cheatsheet)
 ### [Find Pages and Information with Tell Me](ui-search.md)
@@ -423,8 +423,8 @@
 ### [Accountant Experiences in Business Central](finance-accounting.md)
 ### [Multi-Site and International Organizations](finance-multi-site-organizations.md)
 
-## Business Intelligence and Financial Reporting
-### [Business Intelligence and Financial Reporting Overview](bi.md)
+## Financial Business Intelligence and Reporting
+### [Financial Business Intelligence and Reporting Overview](bi.md)
 ### [Financial Reports](finance-reports.md)
 ### [Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
 ### [Prepare Financial Reporting with Financial Data and Account Categories](bi-how-work-account-schedule.md)
@@ -456,7 +456,7 @@
 ### [Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)
 ### [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)
 ### [Track Packages](sales-how-track-packages.md)
-### [Date Calculation for Sales](sales-date-calculation-for-sales.md)
+### [Delivery Date Calculation for Sales](sales-date-calculation-for-sales.md)
 ### [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 ### [Work with Recurring Revenue](finance-recurring-invoicing.md)
 ### [Enter External Document Numbers](across-enter-external-document-numbers.md)
@@ -667,15 +667,14 @@
 #### [Post Service Orders and Credit Memos](service-how-to-post-service-orders.md)
 #### [Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)
 <!--Shopify-->
-## Online store with Shopify
-### [Get started with the Shopify connector](shopify/get-started.md)
-### [Synchronize items with Shopify](shopify/synchronize-items.md)
-### [Synchronize customers with Shopify](shopify/synchronize-customers.md)
-### [Synchronize and fulfill sales orders with Shopify](shopify/synchronize-orders.md)
-### [Set up taxes for the Shopify connection](shopify/setup-taxes.md)
-### [Run tasks in background](shopify/background.md)
-### [Troubleshoot the Shopify connector](shopify/troubleshoot.md)
-### [FAQ for the Shopify connector](shopify/shopify-faq.md)
+## Online Store with Shopify
+### [Get Started with the Shopify Connector](shopify/get-started.md)
+### [Synchronize Items with Shopify](shopify/synchronize-items.md)
+### [Synchronize Customers with Shopify](shopify/synchronize-customers.md)
+### [Synchronize and Fulfill Sales Orders with Shopify](shopify/synchronize-orders.md)
+### [Run Tasks in Background](shopify/background.md)
+### [Troubleshoot the Shopify Connector](shopify/troubleshoot.md)
+### [FAQ for the Shopify Connector](shopify/shopify-faq.md)
 
 <!--Company Hub-->
 ## Company Hub
@@ -1584,7 +1583,7 @@
 ##### [Use Business Central without Outlook](admin-no-outlook.md)
 ##### [FAQ](ui-outlook-addin-faq.yml)
 ### Set Up Reports
-#### [Report Selection](across-report-selections.md)
+#### [Report Selection for Documents](across-report-selections.md)
 ### Set Up Approval Workflows Based on Templates
 #### [Set Up Approval Workflows](across-set-up-workflows.md)
 #### [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)
@@ -1655,9 +1654,9 @@
 ### [Run Reports](ui-work-report.md)
 ### [Bookmark a Report](ui-bookmarks.md)
 ### [Analyze Report Data with Excel](report-analyze-excel.md)
-<!--### [Using the report inbox] (missing.md)-->
 ### [Print Reports](ui-specify-printer-selection-reports.md#default)
 ### [Schedule Reports](ui-work-report.md#ScheduleReport)
+### [Share and Export Reports with the Report Inbox](ui-work-report-inbox.md)
 ### [Manage Saved Report Settings](reports-saving-reusing-settings.md)
 ### [Set the Layout Used by a Report](ui-set-report-layout.md)
 ### [(Legacy) Set the Layout Used by a Report](ui-how-change-layout-currently-used-report.md)
@@ -1665,7 +1664,7 @@
 ## Built-in Reports
 ### [Report Overview](reports-available-reports.md)
 ### Finance
-#### [Financial analytics](bi.md)
+#### [Financial Business Intelligence](bi.md)
 #### [Analyze Financial Statements With Excel](finance-analyze-excel.md)
 #### [Key Financial Reports](finance-reports.md)
 #### [Accounts Receivable Reports](receivables-reports.md)
@@ -1725,13 +1724,13 @@
 ### [Searching and Filtering FAQ](ui-search-filter-faq.yml)
 ### [Analyzing Page Data in Excel](across-work-with-excel.md)
 ### [Analyzing Report Data with Excel](report-analyze-excel.md)
-### [Financial Analytics](bi.md)
+### [Financial Business Intelligence](bi.md)
 
 ## Built-in Analytics 
 ### [Overview](reports-built-in-analytics.md)
 ### [Intelligent Insights](about-intelligent-cloud.md)
 ### [Work with Power BI Reports](across-working-with-powerbi.md)
-### [Financial analytics](bi.md)
+### [Financial Business Intelligence](bi.md)
 ### [Analyze Financial Statements With Excel](finance-analyze-excel.md)
 ### [Consolidate Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
 ### [Report Usage Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)

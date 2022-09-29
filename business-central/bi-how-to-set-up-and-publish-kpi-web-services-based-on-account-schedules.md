@@ -2,7 +2,6 @@
 title: Set Up and Publish KPI Web Services Based on Financial Reports
 description: This topic describes how to show the financial-report KPI data based on specific financial reports.
 author: brentholtorf
-    
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -15,17 +14,17 @@ ms.author: bholtorf
 ---
 # Set Up and Publish KPI Web Services Based on Financial Reports
 
-On the **Financial Report KPI Web Service Setup** page, you set up how to show the financial report KPI data and which specific financial reports to base the KPIs on. When you choose **Publish Web Service**, the specified financial report KPI data is added to the list of published web services on the **Web Services** page.
+On the **Financial Report KPI Web Service Setup** page, you set up how to show the financial report key performance indicator (KPI) data and which specific financial reports to base the KPIs on. When you choose **Publish Web Service**, the specified financial report KPI data is added to the list of published web services on the **Web Services** page.
 
 > [!NOTE]
-> When you use this web service, closing dates are not included in your data set. That way you can use filters in Power BI to analyze various time periods.
+> When you use this web service, closing dates are not included in your data set. You can then use filters in Power BI to analyze various time periods.
 
-## Set up and publish a KPI web service that is based on financial reports
+## Set up and publish a KPI web service based on financial reports
   
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Report KPI Web Service Setup**, then choose the related link.
 2. On the **General** FastTab, fill in the fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. On the **Financial Reports** FastTab, fill in the fields.
-4. Repeat step 3 for each financial report you want to base the financial report KPI web service on.  
+4. Repeat step 3 for all financial reports you want to base the financial report KPI web service on.  
 5. To view or edit the selected financial report, on the **Row definitions** FastTab, choose the **Edit Row Definition** action.
 6. To view the financial report KPI data you've set up, choose the **Financial Report KPI Web Service** action.
 7. To publish the financial report KPI web service, choose the **Publish Web Service** action. The web service is added to the list of published web services on the **Web Services** page.
@@ -35,7 +34,7 @@ On the **Financial Report KPI Web Service Setup** page, you set up how to show t
 
 ## See also
 
-[Business Intelligence](bi.md)  
+[Financial Business Intelligence](bi.md)  
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  

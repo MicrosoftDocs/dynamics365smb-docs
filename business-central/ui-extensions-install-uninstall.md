@@ -24,7 +24,7 @@ You can change [!INCLUDE[prod_short](includes/prod_short.md)] by installing apps
 
 To use the functionality that is provided by an extension, such as opening pages, running reports, selecting actions, and so on, you must be assigned the permission sets that are installed as part of the extension.
 
-## <a name="install"></a>Install an Extension
+## <a name="install"></a>Install an extension
 
 You manage apps and extensions on the **Extension Management** page. You can access this page from Home. Alternatively, choose the **Search for Page or Report** icon ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") in the top right corner, enter **Extension**, and then choose the related link.  
 
@@ -61,7 +61,7 @@ Microsoft provides the following apps:
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
 * [QuickBooks Data Migration](ui-extensions-quickbooks-data-migration.md)
 * [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
-* [Quickbooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
+* [QuickBooks Payroll File Import](ui-extensions-quickbooks-payroll.md)
 * [Sales and Inventory Forecast](ui-extensions-sales-forecast.md)
 * [VAT Group](ui-extensions-vat-group.md)
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
@@ -71,18 +71,18 @@ Microsoft provides the following apps:
 * [The GetAddress.io UK Postcodes Extension](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Send Remittance Advice](ui-extensions-send-remittance-advice.md)
 
-## Set Up an Extension
-After you install an app, you might have to set it up. For example, for the **PayPal Payments Standard for [!INCLUDE[prod_short](includes/prod_short.md)]** app you must specify the PayPal account to use. If that's the case, when installation completes [!INCLUDE[prod_short](includes/prod_short.md)] will ask whether you want to set up the app right away. Setups can be required for the app to work, or optional. 
+## Set Up an extension
+After you install an app, you might have to set it up. For example, for the **PayPal Payments Standard for [!INCLUDE[prod_short](includes/prod_short.md)]** app you must specify the PayPal account to use. If that's the case, when installation completes [!INCLUDE[prod_short](includes/prod_short.md)] will ask whether you want to set up the app right away. Setups can be required for the app to work, or optional.
 
-If you choose to set up your app right away, and it how a required setup, [!INCLUDE[prod_short](includes/prod_short.md)] will open the required setup. The setup can be either a page where you enter information, or an assisted setup guide that helps you through the steps. If you don't complete the setup in one go, you can use the **Setups for _name of app_** page, which lists all setups for the app. Required setups indicated by **bold letters**.     
+If you choose to set up your app right away, and it has a required setup, [!INCLUDE[prod_short](includes/prod_short.md)] will open the required setup. The setup can be either a page where you enter information, or an assisted setup guide that helps you through the steps. If you don't complete the setup in one go, you can use the **Setups for _name of app_** page, which lists all setups for the app. Required setups indicated by **bold letters**.
 
-## Upload a Per-Tenant Extension (PTE)
+## Upload a per-tenant extension (PTE)
 
 You upload a PTE by using the **Extension Management** page. On the **Extension Management** page, go to **Manage**, then choose **Upload Extension**. On the **Upload and Deploy Extension** page, specify the .app file to upload. To proceed, choose the **Accept** button, and then the **Deploy** button, which will start the process of deploying the PTE.
 
 If the PTE contains breaking schema changes, it's possible to *force* an upload of it. To do that, in the **Schema Sync Mode** choose the **Force** option. You'll get a confirmation dialog to accept before proceeding.  
 
-## Uninstall an App
+## Uninstall an app
 
 You uninstall an app by using the **Extension Management** page. To uninstall an app, select it on the page, then select the **Uninstall** action. If you uninstall an app, and you then change your mind, you can install the app again.
 

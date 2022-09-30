@@ -18,10 +18,10 @@ ms.author: edupont
 
 The following topics describe local functionality that is unique to the United States version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
-## Feature Availability  
+## Feature availability  
 
 * Tax
-  * [US Sales Tax](us-sales-tax.md) **Available Now**
+  * [Basic Tax Setup](us-tax-setup.md) **Available Now**
   * [Reporting Sales Tax in the US](us-sales-tax.md) **Available Now**  
   * [Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md) **Available Now**  
   * [Regulatory 1099 Format Changes and Details](tax-1099-changes.md) **Available Now**  
@@ -39,12 +39,11 @@ The following topics describe local functionality that is unique to the United S
 > [!NOTE]
 > If you have customers in Europe, please note that you cannot report VAT to European authorities in the US version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. You may want to work with a consultant to add the capability to your environment based on the specific countries that you ship to.  
 
-## See Also
+## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

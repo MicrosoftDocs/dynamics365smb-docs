@@ -1429,7 +1429,7 @@
 ### United States
 #### [Local Functionality in the US Version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Tax
-##### [US Sales Tax](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Basic Tax Setup](LocalFunctionality/UnitedStates/us-tax-setup.md)  
 ##### [Reporting Sales Tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Set Up and Use the IRS 1099 Form](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Regulatory 1099 Format Changes and Details](LocalFunctionality/UnitedStates/tax-1099-changes.md)  

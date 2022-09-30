@@ -28,7 +28,7 @@ However, if you want to set up the VAT calculations yourself, or just want to le
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
-## Set up VAT using the assisted VAT setup guide (recommended> 
+## Set up VAT using the assisted setup guide (recommended)
 
 > [!NOTE]
 > You can use the **VAT Setup** guide only if you have created a *My Company* and have not yet posted transactions that include VAT.

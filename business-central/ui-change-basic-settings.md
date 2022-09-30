@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
 ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 08/31/2022
 ms.author: jswymer
 
 ---
@@ -25,19 +25,19 @@ The role determines the home page, a starting screen that is designed for the ne
 
 * At the top, the navigation allows you to switch between customers, vendors, items, and other important lists of information. Similarly, actions allow you to initiate tasks, such as create a new sales invoice, directly from the home page.
 
-* In the center, you find the **Activities** area, which shows current data and can be clicked or tapped to view more detailed information. Key performance indicators (KPIs) can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of favorite customers on the home page for business accounts that you do business with often or need to pay special attention to.
+* In the center, you find the **Activities** area, which shows current data and can be selected to view more detailed information. Key performance indicators (KPIs) can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses. You can also build up a list of favorite customers on the home page for business accounts that you do business with often or need to pay special attention to.
 
-### To change the role
+### Change the role
 
 The default role is **Business Manager**, but you can select another role to use a role center that fits your needs better.  
 
 1. In the top right corner, choose the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center"), and then choose the **My Settings** action.
 2. On the **My Settings** page, in the **Role** field, select the role that you want to use by default. For example, select **Accountant**.
-3. Choose the **OK** button.
+3. Choose **OK**.
 
 ## <a name="company"></a>Company
 
-A company functions as a container for data in [!INCLUDE[prod_short](includes/prod_short.md)]. There can be multiple companies in a database, but only one can be selected at a time.
+A company functions as a container for data in [!INCLUDE[prod_short](includes/prod_short.md)]. There can be multiple companies in a database, but only one can be selected at a time. The default company is called CRONUS and contains demonstration data only.
 
 The **Company** field shows the company you're currently working in, and you can use it to switch to another company. The company name is always displayed at the upper-left corner and works as an action that you can choose to go back to the Role Center.
 
@@ -66,7 +66,8 @@ You can add a customized badge in the top-right corner, which you can choose to 
 > If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
 ## <a name="work-date"></a>Work date
-The most commonly used work date is today's date. You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not today's date.
+
+The most commonly used work date is today's date. You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not today.
 
 > [!TIP]  
 > In all date fields, type **t** to quickly enter today's date, and type **w** to quickly enter the work date, which is the value in the **Work Date** field on the **My Settings** page.
@@ -86,7 +87,7 @@ If the work date isn't set to the current day (today), then on all pages where y
 
 ## <a name="region"></a> Region
 
-The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted. It also determines what character is used as the decimal separator when using a numeric keyboard to enter data. For more information, see [Entering Data](ui-enter-data.md#decimal).
+The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted. It also determines what character is used as the decimal separator when using a numeric keyboard to enter data. Learn more at [Entering Data](ui-enter-data.md#decimal).
 
 ## <a name="language"></a> Language
 
@@ -102,7 +103,7 @@ Defines the time zone where you are located. When you first sign into [!INCLUDE 
 
 ## Notifications
 
-Choose the *Change when I receive notifications* link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. For more information, see [Managing Notifications](ui-smart-notifications.md).
+Choose the *Change when I receive notifications* link to view or change the notifications that you get about certain events or status changes, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell. Learn more at [Managing Notifications](ui-smart-notifications.md).
 
 ## Teaching tips
 
@@ -110,10 +111,10 @@ Choose the *Change when I receive notifications* link to view or change the noti
 
 ## See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## See Also
+## See also
 
-[Creating New Companies](about-new-company.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
+[Creating New Companies](about-new-company.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

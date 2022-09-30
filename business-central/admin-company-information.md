@@ -5,19 +5,19 @@ author: edupont04
 
 ms.topic: conceptual
 ms.search.form: 1
-ms.date: 08/26/2022
+ms.date: 08/31/2022
 ms.author: edupont
 ---
 
 # Company Information Overview
 
-[!INCLUDE[prod_short](includes/prod_short.md)] organizes business entities in *companies*. For each company, you must fill in some of the basic company details and relevant information in the **Company Information** page. The information in the [**Company Information**](https://businesscentral.dynamics.com/?page=1) page is used in documents, such as invoice headers. You can set up more than one company, such as a parent company and a subsidiary.  
+[!INCLUDE[prod_short](includes/prod_short.md)] organizes business entities in *companies*. For each company, you must fill in some of the basic company details and relevant information on the **Company Information** page. The information on the [**Company Information**](https://businesscentral.dynamics.com/?page=1) page is used in documents, such as invoice headers. You can set up more than one company, such as a parent company and a subsidiary.  
 
-If the company's inventory warehouse is located at a different address than company headquarters, you can complete the various ship-to fields and the **Location Code** field on the **Shipping** FastTab. Then, the information in these fields will be printed on purchase orders, for example, so that vendors will ship items to the correct location.  
+If the company's inventory warehouse is located at a different address than the company headquarters, you can complete the various ship-to fields and the **Location Code** field on the **Shipping** FastTab. The information in these fields is then printed on purchase orders, for example, so vendors will ship items to the correct location.  
 
-For each company that you set up, you must fill in the **Company Information** page, together with the **General Ledger Setup** page. You must also set up each area in [!INCLUDE [prod_short](includes/prod_short.md)], such as the **Sales & Receivables Setup** page, for each company. For more information, see [Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+For each company you set up, you must fill in the **Company Information** page, together with the **General Ledger Setup** page. You must also set up each area in [!INCLUDE [prod_short](includes/prod_short.md)], such as the **Sales & Receivables Setup** page, for each company. Learn more at [Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-The **Company Information** page contains different fields and FastTabs, depending on your country. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] The following table describes the most commonly used FastTabs.
+The **Company Information** page contains different fields and FastTabs, depending on your country. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] The following table describes the most common FastTabs.
 
 [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
@@ -31,17 +31,17 @@ There are a few features you can use to switch among companies as you work, like
 
 ## <a name="badge"></a>Display a company badge
 
-When there's more than one company or environment, you'll see the company switcher in upper-right side of tha app bar, near the search icon in the app bar. By default, the company switcher uses a standard company icon, like ![company icon Launcher.](media/ui-experience/company-icon.png "Displays the company switcher icon used when there is a single environment") and ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Displays the company switcher icon used when there are multiple environments").
+When there's more than one company or environment, you'll see the company switcher on the upper-right side of the app bar, near the search icon in the app bar. By default, the company switcher uses a standard company icon, like ![company icon Launcher.](media/ui-experience/company-icon.png "Displays the company switcher icon used when there is a single environment") and ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Displays the company switcher icon used when there are multiple environments").
 
 :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Shows the company switcher icon in the heading of the Business Central client.":::  
 
-Using the **Company Information** page, you can replace the standard company icon with a custom badge on a per-company basis. If thThe company badge makes it easier for users to identify the company they're working in.
+Using the **Company Information** page, you can replace the standard company icon with a custom badge on a per-company basis if the company badge makes it easier for users to identify the company they're working in.
 
-1. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+1. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 2. When done, refresh the browser (press Ctrl+F5) to update the badge in the client.  
 
 > [!NOTE]
-> The company switcher was introduced in 2022 release wave 2, version 21. In earlier releases, the company badge isn't used for switching companies. It's shown in the upper-right corner of most pages, even when there's only one company. Selecting it will show the full company name and environment name. 
+> The company switcher was introduced in 2022 release wave 2, version 21. In earlier releases, the company badge isn't used for switching companies. It's shown in the upper-right corner of most pages, even when there's only one company. Selecting it will show the full company name and environment name.
 
 ## Change company display name
 
@@ -53,7 +53,7 @@ The company name is always displayed at the top left corner and works as an acti
 
 ## Experience
 
-The default user experience in a [!INCLUDE [prod_short](includes/prod_short.md)] trial doesn't reveal all capabilities. You can switch on the full experience in the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).  
+The default user experience in a [!INCLUDE [prod_short](includes/prod_short.md)] trial doesn't reveal all capabilities. You can switch on the full experience on the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).  
 
 ## See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
 
@@ -64,6 +64,6 @@ The default user experience in a [!INCLUDE [prod_short](includes/prod_short.md)]
 [Set Up Company Information in Italy](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
-
+[Creating New Companies](about-new-company.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

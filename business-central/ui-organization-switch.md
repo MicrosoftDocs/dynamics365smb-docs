@@ -92,17 +92,16 @@ When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], you can
 
 ## Use company hub
 
-Company hub is a highly specialized role center that gives a financial overview across companies and environments. Available as an [extension](ui-extensions-company-hub.md), company hub provides a dashboard with summary data for each company that you have access to. The home page displays financial KPIs and a direct link to the individual environments and companies. For more information, see [Manage Work across Multiple Companies in the Company Hub](company-hub.md).
+*Company hub* is a highly specialized role center that gives a financial overview across companies and environments. Available as an [extension](ui-extensions-company-hub.md), company hub provides a dashboard with summary data for each company that you have access to. The home page displays financial KPIs and a direct link to the individual environments and companies. For more information, see [Manage Work across Multiple Companies in the Company Hub](company-hub.md).
 
 [![Shows the company hub page that lists all companies.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
-## See Also
+## See also
 
 [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Environments and companies (English only)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
 [Company Information](admin-company-information.md)  
 [The Business Central Administration Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

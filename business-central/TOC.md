@@ -227,6 +227,7 @@
 ### [Post Multiple Documents at the Same Time](ui-batch-posting.md)
 ### [Preview Posting Results](ui-how-preview-post-results.md)
 ### [Edit Posted Documents](across-edit-posted-document.md)
+### [Status Field on Documents](ui-document-status.md)
 ### [Work with General Journals](ui-work-general-journals.md)
 ### [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ### [Let Business Central Suggest Values](ui-let-system-suggest-values.md)

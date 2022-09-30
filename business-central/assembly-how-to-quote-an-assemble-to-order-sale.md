@@ -1,6 +1,6 @@
 ---
 title: Quote an Assemble-to-Order Sale
-description: You can use assembly management to customize an assembly item to a customer’s request during the sales process.
+description: You can use assembly management to customize an assembly item to a customer's request during the sales process.
 author: SorenGP
 
 ms.topic: conceptual
@@ -15,7 +15,7 @@ ms.author: edupont
 ---
 # Quote an Assemble-to-Order Sale
 
-You can use assembly management to customize an assembly item to a customer’s request during the sales process. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
+You can use assembly management to customize an assembly item to a customer's request during the sales process. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
 
 As when you sell any other type of item, you can also create a sales quote for a customized assembly item before converting it to a sales order. This process involves several extra steps when you compare it to creating a regular sales quote, and it uses a variation of a linked assembly order, which is an assembly quote.
 
@@ -41,7 +41,7 @@ As when you sell any other type of item, you can also create a sales quote for a
 ## See also
 
 [Assembly Management](assembly-assemble-items.md)  
-[Work with Bills of Material](inventory-how-work-BOMs.md)  
+[Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

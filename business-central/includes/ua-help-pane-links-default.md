@@ -9,7 +9,7 @@ ms.author: edupont
 
   At the top of the pane, a card shows a short description of the current page, if one exists. If there is no page description, then the card provides a single link to an article about the page.  
 
-  If [!INCLUDE[prod_short](prod_short.md)] can't find the relevant link, we show the landing page in [Microsoft Docs](/dynamics365/business-central). For example, if the page was part of an app that didn't add context-sensitive Help mapping to [!INCLUDE[prod_short](prod_short.md)], the *Learn link* defaults to the landing page.  
+  If [!INCLUDE[prod_short](prod_short.md)] can't find the relevant link, we show the landing page in [Microsoft Learn](/dynamics365/business-central). For example, if the page was part of an app that didn't add context-sensitive Help mapping to [!INCLUDE[prod_short](prod_short.md)], the *Learn link* defaults to the landing page.  
 
 - Links to related articles
 

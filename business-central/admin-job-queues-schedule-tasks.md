@@ -15,16 +15,17 @@ ms.author: edupont
 ---
 # Use Job Queues to Schedule Tasks
 
-The Job Queues enable users to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson - Sales Statistics** report weekly to track sales by salesperson each week, or run the **Delegate Approval Requests** codeunit daily to prevent documents from piling up.
+The Job Queue Entries page enables users to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson * Sales Statistics** report weekly to track sales by salesperson each week, or run the **Delegate Approval Requests** codeunit daily to prevent documents from piling up.
 
 The **Job Queue Entries** page lists all existing jobs. If you add a new job queue entry that you want to schedule, you must provide some information. For example:
+
 * The type of object you want to run, such as a report or codeunit. You must have permission to run the particular report or codeunit.
 * The name and object ID of the object. 
 * Parameters to specify the behavior of the job queue entry. For example, you can add a parameter to only send posted sales orders. 
 * When, and how often, the job queue entry will run.
 
 > [!IMPORTANT]  
-> If you use the SUPER permissions set that comes with [!INCLUDE[prod_short](includes/prod_short.md)], you and your users have permissions to run all objects within the license. That is still not enough for Delegated Admin or users with Device license, who cannot create job queue entires.
+> If you're assigned the SUPER permissions set that comes with [!INCLUDE[prod_short](includes/prod_short.md)], you have permission to run all objects included in your license. If you have the Delegated Admin role, you can create and schedule job queue entries but only administrators and licensed users can run them. Users with the Device license can't create or run job queue entires.
 
 After job queues are set up and running, the status can change as follows within each recurring period:
 
@@ -70,7 +71,7 @@ The **Scheduled Tasks** page in [!INCLUDE [prod_short](includes/prod_short.md)] 
 For example, all scheduled tasks stop if the company is in an environment that's a copy of another environment. Use the **Scheduled Tasks** page to set tasks as ready to run in the job queue.  
 
 > [!NOTE]
-> Internal administrators and users can schedule tasks to run. Delegated administrators cannot.
+> Internal administrators and licensed users can schedule tasks to run. Delegated administrators can set up and schedule tasks to run, but only licensed users can run them.
 
 ## The My Job Queue Part
 

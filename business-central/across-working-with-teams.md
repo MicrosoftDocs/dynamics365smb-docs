@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
-ms.date: 05/19/2021
+ms.date: 09/22/2022
 ms.author: jswymer
 ---
 
@@ -101,7 +101,12 @@ Directly from most collection pages, like the **Items** page, and details pages,
  ![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")
 
 ### Prerequisites
-You have access to Microsoft Teams.
+
+- You have access to Microsoft Teams.
+- (Optional) You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. For more information, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)
+
+  With the app installed, messages you send sharing the link with others will also include a compact card for the page. 
+
 
 ### Share a link
 
@@ -109,10 +114,10 @@ You have access to Microsoft Teams.
 2. At the top of the page, choose the ![!Share to other apps action on pages.](media/share-icon.png) icon, then **Share to Teams**.
 3. If you're asked, sign in to Teams with your user name and password.
 4. In the **Share to Teams** page, type a name of a person, group, or channel that you want send the message to. 
-5. The message box will include a link to the page. Add any more information if you like, then choose **Share**.
+5. The message box will include a link to the page. If the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams is installed, a card for the linked record or page will appear in the message box. Add any more information if you like, then choose **Share**.
 6. The link has now been shared. If you want to go to the conversation, choose **Go to Teams**.
 
-## See Also
+## See also
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  
@@ -123,6 +128,5 @@ You have access to Microsoft Teams.
 [Developing for Teams Integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

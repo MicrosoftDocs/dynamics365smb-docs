@@ -1,8 +1,8 @@
 ---
-title: Business users learning catalog
+title: Business Users Learning Catalog
 description: Find all the available learning for Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2021
+ms.date: 08/29/2022
 ms.topic: conceptual
 ms.author: margoc
 ---
@@ -13,7 +13,7 @@ Did you just get a new application to use?
 
 The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.  
 
-## Getting started<a name="get-started"></a>
+## Getting started
 
 | Content                                                                                                                               | Description                                                                                                                                                                                                                                                                                      | Format                                | Length             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -21,7 +21,7 @@ The following catalog is organized from core knowledge to specific domains, and 
 | [Work with the Microsoft Dynamics 365 Business Central user interface](/training/paths/work-with-user-interface-dynamics-365-business-central/) | Do you want to learn about the Business Central user interface? This learning path shows you the user interface, and also how you can personalize it. It also discusses alternate interfaces such as a smartphone.                                                                               | Free, self-paced online learning path | 2 hours 27 minutes |
 | [Work like a pro with data in Business Central](/training/paths/work-pro-data-dynamics-365-business-central)                                    | Are you just getting started with Business Central? This learning path will help prepare you for the types of data in Business Central and how to find information you need in the application.                                                                                                  | Free, self-paced online learning path | 2 hours 27 minutes |
 
-## Financials<a name="financials"></a>
+## Financials
 | Content                                                                                                                                                         | Description                                                                                                                                                                                                                                                                                            | Format                                | Length             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
 | [Set up financial management in Microsoft Dynamics 365 Business Central](/training/paths/set-up-financial-management-dynamics-365-business-central/)                     | Do you want to use Business Central for financial management? Then, this learning path is for you. It discusses the setup of number series, audit trail codes, posting groups, dimensions and the chart of accounts.                                                                                   | Free, self-paced online learning path | 3 hours 13 minutes |

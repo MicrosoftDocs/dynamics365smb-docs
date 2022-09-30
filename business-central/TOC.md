@@ -1,8 +1,8 @@
-# [Welcome to Business Central](index.md)  
+﻿# [Welcome to Business Central](index.md)  
 # [New and Planned](product-news.md)
 # Get Started
 ## [Overview of Business Functionality](across-business-functionality.md)
-<!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
+<!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Learn
 ### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
 ### [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
@@ -20,7 +20,7 @@
 #### [Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
-#### [Walkthrough: Making Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Walkthrough: Making Cash Flow Forecasts by Using Financial Reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 <!-- Contoso-->
 ### Contoso Coffee Demo Data for Manufacturing
 #### [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md)
@@ -120,10 +120,11 @@
 ### [Get Insights with Business Intelligence](quick-start-business-intelligence.md)
 
 <!--use-->
-## Get productive in Business Central
+## Get Productive in Business Central
 ### [General Functionality Overview](ui-work-product.md)
 ### [Print-Friendly Cheat Sheet](ui-work-product.md#cheatsheet)
 ### [Find Pages and Information with Tell Me](ui-search.md)
+### [Search for Specific Data](ui-search-data.md)
 ### [Find Pages with the Role Explorer](ui-role-explorer.md)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Sort, Search, and Filter](ui-enter-criteria-filters.md)
@@ -196,10 +197,11 @@
 ### [Resources for Help and Support](product-help-and-support.md)
 ### [Visit Our Video Library](across-videos.md)
 ### [Get Technical Support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
-<!--## Learn
-### [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+
+<!--## Microsoft Learn training
+### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
+### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
 #### [Get Ready for Doing Business](ui-get-ready-business.md)
@@ -225,6 +227,7 @@
 ### [Post Multiple Documents at the Same Time](ui-batch-posting.md)
 ### [Preview Posting Results](ui-how-preview-post-results.md)
 ### [Edit Posted Documents](across-edit-posted-document.md)
+### [Status Field on Documents](ui-document-status.md)
 ### [Work with General Journals](ui-work-general-journals.md)
 ### [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
 ### [Let Business Central Suggest Values](ui-let-system-suggest-values.md)
@@ -257,7 +260,6 @@
 ##### [Set Up Data Exchange](across-set-up-data-exchange.md)
 ##### [Set Up a Document Exchange Service](across-how-to-set-up-a-document-exchange-service.md)
 ##### [Set Up Incoming Documents](across-how-setup-income-documents.md)
-##### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 ##### [Set Up Electronic Document Sending and Receiving](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 ##### [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)
@@ -275,7 +277,6 @@
 ##### [Export Payments to a Bank File](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ##### [Make Payments with AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ##### [Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
-##### [Update Currency Exchange Rates](finance-how-update-currencies.md)
 ##### [Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md)
 ##### [Field Mapping for the AMC Banking 365 Fundamentals Extension](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
@@ -301,6 +302,7 @@
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md)
 #### [Sales Tax in the Default Version of Business Central](sales-tax-concept.md)
+#### [Work with Intrastat Reporting](finance-how-report-intrastat.md)
 
 ### Manage Payables
 #### [Payables Overview](payables-manage-payables.md)
@@ -416,19 +418,19 @@
 ### [Report VAT to Tax Authorities](finance-how-report-vat.md)
 ### [Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)
 ### [Manage VAT Rate Changes](finance-how-use-vat-rate-change-tool.md)
-### [Walkthrough: Make Cash Flow Forecasts by Using Account Schedules](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+### [Walkthrough: Make Cash Flow Forecasts by Using Financial Reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Analyze Financial Statements in Excel](finance-analyze-excel.md)
 ### [Transfer Bank Funds](bank-how-transfer-bank-funds.md)
 ### [Create Bank Deposits](bank-create-bank-deposits.md)
 ### [Accountant Experiences in Business Central](finance-accounting.md)
 ### [Multi-Site and International Organizations](finance-multi-site-organizations.md)
 
-## Business Intelligence and Financial Reporting
-### [Business Intelligence and Financial Reporting Overview](bi.md)
+## Financial Business Intelligence and Reporting
+### [Financial Business Intelligence and Reporting Overview](bi.md)
 ### [Financial Reports](finance-reports.md)
 ### [Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
-### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
-### [Set Up and Publish KPI Web Services Based on Account Schedules](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+### [Prepare Financial Reporting with Financial Data and Account Categories](bi-how-work-account-schedule.md)
+### [Set Up and Publish KPI Web Services Based on Financial Reports](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 ### [Create Analysis Reports](bi-how-create-analysis-views-reports.md)
 ### [Create Reports with XBRL](bi-create-reports-with-xbrl.md)
@@ -456,7 +458,7 @@
 ### [Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)
 ### [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)
 ### [Track Packages](sales-how-track-packages.md)
-### [Date Calculation for Sales](sales-date-calculation-for-sales.md)
+### [Delivery Date Calculation for Sales](sales-date-calculation-for-sales.md)
 ### [Merge Duplicate Records](sales-how-merge-duplicate-records.md)
 ### [Work with Recurring Revenue](finance-recurring-invoicing.md)
 ### [Enter External Document Numbers](across-enter-external-document-numbers.md)
@@ -486,6 +488,7 @@
 ### [Register New Items](inventory-how-register-new-items.md)
 ### [Work with Bills of Material](inventory-how-work-BOMs.md)
 ### [Categorize Items](inventory-how-categorize-items.md)
+### [Manage Product Variants](inventory-item-variants.md)  
 ### [Work with Item Attributes](inventory-how-work-item-attributes.md)
 ### [Work with Catalog Items](inventory-how-work-nonstock-items.md)
 ### [Count and Adjust Inventory Use Documents](inventory-how-count-inventory-with-documents.md)
@@ -588,7 +591,7 @@
 ### [Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
 ### [Create Blanket Assembly Orders](assembly-how-to-create-blanket-assembly-orders.md)
 ### [Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)
-### [Work with Bills of Material](inventory-how-work-BOMs.md)
+### [Work with Assembly BOMs](assembly-how-work-assembly-boms.md)
 ### [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)
 
 ## Manufacturing
@@ -629,8 +632,8 @@
 #### [Pick Items](warehouse-pick-items.md)
 #### [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)
 #### [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)
-#### [Pick for Production or Assembly in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md)
-#### [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
+#### [Pick for Production, Assembly, or Jobs in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md)
+#### [Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 #### [Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md)
 #### [Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
 #### [Pick By FEFO](warehouse-picking-by-fefo.md)
@@ -666,15 +669,14 @@
 #### [Post Service Orders and Credit Memos](service-how-to-post-service-orders.md)
 #### [Lend and Receive Loaners](service-how-to-lend-receive-loaners.md)
 <!--Shopify-->
-## Online store with Shopify
-### [Get started with the Shopify connector](shopify/get-started.md)
-### [Synchronize items with Shopify](shopify/synchronize-items.md)
-### [Synchronize customers with Shopify](shopify/synchronize-customers.md)
-### [Synchronize and fulfill sales orders with Shopify](shopify/synchronize-orders.md)
-### [Set up taxes for the Shopify connection](shopify/setup-taxes.md)
-### [Run tasks in background](shopify/background.md)
-### [Troubleshoot the Shopify connector](shopify/troubleshoot.md)
-### [FAQ for the Shopify connector](shopify/shopify-faq.md)
+## Online Store with Shopify
+### [Get Started with the Shopify Connector](shopify/get-started.md)
+### [Synchronize Items with Shopify](shopify/synchronize-items.md)
+### [Synchronize Customers with Shopify](shopify/synchronize-customers.md)
+### [Synchronize and Fulfill Sales Orders with Shopify](shopify/synchronize-orders.md)
+### [Run Tasks in Background](shopify/background.md)
+### [Troubleshoot the Shopify Connector](shopify/troubleshoot.md)
+### [FAQ for the Shopify Connector](shopify/shopify-faq.md)
 
 <!--Company Hub-->
 ## Company Hub
@@ -1228,11 +1230,11 @@
 ### Russia
 #### [Local Functionality in the Russian Version](LocalFunctionality/Russia/russia-local-functionality.md)
 #### Core Finance
-##### [Account Schedules Overview](LocalFunctionality/Russia/account-schedules-overview.md)
-##### [Import and Export Account Schedules](LocalFunctionality/Russia/How-to-Import-and-Export-Account-Schedules.md)
-##### [Define an Account Schedule Extension](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Extension.md)
-##### [Define an Account Schedule Constant](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Constant.md)
-##### [Work with Account Schedules](LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md)
+##### [Financial Reports Overview](LocalFunctionality/Russia/account-schedules-overview.md)
+##### [Import and Export Financial Reports](LocalFunctionality/Russia/How-to-Import-and-Export-Account-Schedules.md)
+##### [Define a Financial Report Extension](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Extension.md)
+##### [Define a Financial Report Constant](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Constant.md)
+##### [Work with Financial Reports](LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md)
 ##### [General Ledger Correspondence](LocalFunctionality/Russia/general-ledger-correspondence.md)
 ##### [Сurrency](LocalFunctionality/Russia/Currency-information-Import-currency-rates.md)
 ##### [Set Up Responsible Employees and Advance Statements](LocalFunctionality/Russia/How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)
@@ -1340,7 +1342,7 @@
 ##### [Set Up and Close Income Statement Balances](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Indent and Validate Chart of Accounts](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
 ##### [Ignore Discounts in General Ledger Accounts](LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts.md)
-##### [Export Account Schedules to ASC Format](LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format.md)
+##### [Export Financial Reports to ASC Format](LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format.md)
 ##### [Print Account Book Reports](LocalFunctionality/Spain/how-to-print-account-book-reports.md)
 ##### [Print Sales and Purchase Invoice Books](LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books.md)  
 ##### [Transaction Numbers](LocalFunctionality/Spain/transaction-numbers.md)
@@ -1427,7 +1429,7 @@
 ### United States
 #### [Local Functionality in the US Version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Tax
-##### [US Sales Tax](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Basic Tax Setup](LocalFunctionality/UnitedStates/us-tax-setup.md)  
 ##### [Reporting Sales Tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Set Up and Use the IRS 1099 Form](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Regulatory 1099 Format Changes and Details](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
@@ -1449,7 +1451,7 @@
 #### [Set Up Payment Methods](finance-payment-methods.md)
 #### [Set Up Payment Terms](finance-payment-terms.md)
 #### [Set Up Posting Groups](finance-posting-groups.md)
-#### [Prepare Financial Reporting with Account Schedules and Account Categories](bi-how-work-account-schedule.md)
+#### [Prepare Financial Reporting with Financial Data and Account Categories](bi-how-work-account-schedule.md)
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)
 #### [Set Up Reminder Terms and Levels](finance-setup-reminders.md)
@@ -1467,7 +1469,7 @@
 #### [Set Up the Chart of Accounts](finance-setup-chart-accounts.md)
 #### [Set Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
 #### [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)
-#### [Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)
+#### [Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)
 #### [Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)
 ### Set Up Banking
 #### [Set Up Banking](bank-setup-banking.md)
@@ -1583,7 +1585,7 @@
 ##### [Use Business Central without Outlook](admin-no-outlook.md)
 ##### [FAQ](ui-outlook-addin-faq.yml)
 ### Set Up Reports
-#### [Report Selection](across-report-selections.md)
+#### [Report Selection for Documents](across-report-selections.md)
 ### Set Up Approval Workflows Based on Templates
 #### [Set Up Approval Workflows](across-set-up-workflows.md)
 #### [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)
@@ -1613,7 +1615,8 @@
 #### Use OneDrive for Business with Business Central
 ##### [Overview](across-onedrive-overview.md)
 ##### [Manage OneDrive for Business Integration](admin-onedrive-integration.md)
-##### [Open Business Central Files in OneDrive](across-share-onedrive.md)
+###### [Configuring OneDrive Integration with Business Central On-premises](admin-onedrive-integration-onpremises.md)
+##### [Open and Share Files in OneDrive](across-share-onedrive.md)
 ##### [OneDrive FAQ](admin-onedrive-faq.md)
 #### Use Power BI with Business Central
 ##### [Introduction](admin-powerbi.md)
@@ -1653,9 +1656,9 @@
 ### [Run Reports](ui-work-report.md)
 ### [Bookmark a Report](ui-bookmarks.md)
 ### [Analyze Report Data with Excel](report-analyze-excel.md)
-<!--### [Using the report inbox] (missing.md)-->
 ### [Print Reports](ui-specify-printer-selection-reports.md#default)
 ### [Schedule Reports](ui-work-report.md#ScheduleReport)
+### [Share and Export Reports with the Report Inbox](ui-work-report-inbox.md)
 ### [Manage Saved Report Settings](reports-saving-reusing-settings.md)
 ### [Set the Layout Used by a Report](ui-set-report-layout.md)
 ### [(Legacy) Set the Layout Used by a Report](ui-how-change-layout-currently-used-report.md)
@@ -1663,7 +1666,7 @@
 ## Built-in Reports
 ### [Report Overview](reports-available-reports.md)
 ### Finance
-#### [Financial analytics](bi.md)
+#### [Financial Business Intelligence](bi.md)
 #### [Analyze Financial Statements With Excel](finance-analyze-excel.md)
 #### [Key Financial Reports](finance-reports.md)
 #### [Accounts Receivable Reports](receivables-reports.md)
@@ -1704,7 +1707,7 @@
 
 ### Assembly Management
 #### [Assembly Management Reports](assembly-reports.md)
-#### [View the Bill Of Material (BOM) structure](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+#### [View the Bill Of Material (BOM) structure](assembly-how-work-assembly-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
 
 ### Manufacturing
 #### [Production Reports](production-reports.md)
@@ -1723,13 +1726,13 @@
 ### [Searching and Filtering FAQ](ui-search-filter-faq.yml)
 ### [Analyzing Page Data in Excel](across-work-with-excel.md)
 ### [Analyzing Report Data with Excel](report-analyze-excel.md)
-### [Financial Analytics](bi.md)
+### [Financial Business Intelligence](bi.md)
 
 ## Built-in Analytics 
 ### [Overview](reports-built-in-analytics.md)
 ### [Intelligent Insights](about-intelligent-cloud.md)
 ### [Work with Power BI Reports](across-working-with-powerbi.md)
-### [Financial analytics](bi.md)
+### [Financial Business Intelligence](bi.md)
 ### [Analyze Financial Statements With Excel](finance-analyze-excel.md)
 ### [Consolidate Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)
 ### [Report Usage Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)

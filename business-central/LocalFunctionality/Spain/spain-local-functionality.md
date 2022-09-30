@@ -7,12 +7,12 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/21/2021
+    ms.date: 08/26/2022
     ms.author: edupont
 ---
 # Spain Local Functionality in the Spanish Version
 
-The following topics describe local functionality that is unique to the Spanish version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following topics describe local functionality unique to the Spanish version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature availability
 
@@ -70,7 +70,5 @@ The following topics describe local functionality that is unique to the Spanish 
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)
-
-## [!INCLUDE[free_trial](../../includes/free_trial_md.md)]  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

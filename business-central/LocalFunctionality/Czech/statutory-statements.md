@@ -6,40 +6,37 @@ author: v-makune
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 04/01/2021
+ms.date: 08/26/2022
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-
 # Statutory Statements in the Czech Version
 
-Companies must create financial statements according to the Accounting Law 563/1991. They must create the balance sheet and the profit and loss statement.
-This feature provides the following reports:
+Companies must create financial statements according to Accounting Law 563/1991. They must create the balance sheet and the profit and loss statement. The **Statutory Statements** feature provides the following reports:
 
 - **Balance Sheet**
 - **Income Statement**
 
-These reports use the Account Schedule feature with the statement structure defined.
+These reports use the financial reports feature with the statement structure defined.
 
 The **Acc. Schedule Name** table contains this new field in the Czech version:
-- **Acc. Schedule Type** – Balance Sheet or Income Statement option
+
+- **Acc. Schedule Type** – provides the balance sheet or income statement option
 
 The **Acc. Schedule Line** table contains these new fields in the Czech version:
+
 - **Row Correction** – links to another line for balance sheet setup
-- **Assets/Liabilities Type** – Assets or Liabilities for Balance Sheet setup
-- **Calc** – Always, Never, When positive, When Negative options
+- **Assets/Liabilities Type** – shows assets or liabilities for balance sheet setup
+- **Calc** – provides the always, never, when positive, when negative options
 
-The balance sheet and the profit and loss statements are often prepared in Excel file templates with the necessary design for statement printout. Users want to map defined account schedules to prepared Excel templates.
+The balance sheet and the profit and loss statements are often prepared in Microsoft Excel file templates with the required design layout for the statement report. Both documents can be customized using Excel workbooks (.xlsx files). Similarly, you can export financial report data to Excel files. Learn more about Excel report templates at [Working with Excel Layouts](../../ui-excel-report-layouts.md).
 
-For the reasons above, this feature provides the new setup of Excel templates and statement file mapping. Based on this setup, users can export account schedule data to Excel files.
-
-## See Also
+## See also
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
-[Statutory company information](statutory-company-information.md)  
+[Statutory Company Information](statutory-company-information.md)  
 [Finance](../../finance.md)  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

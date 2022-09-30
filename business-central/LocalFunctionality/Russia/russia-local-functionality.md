@@ -8,27 +8,27 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords:
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 08/26/2022
 ms.author: soalex
 
 ---
 # Russia Local Functionality
 
-In [!INCLUDE[prod_short](../../includes/prod_short.md)], there are Russian-specific features that you can use to track and manage your business. For example, you can use the local functionality features in [!INCLUDE[prod_short](../../includes/prod_short.md)] to calculate VAT due based on Russian VAT rates and regulations.
+There are Russia-specific features in [!INCLUDE[prod_short](../../includes/prod_short.md)] you can use to track and manage your business. For example, you can use the local functionality features in [!INCLUDE[prod_short](../../includes/prod_short.md)] to calculate value-added tax (VAT) due based on Russian VAT rates and regulations.
 
-## Feature Availability
+## Feature availability
 
-* Core Finance
-    * [Account Schedules Overview](account-schedules-overview.md) **Available Now**
-    * [Import and Export Account Schedules](How-to-Import-and-Export-Account-Schedules.md) **Available Now**
-    * [Define an Account Schedule Extension](How-to-Define-an-Account-Schedule-Extension.md) **Available Now**
-    * [Define an Account Schedule Constant](How-to-Define-an-Account-Schedule-Constant.md) **Available Now**
-    * [Work with Account Schedules](How-to-Work-with-Account-Schedules.md) **Available Now**
+* Core finance
+    * [Financial Reports Overview](account-schedules-overview.md) **Available Now**
+    * [Import and Export Financial Reports](How-to-Import-and-Export-Account-Schedules.md) **Available Now**
+    * [Define a Financial Report Extension](How-to-Define-an-Account-Schedule-Extension.md) **Available Now**
+    * [Define a Financial Report Constant](How-to-Define-an-Account-Schedule-Constant.md) **Available Now**
+    * [Work with Financial Reports](How-to-Work-with-Account-Schedules.md) **Available Now**
     * [General Ledger Correspondence](general-ledger-correspondence.md) **Available Now**
     * [Сurrency](Currency-information-Import-currency-rates.md) **Available Now**
     * [Set Up Responsible Employees and Advance Statements](How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md) **Available Now**
 
-* Payables and Receivables
+* Payables and receivables
     * [Payables and Receivables](Payables-and-Receivables.md) **Available Now**
     * [Enter Custom Declarations Information](how-to-enter-custom-declarations-information.md) **Available Now**
     * [Set Up and Create Letters of Attorney](how-to-set-up-and-create-letters-of-attorney.md) **Available Now**
@@ -40,12 +40,12 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], there are Russian-speci
     * [Prepayment Differences](prepayment-differences-invoices-prepayment-differences.md) **Available Now**
     * [Set Up Customer and Vendor Agreements](how-to-set-up-customer-and-vendor-agreements.md) **Available Now**
 
-* Fixed Assets
+* Fixed assets
     * [Fixed Assets](fixed-assets.md) **Available Now**
     * [Calculate Assessed Tax](How-to-Calculate-Assessed-Tax.md) **Available Now**
     * [Depreciation Bonus](Depreciation-Bonus.md) **Available Now**
     * [Fixed Asset Charges](Fixed-Asset-Charges.md) **Available Now**
-    * [Gratuitous receipt of fixed assets](Gratuitous-receipt-of-fixed-assets.md) **Available Now**
+    * [Gratuitous Receipt of Fixed Assets](Gratuitous-receipt-of-fixed-assets.md) **Available Now**
     * [Fixed Asset Inventory](Fixed-Asset-Inventory.md) **Available Now**
     * [Fixed Asset Locations and Employees](Fixed-Asset-Locations-and-Employees.md) **Available Now**
     * [Fixed Asset Turnover](Fixed-Asset-Turnover.md) **Available Now**
@@ -64,10 +64,10 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], there are Russian-speci
     * [Set Up VAT Ledgers](How-to-Set-Up-VAT-Ledgers.md) **Available Now**  
     * [Prepare VAT Entries for Posting](How-to-Prepare-VAT-Entries-for-Posting.md) **Available Now**  
     * [Settlement VAT](Settlement-VAT.md) **Available Now**  
-    * [Unload books of purchased and sales in XML. VAT Declaration](upload-books-purchases-sales-xml-vat-declaration.md) **Available Now**  
-    * [VAT by customer prepayments](VAT-by-Customer-prepayments.md) **Available Now**  
-    * [VAT reinstatement](VAT-reinstatement.md) **Available Now**  
-    * [Vendor Tax Agent scheme](Vendor-Tax-Agent-scheme.md) **Available Now**  
+    * [Unload Books of Purchases and Sales in XML. VAT Declaration](upload-books-purchases-sales-xml-vat-declaration.md) **Available Now**
+    * [VAT by Customer Prepayments](VAT-by-Customer-prepayments.md) **Available Now**  
+    * [VAT Reinstatement](VAT-reinstatement.md) **Available Now**  
+    * [Vendor Tax Agent Scheme](Vendor-Tax-Agent-scheme.md) **Available Now**  
 
 * Tax Accounting
     * [Tax Accounting](Tax-Accounting.md) **Available Now**
@@ -76,7 +76,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], there are Russian-speci
     * [Create Tax Registers](How-to-Create-Tax-Registers.md) **Available Now**  
     * [Set Up Tax Register Sections](How-to-Set-Up-Tax-Register-Sections.md) **Available Now**  
     * [Tax Differences](Tax-Differences.md) **Available Now**  
-    * [Accounting for personal income tax payments](Accounting-for-personal-income-tax-payments.md) **Available Now**  
+    * [Accounting for Personal Income Tax Payments](Accounting-for-personal-income-tax-payments.md) **Available Now**  
     * [Upload KLADR](Upload-KLADR.md) **Available Now**  
     * [Statutory Reports](Statutory-Reports.md) **Available Now**
 
@@ -96,19 +96,18 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], there are Russian-speci
 * Human Resources
     * [Human Resources](Human-Resources.md) **Available Now**
     * [Payroll](Payroll.md) **Available Now**
-    * [Establishment of charges and deductions to the employee](Establishment-of-charges-and-deductions-to-the-employee.md) **Available Now**
-    * [Absence registration](Absence-registration.md) **Available Now**
+    * [Establishment of Charges and Deductions to the Employee](Establishment-of-charges-and-deductions-to-the-employee.md) **Available Now**
+    * [Absence Registration](Absence-registration.md) **Available Now**
     * [Dismissal](Dismissal.md) **Available Now**
     * [Forming and Changing Staff List Order](Forming-and-changing-Staff-List-Order-Staff-Arrangement.md) **Available Now**
-    * [Vacation planning](Vacation-planning.md) **Available Now**
+    * [Vacation Planning](Vacation-planning.md) **Available Now**
 
-## See Also
+## See also
 
 [Russian Chart of Accounts](Russian-Chart-of-Accounts.md)  
 [Russian Receivables Reports](Russian-Receivables-Reports.md)  
 [Russian Payables Reports](Russian-Payables-Reports.md)  
 [Special Codes for Company Information, Customers, Vendors](special-codes-company-information-customers-vendors.md)  
-[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
-
+[Country/Regional Availability and Supported Languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

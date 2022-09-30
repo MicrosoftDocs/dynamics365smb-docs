@@ -55,14 +55,14 @@ In the **Help and Support** page, you can see the version of [!INCLUDE[prod_shor
 
 ## Languages of the [!INCLUDE[prod_short](includes/prod_short.md)] Help
 
-The Help content for the default version of [!INCLUDE[prod_short](includes/prod_short.md)] publishes to the Microsoft Docs site. The content is available in different languages. If you access the docs from inside [!INCLUDE[prod_short](includes/prod_short.md)], the content will display in your language. By default, if a particular page isn't available in your language yet, it will be shown in English.
+The Help content for the default version of [!INCLUDE[prod_short](includes/prod_short.md)] publishes to Microsoft Learn. The content is available in different languages. If you access the documentation from inside [!INCLUDE[prod_short](includes/prod_short.md)], the content will display in your language. By default, if a particular page isn't available in your language yet, it will be shown in English.
 
-### How do I change the language of the Microsoft Docs site?
+### How do I change the language of the Microsoft Learn site?
 
 It's simple - scroll to the bottom of the browser page and choose the globe symbol in the bottom left corner.
 
 > [!NOTE]  
-> The list shows all languages that are supported by the Microsoft Docs site. [!INCLUDE[prod_short](includes/prod_short.md)] is available in a limited number of countries/regions, and the [!INCLUDE [prod_short](includes/prod_short.md)] Help content is not available in all languages that the Microsoft Docs site supports.
+> The list shows all languages that are supported by the Microsoft Learn site. [!INCLUDE[prod_short](includes/prod_short.md)] is available in a limited number of countries/regions, and the [!INCLUDE [prod_short](includes/prod_short.md)] Help content is not available in all languages that the Microsoft Learn site supports.
 
 ## See Also
 

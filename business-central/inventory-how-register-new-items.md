@@ -124,7 +124,7 @@ For examples of how you can use the fields on the **Planning** FastTab, see [Set
 [Inventory](inventory-manage-inventory.md)  
 [Set Up Units of Measure](inventory-how-setup-units-of-measure.md)  
 [Manage Product Variants](inventory-item-variants.md)  
-[Tariff numbers](finance-how-setup-report-intrastat.md#tariff-numbers)  
+[Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
 [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Create Number Series](ui-create-number-series.md)  
 [Setting Up Posting Groups](finance-posting-groups.md)  

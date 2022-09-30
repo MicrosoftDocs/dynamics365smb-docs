@@ -1,19 +1,19 @@
 ---
-    title: Export Intrastat Third-Party Declarations [BE]
-    description: In Belgium, you must have a third-party declarant fill out the Intrastat declaration. The third-party declarant must be an external person or company.
-    author: sorenfriisalexandersen
-
+title: Export Intrastat Third-Party Declarations [BE]
+description: In Belgium, you must have a third-party declarant fill out the Intrastat declaration. The third-party declarant must be an external person or company.
+author: sorenfriisalexandersen
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/17/2021
-    ms.author: soalex
-
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 06/17/2021
+ms.author: soalex
 ---
 # Export Intrastat Third-Party Declarations in the Belgian Version
+
+[!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
 In Belgium, you must have a third-party declarant fill out the Intrastat declaration. The third-party declarant must be an external person or company.  
 
@@ -35,13 +35,13 @@ Before you export the file, it's a good idea to preview the report. For more inf
 
 Next, submit the declaration to the OneGate portal.  
 
-## See Also
+## See also
 
- [Belgian Intrastat Reporting](belgian-intrastat-reporting.md)   
- [Set Up Declaration Types](how-to-set-up-declaration-types.md)   
- [Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)   
- [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
- [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)
-
+[Belgian Intrastat Reporting](belgian-intrastat-reporting.md)  
+[Set Up Declaration Types](how-to-set-up-declaration-types.md)  
+[Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)  
+[Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)  
+[Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)  
+[Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

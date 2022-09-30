@@ -3,15 +3,15 @@ title: Czech Local Functionality - Intrastat
 description: This section describes local functionality for Intrastat, Intrastat Engine Setup, Intrastat Tables and additional features.
 author: ACMartinKunes
 
-
 ms.topic: conceptual
 ms.search.keywords: Czech, Intrastat, Payables, Finance, CZ, Cash
 ms.date: 06/17/2021
 ms.reviewer: v-pejano
 ms.author: v-makune
 ---
-
 # Intrastat in the Czech Version
+
+[!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
 The standard Intrastat feature does not transfer all and only valid transactions into Intrastat journal. This results into a lot of manual work necessary to exclude/include the excess/missing transactions, often rendering a lot of errors. According to the requirements of the Czech Republic, the following improvements are needed for the Intrastat feature:
 
@@ -84,7 +84,7 @@ The fastest way to prepare the Intrastat journal and make sure all the rules set
 - System makes sure to include Intrastat transactions with Entry/Exit Points in EU Country
 - System makes sure to include sales and purchase documents (i.e. Credit Memos) posted with the **Correction** check box as inserted in the Intrastat journal with the same type as documents they are correcting, but with opposite sign for Non-physical Transfer documents and with the opposite type for documents marked as Physical Transfer
 - System makes sure the reversed Intrastat transactions (i.e. using Undo Receipt/Shipment) are excluded from reporting (both revered and reversing Intrastat transactions)
-- System makes sure the Item Charges are (not) included, adjusted and calculated in Intrastat Amount and Statistical Amount according to the user’s setup in Stat. Reporting Setup, Item Charges, Shipment Methods and Item Charge Assignments
+- System makes sure the Item Charges are (not) included, adjusted and calculated in Intrastat Amount and Statistical Amount according to the user's setup in Stat. Reporting Setup, Item Charges, Shipment Methods and Item Charge Assignments
 - System makes sure the Supplementary Units of Measure are used while preparing Intrastat Journal lines
 - System makes sure the correct data source is used for Tariff No., Net Weight and Country/Region of Origin according to Stat. Reporting Setup
 
@@ -93,9 +93,10 @@ The fastest way to prepare the Intrastat journal and make sure all the rules set
 Export of Intrastat reports to .csv files according to local requirements (for INSTATDESK and INSTATONLINE applications) was added to Intrastat Journal.
 Export use object for export based on setup in Stat. Reporting Setup or Registration Country.
 
-## See Also
-[Czech Local Functionality](czech-local-functionality.md)  
-[Finance](finance.md)
+## See also
 
+[Czech Local Functionality](czech-local-functionality.md)  
+[Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
+[Finance](finance.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

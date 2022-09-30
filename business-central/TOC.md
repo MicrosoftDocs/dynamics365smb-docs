@@ -301,6 +301,7 @@
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md)
 #### [Sales Tax in the Default Version of Business Central](sales-tax-concept.md)
+#### [Work with Intrastat Reporting](finance-how-report-intrastat.md)
 
 ### Manage Payables
 #### [Payables Overview](payables-manage-payables.md)
@@ -1467,7 +1468,7 @@
 #### [Set Up the Chart of Accounts](finance-setup-chart-accounts.md)
 #### [Set Up Cash Flow Analysis](finance-setup-cash-flow-analyses.md)
 #### [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md)
-#### [Set Up and Report Intrastat](finance-how-setup-report-intrastat.md)
+#### [Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)
 #### [Use Allocation Keys in General Journals](ui-how-use-allocation-keys-general-journals.md)
 ### Set Up Banking
 #### [Set Up Banking](bank-setup-banking.md)

@@ -1,9 +1,7 @@
 ---
 title: Set Up Declaration Types [BE]
 description: In Business Central, there are two types of declaration in the Belgian version, the simplified declaration and the extended declaration.
-
 author: SorenGP
-
 
 ms.topic: conceptual
 ms.devlang: na
@@ -12,9 +10,10 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 06/17/2021
 ms.author: edupont
-
 ---
 # Set Up Declaration Types in the Belgian Version
+
+[!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], there are two types of declaration:  
 
@@ -31,13 +30,13 @@ When using the extended declaration, you will also need to set up an Incoterm in
 2. Select the **Simplified Intrastat Decl.** check box to set up a simplified declaration type. Clear this field to use extended declaration.  
 3. Choose the **OK** button.  
 
-## See Also
+## See also
 
- [Belgian Intrastat Reporting](belgian-intrastat-reporting.md)   
- [Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)   
- [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
- [Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md)   
- [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)
-
+[Belgian Intrastat Reporting](belgian-intrastat-reporting.md)  
+[Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)  
+[Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)  
+[Export Intrastat Third-Party Declarations](how-to-export-intrastat-third-party-declararations.md)  
+[Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)  
+[Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

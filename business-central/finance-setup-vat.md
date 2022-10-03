@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 10, 391, 470, 471, 472, 575, 734, 747, 748, 1877, 
+ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877, 
 ms.date: 07/08/2022
 ms.author: bholtorf
 
@@ -46,6 +46,21 @@ To support your fast start, [!INCLUDE [prod_short](includes/prod_short.md)] noti
 If you choose such a notification, [!INCLUDE [prod_short](includes/prod_short.md)] automatically creates those posting setups based on the posting groups in the document or journal you're currently working on.  
 
 At this point, you can just fill in the missing G/L accounts. But, later, when you further refine the setup, you might realize this initial setup is wrong. And [!INCLUDE [prod_short](includes/prod_short.md)] does not allow the deletion of a VAT posting setup and general posting setup when entries have been created based on such configurations. So starting in 2022 release wave 1, you can use the **Blocked** field on the **VAT Posting Setup** page to prevent users from mistakenly using a setup that is no longer relevant for new postings.
+
+## Set up a default VAT date for documents and journals
+VAT reporting in [!INCLUDE [prod_short](includes/prod_short.md)] is based on the **VAT Date** to include VAT entries on VAT reports in a VAT period. The VAT date can be changed on all documents and journals, but you must specify a default value for VAT date.
+
+> [!NOTE]
+> Aftre posting the document or journal, the **VAT Date** will appear on **VAT Entries** and **G/L Entries** as well as on the posted document if exists.
+
+To set up a default value for a VAT date, follow these steps:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon and enter **General Ledger Setup**, and then choose the related link.  
+2. On the **General** FastTab, in the **Default VAT Date** field, choose either **Posting Date** or **Document Date**.
+3. Close the page.  
+
+> [!NOTE]
+> By default, the **Default VAT Date** is the **Posting Date**.
 
 ## Set up VAT registration numbers for your country or region
 

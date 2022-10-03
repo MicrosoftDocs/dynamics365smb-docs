@@ -98,23 +98,24 @@ To learn more about working with cards and card details, see [Teams FAQ](teams-f
 
 Directly from most collection pages, like the **Items** page, and details pages, like the **Items** card, you can send a link to the page to specific recipients in a Teams conversation. For example, you can share a link to a filtered view of your records. Recipients can then select the link to open the page in [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
- ![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")
+[![!The Share menu displayed on a card.](media/teams-share-link-v2.png "The Share menu displayed on a card.")](media/teams-share-link-v2.png#lightbox)
 
 ### Prerequisites
 
 - You have access to Microsoft Teams.
-- (Optional) You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. For more information, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)
+- (Optional) You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. 
 
-  With the app installed, messages you send sharing the link with others will also include a compact card for the page. 
-
+  With the app installed, messages you send with the link will also include a compact card for the page. For more information about how to install the app, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
 
 ### Share a link
 
 1. In [!INCLUDE [prod_short](includes/prod_short.md)]\, open the page that you want to share.
 2. At the top of the page, choose the ![!Share to other apps action on pages.](media/share-icon.png) icon, then **Share to Teams**.
 3. If you're asked, sign in to Teams with your user name and password.
-4. In the **Share to Teams** page, type a name of a person, group, or channel that you want send the message to. 
-5. The message box will include a link to the page. If the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams is installed, a card for the linked record or page will appear in the message box. Add any more information if you like, then choose **Share**.
+4. In the **Share to Teams** page, type a name of a person, group, or channel that you want send the message to.
+5. The message box will include a link to the page. If the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams is installed, a card for the linked record or page will also appear in the message box.
+
+   Add any more information if you like, then choose **Share**.
 6. The link has now been shared. If you want to go to the conversation, choose **Go to Teams**.
 
 ## See also

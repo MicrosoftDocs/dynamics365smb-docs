@@ -29,6 +29,7 @@
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
+    |**Period Date Type**|Specifies the type of date used for the period from which VAT entries are processed in the batch job.|
     |**Starting Date**|Specifies the start date of the VAT period.|  
     |**Ending Date**|Specifies the end date of the VAT period.|  
     |**Include VAT Entries**|Specifies if you want to include VAT entries that are either open or closed, or both open and closed entries.|  

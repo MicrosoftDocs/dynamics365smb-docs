@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate, 
 ms.search.form: 1500, 
 ms.date: 09/13/2022
-ms.author: edupont
+ms.author: jswymer
 ---
 
 # Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]

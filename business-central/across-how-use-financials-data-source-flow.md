@@ -32,6 +32,18 @@ So, for example, a new sales invoice can trigger a workflow for an approval requ
 
 Instant flows work similarly to batch shortcuts, performing multiple lengthy steps with a few button presses and are launched from specific pages or tables. For example, a flow can add a button to the action menu on the **Vendors** page to block payments to a vendor and, at the same time, send customizable emails to the vendor's contact and your company's purchasers as well as update the contact in Outlook.
 
+## Get started
+
+When you or any user sign in to the new company for the first time, this feature displays the **Get started with Power Automate** action in the **Automate" group**. 
+
+![<!--alt text start -->Get started with Power Automate action<!--alt text end -->](media/get-started-power-automate-action.png "Get started with Power Automate action")
+
+The **Get started with Power Automate** action opens a new wizard that consists of some onboarding information and links and the necessary privacy notice. When accepted by the administrator, all the users will be able to see the Automate group and actions coming from defined flows.
+
+In addition, an individual user's access can be controlled by a new system permission **Allow Action Automate** and a ready-to-use permission set **AUTOMATE - EXEC**. Revoking this permission from a given user or role will hide the Automate group and prohibit running the actions created with Power Automate.
+
+Additionally for admins who would decide to fully switch the feature off for all users, the easiest way is to use TellMe (Alt+Q) to navigate to "Privacy Notices Status" page, find "Power Automate" entry and select "Disagree for Everyone".
+
 ## Automated workflows
 
 With Power Automate, you can create business flows directly in-house and rely on citizen developers. Automated workflows can be started by both internal and external events in [!INCLUDE[prod_short](includes/prod_short.md)], and also be set to run periodically. Learn more and get instructions on how to create workflows in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.

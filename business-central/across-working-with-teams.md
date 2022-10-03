@@ -103,9 +103,9 @@ Directly from most collection pages, like the **Items** page, and details pages,
 ### Prerequisites
 
 - You have access to Microsoft Teams.
-- (Optional) You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. For more information, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)
+- (Optional) You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. 
 
-  With the app installed, messages you send with the link will also include a compact card for the page.
+  With the app installed, messages you send with the link will also include a compact card for the page. For more information about how to install the app, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
 
 ### Share a link
 

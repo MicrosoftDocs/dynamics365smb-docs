@@ -33,6 +33,7 @@ Based on the information that you have specified on the **VAT Posting Setup** pa
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
+    |**Period Date Type**|Specifies the type of date used for the period from which VAT entries are processed in the batch job.|
     |**Starting Date**|Enter the date that you want the time interval for VAT statement lines that appear in the report to start.|  
     |**Ending Date**|Enter the date that you want the time interval for VAT statement lines that appear in the report to end.|  
     |**Closed with VAT Register No.**|Select the VAT Register that contains the posting source of the VAT adjusting entries. This option evaluates accounting periods that have already been settled. When you choose this option, you do not specify options in the following **Include VAT Entries** fields.|  

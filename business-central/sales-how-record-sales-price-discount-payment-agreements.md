@@ -90,7 +90,7 @@ When you enable the **New sales pricing experience** feature update on the **Fea
     * Sales
     * Purchases
     * Job sales
-    * Job purchases 
+    * Job purchases
 
     You can edit all prices for these areas on the **Prices Worksheet** page. The default price lists will be set on the **Sales & Receivables Setup**, **Purchases & Payables Setup,** and **Jobs Setup** pages. 
 
@@ -249,7 +249,7 @@ You link discount percentages to specific invoice amounts on the **Cust. Invoice
 In addition to, or instead of, a discount percentage, you can link a service charge amount to a specific invoice amount.  
 
 > [!TIP]  
-> Before you enter this information, it is a good idea to prepare an outline of the discount structure that you want to use. This makes it easier to see which customers can be linked to the same invoice discount page. The fewer pages you have to set up, the faster you can enter the basic information.
+> Before you enter this information, it's a good idea to prepare an outline of the discount structure that you want to use. The structure makes it easier to determine which customers can be linked to the same invoice discount page. The fewer pages you have to set up, the faster you can enter the basic information.
 
 For training in discounts in sales, see [Set up discounts for your customers](/training/modules/customer-discounts-dynamics-365-business-central/index).
 

@@ -150,7 +150,6 @@ To help you better understand personalization, here are some pointers.
   - You can't hide or move the **Automate** item or the **Power Automate** subitem and actions **Create a flow** or **Manage Flows** action.
   - You can move flows included under the **Automate** item, but you can't hide them. Moving the flow makes a copy the flow to the destination, it won't remove it from the **Automate** item.
 
-
 ## See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## See Also

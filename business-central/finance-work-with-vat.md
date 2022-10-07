@@ -59,6 +59,18 @@ Depending on what you want to do, you can assign a VAT business posting group to
 #### Examples
 Factors such as the country or region you're selling in, or the type of industries you sell to, can impact the amount of VAT that you must account for. For example, a restaurant might charge 6% VAT for meals that are eaten in-house, and 17% for takeaway. To accomplish that, you create a VAT business posting group (price) for in-house and one for takeaway.
 
+## Working with VAT Date
+### VAT Date in documents
+When you create new sales or purchase documents, the **VAT Date** will be based on the setting in the **Default VAT Date** field on the **General Ledger Setup** page. This default value can be the same as **Posting Date** or **Document Date**. If you need a different VAT date, you can manually change the value in the **VAT Date** field. When you post the document, the **VAT Date** will be shown on the posting document and on the VAT and G/L entries.
+
+### Correcting VAT Date in posted entries
+In some situation it is necessary to change VAT date even if the document has been posted and this is possible to be done in [!INCLUDE[prod_short](includes/prod_short.md)]. To change **VAT Date** for posted documents you need to follow these steps:
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Entries**, and then choose the related link.
+2. Find the entry with wrong VAT date.
+3. Click **Edit list** action and enter the correct date in the **VAT Date** field.
+4. Close the page.
+5. New VAT date will be changed in related **G/L Entries** and in the posted document if exists.
+
 ## Correcting VAT Amounts Manually in Sales and Purchase Documents  
 You can make corrections to posted VAT entries so that you can change the total sales or purchase VAT amounts without changing the VAT base. For example, if you receive an invoice from a vendor with an incorrect VAT amount.  
 

@@ -42,6 +42,8 @@ In basic warehouse configurations where the location is set up to use picking on
 
 > [!NOTE]
 > The ability to pick components for job planning lines was added to [!INCLUDE[d365fin](includes/d365fin_md.md)] in 2022 release wave 2. To start using the capability, an administrator must turn on **Feature Update: Enable inventory and warehouse pick from Jobs** on the **Feature Management** page.
+>
+>[!INCLUDE[prod_short](includes/prod_short.md)] uses the value in the **Remaining Quantity** field on the job planning line when it creates inventory picks. To use inventory picks for jobs, you must turn on the **Apply Usage Link** toggle on the **Job Card** page for the job. This lets you track usage against your plan. If you don't turn on the toggle, the remaining quantity will stay at **0** and the inventory pick won't be created. For more information, see [To set up job usage tracking](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Picks**, and then choose the related link.  
 2. To access the production order components, choose the **Get Source Documents** action, and then select the released production order.  

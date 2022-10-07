@@ -146,6 +146,10 @@ To help you better understand personalization, here are some pointers.
 - Changes that you make will take effect on all your Role Centers. For example, if you make a change to the Customer list when the Role Center is set to Business Manager, you will also see the change on the **Customers** page when the Role Center is set to Sales Order Processor.
 - Changes to a page in a pane will take effect on the page where ever it's shown.  
 - You can only add fields and columns from a predefined list, which is based on the page. You can't create new ones.
+- The **Power Automate** item in action bar
+  - You can't hide or move the **Automate** item or the **Power Automate** subitem and actions **Create a flow** or **Manage Flows** action.
+  - You can move flows included under the **Automate** item, but you can't hide them. Moving the flow makes a copy the flow to the destination, it won't remove it from the **Automate** item.
+
 
 ## See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 

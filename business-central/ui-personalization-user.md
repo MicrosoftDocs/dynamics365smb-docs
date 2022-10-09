@@ -147,8 +147,11 @@ To help you better understand personalization, here are some pointers.
 - Changes to a page in a pane will take effect on the page where ever it's shown.  
 - You can only add fields and columns from a predefined list, which is based on the page. You can't create new ones.
 - The **Power Automate** item in action bar
-  - You can't hide or move the **Automate** item or the **Power Automate** subitem and actions **Create a flow** or **Manage Flows** action.
-  - You can move flows included under the **Automate** item, but you can't hide them. Moving the flow makes a copy the flow to the destination, it won't remove it from the **Automate** item.
+  - You can't hide or move the **Automate** item or the **Power Automate** sub-item and its actions **Create a flow** and **Manage Flows**.
+  - You can move flows included under the **Automate** item, but you can't hide them using personalization. Moving the flow makes a copy the flow to the destination, it won't remove it from the **Automate** item.
+
+   > [!TIP]
+   > As an administrator, you can hide the **Automation** item from users. Learn more at [Set Up Power Automate Integration](../powerplatform/power-automate-setup.md).
 
 ## See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 

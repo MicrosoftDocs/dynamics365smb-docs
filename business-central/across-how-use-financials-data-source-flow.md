@@ -34,9 +34,9 @@ Instant flows work similarly to batch shortcuts, performing multiple lengthy ste
 
 ## Get started
 
-When you or any user sign in to the new company for the first time, this feature displays the **Get started with Power Automate** action in the **Automate" group**. 
+When you sign in to the new company for the first time, this feature displays the **Get started with Power Automate** action in the **Automate" group**. 
 
-![<!--alt text start -->Get started with Power Automate action<!--alt text end -->](media/get-started-power-automate-action.png "Get started with Power Automate action")
+ :::image type="content" source="/media/power-automate-action.png" alt-text="Shows the Automate item in the action bar.":::
 
 The **Get started with Power Automate** action opens a new wizard that consists of some onboarding information and links and the necessary privacy notice. When accepted by the administrator, all the users will be able to see the Automate group and actions coming from defined flows.
 

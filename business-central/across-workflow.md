@@ -1,15 +1,13 @@
 ---
 title: Workflows in Dynamics 365 Business Central
 description: Use built-in workflow capabilities to set up approval workflows to supplement automated workflows based on Power Automate. You can set up steps to assign tasks to different people as part of different business-process tasks. 
-author: SorenGP
+author: jswymer
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service:  dynamics-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords:
 ms.date: 09/13/2022
-ms.author: edupont
-
+ms.custom: bap-template 
 ---
 # Workflows in Dynamics 365 Business Central
 

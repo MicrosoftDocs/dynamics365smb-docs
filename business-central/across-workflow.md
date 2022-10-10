@@ -35,12 +35,9 @@ With [!INCLUDE [prod_short](includes/prod_short.md)] online, you can sign up for
 
 |**To** |**See**|
 |-------|-------|
-|Learn how to get started and run instant ||
-|||
-
-
-As 
-
+|Get started with Power Automate, run instant flows, start creating flows as a user|[Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)|
+|Create, edit, and manage flows|[Set Up Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
+|Set up Power Automate integration with Business Central for users as an admin|[Set Up Automated Flows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) and [Set Up Instant Flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
 
 
 ## Approval workflows

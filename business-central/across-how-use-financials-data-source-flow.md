@@ -13,20 +13,17 @@ ms.custom: bap-template
 ---
 # Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-With [!INCLUDE[prod_short](includes/prod_short.md)], you're given a license to Microsoft Power Automate. You can use your [!INCLUDE[prod_short](includes/prod_short.md)] data as part of a workflow in Microsoft Power Automate. You create flows and connect to your data from internal and external sources through the [!INCLUDE [prod_short](includes/prod_short.md)] connector.
+With [!INCLUDE[prod_short](includes/prod_short.md)], you're given a license to Microsoft Power Automate. This license lets you use your [!INCLUDE[prod_short](includes/prod_short.md)] data as part of a workflow in Microsoft Power Automate. You create flows and connect to your data from internal and external sources through the [!INCLUDE [prod_short](includes/prod_short.md)] connector.
 
 Power Automate flows are triggered by events, such as a record was created, modified, or deleted. They can also be run on a user-defined schedule or on demand.
 
 > [!NOTE]
-> Administrators can restrict access to Power Automate. If you find that you don't have access to some or all of the features described in this article, talk to your admin. If you want to learn how you can control Power Automate access as an admin, see []()
-
-
+> Administrators can restrict access to Power Automate. If you find that you don't have access to some or all of the features described in this article, talk to your admin. If you want to learn how you can control Power Automate access as an admin, see [Set Up Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
 <!-- You must have a valid account with both [!INCLUDE[prod_short](includes/prod_short.md)] and Power Automate. --> 
 
 > [!TIP]
 > In addition to Power Automate, you can use approval workflow templates in [!INCLUDE[prod_short](includes/prod_short.md)]. Although they're two separate workflow systems, any approval workflow template you create with Power Automate is added to the list of workflows within [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [Workflows](across-workflow.md).
-
 
 ## About Power Automate flows
 
@@ -48,7 +45,9 @@ There are three different cloud flow types that you can work with:
 
 You can explore all Power Automate flows currently available to by signing in to [Power Automate](https://flow.microsoft.com) and selecting **My flows** from the navigation bar on the left. Here you'll find any flows you have already created yourself and flows shared with you by an admin or coworker. These flows [!INCLUDE [prod_short](includes/prod_short.md)] are also made available from inside Business Central. 
 
-With automated flows that are triggered by events in Business Central, there's nothing for you to do, unless to want want to change them or turn them off. Otherwise, they'll just work when triggered. With instance flows on Business Central data, you can run them from most list, card, and document pages by simply selecting them from the **Automate** item in the action.
+With automated flows that are triggered by events in Business Central, there's nothing for you to do, unless to want to change them or turn them off. Otherwise, they'll just work when triggered.
+
+With instance flows on Business Central data, you can run them from most list, card, and document pages by selecting them from the **Automate** item in the action.
 
 <!--
 
@@ -60,20 +59,21 @@ With Power Automate, you can create business flows directly in-house and rely on
 
 ## Run an instance flow
 
+Instant flows open inside [!INCLUDE [prod_short](includes/prod_short.md)] online so you can remain within the context of the business process you were in the middle of. You can run sn instance flow from most lists, cards, or documents.
 
-## Get started
+1. In the action bar, select **Automate**, then choose a flow from list of available flows under the **Power Automate** action
 
-When you sign in to the company for the first time, this feature displays the **Get started with Power Automate** action in the **Automate" group**. 
+    :::image type="content" source="media/power-automate-action-intro.png" alt-text="Shows the Automate action in the action bar with expanded actions.":::
 
- :::image type="content" source="media/power-automate-action.png" alt-text="Shows the Automate item in the action bar.":::
+    On some page, **Automate** is nested under the **More options (...)**. 
+2. In the **Run Flow** pane, fill in any required fields, then select **Continue** to run the flow.
 
-The **Get started with Power Automate** action opens a new wizard that consists of some onboarding information and links and the necessary privacy notice. When accepted by the administrator, all the users will be able to see the Automate group and actions coming from defined flows.
+> [!NOTE]
+> The first time you use the **Automate** item, you may see only the **Get started with Power Automate** action. You see this action because haven't agreed to the privacy notice Microsoft Power Automate. To continue, select **Get started with Power Automate** and follow instructions to agree or disagree.  
+>
+> :::image type="content" source="media/power-automate-action.png" alt-text="Shows the Automate item in the action bar.":::
 
-In addition, an individual user's access can be controlled by a new system permission **Allow Action Automate** and a ready-to-use permission set **AUTOMATE - EXEC**. Revoking this permission from a given user or role will hide the Automate group and prohibit running the actions created with Power Automate.
-
-Additionally for admins who would decide to fully switch the feature off for all users, the easiest way is to use TellMe (Alt+Q) to navigate to "Privacy Notices Status" page, find "Power Automate" entry and select "Disagree for Everyone".
-
-
+<!--
 
 [!INCLUDE [prod_short](includes/prod_short.md)] can run a Power Automate flow from most list, card, and document pages. Once the admin has connected [!INCLUDE [prod_short](includes/prod_short.md)] with Power Automate, you'll see any flows your organization has added when you choose the **Automate** action on the relevant pages. Instant flows are run without leaving [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
 
@@ -82,13 +82,18 @@ These instant flows open on a page inside [!INCLUDE [prod_short](includes/prod_s
 Most flows require you to fill in a field or two before you choose the **Run flow** action.
 
 > [!TIP]
-> If you don't see an **Automate** action, then your [!INCLUDE [prod_short](includes/prod_short.md)] probably hasn't yet been set up to use Power Automate. Learn more from your admin.
+> If you don't see an **Automate** action, then your [!INCLUDE [prod_short](includes/prod_short.md)] probably hasn't yet been set up to use Power Automate. Learn more from your admin.-->
 
-## Create or edit flows for Business Central
+## Create, edit, and manage flows
 
-To create your own flows for Business Central, you can do so directly in Power Automate. Or you can use one of the following approaches from inside Business Central:
+Creating new flows, modifying and managing existing ones (like turning them on or off) can be done directly in Power Automate. But you can initiate some of these tasks from inside Business Central:
 
-- To create an instance flow from a list, card, or document page, en the  approces, from Business Central  
+- To create an instance flow from a list, card, or document page, select **Automate** > **Create a Flow**.
+- To open Power Automate from a list, card, or document page, select **Automate** > **Create a Flow**.
+- To create new flows or manage existing flows from inside Business Central, got to the **Manage Power Automate Flows** page.
+
+These tasks are typically done by an admin or super user. The tasks require a broader knowledge of the business processes in Business Central. To learn more, see [Set Up Automated Flows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows), [Set Up Instance Flows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) and [Manage Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
+<!-- 
 
 ## Add more automated flows and instant flows
 

@@ -151,7 +151,7 @@ To help you better understand personalization, here are some pointers.
   - You can move flows included under the **Automate** item, but you can't hide them using personalization. Moving the flow makes a copy the flow to the destination, it won't remove it from the **Automate** item.
 
    > [!TIP]
-   > As an administrator, you can hide the **Automation** item from users. Learn more at [Set Up Power Automate Integration](../powerplatform/power-automate-setup.md).
+   > As an administrator, you can hide the **Automation** item from users. Learn more at [Set Up Power Automate Integration](../powerplatform/power-automate-setup).
 
 ## See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 

@@ -14,10 +14,6 @@ ms.custom: bap-template
 You can set up and use workflows to connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.
 
 The default version of [!INCLUDE [prod_short](includes/prod_short.md)] supports three types of workflows:
-
-* Approval workflows based on built-in workflow templates
-
-  On the **Workflow Templates** page, you can see all available workflows. The trial version of [!INCLUDE[prod_short](includes/prod_short.md)] includes many pre-configured workflows represented by workflow templates you can copy to create new ones. When you open a template from the **Workflow Templates** page, and the workflow name starts with *MS-*, then the template was added by Microsoft.
   
 * Power Automate flows
 
@@ -25,6 +21,10 @@ The default version of [!INCLUDE [prod_short](includes/prod_short.md)] supports 
   * Instant flows that are manually triggered by the **Automate** action from lists, cards, and document pages. 
 
     Create and manually trigger a Power Automate flow on a [!INCLUDE[prod_short](includes/prod_short.md)] record, such as a customer, item, or sales order, with options to manipulate information both internally and externally (using integrated tools).
+
+* Approval workflows based on built-in workflow templates
+
+  On the **Workflow Templates** page, you can see all available workflows. The trial version of [!INCLUDE[prod_short](includes/prod_short.md)] includes many pre-configured workflows represented by workflow templates you can copy to create new ones. When you open a template from the **Workflow Templates** page, and the workflow name starts with *MS-*, then the template was added by Microsoft.
 
 ## Power Automate flows
 

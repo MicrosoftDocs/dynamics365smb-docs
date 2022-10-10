@@ -38,16 +38,16 @@ There are three different cloud flow types that you can work with:
 |Flow type|Description|
 |---------|-----------|
 |Automated|This flow type is run automatically by an event. In Business Central, an event could be when a record or document is created, modified of deleted. So, for example, a new sales invoice can trigger a flow for an approval request, which can have different events set depending on the approver's reply. A negative response sends a notification and email to the approval requester. A positive reply simultaneously updates an Excel spreadsheet located in a SharePoint folder and sends an update to a Teams chat. Automated flows can be started by both internal and external events in [!INCLUDE[prod_short](includes/prod_short.md)].|
-|Scheduled|This type of flow is also automatically run, but it runs periodically at a scheduled date and time |
+|Scheduled|This type of flow is also automatically run but it runs periodically at a scheduled date and time. |
 |Instant |This flow type is run on-demand, requiring the user to run it manually from a button or action in another app or device, in this case, the Business Central client. Instant flows work similarly to batch shortcuts, performing multiple lengthy steps with a few button presses and are launched from specific pages or tables. For example, a flow can add a button to the action menu on the **Vendors** page to block payments to a vendor and, at the same time, send customizable emails to the vendor's contact and your company's purchasers as well as update the contact in Outlook. |
 
 ## Power Automate features in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-You can explore all Power Automate flows currently available to by signing in to [Power Automate](https://flow.microsoft.com) and selecting **My flows** from the navigation bar on the left. Here you'll find any flows you have already created yourself and flows shared with you by an admin or coworker. These flows [!INCLUDE [prod_short](includes/prod_short.md)] are also made available from inside Business Central. 
+You can explore all Power Automate flows currently available to by signing in to [Power Automate](https://flow.microsoft.com) and selecting **My flows** from the navigation bar on the left. Here you'll find any flows you have already created yourself and flows shared with you by an admin or coworker. These flows are also made available from inside [!INCLUDE [prod_short](includes/prod_short.md)]. 
 
-With automated flows that are triggered by events in Business Central, there's nothing for you to do, unless to want to change them or turn them off. Otherwise, they'll just work when triggered.
+- With automated flows that are triggered by events in Business Central, there's nothing for you to do, unless to want to change them or turn them off. Otherwise, they'll just work when triggered.
 
-With instant flows on Business Central data, you can run them from most list, card, and document pages by selecting them from the **Automate** item in the action.
+- With instant flows on Business Central data, you can run them from most list, card, and document pages by selecting them from the **Automate** item in the action.
 
 <!--
 
@@ -89,7 +89,7 @@ Most flows require you to fill in a field or two before you choose the **Run flo
 Creating new flows, modifying and managing existing ones (like turning them on or off) can be done directly in Power Automate. But you can initiate some of these tasks from inside Business Central:
 
 - To create an instant flow from a list, card, or document page, select **Automate** > **Create a Flow**.
-- To open Power Automate from a list, card, or document page, select **Automate** > **Create a Flow**.
+- To open Power Automate from a list, card, or document page, select **Automate** > **Manage Flows**.
 - To create new flows or manage existing flows from inside Business Central, got to the **Manage Power Automate Flows** page.
 
 These tasks are typically done by an admin or super user. The tasks require a broader knowledge of the business processes in Business Central. To learn more, see [Set Up Automated Flows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows), [Set Up Instant Flows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) and [Manage Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).

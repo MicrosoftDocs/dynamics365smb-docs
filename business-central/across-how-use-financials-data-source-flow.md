@@ -47,7 +47,7 @@ You can explore all Power Automate flows currently available to by signing in to
 
 With automated flows that are triggered by events in Business Central, there's nothing for you to do, unless to want to change them or turn them off. Otherwise, they'll just work when triggered.
 
-With instance flows on Business Central data, you can run them from most list, card, and document pages by selecting them from the **Automate** item in the action.
+With instant flows on Business Central data, you can run them from most list, card, and document pages by selecting them from the **Automate** item in the action.
 
 <!--
 
@@ -57,9 +57,9 @@ With Power Automate, you can create business flows directly in-house and rely on
 
 -->
 
-## Run an instance flow
+## Run instant flows
 
-Instant flows open inside [!INCLUDE [prod_short](includes/prod_short.md)] online so you can remain within the context of the business process you were in the middle of. You can run sn instance flow from most lists, cards, or documents.
+Instant flows open inside [!INCLUDE [prod_short](includes/prod_short.md)] online so you can remain within the context of the business process you were in the middle of. You can run an instant flow from most lists, cards, or documents.
 
 1. In the action bar, select **Automate**, then choose a flow from list of available flows under the **Power Automate** action
 
@@ -88,11 +88,11 @@ Most flows require you to fill in a field or two before you choose the **Run flo
 
 Creating new flows, modifying and managing existing ones (like turning them on or off) can be done directly in Power Automate. But you can initiate some of these tasks from inside Business Central:
 
-- To create an instance flow from a list, card, or document page, select **Automate** > **Create a Flow**.
+- To create an instant flow from a list, card, or document page, select **Automate** > **Create a Flow**.
 - To open Power Automate from a list, card, or document page, select **Automate** > **Create a Flow**.
 - To create new flows or manage existing flows from inside Business Central, got to the **Manage Power Automate Flows** page.
 
-These tasks are typically done by an admin or super user. The tasks require a broader knowledge of the business processes in Business Central. To learn more, see [Set Up Automated Flows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows), [Set Up Instance Flows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) and [Manage Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
+These tasks are typically done by an admin or super user. The tasks require a broader knowledge of the business processes in Business Central. To learn more, see [Set Up Automated Flows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows), [Set Up Instant Flows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) and [Manage Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
 <!-- 
 
 ## Add more automated flows and instant flows

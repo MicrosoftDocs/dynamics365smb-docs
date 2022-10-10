@@ -21,19 +21,27 @@ The default version of [!INCLUDE [prod_short](includes/prod_short.md)] supports 
 
   On the **Workflow Templates** page, you can see all available workflows. The trial version of [!INCLUDE[prod_short](includes/prod_short.md)] includes many pre-configured workflows represented by workflow templates you can copy to create new ones. When you open a template from the **Workflow Templates** page, and the workflow name starts with *MS-*, then the template was added by Microsoft.
   
-* Power Automate flows you set up yourself
+* Power Automate flows
 
-  Any workflow template you create with Microsoft Power Automate is added to the list of workflow templates within [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [Use [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate Flows](across-how-use-financials-data-source-flow.md). 
+  * Automated flows that are triggered by events (such as record or document creation, modification, or deletion) [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [Use [!INCLUDE[prod_short](includes/prod_short.md)] in Power Automate Flows](across-how-use-financials-data-source-flow.md). 
   
-* Instant flows manually triggered by the **Automate** action ([!INCLUDE [prod_short](includes/prod_short.md)] online only).
+  * Instant flows that are manually triggered by the **Automate** action from lists, cards, and document pages. 
 
-  Create and manually trigger a Power Automate flow on a [!INCLUDE[prod_short](includes/prod_short.md)] record, such as a customer, item, or sales order, with options to manipulate information both internally and externally (using integrated tools). Learn more in the [Instant flows](across-how-use-financials-data-source-flow.md#instant-flows) section.
+    Create and manually trigger a Power Automate flow on a [!INCLUDE[prod_short](includes/prod_short.md)] record, such as a customer, item, or sales order, with options to manipulate information both internally and externally (using integrated tools). Learn more in the [Instant flows](across-how-use-financials-data-source-flow.md#instant-flows) section.
 
 ## Power Automate flows
 
-Using [!INCLUDE [prod_short](includes/prod_short.md)] online, you can sign up for Power Automate to build powerful automated workflows. You can run those workflows from inside [!INCLUDE [prod_short](includes/prod_short.md)], connecting internal and external sources of data and tools, without coding knowledge.
+With [!INCLUDE [prod_short](includes/prod_short.md)] online, you can sign up for Power Automate to build powerful automated workflows. You can run those workflows from inside [!INCLUDE [prod_short](includes/prod_short.md)], connecting internal and external sources of data and tools, without coding knowledge.
 
-Power Automate flows can be triggered by events (such as record or document creation, modification, or deletion) and run on a user-defined schedule, or on demand (known as an **Instant Flow**).
+|**To** |**See**|
+|-------|-------|
+|Learn how to get started and run instant ||
+|||
+
+
+As 
+
+
 
 ## Approval workflows
 
@@ -47,7 +55,9 @@ Examples of approval workflows events include, among others, the creation of sal
 |--|--|
 | Set up approval workflow users, specify how users get notified, and create new workflows. (To create new workflows for unsupported scenarios, implement the required workflow elements by customizing the application code.) | [Set Up Approval Workflows](across-set-up-workflows.md) |
 | Enable approval workflows, act on workflow notifications, including requesting and approving a workflow step. Archive and delete workflows. | [Use Approval Workflows](across-use-workflows.md) |
-| Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |
+
+<!--
+| Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
 ## See related [Microsoft training](/training/modules/create-workflows/)
 

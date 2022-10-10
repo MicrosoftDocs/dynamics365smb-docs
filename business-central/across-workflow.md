@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.service:  dynamics-business-central
 ms.topic: conceptual
-ms.date: 09/13/2022
+ms.date: 10/10/2022
 ms.custom: bap-template 
 ---
 # Workflows in Dynamics 365 Business Central

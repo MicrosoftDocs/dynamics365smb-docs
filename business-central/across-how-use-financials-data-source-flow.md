@@ -43,11 +43,7 @@ There are three different cloud flow types that you can work with:
 
 ## Power Automate features in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-You can explore all Power Automate flows currently available to by signing in to [Power Automate](https://flow.microsoft.com) and selecting **My flows** from the navigation bar on the left. Here you'll find any flows you have already created yourself and flows shared with you by an admin or coworker. These flows are also made available from inside [!INCLUDE [prod_short](includes/prod_short.md)]. 
-
-- With automated flows that are triggered by events in Business Central, there's nothing for you to do, unless to want to change them or turn them off. Otherwise, they'll just work when triggered.
-
-- With instant flows on Business Central data, you can run them from most list, card, and document pages by selecting them from the **Automate** item in the action.
+You can explore all Power Automate flows currently available to by signing in to [Power Automate](https://flow.microsoft.com) and selecting **My flows** from the navigation bar on the left. Here you'll find any flows you have already created yourself and flows shared with you by an admin or coworker. These flows are also made available from inside [!INCLUDE [prod_short](includes/prod_short.md)] from various page. With automated flows in Business Central, there's nothing for you to do, unless to want to change them or turn them off. Otherwise, they'll just work when triggered. As for instant flows on Business Central data, you can run them from most list, card, and document pages by selecting them from the **Automate** item in the action. Learn more in the sections that follow.
 
 <!--
 
@@ -69,7 +65,7 @@ Instant flows open inside [!INCLUDE [prod_short](includes/prod_short.md)] online
 2. In the **Run Flow** pane, fill in any required fields, then select **Continue** to run the flow.
 
 > [!NOTE]
-> The first time you use the **Automate** item, you may see only the **Get started with Power Automate** action. You see this action because haven't agreed to the privacy notice Microsoft Power Automate. To continue, select **Get started with Power Automate** and follow instructions to agree or disagree.  
+> The first time you use the **Automate** item, you may see only the **Get started with Power Automate** action. You see this action because haven't agreed to the privacy notice for Microsoft Power Automate. To continue, select **Get started with Power Automate** and follow instructions to agree or disagree.  
 >
 > :::image type="content" source="media/power-automate-action.png" alt-text="Shows the Automate item in the action bar.":::
 

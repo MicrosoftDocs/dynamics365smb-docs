@@ -1,7 +1,7 @@
 ---
 title: Personalizing Pages (contains video)
 description: Learn how to customize the user interface and personalize your workspace to suit your way of working and personal preferences in Business Central.
-author: SorenGP
+author: brentholtorf
 
 
 ms.topic: conceptual
@@ -10,8 +10,8 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/24/2021
-ms.author: edupont
+ms.date: 10/11/2022
+ms.author: bholtorf
 
 ---
 # Personalize Your Workspace
@@ -76,9 +76,15 @@ As for other personalization, the changes you make to column width are stored on
 |Add a new action to a page or report on your Role Center.|From the target page, report request page, or Tell Me window, choose the bookmark icon.|See [Bookmark a Page or Report on Your Role Center Role Center](ui-bookmarks.md)|
 |Always start a list as expanded or collapsed|Choose the **Expand All** or **Collapse All** button in the top-left corner of the list. Alternatively, choose the **Expand All** or **Collapse All** action in the menu of the first column. |Applies to collapsible hierarchy lists|
 
-## <a name="Actions"></a>Personalizing Actions
+## <a name="Actions"></a>Personalizing the action bar and menus
 
-Personalization lets you decide which actions to show on the navigation and action bars and on Role Centers and where to show them. You can show, hide, or move individual actions or action groups. Personalizing the navigation and action bars is done basically the same way as with other UI elements. However, what you can do with an action or group depends on where the action or group is located. The best way to find out is to enter personalizing mode and then let the arrowheads guide you.
+Personalization lets you decide which actions to show on the navigation and action bars and on Role Centers, and where to show them. You can show, hide, or move individual actions or action groups.
+
+In 2022 release wave 2 we provided more ways for you to make Business Central your own. The following video shows how you can personalize actions on pages and Role Centers.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
+
+Personalizing the navigation and action bars is done basically the same way as with other UI elements. However, what you can do with an action or group depends on where the action or group is located. The best way to find out is to enter personalizing mode and then let the arrowheads guide you.
 
 There are a couple terms that you should be familiar with to better understand action personalization: *action group* and *promoted category*.  
 

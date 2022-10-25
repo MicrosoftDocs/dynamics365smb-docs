@@ -50,7 +50,9 @@ For more information, see [Share Records in Microsoft Teams](across-working-with
 
 Directly from most collection and details pages in Business Central, you can use the **Share to Teams** action from the ![!The Share menu icon on pages.](media/share-icon.png "The Share menu displayed on a card.") icon to type a message, choose recipients, such as team members, groups or channels, and send the message with a link and to the Business Central page.
 
-![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")
+[![!The Share menu displayed on a card.](media/teams-share-link-v2.png "The Share menu displayed on a card.")](media/teams-share-link-v2.png#lightbox)
+
+<!--![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")-->
 
 For more information, see [Share Records and Page Links in Microsoft Teams](across-working-with-teams.md#share-link).
 

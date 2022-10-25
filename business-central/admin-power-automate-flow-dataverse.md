@@ -11,13 +11,9 @@ ms.search.keywords: Power Automate, Flow, Dataverse
 ms.search.form: 
 ms.date: 09/05/2022
 ms.author: bholtorf
-ROBOTS: NOINDEX, NOFOLLOW
 
 ---
 # Use a Power Automate Flow for Alerts to Dataverse Entity Changes
-
-> [!IMPORTANT]
-> This article describes functionality that will become available in 2022 release wave 2. Until that release is available, you can't use a Power Automate flow to be alerted when an entity in Dataverse is changed.
 
 Administrators can create an automated flow in Power Automate that notifies your [!INCLUDE[prod_short](includes/prod_short.md)] about changes to records in your [!INCLUDE [cds_long_md](includes/cds_long_md.md)] organization.
 

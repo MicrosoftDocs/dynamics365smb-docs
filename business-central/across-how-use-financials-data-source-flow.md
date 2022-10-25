@@ -4,7 +4,7 @@ description: Set up and use Power Automate flows to create or modify Business Ce
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service:  dynamics-business-central
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate, 
 ms.search.form: 1500, 

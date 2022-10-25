@@ -4,7 +4,7 @@ description: Use built-in workflow capabilities to set up approval workflows to 
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service:  dynamics-business-central
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template 

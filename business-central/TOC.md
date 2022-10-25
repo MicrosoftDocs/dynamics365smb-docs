@@ -674,7 +674,9 @@
 ### [Synchronize Items with Shopify](shopify/synchronize-items.md)
 ### [Synchronize Customers with Shopify](shopify/synchronize-customers.md)
 ### [Synchronize and Fulfill Sales Orders with Shopify](shopify/synchronize-orders.md)
-### [Run Tasks in Background](shopify/background.md)
+### [Synchronize Transactions and Payouts](shopify/transactions-and-payouts.md)
+### [Set Up Taxes for the Shopify Connection](shopify/setup-taxes.md)
+### [Run Tasks in the Background](shopify/background.md)
 ### [Troubleshoot the Shopify Connector](shopify/troubleshoot.md)
 ### [FAQ for the Shopify Connector](shopify/shopify-faq.md)
 

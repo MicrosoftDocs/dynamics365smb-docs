@@ -1,12 +1,12 @@
 ---
 title: Create Production BOMs
 description: Learn how to create a production bill of material (BOM), new versions of a production BOM, and how to use the quantity calculation formula.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: production bom, bills of material, 
 ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Create Production BOMs
@@ -16,7 +16,7 @@ A production bill of material (BOM) holds master data that describes the compone
 [!INCLUDE[prod_short](includes/prod_short.md)] also supports assembly BOMs. You use assembly orders for making end items from components in a simple process that can be performed by one or more basic resources, which are not machine or work centers, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item. For more information, see [Assembly BOMs or Production BOMs](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 > [!TIP]
-> The **Contoso Coffee Demo Data** app includes demonstration products for a variety of production BOM scenarios that can be used on a test environment, including during a trial. Learn how to set up the Contoso Coffee Data and find walkthroughs for different scenarios at [Introduction to Contoso Coffee Demo Data](/contoso-coffee/contoso-coffee-intro.md).
+> The **Contoso Coffee Demo Data** app includes demonstration products for a variety of production BOM scenarios that can be used on a test environment, including during a trial. Learn how to set up the Contoso Coffee Data and find walkthroughs for different scenarios at [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md).
 
 Before you can set up a routing, the following must be in place:  
 
@@ -91,13 +91,13 @@ The relation of the individual components is defined by the calculation formula.
 
 ### Example
 
-In a production BOM, 70 metal parts with the dimensions length = 0.20 m and width = 0.15 m are required. The values are entered as follows: Calculation Formula = Length x Width, Length = 20, Width = 15, Quantity per = 70. The quantity is given by the Quantity per x Length * Width, that is, Quantity = 70 x 0.20 m x 0.15 m = 2.1 m2.  
+A production BOM requires 70 metal parts with the dimensions length = 0.20 m and width = 0.15 m. The values are entered as follows: Calculation Formula = Length x Width, Length = 20, Width = 15, Quantity per = 70. The quantity is given by the Quantity per x Length * Width, that is, Quantity = 70 x 0.20 m x 0.15 m = 2.1 m2.  
 
 ## See also
 
 [Create Routings](production-how-to-create-routings.md)  
 [Manage Product Variants](inventory-item-variants.md)  
-[Walkthrough: Variants](/contoso-coffee/variants.md)  
+[Walkthrough: Variants](contoso-coffee/variants.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Planning](production-planning.md)  

@@ -48,7 +48,7 @@ Before you can use electronic banking, you must set up export protocols. Export 
     |**Export Object Type**|Specify the type of the object that defines the export format of the payment file export. After you select the **Export Object ID**, this field will display the **Export Object Type**.<br /><br /> **NOTE:** To set the export protocol up for SEPA pain.001.001.03, select **XMLPort**.|  
     |**Export Object ID**|Specify the identification number of the object that defines the export format of the payment file export. For example, if you select **2000002**, the export format for the payment file will be **File International Payments**.<br /><br /> **NOTE:** To set up the export protocol for SEPA pain.001.001.03, select XMLport **1000**.|  
     |**Export No. Series**|Specify the number series that is used to assign identification numbers to the payment file export.|  
-    |**Grouped Payment**|Specifies if this export protocol used for grouped payments.|  
+    |**Grouped Payment**|Specifies if this export protocol is used for grouped payments.|  
 
 4.  Choose the **OK** button.  
 

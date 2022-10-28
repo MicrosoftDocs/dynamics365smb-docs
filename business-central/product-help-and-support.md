@@ -109,9 +109,13 @@ This section gives you shortcuts to Microsoft AppSource where you can find solut
 
 ### Give feedback
 
-On the [Dynamics 365 Ideas site](https://aka.ms/bcideas), you can provide suggestions for new feature and capabilities. Your input goes directly to Business Central's engineering backlog for investigation and prioritization.  
+Approximately once per quarter, the [!INCLUDE [prod_short](includes/prod_short.md)] team gathers feedback from our users about how satisfied they are with the product. In addition to ratings, you can also provide a written comment. By giving us specific and actionable comments, you help our engineering teams to prioritize the product improvements we invest in. You can also consent to be contacted about your comment. If you do, you'll be invited to a Teams meeting at a time that's convenient for you. You can provide product suggestions at any time on our [Dynamics 365 Ideas](https://aka.ms/bcideas) website.  
 
-Make sure that you search through the list of submitted suggestions. Chances are that someone already submitted something similar, and that entry might have already received votes. Vote if an idea already has been submitted to get it prioritized on the engineering backlog.  
+### Product suggestions
+
+On the [Dynamics 365 Ideas site](https://aka.ms/bcideas) website, you can provide suggestions for new features and capabilities. Your input goes directly into Business Central's engineering backlog for investigation and prioritization.  
+
+Make sure that you search through the list of submitted suggestions. There's a chance that someone already submitted something similar, and that entry might have already received votes. Vote if an idea already has been submitted to get it prioritized on the engineering backlog.  
 
 ### Troubleshooting
 

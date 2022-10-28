@@ -674,7 +674,9 @@
 ### [Synchronize Items with Shopify](shopify/synchronize-items.md)
 ### [Synchronize Customers with Shopify](shopify/synchronize-customers.md)
 ### [Synchronize and Fulfill Sales Orders with Shopify](shopify/synchronize-orders.md)
-### [Run Tasks in Background](shopify/background.md)
+### [Synchronize Transactions and Payouts](shopify/transactions-and-payouts.md)
+### [Set Up Taxes for the Shopify Connection](shopify/setup-taxes.md)
+### [Run Tasks in the Background](shopify/background.md)
 ### [Troubleshoot the Shopify Connector](shopify/troubleshoot.md)
 ### [FAQ for the Shopify Connector](shopify/shopify-faq.md)
 
@@ -1775,7 +1777,7 @@
 ### [Service Compliance](compliance/compliance-service-compliance.md)
 ### [Certifications](compliance/compliance-certifications.md)
 ## [Service Overview (in English only)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
-
+## [Trial Features That Connect to Other Microsoft Services](privacy-connected-services.md)
 # Development and Administration
 ## [Get started with development and administration documentation](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
 ## Administration Tasks in Business Central

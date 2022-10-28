@@ -1777,7 +1777,7 @@
 ### [Service Compliance](compliance/compliance-service-compliance.md)
 ### [Certifications](compliance/compliance-certifications.md)
 ## [Service Overview (in English only)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
-
+## [Trial Features That Connect to Other Microsoft Services](privacy-connected-services.md)
 # Development and Administration
 ## [Get started with development and administration documentation](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
 ## Administration Tasks in Business Central

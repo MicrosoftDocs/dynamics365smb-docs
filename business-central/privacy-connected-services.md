@@ -3,11 +3,11 @@ title: Trial features that connect to other Microsoft services
 description: Overview of Microsoft services that Business Central connects to with the trial version.
 author: jswymer
 ms.topic: overview
+ms.service: dynamics-business-central
 ms.search.keywords: privacy, trial, Microsoft services
 ms.date: 10/28/2022
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: dynamics-business-central
 ---
 # Trial Features That Connect to Other Microsoft Services 
 

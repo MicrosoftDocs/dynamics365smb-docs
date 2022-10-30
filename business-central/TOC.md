@@ -21,6 +21,7 @@
 #### [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Walkthrough: Making Cash Flow Forecasts by Using Financial Reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Walkthrough: Setting Up and Using Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
 ### Contoso Coffee Demo Data for Manufacturing
 #### [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md)
@@ -679,6 +680,7 @@
 ### [Run Tasks in the Background](shopify/background.md)
 ### [Troubleshoot the Shopify Connector](shopify/troubleshoot.md)
 ### [FAQ for the Shopify Connector](shopify/shopify-faq.md)
+### [Walkthrough: Setting Up and Using Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
 
 <!--Company Hub-->
 ## Company Hub

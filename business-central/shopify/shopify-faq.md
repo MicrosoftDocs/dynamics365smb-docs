@@ -20,6 +20,29 @@ Shopify is a subscription-based software that allows anyone to set up an online 
 
 With the Shopify connector, businesses can link their Shopify store (or stores) with [!INCLUDE[prod_short](../includes/prod_short.md)] to maximize business productivity. Using the Shopify connector, they can manage and view insights from their business and their Shopify online store as one unit. 
 
+The Shopify connector includes the following capabilities:
+
+- Support for more than one Shopify shop.
+  - Each shop has its own setup, including a collection of products, locations used to calculate inventory, and price lists.  
+- Bi-directional synchronization of items or products.
+  - The connector will sync images, item variants, barcodes, vendor item numbers, extended texts, and tags.  
+  - Export item attributes to Shopify.  
+  - Use selected customer price groups and discounts to define prices exported to Shopify.  
+  - Decide whether items can be created automatically or only allow updates to existing products.  
+- Synchronization of inventory levels.
+  - Choose some or all of the available locations in [!INCLUDE [prod_short](../includes/prod_short.md)].  
+  - Update inventory levels on multiple locations in Shopify.  
+- Bi-directional synchronization of customers.
+  - Smart-map customers by phone and email.  
+  - Use country-specific templates when creating customers, which helps ensure that tax settings are correct.  
+- Import of orders from Shopify.
+  - During the import, you can automatically create customers in [!INCLUDE [prod_short](../includes/prod_short.md)] or decide to manage the customers in Shopify.  
+  - Include orders created in other channels, such as Shopify POS or Amazon.  
+  - Shipping costs, gift cards, tips, shipping and payment methods, transactions, and risk of fraud.  
+  - Receive payout information from Shopify Payments.  
+- Track fulfillment information.
+  - Optionally, choose to transfer item tracking information from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify.  
+
 ## Why did Microsoft and Shopify form this partnership? 
 
 [!INCLUDE[prod_short](../includes/prod_long.md)] is teaming up with Shopify to help our customers create a better shopping experience. While Shopify provides merchants with an easy-to-use commerce solution, [!INCLUDE[prod_short](../includes/prod_short.md)] offers comprehensive business management across finance, sales, service, and operations teams within a single application. Seamless connection between the two systems synchronizes orders, stock, and customer information so merchants can fulfill orders faster and better serve customers.

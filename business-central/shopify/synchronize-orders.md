@@ -127,7 +127,7 @@ In Shopify:
 |Edit|Impact|
 |------|-----------|
 |Change the fulfillment location | Original location will be synched to [!INCLUDE[prod_short](../includes/prod_short.md)]. |
-|Change the fulfillment location and register fulfilment in Shopify| If order was already imported, then lines won't be updated. Otherwise imported order will use Fulfillment location. |
+|Change the fulfillment location and register fulfillment in Shopify| If order was already imported, then lines won't be updated. Otherwise imported order will use Fulfillment location. |
 |Edit an order and change quantity| Order header and supplementary tables will be updated in [!INCLUDE[prod_short](../includes/prod_short.md)], lines won't. |
 |Edit an order and add new item | Order header will be updated, lines won't. |
 

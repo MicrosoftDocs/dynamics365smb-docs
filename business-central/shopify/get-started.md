@@ -22,7 +22,7 @@ You must have:
 - A Shopify account.
 - A Shopify online store.
 
-Learn more about how to create Shopify trials and recomended settings at [Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md#preparation).
+Learn more about how to create Shopify trials and recommended settings at [Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md#preparation).
 
 ## Prerequisites for Business Central
 
@@ -57,9 +57,9 @@ For existing [!INCLUDE[prod_short](../includes/prod_short.md)], this step is opt
 Repeat steps 2-6 for all online shops that you want to connect.
 
 ### Known issues
-- Browser blocks pop-up window. When you activate the **Enabled** toggle the system opens the **Waiting for a response - do not close this page** page, that is waiting for an access token from Shopify, if that page is closed or blocked - you cannot connect to Shopify. Learn more at [Request the access token](troubleshoot.md#request-the-access-token)
+- Browser blocks pop-up window. When you activate the **Enabled** toggle the system opens the **Waiting for a response - do not close this page** page, that is waiting for an access token from Shopify, if that page is closed or blocked - you can't connect to Shopify. Learn more at [Request the access token](troubleshoot.md#request-the-access-token)
 - [Oauth error invalid_request: Could not find Shopify API application with api_key](troubleshoot.md#oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
-- [Cannot connect from sanbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
+- [can't connect from sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
 
 
 ## Next steps

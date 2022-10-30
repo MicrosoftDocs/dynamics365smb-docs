@@ -75,7 +75,7 @@ You can schedule the task to be performed in an automated manner. Learn more at 
 
 ## Review imported orders
 
-Once the import is completed, you can explore the Shopify order and find all related information, such as the payment transactions, shipping costs, risk level, or fulfillments, if the order was already fulfilled in Shopify. You can also see any order confirmation that has been sent to the customer by choosing the **Shopify Status Page** action.
+Once the import is completed, you can explore the Shopify order and find all related information, such as the payment transactions, shipping costs, risk level, order attributes and tags, or fulfillments, if the order was already fulfilled in Shopify. You can also see any order confirmation that has been sent to the customer by choosing the **Shopify Status Page** action.
 
 > [!NOTE]  
 > You can navigate to the **Shopify Orders** window directly and you'll see orders with the *open* status from all shops. To review completed orders, you need to open the **Shopify Orders** page from the specific **Shopify Shop Card** window.
@@ -127,6 +127,7 @@ In Shopify:
 |Edit|Impact|
 |------|-----------|
 |Change the fulfillment location | Original location will be synched to [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|Change the fulfillment location and register fulfilment in Shopify| If order was already imported, then lines won't be updated. Otherwise imported order will use Fulfillment location. |
 |Edit an order and change quantity| Order header and supplementary tables will be updated in [!INCLUDE[prod_short](../includes/prod_short.md)], lines won't. |
 |Edit an order and add new item | Order header will be updated, lines won't. |
 

@@ -36,7 +36,7 @@ With the Shopify connector, businesses can link their Shopify store (or stores) 
   - Smart-map customers by phone and email.  
   - Use country-specific templates when creating customers, which helps ensure that tax settings are correct.  
 - Import of orders from Shopify.
-  - Include orders created in varios sales channels, such as Online store or **Shopify POS**. 
+  - Include orders created in various sales channels, such as Online store or **Shopify POS**. 
   - Shipping costs, gift cards, tips, shipping and payment methods, transactions, and risk of fraud.  
   - During the import, you can automatically create customers in [!INCLUDE [prod_short](../includes/prod_short.md)] or decide to manage the customers in Shopify.  
    - Receive payout information from Shopify Payments.  
@@ -66,9 +66,9 @@ Get help with Shopify by starting with [General Shopify Help Center](https://hel
 
 You can also explore [Experts Marketplace](https://experts.shopify.com/) to find the right experts who offer services for Shopify merchants.
 
-## Currently not supported features, however, we are tracking them may consider it in the future:
+## Currently not supported features, however, we're tracking them and may consider adding them in the future:
 
-- B2B features, inlcuding Companies, company price lists, payment terms.
+- B2B features, including Companies, company price lists, payment terms.
 - Markets.
   - Multiple translations of master data. You can choose one language that will be used for product information export.
   - Prices per country/region. One price list is available for the selected currency. The conversion to other currencies will be handled by Shopify.
@@ -80,7 +80,6 @@ Currently, this app is non-extensible with plans to make it extensible in 2023.
 ## Is the Shopify connector open for contribution
 
 Yes, this extension is open for contribution by the community. You can find the [source code](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) in the Microsoft AL application add-ons repository.
-
 
 
 ## See Also

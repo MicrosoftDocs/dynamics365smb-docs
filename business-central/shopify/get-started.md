@@ -14,29 +14,6 @@ ms.author: andreipa
 
 Connect your Shopify store (or stores) with [!INCLUDE [prod_short](../includes/prod_short.md)] and maximize your business productivity. Manage and view insights from your business and your Shopify store as one unit.
 
-The Shopify connector includes the following capabilities:
-
-- Support for more than one Shopify shop.
-  - Each shop has its own setup, including a collection of products, locations used to calculate inventory, and price lists.  
-- Bi-directional synchronization of items or products.
-  - The connector will sync images, item variants, barcodes, vendor item numbers, extended texts, and tags.  
-  - Export item attributes to Shopify.  
-  - Use selected customer price groups and discounts to define prices exported to Shopify.  
-  - Decide whether items can be created automatically or only allow updates to existing products.  
-- Synchronization of inventory levels.
-  - Choose some or all of the available locations in [!INCLUDE [prod_short](../includes/prod_short.md)].  
-  - Update inventory levels on multiple locations in Shopify.  
-- Bi-directional synchronization of customers.
-  - Smart-map customers by phone and email.  
-  - Use country-specific templates when creating customers, which helps ensure that tax settings are correct.  
-- Import of orders from Shopify.
-  - During the import, you can automatically create customers in [!INCLUDE [prod_short](../includes/prod_short.md)] or decide to manage the customers in Shopify.  
-  - Include orders created in other channels, such as Shopify POS or Amazon.  
-  - Shipping costs, gift cards, tips, shipping and payment methods, transactions, and risk of fraud.  
-  - Receive payout information from Shopify Payments.  
-- Track fulfillment information.
-  - Optionally, choose to transfer item tracking information from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify.  
-
 To use Shopify with [!INCLUDE [prod_short](../includes/prod_short.md)], you have to do a couple of things first. This article serves as a guide to integrate your Shopify store with [!INCLUDE [prod_short](../includes/prod_short.md)].
 
 ## Prerequisites for Shopify
@@ -85,10 +62,13 @@ For existing [!INCLUDE[prod_short](../includes/prod_short.md)], this step is opt
 
 Repeat steps 2-6 for all online shops that you want to connect.
 
-> [!NOTE]
-> Make sure that your browser doesn't block pop-up windows. When you activate the **Enabled** toggle the system opens the **Waiting for a response - do not close this page** page, that is waiting for an access token from Shopify, if that page is closed or blocked - you cannot connect to Shopify. Learn more at [Request the access token](troubleshoot.md#request-the-access-token)
+### Known issues
+- Browser blocks pop-up window. When you activate the **Enabled** toggle the system opens the **Waiting for a response - do not close this page** page, that is waiting for an access token from Shopify, if that page is closed or blocked - you cannot connect to Shopify. Learn more at [Request the access token](troubleshoot.md#request-the-access-token)
+- [Oauth error invalid_request: Could not find Shopify API application with api_key](troubleshoot.md#oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
+- [Cannot connect from sanbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
 
-### Next steps
+
+## Next steps
 
 Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_short.md)]. In the next steps, you'll define how and what to synchronize.
 

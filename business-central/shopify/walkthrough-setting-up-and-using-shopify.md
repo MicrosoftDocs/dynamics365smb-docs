@@ -1,14 +1,13 @@
 ---
-title: Walkthrough: Setting Up and Using Shopify Connector
-description: Various integration scenarios for demonstrating workflow between Shopify and Business Central.
+title: Setting Up and Using Shopify Connector
+description: Various integration scenarios for demonstrating workflow between Shopify and Business Central
 ms.date: 06/21/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
-author: andreipa
+author: AndreiPanko
 ms.author: andreipa
 ---
-
 
 # Walkthrough: Setting Up and Using Shopify Connector
 
@@ -72,7 +71,7 @@ As a partner, you probably already have a [!INCLUDE[prod_short](../includes/prod
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do following steps:
 
-1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
 2. Choose the **New** action.
 3. In the **Code** field, enter `DEMO1`.
 4. In the **Shopify URL** field, enter the URL to the online shop that you want to connect to.
@@ -109,7 +108,7 @@ Let's say, that you want to try Shopify as an online store without spending much
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)] go through the following steps:
 
-1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and choose the related link.
 2. Choose the **Add Items** action.
 3. In the **Shop Code** field, enter *DEMO1*.
 4. Set the filter `CHAIR` on the **Item Category Code** field (add filter field if necessary).
@@ -141,7 +140,7 @@ Choose the **Buy it now** button and proceed to checkout.
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the next steps:
 
-1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/search_small.png "Tell me what you want to do") icon, enter **Shopify Orders**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Orders**, and then choose the related link.
 2. Choose the **Sync Orders From Shopify** action.
 3. Choose **OK**.
 
@@ -158,7 +157,7 @@ The imported order is ready for processing.
 
 Now physical and financial data is registered in [!INCLUDE[prod_short](../includes/prod_short.md)]. It’s time to notify Shopify about the changes.
 
-1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/search_small.png "Tell me what you want to do") icon, enter **Sync Shipments to Shopify**, and choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sync Shipments to Shopify**, and choose the related link.
 2. Choose **OK**.
 
 In **Shopify Admin** notice that the order is now marked as *Fulfilled*. You can also review Shipment details and see the Tracking URL there. If you run **Sync Orders From Shopify** again, the order will be archived in both systems.
@@ -173,7 +172,7 @@ After a successful quick launch of your new online store, you want your current 
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following steps:
 
-1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the **DEMO1** Shop for which you want to synchronize customers to open the **Shopify Shop Card** page.
 3. Choose the **Sync Customers** action.
 
@@ -191,10 +190,10 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following steps:
 
 Prepare data.
 
-1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/search_small.png "Tell me what you want to do") icon, enter **Customer Price Group**, and choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Price Group**, and choose the related link.
 2. Add new price group. In the **Code** field, enter `SHOPIFY`.
 3. Close the **Customer Price Group** window.
-4. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/search_small.png "Tell me what you want to do") icon, enter **Items**, and choose the related link.
+4. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and choose the related link.
 5. Select item **1896-S, Athens Desk**.
 6. Choose the **Variants** action, and then add two variants `PREMIUM, Athens Desk, Premium edition` and `ESSENTIAL, Athens Desk, Essential edition`.
 7. Choose **Extended Text**, create a new extended text valid for all language codes. In the **Description** field, enter `Shopify`. 
@@ -230,7 +229,7 @@ Prepare data.
 
 Adjust the synchronization settings.
 
-1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the *DEMO1* Shop for which you want to synchronize items to open Shopify Shop Card page.
 3. Select *SHOPIFY* in the **Customer Price Group** field.
 4. Select *RETAIL* in the **Customer Discount Group** field.
@@ -241,7 +240,7 @@ Adjust the synchronization settings.
 
 Run the synchronization.
 
-1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the *DEMO1* Shop for which you want to synchronize items to open the **Shopify Shop Card** page.
 3. Choose the **Products** action to open **Shopify Products** window.
 4. Choose the **Add Items** action.
@@ -278,14 +277,14 @@ You already have a successful online store and would like to start using [!INCLU
 
 ### Steps
 
-This is a continuation of [Walkthrough: Start selling products online](admin-shopify-connector.md#walkthrough-start-selling-products-online). You can also try with your own data, for example your Shopify store or sandbox.
+This is a continuation of [Walkthrough: Start selling products online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). You can also try with your own data, for example your Shopify store or sandbox.
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following steps:
 
 #### Prepare data
 
 1. Switch to a free 30-day trial without sample data. For more information, see [Add your own data to an empty trial](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions.md#add-your-own-data-to-an-empty-trial-company).
-2. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
+2. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
 3. Choose the **New** action.
 4. In the **Code** field, enter `DEMO2`.
 5. In the **Shopify URL** field, enter the URL to the online shop that you want to connect to.
@@ -307,7 +306,7 @@ Configure the Shopify shop as described below in the next steps:
 
 #### Run the synchronization
 
-1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Select the *DEMO2* Shop for which you want to synchronize data to open the **Shopify Shop Card** page.
 3. Choose the **Sync Products** action.
 4. Choose the **Sync Product Images** action.
@@ -315,10 +314,10 @@ Configure the Shopify shop as described below in the next steps:
 
 ### Results
 
-* Shopify Products are imported. To verify, go to the search ![Lightbulb that opens the Tell Me feature.](../media/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and choose the related link.
-* Items with images are created. To verify, go to the search ![Lightbulb that opens the Tell Me feature.](../media/search_small.png "Tell me what you want to do") icon, enter **Item**, and choose the related link.
-* Shopify Customers are imported. To verify, go to the search ![Lightbulb that opens the Tell Me feature.](../media/search_small.png "Tell me what you want to do") icon, enter **Shopify Customers**, and choose the related link.
-* Customers are created. To verify, go to the search ![Lightbulb that opens the Tell Me feature.](../media/search_small.png "Tell me what you want to do") icon, enter **Customers**, and choose the related link.
+* Shopify Products are imported. To verify, choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and choose the related link.
+* Items with images are created. To verify, choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item**, and choose the related link.
+* Shopify Customers are imported. To verify, choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Customers**, and choose the related link.
+* Customers are created. To verify, choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and choose the related link.
 
 
 ## See Also

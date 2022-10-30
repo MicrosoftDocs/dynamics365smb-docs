@@ -233,9 +233,19 @@ You can initialize inventory synchronization in the two ways described below.
 
 ### Inventory remarks
 
-* The connector calculates the **Projected Available Balance** and exports it to Shopify.
+* The connector calculates the **Projected Available Balance** at current date and exports it to Shopify.
 * You can inspect the stock information received from Shopify on the **Shopify Inventory FactBox** page. In this FactBox, you get an overview of the Shopify stock and the last calculated inventory in [!INCLUDE[prod_short](../includes/prod_short.md)]. There's one record per location.
 * If the stock information in Shopify is different than the **Projected Available Balance** in [!INCLUDE[prod_short](../includes/prod_short.md)], then the stock will be updated in Shopify.
+
+**Example of calcualtion of projected available balance**
+
+There are 10 pieces of item A available on hand. There are also two outstanding sales orders. One for Monday with quantity *One* and one for Thursday with quantity *Two*. Depending on when you sync inventory, the system will update stock level in Shopify with different quantities:
+
+|When sync inventory is executed|Value used to update Stock level|Comment|
+|------|-----------------|-----------------|
+|Tuesday|9|Inventory 10 minus sales order set to ship on Monday|
+|Friday|7|Inventory 10 minus both sales orders|
+
 
 ## See also
 

@@ -19,19 +19,10 @@ To use Shopify with [!INCLUDE [prod_short](../includes/prod_short.md)], you have
 ## Prerequisites for Shopify
 
 You must have:
-
 - A Shopify account.
 - A Shopify online store.
 
-To create a new Shopify account or sign-up for a free 14-day trial, go to [Shopify.com](https://www.shopify.com/). Learn more about how to create and personalize your online store at [Shopify Help Center](https://help.shopify.com/).
-  
-Other sales channels are supported, for example, Shopify POS.
-
-### Recommended settings
-
-- Deactivate **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
-
-Learn more about Shopify settings for demo and trial scenarios at [Test and training scenarios](/dynamics365/business-central/dev-itpro/administration/admin-shopify-connector#preparation).
+Learn more about how to create Shopify trials and recomended settings at [Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md#preparation).
 
 ## Prerequisites for Business Central
 
@@ -81,4 +72,4 @@ Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_shor
 
 ## See also
 
-[Test and training scenarios](/dynamics365/business-central/dev-itpro/administration/admin-shopify-connector).
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md).

@@ -36,14 +36,12 @@ With the Shopify connector, businesses can link their Shopify store (or stores) 
   - Smart-map customers by phone and email.  
   - Use country-specific templates when creating customers, which helps ensure that tax settings are correct.  
 - Import of orders from Shopify.
-  - Include orders created in varios sales channels, such as Online store or Shopify POS.  
+  - Include orders created in varios sales channels, such as Online store or **Shopify POS**. 
   - Shipping costs, gift cards, tips, shipping and payment methods, transactions, and risk of fraud.  
   - During the import, you can automatically create customers in [!INCLUDE [prod_short](../includes/prod_short.md)] or decide to manage the customers in Shopify.  
    - Receive payout information from Shopify Payments.  
 - Track fulfillment information.
   - Optionally, choose to transfer item tracking information from [!INCLUDE [prod_short](../includes/prod_short.md)] to Shopify.  
-
-<!--### Currently this is not in our roadmap; however, we are tracking it and if we get more feedback and votes, we may consider it in the future. -->
 
 ## Why did Microsoft and Shopify form this partnership? 
 
@@ -60,17 +58,24 @@ The Shopify connector doesn't work for [Embed App](/dynamics365/business-central
 ### [!INCLUDE[prod_short](../includes/prod_short.md)]
 The Shopify connector is covered by the current support model. Learn more at [Technical Support](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (in English only). 
 
-### If you need partner who can help connecting Shopify to [!INCLUDE[prod_short](../includes/prod_short.md)] 
-Explore these filtered [consulting serives](https://aka.ms/BCShopifyConsultant) offerings.
+Get help from a consultant that knows the Shopify connector for [!INCLUDE[prod_short](../includes/prod_short.md)], to meet your unique business-specific requirements. 
+Search in [Consultancy Services](https://aka.ms/BCShopifyConsultant).
 
 ### Shopify
 Get help with Shopify by starting with [General Shopify Help Center](https://help.shopify.com/) or [24/7 Support for your store as a Shopify merchant](https://help.shopify.com/questions#/). 
 
 You can also explore [Experts Marketplace](https://experts.shopify.com/) to find the right experts who offer services for Shopify merchants.
 
+## Currently not supported features, however, we are tracking them may consider it in the future:
+
+- B2B features, inlcuding Companies, company price lists, payment terms.
+- Markets.
+  - Multiple translations of master data. You can choose one language that will be used for product information export.
+  - Prices per country/region. One price list is available for the selected currency. The conversion to other currencies will be handled by Shopify.
+
 ## Is the Shopify connector extensible?
 
-Currently, this app is non-extensible with plans to make it extensible at some point (as yet undetermined) in the future.
+Currently, this app is non-extensible with plans to make it extensible in 2023. 
 
 ## Is the Shopify connector open for contribution
 

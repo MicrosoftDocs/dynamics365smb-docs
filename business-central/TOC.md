@@ -672,6 +672,7 @@
 <!--Shopify-->
 ## Online Store with Shopify
 ### [Get Started with the Shopify Connector](shopify/get-started.md)
+#### [Creating and Setting Up Shopify Account](shopify-account.md)
 ### [Synchronize Items with Shopify](shopify/synchronize-items.md)
 ### [Synchronize Customers with Shopify](shopify/synchronize-customers.md)
 ### [Synchronize and Fulfill Sales Orders with Shopify](shopify/synchronize-orders.md)

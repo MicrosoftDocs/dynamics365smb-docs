@@ -13,61 +13,23 @@ ms.author: andreipa
 
 This section demonstrates common scenarios and walks you through the steps to test or train the users on the workflow of the integrated [!INCLUDE[prod_short](../includes/prod_short.md)] and the Shopify store.
 
-## Preparation
+## Prerequisites 
 
-You have the following two options for creating a Shopify account:
+### Shopify
 
-- Trial
-- Development stores, if you do recurring demos and trainings
+You must have:
+- A Shopify account.
+- A Shopify online store.
 
-### [Trial](#tab/trial)
+Learn more about how to create Shopify trials and recommended settings at [Creating and Setting Up Shopify Account](shopify-account.md).
 
-Begin by creating an Azure Active Directory tenant and get the administration login and password. For more information, see [Preparing demonstrations of [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md), steps 1-6. You can stop once you get the administrator account that you got as part of your demo account, typically equivalent to *admin @ CRMbc123456.onmicrosoft.com*.
+### Business Central
 
-Navigate to [Shopify](https://www.shopify.com) and use this administrator account to sign up for a free 14-day trial. For more information on how to create and personalize your online store, see [Shopify Help Center](https://help.shopify.com/).
+You must have a [!INCLUDE[prod_short](../includes/prod_short.md)] account. 
 
-In the **Shopify Admin** of the created shop, apply following **Settings**:
+For example you can create demo account or start trial. For more information, see [Preparing demonstrations of [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md) and [Sign up for the trial](../trial-signup.md) 
 
-* Deactivate **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
-* Consider enabling the *Show login link in storefront and checkout* in the **Customer account settings** section of the checkout settings.
-* Consider selecting the *Company name - Optional* option in the **Customer information** section of the checkout settings.
-* Enable the **Show tipping options at checkout** option in the **Tipping** section of the checkout settings, if you plan to demonstrate tipping.
-* Activate test payments. You have two options. Start by navigating to [**Payments**](https://www.shopify.com/admin/settings/payments) settings:  
-  1. *(for testing) Bogus Gateway*. For more information, see [Activate Bogus Gateway for testing](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
-  2. *Shopify payments* in test mode. For more information, see [Testing Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
-
-* Select plan in the [**Plan**](https://www.shopify.com/admin/settings/plan) settings to be able test checkout process.
-
-> [!Important]  
-> To avoid payments, remember to cancel your Shopify trial.
-
-Install the **Dynamics 365 Business Central** app in your Shopify online store.
-
-1. Locate the [Dynamics 365 Business Central](https://apps.shopify.com/dynamics-365-business-central) app on the [Shopify AppStore](https://apps.shopify.com/).
-2. Choose the **Add App** button, and then sign in into your Shopify account if prompted.
-3. Review privacy and permissions, and then choose the **Install App** button. You can find and open the installed **Dynamics 365 Business Central** app in the Apps section on the sidebar of **Shopify admin**.
-4. Choose **Sign up now** to start the [!INCLUDE[prod_short](../includes/prod_short.md)] trial, and then use the administrator account.
-
-### [Development store](#tab/dev-store)
-
-Begin by joining the [Shopify Partner Program](https://help.shopify.com/partners/about).
-Once it's completed, you can use **Partner Dashboard** to create the development store. For more information, see [Creating development stores](https://help.shopify.com/partners/dashboard/managing-stores/development-stores).
-
-After creation of the store, in the **Shopify Admin** of the created shop, apply following **Settings**:
-
-* Deactivate **Automatically archive the order** in the **Order Processing** section of the [**Checkout**](https://www.shopify.com/admin/settings/checkout) settings in your **Shopify admin**.
-* Consider enabling the *Show login link in storefront and checkout* in the **Customer account settings** section of the checkout settings.
-* Consider selecting the *Company name - Optional* option in the **Customer information** section of the checkout settings.
-* Enable the **Show tipping options at checkout** option in the **Tipping** section of the checkout settings, if you plan to demonstrate tipping.
-* Activate test payments. You have two options. Start by navigating to [**Payments**](https://www.shopify.com/admin/settings/payments) settings:  
-  1. *(for testing) Bogus Gateway*. For more information, see [Activate Bogus Gateway for testing](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
-  2. *Shopify payments* in test mode. For more information, see [Testing Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
-
-As a partner, you probably already have a [!INCLUDE[prod_short](../includes/prod_short.md)] account for demos. If not, you should create one. For more information, see [Preparing demonstrations of [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md).
-
----
-
-### Connect Business Central to the Shopify shop
+## Connect Business Central to the Shopify shop
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do following steps:
 

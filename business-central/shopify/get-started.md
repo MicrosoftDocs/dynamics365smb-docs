@@ -22,7 +22,7 @@ You must have:
 - A Shopify account.
 - A Shopify online store.
 
-Learn more about how to create Shopify trials and recommended settings at [Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md#preparation).
+Learn more about how to create Shopify trials and recommended settings at [Creating and Setting Up Shopify Account](shopify-account.md).
 
 ## Prerequisites for Business Central
 

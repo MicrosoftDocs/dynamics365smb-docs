@@ -1,13 +1,13 @@
 ---
 title: Define How Data is Exchanged Electronically
 description: Define how Business Central exchange data with external files like electronic documents, bank data, item catalogs and more.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 1210, 1211, 1213, 1214, 1215, 1216, 1217
-ms.date: 09/15/2022
-ms.author: edupont
+ms.date: 11/03/2022
+ms.author: bholtorf
 
 ---
 # Set Up Data Exchange Definitions
@@ -124,6 +124,7 @@ Starting in 2022 release wave 2, you can also group by any field, use the key in
     |**Table ID**|Specify the table that holds the fields to or from which data is exchanged according to the mapping.|  
     |**Use as Intermediate Table**|Specify if the table that you select in the **Table ID** field is an intermediate table where the imported data is stored before it is mapped to the target table.<br /><br /> You typically use an intermediate table when the data exchange definition is used to import and convert electronic documents, such as vendor invoices into purchase invoices in [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [Exchanging Data Electronically](across-data-exchange.md).|  
     |**Name**|Enter a name for the mapping setup.|  
+    |**Key Index**|Specifiy the key index to sort the source records before exporting.|
     |**Pre-Mapping Codeunit**|Specify the codeunit that prepares the mapping between fields in [!INCLUDE[prod_short](includes/prod_short.md)] and external data.|  
     |**Mapping Codeunit**|Specify the codeunit that is used to map the specified columns or XML data elements to fields in [!INCLUDE[prod_short](includes/prod_short.md)].|  
     |**Post-Mapping Codeunit**|Specify the codeunit that completes the mapping between fields in [!INCLUDE[prod_short](includes/prod_short.md)] and external data. **Note:**  When using the AMC Banking 365 Fundamentals extension feature, the codeunit converts exported data from [!INCLUDE[prod_short](includes/prod_short.md)] to a generic format that is ready for export. For import, the codeunit converts external data to a format that is ready for import into [!INCLUDE[prod_short](includes/prod_short.md)].|
@@ -156,6 +157,13 @@ Starting in 2022 release wave 2, you can also group by any field, use the key in
      |**Transformation Rule**|Specify the rule that transforms imported text to a supported value before it can be mapped to a specified field. When you choose a value in this field, the same value is entered in the **Transformation Rule** field in the **Data Exch. Field Mapping Buf.** table and vice versa. See the next section for more information on available transformation rules that can be applied.|
      |**Priority**|Specify the order that the field mappings must be processed. The field mapping with the highest priority number will be processed first.|
 
+4. On the **Field Grouping** FastTab, specify rules you want to use to group your fields when you create the file by filling the fields as described in the following table.  
+
+     |Field|Description|  
+     |--------------------------------- |---------------------------------------|  
+     |**Field ID**|Specifiy the number of the field in the external file that is used for grouping and this field must be set by user.|
+     |**Field Caption**|Specify the caption of the field in the external file that is used for grouping.|
+
 ## Transformation Rules
 
 If the values in the fields you are mapping differ, you must use transformation rules for data exchange definitions to make them the same. You define transformation rules for data exchange definitions by opening an existing definition, or creating a new definition, and then on the **Line Definitions** FastTab, choosing **Manage**, and then **Field Mapping**. Predefined rules are provided, but you can also create your own. The following table describes the types of transformations that you can perform.
@@ -175,6 +183,8 @@ If the values in the fields you are mapping differ, you must use transformation 
 |**Regular Expression - Match**|Use a regular expression to find one or more values. This rule is similar to the **Substring** and **Regular Expression - Replace** options.|
 |**Custom**|This transformation rule is an advanced option that requires assistance from a developer. It enables an integration event that you can subscribe to if you want to use your own transformation code. If you are a developer and want to use this option, see the section below.|
 |**Date and Time Formatting**|Define how to display the current date and the time of day.|
+|**Field Lookup**|Use fields from different tables. To use it you need to follow some rules. First, use **Table ID** to specify the ID of the table that contains the record for the field lookup. Then, in the **Source Field ID** field, specify the ID of the field that contains the record for the field lookup. Finally, in the **Target Field ID** field, specify the ID of the field to find the record for the field lookup. Optionally, use the **Field Lookup Rule** field to specify the type of the field lookup. For the **Target** field, the value from the **Target Field ID** is used, even if it's blank. For the **Original If Target Is Blank** field, the original value is used if the target is blank.|
+|**Round**|Round the value in this field using some additional rules. First, in the **Precision** field, specify a rounding precision. Then, in the **Direction** field, specify the rounding direction.|
 
 > [!NOTE]  
 > Learn more about date and time formatting at [Standard Date and Time Format Strings](/dotnet/standard/base-types/standard-date-and-time-format-strings).

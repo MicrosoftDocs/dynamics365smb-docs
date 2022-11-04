@@ -2,14 +2,13 @@
 title: Business Central and Microsoft Teams Integration overview| Microsoft Docs
 description: Share Business Central records directly in a Teams conversation.
 author: jswymer
-
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 09/22/2022
-ms.author: jswymer
+ms.custom: bap-template
 ---
 
 # Business Central and Microsoft Teams Integration
@@ -55,6 +54,14 @@ Directly from most collection and details pages in Business Central, you can use
 <!--![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")-->
 
 For more information, see [Share Records and Page Links in Microsoft Teams](across-working-with-teams.md#share-link).
+
+### Add a Business Central tab to Teams channel or chat
+
+With the Business Central app for Teams installed, you can add a tab in a channel or chat the shows Business Central data from lists and card pages.
+
+![Tabs in Teams](media/teams-tabs-border.png)
+
+For more information, see [Add a Business Central tab in Teams](across-teams-tab.md).
 
 ## Get Started
 

@@ -156,6 +156,23 @@ This problem can be caused by a various reasons. For example, the identity you a
 
 As of April 2022, links that are displayed as compact card in Teams will no longer contain the **Popout** button. To open that card in its own window, choose the **Details** button, then choose **Open in browser** from the ellipses menu (**...**) in the upper right corner of the window.
 
+## Can't pin a card to tab
+
+There are couple reasons for this problem.
+
+- If the card was shared from Search ME, then it can't be pinned to a tab. 
+
+- Cannot pin until you add your first Business Central tab. This issue is known in Teams. 
+
+## Someone added a tab, but the tab doesn’t show up for me
+
+This problem is because you don’t have the BC app for Teams installed. Only those with the app installed will see Business Central tabs.
+
+## Others see different sorting or column layout than what the tab author sees
+
+This problem is likely because you shared a list view that is a personal view. In this case, work with your administrator to create either role-specific list views that covers the different roles in the channel/chat, or create this view for the whole organization so that everyone can get a consistent view.
+
+
 ## See Also
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] and Microsoft Teams Integration Overview](across-teams-overview.md)  

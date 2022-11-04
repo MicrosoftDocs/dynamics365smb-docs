@@ -140,6 +140,92 @@ If you want to participate in improving the app for Teams, or have an idea that 
 
 To learn about the functionality in the web client that links to Teams, see [Share Records and Page Links in Microsoft Teams](across-working-with-teams.md#share-link).
 
+## [Business Central Tabs](#tab/tabs)
+
+### <a name="who-can-view"></a>Who can see the content of a tab?
+
+Any person in your chat or channel who has:
+
+1. The Business Central app for Teams installed.
+2. Either a Business Central license or has been granted access to Business Central using their Microsoft 365 license.
+3. Permissions to view the data on the page.
+
+### <a name=#recommended-content></a>Where does the recommended content come from?
+
+The recommended content that you can choose from in the **Tab content** option on a tab is based on your Role Center. The recommend content only includes list pages, like Customers, Sales Orders, and Vendors - not indiviusla card page alike a specific customer or vendor.
+
+Specifically, recommended content includes:
+
+- Actions in the top navigation menu of the role center
+- Any list pages you've bookmarked.
+- If a list page offers different views, including any views you created, you also get to choose from those views
+
+You can add list pages to the recommended content by adding bookmarks. You can also remove recommended content by deleting bookmarks. To learn how to add or delete bookmarks, see [Bookmark a Page or Report on Your Role Center](ui-bookmarks.md).
+
+If you switch the environment or company on the tab option, the recommended content will changed based on the Role Center and bookmarks for the environment and company you switch to.
+
+
+
+### When I create a tab, does it grant permissions to the people in the channel or chat?
+
+No. Creating tabs doesn't affect permissions, and users must already have permission to that data when they access the tab.
+
+### Can I chat alongside a tab?
+
+Yes. Use the chat icon to start the conversation. This chat thread is then associated with the tab. 
+
+### If I remove a tab from a chat or channel, is any Business Central data deleted?
+
+No.
+
+### Can I safely rename a tab?
+
+Yes. The contents of the tab are unrelated to the actual name of the tab. Rename at will! 
+
+### I need to work across tasks in different windows. Can I do this?
+
+Yes. You can pop out the tab to its own browser window to show the Business Central web client. 
+
+### Can I add or pin tab in Team meetings?
+
+No. The Business Central app for Teams doesn't support tabs in meetings.
+
+### Can't add a tab if using ISV Urls like *.bc.dynamics.com (but can pin)
+
+Not supported.
+
+### When I do things in the tab, like navigate, resort, apply a filter, or search, do others see my changes?
+
+No. Only field changes or running actions affect how others see the contents of the tab.
+
+### Does the tab content refresh automatically? If not, how do I refresh it?
+
+The content doesn't refresh automatically, and these currently no refresh button. The best way to refresh the content to make sure it's up to data, leave the tab and then come back. 
+
+### Does this show lists and records from my customizations and add-ons?
+
+Yes. 
+
+### When I add a tab, will people see it in my language?
+
+No. Each user views the tab contents in the language, region, and timezone settings from Business Central. 
+
+### Can I have multiple tabs pointing to different content?
+
+Yes.
+
+### Can I also add tabs to chat with a single person?
+
+Yes, as long as the chat isn't a draft (that is, a message hasn't been sent to initiate that chat) and the other person has the Business Central app installed too.
+
+### Can I switch companies within a tab?
+
+No. 
+
+### Is this different than using Teams' generic ability to create a tab that hosts a website?
+
+Yes. We don't recommend that you use approach. In many cases, it doesn't work for Business Central.
+
 ## [Search for Contacts](#tab/contacts)
 
 ### Which tables does the app search in?
@@ -151,6 +237,7 @@ When searching for contacts from the [!INCLUDE [prod_short.md](includes/prod_sho
 As you type your search terms in the search box, the terms are matched against most fields in the **Contacts** table. The fields include, for example, the **No.**, **Name**, **Address**, **Phone No.** or **Mobile Phone No.**, and **Email** fields. 
 
 Search terms aren't matched against any custom fields added to the **Contacts** table by apps and extensions.
+
 ### Do search results include companies and persons?
 
 Yes. In [!INCLUDE [prod_short.md](includes/prod_short.md)], contacts can be of type **Company** or type **Person**, where one or more persons may be associated with a company. In the search results, companies and persons have different icons.

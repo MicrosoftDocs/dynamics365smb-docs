@@ -1610,6 +1610,7 @@
 ##### [Manage Teams Integration](admin-teams-integration.md)
 ##### [Install Business Central App for Teams](across-install-app-for-teams.md)
 ##### [Search for Customers, Vendors, and Contacts](across-search-contacts-teams.md)
+##### [Add Business Central Tab in Channel or Chat](across-teams-tab.md)
 ##### [Share Records and Page Links in Teams](across-working-with-teams.md)
 ##### [Change Company and Other Settings](across-teams-settings.md)
 ##### [Teams FAQ](teams-faq.md)
@@ -1784,6 +1785,12 @@
 ### [Administration Tasks](admin-setup-and-administration.md)
 ### [Create Users According to Licenses](ui-how-users-permissions.md)
 ### [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)
+### Access with Microsoft 365 Licenses
+#### [Overview](admin-access-with-m365-license.md)
+#### [Set Up Access with Microsoft 365 Licenses](admin-access-with-m365-license-setup.md)
+#### [User Access Flow](admin-access-with-m365-license-flow.md)
+<!--#### [FAQ](admin-access-with-m365-license-faq.md) file temporarily moved to archive folder-->
+#### [Troubleshoot](admin-access-with-m365-license-troubleshooting.md) 
 ### [Manage Profiles](admin-users-profiles-roles.md)
 ### [Manage User Settings and Preferences](admin-manage-user-settings-preferences.md)
 ### [Set Up Printers](ui-specify-printer-selection-reports.md)

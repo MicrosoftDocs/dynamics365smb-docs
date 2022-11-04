@@ -31,6 +31,7 @@ Before you can send and receive electronic documents or import and export bank f
 |Instruct your bank to transfer payment amounts from your customers’ bank accounts to your company’s account according to your setup of SEPA direct debit.|[Create SEPA Direct Debit Collection Entries and Export to a Bank File](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)|  
 |Use a service provider of currency exchange rates to update the **Currencies** page.|[Update Currency Exchange Rates](finance-how-update-currencies.md)|  
 |View which file elements are mapped to fields in [!INCLUDE[prod_short](includes/prod_short.md)] when importing SEPA CAMT statement files.|[Field Mapping When Importing SEPA CAMT Files](across-field-mapping-when-importing-sepa-camt-files.md)|  
+|Export data for Intrastat reporting in [!INCLUDE[prod_short](includes/prod_short.md)].|[Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)|
 |View which fields in [!INCLUDE[prod_short](includes/prod_short.md)] are mapped to file elements when exporting payment files by using the AMC Banking 365 Fundamentals extension.|[Field Mapping When Exporting Payment Files Using the AMC Banking 365 Fundamentals extension](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
 ## See Also  

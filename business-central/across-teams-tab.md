@@ -39,6 +39,7 @@ To add a [!INCLUDE [prod_short](includes/prod_short.md)] tab, the following requ
 To view [!INCLUDE [prod_short](includes/prod_short.md)] tab that was added by another participant in the channel or chat, the following requirements must be met:
 
 - You have access to Microsoft Teams.
+- You have a [!INCLUDE [prod_short](includes/prod_short.md)] license or limited access to Business Central with a Microsoft 365 license only. For more information, see [Business Central Access with Microsoft 365 Licenses](admin-access-with-m365-license.md).
 - You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams.
 
 ## Add tab using recommended content

@@ -24,7 +24,7 @@ To learn how to centrally deploy the Business Central app for Teams, see [Instal
 > If you have run centralized deployment before and only deployed the app to the security group of licensed Business Central users, you'll need to run it again to deploy to additional groups or the whole organization, depending on how you are configuring access.
 
 > [!TIP]
-> Looking for a quicker way to get started when trying out this feature? Test users can install the app at [aka.ms/BCgetTeamsApp](aka.ms/BCgetTeamsApp).
+> Looking for a quicker way to get started when trying out this feature? Test users can install the app at [aka.ms/BCgetTeamsApp](https://aka.ms/BCgetTeamsApp).
 
 ## Configure permissions
 

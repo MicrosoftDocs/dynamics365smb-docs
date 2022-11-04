@@ -102,7 +102,7 @@ This section describes the minimum requirements that must be met for your organi
 
 ### Requirements for individual users to access data in Teams
 
-- Data must be accessed using the Business Central app for Teams. Users must have the Business Central app for Teams installed and must use one of the supported Teams clients. For a list of Teams clients supported by Business Central, see [Minimum Requirements for Using Business Central](product-requirements#teams).
+- Data must be accessed using the Business Central app for Teams. Users must have the Business Central app for Teams installed and must use one of the supported Teams clients. For a list of Teams clients supported by Business Central, see [Minimum Requirements for Using Business Central](product-requirements.md#teams).
 
 - Users must be internal to the organization, meaning that a user identity originates from the same home tenant where Business Central is deployed and where access is enabled. External identities aren't supported. Business Central automatically prevents access to guests.
 

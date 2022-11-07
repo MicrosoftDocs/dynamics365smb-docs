@@ -21,13 +21,13 @@ The app provides four products that are optimized for different scenarios:
 
 - **SP-SCM1011 Airpot Duo**  
 
-  This product requires item tracking and has a component that also requires item tracking. The costing method is *Special*.  
+  This product requires item tracking and has a component that also requires item tracking. The costing method is *Specific*.  
 
 - **SP-SCM1004 Autodrip**  
 
   This product is a BOM with a subassembly, **Routing**. We recommend it to demonstrate the various flushing methods both for components and operations. The costing method is *Standard*.
 
-- **SP-SCM1008 AutoDripLite**
+- **SP-SCM1006 AutoDripLite**
 
   This product has three variants and three bills of material (BOMs) that can be assigned to stockkeeping units. The product uses the phantom BOM concept. The costing method is *Standard*.
 

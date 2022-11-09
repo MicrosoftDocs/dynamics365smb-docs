@@ -129,6 +129,8 @@ In summary, this is what you should and shouldn't do on the **Data** sheet:
 - Don't add any columns unless they're included in the report dataset.
 - You can place the sheets in any order, with the **Data** sheet first or last.
 
+## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
+
 ## See also
 
 [Managing Report Layouts](ui-manage-report-layouts.md)  

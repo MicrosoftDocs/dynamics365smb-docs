@@ -1,18 +1,19 @@
 ---
 title: Specify When and How to Receive Workflow Notifications
 description: When you set users up in approval workflows, you can specify how and when each approval user receives notifications.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
+ms.search.form: 663, 1500, 1512, 1513, 
 ms.date: 09/09/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 # Specify When and How to Receive Workflow Notifications
 
-When you set up approval users in workflows where you want someone to approve changes, such as when new records are created or when someone requests an approval, you must specify how and when the approval user is notified. For example, you can specify an approval user to immediately receive an email whenever someone creates a new customer. Alternatively, you can schedule the notifications to be held and then delivered together, for example, on a weekly or monthly basis.
+When you set up approval users in workflows where you want someone to approve changes, such as when new records are created or when someone requests an approval, you must specify how and when to notify the approval user. For example, you can specify that an approval user will immediately receive an email when someone creates a new customer. Alternatively, you can schedule the notifications to be held and then delivered together, for example, on a weekly or monthly basis.
 
 People can also change their notification setup by choosing **Change Notification Settings** on any notification.  
 
@@ -32,10 +33,10 @@ Many approval workflow steps are about notifying users that an event they must a
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, then choose the related link.  
 2. Select the line for the user you want to set up notification preferences for, then choose the **Notification Setup** action.  
-3. On the **Notification Setup** page, fill in the fields as described in the following table.  
+3. On the **Workflow Notification Setup** page, fill in the fields as described in the following table.  
 
    > [!NOTE]
-   > If you open the **Notification Setup** page from the **Approval User Setup** page the notification setup is linked to the approval user. The approval user will always receive workflow notifications according to that notification setup. If you use the *Tell Me* feature to open the **Notification Setup** page, the notification setup applies to all users.
+   > If you open the **Workflow Notification Setup** page from the **Approval User Setup** page the notification setup is linked to the approval user. The approval user will always receive workflow notifications according to that notification setup. If you use the *Tell Me* feature to open the **Workflow Notification Setup** page, the notification setup applies to all users.
 
    |Field|Description|
    |-----|-----------|
@@ -60,7 +61,7 @@ Many approval workflow steps are about notifying users that an event they must a
 ## Change when and how you receive notifications
 
 1. On one of the notifications you've received, either as an email or a note, choose **Change Notification Settings**.  
-2. On the **Notification Setup** page, change your notification preferences as described in steps 3-5 above.
+2. On the **Workflow Notification Setup** page, change your notification preferences as described in steps 3-5 above.
    1. Confirm that the correct notification is chosen under the **Notification Type** field.
    2. Choose whether to receive an email or note notification under the  **Notification Method** field.
    3. Select the **Notification Schedule** to change the frequency and recurrence in which notifications are sent.

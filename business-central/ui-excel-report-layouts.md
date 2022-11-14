@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 03/14/2022
+ms.date: 11/10/2022
 ms.author: jswymer
 ---
 # Working with Microsoft Excel Layouts
@@ -128,8 +128,6 @@ In summary, this is what you should and shouldn't do on the **Data** sheet:
 - You can delete or hide columns.
 - Don't add any columns unless they're included in the report dataset.
 - You can place the sheets in any order, with the **Data** sheet first or last.
-
-## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## See also
 

@@ -30,7 +30,7 @@ Learn more about how to create Shopify trials and recommended settings at [Creat
 
   The app is pre-installed for all new sign-ups and trials. Learn more about installing apps from AppSource at [Installing and Uninstalling Extensions] (../ui-extensions-install-uninstall.md#install). Follow the steps listed below if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-- Ensure that user has enough permissions. Shopify Connector is covered by the *Shopify – Admin (SHPFY – ADMIN)* permission set. For more information, see [Create Users According to Licenses](../ui-how-users-permissions.md) and [Assign Permissions to Users and Groups](../ui-define-granular-permissions.md)
+- Ensure that user has enough permissions. Shopify Connector is covered by the *Shopify – Admin (SHPFY – ADMIN)* permission set. Learn more at [Create Users According to Licenses](../ui-how-users-permissions.md) and [Assign Permissions to Users and Groups](../ui-define-granular-permissions.md)
 
 
 ## Install the Dynamics 365 Business Central app to your Shopify online store

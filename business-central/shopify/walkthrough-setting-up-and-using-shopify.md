@@ -11,7 +11,7 @@ ms.author: andreipa
 
 # Walkthrough: Setting Up and Using Shopify Connector
 
-This section demonstrates common scenarios and walks you through the steps to test or train the users on the workflow of the integrated [!INCLUDE[prod_short](../includes/prod_short.md)] and the Shopify store.
+This section demonstrates some typical scenarios and takes you through the steps to test or train users on the workflow of the integrated [!INCLUDE[prod_short](../includes/prod_short.md)] and the Shopify store.
 
 ## Prerequisites 
 
@@ -27,11 +27,11 @@ Learn more about how to create Shopify trials and recommended settings at [Creat
 
 You must have a [!INCLUDE[prod_short](../includes/prod_short.md)] account. 
 
-For example you can create demo account or start trial. For more information, see [Preparing demonstrations of [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md) and [Sign up for the trial](../trial-signup.md) 
+For example you can create demo account or start trial. Learn more at [Preparing demonstrations of [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md) and [Sign up for the trial](../trial-signup.md). 
 
 ## Connect Business Central to the Shopify shop
 
-In [!INCLUDE[prod_short](../includes/prod_short.md)], do following steps:
+In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following steps:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
 2. Choose the **New** action.
@@ -39,32 +39,32 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], do following steps:
 4. In the **Shopify URL** field, enter the URL to the online shop that you want to connect to.
 5. Activate the **Enabled** toggle, review and accept the terms and conditions.
 
-Configure the Shopify shop as described below in the next steps:
+Configure the Shopify shop as described in the following steps:
 
-1. Enable the **Log Enabled** toggle.
-2. Deactivate the **Allow Background Syncs** toggle.
+1. Turn on the **Log Enabled** toggle.
+2. Turn off the **Allow Background Syncs** toggle.
 3. Select **To Shopify** in the **Sync Item** field.
 4. Select **To Shopify** in the **Sync Item Images** field.
-5. Enable the **Sync Item Attributes** toggle.
-6. Enable **Inventory Tracked** toggle.
-7. Select **Deny** in the **Default Inventory Policy**.
-8. Enable the **Auto Create Unknown Customers** toggle.
+5. Turn on the **Sync Item Attributes** toggle.
+6. Turn on the **Inventory Tracked** toggle.
+7. Select **Deny** in the **Default Inventory Policy** field.
+8. Turn on the **Auto Create Unknown Customers** toggle.
 9. Fill in the **Customer Template Code** field with the appropriate template.
-10. Fill in the **Shipping Cost Account**, the **Tip Account** with revenue account. For example, in the US use `40100`.
-11. Enable the **Auto Create Orders** toggle.
+10. Fill in the **Shipping Cost Account**, the **Tip Account** with the revenue account. For example, in the US, use `40100`.
+11. Turn on the **Auto Create Orders** toggle.
 
 Configure location mapping:
 
 1. Choose the **Locations** action to open **Shopify Shop Locations**.
 2. Choose the **Get Shopify Locations** action to import all locations defined in the Shopify.
 3. In the **Location Filter**, enter `''|EAST|MAIN`.
-4. Deselect toggle from the **Disabled** field to enable inventory sync for selected Shopify location.
+4. Turn off the **Disabled** toggle to enable inventory sync for selected Shopify location.
 
 ## Walkthrough: Start selling products online
 
 ### Scenario
 
-Let's say, that you want to try Shopify as an online store without spending much time on setting up things, especially because you already maintain your items in [!INCLUDE[prod_short](../includes/prod_short.md)] properly. Once you launch your Shopify online store, you immediately get new customers, who are happy and satisfied with your shop and their buying experience. So, they decide to leave some tips at checkout.
+Let's say that you want to try Shopify as an online store without spending much time on setting things up, especially because you already maintain your items in [!INCLUDE[prod_short](../includes/prod_short.md)] properly. After you launch your Shopify online store, you immediately get new customers who are happy with your shop and their buying experience. So, they decide to leave tips at checkout.
 
 ### Steps
 
@@ -83,14 +83,14 @@ In **Shopify online store**, open the product catalog. Notice:
 * Product titles, images, and prices.
 * Availability indicator (sold out for out-of-stock products).
 
-Choose any product that can be sold, for example `BERLIN Swivel Chair, yellow`. Notice that the description contains item attributes.
+Choose any product that can be sold, for example, the `BERLIN Swivel Chair, yellow`. Notice that the description contains item attributes.
 
 Choose the **Buy it now** button and proceed to checkout.
 
 1. In the **Email or mobile phone number** field, enter `cl@contoso.com` (or email where you want to receive order and shipping confirmations).
 2. In the **First name** and **Last name**, enter `Claudia Lawson`.
 3. Enter the local address.
-4. Enable the **Save this information for next time** checkbox.
+4. Choose the **Save this information for next time** checkbox.
 5. Choose the **Continue to shipping** button.
 6. Keep `Standard` as the shipping method and then choose the **Continue to payment** button.
 7. Select `10%` tip.
@@ -210,7 +210,7 @@ Run the synchronization.
 6. Choose the **Sync Product Images** action.
 7. Choose the **Sync Inventory** action.
 
-Products are added. Notice that the status is set to *Draft*, hence items aren't visible in the Shopify online store.
+Products are added. Notice that the status is set to *Draft*, and therefore items aren't visible in the Shopify online store.
 
 1. Select the line with item *1920-S, ANTWERP Conference Table*. In the **SEO Title**, enter `Rectangular meeting table Antwerp, 10 seats, black`.
 2. Select *Active* in the **Status** field.

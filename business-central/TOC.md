@@ -672,7 +672,7 @@
 <!--Shopify-->
 ## Online Store with Shopify
 ### [Get Started with the Shopify Connector](shopify/get-started.md)
-#### [Create and Sett Up a Shopify Account](shopify/shopify-account.md)
+#### [Create and Set Up a Shopify Account](shopify/shopify-account.md)
 ### [Synchronize Items with Shopify](shopify/synchronize-items.md)
 ### [Synchronize Customers with Shopify](shopify/synchronize-customers.md)
 ### [Synchronize and Fulfill Sales Orders with Shopify](shopify/synchronize-orders.md)
@@ -681,7 +681,7 @@
 ### [Run Tasks in the Background](shopify/background.md)
 ### [Troubleshoot the Shopify Connector](shopify/troubleshoot.md)
 ### [FAQ for the Shopify Connector](shopify/shopify-faq.md)
-### [Walkthrough: Setting Up and Using Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
+### [Walkthrough: Setting Up and Using the Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
 
 <!--Company Hub-->
 ## Company Hub

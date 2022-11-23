@@ -15,6 +15,7 @@ ms.reviewer: solsen
 This article describes the necessary settings and steps that you must complete to synchronize and fulfill sales orders with Shopify in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## Set the import of orders on the Shopify Shop Card
+
 Enter a **currency code** if your online shop uses a different currency than the local currency (LCY). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty. 
 
 You can see Store Currency in the [Store details](https://www.shopify.com/admin/settings/general) settings in your Shopify Admin. Shopify can be configured to accept different currencies, however imported orders into [!INCLUDE[prod_short](../includes/prod_short.md)] use store currency.

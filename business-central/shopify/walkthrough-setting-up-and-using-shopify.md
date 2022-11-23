@@ -1,5 +1,5 @@
 ---
-title: Setting Up and Using Shopify Connector
+title: Set up and use the Shopify Connector
 description: Various integration scenarios for demonstrating workflow between Shopify and Business Central
 ms.date: 06/21/2022
 ms.topic: article
@@ -9,7 +9,7 @@ author: AndreiPanko
 ms.author: andreipa
 ---
 
-# Walkthrough: Setting Up and Using Shopify Connector
+# Walkthrough: Set up and use the Shopify Connector
 
 This section demonstrates some typical scenarios and takes you through the steps to test or train users on the workflow of the integrated [!INCLUDE[prod_short](../includes/prod_short.md)] and the Shopify store.
 
@@ -18,8 +18,9 @@ This section demonstrates some typical scenarios and takes you through the steps
 ### Shopify
 
 You must have:
-- A Shopify account.
-- A Shopify online store.
+
+- A Shopify account
+- A Shopify online store
 
 Learn more about how to create Shopify trials and recommended settings at [Creating and Setting Up Shopify Account](shopify-account.md).
 
@@ -27,7 +28,7 @@ Learn more about how to create Shopify trials and recommended settings at [Creat
 
 You must have a [!INCLUDE[prod_short](../includes/prod_short.md)] account. 
 
-For example you can create demo account or start trial. Learn more at [Preparing demonstrations of [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md) and [Sign up for the trial](../trial-signup.md). 
+For example, you can create demo account or start trial. Learn more at [Preparing demonstrations of [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md) and [Sign up for the trial](../trial-signup.md). 
 
 ## Connect Business Central to the Shopify shop
 
@@ -64,7 +65,7 @@ Configure location mapping:
 
 ### Scenario
 
-Let's say that you want to try Shopify as an online store without spending much time on setting things up, especially because you already maintain your items in [!INCLUDE[prod_short](../includes/prod_short.md)] properly. After you launch your Shopify online store, you immediately get new customers who are happy with your shop and their buying experience. So, they decide to leave tips at checkout.
+Let's say that you want to try Shopify as an online store without spending much time on setting up things, especially because you already maintain your items in [!INCLUDE[prod_short](../includes/prod_short.md)] properly. After you launch your Shopify online store, you immediately get new customers who are happy with your shop and their buying experience. So, they decide to leave tips at checkout.
 
 ### Steps
 
@@ -284,4 +285,4 @@ Configure the Shopify shop as described below in the next steps:
 
 ## See Also
 
-[Get Started with the Shopify Connector](get-started.md)
+[Get Started with the Shopify Connector](get-started.md)  

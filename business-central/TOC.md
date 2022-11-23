@@ -681,7 +681,7 @@
 ### [Run Tasks in the Background](shopify/background.md)
 ### [Troubleshoot the Shopify Connector](shopify/troubleshoot.md)
 ### [FAQ for the Shopify Connector](shopify/shopify-faq.md)
-### [Walkthrough: Setting Up and Using the Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
+### [Walkthrough: Set Up and Use the Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
 
 <!--Company Hub-->
 ## Company Hub

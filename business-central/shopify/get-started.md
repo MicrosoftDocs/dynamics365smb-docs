@@ -19,16 +19,17 @@ To use Shopify with [!INCLUDE [prod_short](../includes/prod_short.md)], you have
 ## Prerequisites for Shopify
 
 You must have:
-- A Shopify account.
-- A Shopify online store.
 
-Learn more about how to create Shopify trials and recommended settings at [Creating and Setting Up Shopify Account](shopify-account.md).
+- A Shopify account
+- A Shopify online store
+
+For more information on how to create Shopify trials and recommended settings, go to [Creating and Setting Up Shopify Account](shopify-account.md).
 
 ## Prerequisites for Business Central
 
 - Make sure that the **[Shopify Connector](https://go.microsoft.com/fwlink/?linkid=2196238)** app is installed.
 
-  The app is pre-installed for all new sign-ups and trials. Learn more about installing apps from AppSource at [Installing and Uninstalling Extensions] (../ui-extensions-install-uninstall.md#install). Follow the steps listed below if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
+  The app is pre-installed for all new sign-ups and trials. Learn more about installing apps from AppSource at [Installing and Uninstalling Extensions](../ui-extensions-install-uninstall.md#install). Follow the steps listed below if you don't have [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 - Ensure that user has enough permissions. Shopify Connector is covered by the *Shopify – Admin (SHPFY – ADMIN)* permission set. Learn more at [Create Users According to Licenses](../ui-how-users-permissions.md) and [Assign Permissions to Users and Groups](../ui-define-granular-permissions.md)
 
@@ -57,9 +58,10 @@ For existing [!INCLUDE[prod_short](../includes/prod_short.md)], this step is opt
 Repeat steps 2-6 for all online shops that you want to connect.
 
 ### Known issues
-- Browser blocks pop-up window. When you activate the **Enabled** toggle the system opens the **Waiting for a response - do not close this page** page, that is waiting for an access token from Shopify, if that page is closed or blocked - you can't connect to Shopify. Learn more at [Request the access token](troubleshoot.md#request-the-access-token)
+
+- The browser blocks the pop-up window. When you activate the **Enabled** toggle the system opens the **Waiting for a response - do not close this page** page, that is waiting for an access token from Shopify, if that page is closed or blocked - you can't connect to Shopify. Learn more at [Request the access token](troubleshoot.md#request-the-access-token)
 - [Oauth error invalid_request: Could not find Shopify API application with api_key](troubleshoot.md#oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
-- [can't connect from sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
+- [Can't connect from sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
 
 
 ## Next steps
@@ -72,4 +74,5 @@ Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_shor
 
 ## See also
 
-[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md).
+[Walkthrough: Setting Up and Using Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
+

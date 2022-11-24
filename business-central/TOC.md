@@ -1792,7 +1792,7 @@
 #### [Overview](admin-access-with-m365-license.md)
 #### [Set Up Access with Microsoft 365 Licenses](admin-access-with-m365-license-setup.md)
 #### [User Access Flow](admin-access-with-m365-license-flow.md)
-<!--#### [FAQ](admin-access-with-m365-license-faq.md) file temporarily moved to archive folder-->
+#### [FAQ](admin-access-with-m365-license-faq.md)
 #### [Troubleshoot](admin-access-with-m365-license-troubleshooting.md) 
 ### [Manage Profiles](admin-users-profiles-roles.md)
 ### [Manage User Settings and Preferences](admin-manage-user-settings-preferences.md)

@@ -6,7 +6,7 @@ ms.author: mikebc
 ms.reviewer: jswymer 
 ms.service: dynamics365-business-central
 ms.topic: overview
-ms.date: 11/03/2022
+ms.date: 11/22/2022
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
 ---
@@ -118,16 +118,17 @@ This section describes the minimum requirements that must be met for your organi
   |Microsoft 365 F1|50f60901-3181-4b75-8a2c-4c8e4c1d5a72|
   |Microsoft 365 F3|66b55226-6b4f-492c-910c-a3b7a3c9d993|
   |Office 365 E1|18181a46-0d4e-45cd-891e-60aabd171b4e|
+  |Office 365 E2 |6634e0ce-1a9f-428c-a498-f84ec7b8aa2e|
   |Office 365 E3|6fd2c87f-b296-42f0-b197-1e91e994b900|
   |Office 365 E5|c7df2760-2c81-4ef7-b578-5b5392b571df|
+  |Office 365 F2|131fd665-5752-4995-a628-bcba5c889745|
   |Office 365 F3|4b585984-651b-448a-9e53-3b10f069cf7f|
-  |<!--??--> Office 365 F2|131fd665-5752-4995-a628-bcba5c889745|
-  |<!--??--> Office 365 E2 |6634e0ce-1a9f-428c-a498-f84ec7b8aa2e|
   |Microsoft Teams Essentials (Azure AD Identity) |3ab6abff-666f-4424-bfb7-f0bc274ec7bc|
-  |<!--??--> Microsoft 365 E1 ||
+  
+  Most offers based on these plans are also supported. For example, if you subscribe to Microsoft 365 Business Premium (Nonprofit Staff Pricing), it's a specific offer for not-for-profit organizations based on the Microsoft 365 Business Premium plan, and is therefore supported.
 
   > [!NOTE]
-  > Can’t find your plan in the list? Microsoft is continually looking for feedback on how we can improve our service and expand our offering so that more customers can take advantage of this capability. Share your idea for which plans we should support next at  [https://aka.ms/bcIdeas](https://aka.ms/bcIdeas).
+  > Can't find your plan in the list? Microsoft is continually looking for feedback on how we can improve our service and expand our offering so that more customers can take advantage of this capability. Share your idea for which plans we should support next at  [https://aka.ms/bcIdeas](https://aka.ms/bcIdeas).
 
 - Users must be assigned a Microsoft 365 license that has the Microsoft Teams app enabled in the list of apps for that license. 
 

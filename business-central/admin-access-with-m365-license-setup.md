@@ -11,11 +11,11 @@ ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
 ms.search.forms: 9061
 ---
-# Set Up Access with Microsoft 365 Licenses 
+# Set Up Business Central Access in Teams with Microsoft 365 Licenses
 
-Administrators must complete multiple activities before users can access Business Central with their Microsoft 365 license. The steps below represent the minimum setup required to get started.  
+Administrators must complete multiple activities before users can access Business Central with their Microsoft 365 license. The steps below represent the minimum setup required to get started. To learn more about access with Microsoft 365 licenses, go to [Business Central Access with Microsoft 365 Licenses](admin-access-with-m365-license.md).
 
-## Deploy the Business Central app for Teams 
+## Deploy the Business Central app for Teams
 
 For Business Central license holders to share data in Teams, and for Microsoft 365 license holders to access that data, each must have the Business Central app for Teams installed. Although users can install the app by themselves, it's recommended that administrators use centralized deployment. Centralized deployment lets you roll out the app to a broader audience across the organization and minimize individual user effort. 
 
@@ -38,8 +38,10 @@ To configure starting permissions:
 3. At the top of the **Microsoft 365** license page, select the edit icon ![Edit icon](media/edit-pencil.png), then turn on **Customize permissions**. 
 4. In the **Custom Permission Sets** section, add the appropriate permission sets and choose whether they're applicable to a single company or all companies within the environment.
 
+With this configuration, users with only a Microsoft 365 license are added to the **Users** list when they access Business Central for the first time. For more information about users, go to [Creating Users According to Licenses](ui-how-users-permissions.md).
+
 > [!NOTE]
-> When synchronizing the users list in Business Central with users in Microsoft 365, only users that have a Business Central license are added to Business Central's users list. Users with only a Microsoft 365 license are added to the users list when they access Business Central for the first time. Learn more at [Creating Users According to Licenses](ui-how-users-permissions.md).
+> When synchronizing the users list in Business Central with users in Microsoft 365, only users that have a Business Central license are added to Business Central's users list. For more administrative control over permissions, user groups, and profiles, you can assign a security group to the environment. When environments are secured using a security group and enable access with Microsoft 365 licenses, the **Update users from Microsoft 365** action in the **Users** page will also include users that only have a Microsoft 365 license. To learn about securing environments, see [Manage access using Azure Active Directory groups](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) in the developer and IT pro help.
 
 > [!TIP]
 > Looking for a quicker way to get started when trying out this feature sandbox or evaluation company? Assign the **D365 Read** permission set, which grants permission to most objects.  
@@ -84,6 +86,6 @@ To verify that your setup is ready for production, the following steps will help
 
 ## See also
 
-[Business Central Access with Microsoft 365 licenses](admin-access-with-m365-license.md#minimum-requirements)  
+[Overview of Business Central Access with Microsoft 365 licenses](admin-access-with-m365-license.md#minimum-requirements)  
 [Troubleshoot Access with Microsoft 365 Licenses](admin-access-with-m365-license-troubleshooting.md)  
 [Business Central and Microsoft Teams Integration](across-teams-overview.md)  

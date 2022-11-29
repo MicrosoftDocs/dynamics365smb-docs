@@ -136,7 +136,7 @@ Create a new permission set by copying another. The new set will include all of 
 3. On a new line, fill in the fields as necessary.
 4. Choose the **Permissions** action.
 1. On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.  
-    Use the **Open this page in a new windows** (pop-out) feature to have the **Permissions** recording window side-by-side.  
+    Recording must be done either by using the **Open this page in a new windows** (pop-out) feature to have the **Permissions** recording window side-by-side, or by working within the same tab.  
     A recording process now starts and captures all of your actions in the user interface.
 6. Go to the various pages and activities in [!INCLUDE[prod_short](includes/prod_short.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for.
 7. When you want to finish the recording, return to the **Permissions** page, and then choose the **Stop** action.

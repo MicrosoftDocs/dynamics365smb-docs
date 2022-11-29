@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862
-ms.date: 09/19/2022
+ms.date: 11/29/2022
 ms.author: bholtorf
-
 ---
+
 # Assign Permissions to Users and Groups
 
 The [!INCLUDE[prod_short](includes/prod_short.md)] security system controls which objects a user can access within each database or environment, in combination with the user's license. For each user you can specify whether they're able to read, modify, or enter data in database objects. For more information, see [Data Security](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in the developer and administration content for [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -135,9 +135,9 @@ Create a new permission set by copying another. The new set will include all of 
 2. On the **Permission Sets** page, choose the **New** Action.
 3. On a new line, fill in the fields as necessary.
 4. Choose the **Permissions** action.
-5. On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.
-
-    A recording process starts and captures all of your actions in the user interface.
+1. On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.  
+    Use the **Open this page in a new windows** (pop-out) feature to have the **Permissions** recording window side-by-side.  
+    A recording process now starts and captures all of your actions in the user interface.
 6. Go to the various pages and activities in [!INCLUDE[prod_short](includes/prod_short.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for.
 7. When you want to finish the recording, return to the **Permissions** page, and then choose the **Stop** action.
 8. Choose the **Yes** button to add the recorded permissions to the new permission set.

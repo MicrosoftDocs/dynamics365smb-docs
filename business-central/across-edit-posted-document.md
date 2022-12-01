@@ -46,12 +46,12 @@ The following explains how to edit a posted sales shipment. The steps are simila
 
 The posted sales shipment is updated.
 
-## See Also
+## See also
 
-[General Business Functionality](ui-across-business-areas.md)  
-[Purchasing](purchasing-manage-purchasing.md)  
 [Posting Documents and Journals](ui-post-documents-journals.md)  
+[Find Related Entries for Documents](ui-find-entries.md)  
+[Purchasing](purchasing-manage-purchasing.md)  
+[General Business Functionality](ui-across-business-areas.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

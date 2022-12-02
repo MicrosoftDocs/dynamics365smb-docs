@@ -15,7 +15,7 @@ ms.author: bholtorf
 
 # Set Up Email
 
-People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can connect one or more email accounts to [!INCLUDE[prod_short](includes/prod_short.md)], letting you send documents without having to open an email app. You can compose each message individually with basic formatting tools, such as fonts, styles, colors, and so on, and add attachments of up to 100 MB. Additionally, report layouts enable administrators to include only the key information from documents. For more information, see [Send Documents by Email](ui-how-send-documents-email.md).
+People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can connect one or more email accounts to [!INCLUDE[prod_short](includes/prod_short.md)], letting you send documents without having to open an email app. You can compose each message individually with basic formatting tools, such as fonts, styles, colors, and so on, and add attachments of up to 100 MB. Additionally, report layouts enable administrators to include only the key information from documents. Learn more at [Send Documents by Email](ui-how-send-documents-email.md).
 
 Email capabilities in [!INCLUDE[prod_short](includes/prod_short.md)] are for outbound messages only. You can't receive replies, that is, there's no "Inbox" page.
 
@@ -35,7 +35,7 @@ There are a couple of requirements for setting up and using the email features.
 
 You add email accounts through extensions that enable accounts from different providers to connect to [!INCLUDE[prod_short](includes/prod_short.md)]. The standard extensions let you use accounts from Microsoft Exchange Online. However, other extensions that let you connect accounts from other providers, such as Gmail, might be available.
 
-You can specify predefined business scenarios in which to use an email account to send emails. For example, you can specify that all users send sales documents from one account, and purchase documents from another. For more information, see [Assign Email Scenarios to Email Accounts](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
+You can specify predefined business scenarios in which to use an email account to send emails. For example, you can specify that all users send sales documents from one account, and purchase documents from another. Learn more at [Assign Email Scenarios to Email Accounts](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
 The following table describes the email extensions that are available by default.
 
@@ -66,7 +66,7 @@ If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](inclu
 The **Set Up Email** assisted setup guide can help you get started quickly with emails.
 
 > [!NOTE]
-> You must have a default email account, even if you add only one account. The default account will be used for all email scenarios that aren't assigned to an account. For more information, see [Assign Email Scenarios to Email Accounts](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
+> You must have a default email account, even if you add only one account. The default account will be used for all email scenarios that aren't assigned to an account. Learn more at [Assign Email Scenarios to Email Accounts](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Set Up Email Accounts**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
@@ -77,11 +77,11 @@ The **Set Up Email** assisted setup guide can help you get started quickly with 
 > If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Microsoft 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 
 is this still true?-->
-## Assign Email Scenarios to Email Accounts
+## Assign email scenarios to email accounts
 
 Email scenarios are processes that involve sending a document. For example, a sales or purchase order or a notification, such as an invitation to an external accountant. Specific email accounts can be used for specific scenarios. For example, you can specify that all users always send sales documents from one account, purchase documents from another, and warehouse or production documents from a third account. You can assign, reassign, and remove scenarios whenever you want. A scenario can only be assigned to one email account at a time. The default email account will be used for all scenarios that aren't assigned to an account.
 
-On the **Email Scenario Assignment** page, you can choose the **Set Defrault Attachments** action to add attachments to email scenarios. The attachments will always be available when you compose an email for a document related to the scenario. Each email scenario can have one or more default attachments. Default attachments are automatically added to emails for the email scenario. For example, when you send a sales order by email, the default attachment specified for the Sales Order scenario will be added. Default attachments display in the **Attachments** section at the bottom of the **Compose an Email** page. You can manually add non-default attachments to the email.
+On the **Email Scenario Assignment** page, you can choose the **Set Default Attachments** action to add attachments to email scenarios. The attachments will always be available when you compose an email for a document related to the scenario. Each email scenario can have one or more default attachments. Default attachments are automatically added to emails for the email scenario. For example, when you send a sales order by email, the default attachment specified for the Sales Order scenario will be added. Default attachments display in the **Attachments** section at the bottom of the **Compose an Email** page. You can manually add non-default attachments to the email.
 
 <!--
 ## To set up email
@@ -96,9 +96,9 @@ On the **Email Scenario Assignment** page, you can choose the **Set Defrault Att
 
 -->
 
-## Set Up View Policies
+## Set up view policies
 
-You can control the email messages that a user can see in the Email Outbox and Sent Emails pages.
+You can control the email messages that a user can access in the Email Outbox and Sent Emails pages.
 
 On the **User Email View Policies**, choose a user, and then choose one of the following options in the **Email View Policy** field:
 
@@ -108,9 +108,22 @@ On the **User Email View Policies**, choose a user, and then choose one of the f
 * **View if access to any related records** - The user can view email messages that were sent by other people if the user has access to at least one record that is related to the record that was sent. For example, User A sent a posted sales invoice to a customer. User B can see the email message if they have access to either the invoice or the customer.
 
 > [!NOTE]
->  If you leave the **User ID** field empty and then choose the Email View Policy action, the policy that you define applies to all users.
+> If you leave the **User ID** field empty and then choose the **Email View Policy** action, the view policy applies to all users.
 
-## Set Up Reusable Email Texts and Layouts
+## Specify how many messages an account can send per minute
+
+Some email providers (ISPs) limit the number of email messages an email account can send in one go, or within a certain amount of time, or both. Known as *email throttling*, the practice helps ISPs control traffic on their servers and prevent spam. If an email account exceeds the limit, the ISP might block the messages. To ensure that the number of messages that you send from [!INCLUDE [prod_short](includes/prod_short.md)] complies with your ISP's limit, specify the limit for each of your email accounts.
+
+The default limit for the Microsoft 365 and Current User account types is 30, which matches the limit set by Exchange Online.
+
+There are two ways to specify the limit:
+
+* When you use the Set Up Email assisted setup guide to create a new account, specify the limit in the **Rate limit per minute** field.
+* For existing email accounts, specify the limit in the **Email rate limit** field on the account.
+
+
+
+## Set up reusable email texts and layouts
 
 You can use reports to include key information from sales, purchase, and service documents in texts for emails. This procedure describes how to set up the **Sales - Invoice** report for posted sales invoices, but the process is similar for other reports.
 
@@ -130,7 +143,7 @@ You can use reports to include key information from sales, purchase, and service
 
 Now, when you choose, for example, the **Send** action on the **Posted Sales Invoice** page, the email body will contain the document information of report 1306 preceded by styled standard text according to the report layout that you selected in step 5.
 
-## Use a Substitute Sender Address on Outbound Email Messages
+## Use a substitute sender address on outbound email messages
 
 If you're using the SMTP Connector extension, you can use the **Send As** or **Send on Behalf** capabilities from Microsoft Exchange to change the sender address on outbound messages. [!INCLUDE[prod_short](includes/prod_short.md)] will use the SMTP account to authenticate to Exchange, but will either replace the sender address with the one you specify, or amend it with "on behalf of."
 
@@ -140,8 +153,8 @@ Alternatively, you can choose **Current User** to allow people to send messages 
 
 The following are examples of how Send As and Send on Behalf are used in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
- * You might want the purchase or sales orders that you send to vendors and customers to appear to come from a _noreply@yourcompanyname.com_ address.
- * When your workflow sends an approval request by email using the email address of the requestor.
+* You might want the purchase or sales orders that you send to vendors and customers to appear to come from a _noreply@yourcompanyname.com_ address.
+* When your workflow sends an approval request by email using the email address of the requestor.
 
 > [!Note]
 > You can only use one account to substitute sender addresses. That is, you cannot have one substitute address for purchasing processes, and another for sales processes.
@@ -165,23 +178,23 @@ The following are examples of how Send As and Send on Behalf are used in [!INCLU
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] will determine which address to display in the following order: <br><br> 1. The address specified in the **E-Mail** field on the **Approval User Setup** page for messages in a workflow. <br> 2. The address specified in the **Send As** field in the **SMTP Email Setup** page. <br> 3. The address specified in the **User ID** field in the **SMTP Email Setup** page. -->
 
-## Set Up Document Sending Profiles
+## Set up document sending profiles
 
 You can save time by setting up a preferred method of sending sales documents for each of your customers. You won't have to select a sending option, such as whether to send the document by email or as an electronic document, every time you send a document. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
 
-## Optional: Set Up Email Logging in Exchange Online
+## Optional: Set up email logging in Exchange Online
 
-Get more out of the communications between salespeople and your existing or potential customers. You can track email exchanges, and then turn them into actionable opportunities. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  
+Get more out of the communications between salespeople and your existing or potential customers. You can track email exchanges, and then turn them into actionable opportunities. Learn more at [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  
 <!--
 [!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
 Next, you connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  -->
 
-## Setting Up Email for Business Central On-Premises 
+## Setting up email for Business Central on-premises
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises can integrate with services that are based on Microsoft Azure. For example, you can use Cortana Intelligence for smarter cash flow forecasts, Power BI to visualize your business, and Exchange Online for sending email. Integration with these services is based on an app registration in Azure Active Directory. The app registration provides authentication and authorization services for communications. To use the email capabilities in [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you must register [!INCLUDE[prod_short](includes/prod_short.md)] as an app in the Azure portal, and then connect [!INCLUDE[prod_short](includes/prod_short.md)] to the app registration. The following sections describe how.
 
-### Create an App Registration for Business Central in Azure portal
+### Create an app registration for Business Central in Azure portal
 
 The steps to register [!INCLUDE[prod_short](includes/prod_short.md)] in Azure portal are described in [Register an application in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). The settings that are specific to the email capabilities are the delegated permissions that you grant to your app registration. The following table lists the minimum permissions.
 
@@ -204,16 +217,16 @@ If you're using the SMTP Connector and want to use OAuth 2.0 for authentication,
 
 When you create your app registration, note the following information. You'll need it to connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration.
  
-* Application (client) ID 
+* Application (client) ID
 * Redirect URI (optional)
 * Client secret
 
-For general guidelines for registering an app, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). 
+Learn more about general guidelines for registering an app at [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).
 
 > [!NOTE]
 If you have trouble using the SMTP protocol to send email after you connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration, it might be because SMTP AUTH is not enabled for your tenant. We recommend that you use the Microsoft 365 and Current User email connectors instead, because they use Microsoft Graph Mail APIs. However, if you must use SMTP protocol you can enable SMTP AUTH. For more information, see [Enable or disable authenticated client SMTP submission (SMTP AUTH) in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### Connect [!INCLUDE[prod_short](includes/prod_short.md)] to Your App Registration
+### Connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration
 
 After you register your application in Azure portal, in [!INCLUDE[prod_short](includes/prod_short.md)], use the **Email Application AAD Registration** assisted setup guide to connect [!INCLUDE[prod_short](includes/prod_short.md)] to it.
 

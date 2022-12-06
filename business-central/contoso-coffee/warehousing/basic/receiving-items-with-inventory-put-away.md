@@ -10,7 +10,7 @@ Using **Purchase Order 107000**, the Logistics team will receive goods from the 
 ## Prepare the Purchase Document
 When Purchasing is ready to hand the **Purchase Order** Document to the Logistics team, they must **Release** the Purchase order for these next steps.
 1. Release the Purchase  Order **107000**
-    1. Using the {**search**} icon, enter **Purchase Orders** and choose the related link.
+    1. Using the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders** and choose the related link.
     2. Locate Order 107000 and select it.
     3. Choose the **Release** action.
 
@@ -21,7 +21,7 @@ When Purchasing is ready to hand the **Purchase Order** Document to the Logistic
 When the Logistics team wants to prepare for the incoming goods, they will create an Inventory Put-Away and bring the Purchase Order Lines onto the Put-Away Document:
 
 1. Create the Inventory Put-Away
-    1. Using the {search} icon, enter **Inventory Put-Aways** and choose the related link.
+    1. Using the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Put-Aways** and choose the related link.
     2. Choose the **New** action.
     3. On the Inventory Put-Away page, press Enter to have an Inventory Put-Away number automatically selected.
     4. Change the **Location Code** to the **SILVER** location.

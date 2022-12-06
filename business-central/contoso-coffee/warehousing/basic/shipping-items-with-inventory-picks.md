@@ -51,5 +51,5 @@ After the Pick has been posted, the following will be true:
  - A **Posted Sales Shipment** will be created
  - The Sales Order will have the **Quantity Shipped** updated for the lines shipped
  - The Item **Inventory**  will be decreased by the chosen quantity
- - 
+
 ## See Also

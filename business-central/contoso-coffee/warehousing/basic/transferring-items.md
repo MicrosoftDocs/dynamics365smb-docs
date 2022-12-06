@@ -19,7 +19,7 @@ The Transfer Order document outlines which Locations are involved, as well as wh
 	4. Enter the **Transfer-To Code** as **YELLOW**.
 	5. Enter the **In-Transit Code** as **OWN. LOG**.
 2. Enter the Items as Lines
-	1. On a new line, enter  WRB-1000 as the **Item No**.
+	1. On a new line, enter **WRB-1000** as the **Item No.**.
 	1. Enter the **Quantity** as **10**.
 
 ### Release the Transfer Order

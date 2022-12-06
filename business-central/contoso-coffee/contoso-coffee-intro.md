@@ -47,7 +47,7 @@ The Contoso Coffee demo data currently supports the following manufacturing scen
 Read the steps for each scenario in the relevant article.  
 
 > [!IMPORTANT]
-> These walkthroughs require that the user experience is set to *Premium* in the **Company Information** page.
+> The Manufacturing walkthroughs require that the user experience is set to *Premium* in the **Company Information** page.
 
 ## Warehousing Scenarios
 
@@ -76,6 +76,8 @@ The Contoso Coffee demo data currently supports the following warehousing scenar
     5.	[Moving Items with Directed Pick & Put Away](warehousing/advanced/moving-items-with-directed-pick-put-away.md)
     6.	[Adjusting Items with Directed Pick & Put Away](warehousing/advanced/adjusting-items-with-directed-pick-put-away.md)
 
+> [!IMPORTANT]
+> After running the [Warehousing Setup](warehousing/contoso-coffee-warehousing-intro.md), you will need to add [Warehouse Employees](warehousing/adding-warehouse-employee.md).
 
 
 ## See also

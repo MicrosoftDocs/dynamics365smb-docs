@@ -17,15 +17,15 @@ The app provides three locations that are optimized for different scenarios:
 
 - **SILVER**  
 
-  This product is a bill of material (BOM) with a subassembly, **Routing**. Use it to demonstrate the standard production flow. It's set up with alternative routings that you can use to demonstrate various scenarios that involve subcontractors. The costing method is *Standard*.  
+  This Location uses a Basic configuration.  The Location requires Bins.  Logistic Operations use Inventory Put-Aways and Picks. 
 
 - **YELLOW**  
 
-  This product requires item tracking and has a component that also requires item tracking. The costing method is *Specific*.  
+  This Location uses the Simple Logistics configuation.  The Logistics Operations use Warehouse Documents for Put-Away, Picks, Shipments and Receipts.
 
 - **WHITE**  
 
-  This product is a BOM with a subassembly, **Routing**. We recommend it to demonstrate the various flushing methods both for components and operations. The costing method is *Standard*.
+  This Location uses the Advanced Logistics configuation.  The Logistics Operations use Warehouse Documents for Put-Away, Picks, Shipments and Receipts.  Additionally, with Direct Pick and Put-Away enabled, more advanced rules apply to how items move throughout Warehouse Operations.
 
 > [!IMPORTANT]
 > Before you run any of the scenarios for Contoso Coffee, post any item journal lines with opening balances. For more requirements, see the [Set up Contoso Coffee data](#set-up-contoso-coffee-warehousing-data) section.
@@ -53,6 +53,9 @@ Once the relevant apps are installed, go to the [Contoso Coffee Whse Demo Data](
 |**Rounding Precision**  |Defines how calculated consumption quantities are rounded when entered on consumption journal lines. Quantities less than 0.5 will be rounded down. Quantities equal to or greater than 0.5 will be rounded up.|
 
 Once you're ready, choose the **Create Demo Data** action. It takes a few minutes to add the data to the underlying database, but then you're ready to run the various scenarios.  
+
+> [!IMPORTANT]
+> If you are running the Scenarios, you may want to verify that your user has been added as a [Warehouse Employees](warehousing/adding-warehouse-employee.md).
 
 ## Scenarios
 

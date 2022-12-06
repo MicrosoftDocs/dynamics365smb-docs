@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877, 
-ms.date: 07/08/2022
+ms.date: 12/01/2022
 ms.author: bholtorf
 
 ---
@@ -230,6 +230,11 @@ To correctly calculate VAT on sales to EU countries/regions, you should:
 * Assign the VAT business posting groups in the **VAT Bus. Posting Group** field on the **Invoicing** FastTab of the customer card of each EU customer. You should also enter the customer's VAT registration number in the **VAT Registration No.** field on the **Foreign Trade** FastTab.  
 
 When you post a sale to a customer in another EU country/region, the VAT amount is calculated, and a VAT entry is created by using the information about the reverse charge VAT and the VAT base, which is the amount that is used to calculate the VAT amount. No entries are posted to the VAT accounts in the general ledger.
+
+If you want to use combination of VAT business posting group and VAT product posting group for reporting as services in the periodic VAT reports, mark the **EU Service** field.
+
+> [!NOTE]  
+> The **EU Service** field is only applicable for VAT reports. The field isn't related to the **Service Declaration** or **Intrastat for Services** features.
 
 ## VAT rounding for documents
 

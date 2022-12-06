@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: local, 1099
 ms.search.form: 10015, 10016, 10018, 10900, 315, 466, 467, 468, 469
-ms.date: 06/20/2022
+ms.date: 12/01/2022
 ms.author: edupont
 
 ---
@@ -17,7 +17,17 @@ ms.author: edupont
 The Internal Revenue Service (IRS) periodically issues updates to the format used in the 1099 Form Box. This article lists changes to the codes and requirements in the IRS 1099 forms.
 
 > [!IMPORTANT]
-> Running the [**Update Form Boxes** action](set-up-use-irs1099-form.md#setup) makes reporting for the previous years impossible, since some boxes change their meaning. Make sure that you have done all your reporting for the previous year before you update the form boxes to prepare your system for reporting for the new year.
+> Running the [**Update Form Boxes**](set-up-use-irs1099-form.md#setup) action will prevent you from reporting for previous years because some boxes change their meaning. Make sure you've done all your reporting for the previous year before you update the form boxes to prepare for reporting for the new year.
+
+## Regulatory 1099 Format Changes November 2022
+
+1099 changes for 2022 provide an upgrade for the MISC and DIV boxes.
+
+* Some of the boxes will be shifted in all 1099 reports.
+* A calendar year is added in the top right corner in printouts.
+* For the MISC report, the position of the FATCA mark is different. There are no changes in the sequence of text elements for the Magnetic Media.
+
+The additions are relevant for the reporting year 2022. Before you prepare your reporting for 2021, you must first upgrade your [!INCLUDE[prod_short](../../includes/prod_short.md)] to handle the new requirements.
 
 ## Regulatory 1099 Format Changes December 2021
 

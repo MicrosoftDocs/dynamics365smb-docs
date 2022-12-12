@@ -1872,7 +1872,6 @@
 #### [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)  
 #### [Design Details: Planning Parameters](design-details-planning-parameters.md)  
 #### [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)  
-#### [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md)  
 #### [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)
 ### Design Details: Inventory Costing
 #### [Costing Overview](design-details-inventory-costing.md)

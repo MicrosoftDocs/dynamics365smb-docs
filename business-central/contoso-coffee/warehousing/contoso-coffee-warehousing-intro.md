@@ -32,7 +32,7 @@ The app provides three locations that are optimized for different scenarios:
 
 ## Set up Contoso Coffee Warehousing data
 
-To use the Contoso Coffee Warehousing demo data, you must install two apps in the relevant company in [!INCLUDE [prod_short](../includes/prod_short.md)]:  
+To use the Contoso Coffee Warehousing demo data, you must install two apps in the relevant company in [!INCLUDE [prod_short](../../includes/prod_short.md)]:  
 
 - **Contoso Coffee Demo Dataset**  
 
@@ -41,9 +41,9 @@ To use the Contoso Coffee Warehousing demo data, you must install two apps in th
 
     This app adds country-specific content on top of the base application.
 
-Add the apps to an empty company in a paid subscription or as part of a trial. For example, create a new company with no sample data from the **Create New Company** assisted setup guide that you can open from the **Companies** list. Then add the apps from the [marketplace](../ui-extensions-install-uninstall.md#install) if they are not already listed in the **Extension Management** page.  
+Add the apps to an empty company in a paid subscription or as part of a trial. For example, create a new company with no sample data from the **Create New Company** assisted setup guide that you can open from the **Companies** list. Then add the apps from the [marketplace](../../ui-extensions-install-uninstall.md#install) if they are not already listed in the **Extension Management** page.  
 
-Once the relevant apps are installed, go to the [Contoso Coffee Whse Demo Data](https://businesscentral.dynamics.com/?page=4761) page in [!INCLUDE [prod_short](../includes/prod_short.md)], and change the default settings to suit your needs. The following tables describes the settings:  
+Once the relevant apps are installed, go to the [Contoso Coffee Whse Demo Data](https://businesscentral.dynamics.com/?page=4761) page in [!INCLUDE [prod_short](../../includes/prod_short.md)], and change the default settings to suit your needs. The following tables describes the settings:  
 
 //TODO - Finish populating!
 |Field  |Description  |
@@ -80,9 +80,9 @@ The Contoso Coffee warehousing demo data currently supports the following scenar
         3.	[Receiving & Put-Away with Bin Capacity Limits](advanced/receiving-put-away-with-bin-capacity-limits.md)
     2.	[Warehouse Shipments](advanced/warehouse-shipments.md)
     3.	[Cross-Docking with Warehousing](advanced/cross-docking-with-warehousing.md)
-    4.	[Transferring Items](advanced/transferring-items.md)
-    5.	[Moving Items with Directed Pick & Put Away](advanced/moving-items-with-directed-pick-put-away.md)
-    6.	[Adjusting Items with Directed Pick & Put Away](advanced/adjusting-items-with-directed-pick-put-away.md)
+    4.	[Adjusting Items with Directed Pick & Put Away](advanced/adjusting-items-with-directed-pick-put-away.md)
+    5.	[Transferring Items](advanced/transferring-items.md)
+    6.	[Moving Items with Directed Pick & Put Away](advanced/moving-items-with-directed-pick-put-away.md)
 
 Read the steps for each scenario in the relevant article.  
 

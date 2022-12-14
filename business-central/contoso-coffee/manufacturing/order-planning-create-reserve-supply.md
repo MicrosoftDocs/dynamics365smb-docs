@@ -20,7 +20,7 @@ You are the production planner at Contoso Coffee. You created a production order
 
 1. Create the new released production order for 100 units of item **SP-SCM1009, Airpot**.
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Order**, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Order**, and then choose the related link.  
 
     2. Choose the **New** action, and then fill in the fields as described in the following table.  
 
@@ -57,9 +57,9 @@ You are the production planner at Contoso Coffee. You created a production order
 
     6. On the **Order Planning** page, confirm that the demand line for the 100 units of item 1001 is removed.
 
-That's it for order planning in [!INCLUDE [prod_short](../includes/prod_short.md)].  
+That's it for order planning in [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
 ## See also
 
-[Introduction to Contoso Coffee Demo Data](contoso-coffee-intro.md)  
-[About Production Orders](../production-about-production-orders.md)  
+[Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  
+[About Production Orders](../../production-about-production-orders.md)  

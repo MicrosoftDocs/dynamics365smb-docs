@@ -28,8 +28,8 @@ Bin Codes are mandatory in this configuration but note that some Pages may requi
 
 The Contoso Coffee demo data currently supports the following warehousing scenarios for test and training in the Basic configuration:
 
-1. [Receiving Items with Inventory Put-Away](warehousing/basic/receiving-items-with-inventory-put-away.md)
-2.	[Shipping Items with Inventory Picks](warehousing/basic/shipping-items-with-inventory-picks.md)
-3.	[Transferring Items](warehousing/basic/transferring-items.md)
-4.	[Moving Items Between Bins](warehousing/basic/moving-items-between-bins.md)
-5.	[Adjusting Items out of Inventory](warehousing/basic/adjusting-items-out-of-inventory.md)
+1. [Receiving Items with Inventory Put-Away](basic/receiving-items-with-inventory-put-away.md)
+2.	[Shipping Items with Inventory Picks](basic/shipping-items-with-inventory-picks.md)
+3.	[Transferring Items](basic/transferring-items.md)
+4.	[Moving Items Between Bins](basic/moving-items-between-bins.md)
+5.	[Adjusting Items out of Inventory](basic/adjusting-items-out-of-inventory.md)

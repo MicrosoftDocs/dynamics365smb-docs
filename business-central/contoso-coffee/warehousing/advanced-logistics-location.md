@@ -32,11 +32,11 @@ Adjustments must be made directly through Warehouse Item Journals, then a second
 ## Scenarios
 
 1. Receiving Scenarios
-    1.	[Receiving & Put-Away with Bin Defaults](warehousing/advanced/receiving-put-away-with-bin-defaults.md)
-    2.	[Receiving & Put-Away with Breakbulk](warehousing/advanced/receiving-put-away-with-breakbulk.md)
-    3.	[Receiving & Put-Away with Bin Capacity Limits](warehousing/advanced/receiving-put-away-with-bin-capacity-limits.md)
-2.	[Warehouse Shipments](warehousing/advanced/warehouse-shipments.md)
-3.	[Cross-Docking with Warehousing](warehousing/advanced/cross-docking-with-warehousing.md)
-4.	[Transferring Items](warehousing/advanced/transferring-items.md)
-5.	[Moving Items with Directed Pick & Put Away](warehousing/advanced/moving-items-with-directed-pick-put-away.md)
-6.	[Adjusting Items with Directed Pick & Put Away](warehousing/advanced/adjusting-items-with-directed-pick-put-away.md)
+    1.	[Receiving & Put-Away with Bin Defaults](advanced/receiving-put-away-with-bin-defaults.md)
+    2.	[Receiving & Put-Away with Breakbulk](advanced/receiving-put-away-with-breakbulk.md)
+    3.	[Receiving & Put-Away with Bin Capacity Limits](advanced/receiving-put-away-with-bin-capacity-limits.md)
+2.	[Warehouse Shipments](advanced/warehouse-shipments.md)
+3.	[Cross-Docking with Warehousing](advanced/cross-docking-with-warehousing.md)
+4.	[Adjusting Items with Directed Pick & Put Away](advanced/adjusting-items-with-directed-pick-put-away.md)
+5.	[Transferring Items](advanced/transferring-items.md)
+6.	[Moving Items with Directed Pick & Put Away](advanced/moving-items-with-directed-pick-put-away.md)

@@ -47,9 +47,9 @@ To use the Contoso Coffee Manufacturing demo data, you must install two apps in 
 
     This app adds country-specific content on top of the base application.
 
-Add the apps to an empty company in a paid subscription or as part of a trial. For example, create a new company with no sample data from the **Create New Company** assisted setup guide that you can open from the **Companies** list. Then add the apps from the [marketplace](../ui-extensions-install-uninstall.md#install) if they are not already listed in the **Extension Management** page.  
+Add the apps to an empty company in a paid subscription or as part of a trial. For example, create a new company with no sample data from the **Create New Company** assisted setup guide that you can open from the **Companies** list. Then add the apps from the [marketplace](../../ui-extensions-install-uninstall.md#install) if they are not already listed in the **Extension Management** page.  
 
-Once the relevant apps are installed, go to the [Contoso Coffee Demo Data](https://businesscentral.dynamics.com/?page=4760) page in [!INCLUDE [prod_short](../includes/prod_short.md)], and change the default settings to suit your needs. The following tables describes the settings:  
+Once the relevant apps are installed, go to the [Contoso Coffee Demo Data](https://businesscentral.dynamics.com/?page=4760) page in [!INCLUDE [prod_short](../../includes/prod_short.md)], and change the default settings to suit your needs. The following tables describes the settings:  
 
 |Field  |Description  |
 |---------|---------|
@@ -87,5 +87,5 @@ Read the steps for each scenario in the relevant article.
 
 ## See also
 
-[Manufacturing](../production-manage-manufacturing.md)  
-[Production Reports and Analytics in Business Central](../production-reports.md)  
+[Manufacturing](../../production-manage-manufacturing.md)  
+[Production Reports and Analytics in Business Central](../../production-reports.md)  

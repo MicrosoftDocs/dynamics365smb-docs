@@ -29,8 +29,8 @@ Adjustments can be made directly through Item Journals, which will create the It
 
 ## Scenarios
 
-1.	[Receiving a Single Order with Whse. Receipt](warehousing/simple/receiving-a-single-order-with-whse-receipt.md)
-2.	[Combining Orders on a Whse. Receipt](warehousing/simple/combining-orders-on-a-whse-receipt.md)
-3.	[Shipping a Single Order with Whse. Shipment](warehousing/simple/shipping-a-single-order-with-whse-shipment.md)
-4.	[Combining Orders on a Whse. Shipment](warehousing/simple/combining-orders-on-a-whse-shipment.md)
-5.	[Transferring Items](warehousing/simple/transferring-items.md)
+1.	[Receiving a Single Order with Whse. Receipt](simple/receiving-a-single-order-with-whse-receipt.md)
+2.	[Combining Orders on a Whse. Receipt](simple/combining-orders-on-a-whse-receipt.md)
+3.	[Shipping a Single Order with Whse. Shipment](simple/shipping-a-single-order-with-whse-shipment.md)
+4.	[Combining Orders on a Whse. Shipment](simple/combining-orders-on-a-whse-shipment.md)
+5.	[Transferring Items](simple/transferring-items.md)

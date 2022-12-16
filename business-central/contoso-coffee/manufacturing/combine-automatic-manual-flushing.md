@@ -35,7 +35,7 @@ You are the production planner at Contoso Coffee. You must create a new producti
 
 3. Review the item and capacity ledger entries for the production order.
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Order**, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Order**, and then choose the related link.  
 
     2. Open the production order with the 5 units of the AutoDrip coffee machine.  
 

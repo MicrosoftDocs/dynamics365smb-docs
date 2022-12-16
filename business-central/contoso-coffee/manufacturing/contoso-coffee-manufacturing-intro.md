@@ -38,7 +38,7 @@ The manufacturing activities for all scenarios use the *NORTH* location.
 
 ## Set up Contoso Coffee Manufacturing data
 
-To use the Contoso Coffee Manufacturing demo data, you must install two apps in the relevant company in [!INCLUDE [prod_short](../includes/prod_short.md)]:  
+To use the Contoso Coffee Manufacturing demo data, you must install two apps in the relevant company in [!INCLUDE [prod_short](../../includes/prod_short.md)]:  
 
 - **Contoso Coffee Demo Dataset**  
 

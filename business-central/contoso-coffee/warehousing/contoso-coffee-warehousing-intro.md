@@ -45,10 +45,27 @@ Add the apps to an empty company in a paid subscription or as part of a trial. F
 
 Once the relevant apps are installed, go to the [Contoso Coffee Whse Demo Data](https://businesscentral.dynamics.com/?page=4761) page in [!INCLUDE [prod_short](../../includes/prod_short.md)], and change the default settings to suit your needs. The following tables describes the settings:  
 
-//TODO - Finish populating!
 |Field  |Description  |
 |---------|---------|
 |**Starting Year** |Specifies the first year that you you want to use for the Contoso Coffee demonstration data. Depending on the company setup, the year is either a calendar year or a fiscal year.|
+|**Location Basic**  |The location to use for the basic Location scenarios.|
+|**Location Simple Logistics**  |The location to use for the simple logistics scenarios.|
+|**Location Advanced Logistics**  |The location to use for the advanced logistics scenarios.|
+|**Location In-Transit**  |The location to use for the in-transit location in transfer scenarios.|
+|**Small Customer No.**  |The customer to use for the basic and simple scenarios in sales operations.|
+|**Large Customer No.**  |The customer to use for the advanced scenarios in sales operations.|
+|**Vendor No.**  |The vendor to use for all scenarios in purchasing operations.|
+|**Main Item No.**  |The item to use for the basic and simple scenarios, as well as some advanced scenarios.|
+|**Complex Item No.**  |The item to use for advanced scenarios with unit of measure conversions.|
+|**CrossDock Item No.**  |The item to use for the cross-dock scenarios.|
+|**Customer Posting Group**|Specifies a business code for domestic customers. The business codes are used when transactions are posted. |
+|**Customer General Business Posting Group**|Specifies a business code for domestic customers. The business codes are used when transactions are posted. |
+|**Vendor Posting Group**|Specifies a business code for domestic customers and vendors. The business codes are used when transactions are posted. |
+|**Vendor General Business Posting Group**|Specifies a business code for domestic customers and vendors. The business codes are used when transactions are posted. |
+|**Domestic - General Business Posting Group**|Specifies a business code for domestic customers and vendors. The business codes are used when transactions are posted. |
+|**Resale - Inventory Posting Group**    |Specifies a code for items that must be used for posting resale.|
+|**Retail - General Product Posting Group**    |Specifies a code for items that must be used for posting retail.|
+|**VAT Product Posting Group**    |Specifies a VAT product code for items for posting VAT if VAT is enabled..|
 |**Price Factor**     |Specifies a factor to convert a price from USD/EUR to the local currency. *1* means that the price is the same amount in any currency. A higher number will be used to get the price in the local currency. |
 |**Rounding Precision**  |Defines how calculated consumption quantities are rounded when entered on consumption journal lines. Quantities less than 0.5 will be rounded down. Quantities equal to or greater than 0.5 will be rounded up.|
 

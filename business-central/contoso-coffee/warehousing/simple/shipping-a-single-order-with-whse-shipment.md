@@ -56,7 +56,6 @@ After the warehouse pick is registered, the warehouse shipment will be updated w
 3. Confirm the **Ship** option.
 
 ## Results
-
 - a posted warehouse pick will be created    
 - a posted warehouse shipment will be created    
 - a posted sales shipment will be created    

@@ -41,8 +41,6 @@ When the Logistics team is ready to receive the items, the inventory put-away sh
 2. Choose the **Post** action.
 
 ## Results 
-After the put-away has been posted, the following will be true:
-
  - a **Posted Invt. Put-Away** will be created
  - a **Purchase Receipt Receipt** will be created
  - the purchase order will have the **Quantity Received** updated for the lines received

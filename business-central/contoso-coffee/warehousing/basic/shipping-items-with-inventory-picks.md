@@ -45,8 +45,6 @@ When the Logistics team is ready to ship the items, the inventory pick should be
 3. Confirm the **Ship** option.
 
 ## Results
-After the pick has been posted, the following will be true:
-
  - a **Posted Invt. Pick** will be created
  - a **Posted Sales Shipment** will be created
  - the sales order will have the **Quantity Shipped** updated for the lines shipped

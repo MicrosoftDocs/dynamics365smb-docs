@@ -68,11 +68,10 @@ After the warehouse pick is registered, the warehouse shipment will be updated w
 2. Choose the **Post** action.
 
 ## Results
-
 - a posted warehouse pick will be created    
 - a posted warehouse shipment will be created    
 - the transfer order line will reflect the **Quantity Shipped** updated for the lines shipped    
-- the item **Inventory**  will be the same, as no quantity has left the company. To see the items in transit separately from the items in stock, use the **Item Availability by Location** action on the item card.
+- the item **Inventory**  will be the same, as no quantity has left the company. To see the items in transit separately from the items in stock, use the **Item Availability by Location** action on the item card
 
 ## See also
 [Transfer Inventory Between Locations](../../../inventory-how-transfer-between-locations.md)

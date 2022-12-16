@@ -115,7 +115,7 @@ After the warehouse pick is registered, the warehouse shipment will be updated w
 - the selected sales order will have the **Quantity Shipped** updated for the line shipped    
 - the item **Inventory**  will be increased by the quantity of the lines received, minus the quantity of the line shipped.    
 - the item will be placed in the **Default Bin** set, which will be visible via the **Bin Contents**
-- the bin contents will reflect the **PCS** value of the remaining portion (156) of the received BAG.  (Depending on the scenarios run, the quantity in the bin content may be greater than 156.)
+- the bin contents will reflect the **PCS** value of the remaining portion (156) of the received BAG (Depending on the scenarios run, the quantity in the bin content may be greater than 156)
 
 ## See Also
 [Receive Items](../../../warehouse-how-receive-items.md)

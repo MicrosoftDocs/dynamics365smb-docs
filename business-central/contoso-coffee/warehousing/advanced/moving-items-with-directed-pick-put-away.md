@@ -33,7 +33,7 @@ A warehouse movement will be created, and the warehouse journal line will be rem
 
 ## Results
 - A **Registered Warehouse Movement** will be added to the registered warehouse movement list
-- The item will still have the same **Inventory** level as the start, with the **Bin Contents** showing the 2 PCS in the **W-04-0003** bin.
+- The item will still have the same **Inventory** level as the start, with the **Bin Contents** showing the 2 PCS in the **W-04-0003** bin
 
 ## See also
 [Design Details: Warehouse Management](../../../design-details-warehouse-management.md)

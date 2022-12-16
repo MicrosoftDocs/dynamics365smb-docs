@@ -109,6 +109,15 @@ After the warehouse pick is registered, the warehouse shipment will be updated w
 2.  Choose the **Post** action.
 
 ## Results
+- a posted warehouse receipt will be created
+- a posted warehouse put-away will be created    
+- a posted purchase receipt will be created    
+- the purchase order will have the **Quantity Received** updated for the lines received
+- a posted warehouse pick will be created
+- a posted warehouse shipment will be created
+- a posted sales shipment will be created
+- the sales order will have the **Quantity Shipped** updated for the lines shipped
+- the item **Inventory** will be increased by any remainder not shipped out
 
 ## See Also
 [Ship Items](../../../warehouse-how-ship-items.md)

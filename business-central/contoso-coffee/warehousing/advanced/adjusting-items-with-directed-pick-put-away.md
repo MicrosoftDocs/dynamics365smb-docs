@@ -38,6 +38,8 @@ This process will complete the adjustment transaction, completing the quantity c
 5. Choose the **Post** action
 
 ## Results
+- warehouse entries for the item will be created, increasing the relevant **Bin Contents**
+- item ledger entries will be created, increasing the **Inventory** of the Item
 
 ## See also
 [Count, Adjust, and Reclassify Inventory Using Journals]: (../../../inventory-how-count-adjust-reclassify.md)

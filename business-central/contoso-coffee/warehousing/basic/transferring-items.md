@@ -60,7 +60,7 @@ When the Logistics team is ready to ship the items, the inventory pick should be
 - a **Posted Invt. Pick** will be created
 - a **Posted Transfer Shipment** will be created    
 - the transfer order line will reflect the **Quantity Shipped** updated for the lines shipped
-- the item **Inventory**  will be the same, as no quantity has left the company. To see the items in transit separately from the items in stock, use the **Item Availability by Location** action on the item card.
+- the item **Inventory**  will be the same, as no quantity has left the company. To see the items in transit separately from the items in stock, use the **Item Availability by Location** action on the item card
 
 ## See Also
 [Transfer Inventory Between Locations](../../../inventory-how-transfer-between-locations.md)

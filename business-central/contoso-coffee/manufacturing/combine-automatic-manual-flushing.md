@@ -107,4 +107,4 @@ That's it for manual and automatic flushing of components.
 ## See also
 
 [Flush Components According to Operation Output](../../production-how-to-flush-components-according-to-operation-output.md)  
-[Introduction to Contoso Coffee Demo Data](contoso-coffee-intro.md)  
+[Introduction to Contoso Coffee Demo Data](contoso-coffee-manufacturing-intro.md)  

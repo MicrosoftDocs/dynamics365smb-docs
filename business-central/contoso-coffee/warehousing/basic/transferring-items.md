@@ -63,3 +63,6 @@ When the Logistics team is ready to ship the items, the inventory pick should be
 - the item **Inventory**  will be the same, as no quantity has left the company. To see the items in transit separately from the items in stock, use the **Item Availability by Location** action on the item card.
 
 ## See Also
+[Transfer Inventory Between Locations](../../../inventory-how-transfer-between-locations.md)
+[Move Items Ad Hoc in Basic Warehouse Configurations](../../../warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
+[View the Availability of Items](../../../inventory-how-availability-overview.md)

@@ -70,5 +70,8 @@ This is because the default bin cannot contain the full receipt quantity. If you
 - the **Bin Contents** for the item will reflect the new **PALLET** lines in the bins selected
 
 ## See Also
-
-
+[Receive Items](../../../warehouse-how-receive-items.md)
+[Create Bin Contents](../../../warehouse-how-to-set-up-bin-contents.md)
+[Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](../../../walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+[Design Details: Inbound Warehouse Flow](../../../design-details-inbound-warehouse-flow.md)
+[View the Availability of Items](../../../inventory-how-availability-overview.md)

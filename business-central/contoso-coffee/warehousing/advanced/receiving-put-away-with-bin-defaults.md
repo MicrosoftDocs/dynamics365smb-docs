@@ -73,3 +73,8 @@ Once the Logistics team has processed the incoming items however necessary, they
 - the item will be placed in the default bin set, which will be visible via the **Bin Contents** from the item card
 
 ## See Also
+[Receive Items](../../../warehouse-how-receive-items.md)
+[Assign Default Bins to Items](../../../warehouse-how-to-assign-default-bins-to-items.md)
+[Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](../../../walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+[Design Details: Inbound Warehouse Flow](../../../design-details-inbound-warehouse-flow.md)
+[View the Availability of Items](../../../inventory-how-availability-overview.md)

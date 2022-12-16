@@ -49,5 +49,6 @@ After the put-away has been posted, the following will be true:
  - the item **Inventory** will be increased by the chosen quantity
 
 ## See Also
-[Put-Away Items with Inventory Put-Aways](https://learn.microsoft.com/en-us/dynamics365/business-central/warehouse-how-to-put-items-away-with-inventory-put-aways)
-[Receive Items](https://learn.microsoft.com/en-us/dynamics365/business-central/warehouse-how-receive-items)
+[Put-Away Items with Inventory Put-Aways](../../../warehouse-how-to-put-items-away-with-inventory-put-aways.md)
+[Receive Items](../../../warehouse-how-receive-items.md)
+[Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](../../../walkthrough-receiving-and-putting-away-in-basic-warehousing.md)

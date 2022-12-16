@@ -36,3 +36,7 @@ A warehouse movement will be created, and the warehouse journal line will be rem
 - The item will still have the same **Inventory** level as the start, with the **Bin Contents** showing the 2 PCS in the **W-04-0003** bin.
 
 ## See also
+[Design Details: Warehouse Management](../../../design-details-warehouse-management.md)
+[Design Details: Internal Warehouse Flows](../../../design-details-internal-warehouse-flows.md)
+[Move Items in Advanced Warehouse Configurations](../../../warehouse-how-to-move-items-in-advanced-warehousing.md)
+[View the Availability of Items](../../../inventory-how-availability-overview.md)

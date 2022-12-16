@@ -34,3 +34,7 @@ Adjustments can be made directly through Item Journals, which will create the It
 3.	[Shipping a Single Order with Whse. Shipment](simple/shipping-a-single-order-with-whse-shipment.md)
 4.	[Combining Orders on a Whse. Shipment](simple/combining-orders-on-a-whse-shipment.md)
 5.	[Transferring Items](simple/transferring-items.md)
+
+## See also
+[Setting Up Inventory](../../inventory-setup-inventory)
+[How to Setup Locations](../../inventory-how-setup-locations.md)

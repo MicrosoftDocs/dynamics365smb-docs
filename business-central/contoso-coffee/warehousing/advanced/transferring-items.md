@@ -76,3 +76,6 @@ After the warehouse pick is registered, the warehouse shipment will be updated w
 - the item inventory will be the same, for no quantity has left the company. To see the items in-transit separately from the items in stock, use the **Item Availability by Location** action on the item card.
 
 ## See Also
+[Transfer Inventory Between Locations](../../../inventory-how-transfer-between-locations.md)
+[Move Items Ad Hoc in Basic Warehouse Configurations](../../../warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
+[View the Availability of Items](../../../inventory-how-availability-overview.md)

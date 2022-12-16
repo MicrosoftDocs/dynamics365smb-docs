@@ -86,7 +86,9 @@ The Contoso Coffee warehousing demo data currently supports the following scenar
 
 Read the steps for each scenario in the relevant article.  
 
-
 ## See also
 
+[Setting Up Inventory](../../inventory-setup-inventory)
+[How to Setup Locations](../../inventory-how-setup-locations.md)
 [Warehousing](../../warehouse-manage-warehouse.md)
+[Design Details](../../design-details-warehouse-overview.md)

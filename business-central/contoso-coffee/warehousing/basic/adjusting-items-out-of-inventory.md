@@ -25,3 +25,4 @@ The Logistics team has been told to add 20 bags of coffee to the inventory. They
  - The item **Inventory** will be increased by the chosen quantity, which will also be clear in the **Item Availability by Location** and **Bin Contents** actions from the item card.
 
 ## See Also
+[Count, Adjust, and Reclassify Inventory Using Journals]: (../../../inventory-how-count-adjust-reclassify.md)

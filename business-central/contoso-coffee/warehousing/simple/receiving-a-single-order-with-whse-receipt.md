@@ -60,3 +60,6 @@ Once the Logistics team has processed the incoming items, however necessary, the
 - the item **Inventory**  will be increased by the chosen quantity
 
 ## See Also
+[Receive Items](../../../warehouse-how-receive-items.md)
+[Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](../../../walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
+[View the Availability of Items](../../../inventory-how-availability-overview.md)

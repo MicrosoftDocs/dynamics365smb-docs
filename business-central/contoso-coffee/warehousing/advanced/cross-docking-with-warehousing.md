@@ -111,3 +111,6 @@ After the warehouse pick is registered, the warehouse shipment will be updated w
 ## Results
 
 ## See Also
+[Ship Items](../../../warehouse-how-ship-items.md)
+[Design Details: Outbound Warehouse Flow](../../../design-details-outbound-warehouse-flow.md)
+[View the Availability of Items](../../../inventory-how-availability-overview.md)

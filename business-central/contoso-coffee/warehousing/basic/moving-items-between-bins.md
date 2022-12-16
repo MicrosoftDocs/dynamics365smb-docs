@@ -46,3 +46,5 @@ This will create a new **Inventory Movement**.
 > Because this is a logistics operation that does not have any direct financial impact, this is called register rather than post.
 
 ## See Also
+[Set Up Locations to Use Bins](../../../warehouse-how-to-set-up-locations-to-use-bins.md)
+[Move Items Ad Hoc in Basic Warehouse Configurations](../../../warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)

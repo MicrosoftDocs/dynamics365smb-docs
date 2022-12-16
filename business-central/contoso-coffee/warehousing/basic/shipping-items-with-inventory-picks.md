@@ -53,3 +53,6 @@ After the pick has been posted, the following will be true:
  - the item **Inventory**  will be decreased by the chosen quantity
 
 ## See Also
+[Pick Items with Inventory Picks](../../../warehouse-how-to-pick-items-with-inventory-picks.md)
+[Ship Items](../../../warehouse-how-ship-items.md)
+[View the Availability of Items](../../../inventory-how-availability-overview.md)

@@ -66,3 +66,7 @@ After the warehouse pick is registered, the warehouse shipment will be updated w
 - the item **Inventory** will be decreased by the chosen quantity
 
 ## See also
+[Ship Items](../../../warehouse-how-ship-items.md)
+[Design Details: Outbound Warehouse Flow](../../../design-details-outbound-warehouse-flow.md)
+[View the Availability of Items](../../../inventory-how-availability-overview.md)
+

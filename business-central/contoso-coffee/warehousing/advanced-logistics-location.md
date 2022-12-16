@@ -40,3 +40,8 @@ Adjustments must be made directly through Warehouse Item Journals, then a second
 4.	[Adjusting Items with Directed Pick & Put Away](advanced/adjusting-items-with-directed-pick-put-away.md)
 5.	[Transferring Items](advanced/transferring-items.md)
 6.	[Moving Items with Directed Pick & Put Away](advanced/moving-items-with-directed-pick-put-away.md)
+
+## See also
+[How to Setup Locations](../../inventory-how-setup-locations.md)
+[Warehousing](../../warehouse-manage-warehouse.md)
+[Design Details](../../design-details-warehouse-overview.md)

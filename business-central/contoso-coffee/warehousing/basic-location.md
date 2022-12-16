@@ -33,3 +33,8 @@ The Contoso Coffee demo data currently supports the following warehousing scenar
 3.	[Transferring Items](basic/transferring-items.md)
 4.	[Moving Items Between Bins](basic/moving-items-between-bins.md)
 5.	[Adjusting Items out of Inventory](basic/adjusting-items-out-of-inventory.md)
+
+## See also
+
+[Setting Up Inventory](../../inventory-setup-inventory)
+[How to Setup Locations](../../inventory-how-setup-locations.md)

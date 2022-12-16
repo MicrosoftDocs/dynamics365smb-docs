@@ -116,3 +116,10 @@ After the warehouse pick is registered, the warehouse shipment will be updated w
 - the item **Inventory**  will be increased by the quantity of the lines received, minus the quantity of the line shipped.    
 - the item will be placed in the **Default Bin** set, which will be visible via the **Bin Contents**
 - the bin contents will reflect the **PCS** value of the remaining portion (156) of the received BAG.  (Depending on the scenarios run, the quantity in the bin content may be greater than 156.)
+
+## See Also
+[Receive Items](../../../warehouse-how-receive-items.md)
+[Enable Automatic Breaking Bulk with Directed Put-away and Pick](../../../warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
+[Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](../../../walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+[Design Details: Inbound Warehouse Flow](../../../design-details-inbound-warehouse-flow.md)
+[View the Availability of Items](../../../inventory-how-availability-overview.md)

@@ -23,7 +23,7 @@ In this scenario, the Logistics team is creating a warehouse receipt for multipl
 	3. On the warehouse receipt page, press Enter to have a warehouse receipt number automatically selected
 	4. Enter the **Location Code** as **YELLOW**.
 2. Select the source document
-	1. Choose the **Get Source Documents…** action
+	1. Choose the **Get Source Documents...** action
 	2. Using multiple selection mode, select Purchase Orders 107002, 107003, 107004, and 107005 from the list and choose the **OK** button.
 	3. The lines will contain a new entry for each purchase order line.
 ### Post the Warehouse Receipt
@@ -53,3 +53,5 @@ Once the Logistics team has processed the incoming items, they need to make the 
 -   the item **Inventory**  will be increased by the total quantity of all lines received
 
 ## See Also
+[Receive Items](../../../warehouse-how-receive-items.md)
+[View the Availability of Items](../../../inventory-how-availability-overview.md)

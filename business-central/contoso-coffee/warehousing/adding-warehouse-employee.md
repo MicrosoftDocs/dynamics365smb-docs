@@ -16,5 +16,4 @@ For each Location a User should have access to, they must have a record in the W
     |ADMIN|WHITE|Disabled|
 
 ## See Also
-
 [Set Up Warehouse Employees](../../warehouse-how-to-set-up-warehouse-employees.md)

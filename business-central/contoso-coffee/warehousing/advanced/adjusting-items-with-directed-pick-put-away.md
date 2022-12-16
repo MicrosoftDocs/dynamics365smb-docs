@@ -40,3 +40,4 @@ This process will complete the adjustment transaction, completing the quantity c
 ## Results
 
 ## See also
+[Count, Adjust, and Reclassify Inventory Using Journals]: (../../../inventory-how-count-adjust-reclassify.md)

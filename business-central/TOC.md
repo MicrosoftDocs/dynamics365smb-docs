@@ -51,11 +51,11 @@
 ##### [Advanced Logistics Location](contoso-coffee/warehousing/advanced-logistics-location.md)
 ###### Receiving Scenarios
 ####### [Receiving & Put-Away with Bin Defaults](contoso-coffee/warehousing/advanced/receiving-put-away-with-bin-defaults.md)
-####### [Receiving & Put-Away with Breakbulk](wcontoso-coffee/arehousing/advanced/receiving-put-away-with-breakbulk.md)
+####### [Receiving & Put-Away with Breakbulk](contoso-coffee/warehousing/advanced/receiving-put-away-with-breakbulk.md)
 ####### [Receiving & Put-Away with Bin Capacity Limits](contoso-coffee/warehousing/advanced/receiving-put-away-with-bin-capacity-limits.md)
 ####### [Warehouse Shipments](contoso-coffee/warehousing/advanced/warehouse-shipments.md)
 ####### [Cross-Docking with Warehousing](contoso-coffee/warehousing/advanced/cross-docking-with-warehousing.md)
-####### [Transferring Items](wcontoso-coffee/arehousing/advanced/transferring-items.md)
+####### [Transferring Items](contoso-coffee/warehousing/advanced/transferring-items.md)
 ####### [Moving Items with Directed Pick & Put Away](contoso-coffee/warehousing/advanced/moving-items-with-directed-pick-put-away.md)
 ####### [Adjusting Items with Directed Pick & Put Away](contoso-coffee/warehousing/advanced/adjusting-items-with-directed-pick-put-away.md)
 

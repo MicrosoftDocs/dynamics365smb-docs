@@ -58,4 +58,4 @@ If the capability is switched on, users can't post an entry if the variant isn't
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Set Up General Inventory Information](inventory-how-setup-general.md)  
-[Walkthrough: Variants](contoso-coffee/variants.md)  
+[Walkthrough: Variants](contoso-coffee/manufacturing/variants.md)  

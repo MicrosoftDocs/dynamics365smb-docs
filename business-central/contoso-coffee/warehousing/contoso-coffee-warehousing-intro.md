@@ -72,7 +72,7 @@ Once the relevant apps are installed, go to the [Contoso Coffee Whse Demo Data](
 Once you're ready, choose the **Create Demo Data** action. It takes a few minutes to add the data to the underlying database, but then you're ready to run the various scenarios.  
 
 > [!IMPORTANT]
-> If you are running the Scenarios, you may want to verify that your user has been added as a [Warehouse Employees](warehousing/adding-warehouse-employee.md).
+> If you are running the Scenarios, you may want to verify that your user has been added as a [Warehouse Employees](adding-warehouse-employee.md).
 
 ## Scenarios
 
@@ -105,7 +105,7 @@ Read the steps for each scenario in the relevant article.
 
 ## See also
 
-[Setting Up Inventory](../../inventory-setup-inventory)
+[Setting Up Inventory](../../inventory-setup-inventory.md)
 [How to Setup Locations](../../inventory-how-setup-locations.md)
 [Warehousing](../../warehouse-manage-warehouse.md)
 [Design Details](../../design-details-warehouse-overview.md)

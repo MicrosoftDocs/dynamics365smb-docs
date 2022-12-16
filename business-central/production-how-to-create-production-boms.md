@@ -97,7 +97,7 @@ A production BOM requires 70 metal parts with the dimensions length = 0.20 m and
 
 [Create Routings](production-how-to-create-routings.md)  
 [Manage Product Variants](inventory-item-variants.md)  
-[Walkthrough: Variants](contoso-coffee/variants.md)  
+[Walkthrough: Variants](contoso-coffee/manufacturing/variants.md)  
 [Setting Up Manufacturing](production-configure-production-processes.md)  
 [Manufacturing](production-manage-manufacturing.md)  
 [Planning](production-planning.md)  

@@ -20,6 +20,7 @@ The Logistics team needs to relocate 2 PCS of item WRB-1001 from one bin to anot
     | From Bin Code | W-04-0001 |
     | To Bin Code | W-04-0003 |
     | Quantity | 2 |
+    
     2.  Choose the **Create Movement** action and confirm to create the document.
     
 A warehouse movement will be created, and the warehouse journal line will be removed.

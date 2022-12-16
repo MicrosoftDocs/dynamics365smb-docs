@@ -36,5 +36,5 @@ Adjustments can be made directly through Item Journals, which will create the It
 5.	[Transferring Items](simple/transferring-items.md)
 
 ## See also
-[Setting Up Inventory](../../inventory-setup-inventory)
+[Setting Up Inventory](../../inventory-setup-inventory.md)
 [How to Setup Locations](../../inventory-how-setup-locations.md)

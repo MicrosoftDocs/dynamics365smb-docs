@@ -52,6 +52,10 @@ The complete setup requires you work in both Microsoft Azure, using the [Azure p
 
 - [!INCLUDE[prod_short](includes/prod_short.md)] on-premises:
   - Azure Active Directory (AD) or NavUserPassword authentication is configured.
+  
+    > [!NOTE]
+    >  Universal Print extension doesn't support service-to-service (S2S) authentication. It requires a signed-in user to send print jobs to the Universal Print service through Graph API.
+  
   - An application for Business Central is registered in your Azure AD tenant and [!INCLUDE[prod_short](includes/prod_short.md)].
 
       Like other Azure services that work with [!INCLUDE[prod_short](includes/prod_short.md)], Universal Print requires an app registration for [!INCLUDE[prod_short](includes/prod_short.md)] in Azure AD. The app registration provides authentication and authorization services between [!INCLUDE[prod_short](includes/prod_short.md)] and Universal Print.

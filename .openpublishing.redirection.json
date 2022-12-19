@@ -801,6 +801,11 @@
             "source_path": "business-central/across-process-income-documents.md",
             "redirect_url": "/dynamics365/business-central/across-how-create-income-document-records",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/design-details-demand-at-blank-location.md",
+            "redirect_url": "/dynamics365/business-central/production-planning-with-without-locations",
+            "redirect_document_id": false
         }
 
     ]

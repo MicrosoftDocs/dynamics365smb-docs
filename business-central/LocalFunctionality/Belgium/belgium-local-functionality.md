@@ -27,7 +27,7 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md) **Available Now**
     * [Set Up Declaration Types](how-to-set-up-declaration-types.md) **Available Now**
     * [Export Intrastat Third-Party Declarations](how-to-export-intrastat-third-party-declararations.md) **Available Now**
-    * Service Declarations F01DGS and F02CMS **2022 release wave 2**
+    * [Service Declarations F01DGS](../../finance-how-setup-use-service-declaration.md) **Available Now**
 
 * Banking & Payments
     * [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md) **Available Now**

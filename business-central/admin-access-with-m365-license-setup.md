@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 11/03/2022
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.search.forms: 9061
+ms.search.form: 9061
 ---
 # Set Up Business Central Access in Teams with Microsoft 365 Licenses
 

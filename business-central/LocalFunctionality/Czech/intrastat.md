@@ -11,8 +11,6 @@ ms.author: v-makune
 ---
 # Intrastat in the Czech Version
 
-[!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
-
 The standard Intrastat feature does not transfer all and only valid transactions into Intrastat journal. This results into a lot of manual work necessary to exclude/include the excess/missing transactions, often rendering a lot of errors. According to the requirements of the Czech Republic, the following improvements are needed for the Intrastat feature:
 
 - Particular options in the Intrastat engine need to be parameterized

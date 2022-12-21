@@ -1,13 +1,14 @@
 ---
 title: Czech Local Functionality - Intrastat
-description: This section describes local functionality for Intrastat, Intrastat Engine Setup, Intrastat Tables and additional features.
-author: ACMartinKunes
-
-ms.topic: conceptual
-ms.search.keywords: Czech, Intrastat, Payables, Finance, CZ, Cash
-ms.date: 06/17/2021
-ms.reviewer: v-pejano
+description: This article describes local functionality for Intrastat, Intrastat Engine Setup, Intrastat Tables and additional features.
+author: ACMartinKunes 
 ms.author: v-makune
+ms.reviewer: v-pejano
+ms.service: dynamics365-business-central
+ms.topic: conceptual
+ms.date: 12/20/2022
+ms.custom: bap-template
+ms.search.keywords: Czech, Intrastat, Payables, Finance, CZ, Cash
 ---
 # Intrastat in the Czech Version
 
@@ -21,19 +22,19 @@ The standard Intrastat feature does not transfer all and only valid transactions
 
 This feature adds improvement of data transferred into Intrastat journal and prepares the environment for correct Intrastat reporting.
 
-## Intrastat Engine Setup
+## Intrastat engine setup
 
 Additional Intrastat engine general parameters setup allows to:
 
 - Set mandatory fields of Intrastat transactions in sales, purchase, and transfer transaction
 - Set where the particular parts on Intrastat data related to items should be taken from (item or posted entry) and which item attributes will be mandatory in sales, purchase, and transfer transaction
-- Set if any item charges related to sales, purchase, and transfer transaction will be ignored by the system (i.e. not including them in Intrastat or statistical amounts)
-- Define if the statistical amount is calculated and calculation method for it
+- Specify whether item charges related to sales, purchase, and transfer transaction will be ignored by the system (i.e. not including them in Intrastat or statistical amounts)
+- Define whether, and how, the statistical amount is calculated
 - Select Intrastat rounding type to set how Intrastat and statistical amounts will be rounded
 - Set foreign currency exchange rate for Intrastat reporting
 - Set object for Intrastat report export
 
-### New Setup Tables Added for:
+### New setup tables Added for:
 
 - Statistic Indications
 - Specific Movements

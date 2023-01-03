@@ -121,8 +121,6 @@ There are two ways to specify the limit:
 * When you use the Set Up Email assisted setup guide to create a new account, specify the limit in the **Rate limit per minute** field.
 * For existing email accounts, specify the limit in the **Email rate limit** field on the account.
 
-
-
 ## Set up reusable email texts and layouts
 
 You can use reports to include key information from sales, purchase, and service documents in texts for emails. This procedure describes how to set up the **Sales - Invoice** report for posted sales invoices, but the process is similar for other reports.
@@ -196,7 +194,12 @@ Next, you connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange O
 
 ### Create an app registration for Business Central in Azure portal
 
-The steps to register [!INCLUDE[prod_short](includes/prod_short.md)] in Azure portal are described in [Register an application in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). The settings that are specific to the email capabilities are the delegated permissions that you grant to your app registration. The following table lists the minimum permissions.
+The steps to register [!INCLUDE[prod_short](includes/prod_short.md)] in Azure portal are described in [Register an application in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
+
+> [!NOTE]
+> To use the email features, your app registration must use a multi-tenant configuration.
+
+The settings that are specific to the email capabilities are the delegated permissions that you grant to your app registration. The following table lists the minimum permissions.
 
 |API / Permission Name  |Type  |Description  |
 |---------|---------|---------|

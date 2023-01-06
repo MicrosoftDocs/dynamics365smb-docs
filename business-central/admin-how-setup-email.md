@@ -123,7 +123,7 @@ There are two ways to specify the limit:
 
 ## Set up reusable email texts and layouts
 
-You can use reports to include key information from sales, purchase, and service documents in texts for emails. This procedure describes how to set up the **Sales - Invoice** report for posted sales invoices, but the process is similar for other reports.
+You can use reports to include key information from sales, purchase, and service documents in texts for emails. Report layouts define the style and the content of the text in the email. For example, the content might include texts such as a greeting or instructions that precede the document information. This procedure describes how to set up the **Sales - Invoice** report for posted sales invoices, but the process is similar for other reports.
 
 > [!NOTE]
 > To use the layout to create content for email messages, you must use the Word file type for your layout.
@@ -131,11 +131,11 @@ You can use reports to include key information from sales, purchase, and service
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Report Selections - Sales**, and then choose the related link.
 2. On the **Report Selection - Sales** page, in the **Usage** field, select **Invoice**.
 3. On a new line, in the **Report ID** field, select, for example, standard report 1306.
-4. Select the **Use for Email Body** check box.
+4. Select the **Use for Email Body** checkbox.
 5. Choose the **Email Body Layout Description** field, and then select a layout from the list.
-
-    Report layouts define the style and the content of the text in the email. For example, the content might include texts such as a greeting or instructions that precede the document information. If your organization has many layouts, you can choose **Select from full list** to access all available report layouts.
-6. To view or edit the layout that the email text is based on, select the layout on the **Custom Report Layouts** page, and then choose the **Update Layout** action.
+6. To view or edit the layout that the email text is based on, select the layout on the **Custom Report Layouts** page, and then choose the **Export Layout** action. If you customize the layout, use the **Import Layout** action to upload the new layout.
+    > [!NOTE]
+    > To customize a standard report layout, such as 1306, you must make a copy of the report. [!INCLUDE [prod_short](includes/prod_short.md)] will help you create a copy when you import a custom layout for a standard report. The name of your new custom report layout will be prefixed with "Copy of."
 7. If you want to let customers use a payment service, such as PayPal, you'll need to set up the service. Afterward, the PayPal information and link are inserted in the email text. For more information, see [Enable Customer Payments Through PayPal](sales-how-enable-payment-service-extensions.md).
 8. Choose the **OK** button.
 

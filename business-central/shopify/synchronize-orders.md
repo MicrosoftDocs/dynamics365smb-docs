@@ -22,7 +22,7 @@ You can see Store Currency in the [Store details](https://www.shopify.com/admin/
 
 A regular Shopify order can include costs in addition to the subtotal, such as shipping charges or, if enabled, tips. These amounts are posted directly to the G/L account you want used for specific transaction types:
 
-* **Shipping Cost Account**
+* **Shipping Charges Account**
 * **Sold Gift Card Account**; learn more at [Gift Card](synchronize-orders.md#gift-cards)
 * **Tip account**  
 
@@ -71,7 +71,11 @@ The following procedure describes how to import and update the sales orders.
 3. Choose the **Orders** action.
 4. Choose the **Sync Orders From Shopify** action.
 5. Define filters on orders as necessary. For example, you can import fully paid orders or the ones with a low-risk level.
-6. Choose the **OK** button.
+
+> [!NOTE]  
+> When filtering by tag, you should use filter tokens `@` and `*`. For example if you want to import orders containing *tag1*, use `@*tag1*`. `@` will ensure that result is case incensitive, while `*` find orders with multiple tags.
+
+7. Choose the **OK** button.
 
 Alternatively, you can search for the **Sync Orders From Shopify** batch job.
 
@@ -105,7 +109,7 @@ A sales document is now created and can be managed by using standard [!INCLUDE[p
 If your settings prevent creating a customer automatically and a proper existing customer can't be found, you'll need to assign a customer to the Shopify order manually. There are a few ways to do this:
 
 * You can assign the **Sell-to Customer No.** and **Bill-to Customer No.** directly on the **Shopify Orders** page by choosing a customer from the list of existing customers.
-* You can select a customer template code, then create, and assign the customer via the **Create new customer** action on the **Shopify Orders** page.
+* You can select a customer template code, then create, and assign the customer via the **Create new customer** action on the **Shopify Orders** page. Notice that the Shopify customer must have at least one address. Orders created via Shopify POS sales channel are often missing address details.
 * You can map an existing customer to the related **Shopify Customer** in the **Shopify Customers** window and then choose the **Find Mapping** action on the **Shopify Orders** page.
 
 ### How the connector chooses which customer to use

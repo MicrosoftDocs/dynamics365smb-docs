@@ -1,15 +1,16 @@
 ---
+
 title: Set Up and Use the Service Declaration Extension
 description: Learn how to set up and use Service Declaration (Intrastat for Services) features to report service trade with companies in other EU countries.
 author: altotovi
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.author: altotovi
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/21/2022
+ms.custom: bap-template
 ms.search.keywords: electronic document, Intrastat, trade, EU, service, declaration, 
 ms.search.form: 30, 76, 5010, 5022, 5023, 5024, 5800
-ms.date: 11/23/2022
-ms.author: altotovi
 ---
 # The Service Declaration Extension
 
@@ -146,14 +147,14 @@ Grouping required by authorities will be provided in the exported file. You must
 
 ### Using services in document lines
 
-When you create a purchase or sales invoice, you'll find two fields related to service declarations on their lines. Both fields are filled in with the default values from your item, resource, or item charge set ups.
+When you create a purchase, sales, or service  invoice, you'll find two fields related to service declarations on their lines. Both fields are filled in with the default values from your item, resource, or item charge set ups.
 
 - **Service Transaction Type Code** - Specifies the code for a service transaction type.
 - **Applicable For Service Declaration** - Specifies whether an item or resource is applicable for a service declaration.
 
 You can change the values in these fields, but if you select the **Applicable For Service Declaration** field, you must specify a value in the **Service Transaction Type Code** field. If you don't, you can't post the document.
 
-If you specify a value in the **Service Transaction Type Code** field but don’t select the **Applicable For Service Declaration** field, you can post the document but the line won't be calculated when you do.
+If you specify a value in the **Service Transaction Type Code** field but don’t select the **Applicable For Service Declaration** field, you can post the document, but the line won't be calculated when you do.
 
 ## See related training at [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 

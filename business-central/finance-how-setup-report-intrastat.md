@@ -204,6 +204,9 @@ To set up all necessary information related to Intrastat on item cards:
 > [!NOTE]
 > You can use different units of measure as your supplementary unit of measure. If this is not the same as the **Base Unit of Measure**, you need to configure this unit of measure on the **Item Units of Measure** page.
 
+> [!NOTE]
+> When you add the **Tariff Number** with defined **Unit of Measure** to the item, the system will automatically fill in the **Supplementary Unit of Measure** for this item based on the **Tariff Number** configuration. But you can change the **Supplementary Unit of Measure** if you want.
+
 #### Fixed asset cards
 
 To set up all necessary information related to Intrastat on fixed assets cards:
@@ -248,6 +251,25 @@ If there is a reason for a specific item or fixed asset to be excluded from Intr
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, then choose the related link.
 2. Select the fixed asset you want to configure.
 3. On the **Intrastat** FastTab, select the **Exclude from Intrastat Report** field.
+
+#### Tariff Numbers
+
+To set up tariff numbers:
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tariff Numbers**, and then choose the related link.  
+2. On the ** Tariff Numbers ** page, fill in the following fields:
+    |Field|Description|  
+    |------------------------------------|---------------------------------------|
+    | **No.**| Specifies the tariff number. |
+    | **Description**|Specifies a description of related tariff number. |
+    | **Supplementary Units**|Specifies whether the customs and tax authorities require information about quantity and unit of measure for this item. |
+    | **Conversion Factor**|Specifies the conversion factor for the tariff number. |
+    |**Unit of Measure**|Specifies the unit of measure for the tariff number. |
+
+> [!NOTE]
+> When you want to update the **Unit of Measure** on the **Tariff Numbers**, adding a new option as a supplementary unit of measure, system will ask you do you want to update related items. That means all items with the same tariff number will get updated **Unit of Measure** in the **Item Units of Measure** page.
+
+> [!NOTE]
+> When you add the **Tariff Number** with defined **Unit of Measure** to the item, the system will automatically add new unit of measure to the **Item Units of Measure** for this particular item. **Qty. per Unit of Measure** will be based on the **Quantity Rounding Precision** for this item.
 
 ## Country-specific Intrastat setup
 

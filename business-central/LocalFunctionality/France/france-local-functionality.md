@@ -1,21 +1,18 @@
 ---
 title: France Local Functionality
-description: The following topics describe the various local functionality in the French version of Business Central.
+description: This article describes the various local functionalities in the French version of Business Central.
 author: sorenfriisalexandersen
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords:
-ms.date: 06/18/2021
 ms.author: soalex
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: conceptual
+ms.date: 12/21/2022
+ms.custom: bap-template
 ---
 
 # France Local Functionality
 
-The following topics describe local functionality that is unique to the French version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following articles describe local functionality that is unique to the French version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature Availability
 
@@ -23,7 +20,7 @@ The following topics describe local functionality that is unique to the French v
     * [Export General Ledger Entries for Tax Audits](how-to-export-general-ledger-entries-for-tax-audits.md) **Available Now**
     * [Export General Ledger Entries to an XML File](how-to-export-general-ledger-entries-to-an-xml-file.md) **Available Now**
     * [Requirements for Reporting Declaration of Trade in Goods](requirements-for-reporting-declaration-of-trade-in-goods.md) **Available Now**
-    * Reporting Declaration of Services DES **2022 release wave 2**
+    * [Reporting Declaration of Services DES](../../finance-how-setup-use-service-declaration.md) **Available Now**
 
 * Banking & Payments
     * [Set Up Payment Addresses](how-to-set-up-payment-addresses.md) **Available Now**

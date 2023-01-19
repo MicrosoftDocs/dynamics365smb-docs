@@ -1,18 +1,15 @@
 ---
+
 title: Generate Electronic Invoices [MX]
 description: After you post a sales invoice in the Mexican version, you must generate an electronic invoice that will be sent to the customer.
-author: edupont04
-
+author: altotovi
+ms.author: altotovi
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords:
+ms.topic: how-to
+ms.date: 12/21/2022
+ms.custom: bap-template
 ms.search.form: 132, 25
-ms.date: 06/01/2022
-ms.author: edupont
-
 ---
 # Generate Electronic Invoices in the Mexican Version
 
@@ -59,6 +56,35 @@ Mexican companies must be able to receive payments in accordance with CFDI Withh
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Ledger Entries**, and then choose the related link.  
 2. Find a payment that you applied to the electronic invoice, and then select this line.
 3. Choose the **Send** action, and then specify if you want to also request a digital stamp for the payment.
+
+## Registering export (Comercio Exterior Complement)
+
+The Comercio Exterior Complement is an annex to the electronic invoice. It identifies importers and exporters and improves the description of the merchandise that is traded. The Comercio Exterior Complement is a key obligation for taxpayers who export merchandise.
+
+To set up Comercio Exterior Complement, follow these steps:  
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+2. On the **Electronic Invoice** FastTab, in the **USD Currency Code** field, choose the USD currency you want to use. It can be different than *USD*. For example, it might be *USD-CFDI*.  
+3. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measure**, and then choose the related link.
+4. In the **SAT Customs Unit** field, choose the unit of measure from the **SAT Custom Units** table for foreign trade operations.
+
+To create Comercio Exterior Complement:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.
+2. Create a sales invoice with all details ready for export.
+3. In the **CFDI Export Code** field, choose a value related to your type of export. Validation of this field sets values on the **Foreign Trade** FastTab, but you can change it. For example, if the **CFDI Export Code** contains **04** as a value. The **Foreign Trade** is also used for **Carta Porte Complement**.
+4. If you configure a foreign trade invoice, you must fill in the following fields.
+
+    |Field|Description|  
+    |------------------------------------|---------------------------------------|
+    |**Transit-to Location**|Specifies the customer’s location with their address and postal code.|
+    |**SAT International Trade Terms (Incoterms)**|You can specify one of the options from the new Incoterms catalog.|
+    |**Exchange Rate USD (reversed value for Currency Factor)**|This value is assigned from the **USD Currency Code** exchange rates. You can change this value if needed.|
+
+5. After posting the document and getting a stamp, you will get an XML file with the Comercio Exterior Complement.
+
+> [!NOTE]  
+> If you want to create an invoice for foreign trade, the **CFDI Export Code** field must be different from **01** because that value is used for domestic invoices only.  
 
 ## See Also
 

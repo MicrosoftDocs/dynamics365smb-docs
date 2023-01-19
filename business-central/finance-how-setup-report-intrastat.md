@@ -1,15 +1,15 @@
 ---
 title: Set Up Intrastat Reporting
 description: Learn how to set up Intrastat reporting features to report trade with companies in other EU countries.
-author: altotovi
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: altotovi 
+ms.author: altotovi
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/20/2022
+ms.custom: bap-template
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077
-ms.date: 09/02/2022
-ms.author: altotovi
 ---
 # Set Up Intrastat Reporting
 
@@ -127,7 +127,7 @@ To set mandatory fields and/or values on the **Intrastat Report** page:
 > [!NOTE]
 > When you open the **Filter Page** from the **Filter Expression** line, you can use all standard filter expressions related to the specific field you want to filter.
 >
-> Be careful with setting up validation rules, as they can differ from country to country.
+> Be careful when you set up validation rules. They can differ from country to country.
 
 ## Use custom codeunits in Intrastat reporting
 
@@ -138,9 +138,9 @@ If you want to change how Intrastat works and the default configuration is not e
 3. On the **VAT Report Type** field, choose the **Intrastat Report** option.
 4. On the **VAT Report Version** field, specify the version of the report.
 5. After that, you can add your codeunits for the following options:
-   a. On the **Suggest Lines Codeunit ID** field, specify the new codeunit for suggesting lines in the Intrastat report lines.
-   b. On the **Content Codeunit ID** field, specify the new codeunit for exporting data as a file using a Data Exchange Definition.
-   c. On the **Validate Codeunit ID** field, specify the new codeunits for validating results inside Intrastat report lines.
+   a. In the **Suggest Lines Codeunit ID** field, specify the new codeunit for suggesting lines in the Intrastat report lines.
+   b. In the **Content Codeunit ID** field, specify the new codeunit for exporting data as a file using a Data Exchange Definition.
+   c. In the **Validate Codeunit ID** field, specify the new codeunits for validating results inside Intrastat report lines.
 
 > [!IMPORTANT]
 >
@@ -198,8 +198,8 @@ To set up all necessary information related to Intrastat on item cards:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, then choose the related link.
 2. Select the item you want to configure.
-3. Expand the **Costs & Posting** FastTab and fill the **Tariff No.**, **Supplementary Unit of Measure**, and **Country/Region of Origin Code** fields.
-4. Expand the **Inventory** FastTab and enter the decimal value in the **Net Weight** field.
+3. On the **Costs & Posting** FastTab, fill the **Tariff No.**, **Supplementary Unit of Measure**, and **Country/Region of Origin Code** fields.
+4. On the **Inventory** FastTab, enter the decimal value in the **Net Weight** field.
 
 > [!NOTE]
 > You can use different units of measure as your supplementary unit of measure. If this is not the same as the **Base Unit of Measure**, you need to configure this unit of measure on the **Item Units of Measure** page.
@@ -210,7 +210,7 @@ To set up all necessary information related to Intrastat on fixed assets cards:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, then choose the related link.
 2. Select the fixed asset you want to configure.
-3. Expand the **Intrastat** FastTab and fill the **Tariff No.**, **Net Weight**, and **Supplementary Unit of Measure** fields.
+3. On the **Intrastat** FastTab, fill the **Tariff No.**, **Net Weight**, and **Supplementary Unit of Measure** fields.
 
 > [!NOTE]
 > You can use different units of measure as your supplementary unit of measure. But whatever **Unit of Measure Code** you choose, its **Quantity** in Intrastat reports will always be 1.
@@ -222,7 +222,7 @@ Before using a vendor in Intrastat reporting, you must have a dedicated **Countr
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, then choose the related link.
 2. Select the vendor you want to configure.
 3. On the **Intrastat** FastTab, you can set default values for the **Default Trans. Type**, **Default Trans. Type - Returns**, and **Default Transport Method** fields.
-4. Expand the **Payments** FastTab, and choose the option in the **Intrastat Partner Type** field to specify if the vendor is a person or a company in Intrastat reporting.
+4. On the **Payments** FastTab, in the **Intrastat Partner Type** field, specify whether the vendor is a person or a company.
 
 #### Customer cards
 
@@ -231,7 +231,7 @@ Before using a customer in Intrastat reporting, you must have a dedicated **Coun
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, then choose the related link.
 2. Select the customer you want to configure.
 3. On the **Intrastat** FastTab, you can set default values for the **Default Trans. Type**, **Default Trans. Type - Returns**, and **Default Transport Method** fields.
-4. Expand the **Payments** FastTab, and choose the option in the **Intrastat Partner Type** field to specify if the vendor is a person or a company in Intrastat reporting.
+4. On the **Payments** FastTab, in the **Intrastat Partner Type** field, specify whether the vendor is a person or a company.
 
 #### Exclude items and fixed assets from Intrastat reporting
 
@@ -241,19 +241,67 @@ If there is a reason for a specific item or fixed asset to be excluded from Intr
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, then choose the related link.
 2. Select the item you want to configure.
-3. Expand the **Cost & Posting** FastTab, then select the **Exclude from Intrastat Report** field.
+3. On the **Cost & Posting** FastTab, select the **Exclude from Intrastat Report** field.
 
 ##### Exclude a fixed asset from Intrastat reporting
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, then choose the related link.
 2. Select the fixed asset you want to configure.
-3. Expand the **Intrastat** FastTab, then select the **Exclude from Intrastat Report** field.
+3. On the **Intrastat** FastTab, select the **Exclude from Intrastat Report** field.
 
 ## Country-specific Intrastat setup
 
-<!-- PM's note: Currently, we will add only the 'Overview' topic; the topic 'Manage Intrastat Country Specifics' and country details will wait until 21.1 when I update with all country-based details -->
+The Intrastat requirements are similar in all member states of the EU, although there are important exceptions. In theory, the rules should be uniformly applied in all member states. However, there are differences in implementation because some member states provide guidelines on how to apply the general principles in the regulation in specific situations. For example, commercial samples, return of goods, and so on. These guidelines can produce different results for various situations in EU member states. Because of that, some countries have some extra specific information that's separate from other countries. They also use a different file format for reporting.
 
-The Intrastat requirements are similar in all member states of the EU, although there are important exceptions. In theory, the rules should be uniformly applied in all member states. However, there are differences in implementation because some member states provide guidelines on how the general principles in the regulation should be applied in specific situations (for example, commercial samples, return of goods, etc.). These guidelines may produce different results for various situations in EU member states. Because of that, some countries have some extra specific information separate from other countries, and they also have a different file format for reporting.
+### Austria
+
+Intrastat reporting in Austria requires two different files for receipts and shipments. To verify that your setup is correct, follow these steps:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report Setup**, and then choose the related link.  
+2. O the **Reporting** FastTab, check whether **Split Receipts/Shipments Files** is selected. Related to that, you will find two separate **Data Exch. Def, Codes** configured. The **Zip File(-s)** field is also selected to ensure that report files will be added to zip file.
+
+The process of working with Intrastat Reports is the same as the global feature.
+
+<!-- ### Belgium-->
+
+### Czech Republic
+
+The new Intrastat Report experience for the Czech Republic will be available from 2023 release wave 1. In the meantime, you can continue to use the **Intrastat Journal** feature.
+
+### Finland
+
+In Finland, there are a few additional steps to set up Intrastat. Intrastat reporting in Finland requires two different files for receipts and shipments. Related to that, you will find two separate **Data Exch. Def, Codes** configured.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report Setup**, and then choose the related link.  
+2. On the **Intrastat Report Setup** page, on the **File Setup** FastTab, fill fields as described in the following table:
+
+    |Field|Description|  
+    |------------------------------------|---------------------------------------|
+    | **Custom Code**|Specifies a custom code for the Intrastat file setup information. |
+    | **Company Serial No.**|Specifies a company serial number for the Intrastat file setup information. |
+
+3. On the **Reporting** FastTab, check whether **Split Receipts/Shipments Files** is selected.
+
+The process of working with Intrastat Reports is the same as the global feature.
+
+<!-- ### Germany-->
+
+### Italy
+
+New Intrastat Report experience for Italy will be available from February 2023. In a meantime, you can continue to use the **Intrastat Journal** feature.
+
+<!-- ### France-->
+
+### Sweden
+
+Intrastat reporting in Sweden requires two different files for receipts and shipments. To verify that your setup is correct, follow these steps:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report Setup**, and then choose the related link.  
+2. On the **Reporting** FastTab, check whether **Split Receipts/Shipments Files** is selected. Related to that, you will find two separate **Data Exch. Def, Codes** configured.
+
+The process of working with Intrastat Reports is the same as in global feature.
+
+<!-- ### United Kingdom-->
 
 ## See related training at [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 

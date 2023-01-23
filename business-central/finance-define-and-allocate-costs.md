@@ -59,7 +59,7 @@ The dynamic allocation method is based on changeable values. For example, the nu
 
 ### Setting Filters
 
-The following table shows which filters are possible for different allocation bases and which values are valid in the **No. Filter** and **Group Filter** fields. Press F1 in the **Date Filter Code** field to read detailed descriptions.  
+The following table shows which filters are possible for different allocation bases and which values are valid in the **No. Filter** and **Group Filter** fields. Select <kbd>F1</kbd> in the **Date Filter Code** field to read detailed descriptions.  
 
 |**Base**|**No. Filter**|**Date Filter Code**|**Cost Center Filter**|**Cost Object Filter**|**Group Filter**|  
 |--------------|----------------------------------------|----------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------|  
@@ -86,7 +86,7 @@ This topic describes how to define three new allocation target cost objects for 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then choose the related link.  
 2. On the **Cost Allocation** page, choose the **New** action.  
-3. In the **ID** field, press Enter or enter an ID.  
+3. In the **ID** field, select <kbd>Enter</kbd> or enter an ID.  
 4. In the **Level** field, enter **1**.  
 5. In the **Valid From** and **Valid To** fields, enter appropriate dates.  
 6. In the **Cost Center Code** field, enter **PROD**.  
@@ -124,7 +124,7 @@ This topic shows an example of how to define allocations by using the dynamic al
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocations**, and then choose the related link.  
 2. On the **Cost Allocation** page, choose the **New** action.  
-3. In the **ID** field, press Enter or enter an ID.  
+3. In the **ID** field, select <kbd>Enter</kbd> or enter an ID.  
 4. In the **Level** field, enter **1**.  
 5. In the **Valid From** and **Valid To** fields, enter appropriate dates.  
 6. In the **Cost Center Code** field, enter **SALES**.  

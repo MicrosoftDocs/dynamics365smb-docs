@@ -18,7 +18,7 @@ ms.author: bholtorf
 When you want to find a particular record or value, use the **Search for Data** feature to look for it. Start a search on your Role Center in the following ways:
 
 * Use the **Search for Data** action
-* Use the Ctrl+Alt+F shortcut key combination.
+* Use the <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F</kbd> shortcut key combination.
 
 ## How search works
 

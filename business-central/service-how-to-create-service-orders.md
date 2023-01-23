@@ -23,7 +23,7 @@ When creating a service order, you only have to fill in a few fields. Some field
 2. Create a new service order.  
 3. In the **No.** field, enter a number for the service order.  
 
-     Alternatively, if you have set up number series for service orders on the **Service Management Setup** page, you can press Enter to select the next available service order number.  
+     Alternatively, if you have set up number series for service orders on the **Service Management Setup** page, you can select <kbd>Enter</kbd> to select the next available service order number.  
 
 4. In the **Customer No.** field, select the relevant customer from the list. The customer-relevant fields are filled in with information from the **Customer** table.  
 

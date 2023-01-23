@@ -37,7 +37,7 @@ When a contact is converted to a customer, for example, the contact person or co
 2. Choose the **New** action.
 3. In the **No.** field, enter a number for the contact.
 
-   Alternatively, if you have set up a number series for contacts on the **Marketing Setup** page, you can press **Enter** to insert the next available contact number.
+   Alternatively, if you have set up a number series for contacts on the **Marketing Setup** page, you can select <kbd>Enter</kbd> to insert the next available contact number.
 4. Fill in the remaining fields as required. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## To create a contact from a customer, vendor, or bank account

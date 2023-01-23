@@ -17,7 +17,7 @@ The following catalog is organized from core knowledge to specific domains, and 
 
 | Content                                                                 | Description                                                                                                | Format                                | Length     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
-| [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | This module shows application features, benefits, and examples of Dynamics 365 Business Central in action. | Free, self-paced online learning path | 24 minutes |
+| [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | This module shows application features, benefits, and examples of Dynamics 365 Business Central in action. | Free, self-paced online learning path | 2 minutes |
 
 ## Getting started<a name="get-started"></a>
 

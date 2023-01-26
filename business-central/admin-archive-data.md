@@ -53,7 +53,7 @@ The Data Archive extensions is used by the following batch jobs for date compres
 To start archiving data when you run one of the batch jobs, turn on the **Archive Deleted Entries** toggle.
 
 ## Storage Considerations
-The archived data is stored in the **Tenant Media** table. This table is not included when database size is calculated, according to your license terms. Instead, it counts as file storage. However, we recommend that you export old archives to, for example, a CSV file and then delete the old archive records.
+The archived data is stored in the **Tenant Media** table. We recommend that you export old archives to, for example, a CSV file and then delete the old archive records to reduce database storage consumption.
 
 ## See Also
 [Manage Storage by Deleting Documents or Compressing Data](admin-manage-documents.md)

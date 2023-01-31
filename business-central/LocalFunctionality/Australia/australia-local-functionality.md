@@ -51,6 +51,9 @@ The following topics describe local functionality that is unique to the Australi
     * [Enter Australian Business Numbers](australian-business-numbers-and-adjustment-notes.md) **Available Now**
     * [Payment Times Reporting](payment-times-reporting.md) **Available Now**
 
+## Future legislation requirements being investigated
+
+
 ## See Also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

@@ -63,6 +63,11 @@ If you make changes to the add-in, you must reload it to update the connection. 
 
 When **Edit in Excel** is used on list pages for tables with many columns, the resulting workbook may have too many columns for the file to be viewed in Excel for the web. [!INCLUDE[prod_short](includes/prod_short.md)] automatically limits the exported workbook to 100 columns when OneDrive is configured for system features. 
 
+## Tips
+
+In Excel, whole numbers in columns will have decimal symbol at the end, like a period `.` or comma `,`&mdash;even though the decimal isn't shown in Business Central. The actual decimal symbol used depends on your device's region settings. For example, `10` in Business Central could appear as `10.` or `10,` in Excel. You can change the format in Excel by selecting the values, then selecting <kbd>Ctrl</kbd>+<kbd>1</kbd>. To learn more about changing the number format in Excel, go to [Format Numbers](https://support.microsoft.com/office/format-numbers-f27f865b-2dc5-4970-b289-5286be8b994a).
+
+
 ## See the differences between the options
 <br><br>  
 

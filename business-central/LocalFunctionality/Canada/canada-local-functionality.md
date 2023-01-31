@@ -33,6 +33,9 @@ The following topics describe local functionality that is unique to the Canadian
     * [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md) **Available Now**
     * [Work With GIFI Codes](work-gifi-codes.md) **Available Now**    
 
+## Future legislation requirements being investigated
+
+
 ## See Also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

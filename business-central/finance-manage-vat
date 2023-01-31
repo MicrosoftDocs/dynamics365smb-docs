@@ -1,0 +1,37 @@
+---
+title: VAT Management Overview
+description: VAT Management helps you how to set up and use VAT functionality. This article provides links to other articles with more information.
+author: SorenGP
+
+
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: VAT
+ms.search.form: 118, 472, 737, 743
+ms.date: 01/31/2023
+ms.author: altotovi
+
+---
+# VAT Management
+VAT (Value Added Tax) is an indirect tax on the consumption of goods and services. It is levied at each stage of the supply chain where value is added, from initial production to the point of sale. To get started with VAT management, see the following topics.  
+
+|To|See|  
+|--------|--------------|  
+|Read about various ways of working with VAT both manually and with automatic setup, to help you meet country specific regulations.|[Work with VAT on Sales and Purchases](finance-work-with-vat.md)|
+|Make sure that you correctly calculate, post, and report on VAT for sales and purchases.|[Set Up Value-Added Tax](finance-setup-vat.md)|
+|Find the overview of the VAT and other posting groups, so you can use to save time and avoid mistakes when you post transactions.|[Posting Group Setup](finance-posting-groups#tax-posting-groups)|
+|Read if you're using cash-based accounting, so you can specify how to handle unrealized VAT for sales and purchases.|[Set Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)|
+|Learn how to prepare reports that lists VAT from sales during a period, or from sales and purchases, and submit the report to a tax authority.|[Submit VAT Reports to Tax Authorities](finance-how-report-vat.md)|
+|Ensure that you know how to set Up a VAT Statement Template and VAT Statement Names to meet changing tax authority requirements.|[Set Up a VAT Statement](finance-how-setup-vat-statement.md)|
+|Learn how to use the VAT Rate Change tool for Dynamics 365 Business Central for changing VAT rates based on local legislation.|[Managing VAT Rate changes](finance-how-use-vat-rate-change-tool.md)|
+|Use Business Central validation for VAT registration numbers for your contacts, customers, and vendors, based on EU VIES VAT Number Validation service.|[Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md)|
+
+
+## See Also  
+[Finance](finance.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

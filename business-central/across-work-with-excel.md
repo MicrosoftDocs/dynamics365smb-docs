@@ -31,7 +31,7 @@ With the **Open in Excel** action, you can make changes to the records in Excel,
 [!INCLUDE [send-report-excel](includes/send-report-excel.md)] 
 
 > [!NOTE]
-> In Excel, whole numbers in columns will have decimal symbol at the end, like a period (.) or comma (,), even though the decimal symbol isn't shown in Business Central. The actual decimal symbol used depends on your device's region settings. For example, `10` in Business Central could appear as `10.` or `10,` in Excel. You can change the format in Excel by selecting the values, then selecting <kbd>Ctrl</kbd>+<kbd>1</kbd>. To learn more about changing the number format in Excel, go to [Format Numbers](https://support.microsoft.com/office/format-numbers-f27f865b-2dc5-4970-b289-5286be8b994a).
+> In Excel, whole numbers in columns will have decimal symbol at the end (like a period `.` or comma `,`) even though the decimal symbol isn't shown in Business Central. The actual decimal symbol used depends on your device's region settings. For example, `10` in Business Central could appear as `10.` or `10,` in Excel. You can change the format in Excel by selecting the values, then selecting <kbd>Ctrl</kbd>+<kbd>1</kbd>. To learn more about changing the number format in Excel, go to [Format Numbers](https://support.microsoft.com/office/format-numbers-f27f865b-2dc5-4970-b289-5286be8b994a).
 
 
 ## Edit in Excel

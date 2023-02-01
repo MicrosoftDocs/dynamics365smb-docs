@@ -37,6 +37,10 @@ The following topics describe local functionality that is unique to the Finnish 
     * [Automatic Account Codes](automatic-account-codes.md) **Available Now**
     * [Posting Depreciation Differences](posting-depreciation-differences.md) **Available Now**
 
+## Future legislation requirements being investigated
+
+* Automatic Account Codes will be delivered as an app **2023 Wave 1**
+
 ## See Also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

@@ -57,6 +57,9 @@ The following topics describe local functionality that is unique to the German v
     * [Currency Exchange Rates](currency-exchange-rates.md) **Available Now**
     * [Include Company Registration Numbers on Sales Reports and Purchase Reports](how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md) **Available Now**
     * [Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md) **Available Now**
+
+## Future legislation requirements being investigated
+
 ## See Also
 
 [Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)  

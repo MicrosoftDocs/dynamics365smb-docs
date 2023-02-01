@@ -117,6 +117,15 @@ Finally, you must add information about locations you use. The following section
     |**SAT Postal Code**|Enter the SAT postal code where the domicile of the origin or destination of the goods or merchandise that are moved in the different means of transport is located.|
 3. Repeat step 2 for all other locations.  
 
+## To set up cancellation reasons
+
+1. Choose the ![A third lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **CFDI Cancellation Reasons**, and then choose the related link.  
+2. Click **New** action to create new cancellation reason or click **Edit** to edit existing one.
+3. Enter the value in the **Code** according to the SAT cancellation reason definition.
+4. Fill in the **Description** according to the SAT cancellation reason definition.
+5. Mark the **Substitution Number Required** field to specify whether a substitution number is required for this entry according to the SAT cancellation reason definition. If you choose code 01, then you must also specify the document that substitutes the canceled document in the **Substitution Document No.** field.
+6. Close the page.
+
 ## To map key data to the CFDI fields
 
 You can let [!INCLUDE [prod_short](../../includes/prod_short.md)] map relevant fields to the data structure that is required by CFDI by using the **Set up Mexican CFDI information** assisted setup guide, or you can map the fields manually.  

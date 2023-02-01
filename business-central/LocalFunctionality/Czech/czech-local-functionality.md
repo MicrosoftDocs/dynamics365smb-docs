@@ -52,6 +52,11 @@ The following topics describe the local functionality in the Czech version of [!
 * Inventory
   * [Inventory](inventory.md) **Available Now**
 
+## Future legislation requirements being investigated
+
+* Activate VAT Reporting Date in CZ localization **2023 wave 1**
+* Modern Intrastat solution for CZ **2023 wave 1**
+
 ## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

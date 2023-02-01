@@ -31,6 +31,8 @@ The following topics describe local functionality that is unique to the Icelandi
     * [Map IRS Numbers to the Chart of Accounts](how-to-map-irs-numbers-to-chart-of-accounts.md) **Available Now**
     * [Deleting Posted Invoices and Credit Memos](deleting-posted-invoices-and-credit-memos.md) **Available Now**
 
+## Future legislation requirements being investigated
+
 ## See Also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

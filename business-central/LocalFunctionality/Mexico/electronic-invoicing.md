@@ -83,6 +83,30 @@ The following table provides an overview of the options for the **CFDI Cancellat
 
 If you choose code *01*, then you must also specify the document that substitutes the canceled document in the **Substitution Document No.** field.  
 
+### To send Posted Sales Invoice for cancelling
+
+1. Open Posted Sales Invoice you want to cancel and select the **Cancel** action.  
+2. Select the **Cancel Request** option and confirm. This action allows us to send the cancellation request to the PAC service and get Cancellation ID for the document.  
+3. Once user gets successful response from PAC service, the **Electronic Document Status** is updated to **Cancel In Progress**, and the **Cancellation ID** is taken from the response and updated in the document. The **Date/Time Stamped** field will be updated.  
+4. If the error message appears, the **Electronic Document Status** is updated to **Cancel Error** status and details of error will appear in the **Error Code** and **Error Description** fields. The **Date/Time Stamped** field will be updated.  
+
+### Send a request to update the status
+
+The document that is being cancelled should be processed and approved by SAT authorities, and the information about status should be requested from PAC service.  
+
+To update status, user shell use the **Get Response** option to check and update cancellation status from SAT authorities. 
+
+> [!NOTE]  
+> The possible responses **EnProceso**, **Rechazado**, and **Cancelado** will update the **Electronic Document Status** field for next values respectively: **Cancel In Progress**, **Cancel Error**, or **Canceled**. 
+
+### Manual cancellation of the Posted Sales Invoice
+
+In some cases when the document cannot be processed properly, due to erroneous reason codes, if it cannot be classified by SAT, or some other reason, it is possible to force cancellation manually. In this case, user just needs to select the **Mark as Canceled** action in the menu. 
+
+### E-Invoice Status Request Batch
+
+User is able to schedule a batch job to process document with **Electronic Document Status** equals **Cancel Error**, and **Cancel In Progress**.  
+
 ## Communication component
 
 Technically, the [!INCLUDE[prod_short](../../includes/prod_short.md)] component for electronic invoicing deploys in a library assembly, Microsoft.Dynamics.NAV.MX.dll, which is included automatically with [!INCLUDE[prod_short](../../includes/prod_short.md)]. The component handles the communication with the PAC web services and also generates the QR codes that are included in the printed documents.  

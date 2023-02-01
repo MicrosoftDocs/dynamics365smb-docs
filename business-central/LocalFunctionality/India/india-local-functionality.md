@@ -124,6 +124,8 @@ The following topics describe the local functionality in the Indian version of [
 * Upgrade from an India Version of Dynamics NAV 2016 to the Latest Version of Business Central
     * [Business Central IN Data Migration Toolkit](/dynamics365/business-central/dev-itpro/upgrade/india-data-migration-toolkit-overview) **Available Now**
 
+## Future legislation requirements being investigated
+
 ## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)

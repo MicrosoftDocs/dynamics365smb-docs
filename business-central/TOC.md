@@ -152,7 +152,7 @@
 #### [Display Lists in Different Ways](across-display-lists-different-views.md)
 ### Run and Print Reports
 #### [Run and Print Reports](ui-work-report.md)
-#### [Set Up Default Printers](ui-specify-printer-selection-reports)
+#### [Set Up Default Printers](ui-specify-printer-selection-reports.md)
 #### [Schedule a Report to Run](ui-work-report.md#ScheduleReport)
 #### [Manage Saved Settings](reports-saving-reusing-settings.md)
 #### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)

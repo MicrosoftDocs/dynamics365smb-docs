@@ -59,6 +59,8 @@ The following topics describe local functionality that is unique to the Dutch ve
     * [Import Postal Codes](how-to-import-post-codes.md) **Available Now**
     * [Import Postal Code Updates](how-to-import-post-code-updates.md) **Available Now**  
 
+## Future legislation requirements being investigated
+
 ## See Also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

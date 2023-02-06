@@ -152,7 +152,7 @@
 #### [Display Lists in Different Ways](across-display-lists-different-views.md)
 ### Run and Print Reports
 #### [Run and Print Reports](ui-work-report.md)
-#### [Set Up Printers](ui-specify-printer-selection-reports.md)
+#### [Set Up Default Printers](ui-specify-printer-selection-reports)
 #### [Schedule a Report to Run](ui-work-report.md#ScheduleReport)
 #### [Manage Saved Settings](reports-saving-reusing-settings.md)
 #### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
@@ -1649,7 +1649,11 @@
 ### [Company Information](admin-company-information.md)
 ### [Create Number Series](ui-create-number-series.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
-### [Set Up Printers](ui-specify-printer-selection-reports.md)
+### Set Up Printers
+#### [Overview](admin-printer-setup-overview.md)
+#### [Universal Print Printers](admin-printer-setup-universal-print.md)
+#### [Email Printers](admin-printer-setup-email.md)
+#### [Set Up Default Printers](ui-specify-printer-selection-reports.md)
 ### [Set Up Online Maps](across-online-maps-setup.md)
 ### [Get Business Central on Your Mobile Device](install-mobile-app.md)
 ### [Get Business Central on Your Desktop](install-desktop-app.md)

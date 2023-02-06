@@ -20,7 +20,7 @@ The page inspection feature enables you to get details about a page, providing i
 
 ## Work with page inspection
 
-You start page inspection from the **Help & Support** page. Choose the question mark in the top right corner, choose **Help & Support**, and then choose **Inspect pages and data**. Or, you can just use the keyboard shortcut **Ctrl+Alt+F1**.
+You start page inspection from the **Help & Support** page. Choose the question mark in the top right corner, choose **Help & Support**, and then choose **Inspect pages and data**. Or, you can just use the keyboard shortcut <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>.
 
 The **Page inspection** pane opens on the side. When the pane first opens, it shows information that pertains to the main page object.
 

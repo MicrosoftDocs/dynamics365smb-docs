@@ -34,7 +34,7 @@ The following list describes how you can access the Help pane and whether cards 
   - The field's tooltip
 - Choose the *Learn more* link on a tooltip for an action
 - Choose the Help menu item (the question mark in the top-right corner)
-- Use the Ctrl+F1 keyboard shortcut from anywhere
+- Use the <kbd>Ctrl</kbd>+<kbd>F1</kbd> keyboard shortcut from anywhere
 
 > [!TIP]
 > When you choose a link, the target article opens in a new browser tab. You can choose to un-dock the browser tab, then, so that you can view the relevant information side-by-side with [!INCLUDE [prod_short](includes/prod_short.md)]. The pane remains open while you navigate through [!INCLUDE [prod_short](includes/prod_short.md)] so that content you searched for remains visible.  
@@ -170,7 +170,7 @@ In this section, you can learn about how to navigate the business functionality 
 - What comes next?  
 - What would be the alternative?  
 
-From inside the product, you can access this content either through the *Learn more* link in tooltips and teaching tips, or by using the *Ctrl+F1* keyboard shortcut.  
+From inside the product, you can access this content either through the *Learn more* link in tooltips and teaching tips, or by using the <kbd>Ctrl</kbd>+<kbd>F1</kbd> keyboard shortcut.  
 
 The navigation panel to the left, the table of contents, groups articles by business area. For example, you read the article [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md), and then the table of contents shows you that there's also an article called [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Both articles are in the group called *Purchasing*, which bundles articles that are related to the Purchasing module in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -224,7 +224,7 @@ Microsoft Learn hosts content for other products and other types of content. Use
 
 ## Apps and other solutions
 
-If your [!INCLUDE [prod_short](includes/prod_short.md)] includes functionality that isn't provided by Microsoft, then the provider of that functionality also provides *Learn more* content on their own website. You can access this content in the same way as in the default version of [!INCLUDE [prod_short](includes/prod_short.md)], such as by using the *Ctrl+F1* keyboard shortcut.  
+If your [!INCLUDE [prod_short](includes/prod_short.md)] includes functionality that isn't provided by Microsoft, then the provider of that functionality also provides *Learn more* content on their own website. You can access this content in the same way as in the default version of [!INCLUDE [prod_short](includes/prod_short.md)], such as by using the <kbd>Ctrl</kbd>+<kbd>F1</kbd> keyboard shortcut.  
 
 The same applies if you use [!INCLUDE [prod_short](includes/prod_short.md)] on-premises.  
 

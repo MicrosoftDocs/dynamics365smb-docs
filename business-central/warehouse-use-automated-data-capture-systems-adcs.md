@@ -109,7 +109,7 @@ When you have created a miniform, the next steps are to create functions and to 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Miniforms**, and then choose the related link.  
 2.  Select a miniform from the list, and then choose the **Edit** action.  
 3.  Choose the **Functions** action.  
-4.  In the **Function Code** drop-down list, select a code to represent the function that you want to associate with the miniform. For example, you can select ESC, which associates functionality with the press of the ESC key.  
+4.  In the **Function Code** drop-down list, select a code to represent the function that you want to associate with the miniform. For example, you can select ESC, which associates functionality with the select of the <kbd>ESC</kbd> key.  
 
 ## See Also  
 [Warehouse Management](warehouse-manage-warehouse.md)  

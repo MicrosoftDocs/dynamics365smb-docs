@@ -2,14 +2,11 @@
 title: Teams FAQ
 description: Get answers for some typical questions about working with Teams and Business Central.
 author: jswymer
-
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.author: jswymer
+ms.topic: faq
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 09/28/2022
-ms.author: jswymer
+ms.custom: bap-template
 ---
 # Teams FAQ
 
@@ -163,8 +160,6 @@ Specifically, recommended content includes:
 You can add list pages to the recommended content by adding bookmarks. You can also remove recommended content by deleting bookmarks. To learn how to add or delete bookmarks, see [Bookmark a Page or Report on Your Role Center](ui-bookmarks.md).
 
 If you switch the environment or company on the tab option, the recommended content will changed based on the Role Center and bookmarks for the environment and company you switch to.
-
-
 
 ### When I create a tab, does it grant permissions to the people in the channel or chat?
 
@@ -395,9 +390,15 @@ Yes. When you compose and send a message that includes a card, all recipients in
 
 ### Is the experience any different for users that are guests?
 
-Yes. Inviting guest users from outside your organization to participate in chat or a channel gives them a similar, but not identical experience compared to users within your organization. When a guest receives a message that includes a card, they can view it. Guests can also open the details window if they have been granted permissions to access that data in [!INCLUDE [prod_short.md](includes/prod_short.md)] and assigned a [!INCLUDE [prod_short.md](includes/prod_short.md)] license within your organization. When a guest composes a message, links to their [!INCLUDE [prod_short.md](includes/prod_short.md)] or yours won't expand into cards.
+Yes. Inviting guest users from outside your organization to participate in chat or a channel gives them a similar, but not identical experience compared to users within your organization. When a guest receives a message that includes a card, they can view it. Guests can also open the details page if they have permission to access that data in [!INCLUDE [prod_short.md](includes/prod_short.md)] and assigned a [!INCLUDE [prod_short.md](includes/prod_short.md)] license within your organization.
 
-To learn about other similarities and differences between guests and team members, see [Guest experience in Teams](/MicrosoftTeams/guest-experience) in the Teams documentation.
+Choosing the details link on any Business Central card will sign you in to the environment from which the card was shared, assuming you have permission to the environment.
+
+Guest users aren't allowed to use contact search because it's bound to the original tenant and we don't currently support such a delegated scenario.
+
+When a guest composes a message, links to their [!INCLUDE [prod_short.md](includes/prod_short.md)] or yours won't expand into cards.
+
+To learn about other similarities and differences between guests and team members, go to [Guest experience in Teams](/MicrosoftTeams/guest-experience) in the Teams documentation.
 
 ### How does a guest user install the [!INCLUDE [prod_short.md](includes/prod_short.md)] app? 
 

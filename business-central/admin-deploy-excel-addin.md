@@ -113,7 +113,7 @@ The add-in is now connected to [!INCLUDE [prod_short](includes/prod_short.md)], 
 
 ## Prepare devices and network for the Excel Add-In
 
-Network services such as proxies or firewalls must allow routing between each client device on which the add-In is installed and many service endpoints. For a list of endpoints, see [Preparing your network for the Excel Add-In](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
+Network services such as proxies or firewalls must allow routing between each client device on which the add-in is installed and many service endpoints. For a list of endpoints, see [Preparing your network for the Excel Add-In](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
 ## Troubleshooting
 
@@ -121,7 +121,7 @@ Sometimes, users run into problems with the Excel add-in. This section gives som
 
 |Problem  |Solution or workaround  |Comments  |
 |---------|---------|---------|
-|The add-in doesn't start|Check whether the add-in is deployed centrally. Or, check whether the user is blocked from installing it locally. | The admin can configure Office so that users can't acquire add-ins. In those cases, the admin must deploy the add-in centrally. For more information, see [Deploy add-ins in the admin center](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
+|The add-in doesn't start <br><br>For example, the user gets the message "Add-in Warning: This add-in is no longer available." when trying to use the add-in. This particular problem can happen if centralized deployment is configured correctly, but the user wasn't assigned access.|Check whether the add-in is deployed centrally. Or, check whether the user is blocked from installing it locally. | The admin can configure Office so that users can't acquire add-ins. In those cases, the admin must deploy the add-in centrally. For more information, see [Deploy add-ins in the admin center](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
 |Data doesn't load into Excel|Test the connection by opening another list in Excel from [!INCLUDE [prod_short](includes/prod_short.md)]. Or, open the workbook in Excel in a browser.|If the user has specified a company name that contains special characters, the add-in can't connect. |
 |Data can't publish back to [!INCLUDE [prod_short](includes/prod_short.md)].|Test the connection by opening the workbook in Excel in a browser. |Sometimes an extension can block the publishing job. If the page is extended or customized, remove the extensions, and then try again.|
 |The dates are wrong  |Excel might show times and dates in a different format than [!INCLUDE [prod_short](includes/prod_short.md)]. This condition doesn't make them wrong, and the data in [!INCLUDE [prod_short](includes/prod_short.md)] won't get messed up.|         |

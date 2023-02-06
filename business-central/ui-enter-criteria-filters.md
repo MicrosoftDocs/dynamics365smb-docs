@@ -50,7 +50,7 @@ To search, just choose the **Search** action, and then in the box, type the text
 In general, search will attempt to match text across all fields. It doesn't distinguish between uppercase and lowercase characters (case insensitive) and will match text placed anywhere in the field, at the beginning, end, or in the middle.
 
 > [!TIP]
-> You can press **F3** to activate and deactivate the search box. For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
+> You can select <kbd>F3</kbd> to activate and deactivate the search box. For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 > [!NOTE]  
 > Search won't match values in images, BLOB fields, FlowFilters, FlowFields, and other fields that aren't part of a table.
@@ -103,9 +103,9 @@ For fields of type **Option**, however, you can only set a filter by selecting o
 
 ### Setting Filters on Lists
 
-On lists, you set filters by using the filter pane. To display the filter pane for a list, choose the drop-down arrow next to the name of the page, and then choose the **Show filter pane** action. Alternatively, press **Shift+F3**.
+On lists, you set filters by using the filter pane. To display the filter pane for a list, choose the drop-down arrow next to the name of the page, and then choose the **Show filter pane** action. Alternatively, select <kbd>Shift</kbd>+<kbd>F3</kbd>.
 
-To display the filter pane for a column on a list, choose the drop-down arrow, and then choose the **Filter** action. Alternatively, press **Shift+F3**. The filter pane opens with the selected column shown as a filter field in the **Filter list by** section.
+To display the filter pane for a column on a list, choose the drop-down arrow, and then choose the **Filter** action. Alternatively, select <kbd>Shift</kbd>+<kbd>F3</kbd>. The filter pane opens with the selected column shown as a filter field in the **Filter list by** section.
 
 The filter pane displays the current filters for a list, and enables you to set your own custom filters on one or more fields by choosing the **+ Filter** action.
 
@@ -126,7 +126,7 @@ The filter pane displays the current filters for a list, and enables you to set 
   > [!NOTE]
   > Filters in the **Filter totals by** section are controlled by FlowFilters on the page design. For technical information, see [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
-You can set a simple filter directly on a list within using the filter pane, namely a filter that displays only records with the same value as in the selected cell. Select a cell on the list, choose the drop-down arrow, and then choose the **Filter to This Value** action. Alternatively, press **Alt+F3**.
+You can set a simple filter directly on a list within using the filter pane, namely a filter that displays only records with the same value as in the selected cell. Select a cell on the list, choose the drop-down arrow, and then choose the **Filter to This Value** action. Alternatively, select <kbd>Alt</kbd>+<kbd>F3</kbd>.
 
 ### Setting Filters in Reports, Batch Jobs, and XMLports
 
@@ -145,7 +145,7 @@ The type of the filter field determines which criteria you can enter. For exampl
 Columns that already have filters are indicated by the ![Filter icon.](media/ui-search/filter-icon.png "Filter icon") icon in the column heading. To remove a filter, choose the drop-down arrow, and then choose the **Clear Filter** action.
 
 > [!TIP]
-> Accelerate finding and analyzing your data by using combinations of keyboard shortcuts. For example, select a field, use **Shift+Alt+F3** to add that field to the filter pane, type the filter criteria, use **Ctrl+Enter** to return to the rows, select another field, and use **Alt+F3** to filter to that value. For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
+> Accelerate finding and analyzing your data by using combinations of keyboard shortcuts. For example, select a field, use <kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd> to add that field to the filter pane, type the filter criteria, use <kbd>Ctrl</kbd>+<kbd>Enter</kbd> to return to the rows, select another field, and use <kbd>Alt</kbd>+<kbd>F3</kbd> to filter to that value. For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md#KeyboardFilter).
 
 ### <a name="FilterCriteria"> </a>Filter Criteria and Operators
 
@@ -172,7 +172,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 |`22..23`|From 22-current month-current year 0:00:00 until 23-current month-current year 23:59:59| 
 
 > [!TIP]
-> If you're using a numeric keypad, the decimal separator key may output a character other than a period (.). To switch to a period, press the 'Alt+Decimal Separator' keys on the numeric keypad. When you want to switch back, press 'Alt+Decimal Separator' again. For more information, see [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).
+> If you're using a numeric keypad, the decimal separator key may output a character other than a period (.). To switch to a period, select the <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> keys on the numeric keypad. When you want to switch back, select <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> again. For more information, see [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).
 
 #### (&#124;) Either/or
 

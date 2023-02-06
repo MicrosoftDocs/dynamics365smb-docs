@@ -29,6 +29,12 @@ The following topics describe local functionality that is unique to the Swedish 
     * [Import and Export Data in Standard Import Export Format](how-to-import-and-export-data-in-standard-import-export-format.md) **Available Now**  
     * [Print Balance Sheet and Income Statement Reports](how-to-print-balance-sheet-and-income-statement-reports.md) **Available Now**  
 
+## Future legislation requirements being investigated
+
+* Moving Swedish localization to an app **May 2023**
+* SIE export/import as a part of Audit File Export app **May 2023**
+* Moving Automatic Account Code to a global app **May 2023**
+
 ## See Also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

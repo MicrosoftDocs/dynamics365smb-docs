@@ -65,6 +65,10 @@ The following topics describe local functionality that is unique to the Swiss ve
     * [Import Swiss Post Codes](how-to-import-swiss-post-codes.md) **Available Now**
     * [Swiss Purchase Documents and Sales Orders](swiss-purchase-documents-and-sales-documents.md) **Available Now**
 
+## Future legislation requirements being investigated
+
+* DTA Payment Journal details deprecation **Wave 1 2023**
+
 ## See Also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

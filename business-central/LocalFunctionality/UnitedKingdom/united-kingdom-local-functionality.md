@@ -40,6 +40,10 @@ The following topics describe local functionality that is unique to the United K
     * [The GetAddress.io UK Postcodes Extension](ui-extensions-getaddressio.md) **Available Now**
     * [Set Up the GetAddress.io UK Postcodes Extension](uk-setup-postal-code-service.md) **Available Now**
 
+## Future legislation requirements being investigated
+
+* Function to re-submit the VAT Return **Wave 2, 2023**
+
 ## See Also
 
 [Use Business Central after the United Kingdom Has Left the European Union](united-kingdom-leaving-eu.md)  

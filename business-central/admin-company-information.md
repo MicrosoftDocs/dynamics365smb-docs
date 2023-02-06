@@ -27,7 +27,7 @@ Once you have completed filling in the information, you can close the page.
 
 If your [!INCLUDE [prod_short](includes/prod_short.md)] includes multiple companies, your users might want to use *company badges* to help them quickly identify and keep track of which company they're currently working in. For more information, see [Display a company badge](#badge).
 
-There are a few features you can use to switch among companies as you work, like the company switcher (Ctrl+O). Learn more at [Switch to Another Company or Environment](ui-organization-switch.md).
+There are a few features you can use to switch among companies as you work, like the company switcher (<kbd>Ctrl</kbd>+<kbd>O</kbd>). Learn more at [Switch to Another Company or Environment](ui-organization-switch.md).
 
 ## <a name="badge"></a>Display a company badge
 
@@ -38,7 +38,7 @@ When there's more than one company or environment, you'll see the company switch
 Using the **Company Information** page, you can replace the standard company icon with a custom badge on a per-company basis if the company badge makes it easier for users to identify the company they're working in.
 
 1. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-2. When done, refresh the browser (press Ctrl+F5) to update the badge in the client.  
+2. When done, refresh the browser (select <kbd>Ctrl</kbd>+<kbd>F5</kbd>) to update the badge in the client.  
 
 > [!NOTE]
 > The company switcher was introduced in 2022 release wave 2, version 21. In earlier releases, the company badge isn't used for switching companies. It's shown in the upper-right corner of most pages, even when there's only one company. Selecting it will show the full company name and environment name.

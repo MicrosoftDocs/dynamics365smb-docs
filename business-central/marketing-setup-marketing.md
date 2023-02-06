@@ -46,7 +46,7 @@ In order to synchronize the contact card with the customer card, the vendor card
 For more information, see [Synchronizing Contacts with Customers, Vendors, and Bank Accounts](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).  
 
 ## Assigning a Number Series to Contacts and Opportunities
-You can set up a number series for contacts and opportunities. If you have set up a number series for contacts, when you create a contact, and press Enter in the No. field on the contact card, application automatically enters the next available contact number.
+You can set up a number series for contacts and opportunities. If you have set up a number series for contacts, when you create a contact, and select <kbd>Enter</kbd> in the No. field on the contact card, application automatically enters the next available contact number.
 
 For more information about number series, see [Create Number Series](ui-create-number-series.md).
 

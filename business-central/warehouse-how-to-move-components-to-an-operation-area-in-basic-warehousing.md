@@ -43,7 +43,7 @@ This procedure shows how to create an inventory movement from the **Inventory Mo
 
 ## To move components to an operation area in basic warehouse configurations  
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Movement**, and choose the relevant link.  
-2.  On the **General** FastTab, fill in the **No.** field. You can press the Enter key  to select from the number series.  
+2.  On the **General** FastTab, fill in the **No.** field. You can select the <kbd>Enter</kbd> key  to select from the number series.  
 3.  In the **Location Code** field, enter the location where the movement occurs.  
 4.  Choose the **Get Source Documents** action. Alternatively, fill in the **Source Document** field, and then choose the **AssistEdit** button in the **Source No.** field.  
 5.  On the **Source Documents** page, select the assembly order that you want to move components for, and then choose the **OK** button.  

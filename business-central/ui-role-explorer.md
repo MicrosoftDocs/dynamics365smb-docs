@@ -25,7 +25,7 @@ Each element on the role explorer is an action that opens a page. Accordingly, y
 
 You can open the role explorer from the Role Center and all list pages and from the **Tell Me** window.
 
-- On your Role Center or any list page, choose the ![Menu button.](media/ui_menu_button.png "Menu button") button to the right of the navigation bar, or press Shift+F12.
+- On your Role Center or any list page, choose the ![Menu button.](media/ui_menu_button.png "Menu button") button to the right of the navigation bar, or select <kbd>Shift</kbd>+<kbd>F12</kbd>.
 - In the **Tell Me** window, choose the **exploring** action at the bottom.
 
 When you first open the role center, it shows links to most features available for your role.
@@ -88,7 +88,7 @@ The actions that open pages are organized under nodes named after the features o
 - To expand/collapse a node, choose the node. This applies to top-level nodes and sub nodes.
 - To expand/collapse all top-level nodes on the page, choose the **Expand** or **Collapse** action in the top-right corner.
 - To expand/collapse all top-levels node and all sub nodes under it, do one of the following steps:
-  - Press the Ctrl+Shift keys while you choose the **Expand** or **Collapse** action in the top-right corner.
+  - Select the <kbd>Ctrl</kbd>+<kbd>Shift</kbd> keys while you choose the **Expand** or **Collapse** action in the top-right corner.
   - Choose **...** in the top-right corner, then choose the **Expand All** or **Collapse All** action.
 
 ## See Also

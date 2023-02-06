@@ -49,7 +49,7 @@ To work more productively with dates and times, you can use any of the methods o
 
 ### Picking dates from the calendar
 
-Any field displaying a calendar icon can be set using the calendar date picker. To display the calendar date picker, activate the calendar icon or press the Ctrl + Home keyboard shortcut in the field.
+Any field displaying a calendar icon can be set using the calendar date picker. To display the calendar date picker, activate the calendar icon or select the <kbd>Ctrl</kbd>+<kbd>Home</kbd> keyboard shortcut in the field.
 
 ![Date fields.](media/ui-date-field.png "Example of a date field")
 

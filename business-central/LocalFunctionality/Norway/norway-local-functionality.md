@@ -77,6 +77,9 @@ The following topics describe local functionality that is unique to the Norwegia
   [Norwegian VAT Reporting](norwegian-vat-reporting.md)  
  [Recurring Orders](recurring-orders.md)  
  -->
+ 
+## Future legislation requirements being investigated
+
 
 ## See Also
 

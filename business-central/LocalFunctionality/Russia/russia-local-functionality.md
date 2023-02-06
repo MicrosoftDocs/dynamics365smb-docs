@@ -102,6 +102,8 @@ There are Russia-specific features in [!INCLUDE[prod_short](../../includes/prod_
     * [Forming and Changing Staff List Order](Forming-and-changing-Staff-List-Order-Staff-Arrangement.md) **Available Now**
     * [Vacation Planning](Vacation-planning.md) **Available Now**
 
+## Future legislation requirements being investigated
+
 ## See also
 
 [Russian Chart of Accounts](Russian-Chart-of-Accounts.md)  

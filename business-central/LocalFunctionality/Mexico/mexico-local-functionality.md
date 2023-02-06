@@ -38,6 +38,9 @@ The following topics describe local functionality that is unique to the Mexican 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
+## Future legislation requirements being investigated
+
+
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
 
 

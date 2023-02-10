@@ -70,12 +70,9 @@ Cloud printing is designed for documents of a reasonable size. Most cloud servic
 
 [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/)
 
-## Next steps
-
-[Set Up Default Printers](ui-specify-printer-selection-reports.md)
-
 ## See also
 
+[Printer Management](admin-printer-setup-overview.md)  
 [Printing a Report](ui-work-report.md#PrintReport)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Run Batch Jobs](ui-how-run-batch-jobs.md)  

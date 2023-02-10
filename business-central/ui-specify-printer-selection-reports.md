@@ -1,5 +1,5 @@
 ---
-title: Set Up Default Printers
+title: Specify a Default Printer
 description: Learn about the different ways to set up printers to be used by default for print jobs. 
 author: jswymer
 ms.topic: how-to
@@ -11,12 +11,12 @@ ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900,
 ms.date: 01/19/2023
 ms.author: jswymer
 ---
-# <a name="default"></a>Specify Default Printers  
+# <a name="default"></a>Specify a Default Printer  
 
 After printers have been set up in Business Central, you can then specify which printer you want to use by default. There are a couple of ways to specify printers to be used by default for reports and other print jobs. A default printer is useful if you work with different reports that require different printers because of their placement in the company or their output capabilities.
 
 > [!IMPORTANT]
-> The only printers that you can specify as default are cloud printers that have already been set up for use in Business Central, like Email printers and Universal Print printers, or **Microsoft Print to PDF**. 
+> The only printers that you can specify as default are cloud printers that have already been set up for use in Business Central, like Email printers and Universal Print printers, or **Microsoft Print to PDF**. Tals to an administrator if you can't the printer you want.  
 
 ## Set a printer as a default printer for all print jobs
 

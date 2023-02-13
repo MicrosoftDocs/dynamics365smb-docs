@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877, 
-ms.date: 12/01/2022
+ms.date: 01/31/2023
 ms.author: bholtorf
 
 ---
@@ -61,6 +61,26 @@ To set up a default value for a VAT date, follow these steps:
 
 > [!NOTE]
 > By default, the **Default VAT Date** is the **Posting Date**.
+
+### Enabling or disabling the VAT Date feature
+
+Some countries require that businesses use a specific VAT date, but other countries don't. Some countries also require businesses to change the VAT date in specific situations after they have posted documents, but other countries don't allow changes to VAT dates. To allow for different contexts, you can choose whether you want to use this functionality and, if so, to what degree.
+
+To set up the level of VAT date usage, follow these steps:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon and enter **General Ledger Setup**, and then choose the related link.  
+2. On the **General** FastTab, in the **VAT Date Usage** field, specify the degree to which you want to use the VAT date feature. You can choose one of the following options:
+
+| Type | Description |
+|--------------------|-----------------------------------------|
+| **Use full VAT Date functionality** | Everything related to **VAT Date** works by default, providing the maximum **VAT Date** functionality. You can set up the date, change it in documents, report based on it, and modify the date after posting as long as the period isn't closed. |
+| **Use but do not allow modifications** | Everything related to **VAT Date** works by default with one exception. You can't modify the **VAT Date** in **VAT Entries**. |
+| **Not using VAT Date functionality** | [!INCLUDE [prod_short](includes/prod_short.md)] will hide and make the **VAT Date** fields not available on documents, journals, and entries. The **Default VAT Date** will be configured as the **Posting Date**. |
+
+3. Close the page. 
+
+> [!IMPORTANT]
+> Even if you choose **Not using VAT Date functionality** option, [!INCLUDE [prod_short](includes/prod_short.md)] will use the **VAT Date** in the background. Because the **Default VAT Date** is configured as the **Posting Date**, and you can't change it in this case, you'll get the same experience as without this feature. **VAT Date** fields will be removed from all pages, but this field will still exist in tables and reports will work based on it.
 
 ## Set up VAT registration numbers for your country or region
 

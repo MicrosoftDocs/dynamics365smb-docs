@@ -1,5 +1,5 @@
 ---
-title: Set Up Default Printers
+title: Specify a Default Printer
 description: Learn about the different ways to set up printers to be used by default for print jobs. 
 author: jswymer
 ms.topic: how-to
@@ -8,12 +8,15 @@ ms.service: dynamics365-business-central
 ms.custom: bap-template
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900, 
-ms.date: 01/19/2023
+ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="default"></a>Set Up Default Printers
+# <a name="default"></a>Specify a Default Printer  
 
-There are a couple of ways to set up printers to be used by default for reports and other print jobs. A default printer is useful if you work with different reports that require different printers because of their placement in the company or their output capabilities.
+After printers have been set up in Business Central, you can then specify which printer you want to use by default. There are a couple of ways to specify printers to be used by default for reports and other print jobs. A default printer is useful if you work with different reports that require different printers because of their placement in the company or their output capabilities.
+
+> [!IMPORTANT]
+> The only printers that you can specify as default are **Microsoft Print to PDF** and cloud printers that have already been set up for use in Business Central, like Email printers and Universal Print printers. Cloud printers are typically set up by an admin. For more information, see [Printer Setup and Management](admin-printer-setup-overview.md).   
 
 ## Set a printer as a default printer for all print jobs
 
@@ -31,9 +34,6 @@ Through the **Printer Management** page you set up a printer as a default printe
 ## Set a default printer for specific reports
 
 The **Printer Selections** page lets you specify the printer a report will use by default. Default printers are set on a user-account basis. You can set a default printer for just yourself, another user, or all users.
-
-> [!IMPORTANT]
-> For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the **Printer Selections** page can only be used for cloud printers defined by printer extensions, like Email Print and Universal Print printers. It can't be used for local printers.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Selections**, then select the related link. Alternatively, select a printer on the **Printer Management** page, then choose the **Printer Selections** action.
 2. Choose the **New** action to add a printer selection for a specific report.
@@ -70,12 +70,11 @@ Cloud printing is designed for documents of a reasonable size. Most cloud servic
 
 [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/)
 
-## Next steps
-
-[Set Up Default Printers](ui-specify-printer-selection-reports.md)
-
 ## See also
 
+[Printer Management](admin-printer-setup-overview.md)  
+[Set Up Universal Print Printers](admin-printer-setup-universal-print.md)  
+[Set Up Email Printers](admin-printer-setup-email.md)  
 [Printing a Report](ui-work-report.md#PrintReport)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Run Batch Jobs](ui-how-run-batch-jobs.md)  

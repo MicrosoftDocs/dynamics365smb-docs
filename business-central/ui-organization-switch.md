@@ -47,7 +47,7 @@ Using the company switcher is probably the quickest and most versatile way to sw
    :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Shows the company switcher icon in the heading of the Business Central client.":::  
 
    > [!TIP]
-   > You can also use the Crtl+O keyboard shortcut to open the pane.
+   > You can also use the <kbd>Crtl</kbd>+<kbd>O</kbd> keyboard shortcut to open the pane.
 2. In the **Available Companies** pane, select the company that you want to switch to, select the **Switch** arrow, then choose one of the following options:
 
    |Option|Description|

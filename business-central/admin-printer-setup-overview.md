@@ -1,16 +1,16 @@
 ---
-title: Printer Management
+title: Printer Setup and Management Overview
 description: Learn what the different printer opportunities in Business Central  
-author: jswymer #Required; your GitHub user alias, with correct capitalization.
-ms.author: jswymer #Required; your Microsoft alias; optional team alias.
-ms.reviewer: jswymer #Required; Microsoft alias of content publishing team member.
-ms.service: dynamics365-business-central #Required; per approved Microsoft taxonomy (https://taxonomy.docs.microsoft.com/TaxonomyServiceAdminPage/#/taxonomy/detail/2022-04-07T09:00:02.5587920Z!a892accc-6925-4c06-8723-fb5e30ba7ca3/product).
-ms.topic: overview #Required; don't change.
-ms.date: 01/26/2023
-ms.custom: bap-template #Required; don't change.
+author: jswymer 
+ms.author: jswymer 
+ms.reviewer: jswymer 
+ms.service: dynamics365-business-central
+ms.topic: overview 
+ms.date: 02/10/2023
+ms.custom: bap-template 
 ---
 
-# Printer Setup Overview
+# Printer Setup and Management Overview
 
 Printing documents and reports from [!INCLUDE[prod_short](includes/prod_short.md)] is an important task for business users. You'll typically want to send print jobs directly to one of your organization's printers&mdash;no matter the [!INCLUDE[prod_short](includes/prod_short.md)] client or app you're using. Because [!INCLUDE[prod_short](includes/prod_short.md)] online is a cloud service, it can't directly reach local printers connected to users' devices, but you can connect it to cloud-enabled printers.
 
@@ -25,6 +25,9 @@ To support your print needs, [!INCLUDE[prod_short](includes/prod_short.md)] offe
 |Browser printing|Print jobs are handled by the print functionality of the user's browser. If a cloud printer isn't installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser. The **Printer** field on the report request page will display *(Handled by the browser)*.|![works online](media/check.png)|||
 
 Most of the work for setting up printers can be done from the **Printer Management** page in [!INCLUDE[prod_short](includes/prod_short.md)]. Although with Universal Print printers, you may also have to work in in Microsoft 365 admin center or the Azure Portal.
+
+> [!IMPORTANT]
+> For Business Central on-premises, Universal Print and Email Print require that Azure Active Directory (AD) or NavUserPassword authentication is used.
 
 ## Custom printer extensions
 

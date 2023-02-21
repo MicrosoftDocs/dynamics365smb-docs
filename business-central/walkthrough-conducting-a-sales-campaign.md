@@ -66,7 +66,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 ### To set up a campaign  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Campaigns**, and then choose the related link.  
-2. Choose the **New** action to create a new campaign. On the campaign card, press **Enter** to have a campaign number automatically inserted.  
+2. Choose the **New** action to create a new campaign. On the campaign card, select <kbd>Enter</kbd> to have a campaign number automatically inserted.  
 3. In the **Description** field, enter a description for the campaign, for example, **Office Futurus trade show**.  
 4. Choose the **Status Code** field, and select the status code "1-PLAN". 
 5. Fill in the **Starting Date** and **Ending Date** fields of the campaign as appropriate.  
@@ -150,7 +150,7 @@ The marketing manager decides that the reduced list is the final list of contact
 5. In the **Attachment** field select the **Ellipsis** box. This opens the Import Attachment dialog.
     1. Select the **Choose** button to choose your file.
     1. Find the file and select the **Open** button to attach it.
-6. In the **Subject (Default)** field, enter the following example text: **Thank you for visiting the trade show**. Press the Tab key to leave the field, and select the **Yes** button.
+6. In the **Subject (Default)** field, enter the following example text: **Thank you for visiting the trade show**. Select the <kbd>Tab</kbd> key to leave the field, and select the **Yes** button.
 7. Slide the **Send Word Docs as Attmt** to on and select the **Yes** button.
 8. Choose the action **Log**. In the Log Segment pop-up window enable:
  **Create Follow-up Segment**

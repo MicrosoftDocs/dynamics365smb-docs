@@ -24,13 +24,13 @@ If views exist, the **Views** group appears at the top of the filter pane. Views
 ## To save a view
 
 1. Open any list page.
-2. Select ![Filter pane icon.](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press Shift+F3 to open the filter pane.
+2. Select ![Filter pane icon.](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or select <kbd>Shift</kbd>+<kbd>F3</kbd> to open the filter pane.
 3. Set one or more new filters. For more information, see [Setting Filters on Lists](ui-enter-criteria-filters.md#setting-filters-on-lists).
 4. When you have set the filters, choose the ![Save View.](media/save_view_icon.png "Save View") icon.
 
     If you set a filter for a list view that that is already saved as a view, the existing view will be updated when you save.
 5. If you're saving a new view, enter a name for the view in the **All (Copy)** box, such as "Items I own".
-6. Press the Enter key or move the cursor from the text box to accept the name.
+6. Select the <kbd>Enter</kbd> key or move the cursor from the text box to accept the name.
 
 If you don't give it a name, it will be named **All (Copy)**.
 

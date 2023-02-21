@@ -21,7 +21,7 @@ This article describes how the in-product search box, *Tell Me*, can help you qu
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-When you need help with finding something, use the ![Tell me what you want to do.](media/ui-search/search.png "Search for Page or Report") **Tell me what you want to do** icon to search for it. You can also use ALT+Q to start using Tell Me.
+When you need help with finding something, use the ![Tell me what you want to do.](media/ui-search/search.png "Search for Page or Report") **Tell me what you want to do** icon to search for it. You can also use <kbd>ALT</kbd>+<kbd>Q</kbd> to start using Tell Me.
 
 When you start typing characters, [!INCLUDE[prod_short](includes/prod_short.md)] immediately displays matches. Results in the list change as you type more characters. If you notice that when you enter the word "product" and the results include **Items** that's because Tell Me uses synonyms and alternate search terms to make it easier to find actions, pages, and reports.
 
@@ -30,7 +30,7 @@ The column to the right indicates the general category of the result. For exampl
 At the bottom of the **Tell Me** page, the action **exploring pages and reports** opens a feature overview that shows you all available features for your role or for all roles. Learn more at [Finding Pages with the Role Explorer](ui-role-explorer.md).
 
 > [!NOTE]  
-> If you prefer to use your keyboard, use the Tab key and Arrow keys to choose an item in the results. If you press the Enter key on your keyboard without choosing a result, [!INCLUDE[prod_short](includes/prod_short.md)] opens the result that is listed first.
+> If you prefer to use your keyboard, use the Tab key and Arrow keys to choose an item in the results. If you select the <kbd>Enter</kbd> key on your keyboard without choosing a result, [!INCLUDE[prod_short](includes/prod_short.md)] opens the result that is listed first.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 

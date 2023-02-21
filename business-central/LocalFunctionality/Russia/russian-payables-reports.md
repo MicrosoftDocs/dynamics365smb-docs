@@ -40,7 +40,7 @@ The lines of the window contain the information listed in the following table.
 
 The following procedure shows how to access the window with the option for the **Vendor** action.
 
-- Choose the **Vendor** action, choose the **Vendor G/L Turnover** action, and then choose the **Card** action (SHIFT+F5 Hot Key) to view the vendor card for the selected line.
+- Choose the **Vendor** action, choose the **Vendor G/L Turnover** action, and then choose the **Card** action (<kbd>Shift</kbd>+<kbd>F5</kbd> keys) to view the vendor card for the selected line.
 
 ## Vendor General Ledger Turnover Report (Report 12451)
 

@@ -107,7 +107,7 @@ When a taxonomy changes you need to update the current taxonomy accordingly. The
 2. On the **XBRL Taxonomies** page, choose the **Schemas** action.  
 3. To update a schema, select the schema you want to update, then choose the **Import** action.  
 4. To update or add a new linkbase, choose the **Linkbases** action.  
-5. Select the relevant linkbase or press Ctrl+N for a new line, select the type of linkbase, then insert a description.  
+5. Select the relevant linkbase or select <kbd>Ctrl</kbd>+<kbd>N</kbd> for a new line, select the type of linkbase, then insert a description.  
 6. To import the linkbase, choose the **Import** action.  
 7. Choose **Yes** to apply the linkbase to the schema.  
 

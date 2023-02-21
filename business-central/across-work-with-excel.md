@@ -6,7 +6,7 @@ author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
-ms.workload: na
+ms.search.form: 1480
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
@@ -25,10 +25,14 @@ With the **Open in Excel** action, you can make changes to the records in Excel,
 - This action works on both on Windows and macOS.
 - [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
-> [!NOTE]
+> [!IMPORTANT]
 > For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the **Open in Excel** action is available by default. However, if you set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for editing data in Excel, then the **Open in Excel** action is replaced by the **Edit in Excel** action.
 
-[!INCLUDE [send-report-excel](includes/send-report-excel.md)]  
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)] 
+
+> [!NOTE]
+> In Excel, whole numbers in columns will have a decimal symbol at the end (like a period `.` or comma `,`) even though the decimal symbol isn't shown in Business Central. The decimal symbol depends on your device's region settings. For example, `10` in Business Central could appear as `10.` or `10,` in Excel. You can change the format in Excel by selecting the values, then selecting <kbd>Ctrl</kbd>+<kbd>1</kbd>. To learn more about changing the number format in Excel, go to [Format Numbers](https://support.microsoft.com/office/format-numbers-f27f865b-2dc5-4970-b289-5286be8b994a).
+
 
 ## Edit in Excel
 

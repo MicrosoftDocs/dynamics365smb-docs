@@ -34,7 +34,7 @@ For example, you can create demo account or start trial. Learn more at [Preparin
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
 2. Choose the **New** action.
 3. In the **Code** field, enter `DEMO1`.
 4. In the **Shopify URL** field, enter the URL to the online shop that you want to connect to.
@@ -79,7 +79,11 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)] go through the following st
 6. Choose the **Sync Product Images** action.
 7. Choose the **Sync Inventory** action.
 
-In **Shopify online store**, open the product catalog. Notice:
+In **Shopify online store**
+> [!Tip]  
+> Open **Shopify admin**, by navigating to URL specified in the **URL** field of the **Shopify Shop Card** page. Then choose eye icon next to the **Online Store** sales channel, located in the sidebar of **Shopify admin**. 
+
+Open the product catalog. Notice:
 
 * Product titles, images, and prices.
 * Availability indicator (sold out for out-of-stock products).
@@ -135,7 +139,7 @@ After a successful quick launch of your new online store, you want your current 
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and choose the related link.
 2. Select the **DEMO1** Shop for which you want to synchronize customers to open the **Shopify Shop Card** page.
 3. Choose the **Sync Customers** action.
 
@@ -192,7 +196,7 @@ Prepare data.
 
 Adjust the synchronization settings.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and choose the related link.
 2. Select the *DEMO1* Shop for which you want to synchronize items to open Shopify Shop Card page.
 3. Select *SHOPIFY* in the **Customer Price Group** field.
 4. Select *RETAIL* in the **Customer Discount Group** field.
@@ -203,7 +207,7 @@ Adjust the synchronization settings.
 
 Run the synchronization.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and choose the related link.
 2. Select the *DEMO1* Shop for which you want to synchronize items to open the **Shopify Shop Card** page.
 3. Choose the **Products** action to open **Shopify Products** window.
 4. Choose the **Add Items** action.
@@ -246,8 +250,8 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following steps:
 
 #### Prepare data
 
-1. Switch to a free 30-day trial without sample data. For more information, see [Add your own data to an empty trial](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions.md#add-your-own-data-to-an-empty-trial-company).
-2. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and then choose the related link.
+1. Switch to a free 30-day trial without sample data. For more information, see [Add your own data to an empty trial](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
+2. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and then choose the related link.
 3. Choose the **New** action.
 4. In the **Code** field, enter `DEMO2`.
 5. In the **Shopify URL** field, enter the URL to the online shop that you want to connect to.
@@ -264,12 +268,12 @@ Configure the Shopify shop as described below in the next steps:
 13. Select **All Customers** in the **Customer Import from Shopify**.
 14. Enable the **Auto Create Unknown Customers** toggle.
 15. Fill in the **Customer Template Code** field with the appropriate template.
-16. Fill in the **Shipping Cost Account**, the **Tip Account** with revenue account. For example, in the US use `40100`.
+16. Fill in the **Shipping Charges Account**, the **Tip Account** with revenue account. For example, in the US use `40100`.
 17. Enable the **Auto Create Orders** toggle.
 
 #### Run the synchronization
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and choose the related link.
 2. Select the *DEMO2* Shop for which you want to synchronize data to open the **Shopify Shop Card** page.
 3. Choose the **Sync Products** action.
 4. Choose the **Sync Product Images** action.

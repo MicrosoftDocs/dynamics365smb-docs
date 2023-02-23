@@ -22,7 +22,7 @@ You can calculate WIP based on the following:
 
 * Cost value
 * Sales value
-* Recognizable ocst
+* Recognizable cost
 * Percentage of completion
 * Completed contract
 

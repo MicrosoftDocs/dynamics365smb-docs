@@ -81,8 +81,8 @@ The **Bank Statement Lines** pane will be filled according to invoices in [!INCL
 2. In the **Starting Date** field, enter the earliest posting date for the ledger entries to be reconciled.
 3. In the **Ending Date** field, enter the latest posting date for the ledger entries to be reconciled.
 
-> [!NOTE]
-> Typically, the ending date will match the date specified in the **Statement Date** field. However, if you want to reconcile transactions for only part of a period, you can enter a different ending date.
+    > [!NOTE]
+    > Typically, the ending date will match the date specified in the **Statement Date** field. However, if you want to reconcile transactions for only part of a period, you can enter a different ending date.
 
 4. If you don't want the bank account ledger entries to include unmatched open reversed entries, choose the **Exclude Reversed Entries** toggle. By default, the list of bank account ledger entries will include reversed entries up to the statement date.
 5. Choose the **OK** button.
@@ -99,7 +99,7 @@ You can investigate the basis for matches by using the **Match Details** action.
     If you enter 0 or leave the field blank, the **Match Automatically** action will only search for matching transaction dates on the bank account ledger entry posting date.
 3. Choose the **OK** button.
 
-    All bank statement lines and bank account ledger entries that can be matched change to green font, and the **Applied** checkbox is selected.
+    The lines are color coded to make it easier to understand what to do with them. All bank statement lines and bank account ledger entries that can be matched change to green font, and the **Applied** checkbox is selected. Bank account ledger entries that are already matched on other bank reconciliations are shown in blue font.
 4. To remove a match, select the bank statement line, and then choose the **Remove Match** action.
 
 > [!TIP]

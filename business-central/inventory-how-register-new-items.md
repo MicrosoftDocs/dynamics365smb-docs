@@ -34,6 +34,7 @@ If you purchase the same item from more than one vendor, you can connect those v
 The following procedure explains how to create an item card from scratch. You can also create new item cards by copying existing ones. For more information, see [Copy Existing Items to Create New Items](inventory-how-copy-items.md).  
 
 <br />
+
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## To create a new item card

@@ -40,11 +40,14 @@ The following topics describe the local functionality in the Danish version of [
 
 ## Future legislation requirements being investigated
 
-* SAF-T Audit reporting **2023 Wave 2**
-* Standard Chart of Account **2023 Wave 2**
-* Upload of CSV file with accounting data to RegnskabBasies **2023 Wave 2**
-* Mandatory digital vouchers **2023 Wave 2**
-* Electronic invoicing with NemHandel **January 2024**
+* SAF-T Audit reporting - planned for **2023 Wave 2**
+* Standard Chart of Account - planned for **2023 Wave 2**
+* Upload of CSV file with accounting data to Regnskab Basis - planned for **2023 Wave 2**
+* Mandatory digital vouchers - planned for **2023 Wave 2**
+* Electronic invoicing with NemHandel - planned for **January 2024**
+
+    > [!Note]  
+    > A new Danish bookkeeping act enforcing the use of digital bookkeeping systems went into place in July 2022. However, although the law is approved, the details on how it will be implemented by businesses and ERP systems is being released by the Danish Business Authority in phases. Microsoft will be following guidelines to ensure our **Microsoft Dynamics 365 Business Central** and **Microsoft Dynamics 365 Finance** solutions are certified within the parameters as deadlines are set. All updates to Dynamics 365 will be made available through our standard product release cycles. More information will be made available in this article.
 
 ## See Also
 

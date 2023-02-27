@@ -1,22 +1,20 @@
 ---
 title: Build Financial Reports Using Financial Data and Account Categories
 description: Describes how to use financial reports to create various views and reports for analyzing financial performance data.
-author: edupont04
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 02/27/2023
+ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: 103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766
-ms.date: 08/12/2022
-ms.author: edupont
-
 ---
 # Prepare Financial Reporting with Financial Data and Account Categories
 
 Financial reports give you insight into the financial data stored in your chart of accounts (COA). Financial reports analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports in your Role Center, such as the cash flow chart and income statement and balance sheet reports.
 
-You access these two reports, for example, with the **Financials Statements** action in the business manager and accountant role centers.  
+You access these two reports, for example, with the **Financial Statements** action in the business manager and accountant role centers.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides sample financial reports you can use right away. You can also set up your own rows and columns to specify the figures to compare. For example, you can create financial reports to calculate profit margins using dimensions such as departments or customer groups. The number of customized financial statements you can create is unlimited.  
 
@@ -45,10 +43,13 @@ You can use G/L account categories to change the layout of your financial statem
 
 You use financial reports to analyze general ledger accounts or to compare general ledger entries with budget entries. For example, you can view the general ledger entries as percentages of the budget entries.
 
-The financial reports in the standard version of [!INCLUDE[prod_short](includes/prod_short.md)] may not suit your business needs. To quickly create your own financial reports, start by copying an existing one, as described in step three below.
+The financial reports in the standard version of [!INCLUDE[prod_short](includes/prod_short.md)] might not suit your business needs. To quickly create your own financial reports, start by copying an existing one, as described in step three below.
 
 > [!TIP]
 > After you create a financial report, you can use the **Financial Report** page to preview and validate your newly defined financial report. To open the page, choose the **Edit Financial Report** action.  
+
+> [!NOTE]
+> When you open a financial report in View or Edit mode, the Filter pane is available. However, don't use the pane to set filters for the data in your report. The filters can cause errors or might not actually filter the data. Instead, use the filter fields on the **Options** and **Dimensions** FastTabs.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.  
 2. On the **Financial Reports** page, choose the **New** action to create a new financial report name.
@@ -63,15 +64,15 @@ The financial reports in the standard version of [!INCLUDE[prod_short](includes/
     > [!NOTE]
     > The **Row No.** field shows the first 10 characters of an identifier, such as an account number. If you add elements with identifiers that start with the same 10 characters you'll have duplicates in the **Row No.** field. If needed, you can manually edit the identifiers after you insert the elements. The full identifiers are displayed in the **Totaling** field.
 
-7. On the **Financial Reports** page, choose the **Edit Financial Report** action to see the resulting financial report.
+7. On the **Financial Reports** page, choose the **Edit Financial Report** action to access the resulting financial report.
 8. On the **Financial Report** page, in the **Column Definition** field, select another column definition to explore the financial data by other parameters.
 9. Choose **OK**.
 
-You've now defined the basis of the financial report; the rows of financial data to be displayed; and an existing layout of columns to show the data on the rows using custom parameters. If the default column definition you selected in step 4 doesn't suit your purpose, follow the next procedure.
+You've now defined the following the basis of the financial report, the rows of financial data to display, and an existing layout of columns to show the data on the rows using custom parameters. If the default column definition you selected in step 4 doesn't suit your purpose, follow the steps in [Edit a column definition](#edit-a-column-definition).
 
 ### Edit a column definition
 
-You use column definitions to specify the columns included in the resulting report. For example, you can design a layout to compare net change and balance for the same period this year and last year. You can have up to 15 columns, which is useful for, say, viewing budgets for 12 months with a column that shows the total.
+Use column definitions to specify the columns to include in the report. For example, you can design a layout to compare net change and balance for the same period this year and last year. You can have up to 15 columns, which is useful for, say, displaying budgets for 12 months with a column that shows the total.
 
 > [!NOTE]
 > A printed/previewed/saved version of a financial report displays a maximum of five columns. In contrast, if a financial report is only meant for analysis on the **Financial Report** page, you can create as many columns as you want.

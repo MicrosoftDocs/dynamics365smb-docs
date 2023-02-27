@@ -48,10 +48,11 @@ If you choose such a notification, [!INCLUDE [prod_short](includes/prod_short.md
 At this point, you can just fill in the missing G/L accounts. But, later, when you further refine the setup, you might realize this initial setup is wrong. And [!INCLUDE [prod_short](includes/prod_short.md)] does not allow the deletion of a VAT posting setup and general posting setup when entries have been created based on such configurations. So starting in 2022 release wave 1, you can use the **Blocked** field on the **VAT Posting Setup** page to prevent users from mistakenly using a setup that is no longer relevant for new postings.
 
 ## Set up a default VAT date for documents and journals
+
 VAT reporting in [!INCLUDE [prod_short](includes/prod_short.md)] is based on the **VAT Date** to include VAT entries on VAT reports in a VAT period. The VAT date can be changed on all documents and journals, but you must specify a default value for VAT date.
 
 > [!NOTE]
-> Aftre posting the document or journal, the **VAT Date** will appear on **VAT Entries** and **G/L Entries** as well as on the posted document if exists.
+> After posting the document or journal, the **VAT Date** will appear on **VAT Entries** and **G/L Entries** as well as on the posted document if exists.
 
 To set up a default value for a VAT date, follow these steps:
 
@@ -73,14 +74,50 @@ To set up the level of VAT date usage, follow these steps:
 
 | Type | Description |
 |--------------------|-----------------------------------------|
-| **Use full VAT Date functionality** | Everything related to **VAT Date** works by default, providing the maximum **VAT Date** functionality. You can set up the date, change it in documents, report based on it, and modify the date after posting as long as the period isn't closed. |
+| **Use full VAT Date functionality** | Everything related to **VAT Date** works by default, giving you the maximum **VAT Date** functionality. You can set up the date, change it in documents, report based on it, and modify the date after posting as long as the period isn't closed or protected with allowed dates for posting. |
 | **Use but do not allow modifications** | Everything related to **VAT Date** works by default with one exception. You can't modify the **VAT Date** in **VAT Entries**. |
 | **Not using VAT Date functionality** | [!INCLUDE [prod_short](includes/prod_short.md)] will hide and make the **VAT Date** fields not available on documents, journals, and entries. The **Default VAT Date** will be configured as the **Posting Date**. |
 
-3. Close the page. 
+3. Close the page.
 
 > [!IMPORTANT]
-> Even if you choose **Not using VAT Date functionality** option, [!INCLUDE [prod_short](includes/prod_short.md)] will use the **VAT Date** in the background. Because the **Default VAT Date** is configured as the **Posting Date**, and you can't change it in this case, you'll get the same experience as without this feature. **VAT Date** fields will be removed from all pages, but this field will still exist in tables and reports will work based on it.
+> Even if you choose the **Not using VAT Date functionality** option, [!INCLUDE [prod_short](includes/prod_short.md)] will use the **VAT Date** in the background. Because the **Default VAT Date** is configured as the **Posting Date**, and you can't change it in this case, you'll get the same experience as without this feature. **VAT Date** fields will be removed from all pages, but this field will still exist in tables and reports will work based on it.
+
+### Limiting periods for posting and changing the VAT date
+
+You can prevent people from posting or changing VAT entries in specific date ranges. You set the restriction using using two settings:
+
+* Based on closed **VAT Return Period**
+* Based on the **Allow Posting From** and **Allow Posting To** fields.
+
+#### To limit posting based on VAT return period
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+2. On the **General** FastTab, in the **Control VAT Period** field, specify the degree of VAT Return Period control. The following table describes the options.
+
+| Type | Description |
+|--------------------|-----------------------------------------|
+| **Block posting within closed and warn for released period** | Prevent people from posting a document or journal, or changing VAT entries, that have a VAT date within a closed **VAT Return Period**. [!INCLUDE [prod_short](includes/prod_short.md)] will also show a warning if your **VAT Return Period** is open, but the status of **VAT Return** is **Released** or **Submitted**. |
+| **Block posting within closed period** | Prevent people from posting a document or journal, or changing vat entries, that have a VAT date within the closed **VAT Return Period**. |
+| **Warn when posting in closed period** | Show a warning, but don't block posting, if you want to post a document or journal that has a VAT date within a closed **VAT Return Period**. |
+| **Disabled** | Take no action based on a closed **VAT Return Period**. |
+
+#### To limit posting based on Allow from/to period
+
+You can set up limitation on the company or specific user levels.
+
+To limit all postings for the whole company:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+2. On the **General** FastTab, in the **Allow Posting From** field, specify the VAT date from which you allow posting. Posting a document or journal with a VAT date before this date isn't allowed.  
+3. On the **General** FastTab, in the **Allow Posting To** field, specify the VAT date until which you allow posting. Posting a document or journal with a VAT date after this date isn't allowed.
+
+To limit postings for the specific user:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.  
+2. In the **User ID** field, specify the user you want to allow to post in specific period.  
+3. In the **Allow Posting From** field, specify the VAT date from which you allow posting. Posting a document or journal with a VAT date before this date isn't allowed.
+4. In the **Allow Posting To** field, specify the VAT date until which you allow posting. Posting a document or journal with a VAT cate after this date isn't allowed.
 
 ## Set up VAT registration numbers for your country or region
 

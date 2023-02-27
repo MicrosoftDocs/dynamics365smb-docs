@@ -19,9 +19,6 @@ The following topics describe the local functionality in the Danish version of [
 
 ## Feature Availability
 
-* Accounting
-    * Digital Vouchers (Changes to the Danish Bookkeeping Act) **2022 release wave 2**
-
 * VAT
     * [Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md) **Available Now**
     * [VAT-VIES Reporting](vat-vies-reporting.md) **Available Now**
@@ -40,6 +37,14 @@ The following topics describe the local functionality in the Danish version of [
 
 * Payroll
     * [Payroll Data Definitions (DK)](ui-extensions-payroll-data-definitions-dk.md) **Available Now**
+
+## Future legislation requirements being investigated
+
+* SAF-T Audit reporting **2023 Wave 2**
+* Standard Chart of Account **2023 Wave 2**
+* Upload of CSV file with accounting data to RegnskabBasies **2023 Wave 2**
+* Mandatory digital vouchers **2023 Wave 2**
+* Electronic invoicing with NemHandel **January 2024**
 
 ## See Also
 

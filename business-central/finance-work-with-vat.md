@@ -31,9 +31,9 @@ If you want the unit prices and line amounts to include VAT, for example, if you
 
 You can calculate and display VAT amounts in sales and purchase documents differently, depending on the type of customer or vendor you're dealing with. You can also change the calculated VAT amount manually, for example, so that it matches the VAT amount calculated by your vendor on a given transaction.
 
-### Including or Excluding VAT in Prices and Line Amounts
+### Including or excluding VAT in prices and line amounts
 
-If you choose the **Prices Including VAT** check box on a sales document, the **Unit Price** and **Line Amount** fields will include VAT. By default, the values in these fields do not include VAT. The names of the fields reflect whether prices include VAT.  
+If you choose the **Prices Including VAT** checkbox on a sales document, the **Unit Price** and **Line Amount** fields will include VAT. By default, the values in these fields do not include VAT. The names of the fields reflect whether prices include VAT.  
 
 You can set up the default setting of the **Prices Including VAT** for all sales documents for a customer in the **Prices Including VAT** field on the **Customer** card. You can also set up item prices to include or exclude VAT. Typically, prices on the Item Card will exclude VAT. 
 
@@ -46,7 +46,8 @@ The following table provides an overview of how application calculates the unit 
 |Enabled|Not Enabled|The application calculates the VAT amount included in the **Unit Price** field on the **Item Card** using the VAT percentage related to the VAT Bus. Posting Gr. (Price) and the VAT Prod. Posting Group combination. The **Unit Price** on the Item Card, reduced by the VAT amount, is then entered in the **Unit Price Excl. VAT** field in the sales lines. For more information, see [Using VAT Business Posting Groups and Customer Price Groups](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups).|  
 |Enabled|Enabled|The **Unit Price** on the Item Card is copied to **Unit Price Incl. VAT** field on the sales lines.|
 
-#### Using VAT Business Posting Groups and Customer Price Groups 
+#### Using VAT business posting groups and customer price groups 
+
 If you want prices to include VAT, you can use VAT business posting groups to calculate the amount based on the VAT posting setup for the group. For more information, see [Set up VAT business posting groups](finance-setup-vat.md#set-up-vat-business-posting-groups).
 
 Depending on what you want to do, you can assign a VAT business posting group to customers or sales documents in the following ways:
@@ -70,10 +71,16 @@ Factors such as the country or region you're selling in, or the type of industri
 When you create new sales or purchase documents, the **VAT Date** will be based on the setting in the **Default VAT Date** field on the **General Ledger Setup** page. This default value can be the same as **Posting Date** or **Document Date**. If you need a different VAT date, you can manually change the value in the **VAT Date** field. When you post the document, the **VAT Date** will be shown on the posting document and on the VAT and G/L entries.
 
 > [!NOTE]
-> If the **VAT Date** field isn't available on your documents or journals, that means that **Do not use VAT Date functionality** is chosen in the **VAT Date Usage** field on the **General Ledger Setup** page.   
+> If the **VAT Date** field isn't available on your documents or journals, that means that **Do not use VAT Date functionality** is chosen in the **VAT Date Usage** field on the **General Ledger Setup** page.  
+
+> [!IMPORTANT]
+> If you configure **Control VAT Period** in the **General Ledger Setup** as **Block posting within closed period**, or **Block posting within closed and warn for released period**, you can post document or journal only if the date in the **VAT Date** field is not in a closed period in **VAT Return Periods**. Even if the period in **VAT Return Periods** is open, you might get a warning based on the **VAT Return Status** and configuration in the **Control VAT Period**.
+
+> [!IMPORTANT]
+> You can prevent or allow posting of the **VAT Date** for specific data range, using the **Allow Posting From** and **Allow Posting To** fields in the **General Ledger Setup** and the **User Setup**.  
 
 > [!NOTE]
-> You can post document only if the date in the **VAT Date** field is not in a closed period in **VAT Return Periods**. Even if the period in **VAT Return Periods** is open, you might get a warning based on the **VAT Return Status**.   
+> If you leave the **VAT Date** blank, [!INCLUDE [prod_short](includes/prod_short.md)] will use your default setup from **Default VAT Date** in the **General Ledger Setup** as a **VAT Date** in the posted transaction.  
 
 ### Modifying the VAT Date in posted entries
 
@@ -82,14 +89,13 @@ If needed, you can change the VAT date posted documents. To change the date in t
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Entries**, and then choose the related link. 
 2. Find the entry with wrong VAT date.  
 3. Choose the **Edit list** action, and then enter the correct date in the **VAT Date** field.  
-4. Close the page. 
-5. The VAT date will be changed in related **G/L Entries** and in the posted document.  
+4. When you close the page, the VAT date will change in related **G/L Entries** and in the posted document.  
 
 > [!NOTE]
-> You can modufy the **VAT Date** field in **VAT Entries** only if your current date is not in the closed **VAT Return Periods**. Even if the period in **VAT Return Periods** is open, you can get warning based on the **VAT Return Status**.   
+> You can change the **VAT Date** field in **VAT Entries** only if your current date is not in a closed VAT return period. Even if the period in the **VAT Return Periods** field is open, you might get a warning based on the **VAT Return Status**.  
 
 > [!NOTE]
-> If your document has more than one **VAT Entry**, you need to change the value in the **VAT Date** field in only one entry related to the document. To keep entries consistent, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically change the VAT date in other VAT entries related to the document.
+> If your document has more than one **VAT Entry**, you only need to change the value in the **VAT Date** field in one entry related to the document. To keep entries consistent, [!INCLUDE[prod_short](includes/prod_short.md)] automatically changes the VAT date in VAT entries related to this transaction. [!INCLUDE [prod_short](includes/prod_short.md)] will update the **VAT Date** in other tables (GL Entries and documents), but only related to this transaction.  
 
 ## Correcting VAT amounts manually on sales and purchase documents  
 

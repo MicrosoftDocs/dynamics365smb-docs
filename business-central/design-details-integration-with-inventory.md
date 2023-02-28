@@ -29,7 +29,7 @@ The Warehouse Management application area and the Inventory application area int
   
  When you post the physical inventory journal, the inventory and the default adjustment bin are updated.  
   
-### Warehouse Adjustments to the Item Ledger  
+## Warehouse Adjustments to the Item Ledger  
  You use the **Item Journal** page and the **Calculate Whse. Adjustment** function to adjust inventory on the item ledger in accordance with an adjustment that has been made to the item quantity in a warehouse bin. To create a link between the inventory and the warehouse, you must define a default adjustment bin per location.  
   
  The default adjustment bin registers items in the warehouse when you post an increase for the inventory. However, if you post a decrease, the quantity on the default bin is also decreased. In both cases, item ledger entries and warehouse entries are created.  
@@ -42,7 +42,7 @@ The Warehouse Management application area and the Inventory application area int
  If you enter a positive quantity and post the line, then the inventory stored in the bin increases, and the quantity of the default adjustment bin decreases correspondingly.  
   
 ## See Also  
- [Design Details: Warehouse Management](design-details-warehouse-management.md)   
- [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

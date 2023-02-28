@@ -19,7 +19,7 @@ Each user who performs warehouse activities must be set up as a warehouse employ
 
 ## To set up warehouse employees  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Employees**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Select the **User ID** field, and then select the user to be added as a warehouse employee. Choose the **OK** button.  
 4. In the **Location Code** field, enter the code of the location where the user will be working.  
@@ -30,11 +30,10 @@ Each user who performs warehouse activities must be set up as a warehouse employ
 
 ## See also
 
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
-[Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -74,7 +74,7 @@ You can also add capabilities to your [!INCLUDE [prod_short](includes/prod_short
 [Fixed Assets](fa-manage.md)  
 [Assembly Management](assembly-assemble-items.md)  
 [Manufacturing](production-manage-manufacturing.md)  
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Getting Ready to Do Business](ui-get-ready-business.md)  

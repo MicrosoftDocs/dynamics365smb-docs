@@ -4,7 +4,7 @@ description: Learn what to do if something goes wrong during the synchronization
 ms.date: 08/19/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 30118, 30119, 30120, 
+ms.search.form: 30118, 30119, 30120, 30101, 30102 
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen

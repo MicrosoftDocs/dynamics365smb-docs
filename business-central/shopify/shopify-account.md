@@ -4,6 +4,7 @@ description: Learn how to get a Shopify account so you can demonstrate the workf
 ms.date: 06/21/2022
 ms.topic: article
 ms.service: dynamics365-business-central
+ms.search.form: 30101, 30102 
 ms.reviewer: solsen
 author: AndreiPanko
 ms.author: andreipa

@@ -21,7 +21,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 |**To**|**See**|  
 |------------|-------------|  
-|Get an overview of the capabilities of basic versus advanced warehouse functionality.|[Design Details: Warehouse Overview](design-details-warehouse-overview.md)|  
+|Get an overview of the capabilities of basic versus advanced warehouse functionality.|[Warehouse Management Overview](design-details-warehouse-management.md)|  
 |Set up eight different bin types, such as Picking Bin, to define the flow activities that relate to each bin type.|[Set Up Bin Types](warehouse-how-to-set-up-bin-types.md)|  
 |Create bins, either manually or automatically, with information, such as name, number series, and category, according to a bin template.|[Create Bins](warehouse-how-to-create-individual-bins.md)|  
 |Define which items you want to store in any given bin and set the rules that decide when to fill the bin with a particular item.|[Create Bin Contents](warehouse-how-to-set-up-bin-contents.md)|  
@@ -36,17 +36,14 @@ The following table describes a sequence of tasks, with links to the topics that
 |Enable warehouse workers to break a larger unit of measure into smaller units of measure to fulfill the needs of source documents.|[Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Set up the warehouse to automatically suggest items to be picked that expire first.|[Enable Picking by FEFO](warehouse-picking-by-fefo.md)|
 |Get tips on how to reorganize locations, bins, or zones to obtain more efficient warehouse activities.|[Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|
-|Integrate bar code readers to your warehouse management solution. Only for on-premise deployment.|[Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
 ## See related [Microsoft training](/training/paths/set-up-warehouse-management/)
 
 ## See also
 
-[Warehouse Management](warehouse-manage-warehouse.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Assembly Management](assembly-assemble-items.md)  
-[Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

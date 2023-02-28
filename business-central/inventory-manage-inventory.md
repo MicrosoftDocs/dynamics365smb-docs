@@ -21,7 +21,7 @@ Inventory increases and decreases are naturally also recorded when you post purc
 To enhance your overview of items and to help you find them, you can categorize items and give them attributes to search and sort by.
 
 > [!NOTE]
-> The physical handling of items is referred to as warehouse activities. Laern more at [Warehouse Management](warehouse-manage-warehouse.md).
+> The physical handling of items is referred to as warehouse activities. Learn more at [Warehouse Management Overview](design-details-warehouse-management.md).
 
 Planning for items to fulfill demand is covered as part of supply planning functionality. Learn more at [Planning](production-planning.md).  
 
@@ -59,7 +59,7 @@ The following table outlines related tasks.
 
 ## See also
 
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

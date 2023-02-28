@@ -37,10 +37,9 @@ To enable movements according to FEFO, leave the **From Bin** field empty on the
 If the **Strict Expiration Posting** field is selected on the **Item Tracking Code Card**, only items that are not expired will be included in the pick, and the lines are sorted according to the FEFO principle.
 
 ## See Also  
-[Picking Items](warehouse-pick-items.md)   
 [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)   
-[Design Details: Warehouse Management](design-details-warehouse-management.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

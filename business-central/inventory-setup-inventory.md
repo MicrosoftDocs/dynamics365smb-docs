@@ -18,7 +18,7 @@ Before you can manage warehouse activities and inventory costing, you must confi
 
 You can provide better customer service and optimize your supply chain by organizing your inventory at different addresses. You can then buy, store, or sell items at different locations and transfer inventory between them.
 
-When you have set up your inventory, you can manage various processes related to item transactions. For more information, see [Manage Inventory](inventory-manage-inventory.md) and [Warehouse Management](warehouse-manage-warehouse.md).
+When you have set up your inventory, you can manage various processes related to item transactions. For more information, see [Manage Inventory](inventory-manage-inventory.md) and [Warehouse Management Overview](design-details-warehouse-management.md).
 
 | To | See |
 | --- | --- |
@@ -41,6 +41,7 @@ When you have set up your inventory, you can manage various processes related to
 [Managing Inventory](inventory-manage-inventory.md)  
 [Managing Purchasing](purchasing-manage-purchasing.md)  
 [Managing Sales](sales-manage-sales.md)    
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 

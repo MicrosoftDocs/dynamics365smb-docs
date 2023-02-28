@@ -33,11 +33,10 @@ You set up the description and code for each shipment method on the **Shipment M
 
 [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)  
 [Track Packages](sales-how-track-packages.md)  
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
-[Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Incoterms on iccwbo.org](https://iccwbo.org/resources-for-business/incoterms-rules)  
 

@@ -135,7 +135,7 @@ The put-away template can be assigned to an item and to a location. The put-away
 
 ## See Also
 
-[Design Details: Warehouse Management](design-details-warehouse-management.md)   
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)
 
 

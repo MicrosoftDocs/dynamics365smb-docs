@@ -56,13 +56,10 @@ In this worksheet, you can work with a number of bin content lines for a number 
 
 ## See also
 
-[Calculate Bin Replenishment](warehouse-how-to-calculate-bin-replenishment.md)  
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
-[Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Design Details: Warehouse Setup](design-details-warehouse-setup.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

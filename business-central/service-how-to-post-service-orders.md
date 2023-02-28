@@ -97,7 +97,7 @@ The following procedure shows how to post shipment of service line items in loca
 
 If the location is set up to require warehouse handling, then the shipping and moving of service line items function in the same ways as for other source documents. The only difference is that service line items can be consumed either externally or internally and therefore require two different release functions.  
 
-For information about shipping service line items in advanced warehouse configurations, see [Picking Items for Warehouse Shipment](warehouse-pick-items.md).  
+To learn more about shipping service line items in advanced warehouse configurations, go to picking Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
 
 ## To undo posted consumption  
 You can cancel the consumption on the service orders. For example, because it was posted by mistake.  

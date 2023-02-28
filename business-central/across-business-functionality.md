@@ -34,7 +34,7 @@ ms.author: edupont
 |Plan the production operations required to transform inputs into finished goods.|[Planning](production-planning.md)|
 |Put salable items together in simple steps to make a new item, such as a kit.|[Assembly Management](assembly-assemble-items.md)|
 |Define shop floor resources and their capacity, schedule operations, pull production components, and execute production operations.|[Manufacturing](production-manage-manufacturing.md)|
-|Ensure an effective flow of received and shipped goods.|[Warehouse Management](warehouse-manage-warehouse.md)|
+|Ensure an effective flow of received and shipped goods.|[Warehouse Management Overview](design-details-warehouse-management.md)|
 |Schedule service calls and set up service orders, and track repair parts and supplies.|[Service Management](service-service.md)|
 |Set up and use workflows that connect tasks performed by different users or by the system, such as automatic posting. Requesting and granting approval to create or post documents are typical workflow steps.|[Workflow](across-workflow.md)|
 |Enable users to exchange data with external sources during daily tasks, such as sending/receiving electronic documents, importing/exporting bank files, and updating currency exchange rates.|[Exchanging Data Electronically](across-data-exchange.md)|

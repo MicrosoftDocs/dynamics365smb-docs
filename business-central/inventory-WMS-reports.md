@@ -32,6 +32,6 @@ The following articles describe some of the key tasks for analyzing the state of
 [Setting Up Inventory](inventory-setup-inventory.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

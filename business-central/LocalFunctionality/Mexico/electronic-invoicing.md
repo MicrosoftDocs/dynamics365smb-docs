@@ -1,5 +1,5 @@
 ---
-title: Electronic Invoicing [MX]
+title: Electronic invoicing - Mexico
 description: Business Central supports CFDI so that you can export sales and service invoices and credit memos as electronic documents with the required digital signature.
 author: edupont04
 
@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 10458, 10459, 27001, 27002, 27003, 27010,27011, 27011, 27012, 27013,27014,27015, 27016, 27017, 27018, 27040, 27041, 27042, 27043, 27044
-ms.date: 06/01/2022
+ms.date: 03/02/2023
 ms.author: edupont
 
 ---
@@ -83,27 +83,27 @@ The following table provides an overview of the options for the **CFDI Cancellat
 
 If you choose code *01*, then you must also specify the document that substitutes the canceled document in the **Substitution Document No.** field.  
 
-### To send Posted Sales Invoice for cancelling
+### Send a posted sales invoice for canceling
 
-1. Open Posted Sales Invoice you want to cancel and select the **Cancel** action.  
-2. Select the **Cancel Request** option and confirm. This action allows us to send the cancellation request to the PAC service and get Cancellation ID for the document.  
-3. Once user gets successful response from PAC service, the **Electronic Document Status** is updated to **Cancel In Progress**, and the **Cancellation ID** is taken from the response and updated in the document. The **Date/Time Stamped** field will be updated.  
-4. If the error message appears, the **Electronic Document Status** is updated to **Cancel Error** status and details of error will appear in the **Error Code** and **Error Description** fields. The **Date/Time Stamped** field will be updated.  
+1. Open the posted sales invoice that you want to cancel, and then select **Cancel**.  
+2. Select **Cancel Request** and confirm. This action allows us to send the cancellation request to the PAC service and receive a cancellation ID for the document.  
+3. After you receive a successful response from PAC service, the status is updated to **Cancel In Progress**, and the cancellation ID is taken from the response and updated in the document. The **Date/Time Stamped** field is updated.  
+4. If the error message appears, the status is updated to **Cancel Error**. The details of error are shown in the **Error Code** and **Error Description** fields. The **Date/Time Stamped** field is updated.  
 
 ### Send a request to update the status
 
-The document that is being cancelled should be processed and approved by SAT authorities, and the information about status should be requested from PAC service.  
+The document that is being canceled should be processed and approved by SAT authorities. The information about the status should be requested from the PAC service.  
 
-To update status, user shell use the **Get Response** option to check and update cancellation status from SAT authorities. 
+To update the status, select **Get Response** to check and update the cancellation status from the SAT authorities. 
 
 > [!NOTE]  
-> The possible responses **EnProceso**, **Rechazado**, and **Cancelado** will update the **Electronic Document Status** field for next values respectively: **Cancel In Progress**, **Cancel Error**, or **Canceled**. 
+> The possible responses **EnProceso**, **Rechazado**, and **Cancelado** update the **Electronic Document Status** field for the next values respectively: **Cancel In Progress**, **Cancel Error**, or **Canceled**. 
 
-### Manual cancellation of the Posted Sales Invoice
+### Manual cancellation of the posted sales invoice
 
 In some cases when the document cannot be processed properly, due to erroneous reason codes, if it cannot be classified by SAT, or some other reason, it is possible to force cancellation manually. In this case, user just needs to select the **Mark as Canceled** action in the menu. 
 
-### E-Invoice Status Request Batch
+### E-Invoice ssatus request batch
 
 User is able to schedule a batch job to process document with **Electronic Document Status** equals **Cancel Error**, and **Cancel In Progress**.  
 

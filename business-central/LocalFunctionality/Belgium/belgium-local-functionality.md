@@ -70,7 +70,7 @@ The following topics describe local functionality that is unique to the Belgian 
 
 ## Future legislation requirements being investigated
 
-* Intervat VAT declaration version 9 **Planned for 2023 wave 1**
+* Intervat VAT declaration version 9 
 
 ## See Also
 

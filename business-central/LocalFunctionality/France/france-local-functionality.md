@@ -58,7 +58,7 @@ The following articles describe local functionality that is unique to the French
 
 ## Future legislation requirements being investigated
 
-* Electronic invoicing **2024 Wave 1**
+* Electronic invoicing 
 
 ## See Also
 

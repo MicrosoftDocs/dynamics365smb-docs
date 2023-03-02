@@ -54,7 +54,7 @@ The following topics describe the local functionality in the Czech version of [!
 
 ## Future legislation requirements being investigated
 
-* Activate VAT Reporting Date in CZ localization **2023 wave 1**
+* Activate VAT reporting date in CZ localization **2023 wave 1**
 * Modern Intrastat solution for CZ **2023 wave 1**
 
 ## See also

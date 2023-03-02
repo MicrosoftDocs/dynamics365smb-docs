@@ -38,6 +38,10 @@ The following topics describe local functionality that is unique to the Austrian
 * General
     * [Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md) **Available Now**
 
+## Future legislation requirements being investigated
+
+* SAF-T reporting in Austria
+
 ## See Also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

@@ -29,7 +29,7 @@ In order to support the form changes by the IRS, [!INCLUDE[prod_short](../../inc
 2. Choose the **Update Form Boxes** action.  
 
 > [!NOTE] 
-> Don't fill out the **1099 Form Boxes** manually. Instead, select **Update Form Boxes**.
+> Don't fill out the 1099 form boxes manually. Instead, select **Update Form Boxes**.
 
 > [!IMPORTANT]
 > Running the action **Update Form Boxes** makes reporting for the previous year impossible, since some boxes change their meaning. Make sure that you have done all your reporting for the previous year before you update the form boxes to prepare your system for reporting for the new year.

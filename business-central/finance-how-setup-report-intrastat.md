@@ -1,26 +1,26 @@
 ---
-title: Set Up Intrastat Reporting
+title: Set Up Intrastat reporting
 description: Learn how to set up Intrastat reporting features to report trade with companies in other EU countries.
 author: altotovi 
 ms.author: altotovi
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 12/20/2022
+ms.date: 03/02/2023
 ms.custom: bap-template
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077
 ---
-# Set Up Intrastat Reporting
+# Set Up Intrastat reporting
 
 All companies in the European Union (EU) must report their trade with other EU countries/regions. Companies must report the movement of goods to the statistics authorities in their country/region every month, and the report must be delivered to the tax authorities. Intrastat is the system for collecting trade statistics of goods within these countries/regions. You use **Intrastat Report** to complete periodic Intrastat reporting (typically monthly), collecting, recording, and reporting trade of goods according to local legislation.
 
 Intrastat reporting is based on basic EU regulations that apply to all countries; however, in practice, there are some differences within the individual countries. Each country has its rules of what exactly and how to report.
 
 > [!NOTE]
-> Intrastat information doesn't apply to the movement of services between countries, but only goods (items and fixed assets). If your government requires you to register the movement of services between countries, you can use the **Service Declaration** feature.
+> Intrastat information doesn't apply to the movement of services between countries. Instead the information only applies goods such as items and fixed assets. If your government requires you to register the movement of services between countries, you can use the **Service Declaration** feature.
 >
-> This feature is available from November 2022 as an app at [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). If you want to use it, you must install it on the **Extension Management** page.
+> This feature is available starting November 2022 as an app that you can download from [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). To use this feature, you must install it on the **Extension Management** page.
 
 > [!IMPORTANT]
 > This article covers the new Intrastat experience available from [!INCLUDE[prod_short](includes/prod_short.md)] version 21. Consult your administrator to learn which version your company is using and whether you should enable the new functionality.
@@ -29,10 +29,10 @@ Intrastat reporting is based on basic EU regulations that apply to all countries
 
 ## Enable the new Intrastat experience
 
-In the 2022 release wave 2, [!INCLUDE[prod_short](includes/prod_short.md)] includes a redesigned Intrastat experience with extended features. If the new Intrastat functionality is not enabled in your environment, an administrator can enable it on the **Feature Management** page.
+In the 2022 release wave 2, [!INCLUDE[prod_short](includes/prod_short.md)] includes a redesigned Intrastat experience with extended features. If the new Intrastat functionality isn't enabled in your environment, an administrator can enable it on the **Feature Management** page.
 
 > [!IMPORTANT]
-> You can't use the old and new experiences in parallel. Before you activate the extension in a production environment, we recommend that you test it in a sandbox environment using a copy of your production data. Once you activate a new user experience in your production environment, you can't revert to the old Intrastat functionality.
+> You can't use the old and new experiences in parallel. Before you activate the extension in a production environment, we recommend that you test it in a sandbox environment using a copy of your production data. After you activate a new user experience in your production environment, you can't revert to the old Intrastat functionality.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Feature Management** and then choose the related link.
 2. On the **Feature Management** page, select the **Feature Update: Replace the existing Intrastat functionality with the new Intrastat extension** line. Learn more about feature management at [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management) in the administration content.
@@ -201,12 +201,12 @@ To set up all necessary information related to Intrastat on item cards:
 3. On the **Costs & Posting** FastTab, fill the **Tariff No.**, **Supplementary Unit of Measure**, and **Country/Region of Origin Code** fields.
 
     > [!NOTE]
-    > To use a unit of measure to supplement the base unit of measure, you must configure the supplementary unit of measure on the **Item Units of Measure** page.
+    > To use a unit of measure to supplement the base unit of measure, configure the supplementary unit of measure on the **Item Units of Measure** page.
 
 4. On the **Inventory** FastTab, enter the decimal value in the **Net Weight** field.
 
 > [!NOTE]
-> When you add the **Tariff Number** with a **Unit of Measure** defined for the item, [!INCLUDE [prod_short](includes/prod_short.md)] automatically fills in the **Supplementary Unit of Measure** field based on the **Tariff Number** configuration. If needed, you can change the **Supplementary Unit of Measure**.
+> When you add the **Tariff Number** to a **Unit of Measure** that's defined for the item, [!INCLUDE [prod_short](includes/prod_short.md)] automatically fills in the **Supplementary Unit of Measure** field based on the **Tariff Number** configuration. If needed, you can change the **Supplementary Unit of Measure**.
 
 #### Set up fixed assets for Intrastat
 
@@ -219,7 +219,7 @@ To set up all necessary information related to Intrastat on item cards:
 
 #### Set up vendors for Intrastat
 
-Before you can include a vendor in Intrastat reporting, you must enter some information about them on the **Vendor Card** page. For example, you must specify a **Country/Region Code** and a **VAT Registration No.**.
+Before you can include a vendor in Intrastat reporting, enter information about the vendor on the **Vendor Card** page. For example, specify a **Country/Region Code** and a **VAT Registration No.**.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, then choose the related link.
 2. Select the vendor you want to configure.
@@ -253,8 +253,8 @@ If there is a reason for a specific item or fixed asset to be excluded from Intr
 
 #### Set up tariff numbers
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tariff Numbers**, and then choose the related link.  
-2. On the **Tariff Numbers** page, fill in the fields described in the following table.
+1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tariff Numbers**, and then select the related link.  
+2. On the **Tariff Numbers** page, enter information in the fields described in the following table.
 
     |Field|Description|  
     |------------------------------------|---------------------------------------|
@@ -265,14 +265,13 @@ If there is a reason for a specific item or fixed asset to be excluded from Intr
     |**Unit of Measure**|Specifies the unit of measure for the tariff number. |
 
 > [!NOTE]
-> If you add a supplementary unit of measure, [!INCLUDE [prod_short](includes/prod_short.md)] will ask whether you want to update related items. If you choose to update related items, the **Unit of Measure** on the **Item Units of Measure** page will be updated for all items with the same tariff number.
-
-> [!NOTE]
+> If you add a supplementary unit of measure, [!INCLUDE [prod_short](includes/prod_short.md)] will ask if you want to update related items. If you choose to update related items, the **Unit of Measure** on the **Item Units of Measure** page will be updated for all items with the same tariff number.
+> 
 > When you add the **Tariff Number** with a defined **Unit of Measure** to the item, [!INCLUDE [prod_short](includes/prod_short.md)] will automatically add a new unit of measure to the **Item Units of Measure** for the item. The **Qty. per Unit of Measure** will be based on the **Quantity Rounding Precision** field.
 
 ## Enter country-specific Intrastat settings
 
-Intrastat requirements are similar in all member states of the EU, although there are important exceptions. In theory, the rules should be uniformly applied in all member states. However, there are differences in implementations because some member states provide guidelines on how to apply the principles in specific situations. For example, commercial samples, return of goods, and so on. These guidelines can produce different results for various situations. Therefore, the information that countries must enter can differ. The file format to use for reporting can also differ.
+Intrastat requirements are similar in all member states of the EU, although there are important exceptions. In theory, the rules should be uniformly applied in all member states. However, there are differences in implementations because some member states provide guidelines on how to apply the principles in specific situations. For example, commercial samples and return of goods. These guidelines can produce different results for various situations. Therefore, the information that countries must enter can differ and the file format to use for reporting can also differ.
 
 ### Austria
 

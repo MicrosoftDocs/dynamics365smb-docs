@@ -28,7 +28,8 @@ In order to support the form changes by the IRS, [!INCLUDE[prod_short](../../inc
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **1099 Form Boxes**, and then choose the related link.
 2. Choose the **Update Form Boxes** action.  
 
-> [!NOTE] Do not fill out the **1099 Form Boxes** manually. Instead, choose **Update Form Boxes**.
+> [!NOTE] 
+> Don't fill out the **1099 Form Boxes** manually. Instead, select **Update Form Boxes**.
 
 > [!IMPORTANT]
 > Running the action **Update Form Boxes** makes reporting for the previous year impossible, since some boxes change their meaning. Make sure that you have done all your reporting for the previous year before you update the form boxes to prepare your system for reporting for the new year.

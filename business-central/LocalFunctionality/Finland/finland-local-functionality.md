@@ -39,7 +39,7 @@ The following topics describe local functionality that is unique to the Finnish 
 
 ## Future legislation requirements being investigated
 
-* Automatic account codes delivered as an app
+* Automatic account codes delivered as an app **2023 Wave 1**
 
 ## See Also
 

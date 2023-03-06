@@ -42,7 +42,7 @@ The following topics describe local functionality that is unique to the United K
 
 ## Future legislation requirements being investigated
 
-* Function to re-submit the VAT Return **Wave 2, 2023**
+* Functionality to resubmit a VAT Return **2023 Wave 2**
 
 ## See Also
 

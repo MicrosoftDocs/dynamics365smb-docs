@@ -41,8 +41,8 @@ The following topics describe local functionality that is unique to the United S
 
 ## Future legislation requirements being investigated
 
-* EIN Number and IRS Employee Contact fields on Company Information **Wave 1, 2023**
-* Making new IRS 1099 functionality as an app with much more features included **Wave 1, 2024**
+* EIN number and IRS employee contact fields on Company information **2023 Wave 1**
+* New IRS 1099 functionality in an app with more features included **2024 Wave 1**
 
 ## See also
 

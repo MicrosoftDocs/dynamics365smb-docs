@@ -39,6 +39,11 @@ The following topics describe local functionality that is unique to the United S
 > [!NOTE]
 > If you have customers in Europe, please note that you cannot report VAT to European authorities in the US version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. You may want to work with a consultant to add the capability to your environment based on the specific countries that you ship to.  
 
+## Future legislation requirements being investigated
+
+* EIN number and IRS employee contact fields on Company information **2023 Wave 1**
+* New IRS 1099 functionality in an app with more features included **2024 Wave 1**
+
 ## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

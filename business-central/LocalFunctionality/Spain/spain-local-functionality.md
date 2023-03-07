@@ -66,6 +66,10 @@ The following topics describe local functionality unique to the Spanish version 
   * [Enter NACE Codes](how-to-enter-nace-codes.md) **Available Now**
   * [Set Limits for Due Dates](how-to-set-limits-for-due-dates.md) **Available Now**
 
+## Future legislation requirements being investigated
+
+* Requirements for ES e-invoicing **July 2024**
+
 ## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

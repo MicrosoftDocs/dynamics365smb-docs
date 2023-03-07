@@ -32,8 +32,8 @@ The following topics describe local functionality that is unique to the Swedish 
 ## Future legislation requirements being investigated
 
 * Moving Swedish localization to an app **May 2023**
-* SIE export/import as a part of Audit File Export app **May 2023**
-* Moving Automatic Account Code to a global app **May 2023**
+* SIE export/import as a part of the Audit file export app **May 2023**
+* Moving Automatic account code to a global app **May 2023**
 
 ## See Also
 

@@ -68,7 +68,7 @@ The following topics describe local functionality unique to the Spanish version 
 
 ## Future legislation requirements being investigated
 
-* Investigating requirements for ES e-invoicing **July 2024**
+* Requirements for ES e-invoicing **July 2024**
 
 ## See also
 

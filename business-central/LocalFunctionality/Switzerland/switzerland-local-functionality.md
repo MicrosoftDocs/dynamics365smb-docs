@@ -67,7 +67,7 @@ The following topics describe local functionality that is unique to the Swiss ve
 
 ## Future legislation requirements being investigated
 
-* DTA Payment Journal details deprecation **Wave 1 2023**
+* DTA Payment Journal details are being deprecated **2023 Wave 1**
 
 ## See Also
 

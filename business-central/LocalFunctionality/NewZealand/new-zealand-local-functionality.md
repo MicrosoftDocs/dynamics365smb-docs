@@ -48,6 +48,10 @@ The following topics describe local functionality that is unique to the New Zeal
     * [Enter New Zealand Business Numbers](how-to-enter-new-zealand-business-numbers.md) **Available Now**  
     * [New Zealand Inland Revenue Department Numbers and Adjustment Notes](new-zealand-business-numbers-and-adjustment-notes.md) **Available Now**  
 
+## Future legislation requirements being investigated
+
+Currently, there are no upcoming regulatory features or requirements. If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
 ## See Also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

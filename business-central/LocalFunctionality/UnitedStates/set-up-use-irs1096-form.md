@@ -30,11 +30,11 @@ Form 1096 is an extension. After you install the extension in your environment y
 
 If you didn’t use the setup guide to configure **IRS 1096 Form No. Series**, you can do so on the **Purchases & Payables Setup** page. Fill in the **IRS 1096 Form No. Series** field on the **Number Series** FastTab.
 
-You can additionally set up some more required fields for reporting. To do this, follow these steps:
+Complete the following steps to set up more required fields for reporting.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.   
-2. To specify EIN number showing on report, choose the **EIN Number** at the **Communication** FastTab and enter number you registered with IRS.  
-3. To specify responsible person for the communication with IRS, choose the **IRS Contact No.** and find responsible employee for this communication.  
+1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then select the related link.   
+2. To specify the EIN number to show on the report, on the **Communication** FastTab in the **EIN Number** field, enter the number you registered with IRS.  
+3. To specify who will communicate with the IRS, in the **IRS Contact No.** field, select the employee responsible for this communication.  
 
 ## To create a new 1096 form
 

@@ -91,7 +91,7 @@ The lines contain the following information. Amounts are summarized per **Vendor
 2. Open the form you want to print.
 3. If the status is **Open**, choose **Release** action to release the form and make it ready for printing.
 4. Choose **Print** actions to print the single form.
-5. If you didn't added **IRS Contact No.** in the **Company Information**, fill in the **Person to contact** details on the request page, and then choose **Print**.
+5. If you didn't add the **IRS Contact No.** in the **Company Information**, enter details about the **Person to contact**on the request page, and then select **Print**.
 6. After printing, the following fields at the **History** FastTab will be updated:
 
     * **Printed by** – Specifies the ID of the last user who printed the form.

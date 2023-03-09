@@ -68,6 +68,10 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Set the Work Date as the Posting Date](how-to-set-the-work-date-as-the-posting-date.md) **Available Now**
     * [Make Journal Templates Mandatory](specify-journal-template-mandatory.md) **Available Now**
 
+## Future legislation requirements being investigated
+
+* Intervat VAT declaration version 9 
+
 ## See Also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

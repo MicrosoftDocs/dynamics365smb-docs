@@ -126,8 +126,8 @@ After you complete the setup, [!INCLUDE[prod_short](includes/prod_short.md)] wil
 1. In the top right corner, choose the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center"), and then choose the **Assisted setup** action.
 2. Choose the **Set Up VAT Group Management** action.
 3. In the **VAT Group Role** field, choose **Representative** to act as the VAT group representative, then choose **Next**.
-4. In the **Group Settlement Account** field, specify the settlement account used for the group member VAT tax amounts.
-5. In the **VAT Settlement Account** field, specify the account you use for VAT settlements.
+4. In the **Group Settlement Account** field, specify the settlement account used for the group member VAT tax amounts. This account should have **Assets** as the **Account Category**.
+5. In the **VAT Settlement Account** field, specify the account you use for VAT settlements. This account should have **Liabilities** as the **Account Category**.
 6. In the **VAT Due Box No.** field, specify the box that represents the total VAT amount due from a VAT group submission.
 7. In the **Group Settlement General Journal Template** field, specify the general journal template used to create the document with which the group representative posts the group VAT to the settlement account.
 8. The **Approved Members** field shows the number of group members set up to submit VAT returns to the group representative. To add new members, choose the number to open the **VAT Group Approved Members** page and add the following information:

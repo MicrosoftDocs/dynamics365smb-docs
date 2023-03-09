@@ -31,7 +31,6 @@ The following topics describe local functionality that is unique to the Italian 
     * [Prepare for VAT Transactions Reports](how-to-prepare-for-vat-transactions-reports.md) **Available Now**
     * [Print and Reprint G/L Books and VAT Registers](how-to-print-and-reprint-g-l-books-and-vat-registers.md) **Available Now**
     * [Print Intrastat Reports for Italy](how-to-print-intrastat-reports-for-italy.md) **Available Now**
-    * Intrastat for Services **2022 release wave 2**
     * [Print Withholding Reports](how-to-print-withholding-tax-reports.md) **Available Now**
 
 * Banking & Payments
@@ -61,6 +60,12 @@ The following topics describe local functionality that is unique to the Italian 
     * [Set Up Company Information](how-to-set-up-company-information.md) **Available Now**
     * [Italian Subcontracting](italian-subcontracting.md) **Available Now**
     * [Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md) **Available Now**
+
+## Future legislation requirements being investigated
+
+* Intrastat for Services **2023 release wave 1**
+* Updated Electronic invoicing (FatturaPA) **2024 release wave 2**
+
 
 ## See Also
 

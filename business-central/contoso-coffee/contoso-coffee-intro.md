@@ -1,6 +1,6 @@
 ﻿---
 title: Introduction to Contoso Coffee Demo Data
-description: Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the manufacturing capabilities in Business Central.
+description: Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the capabilities in Business Central.
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
@@ -11,30 +11,8 @@ ms.author: andreipa
 
 # Introduction to Contoso Coffee Demo Data
 
-Contoso Coffee is a fictitious company that produces consumer and commercial coffee makers. The **Contoso Coffee** apps for Business Central add demo data that you can use to learn how to use the manufacturing capabilities in Business Central.  
+Contoso Coffee is a fictitious company that produces consumer and commercial coffee makers. The **Contoso Coffee** apps for Business Central add demo data that you can use to learn how to use the capabilities in Business Central.  
 
-The app provides four products that are optimized for different scenarios:
-
-- **SP-SCM1009 Airpot**  
-
-  This product is a bill of material (BOM) with a subassembly, **Routing**. Use it to demonstrate the standard production flow. It's set up with alternative routings that you can use to demonstrate various scenarios that involve subcontractors. The costing method is *Standard*.  
-
-- **SP-SCM1011 Airpot Duo**  
-
-  This product requires item tracking and has a component that also requires item tracking. The costing method is *Specific*.  
-
-- **SP-SCM1004 Autodrip**  
-
-  This product is a BOM with a subassembly, **Routing**. We recommend it to demonstrate the various flushing methods both for components and operations. The costing method is *Standard*.
-
-- **SP-SCM1006 AutoDripLite**
-
-  This product has three variants and three bills of material (BOMs) that can be assigned to stockkeeping units. The product uses the phantom BOM concept. The costing method is *Standard*.
-
-The manufacturing activities for all scenarios use the *NORTH* location.  
-
-> [!IMPORTANT]
-> Before you run any of the scenarios for Contoso Coffee, post any item journal lines with opening balances. For more requirements, see the [Set up Contoso Coffee data](#set-up-contoso-coffee-data) section.
 
 ## Set up Contoso Coffee data
 
@@ -49,43 +27,61 @@ To use the Contoso Coffee demo data, you must install two apps in the relevant c
 
 Add the apps to an empty company in a paid subscription or as part of a trial. For example, create a new company with no sample data from the **Create New Company** assisted setup guide that you can open from the **Companies** list. Then add the apps from the [marketplace](../ui-extensions-install-uninstall.md#install) if they are not already listed in the **Extension Management** page.  
 
-Once the relevant apps are installed, go to the [Contoso Coffee Demo Data](https://businesscentral.dynamics.com/?page=4760) page in [!INCLUDE [prod_short](../includes/prod_short.md)], and change the default settings to suit your needs. The following tables describes the settings:  
+You then should complete:
+ - The [Manufacturing Setup](manufacturing/contoso-coffee-manufacturing-intro.md) to prepare for use of the [Manufacturing Scenarios](#manufacturing-scenarios)
+ - The [Warehousing Setup](warehousing/contoso-coffee-warehousing-intro.md) to prepare for use of the [Warehousing Scenarios](#warehousing-scenarios)
 
-|Field  |Description  |
-|---------|---------|
-|**Starting Year** |Specifies the first year that you you want to use for the Contoso Coffee demonstration data. Depending on the company setup, the year is either a calendar year or a fiscal year.|
-|**Manufacturing Location** |Specifies the warehouse that you want to use for production operations. The default is *NORTH*, but you can change it to suit your needs.|
-|**Company Type**    |Specifies if the current company must report VAT or sales tax. |
-|**Domestic - General Business Posting Group**|Specifies a business code for domestic customers and vendors. The business codes are used when transactions are posted. |
-|**Capacity - General Product Posting Group**    |Specifies a code for items or resources that must be used for posting capacity.|
-|**Retail - General Product Posting Group**    |Specifies a code for items or resources that must be used for posting retail.|
-|**Raw - General Product Posting Group**    |Specifies a code for items or resources that must be used for posting raw material. |
-|**Base VAT Code**    |Specifies an existing VAT product group that will be used for items.|
-|**Finished Code**    |Specifies an existing product group that will be used for finished items.|
-|**Price Factor**     |Specifies a factor to convert a price from USD/EUR to the local currency. *1* means that the price is the same amount in any currency. A higher number will be used to get the price in the local currency. |
-|**Rounding Precision**  |Defines how calculated consumption quantities are rounded when entered on consumption journal lines. Quantities less than 0.5 will be rounded down. Quantities equal to or greater than 0.5 will be rounded up.|
+## Manufacturing Scenarios
 
-Once you're ready, choose the **Create Demo Data** action. It takes a few minutes to add the data to the underlying database, but then you're ready to run the various scenarios.  
+The Contoso Coffee demo data currently supports the following manufacturing scenarios for test and training:
 
-## Scenarios
-
-The Contoso Coffee demo data currently supports the following scenarios for test and training:
-
-1. [Create a New Production BOM and BOM Version](create-new-production-bom-version.md)  
-2. [Create a New Routing](create-new-routing.md)  
-3. [Create a Firm Planned Production Order and Change It](create-firm-planned-production-order-change.md)  
-4. [Combine Automatic and Manual Flushing](combine-automatic-manual-flushing.md)  
-5. [Use Order Planning to Create and Reserve Supply](order-planning-create-reserve-supply.md)  
-6. [Set Up and Process a Subcontracting Operation](set-up-process-subcontracting-operation.md)  
-7. [Set Up New Capacity](set-up-new-capacity.md)  
-8. [Forecast demand for item variants with different BOMs assigned](variants.md)  
+1. [Create a New Production BOM and BOM Version](manufacturing/create-new-production-bom-version.md)  
+2. [Create a New Routing](manufacturing/create-new-routing.md)  
+3. [Create a Firm Planned Production Order and Change It](manufacturing/create-firm-planned-production-order-change.md)  
+4. [Combine Automatic and Manual Flushing](manufacturing/combine-automatic-manual-flushing.md)  
+5. [Use Order Planning to Create and Reserve Supply](manufacturing/order-planning-create-reserve-supply.md)  
+6. [Set Up and Process a Subcontracting Operation](manufacturing/set-up-process-subcontracting-operation.md)  
+7. [Set Up New Capacity](manufacturing/set-up-new-capacity.md)  
+8. [Forecast demand for item variants with different BOMs assigned](manufacturing/variants.md)  
 
 Read the steps for each scenario in the relevant article.  
 
 > [!IMPORTANT]
-> These walkthroughs require that the user experience is set to *Premium* in the **Company Information** page.
+> The Manufacturing walkthroughs require that the user experience is set to *Premium* in the **Company Information** page.
+
+## Warehousing Scenarios
+
+The Contoso Coffee demo data currently supports the following warehousing scenarios for test and training:
+
+1.	[Basic Location](warehousing/basic-location.md)
+    1.	[Receiving Items with Inventory Put-Away](warehousing/basic/receiving-items-with-inventory-put-away.md)
+    2.	[Shipping Items with Inventory Picks](warehousing/basic/shipping-items-with-inventory-picks.md)
+    3.	[Transferring Items](warehousing/basic/transferring-items.md)
+    4.	[Moving Items Between Bins](warehousing/basic/moving-items-between-bins.md)
+    5.	[Adjusting Items out of Inventory](warehousing/basic/adjusting-items-out-of-inventory.md)
+2.	[Simple Logistics Location](warehousing/simple-logistics-location.md)
+    1.	[Receiving a Single Order with Whse. Receipt](warehousing/simple/receiving-a-single-order-with-whse-receipt.md)
+    2.	[Combining Orders on a Whse. Receipt](warehousing/simple/combining-orders-on-a-whse-receipt.md)
+    3.	[Shipping a Single Order with Whse. Shipment](warehousing/simple/shipping-a-single-order-with-whse-shipment.md)
+    4.	[Combining Orders on a Whse. Shipment](warehousing/simple/combining-orders-on-a-whse-shipment.md)
+    5.	[Transferring Items](warehousing/simple/transferring-items.md)
+3.	[Advanced Logistics Location](warehousing/advanced-logistics-location.md)
+    1.	Receiving Scenarios
+        1.	[Receiving & Put-Away with Bin Defaults](warehousing/advanced/receiving-put-away-with-bin-defaults.md)
+        2.	[Receiving & Put-Away with Breakbulk](warehousing/advanced/receiving-put-away-with-breakbulk.md)
+        3.	[Receiving & Put-Away with Bin Capacity Limits](warehousing/advanced/receiving-put-away-with-bin-capacity-limits.md)
+    2.	[Warehouse Shipments](warehousing/advanced/warehouse-shipments.md)
+    3.	[Cross-Docking with Warehousing](warehousing/advanced/cross-docking-with-warehousing.md)
+    4.	[Transferring Items](warehousing/advanced/transferring-items.md)
+    5.	[Moving Items with Directed Pick & Put Away](warehousing/advanced/moving-items-with-directed-pick-put-away.md)
+    6.	[Adjusting Items with Directed Pick & Put Away](warehousing/advanced/adjusting-items-with-directed-pick-put-away.md)
+
+> [!IMPORTANT]
+> After running the [Warehousing Setup](warehousing/contoso-coffee-warehousing-intro.md), you will need to add [Warehouse Employees](warehousing/adding-warehouse-employee.md).
+
 
 ## See also
 
 [Manufacturing](../production-manage-manufacturing.md)  
-[Production Reports and Analytics in Business Central](../production-reports.md)  
+[Warehousing](../warehouse-manage-warehouse.md)  
+

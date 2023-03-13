@@ -1,6 +1,6 @@
 ---
 title: Automatic account codes in the Swedish version
-description: You can use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents in the Swedish version.
+description: Use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents in the Swedish version.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na

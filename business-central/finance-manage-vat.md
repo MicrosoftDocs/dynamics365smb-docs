@@ -19,7 +19,7 @@ Value Added Tax (VAT) is an indirect tax on the consumption of goods and service
 |--------|--------------|  
 | [Work with VAT on Sales and Purchases](finance-work-with-vat.md) | This article includes the various ways to work with VAT using a manual or automatic setup. This article also provides guidance to help you meet country/region-specific regulations.|
 | [Set Up Value-Added Tax](finance-setup-vat.md) | This article provides information to help you ensure that you correctly calculate, post, and report on VAT for sales and purchases.|
-| [Posting Group Setup](finance-posting-groups#tax-posting-groups) | This article provides an overview of the VAT and other posting groups you can use to save time and avoid mistakes when you post transactions.|
+| [Posting Group Setup](finance-posting-groups.md#tax-posting-groups) | This article provides an overview of the VAT and other posting groups you can use to save time and avoid mistakes when you post transactions.|
 | [Set Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md) | If you are using cash-based accounting, this article provides guidance about how to specify handling unrealized VAT for sales and purchases.|
 | [Submit VAT Reports to Tax Authorities](finance-how-report-vat.md) | Use this article to learn how to prepare reports that list VAT from sales during a period, or from sales and purchases, and then submit the report to a tax authority.|
 | [Set Up a VAT Statement](finance-how-setup-vat-statement.md) | This article provides information to ensure that you know how to set up a VAT statement template and VAT statement names to meet changing tax authority requirements.|

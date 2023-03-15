@@ -126,7 +126,7 @@ There are a few steps you can do to improve the text suggestions and tweak them 
 
 ## See also
 
-[Overview of AI-powered item marketing text (preview) with Copilot](ai-overview.md)  
-[Enable or disable AI-powered item marketing text with Copilot](enable-ai.md).
-[AI-powered item marketing text (preview) with Copilot FAQ](ai-faq.md)  
-[Register New Items](inventory-how-register-new-items.md)
+[Overview of AI-powered item marketing text with Copilot](ai-overview.md)  
+[Configure AI-powered item marketing text with Copilot](enable-ai.md)  
+[AI-powered item marketing text with Copilot FAQ](ai-faq.md)  
+[Register New Items](inventory-how-register-new-items.md)  

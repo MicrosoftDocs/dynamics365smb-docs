@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Add marketing text to items
 
-For any item registered in Business Central, you can write *marketing text* about the item. Although marketing text is a kind of a description, it's different than item's **Description** field. The **Description** field is typically used a concise display name of item to quickly identify the product. The marketing text, on the other hand, is a more rich and descriptive text. It's purpose is for adding marketing and promotional content, also known as *copy*. This text can then be published with the item if it's published on a web shop, like Shopify.
+For any item registered in Business Central, you can write *marketing text* about the item. Although marketing text is a kind of a description, it's different than item's **Description** field. The **Description** field is typically used a concise display name of item to quickly identify the product. The marketing text, on the other hand, is a more rich and descriptive text. Its purpose is for adding marketing and promotional content, also known as *copy*. This text can then be published with the item if it's published on a web shop, like Shopify.
 
 There are two ways to create the marketing text. The easiest way to get started is to use Copilot, which suggests AI-generated text for you. The other way is to start from scratch. 
 
@@ -98,7 +98,7 @@ There are a few steps you can do to improve the text suggestions and tweak them 
    |Option|Description|
    |-|-|
    |Attributes to include|Use this option to base the suggestions, in part, on the attributes assigned to the item. Choose the attributes that best align with the characteristics that you want to promote. The more relevant attributes you include, the richer the outcome will be. If you feel you're missing some key attributes, add more. For more information about attributes, go to [Work with item attributes](inventory-how-work-item-attributes.md) |
-   |Emphasize a quality|Use this option to choose from a list of predefined qualities that you emphasize in the text. Choose a quality the best aligns the type of item you're writing about item. The qualities don't directly correspond to the item's attributes, description, or category. For example, **Quality** could be a good choice for both a biKe or desk, while **Speed** would suit a bike, but not a desk.|
+   |Emphasize a quality|Use this option to choose from a list of predefined qualities that you want to emphasize in the text. Choose a quality the best aligns with the type of item you're writing about item. The qualities don't directly correspond to the item's attributes, description, or category. For example, **Quality** could be a good choice for both a bike or desk, while **Speed** would suit a bike, but not a desk.|
    |Tone of voice|Use this option to influence what kind of words, phrases, and punctuation are used to engage the target audience. You can choose from several predefined tones of voice, ranging from **Formal** (which results in a most business tone of the choices) to **Creative** (which results in a most informal tone of the choices). |
    |Format and length|Use this option to control the general structure of the text, which consists of three parts, covered by four different options: <ul><li>**Tagline** - A catchy phrase or short sentence that identifies the item or brand.</li><li>**Paragraph** - A single paragraph of fluent and verbose text, consisting of several complete sentences.</li><li>**Tagline + Paragraph** - A tagline followed by a paragraph</li><li>**Brief** - An introductory sentence, similar to a tagline, followed by a bulleted list of key points of interest.</li></ul> |
 
@@ -126,7 +126,7 @@ There are a few steps you can do to improve the text suggestions and tweak them 
 
 ## See also
 
-[Overview of AI-powered item marketing text (preview) with Copilot](ai-overview.md)  
-[Enable or disable AI-powered item marketing text with Copilot](enable-ai.md).
-[AI-powered item marketing text (preview) with Copilot FAQ](ai-faq.md)  
-[Register New Items](inventory-how-register-new-items.md)
+[Overview of AI-powered item marketing text with Copilot](ai-overview.md)  
+[Configure AI-powered item marketing text with Copilot](enable-ai.md)  
+[AI-powered item marketing text with Copilot FAQ](ai-faq.md)  
+[Register New Items](inventory-how-register-new-items.md)  

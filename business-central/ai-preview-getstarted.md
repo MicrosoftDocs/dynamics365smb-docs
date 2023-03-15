@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
-You can try AI-powered item marketing text with Copilot whether you're an existing Business Central customer or potential customer&mdash;someone who's just interested in exploring Business Central and trying out the new capability. To get started, you'll need to get access to a preview version of Business Central that supports the new capability. Complete the section below that applies to you.
+You can try AI-powered item marketing text with Copilot whether you're an existing Business Central customer or a potential customer, that is, someone who's just interested in exploring Business Central and trying out the new capability. To get started, you'll need to get access to a preview version of Business Central that supports the new capability. Complete the section below that applies to you.
 
 ## Your organization already uses Business Central
 
@@ -115,6 +115,6 @@ There are two ways to consent as an admin:
 ## See also
 
 [Overview of AI-powered item marketing text with Copilot](ai-overview.md)  
-[Configure AI-powered item marketing text with Copilot as an admin](enable-ai.md)
+[Configure AI-powered item marketing text with Copilot as an admin](enable-ai.md)  
 [Create marketing text to items using Copilot](item-marketing-text.md)  
 [AI-powered item marketing text (preview) with Copilot FAQ](ai-faq.md)  

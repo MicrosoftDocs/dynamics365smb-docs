@@ -19,14 +19,16 @@ The table below indicates the connections to Microsoft services that are automat
 |------------|-------------|--------|------------|-------------|
 |Microsoft Teams|Yes|No|**Share to Teams** action on **Item** card |[Managing Teams Integration with Business Central](admin-teams-integration.md)|  
 |Microsoft OneDrive for Business|Yes|No|**Open in OneDrive** action on **Item** attachments |[Managing OneDrive Integration with Business Central](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
-| Microsoft Power Automate |Yes|No|**Automate** actions on **Item** card |[Set Up Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|  
+| Microsoft Power Automate |Yes|No|**Automate** actions on **Item** card |[Set Up Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
+| Microsoft Azure OpenAI Automate |Yes |No|**Copilot (preview)** |[Configure AI-powered item marketing text with Copilot](enable-ai.md)|
 
 > [!NOTE]
 > By using features that connect to these services: 
 >
 > - You consent to your data being shared with that Microsoft service. If your organization has deployed these services in a different country or region, connecting to the service may result in your data crossing data residency boundaries. Make sure to confirm your organization’s policies and government compliance requirements for data residency before proceeding to use these features. 
 > - You may affect services that aren't trials. If these services are used in production by your organization and aren't being evaluated together with Business Central, other users of these services who aren't participating in this trial of [!INCLUDE[prod_short](includes/prod_short.md)] may be affected.
-> - [!INCLUDE[prod_short](includes/prod_short.md)] may also connect to Microsoft services or third party services depending on the customizations and extensions that you or your administrator have installed in your [!INCLUDE[prod_short](includes/prod_short.md)] trial. For information about how your extensions process your data, contact the extension developer or follow the privacy link for the extension on AppSource. 
+> - [!INCLUDE[prod_short](includes/prod_short.md)] may also connect to Microsoft services or third party services depending on the customizations and extensions that you or your administrator have installed in your [!INCLUDE[prod_short](includes/prod_short.md)] trial. For information about how your extensions process your data, contact the extension developer or follow the privacy link for the extension on AppSource.
+> - For features in preview, you consent to the [preview terms](https://powerplatform.microsoft.com/en-us/legaldocs/supp-powerplatform-preview/?wt.mc_id=power-virtual-agents_inproduct).
 
 Your privacy is important to us. To learn more about how Microsoft processes your data, view the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?linkid=521839).
 

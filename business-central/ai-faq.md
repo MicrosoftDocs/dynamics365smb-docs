@@ -28,7 +28,7 @@ Copilot provides AI-generated text suggestions for items in Business Central. It
 
 Users should consider the AI-generated text as a suggestion that must be reviewed and edited for accuracy before it's publicly available.
 
-### Why isn't Copilot available to me on items in Business Central?
+### Why isn't Copilot available for marketing text on my items in Business Central?
 
 For Copilot to be available, the following requirements must be met:
 

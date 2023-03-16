@@ -1,11 +1,11 @@
 ---
-title: Preview: AI-powered item marketing text assistance with Copilot
+title: Preview: Overview of AI-powered item marketing text (preview) with Copilot
 description: Get an overview of the AI content generating capabilities in Business Central  
 author: jswymer 
 ms.author: jswymer 
 ms.reviewer: jswymer
-ms.topic: how-to 
-ms.date: 02/27/2023
+ms.topic: overview 
+ms.date: 03/16/2023
 ms.custom: bap-template 
 ---
 # Overview of AI-powered item marketing text (preview) with Copilot
@@ -56,7 +56,7 @@ This section explains the current limitations of AI-generated text capability pr
 
 To get started, you'll need a dedicated Business Central preview version that's enabled with Copilot.
 
-- If you're an existing Business Central customer, you're Business Central admin will have to set up the preview version  on a sandbox environment for you.
+- If you're an existing Business Central customer, you're Business Central admin will have to set up the preview version on a sandbox environment for you.
 - If you're not Business Central customer, but want to try it out, you can sign up for a free trial.
 
 For more information, go to [Get the Business Central preview version - Copilot edition](ai-preview-getstarted.md).  

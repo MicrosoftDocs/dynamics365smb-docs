@@ -1,10 +1,10 @@
 ---
-title: Preview: AI-powered item marketing text assistance with Copilot FAQ
-description: Common questions about the AI-generated text capabilities with Copilot
+title: AI-powered item marketing text (preview) with Copilot FAQ
+description: Get answers to common questions about the AI-generated text capabilities with Copilot.
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: faq 
-ms.date: 03/01/2023
+ms.date: 03/16/2023
 ms.custom: bap-template 
 author: jswymer
 ms.service: dynamics365-business-central 

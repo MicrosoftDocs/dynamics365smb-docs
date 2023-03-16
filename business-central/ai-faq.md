@@ -83,7 +83,7 @@ Business Central offers admins two ways to disable Copilot in the preview:
 
   or
 
-- Enable off the **Create AI-powered product descriptions with Copilot** feature on the **Feature Management** page.
+- Turn off the **Create AI-powered product descriptions with Copilot** feature on the **Feature Management** page.
 
 To learn more, go to [Configure AI-powered item marketing text (preview) with Copilot as an admin](enable-ai.md).
 

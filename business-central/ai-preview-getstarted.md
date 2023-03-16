@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/14/2023
+ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
@@ -59,9 +59,9 @@ If you're not a Business Central customer, sign up for a free trial to try out t
 3. When you get to the **Confirmation Details** step, you're ready to start the trial.
 
    - To go directly to Business Central, select **Skip & go to Dynamics 365 Business Central** > **Get started**.
-   - You also have the option to invite others in your organization to free trial as well. Just enter, the email addresses of each person, then select **Send invitations**. Then, select **Get started** to go to Business Central.  
+   - You also have the option to invite others in your organization to the free trial as well. Just enter, the email addresses of each person, then select **Send invitations**. Select **Get started** to go to Business Central.  
 
-   You'll be redirected to your trial at [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/). It can take several minutes to get the trial ready the first time you sign in. 
+   You'll be redirected to your trial at [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/). It can take several minutes to get the trial ready the first time you sign in.
 
 <!--
 1. On the **Let's get you started** step, enter your work or school email address, then select **Next**.
@@ -101,7 +101,7 @@ If you're not a Business Central customer, sign up for a free trial to try out t
 
 ## Next steps
 
-The AI capabilities provided by Copilot must be enabled before you or anyone else can use Copilot. To enable the AI capabilities, an administrator must consent to the terms and conditions of the [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) on behalf of the organization. 
+The AI capabilities provided by Copilot must be enabled before you or anyone else can use Copilot. To enable the AI capabilities, an administrator must consent to the terms and conditions of the [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) on behalf of the organization.
 
 > [!NOTE]
 > If you're using a trial, you're the administrator. If you've invited other people in your organization to the trial during sign-up, they won't be able to use Copilot until you agree to the terms and conditions.

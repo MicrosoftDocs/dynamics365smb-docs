@@ -107,11 +107,11 @@
 ### [Extend Your Trial Version](admin-extend-trial.md)
 ### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ### AI-powered item marketing text with Copilot
-#### [Overview of AI-powered item marketing text with Copilot](ai-overview.md)
-#### [Get Business Central preview version - Copilot edition](ai-preview-getstarted.md)
-#### [Configure AI-powered item marketing text with Copilot](enable-ai.md)
-#### [Create AI-powered item marketing text with Copilot](item-marketing-text.md)
-#### [AI-powered item marketing text with Copilot FAQ](ai-faq.md)
+#### [Overview](ai-overview.md)
+#### [Get preview version - Copilot edition](ai-preview-getstarted.md)
+#### [Configure AI-powered item marketing text](enable-ai.md)
+#### [Create AI-powered item marketing text](item-marketing-text.md)
+#### [FAQ](ai-faq.md)
 
 ## Buy
 ### [Get Started with a Subscription](trial-signup.md#get-started-with-a-subscription)

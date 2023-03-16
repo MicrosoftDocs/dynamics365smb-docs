@@ -4,14 +4,14 @@ description: Write marketing text for items in Business Central
 author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
-ms.topic: conceptual
-ms.date: 03/01/2023
+ms.topic: how-to
+ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
 # Add marketing text to items
 
-For any item registered in Business Central, you can write *marketing text* about the item. Although marketing text is a kind of a description, it's different than item's **Description** field. The **Description** field is typically used a concise display name of item to quickly identify the product. The marketing text, on the other hand, is a more rich and descriptive text. Its purpose is for adding marketing and promotional content, also known as *copy*. This text can then be published with the item if it's published on a web shop, like Shopify.
+For any item registered in Business Central, you can write *marketing text* about the item. Although marketing text is a kind of a description, it's different than item's **Description** field. The **Description** field is typically used as a concise display name to quickly identify the product. The marketing text, on the other hand, is a more rich and descriptive text. Its purpose is for adding marketing and promotional content, also known as *copy*. This text can then be published with the item if it's published on a web shop, like Shopify.
 
 There are two ways to create the marketing text. The easiest way to get started is to use Copilot, which suggests AI-generated text for you. The other way is to start from scratch. 
 
@@ -41,7 +41,7 @@ Copilot is designed to save you time and help you write creative and engaging te
 
    For information about how to create an item, go to [Register new items](inventory-how-register-new-items.md).
 
-   [![Shows and item card with Marketing Text pane](media/create-with-copilot.png)](media/create-with-copilot.png#lightbox)]
+   [![Shows and item card with Marketing Text pane](media/create-with-copilot.png)](media/create-with-copilot.png#lightbox)
 
 2. From the item card, there are two ways to get started writing marketing text with Copilot:
 
@@ -71,7 +71,7 @@ Copilot is designed to save you time and help you write creative and engaging te
 
 Once you have the first draft, you must review it and make changes to the text to get it ready for publishing. This work is done from the **Create with Copilot** page. The current text is shown in the **Marketing Text** box. The page lets you get more suggestions, change preferences to the influence the suggestions, and manually make changes and style the text.
 
-[![Shows the create with Copilot windows](media/create-with-copilot-window.png)](media/create-with-copilot-window.png#lightbox)]
+[![Shows the create with Copilot windows](media/create-with-copilot-window.png)](media/create-with-copilot-window.png#lightbox)
 
 > [!IMPORTANT]
 > The AI-generated text from Copilot is only a suggestion and it can have mistakes. It requires human oversight and review to ensure it's accurate and appropriate. Review any suggested text and edit as needed before you save and publish it for public consumption.

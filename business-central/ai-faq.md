@@ -1,10 +1,10 @@
 ---
-title: Preview: AI-powered item marketing text assistance with Copilot FAQ
-description: Common questions about the AI-generated text capabilities with Copilot
+title: AI-powered item marketing text (preview) with Copilot FAQ
+description: Get answers to common questions about the AI-generated text capabilities with Copilot.
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: faq 
-ms.date: 03/01/2023
+ms.date: 03/16/2023
 ms.custom: bap-template 
 author: jswymer
 ms.service: dynamics365-business-central 
@@ -28,7 +28,7 @@ Copilot provides AI-generated text suggestions for items in Business Central. It
 
 Users should consider the AI-generated text as a suggestion that must be reviewed and edited for accuracy before it's publicly available.
 
-### Why isn't Copilot available for marketing text on items?
+### Why isn't Copilot available for marketing text on my items in Business Central?
 
 For Copilot to be available, the following requirements must be met:
 
@@ -122,6 +122,6 @@ We use this data to evaluate and improve the quality of the capability. More inf
 ## See also
 
 [Overview of AI-powered item marketing text with Copilot](ai-overview.md)  
-[Configure AI-powered item marketing text with Copilot as an admin](enable-ai.md).
+[Configure AI-powered item marketing text with Copilot as an admin](enable-ai.md)  
 [Create marketing text to items using Copilot](item-marketing-text.md)  
 [AI-powered item marketing text with Copilot FAQ](ai-faq.md)  

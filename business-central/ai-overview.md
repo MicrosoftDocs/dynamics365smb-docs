@@ -1,5 +1,5 @@
 ---
-title: Preview: Overview of AI-powered item marketing text (preview) with Copilot
+title: Overview of AI-powered item marketing text (preview) with Copilot
 description: Get an overview of the AI content generating capabilities in Business Central  
 author: jswymer 
 ms.author: jswymer 

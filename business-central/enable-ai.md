@@ -1,5 +1,5 @@
 ---
-title: Preview: Configure AI-powered item marketing text (preview) with Copilot
+title: Configure AI-powered item marketing text (preview) with Copilot
 description: This article explains how to get a Copilot trial version of Business Central and enable Copilot on an environment
 author: jswymer
 ms.author: jswymer

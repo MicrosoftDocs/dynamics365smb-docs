@@ -4,8 +4,8 @@ description: Write marketing text for items in Business Central
 author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
-ms.topic: conceptual
-ms.date: 03/01/2023
+ms.topic: how-to
+ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 

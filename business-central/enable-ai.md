@@ -1,12 +1,12 @@
 ---
-title: Preview: Enable AI-powered item marketing text assistance with Copilot
+title: Configure AI-powered item marketing text (preview) with Copilot
 description: This article explains how to get a Copilot trial version of Business Central and enable Copilot on an environment
 author: jswymer
-ms.author: jswymer #Required; your Microsoft alias; optional team alias.
-ms.reviewer: jswymer #Required; Microsoft alias of content publishing team member.
-ms.topic: how-to #Required; don't change.
-ms.date: 03/09/2023
-ms.custom: bap-template #Required; don't change.
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.topic: how-to
+ms.date: 03/16/2023
+ms.custom: bap-template
 ---
 
 # Configure AI-powered item marketing text (preview) with Copilot
@@ -27,7 +27,7 @@ If either of these requirements isn't fulfilled, the feature won't be available 
 ## Enable or disable the "Create AI-powered product descriptions with Copilot" feature
 
 1. In Business Central, search for and open the **Feature Management** page.
-2. Set the **Enabled for** column for **Feature preview: Create AI-powered product descriptions with Copilot** feature to **None**.
+2. Set the **Enabled for** column for **Feature preview: Create AI-powered product descriptions with Copilot** feature to **All users** to enable the feature or **None** to disable it.
 
    For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 

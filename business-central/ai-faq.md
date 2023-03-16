@@ -122,6 +122,6 @@ We use this data to evaluate and improve the quality of the capability. More inf
 ## See also
 
 [Overview of AI-powered item marketing text with Copilot](ai-overview.md)  
-[Configure AI-powered item marketing text with Copilot as an admin](enable-ai.md).
+[Configure AI-powered item marketing text with Copilot as an admin](enable-ai.md)  
 [Create marketing text to items using Copilot](item-marketing-text.md)  
 [AI-powered item marketing text with Copilot FAQ](ai-faq.md)  

@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Add marketing text to items
 
-For any item registered in Business Central, you can write *marketing text* about the item. Although marketing text is a kind of a description, it's different than item's **Description** field. The **Description** field is typically used a concise display name of item to quickly identify the product. The marketing text, on the other hand, is a more rich and descriptive text. Its purpose is for adding marketing and promotional content, also known as *copy*. This text can then be published with the item if it's published on a web shop, like Shopify.
+For any item registered in Business Central, you can write *marketing text* about the item. Although marketing text is a kind of a description, it's different than item's **Description** field. The **Description** field is typically used as a concise display name to quickly identify the product. The marketing text, on the other hand, is a more rich and descriptive text. Its purpose is for adding marketing and promotional content, also known as *copy*. This text can then be published with the item if it's published on a web shop, like Shopify.
 
 There are two ways to create the marketing text. The easiest way to get started is to use Copilot, which suggests AI-generated text for you. The other way is to start from scratch. 
 

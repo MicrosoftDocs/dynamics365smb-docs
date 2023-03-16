@@ -63,7 +63,7 @@ For more information, go to [Get the Business Central preview version - Copilot 
 
 ## See also
 
-[Configure AI-powered item marketing text with Copilot as an admin](enable-ai.md).
+[Configure AI-powered item marketing text as an admin](enable-ai.md)  
 [Create marketing text with Copilot](item-marketing-text.md)  
 [AI-powered item marketing text with Copilot FAQ](ai-faq.md)  
 [Get Started with the Shopify Connector](shopify/get-started.md)  

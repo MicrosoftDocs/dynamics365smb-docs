@@ -33,7 +33,7 @@ If you're an environment admin, complete the following steps:
 6. In the **Version** box, choose a version **22.0.54157.54311 (Preview - Copilot edition)**.
 
    > [!IMPORTANT]
-   > You must use **22.0.54157.54311 ((Preview - Copilot edition))**  to experience Copilot.
+   > You must use **22.0.54157.54311 (Preview - Copilot edition)** to experience Copilot.
 
 7. Select **Create**.  
 

@@ -14,7 +14,7 @@ ms.service: dynamics365-business-central
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
-This article uses questions and answers to explain important aspects about the AI-technology behind Copilot and the text it generates. 
+This article uses questions and answers to explain important aspects about the AI technology behind Copilot and the text it generates.
 
 ## [General](#tab/general)
 
@@ -23,8 +23,8 @@ This article uses questions and answers to explain important aspects about the A
 Copilot provides AI-generated text suggestions for items in Business Central. It's intended for users who write marketing text for items to help them produce engaging and compelling content. Some key benefits include:
 
 - Decreases the time used on copy writing, which can accelerate time-to-market for items being sold in online shops.
-- Unlocks creativity to provide more engaging product descriptions
-- Improves consistency of marketing material for product lines
+- Unlocks creativity to provide more engaging product descriptions.
+- Improves consistency of marketing material for product lines.
 
 Users should consider the AI-generated text as a suggestion that must be reviewed and edited for accuracy before it's publicly available.
 
@@ -32,7 +32,7 @@ Users should consider the AI-generated text as a suggestion that must be reviewe
 
 For Copilot to be available, the following requirements must be met:
 
-- The language you're using in Business Central must be English. Any of the available English locales will work, like English (United States), English (United Kingdom), or English (South Africa). 
+- The language you're using in Business Central must be English. Any of the available English locales will work, like English (United States), English (United Kingdom), or English (South Africa).
 
   To change the language, in the top right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
 - You must be using Business Central online as a trial or in a sandbox.
@@ -73,7 +73,9 @@ To learn more, go to [Improve and tailor text suggestions](item-marketing-text.m
 
 ### What if I'm not satisfied with the generated text?
 
-To help us improve the text, select **Give us feedback** link on the **Message Text** page.
+To help us improve the text, select **Is this a good suggestion?** on the **Create with Copilot** page, which you can answer with a thumb's up (I like it) or thumb's down (Needs improvement).
+
+![Shows and item card with Marketing Text pane](media/create-with-copilot-window-feedback.png)
 
 ### Can admins disable Copilot? If so, how?
 

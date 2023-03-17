@@ -52,7 +52,7 @@ Copilot is designed to save you time and help you write creative and engaging te
          The suggested text appears in the pane.
       2. If you want another suggestion, select **Create with Copilot** again. If you don't like a suggestion, select **Dismiss** to clear the pane.
 
-         You can do this step over and over until you get a suggestion you think it a good enough starting point. But keep in mind that the current suggestion will be overwritten and you can't get back. So if you like the current suggestion go to the next step. You'll still have the opportunity to get more suggestions and even improve the suggestions if you like later.
+         You can do this step over and over until you get a suggestion you think it's a good enough starting point. But keep in mind that the current suggestion will be overwritten and you can't get back. So if you like the current suggestion, go to the next step. You'll still have the opportunity to get more suggestions and even improve the suggestions if you like later.
       3. Select **Review and save the suggestion** or **Edit** to review, edit, and save the text.
 
          This step takes you to the **Create with Copilot** page. Go to the next section.

@@ -40,7 +40,9 @@ The following topics describe local functionality that is unique to the Austrian
 
 ## Future legislation requirements being investigated
 
-* SAF-T reporting in Austria
+* SAF-T reporting in Austria **2024 release wave 2**
+
+If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See Also
 

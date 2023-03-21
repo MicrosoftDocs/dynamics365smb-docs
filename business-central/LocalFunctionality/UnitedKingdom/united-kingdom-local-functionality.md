@@ -44,6 +44,8 @@ The following topics describe local functionality that is unique to the United K
 
 * Functionality to resubmit a VAT Return **2023 Wave 2**
 
+If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
 ## See Also
 
 [Use Business Central after the United Kingdom Has Left the European Union](united-kingdom-leaving-eu.md)  

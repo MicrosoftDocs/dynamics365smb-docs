@@ -1603,6 +1603,7 @@
 ##### [Get the Business Central Add-in for Outlook](admin-outlook.md)
 ##### [Use Business Central as Your Business Inbox in Outlook](work-outlook-addin.md)
 ##### [Synchronize with Contacts in Outlook](admin-synchronize-outlook-contacts.md)
+###### [Set up contact sync for on-premises](admin-contact-sync-setup-onprem.md)
 ##### [Optimize Outlook](admin-outlook-optimize.md)
 ##### [Use Business Central without Outlook](admin-no-outlook.md)
 ##### [FAQ](ui-outlook-addin-faq.yml)
@@ -1624,6 +1625,7 @@
 #### Use Business Central as Your Business Inbox in Outlook 
 ##### [Overview](admin-outlook.md)
 ##### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+###### [Set up contact sync for on-premises](admin-contact-sync-setup-onprem.md)
 ##### [Use Business Central Without Outlook](admin-no-outlook.md)
 #### Use Microsoft Teams with Business Central
 ##### [Overview](across-teams-overview.md)

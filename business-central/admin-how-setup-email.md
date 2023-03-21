@@ -57,7 +57,7 @@ The following table describes the email extensions that are available by default
 If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](includes/prod_short.md)], you can use the SMTP Connector extension. When you set up an account that uses SMTP, the **Sender Type** field is important. If you choose **Specific User**, emails will be sent using the name and other information from the account you're setting up. However, if you choose **Current User**, emails will be sent from the email account specified for each user's account. Current User is similar to the Send As feature. For more information, see [Use a Substitute Sender Address on Outbound Email Messages](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> If you'e using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can use OAuth 2.0 protocol for authentication. You must create an application registration in the Azure portal, and then run the **Set up Azure Active Directory** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Azure AD. For more information, see [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can use OAuth 2.0 protocol for authentication. You must create an application registration in the Azure portal, and then run the **Set up Azure Active Directory** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Azure AD. For more information, see [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
 > Exchange Online is deprecating use of Basic authentication for SMPT. Tenants that are currently using SMTP AUTH won't be affected by this change. However, we strongly recommend using the latest version of [!INCLUDE [prod_short](includes/prod_short.md)] and setting up OAuth 2.0 authentication for SMTP. We will not add certificate-based authentication for earlier versions of [!INCLUDE [prod_short](includes/prod_short.md)], for example, version 14. If you can't set up OAuth 2.0 authentication, we encourage you to explore third-party alternatives if you want to use SMTP email in earlier versions.
 
@@ -152,7 +152,7 @@ Alternatively, you can choose **Current User** to allow people to send messages 
 The following are examples of how Send As and Send on Behalf are used in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 * You might want the purchase or sales orders that you send to vendors and customers to appear to come from a _noreply@yourcompanyname.com_ address.
-* When your workflow sends an approval request by email using the email address of the requestor.
+* When your workflow sends an approval request by email using the email address of the requester.
 
 > [!Note]
 > You can only use one account to substitute sender addresses. That is, you cannot have one substitute address for purchasing processes, and another for sales processes.

@@ -35,11 +35,11 @@ For more information, see [Administration of Business Central Online](/dynamics3
 
 After user accounts are created in the Microsoft 365 admin center, there are two ways to import them to Business Central:
 
-- A user account is imported automatically when the user signs in to Business Central the first time.
+- A user account is imported automatically when the user signs in to [!INCLUDE [prod_short](includes/prod_short.md)] the first time.
 
 - The administrator can import users by choosing the **Update Users from Microsoft 365** action on the **Users* page.
 
-Both approaches have their own advantages, and you can use them simultaneously. Each approach allows administrators to proactively configure Business Central to assign the starting permissions, user groups, and user profiles. Using the **Update Users from Microsoft 365** action gives administrators more control to adjust permissions, user groups, and profiles. It's an ideal approach when you're setting up Business Central the first time, before any users sign in, or when adding a new team of users.
+Both approaches have their own advantages, and you can use them simultaneously. Each approach allows administrators to proactively configure [!INCLUDE [prod_short](includes/prod_short.md)] to assign the starting permissions, user groups, and user profiles. Using the **Update Users from Microsoft 365** action gives administrators more control to adjust permissions, user groups, and profiles. It's an ideal approach when you're setting up [!INCLUDE [prod_short](includes/prod_short.md)] the first time, before any users sign in, or when adding a new team of users.
 
 > [!NOTE]
 > After you add users in the Microsoft 365 Admin Center, we recommend that you update the user information in [!INCLUDE[prod_short](includes/prod_short.md)] as soon as possible. Keeping user information current is easy to do, and helps ensure that people can always sign in. For more information, see [To add users or update user information and license assignments in Business Central](#adduser).<br>
@@ -89,6 +89,9 @@ After you add users or change user information in the Microsoft 365 Admin Center
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using an administrator account.
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.  
 3. Choose **Update Users from Microsoft 365**.
+
+> [!NOTE]
+> The **Update Users from Microsoft 365** action doesn't update users that are not assigned a license, such as someone who is Global Admin and Dynamics 365 Admin. Those users will update the next time they sign in to the environment.
 
 The next step for newly created users is to assign user groups and permissions. Go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md) for information. If you're updating a user, and the update includes a license change, users are assigned to the appropriate user group and their permission sets are updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).  
 

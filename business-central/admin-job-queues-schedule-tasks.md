@@ -1,27 +1,23 @@
 ---
 title: Schedule jobs to run automatically
-description: Scheduled tasks are managed by the job queue. These jobs run reports and codeunits. You can set jobs to run one time, or on a recurring basis.
-author: edupont04
-
-
+description: Learn how to use job queue entries to run reports and codeunits.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 03/20/2023
+ms.custom: bap-template
 ms.search.form: 672, 673, 674, 671
-ms.date: 10/01/2021
-ms.author: edupont
-
 ---
 # Use Job Queues to Schedule Tasks
 
-The Job Queue Entries page enables users to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson * Sales Statistics** report weekly to track sales by salesperson each week, or run the **Delegate Approval Requests** codeunit daily to prevent documents from piling up.
+Use the **Job Queue Entries** page to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson * Sales Statistics** report weekly to track sales by salesperson each week, or run the **Delegate Approval Requests** codeunit daily to prevent documents from piling up.
 
-The **Job Queue Entries** page lists all existing jobs. If you add a new job queue entry that you want to schedule, you must provide some information. For example:
+The Job Queue Entries page lists all existing jobs. If you add a new job queue entry that will run on a schedule, you must provide some information. For example:
 
-* The type of object you want to run, such as a report or codeunit. You must have permission to run the particular report or codeunit.
-* The name and object ID of the object. 
-* Parameters to specify the behavior of the job queue entry. For example, you can add a parameter to only send posted sales orders. 
+* The type of object to run, such as a report or codeunit. You must have permission to run the particular report or codeunit.
+* The name and object ID of the object.
+* Parameters to specify the behavior of the job queue entry. For example, you can add a parameter to only send posted sales orders.
 * When, and how often, the job queue entry will run.
 
 > [!IMPORTANT]  
@@ -35,11 +31,11 @@ After job queues are set up and running, the status can change as follows within
 * **Error**  
 * **Finished**  
 
-After a job finishes successfully it's removed from the list of job queue entries, unless it's a recurring job. For recurring jobs, the **Earliest Start Time** field is adjusted to show the next time that the job is expected to run.  
+After a job finishes successfully it's removed from the list of job queue entries, unless it's a recurring job. For recurring jobs, the **Earliest Start Time** field is adjusted to show the next time that the job will run.  
 
 ## Monitor status or errors in the job queue
 
-Data that the job queue generates is stored in the database, so that you can troubleshoot job queue errors.  
+Data that the job queue generates is stored, so that you can troubleshoot errors.  
 
 For each job queue entry, you can view and change the status. When you create a job queue entry, its status is set to **On Hold**. You can set the status to **Ready** and back to **On Hold**, for example. Otherwise, status information is updated automatically.
 
@@ -62,7 +58,7 @@ The following table describes the values of the **Status** field.
 2. On the **Job Queue Entries** page, select a job queue entry, and then choose the **Log Entries** action.  
 
 > [!TIP]
-> You can also view the status of job queue entries by using Application Insights in Microsoft Azure for more in-depth analysis based on telemetry. For more information, see [Monitoring and Analyzing Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) and [Analyzing Job Queue Lifecycle Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) in the [!INCLUDE [prod_short](includes/prod_short.md)] developer and administration content.
+> For in-depth analysis based on telemetry, you can use Application Insights in Microsoft Azure to review the status of job queue entries. To learn more about telemetry, go to [Monitoring and Analyzing Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) and [Analyzing Job Queue Lifecycle Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
 ## View scheduled tasks
 
@@ -73,9 +69,9 @@ For example, all scheduled tasks stop if the company is in an environment that's
 > [!NOTE]
 > Internal administrators and licensed users can schedule tasks to run. Delegated administrators can set up and schedule tasks to run, but only licensed users can run them.
 
-## The My Job Queue Part
+## The My Job Queue part
 
-The **My Job Queue** part on your Role Center shows the job queues entries that you've started but aren't finished. By default the part isn't displayed, but you can add it to your Role Center. For more information, see [Personalize Your Workspace](ui-personalization-user.md).  
+The **My Job Queue** part on your Role Center shows the job queues entries that you've started but aren't finished. By default the part isn't displayed, but you can add it to your Role Center. To learn more about personlization, go to [Personalize Your Workspace](ui-personalization-user.md).  
 
 The part shows the following information:
 
@@ -89,25 +85,45 @@ The My Job Queue part also lets you cancel a document posting.
 1. On an entry with the status **Error**, choose the **Show Error** action.
 2. Review the error message and fix the problem.
 
-## Examples of what can be scheduled using job queue
+## Examples of what you can schedule using job queue entries
 
 ### Schedule reports
 
 You can schedule a report or batch job to run at a specific date and time. Scheduled reports and batch jobs are entered in the job queue and processed at the scheduled time, similar to other jobs. You choose the **Schedule** option after you choose the **Send to** action, and then you enter information such as printer, time and date, recurrence.  
 
-For more information, see [Scheduling a Report to Run](ui-work-report.md#ScheduleReport)
+To learn more about scheduling, go to [Scheduling a Report to Run](ui-work-report.md#ScheduleReport)
 
 ### Schedule synchronization between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-If you've integrated [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[prod_short](includes/cds_long_md.md)], the job queue lets you schedule when to synchronize data. Depending on the direction and rules you've defined, the job queue entry can create records in one app to match records in the other. A good example is when you register a contact in [!INCLUDE[crm_md](includes/crm_md.md)], the job queue entry can set up that contact for you in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Scheduling a Synchronization between Business Central and Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
+If you've integrated [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[prod_short](includes/cds_long_md.md)], the job queue lets you schedule when to synchronize data. Depending on the direction and rules you've defined, the job queue entry can create records in one app to match records in the other. A good example is when you register a contact in [!INCLUDE[crm_md](includes/crm_md.md)], the job queue entry can set up that contact for you in [!INCLUDE[prod_short](includes/prod_short.md)]. To learn more about scheduling, go to [Scheduling a Synchronization between Business Central and Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
-### Schedule the posting of sales and purchase orders
+### Schedule when to post sales and purchase orders
 
-You can use job queue entries to schedule business processes to run in the background. For example, background tasks are useful when multiple users post sales orders at the same time, but only one order can be processed at a time. For more information, see [To set up background posting with job queues](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
+You can use job queue entries to schedule business processes to run in the background. For example, background tasks are useful when multiple users post sales orders at the same time, but only one order can be processed at a time. To learn more about background posting, go to [To set up background posting with job queues](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
+
+## Handle job queue entry issues
+
+If a job queue entry shows an error, your first option to resolve the issue is to restart the job queue entry. You can set the status of the job queue entry to **On Hold** and then to **Ready**, or just restart it.
+
+If a restart doesn't help, the issue might be in the code. You can find the owner (also called the *publisher*) of the code in the AL stack trace in the Job Queue log. If the error comes from an app/extension, contact your Microsoft partner. If the error comes from a Microsoft application, open a support request with Microsoft.
+
+If you contact your Microsoft partner or Microsoft for support, please provide the following information:
+
+* The ID of the job queue entry run where the error occurred
+* The timestamp of when the error occurred
+* Your timezone
+
+> [!TIP]
+> Depending on whether your [!INCLUDE [prod_short](includes/prod_short.md)] is earlier or later than version 22.1, gather the information in the following ways:
+>
+> * For earlier versions, provide a screenshot of the **Job Queue Log Entries** page.
+> * For later versions, use the **Copy details** action on the Job Queue Log Entries page to copy the information (job queue ID, timestamp, and your timezone).
 
 ## Monitor the job queue with telemetry
 
-As an administrator, you can use [Application Insights](/azure/azure-monitor/app/app-insights-overview) to gather and analyze telemetry that you can use to identify problems. For more information, see [Monitoring and Analyzing Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) in the developer and administration content.  
+Administrators can use [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview) to gather and analyze telemetry that helps identify problems. To learn more about telemetry, go to [Monitoring and Analyzing Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) and [Analyzing Job Queue Lifecycle Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
+
+Telemetry lets administrators set up alerts on job queue issues that send a text message, email, or a message in Teams if something isn't right. To learn more about these alerts, go to [Alert on Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
 
 ## See Also
 
@@ -115,6 +131,6 @@ As an administrator, you can use [Application Insights](/azure/azure-monitor/app
 [Setting Up Business Central](setup.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Analyzing Job Queue Lifecycle Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
-
+[Alert on Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-alert)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

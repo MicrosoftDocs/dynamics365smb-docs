@@ -2,23 +2,19 @@
 title: Connect to Microsoft Dataverse (contains video)
 description: Set up a connection between Business Central and Dataverse. Businesses typically create the connection to integrate data with another Dynamics 365 business app.
 author: brentholtorf
-
-
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords:
 ms.search.forms: 7200, 7201
-ms.date: 09/30/2021
+ms.date: 03/22/2023
 ms.author: bholtorf
 
 ---
 # Connect to Microsoft Dataverse
 
+This article describes how to set up a connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Typically, businesses create the connection to integrate and synchronize data with another Dynamics 365 business app, such as [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-
-This topic describes how to set up a connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Typically, businesses create the connection to integrate and synchronize data with another Dynamics 365 business app, such as [!INCLUDE[crm_md](includes/crm_md.md)].  
-
-## Before You Start
+## Before you start
 
 There are a few pieces of information to have ready before you create the connection:  
 
@@ -34,7 +30,7 @@ There are a few pieces of information to have ready before you create the connec
 > These steps describe the procedure for [!INCLUDE[prod_short](includes/prod_short.md)] online.
 > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises and are not using Azure Active Directory account to connect to [!INCLUDE [cds_long_md](includes/cds_long_md.md)], you must also specify a user name and password of a user account for the integration. This account is referred to as the "integration user" account. If you're using an Azure Active Directory account, the integration user account is not required or displayed. The integration user will be set up automatically and does not require a license.
 
-## Set Up a Connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+## Set up a connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 For all authentication types other than Microsoft 365 authentication, you set up your connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on the **Dataverse Connection Setup** page. For Microsoft 365 authentication, we recommend that you use the **Dataverse Connection Setup** assisted setup guide. The guide makes it easier to set up the connection and specify advanced features, such as the ownership model and initial synchronization.  
 
@@ -48,6 +44,7 @@ For all authentication types other than Microsoft 365 authentication, you set up
 > By giving consent on behalf of organization, the administrator is entitling the registered Azure application called [!INCLUDE[prod_short](includes/prod_short.md)] Integration to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] to synchronize data using automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user's credentials.
 
 ### To use the Dataverse Connection Setup assisted setup guide
+
 The Dataverse Connection Setup guide can make it easier to connect the applications, and can even help you run an initial synchronization. If you choose to run initial synchronization, [!INCLUDE[prod_short](includes/prod_short.md)] will review the data in both applications and provide recommendations for how to approach initial synchronization. The following table describes the recommendations.
 
 |Recommendation  |Description  |
@@ -102,7 +99,7 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
-## Customize the Match-Based Coupling
+## Customize the match-based coupling
 
 Starting in 2021 release wave 2, an administrator can enter criteria to couple records based on matches. You can start the algorithm for matching records from the following places in [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -161,7 +158,8 @@ Typically, coupling fails for the following reasons:
 > [!TIP]
 > To help you get an overview over the progress of the coupling, the **Coupled to Dataverse** field shows whether a record is coupled to a [!INCLUDE [cds_long_md](includes/cds_long_md.md)] entity. You can use the **Coupled to Dataverse** field to filter the list of records you're synchronizing.
 
-## Upgrade Connections from Business Central Online to Use Certificate-Based Authentication
+## Upgrade connections from Business Central online to use certificate-based authentication
+
 > [!NOTE]
 > This section is relevant only for [!INCLUDE[prod_short](includes/prod_short.md)] online tenants that are hosted by Microsoft. Online tenants hosted by ISVs, and on-premises installations, are not affected.
 
@@ -180,22 +178,11 @@ To avoid disrupting integrations, _you must upgrade_ the connection to use certi
 > [!NOTE]
 > You must repeat these steps in each [!INCLUDE[prod_short](includes/prod_short.md)] environment, including both production and sandbox environments, and in each company where you have a connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-## Connecting On-Premises Versions
+## Connecting pn-premises versions
 
 To connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], you must specify some information on the **Dataverse Connection Setup** page.
 
 To connect using an Azure Active Directory (Azure AD) account, you must register an application in Azure AD. You'll have to provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you're setting up your server to have a different home page, you can change the URL. The client secret will be saved as an encrypted string in your database. 
-
-### Prerequisites
-
-Dataverse must use one of the following authentication types:
-
-* Office365 (legacy)
-
-  > [!IMPORTANT]
-  > Effective April 2022, Office365 (legacy) will no longer be supported. For more information, see [Important changes (deprecations) coming in Power Apps, Power Automate and customer engagement apps](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
-* Office365 (modern, OAuth2 client secret based)
-* OAuth
 
 ### To register an application in Azure AD for connecting from Business Central to Dataverse
 

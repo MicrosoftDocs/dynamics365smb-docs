@@ -33,19 +33,9 @@ You're using a [preview version](ai-preview-getstarted.md) of Business Central t
 
 ## Consent to or reject the preview and privacy terms and conditions for all users
 
-<!--Before users can use Copilot, You enable or disable Copilot and Azure OpenAI Services by agreeing or disagreeing to the terms and conditions on behalf of the organization. Complete the following steps. --> 
-
 1. In Business Central, search for and open the **Privacy Notices Status** page.
 2. In the **Integration Name** column, select **Azure OpenAI**, then read the terms and conditions that are presented to you.
 3. In the **Azure OpenAI** row, select the **Agree for everyone** check box to consent or the **Disagree for everyone** check box to reject.
-
-<!--
-> [IMPORTANT]
-> As an admin, you can also agree to the terms and conditions 
-
-1. Open an item card
-2. Select Create with Copilot
-3. Select Agree or Disagree.-->
 
 ## Next steps
 

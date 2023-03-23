@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/16/2023
+ms.date: 03/22/2023
 ms.custom: bap-template
 ---
 
@@ -52,7 +52,7 @@ Copilot is designed to save you time and help you write creative and engaging te
          The suggested text appears in the pane.
       2. If you want another suggestion, select **Create with Copilot** again. If you don't like a suggestion, select **Dismiss** to clear the pane.
 
-         You can do this step over and over until you get a suggestion you think it's a good enough starting point. But keep in mind that the current suggestion will be overwritten and you can't get back. So if you like the current suggestion, go to the next step. You'll still have the opportunity to get more suggestions and even improve the suggestions if you like later.
+         You can do this step over and over until you get a suggestion you think it's a good enough starting point. But keep in mind that the current suggestion will be overwritten and you can't necessarily get it back. So if you like the current suggestion, go to the next step. You'll still have the opportunity to get more suggestions, and even improve the suggestions, if you like later.
       3. Select **Review and save the suggestion** or **Edit** to review, edit, and save the text.
 
          This step takes you to the **Create with Copilot** page. Go to the next section.
@@ -82,7 +82,7 @@ Use the following guidelines to finalize and save the marketing text.
 2. To get a new suggestion, select **Create draft**.
 3. If you're not satisfied with suggestions, enhance text suggestions based your preferences.
 
-   Select **More Settings**, then change the options that are shown under **Choose how Copilot creates suggestions**, then select **Create draft** to get a new suggestion.
+   Select **More Settings**, change the options that are shown under **Choose how Copilot creates suggestions**, then select **Create draft** to get a new suggestion.
 
    For guidelines on improving suggestions, go to the [Improve and tailor text suggestions](#improve-and-tailor-text-suggestions).
 
@@ -108,7 +108,7 @@ There are a few steps you can do to improve the text suggestions and tweak them 
 
 3. Make sure the **Item Category Code** field on the item card is set to a proper category.
 
-   Copilot will find words and phrases that related to the category and work them into the suggested text.
+   Copilot will find words and phrases that are related to the category and work them into the suggested text.
 
 ## Create marketing text from scratch
 

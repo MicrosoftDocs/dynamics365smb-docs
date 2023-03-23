@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/16/2023
+ms.date: 03/22/2023
 ms.custom: bap-template
 ---
 
@@ -20,9 +20,9 @@ This article explains how you can control the ability to create AI-powered item 
 
 If either of these requirements isn't fulfilled, the feature won't be available for use.
 
-<!--
-> [!IMPORTANT]
-> To enable the feature, the privacy notice must be agreed upon and the feature switch must be on.-->
+## Prerequisites
+
+You're using a [preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot. Enabling Copilot is done by an admin. For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).
 
 ## Enable or disable the "Create AI-powered product descriptions with Copilot" feature
 
@@ -33,19 +33,9 @@ If either of these requirements isn't fulfilled, the feature won't be available 
 
 ## Consent to or reject the preview and privacy terms and conditions for all users
 
-<!--Before users can use Copilot, You enable or disable Copilot and Azure OpenAI Services by agreeing or disagreeing to the terms and conditions on behalf of the organization. Complete the following steps. --> 
-
 1. In Business Central, search for and open the **Privacy Notices Status** page.
 2. In the **Integration Name** column, select **Azure OpenAI**, then read the terms and conditions that are presented to you.
 3. In the **Azure OpenAI** row, select the **Agree for everyone** check box to consent or the **Disagree for everyone** check box to reject.
-
-<!--
-> [IMPORTANT]
-> As an admin, you can also agree to the terms and conditions 
-
-1. Open an item card
-2. Select Create with Copilot
-3. Select Agree or Disagree.-->
 
 ## Next steps
 

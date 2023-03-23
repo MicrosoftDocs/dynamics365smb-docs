@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/16/2023
+ms.date: 03/22/2023
 ms.custom: bap-template
 ---
 
@@ -20,9 +20,9 @@ This article explains how you can control the ability to create AI-powered item 
 
 If either of these requirements isn't fulfilled, the feature won't be available for use.
 
-<!--
-> [!IMPORTANT]
-> To enable the feature, the privacy notice must be agreed upon and the feature switch must be on.-->
+## Prerequisites
+
+You're using a [preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot. Enabling Copilot is done by an admin. For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).
 
 ## Enable or disable the "Create AI-powered product descriptions with Copilot" feature
 

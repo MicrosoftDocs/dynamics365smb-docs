@@ -28,7 +28,10 @@ You can use the following built-in reports:
 
     The VAT Return report includes VAT for sales and purchases to customers and from vendors in all countries that use VAT.  
 
-In both cases, VAT is calculated based on the VAT posting setup and the VAT posting groups that you have set up. [!INCLUDE[prod_short](includes/prod_short.md)] shows VAT entries based on their **VAT Date**.
+In both cases (as in other VAT-related reports), VAT is calculated based on the VAT posting setup and the VAT posting groups that you have set up. [!INCLUDE[prod_short](includes/prod_short.md)] shows VAT entries always based on their **VAT Date** as a primarely reporting date.  
+
+> [!NOTE]
+> All VAT related reports are now running using **VAT Date** to filter relevant records. Even if you set up **VAT Date Usage** as **Do not use VAT Date functionallity** [!INCLUDE[prod_short](includes/prod_short.md)] will hide all instances of the **VAT Date** across the application, but the **VAT Date** will still be used in all reportings and it will be auto populated with the **Posting Date**.
 
 If you want to view a complete history of VAT entries, every posting that involves VAT creates an entry on the **VAT Entries** page. These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period. To view VAT entries, choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Entries**, and then choose the related link.
 

@@ -76,7 +76,7 @@ Maintenance is also easier. When you add system permission, your user-defined pe
   |**Reduce to indirect**|Change the access level to Indirect if any permission sets give Direct access to the object. For example, choose this option if the permission set gives Direct access to G/L entries but you don't want users to have full access to the entries.|
   
   > [!NOTE]
-  > The highest permission set in the hierarchy determines whether the permission is included or excluded. If two sets are at the same level in the hierarchy, and a permission is included in one set but excluded in the other, the permission will be excluded.
+  > If a permission is both included and excluded, the permission will be excluded.
 
 6. Use the **Object Type** and **Object ID** fields to specify the object you're giving access to.
 
@@ -105,9 +105,16 @@ On the **Result** pane, use the **Inclusion Status** field to identify the permi
 
 For an overall view of permissions in the permission set, choose the **View all permissions** action. The **Expanded Permissions** page shows all permissions that were already assigned to the permission set and the permissions in the added permission sets.
 
-To fully exclude a permission set you've added, on the **Result** pane, select the line, choose **Show more options**, and then choose **Exclude**. When you exclude a permission set, a line is created on the **Permission Sets** pane of the type Excluded. If you've excluded a permission set, but want to include it again, delete the line on the **Permission Sets** pane.
+To fully exclude all permissions from a permission set, on the **Result** pane, select the line, choose **Show more options**, and then choose **Exclude**. When you exclude a permission set, a line is created on the **Permission Sets** pane of the type Excluded. If you've excluded a permission set, but want to include it again, delete the line on the **Permission Sets** pane.
 
-To fully or partially exclude a specific permission in a set you've added, under **Permissions**, create a line for the object. The access level fields, Insert Permission, Modify Permission, and so on, will all contain Exclude. To allow a certain access level, choose the appropriate option.
+To fully or partially exclude a specific permission in a set you've added, under **Permissions**, create a line for the object. The access level fields, Insert Permission, Modify Permission, and so on, will all contain **Exclude**. To allow a certain access level, choose the appropriate option.
+
+> [!NOTE]
+> Excluding a permission set excludes all of the permissions in the set. [!INCLUDE [prod_short](includes/prod_short.md)] calculates permissions as follows:
+
+> 1. Calculate the full list of included permissions
+> 2. Calculate the full list of excluded permissions
+> 3. Remove excluded permissions from the list of included permissions (removing an indirect permission is the same as Reduce to Indirect)
 
 ## To copy a permission set
 
@@ -135,7 +142,7 @@ Create a new permission set by copying another. The new set will include all of 
 2. On the **Permission Sets** page, choose the **New** Action.
 3. On a new line, fill in the fields as necessary.
 4. Choose the **Permissions** action.
-1. On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.  
+5. On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.  
     Recording must be done either by using the **Open this page in a new windows** (pop-out) feature to have the **Permissions** recording window side-by-side, or by working within the same tab.  
     A recording process now starts and captures all of your actions in the user interface.
 6. Go to the various pages and activities in [!INCLUDE[prod_short](includes/prod_short.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for.
@@ -168,7 +175,7 @@ The permission sets are imported.
 
 1. On the **Permission Sets** page, choose the **Remove Obsolete Permissions** action.
 
-## To set up user time constraints
+## To set up time constraints for users
 
 Administrators can define periods of time during which specified users are able to post. Administrators can also specify if the system logs how much time users are signed in. Similarly, administrators can assign responsibility centers to users. For more information, see [Work with Responsibility Centers](inventory-responsibility-centers.md).
 

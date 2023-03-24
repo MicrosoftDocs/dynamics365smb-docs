@@ -91,7 +91,7 @@ After you add users or change user information in the Microsoft 365 Admin Center
 3. Choose **Update Users from Microsoft 365**.
 
 > [!IMPORTANT]  
-> Running the synchronization of users from Microsoft 365 using the **Update users from Microsoft 365** guide, requires the SUPER permission set.
+> Running the synchronization of users from Microsoft 365 using the **Update Users from Microsoft 365** guide, requires the SUPER permission set.
 
 > [!NOTE]
 > The **Update Users from Microsoft 365** guide doesn't update users that are not assigned a license, such as someone who is Global Admin and Dynamics 365 Admin. Those users will update the next time they sign in to the environment.

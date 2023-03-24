@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: access, right, security
 ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
-ms.date: 05/09/2022
+ms.date: 03/24/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
@@ -90,8 +90,11 @@ After you add users or change user information in the Microsoft 365 Admin Center
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.  
 3. Choose **Update Users from Microsoft 365**.
 
+> [!IMPORTANT]  
+> Running the synchronization of users from Microsoft 365 using the **Update Users from Microsoft 365** guide, requires the SUPER permission set.
+
 > [!NOTE]
-> The **Update Users from Microsoft 365** action doesn't update users that are not assigned a license, such as someone who is Global Admin and Dynamics 365 Admin. Those users will update the next time they sign in to the environment.
+> The **Update Users from Microsoft 365** guide doesn't update users that are not assigned a license, such as someone who is Global Admin and Dynamics 365 Admin. Those users will update the next time they sign in to the environment.
 
 The next step for newly created users is to assign user groups and permissions. Go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md) for information. If you're updating a user, and the update includes a license change, users are assigned to the appropriate user group and their permission sets are updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).  
 

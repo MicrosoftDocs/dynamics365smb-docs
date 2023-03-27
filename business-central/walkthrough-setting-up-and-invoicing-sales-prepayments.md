@@ -42,15 +42,15 @@ This walkthrough includes tasks for the following roles:
 
 ## Story
 
- Phyllis is an accounting manager. She makes decisions about which customers are required to pay a deposit before items are manufactured or shipped. Phyllis sets up [!INCLUDE[prod_short](includes/prod_short.md)] to calculate prepayments automatically.  
+ Phyllis is an accounting manager and makes decisions about which customers are required to pay a deposit before items are manufactured or shipped. Phyllis sets up [!INCLUDE[prod_short](includes/prod_short.md)] to calculate prepayments automatically.  
 
- Susan is a sales order processor. When a customer calls to place an order, she enters the order into the system while the customer is on the telephone. This way, she can verify prices and payment terms with the customer immediately, and she can make changes to the order while she negotiates with the customer.  
+ Susan is a sales order processor. When a customer calls to place an order, Susan enters the order into the system while the customer is on the telephone. This way, Susan can verify prices and payment terms with the customer immediately, and make changes to the order while negotiating with the customer.  
 
- Arnie works in the Accounts Receivable department, where he posts invoices and payments.  
+ Arnie works in the Accounts Receivable department and posts invoices and payments.  
 
  In this scenario, Phyllis sets up prepayment requirements for the customer Selangorian based on their credit history. Phyllis gives Susan instructions for how to handle their orders.  
 
- When the customer calls, Susan negotiates with the customer until they reach an agreement. She can then choose to calculate the prepayment in several different ways.  
+ When the customer calls, Susan negotiates with the customer until they reach an agreement, and then chooses to calculate the prepayment in several different ways.  
 
  After Susan sends the prepayment invoice, the customer orders an extra item. Susan updates the order and creates a second prepayment invoice.  
 
@@ -78,9 +78,9 @@ The following procedures describe how to complete Phyllis' tasks:
 
 Now you can't ship or invoice an order that has an unpaid prepayment amount.  
 
-By default, Phyllis requires customer 20000 to be invoiced for a 30% down payment on all orders. Therefore, she'll enter a default prepayment percentage on the customer card.  
+By default, Phyllis requires customer 20000 to be invoiced for a 30% down payment on all orders. Therefore, Phyllis will enter a default prepayment percentage on the customer card.  
 
-Phyllis requires all customers to be invoiced a 20% deposit for item 1896-S. Customer 20000 has a poor payment history, so she requires a 40% prepayment from customer 20000 for item 1896-S. The following procedure illustrates how to set up default prepayment percentages.  
+Phyllis requires all customers to be invoiced a 20% deposit for item 1896-S. Customer 20000 has a poor payment history, so Phyllis requires a 40% prepayment from customer 20000 for item 1896-S. The following procedure illustrates how to set up default prepayment percentages.  
 
 ### To assign default prepayment percentages to customers and items
 
@@ -113,7 +113,7 @@ Phyllis requires all customers to be invoiced a 20% deposit for item 1896-S. Cus
 
  In the following scenario, Susan, the order processor, creates an order when talking to a customer. The items the customer is ordering require a prepayment. Plus, the customer has made some late payments in the past. Susan's been instructed to require a fixed amount of **800** as a prepayment on the order.  
 
-The customer asks to pay 35%, to which Susan can agree, so she changes the order.  
+The customer asks to pay 35%, to which Susan agrees and changes the order.  
 
 Susan creates the prepayment invoice and sends it to the customer.  
 
@@ -168,7 +168,7 @@ After entering the correct prepayment values on the order, Susan creates the pre
 
 ## Create an Additional Prepayment Invoice
 
-The following day, the customer calls Susan and makes changes to the order. The customer wants two of item 1896-S. Susan reopens the order and updates it. She then creates a second prepayment invoice for the order and sends it to the customer.  
+The following day, the customer calls Susan and makes changes to the order. The customer wants two of item 1896-S. Susan reopens the order, updates it, and then creates a second prepayment invoice for the order and sends it to the customer.  
 
 ### To create an additional prepayment invoice
 

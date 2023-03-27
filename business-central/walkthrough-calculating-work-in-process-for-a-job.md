@@ -47,7 +47,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
  CRONUS has taken on a lengthy project that has now extended across reporting periods. Tricia, a project team member, calculates the work in process (WIP) to make sure that the financial statement of the company will be accurate.  
 
- During this procedure, Tricia will select a specific group of tasks that will be included in the WIP calculation. On the **Job Task Lines** page, she can specify these lines in the **WIP-Total** column.  
+ During this procedure, Tricia will select a specific group of tasks that will be included in the WIP calculation. On the **Job Task Lines** page, Tricia can specify these lines in the **WIP-Total** column.  
 
  The following table describes the three options.  
 
@@ -57,7 +57,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 |**Total**|Defines the range or group of tasks that are included in the WIP and recognition calculation. Within the group, any job task with **Job Task Type** set to **Posting** will be included in the WIP Total, unless its **WIP-Total** field is set to **Excluded**.|  
 |**Excluded**|Applies only to a task with **Job Task Type** of **Posting**. The task is not included when WIP and recognition are calculated.|  
 
- In the following walkthrough, Tricia applies the Cost Value method, her company standard, to calculate WIP. She specifies what part of the job will be included in the WIP calculation by assigning WIP-Total values to various job task lines.  
+ In the following walkthrough, Tricia applies the Cost Value method, their company standard, to calculate WIP. Tricia specifies what part of the job will be included in the WIP calculation by assigning WIP-Total values to various job task lines.  
 
 ### To calculate WIP  
 
@@ -113,7 +113,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
 ## Posting WIP to General Ledger
 
- Now that Tricia has calculated WIP for this job, she can post it to the general ledger.  
+ Now that Tricia has calculated WIP for this job, they can post it to the general ledger.  
 
 ### To post WIP to general ledger  
 
@@ -137,7 +137,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 
 ## Reversing a WIP Posting
 
- Tricia determines that the job tasks that were excluded from the calculation of WIP should have been calculated in WIP. She can reverse the incorrect postings without having to post new WIP postings.  
+ Tricia determines that the job tasks that were excluded from the calculation of WIP should have been calculated in WIP. Tricia can reverse the incorrect postings without having to post new WIP postings.  
 
 ### To reverse a WIP posting  
 
@@ -156,7 +156,7 @@ With jobs, you can schedule the usage of your company's resources and keep track
 13. Open **Job Task Lines** for the job, include the parts of the job that should be in the WIP calculation, and then recalculate and post the new value to the general ledger.  
 
     > [!NOTE]  
-    >  Suppose Tricia calculated and posted WIP for a job with incorrect dates. Following the method that was discussed earlier, she can reverse the incorrect postings, correct the dates, and repost to the general ledger.  
+    >  Suppose Tricia calculated and posted WIP for a job with incorrect dates. Following the method that was discussed earlier, Tricia can reverse the incorrect postings, correct the dates, and repost to the general ledger.  
 
 ## Next Steps
 

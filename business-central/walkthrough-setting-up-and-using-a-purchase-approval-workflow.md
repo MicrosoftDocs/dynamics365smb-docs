@@ -34,9 +34,9 @@ This walkthrough is a scenario illustrating the following tasks:
 
 ## Story
 
-Sean is a super user at CRONUS. He creates two approval users. One is Alicia who represents a purchasing agent. The other is himself representing Alicia's approver. Sean then gives himself unlimited purchase approval rights and specifies that he'll receive notifications by internal note as soon as a relevant event occurs. Finally, Sean creates the required approval workflow as a copy of the existing *Purchase Order Approval Workflow* template, leaves all existing event conditions and response options unchanged, and then enables the workflow.  
+Sean is a super user at CRONUS and creates two approval users. One is Alicia who represents a purchasing agent. The other is Sean themself, representing Alicia's approver. Sean then gives themself unlimited purchase approval rights and specifies that they'll receive notifications by internal note as soon as a relevant event occurs. Finally, Sean creates the required approval workflow as a copy of the existing *Purchase Order Approval Workflow* template, leaves all existing event conditions and response options unchanged, and then enables the workflow.  
 
-To test the approval workflow, Sean signs in to [!INCLUDE[prod_short](includes/prod_short.md)] as Alicia and then requests approval of a purchase order. Sean then signs in as himself, sees the note in his Role Center, follows the link to the approval request for the purchase order, and approves the request.  
+To test the approval workflow, Sean signs in to [!INCLUDE[prod_short](includes/prod_short.md)] as Alicia and then requests approval of a purchase order. Sean then signs in as themself, sees the note in the Role Center, follows the link to the approval request for the purchase order, and approves the request.  
 
 ## Users
 

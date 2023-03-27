@@ -36,13 +36,13 @@ To complete this walkthrough, you will need:
 
 ## Story
 
-Cassie is an accountant at CRONUS AG. She has been notified by the company's tax auditor that they want to see a list of purchase and sales transactions in the first quarter of the calendar year 2013. Cassie knows the type of financial data that the auditor wants, but she needs the help of Sean to set up the export.  
+Cassie, an accountant at CRONUS AG has been notified by the company's tax auditor that they want to see a list of purchase and sales transactions in the first quarter of the calendar year 2013. Cassie knows the type of financial data that the auditor wants, but needs the help of Sean to set up the export.  
 
-Sean is a power user with CRONUS AG. He understands how the data is set up technically with tables and fields. Therefore he usually helps Cassie set up the data exports for the auditors. From other data exports, he knows that the tool that the auditors use has some requirements on what the exported files must contain, but he needs the help of Cassie to establish exactly which data is needed.  
+Sean is a power user with CRONUS AG and understands how the data is set up technically with tables and fields. Therefore, Sean usually helps Cassie set up the data exports for the auditors. From other data exports, Sean knows that the tool that the auditors use has some requirements on what the exported files must contain, but needs the help of Cassie to establish exactly which data is needed.  
 
 ## Defining the Requirements
 
-Cassie sets up the requirements for the data export. The auditors have asked her for transactions with customers and vendors. Therefore she knows that she needs data from the customer ledger, the vendor ledger, and the general ledger.  
+Cassie sets up the requirements for the data export. The auditors have asked for transactions with customers and vendors. Therefore Cassie knows that data is needed from the customer ledger, the vendor ledger, and the general ledger.  
 
 ### To set up the requirements for a data export  
 
@@ -57,7 +57,7 @@ Cassie sets up the requirements for the data export. The auditors have asked her
 
     The **AUDIT-Q113** code is a container for the data export.  
 
-    Next, Cassie adds descriptions of the kind of data that she needs in the export.  
+    Next, Cassie adds descriptions of the kind of data needed in the export.  
 
 4. On the **Data Exports** page, choose the **Record Definitions** action.  
 5. On the **Data Export Record Definitions** page, choose the **Record Code** field, and then, on the page that appears, choose the **New** action.  
@@ -79,7 +79,7 @@ Cassie sets up the requirements for the data export. The auditors have asked her
 
     If the specified folder does not exist, choose the **Yes** button to create it.  
 
-Next, Cassie specifies the source for the data that will be exported. She knows from previous exports that she wants data from the following tables:  
+Next, Cassie specifies the source for the data that will be exported. Cassie knows from previous exports that data is needed from the following tables:  
 
 - **G/L Account**  
 - **Customer**  
@@ -98,14 +98,14 @@ Next, Cassie specifies the source for the data that will be exported. She knows 
 
 4.  Repeat the two previous steps to add tables 18, **Customer**, and 23, **Vendor** to the data export record source.  
 
-    For these tables, Cassie asks for data about each customer and vendor and detailed information about each transaction based on the customer ledger and the vendor ledger. She also asks for the net change at the start of the period, during the period, and after the period that the data export is for.  
+    For these tables, Cassie asks for data about each customer and vendor and detailed information about each transaction based on the customer ledger and the vendor ledger. Cassie also asks for the net change at the start of the period, during the period, and after the period that the data export is for.  
 
 5.  Choose the **OK** button.  
 
-Cassie has described the kind of data that she needs, and she notifies Sean that she wants his help is setting up the data export.  
+Cassie has described the kind of data needed, and requests Sean for help in setting up the data export.  
 
 ## Setting Up the Source for the Data Export  
-Cassie and Sean have talked about the requirements. Cassie has explained what she means with the comments she has made for the first three tables in the record sources. The next day, Sean can complete the setup for the data export source.  
+Cassie and Sean have talked about the requirements. Cassie has explained the comments made for the first three tables in the record sources. The next day, Sean can complete the setup for the data export source.  
 
 First, Sean adds the required .dtd file to the data export record definition.  
 
@@ -115,7 +115,7 @@ First, Sean adds the required .dtd file to the data export record definition.
 2.  On the **Data Export Record Definitions** page, choose the line where the **Data Export Record Type Code** field is set to **GLCUSTVEND**, and then choose the **Import** action.  
 3.  On the **Import** page, navigate to the location of the relevant DTD file, and then choose the **Open** button.  
 
-Next, Sean adds the **G/L Entry** table to the source. Then he adds fields from that table and the **G/L Account** table.  
+Next, Sean adds the **G/L Entry** table to the source and then adds fields from that table, and the **G/L Account** table.  
 
 ### To add the G/L Entry table to the data export record source  
 
@@ -239,16 +239,16 @@ Sean has added the **Customer** table to the data export source. Now, he adds th
     |59|**Balance (LCY)**|**FlowField**|**..Enddate**|**EndBalanceLCY**|  
     |61|**Net Change (LCY)**|**FlowField**|**Startdate..Enddate**|**NetChangeLCYPeriod**|  
 
-Sean has almost completed the setup, but he wants to verify that the data export source meets the technical requirements of the auditors' tool.  
+Sean has almost completed the setup, but wants to verify that the data export source meets the technical requirements of the auditors' tool.  
 
 ### To validate the data export source  
 
 Choose the **Validate** action.  
 
-Sean has now completed the setup of the data export based on the requirements from Cassie. He notifies her that she can start exporting data for the tax auditors.  
+Sean has now completed the setup of the data export based on the requirements from Cassie. Sean notifies Cassie to start exporting data for the tax auditors.  
 
 ## Exporting Data for the Tax Auditors  
-Cassie wants to export data that she can then send to the tax auditors.  
+Cassie wants to export data that can be sent to the tax auditors.  
 
 ### To export data  
 
@@ -269,11 +269,11 @@ Cassie wants to export data that she can then send to the tax auditors.
 
 4.  To export the data, choose the **OK** button.  
 
-When the export is completed, Cassie is notified. She can now submit the exported files to the tax auditors. First, she examines the files in the C:Exports folder on her computer. There is a file for each table, and the files have the names that Sean specified in the data export source. There is also an INDEX.XML file that describes the structure of the data export with the names of the tables and fields that Sean specified.  
+When the export is completed, Cassie is notified, and can now submit the exported files to the tax auditors. First, Cassie examines the files in the C:Exports folder on the computer. There is a file for each table, and the files have the names that Sean specified in the data export source. There is also an INDEX.XML file that describes the structure of the data export with the names of the tables and fields that Sean specified.  
 
 ## Next Steps
 
-When the tax auditors import Cassie's files into their software, they can read the data that she exported. If the auditors need a new version of the same data export, Cassie can run the export again.  
+When the tax auditors import Cassie's files into their software, they can read the data that was exported. If the auditors need a new version of the same data export, Cassie can run the export again.  
 
 The next time the tax auditors request new data, Cassie and Sean can collaborate to create a new data export.  
 

@@ -89,6 +89,8 @@ After you release an order, the warehouse employee can create an inventory pick.
     * Post the shipment of the source document lines that were picked.
     * If the location uses bins, posting will also create warehouse entries to post the changes to the bin quantity.  
 
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 ## Handling assemble-to-order items with inventory picks
 
 You can also use the **Inventory Pick** page to pick and ship for sales where items must be assembled before they can be shipped. Learn more at [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).

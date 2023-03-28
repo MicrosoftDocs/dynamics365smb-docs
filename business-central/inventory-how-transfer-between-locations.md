@@ -58,6 +58,8 @@ You can ship an outbound transfer from one location and receive an inbound trans
     As a warehouse worker at the transfer-from location, proceed to receive the items. The transfer order lines are the same as when shipped and cannot be edited.
 5. Choose the **Post** action, choose the **Receive** option, and then choose the **OK** button.
 
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 ## To transfer items with the item reclassification journal
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journals**, and then choose the related link.
@@ -68,6 +70,8 @@ You can ship an outbound transfer from one location and receive an inbound trans
     > To transfer items that have no location code, leave the **Location Code** field blank.
 4. In the **New Location Code** field, enter the location that you want to transfer the items to.
 5. Choose the **Post** action.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## See related [Microsoft training](/training/modules/transfer-items/)
 

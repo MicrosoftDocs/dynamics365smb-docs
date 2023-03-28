@@ -28,7 +28,9 @@ A regular Shopify order can include costs in addition to the subtotal, such as s
 
 Enable **Auto Create Orders** to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] once the Shopify order is imported.
 
-The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] contains a link to the Shopify order. If you select the **Shopify Order No. on Doc. Line** field, this information is repeated in the sales lines of type *Comment*.
+If you want to automatically release a sales document, turn on the **Auto Release Sales Order** toggle.
+
+The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add a field that isn't already displayed on the page. To learn more about adding a field, go to [To start personalizing a page through the **Personalizing** banner](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). If you select the **Shopify Order No. on Doc. Line** field, this information is repeated on the sales lines of the type **Comment**.
 
 In the **Tax area source** field, you can set the priority on how to select tax area code or VAT business posting group based on address. The imported Shopify order contains information about taxes, but the taxes get recalculated when you create the sales document so it's important that the VAT/tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. For more information about taxes, see [Set Up Taxes for the Shopify Connection](setup-taxes.md).
 
@@ -75,11 +77,11 @@ The following procedure describes how to import and update the sales orders.
 > [!NOTE]  
 > When filtering by tag, you should use filter tokens `@` and `*`. For example if you want to import orders containing *tag1*, use `@*tag1*`. `@` will ensure that result is case incensitive, while `*` find orders with multiple tags.
 
-7. Choose the **OK** button.
+6. Choose the **OK** button.
 
 Alternatively, you can search for the **Sync Orders From Shopify** batch job.
 
-You can schedule the task to be performed in an automated manner. Learn more at [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
+You can schedule the task to be performed automatically. Learn more at [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
 
 ## Review imported orders
 
@@ -90,7 +92,7 @@ Once the import is completed, you can explore the Shopify order and find all rel
 
 ## Create sales documents in Business Central
 
-If the **Auto Create Orders** toggle is enabled on the **Shopify Shop Card**, [!INCLUDE[prod_short](../includes/prod_short.md)] tries to create a sales document once the order is imported. If issues such as a missing customer or product occur, you'll need to fix the problems and then create the sales order again.
+If the **Auto Create Orders** toggle is enabled on the **Shopify Shop Card**, [!INCLUDE[prod_short](../includes/prod_short.md)] tries to create a sales document after the order is imported. If issues such as a missing customer or product occur, you'll need to fix the problems and then create the sales order again.
 
 ### To create sales documents
 
@@ -132,20 +134,24 @@ The next steps depend on the **Customer Mapping Type**.
 
 In Shopify:
 
-|Edit|Impact|
-|------|-----------|
-|Change the fulfillment location | Original location will be synched to [!INCLUDE[prod_short](../includes/prod_short.md)]. |
-|Change the fulfillment location and register fulfillment in Shopify| If order was already imported, then lines won't be updated. Otherwise imported order will use Fulfillment location. |
-|Edit an order and change quantity| Order header and supplementary tables will be updated in [!INCLUDE[prod_short](../includes/prod_short.md)], lines won't. |
-|Edit an order and add new item | Order header will be updated, lines won't. |
+|Edit|Impact for already imported order|Impact for order that gets imported for the first time|
+|------|-----------|-----------|
+|Change the fulfillment location | Original location is in lines | Fulfillment location is synched to [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Edit an order and increase quantity| The order header and supplementary tables will be updated in [!INCLUDE[prod_short](../includes/prod_short.md)], lines won't.| Imported order will use new quantity|
+|Edit an order and decrease quantity| The order header and supplementary tables will be updated in [!INCLUDE[prod_short](../includes/prod_short.md)], lines won't.| Imported order will use the original quantity, the Fulfillable Quantity field will contain a new value.|
+|Edit an order and remove existing item | Order header  and supplementary tables will be updated in [!INCLUDE[prod_short](../includes/prod_short.md)], lines won't.| Removed item still will be imported, the Fulfillable Quantity field will contain zero. |
+|Edit an order and add new item | Order header will be updated, lines won't. | Original and added items will be imported. |
+|Process order: fulfill, update payment information | Order header will be updated, but the lines won't. |Change has no impact on how the order is imported.|
+|Cancel order | Order header will be updated, but the lines won't. |Canceled order is not imported |
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Edit|Impact|
 |------|-----------|
-|Change the location to another location, mapped to the Shopify Locations. Post shipment. | After synchronizing the fulfillment, the location will be updated in Shopify. |
+|Change the location to another location, mapped to the Shopify Locations. Post shipment. | Order will be marked as fuflilled. Original location will be used. |
 |Change the location to another location, not mapped to the Shopify Locations. Post shipment. | The fulfillment won't be synchronized with Shopify. |
-|Change decrease quantity. Post shipment. | The Shopify order will be marked as partially fulfilled. |
+|Decrease quantity. Post shipment. | The Shopify order will be marked as partially fulfilled. |
+|Increase quantity. Post shipment. | The fulfillment won't be synchronized with Shopify. |
 |Add a new item. Post shipment. | The Shopify order will be marked as fulfilled. Lines won't be updated. |
 
 ## Synchronize shipments to Shopify
@@ -162,7 +168,7 @@ Alternatively, use the **Sync Shipments** action in the Shopify Sales Orders or 
 
 You can schedule the task to be performed in an automated manner. Learn more at [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
 
->[Important]
+>[!Important]
 >The location, including blank location, defined in the Posted Shipment Line must have a matching record in the Shopify Location. Otherwise, this line won't be sent back to Shopify. Learn more at [Location mapping](synchronize-orders.md#location-mapping).
 
 Remember to run **Synchronize Orders from Shopify** to update the fulfillment status of an order in [!INCLUDE[prod_short](../includes/prod_short.md)]. The connector functionality also archives completely paid and fulfilled orders in both Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)] provided the conditions are met.

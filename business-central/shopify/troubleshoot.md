@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting the Shopify and Business Central Synchronization
 description: Learn what to do if something goes wrong during the synchronization of data between Shopify and Business Central
-ms.date: 08/19/2022
+ms.date: 03/27/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: 30118, 30119, 30120, 30101, 30102 
@@ -12,15 +12,31 @@ ms.reviewer: solsen
 
 # Troubleshooting the Shopify and Business Central Synchronization
 
-It's possible to run into situations where you need to troubleshoot issues when synchronizing data between Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)]. This page defines troubleshooting steps for some common scenarios that may occur.
+You might run into situations where you need to troubleshoot issues when synchronizing data between Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)]. This page defines troubleshooting steps for some typical scenarios.
+
+## Run tasks in the foreground
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
+2. Select the shop for which you want to troubleshoot to open the **Shopify Shop Card** page.
+3. Turn off the **Allow Background Syncs** toggle.
+
+Now, when the sync action is triggered the task will run in the foreground and if an error occurs, you'll get an error dialog with **Copy details** link. Use this link to copy additional information to a text editor for the further analysis.
 
 ## Logs
 
-If a synchronization task fails, you can activate logging by enabling the **Log Enable** toggle on the **Shopify Shop Card** page. Then you can manually trigger the synchronization task and review logs.
+If a synchronization task fails, you can turn on the **Log Enabled** toggle on the **Shopify Shop Card** page to activate logging. Then you can manually trigger the synchronization task and review logs.
+
+### To enable logging
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
+2. Select the shop for which you want to troubleshoot to open the **Shopify Shop Card** page.
+3. Turn on the **Log Enabled** toggle.
+
+### To review logs
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Log Entries**, and choose the related link.
 2. Select the related log entry and open the **Shopify Log Entry** page.
-3. Review the request, status code and description, and response values.
+3. Review the request, status code and description, and response values. You can download the request and response values as files in a text format.
 
 Later, remember to switch logging off to avoid negative performance impacts and increases in database size.
 
@@ -85,17 +101,38 @@ The following procedures describe how to rotate the access token used by the Sho
 
 ## Known issues
 
-### The *Gen. Bus. Posting Group* cannot be zero or empty; there must be a value in the customer field
+### Error: The Sales Header does not exist. Identification fields and values: Document Type='Quote',No.='YOU SHOPIFY STORE'
+
+To calculate prices the Shopify Connector creates temporary sales document (quote) for temporary customer (Shop Code) and lets the standard price calculation logic to do its job. It is typical scenario when a third party extension subscribes to events in sales line but doesn't check that the record is temporary, so the header might not be accessible. Our recommendation is to reach out to the supplier of the extension and ask them to modify their code to check whether records are temporary. In some cases, adding the `IsTemporary` method ìn the right place is enough. To learn more about IsTemporary, go to [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
+
+To verify that the problem is caused by a third party extension, use the **Copy information to clipboard** link in the error message and copy the content into text editor. The information contains an **AL call stack**, where the top line is the line where error occurred. The following is an example of an AL call stack.
+
+AL call stack: 
+```AL
+[Object Name]([Object type] [Object Id]).[Function Name] line [XX] - [Extension Name] by [Publisher] 
+...
+"Sales Line"(Table 37)."No. - OnValidate"(Trigger) line 98 - Base Application by Microsoft
+"Shpfy Product Price Calc."(CodeUnit 30182).CalcPrice line 20 - Shopify Connector by Microsoft
+"Shpfy Create Product"(CodeUnit 30174).CreateTempProduct line 137 - Shopify Connector by Microsoft
+"Shpfy Create Product"(CodeUnit 30174).CreateProduct line 5 - Shopify Connector by Microsoft
+"Shpfy Create Product"(CodeUnit 30174).OnRun(Trigger) line 12 - Shopify Connector by Microsoft
+"Shpfy Add Item to Shopify"(Report 30106)."Item - OnAfterGetRecord"(Trigger) line 2 - Shopify Connector by Microsoft
+"Shpfy Products"(Page 30126)."AddItems - OnAction"(Trigger) line 5 - Shopify Connector by Microsoft
+```
+
+Remember to the share AL call stack information with the supplier of the extension.
+
+### Error: Gen. Bus. Posting Group must have a value in Customer: 'YOU SHOPIFY STORE'. It cannot be zero or empty
 
 On the **Shopify Shop Card** page, fill in the **Customer Template Code** field with the template that has **Gen. Bus. Posting Group** populated. The customer template is used not only for the creation of customers but also for the calculation of the sales price and during the creation of sales documents.
 
-### Importing data to your Shopify shop isn't enabled. Go to the shop card to enable it
+### Error: Importing data to your Shopify shop isn't enabled. Go to the shop card to enable it
 
 On the **Shopify Shop Card** window, turn on the **Allow Data Sync to Shopify** toggle. This toggle is intended to protect the online shop from getting demo data from [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-### Oauth error invalid_request: Could not find Shopify API application with api_key
+### Error: Oauth error invalid_request: Could not find Shopify API application with api_key
 
-It seems you use the [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), where the client URL has the format: `https://[application name].bc.dynamics.com`. The Shopify connector doesn't work for Embed Apps. For more information, see [What Microsoft products is the Shopify connector available for](shopify-faq.md#what-microsoft-products-is-the-shopify-connector-available-for).
+It seems you use the [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), where the client URL has the format: `https://[application name].bc.dynamics.com`. The Shopify connector doesn't work for Embed Apps. For more information, see [Which Microsoft products are the Shopify connector available for?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
 
 ## See also
 

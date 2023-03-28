@@ -13,46 +13,46 @@ ms.search.form: 9061
 ---
 # Set Up Business Central Access in Teams with Microsoft 365 Licenses
 
-Administrators must complete multiple activities before users can access Business Central with their Microsoft 365 license. The steps below represent the minimum setup required to get started. To learn more about access with Microsoft 365 licenses, go to [Business Central Access with Microsoft 365 Licenses](admin-access-with-m365-license.md).
+Administrators must complete multiple activities before users can access [!INCLUDE [prod_short](includes/prod_short.md)] with their Microsoft 365 license. The steps below represent the minimum setup required to get started. To learn more about access with Microsoft 365 licenses, go to [Business Central Access with Microsoft 365 Licenses](admin-access-with-m365-license.md).
 
 ## Deploy the Business Central app for Teams
 
-For Business Central license holders to share data in Teams, and for Microsoft 365 license holders to access that data, each must have the Business Central app for Teams installed. Although users can install the app by themselves, it's recommended that administrators use centralized deployment. Centralized deployment lets you roll out the app to a broader audience across the organization and minimize individual user effort. 
+For [!INCLUDE [prod_short](includes/prod_short.md)] license holders to share data in Teams, and for Microsoft 365 license holders to access that data, each must have the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams installed. Although users can install the app by themselves, it's recommended that administrators use centralized deployment. Centralized deployment lets you roll out the app to a broader audience across the organization and minimize individual user effort. 
 
-To learn how to centrally deploy the Business Central app for Teams, see [Installing the Business Central app by using Centralized Deployment](admin-teams-integration.md#installing-the-business-central-app-by-using-centralized-deployment).
+To learn how to centrally deploy the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams, see [Installing the Business Central app by using Centralized Deployment](admin-teams-integration.md#installing-the-business-central-app-by-using-centralized-deployment).
 
 > [!NOTE]
-> If you have run centralized deployment before and only deployed the app to the security group of licensed Business Central users, you'll need to run it again to deploy to additional groups or the whole organization, depending on how you are configuring access.
+> If you have run centralized deployment before and only deployed the app to the security group of licensed [!INCLUDE [prod_short](includes/prod_short.md)] users, you'll need to run it again to deploy to additional groups or the whole organization, depending on how you are configuring access.
 
 > [!TIP]
 > Looking for a quicker way to get started when trying out this feature? Test users can install the app at [aka.ms/BCgetTeamsApp](https://aka.ms/BCgetTeamsApp).
 
 ## Configure permissions
 
-Business Central is secure by design and minimizes risk by granting no permissions to Microsoft 365 users out of the box. Administrators must configure object permissions that determine which tables, pages and reports can be accessed in Teams with only a Microsoft 365 license. These permissions are the starting permissions assigned when a user signs in for the first time with their Microsoft 365 license. 
+[!INCLUDE [prod_short](includes/prod_short.md)] is secure by design and minimizes risk by granting no permissions to Microsoft 365 users out of the box. Administrators must configure object permissions that determine which tables, pages and reports can be accessed in Teams with only a Microsoft 365 license. These permissions are the starting permissions assigned when a user signs in for the first time with their Microsoft 365 license. 
 
 To configure starting permissions:
 
-1. In Business Central, search for **License Configuration**.
+1. In [!INCLUDE [prod_short](includes/prod_short.md)], search for **License Configuration**.
 2. Select the Microsoft 365 license.
 3. At the top of the **Microsoft 365** license page, select the edit icon ![Edit icon](media/edit-pencil.png), then turn on **Customize permissions**. 
 4. In the **Custom Permission Sets** section, add the appropriate permission sets and choose whether they're applicable to a single company or all companies within the environment.
 
-With this configuration, users with only a Microsoft 365 license are added to the **Users** list when they access Business Central for the first time. For more information about users, go to [Creating Users According to Licenses](ui-how-users-permissions.md).
+With this configuration, users with only a Microsoft 365 license are added to the **Users** list when they access [!INCLUDE [prod_short](includes/prod_short.md)] for the first time. For more information about users, go to [Creating Users According to Licenses](ui-how-users-permissions.md).
 
 > [!NOTE]
-> When synchronizing the users list in Business Central with users in Microsoft 365, only users that have a Business Central license are added to Business Central's users list. For more administrative control over permissions, user groups, and profiles, you can assign a security group to the environment. When environments are secured using a security group and enable access with Microsoft 365 licenses, the **Update users from Microsoft 365** action in the **Users** page will also include users that only have a Microsoft 365 license. To learn about securing environments, see [Manage access using Azure Active Directory groups](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) in the developer and IT pro help.
+> When synchronizing the users list in [!INCLUDE [prod_short](includes/prod_short.md)] with users in Microsoft 365, only users that have a [!INCLUDE [prod_short](includes/prod_short.md)] license are added to [!INCLUDE [prod_short](includes/prod_short.md)]'s users list. For more administrative control over permissions and profiles, you can assign a security group to the environment. When environments are secured using a security group and enable access with Microsoft 365 licenses, the **Update users from Microsoft 365** action in the **Users** page will also include users that only have a Microsoft 365 license. To learn about securing environments, see [Manage access using Azure Active Directory groups](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) in the developer and IT pro help.
 
 > [!TIP]
 > Looking for a quicker way to get started when trying out this feature sandbox or evaluation company? Assign the **D365 Read** permission set, which grants permission to most objects.  
 
-When working with multiple environments, license configuration must be applied to each environment and can be different on each environment. 
+When working with multiple environments, license configuration must be applied to each environment and can be different on each environment.
 
 Learn more at [Assign Permissions to Users and Groups](ui-define-granular-permissions.md) and [Composing Permission Sets](/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing).
 
 ## Turn on access with Microsoft 365 licenses
 
-Access with Microsoft 365 licenses is off by default. Access must be enabled for each environment independently, giving administrators control and allowing for staged rollout across the organization. You turn on access by using the Business Central admin center: 
+Access with Microsoft 365 licenses is off by default. Access must be enabled for each environment independently, giving administrators control and allowing for staged rollout across the organization. You turn on access by using the [!INCLUDE [prod_short](includes/prod_short.md)] admin center: 
 
 1. In the upper-right corner, select **Settings** ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **Admin Center**.  
 2. In the admin center, select **Environments**, then select the environment on which you want to change license access. 
@@ -66,20 +66,20 @@ To verify that your setup is ready for production, the following steps will help
 
 1. Create or identify two test users (A and B).
 
-   - Test user A must have a Business Central license and Microsoft 365 license with access to Teams.
+   - Test user A must have a [!INCLUDE [prod_short](includes/prod_short.md)] license and Microsoft 365 license with access to Teams.
    - Test user B must have only a Microsoft 365 license with access to Teams.
 
-2. Sign in to the Business Central web client as test user A.
+2. Sign in to the [!INCLUDE [prod_short](includes/prod_short.md)] web client as test user A.
 
    1. Open a record that test user B should have access to, such as an **Item** card in the appropriate company and environment.
    2. Select **Share** ![!Share to other apps action on pages.](media/share-icon.png) > **Share to Teams** to bring up the Share to Teams window.
-   3. In the **Share to** field, add test user B as the recipient. 
-   4. Wait for the link to expand to a card and select Share. 
+   3. In the **Share to** field, add test user B as the recipient.
+   4. Wait for the link to expand to a card and select Share.
 
 3. Sign into Microsoft Teams as test user B.
 
-   1. Select Chat and open the conversation with test user A. 
-   2. In the message sent by test user A, select the Details button on the card. If the Business Central client is displayed and is read-only, your set up was successful. 
+   1. Select Chat and open the conversation with test user A.
+   2. In the message sent by test user A, select the Details button on the card. If the [!INCLUDE [prod_short](includes/prod_short.md)] client is displayed and is read-only, your set up was successful.
 
 > [!TIP]
 > Something went wrong? Check out [Troubleshoot Access with Microsoft 365 Licenses](admin-access-with-m365-license-troubleshooting.md).

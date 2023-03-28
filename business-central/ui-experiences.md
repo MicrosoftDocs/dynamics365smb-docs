@@ -39,13 +39,14 @@ The **Experience** setting applies to all users in a company, but each user can 
 Users are assigned to plans in Microsoft 365 Admin Center in connection with the general work to create the Business Central users. For more information, see [Add users and assign licenses at the same time](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
 ### To update plan changes in users groups
-When you have made a change to users plans in Microsoft 365 Admin Center, such as assigned more users to the Premium plan, you must reflect the change in [!INCLUDE[prod_short](includes/prod_short.md)].
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
+When you have made a change to users plans in Microsoft 365 Admin Center, such as assigned more users to the Premium plan, you must update [!INCLUDE[prod_short](includes/prod_short.md)] to reflect the change.
 
 1. Sign is as an administrator.
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
-3. On the **Users** page, choose the **Refresh all User Groups** action.
-
-All new information about the users' plans and their assigned user groups are now updated according to the plan changes.
+3. On the **Users** page, choose the **Update users from Microsoft 365** action.
 
 ### To select the Premium experience
 You can now proceed to select the new experience.

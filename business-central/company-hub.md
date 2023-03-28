@@ -70,6 +70,8 @@ For more information about companies and environments, see [Environment links](c
 
 ## Access the company hub
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 In order to access the company hub, you must have access through either the *D365 COMPANY HUB* user group or through the *D365 COMPANY HUB*  permission set. You must also have access to the companies that are listed in your company hub, which means that you must be a user in those companies. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).  
 
 > [!IMPORTANT]

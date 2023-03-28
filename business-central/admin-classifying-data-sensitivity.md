@@ -30,6 +30,9 @@ The following table describes data sensitivity levels you can assign.
 |Normal | General data that does not belong to any other categories.|
 
 ## How Do I Classify My Data?
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Classifying the sensitivity of a large number of fields one-by-one would take a long time. To help speed up the process, we provide tools that you can use to bulk classify the sensitivity of fields, and then fine-tune classifications for specific fields. You can find tools on the Data Classification worksheet, which is available on the Administration of users, user groups, and permissions Role Center. You must be a system administrator to use the worksheet.
 
 > [!Important]

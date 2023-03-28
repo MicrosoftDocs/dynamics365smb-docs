@@ -11,6 +11,8 @@ ms.reviewer: jswymer
 ---
 # Create Users According to Licenses
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 This article describes how administrators create users and define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)]. You'll also learn how to assign permissions to different users according to your product licenses.
 
 When you create users in [!INCLUDE[prod_short](includes/prod_short.md)], you grant permissions to them through permission sets. You can also organize users in user groups. User groups make it easier to manage permissions and other settings for multiple users at the same time. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
@@ -104,7 +106,7 @@ The next step for newly created users is to assign user groups and permissions. 
 For more information about synchronizing user information with Microsoft 365, go to the [Synchronization with Microsoft 365](#m365) section.
 
 > [!NOTE]
-> If you use an external accountant to manage your books and financial reporting, you can invite them to your Business Central so they can work with you on your fiscal data. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).
+> If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).
 
 ### To remove a user's access to the system
 
@@ -137,9 +139,9 @@ If you change user information in Microsoft 365, you can update [!INCLUDE[prod_s
 
 Users can access [!INCLUDE[prod_short](includes/prod_short.md)] records in Teams using only their Microsoft 365 license. When access is enabled for an environment, synchronizing using the **Update users from Microsoft 365** action won't include users that only have a Microsoft 365 license. To include these users in synchronization, you must first update environment settings by assigning a security group that contains users with a [!INCLUDE[prod_short](includes/prod_short.md)] license and users with only a Microsoft 365 license.
 
-Learn about securing access to environments using security groups at [Manage access using Azure Active Directory groups](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups). 
+Learn about securing access to environments using security groups at [Manage access using Azure Active Directory groups](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups).
 
-Get an overview of accessing Business Central in Teams with Microsoft 365 licenses at [admin-access-with-m365-license](admin-access-with-m365-license.md).
+Get an overview of accessing [!INCLUDE[prod_short](includes/prod_short.md)] in Teams with Microsoft 365 licenses at [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
 ## Manage users and licenses in on-premises deployments
 

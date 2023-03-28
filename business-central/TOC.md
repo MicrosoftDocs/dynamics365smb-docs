@@ -1515,6 +1515,7 @@
 #### [Send Documents by Email](ui-how-send-documents-email.md)
 #### [Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)
 #### [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)
+#### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
 ### Set Up Purchasing
 #### [Set Up Purchasing](purchasing-setup-purchasing.md)
 #### [Register New Vendors](purchasing-how-register-new-vendors.md)
@@ -1523,6 +1524,7 @@
 #### [Set Up Purchasers](purchasing-how-setup-purchasers.md)
 #### [Set Up Prices and Discounts](across-prices-and-discounts.md)
 #### [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
 ### Set Up Inventory
 #### [Set Up Inventory](inventory-setup-inventory.md)
 #### [Set Up General Inventory Information](inventory-how-setup-general.md)

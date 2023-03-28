@@ -174,7 +174,7 @@ The permission sets are imported.
 
 ## To remove obsolete permissions from all permission sets
 
-1. On the **Permission Sets** page, choose the **Remove Obsolete Permissions** action.
+On the **Permission Sets** page, choose the **Remove Obsolete Permissions** action.
 
 ## To set up time constraints for users
 

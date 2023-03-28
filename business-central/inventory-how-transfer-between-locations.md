@@ -45,12 +45,14 @@ You can ship an outbound transfer from one location and receive an inbound trans
 
     When you fill in the **Shipping Agent Service** field, the receipt date at the transfer-to location is calculated by adding the shipping time of the shipping agent service to the shipment date.
 
-3. To fill in the lines, either enter them manually or choose one of the following options on the under the **Functions** action:
+3. There are several ways to fill in the lines:
 
-    * Choose the **Get Bin Content** action to select existing items from a specific bin at the location.
-    * Choose the **Get Receipt Lines** to select items that have just arrived at the transfer-from location.
+    |Option  |Description  |
+    |---------|---------|
+    |Manually     | On the **Lines** FastTab, fill in a line for an item, or use the **Select items** action to choose multiple items.        |
+    |Automatically     | * Choose the **Get Bin Content** action to select existing items from a specific bin at the location.<br><br>* Choose the **Get Receipt Lines** to select items that have just arrived at the transfer-from location.        |
 
-    As a warehouse worker at the transfer-from location, proceed to ship the items.
+    You can now ship the items.
 4. Choose the **Post** action, choose the **Ship** option, and then choose the **OK** button.
 
     The items are now in transit between the specified locations, according to the specifies transfer route.
@@ -58,7 +60,45 @@ You can ship an outbound transfer from one location and receive an inbound trans
     As a warehouse worker at the transfer-from location, proceed to receive the items. The transfer order lines are the same as when shipped and cannot be edited.
 5. Choose the **Post** action, choose the **Receive** option, and then choose the **OK** button.
 
-    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+### Post multiple transfer orders in a batch
+
+The following procedure explains how to post transfer orders in a batch.
+
+1. 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transfer orders**, and then choose the related link.  
+2. On the **Transfer Orders** page, select the orders to post.
+3. In the **No.** field, open the context menu and choose **Select More**.
+4. Select the checkbox for the lines for each order that you want to post.
+5. Choose the **Posting** action, and then choose **Post Batch**.
+6. On the **Batch Post Transfer Order** page, fill in the fields as necessary.
+
+   > [!TIP]
+    > For transfer orders that use an in-transit location, you can choose either **Ship** or **Receive**. Repeat this step if you need to do both. For orders where **Direct Posting** is turned on, both options work in the same way and post the order completely.
+
+7. Select **OK**.
+8. To view potential issues, open the **Error Message Register** page.
+
+    > [!NOTE]
+    > Posting multiple documents might take some time and block other users. Consider enabling background posting. For more information, see [Use Job Queues to Schedule Tasks](/dynamics365/business-central/admin-job-queues-schedule-tasks).
+
+### Schedule a job queue entry to post multiple documents in a batch
+
+Alternatively, you can use the job queue to schedule posting to happen at a time that's convenient for your organization. For example, it might make sense for your business to run certain routines when most of the data entry is done for the day.
+
+The following procedure shows how to set up the **Batch Post Transfer Orders** report to automatically post direct transfer orders at 4 PM on weekdays. That time is just an example. The steps are the same for other documents.  
+
+1. Search for the **Job Queue Entries** page, and then choose the related link.  
+2. Choose the **New** action.  
+3. In the **Object Type to Run** field, select **Report**.  
+4. In the **Object ID to Run** field, select **5707, Batch Post Transfer Orders**.
+5. Select the **Report Request Page** checkbox.
+6. On the **Batch Post Transfer Orders** request page, choose the **Ship** option, filter on **Direct Transfer**, and then select **OK**.
+
+   > [!IMPORTANT]
+   > It's important to set filters. Otherwise, [!INCLUDE [prod_short](includes/prod_short.md)] will post all documents, even if they aren't ready. Consider setting a filter on the **Status** field for the value **Released**, and a filter on the **Posting Date** field for the value **..today**. To learn more about filters, go to [Sorting, Searching, and Filtering](/dynamics365/business-central/ui-enter-criteria-filters).
+
+7. Select all checkboxes from **Run on Mondays** to **Run on Fridays**.
+8. In the **Starting Time** field, enter **4 PM**.
+9. Choose the **Set Status to Ready** action.
 
 ## To transfer items with the item reclassification journal
 
@@ -82,6 +122,5 @@ You can ship an outbound transfer from one location and receive an inbound trans
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Which Features are Displayed](ui-experiences.md)  
 [General Business Functionality](ui-across-business-areas.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -409,8 +409,12 @@
 ### Consolidate Financial Data from Multiple Companies
 #### [Company Consolidation](finance-consolidated-company-reporting.md)
 #### [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md)
+
+### Work with the chart of accounts and general ledger
+#### [Understand the General Ledger and Chart of Accounts](finance-general-ledger.md)
+#### [Review Accounts](finance-review-accounts.md)
+
 ### [Consolidate Balances for a Company that is a Customer and a Vendor](finance-consolidate-customer-vendor-balances.md)
-### [Understand the General Ledger and the COA](finance-general-ledger.md)
 ### [Work with Dimensions](finance-dimensions.md)
 ### [Troubleshoot and Correct Dimensions](finance-troubleshooting-correcting-dimensions.md)
 ### [Currencies in Business Central](finance-currencies.md)

@@ -1891,6 +1891,9 @@
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshoot Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
 ### [Use a Power Automate Flow for Alerts to Dataverse Entity Changes](admin-power-automate-flow-dataverse.md)
+## Synchronize Master Data Across Companies
+### [Get Ready to Synchronize Master Data](admin-set-up-data-sync.md)
+### [Manage Master Data Synchronization](admin-sync-master-data.md)
 ## Design Details
 ### [Application Design Details Overview](design-details-application-design.md)
 ### Design Details: Supply Planning

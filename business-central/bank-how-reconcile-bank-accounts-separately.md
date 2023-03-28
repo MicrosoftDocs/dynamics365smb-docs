@@ -36,6 +36,16 @@ The **Applied** checkbox is selected on lines where entries match. For more info
 
 When the value in the **Total Balance** field in the **Bank Statement Lines** pane equals the total value of the **Balance To Reconcile** field plus the **Balance Last Statement** field in the **Bank Account Ledger Entries** pane, you can choose the **Post** action. Unmatched bank account ledger entries remain on the page, indicating discrepancies that you should resolve to reconcile the bank account.
 
+Any lines that cannot be matched, indicated by a value in the **Difference** field, will remain on the **Bank Acc. Reconciliation** page after posting. They represent some kind of discrepancy that you must resolve before you can complete the bank account reconciliation. The following table describes a few typical business situations that can cause differences.
+
+| Difference | Reason | Resolution |
+|------------|--------|------------|
+| A transaction in your bank account in [!INCLUDE[prod_short](includes/prod_short.md)] isn't in the bank statement. | The bank transaction wasn't created although a posting was made in [!INCLUDE[prod_short](includes/prod_short.md)]. | Create the missing transaction (or prompt a debitor to make it). Then reimport the bank statement file or enter the transaction manually. |
+| A transaction on the bank statement doesn't exist as a document or journal line in [!INCLUDE[prod_short](includes/prod_short.md)]. | A bank transaction was made without a corresponding posting in [!INCLUDE[prod_short](includes/prod_short.md)], for example a journal line posting for an expense. | Create and post the missing entry. To learn a quick way to do that, see [To create missing ledger entries to match bank transactions with](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines). |
+| A transaction in the internal bank account corresponds to a bank transaction but some information is too different to give a match. | Information, such as the amount or the customer name, was entered differently in the bank transaction or the internal posting. | Review the information, and then manually match the two. Optionally, correct the mismatch. |
+
+You must resolve the differences, for example, by creating the missing entries and correcting non-matching information or by making missing money transactions, until you can complete and post the bank account reconciliation.
+
 You can fill in the **Bank Statement Lines** pane on the **Bank Acc. Reconciliation** page in the following ways:
 
 * Automatically, by using the **Import Bank Statement** function to fill in the **Bank Statement Lines** pane with bank transactions according to an imported file or stream provided by the bank.
@@ -114,6 +124,49 @@ You can investigate the basis for matches by using the **Match Details** action.
 
 > [!TIP]
 > To remove a match, select the bank statement line, and then choose the **Remove Match** action. If you have matched multiple bank statement lines to a ledger entry, and need to remove one or more of the matched lines, all of the manual matches are removed for the ledger entry when you choose **Remove Match**.
+
+## To validate your bank reconciliation
+
+To double-check your bank account reconciliation before you post it, use the **Test Report** action to preview the reconciliation. The report is available in the following contexts:
+
+* When you're preparing a bank reconciliation on the **Bank Acc. Reconciliation** page.
+* When you're reconciling payments on the **Payment Reconciliation Journals** page.
+
+Lines that can't be matched stay on the **Bank Acc. Reconciliation** page after posting. These lines contain a value in the **Difference** field. The difference represents a discrepancy that you must resolve before you can complete the bank account reconciliation. The following table describes a few typical business situations that can cause differences.
+
+| Difference | Reason | Resolution |
+|------------|--------|------------|
+| A transaction in your bank account in [!INCLUDE[prod_short](includes/prod_short.md)] isn't in the bank statement. | The bank transaction wasn't created although a posting was made in [!INCLUDE[prod_short](includes/prod_short.md)]. | Create the missing transaction (or prompt a debitor to make it). Then reimport the bank statement file or enter the transaction manually. |
+| A transaction on the bank statement doesn't exist as a document or journal line in [!INCLUDE[prod_short](includes/prod_short.md)]. | A bank transaction was made without a corresponding posting in [!INCLUDE[prod_short](includes/prod_short.md)], for example a journal line posting for an expense. | Create and post the missing entry. To learn a quick way to do that, see [To create missing ledger entries to match bank transactions with](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines). |
+| A transaction in the internal bank account corresponds to a bank transaction but some information is too different to give a match. | Information, such as the amount or the customer name, was entered differently in the bank transaction or the internal posting. | Review the information, and then manually match the two. Optionally, correct the mismatch. |
+
+You must resolve the differences, for example, by creating the missing entries and correcting non-matching information or by making missing money transactions, until you can complete and post the bank account reconciliation.
+
+> [!NOTE]
+> The Bank Reconciliation page and Test Report assume you're only reconciling within the period up until the statement ending date. If you match a bank statement line to a bank ledger entry before you enter a statement ending date, and then enter a statement ending date that is after the ending date for the bank ledger entry, the data in the Test Report will be incorrect.
+
+The following table describes fields on the Test Report that can help you complete the bank reconciliation.
+
+|Field  |Description  |
+|---------|---------|
+|Statement Date| The date specified in the **Statement Date** field on the **Bank Acc. Reconciliation** page.|
+|Balance Last Statement|The balance specified in the **Balance Last Statement** field on the **Bank Acc. Reconciliation** page. This is filled in automatically from the most recent reconciliation for the same bank account. The value is zero if this is your first bank account reconciliation.|
+|Statement Ending Balance|The balance specified in the **Statement Ending Balance** field on the **Bank Acc. Reconciliation** page. |
+|G/L Account No. <*number*> Balance at <*date*> | The balance on the G/L account on the statement ending date. This is the unfiltered balance as of that date. If your bank uses your local currency, this balance should be the same as your bank account balance (shown on the right side of the report header) when you've matched all statement lines. An empty **()** in the name of this field means that your bank uses local currency.<br><br>A discrepancy in this and the previous fields might indicate that you have posted directly to the G/L account, or that you're using the same G/L account for multiple banks, which isn't recommended. Banks are linked to the general ledger through the bank account posting group specified for the account.<br><br>The Test Report shows a warning if you have direct postings, even if the balance for the posting is zero. Direct postings that are not balanced often lead to accumulated differences for future bank reconciliations. You should check the general ledger balance and ledger entries before you post the bank reconciliation. To learn more about direct posting, go to [Avoid Direct Posting](#avoid-direct-posting).|
+|G/L Account No. <*number*> Balance (<*LCY*>) at <*date*>| The balance on the G/L account on the statement ending date in local currency. The balance is converted to the bank account's currency using the exchange rate that was valid on the statement ending date. This is the unfiltered balance as of that date. You compare to this to the **G/L Account No. <*number*> Balance at <*date*>* field if your bank uses a foreign currency. The value in the G/L Account No. <*number*> Balance at <*date*> field for local currency might differ slightly because currency conversion can result in small differences. Your bank's balance should be very close to this balance.  |
+|Bank Account Balance at <*date*>| The balance on the bank account at the statement ending date.|
+|Sum of Differences    | The sum of the differences for the statement lines. To access the details, turn on the **Print Outstanding Transactions** toggle when you enter criteria for the report. A difference is a bank statement line that isn't matched completely to one or more bank ledger entries. You can't post a bank account reconciliation that has differences. You can post a bank reconciliation that contains bank ledger entries that aren't matched to statement lines. This value is shown in the **Outstanding Bank Transactions** field and in a separate section if you turn on the Print Outstanding Transactions toggle.      |
+|Statement Balance     | The value specified in the **Statement Ending Balance** field on the **Bank Acc. Reconciliation** page.  |
+|Outstanding Bank Transactions     | The sum of non-matched, non-check bank ledger entries that have a posting date on or before the statement ending date. This happens when you register transactions before they're registered in your bank. For example, at the end of a period. When you create the next bank reconciliation, you can reconcile these entries.        |
+|Outstanding Checks     | The sum of non-matched bank ledger entries for checks that have a posting date on or before the statement ending date. This happens when you register transactions before they're registered in your bank. For example, this can happen for checks if a vendor doesn't cash a check in the same period you registered it. When you create the next bank reconciliation, you can reconcile these entries.        |
+|Bank Account Balance     | The sum of the values for the bank statement ending balance, outstanding bank transactions, and outstanding checks. After you handle all differences on matched entries, this balance matches your bank balance. For example, you have accounted for all matched entries as well as the entries you couldn't match for this bank statement. You can post the reconciliation.        |
+
+> [!TIP]
+> If you run the **Test Report** from the **Payment Reconciliation Journal** page, [!INCLUDE [prod_short](includes/prod_short.md)] calculates the value in the **Statement Ending Balance** as follows:
+>
+> * balance last statement + sum of all lines in the payment reconciliation journal
+>
+> You can use the value to compare to your bank statement.
 
 ## To create missing ledger entries to match bank statement lines
 

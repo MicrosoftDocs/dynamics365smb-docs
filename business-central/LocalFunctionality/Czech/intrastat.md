@@ -21,7 +21,7 @@ The standard Intrastat feature doesn't transfer all and only valid transactions 
 - The **Get Intrastat Entries** batch needs to be improved.
 - Export of Intrastat reports to .csv files according to local requirements.
 
-This feature improves data transferred into the Intrastat journal and prepares the environment for correct Intrastat reporting.
+This feature improves the data transferred into the Intrastat journal and prepares the environment for correct Intrastat reporting.
 
 ## Intrastat engine setup
 

@@ -92,7 +92,7 @@ The fastest way to prepare the Intrastat journal and make sure all the rules set
 - The system ensures the use of the Supplementary units of measure while preparing the Intrastat journal lines.
 - The system makes sure the correct data source is used for Tariff number, Net weight, and Country/Region of origin according to Stat. Reporting setup.
 
-## Intrastat report export to CSV format
+## Export Intrastat report to CSV format
 
 Exporting Intrastat reports to .csv files according to local requirements (for INSTATDESK and INSTATONLINE applications) was added to the Intrastat journal.
 Export use object for export based on setup in Stat. Reporting Setup or Registration Country.

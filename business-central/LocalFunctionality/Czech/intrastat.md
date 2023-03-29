@@ -1,6 +1,6 @@
 ---
 title: Czech local functionality - Intrastat
-description: This article describes local functionality for Intrastat, Intrastat Engine Setup, Intrastat Tables, and other features.
+description: Learn about local functionality for Intrastat, Intrastat Engine Setup, Intrastat Tables, and other features.
 author: ACMartinKunes 
 ms.author: v-makune
 ms.reviewer: v-pejano
@@ -28,7 +28,7 @@ This feature improves data transferred into the Intrastat journal and prepares t
 Additional Intrastat engine general parameters setup allows you to:
 
 - Set mandatory fields of Intrastat transactions in sales, purchase, and transfer transactions.
-- Set where the particular parts on Intrastat data related to items should be taken from, either item or posted entry and which item attributes will be mandatory in sales, purchase, and transfer transactions.
+- Set where the particular parts of Intrastat data related to items should be taken from, either item or posted entry and which item attributes will be mandatory in sales, purchase, and transfer transactions.
 - Specify whether the system should ignore item charges related to sales, purchase, and transfer transactions. For example, not including them in Intrastat or statistical amounts.
 - Define whether and how the statistical amount is calculated.
 - Select Intrastat rounding type to set how Intrastat and statistical amounts are rounded.

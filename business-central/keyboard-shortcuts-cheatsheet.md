@@ -1,23 +1,23 @@
 ---
-title: PC Keyboard Shortcuts Quick Reference
-description: "A print-friendly reference sheet containing the most popular keyboard shortcuts for PC users."
+title: Keyboard quick reference - PC only
+description: A print-friendly reference sheet containing the most popular keyboard shortcuts for PC users.
 author: jswymer
-
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 08/19/2022
+ms.search.keywords: accessibility, shortcuts, keyboarding, keys
+ms.date: 02/09/2023
 ms.author: jswymer
+ms.review: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
-# Keyboard Quick Reference - PC Only
+# Keyboard quick reference - PC only
 
 #### General
 
 |Select these keys|To do this|  
 |-|-|
+|<kbd>Alt</kbd>|Show access keys to navigate the action bar or navigation menu|
 |<kbd>Alt</kbd>+<kbd>F2</kbd>|Show and hide the FactBox pane|
 |<kbd>Alt</kbd>+<kbd>N</kbd>|Create a new record|
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd>|Close a newly created record and create a new one|
@@ -39,7 +39,7 @@ ms.author: jswymer
 |<kbd>Tab</kbd>/<kbd>Shift</kbd>+<kbd>Tab</kbd>|Move focus to the next/previous element|
 |<kbd>F6</kbd>/<kbd>Shift</kbd>+<kbd>F6</kbd>|Move to next FastTab/part|
 
-#### Navigate & Select Rows
+#### Navigate & select rows
 
 |Select these keys|To do this|
 |-|-|
@@ -53,14 +53,14 @@ ms.author: jswymer
 |<kbd>Shift</kbd>+<kbd>Page Up</kbd>/<kbd>Down</kbd>|Select visible rows above/below|
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Focus out of the list|
 
-#### Copy & Paste
+#### Copy & paste
 
 |Select these keys|To do this|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Copy/paste rows|
 |<kbd>F8</kbd>|Copy field above into current row|
 
-#### Search, Filter, & Sort
+#### Search, filter, & sort
 
 |Select these keys|To do this|
 |-|-|
@@ -71,20 +71,20 @@ ms.author: jswymer
 |<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Add filter on selected field|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Reset filters|
 
-#### Quick Entry
+#### Quick entry
 
 |Select these keys|To do this|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>|Go to next Quick Entry field outside a list|
 |<kbd>Enter</kbd>/<kbd>Shift</kbd>+<kbd>Enter</kbd>|Go to next/previous Quick Entry field|
 
-##### Report Preview
+##### Report preview
 
 |Select these keys|To do this|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>End</kbd>|Go to the first/last page|
 
-#### Numeric Keypad
+#### Numeric keypad
 
 |Select these keys|To do this|  
 |-|-|

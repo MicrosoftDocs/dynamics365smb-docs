@@ -47,7 +47,7 @@ From your email application, you can forward an email to the OCR service provide
 Since no incoming document record exists for the file, a new record will be created automatically on the **Incoming Documents** page when the OCR service sends the resulting electronic document. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).
 
 > [!NOTE]  
-> If you work on a tablet or phone, you can send the file to the OCR service as soon as you have taken a photo of the document, or you can create an incoming document directly. For more information, see [Create an incoming document record by taking a photo](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
+> If you work on a tablet or phone, you can send the file to the OCR service as soon as you have taken a photo of the document, or you can create an incoming document directly. For more information, see [Create an incoming document record by taking a photo](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo).
 
 ## To receive the resulting electronic document from the OCR service
 

@@ -118,8 +118,9 @@ Copying is a quick way to create a new layout that's the same as an existing lay
    |Description| Type more detailed information the layout. |no|
    |Format Options|Set this field to match the type of the layout, like Word, Excel, or RDLC.|yes|
 
-6. Select **OK** > **Choose** to open file explorer on your device.
-7. Find and select the Excel file, then select **Open**.
+6. Select **OK**, then do one of the following steps to upload the layout file for the report:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    The selected file is uploaded to the layout, and you return to the **Report Layouts** page.
 

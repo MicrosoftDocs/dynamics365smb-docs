@@ -1638,6 +1638,7 @@
 ##### [Overview](across-teams-overview.md)
 ##### [Manage Teams Integration](admin-teams-integration.md)
 ##### [Install Business Central App for Teams](across-install-app-for-teams.md)
+##### [Access Data in Teams Without Business Central License](teams-access-with-m365-license.md)
 ##### [Search for Customers, Vendors, and Contacts](across-search-contacts-teams.md)
 ##### [Add Business Central Tab in Channel or Chat](across-teams-tab.md)
 ##### [Share Records and Page Links in Teams](across-working-with-teams.md)

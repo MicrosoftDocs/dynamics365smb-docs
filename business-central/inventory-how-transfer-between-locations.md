@@ -113,6 +113,18 @@ The following procedure shows how to set up the **Batch Post Transfer Orders** r
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
+## Undo a transfer shipment
+
+If you find a mistake in a quantity on a posted transfer order, as long as the shipment isn't received you can easily correct the quantity. On the **Poster Transfer Shipment** page, the **Undo Shipment** action creates corrective lines, as follows:
+
+* The value in the **Quantity Shipped** field is decreased by the quantity you've undone.
+* The value in the **Qty. to Ship** field is increased by the quantity you've undone.
+* The **Correction** checkbox is selected for the lines.
+
+If the quantity was shipped in a warehouse shipment, a corrective line is created in the posted warehouse shipment.
+
+To complete the correction, reopen the transfer order, enter the correct quantity, and then post the order. If you're using a warehouse shipment to ship the order, create and post a new warehouse shipment.
+
 ## See related [Microsoft training](/training/modules/transfer-items/)
 
 ## See also

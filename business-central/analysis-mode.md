@@ -54,7 +54,7 @@ In the data analysis mode, the page is divided into two areas:
 
 The data area is where the rows and columns of the list page are shown and data is summarized. The data area provides a versatile way to control of the layout of columns and a quick way to get a summary of the data. For columns that contain numeric values, the sum of all values in the column is shown in a last row, unless you've defined row groups. In this case, the sums appear as a subtotal for the groups.  
 
-![Shows an overview of a data area on a page in the data analysis mode](media/analysis-mode-data-area.png)]
+![Shows an overview of a data area on a page in the data analysis mode](media/analysis-mode-data-area.png)
 
 - To move a column, select it and drag it to where they make the most sense in your analysis.
 - Right-click the column or hover over it and select the menu icon ![Shows the icon on a column in data analysis mode that opens a menu of actions](media/analysis-mode-column-menu-icon.png) to access several actions that you can do on columns. For example:

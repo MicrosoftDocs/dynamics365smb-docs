@@ -1763,6 +1763,7 @@
 ### [Searching and Filtering FAQ](ui-search-filter-faq.yml)
 ### [Analyzing Page Data in Excel](across-work-with-excel.md)
 ### [Analyzing Report Data with Excel](report-analyze-excel.md)
+### [Analyzing List Data with Analysis Mode](analysis-mode.md)
 ### [Financial Business Intelligence](bi.md)
 
 ## Built-in Analytics 

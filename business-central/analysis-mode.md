@@ -147,7 +147,7 @@ Building out the data analysis in pivot mode involves moving fields into the thr
 
 ## Limitations
 
-Te analysis view currently has a limit of 100,000 rows. If you exceed this limit, you'll get a message telling you so. To work around this limitation, the set filters on the page before you switch to data analysis mode, if it's possible.  Maybe you want to analyze a certain group of customers or maybe you want data from the current year only. You can also choose a predefined view if it would work for your analysis.
+The analysis view currently has a limit of 100,000 rows. If you exceed this limit, you'll get a message telling you so. To work around this limitation, the set filters on the page before you switch to data analysis mode, if it's possible.  Maybe you want to analyze a certain group of customers or maybe you want data from the current year only. You can also choose a predefined view if it would work for your analysis.
 
 ## See also
 

@@ -2,24 +2,20 @@
 title: Coupling and Synchronizing (contains video)
 description: Synchronizing an integration table mapping enables data syncing in all records in a table in Business Central and Dynamics 365 Sales table that are coupled.
 author: brentholtorf
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.search.form: 6250
-ms.date: 10/01/2021
 ms.author: bholtorf
-
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.date: 03/31/2023
+ms.custom: bap-template
+ms.search.keywords: crm, sales, couple, decouple, synchronize
+ms.search.form: 6250,
 ---
 
 # Coupling and Synchronizing Records between Dataverse and Business Central
 
 This topic describes how to couple one or more records in [!INCLUDE[prod_short](includes/prod_short.md)] with records in Dataverse or [!INCLUDE[crm_md](includes/crm_md.md)]. Coupling records lets you view Dataverse information from [!INCLUDE[prod_short](includes/prod_short.md)], and vice versa. The coupling also enables you to synchronize data between the records. You can couple existing records, or create and couple new records.
 
-> [!Note]
+> [!NOTE]
 > Coupling and synchronizing data is available only if your system administrator has created a connection between [!INCLUDE[prod_short](includes/prod_short.md)] and Dataverse or [!INCLUDE[crm_md](includes/crm_md.md)]. A quick way to check is to open the **Customer** card and look for the **Set Up Coupling** action. If the action is available, the apps are connected.
 
 ## Video Example
@@ -49,11 +45,11 @@ This video shows coupling and synchronizing data in the context of an integratio
 2. Choose the **[!INCLUDE[prod_short](includes/prod_short.md)]** action in the ribbon to open and couple record automatically.
 
     > [!Note]
-    > You can synchronize a single record from [!INCLUDE[crm_md](includes/crm_md.md)] automatically only when **Sync. Only Coupled Records** is disabled and the synchronization direction is set to Bidirectional or From Integration Table on the **Integration Table Mapping** page for the record. For more information, see [Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
+    > You can synchronize a single record from [!INCLUDE[crm_md](includes/crm_md.md)] automatically only when **Sync. Only Coupled Records** is disabled and the synchronization direction is set to Bidirectional or From Integration Table on the **Integration Table Mapping** page for the record. For more information, see [Mapping the Tables and Fields to Synchronize](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).     
 
 ## To couple multiple records using match-based coupling
 
-You can specify the data to synchronize for an entity, such as a customer or contact, by coupling records based on matches. You can refine the matches by making the search case sensitive, and assigning a priority for each match. If no match is found, you can also specify that you want to create the entity in Dataverse. For more information, see [Customize the Match-Based Coupling](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
+Specify the data to synchronize for an entity, such as a customer or contact, by coupling records based on matches. Refine the matches by making the search case sensitive, and assigning a priority for each match. If no match is found, you can also specify that you want to create the entity in Dataverse. For more information, go to [Customize the match-based coupling](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
 
 > [!NOTE]
 > The match-based coupling process skips records that are already matched. To include those records when you run match-based coupling, uncouple the records and then try again. To learn more about uncoupling records, go to [Uncoupling Records](#uncoupling-records).

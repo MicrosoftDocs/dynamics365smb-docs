@@ -122,7 +122,7 @@ Here's some pointers on working with multiple analysis tabs:
 - The analysis tabs that you've added and configured remain until you delete them. So if you return to the data analysis mode again, you'll see them exactly as you left them.
 
    > [!TIP]
-   > The tabs that you set up are only visible to you. Other users will ony see tabs they've set up.
+   > The tabs that you set up are only visible to you. Other users will only see tabs they've set up.
 - You can copy analysis tabs. Copying can be useful if you want to experiment with changing a tab without changing the original, or if you want to create different variations of the same analysis.
 
 ## Pivot mode

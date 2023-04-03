@@ -41,7 +41,7 @@ Create vendor/customer and enter all necessary information. Special attention sh
 >  In order to be able to enter a bank account in the **Bank Account** vendor/customer bank accounts must be available. See below.  
 
 ### Example  
-Olek Johansson (code **OLEK**) is one of our local vendors. Purchase invoices will be paid through our national bank account (code **ABN**) to his bank account (code **OJBA**). Both bank account ABN and OJBA are denominated in local currency (LCY). Therefore, on Olek Johansson's vendor card we leave the **Currency Code** field empty, fill the **Transaction Mode** field with **ABN** that is linked to our bank account, ABN, and set the **Bank Account** field to **OJBA**.  
+Olek Johansson (code **OLEK**) is one of our local vendors. Purchase invoices will be paid through our national bank account (code **ABN**) to their bank account (code **OJBA**). Both bank account ABN and OJBA are denominated in local currency (LCY). Therefore, on Olek Johansson's vendor card we leave the **Currency Code** field empty, fill the **Transaction Mode** field with **ABN** that is linked to our bank account, ABN, and set the **Bank Account** field to **OJBA**.  
 
 ## Create Vendor/Customer Bank Account  
 Create vendor/customer bank account and enter all necessary information. Special attention should be paid to the following fields:  

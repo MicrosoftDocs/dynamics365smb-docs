@@ -2,17 +2,18 @@
 title: Define Granular Permissions
 description: This article describes how to define granular permissions and assign each user the permission sets that they need to do their jobs.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862
-ms.date: 11/29/2022
-ms.author: bholtorf
+ms.date: 02/08/2023
+
 ---
 
 # Assign Permissions to Users and Groups
+
+[!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
 
 The [!INCLUDE[prod_short](includes/prod_short.md)] security system controls which objects a user can access within each database or environment, in combination with the user's license. For each user you can specify whether they're able to read, modify, or enter data in database objects. For more information, see [Data Security](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in the developer and administration content for [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -26,16 +27,16 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], there are two levels of permi
 
 - Detailed permissions that you assign in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-  This article describes how you can define, use, and apply permissions in [!INCLUDE [prod_short](includes/prod_short.md)] to change the default configuration.  
+This article describes how to define, use, and apply permissions in [!INCLUDE [prod_short](includes/prod_short.md)] to change the default configuration.  
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
 For more information, see [Delegated administrator access to Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-[!INCLUDE [prod_short](includes/prod_short.md)] online includes default user groups that are assigned to users automatically based on their license. You can change the default configuration by modifying or adding users groups, permission sets, and permissions. The following table outlines key scenarios for modifying the default permissions.  
+[!INCLUDE [prod_short](includes/prod_short.md)] online includes default user groups that are assigned to users automatically based on their license. You can change the default configuration by modifying or adding security groups, permission sets, and permissions. The following table outlines key scenarios for modifying the default permissions.  
 
 |To  |See  |
 |---------|---------|
-|To make it easier to manage permissions for multiple users, you can organize them in user groups and then assign or change one permission set for many users in one action.| [To manage permissions through user groups](#to-manage-permissions-through-user-groups) |
+|To make it easier to manage permissions for multiple users, you can organize them in security groups and then assign or change one permission set for many users in one action.| [To manage permissions through user groups](#to-manage-permissions-through-user-groups) |
 |To manage permission sets for specific users | [To assign permission sets to users](#to-assign-permission-sets-to-users) |
 |To learn how to define a permission set|[To create a permission set](#to-create-a-permission-set)|
 |To view or troubleshoot a user's permissions|[To get an overview of a user's permissions](#to-get-an-overview-of-a-users-permissions)|
@@ -51,7 +52,7 @@ For more information, see [Delegated administrator access to Business Central On
 > [!NOTE]
 > In 2022 release wave 2 we made it easier to add permissions to permission sets. Rather than adding permissions individually, you can add entire permission sets. If needed, you can then exclude individual permissions in them. For more information, see [To add other permission sets](#to-add-other-permission-sets). To make that possible, we replaced the Permission Set page with a new one. The key differences are the new **Permission Sets** and **Results** panes, and the **Included permissions** FactBox. To continue using the replaced Permissions page, on the **Permission Sets** page, choose the **Permissions (legacy)** action.
 
-Maintenance is also easier. When you add system permission, your user-defined permission set will be automatically updated with any changes that Microsoft makes to those permissions.
+Maintenance is also easier. When you add a system permission, your user-defined permission set will be automatically updated with any changes that Microsoft makes to those permissions.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Permission Sets**, and then choose the related link.
 2. Choose the **New** action.
@@ -76,11 +77,11 @@ Maintenance is also easier. When you add system permission, your user-defined pe
   |**Reduce to indirect**|Change the access level to Indirect if any permission sets give Direct access to the object. For example, choose this option if the permission set gives Direct access to G/L entries but you don't want users to have full access to the entries.|
   
   > [!NOTE]
-  > The highest permission set in the hierarchy determines whether the permission is included or excluded. If two sets are at the same level in the hierarchy, and a permission is included in one set but excluded in the other, the permission will be excluded.
+  > If a permission is both included and excluded, the permission will be excluded.
 
 6. Use the **Object Type** and **Object ID** fields to specify the object you're giving access to.
 
-> [!TIP]
+  > [!TIP]
   > New lines show default values. For example, the **Object Type** field contains **Table Data**, and the **Object ID** field contains **0**. The default values are just placeholders, and aren't used. You must choose a type of object and an object in the **Object ID** field before you can create another new line.
 
 7. Optional: If you're defining permissions for a Table Data object type, in the **Security Filter** field you can filter the data that a user can access in fields on the selected table. For example, you might want to let a user access only records that contain information about a particular customer. For more information, see [Security filters limit a user's access to specific records in a table](#security-filters-limit-a-users-access-to-specific-records-in-a-table) and [Using Security Filters](/dynamics365/business-central/dev-itpro/security/security-filters).
@@ -105,9 +106,16 @@ On the **Result** pane, use the **Inclusion Status** field to identify the permi
 
 For an overall view of permissions in the permission set, choose the **View all permissions** action. The **Expanded Permissions** page shows all permissions that were already assigned to the permission set and the permissions in the added permission sets.
 
-To fully exclude a permission set you've added, on the **Result** pane, select the line, choose **Show more options**, and then choose **Exclude**. When you exclude a permission set, a line is created on the **Permission Sets** pane of the type Excluded. If you've excluded a permission set, but want to include it again, delete the line on the **Permission Sets** pane.
+To fully exclude all permissions from a permission set, on the **Result** pane, select the line, choose **Show more options**, and then choose **Exclude**. When you exclude a permission set, a line is created on the **Permission Sets** pane of the type Excluded. If you've excluded a permission set, but want to include it again, delete the line on the **Permission Sets** pane.
 
-To fully or partially exclude a specific permission in a set you've added, under **Permissions**, create a line for the object. The access level fields, Insert Permission, Modify Permission, and so on, will all contain Exclude. To allow a certain access level, choose the appropriate option.
+To fully or partially exclude a specific permission in a set you've added, under **Permissions**, create a line for the object. The access level fields, Insert Permission, Modify Permission, and so on, will all contain **Exclude**. To allow a certain access level, choose the appropriate option.
+
+> [!NOTE]
+> Excluding a permission set excludes all of the permissions in the set. [!INCLUDE [prod_short](includes/prod_short.md)] calculates permissions as follows:
+
+> 1. Calculate the full list of included permissions
+> 2. Calculate the full list of excluded permissions
+> 3. Remove excluded permissions from the list of included permissions (removing an indirect permission is the same as Reduce to Indirect)
 
 ## To copy a permission set
 
@@ -135,7 +143,7 @@ Create a new permission set by copying another. The new set will include all of 
 2. On the **Permission Sets** page, choose the **New** Action.
 3. On a new line, fill in the fields as necessary.
 4. Choose the **Permissions** action.
-1. On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.  
+5. On the **Permissions** page, choose the **Record Permissions** action, and then choose the **Start** action.  
     Recording must be done either by using the **Open this page in a new windows** (pop-out) feature to have the **Permissions** recording window side-by-side, or by working within the same tab.  
     A recording process now starts and captures all of your actions in the user interface.
 6. Go to the various pages and activities in [!INCLUDE[prod_short](includes/prod_short.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for.
@@ -166,9 +174,9 @@ The permission sets are imported.
 
 ## To remove obsolete permissions from all permission sets
 
-1. On the **Permission Sets** page, choose the **Remove Obsolete Permissions** action.
+On the **Permission Sets** page, choose the **Remove Obsolete Permissions** action.
 
-## To set up user time constraints
+## To set up time constraints for users
 
 Administrators can define periods of time during which specified users are able to post. Administrators can also specify if the system logs how much time users are signed in. Similarly, administrators can assign responsibility centers to users. For more information, see [Work with Responsibility Centers](inventory-responsibility-centers.md).
 

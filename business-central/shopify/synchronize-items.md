@@ -82,17 +82,15 @@ You manage the process of exporting items using these settings:
 
 |Field|Description|
 |------|-----------|
-|**Customer Price Group**|Determine the price for an item in Shopify. The sales price of this customer price group is taken. If no group is entered, the price on the item card is used.|
-|**Customer Discount Group**|Determine the discount to be used for calculating the price of an item in Shopify. Discounted prices are stored in the **Price** field and full price is stored in the **Compare at Price** field.|
 |**Sync Item Extended Text**|Select this field to sync the extended text of the item. As it will be added to the *Description* field, it can contain HTML code. |
 |**Sync Item Attributes**|Select this field to sync the item attributes. Attributes are formatted as a table and included in the *Description* field in Shopify.|
+|**Sync Item Marketing Text**|Select this field to sync marketing text for the item. Although marketing text is a kind of description, it's different than item's **Description** field. The **Description** field is typically used as a concise display name to quickly identify the product. The marketing text, on the other hand, is more rich and descriptive. Its purpose is to add marketing and promotional content. This text can then be published with the item in Shopify. There are two ways to create the marketing text. Use Copilot, which suggests AI-generated text for you, or start from scratch.|
 |**Language Code**|Select this field if you want the translated versions used for title, attributes, and extended text.|
 |**SKU Mapping**|Choose how you want to populate the SKU field in Shopify. Supported options are:<br> - **Item No.** to use the item no. for both products and variants.<br> - **Item No.+ Variant Code**  to create an SKU by concatenating values of two fields. For items without variants, the item number only is used.<br>- **Item Vendor No.** to use the item vendor number defined in the *Item Card* for both products and variants.<br> - **Barcode** to use the barcode type of **Item Reference**. This option respects variants.|
 |**SKU Field Separator**|Define a separator for the **Item. No + Variant Code** option.|
 |**Inventory Tracked**| Choose how the system should populate the **Track Inventory** field for products exported to Shopify. You can update availability information from [!INCLUDE[prod_short](../includes/prod_short.md)] for products in Shopify whose track inventory is enabled. Learn more in the [Inventory](synchronize-items.md#sync-inventory-to-shopify) section.|
 |**Default Inventory Policy**|Choose *Deny* to prevent negative stock on the Shopify side.|
 |**Can Update Shopify Products**|Define this field if [!INCLUDE[prod_short](../includes/prod_short.md)] can only create items or can update items as well. Select this option if, after the initial sync is triggered by the **Add Item** action, you plan to update products manually using the **Sync Product** action or using the job queue for recurring updates. Remember to select **To Shopify** in the **Item Sync** field.|
-|**Customer Template Code**|Choose the default template to be used during price calculation. Learn more at [Set up Taxes](setup-taxes.md).|
 
 ### Fields-mapping overview
 
@@ -104,8 +102,8 @@ You manage the process of exporting items using these settings:
 |SEO page title|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
 |SEO meta description|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
 |Media|**Image**. Learn more in the [Sync item images](synchronize-items.md#sync-item-images) section|**Image**|
-|Price|The calculation of the end-customer price includes the item price group, item discount group, currency code, and customer template code.|**Unit Price**|
-|Compare at price|The calculation of the price without a discount includes the item price group, item discount group, currency code, and customer template code.|Not used.|
+|Price|The calculation of the end-customer price includes the item unit price, customer price group, customer discount group, and currency code. Learn more in the [Sync prices](synchronize-items.md#sync-prices-with-shopify) section|**Unit Price**|
+|Compare at price|The calculation of the price without a discount.|Not used.|
 |Cost per item|**Unit Cost**|**Unit Cost**|
 |SKU|Learn about SKUs under **SKU Mapping** in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify) section.|Learn about SKUs in the [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central) section.|
 |Barcode|**Item References** of the barcode type.|**Item References** of the barcode type.|
@@ -193,7 +191,18 @@ Image synchronization can be initialized in the two ways described below.
 
 ## Sync prices with Shopify
 
-Prices for synchronized items can be exported in the two ways described below.
+You manage the process of exporting prices using these settings:
+
+|Field|Description|
+|------|-----------|
+|**Customer Price Group**|Determine the price for an item in Shopify. The sales price of this customer price group is taken. If no group is specified, the price on the item card is used.|
+|**Customer Discount Group**|Determine the discount to use when calculating the price of an item in Shopify. Discounted prices are stored in the **Price** field and the full price is stored in the **Compare at Price** field.|
+|**Allow Line Disc.**|Specifies whether you allow a line discount when calculating prices for Shopify. This setting applies only for prices on the item. Prices for the customer price group have their own toggle on lines.|
+|**Prices including VAT**|Specifies whether price calculations for Shopify include VAT. Learn more at [Set up Taxes](setup-taxes.md).|
+|**VAT Business Posting Group**|Specifies which VAT business posting group is used to calculate prices in Shopify. This should be the group you use for domestic customers. Learn more at [Set up Taxes](setup-taxes.md).|
+|**Currency Code**|Enter a currency code only if your online shop uses a different currency than the local currency (LCY). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDEprod_short], leave the field empty.|
+
+You can export prices for synchronized items in the two ways described below.
 
 ### Sync prices from the Shopify products page
 
@@ -202,9 +211,8 @@ Prices for synchronized items can be exported in the two ways described below.
 
 ### Price calculation remarks
 
-* For price calculation, it's important to have a value in the **Default Customer Template** field. Learn more at [Set up Taxes](setup-taxes.md).
-* Enter a **currency code** only if your online shop uses a different currency than the local currency (LCY). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty.
-* When determining a price, [!INCLUDE[prod_short](../includes/prod_short.md)] uses the "lowest price" logic. The lowest price logic means that if the unit price defined on the item card is lower than what is defined in the price group, the unit price from the item card price is used.
+* When determining a price, [!INCLUDE[prod_short](../includes/prod_short.md)] uses the "lowest price" logic. However, the lowest price logic ignores the unit price defined on the item card if a price is defined in the price group. This is true even if the unit price from the item card price is lower.
+* To calculate prices, the connector creates a temporary sales quote for the item with a quantity of 1, and uses standard price calculation logic. Only prices and discounts that are applicable for quantity 1 are used. You can't export different prices or discounts based on quantity.
 
 ## Sync inventory to Shopify
 
@@ -220,7 +228,7 @@ Inventory synchronization can be configured for already synchronized items. Ther
 3. Choose the **Locations** action to open **Shopify Shop Locations**.
 4. Choose the **Get Shopify Locations** action to import all the locations defined in Shopify. You can find them in the [**Locations**](https://www.shopify.com/admin/settings/locations) settings in your **Shopify Admin**.
 5. In the **Location Filter** field, add locations if you want to include inventory from specific locations only. So, you could enter *EAST|WEST* to make the inventory from only these two locations available for sales via the online shop.
-6. Deselect the **Disabled** toggle to enable inventory sync for selected Shopify locations.
+6. Select the stock calculation method to use for the selected Shopify locations.
 
 You can initialize inventory synchronization in the two ways described below.
 
@@ -237,9 +245,10 @@ You can initialize inventory synchronization in the two ways described below.
 
 ### Inventory remarks
 
-* The connector calculates the **Projected Available Balance** at current date and exports it to Shopify.
+* The standard stock calculation method is **Projected Available Balance at date**. With extensibility, you can add more options. To learn more about extensibility, go to [examples](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md). 
 * You can inspect the stock information received from Shopify on the **Shopify Inventory FactBox** page. In this FactBox, you get an overview of the Shopify stock and the last calculated inventory in [!INCLUDE[prod_short](../includes/prod_short.md)]. There's one record per location.
 * If the stock information in Shopify is different than the **Projected Available Balance** in [!INCLUDE[prod_short](../includes/prod_short.md)], then the stock will be updated in Shopify.
+* When you add a new location in Shopify, you also need to add inventory records for it. Shopify doesn't do that automatically for existing products and variants and the connector won't synchronize inventory levels for such items in new location. To learn more, go to [Assigning inventory to locations](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
 
 #### Example of calculation of projected available balance
 

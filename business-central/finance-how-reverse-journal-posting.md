@@ -1,15 +1,13 @@
 ---
+
 title: Undo a Posting by Posting a Reversing Entry
-description: If you have made an erroneous posting in the general journal, then you can use the Reverse Transaction function to undo the posting with a correct audit trail.
+description: If you find a mistake in a posted general journal, you can use the Reverse Transaction action to undo the posting with a correct audit trail.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: reimbursement
-ms.search.form: 20, 25, 29, 38, 202, 5912, 
-ms.date: 07/22/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 03/28/2023
+ms.custom: bap-template
 
 ---
 # Reverse Journal Postings and Undo Receipts/Shipments
@@ -31,7 +29,7 @@ You can reverse entries from all **Ledger Entries** pages. The following procedu
 > [!NOTE]
 > The entry must originate from a journal posting.
 >
-> Also, ou can't reverse entries that have been posted with information from a job, or which have realized gains and losses within the same transaction.
+> Also, you can't reverse entries that have been posted with information from a job, or which have realized gains and losses within the same transaction.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Entries**, and then choose the related link.
 2. Select the entry that you want to reverse, and then choose the **Reverse Transaction** action.
@@ -94,6 +92,5 @@ The steps are similar for posted return receipts.
 [Work with General Journals](ui-work-general-journals.md)  
 [Finance](finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

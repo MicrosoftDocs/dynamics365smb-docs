@@ -17,7 +17,7 @@
 # GST on Advance Payment Made to Vendor, with Reverse Charge
 
 
-The tax needs to be paid if supplier gets the payment first, therefore we need to calculate GST at the time of advance payment made to the vendor. However, when ‘supplier of goods’ receives advance payment, he is not required to pay GST at the time of the receipt of advance payment, while GST is required to be paid in case of supply of services.
+The tax needs to be paid if supplier gets the payment first, therefore we need to calculate GST at the time of advance payment made to the vendor. However, when ‘supplier of goods’ receives advance payment, they aren't required to pay GST at the time of the receipt of advance payment, while GST is required to be paid in case of supply of services.
 
 The process of GST calculation on advance payment to vendor has been explained in this document.
 

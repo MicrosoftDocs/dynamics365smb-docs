@@ -33,12 +33,12 @@ When items arrive at a warehouse that is set up to process warehouse receipts, y
 You can create warehouse receipt in one of two ways:
 
 * In a push fashion, when work is done on an order-by-order basis. Choose the **Create Warehouse Receipt** action in the source document, such as Purchase Order, Sales Return Order, or Transfer Order to create warehouse receipt for one source document.
-*-* In a pull fashion, where you use the **Release** action in the source document, such as a purchase order, sales return order, or transfer order to release the document to the warehouse. A warehouse employee creates a **Warehouse Receipt** for one or many released source documents. The following procedure described how to create a warehouse receipt in a pull fashion. The following procedure describes how to create a warehouse receipt in a pull fashion. 
+* In a pull fashion, where you use the **Release** action in the source document, such as a purchase order, sales return order, or transfer order to release the document to the warehouse. A warehouse employee creates a **Warehouse Receipt** for one or many released source documents. The following procedure described how to create a warehouse receipt in a pull fashion. The following procedure describes how to create a warehouse receipt in a pull fashion.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts**, then choose the related link.  
 2. Choose the **New** action.  
 
-    Fill in the **Location Code** field on the **General** FastTab. When you retrieve source document lines, some of the information is copied to each line. 
+    Fill in the **Location Code** field on the **General** FastTab. When you retrieve source document lines, some of the information is copied to each line.
 
     For a location that requires bins, fill in the **Bin Code** field. Depending on your setup, [!INCLUDE[prod_short](includes/prod_short.md)] can add the bin code code for you. Learn more at [Zone and bin codes](warehouse-how-receive-items.md#zone-and-bin-codes).  
 
@@ -57,13 +57,15 @@ You can create warehouse receipt in one of two ways:
 
 5. Post the warehouse receipt. The quantity fields are updated on the source documents, and the items are added to inventory.  
 
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
+
     > [!TIP]
-    > If you're using warehouse put-away, which refers to method D in the table in the beginning of this article, the items are received but can't be picked until they've been put away. To learn more about putting items away, go to [Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md). 
-    > 
+    > If you're using warehouse put-away, which refers to method D in the table in the beginning of this article, the items are received but can't be picked until they've been put away. To learn more about putting items away, go to [Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md).
+    >
     > Otherwise, consider using the **Post and Print** action. The action will post the receipt and print it as a put-away instruction that shows where to put the item.
 
-> [!NOTE]  
-> If your warehouse uses cross-docking, you can check whether you can cross-dock items without putting them away. To learn more about cross-docking, go to [Cross-Dock Items](warehouse-how-to-cross-dock-items.md).
+    > [!NOTE]  
+    > If your warehouse uses cross-docking, you can check whether you can cross-dock items without putting them away. To learn more about cross-docking, go to [Cross-Dock Items](warehouse-how-to-cross-dock-items.md).
 
 ## How to use filters to get source documents
 

@@ -29,7 +29,7 @@ Learn more about how to create Shopify trials and recommended settings at [Creat
 
 You must have a [!INCLUDE[prod_short](../includes/prod_short.md)] account. 
 
-For example, you can create demo account or start trial. Learn more at [Preparing demonstrations of [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md) and [Sign up for the trial](../trial-signup.md). 
+For example, you can create demo account or start trial. Learn more at [Prepare Demonstration Environments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) and [Sign up for the trial](../trial-signup.md). 
 
 ## Connect Business Central to the Shopify shop
 
@@ -100,7 +100,7 @@ Choose the **Buy it now** button and proceed to checkout.
 5. Choose the **Continue to shipping** button.
 6. Keep `Standard` as the shipping method and then choose the **Continue to payment** button.
 7. Select `10%` tip.
-8. In the **Credit Card** field, enter `1` if you use *(for testing) Bogus Gateway*, if you use *Shopify payments* in test mode, enter `5555 5555 5555 4444` in the **Credit Card** field.
+8. In the **Credit Card** field, enter `1` if you use *(for testing) Bogus Gateway*, or enter `5555 5555 5555 4444` if you use *Shopify payments* in test mode.
 9. Fill in the **Name on card** field.
 10. In the **Expiration date** field, enter the current month/year.
 11. In the **Security code**, enter `111`.
@@ -162,18 +162,20 @@ Prepare data.
 2. Add new price group. In the **Code** field, enter `SHOPIFY`.
 3. Close the **Customer Price Group** window.
 4. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and choose the related link.
-5. Select item **1896-S, Athens Desk**.
-6. Choose the **Variants** action, and then add two variants `PREMIUM, Athens Desk, Premium edition` and `ESSENTIAL, Athens Desk, Essential edition`.
-7. Choose **Extended Text**, create a new extended text valid for all language codes. In the **Description** field, enter `Shopify`. 
-8. Add following description with HTML tags: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
-9. Choose **Sales Prices**, and add new prices as shown in the following table:
+
+Select item **1896-S, Athens Desk** and run following steps.
+
+1. Choose the **Variants** action and then add two variants `PREMIUM, Athens Desk, Premium edition` and `ESSENTIAL, Athens Desk, Essential edition`.
+2. Choose **Extended Text** action, create a new extended text valid for all language codes. In the **Description** field, enter `Shopify`. 
+3. Add following text with HTML tags: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
+4. Choose **Sales Prices** action and add new prices as shown in the following table:
 
   |Line|**Sales Type**|**Sales Code**|Type|Code|Variant Code<br>(add the field via personalization)|Unit Price|
   |------|------------|------------|------------|------------|------------|------------|
   |1|Customer Price Group|SHOPIFY|Item|1896-S|ESSENTIAL|700|
   |2|Customer Price Group|SHOPIFY|Item|1896-S|PREMIUM|1000|
 
-10. Choose **Sales Discounts**, and add a new discount:
+5. Choose **Sales Discounts** action and add a new discount:
 
 * **Sales Type** *Customer Disc. Group*
 * **Sales Code** *RETAIL*
@@ -182,18 +184,18 @@ Prepare data.
 * **Unit of Measure Code** *PCS*
 * **Line Discount %** *10*
 
-11. Choose **Item References** and the following add lines:
+6. Choose **Item References** action and the following add lines:
 
   |Line|**Reference Type**|**Reference No.**|Variant Code|
   |------|------------|------------|------------|
   |1|Barcode|77777777|ESSENTIAL|
   |2|Barcode|11111111|PREMIUM|
 
-12. Close the **Item Card**.
-13. Select the item **1920-S, ANTWERP Conference Table**.
-14. Choose **Adjust Inventory** and in the **New Inventory** field, enter `100` for the locations *EAST* and *WEST*. 
-1. Choose **OK**.
-1. Close the **Item Card**.
+
+Select the item **1920-S, ANTWERP Conference Table** and run following steps.
+
+1. Choose **Adjust Inventory** and in the **New Inventory** field, enter `100` for the locations *EAST* and *WEST*. 
+2. Choose **OK**.
 
 Adjust the synchronization settings.
 

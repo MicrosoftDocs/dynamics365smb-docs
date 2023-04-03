@@ -1,16 +1,15 @@
 ---
+
 title: Monitor Job Progress and Performance
 description: Describes how you can create a work in process (WIP) method and calculate WIP to estimate the financial value of jobs while they are ongoing.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 03/28/2023
+ms.custom: bap-template
 ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
-ms.date: 08/04/2022
-ms.author: edupont
-
 ---
 # Monitor Job Progress and Performance
 
@@ -22,7 +21,7 @@ You can calculate WIP based on the following:
 
 * Cost value
 * Sales value
-* Recognizable ocst
+* Recognizable cost
 * Percentage of completion
 * Completed contract
 

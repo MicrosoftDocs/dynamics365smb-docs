@@ -1,15 +1,14 @@
 ---
-title: "Keyboard Shortcuts"
-description: "The complete list of keyboard shortcut combinations to work efficiently with your data."
+title: Keyboard shortcuts
+description: The complete list of keyboard shortcut combinations to work efficiently with your data.
 author: jswymer
-
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 08/16/2022
+ms.date: 02/09/2023
 ms.author: jswymer
+ms.review: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Keyboard Shortcuts
@@ -40,6 +39,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 
 |Select these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
+|<kbd>Alt</kbd>|Show access keys for selecting actions in the action bar and navigation menu on the page. For more information, go to [Access keys](#access-keys-for-action-bar-and-navigation-menu).|
 |<kbd>Alt</kbd>+<kbd>Up Arrow</kbd>|Open a drop-down list or look up a value for a field.|
 |<kbd>Alt</kbd>+<kbd>Up Arrow</kbd>|Show tooltip for a field or a column header of a table. If the field has validation errors, select <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> to show the validation error. Select <kbd>Esc</kbd> or <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> to close the tooltip.|
 |<kbd>F2</kbd>|Toggle between selecting the entire field value or placing the cursor at the end of the field value.|
@@ -52,7 +52,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> |Close a newly created page and open a new one to create a new record. Similarly, <kbd>Alt</kbd>+<kbd>F9</kbd> posts a document and creates a new one.|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|Open the **My Settings** page.|
 |<kbd>Alt</kbd>+<kbd>Right Arrow</kbd>|Look up additional information or underlying values for a field that contains the ![AssistEdit.](media/assist-edit-icon.png "AssistEdit button") button. Used when the usual drop-down button (<kbd>Alt</kbd>+<kbd>Up Arrow</kbd>) in the same field is used for another purpose.|
-|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>|Display information in the company badge. This shortcut was discontinued in Business Central 2022 release wave 2 (version 21) and replaced by <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>|Display information in the company badge. Starting in Business Central 2022 release wave 2 (version 21, this shortcut is no longer supported replaced by <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting Pages](across-inspect-page.md).|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd> |Copy the value of field. If the field is in focus, and you haven't selected any text in the field, this will copy the entire value. If you've selected any text in the field, then it will copy the selected text only.|
 |<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Open the [help pane](product-help-and-support.md#help-pane) or a Business Central help article on [Microsoft Learn](/dynamics365/business-central/), depending on your Business Central version.|
@@ -137,7 +137,7 @@ Grids containing rows and columns exist on many page types in [!INCLUDE[prod_sho
 |<kbd>Shift</kbd>+<kbd>F3</kbd>|Open and close the filter pane.<ul><li> If the filter pane isn't open, <kbd>Shift</kbd>+<kbd>F3</kbd> opens it and focuses on the **+ Filter** action under **Filter list by**. You can then just hit <kbd>Enter</kbd> to start adding a field filter.</li><li>If the filter pane is already open, <kbd>Shift</kbd>+<kbd>F3</kbd> closes it but doesn't clear any filters that you've added.</li></ul>|
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Open and close the filter pane.<ul><li> If the filter pane isn't open, <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd> opens it and focuses on the **+ Filter** action under **Filter total by**. You can then just hit <kbd>Enter</kbd> to start adding a totals filter.</li><li>If the filter pane is already open, <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd> closes it but doesn't clear any filters that you've added.</li></ul>  |
 |<kbd>Alt</kbd>+<kbd>F3</kbd>|Toggle filtering to the selected value.<ul><li>Applies a column filter on the selected field value in the list. This does the same as choosing **Filter to this value** from a column heading. It opens the filter pane, sets filter to the selected value, while focus remains on cell in the list.</li><li>If the column is already filtered, <kbd>Alt</kbd>+<kbd>F3</kbd> clears the filter on that column.</li></ul> |
-|<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Open the filter pane and add a filter on the selected column in the list. Focus is on the new filter field, which lets you start typing the filter criteria right away.<br /><br /> This does the same as selecting **Filter** from the column heading.<br /><br />If there is already a filter on the field, a new filter is added. |
+|<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Open the filter pane and add a filter on the selected column in the list. Focus is on the new filter field, which lets you start typing the filter criteria right away.<br /><br /> This does the same as selecting **Filter** from the column heading.<br /><br />If there's already a filter on the field, a new filter is added. |
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Reset filters. This does the same as choosing **Reset filters** in the filter pane, and it applies to field and totals filters.<br /><br /> Filters return to the default filters for the current view. If the current view is **All**, then this is the same as returning to an unfiltered view with all records. |
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Change focus from the filter pane back to the list.|
 
@@ -171,7 +171,7 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 
 ## <a name="QuickEntry"></a>Quick Entry Shortcuts for Fields
 
-The following shortcuts pertain to the Quick Entry feature on cards, documents, and list pages. On lists, the shortcuts cannot be used when the list is in the tile view. For more information about Quick Entry, see [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry).
+The following shortcuts pertain to the Quick Entry feature on cards, documents, and list pages. On lists, the shortcuts can't be used when the list is in the tile view. For more information about Quick Entry, see [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry).
 
 |Select these keys<br />(in macOS)|To do this|Remarks|
 |--------------------------------|----------|-------|
@@ -246,6 +246,19 @@ The following table describes the shortcuts on a numeric keypad.
 |--------------------------------|----------|
 |<kbd>Alt</kbd>+<kbd>Decimal Separator</kbd>|Switch the output of the decimal separator key to either a period (.) or the character determined by the **Region** setting of the **My Settings** page. For more information, see [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).|
 
+
+## Access keys for action bar and navigation menu
+
+Access keys are keyboard shortcuts that select specific actions on the action bar and navigation menu, enabling you to navigate through actions to get to the page you want. Access keys are available in the Business Central web client and are similar to access keys in Excel and Word Online.  
+
+To use access keys on a page, first select the <kbd>Alt</kbd> key to display *key tips*, which are letters in small boxes next to the actions in the action bar and navigation menu. 
+
+![Image that shows access keys on the customer list page.](media/access-keys.png) 
+
+To select an action, select the key combination displayed in the key tip, for example <kbd>H</kbd> or <kbd>J</kbd>+<kbd>F</kbd>.
+- If the action opens to a submenu of other actions, the keys tips for the submenu are shown, allowing you to continue using access keys if you like.
+- If the action opens a different page, then key tips are turned off. To show them again, select <kbd>Alt</kbd> key. 
+ 
 ## See also
 
 [Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  

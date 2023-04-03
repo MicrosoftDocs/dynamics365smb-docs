@@ -42,7 +42,7 @@ This walkthrough demonstrates tasks that are performed by the following user rol
 
 ## Story
 
-Ken is a controller at CRONUS who makes monthly cash flow forecasts. He includes finance, sales, purchase, and fixed assets in the forecasts, which he then presents to CFO Sara for business insight.  
+Ken is a controller at CRONUS who makes monthly cash flow forecasts. Ken includes finance, sales, purchase, and fixed assets in the forecasts, and presents to CFO Sara for business insight.  
 
 ## Setting up a new financial report name
 
@@ -98,12 +98,12 @@ After a financial report name is set up, Ken defines each line in the cash flow 
 
 ## Setting up a new column definition
 
-Before Ken can print the cash flow forecast, he needs to create the column definition for the numerical information. In the columns, he defines the information he wants to use from the lines.
+Before printing the cash flow forecast, Ken needs to create the column definition for the numerical information. In the columns, Ken defines the information needed to use from the lines.
 
 - The first column has the number *C10* with the title **Amount** and contains the net change.  
 - The second column has the number *C20* with the title **Balance at Date** and contains the transactions for the period.  
 - The third column has the number *C30* with the title **Entire Year** and contains the net change in the balances for the entire fiscal year.  
-- Finally, he assigns the column definition as the default option for the **Forecast** financial report.  
+- Finally, Ken assigns the column definition as the default option for the **Forecast** financial report.  
 
 ### Set up a new column definition
 

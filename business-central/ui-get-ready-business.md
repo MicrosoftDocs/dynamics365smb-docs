@@ -65,9 +65,11 @@ Under **Company Settings** you can view and edit setup information about the cur
 
 ## Adding users and permissions
 
-If you need to add more users, this is done from Microsoft 365 Admin Center. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
-When users are created in Microsoft 365, they can be imported into the **Users** page by using the **Get Updates from Office 365** action. You can then proceed to assign permissions to users and to organize them in user groups. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
+You add users in Microsoft 365 admin center. For more information, see [Create Users According to Licenses](ui-how-users-permissions.md).
+
+When users are created in Microsoft 365, you can import them to the **Users** page by using the **Get Updates from Office 365** action. You can then assign permissions to users and to organize them in user groups. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
 
 ## Product Help
 

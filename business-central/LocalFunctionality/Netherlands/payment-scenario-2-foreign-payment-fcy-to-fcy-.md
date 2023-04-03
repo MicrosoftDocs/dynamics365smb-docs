@@ -40,7 +40,7 @@ The following list describes the main steps:
 >  In order to be able to enter a bank account in the **Bank Account** vendor/customer bank accounts must be available. See below.  
 
 ### Example  
-Jannet Carter (code **JANNET**) is one of our US vendors. Purchase invoices will be paid through our foreign bank account (code **ABN-USD**) to her bank account (code **JCBA**). Both bank account ABN-USD and JCBA are denominated in the same foreign currency (FCY) - i.e. USD. Therefore, on Jannet Carter's vendor card, we set the **Currency Code** field to **USD**, fill the **Transaction Mode** field with **ABN-USD** that is linked to our bank account, ABN-USD and set the **Bank Account** field to **JCBA**.  
+Jannet Carter (code **JANNET**) is one of our US vendors. Purchase invoices will be paid through our foreign bank account (code **ABN-USD**) to their bank account (code **JCBA**). Both bank account ABN-USD and JCBA are denominated in the same foreign currency (FCY) - i.e. USD. Therefore, on Jannet Carter's vendor card, we set the **Currency Code** field to **USD**, fill the **Transaction Mode** field with **ABN-USD** that is linked to our bank account, ABN-USD and set the **Bank Account** field to **JCBA**.  
 
 ## Create Vendor/Customer Bank Account  
 Create vendor/customer bank account and enter all necessary information. Special attention should be paid to the following fields:  

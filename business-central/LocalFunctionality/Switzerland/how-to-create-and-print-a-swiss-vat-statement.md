@@ -24,7 +24,7 @@ Based on the information that you have specified on the **VAT Posting Setup** pa
 3.  Choose the **OK** button. Choose the **Yes** button to confirm that you want to create a new template.  
 4.  Check the resulting VAT Statement and adjust as needed.  
 
-     he VAT Statement page contains the **VAT Statement Cipher** field, which indicates in which cipher of the report the result will be printed. This field is automatically populated by the batch job based on the information on the **VAT Posting Setup** page. The field can be edited if needed.  
+     The VAT Statement page contains the **VAT Statement Cipher** field, which indicates in which cipher of the report the result will be printed. This field is automatically populated by the batch job based on the information on the **VAT Posting Setup** page. The field can be edited if needed.  
 
 ## To print the Swiss VAT statement  
 

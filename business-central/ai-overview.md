@@ -59,7 +59,7 @@ To get started, you'll need a dedicated Business Central preview version that's 
 - If you're an existing Business Central customer, you're Business Central admin will have to set up the preview version on a sandbox environment for you.
 - If you're not Business Central customer, but want to try it out, you can sign up for a free trial.
 
-For more information, go to [Get the Business Central preview version - Copilot edition](ai-preview-getstarted.md).  
+For more information, go to [Get the Business Central preview version](ai-preview-getstarted.md).  
 
 ## See also
 

@@ -47,7 +47,7 @@ A campaign is any kind of activity that involves several contacts. An important 
 
 ## Story
 
- The marketing manager in the Sales department of CRONUS is responsible for planning campaigns and for executing them. He also makes decisions about which trade shows to participate in and he evaluates campaign progress.  
+ The marketing manager in the Sales department of CRONUS is responsible for planning campaigns and for executing them. The marketing manager also makes decisions about which trade shows to participate in and evaluates campaign progress.  
 
  The marketing staffer in the Marketing department handles producing, distributing, and placing marketing material.  
 
@@ -99,7 +99,7 @@ The **Segment** page now contains a list of contacts based on the filter you ent
 
 ## Mining the Data
 
- The marketing manager takes a closer look at the segmented list of contacts and realizes that the list is much too big. He decides to reduce the list based on actual, prospective customers to make sure he focuses on the correct target group. This process of refining and reducing the data is also referred to as data mining.  
+ The marketing manager takes a closer look at the segmented list of contacts and realizes that the list is much too big. The manager decides to reduce the list based on actual, prospective customers to focus on the correct target group. This process of refining and reducing the data is also referred to as data mining.  
 
 ### To remove contacts from the segment  
 

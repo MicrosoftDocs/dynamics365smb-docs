@@ -21,7 +21,7 @@ This topic explains the requirement and the process of setting up GST TDS and GS
 
 ## GST TDS 
 
-As per Section 51 of CGST Act, recipient of goods and services shall deduct TDS of 2% on payment amount where contract amount exceeds INR 250000. The recipient will issue a certificate for the tax amount deducted against the payment made for contract to supplier. Recipient will pay the deducted amount to government and the same is reflected in supplier’s electronic ledger entry, which he can further adjust it against liability.
+As per Section 51 of CGST Act, recipient of goods and services shall deduct TDS of 2% on payment amount where contract amount exceeds INR 250000. The recipient will issue a certificate for the tax amount deducted against the payment made for contract to supplier. Recipient will pay the deducted amount to government and the same is reflected in supplier’s electronic ledger entry, which the supplier can further adjust against liability.
 
 ## GST TCS
 

@@ -70,6 +70,9 @@ To set up tolerance you have to set up various tolerance accounts, specify both 
 >   
 > When you set up tolerance, [!INCLUDE[prod_short](includes/prod_short.md)] also checks if there are any open entries and calculates the tolerance for these entries.
 
+> [!IMPORTANT]  
+> Enabling the field **Adjust for Payment Discount** on the **VAT Posting Setup** page, VAT Amount will be taken into account related to **Payment Tolerances** and **Payment Discounts** amounts, and VAT will be reduced for both of transactions if exist. The system cannot be configured to use VAT reducing only for one type of transactions.  
+
 ## To enable or disable payment tolerance warnings
 
 The payment tolerance warning appears when you post an application that has a balance in the allowed tolerance. You can then choose how you want to post and document the balance.    

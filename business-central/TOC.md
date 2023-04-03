@@ -108,7 +108,7 @@
 ### [Unsubscribe or Remove Business Central](admin-cancel.md)
 ### AI-powered item marketing text with Copilot
 #### [Overview](ai-overview.md)
-#### [Get preview version - Copilot edition](ai-preview-getstarted.md)
+#### [Get preview version](ai-preview-getstarted.md)
 #### [Configure AI-powered item marketing text](enable-ai.md)
 #### [Create AI-powered item marketing text](item-marketing-text.md)
 #### [FAQ](ai-faq.md)

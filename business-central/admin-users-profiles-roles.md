@@ -13,6 +13,8 @@ ms.search.form: 9171
 ---
 # Manage User Profiles
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Assign all users to profiles that reflect:
 
 * Their business role

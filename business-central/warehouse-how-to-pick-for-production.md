@@ -127,6 +127,8 @@ The following happens during the posting process:
 * Post the consumption of the source document lines that were picked.
 * If the location uses bins, posting will create warehouse entries to post the changes to the bin quantity.
 
+[!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 ## To record the inventory movement
 
 1. On the **Inventory Movement** page, open the document to record a movement for.  

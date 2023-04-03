@@ -1,11 +1,12 @@
-﻿---
-title: Create a Firm Planned Production Order and Change It
-description: Walkthrough for a production planner at Contoso Coffee who wants to create a firm planned production order and then modify it.
-ms.date: 04/01/2022
-ms.topic: article
-ms.service: dynamics365-business-central
-author: edupont04
-ms.author: andreipa
+---
+    title: Create a Firm Planned Production Order and Change It
+    description: Walkthrough for a production planner at Contoso Coffee who wants to create a firm planned production order and then modify it.
+    ms.date: 04/01/2022
+    ms.topic: article
+    ms.service: dynamics365-business-central
+    author: edupont04
+    ms.author: andreipa
+
 ---
 
 # Walkthrough: Create a Firm Planned Production Order and Change It
@@ -14,15 +15,15 @@ In this article, we take you through the steps to use the Contoso Coffee demo da
 
 ## Scenario
 
-Eduardo, the production planner at Contoso Coffee, must create a new production order for 10 units of the item **SP-SCM1009, Airpot** that must be due on April 28. He backward schedules this and confirms that he can start the order on April 27.  
+Eduardo, the production planner at Contoso Coffee, must create a new production order for 10 units of the item **SP-SCM1009, Airpot** that must be due on April 28. Eduardo backward schedules this and confirms that they can start the order on April 27.  
 
-Shortly after he finishes this task, he is asked to increase the order to 50 units. When he does this, the backward scheduling functionality pushes the order start date too early. So he forward schedules the order from April 23 in order to determine a more realistic finish date.  
+Shortly after finishing this task, Eduardo is asked to increase the order to 50 units. On doing this, the backward scheduling functionality pushes the order start date too early. So Eduardo forward schedules the order from April 23 in order to determine a more realistic finish date.  
 
 ## Steps
 
 1. Create the initial production order for 10 units of the item **SP-SCM1009, Airpot**.
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **firm planned prod. orders**, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **firm planned prod. orders**, and then choose the related link.  
 
     2. Choose the **New** action, and then fill in the fields as described in the following table.  
 
@@ -60,4 +61,4 @@ The new production order is now set up, and Eduardo's requirements are met.
 
 ## See also
 
-[Introduction to Contoso Coffee Demo Data](contoso-coffee-intro.md)  
+[Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

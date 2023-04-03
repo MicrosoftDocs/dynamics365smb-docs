@@ -3,9 +3,6 @@ title: Run and Print Reports
 description: Learn to enter a report into a job queue and schedule it to be processed on a specific date and time.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.search.form:
 ms.date: 09/09/2022
@@ -103,7 +100,7 @@ From the **Job Queue Entries** page, you can also change some report parameters,
 3. Choose the **Set On Hold** action.
 4. Open and edit the scheduled report by selecting its status (*On Hold*).
 
-After editing the report options, repeat the first two steps and than select the **Set Status to Ready** action to resume generating the report.
+After editing the report options, repeat the first two steps and then select the **Set Status to Ready** action to resume generating the report.
 
 Learn more about job queue management at [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
 
@@ -137,6 +134,12 @@ A report layout controls what is shown on a report, how it's arranged, and how i
 - To change the default layout used by a report, go to either the **Report Layouts** or **Report Layout Selection** pages.
 
 Learn more at [Set the Layout Used by a Report](ui-set-report-layout.md). Or, if you want to customize your own report layout, go to [Get Started Creating Layouts](ui-get-started-layouts.md).
+
+## Change language and format of numbers, dates, and times
+
+By default, the language of text and format of numbers, dates, and times in a report are based on your working language and region settings, which are defined on the **My Settings** page. You can, however, change the language and format region on a case-by-case basis when you preview, print, or send a report. On the request page, select **Advanced**, then set the **Language** and **Format region** options as you want.
+
+For more information about the **My Settings** page, go to [Change basic settings](ui-change-basic-settings.md#region).
 
 ## Advanced options
 

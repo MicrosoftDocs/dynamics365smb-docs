@@ -5,10 +5,11 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: how-to
-ms.date: 02/24/2023
+ms.date: 03/22/2023
 ms.custom: bap-template
+ms-service: dynamics365-business-central
 ---
-# Manage Attachments, Links, and Notes on Cards and Documents
+# Manage attachments, links, and notes on cards and documents
 
 On most list pages, cards, and documents, you can attach files, add links, and write notes on the **Attachments** tab of the **FactBox** pane. The number in the tab title indicates how many attached files, links, or notes exist for the card or document.
 
@@ -39,14 +40,16 @@ The following procedure is based on a purchase invoice. The steps are similar fo
 2. Open the purchase invoice that you want to attach a file to.
 3. On the **FactBox** pane, choose the **Attachments** tab.
 4. Choose the value behind the **Documents** field, such as "0".
-5. On the **Attached Documents** page, in the **Attachment** field, choose the **Select File** action.
-6. Select a file from any location, and then choose the **Open** button.
+5. On the **Attached Documents** page, in the **Attachment** field.
+6. On the **Attach a document** dialog box, do one of the following steps to attach a file:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
 The file is now attached to the purchase invoice.
 
-## To view an attached file
+## to view an attached file
 
-1. On the **FactBox** pane, open the **Attachments** tab.
+1. On the FactBox, open the **Attachments** tab.
 2. Choose the value behind the **Documents** field, such as "1".
 3. On the **Attached Documents** page, choose the **Preview** action.
 4. Open the downloaded file.

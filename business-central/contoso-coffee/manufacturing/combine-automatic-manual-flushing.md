@@ -35,7 +35,7 @@ You are the production planner at Contoso Coffee. You must create a new producti
 
 3. Review the item and capacity ledger entries for the production order.
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Order**, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Order**, and then choose the related link.  
 
     2. Open the production order with the 5 units of the AutoDrip coffee machine.  
 
@@ -47,7 +47,7 @@ You are the production planner at Contoso Coffee. You must create a new producti
 
     You can manually flush component items by using the consumption or production journal. Manual flushing allows you to adjust quantity before posting. For example, if additional quantity is needed to cover low quality raw materials.
 4. Flush components manually.  
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Consumption Journal**, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Consumption Journal**, and then choose the related link.  
 
     2. Choose the **Calc. Consumption** action.  
 
@@ -59,7 +59,7 @@ You are the production planner at Contoso Coffee. You must create a new producti
 
     You must manually fill in the **Setup Time** and **Run Time** fields. You can also specify the actually produced quantity and scrap. Enter *3* as the output quantity and post the output.
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Output Journal**, and then choose the related link.  
 
     2. In the **Output Journal** page, create a new journal line.  
 
@@ -106,5 +106,5 @@ That's it for manual and automatic flushing of components.
 
 ## See also
 
-[Flush Components According to Operation Output](../production-how-to-flush-components-according-to-operation-output.md)  
-[Introduction to Contoso Coffee Demo Data](contoso-coffee-intro.md)  
+[Flush Components According to Operation Output](../../production-how-to-flush-components-according-to-operation-output.md)  
+[Introduction to Contoso Coffee Demo Data](contoso-coffee-manufacturing-intro.md)  

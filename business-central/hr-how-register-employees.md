@@ -43,8 +43,9 @@ If you have a picture of an employee, you can insert it on the employee card.
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Employees**, and then choose the related link.
 2. Open the card for the relevant employee.
 3. In the **Employee Picture** FactBox, choose the drop-down button, and then choose **Import**.
-4. On the **Select a picture to upload** page, choose the **Choose** button.
-5. Select the file, and then choose **Open**.
+4. On the **Select a picture to upload** page, then do one of the following steps to upload the picture file:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
 The picture is inserted in the **Employee Picture** FactBox.
 

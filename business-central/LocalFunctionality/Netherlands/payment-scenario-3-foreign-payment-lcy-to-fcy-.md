@@ -38,7 +38,7 @@ You can use telebanking for trade with domestic and foreign customers and vendor
 >  In order to be able to enter a bank account in the **Bank Account** vendor/customer bank accounts must be available. See below.  
 
 ### Example  
-Hernandez Ortiz (code **ORTIZ**) is one of our Mexican vendors. Purchase invoices will be paid through our national bank account (code **ABN**) to his bank account (code **HOBA**). While our bank account ABN is denominated in local currency (LCY), Hernandez Ortiz's bank account HOBA is denominated in Mexican peso (MXN). Therefore, on Hernandez Ortiz's vendor card, we set the **Currency Code** field to **MXN**, fill the **Transaction Mode** field with **ABN** that is linked to our bank account, ABN, and set the **Bank Account** field to **HOBA**.  
+Hernandez Ortiz (code **ORTIZ**) is one of our Mexican vendors. Purchase invoices will be paid through our national bank account (code **ABN**) to their bank account (code **HOBA**). While our bank account ABN is denominated in local currency (LCY), Hernandez Ortiz's bank account HOBA is denominated in Mexican peso (MXN). Therefore, on Hernandez Ortiz's vendor card, we set the **Currency Code** field to **MXN**, fill the **Transaction Mode** field with **ABN** that is linked to our bank account, ABN, and set the **Bank Account** field to **HOBA**.  
 
 ## Create Vendor/Customer Bank Account  
 Create vendor/customer bank account and enter all necessary information. Special attention should be paid to the following fields:  

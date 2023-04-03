@@ -59,8 +59,8 @@ You can create a warehouse shipment in one of two ways:
     * In a push fashion, where you use the **Create Pick** action. Select the lines to pick and specify information about the picks. For example, which bins to take from and place in, and how many units to handle. The bins can be predefined for the warehouse location or resource.
     * In a pull fashion, where you use the **Release** action. On the **Pick Worksheet** page, use the **Get Warehouse Documents** action to get your assigned picks. When the warehouse picks are fully registered, the lines in the **Pick Worksheet** are deleted. Learn more at [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-> [!TIP]
-> For a location that doesn't require picking, you can print warehouse shipment and use it as a picking list.
+    > [!TIP]
+    > For a location that doesn't require picking, you can print warehouse shipment and use it as a picking list.
 
 8. Specify the quantity to ship.  
 
@@ -71,6 +71,8 @@ You can create a warehouse shipment in one of two ways:
     To set the value in the **Qty. to Ship** field on all lines to zero, choose the **Delete Qty. to Ship** action. For example, setting the quantities to zero is useful if you're using a barcode scanner to update the shipping quantities. To add the quantity available for shipping, choose the **Autofill Qty. to Ship** action.
 
 9. Post the shipment.
+
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
 ## How to use filters to get source documents
 

@@ -69,6 +69,7 @@ With the feature enabled, a return transaction can only be posted by specifying 
 | Manage business interactions with your vendors, import received invoice documents, and register new suppliers using the Outlook email client. | [Set Up the Business Central Add-in for Outlook](admin-outlook.md) |
 | Review expense receipts, convert paper and electronic documents to journal lines, and digitalize paper invoices from vendors. | [Set Up Incoming Documents](across-how-setup-income-documents.md) |
 | Specify default reports to be used for different document types. |[Report Selection in Business Central](across-report-selections.md)|
+|Specify whether users are allowed to post purchase invoices, and whether they must post them together with a shipment. |[Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)|
 
 ## See related training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 

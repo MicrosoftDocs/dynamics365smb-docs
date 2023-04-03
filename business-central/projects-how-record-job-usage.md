@@ -6,16 +6,12 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 12/20/2022
+ms.date: 03/08/2023
 ms.custom: bap-template
 ---
 # Record Consumption or Usage for Jobs
 
 From the **Job Card** page, you can open the **Job Planning Lines** page to review and record use on various parts of your job. This information is automatically updated when you modify and transfer information between jobs and job journals or job invoices. This requires that you turn on the **Apply Usage Link by Default** toggle on the **Job Setup** page. Learn more at [Set Up Jobs](projects-how-setup-jobs.md).  
-
-<!-- Not really sure what this paragraph is saying, or why we start with it. Why do you transfer information between jobs and job journals or job invoices? I get the use of resources and items, but what about G/L account and Text?
-
-On the Jobs Setup page there's an Apply Usage Link by Default toggle. Guessing that's what we're referring to -->
 
 For example, for planning lines of type **Budget**, you can enter the quantity of a resource, and then specify the quantity to transfer to the job journal. If the type of the planning line is **Billable**, you can enter the quantity of the resource, and then specify the quantity to transfer to an invoice. To learn more about invoicing the customer, go to [Invoice Jobs](projects-how-invoice-jobs.md). By comparing the original quantity, remaining quantity, or posted quantity you can quickly review use information. To learn more about how to estimate budgeted values during planning, go to [Manage Job Budgets](projects-how-manage-budgets.md).  
 
@@ -28,11 +24,11 @@ The following procedures describe how to record actual (budgeted) quantities and
 3. Select a job planning line of type **Budget** or **Both Budget and Billable** for which you want to record usage.   
 
     > [!NOTE]
-    > You can also record usage for a job planning line of type **Billable**. Typically, you use these lines to create invoices, but you can also transfer the information to a journal. Learn more at [Invoice Jobs](projects-how-invoice-jobs.md) <!--However, when you do that, a job planning line of type **Budget** is created to match the billable line. For more information, see [Manage Job Budgets](projects-how-manage-budgets.md).-->
+    > You can also record usage for a job planning line of type **Billable**. Typically, you use these lines to create invoices, but you can also transfer the information to a journal. Learn more at [Invoice Jobs](projects-how-invoice-jobs.md) 
 
 4. In the **Qty. To Transfer to Journal** field, enter the quantity to transfer. The default quantity is the value that you enter in the **Quantity** field.
 
-    The **Remaining Quantity** field shows the quantity that remains to complete the job and transfer to the journal. <!--Should we mention that this field is not shown by default, and that if they want to use it they must add it?--> 
+    The **Remaining Quantity** field shows the quantity that remains to complete the job and transfer to the journal.
 5. Choose the **Create Job Journal Lines** action.
 
     > [!TIP]
@@ -40,6 +36,9 @@ The following procedures describe how to record actual (budgeted) quantities and
 6. On the **Job Transfer Job Planning Line** page, fill in the fields as necessary, and then choose the **OK** button. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Choose the **Open Job Journal** action.  
 8. On the **Job Journal** page, select the relevant line and then choose the **Post** action.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 9. On the **Job Planning Lines** page, review the recorded usage by observing the **Quantity**, **Remaining Quantity**, and **Qty. To Transfer to Journal** fields.  
 10. Repeat steps 3 through 8 to record additional usage.  
 
@@ -49,6 +48,8 @@ The following procedures describe how to record actual (budgeted) quantities and
 2. In the **Batch Name** field, choose a relevant job journal batch.  
 3. On a new line, enter document number, job number, job task number, type, and the quantity of the type being consumed.  
 4. When the job journal lines are complete, choose the **Post** action.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## To view job usage estimates and post updates
 

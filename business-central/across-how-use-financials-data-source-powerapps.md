@@ -1,17 +1,12 @@
 ---
 title: Use Your Data to Create an App| Microsoft Docs
 description: You can make your Business Central data available as a data source and specify an OData URL of your web services to build a business app using Power Apps.
-author: edupont04
-
-
+author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.service: dynamics365-business-central
 ms.search.keywords: OData, Power App, SOAP
-ms.date: 04/01/2021
-ms.author: edupont
-
+ms.date: 04/01/2023
+ms.author: jswymer
 ---
 # Connecting to Your Business Central Data to Build a Business App Using Power Apps
 
@@ -37,7 +32,7 @@ You can make your [!INCLUDE[prod_short](includes/prod_short.md)] data available 
 These so-called tables are exposed as endpoints by the [!INCLUDE[prod_short](includes/prod_short.md)] connector for Power Apps.  
 
 > [!NOTE]
-> If you want to include data from other tables in [!INCLUDE[prod_short](includes/prod_short.md)] in your app, then you must work with a developer to define a custom API in [!INCLUDE[prod_short](includes/prod_short.md)] and then consume that custom API through a custom connector in Power Apps. For more information, see [Create a custom connector from scratch](/connectors/custom-connectors/define-blank).  
+> If you want to include data from other tables in [!INCLUDE[prod_short](includes/prod_short.md)] in your app, then you must work with a developer to define a custom API in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 At this point, you have successfully connected to your [!INCLUDE[prod_short](includes/prod_short.md)] data and are ready to begin building your PowerApp. You can add additional screens and connect to additional data from your [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Create a canvas app from a sample in Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
 

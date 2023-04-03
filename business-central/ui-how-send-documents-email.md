@@ -7,7 +7,7 @@ author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
-ms.search.form: 
+ms.search.form: 41,
 ms.date: 04/01/2021
 ms.author: edupont
 
@@ -16,7 +16,7 @@ ms.author: edupont
 
 You can easily share information and documents, such as sales and purchase orders and invoices, by email directly from [!INCLUDE[prod_short](includes/prod_short.md)], without having to open an email app.  
 
-You can send almost all types of documents as PDF attachments. Alternatively, you can set up a report layout that includes information from the document in the email text, along with text that makes the email more friendly, for example, a standard greeting. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
+You can send almost all types of documents as PDF attachments. Alternatively, you can set up a report layout that includes information from the document in the email text, along with text that makes the email more friendly, for example, a standard greeting. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
 
 When you send invoices, you can make it easier for customers to make payments through a payment service, such as PayPal, by automatically adding information and a link to the service in the email. For more information, see [Enable Customer Payments Through Payment Services](sales-how-enable-payment-service-extensions.md).
 
@@ -27,12 +27,12 @@ To enable emails from within [!INCLUDE[prod_short](includes/prod_short.md)], sta
 
 ## To send documents by email
 
-This procedure describes how attach a posted sales invoice to an email as a PDF file, and with document-specific email text. <!--update this-->
+This procedure describes how attach a posted sales invoice to an email as a PDF file, and with document-specific email text. The steps are the same for other documents.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Sales Invoices**, and then choose the related link.
-2. Select the invoice, choose the **Print/Send** action, and then choose **Send**.
+2. Select the invoice, choose the **Print/Send** action, and then choose **Send by Email**.
 3. In the **Email** field, choose **Yes (Prompt for Settings)**. For more information, see [Set Up Document Sending Profiles](sales-how-setup-document-send-profiles.md).
-    
+
     If the **Email** field on the **Send Document to** page is set to **Yes (Prompt for Settings)**, then the **Send Email** page opens pre-filled with the contact person in the **To:** field and the document attached as a PDF file. In the **Body** field, you can either enter text manually or you can have the field filled with a document-specific email body that you have set up.
 
 4. Choose the **OK** button.
@@ -41,7 +41,7 @@ This procedure describes how attach a posted sales invoice to an email as a PDF 
 7. In the **Attachment** field, the generated invoice is attached by default as a PDF file.
 8. In the **Body** field, enter a short message to the recipient.
 
-    If a document-specific email text is set up on the **Report Selection - Sales** page, then the **Body** field is filled in automatically. For more information, see [Set Up Reusable Email Texts and Layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
+    If a document-specific email text is set up on the **Report Selection - Sales** page, the **Body** field is filled in automatically. For more information, see [Set Up Reusable Email Texts and Layouts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 9. Choose the **OK** button to send the email message.
 
 > [!NOTE]  
@@ -54,7 +54,17 @@ You can quickly compose emails for contacts, customers, vendors, salespeople/pur
 > [!TIP]
 > If you often send email messages that are similar in nature, or want to send a bulk communication, for example, to advertise a sales campaign, using Word templates with email can speed up the process. You can create a template for an entities such as customers, vendors, and contacts, that will generate the content of an email message for you, and even personalize the content for the recipient based on data in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Use Word Templates for Bulk Communication](ui-mail-merge.md).  
 
+### Attach a document to an email
+
+There are several ways to attach documents to emails.
+
 If you're assigned to an email scenario related to the entity you're sending the email to, or the document you're sending, an attachment might be automatically added to your message. That's because a default attachment has been assigned to the email scenario. You can delete the attachment if you don't want to send it with your message. For more information, see [Assign Email Scenarios to Email Accounts](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
+
+To attach a file yourself, in the email editor, use the following actions:
+
+* Choose **Add file** to select a file.
+* Choose **Add files from default selection** to manually add a file that's associated with the email scenario.
+* Choose **Add file from source document** to choose a file that's attached to the document you're working with. The files are either attached to the document itself, or one or more of its lines.
 
 ## Documents marked as printed when they are sent
 

@@ -10,7 +10,7 @@
 ---
 # Walkthrough: Create a New Routing
 
-In this article, we take you through the steps to use the Contoso Coffee demo data to manually set up a new production routing in [!INCLUDE [prod_short](../includes/prod_short.md)].  
+In this article, we take you through the steps to use the Contoso Coffee demo data to manually set up a new production routing in [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
 ## Scenario
 
@@ -20,7 +20,7 @@ Oscar, the process engineer, at Contoso Coffee, decides to create a new routing 
 
 1. Create the routing header.  
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **routings**, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **routings**, and then choose the related link.  
 
     2. Choose the **New** action, and then fill in the fields as described in the following table.  
 
@@ -57,4 +57,4 @@ The new routing is now set up.
 
 ## See also
 
-[Introduction to Contoso Coffee Demo Data](contoso-coffee-intro.md)  
+[Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

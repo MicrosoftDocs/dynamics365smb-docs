@@ -22,7 +22,7 @@ Oscar, the process engineer at Contoso Coffee, must set up a new production BOM 
 
 1. Create a new production BOM for the Airpot Lite.
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **production BOM**, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **production BOM**, and then choose the related link.  
 
     2. Choose the **New** action, and then fill in the fields as described in the following table.  
 
@@ -75,4 +75,4 @@ The new coffee maker is now set up as a production BOM with one version.
 
 ## See also
 
-[Introduction to Contoso Coffee Demo Data](contoso-coffee-intro.md)  
+[Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

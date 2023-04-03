@@ -23,7 +23,7 @@ Shortly after finishing this task, Eduardo is asked to increase the order to 50 
 
 1. Create the initial production order for 10 units of the item **SP-SCM1009, Airpot**.
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **firm planned prod. orders**, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **firm planned prod. orders**, and then choose the related link.  
 
     2. Choose the **New** action, and then fill in the fields as described in the following table.  
 
@@ -61,4 +61,4 @@ The new production order is now set up, and Eduardo's requirements are met.
 
 ## See also
 
-[Introduction to Contoso Coffee Demo Data](contoso-coffee-intro.md)  
+[Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

@@ -20,7 +20,7 @@ You are the production planner at Contoso Coffee. In response to changes on the 
 
 1. Set up the work center.
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **work centers**, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **work centers**, and then choose the related link.  
 
     2. Choose the **New** action, and then fill in the fields as described in the following table.  
 
@@ -44,7 +44,7 @@ You are the production planner at Contoso Coffee. In response to changes on the 
 
 2. Set up the machine center.
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **machine centers**, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **machine centers**, and then choose the related link.  
 
     2. Choose the **New** action, and then fill in the fields as described in the following table.  
 
@@ -86,4 +86,4 @@ On the **Calendar Entries** page, the daily capacity entries in the **Capacity (
 
 ## See also
 
-[Introduction to Contoso Coffee Demo Data](contoso-coffee-intro.md)  
+[Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

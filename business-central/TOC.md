@@ -23,16 +23,23 @@
 #### [Walkthrough: Making Cash Flow Forecasts by Using Financial Reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Walkthrough: Set Up and Use the Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
-### Contoso Coffee Demo Data for Manufacturing
+### Contoso Coffee Demo Data
 #### [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md)
-#### [Create a New Production BOM and BOM Version](contoso-coffee/create-new-production-bom-version.md)
-#### [Create a New Routing](contoso-coffee/create-new-routing.md)
-#### [Create a Firm Planned Production Order and Change It](contoso-coffee/create-firm-planned-production-order-change.md)
-#### [Combine Automatic and Manual Flushing](contoso-coffee/combine-automatic-manual-flushing.md)
-#### [Use Order Planning to Create and Reserve Supply](contoso-coffee/order-planning-create-reserve-supply.md)
-#### [Set up and Process a Subcontracting Operation](contoso-coffee/set-up-process-subcontracting-operation.md)
-#### [Set Up New Capacity](contoso-coffee/set-up-new-capacity.md)
-#### [Variants](contoso-coffee/variants.md)
+#### Manufacturing
+##### [Introduction to Contoso Coffee Manufacturing](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
+##### [Create a New Production BOM and BOM Version](contoso-coffee/manufacturing/create-new-production-bom-version.md)
+##### [Create a New Routing](contoso-coffee/manufacturing/create-new-routing.md)
+##### [Create a Firm Planned Production Order and Change It](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
+##### [Combine Automatic and Manual Flushing](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
+##### [Use Order Planning to Create and Reserve Supply](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
+##### [Set up and Process a Subcontracting Operation](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
+##### [Set Up New Capacity](contoso-coffee/manufacturing/set-up-new-capacity.md)
+##### [Variants](contoso-coffee/manufacturing/variants.md)
+#### Warehousing
+##### [Introduction to Contoso Coffee Warehouse](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
+##### [Walkthrough of inbound and outbound flow in Basic Warehouse Configurations](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
+##### [Walkthrough of inbound and outbound flow in mixed Warehouse Configurations](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
+##### [Walkthrough of inbound and outbound flow in Advanced Warehouse Configuration with Directed Put-away and Pick](contoso-coffee/warehousing/warehouse-directed-flow.md)
 
 ### Design Details
 #### [Application Design Details Overview](design-details-application-design.md)

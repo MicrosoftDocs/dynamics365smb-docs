@@ -20,7 +20,7 @@ You are the production planner at Contoso Coffee. You must update the demand for
 
 1. Set up the stockkeeping units for item SP-SCM1006, AutoDripLite. Assign a BOM for SKU with the variants RED and WHITE.
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter *items*, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter *items*, and then choose the related link.  
 
     2. Open the item **SP-SCM1006, AutoDripLite**.
 
@@ -42,7 +42,7 @@ You are the production planner at Contoso Coffee. You must update the demand for
 
 2. Update Manufacturing Setup and respect demand forecast on locations and variants.  
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter *manufacturing setup*, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter *manufacturing setup*, and then choose the related link.  
 
     2. Switch on the **Use forecast on location** field.
 
@@ -52,7 +52,7 @@ You are the production planner at Contoso Coffee. You must update the demand for
 
 3. Create a new monthly demand forecast, *AUTODRIP*. Filter it by the item SP-SCM1006 and location NORTH. Set demand for May for each variant. 
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter *demand forecast*, and then select the related link.
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter *demand forecast*, and then select the related link.
 
     2. Create a new demand forecast with the name *AUTODRIP*.
 
@@ -80,7 +80,7 @@ You are the production planner at Contoso Coffee. You must update the demand for
 
 4. Run MPS plan in May for created demand forecasts. Review components to see that item paint correlates to variant.
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter *planning worksheet*, and then choose the related link.
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter *planning worksheet*, and then choose the related link.
 
     2. Choose the **Calculate Regenerative Plan** action.
 
@@ -100,4 +100,4 @@ You are the production planner at Contoso Coffee. You must update the demand for
 
 ## See also
 
-[Introduction to Contoso Coffee Demo Data](contoso-coffee-intro.md)  
+[Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

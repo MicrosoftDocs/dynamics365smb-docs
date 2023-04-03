@@ -13,20 +13,20 @@ ms.custom: bap-template
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
-You can try AI-powered item marketing text with Copilot whether you're an existing Business Central customer or a potential customer, that is, someone who's just interested in exploring Business Central and trying out the new capability. To get started, you'll need to get access to a preview version of Business Central that supports the new capability. Complete the section below that applies to you.
+You can try AI-powered item marketing text with Copilot whether you're an existing Business Central customer or a potential customer, that is, someone who's just interested in exploring Business Central and trying out the new capability. To get started, you'll need access to a Business Central online version that supports the new capability. Complete the section below that applies to you.
 
 ## Your organization already uses Business Central
 
-As an existing customer or partner, you'll need an admin with access to the Business Central admin center to set up a *sandbox* environment that runs the preview version that includes Copilot. Once the sandbox environment is up and running, users can try out the new feature.
+As an existing customer or partner, you'll need an admin with access to the Business Central admin center to set up an environment that runs the preview version that includes Copilot. Once the environment is up and running, users can try out the new feature.
 
 If you're an environment admin, complete the following steps:
 
 1. Sign in to the Business Central admin center.
 2. Select **Environments** > **New**.
 3. In the **Create Environment** pane, specify a name for the new environment in the **Environment Name** field.
-4. Set **Environment Type** to **Sandbox**.
+4. Set **Environment Type** to **Sandbox** or **Production**.
 5. Set **Country** to any country/region on the list, but be aware that in the preview, the AI-generated marketing text from Copilot is only in English.
-6. In the **Version** box, choose 22 version.
+6. In the **Version** box, choose a version 22 or later from the list.
 
    <!--
    > [!IMPORTANT]
@@ -34,7 +34,7 @@ If you're an environment admin, complete the following steps:
    -->
 7. Select **Create**.  
 
-For more information about how to create sandbox environments, go to [Create an environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
+For more information about how to create environments, go to [Create an environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
 
 > [!IMPORTANT]
 > If you have preview sandboxes that run on **22.0.54157.54311 (Preview - Copilot edition)**, be aware that these environments are only available until 01 May 2023. After this date, you'll need to provision a new environment or upgrade any of your other environments to version 22.0 or later to continue trying the preview of AI-powered item marketing text.

@@ -48,15 +48,15 @@ This section explains the current limitations of AI-generated text capability pr
 
 - AI-generated text suggestions are in English only.
 - Poor suggestions can result when vague or generic product names are used and specifics about an item are missing, like key attributes or a category.
-- Copilot is only supported on Business Central online trial and sandbox environments; not on production environments, private cloud environments, or Business Central on-premises environments.
+- Copilot is only supported on Business Central online; not private cloud environments or Business Central on-premises environments.
 - Copilot isn't supported through connections to your own Azure OpenAI Service resource in your Azure subscription.
 - Partner extensibility of the AI capability by using AL code isn't supported.
 
 ## Next steps
 
-To get started, you'll need a dedicated Business Central preview version that's enabled with Copilot.
+To get started, you'll need a Business Central version 22 environment that's enabled with Copilot.
 
-- If you're an existing Business Central customer, you're Business Central admin will have to set up the preview version on a sandbox environment for you.
+- If you're an existing Business Central customer, you're Business Central admin will have to set up a version 22 environment for you.
 - If you're not Business Central customer, but want to try it out, you can sign up for a free trial.
 
 For more information, go to [Get the Business Central preview version](ai-preview-getstarted.md).  

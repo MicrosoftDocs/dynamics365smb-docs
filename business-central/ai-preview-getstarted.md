@@ -26,7 +26,7 @@ If you're an environment admin, complete the following steps:
 3. In the **Create Environment** pane, specify a name for the new environment in the **Environment Name** field.
 4. Set **Environment Type** to **Sandbox** or **Production**.
 5. Set **Country** to any country/region on the list, but be aware that in the preview, the AI-generated marketing text from Copilot is only in English.
-6. In the **Version** box, choose 22 version.
+6. In the **Version** box, choose a version 22 or later from the list.
 
    <!--
    > [!IMPORTANT]

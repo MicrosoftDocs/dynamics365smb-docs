@@ -46,12 +46,7 @@ In methods A, B, and C, receiving and putting away are combined in one step when
 
 > [!NOTE]
 > While warehouse put-aways and inventory put-aways sound similar, they're different documents and are used in different processes.
-> * The inventory put-away used in method B, together with registering put-away information, also posts receipt of the souece document.
-> * The warehouse put-away used in method D can't be posted and only registers the put-away. The registration makes the items available for the further processing but doesn't post the receipt. In the inbound flow, the warehouse put-away requires a warehouse receipt.
-
-> [!NOTE]
-> While warehouse put-aways and inventory put-aways sound similar, they're different documents and are used in different processes.
-> * The inventory put-away used in method B, together with registering put-away information, also posts receipt of the souece document.
+> * The inventory put-away used in method B, together with registering put-away information, also posts the receipt of the source document.
 > * The warehouse put-away used in method D can't be posted and only registers the put-away. The registration makes the items available for the further processing but doesn't post the receipt. In the inbound flow, the warehouse put-away requires a warehouse receipt.
 
 ## No dedicated warehouse activity

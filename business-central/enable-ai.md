@@ -39,7 +39,7 @@ You're using a [preview version](ai-preview-getstarted.md) of Business Central t
 
 ## Next steps
 
-Once you have a sandbox or trial environment, you ready to try out Copilot on items in Business Central. Go to [Add marketing text to items](item-marketing-text.md).  
+After you enable and consent to the feature, you ready to try out Copilot on items in Business Central. Go to [Add marketing text to items](item-marketing-text.md).  
 
 ## See also
 

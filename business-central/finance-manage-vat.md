@@ -23,7 +23,7 @@ Value Added Tax (VAT) is an indirect tax on the consumption of goods and service
 | [Set Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md) | If you use cash-based accounting, this article provides guidance about how to specify handling unrealized VAT for sales and purchases.|
 | [Submit VAT Reports to Tax Authorities](finance-how-report-vat.md) | Use this article to learn how to prepare reports that list VAT from sales during a period, or from sales and purchases, and then submit the report to a tax authority.|
 | [Set Up a VAT Statement](finance-how-setup-vat-statement.md) | This article provides information to ensure that you know how to set up a VAT statement template and names to meet changing tax authority requirements.|
-| [Managing VAT Rate changes](finance-how-use-vat-rate-change-tool.md) | This article explains how to use the VAT Rate change tool for Dynamics 365 Business Central that you can use to change VAT rates based on local legislation.|
+| [Managing VAT Rate changes](finance-how-use-vat-rate-change-tool.md) | This article explains how you can use the VAT Rate change tool for Dynamics 365 Business Central to change VAT rates based on local legislation.|
 | [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md) | This article explains how to use Business Central validation for VAT registration numbers for your contacts, customers, and vendors based on the EU VIES VAT Number Validation service.|
 
 

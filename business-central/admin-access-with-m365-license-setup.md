@@ -22,7 +22,7 @@ Setting up access with Microsoft 365 licenses involves the following tasks:
 ||Task|Required|
 |-|-|-|
 |1|[Configure which Business Central data the Microsoft 365 licensed users have permission to view](#configure-permissions)|![check mark](media/check.png "check")|
-|2|[Enable access with Microsoft 365 licenses on the Business Central environment](#turn-on-access-with-microsoft-365-licenses)|![check mark](media/check.png "check")|
+|2|[Enable access with Microsoft 365 licenses on the Business Central environment](#enable-access-with-microsoft-365-licenses)|![check mark](media/check.png "check")|
 |3|[Assign security group to the environment](#choose-who-gets-access-by-using-security-group)|
 |4|[Deploy the Business Central app for Teams to users](#deploy-the-business-central-app-for-teams)|![check mark](media/check.png "check")|
 |5|[Test the setup](#test-your-setup)||

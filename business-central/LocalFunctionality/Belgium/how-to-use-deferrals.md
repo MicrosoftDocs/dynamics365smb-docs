@@ -1,6 +1,6 @@
 ---
 title: Deferrals in Sales ledger and Purchase ledger reports
-description: Set up and use deferrals in Sales ledger and Purchase ledger reports in the Belgian version of Business Central.
+description: Learn how to set up and use deferrals in Sales ledger and Purchase ledger reports in the Belgian version of Business Central.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: na
@@ -15,32 +15,32 @@ ms.author: altotovi
 
 # Deferrals in Sales ledger and Purchase ledger reports
 
-When you use deferrals, the purchase ledger and sales ledger reports in the Belgian version of Dynamics 365 Business Central must show only the original entries from invoices and credit memos, and not the entries created using deferrals.
+When you use deferrals, the Purchase ledger and Sales ledger reports in the Belgian version of Dynamics 365 Business Central must show only the original entries from invoices and credit memos, and not those created using deferrals.
 
 ## Set up deferrals
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Source Code Setup**, and then select the related link.  
-2. On the **General** FastTab, enter any required field information as well as the fields desribed in the following table.  
+2. On the **General** FastTab, enter any required field information and the fields described in the following table.  
 
     |      Field   |         Description        |
     |--------------|----------------------------|
     | **General Deferral** | The **Source Code** that the system uses for deferrals that are created from posting in General journals. |
     | **Sales Deferral** | The **Source Code** that the system uses for deferrals that are created from posting in Sales documents. |
-    | **Purchase Deferral** | The **Source Code** that the system will use for deferrals that are created from posting in Purchase documents. |
+    | **Purchase Deferral** | The **Source Code** that the system uses for deferrals that are created from posting in Purchase documents. |
     
 3. Select **OK**.
 
 > [!NOTE]
-> You can configure specific source codes for deferrals postings, or you can use the same source code for general journal, sales journals, and purchase journals.  
+> You can configure specific source codes for deferral postings or use the same source code for the general journal, sales journals, and purchase journals.  
 
 ## Belgium Sales ledger and Purchase ledger reports
 
 After the deferral entries have a specific source code, you can manipulate the reports’ view by selecting **Exclude Deferral Entries** in the Sales ledger and Purchase ledger reports. 
 
-When the option is set to **Off**, the report will print all entries related to specified period. When the switch is **On**, deferral entries are excluded from the report.  
+When you set the option to **Off**, the report will print all entries related to a specified period. When the switch is **On**, the report will exlude the deferral entries.  
 
 > [!NOTE]
-> The next period, of one month, doesn't include deferral entries when the switch in **On**.
+> The next period, of one month, doesn't include deferral entries when the switch is **On**.
 
 ## See Also
 

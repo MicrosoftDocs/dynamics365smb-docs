@@ -8,7 +8,7 @@ ms.author: bholtorf
 ---
 
 > [!NOTE]
-> Businesses in all countries can benefit from the ability to review general ledger entries before posting them. In a future release, we'll deprecate the country-specific feature and replace it with one that's available in all country versions. After the feature is deprecated, you can use it to access previous reviews, but not to do new reviews. We'll archive your data according to local requirements. To learn more about the deprecation, go to [Deprecated Features in the Base App](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1). To learn about the replacement feature, go to [Review Amounts in General Ledger Accounts](finance-review-accounts.md).
+> Businesses in all countries can benefit from the ability to review general ledger entries before posting them. In a future release, we'll deprecate the country-specific feature and replace it with one that's available in all country versions. After the feature is deprecated, you can use it to access previous reviews, but not to do new reviews. We'll archive your data according to local requirements. To learn more about the deprecation, go to [Deprecated Features in the Base App](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1). To learn about the replacement feature, go to [Review Amounts in General Ledger Accounts](../../../finance-review-accounts.md).
 
 By applying temporary general ledger entries, companies can work with temporary and transfer accounts in the general ledger. Temporary and transfer accounts are used to store temporary ledger entries that are waiting for further processing into the general ledger.  
 

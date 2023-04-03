@@ -37,7 +37,7 @@ When you use deferrals, the Purchase ledger and Sales ledger reports in the Belg
 
 After the deferral entries have a specific source code, you can manipulate the reports’ view by selecting **Exclude Deferral Entries** in the Sales ledger and Purchase ledger reports. 
 
-When you set the option to **Off**, the report will print all entries related to a specified period. When the switch is **On**, the report exludes the deferral entries.  
+When you set the option to **Off**, the report will print all entries related to a specified period. When the switch is **On**, the report excludes the deferral entries.  
 
 > [!NOTE]
 > The next period, of one month, doesn't include deferral entries when the switch is **On**.

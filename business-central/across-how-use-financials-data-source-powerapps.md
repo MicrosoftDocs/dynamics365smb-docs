@@ -12,10 +12,16 @@ ms.author: jswymer
 
 You can make your [!INCLUDE[prod_short](includes/prod_short.md)] data available as a data source in Power Apps.  
 
-> [!NOTE]  
-> You must have a valid account with [!INCLUDE[prod_short](includes/prod_short.md)] and with Power Apps.  
+> [!TIP]  
+> Please note that additional Power Apps documentation and our Power App samples presented during BCLE event will be published here later in 2023 wave 1. Read more here: 
+https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/get-started-more-sample-power-automate-templates-power-apps
 
-## To add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power Apps
+
+## Prerequisites
+
+You must have a valid account with [!INCLUDE[prod_short](includes/prod_short.md)] and with Power Apps.  
+
+## Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power Apps
 
 1. In your browser, navigate to [powerapps.microsoft.com](https://powerapps.microsoft.com/), and then sign in.
 2. On the Home page, in the **Start from data** section, choose the **Other data sources** tile.  

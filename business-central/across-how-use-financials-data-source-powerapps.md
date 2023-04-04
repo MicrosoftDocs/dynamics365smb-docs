@@ -12,29 +12,33 @@ ms.author: jswymer
 
 You can make your [!INCLUDE[prod_short](includes/prod_short.md)] data available as a data source in Power Apps.  
 
-> [!NOTE]  
-> You must have a valid account with [!INCLUDE[prod_short](includes/prod_short.md)] and with Power Apps.  
+> [!TIP]  
+> The additional Power Apps documentation and our Power App samples presented during the [!INCLUDE[prod_short](includes/prod_short.md)] Launch Event will be published here later in 2023 wave 1. Read more at [Get started with more sample Power Automate templates and Power Apps](/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/get-started-more-sample-power-automate-templates-power-apps).
 
-## To add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power Apps
+## Prerequisites
+
+You must have a valid account with [!INCLUDE[prod_short](includes/prod_short.md)] and with Power Apps.  
+
+## Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power Apps
 
 1. In your browser, navigate to [powerapps.microsoft.com](https://powerapps.microsoft.com/), and then sign in.
 2. On the Home page, in the **Start from data** section, choose the **Other data sources** tile.  
 
-    This opens Power Apps Studio. On first login, you must specify the country/region.  
+    This step opens Power Apps Studio. On first sign-in, you must specify the country/region.  
 3. In the list of available connections, choose **Business Central**, and then choose the **Create** button.
 
-    Power Apps will connect to your [!INCLUDE[prod_short](includes/prod_short.md)] using the credentials that you are signed in with. If you are not an administrator of your [!INCLUDE[prod_short](includes/prod_short.md)], you may have to sign in with another account.  
+    Power Apps will connect to your [!INCLUDE[prod_short](includes/prod_short.md)] using the credentials that you're signed in with. If you aren't an administrator of your [!INCLUDE[prod_short](includes/prod_short.md)], you may have to sign in with another account.  
 
 4. Power Apps will display a list of *Environments and companies* that are available from [!INCLUDE[prod_short](includes/prod_short.md)]. Choose the environment and company that contains the data you want to connect to, such as *PRODUCTION - My Company*.  
 
-5. Next, you will be presented with a list of tables that are exposed as part of the API for your environment. Select the table that you want to connect to, and then choose **Connect**.
+5. Next, you'll be presented with a list of tables that are exposed as part of the API for your environment. Select the table that you want to connect to, and then choose **Connect**.
 
 These so-called tables are exposed as endpoints by the [!INCLUDE[prod_short](includes/prod_short.md)] connector for Power Apps.  
 
 > [!NOTE]
 > If you want to include data from other tables in [!INCLUDE[prod_short](includes/prod_short.md)] in your app, then you must work with a developer to define a custom API in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-At this point, you have successfully connected to your [!INCLUDE[prod_short](includes/prod_short.md)] data and are ready to begin building your PowerApp. You can add additional screens and connect to additional data from your [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Create a canvas app from a sample in Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
+At this point, you have successfully connected to your [!INCLUDE[prod_short](includes/prod_short.md)] data and are ready to begin building your Power App. You can add more screens and connect to more data from your [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Create a canvas app from a sample in Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
 
 When you have designed and built your app, you can share it with your colleagues. For more information, see [Save and publish a canvas app in Power Apps](/powerapps/maker/canvas-apps/save-publish-app).  
 

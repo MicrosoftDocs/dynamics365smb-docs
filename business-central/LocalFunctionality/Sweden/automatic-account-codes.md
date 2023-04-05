@@ -14,7 +14,8 @@ ms.author: edupont
 ---
 # Automatic account codes in the Swedish Version
 
-Automatic account code is part of the Swedish localization. However, starting in version 22.1, Swedish localization will be based on the W1 base app and the Automatic account codes functionality will be moved to the extension installed by default. To learn more about this change, see [Save time with automatic account codes](automatic-account-codes.md).  
+> [!NOTE]
+> Automatic account code is part of the Swedish localization. However, starting in version 22.1, Swedish localization will be based on the W1 base app and the Automatic account codes functionality will be moved to the extension installed by default. Functionally there will no be changes. To learn more about this change, see [Save time with automatic account codes](automatic-account-codes.md).  
 
 [!INCLUDE [automatic-account-codes](../includes/FISE/automatic-account-codes.md)]
 

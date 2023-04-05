@@ -102,19 +102,19 @@ Receiving a QR-bill through incoming documents is especially useful when the pro
 From the incoming document you can create a purchase journal or a purchase invoice, and the payment reference from the QR-bill is assigned to both. Learn more at [Working with Incoming Documents](../../across-income-documents.md).
 
 > [!NOTE]
-> When you import QR-bills, [!INCLUDE[prod_short](../../includes/prod_short.md)] will try to find a vendor bank account that has a matching IBAN or QR-IBAN. When you import QR-bills on incoming documents, a document or purchase journal is created and the vendor bank account will determine the vendor to use. The incoming document approach helps ensure that the correct vendor is assigned. 
+> When you import QR-bills, [!INCLUDE[prod_short](../../includes/prod_short.md)] will look for a vendor bank account that has a matching IBAN or QR-IBAN. When you import QR-bills on incoming documents, a document or purchase journal is created and the vendor bank account determines the vendor to use. The incoming document approach helps ensure that the correct vendor is assigned. 
 
 #### Receiving through Kofax OCR service
 
 > [!NOTE]
-> If existing companies in [!INCLUDE[prod_short](../../includes/prod_short.md)] want to get returned QR reference when use Kofax OCR service, they must update existing data exchange definition that is used as **Data Exchange Type** for processing invoices in incoming documents.  
+> If existing companies in [!INCLUDE[prod_short](../../includes/prod_short.md)] want a returned QR reference when they use the Kofax OCR service, they must update the existing data exchange definition that is used as **Data Exchange Type** for processing invoices in incoming documents.  
 
-To update existing data exchange definition:   
+Complete the following steps to update an existing data exchange definition. 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exchange Definitions**, and then choose the related link. 
-2. In the **Data Exchange Definitions** list, find the line you want to update (i.e. OCRINVOICE) ona open the card. 
-3. Choose **OCRINVHEADER** in the **Line Definitions** FastTab.  
-4. On the **Column Definitions** FastTab, add new line with the following values:  
+1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exchange Definitions**, and then select the related link. 
+2. In the **Data Exchange Definitions** list, find the line you want to update and open the card. 
+3. On the **Line Definitions** FastTab select **OCRINVHEADER**.  
+4. On the **Column Definitions** FastTab, create a new line and add the following values.
 
     |Field  |Value  |
     |---------|---------|
@@ -123,8 +123,8 @@ To update existing data exchange definition:
     | **Description** | Swiss QR-Bill Reference No. |
     | **Path** | /Document/HeaderFields/HeaderField[Type[text()='qrreference']]/Text |
     
-5. On the **Line Definitions** FastTab, execute the **Field Mapping** action.  
-6. On the **Field Mapping** page, add new line with the following values:  
+5. On the **Line Definitions** FastTab, select **Field Mapping**.  
+6. On the **Field Mapping** page, create a new line and add the following values.
 
     |Field  |Value  |
     |---------|---------|

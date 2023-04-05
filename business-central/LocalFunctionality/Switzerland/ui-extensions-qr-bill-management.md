@@ -102,7 +102,38 @@ Receiving a QR-bill through incoming documents is especially useful when the pro
 From the incoming document you can create a purchase journal or a purchase invoice, and the payment reference from the QR-bill is assigned to both. Learn more at [Working with Incoming Documents](../../across-income-documents.md).
 
 > [!NOTE]
-> When you import QR-bills, [!INCLUDE[prod_short](../../includes/prod_short.md)] will try to find a vendor bank account that has a matching IBAN or QR-IBAN. When you import QR-bills on incoming documents, a document or purchase journal is created and the vendor bank account will determine the vendor to use. The incoming document approach helps ensure that the correct vendor is assigned.
+> When you import QR-bills, [!INCLUDE[prod_short](../../includes/prod_short.md)] will try to find a vendor bank account that has a matching IBAN or QR-IBAN. When you import QR-bills on incoming documents, a document or purchase journal is created and the vendor bank account will determine the vendor to use. The incoming document approach helps ensure that the correct vendor is assigned. 
+
+#### Receiving through Kofax OCR service
+
+> [!NOTE]
+> If existing companies in [!INCLUDE[prod_short](../../includes/prod_short.md)] want to get returned QR reference when use Kofax OCR service, they must update existing data exchange definition that is used as **Data Exchange Type** for processing invoices in incoming documents.  
+
+To update existing data exchange definition:   
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exchange Definitions**, and then choose the related link. 
+2. In the **Data Exchange Definitions** list, find the line you want to update (i.e. OCRINVOICE) ona open the card. 
+3. Choose **OCRINVHEADER** in the **Line Definitions** FastTab.  
+4. On the **Column Definitions** FastTab, add new line with the following values:  
+
+    |Field  |Value  |
+    |---------|---------|
+    | **Column No.** | 11513 |
+    | **Name** | Swiss QR-Bill Reference No. |
+    | **Description** | Swiss QR-Bill Reference No. |
+    | **Path** | /Document/HeaderFields/HeaderField[Type[text()='qrreference']]/Text |
+    
+5. On the **Line Definitions** FastTab, execute the **Field Mapping** action.  
+6. On the **Field Mapping** page, add new line with the following values:  
+
+    |Field  |Value  |
+    |---------|---------|
+    | **Column No.** | 11513 |
+    | **Target Table ID** | 38 |
+    | **Target Field ID** | 171 |
+    | **Validate Only** | False |
+
+7. Close the pages.  
 
 ### Receiving a QR-bill through purchase orders or purchase invoices
 

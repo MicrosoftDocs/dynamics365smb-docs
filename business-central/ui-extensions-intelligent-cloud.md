@@ -2,7 +2,6 @@
 title: Cloud Migration Base Extension
 description: Use the Cloud Migration Base extension to connect your on-premises solution with Business Central online.
 author: edupont04
-manager: edupont
 
 
 ms.topic: conceptual

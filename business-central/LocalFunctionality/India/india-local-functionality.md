@@ -54,7 +54,6 @@ The following topics describe the local functionality in the Indian version of [
     * [GST Application of Receipt and Invoice](GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md) **Available Now**
     * [GST Stock Transfer](GST-Stock-Transfer.md) **Available Now**
     * [GST Service Transfer](GST-Service-Transfer.md) **Available Now**
-    * [GST Kerala Flood Cess](GST-and-Kerala-Flood-Cess-on-Sales.md) **Available Now** 
     * [GST Bank Charges Overview](GST-Bank-Charges-Overview.md) **Available Now**
     * [GST Bank Charges Transaction](GST-Bank-Charges-Transaction.md) **Available Now**
     * [GST and TCS on Customer Advance](GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice.md) **Available Now**

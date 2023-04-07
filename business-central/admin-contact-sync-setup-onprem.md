@@ -1,12 +1,12 @@
 ---
 title: Set up contact sync with Outlook for Business Central on-premises
-description: Learn how to configure a Business Central on-premises envirSet up contact sync with Outlook for Business Central on-premises
+description: Learn how to configure a Business Central on-premises environment to synchronize contacts in Business Central and Outlook.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 03/17/2023
+ms.date: 04/04/2023
 ms.custom: bap-template
 ---
 

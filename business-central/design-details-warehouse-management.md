@@ -28,7 +28,7 @@ Implement these features in different combinations to tailor your warehouse proc
 
 ## Overview of different configuration options
 
-You can configure warehouse features in various ways. It's important to options you choose improve your processes without causing overhead. The following table gives an overview of typical configurations that are used when dealing with physical goods.
+You can configure warehouse features in various ways. It's important to choose options that improve your processes without causing overhead. The following table gives an overview of typical configurations for dealing with physical goods.
 
 |Complexity Level|Description|Settings|Bin Code|Example of Inbound Flow|Example of Outbound Flow|Example of Internal Flow|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
@@ -61,7 +61,7 @@ To handle physical goods, you must have at least one location. You can use multi
 Typically, locations are the preferred way to organize operations that are distributed across geographic areas. In some cases, however, you might want to create several locations that are located at the same place. Using locations has the following advantages:
 
 * Grant access by using the **Warehouse Employee** and **Responsibility Centers** pages.
-* Define calendars, routings, and inbound and outbound handling times for date calculation and planning. [About Planning Functionality](production-about-planning-functionality.md).
+* Define calendars, routings, and inbound and outbound handling times for date calculation and planning. Learn more at [About Planning Functionality](production-about-planning-functionality.md).
 * Specify default dimensions and use different inventory posting setups.
 * Set up planning parameters. Learn more at [Planning parameters](production-about-planning-functionality.md#planning-parameters).  
 * Use different warehouse features for each location.

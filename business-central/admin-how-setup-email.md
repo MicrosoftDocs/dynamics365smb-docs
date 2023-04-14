@@ -61,6 +61,8 @@ If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](inclu
 >
 > Exchange Online is deprecating use of Basic authentication for SMPT. Tenants that are currently using SMTP AUTH won't be affected by this change. However, we strongly recommend using the latest version of [!INCLUDE [prod_short](includes/prod_short.md)] and setting up OAuth 2.0 authentication for SMTP. We will not add certificate-based authentication for earlier versions of [!INCLUDE [prod_short](includes/prod_short.md)], for example, version 14. If you can't set up OAuth 2.0 authentication, we encourage you to explore third-party alternatives if you want to use SMTP email in earlier versions.
 
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
+
 ## Add Email Accounts
 
 The **Set Up Email** assisted setup guide can help you get started quickly with emails.

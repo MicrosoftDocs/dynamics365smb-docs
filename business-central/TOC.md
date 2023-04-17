@@ -810,6 +810,7 @@
 ##### [Limit the Posting Period](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Set the Work Date as the Posting Date](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 ##### [Make Journal Templates Mandatory](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Deferrals in Sales and Purchase Ledger reports](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
 ### Canada
 #### [Local Functionality in the Canadian Version](LocalFunctionality/Canada/canada-local-functionality.md)

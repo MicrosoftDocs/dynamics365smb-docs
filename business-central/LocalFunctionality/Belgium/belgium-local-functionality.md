@@ -67,10 +67,12 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Limit the Posting Period](how-to-limit-the-posting-period.md) **Available Now**
     * [Set the Work Date as the Posting Date](how-to-set-the-work-date-as-the-posting-date.md) **Available Now**
     * [Make Journal Templates Mandatory](specify-journal-template-mandatory.md) **Available Now**
+    * [Deferrals in Sales Ledger and Purchase Ledger reports](how-to-use-deferrals.md) **Available Now**
 
 ## Future legislation requirements being investigated
 
 Currently, there are no upcoming regulatory features or requirements. If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
 
 ## See Also
 

@@ -26,16 +26,16 @@ Learn more at [Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)
 
 This article refers to method B in the table.
 
-When your location is set up to require put-away processing but not receive processing, use the **Inventory Put-away** document to record and post put-away and receipt information for your source documents. Inbound source documents can be purchase orders, sales return orders, and inbound transfer orders.
+When your location is set up to require put-away processing but not receive processing, use an **Inventory Put-away** document to record and post put-away and receipt information for your source documents. Inbound source documents can be purchase orders, sales return orders, and inbound transfer orders.
 
 > [!NOTE]
 > Production and assembly output also represent inbound source documents. Learn more about handling production and assembly output for internal processes at [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md).
 
 You can create an inventory put-away in three ways:  
 
-- Create the inventory put-away directly from the source document itself.  
-- Create inventory put-aways for several source documents at the same time by using a batch job.  
-- Create the put-away in two steps by first by releasing the source document to make the items available to be put away. You can create the inventory put-away based on the source document by using the **Inventory Put-away** page.  
+* Create the inventory put-away directly from the source document itself.  
+* Create inventory put-aways for several source documents at the same time by using a batch job.  
+* Create the put-away in two steps by first by releasing the source document to make the items available to be put away. You can create the inventory put-away based on the source document by using the **Inventory Put-away** page.  
 
 ## To create an inventory put-away from the source document
 
@@ -81,6 +81,8 @@ A warehouse employee can create a new inventory put-away based on the released s
 
     * Post the receipt of the source document lines that have been put away
     * If the location uses bins, posting will also create warehouse entries to post the bin quantity changes.
+
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
 ## See related [Microsoft training](/training/modules/receive-put-away-items/)
 

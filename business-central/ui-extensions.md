@@ -15,6 +15,8 @@ You can change [!INCLUDE[prod_short](includes/prod_short.md)] online by installi
 
 ## Manage apps
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 When you first launch [!INCLUDE[prod_short](includes/prod_short.md)], some apps are already installed for you. Over time, more apps will be made available to you, and you can then choose if you want to use the app or not.
 
 For example, Microsoft provides an app that provides integration with PayPal Payments Standard. This extension is installed by default. But if another extension is made available that offers integration with another payment service, you can install the new extension and then choose which of the two services to use.  

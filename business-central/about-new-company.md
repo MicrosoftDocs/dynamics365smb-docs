@@ -1,17 +1,14 @@
 ---
 title: Create new companies using an assisted setup guide
-description: It's easy to create a new, blank company in Business Central. An assisted setup guide helps you through the steps, and you can import your existing business data.
-author: edupont04
-
+description: It's easy to create a new, blank company in Business Central. An assisted setup guide helps you through the steps, and you can import your business data.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 04/14/2023
+ms.custom: bap-template
 ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
-ms.author: edupont
-
 ---
 # Create New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -48,7 +45,9 @@ Your administrator can learn more about trials and subscriptions [here](/dynamic
 On the **Companies** page, you can use the **Copy** action to create a second company based on the contents of an existing company. That's useful, for example, when you want to test a company without disrupting production data.
 
 > [!Important]
-> This function cannot be used to take a backup of a company. Taking a company backup begins by exporting the database as a .bacpac file. For more information, see [Exporting Databases](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) in the development and administration help.
+> Don't use the Copy action to take a backup of a company. To take a backup, start by exporting the database as a .bacpac file. For more information, see [Exporting Databases](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) in the development and administration help.
+
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
 ## Set up the company
 

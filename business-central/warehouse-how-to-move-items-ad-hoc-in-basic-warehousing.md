@@ -87,6 +87,8 @@ Instead of using movement documents, you can record movements by reclassifying b
 3. Fill in the remaining fields on each journal line.
 4. Post the reclassification journal.  
 
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 ## See related [Microsoft training](/training/modules/manage-internal-warehouse-processes/)
 
 ## See also

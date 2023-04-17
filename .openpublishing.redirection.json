@@ -849,10 +849,48 @@
         },
         {
             "source_path": "business-central/design-details-warehouse-overview.md",
-            "redirect_url": "/dynamics365/warehouse-manage-warehouse",
+            "redirect_url": "/dynamics365/business-central/warehouse-manage-warehouse",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/contoso-coffee/combine-automatic-manual-flushing.md",
+            "redirect_url": "/dynamics365/business-central/contoso-coffee/manufacturing/combine-automatic-manual-flushing",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/contoso-coffee/create-firm-planned-production-order-change.md",
+            "redirect_url": "/dynamics365/business-central/contoso-coffee/manufacturing/create-firm-planned-production-order-change",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/contoso-coffee/create-new-production-bom-version.md",
+            "redirect_url": "/dynamics365/business-central/contoso-coffee/manufacturing/create-new-production-bom-version",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/contoso-coffee/create-new-routing.md",
+            "redirect_url": "/dynamics365/business-central/contoso-coffee/manufacturing/create-new-routing",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/contoso-coffee/order-planning-create-reserve-supply.md",
+            "redirect_url": "/dynamics365/business-central/contoso-coffee/manufacturing/order-planning-create-reserve-supply.md",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/contoso-coffee/set-up-new-capacity.md",
+            "redirect_url": "/dynamics365/business-central/contoso-coffee/manufacturing/set-up-new-capacity.md",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/contoso-coffee/set-up-process-subcontracting-operation.md",
+            "redirect_url": "/dynamics365/business-central/contoso-coffee/manufacturing/set-up-process-subcontracting-operation",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "business-central/contoso-coffee/variants.md",
+            "redirect_url": "/dynamics365/business-central/contoso-coffee/manufacturing/variants",
             "redirect_document_id": false
         }
-
-        
             ]
 }

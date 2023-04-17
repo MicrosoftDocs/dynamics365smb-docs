@@ -340,6 +340,10 @@ Deleting a message that contains a card doesn't delete or affect any data in [!I
 
 No. The field values on a card in Teams, including any images, are based on the data available when that card was sent to the chat. [!INCLUDE [prod_short.md](includes/prod_short.md)] cards don't automatically refresh in Teams. 
 
+### Why don't cards show more information instead of just the page name and details button?
+
+An administrator may have configured the Teams integration so that cards don't show data about records. For more information, see [Show or hide record data on cards](admin-teams-integration.md#show-or-hide-record-data-on-cards).
+
 ### Will others see my card if they don't have the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams? 
 
 When you compose and send a message to chat that includes a card, all users will see the card&mdash;even if they haven't installed the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams.

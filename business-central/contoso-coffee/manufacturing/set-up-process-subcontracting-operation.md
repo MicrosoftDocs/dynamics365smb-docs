@@ -22,7 +22,7 @@ Here, you create a new released production order for 12 units of item SP-SCM1009
 
 1. Create a new released production order for 12 units of item SP-SCM1009, Airpot.
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Order**, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Released Production Order**, and then choose the related link.  
 
     2. Choose the **New** action, and then fill in the fields as described in the following table.  
 
@@ -45,7 +45,7 @@ Here, you create a new released production order for 12 units of item SP-SCM1009
 
 3. Use the subcontracting worksheet to generate a purchase order for the subcontracted operation on the production order that you created in step 2.  
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **subcontracting worksheets**, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **subcontracting worksheets**, and then choose the related link.  
 
     2. Choose the **Calculate Subcontracts** action.
 
@@ -59,7 +59,7 @@ Here, you create a new released production order for 12 units of item SP-SCM1009
 
 4. Receive and invoice the purchase order.  
 
-    1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **purchase orders**, and then choose the related link.  
+    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **purchase orders**, and then choose the related link.  
 
     2. On the **Purchase Orders** list, find the purchase order from the vendor 82000 Subcontractor.
 
@@ -75,4 +75,4 @@ The output of item SP-SCM1009 Airpot is now registered.
 
 ## See also
 
-[Introduction to Contoso Coffee Demo Data](contoso-coffee-intro.md)  
+[Introduction to Contoso Coffee Demo Data](../contoso-coffee-intro.md)  

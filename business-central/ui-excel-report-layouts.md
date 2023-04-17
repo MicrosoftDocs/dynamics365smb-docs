@@ -87,8 +87,9 @@ Once you have the Excel layout file, the next task is to add it as a new layout 
 3. Set **Report ID** to *Report*.
 4. Enter a name in **Layout Name**.
 5. Set **Format Options** to **Excel**.
-6. Select **OK** > **Choose** to open file explorer on your device.
-7. Find and select the Excel file, then choose **Open**.
+6. Select **OK**, then do one of the following steps to upload the layout file for the report:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    The selected file is uploaded to the layout, and the **Report Layouts** page opens.
 8. To see how the report looks in the new layout, choose the layout from the list, then select **Run Report**.

@@ -91,8 +91,12 @@ The first step in working with the XBRL functionality is to import a taxonomy in
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **XBRL Taxonomies**, then choose the related link.  
 2. On the **XBRL Taxonomies** page, create a new line and enter the name and description of the taxonomy.  
 3. Choose the **Schemas** action, then insert the description of the schema.  
-4. To import the schema, on the **XBRL Schemas** page, choose the **Import** action, then select a folder and an XSD file. Choose **Open**.  
-5. To import the linkbase, on the **XBRL Schemas** page, choose the **Linkbases** action, then select a folder and an XML file. Choose **Open**.  
+4. To import the schema, on the **XBRL Schemas** page, choose the **Import** action, then do one of the following steps to upload the file:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
+5. To import the linkbase, on the **XBRL Schemas** page, choose the **Linkbases** action, then do one of the following steps to upload the file:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)] 
 6. You can now choose to apply the linkbase to the schema. Repeat until you have imported all linkbases.  
 7. Choose the **Apply to Taxonomy** action to apply the linkbase to the schema.  
 

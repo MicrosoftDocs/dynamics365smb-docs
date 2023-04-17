@@ -23,16 +23,23 @@
 #### [Walkthrough: Making Cash Flow Forecasts by Using Financial Reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Walkthrough: Set Up and Use the Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
-### Contoso Coffee Demo Data for Manufacturing
+### Contoso Coffee Demo Data
 #### [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md)
-#### [Create a New Production BOM and BOM Version](contoso-coffee/create-new-production-bom-version.md)
-#### [Create a New Routing](contoso-coffee/create-new-routing.md)
-#### [Create a Firm Planned Production Order and Change It](contoso-coffee/create-firm-planned-production-order-change.md)
-#### [Combine Automatic and Manual Flushing](contoso-coffee/combine-automatic-manual-flushing.md)
-#### [Use Order Planning to Create and Reserve Supply](contoso-coffee/order-planning-create-reserve-supply.md)
-#### [Set up and Process a Subcontracting Operation](contoso-coffee/set-up-process-subcontracting-operation.md)
-#### [Set Up New Capacity](contoso-coffee/set-up-new-capacity.md)
-#### [Variants](contoso-coffee/variants.md)
+#### Manufacturing
+##### [Introduction to Contoso Coffee Manufacturing](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
+##### [Create a New Production BOM and BOM Version](contoso-coffee/manufacturing/create-new-production-bom-version.md)
+##### [Create a New Routing](contoso-coffee/manufacturing/create-new-routing.md)
+##### [Create a Firm Planned Production Order and Change It](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
+##### [Combine Automatic and Manual Flushing](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
+##### [Use Order Planning to Create and Reserve Supply](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
+##### [Set up and Process a Subcontracting Operation](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
+##### [Set Up New Capacity](contoso-coffee/manufacturing/set-up-new-capacity.md)
+##### [Variants](contoso-coffee/manufacturing/variants.md)
+#### Warehousing
+##### [Introduction to Contoso Coffee Warehouse](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
+##### [Walkthrough of inbound and outbound flow in Basic Warehouse Configurations](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
+##### [Walkthrough of inbound and outbound flow in mixed Warehouse Configurations](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
+##### [Walkthrough of inbound and outbound flow in Advanced Warehouse Configuration with Directed Put-away and Pick](contoso-coffee/warehousing/warehouse-directed-flow.md)
 
 ### Design Details
 #### [Application Design Details Overview](design-details-application-design.md)
@@ -106,6 +113,13 @@
 ### [Troubleshoot Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ### [Extend Your Trial Version](admin-extend-trial.md)
 ### [Unsubscribe or Remove Business Central](admin-cancel.md)
+### AI-powered item marketing text with Copilot
+#### [Overview](ai-overview.md)
+#### [Get preview version](ai-preview-getstarted.md)
+#### [Configure AI-powered item marketing text](enable-ai.md)
+#### [Create AI-powered item marketing text](item-marketing-text.md)
+#### [FAQ](ai-faq.md)
+
 ## Buy
 ### [Get Started with a Subscription](trial-signup.md#get-started-with-a-subscription)
 ### [Get Ready for Doing Business](ui-get-ready-business.md)
@@ -402,14 +416,19 @@
 ### Consolidate Financial Data from Multiple Companies
 #### [Company Consolidation](finance-consolidated-company-reporting.md)
 #### [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md)
+
+### Work with the chart of accounts and general ledger
+#### [Understand the General Ledger and Chart of Accounts](finance-general-ledger.md)
+#### [Review Accounts](finance-review-accounts.md)
+
 ### [Consolidate Balances for a Company that is a Customer and a Vendor](finance-consolidate-customer-vendor-balances.md)
-### [Understand the General Ledger and the COA](finance-general-ledger.md)
 ### [Work with Dimensions](finance-dimensions.md)
 ### [Troubleshoot and Correct Dimensions](finance-troubleshooting-correcting-dimensions.md)
 ### [Currencies in Business Central](finance-currencies.md)
 ### [Create G/L Budgets](finance-how-create-budgets.md)
 ### [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)
 ### [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)
+### [Audit file export](finance-how-to-export-audit-files.md)
 ### [Allocate Costs and Income](year-allocate-costs-income.md)
 ### [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)
 ### [Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)
@@ -429,6 +448,7 @@
 ## Financial Business Intelligence and Reporting
 ### [Financial Business Intelligence and Reporting Overview](bi.md)
 ### [Financial Reports](finance-reports.md)
+### [Analyze Data with Statistical Accounts](bi-use-statistical-accounts.md)
 ### [Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
 ### [Prepare Financial Reporting with Financial Data and Account Categories](bi-how-work-account-schedule.md)
 ### [Set Up and Publish KPI Web Services Based on Financial Reports](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -492,6 +512,7 @@
 ### [Manage Product Variants](inventory-item-variants.md)  
 ### [Work with Item Attributes](inventory-how-work-item-attributes.md)
 ### [Work with Catalog Items](inventory-how-work-nonstock-items.md)
+### [Add Marketing Text for Items](item-marketing-text.md)
 ### [Count and Adjust Inventory Using Documents](inventory-how-count-inventory-with-documents.md)
 ### [Count, Adjust, and Reclassify Inventory Use Journals](inventory-how-count-adjust-reclassify.md)
 ### [View the Availability of Items](inventory-how-availability-overview.md)
@@ -1503,6 +1524,7 @@
 #### [Send Documents by Email](ui-how-send-documents-email.md)
 #### [Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)
 #### [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)
+#### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
 ### Set Up Purchasing
 #### [Set Up Purchasing](purchasing-setup-purchasing.md)
 #### [Register New Vendors](purchasing-how-register-new-vendors.md)
@@ -1511,6 +1533,7 @@
 #### [Set Up Purchasers](purchasing-how-setup-purchasers.md)
 #### [Set Up Prices and Discounts](across-prices-and-discounts.md)
 #### [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
 ### Set Up Inventory
 #### [Set Up Inventory](inventory-setup-inventory.md)
 #### [Set Up General Inventory Information](inventory-how-setup-general.md)
@@ -1523,6 +1546,7 @@
 #### [Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Categorize Items](inventory-how-categorize-items.md)
 #### [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)
+#### [Configure AI-powered item marketing text with Copilot](enable-ai.md)
 ### Set Up Project Management
 #### [Set Up Projects](projects-setup-projects.md)
 #### [Set Up Resources](projects-how-setup-resources.md)
@@ -1594,6 +1618,7 @@
 ##### [Get the Business Central Add-in for Outlook](admin-outlook.md)
 ##### [Use Business Central as Your Business Inbox in Outlook](work-outlook-addin.md)
 ##### [Synchronize with Contacts in Outlook](admin-synchronize-outlook-contacts.md)
+###### [Set up contact sync for on-premises](admin-contact-sync-setup-onprem.md)
 ##### [Optimize Outlook](admin-outlook-optimize.md)
 ##### [Use Business Central without Outlook](admin-no-outlook.md)
 ##### [FAQ](ui-outlook-addin-faq.yml)
@@ -1615,11 +1640,13 @@
 #### Use Business Central as Your Business Inbox in Outlook 
 ##### [Overview](admin-outlook.md)
 ##### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+###### [Set up contact sync for on-premises](admin-contact-sync-setup-onprem.md)
 ##### [Use Business Central Without Outlook](admin-no-outlook.md)
 #### Use Microsoft Teams with Business Central
 ##### [Overview](across-teams-overview.md)
 ##### [Manage Teams Integration](admin-teams-integration.md)
 ##### [Install Business Central App for Teams](across-install-app-for-teams.md)
+##### [Access Data in Teams Without Business Central License](teams-access-with-m365-license.md)
 ##### [Search for Customers, Vendors, and Contacts](across-search-contacts-teams.md)
 ##### [Add Business Central Tab in Channel or Chat](across-teams-tab.md)
 ##### [Share Records and Page Links in Teams](across-working-with-teams.md)
@@ -1744,6 +1771,7 @@
 ### [Searching and Filtering FAQ](ui-search-filter-faq.yml)
 ### [Analyzing Page Data in Excel](across-work-with-excel.md)
 ### [Analyzing Report Data with Excel](report-analyze-excel.md)
+### [Analyzing List Data with Analysis Mode](analysis-mode.md)
 ### [Financial Business Intelligence](bi.md)
 
 ## Built-in Analytics 
@@ -1873,6 +1901,9 @@
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshoot Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
 ### [Use a Power Automate Flow for Alerts to Dataverse Entity Changes](admin-power-automate-flow-dataverse.md)
+## Synchronize Master Data Across Companies
+### [Get Ready to Synchronize Master Data](admin-set-up-data-sync.md)
+### [Manage Master Data Synchronization](admin-sync-master-data.md)
 ## Design Details
 ### [Application Design Details Overview](design-details-application-design.md)
 ### Design Details: Supply Planning

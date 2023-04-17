@@ -39,6 +39,7 @@ You can do the following for each customer using the **Shopify Customer Template
 2. Define the **Customer Template Code**, which is used to create missing customers if **Auto Create Unknown Customers** is enabled. If the **Customer Template Code** is empty, then the function uses the **Customer Template Code** defined on the **Shopify Shop Card**.
 3. Define whether prices include VAT/tax for imported orders.
 4. In some cases, the **Customer Template Code** defined for a country isn't enough to ensure the correct calculation of taxes (for example, for countries with sales tax). In this case, including **Tax Areas** could be a useful addition.
+5. The **Tax Area** field also contains a **Country Code** and **County Name** pair. This pair is useful when the connector needs to convert a code to a name, or vice versa.
 
 > [!NOTE]  
 > The country codes are ISO 3166-1 alpha-2 country codes. Learn more at [Country Code](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -58,6 +59,7 @@ The following are requirements for exporting a customer:
 * A country/region is selected on the customer card, for local customers, with blank country/region the country/region specified in the **Company Information** page must have an ISO Code defined.
 * If the customer has a phone number, the number must be unique because Shopify won't accept a second customer with the same phone number.
 * If the customer has a phone number, it must be in the E.164 format. Different formats are supported if they represent a number that can be dialed from anywhere in the world. The following formats are valid:
+
   * xxxxxxxxxx
   * +xxxxxxxxxxx
   * (xxx)xxx-xxxx
@@ -82,7 +84,8 @@ A customer in Shopify also has a default address. The address might contain a co
 |1|**Name**|Highest priority, if the **Name Source** field in the **Shopify Shop Card** contains *Company Name*.|
 |2|**Name 2**|Lowest priority, if the **Name 2 Source** field in the **Shopify Shop Card** contains *Company Name*.|
 
-For addresses where the country/province is used, select *Code* or *Name* in the **Country Source** field in the **Shopify Shop Card**. The code or name specifies the type of data stored in [!INCLUDE[prod_short](../includes/prod_short.md)] in the **Country** field.
+For addresses where the county/province is used, select **Code** or **Name** in the **County Source** field on the **Shopify Shop Card** page. The code or name specifies the type of data stored in [!INCLUDE[prod_short](../includes/prod_short.md)] in the **County** field. Remember to initialize customer templates per country so that the county code/name mapping is ready. 
+
 
 ## Sync customers
 

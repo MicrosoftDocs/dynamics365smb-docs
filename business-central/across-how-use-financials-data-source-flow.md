@@ -28,6 +28,7 @@ Power Automate flows are triggered by events, such as a record was created, modi
 ## About Power Automate flows
 
 Power Automate is a service that helps you create automated workflows (or flows) between apps and services, like [!INCLUDE[prod_short](includes/prod_short.md)]. Power Automate flows require little or no coding knowledge. They can be associated with a wide range of events and responses, such as:
+
 - Record changes
 - External files updates
 - Posted documents

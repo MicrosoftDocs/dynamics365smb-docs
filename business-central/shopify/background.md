@@ -44,8 +44,8 @@ You can schedule the following recurring activities to be performed in an automa
 
 Other tasks that can be helpful to automate further processing of sales documents:
 
-- report 497 Batch Post Purchase Invoices
-- report 496 Batch Post Purchase Orders
+- report 297 Batch Post Sales Invoices
+- report 296 Batch Post Sales Orders
 
 You can use the **Shopify Order No.** field to identify sales documents that were imported from Shopify.
 

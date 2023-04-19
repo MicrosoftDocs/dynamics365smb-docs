@@ -28,6 +28,7 @@ Power Automate flows are triggered by events, such as a record was created, modi
 ## About Power Automate flows
 
 Power Automate is a service that helps you create automated workflows (or flows) between apps and services, like [!INCLUDE[prod_short](includes/prod_short.md)]. Power Automate flows require little or no coding knowledge. They can be associated with a wide range of events and responses, such as:
+
 - Record changes
 - External files updates
 - Posted documents
@@ -41,10 +42,13 @@ There are three different cloud flow types that you can work with:
 |Scheduled|This type of flow is also automatically run but it runs periodically at a scheduled date and time. |
 |Instant |This flow type is run on-demand, requiring the user to run it manually from a button or action in another app or device, in this case, the [!INCLUDE[prod_short](includes/prod_short.md)] client. Instant flows work similarly to batch shortcuts, performing multiple lengthy steps with a few button presses and are launched from specific pages or tables. For example, a flow can add a button to the action menu on the **Vendors** page to block payments to a vendor and, at the same time, send customizable emails to the vendor's contact and your company's purchasers as well as update the contact in Outlook. |
 
-## Power Automate features in [!INCLUDE[prod_short](includes/prod_short.md)]
+## Power Automate features
 
-You can explore all Power Automate flows currently available to you by signing in to [Power Automate](https://powerautomate.com) and selecting **My flows** from the navigation bar on the left. Here you'll find any flows you have already created yourself and flows shared with you by an admin or coworker. These flows are also made available from inside [!INCLUDE [prod_short](includes/prod_short.md)] from various pages. With automated flows in [!INCLUDE[prod_short](includes/prod_short.md)], there's nothing for you to do, unless to want to change them or turn them off. Otherwise, they'll just work when triggered. As for instant flows on [!INCLUDE[prod_short](includes/prod_short.md)] data, you can run them from most list, card, and document pages by selecting them from the **Automate** item in the action. Learn more in the sections that follow.
+You can explore all Power Automate flows currently available to you by signing in to [Power Automate](https://powerautomate.com) and selecting **My flows** from the navigation bar on the left. Here you'll find any flows you have already created yourself and flows shared with you by an admin or coworker.
 
+- Instant flows are also made available for running directly from most list, card, and document pages in [!INCLUDE[prod_short](includes/prod_short.md)]. You'll find the instant flows in the **Automate** action group in the action bar of pages. To run a flow, select it, and follow the instructions presented to you. Learn more in the sections that follow.
+ 
+- With automated flows in [!INCLUDE[prod_short](includes/prod_short.md)], there's nothing for you to do, unless to want to change them or turn them off. Otherwise, they'll just work when triggered. 
 <!--
 
 ## Automated flows
@@ -55,7 +59,7 @@ With Power Automate, you can create business flows directly in-house and rely on
 
 ## Run instant flows
 
-Instant flows open inside [!INCLUDE [prod_short](includes/prod_short.md)] online so you can remain within the context of the business process you were in the middle of. You can run an instant flow from most lists, cards, or documents.
+Instant flows open inside [!INCLUDE [prod_short](includes/prod_short.md)] online so you can remain within the context of the business process you were in the middle of doing. You can run an instant flow from most lists, cards, or documents.
 
 1. In the action bar, select **Automate**, then choose a flow from list of available flows under the **Power Automate** action
 
@@ -86,9 +90,9 @@ Creating new flows, modifying and managing existing ones (like turning them on o
 
 - To create an instant flow from a list, card, or document page, select **Automate** > **Create a Flow**.
 - To open Power Automate from a list, card, or document page, select **Automate** > **Manage Flows**.
-- To create new flows or manage existing flows from inside [!INCLUDE[prod_short](includes/prod_short.md)], got to the **Manage Power Automate Flows** page.
+<!--- To create new flows or manage existing flows from inside [!INCLUDE[prod_short](includes/prod_short.md)], got to the **Manage Power Automate Flows** page.-->
 
-These tasks are typically done by an admin or super user. The tasks require a broader knowledge of the business processes in [!INCLUDE[prod_short](includes/prod_short.md)]. To learn more, see [Set Up Automated Flows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows), [Set Up Instant Flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) and [Manage Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
+These tasks are typically done by an admin or super user. The tasks require a broader knowledge of the business processes in [!INCLUDE[prod_short](includes/prod_short.md)]. To learn more, explore [Power Automate integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview), [Set Up Instant Flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows), and [Manage Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
 <!-- 
 
 ## Add more automated flows and instant flows

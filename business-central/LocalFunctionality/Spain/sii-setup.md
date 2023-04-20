@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.search.form: 10751, 10752, 10753, 10770, 10771, 747, 473
+ms.search.form: 10740, 10751, 10752, 10753, 10770, 10771, 747, 473, 472
 ms.date: 07/12/2022
 ms.author: edupont
 
@@ -58,7 +58,19 @@ To indicate value-added tax (VAT) exemptions under the SII scheme you can either
 >[!IMPORTANT]
 >The default values are provided to cover standard scenarios. Your business and type of business transactions and any customization you may have may require you to select a different value to meet the reporting requirements under SII.
 
-To enable reporting on **Non Taxable Due To Localization Rules** scenarios, set the appropriate **VAT Posting Setup Card** on the **VAT Posting Setup** page by choosing the option in the **No Taxable Type** field.
+To enable reporting on **Non Taxable Due To Localization Rules** scenarios, set the appropriate **VAT Posting Setup Card** on the **VAT Posting Setup** page by choosing the option in the **No Taxable Type** field. To configure **VAT Posting Setup** works this way, the **VAT %** field must be equal to 0. 
+
+When you post the document with the VAT configured with the active **No Taxable Type** field, together with the **VAT Entry** system will create new **No Taxable Entry** with details about this tax exemption.  
+
+### VAT Reporting based on VAT exemption  
+
+The **Calc. and Post VAT Settlement** report processes the **No Taxable Entries** with similar way for **VAT Entries**. User can post some documents with **No Taxable** option for certain period for 3 different no taxable **VAT Posting Setup** and runs the report **The Calc. and Post VAT Settlement**. **No Taxable** section will be printed below **VAT Entries** section in the report.  
+
+If user decides to close some entries for **VAT Posting Setup**, system will automatically close **No Taxable Entries** connected with this **VAT Entry**. Running the **Calc. and Post VAT Settlement** report will show all other entries, but will not include closed entries for the same period.  
+
+>[!NOTE]
+> The **VAT Declaration** can be generated using the **VAT Statements** form. User can run **Preview** on the **VAT Statements** page and see the result for the option
+**Include VAT Entries** = **Open**. This option works for **No Taxable entries** as well. Printing **VAT Statement** report also supports **Include VAT Entries** option for same values **Open**, **Closed**, and **Open and Closed** both for **VAT Entries** and **No Taxable Entries**.
 
 ## See also
 

@@ -68,7 +68,7 @@ The following topics describe local functionality unique to the Spanish version 
 
 ## Future legislation requirements being investigated
 
-* User can filter 'No Taxable entries' Open/Closed field **May 2023**
+* Filter **No Taxable entries** based on an **Open** or **Closed** status of the entry **May 2023**
 * Non-deductible VAT **July 2023**
 * Requirements for Spanish e-invoicing **July 2024**
 

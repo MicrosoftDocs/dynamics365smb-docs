@@ -178,7 +178,7 @@ To avoid disrupting integrations, _you must upgrade_ the connection to use certi
 > [!NOTE]
 > You must repeat these steps in each [!INCLUDE[prod_short](includes/prod_short.md)] environment, including both production and sandbox environments, and in each company where you have a connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-## Connecting pn-premises versions
+## Connecting on-premises versions
 
 To connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], you must specify some information on the **Dataverse Connection Setup** page.
 

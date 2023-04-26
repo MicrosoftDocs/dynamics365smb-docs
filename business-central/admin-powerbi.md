@@ -2,13 +2,13 @@
 title: Introduction to Business Central and Power BI
 description: Get an overview of using Power BI to get insight, business intelligence, and KPIs from your Business Central data.
 author: jswymer
-
 ms.topic: overview
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.search.form: 6316, 6317
 ms.reviewer: jswymer
 ms.date: 04/26/2023
 ms.author: jswymer
+ms.custom: bap-template
 ---
 # Introduction to [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI
 

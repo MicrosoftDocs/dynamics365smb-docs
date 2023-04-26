@@ -6,10 +6,9 @@ ms.author: altotovi
 ms.reviewer: 
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.topic: conceptual
 ms.search.keywords: VAT, non-deductible, setup
 ms.search.form: 187, 472, 473
-ms.date: 04/13/2023
+ms.date: 04/26/2023
 ms.custom: bap-template
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: How to use Non-deductible VAT
-description: Business Central supports non-deductible VAT and you can find details how to use and report it here.
+title: Use non-deductible VAT
+description: This article explains how to use and report non-deductible VAT.
 author: altotovi
 ms.author: altotovi
 ms.reviewer: 
@@ -14,51 +14,49 @@ ms.custom: bap-template
 
 ---
 
-# How to use non-deductible VAT  
+# Use non-deductible VAT  
+This article provides information about how to use and report non-deductible VAT. 
 
-## To create purchase invoice with non-deductible VAT  
+## Create a purchase invoice with non-deductible VAT  
 
-1.	Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices** and then choose the related link. 
-2.	Create new **Purchase Invoice** using the **New** action and populate information in document header.   
-3.	In the **Lines**, create a new line with any **Type** based on **VAT Business Posting Group** and **VAT Product Posting Group** where you have configured non-deductible VAT. 
-4.	Fill in the **Quantity** and **Direct Unit Cost**.  
-5.	If you selected the **Show Non-Ded. VAT In Lines** field in the **VAT Setup** page, you will see amounts in **Non-Deductible VAT Base** and **Non-Deductible VAT Amount** in the **Lines**, calculated based on the **Non-Deductible VAT %** field in the **VAT Posting Setup** page.  
-6.	Post the document.    
+1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then select the related link. 
+2. Select **New** to create a new purchase invoice and enter the appropriate information in the invoice header.   
+3. In the **Lines** section, based on the VAT business posting group and the VAT product posting group where you configure non-deductible VAT, create a new line of any type. 
+4. In the **Quantity** and **Direct Unit Cost** fields, enter the appropriate values.  
+5. If you selected the **Show Non-Ded. VAT In Lines** check box on the **VAT Setup** page, the amounts in the **Non-Deductible VAT Base** and **Non-Deductible VAT Amount** fields are calculated based on the **Non-Deductible VAT %** field on the **VAT Posting Setup** page.  
+6. Post the invoice.    
 
 ## To create purchase order with non-deductible VAT  
 
-1.	Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders** and then choose the related link. 
-2.	Create new **Purchase Order** using the **New** action and populate information in document header.   
-3.	In the **Lines**, create a new line with any **Type** based on **VAT Business Posting Group** and **VAT Product Posting Group** where you have configured non-deductible VAT.  
-4.	Fill in the **Quantity** and **Direct Unit Cost**.   
-5.	If you selected the **Show Non-Ded. VAT In Lines** field in the **VAT Setup** page, you will see amounts in **Non-Deductible VAT Base** and **Non-Deductible VAT Amount** in the **Lines**, calculated based on the **Non-Deductible VAT %** field in the **VAT Posting Setup** page. 
-6.	Post the document.   
+1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders** and then select the related link. 
+2. Select **New** to create a new purchase order and enter the appropriate information in the document header.   
+3. In the **Lines** section, based on the VAT business posting group and the VAT product posting group where you configure non-deductible VAT, create a new line of any type.  
+4.In the **Quantity** and **Direct Unit Cost** fields, enter the appropriate values.   
+5. If you selected the **Show Non-Ded. VAT In Lines** check box on the **VAT Setup** page, the amounts in the **Non-Deductible VAT Base** and **Non-Deductible VAT Amount** fields are calculated based on the **Non-Deductible VAT %** field on the **VAT Posting Setup** page. 
+6. Post the purchase order.   
 
-## Rounding VAT Amounts before posting documents  
+## Rounding VAT amounts before posting documents  
 
-If VAT amounts are not rounded the same way as in the external accounting system (the original invoice document), you can adjust VAT amount before posting document. To do this, before posting document:
+If VAT amounts aren't rounded the same way in your environment as they are in the external accounting system (the original invoice document), you can adjust the VAT amount before you post the document. To do this, complete the following steps before posting.
 
-1.	Select the **Statistic** action from ribbon.  
-2.	If you are working with the **Purchase Invoice**, 
-    1.	Select the **VAT Amount** or **Non-Deductible VAT Amount** in the **Lines** FastTab, 
-    2.	Populate the values you need from your original document,   
-    3.	Close the **Purchase Invoice Statistics** page.  
-3.	If you are working with the **Purchase Order**,   
-    1.	Expand the **Invoicing** FastTab,  
-    2.	Select the **No. of Tax Lines** field on the **Invoicing** FastTab to open the **VAT Amounts Lines** page,  
-    3.	Select the **VAT Amount** or **Non-Deductible VAT Amount** you want to correct, 
-    4.	Populate the values you need from your original document, 
-    5.	Close the **VAT Amount Lines** page,   
-    6.	Close the **Purchase Order Statistics** page. 
+1. On the ribbon, select **Statistic**.  
+2. If you are working with the purchase invoice:
 
-> [!NOTE]  
-> If you want to use adjustments of VAT amounts, you must enable it entering the value in the **Max. VAT Difference Allowed** field as maximum allowed VAT amount for correction on the **General Ledger Setup** page and select the **Allow VAT Difference** field on the **Purchases & Payables Setup** page.  
+    1. Select the **VAT Amount** or **Non-Deductible VAT Amount** in the **Lines** FastTab. 
+    2. Populate the values you need from your original document, and then close the **Purchase Invoice Statistics** page.  
 
-> [!NOTE]  
-> You can adjust the **VAT Amount** and **Non-Deductible VAT Amount**; the **Deductible VAT Amount** field will be the result of these two values. You cannot enter a bigger amount in the **Non-Deductible VAT Amount** from **VAT Amount**. Amount entered in the **Max. VAT Difference Allowed** field on the **General Ledger Setup** page works independently for deductible and non-deductible VAT amounts on statistic pages when you want to adjust VAT amounts. 
+3.	If you are working with the purchase order: 
+
+    1. On the **Invoicing** FastTab, select **No. of Tax Lines** to open the **VAT Amounts Lines** page. 
+    2. Select the **VAT Amount** or **Non-Deductible VAT Amount** you want to correct.
+    3. Enter the values you need from your original document, close the **VAT Amount lines** page, and then close the **Purchase Order Statistics** page.
+
+To use adjustments of VAT amounts, you must enable the adjustments by entering the value in the **Max. VAT Difference Allowed** field on the **General Ledger Setup** and then selecting **Allow VAT Difference**. The value you enter is the maximum allowed VAT amount for correction on the **General Ledger Setup** page and select the **Allow VAT Difference** field on the **Purchases & Payables Setup** page.  
+
+You can adjust the values in the **VAT Amount** and **Non-Deductible VAT Amount** fields. The **Deductible VAT Amount** field is the result of these two values. You can't enter a bigger amount in the **Non-Deductible VAT Amount** field than the **VAT Amount** field. The amount entered in the **Max. VAT Difference Allowed** field on the **General Ledger Setup** page works independently for deductible and non-deductible VAT amounts on statistic pages when you want to adjust VAT amounts. 
 
 > [!IMPORTANT]  
-> You cannot use non-deductible VAT on the prepayment invoices.   
+> You can't use non-deductible VAT on the prepayment invoices.   
 
 
 ## See also

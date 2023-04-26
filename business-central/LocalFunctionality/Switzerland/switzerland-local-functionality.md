@@ -65,6 +65,13 @@ The following topics describe local functionality that is unique to the Swiss ve
     * [Import Swiss Post Codes](how-to-import-swiss-post-codes.md) **Available Now**
     * [Swiss Purchase Documents and Sales Orders](swiss-purchase-documents-and-sales-documents.md) **Available Now**
 
+## Future legislation requirements being investigated
+
+* DTA Payment Journal details are being deprecated **2023 Wave 1**
+* Update VAT Statement with new Ciphers 303 and 383 **January 2024**
+
+If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
 ## See Also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

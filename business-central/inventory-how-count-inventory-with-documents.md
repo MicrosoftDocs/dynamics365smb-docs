@@ -86,10 +86,10 @@ When employees have counted the inventory quantities, you must prepare to record
 4. Select the **Recorded** check box on each line.
 5. When you have entered all data for a physical inventory recording, choose the **Finish** action. Note that all lines must have the **Recorded** checkbox selected.
 
-> [!NOTE]
-> When you finish a physical inventory recording, each line is transferred to the line on the related physical inventory order that matches it exactly. To match, the values in the **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** fields must be the same on the recording and the order lines.<br /><br />
-> If no matching physical inventory order line exists, and if the **Allow Recording Without Order** checkbox is selected, then a new line is inserted automatically and the **Recorded Without Order** checkbox on the related physical inventory order line is selected. Otherwise, an error message is displayed and the process is canceled.<br /><br />
-> If more than one physical inventory recording lines match a physical inventory order line, then a message is displayed and the process is canceled. If, for some reason, two identical physical inventory lines end up on the physical inventory order, you can use a function to resolve it. For more information, see the [To find duplicate physical inventory order lines](#to-find-duplicate-physical-inventory-order-lines) section.
+    > [!NOTE]
+    > When you finish a physical inventory recording, each line is transferred to the line on the related physical inventory order that matches it exactly. To match, the values in the **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** fields must be the same on the recording and the order lines.<br /><br />
+    > If no matching physical inventory order line exists, and if the **Allow Recording Without Order** checkbox is selected, then a new line is inserted automatically and the **Recorded Without Order** checkbox on the related physical inventory order line is selected. Otherwise, an error message is displayed and the process is canceled.<br /><br />
+    > If more than one physical inventory recording lines match a physical inventory order line, then a message is displayed and the process is canceled. If, for some reason, two identical physical inventory lines end up on the physical inventory order, you can use a function to resolve it. For more information, see the [To find duplicate physical inventory order lines](#to-find-duplicate-physical-inventory-order-lines) section.
 
 ## To complete a physical inventory order
 
@@ -105,7 +105,7 @@ You can also choose the **Phys. Inventory Order Diff.** action to view any diffe
 2. Open the physical inventory order that you want to view duplicate lines for.
 3. Choose the **Show Duplicate Lines** action.
 
-Any duplicate physical inventory order lines are displayed so that you can delete them and keep only one line with a unique set of values in the **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** fields.
+Duplicate physical inventory order lines display so that you can delete them and keep only one line with a unique set of values in the **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** fields.
 
 ### To post a physical inventory order
 
@@ -121,10 +121,12 @@ After completing a physical inventory order and changing its status to **Finishe
     On the **Physical Inventory Order** page, you view the quantity recorded in the **Qty. Recorded (Base)** field.
 3. Choose the **Finish** action.
 
-    The value in the **Status** field is changed to **Finished**, and you can now only change the order by first choosing the **Reopen** action.
+    The value in the **Status** field is **Finished**, and you can now only change the order by first choosing the **Reopen** action.
 4. To post the order, choose the **Post** action, and then choose the **OK** button.
 
-The involved item ledger entries are updated along with any related item tracking entries.
+    The item ledger entries are updated along with any related item tracking entries.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ### To view posted physical inventory orders
 
@@ -144,9 +146,9 @@ The **Use Item Tracking** check box on physical inventory order lines is automat
 
 Consider a physical inventory for Item A, which is stored in inventory as ten different serial numbers.
 1. On the recording line for the item, select the **Use Item Tracking** check box.
-2.  Choose the **Serial No.** field, select the first serial number that exists in inventory for the item, and then choose the **OK** button.
+2. Choose the **Serial No.** field, select the first serial number that exists in inventory for the item, and then choose the **OK** button.
 
-    Proceed to copy the line for the first item-tracked item to insert additional lines corresponding to the number of serial numbers that are stored in inventory.
+    Copy the line for the first item-tracked item to insert additional lines corresponding to the number of serial numbers that are stored in inventory.
 
 3. Choose the **Functions** action, and then the **Copy Line** action.
 4. On the **Copy Phys. Invt. Rec. Line** page, enter 9 in the **No. of Copies** field, and then choose the **OK** button.
@@ -195,8 +197,8 @@ On the **Physical Inventory Order** page, the **Neg. Qty. (Base)** field will co
 
 The following types of documents are useful for managing your warehouse:
 
-- Use **Inventory receipts** to register positive adjustments of items based on the quality, quantity, and cost.
-- Use **Inventory shipments** to write off missing or damaged goods.
+* Use **Inventory receipts** to register positive adjustments of items based on the quality, quantity, and cost.
+* Use **Inventory shipments** to write off missing or damaged goods.
 
 You can print these documents at any stage, release and reopen them, and assign common values, including dimensions, in the header. If you want to reprint the documents after they have been posted, you can do that on the **Posted Inventory Receipt** and **Posted Inventory Shipment** pages.
 
@@ -209,10 +211,11 @@ The following procedure shows how to set up numbering for inventory documents.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.
 2. On the **Numbering** FastTab, specify in the following fields the series of numbers for documents:
-   - **Inventory Receipt Nos.**  
-   - **Posted Inventory Receipt Nos.**  
-   - **Inventory Shipment Nos.**  
-   - **Posted Inventory Shipment Nos.**  
+
+   * **Inventory Receipt Nos.**  
+   * **Posted Inventory Receipt Nos.**  
+   * **Inventory Shipment Nos.**  
+   * **Posted Inventory Shipment Nos.**  
 
 ### To create and post an inventory document
 
@@ -225,17 +228,19 @@ The following procedure shows how to create, print, and post an inventory receip
 
 The following functions are available on the **Inventory Receipt** page:
 
-- Choose the **Release** or **Reopen** actions to set the status for the next processing stage  
-- Choose the **Post** action to post the inventory receipt, or choose **Post and Print** to post the receipt and print the test report  
+* Choose the **Release** or **Reopen** actions to set the status for the next processing stage  
+* Choose the **Post** action to post the inventory receipt, or choose **Post and Print** to post the receipt and print the test report  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Printing Inventory Documents
 
 You can specify the reports that must be printed at different stages by choosing one of the following options in **Usage** field the **Report Selection - Inventory** page:
 
-- Inventory Receipt
-- Inventory Shipment
-- Posted Inventory Receipt
-- Posted Inventory Shipment
+* Inventory Receipt
+* Inventory Shipment
+* Posted Inventory Receipt
+* Posted Inventory Shipment
 
 > [!NOTE]
 > The available reports may vary based on your country's localization. The base application doesn't include any layouts.
@@ -247,7 +252,7 @@ You can specify the reports that must be printed at different stages by choosing
 [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)  
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

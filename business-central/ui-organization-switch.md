@@ -47,7 +47,7 @@ Using the company switcher is probably the quickest and most versatile way to sw
    :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Shows the company switcher icon in the heading of the Business Central client.":::  
 
    > [!TIP]
-   > You can also use the Crtl+O keyboard shortcut to open the pane.
+   > You can also use the <kbd>Crtl</kbd>+<kbd>O</kbd> keyboard shortcut to open the pane.
 2. In the **Available Companies** pane, select the company that you want to switch to, select the **Switch** arrow, then choose one of the following options:
 
    |Option|Description|
@@ -57,7 +57,7 @@ Using the company switcher is probably the quickest and most versatile way to sw
    |Open in new tab and go to same page|This option is only active on list pages, like customers, sales orders, or items. It opens the same list, but for the selected company, in a new browser tab. |
 
 > [!TIP]
-> Press F5 to refresh list of environments and companies.
+> Select <kbd>F5</kbd> to refresh list of environments and companies.
 
 ## Use the app launcher
 
@@ -82,7 +82,7 @@ When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], you can
 1. In the top-right corner, choose the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center"), and then choose the **My Settings** action.
 
     > [!TIP]
-    > You can also use the Alt+T keyboard shortcut to quickly open the My Settings page.
+    > You can also use the <kbd>Alt</kbd>+<kbd>T</kbd> keyboard shortcut to quickly open the My Settings page.
 
 2. On the **My Settings** page, in the **Company** field, select the company.  
 3. Choose the **OK** button.

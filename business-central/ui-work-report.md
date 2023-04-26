@@ -3,9 +3,6 @@ title: Run and Print Reports
 description: Learn to enter a report into a job queue and schedule it to be processed on a specific date and time.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.search.form:
 ms.date: 09/09/2022
@@ -65,10 +62,10 @@ In the preview, use the menu bar on the report preview to:
 - Resize to fit the page
 - Select text
 
-    You can copy text from a report, then paste it somewhere else, such as a page in [!INCLUDE[prod_short](includes/prod_short.md)] or Microsoft Word. Using a mouse, for example, you press the left mouse button and hold where you want to start. Slide the mouse to select one or more words, sentences, or paragraphs. Then press the right mouse button and select **Copy**. You can now paste the selected text where you want it.
+    You can copy text from a report, then paste it somewhere else, such as a page in [!INCLUDE[prod_short](includes/prod_short.md)] or Microsoft Word. Using a mouse, for example, you select the left mouse button and hold where you want to start. Slide the mouse to select one or more words, sentences, or paragraphs. Then select the right mouse button and select **Copy**. You can now paste the selected text where you want it.
 - Pan the document
 
-    You can move the visible area of the report in any direction to view other areas of the report. Panning is helpful when you've zoomed in to see details. Using your mouse, for example, press and hold the left mouse button anywhere in the report preview, and then move your mouse to select a section of the report.
+    You can move the visible area of the report in any direction to view other areas of the report. Panning is helpful when you've zoomed in to see details. Using your mouse, for example, select and hold the left mouse button anywhere in the report preview, and then move your mouse to select a section of the report.
 
 - Download to a PDF file on your computer or network.
 - Print
@@ -103,7 +100,7 @@ From the **Job Queue Entries** page, you can also change some report parameters,
 3. Choose the **Set On Hold** action.
 4. Open and edit the scheduled report by selecting its status (*On Hold*).
 
-After editing the report options, repeat the first two steps and than select the **Set Status to Ready** action to resume generating the report.
+After editing the report options, repeat the first two steps and then select the **Set Status to Ready** action to resume generating the report.
 
 Learn more about job queue management at [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
 
@@ -137,6 +134,12 @@ A report layout controls what is shown on a report, how it's arranged, and how i
 - To change the default layout used by a report, go to either the **Report Layouts** or **Report Layout Selection** pages.
 
 Learn more at [Set the Layout Used by a Report](ui-set-report-layout.md). Or, if you want to customize your own report layout, go to [Get Started Creating Layouts](ui-get-started-layouts.md).
+
+## Change language and format of numbers, dates, and times
+
+By default, the language of text and format of numbers, dates, and times in a report are based on your working language and region settings, which are defined on the **My Settings** page. You can, however, change the language and format region on a case-by-case basis when you preview, print, or send a report. On the request page, select **Advanced**, then set the **Language** and **Format region** options as you want.
+
+For more information about the **My Settings** page, go to [Change basic settings](ui-change-basic-settings.md#region).
 
 ## Advanced options
 

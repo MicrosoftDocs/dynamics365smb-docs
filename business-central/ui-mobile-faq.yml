@@ -38,7 +38,7 @@ sections:
           | Concept | On tablets | On phones | Example from the browser |
           |--|--|--|--|
           | Activity groups | Only the **Home** activity group is shown. | Only the **Home** activity group is shown. | **Home** and **Posted Documents** on the `Sales Order Processor` Role Center. |  |
-          | Selecting multiple records in lists | Not available. | Not available. | `Ctrl+A` or `Ctrl+Click` on rows in a list in the browser. |
+          | Selecting multiple records in lists | Not available. | Not available. | <kbd>Ctrl</kbd>+<kbd>A</kbd> or <kbd>Ctrl</kbd>+<kbd>Click</kbd> on rows in a list in the browser. |
           | Actions in the action bar | Only Promoted actions are shown. | Only Promoted actions are shown. |  |
           | FactBoxes | Not shown on List pages or Worksheet pages. | Not shown on List pages or Worksheet pages. | `Customer` list on the `Small Business` Role Center. |
           | Advanced filters | No column-specific filtering is available. | No column-specific filtering is available. | On the `Customer` list page. |

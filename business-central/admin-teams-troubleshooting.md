@@ -128,7 +128,7 @@ For more information on how languages work between Teams and [!INCLUDE [prod_sho
 
 ## I edited a field in the details window, but my change wasn't saved
 
-Changes you make to a field in the details windows are automatically saved when you leave the field. Before you close the window after changing a field, be sure to press the Tab key or click/tap outside the field.
+Changes you make to a field in the details windows are automatically saved when you leave the field. Before you close the window after changing a field, be sure to select the <kbd>Tab</kbd> key or click/tap outside the field.
 
 ## A new tile appeared in the App Launcher. How do I remove it?
 

@@ -48,7 +48,7 @@ The help articles display in the language you have specified in **My Settings**,
 
 ### Does Tell Me give me help on how to use pages, reports, and other things?
 
-No, but you can easily get this information from the Help pane. Just select the **Help** menu item (the question mark in the top-right corner) or press Ctrl+F1 on your keyboard. For more information, see [Help pane](product-help-and-support.md#help-pane).
+No, but you can easily get this information from the Help pane. Just select the **Help** menu item (the question mark in the top-right corner) or select <kbd>Ctrl</kbd>+<kbd>F1</kbd> on your keyboard. For more information, see [Help pane](product-help-and-support.md#help-pane).
 
 ### Why don't I see a bookmark icon for my search results?
 

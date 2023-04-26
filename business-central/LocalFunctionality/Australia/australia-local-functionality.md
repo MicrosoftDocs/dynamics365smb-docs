@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 03/17/2023
 ms.author: soalex
 
 ---
@@ -50,6 +50,12 @@ The following topics describe local functionality that is unique to the Australi
     * [Determine Sales Price by Cost Plus Percentage](how-to-determine-sales-price-by-cost-plus-percentage.md) **Available Now**
     * [Enter Australian Business Numbers](australian-business-numbers-and-adjustment-notes.md) **Available Now**
     * [Payment Times Reporting](payment-times-reporting.md) **Available Now**
+
+## Future legislation requirements being investigated
+
+* Taxable payments annual report (TPAR) **Under review**
+
+Currently, there are no upcoming regulatory features or requirements. If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See Also
 

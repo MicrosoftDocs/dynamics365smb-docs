@@ -23,16 +23,23 @@
 #### [Walkthrough: Making Cash Flow Forecasts by Using Financial Reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Walkthrough: Set Up and Use the Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
-### Contoso Coffee Demo Data for Manufacturing
+### Contoso Coffee Demo Data
 #### [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md)
-#### [Create a New Production BOM and BOM Version](contoso-coffee/create-new-production-bom-version.md)
-#### [Create a New Routing](contoso-coffee/create-new-routing.md)
-#### [Create a Firm Planned Production Order and Change It](contoso-coffee/create-firm-planned-production-order-change.md)
-#### [Combine Automatic and Manual Flushing](contoso-coffee/combine-automatic-manual-flushing.md)
-#### [Use Order Planning to Create and Reserve Supply](contoso-coffee/order-planning-create-reserve-supply.md)
-#### [Set up and Process a Subcontracting Operation](contoso-coffee/set-up-process-subcontracting-operation.md)
-#### [Set Up New Capacity](contoso-coffee/set-up-new-capacity.md)
-#### [Variants](contoso-coffee/variants.md)
+#### Manufacturing
+##### [Introduction to Contoso Coffee Manufacturing](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
+##### [Create a New Production BOM and BOM Version](contoso-coffee/manufacturing/create-new-production-bom-version.md)
+##### [Create a New Routing](contoso-coffee/manufacturing/create-new-routing.md)
+##### [Create a Firm Planned Production Order and Change It](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
+##### [Combine Automatic and Manual Flushing](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
+##### [Use Order Planning to Create and Reserve Supply](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
+##### [Set up and Process a Subcontracting Operation](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
+##### [Set Up New Capacity](contoso-coffee/manufacturing/set-up-new-capacity.md)
+##### [Variants](contoso-coffee/manufacturing/variants.md)
+#### Warehousing
+##### [Introduction to Contoso Coffee Warehouse](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
+##### [Walkthrough of inbound and outbound flow in Basic Warehouse Configurations](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
+##### [Walkthrough of inbound and outbound flow in mixed Warehouse Configurations](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
+##### [Walkthrough of inbound and outbound flow in Advanced Warehouse Configuration with Directed Put-away and Pick](contoso-coffee/warehousing/warehouse-directed-flow.md)
 
 ### Design Details
 #### [Application Design Details Overview](design-details-application-design.md)
@@ -72,17 +79,16 @@
 ##### [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)  
 ##### [Design Details: Planning Parameters](design-details-planning-parameters.md)  
 ##### [Design Details: Planning Assignment Table](design-details-planning-assignment-table.md)  
-##### [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md)  
 ##### [Design Details: Transfers in Planning](design-details-transfers-in-planning.md)
-#### Design Details: Warehouse Management
-##### [Warehouse Management Design Details](design-details-warehouse-management.md)
-##### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)  
-##### [Design Details: Warehouse Setup](design-details-warehouse-setup.md)  
-##### [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)  
-##### [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)  
-##### [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
-##### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  
-##### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
+<!-- #### Design Details: Warehouse Management
+<!-- ##### [Warehouse Management Design Details](design-details-warehouse-management.md) -->
+<!-- ##### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)   -->
+<!-- ##### [Design Details: Warehouse Setup](design-details-warehouse-setup.md)   deleted, use warehouse-setup-warehouse.md-->
+<!-- ##### [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)   -->
+<!-- ##### [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)   -->
+#### [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
+<!-- ##### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)   -->
+<!-- ##### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md) -->
 #### Design Details: Item Tracking
 ##### [Item Tracking Design Details](design-details-item-tracking.md)
 ##### [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  
@@ -107,6 +113,13 @@
 ### [Troubleshoot Self-Service Sign-Up](ui-troubleshoot-self-signup.md)
 ### [Extend Your Trial Version](admin-extend-trial.md)
 ### [Unsubscribe or Remove Business Central](admin-cancel.md)
+### AI-powered item marketing text with Copilot
+#### [Overview](ai-overview.md)
+#### [Get preview version](ai-preview-getstarted.md)
+#### [Configure AI-powered item marketing text](enable-ai.md)
+#### [Create AI-powered item marketing text](item-marketing-text.md)
+#### [FAQ](ai-faq.md)
+
 ## Buy
 ### [Get Started with a Subscription](trial-signup.md#get-started-with-a-subscription)
 ### [Get Ready for Doing Business](ui-get-ready-business.md)
@@ -152,7 +165,7 @@
 #### [Display Lists in Different Ways](across-display-lists-different-views.md)
 ### Run and Print Reports
 #### [Run and Print Reports](ui-work-report.md)
-#### [Set Up Printers](ui-specify-printer-selection-reports.md)
+#### [Specify a Default Printer](ui-specify-printer-selection-reports.md)
 #### [Schedule a Report to Run](ui-work-report.md#ScheduleReport)
 #### [Manage Saved Settings](reports-saving-reusing-settings.md)
 #### [View Test Reports Before Posting](ui-how-view-test-reports-posting.md)
@@ -332,6 +345,18 @@
 #### [Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md)
 
+### Manage VAT
+#### [VAT management overview](finance-manage-vat.md)
+#### Setup VAT
+##### [Set Up Value-Added Tax](finance-setup-vat.md)
+##### [Posting Group Setup](finance-posting-groups.md#tax-posting-groups)
+##### [Set Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)
+##### [Set Up a VAT Statement](finance-how-setup-vat-statement.md)
+#### [Work with VAT on Sales and Purchases](finance-work-with-vat.md)
+#### [Submit VAT Reports to Tax Authorities](finance-how-report-vat.md)
+#### [Managing VAT Rate changes](finance-how-use-vat-rate-change-tool.md)
+#### [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md)
+
 ### Invoicing Prepayments
 #### [Prepayments Overview](finance-invoice-prepayments.md)
 #### [Set Up Prepayments](finance-set-up-prepayments.md)
@@ -403,14 +428,19 @@
 ### Consolidate Financial Data from Multiple Companies
 #### [Company Consolidation](finance-consolidated-company-reporting.md)
 #### [Set Up Company Consolidation](finance-consolidated-company-reporting-setup.md)
+
+### Work with the chart of accounts and general ledger
+#### [Understand the General Ledger and Chart of Accounts](finance-general-ledger.md)
+#### [Review Accounts](finance-review-accounts.md)
+
 ### [Consolidate Balances for a Company that is a Customer and a Vendor](finance-consolidate-customer-vendor-balances.md)
-### [Understand the General Ledger and the COA](finance-general-ledger.md)
 ### [Work with Dimensions](finance-dimensions.md)
 ### [Troubleshoot and Correct Dimensions](finance-troubleshooting-correcting-dimensions.md)
 ### [Currencies in Business Central](finance-currencies.md)
 ### [Create G/L Budgets](finance-how-create-budgets.md)
 ### [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)
 ### [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)
+### [Audit file export](finance-how-to-export-audit-files.md)
 ### [Allocate Costs and Income](year-allocate-costs-income.md)
 ### [Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)
 ### [Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)
@@ -430,6 +460,7 @@
 ## Financial Business Intelligence and Reporting
 ### [Financial Business Intelligence and Reporting Overview](bi.md)
 ### [Financial Reports](finance-reports.md)
+### [Analyze Data with Statistical Accounts](bi-use-statistical-accounts.md)
 ### [Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
 ### [Prepare Financial Reporting with Financial Data and Account Categories](bi-how-work-account-schedule.md)
 ### [Set Up and Publish KPI Web Services Based on Financial Reports](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -472,7 +503,7 @@
 ### [Record Purchases](purchasing-how-record-purchases.md)
 ### [Request Quotes](purchasing-how-request-quotes.md)
 ### [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md)
-### [Post Purchases](ui-post-purchases.md)
+<!-- ### [Post Purchases](ui-post-purchases.md) -->
 ### [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 ### [Combine Receipts on a Single Invoice](purchasing-how-to-combine-receipts.md)
 ### [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)
@@ -493,7 +524,8 @@
 ### [Manage Product Variants](inventory-item-variants.md)  
 ### [Work with Item Attributes](inventory-how-work-item-attributes.md)
 ### [Work with Catalog Items](inventory-how-work-nonstock-items.md)
-### [Count and Adjust Inventory Use Documents](inventory-how-count-inventory-with-documents.md)
+### [Add Marketing Text for Items](item-marketing-text.md)
+### [Count and Adjust Inventory Using Documents](inventory-how-count-inventory-with-documents.md)
 ### [Count, Adjust, and Reclassify Inventory Use Journals](inventory-how-count-adjust-reclassify.md)
 ### [View the Availability of Items](inventory-how-availability-overview.md)
 ### [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
@@ -612,40 +644,47 @@
 ### [About Finished Production Order Costs](finance-about-finished-production-order-costs.md)
 
 ## Warehouse Management
-### [Warehouse Management](warehouse-manage-warehouse.md)
+### [Warehouse Management Overview](design-details-warehouse-management.md)
+<!-- ### [Warehouse Management](warehouse-manage-warehouse.md) -->
 ### [Inventory and Warehouse Reports](inventory-WMS-reports.md)
-### [Receive Items](warehouse-how-receive-items.md)
-### [Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
-### Put Items Away
-#### [Put Items Away](warehouse-put-away-items.md)
+
+### Inbound warehouse processes
+#### [Inbound Warehouse Processes](design-details-inbound-warehouse-flow.md)
+#### [Find Your Work Assignments](warehouse-how-to-find-your-warehouse-assignments.md) 
+#### [Receive Items](warehouse-how-receive-items.md)
+<!-- #### [Put Items Away](warehouse-put-away-items.md) -->
 #### [Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
 #### [Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)
-#### [Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md)
-#### [Plan Put-Aways in Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md)
-#### [Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
-### Move Items
-#### [Move Items](warehouse-move-items.md)
-#### [Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
-#### [Move Items in Advanced Warehouse Configurations](warehouse-how-to-move-items-in-advanced-warehousing.md)
-#### [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
-#### [Calculate Bin Replenishment](warehouse-how-to-calculate-bin-replenishment.md)
-#### [Plan Warehouse Movements in Worksheets](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)
-### Pick Items
-#### [Pick Items](warehouse-pick-items.md)
+<!-- #### [Plan Bulk Put-Aways Using Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md) -->
+#### [Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
+#### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
+#### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+
+### Outbound warehouse processes
+#### [Outbound Warehouse Processes](design-details-outbound-warehouse-flow.md)
+#### [Find Your Work Assignments](warehouse-how-to-find-your-warehouse-assignments.md)
 #### [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)
 #### [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)
-#### [Pick for Production, Assembly, or Jobs in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md)
-#### [Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
-#### [Plan Picks in Worksheets](warehouse-how-to-plan-picks-in-worksheets.md)
-#### [Pick and Put Away Without a Source Document](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
-#### [Pick By FEFO](warehouse-picking-by-fefo.md)
-#### [Split Warehouse Activity Lines](warehouse-how-to-split-warehouse-activity-lines.md)
+#### [Ship Items](warehouse-how-ship-items.md)
+#### [Cross-Dock Items](warehouse-how-to-cross-dock-items.md)
 #### [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-### [Ship Items](warehouse-how-ship-items.md)
-### [Find Your Warehouse Assignments](warehouse-how-to-find-your-warehouse-assignments.md)
-### [Use Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
-<!-- ### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
-<!-- ### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
+
+### Internal Warehouse Processes
+#### Production, Assembly, and Job Activities
+##### [Flows for Production, Assembly, and Jobs](design-details-internal-warehouse-flows.md)
+##### [Pick for Production, Assembly, or Jobs in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md)
+##### [Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
+##### [Put Away Production Output](warehouse-how-to-put-away-production-output.md)
+#### Move Items
+##### [Move Items](warehouse-move-items.md)
+##### [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md)
+##### [Move Items Internally in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
+##### [Move Items in Advanced Warehouse Configurations with Directed Pick and Put-away](warehouse-how-to-move-items-in-advanced-warehousing.md)
+
+#### Warehouse Counting
+##### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
+##### [Count and Adjust Inventory Using Documents](inventory-how-count-inventory-with-documents.md)
+##### [Count, adjust, and reclassify inventory](inventory-how-count-adjust-reclassify.md)
 
 ## Service Management
 ### [Service Management](service-service.md)
@@ -783,6 +822,7 @@
 ##### [Limit the Posting Period](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Set the Work Date as the Posting Date](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 ##### [Make Journal Templates Mandatory](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Deferrals in Sales and Purchase Ledger reports](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
 ### Canada
 #### [Local Functionality in the Canadian Version](LocalFunctionality/Canada/canada-local-functionality.md)
@@ -1439,6 +1479,7 @@
 ##### [Reporting Sales Tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Set Up and Use the IRS 1099 Form](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Regulatory 1099 Format Changes and Details](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
+##### [Set Up and Use the IRS 1096 Form](LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md)
 ##### [Set Up Use Tax and Purchase Tax](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Set Up Unrealized Sales Tax and Sales Payment Discounts](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Banking & Payments
@@ -1496,6 +1537,7 @@
 #### [Send Documents by Email](ui-how-send-documents-email.md)
 #### [Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)
 #### [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)
+#### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
 ### Set Up Purchasing
 #### [Set Up Purchasing](purchasing-setup-purchasing.md)
 #### [Register New Vendors](purchasing-how-register-new-vendors.md)
@@ -1504,6 +1546,7 @@
 #### [Set Up Purchasers](purchasing-how-setup-purchasers.md)
 #### [Set Up Prices and Discounts](across-prices-and-discounts.md)
 #### [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
 ### Set Up Inventory
 #### [Set Up Inventory](inventory-setup-inventory.md)
 #### [Set Up General Inventory Information](inventory-how-setup-general.md)
@@ -1516,6 +1559,7 @@
 #### [Set Up Stockkeeping Units](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Categorize Items](inventory-how-categorize-items.md)
 #### [Import Multiple Item Pictures](inventory-how-import-item-pictures.md)
+#### [Configure AI-powered item marketing text with Copilot](enable-ai.md)
 ### Set Up Project Management
 #### [Set Up Projects](projects-setup-projects.md)
 #### [Set Up Resources](projects-how-setup-resources.md)
@@ -1531,7 +1575,7 @@
 #### [Set Up Fixed Asset Maintenance](fa-how-setup-maintenance.md)
 ### Set Up Warehouse Management
 #### [Set Up Warehouses](warehouse-setup-warehouse.md)
-#### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)
+#### [Warehouse Management Overview](design-details-warehouse-management.md)
 #### [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md)
 #### [Create Bins](warehouse-how-to-create-individual-bins.md)
 #### [Create Bin Contents](warehouse-how-to-set-up-bin-contents.md)
@@ -1544,7 +1588,7 @@
 #### [Set Up Items and Locations for Directed Put-away and Pick](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
 #### [Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
 #### [Enable Picking by FEFO](warehouse-picking-by-fefo.md)
-#### [Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
+<!-- #### [Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md) -->
 #### [Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)
 ### Set Up Manufacturing
 #### [Set Up Manufacturing](production-configure-production-processes.md)
@@ -1587,6 +1631,7 @@
 ##### [Get the Business Central Add-in for Outlook](admin-outlook.md)
 ##### [Use Business Central as Your Business Inbox in Outlook](work-outlook-addin.md)
 ##### [Synchronize with Contacts in Outlook](admin-synchronize-outlook-contacts.md)
+###### [Set up contact sync for on-premises](admin-contact-sync-setup-onprem.md)
 ##### [Optimize Outlook](admin-outlook-optimize.md)
 ##### [Use Business Central without Outlook](admin-no-outlook.md)
 ##### [FAQ](ui-outlook-addin-faq.yml)
@@ -1608,11 +1653,13 @@
 #### Use Business Central as Your Business Inbox in Outlook 
 ##### [Overview](admin-outlook.md)
 ##### [Synchronize with Contacts in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+###### [Set up contact sync for on-premises](admin-contact-sync-setup-onprem.md)
 ##### [Use Business Central Without Outlook](admin-no-outlook.md)
 #### Use Microsoft Teams with Business Central
 ##### [Overview](across-teams-overview.md)
 ##### [Manage Teams Integration](admin-teams-integration.md)
 ##### [Install Business Central App for Teams](across-install-app-for-teams.md)
+##### [Access Data in Teams Without Business Central License](teams-access-with-m365-license.md)
 ##### [Search for Customers, Vendors, and Contacts](across-search-contacts-teams.md)
 ##### [Add Business Central Tab in Channel or Chat](across-teams-tab.md)
 ##### [Share Records and Page Links in Teams](across-working-with-teams.md)
@@ -1649,7 +1696,11 @@
 ### [Company Information](admin-company-information.md)
 ### [Create Number Series](ui-create-number-series.md)
 ### [Set Up Base Calendars](across-how-to-assign-base-calendars.md)
-### [Set Up Printers](ui-specify-printer-selection-reports.md)
+### Set Up Printers
+#### [Overview](admin-printer-setup-overview.md)
+#### [Universal Print Printers](admin-printer-setup-universal-print.md)
+#### [Email Printers](admin-printer-setup-email.md)
+#### [Specify a Default Printer](ui-specify-printer-selection-reports.md)
 ### [Set Up Online Maps](across-online-maps-setup.md)
 ### [Get Business Central on Your Mobile Device](install-mobile-app.md)
 ### [Get Business Central on Your Desktop](install-desktop-app.md)
@@ -1689,7 +1740,7 @@
 
 ### Purchasing
 #### [Purchasing Reports](purchase-reports.md)
-#### [View Purchasing Ledger Entries](ui-post-purchases.md#viewing-ledger-entries)
+#### [View Purchasing Ledger Entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
 ### Inventory and Warehouse
 #### [Inventory and Warehouse Reports](inventory-wms-reports.md)
@@ -1733,6 +1784,7 @@
 ### [Searching and Filtering FAQ](ui-search-filter-faq.yml)
 ### [Analyzing Page Data in Excel](across-work-with-excel.md)
 ### [Analyzing Report Data with Excel](report-analyze-excel.md)
+### [Analyzing List Data with Analysis Mode](analysis-mode.md)
 ### [Financial Business Intelligence](bi.md)
 
 ## Built-in Analytics 
@@ -1787,32 +1839,37 @@
 ## [Get started with development and administration documentation](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
 ## Administration Tasks in Business Central
 ### [Administration Tasks](admin-setup-and-administration.md)
-### [Create Users According to Licenses](ui-how-users-permissions.md)
-### [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)
-### Access with Microsoft 365 Licenses
-#### [Overview](admin-access-with-m365-license.md)
-#### [Set Up Access with Microsoft 365 Licenses](admin-access-with-m365-license-setup.md)
-#### [User Access Flow](admin-access-with-m365-license-flow.md)
-#### [FAQ](admin-access-with-m365-license-faq.md)
-#### [Troubleshoot](admin-access-with-m365-license-troubleshooting.md) 
-### [Manage Profiles](admin-users-profiles-roles.md)
-### [Manage User Settings and Preferences](admin-manage-user-settings-preferences.md)
+### Manage Access to Business Central
+#### [Overview](admin-access-overview.md)
+#### Access with Microsoft 365 Licenses
+##### [Overview](admin-access-with-m365-license.md)
+##### [Set Up Access with Microsoft 365 Licenses](admin-access-with-m365-license-setup.md)
+##### [User Access Flow](admin-access-with-m365-license-flow.md)
+##### [FAQ](admin-access-with-m365-license-faq.md)
+##### [Troubleshoot](admin-access-with-m365-license-troubleshooting.md) 
+#### Grant User Permissions
+##### [Create Users According to Licenses](ui-how-users-permissions.md)
+##### [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)
+### Manage User Settings
+#### [Manage Profiles](admin-users-profiles-roles.md)
+#### [Manage User Settings and Preferences](admin-manage-user-settings-preferences.md)
+### Control Your Data
+#### [Classify Data Sensitivity](admin-classifying-data-sensitivity.md)
+#### [Respond to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)
+#### [Log Changes](across-log-changes.md)
+#### [Manage Storage by Compressing Data or Deleting Documents](admin-manage-documents.md)
+#### [Archive Data](admin-archive-data.md)
+#### [Define Data Retention Policies](admin-data-retention-policies.md)
+#### [Manage Data Encryption](admin-manage-data-encryption.md)
+#### [View Database Locks](admin-view-database-locks.md)
 ### [Set Up Printers](ui-specify-printer-selection-reports.md)
-### [Classify Data Sensitivity](admin-classifying-data-sensitivity.md)
 ### [Privacy Notices Status](privacy-notices-status.md)
-### [Respond to Requests About Personal Data](admin-responding-to-requests-about-personal-data.md)
 ### [Create New Companies](about-new-company.md)
-### [Log Changes](across-log-changes.md)
 ### [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md)
-### [Manage Storage by Compressing Data or Deleting Documents](admin-manage-documents.md)
-### [Archive Data](admin-archive-data.md)
-### [Define Data Retention Policies](admin-data-retention-policies.md)
 ### [Publish a Web Service](across-how-publish-web-service.md)
 ### [Configure API Templates](admin-configuring-api-template.md)
-### [Manage Data Encryption](admin-manage-data-encryption.md)
 ### [Extend Your Trial Version](admin-extend-trial.md)
 ### [Inspect Pages](across-inspect-page.md)
-### [View Database Locks](admin-view-database-locks.md)
 ### [View Table Information](admin-view-table-information.md)
 ### [Enable New Features Ahead of Time](admin-feature-management.md)
 ### [Onboard Users with Checklists](admin-checklist.md)
@@ -1862,6 +1919,9 @@
 ### [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshoot Synchronization Errors](admin-troubleshoot-sales-synchronization.md)
 ### [Use a Power Automate Flow for Alerts to Dataverse Entity Changes](admin-power-automate-flow-dataverse.md)
+## Synchronize Master Data Across Companies
+### [Get Ready to Synchronize Master Data](admin-set-up-data-sync.md)
+### [Manage Master Data Synchronization](admin-sync-master-data.md)
 ## Design Details
 ### [Application Design Details Overview](design-details-application-design.md)
 ### Design Details: Supply Planning
@@ -1897,15 +1957,15 @@
 #### [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
 #### [Design Details: Inventory Valuation](design-details-inventory-valuation.md)  
 #### [Design Details: Revaluation](design-details-revaluation.md)
-### Design Details: Warehouse Management
-#### [Warehouse Management Overview](design-details-warehouse-management.md)
-#### [Design Details: Warehouse Overview](design-details-warehouse-overview.md)  
-#### [Design Details: Warehouse Setup](design-details-warehouse-setup.md)  
-#### [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)  
-#### [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md)  
-#### [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
-#### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  
-#### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)
+<!-- ### Design Details: Warehouse Management -->
+<!-- #### [Warehouse Management Overview](design-details-warehouse-management.md) -->
+<!-- #### [Design Details: Warehouse Overview](design-details-warehouse-overview.md) -->  
+<!-- #### [Design Details: Warehouse Setup](design-details-warehouse-setup.md)   deleted, use warehouse-setup-warehouse.md -->
+<!-- #### [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md)  -->
+<!-- #### [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md) --> 
+### [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)  
+<!-- #### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  -->
+<!-- #### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)-->
 ### Design Details: Item Tracking
 #### [Item Tracking Overview](design-details-item-tracking.md)
 #### [Design Details: Item Tracking Design](design-details-item-tracking-design.md)  

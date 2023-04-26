@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.search.form: 201,206, 207, 271, 493
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 
 ---
@@ -32,6 +32,8 @@ You assign resources to jobs by creating job planning lines for the job. For mor
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.
 2. Open a relevant job journal batch, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. When the journal is complete, choose the **Post** action.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## To adjust resource prices
 

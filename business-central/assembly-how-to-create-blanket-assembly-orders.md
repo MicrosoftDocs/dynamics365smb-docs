@@ -44,7 +44,7 @@ The linked blanket assembly order and any customizations are linked to that new 
 [Assembly Management](assembly-assemble-items.md)  
 [Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Design Details: Warehouse Management](design-details-warehouse-management.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

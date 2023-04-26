@@ -50,11 +50,11 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
 ## Story  
  The customer, Cannon Group PLC, orders five touring bikes for shipment on 02-05-2021 (February 5).  
 
- Eduardo, the production planner, performs the routine supply planning for the first week of February 2021. He filters on his own location, EAST, and enters a planning interval of the work date (01-23-2021) to 02-07-2021 before he calculates an initial supply plan.  
+ Eduardo, the production planner, performs the routine supply planning for the first week of February 2021. Eduardo filters on their own location, EAST, and enters a planning interval of the work date (01-23-2021) to 02-07-2021 before calculating an initial supply plan.  
 
- The only demand that week is for the Cannon Group sales order. Eduardo sees that none of the planning lines have warnings, and he proceeds to create supply orders without changes for the suggested planning lines.  
+ The only demand that week is for the Cannon Group sales order. Eduardo sees that none of the planning lines have warnings, and proceeds to create supply orders without changes for the suggested planning lines.  
 
- The next day, before any of the initial supply orders are started or posted, Eduardo is notified that another customer has ordered ten touring bikes for shipment on 02-12-2021. He recalculates to adjust the supply plan according to the change of demand. The recalculation gives you a net change plan that suggests changes to both time and quantity of some of the supply orders created in the first run.  
+ The next day, before any of the initial supply orders are started or posted, Eduardo is notified that another customer has ordered ten touring bikes for shipment on 02-12-2021. Eduardo recalculates to adjust the supply plan according to the change of demand. The recalculation gives you a net change plan that suggests changes to both time and quantity of some of the supply orders created in the first run.  
 
  During the various planning steps, Eduardo looks up the involved orders, and uses the Order Tracking feature to see which demand is covered by which supply.  
 
@@ -83,7 +83,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
  This completes the preparation of sample data for the walkthrough.  
 
 ## Creating a Regenerative Supply Plan  
- In reaction to a new sales order for five touring bikes, Ricardo begins the planning process by setting options, filters, and planning interval to exclude all other demand except that of the first week of February at location EAST. He begins by calculating a master production schedule (MPS), and then proceeds to calculate a complete supply plan for all lower-level demand (MRP).  
+ In reaction to a new sales order for five touring bikes, Ricardo begins the planning process by setting options, filters, and planning interval to exclude all other demand except that of the first week of February at location EAST. Ricardo begins by calculating a master production schedule (MPS), and then proceeds to calculate a complete supply plan for all lower-level demand (MRP).  
 
 ### To create the sales order  
 
@@ -201,7 +201,7 @@ Phrases like "run planning" and "run MRP" refer to the calculation of the master
  This completes the initial calculation, analysis, and creation of a supply plan for demand at location EAST in the first week of February. In the following section, another customer orders ten touring bikes, and Eduardo must replan.  
 
 ## Creating a Net Change Plan  
- The next day, before any supply orders are started or posted, a new sales order arrives from Libros S.A. for ten touring bikes to be shipped on 02-12-2021. Eduardo is notified of the new demand, and he proceeds to replan in order to adjust the current supply plan. Eduardo uses the Net Change Plan function to calculate only the changes that are made to demand or supply since the last planning run. In addition, he expands the planning period to 02-14-2021 to include the new sales demand on 02-12-2014.  
+ The next day, before any supply orders are started or posted, a new sales order arrives from Libros S.A. for ten touring bikes to be shipped on 02-12-2021. Eduardo is notified of the new demand, and proceeds to replan in order to adjust the current supply plan. Eduardo uses the Net Change Plan function to calculate only the changes that are made to demand or supply since the last planning run. In addition, Eduardo expands the planning period to 02-14-2021 to include the new sales demand on 02-12-2014.  
 
  The planning system calculates the best way to cover the demand for these two identical products, such as to consolidate some purchase and production orders, reschedule other orders, and create new orders where it is required.  
 

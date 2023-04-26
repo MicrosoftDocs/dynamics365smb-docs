@@ -42,7 +42,7 @@ sections:
       - question: |
           How do I know whether I'm on a list type page?
         answer: |
-          Use page inspection. To open page inspection, press Ctrl+Alt+F1. Then, in the **Page** field, look for the word **List** in the parenthesis at the end.
+          Use page inspection. To open page inspection, select <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>. Then, in the **Page** field, look for the word **List** in the parenthesis at the end.
 
       - question: |
           Are views also available on other form factors?

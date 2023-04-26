@@ -1,23 +1,21 @@
 ---
     title: Payment Tolerance and Payment Discount Tolerance
-    description: You can set up payment tolerance to close an invoice when the payment does not fully cover the amount on the invoice.
+    description: This article explains how to set up payment tolerance to close an invoice when the payment doesn't fully cover the invoice amount.
     author: SorenGP
-
-    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.form: 118, 314, 395
-    ms.date: 10/29/2021
+    ms.date: 04/03/2023
     ms.author: edupont
 
 ---
 # Work with Payment Tolerances and Payment Discount Tolerances
 
-You can set up a payment tolerance to close an invoice when the payment does not fully cover the amount on the invoice. For example, payment tolerances are typically for small amounts that would cost more to correct than to just accept. You can set up a payment discount tolerance to grant a payment discount after the payment discount date has passed.  
+You can set up a payment tolerance to close an invoice when the payment doesn't fully cover the amount on the invoice. For example, payment tolerances are typically for small amounts that would cost more to correct than to just accept. You can set up a payment discount tolerance to grant a payment discount after the payment discount date has passed.  
 
-You can use payment tolerances so that every outstanding amount has a set maximum allowed payment tolerance. If the payment tolerance is met, then the payment amount is analyzed. If the payment amount is an underpayment, then the outstanding amount is fully closed by the underpayment. A detailed ledger entry is posted to the payment entry so that no remaining amount is left on the applied invoice entry. If the payment amount is an overpayment, then a new detailed ledger entry is posted to the payment entry so that no remaining amount is left on the payment entry.
+Use payment tolerances so that every outstanding amount has a set maximum allowed payment tolerance. If the payment tolerance is met, the payment amount is analyzed. If the payment amount is an underpayment, then the outstanding amount is fully closed by the underpayment. A detailed ledger entry is posted to the payment entry so that no remaining amount is left on the applied invoice entry. If the payment amount is an overpayment, then a new detailed ledger entry is posted to the payment entry so that no remaining amount is left on the payment entry.
 
 You can use payment discount tolerances so that if you accept a payment discount after the payment discount date, then it's always posted to either the payment discount account or a payment tolerance account.
 
@@ -69,6 +67,9 @@ To set up tolerance you have to set up various tolerance accounts, specify both 
 > To deactivate tolerance for a customer or vendor, block tolerances on the relevant customer or vendor card. For more information, see [To block payment tolerance for customers](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
 > When you set up tolerance, [!INCLUDE[prod_short](includes/prod_short.md)] also checks if there are any open entries and calculates the tolerance for these entries.
+
+> [!IMPORTANT]  
+> When you enable the **Adjust for Payment Discount** field on the **VAT Posting Setup** page, the VAT amount is considered as it relates to the **Payment Tolerances** and **Payment Discounts** amounts, and VAT will be reduced for both of transaction amounts if they exist. The system can't be configured to use VAT reducing only for one type of transaction.  
 
 ## To enable or disable payment tolerance warnings
 

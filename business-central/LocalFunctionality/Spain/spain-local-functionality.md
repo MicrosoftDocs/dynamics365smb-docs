@@ -66,6 +66,14 @@ The following topics describe local functionality unique to the Spanish version 
   * [Enter NACE Codes](how-to-enter-nace-codes.md) **Available Now**
   * [Set Limits for Due Dates](how-to-set-limits-for-due-dates.md) **Available Now**
 
+## Future legislation requirements being investigated
+
+* Filter **No Taxable entries** based on an **Open** or **Closed** status of the entry **May 2023**
+* Non-deductible VAT **July 2023**
+* Requirements for Spanish e-invoicing **July 2024**
+
+If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
 ## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

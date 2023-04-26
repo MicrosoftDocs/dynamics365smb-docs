@@ -34,6 +34,7 @@ If you purchase the same item from more than one vendor, you can connect those v
 The following procedure explains how to create an item card from scratch. You can also create new item cards by copying existing ones. For more information, see [Copy Existing Items to Create New Items](inventory-how-copy-items.md).  
 
 <br />
+
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## To create a new item card
@@ -109,7 +110,7 @@ If you've posted a transaction for an item, you can't delete the card because th
 
 When you register a new item, you'll see fields that are related to warehouse management, especially on the **Warehouse** FastTab. If your organization doesn't use the warehouse management capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], then you can ignore those fields.  
 
-If your organization later sets up warehouse management, we recommend that you make sure that each existing item has the right information in the various fields. This way, the warehouse processes can run as expected. The information can includes fields such as **Warehouse Class Code** or **Put-away Template Code**. For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).  
+If your organization later sets up warehouse management, we recommend that you make sure that each existing item has the right information in the various fields. This way, the warehouse processes can run as expected. The information can includes fields such as **Warehouse Class Code** or **Put-away Template Code**. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
 
 ## Planning
 

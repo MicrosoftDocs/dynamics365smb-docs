@@ -127,6 +127,20 @@ A successful submission of the VAT Return will result in a status of *Accepted* 
 2. On the **VAT Return Periods** page, choose the relevant VAT return period.
 3. On the **VAT Return Period Card** page, choose the **Receive Submitted VAT Returns** action.
 
+### VAT Return Statuses
+
+Dependding on where they are in the process, VAT returns can have one of the following statuses:
+
+| Status | Description |
+|------------|-------------------------|
+| Open | When you create a new **VAT Return**. This status lets you run the **Suggest Lines** action. If you need to correct values, run the **Suggest Lines** action again. You can't submit a **VAT Return** with this status. |
+| Released | Status will be changed when you manually run the **Release** action. The **Errors and Warnings** FastTab is available. You can't make changes or run the **Suggest Lines** action. To make changes, you must reopen this **VAT Return**. |
+| Rejected | If your submission was not successful (for example, if authentication failed), the **VAT Return** status will be changed to **Rejected**. You Can't reopen the **VAT Return** from this status. |
+| Submitted | **VAT Return** is submitted using the **Submit** action or it is marked as submitted using the **Mark as Submitted** action. |
+| Accepted | **VAT Return** will get this status if the report is marked with the **Mark as Accepted** action. The **Accepted** status can be assigned automatically after user sends the VAT Return to the tax authority (Business Central calls the **Get VAT Returns** method and checks whether the VAT return is in the response). If the **VAT Return** report is marked as **Accepted**, you can run the **Calculate and Post VAT Settlement** action. |
+| Partially Accepted | Business Central can assign the **Partially Accepted** status related to GovTalk information that was collected using the **Get VAT Returns** method.
+| Closed | When request called Get VAT obligations check whether the obligation for which the user created the VAT return is closed. Business Central automatically marks the **VAT Return** as **Closed**. |
+
 ## VAT liabilities and payments
 
 If you want to check the status of your VAT, you can retrieve information from HMRC about your VAT liabilities and payments. VAT liabilities are the amounts that you owed to HMRC, and show if there are outstanding amounts to be paid. VAT payments are the actual payments your company has made to HMRC.

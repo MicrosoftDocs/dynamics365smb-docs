@@ -28,7 +28,10 @@ You can use the following built-in reports:
 
     The VAT Return report includes VAT for sales and purchases to customers and from vendors in all countries that use VAT.  
 
-In both cases, VAT is calculated based on the VAT posting setup and the VAT posting groups that you have set up. [!INCLUDE[prod_short](includes/prod_short.md)] shows VAT entries based on their **VAT Date**.
+In both cases (as in other VAT-related reports), VAT is calculated based on the VAT posting setup and the VAT posting groups that you have set up. [!INCLUDE[prod_short](includes/prod_short.md)] shows VAT entries always based on their **VAT Date** as a primary reporting date.  
+
+> [!NOTE]
+> All VAT related reports now run using the **VAT Date** to filter relevant records. Even if you set up **VAT Date Usage** as **Do not use VAT Date functionallity** [!INCLUDE[prod_short](includes/prod_short.md)] will hide all instances of the **VAT Date** across the application. However, the **VAT Date** is still used in all reportings and is auto-populated with the **Posting Date**.
 
 If you want to view a complete history of VAT entries, every posting that involves VAT creates an entry on the **VAT Entries** page. These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period. To view VAT entries, choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Entries**, and then choose the related link.
 
@@ -104,7 +107,20 @@ Now, when the time has come to submit a VAT report for a VAT return period, choo
 
 After you submit the report, [!INCLUDE[prod_short](includes/prod_short.md)] monitors the service and keeps a record of your communications. The **Status** field indicates where the report is in the process. For example, when the authorities process your report, the status of the report changes to **Succeeded**. If the tax authority found mistakes in the report you submitted, the status of the report will be **Failed**. You can view the errors under **Errors and Warnings**, correct them, and then submit the report again. To view a list of all your EC Sales List reports, go to the **EC Sales List Reports** page.  
 
+### VAT return statuses
+
+VAT returns can have different statuses, as described in the following table.
+
+| Status | Description |
+|------------|-------------------------|
+| Open | When you create a new VAT return. You can run the **Suggest Lines** action. If you need to correct values, you can run the **Suggest Lines** action again. You can't submit a VAT return that has this status. |
+| Released | Status will be changed when you use the **Release** action. [!INCLUDE[prod_short](includes/prod_short.md)] will show the **Errors and Warnings** FastTab. You can't make changes or use the **Suggest Lines** action. To make changes, you must reopen the VAT return. |
+| Rejected | If your submission was not successful (for example, if authentication failed), the status will change to **Rejected**. You can't reopen a VAT Return that has this status. |
+| Submitted | The VAT return is submitted using the **Submit** action, or it's marked as submitted by using the **Mark as Submitted** action. |
+| Accepted | The VAT return has this status if the report is marked as acceptec by using the **Mark as Accepted** action. If the **VAT Return** report is marked as **Accepted**, you can run the **Calculate and Post VAT Settlement** action. |
+
 ## Viewing communications with your tax authority
+
 In some countries, you exchange messages with the tax authority when you submit reports. You can view the first and the last message you sent or received by choosing the **Download Submission Message** and **Download Response Message** actions.  
 
 ## Submitting VAT reports manually

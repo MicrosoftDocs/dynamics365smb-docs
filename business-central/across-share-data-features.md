@@ -60,7 +60,7 @@ For more information, see [Viewing and Editing in Excel](across-work-with-excel.
 
 ![Supported](media/check.png) Business Central Online ![Supported](media/check.png) Business Central On-premises
 
-You can share one or more records in a list. Just press the Ctrl+C keyboard shortcut to copy to your clipboard. Then paste what you copied into another application by pressing Ctrl+V. For example, copying three sales orders and pasting that into an email will display the orders in a nicely formatted table.
+You can share one or more records in a list. Just select the <kbd>Ctrl</kbd>+<kbd>C</kbd> keyboard shortcut to copy to your clipboard. Then paste what you copied into another application by pressing <kbd>Ctrl</kbd>+<kbd>V</kbd>. For example, copying three sales orders and pasting that into an email will display the orders in a nicely formatted table.
 
 For more information, see [Copy and Paste FAQ](faq-copy-paste.yml).
 

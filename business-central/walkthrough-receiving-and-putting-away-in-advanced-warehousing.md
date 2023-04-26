@@ -17,16 +17,16 @@
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-In [!INCLUDE[prod_short](includes/prod_short.md)], the inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.  
+In [!INCLUDE[prod_short](includes/prod_short.md)], receiving and putting away occurs using one of four methods, as described in the following table.
 
-|Method|Inbound process|Bins|Receipts|Put-aways|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
-|------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
-|A|Post receipt and put-away from the order line|X|||2|  
-|B|Post receipt and put-away from an inventory put-away document|||X|3|  
-|C|Post receipt and put-away from a warehouse receipt document||X||4/5/6|  
-|D|Post receipt from a warehouse receipt document and post put-away from a warehouse put-away document||X|X|4/5/6|  
+|Method|Inbound Process|Require Receipts|Require Put-aways|Complexity Level (Learn more at [Warehouse Management Overview](design-details-warehouse-management.md))|  
+|------------|---------------------|--------------|----------------|------------|  
+|A|Post receipt and put-away from the order line|||No dedicated warehouse activity.|  
+|B|Post receipt and put-away from an inventory put-away document||Turned on|Basic: Order-by-order.|  
+|C|Post receipt and put-away from a warehouse receipt document|Turned on||Basic: Consolidated receive/ship posting for multiple orders.|  
+|D|Post receipt from a warehouse receipt document and post put-away from a warehouse put-away document|Turned on|Turned on|Advanced|  
 
-For more information, see [Design Details: Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md).  
+Learn more at [Inbound Warehouse Flow](design-details-inbound-warehouse-flow.md).
 
 The following walkthrough demonstrates method D in the previous table.  
 
@@ -64,7 +64,7 @@ To complete this walkthrough, you will need:
 
 ## Story
 
-Ellen, the warehouse manager at CRONUS, creates two purchase orders for accessory items from vendors 10000 and 20000 to be delivered to WHITE warehouse. When the deliveries arrive at the warehouse, Sammy, who is responsible for receiving items from vendors 10000 and 20000, uses a filter to create receipt lines for purchase orders arriving from the two vendors. Sammy posts the items as received into inventory in one warehouse receipt and makes the items available for sale or other demand. John, the warehouse worker, takes the items from the receiving bin and puts them away. He puts all units away in their default bins, except 40 out of 100 received hinges that he puts away in the assembly department by splitting the put-away line. When John registers the put-away, the bin contents are updated and the items are made available for picking from the warehouse.  
+Ellen, the warehouse manager at CRONUS, creates two purchase orders for accessory items from vendors 10000 and 20000 to be delivered to WHITE warehouse. When the deliveries arrive at the warehouse, Sammy, who is responsible for receiving items from vendors 10000 and 20000, uses a filter to create receipt lines for purchase orders arriving from the two vendors. Sammy posts the items as received into inventory in one warehouse receipt and makes the items available for sale or other demand. John, the warehouse worker, takes the items from the receiving bin and puts them away. John puts all units away in their default bins, except 40 out of 100 received hinges are put away in the assembly department by splitting the put-away line. When John registers the put-away, the bin contents are updated and the items are made available for picking from the warehouse.  
 
 ## Reviewing the WHITE Location Setup
 

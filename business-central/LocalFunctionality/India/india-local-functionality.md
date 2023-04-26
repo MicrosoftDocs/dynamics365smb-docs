@@ -54,7 +54,6 @@ The following topics describe the local functionality in the Indian version of [
     * [GST Application of Receipt and Invoice](GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md) **Available Now**
     * [GST Stock Transfer](GST-Stock-Transfer.md) **Available Now**
     * [GST Service Transfer](GST-Service-Transfer.md) **Available Now**
-    * [GST Kerala Flood Cess](GST-and-Kerala-Flood-Cess-on-Sales.md) **Available Now** 
     * [GST Bank Charges Overview](GST-Bank-Charges-Overview.md) **Available Now**
     * [GST Bank Charges Transaction](GST-Bank-Charges-Transaction.md) **Available Now**
     * [GST and TCS on Customer Advance](GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice.md) **Available Now**
@@ -123,6 +122,10 @@ The following topics describe the local functionality in the Indian version of [
 
 * Upgrade from an India Version of Dynamics NAV 2016 to the Latest Version of Business Central
     * [Business Central IN Data Migration Toolkit](/dynamics365/business-central/dev-itpro/upgrade/india-data-migration-toolkit-overview) **Available Now**
+
+## Future legislation requirements being investigated
+
+Currently, there are no upcoming regulatory features or requirements. If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See also
 

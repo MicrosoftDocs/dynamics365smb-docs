@@ -5,7 +5,7 @@ author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
-ms.date: 05/31/2022
+ms.date: 03/21/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -51,6 +51,17 @@ The following topics describe the local functionality in the Czech version of [!
 
 * Inventory
   * [Inventory](inventory.md) **Available Now**
+
+## Future legislation requirements being investigated
+
+* Activate VAT reporting date in CZ localization **2023 release wave 1**
+* Modern Intrastat solution for CZ **2023 release wave 1**
+* New Blanket purchase order report **2023 release wave 1**
+* Bulk release of documents **2023 release wave 1**
+* Find posted and non-posted document lines in search **2023 release wave 1**
+* Modern Action Bar in CZ localization apps **2023 release wave 1**
+
+If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See also
 

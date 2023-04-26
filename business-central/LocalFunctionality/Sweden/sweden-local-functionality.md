@@ -29,6 +29,15 @@ The following topics describe local functionality that is unique to the Swedish 
     * [Import and Export Data in Standard Import Export Format](how-to-import-and-export-data-in-standard-import-export-format.md) **Available Now**  
     * [Print Balance Sheet and Income Statement Reports](how-to-print-balance-sheet-and-income-statement-reports.md) **Available Now**  
 
+## Future legislation requirements being investigated
+
+* Moving Swedish localization to an app **May 2023**
+* SIE export/import as a part of the Audit file export app **May 2023**
+* Moving Automatic account code to a global app **May 2023**
+* Large companies to report payment times **2023 release wave 2**
+
+If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
 ## See Also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

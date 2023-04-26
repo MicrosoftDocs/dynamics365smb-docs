@@ -60,7 +60,7 @@ The following sections point to key articles that can help you get familiar with
   - [Production Planning](production-planning.md)
   - [Assembly Management](assembly-assemble-items.md)
   - [Manufacturing](production-manage-manufacturing.md)
-  - [Warehouse Management](warehouse-manage-warehouse.md)
+  - [Warehouse Management Overview](design-details-warehouse-management.md)  
   - [Service Management](service-service.md)
   - [General Business Functionality](ui-across-business-areas.md)
   - [Local Functionality](about-localization.md)

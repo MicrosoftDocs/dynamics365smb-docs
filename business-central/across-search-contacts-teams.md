@@ -78,7 +78,7 @@ The advantage of using the message compose box is that you can add a contact car
 
 1. Instead of using the **Business Central** icon, type **@Business Central** directly in the message compose box.
 2. Enter your search terms in the box.
-3. Use the up and down arrow keys on the keyboard to choose a contact, then press Enter to select it.
+3. Use the up and down arrow keys on the keyboard to choose a contact, then select <kbd>Enter</kbd> to select it.
 
 ## Viewing contact card details
 

@@ -16,19 +16,20 @@ ms.author: bholtorf
 ---
 # Personalize Your Workspace
 
-You can personalize your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. The personalization changes will only affect what *you* see, not what other users see.
+You can personalize your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalization affects only your workspace. It doesn't change how others work.
 
-You can personalize all types of pages, including the Role Center page. For more information about Role Centers, see [Role Center](ui-change-basic-settings.md#role-center).  
+You can personalize all types of pages, including the Role Center page. To learn more about Role Centers, go to [Role Center](ui-change-basic-settings.md#role-center).  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 You can make various changes, such as move or hide fields, columns, actions, and entire parts, and add new fields. Most personalization must be done by first activating the **Personalizing** banner. You can make simple adjustments, such as the column width, immediately on any list.
 
 > [!NOTE]
-> Administrators can perform the same layout changes as users can by customizing the workspace for a profile that multiple users are assigned. For more information, see [Customize Pages for Roles](ui-personalization-manage.md)<br /><br />
+> Administrators can make the same layout changes as users by customizing the workspace for a profile that multiple users are assigned. To learn more about pages for Roles, go to [Customize Pages for Roles](ui-personalization-manage.md)<br /><br />
 Administrators can also override or disable users' personalization, and they can define which features are even available for users to see in all or specific companies. For more information, see [Customizing Business Central](ui-customizing-overview.md).
 
-## Video Overview
+## Video
+
 The following video shows some of the ways in which you can personalize your Role Center.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
@@ -80,7 +81,7 @@ As for other personalization, the changes you make to column width are stored on
 
 Personalization lets you decide which actions to show on the navigation and action bars and on Role Centers, and where to show them. You can show, hide, or move individual actions or action groups.
 
-In 2022 release wave 2 we provided more ways for you to make Business Central your own. The following video shows how you can personalize actions on pages and Role Centers.
+The following video shows how you can personalize actions on pages and Role Centers.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
 
@@ -92,8 +93,8 @@ An *action group* is an element that expands to display other actions or groups.
 
 A *promoted category* is an action group that appears before the vertical line `|` on the action bar. The categories typically include the most commonly used actions, so that you can quickly find them. For example, on the **Sales Orders** page, the **Order**, **Release**, and  **Posting** actions are promoted categories.
 
-> [!NOTE]
-> You cannot personalize the action bar that appears in parts on the page (for example, the sales lines part on the **Sales Order** page).
+> [!NOTE]  
+> To clear personalization, select the arrowhead around the part's designer menu, and then choose **Clear personalization**.
 
 ### To remove, hide, and show actions and action groups
 
@@ -118,7 +119,7 @@ Where you can drop actions or actions groups is indicated by a horizontal line b
 1. To move an action or action group, drag and drop it to the desired position, like you do with fields and columns.
 2. To move an action or action group into another action group that is empty, drag the action or action group to the new group and drop it in the **Drop an action here** box.
 
-## <a name="Parts"></a>Personalizing Parts
+## <a name="Parts"></a>Personalizing parts
 
 Parts are areas on a page that are typically composed of multiple fields, charts or other content. A part shows a colored border when you focus on the part. For example, a Role Center home screen has multiple parts. Because of their well-defined boundary, you can personalize the entire part and its' contents.
 
@@ -129,6 +130,7 @@ Parts are areas on a page that are typically composed of multiple fields, charts
 You can clear all personalization changes that you have made within a single part by choosing the **Clear personalization** option under the part's arrowhead. Clearing personalization of a part only affects changes to the contents of the part, not the placement or visibility of the part on the page.  
 
 ## To clear personalization
+
 At some point, you might want to undo some or all of the personalization changes that you have made to a page over time.
 
 1. On the **Personalizing** banner, choose the **Clear personalization** action.
@@ -141,10 +143,10 @@ At some point, you might want to undo some or all of the personalization changes
 |------|------------
 |**Only Navigation Menu**|Clears any personalization changes that you have ever made to the navigation menu that is shared across the Role Center and other pages. Such changes include any new actions that were added as bookmarks, and any changes to links and groups in the menu.|  
 |**Only Actions**|Clears any personalization changes that you have ever made on the navigation or action bars on the page.|
-|**Only Fields, Columns, and Parts**|Clears any personalization changes that you have ever made to the page except changes on the navigation or action bar. Such changes include changes to fields, columns, parts, and tiles. |
+|**Only Fields and Columns**|Clears any personalization changes that you have ever made to the page except changes on the navigation or action bar. Such changes include changes to fields, columns, parts, and tiles. |
 |**All**|Clears all personalization changes that you have made to the page so it looks like it did originally. Such changes include changes to navigation and action bars, fields, columns, parts, and tiles.|
 
-## Other Points of Interest
+## Other points of interest
 
 To help you better understand personalization, here are some pointers.
 

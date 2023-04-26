@@ -56,6 +56,11 @@ The following articles describe local functionality that is unique to the French
     * [Accelerated Depreciation](accelerated-depreciation.md) **Available Now**
     * [Calculate Accelerated Depreciation](how-to-calculate-accelerated-depreciation.md) **Available Now**
 
+## Future legislation requirements being investigated
+
+* Electronic invoicing **2024 Wave 1**
+* Mandatory mentions on sales documents **2023 Wave 1**
+
 ## See Also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

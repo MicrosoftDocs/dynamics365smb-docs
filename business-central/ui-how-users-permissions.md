@@ -5,11 +5,13 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: access, right, security
 ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
-ms.date: 05/09/2022
+ms.date: 03/24/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
 # Create Users According to Licenses
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
 This article describes how administrators create users and define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)]. You'll also learn how to assign permissions to different users according to your product licenses.
 
@@ -35,11 +37,11 @@ For more information, see [Administration of Business Central Online](/dynamics3
 
 After user accounts are created in the Microsoft 365 admin center, there are two ways to import them to Business Central:
 
-- A user account is imported automatically when the user signs in to Business Central the first time.
+- A user account is imported automatically when the user signs in to [!INCLUDE [prod_short](includes/prod_short.md)] the first time.
 
 - The administrator can import users by choosing the **Update Users from Microsoft 365** action on the **Users* page.
 
-Both approaches have their own advantages, and you can use them simultaneously. Each approach allows administrators to proactively configure Business Central to assign the starting permissions, user groups, and user profiles. Using the **Update Users from Microsoft 365** action gives administrators more control to adjust permissions, user groups, and profiles. It's an ideal approach when you're setting up Business Central the first time, before any users sign in, or when adding a new team of users.
+Both approaches have their own advantages, and you can use them simultaneously. Each approach allows administrators to proactively configure [!INCLUDE [prod_short](includes/prod_short.md)] to assign the starting permissions, user groups, and user profiles. Using the **Update Users from Microsoft 365** action gives administrators more control to adjust permissions, user groups, and profiles. It's an ideal approach when you're setting up [!INCLUDE [prod_short](includes/prod_short.md)] the first time, before any users sign in, or when adding a new team of users.
 
 > [!NOTE]
 > After you add users in the Microsoft 365 Admin Center, we recommend that you update the user information in [!INCLUDE[prod_short](includes/prod_short.md)] as soon as possible. Keeping user information current is easy to do, and helps ensure that people can always sign in. For more information, see [To add users or update user information and license assignments in Business Central](#adduser).<br>
@@ -90,6 +92,12 @@ After you add users or change user information in the Microsoft 365 Admin Center
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.  
 3. Choose **Update Users from Microsoft 365**.
 
+> [!IMPORTANT]  
+> Running the synchronization of users from Microsoft 365 using the **Update Users from Microsoft 365** guide, requires the SUPER permission set.
+
+> [!NOTE]
+> The **Update Users from Microsoft 365** guide doesn't update users that are not assigned a license, such as someone who is Global Admin and Dynamics 365 Admin. Those users will update the next time they sign in to the environment.
+
 The next step for newly created users is to assign user groups and permissions. Go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md) for information. If you're updating a user, and the update includes a license change, users are assigned to the appropriate user group and their permission sets are updated. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).  
 
 > [!NOTE]
@@ -98,7 +106,7 @@ The next step for newly created users is to assign user groups and permissions. 
 For more information about synchronizing user information with Microsoft 365, go to the [Synchronization with Microsoft 365](#m365) section.
 
 > [!NOTE]
-> If you use an external accountant to manage your books and financial reporting, you can invite them to your Business Central so they can work with you on your fiscal data. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).
+> If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).
 
 ### To remove a user's access to the system
 
@@ -131,9 +139,9 @@ If you change user information in Microsoft 365, you can update [!INCLUDE[prod_s
 
 Users can access [!INCLUDE[prod_short](includes/prod_short.md)] records in Teams using only their Microsoft 365 license. When access is enabled for an environment, synchronizing using the **Update users from Microsoft 365** action won't include users that only have a Microsoft 365 license. To include these users in synchronization, you must first update environment settings by assigning a security group that contains users with a [!INCLUDE[prod_short](includes/prod_short.md)] license and users with only a Microsoft 365 license.
 
-Learn about securing access to environments using security groups at [Manage access using Azure Active Directory groups](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups). 
+Learn about securing access to environments using security groups at [Manage access using Azure Active Directory groups](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups).
 
-Get an overview of accessing Business Central in Teams with Microsoft 365 licenses at [admin-access-with-m365-license](admin-access-with-m365-license.md).
+Get an overview of accessing [!INCLUDE[prod_short](includes/prod_short.md)] in Teams with Microsoft 365 licenses at [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
 ## Manage users and licenses in on-premises deployments
 

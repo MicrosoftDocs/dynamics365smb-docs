@@ -25,6 +25,7 @@ The following topics describe local functionality that is unique to the United S
   * [Reporting Sales Tax in the US](us-sales-tax.md) **Available Now**  
   * [Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md) **Available Now**  
   * [Regulatory 1099 Format Changes and Details](tax-1099-changes.md) **Available Now**  
+  * [Set Up and Use the IRS 1096 Form](set-up-use-irs1096-form.md) **Available Now**
   * [Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md) **Available Now**  
   * [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Available Now**  
 
@@ -38,6 +39,12 @@ The following topics describe local functionality that is unique to the United S
 
 > [!NOTE]
 > If you have customers in Europe, please note that you cannot report VAT to European authorities in the US version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. You may want to work with a consultant to add the capability to your environment based on the specific countries that you ship to.  
+
+## Future legislation requirements being investigated
+
+* New IRS 1099 functionality in an app with more features included **2024 Wave 1**
+
+If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See also
 

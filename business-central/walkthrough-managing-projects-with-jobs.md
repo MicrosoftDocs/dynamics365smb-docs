@@ -72,9 +72,9 @@ This walkthrough introduces you to the project management features in jobs. Jobs
 
 ## Story
 
-This walkthrough focuses on CRONUS, a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of its work is project oriented. Prakash is a project manager at CRONUS. He uses jobs to give him an overview of each ongoing job that CRONUS has started, as well as the jobs that are completed. He is usually the one who sets up deals with customers and enters the core of the job, which is task and planning lines in addition to prices, into [!INCLUDE[prod_short](includes/prod_short.md)]. He finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[prod_short](includes/prod_short.md)] enables copying jobs and payment by installments.
+This walkthrough focuses on CRONUS, a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of its work is project oriented. Prakash, a project manager at CRONUS uses jobs to get an overview of each ongoing job that CRONUS has started, as well as the jobs that are completed. Prakash is usually the one who sets up deals with customers and enters the core of the job, which is task and planning lines in addition to prices, into [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[prod_short](includes/prod_short.md)] enables copying jobs and payment by installments.
 
- Tricia, a project team member who reports to Prakash, is responsible for monitoring the job day-to-day. She enters her own work in addition to the work performed by technicians on every task. She records the items that they have used and the costs that they have incurred.  
+ Tricia, a project team member who reports to Prakash, is responsible for monitoring the job day-to-day. Tricia enters her own work in addition to the work performed by technicians on every task, records the items that they have used, and the costs that they have incurred.  
 
 ## Preparing Sample Data
 
@@ -101,7 +101,7 @@ This walkthrough focuses on CRONUS, a design and consultancy firm that designs a
 
 6. Close the page.
 
-In the next procedure, you create a job journal batch for Tricia in order to post her usage.  
+In the next procedure, you create a job journal batch for Tricia in order to post their usage.  
 
 ### To create a Job Journal batch  
 
@@ -185,7 +185,7 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 - **Billable**: Invoiced, but not added to the schedule.  
 - **Both Budget and Billable**: Invoiced and added to the schedule.  
 
- In this walkthrough, the project manager uses **Both Budget and Billable**. He creates three planning lines for task 1010, and two planning lines for task 1020.  
+ In this walkthrough, the project manager uses **Both Budget and Billable**. They create three planning lines for task 1010, and two planning lines for task 1020.  
 
 ### To create planning lines  
 
@@ -211,7 +211,7 @@ In the next procedure, you create a job journal batch for Tricia in order to pos
 
 ## Calculating Remaining Usage
 
- Tricia, the team project member, has been working on the job for a while and wants to register her hours and usage on the job. She has not worked more hours than was agreed upon with the customer in advance. She uses the **Calculate Remaining Usage** batch job to calculate remaining usage for the job in a job journal. For each task, the batch job calculates the difference between scheduled usage of items, resources, and general ledger expenses and the actual usage posted in job ledger entries. The remaining usage is then displayed in the job journal from where she can post it.  
+ Tricia, the team project member, has been working on the job for a while and wants to register their hours and usage on the job. Tricia has not worked more hours than was agreed upon with the customer in advance. Tricia uses the **Calculate Remaining Usage** batch job to calculate remaining usage for the job in a job journal. For each task, the batch job calculates the difference between scheduled usage of items, resources, and general ledger expenses and the actual usage posted in job ledger entries. The remaining usage is then displayed in the job journal from where she can post it.  
 
 ### To calculate remaining usage  
 
@@ -229,7 +229,7 @@ The lines are now posted.
 
 ## Creating and Posting a Job Sales Invoice
 
- Next, Tricia can create a new invoice for the whole job or for part of a job. She can also attach the invoice to another invoice for the same customer for the same job. In this case, she invoices for the whole job, because the project is now completed.  
+ Next, Tricia can create a new invoice for the whole job or for part of a job. Tricia can also attach the invoice to another invoice for the same customer for the same job. In this case, Tricia invoices for the whole job, because the project is now completed.  
 
 ### To create a job sales invoice  
 
@@ -239,7 +239,7 @@ The lines are now posted.
 4.  On the **Options** FastTab, fill in the posting date and define whether you want to create one invoice per task or just a single invoice for all tasks.  
 5.  Choose the **OK** button to create the invoice and choose the **OK** button on the confirmation page.  
 
- After Tricia creates the invoice, she can access it from the **Sales Order Processor** Role Center, for example. 
+ After creating the invoice, Tricia can access it from the **Sales Order Processor** Role Center, for example. 
 
 ### To post a new sales invoice  
 
@@ -253,7 +253,7 @@ The lines are now posted.
 2.  Select any of the planning lines that have been invoiced, and then choose the **Sales Invoice/Credit Memo** action.
 3. On the **Job Invoices** page, choose the **Open Sales Invoice/Credit Memo** action.  
 
- Tricia has a question about the prices, costs, and profits that are relevant to this particular job, so she accesses that information on the **Statistics** page.  
+ Tricia has a question about the prices, costs, and profits that are relevant to this particular job, so Tricia accesses that information on the **Statistics** page.  
 
 ### To open the Statistics page  
 
@@ -263,7 +263,7 @@ The lines are now posted.
 
 ## Handling Fixed Prices
 
- CRONUS has been contracted to set up conference rooms. As the project manager, Prakash wants a good overview of the tasks required for the job with the associated budgeted and incurred costs for each task. In addition, he wants to know the total contracted price for the job and the amount that has been invoiced to this point. He has reached an agreement with the customer regarding fixed pricing for the job.  
+ CRONUS has been contracted to set up conference rooms. As the project manager, Prakash wants a good overview of the tasks required for the job with the associated budgeted and incurred costs for each task. In addition, Prakash wants to know the total contracted price for the job and the amount that has been invoiced to this point. They have reached an agreement with the customer regarding fixed pricing for the job.  
 
 ### To manage fixed pricing in jobs  
 
@@ -271,7 +271,7 @@ The lines are now posted.
 2. Select the **Guildford** job number, and then choose the **Jobs Task Lines** action.  
 3. Select line 1120, and in the **Budget (Total Cost)** field, right-click the amount and choose **DrillDown**.  
 
-     By reviewing the Job Planning lines, Prakash determines that he will also need Tricia for 30 hours for this stage of the project. He agrees on a fixed price with the customer.  
+     By reviewing the Job Planning lines, it is determined that Prakash will also need Tricia for 30 hours for this stage of the project. Prakash agrees on a fixed price with the customer.  
 
 4. On the **Job Task Lines** page, select line 1120, and then choose the **Job Planning Lines** action. Create a planning line with the following information:  
 
@@ -283,7 +283,7 @@ The lines are now posted.
 5. In the **Budget (Total Cost)** field, right-click the field, and choose **Drilldown** again on the **Job Task Lines** page. View the changes to the schedule. You see that 30 hours have been added to the schedule.  
 6. Close the pages.  
 
-After Tricia has been added to the schedule for this task line, she works 25 hours on the job. She enters these hours into the job journal.  
+After being added to the schedule for this task line, Tricia works 25 hours on the job, and enters these hours into the job journal.  
 
 ### To enter hours in the Job Journal  
 
@@ -301,7 +301,7 @@ After Tricia has been added to the schedule for this task line, she works 25 hou
 
 3. Choose the **Post** action.  
 
-     A few days later, Tricia works for another 10 hours on the job. She has now worked 35 hours in all. Because the agreement is for 30 hours with the customer, only five of these hours will be charged to the customer. Tricia will manually add the additional five hours she worked to the schedule.  
+     A few days later, Tricia works for another 10 hours on the job, and has now worked 35 hours in all. Because the agreement is for 30 hours with the customer, only five of these hours will be charged to the customer. Tricia will manually add the additional five hours worked to the schedule.  
 
 4. On the **Job Journal** page, choose the **Calc. Remaining Usage** action.  
 5. On the **Job Calc. Remaining Usage** page, on the **Options** FastTab, enter the following information:  
@@ -445,7 +445,7 @@ The following procedures show how to create a new job, set pricing, and then set
 
 11. Create a similar planning line entry for job task 4000.  
 
- Now that the task and planning lines have been entered, Prakash creates an invoice for the first payment. He does this from the job task lines to make sure that the invoice only contains the lines for the first payment. You can open the sales order from the planning lines or the task lines.  
+ Now that the task and planning lines have been entered, Prakash creates an invoice for the first payment. Prakash does this from the job task lines to make sure that the invoice only contains the lines for the first payment. You can open the sales order from the planning lines or the task lines.  
 
 ### To create an invoice  
 

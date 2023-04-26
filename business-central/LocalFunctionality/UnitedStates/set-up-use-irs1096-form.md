@@ -30,6 +30,12 @@ Form 1096 is an extension. After you install the extension in your environment y
 
 If you didn’t use the setup guide to configure **IRS 1096 Form No. Series**, you can do so on the **Purchases & Payables Setup** page. Fill in the **IRS 1096 Form No. Series** field on the **Number Series** FastTab.
 
+Complete the following steps to set up more required fields for reporting.
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then select the related link.   
+2. To specify the EIN number to show on the report, on the **Communication** FastTab in the **EIN Number** field, enter the number you registered with IRS.  
+3. To specify who will communicate with the IRS, in the **IRS Contact No.** field, select the employee responsible for this communication.  
+
 ## To create a new 1096 form
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **1096 Forms**, and then choose the related link.
@@ -85,7 +91,7 @@ The lines contain the following information. Amounts are summarized per **Vendor
 2. Open the form you want to print.
 3. If the status is **Open**, choose **Release** action to release the form and make it ready for printing.
 4. Choose **Print** actions to print the single form.
-5. Fill in the **Person to contact** details on the request page, and then choose **Print**.
+5. If you didn't add the **IRS Contact No.** in the **Company Information**, enter details about the **Person to contact**on the request page, and then select **Print**.
 6. After printing, the following fields at the **History** FastTab will be updated:
 
     * **Printed by** – Specifies the ID of the last user who printed the form.

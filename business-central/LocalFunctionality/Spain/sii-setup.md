@@ -1,6 +1,6 @@
 ---
 title: Set up SII for VAT reporting [ES]
-description: This article explains how to submit documents through SII in the Spanish version of Dynamics 365 Business Central.
+description: This article explains how to submit documents through SII in the Spanish version of Microsoft Dynamics 365 Business Central.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -18,13 +18,13 @@ ms.author: edupont
 
 ## Enable the SII module in the Spanish version of Business Central
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SII Setup**, and then choose the related link.  
+1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SII Setup**, and then select the related link.  
 2. On the **General** FastTab, select the **Enabled** field.  
 
    The **Enabled** field is automatically selected if you import a certificate in the **Certificate Code** field on the **Certificate** FastTab.  
 
-3. In the **Operation Date** field, specify if you want to use *Posting Date* or *Document Date* as the operation date in the XML file that is sent through SII to the tax authorities.  
-4. If you want to submit documents in batches, select the **Enable Batch Submission** field. If you use document batch submissions, you can submit documents in batches manually or automatically. With automatic batch submission, documents are transferred to the **SII History** page with a status of *Pending* when you post them and submitted in batches when the threshold value is met or exceeded. Learn more in the [Job batch submission thresholds](#job-batch-submission-thresholds) section.
+3. In the **Operation Date** field, specify whether you want to use the posting date or the document date as the operation date in the XML file that's sent to the tax authorities through SII.  
+4. If you want to submit documents in batches, select the **Enable Batch Submission** field. If you enable document batch submissions, you can submit documents in batches either manually or automatically. For automatic batch submission, documents are transferred to the **SII History** page in a status of *Pending* when you post them. Then, when the threshold value is met or exceeded, the documents are submitted in batches. Learn more in the [Job batch submission thresholds](#job-batch-submission-thresholds) section.
 
    If you don't enable batch submissions, each document is submitted when it's posted, and the result is shown on the **SII History** page.
    
@@ -41,7 +41,7 @@ If the threshold is set to zero (0), documents will be submitted when posted.
 
 If the threshold is set to one or more, documents are automatically submitted in batches. When the number of pending entries exceeds the threshold value, all pending entries are automatically submitted.  
 
-You can always manually submit documents with a *Pending* status by selecting **Retry** or **Retry All** on the **SII History** page.
+You can always manually submit documents that have a *Pending* status by selecting **Retry** or **Retry All** on the **SII History** page.
 
 ## Specify customers without a registered NIF with AEAT
 
@@ -51,29 +51,29 @@ If a customer's NIF number is not yet registered in the AEAT database, document 
 2. Choose the relevant customer to open the **Customer Card**.
 3. Select the **Not in AEAT** field.
 
-## Set VAT exemptionsgithu
+## Set VAT exemptions
 
 To indicate value-added tax (VAT) exemptions under the SII scheme you can either select an exemption code for a VAT clause on the **VAT Clauses** page, or you can create a new clause that corresponds to the exemption and choose the appropriate code in the **SII Exemption Code** field.
 
 >[!IMPORTANT]
 >The default values are provided to cover standard scenarios. Your business and type of business transactions and any customization you may have may require you to select a different value to meet the reporting requirements under SII.
 
-To enable reporting on **Non Taxable Due To Localization Rules** scenarios, set the appropriate **VAT Posting Setup Card** on the **VAT Posting Setup** page by selecting the option in the **No Taxable Type** field. To ensure that **VAT Posting Setup** works this way, the **VAT %** field must be equal to zero (0). 
+To enable reporting on **Non Taxable Due To Localization Rules** scenarios, set the appropriate **VAT Posting Setup Card** on the **VAT Posting Setup** page by selecting the option in the **No Taxable Type** field. To ensure that **VAT Posting Setup** works this way, the value of the **VAT %** field must equal **0** (zero). 
 
-When you post the document, and the VAT is configured with the active **No Taxable Type** field, this field together with the **VAT Entry** field will create a new **No Taxable Entry** with details about this tax exemption.  
+When you post the document, and the VAT is configured with the active **No Taxable Type** field, this field together with the **VAT Entry** field will create a new **No Taxable Entry** that has details about this tax exemption.
 
-### VAT reporting based on VAT exemption  
+### VAT reporting based on VAT exemption
 
-The **Calc. and Post VAT Settlement** report processes the **No Taxable Entries** similar to **VAT Entries**. You can post some documents with **No Taxable** selected for a certain period for three different no taxable **VAT Posting Setup** and run the report, **The Calc. and Post VAT Settlement**. The **No Taxable** section will be printed below the **VAT Entries** section in the report.  
+The **Calc. and Post VAT Settlement** report processes the **No Taxable Entries** in a similar way to **VAT Entries**. You can post some documents with **No Taxable** selected for a specific period for three different no taxable **VAT Posting Setup** and run the **The Calc. and Post VAT Settlement** report. The **No Taxable** section will be printed below the **VAT Entries** section on the report.
 
-If you decide to close some entries for **VAT Posting Setup**, the system automatically closes the **No Taxable Entries** connected with this **VAT Entry**. Running the **Calc. and Post VAT Settlement** report shows all other entries, but doesn't include closed entries for the same period.  
+If you decide to close some entries for **VAT Posting Setup**, the system automatically closes the **No Taxable Entries** that are connected with this **VAT Entry**. If you run the **Calc. and Post VAT Settlement** report, it shows all other entries but doesn't include closed entries for the same period.
 
->[!NOTE]
-> You can generate the **VAT Declaration** on the **VAT Statements** page. Select **Preview** on the **VAT Statements** page to see the result for the option, **Include VAT Entries** = **Open**. This option works for **No Taxable entries** as well. Printing the **VAT Statement** report also supports the **Include VAT Entries** option for the same values, **Open**, **Closed**, and **Open and Closed** both for **VAT Entries** and **No Taxable Entries**.
+> [!NOTE]
+> You can generate the **VAT Declaration** on the **VAT Statements** page. Select **Preview** on the **VAT Statements** page to view the result for the option **Include VAT Entries** = **Open**. This option also works for **No Taxable Entries**. Printing of the **VAT Statement** report also supports the **Include VAT Entries** option for the same values (**Open**, **Closed**, and **Open and Closed**) for both **VAT Entries** and **No Taxable Entries**.
 
 ## See also
 
 [SII - Invoice and Credit Memo Types in Sales and Purchase Documents](SII-invoice-types-sales-purchase-documents.md)  
-[Spain Local Functionality](spain-local-functionality.md)  
+[Spain Local Functionality](spain-local-functionality.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

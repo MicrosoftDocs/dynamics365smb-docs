@@ -21,17 +21,24 @@ You must have a valid account with [!INCLUDE[prod_short](includes/prod_short.md)
 
 ## Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power Apps
 
-1. In your browser, navigate to [powerapps.microsoft.com](https://powerapps.microsoft.com/), and then sign in.
-2. On the Home page, in the **Start from data** section, choose the **Other data sources** tile.  
+These steps add a Business Central table, like cusotmers or items, as the data source of a Power Apps app.
 
-    This step opens Power Apps Studio. On first sign-in, you must specify the country/region.  
-3. In the list of available connections, choose **Business Central**, and then choose the **Create** button.
+1. In your browser, go to [powerapps.microsoft.com](https://powerapps.microsoft.com/), and then sign in.
+2. In the navigation pane on the left side, select **+ Create**, and then select **More data sources** on the **Create app** page.
+  
+   <!-- This step opens Power Apps canavs. On first sign-in, you must specify the country/region.  -->
+3. The **Connections** the list will show any existing data connections you have.
 
-    Power Apps will connect to your [!INCLUDE[prod_short](includes/prod_short.md)] using the credentials that you're signed in with. If you aren't an administrator of your [!INCLUDE[prod_short](includes/prod_short.md)], you may have to sign in with another account.  
+   - If there's a **Business Central** connection already, select it, and then select **Create**.
 
-4. Power Apps will display a list of *Environments and companies* that are available from [!INCLUDE[prod_short](includes/prod_short.md)]. Choose the environment and company that contains the data you want to connect to, such as *PRODUCTION - My Company*.  
+   - If you don't see a Business Central connection, select **+ New connection**, search for and select **Business Central**, and then select **Create**.
 
-5. Next, you'll be presented with a list of tables that are exposed as part of the API for your environment. Select the table that you want to connect to, and then choose **Connect**.
+   > [!NOTE]
+   > If you want to connect to [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, then you must choose the **Business Central (on-premises)** connector in step 3.  
+  
+4. Power Apps will connect to your [!INCLUDE[prod_short](includes/prod_short.md)]. Sign in using the Business Central account name and password. If you aren't an administrator of your [!INCLUDE[prod_short](includes/prod_short.md)], you may have to sign in with another account.  
+5. Once you've signed in, Power Apps will display a list of *Environments and companies* that are available from [!INCLUDE[prod_short](includes/prod_short.md)]. Choose the environment and company that contains the data you want to connect to, such as *PRODUCTION - My Company*.  
+6. Next, you'll be presented with a list of tables that are exposed as part of the API for your environment. Select the table that you want to connect to, and then choose **Connect**.
 
 These so-called tables are exposed as endpoints by the [!INCLUDE[prod_short](includes/prod_short.md)] connector for Power Apps.  
 

@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 10740, 10751, 10752, 10753, 10770, 10771, 747, 473, 472
-ms.date: 07/12/2022
+ms.date: 05/01/2023
 ms.author: edupont
 
 ---
@@ -64,7 +64,7 @@ When you post the document, and the VAT is configured with the active **No Taxab
 
 ### VAT reporting based on VAT exemption
 
-The **Calc. and Post VAT Settlement** report processes the **No Taxable Entries** in a similar way to **VAT Entries**. You can post some documents with **No Taxable** selected for a specific period for three different no taxable **VAT Posting Setup** and run the **The Calc. and Post VAT Settlement** report. The **No Taxable** section will be printed below the **VAT Entries** section on the report.
+The **Calc. and Post VAT Settlement** report processes the **No Taxable Entries** in a similar way to **VAT Entries**. You can post some documents with **No Taxable** selected for a specific period for three different no taxable **VAT Posting Setup** entries and run the **The Calc. and Post VAT Settlement** report. The **No Taxable** section will be printed below the **VAT Entries** section on the report.
 
 If you decide to close some entries for **VAT Posting Setup**, the system automatically closes the **No Taxable Entries** that are connected with this **VAT Entry**. If you run the **Calc. and Post VAT Settlement** report, it shows all other entries but doesn't include closed entries for the same period.
 

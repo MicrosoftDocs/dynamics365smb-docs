@@ -1,27 +1,25 @@
 ---
 title: Application Compliance
-description: This topic explains application compliance in relation to Business Central, such as International Financial Reporting Standards, local functionality, and GDPR.
+description: This article explains how Business Central complies with international financial reporting standards, local functionality, and privacy laws and regulations.
 author: sorenfriisalexandersen
-documentationcenter: ''
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords:
-ms.date: 08/25/2022
 ms.author: soalex
-
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.date: 04/25/2023
+ms.custom: bap-template
 ---
+
 # Application Compliance
 
-This content contains information about application compliance in relation to [!INCLUDE[prod_short](../includes/prod_short.md)], such as International Financial Reporting Standards, local functionality, General Data Protection Regulation (GDPR), and more. Confidence in a business management solution is key to running an efficient business. With Business Central, companies are empowered to streamline business processes while consistently and cost-effectively complying with increasing regulation and reporting requirements.
+This article provides information about how [!INCLUDE [prod_short](../includes/prod_short.md)] empowers companies to streamline business processes while consistently and cost-effectively complying with increasing regulation and reporting requirements.
 
 ## Data privacy
 
-Business Central supports data privacy initiatives such as the GDPR that went into effect on May 25, 2018. Learn more about how [Business Central supports GDPR](../admin-responding-to-requests-about-personal-data.md).  
+[!INCLUDE [prod_short](../includes/prod_short.md)] supports data privacy laws and regulations. [Learn how to respond to data subject requests in Business Central](../admin-responding-to-requests-about-personal-data.md).
 
-If you're a developer for Business Central extensions you need to know about classifying data. Learn more on [this page](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
-If you want to find out more about GDPR from a broader Dynamics 365 perspective, please see [this list of whitepapers](/dynamics365/get-started/gdpr/).
+If you develop [!INCLUDE [prod_short](../includes/prod_short.md)] extensions, you need to know [how data is classified in Dynamics 365](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
+
+[Learn more about data privacy in Dynamics 365](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## Accounting processes and controls to aid compliance
 
@@ -37,7 +35,7 @@ Compliance depends not only on accurate information and appropriate accounting p
 
 ## Realize the benefits of an integrated business management solution
 
-Business Central delivers real-time, integrated operational and financial information from across your organization, so you can:
+[!INCLUDE [prod_short](../includes/prod_short.md)] delivers real-time, integrated operational and financial information from across your organization, so you can:
 
 - Track financial data using custom financial reports for cash flow, revenue, balance sheets, fixed assets, capital structure, key performance indicators, and more.
 - Help safeguard accuracy with role-based security and configurable application controls that prevent invalid or duplicate data entry.
@@ -46,7 +44,7 @@ Business Central delivers real-time, integrated operational and financial inform
 
 ## Gain control of critical information, processes, and reports
 
-Business Central improves control of key functions and information critical to the successful financial operation of your business.
+[!INCLUDE [prod_short](../includes/prod_short.md)] improves control of key functions and information critical to the successful financial operation of your business.
 
 ### Manage compliance to the standards that matter
 
@@ -91,7 +89,7 @@ Microsoft builds localized versions of Business Central for a limited number of 
 
 > [!NOTE]  
 > **IAS/IFRS: Recognition and Measurement Standards**  
-> Depending on the current local GAAPs, one of the major recognition and measurement changes for IAS/IFRS is the extended use of fair-value principles instead of historical cost. Business Central can help companies calculate fair value and net present value (NPV) concepts, which are focused on current and expected cash flow streams rather than historical purchase price. On the reporting side, it can provide segment reporting by business unit and geographical location.
+> Depending on the current local GAAPs, one of the major recognition and measurement changes for IAS/IFRS is the extended use of fair-value principles instead of historical cost. [!INCLUDE [prod_short](../includes/prod_short.md)] can help companies calculate fair value and net present value (NPV) concepts, which are focused on current and expected cash flow streams rather than historical purchase price. On the reporting side, it can provide segment reporting by business unit and geographical location.
 
 > [!NOTE]  
 > **Basel II: Implications for Reporting and Analysis**  

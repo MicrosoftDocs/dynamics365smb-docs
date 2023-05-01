@@ -1,20 +1,14 @@
 ---
-    title: Compliance Overview 
-    description: Overview of how Business Central functionality is built on a platform that makes it easy for customers to comply with compliance and regulatory legislation.
-    author: sorenfriisalexandersen
-    documentationcenter: ''
-
-    
-    ms.topic: overview
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.reviewer: edupont
-    ms.date: 06/14/2021
-    ms.author: soalex
-
+title: Compliance Overview
+description: Overview of how Business Central functionality is built on a platform that makes it easy for customers to comply with compliance and regulatory legislation.
+author: sorenfriisalexandersen
+ms.author: soalex
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.date: 04/25/2023
+ms.custom: bap-template
 ---
+
 # Compliance Overview
 
 This content contains information about compliance in relation to [!INCLUDE[prod_short](../includes/prod_short.md)].  
@@ -25,7 +19,7 @@ In this section you can read more about our approach to compliance from the pers
 
 |**To**|**See**|  
 |------------|-------------|  
-|Learn about compliance from an application perspective, such as GDPR, International Accounting Standards, and more.|[Application Compliance](compliance-application-compliance.md)|  
+|Learn about compliance from an application perspective, such as data privacy, international accounting standards, and more.|[Application Compliance](compliance-application-compliance.md)|  
 |Learn about compliance at the service level and the approaches made at the platform to ensure Business Central a best-in-class service compliance.|[Service Compliance](compliance-service-compliance.md)|  
 |See information about different certifications related to Business Central. Here you will find information about general certifications and country-specific certifications.|[Certifications](compliance-certifications.md)|  
 |Learn about the service level agreement terms and other terms for the service|[Service Terms](compliance-service-compliance.md#service-terms)|  

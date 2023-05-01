@@ -30,7 +30,7 @@ In warehouse configurations where the **Directed Pick and Put-away** toggle is t
 * Warehouse Internal Put-away
 * Warehouse Reclassification Journal
 
-The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warejpise Internal Put-away** pages work in the same way. Use the pages to prepare warehouse activities for warehouse employees. The difference is in the advanced functionality associated with each page, and the different types of warehouse activities that are probably performed by different employees:
+The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Internal Put-away** pages work in the same way. Use the pages to prepare warehouse activities for warehouse employees. The difference is in the advanced functionality associated with each page, and the different types of warehouse activities that are probably performed by different employees:
 
 * Movement worksheet lets you fill up high-ranking pick bins with items from other bins
 * Put-aways use put-away templates

@@ -44,7 +44,7 @@ An item tracking code reflects the different considerations a company has regard
 As this particular setup field covers all possible transactions with the item, the individual inbound/outbound fields will also be selected. However, the individual inbound/outbound fields have nothing to do with application across inventory - they merely define your company's work flow concerning when to assign item tracking numbers.  
 
 > [!NOTE]  
->  To assign item tracking numbers in warehouse activities, the **SN Warehouse Tracking** and **Lot Warehouse Tracking** fields must be selected on the item's item tracking code card.  
+> To assign item tracking numbers in warehouse activities, the **SN Warehouse Tracking** and **Lot Warehouse Tracking** fields must be selected on the item's item tracking code card.  
 
 ## To set up expiration rules for serial or lot numbers
 
@@ -82,6 +82,36 @@ To enable item tracking you first have to assign the item tracking codes to an i
 2. Select an existing item from the list, and open the **Item Card** page.  
 3. On the **Item Tracking** FastTab, assign the appropriate item tracking codes and choose the **Item Tracking Code**, the **Serial Nos.**, and the **Lot Nos.**.
     1. Alternatively you can also create a new item tracking code by selecting the **New** action.
+
+## To specify opening balances for the items you track
+
+You can create opening balances for the items you track. Because you can choose different warehouse configurations, there are two options:
+
+* Enable specific batches on the **Item Journal** page to let people enter serial, lot, and package data directly on journal lines.
+* For locations where the **Directed Put-away and Pick** toggle is turned on, use the **Warehouse Physical Inventory Journal** page to make all item tracking fields available. The fields that are available include the **Warranty Date** and **Expiration Date** fields.
+
+### Item journals 
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Journals**, and then choose the related link.
+2. Choose the **Name** field to open a list of item journal batches.
+3. Choose **New** to create a new batch, and then turn on the **Item Tracking on Lines** toggle.
+4. Choose **OK** to select the batch you created.
+5. Fill in the fields on the item journal line as necessary. Note that the **Lot No.**, **Serial No.**, **Expiration Date**, **Warranty Date**, and **Package No.** fields are available (if the feature is enabled).
+6. Choose the **Post** action to adjust inventory.
+
+> [!NOTE] 
+> [!INCLUDE [prod_short](includes/prod_short.md)] does a few minor validations when you enter or import data. A more comprehensive check happens when you post or transfer data from journal lines to the **Item Tracking Window**. The latter happens automatically when you open the **Item Tracking Window** page from the item journal line or if you choose the **Update Item Tracking Lines** action.
+
+### Warehouse physical inventory journal for locations where directed pick and put-away is turned on  
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Physical Inventory Journal**, and then choose the related link.
+2. Fill in the fields on the item journal line as necessary. Note that the **Lot No.**, **Serial No.**, **Expiration Date**, **Warranty Date**, and **Package No.** fields are available (if the feature is enabled).
+3. Choose the **Register** action to make the inventory adjustments. Remember, you'll need to synchronize the adjusted warehouse entries with the related item ledger entries. To learn more, go to [synchronize the adjusted warehouse entries](/dynamics365/business-central/inventory-how-count-adjust-reclassify#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+
+For bulk imports, use configuration packages to import data to the journals.
+
+> [!NOTE]
+> You can't use **Edit in Excel** to create journal lines with tracking information.
 
 ## See related [Microsoft training](/training/modules/prepare-item-tracking/)
 

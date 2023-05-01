@@ -110,12 +110,11 @@ To fully exclude all permissions from a permission set, on the **Result** pane, 
 
 To fully or partially exclude a specific permission in a set you've added, under **Permissions**, create a line for the object. The access level fields, Insert Permission, Modify Permission, and so on, will all contain **Exclude**. To allow a certain access level, choose the appropriate option.
 
-> [!NOTE]
-> Excluding a permission set excludes all of the permissions in the set. [!INCLUDE [prod_short](includes/prod_short.md)] calculates permissions as follows:
+Excluding a permission set excludes all of the permissions in the set. [!INCLUDE [prod_short](includes/prod_short.md)] calculates permissions as follows:
 
-> 1. Calculate the full list of included permissions
-> 2. Calculate the full list of excluded permissions
-> 3. Remove excluded permissions from the list of included permissions (removing an indirect permission is the same as Reduce to Indirect)
+1. Calculate the full list of included permissions
+2. Calculate the full list of excluded permissions
+3. Remove excluded permissions from the list of included permissions (removing an indirect permission is the same as Reduce to Indirect)
 
 ## To copy a permission set
 

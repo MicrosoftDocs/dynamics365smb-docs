@@ -63,9 +63,11 @@ The following topics describe local functionality that is unique to the Italian 
 
 ## Future legislation requirements being investigated
 
-* Intrastat for Services **2023 release wave 1**
+* Intrastat for Services **May 2023**
+* Redesigned and upgraded non-deductible VAT **July 2023**
 * Updated Electronic invoicing (FatturaPA) **2024 release wave 2**
 
+If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See Also
 

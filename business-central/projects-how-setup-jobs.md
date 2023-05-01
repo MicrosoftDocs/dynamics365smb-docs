@@ -1,22 +1,25 @@
 ---
 title: Set Up Jobs, Prices, and Job Posting Groups
-description: Describes how to set up general jobs information, and set up prices for job items, resources, and G/L accounts and jobs posting groups.
-author: edupont04
-
-
-ms.topic: conceptual
-ms.workload: na
+description: Describes how to set up general information about jobs.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 04/25/2023
+ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: 211, 463, 1012
-ms.date: 04/01/2021
-ms.author: edupont
-
 ---
 # Set Up Jobs, Prices, and Job Posting Groups
 
-As a project manager, you can set up jobs that define each of the projects that you manage in [!INCLUDE[prod_short](includes/prod_short.md)]. On the **Jobs Setup** page, you must specify how you want to use certain job features.
+As a project manager, you can set up jobs that define each of the projects that you manage in [!INCLUDE[prod_short](includes/prod_short.md)]. Use the **Jobs Setup** page to define how you'll use job features.
 
-For each job, you then specify individual job cards with information about prices for job items, job resources, and job G/L accounts, and you must set up job posting groups.
+For each job, specify various information:
+
+* Prices for job items
+* Job resources
+* Job G/L accounts
+* Job posting groups (required)
 
 ## To set general information for jobs
 
@@ -24,27 +27,21 @@ For each job, you then specify individual job cards with information about price
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> The **Apply Usage Link by Default** field indicates if job ledger entries are linked to job planning lines by default. Choose the field if you want to apply this setting to all new jobs that you create. You can enable or disable job usage tracking for a specific job by changing value of the **Apply Usage Link** field on the individual job card. The consequenses are explained in the following section.
+> The **Apply Usage Link by Default** toggle on the **Jobs Setup** page indicates whether job ledger entries are linked to job planning lines by default. Turn on the toggle to apply this setting to all new jobs. You can enable or disable job usage tracking for a specific job by turning the **Apply Usage Link** toggle on or off on the **Job Card** page.
 
 ### To set up job usage tracking
 
-When you are working on a job, you might want to know how your usage is tracking against your plan. To easily do this, you can create a link between your job planning lines and the actual usage. This lets you track your costs and to easily see at how much work remains to be done. By default, the job planning line type is *Budget*, but using the line type **Both Budget and Billable** has similar effects.
+When you're working on a job, you might want to know how your usage is tracking against your plan. To explore usage, you can create a link between your job planning lines and the actual usage. The link lets you track your costs and understand how much work remains. By default, the job planning line type is **Budget**, but using the line type **Both Budget and Billable** has similar effects.
 
-After you have set up usage tracking by choosing the **Apply Usage Link** field, you can review information on the job planning line. You can set the quantity of the resource, item, or general ledger account, and then indicate what quantity you want to transfer to the job journal. The **Remaining Quantity** field on the job planning line will tell you what remains to be transferred and posted to the job journal.
+After you set up usage tracking by turning on the **Apply Usage Link by Default** toggle, you can review information on the job planning line. For example, you can set the quantity of the resource, item, or general ledger account. You can also set the quantity to transfer to the job journal. The **Remaining Quantity** field on the job planning line shows what remains to transfer and post to the job journal.
 
 >[!NOTE]
-> If the **Apply Usage Link** is chosen on the individual job, and the **Line Type** field on the job journal line or purchase line is *Billable*, then new job planning lines of line type *Budget* are created when you post job journal or purchase document.  
+> If the **Apply Usage Link** is chosen on the job, and the **Line Type** field on the job journal line or purchase line is **Billable**, new job planning lines of the line type **Both Budget and Billable** are created when you post the job journal or purchase document.  
+>
 > For more information, see [Record Usage for Jobs](projects-how-record-job-usage.md) and [Manage Job Supplies](projects-how-manage-project-supplies.md)
 
 > [!IMPORTANT]
-> If the **Line Type** field on the job journal line or purchase line is blank, then no job planning lines are created when you post the job journal or purchase document.
-
-<!--
->[!Important]
-If job usage tracking is enabled on the individual job and the **Line Type** field on the job journal or purchase line line is blank, then new job planning lines of line type *Budget* are created when you post job journal or purchase document.
-If job usage tracking is not enabled and the **Line Type** field on the job journal line or purchase line is blank, then no job planning lines are created when you post job journal or purchase document.
--->
-
+> If you don't specify a value in the **Line Type** field on the job journal line or purchase line, job planning lines aren't created when you post the job journal or purchase document.
 
 ## To set up prices for resources, items, and general ledger accounts for jobs
 
@@ -59,13 +56,13 @@ You can set up prices for the items, resources, and general ledger accounts rela
 2. Select the job, and then choose the **Resource**, **Item**, or **G/L Account** action.
 3. On the **Job Resource Prices**, **Job Item Prices**, or **Job G/L Account Prices** pages, fill in the fields as necessary.
 
-The following table shows how the information in the optional fields will be used on job planning lines and journals when the resource, item, or general ledger account are chosen for the job.
+When you choose a resource, item, or general ledger account for a job, [!INCLUDE [prod_short](includes/prod_short.md)] uses information in the optional fields on job planning lines and job journals. The following table explains how.
 
 |Column1  |Column2  |
 |---------|---------|
-|**Job Resources**|The **Job Task No.**, **Work Type**, **Currency Code**, **Line Discount %**, and **Unit Cost Factor** fields. The value in the **Unit Price** field for the resource will be used on the job planning lines and job journals when this resource, a resource assigned to the resource group, or any resource is entered. Note that this price will always override any prices set up in the existing **Resource Price/Resource Group Prices** page.|
-|**Job Items**|The **Job Task No.**, **Currency Code**, and **Line Discount %** fields. The value in the **Unit Price** field for the item will be used on the job planning lines and job journals when this item is entered. Note that this price will always override the regular customer price (the "best price" mechanism) for items. If you want to use the regular customer price mechanisms, then you should not create any job item prices for the job.|
-|**General Ledger Accounts**|The information in the **Job Task No.**, **Currency Code**, **Line Discount %**, **Unit Cost Factor**, and **Unit Cost** fields will be used on the job planning lines and job journals when this general ledger account is entered and added to a job. The value in the **Unit Price** field for the general ledger job expense will be used on the job planning lines and job journals when this general ledger account is entered.|
+|**Job Resources**|The **Job Task No.**, **Work Type**, **Currency Code**, **Line Discount %**, and **Unit Cost Factor** fields. The value in the **Unit Price** field for the resource is used on job planning lines and job journals when you enter a resource, or a resource assigned to the resource group. This price overrides prices specified on the **Resource Price/Resource Group Prices** page.|
+|**Job Items**|The **Job Task No.**, **Currency Code**, and **Line Discount %** fields. The value in the **Unit Price** field for the item will be used on the job planning lines and job journals when this item is entered. This price overrides the regular customer price (the "best price" mechanism) for items. To use the regular customer price, don't specify job item prices for the job.|
+|**General Ledger Accounts**|The information in the **Job Task No.**, **Currency Code**, **Line Discount %**, **Unit Cost Factor**, and **Unit Cost** fields will be used on the job planning lines and job journals when this general ledger account is entered and added to a job. When you choose a general ledger account, job planning lines and job journals use the value in the **Unit Price** field for the general ledger job expense.|
 
 #### [New Experience](#tab/new-experience)
 
@@ -79,23 +76,23 @@ The following table shows how the information in the optional fields will be use
 One aspect of planning jobs is deciding which posting accounts to use for job costing. To be able to post jobs, you set up accounts for posting for each job posting group. A posting group represents a link between the job and how it should be treated in the general ledger. When you create a job, you specify a posting group, and by default, each task you create for the job is associated with that posting group. However, as you create tasks, you can override the default and select a posting group that is more appropriate.  
 
 > [!NOTE]  
->   The necessary accounts in the chart of accounts must be set up before you set up posting groups. For more information, see [Set Up or Change the Chart of Accounts](finance-setup-chart-accounts.md).  
+> You must set up accounts in the chart of accounts before you set up posting groups. For more information, see [Set Up or Change the Chart of Accounts](finance-setup-chart-accounts.md).  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Posting Groups**, and then choose the related link.  
-2. Choose the **New** action, and then fill in the account fields as described in the following table.  
+2. Choose the **New** action, and then fill in the fields as described in the following table.  
 
 | Account field | Description |
 | --- | --- |
-| **Code** |A code for the posting group. You can enter up to 10 characters, including spaces. |
+| **Code** |An identifier for the posting group. You can enter up to 10 characters, including spaces. |
 | **WIP Costs Account** |The WIP account for the calculated cost of the job WIP, which is a balance sheet capital asset account. |
-| **WIP Accrued Costs Account** |An account for the Cost Value or Cost of Sales method of WIP calculation, which is a balance sheet accrued expense liability account. This will be posted to when the WIP adjustment requires that usage costs posted to the income statement be increased. |
+| **WIP Accrued Costs Account** |An account for the Cost Value or Cost of Sales method of WIP calculation. This account is for accrued expense liability on your balance sheet. When a WIP adjustment requires you to increase the usage costs that you post to your income statement, you post to this account. |
 | **Job Costs Applied Account** |A balancing account to the WIP Costs Account, which is a contra for a negative expense account. |
 | **Item Costs Applied Account** |A balancing account to the WIP Costs Account, which is a contra for a negative expense account. |
 | **Resource Costs Applied Account** |A balancing account to the WIP Costs Account, which is a contra for a negative expense account. |
 | **Costs Applied Account** |A balancing account to the WIP Costs Account, which is a contra for a negative expense account. |
 | **Job Costs Adjustment Account** |The balancing account to the WIP Accrued Costs account, which is an expense account. |
 | **G/L Expense Acc. (Budget)** |The sales account that will be used for general ledger expenses in job tasks with this posting group. If left empty, the general ledger account entered on the job planning line is used. |
-| **WIP Accrued Sales Account** |The WIP account for the calculated sales value of the WIP, which is a balance sheet Accrued Revenue account. This is posted to when the WIP adjustment requires the recognized revenue to be increased. |
+| **WIP Accrued Sales Account** |The WIP account for the calculated sales value of the WIP, which is an accrued revenue account for your balance sheet. When a WIP adjustment requires you to increase the recognized revenue, you post to this account. |
 | **WIP Invoiced Sales Account** |The account for the invoiced sales value of the WIP that is not able to be recognized. It is a balance sheet Unearned Revenue account. |
 | **Job Sales Applied Account** |The balancing account to the WIP Invoiced Sales account, which is a contra income account. |
 | **Job Sales Adjustment Account** |The balancing account to the WIP Job Sales Account, which is an income account. |

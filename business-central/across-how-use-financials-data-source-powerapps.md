@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.search.keywords: OData, Power App, SOAP
-ms.date: 04/01/2023
+ms.date: 05/05/2023
 ms.author: jswymer
 ---
 # Connecting to Your Business Central Data to Build a Business App Using Power Apps
@@ -28,7 +28,7 @@ These steps add a Business Central table, like customers or items, as the data s
 2. In the navigation pane on the left side, select **+ Create**, and then select **More data sources** on the **Create app** page.
   
    <!-- This step opens Power Apps canavs. On first sign-in, you must specify the country/region.  -->
-3. The **Connections** the list will show any existing data connections you have.
+3. The **Connections** the list shows any existing data connections you have.
 
    - If there's a **Business Central** connection already, select it, and then select **Create**.
 
@@ -37,16 +37,16 @@ These steps add a Business Central table, like customers or items, as the data s
    > [!NOTE]
    > If you want to connect to [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, then you must choose the **Business Central (on-premises)** connector in step 3.  
   
-4. Power Apps will connect to your [!INCLUDE[prod_short](includes/prod_short.md)]. Sign in using the Business Central account name and password. If you aren't an administrator of your [!INCLUDE[prod_short](includes/prod_short.md)], you may have to sign in with another account.  
-5. Once you've signed in, Power Apps will display a list of *Environments and companies* that are available from [!INCLUDE[prod_short](includes/prod_short.md)]. Choose the environment and company that contains the data you want to connect to, such as *PRODUCTION - My Company*.  
-6. Next, you'll be presented with a list of tables that are exposed as part of the API for your environment. Select the table that you want to connect to, and then choose **Connect**.
+4. Power Apps connects to your [!INCLUDE[prod_short](includes/prod_short.md)]. Sign in using the Business Central account name and password. If you aren't an administrator of your [!INCLUDE[prod_short](includes/prod_short.md)], you may have to sign in with another account.  
+5. Once you've signed in, Power Apps displays a list of *Environments and companies* that are available from [!INCLUDE[prod_short](includes/prod_short.md)]. Choose the environment and company that contains the data you want to connect to, such as *PRODUCTION - My Company*.  
+6. Next, you're presented with a list of tables that are exposed as part of the API for your environment. Select the table that you want to connect to, and then choose **Connect**.
 
 These so-called tables are exposed as endpoints by the [!INCLUDE[prod_short](includes/prod_short.md)] connector for Power Apps.  
 
 > [!NOTE]
 > If you want to include data from other tables in [!INCLUDE[prod_short](includes/prod_short.md)] in your app, then you must work with a developer to define a custom API in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-At this point, you have successfully connected to your [!INCLUDE[prod_short](includes/prod_short.md)] data and are ready to begin building your Power App. You can add more screens and connect to more data from your [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Create a canvas app from a sample in Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
+At this point, you have successfully connected to your [!INCLUDE[prod_short](includes/prod_short.md)] data and are ready to begin building your Power App. You can always add more screens and connect to more data. Learn more at [Create a canvas app from a sample in Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
 
 When you have designed and built your app, you can share it with your colleagues. For more information, see [Save and publish a canvas app in Power Apps](/powerapps/maker/canvas-apps/save-publish-app).  
 
@@ -57,9 +57,9 @@ When you have designed and built your app, you can share it with your colleagues
 
 Business Central offers several sample apps that you can use as a starting point for building your own apps that use Business Central data. These sample apps are available in the [BCTech](https://github.com/microsoft/BCTech) repo on GitHub. For more information, go to [Sample apps](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-samples).
 
-## Implement application lifecycle management
+## Develop and maintain with application lifecycle management
 
-Business Central offers a set of tools for managing the development and maintenance of your Power Apps applications. The tools support activities like building, testing, version control, and deploying. For more information, see [Application lifecycle management of Power Apps forBusiness Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm) manner.
+Business Central offers a set of tools for managing the development and maintenance of your Power Apps applications. The tools support source control and activities, like building, testing, and deploying. For more information, see [Application lifecycle management of Power Apps forBusiness Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm) manner.
 
 ## See related [Microsoft training](/training/paths/power-apps-power-automate-business-central/)
 

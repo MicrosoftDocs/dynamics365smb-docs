@@ -13,7 +13,8 @@ ms.author: jswymer
 You can make your [!INCLUDE[prod_short](includes/prod_short.md)] data available as a data source in Power Apps.  
 
 > [!TIP]  
-> The additional Power Apps documentation and our Power App samples presented during the [!INCLUDE[prod_short](includes/prod_short.md)] Launch Event will be published here later in 2023 wave 1. Read more at [Get started with more sample Power Automate templates and Power Apps](/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/get-started-more-sample-power-automate-templates-power-apps).
+> 
+<!--  The additional Power Apps documentation and our Power App samples presented during the [!INCLUDE[prod_short](includes/prod_short.md)] Launch Event will be published here later in 2023 wave 1. Read more at [Get started with more sample Power Automate templates and Power Apps](/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/get-started-more-sample-power-automate-templates-power-apps).-->
 
 ## Prerequisites
 
@@ -21,7 +22,7 @@ You must have a valid account with [!INCLUDE[prod_short](includes/prod_short.md)
 
 ## Add [!INCLUDE[prod_short](includes/prod_short.md)] as a data source in Power Apps
 
-These steps add a Business Central table, like cusotmers or items, as the data source of a Power Apps app.
+These steps add a Business Central table, like customers or items, as the data source of a Power Apps app.
 
 1. In your browser, go to [powerapps.microsoft.com](https://powerapps.microsoft.com/), and then sign in.
 2. In the navigation pane on the left side, select **+ Create**, and then select **More data sources** on the **Create app** page.
@@ -51,6 +52,9 @@ When you have designed and built your app, you can share it with your colleagues
 
 > [!NOTE]
 > If you want to connect to [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, then you must choose the **Business Central (on-premises)** connector in step 3.  
+
+## Sample apps to get started
+
 
 ## See related [Microsoft training](/training/paths/power-apps-power-automate-business-central/)
 

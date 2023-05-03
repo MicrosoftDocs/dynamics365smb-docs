@@ -53,8 +53,13 @@ When you have designed and built your app, you can share it with your colleagues
 > [!NOTE]
 > If you want to connect to [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, then you must choose the **Business Central (on-premises)** connector in step 3.  
 
-## Sample apps to get started
+## Use sample apps to get started
 
+Business Central offers several sample apps that you can use as a starting point for building your own apps that use Business Central data. These sample apps are available in the [BCTech](https://github.com/microsoft/BCTech) repo on GitHub. For more information, go to [Sample apps](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-samples).
+
+## Implement application lifecycle management
+
+Business Central offers a set of tools for managing the development and maintenance of your Power Apps applications. The tools support activities like building, testing, version control, and deploying. For more information, see [Application lifecycle management of Power Apps forBusiness Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm) manner.
 
 ## See related [Microsoft training](/training/paths/power-apps-power-automate-business-central/)
 

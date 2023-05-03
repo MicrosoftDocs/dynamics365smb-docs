@@ -100,6 +100,26 @@ Checks that the authenticated user can connect to a discovered environment, typi
 |No cluster address to perform this check for|Check the list of available environments in the Business Central admin center.|
 |Version endpoint does not exist|Check the list of available environments in the Business Central admin center.|
 
+## Web server connectivity
+
+Checks that the authenticated user can successfully establish connections with the web server.
+
+|Problem|Things to try|
+|-------|-------------|
+|No authenticated user to perform this check for|See the **User authentication check**.|
+|Failed to retrieve available environments for your account.|See **Business Central environments discovery**.|
+|No cluster address to perform this check for|Check the list of available environments in the Business Central admin center.|
+|Failed to establish a connection with the web server|Clear the cache and reload the page.|
+
+## Service Health Status
+
+Reports Business Central's service health status by checking for declared outages.
+
+|Problem|Things to try|
+|-------|-------------|
+|No authenticated user to perform this check for|See the **User authentication check**.|
+|Sorry, Business Central is temporarily unavailable. Please try again later.|Try again later.|
+
 ## See Also
 
 [Resources for Help and Support](product-help-and-support.md)  

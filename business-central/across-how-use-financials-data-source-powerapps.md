@@ -35,7 +35,7 @@ These steps add a Business Central table, like customers or items, as the data s
    - If you don't see a Business Central connection, select **+ New connection**, search for and select **Business Central**, and then select **Create**.
 
    > [!NOTE]
-   > If you want to connect to [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, then you must choose the **Business Central (on-premises)** connector in step 3.  
+   > If you want to connect to [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, then you must choose the **Business Central (on-premises)** connector.  
   
 4. Power Apps connects to your [!INCLUDE[prod_short](includes/prod_short.md)]. Sign in using the Business Central account name and password. If you aren't an administrator of your [!INCLUDE[prod_short](includes/prod_short.md)], you may have to sign in with another account.  
 5. Once you've signed in, Power Apps displays a list of *Environments and companies* that are available from [!INCLUDE[prod_short](includes/prod_short.md)]. Choose the environment and company that contains the data you want to connect to, such as *PRODUCTION - My Company*.  
@@ -49,9 +49,6 @@ These so-called tables are exposed as endpoints by the [!INCLUDE[prod_short](inc
 At this point, you have successfully connected to your [!INCLUDE[prod_short](includes/prod_short.md)] data and are ready to begin building your Power App. You can always add more screens and connect to more data. Learn more at [Create a canvas app from a sample in Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
 
 When you have designed and built your app, you can share it with your colleagues. For more information, see [Save and publish a canvas app in Power Apps](/powerapps/maker/canvas-apps/save-publish-app).  
-
-> [!NOTE]
-> If you want to connect to [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, then you must choose the **Business Central (on-premises)** connector in step 3.  
 
 ## Use sample apps to get started
 
@@ -69,6 +66,5 @@ Business Central offers a set of tools for managing the development and maintena
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Setting Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Getting Started Developing Connect Apps for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -338,15 +338,17 @@ Unlike most supply-demand sets, linked orders with due dates before the planning
 
 The Lot-for-Lot policy is the most flexible because the system only reacts to actual demand. It acts on anticipated demand from forecast and blanket orders and then settles the order quantity based on the demand. The policy is intended for items where inventory can be accepted but should be avoided.  
 
-In some ways, the Lot-for-Lot policy is similar to the Order policy, but it has a generic approach to items. It can accept quantities in inventory, and it bundles demand and supply in the time buckets you define.  
+In some ways, the Lot-for-Lot policy is similar to the Order policy. It can accept quantities in inventory, and it bundles demand and supply in the time buckets you define.
 
 You specify the time bucket in the **Time Bucket** field on the **Item Card** page. The minimum size of time bucket is one day, because that's the smallest time unit of measure on demand and supply events in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 The time bucket also limits when you should reschedule a supply order to meet a given demand. Supply within the time bucket is rescheduled in or out to meet the demand. Earlier supply will cause extra inventory, and you should cancel it. For supply that's later, create a new supply order.  
 
-With this policy, you can specify a safety stock to compensate for changes in supply or to meet a sudden demand.  
+With this policy, you can specify a safety stock to compensate for changes in supply or to meet a sudden demand. The lot-for-lot policy can also include a dampener period and dampener quantity to reduce order scheduling.  
 
-Because the supply order quantity is based on the actual demand, it can make sense to use the order modifiers:
+Together with the **Rescheduling Period** field, the **Lot Accumulation Period** field contributes to defining the reorder cycle. From the date of the first demand, all demands are accumulated in the next lot accumulation period into one supply order on the date of the first demand. Demand that is outside the lot accumulation period is not covered by the supply order.
+
+Because the supply order quantity is based on the actual demand, it can make sense to use order modifiers:
 
 * Round up the order quantity to meet an order multiple (or purchase unit of measure)
 * Increase the order to a specified minimum order quantity

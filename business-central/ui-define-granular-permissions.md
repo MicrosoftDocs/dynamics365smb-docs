@@ -77,7 +77,7 @@ Maintenance is also easier. When you add a system permission, your user-defined 
   |**Reduce to indirect**|Change the access level to Indirect if any permission sets give Direct access to the object. For example, choose this option if the permission set gives Direct access to G/L entries but you don't want users to have full access to the entries.|
   
   > [!NOTE]
-  > If a permission is both included and excluded, the permission will be excluded.
+  > If a permission is in a permission set that is included, and is also in a permission set that is excluded, the permission will be excluded.
 
 6. Use the **Object Type** and **Object ID** fields to specify the object you're giving access to.
 

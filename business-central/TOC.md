@@ -350,9 +350,11 @@
 #### Setup VAT
 ##### [Set Up Value-Added Tax](finance-setup-vat.md)
 ##### [Posting Group Setup](finance-posting-groups.md#tax-posting-groups)
+##### [Set up non-deductible VAT](finance-setup-nondeductible-vat.md)
 ##### [Set Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)
 ##### [Set Up a VAT Statement](finance-how-setup-vat-statement.md)
 #### [Work with VAT on Sales and Purchases](finance-work-with-vat.md)
+#### [Use non-deductible VAT](finance-how-use-non-deductible-vat.md)
 #### [Submit VAT Reports to Tax Authorities](finance-how-report-vat.md)
 #### [Managing VAT Rate changes](finance-how-use-vat-rate-change-tool.md)
 #### [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md)

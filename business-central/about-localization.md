@@ -56,7 +56,7 @@ To learn about the local functionality for each country/region, choose the relat
 [!INCLUDE[prod_short](includes/prod_short.md)] is also available in other markets through localization apps. If a Microsoft partner has developed a localization app for your country/region, you can find it in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## See Also
-
+[Create environments](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Compliance](compliance/compliance-overview.md)  
 [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

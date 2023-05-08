@@ -35,7 +35,7 @@ For Copilot to be available, the following requirements must be met:
 - The language you're using in Business Central must be English. Any of the available English locales will work, like English (United States), English (United Kingdom), or English (South Africa).
 
   To change the language, in the top right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
-- You must be using Business Central online version 22 or later (if you're an existing custeomer) or a trial.  <!--**22.0.54157.54311 (Preview - Copilot edition)**-->.
+- You must be using Business Central online version 22 or later (if you're an existing customer) or a trial.  <!--**22.0.54157.54311 (Preview - Copilot edition)**-->.
 
    To check the version, select the question mark in the top right corner, then **Help & Support**. Under **Troubleshooting**, look for the application version. For information about how to get the correct preview version, go to [Get started with a Business Central preview version](ai-preview-getstarted.md).
 - The **Create AI-powered product descriptions with Copilot** feature must be enabled.

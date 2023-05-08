@@ -30,6 +30,7 @@ Add the apps to an empty company in a paid subscription or as part of a trial. F
 You then should complete:
  - The [Manufacturing Setup](manufacturing/contoso-coffee-manufacturing-intro.md) to prepare for use of the [Manufacturing Scenarios](#manufacturing-scenarios)
  - The [Warehousing Setup](warehousing/contoso-coffee-warehousing-intro.md) to prepare for use of the [Warehousing Scenarios](#warehousing-scenarios)
+ - The [Service Setup](service/contoso-coffee-service-intro.md) to prepare for user of the [Service Scenarios](#service-scenarios)
 
 ## Manufacturing Scenarios
 
@@ -59,8 +60,22 @@ The Contoso Coffee demo data currently supports the following warehousing scenar
 
 Read the steps for each scenario in the relevant article.
    
+## Service Scenarios
+
+The Contoso Coffee demo data currently supports the following manufacturing scenarios for test and training:
+
+1. Create service items through sale of items, place and receive Loaners, register time, and invoice customers with [Walkthrough of Service Orders for Service Items](service/service-basic-flow-order.md)
+2. Create service contracts, generate service orders, invoice contract fees, and allocate resources with [Walkthrough of Service Contracts for Service Items](service/service-contract-flow.md)
+
+Read the steps for each scenario in the relevant article.  
+
+> [!IMPORTANT]
+> The Service walkthroughs require that the user experience is set to *Premium* in the **Company Information** page.
+
+
 ## See also
 
 [Manufacturing](../production-manage-manufacturing.md)  
 [Warehousing](../warehouse-manage-warehouse.md)  
+[Service](../service-service.md)
 

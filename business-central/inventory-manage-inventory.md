@@ -29,7 +29,7 @@ Planning for items to fulfill demand is covered as part of supply planning funct
 
 When you post inventory transactions, such as sales shipments, purchase invoices, or inventory adjustments, the changed item costs are recorded in item value entries. To reflect this change in inventory value in your financial books, the inventory costs are automatically posted to the related inventory accounts in the general ledger. For each inventory transaction you post, the appropriate values are posted to the inventory account, adjustment account, and COGS account in the general ledger. Learn more at [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
-Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment. Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually. Larn more at [Adjust Item Costs](inventory-how-adjust-item-costs.md).  
+Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment. Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually. Learn more at [Adjust Item Costs](inventory-how-adjust-item-costs.md).  
 
 ## Related tasks
 

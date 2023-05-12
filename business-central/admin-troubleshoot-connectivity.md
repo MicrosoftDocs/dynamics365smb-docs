@@ -111,7 +111,7 @@ Checks that the authenticated user can successfully establish connections with t
 |No cluster address to perform this check for|Check the list of available environments in the Business Central admin center.|
 |Failed to establish a connection with the web server|Clear the cache and reload the page.|
 
-## Service Health Status
+## Service health status
 
 Reports Business Central's service health status by checking for declared outages.
 

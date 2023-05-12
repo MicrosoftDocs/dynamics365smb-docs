@@ -14,7 +14,7 @@ ms.author: jswymer
 ---
 # Get the Business Central Add-in for Excel
 
-[!INCLUDE[prod_short](includes/prod_short.md)] includes an add-in for Excel that lets users select a **Edit in Excel** action on certain pages to open the data in an Excel worksheet. This action is different than the **Open in Excel** action because it lets users can make changes in Excel, then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]
+[!INCLUDE[prod_short](includes/prod_short.md)] includes an add-in for Excel that lets users select a **Edit in Excel** action on certain pages to open the data in an Excel worksheet. This action is different than the **Open in Excel** action because it lets users make changes in Excel, then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ## Overview
 

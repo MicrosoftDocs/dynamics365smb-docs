@@ -50,11 +50,11 @@ At this point, you have successfully connected to your [!INCLUDE[prod_short](inc
 
 When you have designed and built your app, you can share it with your colleagues. For more information, see [Save and publish a canvas app in Power Apps](/powerapps/maker/canvas-apps/save-publish-app).  
 
-## Use sample apps to get started
+## Sample apps to get started
 
-Business Central offers several sample apps that you can use as a starting point for building your own apps that use Business Central data. These sample apps are available in the [BCTech](https://github.com/microsoft/BCTech) repo on GitHub. For more information, go to [Power Apps samples for Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-samples).
+Business Central offers several sample apps that you can use as a starting point for building your own apps that use Business Central data. These sample apps are available in the [Business Central Demos](https://github.com/BusinessCentralDemos) repo on GitHub. For a quick overview on the apps, go to [Power Apps samples for Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-samples).
 
-## Develop and maintain with application lifecycle management
+## Develop and maintain apps application lifecycle management
 
 Business Central offers a set of tools for managing the development and maintenance of your Power Apps applications. The tools support source control and activities, like building, testing, and deploying. For more information, see [Application lifecycle management for Power Apps in Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm) manner.
 

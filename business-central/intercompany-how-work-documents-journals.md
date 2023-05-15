@@ -7,12 +7,14 @@ ms.reviewer: bnielse
 ms.topic: how-to
 ms.date: 02/06/2023
 ms.custom: bap-template
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
+ms.search.keywords: IC, group, consolidation, affiliate, subsidiary, bank-to-bank
 ms.search.form: 600, 610
 ---
 # Work with Intercompany Documents and Journals
 
-Use intercompany documents or journals to post transactions with your intercompany partners. When you post an intercompany document or journal line in your company, a corresponding document or journal line is created in your intercompany outbox. You transfer the line from your outbox to your partner. Your partner can then post the corresponding transaction in their company, without having to re-enter the data.
+Use intercompany documents or journals to post transactions with your intercompany partners. You can post transactions to G/L accounts, and if you've set up intercompany bank accounts you can also post bank-to-bank transactions. To learn more about setting up intercompany bank accounts, go to [Specify the bank accounts to use for intercompany partners](intercompany-how-setup.md#specify-the-bank-accounts-to-use-for-intercompany-partners).  
+
+When you post an intercompany document or journal line in your company, a corresponding document or journal line is created in your intercompany outbox. You transfer the line from your outbox to your partner. Your partner can then post the corresponding transaction in their company, without having to re-enter the data.
 
 For sales and purchase documents, the intercompany partner code on the customer or vendor ensures that all orders and invoices for transactions between the partners produce corresponding documents in the partner companies. The company accounts balance correctly.
 

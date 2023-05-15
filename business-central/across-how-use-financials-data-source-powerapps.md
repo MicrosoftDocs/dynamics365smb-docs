@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.search.keywords: OData, Power App, SOAP
-ms.date: 05/05/2023
+ms.date: 05/15/2023
 ms.author: jswymer
 ---
 # Connecting to Your Business Central Data to Build a Business App Using Power Apps
@@ -13,7 +13,7 @@ ms.author: jswymer
 You can make your [!INCLUDE[prod_short](includes/prod_short.md)] data available as a data source in Power Apps.  
 
 > [!TIP]  
-> Business Central now offers development and operations tools with AL-Go and samples to get you started creating your own apps. These features are currentlry in preview. To learn more, go to [Business Central and Power Apps](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview).
+> Business Central now offers development and operations tools with AL-Go and samples to get you started creating your own apps. These features are currently in preview. To learn more, go to [Business Central and Power Apps](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview).
 
 ## Prerequisites
 

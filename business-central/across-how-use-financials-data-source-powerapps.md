@@ -13,8 +13,7 @@ ms.author: jswymer
 You can make your [!INCLUDE[prod_short](includes/prod_short.md)] data available as a data source in Power Apps.  
 
 > [!TIP]  
-> 
-<!--  The additional Power Apps documentation and our Power App samples presented during the [!INCLUDE[prod_short](includes/prod_short.md)] Launch Event will be published here later in 2023 wave 1. Read more at [Get started with more sample Power Automate templates and Power Apps](/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/get-started-more-sample-power-automate-templates-power-apps).-->
+> Business Central now offers development and operations tools with AL-Go and samples to get you started creating your own apps. These features are currentlry in preview. To learn more, go to [Business Central and Power Apps](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview).
 
 ## Prerequisites
 
@@ -50,13 +49,14 @@ At this point, you have successfully connected to your [!INCLUDE[prod_short](inc
 
 When you have designed and built your app, you can share it with your colleagues. For more information, see [Save and publish a canvas app in Power Apps](/powerapps/maker/canvas-apps/save-publish-app).  
 
+<!--
 ## Sample apps to get started
 
 As a preview version, Business Central offers several sample apps that you can use as a starting point for building your own apps that use Business Central data. These sample apps are available in the [Business Central Demos](https://github.com/BusinessCentralDemos) repo on GitHub. For a quick overview on the apps, go to [Power Apps samples for Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-samples).
 
 ## Develop and maintain apps application lifecycle management
 
-As an app developer, you may already be familiar with Business Central AL-Go. AL-Go is set of tools on GiHub that enables you to maintain professional DevOps processes for your Business Central AL projects. AL-Go supports source control and activities, like building, testing, and deploying. As a preview, Business Central now offers an Al-Go version that supports for Power Platform solutions. The preview, for example, includes workflows that , alling yoy to push and pull Power Apps You can access the You can access the tools at [https://github.com/BusinessCentralDemos/AL-Go-PTE[Business Central Demos](https://github.com/BusinessCentralDemos)[](AL-Go for GitHub PTE Preview TemplateFor more information, see [Application lifecycle management for Power Apps in Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm) manner.
+As an app developer, you may already be familiar with Business Central AL-Go. AL-Go is set of tools on GiHub that enables you to maintain professional DevOps processes for your Business Central AL projects. AL-Go supports source control and activities, like building, testing, and deploying. As a preview, Business Central now offers an Al-Go version that supports for Power Platform solutions. The preview, for example, includes workflows that let you push and pull Power Platfrom changes to and from enviroments. You can access the tools at [https://github.com/BusinessCentralDemos/AL-Go-PTE](https://github.com/BusinessCentralDemos/AL-Go-PTE). For more information, see [Application lifecycle management for Power Apps in Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm).-->
 
 ## See related [Microsoft training](/training/paths/power-apps-power-automate-business-central/)
 

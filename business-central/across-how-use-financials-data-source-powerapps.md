@@ -52,11 +52,11 @@ When you have designed and built your app, you can share it with your colleagues
 
 ## Sample apps to get started
 
-Business Central offers several sample apps that you can use as a starting point for building your own apps that use Business Central data. These sample apps are available in the [Business Central Demos](https://github.com/BusinessCentralDemos) repo on GitHub. For a quick overview on the apps, go to [Power Apps samples for Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-samples).
+As a preview version, Business Central offers several sample apps that you can use as a starting point for building your own apps that use Business Central data. These sample apps are available in the [Business Central Demos](https://github.com/BusinessCentralDemos) repo on GitHub. For a quick overview on the apps, go to [Power Apps samples for Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-samples).
 
 ## Develop and maintain apps application lifecycle management
 
-Business Central offers a set of tools for managing the development and maintenance of your Power Apps applications. The tools support source control and activities, like building, testing, and deploying. For more information, see [Application lifecycle management for Power Apps in Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm) manner.
+As an app developer, you may already be familiar with Business Central AL-Go. AL-Go is set of tools on GiHub that enables you to maintain professional DevOps processes for your Business Central AL projects. AL-Go supports source control and activities, like building, testing, and deploying. As a preview, Business Central now offers an Al-Go version that supports for Power Platform solutions. The preview, for example, includes workflows that , alling yoy to push and pull Power Apps You can access the You can access the tools at [https://github.com/BusinessCentralDemos/AL-Go-PTE[Business Central Demos](https://github.com/BusinessCentralDemos)[](AL-Go for GitHub PTE Preview TemplateFor more information, see [Application lifecycle management for Power Apps in Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm) manner.
 
 ## See related [Microsoft training](/training/paths/power-apps-power-automate-business-central/)
 

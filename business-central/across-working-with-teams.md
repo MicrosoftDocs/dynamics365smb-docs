@@ -2,14 +2,13 @@
 title: Sharing Business Central Records in Microsoft Teams
 description: Learn how to use the Business Central app for Microsoft Teams.
 author: jswymer
-
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: how-to
+ms.service: dynamics365-business-central
+ms.reviewer: jswymer
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
-ms.date: 09/22/2022
+ms.date: 16/18/2023
 ms.author: jswymer
+ms.custom: bap-template
 ---
 
 # Sharing Business Central Records and Page Links in Microsoft Teams
@@ -69,17 +68,16 @@ With the Business Central app for Teams, you can copy a link from any Business C
 
     > [!TIP]
     > If you get a message like: *Business Central wants to show a preview of this link.*, it means that you don't have the Business Central app for Teams installed. To install the app, select **Show Preview** and follow the instructions.
-6. The first time you paste a link into a conversation, you'll be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)] and give consent for the app to retrieve data. Just follow the on-screen instructions.
 
     > [!NOTE]
-    > You'll only have to do this step once.
-7. Wait a moment while a card is generated in the message box.
-8. When the card appears, review the contents of the card carefully for any sensitive information before sending the message. This step is important because once you send the message, everyone in the conversation can see the card.
-9. If the card looks good, select **Send** to submit it to the conversation.
+    > Depending on you're Business Centralversion, the first time you paste a link into a conversation, you may be asked to sign in to [!INCLUDE [prod_short](includes/prod_short.md)] and give consent for the app to retrieve data. Just follow the on-screen instructions.You'll only have to do this step once.
+6. Wait a moment while a card is generated in the message box.
+7. When the card appears, review the contents of the card carefully for any sensitive information before sending the message. This step is important because once you send the message, everyone in the conversation can see the card.
+8. If the card looks good, select **Send** to submit it to the conversation.
 
     > [!TIP]
     > After the card appears, and before you select **Send**, you can delete the pasted URL if you like.
-10. To view more details or make changes to the record shown in the card, select **Details**. For more information, see the next section.
+9. To view more details or make changes to the record shown in the card, select **Details**. For more information, see the next section.
 
 ### View card details
 

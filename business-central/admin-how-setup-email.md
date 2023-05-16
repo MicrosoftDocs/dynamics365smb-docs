@@ -233,13 +233,13 @@ If you have trouble using the SMTP protocol to send email after you connect [!IN
 
 ### Connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration
 
-After you register your application in Azure portal, in [!INCLUDE[prod_short](includes/prod_short.md)], use the **Email Application AAD Registration** assisted setup guide to connect [!INCLUDE[prod_short](includes/prod_short.md)] to it.
+After you register your application in Azure portal, in [!INCLUDE[prod_short](includes/prod_short.md)], use the **Email Application AAD Registration** page to connect [!INCLUDE[prod_short](includes/prod_short.md)] to it.
 
 1. In [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Application AAD Registration**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> Alternatively, if you are connecting for the first time, you can run the **Set up email** assisted setup guide. The guide will require the information for connecting to your app registration. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
+> Alternatively, if you are connecting for the first time, you can run the **Set up email** assisted setup guide. In this case, the guide will also include the Email Application AAD Registration page for adding the information for connecting to your app registration. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
 
 <!--
 

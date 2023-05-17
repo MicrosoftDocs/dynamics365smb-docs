@@ -34,16 +34,16 @@ For Copilot to be available, the following requirements must be met:
 
 - The language you're using in Business Central must be English. Any of the available English locales will work, like English (United States), English (United Kingdom), or English (South Africa).
 
-  To change the language, in the top right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
+  To change the language, in the upper-right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
 - You must be using Business Central online version 22 or later (if you're an existing customer) or a trial.  <!--**22.0.54157.54311 (Preview - Copilot edition)**-->
 
-   To check the version, select the question mark in the top right corner, then **Help & Support**. Under **Troubleshooting**, look for the application version. For information about how to get the correct preview version, go to [Get started with a Business Central preview version](ai-preview-getstarted.md).
+   To check the version, select the question mark in the upper-right corner, then select **Help & Support**. Under **Troubleshooting**, look for the application version. For information about how to get the correct preview version, go to [Get started with a Business Central preview version](ai-preview-getstarted.md).
 - The **Create AI-powered product descriptions with Copilot** feature must be enabled.
 
-   For more information, go to [Enable or disable the "Create AI-powered product descriptions with Copilot" feature](enable-ai.md#enable-or-disable-the-create-ai-powered-product-descriptions-with-copilot-feature).
+   For more information, go to [Enable or disable the "Create AI-powered product descriptions with Copilot" feature](enable-ai.md#enable-or-disable-create-ai-powered-product-descriptions-with-copilot).
 - An admin has consented to the terms and conditions.
 
-   For more information, go to [Consent to or reject the preview and privacy terms and conditions for all users](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
+   For more information, go to [Consent to or reject the preview and privacy terms and conditions for all users](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
 ### Is Copilot available for preview in Business Central on-premises?
 
@@ -51,7 +51,7 @@ No, it's currently not supported in Business Central on-premises.
 
 ### How does Copilot work, where does the suggested text come from?
 
-Copilot uses [Microsoft's Azure OpenAI Service](/azure/cognitive-services/openai/overview) to access powerful language models that analyze and generate natural language. These models have been trained on a wide body of text datasets. As a result, Copilot can generate suggested, personalized responses in English based a minimal amount input data, like an item's attributes, category, or description. 
+Copilot uses [Microsoft's Azure OpenAI Service](/azure/cognitive-services/openai/overview) to access powerful language models that analyze and generate natural language. These models have been trained on a wide body of text datasets. As a result, Copilot can generate suggested, personalized responses in English based on a minimal amount of input data, like an item's attributes, category, or description. 
 
 ### What's the quality of the text suggested by Copilot?
 
@@ -61,20 +61,20 @@ For information about inappropriate suggestions, go to [What's done about abusiv
 
 ### How can I improve the suggestions I get from Copilot?
 
-There are a few things you can do to get the most out suggestions from Copilot:
+There are a few things you can do to get the most out of suggestions from Copilot:
 
-- Add more attributes to an item to promote the specific features and characteristics you're interested in
+- Add more attributes to an item to promote the specific features and characteristics you're interested in.
 - Change the options for tone of voice and emphasis of quality to match your personal preferences.
-- Improve the item's description
+- Improve the item's description.
 - Make sure the item is assigned the most suitable category.
 
 To learn more, go to [Improve and tailor text suggestions](item-marketing-text.md#improve-and-tailor-text-suggestions).
 
 ### What if I'm not satisfied with the generated text?
 
-To help us improve the text, select **Is this a good suggestion?** on the **Create with Copilot** page, which you can answer with a thumb's up (I like it) or thumb's down (Needs improvement).
+To help us improve the text, select **Is this a good suggestion?** on the **Create with Copilot** page, which you can answer with a thumbs-up (I like it) or thumbs-down (Needs improvement).
 
-![Shows and item card with Marketing Text pane](media/create-with-copilot-window-feedback.png)
+![Shows an item card with Marketing Text pane](media/create-with-copilot-window-feedback.png)
 
 ### Can admins disable Copilot? If so, how?
 
@@ -98,25 +98,27 @@ Currently, Copilot only supports English. Inaccurate responses may be returned w
 
 ### What's done about abusive and harmful text suggestions?
 
-The Azure OpenAI Service stores prompts and completions from the service to monitor for abusive use and to develop and improve the quality of Azure OpenAI’s content management systems. [Learn more about our content management and filtering](/azure/cognitive-services/openai/concepts/content-filter).
+The Azure OpenAI Service stores prompts and completions from the service to monitor for abusive use and to develop and improve the quality of Azure OpenAI’s content management systems. [Learn more about our content management and filtering.](/azure/cognitive-services/openai/concepts/content-filter)
 
-Authorized Microsoft employees can access your prompt and completion data that has triggered our automated systems for the purposes of investigating and verifying potential abuse; for customers who have deployed Azure OpenAI Service in the European Union, the authorized Microsoft employees will be located in the European Union. This data may be used to improve our content management systems. In the event of a confirmed policy violation, we may ask you to take immediate action to remediate the issue to and to prevent further abuse. Failure to address the issue may result in suspension or termination of Azure OpenAI resource access.
+Authorized Microsoft employees can access your prompt and completion data that has triggered our automated systems for the purposes of investigating and verifying potential abuse; for customers who have deployed Azure OpenAI Service in the European Union, the authorized Microsoft employees will be located in the European Union. This data may be used to improve our content management systems. In the event of a confirmed policy violation, we may ask you to take immediate action to remediate the issue and to prevent further abuse. Failure to address the issue may result in suspension or termination of Azure OpenAI resource access.
 
 For more information, see [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation).
 
 ### Can I opt out of the logging and human review process?  
 
-As part of providing the Azure Open AI previews, Microsoft will process and store Customer Data submitted to the service, as well as Output Content, for purposes of (1) monitoring for and preventing abusive or harmful uses or outputs of the service; and (2) developing, testing, and improving capabilities designed to prevent abusive use of and/or harmful outputs from the service. Authorized Microsoft personnel may review data that has triggered our automated systems to investigate and verify potential abuse, and may engage in limited random sampling of terms that aren't flagged by our automated systems to ensure the systems are working properly. Authorized Microsoft personnel may also access and use this data to improve our systems that monitor for and prevent abusive or harmful uses or outputs of the service. Read more on [preview terms](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/)
+As part of providing the Azure OpenAI previews, Microsoft will process and store customer data submitted to the service, as well as output content, for purposes of monitoring for and preventing abusive or harmful uses or outputs of the service; and for developing, testing, and improving capabilities designed to prevent abusive use of or harmful outputs from the service. 
+
+Authorized Microsoft personnel may review data that has triggered our automated systems to investigate and verify potential abuse, and may engage in limited random sampling of terms that aren't flagged by our automated systems to ensure the systems are working properly. Authorized Microsoft personnel may also access and use this data to improve our systems that monitor for and prevent abusive or harmful uses or outputs of the service. Read more on [preview terms](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
 
 ## [Privacy](#tab/privacy)
 
 ### What data does the capability collect? How is the data used?
 
-The capability collects your answer to the **Is this a good suggestion?** question on the **Create with Copilot** page, which can be either a thumb's up (I like it) or thumb's down (Needs improvement).
+The capability collects your answer to the **Is this a good suggestion?** question on the **Create with Copilot** page, which can be either a thumbs-up (I like it) or thumbs-down (Needs improvement).
 
 We use this data to evaluate and improve the quality of the capability. More information on what data is collected is available in the [preview terms](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
 
-![Shows and item card with Marketing Text pane](media/create-with-copilot-window-feedback.png)
+![Shows an item card with Marketing Text pane](media/create-with-copilot-window-feedback.png)
 
 ---
 
@@ -125,4 +127,4 @@ We use this data to evaluate and improve the quality of the capability. More inf
 [Overview of AI-powered item marketing text with Copilot](ai-overview.md)  
 [Configure AI-powered item marketing text with Copilot as an admin](enable-ai.md)  
 [Create marketing text to items using Copilot](item-marketing-text.md)  
-[AI-powered item marketing text with Copilot FAQ](ai-faq.md)  
+

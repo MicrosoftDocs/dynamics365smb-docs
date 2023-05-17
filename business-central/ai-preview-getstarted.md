@@ -106,7 +106,7 @@ There are two ways to consent as an admin:
 
 - The easiest way is to use Copilot. The first time you use Copilot as an admin, you're prompted to review the terms and conditions, then agree or disagree. To learn how to use Copilot, go to [Add marketing text to items](item-marketing-text.md).  
 
-- The other way is to use the **Privacy Notices Status** page in Business Central and agree to the **Azure OpenAI** integration for all users. To learn more, go to [Consent to terms and conditions](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
+- The other way is to use the **Privacy Notices Status** page in Business Central and agree to the **Azure OpenAI** integration for all users. To learn more, go to [Consent to terms and conditions](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
 ## See also
 

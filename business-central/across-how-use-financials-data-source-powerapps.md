@@ -13,7 +13,7 @@ ms.author: jswymer
 You can make your [!INCLUDE[prod_short](includes/prod_short.md)] data available as a data source in Power Apps.  
 
 > [!TIP]  
-> Business Central now offers development and operations tools with AL-Go and samples to get you started creating your own apps. These features are currently in preview. To learn more, go to [Business Central and Power Apps](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview).
+> Business Central now offers development and operations support for Power Platform in AL-Go and samples to get you started creating your own apps with Power Apps. These features are currently in preview. To learn more, go to [Business Central and Power Apps](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview).
 
 ## Prerequisites
 

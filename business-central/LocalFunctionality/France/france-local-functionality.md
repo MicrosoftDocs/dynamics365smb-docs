@@ -51,6 +51,9 @@ The following articles describe local functionality that is unique to the French
     * [Specify Posting Periods](how-to-specify-posting-periods.md) **Available Now**
     * [View Ledger Reconciliations](how-to-view-ledger-reconciliations.md) **Available Now**
 
+* Sales
+    * [Deliver sales invoice with French specifics](finance-sales-invoice-specifics.md) **Available Now**
+
 * Fixed Assets
     * [Set Up Accelerated Depreciation](how-to-set-up-accelerated-depreciation.md) **Available Now**
     * [Accelerated Depreciation](accelerated-depreciation.md) **Available Now**

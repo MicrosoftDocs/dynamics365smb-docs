@@ -26,16 +26,16 @@ If the new **Customer** card is created from an existing **Contact** card, the v
 
 When you create a new sales document, you can select whether to print value-added tax (VAT) that has been paid on debts. To print this information, on the **Invoice Details** FastTab, enable the **VAT Paid on Debts** field.
 
-When you print sales documents, [!INCLUDE[prod_long](includes/prod_long.md)] automatically indicates, in the comment, whether a sales invoice includes only goods, only services, or both goods and services. This determination is based on the value of the **Type** field on the **Item** card (**Inventory** or **Service**), the resources that are used, or the general ledger account.
+When you print sales documents, [!INCLUDE[prod_long](../../includes/prod_long.md)] automatically indicates, in the comment, whether a sales invoice includes only goods, only services, or both goods and services. This determination is based on the value of the **Type** field on the **Item** card (**Inventory** or **Service**), the resources that are used, or the general ledger account.
 
 > [!NOTE]
-> If you use an alternative address in the sales invoice, [!INCLUDE[prod_long](includes/prod_long.md)] automatically shows this address in the comment of the printed report.
+> If you use an alternative address in the sales invoice, [!INCLUDE[prod_long](../../includes/prod_long.md)] automatically shows this address in the comment of the printed report.
 
 You can find training information about sales invoices on [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## See also
 
-[Financial Management](finance.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Financial Management](../../finance.md)  
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,15 +14,18 @@ ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], the container for business data that belongs to a business unit or legal entity is referred to as a *company*. When you sign up for [!INCLUDE[prod_short](includes/prod_short.md)], you're given a demonstration company and an empty company, *My Company*. Switching between the companies is easy: just go to **My Settings** and move to the other company. But you can also create new companies in [!INCLUDE[prod_short](includes/prod_short.md)] depending on your business needs.  
 
+> [!NOTE]
+> To create a new company, you must be assigned to the **Super** permission set.
+
 When you create a new company, an assisted setup guide helps you get the basics in place. Then, you can import relevant data from your legacy system or another company in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## Choose the right template
 
-If you decide to add a company to your [!INCLUDE[prod_short](includes/prod_short.md)], you can use the **Create New Company** assisted setup guide to get you started. The setup wizard is available from the **Companies** page and from the lookup in the **Company** field on the **My Settings** page.  
+If you decide to add a company to your [!INCLUDE[prod_short](includes/prod_short.md)], you can use the **Create New Company** assisted setup guide to get started. The setup guide is available from the **Companies** page and from the lookup in the **Company** field on the **My Settings** page.  
 
-The setup wizard offers two templates and a blank option:
+The setup guide offers two templates and a blank option:
 
 - **Evaluation - Sample Data**  
     This creates a company that is similar to the demonstration company with sample data and setup data. This type of company is available to you without switching to a 30-day trial period, which the other types do.  

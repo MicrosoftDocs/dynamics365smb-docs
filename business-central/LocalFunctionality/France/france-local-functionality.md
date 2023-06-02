@@ -51,6 +51,9 @@ The following articles describe local functionality that is unique to the French
     * [Specify Posting Periods](how-to-specify-posting-periods.md) **Available Now**
     * [View Ledger Reconciliations](how-to-view-ledger-reconciliations.md) **Available Now**
 
+* Sales
+    * [Deliver sales invoice with French specifics](finance-sales-invoice-specifics.md) **Available Now**
+
 * Fixed Assets
     * [Set Up Accelerated Depreciation](how-to-set-up-accelerated-depreciation.md) **Available Now**
     * [Accelerated Depreciation](accelerated-depreciation.md) **Available Now**
@@ -59,7 +62,9 @@ The following articles describe local functionality that is unique to the French
 ## Future legislation requirements being investigated
 
 * Electronic invoicing **2024 Wave 1**
-* Mandatory mentions on sales documents **2023 Wave 1**
+* New Audit Export functionality **June 2023**
+
+If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).  
 
 ## See Also
 

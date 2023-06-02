@@ -1,16 +1,13 @@
 ---
     title: Sweden Local Functionality [SE]
     description: The following topics describe the different local functionality in the Swedish version of Business Central.
-
     author: SorenGP
-
-    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/21/2021
+    ms.date: 06/02/2023
     ms.author: edupont
 
 ---
@@ -38,7 +35,7 @@ If you are aware of any upcoming regulatory features, submit a [Regulatory Featu
 
 ## Localization architecture
 
-Starting with release 2023 wave 1 (v22.3), Swedish localization has been updated to work as an extension on a top of W1 BaseApp. The next three releases for existing customers partners will be in situation to decide when to enable new features. After this period, old features will be obsoleted and new localization will be autimatically run. 
+Starting with release 2023 wave 1 (v22.3), Swedish localization has been updated to work as an extension on a top of W1 BaseApp. For the next three releases, you can choose whether to enable new features. After this period, old features will become obsolete and the new localization will be automatically enabled. 
 
 ## See Also
 

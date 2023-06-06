@@ -19,6 +19,9 @@ ms.author: edupont
 
 You can import and export general ledger data according to the standard import export (SIE) format. By specifying SIE dimensions and file types, you can specify the level of detail covered by import or export transactions. For more information, see [Standard Import Export Group](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
 
+> [!NOTE]
+> As of version 22.1 Swedish localization has been moved to the extensions and this feature is delocalized. Now it is created as an extension and if you want to use new feature you need to enable it. More details about this process here [New SIE Audir Files Export app](how-to-use-sie-audit-files-export.md).
+
 ## To import data in SIE format  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SIE Import**, and then choose the related link.  

@@ -1,5 +1,6 @@
 ﻿
-# [Welcome to Business Central](index.md)
+# [Business Central documentation](index.yml)
+# [Welcome to Business Central](welcome.md)
 # [New and Planned](product-news.md)
 # Get Started
 ## [Overview of Business Functionality](across-business-functionality.md)

@@ -118,7 +118,7 @@ You can also create your own predictive web service based on a public model name
 
 [Azure Machine Learning Studio Documentation](/azure/machine-learning/classic/)  
 [Customizing Business Central Using Extensions](ui-extensions.md)  
-[Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+[Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)  
 [Use Artificial Intelligence in Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

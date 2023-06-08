@@ -40,7 +40,7 @@ The page also connects to Power BI for even more insights. Optionally, connect t
 
 ## See Also
 
-[Welcome to Business Central](index.md)  
+[Welcome to Business Central](welcome.md)  
 [Cloud Migration Extensions](ui-extensions-data-replication.md)  
 [Migrating On-Premises Data to Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 

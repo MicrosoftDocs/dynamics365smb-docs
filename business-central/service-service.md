@@ -42,7 +42,7 @@ The following table describes a sequence of tasks, with links to the topics that
 ## See Also  
 [Managing Receivables](receivables-manage-receivables.md)   
 [Jobs](projects-how-create-jobs.md)   
-[Welcome to [!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)
+[Welcome to [!INCLUDE[prod_long](includes/prod_long.md)] ](welcome.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

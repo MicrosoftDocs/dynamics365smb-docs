@@ -78,7 +78,7 @@ The **Find it** section includes two links to product Help:
 
 - Help about the page you were just viewing in [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  This link is automatically generated. If [!INCLUDE[prod_short](includes/prod_short.md)] can't find the relevant link, the [landing page on Microsoft Learn](index.md) for the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is shown. For example, if the page was part of an app that didn't add context-sensitive Help mapping to [!INCLUDE[prod_short](includes/prod_short.md)], the *Learn link* defaults to the landing page.  
+  This link is automatically generated. If [!INCLUDE[prod_short](includes/prod_short.md)] can't find the relevant link, the [landing page on Microsoft Learn](index.yml) for the default version of [!INCLUDE[prod_short](includes/prod_short.md)] is shown. For example, if the page was part of an app that didn't add context-sensitive Help mapping to [!INCLUDE[prod_short](includes/prod_short.md)], the *Learn link* defaults to the landing page.  
   
 - Help landing page for [!INCLUDE[prod_short](includes/prod_short.md)]  
 
@@ -152,9 +152,9 @@ To alert your partner to a problem, choose the link to either send an email or o
 
 ## Learn more using the product documentation
 
-The base version of [!INCLUDE [prod_short](includes/prod_short.md)] is extended and customized by a large community of partners. Each partner and many customers deploy their own Help to their own website. But you can always go to the [Dynamics 365 Business Central documentation](index.md) site to learn more. The site hosts different types of content, such as the following:
+The base version of [!INCLUDE [prod_short](includes/prod_short.md)] is extended and customized by a large community of partners. Each partner and many customers deploy their own Help to their own website. But you can always go to the [Dynamics 365 Business Central documentation](index.yml) site to learn more. The site hosts different types of content, such as the following:
 
-- [Conceptual content about business functionality](index.md)  
+- [Conceptual content about business functionality](welcome.md)  
 - [Documentation for developers](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
 - [Free learning paths and e-learning modules across multiple user profiles](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
@@ -164,7 +164,7 @@ In this section, you can learn about how to navigate the business functionality 
 
 ### Content on the site
 
-[This section](index.md) of Microsoft Learn hosts content from Microsoft that represents the *Learn more* pillar in the user assistance model. In part, the *Learn more* content intends to answer those questions that the user interface can't answer, such as the following:
+[This section](welcome.md) of Microsoft Learn hosts content from Microsoft that represents the *Learn more* pillar in the user assistance model. In part, the *Learn more* content intends to answer those questions that the user interface can't answer, such as the following:
 
 - Where does this page fits into the bigger workflow?  
 - What comes next?  

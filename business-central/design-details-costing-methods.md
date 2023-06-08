@@ -8,7 +8,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 03/24/2022
+    ms.date: 05/12/2023
     ms.author: bholtorf
 
 ---
@@ -34,13 +34,22 @@ The following image shows how costs flow through the inventory for each costing 
 ![Costing methods visualized.](media/design_details_inventory_costing_7_costing_methods.png "Costing methods visualized")  
 
 Costing methods differ in the way that they value inventory decreases and if they use actual cost or standard cost as the valuation base. The following table explains the different characteristics. (The LIFO method is excluded, as it is very similar to the FIFO method.)  
-
+<!--Old  table
 |Category|FIFO|Average|Standard|Specific|  
 |-|----------|-------------|--------------|--------------|  
 |General characteristic|Easy to understand|Based on period options: **Day**/**Week**/**Month**/**Quarter**/**Accounting Period**.<br /><br /> Can be calculated per item or per item/location/variant.|Easy to use, but requires qualified maintenance.|Requires item tracking on both inbound and outbound transaction.<br /><br /> Typically used for serialized items.|  
 |Application/Adjustment|Application keeps track of **the remaining quantity**.<br /><br /> Adjustment forwards costs according to quantity application.|Application keeps track of the **remaining quantity**.<br /><br /> Costs are calculated and forwarded per the **valuation date**.|Application keeps track of the **remaining quantity**.<br /><br /> Application is based on FIFO.|All applications are fixed.|  
 |Revaluation|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item only.<br /><br /> Can be done backward in time.|Revalues invoiced and un-invoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|  
 |Miscellaneous|If you back-date an inventory decrease, then existing entries are NOT reapplied to provide a correct FIFO cost flow.|If you back-date an inventory increase or decrease, then the average cost is recalculated, and all affected entries are adjusted.<br /><br /> If you change the period or calculation type, then all affected entries must be adjusted.|Use the **Standard Worksheet** page to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|You can use specific item tracking without using the Specific costing method. Then the cost will NOT follow the lot number, but the cost assumption of the selected costing method.|  
+-->
+<!--Table flipped for slightly better readability -->
+
+||General characteristic|Application/Adjustment |Revaluation|Miscellaneous |
+|-|---------|---------|---------|---------|
+|**FIFO**     |Easy to understand|Application keeps track of **the remaining quantity**.<br /><br /> Adjustment forwards costs according to quantity application. |Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|If you back-date an inventory decrease, then existing entries are NOT reapplied to provide a correct FIFO cost flow.|
+|**Average**     |Based on period options: **Day**/**Week**/**Month**/**Quarter**/**Accounting Period**.<br /><br /> Can be calculated per item or per item/location/variant.|Application keeps track of the **remaining quantity**.<br /><br /> Costs are calculated and forwarded per the **valuation date**. |Revalues invoiced quantity only.<br /><br /> Can be done per item only.<br /><br /> Can be done backward in time. |If you back-date an inventory increase or decrease, then the average cost is recalculated, and all affected entries are adjusted.<br /><br /> If you change the period or calculation type, then all affected entries must be adjusted.|
+|**Standard**     |Easy to use, but requires qualified maintenance.|Application keeps track of the **remaining quantity**.<br /><br /> Application is based on FIFO.|Revalues invoiced and un-invoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Use the **Standard Worksheet** page to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|
+|**Specific**     |Requires item tracking on both inbound and outbound transaction.<br /><br /> Typically used for serialized items.|All applications are fixed.|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|You can use specific item tracking without using the Specific costing method. Then the cost will NOT follow the lot number, but the cost assumption of the selected costing method.|
 
 ## Example
 
@@ -142,13 +151,14 @@ For items using the **Standard** costing method, inventory increases are valued 
 
 ## See Also
 
- [Design Details: Inventory Costing](design-details-inventory-costing.md)   
- [Design Details: Variance](design-details-variance.md)   
- [Design Details: Average Cost](design-details-average-cost.md)   
- [Design Details: Item Application](design-details-item-application.md)  
- [Managing Inventory Costs](finance-manage-inventory-costs.md)  
- [Finance](finance.md)  
- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Design Details: Inventory Costing](design-details-inventory-costing.md)  
+[Design Details: Variance](design-details-variance.md)  
+[Design Details: Average Cost](design-details-average-cost.md)  
+[Design Details: Item Application](design-details-item-application.md)  
+[Managing Inventory Costs](finance-manage-inventory-costs.md)  
+[Finance](finance.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Glossary of terms in Dynamics 365 business processes](/dynamics365/guidance/business-processes/glossary)  
+[Define product and service costing overview](/dynamics365/guidance/business-processes/product-service-define-cost-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -19,12 +19,12 @@ This article provides an overview of how to set up the user accounts that are re
 
 ## Set up the administrator user account
 
-You must add your administrator user account for [!INCLUDE[prod_short](includes/prod_short.md)] as a user in [!INCLUDE[cds_long](includes/cds_long_md.md)]. When you set up the connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)] we'll use this account once to install and configure some required components.
+To set up the connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)], you must sign in to [!INCLUDE[prod_short](includes/prod_short.md)] with a user account that is assigned to the [!INCLUDE[prod_short](includes/prod_short.md)] Essential or [!INCLUDE[prod_short](includes/prod_short.md)] Premium license. We'll use this account one time to install and configure some required components.
 
 > [!IMPORTANT]
-> The administrator user account needs to be a licensed user with the **System Administrator** security role on the [!INCLUDE[prod_short](includes/cds_long_md.md)] environment and global admin on the tenant to which the environment belongs. This account doesn't need a license to [!INCLUDE[prod_short](includes/prod_short.md)], as it will be used only to provision the service in the [!INCLUDE[prod_short](includes/cds_long_md.md)] tenant and to do setup tasks.
+> During set-up, you'll be asked to provide credentials for the [!INCLUDE[prod_short](includes/cds_long_md.md)] environment. Provide the credentials of an account that is a licensed user and assigned to the **System Administrator** security role on the [!INCLUDE[prod_short](includes/cds_long_md.md)] environment and global admin on the tenant to which the environment belongs. This account doesn't need a license to [!INCLUDE[prod_short](includes/prod_short.md)] because it will be used only to do set-up tasks in the [!INCLUDE[prod_short](includes/cds_long_md.md)] environment.
 >
-> After the connection setup is done, this [!INCLUDE[prod_short](includes/cds_long_md.md)] user can be removed. The integration will continue using the user account that is automatically created specifically for the integration.
+> After the connection setup is done, you can remove this [!INCLUDE[prod_short](includes/cds_long_md.md)] user. The integration will continue using the user account that is automatically created specifically for the integration.
 
 ## Permissions and security roles for user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)]
 

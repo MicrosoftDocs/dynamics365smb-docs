@@ -73,7 +73,7 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
 [Local Functionality in [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Changing Language and Locale](about-locale-language.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Welcome to Business Central](index.md)  
+[Welcome to Business Central](welcome.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

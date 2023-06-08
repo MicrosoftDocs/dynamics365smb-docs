@@ -1,7 +1,7 @@
 ### YamlMime:Hub
 
 title:  Microsoft Dynamics 365 Business Central documentation
-summary: Learn how to use Business Central to manage, adapt, and streamline operations like finance, manufacturing, sales, and more, across your small or medium-sized business.
+summary: Discover how to make the most of Dynamics 365 Business Central with online training and documentation covering product capabilities. Learn how to use Business Central to manage, adapt, and streamline operations like finance, manufacturing, sales, and more, across your small or medium-sized business.
 brand: dynamics
 
 metadata:
@@ -11,7 +11,7 @@ metadata:
   ms.service: dynamics365-business-central
   author: jswymer
   ms.author: jswymer
-  ms.date: 05/16/2023
+  ms.date: 06/08/2023
   hide_bc: true
 
 highlightedContent:
@@ -21,9 +21,9 @@ highlightedContent:
 
   items:
     # Card
-    - title: Get started
+    - title: Welcome to Business Central
       itemType: get-started
-      url: /dynamics365/business-central/quick-start-business-central
+      url: /dynamics365/business-central/welcome
     # Card
     - title: What's new
       itemType: whats-new
@@ -335,7 +335,7 @@ additionalContent:
           - text: Overview
             url: /dynamics365/business-central/finance
           - text: Manage receivables
-            url: /dynamics365/business-central/receivables-manage-receivable
+            url: /dynamics365/business-central/receivables-manage-receivables
           - text: Manage payables
             url: /dynamics365/business-central/payables-manage-payables   
           - text: Invoicing prepayments
@@ -381,7 +381,7 @@ additionalContent:
       - title: Project management
         links:
           - text: Overview
-            url: /dynamics365/business-central/(projects-manage-projects
+            url: /dynamics365/business-central/projects-manage-projects
           - text: Project reports
             url: /dynamics365/business-central/project-reports
           - text: Create jobs
@@ -466,11 +466,11 @@ additionalContent:
           - text: Warehouse reports
             url: /dynamics365/business-central/inventory-WMS-reports
           - text: Put items
-            url: /dynamics365/business-central/warehouse-put-away-items
+            url: /dynamics365/business-central/warehouse-how-to-put-items-away-with-inventory-put-aways
           - text: Move items
             url: /dynamics365/business-central/warehouse-move-items
           - text: Pick items
-            url: /dynamics365/business-central/warehouse-pick-items
+            url: /dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks
       - title: Service management
         links:
           - text: Overview

@@ -13,9 +13,9 @@ ms.search.form: 7230, 7233, 5338, 7236, 672, 7234
 
 # Get Ready to Synchronize Master Data
 
-When you have two or more companies that use at least some of the same master data, you can save time entering data by synchronizing it in the companies. Synchronizing data is particularly useful when you're setting up new subsidiary companies.
+When two or more companies use some of the same master data, you can synchronize the data rather than add it manually in each company. For example, synchronizing data is useful when you're setting up new subsidiary companies.
 
-Master data includes settings and non-transactional information about business entities, such as customers, vendors, items, and employees. The data provides context for business transactions. The following are a few examples of master data for a customer:
+Master data includes settings and non-transactional information about business entities. For example, customers, vendors, items, and employees. The data provides context for business transactions. The following are a few examples of master data for a customer:
 
 * Name
 * Identification number
@@ -23,7 +23,7 @@ Master data includes settings and non-transactional information about business e
 * Payment terms
 * Credit limit
 
-You set up synchronization in the subsidiary companies. Using a pull model, subsidiaries pull the data from the source company that they need to do business with them. After you set up synchronization and synchronize data for the first time, you're all set. Records in the tables are coupled, and job queue entries immediately start updating data in subsidiaries when someone makes a change in the source company.
+You set up synchronization in the subsidiary companies. Using a pull model, subsidiaries pull the data from the source company that they need to do business with them. After you set up synchronization and synchronize data for the first time, you're all set. Job queue entries update coupled records in the subsidiaries when someone changes data in the source company.
 
 ## Uni-directional synchronization only
 
@@ -34,10 +34,13 @@ You can synchronize data only from the source company to the subsidiary companie
 
 ## Before you start
 
-These are the requirements for setting up synchronization.
+The following are requirements for setting up synchronization.
 
 * All companies must be in the same environment.
-* The user who sets up the subsidiary must have the **Master Data Mgt. - View** permission set. The permission set is available in the Premium and Essential licenses. The Team Member license lets someone access but not modify records, so it can't be used to set up the synchronization.
+* The user who sets up the subsidiary must have the **Essential**, **Premium**, or **Basic ISV** license.
+
+> [!NOTE]
+> The Team Member and Internal Administrator licenses let you access but not modify records, so they can't be used to set up the synchronization. The Delegated Admin license doesn't let you schedule background tasks, so you won't be able to complete the setup.
 
 ## Specify the source company
 
@@ -52,7 +55,7 @@ The next step is to enable tables and fields for synchronization.
 
 ## Enable or disable tables and fields
 
-To save time, [!INCLUDE [prod_short](includes/prod_short.md)] provides a list of tables that businesses often synchronize. By default, these tables are enabled for synchronization, but you can modify, disable, or delete them as you see fit. As an additional time-saver, some fields on the tables are already disabled because they probably aren't relevant for the subsidiary.
+To save time, [!INCLUDE [prod_short](includes/prod_short.md)] provides a list of tables that businesses often synchronize. By default, these tables are enabled for synchronization. You can modify, disable, or delete them as you see fit. As an extra time-saver, some fields on the tables are already disabled because they probably aren't relevant for the subsidiary.
 
 > [!NOTE]
 > If one or more extensions are installed in the source company, when a subsidiary sets up synchronization the **Synchronization Tables** page includes tables from the extensions, and you can access their fields. However, if the source company adds an extension after synchronization is set up, each subsidiary must manually add the tables. To learn more about adding tables, go to [Add or delete tables from the synchronization tables list](#add-or-delete-tables-from-the-synchronization-tables-list). To learn more about extending [!INCLUDE [prod_short](includes/prod_short.md)], go to [Developing extensions in Visual Studio Code](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview#developing-extensions-in-visual-studio-code).
@@ -74,7 +77,7 @@ To save time, [!INCLUDE [prod_short](includes/prod_short.md)] provides a list of
 
 ### Use match-based coupling
 
-You can specify the data to synchronize for an table by matching records based on criteria. On the **Master Data Management Setup** page, choose the **Match-Based Coupling** action to open the **Select Coupling Criteria** page. You can define the following criteria for your matching:
+You can specify the data to synchronize for a table by matching records based on criteria. On the **Master Data Management Setup** page, choose the **Match-Based Coupling** action to open the **Select Coupling Criteria** page. You can define the following criteria for your matching:
 
 * Whether to synchronize after you couple records.
 * Whether to create a new record in the subsidiary company if a unique, uncoupled match can be found by using the match criteria. To activate this capability, turn on the **Create New if Unable to Find a Match** action.
@@ -85,8 +88,11 @@ You can specify the data to synchronize for an table by matching records based o
 
 When you're ready, on the **Master Data Management Setup** page, choose the **Start Initial Synchronization** action. On the **Master Data Initial Synchronization** page, choose the type of synchronization that you want to use for each table.
 
-* If you already have records in both the source and the subsidiary companies, and you want to match existing records, choose the **Use Match-Based Coupling** action. [!INCLUDE [prod_short](includes/prod_short.md)] will match records in the subsidiary company with records in the source company based on matching criteria that you define. For sevaral default tables, [!INCLUDE [prod_short](includes/prod_short.md)] has already matched existing records by using their primary key, but you can change that if you want. You can also let the synchronization create new records in the subsidiary for records in the source company that the subsidiary doesn't have. To learn more about matching, go to [Use match-based coupling](#use-match-based-coupling).
-* If you choose **Run Full Synchronization**, the synchronization will create new records for all records in the source company that aren't coupled yet. Typically, this option is useful if the subsidiary doesn't have any data in the table, or if you just want to add records from the source company, without matching.  
+* If you already have records in both the source and the subsidiary companies, and you want to match existing records, choose the **Use Match-Based Coupling** action. [!INCLUDE [prod_short](includes/prod_short.md)] matches records in the subsidiary company with records in the source company. The matches are based on matching criteria that you define. For several default tables, [!INCLUDE [prod_short](includes/prod_short.md)] has already matched existing records by using their primary key, but you can change that if you want. You can also let the synchronization create new records in the subsidiary for records in the source company that the subsidiary doesn't have. To learn more about matching, go to [Use match-based coupling](#use-match-based-coupling).
+* If you choose **Run Full Synchronization**, synchronization creates new records for all records in the source company that aren't coupled yet. For example, this option is useful in the following scenarios:
+
+    * The subsidiary doesn't have data in the table.
+    * You want to add records from the source company without matching.  
 
 After you choose the option to use, choose the **Start All** action to start the synchronization.
 
@@ -118,7 +124,7 @@ To access details, such as the number of records that are inserted or modified, 
 
 ## Use export and import to share a synchronization setup
 
-If you're setting up several subsidiaries that will use the same, or similar, synchronization settings, you can save time by setting up one subsidiary company and then exporting its setup to an .xml file. The file contains the entire setup, including table and field mappings and filter criteria. You can then import the file to the next subsidiary. To import or export a setup, on the **Master Data Management Setup** page, use the **Import** or **Export** actions.
+If you're setting up several subsidiaries that use the same or similar synchronization settings, there's a time saver. Set up one subsidiary company and then export its setup to an .xml file. The file contains the entire setup, including table and field mappings and filter criteria. You can then import the file to the next subsidiary. To import or export a setup, on the **Master Data Management Setup** page, use the **Import** or **Export** actions.
 
 ## See Also
 

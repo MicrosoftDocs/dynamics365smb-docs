@@ -10,4 +10,4 @@ ms.author: bholtorf
 >
 > Security groups are similar to the user groups that are currently available. However, user groups are only relevant for [!INCLUDE [prod_short](prod_short.md)]. Security groups are based on groups in Microsoft 365 admin center or Azure portal. That benefits administrators because they can use their security groups with other Dynamics 365 apps. For example, if salespeople use [!INCLUDE [prod_short](prod_short.md)] and SharePoint, administrators don't have to recreate the group and its members.
 >
-> Security groups will replace user groups in a future release. You can continue using user groups to manage permissions until then. To start using security groups now, your administrator can turn on **Feature: Convert user group permissions** on the **Feature Management** page. To learn more about security groups, go to [Control Access to Business Central Using Security Groups](../ui-security-groups.md).
+> To learn more about security groups, go to [Control Access to Business Central Using Security Groups](../ui-security-groups.md).

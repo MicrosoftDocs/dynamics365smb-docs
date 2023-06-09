@@ -1846,6 +1846,7 @@
 ### [Administration Tasks](admin-setup-and-administration.md)
 ### Manage Access to Business Central
 #### [Overview](admin-access-overview.md)
+#### [Control Access to Business Central Using Security Groups](ui-security-groups.md)
 #### Access with Microsoft 365 Licenses
 ##### [Overview](admin-access-with-m365-license.md)
 ##### [Set Up Access with Microsoft 365 Licenses](admin-access-with-m365-license-setup.md)

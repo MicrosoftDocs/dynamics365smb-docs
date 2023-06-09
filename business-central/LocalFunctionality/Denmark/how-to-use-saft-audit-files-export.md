@@ -15,11 +15,11 @@ ms.author: altotovi
 
 # Export the SAF-T audit file format in Denmark
 
-You can export all mandatory required data according to the SAF-T format in Denmark. SAF-T (Standard Audit File for Tax) is an international standard for the electronic exchange of reliable accounting data from organizations to a national tax authority or external auditors. Danish tax authorities are using the OECD standard SAF-T as the standard file format for the reporting. However, some specific Danish fields exist in this file export.  
+You can export all mandatory required data according to the Standard Audit File for Tax (SAF-T) format in Denmark. SAF-T is an international standard for the electronic exchange of reliable accounting data from organizations to a national tax authority or external auditors. Danish tax authorities use Organization for Economic Co-operation and Development (OECD) standard SAF-T as the standard file format for reporting. However, some Denmark-specific fields exist in this file export.
 
 ## Exporting audit files
 
-Exporting the SAF-T file format in Danish localization is based on the Microsoft app, **Audit Files Extension**.
+Export of the SAF-T audit file format in the Danish localization is based on the **Audit Files Extension** Microsoft app.
 
 [!INCLUDE [finance-how-to-export-audit-files](../../finance-how-to-export-audit-files.md)]
 

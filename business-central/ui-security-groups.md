@@ -12,37 +12,37 @@ ms.date: 02/08/2023
 
 # Control Access to Business Central Using Security Groups
 
-[!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
+Security groups make it easier for administrators to manage user permissions. For example, for [!INCLUDE [prod_short](includes/prod_short.md)] online, they're reusable across Dynamics 365 applications, such as SharePoint Online, CRM Online, and [!INCLUDE [prod_short](includes/prod_short.md)]. Administrators add permissions to their [!INCLUDE [prod_short](includes/prod_short.md)] security groups, and when they add users to the group the permissions apply to all members. For example, an administrator can create a [!INCLUDE [prod_short](includes/prod_short.md)] security group that gives salespeople the ability to create and post sales orders. Or, let purchasers do the same for purchase orders.
 
-Security groups make it easier for administrators to manage user permissions in their Dynamics 365 applications, such as SharePoint Online, CRM Online, and the online version of [!INCLUDE [prod_short](includes/prod_short.md)]. Administrators add permissions to their security groups, and when they add users to the group the permissions apply to all members. For example, an administrator can create a security group that gives salespeople the ability to create and post sales orders. Or, let purchasers do the same for purchase orders.
+## Business Central online and on-premises
 
-Create your security groups in your Microsoft 365 admin center or Azure Active Directory. This article describes the steps in Microsoft 365 admin center, but the steps are similar in both.
+You can use security groups for the online and on-premises versions of [!INCLUDE [prod_short](includes/prod_short.md)]. Depending on your version, create groups in one of the following ways:
 
-## Add a security group in the Microsoft 365 admin center
+* For the online version, use Azure Active Directory security groups. To learn more about creating the group, go to [Create, edit, or delete a security group in the Microsoft 365 admin center](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
+* For on-premises, use Windows Active Directory groups. To learn more, go to [Create a Group Account in Active Directory](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory).
 
-1. In Microsoft 365 admin center, go to the **Active teams & groups** page.
-2. Choose **Add a group**.
-3. Choose the **Security** type of group, and then choose **Next**.
-4. Specify the basics for your group.
-5. Optional: Make the members of the group available for role assignment. To learn more about the assignments, go to [Use Azure AD groups to manage role assignments](/azure/active-directory/roles/groups-concept).
-6. Open the group, and then use the **Add members** tab to include people in the group.
+Afterward, create a corresponding security group in [!INCLUDE [prod_short](includes/prod_short.md)], and then link it to the group you created. To learn more, go to [Add a security group in Business Central](#add-a-security-group-in-business-central).
+
+> [!NOTE]
+> If you've set up a special type of user with a Windows Group license type in a version of [!INCLUDE [prod_short](includes/prod_short.md)] on-prem that's earlier than 2023 release wave 1, when you upgrade [!INCLUDE [prod_short](includes/prod_short.md)] converts the user to a security group. The new security group has the same name as the Windows group name. The security group gives you a better overview of the group members and their effective permissions.
 
 ## Add a security group in Business Central
 
-In [!INCLUDE [prod_short](includes/prod_short.md)], create a security group and then link it to the security group in the Microsoft 365 admin center. Your new group contains the members you added in Microsoft 365 admin center.
-
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Security Groups**, and then choose the related link.
-2. Choose **New** to create a group.
-3. In the **Name** field, enter a name for the group.
-4. In the **AAD security group name** field, enter the name of the security group exactly as it appears in Microsoft 365 admin center. [!INCLUDE [prod_short](includes/prod_short.md)] will find that group and link it to this group.
+1. Choose **New** to create a group.
+1. Create the link to your group, as follows:
+
+    * For [!INCLUDE [prod_short](includes/prod_short.md)] online, choose the group in the **AAD security group name** field.
+    * For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, choose the group in the **Windows group name** field.
 
 > [!NOTE]
-> The users that show in the **Members** card on the FactBox pane or the **Security Group Members** page only if they've been added as users in [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more about adding users, go to [To add users or update user information and license assignments in Business Central](ui-how-users-permissions.md#adduser).  
+> The users show in the **Members** card on the FactBox pane or the **Security Group Members** page only if they're added as users in [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more about adding users, go to [To add users or update user information and license assignments in Business Central](ui-how-users-permissions.md#adduser).  
 
-### Assign permissions to the group
+### Assign permissions to a security group
 
 1. On the **Security Groups** page, choose the group, and then choose the **Permissions** action.
 1. Assign permissions in the following ways:
+
     * To assign permission sets individually, in the **Permission Set** field, choose the permissions to assign.
     * To assign multiple permission sets, choose the **Select Permission Sets** action, and then choose the sets to assign.
 
@@ -54,7 +54,19 @@ Permissions are also available on the **Users** page. The FactBox pane shows the
 
 ## Security groups and user groups
 
-If you have user groups, you can convert the groups to permission sets in your tenant by using the **User Group Migration** assisted setup guide. To start the guide, on the **Feature Management** page, find **Feature: Convert user group permissions**, and then choose **All Users** in the **Enabled For** field. The assisted setup guide offers the following options for the conversion.
+> [!NOTE]
+> User groups will no longer be available in a future release.
+
+Security groups are very similar to the user groups that are currently available. However, user groups are only relevant for [!INCLUDE [prod_short](includes/prod_short.md)]. Security groups are based on groups in Azure Active Directory or Windows Active Directory, depending on whether you're using [!INCLUDE [prod_short](includes/prod_short.md)] online or on-premises, respectively. Groups benefit administrators because they can use them with other Dynamics 365 apps. For example, if salespeople use [!INCLUDE [prod_short](includes/prod_short.md)] and SharePoint, administrators don't have to recreate the group and its members.
+
+### Optional: Convert user groups to permission sets
+
+In 2023 release wave 1 and later, you can convert user groups to permission sets in your tenant. The permission sets provide the same functionality as user groups. Here are some examples:
+
+* You can use the **Users** FactBox to manage permissions for users.
+* You can drill down on the permission set name to add other permission sets to the set you're working on. To learn more, go to [To add other permission sets](ui-define-granular-permissions.md#to-add-other-permission-sets).
+
+Use the **User Group Migration** assisted setup guide to convert your groups. To start the guide, on the **Feature Management** page, find **Feature: Convert user group permissions**, and then choose **All Users** in the **Enabled For** field. The assisted setup guide offers the following options for the conversion.
 
 |Option  |Description  |
 |---------|---------|

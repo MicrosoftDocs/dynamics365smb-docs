@@ -60,7 +60,7 @@ Repeat steps 2-6 for all online shops that you want to connect.
 
 - The browser blocks the pop-up window. When you turn on the **Enabled** toggle, [!INCLUDE [prod_short](../includes/prod_short.md)] opens the **Waiting for a response - do not close this page** page while it waits for an access token from Shopify. If that page is closed or blocked, you can't connect to Shopify. Learn more at [Request the access token](troubleshoot.md#request-the-access-token)
 - [Error: Oauth error invalid_request: Could not find Shopify API application with api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
-- [Can't connect from sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
+- [Can't connect from sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Next steps
 
@@ -96,7 +96,11 @@ If you must use this configuration, we recommend that you review and probably di
 * **Shopify can update customers** to not update existing customers
 * **Auto Create Sales Order** to not create sales orders and sales invoices
 
+For more information, see [Restoring an Environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
+
 ### Shopify production and Business Central sandbox
+
+It might be a good idea to backup your data. For example, export your products and customers. For more information, see [Using CSV files to back up store information](https://help.shopify.com/en/manual/shopify-admin/duplicate-store#using-csv-files-to-back-up-store-information).
 
 Turn off the **Allow Data Sync to Shopify** toggle so that [!INCLUDE[prod_short](../includes/prod_short.md)] doesn't write to Shopify. In this case, you'll be able to import products, images, customers, and orders from Shopify. But you won't be able to send item, prices, inventory levels, customers, fulfillment information to Shopify.
 

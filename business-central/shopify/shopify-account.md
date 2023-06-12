@@ -50,6 +50,9 @@ After creating the store, in the **Shopify Admin** of the created shop, apply th
   1. *(for testing) Bogus Gateway*. For more information, see [Activate Bogus Gateway for testing](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
   2. *Shopify payments* in test mode. Learn more at [Testing Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
 
+> [!Note]  
+> Development stores are usually password protected. When you try to open a specific page in your online store from [!INCLUDE [prod_short](../includes/prod_short.md)], for example to go to a specific product or order, you'll need to enter your password. While you're testing, to avoid having to enter your password, sign in to your Shopify admin and open your store from there. You won't need to enter the store password until you close your browser or your session expires.  
+
 ## See Also
 
 [Get Started with the Shopify Connector](get-started.md)  

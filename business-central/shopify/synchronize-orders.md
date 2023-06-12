@@ -1,13 +1,13 @@
 ---
 title: Synchronize and Fulfill Sales Orders
 description: Set up and run import and processing of sales order from Shopify.
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Synchronize and Fulfill Sales Orders
@@ -32,7 +32,20 @@ If you want to automatically release a sales document, turn on the **Auto Releas
 
 The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add a field that isn't already displayed on the page. To learn more about adding a field, go to [To start personalizing a page through the **Personalizing** banner](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). If you select the **Shopify Order No. on Doc. Line** field, this information is repeated on the sales lines of the type **Comment**.
 
-In the **Tax area source** field, you can set the priority on how to select tax area code or VAT business posting group based on address. The imported Shopify order contains information about taxes, but the taxes get recalculated when you create the sales document so it's important that the VAT/tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. For more information about taxes, see [Set Up Taxes for the Shopify Connection](setup-taxes.md).
+In the **Tax area priority** field, you can set the priority on how to select tax area code on addresses in order. The imported Shopify order contains information about taxes. Taxes are recalculated when you create the sales document, so it's important that the VAT/tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. For more information about taxes, see [Set Up Taxes for the Shopify Connection](setup-taxes.md).
+
+Specify how you'll process returns and refunds:
+
+* **Blank** specifies that you don't import and process returns and refunds.
+* **Import only** specifies that you import information, but you'll manually create the corresponding credit memo.
+* **Auto create credit memo** specifies that you import information and [!INCLUDE[prod_short](../includes/prod_short.md)] automatically creates the credit memos. This option requires that you turn on the **Auto Create Sales Order** toggle.
+
+Specify a location for returns, and G/L accounts for refunds for goods and other refunds.
+
+* **Refund Account non-restock Items** - Specifies a G/L Account No. for items where you don't want to have an inventory correction.
+* **Refund Account** - Specifies a G/L account for the difference in the total refunded amount and the total amount of the items.
+
+Learn more at [Returns and refunds](synchronize-orders.md#returns-and-refunds)
 
 ### Shipment method mapping
 
@@ -75,7 +88,7 @@ The following procedure describes how to import and update the sales orders.
 5. Define filters on orders as necessary. For example, you can import fully paid orders or the ones with a low-risk level.
 
 > [!NOTE]  
-> When filtering by tag, you should use filter tokens `@` and `*`. For example if you want to import orders containing *tag1*, use `@*tag1*`. `@` will ensure that result is case incensitive, while `*` find orders with multiple tags.
+> When filtering by tag, you should use filter tokens `@` and `*`. For example if you want to import orders containing *tag1*, use `@*tag1*`. `@` will ensure that result is case insensitive, while `*` find orders with multiple tags.
 
 6. Choose the **OK** button.
 
@@ -118,7 +131,7 @@ If your settings prevent creating a customer automatically and a proper existing
 
 The *Import order from Shopify* function tries to select customers in the following order:
 
-1. If the **Default Customer No.** field is defined in the **Shopify Customer Template** for the corresponding country, then the **Default Customer No.** is used, regardless of the settings in the **Customer Import From Shopify** and **Customer Mapping Type** fields. Learn more at [Customer Template per Country](synchronize-customers.md#customer-template-per-country).
+1. If the **Default Customer No.** field is defined in the **Shopify Customer Template** for the **Ship-to Country/Region Code**, then the **Default Customer No.** is used, regardless of the settings in the **Customer Import From Shopify** and **Customer Mapping Type** fields. Learn more at [Customer Template per Country](synchronize-customers.md#customer-template-per-country).
 2. If the **Customer Import From Shopify** is set to *None* and the **Default Customer No.** is defined on the **Shopify Shop Card** page, then the **Default Customer No.** is used.
 
 The next steps depend on the **Customer Mapping Type**.
@@ -129,6 +142,28 @@ The next steps depend on the **Customer Mapping Type**.
 
 > [!NOTE]  
 > The connector uses information from the bill-to address and creates the bill-to customer in [!INCLUDE[prod_short](../includes/prod_short.md)]. The sell-to customer is the same as the bill-to customer.
+
+### Different processing rules for orders
+
+You might want to process orders differently based on a rule. For example, orders from a specific sales channel, like POS, should use the default customer, but you want your online store to have real information about the customer.
+
+One way to address this requirement is to create an additional Shopify Shop card and use filters in the **Sync Orders from Shopify** request page.
+
+Example: you have online store as well as a Shopify POS. For your POS, you want to use a fixed customer, but for your online store you want to create customers in [!INCLUDE[prod_short](../includes/prod_short.md)]. The following procedure lists the high-level steps. To learn more, go to the corresponding help articles.
+
+1. Create a Shopify shop called *STORE* and link it to your Shopify account.
+2. Configure item/product synchronization so that this store manages product information.
+3. Specify that customers are imported with orders. The connector should find customers by looking for their email address. If it doesn't find an address, it uses the customer template to create a new customer.
+4. Create a Shopify shop called *POS* and link it to same Shopify account.
+6. Make sure that item/product synchronization is disabled.
+7. Select the connector that uses the default customer.
+8. Create a recurring job queue entry for Report 30104 **Sync orders from Shopify**. Select **STORE** in the **Shopify Shop Code** field, and use filters to catch all orders except those that the POS sales channel creates. For example, **<>Point of Sale**
+9. Create a recurring job queue entry for the Report 30104 **Sync orders from Shopify**. Select **POS** in the **Shopify Shop Code** field, and use filters to catch orders generated by POS sales channel. For example, **Point of Sale**.
+
+Each job queue will import and process orders within the defined filters and use the rules from the corresponding Shopify Shop card. For example, they'll create point of sales orders for the default customer.
+
+>![Important]
+> To avoid conflicts when processing orders, remember to use the same job queue category for both job queue entries.
 
 ### Impact of order editing
 
@@ -184,6 +219,27 @@ The tracking company is populated in the following order (from highest to lowest
 * **Code**
 
 If the **Package Tracking URL** field is filled in for the shipping agent record, then the shipping confirmation will contain a tracking URL as well.
+
+## Returns and refunds
+
+In an integration between Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)], it's important to be able to synchronize as much business data as possible. That makes it easier to keep your finance and inventory levels up to date in [!INCLUDE[prod_short](../includes/prod_short.md)]. The data you can synchronize includes returns and refunds that were recorded in Shopify Admin or Shopify POS.
+
+Returns and refunds are imported with their related orders if you enabled the processing type on the Shopify Shop Card.
+
+Returns are imported for informational purposes only. There is no processing logic associated with them.
+
+Financial and, if needed, inventory transactions are processed via refunds. Refunds can include products or just amounts, for example, if a merchant decided to compensate shipping charges or some other amount.
+You can create sales credit memos for refunds. The credit memos can have the following types of lines:
+
+|Type|No.|Comment|
+|-|-|-|
+|G/L Account|Sold Gift Card Account| Use for refunds related to gift cards.|
+|G/L Account|Refund Account Non-stock | Use for refunds related to products that weren’t restocked. |
+|Item |Item No.| Use for refunds related to products that were restocked. Valid for direct refunds or refunds linked to refunds. The location code on credit more line is set based on the value selected for the return location.|
+|G/L Account| Refund Account | Use for other refunded amounts that aren't related to products or gift cards. For example, tips, or if you manually specified an amount to refund in Shopify. |
+
+>[!Note]
+>The return location, including blank locations, defined in the **Shopify Shop Card** are used on the created credit memo. The system ignores the original locations from orders or shipments.
 
 ## Gift cards
 

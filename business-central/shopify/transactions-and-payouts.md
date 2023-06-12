@@ -1,13 +1,13 @@
 ---
 title: Synchronize and transactions and payouts
 description: Set up and run import of transactions and payouts from Shopify.
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: 30124, 30125, 30130, 30131, 30132, 30133, 30134, 
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Transactions and payouts
@@ -21,6 +21,8 @@ If you use Shopify Payment as a payment provider, then in addition to informatio
 The payment transactions that take place in Shopify are synchronized with the orders and can be viewed on the **Shopify Orders** page.
 
 To review all transactions, choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Transactions**, and select the related link.
+
+The **Posted Invoice No.** field can be helpful in the reconciliation process.
 
 If you configured a payment method mapping then the created sales document will have a Payment Method Code assigned. Learn more at [Payment Method Mapping](#payment-method-mapping).
 

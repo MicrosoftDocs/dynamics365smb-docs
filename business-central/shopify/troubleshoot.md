@@ -64,7 +64,7 @@ This function only applies to syncs from Shopify to [!INCLUDE[prod_short](../inc
 
 ## Request the access token
 
-If [!INCLUDE[prod_short](../includes/prod_short.md)] won't connect to your Shopify account, try to request the access token from Shopify. You might need the token if there were changes to the security keys or required permissions (scopes).
+If [!INCLUDE[prod_short](../includes/prod_short.md)] won't connect to your Shopify account, try to request the access token from Shopify. You might need to request a new token if there were changes to the security keys or required permissions (application scopes).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify shops**, and choose the related link.
 2. Select the shop for which you want to get the access token to open the **Shopify Shop Card** page.
@@ -73,7 +73,7 @@ If [!INCLUDE[prod_short](../includes/prod_short.md)] won't connect to your Shopi
 
 The **Has AccessKey** toggle will be activated.
 
-### Verify and enable permissions to make HTTP requests in a non-production environment
+## Verify and enable permissions to make HTTP requests in a non-production environment
 
 To work correctly, the Shopify Connector extension requires permission to make HTTP requests. When testing in a sandbox, HTTP requests are prohibited for all extensions.
 
@@ -125,7 +125,7 @@ Remember to the share AL call stack information with the supplier of the extensi
 
 ### Error: Gen. Bus. Posting Group must have a value in Customer: 'YOUR SHOPIFY STORE'. It cannot be zero or empty
 
-On the **Shopify Shop Card** page, fill in the **Customer Template Code** field with the template that has **Gen. Bus. Posting Group** populated. The customer template is used to create customers and to calculate sales prices on sales documents.
+On the **Shopify Shop Card** page, in the **Customer Template Code** field, choose the template that has **Gen. Bus. Posting Group** populated. The customer template is used to create customers and to calculate sales prices on sales documents.
 
 ### Error: Importing data to your Shopify shop isn't enabled. Go to the shop card to enable it
 
@@ -134,6 +134,10 @@ On the **Shopify Shop Card** page, turn on the **Allow Data Sync to Shopify** to
 ### Error: Oauth error invalid_request: Could not find Shopify API application with api_key
 
 It seems you use the [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), where the client URL has the format: `https://[application name].bc.dynamics.com`. The Shopify connector doesn't work for Embed Apps. To learn more, go to [Which Microsoft products are the Shopify connector available for?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
+
+### Error: Internal Error. Looks like Something Went Wrong on Our End. Request Id: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
+
+Please contact Shopify support within 7 days of experiencing this error, and provide the Request ID. To learn more, go to [Support options for Shopify](shopify-faq.md#shopify).
 
 ## See also
 

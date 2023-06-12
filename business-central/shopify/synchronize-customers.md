@@ -1,18 +1,18 @@
 ---
 title: Synchronize customers
 description: Import customers from or export to Shopify 
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: 30105, 30106, 30107, 30108, 30109, 
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Synchronize Customers
 
-When an order is imported from Shopify, getting the information about the customer is essential for further processing the document in [!INCLUDE[prod_short](../includes/prod_short.md)]. There are two main options for doing so and their combinations:
+When you import an order from Shopify, getting the information about the customer is essential for further processing the document in [!INCLUDE[prod_short](../includes/prod_short.md)]. There are two main options for doing so, and several combinations:
 
 * Use a special customer for all orders.
 * Import the actual customer information from Shopify. This option is also available when you export customers to Shopify from [!INCLUDE[prod_short](../includes/prod_short.md)] first.
@@ -36,10 +36,9 @@ Some settings can be defined at the country/regional level or a state/province l
 You can do the following for each customer using the **Shopify Customer Template**:
 
 1. Specify the **Default Customer No.**, which takes priority over the selection in the **Customer Import from Shopify** and **Customer Mapping Type** fields. It's used in the imported sales order.
-2. Define the **Customer Template Code**, which is used to create missing customers if **Auto Create Unknown Customers** is enabled. If the **Customer Template Code** is empty, then the function uses the **Customer Template Code** defined on the **Shopify Shop Card**.
-3. Define whether prices include VAT/tax for imported orders.
-4. In some cases, the **Customer Template Code** defined for a country isn't enough to ensure the correct calculation of taxes (for example, for countries with sales tax). In this case, including **Tax Areas** could be a useful addition.
-5. The **Tax Area** field also contains a **Country Code** and **County Name** pair. This pair is useful when the connector needs to convert a code to a name, or vice versa.
+2. Define the **Customer Template Code**, which is used to create missing customers if **Auto Create Unknown Customers** is enabled. If the **Customer Template Code** is empty, then the function uses the **Customer Template Code** defined on the **Shopify Shop Card**. The system first tries to find a template for the **Contry/Region Code** for the default address. If it doesn't find a template, it uses the first address.
+3. In some cases, the **Customer Template Code** defined for a country isn't enough to ensure correct tax calculations (for example, for countries with sales tax). In this case, including **Tax Area** could be a useful addition.
+4. The **Tax Area** field also contains a **Country Code** and **County Name** pair. This pair is useful when the connector needs to convert a code to a name, or vice versa.
 
 > [!NOTE]  
 > The country codes are ISO 3166-1 alpha-2 country codes. Learn more at [Country Code](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).

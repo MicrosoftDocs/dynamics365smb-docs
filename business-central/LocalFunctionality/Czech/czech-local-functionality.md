@@ -54,12 +54,11 @@ The following topics describe the local functionality in the Czech version of [!
 
 ## Future legislation requirements being investigated
 
-* Activate VAT reporting date in CZ localization **2023 release wave 1**
-* Modern Intrastat solution for CZ **2023 release wave 1**
-* New Blanket purchase order report **2023 release wave 1**
-* Bulk release of documents **2023 release wave 1**
-* Find posted and non-posted document lines in search **2023 release wave 1**
-* Modern Action Bar in CZ localization apps **2023 release wave 1**
+* Modern Intrastat solution for CZ - planned for **2023 release wave 2**
+* Advance Payments - Posting preview of tax documents - planned for **2023 release wave 2**
+* Intercompany posting cues to the Accountant CZ Role Center - planned for **2023 release wave 2**
+* Direct Transfer: Adding general Business Posting Groups and reports improvements - planned for **2023 release wave 2**
+
 
 If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

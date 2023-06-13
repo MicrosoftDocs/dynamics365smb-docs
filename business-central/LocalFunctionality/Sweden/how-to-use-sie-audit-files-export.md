@@ -27,9 +27,7 @@ Even if the feature is preinstalled, it isn't enabled by default. Follow these s
 
 ## Audit files export 
 
-When you enable **SIE Audit Files Export** in Feature Management, you're guided through a wizard to set up the feature. However, you can set up the feature later by running the **SIE Audit File Export Setup Guide** page. If you want to manually set up the system, follow these steps.
-
-[!INCLUDE [Audit Files Export](../../finance-how-to-export-audit-files.md)]
+When you enable **SIE Audit Files Export** in Feature Management, you're guided through a wizard to set up the feature. However, you can set up the feature later by running the **SIE Audit File Export Setup Guide** page. If you want to manually set up the system, follow the steps in the article, [Audit files export](../../finance-how-to-export-audit-files.md).
 
 ### Set up SIE dimensions
 

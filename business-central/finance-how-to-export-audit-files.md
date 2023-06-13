@@ -101,6 +101,6 @@ Follow these steps to provide the G/L account mapping for audit file export.
 [Financial Management](finance.md)  
 [Understanding the General Ledger and Chart of Accounts](finance-general-ledger.md)  
 [Work with Dimensions](finance-dimensions.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with Business Central](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

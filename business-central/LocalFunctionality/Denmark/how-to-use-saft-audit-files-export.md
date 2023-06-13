@@ -19,9 +19,7 @@ You can export all mandatory required data according to the Standard Audit File 
 
 ## Exporting audit files
 
-Export of the SAF-T audit file format in the Danish localization is based on the **Audit Files Extension** Microsoft app.
-
-[!INCLUDE [finance-how-to-export-audit-files](../../finance-how-to-export-audit-files.md)]
+Export of the SAF-T audit file format in the Danish localization is based on the **Audit Files Extension** Microsoft app. For more information, see [Audit file export](../../finance-how-to-export-audit-files.md)]
 
 
 

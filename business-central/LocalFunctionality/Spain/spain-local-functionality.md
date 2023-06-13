@@ -70,7 +70,7 @@ The following topics describe local functionality unique to the Spanish version 
 
 * Non-deductible VAT update in Spain - planned dor **August 2023**
 * Requirements for Spanish e-invoicing - planned for **2024 release wave 2**
-* We are currently researching requirments related with the *Antifraud Law* in Spain and its impact on Business Central
+* Requirments related with the *Antifraud Law* in Spain and the impact on Business Central 
 
 If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

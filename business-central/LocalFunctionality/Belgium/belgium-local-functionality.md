@@ -71,7 +71,8 @@ The following topics describe local functionality that is unique to the Belgian 
 
 ## Future legislation requirements being investigated
 
-* Redesigned and upgraded non-deductible VAT **July 2023**
+* Redesigned and upgraded non-deductible VAT **August-September 2023**
+* Reception of e-invoices **research phase**
 
 If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

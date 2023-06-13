@@ -1,22 +1,20 @@
 ---
-    title: Audit file export
-    description: This article explains how to set up different export formats and then use them, based on auditor or authority requirements.
-    author: altotovi
-    ms.service: dynamics365-business-central
-    ms.topic: how-to
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: audit, export, SIE, SAF-T, FAC, GDPdU, file export
-    ms.search.form: 5260, 5261, 5264, 5266, 5267, 5270
-    ms.date: 04/04/2023
-    ms.author: altotovi
-    ms.reviewer:
-
+title: Audit file export
+description: This article explains how to set up different export formats and then use them, based on auditor or authority requirements.
+author: altotovi
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: audit, export, SIE, SAF-T, FAC, GDPdU, file export
+ms.search.form: 5260, 5261, 5264, 5266, 5267, 5270
+ms.date: 04/04/2023
+ms.author: altotovi
+ms.reviewer: kfend
 ---
 
 # Audit file export
-
 Export of bookkeeping information from the system is a common request by some local authorities or auditors. Exports of formats and required information can differ. Entries for export are usually General ledger (G/L) entries or value-added tax (VAT) entries. However, other information is sometimes required.
 
 **Audit Files Export** is a preinstalled extension that lets you export different entries, based on auditor or authority requirements. Regardless of the format type or entries, you can use the extension's functionality to control the data export process. The functionality doesn't have a preinstalled file format for export. Therefore, you must either install an app that has a specific format (for example, SIE, SAF-T, or FAC) or develop your own.

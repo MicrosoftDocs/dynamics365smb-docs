@@ -42,7 +42,9 @@ The following topics describe local functionality that is unique to the United S
 
 ## Future legislation requirements being investigated
 
-* New IRS 1099 functionality in an app with more features included **2024 Wave 1**
+* New IRS 1099 functionality as an app with more features and automations included - planned for **2024 Wave 1**
+* EFT improvements - planned for **2024 Wave 1**
+* Tax improvements - planned for **2024 Wave 1**
 
 If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

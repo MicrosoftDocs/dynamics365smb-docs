@@ -32,6 +32,7 @@ The following topics describe local functionality that is unique to the Italian 
     * [Print and Reprint G/L Books and VAT Registers](how-to-print-and-reprint-g-l-books-and-vat-registers.md) **Available Now**
     * [Print Intrastat Reports for Italy](how-to-print-intrastat-reports-for-italy.md) **Available Now**
     * [Print Withholding Reports](how-to-print-withholding-tax-reports.md) **Available Now**
+    * [Intrastat for Services in Italy](../../finance-how-setup-use-service-declaration.md) **Available Now**
 
 * Banking & Payments
     * [Set Up Payment Terms](how-to-set-up-payment-terms.md) **Available Now**
@@ -63,8 +64,7 @@ The following topics describe local functionality that is unique to the Italian 
 
 ## Future legislation requirements being investigated
 
-* Intrastat for Services **May 2023**
-* Redesigned and upgraded non-deductible VAT **July 2023**
+* Redesigned and upgraded non-deductible VAT - planned for **2023 release wave 2**
 * Updated Electronic invoicing (FatturaPA) **2024 release wave 2**
 
 If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).

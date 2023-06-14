@@ -19,6 +19,10 @@ The following topics describe the local functionality in the Danish version of [
 
 ## Feature Availability
 
+* Auditing
+    *  [Export the SAF-T audit file format](how-to-use-saft-audit-files-export.md) planned for **August 2023**
+    *  Standard Chart of Account - planned for **August 2023**
+    *  Upload of CSV file with accounting data to Regnskab Basis - planned for **August 2023**
 * VAT
     * [Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md) **Available Now**
     * [VAT-VIES Reporting](vat-vies-reporting.md) **Available Now**
@@ -40,9 +44,6 @@ The following topics describe the local functionality in the Danish version of [
 
 ## Future legislation requirements being investigated
 
-* SAF-T Audit reporting - planned for **August 2023**
-* Standard Chart of Account - planned for **August 2023**
-* Upload of CSV file with accounting data to Regnskab Basis - planned for **August 2023**
 * Mandatory digital vouchers - planned for **2023 release wave 2**
 * Electronic invoicing with NemHandel - planned for **January 2024**
 * E-submission of VAT return - planned for **2023 release wave 2**

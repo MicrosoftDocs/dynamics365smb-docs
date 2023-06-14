@@ -20,9 +20,11 @@ Attachments, links, and notes stay attached to the card or document while it's p
 You can also add attachments to the emails you send from [!INCLUDE [prod_short](includes/prod_short.md)]. When you send an email directly from a document, such as a sales quote, the **Add file from source document** action lets you choose files that are attached to it. You can only choose files that are attached to the document. You can't choose files that are attached to lines.
 
 > [!NOTE]
-> When you partially ship and invoice a sales or purchase order, the attachment will only be attached to the final invoice of the order. Similarly, when you invoice using the Deferrals feature, the attachment is attached to the G/L entries for the document but not for the deferral entries.
+> When you partially ship and invoice a sales or purchase order, the attachment will only be attached to the final invoice of the order. Similarly, when you invoice deferrals, the attachment is attached to the G/L entries for the document but not for the deferral entries.
 >
-> If you delete an order before it is invoiced, the attachment is also removed. When you invoice purchase orders using the Get Receipt Lines action from a purchase invoice, the attachment on the purchase orders is not added to the purchase invoice.
+> If you delete an order before it is invoiced, the attachment is also removed.
+>
+> When you use the **Get Receipt Lines** action on a purchase invoice, the attachment on the related purchase order is added to the purchase invoice.
 
 ## To attach a file to a purchase invoice
 

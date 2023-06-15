@@ -28,6 +28,20 @@ Currently, there's a limit on how many records a flow can process. If more than 
 > [!NOTE]
 > For developers, the flow triggering is done via webhook notifications, and this limitation is due to the way the Business Central connector handles `collection` notifications. Learn more at [Working with Webhooks in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) in the Developer and Admin help.
 
+## "The response from the Business Central service is too large" error
+
+### Problem
+
+When using an action that interacts with records (such as *Create record (V3)* and *Get record (V3)*), Power Automate might display an error similar to this one:
+
+`The response from the Business Central service is too large`
+
+### Possible cause
+
+Even though Business Central has no set limit on the size of records returned by APIs, the Dynamics 365 Business Central connector for Power Automate can handle only records up to 8 MB.
+
+All the Business Central APIs provided by Microsoft return records under this limit, but APIs provided by partners might not. If you see an error "The response from the Business Central service is too large", reach out to the partner who created the API you're using.
+
 ## "Entity set not found" error
 
 ### Problem

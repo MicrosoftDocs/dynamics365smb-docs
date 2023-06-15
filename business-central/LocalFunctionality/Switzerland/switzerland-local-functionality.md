@@ -67,7 +67,6 @@ The following topics describe local functionality that is unique to the Swiss ve
 
 ## Future legislation requirements being investigated
 
-* DTA Payment Journal details are being deprecated **2023 Wave 1**
 * Update VAT Statement with new Ciphers 303 and 383 **January 2024**
 
 If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).

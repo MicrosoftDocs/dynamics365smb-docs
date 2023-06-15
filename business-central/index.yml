@@ -146,7 +146,7 @@ additionalContent:
       - text: Manage profiles
         url: /dynamics365/business-central/admin-users-profiles-roles  
       - text: Access with Microsoft 365 licenses
-        url: /dynamics365/business-central/ui-define-granular-permissions
+        url: /dynamics365/business-central/admin-access-with-m365-license
     - title: Manage environments
       links:
       - text: Overview
@@ -334,14 +334,16 @@ additionalContent:
         links:
           - text: Overview
             url: /dynamics365/business-central/finance
+          - text: Finance reports
+            url: /dynamics365/business-central/finance-reports
           - text: Manage receivables
             url: /dynamics365/business-central/receivables-manage-receivables
           - text: Manage payables
             url: /dynamics365/business-central/payables-manage-payables   
           - text: Invoicing prepayments
             url: /dynamics365/business-central/finance-invoice-prepayments
-          - text: Reconcile bank accounts
-            url: /dynamics365/business-central/bank-manage-bank-accounts
+      #    - text: Reconcile bank accounts
+       #     url: /dynamics365/business-central/bank-manage-bank-accounts
       - title: Sales
         links:
           - text: Overview

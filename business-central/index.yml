@@ -11,7 +11,7 @@ metadata:
   ms.service: dynamics365-business-central
   author: jswymer
   ms.author: jswymer
-  ms.date: 06/08/2023
+  ms.date: 06/16/2023
   hide_bc: true
 
 highlightedContent:
@@ -340,10 +340,10 @@ additionalContent:
             url: /dynamics365/business-central/receivables-manage-receivables
           - text: Manage payables
             url: /dynamics365/business-central/payables-manage-payables   
-          - text: Invoicing prepayments
-            url: /dynamics365/business-central/finance-invoice-prepayments
-      #    - text: Reconcile bank accounts
-       #     url: /dynamics365/business-central/bank-manage-bank-accounts
+      #    - text: Invoicing prepayments
+      #      url: /dynamics365/business-central/finance-invoice-prepayments
+          - text: Reconcile bank accounts
+            url: /dynamics365/business-central/bank-manage-bank-accounts
       - title: Sales
         links:
           - text: Overview

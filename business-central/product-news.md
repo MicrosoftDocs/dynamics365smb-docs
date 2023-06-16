@@ -1,27 +1,26 @@
 ---
 title: New and planned in the default version
 description: Learn where to find the latest news and updates for new and existing features in the default version of Business Central.
-author: edupont04
-
-
-ms.topic: get-started-article
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
+ms.topic: conceptual
+ms.date: 06/15/2023
+ms.custom: bap-template
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 12/07/2022
-ms.author: edupont
-
 ---
 # New and Planned for Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
-The release plans provide an overview of new and upcoming functionality. Here in the documentation, we provide articles that can help you learn about new and existing features in the default version of [!INCLUDE[prod_long](includes/prod_long.md)].  
-
 The following list provides information about the latest versions of [!INCLUDE [prod_short](includes/prod_short.md)].  
 
+* [2023 release wave 1](/dynamics365/release-plans/)
 * [2022 release wave 2](/dynamics365-release-plan/2022wave2/smb/dynamics365-business-central/planned-features)  
-* [2022 release wave 1](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features)  
 
 You might want to explore the [Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/) site, and the [Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/) site.  
+
+Learn about how your [!INCLUDE [prod_short](includes/prod_short.md)] online gets the next updates at [Major Updates and Minor Updates](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline) (in English only).
 
 ## Get notified about changes through an RSS feed
 

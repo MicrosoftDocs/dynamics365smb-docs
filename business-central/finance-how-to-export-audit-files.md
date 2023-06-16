@@ -1,18 +1,17 @@
 ---
-    title: Audit file export
-    description: This article explains how to set up different export formats and then use them, based on auditor or authority requirements.
-    author: altotovi
-    ms.service: dynamics365-business-central
-    ms.topic: how-to
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: audit, export, SIE, SAF-T, FAC, GDPdU, file export
-    ms.search.form: 5260, 5261, 5264, 5266, 5267, 5270
-    ms.date: 04/04/2023
-    ms.author: altotovi
-    ms.reviewer:
-
+title: Audit file export
+description: This article explains how to set up different export formats and then use them, based on auditor or authority requirements.
+author: altotovi
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: audit, export, SIE, SAF-T, FAC, GDPdU, file export
+ms.search.form: 5260, 5261, 5264, 5266, 5267, 5270
+ms.date: 04/04/2023
+ms.author: altotovi
+ms.reviewer: kfend
 ---
 
 # Audit file export
@@ -99,10 +98,9 @@ Follow these steps to provide the G/L account mapping for audit file export.
 > If you have multiple entries to export, we don't recommend that you export them in the current session, because of possible performance issues. Instead, we recommend that you use parallel processing during non-working days or hours.
 
 ## See also
-
 [Financial Management](finance.md)  
 [Understanding the General Ledger and Chart of Accounts](finance-general-ledger.md)  
 [Work with Dimensions](finance-dimensions.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with Business Central](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -17,6 +17,7 @@ The following articles describe local functionality that is unique to the French
 ## Feature Availability
 
 * VAT
+    * [New Audit Export functionality](export-french-audit-file.md) **Available Now**
     * [Export General Ledger Entries for Tax Audits](how-to-export-general-ledger-entries-for-tax-audits.md) **Available Now**
     * [Export General Ledger Entries to an XML File](how-to-export-general-ledger-entries-to-an-xml-file.md) **Available Now**
     * [Requirements for Reporting Declaration of Trade in Goods](requirements-for-reporting-declaration-of-trade-in-goods.md) **Available Now**
@@ -65,6 +66,7 @@ The following articles describe local functionality that is unique to the French
 * Electronic invoicing - planned for **2024 Wave 1**
 * VAT declaration 2023 format - planned for **August 2023**
 * Prepayments regulatory update - planned for **2023 release wave 2**
+
 
 If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).  
 

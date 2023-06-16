@@ -1,18 +1,14 @@
 ---
 title: Record Special Sales Prices and Discounts
 description: Describes how to define pricing and discount agreements for sales documents.
-author: bholtorf
-
-ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
+ms.date: 06/13/2023
+ms.custom: bap-template
 ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
-ms.date: 06/03/2022
-ms.author: bholtorf
-
 ---
 
 # Record Special Sales Prices and Discounts
@@ -24,7 +20,11 @@ ms.author: bholtorf
 
 * One-price-fits-all models where an item is always sold at the same price.
 * Special price agreements with specific customers, or groups of customers.
-* Campaigns when a sale meets the criteria for a special offer. For example, criteria might be when an order meets a minimum quantity, is before a certain date, or includes a certain type of item.  
+* Campaigns when a sale meets the criteria for a special offer. For example, you might have the following criteria for an order:
+
+  * It meets a minimum quantity
+  * It's before a certain date
+  * It includes a certain type of item  
 
 To use a basic pricing model, you only need to specify a unit price when you set up an item or resource. That price will always be used on sales documents. For more advanced models, for example, when you want to offer special prices for a sales campaign, you can specify criteria on the **Sales Prices** page. You can offer special prices based on a combination of the following information:  
 
@@ -34,13 +34,13 @@ To use a basic pricing model, you only need to specify a unit price when you set
 * Minimum quantity
 * Dates that define the period for which the prices are valid.
 
-After you set up special prices, [!INCLUDE[prod_short](includes/prod_short.md)] can calculate best prices on sales and purchase documents, and on job and item journal lines. Learn more at [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+After you set up special prices, [!INCLUDE[prod_short](includes/prod_short.md)] can calculate best prices on sales and purchase documents, and on lines on jobs and item journals. Learn more at [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 For sales discounts, you can set up two types:
 
 | Discount Type | Description |
 | --- | --- |
-| **Sales Line Discount** |An amount inserted on sales lines if they contain a certain combination of customer, item, minimum quantity, unit of measure, or starting/ending date. This type works in the same way as for sales prices. |
+| **Sales Line Discount** |Add an amount on sales lines that have a certain combination of customer, item, minimum quantity, unit of measure, or starting and ending date. This type works in the same way as for sales prices. |
 | **Invoice Discount** |A discount percentage that is subtracted from the sales document total if the sum of all lines on the document exceeds a certain minimum. |
 
 > [!TIP]  
@@ -87,22 +87,22 @@ When you enable the **New sales pricing experience** feature update on the **Fea
 
 * If you want to work with all prices on a single page, turn it on. Existing prices will be converted to one default price list for each of the following documents:
 
-    * Sales
-    * Purchases
-    * Job sales
-    * Job purchases
+  * Sales
+  * Purchases
+  * Job sales
+  * Job purchases
 
-    You can edit all prices for these areas on the **Prices Worksheet** page. The default price lists will be set on the **Sales & Receivables Setup**, **Purchases & Payables Setup,** and **Jobs Setup** pages. 
+  You can edit all prices for these areas on the **Prices Worksheet** page. The default price lists will be set on the **Sales & Receivables Setup**, **Purchases & Payables Setup,** and **Jobs Setup** pages.
 
 > [!NOTE]
 > If prices are set only on item or resource cards, default price lists will not be filled in with those prices during the data update. However, you can open any of the default price lists or the **Price Worksheet** page and use the **Suggest Lines** action to add the prices set on item or resource cards.
 
-* To use sales price lists, turn it off. Existing prices will be converted to a new price list for each combination of the following things: 
+* To use sales price lists, turn it off. Existing prices will be converted to a new price list for each combination of the following things:
 
-* Customer
-* Customer group or campaign
-* Starting and ending dates
-* Currencies 
+  * Customer
+  * Customer group or campaign
+  * Starting and ending dates
+  * Currencies
 
 If you have many combinations, you'll have many price lists.
 
@@ -160,7 +160,7 @@ If you want to copy sales prices, such as an individual customer's sales prices 
 2. Choose the **Suggest Sales Price on Wksh.** action.  
 3. On the **Sales Prices** FastTab, fill in the **Sales Type** and **Sales Code** fields with the original sales prices you want to copy.  
 4. In the top section of the request page, fill in the **Sales Type** and **Sales Code** fields with the type and name you want the sales prices copied to.  
-5. If you want the batch job to create new prices, select the **Create New Prices** check box.  
+5. If you want the batch job to create new prices, select the **Create New Prices** checkbox.  
 6. Choose the **OK** button to fill in the lines on the **Sales Price Worksheet** page with the suggested new prices, indicating that they're valid for the selected sales type.  
 
    > [!NOTE]  
@@ -168,9 +168,12 @@ If you want to copy sales prices, such as an individual customer's sales prices 
 
 #### [New Experience](#tab/new-experience/)  
 
-You can specify whether the new price list will use the settings from the header on the list you're copying, or the settings from the new list you're copying to. To use the settings from the price list you're copying prices to, turn on the **Use defaults from target** toggle.
+You can specify the settings that the price list will use:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Lists**, and then choose the related link. 
+* Use the settings from the header on the list you're copying.
+* Use the settings from the list you're copying to. To use the settings from the price list you're copying prices to, turn on the **Use defaults from target** toggle.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Lists**, and then choose the related link.
 2. Choose the price list to copy, and then choose **Copy Lines**.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -187,8 +190,17 @@ These steps differ, depending on whether your administrator has turned on the **
 
 To bulk update item prices, such as increase all prices by a percentage, you can fill in the Sales Price Worksheet page by using the following batch jobs:
 
-* **Suggest Sales Price on Wksh.** suggests changes in one of two ways. Either by applying an adjustment factor to existing sales prices, or by copying existing sales price agreements to other customers, customer price groups, or sales campaigns.
-* **Suggest Item Price on Wksh.** suggests changes in one of two ways. Either by applying an adjustment factor to existing unit prices on item cards, or by suggesting prices for new combinations of currency, units of measure, and so on. The unit prices on items aren't changed by this batch job.  
+* **Suggest Sales Price on Wksh.** suggests changes in one of two ways:
+
+  * By applying an adjustment factor to existing sales prices.
+  * By copying existing sales price agreements to other customers, customer price groups, or sales campaigns.
+
+* **Suggest Item Price on Wksh.** suggests changes in one of two ways:
+
+  * By applying an adjustment factor to existing unit prices on item cards.
+  * By suggesting prices for new combinations of currency, units of measure, and so on.
+
+  This batch job doesn't change the unit prices on items.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Price Worksheet**, and then choose the related link.  
 2. Choose the **Suggest Item Price on Wksh.** action.  
@@ -221,7 +233,7 @@ The best price is the lowest price with the highest line discount allowed on a g
 
     * Does the customer have a price/discount agreement, or does the customer belong to a group that does?
     * Is the item or the item discount group on the line included in any of these price/discount agreements?
-    * Is the order date (or the posting date for the invoice and credit memo) within the starting and ending date of the price/discount agreement?
+    * Is the date within the starting and ending date of the price/discount agreement? For invoices and credit memos, this is the date in the **Posting Date** field on the document header. For all other documents, it's the date in the **Order Date** field on their headers.
     * Is a unit of measure code specified? If so, [!INCLUDE[prod_short](includes/prod_short.md)] checks for prices/discounts with the same unit of measure code, and prices/discounts with no unit of measure code.
 
 2. [!INCLUDE[prod_short](includes/prod_short.md)] checks whether any price/discount agreements apply to information on the document or journal line. It then inserts the applicable unit price and line discount percentage using the following criteria:

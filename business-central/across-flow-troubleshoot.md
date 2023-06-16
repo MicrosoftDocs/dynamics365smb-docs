@@ -3,12 +3,11 @@ title: Troubleshoot Your Automated Workflows
 description: Learn how to troubleshoot the connection between Business Central and Power Automate when you build an automated workflow.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate, 
-ms.date: 08/04/2022
-ms.author: edupont
+ms.date: 06/16/2023
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: d365-business-central
 ---
 
 # Troubleshoot Your [!INCLUDE[prod_short](includes/prod_short.md)] Automated Workflows
@@ -19,14 +18,28 @@ When you connect [!INCLUDE [prod_short](includes/prod_short.md)] with Power Auto
 
 ### Problem
 
-If an event creates or changes a lot of records, the flow doesn't run on some or all records.
+If an event creates or changes many records, the flow doesn't run on some or all records.
 
 ### Possible cause
 
-Currently, there's a limit on how many records a flow can process. If more than 100 records are created or changed within 30 seconds, the flow won't be triggered.
+Currently, there's a limit on how many records a flow can process. If more than 100 records are created or changed within 30 seconds, the flow isn't triggered.
 
 > [!NOTE]
 > For developers, the flow triggering is done via webhook notifications, and this limitation is due to the way the Business Central connector handles `collection` notifications. Learn more at [Working with Webhooks in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) in the Developer and Admin help.
+
+## "The response from the Business Central service is too large" error
+
+### Problem
+
+When using an action that interacts with records (such as *Create record (V3)* and *Get record (V3)*), Power Automate might display an error similar to this one:
+
+`The response from the Business Central service is too large`
+
+### Possible cause
+
+Even though Business Central has no set limit on the size of records returned by APIs, the Dynamics 365 Business Central connector for Power Automate can handle only records up to 8 MB.
+
+All the Business Central APIs provided by Microsoft return records under this limit, but APIs provided by partners might not. If you see an error "The response from the Business Central service is too large", reach out to the partner who created the API you're using.
 
 ## "Entity set not found" error
 

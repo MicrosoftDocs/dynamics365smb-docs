@@ -32,6 +32,6 @@ In France, companies must provide corporate tax and VAT information, such as tra
 ## See also
 
 [French Local Functionality](france-local-functionality.md)
-[How to use Audit Files Export app](\..\finance-how-to-export-audit-files.md)
+[How to use Audit Files Export app](../../finance-how-to-export-audit-files.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

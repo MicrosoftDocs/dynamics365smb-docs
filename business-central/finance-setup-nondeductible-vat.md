@@ -22,7 +22,10 @@ In general, VAT can't be deducted for some purchases because of the following fa
 - **The type of goods or services that are purchased** – VAT is fully or partially non-deductible by a provision of the law about goods such as cars, mobile phones, and food that's purchased at restaurants.
 - **Partially deductible pro-rated VAT** – VAT is pro-rated according to the ratio between the sales operations that VAT is owed for and all operations that have been performed. VAT that exceeds this ratio can't be deducted.
 
-Because it can be difficult to know where and how an item is used, you must contact the local tax authorities in your country to determine whether a specified percentage of the VAT is deductible based on historical data.
+Because it can be difficult to know where and how an item is used, you must contact the local tax authorities in your country to determine whether a specified percentage of the VAT is deductible based on historical data. 
+
+> [!IMPORTANT]
+> This global feature is available in all countries with enabled VAT **except for Belgium, Italy, Norway, and Spain**. These localizations already have existing local feature and will be upgraded in the future. Don't run this feature in these countries because the upgrade procedure doesn't exist.
 
 ## Use non-deductible VAT
 

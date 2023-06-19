@@ -1,6 +1,6 @@
 ---
 title: Set Up and Report Intrastat
-description: Learn how to set up Intrastat reporting features, and how to report trade with companies in other EU countries.
+description: Learn how to set up Intrastat reporting features, and how to report trade with companies in other EU countries/regions.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -46,7 +46,7 @@ Before you can use the Intrastat journal to report Intrastat information, there 
 Optionally, you can also set up:
 
 * **Areas**: Use these to supplement information about countries and regions.  
-* **Entry/exit points**: Use these to specify the locations where you ship or receive items to or from other countries. Heathrow Airport is an example of an entry or exit point. You enter entry or exit points on sales and purchase documents on the **Foreign Trade** FastTab. This information will also be copied from the item entries when you create the Intrastat journal.  
+* **Entry/exit points**: Use these to specify the locations where you ship or receive items to or from other countries/regions. Heathrow Airport is an example of an entry or exit point. You enter entry or exit points on sales and purchase documents on the **Foreign Trade** FastTab. This information will also be copied from the item entries when you create the Intrastat journal.  
 
 ### To set up Intrastat templates and batches
 
@@ -72,7 +72,7 @@ You can export the entries to a file that you can send to your Intrastat authori
 
 ### To set up which Intrastat report fields are mandatory
 
-In some countries, such as Spain and UK, the authorities require that Intrastat reports include, for example, the shipment method for purchases or some other values when sales are over a certain threshold. On the **Intrastat Setup** page, you can select to make **Intrastat Checklist Setup** to set mandatory fields on the **Intrastat Journal** page.
+In some countries/regions, such as Spain and UK, the authorities require that Intrastat reports include, for example, the shipment method for purchases or some other values when sales are over a certain threshold. On the **Intrastat Setup** page, you can select to make **Intrastat Checklist Setup** to set mandatory fields on the **Intrastat Journal** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Setup**, and then choose the related link.
 2. Choose the **Intrastat Checklist Setup** action.
@@ -167,7 +167,7 @@ Because you must submit an Intrastat report every month, and you create a new jo
 
 ## Tariff numbers
 
-In many countries, the customs and tax authorities establish 8-digit item codes for various items. In order for item entries to contain the necessary information when the program imports them to the Intrastat journal line, you must have entered the information about the tariff number in the **Tariff Numbers** page. Find the codes for the items that your company deals with and enter them in the **Tariff Numbers** page.
+In many countries/regions, the customs and tax authorities establish 8-digit item codes for various items. In order for item entries to contain the necessary information when the program imports them to the Intrastat journal line, you must have entered the information about the tariff number in the **Tariff Numbers** page. Find the codes for the items that your company deals with and enter them in the **Tariff Numbers** page.
 
 In the **Tariff Numbers** page, add all the codes that you use. You must enter the codes on the item card before you begin to post. When you have set up the codes, enter them in the **Tariff No.** field on the item card. You must also fill in the **Net Weight** field on the item card.
 

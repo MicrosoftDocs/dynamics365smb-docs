@@ -34,7 +34,7 @@ With the Shopify connector, businesses can link their Shopify store (or stores) 
   - Update inventory levels on multiple locations in Shopify.  
 - Bi-directional synchronization of customers
   - Smart-map customers by phone and email.  
-  - Use country or region-specific templates when creating customers, which helps ensure that tax settings are correct.  
+  - Use specific country/region templates when creating customers, which helps ensure that tax settings are correct.  
 - Import orders from Shopify
   - Include orders created in various sales channels, such as Online store or **Shopify POS**.
   - Shipping costs, gift cards, tips, shipping and payment methods, transactions, and risk of fraud.  

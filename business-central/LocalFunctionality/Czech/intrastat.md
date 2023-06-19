@@ -85,7 +85,7 @@ The fastest way to prepare the Intrastat journal and make sure all the rules set
 
 - The system considers the Item and Job ledger entries created by transactions identified as an Intrastat transactions.
 - The system ignores sales and purchase Intrastat transactions with the EU-3 Party Trade flag.
-- The system includes Intrastat transactions with entry and exit points in EU countries.
+- The system includes Intrastat transactions with entry and exit points in EU countries/regions.
 - The system includes sales and purchase documents, such as credit memos that are posted with the **Correction** check box as inserted in the Intrastat journal. These documents are the same type as the documents they're correcting, but with the opposite sign for non-physical transfer documents and the opposite type for documents marked as physical transfer.
 - The system excludes the reversed Intrastat transactions (using Undo Receipt/Shipment) from reporting.
 - The system ensures the item charges are (not) included, adjusted, and calculated in Intrastat Amount and Statistical Amount according to the user's setup in Stat. Reporting Setup, Item Charges, Shipment Methods, and Item Charge Assignments.

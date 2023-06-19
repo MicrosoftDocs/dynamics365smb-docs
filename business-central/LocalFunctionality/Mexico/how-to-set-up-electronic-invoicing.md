@@ -32,7 +32,7 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
 
     |Field|Description|  
     |------------------------------------|---------------------------------------|
-    |**SCT Permission Type** and **SCT Permission Name**|These fields specify a permission that has been provided by the Secretaría de Comunicaciones y Transportes. The permission must correspond to the type of motor transport that the company uses for the transfer of goods or merchandise if you transport goods and merchandise in the national territory.|
+    |**SCT Permission Type** and **SCT Permission Name**|These fields specify a permission that has been provided by the Secretaría de Comunicaciones y Transportes. The permission must correspond to the type of motor transport that the company uses for the transfer of goods or merchandise if you transport goods and merchandise in the national/regional territory.|
 4. On the **Tax** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] The following table describes some of the complex CFDI-related fields.  
 
     |Field|Description|  

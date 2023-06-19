@@ -119,7 +119,7 @@ In your **Shopify admin**, check the **Collect VAT** checkbox in the **European 
 |Collect VAT|VAT rate|
 |-|-|
 |Micro-business exemption|Use your domestic tax rate for all sales inside the EU|
-|One-stop shop or country or region-specific registration|Use the VAT rate of your customer's country/region|
+|One-stop shop or specific country/region registration|Use the VAT rate of your customer's country/region|
 
 ### Collect VAT set to one-stop shop registration
 
@@ -145,7 +145,7 @@ Shopify uses the domestic tax rate and ignores the tax rate in the foreign count
 
 ## Importing Shopify orders sold to international customers
 
-If you're collecting taxes from multiple countries/regions, you must define a country or region-specific setting in [!INCLUDE[prod_short](../includes/prod_short.md)]. There's a reason why this setting is required. When a sales document is created in [!INCLUDE[prod_short](../includes/prod_short.md)], [!INCLUDE [prod_short](../includes/prod_short.md)] calculates taxes instead of reusing the taxes imported from Shopify.
+If you're collecting taxes from multiple countries/regions, you must define a specific country/regional setting in [!INCLUDE[prod_short](../includes/prod_short.md)]. There's a reason why this setting is required. When a sales document is created in [!INCLUDE[prod_short](../includes/prod_short.md)], [!INCLUDE [prod_short](../includes/prod_short.md)] calculates taxes instead of reusing the taxes imported from Shopify.
 
 You specify country/region-specific settings on the **Shopify Customer Template** page. You can define the **Default Customer No.** or **Customer Template No.**. In either case, ensure the customer or template has the following fields filled in:
 

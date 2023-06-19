@@ -15,7 +15,7 @@ ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 84
 
 All companies in the European Union (EU) must report their trade with other EU countries/regions. Companies must report the movement of goods to the statistics authorities in their country/region every month, and the report must be delivered to the tax authorities. Intrastat is the system that's used to collect trade statistics about goods within these countries/regions. Use the Intrastat report to complete periodic Intrastat reporting by collecting, recording, and reporting the trade of goods according to local legislation.
 
-Intrastat reporting is based on basic EU regulations that apply to all countries/regions. However, there are differences within the individual countries/regions. Each country has its rules about what and how to report.
+Intrastat reporting is based on basic EU regulations that apply to all countries/regions. However, there are differences within the individual countries/regions. Each country/region has its rules about what and how to report.
 
 > [!NOTE]
 > Intrastat information doesn't apply to the movement of services between countries/regions. Instead, the information applies only to goods such as items and fixed assets. If your government requires you to register the movement of services between countries/regions, use the **Service Declaration** feature.
@@ -42,7 +42,7 @@ In 2022 release wave 2, [!INCLUDE[prod_short](includes/prod_short.md)] includes 
 6. After the setup is completed, select **Finish** to start to use the new Intrastat experience.
 
     > [!NOTE]
-    > Depending on your company location, it will be enough to enable the previously described feature. For countries/regions that have specific features for Intrastat reporting, enable the country-specific Intrastat app in addition to the core extension.
+    > Depending on your company location, it will be enough to enable the previously described feature. For countries/regions that have specific features for Intrastat reporting, enable the country/region specific Intrastat app in addition to the core extension.
 
 ## Intrastat configuration
 
@@ -182,8 +182,8 @@ In addition to **Intrastat Report Setup**, **Data Exchange Definitions**, and **
 |   Field   |   Description   |
 | --------- | --------------- |
 | **Net Weight** | Weight is one of the basic configurations  that are related to Intrastat reporting, because the total weight is mandatory for reporting. To be ready for this requirement, enter a value in the **Net Weight** field on the item or fixed asset card. |
-| **Country of Origin Code** | Use the two-letter ISO Alpha Codes on the item or fixed asset card for the country where the good was obtained or produced. If the good was produced in more than one country, the country of origin is the last country where it was significantly processed. |
-| **VAT identification number of the partner operator in the Member State of import** | This is the VAT-ID number of the partner operator in the Member State of import. The VAT-ID is also used in the exchange of intra-EU-export data among the Member States and allows the Member States to allocate the received data to the importing company in their own country. Reporting units must report on the VAT-ID of the company that declared the intra-Union acquisition of goods in the Member State of import. |
+| **Country of Origin Code** | Use the two-letter ISO Alpha Codes on the item or fixed asset card for the country/region where the good was obtained or produced. If the good was produced in more than one country/region, the country/region of origin is the last country/region where it was significantly processed. |
+| **VAT identification number of the partner operator in the Member State of import** | This is the VAT-ID number of the partner operator in the Member State of import. The VAT-ID is also used in the exchange of intra-EU-export data among the Member States and allows the Member States to allocate the received data to the importing company in their own country/region. Reporting units must report on the VAT-ID of the company that declared the intra-Union acquisition of goods in the Member State of import. |
 
 Optionally, you can also set up:
 
@@ -282,7 +282,7 @@ If there's a reason to exclude a specific item or fixed asset from Intrastat rep
 > 
 > When you add a tariff number that has a defined **Unit of Measure** value to the item, [!INCLUDE [prod_short](includes/prod_short.md)] automatically adds a new unit of measure to the **Item Units of Measure** value for the item. The **Qty. per Unit of Measure** value is based on the **Quantity Rounding Precision** field.
 
-## Enter country-specific Intrastat settings
+## Enter country/region Intrastat settings
 
 Intrastat requirements are similar in all member states of the EU, though there are important exceptions. In theory, the rules should be uniformly applied in all member states. However, there are differences in implementations, because some member states provide guidelines about how to apply the principles in specific situations (for example, commercial samples and returns of goods). These guidelines can produce different results for various situations. Therefore, the information that countries/regions must enter can differ, as can the file format that they must use for reporting.
 

@@ -1,7 +1,7 @@
 ---
 
 title: Set Up and Use the Service Declaration Extension
-description: Learn how to set up and use Service Declaration (Intrastat for Services) features to report service trade with companies in other EU countries.
+description: Learn how to set up and use Service Declaration (Intrastat for Services) features to report service trade with companies in other EU countries/regions.
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
@@ -14,7 +14,7 @@ ms.search.form: 30, 76, 5010, 5022, 5023, 5024, 5800
 ---
 # The Service Declaration Extension
 
-In some EU countries, authorities require that businesses report the export of services to other EU countries. The **Service Declaration** extension lets you collect information about service trade in the EU and report it to the authorities. Although it's named **Service Declaration**, you can also use it as **Intrastat for Services**. This extension is available for all EU countries as a W1 version, and it can be used as-is in Belgium. For other countries, a country-based extension will be required. If a country only needs a different format, you can use the report configuration in the **Data Exchange Framework** to change the format.
+In some EU countries/regions, authorities require that businesses report the export of services to other EU countries/regions. The **Service Declaration** extension lets you collect information about service trade in the EU and report it to the authorities. Although it's named **Service Declaration**, you can also use it as **Intrastat for Services**. This extension is available for all EU countries/regions as a W1 version, and it can be used as-is in Belgium. For other countries/regions, a country-based extension will be required. If a country only needs a different format, you can use the report configuration in the **Data Exchange Framework** to change the format.
 
 ## Enable the Service Declaration extension
 
@@ -65,7 +65,7 @@ You can set up the extension manually, or by using a reporting file in Data Exch
 9. To group entries based on columns, on the **Field Grouping** FastTab, choose the fields you want to use for grouping.
 
 > [!NOTE]
-> [!INCLUDE[prod_long](includes/prod_long.md)] comes with a preconfigured data exchange definition for **Service Declaration** for all localized countries. Learn more about creating a new data exchange definition at [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
+> [!INCLUDE[prod_long](includes/prod_long.md)] comes with a preconfigured data exchange definition for **Service Declaration** for all localized countries/regioins. Learn more about creating a new data exchange definition at [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
 
 ## Other related configurations
 

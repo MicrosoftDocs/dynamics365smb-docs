@@ -13,7 +13,7 @@ ms.author: bholtorf
 
 # Financial Report Feature in the Czech Version
 
-Financial reports are one of the most extensively used features for analysis and reporting to which Eastern European countries often ask for these improvements:
+Financial reports are one of the most extensively used features for analysis and reporting to which Eastern European countries/regions often ask for these improvements:
 
 - Common list of expressions – Contains named lines for use in formulas in all financial reports. You do this by defining one of the financial reports as a common list of expressions called a shared financial report.
 - Saving results (current state) of analysis – Allows you to store the results of analysis done using financial reports, modification of results, and retrieval of results later on.

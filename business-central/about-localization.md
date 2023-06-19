@@ -1,6 +1,6 @@
 ---
 title: Local functionality and localization strategy
-description: Learn about local availability and regulatory compliance in Business Central for the countries where Microsoft provides the local functionality.
+description: Learn about local availability and regulatory compliance in Business Central for the countries/regions where Microsoft provides the local functionality.
 author: edupont04
 
 
@@ -16,7 +16,7 @@ ms.author: edupont
 ---
 # Local Functionality in [!INCLUDE[prod_long](includes/prod_long.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] has a combined localization strategy inclusive of both Microsoft-led and partner-led models. In this section, you can see descriptions of functionality that applies to the countries where Microsoft provides the regulatory compliance and other local functionality.  
+[!INCLUDE[prod_short](includes/prod_short.md)] has a combined localization strategy inclusive of both Microsoft-led and partner-led models. In this section, you can see descriptions of functionality that applies to the countries/regions where Microsoft provides the regulatory compliance and other local functionality.  
 
 For a list of currently supported markets, see [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
@@ -51,7 +51,7 @@ To learn about the local functionality for each country/region, choose the relat
 |        | India | [India Local Functionality](LocalFunctionality/India/india-local-functionality.md) |
 |        | New Zealand | [New Zealand Local Functionality](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### Other Countries
+### Other Countries/Regions
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is also available in other markets through localization apps. If a Microsoft partner has developed a localization app for your country/region, you can find it in [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 

@@ -18,7 +18,7 @@ ms.author: edupont
 Where remittance advice is used to notify vendors of payments being made, you can now email remittance advice in bulk from the payment journal as well as resend after payments are made from vendor ledger entries by using document sending profiles.
 
 > [!NOTE]
-> This functionality is only supported in Business Central online and on-premises in following countries: United Kingdom, United States, Canada, Australia, New Zealand, and South Africa.  
+> This functionality is only supported in Business Central online and on-premises in following countries/regions: United Kingdom, United States, Canada, Australia, New Zealand, and South Africa.  
 
 You can send remittance advice in two different ways:
 

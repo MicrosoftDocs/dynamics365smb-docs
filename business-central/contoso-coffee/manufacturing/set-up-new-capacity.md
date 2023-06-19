@@ -32,7 +32,7 @@ You are the production planner at Contoso Coffee. In response to changes on the 
         |**Direct Unit Cost**|3.25|
         |**Unit Cost Calculation**|Time|
         |**Flushing Method**|Manual|
-        |**Gen. Prod. Posting Group**|NO VAT</br></br>Note that this selection depends on your accounting setup and country.|
+        |**Gen. Prod. Posting Group**|NO VAT</br></br>Note that this selection depends on your accounting setup and country/region.|
         |**Unit of Measure Code** |MINUTES|
         |**Capacity** |1|
         |**Efficiency** |90|

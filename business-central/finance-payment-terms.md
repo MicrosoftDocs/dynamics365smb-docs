@@ -31,7 +31,7 @@ After you set up the payment terms, you assign them to customers and vendors. Op
 > [!TIP]
 > In the base version of [!INCLUDE [prod_short](includes/prod_short.md)], payment terms with partial payments are not supported. Instead, you must use the prepayments functionality. For more information, see [Set Up Prepayments](finance-set-up-prepayments.md).
 >
-> In certain countries, you *can* set up payment terms with partial payments. To learn if this capability is supported in your country, see the **Local Functionality** section in the navigation pane on the left side of a [Microsoft Learn](about-localization.md) article.
+> In certain countries, you *can* set up payment terms with partial payments. To learn if this capability is supported in your country/region, see the **Local Functionality** section in the navigation pane on the left side of a [Microsoft Learn](about-localization.md) article.
 
 ## See Also
 

@@ -76,7 +76,7 @@ The following table describes the tax-related posting groups.
 | Tax Product Posting Groups |Indicate the tax calculations needed for the types of items or resources you buy or sell. |
 | Tax Posting Setup |Combine tax business posting groups and tax product posting groups. When you fill in a general journal line, purchase line, or sales line, we'll look at the combination to identify the accounts to use. |
 
-If your country uses value-added tax (VAT), see [Set Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).  
+If your country/region uses value-added tax (VAT), see [Set Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md).  
 
 ## Example of linking posting groups
 

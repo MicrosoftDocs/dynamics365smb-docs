@@ -54,7 +54,7 @@ More setup for Intrastat enables you to do the following:
 - Set an area value in a Location card.
 - Set default values and enforce company policies following additional Intrastat data available on Customer and Vendor cards.
 - On the Item card define and add Intrastat data that includes statistic indication and specific movement.
-- Create a special foreign currency exchange rate setup and object for the export setup for each Registration country.
+- Create a special foreign currency exchange rate setup and object for the export setup for each Registration country/region.
 
 ## Post sales, purchase, or transfer transactions
 
@@ -79,7 +79,7 @@ The Intrastat journal contains the following new fields and functionalities:
 - Supplementary Units of Measure Calculation
 - Declaration Numbering
 - Declaration types for Statement Classification – Primary, Null, Replacing, Deleting
-- Registration Country entries filtering
+- Registration Country/Region entries filtering
 
 The fastest way to prepare the Intrastat journal and make sure all the rules set in the previous steps are followed is by using the **Get Entries** batch job. During the execution of the Get Entries batch job, the following occurs:
 
@@ -95,7 +95,7 @@ The fastest way to prepare the Intrastat journal and make sure all the rules set
 ## Export Intrastat report to CSV format
 
 Exporting Intrastat reports to .csv files according to local requirements (for INSTATDESK and INSTATONLINE applications) was added to the Intrastat journal.
-Export use object for export based on setup in Stat. Reporting Setup or Registration Country.
+Export use object for export based on setup in Stat. Reporting Setup or Registration Country/Region.
 
 ## See also
 

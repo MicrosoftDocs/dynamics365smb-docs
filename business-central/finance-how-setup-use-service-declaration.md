@@ -14,7 +14,7 @@ ms.search.form: 30, 76, 5010, 5022, 5023, 5024, 5800
 ---
 # The Service Declaration Extension
 
-In some EU countries/regions, authorities require that businesses report the export of services to other EU countries/regions. The **Service Declaration** extension lets you collect information about service trade in the EU and report it to the authorities. Although it's named **Service Declaration**, you can also use it as **Intrastat for Services**. This extension is available for all EU countries/regions as a W1 version, and it can be used as-is in Belgium. For other countries/regions, a country-based extension will be required. If a country only needs a different format, you can use the report configuration in the **Data Exchange Framework** to change the format.
+In some EU countries/regions, authorities require that businesses report the export of services to other EU countries/regions. The **Service Declaration** extension lets you collect information about service trade in the EU and report it to the authorities. Although it's named **Service Declaration**, you can also use it as **Intrastat for Services**. This extension is available for all EU countries/regions as a W1 version, and it can be used as-is in Belgium. For other countries/regions, an extension based on country/region will be required. If a country/region only needs a different format, you can use the report configuration in the **Data Exchange Framework** to change the format.
 
 ## Enable the Service Declaration extension
 

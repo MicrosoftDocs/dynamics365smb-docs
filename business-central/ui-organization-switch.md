@@ -13,7 +13,7 @@ ms.author: bholtorf
 
 # Switching to Another Company or Environment
 
-[!INCLUDE [prod_short](includes/prod_short.md)] is available in many different countries and supports many different types of organizations. Your organization may choose to organize work in [!INCLUDE [prod_short](includes/prod_short.md)] into multiple *companies* and *environments*. This article helps you understand the key differences and how to work across them.
+[!INCLUDE [prod_short](includes/prod_short.md)] is available in many different countries/regions and supports many different types of organizations. Your organization may choose to organize work in [!INCLUDE [prod_short](includes/prod_short.md)] into multiple *companies* and *environments*. This article helps you understand the key differences and how to work across them.
 
 ## About companies and environments
 

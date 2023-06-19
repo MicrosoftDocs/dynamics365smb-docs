@@ -34,7 +34,7 @@ Before you print the **Intrastat - Form** report, you can also print the **Intra
     |**Telephone**|Enter the telephone number of the contact person.|  
     |**Telefax**|Enter the telefax number.|  
     |**International VAT number**|Enter the international VAT registration number.|  
-    |**Nihil declaration**|Select if you do not have any trade transactions with EU countries and want to send an empty declaration. When selected, the message "NIHIL" displays in the **Message** field.|  
+    |**Nihil declaration**|Select if you do not have any trade transactions with EU countries/regions and want to send an empty declaration. When selected, the message "NIHIL" displays in the **Message** field.|  
     |**Message**|Enter a message to be printed on the Intrastat declaration, such as "regular declaration" or "replacement declaration".|  
 
 3. Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.  

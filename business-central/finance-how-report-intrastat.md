@@ -1,6 +1,6 @@
 ---
 title: Work with Intrastat Reporting
-description: Learn how to report trade with companies in other EU countries using the Intrastat system.
+description: Learn how to report trade with companies in other EU countries/regions using the Intrastat system.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: na
@@ -15,7 +15,7 @@ ms.author: altotovi
 
 All companies in the European Union (EU) must report their trade with other EU countries/regions. You must report the movement of goods to the statistics authorities in your country/region every month, and the report must be delivered to the tax authorities. Intrastat is the system for collecting trade statistics of goods within these countries/regions. You use **Intrastat Report** to complete periodic Intrastat reporting (typically monthly), collecting, recording, and reporting trade of goods as per local government legislation.
 
-Intrastat reporting is based on basic EU regulations that apply to all countries; however, in practice, there are some differences within the individual countries. Each country/region has its rules of what exactly and how to report.
+Intrastat reporting is based on basic EU regulations that apply to all countries/regions; however, in practice, there are some differences within the individual countries/regions. Each country/region has its rules of what exactly and how to report.
 
 > [!IMPORTANT]
 > This article describes the new Intrastat experience available in [!INCLUDE[prod_short](includes/prod_short.md)] starting in the 2022 release wave 2, which includes extended features and [must be switched on for existing companies](finance-how-setup-report-intrastat.md#enable-the-new-intrastat-experience). Contact your administrator to switch on and set up the new capability.
@@ -23,7 +23,7 @@ Intrastat reporting is based on basic EU regulations that apply to all countries
 > Read the previous version's Intrastat setup and usage article at [Set Up and Report Intrastat](finance-how-setup-report-intrastat-v20.md).
 
 > [!NOTE]
-> Intrastat information doesn't apply to the movement of services between countries, but only goods (Items and Fixed Assets). If the local government requires registering  the movement of services between countries, it can be done using the **Service Declaration** feature.
+> Intrastat information doesn't apply to the movement of services between countries/regions, but only goods (Items and Fixed Assets). If the local government requires registering  the movement of services between countries/regions, it can be done using the **Service Declaration** feature.
 >
 > We currently expect this feature to be available from November 2022 as an app at [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). At that time, to use it, you must first install it on the **Extension Management** page.
 

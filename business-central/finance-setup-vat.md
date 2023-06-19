@@ -65,7 +65,7 @@ To set up a default value for a VAT date, follow these steps:
 
 ### Enabling or disabling the VAT Date feature
 
-Some countries require that businesses use a specific VAT date, but other countries don't. Some countries also require businesses to change the VAT date in specific situations after they have posted documents, but other countries don't allow changes to VAT dates. To allow for different contexts, you can choose whether you want to use this functionality and, if so, to what degree.
+Some countries/regions require that businesses use a specific VAT date, but other countries/regions don't. Some countries/regions also require businesses to change the VAT date in specific situations after they have posted documents, but other countries don't allow changes to VAT dates. To allow for different contexts, you can choose whether you want to use this functionality and, if so, to what degree.
 
 To set up the level of VAT date usage, follow these steps:
 

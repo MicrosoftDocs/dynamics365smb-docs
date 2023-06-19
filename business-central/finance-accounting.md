@@ -70,7 +70,7 @@ Next, you must assign the new guest user a license to [!INCLUDE[prod_short](incl
 #### To give your accountant access to your [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. In the Azure portal, on the newly added user, choose **Profile**, and then choose **Edit**
-2. Update the **Usage Location** field to the relevant country, and then choose **Save**.
+2. Update the **Usage Location** field to the relevant country/region, and then choose **Save**.
 3. Choose **Licenses**, and then open **Assignments**.
 4. Choose the **Dynamics 365 Business Central External Accountant** license.  
     

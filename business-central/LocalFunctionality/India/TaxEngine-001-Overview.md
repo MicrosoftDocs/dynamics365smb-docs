@@ -17,7 +17,7 @@
 # Tax Engine Overview
 
 
-In a country, where tax reforms are happening at a fast pace, it is natural to expect frequent changes. These changes may pertain to change in rate of tax, calculation method, tax     filing or reporting etc. To manage such changes with least effort, it is necessary to manage, as much as possible through configuration. 
+In a country/region, where tax reforms are happening at a fast pace, it is natural to expect frequent changes. These changes may pertain to change in rate of tax, calculation method, tax     filing or reporting etc. To manage such changes with least effort, it is necessary to manage, as much as possible through configuration. 
 
 Tax Engine is a suite of extensions to enable configuration of tax rules and its computation. It consists of a use case designer, which allows modification of existing use cases or creation of new use cases. Use case contains the description of business scenario, conditions to be met and event that will trigger calculation of tax. A use case can be enabled or disabled as per the business need.
 

@@ -998,6 +998,7 @@
 ### India
 #### [Overview](LocalFunctionality/India/india-local-functionality.md)
 #### [Set Up Posting Number Series](LocalFunctionality/India/posting-no-series-setup.md)
+#### [Audit trail and edit logs for accounting software in India](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
 #### Tax Engine
 ##### [Overview](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Tax Engine Import Export configuration](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)

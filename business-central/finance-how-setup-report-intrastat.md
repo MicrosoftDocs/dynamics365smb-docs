@@ -1,6 +1,6 @@
 ---
 title: Set up Intrastat reporting
-description: This article explains how to set up Intrastat reporting features to report trade with companies in other EU countries.
+description: This article explains how to set up Intrastat reporting features to report trade with companies in other EU countries/regions.
 author: altotovi 
 ms.author: altotovi
 ms.reviewer: bholtorf
@@ -15,10 +15,10 @@ ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 84
 
 All companies in the European Union (EU) must report their trade with other EU countries/regions. Companies must report the movement of goods to the statistics authorities in their country/region every month, and the report must be delivered to the tax authorities. Intrastat is the system that's used to collect trade statistics about goods within these countries/regions. Use the Intrastat report to complete periodic Intrastat reporting by collecting, recording, and reporting the trade of goods according to local legislation.
 
-Intrastat reporting is based on basic EU regulations that apply to all countries. However, there are differences within the individual countries. Each country has its rules about what and how to report.
+Intrastat reporting is based on basic EU regulations that apply to all countries/regions. However, there are differences within the individual countries/regions. Each country/region has its rules about what and how to report.
 
 > [!NOTE]
-> Intrastat information doesn't apply to the movement of services between countries. Instead, the information applies only to goods such as items and fixed assets. If your government requires you to register the movement of services between countries, use the **Service Declaration** feature.
+> Intrastat information doesn't apply to the movement of services between countries/regions. Instead, the information applies only to goods such as items and fixed assets. If your government requires you to register the movement of services between countries/regions, use the **Service Declaration** feature.
 >
 > This feature is available starting in November 2022, as an app that you can download from [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). To use this feature, install it on the **Extension Management** page.
 
@@ -42,7 +42,7 @@ In 2022 release wave 2, [!INCLUDE[prod_short](includes/prod_short.md)] includes 
 6. After the setup is completed, select **Finish** to start to use the new Intrastat experience.
 
     > [!NOTE]
-    > Depending on your company location, it will be enough to enable the previously described feature. For countries that have specific features for Intrastat reporting, enable the country-specific Intrastat app in addition to the core extension.
+    > Depending on your company location, it will be enough to enable the previously described feature. For countries/regions that have specific features for Intrastat reporting, enable the country/region specific Intrastat app in addition to the core extension.
 
 ## Intrastat configuration
 
@@ -112,11 +112,11 @@ Follow these steps to set up Intrastat reporting.
 9. If you need to group entries based on some columns, on the **Field Grouping** FastTab, select the fields that you want to use for grouping.
 
 > [!NOTE]
-> [!INCLUDE[prod_long](includes/prod_long.md)] comes with the preconfigured data exchange definition for Intrastat for all localized countries. To learn more about how to create a new data exchange definition, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
+> [!INCLUDE[prod_long](includes/prod_long.md)] comes with the preconfigured data exchange definition for Intrastat for all localized countries/regions. To learn more about how to create a new data exchange definition, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
 
 ### Set mandatory fields with the Intrastat report checklist
 
-In some countries, the authorities require that Intrastat reports include, for example, the shipment method for purchases or other values when sales are over a certain threshold.
+In some countries/regions, the authorities require that Intrastat reports include, for example, the shipment method for purchases or other values when sales are over a certain threshold.
 
 To set mandatory fields or values on the **Intrastat Report** page, follow these steps.
 
@@ -136,7 +136,7 @@ To set mandatory fields or values on the **Intrastat Report** page, follow these
 > [!NOTE]
 > When you open the **Filter Page** from the **Filter Expression** line, you can use all standard filter expressions related to the specific field you want to filter.
 >
-> Be careful when you set up validation rules, because they can differ between countries.
+> Be careful when you set up validation rules, because they can differ between countries/regions.
 
 ## Use custom codeunits in Intrastat reporting
 
@@ -171,7 +171,7 @@ In addition to **Intrastat Report Setup**, **Data Exchange Definitions**, and **
 | Page | Description |
 | ---- | ----------- |
 | **Countries/Regions** | On the **Countries/Regions** page, add **EU Country/Region Code** and **Intrastat Code** information to specify a code for the country/region that you're trading with. This information will be used in Intrastat reporting. |
-| **Tariff Numbers** | In many countries, the customs and tax authorities establish eight-digit codes for various items. To enable item entries to contain the necessary information when the program imports them to the Intrastat journal line, enter the item code on the **Tariff Numbers** page. Find the codes for the items that your company deals with, and enter them on the **Tariff Numbers** page. |
+| **Tariff Numbers** | In many countries/regions, the customs and tax authorities establish eight-digit codes for various items. To enable item entries to contain the necessary information when the program imports them to the Intrastat journal line, enter the item code on the **Tariff Numbers** page. Find the codes for the items that your company deals with, and enter them on the **Tariff Numbers** page. |
 | **Transport Methods** | There are seven one-digit codes for Intrastat transport methods: **1** for sea, **2** for rail, **3** for road, **4** for air, **5** for the post, **7** for fixed installations, and **9** for own propulsion (for example, transporting a car by driving it). [!INCLUDE[prod_short](includes/prod_short.md)] doesn't require these specific codes. However, we recommend that the descriptions provide a similar meaning. |
 | **Transaction Types** | Countries and regions have different codes for types of Intrastat transactions, such as ordinary purchase and sale, exchange of returned goods, and exchange of non-returned goods. Set up all the codes that apply to your country/region. These codes are then used on the **Foreign Trade** FastTab on sales and purchase documents and when you process returns. |
 | **Transaction Specifications** | Set up codes to supplement the transaction type descriptions. |
@@ -182,14 +182,14 @@ In addition to **Intrastat Report Setup**, **Data Exchange Definitions**, and **
 |   Field   |   Description   |
 | --------- | --------------- |
 | **Net Weight** | Weight is one of the basic configurations  that are related to Intrastat reporting, because the total weight is mandatory for reporting. To be ready for this requirement, enter a value in the **Net Weight** field on the item or fixed asset card. |
-| **Country of Origin Code** | Use the two-letter ISO Alpha Codes on the item or fixed asset card for the country where the good was obtained or produced. If the good was produced in more than one country, the country of origin is the last country where it was significantly processed. |
-| **VAT identification number of the partner operator in the Member State of import** | This is the VAT-ID number of the partner operator in the Member State of import. The VAT-ID is also used in the exchange of intra-EU-export data among the Member States and allows the Member States to allocate the received data to the importing company in their own country. Reporting units must report on the VAT-ID of the company that declared the intra-Union acquisition of goods in the Member State of import. |
+| **Country of Origin Code** | Use the two-letter ISO Alpha Codes on the item or fixed asset card for the country/region where the good was obtained or produced. If the good was produced in more than one country/region, the country/region of origin is the last country/region where it was significantly processed. |
+| **VAT identification number of the partner operator in the Member State of import** | This is the VAT-ID number of the partner operator in the Member State of import. The VAT-ID is also used in the exchange of intra-EU-export data among the Member States and allows the Member States to allocate the received data to the importing company in their own country/region. Reporting units must report on the VAT-ID of the company that declared the intra-Union acquisition of goods in the Member State of import. |
 
 Optionally, you can also set up:
 
 * **Commodity codes**: Customs and tax authorities have established numerical codes that classify items and services. You can specify these codes on items.
 * **Areas**: Supplementary information about countries and regions.
-* **Entry/exit points**: Specify the locations where you ship or receive items to or from other countries. An airport is an example of an entry or exit point. You enter entry or exit points on sales and purchase documents on the **Foreign Trade** FastTab. This information is copied from the item entries when you create the Intrastat journal.
+* **Entry/exit points**: Specify the locations where you ship or receive items to or from other countries/regions. An airport is an example of an entry or exit point. You enter entry or exit points on sales and purchase documents on the **Foreign Trade** FastTab. This information is copied from the item entries when you create the Intrastat journal.
 * **Supplementary unit of measure**: The quantity of goods for Intrastat reporting can be either net weight (in kilograms) or a supplementary unit. If supplementary units are required, you must configure them for items and fixed assets.
 
 #### Set up transport methods
@@ -282,9 +282,9 @@ If there's a reason to exclude a specific item or fixed asset from Intrastat rep
 > 
 > When you add a tariff number that has a defined **Unit of Measure** value to the item, [!INCLUDE [prod_short](includes/prod_short.md)] automatically adds a new unit of measure to the **Item Units of Measure** value for the item. The **Qty. per Unit of Measure** value is based on the **Quantity Rounding Precision** field.
 
-## Enter country-specific Intrastat settings
+## Enter country/region Intrastat settings
 
-Intrastat requirements are similar in all member states of the EU, though there are important exceptions. In theory, the rules should be uniformly applied in all member states. However, there are differences in implementations, because some member states provide guidelines about how to apply the principles in specific situations (for example, commercial samples and returns of goods). These guidelines can produce different results for various situations. Therefore, the information that countries must enter can differ, as can the file format that they must use for reporting.
+Intrastat requirements are similar in all member states of the EU, though there are important exceptions. In theory, the rules should be uniformly applied in all member states. However, there are differences in implementations, because some member states provide guidelines about how to apply the principles in specific situations (for example, commercial samples and returns of goods). These guidelines can produce different results for various situations. Therefore, the information that countries/regions must enter can differ, as can the file format that they must use for reporting.
 
 ### Austria
 

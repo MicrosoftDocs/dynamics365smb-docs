@@ -1,6 +1,6 @@
 ---
 title: Apply VAT | Invoicing
-description: Some countries require that you add value-added tax to your invoices. It's easy to do in Invoicing.
+description: Some countries/regions require that you add value-added tax to your invoices. It's easy to do in Invoicing.
 author: edupont04
 
 ms.service: dynamics365-business-central

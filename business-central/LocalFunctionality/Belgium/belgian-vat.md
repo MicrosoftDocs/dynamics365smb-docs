@@ -26,7 +26,7 @@
 
 - EC sales list
 
-    This report is used to report the sales of goods to other countries in the European Union. For more information, see [About the EC Sales List Report](../../finance-how-report-vat.md#ecsaleslist).  
+    This report is used to report the sales of goods to other countries/regions in the European Union. For more information, see [About the EC Sales List Report](../../finance-how-report-vat.md#ecsaleslist).  
 
 You are also required to provide a printed statement detailing the VAT transactions to the Belgian tax authorities. For more information, see VAT Statement.  
 

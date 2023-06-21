@@ -61,7 +61,7 @@ An advance invoice has its own life cycle, which is defined by states:
 - The Advance Invoice mode without a tax document allows VAT to be applied only on the final invoice, provided that its performance meets the conditions of Section 28 of the Value Added Tax Act.
 - The tax document for the released payment can be charged only on the basis of the received document from the creditor, therefore the purchase advance invoice allows the change of the regime with / without VAT also during its processing.
 - Calculation of VAT on advance invoices based on the Value Added Tax Act (§ 37a, § 92).
-- The new module also works with VAT in the payer registration mode in another EU country.
+- The new module also works with VAT in the payer registration mode in another EU country/region.
 
 ## Deduction of Advance
 

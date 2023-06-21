@@ -16,7 +16,7 @@
 ---
 # Create Bank Deposits
 > [!NOTE]
-> The ability to create bank deposits is new in Business Central 2022 release wave 1 for a lot of country versions. If you were using Business Central in the United States, Canada, or Mexico before that release, you might be using the earlier capabilities. You can continue, but the new capabilities will replace the old ones in a future release. To start using the new features described in this article, your administrator can go to the **Feature Management** page and turn on **Feature Update: Standardized bank reconciliation and deposits**.  
+> The ability to create bank deposits is new in Business Central 2022 release wave 1 for a lot of country/region versions. If you were using Business Central in the United States, Canada, or Mexico before that release, you might be using the earlier capabilities. You can continue, but the new capabilities will replace the old ones in a future release. To start using the new features described in this article, your administrator can go to the **Feature Management** page and turn on **Feature Update: Standardized bank reconciliation and deposits**.  
 
 Use the **Bank Deposits** page to register deposits as a single document that posts one or more entries to a bank account. Typically, bank deposits are used to register cash deposits. The Bank Deposits page is available on the **Cash Management** menu on the Business Manager Role Center, and other Role Centers that deal with cash management.
 

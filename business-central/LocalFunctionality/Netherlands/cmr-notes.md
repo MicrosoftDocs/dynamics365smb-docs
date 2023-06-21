@@ -19,7 +19,7 @@ A CMR note is a bill of lading or an international consignment note defined unde
  Claims with complete CMR note information are easily processed.  
 
 ## CMR Notes  
-Countries that follow the CMR Convention adhere to a standard form for CMR notes. The type of CMR note used depends on the type of transaction. There are three types:  
+Countries/Regions that follow the CMR Convention adhere to a standard form for CMR notes. The type of CMR note used depends on the type of transaction. There are three types:  
 
 - **CMR - Sales Shipment** – This report is used to print CMR documents for sales shipments. For each CMR document, the report shows address data for the sender, shipping agent and consignee, along with data about the shipped items.
 

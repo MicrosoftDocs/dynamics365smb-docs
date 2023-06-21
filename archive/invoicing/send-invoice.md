@@ -35,7 +35,7 @@ When your customer then pays the invoice, you must mark the invoice as paid in [
 5. Close the page.  
 
 ## Tax on invoices
-Tax is calculated automatically based on the information that you specify. That means that you must make sure that you set up the right tax information in Settings, and that you have chosen the right tax rates for the customer or the items that you are selling. Depending on your country, the tax can be sales tax or value-added tax, for example.
+Tax is calculated automatically based on the information that you specify. That means that you must make sure that you set up the right tax information in Settings, and that you have chosen the right tax rates for the customer or the items that you are selling. Depending on your country/region, the tax can be sales tax or value-added tax, for example.
 
 For more information, see [Set up your business information](set-up-business-profile.md).
 

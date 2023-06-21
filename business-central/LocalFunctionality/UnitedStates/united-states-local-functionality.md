@@ -38,7 +38,7 @@ The following topics describe local functionality that is unique to the United S
   * [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md) **Available Now**  
 
 > [!NOTE]
-> If you have customers in Europe, please note that you cannot report VAT to European authorities in the US version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. You may want to work with a consultant to add the capability to your environment based on the specific countries that you ship to.  
+> If you have customers in Europe, please note that you cannot report VAT to European authorities in the US version of [!INCLUDE[prod_short](../../includes/prod_short.md)]. You may want to work with a consultant to add the capability to your environment based on the specific countries/regions that you ship to.  
 
 ## Future legislation requirements being investigated
 

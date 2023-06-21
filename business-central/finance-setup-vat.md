@@ -65,7 +65,7 @@ To set up a default value for a VAT date, follow these steps:
 
 ### Enabling or disabling the VAT Date feature
 
-Some countries require that businesses use a specific VAT date, but other countries don't. Some countries also require businesses to change the VAT date in specific situations after they have posted documents, but other countries don't allow changes to VAT dates. To allow for different contexts, you can choose whether you want to use this functionality and, if so, to what degree.
+Some countries/regions require that businesses use a specific VAT date, but other countries/regions don't. Some countries/regions also require businesses to change the VAT date in specific situations after they have posted documents, but other countries don't allow changes to VAT dates. To allow for different contexts, you can choose whether you want to use this functionality and, if so, to what degree.
 
 To set up the level of VAT date usage, follow these steps:
 
@@ -275,7 +275,7 @@ Some companies must use reverse charge VAT when trading with other companies. Fo
 > This rule applies when trading with companies that are registered as VAT liable in another EU country/region. If you do business directly with consumers in other EU countries/regions, then you should contact your tax authority for applicable VAT rules.  
 
 > [!TIP]  
-> You can verify that a company is registered as VAT liable in another EU country by using the EU VAT Registration Number Validation service. The service is available for free in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Verify VAT registration numbers](finance-how-validate-vat-registration-number.md).
+> You can verify that a company is registered as VAT liable in another EU country/region by using the EU VAT Registration Number Validation service. The service is available for free in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Verify VAT registration numbers](finance-how-validate-vat-registration-number.md).
 
 ### Sales to EU countries or regions
 

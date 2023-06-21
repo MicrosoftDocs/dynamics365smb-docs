@@ -243,7 +243,7 @@ You can specify the reports that must be printed at different stages by choosing
 * Posted Inventory Shipment
 
 > [!NOTE]
-> The available reports may vary based on your country's localization. The base application doesn't include any layouts.
+> The available reports may vary based on localization for your country/region. The base application doesn't include any layouts.
 
 ## See related [Microsoft training](/training/modules/adjust-inventory/)
 

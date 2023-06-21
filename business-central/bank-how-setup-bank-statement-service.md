@@ -25,12 +25,12 @@ You can import electronic bank statements from your bank to quickly fill on the 
 > The Envestnet Yodlee Bank Feeds service is only supported in the online version of Business Central. To use this functionality on-premises, you must obtain a cobrand account from Envestnet, and you must add code to integrate with the Yodlee API.
 >
 > The Envestnet Yodlee Bank Feeds service is only supported in the United States and Canada.
-> Only banks residing in these countries are supported, even though banks from other countries may appear in the Envestnet Yodlee Bank Feeds bank selection window in [!INCLUDE[prod_short](includes/prod_short.md)].
+> Only banks residing in these countries/regioins are supported, even though banks from other countries/regions may appear in the Envestnet Yodlee Bank Feeds bank selection window in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]
 > For technical assistance with the Envestnet Yodlee functionality, contact Microsoft Support. Do not contact Envestnet Yodlee. For more information, see [Configuring Technical Support for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).
 
-The Envestnet Yodlee Bank Feeds service is installed as an extension to [!INCLUDE[prod_short](includes/prod_short.md)] online and is ready to be enabled in the supported countries. For more information, see [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md).
+The Envestnet Yodlee Bank Feeds service is installed as an extension to [!INCLUDE[prod_short](includes/prod_short.md)] online and is ready to be enabled in the supported countries/regions. For more information, see [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md).
 
 After you enable the bank feed service, you must link a bank account to the online bank account that the feed will come from. You link bank accounts to online bank accounts in the following different scenarios:
 

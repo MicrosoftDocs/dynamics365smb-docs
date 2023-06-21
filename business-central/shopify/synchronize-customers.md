@@ -29,7 +29,7 @@ Whether you import customers from Shopify in bulk or when you import orders, use
 |**Auto Create Unknown Customers**| Select this field if you want the connector to create missing customers when the **By Email/Phone** or **By Bill-to Info** options are selected in the **Customer Mapping Type** field. A new customer will be created using imported data and the **Customer Template Code** defined on the **Shopify Shop Card** or **Shopify Customer Template** pages. Notice that the Shopify customer must have at least one address. Orders created via Shopify POS sales channel are often missing address details. If this option isn't enabled, you'll need to create a customer manually and link it to the Shopify customer.|
 |**Customer Template Code**|This field is used together with **Auto Create Unknown Customers**.<br>- Choose the default template to be used for automatically created customers. Make sure that the selected template contains the mandatory fields, such as the **Gen. Business Posting Group**, **Customer Posting Group**, and value-added tax (VAT)- or tax-related fields.<br>- You can define templates per country/region on the **Shopify Customer Templates** page, which is useful for proper tax calculation. <br>- Learn more at [Set up Taxes](setup-taxes.md).|
 
-### Customer template per country
+### Customer template per country/region
 
 Some settings can be defined at the country/regional level or a state/province level. The settings can be configured in [Shipping and Delivery](https://www.shopify.com/admin/settings/shipping) in Shopify.
 
@@ -37,7 +37,7 @@ You can do the following for each customer using the **Shopify Customer Template
 
 1. Specify the **Default Customer No.**, which takes priority over the selection in the **Customer Import from Shopify** and **Customer Mapping Type** fields. It's used in the imported sales order.
 2. Define the **Customer Template Code**, which is used to create missing customers if **Auto Create Unknown Customers** is enabled. If the **Customer Template Code** is empty, then the function uses the **Customer Template Code** defined on the **Shopify Shop Card**. The system first tries to find a template for the **Contry/Region Code** for the default address. If it doesn't find a template, it uses the first address.
-3. In some cases, the **Customer Template Code** defined for a country isn't enough to ensure correct tax calculations (for example, for countries with sales tax). In this case, including **Tax Area** could be a useful addition.
+3. In some cases, the **Customer Template Code** defined for a country/region isn't enough to ensure correct tax calculations (for example, for countries/regions with sales tax). In this case, including **Tax Area** could be a useful addition.
 4. The **Tax Area** field also contains a **Country Code** and **County Name** pair. This pair is useful when the connector needs to convert a code to a name, or vice versa.
 
 > [!NOTE]  
@@ -83,7 +83,7 @@ A customer in Shopify also has a default address. The address might contain a co
 |1|**Name**|Highest priority, if the **Name Source** field in the **Shopify Shop Card** contains *Company Name*.|
 |2|**Name 2**|Lowest priority, if the **Name 2 Source** field in the **Shopify Shop Card** contains *Company Name*.|
 
-For addresses where the county/province is used, select **Code** or **Name** in the **County Source** field on the **Shopify Shop Card** page. The code or name specifies the type of data stored in [!INCLUDE[prod_short](../includes/prod_short.md)] in the **County** field. Remember to initialize customer templates per country so that the county code/name mapping is ready. 
+For addresses where the county/province is used, select **Code** or **Name** in the **County Source** field on the **Shopify Shop Card** page. The code or name specifies the type of data stored in [!INCLUDE[prod_short](../includes/prod_short.md)] in the **County** field. Remember to initialize customer templates per country/region so that the county code/name mapping is ready. 
 
 
 ## Sync customers

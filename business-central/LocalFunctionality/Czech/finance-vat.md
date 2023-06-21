@@ -66,7 +66,7 @@ In the Calculate and Post VAT Settlement functionality, the posted document numb
 
 ## VIES
 
-The VIES report is used for sales declaration to tax authorities in EU (European Union) countries. According to §102 of VAT Law 235/2004, payers are obliged to submit VIES declaration („Souhrnné hlášení“). The VIES declaration has to be submitted to the tax authorities electronically.
+The VIES report is used for sales declaration to tax authorities in EU (European Union) countries/regions. According to §102 of VAT Law 235/2004, payers are obliged to submit VIES declaration („Souhrnné hlášení“). The VIES declaration has to be submitted to the tax authorities electronically.
 The VIES functionality allows you to:
 
 - Set up state reporting

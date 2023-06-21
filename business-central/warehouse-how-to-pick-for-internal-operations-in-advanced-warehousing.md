@@ -39,7 +39,7 @@ Use **Warehouse Pick** documents for picking production components in the flow t
 For a location that uses bins to move items to open shop floor bins, you can use the following methods:
 
 * For a location that uses directed put-away and pick, follow the steps in the [Move Items in advanced warehouse configurations](warehouse-how-to-move-items-in-advanced-warehousing.md) article.
-* For other locations, follow the stapes in the [Move Items Unplanned in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) article.
+* For other locations, follow the steps in the [Move Items Unplanned in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) article.
 
 ## Assembly  
 

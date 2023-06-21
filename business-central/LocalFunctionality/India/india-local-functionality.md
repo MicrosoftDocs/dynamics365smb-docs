@@ -17,6 +17,9 @@ The following topics describe the local functionality in the Indian version of [
 
 ## Feature availability
 
+* Compliance
+    * [Audit trail and edit logs for accounting software in India](india-audit-trail-edit-logs-accounting-software.md) **Available Now**
+
 * Tax Engine
     * [Overview](TaxEngine-001-Overview.md) **Available Now**
     * [Tax Engine Import Export configuration](TaxEngine-002-Import-Export-Configuration.md) **Available Now**

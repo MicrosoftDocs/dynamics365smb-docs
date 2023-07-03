@@ -1,6 +1,6 @@
 ---
 title: Czech Local Functionality - Vies
-description: The VIES report is used for sales declaration to tax authorities in EU (European Union) countries.
+description: The VIES report is used for sales declaration to tax authorities in EU (European Union) countries/regions.
 author: v-makune
 
 ms-service: dynamics365-business-central
@@ -14,7 +14,7 @@ ms.author: v-pejano
 
 # VIES in the Czech Version
 
-The VIES report is used for sales declaration to tax authorities in EU (European Union) countries. According to §102 of VAT Law 235/2004, payers are obliged to submit VIES declaration („Souhrnné hlášení“). The VIES declaration has to be submitted to the tax authorities electronically.
+The VIES report is used for sales declaration to tax authorities in EU (European Union) countries/regions. According to §102 of VAT Law 235/2004, payers are obliged to submit VIES declaration („Souhrnné hlášení“). The VIES declaration has to be submitted to the tax authorities electronically.
 The VIES functionality allows you to:
 
 - Set up state reporting

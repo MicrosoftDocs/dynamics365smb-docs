@@ -17,7 +17,7 @@ If the company's inventory warehouse is located at a different address than the 
 
 For each company you set up, you must fill in the **Company Information** page, together with the **General Ledger Setup** page. You must also set up each area in [!INCLUDE [prod_short](includes/prod_short.md)], such as the **Sales & Receivables Setup** page, for each company. Learn more at [Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-The **Company Information** page contains different fields and FastTabs, depending on your country. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] The following table describes the most common FastTabs.
+The **Company Information** page contains different fields and FastTabs, depending on your country/region. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] The following table describes the most common FastTabs.
 
 [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 

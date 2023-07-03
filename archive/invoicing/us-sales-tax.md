@@ -41,7 +41,7 @@ If you set up new tax rates, you must make sure that you fill in the fields corr
 
 You can optionally click or tap **Set as default tax rate**. The default rate is automatically applied to any taxable document or item.  
 
-If you or your customers are in a country that uses valued added tax (VAT), such as the United Kingdom, see [Add value added tax (VAT) to your invoices](add-vat.md).  
+If you or your customers are in a country/region that uses valued added tax (VAT), such as the United Kingdom, see [Add value added tax (VAT) to your invoices](add-vat.md).  
 
 ## See Also
 

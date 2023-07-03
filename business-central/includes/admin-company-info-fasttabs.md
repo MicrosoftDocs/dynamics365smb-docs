@@ -11,4 +11,4 @@ ms.author: edupont
 |**Communication**|Enter the basic company contact information, such as phone number and email address.|  
 |**Payments**| Fill in the relevant banking information to insure that your customers will be able to pay you.|  
 |**Shipping**|Fill in the relevant shipping information so that you will be able to send and receive goods from and to your company.|  
-|**Tax**|Depending on the country your business is registered in, you might see a Tax FastTab. If it is available, fill in the fields.|  
+|**Tax**|Depending on the country/region your business is registered in, you might see a Tax FastTab. If it is available, fill in the fields.|  

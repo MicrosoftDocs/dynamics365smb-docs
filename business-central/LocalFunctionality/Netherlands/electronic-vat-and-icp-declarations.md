@@ -20,7 +20,7 @@ VAT declarations must be submitted on a monthly or quarterly basis.
 ICP declarations must be submitted on a quarterly basis.
 
 > [!NOTE]  
-> ICP declarations must be submitted by companies that sell goods or services to European Union (EU) countries. Purchases are not included in this declaration. <br /><br />
+> ICP declarations must be submitted by companies/regions that sell goods or services to European Union (EU) countries. Purchases are not included in this declaration. <br /><br />
 For a transaction to qualify for ICP, it is required that the merchandise have crossed the border physically. It is not enough that the location of an invoice address or the office of the vendor or customer is in another EU country or region.  
 
 You can submit the VAT declarations and ICP declarations in the following ways:  

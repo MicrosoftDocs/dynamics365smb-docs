@@ -31,7 +31,7 @@ Another tool that makes it easier to work with multiple units of measure for ite
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measure**, and then choose the related link.  
 2. Choose the **New** action. A new empty line is inserted.  
 3. Fill in the fields. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
-4. If you know that your organization will sell items with this unit of measure to customers in other countries, you can add translations.  
+4. If you know that your organization will sell items with this unit of measure to customers in other countries/regions, you can add translations.  
     1. Select the code for which you want to set up translations, and then choose the **Translations** action.
     2. In the **Language Code** field, select the drop-down arrow to see a list of available language codes. Select the language code for which you want to enter a translation, and then choose the OK button to copy the code to the field.
     3. In the **Description** field, enter the appropriate text.

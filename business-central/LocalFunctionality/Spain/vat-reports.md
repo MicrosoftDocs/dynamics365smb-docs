@@ -43,7 +43,7 @@ There are two report template types in the **VAT Statement Name** table:
 
 ### VAT-VIES Declaration
 
-You can report VAT on sales to other countries in the European Union (EU). For more information, see [Report VAT to Tax Authorities](../../finance-how-report-vat.md).  
+You can report VAT on sales to other countries/regions in the European Union (EU). For more information, see [Report VAT to Tax Authorities](../../finance-how-report-vat.md).  
 
 [!INCLUDE [finance-ecsaleslist](../../includes/finance-ecsaleslist.md)]
 

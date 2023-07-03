@@ -4,7 +4,7 @@ description: Learn how to troubleshoot the connection between Business Central a
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate, 
-ms.date: 06/16/2023
+ms.date: 07/03/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: d365-business-central
@@ -22,7 +22,7 @@ If an event creates or changes many records, the flow doesn't run on some or all
 
 ### Possible cause
 
-Currently, there's a limit on how many records a flow can process. If more than 100 records are created or changed within 30 seconds, the flow isn't triggered.
+Currently, there's a limit on how many records a flow can process. If more than 1000 records are created or changed within 30 seconds, the flow isn't triggered.
 
 > [!NOTE]
 > For developers, the flow triggering is done via webhook notifications, and this limitation is due to the way the Business Central connector handles `collection` notifications. Learn more at [Working with Webhooks in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) in the Developer and Admin help.

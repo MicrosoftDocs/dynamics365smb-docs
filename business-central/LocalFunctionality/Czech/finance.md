@@ -68,7 +68,7 @@ In order to comply with legislation, reporting features, and local reporting pra
 
 ## Financial reports
 
-As one of the most extensively used features for analysis and reporting, Eastern European countries often ask for the following improvements of the standard financial reports feature:
+As one of the most extensively used features for analysis and reporting, Eastern European countries/regions often ask for the following improvements of the standard financial reports feature:
 
 - Common list of expressions – This capability creates named lines for use in formulas in all financial reports. This is achieved by defining one of the financial reports as a common list of expressions called a *shared financial report.*
 - Saving results (current state) of analysis – This improvement enables you to store results of analysis to use later in financial reports, modification of results, and the retrieval of results.

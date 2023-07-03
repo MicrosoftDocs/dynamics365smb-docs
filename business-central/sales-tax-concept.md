@@ -19,7 +19,7 @@ A **sales tax** is a tax that applies to the purchase of goods and services for 
 
 Typically, sales taxes apply to the retail sale of goods and services and are a percentage of the total purchase amount. Retailers are responsible for calculating and collecting sales tax at the time of purchase.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] is available in countries that use value-added tax (VAT) or that use sales tax. The default version of [!INCLUDE[prod_short](includes/prod_short.md)] has basic support for sales tax and richer support in the versions of the application used in the United States and Canada.
+[!INCLUDE[prod_short](includes/prod_short.md)] is available in countries/regions that use value-added tax (VAT) or that use sales tax. The default version of [!INCLUDE[prod_short](includes/prod_short.md)] has basic support for sales tax and richer support in the versions of the application used in the United States and Canada.
 
 > [!IMPORTANT]
 > Although sales tax is available in the default version, Microsoft supports the use of sales tax in the United States and Canada only.

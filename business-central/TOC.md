@@ -106,7 +106,7 @@
 ##### [General Journal Post Line Overview](design-details-general-journal-post-line-overview.md)  
 ##### [Design Details: Posting Interface Structure](design-details-posting-interface-structure.md)  
 ##### [Design Details: Posting Engine Structure](design-details-posting-engine-structure.md)  
-
+#### [Design details: Non-deductible VAT](design-details-nondeductible-vat.md)
 ## Try
 ### [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)
 ### [Dynamics 365 Business Central trial FAQ](trial-faq.md)

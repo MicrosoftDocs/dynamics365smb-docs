@@ -189,8 +189,9 @@ Image synchronization can be initialized in the two ways described below.
 
 ### Image synchronization remarks
 
-* When exporting images from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify, the new images are added to Shopify, keeping old images intact. If an image is updated in [!INCLUDE[prod_short](../includes/prod_short.md)], you'll need to delete the old images in the **Shopify Admin**.
-* Images exported to Shopify that don't comply with requirements defined by Shopify won't be imported. Learn more about [product media types on help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
+* When you export images from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify, the images replace those you exported previously. The earlier images are no longer avialble.
+* If you delete an image in [!INCLUDE[prod_short](../includes/prod_short.md)], the image in Shopify isn't also deleted. You'll need to manually delete the old images in the **Shopify Admin**.
+* Images you export to Shopify must comply with Shopify's requirements. Otherwise, you can't import them. To learn more about media requirements, go to [product media types on help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
 
 ## Sync prices with Shopify
 

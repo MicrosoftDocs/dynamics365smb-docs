@@ -6,7 +6,7 @@ author: rubenseishima
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 03/06/2022
-ms.author: a-reishima
+ms.author: edupont
 ---
 # About Unit Cost Calculation
 
@@ -70,6 +70,7 @@ When you post, the unit cost is copied to the sales invoice item entry, and it c
 [Inventory](inventory-manage-inventory.md)  
 [Sales](sales-manage-sales.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
+[Design details: Non-deductible VAT](design-details-nondeductible-vat.md)
 [Setup Best Practices: Costing Method](setup-best-practices-costing-method.md)  
 [Design Details: Costing Methods](design-details-costing-methods.md)  
 [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  

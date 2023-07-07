@@ -44,13 +44,13 @@ All the examples use items and fixed assets where the VAT product posting group 
 
 A new item has **NDVAT** set as the VAT product posting group. In the purchase document, **Quantity** = **1** and **Direct Unit Cost Excl. VAT** = **1,000.00**.
 
-Regardless of the option that's used, the results in the VAT entry are the same.
+Regardless of the option that's used, the results in the **VAT entry** are the same.
 
 | Document Type | Type | Base | Amount | Non-Deductible VAT Base | Non-deductible VAT Amount |
 |---|---|---|---|---|---|
 | Invoice | Purchase | 0.00 | 0.00 | 1,000.00 | 250.00 |
 
-The details are shown in the value entries.
+The details are shown in the **Value Entries**.
 
 > [!NOTE]
 > You can enable the **Use for Item Cost** field on the **VAT Setup** page.
@@ -71,13 +71,13 @@ The details are shown in the value entries.
 
 A new fixed asset has the acquisition cost account set to use **NDVAT** as the VAT product posting group. In the purchase document, **Quantity** = **1** and **Direct Unit Cost Excl. VAT** = **1,000.00**.
 
-Regardless of the option that's used, the results in the VAT entry are the same.
+Regardless of the option that's used, the results in the **VAT entry** are the same.
 
 | Document Type | Type | Base | Amount | Non-Deductible VAT Base | Non-deductible VAT Amount |
 |---|---|---|---|---|---|
 | Invoice | Purchase | 0.00 | 0.00 | 1,000.00 | 250.00 |
 
-The details are shown in the fixed asset ledger entries.
+The details are shown in the **Fixed Asset Ledger Entries**.
 
 > [!NOTE]
 > You can enable the **Use for Fixed Asset Cost** field on the **VAT Setup** page.

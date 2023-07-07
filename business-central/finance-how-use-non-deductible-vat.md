@@ -65,10 +65,15 @@ You can adjust the values of the **VAT Amount** and **Non-Deductible VAT Amount*
 ## See also
 
 [Financial Management](finance.md)
+
 [Set Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)  
+
 [Set up Non-deductible VAT](finance-setup-nondeductible-vat.md)
+
 [Design details about non-deductible VAT](design-details-nondeductible-vat.md)
+
 [Report VAT to Tax Authorities](finance-how-report-vat.md)
+
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -22,6 +22,9 @@ After you enable a payment service in [!INCLUDE[prod_short](includes/prod_short.
 
 The PayPal Payments Standard and WorldPay Payments Standard extensions are installed in [!INCLUDE[prod_short](includes/prod_short.md)], and are ready for you to enable.  
 
+> [!CAUTION]
+> The WorldPay Payments Standard extension will be deprecated. The code is market as obsolete starting in 2023 release wave 2. The app will be active for the next three major releases and then it will be removed.   
+
 ## To enable a payment service in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Services**, and then choose the related link.  

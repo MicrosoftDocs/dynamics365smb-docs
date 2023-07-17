@@ -105,7 +105,8 @@ The **Warning** information field on the **Planning Worksheet** page informs you
 - Emergency
 - Exception
 - Attention
-- Emergency
+
+### Emergency
 
 The emergency warning is displayed in two situations:
 

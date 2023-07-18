@@ -20,7 +20,7 @@ Intrastat reporting is based on basic EU regulations that apply to all countries
 > [!NOTE]
 > Intrastat information doesn't apply to the movement of services between countries/regions. Instead, the information applies only to goods such as items and fixed assets. If your government requires you to register the movement of services between countries/regions, use the **Service Declaration** feature.
 >
-> This feature is available starting in November 2022, as an app that you can download from [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). To use this feature, install it on the **Extension Management** page.
+> This feature is available as an app that you can download from [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). To use this feature, install it on the **Extension Management** page.
 
 > [!IMPORTANT]
 > This article covers the new Intrastat experience that's available from [!INCLUDE[prod_short](includes/prod_short.md)] version 21. Consult your administrator to learn which version your company is using and whether you should enable the new functionality.
@@ -34,7 +34,7 @@ In 2022 release wave 2, [!INCLUDE[prod_short](includes/prod_short.md)] includes 
 > [!IMPORTANT]
 > You can't use the old and new experiences in parallel. Before you activate the extension in a production environment, we recommend that you test it in a sandbox environment by using a copy of your production data. After you activate a new user experience in your production environment, you can't revert to the old Intrastat functionality.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Feature Management**, and then select the related link.
+1. Select the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Feature Management**, and then select the related link.
 2. On the **Feature Management** page, select the line for **Feature Update: Replace the existing Intrastat functionality with the new Intrastat extension**. To learn more about feature management, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 3. In the **Enable for** column, select **All Users**.
 4. Read the explanation about how the system will be upgraded, and then select **Yes** to agree.

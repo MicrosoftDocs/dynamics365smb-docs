@@ -90,7 +90,7 @@ The **Find it** section includes two links to product Help:
 
 #### Community
 
-In the [Business Central community forum](https://community.dynamics.com/forums/thread/?partialUrl=business), you can submit a question and learn from other [!INCLUDE[prod_short](includes/prod_short.md)] community members. Partners and Microsoft employees participate in the conversations.  
+In the [Business Central community forum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04), you can submit a question and learn from other [!INCLUDE[prod_short](includes/prod_short.md)] community members. Partners and Microsoft employees participate in the conversations.  
 
 If you don't yet have a partner, the Community can also help you get unblocked if you have questions. For example, if you just signed up for a trial, the Community can be a great starting point.  
 
@@ -238,6 +238,7 @@ The same applies if you use [!INCLUDE [prod_short](includes/prod_short.md)] on-p
 [Business Central Quick Starts](quick-start-business-central.md)  
 [How do I find a reselling partner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Help System (available in English only)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
+[Leave us feedback](/dynamics365/get-started/feedback)  
 [Blog post: Find the right resources and provide feedback](https://community.dynamics.com/blogs/post/?postid=22e164ac-b804-4ac9-9e57-3e8c4fd24cbd)  
 [Business Central developer and administration docs](/dynamics365/business-central/dev-itpro/)  
 [Resources for Help and Support for Partners](/dynamics365/business-central/dev-itpro/help-and-support)  

@@ -32,7 +32,7 @@ sections:
       - question: |
           Where do I go if I have questions?
         answer: |
-          If you have questions about [!INCLUDE[prod_short](includes/prod_short.md)] that you can't find an answer for in this documentation, you can ask the Business Central community. Learn more at [Dynamics 365 Business Central community](https://community.dynamics.com/forums/thread/?partialUrl=business).  
+          If you have questions about [!INCLUDE[prod_short](includes/prod_short.md)] that you can't find an answer for in this documentation, you can ask the Business Central community. Learn more at [Dynamics 365 Business Central community forum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04).  
           
           From the community home page, you can also find links to our blogs where you can also find tips and tricks. Learn more at [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) and the older [Dynamics 365 Business Central Blog](https://community.dynamics.com/blogs/?blogid=57bdb1f3-851d-4406-a81a-508fef896fc2&groupid=e78817ab-a926-4d31-96cc-aef040a4eb04).  
           

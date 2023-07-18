@@ -21,7 +21,7 @@ Export of bookkeeping information from the system is a common request by some lo
 **Audit Files Export** is a preinstalled extension that lets you export different entries, based on auditor or authority requirements. Regardless of the format type or entries, you can use the extension's functionality to control the data export process. The functionality doesn't have a preinstalled file format for export. Therefore, you must either install an app that has a specific format (for example, SIE, SAF-T, or FAC) or develop your own.
 
 > [!NOTE]
-> Currently, you can select SIE or SAF-T format as an additional app. Partners can also develop a custom format. The number of available formats will increase over time.
+> Currently, you can select SIE (Sweden), FEC (France), and SAF-T format as an additional app. Partners can also develop a custom format. The number of available formats will increase over time.
 
 ## Set up audit file export
 

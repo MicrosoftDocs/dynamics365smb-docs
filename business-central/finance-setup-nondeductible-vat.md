@@ -66,7 +66,9 @@ Because it can be difficult to know where and how an item is used, you must cont
 ## See also
 
 [Financial Management](finance.md)  
+[Design details: Non-deductible VAT](design-details-nondeductible-vat.md)  
+[Use non-deductible VAT](finance-how-use-non-deductible-vat.md)  
 [Set Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

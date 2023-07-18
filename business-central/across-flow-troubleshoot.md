@@ -7,7 +7,6 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, work
 ms.date: 07/03/2023
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: d365-business-central
 ---
 
 # Troubleshoot Your [!INCLUDE[prod_short](includes/prod_short.md)] Automated Workflows

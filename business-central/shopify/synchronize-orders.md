@@ -4,7 +4,7 @@ description: Set up and run import and processing of sales order from Shopify.
 ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,
+ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147
 author: andreipa
 ms.author: andreipa
 ms.reviewer: bholtorf
@@ -30,9 +30,12 @@ Enable **Auto Create Orders** to automatically create sales documents in [!INCLU
 
 If you want to automatically release a sales document, turn on the **Auto Release Sales Order** toggle.
 
-The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add a field that isn't already displayed on the page. To learn more about adding a field, go to [To start personalizing a page through the **Personalizing** banner](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). If you select the **Shopify Order No. on Doc. Line** field, this information is repeated on the sales lines of the type **Comment**.
+If you select the **Shopify Order No. on Doc. Line** field, [!INCLUDE [prod_short](../includes/prod_short.md)] inserts sales lines of the type **Comment** with the Shopify order number.
 
-In the **Tax area priority** field, you can set the priority on how to select tax area code on addresses in order. The imported Shopify order contains information about taxes. Taxes are recalculated when you create the sales document, so it's important that the VAT/tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. For more information about taxes, see [Set Up Taxes for the Shopify Connection](setup-taxes.md).
+>[!NOTE]
+>The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add the **Shopify Order No.** field to the list or card pages for sales orders, invoices, and shipment. To learn more about adding a field, go to [To start personalizing a page through the **Personalizing** banner](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). 
+
+In the **Tax area priority** field, prioritize how to select a tax area code for addresses on orders. The Shopify order you import contains information about taxes. Taxes are recalculated when you create sales documents, so it's important that the VAT or tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. To learn more about taxes, go to [Set Up Taxes for the Shopify Connection](setup-taxes.md).
 
 Specify how you'll process returns and refunds:
 

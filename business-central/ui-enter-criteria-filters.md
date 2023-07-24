@@ -274,11 +274,11 @@ When entering filter criteria, you can also type words that have special meaning
 
 #### (%me or %userid) Records Assigned to You
 
-Use `%me` or `%userid` when filtering fields that contain the user ID, such as **Assigned to User ID** field, to display all records that are assigned to you.
+Use `%me` or `%user` when filtering fields that contain the user ID, such as **Assigned to User ID** field, to display all records that are assigned to you.
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
-|`%me`<br />or<br />`%userid`|Records that are assigned to your user account. |  
+|`%me`<br />or<br />`%user`|Records that are assigned to your user account. |  
 
 #### (%mycustomers) Customers in My Customers
 

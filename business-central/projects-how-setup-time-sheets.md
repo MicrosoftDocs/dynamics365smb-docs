@@ -54,7 +54,7 @@ The assisted setup guide takes you through the following steps:
 At the end of the setup guide, you can choose to let [!INCLUDE [prod_short](includes/prod_short.md)] create time sheets based on your configuration. View the new time sheets in the **Time Sheets** page, which you can open [here](https://businesscentral.dynamics.com/?page=951). Alternatively, run the assisted setup guide again, or complete the setup manually. 
 
 > [!IMPORTANT]
-> If you're using 2023 release wave 1 (v22) or later, to ensure that you can mange and edit time sheets on mobile devices, you must manually turn on the **Use New Time Sheet Experience** option for the time sheet setup, as described in the next procedure.
+> If you're using 2023 release wave 1 (v22) or later, to ensure that you can manage time sheets on mobile devices, you must manually turn on the **Use New Time Sheet Experience** option for the time sheet setup, as described in the next procedure.
 
 ## Set up time sheets manually
 
@@ -63,8 +63,11 @@ The following sections describe how to set up time sheets if you do not use the 
 ### To set up general information for time sheets manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources Setup**, and then choose the related link.  
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. For the **Time Sheet by Job Approval** field, select one of the following options.
+1. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+   > [!IMPORTANT]
+   > If you're using 2023 release wave 1 (v22) or later, to ensure that you can manage time sheets on mobile devices, turn on the **Use New Time Sheet Experience** option.
+1. For the **Time Sheet by Job Approval** field, select one of the following options.
 
 | Option | Description |
 | --- | --- |

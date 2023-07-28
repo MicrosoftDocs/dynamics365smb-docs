@@ -350,6 +350,7 @@
 
 ### Manage VAT
 #### [VAT management overview](finance-manage-vat.md)
+#### [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md)
 #### Setup VAT
 ##### [Set Up Value-Added Tax](finance-setup-vat.md)
 ##### [Posting Group Setup](finance-posting-groups.md#tax-posting-groups)

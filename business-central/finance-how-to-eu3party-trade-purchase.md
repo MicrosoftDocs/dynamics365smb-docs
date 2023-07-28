@@ -19,25 +19,25 @@ European Union (EU) third-party trade occurs when you receive a purchase invoice
 
 Even if the feature is preinstalled as an extension, it isn't activated by default. Follow these steps to activate the feature.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, go to the **Feature Management** workspace, and then select the related link.
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, go to the **Feature Management** workspace, and then select the related link.
 2. In the list, find and select **Feature update: Replace the existing EU 3-Party Purchase functionality with the new EU 3-Party Trade Purchase extension**.
 3. In the **Enabled for** column, select **All users**.
 
 ## Enable EU third-party trade functionality for a purchase
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Setup**, and then select the related link.
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Setup**, and then select the related link.
 2. On the **VAT Setup** page, mark the **Enable EU 3-Party Purchase** field.
 
 ## Use EU third-party trade functionality
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoice** (or another purchase document), and then select the related link.
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoice** (or another purchase document), and then select the related link.
 2. Select an existing purchase invoice, or select **New** to create a new one.
 3. On the **Invoice Details** FastTab, select the **EU 3-Party Trade** checkbox.
 4. Select **OK**.
 
 ## Include or exclude EU third-party trade records on the VAT statement
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then select the related link.
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Statement**, and then select the related link.
 2. On the **VAT Statement** page, select one of the following options to show EU third-party trade records by using the **EU 3-Party Trade Filter** field.
 
     | Option | Description |

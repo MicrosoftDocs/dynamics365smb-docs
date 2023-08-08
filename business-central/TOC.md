@@ -2009,4 +2009,4 @@
 ## [Removed or Deprecated Features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
-## [FAQs for item marketing text suggestions](faqs-marketing-text.md)
+## [FAQ for item marketing text suggestions](faqs-marketing-text.md)

@@ -42,10 +42,15 @@ This feature is intended to assist users in creating marketing text for items in
 ## How was item marketing text evaluated? What metrics are used to measure performance?
 
 - The feature underwent substantial testing before it was released.
+- It relies on user feedback to report inappropriate content and improve the functionality.
 
-- We track user feedback on [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] to help us improve suggestions. 
+  - If you encounter inappropriate generated content, report it to Microsoft by using this feedback form: [Report abuse](https://msrc.microsoft.com/report/abuse?ThreatType=URL&IncidentType=Responsible%20AI&SourceUrl=https://dynamics.microsoft.com/supply-chainmanagement/overview/). 
 
-   You provide feedback by using **Is this a good suggestion?** option on the **Create with Copilot** page in Business Central and selecting either a thumbs-up (I like it) or thumbs-down (Needs improvement). We gather the telemetry of these gestures for each AI output that you submit feedback for.
+    Microsoft might disable the Copilot-driven features for selected customers if abuse of the functionality is detected. 
+
+  - We track user feedback on [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] to help us improve suggestions. 
+
+    You provide feedback by using **Is this a good suggestion?** option on the **Create with Copilot** page in Business Central and selecting either a thumbs-up (I like it) or thumbs-down (Needs improvement). We gather the telemetry of these gestures for each AI output that you submit feedback for.
 
 - The Azure OpenAI Service stores prompts and completions from the service to monitor for abusive use and to develop and improve the quality of Azure OpenAI's content management systems. [Learn more about our content management and filtering.](/azure/cognitive-services/openai/concepts/content-filter)
 

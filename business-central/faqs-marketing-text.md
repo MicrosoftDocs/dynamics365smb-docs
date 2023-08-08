@@ -1,5 +1,5 @@
 ---
-title: FAQs for item marketing text suggestions
+title: FAQ for item marketing text suggestions
 description: This FAQ provides information about the AI technology used in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 08/08/2023
 ms.custom: 
@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ---
 
-# FAQs for item marketing text suggestions
+# FAQ for item marketing text suggestions
 
 These frequently asked questions (FAQ) describe the AI impact of the [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] feature in Business Central.
 

@@ -46,6 +46,9 @@ The following are requirements for setting up synchronization.
 
 The first steps are to specify the company that will be the data source and enable synchronization. Subsidiary companies pull data from the source company.
 
+> [!NOTE]
+> When you enable synchronization, [!INCLUDE [prod_short](includes/prod_short.md)] creates and schedules the job queue entries that synchronize the data. It might look like the entries immediately sync the data, but that isn't the case. The created job queue entries only sync coupled records, and at this point you haven't set that up yet. Synchronization starts after you [Enable or disable tables and fields](#enable-or-disable-tables-and-fields) and [Synchronize for the first time](#synchronize-for-the-first-time).
+
 1. In a subsidiary company, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Master Data Management Setup**, and then choose the related link.
 1. In the **Source Company** field, specify the company that you'll pull changes from.
 1. Turn on the **Enable Synchronization** toggle.

@@ -2007,3 +2007,6 @@
 ## [Security and Protection](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Performance](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Removed or Deprecated Features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Responsible AI
+## [Overview](responsible-ai-overview.md)
+## [FAQs for item marketing text suggestions](transparency-note-marketing-text.md)

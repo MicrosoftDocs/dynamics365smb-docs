@@ -1,9 +1,9 @@
 ---
-author: rubenseishima
-
+author: brentholtorf
 ms.topic: include
-ms.date: 06/30/2022
-ms.author: a-reishima
+ms.date: 08/03/2023
+ms.author: bholtorf
+
 ---
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
@@ -16,4 +16,4 @@ ms.author: a-reishima
 > Some fields are hidden until you choose the **Show more** action, typically because they are used rarely. Others must be added through personalization. For more information, see [Personalize Your Workspace](../ui-personalization-user.md).
 
 > [!WARNING]
-> Some fields on the vendor bank account contain sensitive business data, such as the **Bank Branch No.**, **Bank Account No.**, **SWIFT Code**, and **IBAN Code**. For more information on how to monitor and be notified when someone changes a value in those fields, see [Monitoring Sensitive Fields](../across-log-changes.md#monitoring-sensitive-fields).
+> Some fields on the vendor bank account contain sensitive business data, such as the **Bank Branch No.**, **Bank Account No.**, **SWIFT Code**, and **IBAN Code**. For more information on how to monitor and be notified when someone changes a value in those fields, see [Monitor Sensitive Fields](../across-log-changes.md#monitor-sensitive-fields).

@@ -2,16 +2,13 @@
 title: Set Up Bank Accounts (contains video)
 description: Learn how bank accounts are used in Business Central, and how you can reconcile amounts with your bank.
 author: brentholtorf
-
-
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
-ms.date: 01/24/2022
-ms.author: edupont
+ms.date: 08/03/2023
+ms.custom: bap-template
 
 ---
 # Set Up Bank Accounts
@@ -82,7 +79,7 @@ See in the video below the basic steps to set up a bank account in [!INCLUDE[pro
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl?rel=0]
 
 > [!WARNING]
-> Some fields may contain sensitive data, such as the **Bank Branch No.**, **Bank Account No.**, **SWIFT Code**, and **IBAN Code** fields. Learn more at [Monitoring Sensitive Fields](across-log-changes.md#monitoring-sensitive-fields).
+> Some fields may contain sensitive data, such as the **Bank Branch No.**, **Bank Account No.**, **SWIFT Code**, and **IBAN Code** fields. Learn more at [Monitor Sensitive Fields](across-log-changes.md#monitor-sensitive-fields).
 
 ## To set up bank accounts
 

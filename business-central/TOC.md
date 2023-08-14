@@ -1,50 +1,50 @@
 ﻿
 # [Business Central documentation](index.yml)
 # [Welcome to Business Central](welcome.md)
-# [New and Planned](product-news.md)
+# [New and planned](product-news.md)
 # Get Started
-## [Overview of Business Functionality](across-business-functionality.md)
+## [Overview of business functionality](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Learn
-### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
+### [Business Central learning catalog](readiness/readiness-learning-catalog.md)
 ### [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Business Process Walkthroughs
-#### [Available Walkthroughs](walkthrough-business-process-walkthroughs.md)
-#### [Walkthrough: Conducting a Sales Campaign](walkthrough-conducting-a-sales-campaign.md)
-#### [Walkthrough: Set Up and Invoicing Sales Prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
-#### [Walkthrough: Set Up and Use a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+#### [Available walkthroughs](walkthrough-business-process-walkthroughs.md)
+#### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
+#### [Walkthrough: Set up and invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
+#### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!-- #### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
 <!-- #### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
 <!-- #### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
 <!-- #### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!-- #### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md) -->
-#### [Walkthrough: Manage Projects with Jobs](walkthrough-managing-projects-with-jobs.md)
-#### [Walkthrough: Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)
-#### [Walkthrough: Picking and Shipping in Basic Warehouse Configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
+#### [Walkthrough: Manage projects with jobs](walkthrough-managing-projects-with-jobs.md)
+#### [Walkthrough: Calculate work in process for a job](walkthrough-calculating-work-in-process-for-a-job.md)
+#### [Walkthrough: Pick and ship in basic warehouse configurations](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
-#### [Walkthrough: Making Cash Flow Forecasts by Using Financial Reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-#### [Walkthrough: Set Up and Use the Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
+#### [Walkthrough: Make cash flow forecasts by using financial reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Walkthrough: Set up and use the Shopify connector](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
 ### Contoso Coffee Demo Data
-#### [Introduction to Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md)
+#### [Introduction to Contoso Coffee demo data](contoso-coffee/contoso-coffee-intro.md)
 #### Manufacturing
-##### [Introduction to Contoso Coffee Manufacturing](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
-##### [Create a New Production BOM and BOM Version](contoso-coffee/manufacturing/create-new-production-bom-version.md)
-##### [Create a New Routing](contoso-coffee/manufacturing/create-new-routing.md)
-##### [Create a Firm Planned Production Order and Change It](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
-##### [Combine Automatic and Manual Flushing](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
-##### [Use Order Planning to Create and Reserve Supply](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
-##### [Set up and Process a Subcontracting Operation](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
-##### [Set Up New Capacity](contoso-coffee/manufacturing/set-up-new-capacity.md)
+##### [Introduction to Contoso Coffee manufacturing](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
+##### [Create a new production BOM and BOM version](contoso-coffee/manufacturing/create-new-production-bom-version.md)
+##### [Create a new routing](contoso-coffee/manufacturing/create-new-routing.md)
+##### [Create a firm planned production order and change it](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
+##### [Combine automatic and manual flushing](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
+##### [Use order planning to create and reserve supply](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
+##### [Set up and process a subcontracting operation](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
+##### [Set up new capacity](contoso-coffee/manufacturing/set-up-new-capacity.md)
 ##### [Variants](contoso-coffee/manufacturing/variants.md)
 #### Warehousing
-##### [Introduction to Contoso Coffee Warehouse](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
-##### [Walkthrough of inbound and outbound flow in Basic Warehouse Configurations](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
-##### [Walkthrough of inbound and outbound flow in mixed Warehouse Configurations](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
-##### [Walkthrough of inbound and outbound flow in Advanced Warehouse Configuration with Directed Put-away and Pick](contoso-coffee/warehousing/warehouse-directed-flow.md)
+##### [Introduction to Contoso Coffee warehouse](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
+##### [Walkthrough of inbound and outbound flow in basic warehouse configurations](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
+##### [Walkthrough of inbound and outbound flow in mixed warehouse configurations](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
+##### [Walkthrough of inbound and outbound flow in advanced warehouse configuration with directed put-away and pick](contoso-coffee/warehousing/warehouse-directed-flow.md)
 
 ### Design Details
-#### [Application Design Details Overview](design-details-application-design.md)
+#### [Application design details overview](design-details-application-design.md)
 #### Design Details: Inventory Costing
 ##### [Inventory Costing Design Details](design-details-inventory-costing.md)
 ##### [Design Details: Costing Methods](design-details-costing-methods.md)  

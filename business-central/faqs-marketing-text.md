@@ -58,6 +58,20 @@ This feature is intended to assist users in creating marketing text for items in
 
    For more information, see [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation).
 
+## Can I opt out of the logging and human review process as part of Azure OpenAI previews?  
+
+As part of providing the Azure OpenAI previews, Microsoft will process and store customer data submitted to the service, as well as output content, for purposes of monitoring for and preventing abusive or harmful uses or outputs of the service; and for developing, testing, and improving capabilities designed to prevent abusive use of or harmful outputs from the service. 
+
+Authorized Microsoft personnel may review data that has triggered our automated systems to investigate and verify potential abuse, and may engage in limited random sampling of terms that aren't flagged by our automated systems to ensure the systems are working properly. Authorized Microsoft personnel may also access and use this data to improve our systems that monitor for and prevent abusive or harmful uses or outputs of the service. Read more on [preview terms](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
+
+## What data does the capability collect? How is the data used?
+
+The capability collects your answer to the **Is this a good suggestion?** question on the **Create with Copilot** page, which can be either a thumbs-up (I like it) or thumbs-down (Needs improvement).
+
+We use this data to evaluate and improve the quality of the capability. More information on what data is collected is available in the [preview terms](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
+
+![Shows an item card with Marketing Text pane](media/create-with-copilot-window-feedback.png)
+
 ## What are the limitations of [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? How can users minimize the impact of the [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] limitations when using the system?
 
 - Because the underlying technology behind the feature uses AI that has been trained on a wide range of sources, the generated content isn't always factual or suitable. Some suggestions may even include questionable or inappropriate content. It's your responsibility to review and edit generated suggestions to ensure it's accurate and appropriate.
@@ -76,6 +90,8 @@ To learn more, go to [Improve and tailor text suggestions](item-marketing-text.m
 
 > [!TIP]
 > Always review the suggestions for accuracy before saving them and publishing them for public consumption.
+
+
 
 ## See also
 

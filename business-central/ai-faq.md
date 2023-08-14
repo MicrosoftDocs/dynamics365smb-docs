@@ -92,7 +92,9 @@ To learn more, go to [Configure AI-powered item marketing text (preview) with Co
 
 Currently, Copilot only supports English. Inaccurate responses may be returned when users converse with the system in languages other than English.
 
-## Where can I read more about things like data collection, privacy, and what done about abusive text suggestions?
+## Where can I read more about things like data collection, privacy, and what's done about abusive text suggestions?
+
+Go to [Responsible AI FAQ for item marketing text suggestions](faqs-marketing-text.md).
 <!--
 ## [Human oversight](#tab/oversight)
 

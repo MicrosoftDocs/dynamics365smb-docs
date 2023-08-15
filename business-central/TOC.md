@@ -2,13 +2,13 @@
 # [Business Central documentation](index.yml)
 # [Welcome to Business Central](welcome.md)
 # [New and planned](product-news.md)
-# Get Started
+# Get started
 ## [Overview of business functionality](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Learn
 ### [Business Central learning catalog](readiness/readiness-learning-catalog.md)
 ### [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
-### Business Process Walkthroughs
+### Business process walkthroughs
 #### [Available walkthroughs](walkthrough-business-process-walkthroughs.md)
 #### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
 #### [Walkthrough: Set up and invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
@@ -25,7 +25,7 @@
 #### [Walkthrough: Make cash flow forecasts by using financial reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Walkthrough: Set up and use the Shopify connector](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
-### Contoso Coffee Demo Data
+### Contoso Coffee demo data
 #### [Introduction to Contoso Coffee demo data](contoso-coffee/contoso-coffee-intro.md)
 #### Manufacturing
 ##### [Introduction to Contoso Coffee manufacturing](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
@@ -43,39 +43,39 @@
 ##### [Walkthrough of inbound and outbound flow in mixed warehouse configurations](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
 ##### [Walkthrough of inbound and outbound flow in advanced warehouse configuration with directed put-away and pick](contoso-coffee/warehousing/warehouse-directed-flow.md)
 
-### Design Details
+### Design details
 #### [Application design details overview](design-details-application-design.md)
-#### Design Details: Inventory Costing
-##### [Inventory Costing Design Details](design-details-inventory-costing.md)
-##### [Design Details: Costing Methods](design-details-costing-methods.md)  
-##### [Design Details: Change the Costing Method for Items](design-details-changing-costing-methods.md)
-##### [Design Details: Item Application](design-details-item-application.md)  
-##### [Design Details: Known Item Application Issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
-##### [Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
-##### [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)  
-##### [Design Details: Average Cost](design-details-average-cost.md)  
-##### [Design Details: Variance](design-details-variance.md)  
-##### [Design Details: Rounding](design-details-rounding.md)  
-##### [Design Details: Cost Components](design-details-cost-components.md)  
-##### [Design Details: Inventory Periods](design-details-inventory-periods.md)  
-##### [Design Details: Inventory Posting](design-details-inventory-posting.md)  
-##### [Design Details: Production Order Posting](design-details-production-order-posting.md)  
-##### [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)  
-##### [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md)  
-##### [Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
-##### [Design Details: Inventory Valuation](design-details-inventory-valuation.md)  
-##### [Design Details: Revaluation](design-details-revaluation.md)
-#### Design Details: Posting Date on Adjustment Value Entry
-##### [Posting Date on Adjustment Value Entry Overview](design-details-inventory-adjustment-value-entry-posting-date.md)  
-##### [Error Message "Posting Date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-##### [Posting Date on Adjustment Value Entry Compared to the Source Entry](design-details-inventory-adjustment-value-entry-source-entry.md)
-#### Design Details: Dimension Set Entries
-##### [Design Details: Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md)
-##### [Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md)
-##### [Design Details: Table Structure](design-details-table-structure.md)
-#### Design Details: Supply Planning
-##### [Supply Planning Design Details](design-details-supply-planning.md)
-##### [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
+#### Design details: Inventory costing
+##### [Inventory costing design details](design-details-inventory-costing.md)
+##### [Design details: Costing methods](design-details-costing-methods.md)  
+##### [Design details: Change the costing method for items](design-details-changing-costing-methods.md)
+##### [Design details: Item application](design-details-item-application.md)  
+##### [Design details: Known item application issue](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+##### [Design details: Cost adjustment](design-details-cost-adjustment.md)  
+##### [Design details: Expected cost posting](design-details-expected-cost-posting.md)  
+##### [Design details: Average cost](design-details-average-cost.md)  
+##### [Design details: Variance](design-details-variance.md)  
+##### [Design details: Rounding](design-details-rounding.md)  
+##### [Design details: Cost components](design-details-cost-components.md)  
+##### [Design details: Inventory periods](design-details-inventory-periods.md)  
+##### [Design details: Inventory posting](design-details-inventory-posting.md)  
+##### [Design details: Production order posting](design-details-production-order-posting.md)  
+##### [Design details: Assembly order posting](design-details-assembly-order-posting.md)  
+##### [Design details: Reconciliation with the general ledger](design-details-reconciliation-with-the-general-ledger.md)  
+##### [Design details: Accounts in the general ledger](design-details-accounts-in-the-general-ledger.md)
+##### [Design details: Inventory valuation](design-details-inventory-valuation.md)  
+##### [Design details: Revaluation](design-details-revaluation.md)
+#### Design details: Posting date on adjustment value entry
+##### [Posting date on adjustment value entry verview](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Error message "Posting date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Posting date on adjustment value entry compared to the source entry](design-details-inventory-adjustment-value-entry-source-entry.md)
+#### Design details: Dimension set entries
+##### [Design details: Dimension set entries overview](design-details-dimension-set-entries-overview.md)
+##### [Design details: Searching for dimension combinations](design-details-searching-for-dimension-combinations.md)
+##### [Design details: Table structure](design-details-table-structure.md)
+#### Design details: Supply planning
+##### [Supply planning design details](design-details-supply-planning.md)
+##### [Design details: Central concepts of the planning system](design-details-central-concepts-of-the-planning-system.md)  
 ##### [Design Details: Reservation, Order Tracking, and Action Messaging](design-details-reservation-order-tracking-and-action-messaging.md)  
 ##### [Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
 ##### [Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md)  

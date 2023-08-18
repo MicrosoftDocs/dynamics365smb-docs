@@ -61,7 +61,7 @@ Follow these steps to set up Intrastat reporting.
    | --- | --- |
    | **Report Receipts** | Specifies that you must include arrivals of received goods in Intrastat reports. |
    | **Report Shipments** | Specifies that you must include shipments of dispatched items in Intrastat reports. |
-   | **Include Drop Shipments** | Specifies if drop shipment transactions are included in Intrastat reports. More about that in [Work with Intrastat Reporting](finance-how-report-intrastat.md)  |  
+   | **Include Drop Shipments** | Specifies if drop shipment transactions are included in Intrastat reports. To learn more, see [Work with Intrastat Reporting](finance-how-report-intrastat.md).  |  
    | **Shipments Based On**  | Specifies the country code based on which Intrastat report lines are taken.  |
    | **VAT No. Based On** | Specifies the customer or vendor code based on which the value-added tax (VAT) number is taken for the Intrastat report.  |
    | **Company VAT No. on File** | Specifies how the company's VAT registration number is exported to the Intrastat file.  |
@@ -252,7 +252,7 @@ Before you can include a customer in Intrastat reporting, enter their informatio
 
 #### Exclude items and fixed assets from Intrastat reporting
 
-If there's a reason to exclude a specific item or fixed asset from Intrastat reporting, change the option on its card marking the **Exclude from Intrastat Report** field. This field can be used on the **Item Template** card if you want to create more items excluded from the Intrastat reporting. 
+If there's a reason to exclude a specific item or fixed asset from Intrastat reporting, change the option on its card marking the **Exclude from Intrastat Report** field. Use this field on the **Item Template** card to create more items excluded from the Intrastat reporting. 
 
 ##### Exclude an item from Intrastat reporting
 

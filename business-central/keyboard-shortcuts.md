@@ -4,7 +4,7 @@ description: The complete list of keyboard shortcut combinations to work efficie
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 02/09/2023
+ms.date: 08/15/2023
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics365-business-central
@@ -40,7 +40,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |Select these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
 |<kbd>Alt</kbd>|Show access keys for selecting actions in the action bar and navigation menu on the page. For more information, go to [Access keys](#access-keys-for-action-bar-and-navigation-menu).|
-|<kbd>Alt</kbd>+<kbd>Up Arrow</kbd>|Open a drop-down list or look up a value for a field.|
+|<kbd>Alt</kbd>+<kbd>Down Arrow</kbd>|Open a drop-down list or look up a value for a field.|
 |<kbd>Alt</kbd>+<kbd>Up Arrow</kbd>|Show tooltip for a field or a column header of a table. If the field has validation errors, select <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> to show the validation error. Select <kbd>Esc</kbd> or <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> to close the tooltip.|
 |<kbd>F2</kbd>|Toggle between selecting the entire field value or placing the cursor at the end of the field value.|
 |<kbd>Alt</kbd>+<kbd>F2</kbd>|Show and hide the FactBox pane.|
@@ -51,7 +51,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |<kbd>Alt</kbd>+<kbd>N</kbd> |Open a page to create a new record. (Similar to choosing the **New** and **+** actions.)|
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> |Close a newly created page and open a new one to create a new record. Similarly, <kbd>Alt</kbd>+<kbd>F9</kbd> posts a document and creates a new one.|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|Open the **My Settings** page.|
-|<kbd>Alt</kbd>+<kbd>Right Arrow</kbd>|Look up additional information or underlying values for a field that contains the ![AssistEdit.](media/assist-edit-icon.png "AssistEdit button") button. Used when the usual drop-down button (<kbd>Alt</kbd>+<kbd>Up Arrow</kbd>) in the same field is used for another purpose.|
+|<kbd>Alt</kbd>+<kbd>Right Arrow</kbd>|Look up additional information or underlying values for a field that contains the ![AssistEdit.](media/assist-edit-icon.png "AssistEdit button") button. Used when the usual drop-down button (<kbd>Alt</kbd>+<kbd>Down Arrow</kbd>) in the same field is used for another purpose.|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>|Display information in the company badge. Starting in Business Central 2022 release wave 2 (version 21, this shortcut is no longer supported replaced by <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting Pages](across-inspect-page.md).|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd> |Copy the value of field. If the field is in focus, and you haven't selected any text in the field, this will copy the entire value. If you've selected any text in the field, then it will copy the selected text only.|

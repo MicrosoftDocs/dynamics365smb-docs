@@ -189,7 +189,7 @@
 ##### [Set the layout used by a report](ui-how-change-layout-currently-used-report.md)
 ### Share business data
 #### [Overview](across-share-data-features.md)
-#### [Share records and page links in teams](across-working-with-teams.md)
+#### [Share records and page links in Teams](across-working-with-teams.md)
 #### [Share files in OneDrive](across-share-onedrive.md)
 #### [View and edit in Excel](across-work-with-excel.md)
 ### Accessibility, keyboard shortcuts, and touch gestures
@@ -262,7 +262,7 @@
 
 ### Workflows
 #### [Workflow overview](across-workflow.md)
-#### [Use Business Central in power automate Flows](across-how-use-financials-data-source-flow.md)
+#### [Use Business Central in Power Automate flows](across-how-use-financials-data-source-flow.md)
 #### Use approval workflows
 ##### [Use approval workflows](across-use-workflows.md)
 ##### [Enable approval workflows](across-how-to-enable-workflows.md)
@@ -1673,9 +1673,9 @@
 ##### [Change company and other settings](across-teams-settings.md)
 ##### [Teams FAQ](teams-faq.md)
 ##### [Troubleshoot Teams integration](admin-teams-troubleshooting.md)
-#### Use OneDrive for business with Business Central
+#### Use OneDrive for Business with Business Central
 ##### [Overview](across-onedrive-overview.md)
-##### [Manage OneDrive for business integration](admin-onedrive-integration.md)
+##### [Manage OneDrive for Business integration](admin-onedrive-integration.md)
 ###### [Configuring OneDrive integration with Business Central on-premises](admin-onedrive-integration-onpremises.md)
 ##### [Open and share files in OneDrive](across-share-onedrive.md)
 ##### [OneDrive FAQ](admin-onedrive-faq.md)
@@ -1692,11 +1692,11 @@
 ###### [Work with Business Central data in Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Use the Business Central apps in Power BI](across-powerbi-business-central-apps.md)
 ##### [FAQ](power-bi-faq.md)
-#### Use power automate with Business Central
-##### [Use power automate flows in Business Central](across-how-use-financials-data-source-flow.md)
+#### Use Power Automate with Business Central
+##### [Use Power Automate flows in Business Central](across-how-use-financials-data-source-flow.md)
 ##### [Troubleshoot your automated workflows](across-flow-troubleshoot.md)  
-#### Use power apps with Business Central
-##### [Connecting to your Business Central data to build a business app use power apps](across-how-use-financials-data-source-powerapps.md)
+#### Use Power Apps with Business Central
+##### [Connecting to your Business Central data to build a business app use Power Apps](across-how-use-financials-data-source-powerapps.md)
 #### [Change from a QuickBooks app to Business Central](across-quickbooks-to-business-edition.md)
 #### [Bulk invoices for Microsoft bookings](finance-bookings.md)
 #### [Import business data from other finance systems](across-import-data-configuration-packages.md)
@@ -1926,7 +1926,7 @@
 ### [Manually synchronize table mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshoot synchronization errors](admin-troubleshoot-sales-synchronization.md)
-### [Use a power automate flow for alerts to Dataverse entity changes](admin-power-automate-flow-dataverse.md)
+### [Use a Power Automate flow for alerts to Dataverse entity changes](admin-power-automate-flow-dataverse.md)
 ## Synchronize master data across companies
 ### [Get ready to synchronize master data](admin-set-up-data-sync.md)
 ### [Manage master data synchronization](admin-sync-master-data.md)

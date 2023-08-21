@@ -718,7 +718,7 @@
 <!--Shopify-->
 ## Online store with shopify
 ### [Get started with the Shopify connector](shopify/get-started.md)
-#### [Create and Set up a Shopify account](shopify/shopify-account.md)
+#### [Create and set up a Shopify account](shopify/shopify-account.md)
 ### [Synchronize items with Shopify](shopify/synchronize-items.md)
 ### [Synchronize customers with Shopify](shopify/synchronize-customers.md)
 ### [Synchronize and fulfill sales orders with Shopify](shopify/synchronize-orders.md)
@@ -1193,7 +1193,7 @@
 ##### [Required descriptions in G/L entries](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 #### Purchasing
 ##### [Check purchase amounts](LocalFunctionality/Netherlands/check-purchase-amounts.md)
-##### [Edit document Amounts in purchase invoices and credit memos](LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
+##### [Edit document amounts in purchase invoices and credit memos](LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
 ##### [Set up validation of purchase amounts](LocalFunctionality/Netherlands/how-to-set-up-validation-of-purchase-amounts.md)
 #### General
 ##### [CMR notes](LocalFunctionality/Netherlands/cmr-notes.md)

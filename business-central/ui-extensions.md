@@ -1,12 +1,12 @@
 ---
 title: Customizing Business Central Online Using Apps
 description: Learn all about adding functionality and customizing Business Central by installing apps in this article.
-author: edupont04
+author: bholtorf
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 2500, 2502, 20350, 20353
 ms.date: 09/27/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Customizing Business Central Online with Apps

@@ -1,7 +1,7 @@
 ---
     title: Enter External Document Numbers
     description: You can enter external document numbers for customers and vendors in all sales and purchase orders, invoices, and credit memos. You can use these numbers to search for posted sales and purchase lines later.
-    author: edupont04
+    author: bholtorf
 
     
     ms.topic: conceptual
@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 05/28/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Enter External Document Numbers

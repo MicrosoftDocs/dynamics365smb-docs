@@ -1,14 +1,14 @@
 ---
 title: About Cost Accounting
 description: Cost accounting can help you understand the costs of running a business. Cost accounting information is designed to analyze various issues.  
-author: SorenGP
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
 ms.date: 08/23/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # About Cost Accounting

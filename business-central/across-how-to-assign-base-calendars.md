@@ -1,7 +1,7 @@
 ---
     title: Set Up Base Calendars
     description: You can assign a base calendar to your company and its business partners, to calculate delivery and receipt dates according to the specified working days.
-    author: SorenGP
+    author: bholtorf
 
     
     ms.topic: conceptual
@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.form: 7600, 7601, 7602, 5703
     ms.date: 06/11/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Set Up Base Calendars

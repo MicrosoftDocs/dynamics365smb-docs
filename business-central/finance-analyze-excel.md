@@ -1,14 +1,12 @@
 ---
 title: Work with financial overviews in Excel
 description: Learn about how you can open the financial statements in Microsoft Excel from Business Central for better analysis.
-author: edupont04
-
-
+author: bholtorf
 ms.topic: overview
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 9027
 ms.date: 08/23/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Analyzing Financial Statements in Microsoft Excel

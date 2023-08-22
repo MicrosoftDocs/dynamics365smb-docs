@@ -1,16 +1,14 @@
 ---
     title: Modify Planning Suggestions in Graphical View
     description: Typical planning activity- change or add planning worksheet lines to modify suggested supply orders before you commit run Carry out Action Message function.
-    author: SorenGP
-
-    
+    author: bholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/25/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Modify Planning Suggestions in a Graphical View

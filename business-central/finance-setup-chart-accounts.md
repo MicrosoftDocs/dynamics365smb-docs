@@ -1,9 +1,7 @@
 ---
 title: Set Up or Change the Chart of Accounts (contains video)
 description: The chart of accounts (COA) shows the ledger accounts that store your financial data. You can change the default accounts in the COA, and you can add new accounts.
-author: edupont04
-
-
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.search.form: 16, 17, 18, 118, 386, 391
 ms.date: 01/21/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Set Up or Change the Chart of Accounts

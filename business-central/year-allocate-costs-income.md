@@ -1,16 +1,14 @@
 ---
 title: Overview of Tasks to Allocate Costs and Income
 description: Outlines the tasks to allocate an entry in a general journal to several different accounts when you post the journal.
-author: SorenGP
-
-
+author: bholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 283, 5629
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Allocate Costs and Income

@@ -1,7 +1,7 @@
 ---
 title: Meet Microsoft Invoicing | Invoicing
 description: Microsoft Invoicing is no longer available.
-author: edupont04
+author: bholtorf
 
 ms.service: dynamics365-business-central
 ms.topic: overview
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2020
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Welcome to [!INCLUDE[d365inv_long](includes/d365inv_long.md)]

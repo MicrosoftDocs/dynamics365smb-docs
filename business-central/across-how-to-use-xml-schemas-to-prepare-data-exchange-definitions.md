@@ -1,7 +1,7 @@
 ---
     title: XML Schemas to Prepare Data Exchange Definitions
     description: Use XML schemas to set up the data exchange framework to define which data elements you want to exchange with.
-    author: SorenGP
+    author: bholtorf
 
     
     ms.topic: conceptual
@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/11/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Use XML Schemas to Prepare Data Exchange Definitions

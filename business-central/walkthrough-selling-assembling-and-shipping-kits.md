@@ -1,16 +1,14 @@
 ---
     title: Selling, Assembling, and Shipping Kits
     description: To support just-in-time inventory, assembly orders can be automatically created and linked as soon as the sales order line is created. 
-    author: SorenGP
-
-    
+    author: bholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/24/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Walkthrough: Selling, Assembling, and Shipping Kits

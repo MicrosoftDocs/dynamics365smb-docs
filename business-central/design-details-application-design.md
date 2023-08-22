@@ -1,16 +1,14 @@
 ---
     title: Application Design Details
     description: This content contains detailed technical information about complex application features in Business Central.
-    author: SorenGP
-
-    
+    author: bholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 11/26/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Application Design Details

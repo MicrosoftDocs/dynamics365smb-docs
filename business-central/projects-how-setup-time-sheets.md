@@ -1,9 +1,7 @@
 ---
 title: Set Up Time Sheets and Their Approval
 description: You set up time sheets to track the time used on tasks and projects, helping you with project management, staffing, and capacity
-author: SorenGP
-
-
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Set Up Time Sheets

@@ -1,7 +1,7 @@
 ---
 title: Using Business Central without Outlook
 description: If you don't have Outlook, you cannot use Business Central as your business inbox in Outlook, but you can work in a browser or on your mobile device.
-author: edupont04
+author: bholtorf
 
 
 ms.topic: get-started-article
@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Use Business Central without Outlook

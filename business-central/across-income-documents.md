@@ -1,7 +1,7 @@
 ---
 title: Work with Incoming Documents
 description: You can manage incoming external business documents, such as payment receipts or PDFs, manage OCR tasks, and convert files to electronic documents and records.
-author: SorenGP
+author: bholtorf
 
 
 ms.topic: conceptual
@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/14/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Incoming Documents

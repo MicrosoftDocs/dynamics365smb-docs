@@ -1,7 +1,7 @@
 ---
 title: Business profile | Invoicing
 description: Define information about your business that is included in your invoices, such as your logo and company address.
-author: edupont04
+author: bholtorf
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Set up your business information in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]

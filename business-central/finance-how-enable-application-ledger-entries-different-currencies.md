@@ -1,9 +1,7 @@
 ---
 title: Apply Entries in Different Currencies
 description: You can apply ledger entries in multiple currencies, for example, if you sell in one currency and receive payment in another.
-author: edupont04
-
-
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
 ms.search.form: 148, 460, 25
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Enable Application of Ledger Entries in Different Currencies

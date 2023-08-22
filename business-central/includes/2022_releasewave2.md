@@ -1,8 +1,7 @@
 ---
-author: edupont04
-
+author: bholtorf
 ms.topic: include
 ms.date: 03/21/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 > **APPLIES TO:** Business Central 2022 release wave 2 and later

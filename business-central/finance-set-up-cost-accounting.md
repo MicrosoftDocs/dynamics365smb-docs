@@ -1,16 +1,14 @@
 ---
 title: Setting Up Cost Accounting
 description: Before you start working with cost accounting, you must setup. Each cost entry must have a cost type assigned and a cost center code or a cost object assigned.
-author: SorenGP
-
-
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Setting Up Cost Accounting

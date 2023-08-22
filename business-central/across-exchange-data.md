@@ -1,7 +1,7 @@
 ---
     title: Exchanging Data
     description: Exchange electronic business documents, for example bank files, between Business Central and external parties. 
-    author: SorenGP
+    author: bholtorf
 
     
     ms.topic: conceptual
@@ -10,7 +10,7 @@
     ms.workload: na
     ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
     ms.date: 06/10/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Exchanging Data

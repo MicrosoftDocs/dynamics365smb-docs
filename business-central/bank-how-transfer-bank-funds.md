@@ -1,7 +1,7 @@
 ---
 title: Transfer Bank Funds
 description: You can transfer amounts from one bank account to another, including different currencies, by posting the transaction in the general journal.
-author: SorenGP
+author: bholtorf
 
 
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.search.form: 39
 ms.date: 04/29/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Transfer Bank Funds

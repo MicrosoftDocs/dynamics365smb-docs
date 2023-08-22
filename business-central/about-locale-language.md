@@ -1,7 +1,7 @@
 ---
 title: Multilanguage and Localization
 description: Learn how language and region influence your experience in Business Central. Change the language of the user interface in My Settings.
-author: edupont04
+author: bholtorf
 
 
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Changing Language and Region

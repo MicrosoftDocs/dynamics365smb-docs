@@ -1,9 +1,7 @@
 ---
 title: Process Returns or Cancellations
 description: Explains how to create and post a purchase credit memo when you want to return items to a vendor or cancel purchased services.
-author: SorenGP
-
-
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: cancel, undo, correct
 ms.search.form: 6640, 6643, 9307, 9309, 9308, 6652, 145, 147
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Process Purchase Returns or Cancellations

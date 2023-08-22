@@ -1,7 +1,7 @@
 ---
 title: Assign Document Layouts to Customers or Vendors
 description: Use document layouts to control the appearance and format of documents such as invoices and orders that you send to customers and vendors.
-author: SorenGP
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 21, 9650
 ms.date: 04/07/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Define Document Layouts for Customers and Vendors

@@ -1,7 +1,7 @@
 ---
 title: Managing Inventory
 description: This article describes how to manage the physical products you trade in by creating an inventory item card.
-author: SorenGP
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 # Manage Inventory

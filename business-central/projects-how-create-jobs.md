@@ -1,15 +1,13 @@
 ---
 title: Create a Job Card for a Job and Specify Tasks
 description: For a new project, you create a job card that contains job tasks and planning lines, to help you manage progress and budgets.
-author: SorenGP
-
-
+author: bholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 08/03/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Create Jobs

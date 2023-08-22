@@ -1,7 +1,7 @@
 ---
 title: US tax rates | Invoicing
 description: Learn about how to add sales tax in Invoicing. Add a default tax rate based on your own address, and add tax rates for your customers.
-author: edupont04
+author: bholtorf
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tax rates
 ms.date: 10/01/2019
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 # US tax rates in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]

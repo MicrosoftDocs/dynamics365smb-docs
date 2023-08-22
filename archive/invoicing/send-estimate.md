@@ -1,7 +1,7 @@
 ---
 title: New estimate | Invoicing
 description: Learn how to create and send estimates to your customers. If they accept the offer, you can easily turn the quote into an invoice.
-author: edupont04
+author: bholtorf
 
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Send an estimate to a customer in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]

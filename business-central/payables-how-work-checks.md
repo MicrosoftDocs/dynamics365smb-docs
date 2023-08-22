@@ -1,9 +1,7 @@
 ---
 title: Issue, Print, Cancel, and Void Checks
 description: Describes how to issue checks using the payment journal, print checks, and void or view check ledger entries in Business Central.  
-author: SorenGP
-
-
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256, 404, 
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Make Check Payments

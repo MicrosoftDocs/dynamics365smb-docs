@@ -1,9 +1,7 @@
 ---
 title: Organize Items in Categories(contains video) | Microsoft Docs
 description: To help you search for and find items, you can assign item attributes and organize items in categories.
-author: SorenGP
-
-
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: category, search, attribute, facet
 ms.search.form: 5730, 5733, 5401
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Categorize Items

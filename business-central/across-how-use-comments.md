@@ -1,7 +1,7 @@
 ---
 title: Add Comments to Cards and Documents
 description: Add extra information to accounts, customers cards, or sales orders to communicate agreements, such as a special price or delivery method, to other users.
-author: SorenGP
+author: bholtorf
 
 
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.search.form: 124, 30
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Add Comments to Cards and Documents

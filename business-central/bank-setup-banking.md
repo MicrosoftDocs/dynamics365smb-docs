@@ -1,7 +1,7 @@
 ---
 title: Set Up Banking
 description: You use bank account cards to keep track of your bank accounts and set up bank feeds, such as Yodlee, to exchange data.
-author: SorenGP
+author: bholtorf
 
 
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.search.form: 1200
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Setting Up Banking

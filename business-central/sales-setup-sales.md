@@ -1,9 +1,7 @@
 ---
 title: Overview of Tasks to Configure Sales Processes
 description: Overview of tasks required to set up rules and values that define your sales policies and processes including general set-up and finance related sales set-up.
-author: SorenGP
-
-
+author: bholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Setting Up Sales

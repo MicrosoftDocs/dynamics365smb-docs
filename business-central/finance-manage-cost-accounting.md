@@ -1,9 +1,7 @@
 ---
 title: Accounting for Costs Overview
 description: Cost accounting helps you understand the costs of running a business. This article provides links to other articles with more information.
-author: SorenGP
-
-
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.form: 1123
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Accounting for Costs

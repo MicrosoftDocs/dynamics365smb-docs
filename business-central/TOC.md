@@ -291,7 +291,7 @@
 ##### [Send electronic documents](sales-how-to-send-electronic-documents.md)
 ##### [Use OCR to turn PDF and image files into electronic documents](across-how-use-ocr-pdf-images-files.md)
 ##### [Receive and convert electronic documents](purchasing-how-to-receive-and-convert-electronic-documents.md)
-##### [Set up the envestnet yodlee bank feeds service](bank-how-setup-bank-statement-service.md)
+##### [Set up the Envestnet Yodlee bank feeds service](bank-how-setup-bank-statement-service.md)
 ##### [Export payments to a bank file](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ##### [Make payments with AMC banking 365 fundamentals extension or SEPA credit transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ##### [Collect payments with SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)
@@ -595,7 +595,7 @@
 #### [Track email message exchanges](marketing-set-up-email-logging.md)
 #### [Process sales opportunities](marketing-processing-sales-opportunities.md)
 ### [Use profile questionnaires to classify business contacts](marketing-create-contact-profile-questionnaire.md)
-### [Use Dynamics 365 for sales from business central](marketing-integrate-dynamicscrm.md)
+### [Use Dynamics 365 for sales from Business Central](marketing-integrate-dynamicscrm.md)
 #### [Couple and synchronize records manually](admin-how-to-couple-and-synchronize-records-manually.md)
 #### [View the status of a synchronization](admin-how-to-view-synchronization-status.md)
 
@@ -664,7 +664,7 @@
 <!-- #### [Plan Bulk Put-Aways Using Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md) -->
 #### [Cross-dock items](warehouse-how-to-cross-dock-items.md)
 #### [Walkthrough: Receive and put away in basic warehouse configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
-#### [Walkthrough: Receive and Put away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+#### [Walkthrough: Receive and put away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 
 ### Outbound warehouse processes
 #### [Outbound warehouse processes](design-details-outbound-warehouse-flow.md)
@@ -799,11 +799,11 @@
 ##### [Make manual corrections to VAT](LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md)
 ##### [Print periodic VAT reports](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
 ##### [Set up Belgian tariff numbers](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
-##### [Belgian intrastat reports](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
-##### [Set up intrastat establishment numbers](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
-##### [Print the intrastat form report](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
+##### [Belgian Intrastat reports](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
+##### [Set up Intrastat establishment numbers](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
+##### [Print the Intrastat form report](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
 ##### [Set up declaration types](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
-##### [Export intrastat third-party declarations](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
+##### [Export Intrastat third-party declarations](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
 #### Banking & payments
 ##### [Electronic banking (BE](LocalFunctionality/Belgium/belgian-electronic-banking.md)
 ##### [Electronic payments (BE)](LocalFunctionality/Belgium/belgian-electronic-payments.md)

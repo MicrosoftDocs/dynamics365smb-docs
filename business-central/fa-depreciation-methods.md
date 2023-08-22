@@ -126,7 +126,7 @@ The calculation continues until the book value equals the final rounding amount 
 
 An asset's book value is 100,000 on 12/31/2022. You post a depreciation of 1,778 on 2/2/23, which is the expected (proportional) amount of the year's depreciation at 32 days. If you run depreciation on 6/30/2023 [!INCLUDE [prod_short](includes/prod_short.md)] will suggest 8,222, because there are 148 days from 2/2/2023 until 6/30/2023. The expected remaining depreciation for 6/30/2023 is calculated using the following formula:
 
-* *148/360*0.20*100,000 = 8,222*
+* *148/360 x 0.20 x 100,000 = 8,222*
 
 ### Example 3 - Declining-Balance 1 depreciation
 
@@ -134,13 +134,13 @@ If you post an amount that doesn't align with the Declining Balance 1 depreciati
 
 An asset's book value is 100,000 on 12/31/2022. You post a depreciation of 5,000 on 2/2/2023, which is more than the expected (proportional) amount on 2/2/2023 at 32 days. If you run depreciation on 6/30/2023, [!INCLUDE [prod_short](includes/prod_short.md)] will suggest 8,222, because there are 148 days from 2/2/2023 until 6/30/2023. The expected remaining depreciation for 6/30/2023 is calculated using the following formula:
 
-* *148/360*0.20*100,000 = 8,222*
+* *148/360 x 0.20 x 100,000 = 8,222*
 
 ### Example 4 - Declining-Balance 1 depreciation
 
 An asset's book value is 100,000 on 12/31/2023. You post a depreciation of 95,000 on 2/2/2023, which exceeds the allowed depreciation amount for the year. If you run depreciation on 6/30/2023, [!INCLUDE [prod_short](includes/prod_short.md)] will suggest 5000, because there are 148 days from 2/2/2023 until 6/30/2023. The expected remaining depreciation for 6/30/2023 is calculated using the following formula: 
 
-* *148/360*0.20*100,000 = 8,222*
+* *148/360 x 0.20 x 100,000 = 8,222*
 
 However, the remaining book value is only 5,000, so [!INCLUDE [prod_short](includes/prod_short.md)] will suggest 5,000 because a book value can't be negative.
 

@@ -116,12 +116,31 @@ When you work with the **Intrastat Report** you will see a **Status** field on t
 * *Released*: [!INCLUDE[prod_short](includes/prod_short.md)] automatically changes the status to *Released* when you create a file. From that moment, you cannot modify your **Intrastat Report**. If you need to change something and report again, you can use the **Reopen** action to reopen the Intrastat report. Once the document is reopened, you can use the **Release** action to release the document again.
 * **Reported**: Specifies whether the entry has already been reported to the tax authorities. This is not a regular status but an independent field, and even if you reopened the Intrastat report, it would still show that the file is already created for this report.
 
+### Triangular trade in intrastat
+
+Triangular trade involves trade between three countries or regions where goods bypass the reporting company's country. In Business Central, this can be facilitated through the [Drop Shipment](sales-how-drop-shipment.md) functionality. To enable this option, activate the **Include Drop Shipment** field in the **Intrastat Report Setup**.  
+
+When you enable this option, the system uses the following rules, but only if you have the **Drop Shipmnet** marked in the **Sales Order**: 
+
+| Receiving from | Delivering to | Expected Intrastat Result |
+|----------|------------|----------------------|
+| Country as in the **Company Information** | Country as in the **Company Information** | No Intrastat lines |  
+| Country as in the **Company Information** | EU country different from the country in the **Company Information** | Intrastat shipping line | 
+| Country as in the **Company Information** | Non-EU country | No Intrastat lines |   
+| EU country different from the country in the **Company Information** | Country as in the **Company Information** | Intrastat receiving line | 
+| EU country different from the country in the **Company Information** | EU country different from the country in the **Company Information** | No Intrastat lines |
+| EU country different from the country in the **Company Information** | Non-EU country | No Intrastat lines | 
+| Non-EU country | Country as in the **Company Information** | No Intrastat lines |  
+| Non-EU country | EU country different from the country in the **Company Information** | No Intrastat lines |
+| Non-EU country | Non-EU country | No Intrastat lines |   
+
 ## See related training at [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## See also
 
 [Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)  
 [Financial Management](finance.md)  
+[Drop Shipment](sales-how-drop-shipment.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1118,7 +1118,7 @@
 ##### [Update VAT transactions data](LocalFunctionality\Italy\how-to-update-vat-transactions-data.md)
 ##### [Prepare for VAT transactions reports](LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md)
 ##### [Print and reprint G/L books and VAT registers](LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md)
-##### [Print intrastat reports for Italy](LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md)
+##### [Print Intrastat reports for Italy](LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md)
 #### Withholding tax
 ##### [Set up withholding tax in the Italian version](LocalFunctionality/Italy/set-up-withholding-tax.md)
 ##### [Print withholding reports](LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md)
@@ -1371,7 +1371,7 @@
 ##### [Create report 349](LocalFunctionality/Spain/how-to-create-report-349.md)  
 ##### [Set up 340 reports for small businesses](LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses.md)
 ##### [Set up SII for VAT reports](LocalFunctionality/Spain/sii-setup.md)
-##### [Create templates for telematic VAT statements in text File format](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)
+##### [Create templates for telematic VAT statements in text file format](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)
 ##### [Create templates for telematic VAT statements in XML file format](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)
 ##### [Export VAT statements in XML format](LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format.md)  
 ##### [Export VAT statements in text format](LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format.md)
@@ -1467,7 +1467,7 @@
 ##### [Print VAT audit reports](LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports.md)
 ##### [Print VAT reports](LocalFunctionality/UnitedKingdom/how-to-print-vat-reports.md)
 ##### [Set up reverse charges on VAT](LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat.md)
-#### Banking & payments
+#### Banking and payments
 ##### [Print checks for APACS](LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs.md)
 ##### [Print remittance advice](LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice.md)
 #### Fixed assets
@@ -1523,14 +1523,14 @@
 #### [Set up the chart of accounts](finance-setup-chart-accounts.md)
 #### [Set up cash flow analysis](finance-setup-cash-flow-analyses.md)
 #### [Set up cash customers](finance-how-to-set-up-cash-customers.md)
-#### [Set up intrastat reporting](finance-how-setup-report-intrastat.md)
+#### [Set up Intrastat reporting](finance-how-setup-report-intrastat.md)
 #### [Use allocation keys in general journals](ui-how-use-allocation-keys-general-journals.md)
 ### Set up banking
 #### [Set up banking](bank-setup-banking.md)
 #### [Set up bank accounts](bank-how-setup-bank-accounts.md)
 #### [Set up the Envestnet Yodlee bank feeds service](bank-how-setup-bank-statement-service.md)
 #### [Use the AMC banking 365 fundamentals extension](ui-extensions-amc-banking.md)
-#### [Select a Check layout](finance-how-define-check-layouts.md)
+#### [Select a check layout](finance-how-define-check-layouts.md)
 ### Set up sales
 #### [Set up sales](sales-setup-sales.md)
 #### [Register new customers](sales-how-register-new-customers.md)
@@ -1830,7 +1830,7 @@
 #### [Report performance tuning guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
 
-# Security, privacy, compliance
+# Security, privacy, and compliance
 ## Security and protection
 ### [Security and protection overview (in English only)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Privacy

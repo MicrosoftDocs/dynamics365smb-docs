@@ -320,7 +320,7 @@
 #### [Work with payment tolerances and payment discount tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The late payment prediction extension](ui-extensions-late-payment-prediction.md)
 #### [Sales tax in the default version of Business Central](sales-tax-concept.md)
-#### [Work with intrastat report](finance-how-report-intrastat.md)
+#### [Work with Intrastat reporting](finance-how-report-intrastat.md)
 
 ### Manage payables
 #### [Payables overview](payables-manage-payables.md)

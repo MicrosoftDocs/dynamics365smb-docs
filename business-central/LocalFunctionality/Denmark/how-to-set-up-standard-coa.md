@@ -13,13 +13,13 @@ ms.author: altotovi
 
 ---
 
-# Introduction in Standard Chart of Accounts in Denmark 
+# Standard Chart of Accounts in Denmark 
 
-New Danish bookkeeping act requires using a standard chart of accounts. The Danish tax authority provides a standard chart of accounts that can be used. The chart of accounts is used when preparing annual accounts and calculating regular tax and VAT payments. Users can use any chart of account as they want in the **Chart of Accounts** page, but for required reporting they must map all GL account with the standard chart of accounts required by the law using the **G/L Mapping page**.    
+The new Danish bookkeeping act requires the use of a standard chart of accounts. Because of this requirement, the Danish tax authority is providing a standard chart of accounts that can be used. Use the chart of accounts when you prepare annual accounts and calculate regular tax and VAT payments. You can use any chart of accounts included on the **Chart of Accounts** page, but for required reporting, you must map all GL account with the standard chart of accounts required by the law using the **G/L Mapping page**.    
 
 ## Set up Standard Chart of Accounts  
 
-G/L accounts require a specific standard chart of accounts for usage in Denmark. Before you start you need to be sure that you have installed **Audit Files Extension** Microsoft app. Therefore, after you configure your G/L accounts, your exported files (SAF-T and Regnskab Basis) will be based on the configired mappings. To configure standard chart of accounts, follow steps to provide the G/L account explained in this article [Audit file export](../../finance-how-to-export-audit-files.md).  
+GL accounts require a specific standard chart of accounts for use in Denmark. Before you start, make sure you install the **Audit Files Extension** Microsoft app. After you configure your GL accounts, your exported files (SAF-T and Regnskab Basis) are based on the configured mappings. To configure a standard chart of accounts, provide the GL account as explained in this article [Audit file export](../../finance-how-to-export-audit-files.md).  
 
 For more information, see [Danish Local Functionality](denmark-local-functionality.md). 
 

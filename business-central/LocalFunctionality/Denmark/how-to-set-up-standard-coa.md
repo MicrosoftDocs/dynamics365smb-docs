@@ -25,8 +25,8 @@ For more information, see [Danish Local Functionality](denmark-local-functionali
 
 ## See also
 
-[Financial Management](finance.md)  
-[Understanding the General Ledger and Chart of Accounts](finance-general-ledger.md)  
-[Work with Dimensions](finance-dimensions.md)  
+[Financial Management](../../finance.md)  
+[Understanding the General Ledger and Chart of Accounts](../../finance-general-ledger.md)  
+[Work with Dimensions](../../finance-dimensions.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

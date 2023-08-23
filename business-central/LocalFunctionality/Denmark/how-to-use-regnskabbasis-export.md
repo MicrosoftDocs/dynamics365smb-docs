@@ -21,7 +21,7 @@ This article explains the seamless CSV upload process in Regnskab Basis and its 
 
 ## Export accounting data to Regnskab Basis 
 
-1. Select the search button ![Magnifying glass button that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), enter **RB Accounting File**, and then select the related link.
+1. Select the search button ![Magnifying glass button that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **RB Accounting File**, and then select the related link.
 2. On the **RB Accounting File** page, on the **Mapping Header** FastTab, in the **Please select a mapping header to use for export** field, specify the code for the mapping with the standard chart of accounts that you will use.
 3. On the **Period for Accounting File Export** FastTab, the system enters default values in the **Starting Date** and **Ending Date** fields, based on the mapping that you're using. You can update the values as you require.
 4. In the **Income Statement Amount** field, set up the amount type that you want to use. The default value is **Net Change**.

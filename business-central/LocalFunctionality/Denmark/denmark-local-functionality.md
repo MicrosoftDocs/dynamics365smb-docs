@@ -20,9 +20,9 @@ The following topics describe the local functionality in the Danish version of [
 ## Feature Availability
 
 * Auditing
-    *  [Export the SAF-T audit file format](how-to-use-saft-audit-files-export.md) - **Available in September 2023**
-    *  [Standard Chart of Account](how-to-set-up-standard-coa.md) - **Available in September 2023**
-    *  [Upload of CSV file with accounting data to Regnskab Basis](how-to-use-regnskabbasis-export.md) - **Available in September 2023**
+    *  [Export the SAF-T audit file format](how-to-use-saft-audit-files-export.md) - **Available September 2023**
+    *  [Standard Chart of Account](how-to-set-up-standard-coa.md) - **Available September 2023**
+    *  [Upload of CSV file with accounting data to Regnskab Basis](how-to-use-regnskabbasis-export.md) - **Available September 2023**
 * VAT
     * [Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md) **Available Now**
     * [VAT-VIES Reporting](vat-vies-reporting.md) **Available Now**

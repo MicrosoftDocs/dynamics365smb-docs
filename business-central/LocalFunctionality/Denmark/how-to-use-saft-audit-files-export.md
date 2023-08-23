@@ -24,9 +24,9 @@ Export of the SAF-T audit file format in the Danish localization is based on the
 For more information, see [Danish Local Functionality](denmark-local-functionality.md).
 
 ## See also
-[Financial Management](finance.md)  
-[Understanding the General Ledger and Chart of Accounts](finance-general-ledger.md)  
-[Work with Dimensions](finance-dimensions.md)  
+[Financial Management](../../finance.md)  
+[Understanding the General Ledger and Chart of Accounts](../../finance-general-ledger.md)  
+[Work with Dimensions](../../finance-dimensions.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

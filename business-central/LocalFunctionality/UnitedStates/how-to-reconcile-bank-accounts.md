@@ -1,7 +1,7 @@
 ---
     title: Reconciling Bank Accounts [US]
     description: This topic describes how to reconcile bank account ledger entries with bank statements in the North American version.
-    bholtorfholtorf
+    author: brentholtorf
     
     ms.topic: conceptual
     ms.devlang: na

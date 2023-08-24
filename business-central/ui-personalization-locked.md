@@ -1,7 +1,7 @@
 ---
 title: Why a Page is Locked from Personalization
 description: You might be blocked from personalizing a page. Read here about what you can do to unlock it so you can personalize it.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

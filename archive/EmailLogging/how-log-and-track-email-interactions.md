@@ -3,7 +3,7 @@
     description: Email logging in [!INCLUDE[d365fin](includes/d365fin_md.md)] contacts.
     services: project-madeira
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na

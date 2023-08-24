@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting the Shopify and Business Central Synchronization
 description: Learn what to do if something goes wrong when you synchronize data between Shopify and Business Central.
-bholtorfholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: how-to

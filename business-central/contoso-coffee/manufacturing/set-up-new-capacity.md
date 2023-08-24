@@ -4,7 +4,7 @@ description: Walkthrough to learn how to set up a new work center with a capacit
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-author: edupont04
+author: brentholtorf04
 ms.author: andreipa
 ---
 

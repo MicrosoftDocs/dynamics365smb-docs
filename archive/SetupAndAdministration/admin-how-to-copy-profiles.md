@@ -3,8 +3,7 @@
     description: Use the **Copy Profile** window when you want to create a copy of an existing profile. This can save you time if you want to use similar settings on a profile and you only want to change a few settings.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
-
+    author: brentholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -12,8 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/01/2017
-    ms.author: sgroespe
-
+    ms.author: bholtorf
 ---
 # Copy Profiles
 Use the **Copy Profile** window when you want to create a copy of an existing profile. This can save you time if you want to use similar settings on a profile and you only want to change a few settings.  

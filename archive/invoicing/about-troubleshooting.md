@@ -1,7 +1,7 @@
 ---
 title: Get yourself unblocked | Invoicing
 description: Learn how you can get yourself unblocked or figure out how to do something.
-author: bholtorf
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na

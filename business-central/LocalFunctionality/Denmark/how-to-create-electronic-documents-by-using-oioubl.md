@@ -1,7 +1,7 @@
 ---
 title: Create Electronic Documents in an OIOUBL format
 description: When you sell goods or services to a customer in the Danish public sector, you must submit documents electronically.
-bholtorfholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

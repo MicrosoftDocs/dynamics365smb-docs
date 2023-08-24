@@ -3,7 +3,7 @@
     description: In the Microsoft Dynamics NAV Windows client, you cannot order actions in system groups in the **Home** tab.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: OIOUBL Extension for Electronic Invoicing
 description: This extension makes it easy to send sales documents electronically to customers in the Danish public sector in the OIOUBL format.
-bholtorfholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
     title: Create Check Installments [NZ]
     description: Describes how to create check installments for post-dated checks in the New Zealand version.
-    bholtorfholtorf
+    author: brentholtorf
     
     ms.topic: conceptual
     ms.devlang: na

@@ -1,7 +1,7 @@
 ---
 title: Customize email | Invoicing
 description: Define the default email message that will be sent to your customers when you send them an invoice.
-author: bholtorf
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na

@@ -3,7 +3,7 @@
     description: This procedure describes how to change the layout that is used by a report. A report can be set up with more than one report layout, which you can then switch among as needed.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

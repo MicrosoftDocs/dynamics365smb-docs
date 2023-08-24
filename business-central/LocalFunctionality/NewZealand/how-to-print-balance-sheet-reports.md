@@ -1,7 +1,7 @@
 ---
     title: Print Balance Sheet Reports [NZ]
     description: Describes how to view the company's balance sheet in a report in the New Zealand version.
-    bholtorfholtorf
+    author: brentholtorf
 
     
     ms.topic: conceptual

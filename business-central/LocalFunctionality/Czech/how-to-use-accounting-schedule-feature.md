@@ -1,7 +1,7 @@
 ---
 title: Czech Local Functionality—Financial Report Feature
 description: Improvements to the standard financial reports feature (common list of expressions, saving results, formulas drill-down, additional data sources).
-bholtorfholtorf
+author: brentholtorf
 
 ms-service: dynamics365-business-central
 ms.topic: conceptual

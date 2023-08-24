@@ -1,7 +1,7 @@
 ---
 title: Business profile | Invoicing
 description: Define information about your business that is included in your invoices, such as your logo and company address.
-author: bholtorf
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na

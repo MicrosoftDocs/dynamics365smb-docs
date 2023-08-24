@@ -3,7 +3,7 @@
     description: When managing your relationships with contacts, it can help to keep track of email correspondence. Learn about email logging in [!INCLUDE[d365fin](includes/d365fin_md.md)] and Microsoft Exchange Server.
     services: project-madeira
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na

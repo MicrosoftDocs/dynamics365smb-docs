@@ -3,7 +3,7 @@
     description: All customers and vendors must a have federal tax identification number. This topic describes the available tax identification types in the Mexican version.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

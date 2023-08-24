@@ -1,7 +1,7 @@
 ---
     title: Create Routings
     description: This topic gives an overview of the different ways to create routings including prerequisites required and how to create routing links.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Managing Inventory
 description: This article describes how to manage the physical products you trade in by creating an inventory item card.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

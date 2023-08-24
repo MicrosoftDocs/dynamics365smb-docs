@@ -1,7 +1,7 @@
 ---
 title: Vendor Payments Customer Bills Overview [IT]
 description: In the Italian version of Business Central, you can manage automatic bills to customers and from vendors.
-author: bholtorf
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na

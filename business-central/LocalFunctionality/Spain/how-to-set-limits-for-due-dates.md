@@ -3,7 +3,7 @@
     description: You can modify payment terms to have limits for the maximum number of days that can be between a delivery and the corresponding payment.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

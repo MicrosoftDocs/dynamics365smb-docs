@@ -1,7 +1,7 @@
 ---
 title: How to Print VAT Reconciliation Reports [DK]
 description: In Business Central, you can use the VAT Reconciliation report to view a list of general ledger accounts with their base amounts and VAT amounts.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 06/25/2021

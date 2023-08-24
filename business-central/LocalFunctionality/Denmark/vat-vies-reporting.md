@@ -1,7 +1,7 @@
 ---
 title: VAT-VIES Reporting [DK]
 description: You can create the required VAT declarations for trade of goods or services file in the Danish version by using the EC Sales List report.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

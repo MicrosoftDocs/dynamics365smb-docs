@@ -1,7 +1,7 @@
 ---
 title: Project Management
 description: This topic outlines how to use resources, time sheets, and jobs to manage projects and their budgets.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects

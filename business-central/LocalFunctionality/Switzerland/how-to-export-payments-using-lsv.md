@@ -1,7 +1,7 @@
 ---
     title: Export Payments Using LSV [CH]
     description: You can export or write Lastschrift Verfahren (LSV+) files that contain payments information after closing the LSV collection.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

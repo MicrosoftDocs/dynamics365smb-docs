@@ -1,7 +1,7 @@
 ---
 title: Planning Service Processes
 description: This topic outlines various tasks to set up rules and values to define your service policies and processes.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

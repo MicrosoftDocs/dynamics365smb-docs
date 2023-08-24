@@ -3,7 +3,7 @@
     description: Companies must submit their business transaction entries, grouped by transaction numbers, in an annual report to tax authorities.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

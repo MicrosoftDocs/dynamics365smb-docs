@@ -2,7 +2,7 @@
 title: Create New Value Entries for Items in the Inventory| Microsoft Docs
 description: Describes how to appreciate or depreciate the value entries of one or more items in inventory by posting their current, calculated value.
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

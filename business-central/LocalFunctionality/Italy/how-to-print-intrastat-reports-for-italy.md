@@ -1,7 +1,7 @@
 ---
 title: Print Intrastat Reports for Italy
 description: You can print monthly and quarterly Intrastat reports and submit them to the authorities in the Italian version of Business Central.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 06/18/2021

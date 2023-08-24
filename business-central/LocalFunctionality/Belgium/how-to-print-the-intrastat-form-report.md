@@ -1,7 +1,7 @@
 ---
 title: How to Print the Intrastat Form Report [BE]
 description: The Intrastat - Form report must be used for reporting to Intrastat to report the movement of goods.
-author: bholtorf   
+author: brentholtorf   
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

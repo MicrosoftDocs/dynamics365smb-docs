@@ -1,7 +1,7 @@
 ---
 title: How to Create Delivery Reminders Manually [AT]
 description: In the Austrian version of Business Central, you can create delivery reminders when a purchase has not been delivered as expected.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

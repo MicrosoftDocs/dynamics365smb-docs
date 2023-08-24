@@ -1,7 +1,7 @@
 ---
 title: Available Fonts
 description: Learn about the pre-installed fonts that you can use for your externally-facing reports.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

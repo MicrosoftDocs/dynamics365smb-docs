@@ -1,7 +1,7 @@
 ---
 title: Warnings and Error Messages
 description: Learn how you can troubleshoot and find solutions to error messages when you work in Business Central.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: bholtorf

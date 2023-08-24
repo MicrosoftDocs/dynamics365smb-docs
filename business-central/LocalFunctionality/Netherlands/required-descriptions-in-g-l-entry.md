@@ -1,7 +1,7 @@
 ---
     title: Required Descriptions in G-L Entry
     description: When entering general journal lines on a form, the system fills in automatically the description field.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

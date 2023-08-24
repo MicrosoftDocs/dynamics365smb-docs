@@ -1,7 +1,7 @@
 ---
 title: Rules for Automatic Application of Payments
 description: Read about how to set Up Rules for the Automatic Application of Payments on the Payment Application Rules page.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

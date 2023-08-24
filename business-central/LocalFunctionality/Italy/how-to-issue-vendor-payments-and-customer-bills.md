@@ -1,7 +1,7 @@
 ---
     title: Issue Vendor Payments and Customer Bills (IT)
     description: The vendor and customer bill pay feature supports SEPA-based formats in addition to Italian file formats.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

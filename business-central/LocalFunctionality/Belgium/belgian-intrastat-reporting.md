@@ -1,7 +1,7 @@
 ---
 title: Belgian Intrastat Reporting
 description: Companies in the European Union (EU) are required to report trade with other countries/regions in the EU through Intrastat reporting or VAT Information Exchange System.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

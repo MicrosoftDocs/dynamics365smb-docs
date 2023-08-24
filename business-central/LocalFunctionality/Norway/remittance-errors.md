@@ -1,7 +1,7 @@
 ---
 title: Remittance Errors [NO]
 description: Remittance errors for payments may occur when data is transferred after payments have been sent to the bank. These errors are reported on the Return Error page.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

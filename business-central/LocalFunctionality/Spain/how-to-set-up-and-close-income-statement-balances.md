@@ -3,7 +3,7 @@
     description: You can use income statement balancing accounts to balance and track several accounts at the same time.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

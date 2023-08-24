@@ -1,7 +1,7 @@
 ---
 title: Record expenses or income directly in G/L
 description: For business activities that are not represented by a document you can create the related transactions by posting journal lines in the General Journal page.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

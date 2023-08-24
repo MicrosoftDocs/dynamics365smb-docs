@@ -1,7 +1,7 @@
 ---
 title: Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries
 description: Describes how to apply customer cash receipts or refunds to one or more open customer ledger entries. This is part of reconciling customer payments.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

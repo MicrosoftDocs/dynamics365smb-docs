@@ -1,7 +1,7 @@
 ---
 title: Batch Post Production Output and Run Times
 description: The output quantity represents the work progress in the form of the finished quantity and used capacity of work or machine center.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

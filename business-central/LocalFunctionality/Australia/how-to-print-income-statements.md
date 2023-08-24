@@ -1,7 +1,7 @@
 ---
     title: Print Income Statements [AU]
     description: Describes how to view the company's annual income statement in the Australian version.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

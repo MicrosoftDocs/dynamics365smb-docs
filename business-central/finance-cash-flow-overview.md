@@ -1,7 +1,7 @@
 ---
 title:  Cash Flow Overview
 description: An overview of cash inflows and outflows to help forecast money to be received and payed out.
-author: bholtorf
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na

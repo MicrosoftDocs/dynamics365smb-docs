@@ -1,7 +1,7 @@
 ---
 title: Track Packages
 description: Use the shipping agents tracking service on the Internet to track parcels and follow the progress of a delivery.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: rfq
 ms.search.form: 142, 800, 806

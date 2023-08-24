@@ -3,7 +3,7 @@
     description: This topic explains how to map predefined Internal Revenue Service (IRS) account codes to general ledger accounts.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

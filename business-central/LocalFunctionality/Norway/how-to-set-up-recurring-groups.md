@@ -1,7 +1,7 @@
 ---
     title: How to Set Up Recurring Groups
     description: Recurring Group Code field in the Blanket Sales Order page defines date formulas that can be used both as a template and to create sales orders based on date intervals.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

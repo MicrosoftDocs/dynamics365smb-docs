@@ -1,7 +1,7 @@
 ---
 title: Set Up Finance Charge Terms
 description: Learn how to set up Business Central so that you can inform customers of added charges by sending finance charge memos.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

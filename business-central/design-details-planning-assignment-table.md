@@ -1,7 +1,7 @@
 ---
     title: Design Details - Planning Assignment Table
     description: This topic provides insight into what happens when a change in the demand or supply patterns requires that you calculate how you plan for an item.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Assign Item Charges to Sales and Purchases (contains video)
 description: Assign item charges when you need inventory items to carry added costs, such as freight and physical handling.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

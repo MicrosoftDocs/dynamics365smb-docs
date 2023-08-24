@@ -1,7 +1,7 @@
 ---
 title: Multilanguage and Localization
 description: Learn how language and region influence your experience in Business Central. Change the language of the user interface in My Settings.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

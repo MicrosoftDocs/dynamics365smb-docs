@@ -1,7 +1,7 @@
 ---
 title: Record Purchases with Purchase Invoices  (contains video)
 description: Describes how to purchase inventory, non-inventory items, or resources by creating and posting purchase invoices or orders.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@
     description: Learn about how to enter the Nomenclature génerale des Activités économiques dans les Communautés Européennes (NACE) codes with the Spanish version.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

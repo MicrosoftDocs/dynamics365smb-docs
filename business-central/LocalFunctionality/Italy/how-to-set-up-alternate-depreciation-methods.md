@@ -3,7 +3,7 @@
     description: Alternate depreciation methods include anticipated depreciation, accelerated depreciation, and reduced depreciation.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

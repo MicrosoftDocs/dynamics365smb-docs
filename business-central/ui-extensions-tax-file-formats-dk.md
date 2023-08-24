@@ -1,7 +1,7 @@
 ---
 title: Using the Tax File Formats (DK) Extension
 description: The tax file formats extension makes it easy to export files that are pre-formatted to meet bank requirements for electronic submissions.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

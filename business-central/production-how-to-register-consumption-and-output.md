@@ -1,7 +1,7 @@
 ---
     title: Register Consumption Output for Prod Order
     description: This topic explains how to register consumption and output for a released production order line viewed on the Production Journal page.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: The VAT Group Management Extension for the United Kingdom
 description: You can engage with other businesses to form a VAT group where all members report VAT in a single return.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@
     description: Fixed assets are properties owned by a company and used in the production of its income. This topic covers features in the fixed assets functionality.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

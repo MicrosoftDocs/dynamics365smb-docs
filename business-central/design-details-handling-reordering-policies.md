@@ -1,7 +1,7 @@
 ---
 title: Design Details - Handling Reordering Policies
 description: This article gives an overview of the reordering policies you can use in supply planning.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual

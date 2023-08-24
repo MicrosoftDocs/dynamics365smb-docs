@@ -1,7 +1,7 @@
 ---
     title: Set Up Revenue Types for Withholding Tax [AU]
     description: Revenue types are used to categorize withholding tax (WHT) entries and are used for WHT certificates in the Australian version.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

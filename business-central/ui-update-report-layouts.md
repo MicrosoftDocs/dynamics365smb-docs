@@ -1,7 +1,7 @@
 ---
 title: Update Custom Report Layouts
 description: Learn how to update a custom report layout used on a report when there are design changes to the report's data set, for example.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

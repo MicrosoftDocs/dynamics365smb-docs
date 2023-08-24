@@ -1,7 +1,7 @@
 ---
 title: Regulatory 1099 Format Changes and Details
 description: Details on changes applied to the IRS 1099 tax form regarding the required codes for payments to vendors.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: local, 1099

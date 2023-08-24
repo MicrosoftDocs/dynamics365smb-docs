@@ -1,7 +1,7 @@
 ---
 title: Set Up and Manage a Budget for a Job
 description: Describes how to plan resources and forecast and control the costs of a project by setting up a budget for each job.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

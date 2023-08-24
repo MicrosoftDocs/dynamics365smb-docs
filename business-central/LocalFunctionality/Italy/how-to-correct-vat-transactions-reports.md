@@ -3,7 +3,7 @@
     description: The following topic is an explanation of how you can correct and resend electronic VAT transaction reports.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
     title: Bank Accounts for Electronic Payments [ES]
     description: Learn how to use Business Central to set up bank accounts and vendor bank accounts to make electronic payments.
-    author: bholtorf   
+    author: brentholtorf   
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

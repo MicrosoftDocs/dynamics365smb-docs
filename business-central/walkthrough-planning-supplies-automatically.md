@@ -1,7 +1,7 @@
 ---
     title: Walkthrough - Planning Supplies Automatically
     description: This walkthrough demonstrates how to use the supply planning system to automatically plan purchase and production orders on different sales orders. 
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

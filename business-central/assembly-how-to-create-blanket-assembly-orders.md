@@ -1,7 +1,7 @@
 ---
 title: Create Blanket Assembly Orders
 description: Create blanket sales orders for customized assembly items before periodically making the actual sales orders according to the blanket order agreement.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

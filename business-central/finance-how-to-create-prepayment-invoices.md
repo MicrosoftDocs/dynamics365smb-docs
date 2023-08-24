@@ -1,7 +1,7 @@
 ---
 title: Create Prepayment Invoices
 description: Handle situations where you or your vendor require prepayment. Use the default percentages for each sales or purchase line or adjust the amount as necessary.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bhielse
 ms.topic: how-to

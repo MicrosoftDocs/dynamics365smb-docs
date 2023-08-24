@@ -1,7 +1,7 @@
 ---
 title: Standard Recurring Sales Lines
 description: Set up frequently used sales lines to insert them on sales documents and quickly fill the lines with standard information.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Search for Specific Data
 description: You can use search when you want to find a specific record.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

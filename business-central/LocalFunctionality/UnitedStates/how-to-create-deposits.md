@@ -1,7 +1,7 @@
 ---
 title: Create Deposits [US]
 description: You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos in the US version.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

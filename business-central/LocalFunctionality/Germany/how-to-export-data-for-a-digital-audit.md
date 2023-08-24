@@ -1,7 +1,7 @@
 ---
     title: Export Data for a Digital Audit [DE]
     description: You can export financial data and tax data according to the process for digital audits (GoBD/GDPdU), which is based on German tax law.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

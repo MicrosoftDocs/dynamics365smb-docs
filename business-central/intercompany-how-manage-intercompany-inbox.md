@@ -1,7 +1,7 @@
 ---
 title: Manage the Intercompany Inbox and Outbox
 description: Intercompany transactions you receive from your partners are listed in the intercompany inbox, where you process them manually or automatically.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: conceptual

@@ -1,7 +1,7 @@
 ---
 title: Consolidate Data from Multiple Companies
 description: This article explains how you can consolidate the general ledger entries of two or more separate companies (subsidiaries) into a consolidated company.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

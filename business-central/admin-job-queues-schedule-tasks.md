@@ -1,7 +1,7 @@
 ---
 title: Schedule jobs to run automatically
 description: Learn how to use job queue entries to run reports and codeunits.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: conceptual

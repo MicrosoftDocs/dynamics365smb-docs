@@ -1,7 +1,7 @@
 ---
 title: Working with Business Central  (contains video)
 description: Describes the general functionality you use to interact with data in Business Central, such as entering values, sorting data, and changing views.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

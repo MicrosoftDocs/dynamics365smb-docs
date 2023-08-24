@@ -1,7 +1,7 @@
 ---
 title: How to Create Reports with XBRL
 description: XBRL is an XML-based language for tagging financial data, and enabling businesses to efficiently and accurately process and share their data.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

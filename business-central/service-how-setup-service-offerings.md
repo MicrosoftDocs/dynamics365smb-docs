@@ -1,7 +1,7 @@
 ---
     title: Set Up Service Offerings
     description: When you set up service management, you must decide what services to offer customers and the schedule for those services.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

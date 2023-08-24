@@ -1,7 +1,7 @@
 ---
     title: Reversing Journal Entries [IT]
     description: In this feature, controls have been added to the Reverse Transaction Entries page to comply with local laws.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

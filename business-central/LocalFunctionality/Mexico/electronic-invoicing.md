@@ -1,7 +1,7 @@
 ---
 title: Electronic invoicing - Mexico
 description: Learn how Business Central supports CFDI so that you can export sales and service invoices and credit memos as electronic documents with the required digital signature.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Process Sales Return Orders
 description: Describes how to create a sales return order to process a return, cancellation, or reimbursement for items or services you have been received payment for.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Print Remittance Advice [GB]
 description: You can print remittance advice before posting a payment journal and after posting a payment.
-author: bholtorf   
+author: brentholtorf   
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Receive Items
 description: This article is an overview of the different ways to receive items at a warehouse with a warehouse receipt.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.topic: how-to
 ms.date: 09/02/2022

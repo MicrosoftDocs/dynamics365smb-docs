@@ -1,7 +1,7 @@
 ---
     title: Design Details - Variance | Microsoft Docs
     description: Variance is defined as the difference between the actual cost and the standard cost, as described in the following formula.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

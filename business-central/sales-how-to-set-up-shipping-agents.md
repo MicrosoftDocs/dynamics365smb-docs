@@ -1,7 +1,7 @@
 ---
     title: How to Set Up Shipping Agents
     description: Learn how to set up a code for each of your shipping agents and enter descriptive information about each of them and the services they provide.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

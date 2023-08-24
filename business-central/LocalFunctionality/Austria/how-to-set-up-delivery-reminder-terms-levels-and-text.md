@@ -1,7 +1,7 @@
 ---
     title: Delivery Reminder Terms, Levels, and Text [AT]
     description: To create delivery reminders, you must perform certain setup tasks in the Austrian version.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

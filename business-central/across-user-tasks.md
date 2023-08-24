@@ -1,7 +1,7 @@
 ---
 title: Assigning and managing tasks
 description: Learn how to assign tasks to users, including your accountant, in Business Central, and how you pick up and complete tasks.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Consolidate Balances for a Company that is a Customer and a Vendor
 description: Describes how to consolidate balances for a customer that is also a vendor.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

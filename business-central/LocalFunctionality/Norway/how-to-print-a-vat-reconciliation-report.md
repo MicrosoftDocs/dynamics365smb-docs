@@ -1,7 +1,7 @@
 ---
 title: Print a VAT Reconciliation Report [NO]
 description: The VAT Reconciliation report shows the reconciliation settlement for the base amount and the VAT amount for general ledger accounts.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: How to Create Workflows from Workflow Templates
 description: To save time when creating new approval workflows, you can create non-editable workflows from the workflow templates prefixed with "MS".
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

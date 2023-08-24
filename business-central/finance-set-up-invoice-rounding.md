@@ -1,7 +1,7 @@
 ---
     title: Set Up Invoice Rounding
     description: If you need to round invoice amounts when you create invoices, you can use the automatic rounding function explained here.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

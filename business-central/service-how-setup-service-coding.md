@@ -1,7 +1,7 @@
 ---
     title: Set Up Codes for Standard Services
     description: Learn how to set up codes for regularly performed service activities with a predefined set of service lines.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

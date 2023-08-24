@@ -1,7 +1,7 @@
 ---
 title: Setting Up and Using a Purchase Approval Workflow
 description: This walkthrough takes you through all the stages involved in setting up and using a purchase approval workflow in Business Central.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

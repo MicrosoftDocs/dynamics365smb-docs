@@ -1,7 +1,7 @@
 ---
     title: Print General Ledger Setup Information [CH]
     description: Before you use Business Central in your daily business, you can run the G/L Setup Information report to display the master data that you have set up.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

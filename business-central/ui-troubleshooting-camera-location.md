@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting: Accessing Camera and Location"
 description: "This article describes how to troubleshoot access to camera and location information in Business Central."
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.date: 04/01/2021
 ms.custom: na

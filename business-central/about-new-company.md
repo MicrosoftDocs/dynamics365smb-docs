@@ -1,7 +1,7 @@
 ---
 title: Create new companies using an assisted setup guide
 description: It's easy to create a new, blank company in Business Central. An assisted setup guide helps you through the steps, and you can import your business data.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual

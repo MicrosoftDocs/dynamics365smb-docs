@@ -1,7 +1,7 @@
 ---
     title: Set Up Item Tracking with Serial, Lot, and Package Numbers
     description: Set up item tracking with serial numbers, lot numbers, and package numbers
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

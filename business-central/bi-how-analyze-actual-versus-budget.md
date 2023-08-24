@@ -1,7 +1,7 @@
 ---
 title: Analyze Actual Amounts Versus Budgeted Amounts
 description: This article describes how to analyze actual amounts versus budgeted amounts as a means of gathering, analyzing, and sharing your company data.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@
     description: To use fiscal inventory valuation, you must set up inventory valuation for item costing with the Item Costing Setup feature.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

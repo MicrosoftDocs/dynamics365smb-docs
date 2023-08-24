@@ -1,7 +1,7 @@
 ---
 title: Finding Pages and Information (contains video)
 description: This article describes how to use search to find actions, pages, reports, documentation, and data, and also other apps and consulting services.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

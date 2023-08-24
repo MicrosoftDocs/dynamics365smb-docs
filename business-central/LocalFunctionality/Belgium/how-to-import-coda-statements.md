@@ -2,7 +2,7 @@
     title: How to Import CODA Statements [BE]
     description: When you receive a CODA statement from your bank, you must import it into Business Central with Import CODA File.
 
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Norwegian VAT Reporting [NO]
 description: Norwegian enhancements in Business Central allow you to calculate and report VAT to the Norwegian tax authorities.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

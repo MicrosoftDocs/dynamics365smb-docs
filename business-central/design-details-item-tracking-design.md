@@ -1,7 +1,7 @@
 ---
     title: Design Details - Item Tracking Design
     description: This topic describes the design behind item tracking in Business Central as it matures through product versions.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Create Remittance Suggestions [NO]
 description: You can create a remittance suggestion so that payment proposals are sent to vendors who are set up to receive remittance payments.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
     title: How to Work on Service Tasks
     description: This topic covers the different ways to work on service tasks. The Service Tasks page gives an overview of all the service items that need attention.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

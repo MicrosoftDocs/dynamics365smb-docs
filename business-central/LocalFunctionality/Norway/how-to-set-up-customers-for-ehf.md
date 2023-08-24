@@ -1,7 +1,7 @@
 ---
 title: Set Up Customers for EHF
 description: To create Elektronisk Handelsformat (EHF) documents for customers in the public sector in Norway, you must add EHF information to the relevant customers.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

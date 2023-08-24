@@ -1,7 +1,7 @@
 ---
     title: Generate Payment Suggestions [BE]
     description: After you have set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

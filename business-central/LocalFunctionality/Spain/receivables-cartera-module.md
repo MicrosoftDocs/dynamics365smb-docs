@@ -3,7 +3,7 @@
     description: The Receivables Cartera module allows you to manage bills generated from sales invoices using the Cartera Journal.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

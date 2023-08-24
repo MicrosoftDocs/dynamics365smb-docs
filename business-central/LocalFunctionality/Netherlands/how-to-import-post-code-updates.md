@@ -1,7 +1,7 @@
 ---
     title: How to Import Post Code Updates [NL]
     description: The post code file can be imported and update the relevant data of the Post Code Range table.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

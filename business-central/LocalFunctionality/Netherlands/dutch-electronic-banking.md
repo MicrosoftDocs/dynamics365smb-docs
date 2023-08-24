@@ -1,7 +1,7 @@
 ---
     title: Dutch Electronic Banking
     description: This topic covers how to create electronic payment files and direct debit files, and import electronic bank statements from supported bank software.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

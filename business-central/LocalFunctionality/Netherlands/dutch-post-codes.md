@@ -1,7 +1,7 @@
 ---
     title: Dutch Post Codes
     description: Subscribe to getting post codes and post code updates for your business. These updates are important for marketing and relationship management activities.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

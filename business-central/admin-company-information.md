@@ -1,7 +1,7 @@
 ---
 title: Company Information Overview
 description: The Company Information page specifies basic information for a business entity, such as name, addresses, and shipping information. 
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.form: 1
 ms.date: 08/31/2022

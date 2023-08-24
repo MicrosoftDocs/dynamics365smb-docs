@@ -2,7 +2,7 @@
     title: Year End Processes Overview [FR]
     description: This is an overview of the processes involved in the fiscal year end closing entry in Business Central.
 
-    author: bholtorf
+    author: brentholtorf
     ms.topic: overview
     ms.devlang: na
     ms.tgt_pltfrm: na

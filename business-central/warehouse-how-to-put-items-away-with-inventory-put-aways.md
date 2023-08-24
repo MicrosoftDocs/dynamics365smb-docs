@@ -1,7 +1,7 @@
 ---
 title: How to Put Items Away with Inventory Put-aways
 description: Learn how to use inventory put-away documents to record and post put-away and receipt information.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central

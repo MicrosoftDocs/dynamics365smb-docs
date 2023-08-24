@@ -1,7 +1,7 @@
 ---
 title: How to Restrict and Allow Usage of a Record
 description: If you want to restrict a record from being used, you can incorporate two workflow responses in a workflow that controls the usage of the record.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

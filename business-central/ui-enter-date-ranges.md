@@ -1,7 +1,7 @@
 ---
 title: Entering dates and times in Business Central
 description: Learn how to enter dates and times including various productivity tips such as shorthand, expressions and ranges.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

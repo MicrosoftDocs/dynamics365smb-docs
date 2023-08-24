@@ -1,7 +1,7 @@
 ---
 title: EHF Electronic Invoicing in Norway
 description: Companies must send sales invoices and credit memos to the Norwegian public sector electronically in the Elektronisk Handelsformat (EHF) based on (UBL).
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

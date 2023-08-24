@@ -3,7 +3,7 @@
     description: Learn about how to enter the Código Cuenta Cliente (CCC) unique bank account identification code using the Spanish version of Business Central.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

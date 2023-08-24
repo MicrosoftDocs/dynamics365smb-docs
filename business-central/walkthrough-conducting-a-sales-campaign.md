@@ -1,7 +1,7 @@
 ---
     title: Walkthrough Conducting a Sales Campaign
     description: This walkthrough gives a detailed overview of all the tasks involved in conducting a sales campaign in Business Central.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

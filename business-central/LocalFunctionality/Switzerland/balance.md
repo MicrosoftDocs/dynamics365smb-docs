@@ -1,7 +1,7 @@
 ---
     title: G/L Balance [CH]
     description: This topic explains how to use the General Ledger Acc. Provisional Balance page to view posted ledger entries.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: View Posted Tax Credit Memos [AU]
 description: You use the Posted Sales Tax Credit Memo page and Posted Purch. Tax Credit Memo page to view details of sales tax credit memos and purchase tax credit memos.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.search.form: 28071, 28073, 28081, 28082

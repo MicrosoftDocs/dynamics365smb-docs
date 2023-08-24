@@ -1,7 +1,7 @@
 ---
     title: How to Create Service Items
     description: Read about the different ways you can create service items in Business Central, for example within a service order or when shipping items.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

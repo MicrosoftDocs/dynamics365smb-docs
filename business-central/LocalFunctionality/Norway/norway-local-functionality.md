@@ -1,7 +1,7 @@
 ---
 title: Norway Local Functionality [NO]
 description: The following topics describe all the local functionality in the Norwegian version of Business Central.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

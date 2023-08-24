@@ -1,7 +1,7 @@
 ---
 title: Apply Payments to Unpaid Sales Documents
 description: You apply amounts paid by customers to related sales documents and post the payment to update the customer, general ledger, and bank ledger entries.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

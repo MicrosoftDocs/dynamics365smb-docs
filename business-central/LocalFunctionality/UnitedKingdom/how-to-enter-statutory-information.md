@@ -1,7 +1,7 @@
 ---
 title: Enter Statutory Information [UK]
 description: To comply with legal requirements, statutory information is available on the Statutory FastTab on the Company Information page.
-author: bholtorf  
+author: brentholtorf  
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

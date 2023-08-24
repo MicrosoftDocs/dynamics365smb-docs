@@ -1,7 +1,7 @@
 ---
 title: Record Special Sales Prices and Discounts
 description: Describes how to define pricing and discount agreements for sales documents.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: how-to

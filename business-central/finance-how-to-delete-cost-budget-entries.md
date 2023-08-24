@@ -1,7 +1,7 @@
 ---
 title: Delete Cost Budget Entries
 description: You use the Delete Cost Budget Entries batch job to cancel cost budget entries from the cost budget register.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

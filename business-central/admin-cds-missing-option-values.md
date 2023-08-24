@@ -1,7 +1,7 @@
 ---
 title: "Handling Missing Option Values"
 description: Learn how to prevent full synchronization from failing because the options differ in mapped fields. This process requires help from a developer.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na

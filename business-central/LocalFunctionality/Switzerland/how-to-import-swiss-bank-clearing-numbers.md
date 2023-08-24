@@ -1,7 +1,7 @@
 ---
     title: Import Swiss Bank Clearing Numbers [CH]
     description: This article tells you how to import Swiss Bank Clearing Numbers using the Swiss version of Business Central. 
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

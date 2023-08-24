@@ -1,7 +1,7 @@
 ---
     title: Track Relations Between Demand and Supply
     description: This topic explains the different ways to track relations between demand and supply such as tracking linked items and dealing with untracked planing elements.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

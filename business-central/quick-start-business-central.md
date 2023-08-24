@@ -1,7 +1,7 @@
 ---
 title: Business Central Quick Starts
 description: Get up and running with Business Central with quick start articles and tips that help you fill in the first critical fields.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

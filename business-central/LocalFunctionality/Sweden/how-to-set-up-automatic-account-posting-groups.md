@@ -1,7 +1,7 @@
 ---
 title: Set Up Automatic Account Posting Groups [SE]
 description: To use automatic account codes, you must create an automatic account posting group in the Swedish version.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

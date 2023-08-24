@@ -1,7 +1,7 @@
 ---
     title: Service Order Status and Repair Status
     description: The service order status reflects the repair status of all the service items in the service order.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

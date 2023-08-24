@@ -1,7 +1,7 @@
 ---
 title: Insure Fixed Assets
 description: You can assign one or multiple fixed assets to one insurance policy by posting to the insurance coverage ledger from the **Insurance Journal** page.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

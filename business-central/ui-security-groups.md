@@ -1,7 +1,7 @@
 ---
 title: Control Access Using Security Groups
 description: This article describes how to use security groups to define user permissions.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual

@@ -3,7 +3,7 @@
     description: Some general ledger accounts do not accept payment discounts or invoice discounts. You can ignore the discounts for these general ledger accounts.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

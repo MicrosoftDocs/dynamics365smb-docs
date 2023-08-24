@@ -1,7 +1,7 @@
 ---
 title: Defer Revenues and Expenses
 description: To recognize revenues and expenses in periods when the transaction was not posted, you can automatically defer or postpone them over a specified schedule.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

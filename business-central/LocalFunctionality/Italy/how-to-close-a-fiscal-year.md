@@ -3,7 +3,7 @@
     description: To evaluate profit and loss, a fiscal year closing report is provided at the end of each fiscal year.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

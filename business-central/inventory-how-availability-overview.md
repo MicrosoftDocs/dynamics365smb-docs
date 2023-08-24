@@ -2,7 +2,7 @@
 title: Get an Availability Overview
 description: You can get information about the availability of items or stock across locations, per sales or purchase events, by time period, and more.
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na

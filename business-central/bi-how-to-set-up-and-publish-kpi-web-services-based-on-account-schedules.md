@@ -1,7 +1,7 @@
 ---
 title: Set Up and Publish KPI Web Services Based on Financial Reports
 description: This article describes how to show the financial-report KPI data based on specific financial reports.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central

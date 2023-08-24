@@ -1,7 +1,7 @@
 ---
 title: Inventory Zero Open Item Ledger Entries
 description: This article addresses an issue where the inventory level is zero although open item ledger entries exist.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

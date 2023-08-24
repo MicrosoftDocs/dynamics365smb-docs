@@ -1,7 +1,7 @@
 ---
     title: How to Issue Delivery Reminders [AT]
     description: After you have created delivery reminders, you must issue and print them so that you can send reminders to vendors in the Austrian version.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

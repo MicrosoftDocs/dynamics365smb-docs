@@ -1,7 +1,7 @@
 ---
     title: Payment Scenarios
     description: Based on a sales or purchase invoice or credit memo a proposal can be generated and exported in order to be processed by our bank.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

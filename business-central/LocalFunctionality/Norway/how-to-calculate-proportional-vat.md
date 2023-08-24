@@ -1,7 +1,7 @@
 ---
 title: Calculate Proportional VAT [NO]
 description: You can use proportional VAT to calculate VAT when there is both deductible and non-deductible VAT in the Norwegian version of Business Central.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

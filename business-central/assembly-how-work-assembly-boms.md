@@ -1,7 +1,7 @@
 ---
 title: Work with Assembly BOMs
 description: You create an assembly BOM to specify the components required to put together the item that the BOM represents.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
     title: Print Test Reports for Delivery Reminders [AT]
     description: After you have created delivery reminders and made any needed modifications, you can either print the test reports or issue the delivery reminders.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

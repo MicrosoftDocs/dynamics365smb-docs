@@ -1,7 +1,7 @@
 ---
 title: Posting Group Setup
 description: Overview of the posting groups you can use to save time and avoid mistakes when you post transactions.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

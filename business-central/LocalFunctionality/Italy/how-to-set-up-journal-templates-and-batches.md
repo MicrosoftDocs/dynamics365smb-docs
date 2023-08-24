@@ -1,7 +1,7 @@
 ---
 title: Set Up Journal Templates and Batches (IT)
 description: Learn about how the Italian version supports the requirement that all European Union (EU) companies must submit Intrastat reports to the customs office.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

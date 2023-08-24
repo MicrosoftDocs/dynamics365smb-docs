@@ -1,7 +1,7 @@
 ---
     title: Calculate Dates for Purchases
     description: This article describes how you can calculate dates for purchases. 
-    author: bholtorf 
+    author: brentholtorf 
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

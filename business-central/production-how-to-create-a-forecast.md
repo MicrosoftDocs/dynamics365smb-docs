@@ -1,7 +1,7 @@
 ---
 title: Create a Demand Forecast
 description: Learn about the demand forecasting features, and how you can create sales and production forecasts.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

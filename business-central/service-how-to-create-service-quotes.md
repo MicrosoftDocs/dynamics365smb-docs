@@ -1,7 +1,7 @@
 ---
     title: How to Create Service Quotes
     description: Learn how to use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

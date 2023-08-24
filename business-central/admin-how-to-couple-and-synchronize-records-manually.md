@@ -1,7 +1,7 @@
 ---
 title: Coupling and Synchronizing (contains video)
 description: Synchronizing an integration table mapping enables data syncing in all records in a table in Business Central and Dynamics 365 Sales table that are coupled.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: conceptual

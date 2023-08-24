@@ -1,7 +1,7 @@
 ---
     title: Design Details - Accounts in the General Ledger | Microsoft Docs
     description: To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
     title: How to Convert Service Contracts
     description: This topic describes several alternative methods that you can use to convert service contracts that include VAT amounts.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

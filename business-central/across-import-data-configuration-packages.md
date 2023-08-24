@@ -1,7 +1,7 @@
 ---
 title: Use Excel to import data into Business Central
 description: Use the default configuration package to add customer data in Excel and import the data back into Business Central.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

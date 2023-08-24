@@ -3,7 +3,7 @@
     description: This topic explains how you can create multiple fixed asset cards automatically during purchase invoice posting.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: How to Block Items from Sales or Purchasing
 description: You can block items from being entered on lines in sales or purchase documents, as well as from being posted in a transaction. 
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

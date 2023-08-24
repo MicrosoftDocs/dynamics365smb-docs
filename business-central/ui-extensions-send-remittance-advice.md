@@ -1,7 +1,7 @@
 ---
 title: Send Remittance Advice Extension | Microsoft Docs
 description: Describes the Send Remittance Advice extension, which allows emailing and resending remittance advice from the payment journal and vendor ledger entries.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

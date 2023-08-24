@@ -3,7 +3,7 @@
     description: You can export a VAT statement in text format and then submit it electronically to the tax authorities.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf 
+    author: brentholtorf 
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

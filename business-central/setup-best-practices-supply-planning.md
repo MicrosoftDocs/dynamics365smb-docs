@@ -1,7 +1,7 @@
 ---
     title: Setup Best Practices - Supply Planning
     description: When set up and used correctly, supply planning helps a company avoid stock out and reduce both ordering costs and inventory costs.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Save and Personalize List Views
 description: Learn how to create your own views for filtered lists as well as how to save, rename and manage those Views.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

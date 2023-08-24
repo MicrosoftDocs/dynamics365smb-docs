@@ -1,7 +1,7 @@
 ---
 title: About Finished Production Order Costs
 description: Finishing the production order is key to completing the costing lifecycle of a production item. Final costs are calculated in Adjust Cost Item Entries batch job.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.form: 99000867
 ms.date: 06/16/2021

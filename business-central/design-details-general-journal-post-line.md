@@ -1,7 +1,7 @@
 ---
     title: Design Details - General Journal Post Line
     description: This topic provides insight into the concepts and principles that are used to redesign the general journal posting line feature in Business Central.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

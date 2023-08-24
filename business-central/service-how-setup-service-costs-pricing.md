@@ -1,7 +1,7 @@
 ---
     title: Set Up Pricing and Costs for Services
     description: Learn how to use pricing features to set up and customize your application so that you apply and adjust pricing on service items, repairs and orders.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

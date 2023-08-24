@@ -1,7 +1,7 @@
 ---
     title: How to Post Payment Slips [FR]
     description: You must post payment slips to complete a payment transaction and to create the related financial data. 
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

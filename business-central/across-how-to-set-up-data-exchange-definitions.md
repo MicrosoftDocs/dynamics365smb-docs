@@ -1,7 +1,7 @@
 ---
 title: Define How Data is Exchanged Electronically
 description: Define how Business Central exchange data with external files like electronic documents, bank data, item catalogs and more.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords:

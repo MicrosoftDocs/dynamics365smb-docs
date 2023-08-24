@@ -1,7 +1,7 @@
 ---
 title: Set Up Prices and Discounts
 description: Describes how to define standard and special price and discount agreements for sales and purchases.
-author: bholtorf
+author: brentholtorf
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

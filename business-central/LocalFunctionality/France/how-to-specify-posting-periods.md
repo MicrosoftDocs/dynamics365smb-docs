@@ -2,7 +2,7 @@
     title: How to Specify Posting Periods [FR]
     description: When you specify posting periods, you limit the period in which posting is allowed.
 
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

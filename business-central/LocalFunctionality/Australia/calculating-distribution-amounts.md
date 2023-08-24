@@ -1,7 +1,7 @@
 ---
 title: Calculating Distribution Amounts [AU]
 description: You can reallocate the amount in one general ledger account to other general ledger accounts so that the balances of your accounts remain proportionate to one another in the Australian version.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.search.form: 17101

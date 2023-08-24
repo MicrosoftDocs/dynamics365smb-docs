@@ -1,7 +1,7 @@
 ---
 title: Set Up Use Tax and Purchase Tax [US]
 description: This topic explains how sales tax includes taxes that companies pay for using items in the US version.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

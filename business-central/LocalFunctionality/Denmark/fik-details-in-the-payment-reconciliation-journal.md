@@ -1,7 +1,7 @@
 ---
     title: FIK Details in the Payment Reconciliation Journal
     description: The Transaction Text field shows information about the automatic application of payments using the Danish FIK standard.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

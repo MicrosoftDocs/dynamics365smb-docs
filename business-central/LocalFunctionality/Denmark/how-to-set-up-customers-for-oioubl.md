@@ -1,7 +1,7 @@
 ---
     title: How to Set Up Customers for OIOUBL | Microsoft Docs
     description: To create Offentlig Information Online UBL (OIOUBL) documents for customers in the public sector, you must add OIOUBL information to the relevant customers.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

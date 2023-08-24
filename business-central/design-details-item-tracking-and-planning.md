@@ -1,7 +1,7 @@
 ---
     title: Design Details - Item Tracking and Planning | Microsoft Docs
     description: Because they are stored in the reservation system, item tracking numbers are fully coordinated with order tracking records.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

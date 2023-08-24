@@ -1,7 +1,7 @@
 ---
 title: Service Management
 description: Learn to use features in Business Central designed manage and track services to support repair shop and field service operations.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

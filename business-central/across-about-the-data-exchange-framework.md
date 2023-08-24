@@ -1,7 +1,7 @@
 ---
 title: About the Data Exchange Framework
 description: This topic explains how to use the Data Exchange Framework to manage the exchange of data in business documents like invoices with your business partners.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

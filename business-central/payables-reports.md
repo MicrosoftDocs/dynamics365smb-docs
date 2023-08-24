@@ -1,7 +1,7 @@
 ---
 title: Accounts Payable Reports and Analytics
 description: See which reports and analytics are available in the standard version of Business Central so that you can keep track of your accounts payable.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 347, Report_301, Report_304, Report_305, Report_312, Report_317, Report_319, Report_321, Report_322, Report_329

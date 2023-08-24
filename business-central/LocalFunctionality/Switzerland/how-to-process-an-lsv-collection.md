@@ -1,7 +1,7 @@
 ---
     title: Process an LSV Collection [CH]
     description: You can use LSV journals to create and process payments from Lastschrift Verfahren (LSV+) customers. 
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

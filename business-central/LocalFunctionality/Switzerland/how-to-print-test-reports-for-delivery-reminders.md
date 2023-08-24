@@ -3,7 +3,7 @@
     description: After you have created delivery reminders and made needed modifications in Switzerland, you can either print the test reports or issue the delivery reminders.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

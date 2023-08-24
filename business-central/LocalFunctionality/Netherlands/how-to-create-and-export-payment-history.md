@@ -1,7 +1,7 @@
 ---
     title: How to Create and Export Payment History [NL]
     description: After you have created a proposal and made any modifications, you can process the proposal to create a payment history. 
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

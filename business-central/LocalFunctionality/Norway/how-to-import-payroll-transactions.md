@@ -1,7 +1,7 @@
 ---
 title: How to Import Payroll Transactions [NO]
 description: You can use Business Central to import payroll transactions into a general journal from two external payroll solutions.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

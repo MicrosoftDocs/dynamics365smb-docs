@@ -1,7 +1,7 @@
 ---
 title: Set Up EHF [NO]
 description: You must define a location for storing Elektronisk Handelsformat (EHF) files when you create electronic documents such as invoices or credit memos.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

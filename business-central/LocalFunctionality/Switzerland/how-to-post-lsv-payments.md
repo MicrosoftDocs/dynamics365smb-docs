@@ -1,7 +1,7 @@
 ---
     title: How to Post LSV+ Payments
     description: You can post payments after you have received Lastschrift Verfahren (LSV+) payment advice from the bank.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Manually Adjust the Costs of Items
 description: You can manually adjust the inventory valuation of an item using the FIFO or Average costing methods when the costs of products change.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

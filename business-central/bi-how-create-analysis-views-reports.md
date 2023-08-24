@@ -1,7 +1,7 @@
 ---
 title: Create Analysis Reports
 description: Describes how to create new analysis reports for sales, purchases, and inventory, and set up analysis templates.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: VAT Reporting in the German version
 description: You can report VAT electronically to the tax authorities in the German version.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

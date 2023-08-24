@@ -1,7 +1,7 @@
 ---
 title: Set Up Bank Reference Files (FI)
 description: To process electronic payments in the Finnish version, you must first set up bank reference files to determine how payment data should be imported or exported.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

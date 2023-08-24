@@ -1,7 +1,7 @@
 ---
 title: Set Up Currencies
 description: You must set up each currency if you buy or sell in currencies other than your local currency (LCY), or if you record G/L transactions in different currencies.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: multiple currencies
 ms.search.form: 5, 118

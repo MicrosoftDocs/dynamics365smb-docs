@@ -1,7 +1,7 @@
 ---
     title: Create an Audit File for Tax Authority [NL]
     description: The following article explains how to Create an Audit File for the Tax Authority with the Dutch version of Business Central. 
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
     title: Design Details - Reservation, Order Tracking, and Action Messaging | Microsoft Docs
     description: The reservations system is comprehensive and includes the interrelated and parallel features of Order Tracking and Action Messaging.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

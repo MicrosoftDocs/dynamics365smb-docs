@@ -1,7 +1,7 @@
 ---
 title: Swiss Value Added [CH]
 description: This article explains several enhancements that have been made to the Swiss VAT reporting features.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

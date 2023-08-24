@@ -1,7 +1,7 @@
 ---
 title: Set Up Financial Processes
 description: Learn about the tasks required to set up finance in your business to suit all your accounting, auditing, or bookkeeping needs.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

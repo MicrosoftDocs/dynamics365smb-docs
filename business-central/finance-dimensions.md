@@ -1,7 +1,7 @@
 ---
 title: Working with Dimensions to Track and Analyze Data
 description: Use dimensions to categorize entries, such as by department or project, so you can more easily track and analyze data to help you make good business decisions.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central

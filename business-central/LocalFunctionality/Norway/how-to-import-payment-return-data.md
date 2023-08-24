@@ -1,7 +1,7 @@
 ---
     title: How to Import Payment Return Data [NO]
     description: This topic explains how to import receipt and settlement returns, use the Rem. payment order – import page.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

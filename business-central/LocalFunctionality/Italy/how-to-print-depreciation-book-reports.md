@@ -1,7 +1,7 @@
 ---
     title: How to Print Depreciation Book Reports [IT]
     description: The Depreciation Book report is run after the depreciation method has been set up and assets have been entered.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

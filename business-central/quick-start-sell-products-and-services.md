@@ -1,7 +1,7 @@
 ---
 title: Sales Quick Start (contains video)
 description: Learn how to fill in the first critical fields about products and customers in Business Central so that you can start your sales processes.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

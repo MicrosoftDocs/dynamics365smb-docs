@@ -1,7 +1,7 @@
 ---
 title: Purchase Items for a Sale
 description: From a sales invoice, to purchase products, you can create a purchase invoice for a vendor or supplier.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

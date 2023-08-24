@@ -1,7 +1,7 @@
 ---
     title: Calculating Due Dates [ES]
     description: Read about how to submit an annual report of purchases and sales for payments that were made before or after the due date.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

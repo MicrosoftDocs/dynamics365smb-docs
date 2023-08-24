@@ -1,7 +1,7 @@
 ---
 title: Get Ready for Doing Business
 description: Outlines the assisted setup guides, videos, help topics, and pages and pages to use to get ready for doing business in Business Central.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Export Remittance Payments [NO]
 description: This topic explains how you can use the export remittance payments process to export the payments file to your computer in the Norwegian version of Business Central.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

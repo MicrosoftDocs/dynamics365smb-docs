@@ -1,7 +1,7 @@
 ---
 title: Reconcile Bank Accounts
 description: Learn how to reconcile transactions in Business Central with transactions in statements from your bank.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central

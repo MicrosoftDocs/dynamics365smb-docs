@@ -1,7 +1,7 @@
 ---
     title: Create Report 340 [ES]
     description: Read about how to create report 340 for the tax authorities in the Spanish version of Business Central. 
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

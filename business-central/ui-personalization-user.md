@@ -1,7 +1,7 @@
 ---
 title: Personalizing Pages (contains video)
 description: Learn how to customize the user interface and personalize your workspace to suit your way of working and personal preferences in Business Central.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

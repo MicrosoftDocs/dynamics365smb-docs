@@ -1,7 +1,7 @@
 ---
     title: Report 347 [ES]
     description: Report 347 is a required annual report sent by all companies to the tax authorities to reflect the sales or purchases in a given period. 
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

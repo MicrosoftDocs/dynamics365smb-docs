@@ -1,7 +1,7 @@
 ---
 title: Design Details - Inventory Costing
 description: This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in Business Central.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

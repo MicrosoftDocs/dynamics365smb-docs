@@ -1,7 +1,7 @@
 ---
 title: Post the Year-End Closing Entry
 description: Describes how to open the journal you specified in the Close Income Statement batch job, and then review and post the year-end closing entry. 
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.search.form: 100

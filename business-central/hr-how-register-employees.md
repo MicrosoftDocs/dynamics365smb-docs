@@ -1,7 +1,7 @@
 ---
 title: Register Employees and Modify Information
 description: Describes how to use the Human Resources functionality to register new personnel or edit employee information for existing staff.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

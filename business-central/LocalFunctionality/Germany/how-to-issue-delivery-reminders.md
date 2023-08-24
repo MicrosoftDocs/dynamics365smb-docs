@@ -1,7 +1,7 @@
 ---
     title: Issue Delivery Reminders in the German Version
     description: Read about how you issue and print delivery reminders so that you can send reminders to vendors in the German version of Business Central.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

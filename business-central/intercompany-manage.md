@@ -1,7 +1,7 @@
 ---
 title: Managing intercompany transactions
 description: With the Intercompany functionality, you can simplify business processes and transactions between companies within the same organization.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bhielse
 ms.topic: conceptual

@@ -1,7 +1,7 @@
 ---
     title: Set Up IBLC-BLWI Transaction Codes [BE]
     description: In order to process electronic payments, you must set up transaction codes according to the requirements of the Belgian-Luxembourg Exchange Institute. 
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

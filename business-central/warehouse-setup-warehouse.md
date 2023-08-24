@@ -1,7 +1,7 @@
 ---
 title: Configure Warehouse Processes
 description: A company's distribution strategy is reflected in the configuration of its warehouse processes, for example the warehouse locations.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Set up data exchange to send and receive files
 description: Set up the data exchange framework in order to exchange data with external files; to send and receive electronic documents or import and export bank files.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

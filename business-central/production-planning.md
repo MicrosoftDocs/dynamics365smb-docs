@@ -1,7 +1,7 @@
 ---
     title: Supply Planning
     description: Prepare a detailed executable plan and the final-assembly production schedule for sales and production demand.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

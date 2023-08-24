@@ -1,7 +1,7 @@
 ---
 title: Design Details - Availability in the Warehouse
 description: Learn about the different factors that affect item availability in your warehouse.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual

@@ -3,7 +3,7 @@
     description: VAT is charged on transactions involving goods and services in Spain or goods imported into Spain. The following provides details about VAT functionality.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Update Currency Exchange Rates (contains video)
 description: If you track amounts in different currencies, you can let Business Central help you adjust FX exchange rates of posted entries with an external service.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118

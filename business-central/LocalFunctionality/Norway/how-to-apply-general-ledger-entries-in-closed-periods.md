@@ -1,7 +1,7 @@
 ---
     title: How to Apply General Ledger Entries in Closed Periods
     description: You can post entries after a posting period is closed, even if no actual posting is performed during that period.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

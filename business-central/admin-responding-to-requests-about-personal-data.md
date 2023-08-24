@@ -1,7 +1,7 @@
 ---
 title: Responding to Requests About Users' Personal Data
 description: This article explains how to respond to requests about personal data.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: conceptual

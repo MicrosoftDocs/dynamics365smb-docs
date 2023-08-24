@@ -1,7 +1,7 @@
 ---
     title: Pick for Internal Operations in Advanced Warehouse Configurations
     description: If your locations use picking and shipping, pick components for production, assembly, and job activities on the Warehouse Pick page.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

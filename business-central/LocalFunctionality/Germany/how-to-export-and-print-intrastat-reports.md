@@ -1,7 +1,7 @@
 ---
 title: Export and Print Intrastat Reports (DE)
 description: Business Central supports Intrastat reporting according to German requirements. You can meet the requirement to report your trade with other EU countries/regions.
-author: bholtorf 
+author: brentholtorf 
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

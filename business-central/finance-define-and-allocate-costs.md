@@ -1,7 +1,7 @@
 ---
 title: Defining and Allocating Costs
 description: Cost allocations move costs and revenues between cost types, cost centers, and cost objects. You can define as many allocations as you need.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

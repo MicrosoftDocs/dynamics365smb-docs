@@ -1,7 +1,7 @@
 ---
     title: Withholding Tax in the Australian version
     description: In the Australian version, Withholding Tax (WHT) is tax withheld by a company when making a payment to a vendor.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

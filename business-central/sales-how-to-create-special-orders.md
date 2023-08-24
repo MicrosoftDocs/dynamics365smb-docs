@@ -1,7 +1,7 @@
 ---
     title: How to Create Special Orders
     description: Learn how to create a special order for a specific catalog item to be shipped to a specific customer.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

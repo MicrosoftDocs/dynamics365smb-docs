@@ -1,7 +1,7 @@
 ---
 title: Set Up Companies to Synchronize Master Data
 description: Learn how to set up one or more companies to synchronize master data.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.service: dynamics365-business-central

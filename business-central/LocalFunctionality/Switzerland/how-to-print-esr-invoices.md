@@ -1,7 +1,7 @@
 ---
     title: How to Print ESR Invoices [CH]
     description: This topic describes how you can print an Einzahlungsschein mit Referenznummer (ESR) payment slip invoices and coupons.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

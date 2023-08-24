@@ -1,7 +1,7 @@
 ---
 title: Archive Sales and Purchase Documents
 description: You can archive sales and purchase orders, quotes, return orders, and blanket orders.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: how-to

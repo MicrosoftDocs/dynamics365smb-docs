@@ -1,7 +1,7 @@
 ---
 title: Report Selection in Business Central
 description: Learn about how to set up the reports that you use to print various types of documents in Business Central.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917

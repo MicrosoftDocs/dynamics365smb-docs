@@ -1,7 +1,7 @@
 ---
     title: Report 340 [ES]
     description: This topic describes Report 340, which contains information about invoices and taxes that were issued or received by your company in a given period. 
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Set Up FA Depreciation
 description: There are various methods of depreciation. In Business Central you define an asset's depreciation method on the **Fixed Asset Card** page.
-author: bholtorf
+author: brentholtorf
 
 
 ms.topic: conceptual

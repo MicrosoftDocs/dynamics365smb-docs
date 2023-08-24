@@ -1,7 +1,7 @@
 ---
 title: Create Production Orders from Sales Orders
 description: Learn different ways to create production orders for produced items directly from sales orders.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: how-to

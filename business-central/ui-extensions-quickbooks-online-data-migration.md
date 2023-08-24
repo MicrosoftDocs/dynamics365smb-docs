@@ -1,7 +1,7 @@
 ---
 title: QuickBooks Online Data Migration Extension
 description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Business Central.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

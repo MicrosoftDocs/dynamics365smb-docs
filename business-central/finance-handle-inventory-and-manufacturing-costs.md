@@ -1,7 +1,7 @@
 ---
     title: Handle Inventory and Manufacturing Costs
     description: Learn how a number of fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

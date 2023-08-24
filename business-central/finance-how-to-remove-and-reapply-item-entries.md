@@ -1,7 +1,7 @@
 ---
     title: Remove and Reapply Item Entries
     description: You can view and manually change certain item application entries that are created automatically during inventory transactions.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Build Financial Reports Using Financial Data and Account Categories
 description: Describes how to use financial reports to create various views and reports for analyzing financial performance data.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: how-to

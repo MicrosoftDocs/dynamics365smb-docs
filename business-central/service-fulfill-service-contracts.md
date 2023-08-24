@@ -1,7 +1,7 @@
 ---
 title: Overview of Tasks to Fulfill Service Contracts
 description: Outlines tasks involved in fulfilling service contracts with your customers like setting up standard contractual agreements with customizable templates and more.
-author: bholtorf
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na

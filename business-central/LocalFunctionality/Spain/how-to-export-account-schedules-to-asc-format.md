@@ -3,7 +3,7 @@
     description: You can export the financial report data into a digital file format approved by the local tax authorities for certain reports.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

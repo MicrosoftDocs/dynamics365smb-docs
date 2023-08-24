@@ -1,7 +1,7 @@
 ---
     title: Set Up Bin Types
     description: Assign types and basic flow activities to bins and, in doing so, define the way the bins are used for particular warehouse activities.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

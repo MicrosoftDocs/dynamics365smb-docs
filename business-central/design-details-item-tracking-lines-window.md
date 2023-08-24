@@ -1,7 +1,7 @@
 ---
     title: Design Details - Item Tracking Lines Page
     description: Read about how to manage the flow of serial and lot numbers in your inventory using the Item Tracking Lines page.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

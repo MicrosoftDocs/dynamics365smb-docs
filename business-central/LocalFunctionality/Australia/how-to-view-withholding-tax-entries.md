@@ -1,7 +1,7 @@
 ---
 title: View Withholding Tax Entries [AU]
 description: You can view entries that have been posted with withholding tax (WHT) for a specified general ledger register in the Australian version.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

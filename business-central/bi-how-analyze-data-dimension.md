@@ -1,7 +1,7 @@
 ---
 title: Analyze Data by Dimensions
 description: This article describes how you can analyze business data by dimensions to gain greater insight into your business.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

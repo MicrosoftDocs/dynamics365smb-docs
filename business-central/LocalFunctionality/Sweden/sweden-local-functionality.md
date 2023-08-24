@@ -1,7 +1,7 @@
 ---
     title: Sweden Local Functionality [SE]
     description: The following topics describe the different local functionality in the Swedish version of Business Central.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

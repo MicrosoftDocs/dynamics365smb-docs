@@ -1,7 +1,7 @@
 ---
 title: Currencies in Business Central
 description: get an overview of how Business Central defines your local currency versus the foreign currencies that you do trade in.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: multiple currencies
 ms.search.form: 5, 118

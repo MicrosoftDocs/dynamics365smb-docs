@@ -3,7 +3,7 @@
     description: Norwegian enhancements include automatically making payments to vendors in the Norwegian version of Business Central.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

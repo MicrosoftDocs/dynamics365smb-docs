@@ -1,7 +1,7 @@
 ---
     title: Delivery Reminder Terms, Levels, and Text [CH]
     description: To create delivery reminders in the Swiss version of Business Central, you must set up delivery reminder terms, levels, and text messages.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

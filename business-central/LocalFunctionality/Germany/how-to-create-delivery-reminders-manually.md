@@ -1,7 +1,7 @@
 ---
     title: How to Create Delivery Reminders Manually [DE]
     description: The following topic provides examples of how to create delivery reminders manually in the German version.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

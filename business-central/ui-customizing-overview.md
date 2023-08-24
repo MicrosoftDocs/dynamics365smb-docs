@@ -1,7 +1,7 @@
 ---
 title: Customizing Business Central
 description: Read about the different ways of customizing Business Central to improve access to functionality and features you need most as suits your daily work.
-author: bholtorf
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na

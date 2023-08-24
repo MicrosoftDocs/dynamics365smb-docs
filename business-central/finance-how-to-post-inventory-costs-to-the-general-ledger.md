@@ -1,7 +1,7 @@
 ---
 title: Reconcile Inventory Costs with the General Ledger
 description: At the end of accounting periods a sequence of cost control and auditing tasks must be performed to report a correct and balanced inventory value. 
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

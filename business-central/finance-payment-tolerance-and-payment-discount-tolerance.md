@@ -1,7 +1,7 @@
 ---
     title: Payment Tolerance and Payment Discount Tolerance
     description: This article explains how to set up payment tolerance to close an invoice when the payment doesn't fully cover the invoice amount.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

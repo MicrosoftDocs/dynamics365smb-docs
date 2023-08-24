@@ -1,7 +1,7 @@
 ---
 title: GIFI Codes in Canada
 description: In Canada, you can set up General Index of Financial Information (GIFI) codes and assign them to posting accounts.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

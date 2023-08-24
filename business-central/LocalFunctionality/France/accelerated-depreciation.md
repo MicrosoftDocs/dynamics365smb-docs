@@ -1,7 +1,7 @@
 ---
 title: Accelerated Depreciation [FR]
 description: The following topic explains how to use the accelerated depreciation method to post the extra tax amounts if they meet specified criteria in the French version.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

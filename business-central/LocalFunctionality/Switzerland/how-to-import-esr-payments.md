@@ -1,7 +1,7 @@
 ---
     title: Import ESR Payments [CH]
     description: After you receive payment from a customer, you can receive the ESR file that contains information about paid invoices from your bank electronically. 
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

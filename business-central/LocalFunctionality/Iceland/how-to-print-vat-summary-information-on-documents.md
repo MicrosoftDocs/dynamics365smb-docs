@@ -1,7 +1,7 @@
 ---
     title: Print VAT Summary Information on Document [IS]
     description: If VAT is calculated, VAT summary information is typically printed on the sales and purchase documents.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

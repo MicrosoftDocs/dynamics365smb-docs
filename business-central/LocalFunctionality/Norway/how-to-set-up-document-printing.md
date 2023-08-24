@@ -1,7 +1,7 @@
 ---
     title: How to Set Up Document Printing
     description: In Business Central, you can print the sales reports that use the required giro specifications by using different paper types and paper trays.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Design Details - Balancing supply and demand
 description: This article describes how to prioritized goals by balancing supply with demand.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central

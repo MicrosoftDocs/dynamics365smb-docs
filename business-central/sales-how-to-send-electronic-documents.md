@@ -1,7 +1,7 @@
 ---
     title: Send Electronic Documents
     description: Learn how to use Business Central to send electric invoices and credit memos in the PEPPOL format.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

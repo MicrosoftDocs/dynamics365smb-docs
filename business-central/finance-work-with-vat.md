@@ -1,7 +1,7 @@
 ---
 title: How to work With VAT on Sales and Purchases
 description: This topic describes the various ways of working with VAT both manually and with automatic setup, to help you meet country/region specific regulations.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

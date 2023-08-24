@@ -1,7 +1,7 @@
 ---
     title: Set Up Delivery Reminder Terms, Levels, and Text [DE]
     description: To create delivery reminders, you must perform certain setup in the German version.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

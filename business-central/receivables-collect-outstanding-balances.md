@@ -1,7 +1,7 @@
 ---
 title: Collect Outstanding Balances
 description: Learn how to remind your customers of outstanding payments. Send a customer statement, issue a reminder, or send a finance charge memo.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

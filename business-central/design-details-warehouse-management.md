@@ -1,7 +1,7 @@
 ---
 title: Manage Warehouse Activities
 description: In addition to receipts and shipments, Business Central supports a series of internal warehouse activities.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central

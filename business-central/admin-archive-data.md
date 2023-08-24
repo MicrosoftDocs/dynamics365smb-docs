@@ -1,7 +1,7 @@
 ---
 title: The Data Archive Extension
 description: Archiving data creates a low-cost backup of your records.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bknudsen
 ms.topic: conceptual

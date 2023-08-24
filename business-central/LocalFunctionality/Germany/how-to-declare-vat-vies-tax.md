@@ -1,7 +1,7 @@
 ---
 title: How to Declare VAT-VIES Tax [DE]
 description: How to create the VAT-VIES declaration report to submit information about sales transactions with other European Union (EU) countries/regions.
-author: bholtorf  
+author: brentholtorf  
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

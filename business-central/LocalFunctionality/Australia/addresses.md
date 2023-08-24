@@ -2,7 +2,7 @@
     title: Addresses in Australia
     description: Use the Post Code feature to improve accuracy for cases in which a single postal code can include multiple cities in the same region.
     ms.custom: en-AU
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

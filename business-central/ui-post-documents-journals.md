@@ -1,7 +1,7 @@
 ---
 title: Posting Documents and Journals
 description: This topic outlines posting actions and the ways you can post documents and journals in the various company ledgers.
-author: bholtorf
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@
     description: Payment days and non-payment periods are used to calculate due dates. Due date calculation is used for sales and purchase documents.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

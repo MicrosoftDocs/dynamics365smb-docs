@@ -1,7 +1,7 @@
 ---
 title: Add Attachments, Links, and Notes on Records
 description: Attach a hyperlink to a document or a website to a specific record, such as a customer or document.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: how-to

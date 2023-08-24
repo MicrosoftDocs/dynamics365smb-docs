@@ -1,7 +1,7 @@
 ---
     title: Enterprise Numbers and Branch Numbers [BE]
     description: Companies receive a unique enterprise number and one or more branch numbers from the Belgian Crossroad Bank of Enterprises.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

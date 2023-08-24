@@ -1,7 +1,7 @@
 ---
 title: Record and Adjust Resource Usage and Prices
 description: Describes how you can record the resource usage or consumption associated with a job, to keep track and manage costs, prices, and work types.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

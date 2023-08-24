@@ -1,7 +1,7 @@
 ---
     title: Print Deposit Slip Reports [AU]
     description: The Deposit Slip report displays cash and check details in a format required by the bank in the Australian version.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

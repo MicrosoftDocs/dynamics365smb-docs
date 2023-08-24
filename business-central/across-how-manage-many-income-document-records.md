@@ -1,7 +1,7 @@
 ---
 title: Define Which Incoming Docs to See
 description: Adjust the default view of incoming documents, such as e-invoices, to improve your overview of processed and unprocessed records.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

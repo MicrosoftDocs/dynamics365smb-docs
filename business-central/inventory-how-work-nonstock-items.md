@@ -1,7 +1,7 @@
 ---
 title: Create and Manage Catalog Items
 description: Learn how to sell items that you don't keep in your list of items.
-author: bholtorf 
+author: brentholtorf 
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: how-to

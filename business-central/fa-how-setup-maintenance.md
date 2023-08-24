@@ -1,7 +1,7 @@
 ---
 title: Set Up FA Maintenance
 description: To manage fixed asset repairs and service, you specify general maintenance information, codes for the type of work, and a posting account for costs.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

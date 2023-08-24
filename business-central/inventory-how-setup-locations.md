@@ -1,7 +1,7 @@
 ---
 title: Set Up a Location Card and Define Transfer Routes (contains video)
 description: If you buy, store, or sell items in more than one place, you can set up each place as a location. 
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

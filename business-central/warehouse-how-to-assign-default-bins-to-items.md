@@ -1,7 +1,7 @@
 ---
 title: Assign Default Bins to Items
 description: If you are using bins at a location, assigning default bins to your items can make the process of shipping, receiving, and moving your items much easier.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

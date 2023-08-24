@@ -1,7 +1,7 @@
 ---
 title: About Planning Functionality
 description: Planning takes all demand and supply data into account, nets the results, and creates suggestions for balancing the supply to meet the demand.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

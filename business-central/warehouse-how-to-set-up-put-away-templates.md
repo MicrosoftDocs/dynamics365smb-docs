@@ -1,7 +1,7 @@
 ---
     title: Set Up Put-away Templates
     description: Use Put-away templates to have the most appropriate bins for your items suggested to you at any given time.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

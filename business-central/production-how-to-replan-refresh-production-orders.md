@@ -1,7 +1,7 @@
 ---
 title: Replan or Refresh Production Orders Directly
 description: This topic outlines the procedures for how to replan production orders and refresh production orders directly.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

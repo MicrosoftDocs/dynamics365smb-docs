@@ -1,7 +1,7 @@
 ---
 title: Create Business Contacts
 description: Outlines the tasks needed to create contacts and define your business relationships on the Contact Card.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

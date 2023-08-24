@@ -1,7 +1,7 @@
 ---
 title: Sign up for a free trial
 description: Learn how to quickly sign up for and start a free Dynamics 365 Business Central trial. Explore the app with tours and videos, and find more learning resources.
-author: bholtorf
+author: brentholtorf
 ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: bholtorf

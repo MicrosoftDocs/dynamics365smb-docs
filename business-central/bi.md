@@ -1,7 +1,7 @@
 ---
 title: Financial Business Intelligence
 description: Business Central contains many features to help you gather, analyze, and share valuable company data for business intelligence and decision-making.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

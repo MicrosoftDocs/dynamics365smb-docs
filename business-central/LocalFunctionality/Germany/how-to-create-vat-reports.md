@@ -1,7 +1,7 @@
 ---
     title: How to Create VAT Reports [DE]
     description: You can configure different types of VAT reports in electronic format that conform to the ELMA5 format requirements.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Manage Product Variants
 description: Learn how you can record products that are almost identical but vary in color, size, or material as item variants.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: item, variant, finished good, component, raw material, assembly item, item substitution

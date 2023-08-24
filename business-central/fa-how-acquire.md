@@ -1,7 +1,7 @@
 ---
 title: Acquire Fixed Assets
 description: You can set up a fixed asset, assign a depreciation book, and record the fixed asset’s acquisition cost.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Financial Management (contains video)
 description: Learn how Business Central supports your needs for financial management, accounting, auditing, and bookkeeping.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

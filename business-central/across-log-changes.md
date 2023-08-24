@@ -1,7 +1,7 @@
 ---
 title: Auditing changes
 description: You can activate a user log so that you have a history of any changes made to data in tracked tables. You can also track activities with certain types of activity logs.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: 
 ms.topic: conceptual

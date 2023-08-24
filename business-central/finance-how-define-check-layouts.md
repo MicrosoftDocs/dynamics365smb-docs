@@ -1,7 +1,7 @@
 ---
 title: Specify the Layout of a Check
 description: You can design and print your checks in different formats to conform with standards set by your local authorities.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
 title: Creating G/L Budgets
 description: Describes how to create G/L budgets to forecast different financial activities and assign dimensions for business intelligence purposes.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

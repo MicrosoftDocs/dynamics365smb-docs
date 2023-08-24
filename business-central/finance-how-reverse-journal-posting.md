@@ -1,7 +1,7 @@
 ---
 title: Undo a Posting by Posting a Reversing Entry
 description: If you find a mistake in a posted general journal, you can use the Reverse Transaction action to undo the posting with a correct audit trail.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: how-to

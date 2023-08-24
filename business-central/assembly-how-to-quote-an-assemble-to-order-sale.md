@@ -1,7 +1,7 @@
 ---
 title: Quote an Assemble-to-Order Sale
 description: You can use assembly management to customize an assembly item to a customer's request during the sales process.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

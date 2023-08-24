@@ -1,7 +1,7 @@
 ---
 title: Post Intercompany Documents and Journals
 description: This topic explains how you use intercompany documents or journals to post transactions with your intercompany partners.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: how-to

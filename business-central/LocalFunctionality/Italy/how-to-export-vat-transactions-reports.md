@@ -3,7 +3,7 @@
     description: The following topic explains how to export VAT Transactions Reports. After you create a report, you can release it, and then export it for the authorities.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

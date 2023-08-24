@@ -1,7 +1,7 @@
 ---
 title: Overview of Tasks to Manage Receivables
 description: This topic outlines tasks to manage receivables and apply payments to customer or vendor ledger entries.
-author: bholtorf
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na

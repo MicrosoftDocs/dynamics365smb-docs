@@ -3,7 +3,7 @@
     description: In Iceland, in accordance with legislation, you cannot delete posted sales and purchase invoices and credit memos.
     services: project-madeira 
     documentationcenter: ''
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

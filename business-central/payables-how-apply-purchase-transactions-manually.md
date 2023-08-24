@@ -1,7 +1,7 @@
 ---
 title: Reconcile vendor payment receipts or refunds in the payment journal
 description: To process, match, or reconcile vendor payments or refunds manually, you apply the amount to one or more open vendor ledger entries.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -1,7 +1,7 @@
 ---
     title: Design Details - Warehouse Setup
     description: Warehouse functionality contains different levels of complexity, which is largely defined by the bin setup on location cards.
-    author: bholtorf
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na

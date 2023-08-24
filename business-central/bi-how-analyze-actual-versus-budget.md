@@ -10,7 +10,6 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 120, 121, 422
 ms.date: 09/14/2022
 ms.author: bholtorf
-
 ---
 # Analyze Actual Amounts Versus Budgeted Amounts
 

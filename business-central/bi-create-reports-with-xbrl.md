@@ -9,7 +9,6 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 09/14/2022
 ms.author: bholtorf
-
 ---
 # Create Reports with XBRL
 

@@ -1,16 +1,14 @@
 ---
     title: VAT Reporting in the Austrian Version
     description: You can report VAT electronically to the tax authorities in the Austrian version.
-    author: SorenGP
-
-    
+    author: bholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # VAT Reporting in the Austrian Version

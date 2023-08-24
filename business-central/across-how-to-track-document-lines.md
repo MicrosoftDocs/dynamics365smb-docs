@@ -2,8 +2,6 @@
     title: Track Order Lines to Related Documents
     description: View documents related to sales and purchase order lines, like quotes, shipments, receipts, and blanket orders, to identify documents used to process orders.
     author: bholtorf
-
-    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -11,7 +9,6 @@
     ms.search.form: 6560, 42, 50, 507, 509
     ms.date: 06/11/2021
     ms.author: bholtorf
-
 ---
 # Track Document Lines
 You can view documents that are related to sales order lines and purchase order lines, including from archived order lines. Related documents that you can track include quotes, shipments, receipts, and blanket orders. This helps you to identify documents used to process orders.  

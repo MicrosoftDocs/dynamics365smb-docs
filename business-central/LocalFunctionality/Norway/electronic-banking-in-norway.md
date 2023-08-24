@@ -1,17 +1,14 @@
 ---
 title: Electronic Banking in Norway
 description: This topic explains the Business Central Norwegian enhancements for handling electronic banking with a number of operations in the Norwegian version of Business Central.
-author: SorenGP
-
-
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 06/18/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Electronic Banking in Norway
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includes Norwegian enhancements to electronic banking. You can use this functionality to perform the following operations:  

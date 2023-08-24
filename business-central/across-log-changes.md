@@ -1,7 +1,7 @@
 ---
 title: Auditing changes
 description: You can activate a user log so that you have a history of any changes made to data in tracked tables. You can also track activities with certain types of activity logs.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: 
 ms.topic: conceptual
@@ -9,7 +9,6 @@ ms.search.keywords: user log, user activity, tracking
 ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
 ms.date: 08/03/2023
 ms.custom: bap-template
-
 ---
 # Auditing Changes in Business Central
 

@@ -7,7 +7,6 @@ ms.search.keywords: accountant, accounting, company hub
 ms.search.form: 1151, 1155, 1166, 1165
 ms.date: 04/01/2021
 ms.author: bholtorf
-
 ---
 # Add Companies to Your Company Hub
 

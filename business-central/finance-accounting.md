@@ -10,7 +10,6 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
 ms.date: 04/01/2021
 ms.author: bholtorf
-
 ---
 # Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]
 

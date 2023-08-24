@@ -1,7 +1,7 @@
 ---
 title: Move Items in Warehouses That Use Directed Put-away and Pick
 description: This article explains how to move items in locations that use directed put-away and pick.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual

@@ -7,7 +7,6 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 09/13/2022
 ms.author: bholtorf
-
 ---
 # Approval Workflow Notifications
 

@@ -1,7 +1,7 @@
 ---
     title: View Posted Tax Invoices [NZ]
     description: Describes how to view the details of posted sales tax invoices and posted purchase tax invoices in the New Zealand version.
-    author: brentholtorf
+    bholtorfholtorf
 
     
     ms.topic: conceptual

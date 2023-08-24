@@ -1,7 +1,7 @@
 ---
 title: New and planned in the default version
 description: Learn where to find the latest news and updates for new and existing features in the default version of Business Central.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: conceptual

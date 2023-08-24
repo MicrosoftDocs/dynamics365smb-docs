@@ -1,7 +1,7 @@
 ---
 title: Design Details Central Concepts of the Planning System
 description: Planning suggests actions for the user to take based on the demand/supply situation and the items' planning parameters.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics365-business-central

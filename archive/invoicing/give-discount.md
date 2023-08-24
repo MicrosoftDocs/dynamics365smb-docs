@@ -2,7 +2,6 @@
 title: Grant a discount | Invoicing
 description: Give your customer a discount on the invoice. You can give a discount on the whole document or on individual lines.
 author: bholtorf
-
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
@@ -10,7 +9,6 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
 ms.author: bholtorf
-
 ---
 # Give a discount using in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 > [!Note]

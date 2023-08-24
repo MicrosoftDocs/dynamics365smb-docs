@@ -1,7 +1,7 @@
 ---
 title: Undo Assembly Posting
 description: Learn how correct mistakes in a posted assembly order.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: how-to

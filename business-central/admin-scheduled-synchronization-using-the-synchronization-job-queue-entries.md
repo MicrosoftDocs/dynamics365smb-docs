@@ -1,7 +1,7 @@
 ---
 title: Synchronizing Business Central and Dataverse
 description: Learn about synchronizing data between Business Central and Dataverse.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: conceptual

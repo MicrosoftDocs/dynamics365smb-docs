@@ -1,9 +1,7 @@
 ---
 title: Set up company consolidation
 description: Learn how you can configure how data from different companies in Business Central is reported into a consolidation company.
-author: brentholtorf
-
-
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,7 +10,6 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.search.form: 1826, 1827
 ms.date: 04/01/2021
 ms.author: bholtorf
-
 ---
 
 # Set Up Company Consolidation

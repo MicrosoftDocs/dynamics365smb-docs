@@ -1,8 +1,7 @@
 ---
 title: Use a Power Automate Flow for Alerts to Entity Changes
 description: Learn how to create a flow in Power Automate that will alert you when an entity is changed in Dataverse environment. 
-author: brentholtorf
-
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

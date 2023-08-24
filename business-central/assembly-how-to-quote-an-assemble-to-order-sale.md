@@ -2,7 +2,6 @@
 title: Quote an Assemble-to-Order Sale
 description: You can use assembly management to customize an assembly item to a customer's request during the sales process.
 author: bholtorf
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +10,6 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 04/01/2021
 ms.author: bholtorf
-
 ---
 # Quote an Assemble-to-Order Sale
 

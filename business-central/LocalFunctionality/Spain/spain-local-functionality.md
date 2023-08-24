@@ -1,14 +1,14 @@
 ---
     title: Spain Local Functionality [ES]
     description: The following topics describe the different local functionality in the Spanish version of Business Central.
-    author: SorenGP
+    author: bholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 08/26/2022
-    ms.author: edupont
+    ms.author: bholtorf
 ---
 # Spain Local Functionality in the Spanish Version
 

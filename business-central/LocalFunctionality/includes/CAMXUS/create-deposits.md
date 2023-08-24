@@ -1,10 +1,8 @@
 ---
-author: edupont04
-
-
+author: bholtorf
 ms.topic: include
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 > [!NOTE]
 > New capabilities for creating bank deposits are available in Business Central 2022 release wave 1 for a lot of country/region versions. If you were using Business Central in the United States, Canada, or Mexico before that release, you might be using the earlier capabilities. You can continue, but the new capabilities will replace the old ones in a future release. To start using the new features right away, your administrator can go to the **Feature Management** page and turn on **Feature Update: Standardized bank reconciliation and deposits**. For more information, see [Create Bank Deposits](../../../bank-create-bank-deposits.md).

@@ -1,7 +1,7 @@
 ---
 title: Using Microsoft Dataverse
 description: Introduction to how to integrate and use Microsoft Dataverse and its components to connect to other Dynamics 365 applications.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: conceptual

@@ -1,10 +1,8 @@
 ---
-author: edupont04
-
-
+author: bholtorf
 ms.topic: include
 ms.date: 05/27/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 If the customer is not registered, follow these steps:

@@ -1,10 +1,7 @@
 ---
     title: Print and Reprint G-L Books VAT Registers [IT]
     description: Tax authorities require that you submit two fiscal reports that list all posted ledger entries, the G/L Book - Print report and the VAT Register - Print report.
-
-    author: SorenGP
-
-    
+    author: bholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -12,8 +9,7 @@
     ms.search.keywords:
     ms.search.form: 12141, 12143, 12149, 12150
     ms.date: 06/24/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Print and Reprint GL Books and VAT Registers in the Italian Version
 The tax authorities require that you submit two fiscal reports that list all of the posted ledger entries, the **G/L Book - Print** report and the **VAT Register - Print** report. Each printed page must have its own progressive number, and therefore, you must update [!INCLUDE[prod_short](../../includes/prod_short.md)] with the last printed page number before you run these reports again.  

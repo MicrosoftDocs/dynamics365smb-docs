@@ -1,7 +1,7 @@
 ---
 title: Receive Items
 description: This article is an overview of the different ways to receive items at a warehouse with a warehouse receipt.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.topic: how-to
 ms.date: 09/02/2022
@@ -9,7 +9,6 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008
-
 ---
 # Receive Items with Warehouse Receipts
 

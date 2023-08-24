@@ -10,7 +10,6 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
 ms.date: 06/15/2021
 ms.author: bholtorf
-
 ---
 # Managing Fixed Assets
 

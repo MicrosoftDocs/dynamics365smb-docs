@@ -1,7 +1,7 @@
 ---
 title: Picking and Shipping in Basic Warehouse Configurations
 description: This article describes various levels of complexity in picking and shipping processes.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual

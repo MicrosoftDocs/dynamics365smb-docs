@@ -2,7 +2,6 @@
 title: Get SmartList Designer
 description: Install the SmartList Designer so that you can create queries across your Business Central data.
 author: bholtorf
-
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: SmartList

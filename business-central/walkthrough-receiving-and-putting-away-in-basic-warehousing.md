@@ -1,7 +1,7 @@
 ---
 title: Walkthrough - Receive and put away in basic warehouse configurations
 description: Learn about the different ways to handle inbound processes for receiving and putting away.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual

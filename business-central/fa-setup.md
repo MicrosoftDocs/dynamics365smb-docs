@@ -10,7 +10,6 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: bholtorf
-
 ---
 # Setting Up Fixed Assets
 

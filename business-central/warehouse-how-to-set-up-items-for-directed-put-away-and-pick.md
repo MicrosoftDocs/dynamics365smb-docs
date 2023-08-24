@@ -1,7 +1,7 @@
 ---
 title: Set Up Directed Put-away and Pick
 description: Directed put-away and pick gives you functionality for running your warehouse efficiently.
-author: brentholtorf
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,7 +10,6 @@ ms.search.keywords:
 ms.search.form:
 ms.date: 11/07/2022
 ms.author: bholtorf
-
 ---
 # Set Up Items and Locations for Directed Put-away and Pick
 

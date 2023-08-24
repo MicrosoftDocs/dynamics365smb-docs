@@ -1,7 +1,7 @@
 ---
 title: Set Up Approval Users
 description: Before you can create workflows that involve approval steps, you must set up the workflow users involved in the approval processes.
-author: brentholtorf
+author: bholtorf
 ms.topic: how-to
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,6 @@ ms.workload: na
 ms.search.form: 663,
 ms.date: 05/31/2023
 ms.author: bholtorf
-
 ---
 # Set Up Approval Users
 

@@ -1,13 +1,12 @@
 ---
 title: Create Approval Workflows to Connect Tasks
 description: Learn how to create workflows that connect tasks performed by different people in business processes.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/24/2023
 ms.custom: bap-template
-
 ---
 # Create Workflows to Connect Tasks in Business Processes
 

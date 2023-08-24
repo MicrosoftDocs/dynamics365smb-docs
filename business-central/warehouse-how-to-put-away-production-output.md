@@ -1,7 +1,7 @@
 ---
 title: Put Away Production Output
 description: This article describes how to put away your production output.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central

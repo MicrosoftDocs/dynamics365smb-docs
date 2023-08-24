@@ -1,10 +1,8 @@
 ---
-author: edupont04
-
-
+author: bholtorf
 ms.topic: include
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 The following troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues:  

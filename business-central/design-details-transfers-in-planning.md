@@ -1,7 +1,7 @@
 ---
 title: Design Details - Transfers in Planning
 description: Learn how to use transfer orders as a source of supply when planning inventory levels.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual

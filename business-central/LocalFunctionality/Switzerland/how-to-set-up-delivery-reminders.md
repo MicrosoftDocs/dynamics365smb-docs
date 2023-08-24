@@ -1,9 +1,7 @@
 ---
     title: Set Up Delivery Reminders (CH)
     description: In the Swiss version of Business Central, you can use purchase delivery reminders to remind vendors about overdue deliveries.
-    author: SorenGP
-
-    
+    author: bholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@
     ms.search.keywords:
     ms.search.form: 5005270, 5005272
     ms.date: 04/01/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Set Up Delivery Reminders in the Swiss Version
 

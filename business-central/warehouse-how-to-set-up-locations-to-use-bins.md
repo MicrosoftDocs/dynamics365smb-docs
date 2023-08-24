@@ -1,7 +1,7 @@
 ---
 title: How to Set Up Locations to Use Bins
 description: Bins represent the basic warehouse structure and are used to make suggestions about the placement of items. 
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: how-to

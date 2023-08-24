@@ -1,7 +1,7 @@
 ---
 title: Manage Master Data Synchronization
 description: Learn how manage master data synchronization.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.service: dynamics365-business-central

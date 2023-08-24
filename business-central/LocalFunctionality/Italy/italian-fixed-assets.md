@@ -1,20 +1,16 @@
 ---
     title: Italian Fixed Assets
     description: Fixed assets are properties owned by a company and used in the production of its income. This topic covers features in the fixed assets functionality.
-
     services: project-madeira 
     documentationcenter: ''
-    author: SorenGP
-
-    
+    author: bholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Italian Fixed Assets
 Fixed assets are properties owned by a company and used in the production of its income. Assets can be either tangible or intangible, and can be either durable or non-durable. Cars, machines, and furniture are examples of tangible assets. Startup costs and licenses are examples of intangible assets.  

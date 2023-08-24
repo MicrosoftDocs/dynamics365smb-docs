@@ -1,8 +1,7 @@
 ---
 title: Set Up a VAT Statement
 description: This topic tells you how to set Up a VAT Statement Template and VAT Statement Names to meet changing tax authority requirements.
-author: brentholtorf
-
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +10,6 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-
 ---
 # Set Up VAT Statement Templates and VAT Statement Names
 

@@ -1,7 +1,7 @@
 ---
 title: Define Granular Permissions
 description: This article describes how to define granular permissions and assign each user the permission sets that they need to do their jobs.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual

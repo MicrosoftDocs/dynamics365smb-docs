@@ -1,7 +1,7 @@
 ---
     title: Print Deposit Slip Reports [NZ]
     description: Describes how to print a report that displays cash and check details in a format required by the bank in the New Zealand version.
-    author: brentholtorf
+    bholtorfholtorf
 
     
     ms.topic: conceptual

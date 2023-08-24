@@ -1,7 +1,7 @@
 ---
 title: Apply and Unapply General Ledger Entries [BE]
 description: Applying temporary general ledger entries in Belgium allows companies to work with temporary and transfer accounts in the general ledger.
-author: brentholtorf
+bholtorfholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

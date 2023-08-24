@@ -1,7 +1,7 @@
 ---
 title: Design Details - Inbound Warehouse Flow
 description: The inbound warehouse flow begins when items arrive at the company warehouse and are registered and matched to inbound source documents.
-author: brentholtorf
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,6 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 11/14/2022
 ms.author: bholtorf
-
 ---
 # Design Details: Inbound Warehouse Flow
 

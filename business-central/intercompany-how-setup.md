@@ -1,7 +1,7 @@
 ---
 title: Set Up Intercompany Transaction Posting
 description: Learn how to set up an intercompany partnership. 
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse 
 ms.topic: how-to

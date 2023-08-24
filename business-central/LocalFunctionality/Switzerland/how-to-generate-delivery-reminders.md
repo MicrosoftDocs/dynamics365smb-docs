@@ -1,18 +1,14 @@
 ---
     title: How to Generate Delivery Reminders [CH]
     description: In Business Central, you can generate delivery reminders for all overdue deliveries, or you can create a single delivery reminder manually.
-
-    author: SorenGP
-
-    
+    author: bholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/21/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Generate Delivery Reminders in the Swiss Version
 

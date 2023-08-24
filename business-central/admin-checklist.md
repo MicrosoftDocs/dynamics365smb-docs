@@ -2,8 +2,6 @@
 title: Onboard Users with Checklists
 description: Learn how to set up checklists that help users get started in Business Central.
 author: bholtorf
-
-
 ms.topic: conceptual
 ms.search.keywords: setup, wizard, checklist
 ms.search.form: 1992, 1993, 1994, 1995, 1990, 1997, 1801

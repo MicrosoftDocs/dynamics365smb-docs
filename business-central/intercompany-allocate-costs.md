@@ -1,9 +1,7 @@
 ---
 title: Allocate Costs to Intercompany Partners| Microsoft Docs
 description: Learn how VAT settings for customers and vendors control whether, and how, VAT is calculated.
-author: brentholtorf
-
-
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,6 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-
 ---
 # Allocate Costs to Intercompany Partners
 When you use intercompany postings to transfer documents between partner companies, the VAT-related settings (primarily the VAT business posting group) assigned to the customer or vendor accounts (associated with the intercompany Partner) control whether, and how, VAT is calculated and registered. 

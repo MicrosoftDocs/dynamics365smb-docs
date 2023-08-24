@@ -1,8 +1,7 @@
 ---
 title: Set Up Withholding Tax [NZ]
 description: Describes how to set things up for Withholding tax (WHT) in the New Zealand version.
-author: brentholtorf
-
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,8 +9,7 @@ ms.workload: na
 ms.search.keywords:
  ms.search.form: 28041, 28042, 28043, 118
 ms.date: 06/25/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Set Up Withholding Tax in the New Zealand Version
 

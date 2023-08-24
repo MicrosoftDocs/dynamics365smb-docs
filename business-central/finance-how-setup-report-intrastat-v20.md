@@ -1,7 +1,7 @@
 ---
 title: Set Up and Report Intrastat
 description: Learn how to set up Intrastat reporting features, and how to report trade with companies in other EU countries/regions.
-author: brentholtorf
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,7 +10,6 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 05/23/2022
 ms.author: bholtorf
-
 ---
 # Set Up and Report Intrastat
 

@@ -1,9 +1,7 @@
 ---
 title: Company and Business Unit Mapping | Microsoft Docs
 description: Companies are both a legal and business constructs, and they are used to secure and visualize business data.
-author: brentholtorf
-
-
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,6 @@ ms.workload: na
 ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
 ms.author: bholtorf
-
 ---
 
 # Data Ownership Models

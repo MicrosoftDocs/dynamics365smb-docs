@@ -2,7 +2,7 @@
     title: Iceland Local Functionality
     description: This topic provides links to descriptions of features that are specific to the Icelandic version of Dynamics 365 Business Central.
 
-    author: brentholtorf
+    bholtorfholtorf
 
     
     ms.topic: conceptual

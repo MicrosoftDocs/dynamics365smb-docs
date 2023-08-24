@@ -1,7 +1,7 @@
 ---
 title: How to Set Up Workflow Users
 description: Before you can create workflows, you must set up the users who take part in them on the Approval User Setup page.
-author: brentholtorf
+author: bholtorf
 ms.topic: how-to
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,7 +10,6 @@ ms.search.keywords: reject, delegate, request
 ms.search.form: 1533,
 ms.date: 05/31/2023
 ms.author: bholtorf
-
 ---
 # Set Up a Sequence of Workflow Users
 

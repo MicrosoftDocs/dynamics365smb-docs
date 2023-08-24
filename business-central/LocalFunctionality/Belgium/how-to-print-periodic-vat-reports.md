@@ -4,9 +4,7 @@
 
     services: project-madeira 
     documentationcenter: ''
-    author: SorenGP
-
-    
+    author: bholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -14,7 +12,7 @@
     ms.search.keywords:
     ms.search.form: 11306,11307,11308
     ms.date: 06/17/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Print Periodic VAT Reports in the Belgian Version

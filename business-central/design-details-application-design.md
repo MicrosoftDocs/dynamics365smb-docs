@@ -9,7 +9,6 @@
     ms.search.keywords:
     ms.date: 11/26/2021
     ms.author: bholtorf
-
 ---
 # Application Design Details
 

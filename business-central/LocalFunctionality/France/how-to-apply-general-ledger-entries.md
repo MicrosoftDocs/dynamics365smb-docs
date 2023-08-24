@@ -1,7 +1,7 @@
 ---
 title: Apply General Ledger Entries [FR]
 description: You apply general ledger entries to justify ledger balances on asset and liability accounts.
-author: brentholtorf
+bholtorfholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

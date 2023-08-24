@@ -1,7 +1,7 @@
 ---
 title: Move Items Unplanned in Basic Warehouse Configurations
 description: This article explains unplanned internal movements between bins without a demand from a source document. 
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central

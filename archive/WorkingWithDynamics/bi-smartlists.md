@@ -2,7 +2,6 @@
 title: Create Custom Queries using SmartLists
 description: Learn about the capabilities of SmartList Designer and SmartList queries in Business Central.
 author: bholtorf
-
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: SmartList

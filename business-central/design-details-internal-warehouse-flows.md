@@ -1,7 +1,7 @@
 ---
 title: Design Details - Flows for Production, Assembly, and Jobs
 description: Learn about the flow between bins for picking components and putting away end items for assembly, production, or job orders.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central

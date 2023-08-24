@@ -1,14 +1,12 @@
 ---
 title: Send Fraud Prevention Data (UK)
 description: Business Central supports the British requirement to submit fraud prevention data to HMRC as part of Making Tax Digital. This article describes how to set up the required headers.
-author: edupont04
-
+author: bholtorf
 ms.topic: conceptual
 ms.search.keywords: fraud prevention, making tax digital, making tax digital software, hmrc, tax
 ms.search.form: 10539, 743
 ms.date: 04/11/2022
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Send Fraud Prevention Data in the United Kingdom
 

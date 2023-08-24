@@ -1,10 +1,8 @@
 ---
-author: jill-kotel-andersson
-
-
+author: bholtorf
 ms.topic: include
 ms.date: 05/27/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 ## Setting Up the Location
 

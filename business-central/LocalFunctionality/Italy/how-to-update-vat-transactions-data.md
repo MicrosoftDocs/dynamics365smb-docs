@@ -1,14 +1,11 @@
 ---
 title: Update VAT Transactions Data
 description: Before you create the first VAT transaction report, you should prepare the existing data in the Italian version of Business Central.
-author: SorenGP
-
-
+author: bholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Update VAT Transactions Data
 Before you create the first VAT transaction report, you should prepare the existing data by running the **Update VAT Transaction Data** report. You should also run this report if you have made changes to the setup based on new requirements from the tax authorities.  

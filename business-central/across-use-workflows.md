@@ -10,7 +10,6 @@ ms.search.keywords:
 ms.search.form: 1500, 1501, 1503, 1504, 1505
 ms.date: 09/13/2022
 ms.author: bholtorf
-
 ---
 # Use Approval Workflows
 

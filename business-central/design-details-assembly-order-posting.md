@@ -9,7 +9,6 @@
     ms.search.keywords:
     ms.date: 06/15/2021
     ms.author: bholtorf
-
 ---
 # Design Details: Assembly Order Posting
 Assembly order posting is based on the same principles as when posting the similar activities of sales orders and production consumption/output. However, the principles are combined in that assembly orders have their own posting UI, like that for sales orders, while the actual entry posting happens in the background as direct item and resource journal postings, like that for production consumption, output, and capacity.  

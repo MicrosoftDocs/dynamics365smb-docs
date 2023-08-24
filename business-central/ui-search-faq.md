@@ -1,9 +1,7 @@
 ---
 title: Frequently Asked Questions about Tell Me
 description: This article provides answers to questions that our partners and customers often ask about the Tell Me feature.
-author: brentholtorf
-
-
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,7 +10,6 @@ ms.search.keywords: find
 ms.search.form: TellMe
 ms.date: 05/23/2022
 ms.author: bholtorf
-
 ---
 # Tell Me FAQ
 This article answers questions that our advanced users often ask about the Tell Me feature.

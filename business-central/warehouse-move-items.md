@@ -1,8 +1,7 @@
 ---
-
 title: Move Items
 description: Learn about moving items between bins in your warehouse.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics365-business-central

@@ -1,20 +1,16 @@
 ---
     title: How to Enter CCC Codes [ES]
     description: Learn about how to enter the Código Cuenta Cliente (CCC) unique bank account identification code using the Spanish version of Business Central.
-
     services: project-madeira 
     documentationcenter: ''
-    author: SorenGP
-
-    
+    author: bholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/21/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Enter CCC Codes in the Spanish Version
 Código Cuenta Cliente (CCC) is a unique bank account identification code. The following component fields make up the 20-digit (Spain) or 21-digit (Portugal) bank CCC code structure.  

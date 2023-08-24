@@ -1,7 +1,7 @@
 ---
 title: Using General Functionality Across Business Areas
 description: Learn about the functionality and features that are used across business areas in Business Central.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
 ms.service: dynamics365-business-central

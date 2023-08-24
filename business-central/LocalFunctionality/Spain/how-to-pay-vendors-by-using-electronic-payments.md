@@ -1,18 +1,14 @@
 ---
     title: Pay Vendors Using Electronic Payments [ES]
     description: In Business Central, you can pay a vendor using electronic payments. Payments will be exported to a file, which will then be transmitted to your bank. 
-
-    author: SorenGP
-
-    
+    author: bholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/25/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Pay Vendors Using Electronic Payments in the Spanish Version
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can pay a vendor using electronic payments. Payments will be exported to a file, which will then be transmitted to your bank. The bank then electronically transfers the payments from your bank account to the payee’s (vendor) bank account.  

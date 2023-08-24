@@ -10,7 +10,6 @@ ms.search.keywords:
 ms.search.form: 1500, 
 ms.date: 09/08/2022
 ms.author: bholtorf
-
 ---
 # Delete Approval Workflows
 

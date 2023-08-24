@@ -1,7 +1,7 @@
 ---
 title: Specify When and How to Receive Workflow Notifications
 description: When you set users up in approval workflows, you can specify how and when each approval user receives notifications.
-author: brentholtorf
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

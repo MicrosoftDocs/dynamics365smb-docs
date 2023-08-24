@@ -2,7 +2,6 @@
 title: Manage Bank Accounts
 description: You must regularly reconcile bank ledger entries with the related bank transactions in your bank accounts.
 author: bholtorf
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

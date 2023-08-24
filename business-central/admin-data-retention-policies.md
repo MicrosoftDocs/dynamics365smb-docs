@@ -1,9 +1,7 @@
 ---
 title: Clean Up Data with Retention Policies
 description: You can specify how often you want to delete certain types of data.
-author: brentholtorf
-
-
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,7 +10,6 @@ ms.search.keywords: delete, data, retention, policy, policies
 ms.search.form: 3903, 3901
 ms.date: 04/01/2021
 ms.author: bholtorf
-
 ---
 # Define Retention Policies
 Administrators can define retention policies to specify how frequently they want [!INCLUDE[prod_short](includes/prod_short.md)] to delete outdated data in tables that contain log entries and archived records. For example, cleaning up log entries can make it easier to work with the data that's actually relevant. Policies can include all data in the tables that is past the expiration date, or you can add filter criteria that will include only certain expired data in the policy. 

@@ -2,7 +2,7 @@
     
 title: How to Split Warehouse Activity Lines
 description: Learn how to split warehouse activity lines if the available capacity in a suggested bin is not sufficient.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics365-business-central
@@ -10,7 +10,6 @@ ms.topic: how-to
 ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: 931, 9314, 9313, 9315, 9330
-
 ---
 # Split Warehouse Activity Lines
 

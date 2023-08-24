@@ -1,7 +1,7 @@
 ---
 title: How to Pick Items with Inventory Picks
 description: Learn how to use inventory picks to record and post picking and shipping info for source documents.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics365-business-central
@@ -9,7 +9,6 @@ ms.topic: how-to
 ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: 931, 7377
-
 ---
 # Pick Items with Inventory Picks
 

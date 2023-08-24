@@ -2,8 +2,6 @@
     title: How to Set Up Electronic Document Sending and Receiving | Microsoft Docs
     description: As an alternative to emailing as file attachments, you can send and receive business documents electronically.
     author: bholtorf
-
-    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -11,7 +9,6 @@
     ms.search.keywords:
     ms.date: 04/01/2021
     ms.author: bholtorf
-
 ---
 # Set Up Electronic Document Sending and Receiving
 

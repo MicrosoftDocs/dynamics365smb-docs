@@ -1,7 +1,7 @@
 ---
 title: Pick or Move Items for Production, Assembly, or Jobs in Basic Warehouse Configurations
 description: When your warehouse location requires that you process picks but not shipments, use the Inventory Pick page to record that components were picked.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central

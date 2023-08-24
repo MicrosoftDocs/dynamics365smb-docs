@@ -9,7 +9,6 @@ ms.workload: na
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
 ms.date: 08/23/2022
 ms.author: bholtorf
-
 ---
 # About Cost Accounting
 

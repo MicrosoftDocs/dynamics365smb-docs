@@ -1,7 +1,7 @@
 ---
 title: Count, Adjust, and Reclassify Inventory
 description: Learn how to do physical counting and make adjustments and reclassifications.
-author: brentholtorf
+author: bholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central

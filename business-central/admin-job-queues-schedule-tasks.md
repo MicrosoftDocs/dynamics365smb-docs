@@ -33,7 +33,7 @@ After job queues are set up and running, the status can change as follows within
 * **On Hold Due to Inactivity**
 
 > [!NOTE]
-> The **On Hold Due to Inactivity** status is used primarily for job queue entries that schedule synchronization between [!INCLUDE [prod_short](includes/prod_short.md)] and another application, such as [!INCLUDE [cds_short_md](includes/cds_short_md.md)]. To learn more about this status, go to [About inactivity timeouts](/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries#about-inactivity-timeouts).
+> The **On Hold Due to Inactivity** status is used primarily for job queue entries that schedule synchronization between [!INCLUDE [prod_short](includes/prod_short.md)] and another application, such as [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. To learn more about this status, go to [About inactivity timeouts](/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries#about-inactivity-timeouts).
 
 After a job finishes successfully it's removed from the list of job queue entries, unless it's a recurring job. For recurring jobs, the **Earliest Start Time** field is adjusted to show the next time that the job will run.  
 

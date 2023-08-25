@@ -35,9 +35,9 @@ The numbering in the "EcritureNum" tag must increase over time and not contain a
 
 To fufill this requirment, run the report with an additional option. To do this, follow next steps:  
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Export G/L Entries - Tax Audit**.
-2. Select the **Use Transaction No.** field. When you select this field, transaction number will be used as the progressive number in audit file. If you do not select this field, the general ledger register number will be used as the progressive number.
-3. Click **OK** ro create report.  
+1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon and enter **Export G/L Entries - Tax Audit**.
+2. Select the **Use Transaction No.** field. When you select this field, the transaction number is used as the progressive number in audit file. If you don't select this field, the general ledger register number is used as the progressive number.
+3. Select **OK** to create the report.  
 
 ## See also
 

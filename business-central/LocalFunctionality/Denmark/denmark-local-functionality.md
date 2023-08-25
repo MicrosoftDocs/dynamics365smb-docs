@@ -56,8 +56,8 @@ The following topics describe the local functionality in the Danish version of [
 
 Currently, there are no additional upcoming regulatory features or requirements, outside of the new Danish bookkeeping act already mentioned in **Feature Availability**. If you are aware of any additional upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-    > [!NOTE]  
-    > A new Danish bookkeeping act enforcing the use of digital bookkeeping systems went into place in July 2022. However, although the law is approved, the details on how it will be implemented by businesses and ERP systems is being released by the Danish Business Authority in phases. Microsoft will follow guidelines to ensure our **Microsoft Dynamics 365 Business Central** and **Microsoft Dynamics 365 Finance** solutions are certified within the parameters as deadlines are set. All updates to Dynamics 365 will be made available through our standard product release cycles. More information will be made available in this article.
+> [!NOTE]  
+> A new Danish bookkeeping act enforcing the use of digital bookkeeping systems went into place in July 2022. However, although the law is approved, the details on how it will be implemented by businesses and ERP systems is being released by the Danish Business Authority in phases. Microsoft will follow guidelines to ensure our **Microsoft Dynamics 365 Business Central** and **Microsoft Dynamics 365 Finance** solutions are certified within the parameters as deadlines are set. All updates to Dynamics 365 will be made available through our standard product release cycles. More information will be made available in this article.
 
 ## See Also
 

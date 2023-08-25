@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: Denmark, local, DK, Danish
-    ms.date: 08/23/2023
+    ms.date: 08/25/2023
     ms.author: soalex
 
 ---
@@ -26,14 +26,14 @@ The following topics describe the local functionality in the Danish version of [
 
 * Auditing
     *  [Export the SAF-T audit file format](how-to-use-saft-audit-files-export.md) **Available in September 2023**
-    *  [Standard Chart of Account](how-to-set-up-standard-coa.md) **Available inSeptember 2023**
+    *  [Standard Chart of Account](how-to-set-up-standard-coa.md) **Available in September 2023**
     *  [Upload of CSV file with accounting data to Regnskab Basis](how-to-use-regnskabbasis-export.md) **Available in September 2023**
 
 * VAT
     * [Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md) **Available Now**
     * [VAT-VIES Reporting](vat-vies-reporting.md) **Available Now**
-    * [VAT Registration Number Setup for Intrastat](vat-registration-no-intrastat.md) **Available now** 
-    * E-submission of VAT return - planned for **2023 release wave 2** 
+    * [VAT Registration Number Setup for Intrastat](vat-registration-no-intrastat.md) **Available Now** 
+    * E-submission of VAT return - **Planned for 2023 release wave 2** 
 
 * Banking & Payments
     * [The Payments and Reconciliations (DK) Extension](../../ui-extensions-payments-reconciliation-formats-dk.md) **Available Now**
@@ -54,10 +54,10 @@ The following topics describe the local functionality in the Danish version of [
 
 ## Future legislation requirements being investigated
 
-Currently, there are no additional upcoming regulatory features or requirements (otside these from new Danish bookkeeping act already mentioned in **Feature Availability**). If you are aware of any additional upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+Currently, there are no additional upcoming regulatory features or requirements, outside of the new Danish bookkeeping act already mentioned in **Feature Availability**. If you are aware of any additional upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-    > [!Note]  
-    > A new Danish bookkeeping act enforcing the use of digital bookkeeping systems went into place in July 2022. However, although the law is approved, the details on how it will be implemented by businesses and ERP systems is being released by the Danish Business Authority in phases. Microsoft will be following guidelines to ensure our **Microsoft Dynamics 365 Business Central** and **Microsoft Dynamics 365 Finance** solutions are certified within the parameters as deadlines are set. All updates to Dynamics 365 will be made available through our standard product release cycles. More information will be made available in this article.
+    > [!NOTE]  
+    > A new Danish bookkeeping act enforcing the use of digital bookkeeping systems went into place in July 2022. However, although the law is approved, the details on how it will be implemented by businesses and ERP systems is being released by the Danish Business Authority in phases. Microsoft will follow guidelines to ensure our **Microsoft Dynamics 365 Business Central** and **Microsoft Dynamics 365 Finance** solutions are certified within the parameters as deadlines are set. All updates to Dynamics 365 will be made available through our standard product release cycles. More information will be made available in this article.
 
 ## See Also
 

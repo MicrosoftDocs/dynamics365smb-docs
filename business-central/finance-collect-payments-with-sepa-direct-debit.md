@@ -47,7 +47,7 @@ Before you can process customer payments electronically by exporting direct debi
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2. Open the bank account that you want to use for direct debit.  
-3. On the **Transfer** FastTab, in the **SEPA Direct Debit Export Format** field, choose the option for SEPA direct debit.  
+3. On the **General** FastTab, in the **SEPA Direct Debit Export Format** field, choose the option for SEPA direct debit.  
 
 ### To set up the customer's payment method for SEPA direct debit
 

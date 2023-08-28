@@ -9,8 +9,7 @@ ms.workload: na
 ms.search.keywords: bills of material, assembly BOM, production BOM,
 ms.search.form: 
 ms.date: 09/26/2022
-ms.author: a-reishima
-
+ms.author: bholtorf
 ---
 # Work with Bills of Material
 

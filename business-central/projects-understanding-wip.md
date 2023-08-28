@@ -10,7 +10,6 @@ ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: bholtorf
-
 ---
 # Understanding WIP Methods in Project Management
 

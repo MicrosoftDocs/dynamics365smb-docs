@@ -1,8 +1,8 @@
 ---
 title: Install and Uninstall Apps
 description: Learn how you can install and uninstall apps and extensions in Business Central.
-author: SusanneWindfeldPedersen
-ms.author: solsen
+author: brentholtorf
+ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 04/24/2023

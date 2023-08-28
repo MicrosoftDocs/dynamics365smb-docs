@@ -10,7 +10,6 @@ ms.search.keywords: category, search, attribute, facet
 ms.search.form: 5730, 5733, 5401
 ms.date: 04/01/2021
 ms.author: bholtorf
-
 ---
 # Categorize Items
 

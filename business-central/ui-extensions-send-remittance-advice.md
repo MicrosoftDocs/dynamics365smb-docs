@@ -9,7 +9,6 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
 ms.date: 07/06/2021
 ms.author: bholtorf
-
 ---
 # Send Remittance Advice
 

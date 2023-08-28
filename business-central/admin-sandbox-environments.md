@@ -1,9 +1,7 @@
 ---
 title: Sandbox environments
 description: Learn about how a dedicated environment can help you safely explore, learn, demo, develop, troubleshoot, and test Business Central.
-author: SusanneWindfeldPedersen
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.devlang: na
@@ -11,8 +9,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
-ms.author: solsen
-
+ms.author: bholtorf
 ---
 # Sandbox Environments in [!INCLUDE[prod_short](includes/prod_short.md)]
 

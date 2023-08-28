@@ -4,8 +4,8 @@ description: Walkthrough to learn how to update demand forecast for each variant
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-author: brentholtorf04
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
 # Walkthrough: Variants

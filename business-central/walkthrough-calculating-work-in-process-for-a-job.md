@@ -9,7 +9,6 @@
     ms.search.keywords:
     ms.date: 04/01/2021
     ms.author: bholtorf
-
 ---
 # Walkthrough: Calculating Work in Process for a Job
 

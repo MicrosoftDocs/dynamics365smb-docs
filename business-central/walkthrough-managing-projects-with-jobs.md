@@ -9,7 +9,6 @@
     ms.search.keywords:
     ms.date: 06/24/2021
     ms.author: bholtorf
-
 ---
 # Walkthrough: Managing Projects with Jobs
 

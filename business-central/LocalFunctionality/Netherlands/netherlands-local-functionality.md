@@ -1,7 +1,6 @@
 ---
     title: Netherlands Local Functionality [NL]
     description: The following topics describe the various local functionality in the Dutch version of Business Central.
-
     author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na

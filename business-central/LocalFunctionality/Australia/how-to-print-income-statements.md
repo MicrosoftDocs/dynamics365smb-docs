@@ -9,7 +9,6 @@
     ms.search.keywords:
     ms.date: 06/25/2021
     ms.author: bholtorf
-
 ---
 # Print Income Statements in the Australian Version
 

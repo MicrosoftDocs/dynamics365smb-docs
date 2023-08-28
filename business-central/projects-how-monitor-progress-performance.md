@@ -2,7 +2,7 @@
 
 title: Monitor Job Progress and Performance
 description: Describes how you can create a work in process (WIP) method and calculate WIP to estimate the financial value of jobs while they are ongoing.
-author: bbholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: how-to

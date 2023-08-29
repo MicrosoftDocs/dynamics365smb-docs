@@ -10,7 +10,6 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 08/26/2022
 ms.author: bholtorf
-
 ---
 # Set Up Posting Groups
 

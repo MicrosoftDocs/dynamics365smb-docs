@@ -1,9 +1,7 @@
 ---
 title: Standard Recurring Sales Lines
 description: Set up frequently used sales lines to insert them on sales documents and quickly fill the lines with standard information.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.search.form: 172
 ms.date: 07/06/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Create Recurring Sales

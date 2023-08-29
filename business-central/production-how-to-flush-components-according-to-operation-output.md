@@ -1,16 +1,14 @@
 ---
     title: Flush Components According to Operation Output
     description: This topic describes how to flush components according to operation output as well as other flushing methods involved.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/22/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Flush Components According to Operation Output

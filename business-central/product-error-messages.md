@@ -1,12 +1,10 @@
 ---
 title: Warnings and Error Messages
 description: Learn how you can troubleshoot and find solutions to error messages when you work in Business Central.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Warnings and Error Messages in Dynamics 365 Business Central

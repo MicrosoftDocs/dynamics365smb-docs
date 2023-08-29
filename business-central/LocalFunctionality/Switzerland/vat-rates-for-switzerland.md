@@ -1,18 +1,14 @@
 ---
     title: VAT Rates for Switzerland
     description: In the Swiss version of Business Central if VAT rates change you must use the VAT rate change tool as explained here.
-
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/21/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # VAT Rates for Switzerland
 If VAT rates change, you must use the VAT rate change tool. In earlier versions of [!INCLUDE[prod_short](../../includes/prod_short.md)] you could temporarily use both the old and the new VAT rates for transactions, depending on the shipping dates. This functionality has been deprecated.  

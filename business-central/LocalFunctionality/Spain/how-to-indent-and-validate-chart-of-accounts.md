@@ -1,18 +1,14 @@
 ---
     title: How to Indent and Validate Chart of Accounts
     description: You can indent and validate the chart of accounts on the G/L Account Card page. You can enter a maximum of 20 numbers. Accounts are sorted in string order.
-
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Indent and Validate Chart of Accounts
 You can indent and validate the chart of accounts on the **G/L Account Card** page. You can enter a maximum of 20 numbers. Accounts are sorted in string order, as shown in the following example.  

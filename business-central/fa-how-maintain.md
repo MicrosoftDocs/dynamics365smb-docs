@@ -1,9 +1,7 @@
 ---
 title: Maintain Fixed Assets
 description: You keep a maintenance record of any repairs and service on a fixed asset to preserve the value of that fixed asset.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: repair, service
 ms.search.form: 5642, 5625
 ms.date: 06/15/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Maintain Fixed Assets

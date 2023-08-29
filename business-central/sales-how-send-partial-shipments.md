@@ -1,13 +1,12 @@
 ---
 title: Process Partial Shipments
 description: Sales orders' shipments can be processed in Business Central with partial shipments using the Shipping Advice and Qty. to Ship fields.
-author: rubenseishima
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: shipping advice, partial shipments, partial deliveries, trade, customer sales order 
 ms.date: 08/12/2022
-ms.author: a-reishima
-
+ms.author: bholtorf
 ---
 # Process Partial Shipments
 

@@ -1,16 +1,14 @@
 ---
     title: Print Income Statements [AU]
     description: Describes how to view the company's annual income statement in the Australian version.
-    author: SorenGP
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/25/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Print Income Statements in the Australian Version
 

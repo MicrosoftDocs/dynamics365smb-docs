@@ -1,9 +1,7 @@
 ---
     title: Delivery Reminders [CH]
     description: Delivery reminders are used to track overdue vendor shipments, and to remind vendors about overdue deliveries in the Swiss version. 
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@
     ms.search.keywords:
     ms.search.form: 5005270, 5005272
     ms.date: 06/21/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Delivery Reminders in the Swiss Version
 

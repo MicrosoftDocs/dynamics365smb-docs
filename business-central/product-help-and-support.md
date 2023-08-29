@@ -1,11 +1,11 @@
 ---
 title: Resources for Help and Support
 description: Find product Help, guidance, troubleshooting tips, and assistance, and learn how to get technical support for Business Central.
-author: edupont04
+author: brentholtorf
 ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
-ms.author: edupont
+ms.author: bholtorf
 ms.date: 07/14/2023
 ---
 

@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
 ms.search.form: 5709, 5800, 5805, 5814
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Use Item Charges to Account for Additional Trade Costs

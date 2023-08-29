@@ -1,9 +1,7 @@
 ---
     title: Create and Print a Swiss VAT Statement [CH]
     description: This topic explains how to create and print a Swiss VAT Statement based on information you specify on the VAT Posting Setup page.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@
     ms.search.keywords:
     ms.search.form: 11023, 11024
     ms.date: 06/25/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Create and Print a Swiss VAT Statement in the Swiss Version
 Based on the information that you have specified on the **VAT Posting Setup** page, [!INCLUDE[prod_short](../../includes/prod_short.md)] can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  

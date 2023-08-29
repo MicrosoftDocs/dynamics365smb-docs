@@ -9,8 +9,8 @@ metadata:
   description: Business Central is a an business management solution for small and mid-sized organizations. Connect sales, service, finance, and operations to work smarter, adapt faster, and perform better. that automates and streamlines business processes and helps you manage your business. Highly adaptable and rich with features, [!INCLUDE[prod_short](includes/prod_short.md)] enables companies to manage their business, including finance, manufacturing, sales, shipping, project management, services, and more. Companies can easily add functionality that is relevant to the region of operation, and that is customized to support even highly specialized industries. [!INCLUDE[prod_short](includes/prod_short.md)] is fast to implement, easy to configure, and simplicity guides innovations in product design, development, implementation, and usability.  
   ms.topic: hub-page
   ms.service: dynamics365-business-central
-  author: jswymer #Required; your GitHub user alias, with correct capitalization.
-  ms.author: jswymer #Required; microsoft alias of author; optional team alias.
+  author: brentholtorf #Required; your GitHub user alias, with correct capitalization.
+  ms.author: bholtorf #Required; microsoft alias of author; optional team alias.
   ms.date: 02/26/2023
   hide_bc: true
 

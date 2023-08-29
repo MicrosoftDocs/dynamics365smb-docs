@@ -1,14 +1,14 @@
 ---
 title: Planning With or Without Locations
 description: In this topic learn about production and manufacturing, including supply planning, in Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 09/15/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Planning With or Without Locations

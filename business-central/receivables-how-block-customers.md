@@ -1,15 +1,14 @@
 ---
     title: How to Block Sales to Customers
     description: If needed, you can block a customer from being included on sales documents and other sales transactions.
-    author: SorenGP
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Block Customers

@@ -1,8 +1,7 @@
 ---
 title: Print a VAT Reconciliation Report [NO]
 description: The VAT Reconciliation report shows the reconciliation settlement for the base amount and the VAT amount for general ledger accounts.
-author: SorenGP
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,8 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.form: 10602, 10697, 10698, 10604, 315, 472, 473, 471, 317
 ms.date: 06/21/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Print a VAT Reconciliation Report in the Norwegian Version
 The **VAT Reconciliation** report shows the reconciliation settlement for the base amount and the VAT amount for general ledger accounts. These amounts are grouped by different VAT types.  

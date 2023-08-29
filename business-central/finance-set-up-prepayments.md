@@ -1,14 +1,12 @@
 ---
 title: Set Up Prepayments
 description: Learn how to configure Business Central so that you can use prepayments to invoice and collect deposits from customers and remit deposits to vendors.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Set Up Prepayments

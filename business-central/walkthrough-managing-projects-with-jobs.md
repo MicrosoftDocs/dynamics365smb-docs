@@ -1,17 +1,14 @@
 ---
     title: Walkthrough - Managing Projects with Jobs
     description: This walkthrough introduces you to the project management features in jobs which allow you to schedule the usage of your company's resources and more.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/24/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Walkthrough: Managing Projects with Jobs
 

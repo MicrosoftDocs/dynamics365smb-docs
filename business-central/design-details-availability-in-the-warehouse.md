@@ -7,7 +7,6 @@ ms.reviewer: andreipa
 ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
-
 ---
 # Design Details: Availability in the Warehouse
 

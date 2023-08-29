@@ -3,8 +3,7 @@
     description: You set up email logging in the **Marketing Setup** window. Setup requires an email account that has a valid email address on Exchange. It also requires that you use public folders. This enables you to share and log information and email in a company.
     services: project-madeira
     documentationcenter: ''
-    author: bholtorf
-
+    author: brentholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -13,7 +12,6 @@
     ms.search.keywords: email, log, logging, marketing, interaction
     ms.date: 09/01/2017
     ms.author: bholtorf
-
 ---
 # Set Up Email Logging
 You set up email logging in the **Marketing Setup** window. Setup requires an email account that has a valid email address on Exchange. It also requires that you use public folders. This enables you to share and log information and email in a company.  

@@ -1,9 +1,7 @@
 ---
 title: Importing Many Item Pictures from a ZIP File
 description: To import multiple item pictures give picture files names corresponding to item numbers, compress them to a ZIP file, and use the Import Item Pictures page.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: product, image
 ms.search.form: 30, 461
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Import Multiple Item Pictures

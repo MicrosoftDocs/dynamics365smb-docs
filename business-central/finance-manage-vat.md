@@ -1,7 +1,7 @@
 ---
 title: VAT Management overview
 description: Learn how to manage VAT with the listed information and resources.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

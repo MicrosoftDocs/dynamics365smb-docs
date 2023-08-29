@@ -8,7 +8,6 @@ ms.topic: conceptual
 ms.date: 03/31/2023
 ms.custom: bap-template
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
-
 ---
 
 # Synchronizing Data in Business Central with Microsoft Dataverse

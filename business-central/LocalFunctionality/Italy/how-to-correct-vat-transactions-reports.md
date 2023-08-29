@@ -1,19 +1,16 @@
 ---
     title: How to Correct VAT Transactions Reports [IT]
     description: The following topic is an explanation of how you can correct and resend electronic VAT transaction reports.
-
     services: project-madeira 
     documentationcenter: ''
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/18/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Correct VAT Transactions Reports in the Italian Version

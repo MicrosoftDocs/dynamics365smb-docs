@@ -1,9 +1,7 @@
 ---
     title: Set Up 340 Reports for Small Businesses [ES]
     description: Set up your business to report on a cash basis with Cash Accounting Criteria (CAC) using the 340 Reports for Small Businesses.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@
     ms.search.keywords:
     ms.search.form: 10737, 10738, 10744
     ms.date: 06/25/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Set Up 340 Reports for Small Businesses in the Spanish Version
 Use the following procedure to set up your business to report on a cash basis, that is, Cash Accounting Criteria (CAC). If you have not already done so, you can set up posting groups for cash-based VAT accounting for purchases and sales.  

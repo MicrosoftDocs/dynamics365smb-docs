@@ -1,16 +1,14 @@
 ---
     title: Design Details - Inventory Valuation | Microsoft Docs
     description: Inventory valuation is the determination of the cost of an inventory item.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/08/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Design Details: Inventory Valuation

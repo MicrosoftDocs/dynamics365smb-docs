@@ -3,7 +3,7 @@
     description: You can export a profile, for example to reuse UI configurations in other [!INCLUDE[d365fin](includes/d365fin_md.md)] databases.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

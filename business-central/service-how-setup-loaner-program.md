@@ -2,8 +2,6 @@
     title: How to Set Up Loaners | Microsoft Docs
     description: You can set up loaners that you can lend to customers to replace service items while they are in service.
     author: brentholtorf
-
-    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -11,7 +9,6 @@
     ms.search.keywords:
     ms.date: 04/01/2021
     ms.author: bholtorf
-
 ---
 # Set Up a Loaner Program
 Sometimes you must provide a customer a loaner item for use when your customer service team makes a repair. In [!INCLUDE[prod_short](includes/prod_short.md)], you can set up a loaner program, loan items to your customers, and track receipts when customers return the items. Additionally, you can add comments about loaners in one of two ways:  

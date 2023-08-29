@@ -2,8 +2,6 @@
     title: Set Up Service Management Processes | Microsoft Docs
     description: Learn how to set up processes that help ensure your customers are satisfied with your customer service.
     author: brentholtorf
-
-    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -11,7 +9,6 @@
     ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
     ms.date: 04/01/2021
     ms.author: bholtorf
-
 ---
 # Configure Service Processes
 The following are some examples of the settings that you can apply to service management processes:  

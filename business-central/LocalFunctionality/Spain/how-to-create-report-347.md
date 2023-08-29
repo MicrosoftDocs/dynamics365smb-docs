@@ -1,14 +1,11 @@
 ---
 title: How to Create Report 347 [ES]
 description: Read about how to make a Report 347 declaration to the tax authorities providing the sales and purchase transactions from the previous fiscal period.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 06/21/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Create Report 347 in the Spanish Version
 All companies must provide an annual declaration, **Report 347**, to the tax authorities providing the sales and purchase transactions from the previous fiscal period.  

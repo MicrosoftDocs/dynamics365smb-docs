@@ -1,15 +1,14 @@
 ---
 title: Set Up Declaration Types [BE]
 description: In Business Central, there are two types of declaration in the Belgian version, the simplified declaration and the extended declaration.
-author: SorenGP
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 06/17/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 # Set Up Declaration Types in the Belgian Version
 

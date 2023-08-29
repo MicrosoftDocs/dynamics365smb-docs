@@ -1,17 +1,14 @@
 ---
     title: How to Set Up VAT Reports [DE]
     description: To file a VAT report under the ELMA5 system from Business Central, you need to set up report parameters.
-
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/18/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Set Up VAT Reports in the German Version

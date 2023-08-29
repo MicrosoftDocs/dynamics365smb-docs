@@ -1,9 +1,7 @@
 ---
 title: Set Up Bank Data Conversion
 description: You can set up bank accounts to keep track of transactions and import or export bank feeds, such as Yodlee.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
 ms.search.form: 304, 20106, 20105, 20100, 20101, 20107, 20109
 ms.date: 04/01/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Set Up the AMC Banking 365 Fundamentals extension
 A global provider of services to convert payment information to any data format that your bank requires is connected and ready to be enabled in [!INCLUDE[prod_short](includes/prod_short.md)]. This is referred to in [!INCLUDE[prod_short](includes/prod_short.md)] as the AMC Banking 365 Fundamentals extension.

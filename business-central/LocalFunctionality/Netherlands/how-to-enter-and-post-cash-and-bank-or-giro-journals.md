@@ -1,17 +1,14 @@
 ---
     title: How to Enter and Post Cash and Bank or Giro Journals
     description: In Business Central, you can use the cash and bank journals to enter the transactions that affect the cash and bank accounts by using Cash Book and Bank Book.
-
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Enter and Post Cash and Bank/Giro Journals

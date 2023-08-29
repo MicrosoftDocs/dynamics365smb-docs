@@ -4,8 +4,8 @@ description: Implementation details related to the Shopify connector.
 ms.date: 03/27/2023
 ms.topic: article
 ms.service: dynamics365-business-central
-author: AndreiPanko
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
 # FAQ for Technical Details

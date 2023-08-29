@@ -1,9 +1,7 @@
 ---
 title: Assigning and managing tasks
 description: Learn how to assign tasks to users, including your accountant, in Business Central, and how you pick up and complete tasks.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.search.form:  1164, 1170, 1171, 1172, 1175, 1176, 1177
 ms.date: 04/01/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Define User Tasks
 

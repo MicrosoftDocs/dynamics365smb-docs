@@ -1,7 +1,7 @@
 ---
 title: Invoice Sales
 description: Describes how to create a bill of sale, or a sales invoice or sales order, to record your agreement with a customer to sell products under specific terms.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.search.form: 43, 48, 9301
 ms.date: 09/01/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Invoice Sales

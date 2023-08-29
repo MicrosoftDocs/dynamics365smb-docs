@@ -1,9 +1,7 @@
 ---
 title: Automatic Payments and Automatic Bills [IT]
 description: The following topic explains how to set up the relevant information in Business Central to manage automatic payments and bills.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.form: 12203, 12204
 ms.date: 06/25/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Set Up Automatic Payments and Automatic Bills in the Italian Version
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can manage automatic payments and bills.  

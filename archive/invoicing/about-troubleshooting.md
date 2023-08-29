@@ -1,16 +1,14 @@
 ---
 title: Get yourself unblocked | Invoicing
 description: Learn how you can get yourself unblocked or figure out how to do something.
-author: edupont04
-
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/25/2019
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Troubleshooting [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 > [!Note]

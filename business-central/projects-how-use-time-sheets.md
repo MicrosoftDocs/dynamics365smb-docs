@@ -1,9 +1,7 @@
 ---
 title: Use Time Sheets
 description: Describes how to create a time sheet, define work types, fill in the time sheet, and submit it for approval.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
 ms.date: 03/01/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Use Time Sheets

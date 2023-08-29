@@ -1,16 +1,14 @@
 ---
 title: Creating Cost Budgets
 description: This topic provides an overview of where to create and analyze cost budgets. Budgeting in cost accounting resembles budgeting in the general ledger.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Creating Cost Budgets

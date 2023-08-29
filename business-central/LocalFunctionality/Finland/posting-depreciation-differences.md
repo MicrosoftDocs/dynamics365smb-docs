@@ -1,16 +1,14 @@
 ---
     title: Posting Depreciation Differences [FI]
     description: How to post the difference in accumulated depreciation between the different depreciation methods be calculated and posted to the general ledger.  
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/18/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Posting Depreciation Differences in the Finnish Version

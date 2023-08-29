@@ -1,9 +1,7 @@
 ---
 title: Suggest Vendor Payments Batch Job
 description: You can specify vendor payment settings to get suggestions or proposals for payments that are due soon or where a discount is available.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Suggest Vendor Payments

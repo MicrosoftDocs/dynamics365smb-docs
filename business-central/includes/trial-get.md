@@ -1,9 +1,8 @@
 ---
-author: edupont04
-
+author: brentholtorf
 ms.topic: include
 ms.date: 04/05/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 1. Go to [the trial site](https://go.microsoft.com/fwlink/?linkid=847861), choose *Finance and operations*, and then, on the **Dynamics 365 Business Central** card, choose the **Try for free** button.  
 2. Enter your work or school email address and other details. You'll be redirected to your trial at [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  

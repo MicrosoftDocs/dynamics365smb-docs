@@ -6,8 +6,8 @@ ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
 ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135, 
-author: AndreiPanko
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
 # Get Started with the Shopify Connector

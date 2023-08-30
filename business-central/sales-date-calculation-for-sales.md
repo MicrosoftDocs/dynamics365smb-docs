@@ -1,14 +1,14 @@
 ---
 title: Delivery Date Calculation for Sales
 description: The application automatically calculates the date on which you must order an item to have it in inventory on a certain date and available for picking.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 09/22/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Delivery Date Calculation for Sales

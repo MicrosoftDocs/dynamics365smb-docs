@@ -1,9 +1,7 @@
 ---
 title: View Remittance Error Codes [NO]
 description: For a remittance error, the error code from the bank and an explanation of the error will be shown for the payment on the Waiting Journal page in the Norwegian version of Business Central.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 04/01/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # View Remittance Error Codes in the Norwegian Version
 

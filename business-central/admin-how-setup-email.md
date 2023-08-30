@@ -10,7 +10,6 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 07/17/2023
 ms.author: bholtorf
-
 ---
 
 # Set Up Email

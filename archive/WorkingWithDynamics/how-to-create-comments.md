@@ -3,7 +3,7 @@
     description: Comments are used to add extra information to accounts, customers, items, and so on. With comments you can, for example, specify that a customer has a certain pricing agreement or has been behind with payments.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

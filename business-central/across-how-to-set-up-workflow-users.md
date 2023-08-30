@@ -10,7 +10,6 @@ ms.search.keywords: reject, delegate, request
 ms.search.form: 1533,
 ms.date: 05/31/2023
 ms.author: bholtorf
-
 ---
 # Set Up a Sequence of Workflow Users
 

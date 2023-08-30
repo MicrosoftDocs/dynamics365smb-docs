@@ -9,7 +9,6 @@
     ms.search.keywords:
     ms.date: 09/02/2022
     ms.author: bholtorf
-
 ---
 # Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations
 

@@ -3,7 +3,7 @@
     description: You can enter negative numbers in ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> in two ways. The number -20.5 can be entered as:
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

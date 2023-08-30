@@ -4,11 +4,11 @@ description: In Business Central, you can apply a user-defined depreciation meth
 author: jill-kotel-andersson
 
 
-ms.reviewer: bholtorf
+ms.reviewer: edupont
 ms.topic: conceptual
 ms.search.keywords: user-depreciation
 ms.date: 07/05/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 # Set Up Fixed Assets with User-Defined Depreciation Methods

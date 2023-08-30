@@ -3,7 +3,7 @@
     description: Users may experience slow mobile client responses especially noticeable when they are running with a slow network connection. The reason for the mobile client running slowly can be that the dynamic compression is not enabled on the IIS server.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

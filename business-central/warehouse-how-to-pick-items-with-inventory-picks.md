@@ -9,7 +9,6 @@ ms.topic: how-to
 ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: 931, 7377
-
 ---
 # Pick Items with Inventory Picks
 

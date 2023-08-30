@@ -3,7 +3,7 @@
     description: A report layout is a document that acts as a template that defines the appearance of a ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> report when viewing, printing, or saving the report. In particular, a report layout sets up the following:
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

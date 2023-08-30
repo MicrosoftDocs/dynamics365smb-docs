@@ -8,7 +8,6 @@ ms.topic: conceptual
 ms.date: 03/08/2023
 ms.custom: bap-template
 ms.search.form: 15, 5703, 7302, 7332, 5768
-
 ---
 # Cross-Dock Items
 

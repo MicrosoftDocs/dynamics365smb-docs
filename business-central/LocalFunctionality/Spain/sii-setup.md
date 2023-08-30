@@ -1,7 +1,7 @@
 ---
 title: Set up SII for VAT reporting [ES]
 description: This article explains how to submit documents through SII in the Spanish version of Microsoft Dynamics 365 Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,8 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.form: 10740, 10751, 10752, 10753, 10770, 10771, 747, 473, 472
 ms.date: 05/01/2023
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Set Up SII for VAT Reporting in the Spanish Version
 

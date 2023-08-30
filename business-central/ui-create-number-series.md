@@ -1,9 +1,7 @@
 ---
 title: Create Number Series
 description: Learn how to set up number series that assign unique ID codes to accounts and documents in Business Central.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 03/24/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Create Number Series

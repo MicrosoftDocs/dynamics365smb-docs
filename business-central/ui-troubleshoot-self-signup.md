@@ -1,15 +1,13 @@
 ---
 title: Troubleshoot Issues with Self-Service Sign-Up | Microsoft Docs
 description: Learn about the most common reasons why you may not be able to complete the signup to Business Central, and ways to work around them.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Troubleshooting Self-Service Sign-Up

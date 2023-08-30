@@ -1,16 +1,14 @@
 ---
     title: Design Details - Integration with Inventory
     description: The Warehouse Management and the Inventory application area interact with one another in physical inventory and in inventory or warehouse adjustment.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/15/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Design Details: Integration with Inventory

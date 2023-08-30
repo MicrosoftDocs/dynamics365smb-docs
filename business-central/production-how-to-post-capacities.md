@@ -1,16 +1,14 @@
 ---
     title: Post Capacities
     description: Post consumed capacities that are not assigned to the production order in the capacity journal and view posted capacities on the capacity ledger entries page. 
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.form: 5832, 99000802, 99000820
     ms.date: 03/08/2023
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Post Capacities

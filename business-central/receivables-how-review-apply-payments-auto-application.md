@@ -1,9 +1,7 @@
 ---
 title: Review and Apply Payments Manually After Automatic Application
 description: After payments are applied automatically, you can review all the entries for a payment and manually reapply those that were applied incorrectly.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Review and Apply Payments Manually After Automatic Application

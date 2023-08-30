@@ -10,7 +10,6 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.search.form: 2026, 2027, 2029, 
 ms.date: 05/19/2021
 ms.author: bholtorf
-
 ---
 
 # The Image Analyzer Extension

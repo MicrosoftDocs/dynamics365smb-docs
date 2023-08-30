@@ -1,16 +1,14 @@
 ---
 title: Reverse Output Posting
 description: There are times when output posting must be reversed. This topic outlines the procedure for reversing output posting.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5510
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Reverse Output Posting

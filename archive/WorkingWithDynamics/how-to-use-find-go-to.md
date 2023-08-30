@@ -4,7 +4,7 @@
     description: In Business Central you can search in data by using the **Find** mechanism. Find searches on all types of pages that have data, except in chart pages. You specify the field you want to search in and the string you want to search for. Find is also available from the action strip.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

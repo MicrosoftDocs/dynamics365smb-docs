@@ -1,9 +1,7 @@
 ---
 title: Available Fonts
 description: Learn about the pre-installed fonts that you can use for your externally-facing reports.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.form:
 ms.date: 11/30/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Available Fonts

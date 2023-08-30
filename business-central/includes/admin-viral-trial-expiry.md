@@ -1,9 +1,8 @@
 ---
-author: edupont04
-
+author: brentholtorf
 ms.topic: include
 ms.date: 02/21/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 > [!NOTE]
 > If a [!INCLUDE [prod_short](prod_short.md)] trial is left unused for 45 days, Microsoft considers the trial as expired, and the [!INCLUDE [prod_short](prod_short.md)] tenant is deleted.

@@ -1,16 +1,14 @@
 ---
     title: Set Up Fault Reporting in Service Management
     description: Fault reporting lets you establish standards for recording fault information for service items with fault codes and more.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/23/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 

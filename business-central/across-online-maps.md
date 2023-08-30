@@ -1,13 +1,12 @@
 ---
 title: Use Online Maps to Find Locations and Directions
 description: Learn about using address data in Business Central to get an online map with route directions.
-author: rubenseishima
-
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.form: 21, 26, 76, 86, 88, 300, 370, 800, 804, 5050, 5200, 5703
 ms.date: 07/15/2022
-ms.author: a-reishima
+ms.author: bholtorf
 ---
 # Use Online Maps to Find Locations and Directions
 

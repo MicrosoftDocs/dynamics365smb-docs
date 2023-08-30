@@ -10,7 +10,6 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 389, 1290, 1294, 1287
 ms.date: 06/22/2022
 ms.author: bholtorf
-
 ---
 # Reconcile Payments Using Automatic Application
 

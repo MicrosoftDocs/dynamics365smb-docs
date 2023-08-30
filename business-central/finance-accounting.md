@@ -1,9 +1,7 @@
 ---
 title: Accountant experiences in Business Central (contains video)
 description: Learn about the Accountant Role Center and the Company Hub that support internal and external accountants in the client company.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
 ms.date: 04/01/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]
 

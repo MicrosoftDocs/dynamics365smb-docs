@@ -2,8 +2,6 @@
 title: Finding Pages and Information (contains video)
 description: This article describes how to use search to find actions, pages, reports, documentation, and data, and also other apps and consulting services.
 author: brentholtorf
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,7 +10,6 @@ ms.search.keywords: find
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 09/13/2022
 ms.author: bholtorf
-
 ---
 # Finding Pages and Information with Tell Me
 

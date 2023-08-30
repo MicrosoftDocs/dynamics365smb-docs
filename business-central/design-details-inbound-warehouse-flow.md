@@ -9,7 +9,6 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 11/14/2022
 ms.author: bholtorf
-
 ---
 # Design Details: Inbound Warehouse Flow
 

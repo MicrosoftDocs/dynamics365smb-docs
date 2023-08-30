@@ -6,8 +6,8 @@ ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: 30101, 30102, 30106, 30107, 30113, 30115, 30126
 ms.reviewer: solsen
-author: AndreiPanko
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
 # Walkthrough: Set up and use the Shopify Connector

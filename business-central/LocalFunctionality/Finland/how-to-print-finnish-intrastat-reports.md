@@ -3,15 +3,14 @@ title: How to Print Finnish Intrastat Reports
 description: The following topic explains how to print Finnish Intrastat Reports to report the movement of goods to the Intrastat authorities.
 services: project-madeira 
 documentationcenter: ''
-author: SorenGP
-    
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 06/18/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 # Print Finnish Intrastat Reports
 

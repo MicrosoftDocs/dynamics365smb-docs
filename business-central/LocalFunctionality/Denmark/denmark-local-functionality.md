@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: Denmark, local, DK, Danish
-    ms.date: 08/23/2023
+    ms.date: 08/25/2023
     ms.author: soalex
 
 ---
@@ -19,18 +19,25 @@ The following topics describe the local functionality in the Danish version of [
 
 ## Feature Availability
 
+* Compliance
+    * Audit trail and edit logs for bookkeeping software in Denmark **Planned in November 2023**
+    * 5-years keeping data compliance **Planned for 2023 release wave 2**
+    * Mandatory digital vouchers as attachments **Planned for 2023 release wave 2**
+
 * Auditing
-    *  [Export the SAF-T audit file format](how-to-use-saft-audit-files-export.md) - **Available September 2023**
-    *  [Standard Chart of Account](how-to-set-up-standard-coa.md) - **Available September 2023**
-    *  [Upload of CSV file with accounting data to Regnskab Basis](how-to-use-regnskabbasis-export.md) - **Available September 2023**
+    *  [Export the SAF-T audit file format](how-to-use-saft-audit-files-export.md) **Available in September 2023**
+    *  [Standard Chart of Account](how-to-set-up-standard-coa.md) **Available in September 2023**
+    *  [Upload of CSV file with accounting data to Regnskab Basis](how-to-use-regnskabbasis-export.md) **Available in September 2023**
+
 * VAT
     * [Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md) **Available Now**
     * [VAT-VIES Reporting](vat-vies-reporting.md) **Available Now**
-    * [VAT Registration Number Setup for Intrastat](vat-registration-no-intrastat.md)  
+    * [VAT Registration Number Setup for Intrastat](vat-registration-no-intrastat.md) **Available Now** 
+    * E-submission of VAT return - **Planned for 2023 release wave 2** 
 
 * Banking & Payments
-    * [FIK Details in the Payment Reconciliation Journal](fik-details-in-the-payment-reconciliation-journal.md) **Available Now**
     * [The Payments and Reconciliations (DK) Extension](../../ui-extensions-payments-reconciliation-formats-dk.md) **Available Now**
+    * [FIK Details in the Payment Reconciliation Journal](fik-details-in-the-payment-reconciliation-journal.md) **Available Now**
 
 * Electronic Invoicing
     * [Overview of OIOUBL Electronic Invoicing](oioubl-electronic-invoicing-overview.md) **Available Now**
@@ -38,21 +45,19 @@ The following topics describe the local functionality in the Danish version of [
     * [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md) **Available Now***
     * [The OIOUBL Extension for Electronic Invoicing](ui-extensions-oioubl.md) **Available Now**
     * [Create Electronic Documents in an OIOUBL Format](how-to-create-electronic-documents-by-using-oioubl.md) **Available Now**
+    * Registration for the Nemhandelsregisteret **Planned for 2023 release wave 2**
+    * Notification for the Nemhandelsregisteret registration **Planned for 2023 release wave 2**
+    * Electronic invoicing with NemHandel **Planned for January 2024**
 
 * Payroll
     * [Payroll Data Definitions (DK)](ui-extensions-payroll-data-definitions-dk.md) **Available Now**
 
 ## Future legislation requirements being investigated
 
-* Mandatory digital vouchers - planned for **2023 release wave 2**
-* Electronic invoicing with NemHandel - planned for **January 2024**
-* E-submission of VAT return - planned for **2023 release wave 2**
-* Registration for the Nemhandelsregisteret - planned for **2023 release wave 2**
-* Notification for the Nemhandelsregisteret registration - planned for **2023 release wave 2**
-* 5-years keeping data compliance - planned for **2023 release wave 2**
+Currently, there are no additional upcoming regulatory features or requirements, outside of the new Danish bookkeeping act already mentioned in **Feature Availability**. If you are aware of any additional upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-    > [!Note]  
-    > A new Danish bookkeeping act enforcing the use of digital bookkeeping systems went into place in July 2022. However, although the law is approved, the details on how it will be implemented by businesses and ERP systems is being released by the Danish Business Authority in phases. Microsoft will be following guidelines to ensure our **Microsoft Dynamics 365 Business Central** and **Microsoft Dynamics 365 Finance** solutions are certified within the parameters as deadlines are set. All updates to Dynamics 365 will be made available through our standard product release cycles. More information will be made available in this article.
+> [!NOTE]  
+> A new Danish bookkeeping act enforcing the use of digital bookkeeping systems went into place in July 2022. However, although the law is approved, the details on how it will be implemented by businesses and ERP systems is being released by the Danish Business Authority in phases. Microsoft will follow guidelines to ensure our **Microsoft Dynamics 365 Business Central** and **Microsoft Dynamics 365 Finance** solutions are certified within the parameters as deadlines are set. All updates to Dynamics 365 will be made available through our standard product release cycles. More information will be made available in this article.
 
 ## See Also
 

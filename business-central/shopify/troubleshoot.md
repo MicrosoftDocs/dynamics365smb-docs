@@ -49,9 +49,14 @@ Regardless of whether **Log Activated** is turned on, some Shopify responses are
 Choose the **Retrieved Shopify Data** action on one of the following pages:
 
 - **Shopify order**
-- **Shopify order fulfillments**
+- **Shopify order line**
+- **Shopify fulfillments**
 - **Shopify order shipping costs**
 - **Shopify order transactions**
+- **Shopify return**
+- **Shopify return line**
+- **Shopify refund**
+- **Shopify refund line**
 - **Shopify payouts**
 - **Shopify payment transactions**
 - **Shopify transactions**

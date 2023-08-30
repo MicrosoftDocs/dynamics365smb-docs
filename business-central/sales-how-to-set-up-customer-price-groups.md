@@ -1,16 +1,14 @@
 ---
 title: Set Up Customer Price Groups
 description: Learn how to set up customer price groups and create sales prices for those groups.
-author: jill-kotel-andersson
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer price groups, discounts, sales prices
 ms.date: 09/30/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 

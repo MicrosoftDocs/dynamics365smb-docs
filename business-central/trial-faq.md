@@ -1,10 +1,10 @@
 ---  
 title: Trial FAQ
 description: Solutions to common questions related to Dynamics 365 Business Central trial setup and management. Learn how to resolve platform and app-specific issues.
-author: edupont04
+author: brentholtorf
 ms.topic: get-started
 ms.custom: template-trial-faq
-ms.author: edupont
+ms.author: bholtorf
 ms.date: 02/23/2022
 ---
 

@@ -9,7 +9,6 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 08/03/2023
 ms.custom: bap-template
-
 ---
 # Set Up Bank Accounts
 

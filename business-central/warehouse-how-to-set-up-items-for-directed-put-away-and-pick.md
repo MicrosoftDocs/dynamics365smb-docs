@@ -10,7 +10,6 @@ ms.search.keywords:
 ms.search.form:
 ms.date: 11/07/2022
 ms.author: bholtorf
-
 ---
 # Set Up Items and Locations for Directed Put-away and Pick
 

@@ -1,9 +1,7 @@
 ---
 title: Generate Payment Files (FI)
 description: To send electronic payments to vendors, you must first generate a payment file for domestic or foreign payments.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.form: 32000000, 32000001, 32000002, 32000004, 32000005, 32000006
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Generate Payment Files in the Finnish Version

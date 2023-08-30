@@ -1,5 +1,4 @@
 ---
-
 title: Move Items
 description: Learn about moving items between bins in your warehouse.
 author: brentholtorf

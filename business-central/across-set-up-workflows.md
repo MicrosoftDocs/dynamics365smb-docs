@@ -1,15 +1,14 @@
 ---
 title: Set Up Approval Workflows (contains video)
 description: Set up workflows, workflow users and approval users to connect business-process system tasks performed by these different users.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 09/13/2022
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Set Up Approval Workflows
 

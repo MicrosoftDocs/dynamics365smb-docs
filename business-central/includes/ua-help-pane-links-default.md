@@ -1,9 +1,9 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 03/22/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 - A link about the current page
 

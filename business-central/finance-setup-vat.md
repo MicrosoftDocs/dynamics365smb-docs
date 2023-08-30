@@ -10,7 +10,6 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877, 
 ms.date: 01/31/2023
 ms.author: bholtorf
-
 ---
 
 # Set Up Calculations and Posting Methods for Value-Added Tax

@@ -1,16 +1,14 @@
 ---
 title: EU Sales List in Germany
 description: In Germany, the German EU sales list is submitted to the Bundeszentralamt für Steuern (BZSt) through the BZSt Online Portal by using the ELMA5 interface.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 # EU Sales List in Germany

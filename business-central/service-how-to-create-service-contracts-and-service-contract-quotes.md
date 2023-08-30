@@ -2,8 +2,6 @@
     title: How to Work with Service Contracts and Service Contract Quotes | Microsoft Docs
     description: You can create a service contract either manually or from a service contract quote. You can create a contract based on a service contract quote.
     author: brentholtorf
-
-    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -11,7 +9,6 @@
     ms.search.keywords:
     ms.date: 04/01/2021
     ms.author: bholtorf
-
 ---
 # Work with Service Contracts and Service Contract Quotes
 You can create a service contract either manually or from a service contract quote. You can use a service contract quote as a forerunner of a service contract, in which your company makes an offer to the customer and obtains customer approval before you can convert it to a service contract. The procedures for creating either a service contract or service contract quote are similar.  

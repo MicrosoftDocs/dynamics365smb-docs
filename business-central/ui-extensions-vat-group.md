@@ -10,7 +10,6 @@ ms.search.keywords: VAT, value added tax, report
 ms.search.form: 4700, 4701, 4703, 4704, 4705, 4706, 4707, 4708, 4709, 
 ms.date: 07/08/2022
 ms.author: bholtorf
-
 ---
 
 # The VAT Group Management Extension for the United Kingdom

@@ -1,5 +1,4 @@
 ---
-
 title: Manage users and roles
 description: Learn how to manage user profiles and Role Centers in Business Central. Profiles allow administrators to centrally define and manage what users can see and do.
 author: brentholtorf

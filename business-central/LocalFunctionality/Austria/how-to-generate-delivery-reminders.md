@@ -1,16 +1,14 @@
 ---
     title: Generate Delivery Reminders [AT]
     description: In the Austrian version of Business Central, you can automatically generate delivery reminders when a purchase has not been delivered as expected.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Generate Delivery Reminders in the Austrian Version

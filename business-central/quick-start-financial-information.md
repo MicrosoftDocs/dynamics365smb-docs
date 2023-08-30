@@ -1,7 +1,7 @@
 ---
 title: Financial Information Quick Start
 description: Get your company ready for business by setting up the financial information in Business Central.
-author: rubenseishima
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.search.form: 
 ms.date: 08/25/2022
-ms.author: a-reishima
+ms.author: bholtorf
 ---
 
 # Financial Information Quick Start

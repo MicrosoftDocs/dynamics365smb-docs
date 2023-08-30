@@ -1,9 +1,7 @@
 ---
 title: Edit Posted Sales and Purchase Documents
 description: This topic explains how to update information on a posted document like a  sales shipment or purchase invoice when relevant information has changed. 
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,8 +10,7 @@ ms.reviewer: bholtorf
 ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
 ms.search.form: 130, 138, 142, 146, 6660, 6662, 6650, 6652
 ms.date: 06/10/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Edit Posted Documents
 

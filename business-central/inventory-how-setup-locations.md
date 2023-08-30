@@ -10,7 +10,6 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 03/25/2023
 ms.author: bholtorf
-
 ---
 # Set Up Locations
 

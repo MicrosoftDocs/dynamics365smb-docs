@@ -3,7 +3,7 @@ title: Set Up Jobs, Prices, and Job Posting Groups
 description: Describes how to set up general information about jobs.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/25/2023
 ms.custom: bap-template

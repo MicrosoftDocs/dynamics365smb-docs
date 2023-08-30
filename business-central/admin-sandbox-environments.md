@@ -5,7 +5,7 @@ author: SusanneWindfeldPedersen
 
 
 ms.topic: conceptual
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms. search.keywords: cloud, migrate, insights
 ms.search.form: 4010
 ms.date: 04/12/2021

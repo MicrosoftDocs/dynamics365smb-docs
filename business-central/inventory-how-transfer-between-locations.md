@@ -3,7 +3,7 @@ title: Transfer Items Between Warehouse Locations
 description: Learn how to move inventory from one place or warehouse to another, either with the reclassification journal or with transfer orders.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/21/2023
 ms.custom: bap-template

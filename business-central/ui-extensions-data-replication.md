@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, import, implement
 ms.search.form: 4021, 4026, 4031, 4090, 4091, 4092, 4093, 4094, 4095, 4096, 4097, 40027, 
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.date: 06/23/2021
 ms.author: edupont
 

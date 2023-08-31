@@ -21,7 +21,7 @@ The Job Queue Entries page lists all existing jobs. If you add a new job queue e
 * When, and how often, the job queue entry will run.
 
 > [!IMPORTANT]  
-> If you're assigned the SUPER permissions set that comes with [!INCLUDE[prod_short](includes/prod_short.md)], you have permission to run all objects included in your license. If you have the Delegated Admin role, you can create and schedule job queue entries but only administrators and licensed users can run them. Users with the Device license can't create or run job queue entires.
+> If you're assigned the SUPER permissions set that comes with [!INCLUDE[prod_short](includes/prod_short.md)], you have permission to run all objects included in your license. If you have the Delegated Admin role, you can create and schedule job queue entries, but only administrators and licensed users can run them.
 
 After job queues are set up and running, the status can change as follows within each recurring period:
 

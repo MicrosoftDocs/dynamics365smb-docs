@@ -8,7 +8,7 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate, 
 ms.search.form: 1500, 
-ms.date: 10/10/2022
+ms.date: 08/31/2023
 ms.custom: bap-template 
 ---
 # Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]

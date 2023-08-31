@@ -2,17 +2,14 @@
     title: How to Upgrade a .DTD Definition File [DE]
     description: You can explicitly validate a .dtd file after you import one in order to address upgrade issues in the German version.
 
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/18/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Upgrade a .DTD Definition File for Digital Audits in the German Version
 

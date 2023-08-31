@@ -1,9 +1,7 @@
 ---
     title: Swiss General Ledger Accounts [CH]
     description: This article explains enhancements to the Swiss General Ledger Accounts and General Journals.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@
     ms.search.keywords:
     ms.search.form: 11500
     ms.date: 06/21/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Swiss General Ledger Accounts
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includes Swiss enhancements to general ledger accounts.

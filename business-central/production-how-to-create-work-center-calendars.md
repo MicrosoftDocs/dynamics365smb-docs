@@ -1,16 +1,14 @@
 ---
     title: Set Up Shop Calendars
     description: Creating and enabling a work center calendar involves several tasks including setting up shop calendars and creating work shifts.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
     ms.date: 06/22/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Set Up Shop Calendars

@@ -1,7 +1,7 @@
 ---
 title: How to Reserve Items 
 description: You can reserve items for sales orders, purchase orders, and production orders. You can also reserve items in inventory or inbound on open document lines.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.forms: 498, 497
 ms.date: 08/11/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Reserve Items

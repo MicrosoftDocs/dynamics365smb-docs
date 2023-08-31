@@ -7,8 +7,7 @@ ms.reviewer: andreipa
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 11/25/2022
-ms.custom: bap-template
-    
+ms.custom: bap-template    
 ---
 # Outbound Warehouse Processes
 

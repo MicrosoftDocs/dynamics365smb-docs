@@ -2,8 +2,6 @@
 title: Working with Accounting Periods and Fiscal Years
 description: Learn how to work with accounting periods to define when your company reports financial performance.
 author: brentholtorf
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,6 @@ ms.workload: na
 ms.search.form: 100
 ms.date: 08/25/2022
 ms.author: bholtorf
-
 ---
 # Work with Accounting Periods and Fiscal Years
 

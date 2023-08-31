@@ -1,9 +1,7 @@
 ---
 title: Set Up Payment Classes [FR]
 description: To use payment management in the French version, you must set up payment classes to define operation types, such as bills of exchange, electronic payments, or checks.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.form: 10868, 10870, 10860, 10861, 10864, 10865, 10866, 10871, 10872, 10873, 10874, 10877, 10878, 10879, 10869, 10867, 10882, 10880
 ms.date: 07/07/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Set Up Payment Classes

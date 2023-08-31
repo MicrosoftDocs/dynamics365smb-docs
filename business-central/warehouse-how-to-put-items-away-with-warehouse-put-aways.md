@@ -1,7 +1,7 @@
 ---
 title: How to Put Items Away with Warehouse Put-aways
 description: Learn about the different ways to use warehouse put-aways to put away received items.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics365-business-central

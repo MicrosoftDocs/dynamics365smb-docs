@@ -8,7 +8,6 @@ ms.search.keywords:
 ms.search.forms: 7200, 7201
 ms.date: 03/22/2023
 ms.author: bholtorf
-
 ---
 # Connect to Microsoft Dataverse
 

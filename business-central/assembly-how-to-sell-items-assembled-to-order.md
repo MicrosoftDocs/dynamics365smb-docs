@@ -10,7 +10,6 @@ ms.date: 11/23/2022
 ms.search.keywords: kit, kitting, substitute items
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.custom: bap-template
-
 ---
 # Sell Items Assembled to Order
 

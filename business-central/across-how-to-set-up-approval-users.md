@@ -9,7 +9,6 @@ ms.workload: na
 ms.search.form: 663,
 ms.date: 05/31/2023
 ms.author: bholtorf
-
 ---
 # Set Up Approval Users
 

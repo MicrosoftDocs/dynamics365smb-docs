@@ -2,8 +2,6 @@
 title: Design Details - Average Cost
 description: The average cost of an item is calculated with a periodic weighted average.
 author: brentholtorf
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,7 +10,6 @@ ms.search.keywords:
 ms.search.form: 8645,
 ms.date: 06/06/2023
 ms.author: bholtorf
-
 ---
 # Design Details: Average Cost
 

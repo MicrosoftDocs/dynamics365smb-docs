@@ -1,16 +1,14 @@
 ---
     title: Receiving and Putting Away in Advanced Warehousing
     description: The inbound processes for receiving and putting away can be performed in four ways using different functionalities depending on the warehouse complexity level.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/24/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations

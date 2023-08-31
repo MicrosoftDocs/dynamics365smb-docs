@@ -2,8 +2,6 @@
 title: Personalizing Pages (contains video)
 description: Learn how to customize the user interface and personalize your workspace to suit your way of working and personal preferences in Business Central.
 author: brentholtorf
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,7 +10,6 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/11/2022
 ms.author: bholtorf
-
 ---
 # Personalize Your Workspace
 

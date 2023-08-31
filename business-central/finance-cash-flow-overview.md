@@ -1,9 +1,7 @@
 ---
 title:  Cash Flow Overview
 description: An overview of cash inflows and outflows to help forecast money to be received and payed out.
-author: jill-kotel-andersson
-    
-
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
 ms.search.form: 841, 849, 1818
 ms.date: 12/20/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 

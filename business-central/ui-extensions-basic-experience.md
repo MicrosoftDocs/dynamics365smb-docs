@@ -10,7 +10,6 @@ ms.search.keywords: C5, financials, extension
 ms.search.form: 20600, 
 ms.date: 04/01/2021
 ms.author: bholtorf
-
 ---
 
 # The Basic Experience Extension

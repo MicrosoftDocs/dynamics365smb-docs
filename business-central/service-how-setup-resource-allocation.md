@@ -2,8 +2,6 @@
     title: Set Up Resource Allocation | Microsoft Docs
     description: Learn how the system can help ensure that you assign someone who has the skills required to provide a service.
     author: brentholtorf
-
-    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -11,7 +9,6 @@
     ms.search.keywords: resource, skill, service, zones
     ms.date: 04/01/2021
     ms.author: bholtorf
-
 ---
 
 # Set Up Resource Allocation

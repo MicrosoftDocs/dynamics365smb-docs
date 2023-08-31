@@ -4,8 +4,8 @@ description: Walkthrough to learn how to set up and process a subcontracting ope
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-author: edupont04
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
 # Set up and Process a Subcontracting Operation

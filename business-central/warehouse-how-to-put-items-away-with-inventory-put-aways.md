@@ -9,7 +9,6 @@ ms.topic: how-to
 ms.date: 12/20/2022
 ms.custom: bap-template
 ms.search.forms: 7375, 
-
 ---
 # Put Items Away with Inventory Put-aways
 

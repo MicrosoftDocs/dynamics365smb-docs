@@ -1,8 +1,7 @@
 ---
 title: Use Microsoft Invoicing with Intuit QuickBooks tax rates | Invoicing
 description: Learn about how to connect Microsoft Invoicing and Intuit QuickBooks.
-author: bholtorf
-
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na

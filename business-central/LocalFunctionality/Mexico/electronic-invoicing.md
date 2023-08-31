@@ -1,9 +1,7 @@
 ---
 title: Electronic invoicing - Mexico
 description: Learn how Business Central supports CFDI so that you can export sales and service invoices and credit memos as electronic documents with the required digital signature.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.form: 10458, 10459, 27001, 27002, 27003, 27010,27011, 27011, 27012, 27013,27014,27015, 27016, 27017, 27018, 27040, 27041, 27042, 27043, 27044
 ms.date: 03/02/2023
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Electronic Invoicing in the Mexican Version
 

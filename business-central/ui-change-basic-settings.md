@@ -1,8 +1,7 @@
 ---
 title: Change basic settings for the current user
 description: Learn how to change some basic settings in Business Central, for example, your role and role center, company, work date, and time zones.
-author: jswymer
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,8 +9,7 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
 ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 08/31/2022
-ms.author: jswymer
-
+ms.author: bholtorf
 ---
 # Change Basic Settings
 

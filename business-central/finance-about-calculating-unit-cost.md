@@ -1,12 +1,11 @@
 ---
 title: About Unit Cost Calculation
 description: Learn how the costing method and other factors influence the Unit Cost field on the Item card.
-author: rubenseishima
-
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 03/06/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 # About Unit Cost Calculation
 

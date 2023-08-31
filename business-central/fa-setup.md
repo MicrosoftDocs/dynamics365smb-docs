@@ -1,9 +1,7 @@
 ---
 title: Set Up Fixed Assets
 description: Learn about the sequence of tasks you must do to set up fixed assets, such as machinery or buildings.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.search.form: 5607
 ms.date: 04/01/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Setting Up Fixed Assets
 

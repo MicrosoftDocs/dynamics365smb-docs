@@ -1,9 +1,8 @@
 ---
-author: edupont04
-
+author: brentholtorf
 ms.topic: include
 ms.date: 03/15/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 You must set up a code for each currency you use if you:
 

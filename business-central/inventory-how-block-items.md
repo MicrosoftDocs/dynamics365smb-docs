@@ -9,7 +9,6 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 11/03/2022
 ms.author: bholtorf
-
 ---
 # Block Items from Sales or Purchasing
 

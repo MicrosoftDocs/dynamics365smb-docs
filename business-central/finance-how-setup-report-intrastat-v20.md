@@ -170,8 +170,6 @@ In many countries/regions, the customs and tax authorities establish 8-digit ite
 
 In the **Tariff Numbers** page, add all the codes that you use. You must enter the codes on the item card before you begin to post. When you have set up the codes, enter them in the **Tariff No.** field on the item card. You must also fill in the **Net Weight** field on the item card.
 
-## See related training at [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## See also
 
 [Financial Management](finance.md)

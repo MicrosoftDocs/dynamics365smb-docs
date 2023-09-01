@@ -156,8 +156,6 @@ You can change the values in these fields, but if you select the **Applicable Fo
 
 If you specify a value in the **Service Transaction Type Code** field but don’t select the **Applicable For Service Declaration** field, you can post the document, but the line won't be calculated when you do.
 
-## See related training at [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## See also
 
 [Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)

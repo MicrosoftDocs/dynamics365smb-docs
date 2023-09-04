@@ -47,8 +47,8 @@ There are three different cloud flow types that you can work with:
 You can explore all Power Automate flows currently available to you by signing in to [Power Automate](https://powerautomate.com) and selecting **My flows** from the navigation bar on the left. Here you'll find any flows you have already created yourself and flows shared with you by an admin or coworker.
 
 - Instant flows are also made available for running directly from most list, card, and document pages in [!INCLUDE[prod_short](includes/prod_short.md)]. You'll find the instant flows in the **Automate** action group in the action bar of pages. To run a flow, select it, and follow the instructions presented to you. Learn more in the sections that follow.
- 
-- With automated flows in [!INCLUDE[prod_short](includes/prod_short.md)], there's nothing for you to do, unless to want to change them or turn them off. Otherwise, they'll just work when triggered. 
+
+- With automated flows in [!INCLUDE[prod_short](includes/prod_short.md)], there's nothing for you to do, unless to want to change them, or turn them off. Otherwise, they'll just work when triggered. 
 <!--
 
 ## Automated flows

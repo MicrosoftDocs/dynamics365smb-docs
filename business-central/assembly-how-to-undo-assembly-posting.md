@@ -3,7 +3,7 @@ title: Undo Assembly Posting
 description: Learn how correct mistakes in a posted assembly order.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/21/2023
 ms.custom: bap-template

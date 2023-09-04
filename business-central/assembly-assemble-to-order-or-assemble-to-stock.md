@@ -3,7 +3,7 @@ title: Understanding Assemble to Order and Assemble to Stock
 description: Learn about assembling items for sales orders or to keep in stock for future sales.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/21/2023
 ms.custom: bap-template

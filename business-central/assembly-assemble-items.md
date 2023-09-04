@@ -3,7 +3,7 @@ title: Assembly Management
 description: Learn how to supply products to customers by combining components in simple processes without using manufacturing features.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/21/2023
 ms.custom: bap-template

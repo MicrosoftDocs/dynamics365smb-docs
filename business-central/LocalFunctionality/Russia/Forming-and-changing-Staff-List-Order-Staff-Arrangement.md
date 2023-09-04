@@ -7,7 +7,7 @@ author: DianaMalina
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
 ---
 # Forming and Changing the Staff List Order

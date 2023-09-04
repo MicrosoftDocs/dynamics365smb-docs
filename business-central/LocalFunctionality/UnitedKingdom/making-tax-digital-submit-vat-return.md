@@ -14,7 +14,7 @@ ms.author: soalex
 ---
 # Making Tax Digital in the United Kingdom
 
-Her Majesty's Revenue and Customs (HMRC) has implemented the first steps of *Making Tax Digital*, which imposes new requirements on VAT registered businesses above the VAT threshold. [!INCLUDE [prod_short](../../includes/prod_short.md)] supports the first rounds of *Making Tax Digital*, which took effect in April 2019:
+His Majesty's Revenue and Customs (HMRC) has implemented the first steps of *Making Tax Digital*, which imposes new requirements on VAT registered businesses above the VAT threshold. [!INCLUDE [prod_short](../../includes/prod_short.md)] supports the first rounds of *Making Tax Digital*, which took effect in April 2019:
 
 * Keeping records digitally
 

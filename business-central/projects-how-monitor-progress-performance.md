@@ -140,8 +140,6 @@ All job-related entries are recorded in job registers and sequentially numbered,
 
 On the **Job Ledger Entries** page you can review the entries that are associated with any job.  
 
-## Find related [Microsoft training](/training/paths/calculate-post-job-wip/)
-
 ## See also
 
 [Walkthrough - Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-job.md)

@@ -29,8 +29,6 @@ If several purchasers work at your company, you can set them up in a page and as
 2. Open the relevant vendor card for the vendor that will be assigned a purchaser.
 3. In the **Purchaser Code** field, select the applicable purchaser code and then close the page.
 
-## See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## See also
 
 [Register New Vendors](purchasing-how-register-new-vendors.md)  

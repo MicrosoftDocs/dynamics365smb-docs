@@ -115,8 +115,6 @@ After you post the warehouse shipment, various fields on the sales order line ar
 >
 > The assemble-to-order quantity is handled as described in this article. The inventory quantity is handled as a regular warehouse shipment line. To learn more about combination scenarios, go to [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## See related [Microsoft training](/training/modules/ship-invoice-items-dynamics-365-business-central/).
-
 ## See also
 
 [Inventory](inventory-manage-inventory.md)  

@@ -34,8 +34,6 @@ On the **Workflow User Groups** page, you can specify where a participant engage
 
 6. Repeat step 5 to add more workflow users to the workflow user group.  
 
-## See related [Microsoft training](/training/modules/create-workflows/)
-
 ## See also
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  

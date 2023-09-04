@@ -125,8 +125,6 @@ If the quantity was shipped in a warehouse shipment, a corrective line is create
 
 To complete the correction, reopen the transfer order, enter the correct quantity, and then post the order. If you're using a warehouse shipment to ship the order, create and post a new warehouse shipment.
 
-## See related [Microsoft training](/training/modules/transfer-items/)
-
 ## See also
 
 [Manage Inventory](inventory-manage-inventory.md)  

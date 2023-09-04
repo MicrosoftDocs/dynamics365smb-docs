@@ -51,8 +51,6 @@ The following flow chart shows how the **Bin Code** field on production order co
 
 :::image type="content" source="media/binflow.png" alt-text="Bin code field on production order component lines.":::
 
-## See related [Microsoft training](/training/modules/configure-bins-location/)
-
 ## See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)

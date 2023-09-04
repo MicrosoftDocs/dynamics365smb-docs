@@ -50,8 +50,6 @@ A new field, **Block Deletion of G/L Accounts**, has been added to the **General
 
 Setting the **Block Deletion of G/L Accounts** field to *Yes* can be considered a best practice, as is setting the date in the **Check G/L Acc. Deletion After** field, for example to the date by which you're required to store your finance data.  
 
-## See related [Microsoft training](/training/modules/chart-accounts-dynamics-365-business-central/index)
-
 ## See Also
 
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  

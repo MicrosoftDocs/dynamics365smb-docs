@@ -437,8 +437,6 @@ When the sales order is later posted as fully invoiced, the sales order and the 
 
     When the Device Shop pays for their receipt of the 18 PCs from CRONUS, the sales order and its linked assembly orders are removed.  
 
-## See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
-
 ## See also
 
  [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md)   

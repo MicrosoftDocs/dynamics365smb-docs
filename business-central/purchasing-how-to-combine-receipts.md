@@ -43,8 +43,6 @@ Alternatively, delete the individual orders manually.
 
 Repeat steps 1 through 3 for any other affected documents, such as blanket purchase orders.
 
-## See related [Microsoft training](/training/modules/processing-invoices-dynamics-365-business-central/)
-
 ## See also
 
 [Purchasing](purchasing-manage-purchasing.md)  

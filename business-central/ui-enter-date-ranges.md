@@ -345,8 +345,6 @@ To see what unit of measure is being used in a duration field, enter a number. T
 
 For example, if the unit of measure is hours, the number 5 is converted to 5 hrs.
 
-## See related [Microsoft training](/training/modules/explore-modify-info-dynamics-365-business-central/)
-
 ## See also
 
 [Work with [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  

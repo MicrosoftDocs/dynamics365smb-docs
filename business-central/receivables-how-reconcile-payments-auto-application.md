@@ -88,8 +88,6 @@ You can compare the value in the **Balance on Bank Account After Posting** field
 > [!NOTE]  
 >   If you do not want to reconcile the bank account from the **Payment Reconciliation Journal** page, then you must use the **Bank Acc. Reconciliation** page. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
 
-## See related [Microsoft training](/training/modules/use-journals-dynamics-365-business-central/)
-
 ## See also
 
 [Managing Receivables](receivables-manage-receivables.md)  

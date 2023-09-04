@@ -100,8 +100,6 @@ You can post the salvage value together with the acquisition cost from a fixed a
 > [!NOTE]
 > If a salvage value exists for a fixed asset, then that value will be used in depreciation posting instead of the value in the **Ending Book Value** field on the **FA Depreciation Books** page. For more information, see [To manage the ending book value](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## See related [Microsoft training](/training/modules/purchase-fixed-assets/)
-
 ## See also
 
 [Fixed Assets](fa-manage.md) 

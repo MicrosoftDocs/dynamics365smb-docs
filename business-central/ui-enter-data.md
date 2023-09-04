@@ -276,8 +276,6 @@ For example, suppose you're using a numeric keyboard that uses a period (.) as t
 > [!TIP]
 > There may be occasions when you want to use the decimal separator to enter a period (.). For example, suppose you were entering a date range in a filter, like `01/01/2022..04/01/2022`, or anything that requires a period. To accommodate this case, select the <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> keys on the numeric keyboard. This key combination switches the decimal separator between outputting a period and the decimal separator as determined by the **Region** setting.
 
-## See related [Microsoft training](/training/modules/explore-modify-info-dynamics-365-business-central/)
-
 ## See also
 
 [Sorting, Searching, and Filtering Lists](ui-enter-criteria-filters.md)  

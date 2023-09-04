@@ -50,8 +50,6 @@ Your [!INCLUDE [prod_short](includes/prod_short.md)] experience includes an add-
 
 The add-in lets you get fresh data from [!INCLUDE [prod_short](includes/prod_short.md)], and you can push changes back to [!INCLUDE [prod_short](includes/prod_short.md)]. However, the ability to push data back to the database is not available for the financial reports you can view in Excel.  
 
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## See Also
 
 [Viewing and Editing in Excel From Business Central](across-work-with-excel.md)  

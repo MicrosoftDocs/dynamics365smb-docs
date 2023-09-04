@@ -76,8 +76,6 @@ If you want to review posted checks, for example to verify multiple checks paid 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account - Check Details**, and then choose the related link.
 2. Set filters as relevant, and then choose the **Preview** button.
 
-## See related [Microsoft training](/training/modules/use-checks-dynamics-365-business-central/)
-
 ## See also
 
 [Making Payments](payables-make-payments.md)  

@@ -46,8 +46,6 @@ After you set up approval users, you can create workflow responses for approval 
 
 The next step is to specify how you want [!INCLUDE [prod_short](includes/prod_short.md)] to notify people that a request is pending their attention. Learn more at [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md).
 
-## See related [Microsoft training](/training/modules/create-workflows/)
-
 ## See also
 
 [Set Up Workflow Users](across-how-to-set-up-workflow-users.md)  

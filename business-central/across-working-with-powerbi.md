@@ -127,8 +127,6 @@ This message appears if the default report failed to deploy to your Power BI wor
 
 It's probably because the report's name doesn't contain the name of the list page. Clear the filter to get a full list of Power BI reports available.
 
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## See Also
 
 [Business Central and Power BI](admin-powerbi.md)  

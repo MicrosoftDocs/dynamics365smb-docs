@@ -75,8 +75,6 @@ You can also assign item attributes to item categories, which then apply to the 
 
 The items on the **Items** page are filtered by the specified item attribute values.
 
-## See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## See also
 
 [Categorize Items](inventory-how-categorize-items.md)  

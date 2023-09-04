@@ -10,7 +10,7 @@ ms.author: bholtorf
 ---
 # Send Fraud Prevention Data in the United Kingdom
 
-Communication with Her Majesty's Revenue and Customs (HMRC) without fraud prevention headers is not allowed, starting in 2021. [!INCLUDE [prod_short](../../includes/prod_short.md)] communicates with HMRC through Making Tax Digital and supports the requirement to submit data that can help prevent fraud.  
+Communication with His Majesty's Revenue and Customs (HMRC) without fraud prevention headers is not allowed, starting in 2021. [!INCLUDE [prod_short](../../includes/prod_short.md)] communicates with HMRC through Making Tax Digital and supports the requirement to submit data that can help prevent fraud.  
 
 > [!IMPORTANT]
 > Make sure that you have the latest version of the Making Tax Digital app. For more information, see [Making Tax Digital in the United Kingdom](making-tax-digital-submit-vat-return.md).

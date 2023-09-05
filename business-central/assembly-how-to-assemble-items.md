@@ -3,7 +3,7 @@ title: Assemble Items
 description: Learn about assemble-to-order and assemble-to-stock processes in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022

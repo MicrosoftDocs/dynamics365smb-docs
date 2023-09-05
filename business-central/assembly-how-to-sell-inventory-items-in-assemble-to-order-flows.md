@@ -3,7 +3,7 @@ title: Sell Inventory Items in Assemble-to-Order Flows
 description: Assemble-to-order items are assembled for sales orders through an assembly order.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/21/2023
 ms.custom: bap-template

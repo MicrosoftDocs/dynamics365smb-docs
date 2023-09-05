@@ -3,7 +3,7 @@ title: How to Set Up Stockkeeping Units
 description: Use stockkeeping units to record information about your items for a specific location or a specific variant.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/19/2023
 ms.custom: bap-template

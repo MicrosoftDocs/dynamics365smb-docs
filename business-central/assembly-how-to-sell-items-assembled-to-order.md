@@ -3,7 +3,7 @@ title: Sell Items Assembled to Order
 description: Learn how to sell an item that is assembled to order.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022

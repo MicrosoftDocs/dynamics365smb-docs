@@ -6,7 +6,7 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
 ms.search.form: 9204,
 ms.date: 04/01/2021

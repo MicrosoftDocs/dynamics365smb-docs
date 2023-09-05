@@ -3,7 +3,7 @@ title: Ship Items
 description: This article describes how to ship items from your warehouse.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template

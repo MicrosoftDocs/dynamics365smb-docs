@@ -7,7 +7,7 @@ ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization
 ms.date: 06/17/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

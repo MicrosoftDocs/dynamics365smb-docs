@@ -3,7 +3,7 @@ title: Use Automated Data Capture Systems (ADCS)
 description: Learn how to use your automatic data capture system (ADCS) to register the movement of items in the warehouse.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 01/25/2023

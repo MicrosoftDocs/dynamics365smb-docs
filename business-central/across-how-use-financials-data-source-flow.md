@@ -39,7 +39,7 @@ There are three different cloud flow types that you can work with:
 |Flow type|Description|
 |---------|-----------|
 |Automated flow|This flow type is run automatically by an event. In [!INCLUDE[prod_short](includes/prod_short.md)], an event could be when a record or document is created, modified of deleted. So, for example, a new sales invoice can trigger a flow for an approval request, which can have different events set depending on the approver's reply. A negative response sends a notification and email to the approval requester. A positive reply simultaneously updates an Excel spreadsheet located in a SharePoint folder and sends an update to a Teams chat. Automated flows can be started by both internal and external events in [!INCLUDE[prod_short](includes/prod_short.md)].|
-|Approval flow|Approval flows are also automated flows in Power Automate, but they're designed specifically for requesting approval when changes are made. You can use approval flows in Power Automate as an alternative to the [approval workflows feature](across-use-workflows.md) that's part of [!INCLUDE[prod_short](includes/prod_short.md)]. |
+|Approval flow|Approval flows are also automated flows in Power Automate, but they're designed specifically for requesting approval when changes are made to records and data. You can use approval flows in Power Automate as an alternative to the [approval workflows feature](across-use-workflows.md) that's part of [!INCLUDE[prod_short](includes/prod_short.md)]. |
 |Scheduled flow|This type of flow is also automatically run but it runs periodically at a scheduled date and time. |
 |Instant flow|This flow type is run on-demand, requiring the user to run it manually from a button or action in another app or device, in this case, the [!INCLUDE[prod_short](includes/prod_short.md)] client. Instant flows work similarly to batch shortcuts, performing multiple lengthy steps with a few button presses and are launched from specific pages or tables. For example, a flow can add a button to the action menu on the **Vendors** page to block payments to a vendor and, at the same time, send customizable emails to the vendor's contact and your company's purchasers as well as update the contact in Outlook. |
 
@@ -93,6 +93,9 @@ Creating new flows, modifying and managing existing ones (like turning them on o
 
 - To create an automated flow from a list, card, or document page, select **Automate** > **Create automated flow**.
 - To create an approval workflow from a card or document page, select **Automate** > **Create approval flow**.
+
+  > [!TIP]
+  > This action is only available on card and document type pages; not lists.
 - To create an instant flow from a list, card, or document page, select **Automate** > **Create action based on a flow**.
 - To open Power Automate from a list, card, or document page, select **Automate** > **Manage flows**.
 <!--- To create new flows or manage existing flows from inside [!INCLUDE[prod_short](includes/prod_short.md)], got to the **Manage Power Automate Flows** page.-->

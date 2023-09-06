@@ -134,8 +134,6 @@ When you enable this option, the system uses the following rules, but only if yo
 | Non-EU country | EU country different from the country in the **Company Information** | No Intrastat lines |
 | Non-EU country | Non-EU country | No Intrastat lines |   
 
-## See related training at [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## See also
 
 [Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)  

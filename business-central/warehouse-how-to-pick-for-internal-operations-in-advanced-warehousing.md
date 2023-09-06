@@ -167,8 +167,6 @@ The following illustration shows when the **Bin Code** field on the component li
 
 :::image type="content" source="media/binflow.png" alt-text="Overview of when and how the Bin Code field is filled in.":::
 
-## See related [Microsoft training](/training/paths/pick-ship-items-business-central/)
-
 ## See also
 
 [Inventory](inventory-manage-inventory.md)  

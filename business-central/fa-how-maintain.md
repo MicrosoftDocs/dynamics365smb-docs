@@ -85,8 +85,6 @@ In the **Maintenance - Details** report, you can view or print maintenance ledge
 2. Fill in the fields as necessary.
 3. Choose the **Print** or **Preview** button.
 
-## See related [Microsoft training](/training/paths/manage-fixed-assets-maintenance-insurances/)
-
 ## See also
 
 [Fixed Assets](fa-manage.md)  

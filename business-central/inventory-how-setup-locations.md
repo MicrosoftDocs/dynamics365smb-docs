@@ -104,8 +104,6 @@ You fill in the fields in the opposite order, as follows:
 
 The ADM dimension will be copied from location EAST.
 
-## See related training at [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
-
 ## See also
 
 [Manage Inventory](inventory-manage-inventory.md)  

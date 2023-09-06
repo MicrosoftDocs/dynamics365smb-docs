@@ -59,8 +59,6 @@ If no errors occur, then the updates is applied to the report layouts. If errors
 
 After you modify the layout, try to update the layout again.  
 
-## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## See Also  
  [Managing Report Layouts](ui-manage-report-layouts.md)  
  [Work with Reports, Batch Jobs, and XMLports](ui-work-report.md)  

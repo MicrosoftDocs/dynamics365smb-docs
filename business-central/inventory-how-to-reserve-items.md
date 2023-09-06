@@ -102,8 +102,6 @@ The following procedure is based on a sales order.
 7. Choose the **OK** button to open the **Reservation** page showing only supply with the specified item tracking number. If there are any non-specific reservations on any of the item tracking numbers you've specified for this line, you're informed of the quantity that has already been reserved.  
 8. Choose either the **Auto Reserve** or the **Reserve from Current Line** action to create the reservation of the specific item tracking numbers.
 
-## See related [Microsoft training](/training/modules/manage-outbound-serial-lot-numbers/)
-
 ## See also
 
 [Inventory](inventory-manage-inventory.md)  

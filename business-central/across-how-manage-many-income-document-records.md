@@ -47,8 +47,6 @@ All incoming document records are displayed, including records where the **Proce
 > [!NOTE]  
 > You can also perform this action for the individual record on the **Incoming Document Card** page.
 
-## See related [Microsoft training](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## See also
   
 [Create Incoming Document Records](across-how-create-income-document-records.md)

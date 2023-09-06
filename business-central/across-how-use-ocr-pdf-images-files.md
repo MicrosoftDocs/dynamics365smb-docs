@@ -120,8 +120,6 @@ The **OCR Data Correction** page, which you open from the **Incoming Document** 
 
 The fields on the **Financial Information** FastTab on the **Incoming Document** page are updated with any new values that you entered in step 4.
 
-## See related [Microsoft training](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## See also
 
 [Create Incoming Document Records](across-how-create-income-document-records.md)

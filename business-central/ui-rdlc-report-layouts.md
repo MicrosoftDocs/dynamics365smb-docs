@@ -42,8 +42,6 @@ behind RDL/RDLC, and how to use Report Builder.
 > [!NOTE]
 > Report Builder only recognizes .rdl file type;, not .rdlc. Layout files exported from Business Central are .rdlc file types. So to modify these layout in Report Builder, rename the file type to .rdl.
 
-## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## See Also
 
 [Managing Report Layouts](ui-manage-report-layouts.md)  

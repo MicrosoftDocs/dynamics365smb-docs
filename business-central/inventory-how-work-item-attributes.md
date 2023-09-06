@@ -27,7 +27,7 @@ You can also assign item attributes to item categories, which then apply to the 
 3. On the **Item Attribute** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
-> If you select **Option** in the **Type** field you can choose the **Item Attribute Values** action to create values for the item attribute. For more information, see [To create values for item attributes of type Option](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
+> If you select **Option** in the **Type** field you can choose the **Item Attribute Values** action to create values for the item attribute. For more information, see [To create values for item attributes of type Option](inventory-how-work-item-attributes.md#create-values-for-item-attributes-of-type-option).  
 
 ## Create values for item attributes of type Option
 
@@ -40,9 +40,9 @@ You can also assign item attributes to item categories, which then apply to the 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
 2. On the **Items** page, select the item that you want to assign item attributes to, and then choose the **Attributes** action.
 3. On the **Item Attribute Values** page, choose the **New** action.
-4. Choose the lookup button in the **Attribute** field and select an existing item attribute. Alternatively, choose the **New** action to first create a new item attribute as explained in [To create item attributes](inventory-how-work-item-attributes.md#to-create-item-attributes).
+4. Choose the lookup button in the **Attribute** field and select an existing item attribute. Alternatively, choose the **New** action to first create a new item attribute as explained in [To create item attributes](inventory-how-work-item-attributes.md#create-item-attributes).
 5. In the **Value** field, enter the item attribute value, such as "2010" for the **Model Year** attribute.
-6. For item attributes of type **Option**, choose the lookup button in the **Value** field and select an item attribute value. Alternatively, choose the **New** action to first create a new item attribute value as explained in [To create values for item attributes of type Option](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-items).
+6. For item attributes of type **Option**, choose the lookup button in the **Value** field and select an item attribute value. Alternatively, choose the **New** action to first create a new item attribute value as explained in [To create values for item attributes of type Option](inventory-how-work-item-attributes.md#assign-item-attributes-to-items).
 7. Repeat steps 4 through 6 for all item attributes that you want to assign to the item.
 
 ## Assign item attributes to item categories
@@ -50,7 +50,7 @@ You can also assign item attributes to item categories, which then apply to the 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Categories**, and then choose the related link.
 2. On the **Item Categories** page, select the item category that you want to assign item attributes to, and then choose the **Edit** action.
 3. On the **Item Category Card** page, on the **Attributes** FastTab, choose the **New** action.
-4. Choose the lookup button in the **Attribute** field and select an existing item attribute. Alternatively, choose the **New** action to first create a new item attribute as explained in [To create item attributes](inventory-how-work-item-attributes.md#to-create-item-attributes).
+4. Choose the lookup button in the **Attribute** field and select an existing item attribute. Alternatively, choose the **New** action to first create a new item attribute as explained in [To create item attributes](inventory-how-work-item-attributes.md#create-item-attributes).
 5. In the **Default Value** field, choose the lookup button and select an item attribute value.
 6. Repeat steps 4 and 5 for all item attributes that you want to assign to the item category.
 
@@ -74,8 +74,6 @@ You can also assign item attributes to item categories, which then apply to the 
 8. Choose the **OK** button.
 
 The items on the **Items** page are filtered by the specified item attribute values.
-
-## See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## See also
 

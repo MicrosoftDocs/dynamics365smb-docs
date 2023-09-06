@@ -36,8 +36,6 @@ The following table describes a sequence of tasks, with links to the topics that
 |Get tips on how to reorganize locations, bins, or zones to obtain more efficient warehouse activities.|[Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
-## See related [Microsoft training](/training/paths/set-up-warehouse-management/)
-
 ## See also
 
 [Inventory](inventory-manage-inventory.md)  

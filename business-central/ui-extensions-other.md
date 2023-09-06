@@ -17,8 +17,6 @@ At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get exte
 
 The list of the extensions by other companies grows each month. So keep an eye out for [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) and get apps to help you in your work in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## See related [Microsoft training](/training/modules/customize-dynamics-365-business-central/)
-
 ## See also
 
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  

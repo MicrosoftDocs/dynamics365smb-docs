@@ -37,8 +37,6 @@ Optionally, add payment terms to your payment method. For more information, see 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor**, and then choose the related link.
 2. In the **Payment Method Code** field, choose the method to use by default for the customer or vendor.
 
-## See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## See also
 
 [Register New Customers](sales-how-register-new-customers.md)  

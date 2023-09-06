@@ -89,8 +89,6 @@ You can also view videos of new and commonly used capabilities in our video libr
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## See related [Microsoft Learn training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
-
 ## See Also
 
 [Dynamics 365 Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  

@@ -199,8 +199,6 @@ To update prices for multiple items, you must create a new price list, and then 
 
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents, and on job and item journal lines. For more information, see [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## See related [Microsoft training](/training/modules/customer-discounts-dynamics-365-business-central/)
-
 ## See also
 
 [Setting Up Sales](sales-setup-sales.md)  

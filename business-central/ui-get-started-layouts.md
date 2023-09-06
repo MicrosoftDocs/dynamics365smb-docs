@@ -180,8 +180,6 @@ Follow these steps if you want to change the name and description of a user-defi
     > To help you find the layout, use the **Search** box, **Filter** pane, and columns sorting.
 3. Change the **Layout Name**, then select **OK**.
 
-## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## See Also
 
 [Managing Report Layouts](ui-manage-report-layouts.md)  

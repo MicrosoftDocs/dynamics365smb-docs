@@ -113,8 +113,6 @@ If a location uses both put-away processing and receive processing and you have 
 
 5. When you have placed all the items in bins as instructed, choose the **Register Put-away** action.  
 
-## See related [Microsoft training](/training/modules/receive-put-away-items/)
-
 ## See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)

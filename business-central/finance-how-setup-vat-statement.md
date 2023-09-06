@@ -39,8 +39,6 @@ After you define a VAT statement, you can preview it to make sure it meets your 
 4. On the lines where the **Type** field contains **VAT Entry Totaling** you can see a list of VAT entries by choosing the amount in the **Column Amount** field.
 5. You can use personalization to show more fields in the lines. For example the Unrealized Base Amount and Unrealized VAT Amount, if you are using unrealized VAT.
 
-## See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## See also
 
 [Set Up Value-Added Tax](finance-setup-vat.md)  

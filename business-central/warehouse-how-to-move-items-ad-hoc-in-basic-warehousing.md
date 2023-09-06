@@ -89,8 +89,6 @@ Instead of using movement documents, you can record movements by reclassifying b
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## See related [Microsoft training](/training/modules/manage-internal-warehouse-processes/)
-
 ## See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)

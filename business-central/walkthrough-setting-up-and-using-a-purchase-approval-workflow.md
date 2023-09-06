@@ -118,8 +118,6 @@ You define variations of workflows by filling in fields on workflow lines using 
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## See related [Microsoft training](/training/modules/use-approval-workflows/)
-
 ## See also
 
 [Set Up Approval Users](across-how-to-set-up-approval-users.md)  

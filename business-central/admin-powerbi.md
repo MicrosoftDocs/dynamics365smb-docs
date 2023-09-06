@@ -70,8 +70,6 @@ Learn more about Power BI metrics at [Get started with metrics in Power BI](/pow
 - If you're an admin who needs to set up Power BI in [!INCLUDE[prod_short](includes/prod_short.md)], go to [Enabling Power BI Integration](admin-powerbi-setup.md).
 - If Power BI is already set up, and you want to try the features, go to [Work with Power BI Reports in Business Central](across-working-with-powerbi.md).
 
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## See also
 
 [Business Intelligence](bi.md)  

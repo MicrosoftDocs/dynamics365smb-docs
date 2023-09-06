@@ -44,8 +44,6 @@ This topic defines the key terms that are used in cost accounting.
 |Variable cost|Variable costs are expenses that change in proportion to the activity of a business. Variable costs are the sum of marginal costs over all units produced. Fixed costs and variable costs make up the two components of total costs.|  
 |Variant|A variant is used as an optional user-defined label for allocations. The purpose of the label is to filter groups of allocation.|  
 
-## See related [Microsoft training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
-
 ## See also
 
  [About Cost Accounting](finance-about-cost-accounting.md)  

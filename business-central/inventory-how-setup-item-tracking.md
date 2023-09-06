@@ -110,8 +110,6 @@ For bulk imports, use configuration packages to import data to the journals.
 > [!NOTE]
 > You can't use **Edit in Excel** to create journal lines with tracking information.
 
-## See related [Microsoft training](/training/modules/prepare-item-tracking/)
-
 ## See also
 
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  

@@ -90,8 +90,6 @@ The link between the blanket sales order and the originating sales order, and an
 
 5. On the **Sales Lines** page, choose the **Show Document** action to view the entry.
 
-## See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## See also
 
 [Sales](sales-manage-sales.md)  

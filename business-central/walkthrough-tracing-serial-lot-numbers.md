@@ -297,8 +297,6 @@ Then you must create various purchase, production, and sales transactions with t
 
  This completes the walkthrough of how to use the **Find entries** page for defects management in integration with the **Item Tracing** page.  
 
-## See related [Microsoft training](/training/paths/use-serial-lot-numbers/)
-
 ## See also
 
 [Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  

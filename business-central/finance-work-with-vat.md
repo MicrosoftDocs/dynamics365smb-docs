@@ -234,8 +234,6 @@ To view a group of certificates, you start from the **Certificates of Supply** p
 > * To manually create a certificate of supply certificate  
 > * To print a certificate of supply.
 
-## See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## See Also
 
 [Setting Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)  

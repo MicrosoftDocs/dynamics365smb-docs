@@ -58,8 +58,6 @@ You can manually specify the date formula on lines. Otherwise, [!INCLUDE[prod_sh
 3. Stockkeeping Unit Card
 4. Vendor Card
 
-## See related [Microsoft training](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
-
 ## See also
 
 [Date Calculation for Sales](sales-date-calculation-for-sales.md)  

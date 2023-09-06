@@ -106,8 +106,6 @@ The unit cost of an assembly BOM always equals the total of the unit costs of it
 
 The costs of the items that make up the assembly BOM are copied from the component item cards. The cost of each item is multiplied by the quantity, and the total cost is shown in the **Unit Cost** field on the item card.
 
-## See related [Microsoft training](/training/modules/set-up-assembly-items-dynamics-365-business-central/).
-
 ## See also
 
 [Register New Items](inventory-how-register-new-items.md)  

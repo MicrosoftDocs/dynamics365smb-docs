@@ -120,8 +120,6 @@ In scenarios where a part of the quantity is assembled and another must be picke
 > [!NOTE]  
 > If items are assembled to order, the inventory pick for the linked sales order till create an inventory movement for all of the assembly components.  
 
-## See related [Microsoft training](/training/paths/pick-ship-items-business-central/)
-
 ## See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)

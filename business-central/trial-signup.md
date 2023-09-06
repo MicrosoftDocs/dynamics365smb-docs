@@ -38,8 +38,6 @@ You can also contact the [[!INCLUDE[prod_short](includes/prod_short.md)] Sales t
 
 For more information about what you can do with [!INCLUDE [prod_short](includes/prod_short.md)], see [Getting Ready for Doing Business](ui-get-ready-business.md) and [Business Functionality](across-business-functionality.md).  
 
-## See related [Microsoft training](/training/modules/trial-dynamics-365-business-central/)
-
 ## Additional resources
 
 - [Visit our video library](across-videos.md)  

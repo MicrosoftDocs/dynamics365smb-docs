@@ -304,8 +304,6 @@ Use `%myvendors` in the vendor **No** field to display all records for vendors t
 |-----------------------|-----------------------|  
 |`%myvendors`|Vendors in the **My Vendors** on your Role Center. |  
 
-## See related [Microsoft training](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
-
 ## See also
 
 [Searching and Filtering FAQ](ui-search-filter-faq.yml)  

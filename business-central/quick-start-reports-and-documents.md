@@ -65,8 +65,6 @@ The generated report file is automatically saved to your browser's download fold
 
 Learn more about how to customize reports and documents to your business needs at [Report and Document Layouts](ui-manage-report-layouts.md).
 
-## See related training at [Microsoft Learn](/learn/modules/work-with-reports/).
-
 ## See also
 
 [Use Reports in Daily Work](reports-use-reports.md)  

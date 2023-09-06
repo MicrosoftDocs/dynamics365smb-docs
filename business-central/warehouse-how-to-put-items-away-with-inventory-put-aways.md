@@ -83,8 +83,6 @@ A warehouse employee can create a new inventory put-away based on the released s
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## See related [Microsoft training](/training/modules/receive-put-away-items/)
-
 ## See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)

@@ -45,8 +45,6 @@ Switch to the 30-day trial, and then add your own data. For more information, se
 
 You can't. If you accidentally delete sample data, ask your admin to create a new sandbox environment. For more information, see [Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types) in the admin content (in English only).  
 
-## See related [Microsoft training](/training/modules/trial-dynamics-365-business-central/)
-
 ## See also
 
 [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)  

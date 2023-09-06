@@ -27,8 +27,6 @@ The following table covers key business intelligence and reporting functionality
 | Integrate external business intelligence tools with [!INCLUDE[prod_short](includes/prod_short.md)].| [External Business Intelligence Tools](reports-external-analysis.md) |
 |Modify report layouts or even develop your own reports from scratch. |[Developing reports](reports-develop-reports.md)|
 
-## See related [Microsoft training](/training/paths/setup-reporting-dynamics-365-business-central/).
-
 ## See also
 
 [Financial Business Intelligence](bi.md)  

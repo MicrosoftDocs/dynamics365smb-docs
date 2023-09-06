@@ -63,8 +63,6 @@ Additionally, each term in the Finance Charge Terms table is linked to a subtabl
 |%8|Content of the **Currency Code** field on the finance charge memo header|  
 |%9|Content of the **Posting Date** field on the finance charge memo header|  
 
-## See related [Microsoft training](/training/modules/send-memos-dynamics-365-business-central/)
-
 ## See also
 
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  

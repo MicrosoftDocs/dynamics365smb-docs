@@ -47,8 +47,6 @@ The following video covers the basics of fixed assets.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## See related [Microsoft training](/training/paths/manage-fixed-assets-transactions/)
-
 ## See also
 
 [Setting Up Fixed Assets](fa-setup.md)  

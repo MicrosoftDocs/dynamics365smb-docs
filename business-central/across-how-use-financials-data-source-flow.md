@@ -63,7 +63,7 @@ Instant flows open inside [!INCLUDE [prod_short](includes/prod_short.md)] online
 
 1. In the action bar, select **Automate**, then choose a flow from list of available flows under the **Power Automate** action
 
-    :::image type="content" source="media/power-automate-action-intro.png" alt-text="Shows the Automate action in the action bar with expanded actions.":::
+    :::image type="content" source="media/power-automate-instant-menu.svg" alt-text="Shows the Automate action in the action bar with expanded actions.":::
 
     On some page, **Automate** is nested under the **More options (...)**. 
 2. In the **Run Flow** pane, fill in any required fields, then select **Continue** to run the flow.

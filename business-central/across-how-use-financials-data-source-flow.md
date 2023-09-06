@@ -86,7 +86,9 @@ Most flows require you to fill in a field or two before you choose the **Run flo
 
 ## Create, edit, and manage flows
 
-Creating new flows, modifying and managing existing ones (like turning them on or off) can be done directly in Power Automate. But you can initiate some of these tasks from inside [!INCLUDE[prod_short](includes/prod_short.md)]:
+Creating new flows, modifying and managing existing ones (like turning them on or off) can be done directly in Power Automate. But you can initiate some of these tasks from Automate action menu in  [!INCLUDE[prod_short](includes/prod_short.md)]:
+
+:::image type="content" source="media/power-automate-menu.svg" alt-text="Shows the Automate action in the action bar with expanded actions.":::
 
 - To create an automated flow from a list, card, or document page, select **Automate** > **Create automated flow**.
 - To create an approval workflow from a card or document page, select **Automate** > **Create approval flow**.
@@ -95,6 +97,7 @@ Creating new flows, modifying and managing existing ones (like turning them on o
 <!--- To create new flows or manage existing flows from inside [!INCLUDE[prod_short](includes/prod_short.md)], got to the **Manage Power Automate Flows** page.-->
 
 These tasks are typically done by an admin or super user. The tasks require a broader knowledge of the business processes in [!INCLUDE[prod_short](includes/prod_short.md)]. To learn more, go to the following articles in the Business Central Dev and IT Pro help:
+
 - [Power Automate integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview)
 - [Set up automated flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)
 - [Set up instant flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)

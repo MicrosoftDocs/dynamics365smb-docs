@@ -94,7 +94,11 @@ Creating new flows, modifying and managing existing ones (like turning them on o
 - To open Power Automate from a list, card, or document page, select **Automate** > **Manage flows**.
 <!--- To create new flows or manage existing flows from inside [!INCLUDE[prod_short](includes/prod_short.md)], got to the **Manage Power Automate Flows** page.-->
 
-These tasks are typically done by an admin or super user. The tasks require a broader knowledge of the business processes in [!INCLUDE[prod_short](includes/prod_short.md)]. To learn more, explore [Power Automate integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview), [Set Up Instant Flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows), and [Manage Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
+These tasks are typically done by an admin or super user. The tasks require a broader knowledge of the business processes in [!INCLUDE[prod_short](includes/prod_short.md)]. To learn more, go to the following articles in the Business Central Dev and IT Pro help:
+- [Power Automate integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview)
+- [Set up automated flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)
+- [Set up instant flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)
+- [Manage Power Automate flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)
 <!-- 
 
 ## Add more automated flows and instant flows

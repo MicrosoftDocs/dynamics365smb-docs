@@ -1,17 +1,17 @@
 ---
 title: Update Currency Exchange Rates (contains video)
-description: If you track amounts in different currencies, you can let Business Central help you adjust FX exchange rates of posted entries with an external service.
+description: If you track amounts in different currencies, you can let Business Central help you adjust exchange rates.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 03/15/2022
+ms.date: 09/07/2023
 ms.author: bholtorf
 
 ---
 # Update Currency Exchange Rates
 
-You can define different currencies in [!INCLUDE [prod_short](includes/prod_short.md)], for example if you do trade in currencies other than your local currency. Then, to help you keep track of changes in currency exchange rates, you can manage the currencies manually, or you can set up a currency exchange rate service.
+You can define different currencies in [!INCLUDE [prod_short](includes/prod_short.md)], for example if you trade in currencies other than your local currency. Then, to help you keep track of changes in currency exchange rates, you can manage the currencies manually, or you can set up a currency exchange rate service.
 
 ## Currencies
 
@@ -26,7 +26,7 @@ You specify the currency codes in the **Currencies** list, including extra infor
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Exchange Rates
+## Exchange rates
 
 The exchange rates are the tool to calculate the local currency value (LCY) of each currency transaction. The **Exchange Rates** page includes the following fields:
 
@@ -55,7 +55,7 @@ The adjustment exchange rate amount or relational adjustment exchange rate amoun
 >
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
-## Adjusting Exchange Rates
+## Adjusting exchange rates
 
 Because exchange rates fluctuate constantly, additional currency equivalents in your system must be adjusted periodically. If these adjustments are not done, amounts that have been converted from foreign (or additional) currencies and posted to the general ledger in LCY may be misleading. In addition, daily entries posted before a daily exchange rate is entered into application must be updated after the daily exchange rate information is entered.
 
@@ -88,7 +88,8 @@ For bank accounts, the batch job adjusts the currency by using the exchange rate
 
 The adjustment entries for the bank account's general ledger account and for the gain/loss account are assigned the bank account's default dimensions.
 
-### Effect on G/L Accounts
+### Effect on G/L accounts
+
 If you post in an additional reporting currency, you can have the batch job create new general ledger entries for currency adjustments between LCY and the additional reporting currency. The batch job calculates the differences for each general ledger entry and adjusts the general ledger entry depending on the contents of the **Exchange Rate Adjustment** field for each general ledger account.
 
 ##### Dimensions on G/L Account Entries

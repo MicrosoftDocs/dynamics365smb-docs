@@ -4,14 +4,13 @@
     services: project-madeira
     documentationcenter: ''
     author: brentholtorf
-
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 07/01/2017
+    ms.date: 09/07/2023
     ms.author: sgroespe
 
 ---

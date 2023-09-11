@@ -9,11 +9,11 @@ Increase warehouse handling efficiency by having accurate and real-time informat
 
 From source documents such as sales orders, production orders, assembly orders, or jobs, you can access information about the availability of items in your warehouse. The information is real-time, and respects factors that affect availability, such as dedicated bins, locked bins, and items that aren't available for picking. For example, items might be reserved, or pending put-away or shipment operations. The **Pick Summary** page lets you review the items that [!INCLUDE [prod_short](prod_short.md)] didn’t include in pick documents and take the necessary actions.
 
-## Set up previews
+### Set up previews
 
 To get details on what's being picked and what isn't, turn on the **Show Summary (Directed Put-away and Pick)** toggle on the **Whse.-Source - Create Document** or **Whse.-Shipment - Create Pick** request pages.
 
-## Determine the quantity you can pick
+### Determine the quantity you can pick
 
 On lines on the **Create Warehouse Pick Summary** page, the **Qty. to Handle (Base)** field shows which, and how many, items [!INCLUDE [prod_short](prod_short.md)] tried to pick. The **Summary** FactBox provides additional details.
 
@@ -25,7 +25,7 @@ If the pickable quantity is different than the quantity in pickable bins, you mi
 
 The **Quantity in Warehouse** field shows the total quantity you'll find in your warehouse if you do a physical count. You can drill down to the warehouse ledger entries from this field. If the field shows a quantity that's less than the quantity in the **Quantity in Pickable Bins**, there's a misalignment between warehouse and inventory quantities. In that case, use the **Calculate Warehouse Adjustment** action on the **Item Journal** page, and then create the warehouse pick again.
 
-## Reservations
+### Reservations
 
 If there are reservations for the item being picked, then calculation continues. The idea is that reserved demand has higher priority than non-reserved, which means that picking for non-reserved demand shouldn't prevent picking for reserved demand later.
 
@@ -43,8 +43,8 @@ These quantities might be available, but you probably can't pick them yet becaus
 
 The difference between **Avail. Qty. Excluding Shipment Bin** and reserved quantity in warehouse is the quantity available for picking without impacting reserved stock.
 
-## Other details
+### Other details
 
 If items require item tracking, you can find the quantity in blocked lots or serial numbers as well, which reduces the pickable quantity, available quantity excluding the shipment bin, and the reserved quantity in warehouse. 
 
-If you pick the same item for multiple source documents or lines, which is also the case when you pick serial numbers, information about picks for others lines also displays because it reduces the pickable quanity.
+If you pick the same item for multiple source documents or lines, which is also the case when you pick serial numbers, information about picks for others lines also displays because it reduces the pickable quantity.

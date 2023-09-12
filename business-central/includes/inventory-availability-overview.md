@@ -9,6 +9,9 @@ Increase warehouse handling efficiency by having accurate and real-time informat
 
 From source documents such as sales orders, production orders, assembly orders, or jobs, you can access information about the availability of items in your warehouse. The information is real-time, and respects factors that affect availability, such as dedicated bins, locked bins, and items that aren't available for picking. For example, items might be reserved, or pending put-away or shipment operations. The **Pick Summary** page lets you review the items that [!INCLUDE [prod_short](prod_short.md)] didn’t include in pick documents and take the necessary actions.
 
+> [!NOTE]
+> This capability requires that you turn on the **Directed Put-away and Pick** toggle for the locations you use in your picking process.
+
 ### Set up previews
 
 To get details on what's being picked and what isn't, turn on the **Show Summary (Directed Put-away and Pick)** toggle on the **Whse.-Source - Create Document** or **Whse.-Shipment - Create Pick** request pages.
@@ -24,6 +27,21 @@ The **Pickable Qty.** is the maximum quantity that [!INCLUDE [prod_short](prod_s
 If the pickable quantity is different than the quantity in pickable bins, you might want to explore the bin content to find blocked bins or quantities in active documents.
 
 The **Quantity in Warehouse** field shows the total quantity you'll find in your warehouse if you do a physical count. You can drill down to the warehouse ledger entries from this field. If the field shows a quantity that's less than the quantity in the **Quantity in Pickable Bins**, there's a misalignment between warehouse and inventory quantities. In that case, use the **Calculate Warehouse Adjustment** action on the **Item Journal** page, and then create the warehouse pick again.
+
+The following image illustrates the maximum quantity considered for picking.
+
+:::image type="content" source="../media/pickable-qty.png" alt-text="Maximum quantity considered for picking.":::
+
+**Legend**
+
+|Letter  |Description  |
+|---------|---------|
+|P     |Bins with content of type Pick​         |
+|D     |Bins with content of type Pick marked as Dedicated bins ​       |
+|A     |Bins with content of type Pick in the active documents (like another pick)       |
+|T     |Bins with content of type Pick with items with blocked tracking​         |
+|B     |Bins with content of type Pick with blocked outbound movement​         |
+|O     |Other bins         |
 
 ### Reservations
 

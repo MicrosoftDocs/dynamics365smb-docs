@@ -19,8 +19,7 @@ ms.author: bholtorf
 
 This article shows the typical steps that you should follow when reporting Norwegian VAT.  
 
-> [!IMPORTANT]
-> This article assumes that you have set up VAT reporting. For more information, see [Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md) and [Report VAT to Tax Authorities](../../finance-how-report-vat.md).
+This article assumes that you have set up VAT reporting. For more information, see [Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md) and [Report VAT to Tax Authorities](../../finance-how-report-vat.md).
 
 ## Set Up Business Central to Generate and Submit Electronic VAT Returns
 

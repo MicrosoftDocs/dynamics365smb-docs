@@ -3,7 +3,7 @@ title: Sell Items Assembled to Order
 description: Learn how to sell an item that is assembled to order.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
@@ -59,8 +59,6 @@ In this procedure, you process the sale of an item that will be assembled accord
 
 > [!NOTE]  
 > Item substitutions don't automatically replace an item with another item, for example, when creating a sales order or in a BOM. Instead, you'll be alerted to the fact that a substitution is available.
-
-## See related [Microsoft training](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## See also
 

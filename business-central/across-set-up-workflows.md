@@ -42,8 +42,6 @@ This video shows how to set up a workflow requiring a user to request someone el
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## See related [Microsoft training](/training/modules/create-workflows/)
-
 ## See also
 
 [Use Approval Workflows](across-use-workflows.md)  

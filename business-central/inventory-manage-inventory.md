@@ -55,8 +55,6 @@ The following table outlines related tasks.
 |Manage business operations in sales offices, purchasing departments, or plant planning offices across multiple locations.|[Work with Responsibility Centers](inventory-responsibility-centers.md)|
 |Use resources with specific functions for various services and service items.|[Set Up Resource Allocation](service-how-setup-resource-allocation.md)|
 
-## See related [Microsoft training](/training/paths/get-started-inventory-management/)
-
 ## See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)

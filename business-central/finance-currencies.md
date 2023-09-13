@@ -30,8 +30,6 @@ You specify the currency codes in the **Currencies** list, including extra infor
 
 The exchange rates are the tool to calculate the local currency value (LCY) of each currency transaction. For more information, see [Update Currency Exchange Rates](finance-how-update-currencies.md).  
 
-## See related [Microsoft training](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## See Also
 
 [Set Up Currencies](finance-set-up-currencies.md)  

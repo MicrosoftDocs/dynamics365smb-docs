@@ -126,8 +126,6 @@ When something is wrong, [!INCLUDE[prod_short](includes/prod_short.md)] will dis
 > [!NOTE]
 > The error handling described above is not available on item, resource, employee, and fixed asset journals, or for G/L accounts added in local versions of posting groups.
 
-## See related [Microsoft training](/training/modules/posting-groups-dynamics-365-business-central/)
-
 ## See also
 
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  

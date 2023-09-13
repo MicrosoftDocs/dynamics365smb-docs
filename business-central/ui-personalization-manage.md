@@ -63,8 +63,6 @@ You can delete individual page customizations that you have made for a profile. 
 
 The layout on the selected pages is adjusted to the changes you made.
 
-## See related [Microsoft training](/training/paths/tailor-roles-design-ui/)
-
 ## See also
 
 [Personalize Your Workspace](ui-personalization-user.md)  

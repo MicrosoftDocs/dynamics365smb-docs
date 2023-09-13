@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
 ms.search.form: 283 
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---

@@ -3,7 +3,7 @@ title: Move Items in Warehouses That Use Directed Put-away and Pick
 description: This article explains how to move items in locations that use directed put-away and pick.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
@@ -137,8 +137,6 @@ If you must register the fact that items has been already moved to other bins wi
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Whse. Reclassification Journal**, and then choose the related link.  
 2. Fill in the **Item No.**, **From Zone Code**, **From Bin Code**, **To Zone Code**, and **To Bin Code** fields.  
 3. Choose the **Register** action.  
-
-## See related [Microsoft training](/training/modules/manage-internal-warehouse-processes/)
 
 ## See Also
 

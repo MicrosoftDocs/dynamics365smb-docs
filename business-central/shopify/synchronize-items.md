@@ -35,7 +35,7 @@ A third scenario is to manage data in Shopify but import those items in bulk to 
 |**From Shopify**| Choose this option if you plan to import products from Shopify in bulk, either manually using the **Sync Product** action or using the job queue for recurring updates. Learn more in the [Import items from Shopify](synchronize-items.md#import-items-from-shopify) section.|
 
 > [!NOTE]
-> Changing **Sync Item** from **From Shopify** to **To Shopify** won't have an effect unless you enable **Can Update Shopify Products**.
+> Changing **Sync Item** from **From Shopify** to **To Shopify** won't have an effect unless you enable **Can Update Shopify Products**. 
 
 ## Import items from Shopify
 
@@ -93,7 +93,7 @@ You manage the process of exporting items using these settings:
 |**SKU Field Separator**|Define a separator for the **Item. No + Variant Code** option.|
 |**Inventory Tracked**| Choose how the system should populate the **Track Inventory** field for products exported to Shopify. You can update availability information from [!INCLUDE[prod_short](../includes/prod_short.md)] for products in Shopify whose track inventory is enabled. Learn more in the [Inventory](synchronize-items.md#sync-inventory-to-shopify) section.|
 |**Default Inventory Policy**|Choose *Deny* to prevent negative stock on the Shopify side.|
-|**Can Update Shopify Products**|Define this field if [!INCLUDE[prod_short](../includes/prod_short.md)] can only create items or can update items as well. Select this option if, after the initial sync is triggered by the **Add Item** action, you plan to update products manually using the **Sync Product** action or using the job queue for recurring updates. Remember to select **To Shopify** in the **Item Sync** field.<br>**Can Update Shopify Products** doesn't have impact on synchronization of prices, images or inventory levels, which are configured by independent controls.<br>If **Can Update Shopify Products** is enabled, following fields on Shopify side will be updated on product and if needed variant level: **SKU**, **Barcode**, **Weight**. The **Title**, **Product Type**, **Vendor**, **Description** on product will be also updated if exported values are not empty. For description this means you need to enable any of the **Sync Item Extended Text**, **Sync Item Marketing Text**, **Sync Item Attributes** toggles and  attributes, extended or marketing text must have values. If product uses variants, then variant will be added or removed if necessary.|
+|**Can Update Shopify Products**|Define this field if [!INCLUDE[prod_short](../includes/prod_short.md)] can only create items or can update items as well. Select this option if, after the initial sync is triggered by the **Add Item** action, you plan to update products manually using the **Sync Product** action or using the job queue for recurring updates. Remember to select **To Shopify** in the **Item Sync** field.<br>**Can Update Shopify Products** doesn't have impact on synchronization of prices, images or inventory levels, which are configured by independent controls.<br>If **Can Update Shopify Products** is enabled, following fields on Shopify side will be updated on product and if needed variant level: **SKU**, **Barcode**, **Weight**. The **Title**, **Product Type**, **Vendor**, **Description** on product will be also updated if exported values are not empty. For description this means you need to enable any of the **Sync Item Extended Text**, **Sync Item Marketing Text**, **Sync Item Attributes** toggles and  attributes, extended or marketing text must have values. If product uses variants, then variant will be added or removed if necessary. <br>Note that if the product on Shopify configured to use variant matrix that combines two or more options the Shopify Connector cannot create variant for that product. In [!INCLUDE[prod_short](../includes/prod_short.md)] there is no way to define option matrix, that's why connector uses the **Variant Code** as the only option. However Shopify expects several options and refuses to create variant if information about second and other options is missing. |
 
 ### Fields-mapping overview
 
@@ -101,6 +101,7 @@ You manage the process of exporting items using these settings:
 |------|-----------------|-----------------|
 |Status|According to the **Status for Created Products** field in the **Shopify Shop Card**. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
 |Title | **Description**. If the language code is defined and a corresponding item translation exists, the item translation will be used instead of the description.|**Description**|
+|Variant title | **Variant Code**.|**Description** of variant|
 |Description|Combines extended texts, marketing text, and attributes if you enable the corresponding toggles on the Shopify shop card. Respects the language code.|Not used.|
 |SEO page title|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
 |SEO meta description|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
@@ -147,6 +148,10 @@ The resulting items are automatically created in Shopify with prices. Depending 
 Alternatively, use the **Sync Products** action on the **Shopify Products** page or search for the **Sync Products** batch job.
 
 You can schedule the task to be performed in an automated manner. Learn more at [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
+
+### URL and Preview URL
+
+Item added to Shopify or imported from Shopify might have the **URL** or **Preview URL** populated. The **URL** field will be empty if product is not published to the online store, for example because its status is draft. The **URL** will be empty if store is password protected, for example because this is development store. In most cases you can use **Preview URL** to check how the product will look once published.
 
 ### Ad-hoc updates of Shopify products
 
@@ -204,7 +209,7 @@ You manage the process of exporting prices using these settings:
 |**Allow Line Disc.**|Specifies whether you allow a line discount when calculating prices for Shopify. This setting applies only for prices on the item. Prices for the customer price group have their own toggle on lines.|
 |**Prices including VAT**|Specifies whether price calculations for Shopify include VAT. Learn more at [Set up Taxes](setup-taxes.md).|
 |**VAT Business Posting Group**|Specifies which VAT business posting group is used to calculate prices in Shopify. This should be the group you use for domestic customers. Learn more at [Set up Taxes](setup-taxes.md).|
-|**Currency Code**|Enter a currency code only if your online shop uses a different currency than the local currency (LCY). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDEprod_short], leave the field empty.|
+|**Currency Code**|Enter a currency code only if your online shop uses a different currency than the local currency (LCY). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty.|
 
 You can export prices for synchronized items in the two ways described below.
 

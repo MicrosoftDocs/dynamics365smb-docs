@@ -107,8 +107,6 @@ Choose the *Change when I receive notifications* link to view or change the noti
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
-
 ## See also
 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

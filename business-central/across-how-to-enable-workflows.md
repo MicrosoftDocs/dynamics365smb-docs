@@ -22,8 +22,6 @@ On the **Workflow** page, create a workflow by listing the involved steps on the
 2. Open the workflow that you want to enable.  
 3. On the **Workflow** page, turn on the **Enabled** toggle.  
 
-## See related [Microsoft training](/training/modules/create-workflows/)
-
 ## See also
 
 [Create Approval Workflows](across-how-to-create-workflows.md)  

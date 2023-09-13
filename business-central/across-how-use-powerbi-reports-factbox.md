@@ -118,8 +118,6 @@ Verify that the page you want displayed is the first page in your report.
 
 Verify that the report size is set to 325 pixels x 310 pixels. Save the report, and then refresh the list page.  
 
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## See Also
 
 [Enabling Your Business Data for Power BI](admin-powerbi.md)  

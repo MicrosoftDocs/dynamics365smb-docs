@@ -40,8 +40,6 @@ The Power BI integration with [!INCLUDE[prod_short](includes/prod_short.md)] inc
 
 You can also create visual reports based on [!INCLUDE[prod_short](includes/prod_short.md)] by using the **Microsoft Excel Document (data only)** file type option on report request pages. Learn more at [Run and Print Reports](ui-work-report.md).
 
-## See related training at [Microsoft Learn](/learn/paths/use-power-bi).
-
 ## See also
 
 [Business Analysis and Financial Reporting](bi.md)  

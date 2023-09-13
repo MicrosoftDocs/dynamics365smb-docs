@@ -57,8 +57,6 @@ Examples of approval workflows events include the creation of sales or purchase 
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## See related [Microsoft training](/training/modules/create-workflows/)
-
 ## See also
 
 [Sales](sales-manage-sales.md)  

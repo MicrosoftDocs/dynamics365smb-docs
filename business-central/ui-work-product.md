@@ -80,8 +80,6 @@ When you search for an open a list page, such as the **Sales Orders** list, it i
 
 But when you open the same list page from your home page, the **Manage** action is not present. Instead, to open an individual sales order, you just choose the **Number** field. In this view, you cannot pin the action bar.  
 
-## See related [Microsoft training](/training/paths/work-pro-data-dynamics-365-business-central/)
-
 ## See Also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  

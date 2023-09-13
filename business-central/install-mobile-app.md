@@ -2,7 +2,6 @@
 title: Get Business Central on Your Mobile Device (contains video)
 description: This topic describes the various ways you can view and edit your Business Central data, send to Excel and more on your phone or tablet.
 author: jswymer
-
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -53,8 +52,6 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you 
 
 > [!NOTE]
 > If you're having problems getting the app to work properly, talk with your administrator. It could be a missing prerequisite or an incomplete configuration. For more information, see  [Preparing the environment for the mobile app](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) or [Troubleshooting the Business Central Mobile App On-Premises](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
-
-## See related [Microsoft training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## See Also
 

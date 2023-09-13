@@ -61,8 +61,6 @@ To connect Business Central on-premises, you must create an app on the Tradeshif
 
 If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the OnGetClientId and OnGetClientSecret events in codeunit 1410 "Doc. Exch. Service Mgt."
 
-## See related [Microsoft training](/training/modules/electronic-documents-dynamics-365-business-central/)
-
 ## See Also
 
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  

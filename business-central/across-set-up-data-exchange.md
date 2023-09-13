@@ -33,8 +33,6 @@ Before you can send and receive electronic documents or import and export bank f
 |Prepare to set up a new data exchange definition for a data file or stream by using the file’s XML schema to prefill the **Column Definitions** FastTab on the **Posting Exchange Definition** page.|[Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Set up the Data Exchange Framework to enable users to receive a new purchase document format, send a new sales document format, import a new bank file, or other data exchange.|[Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## See related [Microsoft training](/training/modules/electronic-documents-dynamics-365-business-central/)
-
 ## See also
 
 [Exchanging Data Electronically](across-data-exchange.md)  

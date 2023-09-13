@@ -118,11 +118,6 @@ Deciding on whether to use a Word, Excel, or RDLC layout type will depend on how
 For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
 
 -->
-
-
-
-## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## See Also
 
 [Update Custom Report Layouts](ui-update-report-layouts.md)  

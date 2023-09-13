@@ -238,8 +238,6 @@ In a ledger entry page, you can see whether there are global dimensions for the 
 > [!NOTE]  
 > The **Ledger Entry Dimensions** page displays the dimensions one ledger entry at a time. You'll see as you scroll through the ledger entries, the content on the **Ledger Entry Dimensions** page changes accordingly.
 
-## See related [Microsoft training](/training/modules/dimensions-dynamics-365-business-central/index)
-
 ## See also
 
 [Business Intelligence](bi.md)  

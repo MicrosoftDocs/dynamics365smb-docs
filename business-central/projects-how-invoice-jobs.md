@@ -61,8 +61,6 @@ You can create an invoice from a job planning lines, and indicate at that time t
 > [!NOTE]  
 >   The above procedure is similar for creating, reviewing, and posting a job-related sales credit memo.
 
-## See related [Microsoft training](/training/paths/post-job-usage-sales/)
-
 ## See also
 
 [Managing Projects](projects-manage-projects.md)  

@@ -78,8 +78,6 @@ Currency synchronization is unidirectional, from [!INCLUDE [prod_short](includes
 * Amounts in the [!INCLUDE[prod_short](includes/cds_long_md.md)] base currency convert to the [!INCLUDE [prod_short](includes/prod_short.md)] local currency based on the latest exchange rate synchronized from [!INCLUDE [prod_short](includes/prod_short.md)].
 * Amounts in the [!INCLUDE [prod_short](includes/prod_short.md)] local currency synchronize with the [!INCLUDE [prod_short](includes/prod_short.md)] local currency in one of the other (non-base) currencies in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-## See related [Microsoft training](/training/modules/use-model-driven-apps-common-data-service/)
-
 ## See also
 
 [Data Ownership Models](admin-cds-company-concept.md)  

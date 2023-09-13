@@ -3,7 +3,7 @@ title: Transfer Items Between Warehouse Locations
 description: Learn how to move inventory from one place or warehouse to another, either with the reclassification journal or with transfer orders.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/21/2023
 ms.custom: bap-template
@@ -124,8 +124,6 @@ If you find a mistake in a quantity on a posted transfer order, as long as the s
 If the quantity was shipped in a warehouse shipment, a corrective line is created in the posted warehouse shipment.
 
 To complete the correction, reopen the transfer order, enter the correct quantity, and then post the order. If you're using a warehouse shipment to ship the order, create and post a new warehouse shipment.
-
-## See related [Microsoft training](/training/modules/transfer-items/)
 
 ## See also
 

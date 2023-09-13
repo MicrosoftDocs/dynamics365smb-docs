@@ -159,8 +159,6 @@ For details about planning with locations and transfers, see [Planning With or W
 > [!TIP]
 > When you're working on the **Requisition Worksheet** or **Planning Worksheet** pages, you can organize the lines by sorting on a column name. This is especially useful on the Planning Worksheet page because they it can be used for multilevel production orders. By default, lines are sorted by the **Item No.** field. To group lines for a multilevel order, sort by the **Ref. Order No.** field. Also, the **MPS Order** and **Planning Level** fields can help show the hierarchy of the lines.
 
-## See related [Microsoft training](/training/modules/plan-items-dynamics-365-business-central/)
-
 ## See also
 
 [Design Details: Supply Planning](design-details-supply-planning.md)  

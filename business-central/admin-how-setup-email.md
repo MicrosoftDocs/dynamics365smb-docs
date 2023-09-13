@@ -2,14 +2,12 @@
 title: Set up email in Business Central (contains video)
 description: Describes how to connect email accounts to Business Central so that you can send outbound messages without having to open another app.
 author: brentholtorf
+ms.author: bholtorf
 ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 07/17/2023
-ms.author: bholtorf
+ms.date: 09/13/2023
+ms.custom: bap-template
 ---
 
 # Set Up Email
@@ -56,9 +54,11 @@ The following table describes the email extensions that are available by default
 If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](includes/prod_short.md)], you can use the SMTP Connector extension. When you set up an account that uses SMTP, the **Sender Type** field is important. If you choose **Specific User**, emails will be sent using the name and other information from the account you're setting up. However, if you choose **Current User**, emails will be sent from the email account specified for each user's account. Current User is similar to the Send As feature. For more information, see [Use a Substitute Sender Address on Outbound Email Messages](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can use OAuth 2.0 protocol for authentication. You must create an application registration in the Azure portal, and then run the **Set up Azure Active Directory** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Azure AD. For more information, see [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can use OAuth 2.0 protocol for authentication. To use OAuth for SMTP, all users must be on the same Microsoft Entra tenant. 
+> 
+> You must create an application registration in the Azure portal, and then run the **Set up Azure Active Directory** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Azure AD. For more information, see [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
-> Exchange Online is deprecating use of Basic authentication for SMPT. Tenants that are currently using SMTP AUTH won't be affected by this change. However, we strongly recommend using the latest version of [!INCLUDE [prod_short](includes/prod_short.md)] and setting up OAuth 2.0 authentication for SMTP. We will not add certificate-based authentication for earlier versions of [!INCLUDE [prod_short](includes/prod_short.md)], for example, version 14. If you can't set up OAuth 2.0 authentication, we encourage you to explore third-party alternatives if you want to use SMTP email in earlier versions.
+> Exchange Online is deprecating use of Basic authentication for SMTP. Tenants that are currently using SMTP AUTH won't be affected by this change. However, we strongly recommend using the latest version of [!INCLUDE [prod_short](includes/prod_short.md)] and setting up OAuth 2.0 authentication for SMTP. We will not add certificate-based authentication for earlier versions of [!INCLUDE [prod_short](includes/prod_short.md)], for example, version 14. If you can't set up OAuth 2.0 authentication, we encourage you to explore third-party alternatives if you want to use SMTP email in earlier versions.
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
@@ -273,8 +273,6 @@ After you register your application in Azure portal, in [!INCLUDE[prod_short](in
 18. The **Verify Registration** button becomes available. 
 
 -->
-
-## See related [Microsoft training](/training/modules/set-up-email/)
 
 ## See Also
 

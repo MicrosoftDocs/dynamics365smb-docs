@@ -12,6 +12,9 @@ ms.author: bholtorf
 ---
 # Norwegian VAT Reporting in the Norwegian Version
 
+> [!IMPORTANT]
+> There qill be changes in the new ID-porten in Norway. Microsoft will update Norwegian Electronic VAT submission solution to the new ID-porten system in the 23.2 release.  
+
 [!INCLUDE[prod_short](../../includes/prod_short.md)] provides features that allow you to calculate and report VAT returns to the Norwegian tax authorities.  
 
 This article shows the typical steps that you should follow when reporting Norwegian VAT.  

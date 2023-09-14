@@ -6,7 +6,7 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: desktop, Windows, app
+ms.search.keywords: desktop, Windows, app, mobile
 ms.date: 09/07/2023
 ms.author: jswymer
 ---
@@ -37,7 +37,7 @@ You should now have access to [!INCLUDE[prod_short](includes/prod_short.md)] and
 
 ## Use Business Central on-premises?
 
-If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can also enjoy the benefits of the mobile app. The installation is similar, but with a couple exceptions.
+If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can also enjoy the benefits of the mobile app. The installation is similar, but with a couple of exceptions.
 
 1. Install the [!INCLUDE[prod_short](includes/prod_short.md)] app on your mobile device by downloading the app from the App Store or Google Play.  
 

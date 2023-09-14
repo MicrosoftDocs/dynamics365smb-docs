@@ -12,7 +12,7 @@ ms.date: 09/01/2022
 ms.author: bholtorf
 
 ---
-# Invoice Sales
+# Invoice sales
 
 You can usually create either a sales order or sales invoice to record your agreement with a customer to sell certain products on certain delivery and payment terms.  
 

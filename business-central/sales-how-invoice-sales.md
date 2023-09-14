@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.search.form: 43, 48, 9301
-ms.date: 09/01/2022
+ms.date: 09/07/2023
 ms.author: bholtorf
 
 ---
@@ -24,11 +24,11 @@ However, you must use a sales order instead of a sales invoice if you:
 
 In all other situations, sales orders and sales invoices work in the same way. Learn more about how to use sales orders at [Sell Products](sales-how-sell-products.md).
 
-You can negotiate with the customer by first creating a sales quote, which you can convert to a sales invoice when you agree on the sale.Learn more at [Make Sales Quotes](sales-how-make-offers.md).
+You can negotiate with the customer by first creating a sales quote, which you can convert to a sales invoice when you agree on the sale. Learn more at [Make Sales Quotes](sales-how-make-offers.md).
 
 ## Create sales invoices
 
-If the customer decides to buy, you post the sales invoice to create the related quantity and value entries. When you post the sales invoice, you can also email it as a PDF attachment. You can prefill the email body with a summary of the invoice and payment information, such as providing a link to PayPal. Learn more at [Send Documents by Email](ui-how-send-documents-email.md). When the customer then pays the invoice, you can register that payment in different ways, depending on the size and preferred workflows of your organization. Learn more at [Registering Payments](#registering-payments) section.  
+If the customer decides to buy, you post the sales invoice to create the related quantity and value entries. When you post the sales invoice, you can also email it as a PDF attachment. You can prefill the email body with a summary of the invoice and payment information, such as providing a link to PayPal. Learn more at [Send Documents by Email](ui-how-send-documents-email.md). When the customer pays the invoice, you can register that payment in different ways, depending on the size and preferred workflows of your organization. Learn more at [Registering Payments](#register-payments) section.  
 
 Item cards can be of the **Inventory**, **Service**, or **Non-Inventory** type to specify if the item is a physical inventory unit, a labor time unit, or a physical unit not kept on inventory, respectively. Learn more at [Register New Items](inventory-how-register-new-items.md). The sales invoice process is the same for all three item types.
 
@@ -36,11 +36,11 @@ You can fill customer fields on the sales invoice in one of two ways, depending 
 
 ### To create a sales invoice
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, then choose the related link.  
-2. In the **Customer** field, enter the name of an existing customer. If, however, the customer is new and therefore not registered, follow these steps to populate standard customer information on the **Sales Invoice** page:
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.  
+2. In the **Customer Name** field, enter the name of an existing customer. If, however, the customer is new and therefore not registered, follow these steps to populate standard customer information on the **Sales Invoice** page:
 
     1. In the **Customer Name** field, enter the name of the new customer.
-    2. In the dialog box about registering the new customer, choose **Yes**.
+    2. In the dialog box about registering the new customer, choose **OK**.
     3. On the **Select a template for a new customer** page, choose a template to base the new customer card on, then choose **OK**.
     4. A new customer card displays the information on the selected customer template. Fill in the remaining fields. Learn more at [Register New Customers](sales-how-register-new-customers.md).  
     5. When you've completed the customer card, choose **Close** to return to the **Sales Invoice** page.
@@ -54,7 +54,8 @@ You can fill customer fields on the sales invoice in one of two ways, depending 
     You're now ready to fill in the **Lines** FastTab with products you are selling to the customer or for any transaction with the customer you want to record in a general ledger (G/L) account.
 
 4. On the **Lines** FastTab, in the **Type** field, select the type of product, charge, or transaction you'll post for the customer on the sales line.
-   * If you've set up recurring sales lines for the customer, such as a monthly replenishment order, you can reflect that in the order by choosing the **Get Recurring Sales Lines** action.
+   > [!TIP]
+   > If you've set up recurring sales lines for the customer, such as a monthly replenishment order, you can reflect that in the order by choosing the **Get Recurring Sales Lines** action.
 5. In the **No.** field, select a record to post according to the value in the **Type** field.
 
     You leave the **No.** field blank in the following cases:
@@ -78,7 +79,8 @@ You can fill customer fields on the sales invoice in one of two ways, depending 
     The totals fields under the lines are automatically updated, as you create or modify lines, to display the amounts that will be posted to the ledgers.
 
     > [!NOTE]
-    > In very rare cases, the posted amounts may deviate from what is displayed in the totals fields. This is typically due to rounding calculations in relation to VAT or sales tax.<br /><br />To check the amounts to actually be posted, you can use the **Statistics** page, which takes into account the rounding calculations. Also, if you choose the **Release** action, the totals fields will be updated to include rounding calculations.
+    > In very rare cases, the posted amounts may deviate from what is displayed in the totals fields. This is typically due to rounding calculations in relation to VAT or sales tax.<br /><br />To verify the amounts you’ll post, use the **Customer Statistics** FactBox. Also, when you choose the **Release** action, the values in the totals fields will update to include rounding calculations.
+
 9. In the **Inv. Discount Amount Excl. Tax** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field.
 
     If you have set up invoice discounts for the customer, then the specified percentage value is automatically inserted in the **Invoice Discount %** field if the discount criteria are met, and the related amount is inserted in the **Inv. Discount Amount Excl. Tax** field. Learn more at [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
@@ -89,7 +91,7 @@ The **Post and Send Confirmation** dialog box displays the customer's preferred 
 
 The related item and customer ledger entries are now created in your system, and the sales invoice is output as a PDF document. The sales invoice is removed from the list of sales invoices and replaced with a new document in the list of posted sales invoices.  
 
-### Calculating invoice discounts on sales
+### Calculate invoice discounts on sales
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
@@ -101,7 +103,7 @@ You can easily correct or cancel a posted sales invoice before it is paid. This 
 
 [Open the **Posted Sales Invoices** list](https://businesscentral.dynamics.com/?page=143) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## Registering payments
+## Register payments
 
 Depending on your business needs, you can get paid and register a payment in different ways: manually, automatically, and through payment services.  
 
@@ -114,7 +116,7 @@ In business environments where the customer pays immediately, for example by Pay
 You can even create directly paid invoices for non-registered customers by setting up a "cash customer" card for them, which you point to on the sales invoice. Learn more at [Set Up Cash Customers](finance-how-to-set-up-cash-customers.md).  
 
 > [!TIP]
-> If you want to send your customers reminders of overdue payments, you need to set up reminder levels and terms first. Learn more at [Set Up Reminder Terms and Levels](finance-setup-reminders.md).  
+> If you want to send your customers reminders of overdue payments, you need to first set up reminder levels and terms. Learn more at [Set Up Reminder Terms and Levels](finance-setup-reminders.md).  
 
 ## External document numbers
 

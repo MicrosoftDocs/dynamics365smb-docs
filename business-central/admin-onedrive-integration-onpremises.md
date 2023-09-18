@@ -117,7 +117,7 @@ This change has implications when switching to the new OneDrive integration, dep
 
 #### How the changes affect the integration
 
-The **OneDrive Setup** assisted setup will always use the app that's configured in the **Set up your Microsoft Entra accountss** assisted setup, if there's one. When you run the **OneDrive Setup** assisted setup, it will compare the app configured in **Set up your Microsoft Entra accounts** with your current app configured in **SharePoint Connection Setup**.
+The **OneDrive Setup** assisted setup will always use the app that's configured in the **Set up your Microsoft Entra accounts** assisted setup, if there's one. When you run the **OneDrive Setup** assisted setup, it will compare the app configured in **Set up your Microsoft Entra accounts** with your current app configured in **SharePoint Connection Setup**.
 
 > [!TIP]
 > In the **SharePoint Connection Setup** page and **Set up your Microsoft Entra accounts** assisted setup, the Microsoft Entra app is identified by the **client ID**.

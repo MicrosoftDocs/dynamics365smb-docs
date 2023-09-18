@@ -258,7 +258,7 @@ After you register your application in Azure portal, in [!INCLUDE[prod_short](in
 3. In Microsoft Entra ID, search for **App registrations**, and then open the **App registrations** page.
 4. Choose **New registration**.
 5. In the **Name** field, enter a name for your app.
-6. Under **Supported account types**, choose either the **Accounts in any organizational directory (Any Microsoft Entra ID Directory - Multitenant)** or **Accounts in any organizational directory (Any Microsoft Entra ID Directory - Multitenant) and personal Microsoft accounts (/e.g. Skype, Xbox)** options, depending on your needs. If you're unsure, choose **Help me choose** for more information.
+6. Under **Supported account types**, choose either the **Accounts in any organizational directory (Any Microsoft Entra Directory - Multitenant)** or **Accounts in any organizational directory (Any Microsoft Entra Directory - Multitenant) and personal Microsoft accounts (/e.g. Skype, Xbox)** options, depending on your needs. If you're unsure, choose **Help me choose** for more information.
 7. Under **Redirect URI (optional)**, choose **Web**, paste the URL you copied from the **Redirect URL** field in the assisted setup guide in Business Central, and then choose **Register**.
 8. On the navigation pane, choose **Overview**, and then copy the value in the **Application (client) ID** field.
 9. In [!INCLUDE[prod_short](includes/prod_short.md)], in the assisted setup guide, paste the ID in **Client ID** field.

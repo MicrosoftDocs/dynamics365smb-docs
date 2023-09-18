@@ -19,7 +19,7 @@ Administrators must complete multiple activities before users can access [!INCLU
 
 Setting up access with Microsoft 365 licenses involves the following tasks:
 
-||Task|Required|
+|Step|Task|Required|
 |-|-|-|
 |1|[Configure which Business Central data the Microsoft 365 licensed users have permission to view](#configure-permissions)|![check mark](media/check.png "check")|
 |2|[Enable access with Microsoft 365 licenses on the Business Central environment](#enable-access-with-microsoft-365-licenses)|![check mark](media/check.png "check")|

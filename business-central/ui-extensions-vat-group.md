@@ -2,14 +2,13 @@
 title: The VAT Group Management Extension for the United Kingdom
 description: You can engage with other businesses to form a VAT group where all members report VAT in a single return.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: soalex
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: VAT, value added tax, report
 ms.search.form: 4700, 4701, 4703, 4704, 4705, 4706, 4707, 4708, 4709, 
-ms.date: 07/08/2022
-ms.author: bholtorf
+ms.date: 09/18/2023
+
 ---
 
 # The VAT Group Management Extension for the United Kingdom
@@ -33,7 +32,7 @@ Participants in the group must be licensed to use [!INCLUDE[prod_short](includes
 
 The following is the recommended order of steps an administrator uses to set up a VAT group:
 
-1. Create the setup in [Microsoft Entra ID for the group members](#azure-active-directory-setup-for-group-members).
+1. Create the setup in [Microsoft Entra ID setup for group members](#microsoft-entra-id-setup-for-group-members).
 2. Share the technical information VAT group members and the group representative need to connect their [!INCLUDE[prod_short](includes/prod_short.md)] tenants. Usually, the group representative has this information, such as the [API URL](#group-api-setup) and the name of the VAT group representative's environment the VAT group members submit their VAT data to.
 3. Create users that VAT group members will use to authenticate when they connect to the VAT group representative's [!INCLUDE[prod_short](includes/prod_short.md)]. The users must have full user licenses for [!INCLUDE[prod_short](includes/prod_short.md)].
 4. Run the **Set Up VAT Group Management** assisted setup guide to connect the VAT group members.
@@ -106,7 +105,7 @@ After you complete the setup, [!INCLUDE[prod_short](includes/prod_short.md)] wil
 ### VAT group representative uses Business Central on-premises
 
 1. Enter the user credentials provided by the VAT group representative and choose **Next**.
-2. In the **Client ID** field, specify the client ID from the app registration in [Microsoft Entra ID](#azure-active-directory-setup-for-group-members).
+2. In the **Client ID** field, specify the client ID from the app registration in [Microsoft Entra ID setup for group members](#microsoft-entra-id-setup-for-group-members).
 3. In the **Client Secret** field, specify the client secret from the app registration in Microsoft Entra ID.
 4. In the **OAuth 2.0 Authority Endpoint** field, enter `https://login.microsoftonline.com/common/oauth2`.
 5. In the **OAuth 2.0 Resource URL** field, enter `https://api.businesscentral.dynamics.com/`.

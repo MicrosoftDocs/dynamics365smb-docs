@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: dcenic
 ms.topic: how-to
-ms.date: 02/27/2023
+ms.date: 09/18/2023
 ms.custom: bap-template
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.search.form: 1680, 1811, 5076
@@ -104,7 +104,7 @@ The new experience does not support connections to Exchange on-premises.
 -->
 ## Connect to Exchange Online
 
-To connect to Exchange Online you must register an application in Microsoft Entra ID. Provide the application ID, key vault secret, and the redirect URL to use for the registration. The redirect URL is pre-set and should work for most installations. For more information, see [To register an application in Microsoft Entra ID for connecting from Business Central to Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
+To connect to Exchange Online you must register an application in Microsoft Entra ID. Provide the application ID, key vault secret, and the redirect URL to use for the registration. The redirect URL is pre-set and should work for most installations. For more information, see [To register an application in Microsoft Entra ID for connecting from Business Central to Exchange Online](#to-register-an-application-in-microsoft-entra-id-for-connecting-from-business-central-to-exchange-online). 
 
 You must also use **OAuth2** as the **Authentication Type**. You must also register an application in Microsoft Entra ID. Provide the application ID, key vault secret, and the redirect URL to use for the registration. The redirect URL is pre-populated and should work for most installations. For more information, see To register an application in Microsoft Entra ID for connecting from Business Central to Exchange Online below.
 

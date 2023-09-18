@@ -71,7 +71,7 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
 
     - With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you assign licenses in your Azure tenant using the Azure portal.
 
-      Learn more at [Azure Directory - Assign or remove licenses in the Microsoft Entra ID portal](/azure/active-directory/fundamentals/license-users-groups).
+      Learn more at [Azure Directory - Assign or remove licenses in the Microsoft Entra portal](/azure/active-directory/fundamentals/license-users-groups).
 
 2. Install the Universal Print connector for registering printers that can't communicate with Universal Print directly.
 
@@ -102,7 +102,7 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
 
 6. Enable document conversion.
 
-    Universal Print renders content for print in XPS format. Some legacy in-market printers don't support XPS content rendering&mdash;in many cases, only PDF format. Printing to these printers will fail unless Universal Print is set up to convert documents to the printer-supported format.
+    Universal Print renders content for print in XPS format. Some legacy in-market printers don't support XPS content rendering&mdashin many cases, only PDF format. Printing to these printers will fail unless Universal Print is set up to convert documents to the printer-supported format.
 
     Learn more at [Document Conversion Overview](/universal-print/portal/document-conversion).
 

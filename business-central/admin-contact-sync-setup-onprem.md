@@ -21,7 +21,7 @@ Contact synchronization requires using the OAuth 2.0 protocol for authentication
 ## Prerequisites
 
 - Exchange Online, either a standalone version or through Microsoft 365 plan  
-- Access to the Microsoft Entra ID  tenant used by Exchange Online
+- Access to the Microsoft Entra tenant used by Exchange Online
 - [!INCLUDE[prod_short](includes/prod_short.md)] users have a Microsoft 365 or Exchange Online email account, which is assigned to their accounts in [!INCLUDE[prod_short](includes/prod_short.md)]. You can check this setting in the **Microsoft 365 Authentication** section of user profile in the **Users** list. 
 
 ## Set up contact sync

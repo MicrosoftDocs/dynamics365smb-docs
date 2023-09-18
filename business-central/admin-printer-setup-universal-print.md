@@ -153,11 +153,11 @@ Complete these steps to connect to the Universal Print service for the first-tim
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Management**, then select the related link.
 2. Select **Universal Print** > **Add all Universal Print printers** to start the **Add Universal Print Printers** assisted setup guide (wizard).
-3. Follow the on-screen instructions until you get to the Microsoft Entra ID SERVICE PERMISSIONS page.
+3. Follow the on-screen instructions until you get to the MICROSOFT ENTRA ID SERVICE PERMISSIONS page.
 
-    <!--The Microsoft Entra ID SERVICE PERMISSIONS page appears. You'll be prompted to give consent to Azure Services. You'll be lead through the process of verifying your Microsoft Entra ID setup, checking your Universal Print license, and then adding the printers.-->
+    <!--The MICROSOFT ENTRA ID SERVICE PERMISSIONS page appears. You'll be prompted to give consent to Azure Services. You'll be lead through the process of verifying your Microsoft Entra ID setup, checking your Universal Print license, and then adding the printers.-->
 
-   ![Shows the Microsoft Entra ID SERVICE PERMISSIONS page](media/azure-ad-services-permissions.png "Shows the Microsoft Entra ID SERVICE PERMISSIONS page")
+   ![Shows the MICROSOFT ENTRA ID SERVICE PERMISSIONS page](media/azure-ad-services-permissions.png "Shows the MICROSOFT ENTRA ID SERVICE PERMISSIONS page")
 
 4. Select the **Authorize Azure Services** link.
 

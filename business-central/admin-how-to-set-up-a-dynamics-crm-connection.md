@@ -27,7 +27,7 @@ There are a few pieces of information to have ready before you create the connec
 
 > [!Note]
 > These steps describe the procedure for [!INCLUDE[prod_short](includes/prod_short.md)] online.
-> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises and are not using Microsoft Entra account to connect to [!INCLUDE [cds_long_md](includes/cds_long_md.md)], you must also specify a user name and password of a user account for the integration. This account is referred to as the "integration user" account. If you're using a Microsoft Entra account, the integration user account is not required or displayed. The integration user will be set up automatically and does not require a license.
+> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises and are not using a Microsoft Entra account to connect to [!INCLUDE [cds_long_md](includes/cds_long_md.md)], you must also specify a user name and password of a user account for the integration. This account is referred to as the "integration user" account. If you're using a Microsoft Entra account, the integration user account is not required or displayed. The integration user will be set up automatically and does not require a license.
 
 ## Set up a connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
@@ -181,7 +181,7 @@ To avoid disrupting integrations, _you must upgrade_ the connection to use certi
 
 To connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], you must specify some information on the **Dataverse Connection Setup** page.
 
-To connect using a Microsoft Entra ID  account, you must register an application in Microsoft Entra ID. You'll have to provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you're setting up your server to have a different home page, you can change the URL. The client secret will be saved as an encrypted string in your database. 
+To connect using a Microsoft Entra account, you must register an application in Microsoft Entra ID. You'll have to provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you're setting up your server to have a different home page, you can change the URL. The client secret will be saved as an encrypted string in your database. 
 
 ### To register an application in Microsoft Entra ID for connecting from Business Central to Dataverse
 

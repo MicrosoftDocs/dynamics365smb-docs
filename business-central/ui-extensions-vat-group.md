@@ -54,7 +54,7 @@ VAT group members who have [!INCLUDE[prod_short](includes/prod_short.md)] on-pre
 When the VAT group member's administrator creates the app registration in Microsoft Entra ID, they must specify the following information.
 
 * In the **Authentication** section, add **Web** as a platform, and use the following **Redirect URL**: `https://businesscentral.dynamics.com/OAuthLanding.htm`.
-* In the **Authentication** section, in the option to select **Supported account types**, select **Accounts in any organizational directory (Any Microsoft Entra ID directory - Multitenant)**.
+* In the **Authentication** section, in the option to select **Supported account types**, select **Accounts in any organizational directory (Any Microsoft Entra directory - Multitenant)**.
 * In the **Certificates & secrets** section, create a new client secret and note the value. The VAT group members will need the secret when they set up the connection to the group representative.
 * In the **API permissions** section, add permissions to [!INCLUDE[prod_short](includes/prod_short.md)]. Enable delegated access to **Financials.ReadWrite.All** and **user_impersonation**.
 * In the **Overview** section, note the **Application (client) ID**. The VAT group members will need the ID when they set up the connection to the group representative.

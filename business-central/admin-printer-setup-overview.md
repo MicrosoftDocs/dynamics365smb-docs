@@ -27,7 +27,7 @@ To support your print needs, [!INCLUDE[prod_short](includes/prod_short.md)] offe
 Most of the work for setting up printers can be done from the **Printer Management** page in [!INCLUDE[prod_short](includes/prod_short.md)]. Although with Universal Print printers, you may also have to work in in Microsoft 365 admin center or the Azure Portal.
 
 > [!IMPORTANT]
-> For Business Central on-premises, Universal Print and Email Print require that Azure Active Directory (AD) or NavUserPassword authentication is used.
+> For Business Central on-premises, Universal Print and Email Print require that Microsoft Entra ID or NavUserPassword authentication is used.
 
 ## Custom printer extensions
 

@@ -21,18 +21,18 @@ Contact synchronization requires using the OAuth 2.0 protocol for authentication
 ## Prerequisites
 
 - Exchange Online, either a standalone version or through Microsoft 365 plan  
-- Access to the Azure Active Directory (Azure AD) tenant used by Exchange Online
+- Access to the Microsoft Entra ID  tenant used by Exchange Online
 - [!INCLUDE[prod_short](includes/prod_short.md)] users have a Microsoft 365 or Exchange Online email account, which is assigned to their accounts in [!INCLUDE[prod_short](includes/prod_short.md)]. You can check this setting in the **Microsoft 365 Authentication** section of user profile in the **Users** list. 
 
 ## Set up contact sync
 
 Complete the following steps to set up contact sync. If you're running [!INCLUDE[prod_short](includes/prod_short.md)] Spring 2019 (v.14), you'll have to do an extra step that either modifies application code or sets up a connection to Power BI.
 
-1. <a name="registerapp"></a>Register an app for Exchange Online API in your Azure AD tenant.
+1. <a name="registerapp"></a>Register an app for Exchange Online API in your Microsoft Entra tenant.
 
-   In this step, you add a registered app in the Azure AD tenant of your Microsoft 365 or Exchange Online plan. Like other Azure services that work with Business Central, Exchange Online requires a registered app in Azure AD. The registered app provides authentication and authorization services between Business Central and Exchange Online.
+   In this step, you add a registered app in the Microsoft Entra tenant of your Microsoft 365 or Exchange Online plan. Like other Azure services that work with Business Central, Exchange Online requires a registered app in Microsoft Entra ID. The registered app provides authentication and authorization services between Business Central and Exchange Online.
 
-   Follow the detailed instructions in the developer and IT pro help at [Register an application in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). As you go through the instructions, remember the following points:
+   Follow the detailed instructions in the developer and IT pro help at [Register an application in Microsoft Entra ID](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). As you go through the instructions, remember the following points:
 
    - If you've already registered an application as part of an integration with another Microsoft product, such as Power BI, then reuse that registered app. In this case, you'll just have to set up the app with the Office 365 Exchange Online permissions described in the next bullet.
 

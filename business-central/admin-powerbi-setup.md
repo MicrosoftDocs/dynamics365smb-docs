@@ -59,7 +59,7 @@ Whenever possible, you're encouraged to use API pages instead of OData web servi
 
 This section explains the requirements for a [!INCLUDE[prod_short](includes/prod_short.md)] on-premises deployment to integrate with Power BI.
 
-1. Configure either NavUserPassword or Azure Active Directory Authentication for the deployment.  
+1. Configure either NavUserPassword or Microsoft Entra authentication for the deployment.  
     
     > [!NOTE]
     > Power BI integration doesn't support Windows authentication and is not supported on Windows Client.
@@ -80,17 +80,17 @@ This section explains the requirements for a [!INCLUDE[prod_short](includes/prod
 
 4. Create an application registration for [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure.
 
-    To view Power BI reports embedded in [!INCLUDE[prod_short](includes/prod_short.md)] pages, an application must be registered for [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure. The registered application needs permission to Power BI services. At a minimum, the app requires  **User.ReadWrite.All** permission. For users to view reports from shared Power BI workspaces, the app requires **Workspace.Read.All** permission. For more information, see [Registering [!INCLUDE[prod_short](includes/prod_short.md)] On-Premises in Azure AD for Integrating with Other Services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
+    To view Power BI reports embedded in [!INCLUDE[prod_short](includes/prod_short.md)] pages, an application must be registered for [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure. The registered application needs permission to Power BI services. At a minimum, the app requires  **User.ReadWrite.All** permission. For users to view reports from shared Power BI workspaces, the app requires **Workspace.Read.All** permission. For more information, see [Registering [!INCLUDE[prod_short](includes/prod_short.md)] On-Premises in Microsoft Entra ID for Integrating with Other Services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
     > [!NOTE]
-    > If your deployment uses NavUserPassword authentication, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the same Power BI service for all users. You'll specify this service account as part of registering the application. With Azure AD authentication, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Power BI service associated with the individual user accounts.
+    > If your deployment uses NavUserPassword authentication, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the same Power BI service for all users. You'll specify this service account as part of registering the application. With Microsoft Entra authentication, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Power BI service associated with the individual user accounts.
 
     <!-- Windows authentication can also be used but you can't get data from BC in Power BI -->
 5. Make the initial connection from Business Central to Power BI.
 
     Before end-users can use Power BI in [!INCLUDE[prod_short](includes/prod_short.md)], an Azure application administrator will have to give consent to the Power BI service.
 
-    To make the initial connection, open [!INCLUDE[prod_short](includes/prod_short.md)], and run **Get Started with Power BI** from the Home page. This action will lead you through the consent process, and check your Power BI license. When prompted sign in using an Azure admin account. For more information, see [Connect to Power BI - one time only](across-working-with-powerbi.md#connect).
+    To make the initial connection, open [!INCLUDE[prod_short](includes/prod_short.md)], and run **Get Started with Power BI** from the Home page. This action will lead you through the consent process, and check your Power BI license. When prompted sign in using a Microsoft admin account. For more information, see [Connect to Power BI - one time only](across-working-with-powerbi.md#connect).
 
 ## See Also
 

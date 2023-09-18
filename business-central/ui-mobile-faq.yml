@@ -67,7 +67,7 @@ sections:
       - question: |
           Can a guest user use the app to access our Business Central solution?
         answer: |
-          No. Guest users are invited users from a different Azure Active Directory (AD) tenant than yours. In this case, the app will authenticate to the guest user's primary Azure AD 
+          No. Guest users are invited users from a different Microsoft Entra tenant than yours. In this case, the app will authenticate to the guest user's primary Microsoft Entra ID 
           tenant and try open the Business Central endpoint on that tenant instead of yours.  
 
 additionalContent: |

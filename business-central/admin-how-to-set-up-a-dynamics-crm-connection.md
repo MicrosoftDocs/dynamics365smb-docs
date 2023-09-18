@@ -27,7 +27,7 @@ There are a few pieces of information to have ready before you create the connec
 
 > [!Note]
 > These steps describe the procedure for [!INCLUDE[prod_short](includes/prod_short.md)] online.
-> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises and are not using Azure Active Directory account to connect to [!INCLUDE [cds_long_md](includes/cds_long_md.md)], you must also specify a user name and password of a user account for the integration. This account is referred to as the "integration user" account. If you're using an Azure Active Directory account, the integration user account is not required or displayed. The integration user will be set up automatically and does not require a license.
+> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises and are not using Microsoft Entra account to connect to [!INCLUDE [cds_long_md](includes/cds_long_md.md)], you must also specify a user name and password of a user account for the integration. This account is referred to as the "integration user" account. If you're using a Microsoft Entra account, the integration user account is not required or displayed. The integration user will be set up automatically and does not require a license.
 
 ## Set up a connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
@@ -181,11 +181,11 @@ To avoid disrupting integrations, _you must upgrade_ the connection to use certi
 
 To connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], you must specify some information on the **Dataverse Connection Setup** page.
 
-To connect using an Azure Active Directory (Azure AD) account, you must register an application in Azure AD. You'll have to provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you're setting up your server to have a different home page, you can change the URL. The client secret will be saved as an encrypted string in your database. 
+To connect using a Microsoft Entra ID  account, you must register an application in Microsoft Entra ID. You'll have to provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you're setting up your server to have a different home page, you can change the URL. The client secret will be saved as an encrypted string in your database. 
 
-### To register an application in Azure AD for connecting from Business Central to Dataverse
+### To register an application in Microsoft Entra ID for connecting from Business Central to Dataverse
 
-The following steps assume that you use Azure AD to manage identities and access. For more information about registering an application in Azure AD, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). 
+The following steps assume that you use Microsoft Entra ID to manage identities and access. For more information about registering an application in Microsoft Entra ID, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). 
 
 1. In the Azure Portal, under **Manage** on the Navigation Pane, choose **Authentication**.  
 2. Under **Redirect URLs**, add the redirect URL that is suggested on the **Dataverse Connection Setup** page in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -201,7 +201,7 @@ The following steps assume that you use Azure AD to manage identities and access
 6. Choose **Overview**, and then find the **Application (client) ID** value. This ID is the Client ID of your application. You must enter it either on the **Dataverse Connection Setup** page in the **Client ID** field, or store it in a secure storage and provide it in an event subscriber.
 7. In [!INCLUDE[prod_short](includes/prod_short.md)], on the **Dataverse Connection Setup** page, in the **Environment URL** field, enter the URL for your [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment.
 8. To enable the connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)], turn on the **Enabled** toggle.
-9. Sign in with your administrator account for Azure Active Directory (this account must have a valid license for [!INCLUDE[cds_long_md](includes/cds_long_md.md)] and be an administrator in your [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment). After you sign in, you will be prompted to allow your registered application to sign in to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on behalf of the organization. You must give consent to complete the setup.
+9. Sign in with your administrator account for Microsoft Entra ID (this account must have a valid license for [!INCLUDE[cds_long_md](includes/cds_long_md.md)] and be an administrator in your [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment). After you sign in, you will be prompted to allow your registered application to sign in to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] on behalf of the organization. You must give consent to complete the setup.
 
    > [!NOTE]
    > If you aren't prompted to sign in with your administrator account, it is probably because pop ups are blocked. To sign in, allow pop-ups from `https://login.microsoftonline.com`.

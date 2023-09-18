@@ -10,7 +10,7 @@ ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics365-business-central
 ---
-# Minimum Requirements for Using Business Central
+# Minimum requirements for using Business Central
 
 Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we recommend that you verify that your computer or mobile device meets or exceeds the minimum system requirements for the product. This article lists the requirements.  
 
@@ -23,7 +23,7 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] is designed to work with the current version of Safari on macOS.  
 
 > [!TIP]
-> Install the [!INCLUDE[prod_short](includes/prod_short.md)] app in the Start menu using the Microsoft Edge or Chrome browsers. For more information, see [Install the app for Business Central online](https://learn.microsoft.com/en-us/dynamics365/business-central/install-desktop-app#install-the-app-for-business-central-online).
+> Install the [!INCLUDE[prod_short](includes/prod_short.md)] app in the Start menu using the Microsoft Edge or Chrome browsers. For more information, see [Install the app for Business Central online](/dynamics365/business-central/install-desktop-app#install-the-app-for-business-central-online).
 
 ## Mobile devices
 
@@ -35,7 +35,7 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 
 **Outlook applications:** To use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook, you'll need Outlook 2019 or later, Outlook on the web, Outlook for iOS, or Outlook for Android. Your organization must also use Microsoft 365. You can't use [!INCLUDE[prod_short](includes/prod_short.md)] online as your business inbox in Outlook if your organization uses Exchange Server on-premises. 
 
-**Browsers:** When using [!INCLUDE[prod_short](includes/prod_short.md)] as your business inbox in Outlook in a browser, the add-in requires that your computer is running one of the listed supported browsers that are listed earlier in this article.
+**Browsers:** When using [!INCLUDE[prod_short](includes/prod_short.md)] as your business inbox in Outlook in a browser, the add-in requires that your computer is running one of the supported browsers that are listed earlier in this article.
 
 **Platforms:** When using the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook Add-In in Outlook for iOS or Outlook for Android, the add-in requires that your mobile device is running one of the listed supported mobile devices for [!INCLUDE[prod_short](includes/prod_short.md)].  
 

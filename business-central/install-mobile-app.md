@@ -6,8 +6,8 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: desktop, Windows, app, mobile
-ms.date: 09/07/2023
+ms.search.keywords: desktop, Windows, app
+ms.date: 09/11/2023
 ms.author: jswymer
 ---
 

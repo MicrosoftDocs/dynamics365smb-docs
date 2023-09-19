@@ -67,7 +67,7 @@ A link won't expand into a card in the following situations:
 
 - The link targets a page that (at a technical level) isn't connected to a source table in [!INCLUDE [prod_short](includes/prod_short.md)]. You can check whether a page has a source table by using the page inspection pane in the Web client in [!INCLUDE [prod_short](includes/prod_short.md)]. For more information about page inspection, see [Inspecting Pages](across-inspect-page.md).
 - Teams doesn't support link previews in some of its features. For example, when you pop out a chat, or you're a guest to another organization.
-- Network issues cause Teams to silently abandon trying to display the card after 15 seconds, for example. because of .
+- Network issues cause Teams to silently abandon trying to display the card after 15 seconds, for example.
 - Teams may not expand the link if you've already pasted a link into the same message compose box and deleted the card.
 
 The link must also contain all the necessary information to locate the record and display the corresponding card. This information includes:

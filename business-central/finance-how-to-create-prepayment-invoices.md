@@ -74,8 +74,6 @@ You can issue other prepayment invoices for the order. To issue another invoice,
 
 You can speed up order and invoice processing by setting up job queue entries that automatically update the status of those documents. When a prepayment invoice is paid, the job queue entries can automatically change the document status from **Pending Prepayment** to **Released**. When you set up the job queue entries, the codeunits you'll need to use are **383 Upd. Pending Prepmt. Sales** and **383 Upd. Pending Prepmt. Purchase**. We recommend that you schedule the entries to run frequently, for example, every minute. For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
 
-## See related [Microsoft training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
-
 ## See also
 
 [Invoicing Prepayments](finance-invoice-prepayments.md)  

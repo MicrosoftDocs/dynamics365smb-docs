@@ -1,9 +1,7 @@
 ---
 title: Delete Remittance Payment Orders [NO]
 description: Orders can be deleted if they are managed in full and are in a closed financial year. 
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 06/18/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Delete Remittance Payment Orders in the Norwegian Version
 

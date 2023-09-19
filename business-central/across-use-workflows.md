@@ -1,7 +1,7 @@
 ---
 title: Using Approval Workflows
 description: You can set up and use workflows to connect business-process tasks such as automatic posting or requesting and granting approval for new records. 
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,8 +9,7 @@ ms.workload: na
 ms.search.keywords: 
 ms.search.form: 1500, 1501, 1503, 1504, 1505
 ms.date: 09/13/2022
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Use Approval Workflows
 
@@ -64,8 +63,6 @@ Before you can begin using workflows, you must set up workflow users, create the
 | Create workflow steps that restrict a certain record type from being used before a certain event occurs, for example, approval of the record. | [Restrict and Allow Usage of a Record](across-how-to-restrict-and-allow-usage-of-a-record.md) |
 | View workflow step instances with **Completed** status. | [View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) |
 | Delete an approval workflow that will no longer be used. | [Delete Approval Workflows](across-how-to-delete-workflows.md) |
-
-## See related [Microsoft training](/training/modules/create-workflows/)
 
 ## See also
 

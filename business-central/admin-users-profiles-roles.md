@@ -1,5 +1,4 @@
 ---
-
 title: Manage users and roles
 description: Learn how to manage user profiles and Role Centers in Business Central. Profiles allow administrators to centrally define and manage what users can see and do.
 author: brentholtorf
@@ -167,8 +166,6 @@ You can also delete individual page customizations for a profile. For more infor
 As the administrator of [!INCLUDE[prod_short](includes/prod_short.md)] online, you can manage user sessions in the administration center. For more information, see [Managing Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions) in the administration content.  
 
 For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can manage sessions using SQL Server Management Studio, for example. For more information, see [SQL Server technical documentation](/sql/sql-server).  
-
-## See related [Microsoft training](/training/modules/users-security-dynamics-365-business-central/)
 
 ## See also
 

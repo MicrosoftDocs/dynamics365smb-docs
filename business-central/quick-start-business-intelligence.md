@@ -1,7 +1,7 @@
 ---
 title: Business Intelligence Quick Start
 description: Learn how Business Central helps you transform company data into actionable insights using business intelligence reports and dashboards.
-author: rubenseishima
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.search.form: 
 ms.date: 08/17/2022
-ms.author: a-reishima
+ms.author: bholtorf
 ---
 
 # Business Intelligence Quick Start
@@ -39,8 +39,6 @@ The report upload takes a few minutes, but you can resume working on [!INCLUDE[p
 The Power BI integration with [!INCLUDE[prod_short](includes/prod_short.md)] includes a sample dashboard for the Cronus demonstration company. More ready-to-use dashboards and dataset connectors can be easily installed by browsing the **Apps** section in the Power BI website. There you'll see available apps for [!INCLUDE[prod_short](includes/prod_short.md)] that integrate and display data from finance, sales, and other areas. Learn more about the Power BI features in this [Business Central and Power BI](admin-powerbi.md) article, and see how to create your own dashboards at [Get started creating in the Power BI service](/power-bi/fundamentals/service-get-started).
 
 You can also create visual reports based on [!INCLUDE[prod_short](includes/prod_short.md)] by using the **Microsoft Excel Document (data only)** file type option on report request pages. Learn more at [Run and Print Reports](ui-work-report.md).
-
-## See related training at [Microsoft Learn](/learn/paths/use-power-bi).
 
 ## See also
 

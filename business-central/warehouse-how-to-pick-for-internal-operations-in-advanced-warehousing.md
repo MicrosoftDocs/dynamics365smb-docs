@@ -9,7 +9,6 @@
     ms.search.keywords:
     ms.date: 09/02/2022
     ms.author: bholtorf
-
 ---
 # Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations
 
@@ -39,7 +38,7 @@ Use **Warehouse Pick** documents for picking production components in the flow t
 For a location that uses bins to move items to open shop floor bins, you can use the following methods:
 
 * For a location that uses directed put-away and pick, follow the steps in the [Move Items in advanced warehouse configurations](warehouse-how-to-move-items-in-advanced-warehousing.md) article.
-* For other locations, follow the stapes in the [Move Items Unplanned in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) article.
+* For other locations, follow the steps in the [Move Items Unplanned in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) article.
 
 ## Assembly  
 
@@ -167,8 +166,6 @@ The following steps describe the actions that different people take and the rela
 The following illustration shows when the **Bin Code** field on the component list is filled according to your location or machine/work center setup.  
 
 :::image type="content" source="media/binflow.png" alt-text="Overview of when and how the Bin Code field is filled in.":::
-
-## See related [Microsoft training](/training/paths/pick-ship-items-business-central/)
 
 ## See also
 

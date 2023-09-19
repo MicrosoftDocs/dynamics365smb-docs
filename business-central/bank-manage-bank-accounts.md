@@ -1,8 +1,7 @@
 ---
 title: Manage Bank Accounts
 description: You must regularly reconcile bank ledger entries with the related bank transactions in your bank accounts.
-author: edupont04
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,8 +9,7 @@ ms.workload: na
 ms.search.keywords: reconcile
 ms.search.form: 377, 378, 165, 1284
 ms.date: 06/14/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Manage and Reconcile Your Bank Accounts
 
@@ -33,8 +31,6 @@ The following table describes a sequence of tasks, with links to the topics that
 
 > [!TIP]
 > Use bank reconciliation to help verify that your books are up-to-date, and do not post the reconciliation until you are satisfied with the reconciliation.
-
-## See related [Microsoft training](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
 
 ## See Also
 

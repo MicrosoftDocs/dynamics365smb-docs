@@ -1,9 +1,7 @@
 ---
 title: Set Up Journal Templates and Batches (IT)
 description: Learn about how the Italian version supports the requirement that all European Union (EU) companies must submit Intrastat reports to the customs office.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.form: 12119, 12132, 12140
 ms.date: 04/01/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Set Up Journal Templates and Batches
 All European Union (EU) companies must submit Intrastat reports to the customs office, detailing their trade with other EU countries/regions for the current year. An Intrastat summary report is presented to the tax authorities monthly, quarterly, or yearly depending upon the company's business.  

@@ -1,16 +1,14 @@
 ---
 title: Transferring and Posting Cost Entries
 description: Before you define cost allocations, you must understand the various sources that cost entries come from.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form:  1100, 1103, 1104, 1108, 1113, 1135
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Transferring and Posting Cost Entries
@@ -100,8 +98,6 @@ For single cost entries, [!INCLUDE[prod_short](includes/prod_short.md)] transfer
 ### Cost Register
 
 In the **Cost Register** table, [!INCLUDE[prod_short](includes/prod_short.md)] creates an entry with the source transfer from general ledger. The entry records the first and last entry numbers of the general ledger entries that are transferred, in addition to the first and last entry numbers of the cost entries that are created.
-
-## See related [Microsoft training](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
 
 ## See also
 

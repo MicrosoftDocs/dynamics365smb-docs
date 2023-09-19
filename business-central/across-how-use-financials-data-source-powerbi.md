@@ -181,8 +181,6 @@ Starting in February 2022, new reports that use Business Central data will conne
 9. Select **Done**.
 10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
 
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## See Also
 
 [Enabling Your Business Data for Power BI](admin-powerbi.md)  

@@ -1,12 +1,11 @@
 ---
 title: Manage Storage by Deleting Documents or Compressing Data
 description: Learn how to deal with accumulating historic documents (and reduce the amount of data stored in a database) by deleting or compressing them.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.search.form: 107, 9035, 9040
 ms.date: 09/14/2022
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Manage Storage by Deleting Documents or Compressing Data
 

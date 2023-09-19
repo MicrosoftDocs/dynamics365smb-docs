@@ -3,7 +3,7 @@
     description: You can customize the navigation pane with the **Customize Navigation Pane** window.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

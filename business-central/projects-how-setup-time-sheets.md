@@ -1,15 +1,15 @@
 ---
 title: Set Up Time Sheets and Their Approval
 description: You set up time sheets to track the time used on tasks and projects, helping you with project management, staffing, and capacity
-author: SorenGP
-ms.author: jswymer
 ms.reviewer: jswymer
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77, 462
 ms.date: 07/27/2023
 ms.service: dynamics365-business-central
 ms.custom: bap-template
+ms.author: bholtorf
 ---
 # Set Up Time Sheets
 
@@ -93,8 +93,6 @@ The following sections describe how to set up time sheets if you do not use the 
 
 > [!NOTE]  
 > You cannot change the ID of the time sheet approver if there are time sheets that have not yet been processed and have the status of **Submitted** or **Open**.
-
-## See related [Microsoft training](/training/paths/set-up-jobs-resources/)
 
 ## See also
 

@@ -3,12 +3,11 @@ title: Cross-Dock Items
 description: Learn how to receive and ship items without putting them in storage.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 03/08/2023
 ms.custom: bap-template
 ms.search.form: 15, 5703, 7302, 7332, 5768
-
 ---
 # Cross-Dock Items
 

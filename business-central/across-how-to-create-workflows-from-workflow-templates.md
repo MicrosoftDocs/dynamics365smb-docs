@@ -1,15 +1,14 @@
 ---
 title: How to Create Workflows from Workflow Templates
 description: To save time when creating new approval workflows, you can create non-editable workflows from the workflow templates prefixed with "MS".
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 09/08/2022
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Create Workflows from Workflow Templates
 
@@ -29,8 +28,6 @@ On the **Workflow** page, you create a workflow by listing the involved steps on
 
    The **Workflow** page opens for a new workflow containing all the information of the selected template. The value in the **Code** field is extended with, for example, "-01" to indicate this is the first workflow created from the workflow template.  
 4. Proceed to create the workflow by editing the workflow steps or adding new steps. Learn more at [Create Workflows](across-how-to-create-workflows.md).  
-
-## See related [Microsoft training](/training/modules/create-workflows/)
 
 ## See also
 

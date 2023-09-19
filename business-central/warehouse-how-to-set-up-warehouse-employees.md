@@ -3,7 +3,7 @@ title: Set Up Warehouse Employees
 description: Each user who performs warehouse activities must be set up as a warehouse employee assigned to one default location and potentially more non-default locations.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 03/09/2023
 ms.custom: bap-template
@@ -21,8 +21,6 @@ Each user who performs warehouse activities must be set up as a warehouse employ
 4. In the **Location Code** field, enter the code of the location where the user will be working.  
 5. Turn on the **Default** toggle to specify that this is the only location where the employee can perform warehouse activities.  
 6. Repeat these steps to assign other employees to locations or assign other locations to existing warehouse employees.  
-
-## See related [Microsoft training](/training/modules/get-started-warehouse-management/)
 
 ## See also
 

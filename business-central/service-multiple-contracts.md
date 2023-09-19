@@ -1,16 +1,14 @@
 ---
     title: Multiple Contracts | Microsoft Docs
     description: Depending on your service level agreements with a customer, you may have to handle a service item under more than one service contract.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Multiple Contracts

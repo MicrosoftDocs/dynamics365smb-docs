@@ -1,7 +1,7 @@
 ---
 title: Work with Assembly BOMs
 description: You create an assembly BOM to specify the components required to put together the item that the BOM represents.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,8 +9,7 @@ ms.workload: na
 ms.search.keywords: assembly bom, bills of material, 
 ms.search.form: 36, 5870, 5872, 5874
 ms.date: 09/26/2022
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Work with Assembly BOMs
 
@@ -106,8 +105,6 @@ The unit cost of an assembly BOM always equals the total of the unit costs of it
 |**All Levels**|Calculates the assembly's item standard cost as the sum of: 1) The calculated cost of all underlying assembly BOMs on the assembly BOM. 2) The cost of all purchased items on the assembly BOM.|
 
 The costs of the items that make up the assembly BOM are copied from the component item cards. The cost of each item is multiplied by the quantity, and the total cost is shown in the **Unit Cost** field on the item card.
-
-## See related [Microsoft training](/training/modules/set-up-assembly-items-dynamics-365-business-central/).
 
 ## See also
 

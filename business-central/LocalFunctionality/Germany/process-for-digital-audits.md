@@ -1,10 +1,7 @@
 ---
     title: Digital Audits (GoBD/GDPdU)
     description: You can export data according to the process for digital audits (GoBD/GDPdU), which is based on German tax law.
-
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -12,8 +9,7 @@
     ms.search.keywords:
     ms.search.form: 11002, 11003, 11004, 11007, 11008, 11009, 11014, 11026, 11027
     ms.date: 04/01/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Process for Digital Audits (GoBD/GDPdU)
 You can export data from [!INCLUDE[prod_short](../../includes/prod_short.md)] according to the process for digital audits (GoBD/GDPdU), which is based on German tax law.  

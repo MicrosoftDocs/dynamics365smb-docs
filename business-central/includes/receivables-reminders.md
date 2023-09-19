@@ -1,9 +1,8 @@
 ---
-author: edupont04
-
+author: brentholtorf
 ms.topic: include
 ms.date: 02/09/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 You can use reminders to remind customers about overdue amounts. You can also use reminders to calculate finance charges such as interest or fees and include them on the reminder.
 

@@ -3,7 +3,7 @@ title: Design Details - Handling Reordering Policies
 description: This article gives an overview of the reordering policies you can use in supply planning.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/24/2023
 ms.custom: bap-template
@@ -46,7 +46,7 @@ Projected available inventory is the inventory that is available to fulfill dema
 
 Projected inventory is important detecting when the reorder point is reached or crossed, and to calculate the right order quantity when using the **Maximum Qty.** reordering policy.  
 
-The projected inventory level is calculated at the start of the planning period. It's a gross level that doesn't consider reservations or other allocations. To monitor this inventory level during the planning sequence, the planning system monitors the aggregated changes over a period of time. That period is called a *time bucket*. To learn more about time buckets, go to [Time buckets](#time-buckets). The planning system ensures that the time bucket is at least one day. One day is the minimum unit of time for demand or supply events.  
+The projected inventory level is calculated at the start of the planning period. It's a gross level that doesn't consider reservations or other allocations. To monitor this inventory level during the planning sequence, the planning system monitors the aggregated changes over a period of time. That period is called a *time bucket*. To learn more about time buckets, go to [The role of the time bucket](#the-role-of-the-time-bucket). The planning system ensures that the time bucket is at least one day. One day is the minimum unit of time for demand or supply events.  
 
 ### Determining the projected inventory level  
 
@@ -79,7 +79,7 @@ The following image shows this principle.
 
 ## The role of the time bucket
 
-The purpose of the time bucket is to collect demand events within the time page in order to make a joint supply order.  
+The purpose of the time bucket is to collect demand events within a time period in order to make a joint supply order.  
 
 For reordering policies that use a reorder point, you can define a time bucket. Time buckets help ensure that demands within the same time period are accumulated. The system then check the effect on projected inventory and whether the reorder point has been passed.
 

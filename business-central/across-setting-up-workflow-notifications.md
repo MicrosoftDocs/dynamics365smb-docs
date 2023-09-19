@@ -1,13 +1,12 @@
 ---
 title: Setting up Approval Workflow Notifications
 description: This article tells you how to set up workflow notifications to alert a user that an event has occurred that they must react to; a workflow response is required. 
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords:
 ms.date: 09/13/2022
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Approval Workflow Notifications
 
@@ -49,8 +48,6 @@ You can set up different aspects of workflow notifications in the following plac
 * Notify sender
 
   For approval workflows, add a workflow response step to notify the sender when the request has been approved or rejected. Learn more from step 9 in the [Create Workflows](across-how-to-create-workflows.md#to-create-a-workflow) section.   
-
-## See related [Microsoft training](/training/modules/create-workflows/)
 
 ## See also
 

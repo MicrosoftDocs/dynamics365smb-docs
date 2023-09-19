@@ -1,9 +1,8 @@
 ---
-author: edupont04
-
+author: brentholtorf
 ms.topic: include
 ms.date: 04/11/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 1. Choose the ![Lightbulb that opens the Tell Me feature 0.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report Setup**, and then choose the related link.  
 2. To let users change and resubmit this report, choose the **Allow Modification** field.  

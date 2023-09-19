@@ -6,8 +6,8 @@ ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: 30101, 30102, 30106, 30107, 30113, 30115, 30126
 ms.reviewer: solsen
-author: AndreiPanko
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
 # Walkthrough: Set up and use the Shopify Connector
@@ -43,24 +43,24 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following steps:
 
 Configure the Shopify shop as described in the following steps:
 
-1. Turn on the **Log Enabled** toggle.
-2. Turn off the **Allow Background Syncs** toggle.
-3. Select **To Shopify** in the **Sync Item** field.
-4. Select **To Shopify** in the **Sync Item Images** field.
-5. Turn on the **Sync Item Attributes** toggle.
-6. Turn on the **Inventory Tracked** toggle.
-7. Select **Deny** in the **Default Inventory Policy** field.
-8. Turn on the **Auto Create Unknown Customers** toggle.
-9. Fill in the **Customer Template Code** field with the appropriate template.
-10. Fill in the **Shipping Cost Account**, the **Tip Account** with the revenue account. For example, in the US, use `40100`.
-11. Turn on the **Auto Create Orders** toggle.
+1. Turn off the **Allow Background Syncs** toggle.
+2. Select *To Shopify* in the **Sync Item** field.
+3. Select *To Shopify* in the **Sync Item Images** field.
+4. Turn on the **Sync Item Attributes** toggle.
+5. Turn on the **Inventory Tracked** toggle.
+6. Select *Deny* in the **Default Inventory Policy** field.
+7. Turn on the **Auto Create Unknown Customers** toggle.
+8. Fill in the **Customer Template Code** field with the appropriate template.
+9. Fill in the **Shipping Cost Account**, the **Tip Account** with the revenue account. For example, in the US, use `40100`.
+10. Turn on the **Auto Create Orders** toggle.
 
 Configure location mapping:
 
 1. Choose the **Locations** action to open **Shopify Shop Locations**.
-2. Choose the **Get Shopify Locations** action to import all locations defined in the Shopify.
+2. Choose the **Get Shopify Locations** action to import all locations defined in the Shopify. Select your default location in Shopify
 3. In the **Location Filter**, enter `''|EAST|MAIN`.
-4. Turn off the **Disabled** toggle to enable inventory sync for selected Shopify location.
+4. Turn on the **Default Product Location** toggle.
+5. Select *Projected Available Balance at Today* in the **Stock Calculation** field to enable inventory sync for selected Shopify location.
 
 ## Walkthrough: Start selling products online
 
@@ -166,9 +166,9 @@ Prepare data.
 Select item **1896-S, Athens Desk** and run following steps.
 
 1. Choose the **Variants** action and then add two variants `PREMIUM, Athens Desk, Premium edition` and `ESSENTIAL, Athens Desk, Essential edition`.
-2. Choose **Extended Text** action, create a new extended text valid for all language codes. In the **Description** field, enter `Shopify`. 
-3. Add following text with HTML tags: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
-4. Choose **Sales Prices** action and add new prices as shown in the following table:
+2. Choose the **Extended Text** action, create a new extended text valid for all language codes. In the **Description** field, enter `Shopify`. 
+3. Add following text with HTML tags: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`. Close the **Exteneded Text** page and return to item card.
+4. Choose the **Sales Prices** action and add new prices as shown in the following table:
 
   |Line|**Sales Type**|**Sales Code**|Type|Code|Variant Code<br>(add the field via personalization)|Unit Price|
   |------|------------|------------|------------|------------|------------|------------|
@@ -214,7 +214,7 @@ Run the synchronization.
 2. Select the *DEMO1* Shop for which you want to synchronize items to open the **Shopify Shop Card** page.
 3. Choose the **Products** action to open **Shopify Products** window.
 4. Choose the **Add Items** action.
-5. Set the filter *TABLE* on the **Item Category Code** field.
+5. Set the filter *TABLE|DESK* on the **Item Category Code** field.
 6. Choose the **Sync Product Images** action.
 7. Choose the **Sync Inventory** action.
 
@@ -262,17 +262,13 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following steps:
 
 Configure the Shopify shop as described below in the next steps:
 
-7. Enable the **Log Enabled** toggle.
-8. Deactivate the **Allow Background Syncs** toggle.
-9. Select **From Shopify** in the **Sync Item** field.
-5. Enable the **Auto Create Unknown Items** toggle.
-11. Fill in the **Item Template Code** field with the appropriate template.
-12. Select **From Shopify** in the **Sync Item Images** field.
-13. Select **All Customers** in the **Customer Import from Shopify**.
-14. Enable the **Auto Create Unknown Customers** toggle.
-15. Fill in the **Customer Template Code** field with the appropriate template.
-16. Fill in the **Shipping Charges Account**, the **Tip Account** with revenue account. For example, in the US use `40100`.
-17. Enable the **Auto Create Orders** toggle.
+7. Deactivate the **Allow Background Syncs** toggle.
+8. Select *From Shopify* in the **Sync Item** field.
+9. Enable the **Auto Create Unknown Items** toggle.
+10. Fill in the **Item Template Code** field with the appropriate template.
+11. Select *From Shopify* in the **Sync Item Images** field.
+12. Select *All Customers* in the **Customer Import from Shopify**.
+13. Enable the **Auto Create Unknown Customers** toggle.
 
 #### Run the synchronization
 

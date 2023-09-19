@@ -1,16 +1,14 @@
 ---
     title: Export General Ledger Entries Tax Audits [FR]
     description: This topic describes how to prepare audit files to comply with the specified tax regulations in France.
-    author: sorenfriisalexandersen
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/25/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Export General Ledger Entries for Tax Audits in the French Version

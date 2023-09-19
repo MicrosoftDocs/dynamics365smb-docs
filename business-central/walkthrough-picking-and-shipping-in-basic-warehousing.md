@@ -3,7 +3,7 @@ title: Picking and Shipping in Basic Warehouse Configurations
 description: This article describes various levels of complexity in picking and shipping processes.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/27/2023
 ms.custom: bap-template
@@ -134,8 +134,6 @@ On the **Inventory Pick** page, you can manage all outbound warehouse activities
 6. Choose the **Post** action, select **Ship**, and then choose the **OK** button.  
 
     The 30 Amsterdam Lamps are now registered as picked from bins S-01-0001 and S-01-0002, and a negative item ledger entry is created reflecting the posted sales shipment.  
-
-## See related [Microsoft training](/training/paths/pick-ship-items-business-central/)
 
 ## See also
 

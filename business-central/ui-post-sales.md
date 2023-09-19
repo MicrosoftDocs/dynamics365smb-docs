@@ -1,17 +1,15 @@
 ---
 title: Posting Sales Documents
 description: Learn about the different posting functions to post sales documents, and how you can update posted documents.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.search.form: 130, 142, 1350
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Posting Sales
@@ -49,8 +47,6 @@ In most cases, you can open ledger entries from the affected card or document. F
 ## Editing Ledger Entries
 
 You can edit certain fields on posted purchase documents, such as the **Package Tracking No.** field. For more information, see [Edit Posted Documents](across-edit-posted-document.md). For more critical fields that affect the auditing trail, you must reverse or undo posting. For more information, see [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md).
-
-## See related [Microsoft training](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
 
 ## See Also
 

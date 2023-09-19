@@ -1,9 +1,7 @@
 ---
 title: United States Local Functionality
 description: The following topics describe the local functionality in the United States version of Business Central.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.form: 315, 466, 467, 468, 469
 ms.date: 04/01/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # United States Local Functionality
 

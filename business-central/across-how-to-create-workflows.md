@@ -7,7 +7,6 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/24/2023
 ms.custom: bap-template
-
 ---
 # Create Workflows to Connect Tasks in Business Processes
 
@@ -172,8 +171,6 @@ The following illustration provides an overview of the result of this procedure.
 :::image type="content" source="media/Workflows/workflow-example-2.png" alt-text="Illustration of the Vendor Name Approval workflow.":::
 
 Next, test the workflow by opening an existing vendor card and changing their name. Verify that an approval request is sent after changing the vendor name.
-
-## See related [Microsoft training](/training/modules/create-workflows/)
 
 ## See also
 

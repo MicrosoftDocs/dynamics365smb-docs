@@ -1,16 +1,14 @@
 ---
     title: How to Post Service Orders
     description: When you have created a service order, filled in all the necessary information and made any modifications, you can post the service order. 
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/23/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Post Service Orders and Credit Memos

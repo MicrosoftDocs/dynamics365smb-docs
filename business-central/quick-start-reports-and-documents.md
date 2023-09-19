@@ -1,7 +1,7 @@
 ---
 title: Basic Reports and Documents Output Quick Start
 description: Business Central offers built-in templates for reports and documents, with many customization options to adapt them to your company's needs.
-author: rubenseishima
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.search.form: 
 ms.date: 08/15/2022
-ms.author: a-reishima
+ms.author: bholtorf
 ---
 
 # Basic Reports and Documents Output Quick Start
@@ -64,8 +64,6 @@ The generated report file is automatically saved to your browser's download fold
 8. Test the new layout by choosing the **Run Report** action.
 
 Learn more about how to customize reports and documents to your business needs at [Report and Document Layouts](ui-manage-report-layouts.md).
-
-## See related training at [Microsoft Learn](/learn/modules/work-with-reports/).
 
 ## See also
 

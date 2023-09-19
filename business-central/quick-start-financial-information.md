@@ -1,7 +1,7 @@
 ---
 title: Financial Information Quick Start
 description: Get your company ready for business by setting up the financial information in Business Central.
-author: rubenseishima
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.search.form: 
 ms.date: 08/25/2022
-ms.author: a-reishima
+ms.author: bholtorf
 ---
 
 # Financial Information Quick Start
@@ -78,8 +78,6 @@ Bank accounts in [!INCLUDE[prod_short](includes/prod_short.md)] register banking
 
    The field is different from the **Bank Account No.** field also available in the **General** FastTab.
 4. Fill in the fields on the **Bank Account Card** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-## See related training at [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
 
 ## See also
 

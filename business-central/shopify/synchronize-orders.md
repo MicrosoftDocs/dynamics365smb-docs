@@ -4,9 +4,9 @@ description: Set up and run import and processing of sales order from Shopify.
 ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,
-author: andreipa
-ms.author: andreipa
+ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147
+author: brentholtorf
+ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
 
@@ -30,9 +30,12 @@ Enable **Auto Create Orders** to automatically create sales documents in [!INCLU
 
 If you want to automatically release a sales document, turn on the **Auto Release Sales Order** toggle.
 
-The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add a field that isn't already displayed on the page. To learn more about adding a field, go to [To start personalizing a page through the **Personalizing** banner](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). If you select the **Shopify Order No. on Doc. Line** field, this information is repeated on the sales lines of the type **Comment**.
+If you select the **Shopify Order No. on Doc. Line** field, [!INCLUDE [prod_short](../includes/prod_short.md)] inserts sales lines of the type **Comment** with the Shopify order number.
 
-In the **Tax area priority** field, you can set the priority on how to select tax area code on addresses in order. The imported Shopify order contains information about taxes. Taxes are recalculated when you create the sales document, so it's important that the VAT/tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. For more information about taxes, see [Set Up Taxes for the Shopify Connection](setup-taxes.md).
+>[!NOTE]
+>The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add the **Shopify Order No.** field to the list or card pages for sales orders, invoices, and shipment. To learn more about adding a field, go to [To start personalizing a page through the **Personalizing** banner](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). 
+
+In the **Tax area priority** field, prioritize how to select a tax area code for addresses on orders. The Shopify order you import contains information about taxes. Taxes are recalculated when you create sales documents, so it's important that the VAT or tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. To learn more about taxes, go to [Set Up Taxes for the Shopify Connection](setup-taxes.md).
 
 Specify how you'll process returns and refunds:
 
@@ -102,8 +105,8 @@ The Shopify Connector imports orders in two steps:
 
 1.	It imports order headers to the **Shopify Orders to Import** table when they match certain conditions:
     
-* They aren't archived.
-* They were created or modified after the last sync.
+* They aren't archived. This means you can include or exclude orders from sync by archiving or unarchiving them in the Shopify Admin.
+* They were created or modified after the last sync. This means that you can force reimport of specific order if you modify it, for example by adding the **Notes** or **Tag**.
 
 2.	It imports Shopify orders and supplementary information.
 * The Shopify Connector processes all records in the **Shopify Orders to Import** table that match the filter criteria you defined on the **Sync Orders from Shopify** request page. For example, tags, channel, or the fulfilment status. If you haven't specified any filters it processes all records.
@@ -111,7 +114,7 @@ The Shopify Connector imports orders in two steps:
 
     * Order header
     * Order lines
-    * Shipping and fulfilment information
+    * Shipping and fulfillment information
     * Transactions
     * Returns and refunds, if configured
 
@@ -187,7 +190,7 @@ Example: you have online store as well as a Shopify POS. For your POS, you want 
 
 Each job queue will import and process orders within the defined filters and use the rules from the corresponding Shopify Shop card. For example, they'll create point of sales orders for the default customer.
 
->![Important]
+>[!Important]
 > To avoid conflicts when processing orders, remember to use the same job queue category for both job queue entries.
 
 ### Impact of order editing
@@ -203,6 +206,8 @@ In Shopify:
 |Edit an order and add new item | Order header will be updated, lines won't. | Original and added items will be imported. |
 |Process order: fulfill, update payment information | Order header will be updated, but the lines won't. |Change has no impact on how the order is imported.|
 |Cancel order | Order header will be updated, but the lines won't. |Canceled order is not imported |
+
+As you can see in some cases it might be reasonable to delete edited order in [!INCLUDE[prod_short](../includes/prod_short.md)] and import it as new.
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
@@ -231,7 +236,7 @@ You can schedule the task to be performed in an automated manner. Learn more at 
 >[!Important]
 >The location, including blank location, defined in the Posted Shipment Line must have a matching record in the Shopify Location. Otherwise, this line won't be sent back to Shopify. Learn more at [Location mapping](synchronize-orders.md#location-mapping).
 
-Remember to run **Synchronize Orders from Shopify** to update the fulfillment status of an order in [!INCLUDE[prod_short](../includes/prod_short.md)]. The connector functionality also archives completely paid and fulfilled orders in both Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)] provided the conditions are met.
+Remember to run **Synchronize Orders from Shopify** to update the fulfillment status of an order in [!INCLUDE[prod_short](../includes/prod_short.md)]. The connector functionality also archives completely paid and fulfilled orders in both Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)] provided the conditions are met. 
 
 ### Shipping agents and tracking URL
 

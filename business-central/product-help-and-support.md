@@ -1,21 +1,25 @@
 ---
 title: Resources for Help and Support
 description: Find product Help, guidance, troubleshooting tips, and assistance, and learn how to get technical support for Business Central.
-author: edupont04
+author: brentholtorf
 ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
-ms.author: edupont
-ms.date: 03/21/2022
+ms.author: bholtorf
+ms.date: 07/14/2023
 ---
 
 # Resources for Help and Support
 
-Tips and guidance for how to use [!INCLUDE[prod_long](includes/prod_long.md)], how to get unblocked, where to learn more, and how to find technical information is all available from inside [!INCLUDE [prod_short](includes/prod_short.md)]. This article describes how to find what.  
+Organizations that use [!INCLUDE[prod_long](includes/prod_long.md)] can get technical support for any issues that they may experience. In this article, we show you the following information and many other tips for how to use [!INCLUDE[prod_short](includes/prod_short.md)]:
+
+- Learn how to [get unblocked](#in-product-tips)  
+- Learn where to [learn more](#help-pane)    
+- Learn how to find [the technical information](#help--support-page) you need to submit a support request    
 
 ## In-product tips
 
-[!INCLUDE [ua-get-help](includes/ua-get-help.md)] These links can also access content that is published to other websites, such as the websites of providers of any apps that are installed in your [!INCLUDE [prod_short](includes/prod_short.md)].  
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] These links can also access content from other websites, such as the websites of providers of any apps that are part of your [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ## Help pane
 
@@ -43,7 +47,7 @@ The following list describes how you can access the Help pane and whether cards 
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
-Use the search field at the top of the Help pane to search for guidance about how to use the product, built-in capabilities, and available training modules. Depending on your search terms, the pane shows five or more links with a short description. Choose a link, or refine your search terms. When you choose a link, the target article opens in a new browser tab. You can choose to un-dock the browser tab, then, so that you can view the relevant information side-by-side with [!INCLUDE [prod_short](includes/prod_short.md)]. The pane remains open while you navigate through [!INCLUDE [prod_short](includes/prod_short.md)] so that content you searched for remains visible.  
+Use the search field at the top of the Help pane to search for guidance about how to use the product, built-in capabilities, and available training modules. Depending on your search terms, the pane shows five or more links with a short description. Choose a link, or refine your search terms. When you choose a link, the target article opens in a new browser tab. You can choose to un-dock the browser tab so that you can view the relevant information side-by-side with [!INCLUDE [prod_short](includes/prod_short.md)]. The pane remains open while you navigate through [!INCLUDE [prod_short](includes/prod_short.md)] so that content you searched for remains visible.  
 
 > [!NOTE]
 > In the current version of [!INCLUDE [prod_short](includes/prod_short.md)], the search field in the Help pane only applies to content that is published to the [Dynamics 365 Business Central documentation](/dynamics365/business-central) on Microsoft Learn.
@@ -70,7 +74,7 @@ This section outlines the resources available to you in the different sections o
 
 ### Find Answers
 
-The **Find it** section provides links to the most common places to find answers to your questions. The links fall into four categories and are explained in the following subsections. Some of the links can be configured by your [!INCLUDE[prod_short](includes/prod_short.md)] partner, and as a result the behavior can be slightly different.  
+The **Find it** section provides links to the most common places to find answers to your questions. The links fall into four categories and are explained in the following subsections. Your [!INCLUDE[prod_short](includes/prod_short.md)] partner can configure some of the links, and as a result the behavior can be slightly different.  
 
 #### Product Help
 
@@ -86,7 +90,7 @@ The **Find it** section includes two links to product Help:
 
 #### Community
 
-In the [Business Central Forum](https://community.dynamics.com/business/f), you can submit a question and learn from other [!INCLUDE[prod_short](includes/prod_short.md)] community members. Partners and Microsoft employees participate in the conversations.  
+In the [Business Central community forum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04), you can submit a question and learn from other [!INCLUDE[prod_short](includes/prod_short.md)] community members. Partners and Microsoft employees participate in the conversations.  
 
 If you don't yet have a partner, the Community can also help you get unblocked if you have questions. For example, if you just signed up for a trial, the Community can be a great starting point.  
 
@@ -102,14 +106,14 @@ For the longer term overview, the [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### Do more with your trial
 
-This section gives you shortcuts to Microsoft AppSource where you can find solutions and services from [!INCLUDE[prod_short](includes/prod_short.md)] partners. Use the links to explore the full capabilities of [!INCLUDE[prod_short](includes/prod_short.md)] before you decide if you want to buy a subscription. You can also find a link to contact the sales team.
+This section gives you shortcuts to the Microsoft commercial marketplace where you can find solutions and services from [!INCLUDE[prod_short](includes/prod_short.md)] partners. Use the links to explore the full capabilities of [!INCLUDE[prod_short](includes/prod_short.md)] before you decide if you want to buy a subscription. You can also find a link to contact the sales team.
 
 > [!NOTE]
 > This section is only available in [!INCLUDE[prod_short](includes/prod_short.md)] online trial experiences. If you already bought [!INCLUDE[prod_short](includes/prod_short.md)], the section isn't longer visible.
 
 ### Give feedback
 
-Approximately once per quarter, the [!INCLUDE [prod_short](includes/prod_short.md)] team gathers feedback from our users about how satisfied they are with the product. In addition to ratings, you can also provide a written comment. By giving us specific and actionable comments, you help our engineering teams to prioritize the product improvements we invest in. You can also consent to be contacted about your comment. If you do, you'll be invited to a Teams meeting at a time that's convenient for you. You can provide product suggestions at any time on our [Dynamics 365 Ideas](https://aka.ms/bcideas) website.  
+Periodically, the [!INCLUDE [prod_short](includes/prod_short.md)] team gathers feedback from our users about how satisfied they are with the product. In addition to ratings, you can also provide a written comment. By giving us specific and actionable comments, you help our engineering teams to prioritize the product improvements we invest in. You can also consent to be contacted about your comment. If you do, you're invited to a Teams meeting at a time that's convenient for you. You can provide product suggestions at any time on our [Dynamics 365 Ideas](https://aka.ms/bcideas) website.  
 
 ### Product suggestions
 
@@ -121,7 +125,7 @@ Make sure that you search through the list of submitted suggestions. There's a c
 
 The **Troubleshooting** section shows technical information that your administrator or [!INCLUDE[prod_short](includes/prod_short.md)] partner can use to unblock users. The section includes information about the latest error message, the current version of your [!INCLUDE[prod_short](includes/prod_short.md)], and a link to go to the **Page Inspection** page. For more information, see [Inspecting Pages in Business Central](across-inspect-page.md).  
 
-To help you or your supporting partner troubleshoot, you can switch on additional logging in the **Report a Problem** section. You can then analyze the additional telemetry in the admin center or Application Insights, for example.  
+To help you or your supporting partner troubleshoot, you can switch on additional logging in the **Report a Problem** section. You can then analyze the extra telemetry in the admin center or Application Insights, for example.  
 
 As the internal administrator, you have access to the admin center where you can continue the troubleshooting. You can view telemetry, manage environments, and manage user sessions. The following articles in the administration content provide more information:
 
@@ -132,7 +136,7 @@ As the internal administrator, you have access to the admin center where you can
 
 ### Report a problem
 
-Your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner will help you with technical support. This section makes it easy for you to contact your reselling partner, if they've submitted their support contact details. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then can't resolve the problem, they'll raise a support ticket with Microsoft.  
+Your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner helps you with technical support. This section makes it easy for you to contact your reselling partner, if they've submitted their support contact details. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then can't resolve the problem, they raise a support ticket with Microsoft.  
 
 For more information, see [Escalating support issues to Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) in the administration content.  
 
@@ -143,7 +147,7 @@ For more information, see [Escalating support issues to Microsoft](/dynamics365/
 
 ### Support contacts
 
-The **Report a problem** section displays an email address or a hyperlink for you to get in contact with the customer support person or team. If you are the [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner for a tenant, you can set up your preferred support contact details in the admin center. For more information, see [Configuring the support experience](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in the administration content.  
+The **Report a problem** section displays an email address or a hyperlink for you to get in contact with the customer support person or team. If you're the [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner for a tenant, you can set up your preferred support contact details in the admin center. For more information, see [Configuring the support experience](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in the administration content.  
 
 To alert your partner to a problem, choose the link to either send an email or open their support site in a new browser tab. You can then add the technical information about your Azure Active Directory tenant from the **Troubleshooting** section and any other information that you find relevant.  
 
@@ -152,7 +156,7 @@ To alert your partner to a problem, choose the link to either send an email or o
 
 ## Learn more using the product documentation
 
-The base version of [!INCLUDE [prod_short](includes/prod_short.md)] is extended and customized by a large community of partners. Each partner and many customers deploy their own Help to their own website. But you can always go to the [Dynamics 365 Business Central documentation](index.yml) site to learn more. The site hosts different types of content, such as the following:
+A large community of partners extend and customize the base version of [!INCLUDE [prod_short](includes/prod_short.md)]. Each partner and many customers deploy their own Help to their own website. But you can always go to the [Dynamics 365 Business Central documentation](index.yml) site to learn more. The site hosts different types of content, such as the following content:
 
 - [Conceptual content about business functionality](welcome.md)  
 - [Documentation for developers](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
@@ -164,7 +168,7 @@ In this section, you can learn about how to navigate the business functionality 
 
 ### Content on the site
 
-[This section](welcome.md) of Microsoft Learn hosts content from Microsoft that represents the *Learn more* pillar in the user assistance model. In part, the *Learn more* content intends to answer those questions that the user interface can't answer, such as the following:
+[This section](welcome.md) of Microsoft Learn hosts content from Microsoft that represents the *Learn more* pillar in the user assistance model. In part, the *Learn more* content intends to answer those questions that the user interface can't answer, such as the following list:
 
 - Where does this page fits into the bigger workflow?  
 - What comes next?  
@@ -172,9 +176,9 @@ In this section, you can learn about how to navigate the business functionality 
 
 From inside the product, you can access this content either through the *Learn more* link in tooltips and teaching tips, or by using the <kbd>Ctrl</kbd>+<kbd>F1</kbd> keyboard shortcut.  
 
-The navigation panel to the left, the table of contents, groups articles by business area. For example, you read the article [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md), and then the table of contents shows you that there's also an article called [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Both articles are in the group called *Purchasing*, which bundles articles that are related to the Purchasing module in [!INCLUDE [prod_short](includes/prod_short.md)].  
+The navigation panel shows the table of contents that groups articles by business area. For example, you read the article [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md), and then the table of contents shows you that there's also an article called [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Both articles are in the group called *Purchasing*, which bundles articles that are related to the Purchasing module in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-The table of contents includes a group of content that describes [local functionality](about-localization.md) for the countries/regions that Microsoft supports. If you don't see your country listed there, it's probably because your country is localized by a partner. For more information, see [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+The table of contents includes a group of content that describes [local functionality](about-localization.md) for the countries/regions that Microsoft supports. If you don't see your country or region listed there, it's probably because your country or region is localized by a partner. Learn more at [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 The local functionality content describes the capabilities in [!INCLUDE [prod_short](includes/prod_short.md)] that can help you be compliant in the supported markets, such as tax statements and other reports. In some cases, the difference between the default version and the specific country/region version is invisible to users. In other cases, users must set up reporting or electronic invoicing in a specific way. If you can't find a description of a certain button or action in the general section, you can hopefully find it in the *Local Functionality* section.  
 
@@ -200,13 +204,13 @@ Content about business functionality is published in several languages. When you
 
 You can change the language by changing the URL, or you can use the language toggle in the bottom-left corner of the website.  
 
-The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it's then sent off for translation into the supported languages. In some cases, you will not be able to read this new content in your own language for up to four weeks, but in most cases it only takes a week or two. You can always view the latest information by switching the language to *en-us*.  
+The content is authored in English and published to URLs with *en-us* as the language code. When new information is published in English, it's then sent off for translation into the supported languages. In some cases, you can't read this new content in your own language for up to four weeks, but in most cases it only takes a week or two. You can always view the latest information by switching the language to *en-us*.  
 
-For each language, the table of contents is translated, but the content in the *Local Functionality* section is in English except for the country that corresponds to the current language. For example, in the Danish version of Microsoft Learn (`https://learn.microsoft.com/da-dk/dynamics365/business-central/`), you can see the entries for Australian local functionality in Danish in the table of contents, but the articles are in English. Only the articles for Danish local functionality are translated into Danish.  
+For each language, the table of contents is translated, but the content in the *Local Functionality* section is in English except for the country or region that corresponds to the current language. For example, in the Danish version of Microsoft Learn (`https://learn.microsoft.com/da-dk/dynamics365/business-central/`), you can see the entries for Australian local functionality in Danish in the table of contents, but the articles are in English. Only the articles for Danish local functionality are translated into Danish.  
 
 ### Recommended content
 
-In March 2021, a new section appeared under most articles on Microsoft Learn. The **Recommended content** section is automatically generated based on how each article is used with the rest of the site. The links aren't static and change over time.
+On Microsoft Learn, each article shows a pane with links to other articles. The **Recommended content** section is automatically generated based on how each article is used with the rest of the site. The links aren't static and change over time.
 
 ### Tell us what you think
 
@@ -234,7 +238,8 @@ The same applies if you use [!INCLUDE [prod_short](includes/prod_short.md)] on-p
 [Business Central Quick Starts](quick-start-business-central.md)  
 [How do I find a reselling partner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Help System (available in English only)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
-[Blog post: Find the right resources and provide feedback](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
+[Leave us feedback](/dynamics365/get-started/feedback)  
+[Blog post: Find the right resources and provide feedback](https://community.dynamics.com/blogs/post/?postid=22e164ac-b804-4ac9-9e57-3e8c4fd24cbd)  
 [Business Central developer and administration docs](/dynamics365/business-central/dev-itpro/)  
 [Resources for Help and Support for Partners](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Technical Support](/dynamics365/business-central/dev-itpro/technical-support)  

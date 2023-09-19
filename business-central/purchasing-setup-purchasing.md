@@ -1,7 +1,7 @@
 ---
 title: Overview of Tasks to Set Up Purchasing
 description: Describes the tasks to define your company's procurement policies and set up your purchasing processes.
-author: SorenGP
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
 ms.date: 08/30/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Setting Up Purchasing
@@ -70,8 +70,6 @@ With the feature enabled, a return transaction can only be posted by specifying 
 | Review expense receipts, convert paper and electronic documents to journal lines, and digitalize paper invoices from vendors. | [Set Up Incoming Documents](across-how-setup-income-documents.md) |
 | Specify default reports to be used for different document types. |[Report Selection in Business Central](across-report-selections.md)|
 |Specify whether users are allowed to post purchase invoices, and whether they must post them together with a shipment. |[Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)|
-
-## See related training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## See also
 

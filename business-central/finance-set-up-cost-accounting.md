@@ -1,16 +1,14 @@
 ---
 title: Setting Up Cost Accounting
 description: Before you start working with cost accounting, you must setup. Each cost entry must have a cost type assigned and a cost center code or a cost object assigned.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Setting Up Cost Accounting
@@ -191,8 +189,6 @@ For each general ledger account, you can define default dimension values in the 
 
 > [!NOTE]  
 >  To make sure that the predefined cost center and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box in the Cost Accounting Setup page.
-
-## See related [Microsoft training](/training/modules/cost-accounting-dynamics-365-business-central/)
 
 ## See also
 

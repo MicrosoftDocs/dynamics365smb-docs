@@ -1,15 +1,13 @@
 ---
 title: Send Documents and Emails
 description: You can define content to insert into the body of an email message, for example, a PayPal link. You can also attach documents to email messages.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: 41,
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Send Documents and Emails
@@ -78,8 +76,6 @@ Some documents in [!INCLUDE[prod_short](includes/prod_short.md)] have a field th
 > Depending on the extension that your company uses for email, administrators can see a list of messages that everyone has sent, but not the content of the messages
 
 The **Email Outbox** is where you'll find the emails that you saved as drafts, and emails that failed to send, for example, if the email address was invalid. For messages that failed to send, you can choose **Show Error** or **Investigate Error** to troubleshoot the problem.  
-
-## See related [Microsoft training](/training/modules/set-up-email/)
 
 ## See Also
 

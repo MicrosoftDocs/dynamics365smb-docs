@@ -2,8 +2,6 @@
 title: Set Up Prices and Discounts
 description: Describes how to define standard and special price and discount agreements for sales and purchases.
 author: brentholtorf
-
-
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,7 +10,6 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-
 ---
 # Set Up Prices and Discounts
 
@@ -201,8 +198,6 @@ To update prices for multiple items, you must create a new price list, and then 
 ## Calculating the Best Price
 
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents, and on job and item journal lines. For more information, see [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
-
-## See related [Microsoft training](/training/modules/customer-discounts-dynamics-365-business-central/)
 
 ## See also
 

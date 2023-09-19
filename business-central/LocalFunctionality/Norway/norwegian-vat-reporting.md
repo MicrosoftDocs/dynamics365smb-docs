@@ -1,24 +1,25 @@
 ---
 title: Norwegian VAT Reporting [NO]
 description: Norwegian enhancements in Business Central allow you to calculate and report VAT to the Norwegian tax authorities.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 737, 738, 743, 10601, 10604, 10692 ,10696
 ms.date: 05/12/2022
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Norwegian VAT Reporting in the Norwegian Version
+
+> [!IMPORTANT]
+> There will be changes in the new ID-porten in Norway. Microsoft will update Norwegian Electronic VAT submission solution to the new ID-porten system in the 23.2 release.  
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] provides features that allow you to calculate and report VAT returns to the Norwegian tax authorities.  
 
 This article shows the typical steps that you should follow when reporting Norwegian VAT.  
 
-> [!IMPORTANT]
-> This article assumes that you have set up VAT reporting. For more information, see [Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md) and [Report VAT to Tax Authorities](../../finance-how-report-vat.md).
+This article assumes that you have set up VAT reporting. For more information, see [Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md) and [Report VAT to Tax Authorities](../../finance-how-report-vat.md).
 
 ## Set Up Business Central to Generate and Submit Electronic VAT Returns
 

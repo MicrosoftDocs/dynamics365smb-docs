@@ -20,7 +20,7 @@ Intrastat reporting is based on basic EU regulations that apply to all countries
 > [!NOTE]
 > Intrastat information doesn't apply to the movement of services between countries/regions. Instead, the information applies only to goods such as items and fixed assets. If your government requires you to register the movement of services between countries/regions, use the **Service Declaration** feature.
 >
-> This feature is available starting in November 2022, as an app that you can download from [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). To use this feature, install it on the **Extension Management** page.
+> This feature is available as an app that you can download from [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). To use this feature, install it on the **Extension Management** page.
 
 > [!IMPORTANT]
 > This article covers the new Intrastat experience that's available from [!INCLUDE[prod_short](includes/prod_short.md)] version 21. Consult your administrator to learn which version your company is using and whether you should enable the new functionality.
@@ -34,7 +34,7 @@ In 2022 release wave 2, [!INCLUDE[prod_short](includes/prod_short.md)] includes 
 > [!IMPORTANT]
 > You can't use the old and new experiences in parallel. Before you activate the extension in a production environment, we recommend that you test it in a sandbox environment by using a copy of your production data. After you activate a new user experience in your production environment, you can't revert to the old Intrastat functionality.
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Feature Management**, and then select the related link.
+1. Select the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Feature Management**, and then select the related link.
 2. On the **Feature Management** page, select the line for **Feature Update: Replace the existing Intrastat functionality with the new Intrastat extension**. To learn more about feature management, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 3. In the **Enable for** column, select **All Users**.
 4. Read the explanation about how the system will be upgraded, and then select **Yes** to agree.
@@ -61,6 +61,7 @@ Follow these steps to set up Intrastat reporting.
    | --- | --- |
    | **Report Receipts** | Specifies that you must include arrivals of received goods in Intrastat reports. |
    | **Report Shipments** | Specifies that you must include shipments of dispatched items in Intrastat reports. |
+   | **Include Drop Shipments** | Specifies if drop shipment transactions are included in Intrastat reports. To learn more, see [Work with Intrastat Reporting](finance-how-report-intrastat.md).  |  
    | **Shipments Based On**  | Specifies the country code based on which Intrastat report lines are taken.  |
    | **VAT No. Based On** | Specifies the customer or vendor code based on which the value-added tax (VAT) number is taken for the Intrastat report.  |
    | **Company VAT No. on File** | Specifies how the company's VAT registration number is exported to the Intrastat file.  |
@@ -68,7 +69,7 @@ Follow these steps to set up Intrastat reporting.
    | **Customer VAT No. on File** | Specifies how a customer's VAT registration number is exported to the Intrastat file.  |
    | **Get Partner VAT** | Specifies which type of Intrastat report line the partner's VAT registration number is updated from. Depending on your local requirements, you can choose receipt lines only, shipment lines only, or both types of lines. |
 
-3. On the **Default Transactions** FastTab, select or enter field information as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] The following table describes some of the key fields.
+4. On the **Default Transactions** FastTab, select or enter field information as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] The following table describes some of the key fields.
 
    | Field | Description |
    | --- | --- |
@@ -79,7 +80,7 @@ Follow these steps to set up Intrastat reporting.
    | **Default VAT for Unknown State** | Specifies the default VAT number for an unknown state. |
    | **Default Country/Region Code** | Specifies the default receiving country code. |
 
-4. On the **Reporting** FastTab, select or enter the field information as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] The following table describes some of the key fields.
+5. On the **Reporting** FastTab, select or enter the field information as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] The following table describes some of the key fields.
 
    | Field | Description |
    | --- | --- |
@@ -89,7 +90,7 @@ Follow these steps to set up Intrastat reporting.
    | **Data Exch. Def. Code – Receipt** | Specifies the data exchange definition code to generate the Intrastat file for received goods. This field is available only if the **Split Receipts/Shipments Files** field is set to **Yes**. |
    | **Data Exch. Def. Code – Shipment** | Specifies the data exchange definition code to generate the Intrastat file for shipped goods. This field is available only if the **Split Receipts/Shipments Files** field is set to **Yes**. |
 
-5. On the **Numbering** FastTab, enter a value in the **Intrastat Nos** field.
+6. On the **Numbering** FastTab, enter a value in the **Intrastat Nos** field.
 
 ### Set up a reporting file
 
@@ -251,7 +252,7 @@ Before you can include a customer in Intrastat reporting, enter their informatio
 
 #### Exclude items and fixed assets from Intrastat reporting
 
-If there's a reason to exclude a specific item or fixed asset from Intrastat reporting, change the option on its card.
+If there's a reason to exclude a specific item or fixed asset from Intrastat reporting, change the option on its card marking the **Exclude from Intrastat Report** field. Use this field on the **Item Template** card to create more items excluded from the Intrastat reporting. 
 
 ##### Exclude an item from Intrastat reporting
 
@@ -336,8 +337,6 @@ Intrastat reporting in Sweden requires two different files for receipts and ship
 The process of working with Intrastat reports is the same as in global feature.
 
 <!-- ### United Kingdom-->
-
-## See related training at [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## See also
 

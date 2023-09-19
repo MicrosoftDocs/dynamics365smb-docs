@@ -1,16 +1,15 @@
 ---
 title: Use Time Sheets
 description: Describes how to create a time sheet, define work types, fill in the time sheet, and submit it for approval.
-author: jswymer
-ms.author: jswymer
 ms.reviewer: jswymer
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
-ms.date: 03/01/2023
 ms.date: 07/27/2023
 ms.service: dynamics365-business-central
 ms.custom: bap-template
+ms.author: bholtorf
 ---
 # Use Time Sheets
 

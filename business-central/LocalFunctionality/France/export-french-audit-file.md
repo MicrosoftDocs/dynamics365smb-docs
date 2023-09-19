@@ -29,6 +29,16 @@ In France, companies must provide corporate tax and VAT information, such as tra
 5. Enter the **Default Source Code** to specify the source code to be used if there is no code specified in the G/L entry. 
 6. Enter information in the remaining fields as described in the article, [How to export Audit Files](../../finance-how-to-export-audit-files.md).
 
+## Numbering in the "EcritureNum" tag
+
+The numbering in the "EcritureNum" tag must increase over time and not contain any breaks. This transaction numbering must be unique for the whole file or specific to each journal code. Using the **No.** field in the **G/L Regusters** provides unique numbering. However, if you post multiple invoices through one journal, all of the invoices will have one common **No.**. French regulation requires a unique number for each invoice.  
+
+To fufill this requirment, run the report with an additional option. To do this, follow next steps:  
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon and enter **Export G/L Entries - Tax Audit**.
+2. Select the **Use Transaction No.** field. When you select this field, the transaction number is used as the progressive number in audit file. If you don't select this field, the general ledger register number is used as the progressive number.
+3. Select **OK** to create the report.  
+
 ## See also
 
 [French Local Functionality](france-local-functionality.md)

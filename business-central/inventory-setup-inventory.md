@@ -1,8 +1,7 @@
 ---
 title: Setting Up Inventory
 description: Describes how to set up your stock and inventory processes, including transfer routes and locations, such as warehouses.
-author: SorenGP
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,7 +9,7 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.search.form: 30, 461
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Setting Up Inventory
@@ -33,8 +32,6 @@ When you have set up your inventory, you can manage various processes related to
 | Assign items to categories and give them attributes to help you and customers find items. |[Categorize Items](inventory-how-categorize-items.md) |
 |Import multiple item pictures in one go from a zip file where the files are named according to item numbers.|[Import Multiple Item Pictures](inventory-how-import-item-pictures.md)|
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
-
-## See related [Microsoft training](/training/paths/trade-get-started-dynamics-365-business-central/)
 
 ## See Also
 

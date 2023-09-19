@@ -1,13 +1,12 @@
 ---
 title: Set Up Currencies
 description: You must set up each currency if you buy or sell in currencies other than your local currency (LCY), or if you record G/L transactions in different currencies.
-author: edupont04
-
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: multiple currencies
 ms.search.form: 5, 118
 ms.date: 03/15/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 # Set Up Currencies
 
@@ -111,8 +110,6 @@ You can enter a currency code on a general journal line and post the line to a g
 ## Example of a receivable currency transaction
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
-
-## See related [Microsoft training](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
 
 ## See also
 

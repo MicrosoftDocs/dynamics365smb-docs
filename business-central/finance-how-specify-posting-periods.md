@@ -1,10 +1,8 @@
 ---
 title: Specify Posting Periods
 description: You specify posting periods (posting start and end dates) to set up when users can post to the general ledger.
-author: SorenGP
+author: brentholtorf
 editor: ''
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,7 +10,7 @@ ms.workload: na
 ms.search.keywords: user setup
 ms.search.form: 118
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Specify Posting Periods

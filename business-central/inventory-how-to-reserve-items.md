@@ -1,7 +1,7 @@
 ---
 title: How to Reserve Items 
 description: You can reserve items for sales orders, purchase orders, and production orders. You can also reserve items in inventory or inbound on open document lines.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.forms: 498, 497
 ms.date: 08/11/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Reserve Items
@@ -101,8 +101,6 @@ The following procedure is based on a sales order.
 6. On the **Item Tracking List** page, select the serial and lot number combination you have assigned.  
 7. Choose the **OK** button to open the **Reservation** page showing only supply with the specified item tracking number. If there are any non-specific reservations on any of the item tracking numbers you've specified for this line, you're informed of the quantity that has already been reserved.  
 8. Choose either the **Auto Reserve** or the **Reserve from Current Line** action to create the reservation of the specific item tracking numbers.
-
-## See related [Microsoft training](/training/modules/manage-outbound-serial-lot-numbers/)
 
 ## See also
 

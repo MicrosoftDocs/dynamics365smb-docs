@@ -1,16 +1,14 @@
 ---
     title: How to Create Service Items
     description: Read about the different ways you can create service items in Business Central, for example within a service order or when shipping items.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/23/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Create Service Items
@@ -58,8 +56,6 @@ The following procedure shows how to create service items when you ship items on
 3. Choose the service line, and then choose **Actions**, choose **Functions**, and then choose **Insert Starting Fee** action.  
 
     A service line of type **Cost** is inserted with the starting fee. The starting fee applies to the selected service item.
-
-## See related [Microsoft training](/training/modules/create-items/)
 
 ## See also
 

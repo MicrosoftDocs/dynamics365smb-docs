@@ -9,7 +9,6 @@ ms.topic: how-to
 ms.date: 12/20/2022
 ms.custom: bap-template
 ms.search.forms: 7375, 
-
 ---
 # Put Items Away with Inventory Put-aways
 
@@ -83,8 +82,6 @@ A warehouse employee can create a new inventory put-away based on the released s
     * If the location uses bins, posting will also create warehouse entries to post the bin quantity changes.
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
-
-## See related [Microsoft training](/training/modules/receive-put-away-items/)
 
 ## See also
 

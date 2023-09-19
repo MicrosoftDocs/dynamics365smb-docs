@@ -7,7 +7,6 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, work
 ms.date: 07/03/2023
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: d365-business-central
 ---
 
 # Troubleshoot Your [!INCLUDE[prod_short](includes/prod_short.md)] Automated Workflows
@@ -77,8 +76,6 @@ Go to the **Web Services** page and make sure the following objects are publishe
 > The **Service Name** value must be exactly as shown in the table. Don't change or translate the service name.
 
 Learn more about publishing web services at [Publish a Web Service](across-how-publish-web-service.md).
-
-## See related training at [Microsoft Learn](/learn/modules/use-power-automate/).
 
 ## See also
 

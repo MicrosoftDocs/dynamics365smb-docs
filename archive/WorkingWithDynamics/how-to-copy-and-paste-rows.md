@@ -3,7 +3,7 @@
     description: You can use the shortcut menu to copy and paste rows from Business Central to save time entering data.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

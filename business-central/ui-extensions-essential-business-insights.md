@@ -11,7 +11,6 @@ ms.search.keywords: BI, add-in, insight, headline, data
 ms.search.form: 1439, 
 ms.date: 06/23/2021
 ms.author: bholtorf
-
 ---
 
 # The Essential Business Insights Extension

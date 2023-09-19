@@ -1,9 +1,9 @@
 ---
 title: Pick Items for Warehouse Shipment
 description: Learn about using warehouse pick documents to create and process pick information prior to posting a warehouse shipment.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -111,8 +111,6 @@ You can't create a warehouse pick document from scratch. Picks are part of a wor
 4. After you pick and place the items in the shipping area or shipping bin, choose the **Register Pick** action.  
 
 You can now bring the items to the shipment dock and post the shipment, including the related source document, on the **Warehouse Shipment** page. Learn more at [Ship Items](warehouse-how-ship-items.md).
-
-## See related [Microsoft training](/training/modules/pick-ship-items-warehouse/)
 
 ## See also
 

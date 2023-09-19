@@ -1,16 +1,14 @@
 ---
     title: Create Bins
     description: Generate groups of similar bins in the bin creation worksheet, create bins individually on the location card, or automatically on the Bin Creation Worksheet. 
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
     ms.date: 06/24/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Create Bins
@@ -72,8 +70,6 @@ To work with the **Bin Creation Worksheet** page, you must be set up as a wareho
 9. When you have deleted all unnecessary bins, choose the **Create Bins** action, and application will create bins for each line in the worksheet.  
 
 Repeat the process for another set of bins until you have created all the bins in your warehouse.  
-
-## See related [Microsoft training](/training/modules/create-new-bins/)
 
 ## See also
 

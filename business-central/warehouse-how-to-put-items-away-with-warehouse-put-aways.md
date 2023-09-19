@@ -1,9 +1,9 @@
 ---
 title: How to Put Items Away with Warehouse Put-aways
 description: Learn about the different ways to use warehouse put-aways to put away received items.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/24/2023
@@ -112,8 +112,6 @@ If a location uses both put-away processing and receive processing and you have 
     > If you must place the items for one line in more than one bin, for example because the designated bin is full, use the **Split Line** action on the **Lines** FastTab. The action creates a line for the remaining quantity to handle.
 
 5. When you have placed all the items in bins as instructed, choose the **Register Put-away** action.  
-
-## See related [Microsoft training](/training/modules/receive-put-away-items/)
 
 ## See also
 

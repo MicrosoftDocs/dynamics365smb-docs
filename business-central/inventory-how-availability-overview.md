@@ -2,9 +2,7 @@
 title: Get an Availability Overview
 description: You can get information about the availability of items or stock across locations, per sales or purchase events, by time period, and more.
 documentationcenter: ''
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,7 +10,7 @@ ms.workload: na
 ms.search.keywords: stock
 ms.search.form: 908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390
 ms.date: 09/21/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # View the Availability of Items

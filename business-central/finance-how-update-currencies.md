@@ -1,14 +1,12 @@
 ---
 title: Update Currency Exchange Rates (contains video)
 description: If you track amounts in different currencies, you can let Business Central help you adjust FX exchange rates of posted entries with an external service.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
 ms.date: 03/15/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Update Currency Exchange Rates
@@ -124,8 +122,6 @@ You can use an external service to keep your currency exchange rates up to date,
 2. Choose the **Update Exchange Rates** action.
 
 The value in the **Exchange Rate** field on the **Currencies** page is updated with the latest currency exchange rate.
-
-## See related [Microsoft training](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## See Also
 

@@ -1,9 +1,7 @@
 ---
 title: Set Up Codes for Audit Trails
 description: Learn about the tasks to set up source codes and reason codes that you can use to track audit trails.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 257, 259, 279
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Setting Up Source Codes and Reason Codes for Audit Trails
@@ -81,8 +79,6 @@ The selected reason code will be copied to new journal batches created under thi
 2. On the sales or purchase header, enter the code in the **Reason Code** field.
 
 When the invoice is posted, the reason code is copied to each general ledger, customer, and vendor entry. You cannot assign different reason codes to the individual purchase and sales lines because all lines are posted as one entry.
-
-## See related [Microsoft training](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## See Also
 

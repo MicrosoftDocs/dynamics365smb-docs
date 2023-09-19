@@ -1,15 +1,12 @@
 ---
 title: Australian Tax overview
 description: This topic is an overview of articles that cover how to set up and use the tax functionality in Australia.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: overview
 ms.search.keywords:
 ms.search.form: 11600,11601,11602,11603,11604,11605,11606,11607,11608,11609,11610,11611,11612,11613,11614,28040,28041,28042,28043,28044,28071,28072,28073,28074,28075,28076,28077,28078,28079,28080,28081,28082
 ms.date: 06/17/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Tax Overview
 

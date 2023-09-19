@@ -1,16 +1,14 @@
 ---
 title: Configure Warehouse Processes
 description: A company's distribution strategy is reflected in the configuration of its warehouse processes, for example the warehouse locations.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Setting Up Warehouse Management
@@ -37,8 +35,6 @@ The following table describes a sequence of tasks, with links to the topics that
 |Set up the warehouse to automatically suggest items to be picked that expire first.|[Enable Picking by FEFO](warehouse-picking-by-fefo.md)|
 |Get tips on how to reorganize locations, bins, or zones to obtain more efficient warehouse activities.|[Restructure Warehouses](warehouse-how-to-restructure-warehouses.md)|
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
-
-## See related [Microsoft training](/training/paths/set-up-warehouse-management/)
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Assign Document Layouts to Customers or Vendors
 description: Use document layouts to control the appearance and format of documents such as invoices and orders that you send to customers and vendors.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 21, 9650
 ms.date: 04/07/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Define Document Layouts for Customers and Vendors
@@ -45,8 +45,6 @@ To save time when you send documents to customer and vendor contacts by email, s
 
 1. On the **Document Layouts** page, on the line for a report layout that you want to send to a specific contact for the customer, choose the **Select Email from Contacts** action.
 2. On the **Contacts** page, select one or more contacts, and then choose **OK**.
-
-## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## See Also
 

@@ -1,7 +1,7 @@
 ---
 title: Using the Sales and Inventory Forecast Extension to Manage Inventory | Microsoft Docs
 description: This extension helps you predict sales, get a clear overview of expected stock-outs, and even helps you create replenishment requests to vendors.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, budget
 ms.search.form: 1850, 1851, 1853, 
 ms.date: 12/20/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 
@@ -59,8 +59,6 @@ You can also create your own predictive web service based on a public model name
 5. Make a note of the API URL and API key. You will use these credentials for a cash flow setup.  
 6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales and Inventory Forecast Setup**, and then choose the related link.  
 7. Expand the **General** FastTab, and then fill in the API URL and API key fields.  
-
-## See related [Microsoft training](/training/modules/use-sales-inventory-forecast-extension/)
 
 ## See also
 

@@ -13,7 +13,7 @@ ms.author: jswymer
 ---
 # Work with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)]
 
-In this article, you learn some of the basics about viewing Power BI reports in [!INCLUDE [prod_short](includes/prod_short.md)].
+In this article, you learn some of the basics about viewing Power BI reports, including scorecards, in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## Overview
 
@@ -56,7 +56,7 @@ The connection process starts. During the process, [!INCLUDE [prod_short](includ
 
 #### From [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
 
-Connecting to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] is similar to online. However, you might be prompted on the **MICROSOFT ENTRA ID SERVICE PERMISSIONS** page to grant access to Power BI Services. To grant access, select **Authorize Azure Services**, and then **Accept**.
+Connecting to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] is similar to online. However, you might be prompted on the **MICROSOFT ENTRA SERVICE PERMISSIONS** page to grant access to Power BI Services. To grant access, select **Authorize Azure Services**, and then **Accept**.
 
 Once connected, you can select a report from the Power BI part on pages.
 

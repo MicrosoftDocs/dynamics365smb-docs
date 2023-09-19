@@ -63,7 +63,7 @@ Follow this four-step process to setup Power BI metrics:
 Learn more about Power BI metrics at [Get started with metrics in Power BI](/power-bi/create-reports/service-goals-introduction).
 
 > [!NOTE]
-> It is currently not possible to embed scorecards from Power BI metrics in [!INCLUDE[prod_short](includes/prod_short.md)].
+> Starting with Business Central 2023 release wave 2, it's possible to embed scorecards from Power BI metrics in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Next steps
 

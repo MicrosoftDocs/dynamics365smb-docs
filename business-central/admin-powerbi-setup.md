@@ -59,7 +59,7 @@ Whenever possible, you're encouraged to use API pages instead of OData web servi
 
 This section explains the requirements for a [!INCLUDE[prod_short](includes/prod_short.md)] on-premises deployment to integrate with Power BI.
 
-1. Configure either NavUserPassword or Azure Active Directory Authentication for the deployment.  
+1. Configure either [NavUserPassword](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-navuserpassword) or [Microsoft Entra ID](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-ad-overview) as the authentication method for the deployment.  
     
     > [!NOTE]
     > Power BI integration doesn't support Windows authentication and is not supported on Windows Client.

@@ -11,7 +11,7 @@ ms.author: bholtorf
 ---
 # Update Currency Exchange Rates
 
-You can define different currencies in [!INCLUDE [prod_short](includes/prod_short.md)], for example if you trade in currencies other than your local currency. Then, to help you keep track of changes in currency exchange rates, you can manage the currencies manually, or you can set up a currency exchange rate service.
+You can define different currencies in [!INCLUDE [prod_short](includes/prod_short.md)], for example if you trade in currencies other than your local currency. To keep track of changes in currency exchange rates, you can manage the rates manually, or set up a currency exchange rate service.
 
 ## Currencies
 
@@ -48,7 +48,7 @@ In general, the values of the **Exchange Rate Amount** and **Relational Exchange
 >
 > `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
 
-The adjustment exchange rate amount or relational adjustment exchange rate amount will be used to update all open bank, receivables, or payables transactions.  
+The adjustment exchange rate amount, or the relational adjustment exchange rate amount, update all open bank, receivables, or payables transactions.  
 
 > [!Note]
 > The actual currency rate will be calculated using this formula:
@@ -57,9 +57,9 @@ The adjustment exchange rate amount or relational adjustment exchange rate amoun
 
 ## Adjusting exchange rates
 
-Because exchange rates fluctuate constantly, additional currency equivalents in your system must be adjusted periodically. If these adjustments are not done, amounts that have been converted from foreign (or additional) currencies and posted to the general ledger in LCY may be misleading. In addition, daily entries posted before a daily exchange rate is entered into application must be updated after the daily exchange rate information is entered.
+Because exchange rates fluctuate constantly, you must adjust other currency equivalents periodically. If you don't, amounts you converted from foreign (or other) currencies and posted to the general ledger in local currency can be incorrect. Also, you must update daily entries posted before you enter a daily exchange rate.
 
-The **Adjust Exchange Rates** batch job is used to manually adjust the exchange rates of posted customer, vendor, and bank account entries. It can also update additional reporting currency amounts on G/L entries.  
+Use the **Adjust Exchange Rates** batch job to manually adjust the exchange rates for posted customer, vendor, and bank account entries. The batch job can also update other reporting currency amounts on G/L entries.  
 
 > [!TIP]
 > You can use a service to update exchange rates in the system automatically. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). However, this does not adjust exchange rates on already posted transactions. To update exchange rates on posted entries, use the **Adjust Exchange Rates** batch job.
@@ -80,7 +80,7 @@ You can preview the effect that an exchange rate adjustment will have on posting
 You can also specify how the adjustment will handle dimensions for unrealized gains and losses postings by choosing one of the following options in the **Dimension Posting** field:  
 
 * **Source Entry Dimensions**: Transfer dimension values for G/L entries for unrealized gains and losses from the entry you're adjusting.  
-* **No Dimensions**: Don't transfer dimension values for unrealized gains and losses to G/L entries. This doesn't mean that [!INCLUDE [prod_short](includes/prod_short.md)] ignores default dimension settings, for example **Code Mandatory**, **Same Code**, or **No Code**. If the source transaction entries have dimension values, the adjustment creates entries without dimension values.  
+* **No Dimensions**: Don't transfer dimension values for unrealized gains and losses to G/L entries. [!INCLUDE [prod_short](includes/prod_short.md)] will still use default dimension settings, for example **Code Mandatory**, **Same Code**, or **No Code**. If the source transaction entries have dimension values, the adjustment creates entries without dimension values.  
 * **G/L Account Dimensions**: Transfer dimension values from the unrealized gains and losses G/L account's dimension settings source entry to G/L entries.
 
 > [!NOTE]
@@ -91,13 +91,13 @@ You can also specify how the adjustment will handle dimensions for unrealized ga
 
 ### Effect on customers and vendors
 
-For customer and vendor accounts, the batch job adjusts the currency by using the exchange rate that is valid on the posting date that is specified in the batch job. The batch job calculates the differences for the individual currency balances and posts the amounts to the general ledger account that is specified in the **Unrealized Gains Acc.** field or the **Unrealized Losses Acc.** field on the **Currencies** page. Balancing entries are automatically posted to the receivables/payables account in the general ledger.
+For customer and vendor accounts, the batch job uses the exchange rate that was valid on the posting date specified for the batch job to adjust the currency. The batch job calculates the differences for the individual currency balances and posts the amounts to the general ledger account that is specified in the **Unrealized Gains Acc.** field or the **Unrealized Losses Acc.** field on the **Currencies** page. Balancing entries are automatically posted to the receivables/payables account in the general ledger.
 
-The batch job processes all open customer ledger entries and vendor ledger entries. If there is an exchange rate difference for an entry, the batch job creates a new detailed customer or vendor ledger entry, which reflects the adjusted amount on the customer or vendor ledger entry.
+The batch job processes all open customer ledger entries and vendor ledger entries. If there is an exchange rate difference for an entry, the batch job creates a new detailed customer or vendor ledger entry. The new entry reflects the adjusted amount on the customer or vendor ledger entry.
 
 #### Dimensions on customer and vendor ledger entries
 
-The adjustment entries are assigned the dimensions from the customer/vendor ledger entries, and the adjustments are posted per combination of dimension values.
+[!INCLUDE [prod_short](includes/prod_short.md)] assigns the dimensions from the customer or vendor ledger entries to the adjustment entries, and posts adjustments for each combination of dimension values.
 
 ### Effect on bank accounts
 
@@ -109,7 +109,7 @@ The adjustment entries for the bank account's general ledger account and for the
 
 ### Effect on G/L accounts
 
-If you post in an additional reporting currency, you can have the batch job create new general ledger entries for currency adjustments between LCY and the additional reporting currency. The batch job calculates the differences for each general ledger entry and adjusts the general ledger entry depending on the contents of the **Exchange Rate Adjustment** field for each general ledger account.
+If you post in another reporting currency, the batch job can create new general ledger entries for currency adjustments between local currency and the other reporting currency. The batch job calculates the differences for each general ledger entry and adjusts the general ledger entry depending on the contents of the **Exchange Rate Adjustment** field for each general ledger account.
 
 #### Dimensions on G/L account entries
 

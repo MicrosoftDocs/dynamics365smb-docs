@@ -46,14 +46,14 @@ If you're experiencing this problem, here are a few things to try:
 
 1. First, make sure that the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams is installed.
 
-    To check, sign in to the Teams desktop app or Teams in the browser. Then, on the left side, select **Apps**, and search for **[!INCLUDE [prod_short](includes/prod_short.md)]**. When you find the **[!INCLUDE [prod_short](includes/prod_short.md)]** app, select it to open the app details page. If the **Add for me** button is shown, then the [!INCLUDE [prod_short](includes/prod_short.md)] app isn't installed. For more information about how to install the app, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
+    To check, sign in to the Teams desktop app or Teams in the browser. Then, on the left side, select **Apps**, and search for **[!INCLUDE [prod_short](includes/prod_short.md)]**. When you find the **[!INCLUDE [prod_short](includes/prod_short.md)]** app, select it to open the app details page. If the **Add** button is shown, then the [!INCLUDE [prod_short](includes/prod_short.md)] app isn't installed. For more information about how to install the app, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
 
     > [!NOTE]
-    > Guest users can't immediately install apps. For more information about guest users, see our FAQ about collaborating with guests. 
+    > Guest users can't immediately install apps. For more information about guest users, see our [FAQ about collaborating with guests](teams-faq.md?tabs=collaborating#language). 
 
 2. Next, check that you've signed in with the correct identity.
 
-    In Teams, go to any chat, and under the message compose box, right-click the [!INCLUDE [prod_short](includes/prod_short.md)] icon, then choose **Settings**. When the window appears, check whether the user it says that you're connected as matches what you use to connect to [!INCLUDE [prod_short](includes/prod_short.md)].
+    In Teams, go to any chat, and under the message compose box, right-click the [!INCLUDE [prod_short](includes/prod_short.md)] icon, then choose **Settings**. The window that appears states the user account that you’re signed in as. Verify that it’s the correct user account.
 
 3. Make sure codeunit 2718 **Page Summary Provider** is published as a web service.
 

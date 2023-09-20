@@ -16,7 +16,7 @@ You can define different currencies in [!INCLUDE [prod_short](includes/prod_shor
 ## Currencies
 
 > [!TIP]  
-> In [!INCLUDE[prod_short](includes/prod_short.md)] if you are looking for real time information about foreign exchange (FX) rates or historical rates, you will find it referred to as currency. In addition to this article, see also [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
+> In [!INCLUDE[prod_short](includes/prod_short.md)], if you're looking for real time information about foreign exchange (FX) rates or historical rates, you will find it referred to as currency. In addition to this article, see also [Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md).
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
@@ -70,21 +70,40 @@ You can preview the effect that an adjustment will have on posting before you ac
 - **By G/L Account**: G/L entries for unrealized gains and losses will have dimensions values transferred from the unrealized gains and losses G/L account's dimension settings source entry.
 - **No Transfer**: G/L entries for unrealized gains and losses won't have dimensions values.
 
-### Effect on Customers and Vendors
+## Preview the effect of an adjustment
+
+You can preview the effect that an exchange rate adjustment will have on posting before you actually post by choosing the **Preview Posting** action on the **Exch. Rates Adjustment** report (Report 596) request page. On the request page you can specify what to include in the preview:
+
+* Get a detailed posting to the general ledger by entry
+* Get a summarized posting by currency. Just pick the **Adjust per entry** field on the **Exch. Rates Adjustment** report. 
+
+You can also specify how the adjustment will handle dimensions for unrealized gains and losses postings by choosing one of the following options in the **Dimension Posting** field:  
+
+* **Source Entry Dimensions**: Transfer dimension values for G/L entries for unrealized gains and losses from the entry you're adjusting.  
+* **No Dimensions**: Don't transfer dimension values for unrealized gains and losses to G/L entries. This doesn't mean that [!INCLUDE [prod_short](includes/prod_short.md)] ignores default dimension settings, for example **Code Mandatory**, **Same Code**, or **No Code**. If the source transaction entries have dimension values, the adjustment creates entries without dimension values.  
+* **G/L Account Dimensions**: Transfer dimension values from the unrealized gains and losses G/L account's dimension settings source entry to G/L entries.
+
+> [!NOTE]
+> To use the preview capability, you must turn on the **Feature Update: Enable use of new extensible exchange rate adjustment, including posting review** feature on the **[Feature Management](https://businesscentral.dynamics.com/?page=2610)** page.
+
+> [!IMPORTANT]
+> Due to local requirements in Switzerland, we don't recommend that you enable **Feature Update: Enable use of new extensible exchange rate adjustment, including posting review** in the Swiss (CH) country version.
+
+### Effect on customers and vendors
 
 For customer and vendor accounts, the batch job adjusts the currency by using the exchange rate that is valid on the posting date that is specified in the batch job. The batch job calculates the differences for the individual currency balances and posts the amounts to the general ledger account that is specified in the **Unrealized Gains Acc.** field or the **Unrealized Losses Acc.** field on the **Currencies** page. Balancing entries are automatically posted to the receivables/payables account in the general ledger.
 
 The batch job processes all open customer ledger entries and vendor ledger entries. If there is an exchange rate difference for an entry, the batch job creates a new detailed customer or vendor ledger entry, which reflects the adjusted amount on the customer or vendor ledger entry.
 
-#### Dimensions on Customer and Vendor Ledger Entries
+#### Dimensions on customer and vendor ledger entries
 
 The adjustment entries are assigned the dimensions from the customer/vendor ledger entries, and the adjustments are posted per combination of dimension values.
 
-### Effect on Bank Accounts
+### Effect on bank accounts
 
 For bank accounts, the batch job adjusts the currency by using the exchange rate that is valid on the posting date specified in the batch job. The batch job calculates the differences for each bank account that has a currency code and posts the amounts to the general ledger account that is specified in the **Realized Gains Acc.** field or the **Realized Losses Acc.** field on the **Currencies** page. Balancing entries are automatically posted to the general ledger bank accounts that are specified in the bank account posting groups. The batch job calculates one entry per currency per posting group.
 
-#### Dimensions on Bank Account Entries
+#### Dimensions on bank account entries
 
 The adjustment entries for the bank account's general ledger account and for the gain/loss account are assigned the bank account's default dimensions.
 
@@ -92,7 +111,8 @@ The adjustment entries for the bank account's general ledger account and for the
 
 If you post in an additional reporting currency, you can have the batch job create new general ledger entries for currency adjustments between LCY and the additional reporting currency. The batch job calculates the differences for each general ledger entry and adjusts the general ledger entry depending on the contents of the **Exchange Rate Adjustment** field for each general ledger account.
 
-##### Dimensions on G/L Account Entries
+#### Dimensions on G/L account entries
+
 The adjustment entries are assigned the default dimensions from the accounts they are posted to.
 
 > [!Important]
@@ -101,6 +121,7 @@ The adjustment entries are assigned the default dimensions from the accounts the
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
 ## To set up a currency exchange rate service
+
 You can use an external service to keep your currency exchange rates up to date, such as FloatRates. 
 
 > [!NOTE]
@@ -119,6 +140,7 @@ You can use an external service to keep your currency exchange rates up to date,
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
 ## To update currency exchange rates through a service
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies**, and then choose the related link.
 2. Choose the **Update Exchange Rates** action.
 

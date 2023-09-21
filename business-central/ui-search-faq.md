@@ -36,7 +36,7 @@ You can use Tell Me in the on-premises Web Client to find actions, pages, and re
 
 ### Is Tell Me available for all form factors?
 
-Yes. It was introduced on phones and tablets in Business Central 2023 release wave 2, but must be enabled in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management) using the **Search for pages and data in the mobile app** switch. 
+Yes. It was introduced on phones and tablets in Business Central 2023 release wave 2, but must be enabled in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management) using the **Feature: Search for pages and data in the mobile app** switch. 
 
 <!-- removed in v20 because of Help pane
 ### Are the documentation results available in any language?

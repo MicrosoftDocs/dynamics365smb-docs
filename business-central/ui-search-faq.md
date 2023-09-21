@@ -3,24 +3,24 @@ title: Frequently Asked Questions about Tell Me
 description: This article provides answers to questions that our partners and customers often ask about the Tell Me feature.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.service: dynamics365-business-central
 ms.search.keywords: find
 ms.search.form: TellMe
-ms.date: 05/23/2022
+ms.date: 09/21/2023
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 # Tell Me FAQ
 This article answers questions that our advanced users often ask about the Tell Me feature.
 
 ### Are all actions from my current page discoverable in Tell Me?
 
-No. Actions in parts, such as the Sales Lines part or FactBoxes, are not displayed in Tell Me.
+No. Actions in parts, such as the Sales Lines part or FactBoxes, aren't displayed in Tell Me.
 
 ### Are the results in Tell Me filtered by permissions?
 
-If the user does not have AccessByPermissions then actions are not displayed. However, pages and reports appear in the results but require that the user has permission to access them. A message will display if the user does not have permission to view the object.
+If the user doesn't have AccessByPermissions, then actions aren't displayed. However, pages and reports appear in the results but require that the user has permission to access them. A message displays if the user doesn't have permission to view the object.
 
 ### Does Tell Me display content from my customizations or installed third-party extensions?
 
@@ -36,7 +36,7 @@ You can use Tell Me in the on-premises Web Client to find actions, pages, and re
 
 ### Is Tell Me available for all form factors?
 
-Tell Me is only available in the Web Client or Windows desktop app.
+Yes. It was introduced on phones and tablets in Business Central 2023 release wave 2, but must be enabled in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management) using the **Search for pages and data in the mobile app** switch. 
 
 <!-- removed in v20 because of Help pane
 ### Are the documentation results available in any language?
@@ -49,7 +49,7 @@ No, but you can easily get this information from the Help pane. Just select the 
 
 ### Why don't I see a bookmark icon for my search results?
 
-The bookmark icon is not displayed in the Tell Me window when personalization is disabled for a user role.
+The bookmark icon isn't displayed in the Tell Me window when personalization is disabled for a user role.
 
 
 ## See Also  

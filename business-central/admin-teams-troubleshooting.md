@@ -2,7 +2,7 @@
 title: Troubleshooting Microsoft Teams Integration
 description: Learn about what you can do as an administrator to control Microsoft Teams integration.
 author: jswymer
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

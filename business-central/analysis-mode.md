@@ -10,12 +10,14 @@ ms.custom: bap-template
 ms.service: dynamics365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
 ---
-# Analyze list data using data analysis mode
+# Analyze list and query data using data analysis mode
 
-In this article, you learn how to analyze data from list pages using the *data analysis mode*. The data analysis mode enables you to analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Examples could be "My customers", "Follow up items", "Recently added vendors", "Sales statistics", or any other view you can imagine.
+In this article, you learn how to analyze data from list pages and queries using the *data analysis mode*. The data analysis mode enables you to analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Examples could be "My customers", "Follow up items", "Recently added vendors", "Sales statistics", or any other view you can imagine.
 
 > [!TIP]
-> A good thing about the data analysis mode is that it doesn't change any of the underlying data of list page or the layout of the page when it's not in data analysis mode. So the best way to learn about what you can do in the data analysis mode is to try things out.
+> A good thing about the data analysis mode is that it doesn't change any of the underlying data of list page or query, or the layout of the page or query when it's not in data analysis mode. So the best way to learn about what you can do in the data analysis mode is to try things out.
+
+
 
 ## Prerequisite 
 

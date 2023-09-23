@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/30/2023
+ms.date: 09/23/2023
 ms.custom: bap-template
 ms.service: dynamics365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
@@ -17,15 +17,14 @@ In this article, you learn how to analyze data from list pages and queries using
 > [!TIP]
 > A good thing about the data analysis mode is that it doesn't change any of the underlying data of list page or query, or the layout of the page or query when it's not in data analysis mode. So the best way to learn about what you can do in the data analysis mode is to try things out.
 
-
-
 ## Prerequisite 
 
-The data analysis mode is currently in preview, which means that an administrator must turn it on before you can use it. If you're an administrator, and you want to turn on the data analysis mode, go to the **Feature Management** page and enable **Feature Update: Analysis mode, quickly analyze data directly in Business Central**. For more information about turning features on and off, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
-
+- For list pages, the analysis mode was introduced in Business Central 2023 release wave 1 (version 22) as a preview. If you're using version 22, an administrator must turn it on before you can use it. If you're an administrator, and you want to turn on the data analysis mode, go to the **Feature Management** page and enable **Feature Update: Analysis mode, quickly analyze data directly in Business Central**. For more information about turning features on and off, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- For queries, the analysis mode was introduced in Business Central 2023 release wave 2 (version 23).
+- 
 ## Get started
 
-1. Open the list page.
+1. Open the list page or query.
 
    For example, to work with **Customer Ledger Entries**, select the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png) icon (<kbd>Alt</kbd>+<kbd>Q</kbd>), enter *customer ledger entries*, and then choose the related link.  
 2. In the action bar at the top of the page, turn on the **Analyze** toggle switch.
@@ -54,7 +53,7 @@ In the data analysis mode, the page is divided into two areas:
 
 ### Data area (1)
 
-The data area is where the rows and columns of the list page are shown and data is summarized. The data area provides a versatile way to control of the layout of columns and a quick way to get a summary of the data. For columns that contain numeric values, the sum of all values in the column is shown in a last row, unless you've defined row groups. In this case, the sums appear as a subtotal for the groups.  
+The data area is where the rows and columns of the list page query are shown and data is summarized. The data area provides a versatile way to control of the layout of columns and a quick way to get a summary of the data. For columns that contain numeric values, the sum of all values in the column is shown in a last row, unless you've defined row groups. In this case, the sums appear as a subtotal for the groups.  
 
 ![Shows an overview of a data area on a page in the data analysis mode](media/analysis-mode-data-area.png)
 
@@ -68,7 +67,7 @@ The data area is where the rows and columns of the list page are shown and data 
 
 ### Summary bar (2)
 
-The summary bar is along the bottom of the page and displays statistics about the data in the list. As you interact with columns whose values can be summed, like selecting multiple rows in a column that displays amounts, the data will update.
+The summary bar is along the bottom of the page and displays statistics about the data in the list page or query. As you interact with columns whose values can be summed, like selecting multiple rows in a column that displays amounts, the data will update.
 
 ![Shows an overview of a summary bar on the data analysis mode](media/analysis-mode-totals-row.png)
 
@@ -77,8 +76,8 @@ The following table describes the different numbers that are shown in the totals
 |Number|Description|
 |-|-|
 |Rows|The number of selected rows as a part of the total number of available rows. |
-|Total rows|The numbers of rows in the unfiltered list.|
-|Filtered|The number of rows displayed as a result of the filters applied to the list.|
+|Total rows|The numbers of rows in the unfiltered list or query.|
+|Filtered|The number of rows displayed as a result of the filters applied to the list or query.|
 |Average|The average value in all the selected summable fields.|
 |Count|The number of selected rows.|
 |Min|The minimum value in all the selected summable fields.|
@@ -94,7 +93,7 @@ The **Columns** is one of two panes that work together to define your analysis. 
 |Areas|Description|
 |-|-|
 |Search/check or clear all boxes|Search for columns. Select the check box to select/clear all columns.|
-|Check boxes|This area includes a check box for each field in the list's source table. Use this area to change what columns are shown in the list. Select a check box to show column for the field on the page; clear the check box to hide the column. |
+|Check boxes|This area includes a check box for each field in the list's or query's source table. Use this area to change what columns are shown. Select a check box to show column for the field on the page; clear the check box to hide the column. |
 |Row groups|Use this area to group and sum data by one or more fields. You can only include non-numeric fields, like text, date and time fields. Row groups are used often in pivot mode.|
 |Values|Use this area to specify fields that you want a sum total for. You can only include fields that contain numbers that can be added together; for example, not text, date, or time fields.|
 

@@ -30,6 +30,8 @@ When you paste the URL into a rich text editor, like Word, Outlook, or Teams, in
 |Draft records|	New customer card|**New - Customer card**|
 |Company that uses badge|**Items** list page for company with badge **CRONUS**| **Items (CRONUS)**|
 
+> [!TIP]
+> A similar naming convention is used on browser tabs.
 
 ### Modify the page link
 

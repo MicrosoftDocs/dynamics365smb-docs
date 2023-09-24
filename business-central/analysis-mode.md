@@ -147,6 +147,22 @@ Building out the data analysis in pivot mode involves moving fields into the thr
 > [!TIP]
 > Columns that only have a few possible values are the best candidates for using in column **Values**.
 
+## Share data analysis
+
+After you’ve prepared an analysis on a tab, you can share it as a link with coworkers and others in your organization directly from the client. Only recipients that have permission to the company and the data can use the link.
+
+1. On the analysis tab, select the down arrowhead, and then select **Copy link**.
+
+   The **Link to \<tab name\>** dialog opens.
+
+1. By default, the analysis you share will link to the page or query in the company you're currently working in, which is indicated by `company=>company_name>` in the URL field next to the **Copy** button. If you want to send a link to an analysis that's not associated with a specific company, set the **Company:** to **Do not link to a specific company**.
+
+1. Select **Copy**.
+
+1. Paste the link in to the communication media of your choice, like Word, Outlook, Teams, OneNote, and so one. 
+
+2. Once received, recipients can then select the link and open the analysis for the page or query in Business Central. They're prompted to specify a name for the new analysis tab that will be created.  
+
 ## Limitations
 
 The analysis view currently has a limit of 100,000 rows. If you exceed this limit, you'll get a message telling you so. To work around this limitation, the set filters on the page before you switch to data analysis mode, if it's possible.  Maybe you want to analyze a certain group of customers or maybe you want data from the current year only. You can also choose a predefined view if it would work for your analysis.

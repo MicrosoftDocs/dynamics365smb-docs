@@ -28,6 +28,7 @@ When you paste the URL into a rich text editor, like Word, Outlook, or Teams, in
 |List view|	**Open** filtered view on **Sales Orders** list|**Sales Orders - Open**|
 | Single record|Item card showing single record|"Item Card - 1896 ∙ ATHENS Desk"|
 |Draft records|	New customer card|**New - Customer card**|
+|Company that uses badge|**Items** list page for company with badge **CRONUS**| **Items (CRONUS)**|
 
 
 ### Modify the page link

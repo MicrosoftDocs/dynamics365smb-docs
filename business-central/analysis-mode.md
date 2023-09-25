@@ -19,13 +19,13 @@ In this article, you learn how to analyze data from list pages and queries using
 > [!TIP]
 > A good thing about the data analysis mode is that it doesn't change any of the underlying data of list page or query, or the layout of the page or query when it's not in data analysis mode. So the best way to learn about what you can do in the data analysis mode is to try things out.
 
-## Prerequisite 
+## Prerequisites 
 
 - If you're using Business Central version 22, the data analysis mode is in preview, so it must be enabled by an admin before you can use it. To enable it, go to the **Feature Management** page and switch on **Feature Update: Analysis mode, quickly analyze data directly in Business Central**. [Learn more about Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - In version 23 and later, your account must be assigned the **DATA ANALYSIS - EXEC** permission set or include execute permission on the system object **9640 Allow Data Analysis mode**. As an admin, you can exclude these permissions on users who you don't want to have access to the analysis mode.
 
 > [!NOTE]
-> You may notice some list pages and queries that don't include the analysis mode option. The reason is that developers can disable analysis mode on specific page and query objects by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property).
+> You may notice some list pages that don't include the **Analyze** switch for changing to the analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.
 
 ## Get started
 

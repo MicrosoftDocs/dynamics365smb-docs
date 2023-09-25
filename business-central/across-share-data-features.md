@@ -36,8 +36,6 @@ Using the filter pane on list pages, you can apply filters to narrow-down the re
 
 [Learn more about sorting, searching, and filtering](ui-enter-criteria-filters.md).
 
-### 
-
 ## Sharing to Teams
 
 ![Supported](media/check.png) Business Central Online ![Not Supported](media/x-icon.png) Business Central On-premises
@@ -68,7 +66,7 @@ For list pages and lists embedded on a page, you can use the **Open in Excel** a
 
 You can share one or more records in a list. Just select the <kbd>Ctrl</kbd>+<kbd>C</kbd> keyboard shortcut to copy to your clipboard. Then paste what you copied into another application by pressing <kbd>Ctrl</kbd>+<kbd>V</kbd>. For example, copying three sales orders and pasting that into an email will display the orders in a nicely formatted table.
 
-[Learn more about copy and paste in the FAQ](faq-copy-paste.yml).
+[Learn more about copy and paste in theFAQ](faq-copy-paste.yml).
 
 ## See Also
 

@@ -58,6 +58,28 @@ The following table lists the standard mapping between tables in [!INCLUDE[prod_
 
 You can view the mapping between the tables in [!INCLUDE[prod_short](includes/cds_long_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)] on the **Integration Table Mappings** page, where you can also apply filters. You define the mapping between the fields in [!INCLUDE[prod_short](includes/prod_short.md)] tables and the columns in [!INCLUDE[prod_short](includes/cds_long_md.md)] tables on the **Integration Field Mapping** page, where you can add additional mapping logic. For example, this can be useful if you need to troubleshoot synchronization.
 
+## Use virtual tables to get more data
+
+When you're setting up your integration, you can use virtual tables to make more data available in [!INCLUDE[prod_short](includes/cds_long_md.md)], without help from a developer.
+
+A virtual table is a custom table that has columns and rows that contain data from an external data source, such as [!INCLUDE [prod_short](includes/prod_short.md)]. The columns and rows in a virtual table look like a regular table, however, the data isn't stored in a physical table in the [!INCLUDE[prod_short](includes/cds_long_md.md)] database. Instead, the data is retrieved at runtime.
+
+> [!NOTE]
+> [!INCLUDE [prod_short](includes/prod_short.md)] contains objects that are also called virtual tables. Those table objects are not related to the virtual tables that you use with [!INCLUDE[prod_short](includes/cds_long_md.md)].
+
+To learn more about virtual tables, go to the following articles:
+
+* [Create and edit virtual tables that contain data from an external data source](/power-apps/maker/data-platform/create-edit-virtual-entities) (Power Apps documentation)
+* [Business Central Virtual Table for Microsoft Dataverse Admin Reference](/business-central/dev-itpro/powerplatform/powerplat-admin-reference) ([!INCLUDE [prod_short](includes/prod_short.md)] documentation)
+
+To use virtual tables, you must install the **Business Central Virtual Entity** app from [AppSource](https://appsource.microsoft.com/en-US/product/dynamics-365/microsoftdynsmb.businesscentral_virtualentity). 
+
+After you install the app, you can enable virtual tables from one of the following pages in [!INCLUDE [prod_short](includes/prod_short.md)]:
+
+* When you run the **Set up Dataverse connection** assisted setup guide, you can use the **Dataverse Available Virtual Tables** page to select multiple virtual tables. Afterward, the tables are available in [!INCLUDE[prod_short](includes/cds_long_md.md)] and the PowerApps Maker Portal. 
+* From the **Dataverse Connection Setup**, **Virtual Tables**, and **Available Virtual Tables** pages.  
+* From the Power App Maker Portal.
+
 ## Synchronize data from multiple companies or environments
 
 You can synchronize data from multiple [!INCLUDE [prod_short](includes/prod_short.md)] companies or environments with a [!INCLUDE[prod_short](includes/cds_long_md.md)] environment. In multi-company synchronization scenarios, there are several things to consider.
@@ -83,6 +105,5 @@ If your number series doesn't guarantee that primary key values are unique to ea
 [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

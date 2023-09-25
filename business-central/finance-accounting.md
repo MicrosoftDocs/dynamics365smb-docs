@@ -41,9 +41,9 @@ We have made it easy for you to invite your external accountant. Simply open the
 <!-- ![Invite your accountant.](./media/finance-invite-accountant/invite-accountant.png)-->
 
 > [!IMPORTANT]  
-> The accountant's email address must be a work address that is based on Azure Active Directory. If the accountant uses another type of email, then the invitation cannot be sent.
+> The accountant's email address must be a work address that is based on Microsoft Entra ID. If the accountant uses another type of email, then the invitation cannot be sent.
 >
-> This task requires access to managing users and licenses in Azure Active Directory. The user who sends this invitation must be assigned the **Global admin** role or **User admin** role in the Microsoft 365 admin center. For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) in the Microsoft 365 admin content.  
+> This task requires access to managing users and licenses in Microsoft Entra ID. The user who sends this invitation must be assigned the **Global admin** role or **User admin** role in the Microsoft 365 admin center. For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) in the Microsoft 365 admin content.  
 
 ### Adding your accountant to your Microsoft 365 in the Azure portal
 
@@ -52,7 +52,7 @@ If your administrator or reselling partner do not want to use the **Invite Exter
 #### To add your accountant as a guest user
 
 1. Open the [Azure portal](https://portal.azure.com/).
-2. In the left pane, select **Azure Active Directory**.
+2. In the left pane, select **Microsoft Entra ID**.
 3. Under **Manage**, select **Users**.
 4. Select **New guest user**.
 5. On the **New user** page, select **Invite user** and then add information about your external accountant.  
@@ -80,7 +80,7 @@ If successful, the license is assigned to the guest user, and the guest account 
 
 ### Importing the new user into [!INCLUDE[prod_short](includes/prod_short.md)]
 
-The accountant will receive an email that notifies them that they have been given access to your Active Directory. Next, you must give them access to the right company in [!INCLUDE[prod_short](includes/prod_short.md)].
+The accountant will receive an email that notifies them that they have been given access to your Microsoft Entra ID. Next, you must give them access to the right company in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 #### To add the accountant to the right company
 

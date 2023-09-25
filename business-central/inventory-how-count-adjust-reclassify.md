@@ -22,6 +22,8 @@ To change attributes on item ledger entries, use an item reclassification journa
 > [!NOTE]
 > In multi-step processes, items are registered in bins as warehouse entries, not as item ledger entries. Therefore, you do counting, adjusting, and reclassifying in warehouse journals that support bins. Then you synchronize the new or changed warehouse entries with their related item ledger entries to reflect the changes in inventory quantities and values.
 
+[!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
+
 ## To count physical inventory
 
 Count physical inventory, that is, count the actual items on hand, to check whether the quantity registered is the same as the physical quantity in stock. Typically, counts happen at the end of a fiscal year, but sometimes it's done more often. If there are differences, post the actual quantities to the item accounts <!--accounts, or ledger?--> before you do the inventory valuation.

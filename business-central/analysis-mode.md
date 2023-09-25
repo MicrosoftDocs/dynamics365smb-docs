@@ -10,7 +10,9 @@ ms.custom: bap-template
 ms.service: dynamics365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
 ---
-# Analyze list and query data using data analysis mode
+# Analyze list page and query data using data analysis mode
+
+> **APPLIES TO:** Business Central 2022 release wave 2 and later for list pages; Business Central 2023 release wave 1 for queries
 
 In this article, you learn how to analyze data from list pages and queries using the *data analysis mode*. The data analysis mode enables you to analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Examples could be "My customers", "Follow up items", "Recently added vendors", "Sales statistics", or any other view you can imagine.
 
@@ -19,8 +21,9 @@ In this article, you learn how to analyze data from list pages and queries using
 
 ## Prerequisite 
 
-- For list pages, the analysis mode was introduced in Business Central 2023 release wave 1 (version 22) as a preview. If you're using version 22, an administrator must turn it on before you can use it. If you're an administrator, and you want to turn on the data analysis mode, go to the **Feature Management** page and enable **Feature Update: Analysis mode, quickly analyze data directly in Business Central**. For more information about turning features on and off, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
-- For queries, the analysis mode was introduced in Business Central 2023 release wave 2 (version 23).
+- If you're using version 22, the data analysis mode is in preview, so it must be enabled by an admin before you can use it. To enable, go to the **Feature Management** page and switch on **Feature Update: Analysis mode, quickly analyze data directly in Business Central**. [Learn more about Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- In version 23 and later, the feature's enabled by default. 
+- To analyze queries, you must be using Business Central 2023 release wave 2 (version 23) or later.
 
 ## Get started
 

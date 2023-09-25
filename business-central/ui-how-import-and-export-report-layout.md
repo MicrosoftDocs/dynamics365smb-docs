@@ -1,16 +1,14 @@
 ---
 title: Import and Export a Report and Document Layout
 description: You can import and export an existing custom report layout as a file to and from a location on your computer and network.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # (Legacy) Import and Export Custom Report Layouts
@@ -47,8 +45,6 @@ You can import and export an existing custom report layout as a file to and from
 5.  In the **Import** dialog box, select the document that defines the report layout, and then choose the **Open** button.  
 
  The original custom report layout is replaced with the imported report layout.  
-
-## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## See Also
 

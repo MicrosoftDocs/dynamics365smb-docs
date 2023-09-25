@@ -1,19 +1,16 @@
 ---
 title: Work with recurring revenue
 description: Learn about the available options to automate sending subscription invoices to your customers and register recurring revenue.
-author: AndreiPanko
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
 ms.search.form: 283 
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.date: 04/01/2021
-ms.author: andreipa
-
+ms.author: bholtorf
 ---
 # Work with recurring revenue in [!INCLUDE[prod_short](includes/prod_short.md)]
 

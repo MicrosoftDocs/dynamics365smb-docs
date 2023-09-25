@@ -1,16 +1,14 @@
 ---
 title: Set Up Belgian Tariff Numbers [BE]
 description: The Belgian customs and tax authorities have established an eight-digit item code for various tariff items.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 310
 ms.date: 06/17/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Set Up Belgian Tariff Numbers in the Belgian Version

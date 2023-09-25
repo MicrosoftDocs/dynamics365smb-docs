@@ -2,8 +2,6 @@
 title: Integrating with Dynamics 365 Sales
 description: Learn how to get Dynamics 365 Business Central ready to integrate with Dynamics 365 Sales.
 author: brentholtorf
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,6 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-
 ---
 # Integrating with Dynamics 365 Sales
 
@@ -219,10 +216,10 @@ The Microsoft Power Platform team has [announced](/power-platform/important-chan
    > [!Important]
    > This user must not have the System Administrator security role. Also, you cannot use the system administrator account as the integration user.
 
-3.  In the Azure portal, create an app registration for [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Register an application in Azure Active Directory](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
+3.  In the Azure portal, create an app registration for [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Register an application in Microsoft Entra ID](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
   
    > [!NOTE]
-   > We recommend that you register the app in the same tenant as your Dataverse environment so that you do not have to consent to letting the app access the environment. If you register the app in another environment, you must sign in to Azure AD using the administrator account for your Dataverse environment and give consent.
+   > We recommend that you register the app in the same tenant as your Dataverse environment so that you do not have to consent to letting the app access the environment. If you register the app in another environment, you must sign in to Microsoft Entra ID using the administrator account for your Dataverse environment and give consent.
    >
    > Additionally, the app that you register must not have a secret. Connecting an app with a secret to Dataverse is available only in Business Central 2020 release wave 1 and later.
   

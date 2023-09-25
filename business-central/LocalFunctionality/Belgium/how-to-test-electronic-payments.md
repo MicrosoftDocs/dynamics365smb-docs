@@ -2,16 +2,14 @@
 title: Test Electronic Payments [BE]
 description: After you have set up electronic banking and generated payment suggestions, you can test the payment journal lines for errors before posting them.
 
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 2000001
 ms.date: 06/17/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Test Electronic Payments in the Belgian Version

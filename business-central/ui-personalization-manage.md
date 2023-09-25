@@ -1,14 +1,12 @@
 ---
 title: Customizing Pages for Roles
 description: Learn how to customize the user interface for a profile (role) so that all users assigned that role see a customized workspace.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.search.form: 9171
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Customize Pages for Profiles
@@ -64,8 +62,6 @@ You can delete individual page customizations that you have made for a profile. 
 2. On the **Customized Pages** page, select one or more lines for page customizations that you want to delete, and then choose the **Delete** action.
 
 The layout on the selected pages is adjusted to the changes you made.
-
-## See related [Microsoft training](/training/paths/tailor-roles-design-ui/)
 
 ## See also
 

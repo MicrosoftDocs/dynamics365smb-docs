@@ -3,7 +3,7 @@ title: Define an Invoice Posting Policy for Users
 description: Use invoice posting policies to control whether a user can post sales and purchase invoices.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 03/09/2023
 ms.custom: bap-template

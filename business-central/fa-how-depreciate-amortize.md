@@ -1,9 +1,7 @@
 ---
 title: Depreciate or Amortize FA
 description: You must define how you will write-down, depreciate, or amortize each of your fixed assets, such as machinery and equipment, over their depreciable life.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: write down
 ms.search.form: 5610, 5611, 5629, 5633, 5659, 5660, 5663, 5619, 5666
 ms.date: 06/15/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Depreciate or Amortize Fixed Assets
@@ -117,8 +115,6 @@ You can copy entries from one depreciation book to another by using the **Copy D
 4. Choose the **OK** button.  
 
 The copied lines are created in either the fixed asset G/L journal or the fixed asset journal, depending on whether the depreciation book that you are copying has integration to the general ledger.  
-
-## See related [Microsoft training](/training/modules/calculate-post-depreciations/)
 
 ## See also
 

@@ -112,8 +112,6 @@ You can also create your own predictive web service based on a public model name
 7. Choose the **Use My Azure Subscription** check box.
 8. On the **My Model Credentials** FastTab, enter the API URL and API key for your model.  .  
 
-## See related [Microsoft training](/training/modules/predict-late-payments-sales-documents/)
-
 ## See also
 
 [Azure Machine Learning Studio Documentation](/azure/machine-learning/classic/)  

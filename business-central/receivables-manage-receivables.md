@@ -1,16 +1,14 @@
 ---
 title: Overview of Tasks to Manage Receivables
 description: This topic outlines tasks to manage receivables and apply payments to customer or vendor ledger entries.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Managing Receivables
@@ -43,8 +41,6 @@ The following table describes a sequence of tasks, with links to the topics that
 |Block a customer from being entered on documents or from posting, for example because of insolvency.|[Block Customers](receivables-how-block-customers.md)|
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, does not fully cover the amount on the invoice.|[Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Predict when payments will be made late for sales documents. | [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md) |
-
-## See related [Microsoft training](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
 ## See Also
 [Sales](sales-manage-sales.md)  

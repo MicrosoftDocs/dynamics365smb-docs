@@ -14,7 +14,7 @@ ms.author: soalex
 ---
 # Making Tax Digital in the United Kingdom
 
-Her Majesty's Revenue and Customs (HMRC) has implemented the first steps of *Making Tax Digital*, which imposes new requirements on VAT registered businesses above the VAT threshold. [!INCLUDE [prod_short](../../includes/prod_short.md)] supports the first rounds of *Making Tax Digital*, which took effect in April 2019:
+His Majesty's Revenue and Customs (HMRC) has implemented the first steps of *Making Tax Digital*, which imposes new requirements on VAT registered businesses above the VAT threshold. [!INCLUDE [prod_short](../../includes/prod_short.md)] supports the first rounds of *Making Tax Digital*, which took effect in April 2019:
 
 * Keeping records digitally
 
@@ -79,7 +79,7 @@ You must also fill in the fields on the **VAT Report Setup** page. [!INCLUDE [to
     e. Optional: If you want to automatically update the information about VAT obligations, specify how often to do so in the **Update Period Job Frequency** field, and then specify codeunit **10535** in the **Auto Receive Codeunit ID** field.  
     f. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 
-3. Create an application registration for Business Central in Azure portal. For more information, see [Registering Business Central On-Premises in Azure AD for Integrating with Other Services](/dynamics365/business-central/dev-itpro/administration/register-app-azure). When you set up the service connection in [!INCLUDE [prod_short](../../includes/prod_short.md)], you'll need the following information from the registration:
+3. Create an application registration for Business Central in Azure portal. For more information, see [Registering Business Central On-Premises in Microsoft Entra ID for Integrating with Other Services](/dynamics365/business-central/dev-itpro/administration/register-app-azure). When you set up the service connection in [!INCLUDE [prod_short](../../includes/prod_short.md)], you'll need the following information from the registration:
 
     * Client ID
     * Client Secret

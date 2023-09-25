@@ -3,8 +3,8 @@ metadata:
   title: Electronic invoicing FAQ
   description: Get answers about the document exchange service and supported versions of PEPPOL.
   ms.topic: faq
-  author: edupont04
-  ms.author: edupont
+  author: brentholtorf
+  ms.author: bholtorf
 title: Electronic Invoicing FAQ
 summary: |
   The built-in document exchange service submits electronic invoices to TradeShift, a  service provider that relays electronic invoices to PEPPOL or NemHandel recipients. But the service supports a limited number of versions.   

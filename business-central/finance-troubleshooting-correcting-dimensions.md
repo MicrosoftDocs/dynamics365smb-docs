@@ -2,8 +2,6 @@
 title: Troubleshooting and Correcting Dimensions
 description: Learn how to troubleshoot typical dimension errors, and how to correct dimensions after they are used on posted transactions.
 author: brentholtorf
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,7 +10,6 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-
 ---
 
 # Troubleshooting and Correcting Dimensions
@@ -119,8 +116,6 @@ If a correction does not complete, a warning will display on the correction card
 ### Use Cost Accounting with Corrected G/L Entries
 
 After you correct dimensions your data for cost accounting will be out of sync. Cost accounting uses dimensions to aggregate amounts for cost centers and cost objects, and to run cost allocations. Changing dimensions for G/L entries will probably mean that you re-run your cost accounting models. Whether you need to just delete a few cost registers and re-run allocations, or you need to delete everything and re-run all of your models depends on the data that has been updated and how your cost accounting capabilities are set up. You must manually identify where dimension corrections will impact cost accounting and where updates are needed. [!INCLUDE[prod_short](includes/prod_short.md)] does not currently provide an automated way to do that.
-
-## See related [Microsoft training](/training/modules/dimensions-dynamics-365-business-central/)
 
 ## See also
 

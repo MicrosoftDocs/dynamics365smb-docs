@@ -1,14 +1,14 @@
 ---
 title: Install and Uninstall Apps
 description: Learn how you can install and uninstall apps and extensions in Business Central.
-author: SusanneWindfeldPedersen
-ms.author: solsen
+author: brentholtorf
+ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 04/24/2023
+ms.date: 09/07/2023
 ms.custom: bap-template
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.search.form: 2500, 20350
+ms.search.form: 2500, 2514, 20350
 ---
 
 # Install and Uninstall Extensions (Apps) in Business Central
@@ -91,6 +91,8 @@ By default, when you uninstall an app that you've been using your data isn't del
 > * There might be apps that require or depend on the app that you want to uninstall. These apps are referred to as *dependents*. You can't uninstall an app unless you also uninstall its dependents. When you uninstall an app that has dependents, a dialog lists the dependents. To continue, you'll have to select **Yes** to uninstall the app and its dependents.
 > * If you turn on the **Delete Extension Data** toggle, uninstalling the app will delete all data for the app *plus* data for all dependent apps. The action can't be undone.
 > * Some apps are required and you can't delete them on the **Extension Management** page.  
+
+If you want to keep the data for an uninstalled app, you can delete the data later. The **Delete Orphaned Extension Data** page lists the apps that you still have data for. To delete the data, choose the app, and then choose **Delete Data**. 
 
 ## See Also
 

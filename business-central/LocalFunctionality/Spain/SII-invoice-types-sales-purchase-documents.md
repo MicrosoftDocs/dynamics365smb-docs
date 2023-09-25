@@ -1,8 +1,7 @@
 ---
 title: SII Invoice Types in Sales and Purchase Documents
 description: Learn how Business Central supports SII and the various types of used for invoices and credit memos in the Spanish version.
-author: SorenGP
-    
+author: brentholtorf   
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,8 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.form: 10751, 10752, 10753, 10770, 10771
 ms.date: 05/12/2022
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # SII - Invoice and Credit Memo Types in Sales and Purchase Documents
 

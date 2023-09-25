@@ -3,7 +3,7 @@ title: Ship Items
 description: This article describes how to ship items from your warehouse.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
@@ -114,8 +114,6 @@ After you post the warehouse shipment, various fields on the sales order line ar
 > In combination scenarios where a part of the quantity must be assembled and another must be shipped from inventory, two warehouse shipment lines are created. One is for the assemble-to-order quantity, and one is for the inventory quantity.
 >
 > The assemble-to-order quantity is handled as described in this article. The inventory quantity is handled as a regular warehouse shipment line. To learn more about combination scenarios, go to [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).
-
-## See related [Microsoft training](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
 ## See also
 

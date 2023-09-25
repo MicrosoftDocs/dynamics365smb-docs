@@ -1,16 +1,14 @@
 ---
 title: Update Custom Report Layouts
 description: Learn how to update a custom report layout used on a report when there are design changes to the report's data set, for example.
-author: jswymer
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 06/24/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # (Legacy) Update Custom Report Layouts
@@ -60,8 +58,6 @@ If no errors occur, then the updates is applied to the report layouts. If errors
  For more information, see [Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md#ModifyCustomLayout).  
 
 After you modify the layout, try to update the layout again.  
-
-## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## See Also  
  [Managing Report Layouts](ui-manage-report-layouts.md)  

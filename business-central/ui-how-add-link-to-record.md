@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: how-to
-ms.date: 03/22/2023
+ms.date: 09/15/2023
 ms.custom: bap-template
 ms-service: dynamics365-business-central
 ---
@@ -49,7 +49,7 @@ The following procedure is based on a purchase invoice. The steps are similar fo
 
 The file is now attached to the purchase invoice.
 
-## to view an attached file
+## To view an attached file
 
 1. On the FactBox, open the **Attachments** tab.
 2. Choose the value behind the **Documents** field, such as "1".
@@ -102,7 +102,7 @@ The following procedure is based on a sales order. The steps are similar for all
 
 The note is now attached to the sales order.
 
-## See Also  
+## See also  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Incoming Documents](across-income-documents.md)  
 [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md)  

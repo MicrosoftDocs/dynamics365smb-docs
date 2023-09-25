@@ -1,14 +1,12 @@
 ---
 title: Entering custom declaration information in Russia
 description: Russian enhancements include custom declarations.
-author: AndreiPanko
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
-ms.author: andreipa
+ms.reviewer: bholtorf
+ms.author: bholtorf
 ---
 
 # Custom declaration

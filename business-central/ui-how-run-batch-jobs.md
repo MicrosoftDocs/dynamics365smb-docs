@@ -1,9 +1,7 @@
 ---
 title: Run Batch Jobs and XMLports
 description: You run batch jobs to process data and update information, for example, to do periodic accounting activities, or to do calculations.
-author: SusanneWindfeldPedersen
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@ ms.workload: na
 ms.search.keywords: task, process
 ms.search.form: 672, 676, 682
 ms.date: 04/01/2021
-ms.author: solsen
-
+ms.author: bholtorf
 ---
 # Run Batch Jobs and XMLports
 

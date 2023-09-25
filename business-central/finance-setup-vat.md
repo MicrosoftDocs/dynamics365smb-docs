@@ -10,7 +10,6 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877, 
 ms.date: 01/31/2023
 ms.author: bholtorf
-
 ---
 
 # Set Up Calculations and Posting Methods for Value-Added Tax
@@ -302,8 +301,6 @@ Amounts in documents that are not yet posted are rounded and displayed to corres
 You must set up information about how the tax authorities in your country or region require you to submit VAT reports. The following steps illustrate the most commonly used information. However, your country or region may require other steps. For more information, see the relevant article in the *Local functionality* section in the panel to the left.
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
-
-## See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## See also
 

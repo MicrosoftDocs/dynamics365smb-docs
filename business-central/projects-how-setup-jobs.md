@@ -3,7 +3,7 @@ title: Set Up Jobs, Prices, and Job Posting Groups
 description: Describes how to set up general information about jobs.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/25/2023
 ms.custom: bap-template
@@ -81,25 +81,23 @@ One aspect of planning jobs is deciding which posting accounts to use for job co
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Posting Groups**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as described in the following table.  
 
-| Account field | Description |
-| --- | --- |
-| **Code** |An identifier for the posting group. You can enter up to 10 characters, including spaces. |
-| **WIP Costs Account** |The WIP account for the calculated cost of the job WIP, which is a balance sheet capital asset account. |
-| **WIP Accrued Costs Account** |An account for the Cost Value or Cost of Sales method of WIP calculation. This account is for accrued expense liability on your balance sheet. When a WIP adjustment requires you to increase the usage costs that you post to your income statement, you post to this account. |
-| **Job Costs Applied Account** |A balancing account to the WIP Costs Account, which is a contra for a negative expense account. |
-| **Item Costs Applied Account** |A balancing account to the WIP Costs Account, which is a contra for a negative expense account. |
-| **Resource Costs Applied Account** |A balancing account to the WIP Costs Account, which is a contra for a negative expense account. |
-| **Costs Applied Account** |A balancing account to the WIP Costs Account, which is a contra for a negative expense account. |
-| **Job Costs Adjustment Account** |The balancing account to the WIP Accrued Costs account, which is an expense account. |
-| **G/L Expense Acc. (Budget)** |The sales account that will be used for general ledger expenses in job tasks with this posting group. If left empty, the general ledger account entered on the job planning line is used. |
-| **WIP Accrued Sales Account** |The WIP account for the calculated sales value of the WIP, which is an accrued revenue account for your balance sheet. When a WIP adjustment requires you to increase the recognized revenue, you post to this account. |
-| **WIP Invoiced Sales Account** |The account for the invoiced sales value of the WIP that is not able to be recognized. It is a balance sheet Unearned Revenue account. |
-| **Job Sales Applied Account** |The balancing account to the WIP Invoiced Sales account, which is a contra income account. |
-| **Job Sales Adjustment Account** |The balancing account to the WIP Job Sales Account, which is an income account. |
-| **Recognized Costs Account** |The expense account that contains the recognized costs for the job. It is a debit expense account ordinarily. |
-| **Recognized Sales Account** |The income account that contains the recognized income for the job. It is a credit income account ordinarily. |
-
-## See related [Microsoft training](/training/paths/set-up-jobs-resources/)
+| Account field | Description | Used in WIP Type |
+| --- | --- |  --- |
+| **Code** |An identifier for the posting group. You can enter up to 10 characters, including spaces. | |
+| **WIP Costs Account** |The WIP account for the calculated cost of the job WIP, which is a balance sheet capital asset account. | Applied Cost, Recognized Costs|
+| **WIP Accrued Costs Account** |An account for the Cost Value or Cost of Sales method of WIP calculation. This account is for accrued expense liability on your balance sheet. When a WIP adjustment requires you to increase the usage costs that you post to your income statement, you post to this account. | Accrued Costs|
+| **Job Costs Applied Account** |A balancing account to the WIP Costs Account, which is a contra for a negative expense account. Used when **WIP Posting Method Used** is set to *Job*. | Applied Costs, Recognized Costs|
+| **Item Costs Applied Account** |Same as  **Job Costs Applied Account**, but used when **WIP Posting Method Used** is set to *Job Ledger Entry*.| |
+| **Resource Costs Applied Account** |Same as  **Job Costs Applied Account**, but used when **WIP Posting Method Used** is set to *Job Ledger Entry*.| |
+| **G/L Costs Applied Account** |Same as  **Job Costs Applied Account**, but used when **WIP Posting Method Used** is set to *Job Ledger Entry*.| |
+| **Job Costs Adjustment Account** |The balancing account to the WIP Accrued Costs account, which is an expense account. | Accrued Costs|
+| **G/L Expense Acc. (Budget)** |The sales account that will be used for general ledger expenses in job tasks with this posting group. If left empty, the general ledger account entered on the job planning line is used. | |
+| **WIP Accrued Sales Account** |The WIP account for the calculated sales value of the WIP, which is an accrued revenue account for your balance sheet. When a WIP adjustment requires you to increase the recognized revenue, you post to this account. | Accrued Sales, Recognized Sales|
+| **WIP Invoiced Sales Account** |The account for the invoiced sales value of the WIP that is not able to be recognized. It is a balance sheet Unearned Revenue account. | Recognized Sales, Applied Sales|
+| **Job Sales Applied Account** |The balancing account to the WIP Invoiced Sales account, which is a contra income account. | Applied Sales, Recognized Sales|
+| **Job Sales Adjustment Account** |The balancing account to the WIP Job Sales Account, which is an income account. | Accrued Sales|
+| **Recognized Costs Account** |The expense account that contains the recognized costs for the job. It is a debit expense account ordinarily. | Recognized Costs|
+| **Recognized Sales Account** |The income account that contains the recognized income for the job. It is a credit income account ordinarily. | Recognized Sales|
 
 ## See also
 

@@ -1,16 +1,14 @@
 ---
     title: Make Cash Flow Forecasts Using Financial Reports
     description: This walkthrough describes how you can use financial reports to make cash flow forecasts in Business Central. 
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 08/18/2022
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Walkthrough: Making Cash Flow Forecasts Using Financial Reports
@@ -135,8 +133,6 @@ Ken is now ready to assign the column definition to the financial report name.
 1. On the **Financial Reports** page, choose the **Forecast** financial report to view the cash flow forecast.  
 2. On the **Financial Report** page, you can select an amount and then view the cash flow forecast entries that make up the amount. In addition, you can view the formula used to calculate that amount. You can also filter the amounts by date and dimension.  
 3. Choose the **Print** action to print the cash flow forecast.  
-
-## See related [Microsoft training](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
 
 ## See also
 

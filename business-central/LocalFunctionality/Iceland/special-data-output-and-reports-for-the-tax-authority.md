@@ -1,16 +1,14 @@
 ---
     title: Special Data Output and Reports for the Tax Authorities in Iceland
     description: In Iceland, it is a legal requirement to send a data file in a specific format to the tax authorities.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Special Data Output and Reports for the Icelandic Tax Authority

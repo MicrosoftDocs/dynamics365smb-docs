@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
 ms.search.form: 5709, 5800, 5805, 5814
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Use Item Charges to Account for Additional Trade Costs
@@ -95,8 +95,6 @@ When the items are delivered, you find that one of the items is missing, so you 
 To handle the item cost for the partial receipt, on the **Item Charge Assignment** page, enter **0** in the **Quantity to Handle** field on the line for the missing item. Then, copy the value from the **Item Charge Qty. to Handle** field to the **Quantity to Invoice** field on the purchase order lines.
 
 When you're ready to handle the item that was missing, update the **Quantity to Handle** field and post the order.
-
-## See related [Microsoft training](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
 
 ## See also
 

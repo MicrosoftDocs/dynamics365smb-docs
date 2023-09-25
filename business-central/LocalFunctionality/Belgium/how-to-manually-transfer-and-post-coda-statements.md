@@ -1,16 +1,14 @@
 ---
     title: Manually Transfer and Post CODA Statements [BE]
     description: After you have applied and processed all CODA statement lines, you can manually transfer the CODA statement lines to a financial journal.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Manually Transfer and Post CODA Statements in the Belgian Version

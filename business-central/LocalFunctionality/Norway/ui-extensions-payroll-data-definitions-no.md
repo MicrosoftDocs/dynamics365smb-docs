@@ -1,16 +1,14 @@
 ---
 title: Payroll Data Definitions [NO]
 description: The payroll data definitions extension makes it easy to exchange data with payroll service provider in Norway.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 # The Payroll Data Definitions Extension in the Norwegian Version

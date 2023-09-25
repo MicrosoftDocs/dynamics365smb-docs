@@ -2,8 +2,6 @@
 title: Analyzing Cash Flows
 description: Describes how to use the Cash Cycle, Income & Expense, Cash Flow, and Cash Flow Forecast charts to analyze the past and future flow of money in and out of your company.
 author: brentholtorf
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,7 +10,6 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.search.form: 762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818
 ms.date: 12/20/2021
 ms.author: bholtorf
-
 ---
 # Analyzing Cash Flow in Your Company
 The charts on the Accountant Role Center provide insights that can help you make solid decisions about what to do with your cash.  
@@ -44,8 +41,6 @@ If you want to examine the forecast, in addition to forecast entries, you can al
 1. Search for **Cash Flow Forecasts**, and then choose the related link.  
 2. Choose a cash flow forecast, and then choose the **Cash Flow Worksheet** action.  
 3. On the **Cash Flow Worksheet** page, choose the **Suggest Worksheet Lines** action.  
-
-## See related [Microsoft training](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## See Also
 

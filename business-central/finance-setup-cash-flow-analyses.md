@@ -134,8 +134,6 @@ You can also create your own predictive web service based on a public model name
 7. Expand the **Azure AI** FastTab, and then fill in the fields, including the API URL and API key provided from Azure Machine Learning studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. In the Accountant Role Center, choose the **Recalculate Forecast** action under the **Cash Flow Forecast** chart.
 
-## See related [Microsoft training](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
-
 ## See also
 
 [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)  

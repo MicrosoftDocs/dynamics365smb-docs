@@ -1,17 +1,14 @@
 ---
 title: Find Posted Documents without Incoming Documents
 description: You can search for general ledger entries for posted purchase and sales documents that don't have incoming electronic documents, such as imported invoices.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/14/2022
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Find Posted Documents without Incoming Document Records
 
@@ -33,8 +30,6 @@ The **Posted Documents without Incoming Document** page opens showing posted pur
 3. On the **Posted Documents without Incoming Document** page, the selected incoming document record is now connected to the posted document, as you can see in the **Incoming Document Files** FactBox.
 
 If a relevant incoming document record doesn't exist on the **Incoming Documents** page, then you can create it. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).
-
-## See related [Microsoft training](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## See also
 

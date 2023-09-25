@@ -1,17 +1,14 @@
 ---
 title: Norway Local Functionality [NO]
 description: The following topics describe all the local functionality in the Norwegian version of Business Central.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 06/21/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Norway Local Functionality in the Norwegian Version
 
@@ -78,9 +75,10 @@ The following topics describe local functionality that is unique to the Norwegia
  [Recurring Orders](recurring-orders.md)  
  -->
  
-## Future legislation requirements being investigated
+## Future legislation requirements being investigated 
 
-* Redesigned and upgraded non-deductible VAT **July 2023**
+* Migrate Norwegian Electronic VAT submission solution to the new ID-porten system **planned for 23.2** 
+* Redesigned and upgraded non-deductible VAT **planned for 23.4**   
 
 If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

@@ -5,8 +5,8 @@ ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147
-author: andreipa
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
 
@@ -105,8 +105,8 @@ The Shopify Connector imports orders in two steps:
 
 1.	It imports order headers to the **Shopify Orders to Import** table when they match certain conditions:
     
-* They aren't archived.
-* They were created or modified after the last sync.
+* They aren't archived. This means you can include or exclude orders from sync by archiving or unarchiving them in the Shopify Admin.
+* They were created or modified after the last sync. This means that you can force reimport of specific order if you modify it, for example by adding the **Notes** or **Tag**.
 
 2.	It imports Shopify orders and supplementary information.
 * The Shopify Connector processes all records in the **Shopify Orders to Import** table that match the filter criteria you defined on the **Sync Orders from Shopify** request page. For example, tags, channel, or the fulfilment status. If you haven't specified any filters it processes all records.
@@ -114,7 +114,7 @@ The Shopify Connector imports orders in two steps:
 
     * Order header
     * Order lines
-    * Shipping and fulfilment information
+    * Shipping and fulfillment information
     * Transactions
     * Returns and refunds, if configured
 
@@ -190,7 +190,7 @@ Example: you have online store as well as a Shopify POS. For your POS, you want 
 
 Each job queue will import and process orders within the defined filters and use the rules from the corresponding Shopify Shop card. For example, they'll create point of sales orders for the default customer.
 
->![Important]
+>[!Important]
 > To avoid conflicts when processing orders, remember to use the same job queue category for both job queue entries.
 
 ### Impact of order editing
@@ -206,6 +206,8 @@ In Shopify:
 |Edit an order and add new item | Order header will be updated, lines won't. | Original and added items will be imported. |
 |Process order: fulfill, update payment information | Order header will be updated, but the lines won't. |Change has no impact on how the order is imported.|
 |Cancel order | Order header will be updated, but the lines won't. |Canceled order is not imported |
+
+As you can see in some cases it might be reasonable to delete edited order in [!INCLUDE[prod_short](../includes/prod_short.md)] and import it as new.
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
@@ -234,7 +236,7 @@ You can schedule the task to be performed in an automated manner. Learn more at 
 >[!Important]
 >The location, including blank location, defined in the Posted Shipment Line must have a matching record in the Shopify Location. Otherwise, this line won't be sent back to Shopify. Learn more at [Location mapping](synchronize-orders.md#location-mapping).
 
-Remember to run **Synchronize Orders from Shopify** to update the fulfillment status of an order in [!INCLUDE[prod_short](../includes/prod_short.md)]. The connector functionality also archives completely paid and fulfilled orders in both Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)] provided the conditions are met.
+Remember to run **Synchronize Orders from Shopify** to update the fulfillment status of an order in [!INCLUDE[prod_short](../includes/prod_short.md)]. The connector functionality also archives completely paid and fulfilled orders in both Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)] provided the conditions are met. 
 
 ### Shipping agents and tracking URL
 

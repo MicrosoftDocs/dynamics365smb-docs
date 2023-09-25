@@ -1,9 +1,7 @@
 ---
 title: Set Up FA Insurance
 description: You set up an insurance card and general insurance policy information to manage fixed asset insurance coverage.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.search.form: 5607, 5648, 5644, 5651
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Set Up Fixed Asset Insurance
@@ -57,8 +55,6 @@ You can set up batches in an insurance journal template. The values in the journ
 
 > [!NOTE]  
 >   Numbers have a special function in journal names. If a journal template name or journal batch name contains a number, the number automatically advances by one every time that the journal is posted. For example, if HH1 is entered in the **Name** field, the journal name will change to HH2 after the journal named HH1 has been posted.
-
-## See related [Microsoft training](/training/paths/set-up-fixed-assets-management/)
 
 ## See also
 

@@ -1,17 +1,14 @@
 ---
     title: Walkthrough - Managing Projects with Jobs
     description: This walkthrough introduces you to the project management features in jobs which allow you to schedule the usage of your company's resources and more.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/24/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Walkthrough: Managing Projects with Jobs
 
@@ -456,8 +453,6 @@ The following procedures show how to create a new job, set pricing, and then set
 ## Next Steps
 
  This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[prod_short](includes/prod_short.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
-
-## See related [Microsoft training](/training/paths/create-jobs/)
 
 ## See also
 

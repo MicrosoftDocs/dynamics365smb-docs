@@ -1,11 +1,11 @@
 ---
 title: Resources for Help and Support
 description: Find product Help, guidance, troubleshooting tips, and assistance, and learn how to get technical support for Business Central.
-author: edupont04
+author: brentholtorf
 ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
-ms.author: edupont
+ms.author: bholtorf
 ms.date: 07/14/2023
 ---
 
@@ -149,7 +149,7 @@ For more information, see [Escalating support issues to Microsoft](/dynamics365/
 
 The **Report a problem** section displays an email address or a hyperlink for you to get in contact with the customer support person or team. If you're the [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner for a tenant, you can set up your preferred support contact details in the admin center. For more information, see [Configuring the support experience](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in the administration content.  
 
-To alert your partner to a problem, choose the link to either send an email or open their support site in a new browser tab. You can then add the technical information about your Azure Active Directory tenant from the **Troubleshooting** section and any other information that you find relevant.  
+To alert your partner to a problem, choose the link to either send an email or open their support site in a new browser tab. You can then add the technical information about your Microsoft Entra tenant from the **Troubleshooting** section and any other information that you find relevant.  
 
 > [!NOTE]
 > The support contacts information isn't available with [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.

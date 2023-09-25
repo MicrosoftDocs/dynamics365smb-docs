@@ -1,16 +1,14 @@
 ---
     title: Setting Up and Invoicing Sales Prepayments
     description: Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. 
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 12/03/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Walkthrough: Setting Up and Invoicing Sales Prepayments
@@ -237,8 +235,6 @@ This walkthrough covered the following steps to set up [!INCLUDE[prod_short](inc
 You've also posted a prepayment invoice, created a second prepayment invoice when the order has changed, and posted the final invoice for the remaining amount.  
 
 The prepayments capabilities make it easy to set up and enforce prepayment rules for customers and items. They also let you to post every payment against an invoice.  
-
-## See related [Microsoft training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## See also
 

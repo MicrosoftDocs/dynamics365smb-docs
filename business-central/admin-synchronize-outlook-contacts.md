@@ -10,7 +10,6 @@ ms.search.keywords: contacts, Microsoft 365
 ms.search.form: 6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311 
 ms.date: 03/17/2023
 ms.author: bholtorf
-
 ---
 # Synchronize Contacts in Business Central with Contacts in Microsoft Outlook
 

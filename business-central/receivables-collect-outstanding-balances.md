@@ -1,9 +1,7 @@
 ---
 title: Collect Outstanding Balances
 description: Learn how to remind your customers of outstanding payments. Send a customer statement, issue a reminder, or send a finance charge memo.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 6, 25, 440, 443, 448, 452
 ms.date: 02/09/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Collect Outstanding Balances
@@ -109,8 +107,6 @@ When you issue a reminder, a reminder entry is created on the **Reminder/Fin. Ch
 ## Multiple Interest rates
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] For more information, see [Set Up Multiple Interest Rates](finance-how-to-set-up-multiple-interest-rates.md).  
-
-## See related [Microsoft training](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
 ## See Also
 

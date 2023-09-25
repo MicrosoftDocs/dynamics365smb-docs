@@ -9,7 +9,6 @@ ms.workload: na
 ms.search.form: 663,
 ms.date: 05/31/2023
 ms.author: bholtorf
-
 ---
 # Set Up Approval Users
 
@@ -46,8 +45,6 @@ After you set up approval users, you can create workflow responses for approval 
 4. Repeat steps 2 and 3 for every person you want to set up as an approval user.  
 
 The next step is to specify how you want [!INCLUDE [prod_short](includes/prod_short.md)] to notify people that a request is pending their attention. Learn more at [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md).
-
-## See related [Microsoft training](/training/modules/create-workflows/)
 
 ## See also
 

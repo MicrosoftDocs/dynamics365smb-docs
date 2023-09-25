@@ -3,8 +3,7 @@
     description: When managing your relationships with contacts, it can help to keep track of email correspondence. Learn about email logging in [!INCLUDE[d365fin](includes/d365fin_md.md)] and Microsoft Exchange Server.
     services: project-madeira
     documentationcenter: ''
-    author: bholtorf
-
+    author: brentholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -13,7 +12,6 @@
     ms.search.keywords: email, log, logging, interactions
     ms.date: 09/01/2017
     ms.author: bholtorf
-
 ---
 # Walkthrough: Logging Email Interactions in the Database
 In managing your relationships with contacts, it helps keep track of email correspondence. Email logging in [!INCLUDE[d365fin](includes/d365fin_md.md)] and Microsoft Exchange Server. For example, you can send an email message to a contact about an upcoming event. The contact replies, and confirms interest in participating. Both messages are logged on the contact card. Or, you might receive a complaint from a contact via an email message. You can track that contact's message and your response to it by using email logging.  

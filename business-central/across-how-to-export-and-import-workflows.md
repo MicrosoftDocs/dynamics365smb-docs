@@ -1,15 +1,14 @@
 ---
 title: How to Export and Import Approval Workflows
 description: To transfer workflows to other Business Central databases, for example to save time when creating new workflows, you can export and import workflows.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 09/08/2022
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Export and Import Approval Workflows
 

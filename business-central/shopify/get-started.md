@@ -6,8 +6,8 @@ ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
 ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135, 
-author: AndreiPanko
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
 # Get Started with the Shopify Connector
@@ -59,7 +59,9 @@ Repeat steps 2-6 for all online shops that you want to connect.
 ### Known issues
 
 - The browser blocks the pop-up window. When you turn on the **Enabled** toggle, [!INCLUDE [prod_short](../includes/prod_short.md)] opens the **Waiting for a response - do not close this page** page while it waits for an access token from Shopify. If that page is closed or blocked, you can't connect to Shopify. Learn more at [Request the access token](troubleshoot.md#request-the-access-token)
+- It might be a good idea to have Shopify admin open in the same browser as [!INCLUDE [prod_short](../includes/prod_short.md)]
 - [Error: Oauth error invalid_request: Could not find Shopify API application with api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
+- [Error: Oauth error invalid_request: Your account does not have permission to grant the requested access for this app.](troubleshoot.md#error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app)
 - [Can't connect from sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Next steps
@@ -108,8 +110,6 @@ If you keep the **Allow Data Sync to Shopify** toggle enabled, then additional p
 
 *	Select **Draft** in the **Status for Create Product** field to ensure that exported products aren't available to buyers. You can verify how products look in the online store, synchronize prices, options, and stock levels. Just make sure to use filters on the **Add Item to Shopify** page to limit the number of exported items.
 * Turn off the **Export Customer to Shopify** toggle so that you don't send customers to Shopify.
-
-## See related [Microsoft training](/training/paths/use-shopify-connector-dynamics-365-business-central/)
 
 ## See also
 

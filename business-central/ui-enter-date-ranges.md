@@ -1,9 +1,7 @@
 ---
 title: Entering dates and times in Business Central
 description: Learn how to enter dates and times including various productivity tips such as shorthand, expressions and ranges.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 # Work with Calendar Dates and Times
@@ -346,8 +344,6 @@ You can also enter a number, which will be automatically converted to a duration
 To see what unit of measure is being used in a duration field, enter a number. Then, you can see which unit of measure it's converted to.
 
 For example, if the unit of measure is hours, the number 5 is converted to 5 hrs.
-
-## See related [Microsoft training](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## See also
 

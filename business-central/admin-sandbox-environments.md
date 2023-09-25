@@ -1,18 +1,15 @@
 ---
 title: Sandbox environments
 description: Learn about how a dedicated environment can help you safely explore, learn, demo, develop, troubleshoot, and test Business Central.
-author: SusanneWindfeldPedersen
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
-ms.author: solsen
-
+ms.author: bholtorf
 ---
 # Sandbox Environments in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -66,8 +63,6 @@ In a sandbox environment, you will find the **Designer** enabled. You can activa
 For more information, see [Use Designer](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) in the developer and admin content (in English only).  
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
-
-## See related [Microsoft training](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## See also
 

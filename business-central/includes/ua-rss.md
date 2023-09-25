@@ -1,9 +1,8 @@
 ---
-author: edupont04
-
+author: brentholtorf
 ms.topic: include
 ms.date: 08/16/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 To subscribe to a Really Simple Syndication (RSS) feed of all updates that are to the business functionality content on learn.microsoft.com for [!INCLUDE [prod_short](prod_short.md)], use the following link:
 

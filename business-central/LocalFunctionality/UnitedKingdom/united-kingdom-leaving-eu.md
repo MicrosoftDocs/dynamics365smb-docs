@@ -24,7 +24,7 @@ The departure of the United Kingdom (UK) from the European Union (EU) will impac
 If your business performs any of the above activities, you will likely need to make some configuration changes in [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 > [!NOTE]  
->  Make sure to check with Her Majesty's Revenue and Customs (HMRC) for the latest information and to investigate the impact that Brexit might have on your business: [https://www.gov.uk/transition](https://www.gov.uk/transition). Microsoft will continuously monitor legislation changes due to Brexit and assess potential product impact.   
+>  Make sure to check with His Majesty's Revenue and Customs (HMRC) for the latest information and to investigate the impact that Brexit might have on your business: [https://www.gov.uk/transition](https://www.gov.uk/transition). Microsoft will continuously monitor legislation changes due to Brexit and assess potential product impact.   
 
 
 ## Trade Across Borders and the Use of Economic Operators Registration and Identification Numbers 
@@ -56,7 +56,7 @@ If your business has a warehouse in Northern Ireland, goods moved to that locati
 
 1. **I’m using [!INCLUDE[prod_short](../../includes/prod_short.md)] online – where is my data stored?**
 
-    The data for UK customers using [!INCLUDE[prod_short](../../includes/prod_short.md)] online is stored in data centers in the UK. If you create another [!INCLUDE[prod_short](../../includes/prod_short.md)] environment in the same Azure AD tenant, and choose another country/region for this environment, the data will be stored in data centers that serve that specific country/region. In most cases, those data centers are outside the UK, which helps ensure optimal data residency and performance.
+    The data for UK customers using [!INCLUDE[prod_short](../../includes/prod_short.md)] online is stored in data centers in the UK. If you create another [!INCLUDE[prod_short](../../includes/prod_short.md)] environment in the same Microsoft Entra tenant, and choose another country/region for this environment, the data will be stored in data centers that serve that specific country/region. In most cases, those data centers are outside the UK, which helps ensure optimal data residency and performance.
 
 2. **Does [!INCLUDE[prod_short](../../includes/prod_short.md)] support legislation in the United Kingdom?**
 

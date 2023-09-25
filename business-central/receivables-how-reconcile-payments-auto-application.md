@@ -10,7 +10,6 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 389, 1290, 1294, 1287
 ms.date: 06/22/2022
 ms.author: bholtorf
-
 ---
 # Reconcile Payments Using Automatic Application
 
@@ -88,8 +87,6 @@ You can compare the value in the **Balance on Bank Account After Posting** field
 
 > [!NOTE]  
 >   If you do not want to reconcile the bank account from the **Payment Reconciliation Journal** page, then you must use the **Bank Acc. Reconciliation** page. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
-
-## See related [Microsoft training](/training/modules/use-journals-dynamics-365-business-central/)
 
 ## See also
 

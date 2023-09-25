@@ -1,16 +1,14 @@
 ---
 title: Correct or Cancel a Posted Sales Invoice
 description: This topic describes how to correct, undo, or cancel a posted sales invoice and apply a sales credit memo.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Correct or Cancel Unpaid Sales Invoices
@@ -63,8 +61,6 @@ If the cancellation is related to a partial invoice posting, then the originatin
 
     A sales credit memo is automatically created and posted to void the initial posted sales invoice.
 5. Choose the **Show Corrective Credit Memo** action to view the posted sales credit memo that voids the initial posted sales invoice.
-
-## See related [Microsoft training](/training/modules/ship-invoice-items-dynamics-365-business-central/)
 
 ## See also
 

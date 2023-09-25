@@ -8,12 +8,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: extension, saf-t, authorities, export, compliance
 ms.search.form: 10670, 10671, 10672, 10673, 10674, 10675, 10677, 10678, 10679, 10680, 10685, 10686, 10687, 10688, 10689, 10690, 10691, 
-ms.date: 04/01/2021
+ms.date: 09/18/2023
 ms.author: soalex
-
 ---
 
-# Standard Audit Files - Tax
+# Standard audit files - tax
 
 Starting in January, 2020, companies in Norway must report financial data and provide a set of Standard Audit Files - Tax (SAF-T) to the Norwegian authorities upon request. This extension makes it easy to set up, generate, and export Standard Audit Files - Tax in [!INCLUDE[prod_short](../../includes/prod_short.md)]. The exported SAF-T files will automatically be compressed as a .zip file ready to be uploaded by the user on the website of Skatteetaten, the Norwegian tax authorities.  
 
@@ -21,9 +20,9 @@ Starting in January, 2020, companies in Norway must report financial data and pr
 
 This extension provides the following capabilities:
 
-* Setup and mapping of chart of accounts to SAF-T standard accounts
-* Mapping VAT setup to SAF-T VAT codes
-* Control to which extent dimensions are exported in SAF-T files
+* Setup and mapping of chart of accounts to SAF-T standard accounts.
+* Mapping VAT setup to SAF-T VAT codes.
+* Control to which extent dimensions are exported in SAF-T files.
 * Export SAF-T files, either directly or by using the Job Queue. Using Job Queue lets you schedule the export to occur during quiet hours, which is useful for potentially large datasets.
 
 ## Setup of the Norwegian SAF-T extension
@@ -60,7 +59,7 @@ To export SAF-T files from [!INCLUDE[prod_short](../../includes/prod_short.md)],
 
 ### To create an export of SAF-T files
 
-1. In [!INCLUDE[prod_short](../../includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png) "Tell me what you want to do") icon, enter **SAF-T Exports**, and then choose **SAF-T Exports**.  
+1. In [!INCLUDE[prod_short](../../includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SAF-T Exports**, and then choose **SAF-T Exports**.  
 2. On the **SAF-T Exports** page, choose **Create**.
 3. On the **SAF-T Export** page, in the **Mapping Range Code** field, choose the mapping range for which to define an export.
 4. To start the SAF-T export, do one of the following: 
@@ -74,24 +73,24 @@ To export SAF-T files from [!INCLUDE[prod_short](../../includes/prod_short.md)],
 You can configure [!INCLUDE[prod_short](../../includes/prod_short.md)] with extra data quality validation controls that help make sure that your SAF-T files can be validated by Skatteetaten. For example, SAF-T files can only be validated when certain information exists on relevant records in [!INCLUDE[prod_short](../../includes/prod_short.md)]. To help ensure data quality for SAF-T you can enable more proactive controls on the **Data Quality** FastTab on the **SAF-T Setup** page. Additionally, on the **SAF-T Export** card page, use the **Data check** action to check the data quality before you export the file.
 
 > [!NOTE]
-> SAF-T exports will by default generate one file with master data, and separate files for each of the months included in the selected mapping range. Consider the amount of transactions in the selected period and adjust the **Max No. of Jobs** accordingly on the SAF-T Export page. As a general recommendation, start with three parallel jobs to allow parallel export and still leave resources for other [!INCLUDE[prod_short](../../includes/prod_short.md)] users. Additionally, for on-premises, you can specify a network share in the **Folder path** to generate the SAF-T files directly on a network share instead of in the database. For online versions of [!INCLUDE[prod_short](../../includes/prod_short.md)] this is always the case. If you specify the **Folder Name**, the generated .zip file will be located here. 
+> SAF-T exports will by default generate one file with master data, and separate files for each of the months included in the selected mapping range. Consider the amount of transactions in the selected period and adjust the **Max No. of Jobs** accordingly on the SAF-T Export page. As a general recommendation, start with three parallel jobs to allow parallel export and still leave resources for other [!INCLUDE[prod_short](../../includes/prod_short.md)] users. Additionally, for on-premises, you can specify a network share in the **Folder path** to generate the SAF-T files directly on a network share instead of using the database. For online versions of [!INCLUDE[prod_short](../../includes/prod_short.md)] this is always the case. If you specify the **Folder Name**, the generated .zip file will be located here. 
 
 > [!IMPORTANT]
 > Due to the nature of exporting transactions, exporting SAF-T files will impact performance of [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 There are a couple of things you can do to improve performance:
 
-* **Split by Date** option.
+* **Split by Date** option
 
    This approach collects general ledger entries by date, not by month as is the default with better performance as a result. 
    
-* **XML option**
+* **XML** option
 
    For [!INCLUDE[prod_short](../../includes/prod_short.md)] on-premises, you have an option to not generate .ZIP files from the export. This will export the raw XML files and is only possible where there is a **Folder Path** to export to. The user can then compress the files manually, which saves server performance. SAF-T files can be large and compressing them to a .ZIP file is a costly operation for the server. 
    
 * **Create Multiple Zip Files** option
 
-Finally, for both online and on-premises, for very large exports with many transactions, you can also use the option to create multiple .ZIP files. This is useful if individual files per month are very large, or the count of files per date is too big. Use this option when the single large ZIP file will not validate on the authorities' web site due to its size, for example. Using this feature will split up the export into multiple ZIP files, up to 10 in alignment with the requirements that are stated in the general SAF-T documentation. The **SAF-T Export File** page is always opened when using the **Download File** action. Here you can see how many files where generated and download them one by one.  
+Finally, for both online and on-premises, for very large exports with many transactions, you can also use the option to create multiple .ZIP files. This is useful if individual files per month are very large, or the count of files per date is too big. Use this option when the single large ZIP file will not validate on the authorities' web site due to its size, for example. Using this feature will split up the export into multiple ZIP files, up to 10 in alignment with the requirements that are stated in the general SAF-T documentation. The **SAF-T Export File** page is always opened when using the **Download File** action. Here you can see how many files were generated and download them one by one.  
 
 ## See also
 

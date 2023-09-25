@@ -1,16 +1,14 @@
 ---
 title: Get Ready for Doing Business
 description: Outlines the assisted setup guides, videos, help topics, and pages and pages to use to get ready for doing business in Business Central.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 05/25/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 # Get Ready for Doing Business
 
@@ -41,8 +39,6 @@ If an area is not covered by an assisted setup, choose the ![Sprocket icon to op
 When you have run an assisted setup guide, it is marked as **Completed**.  
 
 ## Teaching tips and tours
-
-[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes in-product tours and teaching tips that can help you get started. In the current version, there are tours for the steps in the **Get started** list and some of the most commonly used pages in the demonstration company, such as the **Sales Invoice** card page.  
 

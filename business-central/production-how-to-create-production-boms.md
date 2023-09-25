@@ -7,7 +7,6 @@ ms.search.keywords: production bom, bills of material,
 ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: bholtorf
-
 ---
 # Create Production BOMs
 

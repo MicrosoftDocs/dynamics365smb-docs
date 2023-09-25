@@ -1,9 +1,7 @@
 ---
 title: Issue, Print, Cancel, and Void Checks
 description: Describes how to issue checks using the payment journal, print checks, and void or view check ledger entries in Business Central.  
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256, 404, 
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Make Check Payments
@@ -77,8 +75,6 @@ When check payment have been posted, you can only cancel (void) checks from the 
 If you want to review posted checks, for example to verify multiple checks paid to one vendor, you can use the **Bank Account - Check Details** report.
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account - Check Details**, and then choose the related link.
 2. Set filters as relevant, and then choose the **Preview** button.
-
-## See related [Microsoft training](/training/modules/use-checks-dynamics-365-business-central/)
 
 ## See also
 

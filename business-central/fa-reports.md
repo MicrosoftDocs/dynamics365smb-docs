@@ -1,14 +1,12 @@
 ---
 title: Fixed Assets Reports and Analytics
 description: See which reports and analytics are available in the standard version of Business Central so that you can keep track of your fixed assets.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_5600, Report_5601, Report_5603, Report_5604, Report_5605, Report_5606, Report_5607, Report_5608, Report_5610
 ms.date: 07/13/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Fixed Assets Reports and Analytics in Business Central

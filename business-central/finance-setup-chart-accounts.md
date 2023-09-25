@@ -1,9 +1,7 @@
 ---
 title: Set Up or Change the Chart of Accounts (contains video)
 description: The chart of accounts (COA) shows the ledger accounts that store your financial data. You can change the default accounts in the COA, and you can add new accounts.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.search.form: 16, 17, 18, 118, 386, 391
 ms.date: 01/21/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Set Up or Change the Chart of Accounts
@@ -51,8 +49,6 @@ You can delete a general ledger account. However, before you delete it, the foll
 A new field, **Block Deletion of G/L Accounts**, has been added to the **General Ledger Setup** page. When set to *Yes*, the field acts as an extra validation that means you cannot delete G/L accounts with ledger entries after the date in the **Check G/L Acc. Deletion After** field. To delete such an account, a user with access to the **General Ledger Setup** page must first set this field to *No*.  
 
 Setting the **Block Deletion of G/L Accounts** field to *Yes* can be considered a best practice, as is setting the date in the **Check G/L Acc. Deletion After** field, for example to the date by which you're required to store your finance data.  
-
-## See related [Microsoft training](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## See Also
 

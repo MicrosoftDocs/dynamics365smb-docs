@@ -1,10 +1,10 @@
 ---  
 title: Trial FAQ
 description: Solutions to common questions related to Dynamics 365 Business Central trial setup and management. Learn how to resolve platform and app-specific issues.
-author: edupont04
+author: brentholtorf
 ms.topic: get-started
 ms.custom: template-trial-faq
-ms.author: edupont
+ms.author: bholtorf
 ms.date: 02/23/2022
 ---
 
@@ -44,8 +44,6 @@ Switch to the 30-day trial, and then add your own data. For more information, se
 ### How do I restore sample data?
 
 You can't. If you accidentally delete sample data, ask your admin to create a new sandbox environment. For more information, see [Production and Sandbox Environments](/dynamics365/business-central/dev-itpro/administration/environment-types) in the admin content (in English only).  
-
-## See related [Microsoft training](/training/modules/trial-dynamics-365-business-central/)
 
 ## See also
 

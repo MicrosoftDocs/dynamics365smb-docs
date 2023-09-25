@@ -2,16 +2,13 @@
     title: How to Set Up a Document Exchange Service | Microsoft Docs
     description: You use an external service provider to exchange electronic documents with your trading partners.
     author: brentholtorf
-
-    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/11/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Set Up a Document Exchange Service
 
@@ -63,8 +60,6 @@ If you prefer to use another document exchange service, you must provide some in
 To connect Business Central on-premises, you must create an app on the Tradeshift App Store. When you do, use the redirect URL from the **Redirect URL** field on the **Document Exchange Service Setup** page. After you register your app, Tradeshift will provide a client ID and a client secret. In [!INCLUDE[prod_short](includes/prod_short.md)], enter those values on the **Authorization** FastTab on the **Document Exchange Service Setup** page.
 
 If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the OnGetClientId and OnGetClientSecret events in codeunit 1410 "Doc. Exch. Service Mgt."
-
-## See related [Microsoft training](/training/modules/electronic-documents-dynamics-365-business-central/)
 
 ## See Also
 

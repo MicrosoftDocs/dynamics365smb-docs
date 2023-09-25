@@ -4,9 +4,7 @@
 
     services: project-madeira 
     documentationcenter: ''
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -14,7 +12,7 @@
     ms.search.keywords:
     ms.search.form: 2000005
     ms.date: 06/17/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Set Up Export Protocols in the Belgian Version

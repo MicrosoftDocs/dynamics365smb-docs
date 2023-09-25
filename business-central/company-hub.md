@@ -1,14 +1,12 @@
 ---
 title: Manage Work across Multiple Companies in the Company Hub
 description: Learn about the company hub in Dynamics 365 Business Central that you use to manage your work across multiple companies.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 # Manage Work across Multiple Companies in the Company Hub
@@ -87,7 +85,7 @@ But to add a company, you must have been given access to one or more instances o
 
 For example, if you are an accountant, your clients can invite you to their [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).  
 
-Administrators can use the same assisted setup guide to add you to their [!INCLUDE [prod_short](includes/prod_short.md)], or they can add you to the relevant Azure AD account in the Microsoft 365 admin center. For more information, see [Manage users and groups](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
+Administrators can use the same assisted setup guide to add you to their [!INCLUDE [prod_short](includes/prod_short.md)], or they can add you to the relevant Microsoft Entra account in the Microsoft 365 admin center. For more information, see [Manage users and groups](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
 ## See also
 

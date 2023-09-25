@@ -56,7 +56,7 @@ The connection process starts. During the process, [!INCLUDE [prod_short](includ
 
 #### From [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
 
-Connecting to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] is similar to online. However, you might be prompted on the **AZURE ACTIVE DIRECTORY SERVICE PERMISSIONS** page to grant access to Power BI Services. To grant access, select **Authorize Azure Services**, and then **Accept**.
+Connecting to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] is similar to online. However, you might be prompted on the **MICROSOFT ENTRA SERVICE PERMISSIONS** page to grant access to Power BI Services. To grant access, select **Authorize Azure Services**, and then **Accept**.
 
 Once connected, you can select a report from the Power BI part on pages.
 
@@ -126,8 +126,6 @@ This message appears if the default report failed to deploy to your Power BI wor
 #### You can't see a report on the Select Report page on a list page
 
 It's probably because the report's name doesn't contain the name of the list page. Clear the filter to get a full list of Power BI reports available.
-
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## See Also
 

@@ -1,16 +1,15 @@
 ---
 title: Set Up Time Sheets and Their Approval
 description: You set up time sheets to track the time used on tasks and projects, helping you with project management, staffing, and capacity
+ms.reviewer: jswymer
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
-ms.search.form: 977, 462, 76, 77
-ms.date: 12/13/2021
+ms.search.form: 977, 462, 76, 77, 462
+ms.date: 07/27/2023
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ms.author: bholtorf
-
 ---
 # Set Up Time Sheets
 
@@ -33,7 +32,7 @@ When you have set up time sheets, you can create time sheets for resources, and 
 Starting in 2021 release wave 2, you can use an assisted setup guide to help you set up time sheets.  
 
 > [!TIP]
-> You must enable the **Feature Update: New time sheet experience** feature in the [Feature Management](https://businesscentral.dynamics.com/?page=2610) page to use this capability.
+> If you're a version earlier than 2023 release wave 1 (v22), you must enable the **Feature Update: New time sheet experience** feature in the [Feature Management](https://businesscentral.dynamics.com/?page=2610) page to use this capability.
 >
 > The same feature also makes it easy to manage time sheets on a mobile device.
 
@@ -52,7 +51,10 @@ The assisted setup guide takes you through the following steps:
     This person can edit and delete all time sheets. Optionally, add the same role to other people in the **User Setup** page.
 4. Set up the resources who will use time sheets, and the people who will approve time sheets
 
-At the end of the setup guide, you can choose to let [!INCLUDE [prod_short](includes/prod_short.md)] create time sheets based on your configuration. View the new time sheets in the **Time Sheets** page, which you can open [here](https://businesscentral.dynamics.com/?page=951). Alternatively, run the assisted setup guide again, or complete the setup manually.  
+At the end of the setup guide, you can choose to let [!INCLUDE [prod_short](includes/prod_short.md)] create time sheets based on your configuration. View the new time sheets in the **Time Sheets** page, which you can open [here](https://businesscentral.dynamics.com/?page=951). Alternatively, run the assisted setup guide again, or complete the setup manually. 
+
+> [!IMPORTANT]
+> If you're using 2023 release wave 1 (v22) or later, to ensure that you can manage time sheets on mobile devices, you must manually turn on the **Use New Time Sheet Experience** option for the time sheet setup, as described in the next procedure.
 
 ## Set up time sheets manually
 
@@ -61,8 +63,11 @@ The following sections describe how to set up time sheets if you do not use the 
 ### To set up general information for time sheets manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources Setup**, and then choose the related link.  
-2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. For the **Time Sheet by Job Approval** field, select one of the following options.
+1. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+   > [!IMPORTANT]
+   > If you're using 2023 release wave 1 (v22) or later, to ensure that you can manage time sheets on mobile devices, turn on the **Use New Time Sheet Experience** option.
+1. For the **Time Sheet by Job Approval** field, select one of the following options.
 
 | Option | Description |
 | --- | --- |
@@ -88,8 +93,6 @@ The following sections describe how to set up time sheets if you do not use the 
 
 > [!NOTE]  
 > You cannot change the ID of the time sheet approver if there are time sheets that have not yet been processed and have the status of **Submitted** or **Open**.
-
-## See related [Microsoft training](/training/paths/set-up-jobs-resources/)
 
 ## See also
 

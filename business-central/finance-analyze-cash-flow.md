@@ -42,8 +42,6 @@ If you want to examine the forecast, in addition to forecast entries, you can al
 2. Choose a cash flow forecast, and then choose the **Cash Flow Worksheet** action.  
 3. On the **Cash Flow Worksheet** page, choose the **Suggest Worksheet Lines** action.  
 
-## See related [Microsoft training](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
-
 ## See Also
 
 [Setting Up Finance](finance-setup-finance.md)  

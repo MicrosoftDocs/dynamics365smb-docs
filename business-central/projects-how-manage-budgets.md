@@ -44,8 +44,6 @@ On the **Job Card** page, you can now see a summary of the total budgeted costs,
 
 For information about recording budgeted versus actual job prices and costs, see [Record Usage for Jobs](projects-how-record-job-usage.md).
 
-## See related [Microsoft training](/training/modules/set-up-job-planning-lines/)
-
 ## See also
 
 [Project Management](projects-manage-projects.md)  

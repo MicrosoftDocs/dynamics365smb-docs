@@ -44,8 +44,6 @@ The following table describes a sequence of tasks, with links to the topics that
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## See related [Microsoft training](/training/paths/purchase-items-services-dynamics-365-business-central/)
-
 ## See also
 
 [Setting Up Purchasing](purchasing-setup-purchasing.md)  

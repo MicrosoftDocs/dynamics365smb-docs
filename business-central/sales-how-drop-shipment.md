@@ -73,8 +73,6 @@ After the vendor ships the items, you can post the sales order as shipped. You c
 4. Choose the **Post** or **Post and Send** action.
 5. Choose either the **Ship** option to invoice later, or the **Ship and Invoice** option to invoice immediately.
 
-## See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## See also
 
 [Create Special Orders](sales-how-to-create-special-orders.md)  

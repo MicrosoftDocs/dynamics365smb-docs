@@ -82,7 +82,7 @@ The item is planned according to planning parameters on the SKU card (including 
 
 The item is planned according to planning parameters on the item card.
 
-#### Case 1.3: Demand is at *NORTH* location
+#### Case 1.3: Demand is at *MAIN* location
 
 The item is planned according to: Reordering Policy = *Lot-for-Lot* (*Order* remains *Order*), Include Inventory = *Yes*, all other planning parameters = Empty.
 
@@ -139,8 +139,6 @@ The item is planned according to planning parameters on the item card.
 As you can see from the last scenario, the only way to get a correct result for a demand line without a location code is to disable all setup values relating to locations. Similarly, the only way to get stable planning results for demand at locations is to use stockkeeping units.  
 
 Therefore, if you often plan for demand at locations, then we recommend that you use the Stockkeeping Units capability.
-
-## See related training at [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## See also
 

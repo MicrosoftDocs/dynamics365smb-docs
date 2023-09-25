@@ -153,7 +153,7 @@
 ### [View and edit in Excel](across-work-with-excel.md)
 ### [Store and share files in OneDrive](across-share-onedrive.md)
 ### [Manage attachments, links, and notes on cards and documents](ui-how-add-link-to-record.md)
-### [Use word templates for bulk communication](ui-mail-merge.md)
+### [Use Word templates for bulk communication](ui-mail-merge.md)
 ### [Change basic settings](ui-change-basic-settings.md)
 ### [Switch to another company or environment](ui-organization-switch.md)
 ### [Manage notifications](ui-smart-notifications.md)

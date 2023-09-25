@@ -60,8 +60,6 @@ Instead of viewing the actual and budgeted amounts for all accounts within a sin
 3. On the **Options** FastTab, fill in the fields as necessary to define what is displayed in the table.  
 4. On the **Lines** FastTab, hover over a field on the table to read a short description about the displayed amount.  
 
-## See related training at [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
-
 ## See also
 
 [Financial Business Intelligence](bi.md)  

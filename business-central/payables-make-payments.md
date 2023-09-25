@@ -36,8 +36,6 @@ The following table describes a sequence of tasks, with links to the topics that
 | Pay a vendor by cash or check, and post the payment when you post the invoice. |[Settle Purchase Invoices Promptly](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Make sure that your bank only clears validated checks and amounts by sending them a file that contains vendor, check, and payment information. |[Export a Positive Pay file](finance-how-positive-pay.md) |
 
-## See related [Microsoft training](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
-
 ## See also
 
 [Managing Payables](payables-manage-payables.md)  

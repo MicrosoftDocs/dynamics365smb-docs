@@ -231,8 +231,6 @@ When picking by FEFO, items that expire first are gathered in a temporary item t
 
 Put-away templates specify a set of prioritized rules that apply when you create put-aways. For example, a put-away template can require you to place items in a bin with bin content that has the same UOM. If a similar bin with enough capacity can't be found, the item must be placed in an empty bin. You assign a put-away template to an item and a location.  
 
-## See related [Microsoft training](/training/modules/get-started-warehouse-management/)
-
 ## See also
 
 [Inventory](inventory-manage-inventory.md)  

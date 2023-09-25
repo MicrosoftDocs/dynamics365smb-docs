@@ -37,9 +37,9 @@ When there's more than one company or environment, you'll see the company switch
 
 :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Shows the company switcher icon in the heading of the Business Central client.":::  
 
-Starting in 2023 release wave 2, version 23, the company badges appears in the browser tab wehn using the web client. It's also included in page links you [copy and paste](across-share-data-features.md#copying-a-link) in rich text editors, like Word, Outlook, and Teams.
+Starting in 2023 release wave 2, version 23, the company badges appears in the browser tab when using the web client. It's also included in page links that you [copy and paste](across-share-data-features.md#copying-a-link) in rich text editors, like Word, Outlook, and Teams.
  
-### set the company badge
+### Set the company badge
 
 Using the **Company Information** page, you can replace the standard company icon with a custom badge on a per-company basis if the company badge makes it easier for users to identify the company they're working in.
 

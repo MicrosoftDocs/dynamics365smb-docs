@@ -21,7 +21,7 @@ You are the production planner at Contoso Coffee. You must create a new producti
 > [Note!]
 > Remember to adjust inventory by posting Item Journal with opening balances.
 
-1. Create a firm planned production order for five units of the item **SP-SCM1004, AutoDrip** on *NORTH* location. For guidance, see [Walkthrough: Create a Firm Planned Production Order and Change It](create-firm-planned-production-order-change.md).  
+1. Create a firm planned production order for five units of the item **SP-SCM1004, AutoDrip** on *MAIN* location. For guidance, see [Walkthrough: Create a Firm Planned Production Order and Change It](create-firm-planned-production-order-change.md).  
 
 2. Release the production order.
 

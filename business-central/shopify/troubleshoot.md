@@ -144,6 +144,10 @@ It seems you use the [Embed App](/dynamics365/business-central/dev-itpro/deploym
 
 Please contact Shopify support within 7 days of experiencing this error, and provide the Request ID. To learn more, go to [Support options for Shopify](shopify-faq.md#shopify).
 
+### Error: Oauth error invalid_request: Your account does not have permission to grant the requested access for this app. 
+
+It seems that user which requests access doesn’t have rights to manage apps (ability to manage and install apps and channels, as well as potentially approve app charges). You may be able to resolve this issue by installing the app as the account owner. Alternatively you can check the **App permission** for the user in the [**User and permissions**](https://www.shopify.com/admin/settings/account) settings in your **Shopify admin**.  
+
 ## See also
 
 [Get Started with the Connector for Shopify](get-started.md)

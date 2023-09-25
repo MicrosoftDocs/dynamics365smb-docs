@@ -5,11 +5,11 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.date: 08/24/2023
+ms.date: 09/15/2023
 ms.custom: bap-template
 ms.search.form: 672, 673, 674, 671
 ---
-# Use Job Queues to Schedule Tasks
+# Use job queues to schedule tasks
 
 Use the **Job Queue Entries** page to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson * Sales Statistics** report weekly to track sales by salesperson each week, or run the **Delegate Approval Requests** codeunit daily to prevent documents from piling up.
 
@@ -137,7 +137,7 @@ Administrators can use [Azure Application Insights](/azure/azure-monitor/app/app
 
 Telemetry lets administrators set up alerts on job queue issues that send a text message, email, or a message in Teams if something isn't right. To learn more about these alerts, go to [Alert on Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
 
-## See Also
+## See also
 
 [Administration](admin-setup-and-administration.md)  
 [Setting Up Business Central](setup.md)  

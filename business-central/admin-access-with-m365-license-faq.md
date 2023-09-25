@@ -97,7 +97,7 @@ No. Accessing Business Central data in Microsoft Teams requires each user to hav
 
 ### Does this work with Microsoft 365 trials and Business Central trials?
 
-Yes. If a user is assigned a Microsoft 365 license from a trial of a supported plan, they can also access Business Central records in Teams. It's then possible for customers to try Microsoft productivity and business apps working together, and allows partner salespeople and consultants to easily demonstrate this feature. For example, partners can provision their own Azure AD tenants from [https://aka.ms/CDX](https://aka.ms/CDX) that include Microsoft 365 trials and Business Central trials for demonstrating Business Central.
+Yes. If a user is assigned a Microsoft 365 license from a trial of a supported plan, they can also access Business Central records in Teams. It's then possible for customers to try Microsoft productivity and business apps working together, and allows partner salespeople and consultants to easily demonstrate this feature. For example, partners can provision their own Microsoft Entra tenants from [https://aka.ms/CDX](https://aka.ms/CDX) that include Microsoft 365 trials and Business Central trials for demonstrating Business Central.
 
 ### The list of licenses in Business Central shows a Microsoft 365 license. What's that?
 

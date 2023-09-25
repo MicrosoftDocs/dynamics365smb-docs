@@ -11,7 +11,7 @@ ms.author: bholtorf
 ---
 # Update Currency Exchange Rates
 
-You can define different currencies in [!INCLUDE [prod_short](includes/prod_short.md)], for example if you trade in currencies other than your local currency. To keep track of changes in currency exchange rates, you can manage the rates manually, or set up a currency exchange rate service.
+You can define different currencies in [!INCLUDE [prod_short](includes/prod_short.md)], for example if you trade in currencies other than your local currency. To track changes in currency exchange rates, you can manage the rates manually or set up a currency exchange rate service.
 
 ## Currencies
 
@@ -64,19 +64,6 @@ Use the **Adjust Exchange Rates** batch job to manually adjust the exchange rate
 > [!TIP]
 > You can use a service to update exchange rates in the system automatically. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). However, this does not adjust exchange rates on already posted transactions. To update exchange rates on posted entries, use the **Adjust Exchange Rates** batch job.
 
-You can preview the effect that an adjustment will have on posting before you actually post by choosing **Preview** on the **Adjust Exchange Rates** page. Additionally, you can select whether the general ledger posting will be detailed (per entry) or summarized (per currency) by choosing **Summarize Entries**. You can also specify how to handle dimensions for unrealized gains and losses postings by choosing one of the following options in the **Transfer Dimension Values** field:  
-
-- **Source Entry**: G/L entries for unrealized gains and losses will have dimensions values transferred from the adjusted entry.
-- **By G/L Account**: G/L entries for unrealized gains and losses will have dimensions values transferred from the unrealized gains and losses G/L account's dimension settings source entry.
-- **No Transfer**: G/L entries for unrealized gains and losses won't have dimensions values.
-
-## Preview the effect of an adjustment
-
-You can preview the effect that an exchange rate adjustment will have on posting before you actually post by choosing the **Preview Posting** action on the **Exch. Rates Adjustment** report (Report 596) request page. On the request page you can specify what to include in the preview:
-
-* Get a detailed posting to the general ledger by entry
-* Get a summarized posting by currency. Just pick the **Adjust per entry** field on the **Exch. Rates Adjustment** report. 
-
 You can also specify how the adjustment will handle dimensions for unrealized gains and losses postings by choosing one of the following options in the **Dimension Posting** field:  
 
 * **Source Entry Dimensions**: Transfer dimension values for G/L entries for unrealized gains and losses from the entry you're adjusting.  
@@ -88,6 +75,13 @@ You can also specify how the adjustment will handle dimensions for unrealized ga
 
 > [!IMPORTANT]
 > Due to local requirements in Switzerland, we don't recommend that you enable **Feature Update: Enable use of new extensible exchange rate adjustment, including posting review** in the Swiss (CH) country version.
+
+## Preview the effect of an adjustment
+
+You can preview the effect that an exchange rate adjustment will have on posting before you actually post by choosing the **Preview Posting** action on the **Exch. Rates Adjustment** report (Report 596) request page. On the request page you can specify what to include in the preview:
+
+* Get a detailed posting to the general ledger by entry
+* Get a summarized posting by currency. Just pick the **Adjust per entry** field on the **Exch. Rates Adjustment** report.
 
 ### Effect on customers and vendors
 

@@ -12,7 +12,7 @@ ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 
 ---
 # Analyze list page and query data using data analysis mode
 
-> **APPLIES TO:** Business Central 2022 release wave 2 and later for analyzing list pages; Business Central 2023 release wave 1 for analyzing queries
+> **APPLIES TO:** Business Central 2022 release wave 2 and later for analyzing list pages; Business Central 2023 release wave 1 for analyzing queries.
 
 In this article, you learn how to analyze data from list pages and queries using the *data analysis mode*. The data analysis mode enables you to analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Examples could be "My customers", "Follow up items", "Recently added vendors", "Sales statistics", or any other view you can imagine.
 

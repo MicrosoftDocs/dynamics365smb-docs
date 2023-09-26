@@ -3,10 +3,10 @@ title: Pick Items for Warehouse Shipment
 description: Learn about using warehouse pick documents to create and process pick information prior to posting a warehouse shipment.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 01/25/2023
+ms.date: 09/11/2023
 ms.custom: bap-template
 ms.search.forms: 7335, 7339, 7345, 
 
@@ -39,6 +39,10 @@ You can't create a warehouse pick document from scratch. Picks are part of a wor
 > Warehouse pick lines are created for the value in the **Remaining Quantity** field on the lines of the assembly order that's linked to the sales order line being shipped. All components are picked in one action. Learn more at [Handling Assemble-to-Order Items in Warehouse Shipments](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).  
 >  
 > To learn more about picking components for assembly orders, including situations where assembly items aren't related to a sales shipment, go to [Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
+
+## Check whether items are available for picking
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
 ## To create pick documents in bulk with the pick worksheet
 

@@ -2,7 +2,7 @@
 title: Business Functionality Supported by Business Central
 description: Provides a feature overview of all the business functions and departments supported by application areas, such as finance, inventory, and project management.
 author: brentholtorf
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

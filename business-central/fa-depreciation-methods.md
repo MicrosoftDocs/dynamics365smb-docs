@@ -7,7 +7,7 @@ ms.reviewer: bnielse
 ms.topic: conceptual
 ms.search.keywords: write down, depreciate, depreciation
 ms.search.form: 5629, 5633
-ms.date: 08/08/2023
+ms.date: 09/22/2023
 ms.custom: bap-template
 
 ---
@@ -22,16 +22,13 @@ There are eight methods of depreciation available in [!INCLUDE [prod_short](incl
 * DB2/SL  
 * User-defined  
 
-  > [!NOTE]  
-  > Specify your own depreciation method by defining depreciation tables. To learn more about applying a user-defined depreciation method, go to [Set Up User-Defined Depreciation Method](fa-how-setup-user-defined-depreciation-method.md).
+  Define your own depreciation method by using depreciation tables. To learn more about applying a user-defined depreciation method, go to [Set Up User-Defined Depreciation Method](fa-how-setup-user-defined-depreciation-method.md).
 * Manual  
 
-  > [!NOTE]  
-  > Use the manual method for assets that aren't subject to depreciation, for example, land. You must enter depreciation in the fixed asset G/L journal. The **Calculate Depreciation** batch job omits fixed assets that use the manual depreciation method.  
+  Use the manual method for assets that aren't subject to depreciation, for example, land. You must enter depreciation in the fixed asset G/L journal. The **Calculate Depreciation** batch job omits fixed assets that use the manual depreciation method.  
 * Half-Year Convention  
 
-  > [!NOTE]  
-  > This method depreciates a fixed asset by the same amount each year.  
+  This method depreciates a fixed asset by the same amount each year.  
 
 ## Straight-Line depreciation
 
@@ -190,6 +187,11 @@ The **Calculate Depreciation** batch job calculates a straight-line amount and a
 You can use various percentages to calculate declining-balance.  
 
 If you use this method, you must enter the estimated useful lifetime and a declining balance percentage on the **FA Depreciation Books** page.  
+
+> [!NOTE]
+> If you use any of the declining balance depreciation methods, and you want to run depreciation for multiple years, you must run each year's depreciation separately. If you run depreciation for the whole period from acquisition date to the end of the last fiscal year or last accounting period, it's likely that the results will be incorrect. For example, you might want to run it for multiple years if you have imported legacy data and you use the actual acquisition dates for your assets and want to catch up on accumulated depreciation. For declining balance methods, [!INCLUDE [prod_short](includes/prod_short.md)] calculates the allowed depreciation per year, starting with the registered book value for each year. It can't do a multi-year depreciation in one step.
+>
+> The **Fixed asset - Projected Value** report can project depreciations for multi-year periods, which might be confusing compared to the results you get if you run depreciations for multiple years using one of the declining balance methods. 
 
 ### Example - DB1-SL depreciation
 

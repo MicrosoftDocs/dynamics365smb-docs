@@ -2,7 +2,7 @@
 title: Troubleshooting Microsoft Teams Integration
 description: Learn about what you can do as an administrator to control Microsoft Teams integration.
 author: jswymer
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -135,7 +135,7 @@ When you view your apps on the Office 365 home page (https://home.office.com) or
 
 As an administrator, who has Microsoft Entra admin permissions, you can hide the tile by doing the following steps:
 
-1. Sign in to the [Microsoft Entra admin center](https://Microsoft Entra ID.portal.azure.com/).
+1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/).
 2. Select **Enterprise apps**, then select **Business Central Teams Integration Service Connector**.
 3. Select **Properties**, then set the **Visible To Users** switch to **No**.
 4. Select **Save**.

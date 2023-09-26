@@ -54,7 +54,7 @@ The following table links to information about how to give apps and extensions a
 
 | Task | Learn more |
 |--|--|
-|The two main concepts for defining access to features are entitlements and permissions. Entitlements give broad access to objects according to licenses or Microsoft Entra ID roles. Permissions and permission sets let you fine-tune access to objects. |[Entitlements and Permission Sets Overview](/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview)|
+|The two main concepts for defining access to features are entitlements and permissions. Entitlements give broad access to objects according to licenses or Microsoft Entra roles. Permissions and permission sets let you fine-tune access to objects. |[Entitlements and Permission Sets Overview](/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview)|
 
 ## See Also
 

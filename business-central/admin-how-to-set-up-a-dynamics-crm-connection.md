@@ -20,7 +20,7 @@ There are a few pieces of information to have ready before you create the connec
 * The URL for the [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment that you want to connect to. If you use the **Dataverse Connection Setup** assisted setup guide to create the connection we'll find your environments. You can also enter the URL of another environment in your tenant.  
 * The user name and password of an account that has administrator permissions in [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 * If you have an on-premises [!INCLUDE[prod_short](includes/prod_short.md)] 2020 release wave 1, version 16.5, read the [Some Known Issues](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services) article. You'll have to complete the described workaround before you can create your connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
-* The local currency for the company in [!INCLUDE[prod_short](includes/prod_short.md)] must be the same as the base transaction currency in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. After you make a transaction in the base currency in [!INCLUDE[cds_long_md](includes/cds_long_md.md)], you can't change it. For more information, see [Transaction Currency (currency) entity](/powerapps/developer/data-platform/transaction-currency-currency-entity). All [!INCLUDE[prod_short](includes/prod_short.md)] companies you connect to a [!INCLUDE[cds_long_md](includes/cds_long_md.md)] organization must use the same currency.
+* The local currencies that each company uses. [!INCLUDE [prod_short](includes/prod_short.md)] companies can connect to a [!INCLUDE [cds_long_md](includes/cds_long_md.md)] environment that has a base currency that's different than their local currency. To learn more about how to handle multi-currency setups, go to [Allow for different currencies](#allow-for-different-currencies).
 
 > [!IMPORTANT]
 > Your [!INCLUDE[cds_long_md](includes/cds_long_md.md)] environment must not be in Administration mode. Administration mode will cause the connection to fail because the integration user account for the connection does not have administrator permissions. For more information, see [Administration mode](/power-platform/admin/admin-mode).
@@ -28,6 +28,29 @@ There are a few pieces of information to have ready before you create the connec
 > [!Note]
 > These steps describe the procedure for [!INCLUDE[prod_short](includes/prod_short.md)] online.
 > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises and are not using a Microsoft Entra account to connect to [!INCLUDE [cds_long_md](includes/cds_long_md.md)], you must also specify a user name and password of a user account for the integration. This account is referred to as the "integration user" account. If you're using a Microsoft Entra account, the integration user account is not required or displayed. The integration user will be set up automatically and does not require a license.
+
+## Allow for different currencies
+
+[!INCLUDE [prod_short](includes/prod_short.md)] companies can connect to a [!INCLUDE [cds_long_md](includes/cds_long_md.md)] environment that has a base currency that's different than their local currency.
+
+> [!NOTE]
+> Synchronizing multiple currencies requires that you're using a unidirectional synchronization, from [!INCLUDE [prod_short](includes/prod_short.md)] to [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
+
+To learn more about the base currency in [!INCLUDE [cds_long_md](includes/cds_long_md.md)], go to [Transaction Currency (currency) entity](/powerapps/developer/data-platform/transaction-currency-currency-entity). 
+
+To learn more about currencies in [!INCLUDE [prod_short](includes/prod_short.md)], go to [Currencies in Business Central](finance-currencies.md).
+
+To allow for different currencies, before you connect, be sure that you've specified the following settings:
+
+* The base transaction currency setting in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] has the currency code that's specified on the **Currencies** page in [!INCLUDE [prod_short](includes/prod_short.md)].
+* There's at least one exchange rate specified for the currency in [!INCLUDE [prod_short](includes/prod_short.md)] on the **Currency Exchange Rates** page.
+
+When you enable the connection to [!INCLUDE [cds_long_md](includes/cds_long_md.md)], [!INCLUDE [prod_short](includes/prod_short.md)] adds its local currency to the **Currency** entity in [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. The local currency uses the exchange rate from the **Currency Factor** field on the **Currency Exchange Rates** page.
+
+Because currency synchronization is unidirectional, from [!INCLUDE [prod_short](includes/prod_short.md)] to [!INCLUDE [cds_long_md](includes/cds_long_md.md)], monetary amounts convert and synchronize as follows:
+
+* If in the [!INCLUDE [cds_long_md](includes/cds_long_md.md)] base currency, amounts convert to the [!INCLUDE [prod_short](includes/prod_short.md)] local currency based on the latest exchange rate synchronized from [!INCLUDE [prod_short](includes/prod_short.md)].
+* If in the [!INCLUDE [prod_short](includes/prod_short.md)] local currency, amounts synchronize with the [!INCLUDE [prod_short](includes/prod_short.md)] local currency in one of the additional, non-base currencies in [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
 
 ## Set up a connection to [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 

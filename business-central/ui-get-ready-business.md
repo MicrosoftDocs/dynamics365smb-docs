@@ -40,8 +40,6 @@ When you have run an assisted setup guide, it is marked as **Completed**.
 
 ## Teaching tips and tours
 
-[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
-
 [!INCLUDE [prod_short](includes/prod_short.md)] includes in-product tours and teaching tips that can help you get started. In the current version, there are tours for the steps in the **Get started** list and some of the most commonly used pages in the demonstration company, such as the **Sales Invoice** card page.  
 
 Teaching tips are short messages that inform, remind, or teach you about important and new capabilities that launch automatically when you open a page. For example, to see the teaching tip for the **Sales Invoice** card, choose the link in the top left corner of the page where it says *Sales Invoice*. This launches a callout with a short description of the page and what you can do there. If a tour exists for the page, a link invites you to take the tour. The *Learn more* link takes you to the product Help for the page.

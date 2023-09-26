@@ -69,9 +69,9 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
 
       Learn more at [Microsoft Admin Center Help - Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-    - With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you assign licenses in your Azure tenant using the Azure portal.
+    - With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you assign licenses in your tenant using the Azure portal.
 
-      Learn more at [Azure Directory - Assign or remove licenses in the Azure portal](/azure/active-directory/fundamentals/license-users-groups).
+      Learn more at [Assign or remove licenses in the Azure portal](/azure/active-directory/fundamentals/license-users-groups).
 
 2. Install the Universal Print connector for registering printers that can't communicate with Universal Print directly.
 

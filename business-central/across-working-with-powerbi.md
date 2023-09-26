@@ -13,7 +13,7 @@ ms.author: jswymer
 ---
 # Work with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)]
 
-In this article, you learn some of the basics about viewing Power BI reports in [!INCLUDE [prod_short](includes/prod_short.md)].
+In this article, you learn some of the basics about viewing Power BI reports, including scorecards, in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## Overview
 

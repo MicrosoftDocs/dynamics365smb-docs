@@ -152,6 +152,26 @@ Building out the data analysis in pivot mode involves moving fields into the thr
 > [!TIP]
 > Columns that only have a few possible values are the best candidates for using in column **Values**.
 
+
+## Analyze large amounts of data
+
+If the dataset you want to analyze exceeds 100,000 rows, you're prompted with a suggestion to enter an analysis mode that's optimized for large datasets. There are currently two limitations to this optimized mode: 
+
+- Formatting fields of type currency, decimal, date, and timezone
+- Fields that are used in pivot mode and added to column labels must have a row number of distinct values.
+
+ 
+When switching to analysis mode on list pages, the formatting of fields of the following four data types might change
+
+Currency 
+Decimals (always shown with two decimals in analysis mode)
+Dates (always shown as YYYY-MM-DD in analysis mode)
+Timezones
+
+For example, a negative number such as -100 might be displayed as (100) in the normal view in the list page but will always be displayed as -100 in analysis mode. 
+
+In analysis mode on a list page, if you enable pivot mode and drag a field into Column labels, where the underlying data for that field has too many distinct values, then the browser tab might become unresponsive and will eventually close, requiring you to start over in a new session. In that case, either do not pivot on that field, or set a filter on the field prior to adding it to the Column labels area.
+
 ## Share data analysis
 
 After you’ve prepared an analysis on a tab, you can share it as a link with coworkers and others in your organization directly from the client. Only recipients that have permission to the company and the data can use the link.
@@ -178,9 +198,8 @@ The public preview of this feature has the following limitations:
 
 - The analysis mode view has a limit of 100,000 rows. If you exceed this limit, you'll get a message telling you so. To work around this limitation, the set filters on the page before you switch to analysis mode, if it's possible. For example, maybe you want to analyze a certain group of customers or only want data from the current year. You can also choose a predefined view if it would work for your analysis.
 - The share data analysis feature isn't available.
-- Persistence of users choice of data analysis choice on list pages as well as the persistance of analysis menus per analysis tab is not available.
-- 
-- 
+- The ability to save preferred data analysis choices on list pages and save analysis menus per analysis tab are currently not available.
+
 ## See also
 
 [Ad-hoc Data Analysis](reports-adhoc-analysis.md)  

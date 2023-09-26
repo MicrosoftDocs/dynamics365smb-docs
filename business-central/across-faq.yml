@@ -105,7 +105,7 @@ sections:
           
           If you sign up with a non-Microsoft 365 work account (such as joe@mysolution.com), and you have a Microsoft 365 subscription, then you can associate your domain (*mysolution.com*) with the Microsoft 365 subscription. Learn more at [What is a domain?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) in the Microsoft 365 content.  
           
-          If you don't have a Microsoft 365 subscription, and you don't want to buy one, then we provision a new Azure Active Directory tenant for you when you sign up so that you have access to the advanced administration tools in the Azure portal.  
+          If you don't have a Microsoft 365 subscription, and you don't want to buy one, then we provision a new Microsoft Entra tenant for you when you sign up so that you have access to the advanced administration tools in the Azure portal.  
           
       - question: |
           What is the integration with Microsoft 365 about?

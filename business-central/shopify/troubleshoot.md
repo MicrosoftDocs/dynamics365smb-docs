@@ -20,31 +20,41 @@ You might run into situations where you need to troubleshoot issues when synchro
 2. Select the shop for which you want to troubleshoot to open the **Shopify Shop Card** page.
 3. Turn off the **Allow Background Syncs** toggle.
 
-Now, when the sync action is triggered the task will run in the foreground. If an error occurs, you'll get an error dialog with a **Copy details** link. Use the link to copy information to a text editor for the further analysis.
+Now, when the sync action is triggered the task runs in the foreground. If an error occurs, you get an error dialog with a **Copy details** link. Use the link to copy information to a text editor for further analysis.
 
 ## Logs
 
-If a synchronization task fails, you can turn on the **Log Enabled** toggle on the **Shopify Shop Card** page to activate logging. Then you can manually trigger the synchronization task and review logs.
+The logging features can make it easier to identify why an error occurred. On the **Shopify Shop Card** page, in the **Logging Mode** field, you can specify the level of detail you want to capture about errors. The field provides the following options:
 
-### To enable logging
+- **Disabled** - Don't log information about errors.
+- **Error Only** - Log only the error message, without the request/response pairs. This setting is the default for new shops.
+- **All** - Log the request/response pairs for all transactions, including those that were successful.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
-2. Select the shop for which you want to troubleshoot to open the **Shopify Shop Card** page.
-3. Turn on the **Log Enabled** toggle.
+> [!NOTE]
+> Logging errors continuously can slow down [!INCLUDE [prod_short](../includes/prod_short.md)]. To avoid that, you can turn on logging after you find an error in your synchronization. You can manually trigger the synchronization again, and then review the log to find out what went wrong.
+
+### Manage log entry data
+
+To help keep the size of your database under control, log entries are included in a data retention policy named **Shpfy Log Entry**. Retention policies let you specify how long you want to store different types of data. By default, Shopify log entries are kept for one month. To learn more about retention policies, go to [Define Retention Policies](../admin-data-retention-policies.md).
+
+Also, on the **Shopify Log Entries** page, you can delete all log entries, or just the entries that are older than seven days.
 
 ### To review logs
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Log Entries**, and choose the related link.
 2. Select the related log entry, and then open the **Shopify Log Entry** page.
-3. Review the request, status code and description, and response values. You can download the request and response values as files in a text format.
+3. Review the request, status code and description, and response values.
 
-Later, remember to turn off logging to avoid negative effect on performance and increase in database size.
+> [!TIP]
+> If you must contact Shopify support for help with troubleshooting, note the information in the **Request ID** field. That information can help support resolve the issue more quickly.
 
-From the **Shopify Log Entries** page, you can trigger the deletion of all log entries, or entries that are older than seven days.
+You can download the request and response values as files in a text format.
+
+To avoid effects on performance and the size of your database, consider whether to turn off logging.
 
 ## Data capture
 
-Regardless of whether **Log Activated** is turned on, some Shopify responses are always logged. You can inspect or download the logs from the **Data Capture List** page.
+Regardless of whether logging is turned on, some Shopify responses are always logged. You can inspect or download the logs from the **Data Capture List** page.
 
 Choose the **Retrieved Shopify Data** action on one of the following pages:
 
@@ -76,11 +86,11 @@ If [!INCLUDE[prod_short](../includes/prod_short.md)] won't connect to your Shopi
 3. Choose the **Request Access** action.
 4. If prompted, sign in to your Shopify account.
 
-The **Has AccessKey** toggle will be activated.
+The **Has AccessKey** toggle is turned on.
 
 ## Verify and enable permissions to make HTTP requests in a non-production environment
 
-To work correctly, the Shopify Connector extension requires permission to make HTTP requests. When testing in a sandbox, HTTP requests are prohibited for all extensions.
+To work correctly, the Shopify Connector extension requires permission to make HTTP requests. HTTP requests are prohibited for all extensions when you run tests in sandbox environments.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Extension Management**, and then choose the related link.
 2. Select the **Shopify Connector** extension.
@@ -140,9 +150,13 @@ On the **Shopify Shop Card** page, turn on the **Allow Data Sync to Shopify** to
 
 It seems you use the [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), where the client URL has the format: `https://[application name].bc.dynamics.com`. The Shopify connector doesn't work for Embed Apps. To learn more, go to [Which Microsoft products are the Shopify connector available for?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
 
-### Error: Internal Error. Looks like Something Went Wrong on Our End. Request Id: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
+### Error: Internal Error. Looks like Something Went Wrong on Our End. Request ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
 
-Please contact Shopify support within 7 days of experiencing this error, and provide the Request ID. To learn more, go to [Support options for Shopify](shopify-faq.md#shopify).
+Contact Shopify support within seven days of experiencing this error, and provide the Request ID. To learn more, go to [Support options for Shopify](shopify-faq.md#shopify).
+
+### Error: Oauth error invalid_request: Your account does not have permission to grant the requested access for this app. 
+
+It seems that user which requests access doesn’t have rights to manage apps (ability to manage and install apps and channels, as well as potentially approve app charges). You may be able to resolve this issue by installing the app as the account owner. Alternatively you can check the **App permission** for the user in the [**User and permissions**](https://www.shopify.com/admin/settings/account) settings in your **Shopify admin**.  
 
 ## See also
 

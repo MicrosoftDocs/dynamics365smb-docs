@@ -1795,7 +1795,7 @@
 ### [Search and filter FAQ](ui-search-filter-faq.yml)
 ### [Analyze page data in Excel](across-work-with-excel.md)
 ### [Analyze report data with Excel](report-analyze-excel.md)
-### [Analyze list data with analysis mode](analysis-mode.md)
+### [Analyze list and query data with analysis mode](analysis-mode.md)
 ### [Financial business intelligence](bi.md)
 
 ## Built-in analytics 

@@ -1,12 +1,12 @@
 ---
 title: Sharing Data
 description: Learn how you can share Business Central data through OneDrive for Business. 
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords:
 ms.date: 06/11/2021
-ms.author: bholtorf
+ms.author: jswymer
 
 ---
 # Sharing Data with Business Central

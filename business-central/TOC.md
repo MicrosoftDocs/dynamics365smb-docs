@@ -585,6 +585,7 @@
 #### [Manage interactions for segments](marketing-interaction-segments.md)
 ### Manage interactions
 #### [Interactions](marketing-interactions-overview.md)
+#### [Attachments for Interactions](marketing-interaction-attachments.md)
 #### [Record interactions with contacts](marketing-interactions.md)
 #### [Create interactions on contacts and segments](marketing-how-create-interactions.md)
 #### [Automatically record interactions with contacts](marketing-auto-record-interactions.md)
@@ -1545,6 +1546,7 @@
 #### [Set up shipment methods](sales-how-set-up-shipment-methods.md)
 #### [Set up shipping agents](sales-how-to-set-up-shipping-agents.md)
 #### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
+#### [Update document dates with posting dates](across-link-doc-dates-to-posting-dates.md)
 ### Set up purchase
 #### [Set up purchase](purchasing-setup-purchasing.md)
 #### [Register new vendors](purchasing-how-register-new-vendors.md)
@@ -1554,6 +1556,7 @@
 #### [Set up prices and discounts](across-prices-and-discounts.md)
 #### [Record special purchase prices and discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
+#### [Update document dates with posting dates](across-link-doc-dates-to-posting-dates.md)
 ### Set up inventory
 #### [Set up inventory](inventory-setup-inventory.md)
 #### [Set up general inventory information](inventory-how-setup-general.md)

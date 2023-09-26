@@ -56,7 +56,7 @@ If your business has a warehouse in Northern Ireland, goods moved to that locati
 
 1. **I’m using [!INCLUDE[prod_short](../../includes/prod_short.md)] online – where is my data stored?**
 
-    The data for UK customers using [!INCLUDE[prod_short](../../includes/prod_short.md)] online is stored in data centers in the UK. If you create another [!INCLUDE[prod_short](../../includes/prod_short.md)] environment in the same Azure AD tenant, and choose another country/region for this environment, the data will be stored in data centers that serve that specific country/region. In most cases, those data centers are outside the UK, which helps ensure optimal data residency and performance.
+    The data for UK customers using [!INCLUDE[prod_short](../../includes/prod_short.md)] online is stored in data centers in the UK. If you create another [!INCLUDE[prod_short](../../includes/prod_short.md)] environment in the same Microsoft Entra tenant, and choose another country/region for this environment, the data will be stored in data centers that serve that specific country/region. In most cases, those data centers are outside the UK, which helps ensure optimal data residency and performance.
 
 2. **Does [!INCLUDE[prod_short](../../includes/prod_short.md)] support legislation in the United Kingdom?**
 

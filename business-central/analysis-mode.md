@@ -12,7 +12,7 @@ ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 
 ---
 # Analyze list page and query data using data analysis mode
 
-> **APPLIES TO:** Business Central 2022 release wave 2 and later for analyzing list pages; Business Central 2023 release wave 1 for analyzing queries.
+> **APPLIES TO:** Public preview in Business Central 2023 release wave 1 and later for analyzing list pages; Generally available in Business Central 2023 release wave 2 for analyzing data from list pages and queries.
 
 In this article, you learn how to analyze data from list pages and queries using the *data analysis mode*. The data analysis mode enables you to analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Examples could be "My customers", "Follow up items", "Recently added vendors", "Sales statistics", or any other view you can imagine.
 
@@ -152,15 +152,34 @@ Building out the data analysis in pivot mode involves moving fields into the thr
 > [!TIP]
 > Columns that only have a few possible values are the best candidates for using in column **Values**.
 
+
+## Analyze large amounts of data
+
+If the dataset you want to analyze exceeds 100,000 rows, you're suggested to enter an analysis mode that's optimized for large datasets. There are currently two limitations if you switch to this mode: 
+
+- Formatting of fields of the following four data types might change: 
+
+   - currency 
+   - decimals (always shown with two decimals) 
+   - dates (always shown in the format YYYY-MM-DD)
+   - timezones
+- Fields that are used in pivot mode and added to column labels must have a low number of distinct values.
+
+   If you enable pivot mode and drag a field into **Column labels** area, where the underlying data for that field has too many distinct values, then the browser tab might become unresponsive and will eventually close, requiring you to start over in a new session. In this case, either don't pivot on that field or set a filter on the field prior to adding it to the **Column labels** area.
+
 ## Share data analysis
 
 After you’ve prepared an analysis on a tab, you can share it as a link with coworkers and others in your organization directly from the client. Only recipients that have permission to the company and the data can use the link.
 
 1. On the analysis tab, select the down arrowhead, and then select **Copy link**.
 
+   ![Shows the action for copying an analysis](media/copy-analysis.svg)
+
    The **Link to \<tab name\>** dialog opens.
 
 1. By default, the analysis you share will link to the page or query in the company you're currently working in, which is indicated by `company=<company_name>` in the URL field next to the **Copy** button. If you want to send a link to an analysis that's not associated with a specific company, set the **Company:** field to **Do not link to a specific company**.
+
+   ![Shows the copy link dialog for an analysis tab](media/analysis-link-copied.svg)
 
 1. Select **Copy**.
 
@@ -168,9 +187,13 @@ After you’ve prepared an analysis on a tab, you can share it as a link with co
 
 2. Once received, recipients can then select the link and open the analysis for the page or query in Business Central. They're prompted to specify a name for the new analysis tab that will be created.  
 
-## Limitations
+## Limitations in 2023 release wave 1 (preview)
 
-The analysis view currently has a limit of 100,000 rows. If you exceed this limit, you'll get a message telling you so. To work around this limitation, the set filters on the page before you switch to data analysis mode, if it's possible.  Maybe you want to analyze a certain group of customers or maybe you want data from the current year only. You can also choose a predefined view if it would work for your analysis.
+The public preview of this feature has the following limitations:
+
+- The analysis mode view has a limit of 100,000 rows. If you exceed this limit, you'll get a message telling you so. To work around this limitation, the set filters on the page before you switch to analysis mode, if it's possible. For example, maybe you want to analyze a certain group of customers or only want data from the current year. You can also choose a predefined view if it would work for your analysis.
+- The share data analysis feature isn't available.
+- The ability to save preferred data analysis choices on list pages and save analysis menus per analysis tab are currently not available.
 
 ## See also
 

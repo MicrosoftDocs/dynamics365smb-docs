@@ -155,22 +155,17 @@ Building out the data analysis in pivot mode involves moving fields into the thr
 
 ## Analyze large amounts of data
 
-If the dataset you want to analyze exceeds 100,000 rows, you're prompted with a suggestion to enter an analysis mode that's optimized for large datasets. There are currently two limitations to this optimized mode: 
+If the dataset you want to analyze exceeds 100,000 rows, you're suggested to enter an analysis mode that's optimized for large datasets. There are currently two limitations if you switch to this mode: 
 
-- Formatting fields of type currency, decimal, date, and timezone
-- Fields that are used in pivot mode and added to column labels must have a row number of distinct values.
+- Formatting of fields of the following four data types might change: 
 
- 
-When switching to analysis mode on list pages, the formatting of fields of the following four data types might change
+   - currency 
+   - decimals (always shown with two decimals) 
+   - dates (always shown in the format YYYY-MM-DD)
+   - timezones
+- Fields that are used in pivot mode and added to column labels must have a low number of distinct values.
 
-Currency 
-Decimals (always shown with two decimals in analysis mode)
-Dates (always shown as YYYY-MM-DD in analysis mode)
-Timezones
-
-For example, a negative number such as -100 might be displayed as (100) in the normal view in the list page but will always be displayed as -100 in analysis mode. 
-
-In analysis mode on a list page, if you enable pivot mode and drag a field into Column labels, where the underlying data for that field has too many distinct values, then the browser tab might become unresponsive and will eventually close, requiring you to start over in a new session. In that case, either do not pivot on that field, or set a filter on the field prior to adding it to the Column labels area.
+   If you enable pivot mode and drag a field into **Column labels** area, where the underlying data for that field has too many distinct values, then the browser tab might become unresponsive and will eventually close, requiring you to start over in a new session. In this case, either don't pivot on that field or set a filter on the field prior to adding it to the **Column labels** area.
 
 ## Share data analysis
 

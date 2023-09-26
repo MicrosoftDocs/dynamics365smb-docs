@@ -164,6 +164,8 @@ After you’ve prepared an analysis on a tab, you can share it as a link with co
 
 1. By default, the analysis you share will link to the page or query in the company you're currently working in, which is indicated by `company=<company_name>` in the URL field next to the **Copy** button. If you want to send a link to an analysis that's not associated with a specific company, set the **Company:** field to **Do not link to a specific company**.
 
+   ![Shows the copy link dialog for an analysis tab](media/analysis-link-copied.svg)
+
 1. Select **Copy**.
 
 1. Paste the link in to the communication media of your choice, like Word, Outlook, Teams, OneNote, and so one. 

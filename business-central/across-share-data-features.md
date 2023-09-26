@@ -20,6 +20,19 @@ With all these features, access to data is protected by the license and permissi
 
 From any page, you can copy the page's URL, then paste and distribute it in other forms of media like emails, Teams chats, or text messages. The easiest way to copy a link is by selecting **Share** > **Copy Link** from the top of the page. Another way is to copy the URL directly from the browser's address box.
 
+When you paste the URL into a rich text editor, like Word, Outlook, or Teams, instead of displaying the full URL, the link is given a more readable name that clearly indicates context of the target. The name and pattern used varies depending on what page you're linking to. Consider the following examples:
+
+|Pattern|Page example|Link name|
+|-|-|-|
+|List pages|**Items** list page | **Items**|
+|List view|	**Open** filtered view on **Sales Orders** list|**Sales Orders - Open**|
+| Single record|Item card showing single record|"Item Card - 1896 ∙ ATHENS Desk"|
+|Draft records|	New customer card|**New - Customer card**|
+|Company that uses badge|**Items** list page for company with badge **CRONUS**| **Items (CRONUS)**|
+
+> [!TIP]
+> A similar naming convention is used on browser tabs.
+
 ### Modify the page link
 
 After you copy a link, before you send it, you can modify the URL to manipulate what shows when the page opens. You can, for example, add filters or specify a different company.

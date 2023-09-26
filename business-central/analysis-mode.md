@@ -160,7 +160,7 @@ After you’ve prepared an analysis on a tab, you can share it as a link with co
 
    The **Link to \<tab name\>** dialog opens.
 
-1. By default, the analysis you share will link to the page or query in the company you're currently working in, which is indicated by `company=>company_name>` in the URL field next to the **Copy** button. If you want to send a link to an analysis that's not associated with a specific company, set the **Company:** to **Do not link to a specific company**.
+1. By default, the analysis you share will link to the page or query in the company you're currently working in, which is indicated by `company=<company_name>` in the URL field next to the **Copy** button. If you want to send a link to an analysis that's not associated with a specific company, set the **Company:** field to **Do not link to a specific company**.
 
 1. Select **Copy**.
 

@@ -135,4 +135,3 @@ You can also manage available Power Automate workflows on the **Workflows** page
 [Switch on Instant Flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
-a

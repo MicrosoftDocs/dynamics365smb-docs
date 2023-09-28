@@ -3,14 +3,14 @@ title: Integrating with Dynamics 365 Sales
 description: Learn how to get Dynamics 365 Business Central ready to integrate with Dynamics 365 Sales.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 06/14/2021
+ms.date: 09/28/2023
 ms.author: bholtorf
+ms.custom: bap-template
 ---
 # Integrating with Dynamics 365 Sales
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 The sales person role is often considered as one the most outward-facing jobs in a business. However, it can be helpful for sales people to be able to look inward in the business and see what is happening on the back end. By integrating [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[crm_md](includes/crm_md.md)], you can give your sales people that insight. The integration will let people view information in [!INCLUDE[prod_short](includes/prod_short.md)] while they're working in [!INCLUDE[crm_md](includes/crm_md.md)]. For example, when preparing a sales quote it could be useful to know whether you have enough inventory to fulfill the order. For more information, see [Use Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md).
 

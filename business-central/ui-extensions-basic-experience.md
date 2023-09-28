@@ -3,16 +3,17 @@ title: Basic Experience Extension | Microsoft Docs
 description: This extension is a modernized alternative to Microsoft Dynamics C5.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: C5, financials, extension
 ms.search.form: 20600, 
-ms.date: 04/01/2021
+ms.date: 09/28/2023
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 
 # The Basic Experience Extension
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 If you have been using Microsoft Dynamics C5, Microsoft partners can help you transition to a more modern solution that is based on [!INCLUDE[prod_short](includes/prod_short.md)], so you can continue to enjoy the same streamlined capabilities as Dynamics C5.
 

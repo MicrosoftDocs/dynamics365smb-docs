@@ -5,10 +5,12 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, company hub
 ms.search.form: 1151, 1155, 1166, 1165
-ms.date: 04/01/2021
+ms.date: 09/28/2023
 ms.author: bholtorf
 ---
 # Add Companies to Your Company Hub
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 With the company hub, you can access your work from across multiple companies from multiple [!INCLUDE [prod_short](includes/prod_short.md)] environments. You can add a environments and companies manually, if your companies do not show up automatically in the company hub.  
 

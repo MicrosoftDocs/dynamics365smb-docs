@@ -82,7 +82,7 @@ The item is planned according to planning parameters on the SKU card (including 
 
 The item is planned according to planning parameters on the item card.
 
-#### Case 1.3: Demand is at *NORTH* location
+#### Case 1.3: Demand is at *MAIN* location
 
 The item is planned according to: Reordering Policy = *Lot-for-Lot* (*Order* remains *Order*), Include Inventory = *Yes*, all other planning parameters = Empty.
 

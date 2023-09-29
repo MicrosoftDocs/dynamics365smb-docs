@@ -34,7 +34,7 @@ Learn about how your [!INCLUDE [prod_short](includes/prod_short.md)] online gets
 [Business Central Quick Starts](quick-start-business-central.md)  
 [What's new and changed](/dynamics365/business-central/dev-itpro/whatsnew/overview)  
 [Dynamics 365 Business Central Capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
-[Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/)  
+[Dynamics 365 Business Central Release Planner](https://releaseplans.microsoft.com/?app=Business+Central&group=dynamics-365&subgroup=dynamics-365-business-central)
 [Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
 [Business Central pricing](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Dynamics 365 Business Central community forum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  

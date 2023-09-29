@@ -44,8 +44,6 @@ If you change your mind about an item category, you can delete it. However, if i
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## See also
 
 [Work with Item Attributes](inventory-how-work-item-attributes.md)  

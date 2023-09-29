@@ -6,12 +6,14 @@ ms.author: mikebc
 ms.reviewer: jswymer 
 ms.service: dynamics365-business-central 
 ms.topic: how-to
-ms.date: 11/03/2022
+ms.date: 09/28/2023
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.search.form: 9061
+ms.search.form: 9061,
 ---
 # Set Up Business Central Access in Teams with Microsoft 365 Licenses
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Administrators must complete multiple activities before users can access [!INCLUDE [prod_short](includes/prod_short.md)] with their Microsoft 365 license. The steps below represent the minimum setup required to get started. To learn more about access with Microsoft 365 licenses, go to [Business Central Access with Microsoft 365 Licenses](admin-access-with-m365-license.md).
 
@@ -19,7 +21,7 @@ Administrators must complete multiple activities before users can access [!INCLU
 
 Setting up access with Microsoft 365 licenses involves the following tasks:
 
-||Task|Required|
+|Step|Task|Required|
 |-|-|-|
 |1|[Configure which Business Central data the Microsoft 365 licensed users have permission to view](#configure-permissions)|![check mark](media/check.png "check")|
 |2|[Enable access with Microsoft 365 licenses on the Business Central environment](#enable-access-with-microsoft-365-licenses)|![check mark](media/check.png "check")|
@@ -50,7 +52,7 @@ To configure starting permissions:
 With this configuration, users with only a Microsoft 365 license are added to the **Users** list when they access [!INCLUDE [prod_short](includes/prod_short.md)] for the first time. For more information about users, go to [Creating Users According to Licenses](ui-how-users-permissions.md).
 
 > [!NOTE]
-> When synchronizing the users list in [!INCLUDE [prod_short](includes/prod_short.md)] with users in Microsoft 365, only users that have a [!INCLUDE [prod_short](includes/prod_short.md)] license are added to [!INCLUDE [prod_short](includes/prod_short.md)]'s users list. For more administrative control over permissions and profiles, you can assign a security group to the environment. When environments are secured using a security group and enable access with Microsoft 365 licenses, the **Update users from Microsoft 365** action in the **Users** page will also include users that only have a Microsoft 365 license. To learn about securing environments, see [Manage access using Azure Active Directory groups](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) in the developer and IT pro help.
+> When synchronizing the users list in [!INCLUDE [prod_short](includes/prod_short.md)] with users in Microsoft 365, only users that have a [!INCLUDE [prod_short](includes/prod_short.md)] license are added to [!INCLUDE [prod_short](includes/prod_short.md)]'s users list. For more administrative control over permissions and profiles, you can assign a security group to the environment. When environments are secured using a security group and enable access with Microsoft 365 licenses, the **Update users from Microsoft 365** action in the **Users** page will also include users that only have a Microsoft 365 license. To learn about securing environments, see [Manage access using Microsoft Entra groups](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) in the developer and IT pro help.
 
 > [!TIP]
 > Looking for a quicker way to get started when trying out this feature on a sandbox or evaluation company? Assign the **D365 Read** permission set, which grants permission to most objects.  
@@ -71,7 +73,9 @@ Access with Microsoft 365 licenses is off by default. Access must be enabled for
 
 ## Choose who gets access by using security group
 
-In the Business Center admin center, an environment can be assigned to one or more security groups to control access. You can assign an Azure Active Directory (Azure AD) group to the environment. By assigning an Azure AD group to an environment, only direct and indirect members of the group are granted access to the environment. Indirect members are users in another group, which itself is a member of the group assigned to the environment. Although all licensed users in Azure AD will be added to the environment when it's synchronized with Microsoft 365, only group members can sign in. To learn more, go to [Manage access using Azure Active Directory groups](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) in the developer and IT pro help.
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
+
+In the Business Center admin center, an environment can be assigned to one or more security groups to control access. You can assign a Microsoft Entra group to the environment. By assigning a Microsoft Entra group to an environment, only direct and indirect members of the group are granted access to the environment. Indirect members are users in another group, which itself is a member of the group assigned to the environment. Although all licensed users in Microsoft Entra ID will be added to the environment when it's synchronized with Microsoft 365, only group members can sign in. To learn more, go to [Manage access using Microsoft Entra groups](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) in the developer and IT pro help.
 
 ## Deploy the Business Central app for Teams
 

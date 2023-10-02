@@ -91,6 +91,6 @@ The following diagram shows the different elements of the calculation.
 
 [Warehouse Management Overview](design-details-warehouse-management.md)
 [View the Availability of Items](inventory-how-availability-overview.md)
-
+[Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

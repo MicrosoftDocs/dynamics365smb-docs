@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse 
 ms.topic: how-to
-ms.date: 01/31/2023
+ms.date: 09/27/2023
 ms.custom: bap-template
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621
@@ -53,10 +53,79 @@ All partners must use the same intercompany chart of accounts and, if needed, th
 
 On the **Intercompany Setup** page, each partner specifies the synchronization partner in the **Synchronization Partner** field. Afterward, the intercompany chart of accounts and intercompany dimensions are automatically specified for them, based on the setup for the synchronization partner. The partners then use the **Intercompany Chart of Accounts Mapping** and **Intercompany Dimension Mapping** pages to map their chart of accounts and dimensions to the intercompany chart of accounts and dimensions, and vice versa. 
 
-When you're ready to synchronize data with your synchronization partner, choose the **Synchronization Setup** action.
-
 > [!NOTE]
 > It's important to map accounts and dimensions in both directions. That is, both to the intercompany chart of accounts and dimensions, and from them to your own accounts and dimensions.
+
+### Connect with partners in another tenant or environment
+
+If one or more partners' [!INCLUDE [prod_short](includes/prod_short.md)] is in another tenant or environment, there are a few extra steps to create the connection. The steps apply to all partners in another tenant or environment.
+
+* Set up [!INCLUDE [prod_short](includes/prod_short.md)] as a registered app in Azure portal.
+* Add and enable the app registration in [!INCLUDE [prod_short](includes/prod_short.md)].
+* Exchange information about their intercompany setups. Each partner can get this information from the **IC Partner Cross-Environment Setup** assisted setup guide.
+
+   |Copy from the partner's setup  |Copy to your setup  |
+   |---------|---------|
+   |Current Connection URL     |IC Partner's Connection URL         |
+   |Current Company ID     |IC Partner's Company ID         |
+   |Intercompany ID     |IC Partner's Intercompany ID         |
+   |Company Name     |IC Partner's Company Name         |
+
+* Exchange the following authentication settings so that [!INCLUDE [prod_short](includes/prod_short.md)] can authenticate when it connects. Each partner can get this information from their registered app. To learn more about how to create a registered app, go to [Create a registered app in Azure portal](#create-a-registered-app-in-azure-portal).  
+
+  * Client ID
+  * Client secret
+  * Token endpoint
+  * Redirect URL
+
+Run the **IC Partner Cross-Environment Setup** assisted setup guide in all companies to specify the information. To start the guide, on the **Intercompany Partner** page, use the **Connect Externally Setup** action.
+
+#### Create a registered app in Azure portal
+
+This process is only necessary if you want to connect with a partners whose [!INCLUDE [prod_short](includes/prod_short.md)] is in a different tenant or environment.
+
+> [!TIP]
+> It's a good idea to have a text editor open, such as Notepad, while you create your registered app. You'll need some of the information when you run the **IC Partner Cross-Environment Setup** assisted setup guide, so it's nice to have the information handy.
+
+1. Go to [Azure portal](https://portal.azure.com/#home).
+2. Choose the **Microsoft Entra ID** service.
+3. In the navigation pane, choose **App registrations**.
+4. On the **App registrations** page, choose **new registration**.
+5. Give the application a name.
+6. Choose the **Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant)** account type.
+7. For the redirect URI, in the **Select a platform** field, choose **Web**, and then provide the URI. For example, \**https://businesscentral.dynamics.com/OAuthLanding.htm**.
+
+  If you're working with an embed ISV, you might need a different URI.
+
+8. Register the app.
+9. On the **Intercompany App** page, on the navigation pane, choose **API permissions**.
+10. Choose the **Add a permission** action.
+11. On the **Microsoft APIs** tab, choose **Dynamics 365 Business Central**.
+12. On the **Request API Permissions** pane, choose **Application permissions**, and then choose the **API.ReadWrite.All** permission.
+13. On the **Intercompany App | API permissions** page, choose the **Grant admin consent for Contoso** action, and then grant consent.
+14. On the navigation pane, choose **Certificates & secrets**.
+15. Choose the **Client secrets** tab, and then choose **New client secret**.
+16. On the **Add a client secret** pane, enter a name for the secret, and specify when it will expire.
+
+  > [!NOTE]
+  > All partners who are in different environments must renew the secret before it expires.
+
+  > [!IMPORTANT]
+  > Copy the ID in the **Value** field before you leave the **Intercompany App | Certificates & secrets** page. You'll need it in a later step, and it won't be available after you leave the page. For example, paste the value in a text editor.
+
+17. On the navigation pane, choose **Overview**.
+18. Copy the value in the **Application (client) ID** field. For example, paste the value in a text editor.
+19. Choose the **Endpoints** action, and then copy the value in the **OAuth 2.0 token endpoint (v2)** field. For example, paste the value in a text editor.
+20. Copy the value in the **Directory (tenant) ID** field. For example, paste the value in a text editor.
+21. In the token value you copied, replace **organizations** with the value you copied from the **Directory (tenant) ID** field in the previous step.
+
+#### Add and enable your registered app in Business Central
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Microsoft Entra Application Card**, and then choose the related link.  
+2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+3. In the **State** field, choose **Enabled**. 
+4. Choose the **Grant Consent** action. 
+5. In the **Permission Set** field, choose **API - Cross Environment Intercompany** permission set.
 
 ## Set up the intercompany charts of accounts
 

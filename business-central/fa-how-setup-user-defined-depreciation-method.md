@@ -29,7 +29,7 @@ The formula for calculating the depreciation amounts is:
 2. Select the fixed asset that you want to set up a fixed asset depreciation book for.
 3. Choose the **Related** action, and then choose **Fixed Asset**, and then **Depreciation Books**. This opens the **FA Depreciation Books** page.
 
-   By default, some of the fields that need to be filled in per the instructions below are hidden, so you must display them. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+   By default, some of the fields that need to be filled in per the instructions below are hidden, so you must display them. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 4. In the field **Depreciation Method**, select **User-Defined**.
 5. In the field **Depreciation Table Code**, select the **Depreciation Table** you want to use.
 6. In the field **Depreciation Starting Date**, select the starting date for the depreciation calculation.

@@ -32,7 +32,7 @@ You can add new vendors manually, by filling out the **Vendor Card** page, or yo
 After you create a template, you can use the **Apply Template** action to apply it to one or more selected vendors. To create a template, fill in the information you want to reuse on the **Vendor Card** page, then save it as a template. Learn more in the [To save the Vendor Card Page as a template](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template) section.
 
 > [!TIP]
-> It can be helpful to personalize the **Vendor Template** page when you create a template. For example if want to add a field that is not already displayed on the page. Learn more in the [Personalize your workspace](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner) section.
+> It can be helpful to personalize the **Vendor Template** page when you create a template. For example if want to add a field that is not already displayed on the page. Learn more in the [Personalize your workspace](/dynamics365/business-central/ui-personalization-user#start-personalizing-by-using-the-personalization-mode) section.
 
 You can also create a vendor from a contact. Learn more in the [Creating a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact) section.
 

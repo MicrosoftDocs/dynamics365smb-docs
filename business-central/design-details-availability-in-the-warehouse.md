@@ -73,6 +73,10 @@ The result is displayed in the **Total Available Quantity** field on the **Reser
 
 On a reservation line, the quantity that can't be reserved because it's allocated in the warehouse is displayed in the **Qty. Allocated in Warehouse** field on the **Reservation** page.  
 
+## Check whether items are available for picking
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
+
 ### Calculating the quantity available to reserve
 
 [!INCLUDE [prod_short](includes/prod_short.md)] calculates the quantity available to reserve as follows:  

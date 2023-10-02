@@ -12,7 +12,9 @@ ms.author: bholtorf
 ---
 # Design details: Inbound warehouse flow
 
-The inbound flow in a warehouse begins when items arrive in the warehouse of the company location, either received from external sources or from another company location. In principle, the process of receiving inbound orders consists of two activities:
+The inbound flow in a warehouse begins when items arrive in the warehouse of the company location, either received from external sources or from another company location. You can receive physical and non-inventory items. To learn more about receiving non-inventory items, go to [Post non-inventory items](#post-non-inventory-items).
+
+In principle, the process of receiving inbound orders consists of two activities:
 
 * Receive items at the dock, identify them, match them to a source document, and record the received quantity.
 * Put away items in stock, and record the place you put them.
@@ -141,6 +143,9 @@ The following table describes a sequence of tasks, with links to the articles th
 |Put away items on an order-by-order basis and post the receipt in one activity in basic warehouse configurations.|[Put Items Away with Inventory Put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
 |Put away items received from multiple purchases, sales returns, transfers orders in an advanced warehouse configuration.|[Put Items Away with Warehouse Put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
 
+## Post non-inventory items
+
+[!INCLUDE [post-non-inventory-items](includes/post-non-inventory-items.md)]
 
 ## See also
 

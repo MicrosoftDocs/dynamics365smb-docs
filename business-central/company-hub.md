@@ -5,11 +5,14 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 1151, 1154, 1165, 1166
-ms.date: 04/01/2021
+ms.date: 09/28/2023
 ms.author: bholtorf
+ms.custom: bap-template
 ---
 
 # Manage Work across Multiple Companies in the Company Hub
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Some people work in multiple companies in [!INCLUDE [prod_short](includes/prod_short.md)], and some also work in more than one organization, such as external accountants, or employees and managers of corporations with multiple subsidiaries. For these users, and many others, the company hub serves as a landing page that gives a financial overview across companies and environments. It provides users with a tool for managing work across the various environments that they work in, across companies, environments, and regions.  
 

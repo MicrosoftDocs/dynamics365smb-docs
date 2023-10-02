@@ -11,6 +11,8 @@ ms.reviewer: jswymer
 ---
 # Create Users According to Licenses
 
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
+
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
 This article describes how administrators create users and define who can sign in to [!INCLUDE[prod_short](includes/prod_short.md)]. You'll also learn how to assign permissions to different users according to your product licenses.

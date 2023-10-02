@@ -21,7 +21,7 @@ To use the Human Resources functionality, you must first add each employee by fi
 You can add new employees manually, by filling out the fields on the **Employee Card** page, or you can use templates that contain predefined information. For example, you can create a templates for different types of employee profiles. Using templates saves time when adding new employees, and helps ensure that the information is correct each time. If you create templates for more than one type of employee, you can choose the template to use when you add an employee. If you create only one template it will be used for all new employees. After you create a template, you can use the **Apply Template** action to apply it to one or more selected employees. To create a template, you fill in the information that you want to reuse on the Employee Card page, and then save it as a template.
 
 > [!TIP]
-> It can be helpful to personalize the **Employee Template** page when you create a template. For example, you might want to add a field that is not already displayed on the page. For more information, see [Personalize Your Workspace](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+> It can be helpful to personalize the **Employee Template** page when you create a template. For example, you might want to add a field that is not already displayed on the page. For more information, see [Personalize Your Workspace](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 You can modify an employee's details at any time. Keeping employee records up-to-date can simplify personnel-related tasks. For example, if an employee's address changes, you register this on the Employee Card page.
 

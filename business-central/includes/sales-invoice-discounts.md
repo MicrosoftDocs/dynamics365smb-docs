@@ -9,7 +9,7 @@ After you've added all the items on lines you can calculate the invoice discount
 The discount is calculated based on all lines on the sales document where the **Allow Invoice Disc.** checkbox is chosen. By default, invoice discounts are allowed. However, lines with item charges, for example, are not included in the calculation of the invoice discount. To apply a discount to such lines, enter a value in the **Line Discount Amount** field on the lines.  
 
 > [!NOTE]
-> By default, the **Allow Invoice Disc.** and **Line Discount Amount** fields are hidden on lines. If the fields aren't available, you can add them by personalizing the page. For more information, see [Personalize Your Workspace](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+> By default, the **Allow Invoice Disc.** and **Line Discount Amount** fields are hidden on lines. If the fields aren't available, you can add them by personalizing the page. For more information, see [Personalize Your Workspace](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 > [!TIP]
 > If the **Calc. Inv. Discount** field is selected in the **Sales and Receivables Setup** page, the invoice discount is calculated automatically. When the calculation happens differs, depending on the type of sales document you're using.

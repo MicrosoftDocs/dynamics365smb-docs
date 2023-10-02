@@ -89,7 +89,7 @@ To make item 1928-S available at the SOUTH location follow these steps:
         |Positive Adjmt.|1928-S|SOUTH|S-01-0001|20|  
         |Positive Adjmt.|1928-S|SOUTH|S-01-0002|20|  
 
-        By default, the **Bin Code** field on the sales lines are hidden, so you must display it. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+        By default, the **Bin Code** field on the sales lines are hidden, so you must display it. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
   3. Choose **Actions**, then **Posting**, and then choose **Post**.  
   4. Select the **Yes** button.  

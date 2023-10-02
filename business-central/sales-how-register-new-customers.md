@@ -32,7 +32,7 @@ If you create:
 After you create a template, you can use the **Apply Template** action to apply it to one or more selected customers. To create a template, fill in the information to be reused on the **Customer Card** page, then save it as a template. Learn more in the [To save the customer card as a template](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template) section.
 
 > [!TIP]
-> It can be helpful to personalize the **Customer Template** page when you create a template. For example, you might want to add the **Credit Limit** field to a template. Learn more in the [Personalize your workspace](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner) section.
+> It can be helpful to personalize the **Customer Template** page when you create a template. For example, you might want to add the **Credit Limit** field to a template. Learn more in the [Personalize your workspace](/dynamics365/business-central/ui-personalization-user#start-personalizing-by-using-the-personalization-mode) section.
 
 You can also create a customer from a contact. Learn more in the [To create a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact) section.  
 

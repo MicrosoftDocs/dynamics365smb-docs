@@ -55,9 +55,6 @@ The following table lists the pages that support barcode scanning of item refere
 |Page  |Field value you can scan  |
 |---------|---------|
 |Item Reference     | Reference No.        |
-|Lot No. Information     | Lot No.        |
-|Package No. Information     | Package No.        |
-|Serial No. Information     | Serial No.        |
 |Item Journal Line     | Item Reference No.        |
 |Phys. Invt. Order Line     |Item Reference No.         |
 |Purchase Line     |   Item Reference No.      |

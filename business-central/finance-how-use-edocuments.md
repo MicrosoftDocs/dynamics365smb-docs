@@ -1,5 +1,5 @@
 ---
-title: Using E-Documents in Sales and Purchase
+title: Use E-Documents in Sales and Purchase
 description: Learn how to use E-Documents functionality related with sales and purchase invoices.
 author: altotovi
 ms.topic: conceptual
@@ -12,62 +12,69 @@ ms.date: 10/03/2023
 ms.author: altotovi
 ---
 
-# Using E-Documents in Sales and Purchase  
+# Use E-Documents in Sales and Purchase  
 
-Once electronic documents are properly configured, they can be used with both sales and purchase documents.  
+You can use configured electronic documents with sales and purchase documents.  
 
-Currently you can use the following documents for electronic documents: Sales Invoice, Sales Order, Sales Credit Memo, Purchase Invoice, Purchase Order, Purchase Credit Memo, General Journals.  
+Currentl,y you can use the following documents for electronic documents: 
 
- > [!NOTE]
- > **Purcahse Order** currently can be used only when you create the document from the electronic document from vendor, but this is not possible to update the existing document with the lines you got from your vendor.  
+ - Sales Invoice
+ - Sales Order
+ - Sales Credit Memo
+ - Purchase Invoice
+ - Purchase Order
+ - Purchase Credit Memo
+ - General Journals  
+
+Currently, a Purcahse Order can only be used when you create the document from the electronic document from vendor, but it isn't possible to update the existing document with lines you got from your vendor.  
 
 ## E-Documents in Sales   
 
-To create and send e-invoice to the customer, you need to create the sales invoice and post it (more details about standard process is here [Invoice Sales](sales-how-invoice-sales.md)). 
+To create and send an e-invoice to the customer, you need to create and post the sales invoice. To learn more about the standard process, see [Invoice Sales](sales-how-invoice-sales.md). 
 
-After postimg sales document, open the **Posted Sales Invoice** page to get access to the related **E-Document** page.
+After you post the sales document, open the **Posted Sales Invoice** page to access the related **E-Document** page.
 
-### Creating E-document in Sales
+### View E-document in Sales
 
-To see created e-document follow next steps:  
+To view existing e-documents, follow these steps. 
 
-1. Run the **E-Document** action from the **Posted Sales Invoice** and choose the **Open E-Document** option.   
-2. This will open up the **E-Document** page where you can see basic information about posted invoice in the header (posting and documen date, total amounts, customer information, document type...).  
-3. The field **Record** showes exactly document number of the **Posted Sales Invoice** and you can click on this link to open this document.
-4. You can also find the real-time status of document and where this document is in the process pipeline looking at the **Electronic Document Status** field; if this document is posted, status should be **Processed**.
+1. On the **Posted Sales Invoice** page, select **E-Document** > **Open E-Document**.   
+2. On the **E-Document** page you can see basic information about the posted invoice in the header. 
+3. The **Record** field shows the document number of the **Posted Sales Invoice**. Select the link to open the document.
+4. You can also find the real-time status of document and where the document is in the process pipeline in the **Electronic Document Status** field. If the document is posted, the status is **Processed**.
 
 ### E-document Statuses and Logs in Sales
 
-If you want to see more details about service status level of your e-document, you can look at the **E-Document Service Status** FastTab. In the lines, system will show one or more services this document used. The most common scenario is that one document uses one service, but it is also possible to have more of them.   
+For details about the service status level of your e-document, check the **E-Document Service Status** FastTab. In the lines, the system shows one or more services the document used. The most common scenario is that one document uses only one service, but it's possible to have more.   
 
-To see details about service status:  
-1. Look at the **E-Document Service Code** field to see which service was used and to the **E-Document Status** field to see current service status for this document. 
-2. If you want to go further to details, you need to click on the **Logs** field for this service to see chronological overview of different statuses changing for this document in the **E-Document Logs** page. 
-3. At this page you can see **Entry No.** as well as **Created At** and some other invormetion for each of logs. When you look at the **E-Document Status** to check details, you will see that first status is **Exported** to show that e-document file has been created and after that **Sent** to show that document is sent to the service provider if configured. 
+- Check the **E-Document Service Code** field to determine which service was used.
+- Check the **E-Document Status** field to see the current service status for this document.
+- If you want more details, select the **Logs** field for this service on the **E-Document Logs** page for a chronological overview of the different statuses for this document.
+- Check the **Entry No.** and **Created At** fields as well as other information on the **E-Document Logs** page. In the **E-Document Status** field, the first status is **Exported** to show that the e-document file has been created. The next status is **Sent** to show that document is sent to the service provider if configured. 
 
-When you are positioned on the entry with the **Exported** status, you can run one of the following actions to get more insights:  
+For more insights, select the entry with the **Exported** status and run one of the following actions:  
 
-- **Open Mapping Logs** - for the overview of all exported fields from the sourced tables in the **Original Value**, but also the final value in the **New Value** field as you maybe used some transformation rules in the export process.  
-- **Export File** - for exporting the xml file for manually review.   
+- **Open Mapping Logs** - Get an overview of all exported fields from the sourced tables in the **Original Value**. You can also get the final value in the **New Value** field if you used transformation rules in the export process.  
+- **Export File** - Export the xml file for manual review.   
 
-But if you want to look at the communication betwwen you and the service you sending to your document, you can do it using the **Communitaion Logs** field. Openning the **E-Document Communication Logs** you can see details about the request and resons message with that service.  
+To look at the communication betwwen you and the service you are sending your document to, use the **Communitaion Logs** field. Open the **E-Document Communication Logs** to view details about the request and reasons message with that service.  
 
-If there is an issues with the service provider and document cannot be sent, you need to look again to the **E-Document** page and find the following messages:  
+If there is an issue with the service provider and the document can't be sent, look for the following messgaes on the **E-Document** page. 
 
-1. The **Electronic Document Status** field on the header will show the **Error** status.  
-2. The **E-Document Status** on the **E-Document Service Status** FastTab will show the **Sending Error** status. 
-3. If you look at the **Error and Warnings** FastTab, you will find one or more messages to show the root of this problem.
-4. Once the problem has been resolved, you can manually run the **Send Document** actions.
-5. If you need different actions from here you can eventually choose different actions here, as **Recreated Document**, **Cancel Document**, or **Get Approval**.  
+- The **Electronic Document Status** field on the header shows the **Error** status.  
+- The **E-Document Status** on the **E-Document Service Status** FastTab shows the **Sending Error** status. 
+- The **Error and Warnings** FastTab contains one or more messages that provide the root of thw problem.
+
+After the problem is resolved, manually run the **Send Document** actions. If you need different actions, you can select different actions including **Recreated Document**, **Cancel Document**, or **Get Approval**.  
 
 ## E-Documents in Purchase  
 
-Receiving of purchase electronic invoices to Business Central can be done manually or as a batch job configuring the **Job Queue**.  
+Receipt of **Purchase** electronic invoices to Dynamics 365 Business Central can be done manually or as a batch job.  
 
-### Running the Batch Job 
+### Run the Batch Job 
 
  > [!NOTE]
- > This batching job for automated collection of your incoming invoices can work only if in your country this functionality exists. 
+ > This batch job is for automated collection of your incoming invoices and can work only in your country where the functionality exists. 
 
 Everytime **Job Queue** run and if there were incoming invoices in the external service sent from your vendor, system will collect them and import to the system. To complete the process follow next steps:  
 

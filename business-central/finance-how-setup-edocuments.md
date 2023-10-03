@@ -15,97 +15,94 @@ ms.author: altotovi
 # Set up E-Documents   
 
  > [!IMPORTANT]
- > It is important to understand that E-Documents Core module is a framework. That means, there is no **Document Format** and **Service Integration** by default. These details are part of localization apps as both are specific to local requirements.  
+ > The E-Documents core module is a framework. By default, there is no **Document Format** or **Service Integration**. These details are part of localization apps as they are both are specific to local requirements.  
 
  > [!NOTE]
- > From version 23.1 it is planned to add standard PEPPOL document format as a global format in the **Document Format** option.   
+ > Starting in version 23.1, a standard PEPPOL document format is added as a global format in the **Document Format** option.   
 
-The first step in configuring E-Documents is setting up the **E-Documents Service**, where you need to configure the complete behavior of your system related to electronic document communication.   
+The first step to configure E-Documents is to set up the **E-Documents Service** where you configure the complete behavior of your system related to electronic document communication.   
 
 ## E-Document Service Setup  
 
-To set up the **E-Document Service**: 
+Complete the following steps to set up the **E-Document Service**.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then choose the related link.  
-2. Click **New** and the **E-Document Service** page will open.  
-3. On the **General** FastTab, configure the fields described in the following table: 
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.  
+2. Select **New**, and on the **E-Document Service** page, on the **General** FastTab, configure the fields as described in the following table.
 
-    |Field  |Description  |Comment |  
-    |---------|---------|--------|
-    |Code |Specifies the code of the electronic export setup. | |   
-    |Description |Specifies the description of the electronic export setup. | |  
-    |Document Format |Specifies the export format of the electronic export setup. |There is no option in this field in W1 by default. | 
-    |Service Integration |Specifies integration code for the electronic export setup. |In W1 there is only **No integration** option. |
-    |Use Batch Processing |Specifies if service uses batch processing for export. | |  
+   | Field   | Description  | 
+   |---------|--------------|
+   | Code    | Select the electronic export setup code. |   
+   | Description | Enter a brief description of the electronic export setup. |  
+   | Document Format | The export format of the electronic export setup. <br> By default, there's no option in this field in Wave 1. | 
+   | Service Integration | Select the integration code for the electronic export setup. In W1 the only option is **No integration**. |
+   | Use Batch Processing | Specify if service uses batch processing for export. |  
 
-4. On the **Imported Parameters** FastTab, configure the fields described in the following table: 
+4. On the **Imported Parameters** FastTab, configure the fields described in the following table.
 
-    |Field  |Description  | 
-    |---------|---------|
-    |Validate Receiving Company |Specifies if receiving company information must be validated during the import. | 
-    |Resolve Unit Of Measure |Specifies if unit of measure shall be resolved during the import. |  
-    |Lookup Item Reference |Specifies if an item shall be searched by the item reference during the import. | 
-    |Lookup Item GTIN |Specifies if an item shall be searched by GTIN during the import. |  
-    |Lookup Account Mapping |Specifies if an account shall be searched in Account Mapping by the incoming text during the import. | 
-    |Validate Line Discount |Specifies if a line discount shall be validated during the import. |  
-    |Apply Invoice Discount |Specifies if an invoice discount shall be applied during the import. | 
-    |Verify Totals |Specifies if an invoice total shall be verified during the import. |  
-    |Update Order |Specifies if the corresponding purchase order must be updated. |   
-    |Create Journal Lines |Specifies if journal line must be created instead of purchase document. Only in a case you want to use Journals as destionation for your invoices. |  
-    |General Journal Template Name |Specifies the General Journal Template Name used for journal line creation. Only in a case you want to use Journals as destionation for your invoices. | 
-    |General Journal Batch Name |Specifies the General Journal Batch Name used for journal line creation. Only in a case you want to use Journals as destionation for your invoices. | 
-    |Auto Import |Specifies whether to automatically import documents from the service. | 
-    |Batch Start Time |Specifies import jobs starting time. |    
-    |Minutes between runs |Specifies the number of minutes between running import job. |  
+    | Field  | Description  | 
+    |--------|--------------|
+    | Validate Receiving Company | Specify if the receiving company information must be validated during import. | 
+    | Resolve Unit Of Measure | Specify if the unit of measure should be resolved during import. |  
+    | Lookup Item Reference | Specify if an item should be searched by the item reference during import. | 
+    | Lookup Item GTIN | Specify if an item should be searched by GTIN during import. |  
+    | Lookup Account Mapping | Specify if an account should be searched in **Account Mapping** by the incoming text during import. | 
+    | Validate Line Discount | Specify if a line discount should be validated during import. |  
+    | Apply Invoice Discount | Specify if an invoice discount should be applied during import. | 
+    | Verify Totals | Specify if an invoice total should be verified during import. |  
+    | Update Order | Specify if the corresponding purchase order must be updated. |   
+    | Create Journal Lines | Specify if a journal line must be created instead of a purchase document. Select this option when you want to use Journals as a destination for your invoices. |  
+    | General Journal Template Name | Specify the General Journal Template Name used for journal line creation. This field is applicable when you want to use Journals as destination for your invoices. | 
+    | General Journal Batch Name | Specify the General Journal Batch Name used for journal line creation. This field is applicable when you want to use Journals as destination for your invoices. | 
+    | Auto Import | Specify whether to automatically import documents from the service. | 
+    | Batch Start Time | Specify the start time for import jobs. |    
+    | Minutes between runs | Specify the number of minutes between running import jobs. |  
 
-If you have configured **Data Exchange Definition** format in your localization, you can add as many lines as document types you need, but first choosing the **Document Type** option for each line you need. Further,	for each of **Data Type** you should select the **Import Data Exchange Def. Code** or the **Export Data Exchange Def. Code** you want to use.  
+If you have configured the **Data Exchange Definition** format in your localization, you can add as many lines as document types you need. However you must first choose the **Document Type** option for each line you need. For each of **Data Type**, select the **Import Data Exchange Def. Code** or the **Export Data Exchange Def. Code** you want to use.  
 
-Eventually, if you don’t use **Data Exchange Definition**, you can configure formats through the **Export Mapping** and **Import Mapping** lines, where you can locate tables and fields they want to use, and configure **Transformation Rules** if applicable.
+Eventually, if you don’t use **Data Exchange Definition**, you can configure formats through the **Export Mapping** and **Import Mapping** lines, where you can locate tables and fields to use, and configure **Transformation Rules** if applicable.
 
 ## Document Sending Profile Setup  
 
-You can set each customer up with a preferred method of sending sales documents, so that you do not have to select a sending option every time you choose the **Post and Send** action. On the **Document Sending Profiles** page, you can set up different sending profiles that you can select from in the **Document Sending Profile** field on a customer card. You can select the **Default** check box to specify that the document sending profile is the default profile for all customers, except for customers where the **Document Sending Profile** field is filled with another sending profile.  
+You can a preferred method of sending sales documents for each customer, so that you don't have to select a sending option every time you choose the **Post and Send** action. On the **Document Sending Profiles** page, you can set up different sending profiles that you can select from in the **Document Sending Profile** field on a customer card. You can select the **Default** check box to specify that the document sending profile is the default profile for all customers, except for customers where the **Document Sending Profile** field has a different sending profile.  
 
-This functionality is used for setting up electronic invoicing automation. When you choose the **Post and Send** action on a sales document, the **Post and Send Confirmation** dialog box shows the sending profile used, either the one set up for the customer or the default for all customers. 
+This functionality is used to set up electronic invoicing automation. When you select **Post and Send** on a sales document, the **Post and Send Confirmation** dialog box shows the sending profile used, either the one set up for the customer or the default for all customers. 
 
-To set up a **Document Sending Profile**:   
+Complete the following steps to set up a **Document Sending Profile**.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Sending Profile**, and then choose the related link.  
-2. On the **Document Sending Profiles** page, choose the **New** action.   
-3. Fill in the fields on the **General** FastTab as necessary. 
-4. On the **Sending Options** FastTab, set up **Electronic Document** and **Electronic Document Service Flow Code** fields described in the following table:  
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Document Sending Profile**, and then select the related link.  
+2. On the **Document Sending Profiles** page, select **New**.   
+3. On the **General** FastTab, enter any required field information. 
+4. On the **Sending Options** FastTab, select a value in the set up **Electronic Document**, **Format**, and **Electronic Document Service Flow Code** fields as described in the following table.  
 
-    |Field  |Description  | 
+    | Field  | Description  | 
     |---------|---------|
-    |Electronic Document |Specifies if the document is sent as an electronic document that the customer can import into their system when you choose the **Post and Send** button. To use this option, you must also fill in the **Format** or **Electronic Document Service Flow Code** field. Alternatively, the file can be saved to disk. |
-    |Format |Specifies which format to use for electronic document sending. You must fill this field if you select the **Through Document Exchange** option in the **Electronic Document** field. |   
-    |Electronic Document Service Flow Code |Specifies **Electronic Service Flow** that is used for sending documents. You must fill this field if you select the **Extended E-Document Service Flow** option in the Electronic Document field. |  
+    | Electronic Document | Specify if the document is sent as an electronic document that the customer can import into their system when you select **Post and Send**. To use this option, you must also fill in the **Format** or **Electronic Document Service Flow Code** fields. Alternatively, the file can be saved to disk. |
+    | Format | Specify the format to use to send an electronic document. This field is required if you select **Through Document Exchange** in the **Electronic Document** field. |   
+    | Electronic Document Service Flow Code | Specify the **Electronic Service Flow** that is used to send documents. This field is required if you select **Extended E-Document Service Flow** in the **Electronic Document** field. |  
 
  > [!NOTE]
- > If you use **Extended E-Document Service Flow** option in the **Electronic Document** field, you must have previously configured Workflow for you electronic documents. 
+ > If you select **Extended E-Document Service Flow** in the **Electronic Document** field, you must already have the Workflow configured for you electronic documents. 
 
 ## Workflow Setup
 
 To set up the workflow for using in electrnic documents functionality: 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflow Templates**, and then choose the related link.  
-2. If you cannot find **E-Document Workflow Templates** on the **Workflow Templates** page click the **Reset Microsoft Templates** action, and new **E-Document Workflow Templates** will appear.
-3. Close the page.
-4. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.  
-5. Run the **New Workflow from Template** action to choose one template for E-document process (**Send to one service** or **Send to multiple services**).
-6. Click **OK** to finish the workflow set up.
-7. Click on **Send E-Document using setup** in the **Then Response** field to configure **Workflow Responses**.  
-8. Choose previously created **E-Document Service** as an option. Click **OK** and enable the workflow.
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflow Templates**, and then select the related link.  
+2. If you can't find **E-Document Workflow Templates** on the **Workflow Templates** page, select **Reset Microsoft Templates**, and a new **E-Document Workflow Templates** appears. Close the page.
+3. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then select the related link.  
+4. Run the **New Workflow from Template** action to select a template for the E-document process. The available templates are **Send to one service** or **Send to multiple services**.
+5. Select **OK** to finish the workflow set up.
+6. In the **Then Response** field, select **Send E-Document using setup** to configure the **Workflow Responses**.  
+7. Select the **E-Document Service** you created as an option and then select **OK** and enable the workflow.
 
  > [!NOTE]
  > You can create your own **Workflow** for E-Documents without using predefined **Workflow Templates**. If you have more services you can use different workflows.
 
 ## Retention Policy for E-Documents
 
-Electronic documents can be a subject of different local legislations related with the peirod for keeping them. Because of that we add **Retention Policy** setup for all important information related with electronic documents. Administrators can define retention policies to specify how frequently they want Business Central to delete outdated records related with electronic documents. More inforation about **Retention Policy** here: [Define Retention Policies
-](admin-data-retention-policies.md).
+Electronic documents can be a subject of different local legislations related to the period in which they are kept. Because of that, we added a **Retention Policy** setup for all important information related to electronic documents. Administrators can define retention policies that specify how frequently they want Dynamics 365 Business Central to delete outdated records that are related to electronic documents. To learn more about the Retention Policy, see [Define Retention Policies](admin-data-retention-policies.md).
 
-To set up electronic documents related retention policies you need to run the **Retention Policy** action on the **E-Document Services** page. Once you run this action, you can choose one of the following retention policies to set up: 
+To set up electronic documents related retention policies, select **Retention Policy** on the **E-Document Services** page to run the action. After the action is complete, select one of the following retention policies to set up: 
 - E-Document Log
 - E-Document Integration Log
 - E-Document Mapping Log

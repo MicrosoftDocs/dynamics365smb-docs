@@ -111,8 +111,7 @@ You manage the process of exporting items using these settings:
 |Cost per item|**Unit Cost**|**Unit Cost**. The unit cost is only imported to newly created items, and it won't be updated in later synchronizations.|
 |SKU|Learn about SKUs under **SKU Mapping** in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify) section.|Learn about SKUs in the [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central) section.|
 |Barcode|**Item References** of the barcode type.|**Item References** of the barcode type.|
-|Inventory will be stocked at| Depends on Shopify Shop Locations. If **Business Central Fulfilment Services** has **Default** field enabled, then inventory will be stocked and shipped from **Business Central Fulfilment Services** otherwise Shopify primary location or multiple locations will be used.
-| Not used.|
+|Inventory will be stocked at| Depends on Shopify Shop Locations. If **Business Central Fulfilment Services** has **Default** field enabled, then inventory will be stocked and shipped from **Business Central Fulfilment Services** otherwise Shopify primary location or multiple locations will be used.| Not used.|
 |Track quantity|According to the **Inventory Tracked** field on the **Shopify Shop Card** page. Learn more in the [Inventory](synchronize-items.md#sync-inventory-to-shopify) section. Only used when you export a product for the first time.|Not used.|
 |Continue selling when out of stock|According to the **Default Inventory Policy** in the **Shopify Shop Card**.|Not used.|
 |Type|**Description** of **Item Category Code**. If the type isn't specified in Shopify, it is added as a custom type.|**Item Category Code**. Mapping by description.|

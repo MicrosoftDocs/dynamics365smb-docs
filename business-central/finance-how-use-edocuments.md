@@ -69,50 +69,52 @@ After the problem is resolved, manually run the **Send Document** actions. If yo
 
 ## E-Documents in Purchase  
 
-Receipt of **Purchase** electronic invoices to Dynamics 365 Business Central can be done manually or as a batch job.  
+The receipt of **Purchase** electronic invoices to Dynamics 365 Business Central can be done manually or as a batch job.  
 
 ### Run the Batch Job 
 
  > [!NOTE]
  > This batch job is for automated collection of your incoming invoices and can work only in your country where the functionality exists. 
 
-Everytime **Job Queue** run and if there were incoming invoices in the external service sent from your vendor, system will collect them and import to the system. To complete the process follow next steps:  
+Every time a **Job Queue** is run, If there are incoming invoices in the external service sent from your vendor, each time a job queue is run, the system collects and imports the invoices. To complete the process follow these steps.  
 
-1. After batch job has been finished, you will find new imported invoices in the **E-Documents** page with the basic details in the list.
-2. To see more details you need to open the specific **E-Document**.
-3. If there were no errors and other issues in the electronic document and its mapping, the field **Record** showes exactly document number of the **Purchase Invoice** system automatically created and you can click on this link to open this document. This created document is not posted document.
-4. If you want to go directly to this purchase document, you just need to click on the **Record** field. Once you open the **Purchase Invoice** you can check the document and if everything is correct, you can post the document.
-5. When you post the purchase document, the **Record** field in the **E-Document** will update the value from **Invoice** to the **Purchase Invoice** and number will now show the number of posted purchase document. If you click on this link now, it will lead you to the **Posted Purchase Invoice**.  
+1. After batch job has been finished, the newly imported invoices are listed on the **E-Documents** page with the basic detail information.
+2. To see more details, open a specific **E-Document**.
+3. If there were no errors or issues in the electronic document and its mapping, the **Record** field shows the document number of the **Purchase Invoice** system automatically created. Select the link to open the document. This created document isn't the posted document.
+4. To go directly to this Purchase document, select the **Record** field. After you open the **Purchase Invoice** page, check the document and then if everything is correct, post the document.
+5. When you post the Purchase document, the **Record** field on the **E-Document** is updated from **Invoice** to **Purchase Invoice** and the number of the posted purchase document is available. You can select the number to open the **Posted Purchase Invoice**.  
 
-Details about logs are the same as they exists in the sales process of e-documents.   
+Details about logs are the same as they exist in the sales process of e-documents.   
 
-As errors in the sales process are mostly related with the availability of the service, in the incoming document there can be more reasons. The most common reason is that system cannot recognize the lines from the electronic document you got from the vendor and it was not possible to populate lines in your **Purchase Invoice**.  
+Because errors in the sales process are mostly related to the availability of the service, the incoming document can contain multiple reasons. The most common reason for an error is that system can't recognize the lines on the electronic document you got from the vendor and it wasn't possible to populate lines in your **Purchase Invoice**.  
 
-There are two the most common errors:  
+There are two common errors:  
 
-- If you want to use this specific line from your vendor invoce directly posted to the G/L Account, you must have properly configured **Mapping Text**. To bypass this error if you want to use **G/L Accounts**, you need to run the **Map Text to Account** action to create specific mapping of the specific **Mapping Text** with the **Debit Acc. No.** you want to use.  
-- If you want to track the inventory and to use lines from your vendor invoice to fill in items in your document lines, you must have properly configured **Item Reference No.**. To bypass this error, you need to map external item with your item numbers using the **Item Reference List** (more details here: [Use Item References](inventory-how-use-item-cross-refs.md)).
+- If you want to use this specific line from your vendor invoce directly posted to the G/L Account, you must have properly configured the **Mapping Text**. To bypass this error if you want to use **G/L Accounts**, select **Map Text to Account** to create a specific mapping of the **Mapping Text** with the **Debit Acc. No.** you want to use.  
+- If you want to track the inventory and use lines from your vendor invoice to fill in items in your document lines, you must have properly configured **Item Reference No.**. To bypass this error, map the external item with your item numbers using the **Item Reference List**. To learn more, see [Use Item References](inventory-how-use-item-cross-refs.md).
 
-After resolving errors and warnings you can process manually, running the **Create Document** actions, when system will create purchase invoice based on your set up.
+After you resolve the errors and warnings, you can manually process when the system will create purchase invoice based on your set up by selecting **Create Document**.
 
-### Manually Invoices Import 
+### Manually Import Invoices 
 
-To import the external electroni document you have got to the system manually, you need to follow these steps: 
+To manually import external electronic documents, follow these steps.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Service**, and then choose the related link.
-2. Open the **E-Document Service** page and choose the service you have as an active. 
-3. Run the **Receive** action and upload e-document file you got from the vendor.   
-4. If the error message appears you can open the **E-Document** to resolve issues, using the same instructions we provided in the previous topic.
-5. If there were errors, after you resolved all error messages, run the **Import Manually** action group and run the **Create Document** action.
-6. Aftre creation of the document in Business Central, you can proceed to this document the same way as we previously explained when you used a batch job.  
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Service**, and then select the related link.
+2. On the **E-Document Service** page, select the active service. 
+3. Select **Receive** and upload the e-document file you got from the vendor.   
+4. If an error message occurs, open the **E-Document** to resolve issues.
+5. After you resolve the error messages, in the **Import Manually** group, select **Create Document**.
+6. After the document is created in Business Central, you can view this document the same way as if you used a batch job.  
 
 ## Overview of E-Document Statuses 
 
-To have better overview of all e-documents in the company, you can choose **Accountant** role center where e-document statuses exist. You can find **E-Document Activities** with the following statuses there:  
+To have better overview of all e-documents in the company, you can select the **Accountant** role center where e-document statuses exist. You can find **E-Document Activities** with the following statuses there.
+
 - Outgoing E-Documents:
    - Processees
    - In Progress
    - Error
+     
 - Incoming E-Dcouments:
    - Processees
    - In Progress

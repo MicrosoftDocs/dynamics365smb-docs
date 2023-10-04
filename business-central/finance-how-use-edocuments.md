@@ -112,13 +112,13 @@ To get a better overview of all e-documents in the company, you can select the *
 
 - **Outgoing e-documents:**
 
-    - Processees
+    - Processed
     - In Progress
     - Error
 
 - **Incoming e-documents:**
 
-    - Processees
+    - Processed
     - In Progress
     - Error
 

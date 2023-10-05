@@ -56,19 +56,6 @@ You can use an assisted setup guide to quickly set up the connection and specify
 | **Dynamics 365 SDK Version** | This is relevant only if you're integrating with an on-premises version of [!INCLUDE[crm_md](includes/crm_md.md)]. This SDK is the Dynamics 365 software development kit (also referred to as Xrm) you use to connect [!INCLUDE[prod_short](includes/prod_short.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. The version must be compatible with the SDK version that is used by [!INCLUDE[crm_md](includes/crm_md.md)], and equal to or newer than the version used by [!INCLUDE[crm_md](includes/crm_md.md)]. |
 |**Bidirectional Synch of Sales Orders**|Synchronize sales orders in both directions. To learn more about this option, go go [Single and bi-directional synchronization of sales orders](#single-and-bi-directional-synchronization-of-sales-orders).<br><br>**Note:** You can't use this option if you use the **Enable Legacy Sales Order Integration** option. The two settings are mutually exclusive.|
 
-### Single and bi-directional synchronization of sales orders
-
-The **Bidirectional Synch of Sales Orders** lets you synchronize sales orders from Sales to [!INCLUDE [prod_short](includes/prod_short.md)]. and vice versa. For example, if a customer changes their mind about the product or quantity they ordered in [!INCLUDE[crm_md](includes/crm_md.md)], you can archive the sales document and create a new one in [!INCLUDE[prod_short](includes/prod_short.md)]. The same is true for changes in [!INCLUDE[prod_short](includes/prod_short.md)]. For example, when prices, tax amounts, or expected shipment dates change the changes are automatically synchronized to [!INCLUDE[crm_md](includes/crm_md.md)]. Bidirectional synchronization helps keep your sellers up to date with the latest changes and the status of quotes and orders.
-
-For bidirectional synchronization, when you change the status of a sales order in Sales to **Submitted**, you can no longer change information on the lines. When you synchronize, the order is transferred to [!INCLUDE [prod_short](includes/prod_short.md)] with the status **Released**. If there's a mistake, you can revert the order to **Open** (in [!INCLUDE [prod_short](includes/prod_short.md)]) or **Active** (in Sales), and then add or delete lines to correct the mistake, and submit the order again.
-
-> [!TIP]
-> When you enable the **Bidirectional Synch of Sales Orders** option, [!INCLUDE [prod_short](includes/prod_short.md)] creates a record on the **Sales Order Archives** page when you post or change information on an order. For example, the archived versions can be useful for exploring an order's history.
-
-The **Enable Legacy Sales Order Integration** setting synchronizes only from Sales to [!INCLUDE [prod_short](includes/prod_short.md)]. For this option, when you use the **Submit** action in Sales you can no longer change information on the order. When you synchronize, the order is transferred to [!INCLUDE [prod_short](includes/prod_short.md)] with the status **Released**.
-
-For both options, [!INCLUDE [prod_short](includes/prod_short.md)] shows all sales orders with the **Submitted** status on the **Orders - Microsoft Dynamics 365 Sales** page.
-
 ### Connection settings on the Microsoft Dynamics 365 Connection Setup page
 
 Enter the following information for the connection from [!INCLUDE[crm_md](includes/crm_md.md)] to [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -87,10 +74,21 @@ In addition to the settings above, enter the following settings for [!INCLUDE[cr
 | **Automatically Create Sales Orders** | Create a sales order in [!INCLUDE[prod_short](includes/prod_short.md)] when a user creates and submits one in [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Automatically Process Sales Quotes** | Process a sales quote in [!INCLUDE[prod_short](includes/prod_short.md)] when a user creates and activates one in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Handling Sales Quotes Data](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
 |**Bidirectional Synch of Sales Orders**|Synchronize sales orders in both directions. To learn more about this option, go to [Single and bi-directional synchronization of sales orders](#single-and-bi-directional-synchronization-of-sales-orders).|
-
 <!--
 ### User Account Settings
 Integration with Business Central through Dataverse requires an administrator user account and an account that is used only for the connection between the apps. This account is called the "integration user." When you install the CDS Base Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].  -->
+### Single and bi-directional synchronization of sales orders
+
+The **Bidirectional Synch of Sales Orders** lets you synchronize sales orders from Sales to [!INCLUDE [prod_short](includes/prod_short.md)]. and vice versa. For example, if a customer changes their mind about the product or quantity they ordered in [!INCLUDE[crm_md](includes/crm_md.md)], you can archive the sales document and create a new one in [!INCLUDE[prod_short](includes/prod_short.md)]. The same is true for changes in [!INCLUDE[prod_short](includes/prod_short.md)]. For example, when prices, tax amounts, or expected shipment dates change the changes are automatically synchronized to [!INCLUDE[crm_md](includes/crm_md.md)]. Bidirectional synchronization helps keep your sellers up to date with the latest changes and the status of quotes and orders.
+
+For bidirectional synchronization, when you change the status of a sales order in Sales to **Submitted**, you can no longer change information on the lines. When you synchronize, the order is transferred to [!INCLUDE [prod_short](includes/prod_short.md)] with the status **Released**. If there's a mistake, you can revert the order to **Open** (in [!INCLUDE [prod_short](includes/prod_short.md)]) or **Active** (in Sales), and then add or delete lines to correct the mistake, and submit the order again.
+
+> [!TIP]
+> When you enable the **Bidirectional Synch of Sales Orders** option, [!INCLUDE [prod_short](includes/prod_short.md)] creates a record on the **Sales Order Archives** page when you post or change information on an order. For example, the archived versions can be useful for exploring an order's history.
+
+The **Enable Legacy Sales Order Integration** setting synchronizes only from Sales to [!INCLUDE [prod_short](includes/prod_short.md)]. For this option, when you use the **Submit** action in Sales you can no longer change information on the order. When you synchronize, the order is transferred to [!INCLUDE [prod_short](includes/prod_short.md)] with the status **Released**.
+
+For both options, [!INCLUDE [prod_short](includes/prod_short.md)] shows all sales orders with the **Submitted** status on the **Orders - Microsoft Dynamics 365 Sales** page.
 
 ### Standard Sales entity mapping for synchronization
 

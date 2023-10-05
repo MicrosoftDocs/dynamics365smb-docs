@@ -137,9 +137,7 @@ Here's some pointers on working with multiple analysis tabs:
 
 In analysis mode, date fields of the dataset are generated in a Year-Quarter-Month hierarchy of three separate fields. This hierarchy is based on the normal calendar, not any fiscal calendars defined in Business Central.
 
-The extra fields are named _\<field name\> Year_, _\<field name\> Quarter_, and _\<field name\> Month_
-
-For example, if the dataset includes a field called _Posting Date_, then the corresponding date hierarchy consists of fields called _Posting Date Year_, _Posting Date Quarter_, and _Posting Date Month_.
+The extra fields are named _\<field name\> Year_, _\<field name\> Quarter_, and _\<field name\> Month_. For example, if the dataset includes a field called _Posting Date_, then the corresponding date hierarchy consists of fields called _Posting Date Year_, _Posting Date Quarter_, and _Posting Date Month_.
 
 > [!NOTE]
 > The date hierarchy currently only applies to fields of type date, not for fields of type datetime.

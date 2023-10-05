@@ -115,7 +115,7 @@ To set up e-document-related retention policies, follow these steps.
 ## See also
 
 [How to use e-documents in Business Central](finance-how-use-edocuments.md)  
-[How to extend e-documents in Business Central](/dev-itpro/developer/devenv-extend-edocuments)  
+[How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
 [Financial Management](finance.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Record Purchases with Purchase Invoices and Orders](purchasing-how-record-purchases.md)  

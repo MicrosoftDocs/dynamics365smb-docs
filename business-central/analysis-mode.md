@@ -1,5 +1,5 @@
 ---
-title: Analyze data in list pages using data analysis mode
+title: Analyze data in list pages and queries using data analysis mode
 description: Learn how to use the data analysis mode in Business central to analyze data.
 author: jswymer 
 ms.author: jswymer

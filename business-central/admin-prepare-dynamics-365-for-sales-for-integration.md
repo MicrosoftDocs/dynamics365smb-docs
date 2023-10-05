@@ -86,7 +86,7 @@ In addition to the settings above, enter the following settings for [!INCLUDE[cr
 | **Sales Order Integration is Enabled** | Enable users to submit sales orders and activated quotes in [!INCLUDE[crm_md](includes/crm_md.md)] and then view and process them in [!INCLUDE[prod_short](includes/prod_short.md)]. This setting integrates the process in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Enable sales order processing integration](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Automatically Create Sales Orders** | Create a sales order in [!INCLUDE[prod_short](includes/prod_short.md)] when a user creates and submits one in [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Automatically Process Sales Quotes** | Process a sales quote in [!INCLUDE[prod_short](includes/prod_short.md)] when a user creates and activates one in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information, see [Handling Sales Quotes Data](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
-|**Bidirectional Synch of Sales Orders**|Synchronize sales orders in both directions. To learn more about this option, go to [Bi-directional synchronization of sales orders](#bi-directional-synchronization-of-sales-orders).|
+|**Bidirectional Synch of Sales Orders**|Synchronize sales orders in both directions. To learn more about this option, go to [Single and bi-directional synchronization of sales orders](#single-and-bi-directional-synchronization-of-sales-orders).|
 
 <!--
 ### User Account Settings

@@ -125,7 +125,7 @@ To get a better overview of all e-documents in the company, you can select the *
 ## See also
 
 [How to set up e-documents in Business Central](finance-how-setup-edocuments.md)  
-[How to extend e-documents in Business Central](/dev-itpro/developer/devenv-extend-edocuments)  
+[How to extend e-documents in Business Central](business-central/dev-itpro/developer/devenv-extend-edocuments)  
 [Financial Management](finance.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  
 [Record Purchases with Purchase Invoices and Orders](purchasing-how-record-purchases.md)  

@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 09/23/2023
+ms.date: 10/05/2023
 ms.custom: bap-template
 ms.service: dynamics365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
@@ -21,7 +21,7 @@ In this article, you learn how to analyze data from list pages and queries using
 
 ## Prerequisites 
 
-- If you're using Business Central version 22, the data analysis mode is in preview, so it must be enabled by an admin before you can use it. To enable it, go to the **Feature Management** page and switch on **Feature Update: Analysis mode, quickly analyze data directly in Business Central**. [Learn more about Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- If you're using Business Central version 22, the data analysis mode is in preview. So, an admin must enable it before you can use it. To enable it, go to the **Feature Management** page and switch on **Feature Update: Analysis mode, quickly analyze data directly in Business Central**. [Learn more about Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - In version 23 and later, your account must be assigned the **DATA ANALYSIS - EXEC** permission set or include execute permission on the system object **9640 Allow Data Analysis mode**. As an admin, you can exclude these permissions on users who you don't want to have access to the analysis mode.
 
 > [!NOTE]
@@ -45,7 +45,7 @@ In this article, you learn how to analyze data from list pages and queries using
 
 4. When you want to exit the analyze mode, turn off the **Analyze** toggle switch.
 
-   The analysis tabs that you've added remain until you delete them. So if you return to the data analysis mode again, you'll see them exactly as you left them.
+   The analysis tabs that you've added remain until you delete them. So if you return to the data analysis mode again, you see them exactly as you left them.
 
 > [!NOTE]
 > The data shown in analysis mode is controlled by the filters or views set on the list page. This allows you to pre-filter data before entering analysis mode.
@@ -69,11 +69,11 @@ The data area is where the rows and columns of the list page query are shown and
   - To pin a column to the left or right of the data area so that it doesn't move off the screen when you scroll, select ![Shows the icon on a column in data analysis mode that opens a menu of actions](media/analysis-mode-column-menu-icon.png) > **Pin column** > **Pin left** the column part.
   - Define data filters directly on the column definition instead of going to the **Analysis Filters** panes. You can still peek in on details about related data and for each line, and open the card to learn more about a given entity.
 - Use the data area to interact with the data. For columns that contain numeric, summable values, you can get descriptive statistics on a set of fields by marking them. The statistics appear in the status bar (2) along the bottom of the page.
-- Export data in Excel or csv format. Simply right-click on the data area or a selection of cells to export.
+- Export data in Excel or csv format. Right-click on the data area or a selection of cells to export.
 
 ### Summary bar (2)
 
-The summary bar is along the bottom of the page and displays statistics about the data in the list page or query. As you interact with columns whose values can be summed, like selecting multiple rows in a column that displays amounts, the data will update.
+The summary bar is along the bottom of the page and displays statistics about the data in the list page or query. As you interact with columns whose values can be summed, like selecting multiple rows in a column that displays amounts, the data updates.
 
 ![Shows an overview of a summary bar on the data analysis mode](media/analysis-mode-totals-row.png)
 
@@ -103,7 +103,7 @@ The **Columns** is one of two panes that work together to define your analysis. 
 |Row groups|Use this area to group and sum data by one or more fields. You can only include non-numeric fields, like text, date and time fields. Row groups are used often in pivot mode.|
 |Values|Use this area to specify fields that you want a sum total for. You can only include fields that contain numbers that can be added together; for example, not text, date, or time fields.|
 
-To move a field from one area to another, select grab icon ![Shows an overview of a page on the analysis mode](media/column-grab-icon.png) next to the column in the list above and drag into the target area. You're prevented from moving a field into an area where's it's not allowed.
+To move a field from one area to another, select the grab icon ![Shows an overview of a page on the analysis mode](media/column-grab-icon.png) next to the column in the list and drag into the target area. You're prevented from moving a field into an area where's it's not allowed.
 
 ### Analysis filters (4)
 
@@ -126,17 +126,27 @@ Here's some pointers on working with multiple analysis tabs:
    - **Delete** deletes the tab you currently have open. **Delete All** deletes all tabs that you've added, except the default **Analysis 1** tab.
 - You can't completely remove the **Analysis 1**, but you can rename it by using the **Rename** action and clear the changes you've made by using **Delete** or **Delete All**.  
 
-- The analysis tabs that you've added and configured remain until you delete them. So if you return to the data analysis mode again, you'll see them exactly as you left them.
+- The analysis tabs that you've added and configured remain until you delete them. So if you return to the data analysis mode again, you see them exactly as you left them.
 
    > [!TIP]
    > The tabs that you set up are only visible to you. Other users will only see tabs they've set up.
 - You can copy analysis tabs. Copying can be useful if you want to experiment with changing a tab without changing the original, or if you want to create different variations of the same analysis.
 
+
+## Date hierarchies
+
+In analysis mode, date fields of the dataset are generated in a Year-Quarter-Month hierarchy of three separate fields. This hierarchy is based on the normal calendar, not any fiscal calendars defined in Business Central.
+
+The extra fields are named _\<field name\> Year_, _\<field name\> Quarter_, and _\<field name\> Month_. For example, if the dataset includes a field called _Posting Date_, then the corresponding date hierarchy consists of fields called _Posting Date Year_, _Posting Date Quarter_, and _Posting Date Month_.
+
+> [!NOTE]
+> The date hierarchy currently only applies to fields of type date, not for fields of type datetime.
+
 ## Pivot mode
 
 You can use pivot mode to analyze large amount of numerical data, subtotaling data by categories and subcategories. The pivot mode is like [pivot tables in Microsoft Excel](https://support.microsoft.com/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576).
 
-To turn the pivot mode on and off, slide the **Pivot mode** switch in the **Columns** pane (3). When you turn on the pivot mode, the **Column labels** area appears in the pane. Use the **Column labels** area to group sum totals for rows into categories. Fields that you add to the **Column labels** area will show as columns in the data area (1).
+To turn the pivot mode on and off, slide the **Pivot mode** switch in the **Columns** pane (3). When you turn on the pivot mode, the **Column labels** area appears in the pane. Use the **Column labels** area to group sum totals for rows into categories. Fields that you add to the **Column labels** area show as columns in the data area (1).
 
 Building out the data analysis in pivot mode involves moving fields into the three areas: **Row groups**, **Columns labels**, and **Values**. The following figure illustrates where the fields map to the data area (1), where `sum` is the calculated data, and optionally **Values**.
 
@@ -183,7 +193,7 @@ After you’ve prepared an analysis on a tab, you can share it as a link with co
 
 1. Select **Copy**.
 
-1. Paste the link in to the communication media of your choice, like Word, Outlook, Teams, OneNote, and so one. 
+1. Paste the link into the communication media of your choice, like Word, Outlook, Teams, OneNote, and so one. 
 
 2. Once received, recipients can then select the link and open the analysis for the page or query in Business Central. They're prompted to specify a name for the new analysis tab that will be created.  
 

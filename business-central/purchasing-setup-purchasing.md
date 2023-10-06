@@ -50,7 +50,7 @@ On the **Number Series** FastTab, you must specify unique identification codes t
 
 The **Exact Cost Reversing Mandatory** function helps ensure returned goods are valued at the same cost as when they were originally drawn from inventory, using a fixed application instead of following an average or first-in, first-out (FIFO) costing method. Learn more in the [Design Details: Fixed Application](design-details-item-application.md#fixed-application) section. If an additional cost is later added to the original purchase, the program updates the value of the respective purchase return.
 
-With the feature enabled, a return transaction can only be posted by specifying the item ledger entry number in the **Appl.-to Item Entry** field on the purchase return order line. By default the field is not displayed on the **Lines** FastTab. Learn how to add fields to pages in the [Personalize Your Workspace](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner) section.
+With the feature enabled, a return transaction can only be posted by specifying the item ledger entry number in the **Appl.-to Item Entry** field on the purchase return order line. By default the field is not displayed on the **Lines** FastTab. Learn how to add fields to pages in the [Personalize Your Workspace](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode) section.
 
 [!INCLUDE[local-functionality](includes/local-functionality.md)]
 

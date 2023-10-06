@@ -3,7 +3,7 @@ title: Troubleshoot Connectivity
 description: Describes how to use the Troubleshoot Connectivity page to identify and fix problems connecting to Business Central online.
 author: jswymer
 
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

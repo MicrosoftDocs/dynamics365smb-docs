@@ -3,14 +3,14 @@ title: Integrating with Dynamics 365 Sales
 description: Learn how to get Dynamics 365 Business Central ready to integrate with Dynamics 365 Sales.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 06/14/2021
+ms.date: 09/28/2023
 ms.author: bholtorf
+ms.custom: bap-template
 ---
 # Integrating with Dynamics 365 Sales
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 The sales person role is often considered as one the most outward-facing jobs in a business. However, it can be helpful for sales people to be able to look inward in the business and see what is happening on the back end. By integrating [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[crm_md](includes/crm_md.md)], you can give your sales people that insight. The integration will let people view information in [!INCLUDE[prod_short](includes/prod_short.md)] while they're working in [!INCLUDE[crm_md](includes/crm_md.md)]. For example, when preparing a sales quote it could be useful to know whether you have enough inventory to fulfill the order. For more information, see [Use Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md).
 
@@ -216,10 +216,10 @@ The Microsoft Power Platform team has [announced](/power-platform/important-chan
    > [!Important]
    > This user must not have the System Administrator security role. Also, you cannot use the system administrator account as the integration user.
 
-3.  In the Azure portal, create an app registration for [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Register an application in Azure Active Directory](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
+3.  In the Azure portal, create an app registration for [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Register an application in Microsoft Entra ID](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
   
    > [!NOTE]
-   > We recommend that you register the app in the same tenant as your Dataverse environment so that you do not have to consent to letting the app access the environment. If you register the app in another environment, you must sign in to Azure AD using the administrator account for your Dataverse environment and give consent.
+   > We recommend that you register the app in the same tenant as your Dataverse environment so that you do not have to consent to letting the app access the environment. If you register the app in another environment, you must sign in to Microsoft Entra ID using the administrator account for your Dataverse environment and give consent.
    >
    > Additionally, the app that you register must not have a secret. Connecting an app with a secret to Dataverse is available only in Business Central 2020 release wave 1 and later.
   

@@ -2,17 +2,18 @@
 title: Troubleshooting Microsoft Teams Integration
 description: Learn about what you can do as an administrator to control Microsoft Teams integration.
 author: jswymer
-
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 10/01/2021
+ms.date: 09/19/2023
 ms.author: jswymer
 ---
 
-# Troubleshooting Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
+# Troubleshoot Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -28,7 +29,7 @@ You must first sign in to reach your settings. To sign into the app, either past
 
 ## I changed company but it didn't seem to work
 
-After you change the company on the **Settings** page, you might notice that the command box drop-down indicates you're still searching the previous company. This issue happens when you open the **Settings** page directly from the command box. In this case, the company was successfully changed, and you'll in fact search the company you switched to. The problem is that the command box drop-down just hasn't been updated yet. For the drop-down accurately reflect the company you'll search in, close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box, and then open the app again.
+After you change the company on the **Settings** page, you might notice that the command box drop-down indicates you're still searching the previous company. This issue happens when you open the **Settings** page directly from the command box. In this case, the company was successfully changed, and you'll in fact search the company you switched to. The problem is that the command box drop-down just hasn't been updated yet. Close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box, and then open the app again to ensure that the drop-down accurately reflects the company you're searching for. 
 
 
 <!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
@@ -47,14 +48,14 @@ If you're experiencing this problem, here are a few things to try:
 
 1. First, make sure that the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams is installed.
 
-    To check, sign in to the Teams desktop app or Teams in the browser. Then, on the left side, select **Apps**, and search for **[!INCLUDE [prod_short](includes/prod_short.md)]**. When you find the **[!INCLUDE [prod_short](includes/prod_short.md)]** app, select it to open the app details page. If the **Add for me** button is shown, then the [!INCLUDE [prod_short](includes/prod_short.md)] app isn't installed. For more information about how to install the app, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
+    To check, sign in to the Teams desktop app or Teams in the browser. Then, on the left side, select **Apps**, and search for **[!INCLUDE [prod_short](includes/prod_short.md)]**. When you find the **[!INCLUDE [prod_short](includes/prod_short.md)]** app, select it to open the app details page. If the **Add** button is shown, then the [!INCLUDE [prod_short](includes/prod_short.md)] app isn't installed. For more information about how to install the app, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
 
     > [!NOTE]
-    > Guest users can't immediately install apps. For more information about guest users, see our FAQ about collaborating with guests. 
+    > Guest users can't immediately install apps. For more information about guest users, see our [FAQ about collaborating with guests](teams-faq.md?tabs=collaborating#language). 
 
 2. Next, check that you've signed in with the correct identity.
 
-    In Teams, go to any chat, and under the message compose box, right-click the [!INCLUDE [prod_short](includes/prod_short.md)] icon, then choose **Settings**. When the window appears, check whether the user it says that you're connected as matches what you use to connect to [!INCLUDE [prod_short](includes/prod_short.md)].
+    In Teams, go to any chat, and under the message compose box, right-click the [!INCLUDE [prod_short](includes/prod_short.md)] icon, then choose **Settings**. The window that appears states the user account that you’re signed in as. Verify that it’s the correct user account.
 
 3. Make sure codeunit 2718 **Page Summary Provider** is published as a web service.
 
@@ -68,7 +69,7 @@ A link won't expand into a card in the following situations:
 
 - The link targets a page that (at a technical level) isn't connected to a source table in [!INCLUDE [prod_short](includes/prod_short.md)]. You can check whether a page has a source table by using the page inspection pane in the Web client in [!INCLUDE [prod_short](includes/prod_short.md)]. For more information about page inspection, see [Inspecting Pages](across-inspect-page.md).
 - Teams doesn't support link previews in some of its features. For example, when you pop out a chat, or you're a guest to another organization.
-- Teams silently abandons trying to display the card after 15 seconds, for example, because of network issues.
+- Network issues cause Teams to silently abandon trying to display the card after 15 seconds, for example.
 - Teams may not expand the link if you've already pasted a link into the same message compose box and deleted the card.
 
 The link must also contain all the necessary information to locate the record and display the corresponding card. This information includes:
@@ -86,7 +87,7 @@ For technical details about [!INCLUDE [prod_short](includes/prod_short.md)] URLs
 
 ## The details window opens, but shows an error before details are shown
 
-This problem can be caused by a couple things: lack of permissions in [!INCLUDE [prod_short](includes/prod_short.md)] or browser settings (when using Teams in the browser).
+This problem can be caused by a couple of things: lack of permissions in [!INCLUDE [prod_short](includes/prod_short.md)] or browser settings (when using Teams in the browser).
 
 1. Verify your permissions in [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -134,9 +135,9 @@ Changes you make to a field in the details windows are automatically saved when 
 
 When you view your apps on the Office 365 home page (https://home.office.com) or in the app launcher, a new tile named "Business Central Teams Integration Service Connector" will appear after installing the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams. This tile provides no value in itself and can be safely hidden.
 
-As an administrator, who has Azure Active Directory admin permissions, you can hide the tile by doing the following steps:
+As an administrator, who has Microsoft Entra admin permissions, you can hide the tile by doing the following steps:
 
-1. Sign in to the [Azure Active Directory admin center](https://aad.portal.azure.com/).
+1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/).
 2. Select **Enterprise apps**, then select **Business Central Teams Integration Service Connector**.
 3. Select **Properties**, then set the **Visible To Users** switch to **No**.
 4. Select **Save**.
@@ -148,7 +149,7 @@ As an administrator, who has Azure Active Directory admin permissions, you can h
 
 When you paste text into the message box in the **Share to Teams** window, the text is duplicated. This problem is known to Microsoft and will be addressed in a later update. 
 
-## Unable to sign into the Share to Teams window 
+## Unable to sign in to the Share to Teams window 
 
 This problem can be caused by a various reasons. For example, the identity you are using to sign in must have access to Microsoft Teams, such as through a Microsoft 365 subscription.
 
@@ -158,7 +159,7 @@ As of April 2022, links that are displayed as compact card in Teams will no long
 
 ## Can't pin a card to tab
 
-There are couple reasons for this problem.
+There are two reasons for this problem.
 
 - If the card was shared from Search ME, then it can't be pinned to a tab. 
 
@@ -168,12 +169,12 @@ There are couple reasons for this problem.
 
 This problem is because you don’t have the BC app for Teams installed. Only those with the app installed will see Business Central tabs.
 
-## Others see different sorting or column layout than what the tab author sees
+## Others see a different sorting or column layout than what the tab author sees
 
 This problem is likely because you shared a list view that is a personal view. In this case, work with your administrator to create either role-specific list views that covers the different roles in the channel/chat, or create this view for the whole organization so that everyone can get a consistent view.
 
 
-## See Also
+## See also
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  

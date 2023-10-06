@@ -348,6 +348,11 @@
 #### [Work with payment tolerances and payment discount tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The late payment prediction extension](ui-extensions-late-payment-prediction.md)
 
+### Manage E-documents
+#### [Set up E-documents](finance-how-setup-edocuments.md)
+#### [Use e-documents in sales and purchases](finance-how-use-edocuments.md)
+#### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### Manage VAT
 #### [VAT management overview](finance-manage-vat.md)
 #### [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md)
@@ -447,9 +452,10 @@
 ### [Post transactions directly to the general ledger](finance-how-post-transactions-directly.md)
 ### [Reverse journal postings and undo receipts/shipments](finance-how-reverse-journal-posting.md)
 ### [Audit file export](finance-how-to-export-audit-files.md)
-### [Allocate costs and income](year-allocate-costs-income.md)
 ### [Record and reimburse employees' expenses](finance-how-record-reimburse-employee-expenses.md)
 ### [Defer revenues and expenses](finance-how-defer-revenue-expenses.md)
+### [Allocate recurring costs and income](year-allocate-costs-income.md)
+### [Allocate revenue and costs to multiple G/L accounts](finance-allocate-revenue-costs.md)
 ### [Update currency exchange rates](finance-how-update-currencies.md)
 ### [Import payroll transactions](finance-how-import-payroll-transactions.md)
 ### [Work with VAT on sales and purchases](finance-work-with-vat.md)
@@ -585,6 +591,7 @@
 #### [Manage interactions for segments](marketing-interaction-segments.md)
 ### Manage interactions
 #### [Interactions](marketing-interactions-overview.md)
+#### [Attachments for Interactions](marketing-interaction-attachments.md)
 #### [Record interactions with contacts](marketing-interactions.md)
 #### [Create interactions on contacts and segments](marketing-how-create-interactions.md)
 #### [Automatically record interactions with contacts](marketing-auto-record-interactions.md)
@@ -1545,6 +1552,7 @@
 #### [Set up shipment methods](sales-how-set-up-shipment-methods.md)
 #### [Set up shipping agents](sales-how-to-set-up-shipping-agents.md)
 #### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
+#### [Update document dates with posting dates](across-link-doc-dates-to-posting-dates.md)
 ### Set up purchase
 #### [Set up purchase](purchasing-setup-purchasing.md)
 #### [Register new vendors](purchasing-how-register-new-vendors.md)
@@ -1554,6 +1562,7 @@
 #### [Set up prices and discounts](across-prices-and-discounts.md)
 #### [Record special purchase prices and discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
+#### [Update document dates with posting dates](across-link-doc-dates-to-posting-dates.md)
 ### Set up inventory
 #### [Set up inventory](inventory-setup-inventory.md)
 #### [Set up general inventory information](inventory-how-setup-general.md)
@@ -1791,7 +1800,7 @@
 ### [Search and filter FAQ](ui-search-filter-faq.yml)
 ### [Analyze page data in Excel](across-work-with-excel.md)
 ### [Analyze report data with Excel](report-analyze-excel.md)
-### [Analyze list data with analysis mode](analysis-mode.md)
+### [Analyze list and query data with analysis mode](analysis-mode.md)
 ### [Financial business intelligence](bi.md)
 
 ## Built-in analytics 

@@ -1,6 +1,6 @@
 ---
 title: Receiving, Puting-away, Moving, Picking and Shipping in Advanced Warehouse Configuration with Directed Pick and Put-Away
-description: In Business Central, the inbound and outbound processes can be performed in different ways depending on the warehouse complexity level.
+description: Inbound and outbound processes can be performed in different ways depending on the warehouse complexity level.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -32,15 +32,15 @@ Ellen, the warehouse manager utilizes cross-dock and bin replenishment functiona
 1. Create Warehouse Shipment.  
 
     1. Choose the ![Lightbulb that opens the Tell Me feature 2.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
-    2. Select order for customer 10000 for the WHITE location. External Order No is *W-1*. Use the personalization tools if the **External Order No.** field isn't visible. For more information, see [Personalize Your Workspace](../../ui-personalization-user.md).
-	3. Choose the **Create Warehouse Shipment** action to create warehouse shipment for selected sales order.
-    4.  Choose the **Release** action to notify the warehouse that the sales shipment is ready for warehouse handling.  
+    2. Select order for customer 10000 for the WHITE location. External Order No is *W-1*.
+    3. Choose the **Create Warehouse Shipment** action to create warehouse shipment for selected sales order.
+    4. Choose the **Release** action to notify the warehouse that the sales shipment is ready for warehouse handling.  
 
 2. Define bins for the item to control where it is put-away 
 
     1.  Choose the ![Lightbulb that opens the Tell Me feature 3.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
     2.  Select the *WRB-1000* and then choose the **Bin Contents** action.  
-    3.  Choose the **New** action. Add two lines. Use the personalization tools if the **Bin Code** field isn't visible. For more information, see [Personalize Your Workspace](../../ui-personalization-user.md). 
+    3.  Choose the **New** action. Add two lines.
     
     |Item|Location code|Bin Code|Fixed|Unit of Measure|
     |----------|----------|---------|---|------|  

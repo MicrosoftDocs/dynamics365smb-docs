@@ -12,6 +12,8 @@ ms.custom: bap-template #Required; don't change.
 
 # Set Up Universal Print Printers
 
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
+
 Universal Print is a Microsoft 365 subscription-based service that runs entirely on Microsoft Azure. It gives you centralized printer management through the Universal Print portal. [!INCLUDE[prod_short](includes/prod_short.md)] makes printers set up in Universal Print available to client users through the **Universal Print Integration** extension.
 
 ![Universal Print setup.](media/Universal-Print-arch.png)
@@ -35,7 +37,7 @@ The complete setup requires you work in both Microsoft Azure, using the [Azure p
 
   - You have the **Printer Administrator** (or Printer Manager) and **Global Administrator** roles in Azure.
 
-    To manage Universal Print, your account must have **Printer Administrator** (or Printer Manager) and **Global Administrator** roles in Azure AD. These roles are only needed for managing Universal Print. They aren't required by people setting up and  the printers from [!INCLUDE[prod_short](includes/prod_short.md)].
+    To manage Universal Print, your account must have **Printer Administrator** (or Printer Manager) and **Global Administrator** roles in Microsoft Entra ID. These roles are only needed for managing Universal Print. They aren't required by people setting up and  the printers from [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - [!INCLUDE[prod_short](includes/prod_short.md)] online and on-premises:
 
@@ -44,16 +46,16 @@ The complete setup requires you work in both Microsoft Azure, using the [Azure p
 
     This extension is published and installed by default as part of [!INCLUDE[prod_short](includes/prod_short.md)] online and on-premises. You can verify whether it's installed on the **Extension Management** page. Learn more at [Installing and Uninstalling Extensions in Business Central](ui-extensions-install-uninstall.md).
 - [!INCLUDE[prod_short](includes/prod_short.md)] on-premises only:
-  - Azure Active Directory (AD) or NavUserPassword authentication is configured.
+  - Microsoft Entra ID or NavUserPassword authentication is configured.
     > [!NOTE]
     >  Universal Print extension doesn't support service-to-service (S2S) authentication. It requires a signed-in user to send print jobs to the Universal Print service through Graph API.
-  - An application for Business Central is registered in your Azure AD tenant and [!INCLUDE[prod_short](includes/prod_short.md)].
+  - An application for Business Central is registered in your Microsoft Entra tenant and [!INCLUDE[prod_short](includes/prod_short.md)].
 
-    Like other Azure services that work with [!INCLUDE[prod_short](includes/prod_short.md)], Universal Print requires an app registration for [!INCLUDE[prod_short](includes/prod_short.md)] in Azure AD. The app registration provides authentication and authorization services between [!INCLUDE[prod_short](includes/prod_short.md)] and Universal Print.
+    Like other Azure services that work with [!INCLUDE[prod_short](includes/prod_short.md)], Universal Print requires an app registration for [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Entra ID. The app registration provides authentication and authorization services between [!INCLUDE[prod_short](includes/prod_short.md)] and Universal Print.
 
     Your deployment may already use an app registration for other Azure services, like Power BI. If so, then use the existing app registration for Universal Print as well, instead of adding a new one. The only thing you'll need to do, in this case, is modify the app registration to include the relevant print permissions for Microsoft Graph API: **PrinterShare.ReadBasic.All**, **PrintJob.Create**, and **PrintJob.ReadBasic.** 
 
-    To register an app and set the proper permissions, follow the steps described in [Register an application in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
+    To register an app and set the proper permissions, follow the steps described in [Register an application in Microsoft Entra ID](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
 ## Set up Universal Print and printers in Microsoft Azure
 
@@ -69,9 +71,9 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
 
       Learn more at [Microsoft Admin Center Help - Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-    - With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you assign licenses in your Azure tenant using the Azure portal.
+    - With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you assign licenses in your tenant using the Azure portal.
 
-      Learn more at [Azure Directory - Assign or remove licenses in the Azure Active Directory portal](/azure/active-directory/fundamentals/license-users-groups).
+      Learn more at [Assign or remove licenses in the Azure portal](/azure/active-directory/fundamentals/license-users-groups).
 
 2. Install the Universal Print connector for registering printers that can't communicate with Universal Print directly.
 
@@ -102,7 +104,7 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
 
 6. Enable document conversion.
 
-    Universal Print renders content for print in XPS format. Some legacy in-market printers don't support XPS content rendering&mdash;in many cases, only PDF format. Printing to these printers will fail unless Universal Print is set up to convert documents to the printer-supported format.
+    Universal Print renders content for print in XPS format. Some legacy in-market printers don't support XPS content rendering&mdashin many cases, only PDF format. Printing to these printers will fail unless Universal Print is set up to convert documents to the printer-supported format.
 
     Learn more at [Document Conversion Overview](/universal-print/portal/document-conversion).
 
@@ -153,11 +155,11 @@ Complete these steps to connect to the Universal Print service for the first-tim
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Printer Management**, then select the related link.
 2. Select **Universal Print** > **Add all Universal Print printers** to start the **Add Universal Print Printers** assisted setup guide (wizard).
-3. Follow the on-screen instructions until you get to the AZURE ACTIVE DIRECTORY SERVICE PERMISSIONS page.
+3. Follow the on-screen instructions until you get to the **MICROSOFT ENTRA SERVICE PERMISSIONS** page.
 
-    <!--The AZURE ACTIVE DIRECTORY SERVICE PERMISSIONS page appears. You'll be prompted to give consent to Azure Services. You'll be lead through the process of verifying your Azure AD setup, checking your Universal Print license, and then adding the printers.-->
+    <!--The MICROSOFT ENTRA SERVICE PERMISSIONS page appears. You'll be prompted to give consent to Azure Services. You'll be lead through the process of verifying your Microsoft Entra ID setup, checking your Universal Print license, and then adding the printers.-->
 
-   ![Shows the AZURE ACTIVE DIRECTORY SERVICE PERMISSIONS page](media/azure-ad-services-permissions.png "Shows the AZURE ACTIVE DIRECTORY SERVICE PERMISSIONS page")
+   ![Shows the MICROSOFT ENTRA SERVICE PERMISSIONS page](media/azure-ad-services-permissions.png "Shows the MICROSOFT ENTRA SERVICE PERMISSIONS page")
 
 4. Select the **Authorize Azure Services** link.
 

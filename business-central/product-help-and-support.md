@@ -6,10 +6,13 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: bholtorf
-ms.date: 07/14/2023
+ms.date: 09/28/2023
+ms.custom: bap-template
 ---
 
 # Resources for Help and Support
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Organizations that use [!INCLUDE[prod_long](includes/prod_long.md)] can get technical support for any issues that they may experience. In this article, we show you the following information and many other tips for how to use [!INCLUDE[prod_short](includes/prod_short.md)]:
 
@@ -149,7 +152,7 @@ For more information, see [Escalating support issues to Microsoft](/dynamics365/
 
 The **Report a problem** section displays an email address or a hyperlink for you to get in contact with the customer support person or team. If you're the [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner for a tenant, you can set up your preferred support contact details in the admin center. For more information, see [Configuring the support experience](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) in the administration content.  
 
-To alert your partner to a problem, choose the link to either send an email or open their support site in a new browser tab. You can then add the technical information about your Azure Active Directory tenant from the **Troubleshooting** section and any other information that you find relevant.  
+To alert your partner to a problem, choose the link to either send an email or open their support site in a new browser tab. You can then add the technical information about your Microsoft Entra tenant from the **Troubleshooting** section and any other information that you find relevant.  
 
 > [!NOTE]
 > The support contacts information isn't available with [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.

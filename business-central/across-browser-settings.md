@@ -3,7 +3,7 @@ title: Setting Up Your Browser
 description: Describes how to set up browsers to work with Business Central and products that integrate with it.
 author: jswymer
 
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

@@ -3,7 +3,7 @@ title: Working with Business Central Data In Power BI| Microsoft Docs
 description: Getting insight, business intelligence, and KPIs from your Business Central data using Power BI.
 author: jswymer
 
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na

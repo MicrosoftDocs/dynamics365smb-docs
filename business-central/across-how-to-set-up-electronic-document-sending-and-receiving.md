@@ -12,6 +12,10 @@
 ---
 # Set Up Electronic Document Sending and Receiving
 
+> [!NOTE]
+> This contect if applicable only on Business Central versions before 2023 release wave 2. From this version, there is a new functionality abou E-Documents. Mored detaisl here: [Set up e-documents](finance-how-setup-edocuments.md).  
+
+
 As an alternative to emailing as file attachments, you can send and receive business documents electronically. By electronic document is meant a standard\-compliant file representing a business document, such as an invoice from a vendor that can be received and converted to a purchase invoice in [!INCLUDE[prod_short](includes/prod_short.md)]. The exchange of electronic documents between two trading partners is performed by an external provider of document exchange services. The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports sending and receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. A major provider of document exchange services is preconfigured and ready to be set up for your company.  
 
 From PDF or image files representing incoming documents, you can have an external OCR service (Optical Character Recognition) create electronic documents that you can then convert to document records in [!INCLUDE[prod_short](includes/prod_short.md)], like for electronic PEPPOL documents. For example, when you receive an invoice in PDF format from your vendor, you can send it to the OCR service from the **Incoming Documents** page. After a few seconds, you receive the file back as an electronic invoice that can be converted to a purchase invoice for the vendor. If you send the file to the OCR service by email, then a new incoming document record is automatically created when you receive the electronic document back.  

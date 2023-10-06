@@ -8,9 +8,9 @@ ms.topic: overview
 ms.date: 03/16/2023
 ms.custom: bap-template 
 ---
-# Overview of AI-powered item marketing text (preview) with Copilot
+# Overview of AI-powered item marketing text with Copilot
 
-[!INCLUDE[ai-preview](includes/ai-preview.md)]
+<!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
 This article gives an overview the AI-powered capability provided by Copilot in Business Central.
 
@@ -24,7 +24,7 @@ Copilot uses [Microsoft Azure OpenAI Service](/azure/cognitive-services/openai/o
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RWZdAr]
 
-*The video doesn't exactly reflect how the feature currently works or looks in the product. The feature has slightly changed since the video was produced. But it gives you a general idea of the feature and what you can use it for.*
+*The video doesn't exactly reflect how the feature currently works or looks in the product. The feature has changed since the video was produced. But it gives you a general idea of the feature and what you can use it for.*
   
 ## Where it's used
 

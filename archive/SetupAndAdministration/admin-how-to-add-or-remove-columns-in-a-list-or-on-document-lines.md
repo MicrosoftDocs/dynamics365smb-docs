@@ -3,8 +3,7 @@
     description: To get a better overview of the information that you need, you can customize list pages and card pages by adding or removing columns in the grids.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
-
+    author: brentholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -12,8 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/01/2017
-    ms.author: sgroespe
-
+    ms.author: bholtorf
 ---
 # Add or Remove Columns in a List or on Document Lines
 To get a better overview of the information that you need, you can customize list pages and card pages by adding or removing columns in the grids.  

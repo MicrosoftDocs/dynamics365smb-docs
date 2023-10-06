@@ -3,7 +3,7 @@ title: Design Details - Revaluation
 description: You can revalue the inventory based on the valuation base that most accurately reflects the inventory value.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 07/07/2023
 ms.custom: bap-template

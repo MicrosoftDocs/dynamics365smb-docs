@@ -1,16 +1,14 @@
 ---
     title: Design Details - Inventory Periods
     description: Inventory Periods helps avoid problems with balances and stock valuations by opening or closing inventory periods to limit posting in a set period of time.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/15/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Design Details: Inventory Periods

@@ -4,7 +4,7 @@ description: Learn how to use the VAT Rate Change tool for Dynamics 365 Business
 author: andregu
 
 ms.topic: conceptual
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.search.form: 550, 
@@ -101,8 +101,6 @@ You use the VAT rate change tool to manage changes in the standard rate of VAT. 
 
 > [!IMPORTANT]  
 > After the conversion, the **Converted** field in the **VAT Rate Change Log Entry** table is chosen and the **Converted Date** field in the **VAT Rate Change Log Entry** table displays the conversion date.  
-
-## See related [Microsoft training](/training/modules/rate-change-dynamics-365-business-central/)
 
 ## See also
 

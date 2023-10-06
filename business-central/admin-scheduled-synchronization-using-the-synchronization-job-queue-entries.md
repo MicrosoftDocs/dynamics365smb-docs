@@ -60,7 +60,7 @@ To synchronize data, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] table reco
 
 ## About inactivity timeouts
 
-Some job queue entries, such as those that schedule synchronization between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)], use the **Inactivity Timeout** field on the Job Queue Entry PAGE to prevent the job queue entry from running unnecessarily.  
+Some job queue entries, such as those that schedule synchronization between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)], use the **Inactivity Timeout** field on the **Job Queue Entry** page to prevent the job queue entry from running unnecessarily.  
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Flowchart for when job queue entries are put on hold due to inactivity.":::
 

@@ -1,9 +1,7 @@
 ---
     title: Reporting Sales Tax in the US Version
     description: Learn about how sales tax is set up, and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work.
-    author: edupont04
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@
     ms.search.keywords: local
     ms.search.form: 315, 466, 467, 468, 469, 10015, 10016, 10101
     ms.date: 04/27/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Reporting Sales Tax in the US
 

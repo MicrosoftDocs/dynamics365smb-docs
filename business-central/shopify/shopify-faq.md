@@ -4,8 +4,8 @@ description: Implementation details related to the Shopify connector.
 ms.date: 03/27/2023
 ms.topic: article
 ms.service: dynamics365-business-central
-author: AndreiPanko
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
 # FAQ for Technical Details
@@ -70,9 +70,12 @@ You can also explore [Experts Marketplace](https://experts.shopify.com/) to find
 ## Currently unsupported features, however, we're tracking them and may consider adding them
 
 - B2B features, including companies, company price lists, and payment terms
+  - It is currently possible to import orders created via B2B. If you have multiple buyers linked to company, you should not enable automatic creation of customers, but link each Shopify buyer to a respective customer manually.
+  - You will need to maintain company price lists in Shopify.
 - Markets
   - Multiple translations of master data. You can choose one language that will be used for product information export.
   - Prices per country/region. One price list is available for the selected currency. Shopify handles the conversion to other currencies.
+- Draft orders
 
 ## Is the Shopify connector extensible?
 

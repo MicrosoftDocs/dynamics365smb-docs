@@ -10,7 +10,6 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 03/25/2023
 ms.author: bholtorf
-
 ---
 # Set Up Locations
 
@@ -104,8 +103,6 @@ You fill in the fields in the opposite order, as follows:
 2. From Location = EAST
 
 The ADM dimension will be copied from location EAST.
-
-## See related training at [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
 ## See also
 

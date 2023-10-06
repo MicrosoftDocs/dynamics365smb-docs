@@ -1,9 +1,7 @@
 ---
 title: Set Up OCR Payments [NO]
 description: You can process electronic payments from customers according to a predefined payment ID in the Norwegian version. This is often referred to as an optical character recognition (OCR) payment.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.form: 15000100
 ms.date: 04/01/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Set Up OCR Payments
 You can process electronic payments from customers according to a predefined payment ID. This is often referred to as an optical character recognition (OCR) payment. The payment ID is used with electronic payment transactions. Customers can refer to this ID when they make payments. The payment ID is also used to identify imported payment transactions and automatically apply imported payment data.  

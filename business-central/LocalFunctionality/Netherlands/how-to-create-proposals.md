@@ -1,17 +1,14 @@
 ---
     title: How to Create Proposals
     description: Proposals can be generated manually or automatically based on either vendor or customer ledger entries.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Create Proposals
 Proposals can be generated manually or automatically based on either vendor or customer ledger entries.  

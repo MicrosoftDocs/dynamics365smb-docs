@@ -5,12 +5,14 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: dcenic
 ms.topic: how-to
-ms.date: 02/27/2023
+ms.date: 09/18/2023
 ms.custom: bap-template
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.search.form: 1680, 1811, 5076
 ---
 # Track Email Message Exchanges Between Salespeople and Contacts
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Get more out of the communications between your salespeople and customers by turning email exchanges into actionable opportunities. [!INCLUDE[prod_short](includes/prod_short.md)] can work with Exchange Online to keep a log of the inbound and outbound messages. You can view and analyze the contents of each message on the **Interaction Log Entries** page.
 
@@ -104,15 +106,15 @@ The new experience does not support connections to Exchange on-premises.
 -->
 ## Connect to Exchange Online
 
-To connect to Exchange Online you must register an application in Azure Active Directory. Provide the application ID, key vault secret, and the redirect URL to use for the registration. The redirect URL is pre-set and should work for most installations. For more information, see [To register an application in Azure AD for connecting from Business Central to Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
+To connect to Exchange Online you must register an application in Microsoft Entra ID. Provide the application ID, key vault secret, and the redirect URL to use for the registration. The redirect URL is pre-set and should work for most installations. For more information, see [To register an application in Microsoft Entra ID for connecting from Business Central to Exchange Online](#to-register-an-application-in-microsoft-entra-id-for-connecting-from-business-central-to-exchange-online). 
 
-You must also use **OAuth2** as the **Authentication Type**. You must also register an application in Azure Active Directory. Provide the application ID, key vault secret, and the redirect URL to use for the registration. The redirect URL is pre-populated and should work for most installations. For more information, see To register an application in Azure AD for connecting from Business Central to Exchange Online below.
+You must also use **OAuth2** as the **Authentication Type**. You must also register an application in Microsoft Entra ID. Provide the application ID, key vault secret, and the redirect URL to use for the registration. The redirect URL is pre-populated and should work for most installations. For more information, see To register an application in Microsoft Entra ID for connecting from Business Central to Exchange Online below.
 
 You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). If you're setting up your server to have a different home page, you can change the URL. The client secret will be saved as an encrypted string in your database.
 
-### To register an application in Azure AD for connecting from Business Central to Exchange Online
+### To register an application in Microsoft Entra ID for connecting from Business Central to Exchange Online
 
-The following steps assume that you use Azure Active Directory to manage identities and access. For more information, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). 
+The following steps assume that you use Microsoft Entra ID to manage identities and access. For more information, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app). 
 
 1. In the Azure Portal, under **Manage**, choose **Authentication**.
 2. Under **Redirect URL**, add the redirect URL that is suggested on the **Email Logging** page in [!INCLUDE[prod_short](includes/prod_short.md)]. If the redirect URL field on the Email Logging page is empty, find the suggested redirect URL on the **Assisted Setup** page. To open the page, on the **Email Logging** page, choose **Actions**, and then **Assisted Setup**.
@@ -128,7 +130,7 @@ The following steps assume that you use Azure Active Directory to manage identit
 
 ### Use Another Identity and Access Management Service
 
-If you are not using Azure Active Directory to manage identities and access, you will need some help from a developer. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the OnGetEmailLoggingClientId and OnGetEmailLoggingClientSecret events in codeunit 1641 "Setup Email Logging".
+If you are not using Microsoft Entra ID to manage identities and access, you will need some help from a developer. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the OnGetEmailLoggingClientId and OnGetEmailLoggingClientSecret events in codeunit 1641 "Setup Email Logging".
 
 ## To start logging email
 

@@ -3,7 +3,7 @@ title: Power BI FAQ
 description: Get answers for some typical questions about working with Power BI and Business Central.
 author: jswymer
 
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -241,11 +241,6 @@ We're looking into this feature. Power BI offers rich APIs to control report dep
 ### When I get data from Business Central to use in my Power BI reports, I see some values like "_x0020_". What are these values?
 
 Some API pages, including most API v2.0 pages, have fields based on [AL Enum objects](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Fields based on AL enum objects must have names that are consistent and always the same, so that filters on the report always work&mdash;no matter the language or operating system you're using. For this reason, the fields based on AL enums aren't translated and are encoded to avoid any special character, including the space. In particular, whenever there's an empty option in the AL Enum object, it's encoded to "_x0020_". You can always apply a transformation to your data on Power BI if you want to display some different value for these fields, for example "Empty".
-
-
----
-
-## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## See also
 

@@ -1,10 +1,8 @@
 ---
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: include
 ms.date: 04/27/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 When you first start using [!INCLUDE[prod_short](../../../includes/prod_short.md)], you can run an assisted setup guide to quickly and easily set up sales tax information for your company, customers, and vendors. In a matter of minutes, you are ready to create sales documents and purchase documents with sales tax calculated correctly. Just search for the **Set Up Sales Tax** assisted setup guide, and then follow the steps in the guide. This includes specifying the accounts that you want to use for sales tax for sales and purchases.  
 

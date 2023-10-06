@@ -5,8 +5,8 @@ ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147
-author: andreipa
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
 
@@ -33,7 +33,7 @@ If you want to automatically release a sales document, turn on the **Auto Releas
 If you select the **Shopify Order No. on Doc. Line** field, [!INCLUDE [prod_short](../includes/prod_short.md)] inserts sales lines of the type **Comment** with the Shopify order number.
 
 >[!NOTE]
->The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add the **Shopify Order No.** field to the list or card pages for sales orders, invoices, and shipment. To learn more about adding a field, go to [To start personalizing a page through the **Personalizing** banner](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). 
+>The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add the **Shopify Order No.** field to the list or card pages for sales orders, invoices, and shipment. To learn more about adding a field, go to [To start personalizing a page through the **Personalizing** banner](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
 
 In the **Tax area priority** field, prioritize how to select a tax area code for addresses on orders. The Shopify order you import contains information about taxes. Taxes are recalculated when you create sales documents, so it's important that the VAT or tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. To learn more about taxes, go to [Set Up Taxes for the Shopify Connection](setup-taxes.md).
 
@@ -65,18 +65,17 @@ The **Shipment method code** for sales documents imported from Shopify can be fi
 
 ### Location mapping
 
-The location mapping is required for three purposes:
-
-* To sync inventory, for more information, see [Sync inventory to Shopify](synchronize-items.md#sync-inventory-to-shopify)
-* To fill in the **Location Code** for sales documents imported from Shopify. This is important when the **Location Mandatory** toggle is enabled on the **Inventory Setup** card, otherwise, you won't be able to create sales documents.
-* To update the Shopify order with the fulfillment information based on the **Posted Sales Shipment** page.
+The location mapping is required to fill in the **Location Code** for sales documents lines imported from Shopify. This is important when the **Location Mandatory** toggle is enabled on the **Inventory Setup** card, otherwise, you won't be able to create sales documents.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.
 2. Select the shop for which you want to configure the mapping of locations to open the **Shopify Shop Card** page.
 3. Choose the **Locations** action to open the **Shopify Shop Locations**.
-4. Choose the **Get Shopify Locations** action to import all the locations defined in Shopify. You can find them in the [**Locations**](https://www.shopify.com/admin/settings/locations) settings in your **Shopify admin** panel. Note that the location marked as *Default* will be used when importing unfulfilled Shopify orders.
+4. Choose the **Get Shopify Locations** action to import all the locations defined in Shopify. You can find them in the [**Locations**](https://www.shopify.com/admin/settings/locations) settings in your **Shopify admin** panel. 
 5. Enter the **Default Location Code** with the corresponding location in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
+> [!NOTE]  
+> Location mapping is also used to sync inventory, for more information, see [Sync inventory to Shopify](synchronize-items.md#sync-inventory-to-shopify).
+  
 ## Run the order synchronization
 
 The following procedure describes how to import and update the sales orders.
@@ -105,8 +104,8 @@ The Shopify Connector imports orders in two steps:
 
 1.	It imports order headers to the **Shopify Orders to Import** table when they match certain conditions:
     
-* They aren't archived.
-* They were created or modified after the last sync.
+* They aren't archived. This means you can include or exclude orders from sync by archiving or unarchiving them in the Shopify Admin.
+* They were created or modified after the last sync. This means that you can force reimport of specific order if you modify it, for example by adding the **Notes** or **Tag**.
 
 2.	It imports Shopify orders and supplementary information.
 * The Shopify Connector processes all records in the **Shopify Orders to Import** table that match the filter criteria you defined on the **Sync Orders from Shopify** request page. For example, tags, channel, or the fulfilment status. If you haven't specified any filters it processes all records.
@@ -114,7 +113,7 @@ The Shopify Connector imports orders in two steps:
 
     * Order header
     * Order lines
-    * Shipping and fulfilment information
+    * Shipping and fulfillment information
     * Transactions
     * Returns and refunds, if configured
 
@@ -190,7 +189,7 @@ Example: you have online store as well as a Shopify POS. For your POS, you want 
 
 Each job queue will import and process orders within the defined filters and use the rules from the corresponding Shopify Shop card. For example, they'll create point of sales orders for the default customer.
 
->![Important]
+>[!Important]
 > To avoid conflicts when processing orders, remember to use the same job queue category for both job queue entries.
 
 ### Impact of order editing
@@ -206,6 +205,8 @@ In Shopify:
 |Edit an order and add new item | Order header will be updated, lines won't. | Original and added items will be imported. |
 |Process order: fulfill, update payment information | Order header will be updated, but the lines won't. |Change has no impact on how the order is imported.|
 |Cancel order | Order header will be updated, but the lines won't. |Canceled order is not imported |
+
+As you can see in some cases it might be reasonable to delete edited order in [!INCLUDE[prod_short](../includes/prod_short.md)] and import it as new.
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
@@ -234,7 +235,7 @@ You can schedule the task to be performed in an automated manner. Learn more at 
 >[!Important]
 >The location, including blank location, defined in the Posted Shipment Line must have a matching record in the Shopify Location. Otherwise, this line won't be sent back to Shopify. Learn more at [Location mapping](synchronize-orders.md#location-mapping).
 
-Remember to run **Synchronize Orders from Shopify** to update the fulfillment status of an order in [!INCLUDE[prod_short](../includes/prod_short.md)]. The connector functionality also archives completely paid and fulfilled orders in both Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)] provided the conditions are met.
+Remember to run **Synchronize Orders from Shopify** to update the fulfillment status of an order in [!INCLUDE[prod_short](../includes/prod_short.md)]. The connector functionality also archives completely paid and fulfilled orders in both Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)] provided the conditions are met. 
 
 ### Shipping agents and tracking URL
 

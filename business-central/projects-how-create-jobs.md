@@ -1,15 +1,13 @@
 ---
 title: Create a Job Card for a Job and Specify Tasks
 description: For a new project, you create a job card that contains job tasks and planning lines, to help you manage progress and budgets.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 08/03/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Create Jobs
@@ -81,8 +79,6 @@ A job planning line can have one of the following types.
 3. Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.  
 4. On the **Job Planning Lines** page, on a new line, fill in the fields as necessary.
 5. Repeat steps 3 and 4 for all planning lines that you need for the job task.
-
-## See related [Microsoft training](/training/modules/create-new-job/)
 
 ## See also
 

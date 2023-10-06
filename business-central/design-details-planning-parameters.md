@@ -3,7 +3,7 @@ title: Design Details - Planning Parameters
 description: This article describes the different planning parameters that you can use and how they affect the planning system.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 04/26/2023
 ms.custom: bap-template

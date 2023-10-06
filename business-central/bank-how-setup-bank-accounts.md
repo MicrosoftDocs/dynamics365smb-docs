@@ -9,7 +9,6 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 08/03/2023
 ms.custom: bap-template
-
 ---
 # Set Up Bank Accounts
 
@@ -229,8 +228,6 @@ After you create the new bank account, you should also create a new bank posting
 > Remember that the bank account information on open sales invoices still shows the original bank account. Accordingly, payments are likely to still be posted to that account. We recommend that you keep both accounts active for a period of time after the change.
 
 To get a more condensed view of your cash accounts in financial reporting, use the **Begin-Total** and **End-Total** accounts in your chart of accounts, the **Totaling** rows in financial reports, or G/L account categories. Learn more at [Business Intelligence and Financial Reporting](bi.md) section.
-
-## See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## See also
 

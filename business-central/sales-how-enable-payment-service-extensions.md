@@ -1,9 +1,7 @@
 ---
 title: Enable Customer Payments with Payment Services
 description: Make it easier for customers to pay their invoices by enabling customer payments through payment services.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: online payment
 ms.search.forms: 1060, 1061, 1062
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Enable Customer Payments Through Payment Services
@@ -42,8 +40,6 @@ The PayPal Payments Standard and WorldPay Payments Standard extensions are insta
 
     > [!NOTE]  
     > The **Payment Service** field is available only if you've enabled the payment service.  
-
-## See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## See also
 

@@ -6,8 +6,8 @@ ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: 30101, 30102 
 ms.reviewer: solsen
-author: AndreiPanko
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
 # Create and Set up a Shopify Account

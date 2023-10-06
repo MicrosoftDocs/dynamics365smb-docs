@@ -4,9 +4,8 @@
     ms.date: 04/01/2022
     ms.topic: article
     ms.service: dynamics365-business-central
-    author: edupont04
-    ms.author: andreipa
-
+    author: brentholtorf
+    ms.author: bholtorf
 ---
 # Walkthrough: Create a New Production BOM and BOM Version
 

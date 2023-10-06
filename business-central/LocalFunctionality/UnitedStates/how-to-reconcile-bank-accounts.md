@@ -1,24 +1,26 @@
 ---
-    title: Reconciling Bank Accounts [US]
-    description: This topic describes how to reconcile bank account ledger entries with bank statements in the North American version.
-    author: brentholtorf
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.search.form: 389, 10120,10121,10122,10123,10124,10125,10126,10127,10128,10129,10130,10131,10133,10134
-    ms.date: 07/16/2021
-    ms.author: bholtorf
+title: Reconciling Bank Accounts [US]
+description: This topic describes how to reconcile bank account ledger entries with bank statements in the North American version.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: conceptual
+ms.search.keywords:
+ms.search.form: 389, 10120,10121,10122,10123,10124,10125,10126,10127,10128,10129,10130,10131,10133,10134
+ms.date: 09/26/2023
+ms.custom: bap-template    
 
 ---
 # Reconciling Bank Accounts in the US Version
 
-Use the **Bank Rec. Worksheet** page to reconcile bank account ledger entries with bank statements.
+> [!IMPORTANT]
+> The bank reconciliation and deposits features are no longer available for the North American versions (US, CA, and MX) in 2023 release wave 2. The features are now part of the standard version of [!INCLUDE [prod_short](../../includes/prod_short.md)], so that more countries can benefit from them. To learn more about the standard features, go to [Manage and Reconcile Your Bank Accounts](../../bank-manage-bank-accounts.md).
+>
+>For details about what's changed, go to [Standardizing the bank reconciliation process in North American versions](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/standardizing-bank-reconciliation-process-north-american-versions).
+>
+> If you're still using the deprecated Bank Reconciliation Worksheet or Deposits pages, there are a few things you should do after you upgrade to 2023 release wave 2. For example, if you have open entries, you'll probably want to complete them. To learn more, go to [NA bank reconciliation and deposits are deprecated in the North American version](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-na-bank-rec). 
 
-> [!NOTE]  
-> This topic describes the North American bank reconciliation functionality. You can also use the standard functionality. For more information, see [Reconcile Bank Accounts](../../bank-how-reconcile-bank-accounts-separately.md).
+Use the **Bank Rec. Worksheet** page to reconcile bank account ledger entries with bank statements.
 
 ## To reconcile bank accounts with bank statements
 

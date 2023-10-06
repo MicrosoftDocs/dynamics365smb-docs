@@ -1,5 +1,4 @@
 ---
-
 title: Reconcile Bank Accounts
 description: Learn how to reconcile transactions in Business Central with transactions in statements from your bank.
 author: brentholtorf
@@ -9,7 +8,6 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 12/13/2022
 ms.custom: bap-template
-
 ---
 # Reconcile Bank Accounts
 
@@ -241,8 +239,6 @@ If the next bank reconciliation you do is for August, consider changing the valu
 Don't use a G/L account that allows direct posting in your bank account posting group. Direct posting will break the connection between the bank account ledger entry and the G/L account ledger entry. When you reconcile your bank account, the entries posted directly to the G/L account won't be included and it will be difficult to complete the reconciliation.
 
 This mistake often happens when entering an opening balance for a bank account. It's important that you don't post the opening balance directly to the general ledger. Entries in the G/L account that are posted directly to the G/L account will cause problems. For example, these entries might prevent you from reconciling your bank account. For foreign currency bank accounts, the entries can cause differences to accumulate after you post more bank reconciliations due to currency exchange rate adjustments. Often, you post the opening bank balance directly to the bank account, and the amount then ends up in the G/L account. Alternatively, you reverse it later against the G/L account that you use to balance the opening general ledger balance. In both cases, you must balance any direct posting to the G/L account before you start your first bank reconciliation, and especially so if the bank account is in a foreign currency.
-
-## See related [Microsoft training](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## See Also
 

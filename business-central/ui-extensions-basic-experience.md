@@ -3,17 +3,17 @@ title: Basic Experience Extension | Microsoft Docs
 description: This extension is a modernized alternative to Microsoft Dynamics C5.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: C5, financials, extension
 ms.search.form: 20600, 
-ms.date: 04/01/2021
+ms.date: 09/28/2023
 ms.author: bholtorf
-
+ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 
 # The Basic Experience Extension
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 If you have been using Microsoft Dynamics C5, Microsoft partners can help you transition to a more modern solution that is based on [!INCLUDE[prod_short](includes/prod_short.md)], so you can continue to enjoy the same streamlined capabilities as Dynamics C5.
 
@@ -39,7 +39,7 @@ The following table describes the capabilities that are available if you install
 This extension is a bit different than most, and you will need help from a Microsoft partner to install and set it up. Just so that you know what to expect, here's a high-level view of what the Microsoft partner will do.
 
 1. Create a new [!INCLUDE[prod_short](includes/prod_short.md)] tenant. This can be either a trial or a Cloud Solution Provider (CSP) version.
-2. Add at least one user who is assigned to a Basic Experience license in your Azure Active Directory account.
+2. Add at least one user who is assigned to a Basic Experience license in your Microsoft Entra account.
 3. Remove all companies, including the sample Cronus company.
 4. Create a new company that does not contain any sample data or setups.
 5. Add the **Demo RapidStart** package. <!--what does the package contain?-->

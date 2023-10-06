@@ -3,7 +3,7 @@ title: Working with Business Central Data In Power BI| Microsoft Docs
 description: Getting insight, business intelligence, and KPIs from your Business Central data using Power BI.
 author: jswymer
 
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -72,8 +72,6 @@ To share a report, in a list reports, or in an open report, select **Share**. In
 
 > [!NOTE]
 > You must have  [Power BI Pro license](/power-bi/service-features-license-type), and the people you share with do too. The content must be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
-
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## See Also
 

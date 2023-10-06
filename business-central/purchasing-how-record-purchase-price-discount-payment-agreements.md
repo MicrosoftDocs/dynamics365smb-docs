@@ -2,8 +2,6 @@
 title: Record Special Purchase Prices and Discounts
 description: You can define different or alternate prices and discount agreements and apply them to purchase documents for vendors.
 author: brentholtorf
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,7 +10,6 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 26, 1346, 7012, 7014, 7017, 7018, 7189, 7190, 9307
 ms.date: 04/01/2021
 ms.author: bholtorf
-
 ---
 # Record Special Purchase Prices and Discounts
 
@@ -141,8 +138,6 @@ The best price is the lowest permissible price with the highest permissible line
     - Is there a currency requirement in the price/discount agreement that is fulfilled? If so, the lowest price and the highest line discount for that currency are inserted, even if LCY would provide a better price. If there is no price/discount agreement for the specified currency code, [!INCLUDE[prod_short](includes/prod_short.md)] inserts the lowest price and the highest line discount in LCY.
 
 If no special price can be calculated for the item on the line, then either the last direct cost or the unit price from the item card is inserted.
-
-## See related [Microsoft training](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index)
 
 ## See also
 

@@ -1,14 +1,12 @@
 ---
 title: Set Up Prepayments
 description: Learn how to configure Business Central so that you can use prepayments to invoice and collect deposits from customers and remit deposits to vendors.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Set Up Prepayments
@@ -102,8 +100,6 @@ You can save time by setting up a job queue entry that will automatically releas
 
 3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
 4. Set up the **Upd. Pending Prepmt. Sales** job queue entry, for example, by using the settings on the **Recurrence** FastTab to schedule how often you want it to run. For more informaiton, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).
-
-## See related [Microsoft training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## See also  
 

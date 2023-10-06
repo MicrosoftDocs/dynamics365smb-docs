@@ -3,7 +3,7 @@
     description: You can see which report layouts are used on Business Central reports from the **Report Layout Selection** window. From this window, you can change layout that is used on a report, create new custom layouts, or make variations of existing custom layouts.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

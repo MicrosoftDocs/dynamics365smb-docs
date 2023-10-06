@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.date: 04/01/2021
 ms.author: jswymer
 
@@ -60,8 +60,6 @@ The following diagram illustrates the basic workflow for users when connecting [
 5. [!INCLUDE[prod_short](includes/prod_short.md)] makes reports in Power BI available for selection in [!INCLUDE[prod_short](includes/prod_short.md)]. Default reports are automatically displayed in Power BI parts.
 6. User creates a report in Power BI Desktop.
 7. User publishes the report to the Power BI service. The reports are then available for selection in [!INCLUDE[prod_short](includes/prod_short.md)].
-
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## See Also
 

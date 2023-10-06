@@ -1,17 +1,14 @@
 ---
     title: Single EURO Payments Area (SEPA)
     description: The Single Euro Payments Area (SEPA) unifies payment methods in participating European countries/regions, making international payments as easy to process as domestic payments.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Single EURO Payments Area (SEPA)
 The Single Euro Payments Area (SEPA) unifies payment methods in participating European countries/regions, making international payments as easy to process as domestic payments. 300 million European citizens and companies are able to make and receive payments in euros, whether within or across national/regional borders, with the same basic conditions, rights, and obligations, regardless of location.  

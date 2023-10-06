@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 12/27/2022
+ms.date: 08/29/2023
 ms.custom: bap-template
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
@@ -32,6 +32,10 @@ The information that you enter in a journal is temporary and can be changed whil
 
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
+
+## Add context to general journal transactions
+
+When you create a journal, you can add links that give context to its transactions. When you post the journal, [!INCLUDE [prod_short](includes/prod_short.md)] copies the links to the posted journal and ledger entries the journal creates. For example, providing links can make life easier for your auditor. If you keep images of your expense receipts on your company's Sharepoint site, you can add links to the files. When you post the journal to submit your expenses, your auditor can quickly get to the receipt files.
 
 ## Use journal templates and batches
 
@@ -219,8 +223,6 @@ The following procedure is based on the **General Journal** page, but applies to
 2. When you're ready to post the journal, choose the **Renumber Document Numbers** action.
 
 Values in the **Document No.** field are changed, where required, so that the document number on individual or grouped journal lines are in sequential order. After documents are renumbered, you can post the journal.
-
-## See related [Microsoft training](/training/paths/use-journals-dynamics-365-business-central/)
 
 ## See Also
 

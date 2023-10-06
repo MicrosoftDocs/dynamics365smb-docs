@@ -1,9 +1,7 @@
 ---
 title: Terminology in Cost Accounting
 description: This topic defines the key terms that are used in cost accounting, such as allocation key and allocation source.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.form: 1123
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Terminology in Cost Accounting
@@ -45,8 +43,6 @@ This topic defines the key terms that are used in cost accounting.
 |Static weighting|Costs are allocated according to allocation keys, which can be modified by using a multiplier. <br />For example, two departments, with 20 and 10 employees respectively, share canteen costs. The costs are distributed between the departments by using an allocation key that represents the number of employees that eat in the canteen. In the first department, only 5 employees eat in the canteen, so this department has a multiplier of 0.25. The basis for allocation is 20 x 0.25 = 5. The total number of employees that eat in the canteen is 15. One third of the costs are allocated to the first department and two thirds of the costs are allocated to the second department.|  
 |Variable cost|Variable costs are expenses that change in proportion to the activity of a business. Variable costs are the sum of marginal costs over all units produced. Fixed costs and variable costs make up the two components of total costs.|  
 |Variant|A variant is used as an optional user-defined label for allocations. The purpose of the label is to filter groups of allocation.|  
-
-## See related [Microsoft training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## See also
 

@@ -2,11 +2,13 @@
 title: Run and Print Reports
 description: Learn to enter a report into a job queue and schedule it to be processed on a specific date and time.
 author: jswymer
+ms.author: jswymer
+ms.reviewer: altotovi
 ms.topic: conceptual
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.search.form:
-ms.date: 09/09/2022
-ms.author: jswymer
+ms.date: 09/04/2023
+ms.custom: bap-template
 
 ---
 # Run and Print Reports
@@ -137,7 +139,14 @@ Learn more at [Set the Layout Used by a Report](ui-set-report-layout.md). Or, if
 
 ## Change language and format of numbers, dates, and times
 
-By default, the language of text and format of numbers, dates, and times in a report are based on your working language and region settings, which are defined on the **My Settings** page. You can, however, change the language and format region on a case-by-case basis when you preview, print, or send a report. On the request page, select **Advanced**, then set the **Language** and **Format region** options as you want.
+By default, the language of text and format of numbers, dates, and times in a report are based on your working language and region settings, which are defined on the **My Settings** page. You can, however, change the language and format region on a case-by-case basis when you preview, print, or send a report. On the request page, set the **Language** and **Format Region** options to your preference. You can also specify the language and region format to use by default for customers and vendors on their card pages.
+
+Depending on where you've specified the language and format settings, [!INCLUDE [prod_short](includes/prod_short.md)] determines the settings to use in the following order:
+
+1. The settings you specify when you generate a report.
+2. The settings specified on the document, which come from the customer or vendor's settings.
+3. The settings specified on the Report AL object.
+4. The settings defined in My Settings.
 
 For more information about the **My Settings** page, go to [Change basic settings](ui-change-basic-settings.md#region).
 
@@ -153,8 +162,6 @@ The fields under the **Advanced** FastTab set limitations on the generated repor
 
 > [!NOTE]
 > The maximum values may be different for [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, and an administrator can change them. Learn more in the [Configuring Business Central Server - Reports](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports) section. For an overview of report limitations in [!INCLUDE[prod_short](includes/prod_short.md)] online, see [Operational Limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
-
-## See related [Microsoft training](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## See also
 

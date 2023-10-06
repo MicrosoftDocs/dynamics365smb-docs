@@ -3,7 +3,7 @@ title: How to Set Up Stockkeeping Units
 description: Use stockkeeping units to record information about your items for a specific location or a specific variant.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/19/2023
 ms.custom: bap-template
@@ -33,8 +33,6 @@ To create several stockkeeping units for an item, use the **Create Stockkeeping 
 > [!Warning]
 > If the SKU is supplied through production, the **Standard Cost** field isn't used when invoicing and adjusting the actual cost of the produced item. Instead, [!INCLUDE [prod_short](includes/prod_short.md)] uses the value in the **Standard Cost** field on the item card, and variances are calculated against the cost shares of that item.<br><br>
 > Although you can assign production BOMs and routings to SKUs, the unit cost roll-up and the related calculation of cost shares aren't available on SKUs. To learn more about standard costs, go to [About Calculating Standard Cost](finance-about-calculating-standard-cost.md)
-
-## See related [Microsoft training](/training/modules/control-inventory-multiple-locations/)
 
 ## See also
 

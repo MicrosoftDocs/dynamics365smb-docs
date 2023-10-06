@@ -1,14 +1,12 @@
 ---
 title: Accounts Receivable Reports and Analytics
 description: See which reports and analytics are available in the standard version of Business Central so that you can keep track of your accounts receivable.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316
 ms.date: 07/13/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Accounts Receivable Reports and Analytics in Business Central

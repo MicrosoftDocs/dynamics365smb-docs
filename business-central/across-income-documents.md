@@ -1,17 +1,14 @@
 ---
 title: Work with Incoming Documents
 description: You can manage incoming external business documents, such as payment receipts or PDFs, manage OCR tasks, and convert files to electronic documents and records.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/14/2022
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Incoming Documents
 
@@ -59,8 +56,6 @@ The incoming document process can consist of the following main activities:
 | Connect or remove incoming document records for any non-posted sales or purchase document and to any customer, vendor, or general ledger entry from the document or entry. |[Create Incoming Document Records Directly from Documents and Entries](across-how-connect-disconnect-income-document-records.md) |
 | From the **Chart of Accounts** and **General Ledger Entries** pages, use a search function to find general ledger entries for posted documents that don't have incoming document records and then centrally link to existing records or create new ones with attached document files. |[Find Posted Documents without Incoming Document Records](across-how-find-posted-documents-without-income-document-records.md) |
 | Get a better overview by setting incoming document records to *Processed* and remove them from the default view. |[Manage Many Incoming Document Records](across-how-manage-many-income-document-records.md) |
-
-## See related [Microsoft training](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## See also
 

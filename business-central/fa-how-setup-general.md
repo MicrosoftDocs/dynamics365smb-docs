@@ -1,16 +1,14 @@
 ---
 title: Set Up General FA Information
 description: Before you work with fixed assets, you must set up default G/L accounts, posting groups, allocation keys, journal templates and batches, and class codes.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Set Up General Fixed Assets Information
@@ -126,8 +124,6 @@ If you are using the fixed assets in [!INCLUDE[prod_short](includes/prod_short.m
 depreciation books.
 
 If the fixed assets are not integrated with the general ledger, skip step 6 and 8.
-
-## See related [Microsoft training](/training/paths/set-up-fixed-assets-management/)
 
 ## See also
 

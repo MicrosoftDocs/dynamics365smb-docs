@@ -1,9 +1,7 @@
 ---
 title: Dispose or Retire FA
 description: When you sell or otherwise dispose of a fixed asset, the disposal value must be posted to calculate and record the gain or loss. 
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: scrap
 ms.search.form: 5628, 5610, 5611, 5629, 5633
 ms.date: 06/15/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Dispose of or Retire Fixed Assets
@@ -47,8 +45,6 @@ When you sell or dispose of a fixed asset, the disposal value is posted to the g
 5. On the **Find Entries** page, select the general ledger entry line, and then choose the **Show Related Entries** action.  
 
 The **General Ledger Entries** page opens where you can see the entries that the disposal posting resulted in.  
-
-## See related [Microsoft training](/training/modules/dispose-fixed-assets/)
 
 ## See also
 

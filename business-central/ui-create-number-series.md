@@ -1,9 +1,7 @@
 ---
 title: Create Number Series
 description: Learn how to set up number series that assign unique ID codes to accounts and documents in Business Central.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 03/24/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Create Number Series
@@ -94,8 +92,6 @@ The following procedure shows how to set number series up for the Sales area. Th
 2. On the **Sales & Receivables** page, on the **Number Series** FastTab, select the desired number series for each sales card or document.
 
 The selected number will now be used to fill in the **No.** field on the card or document in question, according to the settings you made on the number series line.  
-
-## See related [Microsoft training](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## See also
 

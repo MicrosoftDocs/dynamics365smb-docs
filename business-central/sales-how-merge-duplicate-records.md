@@ -1,16 +1,14 @@
 ---
 title: Merge Duplicate Customer or Vendor Records
 description: Describes how to consolidate information about customers or vendors when you have duplicate entries about some of them.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Merge Duplicate Records
@@ -58,8 +56,6 @@ The following procedure is based on a customer card. The steps are similar for a
 
 > [!NOTE]
 > For contacts, you can use functionality to find duplicate contacts before you use the **Merge Duplicate** page. For more information, see [Searching for Duplicate Contacts](marketing-setup-contacts.md#searching-for-duplicate-contacts).
-
-## See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## See also
 

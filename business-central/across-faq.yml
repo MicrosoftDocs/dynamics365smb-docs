@@ -2,11 +2,11 @@
 metadata:
   title: FAQ About Using Business Central
   description: "Answers common questions about how to sign up for or buy Business Central, extend a trial, cancel a subscription, and find training and other support."
-  author: edupont04
+  author: brentholtorf
   ms.topic: faq
   ms.search.keywords: "FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend"
   ms.date: 07/14/2023
-  ms.author: edupont
+  ms.author: bholtorf
 title: Frequently Asked Questions about Using Business Central
 summary: |
   This section contains answers to frequently asked questions about signing up for a trial, buying a subscription, and using [!INCLUDE[prod_short](includes/prod_short.md)]. You can also learn how to get technical support.  
@@ -75,7 +75,7 @@ sections:
       - question: |
           Where do I find that line number?
         answer: |
-          Documents such as sales order or purchase invoices consist of headers and lines. Each line has a number that [!INCLUDE [prod_short](includes/prod_short.md)] uses to identify this particular line. As a result, you might see a warning or an error message that something is wrong in line number 1000, for example. In the default version of [!INCLUDE [prod_short](includes/prod_short.md)], line numbers are hidden. If you want to see the line numbers, you must personalize the current page and add the **Line No.** field. Learn more at [Personalize Your Workspace](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+          Documents such as sales order or purchase invoices consist of headers and lines. Each line has a number that [!INCLUDE [prod_short](includes/prod_short.md)] uses to identify this particular line. As a result, you might see a warning or an error message that something is wrong in line number 1000, for example. In the default version of [!INCLUDE [prod_short](includes/prod_short.md)], line numbers are hidden. If you want to see the line numbers, you must personalize the current page and add the **Line No.** field. Learn more at [Personalize Your Workspace](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
           
           
       - question: |
@@ -105,7 +105,7 @@ sections:
           
           If you sign up with a non-Microsoft 365 work account (such as joe@mysolution.com), and you have a Microsoft 365 subscription, then you can associate your domain (*mysolution.com*) with the Microsoft 365 subscription. Learn more at [What is a domain?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) in the Microsoft 365 content.  
           
-          If you don't have a Microsoft 365 subscription, and you don't want to buy one, then we provision a new Azure Active Directory tenant for you when you sign up so that you have access to the advanced administration tools in the Azure portal.  
+          If you don't have a Microsoft 365 subscription, and you don't want to buy one, then we provision a new Microsoft Entra tenant for you when you sign up so that you have access to the advanced administration tools in the Azure portal.  
           
       - question: |
           What is the integration with Microsoft 365 about?

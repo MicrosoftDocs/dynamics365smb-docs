@@ -1,15 +1,14 @@
 ---
 title: About Cost Accounting
 description: Cost accounting can help you understand the costs of running a business. Cost accounting information is designed to analyze various issues.  
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
 ms.date: 08/23/2022
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # About Cost Accounting
 
@@ -68,8 +67,6 @@ Similar to budgeting in the general ledger, you can create budgets to plan for c
 ## Cost reporting
 
 Most reports and statistics are based on the posted cost entries. You can set the sorting of the results and use filters to define which data must be displayed. You can create reports for cost distribution analysis. In addition, you can use the standard financial reports to define how your reports for the chart of cost types are displayed.  
-
-## See related [Microsoft training](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## See also
 

@@ -1,17 +1,14 @@
 ---
     title: Swiss Electronic Payments
     description: Swiss enhancements allow you to send invoices to customers electronically. The invoices are presented and paid directly using the customer's online banking software.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 03/22/2022
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Swiss Electronic Payments
 

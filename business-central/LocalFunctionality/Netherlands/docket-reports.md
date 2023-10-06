@@ -1,17 +1,14 @@
 ---
     title: Docket Reports [NL]
     description: The Dutch telebanking application allows you to combine ledger entries for the same customer or vendor into one payment or collection order to the bank.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/18/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Docket Reports in the Dutch Version
 The Dutch telebanking application allows you to combine ledger entries for the same customer or vendor, having the same transaction mode, into one payment or collection order to the bank. As such one total amount will be paid to or collected from the vendor or customer involved. Possibly this combined payment could lack all detail information about the individual payments or collections. Telebanking offers you the possibility to inform your vendor or customer in detail by generating a docket report that describes the individual payments that constitute the total amount paid or collected.  

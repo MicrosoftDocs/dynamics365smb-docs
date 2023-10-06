@@ -1,12 +1,12 @@
 ---
 title: Customizing Business Central Online Using Apps
 description: Learn all about adding functionality and customizing Business Central by installing apps in this article.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 2500, 2502, 20350, 20353
 ms.date: 09/27/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Customizing Business Central Online with Apps
@@ -87,8 +87,6 @@ Microsoft partners and resellers can create an app that they can use to compile 
 
 > [!NOTE]
 > If you are a Microsoft partner or reseller, and you're interested in providing a list of recommended apps, see [Recommend Apps from AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) in the administration content.
-
-## See related [Microsoft training](/training/modules/customize-dynamics-365-business-central/)
 
 ## See also
 

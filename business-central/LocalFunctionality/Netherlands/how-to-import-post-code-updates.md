@@ -1,17 +1,14 @@
 ---
     title: How to Import Post Code Updates [NL]
     description: The post code file can be imported and update the relevant data of the Post Code Range table.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/18/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Import Post Code Updates in the Dutch Version
 Every month a post code file will be delivered with all post code mutations in a month. This post code file can be imported and update the relevant data of the **Post Code Range** table.  

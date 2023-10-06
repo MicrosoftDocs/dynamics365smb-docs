@@ -1,8 +1,7 @@
 ---
 title: Create and Modify Custom Layouts for Reports and Documents
 description: Learn how to create customized layouts to personalize the appearance of a report when viewed, printed, or saved.
-author: SorenGP
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,7 +9,7 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/06/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # (Legacy) Create and Modify Custom Report Layouts
@@ -112,8 +111,6 @@ To ensure that reports always display and print with the intended fonts, whereve
 ### Adding data fields
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
-
-## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## See also
 

@@ -1,17 +1,14 @@
 ---
 title: Configure Production Processes
 description: To convert material into produced end items, production resources, such as bills of material, routings, machine operators, and machinery must be set up in the system.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 99000768, 99000779, 99000780, 99000866
-
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Setting Up Manufacturing

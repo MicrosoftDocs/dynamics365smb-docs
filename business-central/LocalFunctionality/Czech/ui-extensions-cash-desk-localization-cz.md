@@ -7,7 +7,7 @@ author: v-pejano
 ms.topic: conceptual
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
 ms.date: 05/31/2022
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

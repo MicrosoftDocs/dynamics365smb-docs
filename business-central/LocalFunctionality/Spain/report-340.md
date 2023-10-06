@@ -1,18 +1,14 @@
 ---
     title: Report 340 [ES]
     description: This topic describes Report 340, which contains information about invoices and taxes that were issued or received by your company in a given period. 
-
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/21/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Report 340 in the Spanish Version
 The **Report 340** report contains information about invoices and taxes that were issued or received by your company in a given period, based on **VAT Date**. The report is generated in a format that is approved by the tax authorities. This report should be submitted in the company's monthly or quarterly liquidation period, depending on the size of the company. This file can be uploaded to the Spanish Tax Agency website or submitted on CD-ROM. For more information, see the [Spanish Tax Agency](https://www.agenciatributaria.es/) website. If the number of operations exceeds 1,000,000, the report can be submitted electronically.  

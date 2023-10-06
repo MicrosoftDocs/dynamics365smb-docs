@@ -1,16 +1,14 @@
 ---
 title: Make Drop Shipments (contains video)
 description: Describes how to create a sales order linked to a purchase order to enable shipment directly from the vendor to the customer.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Make Drop Shipments
@@ -74,8 +72,6 @@ After the vendor ships the items, you can post the sales order as shipped. You c
 3. In the **Qty. to Ship** field, specify how many of the order quantity to ship, the full or a partial order quantity.
 4. Choose the **Post** or **Post and Send** action.
 5. Choose either the **Ship** option to invoice later, or the **Ship and Invoice** option to invoice immediately.
-
-## See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## See also
 

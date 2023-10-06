@@ -1,13 +1,12 @@
 ---
 title: Currencies in Business Central
 description: get an overview of how Business Central defines your local currency versus the foreign currencies that you do trade in.
-author: edupont04
-
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: multiple currencies
 ms.search.form: 5, 118
 ms.date: 03/15/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Currencies in Business Central
@@ -30,8 +29,6 @@ You specify the currency codes in the **Currencies** list, including extra infor
 ## Exchange Rates
 
 The exchange rates are the tool to calculate the local currency value (LCY) of each currency transaction. For more information, see [Update Currency Exchange Rates](finance-how-update-currencies.md).  
-
-## See related [Microsoft training](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## See Also
 

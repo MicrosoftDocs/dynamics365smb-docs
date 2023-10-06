@@ -123,7 +123,7 @@ This section describes the minimum requirements that must be met for your organi
   |Office 365 E5|c7df2760-2c81-4ef7-b578-5b5392b571df|
   |Office 365 F2|131fd665-5752-4995-a628-bcba5c889745|
   |Office 365 F3|4b585984-651b-448a-9e53-3b10f069cf7f|
-  |Microsoft Teams Essentials (Azure AD Identity) |3ab6abff-666f-4424-bfb7-f0bc274ec7bc|
+  |Microsoft Teams Essentials (Microsoft Entra Identity) |3ab6abff-666f-4424-bfb7-f0bc274ec7bc|
   
   Most offers based on these plans are also supported. For example, if you subscribe to Microsoft 365 Business Premium (Nonprofit Staff Pricing), it's a specific offer for not-for-profit organizations based on the Microsoft 365 Business Premium plan, and is therefore supported.
 

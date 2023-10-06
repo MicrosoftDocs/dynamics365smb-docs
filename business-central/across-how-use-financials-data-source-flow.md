@@ -8,7 +8,7 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate, 
 ms.search.form: 1500, 
-ms.date: 10/10/2022
+ms.date: 08/31/2023
 ms.custom: bap-template 
 ---
 # Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]
@@ -38,17 +38,18 @@ There are three different cloud flow types that you can work with:
 
 |Flow type|Description|
 |---------|-----------|
-|Automated|This flow type is run automatically by an event. In [!INCLUDE[prod_short](includes/prod_short.md)], an event could be when a record or document is created, modified of deleted. So, for example, a new sales invoice can trigger a flow for an approval request, which can have different events set depending on the approver's reply. A negative response sends a notification and email to the approval requester. A positive reply simultaneously updates an Excel spreadsheet located in a SharePoint folder and sends an update to a Teams chat. Automated flows can be started by both internal and external events in [!INCLUDE[prod_short](includes/prod_short.md)].|
-|Scheduled|This type of flow is also automatically run but it runs periodically at a scheduled date and time. |
-|Instant |This flow type is run on-demand, requiring the user to run it manually from a button or action in another app or device, in this case, the [!INCLUDE[prod_short](includes/prod_short.md)] client. Instant flows work similarly to batch shortcuts, performing multiple lengthy steps with a few button presses and are launched from specific pages or tables. For example, a flow can add a button to the action menu on the **Vendors** page to block payments to a vendor and, at the same time, send customizable emails to the vendor's contact and your company's purchasers as well as update the contact in Outlook. |
+|Automated flow|This flow type is run automatically by an event. In [!INCLUDE[prod_short](includes/prod_short.md)], an event could be when a record or document is created, modified of deleted. So, for example, a new sales invoice can trigger a flow for an approval request, which can have different events set depending on the approver's reply. A negative response sends a notification and email to the approval requester. A positive reply simultaneously updates an Excel spreadsheet located in a SharePoint folder and sends an update to a Teams chat. Automated flows can be started by both internal and external events in [!INCLUDE[prod_short](includes/prod_short.md)].|
+|Approval flow|Approval flows are also automated flows in Power Automate, but they're designed specifically for requesting approval when changes are made to records and data. You can use approval flows in Power Automate as an alternative to the [approval workflows feature](across-use-workflows.md) that's part of [!INCLUDE[prod_short](includes/prod_short.md)]. |
+|Scheduled flow|This type of flow is also automatically run but it runs periodically at a scheduled date and time. |
+|Instant flow|This flow type is run on-demand, requiring the user to run it manually from a button or action in another app or device, in this case, the [!INCLUDE[prod_short](includes/prod_short.md)] client. Instant flows work similarly to batch shortcuts, performing multiple lengthy steps with a few button presses and are launched from specific pages or tables. For example, a flow can add a button to the action menu on the **Vendors** page to block payments to a vendor and, at the same time, send customizable emails to the vendor's contact and your company's purchasers as well as update the contact in Outlook. |
 
 ## Power Automate features
 
-You can explore all Power Automate flows currently available to you by signing in to [Power Automate](https://powerautomate.com) and selecting **My flows** from the navigation bar on the left. Here you'll find any flows you have already created yourself and flows shared with you by an admin or coworker.
+You can explore all Power Automate flows currently available to you by signing in to [Power Automate](https://powerautomate.com) and selecting **My flows** from the navigation bar on the left. Here you find any flows you have already created yourself and flows shared with you by an admin or coworker.
 
-- Instant flows are also made available for running directly from most list, card, and document pages in [!INCLUDE[prod_short](includes/prod_short.md)]. You'll find the instant flows in the **Automate** action group in the action bar of pages. To run a flow, select it, and follow the instructions presented to you. Learn more in the sections that follow.
- 
-- With automated flows in [!INCLUDE[prod_short](includes/prod_short.md)], there's nothing for you to do, unless to want to change them or turn them off. Otherwise, they'll just work when triggered. 
+- Instant flows are also made available for running directly from most list, card, and document pages in [!INCLUDE[prod_short](includes/prod_short.md)]. You find the instant flows in the **Automate** action group in the action bar of pages. To run a flow, select it, and follow the instructions presented to you. Learn more in the sections that follow.
+
+- With automated flows in [!INCLUDE[prod_short](includes/prod_short.md)], there's nothing for you to do, unless to want to change them, or turn them off. Otherwise, they just work when triggered. 
 <!--
 
 ## Automated flows
@@ -63,7 +64,7 @@ Instant flows open inside [!INCLUDE [prod_short](includes/prod_short.md)] online
 
 1. In the action bar, select **Automate**, then choose a flow from list of available flows under the **Power Automate** action
 
-    :::image type="content" source="media/power-automate-action-intro.png" alt-text="Shows the Automate action in the action bar with expanded actions.":::
+    :::image type="content" source="media/power-automate-instant-menu.svg" alt-text="Shows the Automate action with instant flow actions.":::
 
     On some page, **Automate** is nested under the **More options (...)**. 
 2. In the **Run Flow** pane, fill in any required fields, then select **Continue** to run the flow.
@@ -86,13 +87,25 @@ Most flows require you to fill in a field or two before you choose the **Run flo
 
 ## Create, edit, and manage flows
 
-Creating new flows, modifying and managing existing ones (like turning them on or off) can be done directly in Power Automate. But you can initiate some of these tasks from inside [!INCLUDE[prod_short](includes/prod_short.md)]:
+Creating new flows, modifying and managing existing ones (like turning them on or off) can be done directly in Power Automate. But you can initiate some of these tasks from Automate action menu in  [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- To create an instant flow from a list, card, or document page, select **Automate** > **Create a Flow**.
-- To open Power Automate from a list, card, or document page, select **Automate** > **Manage Flows**.
+:::image type="content" source="media/power-automate-menu.svg" alt-text="Shows the Automate action in the action bar with expanded actions.":::
+
+- To create an automated flow from a list, card, or document page, select **Automate** > **Create automated flow**.
+- To create an approval workflow from a card or document page, select **Automate** > **Create approval flow**.
+
+  > [!TIP]
+  > This action is only available on card and document type pages; not lists.
+- To create an instant flow from a list, card, or document page, select **Automate** > **Create action based on a flow**.
+- To open Power Automate from a list, card, or document page, select **Automate** > **Manage flows**.
 <!--- To create new flows or manage existing flows from inside [!INCLUDE[prod_short](includes/prod_short.md)], got to the **Manage Power Automate Flows** page.-->
 
-These tasks are typically done by an admin or super user. The tasks require a broader knowledge of the business processes in [!INCLUDE[prod_short](includes/prod_short.md)]. To learn more, explore [Power Automate integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview), [Set Up Instant Flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows), and [Manage Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
+These tasks are typically done by an admin or super user. The tasks require a broader knowledge of the business processes in [!INCLUDE[prod_short](includes/prod_short.md)]. To learn more, go to the following articles in the Business Central Dev and IT Pro help:
+
+- [Power Automate integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview)
+- [Create automated flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) (also covers approval flows)
+- [Create instant flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)
+- [Manage Power Automate flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)
 <!-- 
 
 ## Add more automated flows and instant flows
@@ -108,8 +121,6 @@ You can create new flows or manage existing Power Automate flows in [!INCLUDE [p
 <!--
 You can also manage available Power Automate workflows on the **Workflows** page in [!INCLUDE[prod_short](includes/prod_short.md)]. The page lists both the built-in approval and Power Automate workflows, with options for the latter to enable/disable, delete, and view the workflow on the Power Automate website.-->
 
-## See related [Microsoft training](/training/modules/use-power-automate/)
-
 ## See also
 
 [Troubleshoot Your [!INCLUDE[prod_short](includes/prod_short.md)] Automated Workflows](across-flow-troubleshoot.md)  
@@ -124,4 +135,3 @@ You can also manage available Power Automate workflows on the **Workflows** page
 [Switch on Instant Flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
-a

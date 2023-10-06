@@ -2,15 +2,11 @@
 title: United Kingdom Local Functionality [GB]
 description: This article gives you an overview of local functionality in the United Kingdom version of Business Central.
 author: sorenfriisalexandersen
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords:
-ms.date: 06/22/2021
 ms.author: soalex
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.date: 08/18/2023
+ms.custom: bap-template
 
 ---
 # United Kingdom Local Functionality in the British Version
@@ -42,7 +38,7 @@ The following topics describe local functionality that is unique to the United K
 
 ## Future legislation requirements being investigated
 
-* Functionality to resubmit a VAT Return **2023 Wave 2**
+* Functionality to resubmit a VAT Return **2024 Wave 1**
 
 If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
@@ -53,6 +49,5 @@ If you are aware of any upcoming regulatory features, please submit a [Regulator
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

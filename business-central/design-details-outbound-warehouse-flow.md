@@ -3,16 +3,17 @@ title: Outbound Warehouse Process Overview
 description: This article describes the outbound warehouse workflow.
 author: brentholtorf
 ms.author: bholtorf 
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 11/25/2022
-ms.custom: bap-template
-    
+ms.custom: bap-template    
 ---
 # Outbound Warehouse Processes
 
-Outbound processes in warehouses start when you release a source document to take items out of a warehouse location. For example, either to ship the items somewhere or to move them to another company location. In principle, the process of shipping outbound orders consists of two activities:
+Outbound processes in warehouses start when you release a source document to take items out of a warehouse location. For example, either to ship the items somewhere or to move them to another company location. You can ship physical and non-inventory items. To learn more about receiving non-inventory items, go to [Post non-inventory items](#post-non-inventory-items). 
+
+In principle, the process of shipping outbound orders consists of two activities:
 
 * Picking items from the shelves.
 * Shipping items out of the warehouse.
@@ -108,6 +109,10 @@ Warehouse entries are created, and the warehouse pick lines are deleted if the f
 ### 5: Post the warehouse shipment
 
 When all items on the warehouse shipment document are registered as picked, the warehouse worker posts the shipment. Posting updates the item ledger entries to reflect the reduction in inventory. For example, the **Quantity Shipped** field on the outbound source document line is updated.  
+
+## Post non-inventory items
+
+[!INCLUDE [post-non-inventory-items](includes/post-non-inventory-items.md)]
 
 ## See Also
 

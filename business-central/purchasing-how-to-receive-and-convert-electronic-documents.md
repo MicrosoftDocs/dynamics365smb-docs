@@ -1,9 +1,7 @@
 ---
 title: Receive and Convert Electronic Documents
 description: This topic describes how to receive electronic documents directly from trading partners or from an OCR service.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.form: 189, 190, 191 
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Receive and Convert Electronic Documents
@@ -54,8 +52,6 @@ The following procedure describes how to receive a vendor invoice and convert it
     A purchase invoice will be created in [!INCLUDE[prod_short](includes/prod_short.md)] based on the information in the electronic document.  
 
     Any validation errors, typically related to wrong or missing master data in [!INCLUDE[prod_short](includes/prod_short.md)] will be shown on the **Error Messages** FastTab.  
-
-## See related [Microsoft training](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## See Also
 

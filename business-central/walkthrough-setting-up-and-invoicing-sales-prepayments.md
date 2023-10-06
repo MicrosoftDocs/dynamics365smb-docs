@@ -1,16 +1,14 @@
 ---
     title: Setting Up and Invoicing Sales Prepayments
     description: Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. 
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 12/03/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Walkthrough: Setting Up and Invoicing Sales Prepayments
@@ -130,7 +128,7 @@ Susan creates the prepayment invoice and sends it to the customer.
     |**Item**|**1896-S**|**1**|  
     |**Item**|**1900-S**|**1**|
 
-    By default, the prepayment fields on the sales line are hidden. To display the fields you must personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+    By default, the prepayment fields on the sales line are hidden. To display the fields you must personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 6. Verify that the **Prepayment %** field on the line with item **1900-S** contains **30**. The default value was taken from the sales header, which was populated from the customer card.  
 
@@ -237,8 +235,6 @@ This walkthrough covered the following steps to set up [!INCLUDE[prod_short](inc
 You've also posted a prepayment invoice, created a second prepayment invoice when the order has changed, and posted the final invoice for the remaining amount.  
 
 The prepayments capabilities make it easy to set up and enforce prepayment rules for customers and items. They also let you to post every payment against an invoice.  
-
-## See related [Microsoft training](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## See also
 

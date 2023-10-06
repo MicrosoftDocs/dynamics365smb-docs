@@ -8,7 +8,6 @@ ms.topic: conceptual
 ms.search.form: 1360, 1361, 1364, 
 ms.date: 08/02/2023
 ms.custom: hap-template
-
 ---
 # The WorldPay Payments Standard Extension
 

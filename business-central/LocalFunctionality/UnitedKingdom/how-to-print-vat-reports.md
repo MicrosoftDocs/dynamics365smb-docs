@@ -1,17 +1,14 @@
 ---
     title: Print VAT Reports [GB]
     description: This topic explains the different reports that you can use to report VAT information and how to print each one.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/21/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Print VAT Reports in the British Version
 You can use the following reports for VAT reporting:  

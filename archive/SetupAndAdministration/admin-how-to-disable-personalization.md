@@ -3,7 +3,7 @@
     description: You can disable personalization for all users by modifying the profile. When you disable personalization for a profile, all users of that profile cannot personalize their user interface.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

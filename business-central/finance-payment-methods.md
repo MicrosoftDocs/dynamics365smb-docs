@@ -2,8 +2,6 @@
 title: Set Up Payment Methods (contains video)
 description: You use payment methods, for example, check, bank transfer, cash, or PayPal, to define how sales and purchase invoices will be paid.
 author: brentholtorf
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,7 +10,6 @@ ms.search.keywords: check, bank transfer, cash, PayPal
 ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
-
 ---
 # Set Up Payment Methods
 
@@ -39,8 +36,6 @@ Optionally, add payment terms to your payment method. For more information, see 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor**, and then choose the related link.
 2. In the **Payment Method Code** field, choose the method to use by default for the customer or vendor.
-
-## See related [Microsoft training](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## See also
 

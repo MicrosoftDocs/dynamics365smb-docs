@@ -1,19 +1,19 @@
 ---
 title: Archive Sales and Purchase Documents
-description: You can archive sales and purchase orders, quotes, return orders, and blanket orders, and restore the originals if needed.
+description: You can archive sales and purchase orders, quotes, return orders, and blanket orders.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 06/02/2023
+ms.date: 08/18/2023
 ms.custom: bap-template
 ms.search.form: 42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349
 ---
 # Archive Documents
 
-You can archive sales and purchase orders, quotes, return orders, and blanket orders. Archiving documents lets you restore the original, if needed. You can archive a sales or purchase document several times, saving a different archived version each time.
+You can archive sales and purchase orders, quotes, return orders, and blanket orders. You can archive a sales or purchase document several times, saving a different archived version each time.
 
-For archived sales documents where the original still exists and isn't posted, you can use the **Restore** action to overwrite the current document with an archived version.
+For archived sales documents where the original still exists and isn't posted, you can use the **Restore** action to overwrite the current document with an archived version. The action works only for sales documents.
 
 For archived documents where the original is deleted, you can only reuse the content by copying the data, for example, by using the **Copy from Document** action.  
 

@@ -3,7 +3,7 @@
     description: Posting represents the accounting action of recording business transactions in the various company ledgers.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

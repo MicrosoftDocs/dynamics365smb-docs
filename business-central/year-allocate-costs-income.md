@@ -1,27 +1,27 @@
 ---
 title: Overview of Tasks to Allocate Costs and Income
-description: Outlines the tasks to allocate an entry in a general journal to several different accounts when you post the journal.
-author: SorenGP
-
-
+description: Outlines the tasks to allocate an entry in a recurring general journal to several different accounts when you post the journal.
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 283, 5629
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 09/26/2023
+ms.author: bholtorf
 
 ---
-# Allocate Costs and Income
+# Allocate Recurring Costs and Income
 
-You can allocate an entry in a general journal to several different accounts when you post the journal. The allocation can be made by three different methods:
+You can allocate an entry in a recurring general journal to several accounts when you post the journal. To learn more about recurring general journals, go to [Work with recurring journals](ui-work-general-journals.md#work-with-recurring-journals). 
+
+The allocation can be made by three different methods:
 
 * Quantity
 * Percentage (%)
 * Amount
 
-The allocation features can be used with recurring general journals and in fixed assets journals.
+The allocation features work with recurring general journals and in fixed asset journals.
 <!--You can also distribute the cost or revenue of a line to an intercompany partner when you post a sales or purchase document. When you post the document, a line will be posted in your general journal, and a corresponding line will be created in the intercompany outbox.-->
 
 The following procedures describe how to prepare to allocate costs in a recurring general journal by defining allocation keys. When allocation keys are defined, you complete and post the journal like any other recurring general journal. For more information, see [Work with General Journals](ui-work-general-journals.md).

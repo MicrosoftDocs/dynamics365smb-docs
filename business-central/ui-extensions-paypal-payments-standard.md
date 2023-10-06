@@ -2,14 +2,13 @@
 title: Using the PayPal Payments Standard Extension
 description: This topic describes how to use the standard extension to enable customers to make payments with PayPal.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: nikolak
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 1070, 1071, 1073, 1074
-ms.date: 06/23/2021
-ms.author: bholtorf
+ms.date: 10/06/2023
+ms.custom: bap-template
 
 ---
 # The PayPal Payments Standard Extension
@@ -28,7 +27,17 @@ The PayPal Payments Standard service provides the following benefits:
 * The PayPal Payments Standard service does not involve monthly fees or setup fees.
 * Because it is an extension, you can easily enable the PayPal Payment Standard service when and if your business requires it.  
 
-For more information, see [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md).
+To learn more about how to set up the extension, go to [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md).
+
+## Register payments automatically for business accounts
+
+[!INCLUDE [prod_short](includes/prod_short.md)] can register payments automatically if you have a business account for the PayPal Commerce Platform. When your customers use the PayPal link to pay an invoice, [!INCLUDE [prod_short](includes/prod_short.md)] posts the entries and close the document. 
+
+To use this capability, on the **Payment Registration Setup** page in [!INCLUDE [prod_short](includes/prod_short.md)], turn on the **Register payments automatically** toggle and verify the accounts you'll use for the payments. If you decide that you don't want to register payments automatically, you can turn it off again.
+
+> [!TIP]
+> Developers can use sandbox accounts to test the setup. To do that, change the PayPal URL to **sandbox.paypal.com**. [!INCLUDE [prod_short](includes/prod_short.md)] uses the PayPals Instant Payment Notification (IPN) through notify_url.
+
 
 ## See also
 

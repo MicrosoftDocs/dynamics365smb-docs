@@ -1,6 +1,6 @@
 ---
 title: Using the PayPal Payments Standard Extension
-description: This topic describes how to use the standard extension to enable customers to make payments with PayPal.
+description: This article describes how to use the standard extension to enable customers to make payments with PayPal.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: nikolak
@@ -13,9 +13,9 @@ ms.custom: bap-template
 ---
 # The PayPal Payments Standard Extension
 
-Customers continuously require higher customer service, both in terms of product quality but also in terms of delivery and payment options. The PayPal Payments Standard service helps you increase your customer service.
+The PayPal Payments Standard extension can help you increase your customer service levels by making it easier for your customers to pay their bills.
 
-As an alternative to collecting payments through bank transfer or credit cards, you can offer your customers to pay you through their PayPal account. When you send a sales invoice by email, there is a PayPal link in the email body and in the attached PDF document. When the customer chooses the link, the service page for their PayPal account appears showing the payment details for the sale. The customer can then pay the invoice as any other PayPal payment.
+As an alternative to collecting payments through bank transfer or credit cards, customers can pay through their PayPal account. When you send a sales invoice by email, there's a PayPal link in the email body and in the attached PDF document. If the customer chooses the link, the service page for their PayPal account opens and shows the payment details. The customer can then pay the invoice as any other PayPal payment.
 
 The PayPal Payments Standard service provides the following benefits:
 

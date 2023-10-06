@@ -14,6 +14,10 @@ ms.author: bholtorf
 ---
 # Receive and Convert Electronic Documents
 
+> [!NOTE]
+> This contect if applicable only on Business Central versions before 2023 release wave 2. From this version, there is a new functionality abou E-Documents. Mored detaisl here: [Set up e-documents](finance-how-setup-edocuments.md).  
+
+
 The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. To receive an invoice from a vendor as an electronic PEPPOL document, you process the document in the Incoming Documents page to convert it to a purchase invoice or general journal line in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 In addition to receiving electronic documents directly from trading partners, you can receive electronic documents from an OCR service that has turned your PDF or image files into electronic documents.  

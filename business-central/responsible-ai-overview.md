@@ -16,4 +16,4 @@ ms.reviewer: jswymer
 
 [!INCLUDE[responsible-ai-features](includes/responsible-ai-features.md)]
 
-- [Item marketing text suggestions](faqs-marketing-text.md)
+- [Bank reconciliation with Copilot](faqs-bank-reconciliation.md)

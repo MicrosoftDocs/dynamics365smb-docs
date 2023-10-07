@@ -43,5 +43,3 @@ Generative AI integration enables AL developers to use Azure OpenAI Service's po
 ## See also
 
 - [Feature page]([Link])
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

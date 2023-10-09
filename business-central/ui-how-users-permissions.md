@@ -26,7 +26,7 @@ For more information about the different types of licenses and how licensing wor
 
 ## Manage users and licenses in online tenants
 
-User accounts in [!INCLUDE[prod_short](includes/prod_short.md)] must be first created in the Microsoft 365 admin center. These user accounts aren't exclusive to Business Central. If you subscribe to other plans, they can be used to sign in to other applications, such as Power BI. For information about creating users in the Microsoft 365 admin center, go to [Add users in Microsoft admin center](/microsoft-365/admin/add-users/add-users).
+User accounts in [!INCLUDE[prod_short](includes/prod_short.md)] must be first created in the Microsoft 365 admin center. These user accounts aren't exclusive to [!INCLUDE [prod_short](includes/prod_short.md)]. If you subscribe to other plans, they can be used to sign in to other applications, such as Power BI. For information about creating users in the Microsoft 365 admin center, go to [Add users in Microsoft admin center](/microsoft-365/admin/add-users/add-users).
 
 Your subscription to [!INCLUDE[prod_short](includes/prod_short.md)] online defines how many [!INCLUDE[prod_short](includes/prod_short.md)] user licenses you're allowed. Users are added to your tenant in the Microsoft Partner Center, typically by your Microsoft partner. For more information, see [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
 
@@ -37,9 +37,12 @@ You assign licenses to users according to the work each user will do in [!INCLUD
 
 For more information, see [Administration of Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) in the administration Help.
 
-After user accounts are created in the Microsoft 365 admin center, there are two ways to import them to Business Central:
+After user accounts are created in the Microsoft 365 admin center, there are two ways to import them to [!INCLUDE [prod_short](includes/prod_short.md)]:
 
 - A user account is imported automatically when the user signs in to [!INCLUDE [prod_short](includes/prod_short.md)] the first time.
+
+   > [!NOTE]
+   > After a user signs in to [!INCLUDE [prod_short](includes/prod_short.md)] online, you can't delete the user.
 
 - The administrator can import users by choosing the **Update Users from Microsoft 365** action on the **Users* page.
 

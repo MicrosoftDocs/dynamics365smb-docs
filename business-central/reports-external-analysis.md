@@ -17,6 +17,7 @@ In case you prefer to use business intelligence tools that are not embedded in [
 
 | To | See |
 | --- | --- |
+|Analyze data with Microsoft Fabric| [Using Microsoft Fabric with Business Central](admin-fabric.md) |
 |Analyze data with your own Power BI resource| [Using Power BI with Business Central](admin-powerbi.md) |
 |Analyze financial statements with Excel| [Analyze Financial Statements with Excel](finance-analyze-excel.md) |
 |Extract data to a data warehouses or a data lake. |[Extracting data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)|

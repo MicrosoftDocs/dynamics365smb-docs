@@ -118,10 +118,10 @@ When you work with the **Intrastat Report** you will see a **Status** field on t
 
 ### Locations in Intrastat reporting 
 
-[!INCLUDE[prod_short](includes/prod_short.md)] always use information in the **Country/Region Code** field on the **Location Card** page as a country for *send-from* or for *receive-to* goods. In a case where this information doesn't exist configured or location was not used, system will use the same information from the **Company Information** page.   
+[!INCLUDE[prod_short](includes/prod_short.md)] always uses the information in the **Country/Region Code** field on the **Location Card** page as the country for **send from** or for **receive to** goods. When this information doesn't exist or location wasn't used, the system uses the information from the **Company Information** page.   
 
 > [!NOTE]
-> If the company operates from more countries, Intrastat reporting desn't work for all countries where locations are configured, and reporting is based only for the main country, as in this moment it is not possible to use multi-country reporting.  
+> If the company operates from more than one country, Intrastat reporting desn't work for all countries where locations are configured. Reporting is based only for the main country, as it's not currently possible to use multi-country reporting.  
 
 ### Triangular trade in intrastat
 

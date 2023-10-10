@@ -12,12 +12,16 @@ ms.custom: bap-template
 ---
 # Introduction to [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)]
 
-[!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] is an end-to-end analytics solution with full-service capabilities including data movement, data lakes, data engineering, data integration, data science, real-time analytics, and business intelligence—all backed by a shared platform providing robust data security, governance, and compliance. Your organization no longer needs to stitch together individual analytics services from multiple vendors. Instead, use a streamlined solution that’s easy to connect, onboard, and operate.
+[!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] is an end-to-end analytics solution with full-service capabilities including data movement, data lakes, data engineering, data integration, data science, real-time analytics, and business intelligence — all backed by a shared platform providing robust data security, governance, and compliance. Your organization no longer needs to stitch together individual analytics services from multiple vendors. Instead, use a streamlined solution that’s easy to connect, onboard, and operate.
 
 > [!NOTE]
 > [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] is currently in preview. For more information about the Fabric roadmap, see [aka.ms/FabricRoadmap](https://aka.ms/FabricRoadmap)
 > 
 > The regular publishing of this roadmap will help ensure you have line-of-sight into how [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] is going to address your needs.
+
+## Where does [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] fit into [!INCLUDE[prod_short](includes/prod_short.md)] analytics
+
+[!INCLUDE[prod_short](includes/prod_short.md)] comes with a lot of out-of-the-box reports and data analysis capabilities such as financial reporting, open in Excel, and analysis mode on lists and queries. On top of this, it is easy to define  Power BI reports that read data from standard and custom APIs, define Power BI metrics scorecards, and embed all of this directly in the [!INCLUDE[prod_short](includes/prod_short.md)] client. But for customers with more advanced data science and/or business intelligence scenarios that require richer data engineering or data integration, [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] might be a good option. 
 
 ## OneLake
 A key part of [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] is OneLake. You can think of OneLake as the OneDrive for data. It provides you with data lake as a service without having to build it yourself. Every [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] tenant will have one OneLake. There is no infrastructure to set up or manage. All the data, which lands in OneLake will automatically take part in out of the box data governance such as data lineage, data protection, certification, and catalog integration. It breaks down data silos by enabling different parts of the organization to work independently while still contributing to the same data lake.

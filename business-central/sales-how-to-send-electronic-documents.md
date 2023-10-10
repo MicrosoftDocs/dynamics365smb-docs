@@ -14,7 +14,7 @@
 # Send Electronic Documents
 
 > [!NOTE]
-> This contect if applicable only on Business Central versions before 2023 release wave 2. From this version, there is a new functionality abou E-Documents. Mored detaisl here: [Set up e-documents](finance-how-setup-edocuments.md).  
+> This content in this article is only applicable for versions of Dynamics 365 Business Central that were released before 2023 release wave 2. In 2023 release wave 2, new functionality for E-Documents is included. To learn more, see [Set up e-documents](finance-how-setup-edocuments.md).  
 
 The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports sending electronic invoices and credit memos in the PEPPOL format, a format that the largest document exchange service providers support. A document exchange service provider dispatches electronic documents between trading partners. To provide support for other electronic document formats, you use the data exchange framework.  
 

@@ -15,7 +15,7 @@ ms.author: bholtorf
 # Receive and Convert Electronic Documents
 
 > [!NOTE]
-> This contect if applicable only on Business Central versions before 2023 release wave 2. From this version, there is a new functionality abou E-Documents. Mored detaisl here: [Set up e-documents](finance-how-setup-edocuments.md).  
+> The content in this article is only applicable for versions of Dynamics 365 Business Central that were released before 2023 release wave 2. In 2023 release wave 2, new functionality for E-Documents is included. To learn more, see [Set up e-documents](finance-how-setup-edocuments.md). 
 
 
 The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. To receive an invoice from a vendor as an electronic PEPPOL document, you process the document in the Incoming Documents page to convert it to a purchase invoice or general journal line in [!INCLUDE[prod_short](includes/prod_short.md)].

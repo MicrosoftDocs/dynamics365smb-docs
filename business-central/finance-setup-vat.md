@@ -103,6 +103,31 @@ You can prevent people from posting or changing VAT entries in specific date ran
 
 #### To limit posting based on Allow from/to period
 
+> [!NOTE]
+> From Business Central version 23.1 this control has been changed. In earlier versions there was only one control on the **General Ledger Setup** page for both Posting Date and VAT Date, but now these controls are split, so control in the **General Ledger Setup** page is for the **Posting Date** only and control in the **VAT Setup** page is for the **VAT Date** only. There are also new date controls in the **User Setup** page.  
+
+##### If you are using versions 23.1 or newer
+
+> [!IMPORTANT]
+> When you upgarde version, please be aware that we upgraded values in the new **Allow VAT Date From/To** in the **VAT Setup** page based on the values in **Allow Posting From/To** in the **General Ledger Setup**. So if you want to use different date controls, please open the **VAT Setup** page and make changes.  
+
+You can set up limitation on the company or specific user levels.
+
+To limit all postings for the whole company:
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Setup**, and then choose the related link.  
+2. On the **VAT Date** FastTab, in the **Allow VAT Date From** field, specify the VAT date from which you allow posting. Posting a document or journal with a VAT date before this date isn't allowed.  
+3. On the **VAT Date** FastTab, in the **Allow VAT Date To** field, specify the VAT date until which you allow posting. Posting a document or journal with a VAT date after this date isn't allowed. 
+
+To limit postings for the specific user:  
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.  
+2. In the **User ID** field, specify the user you want to allow to post in specific period.  
+3. In the **Allow VAT Date From** field, specify the VAT date from which you allow posting. Posting a document or journal with a VAT date before this date isn't allowed. 
+4. In the **Allow VAT Date To** field, specify the VAT date until which you allow posting. Posting a document or journal with a VAT cate after this date isn't allowed.  
+
+##### If you are using versions before 23.1 
+
 You can set up limitation on the company or specific user levels.
 
 To limit all postings for the whole company:

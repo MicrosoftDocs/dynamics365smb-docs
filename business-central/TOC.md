@@ -349,6 +349,7 @@
 #### [The late payment prediction extension](ui-extensions-late-payment-prediction.md)
 
 ### Manage E-documents
+#### [E-Documents overview](finance-edocuments-overview.md)
 #### [Set up E-documents](finance-how-setup-edocuments.md)
 #### [Use e-documents in sales and purchases](finance-how-use-edocuments.md)
 #### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)

@@ -10,7 +10,7 @@ ms.date: 10/10/2023
 ms.author: kepontop
 ms.custom: bap-template
 ---
-# Introduction to [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] and [!INCLUDE[prod_short](includes/prod_short.md)]
+# Introduction to Microsoft Fabric and Business Central
 
 [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] is an end-to-end analytics solution with full-service capabilities including data movement, data lakes, data engineering, data integration, data science, real-time analytics, and business intelligence&mdash;all backed by a shared platform providing robust data security, governance, and compliance. Your organization no longer needs to stitch together individual analytics services from multiple vendors. Instead, use a streamlined solution that’s easy to connect, onboard, and operate.
 

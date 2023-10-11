@@ -1,5 +1,5 @@
 ---
-title: Introduction to Business Central and Microsoft Fabric
+title: Introduction to Microsoft Fabric and Business Central
 description: Get an overview of using Microsoft Fabric to get insight, business intelligence, and KPIs from your Business Central data.
 author: kennienp
 ms.topic: overview
@@ -10,7 +10,7 @@ ms.date: 10/10/2023
 ms.author: kepontop
 ms.custom: bap-template
 ---
-# Introduction to [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)]
+# Introduction to [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] and [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] is an end-to-end analytics solution with full-service capabilities including data movement, data lakes, data engineering, data integration, data science, real-time analytics, and business intelligence&mdash;all backed by a shared platform providing robust data security, governance, and compliance. Your organization no longer needs to stitch together individual analytics services from multiple vendors. Instead, use a streamlined solution that’s easy to connect, onboard, and operate.
 

@@ -1815,7 +1815,7 @@
 
 ## Analyze data in business intelligence tools
 ### [Overview](reports-external-analysis.md)
-### [Use Microsoft Fabric with Business Central](admin-fabric.md)
+### [Microsoft Fabric and Business Central](admin-fabric.md)
 ### [Use Power BI with Business Central](admin-powerbi.md)
 ### [Analyze financial statements with Excel](finance-analyze-excel.md)
 ### [Extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)

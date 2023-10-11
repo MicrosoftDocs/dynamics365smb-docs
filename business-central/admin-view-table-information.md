@@ -39,7 +39,7 @@ The following table describes the information provided for each table:
 > If you delete data in a table, [!INCLUDE[prod_short](includes/prod_short.md)] starts several processes behind the scenes to make sure that everything is cleaned up in your database. The values on the Table Information page will not update until those processes are complete, which can take a while. The amount of time you'll have to wait can vary, depending on the size of your database.
 
 > [!IMPORTANT]  
-> The table information shows data and index sizes, and the actual sum of table sizes will not match the total capacity used, because it displays the data size, not the allocated size. Allocated space is always larger than used space to avoid having to allocate space on every insert, which would limit performance significantly
+> The **Table Information** page shows data and index sizes, and the sum of table sizes will not match the total capacity used, because it displays the data size, not the actual allocated size. Allocated space is always larger than used space to avoid having to allocate space on every insert, which would limit performance significantly
 
 
 ## See Also

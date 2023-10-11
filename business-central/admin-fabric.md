@@ -15,9 +15,9 @@ ms.custom: bap-template
 [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] is an end-to-end analytics solution with full-service capabilities including data movement, data lakes, data engineering, data integration, data science, real-time analytics, and business intelligence&mdash;all backed by a shared platform providing robust data security, governance, and compliance. Your organization no longer needs to stitch together individual analytics services from multiple vendors. Instead, use a streamlined solution that’s easy to connect, onboard, and operate.
 
 > [!NOTE]
-> [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] is currently in preview. For more information about the Fabric roadmap, see [aka.ms/FabricRoadmap](https://aka.ms/FabricRoadmap)
+> [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] is currently in preview. For more information about the Microsoft Fabric release plan, see [aka.ms/FabricRoadmap](https://aka.ms/FabricRoadmap)
 > 
-> The regular publishing of this roadmap will help ensure you have line-of-sight into how [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] is going to address your needs.
+> The regular publishing of this roadmap will help you stay informed about how [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] will address your needs.
 
 ## Where does [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] fit into [!INCLUDE[prod_short](includes/prod_short.md)] analytics
 

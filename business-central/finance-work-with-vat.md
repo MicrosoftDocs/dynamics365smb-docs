@@ -74,7 +74,7 @@ When you create new sales or purchase documents, the **VAT Date** will be based 
 > If you configure **Control VAT Period** in the **General Ledger Setup** as **Block posting within closed period**, or **Block posting within closed and warn for released period**, you can post document or journal only if the date in the **VAT Date** field is not in a closed period in **VAT Return Periods**. Even if the period in **VAT Return Periods** is open, you might get a warning based on the **VAT Return Status** and configuration in the **Control VAT Period**.
 
 > [!IMPORTANT]
-> From version 23.1, you can prevent or allow posting of the **VAT Date** for specific data range, using the **Allow VAT Date From** and **Allow VAT Date To** fields in the **VAT Setup** and the **User Setup**. But if you are using older versions, you can prevent or allow posting of the **VAT Date** for specific data range, using the **Allow Posting From** and **Allow Posting To** fields in the **General Ledger Setup** and the **User Setup**.  
+> Starting in version 23.1, you can prevent or allow posting of the **VAT Date** for specific data range, using the **Allow VAT Date From** and **Allow VAT Date To** fields in the **VAT Setup** and the **User Setup**. If you are using older versions, you can prevent or allow posting of the **VAT Date** for specific data range, using the **Allow Posting From** and **Allow Posting To** fields in the **General Ledger Setup** and the **User Setup**.  
 
 > [!NOTE]
 > If you leave the **VAT Date** blank, [!INCLUDE [prod_short](includes/prod_short.md)] will use your default setup from **Default VAT Date** in the **General Ledger Setup** as a **VAT Date** in the posted transaction.  

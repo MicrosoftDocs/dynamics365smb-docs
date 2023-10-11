@@ -1,6 +1,6 @@
 ---
 title: E-Documents overview
-description: This article provides an overview of E-Documents module.
+description: This article provides an overview of the E-Documents module.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: na
@@ -14,28 +14,27 @@ ms.author: altotovi
 
 # E-Documents overview
 
-E-Documents are the backbone of modern business transactions, encompassing vital documents like invoices and receipts in both directions, delivering. receiving, and adding messaging capabilities between access points related to the document’s statuses.  
+Electronic documents (e-documents) are the backbone of modern business transactions. They encompass vital documents, such as invoices and receipts in both directions (delivery and receipt). They also add capabilities for document status–related messaging between access points.
 
-Our commitment to enhancing your business processes led to the development of a groundbreaking app dedicated to E-Documents within Dynamics 365 Business Central. This app serves as a robust platform for efficient electronic document management.   
+Our commitment to enhancing your business processes led to the development of a groundbreaking app that's dedicated to e-documents in Microsoft Dynamics 365 Business Central. This app serves as a robust platform for efficient e-document management.
 
 > [!NOTE]
-> To use these capabilities, intall the E-Document Core app in your environment.  
+> To use these capabilities, install the E-Document Core app in your environment.
 
-In a country where company requires specialized E-Document handling to comply with local regulations, the E-Document app can be used. The app provides a solid foundation that can be easily extended to meet specific local or industry requirements.  
+The E-Document app can be used in countries/regions where companies require specialized e-document handling to comply with local regulations. The app provides a solid foundation that can be easily extended to meet specific local or industry requirements.
 
-The documentation explains E-Documents in detail, shows the capabilities of the app, and demonstrates how it seamlessly adapts to cater to your organization's unique needs. To get started with E-Documents, see the following articles.  
+The documentation explains e-documents in detail. It shows the capabilities of the app and demonstrates how it seamlessly adapts to cater to your organization's unique needs. To get started with e-documents, see the following articles.
 
 | Article | Description | 
-|---------------------|----------------------------------------------------|
-| [How to set up E-Documents](finance-how-setup-edocuments.md) | Learn how to set up e-documents functionalities including services, workflow, sending profiles, and retention policies. |  
-| [How to use E-Documents](finance-how-use-edocuments.md) | Learn how to use e-documents functionality that's related to sales and purchase invoices, their statuses, logs, and action messages.|   
-| [How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Learn how to extend e-documents functionality with specific local or industry requirements by creating additional apps on top of this one. |  
-| [How to exchange data electronically](across-data-exchange.md) | Learn how to use the Data Exchange Framework to manage the exchange of data in business documents like bank files and currency exchange rates. | 
+|---------|-------------|
+| [Set up e-documents](finance-how-setup-edocuments.md) | Learn how to set up e-documents functionality, including services, workflow, sending profiles, and retention policies. |
+| [Use e-documents in sales and purchases](finance-how-use-edocuments.md) | Learn how to use e-documents functionality that's related to sales and purchase invoices, their statuses, logs, and action messages.| 
+| [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Learn how to extend e-documents functionality with specific local or industry requirements by creating additional apps on top of this one. |
+| [Exchanging Data Electronically](across-data-exchange.md) | Learn how to use the Data Exchange Framework to manage the exchange of data in business documents such as bank files and currency exchange rates. | 
 
+## See also
 
-## See Also  
-[Finance](finance.md)  
+[Financial Management](finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

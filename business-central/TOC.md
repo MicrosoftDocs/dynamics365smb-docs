@@ -348,6 +348,12 @@
 #### [Work with payment tolerances and payment discount tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The late payment prediction extension](ui-extensions-late-payment-prediction.md)
 
+### Manage E-documents
+#### [E-Documents overview](finance-edocuments-overview.md)
+#### [Set up E-documents](finance-how-setup-edocuments.md)
+#### [Use e-documents in sales and purchases](finance-how-use-edocuments.md)
+#### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### Manage VAT
 #### [VAT management overview](finance-manage-vat.md)
 #### [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md)
@@ -1810,6 +1816,7 @@
 
 ## Analyze data in business intelligence tools
 ### [Overview](reports-external-analysis.md)
+### [Microsoft Fabric and Business Central](admin-fabric.md)
 ### [Use Power BI with Business Central](admin-powerbi.md)
 ### [Analyze financial statements with Excel](finance-analyze-excel.md)
 ### [Extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)

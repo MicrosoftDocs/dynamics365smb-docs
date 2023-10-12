@@ -116,6 +116,13 @@ When you work with the **Intrastat Report** you will see a **Status** field on t
 * *Released*: [!INCLUDE[prod_short](includes/prod_short.md)] automatically changes the status to *Released* when you create a file. From that moment, you cannot modify your **Intrastat Report**. If you need to change something and report again, you can use the **Reopen** action to reopen the Intrastat report. Once the document is reopened, you can use the **Release** action to release the document again.
 * **Reported**: Specifies whether the entry has already been reported to the tax authorities. This is not a regular status but an independent field, and even if you reopened the Intrastat report, it would still show that the file is already created for this report.
 
+### Locations in Intrastat reporting 
+
+[!INCLUDE[prod_short](includes/prod_short.md)] always uses the information in the **Country/Region Code** field on the **Location Card** page as the country for **send from** or for **receive to** goods. When this information doesn't exist or location wasn't used, the system uses the information from the **Company Information** page.   
+
+> [!NOTE]
+> If the company operates from more than one country, Intrastat reporting desn't work for all countries where locations are configured. Reporting is based only for the main country, as it's not currently possible to use multi-country reporting.  
+
 ### Triangular trade in intrastat
 
 Triangular trade involves trade between three countries or regions where goods bypass the reporting company's country. In Business Central, this can be facilitated through the [Drop Shipment](sales-how-drop-shipment.md) functionality. To enable this option, activate the **Include Drop Shipment** field in the **Intrastat Report Setup**.  

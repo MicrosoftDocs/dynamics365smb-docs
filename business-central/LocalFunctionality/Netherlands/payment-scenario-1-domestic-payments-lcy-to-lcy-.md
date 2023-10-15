@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/29/2021
+    ms.date: 10/04/2023
     ms.author: bholtorf
 ---
 # Payment Scenario 1 - Domestic Payments (LCY to LCY) in the Dutch Version

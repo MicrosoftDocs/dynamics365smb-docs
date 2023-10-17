@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 12/13/2022
+ms.date: 10/04/2023
 ms.custom: bap-template
 ---
 # Reconcile Bank Accounts
@@ -27,10 +27,10 @@ Reconciling transactions in statements from your bank with bank entries in [!INC
 * Automatically, by using the **Match Automatically** action.
 * Manually, by selecting lines in both panes to link each bank statement line to one or more bank account ledger entries, and then using the **Match Manually** action.
 
-The **Applied** checkbox is selected on lines where entries match. For more information, see [Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md). If you enter a statement ending date on the bank reconciliation after you match its lines with entries, [!INCLUDE [prod_short](includes/prod_short.md)] will undo the the matches for lines and entries that are after that date.
+The **Applied** checkbox is selected on lines where entries match. For more information, see [Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md). If you enter a statement ending date on the bank reconciliation after you match its lines with entries, [!INCLUDE [prod_short](includes/prod_short.md)] will undo the matches for lines and entries that are after that date.
 
 > [!NOTE]
-> After you enter a date in the Statement Ending Date field, the Bank Acc. Reconciliation page filters the bank ledger entries to show only entries up to that date. You can only post bank reconciliations with bank ledger entries on or before the statement ending date. The filter ensures that your bank ledger is balanced with your bank statement on the statement ending date, with the difference being the outstanding payments and checks.
+> After you enter a date in the **Statement Date** field, the **Bank Acc. Reconciliation** page filters the bank ledger entries to show only entries up to that date. You can only post bank reconciliations with bank ledger entries on or before the statement ending date. The filter ensures that your bank ledger is balanced with your bank statement on the statement ending date, with the difference being the outstanding payments and checks.
 
 When the value in the **Total Balance** field in the **Bank Statement Lines** pane equals the total value of the **Balance To Reconcile** field plus the **Balance Last Statement** field in the **Bank Account Ledger Entries** pane, you can choose the **Post** action. Unmatched bank account ledger entries remain on the page, indicating discrepancies that you should resolve to reconcile the bank account.
 

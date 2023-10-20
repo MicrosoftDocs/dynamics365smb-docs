@@ -160,7 +160,7 @@ It seems that user which requests access doesn’t have rights to manage apps (a
 
 ### [{"message":"Access denied for FIELD field.","locations":[{"line":0,"column":0}],"path":["path"],"extensions":{"code":"ACCESS_DENIED","documentation":https://shopify.dev/api/usage/access-scopes}}]
 
-You need to request a new token as updated version of connector requires more permissions (application scopes). For more information, see [Request access token](#request-the-access-token).
+Request a new token because the updated version of the connector requires more permissions (application scopes). To learn more, go to [Request access token](#request-the-access-token).
 
 ## See also
 

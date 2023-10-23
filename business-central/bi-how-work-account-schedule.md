@@ -24,6 +24,13 @@ Setting up financial reports requires an understanding of the financial data in 
 
 Financial reports arrange accounts from your chart of accounts in ways that make data easier to present. You can set up various layouts to define the information you want to extract from the chart of accounts. Financial reports provide a place for calculations that can't be made directly in the chart of accounts. For example, you can create subtotals for groups of accounts and then include that total in other totals. Another example is to calculate profit margins on dimensions such as departments or customer groups. Additionally, you can filter general ledger entries and budget entries, for example, by net change or debit amount.
 
+> [!NOTE] 
+> Mathematically, you can think of a financial report as being defined by two things:
+> 1. a vector of row definitions that define what needs to be calculated, and
+> 2. a vector of column definitions that defines the data for the calculation.
+> 
+> The financial report is then the outer product of these two vectors, where each cell value is calculated according to the formula in the row applied to the data definition from the column.
+
 You can also compare two or more financial reports and column definitions by using formulas, so you can do the following things:
 
 * Create customized financial reports.

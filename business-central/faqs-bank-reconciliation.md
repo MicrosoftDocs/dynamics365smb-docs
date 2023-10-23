@@ -24,7 +24,7 @@ These frequently asked questions (FAQ) describe the AI impact of bank reconcilia
 
 ## What is the intended use of the bank reconciliation?
 
-[Explain intended use(s), as identified in your Impact Assessment.]
+Accountants who use Business Central to reconcile their bank accounts with ledger entries in Business Central will be able to complete their task faster, with less manual matching. 
 
 ## How was bank reconciliation evaluated? What metrics are used to measure performance?
 

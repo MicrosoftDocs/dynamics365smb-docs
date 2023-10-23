@@ -140,6 +140,13 @@ You can use an external service to keep your currency exchange rates up to date,
 
 The value in the **Exchange Rate** field on the **Currencies** page is updated with the latest currency exchange rate.
 
+## Correct mistakes
+
+Every now and then you might need to correct a mistake in a payment transaction that's associated with adjustments to foreign currency gains and losses. You can use the **Reverse transaction** action on the **Bank Ledger Entries**, **Customer Ledger Entries**, and **Vendor Ledger Entries** pages to unapply and reverse the payment transaction.
+
+> [!NOTE]
+> When you unapply and reverse a payment for an entry that had currency exchange rate adjustments associated with it, the reversal posts reversal entries for the adjustments. You might have to run the currency exchange rate adjustment again to get the correct current balance.
+
 ## See Also
 
 [Currencies in Business Central](finance-currencies.md)  

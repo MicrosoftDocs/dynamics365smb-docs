@@ -6,6 +6,7 @@
 ## [Overview of business functionality](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Learn
+### [Resources for users](resources-for-users.md)
 ### [Business Central learning catalog](readiness/readiness-learning-catalog.md)
 ### [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Business process walkthroughs

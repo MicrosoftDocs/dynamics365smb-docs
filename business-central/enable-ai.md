@@ -16,17 +16,17 @@ ms.custom: bap-template
 <!--This article explains how you can control the ability to create AI-powered item marketing text with Copilot for your organization. This task is done by an admin. There are two requirements that you must fulfill to make the feature available to users:-->
 
 
-This article explains how to control users' access to Copilot and other AI capabilities in Business Central. This task is done by an admin. There are three levels of consent to use generative AI Copilot features in Customer Insights - Data. Consent is global for all users and all Copilot features in Customer Insights - Data.There are two requirements that you must fulfill to make the feature available to users:
+This article explains how to control users' access to Copilot and other AI capabilities in Business Central. This task is done by an admin. There are three levels of consent to use generative AI Copilot features in Customer Insights - Data. Consent is global for all users and all Copilot features in Customer Insights - Data. There are two requirements that you must fulfill to make the feature available to users:
 
-- Consent to the Azure OpenAI preview and privacy terms and conditions for all users.
+- Consent to the [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [privacy](https://go.microsoft.com/fwlink/?LinkId=521839) terms and conditions for all users.
 
-   This consent is global for all users and applies to all Copilot and AI features. Learn more
+   This consent is global for all users and applies to all Copilot and AI features.
 
 - Enable the feature if it's  still governed under **Feature Management**.
 
-- Activate the feature Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) on behalf of the organization.
+- Activate the feature 
 
-If either of these requirements isn't fulfilled, the feature won't be available for use.
+If any of these requirements aren't fulfilled, the feature won't be available for use.
 
 ## Prerequisites
 
@@ -34,6 +34,8 @@ If either of these requirements isn't fulfilled, the feature won't be available 
 - You have admin or super permissions in Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
 ## Consent to or reject preview and privacy terms and conditions for all users
+
+Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) on behalf of the organization.
 
 1. In Business Central, search for and open the **Privacy Notices Status** page.
 2. In the **Integration Name** column, select **Azure OpenAI**, then read the terms and conditions that are presented to you.

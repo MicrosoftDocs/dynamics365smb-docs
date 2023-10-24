@@ -57,11 +57,12 @@ Using the **Copilot & AI Capabilities** page, you can turn individual features o
 
 1. In Business Central, search for and open the **Copilot & AI Capabilities** page.
 
+1. The page list all available Copilot and AI related features and their current status, which can be either active or inactive. The features are divided into two sections&mdash;one section for features in preview and another for features that are generally available. 
 
    [![Shows the Business Central role center and the checklist for Copilot](media/copilot-and-ai-capabilties-page.svg)](media/copilot-and-ai-capabilties-page.svg#lightbox)
 
-   The page list all available Copilot and AI related features and their current status, which can be either active or inactive. The features are divided into two sections&mdash;one section for features in preview and another for features that are generally available. 
-1. To turn on a feature, select it in the list, then select the **Activate** in the ribbon. To turn a feature off, select it, and then select **Deactivate**. 
+   - To turn on a feature, select it in the list, then select the **Activate** in the ribbon.
+   - To turn a feature off, select it, and then select **Deactivate** in the ribbon. 
 
 
 ## Next steps

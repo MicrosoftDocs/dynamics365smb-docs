@@ -9,33 +9,58 @@ ms.date: 03/22/2023
 ms.custom: bap-template
 ---
 
-# Configure AI-powered item marketing text (preview) with Copilot
+# Configure Copilot and AI capabilities 
 
-[!INCLUDE[ai-preview](includes/ai-preview.md)]
+<!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
-This article explains how you can control the ability to create AI-powered item marketing text with Copilot for your organization. This task is done by an admin. There are two requirements that you must fulfill to make the feature available to users:
+<!--This article explains how you can control the ability to create AI-powered item marketing text with Copilot for your organization. This task is done by an admin. There are two requirements that you must fulfill to make the feature available to users:-->
 
-- Enable the **Create AI-powered product descriptions with Copilot** feature.
-- Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) on behalf of the organization.
+
+This article explains how to control users' access to Copilot and other AI capabilities in Business Central. This task is done by an admin. There are three levels of consent to use generative AI Copilot features in Customer Insights - Data. Consent is global for all users and all Copilot features in Customer Insights - Data.There are two requirements that you must fulfill to make the feature available to users:
+
+- Consent to the Azure OpenAI preview and privacy terms and conditions for all users.
+
+   This consent is global for all users and applies to all Copilot and AI features. Learn more
+
+- Enable the feature if it's  still governed under **Feature Management**.
+
+- Activate the feature Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) on behalf of the organization.
 
 If either of these requirements isn't fulfilled, the feature won't be available for use.
 
 ## Prerequisites
 
-You're using a [preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot. Enabling Copilot is done by an admin. For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).
-
-## Enable or disable Create AI-powered product descriptions with Copilot
-
-1. In Business Central, search for and open the **Feature Management** page.
-2. Set the **Enabled for** column for **Feature preview: Create AI-powered product descriptions with Copilot** to **All users** to enable the feature or **None** to disable it.
-
-   For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- You're using Business Central online, version 23.1 or later. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
+- You have admin or super permissions in Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
 ## Consent to or reject preview and privacy terms and conditions for all users
 
 1. In Business Central, search for and open the **Privacy Notices Status** page.
 2. In the **Integration Name** column, select **Azure OpenAI**, then read the terms and conditions that are presented to you.
 3. In the **Azure OpenAI** row, select the **Agree for everyone** checkbox to consent or the **Disagree for everyone** checkbox to reject.
+
+
+## Enable or disable feature in Feature Management
+
+**Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like item marketing suggestion. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
+1. In Business Central, search for and open the **Feature Management** page.
+2. Set the **Enabled for** column for **Feature preview: Create AI-powered product descriptions with Copilot** to **All users** to enable the feature or **None** to disable it.
+
+   For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
+## Activate or deactivate the feature
+
+Using the **Copilot & AI Capabilities** page, you can turn individual features on or off for all users.
+
+1. In Business Central, search for and open the **Copilot & AI Capabilities** page.
+
+
+   [![Shows the Business Central role center and the checklist for Copilot](media/copilot-and-ai-capabilties-page.svg)](media/copilot-and-ai-capabilties-page.svg#lightbox)
+
+   The page list all available Copilot and AI related features and their current status of either active or inactive. The features are divided into two sections&mdash;one section for features in preview and another for features that are generally available. 
+1. To turn on a feature, select it in the list, then select the **Activate** in the ribbon. To turn a feature off, select it, and then select **Deactivate**. 
+
 
 ## Next steps
 

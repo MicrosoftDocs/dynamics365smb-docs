@@ -33,7 +33,7 @@ If any of these requirements aren't fulfilled, the feature won't be available fo
 - You're using Business Central online, version 23.1 or later. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
 - You have admin or super permissions in Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
-## Consent to or reject preview and privacy terms and conditions for all users
+## Consent to or reject preview and privacy terms
 
 Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) on behalf of the organization.
 
@@ -60,7 +60,7 @@ Using the **Copilot & AI Capabilities** page, you can turn individual features o
 
    [![Shows the Business Central role center and the checklist for Copilot](media/copilot-and-ai-capabilties-page.svg)](media/copilot-and-ai-capabilties-page.svg#lightbox)
 
-   The page list all available Copilot and AI related features and their current status of either active or inactive. The features are divided into two sections&mdash;one section for features in preview and another for features that are generally available. 
+   The page list all available Copilot and AI related features and their current status, which can be either active or inactive. The features are divided into two sections&mdash;one section for features in preview and another for features that are generally available. 
 1. To turn on a feature, select it in the list, then select the **Activate** in the ribbon. To turn a feature off, select it, and then select **Deactivate**. 
 
 

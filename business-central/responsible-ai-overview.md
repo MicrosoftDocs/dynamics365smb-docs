@@ -16,4 +16,4 @@ ms.reviewer: jswymer
 
 [!INCLUDE[responsible-ai-features](includes/responsible-ai-features.md)]
 
-- [Bank reconciliation with Copilot](faqs-bank-reconciliation.md)
+- [Bank reconciliation assist (preview](faqs-bank-reconciliation.md)

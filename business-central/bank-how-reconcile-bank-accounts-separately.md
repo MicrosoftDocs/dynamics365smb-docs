@@ -27,9 +27,10 @@ The lines on the **Bank Acc. Reconciliation** page are divided into two panes. T
 Reconciling transactions in statements from your bank with bank entries in [!INCLUDE[prod_short](includes/prod_short.md)] is referred to as *matching*. There are three ways to match transactions with bank entries:
 
 * Automatically, by using the **Match Automatically** action.
+
 * Automatically, by using the **Reconcile with Copilot** action.
 
-  This action is available as part of the bank reconciliation assist (preview) feature, which an AI-powered feature. [Learn more about bank reconciliation assist]().
+  This action is available as part of the bank reconciliation assist (preview) feature, which an AI-powered feature. [Learn more about bank reconciliation assist](bank-reconciliation-with-copilot.md).
 * Manually, by selecting lines in both panes to link each bank statement line to one or more bank account ledger entries, and then using the **Match Manually** action.
 
 The **Applied** checkbox is selected on lines where entries match. For more information, see [Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md). If you enter a statement ending date on the bank reconciliation after you match its lines with entries, [!INCLUDE [prod_short](includes/prod_short.md)] will undo the matches for lines and entries that are after that date.
@@ -245,14 +246,11 @@ Don't use a G/L account that allows direct posting in your bank account posting 
 
 This mistake often happens when entering an opening balance for a bank account. It's important that you don't post the opening balance directly to the general ledger. Entries in the G/L account that are posted directly to the G/L account will cause problems. For example, these entries might prevent you from reconciling your bank account. For foreign currency bank accounts, the entries can cause differences to accumulate after you post more bank reconciliations due to currency exchange rate adjustments. Often, you post the opening bank balance directly to the bank account, and the amount then ends up in the G/L account. Alternatively, you reverse it later against the G/L account that you use to balance the opening general ledger balance. In both cases, you must balance any direct posting to the G/L account before you start your first bank reconciliation, and especially so if the bank account is in a foreign currency.
 
-## Reconcile with Copilot (preview)
-
-[!INCLUDE[ai-preview](includes/ai-preview.md)]
-
 
 ## See Also
 
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
+[Reconcile bank accounts using bank reconciliation assist (preview)](bank-reconciliation-with-copilot.md)
 [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md)  

@@ -37,6 +37,8 @@ This article explains how to use bank reconciliation assist to help you reconcil
 
 <!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, bank reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while bank reconciliation assist is based AI technology though Copilot. Bank reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where bank reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->
 
+Copilot in bank reconciliation is intended to be used as a supplement to the **Match Automatically** operation. For this reason, when you use Copilot, the **Match Automatically** operation runs silently first to make the initial matches. Then, Copilot runs to try and match transactions that weren't matched by **Match Automatically** operation.   
+
 There are two ways to reconcile bank accounts with Copilot. You can use Copilot to start a new reconciliation on a back account from scratch, directly from **Bank Acc. Reconciliation** list, or you can use Copilot on an existing reconciliation
 
 

@@ -27,19 +27,19 @@ This article explains how to use bank reconciliation assist to help you reconcil
    
 ## Prerequisites
 
-- Bank reconciliation assist is enabled and activated. [Learn more about enabling Copilot and AI capabilities](enable-ai.md). This task is done by an administrator.
-- You're familiar with bank account reconciliation in Business Central as described in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
+- Bank reconciliation assist is enabled and activated. This task is done by an administrator. [Learn more about enabling Copilot and AI capabilities](enable-ai.md).
 - Bank accounts in Business Central that you want to reconcile are linked to an online bank account or set up bank statement import format. 
- 
+- You're familiar with bank account reconciliation in Business Central as described in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md). 
 
 <!--H2s. Required. A how-to article explains how to do a task. The bulk of each H2 should be a procedure.-->
 ## Reconcile bank accounts with Copilot
 
 <!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, bank reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while bank reconciliation assist is based AI technology though Copilot. Bank reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where bank reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->
 
-Copilot in bank reconciliation is intended to be used as a supplement to the **Match Automatically** operation. For this reason, when you use Copilot, the **Match Automatically** operation runs silently first to make the initial matches. Then, Copilot runs to try and match transactions that weren't matched by **Match Automatically** operation.   
+Copilot in bank reconciliation is intended to be used as a supplement to the **Match Automatically** operation. For this reason, when you use Copilot, the **Match Automatically** operation runs first to make the initial matches. Then, Copilot runs to try to match transactions that weren't matched by **Match Automatically** operation.   
 
-There are two ways to reconcile bank accounts with Copilot. You can use Copilot to start a new reconciliation on a bank account from scratch, directly from **Bank Acc. Reconciliation** list, or you can use Copilot on an existing reconciliation
+There are two ways to reconcile bank accounts with Copilot. You can use Copilot to start a new reconciliation on a bank account from scratch, directly from **Bank Acc. Reconciliation** list, or you can use Copilot on an existing reconciliation.
+
 
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliation**, and then choose the related link.
@@ -51,6 +51,9 @@ There are two ways to reconcile bank accounts with Copilot. You can use Copilot 
 1. If the selected bank account isn't linked to an online bank account, you must import the bank statement file. To import the file, either select the value in the **Use transaction data from** field or select the paper clip button next the **Generate** button. Then, use the **Select the file to import** to import tha bank statement file by either dragging it from your device or browsing your device.
 1. To reconcile with Copilot, select **Generate**.
 
+   Copilot starts generating proposed matches. When it's completed, the Reconcile with Copilot window opens the results of thw matching process.
+
+   ![Shows the reconcile with copilot window with proposed matches](media/bank-reconciliation-copilot-window.svg) 
 
 
 

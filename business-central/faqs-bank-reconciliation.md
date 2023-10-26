@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ---
 
-# FAQ for bank reconciliation
+# FAQ for bank reconciliation assist
 
 These frequently asked questions (FAQ) describe the AI impact of bank reconciliation assist in Business Central.
 
@@ -53,7 +53,7 @@ Bank account reconciliation assist performs best in English language: while this
 
 
 -->
-## In which geographies and languages is bank account reconciliation assist available? 
+## In which geographies and languages is bank reconciliation assist available? 
 
 This capability is available to any environment country localization and in any user language. For customer environments located in countries/regions where Azure OpenAI Service is not deployed, administrators must first consent to allowing movement of data across boundaries for Business Central to connect to Azure OpenAI service and for this capability to be available. 
 
@@ -69,6 +69,12 @@ Administrators should ensure the appropriate accounting users have been granted 
 
 No – use of Copilot is optional. Business Central offers traditional means of importing bank statements, running predefined matching rules, and manually applying matches and posting to appropriate ledger accounts. Both the traditional approach and Copilot can be used simultaneously within an organization. 
 This capability is available to any environment country localization and in any user language. For customer environments located in countries/regions where Azure OpenAI Service is not deployed, administrators must first consent to allowing movement of data across boundaries for Business Central to connect to Azure OpenAI service and for this capability to be available. 
+
+
+## How do I give feedback about AI-generated content?
+
+Each time Copilot provides matches or suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the like and dislike controls. Your feedback remains anonymous and we use this data to improve the quality of the service.
+
 
 ## See also
 

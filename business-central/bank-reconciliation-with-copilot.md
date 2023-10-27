@@ -129,11 +129,13 @@ In this section, you learn how to use Copilot to transfer unreconciled bank acco
 
 3. Select **Transfer to G/L Account** to start process.
 
+   ![Shows the transfer to G/L with copilot action on the Bank Acc. Reconciliation card](media/bank-reconciliation-transfer-gl-copilot-card.svg) 
+
    This step prompts Copilot to start generating proposals for the transfer.
 
 4. Once Copilot has finished generating proposals, the **Copilot G/L Account Transfer Proposals** window opens
 
-   This window displays the proposals in the **Matched Proposal** section.
+   This window displays the proposals in the **Matched Proposal** section. The experience is similar to reconcile with Copilot.
 
 5. Review each proposal line by line to ensure the accuracy of the suggested transfers.
 

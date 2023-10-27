@@ -18,17 +18,18 @@ This article explains how to use bank reconciliation assist to help you reconcil
 
 - Improved matching of transactions with ledger entries
 
-   Although the **Match Automatically** action on **Bank Acc. Reconciliation** page automatically matches most bank transactions with ledger entries, the rules-based algorithms the automatch operation uses can often result in many unmatched transactions. Copilot uses AI technology to inspect remaining transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if multiple invoices were paid as one lump sum by a customer, Copilot reconciles the single bank statement line with the multiple invoice ledger entries.
+   Although the **Match Automatically** action on **Bank Acc. Reconciliation** page automatically matches most bank transactions with ledger entries, the rules-based algorithms the automatch operation uses can often result in many unmatched transactions. Copilot uses AI technology to inspect remaining transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if multiple invoices were paid as one lump sum by a customer, Copilot reconciles the single bank statement line with the multiple invoice ledger entries. Go to [Reconcile bank accounts with Copilot](#reconcile-bank-accounts-with-copilot).
 
 - Suggested general ledger accounts
 
-  For residual bank transactions that can't be matched to any ledger entries, Copilot compares the transaction description with G/L account names, suggesting the most likely G/L account to post to. For example, Copilot might suggest that transactions with the narrative “Fuel Stop 24” be posted to the “Transportation” account.
+  For residual bank transactions that can't be matched to any ledger entries, Copilot compares the transaction description with G/L account names, suggesting the most likely G/L account to post to. For example, Copilot might suggest that transactions with the narrative "Fuel Stop 24" be posted to the "Transportation" account. Go to [Reconcile bank accounts with Copilot](#transfer-to-gl-account).
+
 
    
 ## Prerequisites
 
 - Bank reconciliation assist is enabled and activated. This task is done by an administrator. [Learn more about enabling Copilot and AI capabilities](enable-ai.md).
-- Bank accounts in Business Central that you want to reconcile are linked to an online bank account or set up bank statement import format. 
+- Bank accounts in Business Central that you want to reconcile are linked to an online bank account or set up with bank statement import format. 
 - You're familiar with bank account reconciliation in Business Central as described in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md). 
 
 <!--H2s. Required. A how-to article explains how to do a task. The bulk of each H2 should be a procedure.-->
@@ -108,9 +109,9 @@ In the **Matched Proposals** section, review the suggested matches line by line,
 - To save the matches currently shown in the Copilot window, select **Keep it**.
 
 
-## Transfer to G/L Account
+## Transfer residual bank transactions to suggested general ledger accounts 
 
-This action must be chosen from an existing bank account reconciliation. The user must select one or more non-matched statement lines and then choose **Transfer to G/L Account**. This asks Copilot to match the selected statement lines with a G/L Account of type Posting. It looks for common substrings in the statement line description and G/L Account names. For english-to-english matching, it also looks for semantic matches - words and phrases that match semantically, not only literally. It will propose the best match it finds. If it doesn't find a good enough match for a specific statement line, it will not propose any G/L Account for it.
+This action must be chosen from an existing bank account reconciliation. The user must select one or more nonmatched statement lines and then choose **Transfer to G/L Account**. Copilot matches the selected statement lines with a G/L Account of type **Posting**. Copilot looks for common text in the statement line description and G/L Account names. For English-to-English matching, it also looks for semantic matches&mdash;words and phrases that match semantically, not only literally. Copilot proposes the best match it finds. If it doesn't find a good enough match for a specific statement line, it doesn't make any proposes.
 
 
 ## See also

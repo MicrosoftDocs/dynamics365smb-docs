@@ -40,7 +40,7 @@ Copilot in bank reconciliation is intended to be used as a supplement to the **M
 
 There are two approaches to reconciling bank accounts with Copilot. You can use Copilot to start a new reconciliation on a bank account, directly from **Bank Acc. Reconciliation** list, or you can use Copilot on a new or existing reconciliation on the Bank Account Reconciliation card.
 
-# [Use Copilot from the Bank Account Reconciliation list page](#tab/fromlist) 
+# [Use Copilot from the bank account reconciliation list](#tab/fromlist) 
 
 With this approach, you create new bank reconciliation from scratch by selecting the bank account and importing the bank statement file, if the bank account isn't linked to an online account.
 
@@ -56,7 +56,8 @@ With this approach, you create new bank reconciliation from scratch by selecting
    Copilot starts generating proposed matches. When it's completed, the Reconcile with Copilot window opens the results of the matching process.
 
 1. Review the proposed matches as described in the following section.
-# [Use Copilot from a bank reconciliation card](#tab/fromlist) 
+
+# [Use Copilot from a bank account reconciliation card](#tab/fromcard) 
 
 With this approach, you use Copilot either on a new bank reconciliation that you create manually or by editing an existing reconciliation. 
 

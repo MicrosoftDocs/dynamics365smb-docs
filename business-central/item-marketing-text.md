@@ -46,25 +46,15 @@ Copilot is designed to save you time and help you write creative and engaging te
 
    For information on how to create an item, go to [Register new items](inventory-how-register-new-items.md).
 
-   [![Shows an item card with Marketing Text pane](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
-
 2. From the item card, there are two ways to get started writing marketing text with Copilot:
 
    - Use the **Marketing Text** pane in the FactBox on the right side of the page, select **Draft with Copilot**.
-
-    <!-- 2. If you want another suggestion, select **Draft with Copilot** again. If you don't like a suggestion, select **Dismiss** to clear the pane.
-
-        You can do this step over and over until you get a suggestion that's a good starting point. But keep in mind that the current suggestion will be overwritten and you can't get it back. So if you like the current suggestion, go to the next step. You'll still have the opportunity later to get more suggestions, and even improve the suggestions, if you like.
-      3. Select **Review and save the suggestion** or **Edit** to review, edit, and save the text.
-
-         This step takes you to the **Create with Copilot** page. Go to the next section.
-
-         > [!NOTE]
-         > The text won't be saved until you do this step.-->
-
-   - At the top of the item card page, select the **Marketing Text** action<!--to go directly to the **Create with Copilot**  page-->, then select Draft with Copilot on the **Edit
    
-      [![Shows the edit marketing text window](media/edit-marketing-text-blank)]
+      [![Shows an item card with Marketing Text pane](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
+
+   - At the top of the item card page, select the **Marketing Text** action, then select **Draft with Copilot** on the **Edit Marketing Text** window.
+   
+      ![Shows the edit marketing text window](media/edit-marketing-text-blank.svg)
 
      From the **Create with Copilot** page, select **Create with Copilot** to get the first suggestion. You can then get more suggestions, try to improve the suggestions you get, edit text, and more. Go to [Review, edit, and save](#review-edit-and-save-text) for details.
 

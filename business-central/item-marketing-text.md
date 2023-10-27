@@ -46,37 +46,46 @@ Copilot is designed to save you time and help you write creative and engaging te
 
    For information on how to create an item, go to [Register new items](inventory-how-register-new-items.md).
 
+   [![Shows an item card with Marketing Text pane](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
+
 2. From the item card, there are two ways to get started writing marketing text with Copilot:
 
-   - Use the **Marketing Text** pane in the FactBox on the right side of the page, select **Draft with Copilot**.
+   - In the **Marketing Text** pane in the FactBox on the right side of the page, select **Draft with Copilot**. 
    
-      [![Shows an item card with Marketing Text pane](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
+     Copilot starts to draft the marketing text. 
 
-   - At the top of the item card page, select the **Marketing Text** action, then select **Draft with Copilot** on the **Edit Marketing Text** window.
+   - At the top of the page, select the **Marketing Text** action, then select **Draft with Copilot** on the **Edit Marketing Text** window.
    
       ![Shows the edit marketing text window](media/edit-marketing-text-blank.svg)
 
-     From the **Create with Copilot** page, select **Create with Copilot** to get the first suggestion. You can then get more suggestions, try to improve the suggestions you get, edit text, and more. Go to [Review, edit, and save](#review-edit-and-save-text) for details.
+     The **Draft Marketing Text with Copilot** windows appears and lists all available attributes for the item. Select the attributes you want Copilot base suggestions on, then select **Generate**. Copilot starts to draft the marketing text. 
+     
+     
+3. When Copilot completes the draft, the text appears in the Copilot editor window for reviewing and editing. 
 
+   [![Shows the create with Copilot windows](media/create-with-copilot-window.svg)](media/create-with-copilot-window.svg#lightbox)
+
+   You can now get more suggestions, try to improve the suggestions you get, edit text, and more. Go to [Review, edit, and save](#review-edit-and-save-text) for details.
+
+
+<!--
    > [!TIP]
-   > [Where does the suggestion come from?](ai-faq.md#how-does-copilot-work-where-does-the-suggested-text-come-from)
+   > [Where does the suggestion come from?](ai-faq.md#how-does-copilot-work-where-does-the-suggested-text-come-from)-->
 
 ### Review, edit, and save text
 
-Once you have the first draft, you must review it and make changes to the text to get it ready for publishing. This work is done from the **Create with Copilot** page. The current text is shown in the **Marketing Text** box. The page lets you get more suggestions, change preferences to influence the suggestions, and manually make changes and style the text.
-
-[![Shows the create with Copilot windows](media/create-with-copilot-window.svg)](media/create-with-copilot-window.svg#lightbox)
+Once you have the first draft, you must review it and make changes to the text to get it ready for publishing. This work is done from the Copilot editor, which lets you get more suggestions, change preferences to influence the suggestions, and manually make changes and style the text.
 
 > [!IMPORTANT]
 > The AI-generated text from Copilot is only a suggestion and it can have mistakes. It requires human oversight and review to ensure it's accurate and appropriate. Review any suggested text and edit as needed before you save and publish it for public consumption.
 
 Use the following guidelines to finalize and save the marketing text.
 
-1. Make changes to text directly in the **Marketing Text** box. Use the tool bar along the bottom of the box to format and style text, add links, and more.
-2. To get a new suggestion, select **Create draft**.
-3. If you're not satisfied with the suggestions, enhance the text suggestions based on your preferences.
+1. Make changes to text directly in the text box. Use the tool bar along the bottom of the box to format and style text, add links, and more.
+2. To get a new suggestion, select **Regenerate**.
+3. If you're not satisfied with the suggestions, enhance the text suggestions using the **Tone**, **Format**, and **Emphasis** preference options.
 
-   Select **More Settings**, change the options that are shown under **Choose how Copilot creates suggestions**, then select **Create draft** to get a new suggestion.
+   <!--Select **More Settings**, change the options that are shown under **Choose how Copilot creates suggestions**, then select **Create draft** to get a new suggestion.-->
 
    For guidelines on improving suggestions, go to the [Improve and tailor text suggestions](#improve-and-tailor-text-suggestions).
 

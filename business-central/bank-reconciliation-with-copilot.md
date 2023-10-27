@@ -118,6 +118,9 @@ In the **Matched Proposals** section, review the suggested matches line by line,
 
 This action must be chosen from an existing bank account reconciliation. The user must select one or more nonmatched statement lines and then choose **Transfer to G/L Account**. Copilot matches the selected statement lines with a G/L Account of type **Posting**. Copilot looks for common text in the statement line description and G/L Account names. For English-to-English matching, it also looks for semantic matches&mdash;words and phrases that match semantically, not only literally. Copilot proposes the best match it finds. If it doesn't find a good enough match for a specific statement line, it doesn't make any proposes.
 
+## Next steps
+
+[Validate your bank reconciliation](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)  
 
 ## See also
 

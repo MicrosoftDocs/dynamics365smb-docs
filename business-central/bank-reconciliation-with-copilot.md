@@ -18,7 +18,7 @@ This article explains how to use bank reconciliation assist to help you reconcil
 
 - Improved matching of transactions with ledger entries
 
-   Although the **Match Automatically** action on **Bank Acc. Reconciliation** page automatically matches most bank transactions with ledger entries, the rules-based algorithms it uses can often result in many unmatched transactions, which require manual inspection and comparison. Copilot uses AI technology to inspect remaining transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if multiple invoices were paid as one lump sum by a customer, Copilot reconciles the single bank statement line with the multiple invoice ledger entries.
+   Although the **Match Automatically** action on **Bank Acc. Reconciliation** page automatically matches most bank transactions with ledger entries, the rules-based algorithms the automatch operation uses can often result in many unmatched transactions. Copilot uses AI technology to inspect remaining transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if multiple invoices were paid as one lump sum by a customer, Copilot reconciles the single bank statement line with the multiple invoice ledger entries.
 
 - Suggested general ledger accounts
 
@@ -36,13 +36,13 @@ This article explains how to use bank reconciliation assist to help you reconcil
 
 <!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, bank reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while bank reconciliation assist is based AI technology though Copilot. Bank reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where bank reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->
 
-Copilot in bank reconciliation is intended to be used as a supplement to the **Match Automatically** operation. For this reason, when you use Copilot, the **Match Automatically** operation runs first to make the initial matches. Then, Copilot runs to try to match transactions that weren't matched by **Match Automatically** operation.   
+Copilot in bank reconciliation is intended to be used as a supplement to the automatch operation. For this reason, when you use Copilot, the automatch operation runs first to make the initial matches. Then, Copilot runs to try to match transactions that the automatch operation didn't handle.   
 
 There are two approaches to reconciling bank accounts with Copilot. You can use Copilot to start a new reconciliation on a bank account, directly from **Bank Acc. Reconciliation** list, or you can use Copilot on a new or existing reconciliation on the Bank Account Reconciliation card.
 
-# [Use Copilot from the bank account reconciliation list](#tab/fromlist) 
+# [From the bank account reconciliation list](#tab/fromlist) 
 
-With this approach, you create new bank reconciliation from scratch by selecting the bank account and importing the bank statement file, if the bank account isn't linked to an online account.
+With this approach, you create and reconcile a new bank reconciliation from scratch. This approach requires you to select the bank account and import the bank statement file, if the bank account isn't linked to an online account.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliation**, and then choose the related link. 
 1. Select the **Reconcile with Copilot** action to open the **Reconcile with Copilot** window.
@@ -57,7 +57,7 @@ With this approach, you create new bank reconciliation from scratch by selecting
 
 1. Review the proposed matches as described in the following section.
 
-# [Use Copilot from a bank account reconciliation card](#tab/fromcard) 
+# [From a bank account reconciliation card](#tab/fromcard) 
 
 With this approach, you use Copilot either on a new bank reconciliation that you create manually or by editing an existing reconciliation. 
 
@@ -82,16 +82,35 @@ After you run Copilot, the **Reconcile with Copilot** window shows the detailed 
 
 ![Shows the reconcile with copilot window with proposed matches](media/bank-reconciliation-copilot-window.png) 
 
-The Copilot window is divided into two sections.  The upper section provides some general details about result, as described in the following table. The lower **Matched Proposal** section lists matches suggested by Copilot: 
+The Copilot window is divided into two sections.  The upper section provides some general details about result, as described in the following table. The lower **Matched Proposal** section lists the matches suggested by Copilot: 
 
 |Field|Description|
 |-|-|
-|Auto-matched|Specifies how many lines in the bank statement were matched by the **Match Automatically** operation. Select the value to view the reconciliation card.  |
+|Auto-matched|Specifies how many lines in the bank statement were matched by the automatch operation. Select the value to view the reconciliation card.  |
 |Copilot matched|Specifies how many lines in the bank statement have matches proposed by Copilot. You can view details of the matches in the **Matches Proposed** section.|
 |Statement Ending Balance|Specifies the ending balance shown on the bank's statement that you're reconciling with|
 |Post if fully applied|Turn on this switch if you want to automatically post the bank account reconciliation when all lines (100%) are matched and you've selected **Keep it**.|
 
 ### Save or discard matches
+
+The **Matched Proposals** section, review the suggested matches line by line, and then take the following actions:
+
+- To discard a single proposed match, select it in the list, and then select the **Delete Line** action.
+
+- To discard all proposed matches and close the Copilot window, select the discard button (trash can) ![Shows the trach can icon for deleting all Copilot proposal for bank account reconciliation](media/copilot-delete-trash-can.png) next to the **Keep it** button at the bottom of the window.
+
+   > [!NOTE]
+   > If you started Copilot from the **Bank Acc. Reconciliation** card for a new or existing reconciliation, only the Copilot proposed matches are deleted. The matches made by the automatch operation are already saved.
+   > 
+   > If you started Copilot from the **Bank Account Reconciliations** list, nothing is saved, including the imported bank statement lines, automatches, and Copilot proposed matches.
+
+- To post the fully matched reconciliation automatically when you save it, turn on the **Post if fully applied** switch.  
+- To save the matches currently shown in the Copilot window, select **Keep it**.
+
+
+## Transfer to G/L Account
+
+This action must be chosen from an existing bank account reconciliation. The user must select one or more non-matched statement lines and then choose **Transfer to G/L Account**. This asks Copilot to match the selected statement lines with a G/L Account of type Posting. It looks for common substrings in the statement line description and G/L Account names. For english-to-english matching, it also looks for semantic matches - words and phrases that match semantically, not only literally. It will propose the best match it finds. If it doesn't find a good enough match for a specific statement line, it will not propose any G/L Account for it.
 
 
 ## See also

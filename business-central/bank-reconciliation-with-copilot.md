@@ -117,9 +117,9 @@ In the **Matched Proposals** section, review the suggested matches line by line,
 ## Transfer unmatched bank transactions to suggested general ledger accounts
 
 
-In this section, you learn how to use Copilot to transfer unreconciled bank account statements from the bank account ledger to the general ledger account. 
+In this section, you learn how to use Copilot to transfer unreconciled bank account statements from the bank account ledger to a general ledger account. This task can only be done from an existing reconciliation. 
 
-1. Go the **Bank Account Reconciliations** list, and open the existing reconciliation that includes the unreconciled lines.
+1. Go to the **Bank Account Reconciliations** list, and open the existing reconciliation that includes the unreconciled lines.
 
    Start by opening an existing bank account reconciliation. This step provides you with a clear view of any unreconciled bank statement lines that need to be transferred to the general ledger account.
 

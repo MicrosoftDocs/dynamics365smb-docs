@@ -14,11 +14,16 @@ ms.custom: bap-template
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
-This article explains how to use bank reconciliation assist to help you reconcile bank transactions with ledger entries in Business Central. Bank reconciliation assist is a set of AI-powered features that assist you in reconciling bank accounts. Bank reconciliation assist offers you two distinct tasks through Copilot:
+This article explains how to use bank reconciliation assist to help you reconcile bank transactions with ledger entries in Business Central.
+
+
+## About bank reconciliation assist
+
+Bank reconciliation assist is a set of AI-powered features that assist you in reconciling bank accounts. Bank reconciliation assist offers you two distinct tasks through Copilot:
 
 - Improved matching of transactions with ledger entries
 
-   Although the **Match Automatically** action on **Bank Acc. Reconciliation** page automatically matches most bank transactions with ledger entries, the rules-based algorithms the automatch operation uses can often result in many unmatched transactions. Copilot uses AI technology to inspect remaining transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if multiple invoices were paid as one lump sum by a customer, Copilot reconciles the single bank statement line with the multiple invoice ledger entries. Go to [Reconcile bank accounts with Copilot](#reconcile-bank-accounts-with-copilot).
+   Although the **Match Automatically** action on **Bank Acc. Reconciliation** page automatically matches most bank transactions with ledger entries, the algorithms used by this automatch operation might result in many unmatched transactions. Copilot uses AI technology to inspect remaining transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if multiple invoices were paid as one lump sum by a customer, Copilot reconciles the single bank statement line with the multiple invoice ledger entries. Go to [Reconcile bank accounts with Copilot](#reconcile-bank-accounts-with-copilot).
 
 - Suggested general ledger accounts
 
@@ -87,7 +92,7 @@ The Copilot window is divided into two sections.  The upper section provides som
 
 |Field|Description|
 |-|-|
-|Auto-matched|Specifies how many lines in the bank statement were matched by the automatch operation. Select the value to view the reconciliation card.  |
+|Auto-matched|Specifies how many lines in the bank statement matched by the automatch operation. Select the value to view the reconciliation card.  |
 |Copilot matched|Specifies how many lines in the bank statement have matches proposed by Copilot. You can view details of the matches in the **Matches Proposed** section.|
 |Statement Ending Balance|Specifies the ending balance shown on the bank's statement that you're reconciling with|
 |Post if fully applied|Turn on this switch if you want to automatically post the bank account reconciliation when all lines (100%) are matched and you've selected **Keep it**.|

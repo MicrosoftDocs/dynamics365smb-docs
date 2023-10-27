@@ -96,4 +96,6 @@ The Copilot window is divided into two sections.  The upper section provides som
 
 ## See also
 
-
+[Setting Up Banking](bank-setup-banking.md)  
+[Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md)  
+[Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) 

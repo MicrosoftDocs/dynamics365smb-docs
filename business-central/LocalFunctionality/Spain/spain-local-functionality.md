@@ -32,7 +32,7 @@ The following topics describe local functionality unique to the Spanish version 
   * [Export VAT Statements in XML Format](how-to-export-vat-statements-in-xml-format.md) **Available Now**  
   * [Export VAT Statements in Text Format](how-to-export-vat-statements-in-text-format.md) **Available Now**
   * [Equivalence Charges](equivalence-charges-ec-.md) **Available Now**
-  * [Non-deductible VAT update in Spain](../finance-setup-nondeductible-vat.md) **Available Now**
+  * [Non-deductible VAT update in Spain](../../finance-setup-nondeductible-vat.md) **Available Now**
 
 * Banking & payments  
   * [Electronic Payments – AEB N34.1](electronic-payments-aeb-n341.md) **Available Now**

@@ -38,30 +38,11 @@ This article explains how to use bank reconciliation assist to help you reconcil
 
 Copilot in bank reconciliation is intended to be used as a supplement to the **Match Automatically** operation. For this reason, when you use Copilot, the **Match Automatically** operation runs first to make the initial matches. Then, Copilot runs to try to match transactions that weren't matched by **Match Automatically** operation.   
 
-There are two approaches to reconciling bank accounts with Copilot. You can use Copilot to start a new reconciliation on a bank account, directly from **Bank Acc. Reconciliation** list, or you can use Copilot on an new or existing reconciliation on the Bank Account Reconciliation card.
+There are two approaches to reconciling bank accounts with Copilot. You can use Copilot to start a new reconciliation on a bank account, directly from **Bank Acc. Reconciliation** list, or you can use Copilot on a new or existing reconciliation on the Bank Account Reconciliation card.
 
-Use Copilot from the Bank Account Reconciliation list
+# [Use Copilot from the Bank Account Reconciliation list page](#tab/fromlist) 
 
-With this approach, you create new bank reconciliation from scratch by selecting the bank account and importing the bank statement file, if the banck account isn't linked to an online account.
-
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliation**, and then choose the related link. 
-1. Select the **Reconcile with Copilot** action to open the **Reconcile with Copilot** window.
-1. Set **Perform reconciliation for this bank account** field to the bank account that you want to reconcile.
-
-   ![Shows the reconcile with copilot window for reconciling from scratch](media/reconcile-bank-accounts-new-copilot.svg) 
- 
-1. If the selected bank account isn't linked to an online bank account, you must import the bank statement file. To import the file, either select the value in the **Use transaction data from** field or select the paper clip button next the **Generate** button. Then, use the **Select the file to import** to import tha bank statement file by either dragging it from your device or browsing your device.
-1. To reconcile with Copilot, select **Generate**.
-
-   Copilot starts generating proposed matches. When it's completed, the Reconcile with Copilot window opens the results of thw matching process.
-
-   ![Shows the reconcile with copilot window with proposed matches](media/bank-reconciliation-copilot-window.svg) 
-
-
-Use Copilot from a bank reconciliation card
-
-With this approach, you use Copilot on a new bank reconciliation that you create manually or edit an existing reconciliation. 
-
+With this approach, you create new bank reconciliation from scratch by selecting the bank account and importing the bank statement file, if the bank account isn't linked to an online account.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliation**, and then choose the related link. 
 1. Select the **Reconcile with Copilot** action to open the **Reconcile with Copilot** window.
@@ -69,20 +50,47 @@ With this approach, you use Copilot on a new bank reconciliation that you create
 
    ![Shows the reconcile with copilot window for reconciling from scratch](media/reconcile-bank-accounts-new-copilot.svg) 
  
-1. If the selected bank account isn't linked to an online bank account, you must import the bank statement file. To import the file, either select the value in the **Use transaction data from** field or select the paper clip button next the **Generate** button. Then, use the **Select the file to import** to import tha bank statement file by either dragging it from your device or browsing your device.
+1. If the selected bank account isn't linked to an online bank account, you must import the bank statement file. To import the file, either select the value in the **Use transaction data from** field or select the paper clip button next the **Generate** button. Then, use the **Select the file to import** to import the bank statement file by either dragging it from your device or browsing your device.
 1. To reconcile with Copilot, select **Generate**.
 
-   Copilot starts generating proposed matches. When it's completed, the Reconcile with Copilot window opens the results of thw matching process.
+   Copilot starts generating proposed matches. When it's completed, the Reconcile with Copilot window opens the results of the matching process.
 
-   ![Shows the reconcile with copilot window with proposed matches](media/bank-reconciliation-copilot-window.svg) 
+1. Review the proposed matches as described in the following section.
+# [Use Copilot from a bank reconciliation card](#tab/fromlist) 
+
+With this approach, you use Copilot either on a new bank reconciliation that you create manually or by editing an existing reconciliation. 
+
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliation**, and then choose the related link. 
+1. Do one of the following steps:
+
+   - Select **New** to start a new reconciliation. 
+   - Select and open an existing reconciliation from the list.
+1. In the **Bank Acc. Reconciliation** card, select **Reconcile with Copilot**
+
+   ![Shows the reconcile with copilot action on the Bank Acc. Reconciliation card](media/bank-reconciliation-copilot-card.svg) 
+
+   Copilot starts generating proposed matches. When it's completed, the **Reconcile with Copilot** window opens the results of the matching process. 
+
+1. Review the proposed matches as described in the following section. 
+---
 
 ## Review, save, or discard proposed matches
 
+After you run Copilot, the **Reconcile with Copilot** window shows the detailed results, including any proposed matches. At this point, no matches proposed by Copilot have been saved, so it provides you with opportunity inspect the proposals and save or discard as you like.
+
+![Shows the reconcile with copilot window with proposed matches](media/bank-reconciliation-copilot-window.png) 
+
+The Copilot window is divided into two sections.  The upper section provides some general details about result, as described in the following table. The lower **Matched Proposal** section lists matches suggested by Copilot: 
+
+|Field|Description|
+|-|-|
+|Auto-matched|Specifies how many lines in the bank statement were matched by the **Match Automatically** operation. Select the value to view the reconciliation card.  |
+|Copilot matched|Specifies how many lines in the bank statement have matches proposed by Copilot. You can view details of the matches in the **Matches Proposed** section.|
+|Statement Ending Balance|Specifies the ending balance shown on the bank's statement that you're reconciling with|
+|Post if fully applied|Turn on this switch if you want to automatically post the bank account reconciliation when all lines (100%) are matched and you've selected **Keep it**.|
+
+### Save or discard matches
 
 
 
-
-
-## Next steps
-
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->

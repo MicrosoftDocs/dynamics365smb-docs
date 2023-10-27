@@ -23,7 +23,7 @@ Bank reconciliation assist is a set of AI-powered features that assist you in re
 
 - Improved matching of transactions with ledger entries
 
-   Although the **Match Automatically** action on **Bank Acc. Reconciliation** page automatically matches most bank transactions with ledger entries, the algorithms used by this automatch operation might result in many unmatched transactions. Copilot uses AI technology to inspect remaining transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if multiple invoices were paid as one lump sum by a customer, Copilot reconciles the single bank statement line with the multiple invoice ledger entries. Go to [Reconcile bank accounts with Copilot](#reconcile-bank-accounts-with-copilot).
+   You might already be familiar with the **Match Automatically** action on **Bank Acc. Reconciliation** page that automatically matches most bank transactions with ledger entries. We refer to this operation as *automatch*. Although automatch works well, the algorithms it uses can sometimes result in many unmatched transactions. Copilot uses AI technology to inspect remaining transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if multiple invoices were paid as one lump sum by a customer, Copilot reconciles the single bank statement line with the multiple invoice ledger entries. Go to [Reconcile bank accounts with Copilot](#reconcile-bank-accounts-with-copilot).
 
 - Suggested general ledger accounts
 
@@ -103,7 +103,7 @@ In the **Matched Proposals** section, review the suggested matches line by line,
 
 - To discard a single proposed match, select it in the list, and then select the **Delete Line** action.
 
-- To discard all proposed matches and close the Copilot window, select the discard button (trash can) ![Shows the trach can icon for deleting all Copilot proposal for bank account reconciliation](media/copilot-delete-trash-can.png) next to the **Keep it** button at the bottom of the window.
+- To discard all proposed matches and close the Copilot window, select the discard button (trash can) ![Shows the trash can icon for deleting all Copilot proposal for bank account reconciliation](media/copilot-delete-trash-can.png) next to the **Keep it** button at the bottom of the window.
 
    > [!NOTE]
    > If you started Copilot from the **Bank Acc. Reconciliation** card for a new or existing reconciliation, only the Copilot proposed matches are deleted. The matches made by the automatch operation are already saved.
@@ -114,9 +114,36 @@ In the **Matched Proposals** section, review the suggested matches line by line,
 - To save the matches currently shown in the Copilot window, select **Keep it**.
 
 
-## Transfer residual bank transactions to suggested general ledger accounts 
+## Transfer unmatched bank transactions to suggested general ledger accounts
 
-This action must be chosen from an existing bank account reconciliation. The user must select one or more nonmatched statement lines and then choose **Transfer to G/L Account**. Copilot matches the selected statement lines with a G/L Account of type **Posting**. Copilot looks for common text in the statement line description and G/L Account names. For English-to-English matching, it also looks for semantic matches&mdash;words and phrases that match semantically, not only literally. Copilot proposes the best match it finds. If it doesn't find a good enough match for a specific statement line, it doesn't make any proposes.
+
+In this section, you learn how to use Copilot to transfer unreconciled bank account statements from the bank account ledger to the general ledger account. 
+
+1. Go the **Bank Account Reconciliations** list, and open the existing reconciliation that includes the unreconciled lines.
+
+   Start by opening an existing bank account reconciliation. This step provides you with a clear view of any unreconciled bank statement lines that need to be transferred to the general ledger account.
+
+2. In the **Bank statement lines** pane, identify the unmatched bank statement lines pane and select one or more lines that you want to reconcile.
+
+   These lines are the statement lines that Copilot focuses on for transfer to the general ledger account.
+
+3. Select **Transfer to G/L Account** to start process.
+
+   This step prompts Copilot to start generating proposals for the transfer.
+
+4. Once Copilot has finished generating proposals, the **Copilot G/L Account Transfer Proposals** window opens
+
+   This window displays the proposals in the **Matched Proposal** section.
+
+5. Review each proposal line by line to ensure the accuracy of the suggested transfers.
+
+6. Discard or save proposals.
+
+   - If you want to discard a specific proposal, select it in the list and then select **Delete Line**. To discard all proposals and exit Copilot, select the discard button (trash can) ![Shows the trash can icon for deleting all Copilot proposal for bank account reconciliation](media/copilot-delete-trash-can.png) next to the **Keep it** button at the bottom of the window.
+   
+   - If the proposals meet your requirements and you want to save them, select **Keep It**. 
+
+      This step confirms the transfer of the currently selected proposals from the bank account ledger to the general ledger account.
 
 ## Next steps
 

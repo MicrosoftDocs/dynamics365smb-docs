@@ -46,16 +46,13 @@ Copilot is designed to save you time and help you write creative and engaging te
 
    For information on how to create an item, go to [Register new items](inventory-how-register-new-items.md).
 
-   [![Shows an item card with Marketing Text pane](media/create-with-copilot.png)](media/create-with-copilot.png#lightbox)
+   [![Shows an item card with Marketing Text pane](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
 2. From the item card, there are two ways to get started writing marketing text with Copilot:
 
-   - Use the **Marketing Text** pane in the FactBox on the right side of the page. Follow these steps:
+   - Use the **Marketing Text** pane in the FactBox on the right side of the page, select **Draft with Copilot**.
 
-     1. In the **Marketing Text** pane, select **Create with Copilot**.
-
-        The suggested text appears in the pane.
-     2. If you want another suggestion, select **Create with Copilot** again. If you don't like a suggestion, select **Dismiss** to clear the pane.
+    <!-- 2. If you want another suggestion, select **Draft with Copilot** again. If you don't like a suggestion, select **Dismiss** to clear the pane.
 
         You can do this step over and over until you get a suggestion that's a good starting point. But keep in mind that the current suggestion will be overwritten and you can't get it back. So if you like the current suggestion, go to the next step. You'll still have the opportunity later to get more suggestions, and even improve the suggestions, if you like.
       3. Select **Review and save the suggestion** or **Edit** to review, edit, and save the text.
@@ -63,9 +60,11 @@ Copilot is designed to save you time and help you write creative and engaging te
          This step takes you to the **Create with Copilot** page. Go to the next section.
 
          > [!NOTE]
-         > The text won't be saved until you do this step.
+         > The text won't be saved until you do this step.-->
 
-   - Select the **Marketing Text** action at the top of the item card page to go directly to the **Create with Copilot**  page.
+   - At the top of the item card page, select the **Marketing Text** action<!--to go directly to the **Create with Copilot**  page-->, then select Draft with Copilot on the **Edit
+   
+      [![Shows the edit marketing text window](media/edit-marketing-text-blank)]
 
      From the **Create with Copilot** page, select **Create with Copilot** to get the first suggestion. You can then get more suggestions, try to improve the suggestions you get, edit text, and more. Go to [Review, edit, and save](#review-edit-and-save-text) for details.
 
@@ -76,7 +75,7 @@ Copilot is designed to save you time and help you write creative and engaging te
 
 Once you have the first draft, you must review it and make changes to the text to get it ready for publishing. This work is done from the **Create with Copilot** page. The current text is shown in the **Marketing Text** box. The page lets you get more suggestions, change preferences to influence the suggestions, and manually make changes and style the text.
 
-[![Shows the create with Copilot windows](media/create-with-copilot-window.png)](media/create-with-copilot-window.png#lightbox)
+[![Shows the create with Copilot windows](media/create-with-copilot-window.svg)](media/create-with-copilot-window.svg#lightbox)
 
 > [!IMPORTANT]
 > The AI-generated text from Copilot is only a suggestion and it can have mistakes. It requires human oversight and review to ensure it's accurate and appropriate. Review any suggested text and edit as needed before you save and publish it for public consumption.

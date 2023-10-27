@@ -93,7 +93,7 @@ The Copilot window is divided into two sections.  The upper section provides som
 
 ### Save or discard matches
 
-The **Matched Proposals** section, review the suggested matches line by line, and then take the following actions:
+In the **Matched Proposals** section, review the suggested matches line by line, and then take the appropriate action:
 
 - To discard a single proposed match, select it in the list, and then select the **Delete Line** action.
 

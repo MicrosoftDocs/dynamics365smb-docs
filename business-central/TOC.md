@@ -1841,7 +1841,10 @@
 #### [Report development guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Report performance tuning guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
-
+# Copilot and AI capabilities
+## [Configure Copilot and AI capabilities](enable-ai.md)
+## [Bank account reconciliation assist (preview)](bank-reconciliation-with-copilot.md)
+## [Marketing text suggestions](item-marketing-text.md)
 # Security, privacy, and compliance
 ## Security and protection
 ### [Security and protection overview (in English only)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

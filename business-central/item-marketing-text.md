@@ -32,33 +32,34 @@ Copilot is designed to save you time and help you write creative and engaging te
 ### Prerequisites
 
 - You're using a [preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot. Enabling Copilot is done by an admin. For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).
-- The language you're using in Business Central must be English. Any of the available English locales will work, like English (United States), English (United Kingdom), or English (South Africa).
+- The language you're using in Business Central must be English. Any of the available English locales work, like English (United States), English (United Kingdom), or English (South Africa).
 
    To change the language, in the upper-right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
 - Review the [Copilot FAQ](ai-faq.md) to learn more about AI-generated text suggestions from Copilot and how you should use them.
 
 ### Create first draft with Copilot
 
-1. In Business Central, open the item that you want to modify. To open an item, do the following:
+Complete the following steps to add marketing text to an existing item. To learn how to create a new item, go to [Register new items](inventory-how-register-new-items.md).
+
+1. In Business Central, open the item that you want to modify by completing the following steps:
 
    1. In the upper-right corner, select the ![Lightbulb that opens the Tell Me feature 22.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link to show a list of available items.
-   2. To open the item, double-click it or select its value in the **No.** column.
 
-   For information on how to create an item, go to [Register new items](inventory-how-register-new-items.md).
+   2. Double-click the item or select its value in the **No.** column.
 
    [![Shows an item card with Marketing Text pane](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
-2. From the item card, there are two ways to get started writing marketing text with Copilot:
+2. From the item card, there are two ways to get started writing marketing text with Copilot. Do one of the following steps:
 
    - In the **Marketing Text** pane in the FactBox on the right side of the page, select **Draft with Copilot**. 
    
      Copilot starts to draft the marketing text. 
 
-   - At the top of the page, select the **Marketing Text** action, then select **Draft with Copilot** on the **Edit Marketing Text** window.
+   - At the top of the page, select the **Marketing Text** action, then select **Draft with Copilot** on the **Edit Marketing Text** window.  The **Draft Marketing Text with Copilot** windows appears and lists all available attributes for the item.
    
-      ![Shows the edit marketing text window](media/edit-marketing-text-blank.svg)
+     ![Shows the edit marketing text window](media/marketing-text-copilot-attributes.svg)
 
-     The **Draft Marketing Text with Copilot** windows appears and lists all available attributes for the item. Select the attributes you want Copilot base suggestions on, then select **Generate**. Copilot starts to draft the marketing text. 
+     Select the attributes you want Copilot base suggestions on, then select **Generate**. You can change the selected attributes and other options later. Copilot starts to draft the marketing text. 
      
      
 3. When Copilot completes the draft, the text appears in the Copilot editor window for reviewing and editing. 
@@ -96,22 +97,24 @@ Use the following guidelines to finalize and save the marketing text.
 
 There are a few steps you can do to improve the text suggestions and tweak them to suit your personal or company's preferences.
 
-1. Use the options at the top of the **Create with Copilot** page to influence the outcome of the AI-generated text: 
+1. Change the item attributes used by Copilot.
+
+   Copilot suggestions are based, in part, on the attributes assigned to the item. To view the available attributes and current settings, select the edit icon in the upper-left corner. Choose the attributes that best align with the characteristics that you want to promote. The more relevant attributes you include, the richer the outcome becomes. If you feel you're missing some key attributes, add more. For more information about attributes, go to [Work with item attributes](inventory-how-work-item-attributes.md)
+1. Change your preference settings for  **Tone**, **Format**, and **Emphasis** options.
 
    |Option|Description|
    |-|-|
-   |Attributes to include|Use this option to base the suggestions, in part, on the attributes assigned to the item. Choose the attributes that best align with the characteristics that you want to promote. The more relevant attributes you include, the richer the outcome will be. If you feel you're missing some key attributes, add more. For more information about attributes, go to [Work with item attributes](inventory-how-work-item-attributes.md) |
-   |Emphasize a quality|Use this option to choose from a list of predefined qualities that you want to emphasize in the text. Choose a quality that best aligns with the type of item you're writing about. The qualities don't directly correspond to the item's attributes, description, or category. For example, **Quality** could be a good choice for both a bike or desk, while **Speed** would suit a bike, but not a desk.|
-   |Tone of voice|Use this option to influence what kind of words, phrases, and punctuation are used to engage the target audience. You can choose from several predefined tones of voice, ranging from **Formal** (which results in a business tone) to **Creative** (which results in an informal tone). |
+   |Tone |Use this option to influence what kind of words, phrases, and punctuation are used to engage the target audience. You can choose from several predefined tones of voice, ranging from **Formal** (which results in a business tone) to **Creative** (which results in an informal tone). |
    |Format and length|Use this option to control the general structure of the text, which consists of three parts, covered by four different options: <ul><li>**Tagline** - A catchy phrase or short sentence that identifies the item or brand.</li><li>**Paragraph** - A single paragraph of fluent and verbose text, consisting of several complete sentences.</li><li>**Tagline + Paragraph** - A tagline followed by a paragraph</li><li>**Brief** - An introductory sentence, similar to a tagline, followed by a bulleted list of key points of interest.</li></ul> |
+   |Emphasis|Use this option to choose from a list of predefined qualities that you want to emphasize in the text. Choose a quality that best aligns with the type of item you're writing about. The qualities don't directly correspond to the item's attributes, description, or category. For example, **Quality** could be a good choice for both a bike or desk, while **Speed** would suit a bike, but not a desk.|
 
-2. Improve the **Description** field on the item card.
+1. Improve the **Description** field on the item card.
 
-   The text in the **Description** field will be used as-is in many places in the suggested text, so it's important that the description best portrays how you want the item referenced in the marketing text. 
+   The text in the **Description** field is used as-is in many places in the suggested text, so it's important that the description best portrays how you want the item referenced in the marketing text. 
 
-3. Make sure the **Item Category Code** field on the item card is set to a proper category.
+1. Make sure the **Item Category Code** field on the item card is set to a proper category.
 
-   Copilot will find words and phrases that are related to the category and work them into the suggested text.
+   Copilot finds words and phrases that are related to the category and work them into the suggested text.
 
 ## Create marketing text from scratch
 
@@ -120,7 +123,7 @@ There are a few steps you can do to improve the text suggestions and tweak them 
     1. In the upper-right corner, select the ![Lightbulb that opens the Tell Me feature 22.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link  to show a list of available items.
     2. To open the item, double-click it or select its number in the  **No.** field.
 
-2. Do one of the following:
+2. Do one of the following steps:
 
    - In the **Marketing Text** pane of the FactBox on the right side of the page, select **Edit**.
    - Select the **Marketing Text** action.

@@ -17,8 +17,6 @@ There are two ways to create the marketing text. The easiest way to get started 
 
 ## <a name=copilot></a>Create AI-generated marketing text (preview) with Copilot
 
-[!INCLUDE[ai-preview](includes/ai-preview.md)]
-
 With Copilot, you quickly get a text suggestion that's automatically generated for you. The AI-generated text is tailored to the item and provides a good starting point. The text is based in part on the following information:
 
 - Attributes defined for the item—for example, the description, color, dimensions, material, and so on.

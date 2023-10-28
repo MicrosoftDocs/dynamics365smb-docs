@@ -15,7 +15,7 @@ For any item registered in Business Central, you can write *marketing text* abou
 
 There are two ways to create the marketing text. The easiest way to get started is to use Copilot, which suggests AI-generated text for you. The other way is to start from scratch. 
 
-## <a name=copilot></a>Create text from marketing text suggestions with Copilot
+## <a name=copilot></a>Get marketing text suggestions with Copilot
 
 With Copilot, you quickly get a text suggestion that's automatically generated for you. The AI-generated text is tailored to the item and provides a good starting point. The text is based in part on the following information:
 

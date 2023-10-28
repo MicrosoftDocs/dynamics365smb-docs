@@ -90,8 +90,11 @@ Use the following guidelines to finalize and save the marketing text.
 
    For guidelines on improving suggestions, go to the [Improve and tailor text suggestions](#improve-and-tailor-text-suggestions).
 
-4. If you want to go back to previous suggestion, select **Undo**.
-5. Carefully review the text for accuracy and appropriateness, then select **OK** to save it.
+4. If you want to go back to previous suggestion, select **Undo** in the toolbar along the bottom of the window.
+5. Carefully review the text for accuracy and appropriateness:
+
+   - If you want to save the text, select **Keep it**. 
+   - If you don't want to save, select the discard button (trash can) ![Shows the trash can icon for deleting all Copilot proposal for bank account reconciliation](media/copilot-delete-trash-can.png).
 
 ### Improve and tailor text suggestions
 
@@ -99,7 +102,7 @@ There are a few steps you can do to improve the text suggestions and tweak them 
 
 1. Change the item attributes used by Copilot.
 
-   Copilot suggestions are based, in part, on the attributes assigned to the item. To view the available attributes and current settings, select the edit icon in the upper-left corner. Choose the attributes that best align with the characteristics that you want to promote. The more relevant attributes you include, the richer the outcome becomes. If you feel you're missing some key attributes, add more. For more information about attributes, go to [Work with item attributes](inventory-how-work-item-attributes.md)
+   Copilot suggestions are based, in part, on the attributes assigned to the item. To view the available attributes and current settings, select the edit ![Shows the edit icon on the Copilot window for changing attributes](media/edit-pencil.png) icon in the upper-left corner. In the **Item Attributes** page, choose the attributes that best align with the characteristics that you want to promote. The more relevant attributes you include, the richer the outcome becomes. If you feel you're missing some key attributes, add more. For more information about attributes, go to [Work with item attributes](inventory-how-work-item-attributes.md)
 1. Change your preference settings for  **Tone**, **Format**, and **Emphasis** options.
 
    |Option|Description|

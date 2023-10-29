@@ -4,4 +4,4 @@ ms.topic: include
 ms.date: 08/08/2023
 ms.author: jswymer
 ---
-item marketing text suggestions
+marketing text suggestions

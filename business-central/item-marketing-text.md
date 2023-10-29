@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/22/2023
+ms.date: 10/29/2023
 ms.custom: bap-template
 ---
 
@@ -132,7 +132,7 @@ There are a few steps you can do to improve the text suggestions and tweak them 
 
 ## See also
 
-[Marketing text suggestions with Copilot overview](ai-overview.md)  
-[FAQ for marketing text suggestions with Copilot](ai-faq.md)  
+[Marketing text suggestions overview](ai-overview.md)  
+[FAQ for marketing text suggestions](ai-faq.md)  
 [Configure Copilot and AI capabilities](enable-ai.md)  
 [Register new items](inventory-how-register-new-items.md)  

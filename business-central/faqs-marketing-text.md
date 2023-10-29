@@ -1,7 +1,7 @@
 ---
 title: FAQ for item marketing text suggestions
 description: This FAQ provides information about the AI technology used in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 08/08/2023
+ms.date: 10/29/2023
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article

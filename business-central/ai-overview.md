@@ -1,11 +1,11 @@
 ---
-title: Overview of AI-powered item marketing text (preview) with Copilot
+title: Marketing text suggestions with Copilot overview
 description: Get an overview of the AI content-generating capabilities in Business Central.  
 author: jswymer 
 ms.author: jswymer 
 ms.reviewer: jswymer
 ms.topic: overview 
-ms.date: 03/16/2023
+ms.date: 10/29/2023
 ms.custom: bap-template 
 ---
 # Marketing text suggestions with Copilot overview
@@ -63,7 +63,7 @@ For more information, go to [Get the Business Central preview version](ai-previe
 
 ## See also
 
-[Configure AI-powered item marketing text as an admin](enable-ai.md)  
+[Configure Copilot and AI capabilities](enable-ai.md)  
 [Create marketing text with Copilot](item-marketing-text.md)  
-[AI-powered item marketing text with Copilot FAQ](ai-faq.md)  
+[FAQ for marketing text suggestions](ai-faq.md)  
 [Get Started with the Shopify Connector](shopify/get-started.md)  

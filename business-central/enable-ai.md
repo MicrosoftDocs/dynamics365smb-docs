@@ -1,5 +1,5 @@
 ---
-title: Configure AI-powered item marketing text (preview) with Copilot
+title: Configure Copilot and AI capabilities
 description: This article explains how to get a Copilot trial version of Business Central and enable Copilot on an environment.
 author: jswymer
 ms.author: jswymer
@@ -78,5 +78,5 @@ After you enable and consent to the features, you're ready to try them out. Go t
 
 ## See also
 
-[Marketing text suggestions with Copilot overview](ai-overview.md)   
-[FAQ for marketing text suggestions with Copilot](ai-faq.md)  
+[Marketing text suggestions overview](ai-overview.md)   
+[FAQ for marketing text suggestions](ai-faq.md)  

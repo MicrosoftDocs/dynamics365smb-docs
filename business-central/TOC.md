@@ -1836,7 +1836,7 @@
 ### Marketing text suggestions
 #### [Marketing text suggestions overview](ai-overview.md)
 #### [Create marketing text with Copilot](item-marketing-text.md)
-#### [FAQ](ai-faq.md)
+#### [Responsible AI FAQ](faqs-marketing-text.md)
 
 # Security, privacy, and compliance
 ## Security and protection

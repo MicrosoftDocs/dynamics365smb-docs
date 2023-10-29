@@ -78,6 +78,5 @@ After you enable and consent to the features, you're ready to try them out. Go t
 
 ## See also
 
-[Overview of AI-powered item marketing text with Copilot](ai-overview.md)  
-[Create marketing text to items using Copilot](item-marketing-text.md)  
-[AI-powered item marketing text with Copilot FAQ](ai-faq.md)  
+[Marketing text suggestions with Copilot overview](ai-overview.md)   
+[FAQ for marketing text suggestions with Copilot](ai-faq.md)  

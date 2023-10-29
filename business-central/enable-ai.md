@@ -22,7 +22,9 @@ This article explains how to control users' access to Copilot and other AI capab
 
    This consent is required for any Copilot or AI capability to work for users. The consent is global for all users and applies to all Copilot and AI features.
 
-- Enable the specific feature if it's  still governed under **Feature Management**.
+- Enable the specific feature if it's still governed under **Feature Management**.
+
+  In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. However, marketing text suggestions is enabled by default. 
 
 - Activate the feature on the **Copilot & AI Capabilities** page.   
 
@@ -35,7 +37,7 @@ If any of these requirements aren't fulfilled, the feature won't be available fo
 
 ## Consent to or reject preview and privacy terms
 
-Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) on behalf of the organization.
+Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) on behalf of the organization. Unlike privacy notices for other features and services, Azure OpenAI can only be consented by an admin, on behalf of the entire organizations. Users can't decide for themselves.   
 
 1. In Business Central, search for and open the **Privacy Notices Status** page.
 2. In the **Integration Name** column, select **Azure OpenAI**, then read the terms and conditions that are presented to you.
@@ -47,7 +49,10 @@ Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/
 **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like item marketing suggestion. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 1. In Business Central, search for and open the **Feature Management** page.
-2. Set the **Enabled for** column for **Feature preview: Create AI-powered product descriptions with Copilot** to **All users** to enable the feature or **None** to disable it.
+2. To enable a feature, set the **Enabled for** column to **All users**. To disable a feature, set the **Enabled for** column to **None**. Use the following table to help you determine the 
+
+   - **Feature Preview: Bank account reconciliation with Copilot** pertains to the bank account reconciliation assist feature.
+   - **Feature preview: Create AI-powered product descriptions with Copilot** pertains to the marketing text suggestions feature.
 
    For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 

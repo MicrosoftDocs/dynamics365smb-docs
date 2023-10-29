@@ -30,7 +30,7 @@ Copilot is designed to save you time and help you write creative and engaging te
 ### Prerequisites
 
 - You're using a [preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot. Enabling Copilot is done by an admin. For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).
-- The language you're using in Business Central must be English. Any of the available English locales work, like English (United States), English (United Kingdom), or English (South Africa).
+- You're using a one of the languages currently supported by the marketing text suggestions feature. <!--you're using in Business Central must be English. Any of the available English locales work, like English (United States), English (United Kingdom), or English (South Africa).-->
 
    To change the language, in the upper-right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
 - Review the [Copilot FAQ](ai-faq.md) to learn more about AI-generated text suggestions from Copilot and how you should use them.
@@ -58,7 +58,6 @@ Complete the following steps to add marketing text to an existing item. To learn
      ![Shows the edit marketing text window](media/marketing-text-copilot-attributes.svg)
 
      Select the attributes you want Copilot base suggestions on, then select **Generate**. You can change the selected attributes and other options later. Copilot starts to draft the marketing text. 
-     
      
 3. When Copilot completes the draft, the text appears in the Copilot editor window for reviewing and editing. 
 
@@ -88,7 +87,7 @@ Use the following guidelines to finalize and save the marketing text.
 
    For guidelines on improving suggestions, go to the [Improve and tailor text suggestions](#improve-and-tailor-text-suggestions).
 
-4. If you want to go back to previous suggestion, select **Undo** in the toolbar along the bottom of the window.
+4. If you want to go back to previous suggestion, select the **...** (More formatting options) along the bottom of the window, then select **Undo**. Select **Redo** to go back.
 5. Carefully review the text for accuracy and appropriateness:
 
    - If you want to save the text, select **Keep it**. 

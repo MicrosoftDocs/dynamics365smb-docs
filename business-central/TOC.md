@@ -115,13 +115,6 @@
 ### [Troubleshoot self-service sign-up](ui-troubleshoot-self-signup.md)
 ### [Extend your trial version](admin-extend-trial.md)
 ### [Unsubscribe or remove Business Central](admin-cancel.md)
-### AI-powered item marketing text with copilot
-#### [Overview](ai-overview.md)
-#### [Get preview version](ai-preview-getstarted.md)
-#### [Configure AI-powered item marketing text](enable-ai.md)
-#### [Create AI-powered item marketing text](item-marketing-text.md)
-#### [FAQ](ai-faq.md)
-
 ## Buy
 ### [Get started with a subscription](trial-signup.md#get-started-with-a-subscription)
 ### [Get ready for doing business](ui-get-ready-business.md)
@@ -1838,6 +1831,12 @@
 #### [Report development guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Report performance tuning guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
+# Copilot and AI capabilities
+## [Configure Copilot and AI capabilities](enable-ai.md)
+### Marketing text suggestions
+### [Marketing text suggestions overview](ai-overview.md)
+### [Create marketing text with Copilot](item-marketing-text.md)
+### [FAQ](ai-faq.md)
 
 # Security, privacy, and compliance
 ## Security and protection

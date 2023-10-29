@@ -68,7 +68,7 @@ Authorized Microsoft personnel may review data that has triggered our automated 
 
 ## What data does the capability collect? How is the data used?
 
-The capability collects your answer to the **Is this a good suggestion?** question on the **Create with Copilot** page, which can be either a thumbs-up (I like it) or thumbs-down (Needs improvement). We use this data to evaluate and improve the quality of the capability. More information on what data is collected is available in the [preview terms](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
+The capability collects your answer to the **Is this a good suggestion?** question on the **Copilot** page, which can be either a thumbs-up (I like it) or thumbs-down (Needs improvement). We use this data to evaluate and improve the quality of the capability. More information on what data is collected is available in the [preview terms](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
 
 ## What are the limitations of [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? How can users minimize the impact of the [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] limitations when using the system?
 

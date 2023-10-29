@@ -16,15 +16,15 @@ ms.custom: bap-template
 <!--This article explains how you can control the ability to create AI-powered item marketing text with Copilot for your organization. This task is done by an admin. There are two requirements that you must fulfill to make the feature available to users:-->
 
 
-This article explains how to control users' access to Copilot and other AI capabilities in Business Central. This task is done by an admin. There are three levels of consent to use generative AI Copilot features in Customer Insights - Data. Consent is global for all users and all Copilot features in Customer Insights - Data. There are two requirements that you must fulfill to make the feature available to users:
+This article explains how to control users' access to Copilot and other AI capabilities in Business Central. This task is done by an admin. There are three levels of access control to Copolit and AI capabilities, depending on the feature:
 
-- Consent to the [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [privacy](https://go.microsoft.com/fwlink/?LinkId=521839) terms and conditions for all users.
+- Consent to the Azure OpenAI [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [privacy](https://go.microsoft.com/fwlink/?LinkId=521839) terms and conditions.
 
-   This consent is global for all users and applies to all Copilot and AI features.
+   This consent is required for any Copilot or AI capability to work for users. The consent is global for all users and applies to all Copilot and AI features.
 
-- Enable the feature if it's  still governed under **Feature Management**.
+- Enable the specific feature if it's  still governed under **Feature Management**.
 
-- Activate the feature 
+- Activate the feature on the **Copilot & AI Capabilities** page.   
 
 If any of these requirements aren't fulfilled, the feature won't be available for use.
 

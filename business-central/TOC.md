@@ -1845,7 +1845,7 @@
 # Copilot and AI capabilities
 ## [Configure Copilot and AI capabilities](enable-ai.md)
 ## [Bank account reconciliation assist (preview)](bank-reconciliation-with-copilot.md)
-## [Marketing text suggestions](item-marketing-text.md)
+## Marketing text suggestions
 # Security, privacy, and compliance
 ## Security and protection
 ### [Security and protection overview (in English only)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

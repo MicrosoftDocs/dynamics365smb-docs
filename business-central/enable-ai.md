@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/22/2023
+ms.date: 10/29/2023
 ms.custom: bap-template
 ---
 
@@ -15,20 +15,19 @@ ms.custom: bap-template
 
 <!--This article explains how you can control the ability to create AI-powered item marketing text with Copilot for your organization. This task is done by an admin. There are two requirements that you must fulfill to make the feature available to users:-->
 
-
 This article explains how to control users' access to Copilot and other AI capabilities in Business Central. This task is done by an admin. There are three levels of access control to Copolit and AI capabilities, depending on the feature:
 
 - Consent to the Azure OpenAI [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [privacy](https://go.microsoft.com/fwlink/?LinkId=521839) terms and conditions.
 
    This consent is required for any Copilot or AI capability to work for users. The consent is global for all users and applies to all Copilot and AI features.
 
-- Enable the specific feature if it's still governed under **Feature Management**.
+- Enable the specific feature, if it's still governed by **Feature Management**.
 
-  In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. However, marketing text suggestions is enabled by default. 
+  In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. However, marketing text suggestions is enabled by default.
 
 - Activate the feature on the **Copilot & AI Capabilities** page.   
 
-If any of these requirements aren't fulfilled, the feature won't be available for use.
+If any of these requirements aren't fulfilled, the feature isn't available for use.
 
 ## Prerequisites
 
@@ -37,7 +36,7 @@ If any of these requirements aren't fulfilled, the feature won't be available fo
 
 ## Consent to or reject preview and privacy terms
 
-Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) on behalf of the organization. Unlike privacy notices for other features and services, Azure OpenAI can only be consented by an admin, on behalf of the entire organizations. Users can't decide for themselves.   
+Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) on behalf of the organization. Unlike privacy notices for other features and services, only admins can consent the use of Azure OpenAI, which they do on behalf of the organization. Users can't decide for themselves.   
 
 1. In Business Central, search for and open the **Privacy Notices Status** page.
 2. In the **Integration Name** column, select **Azure OpenAI**, then read the terms and conditions that are presented to you.
@@ -67,12 +66,15 @@ Using the **Copilot & AI Capabilities** page, you can turn individual features o
    [![Shows the Business Central role center and the checklist for Copilot](media/copilot-and-ai-capabilties-page.svg)](media/copilot-and-ai-capabilties-page.svg#lightbox)
 
    - To turn on a feature, select it in the list, then select the **Activate** in the ribbon.
-   - To turn a feature off, select it, and then select **Deactivate** in the ribbon. 
+   - To turn off a feature, select it, and then select **Deactivate** in the ribbon. 
 
 
 ## Next steps
 
-After you enable and consent to the feature, you're ready to try out Copilot on items in Business Central. Go to [Add marketing text to items](item-marketing-text.md).  
+After you enable and consent to the features, you're ready to try them out. Go to:
+
+- [Add marketing text to items](item-marketing-text.md) 
+- [Reconcile using bank account reconciliation assist](bank-reconciliation-with-copilot.md) 
 
 ## See also
 

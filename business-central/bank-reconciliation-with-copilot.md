@@ -82,13 +82,13 @@ With this approach, you use Copilot either on a new bank reconciliation that you
 1. Review the proposed matches as described in the following section. 
 ---
 
-## Review, save, or discard proposed matches
+### Review, save, or discard proposed matches
 
 After you run Copilot, the **Reconcile with Copilot** window shows the detailed results, including any proposed matches. At this point, no matches proposed by Copilot have been saved, so it provides you with opportunity inspect the proposals and save or discard as you like.
 
 ![Shows the reconcile with copilot window with proposed matches](media/bank-reconciliation-copilot-window.png) 
 
-The Copilot window is divided into two sections.  The upper section provides some general details about result, as described in the following table. The lower **Matched Proposal** section lists the matches suggested by Copilot: 
+The Copilot window is divided into two sections. The upper section provides some general details about result, as described in the following table.  The lower **Matched Proposal** section lists the matches suggested by Copilot.
 
 |Field|Description|
 |-|-|
@@ -97,7 +97,7 @@ The Copilot window is divided into two sections.  The upper section provides som
 |Statement Ending Balance|Specifies the ending balance shown on the bank's statement that you're reconciling with|
 |Post if fully applied|Turn on this switch if you want to automatically post the bank account reconciliation when all lines (100%) are matched and you've selected **Keep it**.|
 
-### Save or discard matches
+#### Save or discard proposed matches
 
 In the **Matched Proposals** section, review the suggested matches line by line, and then take the appropriate action:
 
@@ -115,7 +115,6 @@ In the **Matched Proposals** section, review the suggested matches line by line,
 
 
 ## Transfer unmatched bank transactions to suggested general ledger accounts
-
 
 In this section, you learn how to use Copilot to transfer unreconciled bank account statements from the bank account ledger to a general ledger account. This task can only be done from an existing reconciliation. 
 

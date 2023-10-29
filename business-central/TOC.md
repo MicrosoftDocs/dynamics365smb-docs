@@ -1834,9 +1834,9 @@
 # Copilot and AI capabilities
 ## [Configure Copilot and AI capabilities](enable-ai.md)
 ### Marketing text suggestions
-### [Marketing text suggestions overview](ai-overview.md)
-### [Create marketing text with Copilot](item-marketing-text.md)
-### [FAQ](ai-faq.md)
+#### [Marketing text suggestions overview](ai-overview.md)
+#### [Create marketing text with Copilot](item-marketing-text.md)
+#### [FAQ](ai-faq.md)
 
 # Security, privacy, and compliance
 ## Security and protection

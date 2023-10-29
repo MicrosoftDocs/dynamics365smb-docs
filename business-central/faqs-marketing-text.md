@@ -52,7 +52,7 @@ This feature is intended to assist users in creating marketing text for items in
 
     You provide feedback by using **Is this a good suggestion?** option on the **Create with Copilot** page in Business Central and selecting either a thumbs-up (I like it) or thumbs-down (Needs improvement). We gather the telemetry of these gestures for each AI output that you submit feedback for.
 
-    ![Shows an item card with Marketing Text pane](media/create-with-copilot-window-feedback.png)
+    ![Shows an item card with Marketing Text pane](media/create-with-copilot-window-feedback.svg)
 
 - The Azure OpenAI Service stores prompts and completions from the service to monitor for abusive use and to develop and improve the quality of Azure OpenAI's content management systems. [Learn more about our content management and filtering.](/azure/cognitive-services/openai/concepts/content-filter)
 

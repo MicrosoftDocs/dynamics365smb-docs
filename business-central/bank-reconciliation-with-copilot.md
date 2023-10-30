@@ -23,11 +23,15 @@ Bank reconciliation assist is a set of AI-powered features that assist you in re
 
 - Improved matching of transactions with ledger entries
 
-   You might already be familiar with the **Match Automatically** action on **Bank Acc. Reconciliation** page that automatically matches most bank transactions with ledger entries. We refer to this operation as *automatch*. Although automatch works well, the algorithms it uses can sometimes result in many unmatched transactions. Copilot uses AI technology to inspect remaining transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if multiple invoices were paid as one lump sum by a customer, Copilot reconciles the single bank statement line with the multiple invoice ledger entries. Go to [Reconcile bank accounts with Copilot](#reconcile-bank-accounts-with-copilot).
+   You might already be familiar with the **Match Automatically** action on **Bank Acc. Reconciliation** page that automatically matches most bank transactions with ledger entries. We refer to this operation as *automatch*. Although automatch works well, the algorithms it uses can sometimes result in many unmatched transactions. Copilot uses AI technology to inspect remaining transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if multiple invoices were paid as one lump sum by a customer, Copilot reconciles the single bank statement line with the multiple invoice ledger entries.
+   
+   Go to [Reconcile bank accounts with Copilot](#reconcile-bank-accounts-with-copilot).
 
 - Suggested general ledger accounts
 
-  For residual bank transactions that can't be matched to any ledger entries, Copilot compares the transaction description with G/L account names, suggesting the most likely G/L account to post to. For example, Copilot might suggest that transactions with the narrative "Fuel Stop 24" be posted to the "Transportation" account. Go to [Reconcile bank accounts with Copilot](#transfer-to-gl-account).
+  For residual bank transactions that can't be matched to any ledger entries, Copilot compares the transaction description with G/L account names, suggesting the most likely G/L account to post to. For example, Copilot might suggest that transactions with the narrative "Fuel Stop 24" be posted to the "Transportation" account.
+  
+   Go to [Transfer unmatched bank transactions to suggested general ledger accounts](#transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts).
 
 
    

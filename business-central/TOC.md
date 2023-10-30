@@ -6,6 +6,7 @@
 ## [Overview of business functionality](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Learn
+### [Resources for users](resources-for-users.md)
 ### [Business Central learning catalog](readiness/readiness-learning-catalog.md)
 ### [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Business process walkthroughs
@@ -342,6 +343,7 @@
 #### [The late payment prediction extension](ui-extensions-late-payment-prediction.md)
 
 ### Manage E-documents
+#### [E-Documents overview](finance-edocuments-overview.md)
 #### [Set up E-documents](finance-how-setup-edocuments.md)
 #### [Use e-documents in sales and purchases](finance-how-use-edocuments.md)
 #### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
@@ -1808,6 +1810,7 @@
 
 ## Analyze data in business intelligence tools
 ### [Overview](reports-external-analysis.md)
+### [Microsoft Fabric and Business Central](admin-fabric.md)
 ### [Use Power BI with Business Central](admin-powerbi.md)
 ### [Analyze financial statements with Excel](finance-analyze-excel.md)
 ### [Extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)

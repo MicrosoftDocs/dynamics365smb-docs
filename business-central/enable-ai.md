@@ -17,15 +17,15 @@ ms.custom: bap-template
 
 This article explains how to control users' access to Copilot and other AI capabilities in Business Central. This task is done by an admin. There are three levels of access control to Copolit and AI capabilities, depending on the feature:
 
-- Consent to the Azure OpenAI [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [privacy](https://go.microsoft.com/fwlink/?LinkId=521839) terms and conditions.
+1. Consent to the Azure OpenAI [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [privacy](https://go.microsoft.com/fwlink/?LinkId=521839) terms and conditions.
 
-   This consent is required for any Copilot or AI capability to work for users. The consent is global for all users and applies to all Copilot and AI features.
+   This consent is required for any Copilot or AI capability to work for users. The consent is global for all users and applies to all Copilot and AI features. [Learn more](#consent-to-or-reject-preview-and-privacy-terms)
 
 - Enable the specific feature, if it's still governed by **Feature Management**.
 
-  In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. However, marketing text suggestions is enabled by default.
+  In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. However, marketing text suggestions is enabled by default. [Learn more](#enable-or-disable-feature-in-feature-management)
 
-- Activate the feature on the **Copilot & AI Capabilities** page.   
+- Activate the feature on the **Copilot & AI Capabilities** page. [Learn more](#activate-or-deactivate-the-feature)
 
 If any of these requirements aren't fulfilled, the feature isn't available for use.
 

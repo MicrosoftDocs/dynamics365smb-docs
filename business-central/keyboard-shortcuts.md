@@ -4,7 +4,7 @@ description: The complete list of keyboard shortcut combinations to work efficie
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 09/11/2023
+ms.date: 10/26/2023
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics365-business-central
@@ -29,6 +29,9 @@ Keyboard shortcuts aid accessibility and can make it easier and more efficient t
 > The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.
 
 Most of the shortcuts are the same whether the operating system is Windows or macOS. However, some shortcuts differ for macOS. These shortcuts are indicated with brackets in the following sections.
+
+> [!NOTE]
+> Business Central only supports a single character set for data. Therefore, some characters may not be supported in your environment, and you may experience problems when retrieving data that was entered using a different character set. This may also apply to keyboard shortcuts. For instance, your environment may support only English and Russian characters. In this case, if you enter data in a different language, it may not be stored correctly. You should contact your system administrator to make sure you understand which languages are supported by your Business Central. 
 
 > [!NOTE]
 > In addition to the global keyboard shortcuts described in this article, a number of business-specific shortcuts are available. For example, in the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], <kbd>F9</kbd> posts a document and <kbd>Ctrl</kbd>+<kbd>F7</kbd> shows the ledger entries for a record when you open the record in a card. This article includes some of the more common business-specific shortcuts, which are shown in italics. Be aware that the actual shortcuts may be different in your solution. In the user interface, the keyboard shortcut is shown in the tooltip for the action in question.

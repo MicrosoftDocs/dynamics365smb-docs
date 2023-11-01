@@ -24,9 +24,6 @@ With Copilot, you quickly get a text suggestion that's automatically generated f
 
 Copilot is designed to save you time and help you write creative and engaging text that reflects your brand and is consistent across your product line. Start by generating a suggestion, then change the suggested text as needed.
 
-> [!NOTE]
-> Currently, only the following languages are supported: .
-
 ### Prerequisites
 
 - You're using a [preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot. Enabling Copilot is done by an admin. For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).

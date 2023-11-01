@@ -30,7 +30,9 @@ Copilot is designed to save you time and help you write creative and engaging te
 ### Prerequisites
 
 - You're using a [preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot. Enabling Copilot is done by an admin. For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).
-- You're using a one of the languages currently supported by the marketing text suggestions. [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)] <!--you're using in Business Central must be English. Any of the available English locales work, like English (United States), English (United Kingdom), or English (South Africa).-->
+- You're using a one of the languages currently supported by the marketing text suggestions.
+
+   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)] <!--you're using in Business Central must be English. Any of the available English locales work, like English (United States), English (United Kingdom), or English (South Africa).-->
 
    To change the language, in the upper-right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
 - Review the [Copilot FAQ](ai-faq.md) to learn more about AI-generated text suggestions from Copilot and how you should use them.

@@ -57,14 +57,15 @@ This section explains the current limitations of AI-generated text capability pr
 
 To get started, you'll need a Business Central (v23.1 and later) environment that's enabled with Copilot.
 
-- If you're an existing Business Central customer, your Business Central admin will have to set up a version environment for you. For more information, go to [Configure Copilot and AI capabilities](enable-ai.md).
+- If you're an existing Business Central customer, your Business Central admin will have to set up an environment that's enabled for marketing text suggestions. For more information, go to [Configure Copilot and AI capabilities](enable-ai.md).
+
 - If you're not a Business Central customer but want to try it out, you can sign up for a free trial. For more information, go to [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md).
 
-For more information, go to [Get the Business Central preview version](ai-preview-getstarted.md).  
+Once you have an environment or trail that ready, go to [Add marketing text to items with Copilot](item-marketing-text.md).  
 
 ## See also
 
 [Configure Copilot and AI capabilities](enable-ai.md)  
-[Create marketing text with Copilot](item-marketing-text.md)  
+[Add marketing text to items with Copilot](item-marketing-text.md)  
 [FAQ for marketing text suggestions](faqs-marketing-text.md)  
 [Get Started with the Shopify Connector](shopify/get-started.md)  

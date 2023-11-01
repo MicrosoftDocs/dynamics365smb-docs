@@ -88,7 +88,7 @@ The **Bank Statement Lines** pane will be filled according to invoices in [!INCL
 
 ## Match bank statement lines with bank account ledger entries automatically
 
-The **Bank Acc. Reconciliation** page offers automatic matching functionality based on a matching of text on a bank statement line (left pane) with text on one or more bank account ledger entries (right pane). You can overwrite the suggested automatic matching, and you can choose to not use automatic matching at all. For more information, see [To match bank statement lines with bank account ledger entries manually](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
+The **Bank Acc. Reconciliation** page offers automatic matching functionality based on a matching of text on a bank statement line (left pane) with text on one or more bank account ledger entries (right pane). You can overwrite the suggested automatic matching, and you can choose to not use automatic matching at all. For more information, see [Match bank statement lines with bank account ledger entries manually](#match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
 You can investigate the basis for matches by using the **Match Details** action. For example, the details will include the names of the fields that contained matching values.  
 

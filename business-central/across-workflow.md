@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 You can set up and use workflows to connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows. System tasks can be preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.
 
-The default version of [!INCLUDE [prod_short](includes/prod_short.md)] supports three types of workflows:
+The default version of [!INCLUDE [prod_short](includes/prod_short.md)] supports these types of workflows:
   
 * Power Automate flows
 

@@ -8,6 +8,7 @@ ms.topic: article
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
+ms.search.keywords: copilot, AI 
 ---
 
 # FAQ for bank account reconciliation assist (preview) with Copilot

@@ -66,5 +66,5 @@ For more information, go to [Get the Business Central preview version](ai-previe
 
 [Configure Copilot and AI capabilities](enable-ai.md)  
 [Create marketing text with Copilot](item-marketing-text.md)  
-[FAQ for marketing text suggestions](ai-faq.md)  
+[FAQ for marketing text suggestions](faqs-marketing-text.md)  
 [Get Started with the Shopify Connector](shopify/get-started.md)  

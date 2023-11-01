@@ -32,7 +32,7 @@ Copilot is designed to save you time and help you write creative and engaging te
    [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)] <!--you're using in Business Central must be English. Any of the available English locales work, like English (United States), English (United Kingdom), or English (South Africa).-->
 
    To change the language, in the upper-right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
-- Review the [Copilot FAQ](ai-faq.md) to learn more about AI-generated text suggestions from Copilot and how you should use them.
+- Review the [FAQ for marketing text suggestions](faqs-marketing-text.md) to learn more about AI-generated text suggestions from Copilot and how you should use them.
 
 ### Create first draft with Copilot
 
@@ -132,6 +132,6 @@ There are a few steps you can do to improve the text suggestions and tweak them 
 ## See also
 
 [Marketing text suggestions overview](ai-overview.md)  
-[FAQ for marketing text suggestions](ai-faq.md)  
+[FAQ for marketing text suggestions](faqs-marketing-text.md)  
 [Configure Copilot and AI capabilities](enable-ai.md)  
 [Register new items](inventory-how-register-new-items.md)  

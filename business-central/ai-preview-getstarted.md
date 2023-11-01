@@ -114,4 +114,4 @@ There are two ways to consent as an admin:
 [Overview of AI-powered item marketing text with Copilot](ai-overview.md)  
 [Configure AI-powered item marketing text with Copilot as an admin](enable-ai.md)  
 [Create marketing text to items using Copilot](item-marketing-text.md)  
-[AI-powered item marketing text (preview) with Copilot FAQ](ai-faq.md)  
+[FAQ for marketing text suggestions](faqs-marketing-text.md)  

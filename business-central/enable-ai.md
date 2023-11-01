@@ -79,4 +79,4 @@ After you enable and consent to the features, you're ready to try them out. Go t
 ## See also
 
 [Marketing text suggestions overview](ai-overview.md)   
-[FAQ for marketing text suggestions](ai-faq.md)  
+[FAQ for marketing text suggestions](faqs-marketing-text.md)  

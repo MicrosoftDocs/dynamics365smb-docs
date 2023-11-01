@@ -73,7 +73,9 @@ The capability collects your answer to the **Is this a good suggestion?** questi
 ## What are the limitations of [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? How can users minimize the impact of the [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] limitations when using the system?
 
 - Because the underlying technology behind the feature uses AI that has been trained on a wide range of sources, the generated content isn't always factual or suitable. Some suggestions may even include questionable or inappropriate content. It's your responsibility to review and edit generated suggestions to ensure it's accurate and appropriate.
-- The feature only supports specific languages. Inaccurate responses may be returned when users converse with the system in languages other than the supported languages. 
+- [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+
+  Inaccurate responses may be returned when users converse with the system in languages other than the supported languages. 
 
 ## What operational factors and settings allow for effective and responsible use of the system?
 

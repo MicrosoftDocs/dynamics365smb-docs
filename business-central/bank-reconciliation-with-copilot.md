@@ -10,16 +10,16 @@ ms.date: 10/25/2023
 ms.custom: bap-template 
 ---
 
-# Reconcile bank accounts using bank reconciliation assist (preview)
+# Reconcile bank accounts using bank account reconciliation assist (preview) with Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
-This article explains how to use bank reconciliation assist to help you reconcile bank transactions with ledger entries in Business Central.
+This article explains how to use bank account reconciliation assist to help you reconcile bank transactions with ledger entries in Business Central.
 
 
-## About bank reconciliation assist
+## About bank account reconciliation assist
 
-Bank reconciliation assist is a set of AI-powered features that assist you in reconciling bank accounts. Bank reconciliation assist offers you two distinct tasks through Copilot:
+Bank account reconciliation assist is a set of AI-powered features that assist you in reconciling bank accounts. Bank account reconciliation assist offers you two distinct tasks through Copilot:
 
 - Improved matching of transactions with ledger entries
 
@@ -37,22 +37,22 @@ Bank reconciliation assist is a set of AI-powered features that assist you in re
    
 ## Prerequisites
 
-- Bank reconciliation assist is enabled and activated. This task is done by an administrator. [Learn more about enabling Copilot and AI capabilities](enable-ai.md).
+- Bank account reconciliation assist is enabled and activated. This task is done by an administrator. [Learn more about enabling Copilot and AI capabilities](enable-ai.md).
 - Bank accounts in Business Central that you want to reconcile are linked to an online bank account or set up with bank statement import format. 
 - You're familiar with bank account reconciliation in Business Central as described in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md). 
 
 <!--H2s. Required. A how-to article explains how to do a task. The bulk of each H2 should be a procedure.-->
 ## Reconcile bank accounts with Copilot
 
-<!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, bank reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while bank reconciliation assist is based AI technology though Copilot. Bank reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where bank reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->
+<!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, Bank account reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while Bank account reconciliation assist is based AI technology though Copilot. Bank account reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where Bank account reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->
 
-Copilot in bank reconciliation is intended to be used as a supplement to the automatch operation. For this reason, when you use Copilot, the automatch operation runs first to make the initial matches. Then, Copilot runs to try to match transactions that the automatch operation didn't handle.   
+Copilot in bank account reconciliation is intended to be used as a supplement to the automatch operation. For this reason, when you use Copilot, the automatch operation runs first to make the initial matches. Then, Copilot runs to try to match transactions that the automatch operation didn't handle.   
 
 There are two approaches to reconciling bank accounts with Copilot. You can use Copilot to start a new reconciliation on a bank account, directly from **Bank Account Reconciliation** list, or you can use Copilot on a new or existing reconciliation on the **Bank Acc. Reconciliation** card.
 
 # [From the bank account reconciliation list](#tab/fromlist) 
 
-With this approach, you create and reconcile a new bank reconciliation from scratch. This approach requires you to select the bank account and import the bank statement file, if the bank account isn't linked to an online account.
+With this approach, you create and reconcile a new bank account reconciliation from scratch. This approach requires you to select the bank account and import the bank statement file, if the bank account isn't linked to an online account.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliations**, and then choose the related link. 
 1. Select the **Reconcile with Copilot** action to open the **Reconcile with Copilot** window.
@@ -69,7 +69,7 @@ With this approach, you create and reconcile a new bank reconciliation from scra
 
 # [From a bank account reconciliation card](#tab/fromcard) 
 
-With this approach, you use Copilot either on a new bank reconciliation that you create manually or by editing an existing reconciliation. 
+With this approach, you use Copilot either on a new bank account reconciliation that you create manually or by editing an existing reconciliation. 
 
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliations**, and then choose the related link. 
@@ -157,7 +157,7 @@ In this section, you learn how to use Copilot to transfer unreconciled bank acco
 
 ## Next steps
 
-[Validate your bank reconciliation](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)  
+[Validate your bank account reconciliation](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)  
 
 ## See also
 

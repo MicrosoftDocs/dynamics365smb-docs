@@ -17,15 +17,19 @@ ms.custom: bap-template
 
 This article explains how to control users' access to Copilot and other AI capabilities in Business Central. This task is done by an admin. There are three levels of access control to Copolit and AI capabilities, depending on the feature:
 
-1. Consent to the Azure OpenAI [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [privacy](https://go.microsoft.com/fwlink/?LinkId=521839) terms and conditions.
+- Consent to the Azure OpenAI [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [privacy](https://go.microsoft.com/fwlink/?LinkId=521839) terms and conditions.
 
-   This consent is required for any Copilot or AI capability to work for users. The consent is global for all users and applies to all Copilot and AI features. [Learn more](#consent-to-or-reject-preview-and-privacy-terms)
+   This consent is required for any Copilot or AI capability to work for users. The consent is global for all users and applies to all Copilot and AI features. [Learn more](#consent-to-preview-and-privacy-terms)
+
+- Allow data movement across geographical regions
+
+  This task is only required if your environment is outside the United States or Europe. [Learn more](#allow-data-movement-across-geographical-regions)
 
 - Enable the specific feature, if it's still governed by **Feature Management**.
 
-  In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. However, marketing text suggestions is enabled by default. [Learn more](#enable-or-disable-feature-in-feature-management)
+  In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. However, marketing text suggestions is enabled by default. [Learn more](#enable-feature-in-feature-management)
 
-- Activate the feature on the **Copilot & AI Capabilities** page. [Learn more](#activate-or-deactivate-the-feature)
+- Activate the feature on the **Copilot & AI Capabilities** page. [Learn more](#activate-the-feature)
 
 If any of these requirements aren't fulfilled, the feature isn't available for use.
 
@@ -34,7 +38,7 @@ If any of these requirements aren't fulfilled, the feature isn't available for u
 - You're using Business Central online, version 23.1 or later. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
 - You have admin or super permissions in Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
-## Consent to or reject preview and privacy terms
+## Consent to preview and privacy terms
 
 Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) on behalf of the organization. Unlike privacy notices for other features and services, only admins can consent the use of Azure OpenAI, which they do on behalf of the organization. Users can't decide for themselves.   
 
@@ -42,8 +46,7 @@ Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/
 2. In the **Integration Name** column, select **Azure OpenAI**, then read the terms and conditions that are presented to you.
 3. In the **Azure OpenAI** row, select the **Agree for everyone** checkbox to consent or the **Disagree for everyone** checkbox to reject.
 
-
-## Enable or disable feature in Feature Management
+## Enable feature in Feature Management
 
 **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like item marketing suggestion. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -55,7 +58,28 @@ Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/
 
    For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## Activate or deactivate the feature
+## Allow data movement across geographical regions
+
+Copilot is available in all supported [Business Central geographic regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). However, Copilot uses Microsoft Azure OpenAI Service, which is available only in the United States and Europe. If your Business Central environment is located in any other region, your data, including personal data or data that's used in prompts or returned in completions, might be transmitted outside of your region. In this case, you need to opt in to allow your data to move outside of your region to an Azure OpenAI endpoint in United States or Europe. If you environment is in the United States and Europe, it's connected to Azure OpenAI Service by default, so no action is needed.
+
+To allow your data to move outside of your region, complete the following steps:
+
+1. In Business Central, search for and open the **Copilot & AI Capabilities** page.
+1. Turn on the **Allow data movement** switch.
+
+<!--Note
+
+If your environment is hosted in North America, Copilot will use an Azure OpenAI endpoint in North America to process your data.
+If your environment is hosted in Europe, Copilot will use an Azure OpenAI endpoint in Europe to process your data.
+If your environment is hosted anywhere else, Copilot will use an Azure OpenAI endpoint outside of the region in which the environment is hosted.
+To opt in 
+
+Copilot and other AI capabilities use Azure OpenAI Service.  and are provided by default to only those customers with environments that have United States as their geography for data processing and storage. While the Azure OpenAI Service is available in multiple geographies including Australia, Canada, United States, France, Japan and UK, Copilot does not follow the same regional rollout schedule.
+
+Meanwhile, customers with environments outside the United States can use Copilot AI features by opting in to share relevant data with the Azure OpenAI Service in United States or Switzerland.
+
+The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
+## Activate the features
 
 Using the **Copilot & AI Capabilities** page, you can turn individual features on or off for all users.
 

@@ -16,7 +16,7 @@ ms.search.keywords: copilot, AI
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
-[!INCLUDE[production-ready-preview-dynamics365](~/../shared/preview-includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE[production-ready-preview-dynamics365](~/../shared-content/preview-includes/production-ready-preview-dynamics365.md)]
 
 These frequently asked questions (FAQ) describe the AI impact of Copilot assistance with bank account reconciliation in Business Central. 
 

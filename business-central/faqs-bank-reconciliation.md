@@ -13,6 +13,11 @@ ms.search.keywords: copilot, AI
 
 # FAQ for bank account reconciliation assist (preview) with Copilot
 
+
+<!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
+
+[!INCLUDE[production-ready-preview-dynamics365](~/../shared/preview-includes/production-ready-preview-dynamics365.md)]
+
 These frequently asked questions (FAQ) describe the AI impact of Copilot assistance with bank account reconciliation in Business Central. 
 
 ## What is bank reconciliation assist?

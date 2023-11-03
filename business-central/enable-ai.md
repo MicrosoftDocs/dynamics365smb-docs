@@ -60,7 +60,7 @@ Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/
 
 ## Allow data movement across geographical regions
 
-Copilot is available in all supported [Business Central geographic regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). However, Copilot uses Microsoft Azure OpenAI Service, which is available only in the United States and Europe. If your Business Central environment is located in any other region, your data, including personal data or data that's used in prompts or returned in completions, might be transmitted outside of your region. In this case, you need to opt in to allow your data to move outside of your region to an Azure OpenAI endpoint in United States or Europe. If you environment is in the United States and Europe, it's connected to Azure OpenAI Service by default, so no action is needed.
+Copilot is available in all supported [Business Central geographic regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). However, Copilot uses Microsoft Azure OpenAI Service, which is available only for Business Central in the United States and Europe. If your environment is located in a region other than United States or Europe, data from the Copilot and generative AI features, including data used in prompts or returned in completions, must be transmitted outside of your region. In this case, you need to opt in to allow your data to move outside of your region to an Azure OpenAI endpoint in United States or Europe. If your environment is in the United States and Europe, it connects to Azure OpenAI Service by default, so no action is needed.
 
 To allow your data to move outside of your region, complete the following steps:
 
@@ -79,7 +79,7 @@ Copilot and other AI capabilities use Azure OpenAI Service.  and are provided by
 Meanwhile, customers with environments outside the United States can use Copilot AI features by opting in to share relevant data with the Azure OpenAI Service in United States or Switzerland.
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
-## Activate the features
+## Activate features
 
 Using the **Copilot & AI Capabilities** page, you can turn individual features on or off for all users.
 

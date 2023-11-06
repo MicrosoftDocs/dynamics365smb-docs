@@ -51,7 +51,7 @@ Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/
 **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like item marketing suggestion. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 1. In Business Central, search for and open the **Feature Management** page.
-2. To enable a feature, set the **Enabled for** column to **All users**. To disable a feature, set the **Enabled for** column to **None**. Use the following table to help you determine the 
+2. To enable a feature, set the **Enabled for** column to **All users**. To disable a feature, set the **Enabled for** column to **None**. Use the following table to help you determine the switch that applies to the Copilot and AO capability you want to enable:
 
    - **Feature Preview: Bank account reconciliation with Copilot** pertains to the bank account reconciliation assist feature.
    - **Feature preview: Create AI-powered product descriptions with Copilot** pertains to the marketing text suggestions feature.

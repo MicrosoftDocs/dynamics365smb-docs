@@ -86,7 +86,7 @@ Use the following guidelines to finalize and save the marketing text.
 
    For guidelines on improving suggestions, go to the [Improve and tailor text suggestions](#improve-and-tailor-text-suggestions).
 
-4. If you want to go back to previous suggestion, select the **...** (More formatting options) along the bottom of the window, then select **Undo**. Select **Redo** to go back.
+4. If you want to go back to previous suggestion, you can either use the previous and next links at the top of the page (*x* **of** *y*) or select the **...** (More formatting options) along the bottom of the window, then select **Undo**. Select **Redo** to go back.
 5. Carefully review the text for accuracy and appropriateness:
 
    - If you want to save the text, select **Keep it**. 

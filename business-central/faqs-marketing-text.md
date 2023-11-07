@@ -43,6 +43,11 @@ This feature is intended to assist users in creating marketing text for items in
 
 - The feature underwent extensive testing where numerous texts in different languages were evaluated by language experts against various criteria. Testing was based on [!INCLUDE[prod_short](includes/prod_short.md)]'s demonstration data and other fictitious product catalogs.
 - This feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft](aka.ms/RAI).
+
+## How does Microsoft monitor the quality of generated content?
+
+Microsoft has various systems in place to ensure Copilot capabilities remain operational and generate content of the highest quality.
+
 - Users have the opportunity to provide feedback to report inappropriate content and improve the functionality.
 
   - If you encounter inappropriate generated content, report it to Microsoft by using this feedback form: [Report abuse](https://go.microsoft.com/fwlink/?linkid=2249810). 
@@ -55,17 +60,21 @@ This feature is intended to assist users in creating marketing text for items in
 
     ![Shows an item card with Marketing Text pane](media/create-with-copilot-window-feedback.svg)
 
-- The Azure OpenAI Service stores prompts and completions from the service to monitor for abusive use and to develop and improve the quality of Azure OpenAI's content management systems. [Learn more about our content management and filtering.](/azure/cognitive-services/openai/concepts/content-filter)
+- The Azure OpenAI Service stores prompts and completions from the service to monitor for abusive use and to develop and improve the quality of Azure OpenAI's content management systems. [Learn more about our content management and filtering.](/azure/cognitive-services/openai/concepts/content-filter). Your company data isn't used to train AI models in the Azure OpenAI service.
 
-   Authorized Microsoft employees can access your prompt and completion data that has triggered our automated systems for the purposes of investigating and verifying potential abuse; for customers who have deployed Azure OpenAI Service in the European Union, the authorized Microsoft employees are located in the European Union. This data may be used to improve our content management systems. In the event of a confirmed policy violation, we may ask you to take immediate action to remediate the issue and to prevent further abuse. Failure to address the issue may result in suspension or termination of Azure OpenAI resource access.
+   Authorized Microsoft employees can access prompt and completion data that has triggered our automated systems for the purposes of investigating and verifying potential abuse; for customers using [!INCLUDE[prod_short](includes/prod_short.md)] in the European Union, the authorized Microsoft employees are located in the European Union. This data may be used to improve our content management systems. In the event of a confirmed policy violation, we may ask you to take immediate action to remediate the issue and to prevent further abuse. Failure to address the issue may result in suspension or termination of Azure OpenAI resource access.
 
-   For more information, see [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation).
+   For more information, consult [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation).
 
-## Can I opt out of the logging and human review process as part of Azure OpenAI previews?  
+## Is there a logging and human review process as part of Azure OpenAI Service, and if so, can I opt out?  
 
-As part of providing the Azure OpenAI previews, Microsoft will process and store customer data submitted to the service, as well as output content, for purposes of monitoring for and preventing abusive or harmful uses or outputs of the service; and for developing, testing, and improving capabilities designed to prevent abusive use of or harmful outputs from the service. 
+For Microsoft to safeguard the service and its customers, it's not possible to opt out of logging and human review processes.
+
+As part of providing the Azure OpenAI service, Microsoft will process and store customer data submitted to the service, as well as output content, for purposes of monitoring for and preventing abusive or harmful uses or outputs of the service; and for developing, testing, and improving capabilities designed to prevent abusive use of or harmful outputs from the service. 
 
 Authorized Microsoft personnel may review data that has triggered our automated systems to investigate and verify potential abuse, and may engage in limited random sampling of terms that aren't flagged by our automated systems to ensure the systems are working properly. Authorized Microsoft personnel may also access and use this data to improve our systems that monitor for and prevent abusive or harmful uses or outputs of the service. Read more on [preview terms](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
+
+For Microsoft to safeguard the service and its customers, it's not possible to opt out of logging and human review processes.
 
 ## What data does the capability collect? How is the data used?
 

@@ -1,7 +1,7 @@
 ---
 title: FAQ for marketing text suggestions
 description: This FAQ provides information about the AI technology used in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 10/29/2023
+ms.date: 10/07/2023
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ---
 
-# FAQ for marketing text suggestions
+# FAQ for marketing text suggestions with Copilot
 
 These frequently asked questions (FAQ) describe the AI impact of the [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] feature in Business Central.
 

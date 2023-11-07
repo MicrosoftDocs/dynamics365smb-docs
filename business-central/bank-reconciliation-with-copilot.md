@@ -159,7 +159,7 @@ In this section, you learn how to use Copilot to transfer unreconciled bank acco
 [Validate your bank account reconciliation](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)  
 
 ## See also
-[Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
+[Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md)  
 [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) 

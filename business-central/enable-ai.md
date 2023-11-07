@@ -1,6 +1,6 @@
 ---
 title: Configure Copilot and AI capabilities
-description: This article explains how to get a Copilot trial version of Business Central and enable Copilot on an environment.
+description: This article explains how to enable Copilot on an environment.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer

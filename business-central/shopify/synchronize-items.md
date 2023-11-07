@@ -224,6 +224,7 @@ You can export prices for synchronized items in the two ways described below.
 
 * When determining a price, [!INCLUDE[prod_short](../includes/prod_short.md)] uses the "lowest price" logic. However, the lowest price logic ignores the unit price defined on the item card if a price is defined in the price group. This is true even if the unit price from the item card price is lower.
 * To calculate prices, the connector creates a temporary sales quote for the item with a quantity of 1, and uses standard price calculation logic. Only prices and discounts that are applicable for quantity 1 are used. You can't export different prices or discounts based on quantity.
+* The connector sends request to update prices in Shopify if price in [!INCLUDE[prod_short](../includes/prod_short.md)] has changed. For example, if you synchronized products and prices and then changed price in Shopify, choosing the **Sync Prices to Shopify** action won't have any impact on price in the Shopify as new price calculated by connector is the same as price stored in the Shopify Variant from previous synch.
 
 ## Sync inventory to Shopify
 

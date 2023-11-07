@@ -379,7 +379,7 @@
 ### Reconcile bank accounts
 #### [Bank reconciliation overview](bank-manage-bank-accounts.md)
 #### [Reconcile bank accounts](bank-how-reconcile-bank-accounts-separately.md)
-#### [Reconcile using bank reconciliation assist (preview)](bank-reconciliation-with-copilot.md)
+#### [Reconcile bank accounts using Copilot (preview)](bank-reconciliation-with-copilot.md)
 #### [Applying payments automatically and reconcile bank accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ### Manage intercompany transactions
@@ -1578,7 +1578,6 @@
 #### [Set up stockkeeping units](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Categorize items](inventory-how-categorize-items.md)
 #### [Import multiple item pictures](inventory-how-import-item-pictures.md)
-#### [Configure AI-powered item marketing text with copilot](enable-ai.md)
 ### Set up project management
 #### [Set up projects](projects-setup-projects.md)
 #### [Set up resources](projects-how-setup-resources.md)
@@ -1844,7 +1843,9 @@
 
 # Copilot and AI capabilities
 ## [Configure Copilot and AI capabilities](enable-ai.md)
-## [Bank account reconciliation assist (preview)](bank-reconciliation-with-copilot.md)
+## Bank account reconciliation assist (preview)
+### [Reconcile bank accounts using Copilot](bank-reconciliation-with-copilot.md)
+### [Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## Marketing text suggestions
 # Security, privacy, and compliance
 ## Security and protection

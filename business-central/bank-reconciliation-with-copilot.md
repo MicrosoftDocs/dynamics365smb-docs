@@ -10,12 +10,11 @@ ms.date: 10/25/2023
 ms.custom: bap-template 
 ---
 
-# Reconcile bank accounts using bank account reconciliation assist (preview) with Copilot
+# Reconcile bank accounts using Copilot (preview)
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 This article explains how to use bank account reconciliation assist to help you reconcile bank transactions with ledger entries in Business Central.
-
 
 ## About bank account reconciliation assist
 
@@ -160,7 +159,7 @@ In this section, you learn how to use Copilot to transfer unreconciled bank acco
 [Validate your bank account reconciliation](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)  
 
 ## See also
-
+[Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 [Setting Up Banking](bank-setup-banking.md)  
 [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md)  
 [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md) 

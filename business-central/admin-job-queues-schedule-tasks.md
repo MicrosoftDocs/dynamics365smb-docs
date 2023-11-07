@@ -46,7 +46,7 @@ After a job finishes successfully it's removed from the list of job queue entrie
 
 The value in the **Earliest Start Date/Time** field on the **Job Queue Entry Card** page shows the next time the job will run. There are several factors that can affect whether a job queue entry actually runs at that time.
 
-The most common factors are the number of job queue entries in an environment, and the overall number of scheduled tasks. To protect performance levels, there are operational limits. If you have a lot of entries in the queue and, for example, one of them fails or the entries just take longer than expected, the next job might not start at the expected time. If you have codeunits that are generating 100,000 or more scheduled tasks, you should investigate whether you actually need all of those tasks. You can access the list of all scheduled tasks on the **Scheduled Tasks** page.
+The most common factors are the number of job queue entries in an environment, and the overall number of scheduled tasks. To protect performance levels, there are operational limits. If you have numerous entries in the queue and, for example, one of them fails or the entries just take longer than expected, the next job might not start at the expected time. If you have codeunits that are generating 100,000 or more scheduled tasks, you should investigate whether you actually need all of those tasks. You can access the list of all scheduled tasks on the **Scheduled Tasks** page.
 
 To learn more about monitoring the status of job queue entries, go to [To view status for any job](#to-view-status-for-any-job). To learn more about operational limits, go to [Asynchronous task limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
 
@@ -63,6 +63,10 @@ The following table describes the values of the **Status** field.
 | Ready | The job queue entry is ready to be run. |
 | In Process | The job queue entry is in process. This field updates while the job queue is running. |
 | On Hold | The default status of the job queue entry when it's created. Choose the **Set Status to Ready** action to change the status to **Ready**. Choose the **Set On Hold** action to revert the status to **On Hold**. |
+
+The **On Hold** status in Business Central's job queue entry is typically used to prevent a job from automatically starting when it reaches its scheduled start time. It allows you to temporarily pause the execution of a job before it begins processing. However, once a job is already running, changing the status to 'On Hold' will not interrupt or impact the job's execution. Setting a job queue entry to **On Hold** won't affect a job that's already running. Once a job has started running in the job queue, it continues to run until completion, regardless of any subsequent changes made to the job queue entry, such as putting it on hold.
+
+If you need to stop or cancel a running job in Business Central, you can do so by manually intervening in the process, such as terminating the corresponding session or process responsible for executing the job.|
 | Error | Something went wrong. Choose **Show Error** to show the error message. |
 | Finished | The job queue entry is complete. |
 
@@ -88,7 +92,7 @@ For example, all scheduled tasks stop if the company is in an environment that's
 
 ## The My Job Queue part
 
-The **My Job Queue** part on your Role Center shows the job queues entries that you've started but aren't finished. By default the part isn't displayed, but you can add it to your Role Center. To learn more about personlization, go to [Personalize Your Workspace](ui-personalization-user.md).  
+The **My Job Queue** part on your Role Center shows the job queues entries that you've started but aren't finished. By default the part isn't displayed, but you can add it to your Role Center. To learn more about personalization, go to [Personalize Your Workspace](ui-personalization-user.md).  
 
 The part shows the following information:
 
@@ -124,7 +128,7 @@ If a job queue entry shows an error, your first option to resolve the issue is t
 
 If a restart doesn't help, the issue might be in the code. You can find the owner (also called the *publisher*) of the code in the AL stack trace in the Job Queue log. If the error comes from an app/extension, contact your Microsoft partner. If the error comes from a Microsoft application, open a support request with Microsoft.
 
-If you contact your Microsoft partner or Microsoft for support, please provide the following information:
+If you contact your Microsoft partner or Microsoft for support, provide the following information:
 
 * The ID of the job queue entry run where the error occurred
 * The timestamp of when the error occurred

@@ -87,7 +87,7 @@ You can preview the effect that an exchange rate adjustment has on posting befor
 
 For customer and vendor accounts, the batch job uses the exchange rate that was valid on the posting date specified for the batch job to adjust the currency. The batch job calculates the differences for the individual currency balances and posts the amounts to the general ledger account that is specified in the **Unrealized Gains Acc.** field or the **Unrealized Losses Acc.** field on the **Currencies** page. Balancing entries are automatically posted to the receivables/payables account in the general ledger.
 
-The batch job processes all open customer ledger entries and vendor ledger entries. If there is an exchange rate difference for an entry, the batch job creates a new detailed customer or vendor ledger entry. The new entry reflects the adjusted amount on the customer or vendor ledger entry.
+The batch job processes all open customer ledger entries and vendor ledger entries. If there's an exchange rate difference for an entry, the batch job creates a new detailed customer or vendor ledger entry. The new entry reflects the adjusted amount on the customer or vendor ledger entry.
 
 #### Dimensions on customer and vendor ledger entries
 
@@ -107,7 +107,7 @@ If you post in another reporting currency, the batch job can create new general 
 
 #### Dimensions on G/L account entries
 
-The adjustment entries are assigned the default dimensions from the accounts they are posted to.
+The adjustment entries are assigned the default dimensions from the accounts they're posted to.
 
 > [!Important]
 > Before you can use the batch job, you need to enter the adjustment exchange rates that are used to adjust the foreign currency balances. You do so on the **Currency Exchange Rates** page.<br><br>  
@@ -135,7 +135,7 @@ You can use an external service to keep your currency exchange rates up to date,
 
 ## Update currency exchange rates through a service
 
-Follow the step given below to update the currency exchange rates through a service:
+Follow the steps given to update the currency exchange rates through a service:
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currencies**, and then select the related link.
 2. Select the **Update Exchange Rates** action.

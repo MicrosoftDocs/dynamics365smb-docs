@@ -63,12 +63,13 @@ The following table describes the values of the **Status** field.
 | Ready | The job queue entry is ready to be run. |
 | In Process | The job queue entry is in process. This field updates while the job queue is running. |
 | On Hold | The default status of the job queue entry when it's created. Choose the **Set Status to Ready** action to change the status to **Ready**. Choose the **Set On Hold** action to revert the status to **On Hold**. |
+| Error | Something went wrong. Choose **Show Error** to show the error message. |
+| Finished | The job queue entry is complete. |
+
 
 The **On Hold** status in Business Central's job queue entry is typically used to prevent a job from automatically starting when it reaches its scheduled start time. It allows you to temporarily pause the execution of a job before it begins processing. However, once a job is already running, changing the status to 'On Hold' will not interrupt or impact the job's execution. Setting a job queue entry to **On Hold** won't affect a job that's already running. Once a job has started running in the job queue, it continues to run until completion, regardless of any subsequent changes made to the job queue entry, such as putting it on hold.
 
-If you need to stop or cancel a running job in Business Central, you can do so by manually intervening in the process, such as terminating the corresponding session or process responsible for executing the job.|
-| Error | Something went wrong. Choose **Show Error** to show the error message. |
-| Finished | The job queue entry is complete. |
+If you need to stop or cancel a running job in Business Central, you can do so by manually intervening in the process, such as terminating the corresponding session or process responsible for executing the job.
 
 > [!Tip]  
 > Job queue entries stop running when there's an error. For example, this can be a problem when an entry connects to an external service, such as a bank feed. If the service is temporarily not available and the job queue entry can't connect, the entry will show an error and stop running. You'll have to manually restart the job queue entry. However, the **Maximum No. of Attempts** and **Rerun Delay (sec.)** fields can help you avoid this situation. The **Maximum No. of Attempts** field lets you specify how many times the job queue entry can fail before it stops trying to run. The **Rerun Delay (sec.)** field lets you specify the amount of time, in seconds, between attempts. The combination of these two fields might keep the job queue entry running until the external service becomes available.

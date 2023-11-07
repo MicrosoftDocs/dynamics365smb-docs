@@ -46,7 +46,7 @@ After a job finishes successfully it's removed from the list of job queue entrie
 
 The value in the **Earliest Start Date/Time** field on the **Job Queue Entry Card** page shows the next time the job will run. There are several factors that can affect whether a job queue entry actually runs at that time.
 
-The most common factors are the number of job queue entries in an environment, and the overall number of scheduled tasks. To protect performance levels, there are operational limits. If you have numerous entries in the queue and, for example, one of them fails or the entries just take longer than expected, the next job might not start at the expected time. If you have codeunits that are generating 100,000 or more scheduled tasks, you should investigate whether you actually need all of those tasks. You can access the list of all scheduled tasks on the **Scheduled Tasks** page.
+The most common factors are the number of job queue entries in an environment, and the overall number of scheduled tasks. To protect performance levels, there are operational limits. If you have a lot of entries in the queue and, for example, one of them fails or the entries just take longer than expected, the next job might not start at the expected time. If you have codeunits that are generating 100,000 or more scheduled tasks, you should investigate whether you actually need all of those tasks. You can access the list of all scheduled tasks on the **Scheduled Tasks** page.
 
 To learn more about monitoring the status of job queue entries, go to [To view status for any job](#to-view-status-for-any-job). To learn more about operational limits, go to [Asynchronous task limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
 
@@ -62,18 +62,16 @@ The following table describes the values of the **Status** field.
 |--|--|
 | Ready | The job queue entry is ready to be run. |
 | In Process | The job queue entry is in process. This field updates while the job queue is running. |
-| On Hold | The default status of the job queue entry when it's created. Choose the **Set Status to Ready** action to change the status to **Ready**. Choose the **Set On Hold** action to revert the status to **On Hold**. |
+| On Hold | The default status of the job queue entry when it's created. Choose the **Set Status to Ready** action to change the status to **Ready**. Choose the **Set On Hold** action to revert the status to **On Hold**. For more information, refer to [About On Hold](#about-on-hold).|
 | Error | Something went wrong. Choose **Show Error** to show the error message. |
 | Finished | The job queue entry is complete. |
 
-
-The **On Hold** status in Business Central's job queue entry is typically used to prevent a job from automatically starting when it reaches its scheduled start time. It allows you to temporarily pause the execution of a job before it begins processing. However, once a job is already running, changing the status to 'On Hold' will not interrupt or impact the job's execution. Setting a job queue entry to **On Hold** won't affect a job that's already running. Once a job has started running in the job queue, it continues to run until completion, regardless of any subsequent changes made to the job queue entry, such as putting it on hold.
-
-If you need to stop or cancel a running job in Business Central, you can do so by manually intervening in the process, such as terminating the corresponding session or process responsible for executing the job.
-
-> [!Tip]  
+> [!TIP]  
 > Job queue entries stop running when there's an error. For example, this can be a problem when an entry connects to an external service, such as a bank feed. If the service is temporarily not available and the job queue entry can't connect, the entry will show an error and stop running. You'll have to manually restart the job queue entry. However, the **Maximum No. of Attempts** and **Rerun Delay (sec.)** fields can help you avoid this situation. The **Maximum No. of Attempts** field lets you specify how many times the job queue entry can fail before it stops trying to run. The **Rerun Delay (sec.)** field lets you specify the amount of time, in seconds, between attempts. The combination of these two fields might keep the job queue entry running until the external service becomes available.
 
+### About On Hold
+
+Setting a job queue entry to **On Hold** doesn't affect a jog that's already running. Once a job has started in the job queue, it continues to run until completion, regardless of any subsequent changes made to the job queue entry, such as putting it on hold.<br><br>The **On Hold** status is typically used to prevent a job from automatically starting when it reaches its scheduled start time. It allows you to temporarily pause the execution of a job before it begins processing. However, once a job is already running, changing the status to 'On Hold' will not interrupt or impact the job's execution.<br><br>If you need to stop or cancel a running job, you can do so by manually intervening in the process, such as terminating the corresponding session or process responsible for executing the job.
 ### To view status for any job
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.

@@ -12,13 +12,13 @@ ms.reviewer: jswymer
 
 # FAQ for marketing text suggestions with Copilot
 
-These frequently asked questions (FAQ) describe the AI impact of the [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] feature in Business Central.
+These frequently asked questions (FAQ) describe the AI impact of the [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] feature in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## What is item marketing text suggestions?
 
-The [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] feature provides writing assistance for users responsible for authoring marketing text (also known as *copy*) on items in Business Central.
+Copilot provides writing assistance for users responsible for authoring marketing text (also known as copy) on items in [!INCLUDE[prod_short](includes/prod_short.md)]. This feature is known as [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]. The [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] feature provides writing assistance for users responsible for authoring marketing text (also known as *copy*) on items in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-The feature is available on any item card in Business Central. To use it, just open an item and then select **Marketing Text** > **Draft with Copilot**. This action automatically generates a text suggestion that's engaging, creative, and specific to the item that's shown. Suggestions are based on various inputs, including:
+The feature is available on any item card in [!INCLUDE[prod_short](includes/prod_short.md)]. To use it, just open an item and then select **Marketing Text** > **Draft with Copilot**. This action automatically generates a text suggestion that's engaging, creative, and specific to the item that's shown. Suggestions are based on various inputs, including:
 
 - The item's attributes, category, and name.
 - Personal writing style preferences, like tone of voice, emphasized quality, format and length.
@@ -37,20 +37,21 @@ The [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-tex
 
 ## What is the system's intended use?
 
-This feature is intended to assist users in creating marketing text for items in Business Central. Writers use the feature to quickly get compelling and engaging text suggestions, which are then reviewed and edited for accuracy. 
+This feature is intended to assist users in creating marketing text for items in [!INCLUDE[prod_short](includes/prod_short.md)]. Writers use the feature to quickly get compelling and engaging text suggestions, which are then reviewed and edited for accuracy. 
 
 ## How was item marketing text evaluated? What metrics are used to measure performance?
 
-- The feature underwent substantial testing before it was released.
-- It relies on user feedback to report inappropriate content and improve the functionality.
+- The feature underwent extensive testing where numerous texts in different languages were evaluated by language experts against various criteria. Testing was based on [!INCLUDE[prod_short](includes/prod_short.md)]'s demonstration data and other fictitious product catalogs.
+- This feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft](aka.ms/RAI).
+- Users have the opportunity to provide feedback to report inappropriate content and improve the functionality.
 
-  - If you encounter inappropriate generated content, report it to Microsoft by using this feedback form: [Report abuse](https://msrc.microsoft.com/report/abuse?ThreatType=URL&IncidentType=Responsible%20AI&SourceUrl=https://dynamics.microsoft.com/supply-chainmanagement/overview/). 
+  - If you encounter inappropriate generated content, report it to Microsoft by using this feedback form: [Report abuse](https://go.microsoft.com/fwlink/?linkid=2249810). 
 
     Microsoft might disable the Copilot-driven features for selected customers if abuse of the functionality is detected. 
 
   - We track user feedback on [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] to help us improve suggestions. 
 
-    You provide feedback by using **Is this a good suggestion?** option on the **Copilot** page in Business Central and selecting either a thumbs-up (I like it) or thumbs-down (Needs improvement). We gather the telemetry of these gestures for each AI output that you submit feedback for.
+    You provide feedback by using the like (thumbs up) or dislike (thumbs down) icon on the **Copilot** page in [!INCLUDE[prod_short](includes/prod_short.md)]. We gather the telemetry of these gestures for each AI output that you submit feedback for.
 
     ![Shows an item card with Marketing Text pane](media/create-with-copilot-window-feedback.svg)
 

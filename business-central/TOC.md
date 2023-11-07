@@ -1570,7 +1570,6 @@
 #### [Set up stockkeeping units](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Categorize items](inventory-how-categorize-items.md)
 #### [Import multiple item pictures](inventory-how-import-item-pictures.md)
-#### [Configure marketing text suggestions](enable-ai.md)
 ### Set up project management
 #### [Set up projects](projects-setup-projects.md)
 #### [Set up resources](projects-how-setup-resources.md)
@@ -1893,6 +1892,7 @@
 ### [Enable new features ahead of time](admin-feature-management.md)
 ### [Onboard users with checklists](admin-checklist.md)
 ### [Sandbox environments](admin-sandbox-environments.md)
+## [Copilot and AI capabilities](enable-ai.md)
 ## Customize Business Central
 ### [Customization overview](ui-customizing-overview.md)
 ### [Customize pages for profiles](ui-personalization-manage.md)

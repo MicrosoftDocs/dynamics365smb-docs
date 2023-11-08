@@ -68,11 +68,11 @@ To allow your data to move outside of your region, complete the following steps:
 1. In Business Central, search for and open the **Copilot & AI Capabilities** page.
 1. Turn on the **Allow data movement** switch.
 
-### Data storage and processing regions
+### Azure OpenAI Service geographical regions
 
-The following table provides information about the data storage and processing region depending on your Power Platform environment region where you have enabled data movement for copilot capabilities using the steps described in this article above.
+The following table lists the Azure OpenAI service geographical region used by the Copilot and AI capabilities based on the geographical region of the Business Central environment. This information can be useful when deciding to opt-in to allow data movement across geographical regions.
 
-| Power Platform environment region | Data storage and processing region |
+| Business Central environment geographical region | Azure OpenIA Service geographical region|
 | - | - |
 | Australia, United Kingdom, United States | Within the respective geographical region |
 | Europe, France, Germany, Norway, Switzerland  | Sweden or Switzerland |

@@ -7,6 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.date: 10/29/2023
 ms.custom: bap-template
+ms.search.form: 7775
 ---
 
 # Configure Copilot and AI capabilities 
@@ -66,6 +67,17 @@ To allow your data to move outside of your region, complete the following steps:
 
 1. In Business Central, search for and open the **Copilot & AI Capabilities** page.
 1. Turn on the **Allow data movement** switch.
+
+### Data storage and processing regions
+
+The following table provides information about the data storage and processing region depending on your Power Platform environment region where you have enabled data movement for copilot capabilities using the steps described in this article above.
+
+| Power Platform environment region | Data storage and processing region |
+| - | - |
+| Australia, United Kingdom, United States | Within the respective geographical region |
+| Europe, France, Germany, Norway, Switzerland  | Sweden or Switzerland |
+| Asia, Brazil, Canada, India, Japan, Singapore, South Africa, South Korea, United Arab Emirates  | United States |
+
 
 <!--Note
 

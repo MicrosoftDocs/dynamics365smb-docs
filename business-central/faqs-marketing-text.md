@@ -76,11 +76,9 @@ For Microsoft to safeguard the service and its customers, it's not possible to o
 
 ## What data does the capability collect? How is the data used?
 
-The marketing text suggestions capability collects the minimum data required by Business Central to offer the service, in accordance with [Dynamics 365 terms for Azure OpenAI-powered features](https://go.microsoft.com/fwlink/?linkid=2236010)
+The marketing text suggestions capability collects the minimum data required by Business Central to offer the service. For more information, see [Dynamics 365 terms for Azure OpenAI-powered features](https://go.microsoft.com/fwlink/?linkid=2236010).
 
-In addition, What is collects the feedback you give feedback (ie. the Like/Dislike is anonymous, the Dislike reason you provide, if any, the feature you provided feedback on.
-
-The capability collects data when when you provide feedback using the like (thumbs up) or dislike (thumbs down) icons at the top of the **Copilot** page, . We use this data to evaluate and improve the quality of the capability. More information on what data is collected is available in the [preview terms](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
+The capability also collects data from the feedback user's can provide using the like (thumbs up) or dislike (thumbs down) icons at the top of the **Copilot** page. The data is anonymous and includes the choice of like ot dislike, the dislike reason if provided, and the Copit feature the feedback applies to. We use this data to evaluate and improve the quality of the capability.
 
 ## What are the limitations of [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? How can users minimize the impact of the [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] limitations when using the system?
 

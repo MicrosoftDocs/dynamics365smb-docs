@@ -74,9 +74,30 @@ The following table lists the Azure OpenAI service geographical region used by t
 
 | Business Central environment geographical region | Azure OpenIA Service geographical region|
 | - | - |
+|Asia Pacific|United States|
+|Australia| Australia |
+|Brazil|United States|
+|Canada|United States|
+|Europe|Sweden or Switzerland |
+|France|Sweden or Switzerland |
+|Germany|Sweden or Switzerland |
+|France|Sweden or Switzerland |
+|India|United States|
+|Japan|United States|
+|Korea|United States|
+|Norway|Sweden or Switzerland |
+|South Africa|United States|
+|Switzerland |Switzerland|
+|United Arab Emirates|United States|
+|United Kingdom|United Kingdom|
+|United States||
+
+
+<!--
 | Australia, United Kingdom, United States | Within the respective geographical region |
 | Europe, France, Germany, Norway, Switzerland  | Sweden or Switzerland |
-| Asia, Brazil, Canada, India, Japan, Singapore, South Africa, South Korea, United Arab Emirates  | United States |
+| Asia Pacific, Brazil, Canada, India, Japan, Singapore, South Africa, South Korea, United Arab Emirates  | United States |-->
+
 
 
 <!--Note

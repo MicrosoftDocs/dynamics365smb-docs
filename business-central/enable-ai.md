@@ -61,16 +61,16 @@ Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/
 
 ## Allow data movement across geographical regions
 
-Copilot is available in all supported [Business Central geographic regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). However, Copilot uses Microsoft Azure OpenAI Service, which is available only for Business Central in the United States and Europe. If your environment is located in a region other than United States or Europe, data from the Copilot and generative AI features, like data in prompts or returned in completions, might be transmitted outside of your region. In this case, you need to opt in to allow your data to move outside of your region to an Azure OpenAI endpoint in United States or Europe. If your environment is in the United States and Europe, it connects to Azure OpenAI Service by default, so no action is needed. To understand where the Azure OpenAI Service for your environment resides, see the section [Azure OpenAI Service geographical regions](#azure-openai-service-geographical-regions).
+Copilot is available in all supported [Business Central geographic regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). However, Copilot uses Microsoft Azure OpenAI Service, which is available only for Business Central in the United States and Europe. This means that if your environment is located elsewhere, data from the Copilot and generative AI features (like data in prompts or returned in completions) might be transmitted outside of your region. In this case, you must opt in to allow data movement to an Azure OpenAI endpoint in United States or Europe. If your environment is in the United States or Europe, it automatically connects to Azure OpenAI Service, so no extra action is required. To learn where your environment's Azure OpenAI Service resides, refer the [Azure OpenAI Service geographical regions](#azure-openai-service-geographical-regions) section that follows.
 
-To allow your data to move outside of your region, complete the following steps:
+To allow data movement outside of your geographical region, complete the following steps:
 
 1. In Business Central, search for and open the **Copilot & AI Capabilities** page.
 1. Turn on the **Allow data movement** switch.
 
 ### Azure OpenAI Service geographical regions
 
-The following table lists the Azure OpenAI service geographical region used by the Copilot based on the geographical region of the Business Central environment. This information can be useful when deciding to opt-in to allow data movement across geographical regions.
+The following table shows the Azure OpenAI Service's geographical region used by Copilot, based on the Business Central environment's geographical region. This information is important when deciding whether to opt in for data movement across geographical regions.
 
 | Business Central environment geographical region | Azure OpenAI Service geographical region|
 | - | - |

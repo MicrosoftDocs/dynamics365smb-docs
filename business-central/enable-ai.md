@@ -70,9 +70,9 @@ To allow your data to move outside of your region, complete the following steps:
 
 ### Azure OpenAI Service geographical regions
 
-The following table lists the Azure OpenAI service geographical region used by the Copilot and AI capabilities based on the geographical region of the Business Central environment. This information can be useful when deciding to opt-in to allow data movement across geographical regions.
+The following table lists the Azure OpenAI service geographical region used by the Copilot based on the geographical region of the Business Central environment. This information can be useful when deciding to opt-in to allow data movement across geographical regions.
 
-| Business Central environment geographical region | Azure OpenIA Service geographical region|
+| Business Central environment geographical region | Azure OpenAI Service geographical region|
 | - | - |
 |Asia Pacific|United States|
 |Australia| Australia |

@@ -90,7 +90,7 @@ The following table lists the Azure OpenAI service geographical region used by t
 |Switzerland |Switzerland|
 |United Arab Emirates|United States|
 |United Kingdom|United Kingdom|
-|United States||
+|United States|United States|
 
 
 <!--

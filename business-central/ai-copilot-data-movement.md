@@ -20,6 +20,28 @@ If your environment is located in one of the regions listed previously, it autom
 
 The following table shows the Azure OpenAI Service's geography used by Copilot, based on the Business Central environment's geography. This information is important when deciding whether to opt in for data movement across geographies.
 
+
+| Business Central environment geography | Azure OpenAI Service geography|
+| - | - |
+|Asia Pacific|Australia|
+|Australia| Australia |
+|Brazil |Brazil|
+|Canada|Canada|
+|Europe|Sweden or Switzerland |
+|France|Sweden or Switzerland |
+|Germany|Sweden or Switzerland |
+|France|Sweden or Switzerland |
+|India|United States|
+|Japan|Japan|
+|(South) Korea|United States|
+|Norway|Sweden or Switzerland |
+|Singapore|United States|
+|South Africa|United States|
+|Switzerland |Switzerland|
+|United Arab Emirates|United States|
+|United Kingdom|United Kingdom|
+|United States|United States|
+<!--
 | Business Central environment geography | Azure OpenAI Service geography|
 | - | - |
 |Asia Pacific|United States|
@@ -39,8 +61,64 @@ The following table shows the Azure OpenAI Service's geography used by Copilot, 
 |Switzerland |Switzerland|
 |United Arab Emirates|United States|
 |United Kingdom|United Kingdom|
-|United States|United States|
+|United States|United States|-->
 
+<!--
+case "AUSTRALIAEAST":
+            case "AUSTRALIASOUTHEAST":
+                return new CapiRegion("au", 2);
+            case "BRAZILSOUTH":
+                return new CapiRegion("br", 2);
+            case "CANADACENTRAL":
+            case "CANADAEAST":
+                return new CapiRegion("ca", 2);
+            case "CENTRALINDIA":
+            case "SOUTHINDIA":
+                return new CapiRegion("in", 1);
+            case "EASTASIA":
+                return new CapiRegion("as", 2);
+            case "EASTUS":
+            case "EASTUS2":
+            case "SOUTHCENTRALUS":
+            case "CENTRALUS":
+            case "NORTHCENTRALUS":
+            case "WESTUS":
+            case "US":
+                return new CapiRegion("us", 9, HasGpt4InGeo: true, HasTurboInGeo: true);
+            case "FRANCECENTRAL":
+            case "FRANCESOUTH":
+                return new CapiRegion("fr", 1);
+            case "GERMANYNORTH":
+            case "GERMANYWESTCENTRAL":
+                return new CapiRegion("de", 1);
+            case "JAPANEAST":
+            case "JAPANWEST":
+                return new CapiRegion("jp", 1);
+            case "KOREACENTRAL":
+            case "KOREASOUTH":
+                return new CapiRegion("kr", 1);
+            case "NORWAYEAST":
+            case "NORWAYWEST":
+                return new CapiRegion("no", 1);
+            case "SOUTHAFRICANORTH":
+            case "SOUTHWESTAFRICA":
+                return new CapiRegion("za", 1);
+            case "SOUTHEASTASIA":
+                return new CapiRegion("sg", 1);
+            case "SWITZERLANDNORTH":
+            case "SWITZERLANDWEST":
+                return new CapiRegion("ch", 1, HasTurboInGeo: true);
+            case "UKSOUTH":
+            case "UKWEST":
+                return new CapiRegion("uk", 2);
+            case "NORTHEUROPE":
+            case "WESTEUROPE":
+                return new CapiRegion("eu", 10);
+            case "UAENORTH":
+            case "UAECENTRAL":
+                return new CapiRegion("ae", 1);
+
+-->
 
 ## Next steps
 

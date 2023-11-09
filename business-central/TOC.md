@@ -1836,7 +1836,7 @@
 # Copilot and AI capabilities
 ## Manage Copilot and AI capabilities
 ### [Configure Copilot and AI capabilities](enable-ai.md)
-## [Copilot data movement across geographies](ai-copilot-data-movement.md)
+### [Copilot data movement across geographies](ai-copilot-data-movement.md)
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)

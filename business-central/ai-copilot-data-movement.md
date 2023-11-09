@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Copilot data movement across geographies 
 
-Copilot is available in all supported [Business Central geographic regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). However, Copilot uses Microsoft Azure OpenAI Service, which is currently available for Business Central in the United States and Switzerland only. This means that if your environment is located elsewhere, data from the Copilot and generative AI features (like data in prompts or returned in completions) must be transmitted outside of your geographical region. In this case, you must opt in to allow data movement to an Azure OpenAI Service in another geography. For a list of geographies, refer to the [Azure OpenAI Service geographies](#azure-openai-service-geographies) section that follows.
+Copilot is available in all supported [Business Central geographic regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). However, Copilot uses Microsoft Azure OpenAI Service, which is currently available for Business Central in the United States and Switzerland only. This means that if your environment is located elsewhere, data from the Copilot and generative AI features (like data in prompts or returned in completions) must be transmitted outside of your geographical region. In this case, you must opt in to allow data movement to an Azure OpenAI Service in another geography. <!--For a list of geographies, refer to the [Azure OpenAI Service geographies](#azure-openai-service-geographies) section that follows.-->
 
 If your environment is located in United Sates and Switzerland, it automatically connects to Azure OpenAI Service and you have no choice to opt in or out.
 

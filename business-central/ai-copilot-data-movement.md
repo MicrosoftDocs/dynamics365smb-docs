@@ -42,7 +42,7 @@ The following table shows the Azure OpenAI Service's geography used by Copilot, 
 |United States|United States|
 
 > [!NOTE]
-> Except or Business Central environments in the United Sates and Switzerland, the actual Azure OpenAI Service geography used for your environment can vary based on current availability. Once an Azure OpenAI Service becomes available in your  Business Central geography, your environment will automatically transition to use the Azure OpenAI Service and opting in isn't required or even possible.  
+> Except for Business Central environments in the United Sates and Switzerland, the actual Azure OpenAI Service geography used for your environment can vary based on current availability. Once an Azure OpenAI Service becomes available in your  Business Central geography, your environment will automatically transition to use the Azure OpenAI Service and opting in isn't required or even possible.  
 <!--
 
 BC geos base on https://dynamics.microsoft.com/en-us/availability-reports/georeport/

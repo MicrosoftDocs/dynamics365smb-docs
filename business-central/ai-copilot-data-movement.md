@@ -104,4 +104,4 @@ case "AUSTRALIAEAST":
 
 ## Next steps
 
-You opt in to allow data movement across geographies from the [Copilot & AI Capabilities] page. To learn more, go to [Allow data movement across geographies](enable-ai.md#allow-data-movement-across-geographies).
+You opt in to allow data movement across geographies from the [Copilot & AI Capabilities](https://businesscentral.dynamics.com/?page=7775) page. To learn more, go to [Allow data movement across geographies](enable-ai.md#allow-data-movement-across-geographies).

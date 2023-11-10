@@ -19,6 +19,7 @@ Copilot is available in all supported [Business Central geographic regions](/dyn
 
 > [!NOTE]
 > Individual Copilot and generative AI features might not be available in all Business Central geographic regions. Consult with the publisher of each capability to understand availability.
+> 
 > Copilot and generative AI features from non-Microsoft publishers, such as those originating from customizations or AppSource apps you install, each define their own specific Azure OpenAI Service regions. Consult with the extension publisher to understand which regional Azure services are used by the extension. 
 
 ### Azure OpenAI Service geographies

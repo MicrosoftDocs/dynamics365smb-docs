@@ -18,8 +18,27 @@ If your environment is located in United States or Switzerland, it automatically
 
 ### Azure OpenAI Service geographies
 
-The following table shows the Azure OpenAI Service's geography used by Copilot, based on the Business Central environment's geography. This information is important when deciding whether to opt in for data movement across geographies.
+The following table shows the Azure OpenAI Service's geography used by Copilot, based on the geography (Azure region) of a Business Central environment. This information is important when deciding whether to opt in for data movement across geographies. You can identify the Azure region for your environment by going to the Business Central admin center (refer to [Managing Production and Sandbox Environments in the Admin Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)).
 
+| Business Central environment geography | Azure OpenAI Service geography|
+| - | - |
+|Asia (East, South East) |United States|
+|Australia (South East)| United States |
+|Brazil (South) |United States|
+|Canada (Central, East)|United States|
+|Europe (West, North)| Switzerland |
+|France (Central, South)|Switzerland |
+|Germany (North, West Central)|Switzerland |
+|India (Central, South)|United States|
+|Japan (East, West)|United States|
+|Korea (Central, South)|United States|
+|Norway (East, West)|Switzerland |
+|South Africa (North, West)|United States|
+|Switzerland (North, West) |Switzerland|
+|United Arab Emirates (North, West)|United States|
+|United Kingdom (South, West)|United States|
+|United States (Central, East, North Central, South Central, West) |United States|
+<!--
 | Business Central environment geography | Azure OpenAI Service geography|
 | - | - |
 |Asia Pacific|United States|
@@ -39,7 +58,7 @@ The following table shows the Azure OpenAI Service's geography used by Copilot, 
 |Switzerland |Switzerland|
 |United Arab Emirates|United States|
 |United Kingdom|United States|
-|United States|United States|
+|United States|United States|-->
 
 > [!NOTE]
 > Except for Business Central environments in the United States and Switzerland, the actual Azure OpenAI Service geography used for your environment can vary based on current availability. Once an Azure OpenAI Service becomes available in your  Business Central geography, your environment will automatically transition to use the Azure OpenAI Service and opting in isn't required or even possible.  

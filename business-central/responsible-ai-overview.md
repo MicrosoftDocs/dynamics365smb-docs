@@ -16,4 +16,5 @@ ms.reviewer: jswymer
 
 [!INCLUDE[responsible-ai-features](includes/responsible-ai-features.md)]
 
+- [Bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
 - [Marketing text suggestions](faqs-marketing-text.md)

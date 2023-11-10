@@ -372,6 +372,7 @@
 ### Reconcile bank accounts
 #### [Bank reconciliation overview](bank-manage-bank-accounts.md)
 #### [Reconcile bank accounts](bank-how-reconcile-bank-accounts-separately.md)
+#### [Reconcile bank accounts using Copilot (preview)](bank-reconciliation-with-copilot.md)
 #### [Applying payments automatically and reconcile bank accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ### Manage intercompany transactions
@@ -1837,6 +1838,9 @@
 ## Manage Copilot and AI capabilities
 ### [Configure Copilot and AI capabilities](enable-ai.md)
 ### [Copilot data movement across geographies](ai-copilot-data-movement.md)
+## Bank account reconciliation assist (preview)
+### [Reconcile bank accounts using Copilot](bank-reconciliation-with-copilot.md)
+### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)
@@ -2022,4 +2026,5 @@
 ## [Removed or deprecated features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
+## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)

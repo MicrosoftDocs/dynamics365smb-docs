@@ -24,7 +24,7 @@ This article explains how to control users' access to Copilot and other AI capab
 
 - Allow data movement across geographical regions
 
-  This task is only required if your environment is outside the United States or Europe. [Learn more](#allow-data-movement-across-geographical-regions)
+  This task is only required if your Business Central environment is in a different geography than the Azure OpenAI Service it uses. [Learn more](#allow-data-movement-across-geographical-regions)
 
 - Enable the specific feature, if it's still governed by **Feature Management**.
 

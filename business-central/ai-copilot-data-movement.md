@@ -23,7 +23,7 @@ Copilot is available in all supported [Business Central geographic regions](/dyn
 
 ### Azure OpenAI Service geographies
 
-The following table shows the Azure OpenAI Service's geography used by Copilot, based on the geography of a Business Central environment. You can identify the geography for your environment in the Business Central admin center, where it's referred to as *Azure region*.  (see [Managing environments in the admin center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)). This information is important when deciding whether to opt in for data movement across geographies.
+The following table shows the Azure OpenAI Service's geography used by Copilot, based on the geography of a Business Central environment. You can identify the geography for your environment in the Business Central admin center, where it's referred to as *Azure region* (see [Managing environments in the admin center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)). This information is important when deciding whether to opt in for data movement across geographies.
 
 | Business Central environment geography (Azure region)| Azure OpenAI Service geography|
 | - | - |

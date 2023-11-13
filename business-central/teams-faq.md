@@ -149,7 +149,7 @@ Any person in your chat or channel who has:
 
 ### <a name=#recommended-content></a>Where does the recommended content come from?
 
-The recommended content that you can choose from in the **Tab content** option on a tab is based on your Role Center. The recommend content only includes list pages, like Customers, Sales Orders, and Vendors - not indiviusla card page alike a specific customer or vendor.
+The recommended content that you can choose from in the **Tab content** option on a tab is based on your Role Center. The recommend content only includes list pages, like Customers, Sales Orders, and Vendors - not individuals card page alike a specific customer or vendor.
 
 Specifically, recommended content includes:
 

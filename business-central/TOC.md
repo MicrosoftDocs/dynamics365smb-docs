@@ -1931,19 +1931,19 @@
 #### [US/CA/UK/AU/NZ/ZA - Send remittance advice](ui-extensions-send-remittance-advice.md)
 #### [WorldPay payments standard](ui-extensions-worldpay-payments-standard.md)
 #### [Business Central extensions by other providers](ui-extensions-other.md)
-## Integrate with Dynamics 365 sales
-### [Integrate with Dynamics 365 sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## Integrate with other Dynamics 365 applications
+### [Integrate with Dynamics 365 sales via data sync](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ## Integrate with Microsoft Dataverse
-### [Integrate with Microsoft Dataverse](admin-common-data-service.md)
-### [Data ownership models](admin-cds-company-concept.md)
-### [Set up user accounts for Microsoft Dataverse integration](admin-setting-up-integration-with-dynamics-sales.md)
-### [Connect to Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Integrate with Dataverse via data sync](admin-common-data-service.md)
+### [Data ownership models for synchronization](admin-cds-company-concept.md)
+### [Set up user accounts for Dataverse integration via data sync](admin-setting-up-integration-with-dynamics-sales.md)
+### [Connect to Dataverse for data sync](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synchronize Business Central and Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Map the tables and fields to synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Manually synchronize table mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshoot synchronization errors](admin-troubleshoot-sales-synchronization.md)
-### [Use a Power Automate flow for alerts to Dataverse entity changes](admin-power-automate-flow-dataverse.md)
+### [Use a Power Automate flow to timely synchronize Dataverse entity changes](admin-power-automate-flow-dataverse.md)
 ## Synchronize master data across companies
 ### [Get ready to synchronize master data](admin-set-up-data-sync.md)
 ### [Manage master data synchronization](admin-sync-master-data.md)

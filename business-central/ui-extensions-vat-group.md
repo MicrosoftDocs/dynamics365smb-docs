@@ -161,19 +161,17 @@ When the group representative has submitted the group's VAT return to the author
 > [!IMPORTANT]
 > The VAT group functionality is only supported in those markets where [!INCLUDE[prod_short](includes/prod_short.md)] uses a VAT framework that consists of VAT returns and VAT return periods. You cannot use VAT groups in markets with other implementations of local VAT reporting, such as Austria, Germany, Italy, Spain, and Switzerland.
 
-## Q&A
+## Issue with enabling Multifactor Authentication (MFA)
 
-### Issue whe enabling MFA (Multifactor Authentication) 
+If you get an error message related to authorization during the renewal of the **OAuth2 Token** on the **VAT Report Setup** page after you enable MFA, complete the following steps.  
 
-If users get the error message related with authorisation when trying to renew **OAuth2 Token** on the **VAT Report Setup** page after enabling MFA, they should follw the next steps:  
-
-1. Sign in to the **Azure Portal** as at least an Authentication Administrator.  
+1. Sign in to the **Azure Portal** as an Authentication Administrator.  
 2. Go to the **Microsoft Entra ID**.   
-3. Browse to **Users**, and then choose the user you wish to perform an action.  
-4. Select the **Authentication methods** and at the top of window click on the **Require re-register multifactor authentication** action. 
-5. Go back to Dynamics 365 Business Central and try to click the action to renew token from the **VAT Report Setup**.  
+3. Browse to **Users**, and then select the user you want to perform an action.  
+4. Select the **Authentication methods** and at the top of the page, select **Require re-register multifactor authentication**. 
+5. Go back to Dynamics 365 Business Central and select to renew the token from the **VAT Report Setup**.  
 
-This should be a onetime setup after you enable multifactor authentication for the user used in **VAT Report Setup**.  
+This should be a onetime setup after you enable multifactor authentication for the user selected in **VAT Report Setup**.  
 
 ## See also
 

@@ -158,6 +158,10 @@ Contact Shopify support within seven days of experiencing this error, and provid
 
 It seems that user which requests access doesn’t have rights to manage apps (ability to manage and install apps and channels, as well as potentially approve app charges). You may be able to resolve this issue by installing the app as the account owner. Alternatively you can check the **App permission** for the user in the [**User and permissions**](https://www.shopify.com/admin/settings/account) settings in your **Shopify admin**.  
 
+### [{"message":"Access denied for FIELD field.","locations":[{"line":0,"column":0}],"path":["path"],"extensions":{"code":"ACCESS_DENIED","documentation":https://shopify.dev/api/usage/access-scopes}}]
+
+Request a new token because the updated version of the connector requires more permissions (application scopes). To learn more, go to [Request access token](#request-the-access-token).
+
 ## See also
 
 [Get Started with the Connector for Shopify](get-started.md)

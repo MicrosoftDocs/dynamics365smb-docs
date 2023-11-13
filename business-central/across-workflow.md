@@ -18,7 +18,7 @@ The default version of [!INCLUDE [prod_short](includes/prod_short.md)] supports 
 * Power Automate flows
 
   * Automated flows that are triggered by events (such as record or document creation, modification, or deletion) in [!INCLUDE[prod_short](includes/prod_short.md)]. Also included are approval flows created in Power Automate that trigger when an approval is requested in [!INCLUDE[prod_short](includes/prod_short.md)].
-  * Instant flows that are manually triggered by the **Automate** action from lists, cards, and document pages.
+  * Instant flows that are manually triggered by from the **Automate** action menu on lists, cards, and document pages.
 
     Create and manually trigger a Power Automate flow on a [!INCLUDE[prod_short](includes/prod_short.md)] record, such as a customer, item, or sales order, with options to manipulate information both internally and externally (using integrated tools).
 
@@ -32,7 +32,7 @@ With [!INCLUDE [prod_short](includes/prod_short.md)] online, you can sign up for
 
 |**To** |**See**|
 |-------|-------|
-|Get started with Power Automate and creating flows, running  instant flows|[Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)|
+|Get started with Power Automate, creating flows, and running instant flows|[Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)|
 |Learn details of how to create, edit, and manage flows|[Set Up Automated Flows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) and [Set Up Instant Flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
 |Set up Power Automate integration with [!INCLUDE[prod_short](includes/prod_short.md)] for users as an admin|[Set Up Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 

@@ -2,7 +2,7 @@
 title: Business Intelligence and Reporting Overview
 description: Provides an overview of all the business intelligence and reporting features supported in Business Central.
 author: KennieNP
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -26,6 +26,7 @@ The following table covers key business intelligence and reporting functionality
 | Work with built-in analytics tools in [!INCLUDE[prod_short](includes/prod_short.md)].| [Built-in Analytics](reports-built-in-analytics.md) |
 | Integrate external business intelligence tools with [!INCLUDE[prod_short](includes/prod_short.md)].| [External Business Intelligence Tools](reports-external-analysis.md) |
 |Modify report layouts or even develop your own reports from scratch. |[Developing reports](reports-develop-reports.md)|
+|Analyze data with Microsoft Fabric| [Introduction to Microsoft Fabric and Business Central](admin-fabric.md) |
 
 ## See also
 

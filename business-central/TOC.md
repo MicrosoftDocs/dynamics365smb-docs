@@ -6,6 +6,7 @@
 ## [Overview of business functionality](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Learn
+### [Resources for users](resources-for-users.md)
 ### [Business Central learning catalog](readiness/readiness-learning-catalog.md)
 ### [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Business process walkthroughs
@@ -115,13 +116,6 @@
 ### [Troubleshoot self-service sign-up](ui-troubleshoot-self-signup.md)
 ### [Extend your trial version](admin-extend-trial.md)
 ### [Unsubscribe or remove Business Central](admin-cancel.md)
-### AI-powered item marketing text with copilot
-#### [Overview](ai-overview.md)
-#### [Get preview version](ai-preview-getstarted.md)
-#### [Configure AI-powered item marketing text](enable-ai.md)
-#### [Create AI-powered item marketing text](item-marketing-text.md)
-#### [FAQ](ai-faq.md)
-
 ## Buy
 ### [Get started with a subscription](trial-signup.md#get-started-with-a-subscription)
 ### [Get ready for doing business](ui-get-ready-business.md)
@@ -348,6 +342,12 @@
 #### [Work with payment tolerances and payment discount tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The late payment prediction extension](ui-extensions-late-payment-prediction.md)
 
+### Manage E-documents
+#### [E-Documents overview](finance-edocuments-overview.md)
+#### [Set up E-documents](finance-how-setup-edocuments.md)
+#### [Use e-documents in sales and purchases](finance-how-use-edocuments.md)
+#### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### Manage VAT
 #### [VAT management overview](finance-manage-vat.md)
 #### [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md)
@@ -372,6 +372,7 @@
 ### Reconcile bank accounts
 #### [Bank reconciliation overview](bank-manage-bank-accounts.md)
 #### [Reconcile bank accounts](bank-how-reconcile-bank-accounts-separately.md)
+#### [Reconcile bank accounts using Copilot (preview)](bank-reconciliation-with-copilot.md)
 #### [Applying payments automatically and reconcile bank accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ### Manage intercompany transactions
@@ -447,9 +448,10 @@
 ### [Post transactions directly to the general ledger](finance-how-post-transactions-directly.md)
 ### [Reverse journal postings and undo receipts/shipments](finance-how-reverse-journal-posting.md)
 ### [Audit file export](finance-how-to-export-audit-files.md)
-### [Allocate costs and income](year-allocate-costs-income.md)
 ### [Record and reimburse employees' expenses](finance-how-record-reimburse-employee-expenses.md)
 ### [Defer revenues and expenses](finance-how-defer-revenue-expenses.md)
+### [Allocate recurring costs and income](year-allocate-costs-income.md)
+### [Allocate revenue and costs to multiple G/L accounts](finance-allocate-revenue-costs.md)
 ### [Update currency exchange rates](finance-how-update-currencies.md)
 ### [Import payroll transactions](finance-how-import-payroll-transactions.md)
 ### [Work with VAT on sales and purchases](finance-work-with-vat.md)
@@ -1569,7 +1571,6 @@
 #### [Set up stockkeeping units](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Categorize items](inventory-how-categorize-items.md)
 #### [Import multiple item pictures](inventory-how-import-item-pictures.md)
-#### [Configure AI-powered item marketing text with copilot](enable-ai.md)
 ### Set up project management
 #### [Set up projects](projects-setup-projects.md)
 #### [Set up resources](projects-how-setup-resources.md)
@@ -1794,7 +1795,7 @@
 ### [Search and filter FAQ](ui-search-filter-faq.yml)
 ### [Analyze page data in Excel](across-work-with-excel.md)
 ### [Analyze report data with Excel](report-analyze-excel.md)
-### [Analyze list data with analysis mode](analysis-mode.md)
+### [Analyze list and query data with analysis mode](analysis-mode.md)
 ### [Financial business intelligence](bi.md)
 
 ## Built-in analytics 
@@ -1809,6 +1810,7 @@
 
 ## Analyze data in business intelligence tools
 ### [Overview](reports-external-analysis.md)
+### [Microsoft Fabric and Business Central](admin-fabric.md)
 ### [Use Power BI with Business Central](admin-powerbi.md)
 ### [Analyze financial statements with Excel](finance-analyze-excel.md)
 ### [Extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
@@ -1832,6 +1834,17 @@
 #### [Report development guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Report performance tuning guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
+# Copilot and AI capabilities
+## Manage Copilot and AI capabilities
+### [Configure Copilot and AI capabilities](enable-ai.md)
+### [Copilot data movement across geographies](ai-copilot-data-movement.md)
+## Bank account reconciliation assist (preview)
+### [Reconcile bank accounts using Copilot](bank-reconciliation-with-copilot.md)
+### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
+## Marketing text suggestions
+### [Marketing text suggestions overview](ai-overview.md)
+### [Create marketing text with Copilot](item-marketing-text.md)
+### [FAQ for marketing text suggestions](faqs-marketing-text.md)
 
 # Security, privacy, and compliance
 ## Security and protection
@@ -1885,6 +1898,7 @@
 ### [Enable new features ahead of time](admin-feature-management.md)
 ### [Onboard users with checklists](admin-checklist.md)
 ### [Sandbox environments](admin-sandbox-environments.md)
+## [Copilot and AI capabilities](enable-ai.md)
 ## Customize Business Central
 ### [Customization overview](ui-customizing-overview.md)
 ### [Customize pages for profiles](ui-personalization-manage.md)
@@ -2010,3 +2024,7 @@
 ## [Security and protection](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Performance](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Removed or deprecated features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Responsible AI
+## [Overview](responsible-ai-overview.md)
+## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
+## [FAQ for marketing text suggestions](faqs-marketing-text.md)

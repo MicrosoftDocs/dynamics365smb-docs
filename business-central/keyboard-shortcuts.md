@@ -4,7 +4,7 @@ description: The complete list of keyboard shortcut combinations to work efficie
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/26/2023
+ms.date: 11/13/2023
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics365-business-central
@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 This article provides an overview of some of the shortcut key combinations that you can use when you're working with [!INCLUDE[prod_short](includes/prod_short.md)].
 
-For an overview of the most popular keyboard shortcuts, see [Keyboard Shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md).
+For an overview of the most popular keyboard shortcuts, see [Keyboard shortcuts (PC only)](keyboard-shortcuts-cheatsheet.md).
 
 > [!TIP]
 > For a graphical view of the most used shortcuts, choose the following image and download the PDF file.  
@@ -23,10 +23,10 @@ For an overview of the most popular keyboard shortcuts, see [Keyboard Shortcuts 
 
 ## Overview
 
-Keyboard shortcuts aid accessibility and can make it easier and more efficient to navigate to different areas and elements on a page. They're supported by most web browsers, however, the behavior may vary slightly.
+Keyboard shortcuts aid accessibility and can make it easier and more efficient to navigate to different areas and elements on a page. Most web browsers support these shortcuts, however, the behavior might vary slightly.
 
 > [!NOTE]
-> The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.
+> The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards can not correspond exactly to the keys on a U.S. keyboard.
 
 Most of the shortcuts are the same whether the operating system is Windows or macOS. However, some shortcuts differ for macOS. These shortcuts are indicated with brackets in the following sections.
 
@@ -50,26 +50,26 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |<kbd>Alt</kbd>+<kbd>F2</kbd>|Show and hide the FactBox pane.|
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F2</kbd>|<kbd>Shift</kbd> between **Details** and **Attachments** in the FactBox pane.|
 |<kbd>Alt</kbd>+<kbd>O</kbd>|Add a new note for the selected record, even if the FactBox pane isn't open.|
-|<kbd>Alt</kbd>+<kbd>Q</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>Q</kbd>)|Open the **Tell Me** window. For more information, see [Finding Pages and Information with Tell Me](ui-search.md).|
-|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>Cmd</kbd>+<kbd>Q</kbd>)|Open the **Find Entries** page to find documents and entries related to each other based on common information, like document number or posting date. For more information, see [Finding Related Entires for Posted Documents](ui-find-entries.md)|
+|<kbd>Alt</kbd>+<kbd>Q</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>Q</kbd>)|Open the **Tell Me** window. For more information, see [Finding pages and information with Tell Me](ui-search.md).|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>Cmd</kbd>+<kbd>Q</kbd>)|Open the **Find Entries** page to find documents and entries related to each other based on common information, like document number or posting date. For more information, see [Finding related entires for posted documents](ui-find-entries.md)|
 |<kbd>Alt</kbd>+<kbd>N</kbd> |Open a page to create a new record. (Similar to choosing the **New** and **+** actions.)|
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> |Close a newly created page and open a new one to create a new record. Similarly, <kbd>Alt</kbd>+<kbd>F9</kbd> posts a document and creates a new one.|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|Open the **My Settings** page.|
 |<kbd>Alt</kbd>+<kbd>Right Arrow</kbd>|Look up additional information or underlying values for a field that contains the ![AssistEdit.](media/assist-edit-icon.png "AssistEdit button") button. Used when the usual drop-down button (<kbd>Alt</kbd>+<kbd>Down Arrow</kbd>) in the same field is used for another purpose.|
-|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>|Display information in the company badge. Starting in Business Central 2022 release wave 2 (version 21, this shortcut is no longer supported replaced by <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
-|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting Pages](across-inspect-page.md).|
-|<kbd>Ctrl</kbd>+<kbd>C</kbd> |Copy the value of field. If the field is in focus, and you haven't selected any text in the field, this will copy the entire value. If you've selected any text in the field, then it will copy the selected text only.|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>|Display information in the company badge. As of the Business Central 2022 release wave 2 (version 21), this shortcut is no longer supported and replaced by <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting pages](across-inspect-page.md).|
+|<kbd>Ctrl</kbd>+<kbd>C</kbd> |Copy the value of field. If the field is in focus, and the text isn't selected in the field, then the entire value is copied. If you select any text in the field, then the selected text is copied.|
 |<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Open the [help pane](product-help-and-support.md#help-pane) or a Business Central help article on [Microsoft Learn](/dynamics365/business-central/), depending on your Business Central version.|
 |<kbd>Ctrl</kbd>+<kbd>F12</kbd>|Switch between wide and narrow layout view.|
-|<kbd>Ctrl</kbd>+Click|Navigate during personalizing or customizing when the action is highlighted with an arrowhead. For more information, see [Personalize Your Workspace](ui-personalization-user.md).|  
+|<kbd>Ctrl</kbd>+select|Navigate during personalizing or customizing when the action is highlighted with an arrowhead. For more information, see [Personalize your workspace](ui-personalization-user.md).|  
 |<kbd>Ctrl</kbd>+<kbd>F5</kbd>|Reload the [!INCLUDE[prod_short](includes/prod_short.md)] application. (Similar to selecting refresh/reload in the browser.)|
-|<kbd>F5</kbd>|Refresh the data on the current page.<br /><br />Use this key to ensure that the data on the page is up to date with any changes that others have made while you're working.|
-|<kbd>Ctrl</kbd>+<kbd>O</kbd>|Open the **Available Companies** pane for switching to another company or environment. For more information, see [Switching to Another Company or Environment](ui-organization-switch.md).|
+|<kbd>F5</kbd>|Refresh the data on the current page.<br /><br />Use this key to ensure that the data on the page is updated with any changes made by others while you're working.|
+|<kbd>Ctrl</kbd>+<kbd>O</kbd>|Open the **Available Companies** pane for switching to another company or environment. For more information, see [Switching to another company or environment](ui-organization-switch.md).|
 |<kbd>Enter</kbd>|Enable or access the element or control that is in focus.|
 |<kbd>Esc</kbd>|Close the current page or drop-down list.|
 |<kbd>Tab</kbd>|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
 |<kbd>Shift</kbd>+<kbd>Tab</kbd>|Move focus to the previous control or element on a page, such as actions, buttons, fields, or list headings.|
-|<kbd>Y</kbd> and <kbd>N</kbd>|Activate the **Yes** and **No** buttons in dialog boxes. Actual keys will vary based on your current language specified in **My Settings**. For example, select <kbd>J</kbd> to activate the **Ja** button when using German language.|
+|<kbd>Y</kbd> and <kbd>N</kbd>|Activate the **Yes** and **No** buttons in dialog boxes. Actual keys vary based on your current language specified in **My Settings**. For example, select <kbd>J</kbd> to activate the **Ja** button when using German language.|
 
 ## Keyboard shortcuts in lists
 
@@ -119,8 +119,8 @@ Grids containing rows and columns exist on many page types in [!INCLUDE[prod_sho
 
 |Select these keys<br />(in macOS)|To do this in a list view |To do this in a tile view |
 |--------------------------------|--------------------------|--------------------------|
-|<kbd>Ctrl</kbd>+Click<br /><br />(<kbd>Cmd</kbd>+Click)|Extend the selection of rows to include the row that you click.|Not applicable.|
-|<kbd>Shift</kbd>+Click|Extend the selection of rows to include the row that you click and all the rows in between.<br /><br />You can use this after using <kbd>Ctrl</kbd>+<kbd>Up Arrow</kbd> or <kbd>Ctrl</kbd>+<kbd> Down Arrow</kbd> to expand your selection.|Not applicable.|
+|<kbd>Ctrl</kbd>+select<br /><br />(<kbd>Cmd</kbd>+select)|Extend the selection of rows to include the row that you select.|Not applicable.|
+|<kbd>Shift</kbd>+select|Extend the selection of rows to include the row that you select and all the rows in between.<br /><br />You can use this after using <kbd>Ctrl</kbd>+<kbd>Up Arrow</kbd> or <kbd>Ctrl</kbd>+<kbd> Down Arrow</kbd> to expand your selection.|Not applicable.|
 |<kbd>Ctrl</kbd>+<kbd>Up Arrow</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Up Arrow</kbd>)|Move focus to the row above and keep the current row selected.|Not applicable.|
 |<kbd>Ctrl</kbd>+<kbd>Down Arrow</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Down Arrow</kbd>)|Move focus to the row below and keep the current row selected.|Not applicable.|
 |<kbd>Ctrl</kbd>+<kbd>Space Bar</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+Space)|Extend the selection of rows to include the focused row.<br /><br />You can use this after using <kbd>Ctrl</kbd>+<kbd>Up Arrow</kbd> or <kbd>Ctrl</kbd>+<kbd>Down Arrow</kbd> to expand your selection.|Not applicable.|
@@ -138,8 +138,8 @@ Grids containing rows and columns exist on many page types in [!INCLUDE[prod_sho
 |Select these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
 |<kbd>F3</kbd>|Toggles the search box.<ul><li>Activate the search box, so you can start typing your search text.</li><li>If the search box is already activated, <kbd>F3</kbd> returns to the list without clearing the search text.</li><ul>|
-|<kbd>Shift</kbd>+<kbd>F3</kbd>|Open and close the filter pane.<ul><li> If the filter pane isn't open, <kbd>Shift</kbd>+<kbd>F3</kbd> opens it and focuses on the **+ Filter** action under **Filter list by**. You can then just hit <kbd>Enter</kbd> to start adding a field filter.</li><li>If the filter pane is already open, <kbd>Shift</kbd>+<kbd>F3</kbd> closes it but doesn't clear any filters that you've added.</li></ul>|
-|<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Open and close the filter pane.<ul><li> If the filter pane isn't open, <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd> opens it and focuses on the **+ Filter** action under **Filter total by**. You can then just hit <kbd>Enter</kbd> to start adding a totals filter.</li><li>If the filter pane is already open, <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd> closes it but doesn't clear any filters that you've added.</li></ul>  |
+|<kbd>Shift</kbd>+<kbd>F3</kbd>|Open and close the filter pane.<ul><li> If the filter pane isn't open, <kbd>Shift</kbd>+<kbd>F3</kbd> opens it and focuses on the **+ Filter** action under **Filter list by**. You can then just hit <kbd>Enter</kbd> to start adding a field filter.</li><li>If the filter pane is already open, <kbd>Shift</kbd>+<kbd>F3</kbd> closes it, but doesn't clear any filters that you added.</li></ul>|
+|<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Open and close the filter pane.<ul><li> If the filter pane isn't open, <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd> opens it and focuses on the **+ Filter** action under **Filter total by**. You can then just hit <kbd>Enter</kbd> to start adding a totals filter.</li><li>If the filter pane is already open, <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd> closes it, but doesn't clear any filters that you added.</li></ul>  |
 |<kbd>Alt</kbd>+<kbd>F3</kbd>|Toggle filtering to the selected value.<ul><li>Applies a column filter on the selected field value in the list. This does the same as choosing **Filter to this value** from a column heading. It opens the filter pane, sets filter to the selected value, while focus remains on cell in the list.</li><li>If the column is already filtered, <kbd>Alt</kbd>+<kbd>F3</kbd> clears the filter on that column.</li></ul> |
 |<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Open the filter pane and add a filter on the selected column in the list. Focus is on the new filter field, which lets you start typing the filter criteria right away.<br /><br /> This does the same as selecting **Filter** from the column heading.<br /><br />If there's already a filter on the field, a new filter is added. |
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Reset filters. This does the same as choosing **Reset filters** in the filter pane, and it applies to field and totals filters.<br /><br /> Filters return to the default filters for the current view. If the current view is **All**, then this is the same as returning to an unfiltered view with all records. |
@@ -157,7 +157,7 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 |<kbd>Alt</kbd>+<kbd>G</kbd>|Open the **Find Entries** page for finding entries related to the posted document. Works on lists also.|
 |<kbd>Alt</kbd>+<kbd>N</kbd> |Open a page to create a new record; the same way as choosing the **New** action. |
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> |Close a page and open a new one to create a new record; the same way as selecting the **OK & New** action. |
-|<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>W</kbd> |Open the current card or document in a new window. For more information, see [Multitasking Across Multiple Pages](ui-enter-data.md#multitasking-across-multiple-pages).|
+|<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>W</kbd> |Open the current card or document in a new window. For more information, see [Multitasking across multiple pages](ui-enter-data.md#multitasking-across-multiple-pages).|
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Save and close the page.|
 |<kbd>Ctrl</kbd>+<kbd>Down Arrow</kbd>|Open the next record for an entity.|
 |<kbd>Ctrl</kbd>+<kbd>Up Arrow</kbd> |Open the previous record for an entity.|
@@ -176,7 +176,7 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 
 ## <a name="QuickEntry"></a>Quick entry shortcuts for fields
 
-The following shortcuts pertain to the Quick Entry feature on cards, documents, and list pages. On lists, the shortcuts can't be used when the list is in the tile view. For more information about Quick Entry, see [Accelerating Data Entry Using Quick Entry](ui-enter-data.md#QuickEntry).
+The following shortcuts pertain to the Quick Entry feature on cards, documents, and list pages. On lists, the shortcuts can't be used when the list is in the tile view. For more information about Quick Entry, see [Accelerating data entry using Quick Entry](ui-enter-data.md#QuickEntry).
 
 |Select these keys<br />(in macOS)|To do this|Remarks|
 |--------------------------------|----------|-------|
@@ -233,7 +233,7 @@ When setting a date field, you can either enter the date manually or open a cale
 
 ## <a name="roleexplorer"></a>Keyboard shortcuts for role explorer
 
-Role explorer gives you an overview and quick access to all the business features that are available for your role. For more information, see [Finding Pages with the Role Explorer](ui-role-explorer.md).
+Role explorer gives you an overview and quick access to all the business features that are available for your role. For more information, see [Finding pages with the Role Explorer](ui-role-explorer.md).
 
 |Select these keys<br/>(in macOS)|To do this|
 |--------------------------------|----------|
@@ -254,7 +254,7 @@ The following table describes the shortcuts on a numeric keypad.
 
 ## Access keys for action bar and navigation menu
 
-Access keys are keyboard shortcuts that select specific actions on the action bar and navigation menu, enabling you to navigate through actions to get to the page you want. Access keys are available in the Business Central web client and are similar to access keys in Excel and Word Online.  
+Access keys are keyboard shortcuts that can select specific actions on the action bar and navigation menu. It allows you to navigate through actions to get to the page you want. Access keys are available in the Business Central web client and are similar to access keys in Excel and Word Online.  
 
 To use access keys on a page, first select the <kbd>Alt</kbd> key to display *key tips*, which are letters in small boxes next to the actions in the action bar and navigation menu. 
 
@@ -266,12 +266,12 @@ To select an action, select the key combination displayed in the key tip, for ex
  
 ## See also
 
-[Keyboard Quick Reference - PC Only](keyboard-shortcuts-cheatsheet.md)  
-[Assistive Features](ui-accessibility.md)  
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Keyboard quick reference - PC Only](keyboard-shortcuts-cheatsheet.md)  
+[Assistive features](ui-accessibility.md)  
+[Getting ready for doing business](ui-get-ready-business.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Frequently Asked Questions](across-faq.yml)  
-[Find Entries](ui-find-entries.md)  
+[Find entries](ui-find-entries.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

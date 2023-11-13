@@ -9,7 +9,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/29/2021
+    ms.date: 11/08/2023
     ms.author: bholtorf
 ---
 # Print Test Reports for Delivery Reminders in the Swiss Version

@@ -1,19 +1,18 @@
 ---
-title: Czech Local Functionality - Gen.Prod.Posting Group from SKU
+title: Czech local functionality - Gen.Prod.Posting Group from SKU
 description: This section describes local functionality - General Product Posting Group from SKU in the Czech version of Business Central.
 author: v-pejano
-
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 06/17/2021
+ms.date: 11/06/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# General Production Posting Group from SKU in the Czech Version
+# General production posting group from SKU in the Czech version
 
-General Production Posting Group from SKU
+General production posting group from SKU
 
 ## See also
 

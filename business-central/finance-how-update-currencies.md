@@ -62,7 +62,7 @@ Because exchange rates fluctuate constantly, you need to adjust other currency e
 You can use the **Adjust Exchange Rates** batch job to manually adjust the exchange rates for posted customer, vendor, and bank account entries. The batch job can also update other reporting currency amounts on G/L entries.  
 
 > [!TIP]
-> You can use a service to update exchange rates in the system automatically. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). However, this doesn't adjust exchange rates on already posted transactions. To update exchange rates on posted entries, use the **Adjust Exchange Rates** batch job.
+> You can use a service to update exchange rates in the system automatically. For more information, see [To set up a currency exchange rate service](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service). However, this doesn't adjust exchange rates on already posted transactions. To update exchange rates on posted entries, use the **Adjust Exchange Rates** batch job.
 
 You can also specify how the adjustment handles dimensions for unrealized gains and losses postings by choosing one of the following options in the **Dimension Posting** field:  
 

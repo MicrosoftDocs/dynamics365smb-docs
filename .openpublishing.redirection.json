@@ -896,6 +896,16 @@
             "source_path": "business-central/hub.yml",
             "redirect_url": "/dynamics365/business-central/index",
             "redirect_document_id": false
-        }       
+        },
+        {
+           "source_path": "ai-preview-getstarted.md",
+           "redirect_url": "/dynamics365/business-central/ai-overview",
+           "redirect_document_id": "false"
+        },
+        {
+           "source_path": "ai-faq.md",
+           "redirect_url": "/dynamics365/business-central/faqs-marketing-text",
+           "redirect_document_id": "false"
+        }         
             ]
 }

@@ -42,7 +42,7 @@ This feature is intended to assist users in creating marketing text for items in
 ## How was item marketing text evaluated? What metrics are used to measure performance?
 
 - The feature underwent extensive testing where numerous texts in different languages were evaluated by language experts against various criteria. Testing was based on [!INCLUDE[prod_short](includes/prod_short.md)]'s demonstration data and other fictitious product catalogs.
-- This feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft](aka.ms/RAI).
+- This feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft](https://aka.ms/RAI).
 
 ## How does Microsoft monitor the quality of generated content?
 

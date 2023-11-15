@@ -116,13 +116,6 @@
 ### [Troubleshoot self-service sign-up](ui-troubleshoot-self-signup.md)
 ### [Extend your trial version](admin-extend-trial.md)
 ### [Unsubscribe or remove Business Central](admin-cancel.md)
-### AI-powered item marketing text with copilot
-#### [Overview](ai-overview.md)
-#### [Get preview version](ai-preview-getstarted.md)
-#### [Configure AI-powered item marketing text](enable-ai.md)
-#### [Create AI-powered item marketing text](item-marketing-text.md)
-#### [FAQ](ai-faq.md)
-
 ## Buy
 ### [Get started with a subscription](trial-signup.md#get-started-with-a-subscription)
 ### [Get ready for doing business](ui-get-ready-business.md)
@@ -379,6 +372,7 @@
 ### Reconcile bank accounts
 #### [Bank reconciliation overview](bank-manage-bank-accounts.md)
 #### [Reconcile bank accounts](bank-how-reconcile-bank-accounts-separately.md)
+#### [Reconcile bank accounts using Copilot (preview)](bank-reconciliation-with-copilot.md)
 #### [Applying payments automatically and reconcile bank accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ### Manage intercompany transactions
@@ -1577,7 +1571,6 @@
 #### [Set up stockkeeping units](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Categorize items](inventory-how-categorize-items.md)
 #### [Import multiple item pictures](inventory-how-import-item-pictures.md)
-#### [Configure AI-powered item marketing text with copilot](enable-ai.md)
 ### Set up project management
 #### [Set up projects](projects-setup-projects.md)
 #### [Set up resources](projects-how-setup-resources.md)
@@ -1841,6 +1834,17 @@
 #### [Report development guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Report performance tuning guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
+# Copilot and AI capabilities
+## Manage Copilot and AI capabilities
+### [Configure Copilot and AI capabilities](enable-ai.md)
+### [Copilot data movement across geographies](ai-copilot-data-movement.md)
+## Bank account reconciliation assist (preview)
+### [Reconcile bank accounts using Copilot](bank-reconciliation-with-copilot.md)
+### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
+## Marketing text suggestions
+### [Marketing text suggestions overview](ai-overview.md)
+### [Create marketing text with Copilot](item-marketing-text.md)
+### [FAQ for marketing text suggestions](faqs-marketing-text.md)
 
 # Security, privacy, and compliance
 ## Security and protection
@@ -1894,6 +1898,7 @@
 ### [Enable new features ahead of time](admin-feature-management.md)
 ### [Onboard users with checklists](admin-checklist.md)
 ### [Sandbox environments](admin-sandbox-environments.md)
+## [Copilot and AI capabilities](enable-ai.md)
 ## Customize Business Central
 ### [Customization overview](ui-customizing-overview.md)
 ### [Customize pages for profiles](ui-personalization-manage.md)
@@ -1926,19 +1931,19 @@
 #### [US/CA/UK/AU/NZ/ZA - Send remittance advice](ui-extensions-send-remittance-advice.md)
 #### [WorldPay payments standard](ui-extensions-worldpay-payments-standard.md)
 #### [Business Central extensions by other providers](ui-extensions-other.md)
-## Integrate with Dynamics 365 sales
-### [Integrate with Dynamics 365 sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## Integrate with other Dynamics 365 applications
+### [Integrate with Dynamics 365 Sales via data sync](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ## Integrate with Microsoft Dataverse
-### [Integrate with Microsoft Dataverse](admin-common-data-service.md)
-### [Data ownership models](admin-cds-company-concept.md)
-### [Set up user accounts for Microsoft Dataverse integration](admin-setting-up-integration-with-dynamics-sales.md)
-### [Connect to Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Integrate with Dataverse via data sync](admin-common-data-service.md)
+### [Data ownership models for synchronization](admin-cds-company-concept.md)
+### [Set up user accounts for Dataverse integration via data sync](admin-setting-up-integration-with-dynamics-sales.md)
+### [Connect to Dataverse for data sync](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synchronize Business Central and Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Map the tables and fields to synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Manually synchronize table mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshoot synchronization errors](admin-troubleshoot-sales-synchronization.md)
-### [Use a Power Automate flow for alerts to Dataverse entity changes](admin-power-automate-flow-dataverse.md)
+### [Use a Power Automate flow to timely synchronize Dataverse entity changes](admin-power-automate-flow-dataverse.md)
 ## Synchronize master data across companies
 ### [Get ready to synchronize master data](admin-set-up-data-sync.md)
 ### [Manage master data synchronization](admin-sync-master-data.md)
@@ -2019,3 +2024,7 @@
 ## [Security and protection](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Performance](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Removed or deprecated features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Responsible AI
+## [Overview](responsible-ai-overview.md)
+## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
+## [FAQ for marketing text suggestions](faqs-marketing-text.md)

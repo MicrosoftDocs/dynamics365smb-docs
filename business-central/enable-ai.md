@@ -16,11 +16,11 @@ ms.search.form: 7775
 
 <!--This article explains how you can control the ability to create AI-powered item marketing text with Copilot for your organization. This task is done by an admin. There are two requirements that you must fulfill to make the feature available to users:-->
 
-This article explains how to control users' access to Copilot and other AI capabilities in Business Central. This task is done by an admin. There are three levels of access control to Copolit and AI capabilities, depending on the feature:
-
+This article explains how to control users' access to Copilot and other AI capabilities in Business Central. This task is done by an admin. There are different levels of access control to Copolit and AI capabilities, depending on the feature:
+<!--
 - Consent to the Azure OpenAI [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [privacy](https://go.microsoft.com/fwlink/?LinkId=521839) terms and conditions.
 
-   This consent is required for any Copilot or AI capability to work for users. The consent is global for all users and applies to all Copilot and AI features. [Learn more](#consent-to-preview-and-privacy-terms)
+   This consent is required for any Copilot or AI capability to work for users. The consent is global for all users and applies to all Copilot and AI features. [Learn more](#consent-to-preview-and-privacy-terms)-->
 
 - Allow data movement across geographical regions
 
@@ -39,13 +39,6 @@ If any of these requirements aren't fulfilled, the feature isn't available for u
 - You're using Business Central online, version 23.1 or later. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
 - You have admin or super permissions in Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
-## Consent to preview and privacy terms
-
-Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) on behalf of the organization. Unlike privacy notices for other features and services, only admins can consent the use of Azure OpenAI, which they do on behalf of the organization. Users can't decide for themselves.   
-
-1. In Business Central, search for and open the **Privacy Notices Status** page.
-2. In the **Integration Name** column, select **Azure OpenAI**, then read the terms and conditions that are presented to you.
-3. In the **Azure OpenAI** row, select the **Agree for everyone** checkbox to consent or the **Disagree for everyone** checkbox to reject.
 
 ## Enable feature in Feature Management
 
@@ -104,6 +97,22 @@ Using the **Copilot & AI Capabilities** page, you can turn individual features o
 
    - To turn on a feature, select it in the list, then select the **Activate** in the ribbon.
    - To turn off a feature, select it, and then select **Deactivate** in the ribbon. 
+
+
+
+## Troubleshooting
+
+### You don't see the Copilot in the UI
+
+The feasture isn't enabled in Feature managements
+
+### You get the a message that copiot isn't activated for the feature
+
+Consent to the terms and conditions of [preview](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) and [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) on behalf of the organization. Unlike privacy notices for other features and services, only admins can consent the use of Azure OpenAI, which they do on behalf of the organization. Users can't decide for themselves.   
+
+1. In Business Central, search for and open the **Privacy Notices Status** page.
+2. In the **Integration Name** column, select **Azure OpenAI**, then read the terms and conditions that are presented to you.
+3. In the **Azure OpenAI** row, select the **Agree for everyone** checkbox to consent or the **Disagree for everyone** checkbox to reject.
 
 
 ## Next steps

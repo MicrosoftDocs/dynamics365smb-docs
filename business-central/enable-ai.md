@@ -22,13 +22,13 @@ This article explains how to control users' access to Copilot and other AI capab
 
    This consent is required for any Copilot or AI capability to work for users. The consent is global for all users and applies to all Copilot and AI features. [Learn more](#consent-to-preview-and-privacy-terms)-->
 
-- Allow data movement across geographical regions
-
-  This task is only required if your Business Central environment is in a different geography than the Azure OpenAI Service it uses. [Learn more](#allow-data-movement-across-geographies)
-
 - Enable the specific feature, if it's still governed by **Feature Management**.
 
   In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. However, marketing text suggestions is enabled by default. [Learn more](#enable-feature-in-feature-management)
+
+- Allow data movement across geographical regions
+
+  This task is only required if your Business Central environment is in a different geography than the Azure OpenAI Service it uses. [Learn more](#allow-data-movement-across-geographies)
 
 - Activate the feature on the **Copilot & AI Capabilities** page. [Learn more](#activate-features)
 

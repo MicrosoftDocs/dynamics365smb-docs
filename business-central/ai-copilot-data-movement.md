@@ -43,7 +43,7 @@ The following table shows the Azure OpenAI Service's geography used by Copilot, 
 |Switzerland (North, West) |Switzerland|No|
 |United Arab Emirates (North, West)|United States|Yes|
 |United Kingdom (South, West)|United Kingdom|Yes, until update 23.2|
-|United States (Central, East, North Central, South Central, West) |United States|
+|United States (Central, East, North Central, South Central, West) |United States|No|
 <!--
 |
 Environment Azure regionBusiness Central environment geography (Azure region) 

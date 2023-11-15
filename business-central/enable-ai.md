@@ -35,19 +35,6 @@ If any of these requirements aren't fulfilled, the feature isn't available for u
 - You're using Business Central online, version 23.1 or later. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
 - You have admin or super permissions in Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
-
-## Enable feature in Feature Management
-
-When individual Copilot capabilities are released in Business Central minor updates, these capabilities are optional until the next major update. **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like marketing text suggestions. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
-
-1. In Business Central, search for and open the **Feature Management** page.
-2. To enable a feature, set the **Enabled for** column to **All users**. To disable a feature, set the **Enabled for** column to **None**. Use the following table to help you determine the switch that applies to the Copilot and AO capability you want to enable:
-
-   - **Feature Preview: Bank account reconciliation with Copilot** pertains to the bank account reconciliation assist feature.
-   - **Feature preview: Create AI-powered product descriptions with Copilot** pertains to the marketing text suggestions feature.
-
-   For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
-
 ## Allow data movement across geographies
 
 This task applies only if the **Allow data movement** switch appears near the top of the **Copilot & AI Capabilities** page. The  **Allow data movement** switch indicates that your Business Central environment location&mdash;that is, the geography where data is processed and stored&mdash;isn't the same as the Azure OpenAI Service geography used by Copilot. If you want to enable Copilot, you must allow data movement between geographies. To learn more about data movement, go to [Copilot data movement across geographies](ai-copilot-data-movement.md). 
@@ -94,6 +81,18 @@ All Copilot and AI capabilities are active by default when they are made availab
    - To turn on a feature, select it in the list, then select the **Activate** action.
    - To turn off a feature, select it, and then select **Deactivate** action. 
 
+
+## Enable feature in Feature Management
+
+When individual Copilot capabilities are released in Business Central minor updates, these capabilities are optional until the next major update. **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like marketing text suggestions. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
+1. In Business Central, search for and open the **Feature Management** page.
+2. To enable a feature, set the **Enabled for** column to **All users**. To disable a feature, set the **Enabled for** column to **None**. Use the following table to help you determine the switch that applies to the Copilot and AO capability you want to enable:
+
+   - **Feature Preview: Bank account reconciliation with Copilot** pertains to the bank account reconciliation assist feature.
+   - **Feature preview: Create AI-powered product descriptions with Copilot** pertains to the marketing text suggestions feature.
+
+   For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 ## Granting user access 
 

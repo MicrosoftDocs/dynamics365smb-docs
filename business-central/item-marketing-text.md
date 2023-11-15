@@ -132,6 +132,7 @@ There are a few steps you can do to improve the text suggestions and tweak them 
 ## See also
 
 [Marketing text suggestions overview](ai-overview.md)  
+[Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
 [FAQ for marketing text suggestions](faqs-marketing-text.md)  
 [Configure Copilot and AI capabilities](enable-ai.md)  
 [Register new items](inventory-how-register-new-items.md)  

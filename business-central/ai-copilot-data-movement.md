@@ -40,7 +40,7 @@ The following table shows the Azure OpenAI Service's geography used by Copilot, 
 |Korea (Central, South)|United States|Yes|
 |Norway (East, West)|Sweden or Switzerland |Yes|
 |South Africa (North, West)|United States|Yes|
-|Switzerland (North, West) |Switzerland|No|
+|Switzerland (North, West) |Sweden or Switzerland |Yes|
 |United Arab Emirates (North, West)|United States|Yes|
 |United Kingdom (South, West)|United Kingdom|Yes, until update 23.2|
 |United States (Central, East, North Central, South Central, West) |United States|No|

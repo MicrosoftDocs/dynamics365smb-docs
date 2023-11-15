@@ -21,7 +21,7 @@ If Copilot functionality, like the **Draft with Copilot** action for marketing t
 
 - Make sure that the functionality isn't hidden by personalization. [Learn more about personalization](ui-personalization-user.md).
 
-## Copilot appears on pages, but you get an error that it's not activated
+## When you try Copilot, you get an error that it's not activated
 
 When you try to use Copilot and you get an error similar to **Sorry, Copilot is not activated for \[feature\]**, there are a couple things to check for.
 

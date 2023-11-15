@@ -1839,7 +1839,7 @@
 ### [Configure Copilot and AI capabilities](enable-ai.md)
 ### [Copilot data movement across geographies](ai-copilot-data-movement.md)
 ## Bank account reconciliation assist (preview)
-### [Reconcile bank accounts using Copilot](bank-reconciliation-with-copilot.md)
+### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 ### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)

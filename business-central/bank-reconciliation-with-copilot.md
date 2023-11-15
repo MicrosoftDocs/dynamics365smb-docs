@@ -10,7 +10,7 @@ ms.date: 10/25/2023
 ms.custom: bap-template 
 ---
 
-# Reconcile bank accounts using Copilot (preview)
+# Reconcile bank accounts with Copilot (preview)
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 

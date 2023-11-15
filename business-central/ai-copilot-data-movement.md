@@ -1,12 +1,12 @@
 ---
 title: Copilot data movement across geographies
 description: Learn how data that's used in copilot features in Dynamics 365 Business Central moves across geographies where Azure OpenAI Service isn't available by default.
-author: jswymer #
+author: jswymer 
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.collection: get-started #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
-ms.date: 11/09/2023
+ms.collection: 
+ms.date: 11/15/2023
 ms.custom: bap-template 
 ---
 

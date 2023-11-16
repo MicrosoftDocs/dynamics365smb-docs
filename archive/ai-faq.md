@@ -16,9 +16,9 @@ ms.service: dynamics365-business-central
 
 This article uses questions and answers to explain important aspects about the AI technology behind Copilot and the text it generates.
 
-## [General](#tab/general)
+<!--## [General](#tab/general)-->
 
-### What is Copilot?
+## What is Copilot?
 
 Copilot provides AI-generated text suggestions for items in Business Central. It's intended for users who write marketing text for items to help them produce engaging and compelling content. Some key benefits include:
 
@@ -28,7 +28,7 @@ Copilot provides AI-generated text suggestions for items in Business Central. It
 
 Users should consider the AI-generated text as a suggestion that must be reviewed and edited for accuracy before it's publicly available.
 
-### Why isn't Copilot available for marketing text on my items in Business Central?
+## Why isn't Copilot available for marketing text on my items in Business Central?
 
 For Copilot to be available, the following requirements must be met:
 
@@ -45,21 +45,21 @@ For Copilot to be available, the following requirements must be met:
 
    For more information, go to [Consent to or reject the preview and privacy terms and conditions for all users](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
-### Is Copilot available for preview in Business Central on-premises?
+## Is Copilot available for preview in Business Central on-premises?
 
 No, it's currently not supported in Business Central on-premises.
 
-### How does Copilot work, where does the suggested text come from?
+## How does Copilot work, where does the suggested text come from?
 
 Copilot uses [Microsoft's Azure OpenAI Service](/azure/cognitive-services/openai/overview) to access powerful language models that analyze and generate natural language. These models have been trained on a wide body of text datasets. As a result, Copilot can generate suggested, personalized responses in English based on a minimal amount of input data, like an item's attributes, category, or description. 
 
-### What's the quality of the text suggested by Copilot?
+## What's the quality of the text suggested by Copilot?
 
 Because the underlying technology behind Copilot uses AI that has been trained on a wide range of sources, the generated content isn't always factual or suitable. Some suggestions may even include questionable or inappropriate content. It's your responsibility to review and edit generated suggestions to ensure it's accurate and appropriate.
 
 For information about inappropriate suggestions, go to [What's done about abusive and harmful text suggestions?](/dynamics365/business-central/ai-faq?&tabs=oversight#whats-done-about-abusive-and-harmful-text-suggestions).
 
-### How can I improve the suggestions I get from Copilot?
+## How can I improve the suggestions I get from Copilot?
 
 There are a few things you can do to get the most out of suggestions from Copilot:
 
@@ -70,13 +70,13 @@ There are a few things you can do to get the most out of suggestions from Copilo
 
 To learn more, go to [Improve and tailor text suggestions](item-marketing-text.md#improve-and-tailor-text-suggestions).
 
-### What if I'm not satisfied with the generated text?
+## What if I'm not satisfied with the generated text?
 
 To help us improve the text, select **Is this a good suggestion?** on the **Create with Copilot** page, which you can answer with a thumbs-up (I like it) or thumbs-down (Needs improvement).
 
 ![Shows an item card with Marketing Text pane](media/create-with-copilot-window-feedback.png)
 
-### Can admins disable Copilot? If so, how?
+## Can admins disable Copilot? If so, how?
 
 Business Central offers admins two ways to disable Copilot in the preview:
 
@@ -88,12 +88,14 @@ Business Central offers admins two ways to disable Copilot in the preview:
 
 To learn more, go to [Configure AI-powered item marketing text (preview) with Copilot as an admin](enable-ai.md).
 
-## [Fairness](#tab/fairness)
-
-### Does Copilot work with languages other than English?
+## Does Copilot work with languages other than English?
 
 Currently, Copilot only supports English. Inaccurate responses may be returned when users converse with the system in languages other than English.
 
+## Where can I read more about things like data collection, privacy, and what's done about abusive text suggestions?
+
+Go to [Responsible AI FAQ for item marketing text suggestions](faqs-marketing-text.md).
+<!--
 ## [Human oversight](#tab/oversight)
 
 ### What's done about abusive and harmful text suggestions?
@@ -119,8 +121,9 @@ The capability collects your answer to the **Is this a good suggestion?** questi
 We use this data to evaluate and improve the quality of the capability. More information on what data is collected is available in the [preview terms](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
 
 ![Shows an item card with Marketing Text pane](media/create-with-copilot-window-feedback.png)
-
 ---
+-->
+
 
 ## See also
 

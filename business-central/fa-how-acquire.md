@@ -8,9 +8,8 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.search.form: 5605, 5551, 5600, 5628, 5629, 5633
-ms.date: 12/03/2021
+ms.date: 10/04/2023
 ms.author: bholtorf
-
 ---
 # Acquire Fixed Assets
 
@@ -61,7 +60,7 @@ The following procedure describes how to acquire a fixed asset manually by creat
 > [!NOTE]  
 >   You can also post acquisition cost as credits. In that case, remember that the value in the **Amount** field must be with a minus sign to indicate a credit.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA G/L Journals**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journals**, and then choose the related link.
 2. On the **Fixed Asset G/L Journal** page, in the **FA Posting Type** field, select **Acquisition Cost**.
 3. Fill in the remaining fields as necessary.
 4. Choose the **Post** action.  

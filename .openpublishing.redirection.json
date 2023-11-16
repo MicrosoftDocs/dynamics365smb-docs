@@ -898,14 +898,19 @@
             "redirect_document_id": false
         },
         {
-           "source_path": "ai-preview-getstarted.md",
+           "source_path": "business-central/ai-preview-getstarted.md",
            "redirect_url": "/dynamics365/business-central/ai-overview",
            "redirect_document_id": "false"
         },
         {
-           "source_path": "ai-faq.md",
+           "source_path": "business-central/ai-faq.md",
            "redirect_url": "/dynamics365/business-central/faqs-marketing-text",
            "redirect_document_id": "false"
-        }         
+        },
+        {
+            "source_path": "business-central/readiness/readiness-learning-catalog.md",
+            "redirect_url": "/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs",
+            "redirect_document_id": "false"
+         }           
             ]
 }

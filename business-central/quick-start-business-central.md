@@ -68,6 +68,6 @@ Business Intelligence
 
 ## See also
 
-[Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
+[Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Overview of Business Functionality](across-business-functionality.md)  
 [Overview of Tasks to Set Up Business Central](setup.md)  

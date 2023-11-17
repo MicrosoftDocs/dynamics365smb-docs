@@ -5,13 +5,13 @@ author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 10/29/2023
+ms.date: 11/17/2023
 ms.custom: bap-template
 ---
 
 # Add marketing text to items
 
-For any item registered in Business Central, you can write *marketing text* about the item. Although marketing text is a kind of description, it's different than an item's **Description** field. The **Description** field is typically used as a concise display name to quickly identify the product. The marketing text, on the other hand, is a more rich and descriptive text. Its purpose is to add marketing and promotional content, also known as *copy*. This text can then be published with the item if it's published on a web shop, like Shopify.
+For any item registered in Business Central, you can write *marketing text* about the item. Although marketing text is a kind of description, it's different than an item's **Description** field. The **Description** field is typically used as a concise display name to quickly identify the product. The marketing text, on the other hand, is a more rich and descriptive text. Its purpose is to add marketing and promotional content, also known as *copy*. This text can then be published with the item if it's published on a web shop, like Shopify, or pasted into emails or other communications with your customers.
 
 There are two ways to create the marketing text. The easiest way to get started is to use Copilot, which suggests AI-generated text for you. The other way is to start from scratch. 
 
@@ -19,14 +19,16 @@ There are two ways to create the marketing text. The easiest way to get started 
 
 With Copilot, you quickly get a text suggestion that's automatically generated for you. The AI-generated text is tailored to the item and provides a good starting point. The text is based in part on the following information:
 
-- Attributes defined for the item&mdash;for example, the description, color, dimensions, material, and so on.
+- Attributes defined for the item&mdash;for example, the description, color, dimensions, material, and so on. [Learn more about item attributes](nventory-how-work-item-attributes.md).
+- The item’s **Description** field.
+- The item category. [Learn more about categorizing items](inventory-how-categorize-items.md).
 - Selectable style preferences like tone of voice, format, and length.
 
 Copilot is designed to save you time and help you write creative and engaging text that reflects your brand and is consistent across your product line. Start by generating a suggestion, then change the suggested text as needed.
 
 ### Prerequisites
 
-- Marketing text suggestions feature is enabled and activated on your environment. This tsak is typically done by an an admin. For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).
+- Marketing text suggestions feature is enabled and activated on your environment. This task is typically done by an an admin. For more information, go to [Configure Copilot and AI capabilities](enable-ai.md).
 - You're using one of the languages currently supported by the marketing text suggestions.
 
    [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)] <!--you're using in Business Central must be English. Any of the available English locales work, like English (United States), English (United Kingdom), or English (South Africa).-->

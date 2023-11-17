@@ -19,7 +19,7 @@ There are two ways to create the marketing text. The easiest way to get started 
 
 With Copilot, you quickly get a text suggestion that's automatically generated for you. The AI-generated text is tailored to the item and provides a good starting point. The text is based in part on the following information:
 
-- Attributes defined for the item&mdash;for example, the description, color, dimensions, material, and so on. [Learn more about item attributes](nventory-how-work-item-attributes.md).
+- Attributes defined for the item&mdash;for example, the description, color, dimensions, material, and so on. [Learn more about item attributes](inventory-how-work-item-attributes.md).
 - The item’s **Description** field.
 - The item category. [Learn more about categorizing items](inventory-how-categorize-items.md).
 - Selectable style preferences like tone of voice, format, and length.
@@ -29,11 +29,9 @@ Copilot is designed to save you time and help you write creative and engaging te
 ### Prerequisites
 
 - Marketing text suggestions feature is enabled and activated on your environment. This task is typically done by an admin. For more information, go to [Configure Copilot and AI capabilities](enable-ai.md).
-- You're using one of the languages currently supported by the marketing text suggestions.
+- [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
-   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
-
-   To change the language, in the upper-right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
+   Make sure that you're using one of the supported languages. To change the language, in the upper-right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
 - Review the [FAQ for marketing text suggestions](faqs-marketing-text.md) to learn how AI is applied.
 
 ### Create first draft with Copilot

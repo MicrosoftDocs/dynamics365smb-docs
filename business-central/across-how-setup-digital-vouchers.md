@@ -1,0 +1,90 @@
+---
+title: Set up Digital Vouchers
+description: This article explains how to enable and use enforced digital vouchers in Microsoft Dynamics 365 Business Central.
+author: altotovi
+ms.author: altotovi
+ms.reviewer: 
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.search.keywords: digital voucher, voucher, attachment, setup
+ms.search.form: 5579, 5582, 5587
+ms.date: 11/17/2023
+ms.custom: bap-template
+
+---
+
+# Set up Digital Vouchers  
+
+Digital Voucher functionality empowers administrators to mandate the attachment of documents when posting specific transactions, providing a source-driven approach and better audit trail. Various types of enforcement, depending on documents or journal types, can be configured for this purpose.  
+
+Digital voucher refers to a digital or electronic form of a traditional voucher in accounting, which is a document used to support and authorize financial transactions. In accounting, a voucher typically serves as evidence of an expenditure or receipt of funds. It may include details such as the date of the transaction, description, amount, and authorization signatures. 
+
+> [!IMPORTANT]
+> In certain countries, users may be restricted from configuring all options, as specific setups may be mandated by legal requirements. If you meet thes restrictions look detailed explanation on your country documentation page.  
+
+## Enabling digital vouchers  
+
+To enable digital voucher functionality: 
+
+1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Digital Voucher Setup**, and then select the related link. 
+2. Select the **Enabled** checkbox.  
+
+## Setup digital vouchers  
+
+You can use different set up for the following documents and journals:  
+
+  | Entry Type | Description |
+  |----------|------------------------------|
+  | **Sales Document** | Specifies postings you are doing from the sales documents. |
+  | **Purchase Document** | Specifies postings you are doing from the purchase documents. |
+  | **General Journal** | Specifies postings you are doing from the **General Journal** for all **Account Types** excluding those related to **Customer** and **Vendor**. By choosing one of those options, you will change control of the posting process. If you select the **Customer** as the **Account Type**, the system will check your setup related to the **Sales Journal**. If you select the **Vendor** as the **Account Type**, the system will check your setup related to the **Purchase Journal**. |
+  | **Sales Journal** | Specifies posting you are doing from the **Sales Journal** and the **General Journal** with the **Customer** selected as the **Account Type**. |
+  | **Purchase Journal** | Specifies posting you are doing from the **Purchase Journal** and the **General Journal** with the **Vendor** selected as the **Account Type**. |
+
+To set up how your organization will use enforced digital vouchers follow the next steps:   
+
+1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Digital Voucher Entry Setup**, and then select the related link. Or run the **Entry Setup** action from the **Digital Voucher Setup** page.  
+2. Select one of the options in the **Entry Type** column.   
+3. Choose one of the enforcement options in the **Check Type** column. In case of check type **None** you can post this type of entry without any digital voucher. In case of check type **Attachment**, you need to have an attachment to your entry. In case of check type **Attachment or Note** you can either have an attachment or a note for your entry. 
+4. Select the **Generate Automatically** checkbox if the digital voucher needs to be generated automatically. For example, if you do not want manually to add sales invoice to your transaction, you can select this check box and you just need to post the document; system will automatically create the document based on your report layout and attach it to this transaction. 
+5. Select the **Skip If Manually Added** checkbox, for not adding the automatically generated digital voucher if the manual attachment has already been added by the user.  
+
+### Use Source Codes for setup  
+
+If you want to use enforcement for journals but not for all transaction types, you can connect the specific source code to identify the entry type in general journal, sales journal, purchase journal, etc.  
+
+To setup specific **Source Codes** for **Digital Vouchers**:   
+
+1. Run the **Source Codes** action from the **Digital Voucher Entry Setup** page.  
+2. Choose the **Source Codes** you want to have configured from the **Voucher Entry Source Codes** page. 
+3. Close the page.   
+
+## Using the functionality  
+
+Open any of purchase or sales documents and populate all required fields. Before posting you need to add a digital voucher. To do this, follow next steps:  
+
+1. In the **Incoming Document Files** FactBox choose the **Attach File** action.  
+2. In the **Insert File** page, drop a file directly or browse to the file from this page. 
+3. The document will be attached to the **Incoming Document Files** FactBox, and you can find document name and type for each of lines. 
+
+If you attached the wrong voucher accidentally, you can delete it before the document has been posted using the following steps: 
+
+1. In the **Incoming Document Files** FactBox from the document line, choose the **Incoming Document** action. 
+2. Run the **Delete** action from the **Incoming Document** page.   
+
+> [!NOTE]
+> If digital voucher has been configured as a mandatory, but user tries to post documents or journals without attaching the voucher, system will not allow this, and it will show the error message: _Not possible to post without attaching the digital voucher_.  
+
+### Finding attached voucher in transactions   
+
+You can find the attachment from the posted document or from **General Ledger Entries** looking at the **Incoming Document Files** FactBox.  
+
+Once attached document after posting cannot be deleted, but users can still add more attachments after posting.   
+
+
+## See also
+
+[Financial Management](finance.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

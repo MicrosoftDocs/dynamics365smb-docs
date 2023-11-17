@@ -29,9 +29,11 @@ Copilot is designed to save you time and help you write creative and engaging te
 ### Prerequisites
 
 - Marketing text suggestions feature is enabled and activated on your environment. This task is typically done by an admin. For more information, go to [Configure Copilot and AI capabilities](enable-ai.md).
-- [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+- You're using one of the languages currently supported by the marketing text suggestions.
 
-   Make sure that you're using one of the supported languages. To change the language, in the upper-right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
+  [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+
+  To change the language, in the upper-right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
 - Review the [FAQ for marketing text suggestions](faqs-marketing-text.md) to learn how AI is applied.
 
 ### Create first draft with Copilot
@@ -64,10 +66,6 @@ Complete the following steps to add marketing text to an existing item. To learn
 
    You can now get more suggestions, try to improve the suggestions you get, edit text, and more. Go to [Review, edit, and save](#review-edit-and-save-text) for details.
 
-
-<!--
-   > [!TIP]
-   > [Where does the suggestion come from?](ai-faq.md#how-does-copilot-work-where-does-the-suggested-text-come-from)-->
 
 ### Review, edit, and save text
 

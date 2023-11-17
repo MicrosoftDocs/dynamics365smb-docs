@@ -31,7 +31,7 @@ Copilot is designed to save you time and help you write creative and engaging te
 - Marketing text suggestions feature is enabled and activated on your environment. This task is typically done by an admin. For more information, go to [Configure Copilot and AI capabilities](enable-ai.md).
 - You're using one of the languages currently supported by the marketing text suggestions.
 
-   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)] <!--you're using in Business Central must be English. Any of the available English locales work, like English (United States), English (United Kingdom), or English (South Africa).-->
+   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
    To change the language, in the upper-right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
 - Review the [FAQ for marketing text suggestions](faqs-marketing-text.md) to learn how AI is applied.

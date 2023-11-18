@@ -1,5 +1,5 @@
 ---
-title: Set up Digital Vouchers in Denmark
+title: Set up digital vouchers in Denmark
 description: This article explains how to set up and use enforced digital vouchers in Microsoft Dynamics 365 Business Central for Danish localization.
 author: altotovi
 ms.author: altotovi
@@ -13,18 +13,18 @@ ms.custom: bap-template
 
 ---
 
-# Set up Digital Vouchers  
+# Set up digital vouchers  
 
-Digital Voucher functionality empowers administrators to mandate the attachment of documents when posting specific transactions, providing a source-driven approach and better audit trail. Various types of enforcement, depending on documents or journal types, can be configured for this purpose.  
+Administrators can use digital voucher functionality to require documents be attached specific transactions when they are posted. This functionality is a source-driven approach and provides a better audit trail. You can configure various types of enforcement, depending on documents or journal types, for these purposes.  
 
-Digital voucher refers to a digital or electronic form of a traditional voucher in accounting, which is a document used to support and authorize financial transactions. In accounting, a voucher typically serves as evidence of an expenditure or receipt of funds. It may include details such as the date of the transaction, description, amount, and authorization signatures. 
+A *digital voucher* refers to a digital or electronic form of a traditional voucher in accounting. The voucher is a document used to support and authorize financial transactions. In accounting, a voucher typically serves as evidence of an expenditure or receipt of funds. The voucher may include details such as the date of the transaction, a description, the amount, and any authorization signatures. 
 
 > [!IMPORTANT]
-> In Denmark from January 1st 2024, this feature will be enabled by default and users will be restricted from additionaly configuration for Purchase and Sales documents, as specific setups has been mandated by new Danish bookkeeping act, where users must attach minimum vouchers for these two types of documents. 
+> Starting January 1st, 2024 in Denmark, this feature will be enabled by default and you will be restricted from additional configurations for purchase and Ssales documents. This is because specific setups are being mandated by new the Danish bookkeeping act, where you must attach minimum vouchers for purchase and sales documents. 
 
 ## Setup digital vouchers  
 
-You can use different set up for the following documents and journals:  
+You can use different setups for the following documents and journals. 
 
   | Entry Type | Description |
   |----------|------------------------------|

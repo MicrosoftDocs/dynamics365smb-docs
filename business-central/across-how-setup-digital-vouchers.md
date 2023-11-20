@@ -13,78 +13,78 @@ ms.custom: bap-template
 
 ---
 
-# Set up digital vouchers  
+# Set up digital vouchers
 
-Digital voucher functionality empowers administrators to mandate attaching documents when specific transactions, providing a source-driven approach and better audit trail. Various types of enforcement, depending on documents or journal types, can be configured for this purpose.  
+Administrators can use digital voucher functionality to require that documents are attached to specific transactions when they're posted. Therefore, this functionality allows for a source-driven approach and provides a better audit trail. Different types of enforcement can be configured for this purpose, depending on the documents or journal types.
 
-Digital voucher refers to a digital or electronic form of a traditional voucher in accounting, which is a document used to support and authorize financial transactions. In accounting, a voucher typically serves as evidence of an expenditure or receipt of funds. The voucher may include details such as the date of the transaction, description, amount, and authorization signatures. 
+The term *digital voucher* refers to a digital or electronic form of a traditional voucher in accounting. A voucher is a document that's used to support and authorize financial transactions. In accounting, a voucher typically serves as evidence of an expenditure or a receipt of funds. The voucher might include details such as the date of the transaction, a description, the amount, and any authorization signatures.
 
 > [!IMPORTANT]
-> In certain countries, you may be restricted from configuring all options, as specific setups may be mandated by legal requirements. If you encounter these restrictions, look for a detailed explanation on your country's documentation page.  
+> In some countries and regions, you might be restricted from configuring some options, because specific setups might be mandated by legal requirements. If you encounter these restrictions, look for a detailed explanation on the documentation page for your country or region.
 
-## Enable digital vouchers  
+## Enable digital vouchers
 
 Follow these steps to enable digital voucher functionality.
 
-1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Digital Voucher Setup**, and then select the related link. 
-2. Select the **Enabled** checkbox.  
+1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Digital Voucher Setup**, and then select the related link.
+2. Select the **Enabled** checkbox.
 
-## Set up digital vouchers  
+## Set up digital vouchers
 
-You can use a different set up for the following documents and journals:  
+You can use different setups for the following documents and journals.
 
-  | Entry Type | Description |
-  |----------|------------------------------|
-  | **Sales Document** | Specifies postings completed from the sales documents. |
-  | **Purchase Document** | Specifies postings completed from the purchase documents. |
-  | **General Journal** | Specifies postings completed from the **General Journal** for all account types except those related to **Customer** and **Vendor**. When you select one of those options, you change control of the posting process. If you select **Customer** as the **Account Type**, the system checks your setup related to the **Sales Journal**. If you select **Vendor** as the **Account Type**, the system checks your setup related to the **Purchase Journal**. |
-  | **Sales Journal** | Specifies the posting completed from the **Sales Journal** and the **General Journal** with the **Customer** selected as the **Account Type**. |
-  | **Purchase Journal** | Specifies the posting completed from the **Purchase Journal** and the **General Journal** with the **Vendor** selected as the **Account Type**. |
+| Entry type | Description |
+|------------|-------------|
+| Sales Document | Specifies postings that are completed from sales documents. |
+| Purchase Document | Specifies postings that are completed from purchase documents. |
+| General Journal | Specifies postings that are completed from the general journal for all account types except those that are related to the customer and vendor. If you select one of those account types, you change control of the posting process. If you select **Customer** as the account type, the system checks your setup that's related to the sales journal. If you select **Vendor** as the account type, the system checks your setup that's related to the purchase journal. |
+| Sales Journal | Specifies the postings that are completed from the sales journal and the general journal where **Customer** is selected as the account type. |
+| Purchase Journal | Specifies the postings that are completed from the purchase journal and the general journal where **Vendor** is selected as the account type. |
 
-To set up how your organization uses enforced digital vouchers, follow these steps.   
+Follow these steps to define how your organization uses enforced digital vouchers.
 
-1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Digital Voucher Entry Setup**, and then select the related link. Or, on the **Digital Voucher Setup** page, select **Entry Setup**.  
-2. In the **Entry Type** column select an option.
-3. In the **Check Type** column, select an enforcement option. If the check type is **None**, you can post this type of entry without a digital voucher. If the check type is **Attachment**, your entry must include an attachment. If the check type is **Attachment or Note**, you can have an attachment or a note for your entry. 
-4. Select the **Generate Automatically** checkbox if the digital voucher must be generated automatically. For example, if you don't want to manually add a sales invoice to your transaction, select this check box and post the document. The system automatically creates the document based on your report layout and attaches it to this transaction. 
-5. Select the **Skip If Manually Added** checkbox to not add an automatically generated digital voucher if the manual attachment has already been added by the user.  
+1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Digital Voucher Entry Setup**, and then select the related link. Alternatively, on the **Digital Voucher Setup** page, select **Entry Setup**.
+2. In the **Entry Type** column, select an option.
+3. In the **Check Type** column, select an enforcement option. If you select **None**, you can post the selected type of entry without a digital voucher. If you select **Attachment**, the entry must include an attachment. If you select **Attachment or Note**, you can include an attachment or a note for the entry. 
+4. Select the **Generate Automatically** checkbox to generate the digital voucher automatically. For example, if you don't want to manually add a sales invoice to your transaction, select this checkbox. Then, you just have to post the document. The system automatically creates the document, based on your report layout, and attaches it to the transaction.
+5. Select the **Skip If Manually Added** checkbox if you don't want to add an automatically generated digital voucher if the user has already added a manual attachment.
 
-### Use source codes for setup  
+### Use source codes for setup
 
-To use enforcement for journals but not for all transaction types, connect the specific source code to identify the entry type in the general journal, sales journal, or purchase journal.  
+To use enforcement for journals, but not for all transaction types, connect the specific source code to identify the entry type in the general journal, sales journal, or purchase journal.
 
-To setup specific **Source Codes** for **Digital Vouchers** complete the following steps.   
+Follow these steps to set up specific source codes for digital vouchers.
 
-1. On the **Digital Voucher Entry Setup** page, select **Source Codes**.  
-2. On the **Voucher Entry Source Codes** page, select the **Source Codes** you want to configure. 
-3. Close the page.   
+1. On the **Digital Voucher Entry Setup** page, select **Source Codes**.
+2. On the **Voucher Entry Source Codes** page, select the source codes that you want to configure.
+3. Close the page.
 
-## Use the functionality  
+## Use the functionality
 
-Open a purchase or sales document and enter information in the required fields. Before you post the document, you need to attach a digital voucher. To do this, follow these steps. 
+Open a purchase or sales document, and enter information in the required fields. Before you post the document, you must follow these steps to attach a digital voucher.
 
-1. In the **Incoming Document Files** FactBox, select **Attach File**.  
-2. On the **Insert File** page, drop a file directly or browse to the file from this page. 
-3. The document is attached to the **Incoming Document Files** FactBox, and you can find the document name and type for each of lines. 
+1. In the **Incoming Document Files** FactBox, select **Attach File**.
+2. Drag a file directly onto the **Insert File** page, or browse to the file from this page.
 
-If you accidentally attach the wrong voucher, you can delete it before you post the document using the following steps.
+The document is attached to the **Incoming Document Files** FactBox. For each line, you can find the document name and type.
 
-1. In the **Incoming Document Files** FactBox from the document line, select **Incoming Document**. 
-2. On the **Incoming document** page, select **Delete**.   
+If you accidentally attach the wrong voucher, follow these steps to delete it before you post the document.
+
+1. In the **Incoming Document Files** FactBox from the document line, select **Incoming Document**.
+2. On the **Incoming document** page, select **Delete**.
 
 > [!NOTE]
-> If attaching a digital voucher is configured as mandatory and you try to post documents or journals without attaching the voucher, the system won't let you post and you will receive the following error message: _Not possible to post without attaching the digital voucher_.  
+> If attachment of a digital voucher is configured as mandatory, and you try to post documents or journals without attaching a voucher, the system prevents you from posting. You receive the following error message: "Not possible to post without attaching the digital voucher."
 
-### Find attached voucher in transactions   
+### Find attached vouchers in transactions
 
-You can find the attached voucher in the posted document or by going to the **General Ledger Entries** page and looking in the **Incoming Document Files** FactBox.  
+You can find the attached voucher from the posted document or from the **General Ledger Entries** page by looking in the **Incoming Document Files** FactBox.
 
-AFter the document is attached, it's cant' be deleted after posting. However you can add more attachments after posting is complete.
-
+You can't delete an attached document after posting is completed. However, you can add more attachments after posting is completed.
 
 ## See also
 
 [Financial Management](finance.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

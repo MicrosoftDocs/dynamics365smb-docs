@@ -1,6 +1,6 @@
 ---
-title: Notification and Registration for the Nemhandelsregisteret in Denmark 
-description: This article describes how to handle with the notification and registration with the Nemhandelsregisteret in Denmark. 
+title: Notification and registration for the Nemhandelsregisteret in Denmark 
+description: This article describes how to handle notification and registration with the Nemhandelsregisteret in Denmark. 
 author: altotovi
 ms.topic: conceptual
 ms.devlang: na
@@ -13,41 +13,40 @@ ms.author: altotovi
 
 ---
 
-# Notification and Registration for the Nemhandelsregisteret  
+# Notification and registration for the Nemhandelsregisteret  
 
-Based on Danish bookkeeping act, from January 2024, all standard systems must provide a message to the users, alerting them to the possibility to be registered in the NemHandelsregisteret, and display information about and registration functionality.  
+Based on the Danish bookkeeping act, starting January 2024 all standard systems must notify users that they can register in the NemHandelsregisteret, and provide information about the registration functionality.  
 
-Related with this requirement, if the company is not registered with the NemHandelsregisteret, notification about that will appear at the top of screen, together with instructions on how to register.   
+In addition, if the company isn't registered with the NemHandelsregisteret, a notification appears at the top of screen with registration instructions.   
 
 ## Notification for not being registered  
 
-Notification should appear if the company is not registered with the NemHandelsregisteret with the following text: _Your accounting software is not registered in Nemhandelsregisteret_. In this case, it should allow users to finish the registration process. That means users can choose if they want to **Register in Nemhandelsregisteret** or to **Open registration guide** directly from the notification. Both of options will lead user to the external Nemhadel content.  
+If the company isn't registered with the NemHandelsregisteret, you will receive a notification with the following text, _Your accounting software is not registered in Nemhandelsregisteret_. This notification allows you to finish the registration process. That means you can choose to **Register in Nemhandelsregisteret** or to **Open registration guide** directly from the notification. Both of options direct you to the external Nemhadel content.  
 
-But if the company is registered and if the valid CVR number is populated in the **Registration No.** field on the **Company Information** page, this notification will not appear.  
+If the company is registered, and if the valid CVR number is populated in the **Registration No.** field on the **Company Information** page, this notification won't appear.  
 
 > [!NOTE]
-> Notification will appear on the **Company Information** page and on the following role-centers: Accountant, Business Manager, Administration of users, security groups and permissions, Sales Order Processor, and Sales and Relationship Manager.  
+> A notification will appear on the **Company Information** page and on the following role-centers: Accountant, Business Manager, Administration of users, security groups and permissions, Sales Order Processor, and Sales and Relationship Manager.  
 
 ## Registration with the NemHandelsregisteret 
 
 > [!IMPORTANT]
-> Before starting registration, users must have populated the **Registration No.** field on the **Company Information** page with the valid CVR number.
+> Before you begin registration, you must populate the **Registration No.** field on the **Company Information** page with the valid CVR number.
 
-To start registration, the user needs to click on the **Register in Nemhandelsregisteret** link in the notification. Before external system calls or opening NemHandelsregisteret registration form, the consent will be presented to a user and user must confirm it.   
+To start registration, select the **Register in Nemhandelsregisteret** link in the notification. Before the external system calls or before you open the NemHandelsregisteret registration form, you must confirm the offered consent.   
 
-Once the user finishes the registration with the NemHandelsregisteret, the existing notification will disappear as Business Central will confirm that the company’s CVR number from the **Registration No.** field in the **Company Information** page has been registered in NemHandelsregisteret through the API call, and in Business Central's internal records, this company will have the status of 'registered in NemHandelsregisteret’.  
+After you finish the registration with the NemHandelsregisteret, the existing notification disappears as Dynamics 365 Business Central confirms that the company’s CVR number from the **Registration No.** field on the **Company Information** page has been registered in NemHandelsregisteret through the API call. In Business Central's internal records, this company has the status of **registered in NemHandelsregisteret**.  
 
 ## Other important facts   
 
-If the company is registered in NemHandelsregisteret and has populated the **VAT Registration No.** and **Registration No.** fields in the **Company Information**, deleting this company from the **Companies** page will be prevented as a production company as by law it is not allowed to delete production transactions.  
+If the company is registered in NemHandelsregisteret and has populated the **VAT Registration No.** and **Registration No.** fields on the **Company Information** page, you can't delete this company from the **Companies** page. This is because it's a production company, and you can't delete production transactions.  
 
-Also, when users use the **Copy** action from the **Companies** page, the new company will be created without marked the **Registered with Nemhandel** field and populated **Registration No.**   
-
-> [!NOTE]
-> These limitations will work only if the environment is Production. In a sandbox environment, users can delete the company without limitations. 
+Also, when you select **Copy** on the **Companies** page, the new company is created and the **Registered with Nemhandel** field and **Registration No.** are left blank.    
 
 > [!NOTE]
-> If user doesn’t populate the **Registration No.** with the valid CVR number, it will not be possible to use e-documents in Denmark.  
+> These limitations only work if the environment is in Production. In a sandbox environment, you can delete the company without limitations. 
+>
+> If you don’t populate the **Registration No.** with the valid CVR number, it's possible to use e-documents in Denmark.  
 
 
 ## See also  

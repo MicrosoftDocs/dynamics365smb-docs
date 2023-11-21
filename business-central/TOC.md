@@ -868,6 +868,7 @@
 
 ### Denmark
 #### [Local functionality in the Danish version](LocalFunctionality/Denmark/denmark-local-functionality.md)
+#### [Notification and registration for the NemHandelsregisteret in Denmark](localfunctionality/denmark/how-to-nemhandel-register.md)
 #### VAT
 ##### [Print VAT reconciliation reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [VAT-VIES reports](LocalFunctionality/Denmark/vat-vies-reporting.md)

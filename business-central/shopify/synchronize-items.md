@@ -141,6 +141,11 @@ Full or partial item synchronization can be performed in many different ways.
 
 The resulting items are automatically created in Shopify with prices. Depending on choices you made, images and inventory levels might be included. The operation might take some time if a large number of items are added.
 
+Alternatively, you can sync one item by choosing the **Add to Shopify** action in the **Item Card** page.  
+
+> [!NOTE]  
+> Initial sync of items from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify doesn't consider **Sync Item** and **Can Update Shopify Products** settings. 
+
 ### Sync products from Shopify to Business Central
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.

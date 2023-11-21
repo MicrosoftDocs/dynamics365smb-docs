@@ -885,6 +885,8 @@
 ##### [Create electronic documents in an OIOUBL format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
 #### Payroll
 ##### [Payroll data definitions (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
+#### Digital vouchers
+##### [Set up digital vouchers in Denmark](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finland
 #### [Local functionality in the Finnish version](LocalFunctionality/Finland/finland-local-functionality.md)

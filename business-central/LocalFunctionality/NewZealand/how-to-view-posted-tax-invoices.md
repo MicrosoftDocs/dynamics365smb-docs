@@ -1,19 +1,16 @@
 ---
-    title: View Posted Tax Invoices [NZ]
+    title: View posted tax invoices [NZ]
     description: Describes how to view the details of posted sales tax invoices and posted purchase tax invoices in the New Zealand version.
     author: brentholtorf
-
-    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.form: 28071, 28073, 28081, 28082
-    ms.date: 06/25/2021
+    ms.date: 11/20/2023
     ms.author: bholtorf
-
 ---
-# View Posted Tax Invoices in the New Zealand Version
+# View posted tax invoices in the New Zealand version
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use the **Posted Sales Tax Invoice** page and the **Posted Purchase Tax Invoice** page to view the details of posted sales tax invoices and posted purchase tax invoices.  
 
@@ -33,7 +30,7 @@ The following procedure describes how to view the posted sales tax invoice, but 
 
 3.  Choose the **OK** button.  
 
-## See Also  
+## See also  
 [View Posted Tax Credit Memos](how-to-view-posted-tax-credit-memos.md)
 
 

@@ -230,6 +230,7 @@
 ### [Use job queues to schedule tasks](admin-job-queues-schedule-tasks.md)
 ### [Let Business Central suggest values](ui-let-system-suggest-values.md)
 ### [Use Online Maps to find locations and directions](across-online-maps.md)
+### [Set up digital vouchers](across-how-setup-digital-vouchers.md)
 
 ### Incoming documents
 #### [Incoming documents overview](across-income-documents.md)

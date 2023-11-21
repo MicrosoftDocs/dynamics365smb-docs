@@ -873,6 +873,7 @@
 ##### [Print VAT reconciliation reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [VAT-VIES reports](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [VAT registration number setup for Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
+##### [Submit VAT returns electronically](localfunctionality/denmark/how-to-evat-statement-dk.md)
 #### Banking & payments
 ##### [FIK details in the payment reconciliation journal](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [The Payments and reconciliations (DK) extension](ui-extensions-payments-reconciliation-formats-dk.md)

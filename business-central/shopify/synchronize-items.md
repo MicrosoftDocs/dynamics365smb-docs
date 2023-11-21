@@ -107,7 +107,7 @@ You manage the process of exporting items using these settings:
 |SEO meta description|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
 |Media|**Image**. Learn more in the [Sync item images](synchronize-items.md#sync-item-images) section|**Image**|
 |Price|The calculation of the end-customer price includes the item unit price, customer price group, customer discount group, and currency code. Learn more in the [Sync prices](synchronize-items.md#sync-prices-with-shopify) section|**Unit Price**. The price is only imported to newly created items, but it won't be updated in later synchronizations.|
-|Compare at price|The calculation of the price without a discount. If the value is less or equal to **Price**, then connector sends 0 (null) instead of actuall value.|Not used.|
+|Compare at price|The calculation of the price without a discount. If the value is less or equal to **Price**, then connector sends 0 (null) instead of actual value.|Not used.|
 |Cost per item|**Unit Cost**|**Unit Cost**. The unit cost is only imported to newly created items, and it won't be updated in later synchronizations.|
 |SKU|Learn about SKUs under **SKU Mapping** in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify) section.|Learn about SKUs in the [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central) section.|
 |Barcode|**Item References** of the barcode type.|**Item References** of the barcode type.|

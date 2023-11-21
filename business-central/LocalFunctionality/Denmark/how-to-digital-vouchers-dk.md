@@ -36,7 +36,7 @@ You can use different setups for the following documents and journals.
 
 Follow these steps to define how your organization uses enforced digital vouchers besides those that are already required by law.
 
-1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Digital Voucher Entry Setup**, and then select the related link. Alternatively, on the **Digital Voucher Setup** page, select **Entry Setup**.
+1. Select the ![Lightbulb that opens the Tell Me feature 3.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Digital Voucher Entry Setup**, and then select the related link. Alternatively, on the **Digital Voucher Setup** page, select **Entry Setup**.
 2. In the **Entry Type** column, select an option.
 3. In the **Check Type** column, select an enforcement option. If you select **None**, you can post the selected type of entry without any digital voucher. If you select **Attachment**, the entry must include an attachment. If you select **Attachment or Note**, you can include an attachment or a note for the entry.
 4. Select the **Generate Automatically** checkbox to generate the digital voucher automatically. For example, if you don't want to manually add a sales invoice to your transaction, select this checkbox. Then, you just have to post the document. The system automatically creates the document, based on your report layout, and attaches it to the transaction.
@@ -48,7 +48,7 @@ To use enforcement for journals, but not for all transaction types, connect the 
 
 Follow these steps to set up specific source codes for digital vouchers.
 
-1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Digital Voucher Entry Setup**, and then select the related link.
+1. Select the ![Lightbulb that opens the Tell Me feature 3.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Digital Voucher Entry Setup**, and then select the related link.
 2. On the **Digital Voucher Entry Setup** page, select **Source Codes**.
 3. Select the source codes that you want to configure.
 4. Close the page.

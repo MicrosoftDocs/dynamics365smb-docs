@@ -188,7 +188,10 @@ To set up a VAT business posting group, follow these steps:
 
 [!INCLUDE[prod_short](includes/prod_short.md)] calculates VAT amounts on sales and purchases based on VAT posting setups, which are combinations of VAT business and product posting groups. For each combination, you can specify the VAT percent, VAT calculation type, and general ledger accounts for posting VAT for sales, purchases, and reverse charges. You can also specify whether to recalculate VAT when a payment discount is applied or received.  
 
-Set up as many combinations as you need. If you want to group VAT posting setup combinations with similar attributes, you can define a **VAT Identifier** for each group, and assign the identifier to the group members.
+Set up as many combinations as you need. If you want to group VAT posting setup combinations with similar attributes, you need to define a **VAT Identifier** for each group, and assign the identifier to the group members.  
+
+> [!NOTE]
+> **VAT Identifier** is a code you can used for grouping similar attributes. Iti is recommended to use different VAT identifiers for different VAT percentages.  
 
 To combine VAT posting setups, follow these steps:
 

@@ -15,10 +15,10 @@ ms.author: altotovi
 # Set up e-documents
 
 > [!IMPORTANT]
-> The E-Documents core module is a framework. By default, there's no **Document Format** or **Service Integration** field. These details are part of localization apps, because they're both specific to local requirements.
+> The E-Documents core module is a framework. By default, there's no **Service Integration** field. Even you can find the **Document Format** options by default, they are offered just as an example and localization must provide detailed format. These details are part of localization apps, because they're both specific to local requirements.  
 
 > [!NOTE]
-> As of version 23.1, a standard PEPPOL document format is added as a global format in the **Document Format** field.
+> As of version 23.2, a standard PEPPOL document format is added as a global format in the **Document Format** field. But keep in mind you probably cannot use this format as is. This is W1 format deliverd to show how to use this feature. So we recommend first testing existing PEPPOL format before starting using them.  
 
 The first step in the configuration of electronic documents (e-documents) is to set up the E-Documents Service where you configure the complete behavior of your system as it's related to e-document communication.
 
@@ -33,11 +33,11 @@ Follow these steps to set up the E-Document Service.
     |-------|-------------|
     | Code | Select the electronic export setup code. |
     | Description | Enter a brief description of the electronic export setup. |
-    | Document Format | <p>The export format of the electronic export setup.</p><p>By default, there are no options in this field in Wave 1.</p> |
+    | Document Format | <p>The export format of the electronic export setup.</p><p>By default, there are two options in this field, so you can choose between **PEPPOL BIS 3** as generic code based format or **Data Exchnage** where you need to setup spcific formats pre documents in the **Data Exchnage Definition** FastTab.</p> |
     | Service Integration | Select the integration code for the electronic export setup. In Wave 1, the only option is **No integration**. |
     | Use Batch Processing | Specify whether the service uses batch processing for export. |
 
-4. On the **Imported Parameters** FastTab, configure the fields as described in the following table.
+3. On the **Imported Parameters** FastTab, configure the fields as described in the following table.
 
     | Field | Description |
     |-------|-------------|
@@ -57,9 +57,20 @@ Follow these steps to set up the E-Document Service.
     | Batch Start Time | Specify the start time for import jobs. |
     | Minutes between runs | Specify the number of minutes between import job runs. |
 
-If you've configured the **Data Exchange Definition** format in your localization, you can add a line for every document type that you need. However, you must first select the **Document Type** option for each line that you need. For each data type, select the **Import Data Exchange Def. Code** or **Export Data Exchange Def. Code** value that you want to use.
+4. If you chose the **Data Exchnage** option in the **Document Format** field, you will find the **Data Exchnage Definition** FastTab, where you need to set up the following fields:
 
-Eventually, if you don't use the **Data Exchange Definition** format, you can configure formats through the **Export Mapping** and **Import Mapping** lines, where you can locate the tables and fields to use and configure transformation rules if applicable.
+    | Field | Description |
+    |-------|-------------|
+    |Document Type | Specifies the document type that will use data exchange for importing/exporting the data, i.e. Sales Invoice, Sales Credit memo, Purchase Inovice... |
+    |Import Data Exchange Def. Code | Specifies the data exchange code that is used for importing the data. You are supposed to use this field only for receiving document in the purchase process. |
+    |Export Data Exchange Def. Code | Specifies the data exchange code that is used for exporting the data. You are supposed to use this field only for delivering documents in the sales process. |
+
+> [!NOTE]
+> Users can find prepared data exchnage defitions for PEPPOL format related with the standard sales and purchase document. But keep in mind you probably cannot use this defitions as is. All those definitions are W1 formats deliverd to show how to use this feature. So we recommend first testing existing PEPPOL format before starting using them.  
+
+If you've configured the **Data Exchange Definition** format in your localization, you can add a line for every document type that you need, the same way as you can see in default data exchnage example for W1 PEPPOL format. However, you must first select the **Document Type** option for each line that you need. For each data type, select the **Import Data Exchange Def. Code** or **Export Data Exchange Def. Code** value that you want to use.  
+
+But, if you don't use the **Data Exchange Definition** format, you can create and configure formats using the [interface](dev-itpro/developer/devenv-extend-edocuments.md) and additionally adjust information through the **Export Mapping** and **Import Mapping** lines, where you can locate the tables and fields to configure transformation rules if applicable. In this case you must add new option on the **Document Format** field related with your format.   
 
 ## Set up a document sending profile
 
@@ -97,6 +108,10 @@ Follow these steps to set up the workflow that's used in e-document functionalit
 
 > [!NOTE]
 > You can create your own workflow for e-documents without using predefined workflow templates. If you have more services, you can use different workflows.
+
+If you want to use more workflows, configuring them through the **Document Sending Profiles** for different customers, during setting up the workflow you must specify used **Document Sending Profile** in the **On Condition** column in **Workflof Steps**, as you cannot have two services in workflows using the same **Document Sending Profile**.  
+
+To do this, when you configure your workflow on the **Workflow** page, point to the **On Condition** field at the **Workflow Steps** FastTab and in the **Event Conditions** page choose **Document Sending Profile** you want to use in the **Filter** field.  
 
 ## Set up a retention policy for e-documents
 

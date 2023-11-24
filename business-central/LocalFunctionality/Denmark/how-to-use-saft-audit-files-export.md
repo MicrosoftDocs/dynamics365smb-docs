@@ -23,6 +23,20 @@ Export of the SAF-T audit file format in the Danish localization is based on the
 
 For more information, see [Danish Local Functionality](denmark-local-functionality.md).
 
+## Importing audit files  
+
+Users can import SAF-T file in Danish localization. To do this, follw next steps:
+
+1. Select the search button ![Magnifying glass button that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do"), enter **Import SAF-T Files**, and then select the related link. 
+2. Run the **Import SAF-T File** action from the page.   
+3. From attachment page users can upload SAF-T file using drag & drop or browsing to the file the user wants to import.  
+4. When users finish with importing external SAF-T files, the result will appear in the list page **Import SAF-T Files**. 
+
+From the **Import SAF-T Files** page users can find details about imported SAF-T files with the specific name and the date when the file has been uploaded. 
+
+> [!NOTE]
+> When you import SAF-T file, keep in mind there is not additional actions in the system based on this information. Business Central can only keep the list of uploaded files. 
+
 ## See also
 [Financial Management](../../finance.md)  
 [Understanding the General Ledger and Chart of Accounts](../../finance-general-ledger.md)  

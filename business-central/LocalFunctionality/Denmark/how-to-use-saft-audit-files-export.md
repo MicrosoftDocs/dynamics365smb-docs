@@ -36,7 +36,7 @@ When you finish importing the external SAF-T files, the result appears in the **
 From the **Import SAF-T Files** page, you can find details about imported SAF-T files with the specific name and the date when the file has been uploaded. 
 
 > [!NOTE]
-> When you import SAF-T file, keep in mind there are no additional actions in the system based on this information. Dynamics 365 Business Central can only keep the list of uploaded files. 
+> When you import the SAF-T file, keep in mind that there are no additional actions in the system based on this information. Dynamics 365 Business Central can only keep the list of uploaded files. 
 
 ## See also
 [Financial Management](../../finance.md)  

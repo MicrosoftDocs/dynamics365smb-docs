@@ -84,6 +84,6 @@ You can't delete an attached document after posting is completed. However, you c
 
 [Financial Management](../../finance.md)  
 [Denmark Local Functionality](denmark-local-functionality.md)  
-[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

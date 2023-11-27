@@ -20,7 +20,7 @@ Administrators can use digital voucher functionality to require that documents a
 The term *digital voucher* refers to a digital or electronic form of a traditional voucher in accounting. A voucher is a document that's used to support and authorize financial transactions. In accounting, a voucher typically serves as evidence of an expenditure or a receipt of funds. The voucher might include details such as the date of the transaction, a description, the amount, and any authorization signatures.
 
 > [!IMPORTANT]
-> As of July 1, 2024, this feature will be enabled by default in Denmark. You will then be restricted from doing additional configuration for purchase and sales documents. This restriction will apply because the new Danish bookkeeping act mandates specific setups, where you must attach minimum vouchers for purchase and sales documents. Before this date, users can activate this feature through **Feature Management**.  
+> As of July 1, 2024, this feature will be enabled by default in Denmark. You will then be restricted from doing additional configuration for purchase and sales documents. This restriction will apply because the new Danish bookkeeping act mandates specific setups, where you must attach minimum vouchers for purchase and sales documents. Before this date, you can activate this feature in **Feature Management**.  
 
 ## Set up digital vouchers
 

@@ -5,13 +5,13 @@ author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 10/29/2023
+ms.date: 11/17/2023
 ms.custom: bap-template
 ---
 
 # Add marketing text to items
 
-For any item registered in Business Central, you can write *marketing text* about the item. Although marketing text is a kind of description, it's different than an item's **Description** field. The **Description** field is typically used as a concise display name to quickly identify the product. The marketing text, on the other hand, is a more rich and descriptive text. Its purpose is to add marketing and promotional content, also known as *copy*. This text can then be published with the item if it's published on a web shop, like Shopify.
+For any item registered in Business Central, you can write *marketing text* about the item. Although marketing text is a kind of description, it's different than an item's **Description** field. The **Description** field is typically used as a concise display name to quickly identify the product. The marketing text, on the other hand, is a more rich and descriptive text. Its purpose is to add marketing and promotional content, also known as *copy*. This text can then be published with the item if it's published on a web shop, like Shopify, or pasted into emails or other communications with your customers.
 
 There are two ways to create the marketing text. The easiest way to get started is to use Copilot, which suggests AI-generated text for you. The other way is to start from scratch. 
 
@@ -19,20 +19,22 @@ There are two ways to create the marketing text. The easiest way to get started 
 
 With Copilot, you quickly get a text suggestion that's automatically generated for you. The AI-generated text is tailored to the item and provides a good starting point. The text is based in part on the following information:
 
-- Attributes defined for the item&mdash;for example, the description, color, dimensions, material, and so on.
+- Attributes defined for the item&mdash;for example, the description, color, dimensions, material, and so on. [Learn more about item attributes](inventory-how-work-item-attributes.md).
+- The item’s **Description** field.
+- The item category. [Learn more about categorizing items](inventory-how-categorize-items.md).
 - Selectable style preferences like tone of voice, format, and length.
 
 Copilot is designed to save you time and help you write creative and engaging text that reflects your brand and is consistent across your product line. Start by generating a suggestion, then change the suggested text as needed.
 
 ### Prerequisites
 
-- Marketing text suggestions feature is enabled and activated on your environment. This tsak is typically done by an an admin. For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).
+- Marketing text suggestions feature is enabled and activated on your environment. This task is typically done by an admin. For more information, go to [Configure Copilot and AI capabilities](enable-ai.md).
 - You're using one of the languages currently supported by the marketing text suggestions.
 
-   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)] <!--you're using in Business Central must be English. Any of the available English locales work, like English (United States), English (United Kingdom), or English (South Africa).-->
+  [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
-   To change the language, in the upper-right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
-- Review the [FAQ for marketing text suggestions](faqs-marketing-text.md) to learn more about AI-generated text suggestions from Copilot and how you should use them.
+  To change the language, in the upper-right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
+- Review the [FAQ for marketing text suggestions](faqs-marketing-text.md) to learn how AI is applied.
 
 ### Create first draft with Copilot
 
@@ -40,9 +42,9 @@ Complete the following steps to add marketing text to an existing item. To learn
 
 1. In Business Central, open the item that you want to modify by completing the following steps:
 
-   1. In the upper-right corner, select the ![Lightbulb that opens the Tell Me feature 22.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link to show a list of available items.
+   - In the upper-right corner, select the ![Lightbulb that opens the Tell Me feature 22.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link to show a list of available items.
 
-   2. Double-click the item or select its value in the **No.** column.
+   - Double-click the item or select its value in the **No.** column.
 
    [![Shows an item card with Marketing Text pane](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
@@ -58,16 +60,12 @@ Complete the following steps to add marketing text to an existing item. To learn
 
      Select the attributes you want Copilot base suggestions on, then select **Generate**. You can change the selected attributes and other options later. Copilot starts to draft the marketing text. 
      
-3. When Copilot completes the draft, the text appears in the Copilot editor window for reviewing and editing. 
+3. When Copilot completes the draft, the text appears in the Copilot editor window for you to review and edit. 
 
    [![Shows the create with Copilot windows](media/create-with-copilot-window.svg)](media/create-with-copilot-window.svg#lightbox)
 
    You can now get more suggestions, try to improve the suggestions you get, edit text, and more. Go to [Review, edit, and save](#review-edit-and-save-text) for details.
 
-
-<!--
-   > [!TIP]
-   > [Where does the suggestion come from?](ai-faq.md#how-does-copilot-work-where-does-the-suggested-text-come-from)-->
 
 ### Review, edit, and save text
 
@@ -115,11 +113,15 @@ There are a few steps you can do to improve the text suggestions and tweak them 
 
    Copilot finds words and phrases that are related to the category and work them into the suggested text.
 
+### Working with multiple languages 
+
+Text is always generated in the language defined by your user [settings](ui-change-basic-settings.md#language). If your organization operates and enters data into Business Central using a different language, or if Business Central is connected to your online store such as with Shopify, this might result in publishing content that doesn't match similar marketing content.
+
 ## Create text from scratch
 
 1. In Business Central, open the item that you want to modify as follows:
 
-    1. In the upper-right corner, select the ![Lightbulb that opens the Tell Me feature 22.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link  to show a list of available items.
+    1. In the upper-right corner, select the ![Lightbulb that opens the Tell Me feature 22.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link to show a list of available items.
     2. To open the item, double-click it or select its number in the  **No.** field.
 
 2. Do one of the following steps:

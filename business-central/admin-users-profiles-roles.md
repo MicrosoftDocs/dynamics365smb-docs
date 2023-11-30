@@ -142,7 +142,7 @@ You can delete all changes that a user has made to pages. Deleting changes can b
 
 The user will see the changes the next time they sign in.
 
-You can also delete all page customizations for a profile. For more information, see [To delete all customizations for a profile](ui-personalization-manage.md#to-delete-all-customizations-for-a-profile).
+You can also delete all page customizations for a profile. For more information, see [To delete all customizations for a profile](ui-personalization-manage.md#delete-all-customizations-for-a-profile).
 
 ## To delete personalizations for specific pages
 
@@ -159,7 +159,7 @@ You can delete personalizations that one or more users have made to specific pag
 
 The user will see the changes the next time they sign-in.  
 
-You can also delete individual page customizations for a profile. For more information, see [To delete customization for specific pages for a profile](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
+You can also delete individual page customizations for a profile. For more information, see [To delete customization for specific pages for a profile](ui-personalization-manage.md#delete-customization-for-specific-pages-for-a-profile).
 
 ## Managing user sessions
 

@@ -1,12 +1,11 @@
 ---
-title: Czech Local Functionality - Automatic Creation and Update of Dimensions
+title: Czech local functionality - Automatic creation and update of dimensions
 description: This section describes local functionality - Automatic creation and update of dimensions in the Czech version of Business Central.
 author: v-pejano
-
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 06/17/2021
+ms.date: 11/06/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---

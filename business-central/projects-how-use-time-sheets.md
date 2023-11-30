@@ -10,15 +10,15 @@ ms.search.form: 950, 951, 973
 ms.date: 07/27/2023
 ms.service: dynamics365-business-central
 ms.custom: bap-template
-ms.author: bholtorf
+
 ---
 # Use Time Sheets
 
 Use time sheets to track absence, and to track time and resources that are spent on a project. Tracking time helps you identify issues early and avoid delays or cost overruns. Time sheets make it easy for a resource to report time usage for an individual or a machine so that managers can review the usage and its allocation. This article describes how to work with time sheets.  
 
-You can copy and use your job planning lines in a time sheet. In that way, you must only enter the information in one place and the line information is always correct. To learn more, go to [To copy job planning lines to a time sheet](#to-copy-job-planning-lines-to-a-time-sheet).
+You can copy and use your job planning lines in a time sheet. In that way, you must only enter the information in one place and the line information is always correct. To learn more, go to [To copy job planning lines to a time sheet](#copy-job-planning-lines-to-a-time-sheet).
 
-After you have approved time sheet entries for a job, you can post them to the relevant job journal or resource journal. To learn more, go to [To post time sheet lines in a job journal](#to-post-time-sheet-lines-in-a-job-journal) and [To post time sheet lines in a resource journal](#to-post-time-sheet-lines-in-a-resource-journal).
+After you have approved time sheet entries for a job, you can post them to the relevant job journal or resource journal. To learn more, go to [To post time sheet lines in a job journal](#to-post-time-sheet-lines-in-a-job-journal) and [To post time sheet lines in a resource journal](#post-time-sheet-lines-in-a-resource-journal).
 
 Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets. To learn more about setting up time sheets, go to [Set Up Time Sheets](projects-how-setup-time-sheets.md).  
 
@@ -67,7 +67,7 @@ In this hypothetical example, you would then register the relevant hours across 
 > [!TIP]
 > In most cases, your company will have predefined work types for the various types of lines. In those cases, you just choose the relevant work type from the list, and then you add your own description.  
 >
-> Choose the work type by choosing the :::image type="icon" source="media/assist-edit-icon.png" border="false"::: button in the **Description** field, by choosing the **Activity Details** action and then specifying it in the page that opens, or by choosing it in the **Work Type Code** field or the **Absence Type Code** field, respectively. In this case, you can ignore the [To define work types and add one to a time sheet](#to-define-work-types-and-add-one-to-a-time-sheet) section.  
+> Choose the work type by choosing the :::image type="icon" source="media/assist-edit-icon.png" border="false"::: button in the **Description** field, by choosing the **Activity Details** action and then specifying it in the page that opens, or by choosing it in the **Work Type Code** field or the **Absence Type Code** field, respectively. In this case, you can ignore the [To define work types and add one to a time sheet](#define-work-types-and-add-one-to-a-time-sheet) section.  
 
 ## Reuse time sheet lines in other time sheets
 
@@ -96,7 +96,7 @@ You can define the work type for all-time sheet lines for service orders, job or
 3. Choose the **Description** field, and then, in the **Time Sheet Line Resource Detail** page, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
     1. If no work types exist, choose the **New** action.
     2. On the **Work Types** page, fill in the fields as necessary, and then return to the time sheet.
-4. Fill in the rest of the time sheet. For more information, see the [To fill in time sheet lines and submit for approval](#to-fill-in-time-sheet-lines-and-submit-for-approval) section.  
+4. Fill in the rest of the time sheet. For more information, see the [To fill in time sheet lines and submit for approval](#fill-in-time-sheet-lines-and-submit-for-approval) section.  
 
 > [!TIP]
 > Similar steps apply to defining absence codes.

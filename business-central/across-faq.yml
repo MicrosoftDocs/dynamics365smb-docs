@@ -75,7 +75,7 @@ sections:
       - question: |
           Where do I find that line number?
         answer: |
-          Documents such as sales order or purchase invoices consist of headers and lines. Each line has a number that [!INCLUDE [prod_short](includes/prod_short.md)] uses to identify this particular line. As a result, you might see a warning or an error message that something is wrong in line number 1000, for example. In the default version of [!INCLUDE [prod_short](includes/prod_short.md)], line numbers are hidden. If you want to see the line numbers, you must personalize the current page and add the **Line No.** field. Learn more at [Personalize Your Workspace](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+          Documents such as sales order or purchase invoices consist of headers and lines. Each line has a number that [!INCLUDE [prod_short](includes/prod_short.md)] uses to identify this particular line. As a result, you might see a warning or an error message that something is wrong in line number 1000, for example. In the default version of [!INCLUDE [prod_short](includes/prod_short.md)], line numbers are hidden. If you want to see the line numbers, you must personalize the current page and add the **Line No.** field. Learn more at [Personalize Your Workspace](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
           
           
       - question: |
@@ -176,8 +176,8 @@ additionalContent: |
   [Change Basic Settings](ui-change-basic-settings.md)  
   [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
   [Getting answers to questions](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)  
+  [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)   
   [Resources for Help and Support](product-help-and-support.md)  
-  [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
   [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
   [Country/Regional Availability and Supported Translations](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
   [Service Terms](compliance/compliance-service-compliance.md#service-terms)  

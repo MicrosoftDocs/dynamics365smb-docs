@@ -51,7 +51,7 @@ The following topics describe local functionality that is unique to the Australi
 
 ## Future legislation requirements being investigated
 
-* Payment Times Reporting Bill Compliance **22.3**
+* Payment Times Reporting Bill Compliance **Planned for 23.4**
 * Taxable payments annual report (TPAR) **Under review**
 
 If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).

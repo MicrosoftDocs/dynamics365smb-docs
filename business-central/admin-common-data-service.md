@@ -1,5 +1,5 @@
 ---
-title: Using Microsoft Dataverse
+title: Integrate with Microsoft Dataverse via data sync
 description: Introduction to how to integrate and use Microsoft Dataverse and its components to connect to other Dynamics 365 applications.
 author: brentholtorf
 ms.author: bholtorf
@@ -9,7 +9,7 @@ ms.date: 06/28/2023
 ms.custom: bap-template
 ---
 
-# Integrate with Microsoft Dataverse
+# Integrate with Microsoft Dataverse via data sync
 
 Business apps often use data from more than one source. [!INCLUDE[prod_short](includes/cds_long_md.md)] combines data into a single set of logic that makes it easier to connect [!INCLUDE[prod_short](includes/prod_short.md)] to other Dynamics 365 applications. For example, [!INCLUDE[crm_md](includes/crm_md.md)] or your own application built on [!INCLUDE[prod_short](includes/cds_long_md.md)]. To learn more about [!INCLUDE[prod_short](includes/cds_long_md.md)], go to [What is Dataverse?](/powerapps/maker/common-data-service/data-platform-intro).
 

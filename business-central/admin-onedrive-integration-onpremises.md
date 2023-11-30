@@ -7,10 +7,12 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OneDrive, share, browser
-ms.date: 09/06/2022
+ms.date: 09/28/2023
 ms.author: jswymer
 ---
 # Configuring OneDrive Integration with Business Central On-premises
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 This article explains how to configure OneDrive integration with Business Central on-premises. Unlike [!INCLUDE[prod_short](includes/prod_short.md)] online, the connection between Business Central and OneDrive for Business isn't set up automatically. If the connection isn't configured, users can't use the features for OneDrive.
 

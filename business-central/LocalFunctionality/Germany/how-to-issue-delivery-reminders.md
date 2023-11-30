@@ -1,5 +1,5 @@
 ---
-    title: Issue Delivery Reminders in the German Version
+    title: Issue delivery reminders in the German version
     description: Read about how you issue and print delivery reminders so that you can send reminders to vendors in the German version of Business Central.
     author: brentholtorf
     ms.topic: conceptual
@@ -8,15 +8,15 @@
     ms.workload: na
     ms.search.keywords:
     ms.search.form: 5005272, 5005273, 5005274, 5005275, 5005276
-    ms.date: 04/01/2021
+    ms.date: 11/21/2023
     ms.author: bholtorf
 
 ---
-# Issue Delivery Reminders in the German Version
+# Issue delivery reminders in the German version
 
 [!INCLUDE [delivery-reminders-issue](../includes/ATCHDE/delivery-reminders-issue.md)] 
 
-## See Also
+## See also
 
 [Print Test Reports for Delivery Reminders](how-to-print-test-reports-for-delivery-reminders.md)  
 [Delivery Reminders](delivery-reminders.md)  

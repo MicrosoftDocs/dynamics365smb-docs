@@ -13,6 +13,8 @@ ms.author: jswymer
 
 # Troubleshoot Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
 
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
+
 [!INCLUDE [online_only](includes/online_only.md)]
 
 This article provides information on how to identify and fix problems you may experience when using Microsoft Teams with [!INCLUDE [prod_short](includes/prod_short.md)], as a typical user or administrator.

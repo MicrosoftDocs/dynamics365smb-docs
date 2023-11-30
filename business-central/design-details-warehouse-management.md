@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 12/05/2022
+ms.date: 10/09/2023
 ms.custom: bap-template
 ---
 

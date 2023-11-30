@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077
-ms.date: 09/02/2022
+ms.date: 10/19/2023
 ms.author: altotovi
 ---
 # Work with Intrastat Reporting
@@ -65,7 +65,7 @@ Run the **Intrastat Report Checklist** report to check Intrastat lines before th
 
 ## Recalculating weight or supplementary unit of measure
 
-If you got the error message *'Total Weight' in Intrastat Report Line must not be blank*, it is probably because you didn't have set the **Net Weight** field on the used source, item, or fixed asset. In this case, search for the item or fixed asset card and add the required value. After that, you just need to reopen the **Intrastat Report** and follow these steps:
+If you got the error message *'Total Weight' in Intrastat Report Line must not be blank*, it is probably because you didn't set the **Net Weight** field on the used source, item, or fixed asset. In this case, search for the item or fixed asset card and add the required value. After that, you just need to reopen the **Intrastat Report** and follow these steps:
 
 1. Choose the **Recalc. Weight/Suppl. UOM** action to recalculate the **Total Weight** and/or **Supplementary Quantity**.
 2. Choose one of the options:
@@ -115,6 +115,13 @@ When you work with the **Intrastat Report** you will see a **Status** field on t
 * *Open*: This status is created automatically when you create a new Intrastat report and you can make all operations in this status.
 * *Released*: [!INCLUDE[prod_short](includes/prod_short.md)] automatically changes the status to *Released* when you create a file. From that moment, you cannot modify your **Intrastat Report**. If you need to change something and report again, you can use the **Reopen** action to reopen the Intrastat report. Once the document is reopened, you can use the **Release** action to release the document again.
 * **Reported**: Specifies whether the entry has already been reported to the tax authorities. This is not a regular status but an independent field, and even if you reopened the Intrastat report, it would still show that the file is already created for this report.
+
+### Locations in Intrastat reporting 
+
+[!INCLUDE[prod_short](includes/prod_short.md)] always uses the information in the **Country/Region Code** field on the **Location Card** page as the country for **send from** or for **receive to** goods. When this information doesn't exist or location wasn't used, the system uses the information from the **Company Information** page.   
+
+> [!NOTE]
+> If the company operates from more than one country, Intrastat reporting desn't work for all countries where locations are configured. Reporting is based only for the main country, as it's not currently possible to use multi-country reporting.  
 
 ### Triangular trade in intrastat
 

@@ -7,9 +7,8 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.form: 256
-    ms.date: 11/23/2023
+    ms.date: 11/24/2023
     ms.author: bholtorf
----
 
 # Generate payment suggestions in the Belgian version
 After you set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.  
@@ -39,7 +38,6 @@ When the batch job is finished, the payment journal contains all vendor ledger e
  [Set Up Vendors for Automatic Payment Suggestions](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
  [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
  [Test Electronic Payments](how-to-test-electronic-payments.md)   
- [Manage Electronic Payment Lines](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments)   
  [Print Payment Files](how-to-print-payment-files.md)
 
 

@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 11/15/2023
+ms.date: 11/24/2023
 ms.author: bholtorf
 ---
 You can create check installments for post-dated checks. You can define the number of installments that a payment is divided into, the percent of interest, and the period in which the checks are created.  

@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 11/17/2023
+ms.date: 11/27/2023
 ms.author: bholtorf
 ---
 # SEPA payments in the Belgian version

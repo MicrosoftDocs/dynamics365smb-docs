@@ -14,7 +14,7 @@ ms.author: bholtorf
 # Print the OCR journal - Test report
 You can print the **OCR Journal – Test** report to test the imported payment transactions in the cash receipt journal. You can also view potential warnings and reconcile conflicts before the payments are posted to the journal.  
 
-## To print the OCR Journal – Test report  
+## To print the OCR journal – Test report  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **OCR Journal - Test**, and then choose the related link.  
 2.  On the **Options** FastTab, fill in the fields as described in the following table.  

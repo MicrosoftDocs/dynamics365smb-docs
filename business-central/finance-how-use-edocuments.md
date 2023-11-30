@@ -16,17 +16,24 @@ ms.author: altotovi
 
 You can use configured electronic documents (e-documents) with sales and purchase documents.
 
-Currently, you can use the following documents for e-documents:
+Currently, you can use the following documents with e-documents functionality:  
 
-- Sales invoices
-- Sales orders
-- Sales credit memos
-- Purchase invoices
-- Purchase orders
-- Purchase credit memos
-- General journals
+- Sales: 
+    - Sales invoices
+    - Sales orders
+    - Sales credit memos
+    - Service invoices
+    - Service credit memos
+    - Finance charge memos
+    - Reminders
+- Purchase: 
+    - Purchase invoices
+    - Purchase orders (only create new document)
+    - Purchase credit memos
+    - General journals
 
-Currently, a purchase order can be used only when you create the document from the e-document from your vendor. However, you can't update the existing document with lines that you got from your vendor.
+> [!NOTE]
+> Currently, a purchase order can be used only when you create the document from the e-document from your vendor. However, you can't update the existing document with lines that you got from your vendor.  
 
 ## E-documents in sales
 

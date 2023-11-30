@@ -19,7 +19,9 @@ For an overview of the most popular keyboard shortcuts, see [Keyboard shortcuts 
 
 > [!TIP]
 > For a graphical view of the most used shortcuts, choose the following image and download the PDF file.  
-> [ ![Icon for the PDF file.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Icon that opens a PDF")
+> [ ![Icon for the PDF file.](media/keyboard_shortcut_inline.png) ](media/keyboard-shortcuts-2023.pdf "Icon that opens a PDF")
+
+
 
 ## Overview
 

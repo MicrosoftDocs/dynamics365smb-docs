@@ -16,7 +16,7 @@ ms.author: altotovi
 
 You can use configured electronic documents (e-documents) with sales and purchase documents.
 
-Currently, you can use the following documents with e-documents functionality:  
+You can use the following documents with e-documents functionality:  
 
 - Sales: 
     - Sales invoices

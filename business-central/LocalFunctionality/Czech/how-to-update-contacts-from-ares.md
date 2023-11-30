@@ -1,25 +1,23 @@
 ---
-title: Czech Local Functionality - Update Contacts from ARES
+title: Czech local functionality - Update contacts from ARES
 description: ARES is an information system allowing retrieval of information on economic entities registered in the Czech Republic.
 author: v-makune
-
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
-ms.date: 06/17/2021
+ms.date: 11/09/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-
-# Updating Contacts from ARES in the Czech Version
+# Updating contacts from ARES in the Czech version
 
 ARES stands for Access to Register of Economic Subjects. ARES is an information system allowing retrieval of information on economic entities registered in the Czech Republic.  
 
 The user can fill in ARES Http in Reg. No. Validation Service Setup.
-It is possible to run ARES actualization from Contact, Vendor and Customer Card. It is possible to search the company and decide which fields can be updated in [!INCLUDE[d365fin](../../includes/d365fin_md.md)](Name, Address, City, Post Code).
+It's possible to run ARES actualization from Contact, Vendor and Customer Card. It's possible to search the company and decide which fields can be updated in [!INCLUDE[d365fin](../../includes/d365fin_md.md)](Name, Address, City, Post Code).
 
-## See Also
+## See also
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Advanced Localization Pack for Czech](ui-extensions-advanced-localization-pack-cz.md)  

@@ -46,7 +46,7 @@ To allow data movement outside of your geographical region, complete the followi
 
    ![![Alt text](allow-data-movement.png)](allow-data-movement.png)
 
-You can opt out by turning off the  **Allow data movement** switch. Once an Azure OpenAI Service becomes available in your Business Central environment geography, your environment is automatically connected to it, and the switch is in no longer available. 
+You can opt out by turning off the  **Allow data movement** switch. Once an Azure OpenAI Service becomes available in your Business Central environment geography, your environment is automatically connected to it, and the switch is no longer available. 
 
 
 <!--

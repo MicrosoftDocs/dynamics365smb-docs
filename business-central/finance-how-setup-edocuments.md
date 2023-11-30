@@ -70,7 +70,7 @@ Follow these steps to set up the E-Document Service.
 
 If you've configured the **Data Exchange Definition** format in your localization, you can add a line for every document type that you need. Add lines that match the default data exchange example for the W1 PEPPOL format. However, first select the **Document Type** option for each line that you need. For each data type, select the **Import Data Exchange Def. Code** or **Export Data Exchange Def. Code** value that you want to use.
 
-If you don't use the **Data Exchange Definition** format, you can create and configure formats by using the [interface](/dev-itpro/developer/devenv-extend-edocuments). Adjust the information on the **Export Mapping** and **Import Mapping** lines, where you can find the tables and fields to configure transformation rules. In this case, you must add a new option in the **Document Format** field that's related to your format.
+If you don't use the **Data Exchange Definition** format, you can create and configure formats by using the [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Adjust the information on the **Export Mapping** and **Import Mapping** lines, where you can find the tables and fields to configure transformation rules. In this case, you must add a new option in the **Document Format** field that's related to your format.
 
 ## Set up a document sending profile
 

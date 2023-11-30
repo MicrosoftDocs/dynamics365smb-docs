@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: conceptual
 ms.collection: 
-ms.date: 11/15/2023
+ms.date: 11/30/2023
 ms.custom: bap-template 
 ---
 
@@ -29,7 +29,7 @@ The following table shows the Azure OpenAI Service's geography used by Copilot, 
 | Environment Azure region| Azure OpenAI Service geography|Admin action required to unlock Copilot| 
 | - | - | - |
 |Asia (East, South East) |United States|Yes|
-|Australia (South East)| United States |Yes, until update 23.2 |
+|Australia (South East)| United States |Yes |
 |Brazil (South) |United States|Yes|
 |Canada (Central, East)|United States|Yes|
 |Europe (West, North)| Sweden or Switzerland |Yes|
@@ -42,7 +42,7 @@ The following table shows the Azure OpenAI Service's geography used by Copilot, 
 |South Africa (North, West)|United States|Yes|
 |Switzerland (North, West) |Sweden or Switzerland |Yes|
 |United Arab Emirates (North, West)|United States|Yes|
-|United Kingdom (South, West)|United Kingdom|Yes, until update 23.2|
+|United Kingdom (South, West)|United Kingdom|Yes|
 |United States (Central, East, North Central, South Central, West) |United States|No|
 
 > [!NOTE]

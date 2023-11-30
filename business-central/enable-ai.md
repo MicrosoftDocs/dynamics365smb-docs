@@ -39,7 +39,7 @@ If any of these requirements aren't fulfilled, the feature isn't available for u
 
 This task applies only if the **Allow data movement** switch appears near the top of the **Copilot & AI Capabilities** page. If the link **How do I govern my copilot data?** is shown instead of the **Allow data movement** switch, skip this step.
 
-![Shows a screen shot of the Allow data movement switch on Copilot & AI Capabilities page.](allow-data-movement-v2.png)
+![Shows a screen shot of the Allow data movement switch on Copilot & AI Capabilities page.](media/allow-data-movement-v2.png)
 
 The **Allow data movement** switch indicates that your Business Central environment location&mdash;that is, the geography where data is processed and stored&mdash;isn't the same as the Azure OpenAI Service geography used by Copilot. If you want to enable Copilot, you must allow data movement between geographies. To learn more about data movement, go to [Copilot data movement across geographies](ai-copilot-data-movement.md). 
 

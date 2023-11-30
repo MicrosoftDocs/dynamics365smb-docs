@@ -14,6 +14,9 @@ ms.author: bholtorf
 ---
 # Create Electronic Documents by Using OIOUBL
 
+> [!NOTE]
+> This feature isn't related to the new E-documents framework and requirments related to the new Danish bookkeeping act. For new functionality and updated OIOUBL 3.0, you can find updated content in **Electronic invoicing with NemHandel**.   
+
 When you sell goods or services to a customer in the public sector, you must submit documents electronically. You can create the following electronic documents: 
 
 * Invoices

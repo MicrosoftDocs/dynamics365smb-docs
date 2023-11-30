@@ -1,17 +1,16 @@
 ---
-title: Czech Local Functionality - Posting groups in transfer orders
+title: Czech local functionality - Posting groups in transfer orders
 description: In the Transfer Orders functionality, fields for Gen. Bus. Post. Groups for Ship and Receive posting were added.
 author: v-pejano
-
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 06/18/2021
+ms.date: 11/09/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Posting Groups in Transfer Orders in the Czech Version
+# Posting groups in transfer orders in the Czech version
 Czech posting rules require location transfers to be posted with the defined Inventory Adjmt. Account different from other item Journal postings.
 In the Transfer Orders functionality, fields for Gen. Bus. Post. Groups for Ship and Receive posting were added. This feature enables you to post different transfer orders with different General Posting Setup and also different from postings in item Journal.
 

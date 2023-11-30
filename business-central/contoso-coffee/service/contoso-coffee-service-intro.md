@@ -39,7 +39,6 @@ Once the relevant apps are installed, go to the [Contoso Demo Tool](https://busi
 |**Resource 2 No.**  |The resource to use for the break/fix scenarios.|
 |**Service Location** |Specifies the warehouse that you want to use for service operations. The default is *MAIN*, but you can change it to suit your needs.|
 
-
 Once you're ready, choose the **Create Demo Data** action. It takes a few minutes to add the data to the underlying database, but then you're ready to run the various scenarios.  
 
 ## Scenarios

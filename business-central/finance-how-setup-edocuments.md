@@ -66,7 +66,7 @@ Follow these steps to set up the E-Document Service.
     | Export Data Exchange Def. Code | Specify the data exchange code that's used to export the data. Use this field only to deliver documents in the sales process. |
 
 > [!NOTE]
-> Find prepared data exchange definitions for PEPPOL format related with the standard sales and purchase document. Remember that you probably can't use these definitions as is. They're all W1 formats that are provided to show how to use this feature. We recommend that you test the existing PEPPOL format before you start to use them.
+> There are prepared data exchange definitions for the PEPPOL format that are related to the standard sales and purchase document. However, you likely can't use these definitions as is. They're all W1 formats that are provided to show how to use this feature. We recommend that you test the existing PEPPOL format before you start to use them.
 
 If you've configured the **Data Exchange Definition** format in your localization, you can add a line for every document type that you need. Add lines that match the default data exchange example for the W1 PEPPOL format. However, first select the **Document Type** option for each line that you need. For each data type, select the **Import Data Exchange Def. Code** or **Export Data Exchange Def. Code** value that you want to use.
 

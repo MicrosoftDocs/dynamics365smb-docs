@@ -1,18 +1,17 @@
 ---
-title: Mandatory Returning of Exact Costs in Manufacturing [CZ]
+title: Mandatory returning of exact costs in manufacturing [CZ]
 description: This section describes local functionality - Mandatory returning of exact costs in Manufacturing in the Czech version of Business Central.
 author: v-pejano
-
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 06/17/2021
+ms.date: 11/07/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Mandatory returning of exact costs in Manufacturing in the Czech Version
-Mandatory returning of exact costs in Manufacturing
+# Mandatory returning of exact costs in manufacturing in the Czech version
+Mandatory returning of exact costs in manufacturing
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 11/07/2023
 ms.author: bholtorf
 ---
 Use the **Balance Sheet** report to view the company's balance sheet. This is a legal report that is required for auditing accounts. You can use this report to view assets and liabilities.  

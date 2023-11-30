@@ -7,7 +7,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/13/2023
+    ms.date: 11/22/2023
     ms.author: bholtorf
 ---
 # Print general ledger setup information in the Austrian version

@@ -7,7 +7,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/07/2023
+    ms.date: 11/21/2023
     ms.author: bholtorf
 ---
 # Issue delivery reminders in the Swiss version

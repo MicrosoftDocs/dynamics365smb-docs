@@ -8,7 +8,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.search.form: 5005270, 5005272
-    ms.date: 11/13/2023
+    ms.date: 11/17/2023
     ms.author: bholtorf
 ---
 # Set up delivery reminders in the Swiss version

@@ -1,11 +1,11 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 11/07/2023
+ms.date: 11/17/2023
 ms.author: bholtorf
 ---
 
-In [!INCLUDE[prod_short](../../../includes/prod_short.md)], when a purchase isn't delivered as expected, you can create delivery reminders. You can generate delivery reminders for all overdue deliveries, or you can create a single delivery reminder manually.  
+In [!INCLUDE[prod_short](../../../includes/prod_short.md)], you can create delivery reminders when a purchase is delivered as expected. You can generate delivery reminders for all overdue deliveries, or you can create a single delivery reminder manually.  
 
 > [!NOTE]  
 > To create delivery reminders, you must set up the delivery reminder terms, levels, and texts.  
@@ -18,4 +18,4 @@ In [!INCLUDE[prod_short](../../../includes/prod_short.md)], when a purchase isn'
 4. Select the appropriate filters.  
 5. Choose the **OK** button.  
 
-If the filters you set match overdue deliveries, delivery reminders are created. You can now issue and print delivery reminders.  
+If there are overdue deliveries that match the filters that you set, delivery reminders are created. You can now issue and print the delivery reminders.  

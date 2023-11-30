@@ -8,7 +8,7 @@ ms.author: bholtorf
 In [!INCLUDE[prod_short](../../../includes/prod_short.md)], you can create delivery reminders when a purchase is delivered as expected. You can generate delivery reminders for all overdue deliveries, or you can create a single delivery reminder manually.  
 
 > [!NOTE]  
-> To create delivery reminders, you must have set up the delivery reminder terms, levels, and texts.  
+> To create delivery reminders, you must set up the delivery reminder terms, levels, and texts.  
 
 ## To generate delivery reminders for all overdue deliveries  
 

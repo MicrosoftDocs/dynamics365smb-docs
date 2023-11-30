@@ -22,7 +22,7 @@ In [!INCLUDE[prod_short](../../../includes/prod_short.md)], you can create deliv
     |**Vendor No.**|The number of the vendor for whom you want to post the delivery reminder.<br /><br /> When you select the vendor number, the **Name**, **Address**, **Post Code/City**, and **Contact** fields are filled in automatically.|  
     |**Posting Date**|The posting date for the delivery reminder. This date is copied to all of the delivery reminder ledger entries.|  
     |**Document Date**|The document date for the delivery reminder. This date is also used to calculate the due date for the delivery reminder. You can modify the posting date if necessary.|  
-    |**Reminder Level**|The delivery reminder level. This value is based on the number of delivery reminders that is sent.|  
+    |**Reminder Level**|The delivery reminder level. This value is based on the number of delivery reminders sent.|  
     |**Reminder Terms Code**|Specify the delivery reminder terms code that is set up for the vendor.|  
     |**Due Date**|The due date for the delivery reminder.|  
 

@@ -1,19 +1,18 @@
 ---
-title: Czech Local Functionality - Skip Update SKU on Posting
+title: Czech local functionality - Skip update SKU on Posting
 description: This section describes local functionality - Skip Update SKU on Posting in the Czech version of Business Central.
 author: v-pejano
-
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 06/17/2021
+ms.date: 11/06/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Skip Update SKU on Posting in the Czech Version
+# Skip update SKU on posting in the Czech version
 
-Skip Update SKU on Posting
+Skip update SKU on posting
 
 ## See also
 

@@ -9,7 +9,7 @@ ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Small Regulatory Features and Best Practices in the Czech Version
+# Small regulatory features and best practices in the Czech version
 
 Smaller regulatory features and local practices of Czech companies include the following features:
 - G/L account groups – for multi-circuit accounting

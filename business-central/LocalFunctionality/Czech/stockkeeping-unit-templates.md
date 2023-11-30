@@ -1,23 +1,22 @@
 ---
-title: Czech Local Templates for inventory Operations – Stockkeeping Unit Templates
-description: The following topics describe the local functionality Stockkeeping Unit Templates in the Czech version of Business Central.
+title: Czech local templates for inventory operations – Stock keeping unit templates
+description: The following articles describe the local functionality Stock keeping Unit Templates in the Czech version of Business Central.
 author: v-pejano
-
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Inventory, Localization, CZ
-ms.date: 06/17/2021
+ms.date: 11/10/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Stockkeeping Unit Templates in the Czech Version
+# Stock keeping unit templates in the Czech version
 
-Set up templates that is being used as part of the stockkeeping unit creation process.
-Templates are defined for the combination of item category and location and you can set the basic parameters of the stockkeeping unit, such as Replenishment System, Reordering Policy, etc.
-Templates can be used in a function that creates new stockkeeping unit of items. When creating a new stockkeeping unit, the parameter settings in the templates are automatically copied to the stockkeeping unit cards.
+Set up templates that are being used as part of the stock keeping unit creation process.
+Templates are defined for the combination of item category and location and you can set the basic parameters of the stock keeping unit, such as Replenishment System, Reordering Policy, etc.
+Templates can be used in a function that creates new stock keeping unit of items. When a new stock keeping unit is created, the parameter settings in the templates are automatically copied to the stock keeping unit cards.
 
-## See Also
+## See also
 
 [Core Localization Pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  

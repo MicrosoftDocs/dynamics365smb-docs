@@ -1,7 +1,7 @@
 ﻿
 # [Business Central documentation](index.yml)
 # [Welcome to Business Central](welcome.md)
-# [New and planned](product-news.md)
+# [New and planned](/dynamics365/business-central/dev-itpro/whatsnew/overview)
 # Get started
 ## [Overview of business functionality](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
@@ -230,6 +230,7 @@
 ### [Use job queues to schedule tasks](admin-job-queues-schedule-tasks.md)
 ### [Let Business Central suggest values](ui-let-system-suggest-values.md)
 ### [Use Online Maps to find locations and directions](across-online-maps.md)
+### [Set up digital vouchers](across-how-setup-digital-vouchers.md)
 
 ### Incoming documents
 #### [Incoming documents overview](across-income-documents.md)
@@ -868,10 +869,12 @@
 
 ### Denmark
 #### [Local functionality in the Danish version](LocalFunctionality/Denmark/denmark-local-functionality.md)
+#### [Notification and registration for the NemHandelsregisteret in Denmark](localfunctionality/denmark/how-to-nemhandel-register.md)
 #### VAT
 ##### [Print VAT reconciliation reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [VAT-VIES reports](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [VAT registration number setup for Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
+##### [Submit VAT returns electronically](localfunctionality/denmark/how-to-evat-statement-dk.md)
 #### Banking & payments
 ##### [FIK details in the payment reconciliation journal](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [The Payments and reconciliations (DK) extension](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -883,6 +886,8 @@
 ##### [Create electronic documents in an OIOUBL format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
 #### Payroll
 ##### [Payroll data definitions (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
+#### Digital vouchers
+##### [Set up digital vouchers in Denmark](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finland
 #### [Local functionality in the Finnish version](LocalFunctionality/Finland/finland-local-functionality.md)

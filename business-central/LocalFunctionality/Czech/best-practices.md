@@ -4,7 +4,7 @@ description: Learn about built-in support for best practices and small regulator
 author: ACMartinKunes
 ms.topic: conceptual
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash, small regulatory features, best practices
-ms.date: 11/14/2023
+ms.date: 11/20/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---

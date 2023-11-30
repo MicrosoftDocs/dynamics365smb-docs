@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 11/16/2023
+ms.date: 11/20/2023
 ms.author: bholtorf
 ---
 # Delete remittance payment orders in the Norwegian version

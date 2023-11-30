@@ -37,14 +37,16 @@ If any of these requirements aren't fulfilled, the feature isn't available for u
 
 ## Allow data movement across geographies
 
-This task applies only if the **Allow data movement** switch appears near the top of the **Copilot & AI Capabilities** page. The  **Allow data movement** switch indicates that your Business Central environment location&mdash;that is, the geography where data is processed and stored&mdash;isn't the same as the Azure OpenAI Service geography used by Copilot. If you want to enable Copilot, you must allow data movement between geographies. To learn more about data movement, go to [Copilot data movement across geographies](ai-copilot-data-movement.md). 
+This task applies only if the **Allow data movement** switch appears near the top of the **Copilot & AI Capabilities** page. If the link **How do I govern my copilot data?** is shown instead of the **Allow data movement** switch, skip this step.
+
+![Shows a screen shot of the Allow data movement switch on Copilot & AI Capabilities page.](allow-data-movement-v2.png)
+
+The **Allow data movement** switch indicates that your Business Central environment location&mdash;that is, the geography where data is processed and stored&mdash;isn't the same as the Azure OpenAI Service geography used by Copilot. If you want to enable Copilot, you must allow data movement between geographies. To learn more about data movement, go to [Copilot data movement across geographies](ai-copilot-data-movement.md). 
 
 To allow data movement outside of your geographical region, complete the following steps:
 
 1. In Business Central, search for and open the **Copilot & AI Capabilities** page.
 1. Turn on the **Allow data movement** switch.
-
-   ![![Alt text](allow-data-movement.png)](allow-data-movement.png)
 
 You can opt out by turning off the  **Allow data movement** switch. Once an Azure OpenAI Service becomes available in your Business Central environment geography, your environment is automatically connected to it, and the switch is no longer available. 
 

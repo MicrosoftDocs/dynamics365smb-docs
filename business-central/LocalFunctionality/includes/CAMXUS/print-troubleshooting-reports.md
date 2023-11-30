@@ -10,7 +10,7 @@ The following troubleshooting reports are available to assist Microsoft Certifie
 -   **License Information** report – This report contains the license number, the name of the licensed user, the application granules they purchased, and when the license expires, if applicable.  
 -   **Data Dictionary** report (report #10315) – This report allows you to print detailed table reference, field reference, and table properties for table objects.  
 
-You must have access to [!INCLUDE[prod_short](../../../includes/prod_short.md)] Object Designer, which is available only to administrators and only in Business Central Spring 2019 and earlier.  
+You must have access to [!INCLUDE[prod_short](../../../includes/prod_short.md)] Object Designer, which is available only to administrators and only in Business Central Spring 2019 (v14) and earlier.  
 
 You can print these reports and send them to your Microsoft Certified Partner to help resolve issues with your [!INCLUDE[prod_short](../../../includes/prod_short.md)] implementation.  
 

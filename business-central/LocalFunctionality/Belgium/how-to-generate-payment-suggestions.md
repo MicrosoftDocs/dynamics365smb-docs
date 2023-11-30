@@ -10,7 +10,6 @@
     ms.date: 11/24/2023
     ms.author: bholtorf
 
----
 # Generate payment suggestions in the Belgian version
 After you set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.  
 

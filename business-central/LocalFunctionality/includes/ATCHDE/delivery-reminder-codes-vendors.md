@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 11/14/2023
 ms.author: bholtorf
 ---
 In order to enable delivery reminders for overdue purchases, you must assign delivery reminder terms to vendors.  

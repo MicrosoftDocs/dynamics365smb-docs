@@ -2,8 +2,6 @@
 title: Czech Local Functionality - Inventory
 description: This section describes all of the features created to enhance the benefits of local functionality for Inventory in the Czech version.
 author: ACMartinKunes
-
-
 ms.topic: conceptual
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash, Inventory
 ms.date: 06/17/2021
@@ -11,18 +9,18 @@ ms.reviewer: v-pejano
 ms.author: v-makune
 ---
 
-# Inventory in the Czech Version
+# Inventory in the Czech version
 
-## Posting Groups in Transfer Orders
+## Posting groups in transfer orders
 Czech posting rules require location transfers to be posted with the defined Inventory Adjmt. Account different from other item Journal postings.
 In the Transfer Orders functionality, fields for Gen. Bus. Post. Groups for Ship and Receive posting were added. This feature enables you to post different transfer orders with different General Posting Setup and also different from postings in item Journal.
 
 In Transfer Route, fields for Gen. Bus. Post. Groups for Ship and Receive posting were added. This setup is automatically copied to transfer the order based on the used transfer route.
 
-## Rounding Account in Inventory
+## Rounding account in inventory
 The Rounding Account in the Inventory feature enables you to post all rounded costs (rounding entries in the Value Entry table) to another General Ledger Account instead of the Inventory Adjustment Account. This feature enables you to post a rounded cost on a different Account than the acquisition cost.
 
-## Inventory – G/L Reconciliation Enhancements
+## Inventory – G/L reconciliation enhancements
 According to the Czech specific requirements, the Inventory – G/L Reconciliation matrix form must into account take the Czech specific inventory posting Accounts: Inventory Rounding Account and Intermediate WIP Account. Since the Czech localized application contains modifications in the inventory posting, special Account for rounding functionalities, and special intermediate WIP accounts, must also be included in the Inventory – G/L Reconciliation matrix form.
 
 These modifications have been introduced to the interface and the calculation procedures have been modified.

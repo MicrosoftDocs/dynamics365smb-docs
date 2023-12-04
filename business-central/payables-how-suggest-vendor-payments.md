@@ -1,13 +1,13 @@
 ---
 title: Suggest Vendor Payments
-description: Learn how to use the Suggest Vendor Payments batch job to create payment lines for your vendors based on due dates and payment discounts.
+description: Use the Suggest Vendor Payments batch job to create payment lines for your vendors based on due dates and payment discounts.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: conceptual
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256,
-ms.date: 09/07/2023
+ms.date: 12/04/2023
 ms.custom: bap-template
 
 ---

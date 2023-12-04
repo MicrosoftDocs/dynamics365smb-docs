@@ -28,7 +28,7 @@ The logging features can make it easier to identify why an error occurred. On th
 
 - **Disabled** - Don't log information about errors.
 - **Error Only** - Log only the error message, without the request/response pairs. This setting is the default for new shops.
-- **All** - Log the request/response pairs for all transactions, including those that were successful. Logging all errors continuously can slow down [!INCLUDE [prod_short](../includes/prod_short.md)]. USe this mode when the data exchange doesn't result in error, but but you want to get more insights about actaully send and received data. Note that some data always logged, regardlessof whether logging is turned on. For more information, see [Data capture](#data-capture).
+- **All** - Log the request/response pairs for all transactions, including those that were successful. Logging all errors continuously can slow down [!INCLUDE [prod_short](../includes/prod_short.md)]. Use this mode when the data exchange doesn't result in error, but you want to get more insights about the data that was actaully sent and received. Note that some data is always logged, regardless of whether logging is turned on. For more information, see [Data capture](#data-capture).
 
 ### To review logs
 

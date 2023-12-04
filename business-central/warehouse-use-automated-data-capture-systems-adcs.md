@@ -27,7 +27,7 @@ Based on the needs of your warehouse, you define the amount of information displ
 
 ## To enable Web Services for ADCS
 
-To use Automated Data Capture System, you must enable the ADCS web service. You must work with a Microsoft partner who can implement web service that can connect ADCS and specific handheld device. You can learn more about web service for ADCS by examining the codeunit 7714. 
+To use Automated Data Capture System, you must enable the ADCS web service. You must work with a Microsoft partner who can implement a web service that can connect ADCS and a specific handheld device. You can learn more about the web service for ADCS by examining codeunit 7714. 
  
 ## To set up a warehouse to use ADCS  
 

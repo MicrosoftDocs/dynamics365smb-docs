@@ -1,5 +1,5 @@
 ---
-title: Use the Suggest Vendor Payments batch job in [!INCLUDE[prod_short](includes/prod_short.md)]
+title: Suggest Vendor Payments
 description: Learn how to use the Suggest Vendor Payments batch job to create payment lines for your vendors based on due dates and payment discounts.
 author: brentholtorf
 ms.author: bholtorf
@@ -11,14 +11,14 @@ ms.date: 09/07/2023
 ms.custom: bap-template
 
 ---
-# Use the Suggest Vendor Payments batch job in [!INCLUDE[prod_short](includes/prod_short.md)]
+# Suggest Vendor Payments
 
 On the **Payment Journal** page, you can use the **Suggest Vendor Payments** batch job to suggest payment lines. Based on your settings, [!INCLUDE [prod_short](includes/prod_short.md)] suggests lines for:
 
-- Payments that are due soon. 
+- Payments that are due soon.
 - Payments where a payment discount is available.
 
-To benefit fully from payment suggestions, you need to prioritize your vendors. To learn more about prioritizing vendors, see [Prioritize Vendors](purchasing-how-prioritize-vendors.md).  
+To benefit fully from payment suggestions, you must prioritize your vendors. To learn more about prioritizing vendors, go to [Prioritize Vendors](purchasing-how-prioritize-vendors.md).  
 
 > [!NOTE]  
 > The batch job excludes vendor ledger entries that are **On Hold** or that are already applied and have a value in the **Applies-to ID** field.  
@@ -30,7 +30,7 @@ To benefit fully from payment suggestions, you need to prioritize your vendors. 
 > * Overdue vendor entries that aren't prioritized.  
 > * Open vendor entries that qualify for payment discounts. The entries are arranged by vendor number.  
 
-## Use the Suggest Vendor Payments function
+## Use the Suggest Vendor Payments action
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then select the related link.  
 2. Open the journal, and then select the **Suggest Vendor Payments** action.  
@@ -46,7 +46,7 @@ When you use the **Suggest Vendor Payments** batch job to create payment lines f
 
 Also, if the calculated posting date is in the past, then the posting date is moved up to the work date and a warning displays.  
 
-You can also manually create payment lines using the due date to calculate the posting date. After you apply vendor ledger entries, you can use the **Calculate Posting Date** action to update the posting date on the journal line with the due date of the related purchase invoice. To learn more about this manual process, see [Apply Purchase Transactions Manually](payables-how-apply-purchase-transactions-manually.md).  
+You can also manually create payment lines using the due date to calculate the posting date. After you apply vendor ledger entries, you can use the **Calculate Posting Date** action to update the posting date on the journal line with the due date of the related purchase invoice. To learn more about this manual process, go to [Apply Purchase Transactions Manually](payables-how-apply-purchase-transactions-manually.md).  
 
 > [!NOTE]  
 > If the purchase invoice is overdue, the posting date is set to the work date and the font on the line changes to red.  

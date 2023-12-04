@@ -23,6 +23,21 @@ Export of the SAF-T audit file format in the Danish localization is based on the
 
 For more information, see [Danish Local Functionality](denmark-local-functionality.md).
 
+## Import audit files  
+
+You can import SAF-T file in Danish localization. To do this, complete the following steps. 
+
+1. Select the search button ![Magnifying glass button that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Import SAF-T Files**, and then select the related link. 
+2. On the **Import SAF-T Files** page, select **Import SAF-T File**.   
+3. On the attachment page, upload the SAF-T file by using drag and drop or by browsing to the file you want to import.  
+
+When you finish importing the external SAF-T files, the result appears in the **Import SAF-T Files** list page. 
+
+From the **Import SAF-T Files** page, you can find details about imported SAF-T files with the specific name and the date when the file has been uploaded. 
+
+> [!NOTE]
+> When you import the SAF-T file, keep in mind that there are no additional actions in the system based on this information. Dynamics 365 Business Central can only keep the list of uploaded files. 
+
 ## See also
 [Financial Management](../../finance.md)  
 [Understanding the General Ledger and Chart of Accounts](../../finance-general-ledger.md)  

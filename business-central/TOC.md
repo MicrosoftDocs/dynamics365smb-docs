@@ -1,13 +1,12 @@
 ﻿
 # [Business Central documentation](index.yml)
 # [Welcome to Business Central](welcome.md)
-# [New and planned](product-news.md)
+# [New and planned](/dynamics365/business-central/dev-itpro/whatsnew/overview)
 # Get started
 ## [Overview of business functionality](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Learn
 ### [Resources for users](resources-for-users.md)
-### [Business Central learning catalog](readiness/readiness-learning-catalog.md)
 ### [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Business process walkthroughs
 #### [Available walkthroughs](walkthrough-business-process-walkthroughs.md)
@@ -116,13 +115,6 @@
 ### [Troubleshoot self-service sign-up](ui-troubleshoot-self-signup.md)
 ### [Extend your trial version](admin-extend-trial.md)
 ### [Unsubscribe or remove Business Central](admin-cancel.md)
-### AI-powered item marketing text with copilot
-#### [Overview](ai-overview.md)
-#### [Get preview version](ai-preview-getstarted.md)
-#### [Configure AI-powered item marketing text](enable-ai.md)
-#### [Create AI-powered item marketing text](item-marketing-text.md)
-#### [FAQ](ai-faq.md)
-
 ## Buy
 ### [Get started with a subscription](trial-signup.md#get-started-with-a-subscription)
 ### [Get ready for doing business](ui-get-ready-business.md)
@@ -216,19 +208,6 @@
 ### [Visit our video library](across-videos.md)
 ### [Get technical support](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
-<!--## Microsoft Learn training
-### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
-### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
-### Resources for a Business Decision Maker
-#### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Business User
-#### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Developer
-#### [Learning catalog](readiness/readiness-learning-developers.md)
-#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
 # Business functionality
 ## [Overview of business functionality](across-business-functionality.md)
 <!--general-->
@@ -251,6 +230,7 @@
 ### [Use job queues to schedule tasks](admin-job-queues-schedule-tasks.md)
 ### [Let Business Central suggest values](ui-let-system-suggest-values.md)
 ### [Use Online Maps to find locations and directions](across-online-maps.md)
+### [Set up digital vouchers](across-how-setup-digital-vouchers.md)
 
 ### Incoming documents
 #### [Incoming documents overview](across-income-documents.md)
@@ -379,6 +359,7 @@
 ### Reconcile bank accounts
 #### [Bank reconciliation overview](bank-manage-bank-accounts.md)
 #### [Reconcile bank accounts](bank-how-reconcile-bank-accounts-separately.md)
+#### [Reconcile bank accounts using Copilot (preview)](bank-reconciliation-with-copilot.md)
 #### [Applying payments automatically and reconcile bank accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ### Manage intercompany transactions
@@ -888,10 +869,12 @@
 
 ### Denmark
 #### [Local functionality in the Danish version](LocalFunctionality/Denmark/denmark-local-functionality.md)
+#### [Notification and registration for the NemHandelsregisteret in Denmark](localfunctionality/denmark/how-to-nemhandel-register.md)
 #### VAT
 ##### [Print VAT reconciliation reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [VAT-VIES reports](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [VAT registration number setup for Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
+##### [Submit VAT returns electronically](localfunctionality/denmark/how-to-evat-statement-dk.md)
 #### Banking & payments
 ##### [FIK details in the payment reconciliation journal](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [The Payments and reconciliations (DK) extension](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -903,6 +886,8 @@
 ##### [Create electronic documents in an OIOUBL format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
 #### Payroll
 ##### [Payroll data definitions (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
+#### Digital vouchers
+##### [Set up digital vouchers in Denmark](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finland
 #### [Local functionality in the Finnish version](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -1577,7 +1562,6 @@
 #### [Set up stockkeeping units](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Categorize items](inventory-how-categorize-items.md)
 #### [Import multiple item pictures](inventory-how-import-item-pictures.md)
-#### [Configure AI-powered item marketing text with copilot](enable-ai.md)
 ### Set up project management
 #### [Set up projects](projects-setup-projects.md)
 #### [Set up resources](projects-how-setup-resources.md)
@@ -1841,6 +1825,18 @@
 #### [Report development guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Report performance tuning guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
+# Copilot and AI capabilities
+## Manage Copilot and AI capabilities
+### [Configure Copilot and AI capabilities](enable-ai.md)
+### [Copilot data movement across geographies](ai-copilot-data-movement.md)
+### [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)
+## Bank account reconciliation assist (preview)
+### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
+### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
+## Marketing text suggestions
+### [Marketing text suggestions overview](ai-overview.md)
+### [Create marketing text with Copilot](item-marketing-text.md)
+### [FAQ for marketing text suggestions](faqs-marketing-text.md)
 
 # Security, privacy, and compliance
 ## Security and protection
@@ -1894,6 +1890,7 @@
 ### [Enable new features ahead of time](admin-feature-management.md)
 ### [Onboard users with checklists](admin-checklist.md)
 ### [Sandbox environments](admin-sandbox-environments.md)
+## [Copilot and AI capabilities](enable-ai.md)
 ## Customize Business Central
 ### [Customization overview](ui-customizing-overview.md)
 ### [Customize pages for profiles](ui-personalization-manage.md)
@@ -1926,19 +1923,19 @@
 #### [US/CA/UK/AU/NZ/ZA - Send remittance advice](ui-extensions-send-remittance-advice.md)
 #### [WorldPay payments standard](ui-extensions-worldpay-payments-standard.md)
 #### [Business Central extensions by other providers](ui-extensions-other.md)
-## Integrate with Dynamics 365 sales
-### [Integrate with Dynamics 365 sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## Integrate with other Dynamics 365 applications
+### [Integrate with Dynamics 365 Sales via data sync](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ## Integrate with Microsoft Dataverse
-### [Integrate with Microsoft Dataverse](admin-common-data-service.md)
-### [Data ownership models](admin-cds-company-concept.md)
-### [Set up user accounts for Microsoft Dataverse integration](admin-setting-up-integration-with-dynamics-sales.md)
-### [Connect to Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Integrate with Dataverse via data sync](admin-common-data-service.md)
+### [Data ownership models for synchronization](admin-cds-company-concept.md)
+### [Set up user accounts for Dataverse integration via data sync](admin-setting-up-integration-with-dynamics-sales.md)
+### [Connect to Dataverse for data sync](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synchronize Business Central and Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Map the tables and fields to synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Manually synchronize table mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshoot synchronization errors](admin-troubleshoot-sales-synchronization.md)
-### [Use a Power Automate flow for alerts to Dataverse entity changes](admin-power-automate-flow-dataverse.md)
+### [Use a Power Automate flow to timely synchronize Dataverse entity changes](admin-power-automate-flow-dataverse.md)
 ## Synchronize master data across companies
 ### [Get ready to synchronize master data](admin-set-up-data-sync.md)
 ### [Manage master data synchronization](admin-sync-master-data.md)
@@ -2019,3 +2016,7 @@
 ## [Security and protection](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Performance](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Removed or deprecated features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Responsible AI
+## [Overview](responsible-ai-overview.md)
+## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
+## [FAQ for marketing text suggestions](faqs-marketing-text.md)

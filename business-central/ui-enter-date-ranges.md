@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/23/2021
+ms.date: 10/27/2023
 ms.author: bholtorf
 ---
 
@@ -168,7 +168,7 @@ The following example shows how to use C, for current, and a time unit.
 |  Expression  |  Meaning  |
 |--------------|-----------|
 |CW|Current week|
-|CM|Current month|
+|CM|Current month (last day of the month)|
 
 The following example shows how to use a number and a time unit. A number can't be larger than 9999.
 

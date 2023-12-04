@@ -15,16 +15,6 @@ ms.custom: bap-template
 
 If you buy or sell items that you and your vendor or customer use different terms for, then you can set up a reference between your terms for the items and the terms that the customer or vendor of that item uses. This way, the vendor's or customer's item description, unit of measure, or variant code is automatically inserted on the relevant documents when you fill in the **Item Reference No.** field.  
 
-> [!NOTE]
-> Not all companies use item references. To minimize clutter on pages, we've hidden the related fields and actions by default. If you decide to use them, select the **Use Item References** field on the **Inventory Setup** page. After you turn on item references, the fields and actions are available on the Item Card, Vendor Card, and Customer Card pages, and from sales and purchase documents.
->
-> In versions earlier than 2021 release wave 2, your administrator can turn on the *Write longer item references* feature in the [Feature Management](https://businesscentral.dynamics.com/?page=2610) page (link requires that you have a [!INCLUDE [prod_short](includes/prod_short.md)] tenant). How you use references doesn't change, but the names of things like pages and buttons will. For example, the **Item Cross-Reference Entries** page will become the **Item Reference Entries** page.
-
-## To start using item references
-
-1. Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Inventory Setup**, and then choose the related link.
-2. Select the **Use Item References** field.
-
 ## To set up an item reference
 
 1. Choose the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Items**, and then choose the related link.

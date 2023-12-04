@@ -1,5 +1,5 @@
 ---
-    title: How to Create Deposits [MX]
+    title: How to create deposits [MX]
     description: Make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos with the Mexican version.
     author: brentholtorf
     ms.topic: conceptual
@@ -8,14 +8,14 @@
     ms.workload: na
     ms.search.keywords:
     ms.search.form: 10140, 10141, 10143,10144,10146,10147,10148,36646
-    ms.date: 06/18/2021
+    ms.date: 11/27/2023
     ms.author: bholtorf
 ---
-# Create Deposits in the Mexican Version
+# Create deposits in the Mexican version
 
 [!INCLUDE [create-deposits](../includes/CAMXUS/create-deposits.md)]
 
-## See Also
+## See also
 
 [Mexico Local Functionality](mexico-local-functionality.md)  
 [Finance](../../finance.md)  

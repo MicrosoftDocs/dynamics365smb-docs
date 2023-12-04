@@ -98,7 +98,7 @@ The reservations system is comprehensive and includes the interrelated and paral
 >  The order tracking system offsets available stock as orders are entered into the order network. This implies that the system does not prioritize orders that may be more urgent in terms of their due date. It is therefore up to the logic of the planning system or the wisdom of the planner to rearrange these priorities in a meaningful way.  
 
 > [!NOTE]  
->  Order tracking policy and the Get Action Messages function are not integrated with Jobs. That means that demand related to a job is not automatically tracked. Because it is not tracked, it could cause the use of an existing replenishment with job information to be tracked to another demand, for example, a sales order. Consequently, you may encounter the situation in which your information about available inventory is out of sync.  
+>  Order tracking policy and the Get Action Messages function are not integrated with Jobs. That means that demand related to a project is not automatically tracked. Because it is not tracked, it could cause the use of an existing replenishment with project information to be tracked to another demand, for example, a sales order. Consequently, you may encounter the situation in which your information about available inventory is out of sync.  
 
 ### The Order Network  
  The order tracking system is based on the principle that the order network must always be in a state of balance, in which every demand that enters the system is offset by a corresponding supply and vice versa. The system provides this by identifying logical links between all demand and supply entries in the order network.  

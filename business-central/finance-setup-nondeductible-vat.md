@@ -39,7 +39,7 @@ Because it can be difficult to know where and how an item is used, you must cont
 
     1. In the **Use For Item Cost** field, specify whether the non-deductible VAT must be added to the item cost when you purchase items. Otherwise, the non-deductible VAT won't have an influence on the item cost, and the full amount will be recorded only at the general ledger level.
     2. Select the **Use For Fixed Asset Cost** checkbox to add the non-deductible VAT to the fixed asset cost when you purchase new fixed assets. Otherwise, the non-deductible VAT won't have an influence on the fixed asset cost, and the full amount will be recorded only at the general ledger level.
-    3. Select the **Use For Job Cost** checkbox to specify that the non-deductible VAT must be added to the job cost when you purchase items for the job. Otherwise, the non-deductible VAT won't have an influence on the job cost, and the full amount will be recorded only at the general ledger level.
+    3. Select the **Use For Job Cost** checkbox to specify that the non-deductible VAT must be added to the project cost when you purchase items for the project. Otherwise, the non-deductible VAT won't have an influence on the project cost, and the full amount will be recorded only at the general ledger level.
     4. Select the **Show Non-Ded. VAT In Lines** checkbox to specify that the non-deductible VAT must be shown on document line pages for easier manipulation of VAT amounts.
 
 ## Use the non-deductible VAT percentage

@@ -1,6 +1,6 @@
 ---
 title: Design Details - Flows for Production, Assembly, and Jobs
-description: Learn about the flow between bins for picking components and putting away end items for assembly, production, or job orders.
+description: Learn about the flow between bins for picking components and putting away end items for assembly, production, or project orders.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -11,11 +11,11 @@ ms.custom: bap-template
 ---
 # Flows for Production, Assembly, and Jobs
 
-Internal flows, such as picking components and putting away end items for assembly, jobs, and production orders are similar to inbound or outbound flows. So, many of the processes might seen familiar. This article provides information about how to work with internal warehouse flows with various levels of complexity.
+Internal flows, such as picking components and putting away end items for assembly, projects, and production orders are similar to inbound or outbound flows. So, many of the processes might seen familiar. This article provides information about how to work with internal warehouse flows with various levels of complexity.
 
 ## Overview of different configuration options
 
-You can configure warehouse features in various ways. It's important that the options you choose improve your processes without causing overhead. The following tables describe typical configurations for dealing with physical goods for production, jobs, and assembly orders.
+You can configure warehouse features in various ways. It's important that the options you choose improve your processes without causing overhead. The following tables describe typical configurations for dealing with physical goods for production, projects, and assembly orders.
 
 ### Inbound flow (put-away)
 
@@ -83,7 +83,7 @@ For locations that use bins:
 
 ### Flows for project management in a basic warehouse configuration
 
-Use **Inventory Pick** documents to pick job components in the flow to project management.
+Use **Inventory Pick** documents to pick project components in the flow to project management.
 
 For a location that uses bins, the **To-Job Bin Code** field on the location defines the default flows to project management.
 

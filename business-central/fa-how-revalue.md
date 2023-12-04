@@ -45,7 +45,7 @@ Indexation is used to adjust multiple fixed asset values, for example per genera
 
 ## To perform general revaluation of fixed assets
 
-Indexation is used to adjust multiple fixed asset values, for example per general price changes. The **Index Fixed Assets** batch job can be used to change various amounts, such as write-down and appreciation amounts. The **Allow Indexation** check box on the **Depreciation Book** page must be selected.
+Indexation is used to adjust multiple fixed asset values, for example per general price changes. The **Index Fixed Assets** batch job can be used to change various amounts, such as write-down and appreciation amounts. The **Allow Indexation** checkbox on the **Depreciation Book** page must be selected.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Index Fixed Assets**, and then choose the related link.  
 2. Fill in the fields as necessary.

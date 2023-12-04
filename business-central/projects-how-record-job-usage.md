@@ -87,13 +87,13 @@ You can use the actions under the following conditions:
 
 ## To review planning lines for a job ledger entry
 
-After you have posted job journal lines, you can see the planning lines that are associated with the job journal entries that have been posted.
+After you have posted project journal lines, you can see the planning lines that are associated with the project journal entries that have been posted.
 
 > [!NOTE]  
-> This requires that the **Apply Usage Link** check box has been selected for the job. For more information, see [Set Up Jobs](projects-how-setup-jobs.md).  
+> This requires that the **Apply Usage Link** check box has been selected for the project. For more information, see [Set up projects](projects-how-setup-jobs.md).  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
-2. Select a relevant job journal, and then choose the **Ledger Entries** action.  
+2. Select a relevant project journal, and then choose the **Ledger Entries** action.  
 3. On the **Job Ledger Entries** page, choose **Show Linked Job Planning Lines** action.
 
 ## See also

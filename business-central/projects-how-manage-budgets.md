@@ -1,6 +1,6 @@
 ---
 title: Set Up and Manage a Budget for a Job
-description: Describes how to plan resources and forecast and control the costs of a project by setting up a budget for each job.
+description: Describes how to plan resources and forecast and control the costs of a project by setting up a budget for each project.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -14,15 +14,15 @@ ms.author: bholtorf
 ---
 # Manage Job Budgets
 
-You can set up a budget for each job. The budget is used to plan the resources that you allocate to a job. The budget can be either general with few entries or it can contain more entries that are divided into activity levels. You can then compare the budgeted amounts with the actual usage as recorded in the job journal. By monitoring differences between actual usage and budgeted usage, you can control an ongoing project and improve the quality of future jobs by reducing the risk of underestimating costs.
+You can set up a budget for each project. The budget is used to plan the resources that you allocate to a project. The budget can be either general with few entries or it can contain more entries that are divided into activity levels. You can then compare the budgeted amounts with the actual usage as recorded in the project journal. By monitoring differences between actual usage and budgeted usage, you can control an ongoing project and improve the quality of future projects by reducing the risk of underestimating costs.
 
-The following procedure describes how to estimate budgeted costs during planning. For information about recording budgeted versus actual job prices and costs, see [Record Usage for Jobs](projects-how-record-job-usage.md).  
+The following procedure describes how to estimate budgeted costs during planning. For information about recording budgeted versus actual project prices and costs, see [Record Usage for Jobs](projects-how-record-project-usage.md).  
 
-## <a name="JobBudgetCosts"></a> To estimate the budgeted costs for a job
-When a customer wants to know the price of a job that will be invoiced based on usage, you must have to determine the budgeted costs for the job. You use the **Job Task Lines** page to do this.
+## <a name="JobBudgetCosts"></a> To estimate the budgeted costs for a project
+When a customer wants to know the price of a project that will be invoiced based on usage, you must have to determine the budgeted costs for the project. You use the **Job Task Lines** page to do this.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
-2. Open a relevant job.
+2. Open a relevant project.
 3. Select a task line of type Posting, and then choose the **Job Planning Lines** action.
 4. On a new line, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
 
@@ -35,14 +35,14 @@ For the **Line Type** field, refer to the following information.
 | **Billable** |The customer is charged for usage. Usage is transferred to the invoice, based on the quantity specified in the Qty. to Transfer to Invoice field. |
 
 > [!NOTE]  
-> The **Planned Delivery Date** field for the planning line contains the date when usage related to the planning line is expected to be completed. It is also the date when the planning line may be transferred to a sales invoice and posted. <br /><br /> On the underlying job task on the **Job Card** page, the **Start Date** and **End Date** fields respectively contain the value of the **Planned Delivery Date** field on the earliest and latest job planning lines in the related **Job Planning Lines** page.
+> The **Planned Delivery Date** field for the planning line contains the date when usage related to the planning line is expected to be completed. It is also the date when the planning line may be transferred to a sales invoice and posted. <br /><br /> On the underlying project task on the **Job Card** page, the **Start Date** and **End Date** fields respectively contain the value of the **Planned Delivery Date** field on the earliest and latest project planning lines in the related **Job Planning Lines** page.
 
 > [!NOTE]  
 >   When you fill in the **Quantity** field, all total price and total cost information will be calculated and filled in for that planning line. You can edit them at any time.
 
 On the **Job Card** page, you can now see a summary of the total budgeted costs, budgeted price, billable cost and billable price for each task.
 
-For information about recording budgeted versus actual job prices and costs, see [Record Usage for Jobs](projects-how-record-job-usage.md).
+For information about recording budgeted versus actual project prices and costs, see [Record Usage for Jobs](projects-how-record-project-usage.md).
 
 ## See also
 

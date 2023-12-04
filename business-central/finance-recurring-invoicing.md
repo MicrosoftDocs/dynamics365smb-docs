@@ -30,19 +30,19 @@ However, with this option, you cannot print and send invoices in the default ver
 
 For more information, see [Work with Recurring Journals](ui-work-general-journals.md#work-with-recurring-journals).  
 
-## Create multiple invoices based on a recurring job journal
+## Create multiple invoices based on a recurring project journal
 
-The recurring job journal is a more advanced alternative to the general journal. You define Items, Resources and G/L Accounts, that must be repeated for each job, and you specify the frequency of recurrence.  
+The recurring project journal is a more advanced alternative to the general journal. You define Items, Resources and G/L Accounts, that must be repeated for each project, and you specify the frequency of recurrence.  
 
-After posting a recurring job journal, you can create multiple invoices with the **Create Job Sales Invoice** task. You can review and post created invoices in the **Sales Invoices** page.
+After posting a recurring project journal, you can create multiple invoices with the **Create Job Sales Invoice** task. You can review and post created invoices in the **Sales Invoices** page.
 
 ### Why use this option
 
-With this option, you follow the standard invoicing procedure with all the benefits of that, including standard and customer layouts for communication preferences. You can also define prices for each job individually.
+With this option, you follow the standard invoicing procedure with all the benefits of that, including standard and customer layouts for communication preferences. You can also define prices for each project individually.
 
-However, for each new customer, you must create a new job and add lines to the recurring journal. 
+However, for each new customer, you must create a new project and add lines to the recurring journal. 
 
-For more information, see [Create job journal lines](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) and [Create multiple job sales invoices](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
+For more information, see [Create project journal lines](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) and [Create multiple project sales invoices](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
 
 ## Create multiple invoices based on recurring sales lines
 
@@ -108,8 +108,8 @@ At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get exte
 
 [Date Formulas](ui-enter-date-ranges.md#use-date-formulas)  
 [Work with Recurring Journals](ui-work-general-journals.md#work-with-recurring-journals)  
-[Create job journal lines](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
-[Create multiple job sales invoices](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
+[Create project journal lines](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
+[Create multiple project sales invoices](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
 [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)  
 [Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Invoice several service contracts](service-how-create-invoices.md#to-invoice-several-service-contracts)  

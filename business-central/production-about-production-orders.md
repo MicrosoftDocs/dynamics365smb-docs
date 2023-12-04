@@ -77,7 +77,7 @@ The Planned Production Order is unique because of the following characteristics:
 The Firm Planned Production Order is unique because of the following characteristics:  
 
 - You can automatically create a firm planned production order from a sales order.  
-- A firm planned production order acts as a placeholder in the planning schedule for some future job released to the floor.  
+- A firm planned production order acts as a placeholder in the planning schedule for some future project released to the floor.  
 - A firm planned production order can be generated from planning or created manually or from sales orders. They are not erased during subsequent planning.  
 - Their generation in planning results in a suggested "planned order release" that includes: quantity, release date, and due date. The planning system logic is based on the replenishment system, reorder policies, and order modifiers that it encounters in the net requirements planning process.  
 - To view their impact, look at the load for each work center or machine center on the firm planned production order's routing.  
@@ -86,7 +86,7 @@ The Firm Planned Production Order is unique because of the following characteris
 The Released Production Order is unique based on the following characteristics:  
 
 - You can automatically create a released production order from a sales order.  
-- When a production order has been released, it does not necessarily mean that materials have been picked or the job has physically moved to its first operation.  
+- When a production order has been released, it does not necessarily mean that materials have been picked or the project has physically moved to its first operation.  
 - In a MTO (Make-to-Order) environment, it is not unusual to create a released production order immediately after the entry of the sales order.  
 - Actual material consumption and product output can be recorded manually with a released production order. In addition, automatic flushing of consumption and product output only occurs for released production orders.  
 

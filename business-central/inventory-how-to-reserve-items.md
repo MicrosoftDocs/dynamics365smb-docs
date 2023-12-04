@@ -18,7 +18,7 @@ You can reserve items for sales orders, purchase orders, service orders, assembl
 Each line you open to reserve items on the **Reservation** page displays information about one type of line (sales, purchase, or journal) or inventory entry. The lines describe how many items are available to be reserved from each type of line or entry.
 
 > [!TIP]
-> Based on the quantities you’ve reserved in inventory, [!INCLUDE [prod_short](includes/prod_short.md)] displays a status on the documents so that you’re quickly aware of the next step. For example, to indicate that you can ship a sales order or start to work on a job, assembly, or production order. The status also helps reduce the risk of accidental partial shipments or hold-ups due to missing stock for production and assembly orders.
+> Based on the quantities you’ve reserved in inventory, [!INCLUDE [prod_short](includes/prod_short.md)] displays a status on the documents so that you’re quickly aware of the next step. For example, to indicate that you can ship a sales order or start to work on a project, assembly, or production order. The status also helps reduce the risk of accidental partial shipments or hold-ups due to missing stock for production and assembly orders.
 >
 > The **Reserved from stock** field can help you understand whether you can ship or pick for a specific order or order line. For lines, the Reserved from stock field is available on FactBoxes. To access the information for the entire order, the field is on the **Statistics** page.
 
@@ -91,8 +91,8 @@ Use the **Reservation Worksheet** page to reserve and allocate incoming goods in
 
    |Allocation policy  |Description  |
    |---------|---------|
-   |Basic     | Allocates stock to a demand if there are no conflicts and the demand can be fully covered. For example, you have sales order A with a quantity of 10, and a job with a quantity of 7. If you have 20 in stock, both demands receive full quantity. If your stock is 12, no stock is allocated. You must manually allocate the quantity.        |
-   |Equally    | Distributes available stock to demand equally. For example, you have a sales order with a quantity of 10, and a job with a quantity of 7. If your stock level is 20, then both demands will receive full quantity. If your stock is 12, then both demands will get 6.        |
+   |Basic     | Allocates stock to a demand if there are no conflicts and the demand can be fully covered. For example, you have sales order A with a quantity of 10, and a project with a quantity of 7. If you have 20 in stock, both demands receive full quantity. If your stock is 12, no stock is allocated. You must manually allocate the quantity.        |
+   |Equally    | Distributes available stock to demand equally. For example, you have a sales order with a quantity of 10, and a project with a quantity of 7. If your stock level is 20, then both demands will receive full quantity. If your stock is 12, then both demands will get 6.        |
 
 7. To reserve all lines where **Accept** is turned on, choose the **Make reservation** action.
     

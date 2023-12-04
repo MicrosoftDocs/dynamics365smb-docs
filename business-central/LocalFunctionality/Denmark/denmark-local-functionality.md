@@ -22,7 +22,7 @@ The following topics describe the local functionality in the Danish version of [
 * Compliance
     * Audit trail and edit logs for bookkeeping software in Denmark **Planned in November 2023**
     * 5-years keeping data compliance **Planned for 2023 release wave 2**
-    * Mandatory digital vouchers as attachments **Planned for 2023 release wave 2**
+    * [Mandatory digital vouchers as attachments](how-to-digital-vouchers-dk.md) **Available from v23.2**
 
 * Auditing
     *  [Export the SAF-T audit file format](how-to-use-saft-audit-files-export.md) **Available in September 2023**

@@ -1,17 +1,16 @@
 ---
-title: Export Intrastat Third-Party Declarations [BE]
+title: Export intrastat third-party declarations [BE]
 description: In Belgium, you must have a third-party declarant fill out the Intrastat declaration. The third-party declarant must be an external person or company.
-author: sorenfriisalexandersen
-    
+author: sorenfriisalexandersen    
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 06/17/2021
+ms.date: 11/22/2023
 ms.author: soalex
 ---
-# Export Intrastat Third-Party Declarations in the Belgian Version
+# Export intrastat third-party declarations in the Belgian version
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
@@ -27,7 +26,7 @@ Before you export the file, it's a good idea to preview the report. For more inf
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Nihil declaration**|Select if you do not have any trade transactions with European Union (EU) countries/regions and want to send an empty declaration.|  
+    |**Nihil declaration**|Select if you don't have any trade transactions with European Union (EU) countries/regions and want to send an empty declaration.|  
     |**Counter party info**|Check this field to include counter party information in the Intrastat file (new requirement from 2019). The counter party information added to the file is taken from the **Country/Region of Origin Code** and **Partner ID** fields from the Intrastat Journal.|  
     |**Enterprise No./VAT Reg. No.**|Enter the enterprise or VAT registration number.|  
 

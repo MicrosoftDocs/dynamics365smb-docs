@@ -10,7 +10,7 @@ ms.date: 10/25/2023
 ms.custom: bap-template 
 ---
 
-# Reconcile bank accounts using Copilot (preview)
+# Reconcile bank accounts with Copilot (preview)
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
@@ -159,6 +159,7 @@ In this section, you learn how to use Copilot to transfer unreconciled bank acco
 [Validate your bank account reconciliation](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)  
 
 ## See also
+[Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
 [Responsible AI FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md)  

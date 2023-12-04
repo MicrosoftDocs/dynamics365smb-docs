@@ -1,5 +1,5 @@
 ---
-    title: Delivery Reminder Terms, Levels, and Text [AT]
+    title: Delivery reminder terms, levels, and text [AT]
     description: To create delivery reminders, you must perform certain setup tasks in the Austrian version.
     author: brentholtorf
     ms.topic: conceptual
@@ -7,15 +7,15 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/25/2021
+    ms.date: 11/07/2023
     ms.author: bholtorf
 
 ---
-# Set Up Delivery Reminder Terms, Levels, and Text in the Austrian Version
+# Set up delivery reminder terms, levels, and text in the Austrian version
 
 [!INCLUDE [delivery-reminder-terms-levels-text-setup](../includes/ATCHDE/delivery-reminder-terms-levels-text-setup.md)]
 
-## See Also
+## See also
 
 [Delivery Reminders](delivery-reminders.md)  
 [Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md)  

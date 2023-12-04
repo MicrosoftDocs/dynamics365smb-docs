@@ -1,19 +1,18 @@
 ---
-title: Czech Local Functionality - Nonstock Item Numbering
+title: Czech local functionality - Nonstock item numbering
 description: This section describes local functionality - Nonstock Item Numbering in the Czech version of Business Central.
 author: v-pejano
-
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 06/17/2021
+ms.date: 11/09/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Nonstock Item Numbering in the Czech Version
+# Nonstock item numbering in the Czech version
 
-Nonstock Item Numbering
+Nonstock item numbering
 
 ## See also
 

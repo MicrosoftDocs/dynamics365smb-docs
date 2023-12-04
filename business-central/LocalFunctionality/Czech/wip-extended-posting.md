@@ -1,18 +1,17 @@
 ---
-title: Czech Local Functionality - WIP Extended Posting
+title: Czech local functionality - WIP extended posting
 description: This section describes local functionality - WIP Extended Posting in the Czech version of Business Central.
 author: v-pejano
-
 ms-service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
-ms.date: 06/17/2021
+ms.date: 11/07/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# WIP Extended Posting in the Czech Version
-WIP Extended Posting
+# WIP extended posting in the Czech version
+WIP extended posting
 
 ## See also
 

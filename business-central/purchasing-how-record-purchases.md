@@ -81,7 +81,7 @@ The lines on a purchase invoice can be of the **Resource** or **Item** type. Ite
 > [!NOTE]
 > With the **Resource** purchase line type, you can also purchase external resources, for example, to invoice a vendor for work delivered. Learn more at [Set Up Resources](projects-how-setup-resources.md).
 >
-> To use a purchased resource, you may need to set the resource's capacity and manually assign it to a job. Purchasing a resource creates a resource ledger entry; however, resource ledger entries are not tracked for quantity and value as, for example, items are. If quantity and value tracking is required, then consider using other line item types.
+> To use a purchased resource, you may need to set the resource's capacity and manually assign it to a project. Purchasing a resource creates a resource ledger entry; however, resource ledger entries are not tracked for quantity and value as, for example, items are. If quantity and value tracking is required, then consider using other line item types.
 
 ## When to use purchase orders
 

@@ -34,7 +34,7 @@ To use a basic pricing model, you only need to specify a unit price when you set
 * Minimum quantity
 * Dates that define the period for which the prices are valid.
 
-After you set up special prices, [!INCLUDE[prod_short](includes/prod_short.md)] can calculate best prices on sales and purchase documents, and on lines on jobs and item journals. Learn more at [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+After you set up special prices, [!INCLUDE[prod_short](includes/prod_short.md)] can calculate best prices on sales and purchase documents, and on lines on projects and item journals. Learn more at [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 For sales discounts, you can set up two types:
 
@@ -222,7 +222,7 @@ To update prices for multiple items, you must create a new price list, and then 
 
 ## Best price calculation
 
-After you record special prices and line discounts for sales and purchases, [!INCLUDE[prod_short](includes/prod_short.md)] calculates the best price on sales and purchase documents, and on job and item journal lines.
+After you record special prices and line discounts for sales and purchases, [!INCLUDE[prod_short](includes/prod_short.md)] calculates the best price on sales and purchase documents, and on project and item journal lines.
 
 The best price is the lowest price with the highest line discount allowed on a given date. [!INCLUDE[prod_short](includes/prod_short.md)] calculates best prices when it adds unit prices and the line discount percentages on document and journal lines.
 

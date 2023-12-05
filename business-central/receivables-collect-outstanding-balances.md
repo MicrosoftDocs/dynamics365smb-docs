@@ -44,7 +44,7 @@ When a customer does not pay by the due date, you can have finance charges calcu
 
 Before you can create finance charge memos, you must set up terms. For more information, see [Set Up Finance Charge Terms](finance-setup-finance-charges.md).  
 
-You can manually create a finance charge memo for an individual customer, and fill in the lines automatically. Alternatively, you can use the **Create Finance Charge Memos** function job to create finance charge memos for all or selected customers with overdue balances.  
+You can manually create a finance charge memo for an individual customer, and fill in the lines automatically. Alternatively, you can use the **Create Finance Charge Memos** function to create finance charge memos for all or selected customers with overdue balances.  
 
 After you create the finance charge memos, you can modify them. The text that appears at the beginning and end of the finance charge memo is determined by the finance charge terms, and can be seen in the **Description** column on the lines. If a calculated amount has been inserted automatically in the beginning or ending text, the text will not be adjusted if you delete lines. Then you must use the **Update Finance Charge Text** function.  
 

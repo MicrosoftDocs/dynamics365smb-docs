@@ -38,13 +38,6 @@ If you enable the extension a **Payments Predicted to be Late** tile is availabl
 > [!TIP]
 > The Customer Ledger Entries page also shows a FactBox on the right. While you are reviewing predictions, the information in the **Customer Details** section can be helpful. When you choose the invoice in the list, the section shows information about the customer. It also lets you take immediate action. For example, if a customer frequently misplaces their wallet, you can open the Customer card from the FactBox and block the customer for future sales.  
 
-## Viewing a payment prediction for a specific sales document
-
-You can also predict late payments up-front. On the **Sales Quotes**, **Sales Orders**, and **Sales Invoices** pages, you can use the **Predict Payment** action to generate a prediction for the sales document you're viewing.
-
-<!--## Scheduling Payment Predictions
-On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
-
 ## Design details
 
 Microsoft deploys and operates number of predictive web services in all regions where [!INCLUDE[prod_short](includes/prod_short.md)] is available. Access to these web services is included in your [!INCLUDE[prod_short](includes/prod_short.md)] subscription. For more information, see the Microsoft Dynamics 365 Business Central Licensing Guide. The guide is available for download on the [Business Central](https://dynamics.microsoft.com/business-central/overview/) website.

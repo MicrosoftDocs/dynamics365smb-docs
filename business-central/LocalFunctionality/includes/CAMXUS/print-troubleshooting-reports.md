@@ -1,13 +1,13 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 11/23/2023
+ms.date: 11/27/2023
 ms.author: bholtorf
 ---
 
 The following troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues:  
 
--   **License Information** report – This report contains the license number, the name of the licensed user, which application granules purchased, and when the license expires, if applicable.  
+-   **License Information** report – This report contains the license number, the name of the licensed user, the application granules they purchased, and when the license expires, if applicable.  
 -   **Data Dictionary** report (report #10315) – This report allows you to print detailed table reference, field reference, and table properties for table objects.  
 
 You must have access to [!INCLUDE[prod_short](../../../includes/prod_short.md)] Object Designer, which is available only to administrators and only in Business Central Spring 2019 (v14) and earlier.  

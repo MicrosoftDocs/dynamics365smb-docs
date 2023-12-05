@@ -7,9 +7,10 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 16/11/2023
+    ms.date: 11/24/2023
     ms.author: bholtorf
 ---
+
 # Export to Accon in the Belgian version
 
 The **Link to Accon** report enables you to create a file that can be imported into ACCON Plus to generate an annual income statement. The report exports the total balances of the general ledger accounts for a specific period.  

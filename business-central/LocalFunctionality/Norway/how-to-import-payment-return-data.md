@@ -7,7 +7,7 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/17/2023
+    ms.date: 06/21/2021
     ms.author: bholtorf
 ---
 # Import payment return data in the Norwegian version

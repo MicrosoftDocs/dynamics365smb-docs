@@ -25,7 +25,7 @@ Use posting periods to specify when users can post to the general ledger.
 > [!NOTE]  
 > These posting periods apply to the company and to all users. To allow for exceptions, you can define different posting periods for specific users on the **User Setup** page. These posting periods overrule those specified on the **General Ledger Setup** page. For more information, see [To set up time constraints for users](ui-define-granular-permissions.md#to-set-up-time-constraints-for-users).
 
-## Video example
+## Video guidance
 
 When you're closing an accounting period, you might want to prevent new posts from coming in, or allow only certain people to post transactions. The following video shows how to control when, and who, can post transactions to your general ledger.
 

@@ -28,16 +28,7 @@ The logging features can make it easier to identify why an error occurred. On th
 
 - **Disabled** - Don't log information about errors.
 - **Error Only** - Log only the error message, without the request/response pairs. This setting is the default for new shops.
-- **All** - Log the request/response pairs for all transactions, including those that were successful.
-
-> [!NOTE]
-> Logging errors continuously can slow down [!INCLUDE [prod_short](../includes/prod_short.md)]. To avoid that, you can turn on logging after you find an error in your synchronization. You can manually trigger the synchronization again, and then review the log to find out what went wrong.
-
-### Manage log entry data
-
-To help keep the size of your database under control, log entries are included in a data retention policy named **Shpfy Log Entry**. Retention policies let you specify how long you want to store different types of data. By default, Shopify log entries are kept for one month. To learn more about retention policies, go to [Define Retention Policies](../admin-data-retention-policies.md).
-
-Also, on the **Shopify Log Entries** page, you can delete all log entries, or just the entries that are older than seven days.
+- **All** - Log the request/response pairs for all transactions, including those that were successful. Logging all errors continuously can slow down [!INCLUDE [prod_short](../includes/prod_short.md)]. Use this mode when the data exchange doesn't result in error, but you want to get more insights about the data that was actaully sent and received. Note that some data is always logged, regardless of whether logging is turned on. For more information, see [Data capture](#data-capture).
 
 ### To review logs
 
@@ -50,7 +41,11 @@ Also, on the **Shopify Log Entries** page, you can delete all log entries, or ju
 
 You can download the request and response values as files in a text format.
 
-To avoid effects on performance and the size of your database, consider whether to turn off logging.
+### Manage log entry data
+
+To help keep the size of your database under control, log entries are included in a data retention policy named **Shpfy Log Entry**. Retention policies let you specify how long you want to store different types of data. By default, Shopify log entries are kept for one month. To learn more about retention policies, go to [Define Retention Policies](../admin-data-retention-policies.md).
+
+Also, on the **Shopify Log Entries** page, you can delete all log entries, or just the entries that are older than seven days.
 
 ## Data capture
 

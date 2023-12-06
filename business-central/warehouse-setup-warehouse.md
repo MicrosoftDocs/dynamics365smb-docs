@@ -7,13 +7,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
-ms.date: 06/25/2021
+ms.date: 09/28/2023
 ms.author: bholtorf
 
 ---
 # Setting Up Warehouse Management
 
-A company's distribution strategy is reflected in the configuration of its warehouse processes. This includes defining how different items are handled in different warehouse locations, such as the degree of bin control and the extend of workflow required between warehouse activities.  
+A company's distribution strategy is reflected in the configuration of its warehouse processes. This includes defining how different items are handled in different warehouse locations, such as the degree of bin control and the extent of workflow required between warehouse activities.  
 
 The following table describes a sequence of tasks, with links to the topics that describe them.  
 

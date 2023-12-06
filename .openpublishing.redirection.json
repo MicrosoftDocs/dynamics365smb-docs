@@ -944,7 +944,7 @@
         },
         {
            "source_path": "business-central/product-news.md",
-           "redirect_url": "/dynamics365/dev-itpro/whatsnew/overview",
+           "redirect_url": "/dynamics365/business-central/dev-itpro/whatsnew/overview",
            "redirect_document_id": "false"
         }             
         ]

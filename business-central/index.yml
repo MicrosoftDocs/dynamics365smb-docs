@@ -27,7 +27,7 @@ highlightedContent:
     # Card
     - title: What's new
       itemType: whats-new
-      url: /dynamics365/business-central/product-news
+      url: /dynamics365/business-central/dev-itpro/whatsnew/overview?toc=/dynamics365/business-central/toc.json
     # Card
     - title: Training
       itemType: training

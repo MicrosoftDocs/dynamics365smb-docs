@@ -2,15 +2,13 @@
 title: Submit Regulatory Alerts
 description: If you know about new legislation that requires feature support in Business Central, you can follow this guide to submit a regulatory alert to the product team.
 author: sorenfriisalexandersen
-
-
 ms.topic: conceptual
 ms.reviewer: bholtorf
 ms.search.keywords:
 ms.date: 06/25/2021
 ms.author: soalex
-
 ---
+
 # Submit Alerts about Country/Region-Specific Regulatory Features
 
 We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regulatory alerts through the Dynamics regulatory alert submission service.  
@@ -48,7 +46,7 @@ We invite you to use Microsoft Dynamics Lifecycle Services (LCS) to submit regul
         |Description  | Enter a brief overview of the law. Your description should focus on issues that are relevant to enterprise resource planning (ERP), so that users can understand the requirements at a high level without having to read the legislation first.|
         |Country  | Specify the country or region that the legislation applies to.|
         |Industry| Specify the industry, if the requirement applies only to specific industries. For example, choose **Public sector**, **Retail**, or **Manufacturing**.|
-        |Feature reference  | This is not relevant for Dynamics 365 Business Central, but you can enter a feature reference, if you know it. The list of features for the specific country/region can be found in the [Localization portal](/dynamics/s-e/) on the CustomerSource site. |
+        |Feature reference  | This is not relevant for Dynamics 365 Business Central, but you can enter a feature reference, if you know it. |
         |Law enforcement date  | Specify the date when affected customers must start to comply with the law.|
         |Government announcement date  | Specify the date when the authority announced the change.|
         |Latest filing date  | Select the deadline for the first submission of the new or changed report.|

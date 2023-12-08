@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 10/05/2023
+ms.date: 12/08/2023
 ms.custom: bap-template
 ms.service: dynamics365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
@@ -64,6 +64,7 @@ The data area is where the rows and columns of the list page query are shown and
 ![Shows an overview of a data area on a page in the data analysis mode](media/analysis-mode-data-area.png)
 
 - To move a column, select it and drag it to where they make the most sense in your analysis.
+- To sort on a column, select the column header. To sort on multiple columns, select and hold <kbd>Shift</kbd> key while selecting the column headers want to sort on.
 - Right-click the column or hover over it and select the menu icon ![Shows the icon on a column in data analysis mode that opens a menu of actions](media/analysis-mode-column-menu-icon.png) to access several actions that you can do on columns. For example:
 
   - To pin a column to the left or right of the data area so that it doesn't move off the screen when you scroll, select ![Shows the icon on a column in data analysis mode that opens a menu of actions](media/analysis-mode-column-menu-icon.png) > **Pin column** > **Pin left** the column part.

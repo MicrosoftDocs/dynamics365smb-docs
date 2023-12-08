@@ -20,20 +20,20 @@ The following topics describe the local functionality in the Danish version of [
 ## Feature Availability
 
 * Compliance
-    * Audit trail and edit logs for bookkeeping software in Denmark **Planned in November 2023**
-    * 5-years keeping data compliance **Planned for 2023 release wave 2**
+    * Compliance with the bookkeeping act in Denmark **Planned in November 2023**
+    * [5-years keeping data compliance](how-to-keep-data-5years.md) **Available from January 2024**
     * [Mandatory digital vouchers as attachments](how-to-digital-vouchers-dk.md) **Available from v23.2**
 
 * Auditing
-    *  [Export the SAF-T audit file format](how-to-use-saft-audit-files-export.md) **Available in September 2023**
-    *  [Standard Chart of Account](how-to-set-up-standard-coa.md) **Available in September 2023**
-    *  [Upload of CSV file with accounting data to Regnskab Basis](how-to-use-regnskabbasis-export.md) **Available in September 2023**
+    *  [Export the SAF-T audit file format](how-to-use-saft-audit-files-export.md) **Available Now**
+    *  [Standard Chart of Account](how-to-set-up-standard-coa.md) **Available Now**
+    *  [Upload of CSV file with accounting data to Regnskab Basis](how-to-use-regnskabbasis-export.md) **Available Now**
 
 * VAT
     * [Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md) **Available Now**
     * [VAT-VIES Reporting](vat-vies-reporting.md) **Available Now**
     * [VAT Registration Number Setup for Intrastat](vat-registration-no-intrastat.md) **Available Now** 
-    * E-submission of VAT return - **Planned for 2023 release wave 2** 
+    * [E-submission of VAT return](how-to-evat-statement-dk.md) **Available vrom 23.2, GA from January 2024** 
 
 * Banking & Payments
     * [The Payments and Reconciliations (DK) Extension](../../ui-extensions-payments-reconciliation-formats-dk.md) **Available Now**
@@ -45,9 +45,9 @@ The following topics describe the local functionality in the Danish version of [
     * [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md) **Available Now***
     * [The OIOUBL Extension for Electronic Invoicing](ui-extensions-oioubl.md) **Available Now**
     * [Create Electronic Documents in an OIOUBL Format](how-to-create-electronic-documents-by-using-oioubl.md) **Available Now**
-    * Registration for the Nemhandelsregisteret **Planned for 2023 release wave 2**
-    * Notification for the Nemhandelsregisteret registration **Planned for 2023 release wave 2**
-    * Electronic invoicing with NemHandel **Planned for January 2024**
+    * [Registration for the Nemhandelsregisteret](how-to-nemhandel-register.md) **Available from v23.2**
+    * [Notification for the Nemhandelsregisteret registration](how-to-nemhandel-register.md) **Available from v23.2**
+    * Electronic invoicing with NemHandel **Available vrom 23.2, GA from January 2024**
 
 * Payroll
     * [Payroll Data Definitions (DK)](ui-extensions-payroll-data-definitions-dk.md) **Available Now**

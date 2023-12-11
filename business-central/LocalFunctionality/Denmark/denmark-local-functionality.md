@@ -33,7 +33,7 @@ The following topics describe the local functionality in the Danish version of [
     * [Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md) **Available Now**
     * [VAT-VIES Reporting](vat-vies-reporting.md) **Available Now**
     * [VAT Registration Number Setup for Intrastat](vat-registration-no-intrastat.md) **Available Now** 
-    * [E-submission of VAT return](how-to-evat-statement-dk.md) **Available vrom 23.2, GA from January 2024** 
+    * [E-submission of VAT return](how-to-evat-statement-dk.md) **Available from 23.2, GA from January 2024** 
 
 * Banking & Payments
     * [The Payments and Reconciliations (DK) Extension](../../ui-extensions-payments-reconciliation-formats-dk.md) **Available Now**
@@ -47,7 +47,7 @@ The following topics describe the local functionality in the Danish version of [
     * [Create Electronic Documents in an OIOUBL Format](how-to-create-electronic-documents-by-using-oioubl.md) **Available Now**
     * [Registration for the Nemhandelsregisteret](how-to-nemhandel-register.md) **Available from v23.2**
     * [Notification for the Nemhandelsregisteret registration](how-to-nemhandel-register.md) **Available from v23.2**
-    * Electronic invoicing with NemHandel **Available vrom 23.2, GA from January 2024**
+    * Electronic invoicing with NemHandel **Available from 23.2, GA from January 2024**
 
 * Payroll
     * [Payroll Data Definitions (DK)](ui-extensions-payroll-data-definitions-dk.md) **Available Now**

@@ -10,11 +10,6 @@ ms.date: 09/12/2023
 ms.custom: bap-template
     
 ---
-
-<!-- Note from editor: The article mentioned in line 
-
-
-
 # Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations
 
 How you pick components for production, jobs, or assembly orders depends on how your warehouse is set up as a location. Learn more at [Setting Up Warehouse Management](warehouse-setup-warehouse.md).

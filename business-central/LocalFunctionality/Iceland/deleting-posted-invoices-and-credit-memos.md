@@ -1,6 +1,6 @@
 ---
-    title: Deleting Posted Invoices and Credit Memos [IS]
-    description: In Iceland, in accordance with legislation, you cannot delete posted sales and purchase invoices and credit memos.
+    title: Deleting posted invoices and credit memos [IS]
+    description: In Iceland, in accordance with legislation, you can't delete posted sales and purchase invoices and credit memos.
     services: project-madeira 
     documentationcenter: ''
     author: brentholtorf
@@ -9,13 +9,13 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: Iceland, post, invoice, credit memo
-    ms.date: 06/18/2021
+    ms.date: 12/11/2023
     ms.author: bholtorf
 ---
-# Deleting Posted Invoices and Credit Memos in the Icelandic Version
-In Iceland, in accordance with legislation, you cannot delete sales and purchase invoices and credit memos after they are posted. In [!INCLUDE[prod_short](../../includes/prod_short.md)], the **Delete** command is not available for these types of posted documents.
+# Delete posted invoices and credit memos in the Icelandic version
+In Iceland, in accordance with legislation, you can't delete sales and purchase invoices and credit memos after they're posted. In [!INCLUDE[prod_short](../../includes/prod_short.md)], the **Delete** command isn't available for these types of posted documents.
 
-## See Also  
+## See also  
 [Invoice Sales](../../sales-how-invoice-sales.md)
 
 

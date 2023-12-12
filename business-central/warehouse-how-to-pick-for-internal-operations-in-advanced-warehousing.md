@@ -10,11 +10,16 @@ ms.date: 09/12/2023
 ms.custom: bap-template
     
 ---
+
+<!-- Note from editor: The article mentioned in line 
+
+
+
 # Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations
 
 How you pick components for production, jobs, or assembly orders depends on how your warehouse is set up as a location. Learn more at [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
-In a advanced warehouse configuration for the outbound flow (pick), turn on the **Require Pick** and **Require Shipment** toggles on the **Location Card** page for the location.
+In an advanced warehouse configuration for the outbound flow (pick), turn on the **Require Pick** and **Require Shipment** toggles on the **Location Card** page for the location.
 
 When the location is set up to require warehouse pick processing and warehouse shipment processing, use warehouse pick documents to create and process pick information before you post the usage or consumption of components.  
 
@@ -38,7 +43,7 @@ Use **Warehouse Pick** documents for picking production components in the flow t
 For a location that uses bins to move items to open shop floor bins, you can use the following methods:
 
 * For a location that uses directed put-away and pick, follow the steps in the [Move Items in advanced warehouse configurations](warehouse-how-to-move-items-in-advanced-warehousing.md) article.
-* For other locations, follow the steps in the [Move Items Unplanned in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) article.
+* For other locations, follow the steps in the [Move Items Internally in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) article.
 
 ## Assembly  
 
@@ -140,13 +145,13 @@ Use **Warehouse Pick** documents to pick job components in the flow to project m
     * [Assemble Items](assembly-how-to-assemble-items.md)
     * [Record Consumption or Usage for Jobs](projects-how-record-job-usage.md)
 
-## Flushing production components in a advanced warehouse configuration
+## Flushing production components in an advanced warehouse configuration
 
 Flushing methods affect the flow of components in production. Learn more at [Flush Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md). Depending on the selected flushing method, you can pick components for production om the following ways:
 
 * Use a **Warehouse Pick** document to record the pick for items that use the **Manual** flushing method. You'll need to register consumption separately. Learn more at [Batch Post Production Consumption](production-how-to-post-consumption.md).
 * Use a **Warehouse Pick** document to record the pick for items that use the **Pick + Forward**, **Pick + Backward** flushing method. Consumption of the components will happen automatically either when you change the status of the production order or by starting or ending an operation. All required components must be available. Otherwise, posting flushed consumption stop for that component.
-* Use a **Warehouse Movement** document without a reference to a source document or other ways to record the movement of components that use the **Forward** or **Backward** flushing method. Components are automatically consumed either when you change of status of the production order or start or end an operation. All required components must be available. Otherwise, posting flushed consumption stops for that component. Learn more at [Move Items](warehouse-move-items.md).
+* Use a **Warehouse Movement** document without a reference to a source document or other ways to record the movement of components that use the **Forward** or **Backward** flushing method. Components are automatically consumed either when you change the status of the production order or start or end an operation. All required components must be available. Otherwise, posting flushed consumption stops for that component. Learn more at [Move Items](warehouse-move-items.md).
 
 ### Example
 
@@ -173,11 +178,11 @@ The following illustration shows when the **Bin Code** field on the component li
 
 ## See also
 
-[Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
-[Assembly Management](assembly-assemble-items.md)  
-[Warehouse Management Overview](design-details-warehouse-management.md)
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+- [Manage Inventory](inventory-manage-inventory.md)  
+- [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
+- [Assembly Management](assembly-assemble-items.md)  
+- [Warehouse Management Overview](design-details-warehouse-management.md)
+- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

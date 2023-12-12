@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment, practices, vendor, customer, report
 ms.search.form: 686, 687, 689 
-ms.date: 09/20/2022
+ms.date: 12/12/2022
 ms.author: altotovi
 
 --- 

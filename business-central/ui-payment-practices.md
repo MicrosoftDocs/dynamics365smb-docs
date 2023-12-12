@@ -1,6 +1,6 @@
 ---
-title: Generate Payment Practices Report
-description: Learn how to easily create payment practices report for vendors and customers. 
+title: Payment Practices report
+description: Learn how to easily create the Payment Practices report for vendors and customers. 
 author: altotovi
 ms.topic: conceptual
 ms.devlang: na
@@ -13,9 +13,9 @@ ms.author: altotovi
 
 --- 
 
-# What is Payment Practices Reporting  
+# Payment Practices report  
 
-Some countries require, that companies have to report payment times for their vendors as defined by local authorities. This reporting can be based on different sources and it can sort vendors based on their size or defined payment terms, and provides reporting for the vendors for the following as required by local authorities:  
+Some countries require that companies report payment times for their vendors as defined by local authorities. This reporting can be based on different sources and can sort vendors based on their size or defined payment terms, providing reporting for vendors for the following as required by local authorities:  
 
 - The average agreed payment period.  
 - The average actual payment term.   
@@ -26,20 +26,20 @@ Users can select the period for which they want to run a calculation and to find
 > [!NOTE]
 > This reporting is so far required in some countries, but this is global feature and can be used everywhere. Currently, each year Swedish companies with 250 and more employees must report to the Swedish Companies Registration Office what payment times they have for purchases from companies that are smaller than themselves. Similar acts exist in the United Kingdom, Australia, and New Zealand.  
 
-## Generating the Payment Practices Report 
+## Generate the report 
 
-To run payment practices reporting use the following steps:
+To run the Payment Practices report, use the following steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Practices**, and then choose the related link. 
-2. To create new reporting click **New**.
-3. Populate the following fields on the **General** FastTab:
+1. Select the ![Lightbulb that op the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Practices**, and then select the related link. 
+2. Select **New**.
+3. On the **General** FastTab, enter values in the following fields:
 
    | Field | Description |
    |---------|-----------------------------------|
-   | No. | Specifies the number of the involved entry or record. |
-   | Aggregation Type | Spefies the option how data need to be aggregated. If you choose the option **Period** report will be based on 
-   | Header Type |
-   | Starting Date |
-   | Ending Date |
+   | No. | Specify the number of the entry or record for the report. |
+   | Aggregation Type | Specity how data is aggregated. If you choose the option **Period** report will be based on |
+   | Header Type |   |
+   | Starting Date |   |
+   | Ending Date |    |
       
 5. 

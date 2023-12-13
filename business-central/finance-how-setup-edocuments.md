@@ -72,9 +72,9 @@ If you've configured the **Data Exchange Definition** format in your localizatio
 
 If you don't use the **Data Exchange Definition** format, you can create and configure formats by using the [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Adjust the information on the **Export Mapping** and **Import Mapping** lines, where you can find the tables and fields to configure transformation rules. In this case, you must add a new option in the **Document Format** field that's related to your format.  
 
-### Supported Document Types 
+### Supported document types 
 
-Supported document types may differ and they are based on the chosen **Document Format**. To check which documents are supported, from the **E-Document Service** page, run the **Supported Document Types** action. New page **E-Document Service Supported Source Document Types** will be opened and you can find all supported document types in the **Source Document Type** column.  
+Supported document types are based on the chosen **Document Format**. To check which document types are supported, on the **E-Document Service** page, run the **Supported Document Types** action. The **E-Document Service Supported Source Document Types** opens and in the **Source Document Type** column, you can find all the supported document types.  
 
 ## Set up a document sending profile
 

@@ -1,5 +1,5 @@
 ---
-title: Attachments for Interactions
+title: Attachments for interactions
 description: You can attach files, such as Word documents, to add details about an interaction.
 author: brentholtorf
 ms.author: bholtorf
@@ -10,7 +10,7 @@ ms.search.forms: 5082,
 ms.date: 09/05/2023
 ms.custom: bap-template
 ---
-# Attachments for Interactions
+# Attachments for interactions
 
 The files that are attached to interactions aren't attached to the interaction directly. They come from one of the following places:
 

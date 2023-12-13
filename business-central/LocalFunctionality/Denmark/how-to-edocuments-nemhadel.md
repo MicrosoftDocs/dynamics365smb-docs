@@ -30,31 +30,31 @@ To set up services, follow next steps:
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.  
 2. Click **New** to create OIOUBL service.   
-3. Fill in all the data as explained in the [Using E-Documents Connector with External Endpoints](../finance-how-setup-edocuments-external.md).
+3. Fill in all the data as explained in the [Using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md).
 4. In the **Document Format** field choose the **OIOUBL** option to specify this export format of the electronic export setup. 
 5. In the **Service Integration** field specify the service access point you want to use.  
-6. Run the **Setup Service Integration** action and follow the instructions for [Using E-Documents Connector with External Endpoints](../finance-how-setup-edocuments-external.md). 
+6. Run the **Setup Service Integration** action and follow the instructions for [Using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md). 
 7. Close the page.    
 8. Click **New** to create PEPPOL service.   
-9. Fill in all the data as explained in the [Using E-Documents Connector with External Endpoints](../finance-how-setup-edocuments-external.md). 
+9. Fill in all the data as explained in the [Using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md). 
 10. In the **Document Format** field choose the **PEPPOL BIS 3.0** option to specify this export format of the electronic export setup. 
 11. In the **Service Integration** field specify the service access point you want to use.  
-12. Run the **Setup Service Integration** action and follow the instructions for [Using E-Documents Connector with External Endpoints](../finance-how-setup-edocuments-external.md). 
+12. Run the **Setup Service Integration** action and follow the instructions for [Using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md). 
 13. Close the page.   
 
 > [!NOTE]
 > This connection requires communication with the external service providers, and they might be subject to additional payment and requiring contracts with them. To get all necessary credentials, please contact service providers. 
 
-To configure Workflows, Customers, and Vendors, please read [How to set up E-Documents](../finance-how-setup-edocuments.md) and [Using E-Documents Connector with External Endpoints](../finance-how-setup-edocuments-external.md).
+To configure Workflows, Customers, and Vendors, please read [How to set up E-Documents](../../finance-how-setup-edocuments.md) and [Using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md).
 
 ## See also
 
 [Denmark Local Functionality](denmark-local-functionality.md)
-[How to set up e-documents in Business Central](../finance-how-setup-edocuments.md)
-[How to use e-documents in Business Central](../finance-how-use-edocuments.md)  
-[How to extend e-documents in Business Central](..//dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
-[Invoice Sales](../sales-how-invoice-sales.md)  
-[Record Purchases with Purchase Invoices and Orders](../purchasing-how-record-purchases.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](../ui-work-product.md)
+[How to set up e-documents in Business Central](../../finance-how-setup-edocuments.md)
+[How to use e-documents in Business Central](../../finance-how-use-edocuments.md)  
+[How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
+[Invoice Sales](../../sales-how-invoice-sales.md)  
+[Record Purchases with Purchase Invoices and Orders](../../purchasing-how-record-purchases.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](../../ui-work-product.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

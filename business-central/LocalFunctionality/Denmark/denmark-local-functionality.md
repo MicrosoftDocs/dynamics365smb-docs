@@ -47,7 +47,7 @@ The following topics describe the local functionality in the Danish version of [
     * [Create Electronic Documents in an OIOUBL Format](how-to-create-electronic-documents-by-using-oioubl.md) **Available Now**
     * [Registration for the Nemhandelsregisteret](how-to-nemhandel-register.md) **Available from v23.2**
     * [Notification for the Nemhandelsregisteret registration](how-to-nemhandel-register.md) **Available from v23.2**
-    * Electronic invoicing with NemHandel **Available from 23.2, GA from January 2024**
+    * [Electronic invoicing with NemHandel](how-to-edocuments-nemhadel.md) **Available from 23.2, GA from January 2024**
 
 * Payroll
     * [Payroll Data Definitions (DK)](ui-extensions-payroll-data-definitions-dk.md) **Available Now**

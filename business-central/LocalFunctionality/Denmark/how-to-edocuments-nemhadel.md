@@ -14,7 +14,7 @@ ms.author: altotovi
 
 # Set up Electronic invoicing with NemHandel 
 
-In Denmark, you can configure your e-invoicing system to work with Nemhadel by using 3rd party certified access points. Before you start, read details about [using E-documents with external services](../finance-how-setup-edocuments-external.md) and make a contract with one of the supported external certified access point providers.  
+In Denmark, you can configure your e-invoicing system to work with Nemhadel by using 3rd party certified access points. Before you start, read details about [using E-documents with external services](../../finance-how-setup-edocuments-external.md) and make a contract with one of the supported external certified access point providers.  
 
 Before you begin the setup, check the **Extension management** page verify the following apps are installed:
 - E-Document Core
@@ -28,7 +28,7 @@ In Danish E-Document functionality, you can choose OIOUBL and PEPPOL BIS 3 as do
 
 To set up services, complete the following steps:  
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.  
+1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.  
 2. Select **New** to create OIOUBL service.   
 3. Fill in all the data as explained in the article, [Using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md).
 4. In the **Document Format** field, select **OIOUBL** to specify this export format of the electronic export setup. 
@@ -53,6 +53,6 @@ To configure Workflows, customers, and vendors, see [How to set up E-Documents](
 [How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
 [Invoice Sales](../../sales-how-invoice-sales.md)  
 [Record Purchases with Purchase Invoices and Orders](../../purchasing-how-record-purchases.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](../../ui-work-product.md)
+[Work with Business Central](../../ui-work-product.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

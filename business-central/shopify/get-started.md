@@ -47,9 +47,9 @@ For existing instances of [!INCLUDE[prod_short](../includes/prod_short.md)], thi
 
 ## Connect Business Central to the Shopify online store
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop** and choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
 2. Choose the **New** action.  
-3. In the **Code** field, enter a code that will make it easy to find in [!INCLUDE[prod_short](../includes/prod_short.md)]. For example, the name might reflect what a shop sells, such as "Furniture" or "Coffee", or the country or region it serves.
+3. In the **Code** field, enter a code that will be easy to find in [!INCLUDE[prod_short](../includes/prod_short.md)]. For example, the name might reflect what a shop sells, such as "Furniture" or "Coffee," or the country or region it serves.
 4. In the **Shopify URL** field, enter the URL of the online shop that you're connecting. Use the following format: `https://{shop}.myshopify.com/`.
 5. Turn on the **Enabled** toggle, and then review and accept the terms and conditions.
 6. If prompted, sign in to your Shopify account. Review the privacy terms and permissions, and then choose the **Install App** button.

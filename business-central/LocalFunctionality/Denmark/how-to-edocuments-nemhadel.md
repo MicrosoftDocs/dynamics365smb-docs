@@ -1,5 +1,5 @@
 ---
-title: Set electronic invoicing with NemHandel
+title: Set up electronic invoicing with NemHandel
 description: Learn how to set up e-documents functionality with Nemhadel in Denmark.
 author: altotovi
 ms.topic: conceptual
@@ -12,40 +12,38 @@ ms.date: 12/13/2023
 ms.author: altotovi
 ---
 
-# Set Electronic invoicing with NemHandel 
+# Set up Electronic invoicing with NemHandel 
 
-In Denmark users can configure their e-invoicing system to work with Nemhadel via 3rd party certified access points. Before start, please first read details about [using E-documents with external services](../finance-how-setup-edocuments-external.md) and make a contract with one of supported external certified access points providers.  
+In Denmark, you can configure your e-invoicing system to work with Nemhadel by using 3rd party certified access points. Before you start, read details about [using E-documents with external services](../finance-how-setup-edocuments-external.md) and make a contract with one of the supported external certified access point providers.  
 
-Technically as a prerequisites, you must check in the **Extension management** page if you already have installed the following apps:  
+Before you begin the setup, check the **Extension management** page verify the following apps are installed:
 - E-Document Core
 - E-Documents Connector with External Endpoints
 - OIOUBL
 - E-Document format for OIOUBL
 
-In a Danish E-Document functionality, users can choose OIOUBL and PEPPOL BIS 3 as document formats in **E-Document Services**.  
+In Danish E-Document functionality, you can choose OIOUBL and PEPPOL BIS 3 as document formats in **E-Document Services**.  
 
-## E-Document Services Setup  
+## E-Document services setup  
 
-To set up services, follow next steps:  
+To set up services, complete the following steps:  
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.  
-2. Click **New** to create OIOUBL service.   
-3. Fill in all the data as explained in the [Using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md).
-4. In the **Document Format** field choose the **OIOUBL** option to specify this export format of the electronic export setup. 
-5. In the **Service Integration** field specify the service access point you want to use.  
-6. Run the **Setup Service Integration** action and follow the instructions for [Using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md). 
-7. Close the page.    
-8. Click **New** to create PEPPOL service.   
-9. Fill in all the data as explained in the [Using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md). 
-10. In the **Document Format** field choose the **PEPPOL BIS 3.0** option to specify this export format of the electronic export setup. 
-11. In the **Service Integration** field specify the service access point you want to use.  
-12. Run the **Setup Service Integration** action and follow the instructions for [Using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md). 
-13. Close the page.   
+2. Select **New** to create OIOUBL service.   
+3. Fill in all the data as explained in the article, [Using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md).
+4. In the **Document Format** field, select **OIOUBL** to specify this export format of the electronic export setup. 
+5. In the **Service Integration** field, specify the service access point you want to use.  
+6. Select **Setup Service Integration** and follow the instructions for [Using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md). Then close the page.  
+7. Select **New** to create PEPPOL service.   
+8. Fill in all the data as explained in the article, [Using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md). 
+9. In the **Document Format** field, select **PEPPOL BIS 3.0** to specify this export format of the electronic export setup. 
+10. In the **Service Integration** field, specify the service access point you want to use.  
+11. Select **Setup Service Integration** and follow the instructions for [Using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md). Then close the page. 
 
 > [!NOTE]
-> This connection requires communication with the external service providers, and they might be subject to additional payment and requiring contracts with them. To get all necessary credentials, please contact service providers. 
+> This connection requires communication with external service providers who might be subject to additional payment, requiring contracts with them. To get all necessary credentials, contact the service providers. 
 
-To configure Workflows, Customers, and Vendors, please read [How to set up E-Documents](../../finance-how-setup-edocuments.md) and [Using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md).
+To configure Workflows, customers, and vendors, see [How to set up E-Documents](../../finance-how-setup-edocuments.md) and [Using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md).
 
 ## See also
 

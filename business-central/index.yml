@@ -233,6 +233,16 @@ additionalContent:
  #       url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams 
  #     - text: Dataverse
  #       url: /dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration 
+    - title: Translation Services
+      links:
+      - text: Dynamics 365 Translation Service overview
+        url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview
+      - text: Dynamics 365 Translation Service API 
+        url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/dts-api-info 
+      - text: Dynamics Lifecycle Services API - Authentication  
+        url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-aad-app-reg
+      - text: Translate user interface files  
+        url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/use-translation-service       
 
   - title: Be productive
     items:

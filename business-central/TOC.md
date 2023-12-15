@@ -333,6 +333,7 @@
 #### [E-Documents overview](finance-edocuments-overview.md)
 #### [Set up E-documents](finance-how-setup-edocuments.md)
 #### [Use e-documents in sales and purchases](finance-how-use-edocuments.md)
+#### [Set the E-Documents connector with external endpoints](finance-how-setup-edocuments-external.md)
 #### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### Manage VAT
@@ -871,6 +872,7 @@
 #### [Local functionality in the Danish version](LocalFunctionality/Denmark/denmark-local-functionality.md)
 #### [Notification and registration for the NemHandelsregisteret in Denmark](localfunctionality/denmark/how-to-nemhandel-register.md)
 #### [Set up electronic invoicing with NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
+#### [Keep transactional data for five years in Denmark](localfunctionality/denmark/how-to-keep-data-5years.md)
 #### VAT
 ##### [Print VAT reconciliation reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [VAT-VIES reports](LocalFunctionality/Denmark/vat-vies-reporting.md)

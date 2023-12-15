@@ -1,5 +1,5 @@
 ---
-title: Keeping data for five years in Denmark
+title: Keep transactional data for five years in Denmark 
 description: This article describes how to automatically keep data based on the Danish bookkeeping act.
 author: altotovi
 ms.topic: conceptual
@@ -13,25 +13,26 @@ ms.author: altotovi
 
 ---
 
-# Keeping transactional data for five years in Denmark 
+# Keep transactional data for five years in Denmark
 
-Based on Danish bookkeeping act, Dynamics 365 Business central as a digital standard bookkeeping system must support storage of the company´s recorded transactions and receipts covered by § 3 for five years from the end of the financial year. Together with digital vouchers, those posted transactions must be preserved so that they can't be changed, backdated. or deleted by the company or a user. A software provider must keep them stored in a structured and machine-readable format during this period, regardless of any termination of customer relations with the company, or the company's bankruptcy or forced dissolution.    
+Based on the Danish bookkeeping act, Dynamics 365 Business Central, as a digital standard bookkeeping system, must support storage of the company's recorded transactions and receipts that are covered by §3 for five years from the end of the financial year. Together with digital vouchers, those posted transactions must be preserved so that they can't be changed, backdated, or deleted by the company or a user. A software provider must keep them stored in a structured and machine-readable format during that period, regardless of any termination of customer relations with the company, or the company's bankruptcy or forced dissolution.
 
-To provide these requirements, Microsoft will export all required transactional data and the related digital vouchers on a daily basis in the account-protected Azure Blob Storage. After the data and vouchers are posted, they can't be changed, backdated, or deleted by the company. These data can be available only for Danish authorities based on official request based on the law, and even then, access to this data is read-only. Because the system saves data daily, data not required by the law (older than 5 years from the end of the financial year the material concerns) can automatically be located and removed based on the requirement for not keeping data more than required by the law. Microsoft won't keep data in this storage prior to the law requirements - from 2024 year.   
+To meet these requirements, Microsoft will export all required transactional data and the related digital vouchers on a daily basis in the account-protected Azure Blob Storage. After the data and vouchers are posted, they can't be changed, backdated, or deleted by the company. This data can be made available only to Danish authorities in response to an official request based on the law. Even then, access to this data is read-only.
 
-## Mandatory usage of CVR Number 
+Because the system saves data daily, data that isn't required by the law (that is, data that's older than five years from the end of the financial year that the material concerns) can be automatically located and removed, based on the requirement for not keeping data longer than is required by the law. Microsoft won't keep data in this storage before the law requires (that is, from the year 2024).
 
-The CVR Number must be populated before users post to the general ledger. To do this, follow these steps:  
+## Mandatory use of the CVR number
+
+The Central Business Register (CVR) number must be filled in before users post to the general ledger. To fill it in, follow these steps:
 
 1. Select the search button ![Magnifying glass button that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do"), enter **Company Information**, and then select the related link.
-2. In the **Registration No.** field, enter the CVR Number for your company.
+2. In the **Registration No.** field, enter the CVR number for your company.
 3. Close the page.
 
-
-For more information, see [Danish Local Functionality](denmark-local-functionality.md).
+For more information, see [Denmark Local Functionality](denmark-local-functionality.md).
 
 ## See also
 
-[Financial Management](../../finance.md)  
+[Financial Management](../../finance.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

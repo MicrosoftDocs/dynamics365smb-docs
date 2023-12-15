@@ -870,6 +870,7 @@
 ### Denmark
 #### [Local functionality in the Danish version](LocalFunctionality/Denmark/denmark-local-functionality.md)
 #### [Notification and registration for the NemHandelsregisteret in Denmark](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Set up electronic invoicing with NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
 #### VAT
 ##### [Print VAT reconciliation reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [VAT-VIES reports](LocalFunctionality/Denmark/vat-vies-reporting.md)
@@ -883,7 +884,7 @@
 ##### [Set up customers for OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [Set up OIOUBL electronic invoice](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [The OIOUBL extension for electronic invoice](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [Create electronic documents in an OIOUBL format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+##### [Create electronic documents in an OIOUBL format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md
 #### Payroll
 ##### [Payroll data definitions (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 #### Digital vouchers

@@ -29,7 +29,7 @@ In Danish E-Documents functionality, you can select OIOUBL and PEPPOL BIS 3 as d
 
 To set up services, complete the following steps:
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
+1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
 2. Select **New** to create the OIOUBL service.
 3. Fill in all the data as explained in [Set the E-Documents connector with external endpoints](../../finance-how-setup-edocuments-external.md).
 4. In the **Document Format** field, select **OIOUBL** as the export format of the electronic export setup.

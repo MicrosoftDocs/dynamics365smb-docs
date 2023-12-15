@@ -333,6 +333,7 @@
 #### [E-Documents overview](finance-edocuments-overview.md)
 #### [Set up E-documents](finance-how-setup-edocuments.md)
 #### [Use e-documents in sales and purchases](finance-how-use-edocuments.md)
+#### [Set the E-Documents connector with external endpoints](finance-how-setup-edocuments-external.md)
 #### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### Manage VAT

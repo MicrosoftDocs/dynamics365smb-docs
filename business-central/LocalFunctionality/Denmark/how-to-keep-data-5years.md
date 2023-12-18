@@ -29,6 +29,9 @@ The Central Business Register (CVR) number must be filled in before users post t
 2. In the **Registration No.** field, enter the CVR number for your company.
 3. Close the page.
 
+> [!IMPORTANT]
+> Once when the CVR number is entered in the **Registration No.** field in the **Company Information** page and iti is validated with the Nemhandel APS, it will not be allowed modifying and deleting it.   
+
 For more information, see [Denmark Local Functionality](denmark-local-functionality.md).
 
 ## See also

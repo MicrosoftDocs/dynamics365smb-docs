@@ -18,7 +18,7 @@ This article describes the necessary settings and steps that you must complete t
 
 Enter a **currency code** if your online shop uses a different currency than the local currency (LCY). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty. 
 
-You can saccess the Store Currency in the [Store details](https://www.shopify.com/admin/settings/general) settings in your Shopify Admin. Shopify can be configured to accept different currencies, however imported orders into [!INCLUDE[prod_short](../includes/prod_short.md)] use store currency.
+You can review the Store Currency in the [Store details](https://www.shopify.com/admin/settings/general) settings in your Shopify Admin. Shopify can be configured to accept different currencies, however imported orders into [!INCLUDE[prod_short](../includes/prod_short.md)] use store currency.
 
 A regular Shopify order can include costs in addition to the subtotal, such as shipping charges or, if enabled, tips. These amounts are posted directly to the G/L account you want used for specific transaction types:
 

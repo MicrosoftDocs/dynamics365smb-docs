@@ -1,5 +1,5 @@
 ---
-title: Responding to Requests About Users' Personal Data
+title: Responding to requests about users' personal data
 description: This article explains how to respond to requests about personal data.
 author: brentholtorf
 ms.author: bholtorf
@@ -9,12 +9,14 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# Responding to Requests About Users' Personal Data
+# Responding to requests about users' personal data
 
-Data subjects can request several types of actions regarding their personal data. For example, under some privacy laws and regulations, they have the right to request the export, deletion, and modification of their personal data. These requests are called *Data Subject Requests*. If you have classified the sensitivity of your data, and are sure they are correct, an administrator can respond to requests by using the options in the **Data Privacy** tab in the **IT Manager** Role Center. For more information about classifying data and data sensitivity in [!INCLUDE[prod_long](includes/prod_long.md)], go to the following articles:
+Data subjects can request several types of actions regarding their personal data. For example, under some privacy laws and regulations, they have the right to request the export, deletion, and modification of their personal data. These requests are called *Data Subject Requests*. If you have classified the sensitivity of your data, and are sure they are correct, an administrator can respond to requests by using the options in the **Data Privacy** tab in the **IT Manager** Role Center. 
+<!--
+For more information about classifying data and data sensitivity in [!INCLUDE[prod_long](includes/prod_long.md)], go to the following articles:
 
 * [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) 
-* [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)  
+* [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)  -->
 
 ## Types of requests
 
@@ -61,8 +63,8 @@ If a contact person's age is below the age of legal consent according to the law
 
 ### See also
 
-[Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)  
-[Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)  
+<!-- [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)  
+[Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)  -->
 [Exporting your Business Data to Excel](about-export-data.md)  
 [Logging Changes](across-log-changes.md)  
 [Data Subject Requests](/microsoft-365/compliance/gdpr-data-subject-requests)  

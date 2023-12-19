@@ -38,8 +38,7 @@ Intrastat reporting is based on basic EU regulations that apply to all countries
 7. You can eventually set up extra configurations on the **Additional** FastTab:
    1. **Skip Recalculation for Zero Amounts** to specify that lines without amounts will not be recalculated during the batch job.
    2. **Skip Zero Amounts** to specify that item ledger entries without amounts will not be included in the batch job.
-   3. **Show Item Charge Entries** to specify if you want to show direct costs that your company has assigned and posted as item charges.
-   4. **Skip Non-Invoiced Entries** to specify if item ledger entries that are shipped or received but not yet invoiced must be excluded from the process.
+   3. **Skip Non-Invoiced Entries** to specify if item ledger entries that are shipped or received but not yet invoiced must be excluded from the process.
 8. Choose **OK** to start the batch job.
 
 The batch job retrieves all the item entries in the statistics period and inserts them as lines in the **Intrastat Report** lines. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -112,8 +111,8 @@ Fixed assets will be shown in the Intrastat lines only if:
 
 When you work with the **Intrastat Report** you will see a **Status** field on the document header. You can find the following statuses together with related rules:
 
-* *Open*: This status is created automatically when you create a new Intrastat report and you can make all operations in this status.
-* *Released*: [!INCLUDE[prod_short](includes/prod_short.md)] automatically changes the status to *Released* when you create a file. From that moment, you cannot modify your **Intrastat Report**. If you need to change something and report again, you can use the **Reopen** action to reopen the Intrastat report. Once the document is reopened, you can use the **Release** action to release the document again.
+* **Open**: This status is created automatically when you create a new Intrastat report and you can make all operations in this status.
+* **Released**: [!INCLUDE[prod_short](includes/prod_short.md)] automatically changes the status to *Released* when you create a file. From that moment, you cannot modify your **Intrastat Report**. If you need to change something and report again, you can use the **Reopen** action to reopen the Intrastat report. Once the document is reopened, you can use the **Release** action to release the document again.
 * **Reported**: Specifies whether the entry has already been reported to the tax authorities. This is not a regular status but an independent field, and even if you reopened the Intrastat report, it would still show that the file is already created for this report.
 
 ### Locations in Intrastat reporting 

@@ -82,4 +82,4 @@ If items require item tracking, you can also find the quantity in blocked lots o
 * Available quantity, excluding the shipment bin
 * The reserved quantity in warehouse 
 
-If you pick the same item for multiple source documents or lines, which is also the case when you pick serial numbers, information about picks for others lines also displays because it reduces the pickable quantity.
+If you pick the same item for multiple source documents or lines, which is also the case when you pick serial numbers, information about picks for other lines also displays because it reduces the pickable quantity.

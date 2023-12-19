@@ -67,7 +67,7 @@ You can't create a warehouse pick document from scratch. Picks are part of a wor
 6. If needed, edit the lines. You can also delete lines to make the pick more efficient. For example, if there are multiple lines with items that are in cross-dock bins, you might create a pick for all of the lines. The cross-docked items will be shipped with the other items on the shipment, and the cross-dock bins will have space for more incoming items.  
 
     > [!NOTE]  
-    >  If you delete lines, they're only only deleted from the worksheet. They aren't deleted from the pick selection list.  
+    >  If you delete lines, they're only deleted from the worksheet. They aren't deleted from the pick selection list.  
 
 7. Choose the **Create Pick** action. The **Create Pick** page opens, where you can add more information to the pick you are creating. Specify how to combine pick lines in the pick documents by selecting one of the following options.  
 
@@ -118,11 +118,11 @@ You can now bring the items to the shipment dock and post the shipment, includin
 
 ## See also
 
-[Warehouse Management Overview](design-details-warehouse-management.md)
-[Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
-[Assembly Management](assembly-assemble-items.md)    
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+- [Warehouse Management Overview](design-details-warehouse-management.md)
+- [Manage Inventory](inventory-manage-inventory.md)  
+- [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
+- [Assembly Management](assembly-assemble-items.md)    
+- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

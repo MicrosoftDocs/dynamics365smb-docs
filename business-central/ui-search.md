@@ -15,7 +15,6 @@ This article describes how the in-product search, *Tell me what you want to do*,
 * Quickly go to things like actions, pages, or reports.
 * Search for specific data, either on a list page or in all of [!INCLUDE [prod_short](includes/prod_short.md)].
 * Find [!INCLUDE [prod_short](includes/prod_short.md)] documentation about a subject you're interested in.
-* Discover other apps and consulting services for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 <!-- ![!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048] -->
 

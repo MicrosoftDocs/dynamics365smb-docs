@@ -20,7 +20,7 @@ The article provides details for setting up Microsoft Edge, but the requirements
 
 Make sure to use a one of the supported browsers. See [Minimum Requirements for Using Business Central](product-requirements.md#browsers).
 
-We recommend that you use a stable channel version of a web browser as it is the most reliable and stable version that has undergone extensive testing and bug fixing. This ensures that you have the best experience and are less likely to encounter any issues while using the web client.  
+We recommend that you use a stable channel version of a web browser as it's the most reliable and stable version that has undergone extensive testing and bug fixing. This ensures that you have the best experience and are less likely to encounter any issues while using the web client.  
 
 ## Allow JavaScript from Business Central
 

@@ -3,13 +3,13 @@ title: WorldPay Payments Standard
 description: The WorldPay Payments Standard extension lets you offer customers a convenient alternative to making payments through bank transfers or credit cards.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer:
+ms.reviewer: 
 ms.topic: conceptual
 ms.search.form: 1360, 1361, 1364, 
 ms.date: 12/11/2023
-ms.custom: hap-template
+ms.custom: bap-template
 ---
-# The WorldPay Payments Standard Extension
+# The WorldPay Payments Standard extension
 
 > [!CAUTION]
 > The WorldPay Payments Standard extension will be deprecated. The code is marked as obsolete starting in 2023 release wave 2. The app will be active for the next three major releases and then it will be removed.

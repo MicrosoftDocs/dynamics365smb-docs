@@ -22,8 +22,8 @@ If you change the CCC code structure, the **CCC No.** field updates automaticall
 
     |Field|Position|Description|  
     |---------------------------------|--------------|---------------------------------------|  
-    |**CCC Bank No.**|1-4|Identifies the bank where the account has been opened.|  
-    |**CCC Bank Branch No.**|5-8|Identifies the branch code. If the bank does not use this reference, these can be zeros.|  
+    |**CCC Bank No.**|1-4|Identifies the bank where the account is opened.|  
+    |**CCC Bank Branch No.**|5-8|Identifies the branch code. If the bank doesn't use this reference, these can be zeros.|  
     |**CCC Control Digits**|9-10|Identifies the control digits.|  
     |**CCC Bank Account No.**|11-20 (Spain)<br><br> 11-21 (Portugal)|Identifies the account number, which might be adjusted with preceding zeros.|  
 

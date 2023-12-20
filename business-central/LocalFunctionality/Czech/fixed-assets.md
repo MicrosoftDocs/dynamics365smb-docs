@@ -4,7 +4,7 @@ description: This section describes the Czech local functionality namely the Fix
 author: ACMartinKunes
 ms.topic: conceptual
 ms.search.keywords: Czech, finance, CZ, Fixed Assets
-ms.date: 06/17/2021
+ms.date: 12/20/2023
 ms.reviewer: v-pejano
 ms.author: v-makune
 ---

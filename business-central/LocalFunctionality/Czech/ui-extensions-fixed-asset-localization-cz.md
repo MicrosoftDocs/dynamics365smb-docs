@@ -4,7 +4,7 @@ description: Fixed Asset features for your Business Central in the Czech Republi
 author: v-pejano
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 05/31/2022
+ms.date: 12/20/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---

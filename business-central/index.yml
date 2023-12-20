@@ -27,7 +27,7 @@ highlightedContent:
     # Card
     - title: What's new
       itemType: whats-new
-      url: /dynamics365/business-central/product-news
+      url: /dynamics365/business-central/dev-itpro/whatsnew/overview?toc=/dynamics365/business-central/toc.json
     # Card
     - title: Training
       itemType: training
@@ -267,7 +267,7 @@ additionalContent:
         # - text: Change layout
         #    url: /dynamics365/business-central/ui-set-report-layout                                                   
           - text: Analyze list data with analysis mode
-            url: /dynamics365/business-central/across-working-with-powerbi            
+            url: /dynamics365/business-central/analysis-mode            
           - text: Analyze report data with Excel
             url: /dynamics365/business-central/report-analyze-excel                                                                                
       - title: General business functionality

@@ -25,7 +25,7 @@ Before you access [!INCLUDE[prod_short](includes/prod_short.md)] online, we reco
 > [!TIP]
 > Install the [!INCLUDE[prod_short](includes/prod_short.md)] app in the Start menu using the Microsoft Edge or Chrome browsers. For more information, see [Install the app for Business Central online](/dynamics365/business-central/install-desktop-app#install-the-app-for-business-central-online).
 
-We recommend that you use a stable channel version of a web browser as it is the most reliable and stable version that has undergone extensive testing and bug fixing. This ensures that you have the best experience and are less likely to encounter any issues while using the web client.
+We recommend that you use a stable channel version of a web browser as it's the most reliable and stable version that has undergone extensive testing and bug fixing. This ensures that you have the best experience and are less likely to encounter any issues while using the web client.
 
 ## Mobile devices
 

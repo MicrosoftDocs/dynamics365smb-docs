@@ -1,20 +1,18 @@
 ---
-title: Set Up and Export Sales VAT Advance Notifications
+title: Set up and export sales VAT advance notifications
 description: In Business Central, to create valid sales VAT advance notifications, you must set up the declaration and other setup pages.
 author: sorenfriisalexandersen
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 01/21/2022
+ms.date: 12/11/2023
 ms.author: soalex
 
 ---
 
-# Set Up and Export Sales VAT Advance Notifications
+# Set up and export sales VAT advance notifications
 
 A sales VAT advance notification is an XML file that you can use to report VAT to the German tax authorities on the Elektronische Steuererklärungen (ELSTER) online portal. [!INCLUDE [prod_short](../../includes/prod_short.md)] generates an XML file with tax and base amounts, and information about your company in the format and layout that German tax authorities require.
 
@@ -68,20 +66,20 @@ To create valid sales VAT advance notification, you must set up the following in
     > [!CAUTION]
     > If you have submitted a sales VAT advance notification as a test notification by selecting the **Testversion** field, you cannot change it into a real notification later. The tax authority will not accept the same XML file if it is submitted with the **Testversion** field cleared.
 
-    Optionally, choose the **Preview statement** action to see a VAT statement that shows the data that will be in the XML that you will submit to the ELSTER portal. This view shows an amount for each element in the XML file in a human-readable format.  
+    Optionally, choose the **Preview statement** action to see a VAT statement that shows the data that will be in the XML that you submit to the ELSTER portal. This view shows an amount for each element in the XML file in a human-readable format.  
 
     > [!NOTE]
-    > In versions older than version 19.3 and other updates that are made available in January and February 2022), the **Sales VAT Adv. Notif. Card** page shows fields and actions based on deprecated functionality in both the ELSTER portal and [!INCLUDE [prod_short](../../includes/prod_short.md)]. Specifically fields that are tied to stylesheets are no longer in use, because the ELSTER portal no longer provides such stylesheets.
+    > In versions older than version 19.3 and other updates that are made available in January and February 2022, the **Sales VAT Adv. Notif. Card** page shows fields and actions based on deprecated functionality in both the ELSTER portal and [!INCLUDE [prod_short](../../includes/prod_short.md)]. Specifically fields that are tied to stylesheets are no longer in use, because the ELSTER portal no longer provides such stylesheets.
 4. Choose the **Create XML-File** action.
 
 5. On the **Create XML - VAT Adv. Notif.** page, in the **XML-File** field, choose either the **Create** or the **Create and Export** option.  
 
-    If you choose the **Create and Export** option, the XML file is generated and saved to your device. If you choose the **Create** option, data is generated in [!INCLUDE [prod_short](../../includes/prod_short.md)] that will be generated as an XML file when you choose the **Export** action on the **Sales VAT Adv. Notif. Card** page.  
+    If you choose the **Create and Export** option, the XML file is generated and saved to your device. If you choose the **Create** option, data is generated in [!INCLUDE [prod_short](../../includes/prod_short.md)] as an XML file when you choose the **Export** action on the **Sales VAT Adv. Notif. Card** page.  
 6. Choose the **OK** button.  
 
-After the sales VAT advance notification document is created, all fields in the **Sales VAT Adv. Notif. Card** page can no longer by modified, except the **Description** field, because they define the content of the XML document. If you have created an XML document and want to create a new XML document for the same period without transmitting the existing document to the tax authority, you must delete the existing XML file and then create the new document.
+After the sales VAT advance notification document is created, all fields in the **Sales VAT Adv. Notif. Card** page can no longer be modified, except the **Description** field, because they define the content of the XML document. If you have created an XML document and want to create a new XML document for the same period without transmitting the existing document to the tax authority, you must delete the existing XML file and then create the new document.
 
-## See Also
+## See also
 
 [VAT Reporting](vat-reporting.md)  
 [Germany Local Functionality](germany-local-functionality.md)  

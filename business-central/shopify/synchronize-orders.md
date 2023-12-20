@@ -109,7 +109,7 @@ The Shopify Connector imports orders in two steps:
 
 2.	It imports Shopify orders and supplementary information.
 * The Shopify Connector processes all records in the **Shopify Orders to Import** table that match the filter criteria you defined on the **Sync Orders from Shopify** request page. For example, tags, channel, or the fulfilment status. If you haven't specified any filters it processes all records.
-* When importing shopify order, the Shopify Connector requests additional information from Shopify:
+* When importing Shopify order, the Shopify Connector requests additional information from Shopify:
 
     * Order header
     * Order lines
@@ -117,7 +117,7 @@ The Shopify Connector imports orders in two steps:
     * Transactions
     * Returns and refunds, if configured
 
-The **Shopify Order to Import** page is useful for troubleshooting order import issues. You can assess the orders that are available and teke the next steps:
+The **Shopify Order to Import** page is useful for troubleshooting order import issues. You can assess the orders that are available and take the next steps:
 
 * Check whether an error blocked the import of a specific order, and explore the error's details. Check the **Has Error** field.
 * Process only specific orders. You'll need to fill in the **Shop Code** field, select one or more orders, and then choose the **Import Selected Orders** action.

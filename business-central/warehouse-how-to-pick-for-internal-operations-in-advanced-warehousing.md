@@ -38,7 +38,7 @@ Use **Warehouse Pick** documents for picking production components in the flow t
 For a location that uses bins to move items to open shop floor bins, you can use the following methods:
 
 * For a location that uses directed put-away and pick, follow the steps in the [Move Items in advanced warehouse configurations](warehouse-how-to-move-items-in-advanced-warehousing.md) article.
-* For other locations, follow the steps in the [Move Items Unplanned in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) article.
+* For other locations, follow the steps in the [Move Items Internally in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) article.
 
 ## Assembly  
 
@@ -173,11 +173,11 @@ The following illustration shows when the **Bin Code** field on the component li
 
 ## See also
 
-[Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
-[Assembly Management](assembly-assemble-items.md)  
-[Warehouse Management Overview](design-details-warehouse-management.md)
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+- [Manage Inventory](inventory-manage-inventory.md)  
+- [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
+- [Assembly Management](assembly-assemble-items.md)  
+- [Warehouse Management Overview](design-details-warehouse-management.md)
+- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

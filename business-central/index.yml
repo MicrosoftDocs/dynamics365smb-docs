@@ -267,7 +267,7 @@ additionalContent:
         # - text: Change layout
         #    url: /dynamics365/business-central/ui-set-report-layout                                                   
           - text: Analyze list data with analysis mode
-            url: /dynamics365/business-central/across-working-with-powerbi            
+            url: /dynamics365/business-central/analysis-mode            
           - text: Analyze report data with Excel
             url: /dynamics365/business-central/report-analyze-excel                                                                                
       - title: General business functionality

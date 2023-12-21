@@ -245,8 +245,8 @@ additionalContent:
         url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/use-translation-service       
     - title: Copilot and AI capabilities
       links:
-      - text: Configure Copilot and AI capabilities
-        url: /dynamics365/business-central/enable-ai
+      - text: Features and responsible AI FAQs
+        url: /dynamics365/business-central/responsible-ai-overview
       - text: Configure Copilot and AI capabilities
         url: /dynamics365/business-central/enable-ai
       - text: Developer tools for Copilot 
@@ -300,6 +300,12 @@ additionalContent:
             url: /dynamics365/business-central/across-income-documents
 #          - text: Local functionality
 #            url: /dynamics365/business-central/about-localization
+      - title: Use Copilot
+        links:
+          - text: Get marketing text suggestion
+            url: /dynamics365/business-central/ai-overview
+          - text: Reconcile bank accounts
+            url: /dynamics365/business-central/bank-reconciliation-with-copilot
   - title: Do business
     items:
 #      - title: Workspace settings

@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: overview
 ms.service: dynamics365-business-central
 ms.search.keywords: privacy, trial, Microsoft services
-ms.date: 10/28/2022
+ms.date: 12/12/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---

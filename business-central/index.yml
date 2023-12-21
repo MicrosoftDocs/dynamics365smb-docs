@@ -243,6 +243,14 @@ additionalContent:
         url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-aad-app-reg
       - text: Translate user interface files  
         url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/use-translation-service       
+    - title: Copilot and AI capabilities
+      links:
+      - text: Configure Copilot and AI capabilities
+        url: /dynamics365/business-central/enable-ai
+      - text: Configure Copilot and AI capabilities
+        url: /dynamics365/business-central/enable-ai
+      - text: Developer tools for Copilot 
+        url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page
 
   - title: Be productive
     items:

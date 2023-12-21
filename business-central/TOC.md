@@ -42,6 +42,10 @@
 ##### [Walkthrough of inbound and outbound flow in basic warehouse configurations](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
 ##### [Walkthrough of inbound and outbound flow in mixed warehouse configurations](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
 ##### [Walkthrough of inbound and outbound flow in advanced warehouse configuration with directed put-away and pick](contoso-coffee/warehousing/warehouse-directed-flow.md)
+#### Service
+##### [Introduction to Contoso Coffee service management](contoso-coffee/service/contoso-coffee-service-intro.md)
+##### [Walkthrough of Service Orders for Service Items](contoso-coffee/service/service-basic-flow-order.md)
+##### [Walkthrough of service contracts for service items](contoso-coffee/service/service-contract-flow.md)
 
 ### Design details
 #### [Application design details overview](design-details-application-design.md)

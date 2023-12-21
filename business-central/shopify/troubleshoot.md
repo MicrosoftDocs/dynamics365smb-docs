@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting the Shopify and Business Central Synchronization
+title: Troubleshooting the Shopify and Business Central synchronization
 description: Learn what to do if something goes wrong when you synchronize data between Shopify and Business Central.
 author: brentholtorf
 ms.author: bholtorf
@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: 30118, 30119, 30120, 30101, 30102 
 ---
 
-# Troubleshooting the Shopify and Business Central Synchronization
+# Troubleshooting the Shopify and Business Central synchronization
 
 You might run into situations where you need to troubleshoot issues when synchronizing data between Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)]. This page defines troubleshooting steps for some typical scenarios.
 
@@ -28,7 +28,7 @@ The logging features can make it easier to identify why an error occurred. On th
 
 - **Disabled** - Don't log information about errors.
 - **Error Only** - Log only the error message, without the request/response pairs. This setting is the default for new shops.
-- **All** - Log the request/response pairs for all transactions, including those that were successful. Logging all errors continuously can slow down [!INCLUDE [prod_short](../includes/prod_short.md)]. Use this mode when the data exchange doesn't result in error, but you want to get more insights about the data that was actaully sent and received. Note that some data is always logged, regardless of whether logging is turned on. For more information, see [Data capture](#data-capture).
+- **All** - Log the request/response pairs for all transactions, including those that were successful. Logging all errors continuously can slow down [!INCLUDE [prod_short](../includes/prod_short.md)]. Use this mode when the data exchange doesn't result in error, but you want to get more insights about the data that was actually sent and received. Note that some data is always logged, regardless of whether logging is turned on. For more information, see [Data capture](#data-capture).
 
 ### To review logs
 
@@ -113,7 +113,7 @@ The following procedures describe how to rotate the access token used by the Sho
 
 ### Error: The Sales Header does not exist. Identification fields and values: Document Type='Quote',No.='YOUR SHOPIFY STORE'
 
-To calculate prices, the Shopify Connector creates a temporary sales document (quote) for a temporary customer (Shop Code) and uses the standard price calculation logic. If a third-party extension subscribes to events on a temporary sales document, the header might not be available. We recommend that you contact the extension provider. Ask them to modify their code to check for temporary records. In some cases, they just need to add the `IsTemporary` method ìn the right place. To learn more about `IsTemporary`, go to [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
+To calculate prices, the Shopify Connector creates a temporary sales document (quote) for a temporary customer (Shop Code) and uses the standard price calculation logic. If a third-party extension subscribes to events on a temporary sales document, the header might not be available. We recommend that you contact the extension provider. Ask them to modify their code to check for temporary records. In some cases, they just need to add the `IsTemporary` method in the right place. To learn more about `IsTemporary`, go to [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
 
 To verify that the problem is caused by a third-party extension, use the **Copy information to clipboard** link in the error message and copy the content to a text editor. The information contains an **AL call stack**, where the top line is the line where the error occurred. The following example shows an AL call stack.
 

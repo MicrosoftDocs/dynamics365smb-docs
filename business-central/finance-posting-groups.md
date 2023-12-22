@@ -1,15 +1,14 @@
 ---
 title: Posting group setup
-description: Overview of the posting groups you can use to save time and avoid mistakes when you post transactions.
+description: Learn how to use posting groups to save time and avoid mistakes when you post transactions.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 12/21/2023
-ms.author: bholtorf
+ms.custom: bap-template
 ---
 # Set up posting groups
 
@@ -51,11 +50,9 @@ The following table describes the posting groups that are specific to types of d
 | Bank Account Posting Groups |Define the general ledger accounts that bank account entries are posted to. For example, this can simplify the processes of tracing transactions and reconciling bank accounts. Set up these posting groups on the **Bank Account Posting Groups** page. We recommend that these G/L accounts have the **Direct Posting** field set to *No*. |
 | Fixed Assets Posting Groups |Define accounts for different types of expenses and costs, such as acquisition costs, accumulated depreciation amounts, acquisition costs on disposal, accumulated depreciation on disposal, gains on disposal, losses on disposal, maintenance expenses, and depreciation expenses. Set up these posting groups on the **FA Posting Groups** page. |
 
-### Allowing substitute customer or vendor posting groups on documents
+### Allow substitute customer or vendor posting groups on documents
 
-This feature is an optional feature, that you can enable it on the **Feature Management** page.
-
-You can let people choose a different customer and vendor posting groups than the defaults when they're working with sales or purchase documents and journals.
+You can let people choose other customer and vendor posting groups than the default groups when they're working with sales or purchase documents and journals.
 
 To allow changes to customer posting groups, choose **Allow Multiple Posting Groups** on the **Sales & Receivable Setup** and **Service Mgt. Setup** pages, and the **Purchase & Payables Setup** page for vendor posting group changes.
 
@@ -100,9 +97,9 @@ When you create a sales document, the sales header uses the customer card inform
 
 Your setup determines when posting happens. For example, the timing is affected by when you do periodic activities, such as posting inventory cost or adjusting cost item entries.
 
-## Copying posting setup lines
+## Copy posting setup lines
 
-The more product and business posting groups you have, the more lines you see in the **General Posting Setup** page. It might take much data entry to set up the general posting setup for the company. While there might be many different combinations of business and product posting groups, different combinations might still post to the same general ledger accounts. To limit the amount of manual entry, copy the general ledger accounts from an existing line on the **General Posting Setup** page.
+The more product and business posting groups you have, the more lines you'll have on the **General Posting Setup** page. While there might be many different combinations of business and product posting groups, different combinations might still post to the same general ledger accounts. To limit the amount of manual entry, copy the general ledger accounts from an existing line on the **General Posting Setup** page.
 
 ## Set up posting groups on the go
 

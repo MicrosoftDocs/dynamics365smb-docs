@@ -21,9 +21,9 @@ The following topics describe the local functionality in the Danish version of [
 
 * Compliance
 
-    * Compliance with the bookkeeping act in Denmark **Planned in November 2023**
-    * [5-years keeping data compliance](how-to-keep-data-5years.md) **Available from January 2024**
-    * [Mandatory digital vouchers as attachments](how-to-digital-vouchers-dk.md) **Available from v23.2**
+    * [Compliance with the bookkeeping act in Denmark](compliance-denmark.md) **Available Now**
+    * [5-years keeping data compliance](how-to-keep-data-5years.md) **Available Now**
+    * [Mandatory digital vouchers as attachments](how-to-digital-vouchers-dk.md) **Available Now**
 
 * Auditing
 
@@ -36,7 +36,7 @@ The following topics describe the local functionality in the Danish version of [
     * [Print VAT Reconciliation Reports](how-to-print-vat-reconciliation-reports.md) **Available Now**
     * [VAT-VIES Reporting](vat-vies-reporting.md) **Available Now**
     * [VAT Registration Number Setup for Intrastat](vat-registration-no-intrastat.md) **Available Now**
-    * [E-submission of VAT return](how-to-evat-statement-dk.md) **Available from v23.2, GA from January 2024**
+    * [E-submission of VAT return](how-to-evat-statement-dk.md) **Available Now**
 
 * Banking & Payments
 
@@ -50,9 +50,9 @@ The following topics describe the local functionality in the Danish version of [
     * [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md) **Available Now**
     * [The OIOUBL Extension for Electronic Invoicing](ui-extensions-oioubl.md) **Available Now**
     * [Create Electronic Documents in an OIOUBL Format](how-to-create-electronic-documents-by-using-oioubl.md) **Available Now**
-    * [Registration for the Nemhandelsregisteret](how-to-nemhandel-register.md) **Available from v23.2**
-    * [Notification for the Nemhandelsregisteret registration](how-to-nemhandel-register.md) **Available from v23.2**
-    * [Electronic invoicing with NemHandel](how-to-edocuments-nemhadel.md) **Available from v23.2, GA from January 2024**
+    * [Registration for the Nemhandelsregisteret](how-to-nemhandel-register.md) **Available Now**
+    * [Notification for the Nemhandelsregisteret registration](how-to-nemhandel-register.md) **Available Now**
+    * [Electronic invoicing with NemHandel](how-to-edocuments-nemhadel.md) **Available Now**
 
 * Payroll
 
@@ -61,9 +61,6 @@ The following topics describe the local functionality in the Danish version of [
 ## Future legislation requirements being investigated
 
 Currently, there are no additional upcoming regulatory features or requirements, outside of the new Danish bookkeeping act already mentioned in **Feature Availability**. If you are aware of any additional upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
-
-> [!NOTE]
-> A new Danish bookkeeping act enforcing the use of digital bookkeeping systems went into place in July 2022. However, although the law is approved, the details on how it will be implemented by businesses and ERP systems is being released by the Danish Business Authority in phases. Microsoft will follow guidelines to ensure our **Microsoft Dynamics 365 Business Central** and **Microsoft Dynamics 365 Finance** solutions are certified within the parameters as deadlines are set. All updates to Dynamics 365 will be made available through our standard product release cycles. More information will be made available in this article.
 
 ## See Also
 

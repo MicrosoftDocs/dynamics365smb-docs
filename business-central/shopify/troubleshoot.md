@@ -137,18 +137,13 @@ Remember to share the AL call stack information with the supplier of the extensi
 
 On the **Shopify Shop Card** page, in the **Customer Template Code** field, choose the template that has **Gen. Bus. Posting Group** populated. The customer template is used to create customers and to calculate sales prices on sales documents.
 
-
-
-
-
-
 ### Error: Importing data to your Shopify shop isn't enabled. Go to the shop card to enable it
 
 On the **Shopify Shop Card** page, turn on the **Allow Data Sync to Shopify** toggle. This setting helps protect the online shop from getting demo data from [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ### Error: Oauth error invalid_request: Could not find Shopify API application with api_key
 
-It seems you use the [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), where the client URL has the format: `https://[application name].bc.dynamics.com`. The Shopify connector doesn't work for Embed Apps. To learn more, go to [Which Microsoft products are the Shopify connector available for?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
+You may have used the [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), where the client URL has the format: `https://[application name].bc.dynamics.com`. The Shopify connector doesn't work for Embed Apps. To learn more, go to [Which Microsoft products are the Shopify connector available for?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
 
 ### Error: Internal Error. Looks like Something Went Wrong on Our End. Request ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
 

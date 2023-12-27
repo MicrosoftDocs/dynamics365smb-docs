@@ -69,9 +69,11 @@ The following topics describe local functionality unique to the Spanish version 
 
 ## Future legislation requirements being investigated
 
-* Requirements for Spanish e-invoicing - planned for **2024 release wave 2**
-* SII Statuses - planned for **2024 release wave 2**  
-* Requirments related with the *Antifraud Law* in Spain and the impact on Business Central 
+* New approach of sending multiple documents in SII - **planned for 23.4**
+* Introduce the "Ignore in SII" option for the G/L Account - **planned for 23.5** 
+* Spanish e-invoicing - **planned for 2024 release wave 2**  
+* SII Statuses - **planned for 2024 release wave 2**  
+* Requirments related with the *Antifraud Law* in Spain and the impact on Business Central are subject of investigation. 
 
 If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

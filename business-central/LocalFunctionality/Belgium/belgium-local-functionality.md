@@ -52,7 +52,10 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Export and Post Domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
     * [Generate Domiciliation Suggestions](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
     * [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md) **Available Now**
-    
+
+* Electronic Invoicing
+    * [Electronic Invoicing in Belgium via PEPPOL access-point](../../finance-how-setup-edocuments-external.md) **Available Now**
+  
 * Core Finance
     * [Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md) **Available Now**
     * [Create Financial Journals](how-to-create-financial-journals.md) **Available Now**
@@ -68,8 +71,7 @@ The following topics describe local functionality that is unique to the Belgian 
 
 ## Future legislation requirements being investigated
 
-* Redesigned and upgraded non-deductible VAT **August-September 2023**
-* Reception of e-invoices **research phase**
+* Redesigned and upgraded non-deductible VAT **planned for 23.5**
 
 If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

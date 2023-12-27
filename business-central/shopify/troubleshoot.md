@@ -20,7 +20,7 @@ You might run into situations where you need to troubleshoot issues when synchro
 2. Select the shop for which you want to troubleshoot to open the **Shopify Shop Card** page.
 3. Turn off the **Allow Background Syncs** toggle.
 
-Now, when the sync action is triggered the task runs in the foreground. If an error occurs, you get an error dialog with a **Copy details** link. Use the link to copy information to a text editor for further analysis.
+Now, when the sync action is triggered, the task runs in the foreground. If an error occurs, you get an error dialog with a **Copy details** link. Use the link to copy information to a text editor for further analysis.
 
 ## Logs
 
@@ -131,11 +131,16 @@ AL call stack:
 "Shpfy Products"(Page 30126)."AddItems - OnAction"(Trigger) line 5 - Shopify Connector by Microsoft
 ```
 
-Remember to the share AL call stack information with the supplier of the extension.
+Remember to share the AL call stack information with the supplier of the extension.
 
 ### Error: Gen. Bus. Posting Group must have a value in Customer: 'YOUR SHOPIFY STORE'. It cannot be zero or empty
 
 On the **Shopify Shop Card** page, in the **Customer Template Code** field, choose the template that has **Gen. Bus. Posting Group** populated. The customer template is used to create customers and to calculate sales prices on sales documents.
+
+
+
+
+
 
 ### Error: Importing data to your Shopify shop isn't enabled. Go to the shop card to enable it
 
@@ -151,7 +156,7 @@ Contact Shopify support within seven days of experiencing this error, and provid
 
 ### Error: Oauth error invalid_request: Your account does not have permission to grant the requested access for this app. 
 
-It seems that user which requests access doesn’t have rights to manage apps (ability to manage and install apps and channels, as well as potentially approve app charges). You may be able to resolve this issue by installing the app as the account owner. Alternatively you can check the **App permission** for the user in the [**User and permissions**](https://www.shopify.com/admin/settings/account) settings in your **Shopify admin**.  
+The user who requested access doesn’t have the rights to manage apps (the ability to manage and install apps and channels, as well as potentially approve app charges). You may be able to resolve this by installing the app as the account owner. Alternatively, you can check the **App permission** for the user in the [**User and permissions**](https://www.shopify.com/admin/settings/account) settings in your **Shopify admin**.  
 
 ### [{"message":"Access denied for FIELD field.","locations":[{"line":0,"column":0}],"path":["path"],"extensions":{"code":"ACCESS_DENIED","documentation":https://shopify.dev/api/usage/access-scopes}}]
 

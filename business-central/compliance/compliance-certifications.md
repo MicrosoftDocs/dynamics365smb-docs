@@ -24,8 +24,10 @@ In some countries or regions, accounting software must be certified to comply wi
 > [!NOTE]
 > Only some countries/regions have this requirement.
 
-- France (Tax Audit Certification) [(search by the product name at https://certificates.infocert.org/#)](https://certificates.infocert.org/#)  
-- Germany (also covers Austria and Switzerland) [(link to certification in German)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)  
+- Denmark (Compliance with the bookkeeping act in Denmark): [(link to details about certification)](../localfunctionality/denmark/compliance-denmark.md)
+- France (Tax Audit Certification): [(search by the product name at https://certificates.infocert.org/#)](https://certificates.infocert.org/#)  
+- Germany (also covers Austria and Switzerland): [(link to certification in German)](https://swb.bdo.de/certificate/MS_D365BC_PS_880_DE_2018)
+- India (details about local compliance): [(Audit trail and edit logs for accounting software in India)](../localfunctionality/india/india-audit-trail-edit-logs-accounting-software.md)
 
 > [!NOTE]  
 > In countries/regions where Microsoft does not release a local version, it is usually up to the partners to achieve certification of the Business Central base product, including the partner's localization and regulatory features on top.

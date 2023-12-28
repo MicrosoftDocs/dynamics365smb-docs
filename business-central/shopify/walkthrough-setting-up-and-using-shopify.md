@@ -170,26 +170,26 @@ Select item **1896-S, Athens Desk** and then follow these steps:
 3. Add the following text with HTML tags: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`. Close the **Extended Text** page and return to the item card.
 4. Select the **Sales Prices** action and add new prices as shown in the following table:
 
-  |Line|Sales Type|Sales Code|Type|Code|Variant Code<br>(add the field via personalization)|Unit Price|
-  |------|------------|------------|------------|------------|------------|------------|
-  |1|Customer Price Group|SHOPIFY|Item|1896-S|ESSENTIAL|700|
-  |2|Customer Price Group|SHOPIFY|Item|1896-S|PREMIUM|1000|
+   |Line|Sales Type|Sales Code|Type|Code|Variant Code<br>(add the field via personalization)|Unit Price|
+   |------|------------|------------|------------|------------|------------|------------|
+   |1|Customer Price Group|SHOPIFY|Item|1896-S|ESSENTIAL|700|
+   |2|Customer Price Group|SHOPIFY|Item|1896-S|PREMIUM|1000|
 
 5. Select the **Sales Discounts** action and add a new discount:
 
-* **Sales Type** *Customer Disc. Group*
-* **Sales Code** *RETAIL*
-* **Type** *Item*
-* **Code** *1896-S*
-* **Unit of Measure Code** *PCS*
-* **Line Discount %** *10*
+   * **Sales Type** *Customer Disc. Group*
+   * **Sales Code** *RETAIL*
+   * **Type** *Item*
+   * **Code** *1896-S*
+   * **Unit of Measure Code** *PCS*
+   * **Line Discount %** *10*
 
 6. Select the **Item References** action and the following add lines:
 
-  |Line|Reference Type|Reference No.|Variant Code|
-  |------|------------|------------|------------|
-  |1|Barcode|77777777|ESSENTIAL|
-  |2|Barcode|11111111|PREMIUM|
+   |Line|Reference Type|Reference No.|Variant Code|
+   |------|------------|------------|------------|
+   |1|Barcode|77777777|ESSENTIAL|
+   |2|Barcode|11111111|PREMIUM|
 
 
 Select the item **1920-S, ANTWERP Conference Table** and then follow these steps:

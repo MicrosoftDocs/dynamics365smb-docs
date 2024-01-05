@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.reviewer: jswymer 
 ms.topic: troubleshooting 
 ms.collection:
-ms.date: 11/15/2023
+ms.date: 01/05/2024
 ms.custom: bap-template 
 ---
 # Troubleshoot Copilot and AI capabilities
@@ -27,6 +27,10 @@ When you try to use Copilot and you get an error similar to **Sorry, Copilot is 
 
 - First, make sure that the feature is activated on the **Copilot & AI capabilities** page. [Learn more about activating Copilot and AI capabilities](enable-ai.md#activate-features). 
 - Next, make sure that privacy notice statement for Azure OpenAI integration isn't set to **Disagree for everyone**. If it is, change it to **Agree for everyone**. [Learn more about privacy notices](privacy-notices-status.md).
+
+## Copilot capabilities from Microsoft not shown on Copilot & AI Capabilities page
+
+If none of the AI features from Microsoft are shown in the **Copilot & AI capabilities** page, it's likely because you have one or more embed apps installed on your environment. Embed apps can offer their own Copilot capabilities, but capabilities published by Microsoft aren't compatible with environments having embed apps.
 
 ## See also
 

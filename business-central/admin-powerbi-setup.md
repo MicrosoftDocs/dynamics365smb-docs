@@ -90,6 +90,12 @@ This section explains the requirements for a [!INCLUDE[prod_short](includes/prod
 
     To make the initial connection, open [!INCLUDE[prod_short](includes/prod_short.md)], and run **Get Started with Power BI** from the Home page. This action will lead you through the consent process, and check your Power BI license. When prompted sign in using an Microsoft Entra admin account. For more information, see [Connect to Power BI - one time only](across-working-with-powerbi.md#connect).
 
+## Setting up Dataflows
+
+Dataflows enable you to ingest, transform, and load data into a Power BI workspace and then use that as a basis for your reports. These dataflows can in some cases experience transient errors while doing a scheduled refresh. The error message looks like this: `DataSource.Error: OData: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.` 
+
+Using PowerAutomate, you can setup retries for this sitation, see [Automatically retry a dataflow on failure](/power-query/dataflows/automatically-retry-dataflow)
+
 ## See Also
 
 [Business Central and Power BI](admin-powerbi.md)  

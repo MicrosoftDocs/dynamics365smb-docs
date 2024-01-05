@@ -34,7 +34,7 @@ Support a continuous registration of the company's transactions with the indicat
 
 Requirement: The standard digital bookkeeping system must contain fields for the company to provide information on the following matters when recording each individual transaction:  
 
-* Transaction date (e.g. payment date, purchase date, etc.)  
+* Transaction date (for example, payment date, purchase date, etc.)  
 * Amount    
 * Receipt number  
 * Transaction text  
@@ -51,47 +51,47 @@ Requirement: The digital standard bookkeeping system must ensure:
 * That the system assigns a registration date for each recorded transaction.  
 * That the system assigns a consecutive transaction number or ID for each recorded transaction.
 * That the system assigns initials or similar to the person who has recorded a transaction.
-* That the system saves changes to the recording, e.g. in that incorrect entries must be corrected with new entries.
-* That recorded transactions cannot be changed, backdated or deleted. 
+* That the system saves changes to the recording, for example, in that incorrect entries must be corrected with new entries.
+* That recorded transactions can't be changed, backdated or deleted. 
 
 How does [!INCLUDE[prod_short](../../includes/prod_short.md)] comply:   
 
-An audit trail record is created for every transaction (**G/L Register**) upon posting that registers the **Created Date** and even **Creation Time** together with **User ID** as a person who recorded a transaction. For each audit trail record - register, you can also view the No. column which specifies the system-created number of the general ledger register.  
+An audit trail record is created for every transaction (**G/L Register**) upon posting that registers the **Created Date** and even **Creation Time** together with **User ID** as a person who recorded a transaction. For each audit trail record - register, you can also view the No. column, which specifies the system-created number of the general ledger register.  
 
-**G/L Register** as well as **General Ledger Entries** and all subledger have unique system-based entry numbers, which allows each number sequence to be defined as consecutive.  
+**G/L Register** and **General Ledger Entries** and all subledgers have unique system-based entry numbers, which allows each number sequence to be defined as consecutive.  
 
-Once a transaction is posted, the transaction cannot be edited or deleted after posting. Corrections to the transaction must be made through a reversing entry and then a new entry to register the changes. Correction can be done manually or using **Reverse** action from the **G/L Register** for reversing completely transaction. But in any case, reversing transaction will be created as a new transaction without changing original values. Read more about using [chart of accountsaccounts and general ledger](../../finance-general-ledger.md).  
+Once a transaction is posted, the transaction can't be edited or deleted after posting. Corrections to the transaction must be made through a reversing entry and then a new entry to register the changes. Correction can be done manually or using **Reverse** action from the **G/L Register** for reversing completely transaction. But in any case, reversing transaction is created as a new transaction without changing original values. Read more about using [chart of accounts and general ledger](../../finance-general-ledger.md).  
 
 ### Annex 1, 3, a – b 
 
 Requirement: The digital standard bookkeeping system must support the storage of receipts covered by § 3 which document the company's recorded purchase and sale transactions:  
 
 * Receipts relating to purchase transactions can be stored digitally in the system.
-* Receipts relating to sales transactions are either automatically generated in the system and stored digitally or can be stored digitally in the system, e.g. as an image or a scanned file.
+* Receipts relating to sales transactions are either automatically generated in the system and stored digitally or can be stored digitally in the system, for example, as an image or a scanned file.
 
 How does [!INCLUDE[prod_short](../../includes/prod_short.md)] comply:
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] supports the storage of files as attachments to purchase and sales invoices as well as any other record of a table that is accessible by users of [!INCLUDE[prod_short](../../includes/prod_short.md)] via user interface. However, to support mandatory attachments for purchase and sales transactions, [!INCLUDE[prod_short](../../includes/prod_short.md)] has an additional default setup for digital vouchers, where it requires mandatory attachment for sales and purchase transactions and does not allow posting these documents without having attachments. For additional automation, sales transactions will automatically create sales documents and attach them to this transaction without user interaction. But the user can add additional documents if he wants. Read more about [mandatory digital vouchers here](how-to-digital-vouchers-dk.md).  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] supports the storage of files as attachments to purchase and sales invoices and any other record of a table that is accessible by users of [!INCLUDE[prod_short](../../includes/prod_short.md)] via user interface. However, to support mandatory attachments for purchase and sales transactions, [!INCLUDE[prod_short](../../includes/prod_short.md)] has an more default set up for digital vouchers, where it requires mandatory attachment for sales and purchase transactions and doesn't allow posting these documents without having attachments. For more automation, sales transactions will automatically create sales documents and attach them to this transaction without user interaction. But the user can add more documents if they want. Read more about [mandatory digital vouchers here](how-to-digital-vouchers-dk.md).  
 
 ### Annex 1, 4 and 1, 4, a-d   
 
 Requirement: The digital standard bookkeeping system must support the storage of the company´s recorded transactions and receipts covered by § 3 for 5 years from the end of the financial year the material concerns. The digital standard bookkeeping system must support:
 
-* That recorded transactions are preserved so that they cannot be changed, backdated or deleted by the company.
-* That all recorded transactions are stored in a structured and machine-readable format for 5 years from the end of the financial year the recorded transaction relates to, regardless of any termination of customer relations with the company or the company's bankruptcy or forced dissolution.
-* That all receipts covered by section 3 are kept for 5 years from the end of the financial year that the receipt concerns, regardless of any termination of customer relations with the company or the company's bankruptcy or forced dissolution.
+* That recorded transactions are preserved so that they can't be changed, backdated or deleted by the company.
+* That all recorded transactions are stored in a structured and machine-readable format for five years from the end of the financial year the recorded transaction relates to, regardless of any termination of customer relations with the company or the company's bankruptcy or forced dissolution.
+* That all receipts covered by section 3 are kept for five years from the end of the financial year that the receipt concerns, regardless of any termination of customer relations with the company or the company's bankruptcy or forced dissolution.
 
 That encrypted bookkeeping data can be decrypted into a structured and machine-readable format and that encrypted receipts covered by section 3 can be decrypted into a readable format.
 
 How does [!INCLUDE[prod_short](../../includes/prod_short.md)] comply:
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] supports the storage of the company’s recorded transactions and digital vouchers. Transactional records once created cannot be deleted or modified via the user interface of [!INCLUDE[prod_short](../../includes/prod_short.md)], and the **Company** also cannot be deleted from the moment when the company has been proclaimed as the production company and registered with Nemhandel. [!INCLUDE[prod_short](../../includes/prod_short.md)] also prevents backdating of the recorded transaction, meaning that posted transaction date cannot be edited and changed. Standard functionality of [!INCLUDE[prod_short](../../includes/prod_short.md)] allows users to post transactions dated in the past period (date, week, month ago), but in this situation there is information about **Created Date** and **Created Time** of a record.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] supports the storage of the company’s recorded transactions and digital vouchers. Transactional records once created can't be deleted or modified via the user interface of [!INCLUDE[prod_short](../../includes/prod_short.md)], and the **Company** also can't be deleted from the moment when the company has been proclaimed as the production company and registered with Nemhandel. [!INCLUDE[prod_short](../../includes/prod_short.md)] also prevents backdating of the recorded transaction, meaning that posted transaction date can't be edited and changed. Standard functionality of [!INCLUDE[prod_short](../../includes/prod_short.md)] allows users to post transactions dated in the past period (date, week, month ago), but in this situation there's information about **Created Date** and **Created Time** of a record.  
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] also supports the storage of files as attachments (receipts or digital vouchers) to purchase and sales invoices as well as any other record of a table that is accessible by users of [!INCLUDE[prod_short](../../includes/prod_short.md)] via user interface. All attached documents are stored in the database, so database backup will keep attachments as well. These kinds of attachments ([mandatory digital vouchers here](how-to-digital-vouchers-dk.md)) cannot be deleted once when the document is posted, and general ledger entries are created.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] also supports the storage of files as attachments (receipts or digital vouchers) to purchase and sales invoices and any other record of a table that is accessible by users of [!INCLUDE[prod_short](../../includes/prod_short.md)] via user interface. All attached documents are stored in the database, so database backup will keep attachments as well. These kinds of attachments ([mandatory digital vouchers here](how-to-digital-vouchers-dk.md)) can't be deleted once when the document is posted, and general ledger entries are created.  
 
 During the time of usage of the system authorities can get access to all transactions and digital vouchers directly through the user interface from users as the database is always active and available. But even in the case that user doesn’t want to provide access to the transactional records, or even in the case of termination of customer relations with Microsoft or the company's bankruptcy or forced dissolution, Microsoft can provide transactional and digital vouchers details.   
 
-All this transactional data as well as the original documents existing in the accounting system are used as a source of daily data export in the account-protected Azure storage environment where they cannot be changed, backdated, or deleted by the company, as this process is on the platform level without any user access. Storage account credentials will be kept in Azure Key Vault and the data in the storage will be protected against potential tampering. Read more about how Microsoft keeps [data required by Danish autorities for 5 years here](how-to-keep-data-5years.md).   
+All this transactional data and the original documents existing in the accounting system are used as a source of daily data export in the account-protected Azure storage environment where they can't be changed, backdated, or deleted by the company, as this process is on the platform level without any user access. Storage account credentials are kept in Azure Key Vault and the data in the storage will be protected against potential tampering. Read more about how Microsoft keeps [data required by Danish authorities for five years here](how-to-keep-data-5years.md).   
 
 ## Main requirements - § 15, no. 2   
 
@@ -130,7 +130,7 @@ How does [!INCLUDE[prod_short](../../includes/prod_short.md)] comply:
 
 [Electronic invoicing functionality](../../finance-edocuments-overview.md) in [!INCLUDE[prod_short](../../includes/prod_short.md)] provides the possibility to generate electronic analogues of business documents (customer invoices or customer credit memo) in required formats (OUOUBL and Peppol BIS) and perform post-processing of generated electronic documents, for example, send it to various destinations, as well as, to import vendor electronic documents (vendor invoices or vendor credit memo) into the system from various external sources. As users need to send electronic documents directly, they can do it via Access Point service provider(s) where [!INCLUDE[prod_short](../../includes/prod_short.md)] is acting as transportation layer for sending created PEPPOL and OIOUBL standard compliant XML e-invoices as well as receiving, parsing, and importing XML received in before-mentioned formats as required by the law. In this scenario [!INCLUDE[prod_short](../../includes/prod_short.md)] e-documents exchange functionality works by the 4-corner model.  
 
-Messaging is based on combination of synchrony and asynchrony API communication with an Access Point Service Provider. All types of information regarding ability to process incoming invoices, as well as business users’ notifications of approval or rejections of documents, are working based on predefined proper message processing. You can read more about [Danish Electronic invoicing with NemHandel](how-to-edocuments-nemhadel.md) here.  
+Messaging is based on combination of synchrony and asynchrony API communication with an Access Point Service Provider. All types of information regarding ability to process incoming invoices, and business users’ notifications of approval or rejections of documents, are working based on predefined proper message processing. You can read more about [Danish Electronic invoicing with NemHandel](how-to-edocuments-nemhadel.md) here.  
 
 ### Annex 2, 3, a  
 
@@ -145,7 +145,7 @@ How does [!INCLUDE[prod_short](../../includes/prod_short.md)] comply:
 Requirement: The bookkeeping system supports, in addition to previous requirement, the possibility of reconciling the company's bookkeeping with the company's bank account by:
 
 * The bookkeeping system ensures that the bank account is represented in the chart of accounts and that it can be reconciled with the loaded bank entries. 
-* A clear difference is being shown in the bookkeeping system if items entered from the bank are not reconciled.  
+* A clear difference is being shown in the bookkeeping system if items entered from the bank aren't reconciled.  
 
 How does [!INCLUDE[prod_short](../../includes/prod_short.md)] comply:
 
@@ -155,12 +155,12 @@ Bank reconciliation is how users make sure that the bank account in [!INCLUDE[pr
 
 If users find a mistake in a posted bank reconciliation, they can use the **Undo** action on the **Bank Account Statement List** page to correct it. When they undo a posted bank reconciliation, the entries are moved to the **Bank Reconciliation** page and marked as **Open**, meaning they aren't reconciled. They can then correct the bank reconciliation and post it again.   
 
-A clear difference is being shown in the bookkeeping system if items entered from the bank are not reconciled.   
+A clear difference is being shown in the bookkeeping system if items entered from the bank aren't reconciled.   
 
 Read more about reconciliation process in [!INCLUDE[prod_short](../../includes/prod_short.md)]:
 
 * [Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md)   
-* [Reconcile Payments that Cannot be Applied Automatically](../../receivables-how-reconcile-payments-cannot-apply-auto.md)  
+* [Reconcile Payments that Can't be Applied Automatically](../../receivables-how-reconcile-payments-cannot-apply-auto.md)  
 * [Reconcile Customer Payments from a List of Unpaid Sales Documents](../../receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) 
 
 ### Annex 2, 4, a – c  
@@ -190,7 +190,7 @@ How does [!INCLUDE[prod_short](../../includes/prod_short.md)] comply:
 Requirement: The digital standard bookkeeping system supports correct bookkeeping through the bookkeeping guide or accounting guide: 
 
 * A bookkeeping wizard/assistant having been incorporated into the bookkeeping system to help the company record.  
-* The bookkeeping system contains accounting instructions and/or linking/referring to accounting instructions/guides from 3rd parties. 
+* The bookkeeping system contains accounting instructions and/or linking/referring to accounting instructions/guides from third parties. 
 * The bookkeeping system having to support the function that users can enter an accounting guide for the individual account. 
 
 How does [!INCLUDE[prod_short](../../includes/prod_short.md)] comply:
@@ -201,7 +201,7 @@ But more important is that [!INCLUDE[prod_short](../../includes/prod_short.md)] 
 
 A key element in educating users about [!INCLUDE[prod_short](../../includes/prod_short.md)] pages and concepts is the tour. A tour is a sequence of teaching tips. Teaching tips can be defined at the page level, the page teaching tip, and be followed by teaching tips at the control level, the control teaching tips. 
 
-It is also possible to connect the system with the community support and instructions using the link to the **Community** in the **Help** pane. It is also possible to add additional content through users’ or partner’s content, but this extending requires additional configuration.   
+It's also possible to connect the system with the community support and instructions using the link to the **Community** in the **Help** pane. It's also possible to add more content through users’ or partner’s content, but this extending requires another configuration.   
 
 ### Annex 2, 6, a – c  
 
@@ -209,7 +209,7 @@ Requirement: The digital standard bookkeeping system supports the sharing of the
 
 * The bookkeeping system is making it possible to generate a standard file, as defined by the authorities.   
 * The bookkeeping system exports a standard file, as defined by the authorities, to another provider of bookkeeping systems.  
-* The bookkeeping system can load the information included in a standard file defined by the authorities so that it is available to the customer. 
+* The bookkeeping system can load the information included in a standard file defined by the authorities so that it's available to the customer. 
 
 How does [!INCLUDE[prod_short](../../includes/prod_short.md)] comply:
 

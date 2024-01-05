@@ -1,17 +1,17 @@
 ---
-title: Sharing Business Central Records in Microsoft Teams
+title: Sharing Business Central records in Microsoft Teams
 description: Learn how to use the Business Central app for Microsoft Teams.
 author: jswymer
 ms.topic: how-to
 ms.service: dynamics365-business-central
 ms.reviewer: jswymer
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
-ms.date: 06/18/2023
+ms.date: 12/12/2023
 ms.author: jswymer
 ms.custom: bap-template
 ---
 
-# Sharing Business Central Records and Page Links in Microsoft Teams
+# Sharing Business Central records and page links in Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -111,7 +111,7 @@ Directly from most collection pages, like the **Items** page, and details pages,
 2. At the top of the page, choose the ![!Share to other apps action on pages.](media/share-icon.png) icon, then **Share to Teams**.
 3. If you're asked, sign in to Teams with your user name and password.
 4. In the **Share to Teams** page, type a name of a person, group, or channel that you want send the message to.
-5. The message box will include a link to the page. If the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams is installed, a card for the linked record or page will also appear in the message box.
+5. The message box includes a link to the page. If the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams is installed, a card for the linked record or page will also appear in the message box.
 
    Add any more information if you like, then choose **Share**.
 6. The link has now been shared. If you want to go to the conversation, choose **Go to Teams**.

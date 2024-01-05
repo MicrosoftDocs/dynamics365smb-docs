@@ -30,7 +30,7 @@ The app provides three locations that are optimized for different scenarios:
 
 ## Set up Contoso Coffee Warehousing data
 
-[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
 Once the relevant apps are installed, go to the [Contoso Demo Tool](https://businesscentral.dynamics.com/?page=5194) page in [!INCLUDE [prod_short](../../includes/prod_short.md)], select the *Warehouse Module* line and use the **Configure** action to prepare the  modules. The following tables describes the settings:  
 

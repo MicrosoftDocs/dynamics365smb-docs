@@ -16,7 +16,7 @@ To reconcile inventory and capacity ledger entries with the general ledger, the 
 ## From the Inventory Ledger  
 The following table shows the relationship between different types of inventory value entries and the accounts and balancing accounts in the general ledger.  
 
-|**Item Ledger Entry Type**|**Value Entry Ttype**|**Variance Type**|**Expected Cost**|**Account**|**Balancing Account**|  
+|**Item Ledger Entry Type**|**Value Entry Type**|**Variance Type**|**Expected Cost**|**Account**|**Balancing Account**|  
 |--------------------------------|--------------------------|-----------------------|-----------------------|-----------------|---------------------------|  
 |Purchase|Direct Cost||Yes|Inventory  (Interim)|Invt. Accrual Acc. (Interim)|  
 |Purchase|Direct Cost||No|Inventory|Direct Cost Applied|  

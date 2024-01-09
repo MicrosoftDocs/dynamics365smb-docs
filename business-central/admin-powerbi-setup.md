@@ -94,8 +94,7 @@ This section explains the requirements for a [!INCLUDE[prod_short](includes/prod
 
 Dataflows enable you to ingest, transform, and load data into a Power BI workspace and then use that as a basis for your reports. These dataflows can in some cases experience transient errors while doing a scheduled refresh. The error message looks like this: `DataSource.Error: OData: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.` 
 
-Using PowerAutomate, you can setup retries for this sitation, see [Automatically retry a dataflow on failure](/power-query/dataflows/automatically-retry-dataflow)
-
+Using PowerAutomate, you can set up retries for this sitation. For more information, see [Automatically retry a dataflow on failure](/power-query/dataflows/automatically-retry-dataflow).
 ## See Also
 
 [Business Central and Power BI](admin-powerbi.md)  

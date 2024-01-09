@@ -1,5 +1,5 @@
 ---
-    title: How to Create Deposits [CA]
+    title: How to create deposits [CA]
     description: Make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos in the Canadian version.
     author: brentholtorf
     ms.topic: conceptual
@@ -8,14 +8,14 @@
     ms.workload: na
     ms.search.keywords:
     ms.search.form: 10140, 10141, 10143,10144,10146,10147,10148,36646
-    ms.date: 06/17/2021
+    ms.date: 11/29/2023
     ms.author: bholtorf
 ---
-# Create Deposits in the Canadian Version
+# Create deposits in the Canadian version
 
 [!INCLUDE [create-deposits](../includes/CAMXUS/create-deposits.md)]
 
-## See Also
+## See also
 
 [Canada Local Functionality](canada-local-functionality.md)  
 [Finance](../../finance.md)  

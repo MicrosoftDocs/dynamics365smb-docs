@@ -8,9 +8,8 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 5264, 5266, 5267, 5270, 
-ms.date: 06/06/2023
+ms.date: 12/13/2023
 ms.author: altotovi
-
 ---
 
 # Export the SAF-T audit file format in Denmark
@@ -33,7 +32,7 @@ You can import SAF-T file in Danish localization. To do this, complete the follo
 
 When you finish importing the external SAF-T files, the result appears in the **Import SAF-T Files** list page. 
 
-From the **Import SAF-T Files** page, you can find details about imported SAF-T files with the specific name and the date when the file has been uploaded. 
+From the **Import SAF-T Files** page, you can find details about imported SAF-T files with the specific name and the date once the file is uploaded. 
 
 > [!NOTE]
 > When you import the SAF-T file, keep in mind that there are no additional actions in the system based on this information. Dynamics 365 Business Central can only keep the list of uploaded files. 

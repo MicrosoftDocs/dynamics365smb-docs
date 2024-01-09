@@ -6,12 +6,12 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 11/04/2022
+ms.date: 12/12/2023
 ms.custom: bap-template
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records, tab
 ---
 
-# Add Business Central Tab in Microsoft Teams
+# Add Business Central tab in Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -76,7 +76,7 @@ Another way to add a tab by using a link (URL) to the page that you want to show
    There are two ways to copy the link. The easiest and preferred way is to select **Share** ![Share icon in Business Central](media/share-icon.png) > **Copy Link**. The other way is to copy the entire URL from the browser's address bar. To learn more about this step, see [Sharing Business Central Records and Page Links](across-working-with-teams.md).
 
 6. Go back to Teams and paste the link in the **URL** box.
-7. In the **Tab name** box, enter a name that will display on the tab.
+7. In the **Tab name** box, enter a name that displays on the tab.
 8. Select **Post to the channel about this tab** to automatically post an announcement in the Teams channel or chat to let participants know that you've added this tab.
 9. Select **Save**.
 
@@ -95,7 +95,7 @@ After a tab has been added, you can make certain changes to the tab. For example
 
 As for the content of a tab, you can modify the data, if you have permission. If you change the data, others won't see the changes until they leave the tab and come back. The same is true for you if someone else makes changes to data. You can't change the page that displays on the tab, so just remove the tab and add another one the suits.
 
-You can also change your view of the page and its data, like sorting and switching the layout between list and tile views. When you make these kinds of changes, they won't affect what others see. They'll see what you originally posted, until they make similar changes themselves.
+You can also change your view of the page and its data, like sorting and switching the layout between list and tile views. When you make these kinds of changes, they won't affect what others see. They see what you originally posted, until they make similar changes themselves.
 
 ## See also
 

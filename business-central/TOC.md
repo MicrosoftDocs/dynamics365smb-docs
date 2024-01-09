@@ -42,6 +42,10 @@
 ##### [Walkthrough of inbound and outbound flow in basic warehouse configurations](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
 ##### [Walkthrough of inbound and outbound flow in mixed warehouse configurations](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
 ##### [Walkthrough of inbound and outbound flow in advanced warehouse configuration with directed put-away and pick](contoso-coffee/warehousing/warehouse-directed-flow.md)
+#### Service
+##### [Introduction to Contoso Coffee service management](contoso-coffee/service/contoso-coffee-service-intro.md)
+##### [Walkthrough of Service Orders for Service Items](contoso-coffee/service/service-basic-flow-order.md)
+##### [Walkthrough of service contracts for service items](contoso-coffee/service/service-contract-flow.md)
 
 ### Design details
 #### [Application design details overview](design-details-application-design.md)
@@ -870,9 +874,13 @@
 
 ### Denmark
 #### [Local functionality in the Danish version](LocalFunctionality/Denmark/denmark-local-functionality.md)
-#### [Notification and registration for the NemHandelsregisteret in Denmark](localfunctionality/denmark/how-to-nemhandel-register.md)
-#### [Set up electronic invoicing with NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
+#### Compliance
 #### [Keep transactional data for five years in Denmark](localfunctionality/denmark/how-to-keep-data-5years.md)
+##### [Set up digital vouchers in Denmark](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
+#### Auditing
+##### [Export the SAF-T audit file format in Denmark](LocalFunctionality/Denmark/how-to-use-saft-audit-files-export.md)
+##### [Public Standard Chart of Accounts in Denmark](LocalFunctionality/Denmark/how-to-set-up-standard-coa.md)
+##### [Export accounting data to Regnskab Basis in Denmark](LocalFunctionality/Denmark/how-to-use-regnskabbasis-export.md)
 #### VAT
 ##### [Print VAT reconciliation reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [VAT-VIES reports](LocalFunctionality/Denmark/vat-vies-reporting.md)
@@ -886,11 +894,11 @@
 ##### [Set up customers for OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [Set up OIOUBL electronic invoice](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [The OIOUBL extension for electronic invoice](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [Create electronic documents in an OIOUBL format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md
+##### [Create electronic documents in an OIOUBL format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+#### [Notification and registration for the NemHandelsregisteret in Denmark](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Set up electronic invoicing with NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
 #### Payroll
 ##### [Payroll data definitions (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
-#### Digital vouchers
-##### [Set up digital vouchers in Denmark](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finland
 #### [Local functionality in the Finnish version](LocalFunctionality/Finland/finland-local-functionality.md)

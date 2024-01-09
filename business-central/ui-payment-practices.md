@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment, practices, vendor, customer, report
 ms.search.form: 686, 687, 689 
-ms.date: 12/12/2022
+ms.date: 01/09/2024
 ms.author: altotovi
 
 --- 
@@ -41,5 +41,3 @@ To run the Payment Practices report, use the following steps:
    | Header Type |   |
    | Starting Date |   |
    | Ending Date |    |
-      
-5. 

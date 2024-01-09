@@ -63,6 +63,7 @@ Repeat steps 2-6 for all online shops that you want to connect.
 - [Error: Oauth error invalid_request: Could not find Shopify API application with api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
 - [Error: Oauth error invalid_request: Your account does not have permission to grant the requested access for this app.](troubleshoot.md#error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app)
 - [Can't connect from sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
+- Make sure you enter right URL into the **Shopify URL**, which you can build by combining store id from the admin URL: `admin.shopify.com/store/{shop}` with  `.myshopify.com` to get `https://{shop}.myshopify.com/`.
 
 ## Next steps
 

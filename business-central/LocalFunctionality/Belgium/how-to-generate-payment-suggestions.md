@@ -1,20 +1,17 @@
 ---
-    title: Generate Payment Suggestions [BE]
-    description: After you have set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.
-    author: SorenGP
-
-    
+    title: Generate payment suggestions [BE]
+    description: After you set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.form: 256
-    ms.date: 06/17/2021
-    ms.author: edupont
+    ms.date: 11/24/2023
+    ms.author: bholtorf
 
----
-# Generate Payment Suggestions in the Belgian Version
-After you have set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.  
+# Generate payment suggestions in the Belgian version
+After you set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.  
 
 ## To generate payment suggestions  
 
@@ -25,23 +22,22 @@ After you have set up electronic banking, you can start generating payment sugge
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Last Due Date**|Enter the last due date that can appear on the vendor ledger entries to be included in the batch job.|  
-    |**Take Credit Memos**|Select to include outstanding credit memos for vendors. The credit memos will be subtracted from the amount due. When selecting credit memos, the due date is not used.|  
+    |**Take Credit Memos**|Select to include outstanding credit memos for vendors. The credit memos are subtracted from the amount due. When you select credit memos, the due date isn't used.|  
     |**Take Payment Discounts**|Select to include vendor ledger entries for which you can receive a payment discount.|  
-    |**Payment Discount Date**|Enter the date that will be used to calculate a payment discount.|  
-    |**Available Amount**|If there is a maximum amount available for payments, you can enter it here. The batch job will then create a payment suggestion based on this amount and the priority of vendors.|  
-    |**Posting Date**|Enter the date that will appear as the posting date on the lines that the batch job inserts in the payment journal.|  
+    |**Payment Discount Date**|Enter the date that is used to calculate a payment discount.|  
+    |**Available Amount**|If there's a maximum amount available for payments, you can enter it here. The batch job creates a payment suggestion based on this amount and the priority of vendors.|  
+    |**Posting Date**|Enter the date that appears as the posting date on the lines that the batch job inserts in the payment journal.|  
 
 4.  Enter the filter criteria.  
 5.  Choose the **OK** button to start the batch job.  
 
 When the batch job is finished, the payment journal contains all vendor ledger entries that match the filters.  
 
-## See Also  
+## See also  
  [Belgian Electronic Payments](belgian-electronic-payments.md)   
  [Set Up Vendors for Automatic Payment Suggestions](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
  [Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md)   
  [Test Electronic Payments](how-to-test-electronic-payments.md)   
- [Manage Electronic Payment Lines](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments)   
  [Print Payment Files](how-to-print-payment-files.md)
 
 

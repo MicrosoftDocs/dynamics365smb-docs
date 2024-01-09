@@ -1,10 +1,8 @@
 ---
-author: jill-kotel-andersson
-
-
+author: brentholtorf
 ms.topic: include
 ms.date: 09/24/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 22.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  

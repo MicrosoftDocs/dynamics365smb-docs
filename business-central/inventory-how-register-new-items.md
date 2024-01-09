@@ -1,18 +1,15 @@
 ---
 title: Create Item Cards for Goods or Services (contains video)
 description: You create item cards for services that you sell as hours and for physical products. Examples include assembly items and finished goods that you sell from your inventory.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 09/26/2022
-ms.author: edupont
-
+ms.date: 11/02/2022
+ms.author: bholtorf
 ---
 # Register New Items
 
@@ -24,7 +21,7 @@ The item card can be of type **Inventory**, **Service**, or **Non-Inventory** to
 
 An item can be structured as a parent item with underlying child items in a bill of materials (BOM). Learn more about assembly BOMs and production BOMs at [Work with Bills of Material](inventory-how-work-BOMs.md).
 
-If you purchase the same item from more than one vendor, you can connect those vendors to the item card. The vendors will then appear on the **Item Vendor Catalog** page, so that you can easily select an alternate vendor.
+If you purchase the same item from more than one vendor, you can connect those vendors to the item card. The **Item Vendor Catalog** page displays the vendors, so that you can easily select an alternate vendor.
 
 *Catalog items* are items that you offer to your customers but you don't want to manage them in your system until you start selling them. Catalog items aren't regular items of type **Non-Inventory**. Learn more at [Work with Catalog Items](inventory-how-work-nonstock-items.md).  
 
@@ -57,8 +54,8 @@ If you want to use this item card as a template when you create new item cards, 
 1. On the **Item Card** page, choose the **Save as Template** action. The **Item Template** page opens showing the item card as a template.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To reuse dimensions in templates, choose the **Dimensions** action. The **Dimension Templates** page opens showing any dimension codes that are set up for the item.
-4. Edit or enter dimension codes that will apply to new item cards created by using the template.
-5. When you've completed the new item template, choose the **OK** button.
+4. Edit or enter dimension codes that apply to new item cards created by using the template.
+5. When you complete the new item template, choose the **OK** button.
 
 The item template is added to the list of item templates, so that you can use it to create new item cards.
 
@@ -77,7 +74,7 @@ If you purchase the same item from more than one vendor, you must enter informat
 5. Optionally, fill in the remaining fields.  
 6. Repeat steps 2 through 5 for each vendor that you want to buy the item from.
 
-The vendors will now appear on the **Item Vendor Catalog** page, which you open from the item card, so that you can easily select an alternate vendor.
+The vendors appear on the **Item Vendor Catalog** page, which you open from the item card, so that you can easily select an alternate vendor.
 
 ## Set up item substitutions
 
@@ -102,13 +99,13 @@ When the requested quantity exceeds the quantity that is available in inventory,
 
 Learn more about variants at [Manage Product Variants](inventory-item-variants.md).  
 
-## Deleting item cards
+## Delete item cards
 
-If you've posted a transaction for an item, you can't delete the card because the ledger entries may be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.  
+If you post a transaction for an item, you can't delete the card because the ledger entries might be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.  
 
 ## Manage inventory in warehouses
 
-When you register a new item, you'll see fields that are related to warehouse management, especially on the **Warehouse** FastTab. If your organization doesn't use the warehouse management capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], then you can ignore those fields.  
+When you register a new item, you see fields that are related to warehouse management, especially on the **Warehouse** FastTab. If your organization doesn't use the warehouse management capabilities in [!INCLUDE [prod_short](includes/prod_short.md)], then you can ignore those fields.  
 
 If your organization later sets up warehouse management, we recommend that you make sure that each existing item has the right information in the various fields. This way, the warehouse processes can run as expected. The information can includes fields such as **Warehouse Class Code** or **Put-away Template Code**. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
 
@@ -117,8 +114,6 @@ If your organization later sets up warehouse management, we recommend that you m
 When your company uses the supply planning processes in [!INCLUDE [prod_short](includes/prod_short.md)], you must fill in the relevant fields on the **Planning** FastTab. For an introduction to the planning area, see [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md).  
 
 For examples of how you can use the fields on the **Planning** FastTab, see [Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md).  
-
-## See related [Microsoft training](/training/modules/create-items/)
 
 ## See also
 

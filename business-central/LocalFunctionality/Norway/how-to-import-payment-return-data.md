@@ -1,20 +1,16 @@
 ---
-    title: How to Import Payment Return Data [NO]
-    description: This topic explains how to import receipt and settlement returns, use the Rem. payment order – import page.
-
-    author: SorenGP
-
-    
+    title: How to import payment return data [NO]
+    description: This article explains how to import receipt and settlement returns, use the Rem. payment order – import page.
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/21/2021
-    ms.author: edupont
-
+    ms.date: 12/20/2023
+    ms.author: bholtorf
 ---
-# Import Payment Return Data in the Norwegian Version
+# Import payment return data in the Norwegian version
 To import receipt and settlement returns, use the **Rem. payment order – import** page. If any errors are indicated when importing settlement returns, you can view this information on the **Settlement Info** page.  
 
 ## To import return data  
@@ -25,11 +21,11 @@ To import receipt and settlement returns, use the **Rem. payment order – impor
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Payment order note**|Enter a note that is transferred to the payment order.|  
-    |**ControlBatch**|Select the check box to verify return files in advance to ensure if the import can be made. Return data is not imported.|  
+    |**ControlBatch**|Select the check box to verify return files in advance to ensure if the import can be made. Return data isn't imported.|  
     |**Return files**|Specifies how many return files are found and imported.|  
 
 3.  Choose the **Return Files** button to display the return files.  
-4.  On the **Return Files** page, select the **Import** option next to each file to be imported. If the option is cleared, the file will not be imported.  
+4.  On the **Return Files** page, select the **Import** option next to each file to be imported. If the option is cleared, the file won't be imported.  
 5.  Choose the **OK** button.  
 
 ## To view settlement information  
@@ -45,7 +41,7 @@ To import receipt and settlement returns, use the **Rem. payment order – impor
 
 3.  Choose the **OK** button.  
 
-## See Also  
+## See also  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
  [Create Remittance Accounts](how-to-create-remittance-accounts.md)   

@@ -1,16 +1,14 @@
 ---
     title: Supply Planning
     description: Prepare a detailed executable plan and the final-assembly production schedule for sales and production demand.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.for: 291, 292, 293, 295, 517, 9010, 9038
     ms.date: 04/01/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Planning
@@ -41,8 +39,6 @@ The following table describes a sequence of tasks, with links to the topics that
 |Track the order demand (tracked quantity), forecast, blanket sales order, or planning parameter (untracked quantity) that has given rise to the planning line in question.|[Track Relations Between Demand and Supply](production-how-track-demand-supply.md)|
 |View an item's projected available inventory by different views and see which gross requirements, planned order receipts, and other events influence it over time.|[View the Availability of Items](inventory-how-availability-overview.md)|  
 <!--|Perform selected planning activities, such as changing or adding planning worksheet lines, in a graphical view of the supply plan.|[Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
-
-## See related [Microsoft training](/training/modules/plan-items-dynamics-365-business-central/)
 
 ## See also
 

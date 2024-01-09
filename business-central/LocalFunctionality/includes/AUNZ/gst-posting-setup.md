@@ -1,10 +1,8 @@
 ---
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 12/07/2023
+ms.author: bholtorf
 ---
 
 To set up posting details for GST, you must define the posting groups, rate of GST, and the accounts to which GST is to be posted. You can set up this information for a particular combination of business posting groups and product posting groups.  
@@ -19,11 +17,11 @@ You must set up GST posting before you generate the BAS report.
     |---------------------------------|---------------------------------------|  
     |**VAT Bus. Posting Group**|Specifies the VAT business posting group code.|  
     |**VAT Prod. Posting Group**|Specifies the VAT product posting group code.|  
-    |**VAT Identifier**|Specifies the code that is used to group similar VAT setups with similar attributes.<br /><br /> For example, you can group a number of VAT posting setups that have a common VAT percentage.|  
+    |**VAT Identifier**|Specifies the code that is used to group similar VAT setups with similar attributes.<br /><br /> For example, you can group many VAT posting setups that have a common VAT percentage.|  
     |**VAT %**|Specifies the VAT rate.|  
     |**VAT Calculation Type**|Specifies the method that is used to calculate the purchase or sale of items.|  
-    |**Sales VAT Account**|Specifies the number of the general ledger account to which you want to post the sales VAT.<br /><br /> If you have selected the **Reverse Charge VAT** option in the **VAT Calculation Type** field, then do not enter a value in this field.|  
+    |**Sales VAT Account**|Specifies the number of the general ledger account to which you want to post the sales VAT.<br /><br /> If you select the **Reverse Charge VAT** option in the **VAT Calculation Type** field, then don't enter a value in this field.|  
     |**Purchase VAT Account**|Specifies the number of the general ledger account to which you want to post the purchase VAT.|  
-    |**Reverse Chrg. VAT Acc.**|Specifies the number of the general ledger account to which you want to post the reverse charge VAT.<br /><br /> You can enter a value in this field only if you have selected the **Reverse Charge VAT** option in the **VAT Calculation Type** field.|  
+    |**Reverse Chrg. VAT Acc.**|Specifies the number of the general ledger account to which you want to post the reverse charge VAT.<br /><br /> You can enter a value in this field only if you select the **Reverse Charge VAT** option in the **VAT Calculation Type** field.|  
 
 3.  Choose the **OK** button.  

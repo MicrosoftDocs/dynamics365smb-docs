@@ -1,16 +1,14 @@
 ---
     title: Design Details - Cost Components | Microsoft Docs
     description: Cost components are different types of costs that make up the value of an inventory increase or decrease.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/08/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Design Details: Cost Components

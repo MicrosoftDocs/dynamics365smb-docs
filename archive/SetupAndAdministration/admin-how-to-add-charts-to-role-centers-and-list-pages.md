@@ -3,8 +3,7 @@
     description: When you have complex information, you may want to view a visual representation of the data to help see trends and make decisions. For example, you may want to monitor the balances per bank account for your company in a chart.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
-
+    author: brentholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -12,8 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/01/2017
-    ms.author: sgroespe
-
+    ms.author: bholtorf
 ---
 # Add Charts to Role Centers and List Pages
 When you have complex information, you may want to view a visual representation of the data to help see trends and make decisions. For example, you may want to monitor the balances per bank account for your company in a chart.  

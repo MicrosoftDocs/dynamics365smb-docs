@@ -1,13 +1,13 @@
 ---
 title: Set Up FA Depreciation
 description: There are various methods of depreciation. In Business Central you define an asset's depreciation method on the **Fixed Asset Card** page.
-author: edupont04
+author: brentholtorf
 
 
 ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 # Set Up Fixed Asset Depreciation
@@ -91,8 +91,6 @@ For each depreciation book, you define a default setup of templates and batches.
 When the Calculate Depreciation batch job calculates depreciations, the batch job normally uses a standardized year of 360 days where each of the 12 months has 30 days.
 
 If you select this field, the Calculate Depreciation batch job uses the calendar year of 365 days instead, where each month is calculated with the same number of days as in the calendar. The only exception is February in leap years, which the batch job will treat as having 28 days and not 29. Because of that, all years, also leap years, are considered to have 365 days.
-
-## See related [Microsoft training](/training/modules/configure-depreciation-books/)
 
 ## See also
 

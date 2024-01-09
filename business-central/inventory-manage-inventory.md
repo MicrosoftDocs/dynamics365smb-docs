@@ -1,15 +1,15 @@
 ---
 title: Managing Inventory
 description: This article describes how to manage the physical products you trade in by creating an inventory item card.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
-ms.date: 06/16/2021
-ms.author: edupont
+ms.date: 12/19/2023
+ms.author: bholtorf
 ---
 
 # Manage Inventory
@@ -54,8 +54,6 @@ The following table outlines related tasks.
 |Block items from being entered on sales or purchase lines or from being posted in any transaction.|[Block Items](inventory-how-block-items.md)|
 |Manage business operations in sales offices, purchasing departments, or plant planning offices across multiple locations.|[Work with Responsibility Centers](inventory-responsibility-centers.md)|
 |Use resources with specific functions for various services and service items.|[Set Up Resource Allocation](service-how-setup-resource-allocation.md)|
-
-## See related [Microsoft training](/training/paths/get-started-inventory-management/)
 
 ## See also
 

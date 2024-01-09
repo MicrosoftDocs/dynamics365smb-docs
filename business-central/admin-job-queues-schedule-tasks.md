@@ -5,11 +5,11 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.date: 08/24/2023
+ms.date: 09/15/2023
 ms.custom: bap-template
 ms.search.form: 672, 673, 674, 671
 ---
-# Use Job Queues to Schedule Tasks
+# Use job queues to schedule tasks
 
 Use the **Job Queue Entries** page to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson * Sales Statistics** report weekly to track sales by salesperson each week, or run the **Delegate Approval Requests** codeunit daily to prevent documents from piling up.
 
@@ -21,7 +21,7 @@ The Job Queue Entries page lists all existing jobs. If you add a new job queue e
 * When, and how often, the job queue entry will run.
 
 > [!IMPORTANT]  
-> If you're assigned the SUPER permissions set that comes with [!INCLUDE[prod_short](includes/prod_short.md)], you have permission to run all objects included in your license. If you have the Delegated Admin role, you can create and schedule job queue entries but only administrators and licensed users can run them. Users with the Device license can't create or run job queue entires.
+> If you're assigned the SUPER permissions set that comes with [!INCLUDE[prod_short](includes/prod_short.md)], you have permission to run all objects included in your license. If you have the Delegated Admin role, you can create and schedule job queue entries, but only administrators and licensed users can run them.
 
 After job queues are set up and running, the status can change as follows within each recurring period:
 
@@ -35,7 +35,20 @@ After job queues are set up and running, the status can change as follows within
 > [!NOTE]
 > The **On Hold Due to Inactivity** status is used primarily for job queue entries that schedule synchronization between [!INCLUDE [prod_short](includes/prod_short.md)] and another application, such as [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. To learn more about this status, go to [About inactivity timeouts](/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries#about-inactivity-timeouts).
 
-After a job finishes successfully it's removed from the list of job queue entries, unless it's a recurring job. For recurring jobs, the **Earliest Start Time** field is adjusted to show the next time that the job will run.  
+After a job finishes successfully it's removed from the list of job queue entries, unless it's a recurring job. For recurring jobs, the **Earliest Start Time** field is adjusted to show the next time that the job will run. 
+
+## Important for scheduling recurring jobs
+
+> [!IMPORTANT]  
+> Recurring job queues can affect performance, so you shouldn't run them too frequently. When you set up how often to run a recurring job, try to set the largest time interval you can. For example, if you're about to set a recurrence of five minutes, consider whether it can be 15 minutes, or even once per hour instead. When planning for recurring job queues, consider which areas of the application the job will affect. Is it an area where many users work and will be impacted by heavy activity? Consider the length of a single job run and the business motivations for running jobs with a given cadence.
+
+## The earliest start date
+
+The value in the **Earliest Start Date/Time** field on the **Job Queue Entry Card** page shows the next time the job will run. There are several factors that can affect whether a job queue entry actually runs at that time.
+
+The most common factors are the number of job queue entries in an environment, and the overall number of scheduled tasks. To protect performance levels, there are operational limits. If you have a lot of entries in the queue and, for example, one of them fails or the entries just take longer than expected, the next job might not start at the expected time. If you have codeunits that are generating 100,000 or more scheduled tasks, you should investigate whether you actually need all of those tasks. You can access the list of all scheduled tasks on the **Scheduled Tasks** page.
+
+To learn more about monitoring the status of job queue entries, go to [To view status for any job](#to-view-status-for-any-job). To learn more about operational limits, go to [Asynchronous task limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
 
 ## Monitor status or errors in the job queue
 
@@ -129,7 +142,7 @@ Administrators can use [Azure Application Insights](/azure/azure-monitor/app/app
 
 Telemetry lets administrators set up alerts on job queue issues that send a text message, email, or a message in Teams if something isn't right. To learn more about these alerts, go to [Alert on Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
 
-## See Also
+## See also
 
 [Administration](admin-setup-and-administration.md)  
 [Setting Up Business Central](setup.md)  

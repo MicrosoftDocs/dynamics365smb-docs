@@ -1,14 +1,12 @@
 ---
 title: Financial Reports and Analytics
 description: See which financial reports and analytics are available in the standard version of Business Central so you can keep track of your business. Use report 38 for profit/loss (P&L) reporting.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
-ms.date: 08/24/2022
-ms.author: edupont
+ms.date: 12/19/2023
+ms.author: bholtorf
 
 ---
 # Financial Reports and Analytics in Business Central
@@ -32,8 +30,6 @@ The following articles describe some of the key tasks for analyzing the state of
 * [Create Analysis Reports](bi-how-create-analysis-views-reports.md)  
 * [Create Reports with XBRL](bi-create-reports-with-xbrl.md)  
 * [Manage Database Access Intent](admin-data-access-intent.md)  
-
-## See related [Microsoft training](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
 ## See also
 

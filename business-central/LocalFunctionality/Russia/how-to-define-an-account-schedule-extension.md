@@ -1,17 +1,15 @@
 ---
-title: Defining Financial Report Extensions in Russia
+title: Defining financial report extensions in Russia
 description: Russian enhancements include extending financial report lines.
 author: DianaMalina
-
-
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 08/26/2022
-ms.reviewer: edupont
+ms.date: 11/13/2023
+ms.reviewer: bholtorf
 ms.author: soalex
 ---
 
-# Define a Financial Report Extension
+# Define a financial report extension
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] enables you to define an extension for a financial report line. Extensions are useful if you want to filter the data of your general ledger accounts.
 

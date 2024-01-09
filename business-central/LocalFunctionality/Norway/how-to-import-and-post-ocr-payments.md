@@ -1,20 +1,17 @@
 ---
-title: Import and Post OCR Payments [NO]
+title: Import and post OCR payments [NO]
 description: Before you can receive optical character recognition (OCR) payments, you must make certain preparations in the Norwegian version of Business Central.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 15000100, 255
-ms.date: 04/01/2021
-ms.author: edupont
-
+ms.date: 12/06/2023
+ms.author: bholtorf
 ---
-# Import and Post OCR Payments
+# Import and post OCR payments
 Before you can receive optical character recognition (OCR) payments, you must make the following preparations:  
 
 - Set up a cash receipt journal template to balance OCR transactions according to the document number, instead of the document type.  
@@ -44,7 +41,7 @@ Before you can receive optical character recognition (OCR) payments, you must ma
 
 The OCR payment files are posted to the cash receipt journal.  
 
-## See Also  
+## See also  
  [Electronic Banking in Norway](electronic-banking-in-norway.md)   
  [Set Up KID Numbers on Sales Documents](how-to-set-up-kid-numbers-on-sales-documents.md)   
  [Set Up OCR Payments](how-to-set-up-ocr-payments.md)   

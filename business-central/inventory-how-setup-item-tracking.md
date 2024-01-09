@@ -1,17 +1,14 @@
 ---
     title: Set Up Item Tracking with Serial, Lot, and Package Numbers
     description: Set up item tracking with serial numbers, lot numbers, and package numbers
-
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 08/31/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Set Up Item Tracking with Serial, Lot, and Package Numbers
@@ -112,8 +109,6 @@ For bulk imports, use configuration packages to import data to the journals.
 
 > [!NOTE]
 > You can't use **Edit in Excel** to create journal lines with tracking information.
-
-## See related [Microsoft training](/training/modules/prepare-item-tracking/)
 
 ## See also
 

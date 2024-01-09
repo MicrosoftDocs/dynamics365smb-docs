@@ -1,20 +1,16 @@
 ---
-    title: How to Upgrade a .DTD Definition File [DE]
+    title: How to upgrade a .DTD definition file [DE]
     description: You can explicitly validate a .dtd file after you import one in order to address upgrade issues in the German version.
-
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: edupont
-
+    ms.date: 11/17/2023
+    ms.author: bholtorf
 ---
-# Upgrade a .DTD Definition File for Digital Audits in the German Version
+# Upgrade a .DTD definition file for digital audits in the German version
 
 You can explicitly validate a .dtd file after you import one in order to address upgrade issues. This is useful when you have an existing setup that needs to be updated to reflect the current version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
@@ -25,7 +21,7 @@ You can explicitly validate a .dtd file after you import one in order to address
 3. Set up a record definition, and choose the **Import** action.  
 4. Select a file to import, and then choose the **Validate** action.  
 
-## See Also
+## See also
 
 [Set Up Data Exports for a Digital Audit (GoBD/GDPdU)](how-to-set-up-data-exports-for-digital-audits.md)  
 

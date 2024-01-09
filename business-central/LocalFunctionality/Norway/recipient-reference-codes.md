@@ -1,23 +1,20 @@
 ---
-title: Recipient Reference Codes [NO]
+title: Recipient reference codes [NO]
 description: The recipient reference code determines the message that is sent to the recipient and is displayed on the remittance account.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 06/21/2021
-ms.author: edupont
-
+ms.date: 12/08/2023
+ms.author: bholtorf
 ---
-# Recipient Reference Codes in the Norwegian Version
+# Recipient reference codes in the Norwegian version
 
-The recipient reference code determines the message that is sent to the recipient. The code is displayed on the remittance account and is used for vendors that are paid from this account. For each vendor, a special recipient reference code can be created if the general reference text is not used.  
+The recipient reference code determines the message that is sent to the recipient. The code is displayed on the remittance account and is used for vendors that are paid from this account. For each vendor, a special recipient reference code can be created if the general reference text isn't used.  
 
-The text in recipient reference fields can be formatted automatically with special codes. For example, if you enter **Payment of Invoice %2** in a recipient reference field, the information that will print is **Payment of Invoice 10000**.  
+The text in recipient reference fields can be formatted automatically with special codes. For example, if you enter **Payment of Invoice %2** in a recipient reference field, the information that prints is **Payment of Invoice 10000**.  
 
 The recipient reference codes are described in the following table.  
 
@@ -35,7 +32,7 @@ The recipient reference codes are described in the following table.
 |**%10**|The due date from the vendor ledger entry.|  
 |**%11**|The Kunde ID number from the vendor ledger entry.|  
 
-## See Also  
+## See also  
  [Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)
 
 

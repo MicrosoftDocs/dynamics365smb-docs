@@ -1,16 +1,14 @@
 ---
-title: Creating additional sheets in Russia
+title: Create additional sheets in Russia
 description: Russian enhancements include additional sheets for VAT purchase ledgers and sales ledgers.
 author: DianaMalina
-
-
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.date: 11/06/2023
+ms.reviewer: bholtorf
 ms.author: soalex
 ---
-# Create Additional Sheets
+# Create additional sheets
 
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can create additional sheets based on VAT purchase ledgers and VAT sales ledgers.
 
@@ -38,7 +36,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can create addition
 
 4. Choose the **Preview** or **Print** action.
 
-## Creating Corrective Documents to Include in Additional Sheets
+## Create corrective documents to include in additional sheets
 
 The information changed in the tax invoice after the invoice is registered in the previous purchase book must be reflected in the additional sheet of the previous book (corrected book). The additional sheet is part of the purchase book.
 
@@ -88,7 +86,7 @@ Processing of corrective documents for sales book is similar to processing for p
 
 5. In the additional sheet, the **Date of Facture** field reflects the corrected document date.
 
-## See Also
+## See also
 
 [VAT Ledgers](VAT-Ledgers.md)
 

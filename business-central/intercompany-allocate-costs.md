@@ -2,8 +2,6 @@
 title: Allocate Costs to Intercompany Partners| Microsoft Docs
 description: Learn how VAT settings for customers and vendors control whether, and how, VAT is calculated.
 author: brentholtorf
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,6 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-
 ---
 # Allocate Costs to Intercompany Partners
 When you use intercompany postings to transfer documents between partner companies, the VAT-related settings (primarily the VAT business posting group) assigned to the customer or vendor accounts (associated with the intercompany Partner) control whether, and how, VAT is calculated and registered. 
@@ -50,7 +47,7 @@ To enter a  line in an intercompany general journal, follow these steps.
 The following procedure describes how to allocate costs using a purchase invoice. The steps are the same for purchase orders.
 
 > [!NOTE]
-> To complete these steps you must personalize the **Purchase Invoice** page by adding the **IC Partner Code**, **IC Partner Ref. Type**, and **IC Partner** fields. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+> To complete these steps you must personalize the **Purchase Invoice** page by adding the **IC Partner Code**, **IC Partner Ref. Type**, and **IC Partner** fields. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoice** , and then choose the related link.
 2. In the **Type** field, choose **G/L Account**.

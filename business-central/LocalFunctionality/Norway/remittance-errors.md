@@ -1,45 +1,42 @@
 ---
-title: Remittance Errors [NO]
-description: Remittance errors for payments may occur when data is transferred after payments have been sent to the bank. These errors are reported on the Return Error page.
-author: SorenGP
-
-
+title: Remittance errors [NO]
+description: Remittance errors for payments might occur when data is transferred after payments are sent to the bank. These errors are reported on the Return Error page.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 06/21/2021
-ms.author: edupont
-
+ms.date: 12/07/2023
+ms.author: bholtorf
 ---
-# Remittance Errors in the Norwegian Version
+# Remittance errors in the Norwegian version
 
-Remittance errors for payments may occur when data is transferred and after payments have been sent to the bank. Both kinds of errors are reported on the **Return Error** page.  
+Remittance errors for payments might occur when data is transferred and after payments are sent to the bank. Both kinds of errors are reported on the **Return Error** page.  
 
-The remittance system handles all error codes which can be sent through the return files. It is not required to manually cancel payments rejected by the bank.  
+The remittance system handles all error codes, which can be sent through the return files. It isn't required to manually cancel payments rejected by the bank.  
 
-## Types of Errors  
+## Types of errors  
 There are two types of remittance errors:  
 
 - Transfer error  
 - Rejection  
 
-## Transfer Errors  
-If errors occur during transfer and no return data is created, payments have not been received by the bank.  
+## Transfer errors  
+If errors occur during transfer and no return data is created, the bank didn't receive the payments.  
 
-If the payment file cannot be sent to the bank, you must cancel the payment order in the remittance system.  
+If the payment file can't be sent to the bank, you must cancel the payment order in the remittance system.  
 
 ## Rejections  
-If there is an error or information is missing with a payment that was sent to the bank, the return will contain a rejection of the payment.  
+If there's an error or information is missing with a payment that was sent to the bank, the return contains a rejection of the payment.  
 
 > [!NOTE]  
 >  Rejections vary from bank to bank. Contact your bank regarding how to handle rejection of payments.  
 
-If there is a rejection, the error code from the bank and an explanation is displayed for the payment on the **Waiting Journal** page. You will have to handle the rejection based how the remittance agreement was set up. For more information, see [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md).  
+If there's a rejection, the error code from the bank and an explanation is displayed for the payment on the **Waiting Journal** page. You have to handle the rejection based how the remittance agreement was set up. For more information, see [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md).  
 
-## See Also  
+## See also  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
  [Create Remittance Accounts](how-to-create-remittance-accounts.md)   

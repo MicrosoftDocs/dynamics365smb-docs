@@ -1,22 +1,19 @@
 ---
-title: View Remittance Error Codes [NO]
-description: For a remittance error, the error code from the bank and an explanation of the error will be shown for the payment on the Waiting Journal page in the Norwegian version of Business Central.
-author: SorenGP
-
-
+title: View remittance error codes [NO]
+description: For a remittance error, the error code from the bank, and an explanation of the error is shown for the payment on the Waiting Journal page in the Norwegian version of Business Central.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 04/01/2021
-ms.author: edupont
-
+ms.date: 11/22/2023
+ms.author: bholtorf
 ---
-# View Remittance Error Codes in the Norwegian Version
+# View remittance error codes in the Norwegian version
 
-For a remittance error, the error code from the bank and an explanation of the error will be shown for the payment on the **Waiting Journal** page.  
+For a remittance error, the error code from the bank and an explanation of the error is shown for the payment on the **Waiting Journal** page.  
 
 ## To view error codes  
 
@@ -30,7 +27,7 @@ For a remittance error, the error code from the bank and an explanation of the e
 
 3.  Choose the **Close** button.  
 
-## See Also  
+## See also  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
  [Create Remittance Accounts](how-to-create-remittance-accounts.md)   

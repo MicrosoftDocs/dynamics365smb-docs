@@ -2,18 +2,17 @@
 title: Set up email in Business Central (contains video)
 description: Describes how to connect email accounts to Business Central so that you can send outbound messages without having to open another app.
 author: brentholtorf
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.author: bholtorf
+ms.topic: get-started
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 07/17/2023
-ms.author: bholtorf
-
+ms.date: 10/06/2023
+ms.custom: bap-template
 ---
 
 # Set Up Email
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can connect one or more email accounts to [!INCLUDE[prod_short](includes/prod_short.md)], letting you send documents without having to open an email app. You can compose each message individually with basic formatting tools, such as fonts, styles, colors, and so on, and add attachments of up to 100 MB. Additionally, report layouts enable administrators to include only the key information from documents. Learn more at [Send Documents by Email](ui-how-send-documents-email.md).
 
@@ -46,7 +45,7 @@ The following table describes the email extensions that are available by default
 |**SMTP Connector**|Use SMTP protocol to send emails.|Allow communications through your SMTP mail server. |
 
 > [!NOTE]
-> The **Microsoft 365 Connector** and **Current User Connector** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Microsoft 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. Additionally, in sandbox environments, these extensions require that the **Allow HttpClient Requests** setting is enabled. To check whether it is enabled for these extensions, go to the **Extension Management** page, choose the extension, and then choose the **Configure** option.
+> The **Microsoft 365 Connector** and **Current User Connector** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Microsoft 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. Additionally, in sandbox environments, these extensions including **Outlook REST API** extension require that the **Allow HttpClient Requests** setting is enabled. To check whether it is enabled for these extensions, go to the **Extension Management** page, choose the extension, and then choose the **Configure** option.
 
 > External users, such as delegated admins and external accountants, cannot use these extensions to send email messages from [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -57,9 +56,11 @@ The following table describes the email extensions that are available by default
 If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](includes/prod_short.md)], you can use the SMTP Connector extension. When you set up an account that uses SMTP, the **Sender Type** field is important. If you choose **Specific User**, emails will be sent using the name and other information from the account you're setting up. However, if you choose **Current User**, emails will be sent from the email account specified for each user's account. Current User is similar to the Send As feature. For more information, see [Use a Substitute Sender Address on Outbound Email Messages](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can use OAuth 2.0 protocol for authentication. You must create an application registration in the Azure portal, and then run the **Set up Azure Active Directory** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Azure AD. For more information, see [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can use OAuth 2.0 protocol for authentication. To use OAuth for SMTP, all users must be on the same Microsoft Entra tenant. 
+> 
+> You must create an application registration in the Azure portal, and then run the **Set up Microsoft Entra ID** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Microsoft Entra ID. For more information, see [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
-> Exchange Online is deprecating use of Basic authentication for SMPT. Tenants that are currently using SMTP AUTH won't be affected by this change. However, we strongly recommend using the latest version of [!INCLUDE [prod_short](includes/prod_short.md)] and setting up OAuth 2.0 authentication for SMTP. We will not add certificate-based authentication for earlier versions of [!INCLUDE [prod_short](includes/prod_short.md)], for example, version 14. If you can't set up OAuth 2.0 authentication, we encourage you to explore third-party alternatives if you want to use SMTP email in earlier versions.
+> Exchange Online is deprecating use of Basic authentication for SMTP. Tenants that are currently using SMTP AUTH won't be affected by this change. However, we strongly recommend using the latest version of [!INCLUDE [prod_short](includes/prod_short.md)] and setting up OAuth 2.0 authentication for SMTP. We will not add certificate-based authentication for earlier versions of [!INCLUDE [prod_short](includes/prod_short.md)], for example, version 14. If you can't set up OAuth 2.0 authentication, we encourage you to explore third-party alternatives if you want to use SMTP email in earlier versions.
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
@@ -203,11 +204,11 @@ You can use this data to monitor email usage and to troubleshoot email failures.
 
 ## Set up email for Business Central on-premises
 
-[!INCLUDE[prod_short](includes/prod_short.md)] on-premises can integrate with services that are based on Microsoft Azure. For example, you can use Cortana Intelligence for smarter cash flow forecasts, Power BI to visualize your business, and Exchange Online for sending email. Integration with these services is based on an app registration in Azure Active Directory. The app registration provides authentication and authorization services for communications. To use the email capabilities in [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you must register [!INCLUDE[prod_short](includes/prod_short.md)] as an app in the Azure portal, and then connect [!INCLUDE[prod_short](includes/prod_short.md)] to the app registration. The following sections describe how.
+[!INCLUDE[prod_short](includes/prod_short.md)] on-premises can integrate with services that are based on Microsoft Azure. For example, you can use Cortana Intelligence for smarter cash flow forecasts, Power BI to visualize your business, and Exchange Online for sending email. Integration with these services is based on an app registration in Microsoft Entra ID. The app registration provides authentication and authorization services for communications. To use the email capabilities in [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you must register [!INCLUDE[prod_short](includes/prod_short.md)] as an app in the Azure portal, and then connect [!INCLUDE[prod_short](includes/prod_short.md)] to the app registration. The following sections describe how.
 
 ### Create an app registration for Business Central in Azure portal
 
-The steps to register [!INCLUDE[prod_short](includes/prod_short.md)] in Azure portal are described in [Register an application in Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
+The steps to register [!INCLUDE[prod_short](includes/prod_short.md)] in Azure portal are described in [Register an application in Microsoft Entra ID](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
 > [!NOTE]
 > To use the email features, your app registration must use a multi-tenant configuration.
@@ -244,26 +245,26 @@ If you have trouble using the SMTP protocol to send email after you connect [!IN
 
 ### Connect [!INCLUDE[prod_short](includes/prod_short.md)] to your app registration
 
-After you register your application in Azure portal, in [!INCLUDE[prod_short](includes/prod_short.md)], use the **Email Application AAD Registration** page to connect [!INCLUDE[prod_short](includes/prod_short.md)] to it.
+After you register your application in Azure portal, in [!INCLUDE[prod_short](includes/prod_short.md)], use the **Email Application Microsoft Entra ID Registration** page to connect [!INCLUDE[prod_short](includes/prod_short.md)] to it.
 
-1. In [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Application AAD Registration**, and then choose the related link.
+1. In [!INCLUDE[prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Email Application Microsoft Entra ID Registration**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> Alternatively, if you are connecting for the first time, you can run the **Set up email** assisted setup guide. In this case, the guide will also include the Email Application AAD Registration page for adding the information for connecting to your app registration. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
+> Alternatively, if you are connecting for the first time, you can run the **Set up email** assisted setup guide. In this case, the guide will also include the Email Application Microsoft Entra ID Registration page for adding the information for connecting to your app registration. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
 
 <!--
 
 1. In [!INCLUDE[prod_short](includes/prod_short.md)], start the **Email Application AAD Registration** assisted setup guide.
 2. On the first page of the guide, copy the value in the **Redirect URL** field.
-3. In Azure Active Directory, search for **App registrations**, and then open the **App registrations** page.
+3. In Microsoft Entra ID, search for **App registrations**, and then open the **App registrations** page.
 4. Choose **New registration**.
 5. In the **Name** field, enter a name for your app.
-6. Under **Supported account types**, choose either the **Accounts in any organizational directory (Any Azure AD Directory - Multitenant)** or **Accounts in any organizational directory (Any Azure AD Directory - Multitenant) and personal Microsoft accounts (/e.g. Skype, Xbox)** options, depending on your needs. If you're unsure, choose **Help me choose** for more information.
+6. Under **Supported account types**, choose either the **Accounts in any organizational directory (Any Microsoft Entra Directory - Multitenant)** or **Accounts in any organizational directory (Any Microsoft Entra Directory - Multitenant) and personal Microsoft accounts (/e.g. Skype, Xbox)** options, depending on your needs. If you're unsure, choose **Help me choose** for more information.
 7. Under **Redirect URI (optional)**, choose **Web**, paste the URL you copied from the **Redirect URL** field in the assisted setup guide in Business Central, and then choose **Register**.
 8. On the navigation pane, choose **Overview**, and then copy the value in the **Application (client) ID** field.
 9. In [!INCLUDE[prod_short](includes/prod_short.md)], in the assisted setup guide, paste the ID in **Client ID** field.
-10. In Azure Active Directory, on the navigation pane, choose **API permissions**, and then choose **Add a permission**.
+10. In Microsoft Entra ID, on the navigation pane, choose **API permissions**, and then choose **Add a permission**.
 11. On the **Request API permissions** pane, on the **Microsoft APIs** tab, choose **Microsoft Graph**.  
 12. Choose **Delegated permissions**, and then in the **Select permissions** field, search for **Mail.ReadWrite**, **Mail.Send**, and **offline_access**. Choose those permissions, and then choose **Add permissions**.
 13. On the navigation pane, choose **Certificates & secrets**.
@@ -275,9 +276,7 @@ After you register your application in Azure portal, in [!INCLUDE[prod_short](in
 
 -->
 
-## See related [Microsoft training](/training/modules/set-up-email/)
-
-## See Also
+## See also
 
 [Shared mailboxes in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

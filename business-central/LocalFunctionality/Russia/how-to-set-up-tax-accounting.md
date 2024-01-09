@@ -2,16 +2,14 @@
 title: Setting up tax accounting in Russia
 description: Russian enhancements include tax accounting.
 author: DianaMalina
-
-
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.date: 11/13/2023
+ms.reviewer: bholtorf
 ms.author: soalex
 ---
 
-# Set Up Tax Accounting
+# Set up tax accounting
 
 Tax accounting lets you apply rules for recognizing income and expenses that follow your local tax laws. You can activate tax accounting features in [!INCLUDE[prod_short](../../includes/prod_short.md)] by setting up tax registers.
 
@@ -34,7 +32,7 @@ Tax accounting lets you apply rules for recognizing income and expenses that fol
    | **Create Reclass. FA Tax Ledger** | Select to create fixed asset reclassification entries. |
    | **Create Acquis. FE Tax Ledger**  | Select to create future expense acquisition entries.   |
 
-4. Select the appropriate depreciation books in the **Tax Depreciation Book** and **Future Exp. Depreciation Book** fields. The depreciation books that you select should not be integrated with the [!INCLUDE[prod_short](../../includes/prod_short.md)] finance module.
+4. Select the appropriate depreciation books in the **Tax Depreciation Book** and **Future Exp. Depreciation Book** fields. The depreciation books that you select shouldn't be integrated with the [!INCLUDE[prod_short](../../includes/prod_short.md)] finance module.
 
 5. Select the **Create Data for Printing Forms** check box to enable detailed tax register entry information to be printed on reports and forms.
 
@@ -42,7 +40,7 @@ Tax accounting lets you apply rules for recognizing income and expenses that fol
 
 For more information about how to set up and customize tax registers, see [Create Tax Registers](How-to-Create-Tax-Registers.md).
 
-## See Also
+## See also
 
 [Tax Accounting](Tax-Accounting.md)  
 [Tax Registers](Tax-Registers.md)  

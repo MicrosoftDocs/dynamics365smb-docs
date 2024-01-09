@@ -1,9 +1,7 @@
 ---
     title: GDPdU Filter Examples [DE]
     description: The following topic provides examples of how you can use and combine different filter types when you set up your GPDdU exports.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@
     ms.search.keywords:
     ms.search.form: 11002, 11003, 11004, 11007, 11008, 11009, 11014, 11026, 11027
     ms.date: 06/18/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # GDPdU Filter Examples in the German Version

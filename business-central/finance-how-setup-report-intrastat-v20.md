@@ -10,7 +10,6 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 05/23/2022
 ms.author: bholtorf
-
 ---
 # Set Up and Report Intrastat
 
@@ -170,8 +169,6 @@ Because you must submit an Intrastat report every month, and you create a new jo
 In many countries/regions, the customs and tax authorities establish 8-digit item codes for various items. In order for item entries to contain the necessary information when the program imports them to the Intrastat journal line, you must have entered the information about the tariff number in the **Tariff Numbers** page. Find the codes for the items that your company deals with and enter them in the **Tariff Numbers** page.
 
 In the **Tariff Numbers** page, add all the codes that you use. You must enter the codes on the item card before you begin to post. When you have set up the codes, enter them in the **Tariff No.** field on the item card. You must also fill in the **Net Weight** field on the item card.
-
-## See related training at [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## See also
 

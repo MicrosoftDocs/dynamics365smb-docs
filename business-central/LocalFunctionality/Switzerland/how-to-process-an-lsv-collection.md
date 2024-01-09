@@ -1,20 +1,17 @@
 ---
-    title: Process an LSV Collection [CH]
+    title: Process an LSV collection [CH]
     description: You can use LSV journals to create and process payments from Lastschrift Verfahren (LSV+) customers. 
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
-    ms.date: 06/21/2021
-    ms.author: edupont
-
+    ms.date: 11/24/2023
+    ms.author: bholtorf
 ---
-# Process an LSV Collection in the Swiss Version
+# Process an LSV collection in the Swiss version
 You can use the **LSV Journal** page to create and process payments from Lastschrift Verfahren (LSV+) customers. You can register these payments in the cash receipt journal, create an LSV file, and then print the collection order. For more information, see the Cash Receipt Journal page and [Export Payments Using LSV](how-to-export-payments-using-lsv.md).  
 
 When you run the **LSV Suggest Collection** batch job, each suggested collection is registered on an LSV journal line, and the open invoices are transferred to the LSV journals. For more information, see the LSV Journal table.  
@@ -29,7 +26,7 @@ You can view, edit, or delete the suggested payment lines. If you correct the su
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**LSV Bank Code**|Select the LSV bank code for the bank that will perform the collection.|  
+    |**LSV Bank Code**|Select the LSV bank code for the bank that performs the collection.|  
     |**LSV Journal Description**|Enter a description for the entry.|
 
 4.  Select the required LSV journal entry, and then choose the **LSV Suggest Collection** action to create the payments to be collected automatically by LSV+.  
@@ -54,7 +51,7 @@ All related lines are transferred to the LSV journal. After processing the LSV c
 
 3.  Choose the **OK** button.  
 
-## See Also  
+## See also  
  [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md)   
  [Close an LSV Collection](how-to-close-an-lsv-collection.md)   
  [Post LSV+ Payments](how-to-post-lsv-payments.md)   

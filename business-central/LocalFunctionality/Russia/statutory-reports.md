@@ -1,21 +1,18 @@
 ---
-title: Statutory Reports in Russia
+title: Statutory reports in Russia
 description: Russian enhancements include support for statutory reports.
 author: DianaMalina
-
-
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 08/26/2022
-ms.reviewer: edupont
+ms.date: 11/08/2023
+ms.reviewer: bholtorf
 ms.author: soalex
 ---
+# Statutory reports
 
-# Statutory Reports
+You can set up statutory reports in [!INCLUDE[prod_short](../../includes/prod_short.md)] which gives you the ability to import and export data for electronic tax reporting and other required documents.
 
-You can set statutory reports up in [!INCLUDE[prod_short](../../includes/prod_short.md)] which gives you the ability to import and export data for electronic tax reporting and other required documents.
-
-After you have set up a report and specified the required information, you can export the report to Excel and then print it.
+After you set up a report and specify the required information, you can export the report to Excel and then print it.
 
 ## Getting started with statutory reports
 

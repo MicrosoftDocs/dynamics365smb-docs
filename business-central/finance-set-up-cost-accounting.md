@@ -1,16 +1,14 @@
 ---
 title: Setting Up Cost Accounting
 description: Before you start working with cost accounting, you must setup. Each cost entry must have a cost type assigned and a cost center code or a cost object assigned.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
-ms.date: 06/16/2021
-ms.author: edupont
+ms.date: 10/09/2023
+ms.author: bholtorf
 
 ---
 # Setting Up Cost Accounting
@@ -104,9 +102,10 @@ Cost centers are departments that are responsible for costs and income. The char
 
 ### To transfer dimension values in the general ledger to the chart of cost centers
 
-1. Set up a dimension to be the cost center dimension on the **Update Cost Acctg. Dimensions** page. Only the values from this dimension are transferred.  
-2. Choose the ![Lightbulb that opens the Tell Me feature 2.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Centers**, and then choose the related link.  
-3. On the **Actions** tab, in the **Functions** group, choose **Get Cost Centers from Dimension** to transfer dimension values to the chart of cost centers. The function transfers the dimension values that you defined in step 1.  
+1. Set up a dimension to be the cost center dimension on the **Cost Accounting Setup** page. Only the values from this dimension are transferred.
+You can choose **Actions** > **Functions** > **Update Cost Acctg. Dimensions** action to update cost accounting dimensions.
+1. Choose the ![Lightbulb that opens the Tell Me feature 2.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Cost Centers**, and then choose the related link.  
+1. On the **Actions** tab, in the **Functions** group, choose **Get Cost Centers from Dimension** to transfer dimension values to the chart of cost centers. The function transfers the dimension values that you defined in step 1.  
 
     > [!NOTE]  
     >  You can set up the **Align Cost Center Dimension**  field to define a one-way synchronization of dimension values from the general ledger to the chart of cost centers. You cannot define a synchronization of the chart of cost centers to dimension values from the general ledger.  
@@ -191,8 +190,6 @@ For each general ledger account, you can define default dimension values in the 
 
 > [!NOTE]  
 >  To make sure that the predefined cost center and cost object that you set up in the general ledger are automatically carried over to cost accounting, select the **Check G/L Postings** check box in the Cost Accounting Setup page.
-
-## See related [Microsoft training](/training/modules/cost-accounting-dynamics-365-business-central/)
 
 ## See also
 

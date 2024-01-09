@@ -1,35 +1,32 @@
 ---
-title: Export Remittance Payments [NO]
-description: This topic explains how you can use the export remittance payments process to export the payments file to your computer in the Norwegian version of Business Central.
-author: SorenGP
-
-
+title: Export remittance payments [NO]
+description: This article explains how you can use the export remittance payments process to export the payments file to your computer in the Norwegian version of Business Central.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 06/21/2021
-ms.author: edupont
-
+ms.date: 12/08/2023
+ms.author: bholtorf
 ---
-# Export Remittance Payments in the Norwegian Version
+# Export remittance payments in the Norwegian version
 
 You can use the export remittance payments process to export the payments file to your computer. You can then transfer the remittance payments to the bank.  
 
 > [!IMPORTANT]  
 >  Before you can export a remittance payment, you must select a payment format in the **Payment Export Format** field on the **Bank Account Card** page.  
 
-You export payments to a bank file by choosing the **Export Payments** button on the **Payment Journal** page. The process may be different, depending on the export format that you select:  
+You export payments to a bank file by choosing the **Export Payments** button on the **Payment Journal** page. The process might be different, depending on the export format that you select:  
 
 - Payments using the SEPA payment standard are directly exported to a file when you choose the **Export Payments** button. For more information, see [Making Payments](../../payables-make-payments.md).  
 
 - Payments using local payment standards, such as **Telepay**, are exported with either the **Remittance - export (bank)** or the **Remittance - export (BBS)** report, which automatically opens when you choose the **Export Payments** button.  
 
-The procedure for exporting payments using the **Remittance – Export** batch job is described in this topic.  
+The procedure for exporting payments using the **Remittance – Export** batch job is described in this article.  
 
-## To export remittance payments using the Remittance - Export batch jobs  
+## To export remittance payments using the remittance - Export batch jobs  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.  
 2.  Prepare to export the payments from the journal. For more information, see [Export Payments to a Bank File](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
@@ -51,7 +48,7 @@ The payment information is exported to the file that is set up in the remittance
 
 The payment journal is deleted and the transactions are transferred to the waiting journal.  
 
-## See Also  
+## See also  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
  [Create Remittance Accounts](how-to-create-remittance-accounts.md)   

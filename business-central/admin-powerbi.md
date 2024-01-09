@@ -6,11 +6,13 @@ ms.topic: overview
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.search.form: 6316, 6317
 ms.reviewer: jswymer
-ms.date: 07/17/2023
+ms.date: 09/28/2023
 ms.author: jswymer
 ms.custom: bap-template
 ---
 # Introduction to [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 It's easy to get insights into your [!INCLUDE[prod_short](includes/prod_short.md)] data with [Power BI](https://powerbi.microsoft.com) - a data visualization system from Microsoft. Power BI retrieves [!INCLUDE[prod_short](includes/prod_short.md)] data so that you can build dashboards and reports based on that data. Power BI provides a flexible alternative to reports built in [!INCLUDE[prod_short](includes/prod_short.md)], enabling you drill down and customize the visualization, and even merge data from different companies in [!INCLUDE[prod_short](includes/prod_short.md)]. Some Power BI reports can also be embedded in Business Central and viewed without leaving the system. More complex dashboards are better experienced from the Power BI web site.
 
@@ -28,7 +30,7 @@ There are various features for working with [!INCLUDE[prod_short](includes/prod_
 |[!INCLUDE[prod_short](includes/prod_short.md)] apps in Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publishes three apps for Power BI on Microsoft AppSource. These apps create detailed reports and dashboards in your Power BI service for viewing [!INCLUDE[prod_short](includes/prod_short.md)] data. Available apps include: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Works online.](media/check.png)||[Here...](across-powerbi-business-central-apps.md)|
 |Work with [!INCLUDE [prod_short](includes/prod_short.md)] data in datamarts and dataflows|Starting in July 2022, you can use the [!INCLUDE [prod_short](includes/prod_short.md)] connector in Power Query Online to dataflows that you share across different reports and dashboards.|![works online.](media/check.png)||[Here...](across-powerbi-business-central-apps.md)|
 
-<a name="onprem"><sup>*</sup></a> This feature requires a registered application for Business Central in Microsoft Azure. For more information, see [Registering Business Central on-premises in Azure AD for integrating with other services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
+<a name="onprem"><sup>*</sup></a> This feature requires a registered application for Business Central in Microsoft Azure. For more information, see [Registering Business Central on-premises in Microsoft Entra ID for integrating with other services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
 ## Get ready to use Power BI
 
@@ -63,14 +65,12 @@ Follow this four-step process to setup Power BI metrics:
 Learn more about Power BI metrics at [Get started with metrics in Power BI](/power-bi/create-reports/service-goals-introduction).
 
 > [!NOTE]
-> It is currently not possible to embed scorecards from Power BI metrics in [!INCLUDE[prod_short](includes/prod_short.md)].
+> Starting with Business Central 2023 release wave 2, it's possible to embed scorecards from Power BI metrics in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Next steps
 
 - If you're an admin who needs to set up Power BI in [!INCLUDE[prod_short](includes/prod_short.md)], go to [Enabling Power BI Integration](admin-powerbi-setup.md).
 - If Power BI is already set up, and you want to try the features, go to [Work with Power BI Reports in Business Central](across-working-with-powerbi.md).
-
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## See also
 

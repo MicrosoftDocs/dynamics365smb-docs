@@ -1,23 +1,20 @@
 ---
-    title: How to Print Troubleshooting Reports [US]
+    title: How to print troubleshooting reports [US]
     description: Several troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues in the US version.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
-
+    ms.date: 11/23/2023
+    ms.author: bholtorf
 ---
-# Print Troubleshooting Reports in the US Version
+# Print troubleshooting reports in the US version
 
 [!INCLUDE [print-troubleshooting-reports](../includes/CAMXUS/print-troubleshooting-reports.md)]
 
-## See Also
+## See also
 
 [United States Local Functionality](united-states-local-functionality.md)  
 [Finance](../../finance.md)  

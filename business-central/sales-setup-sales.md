@@ -1,9 +1,7 @@
 ---
 title: Overview of Tasks to Configure Sales Processes
 description: Overview of tasks required to set up rules and values that define your sales policies and processes including general set-up and finance related sales set-up.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Setting Up Sales
@@ -37,8 +35,6 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 |Enter information about the different transportation vendors you use, including a link to their package tracking service.|[Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)|
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 |Specify whether users are allowed to post sales invoices, and whether they must post them together with a shipment. |[Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)|
-
-## See related [Microsoft training](/training/paths/trade-get-started-dynamics-365-business-central/)
 
 ## See Also
 [Sales](sales-manage-sales.md)  

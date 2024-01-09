@@ -65,8 +65,6 @@ If you approve the incoming document record, the **Released** check box on the i
     2. On the **Insert File** page, drag a selected the file that represents the incoming document in question or select **click here to browse** to find and open the file.
     3. On the **Incoming Document** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## See related [Microsoft training](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## See also
 
 [Use OCR to Turn PDF and Image Files into Electronic Documents](across-how-use-ocr-pdf-images-files.md)

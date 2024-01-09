@@ -3,7 +3,7 @@
     description: Administrators configure the user interface by customizing the user interface for a single profile, such as the Order Processor profile, that multiple users are assigned to. To configure a profile, you must have the SUPER permission set. For more information, see [Administration in the Clients](../administration-in-the-clients.md).
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

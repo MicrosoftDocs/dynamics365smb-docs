@@ -1,20 +1,20 @@
 ---
 title: Record Purchases with Purchase Invoices  (contains video)
 description: Describes how to purchase inventory, non-inventory items, or resources by creating and posting purchase invoices or orders.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
 ms.search.form: 50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310
-ms.date: 09/01/2022
-ms.author: edupont
+ms.date: 12/19/2023
+ms.author: bholtorf
 
 ---
 # Record Purchases with Purchase Invoices and Orders
 
-You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. Purchase invoices and purchase orders are also used to dynamically update inventory levels, meaning you can minimize inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices or orders contribute to profit figures and other financial key performance indicators (KPIs) in your Role Center.
+You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. Purchase invoices and purchase orders are also used to dynamically update inventory levels, meaning you can minimize inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices or orders, contribute to profit figures and other financial key performance indicators (KPIs) in your Role Center.
 
 ## Record Purchases with Purchase Invoices
 
@@ -23,23 +23,23 @@ When you receive the inventory items or the purchased service is complete, post 
 > [!CAUTION]  
 > Do not post a purchase invoice for physical items until you receive the items and know the final cost of the purchase, including any additional charges. Otherwise, your inventory value and profit figures may be skewed.
 
-### Create a and post purchase invoice
+### Create and post a purchase invoice
 
-The following describes how to create a purchase invoice. The steps are similar for a purchase order. The main difference is that purchase orders have additional fields and actions for physical handling of items.
+The following steps describe how to create a purchase invoice. The steps for creating a purchase order are similar. The main difference is that purchase orders have some extra fields and actions for physical handling of items.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**,  then choose the related link.  
 2. In the **Vendor** field, enter the name of an existing vendor.
 
-    Other fields on the **Purchase Invoice** page are now filled with standard information for the selected vendor. If the vendor is not registered, follow these steps:
+    Other fields on the **Purchase Invoice** page are now filled with standard information for the selected vendor. If the vendor isn't registered, follow these steps:
 
     1. In the **Vendor** field, enter the name of the new vendor.
     2. In the dialog box about registering the new vendor, choose **Yes**.
     3. To learn more on how to fill in the vendor card, go to [Register New Vendors](purchasing-how-register-new-vendors.md).  
-    4. When you've completed the vendor card, choose **OK** to return to the **Purchase Invoice** page.
+    4. When you complete the vendor card, choose **OK** to return to the **Purchase Invoice** page.
 
 3. Fill in the remaining fields on the **Purchase Invoice** page as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    You are now ready to fill in the purchase invoice lines with items or resources that you've purchased from the vendor.
+    You're now ready to fill in the purchase invoice lines with items or resources purchased from the vendor.
 
     > [!NOTE]  
     > If you have set up recurring purchase lines for the vendor, such as a monthly replenishment order, then you can insert these lines on the invoice by choosing the **Get Recurring Purchase Lines** action.
@@ -48,9 +48,9 @@ The following describes how to create a purchase invoice. The steps are similar 
 
     The **Line Amount** field is updated to show the value in the **Direct Unit Cost** field multiplied by the value in the **Quantity** field.
 
-    The price and line amount are shown with or without sales tax depending on what you've selected in the **Prices Including Tax** field on the vendor card.
+    The price and line amount are shown with or without sales tax depending on what you select in the **Prices Including Tax** field on the vendor card.
 
-    The totals fields under the lines are automatically updated as you create or modify lines to display the amounts that will be posted to the ledgers.
+    The totals fields under the lines are automatically updated as you create or modify lines to display the amounts posted to the ledgers.
 
 6. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field at the bottom of the invoice.
 
@@ -69,14 +69,14 @@ The purchase is now reflected in inventory, resource ledgers, and financial reco
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
-You can easily correct or cancel a posted purchase invoice before you pay the vendor. This is useful if you need to correct a typing mistake or change the purchase early in the order process. Learn more at [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). If you've already paid for items or services on the posted purchase invoice, then you must create a purchase credit memo to reverse the purchase. Learn more at [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md).
+You can easily correct or cancel a posted purchase invoice before you pay the vendor. This is useful if you need to correct a typing mistake or change the purchase early in the order process. Learn more at [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). To reverse a purchase for items or services listed on the posted purchase invoice for which the payment is processed, you must create a purchase credit memo. Learn more at [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md).
 
 [Open the **Posted Purchase Invoices** list](https://businesscentral.dynamics.com/?page=146) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 
 ## Purchasing non-inventory items
 
-The lines on a purchase invoice can be of the **Resource** or **Item** type. Item cards can be further classified as of the **Inventory**, **Service**, or **Non-Inventory** type, which specifies if the item is a physical inventory unit, a labor time unit (also applicable for resources), or a physical unit that is not kept in inventory. Learn more at [Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for all mentioned types.
+The lines on a purchase invoice can be of the **Resource** or **Item** type. Item cards can be further classified as of the **Inventory**, **Service**, or **Non-Inventory** type, which specifies if the item is a physical inventory unit, a labor time unit (also applicable for resources), or a physical unit that isn't kept in inventory. Learn more at [Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for all mentioned types.
 
 > [!NOTE]
 > With the **Resource** purchase line type, you can also purchase external resources, for example, to invoice a vendor for work delivered. Learn more at [Set Up Resources](projects-how-setup-resources.md).
@@ -85,7 +85,7 @@ The lines on a purchase invoice can be of the **Resource** or **Item** type. Ite
 
 ## When to use purchase orders
 
-You must use purchase orders if your purchasing process requires you to record partial receipts of an order quantity, for example, because the full quantity is not available at the vendor. If you deliver sold items directly from your vendor to your customer as a drop shipment, you must also use purchase orders. Learn more at [Make Drop Shipments](sales-how-drop-shipment.md).
+You must use purchase orders if your purchasing process requires you to record partial receipts of an order quantity, for example, because the full quantity isn't available at the vendor. If you deliver sold items directly from your vendor to your customer as a drop shipment, you must also use purchase orders. Learn more at [Make Drop Shipments](sales-how-drop-shipment.md).
 
 In all other aspects, purchase orders work the same as purchase invoices. The following procedure is based on a purchase invoice. The steps are similar for a purchase order.
 
@@ -95,7 +95,7 @@ In all other aspects, purchase orders work the same as purchase invoices. The fo
 
 ## Receive items with a purchase order
 
-The following describes how to receive items with a purchase order. 
+The following steps describe how to receive items with a purchase order. 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, then choose the related link.
 2. Open an existing purchase order, or create a new one.
@@ -112,7 +112,7 @@ The following describes how to receive items with a purchase order.
 
 ## Receive more items than ordered
 
-When more goods arrive than were ordered, you may want to receive them instead of canceling the receipt. For example, it may be cheaper to keep the excess items in inventory than return them, or your vendor may offer a discount for keeping them.
+When more goods arrive than were ordered, you might want to receive them instead of canceling the receipt. For example, it might be cheaper to keep the excess items in inventory than return them, or your vendor might offer a discount for keeping them.
 
 <!--move the over-receipt setup info to an article about purchasing. Keep the concept info here and link to the steps-->
 ### Set up over-receipts
@@ -143,7 +143,7 @@ When you handle an over-receipt, you can increase the value in the **Qty. to Rec
 
     If the increase is within the tolerance specified by an assigned over-receipt code, the **Over-Receipt Quantity** field updates to show the quantity by which the value in the **Quantity** field is exceeded.
 
-    If the increase is over the tolerance, the over-receipt isn't allowed. Investigate whether another over-receipt code will allow it. Otherwise, only the ordered quantity can be received, and the excess quantity must be handled another way, such as returning it to the vendor.
+    If the increase is over the tolerance, the over-receipt isn't allowed. Investigate whether another over-receipt code allows it. Otherwise, only the ordered quantity can be received, and the excess quantity must be handled another way, such as returning it to the vendor.
 
 2. Post the receipt as you would any other receipt.
 
@@ -166,7 +166,7 @@ On a purchase document, you can choose between the following posting actions:
 
 When a purchase document is posted, the vendor's account, the general ledger (G/L), the item ledger entries, and the resource ledger entries are updated.
 
-For each purchase document, a purchase entry is created in the **G/L Entry** table. An entry is also created in the vendor's account in the **Vendor Ledger Entry** table and a G/L entry is created in the relevant payables account. In addition, posting the purchase may result in a value-added tax (VAT) entry and a G/L entry for the discount amount. Whether an entry for the discount is posted depends on the contents of the **Discount Posting** field on the **Purchases & Payables Setup** page.
+For each purchase document, a purchase entry is created in the **G/L Entry** table. An entry is also created in the vendor's account in the **Vendor Ledger Entry** table and a G/L entry is created in the relevant payables account. In addition, posting the purchase can result in a value-added tax (VAT) entry and a G/L entry for the discount amount. Whether an entry for the discount is posted depends on the contents of the **Discount Posting** field on the **Purchases & Payables Setup** page.
 
 For each purchase line, as applicable, entries are created in the:
 
@@ -176,7 +176,7 @@ For each purchase line, as applicable, entries are created in the:
 
 In addition, purchase documents are always recorded in the **Purch. Recpt. Header** and **Purch. Inv. Header** tables.
 
-You can always review various ledger entries that will be created in result of postings. Choose **Preview Posting** to validate document and inspect expected ledger entries.
+You can always review various ledger entries that are created as a result of postings. Choose **Preview Posting** to validate document and inspect expected ledger entries.
 
 
 > [!IMPORTANT]  
@@ -193,10 +193,6 @@ In most cases, you can open ledger entries from the affected card or document. F
 ## Editing ledger entries
 
 You can edit certain fields on posted purchase documents, such as the **Payment Reference** field. Learn more at [Edit Posted Documents](across-edit-posted-document.md). For more critical fields that affect the auditing trail, you must reverse or undo posting. Learn more at [Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md).
-
-## See related [Microsoft training](/training/modules/receive-invoice-dynamics-d365-business-central/index).
-
-## See related [Microsoft training](/training/modules/processing-invoices-dynamics-365-business-central/index)
 
 ## See also
 

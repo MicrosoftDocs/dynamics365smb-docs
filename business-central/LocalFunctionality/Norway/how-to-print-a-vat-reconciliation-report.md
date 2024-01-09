@@ -1,20 +1,18 @@
 ---
-title: Print a VAT Reconciliation Report [NO]
+title: Print a VAT reconciliation report [NO]
 description: The VAT Reconciliation report shows the reconciliation settlement for the base amount and the VAT amount for general ledger accounts.
-author: SorenGP
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 10602, 10697, 10698, 10604, 315, 472, 473, 471, 317
-ms.date: 06/21/2021
-ms.author: edupont
-
+ms.date: 11/28/2023
+ms.author: bholtorf
 ---
-# Print a VAT Reconciliation Report in the Norwegian Version
-The **VAT Reconciliation** report shows the reconciliation settlement for the base amount and the VAT amount for general ledger accounts. These amounts are grouped by different VAT types.  
+# Print a VAT reconciliation report in the Norwegian version
+The **VAT Reconciliation** report shows the reconciliation settlement for the base amount and the VAT amount for general ledger accounts. Use different VAT types to categorize these amounts.  
 
 ## To print the VAT reconciliation report  
 
@@ -23,12 +21,12 @@ The **VAT Reconciliation** report shows the reconciliation settlement for the ba
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Show Details**|Select if you want to include individual transactions.<br /><br /> If cleared, only one accumulated total will be printed for each account.|  
+    |**Show Details**|Select if you want to include individual transactions.<br /><br /> If cleared, only one accumulated total is printed for each account.|  
     |**Show Transactions without VAT**|Select if you want to print a list of all transactions without VAT amounts.|  
 
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen.  
 
-## See Also  
+## See also  
  [Norway Local Functionality](norway-local-functionality.md)   
  [Report VAT to Tax Authorities](../../finance-how-report-vat.md)
 

@@ -1,22 +1,19 @@
 ---
-    title: How to Correct VAT Transactions Reports [IT]
-    description: The following topic is an explanation of how you can correct and resend electronic VAT transaction reports.
-
+    title: How to correct VAT transactions reports [IT]
+    description: The following article is an explanation of how you can correct and resend electronic VAT transaction reports.
     services: project-madeira 
     documentationcenter: ''
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: edupont
+    ms.date: 11/21/2023
+    ms.author: bholtorf
 
 ---
-# Correct VAT Transactions Reports in the Italian Version
+# Correct VAT transactions reports in the Italian version
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Reports**, and then choose the related link.  
 2.  Create a new report. For more information, see [Create Electronic VAT Transactions Reports](how-to-create-electronic-vat-transactions-reports.md).  
@@ -43,7 +40,7 @@
 6.  On the **General** FastTab, in the **Tax Auth. Receipt No.** field, specify the receipt number that you received from the tax authorities.  
 7.  Choose the **Mark as Submitted** action to finalize the report. The **Status** field is updated to Submitted.  
 
-## See Also  
+## See also  
  [Export VAT Transactions Reports](how-to-export-vat-transactions-reports.md)
 
 

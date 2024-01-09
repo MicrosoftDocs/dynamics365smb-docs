@@ -1,12 +1,10 @@
 ---
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 11/21/2023
+ms.author: bholtorf
 ---
-After you have created delivery reminders, you must issue and print them so that you can send reminders to vendors. Before you issue the delivery reminders, you can print a test report.  
+After you create delivery reminders, you must issue and print them so that you can send reminders to vendors. Before you issue the delivery reminders, you can print a test report.  
 
 When you issue the delivery reminders, delivery reminder ledger entries are created. You can view the created ledger entries on the **Deliv. Reminder Ledger Entries** page.  
 
@@ -19,9 +17,9 @@ When you issue the delivery reminders, delivery reminder ledger entries are crea
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Print**|Select to print the delivery reminders when they are issued.|  
+    |**Print**|Select to print the delivery reminders when they're issued.|  
     |**Replace Posting Date**|Select to replace the existing posting date for the delivery reminder.|  
-    |**Posting Date**|The posting date for the delivery reminder.<br /><br /> This posting date is used for all delivery reminders if you have selected the **Replace Posting Date** check box. If the **Replace Posting Date** check box is cleared, this date will be used for only those delivery reminders for which a posting date is not available.|  
+    |**Posting Date**|The posting date for the delivery reminder.<br /><br /> This posting date is used for all delivery reminders if you select the **Replace Posting Date** check box. If the **Replace Posting Date** check box is cleared, this date is used for only those delivery reminders for which a posting date isn't available.|  
 
 5. Optionally, on the **Delivery Reminder Header** FastTab, select the appropriate filters.  
 

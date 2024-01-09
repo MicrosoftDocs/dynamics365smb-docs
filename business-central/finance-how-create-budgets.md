@@ -1,9 +1,7 @@
 ---
 title: Creating G/L Budgets
 description: Describes how to create G/L budgets to forecast different financial activities and assign dimensions for business intelligence purposes.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
 ms.date: 08/24/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Create G/L Budgets
@@ -55,8 +53,6 @@ You know that the new budgeted salaries cost is going to be local currency (LCY)
 You enter 1.200.000 in the Heading line, export the budget to Excel, then send it to the Salaries department, telling them to distribute the LCY 1.200.000.
 
 The Salaries department distributes the amount on the three posting accounts. When you import back into the G/L budget, the three accounts are filled in with the new Excel data, summing to LCY 1.200.000, and the Heading line is blank.
-
-## See related [Microsoft training](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## See also
 

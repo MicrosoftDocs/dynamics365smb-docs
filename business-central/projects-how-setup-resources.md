@@ -1,9 +1,7 @@
 ---
 title: Set Up Project Resource Costs, Prices, and Capacity
 description: To use resources and facilitate project management, you specify costs and prices for individual resources or resource groups, and set the resource capacity.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Set Up Resources for Projects
@@ -76,8 +74,6 @@ In addition to price specified on the resource card, you can set up alternate pr
 2. Select the resource for that you want to set up one or more alternate prices for, and then choose the **Prices** action.
 3. On the **Resource Prices** page, fill in the fields on a line as necessary.
 4. Repeat step 3 for each alternate resource price that you want to set up.
-
-## See related [Microsoft training](/training/paths/set-up-jobs-resources/)
 
 ## See also
 

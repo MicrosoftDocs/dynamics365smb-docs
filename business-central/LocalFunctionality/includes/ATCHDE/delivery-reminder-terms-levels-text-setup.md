@@ -1,19 +1,17 @@
 ---
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 12/20/2023
+ms.author: bholtorf
 ---
 
-To create delivery reminders, you must set up the following:  
+To create delivery reminders, you must set up the following prerequisites:  
 
 - Delivery reminder terms  
 - Delivery reminder levels  
 - Delivery reminder text messages  
 
-Each delivery reminder term has two or more delivery reminder levels, and for each delivery reminder level, you can specify text that will be part of the delivery reminder.  
+Each delivery reminder term has two or more delivery reminder levels, and for each delivery reminder level, you can specify text that is part of the delivery reminder.  
 
 ## To set up delivery reminder terms  
 
@@ -25,7 +23,7 @@ Each delivery reminder term has two or more delivery reminder levels, and for ea
     |---------------------------------|---------------------------------------|  
     |**Code**|The code for the delivery reminder term. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|The description for the delivery reminder term. You can enter a maximum of 30 alphanumeric characters.|  
-    |**Max. No. of Delivery Reminders**|The maximum number of delivery reminders that can be created for an order.<br /><br /> **NOTE:** This is the maximum number across all reminder levels for this reminder term. For example, if you have set up three levels, and you set **Max. No. of Delivery Reminders** to 5, the first reminder is created at level 1, the second at level 2, and the last three at level 3.|  
+    |**Max. No. of Delivery Reminders**|The maximum number of delivery reminders that can be created for an order.<br /><br /> **NOTE:** This is the maximum number across all reminder levels for this reminder term. For example, if you set up three levels, and you set **Max. No. of Delivery Reminders** to 5, the first reminder is created at level 1, the second at level 2, and the last three at level 3.|  
 
 4. Choose the **OK** button.  
 

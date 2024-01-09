@@ -1,7 +1,7 @@
 ---
 title: Overview of Tasks to Set Up Purchasing
 description: Describes the tasks to define your company's procurement policies and set up your purchasing processes.
-author: SorenGP
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
 ms.date: 08/30/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Setting Up Purchasing
@@ -50,7 +50,7 @@ On the **Number Series** FastTab, you must specify unique identification codes t
 
 The **Exact Cost Reversing Mandatory** function helps ensure returned goods are valued at the same cost as when they were originally drawn from inventory, using a fixed application instead of following an average or first-in, first-out (FIFO) costing method. Learn more in the [Design Details: Fixed Application](design-details-item-application.md#fixed-application) section. If an additional cost is later added to the original purchase, the program updates the value of the respective purchase return.
 
-With the feature enabled, a return transaction can only be posted by specifying the item ledger entry number in the **Appl.-to Item Entry** field on the purchase return order line. By default the field is not displayed on the **Lines** FastTab. Learn how to add fields to pages in the [Personalize Your Workspace](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner) section.
+With the feature enabled, a return transaction can only be posted by specifying the item ledger entry number in the **Appl.-to Item Entry** field on the purchase return order line. By default the field is not displayed on the **Lines** FastTab. Learn how to add fields to pages in the [Personalize Your Workspace](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode) section.
 
 [!INCLUDE[local-functionality](includes/local-functionality.md)]
 
@@ -70,8 +70,6 @@ With the feature enabled, a return transaction can only be posted by specifying 
 | Review expense receipts, convert paper and electronic documents to journal lines, and digitalize paper invoices from vendors. | [Set Up Incoming Documents](across-how-setup-income-documents.md) |
 | Specify default reports to be used for different document types. |[Report Selection in Business Central](across-report-selections.md)|
 |Specify whether users are allowed to post purchase invoices, and whether they must post them together with a shipment. |[Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)|
-
-## See related training at [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## See also
 

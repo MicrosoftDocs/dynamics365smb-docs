@@ -1,20 +1,18 @@
 ---
 title: Accountant experiences in Business Central (contains video)
 description: Learn about the Accountant Role Center and the Company Hub that support internal and external accountants in the client company.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
-ms.date: 04/01/2021
-ms.author: edupont
-
+ms.date: 10/19/2023
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 # Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Any business must do its books and sign off on the accounting. Some businesses employ an external accountant, and others have an accountant on staff. No matter which type of accountant you are, you can use the **Accountant** Role Center as your Home in [!INCLUDE[prod_short](includes/prod_short.md)]. From here, you can access all pages that you need in your work.  
 
@@ -30,7 +28,7 @@ If you work in multiple [!INCLUDE [prod_short](includes/prod_short.md)] companie
 
 ## <a name="inviteaccountant"></a>Inviting Your External Accountant to Your [!INCLUDE[prod_short](includes/prod_short.md)]
 
-If you use an external accountant to manage your books and financial reporting, your administrator can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. [!INCLUDE[prod_short](includes/prod_short.md)] includes three licenses of type External Accountant. For more information about licensing, see the [Microsoft Dynamics 365 Business Central Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=871590).
+If you use an external accountant to manage your books and financial reporting, your administrator can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. [!INCLUDE[prod_short](includes/prod_short.md)] includes three licenses of type External Accountant. For more information about licensing, download the [Microsoft Dynamics 365 Business Central Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 Once your accountant has gained access to your [!INCLUDE[prod_short](includes/prod_short.md)], they can use the **Accountant** Role Center that gives easy access to the most relevant pages for their work. They can also use the company hub in their own [!INCLUDE [prod_short](includes/prod_short.md)] to manage their work. For more information, see [Manage Work across Multiple Companies in the Company Hub](company-hub.md).  
 
@@ -44,9 +42,9 @@ We have made it easy for you to invite your external accountant. Simply open the
 <!-- ![Invite your accountant.](./media/finance-invite-accountant/invite-accountant.png)-->
 
 > [!IMPORTANT]  
-> The accountant's email address must be a work address that is based on Azure Active Directory. If the accountant uses another type of email, then the invitation cannot be sent.
+> The accountant's email address must be a work address that is based on Microsoft Entra ID. If the accountant uses another type of email, then the invitation cannot be sent.
 >
-> This task requires access to managing users and licenses in Azure Active Directory. The user who sends this invitation must be assigned the **Global admin** role or **User admin** role in the Microsoft 365 admin center. For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) in the Microsoft 365 admin content.  
+> This task requires access to managing users and licenses in Microsoft Entra ID. The user who sends this invitation must be assigned the **Global admin** role or **User admin** role in the Microsoft 365 admin center. For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) in the Microsoft 365 admin content.  
 
 ### Adding your accountant to your Microsoft 365 in the Azure portal
 
@@ -55,7 +53,7 @@ If your administrator or reselling partner do not want to use the **Invite Exter
 #### To add your accountant as a guest user
 
 1. Open the [Azure portal](https://portal.azure.com/).
-2. In the left pane, select **Azure Active Directory**.
+2. In the left pane, select **Microsoft Entra ID**.
 3. Under **Manage**, select **Users**.
 4. Select **New guest user**.
 5. On the **New user** page, select **Invite user** and then add information about your external accountant.  
@@ -83,7 +81,7 @@ If successful, the license is assigned to the guest user, and the guest account 
 
 ### Importing the new user into [!INCLUDE[prod_short](includes/prod_short.md)]
 
-The accountant will receive an email that notifies them that they have been given access to your Active Directory. Next, you must give them access to the right company in [!INCLUDE[prod_short](includes/prod_short.md)].
+The accountant will receive an email that notifies them that they have been given access to your Microsoft Entra ID. Next, you must give them access to the right company in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 #### To add the accountant to the right company
 

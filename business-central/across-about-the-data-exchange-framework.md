@@ -1,18 +1,15 @@
 ---
 title: About the Data Exchange Framework
-description: This topic explains how to use the Data Exchange Framework to manage the exchange of data in business documents like invoices with your business partners.
-author: SorenGP
-
-
+description: This article explains how to use the Data Exchange Framework to manage the exchange of data in business documents like invoices with your business partners.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file, OCR
 ms.search.form: 189, 
-ms.date: 06/10/2021
-ms.author: edupont
-
+ms.date: 12/13/2023
+ms.author: bholtorf
 ---
 # About the Data Exchange Framework
 
@@ -26,7 +23,7 @@ As an administrator or Microsoft partner, you can use the framework in new integ
 
  ![Data Exchange Framework &#45; Export.](media/across-data-exchange/dataexchangeframework_export.png)  
 
-## Electronic Documents
+## Electronic documents
 
 As an alternative to emailing business documents as file attachments, you can send and receive them electronically. An "electronic document" is a standard-compliant file representing a business document, such as an invoice from a vendor that you can receive and convert to a purchase invoice in [!INCLUDE[prod_short](includes/prod_short.md)]. Trading partners exchange electronic documents through external document exchange services. By default, [!INCLUDE[prod_short](includes/prod_short.md)] supports sending and receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. A major provider of document exchange services, Tradeshift, is pre-configured and ready to be set up for your company. To provide support for other electronic document formats, you must create new data exchange definitions.  
 
@@ -38,7 +35,7 @@ To receive, for example, an invoice from a vendor as an electronic PEPPOL docume
 
   To receive, for example, an invoice as an electronic OCR document, you process it as when you receive an electronic PEPPOL document. The receiving and conversion of electronic documents from OCR are performed by the Data Exchange Framework, represented by the **OCR – Invoice** data exchange definition.  
 
-## Bank Files
+## Bank files
 
 The formats of files for exchanging bank data with business management applications vary depending on the supplier of the file and the country or region. [!INCLUDE[prod_short](includes/prod_short.md)] supports import and export of Single Euro Payments Area (SEPA) bank files. Additionally, the AMC Banking 365 Fundamentals extension lets you connect to a AMC Banking 365 Fundamentals extension provided by an external provider, AMC Consult. For more information, see [Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md). To provide support for other electronic document formats, you use the Data Exchange Framework.  
 
@@ -50,7 +47,7 @@ To export SEPA credit transfers, you choose **Export Payments to File** button o
 
  In addition, the local versions of [!INCLUDE[prod_short](includes/prod_short.md)] support various other file formats for importing and exporting bank data, payroll transactions, and other data. For more information, see the [Local Functionality](about-localization.md) landing page for your country/region in the Help.  
 
-## Currency Exchange Rates
+## Currency exchange rates
 
 You can set up an external service to keep your for currency exchange rates up to date. The service that provides updated currency exchange rates is enabled by a data exchange definition. Accordingly, the **Exch. Rate Update Setup Card** page is a condensed view of the **Data Exchange Definition** page for the data exchange definition in question.  
 
@@ -58,9 +55,9 @@ For all exchanges of data in XML files, you can prepare the data exchange setup 
 
 ## Intrastat
 
-[!INCLUDE[prod_short](includes/prod_short.md)] uses the Data Exchange Framework for Intrastat reporting where you can easily create timestamped files in different formats for export. [!INCLUDE[prod_short](includes/prod_short.md)] contains prepared formats for localized countries/regions as well as for default version. But you can change the out-of-box report or make your own.
+[!INCLUDE[prod_short](includes/prod_short.md)] uses the Data Exchange Framework for Intrastat reporting where you can easily create timestamped files in different formats for export. [!INCLUDE[prod_short](includes/prod_short.md)] contains prepared formats for localized countries/regions and for default version. But you can change the out-of-box report or make your own.
 
-## See Also
+## See also
 
 [Exchanging Data Electronically](across-data-exchange.md)  
 [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  

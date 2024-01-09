@@ -1,21 +1,17 @@
 ---
-    title: Pay Vendors Using Electronic Payments [ES]
-    description: In Business Central, you can pay a vendor using electronic payments. Payments will be exported to a file, which will then be transmitted to your bank. 
-
-    author: SorenGP
-
-    
+    title: Pay vendors using electronic payments [ES]
+    description: In Business Central, you can pay a vendor using electronic payments. Payments are exported to a file, which are then transmitted to your bank. 
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/25/2021
-    ms.author: edupont
-
+    ms.date: 12/12/2023
+    ms.author: bholtorf
 ---
-# Pay Vendors Using Electronic Payments in the Spanish Version
-In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can pay a vendor using electronic payments. Payments will be exported to a file, which will then be transmitted to your bank. The bank then electronically transfers the payments from your bank account to the payee’s (vendor) bank account.  
+# Pay vendors using electronic payments in the Spanish version
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can pay a vendor using electronic payments. Payments are exported to a file, which are then transmitted to your bank. The bank then electronically transfers the payments from your bank account to the payee’s (vendor) bank account.  
 
 This process is similar to how computer checks are processed.  
 
@@ -27,10 +23,10 @@ This process is similar to how computer checks are processed.
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Bank Payment Type**|Specify **Electronic Payment** to create a corresponding check ledger entry for the amount.|  
-    |**Payment Type**|Specify the payment type for the special transfer payment, if applicable. Select **Blank** if you do not want to use the special transfer payment type. Select **01** to create a special payment for “goods” on the journal line. Select **02** to create a special payment for “non-goods” on this journal line.|  
+    |**Payment Type**|Specify the payment type for the special transfer payment, if applicable. Select **Blank** if you don't want to use the special transfer payment type. Select **01** to create a special payment for “goods” on the journal line. Select **02** to create a special payment for “non-goods” on this journal line.|  
     |**Statistical Code**|Specify the statistical code for the special transfer payment, if applicable. The statistical code must be used at the same time as the payment type. Select **01** to create a special payment for “goods” on the journal line. Select **02** to create a special payment for “non-goods” on this journal line.|  
 
-## See Also  
+## See also  
 [Set Up Bank Accounts for Electronic Payments](how-to-set-up-bank-accounts-for-electronic-payments.md)
 
 

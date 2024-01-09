@@ -1,16 +1,14 @@
 ---
 title: Set Up Cash Customers
 description: This topic describes the steps required to set up the invoice with a customer number for customers who pay in cash.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 21, 22
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Set Up Cash Customers

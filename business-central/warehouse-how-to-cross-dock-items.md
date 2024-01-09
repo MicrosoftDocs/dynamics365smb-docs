@@ -3,12 +3,11 @@ title: Cross-Dock Items
 description: Learn how to receive and ship items without putting them in storage.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 03/08/2023
+ms.date: 10/09/2023
 ms.custom: bap-template
 ms.search.form: 15, 5703, 7302, 7332, 5768
-
 ---
 # Cross-Dock Items
 
@@ -52,7 +51,7 @@ If you post the warehouse receipt and the **Use Put-away Worksheet** toggle is t
 3. On the **Location** page, select the location that you want to set up the warehouse for cross-docking, and then choose the **Edit** action.  
 4. On the **Warehouse** FastTab, turn on the **Use Cross-Docking** toggle and fill in the **Cross-Dock Due Date Calc.** field with the time to search for cross-dock opportunities.
 
-    The **Use Cross-Docking** option is only available if the **Require Receive**, **Require Shipment**, **Require Pick**, and **Require Put-away** fields are selected.  
+    The **Use Cross-Docking** option is only available if the **Require Receipt**, **Require Shipment**, **Require Pick**, and **Require Put-away** fields are selected.  
 
 5. If you're using bins, on the **Bins** FastTab, fill in the **Cross-Dock Bin Code** field with the code of the bin you would like to use as the default cross-dock bin.  
 6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Unit**, and select the related link.  

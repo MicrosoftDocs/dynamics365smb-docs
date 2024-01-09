@@ -8,7 +8,6 @@ ms.search.keywords:
 ms.search.form: 1210, 1211, 1213, 1214, 1215, 1216, 1217
 ms.date: 11/03/2022
 ms.author: bholtorf
-
 ---
 # Set Up Data Exchange Definitions
 
@@ -16,7 +15,7 @@ You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to exchange data i
 
 To create a data exchange definition for a data file or stream, you can use the related XML schema to define which data elements to include on the **Column Definitions** FastTab. See step 6 in [To describe the formatting of lines and columns in the file](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Learn more at [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
-Normally, you set up data exchange definitions on the **Data Exchange Definition** page. However, for updating currency exchange rates, it is faster to use a currency exchange rate service. Learn more at [Update Currency Exchange Rates](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service).
+Normally, you set up data exchange definitions on the **Data Exchange Definition** page. However, for updating currency exchange rates, it is faster to use a currency exchange rate service. Learn more at [Update Currency Exchange Rates](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service).
 
 > [!NOTE]  
 > If the file that is being converted is in the XML format, the term *"column"* in this article should be interpreted as an *"XML element containing data"*.  
@@ -114,7 +113,7 @@ The next step in creating a data exchange definition is to decide which columns 
 > [!TIP]
 > Sometimes the values in the fields that you want to map are different. For example, in one business app the language code for the United States is "U.S.," but in another it's "US." That means you must transform the value when you exchange data. This happens through transformation rules that you define for the fields. Learn more at [Transformation Rules](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
-Starting in 2022 release wave 2, you can also group by any field, use the key index to sort results, and the new transformation types **Rounding** and **Field Lookup**.
+You can also group by any field, use the key index to sort results, and the new transformation types **Rounding** and **Field Lookup**.
 
 1. On the **Line Definitions** FastTab, select the line for which you want to map columns to fields, then choose **Field Mapping**. The **Data Exchange Mapping** page opens.  
 2. On the **General** FastTab, specify the mapping setup by filling the fields as described in the following table.  

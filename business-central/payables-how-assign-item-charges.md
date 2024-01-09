@@ -8,11 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
 ms.search.form: 5709, 5800, 5805, 5814
-ms.date: 06/22/2021
-ms.author: edupont
-
+ms.date: 11/08/2023
+ms.author: bholtorf
 ---
-# Use Item Charges to Account for Additional Trade Costs
+# Use item charges to account for additional trade costs
 
 To ensure correct valuation, your inventory items must carry any added costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing or selling the items. For purchases, the landed cost of a purchased item consists of the vendor's purchase price and all other direct item charges that can be assigned to individual receipts or return shipments. For sales, knowing the cost of shipping sold items can be as vital to your company as knowing the landed cost of purchased items.
 
@@ -22,12 +21,12 @@ In addition to recording the added cost in your inventory value, you can use ite
 * Break down the unit cost or unit price of an item for analysis purposes.
 * Include purchase allowances into the unit cost and sales allowances into the unit price.
 
-Before you can assign item charges, you must set up item charge numbers for the different types of item charges. The numbers include to which G/L accounts to post costs related to sales, purchases, and inventory adjustments. An item charge number contains a combination of general product posting group, tax group code, VAT product posting group, and item charge. When you enter the item charge number on a purchase or sales document, the G/L account is retrieved. The account that's retrieved is selected based on the setup of the item charge number and the information on the document.
+Before you can assign item charges, you must set up item charge numbers for the different types of item charges. The numbers include to which G/L accounts to post costs related to sales, purchases, and inventory adjustments. An item charge number contains a combination of general product posting group, tax group code, VAT product posting group, and item charge. When you enter the item charge number on a purchase or sales document, the G/L account is retrieved. The account retrieved is selected based on the setup of the item charge number and the information on the document.
 
 For both purchase and sales documents, you can assign an item charge in two ways:
 
-* On the document that lists the items that the item charge relate to. Typically, you do this for documents that aren't yet fully posted.
-* On a separate invoice by linking the item charge to a posted receipt or shipment where the items that the item charge relate to are listed.
+* On the document that lists the items that the item charge relates to. Typically, you do this for documents that aren't yet fully posted.
+* On a separate invoice by linking the item charge to a posted receipt or shipment where the items that the item charge relates to are listed.
 
 > [!NOTE]  
 > You can assign item charges to orders, invoices, and credit memos, for both sales and purchases. The following procedures describe how to work with item charges for a purchase invoice. The steps are similar for all other purchase and sales documents.
@@ -54,7 +53,7 @@ If you know the item charge when you post a purchase invoice for the item, follo
 2. Create a new purchase invoice. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 3. Make sure the purchase invoice has one or more lines of type Item.
 4. On a new line, in the **Type** field, select **Charge (Item)**.
-5. In the **Quantity** field, enter the units of the item charge that you've been invoiced for.
+5. In the **Quantity** field, enter the units of the item charge that you are invoiced for.
 6. In the **Direct Unit Cost** field, enter the amount of the item charge.
 7. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -66,7 +65,7 @@ If you know the item charge when you post a purchase invoice for the item, follo
 9. On the **Item Charge Assignment** page, choose the **Suggest Item Charge Assignment** action.
 10. If there are more than one invoice lines of type Item, choose one of the four distribution options.  
 
-It the item charge is fully assigned, the value in the **Qty. to Assign** field on the purchase invoice is zero.
+If the item charge is fully assigned, the value in the **Qty. to Assign** field on the purchase invoice is zero.
 
 The item charge is now assigned to the purchase invoice. When you post the receipt of the purchase invoice, the items' inventory values are updated with the cost of the item charge.  
 
@@ -95,8 +94,6 @@ When the items are delivered, you find that one of the items is missing, so you 
 To handle the item cost for the partial receipt, on the **Item Charge Assignment** page, enter **0** in the **Quantity to Handle** field on the line for the missing item. Then, copy the value from the **Item Charge Qty. to Handle** field to the **Quantity to Invoice** field on the purchase order lines.
 
 When you're ready to handle the item that was missing, update the **Quantity to Handle** field and post the order.
-
-## See related [Microsoft training](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
 
 ## See also
 

@@ -1,15 +1,17 @@
 ---
-title: Company Information Overview
+title: Company information overview
 description: The Company Information page specifies basic information for a business entity, such as name, addresses, and shipping information. 
-author: edupont04
-
+author: jswymer
 ms.topic: conceptual
 ms.search.form: 1
-ms.date: 08/31/2022
-ms.author: edupont
+ms.date: 09/24/2023
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
-# Company Information Overview
+# Company information overview
 
 [!INCLUDE[prod_short](includes/prod_short.md)] organizes business entities in *companies*. For each company, you must fill in some of the basic company details and relevant information on the **Company Information** page. The information on the [**Company Information**](https://businesscentral.dynamics.com/?page=1) page is used in documents, such as invoice headers. You can set up more than one company, such as a parent company and a subsidiary.  
 
@@ -35,6 +37,10 @@ When there's more than one company or environment, you'll see the company switch
 
 :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Shows the company switcher icon in the heading of the Business Central client.":::  
 
+Starting in 2023 release wave 2, version 23, the company badge appears in the browser tab when using the web client. It's also included in page links that you [copy and paste](across-share-data-features.md#copying-a-link) in rich text editors, like Word, Outlook, and Teams.
+ 
+### Set the company badge
+
 Using the **Company Information** page, you can replace the standard company icon with a custom badge on a per-company basis if the company badge makes it easier for users to identify the company they're working in.
 
 1. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -54,8 +60,6 @@ The company name is always displayed at the top left corner and works as an acti
 ## Experience
 
 The default user experience in a [!INCLUDE [prod_short](includes/prod_short.md)] trial doesn't reveal all capabilities. You can switch on the full experience on the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).  
-
-## See related [Microsoft training](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## See also
 

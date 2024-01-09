@@ -1,19 +1,16 @@
 ---
-title: How to Import Payroll Transactions [NO]
+title: How to import payroll transactions [NO]
 description: You can use Business Central to import payroll transactions into a general journal from two external payroll solutions.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
-ms.date: 06/21/2021
-ms.author: edupont
-
+ms.date: 12/07/2023
+ms.author: bholtorf
 ---
-# Import Payroll Transactions in the Norwegian Version
+# Import payroll transactions in the Norwegian version
 
 You can import payroll transactions into a general journal from the leading Norwegian payroll solution, Huldt & Lillevik Lønn - Visma. You can then use the general journal to post the imported payroll transactions to general ledger accounts or bank accounts. To import payroll transactions, you must first set up payroll integration.  
 
@@ -26,7 +23,7 @@ You can import payroll transactions into a general journal from the leading Norw
 2. Choose the journal to use, and then use the **Import Payroll File** action to import the data file from the payroll service provider.  
 3. Choose the **OK** button.  
 
-## See Also
+## See also
 
 [The Payroll Data Definitions (NO) Extension](ui-extensions-payroll-data-definitions-no.md)  
 [Norway Local Functionality](norway-local-functionality.md)  

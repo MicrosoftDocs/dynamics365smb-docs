@@ -3,7 +3,7 @@ title: How to Set Up Locations to Use Bins
 description: Bins represent the basic warehouse structure and are used to make suggestions about the placement of items. 
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 03/28/2023
 ms.custom: bap-template
@@ -50,8 +50,6 @@ The next step is to design the item flow at the location by specifying bin codes
 The following flow chart shows how the **Bin Code** field on production order component lines is filled in according to your location setup.
 
 :::image type="content" source="media/binflow.png" alt-text="Bin code field on production order component lines.":::
-
-## See related [Microsoft training](/training/modules/configure-bins-location/)
 
 ## See also
 

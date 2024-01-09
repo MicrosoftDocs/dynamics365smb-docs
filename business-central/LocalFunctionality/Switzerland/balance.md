@@ -1,20 +1,17 @@
 ---
-    title: G/L Balance [CH]
-    description: This topic explains how to use the General Ledger Acc. Provisional Balance page to view posted ledger entries.
-    author: SorenGP
-
-    
+    title: G/L balance [CH]
+    description: This article explains how to use the General Ledger Acc. Provisional Balance page to view posted ledger entries.
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.search.form: 11500
-    ms.date: 06/21/2021
-    ms.author: edupont
-
+    ms.date: 12/11/2023
+    ms.author: bholtorf
 ---
-# General Ledger Balance in the Swiss Version
+# General ledger balance in the Swiss version
 
 When you choose the **Balance** action on the **G/L Accounts** page, the **G/L Acc. Provisional Balance** page opens. It shows the balance of the final posted ledger entries and the balance of the postings entered in the current general journal.  
 
@@ -32,7 +29,7 @@ You can choose between two options:
 
     The unposted balance for the currently displayed general journal only is calculated.
 
-## See Also
+## See also
 
 [View Temporary Balances in General Ledger Journals](how-to-view-temporary-balances-in-general-ledger-journals.md)  
 

@@ -1,16 +1,14 @@
 ---
 title: Reclassify Fixed Assets
 description: You reclassify a fixed asset to transfer it to a different department, split it up, or combine it with other fixed assets.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5638, 5636, 5640, 5637
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Transfer, Split, or Combine Fixed Assets
@@ -68,8 +66,6 @@ You can combine multiple fixed assets into one fixed asset, for example when you
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Book Value 02**, and then choose the related link.
 2. Fill in the fields as necessary.
 3. Choose the **Print** or **Preview** button.  
-
-## See related [Microsoft training](/training/paths/reclassify-fixed-assets/)
 
 ## See also
 

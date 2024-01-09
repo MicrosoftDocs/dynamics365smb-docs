@@ -1,18 +1,14 @@
 ---
     title: How to Create Electronic Documents for EHF
     description: When you sell goods or services to a customer in the public sector, you must submit documents electronically.
-
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 04/01/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Create Electronic Documents for EHF
 When you sell goods or services to a customer in the public sector, you must submit documents electronically.  In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can create electronic documents for invoices, credit memos, reminders, and finance charge memos. Before you can create the electronic documents, you must have set up file locations and information about the customers. For more information, see [Set Up EHF](how-to-set-up-ehf.md) and [Set Up Customers for EHF](how-to-set-up-customers-for-ehf.md).

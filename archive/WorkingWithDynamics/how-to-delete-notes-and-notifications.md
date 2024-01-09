@@ -3,7 +3,7 @@
     description: You cannot delete a notification on the Role Center; you must delete the note on the record where it was created. You can only delete a note if your administrator has assigned the necessary user permissions to you.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

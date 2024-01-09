@@ -1,5 +1,4 @@
 ---
-
 title: Reconcile Bank Accounts
 description: Learn how to reconcile transactions in Business Central with transactions in statements from your bank.
 author: brentholtorf
@@ -7,9 +6,8 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 12/13/2022
+ms.date: 10/24/2023
 ms.custom: bap-template
-
 ---
 # Reconcile Bank Accounts
 
@@ -24,15 +22,21 @@ However, you can also reconcile bank accounts on the **Payment Reconciliation Jo
 
 The lines on the **Bank Acc. Reconciliation** page are divided into two panes. The **Bank Statement Lines** pane shows either imported bank transactions or ledger entries with outstanding payments. The **Bank Account Ledger Entries** pane shows the ledger entries in the internal bank account.
 
-Reconciling transactions in statements from your bank with bank entries in [!INCLUDE[prod_short](includes/prod_short.md)] is referred to as *matching*. There are two ways to match transactions with bank entries:
+## About bank reconciliation 
+
+Reconciling transactions in statements from your bank with bank entries in [!INCLUDE[prod_short](includes/prod_short.md)] is referred to as *matching*. There are three ways to match transactions with bank entries:
 
 * Automatically, by using the **Match Automatically** action.
+
+* Automatically, by using the **Reconcile with Copilot** action.
+
+  This action is available as part of the bank reconciliation assist (preview) feature, which an AI-powered feature. [Learn more about bank reconciliation assist](bank-reconciliation-with-copilot.md).
 * Manually, by selecting lines in both panes to link each bank statement line to one or more bank account ledger entries, and then using the **Match Manually** action.
 
-The **Applied** checkbox is selected on lines where entries match. For more information, see [Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md). If you enter a statement ending date on the bank reconciliation after you match its lines with entries, [!INCLUDE [prod_short](includes/prod_short.md)] will undo the the matches for lines and entries that are after that date.
+The **Applied** checkbox is selected on lines where entries match. For more information, see [Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md). If you enter a statement ending date on the bank reconciliation after you match its lines with entries, [!INCLUDE [prod_short](includes/prod_short.md)] will undo the matches for lines and entries that are after that date.
 
 > [!NOTE]
-> After you enter a date in the Statement Ending Date field, the Bank Acc. Reconciliation page filters the bank ledger entries to show only entries up to that date. You can only post bank reconciliations with bank ledger entries on or before the statement ending date. The filter ensures that your bank ledger is balanced with your bank statement on the statement ending date, with the difference being the outstanding payments and checks.
+> After you enter a date in the **Statement Date** field, the **Bank Acc. Reconciliation** page filters the bank ledger entries to show only entries up to that date. You can only post bank reconciliations with bank ledger entries on or before the statement ending date. The filter ensures that your bank ledger is balanced with your bank statement on the statement ending date, with the difference being the outstanding payments and checks.
 
 When the value in the **Total Balance** field in the **Bank Statement Lines** pane equals the total value of the **Balance To Reconcile** field plus the **Balance Last Statement** field in the **Bank Account Ledger Entries** pane, you can choose the **Post** action. Unmatched bank account ledger entries remain on the page, indicating discrepancies that you should resolve to reconcile the bank account.
 
@@ -51,7 +55,7 @@ You can fill in the **Bank Statement Lines** pane on the **Bank Acc. Reconciliat
 * Automatically, by using the **Import Bank Statement** function to fill in the **Bank Statement Lines** pane with bank transactions according to an imported file or stream provided by the bank.
 * Manually, by using the **Suggest Lines** function to fill in the **Bank Statement Lines** pane according to invoices in [!INCLUDE[prod_short](includes/prod_short.md)] that have outstanding payments.
 
-## To add bank statement lines by importing a bank statement
+## Add bank statement lines by importing a bank statement
 
 The **Bank Statement Lines** pane will be filled with bank transactions according to an imported file or stream provided by the bank.
 
@@ -82,9 +86,9 @@ The **Bank Statement Lines** pane will be filled according to invoices in [!INCL
 4. If you don't want the bank account ledger entries to include unmatched open reversed entries, choose the **Exclude Reversed Entries** toggle. By default, the list of bank account ledger entries will include reversed entries up to the statement date.
 5. Choose the **OK** button.
 
-## To match bank statement lines with bank account ledger entries automatically
+## Match bank statement lines with bank account ledger entries automatically
 
-The **Bank Acc. Reconciliation** page offers automatic matching functionality based on a matching of text on a bank statement line (left pane) with text on one or more bank account ledger entries (right pane). You can overwrite the suggested automatic matching, and you can choose to not use automatic matching at all. For more information, see [To match bank statement lines with bank account ledger entries manually](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
+The **Bank Acc. Reconciliation** page offers automatic matching functionality based on a matching of text on a bank statement line (left pane) with text on one or more bank account ledger entries (right pane). You can overwrite the suggested automatic matching, and you can choose to not use automatic matching at all. For more information, see [Match bank statement lines with bank account ledger entries manually](#match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
 You can investigate the basis for matches by using the **Match Details** action. For example, the details will include the names of the fields that contained matching values.  
 
@@ -100,7 +104,7 @@ You can investigate the basis for matches by using the **Match Details** action.
 > [!TIP]
 > You can use a mix of manual and automatic matching. If you have manually matched entries, automatic matching will not overwrite your selections.
 
-## To match bank statement lines with bank account ledger entries manually
+## Match bank statement lines with bank account ledger entries manually
 
 > [!TIP]
 > When matching lines and entries manually, the **Show All**, **Show Reversed Entries**, **Hide Reversed Entries**, and **Show Nonmatched** actions can make it easier to get an overview. By default, the bank account ledger entries don't include unmatched reversed entries. To include these entries in the list and match them manually, choose the **Show Reversed Entries** action. If you choose to hide reversed entries after you've made one or more matches, the matched entries are still shown.
@@ -125,7 +129,7 @@ You can investigate the basis for matches by using the **Match Details** action.
 > [!TIP]
 > To remove a match, select the bank statement line, and then choose the **Remove Match** action. If you have matched multiple bank statement lines to a ledger entry, and need to remove one or more of the matched lines, all of the manual matches are removed for the ledger entry when you choose **Remove Match**.
 
-## To validate your bank reconciliation
+## Validate your bank reconciliation
 
 To double-check your bank account reconciliation before you post it, use the **Test Report** action to preview the reconciliation. The report is available in the following contexts:
 
@@ -242,11 +246,11 @@ Don't use a G/L account that allows direct posting in your bank account posting 
 
 This mistake often happens when entering an opening balance for a bank account. It's important that you don't post the opening balance directly to the general ledger. Entries in the G/L account that are posted directly to the G/L account will cause problems. For example, these entries might prevent you from reconciling your bank account. For foreign currency bank accounts, the entries can cause differences to accumulate after you post more bank reconciliations due to currency exchange rate adjustments. Often, you post the opening bank balance directly to the bank account, and the amount then ends up in the G/L account. Alternatively, you reverse it later against the G/L account that you use to balance the opening general ledger balance. In both cases, you must balance any direct posting to the G/L account before you start your first bank reconciliation, and especially so if the bank account is in a foreign currency.
 
-## See related [Microsoft training](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## See Also
 
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
+[Reconcile bank accounts using bank reconciliation assist (preview)](bank-reconciliation-with-copilot.md)
 [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Setting Up Banking](bank-setup-banking.md)  
 [Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md)  

@@ -2,15 +2,14 @@
 metadata:
   title: Mobile Apps FAQ
   description: See answers to frequently asked questions about using Business Central on your phone or tablet.
-  author: edupont04
-  
+  author: brentholtorf
   ms.topic: faq
-  ms.devlang: na
-  ms.tgt_pltfrm: na
-  ms.workload: na
+  ms.service: dynamics365-business-central
   ms.search.keywords: phone, tablet
-  ms.date: 10/25/2021
-  ms.author: edupont
+  ms.date: 09/21/2023
+  ms.author: bholtorf
+  ms.reviewer: jswymer 
+  ms.custom: bap-template 
 title: Mobile Apps FAQ
 summary: |
   This article answers questions that our advanced users often ask about the mobile apps for [!INCLUDE [prod_short](includes/prod_short.md)].  
@@ -42,7 +41,7 @@ sections:
           | Actions in the action bar | Only Promoted actions are shown. | Only Promoted actions are shown. |  |
           | FactBoxes | Not shown on List pages or Worksheet pages. | Not shown on List pages or Worksheet pages. | `Customer` list on the `Small Business` Role Center. |
           | Advanced filters | No column-specific filtering is available. | No column-specific filtering is available. | On the `Customer` list page. |
-          | Tell Me | Not available yet. | Not available yet. | See [Finding Pages and Information with Tell Me](ui-search.md). |  |
+          | Tell Me | It must be enabled in [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management) using the **Feature: Search for pages and data in the mobile app** switch. The **Get from Microsoft AppSource** section in the results for apps is not available. | Same as tablets | See [Finding Pages and Information with Tell Me](ui-search.md). |  |
           | Role Explorer | Not available yet. | Not available yet. | See [Finding Pages with the Role Explorer](ui-role-explorer.md). |
           | Fields in FastTabs | Fields in FastTabs on list pages are not shown. Only the repeater control is shown in the content area of the page. | Not available. |  |
           | Select from full list | Not available on lookups. Users are not able to run actions on a lookup page, and they cannot access the full set of records. | Not available on lookups. Users are not able to run actions on a lookup page, and they cannot access the full set of records. | On the `Item Card` when selecting the **Base Units of Measure**. |
@@ -68,8 +67,7 @@ sections:
       - question: |
           Can a guest user use the app to access our Business Central solution?
         answer: |
-          No. Guest users are invited users from a different Azure Active Directory (AD) tenant than yours. In this case, the app will authenticate to the guest user's primary Azure AD 
-          tenant and try open the Business Central endpoint on that tenant instead of yours.  
+          No. Guest users are invited users from a different Microsoft Entra tenant than yours. In this case, the app will authenticate to the guest user's primary Microsoft Entra tenant and try to open the Business Central endpoint on that tenant instead of yours.  
 
 additionalContent: |
 

@@ -1,10 +1,8 @@
 ---
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 11/07/2023
+ms.author: bholtorf
 ---
 Revenue types are used to categorize withholding tax (WHT) entries and are used for WHT certificates.  
 
@@ -19,6 +17,6 @@ You can use the **WHT Revenue Types** page to set up the revenue types for withh
     |---------------------------------|---------------------------------------|  
     |**Code**|Specifies the unique code for the revenue type. You can enter a maximum of 10 alphanumeric characters.|  
     |**Description**|Specifies the description for the WHT revenue type.|  
-    |**Sequence**|Specifies the sequence in which you want to group the revenue types. For example, a revenue type with sequence 0 will be displayed before sequence 1.|  
+    |**Sequence**|Specifies the sequence in which you want to group the revenue types. For example, a revenue type with sequence 0 is displayed before sequence 1.|  
 
 3. Choose the **OK** button.  

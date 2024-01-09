@@ -1,5 +1,5 @@
 ---
-title: Display Actionable Insights in Role Centers
+title: Display actionable insights in Role Centers
 description: Learn how the Essential Business Insights extension rotates a series of business insights on Role Centers.
 documentationcenter: ''
 author: brentholtorf
@@ -9,12 +9,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
 ms.search.form: 1439, 
-ms.date: 06/23/2021
+ms.date: 12/12/2023
 ms.author: bholtorf
-
 ---
 
-# The Essential Business Insights Extension
+# The Essential Business Insights extension
 
 The Essential Business Insights extension finds interesting business facts in your company data and displays them as newspaper-like headlines in Role Centers. Depending on what the extension finds in the data, the insights are from the last week, month, or three months from the current date. The insights update every 10 minutes.  
 

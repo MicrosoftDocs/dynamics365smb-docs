@@ -10,7 +10,6 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 09/05/2022
 ms.author: bholtorf
-
 ---
 # Register New Vendors
 
@@ -33,7 +32,7 @@ You can add new vendors manually, by filling out the **Vendor Card** page, or yo
 After you create a template, you can use the **Apply Template** action to apply it to one or more selected vendors. To create a template, fill in the information you want to reuse on the **Vendor Card** page, then save it as a template. Learn more in the [To save the Vendor Card Page as a template](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template) section.
 
 > [!TIP]
-> It can be helpful to personalize the **Vendor Template** page when you create a template. For example if want to add a field that is not already displayed on the page. Learn more in the [Personalize your workspace](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner) section.
+> It can be helpful to personalize the **Vendor Template** page when you create a template. For example if want to add a field that is not already displayed on the page. Learn more in the [Personalize your workspace](/dynamics365/business-central/ui-personalization-user#start-personalizing-by-using-the-personalization-mode) section.
 
 You can also create a vendor from a contact. Learn more in the [Creating a customer, vendor, employee, or bank account from a contact](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact) section.
 
@@ -70,8 +69,6 @@ You can edit the information on vendor cards at any time. However, if you have p
 4. Edit or enter dimension codes to apply to new vendor cards created using the template.
 5. When you have completed the new vendor template, choose **OK**.  
    The vendor template is added to the list of vendor templates, so you can use it to create new vendor cards.
-
-## See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/).
 
 ## See also
 

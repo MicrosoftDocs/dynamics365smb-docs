@@ -1,17 +1,15 @@
 ---
 title: Defer Revenues and Expenses
 description: To recognize revenues and expenses in periods when the transaction was not posted, you can automatically defer or postpone them over a specified schedule.
-author: SorenGP
-
-
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
-ms.date: 06/16/2021
-ms.author: edupont
+ms.date: 12/06/2023
+ms.custom: bap-template
+
 
 ---
 # Defer Revenues and Expenses
@@ -105,7 +103,11 @@ If you've done that, you must make an exception for deferrals to allow them to b
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** or **User Setup**, and then choose the related link.
 2. In the **Allow Deferral Posting From** and **Allow Deferral Posting To** fields, enter a start and end date for the period.
 
-## See related [Microsoft training](/training/modules/processing-invoices-dynamics-365-business-central/)
+### Video guidance
+
+The following video shows how to define the period in which you allow people to post deferred revenue and expenses, and how to specify exceptions.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fG6C]
 
 ## See also
 

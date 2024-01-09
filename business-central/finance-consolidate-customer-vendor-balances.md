@@ -8,9 +8,8 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
 ms.search.form: 5052, 21, 5050 
-ms.date: 04/01/2021
+ms.date: 10/11/2023
 ms.author: bholtorf
-
 ---
 # Consolidate Balances for a Company that is a Customer and a Vendor
 A company that you do business with might be both a customer and a vendor. When that's the case, you can avoid making unnecessary payments or receipts, and perhaps save on transaction fees, by consolidating the company's customer and vendor balances. Consolidation compares the company's balances as a vendor and as a customer, and then nets the amount so that that either the customer or vendor balance remains, depending on which amount was higher. 
@@ -27,16 +26,14 @@ Before you consolidate balances, specify a few settings on the **Marketing Setup
 * On the **Interactions** FastTab, you must specify business relation codes in the **Customers** and **Vendors** fields. [!INCLUDE[prod_short](includes/prod_short.md)] uses this information to determine the type of relation to display for contacts. 
 * Optional: On the **Duplicates** FastTab, turn duplicate search on or off. By default, duplicate search is turned on. For more information, see [Handling duplicates](#handling-duplicates). 
 
-## Link an existing customer and vendor company thorough a contact
+## Link an existing customer and vendor company through a contact
 The following steps describe how to link a customer and a vendor through a contact.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor**, and then choose the related link.
-2. Choose the customer or vendor, and then choose the **Contact** action.
-3. If the **Contact Business Relation** field contains a value other than **None**, you must remove the relation. To do that, use the **Business Relation** action, and then delete the relation. 
-4. Depending on whether you chose **Customer** or **Vendor** in step 1, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, and then enter the opposite party. That is, if you chose **Vendor**, you should search for **Customer**.
-5. Choose the vendor or customer, and then choose the **Contacts** action.
-6. Choose the **Link with existing** action, and then the **Customer** or **Vendor** option.
-7. Choose the customer or vendor.
+2. Choose the customer or vendor, and then choose the **Contact** action.   
+3. Choose the contact, and then choose the **Link with existing** action.
+4. Choose the type of entity to create a business relation with.
+5. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## Create a vendor from a customer, or vice versa
 You can create a new vendor from an existing customer, or a new customer from a vendor. From the **Customer** or **Vendor** pages, open the **Contact** page. Choose the **Create as** action, and then either the **Customer** or **Vendor** options. 

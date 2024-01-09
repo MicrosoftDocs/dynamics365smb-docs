@@ -1,5 +1,5 @@
 ---
-title: Using Microsoft Dataverse
+title: Integrate with Microsoft Dataverse via data sync
 description: Introduction to how to integrate and use Microsoft Dataverse and its components to connect to other Dynamics 365 applications.
 author: brentholtorf
 ms.author: bholtorf
@@ -9,7 +9,7 @@ ms.date: 06/28/2023
 ms.custom: bap-template
 ---
 
-# Integrate with Microsoft Dataverse
+# Integrate with Microsoft Dataverse via data sync
 
 Business apps often use data from more than one source. [!INCLUDE[prod_short](includes/cds_long_md.md)] combines data into a single set of logic that makes it easier to connect [!INCLUDE[prod_short](includes/prod_short.md)] to other Dynamics 365 applications. For example, [!INCLUDE[crm_md](includes/crm_md.md)] or your own application built on [!INCLUDE[prod_short](includes/cds_long_md.md)]. To learn more about [!INCLUDE[prod_short](includes/cds_long_md.md)], go to [What is Dataverse?](/powerapps/maker/common-data-service/data-platform-intro).
 
@@ -77,8 +77,6 @@ Currency synchronization is unidirectional, from [!INCLUDE [prod_short](includes
 
 * Amounts in the [!INCLUDE[prod_short](includes/cds_long_md.md)] base currency convert to the [!INCLUDE [prod_short](includes/prod_short.md)] local currency based on the latest exchange rate synchronized from [!INCLUDE [prod_short](includes/prod_short.md)].
 * Amounts in the [!INCLUDE [prod_short](includes/prod_short.md)] local currency synchronize with the [!INCLUDE [prod_short](includes/prod_short.md)] local currency in one of the other (non-base) currencies in [!INCLUDE[prod_short](includes/cds_long_md.md)].
-
-## See related [Microsoft training](/training/modules/use-model-driven-apps-common-data-service/)
 
 ## See also
 

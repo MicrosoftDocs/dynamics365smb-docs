@@ -1,21 +1,18 @@
 ---
-title: Calculate Proportional VAT [NO]
-description: You can use proportional VAT to calculate VAT when there is both deductible and non-deductible VAT in the Norwegian version of Business Central.
-author: SorenGP
-
-
+title: Calculate proportional VAT [NO]
+description: You can use proportional VAT to calculate VAT when there's both deductible and non-deductible VAT in the Norwegian version of Business Central.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 472
-ms.date: 06/18/2021
-ms.author: edupont
-
+ms.date: 11/27/2023
+ms.author: bholtorf
 ---
-# Calculate Proportional VAT in the Norwegian Version
-You can use proportional VAT to calculate VAT when there is both deductible and non-deductible VAT. Because it is difficult to know where and how an item is used, you will have to contact the Norwegian tax authorities to determine whether a specified percentage of the VAT is deductible based on historical data.  
+# Calculate proportional VAT in the Norwegian version
+You can use proportional VAT to calculate VAT when there's both deductible and non-deductible  VAT. Because it's difficult to know where and how an item is used, you have to contact the Norwegian tax authorities to determine whether a specified percentage of the VAT is deductible, based on historical data.  
 
 ### To calculate proportional VAT  
 
@@ -24,12 +21,12 @@ You can use proportional VAT to calculate VAT when there is both deductible and 
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Calc. Prop. Deduction VAT**|Select to indicate that you want to use the proportional VAT percentage. **Important:**  This field is available on the **VAT Posting Setup** page, but it is not shown by default. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
+    |**Calc. Prop. Deduction VAT**|Select to indicate that you want to use the proportional VAT percentage. **Important:**  This field is available on the **VAT Posting Setup** page, but it isn't shown by default. [!INCLUDE[bp_customize](../../includes/bp_customize_md.md)]|  
     |**Proportional Deduction VAT %**|Enter the percentage of VAT to deduct.|  
 
 3.  Choose the **OK** button.  
 
-## See Also  
+## See also  
  [Proportional VAT](proportional-vat.md)   
  [Norway Local Functionality](norway-local-functionality.md)   
  

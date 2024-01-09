@@ -1,20 +1,17 @@
 ---
-    title: View Temporary Balances in GL Journals [CH]
+    title: View temporary balances in GL journals [CH]
     description: You can view temporary balances that show how the general ledger account balances would be affected by posting a new transaction in the general journal.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.search.form: 11500
-    ms.date: 06/21/2021
-    ms.author: edupont
-
+    ms.date: 12/08/2023
+    ms.author: bholtorf
 ---
-# View Temporary Balances in General Ledger Journals in the Swiss Version
+# View temporary balances in general ledger journals in the Swiss version
 
 When you enter a new transaction in the general journal, you can view temporary balances that show how the general ledger account balances would be affected by posting the journal. You can view the balance details of the account and counter account for the active journal line. You can also view the unposted values for the current journal.  
 
@@ -29,9 +26,9 @@ If you use foreign currency in general ledger accounts, then the balance in the 
 
 3. Choose the **Close** button.  
 
-## See Also
+## See also
 
-[Swiss General Ledger Accounts](swiss-general-ledger-accounts.md)
+[Swiss General Ledger Accounts](swiss-general-ledger-accounts.md)  
 [General Ledger Balance in the Swiss Version](balance.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

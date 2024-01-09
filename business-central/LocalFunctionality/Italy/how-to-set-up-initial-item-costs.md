@@ -1,20 +1,16 @@
 ---
-    title: How to Set Up Initial Item Costs [IT]
-    description: The following topic explains how to set up initial item costs with the Before Start Item Cost feature.
-
-    author: SorenGP
-
-    
+    title: How to set up initial item costs [IT]
+    description: The following article explains how to set up initial item costs with the Before Start Item Cost feature.
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: edupont
-
+    ms.date: 11/24/2023
+    ms.author: bholtorf
 ---
-# Set Up Initial Item Costs in the Italian Version
+# Set up initial item costs in the Italian version
 When you set up [!INCLUDE[prod_short](../../includes/prod_short.md)] in your organization.  
 
 On the **Before Start Item Cost** page, you can enter information about inventory items, such as component costs, routing costs, and overhead costs.  
@@ -26,9 +22,9 @@ On the **Before Start Item Cost** page, you can enter information about inventor
 3.  Enter information into the required fields. This includes the **Starting Date**, **Purchase Quantity**, **Purchase Amount**, **Production Quantity**, and **Production Amount** fields.  
 4.  Choose the **OK** button.  
 
-The entries in this page will be used to calculate the average year cost. For more information, see Item Cost History List and Calculate End Year Costs.  
+The entries in this page are used to calculate the average year cost. For more information, see Item Cost History List and Calculate End Year Costs.  
 
-## See Also  
+## See also  
  [Fiscal Inventory Valuation](fiscal-inventory-valuation.md)   
  [Set Up Fiscal Inventory Valuation](how-to-set-up-fiscal-inventory-valuation.md)   
 

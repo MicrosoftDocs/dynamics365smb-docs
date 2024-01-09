@@ -1,19 +1,17 @@
 ---
-title: View Posted Tax Credit Memos [AU]
+title: View posted tax credit memos [AU]
 description: You use the Posted Sales Tax Credit Memo page and Posted Purch. Tax Credit Memo page to view details of sales tax credit memos and purchase tax credit memos.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.search.form: 28071, 28073, 28081, 28082
-ms.date: 06/25/2021
-ms.author: edupont
-
+ms.date: 11/28/2023
+ms.author: bholtorf
 ---
-# View Posted Tax Credit Memos in the Australian Version
 
-You can use the **Posted Sales Tax Credit Memo** page and **Posted Purch. Tax Credit Memo** page to view details of sales tax credit memos and purchase tax credit memos that have been posted.  
+# View posted tax credit memos in the Australian version
+
+You can use the **Posted Sales Tax Credit Memo** page and **Posted Purch. Tax Credit Memo** page to view details of sales tax credit memos and purchase tax credit memos that are posted.  
 
 The following procedure describes how to view posted sales tax credit memos, but the same steps also apply for viewing posted purchase tax credit memos.  
 
@@ -32,7 +30,7 @@ The following procedure describes how to view posted sales tax credit memos, but
 
 3.  Choose the **OK** button.  
 
-## See Also  
+## See also  
  [View Posted Tax Invoices](how-to-view-posted-tax-invoices.md)   
  [View Withholding Tax Entries](how-to-view-withholding-tax-entries.md)
 

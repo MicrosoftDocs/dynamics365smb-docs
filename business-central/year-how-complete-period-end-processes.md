@@ -60,8 +60,6 @@ ms.author: jswymer
 
 * Complete tax statements.  
 
-## See related [Microsoft training](/training/modules/close-fiscal-year-dynamics-365-business-central/)
-
 ## See also
 
 [Closing Years and Periods](year-close-years-periods.md)  

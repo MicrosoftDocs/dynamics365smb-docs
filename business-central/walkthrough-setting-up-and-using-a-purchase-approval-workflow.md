@@ -1,14 +1,14 @@
 ---
 title: Setting Up and Using a Purchase Approval Workflow
 description: This walkthrough takes you through all the stages involved in setting up and using a purchase approval workflow in Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 09/13/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Walkthrough: Setting Up and Using a Purchase Approval Workflow
@@ -117,8 +117,6 @@ The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] includes m
 You define variations of workflows by filling in fields on workflow lines using fixed lists of event and response values representing scenarios that are supported by the application code. Learn more at [Create Workflows](across-how-to-create-workflows.md).  
 
 [!INCLUDE[workflow](includes/workflow.md)]
-
-## See related [Microsoft training](/training/modules/use-approval-workflows/)
 
 ## See also
 

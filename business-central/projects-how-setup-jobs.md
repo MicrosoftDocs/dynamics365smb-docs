@@ -3,7 +3,7 @@ title: Set Up Jobs, Prices, and Job Posting Groups
 description: Describes how to set up general information about jobs.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/25/2023
 ms.custom: bap-template
@@ -98,8 +98,6 @@ One aspect of planning jobs is deciding which posting accounts to use for job co
 | **Job Sales Adjustment Account** |The balancing account to the WIP Job Sales Account, which is an income account. | Accrued Sales|
 | **Recognized Costs Account** |The expense account that contains the recognized costs for the job. It is a debit expense account ordinarily. | Recognized Costs|
 | **Recognized Sales Account** |The income account that contains the recognized income for the job. It is a credit income account ordinarily. | Recognized Sales|
-
-## See related [Microsoft training](/training/paths/set-up-jobs-resources/)
 
 ## See also
 

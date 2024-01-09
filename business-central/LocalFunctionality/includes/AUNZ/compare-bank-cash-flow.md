@@ -1,10 +1,8 @@
 ---
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 11/09/2023
+ms.author: bholtorf
 ---
 You can use the **Bank Detail Cashflow Compare** report to compare the flow of cash in a particular bank for a specified period.  
 
@@ -28,6 +26,6 @@ The debit and credit amounts are displayed in the local currency. You can also v
     |---------------------------------|---------------------------------------|  
     |**Compare Start Date**|Specifies the start date for the comparison.|  
     |**Compare End Date**|Specifies the end date for comparison.|  
-    |**New Page per Bank Account**|Specifies if the details of each bank account will be printed on a separate page.|  
+    |**New Page per Bank Account**|Specifies if the details of each bank account printed on a separate page.|  
 
 3.  Choose the **Print** button to print the report or choose the **Preview** button to view it on the screen. 

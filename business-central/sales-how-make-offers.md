@@ -1,9 +1,7 @@
 ---
 title: Make Sales Quotes
 description: Read about how to create a sales offer or a request for proposal (RFQ) document to record your offer to a customer or prospect to sell products under certain terms.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: rfq
 ms.search.form: 41, 9300
 ms.date: 07/12/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Make Sales Quotes
@@ -94,8 +92,6 @@ The conversion removes the sales quote from the database. A sales invoice or a s
 ## External document number
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
-
-## See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## See also
 

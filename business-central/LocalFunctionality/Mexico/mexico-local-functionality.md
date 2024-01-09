@@ -1,14 +1,11 @@
 ---
 title: Mexico Local Functionality
 description: The following topics provide descriptions of the local functionality in the Mexican version of Business Central.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 10/14/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Mexico Local Functionality
 
@@ -35,7 +32,9 @@ The following topics describe local functionality that is unique to the Mexican 
 
 ## Future legislation requirements being investigated
 
-Currently, there are no upcoming regulatory features or requirements. If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+* Carta Porte Complement 3.0 update **Planned for 23.4**  
+
+If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See Also
 

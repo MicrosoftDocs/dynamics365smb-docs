@@ -3,7 +3,7 @@ title: Create and Manage Catalog Items
 description: Learn how to sell items that you don't keep in your list of items.
 author: brentholtorf 
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 03/08/2023
 ms.custom: bap-template
@@ -57,8 +57,6 @@ The following process uses a sales order, but the steps are the same for blanket
 
 > [!NOTE]  
 > An item reference is automatically item between the vendor's item number and your new item number. To learn more about item references, go to [Use Item References](inventory-how-use-item-cross-refs.md).
-
-## See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## See also
 

@@ -2,8 +2,6 @@
     title: Walkthrough - Tracing Serial-Lot Numbers
     description: This topic describes the actions that are needed to take to prevent selling a defective item, and also how to trace and recall items when needed.
     author: brentholtorf
-
-    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
@@ -11,7 +9,6 @@
     ms.search.keywords:
     ms.date: 06/24/2021
     ms.author: bholtorf
-
 ---
 # Walkthrough: Tracing Serial/Lot Numbers
 
@@ -299,8 +296,6 @@ Then you must create various purchase, production, and sales transactions with t
     Here the quality controller sees one open sales line for the faulty racing frames. They immediately suggest to the sales department that this order be canceled and a new production order, based on good racing frames, be initiated.  
 
  This completes the walkthrough of how to use the **Find entries** page for defects management in integration with the **Item Tracing** page.  
-
-## See related [Microsoft training](/training/paths/use-serial-lot-numbers/)
 
 ## See also
 

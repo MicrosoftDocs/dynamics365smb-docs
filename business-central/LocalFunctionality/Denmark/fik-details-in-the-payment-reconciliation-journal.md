@@ -1,22 +1,19 @@
 ---
-    title: FIK Details in the Payment Reconciliation Journal
+    title: FIK details in the payment reconciliation journal
     description: The Transaction Text field shows information about the automatic application of payments using the Danish FIK standard.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: edupont
-
+    ms.date: 12/12/2023
+    ms.author: bholtorf
 ---
-# FIK Details in the Payment Reconciliation Journal
+# FIK details in the payment reconciliation journal
 The **Transaction Text** field on the **Payment Reconciliation Journal** page shows information about the automatic application of payments using the Danish FIK standard. For more information, see [Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md).  
 
- The following table describes the six values that may be shown in the **Transaction Text** field.  
+ The following table describes the six values that might be shown in the **Transaction Text** field.  
 
 |Transaction Text|Description|  
 |-----------------------------------------|---------------------------------------|  
@@ -27,7 +24,7 @@ The **Transaction Text** field on the **Payment Reconciliation Journal** page sh
 |**Duplicate FIK Number**|The system has discovered that there are payments that have similar FIK numbers.|  
 |**Invoice Already Paid**|The system has discovered that a FIK number on a payment matches a sales invoice that is fully applied and closed.|  
 
-## See Also  
+## See also  
 [Denmark Local Functionality](denmark-local-functionality.md)  
 [Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md)
 

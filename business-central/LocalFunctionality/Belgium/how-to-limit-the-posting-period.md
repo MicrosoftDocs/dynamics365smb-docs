@@ -2,16 +2,14 @@
     title: How to Limit the Posting Period [BE]
     description: You can limit the period by which posting is permitted on three different levels, by company, by user, and by template.
 
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/17/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Limit the Posting Period in the Belgian Version

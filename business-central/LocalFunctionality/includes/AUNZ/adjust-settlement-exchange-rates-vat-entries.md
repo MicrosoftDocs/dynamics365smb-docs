@@ -1,10 +1,8 @@
 ---
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 You can use the **Adjust Settlement Exch. Rates** batch job to settle VAT entries according to the government exchange rate as defined in the **Currency Exchange Rate** table.  
 

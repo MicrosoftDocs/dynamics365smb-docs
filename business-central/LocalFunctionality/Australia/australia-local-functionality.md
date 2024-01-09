@@ -1,16 +1,14 @@
 ---
 title: Australia Local Functionality
 description: The following topics describe the local functionality in the Australian version of Business Central.
-author: sorenfriisalexandersen
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 03/17/2023
-ms.author: soalex
-
+ms.author: bholtorf
 ---
 # Australia Local Functionality
 The following topics describe local functionality that is unique to the Australian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
@@ -53,7 +51,7 @@ The following topics describe local functionality that is unique to the Australi
 
 ## Future legislation requirements being investigated
 
-* Payment Times Reporting Bill Compliance **22.3**
+* Payment Times Reporting Bill Compliance **Planned for 23.4**
 * Taxable payments annual report (TPAR) **Under review**
 
 If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).

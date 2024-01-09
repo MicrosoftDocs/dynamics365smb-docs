@@ -1,17 +1,14 @@
 ---
 title: Set Up or Change the Chart of Accounts (contains video)
-description: The chart of accounts (COA) shows the ledger accounts that store your financial data. You can change the default accounts in the COA, and you can add new accounts.
-author: edupont04
-
-
+description: Learn about setting up your chart of accounts (COA) to show the ledger accounts that store your financial data.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.search.form: 16, 17, 18, 118, 386, 391
-ms.date: 01/21/2022
-ms.author: edupont
+ms.date: 12/19/2023
+ms.custom: bap-template
 
 ---
 # Set Up or Change the Chart of Accounts
@@ -38,21 +35,19 @@ You can delete a general ledger account. However, before you delete it, the foll
 
 * The balance on the account must be zero.  
 * The **Allow G/L Acc. Deletion Before** field must be set on the **General Ledger Setup** page, and the account must not have ledger entries on or after that date.  
-* If the **Check G/L Account Usage** field on the **General Ledger Setup** page is selected, then the account must not be used in any posting groups or posting setup.  
+* If the **Check G/L Account Usage** field on the **General Ledger Setup** page is selected, the account must not be used in any posting groups or posting setup.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] prevents you from deleting a general ledger account that stores data that is needed in the chart of accounts.  
 
-## Block deletion of G/L accounts
+You can also specify when to allow people to delete accounts. On the **General Ledger Setup** page, the **Block Deletion of G/L Accounts** toggle works together with the date in the **Check G/L Acc. Deletion After** field to act as an extra validation. If you turn on the **Block Deletion of G/L Accounts** toggle, you can't delete G/L accounts with ledger entries after the date in the **Check G/L Acc. Deletion After** field. To delete such an account, someone with access to the **General Ledger Setup** page must turn off the **Block Deletion of G/L Accounts** toggle.  
 
-[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+Turning on the **Block Deletion of G/L Accounts** field is often a best practice, as is setting the date in the **Check G/L Acc. Deletion After** field, for example, to the date through which regulations require you to store finance data.  
 
-2022 release wave 2 introduces an extra safeguard against the accidental deletion of G/L accounts even in the scenarios where the criteria are met.  
+### Video guidance
 
-A new field, **Block Deletion of G/L Accounts**, has been added to the **General Ledger Setup** page. When set to *Yes*, the field acts as an extra validation that means you cannot delete G/L accounts with ledger entries after the date in the **Check G/L Acc. Deletion After** field. To delete such an account, a user with access to the **General Ledger Setup** page must first set this field to *No*.  
+This video shows how to specify whether, and when, people can delete G/L accounts.
 
-Setting the **Block Deletion of G/L Accounts** field to *Yes* can be considered a best practice, as is setting the date in the **Check G/L Acc. Deletion After** field, for example to the date by which you're required to store your finance data.  
-
-## See related [Microsoft training](/training/modules/chart-accounts-dynamics-365-business-central/index)
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
 ## See Also
 

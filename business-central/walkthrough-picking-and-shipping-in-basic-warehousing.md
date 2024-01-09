@@ -3,7 +3,7 @@ title: Picking and Shipping in Basic Warehouse Configurations
 description: This article describes various levels of complexity in picking and shipping processes.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/27/2023
 ms.custom: bap-template
@@ -89,7 +89,7 @@ To make item 1928-S available at the SOUTH location follow these steps:
         |Positive Adjmt.|1928-S|SOUTH|S-01-0001|20|  
         |Positive Adjmt.|1928-S|SOUTH|S-01-0002|20|  
 
-        By default, the **Bin Code** field on the sales lines are hidden, so you must display it. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+        By default, the **Bin Code** field on the sales lines are hidden, so you must display it. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
   3. Choose **Actions**, then **Posting**, and then choose **Post**.  
   4. Select the **Yes** button.  
@@ -134,8 +134,6 @@ On the **Inventory Pick** page, you can manage all outbound warehouse activities
 6. Choose the **Post** action, select **Ship**, and then choose the **OK** button.  
 
     The 30 Amsterdam Lamps are now registered as picked from bins S-01-0001 and S-01-0002, and a negative item ledger entry is created reflecting the posted sales shipment.  
-
-## See related [Microsoft training](/training/paths/pick-ship-items-business-central/)
 
 ## See also
 

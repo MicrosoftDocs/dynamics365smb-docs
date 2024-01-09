@@ -1,7 +1,7 @@
 ---
 title: Share and Export Reports with the Report Inbox
 description: Use the Report Inbox page to download, share, and export reports in Business Central.
-author: rubenseishima
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,8 +9,7 @@ ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, dataset, export, report inbox, onedrive, 
 ms.search.form: 680
 ms.date: 08/08/2022
-ms.author: a-reishima
-
+ms.author: bholtorf
 ---
 # Share and Export Reports with the Report Inbox
 
@@ -47,8 +46,6 @@ Sharing reports with collaborators is also possible on the **Report Inbox** page
 > To learn more about OneDrive integration and features on [!INCLUDE[prod_short](includes/prod_short.md)], including first-time setup and options to deal with file name conflicts, read the [Opening and Sharing Files in OneDrive](across-share-onedrive.md) article.
 >
 > Using the **Share** action makes the generated report file available to other users only on OneDrive for Business and does not list the scheduled report on their **Report Inbox**.
-
-## See related training at [Microsoft Learn](/learn/paths/build-reports/).
 
 ## See also
 

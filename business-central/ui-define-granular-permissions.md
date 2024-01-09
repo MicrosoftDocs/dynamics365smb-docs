@@ -272,6 +272,10 @@ Any permission sets that are already assigned to the user are displayed in the *
 
 ## To get an overview of a user's permissions
 
+You can view other users' effective permissions only if you're assigned to the SECURITY or SUPER permissions. 
+
+The **Effective Permissions** page offers additional information about the source of each permission. For example, whether the source is a security group, or a permission is inherited. The page also contains a column where administrators can review the security filters that are applied. To learn more about security filters, go to [Security filters limit a user's access to specific records in a table](#security-filters-limit-a-users-access-to-specific-records-in-a-table).
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Open the card of the relevant user.
 3. Choose the **Effective Permissions** action.

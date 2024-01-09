@@ -1,14 +1,14 @@
 ---
     title: Spain Local Functionality [ES]
     description: The following topics describe the different local functionality in the Spanish version of Business Central.
-    author: SorenGP
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 08/26/2022
-    ms.author: edupont
+    ms.author: bholtorf
 ---
 # Spain Local Functionality in the Spanish Version
 
@@ -32,6 +32,7 @@ The following topics describe local functionality unique to the Spanish version 
   * [Export VAT Statements in XML Format](how-to-export-vat-statements-in-xml-format.md) **Available Now**  
   * [Export VAT Statements in Text Format](how-to-export-vat-statements-in-text-format.md) **Available Now**
   * [Equivalence Charges](equivalence-charges-ec-.md) **Available Now**
+  * [Non-deductible VAT update in Spain](../../finance-setup-nondeductible-vat.md) **Available Now**
 
 * Banking & payments  
   * [Electronic Payments – AEB N34.1](electronic-payments-aeb-n341.md) **Available Now**
@@ -68,8 +69,8 @@ The following topics describe local functionality unique to the Spanish version 
 
 ## Future legislation requirements being investigated
 
-* Non-deductible VAT update in Spain - planned dor **August 2023**
 * Requirements for Spanish e-invoicing - planned for **2024 release wave 2**
+* SII Statuses - planned for **2024 release wave 2**  
 * Requirments related with the *Antifraud Law* in Spain and the impact on Business Central 
 
 If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).

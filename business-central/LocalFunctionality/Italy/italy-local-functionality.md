@@ -2,17 +2,14 @@
     title: Italy Local Functionality
     description: The following outlined topics describe the local functionality in the Italian version of Business Central.
 
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/18/2021
-    ms.author: edupont
-
+    ms.author: bholtorf
 ---
 # Italy Local Functionality
 
@@ -61,11 +58,12 @@ The following topics describe local functionality that is unique to the Italian 
     * [Set Up Company Information](how-to-set-up-company-information.md) **Available Now**
     * [Italian Subcontracting](italian-subcontracting.md) **Available Now**
     * [Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md) **Available Now**
+    * [Italian Electronic Invoicing](electronic-invoicing.md) **Available Now**
 
 ## Future legislation requirements being investigated
 
-* Redesigned and upgraded non-deductible VAT - planned for **2023 release wave 2**
-* Updated Electronic invoicing (FatturaPA) **2024 release wave 2**
+* Redesigned and upgraded non-deductible VAT - planned for **2024 release wave 1**
+* Updated Electronic invoicing with new E-documents framework (SDI) **2024 release wave 2**
 
 If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

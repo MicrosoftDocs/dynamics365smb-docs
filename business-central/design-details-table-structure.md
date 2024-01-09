@@ -1,16 +1,14 @@
 ---
     title: Design Details - Table Structure | Microsoft Docs
     description: To understand how the dimension entry storing and posting is redesigned, it is important to understand the table structure.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/08/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Design Details: Table Structure

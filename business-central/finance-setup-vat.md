@@ -10,7 +10,6 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877, 
 ms.date: 01/31/2023
 ms.author: bholtorf
-
 ---
 
 # Set Up Calculations and Posting Methods for Value-Added Tax
@@ -22,7 +21,7 @@ Consumers and businesses pay value-added tax (VAT) when they purchase goods or s
 * What you sell  
 * What you buy  
 
-You can set up VAT calculations manually, but that can be tricky and time-consuming. That's because it's very easy to use different VAT rates by mistake and create inaccurate VAT-related reports. To make VAT set up easier, we recommend you use the assisted **VAT Setup** guide provided in the product. 
+You can set up VAT calculations manually, but that can be tricky and time-consuming. It's easy to use different VAT rates by mistake and create inaccurate VAT-related reports. To make VAT set up easier, we recommend you use the assisted **VAT Setup** guide provided in the product. 
 
 However, if you want to set up the VAT calculations yourself, or just want to learn about each step, this article contains descriptions of each step:  
 
@@ -45,7 +44,7 @@ To support your fast start, [!INCLUDE [prod_short](includes/prod_short.md)] noti
 
 If you choose such a notification, [!INCLUDE [prod_short](includes/prod_short.md)] automatically creates those posting setups based on the posting groups in the document or journal you're currently working on.  
 
-At this point, you can just fill in the missing G/L accounts. But, later, when you further refine the setup, you might realize this initial setup is wrong. And [!INCLUDE [prod_short](includes/prod_short.md)] does not allow the deletion of a VAT posting setup and general posting setup when entries have been created based on such configurations. So starting in 2022 release wave 1, you can use the **Blocked** field on the **VAT Posting Setup** page to prevent users from mistakenly using a setup that is no longer relevant for new postings.
+At this point, you can just fill in the missing G/L accounts. But, later, when you further refine the setup, you might realize this initial setup is wrong. And [!INCLUDE [prod_short](includes/prod_short.md)] doesn't allow the deletion of a VAT posting setup and general posting setup when entries have been created based on such configurations. So starting in 2022 release wave 1, you can use the **Blocked** field on the **VAT Posting Setup** page to prevent users from mistakenly using a setup that is no longer relevant for new postings.
 
 ## Set up a default VAT date for documents and journals
 
@@ -76,7 +75,7 @@ To set up the level of VAT date usage, follow these steps:
 |--------------------|-----------------------------------------|
 | **Use full VAT Date functionality** | Everything related to **VAT Date** works by default, giving you the maximum **VAT Date** functionality. You can set up the date, change it in documents, report based on it, and modify the date after posting as long as the period isn't closed or protected with allowed dates for posting. |
 | **Use but do not allow modifications** | Everything related to **VAT Date** works by default with one exception. You can't modify the **VAT Date** in **VAT Entries**. |
-| **Not using VAT Date functionality** | [!INCLUDE [prod_short](includes/prod_short.md)] will hide and make the **VAT Date** fields not available on documents, journals, and entries. The **Default VAT Date** will be configured as the **Posting Date**. |
+| **Not using VAT Date functionality** | [!INCLUDE [prod_short](includes/prod_short.md)] will hide and make the **VAT Date** fields not available on documents, journals, and entries. The **Default VAT Date** is configured as the **Posting Date**. |
 
 3. Close the page.
 
@@ -85,24 +84,49 @@ To set up the level of VAT date usage, follow these steps:
 
 ### Limiting periods for posting and changing the VAT date
 
-You can prevent people from posting or changing VAT entries in specific date ranges. You set the restriction using using two settings:
+You can prevent people from posting or changing VAT entries in specific date ranges. You set the restriction using two settings:
 
 * Based on closed **VAT Return Period**
 * Based on the **Allow Posting From** and **Allow Posting To** fields.
 
 #### To limit posting based on VAT return period
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the TellF Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General** FastTab, in the **Control VAT Period** field, specify the degree of VAT Return Period control. The following table describes the options.
 
 | Type | Description |
 |--------------------|-----------------------------------------|
-| **Block posting within closed and warn for released period** | Prevent people from posting a document or journal, or changing VAT entries, that have a VAT date within a closed **VAT Return Period**. [!INCLUDE [prod_short](includes/prod_short.md)] will also show a warning if your **VAT Return Period** is open, but the status of **VAT Return** is **Released** or **Submitted**. |
-| **Block posting within closed period** | Prevent people from posting a document or journal, or changing vat entries, that have a VAT date within the closed **VAT Return Period**. |
+| **Block posting within closed and warn for released period** | Prevent people from posting a document or journal, or changing VAT entries that have a VAT date within a closed **VAT Return Period**. [!INCLUDE [prod_short](includes/prod_short.md)] also shows a warning if your **VAT Return Period** is open, but the status of **VAT Return** is **Released** or **Submitted**. |
+| **Block posting within closed period** | Prevent people from posting a document or journal, or changing vat entries that have a VAT date within the closed **VAT Return Period**. |
 | **Warn when posting in closed period** | Show a warning, but don't block posting, if you want to post a document or journal that has a VAT date within a closed **VAT Return Period**. |
 | **Disabled** | Take no action based on a closed **VAT Return Period**. |
 
-#### To limit posting based on Allow from/to period
+#### Limit posting based on Allow from/to period
+
+> [!NOTE]
+> As of Business Central version 23.1, this control is changed. In earlier versions, there was only one control on the **General Ledger Setup** page for both Posting Date and VAT Date. Now, these controls are split, so control in the **General Ledger Setup** page is for the **Posting Date** only and control in the **VAT Setup** page is for the **VAT Date** only. There are also new date controls in the **User Setup** page.  
+
+##### Version 23.1 or newer
+
+> [!IMPORTANT]
+> When you upgrade to a newversion, be aware that values are upgraded in the new **Allow VAT Date From/To** in the **VAT Setup** page based on the values in **Allow Posting From/To** in the **General Ledger Setup**. If you want to use different date controls, open the **VAT Setup** page and make changes.  
+
+You can set up limitations on the company or at specific user levels.
+
+To limit all postings for the whole company:
+
+1. Select the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Setup**, and then select the related link.  
+2. On the **VAT Date** FastTab, in the **Allow VAT Date From** field, specify the VAT date from which you allow posting. Posting a document or journal with a VAT date before this date isn't allowed.  
+3. On the **VAT Date** FastTab, in the **Allow VAT Date To** field, specify the VAT date until which you allow posting. Posting a document or journal with a VAT date after this date isn't allowed. 
+
+To limit postings for the specific user:  
+
+1. Select the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then select the related link.  
+2. In the **User ID** field, specify the user allowed to post in a specific period.  
+3. In the **Allow VAT Date From** field, specify the VAT date from which you allow posting. Posting a document or journal with a VAT date before this date isn't allowed. 
+4. In the **Allow VAT Date To** field, specify the VAT date until which you allow posting. Posting a document or journal with a VAT date after this date isn't allowed.  
+
+##### Versions before 23.1 
 
 You can set up limitation on the company or specific user levels.
 
@@ -115,22 +139,22 @@ To limit all postings for the whole company:
 To limit postings for the specific user:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Setup**, and then choose the related link.  
-2. In the **User ID** field, specify the user you want to allow to post in specific period.  
+2. In the **User ID** field, specify the user allowed to post in specific period.  
 3. In the **Allow Posting From** field, specify the VAT date from which you allow posting. Posting a document or journal with a VAT date before this date isn't allowed.
-4. In the **Allow Posting To** field, specify the VAT date until which you allow posting. Posting a document or journal with a VAT cate after this date isn't allowed.
+4. In the **Allow Posting To** field, specify the VAT date until which you allow posting. Posting a document or journal with a VAT date after this date isn't allowed.
 
 ## Set up VAT registration numbers for your country or region
 
-To help ensure people enter valid VAT registration numbers, you can define formats for the VAT registration numbers that are used in the countries or regions in which you do business. [!INCLUDE[prod_short](includes/prod_short.md)] will display an error message if someone makes a mistake or uses a format that is incorrect for the country or region.
+To help ensure people enter valid VAT registration numbers, you can define formats for the VAT registration numbers that are used in the countries or regions in which you do business. [!INCLUDE[prod_short](includes/prod_short.md)] displays an error message if someone makes a mistake or uses a format that is incorrect for the country or region.
 
-To setup VAT registration numbers, follow these steps:
+To set up VAT registration numbers, follow these steps:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 2.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Countries/Regions**.
 2. Choose the country or region, and then choose the **VAT Reg. No. Formats** action.
 3. In the **Formats** field, define the format by entering one or more of the following characters:  
 
 * **#** Requires a single-digit number.  
-* **@** Requires a letter. This format is not case-sensitive.  
+* **@** Requires a letter. This format isn't case-sensitive.  
 * **?** Allows any character.  
 
     > [!TIP]
@@ -140,7 +164,7 @@ To setup VAT registration numbers, follow these steps:
 
 VAT business posting groups should represent the markets in which you do business with customers and vendors, and define how to calculate and post VAT in each market. Examples of VAT business posting groups are **Domestic** and **European Union (EU)**.  
 
-Use codes that are easy to remember and describe the business posting group, such as **EU**, **Non-EU**, or **Domestic**. Each code must be unique, meaning you can set up as many codes as you need, but you cannot have the same code more than once in a table.
+Use codes that are easy to remember and describe the business posting group, such as **EU**, **Non-EU**, or **Domestic**. Each code must be unique, meaning you can set up as many codes as you need, but you can't have the same code more than once in a table.
 
 To set up a VAT business posting group, follow these steps:
 
@@ -153,7 +177,7 @@ You can set up default VAT business posting groups by linking them to general bu
 
 VAT product posting groups represent the items and resources you buy or sell, and determine how to calculate and post VAT according to the type of item or resource.
 
-It is a good idea to use codes that are easy to remember and describe the rate, such as **NO-VAT** or **Zero**, **VAT10** or **Reduced** for 10 percent VAT, and **VAT25** or **Standard** for 25 percent.
+It's a good idea to use codes that are easy to remember and describe the rate, such as **NO-VAT** or **Zero**, **VAT10** or **Reduced** for 10 percent VAT, and **VAT25** or **Standard** for 25 percent.
 
 To set up a VAT business posting group, follow these steps:
 
@@ -164,7 +188,10 @@ To set up a VAT business posting group, follow these steps:
 
 [!INCLUDE[prod_short](includes/prod_short.md)] calculates VAT amounts on sales and purchases based on VAT posting setups, which are combinations of VAT business and product posting groups. For each combination, you can specify the VAT percent, VAT calculation type, and general ledger accounts for posting VAT for sales, purchases, and reverse charges. You can also specify whether to recalculate VAT when a payment discount is applied or received.  
 
-Set up as many combinations as you need. If you want to group VAT posting setup combinations with similar attributes, you can define a **VAT Identifier** for each group, and assign the identifier to the group members.
+Set up as many combinations as you need. To group VAT posting setup combinations with similar attributes, define a **VAT Identifier** for each group, and assign the identifier to the group members.  
+
+> [!NOTE]
+> A **VAT Identifier** is a code you can use to group similar attributes. We recommend you use different VAT identifiers for different VAT percentages.  
 
 To combine VAT posting setups, follow these steps:
 
@@ -214,7 +241,7 @@ If needed, you can also specify how to translate VAT clauses to other languages.
 
 When non-standard VAT rates are used in different types of documents, such as invoices or credit memos, companies are usually required to include an exemption text (VAT clause) stating why a reduced VAT or zero VAT rate has been calculated. You can define different VAT clauses to be included on business documents per the type of document, such as invoice or credit memo. You do this on the **VAT Clauses by Document Type** page.
 
-You can modify or delete a VAT clause, and your modifications will be reflected in a generated report. However, [!INCLUDE[prod_short](includes/prod_short.md)] does not keep a history of the change. On the report, the VAT clause descriptions are printed and displayed for all lines in the report alongside the VAT amount and the VAT base amount. If a VAT clause has not been defined for any lines on the sales document, then the whole section is omitted when the report is printed.
+You can modify or delete a VAT clause, and your modifications will be reflected in a generated report. However, [!INCLUDE[prod_short](includes/prod_short.md)] doesn't keep a history of the change. On the report, the VAT clause descriptions are printed and displayed for all lines in the report alongside the VAT amount and the VAT base amount. If a VAT clause has not been defined for any lines on the sales document, then the whole section is omitted when the report is printed.
 
 ### To set up VAT clauses
 
@@ -279,7 +306,7 @@ Some companies must use reverse charge VAT when trading with other companies. Fo
 
 ### Sales to EU countries or regions
 
-VAT is not calculated on sales to VAT-liable companies in other EU countries/regions. You must report the value of these sales to EU countries/regions separately on your VAT statement.  
+VAT isn't calculated on sales to VAT-liable companies in other EU countries/regions. You must report the value of these sales to EU countries/regions separately on your VAT statement.  
 
 To correctly calculate VAT on sales to EU countries/regions, you should:  
 
@@ -302,8 +329,6 @@ Amounts in documents that are not yet posted are rounded and displayed to corres
 You must set up information about how the tax authorities in your country or region require you to submit VAT reports. The following steps illustrate the most commonly used information. However, your country or region may require other steps. For more information, see the relevant article in the *Local functionality* section in the panel to the left.
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
-
-## See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## See also
 

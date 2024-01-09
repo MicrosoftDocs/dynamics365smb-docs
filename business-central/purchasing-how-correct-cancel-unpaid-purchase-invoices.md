@@ -1,9 +1,7 @@
 ---
 title: Amend or Cancel Unpaid Purchase Invoices (contains video)
 description: Explains how to correct, cancel, or undo a posted purchase invoice and automatically create a purchase credit memo.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.search.form: 138, 140, 146
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Correct or Cancel Unpaid Purchase Invoices
@@ -53,8 +51,6 @@ On the **Posted Purchase Invoice** page, you can choose the **Correct** button o
 ### Partial Invoice Posting also Supported
 
 If the cancellation is related to a partial invoice posting, then the originating purchase order line is updated to reflect the canceled invoiced quantity. The **Qty. to Invoice** and **Qty. Invoiced** fields on the related purchase order line are reset to the values before the partial posting.
-
-## See related [Microsoft training](/training/modules/receive-invoice-dynamics-d365-business-central/)
 
 ## See also
 

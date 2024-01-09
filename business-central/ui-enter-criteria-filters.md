@@ -2,16 +2,14 @@
 title: Sorting, Searching, and Filtering Lists
 description: Work efficiently in lists by searching across your data, sorting columns, and refining results using filter symbols and keyboard shortcuts.
 author: jswymer
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form:
-ms.date: 04/01/2021
+ms.date: 10/30/2023
 ms.author: jswymer
-
 ---
 # Sorting, Searching, and Filtering
 
@@ -303,8 +301,6 @@ Use `%myvendors` in the vendor **No** field to display all records for vendors t
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
 |`%myvendors`|Vendors in the **My Vendors** on your Role Center. |  
-
-## See related [Microsoft training](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## See also
 

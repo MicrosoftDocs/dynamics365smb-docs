@@ -1,17 +1,14 @@
 ---
     title: How to Post the Year-End Closing Entry [FR]
     description: This article tells you how to post the year-end closing entries after you use the Close Income Statement batch job.
-
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/18/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Post the Year-End Closing Entry in the French Version

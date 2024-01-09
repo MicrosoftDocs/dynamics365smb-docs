@@ -14,7 +14,7 @@ ms.date: 04/01/2021
 ms.author: jswymer
 
 ---
-# Add Contacts to Segments
+# Adding Contacts to Segments
 After you have created a segment and entered basic information about it, you may want to add contacts to the segment. You can do this by filling in the lines on the **Segment** page manually, but it is easier and faster to use the **Add Contacts** action.
 
 ## To add a contact to a segment
@@ -48,7 +48,7 @@ After you have selected the contacts within a segment, you may want to remove so
 
 You can reduce a segment as many times as you want. If you have refined the segment by mistake and want to go one step back, then choose the **Go Back** action.
 
-## See Also
+## See also
 [Create a Segment](marketing-how-create-segment.md)   
 [Managing Segments](marketing-segments.md)  
 [Managing Sales Opportunities](marketing-manage-sales-opportunities.md)  

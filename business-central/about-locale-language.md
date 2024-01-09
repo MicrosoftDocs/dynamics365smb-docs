@@ -1,9 +1,7 @@
 ---
 title: Multilanguage and Localization
 description: Learn how language and region influence your experience in Business Central. Change the language of the user interface in My Settings.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Changing Language and Region
 
@@ -30,7 +27,7 @@ To change the language of the user interface, go to the **My Settings** page. Fo
 You can't change the texts that are stored as application data. Examples of such texts are the names of items in the inventory, or the comments for a customer. In other words, these types of text aren't translated.  
 
 > [!NOTE]  
-> [!INCLUDE[prod_short](includes/prod_short.md)] only supports a single character set for data. Therefore some characters may not be supported in your environment, and you may experience problems when retrieving data that was entered using a different character set. For instance, your environment may support only English and Russian characters. In this case, if you enter data in a different language, it may not be stored correctly. You should contact your system administrator to make sure you understand which languages are supported for your [!INCLUDE[prod_short](includes/prod_short.md)].  
+> [!INCLUDE[prod_short](includes/prod_short.md)] only supports a single character set for data. Therefore, some characters may not be supported in your environment, and you may experience problems when retrieving data that was entered using a different character set. For instance, your environment may support only English and Russian characters. In this case, if you enter data in a different language, it may not be stored correctly. You should contact your system administrator to make sure you understand which languages are supported by your [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## Changing your region setting
 

@@ -1,20 +1,17 @@
 ---
-title: Create Remittance Accounts [NO]
-description: The following topic explains how you must create one remittance account for each bank account where payment is made in the Norwegian version of Business Central.
-author: SorenGP
-
-
+title: Create remittance accounts [NO]
+description: The following article explains how you must create one remittance account for each bank account where payment is made in the Norwegian version of Business Central.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 06/18/2021
-ms.author: edupont
-
+ms.date: 12/06/2023
+ms.author: bholtorf
 ---
-# Create Remittance Accounts in the Norwegian Version
+# Create remittance accounts in the Norwegian version
 
 You must create one remittance account for each bank account where payment is made. If an account is used to make payments to both domestic and foreign vendors, this account must be created two times—one time for domestic payments and one time for foreign payments.  
 
@@ -44,9 +41,9 @@ You must create one remittance account for each bank account where payment is ma
     |**Account No.**|Specify the account number depending on your selection in the **Account Type** field.|  
     |**Charge Account No.**|Specify the account number for the charge account.|  
     |**Round off/Divergence Acc. No.**|Specify the finance account to post the difference as a result of rounding.|  
-    |**Max. Round off/Diverg. (LCY)**|Specify the maximum rounding or difference, which is accepted by settlement return.|  
+    |**Max. Round off/Diverg. (LCY)**|Specify the maximum rounding or difference, that settlement return accept.|  
     |**Document No. Series**|Specify the number series to be used when you post payments by using the remittance system.|  
-    |**New Document Per.**|Select how documents will be numbered when you post a payment:<br /><br /> -   **Date** - A new document is numbered according to the date the payment is made.<br />-   **Vendor** - A new document is numbered according to the vendor.|  
+    |**New Document Per.**|Select how documents are numbered when you post a payment:<br /><br /> -   **Date** - A new document is numbered according to the date the payment is made.<br />-   **Vendor** - A new document is numbered according to the vendor.|  
     |**Return Journal Template Name**|Specify the general journal template to which settled payments are transferred.|  
     |**Return Journal Name**|Specify the general journal batch to which settled payments are transferred.|  
 
@@ -54,12 +51,12 @@ You must create one remittance account for each bank account where payment is ma
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Recipient ref. 1- Invoice**|Specify the text that will print on the payment invoice.|  
-    |**Recipient ref. 1- Cr. Memo**|Specify the text that will print on the payment invoice when deducting a credit memo.|  
+    |**Recipient ref. 1- Invoice**|Specify the text that prints on the payment invoice.|  
+    |**Recipient ref. 1- Cr. Memo**|Specify the text that prints on the payment invoice when deducting a credit memo.|  
 
 6.  On the **Foreign** FastTab, fill in the fields as described in the following table.  
 
-    This information is only used if the account is used for foreign payments. For remittance to BBS, do not use this tab.  
+    This information is only used if the account is used for foreign payments. For remittance to BBS, don't use this tab.  
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
@@ -70,7 +67,7 @@ You must create one remittance account for each bank account where payment is ma
 
 7.  Choose the **OK** button.  
 
-## See Also  
+## See also  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
  [Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)   

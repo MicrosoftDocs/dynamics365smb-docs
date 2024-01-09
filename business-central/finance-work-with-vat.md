@@ -2,8 +2,6 @@
 title: How to work With VAT on Sales and Purchases
 description: This topic describes the various ways of working with VAT both manually and with automatic setup, to help you meet country/region specific regulations.
 author: brentholtorf
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,7 +10,6 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-
 ---
 # Work with VAT on Sales and Purchases
 
@@ -77,7 +74,7 @@ When you create new sales or purchase documents, the **VAT Date** will be based 
 > If you configure **Control VAT Period** in the **General Ledger Setup** as **Block posting within closed period**, or **Block posting within closed and warn for released period**, you can post document or journal only if the date in the **VAT Date** field is not in a closed period in **VAT Return Periods**. Even if the period in **VAT Return Periods** is open, you might get a warning based on the **VAT Return Status** and configuration in the **Control VAT Period**.
 
 > [!IMPORTANT]
-> You can prevent or allow posting of the **VAT Date** for specific data range, using the **Allow Posting From** and **Allow Posting To** fields in the **General Ledger Setup** and the **User Setup**.  
+> Starting in version 23.1, you can prevent or allow posting of the **VAT Date** for specific data range, using the **Allow VAT Date From** and **Allow VAT Date To** fields in the **VAT Setup** and the **User Setup**. If you are using older versions, you can prevent or allow posting of the **VAT Date** for specific data range, using the **Allow Posting From** and **Allow Posting To** fields in the **General Ledger Setup** and the **User Setup**.  
 
 > [!NOTE]
 > If you leave the **VAT Date** blank, [!INCLUDE [prod_short](includes/prod_short.md)] will use your default setup from **Default VAT Date** in the **General Ledger Setup** as a **VAT Date** in the posted transaction.  
@@ -236,8 +233,6 @@ To view a group of certificates, you start from the **Certificates of Supply** p
 >
 > * To manually create a certificate of supply certificate  
 > * To print a certificate of supply.
-
-## See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## See Also
 

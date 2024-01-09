@@ -1,7 +1,7 @@
 ---
 title: Overview of Tasks to Manage Sales
 description: Read all about how to use Business Central's services to manage your customers' sales activities with sales invoices, orders, quotes, and more.
-author: SorenGP
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: trade, sell
 ms.search.form: 253
 ms.date: 09/02/2022
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Sales
@@ -24,7 +24,7 @@ You can easily correct or cancel a posted sales invoice before it is paid. This 
 
 Good sales and marketing practices are all about how to make the best decisions at the right time. Marketing functionality in [!INCLUDE[prod_short](includes/prod_short.md)] provides a precise and timely overview of your contact information so you can serve your prospective customers more efficiently and increase customer satisfaction. Learn more at [Relationship Management](marketing-relationship-management.md).
 
-If you use Microsoft Dynamics 365 Sales for customer engagement, you can enjoy seamless integration in the lead-to-cash process by using Business Central for backend activities such as processing orders, managing inventory, and doing your finances. Leaern more at [Use Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md).
+If you use Microsoft Dynamics 365 Sales for customer engagement, you can enjoy seamless integration in the lead-to-cash process by using Business Central for backend activities such as processing orders, managing inventory, and doing your finances. Learn more at [Use Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md).
 
 In business environments where the customer must pay before products are delivered, such as in retail, you must wait for the receipt of payment before you deliver the products. In most cases, you process incoming payments some weeks after delivery by applying the payments to their related posted, unpaid sales invoices. Learn more at [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).
 
@@ -54,7 +54,7 @@ The following table describes a sequence of tasks, with links to the articles th
 |Inform your customers of order delivery dates by calculating either the capable-to-promise date or the available-to-promise date.|[Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)|
 |Resolve confusion when two or more records exist for the same customer.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
 
-## See related [Microsoft training](/training/paths/sell-items-services-dynamics-365-business-central/).
+## See also
 
 [Setting Up Sales](sales-setup-sales.md)  
 [Register New Customers](sales-how-register-new-customers.md)  

@@ -1,9 +1,7 @@
 ---
-title: Company and Business Unit Mapping | Microsoft Docs
+title: Data ownership models for synchronization
 description: Companies are both a legal and business constructs, and they are used to secure and visualize business data.
 author: brentholtorf
-
-
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,11 +9,9 @@ ms.workload: na
 ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
 ms.author: bholtorf
-
 ---
 
-# Data Ownership Models
-
+# Data ownership models for synchronization
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] requires that you specify an owner for the data you store. For more information, see [Types of tables](/powerapps/maker/data-platform/types-of-entities) in the Power Apps documentation. When you set up integration between [!INCLUDE[prod_short](includes/cds_long_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)] you must choose the **User or team** ownership for records that are synchronized. Actions that can be performed on these records can be controlled on a user level. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 

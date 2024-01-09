@@ -4,7 +4,7 @@ description: A print-friendly reference sheet containing the most popular keyboa
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 02/09/2023
+ms.date: 09/11/2023
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics365-business-central
@@ -26,6 +26,7 @@ ms.custom: bap-template
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>|Open **Find Entries**|
 |<kbd>Alt</kbd>+<kbd>Up</kbd>|Open tooltip or validation error|
 |<kbd>Alt</kbd>+<kbd>Down Arrow</kbd>|Open a drop-down or look up|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd><kbd>Down Arrow</kbd>|Open a related record's card or list page filtered to the value in the lookup or assist edit field|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|Open the **My Settings** page|
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>W</kbd>|Open the current card or document in a new window|
 |<kbd>Ctrl</kbd>+<kbd>Insert</kbd>|Insert a new line on a document|
@@ -93,7 +94,7 @@ ms.custom: bap-template
 > [!TIP]
 > For a graphical, print-friendly version, choose the following image and download the PDF file.
 >
-> [![Icon that opens a PDF.](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
+> [![Icon that opens a PDF.](media/keyboard_shortcut_inline.png)](media/keyboard-shortcuts-2023.pdf)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

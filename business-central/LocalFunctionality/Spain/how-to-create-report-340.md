@@ -1,21 +1,17 @@
 ---
     title: Create Report 340 [ES]
     description: Read about how to create report 340 for the tax authorities in the Spanish version of Business Central. 
-
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.search.form: 10737, 10738, 10744
-    ms.date: 06/21/2021
-    ms.author: edupont
-
+    ms.date: 11/23/2023
+    ms.author: bholtorf
 ---
-# Create Report 340 in the Spanish Version
+# Create Report 340 in the Spanish version
 Report 340 includes all sales invoices and purchase invoices posted by a company during a given period. The report also includes the operation codes with related taxes and payments in cash.  
 
 This report is generated in a format approved by the tax authorities. You should submit this report on a monthly or quarterly basis, depending on the size of your company.  
@@ -29,11 +25,11 @@ This report is generated in a format approved by the tax authorities. You should
     |---------------------------------|---------------------------------------|  
     |**Fiscal Year**|Enter the fiscal year for which you want to create the operation declaration.|  
     |**Month**|Select the month that you want to include in the operations declaration.|  
-    |**Min. Payment Amount**|Enter the amount that you have received in cash for the selected **G/L Acc. for Payments in Cash**. **Important:**  The field is designed for reporting payments in cash. The amount that you have selected decides the sum of customer entries in the report. If the total invoiced amount for a customer per year is less than the amount specified in the field, then the sum of the customer entries is not included in the report. If the total invoiced amount for a customer per year is greater than the amount specified in the field, then the sum of customer entries is included in the report. When you export the data to a declaration .txt file, you will see that the **Amount Received in Cash** field in the declaration .txt file contains the accumulated amount of customer entries in one line per year.|  
-    |**G/L Acc. for Payments in Cash**|Select one or more on general ledger accounts to include only the entries that are posted to the filtered general ledger accounts in the report. **Important:**  The field is designed for reporting payments in cash. When you export the data to a declaration .txt file, you will see that the **Amount Received in Cash** field in the declaration .txt file contains the accumulated value for the selected general ledger accounts. If you do not select any general ledger accounts, type 2 lines for payments in cash will not be created.|  
+    |**Min. Payment Amount**|Enter the amount that you received in cash for the selected **G/L Acc. for Payments in Cash**. **Important:**  The field is designed for reporting payments in cash. The amount that you select decides the sum of customer entries in the report. If the total invoiced amount for a customer per year is less than the amount specified in the field, then the sum of the customer entries isn't included in the report. If the total invoiced amount for a customer per year is greater than the amount specified in the field, then the sum of customer entries is included in the report. When you export the data to a declaration .txt file, you see that the **Amount Received in Cash** field in the declaration .txt file contains the accumulated number of customer entries in one line per year.|  
+    |**G/L Acc. for Payments in Cash**|Select one or more on general ledger accounts to include only the entries that are posted to the filtered general ledger accounts in the report. **Important:**  The field is designed for reporting payments in cash. When you export the data to a declaration .txt file, you see that the **Amount Received in Cash** field in the declaration .txt file contains the accumulated value for the selected general ledger accounts. If you don't select any general ledger accounts, type 2 lines for payments in cash isn't created.|  
     |**Contact Name**|Enter the surname and name for the company that is creating the operations declaration.|  
     |**Telephone Number**|Enter the telephone number for the company that is creating the operations declaration.|  
-    |**Non Deduct. Gen. Prod. Post. Groups**|Select the general product posting group. The selected posting groups are non-deductible VAT.|  
+    |**Non Deduct. Gen. Prod. Post. Groups**|Select the general product posting group. The selected posting groups are nondeductible VAT.|  
     |**Declaration Number**|Enter the number to identify the operations declaration.|  
     |**Electronic Code**|Specify the electronic code that is provided by the tax authorities.|  
     |**Declaration Media Type**|Select the media type for the declaration.|  
@@ -46,15 +42,15 @@ This report is generated in a format approved by the tax authorities. You should
 
 1.  Perform the steps in the previous procedure.  
 2.  As needed, adjust and modify the operation code information. In order for the report to pass validation when you submit it to the tax authority, any line that has an unrealized payment must be updated to include an operation code. You can change an operation code of Z or 3 to Z or 1 – 8 only for cash based payments.  
-3.  Choose the **OK** button. The report is exported to the file location that you specified. The report will only contain lines for invoices, credit memos, whether applied or not, and payments that have unrealized VAT.  
+3.  Choose the **OK** button. The report is exported to the file location that you specified. The report contains lines for invoices, credit memos, whether applied or not, and payments that have unrealized VAT.  
 
-    Invoices will be exported and will contain the Z operation code. Collection data is blank.  
+    Invoices are exported and contain the Z operation code. Collection data is blank.  
 
-    Payments against an invoice will be exported and will contain the collection data.  
+    Payments against an invoice are exported and contain the collection data.  
 
-If you print the posted document, for example, a posted sales invoice, it will include the following label: **Régimen especial del criterio de caja**.  
+If you print the posted document, for example, a posted sales invoice, it includes the following label: **Régimen especial del criterio de caja**.  
 
-## See Also  
+## See also  
  [Report 340](report-340.md)   
  [Payments in Cash](payments-in-cash.md)   
  [Spanish Tax Agency](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio.shtml)

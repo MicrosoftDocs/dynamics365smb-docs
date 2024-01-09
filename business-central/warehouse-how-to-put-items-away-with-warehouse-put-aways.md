@@ -1,12 +1,12 @@
 ---
 title: How to Put Items Away with Warehouse Put-aways
 description: Learn about the different ways to use warehouse put-aways to put away received items.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 01/24/2023
+ms.date: 09/19/2023
 ms.custom: bap-template
 ms.search.forms: 7352, 7333
 
@@ -44,6 +44,8 @@ The bin ranking is used when more than one bin matches the criteria on the put-a
 
 ## To create put-away documents in bulk with the put-away worksheet  
 
+[!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
+
 You can create put-away documents for multiple receipts at the same time on the **Put-away Worksheet** page.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Put-away Worksheets**, and then choose the related link.  
@@ -70,7 +72,7 @@ You can create put-away documents for multiple receipts at the same time on the 
 
     * You can assign the put-away to a specific employee.  
     * You can sort the put-away instruction lines as you did in the worksheet or by bin ranking. When you sort according to bin ranking, the *Take* lines appear first, because most receipt bins have a 0 bin ranking. The *Place* lines appear last, starting with the bins with the lowest bin ranking. If you have structured your warehouse so bins of similar bin ranking are side by side, sorting lines in this way will save steps for warehouse employees.  
-    * You can choose not to include the lines that [!INCLUDE[prod_short](includes/prod_short.md)]] created when it converted a large unit of measure to smaller units of measure by selecting the **Set Breakbulk Filter** field. Learn more about breakbulk at [Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    * You can choose not to include the lines that [!INCLUDE [prod_short](includes/prod_short.md)] created when it converted a large unit of measure to smaller units of measure by selecting the **Set Breakbulk Filter** field. Learn more about breakbulk at [Enable Automatic Breaking Bulk with Directed Put-away and Pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     * You can choose not to have the **Qty. to Handle** field automatically filled in on the put-away instructions.  
     * You can choose to print the document immediately.  
 
@@ -112,8 +114,6 @@ If a location uses both put-away processing and receive processing and you have 
     > If you must place the items for one line in more than one bin, for example because the designated bin is full, use the **Split Line** action on the **Lines** FastTab. The action creates a line for the remaining quantity to handle.
 
 5. When you have placed all the items in bins as instructed, choose the **Register Put-away** action.  
-
-## See related [Microsoft training](/training/modules/receive-put-away-items/)
 
 ## See also
 

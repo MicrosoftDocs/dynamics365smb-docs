@@ -1,19 +1,17 @@
 ---
-title: Cash Desk Management [CZ]
+title: Cash desk management [CZ]
 description: The Cash Desks and Cash Documents features allow you to define cash accounts and cash desks for the physical receipt and money withdrawal.
 author: ACMartinKunes
-
-
 ms.topic: conceptual
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
-ms.date: 06/25/2021
+ms.date: 11/23/2023
 ms.reviewer: v-pejano
 ms.author: v-makune
 ---
 
-# Cash Desk Management in the Czech Version
+# Cash desk management in the Czech version
 
-The Cash Desks and Cash Documents features allow you to define cash accounts and cash desks for the physical receipt and money withdrawal. Each cash desk must have a separate number series of the cash documents. You can set up separate number series for the receipt cash documents and withdrawal cash documents. The cash desk cases are pre-defined cases to simplify data entry. You can specify individual user authorized to operate with the particular cash desk and transmit cash desks between users.  
+The Cash Desks and Cash Documents features allow you to define cash accounts and cash desks for the physical receipt and money withdrawal. Each cash desk must have a separate number series of the cash documents. You can set up separate number series for the receipt cash documents and withdrawal cash documents. The cash desk cases are predefined cases to simplify data entry. You can specify individual user authorized to operate with the particular cash desk and transmit cash desks between users.  
 
 The main functionality of the Cash Desk feature is:
 - Cash desk setup, cash desk users
@@ -29,9 +27,9 @@ The cash desk card contains basic cash register information, such as number, cur
 
 Cash documents are receipt or withdrawal, and can be in different currencies according to the cash register. The documents also enable the releasing, posting and printing of exit documents.  
 
-You can run the apply entries feature from the cash document rows to select customer or vendor entries for alignment. Similarly, features are available for off-setting backup invoices.  
+You can run the applied entries feature from the cash document rows to select customer or vendor entries for alignment. Similarly, features are available for off-setting backup invoices.  
 
-## See Also
+## See also
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](finance.md)
 

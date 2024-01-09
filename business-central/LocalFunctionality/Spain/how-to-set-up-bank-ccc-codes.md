@@ -1,19 +1,16 @@
 ---
-    title: Set Up Bank CCC Codes [ES]
+    title: Set up bank CCC codes [ES]
     description: Código Cuenta Cliente (CCC) is a unique account code used by banks to identify their customers. The CCC code is printed on bank documents such as checks and statements.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
-
+    ms.date: 12/12/2023
+    ms.author: bholtorf
 ---
-# Set Up Bank CCC Codes in the Spanish Version
+# Set up bank CCC codes in the Spanish version
 
 Código Cuenta Cliente (CCC) is a unique account code used by Spanish banks to identify their customers. The CCC code is printed on bank documents such as checks and statements.  
 
@@ -33,10 +30,10 @@ The following procedure describes how to set up bank CCC codes for your company.
 
     |Field           |Position |Description                            |  
     |----------------|---------|---------------------------------------|  
-    |**CCC Bank No.**|1-4|Identifies the bank where the account has been opened.|  
-    |**CCC Bank Branch No.**|5-8|Identifies the branch code. If the bank does not use this reference, the branch code can be zeros.|  
+    |**CCC Bank No.**|1-4|Identifies the bank that opened the account.|  
+    |**CCC Bank Branch No.**|5-8|Identifies the branch code. If the bank doesn't use this reference, the branch code can be zeros.|  
     |**CCC Control Digits**|9-10|Identifies the control digits.|  
-    |**CCC Bank Account No.**|11-20 (Spain)<br /><br /> 11-21 (Portugal)|Identifies the account number, which may be adjusted with preceding zeros.|  
+    |**CCC Bank Account No.**|11-20 (Spain)<br /><br /> 11-21 (Portugal)|Identifies the account number, which might be adjusted with preceding zeros.|  
 
 The following procedure describes how to set up bank CCC codes for existing customer bank accounts, but the same steps apply to vendors, bank accounts, and company information.  
 
@@ -50,7 +47,7 @@ The following procedure describes how to set up bank CCC codes for existing cust
 
 3. Choose the **OK** button.  
 
-## See Also
+## See also
 
 [Set Up Bank Accounts](../../bank-how-setup-bank-accounts.md) 
 

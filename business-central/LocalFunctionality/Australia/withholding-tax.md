@@ -1,18 +1,15 @@
 ---
     title: Withholding Tax in the Australian version
     description: In the Australian version, Withholding Tax (WHT) is tax withheld by a company when making a payment to a vendor.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.search.form: 11600, 28040,28041,28042,28043,28044, 28164,28165,28166,28167
-    ms.date: 06/17/2021
-    ms.author: edupont
-
+    ms.date: 11/07/2023
+    ms.author: bholtorf
 ---
 # Withholding Tax in the Australian Version
 
@@ -56,7 +53,7 @@ The percentage withheld is specified in **WHT Posting Setup**. The amount to be 
 ## WHT for Foreign Suppliers  
 Ensure that a valid combination of **General Business** and **General Product PostingGroups** has been established for vendors for whom you need to withhold tax, other than for non-ABN.  
 
-## See Also  
+## See also  
  [Set Up Withholding Tax](how-to-set-up-withholding-tax.md)   
  [Set Up Vendors Without ABN for Calculating the Withholding Tax](how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md)   
  [Set Up Revenue Types for Withholding Tax](how-to-set-up-revenue-types-for-withholding-tax.md)   

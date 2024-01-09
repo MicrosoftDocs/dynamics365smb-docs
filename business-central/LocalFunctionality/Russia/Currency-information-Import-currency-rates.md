@@ -2,12 +2,10 @@
 title: Currency information in Russia
 description: Russian enhancements include currency information for importing currency rates.
 author: DianaMalina
-
-
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.date: 11/06/2023
+ms.reviewer: bholtorf
 ms.author: soalex
 ---
 
@@ -26,8 +24,8 @@ Go to **Company information**. Fill fields:
 
 | Field                          | Description                                                  |
 | ------------------------------ | ------------------------------------------------------------ |
-| **Import Curr. Exch. Rates**   | Specifies if it is possible to run the Import Currency Exch. Rate batch job. |
-| **Import Conflict Resolution** | Specifies what will happen if a user runs the Import Currency Exch. rate batch job and there are conflicting exchange rates. |
+| **Import Curr. Exch. Rates**   | Specifies if it's possible to run the Import Currency Exch. Rate batch job. |
+| **Import Conflict Resolution** | Specifies what happens if a user runs the Import Currency Exch. rate batch job and there are conflicting exchange rates. |
 
 Go to **Currency**. Оn the **General tab** fill fields for each currency:
 
@@ -43,7 +41,7 @@ Go to **Currency**. Оn the **General tab** fill fields for each currency:
 
 2. Enter the start and end dates of the period for which you want to adjust the exchange rates.
 
-## See Also
+## See also
 
 [Adjust Exchange Rates](Adjust-Exchange-Rates.md)  
 [Russia Local Functionality](russia-local-functionality.md)  

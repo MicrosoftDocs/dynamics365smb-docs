@@ -1,23 +1,20 @@
 ---
-    title: Generate Delivery Reminders [AT]
+    title: Generate delivery reminders [AT]
     description: In the Austrian version of Business Central, you can automatically generate delivery reminders when a purchase has not been delivered as expected.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
-
+    ms.date: 11/07/2023
+    ms.author: bholtorf
 ---
-# Generate Delivery Reminders in the Austrian Version
+# Generate delivery reminders in the Austrian version
 
 [!INCLUDE [delivery-reminders-generate](../includes/ATCHDE/delivery-reminders-generate.md)]
 
-## See Also
+## See also
 
 [Create Delivery Reminders Manually](how-to-create-delivery-reminders-manually.md)  
 [Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md)  

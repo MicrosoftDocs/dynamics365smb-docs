@@ -1,22 +1,19 @@
 ---
-title: Delete Remittance Payment Orders [NO]
-description: Orders can be deleted if they are managed in full and are in a closed financial year. 
-author: SorenGP
-
-
+title: Delete remittance payment orders [NO]
+description: Orders can be deleted if they're managed in full and are in a closed financial year. 
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 06/18/2021
-ms.author: edupont
-
+ms.date: 11/20/2023
+ms.author: bholtorf
 ---
-# Delete Remittance Payment Orders in the Norwegian Version
+# Delete remittance payment orders in the Norwegian version
 
-Orders can be deleted if they are managed in full and are in a closed financial year. An order is managed in full if no payments on the **Waiting Journal** page have a status of **Sent** or **Approved**.  
+Orders can be deleted if they're managed in full and are in a closed financial year. An order is managed in full if no payments on the **Waiting Journal** page have a status of **Sent** or **Approved**.  
 
 ## To delete a remittance payment order  
 
@@ -30,7 +27,7 @@ Orders can be deleted if they are managed in full and are in a closed financial 
 
 3.  Choose the **OK** button.  
 
-## See Also  
+## See also  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
  [Create Remittance Accounts](how-to-create-remittance-accounts.md)   

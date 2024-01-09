@@ -1,8 +1,7 @@
 ---
 title: Trace Item-Tracked Items
 description: You can see where an item-tracked item was used, including how and when it was received, produced or returned with Item Tracing and Find Entries features.
-author: SorenGP
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,7 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.forms: 6520,
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Trace Item-Tracked Items
@@ -60,8 +59,6 @@ These features can be particularly useful in quality control when you need to fi
 2. Choose **Actions** > **Find by** > **Find by Item Reference**.
 3. In the **Serial No.** and **Lot No.** fields, enter the item tracking numbers that you want to trace.  
 4. Choose the **Find** action to find all instances of the serial or lot number in the database.  
-
-## See related [Microsoft training](/training/modules/prepare-item-tracking/)
 
 ## See also
 

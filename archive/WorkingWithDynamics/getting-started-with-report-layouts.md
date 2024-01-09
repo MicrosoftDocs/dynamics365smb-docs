@@ -3,7 +3,7 @@
     description: Use the following table to help you get started using report layouts to change the appearance of your ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> reports.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

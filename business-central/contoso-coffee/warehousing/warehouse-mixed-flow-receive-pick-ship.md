@@ -1,9 +1,7 @@
 ---
 title: Receiving, Puting-away, Picking and Shipping in Mixed Warehouse Configuration
 description: In Business Central, the inbound and outbound processes can be performed in different ways depending on the warehouse complexity level. 
-author: andreipanko
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,8 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.search.form: 
 ms.date: 04/01/2021
-ms.author: andreipa
-
+ms.author: bholtorf
 ---
 
 # Walkthrough of inbound and outbound flow in mixed Warehouse Configurations
@@ -54,7 +51,7 @@ Alicia, the purchasing agent, creates purchase orders for various roasted beans 
 
     1. Choose the ![Lightbulb that opens the Tell Me feature 3.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.  
     2. Select orders from vendor 10000 for the YELLOW location. Vendor Orders No are *Y-1* and *Y-2*. Use the personalization tools if the **Vendor Order No.** field isn't visible. For more information, see [Personalize Your Workspace](../../ui-personalization-user.md).
-	3. Choose the **Release** action to notify the warehouse that the selected purchase orders are ready for warehouse handling when the delivery arrives.  
+    3. Choose the **Release** action to notify the warehouse that the selected purchase orders are ready for warehouse handling when the delivery arrives.  
 
 3. Create the Warehouse Receipt to receive and put the delivered items away
 	1. Choose the ![Lightbulb that opens the Tell Me feature 4.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Receipts** and choose the related link.
@@ -104,8 +101,8 @@ This is a continuation of [Inbound flow: Receiving and Putting Away in Basic War
 1. Release Sales Orders to warehouse.  
 
     1. Choose the ![Lightbulb that opens the Tell Me feature 5.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.  
-    2. Select orders for customer 10000 for the YELLOW location. External Orders No are *Y-3*, *Y-4*, and *Y-5*. Use the personalization tools if the **External Order No.** field isn't visible. For more information, see [Personalize Your Workspace](../../ui-personalization-user.md).
-	3. Choose the **Release** action to notify the warehouse that the selected sales orders are ready for warehouse handling.  
+    2. Select orders for customer 10000 for the YELLOW location. External Orders No are *Y-3*, *Y-4*, and *Y-5*.
+    3. Choose the **Release** action to notify the warehouse that the selected sales orders are ready for warehouse handling.  
 
 2. To ship items  
     1. Choose the ![Lightbulb that opens the Tell Me feature 6.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Shipments**, and then choose the related link.  

@@ -2,16 +2,14 @@
 title: Posting Red Storno corrections in Russia
 description: Russian enhancements include support for Red Storno corrections.
 author: DianaMalina
-
-
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.date: 11/08/2023
+ms.reviewer: bholtorf
 ms.author: soalex
 ---
 
-# Post Red Storno Corrections
+# Post Red Storno corrections
 
 You can set up inventory to use the same column for original and corrective postings. This is often referred to as *red storno*. You can use red storno posting to post the following inventory entries:
 
@@ -25,7 +23,7 @@ You can set up inventory to use the same column for original and corrective post
 
 ## To post corrective entries in the item journal
 
-1. Choose the ![Search for Page or Report.]() icon, enter **Item Journal**, and then choose the related link.
+1. Choose the ![Search for Page or Report.](../../media/ui-search/searchpageorreport.png) icon, enter **Item Journal**, and then choose the related link.
 
 2. Fill in the fields as described in the following table.
 
@@ -39,13 +37,13 @@ You can set up inventory to use the same column for original and corrective post
 
 3. Post the journal.
 
-The correction is posted, and any general ledger account correspondence that you have set up will be considered.
+The correction is posted, and any general ledger account correspondence that you create is considered.
 
 ## To reverse item documents
 
-1. To reverse an item receipt, Choose the ![Search for Page or Report.]() icon, enter **Item Receipt**, and then choose the related link.
+1. To reverse an item receipt, Choose the ![Search for Page or Report.](../../media/ui-search/searchpageorreport.png) icon, enter **Item Receipt**, and then choose the related link.
 
-   To reverse an item shipment, Choose the ![Search for Page or Report.]() icon, enter **Item Shipment**, and then choose the related link.
+   To reverse an item shipment, Choose the ![Search for Page or Report.](../../media/ui-search/searchpageorreport.png) icon, enter **Item Shipment**, and then choose the related link.
 
 2. On the **General** FastTab, select the **Correction** check box.
 
@@ -61,9 +59,9 @@ The correction is posted, and any general ledger account correspondence that you
 
 ## To post item revaluation or item reclassification journals 
 
-1. To post an item revaluation, Choose the ![Search for Page or Report.]() icon, enter **Revaluation Journal**, and then choose the related link.
+1. To post an item revaluation, Choose the ![Search for Page or Report.](../../media/ui-search/searchpageorreport.png) icon, enter **Revaluation Journal**, and then choose the related link.
 
-   To post an item reclassification, Choose the ![Search for Page or Report.]() icon, enter **Item Reclass Journal**, and then choose the related link.
+   To post an item reclassification, Choose the ![Search for Page or Report.](../../media/ui-search/searchpageorreport.png) icon, enter **Item Reclass Journal**, and then choose the related link.
 
 2. Fill in the fields as described in the following table.
 
@@ -75,9 +73,9 @@ The correction is posted, and any general ledger account correspondence that you
 
 3. Post the document.
 
-## See Also
+## See also
 
-[Setting Up Inventory](Inventory-Setup.md)  
+[Set Up Inventory](Inventory-Setup.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

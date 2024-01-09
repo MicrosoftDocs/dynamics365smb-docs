@@ -1,19 +1,16 @@
 ---
-    title: Submit Electronic VAT & ICP Declarations [NL]
+    title: Submit electronic VAT & ICP declarations [NL]
     description: With the eXtensible Business Reporting Language (XBRL) reporter, you can submit the ICP declaration or the VAT declaration in the required XML format.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/25/2021
-    ms.author: edupont
-
+    ms.date: 12/12/2023
+    ms.author: bholtorf
 ---
-# Submitting Electronic VAT and ICP Declarations in the Dutch Version
+# Submitting electronic VAT and ICP declarations in the Dutch version
 Companies must submit periodic VAT and Intracommunautaire leveringen (ICP) declarations to the tax authorities.  
 
 VAT declarations must be submitted on a monthly or quarterly basis.
@@ -25,16 +22,16 @@ For a transaction to qualify for ICP, it is required that the merchandise have c
 
 You can submit the VAT declarations and ICP declarations in the following ways:  
 
-- Log on to the website of the Dutch tax office and enter the information manually. For more information, see the [website](https://go.microsoft.com/fwlink/?LinkID=223151) of the Dutch tax office.  
+- Sign in to the website of the Dutch tax office and enter the information manually. For more information, see the [website](https://go.microsoft.com/fwlink/?LinkID=223151) of the Dutch tax office.  
 
-- Create an electronic declaration and submit the encrypted file through file through the Digipoort channel to the Dutch tax office. Digipoort is the electronic post office provided by the Dutch government for companies. It provides the common infrastructure for the communication of information between companies and the government, including VAT declarations. The reports are in the eXtensible Business Reporting Language (XBRL) format. For more information, see [Create Reports with XBRL](../../bi-create-reports-with-xbrl.md).
+- Create an electronic declaration and submit the encrypted file through the Digipoort channel to the Dutch tax office. Digipoort is the electronic post office provided by the Dutch government for companies. It provides the common infrastructure for the communication of information between companies and the government, including VAT declarations. The reports are in the eXtensible Business Reporting Language (XBRL) format. For more information, see [Create Reports with XBRL](../../bi-create-reports-with-xbrl.md).
 
 ## To prepare for electronic declaration
-Before you can send electronic declarations to the tax authorities you must perform the following tasks:
+Before you can send electronic declarations to the tax authorities, you must perform the following tasks:
 
-1. Ensure that you have obtained the certificates from the government. If you have not, take the following steps to obtain the certificates:
+1. Ensure that you obtain the certificates from the government. If you haven't, take the following steps to obtain the certificates:
 
-    - Obtain a PKIoverheid certificate for the company if you do not have one already. A list of certificate providers can be found here: [https://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps](https://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps).  
+    - Obtain a PKIoverheid certificate for the company if you don't have one already. A list of certificate providers can be found here: [https://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps](https://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps).  
 
     - Register a user of Digipoort, which can be done here: [https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw](https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw).
 
@@ -55,7 +52,7 @@ The XML elements and the accompanying data of the electronic declaration are dis
 The XBRL reporter ensures that all account numbers that are imported from Business Central are mapped to the XBRL elements in a report. The XBRL reporter also displays a list of errors of unmapped elements or accounts.
 
 ## To submit an electronic declaration
-With the XBRL reporter, you can submit the Intracommunautaire Leveringen (ICP) declaration or the VAT declaration in the required XML format. When it is submitted, the file is sent to the tax authorities as defined on the **Elec. Tax Declaration Setup** page.
+With the XBRL reporter, you can submit the Intracommunautaire Leveringen (ICP) declaration or the VAT declaration in the required XML format. When it's submitted, the file is sent to the tax authorities as defined on the **Elec. Tax Declaration Setup** page.
 
 1. On the **Elec. Tax Declaration Card** page, choose the **Submit Electronic Tax Declaration** action.
 2. Fill in the fields as described in the following table.
@@ -74,7 +71,7 @@ The electronic declaration is submitted to the tax authorities.
 > If there are no intra-community deliveries in the declaration period, then an electronic ICP declaration is created without XML elements for the deliveries. If you submit such a declaration, an error message will be displayed.
 
 ## To import a response message from the tax authorities
-For each electronic declaration, the tax authorities will send a response message. These messages must be received from the server of the tax authorities
+For each electronic declaration, the tax authorities send a response message. These messages must be received from the server of the tax authorities
 and be processed. The first step is to import the response message into [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Elec. Tax Decl. Response Msgs.**, and then choose the related link.  
@@ -100,7 +97,7 @@ When a response message is imported, it must be processed by validating its cont
 
 4. To export a message or attachment, choose the **Export Response Message** action or the **Export Response Attachment** action.
 
-## See Also  
+## See also  
 [Setting Up Electronic VAT and ICP Declarations](how-to-set-up-electronic-vat-and-icp-declarations.md)  
 [Set Up VAT Categories](how-to-set-up-vat-categories.md)  
 [Create Reports with XBRL](../../bi-create-reports-with-xbrl.md)  

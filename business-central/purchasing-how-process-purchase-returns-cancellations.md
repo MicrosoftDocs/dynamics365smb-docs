@@ -1,9 +1,7 @@
 ---
 title: Process Returns or Cancellations
 description: Explains how to create and post a purchase credit memo when you want to return items to a vendor or cancel purchased services.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,7 +9,7 @@ ms.workload: na
 ms.search.keywords: cancel, undo, correct
 ms.search.form: 6640, 6643, 9307, 9309, 9308, 6652, 145, 147
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 # Process Purchase Returns or Cancellations
@@ -183,8 +181,6 @@ When return shipments are combined on a credit memo and posted, then a posted pu
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete Invoiced Purchase Return Orders**, and then choose the related link.  
 2. Fill in the fields as necessary, and then choose the **OK** button.  
 3. Alternatively, delete the individual purchase return orders manually.
-
-## See related [Microsoft training](/training/paths/return-items-dynamics-365-business-central/)
 
 ## See Also
 [Purchasing](purchasing-manage-purchasing.md)  

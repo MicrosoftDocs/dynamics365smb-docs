@@ -1,23 +1,19 @@
 ---
-    title: Corrective Invoices [ES]
-    description: The corrective invoice functionality allows you to send a corrective invoice when there is an error or dispute that affects a VAT amount or fiscal data. 
-
+    title: Corrective invoices [ES]
+    description: The corrective invoice functionality allows you to send a corrective invoice when there's an error or dispute that affects a VAT amount or fiscal data. 
     services: project-madeira 
     documentationcenter: ''
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/21/2021
-    ms.author: edupont
-
+    ms.date: 11/28/2023
+    ms.author: bholtorf
 ---
-# Corrective Invoices in the Spanish Version
-The corrective invoice functionality allows you to send a corrective invoice when there is an error or dispute that affects a VAT amount or fiscal data. This invoice includes all legally required data and refers to the original invoice or invoices. The original invoices cannot be voided, and remain valid. The corrective invoice contains the corrections, and reasons for these corrections.  
+# Corrective invoices in the Spanish version
+The corrective invoice functionality allows you to send a corrective invoice when there's an error or dispute that affects a VAT amount or fiscal data. This invoice includes all legally required data and refers to the original invoice or invoices. The original invoices can't be voided, and remain valid. The corrective invoice contains the corrections, and reasons for these corrections.  
 
 The following options are available:  
 
@@ -29,10 +25,10 @@ The following options are available:
 The corrective invoice must meet the following requirements:  
 
 - You can correct several invoices by using a single corrective invoice. The corrective invoice must use all of the corrected invoice numbers.  
-- You must clearly indicate the invoice numbers for the invoices you are correcting.  
+- You must clearly indicate the invoice numbers for the invoices you're correcting.  
 - You can post a corrective invoice without corrected invoice numbers only when the corrections are necessary due to discounts or volume rebates.  
 
-## See Also  
+## See also  
  [Spain Local Functionality](spain-local-functionality.md)
 
 

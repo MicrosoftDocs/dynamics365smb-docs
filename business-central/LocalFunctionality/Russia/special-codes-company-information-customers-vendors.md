@@ -2,20 +2,18 @@
 title: Special codes for company information, customers, and vendors (RU)
 description: Russian enhancements include additional information about your company and each customer and vendor.
 author: DianaMalina
-
-
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.date: 11/27/2023
+ms.reviewer: bholtorf
 ms.author: soalex
 ---
 
-# Special codes for Company information, Customers, and Vendors
+# Special codes for company information, customers, and vendors
 
 The Russian version of [!INCLUDE[prod_short](../../includes/prod_short.md)] adds special classified codes that are needed in some printing forms and reports.
 
-## Company Information
+## Company information
 
 In the **Company Information** page, you can specify the codes:
 
@@ -33,7 +31,7 @@ Fast Tab **Reporting**:
 - Pension Fund Registration No
 - Medical Fund Registration No
 - Social Insurance Code
-- Tax Bearer Canegory Code
+- Tax Bearer Category Code
 - OGRN Code
 - OKPO Code
 - OKONX Code
@@ -69,7 +67,7 @@ FastTab **Payments**:
 - KPP Code
 - OKPO Code
 
-## See Also
+## See also
 
 [Russia Local Functionality](russia-local-functionality.md)  
 

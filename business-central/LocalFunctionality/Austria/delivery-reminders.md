@@ -1,24 +1,21 @@
 ---
-    title: Delivery Reminders in the Austrian Version
+    title: Delivery reminders in the Austrian version
     description: Delivery reminders are used to track overdue vendor shipments and to remind vendors about overdue deliveries in the Austrian version.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.search.form: 5005270, 5005272, 5005273, 5005274, 5005275, 5005276, 5005280
-    ms.date: 06/17/2021
-    ms.author: edupont
-
+    ms.date: 11/07/2023
+    ms.author: bholtorf
 ---
-# Delivery Reminders in the Austrian Version
+# Delivery reminders in the Austrian version
 
 [!INCLUDE [delivery-reminders](../includes/ATCHDE/delivery-reminders.md)]
 
-## See Also
+## See also
 
  [Set Up Delivery Reminders](how-to-set-up-delivery-reminders.md)   
  [Set Up Delivery Reminder Terms, Levels, and Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   

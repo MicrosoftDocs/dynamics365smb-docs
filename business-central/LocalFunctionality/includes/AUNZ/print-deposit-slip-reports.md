@@ -1,10 +1,8 @@
 ---
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 11/29/2023
+ms.author: bholtorf
 ---
 The **Deposit Slip** report displays cash and check details in a format required by the bank.  
 

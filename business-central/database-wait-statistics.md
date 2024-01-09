@@ -1,16 +1,14 @@
 ---
 title: Database Wait Statistics in Business Central
 description: An overview of database wait statistics 
-author: javariya
-
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords:
 ms.search.form: 9520
 audience: 
-ms.author: a-jaaamir
+ms.author: bholtorf
 ms.date: 06/15/2022
-
 ---
 # Database Wait Statistics in [!INCLUDE[prod_long](includes/prod_long.md)]
 

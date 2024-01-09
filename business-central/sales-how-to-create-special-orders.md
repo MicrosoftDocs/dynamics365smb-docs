@@ -1,16 +1,14 @@
 ---
     title: How to Create Special Orders
     description: Learn how to create a special order for a specific catalog item to be shipped to a specific customer.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
     ms.date: 06/23/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Create Special Orders
@@ -40,8 +38,6 @@ A purchase order created as a special order for a sales order is respected by th
 
 > [!NOTE]  
 >  You cannot use the special order functionality if the item is already reserved. Therefore, for items that are sold on special orders, make sure the **Reserve** field on the item card is not set to **Always**.  
-
-## See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## See also
 

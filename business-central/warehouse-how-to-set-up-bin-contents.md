@@ -1,16 +1,14 @@
 ---
     title: Create Bin Contents
     description: After you have set up your bins, you can specify the items that you want to store in them, and set up rules that control how often bins are refilled.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.form: 7374
     ms.date: 04/01/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
 ---
 # Create Bin Contents
@@ -51,8 +49,6 @@ When you have created your bins, you can create the bin content that you want fo
 7. When you are ready, choose the **Create Bin Content** action.  
 
 In this worksheet, you can work with a number of bin content lines for a number of bins and thereby obtain a good overview of what you are putting into various bins in a given zone, aisle, or rack.  
-
-## See related [Microsoft training](/training/modules/set-up-zones-bins/)
 
 ## See also
 

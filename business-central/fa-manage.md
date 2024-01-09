@@ -1,8 +1,7 @@
 ---
 title: Manage Fixed Assets (contains video)
 description: Learn about the fixed assets functionality and get an overview of how to work with and manage your fixed assets.
-author: edupont04
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,8 +9,7 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
 ms.date: 06/15/2021
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Managing Fixed Assets
 
@@ -48,8 +46,6 @@ The following table describes a sequence of tasks, with links to the topics that
 The following video covers the basics of fixed assets.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
-
-## See related [Microsoft training](/training/paths/manage-fixed-assets-transactions/)
 
 ## See also
 

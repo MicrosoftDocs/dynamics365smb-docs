@@ -1,16 +1,16 @@
 ---
-title: Czech Local Functionality [CZ]
+title: Czech local functionality [CZ]
 description: The following topics describe the local functionality and features for the Czech version of Business Central.
 author: v-pejano
 ms-service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
-ms.date: 03/21/2023
+ms.date: 11/06/2023
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Czech Local Functionality in the Czech Version
+# Czech local functionality in the Czech version
 
 The following topics describe the local functionality in the Czech version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
@@ -58,6 +58,7 @@ The following topics describe the local functionality in the Czech version of [!
 * Advance Payments - Posting preview of tax documents - planned for **2023 release wave 2**
 * Intercompany posting cues to the Accountant CZ Role Center - planned for **2023 release wave 2**
 * Direct Transfer: Adding general Business Posting Groups and reports improvements - planned for **2023 release wave 2**
+* Integration to "ARES" Registers of Economic Subjects / Entities will be switched to new API - planned for **2023 release wave 2** 
 
 
 If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).

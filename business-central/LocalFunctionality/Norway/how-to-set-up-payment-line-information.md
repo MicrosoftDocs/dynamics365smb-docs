@@ -1,20 +1,16 @@
 ---
-    title: How to Set Up Payment Line Information [NO]
+    title: How to set up payment line information [NO]
     description: Read about how payment journal line information for the remittance payment is set up on the Payment Info page.
-
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/21/2021
-    ms.author: edupont
-
+    ms.date: 11/22/2023
+    ms.author: bholtorf
 ---
-# Set Up Payment Line Information in the Norwegian Version
+# Set up payment line information in the Norwegian version
 Payment journal line information for the remittance payment is set up on the **Payment Info** page.  
 
 ## To set up payment line information  
@@ -33,7 +29,7 @@ Payment journal line information for the remittance payment is set up on the **P
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Recipient Ref. 1 – 3**|Specify the payment text which is sent to the vendor.|  
+    |**Recipient Ref. 1 – 3**|Specify the payment text, which is sent to the vendor.|  
     |**KID (Cust. id number)**|Specify the number sent to the vendor during payment.|  
     |**Our Account. No.**|Specify the account number for your company.|  
     |**External Document No.**|Specify the number of the external document.|  
@@ -50,14 +46,14 @@ Payment journal line information for the remittance payment is set up on the **P
     |**Payment Type Code Abroad**|Specify the payment type code that is assigned to the payment.|  
     |**Check**|Specify whether a check must be issued.<br /><br /> * <br />                        **No** - No check is issued.<br /><br /> * **Send to employer** - Check is issued and sent to the employer.<br /><br /> * **Send to beneficiary** - Check is issued and sent to the beneficiary.|  
     |**Urgent**|Select if the payment is urgent and should be treated as an urgent transfer.|  
-    |**Agreed Exch. Rate**|Specify the exchange rate which the bank agrees upon.|  
+    |**Agreed Exch. Rate**|Specify the exchange rate, which the bank agrees upon.|  
     |**Agreed With**|Specify who the agreement is entered with, if an exchange rate is agreed upon.|  
     |**Futures Contract No.**|Specify the future contract number that is used for this payment.|  
     |**Futures Contract Exch. Rate**|Specify the future contract exchange rate that is used for this payment.|  
 
 6.  Choose the **OK** button.  
 
-## See Also  
+## See also  
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
  [Create Remittance Accounts](how-to-create-remittance-accounts.md)   

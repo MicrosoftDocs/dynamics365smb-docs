@@ -1,12 +1,12 @@
 ---
 title: Pick Items for Warehouse Shipment
 description: Learn about using warehouse pick documents to create and process pick information prior to posting a warehouse shipment.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 01/25/2023
+ms.date: 09/11/2023
 ms.custom: bap-template
 ms.search.forms: 7335, 7339, 7345, 
 
@@ -40,6 +40,10 @@ You can't create a warehouse pick document from scratch. Picks are part of a wor
 >  
 > To learn more about picking components for assembly orders, including situations where assembly items aren't related to a sales shipment, go to [Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
+## Check whether items are available for picking
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
+
 ## To create pick documents in bulk with the pick worksheet
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
@@ -63,7 +67,7 @@ You can't create a warehouse pick document from scratch. Picks are part of a wor
 6. If needed, edit the lines. You can also delete lines to make the pick more efficient. For example, if there are multiple lines with items that are in cross-dock bins, you might create a pick for all of the lines. The cross-docked items will be shipped with the other items on the shipment, and the cross-dock bins will have space for more incoming items.  
 
     > [!NOTE]  
-    >  If you delete lines, they're only only deleted from the worksheet. They aren't deleted from the pick selection list.  
+    >  If you delete lines, they're only deleted from the worksheet. They aren't deleted from the pick selection list.  
 
 7. Choose the **Create Pick** action. The **Create Pick** page opens, where you can add more information to the pick you are creating. Specify how to combine pick lines in the pick documents by selecting one of the following options.  
 
@@ -112,15 +116,13 @@ You can't create a warehouse pick document from scratch. Picks are part of a wor
 
 You can now bring the items to the shipment dock and post the shipment, including the related source document, on the **Warehouse Shipment** page. Learn more at [Ship Items](warehouse-how-ship-items.md).
 
-## See related [Microsoft training](/training/modules/pick-ship-items-warehouse/)
-
 ## See also
 
-[Warehouse Management Overview](design-details-warehouse-management.md)
-[Inventory](inventory-manage-inventory.md)  
-[Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
-[Assembly Management](assembly-assemble-items.md)    
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+- [Warehouse Management Overview](design-details-warehouse-management.md)
+- [Manage Inventory](inventory-manage-inventory.md)  
+- [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
+- [Assembly Management](assembly-assemble-items.md)    
+- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

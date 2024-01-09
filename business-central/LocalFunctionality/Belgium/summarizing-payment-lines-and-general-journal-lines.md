@@ -1,16 +1,14 @@
 ---
-title: Payment Lines and General Journal Lines [BE]
+title: Payment lines and general journal lines [BE]
 description: Business Central summarizes payment lines and journal lines across domestic, international, SEPA and non-euro payments.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.search.form: 11308
-ms.date: 06/25/2021
-ms.author: edupont
+ms.date: 06/25/2023
+ms.author: bholtorf
 
 ---
-# Summarizing Payment Lines and General Journal Lines in the Belgian Version
+# Summarizing payment lines and general journal lines in the Belgian version
 
 Business Central summarizes payment lines and journal line across the following types of payments:  
 
@@ -19,7 +17,7 @@ Business Central summarizes payment lines and journal line across the following 
 - SEPA payments  
 - Non-euro SEPA payments  
 
-## How Payment Journal Lines are Transferred to the General Journal
+## How payment journal lines are transferred to the general journal
 
 When you export the payment journal lines to a file, [!INCLUDE[prod_short](../../includes/prod_short.md)] transfers the payment journal lines to the specified general journal. By default, a general journal line is created for each payment journal line.  
 
@@ -28,7 +26,7 @@ The following two fields on the **Electronic Banking Setup** page affect how the
 - **Summarize Gen. Jnl. Lines**  
 - **Cut off Payment Message Texts**  
 
-If you have selected the **Summarize Gen. Jnl. Lines** check box on the **Electronic Banking Setup** page, [!INCLUDE[prod_short](../../includes/prod_short.md)] summarizes all payment journal lines for a specific vendor into one general journal line. The general description "Payment %1," where %1 is the vendor number, is used for the summarized journal line description. A separate payment line and a separate general journal line are created to handle:  
+If you select the **Summarize Gen. Jnl. Lines** check box on the **Electronic Banking Setup** page, [!INCLUDE[prod_short](../../includes/prod_short.md)] summarizes all payment journal lines for a specific vendor into one general journal line. The general description "Payment %1," where %1 is the vendor number, is used for the summarized journal line description. A separate payment line and a separate general journal line are created to handle:  
 
 - Payment journal lines that contain partial payments, with both the **Partial Payment** and the **Separate Line** fields selected.  
 
@@ -61,7 +59,7 @@ Based on the XML structure, the payments are summarized per account number, bene
 
 The EndToEndId in the SEPA message is taken from the payment message and can be truncated to the maximum length of 45 characters.  
 
-## See Also
+## See also
 
  [Set Up Electronic Banking](how-to-set-up-electronic-banking.md)   
  [Setting Up Finance](../../finance-setup-finance.md)  

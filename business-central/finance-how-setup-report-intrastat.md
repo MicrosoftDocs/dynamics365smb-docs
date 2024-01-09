@@ -338,8 +338,6 @@ The process of working with Intrastat reports is the same as in global feature.
 
 <!-- ### United Kingdom-->
 
-## See related training at [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## See also
 
 [Intrastat Reporting in Business Central](finance-how-report-intrastat.md)  

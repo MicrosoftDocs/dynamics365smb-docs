@@ -1,27 +1,23 @@
 ---
-title: Cancel Payments [NO]
-description: This topic describes how the Norwegian enhancements of Business Central allow you to cancel payments and remittances received.
-
-author: SorenGP
-
-
+title: Cancel payments [NO]
+description: This article describes how the Norwegian enhancements of Business Central allow you to cancel payments and remittances received.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 06/18/2021
-ms.author: edupont
-
+ms.date: 12/08/2023
+ms.author: bholtorf
 ---
-# Cancel Payments in the Norwegian Version
+# Cancel payments in the Norwegian version
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] includes Norwegian enhancements that allow you to cancel payments. If the payment has been sent to the bank, the bank must be contacted to cancel the remittance that they received.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] includes Norwegian enhancements that allow you to cancel payments. Iin the event that the payment is sent to the bank, it's necessary to contact the bank to cancel the remittance that was received.  
 
-- A payment order can be canceled if the payments are not received by the bank and a new remittance must be made. You can also cancel a payment order if you do not want to transfer the payments to the bank, for example if the payments are incorrect. Only open payment orders can be canceled.  
+- A payment order can be canceled if the payments aren't received by the bank and a new remittance must be made. You can also cancel a payment order if you don't want to transfer the payments to the bank, for example if the payments are incorrect. Only open payment orders can be canceled.  
 
-- An individual payment can be canceled if the payment cannot be processed by the bank and a new remittance has to be made. You can also cancel a payment if you do not want to process the payment. Settled payments cannot be canceled.  
+- An individual payment can be canceled if the payment can't be processed by the bank and a new remittance has to be made. You can also cancel a payment if you don't want to process the payment. Settled payments can't be canceled.  
 
 ## To cancel a payment order  
 
@@ -35,13 +31,13 @@ ms.author: edupont
 2. Select the payment, and then choose the **Cancel Payment** action.  
 3. Choose the **Yes** button.  
 
-## ee Also
+## See also
 
  [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)   
  [Set Up Remittance Agreements](how-to-set-up-remittance-agreements.md)   
  [Create Remittance Accounts](how-to-create-remittance-accounts.md)   
  [Set Up Vendors for Remittance](how-to-set-up-vendors-for-remittance.md)   
- [Rcipient Reference Codes](recipient-reference-codes.md)   
+ [Recipient Reference Codes](recipient-reference-codes.md)   
  [Create Remittance Suggestions](how-to-create-remittance-suggestions.md)   
  [Create Manual Remittance Payments](how-to-create-manual-remittance-payments.md)   
  [Set Up Payment Line Information](how-to-set-up-payment-line-information.md)   

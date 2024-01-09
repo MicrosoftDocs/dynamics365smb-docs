@@ -1,16 +1,14 @@
 ---
 title: Error Message "Posting Date is not within your range of allowed posting dates"
 description: Resolve the error behind the message "Posting date is not within your range of allowed posting dates" when running the Adjust Cost - Item Entries batch job.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:
 ms.date: 09/17/2021
-ms.author: edupont
+ms.author: bholtorf
 
 ---
 

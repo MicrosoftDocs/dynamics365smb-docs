@@ -62,7 +62,7 @@ To work with the **Bin Creation Worksheet** page, you must be set up as a wareho
 
 6.  If you want a character, such as a hyphen, to separate the category fields you have defined as part of the bin code, fill in the **Field Separator** field with this character.  
 7.  If you want application not to create a line for a bin if it exists already, select the **Check on Existing Bin** field.  
-8. When you finish filling in the fields, choose the **OK** Button.
+8. When you finish filling in the fields, choose the **OK** button.
 
     The application creates a line for each bin in the worksheet. You can now delete some of the bins, for example, if you have a rack with a passageway through the first two levels of a couple of sections.  
 

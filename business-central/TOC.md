@@ -42,6 +42,10 @@
 ##### [Walkthrough of inbound and outbound flow in basic warehouse configurations](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
 ##### [Walkthrough of inbound and outbound flow in mixed warehouse configurations](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
 ##### [Walkthrough of inbound and outbound flow in advanced warehouse configuration with directed put-away and pick](contoso-coffee/warehousing/warehouse-directed-flow.md)
+#### Service
+##### [Introduction to Contoso Coffee service management](contoso-coffee/service/contoso-coffee-service-intro.md)
+##### [Walkthrough of Service Orders for Service Items](contoso-coffee/service/service-basic-flow-order.md)
+##### [Walkthrough of service contracts for service items](contoso-coffee/service/service-contract-flow.md)
 
 ### Design details
 #### [Application design details overview](design-details-application-design.md)
@@ -333,6 +337,7 @@
 #### [E-Documents overview](finance-edocuments-overview.md)
 #### [Set up E-documents](finance-how-setup-edocuments.md)
 #### [Use e-documents in sales and purchases](finance-how-use-edocuments.md)
+#### [Set the E-Documents connector with external endpoints](finance-how-setup-edocuments-external.md)
 #### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### Manage VAT
@@ -574,7 +579,7 @@
 #### [Manage interactions for segments](marketing-interaction-segments.md)
 ### Manage interactions
 #### [Interactions](marketing-interactions-overview.md)
-#### [Attachments for Interactions](marketing-interaction-attachments.md)
+#### [Attachments for interactions](marketing-interaction-attachments.md)
 #### [Record interactions with contacts](marketing-interactions.md)
 #### [Create interactions on contacts and segments](marketing-how-create-interactions.md)
 #### [Automatically record interactions with contacts](marketing-auto-record-interactions.md)
@@ -870,6 +875,8 @@
 ### Denmark
 #### [Local functionality in the Danish version](LocalFunctionality/Denmark/denmark-local-functionality.md)
 #### [Notification and registration for the NemHandelsregisteret in Denmark](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Set up electronic invoicing with NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
+#### [Keep transactional data for five years in Denmark](localfunctionality/denmark/how-to-keep-data-5years.md)
 #### VAT
 ##### [Print VAT reconciliation reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [VAT-VIES reports](LocalFunctionality/Denmark/vat-vies-reporting.md)
@@ -883,7 +890,7 @@
 ##### [Set up customers for OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [Set up OIOUBL electronic invoice](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [The OIOUBL extension for electronic invoice](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [Create electronic documents in an OIOUBL format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+##### [Create electronic documents in an OIOUBL format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md
 #### Payroll
 ##### [Payroll data definitions (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 #### Digital vouchers

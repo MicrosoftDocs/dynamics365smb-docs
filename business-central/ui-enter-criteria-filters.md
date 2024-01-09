@@ -164,6 +164,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 |`1100..2100`|Numbers 1100 through 2100|  
 |`..2500`|Up to and including 2500|  
 |`..12 31 00`|Dates up to and including 12 31 00|  
+|`Bicycle..Car`| Strings Bicycle through Car when ordered lexiographically|  
 |`P8..`|Information for accounting period 8 and after|  
 |`..23`|From the beginning date until 23-current month-current year 23:59:59|  
 |`23..`|From 23-current month-current year 0:00:00 until the end of time|  
@@ -171,6 +172,9 @@ When you enter criteria, you can use all the numbers and letters that you normal
 
 > [!TIP]
 > If you're using a numeric keypad, the decimal separator key may output a character other than a period (.). To switch to a period, select the <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> keys on the numeric keypad. When you want to switch back, select <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> again. For more information, see [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).
+
+> [!NOTE]  
+> If the field that you filter on is of type Text, then lexiographic ordering is used to determine what's included in the interval. For such fields that are used to store integers, this can lead to the (unexpected) result that a filter on 10000..10042 also includes values 100000 and 1000042.
 
 #### (&#124;) Either/or
 

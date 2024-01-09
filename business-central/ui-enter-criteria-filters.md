@@ -173,9 +173,8 @@ When you enter criteria, you can use all the numbers and letters that you normal
 > [!TIP]
 > If you're using a numeric keypad, the decimal separator key may output a character other than a period (.). To switch to a period, select the <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> keys on the numeric keypad. When you want to switch back, select <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> again. For more information, see [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).
 
-> [!NOTE]
-> If the field you filter on is of type Text, then lexiographic ordering is used to determine what is included in the interval. For such fields that are used to store integers, this can lead to the (unexpected) result that a filter on 10000..10042 will also include values 100000 and 1000042.
-
+> [!NOTE]  
+> If the field that you filter on is of type Text, then lexiographic ordering is used to determine what's included in the interval. For such fields that are used to store integers, this can lead to the (unexpected) result that a filter on 10000..10042 also includes values 100000 and 1000042.
 
 #### (&#124;) Either/or
 

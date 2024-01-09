@@ -15,7 +15,7 @@ ms.author: altotovi
 
 # Payment Practices report  
 
-Some countries require that companies report payment times for their vendors as defined by local authorities. This reporting can be based on different sources and can sort vendors based on their size or defined payment terms, providing reporting for vendors for the following as required by local authorities:  
+Some countries/regions require that companies report payment times for their vendors as defined by local authorities. This reporting can be based on different sources and can sort vendors based on their size or defined payment terms, providing reporting for vendors for the following as required by local authorities:  
 
 - The average agreed payment period.  
 - The average actual payment term.   
@@ -37,7 +37,7 @@ To run the Payment Practices report, use the following steps:
    | Field | Description |
    |---------|-----------------------------------|
    | No. | Specify the number of the entry or record for the report. |
-   | Aggregation Type | Specity how data is aggregated. If you choose the option **Period** report will be based on |
+   | Aggregation Type | Specify how data is aggregated. If you choose the option **Period** report will be based on |
    | Header Type |   |
    | Starting Date |   |
    | Ending Date |    |

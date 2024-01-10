@@ -2030,4 +2030,5 @@
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
+## [FAQ for chat with Copilot (preview)](faqs-chat-woth-copilot.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)

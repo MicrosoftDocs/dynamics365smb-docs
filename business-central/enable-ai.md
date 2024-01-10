@@ -81,8 +81,7 @@ All Copilot and AI capabilities are active by default when they are made availab
    [![Shows the Business Central role center and the checklist for Copilot](media/copilot-and-ai-capabilties-page.svg)](media/copilot-and-ai-capabilties-page.svg#lightbox)
 
    - To turn on a feature, select it in the list, then select the **Activate** action.
-   - To turn off a feature, select it, and then select **Deactivate** action. 
-
+   - To turn off a feature, select it, and then select **Deactivate** action.
 
 ## Enable feature in Feature Management
 
@@ -106,8 +105,9 @@ To grant or deny access to specific Copilot and AI capabilities, consult the doc
 
 After you enable and consent to the features, you're ready to try them out. Go to:
 
-- [Add marketing text to items](item-marketing-text.md) 
-- [Reconcile using bank account reconciliation assist](bank-reconciliation-with-copilot.md) 
+- [Add marketing text to items](item-marketing-text.md)
+- [Chat with Copilot]()
+- [Reconcile using bank account reconciliation assist](bank-reconciliation-with-copilot.md)
 
 ## See also
 

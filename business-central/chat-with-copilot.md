@@ -16,8 +16,6 @@ ms.custom: bap-template
 
 This article explains how to use chat with Copilot to get answers about your company data and assistance with tasks and information.​
 
-
-
 ## About chat with Copilot
 
 Chat with copilot is an AI-powered tool that answers questions and finds information related to Business Central. By expressing what you're looking for in natural language, the chat with Copilot feature can: 
@@ -28,6 +26,7 @@ Chat with copilot is an AI-powered tool that answers questions and finds informa
 
 For explaining concepts and providing guidance, chat with Copilot provides responses based on the Business Central help available on Microsoft Learn.
 
+[Watch video](https://go.microsoft.com/fwlink/?linkid=2250609)
 
 ## Prerequisites
 

@@ -16,6 +16,8 @@ ms.custom: bap-template
 
 This article explains how to use chat with Copilot to get answers about your company data and assistance with tasks and information.​
 
+
+
 ## About chat with Copilot
 
 Chat with copilot is an AI-powered tool that answers questions and finds information related to Business Central. By expressing what you're looking for in natural language, the chat with Copilot feature can: 
@@ -26,8 +28,6 @@ Chat with copilot is an AI-powered tool that answers questions and finds informa
 
 For explaining concepts and providing guidance, chat with Copilot provides responses based on the Business Central help available on Microsoft Learn.
 
-> [!Video https://www.youtube.com/watch?v=OP7oVMR1o1E]
-
 
 ## Prerequisites
 
@@ -35,18 +35,21 @@ Chat with Copilot capability is enabled and activated. This task is done by an a
 
 ## Get started using chat with copilot
 
-1. In the upper right of the screen, select the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon.
+1. In the upper right of the screen, select the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon to open the Copilot pane.
 
-1. In the **Ask a question** box at the bottom, compose a question text then select the arrowhad or press <kbd>Enter</kbd> get an answer.
+1. To ask a question, enter text in the **Ask a question** box at the bottom, and then select the arrowhad or press <kbd>Enter</kbd> get an answer.
 
-The text can be in the form of a question, statement, or command. 
-2. Use the prompt buttons 
-1. 
-1. Compose another related question to refine the answer (if applicable). The chatbot understands the context, meaning you don't have to repeat key points from the original question.
+   - The text can be in the form of a question, statement, or command.
+   - Use prompts to get you started with your question. Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to refine responses to specific categories. They can help you undestand how you can phrase questions to get the refine the responses  You can select the prompts either from the buttons top of the Coplit pane or in the View Prompts menu above **Ask a question** box at the bottom.
+1. Depending on the question, you can stop a
+1. You can ask another question to refine the answer (if applicable). The chat remembers the context, which means that you don't have to repeat key points from the original question. 
 
 ## Clear chat to start over
 
-If you want Copilot to disregard the conversation so far, select Clear chat at the bottom of the Copilot pane.
+If you want clear the questions and results of the current chat and start over, select the **Start a new Copilot chat session** icon at the bottom of the Copilot pane above the question box.
+
+The current chat is also cleared if you close or sign oiut of Business Central.
+
 ## Provide feedback
 
 To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.

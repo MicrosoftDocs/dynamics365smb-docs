@@ -1,5 +1,5 @@
 ---
-title: Payment Practices report
+title: Payment practices report
 description: Learn how to easily create the Payment Practices report for vendors and customers. 
 author: altotovi
 ms.topic: conceptual
@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment, practices, vendor, customer, report
 ms.search.form: 686, 687, 689 
-ms.date: 01/09/2024
+ms.date: 01/10/2024
 ms.author: altotovi
 
 --- 
 
-# Payment Practices report  
+# Payment practices report  
 
 Some countries/regions require that companies report payment times for their vendors as defined by local authorities. This reporting can be based on different sources and can sort vendors based on their size or defined payment terms, providing reporting for vendors for the following as required by local authorities:  
 

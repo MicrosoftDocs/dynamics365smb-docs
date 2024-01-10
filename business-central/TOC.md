@@ -1844,6 +1844,9 @@
 ## Bank account reconciliation assist (preview)
 ### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 ### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
+## Chat with Copilot (preview)
+### [Get assistance from chat with Copilot](chat-with-copilot.md)
+### [FAQ for chat with copilot](faqs-chat-with-copilot.md)
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)

@@ -23,7 +23,7 @@ This app provides several elements that are used for the main walkthroughs:
 > 
 ## Set up Contoso Coffee Jobs and Project Management data
 
-[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
 Once the relevant apps are installed, go to the [Contoso Coffee Jobs Demo Data](https://businesscentral.dynamics.com/?page=4767) page in [!INCLUDE [prod_short](../../includes/prod_short.md)], and change the default settings to suit your needs. The following tables describes the settings:  
 

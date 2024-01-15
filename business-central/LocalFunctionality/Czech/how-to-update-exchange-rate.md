@@ -2,7 +2,7 @@
 title: Update exchange rates [CZ]
 description: The ability to automatically update currency exchange rates from the CNB (Czech National Bank) in the Czech version of Business Central.
 author: v-pejano
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Finance, Exchange Rate, Localization
 ms.date: 11/20/2023

@@ -7,6 +7,8 @@ ms.reviewer: jswymer
 ms.topic: overview 
 ms.date: 10/29/2023
 ms.custom: bap-template 
+ms.collection:
+  - bap-ai-copilot
 ---
 # Marketing text suggestions with Copilot overview
 

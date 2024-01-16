@@ -4,7 +4,7 @@ description: Learn how to reconcile transactions in Business Central with transa
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 10/24/2023
 ms.custom: bap-template

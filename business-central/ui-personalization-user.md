@@ -3,7 +3,7 @@ title: Personalizing pages (contains video)
 description: Learn how to customize the user interface and personalize your workspace to suit your way of working and personal preferences in Business Central.
 author: jswymer
 ms.topic: conceptual
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width

@@ -8,6 +8,8 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 10/24/2023
 ms.custom: bap-template
+ms.collection:
+  - bap-ai-copilot
 ---
 # Reconcile Bank Accounts
 

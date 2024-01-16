@@ -8,6 +8,8 @@ ms.search.form: 30116, 30117, 30126, 30127,
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # Synchronize Items and Inventory

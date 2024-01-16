@@ -7,6 +7,8 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.date: 12/13/2023
 ms.custom: bap-template
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # Add marketing text to items

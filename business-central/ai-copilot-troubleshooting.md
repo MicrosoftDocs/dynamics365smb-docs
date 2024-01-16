@@ -6,6 +6,7 @@ ms.author: jswymer
 ms.reviewer: jswymer 
 ms.topic: troubleshooting 
 ms.collection:
+  - bap-ai-copilot
 ms.date: 11/15/2023
 ms.custom: bap-template 
 ---

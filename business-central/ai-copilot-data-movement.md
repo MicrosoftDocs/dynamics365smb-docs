@@ -5,9 +5,10 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.collection: 
 ms.date: 11/30/2023
 ms.custom: bap-template 
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # Copilot data movement across geographies 

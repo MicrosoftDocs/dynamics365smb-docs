@@ -4,7 +4,7 @@ description: Learn about using warehouse pick documents to create and process pi
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 09/11/2023
 ms.custom: bap-template

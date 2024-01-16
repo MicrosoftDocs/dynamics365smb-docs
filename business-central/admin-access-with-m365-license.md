@@ -4,7 +4,7 @@ description: Learn how users can get access to Business Central data, for exampl
 author: mikebc
 ms.author: mikebc 
 ms.reviewer: jswymer 
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: overview
 ms.date: 11/22/2022
 ms.custom: bap-template

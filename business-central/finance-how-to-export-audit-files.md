@@ -2,7 +2,7 @@
 title: Audit file export
 description: This article explains how to set up different export formats and then use them, based on auditor or authority requirements.
 author: altotovi
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.devlang: na
 ms.tgt_pltfrm: na

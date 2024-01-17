@@ -27,7 +27,7 @@ Chat with copilot is an AI-powered tool that answers questions and finds informa
 
   The answers that provide an explanation or gudidance are based solely on the offical Dynamics 365 Business Central documentation, which is available on Microsoft Learn at [Dynamics 365 Business Central documentation](/dynamics365/business-central/) and also happens to be the source of the article youre reading.
   
-> [!Video https://go.microsoft.com/fwlink/?linkid=2250609]
+> [What video](https://go.microsoft.com/fwlink/?linkid=2250609)
 
 ## Prerequisites
 

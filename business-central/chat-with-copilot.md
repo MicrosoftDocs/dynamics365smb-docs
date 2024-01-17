@@ -35,16 +35,20 @@ Chat with Copilot capability is enabled and activated. This task is done by an a
 
 ## Get started using chat with copilot
 
-1. In the upper right of the screen, select the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon to open the Copilot pane.
+1. In the upper right of the screen, select the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon.
 
-  The **Chat** pane displays on the right as illistrated in the following figure:
+   The **Copilot** pane displays on the right as illistrated in the following figure:
 
-  ![Shows the icon for chat with Copilot pane with callouts](media/chat-with-copilot-pane.svg)
-1. To ask a question, enter text in the **Ask a question** box at the bottom, and then select the arrowhad or press <kbd>Enter</kbd> get an answer.
+   ![Shows the icon for chat with Copilot pane with callouts](media/chat-with-copilot-pane.svg)
 
-   - The text can be in the form of a question, statement, or command.
-   - Use prompts to get you started with your question. Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to refine responses to specific categories. They can help you undestand how you can phrase questions to get the refine the responses  You can select the prompts either from the buttons top of the Coplit pane or in the View Prompts menu above **Ask a question** box at the bottom.
-1. Depending on the question, you can stop a
+1. If you want help getting you're question started, select the prompts either from the **Find**, **Explain**, or **Guide** buttons at the top of the Coplit pane or use the **View Prompts** menu above **Ask a question** box at the bottom.
+
+   Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.
+
+1. To ask a question, enter text in the **Ask a question** box at the bottom, and then select the arrowhead or press <kbd>Enter</kbd> get an answer.
+
+   The text can be in the form of a question, statement, or command. If you used a prompt, just complete the sentence.
+
 1. You can ask another question to refine the answer (if applicable). The chat remembers the context, which means that you don't have to repeat key points from the original question. 
 
 ## Clear chat to start over
@@ -55,8 +59,11 @@ The current chat is also cleared if you close or sign oiut of Business Central.
 
 ## Tips and tricks
 
-- Ask clear and specific questions
-- Use natural Language, expressing the questions in a friendly and conversational manner.
+This section provides ways you can help improve the answers you get from chat.
+
+- Ask clear and specific questions as much as possible,
+- Use natural language, expressing the questions in a friendly and conversational manner
+- Choose phrases and terms that you know are used in Business Central, either in the software od documentation.
 - If the initial response doesn't fully answer your questions, as follwo up questions or rephrase the last question.
 - If you're asking a question on a different subject matter, clear the current chat session to start over. As perviously mentioned, chat will remember the the content of the questions you're asking, whihc influences the answers you get.
 

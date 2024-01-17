@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77, 462
 ms.date: 07/27/2023
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.author: bholtorf
 ---

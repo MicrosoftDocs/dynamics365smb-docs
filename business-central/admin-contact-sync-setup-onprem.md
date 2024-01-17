@@ -4,7 +4,7 @@ description: Learn how to configure a Business Central on-premises environment t
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-op
 ms.topic: how-to
 ms.date: 09/28/2023
 ms.custom: bap-template

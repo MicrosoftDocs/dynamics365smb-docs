@@ -2,7 +2,7 @@
 title: Basic Tax Setup in the US Version
 description: Learn how to set basic tax data and apply default accounts for posting calculated tax information.
 author: brentholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: tax, setup
 ms.search.form: 485

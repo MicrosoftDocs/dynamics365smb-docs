@@ -286,6 +286,7 @@
 ## Finance
 ### [Finance overview](finance.md)
 ### [Financial reports](finance-reports.md)
+
 ### Manage receivables
 #### [Receivables overview](receivables-manage-receivables.md)
 #### [Accounts receivable reports and analytics](receivables-reports.md)
@@ -298,6 +299,7 @@
 ##### [Set up rules for automatic application of payments](receivables-how-set-up-payment-application-rules.md)
 #### [Reconcile customer payments from a list of unpaid sales documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 #### [Reconcile customer payments with the cash receipt journal or from customer ledger entries](receivables-how-apply-sales-transactions-manually.md)
+#### [Consolidate balances for a company that is a customer and a vendor](finance-consolidate-customer-vendor-balances.md)
 #### [Collect outstanding balances](receivables-collect-outstanding-balances.md)
 #### [Collect payments with SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Send reminders of outstanding balances](receivables-send-reminders.md)
@@ -326,6 +328,7 @@
 ##### [Reconcile payments that can't be applied automatically](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ##### [Map text on recurring payments to accounts for automatic reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 #### [Reconcile vendor payments with the payment journal or from vendor ledger entries](payables-how-apply-purchase-transactions-manually.md)
+#### [Consolidate balances for a company that is a customer and a vendor](finance-consolidate-customer-vendor-balances.md)
 #### [Collect outstanding balances](receivables-collect-outstanding-balances.md)
 #### [Collect payments with SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Block vendors](payables-how-block-vendors.md)
@@ -366,13 +369,8 @@
 #### [Reconcile bank accounts](bank-how-reconcile-bank-accounts-separately.md)
 #### [Reconcile bank accounts using Copilot (preview)](bank-reconciliation-with-copilot.md)
 #### [Applying payments automatically and reconcile bank accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-
-### Manage intercompany transactions
-#### [Intercompany overview](intercompany-manage.md)
-#### [Set up intercompany](intercompany-how-setup.md)
-#### [Work with intercompany documents and journals](intercompany-how-work-documents-journals.md)
-#### [Manage the intercompany inbox and outbox](intercompany-how-manage-intercompany-inbox.md)
-#### [Allocate costs to intercompany partners](intercompany-allocate-costs.md)
+#### [Transfer bank funds](bank-how-transfer-bank-funds.md)
+#### [Create bank deposits](bank-create-bank-deposits.md)
 
 ### Accounting for costs
 #### [Cost accounting overview](finance-manage-cost-accounting.md)
@@ -408,6 +406,8 @@
 ### Manage cash flow
 #### [Cash flow overview](finance-cash-flow-overview.md)
 #### [Analyze cash flows in your company](finance-analyze-cash-flow.md)
+#### [Walkthrough: Use financial reports to make cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ### Closing years and periods
 #### [Year closing overview](year-close-years-periods.md)
@@ -424,38 +424,46 @@
 #### [Close income statement accounts](year-close-income-statement.md)
 #### [Post the year-end closing entry](year-how-post-year-end-close-entry.md)
 
-### Consolidate financial data from multiple companies
-#### [Company consolidation](finance-consolidated-company-reporting.md)
-#### [Set up company consolidation](finance-consolidated-company-reporting-setup.md)
-
-### Work with the chart of accounts and general ledger
+### Work with the chart of accounts and General Ledger (G/L)
 #### [Understand the general ledger and chart of accounts](finance-general-ledger.md)
 #### [Review accounts](finance-review-accounts.md)
+#### [Post transactions directly to the general ledger](finance-how-post-transactions-directly.md)
+#### [Reverse journal postings and undo receipts/shipments](finance-how-reverse-journal-posting.md)
+#### [Record and reimburse employees' expenses](finance-how-record-reimburse-employee-expenses.md)
+#### [Create G/L budgets](finance-how-create-budgets.md)
+#### [Audit file export](finance-how-to-export-audit-files.md)
+#### [Defer revenues and expenses](finance-how-defer-revenue-expenses.md)
+#### [Allocate recurring costs and income](year-allocate-costs-income.md)
+#### [Allocate revenue and costs to multiple G/L accounts](finance-allocate-revenue-costs.md)
 
-### [Consolidate balances for a company that is a customer and a vendor](finance-consolidate-customer-vendor-balances.md)
-### [Work with dimensions](finance-dimensions.md)
-### [Troubleshoot and correct dimensions](finance-troubleshooting-correcting-dimensions.md)
-### [Currencies in Business Central](finance-currencies.md)
-### [Create G/L budgets](finance-how-create-budgets.md)
-### [Post transactions directly to the general ledger](finance-how-post-transactions-directly.md)
-### [Reverse journal postings and undo receipts/shipments](finance-how-reverse-journal-posting.md)
-### [Audit file export](finance-how-to-export-audit-files.md)
-### [Record and reimburse employees' expenses](finance-how-record-reimburse-employee-expenses.md)
-### [Defer revenues and expenses](finance-how-defer-revenue-expenses.md)
-### [Allocate recurring costs and income](year-allocate-costs-income.md)
-### [Allocate revenue and costs to multiple G/L accounts](finance-allocate-revenue-costs.md)
-### [Update currency exchange rates](finance-how-update-currencies.md)
-### [Import payroll transactions](finance-how-import-payroll-transactions.md)
-### [Work with VAT on sales and purchases](finance-work-with-vat.md)
-### [Report VAT to tax authorities](finance-how-report-vat.md)
-### [Convert service contracts that include VAT amounts](service-how-to-convert-service-contracts.md)
-### [Manage VAT rate changes](finance-how-use-vat-rate-change-tool.md)
-### [Walkthrough: Use financial reports to make cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-### [Analyze financial statements in Excel](finance-analyze-excel.md)
-### [Transfer bank funds](bank-how-transfer-bank-funds.md)
-### [Create bank deposits](bank-create-bank-deposits.md)
-### [Accountant experiences in Business Central](finance-accounting.md)
+### Working with dimensions
+#### [Dimensions overview](finance-dimensions.md)
+#### [Troubleshoot and correct dimensions](finance-troubleshooting-correcting-dimensions.md)
+#### [Import payroll transactions](finance-how-import-payroll-transactions.md)
+
+### Working with Currencies
+#### [Currencies in Business Central](finance-currencies.md)
+#### [Update currency exchange rates](finance-how-update-currencies.md)
+
+### Working with VAT
+#### [Work with VAT on sales and purchases](finance-work-with-vat.md)
+#### [Report VAT to tax authorities](finance-how-report-vat.md)
+#### [Convert service contracts that include VAT amounts](service-how-to-convert-service-contracts.md)
+#### [Manage VAT rate changes](finance-how-use-vat-rate-change-tool.md)
+
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
+#### Consolidate financial data from multiple companies
+##### [Company consolidation](finance-consolidated-company-reporting.md)
+##### [Set up company consolidation](finance-consolidated-company-reporting-setup.md)
+#### Manage intercompany transactions
+##### [Intercompany overview](intercompany-manage.md)
+##### [Set up intercompany](intercompany-how-setup.md)
+##### [Work with intercompany documents and journals](intercompany-how-work-documents-journals.md)
+##### [Manage the intercompany inbox and outbox](intercompany-how-manage-intercompany-inbox.md)
+##### [Allocate costs to intercompany partners](intercompany-allocate-costs.md)
+
+### [Accountant experiences in Business Central](finance-accounting.md)
+
 
 ## Financial business intelligence and reports
 ### [Financial business intelligence and reports overview](bi.md)
@@ -466,8 +474,11 @@
 ### [Set up and publish KPI web services based on financial reports](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
 ### [Create analysis reports](bi-how-create-analysis-views-reports.md)
+### [Analyze financial statements in Excel](finance-analyze-excel.md)
 ### [Create reports with XBRL](bi-create-reports-with-xbrl.md)
 ### [Manage database access intent](admin-data-access-intent.md)
+### [Walkthrough: Use financial reports to make cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)

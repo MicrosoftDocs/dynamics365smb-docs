@@ -4,7 +4,7 @@ ms.topic: include
 ms.date: 01/17/2024
 ms.author: bholtorf
 ---
-1. Go to **[Dynamics 365 Business Central product](https://www.microsoft.com/en-us/dynamics-365/products/business-central)** page, and choose the **Try for free** button.  
+<!--1. Go to **[Dynamics 365 Business Central product](https://www.microsoft.com/en-us/dynamics-365/products/business-central)** page, and choose the **Try for free** button.-->  
 
 The trial takes a few moments to load, then you can start using the app. The **Get Started** checklist takes you through the steps to make you ready for business. The steps vary depending on your country/region and any industry-specific functionality that you've added to your [!INCLUDE [prod_short](prod_short.md)].  
 

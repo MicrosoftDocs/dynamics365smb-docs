@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: bholtorf
-ms.date: 12/19/2023
+ms.date: 01/17/2024
 ---
 
 # Sign up for a free Dynamics 365 Business Central trial

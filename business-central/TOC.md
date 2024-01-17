@@ -336,28 +336,6 @@
 #### [Work with payment tolerances and payment discount tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The late payment prediction extension](ui-extensions-late-payment-prediction.md)
 
-### Manage E-documents
-#### [E-Documents overview](finance-edocuments-overview.md)
-#### [Set up E-documents](finance-how-setup-edocuments.md)
-#### [Use e-documents in sales and purchases](finance-how-use-edocuments.md)
-#### [Set the E-Documents connector with external endpoints](finance-how-setup-edocuments-external.md)
-#### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
-
-### Manage VAT
-#### [VAT management overview](finance-manage-vat.md)
-#### [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md)
-#### Set up VAT
-##### [Set up value-added tax](finance-setup-vat.md)
-##### [Post group setup](finance-posting-groups.md#tax-posting-groups)
-##### [Set up non-deductible VAT](finance-setup-nondeductible-vat.md)
-##### [Set up unrealized value added tax](finance-setup-unrealized-vat.md)
-##### [Set up a VAT statement](finance-how-setup-vat-statement.md)
-#### [Work with VAT on sales and purchases](finance-work-with-vat.md)
-#### [Use non-deductible VAT](finance-how-use-non-deductible-vat.md)
-#### [Submit VAT reports to tax authorities](finance-how-report-vat.md)
-#### [Managing VAT rate changes](finance-how-use-vat-rate-change-tool.md)
-#### [Validate VAT registration numbers](finance-how-validate-vat-registration-number.md)
-
 ### Invoicing prepayments
 #### [Prepayments overview](finance-invoice-prepayments.md)
 #### [Set up prepayments](finance-set-up-prepayments.md)
@@ -446,10 +424,27 @@
 #### [Update currency exchange rates](finance-how-update-currencies.md)
 
 ### Working with VAT
+#### [VAT management overview](finance-manage-vat.md)
+#### [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md)
+#### Set up VAT
+##### [Set up value-added tax](finance-setup-vat.md)
+##### [Post group setup](finance-posting-groups.md#tax-posting-groups)
+##### [Set up non-deductible VAT](finance-setup-nondeductible-vat.md)
+##### [Set up unrealized value added tax](finance-setup-unrealized-vat.md)
+##### [Set up a VAT statement](finance-how-setup-vat-statement.md)
 #### [Work with VAT on sales and purchases](finance-work-with-vat.md)
-#### [Report VAT to tax authorities](finance-how-report-vat.md)
+#### [Use non-deductible VAT](finance-how-use-non-deductible-vat.md)
+#### [Submit VAT reports to tax authorities](finance-how-report-vat.md)
+#### [Managing VAT rate changes](finance-how-use-vat-rate-change-tool.md)
+#### [Validate VAT registration numbers](finance-how-validate-vat-registration-number.md)
 #### [Convert service contracts that include VAT amounts](service-how-to-convert-service-contracts.md)
-#### [Manage VAT rate changes](finance-how-use-vat-rate-change-tool.md)
+
+### Setup and use E-documents
+#### [E-Documents overview](finance-edocuments-overview.md)
+#### [Set up E-documents](finance-how-setup-edocuments.md)
+#### [Use e-documents in sales and purchases](finance-how-use-edocuments.md)
+#### [Set the E-Documents connector with external endpoints](finance-how-setup-edocuments-external.md)
+#### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
 #### Consolidate financial data from multiple companies

@@ -8,6 +8,8 @@ ms.topic: how-to
 ms.collection: get-started
 ms.date: 10/25/2023
 ms.custom: bap-template 
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # Get assistance from chat with Copilot (preview)
@@ -35,6 +37,9 @@ Chat with Copilot capability is enabled and activated. This task is done by an a
 
 1. In the upper right of the screen, select the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon to open the Copilot pane.
 
+  The **Chat** pane displays on the right as illistrated in the following figure:
+
+  ![Shows the icon for chat with Copilot pane with callouts](media/chat-with-copilot-pane.svg)
 1. To ask a question, enter text in the **Ask a question** box at the bottom, and then select the arrowhad or press <kbd>Enter</kbd> get an answer.
 
    - The text can be in the form of a question, statement, or command.
@@ -48,9 +53,17 @@ If you want clear the questions and results of the current chat and start over, 
 
 The current chat is also cleared if you close or sign oiut of Business Central.
 
+## Tips and tricks
+
+- Ask clear and specific questions
+- Use natural Language, expressing the questions in a friendly and conversational manner.
+- If the initial response doesn't fully answer your questions, as follwo up questions or rephrase the last question.
+- If you're asking a question on a different subject matter, clear the current chat session to start over. As perviously mentioned, chat will remember the the content of the questions you're asking, whihc influences the answers you get.
+
 ## Provide feedback
 
 To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.
+
 ## See also
 
 [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  

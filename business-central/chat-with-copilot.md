@@ -20,12 +20,12 @@ This article explains how to use chat with Copilot to get answers about your com
 
 Chat with copilot is an AI-powered tool that answers questions and finds information related to Business Central. By expressing what you're looking for in natural language, you can use the chat with Copilot feature to: 
 
-- Find business data for the company you're working with in Business Central. Use chat to look up (and open) data about at entities and records related to business processes, such as customers, vendors, sales orders, and items,a nd more. For example, ask Copilot: "Show me the latest sales order for Adatum." or "How many sales invoices have been posted this year."
+- Find business data for the company you're working with in Business Central. Use chat to look up (and open) data about entities/records related to business processes, such as customers, vendors, sales orders, and items, and more. For example, ask Copilot: "Show me the latest sales order for Adatum." or "How many sales invoices have been posted this year."
 - Explain a concept or get guidance on how to accomplish a task. For example, ask "Help me understand dinmensions" or "How to I post a sales order".
 
   The answers that provide an explanation or gudidance are based solely on the offical Dynamics 365 Business Central documentation, which is available on Microsoft Learn at [Dynamics 365 Business Central documentation](/dynamics365/business-central/) and also happens to be the source of the article youre reading.
   
-[Watch video](https://go.microsoft.com/fwlink/?linkid=2250609)
+> [!Video https://go.microsoft.com/fwlink/?linkid=2250609]
 
 ## Prerequisites
 

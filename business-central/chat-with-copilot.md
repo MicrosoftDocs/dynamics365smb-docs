@@ -41,14 +41,21 @@ Chat with Copilot capability is enabled and activated. This task is done by an a
 
    ![Shows the icon for chat with Copilot pane with callouts](media/chat-with-copilot-pane.svg)
 
+<!--
 1. If you want help getting you're question started, select the prompts either from the **Find**, **Explain**, or **Guide** buttons at the top of the Coplit pane or use the **View Prompts** menu above **Ask a question** box at the bottom.
 
-   Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.
+   Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.-->
 
 1. To ask a question, enter text in the **Ask a question** box at the bottom, and then select the arrowhead or press <kbd>Enter</kbd> get an answer.
 
    The text can be in the form of a question, statement, or command. If you used a prompt, just complete the sentence.
 
+   > [!TIP]
+   > The chat includes a couple features that can help your write questions:
+   > - To quickly get started on formulating a question, select one of the prompts&mdash; **Find**, **Explain**, or **Guide**&mdash; by using the buttons at the top of the pane (refer to in the figure ) or the **View Prompts** button above **Ask a question** box (refer to in the figure). Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.
+   > - Select the sample questions above the View prompts button (refer to  in figure) to get insight into how the questions and answers work.  
+
+2. 
 1. You can ask another question to refine the answer (if applicable). The chat remembers the context, which means that you don't have to repeat key points from the original question. 
 
 ## Clear chat to start over

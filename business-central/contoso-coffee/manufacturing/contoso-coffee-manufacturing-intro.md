@@ -3,7 +3,7 @@ title: Introduction to Contoso Coffee Manufacturing
 description: Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the manufacturing capabilities in Business Central.
 ms.date: 04/01/2023
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: 4765,
 author: brentholtorf
 ms.author: bholtorf

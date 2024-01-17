@@ -3,7 +3,7 @@
     description: Walkthrough for a production planner at Contoso Coffee who wants to create a firm planned production order and then modify it.
     ms.date: 12/12/2023
     ms.topic: article
-    ms.service: dynamics365-business-central
+    ms.service: dynamics-365-business-central
     author: brentholtorf
     ms.author: bholtorf
 ---

@@ -9,6 +9,8 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.search.keywords: copilot, AI 
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # FAQ for bank account reconciliation assist (preview) with Copilot

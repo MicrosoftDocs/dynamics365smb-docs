@@ -2,7 +2,7 @@
 title: Czech local functionality - Fixed asset posting of disposal | Microsoft Docs
 description: Czech accounting standards require specific posting when a fixed asset is being disposed of or being sold.
 author: v-pejano
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
 ms.date: 11/15/2023

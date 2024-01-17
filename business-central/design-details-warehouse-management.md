@@ -4,7 +4,7 @@ description: In addition to receipts and shipments, Business Central supports a 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 12/13/2023
 ms.custom: bap-template

@@ -2,7 +2,7 @@
 title: Set Up Customer Discount Groups
 description: Learn how to set up customer discount groups and create sales line discounts for those groups.
 author: brentholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.date: 06/08/2022
 ms.author: bholtorf

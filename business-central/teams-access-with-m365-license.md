@@ -4,7 +4,7 @@ description: Learn how users can get access to Business Central data in Microsof
 author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer 
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: overview
 ms.date: 02/07/2023
 ms.custom: bap-template

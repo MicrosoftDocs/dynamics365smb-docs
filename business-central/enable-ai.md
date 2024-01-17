@@ -8,6 +8,8 @@ ms.topic: how-to
 ms.date: 10/29/2023
 ms.custom: bap-template
 ms.search.form: 7775
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # Configure Copilot and AI capabilities 

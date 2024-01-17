@@ -24,6 +24,9 @@ Power BI reports give you insight into your [!INCLUDE[prod_short](includes/prod_
 
 ## Get started
 
+> [!NOTE]
+> [!INCLUDE [prod_short](includes/prod_short.md)] online is already set up to integrate with Power BI.
+
 ### Sign up Power BI
 
 Before you can use Power BI with [!INCLUDE[prod_short](includes/prod_short.md)], you'll need to sign up for the Power BI service. If you haven't already signed up, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). When you sign up, use your work email address and password.
@@ -174,7 +177,7 @@ It's probably because the report's name doesn't contain the name of the list pag
 [Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data](across-how-use-financials-data-source-powerbi.md)    
 [Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)    
 [Connect to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] on-premises](across-working-with-business-central-in-powerbi.md)    
-[Power BI for consumers](/power-bi/consumer/end-user-consumer    
+[Power BI for consumers](/power-bi/consumer/end-user-consumer)     
 [The 'new look' of the Power BI service](/power-bi/service-new-look)    
 [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)    
 [Power BI documentation](/power-bi/)    

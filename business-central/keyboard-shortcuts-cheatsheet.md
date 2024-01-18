@@ -7,7 +7,7 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 09/11/2023
 ms.author: jswymer
 ms.review: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 

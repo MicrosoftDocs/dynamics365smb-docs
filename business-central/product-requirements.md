@@ -8,7 +8,7 @@ ms.search.keywords: version
 ms.date: 12/13/2023
 ms.review: jswymer
 ms.author: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ---
 # Minimum requirements for using Business Central
 

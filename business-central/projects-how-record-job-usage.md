@@ -4,7 +4,7 @@ description: This article describes how to record the consumption or use of item
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 03/08/2023
 ms.custom: bap-template

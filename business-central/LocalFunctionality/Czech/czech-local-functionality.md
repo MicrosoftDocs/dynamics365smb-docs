@@ -2,7 +2,7 @@
 title: Czech local functionality [CZ]
 description: The following topics describe the local functionality and features for the Czech version of Business Central.
 author: v-pejano
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, EET, Cash Desk
 ms.date: 11/06/2023

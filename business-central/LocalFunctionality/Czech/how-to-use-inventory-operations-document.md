@@ -2,7 +2,7 @@
 title: Czech local functionality - Inventory operations document
 description: Inventory Movement Report is used to print documents from inventory Journals and Posted Inventory Document Report is used to print posted inventory operations.
 author: v-pejano
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Inventory, Localization, CZ
 ms.date: 11/06/2023

@@ -3,11 +3,13 @@ title: Synchronize items and inventory
 description: Set up and run synchronizations of items between Shopify and Business Central
 ms.date: 11/17/2023
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: 30116, 30117, 30126, 30127, 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # Synchronize Items and Inventory

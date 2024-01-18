@@ -8,7 +8,7 @@ ms.search.form: 9171
 ms.date: 08/25/2023
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 # Customize pages for profiles

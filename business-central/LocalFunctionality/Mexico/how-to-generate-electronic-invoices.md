@@ -5,7 +5,7 @@ description: After you post a sales invoice in the Mexican version, you must gen
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 12/12/2023
 ms.custom: bap-template

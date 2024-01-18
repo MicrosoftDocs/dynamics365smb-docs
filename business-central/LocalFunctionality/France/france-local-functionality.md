@@ -62,8 +62,8 @@ The following articles describe local functionality that is unique to the French
 
 ## Future legislation requirements being investigated
 
-* Electronic invoicing - **planned for 2025 Wave 1**
-* New VAT declaration format in demo data - **planned for 2024 Wave 2**
+* Electronic invoicing - **planned for 2025 release wave 1**
+* New VAT declaration format in demo data - **planned for 2024 release wave 2**
 * Prepayments regulatory update - **planned for 23.5**
 
 

@@ -4,7 +4,7 @@ description: Learn how to use inventory picks to record and post picking and shi
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
 ms.custom: bap-template

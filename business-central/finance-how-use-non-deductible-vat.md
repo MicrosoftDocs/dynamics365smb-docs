@@ -4,7 +4,7 @@ description: This article explains how to use and report non-deductible VAT.
 author: altotovi
 ms.author: altotovi
 ms.reviewer: 
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: VAT, non-deductible, return, settlement
 ms.search.form: 50, 51, 52, 161, 187, 317, 403, 6640, 9401

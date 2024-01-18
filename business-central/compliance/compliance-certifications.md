@@ -1,16 +1,15 @@
 ---
-    title: Certifications of the service
-    description: This content contains information about certifications in relation to Business Central, such as region-specific certifications and accreditations.
-    author: sorenfriisalexandersen
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 01/18/2024
-    ms.author: soalex
-
+title: Certifications of the service
+description: This content contains information about certifications in relation to Business Central, such as region-specific certifications and accreditations.
+author: sorenfriisalexandersen
+ms.topic: conceptual
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords:
+ms.date: 01/18/2024
+ms.author: soalex
 ---
+
 # Certifications
 
 This content contains information about certifications in relation to [!INCLUDE[prod_short](../includes/prod_short.md)].  

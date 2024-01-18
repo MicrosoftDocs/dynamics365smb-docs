@@ -3,7 +3,6 @@ title: United States local functionality
 description: The following articles describe the local functionality in the United States version of Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords:

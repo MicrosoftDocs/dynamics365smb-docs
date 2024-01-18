@@ -2,7 +2,7 @@
 title: Default business posting group in assembly orders [CZ]
 description: This section describes local functionality - Default Business Posting Group in Assembly Orders in the Czech version of Business Central.
 author: v-pejano
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 11/14/2023

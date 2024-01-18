@@ -3,7 +3,7 @@ title: Czech Local Functionality - Inventory Movement Templates
 description: The following topics describe the local functionality Inventory Movement Templates in the Czech version of Business Central.
 author: v-pejano
 
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Inventory, Localization, CZ
 ms.date: 06/17/2021

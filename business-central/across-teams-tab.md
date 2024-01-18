@@ -4,7 +4,7 @@ description: Learn how to add tabs in Teams that display Business Central pages.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 12/12/2023
 ms.custom: bap-template

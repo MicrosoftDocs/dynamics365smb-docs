@@ -3,14 +3,10 @@ title: Managing Report and Document Layouts
 description: Use report layouts to customize documents, for example, to personalize the font, logo, or page settings of PDF files you send to customers.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650, 9660
-ms.date: 05/23/2023
+ms.date: 01/18/2024
 ms.author: jswymer
-
 ---
 # Report and Document Layouts Overview
 

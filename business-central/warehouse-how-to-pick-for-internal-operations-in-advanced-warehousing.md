@@ -1,14 +1,14 @@
 ---
-    title: Pick for Internal Operations in Advanced Warehouse Configurations
-    description: If your locations use picking and shipping, pick components for production, assembly, and job activities on the Warehouse Pick page.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 09/02/2022
-    ms.author: bholtorf
+title: Pick for Internal Operations in Advanced Warehouse Configurations
+description: If your locations use picking and shipping, pick components for production, assembly, and job activities on the Warehouse Pick page.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.search.keywords:
+ms.date: 09/12/2023
+ms.custom: bap-template
+    
 ---
 # Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations
 
@@ -54,6 +54,10 @@ Use **Warehouse Pick** documents to pick job components in the flow to project m
 > The ability to pick components for job planning lines was added to [!INCLUDE[d365fin](includes/d365fin_md.md)] in 2022 release wave 2. To start using the capability, an administrator must turn on **Feature Update: Enable inventory and warehouse pick from Jobs** on the **Feature Management** page.
 >
 > Jobs don't support advanced configurations where the **Directed pick and Put-away** toggle is turned on.
+
+## Check whether items are available for picking
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
 ## To create pick documents in bulk with the pick worksheet
 

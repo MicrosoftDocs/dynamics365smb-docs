@@ -2,14 +2,12 @@
     title: Certifications of the service
     description: This content contains information about certifications in relation to Business Central, such as region-specific certifications and accreditations.
     author: sorenfriisalexandersen
-    
-    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 06/14/2021
+    ms.date: 01/18/2024
     ms.author: soalex
 
 ---
@@ -36,7 +34,7 @@ In some countries or regions, accounting software must be certified to comply wi
 
 Business Central as a cloud service also has achieved certifications, such as ISO 27001 and more. For a complete list of these certifications, see [this page (PDF)](https://aka.ms/d365-compliance-list).
 
-## See Also
+## See also
 
 [Compliance](compliance-overview.md)  
 [Application Compliance](compliance-application-compliance.md)  

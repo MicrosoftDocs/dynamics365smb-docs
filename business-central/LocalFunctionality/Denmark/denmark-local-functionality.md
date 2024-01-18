@@ -1,21 +1,19 @@
 ---
-    title: Denmark Local Functionality
+    title: Denmark local functionality
     description: The following article refers you to linked information that describes local functionality in Denmark.
     author: sorenfriisalexandersen
-
-    
     ms.topic: conceptual
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: Denmark, local, DK, Danish
-    ms.date: 08/25/2023
+    ms.date: 01/18/2024
     ms.author: soalex
 
 ---
-# Denmark Local Functionality
+# Denmark local functionality
 
-The following topics describe the local functionality in the Danish version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
+The following articles describe the local functionality in the Danish version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 ## Feature Availability
 
@@ -60,7 +58,7 @@ The following topics describe the local functionality in the Danish version of [
 
 ## Future legislation requirements being investigated
 
-Currently, there are no additional upcoming regulatory features or requirements, outside of the new Danish bookkeeping act already mentioned in **Feature Availability**. If you are aware of any additional upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+Currently, there are no additional upcoming regulatory features or requirements, outside of the new Danish bookkeeping act already mentioned in [**Feature Availability**](denmark-local-functionality#feature-availability). If you're aware of any additional upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See Also
 

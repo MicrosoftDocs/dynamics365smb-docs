@@ -3,7 +3,7 @@ title: Synchronize customers
 description: Import customers from or export to Shopify 
 ms.date: 06/06/2023
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: 30105, 30106, 30107, 30108, 30109, 
 author: brentholtorf
 ms.author: bholtorf

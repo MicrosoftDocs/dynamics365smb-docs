@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.date: 12/08/2023
 ms.custom: bap-template
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
 ---
 # Analyze list page and query data using data analysis mode

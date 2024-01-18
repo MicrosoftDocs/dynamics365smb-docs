@@ -4,7 +4,7 @@ description: Learn about local functionality for Intrastat, Intrastat Engine Set
 author: ACMartinKunes 
 ms.author: v-makune
 ms.reviewer: v-pejano
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 03/02/2023
 ms.custom: bap-template

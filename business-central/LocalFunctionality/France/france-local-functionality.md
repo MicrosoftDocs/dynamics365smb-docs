@@ -4,7 +4,7 @@ description: This article describes the various local functionalities in the Fre
 author: sorenfriisalexandersen
 ms.author: soalex
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 12/21/2022
 ms.custom: bap-template

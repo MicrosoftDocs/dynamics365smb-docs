@@ -3,12 +3,10 @@ title: Configuring OneDrive integration with Business Central on-premises
 description: Learn about how to set up Business Central on-premises to integrate with OneDrive for Business.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 12/12/2023
 ms.author: jswymer
+ms.service: dynamics-365-op
 ---
 # Configuring OneDrive integration with Business Central on-premises
 

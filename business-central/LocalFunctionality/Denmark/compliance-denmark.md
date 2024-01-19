@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bookkeeping, law, compliance, e-vat, e-document, nemhandel, denmark, dk
 ms.search.form: 
-ms.date: 12/26/2023
+ms.date: 01/18/2024
 ms.author: altotovi
 ---
-
+# Compliance with the bookkeeping act in Denmark 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] (cloud) is registered as a digital bookkeeping system in Denmark.  
 
 > [!IMPORTANT]
@@ -22,7 +22,7 @@ Registration certificate is based on cf. §4 subsection 1 of the executive order
 > [!NOTE]
 > The following document does not provide official documentation in the process of certification with DBA. This is just an explanation that Dynamics 365 Business central complies all requirements and eventually instruction for partners or customers if they want to certify their solution outside of Microsoft.  
 
-# How does Business Central comply?   
+## How does Business Central comply?   
 
 To achieve this registration certificate, [!INCLUDE[prod_short](../../includes/prod_short.md)] had to comply with different requirements by Danish Business Authorities based on the Executive order no. 97.  
 
@@ -71,7 +71,7 @@ Requirement: The digital standard bookkeeping system must support the storage of
 
 How does [!INCLUDE[prod_short](../../includes/prod_short.md)] comply:
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] supports the storage of files as attachments to purchase and sales invoices and any other record of a table that is accessible by users of [!INCLUDE[prod_short](../../includes/prod_short.md)] via user interface. However, to support mandatory attachments for purchase and sales transactions, [!INCLUDE[prod_short](../../includes/prod_short.md)] has an more default set up for digital vouchers, where it requires mandatory attachment for sales and purchase transactions and doesn't allow posting these documents without having attachments. For more automation, sales transactions will automatically create sales documents and attach them to this transaction without user interaction. But the user can add more documents if they want. Read more about [mandatory digital vouchers here](how-to-digital-vouchers-dk.md).  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] supports the storage of files as attachments to purchase and sales invoices and any other record of a table that is accessible by users of [!INCLUDE[prod_short](../../includes/prod_short.md)] via user interface. However, to support mandatory attachments for purchase and sales transactions, [!INCLUDE[prod_short](../../includes/prod_short.md)] has a more default set up for digital vouchers, where it requires mandatory attachment for sales and purchase transactions and doesn't allow posting these documents without having attachments. For more automation, sales transactions will automatically create sales documents and attach them to this transaction without user interaction. But the user can add more documents if they want. Read more about [mandatory digital vouchers here](how-to-digital-vouchers-dk.md).  
 
 ### Annex 1, 4 and 1, 4, a-d   
 
@@ -238,9 +238,9 @@ Requirement: Message about registration in Nemhandelsregistrere and Registration
 
 How does [!INCLUDE[prod_short](../../includes/prod_short.md)] comply:
 
-If the company is not registered with the NemHandelsregisteret, notification about that will appear at the top of screen, together with instructions on how to register. If the company is registered, [!INCLUDE[prod_short](../../includes/prod_short.md)] will check if the CVR number in the Company Information page exists as registered in NemHandelsregisteret, and if it exists, the message will simply not appear, and this company will be marked as ‘registered in NemHandelsregisteret’. 
+If the company isn't registered with the NemHandelsregisteret, notification about that will appear at the top of screen, together with instructions on how to register. If the company is registered, [!INCLUDE[prod_short](../../includes/prod_short.md)] will check if the CVR number in the Company Information page exists as registered in NemHandelsregisteret, and if it exists, the message will not appear, and this company will be marked as ‘registered in NemHandelsregisteret’. 
 
-To start registration, the user needs to click on the Register in NemHandelsregisteret link. Once the user finishes the registration with the NemHandelsregisteret, the notification will disappear. Read more details about [notification and registration for the NemHandelsregisteret in Denmark](how-to-nemhandel-register.md).   
+To start registration, the user needs to select on the Register in NemHandelsregisteret link. Once the user finishes the registration with the NemHandelsregisteret, the notification will disappear. Read more details about [notification and registration for the NemHandelsregisteret in Denmark](how-to-nemhandel-register.md).   
 
 
 ## See Also

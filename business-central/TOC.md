@@ -1842,19 +1842,6 @@
 #### [Report development guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Report performance tuning guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
-# Copilot and AI capabilities
-## Manage Copilot and AI capabilities
-### [Configure Copilot and AI capabilities](enable-ai.md)
-### [Copilot data movement across geographies](ai-copilot-data-movement.md)
-### [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)
-## Bank account reconciliation assist (preview)
-### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
-### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
-## Marketing text suggestions
-### [Marketing text suggestions overview](ai-overview.md)
-### [Create marketing text with Copilot](item-marketing-text.md)
-### [FAQ for marketing text suggestions](faqs-marketing-text.md)
-
 # Security, privacy, and compliance
 ## Security and protection
 ### [Security and protection overview (in English only)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
@@ -2033,6 +2020,18 @@
 ## [Security and protection](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Performance](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Removed or deprecated features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Copilot and AI capabilities
+## Manage Copilot and AI capabilities
+### [Configure Copilot and AI capabilities](enable-ai.md)
+### [Copilot data movement across geographies](ai-copilot-data-movement.md)
+### [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)
+## Bank account reconciliation assist (preview)
+### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
+### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
+## Marketing text suggestions
+### [Marketing text suggestions overview](ai-overview.md)
+### [Create marketing text with Copilot](item-marketing-text.md)
+### [FAQ for marketing text suggestions](faqs-marketing-text.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)

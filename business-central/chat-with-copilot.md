@@ -45,7 +45,7 @@ Chat with Copilot capability is enabled and activated. This task is done by an a
 
 1. In the **Ask a question** box at the bottom ![Shows the icon for chat with Copilot pane with callouts](media/callout-number-2.svg), enter your question, and then select the arrowhead or press <kbd>Enter</kbd> to get an answer.
 
-   The text can be in the form of a question, statement, or command. If you used a prompt, just complete the sentence.
+   The text you enter can be in the form of a question, statement, or command.
 
    > [!TIP]
    > The chat includes a couple features that can help your write questions:

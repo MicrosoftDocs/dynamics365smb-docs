@@ -28,9 +28,9 @@ Chat with Copilot offers the following distinct skills:
 
 ### Explain and guide
 
-Users can ask Chat with Copilot to expain a specific concept releated to Business Central, like dimensions, or provide guidance on how to complete a task, like posting a slaes order. Chat with Copilit search the offical Business Central documentation, published by Micrsoft, and provides an answer based on the documentation.
+Users can ask Chat with Copilot to expain a specific concept related to Business Central, like dimensions, or provide guidance on how to complete a task, like posting a sales order. Chat with Copilot search the official Business Central documentation, published by Microsoft, and provides an answer based on the documentation.
 
-- Chat with Copilot uses Microsoft Learn Knowledge Service (not Bing-powered web search) to semantically search only Dynamics 365 Business Central documentation on Microsoft Learn. 
+- Chat with Copilot uses Microsoft Learn Knowledge Service (not Bing web search) to semantically search only Dynamics 365 Business Central documentation on Microsoft Learn. 
 
 - Chat with Copilot doesn't take action, create new data, or modify any configuration. It simply summarizes an answer grounded in matching documentation snippets.
 
@@ -56,9 +56,7 @@ Chat with Copilot is intended for the
 
 ## What are the limitations of chat with Copilot? How can users minimize the impact of the chat with Copilot limitations when using the system?
 
-
 ## What operational factors and settings allow for effective and responsible use of the feature?
-
 
 ## In which geographies and languages is chat with Copilot available? 
 
@@ -68,24 +66,8 @@ For more information on language, see previous question about limitations.
 
 ## What is expected of end-users when operating chat with Copilot? 
 
-### While using bank account reconciliation 
 
-AI-powered matches and suggestions might sometimes be incorrect or incomplete. Users of bank account reconciliation assist must review the accuracy of matches and suggestions provided by Copilot before choosing to keep them. Copilot’s matches and suggestions aren't saved to the [!INCLUDE[prod_short](includes/prod_short.md)] database until you choose the Keep it button and exiting the Copilot window. You can also edit and correct any matches or suggestions before choosing to keep it. 
-
-### After completing bank account reconciliation 
-
-It's recommended that users also verify accuracy and correct any discrepancies after exiting the Copilot window, including the following activities: 
-
-- Review the reconciliation test report. 
-- Ensure your organization has the appropriate review and audit processes in place. 
-- Reopen any posted reconciliations by using the Undo function. 
-- Correct any erroneous ledger entries through reverse posting of entries. 
-
-## What is expected of administrators and end-users when operating bank account reconciliation assist? 
-
-End-users, such as accountants, treasurers or others working on business accounting should always review the accuracy of matches and suggestions provided by Copilot before choosing to keep them. After reconciling with Copilot, we recommend reviewing the reconciliation test report to verify accuracy and identify any discrepancies. 
-
-Administrators should ensure the appropriate accounting users have been granted access to this capability. 
+## What is expected of administrators and end-users when operating Chat with Copilot? 
 
 ## How do I give feedback about AI-generated content?
 

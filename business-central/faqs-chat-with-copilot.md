@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.search.keywords: copilot, AI, chat 
 ---
-# FAQ for chat (preview) with Copilot
+# FAQ for chat with Copilot (preview)
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 

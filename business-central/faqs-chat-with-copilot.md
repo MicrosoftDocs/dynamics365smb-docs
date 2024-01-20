@@ -18,7 +18,7 @@ These frequently asked questions (FAQ) describe the AI impact of Chat with Copil
 
 ## What is Chat with Copilot?
 
-Chat with Copilot answers questions and finds business data related to Business Central without users having to navigate the user interface or the product documentation. Chat with Copilot pane is available from anywhere in the Business Central client.
+Chat with Copilot answers questions and finds business data related to Business Central, without you having to navigate the user interface or the product documentation. Chat with Copilot pane is available from anywhere in the Business Central client.
 
 Users ask questions in natural language, like "How do I deliver goods to my customers directly from my vendors?" or "Do we have any office chairs in stock for under $600?". In response, chat with Copilot provides answers in natural language. Depending on the questions, answers can include plain text, links to records or pages in Business Central, and links to Business Central help articles on Microsoft Learn.
 

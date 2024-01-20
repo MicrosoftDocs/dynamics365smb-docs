@@ -12,7 +12,7 @@ ms.collection:
   - get-started
 ---
 
-# Use chat with Copilot (preview)
+# Chat with Copilot (preview)
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 

@@ -91,8 +91,17 @@ Microsoft has various systems in place to ensure Copilot capabilities remain ope
 
    Chat with Copilot includes built-in safety mechanisms that prevent the undesirable generation of harmful content, such as sexually explicit content or incitement of violence. Sometimes, customers operate in industries, sell products and services, or work with processes that naturally overlap with what might be considered inappropriate in other contexts, or work with data that might trigger these safeguards. Chat with Copilot might not perform as well in these cases.
 
-## What operational factors and settings allow for effective and responsible use of the feature?
+<!--## What operational factors and settings allow for effective and responsible use of the feature?-->
 
+## What data does Chat with Coplit collect and how is it used
+
+Microsoft does not use your company data, including the text you send to Copilot, to train the foundational models for the benefit of others. Company administrators have full control to govern this data that is part of their Azure subscription. Because administrators or others in your company may have access to this data as determined by your employer, we recommend users do not enter sensitive data such as passwords or other secrets.
+
+Provide tips on how to prompt. For example, be concise and avoid long sentences or multiple sentences, use natural language that you are comfortable with.
+
+## What does Chat with Copilot offer for security
+
+Different customers choose different approaches towards security.  Customers that choose not to apply BC's security model to restrict which tables and objects each user or user role has access to, may be at elevated risk when using Chat in their organization. Chat is designed to be secure and executes under the user's identity, inheriting all security permissions and other restrictions, and never operates outside of Business Central's platform security. This means that Copilot does not get access to any data that the user does not already have access to. However, because Copilot makes it easier to work with BC, SUPER users will be more easily able to get to unsecured data that is typically harder to get to. We advise these considers implement Business Central's security model, or deactivate Chat with Copilot.
 
 ## See also
 

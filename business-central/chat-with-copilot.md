@@ -5,11 +5,11 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to 
-ms.collection: get-started
 ms.date: 10/25/2023
 ms.custom: bap-template 
 ms.collection:
   - bap-ai-copilot
+  - get-started
 ---
 
 # Use chat with Copilot (preview)

@@ -2030,7 +2030,7 @@
 ### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## Chat with Copilot (preview)
 ## [Chat with Copilot](chat-with-copilot.md)
-## [FAQ for chat with Copilot (preview)](faqs-chat-woth-copilot.md)
+## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)

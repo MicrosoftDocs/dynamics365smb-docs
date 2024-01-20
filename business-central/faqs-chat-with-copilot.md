@@ -28,7 +28,7 @@ Chat with Copilot offers the following distinct skills:
 
 ### Explain and guide
 
-Users can ask Chat with Copilot to expain a specific concept related to Business Central, like dimensions, or provide guidance on how to complete a task, like posting a sales order. Chat with Copilot search the official Business Central documentation, published by Microsoft, and provides an answer based on the documentation.
+Users can ask Chat with Copilot to expain a specific concept related to Business Central, like what are dimensions, or provide guidance on how to complete a task, like how to post a sales order. Chat with Copilot searches the official Business Central documentation published by Microsoft, and provides an answer based on the documentation.
 
 - Chat with Copilot uses Microsoft Learn Knowledge Service (not Bing web search) to semantically search only Dynamics 365 Business Central documentation on Microsoft Learn. 
 

@@ -67,7 +67,7 @@ The current chat is also cleared if you close or sign out of Business Central.
 
 This section provides ways you can help improve the answers you get from chat.
 
-- Ask clear and specific questions as much as possible,
+- Ask clear and specific questions
 - Use natural language, expressing the questions in a friendly and conversational manner
 - Choose phrases and terms that you know are used in Business Central, either in the software or documentation.
 - If the initial response doesn't fully answer your questions, as follow up questions or rephrase the last question.

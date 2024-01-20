@@ -27,7 +27,7 @@ Chat with copilot is an AI-powered tool that answers questions and finds busines
 
   The answers that provide an explanation or guidance are based solely on the official Dynamics 365 Business Central documentation, which is available on Microsoft Learn at [Dynamics 365 Business Central documentation](/dynamics365/business-central/).
 
-CChat with Copilot circumvents the need to navigate the user interface or product help, which can save time and increase productivity.
+Chat with Copilot circumvents the need to navigate the user interface or product help, which can save time and increase productivity.
   
 > [What video](https://go.microsoft.com/fwlink/?linkid=2250609)
 

@@ -17,8 +17,14 @@ ms.custom: bap-template
 Organizations that use [!INCLUDE[prod_long](includes/prod_long.md)] can get technical support for any issues that they may experience. In this article, we show you the following information and many other tips for how to use [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Learn how to [get unblocked](#in-product-tips)  
-- Learn where to [learn more](#help-pane)    
-- Learn how to find [the technical information](#help--support-page) you need to submit a support request    
+- Learn where to [learn more](#help-pane)
+- Learn how to find [the technical information](#help--support-page) you need to submit a support request
+
+## Chat with Copilot
+
+> **APPLIES TO:** Business Central 2023 release wave 2 (23.4) and later
+
+Chat with copilot is an AI-powered tool that answers questions and finds business data related to Business Central. It's available from any page by selecting the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon in the upper-right corner. [Learn more abput chate with Copilot](chat-with-copilot.md).
 
 ## In-product tips
 

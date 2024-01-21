@@ -71,17 +71,15 @@ The chat is also cleared if you close or sign out of Business Central.
 This section provides ways you can help improve the answers you get from chat.
 
 - Ask clear and specific questions
+- Be concise and avoid long sentences or multiple sentences
 - Use natural language, expressing the questions in a friendly and conversational manner
 - Choose phrases and terms that you know are used in Business Central, either in the software or documentation.
 - If the initial response doesn't fully answer your questions, as follow up questions or rephrase the last question.
-- If you're asking a question on a different subject matter, clear the current chat session to start over. As previously mentioned, chat remembers the content of the questions you're asking, which influences the answers you get.
+- If you're asking a question on a different subject matter than previous question, clear the current chat session to start over.
 
 ## Provide feedback
 
 To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.
-
-
-
 
 <!--
 1. If you want help getting you're question started, select the prompts either from the **Find**, **Explain**, or **Guide** buttons at the top of the Coplit pane or use the **View Prompts** menu above **Ask a question** box at the bottom.

@@ -96,8 +96,6 @@ Users have the opportunity to provide feedback to report inappropriate content a
 
 Microsoft doesn't use your company data, including the text you send to Copilot, to train the foundational models for the benefit of others. Company administrators have full control to govern this data that is part of their Azure subscription. Because administrators or others in your company might have access to this data as determined by your employer, we recommend users don't enter sensitive data such as passwords or other secrets.
 
-Provide tips on how to prompt. For example, be concise and avoid long sentences or multiple sentences, use natural language that you're comfortable with.
-
 ## What does Chat with Copilot offer for security
 
 Chat with Copilot is designed to be secure and executes under the user's identity, inheriting all security permissions and other restrictions and never operating outside of Business Central's platform security. This means that Copilot can only access data that the user has access to. For users that have SUPER permission, chat can more easily locate unsecured data that's typically harder to get to for other users.

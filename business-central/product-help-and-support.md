@@ -22,7 +22,7 @@ Organizations that use [!INCLUDE[prod_long](includes/prod_long.md)] can get tech
 
 ## Chat with Copilot
 
-> **APPLIES TO:** Business Central 2023 release wave 2 (23.4) and later
+[!INCLUDE [online_only](includes/online_only.md)]
 
 Chat with copilot is an AI-powered tool that answers questions and finds business data related to Business Central. It's available from any page by selecting the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon in the upper-right corner. [Learn more about chat with Copilot](chat-with-copilot.md).
 

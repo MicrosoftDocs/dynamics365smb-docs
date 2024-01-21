@@ -48,22 +48,23 @@ Chat with Copilot capability is enabled and activated. This task is done by an a
    The text you enter can be in the form of a question, statement, or command.
 
    > [!TIP]
-   > The chat includes a couple features that can help your write questions:
+   > Copilot includes a couple features that can help your write questions:
    > - To get started on formulating a question, select one of the prompts&mdash;**Find**, **Explain**, or **Guide**&mdash;by using the buttons at the top of the pane ![Shows callout number 3](media/callout-number-3.svg) or the **View Prompts** button above **Ask a question** box ![Shows callout number 3](media/callout-number-4.svg). Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.
    > - Select the sample questions above the View prompts button ![Shows callout number 5](media/callout-number-5.svg) to automatically ask a predefined question to get insight into how the questions and answers work.  
 
 1. Review the answers displayed in the Copilot pane ![Shows callout number 6](media/callout-number-6.svg).
 
    Depending on your question, the answer can contain text, links to records or pages in Business Central, and links to Business Central help articles on Microsoft Learn.
+
 1. Ask another question to refine the answer.
 
    Chat remembers the context, which means that you don't have to repeat key points from the original question.
 
 ## Clear chat to start over
 
-If you want clear the questions and results of the current chat and start over, select the **Start a new Copilot chat session** icon at the bottom of the Copilot pane above the question box.
+If you want clear the questions and answers of the current chat and start over, select the **Start a new Copilot chat session** icon at the bottom of the Copilot pane above the question box.
 
-The current chat is also cleared if you close or sign out of Business Central.
+The chat is also cleared if you close or sign out of Business Central.
 
 ## Get the most out of your questions
 

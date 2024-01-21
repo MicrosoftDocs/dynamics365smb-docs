@@ -55,7 +55,7 @@ Chat with Copilot capability is enabled and activated. This task is done by an a
 1. Review the answers displayed in the Copilot pane ![Shows callout number 6](media/callout-number-6.svg).
 
    Depending on your question, the answer can contain text, links to records or pages in Business Central, and links to Business Central help articles on Microsoft Learn.
-1. Ask any question to refine the answer.
+1. Ask another question to refine the answer.
 
    Chat remembers the context, which means that you don't have to repeat key points from the original question.
 

@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.search.keywords: copilot, AI, chat 
 ---
-# FAQ for chat with Copilot (preview)
+# FAQ for Chat with Copilot (preview)
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
@@ -22,7 +22,7 @@ Chat with Copilot is an interactive feature that answers questions and finds bus
 
 Users ask questions in natural language, like "How do I deliver goods to my customers directly from my vendors?" or "Do we have any office chairs in stock for under $600?". In response, chat with Copilot provides answers in natural language. Depending on the questions, answers can include plain text, links to records or pages in Business Central, and links to Business Central help articles on Microsoft Learn.
 
-## What are capabilities of chat with Copilot?
+## What are capabilities of Chat with Copilot?
 
 Chat with Copilot offers the following distinct skills:
 
@@ -44,14 +44,14 @@ Users can ask questions about specific records/entities within the company in Bu
 
 - Copilot doesn't take action, create new data, or modify any configuration. It only summarizes the records received from the Business Central native data search. 
 
-## What is the intended use of chat with Copilot?
+## What is the intended use of Chat with Copilot?
 
 Copilot has two intended uses:
 
 - Answer users' inquiries to explain a concept or provide instructions on how to accomplish some task in Business Central. 
 - Answer users inquiries to navigate to a specific Business Central page, or find one or more business records stored in the companies database and let the user choose to navigate them.
 
-## How was chat with Copilot? What metrics are used to measure performance?
+## How was Chat with Copilot evaluated? What metrics are used to measure performance?
 
 - The feature underwent extensive testing where numerous texts in different languages were evaluated by language experts against various criteria. Testing was based on [!INCLUDE[prod_short](includes/prod_short.md)]'s demonstration data and other fictitious product catalogs.
 - This feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft](https://aka.ms/RAI).

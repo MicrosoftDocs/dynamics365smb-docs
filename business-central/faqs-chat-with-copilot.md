@@ -60,15 +60,15 @@ Copilot has two intended uses:
 
 Microsoft has various systems in place to ensure Copilot capabilities remain operational and generate content of the highest quality.
 
-- Users have the opportunity to provide feedback to report inappropriate content and improve the functionality.
+Users have the opportunity to provide feedback to report inappropriate content and improve the functionality.
 
-  - If you encounter inappropriate generated content, report it to Microsoft by using this feedback form: [Report abuse](https://go.microsoft.com/fwlink/?linkid=2249810). 
+- If you encounter inappropriate generated content, report it to Microsoft by using this feedback form: [Report abuse](https://go.microsoft.com/fwlink/?linkid=2249810). 
 
-    Microsoft might disable the Copilot-driven features for selected customers if abuse of the functionality is detected.
+  Microsoft might disable the Copilot-driven features for selected customers if abuse of the functionality is detected.
 
-  - We track user feedback on the feature to help us improve suggestions.
+- We track user feedback on the feature to help us improve suggestions.
 
-    You provide feedback by using the like (thumbs up) or dislike (thumbs down) icon on the **Copilot** pane in [!INCLUDE[prod_short](includes/prod_short.md)].
+  You provide feedback by using the like (thumbs up) or dislike (thumbs down) icon on the **Copilot** pane in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## What are the limitations of Chat with Copilot? How can users minimize the impact of the Chat with Copilot limitations when using the system?
 

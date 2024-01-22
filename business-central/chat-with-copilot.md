@@ -20,7 +20,7 @@ This article explains how to use chat with Copilot to get answers about your com
 
 ## About chat with Copilot
 
-Chat with copilot is an AI-powered tool that answers questions and finds business data related to Business Central. By expressing what you're looking for in natural language, you can use the chat with Copilot feature to: 
+Chat with Copilot is an AI-powered tool that answers questions and finds business data related to Business Central. By expressing what you're looking for in natural language, you can use the chat with Copilot feature to: 
 
 - Find business data for the company you're working with in Business Central. Use chat to look up (and open) data about entities/records related to business processes, such as customers, vendors, sales orders, and items, and more. For example, ask Copilot: "Show me the latest sales order for Adatum." or "How many sales invoices have been posted this year."
 - Explain a concept or get guidance on how to accomplish a task. For example, ask "Help me understand dimensions" or "How to I post a sales order".
@@ -74,7 +74,7 @@ This section provides ways you can improve the answers you get from Copilot.
 - Be concise and avoid long sentences or multiple sentences
 - Use natural language, expressing the questions in a friendly and conversational manner
 - Choose phrases and terms that you know are used in Business Central, either in the software or documentation.
-- If the initial response doesn't fully answer your questions, as follow up questions or rephrase the last question.
+- If the initial response doesn't fully answer your questions, ask follow up questions or rephrase the last question.
 - If you're asking a question on a different subject matter than previous question, clear the current chat session to start over.
 
 ## Provide feedback

@@ -70,8 +70,7 @@ You can also explore [Experts Marketplace](https://experts.shopify.com/) to find
 ## Currently unsupported features, however, we're tracking them and may consider adding them
 
 - B2B features, including companies, company price lists, and payment terms
-  - It is currently possible to import orders created via B2B. If you have multiple buyers linked to company, you should not enable automatic creation of customers, but link each Shopify buyer to a respective customer manually.
-  - You will need to maintain company price lists in Shopify.
+  - The extended support of B2B will become available in 2024 Wave 1. For more informaiton, see [Connect Business Central with Shopify B2B](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b)
 - Markets
   - Multiple translations of master data. You can choose one language that will be used for product information export.
   - Prices per country/region. One price list is available for the selected currency. Shopify handles the conversion to other currencies.
@@ -84,6 +83,16 @@ Yes, the Shopify connector is extensible. Check GitHub to access the [list of ex
 ## Is the Shopify connector open for contribution
 
 Yes, this extension is open for contributions from our community. You can find the [source code](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) in the Microsoft AL application add-ons repository.
+
+## Building your version of Shopify Connector
+
+Accordingly to Shopify, if you want to build and publish listing on Shopify market place a connector app, that have the primary purpose of transferring or sharing merchant data to a third party ([!INCLUDE [prod_short](../includes/prod_short.md)]), you will be required to have written consent from Shopify, as part of this process you will be required to get consent from Microsoft in the "End Recipient Data Acknowledgement Form", we need to ask you to handle the matter with Shopify as Microsoft cannot sign 3rd party agreements.
+
+### What to do:
+Check Shopify requirements, as you still might be able to have unlisted app.
+
+Alternatively, the Shopify Connector for Business Central constantly gets new features and new customers. If you discovered specific gap, please either consider submitting a product suggestion (https://aka.ms/bcideas) or code contribution to Business Central. For requirements that might not be relevant for majority of customers, that cannot be easily addressed by the current extensibility model, please reach out and discuss the use case with the Business Central Development team. We should be able to find a feasible solution.
+
 
 ## See Also
 

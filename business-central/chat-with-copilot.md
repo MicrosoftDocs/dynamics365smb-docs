@@ -1,6 +1,6 @@
 ---
-title: Reconcile bank accounts using reconciliation assist
-description: Learn about how to use Copilot to reconcile bank accounts in Business Central.
+title: Chat with Copilot (preview)
+description: Learn about how to use chat with Copilot to find data and get help in Business Central.
 author: jswymer 
 ms.author: jswymer
 ms.reviewer: jswymer

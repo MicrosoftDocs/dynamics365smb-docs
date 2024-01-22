@@ -68,7 +68,7 @@ The chat is also cleared if you close or sign out of Business Central.
 
 ## Get the most out of your questions
 
-This section provides ways you can help improve the answers you get from chat.
+This section provides ways you can improve the answers you get from Copilot.
 
 - Ask clear and specific questions
 - Be concise and avoid long sentences or multiple sentences

@@ -2030,8 +2030,8 @@
 ### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 ### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## Chat with Copilot (preview)
-### [Use chat with Copilot](chat-with-copilot.md)
-### [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
+### [Chat with Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+### [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)

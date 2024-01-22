@@ -35,7 +35,7 @@ Chat with Copilot circumvents the need to navigate the user interface or product
 
 Chat with Copilot capability is enabled and activated. This task is done by an administrator. [Learn more about enabling Copilot and AI capabilities](enable-ai.md).
 
-## Get started using chat with copilot
+## Get started using chat with Copilot
 
 1. In the upper right of the screen, select the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon ![Shows the icon for chat with Copilot pane with callouts](media/callout-number-1.svg).
 

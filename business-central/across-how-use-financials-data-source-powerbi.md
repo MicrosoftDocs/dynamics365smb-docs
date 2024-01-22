@@ -1,5 +1,5 @@
 ---
-title: Building Reports in Power BI Desktop to Display Business Central Data (online) | Microsoft Docs
+title: Building Reports in Power BI Desktop to Display Business Central Data| Microsoft Docs
 description: Make your data available as a data source in Power BI and build powerful reports of the state of your business.
 author: jswymer
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.date: 01/22/2024
 ms.author: jswymer
 ---
 
-# Building Power BI reports to display [!INCLUDE [prod_long](includes/prod_long.md)] data (online)
+# Building Power BI reports to display [!INCLUDE [prod_long](includes/prod_long.md)] data
 
 You can make your [!INCLUDE[prod_long](includes/prod_long.md)] data available as a data source in Power BI Desktop and build powerful reports of the state of your business.
 
@@ -89,7 +89,8 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
 
           This folder lists pages, codeunits, and queries that are published as web services in Business Central.
 
-    <!-->> [!NOTE]
+    <!--
+    > [!NOTE]
     > The structure for Business Central on-premises is different because it doesn't support API pages.-->
 
 7. Select the data source or sources that you want to add to your data model, and then select the **Load** button.

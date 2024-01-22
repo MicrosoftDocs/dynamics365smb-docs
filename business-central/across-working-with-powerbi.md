@@ -140,7 +140,8 @@ Power BI Reports can be distributed among users as .pbix files. If you have a .p
 
 For more information, see [Upload the report to the service](/power-bi/paginated-reports/paginated-reports-quickstart-aw#upload-the-report-to-the-service).
 
-><!--> [!NOTE]
+<!--
+> [!NOTE]
 > Uploading a report requires that you have a [Premium capacity](/power-bi/service-premium-what-is) work space. For more information, see [Managing Premium capacities](/power-bi/admin/service-premium-capacity-manage). -->
 
 > [!TIP]

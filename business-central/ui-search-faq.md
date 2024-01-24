@@ -3,7 +3,7 @@ title: Frequently Asked Questions about Tell Me
 description: This article provides answers to questions that our partners and customers often ask about the Tell Me feature.
 author: brentholtorf
 ms.topic: conceptual
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.keywords: find, search, Tell Me
 ms.search.form: TellMe
 ms.date: 09/21/2023

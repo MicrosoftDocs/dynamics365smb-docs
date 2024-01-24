@@ -2,7 +2,7 @@
 title: Finance - Czech local functionality
 description: This section describes Czech local functionality for finance and the features you can use to track and manage your finances.
 author: v-pejano
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Finance, Posting
 ms.date: 08/26/2022

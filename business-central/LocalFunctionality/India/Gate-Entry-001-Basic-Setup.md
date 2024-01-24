@@ -1,19 +1,16 @@
 ---
-    title: Setting up Gate Entry Tracking
+    title: Setting up Gate Entry tracking
     description: Specifies Basic Setups required to keep track of entrance and exit of materials or other entities, to and from the organization’s premises.
-
     author: v-debapd
-
-    
     ms.topic: article
     ms.devlang: na
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
+    ms.date: 12/12/2023
     ms.author: bholtorf
-
 ---
+
 # Setting up Gate Entry Tracking
 
 A process in any organization, used to keep track of entrance and exit of materials or other entities, to and from the organization’s premises, is termed as Gate Entry.
@@ -67,7 +64,7 @@ The **"Gate Entry"** system provides a physical control over the goods, which ar
 
 
 
-## See Also 
+## See also 
 [Gate Entry Inward Transaction](Gate-Entry-Inward_Transactions.md)
 
 

@@ -4,7 +4,7 @@ description: Learn how to manage user profiles and Role Centers in Business Cent
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 01/11/2023
 ms.custom: bap-template

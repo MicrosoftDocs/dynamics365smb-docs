@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 11/29/2023
 ms.author: bholtorf
 ---
 > [!NOTE]
@@ -16,7 +16,7 @@ The **Deposit** report displays customer and vendor deposits with the original d
 
 Bank deposit lines contain information about the individual deposited items, such as checks from customers. This information includes the document date and number, account type and number, and amount. The total of the amounts on the lines must add up to the total amount of the deposit.
 
-After you have filled in the deposit information and lines, you must post it in order to update the relevant ledgers, such as the bank ledger, general ledger, or customer ledger. Posted deposits are stored for future reference and can be viewed on the **Posted Deposits** page.
+After you fill in the deposit information and lines, you must post it in order to update the relevant ledgers, such as the bank ledger, general ledger, or customer ledger. Posted deposits are stored for future reference and can be viewed on the **Posted Deposits** page.
 
 ## To create a deposit  
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Deposits**, and then choose the related link.  
@@ -35,7 +35,7 @@ After you have filled in the deposit information and lines, you must post it in 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
     |**Account Type**|The account type.|  
-    |**Account No.**|The unique identification account number that is associated with the selected account type, to which the entry will be posted.|  
+    |**Account No.**|The unique identification account number that is associated with the selected account type, to which the entry is posted.|  
     |**Description**|The journal line entry description.|  
     |**Document Date**|The journal line entry document date.|  
     |**Document Type**|The journal line entry document type.|  

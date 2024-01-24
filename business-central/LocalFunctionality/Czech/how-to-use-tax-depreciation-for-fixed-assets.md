@@ -2,7 +2,7 @@
 title: Czech local functionality - Tax depreciation for fixed assets | Microsoft Docs
 description: The Fixed Assets Tax Depreciation feature calculates and posts tax depreciation in compliance with the Income Tax Act.
 author: v-pejano
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
 ms.date: 11/07/2023

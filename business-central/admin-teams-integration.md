@@ -8,7 +8,7 @@ ms.date: 02/03/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.custom: bap-template
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ---
 
 # Managing Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]

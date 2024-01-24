@@ -4,10 +4,10 @@ description: The complete list of keyboard shortcut combinations to work efficie
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 11/13/2023
+ms.date: 12/14/2023
 ms.author: jswymer
 ms.review: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
@@ -46,7 +46,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |--------------------------------|----------|
 |<kbd>Alt</kbd>|Show access keys for selecting actions in the action bar and navigation menu on the page. For more information, go to [Access keys](#access-keys-for-action-bar-and-navigation-menu).|
 |<kbd>Alt</kbd>+<kbd>Down Arrow</kbd>|Open a drop-down list or look up a value for a field.|
-|<kbd>Ctrl</kbd>+<kbd>Option</kbd><kbd>Down Arrow</kbd>|Open a related record's card or list page filtered to the value in the lookup or assist edit field.|
+|<kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>Down Arrow</kbd>|Open a related record's card or list page filtered to the value in the lookup or assist edit field.|
 |<kbd>Alt</kbd>+<kbd>Up Arrow</kbd>|Show tooltip for a field or a column header of a table. If the field has validation errors, select <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> to show the validation error. Select <kbd>Esc</kbd> or <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> to close the tooltip.|
 |<kbd>F2</kbd>|Toggle between selecting the entire field value or placing the cursor at the end of the field value.|
 |<kbd>Alt</kbd>+<kbd>F2</kbd>|Show and hide the FactBox pane.|

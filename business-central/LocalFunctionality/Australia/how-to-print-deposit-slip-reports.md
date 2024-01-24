@@ -7,9 +7,8 @@
     ms.tgt_pltfrm: na
     ms.workload: na
     ms.search.keywords:
-    ms.date: 11/24/2023
+    ms.date: 11/29/2023
     ms.author: bholtorf
-
 ---
 # Print deposit slip reports in the Australian version
 

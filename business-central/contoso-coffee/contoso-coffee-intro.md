@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.date: 09/20/2023
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: 5194,
 ms.custom: bap-template
 
@@ -18,7 +18,7 @@ Contoso Coffee is a fictitious company that produces consumer and commercial cof
 
 ## Set up Contoso Coffee data
 
-[!INCLUDE [contoso-coffee-app-install](contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../includes/contoso-coffee-app-install.md)]
 
 When the apps are installed, on the **Contoso Demo Tool** page, use the **Configure** action to prepare the following modules. You can choose to install all available data, which includes set up and production data, or setup data only.
 

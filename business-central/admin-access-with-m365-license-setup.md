@@ -4,7 +4,7 @@ description: A guide to how administrators can configure access to Business Cent
 author: mikebc
 ms.author: mikebc 
 ms.reviewer: jswymer 
-ms.service: dynamics365-business-central 
+ms.service: dynamics-365-business-central 
 ms.topic: how-to
 ms.date: 09/28/2023
 ms.custom: bap-template

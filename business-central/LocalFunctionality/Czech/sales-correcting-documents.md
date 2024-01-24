@@ -2,7 +2,7 @@
 title: Czech local functionality - Sales correcting documents [CZ] 
 description: This section describes local functionality for Sales correcting documents in the Czech version.
 author: v-makune
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Payables, Localization, CZ
 ms.date: 11/09/2023

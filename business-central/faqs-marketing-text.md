@@ -8,6 +8,8 @@ ms.topic: article
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # FAQ for marketing text suggestions with Copilot

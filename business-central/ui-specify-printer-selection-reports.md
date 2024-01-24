@@ -4,7 +4,7 @@ description: Learn about the different ways to set up printers to be used by def
 author: jswymer
 ms.topic: how-to
 ms.reviewer: na
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900, 

@@ -1,7 +1,7 @@
 ---
 title: FAQ for technical details
 description: Implementation details related to the Shopify connector.
-ms.date: 03/27/2023
+ms.date: 01/24/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 author: brentholtorf
@@ -70,7 +70,7 @@ You can also explore [Experts Marketplace](https://experts.shopify.com/) to find
 ## Currently unsupported features, however, we're tracking them and may consider adding them
 
 - B2B features, including companies, company price lists, and payment terms
-  - The extended support of B2B will become available in 2024 Wave 1. For more informaiton, see [Connect Business Central with Shopify B2B](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b)
+  - Extended support of B2B will be available in 2024 release wave 1. For more information, see [Connect Business Central with Shopify B2B](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b)
 - Markets
   - Multiple translations of master data. You can choose one language that will be used for product information export.
   - Prices per country/region. One price list is available for the selected currency. Shopify handles the conversion to other currencies.
@@ -86,13 +86,13 @@ Yes, this extension is open for contributions from our community. You can find t
 
 ## Building your version of Shopify Connector
 
-Accordingly to Shopify, if you want to build and publish listing on Shopify market place a connector app, that have the primary purpose of transferring or sharing merchant data to a third party ([!INCLUDE [prod_short](../includes/prod_short.md)]), you will be required to have written consent from Shopify, as part of this process you will be required to get consent from Microsoft in the "End Recipient Data Acknowledgement Form", we need to ask you to handle the matter with Shopify as Microsoft cannot sign 3rd party agreements.
+According to Shopify, if you want to build and publish a connector app on Shopify marketplace that has the primary purpose of transferring or sharing merchant data to a third party ([!INCLUDE [prod_short](../includes/prod_short.md)]), you must have written consent from Shopify. As part of this process, you must get consent from Microsoft in the "End Recipient Data Acknowledgement Form". We need to ask you to handle the matter with Shopify because Microsoft can't sign 3rd party agreements.
 
-### What to do:
-Check Shopify requirements, as you still might be able to have unlisted app.
+### What to do
 
-Alternatively, the Shopify Connector for Business Central constantly gets new features and new customers. If you discovered specific gap, please either consider submitting a product suggestion (https://aka.ms/bcideas) or code contribution to Business Central. For requirements that might not be relevant for majority of customers, that cannot be easily addressed by the current extensibility model, please reach out and discuss the use case with the Business Central Development team. We should be able to find a feasible solution.
+Check the Shopify requirements because you still might be able to have an unlisted app.
 
+Alternatively, the Shopify Connector for [!INCLUDE [prod_short](../includes/prod_short.md)] constantly gets new features and new customers. If you discover a specific gap, please consider submitting a product suggestion (https://aka.ms/bcideas) or a code contribution to [!INCLUDE [prod_short](../includes/prod_short.md)]. For requirements that might not be relevant for a majority of customers, and can't be easily addressed by the current extensibility model, please reach out to the [!INCLUDE [prod_short](../includes/prod_short.md)] development team to discuss the use case. We should be able to find a feasible solution.
 
 ## See Also
 

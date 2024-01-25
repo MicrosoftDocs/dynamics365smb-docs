@@ -10,6 +10,7 @@
     ms.date: 06/23/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 
 # Set Up Standard Service Codes

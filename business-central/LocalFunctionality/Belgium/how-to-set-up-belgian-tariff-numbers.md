@@ -10,6 +10,7 @@ ms.search.form: 310
 ms.date: 06/17/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up Belgian Tariff Numbers in the Belgian Version
 

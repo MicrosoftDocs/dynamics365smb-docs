@@ -10,6 +10,7 @@
     ms.search.form: 3010531, 3010532
     ms.date: 06/21/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Import ESR Payments in the Swiss Version
 After you receive payment from a customer, you receive a file that contains information about paid invoices. You can receive this file from your bank electronically, or by mail.  

@@ -10,6 +10,7 @@ ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up Contacts
 When creating contacts, you can enter specific information, such as the industry that the contact belong to and your business relationship with the contacts.

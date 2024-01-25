@@ -10,6 +10,7 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 06/23/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Correct or Cancel Unpaid Sales Invoices
 

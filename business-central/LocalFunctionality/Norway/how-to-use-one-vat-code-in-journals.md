@@ -10,6 +10,7 @@ ms.search.keywords:
 ms.search.form: 10602, 10697, 10698, 10604
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Use One VAT Code in Journals in Norway
 

@@ -10,6 +10,7 @@
     ms.date: 11/22/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Modify planning suggestions in a graphical view
 

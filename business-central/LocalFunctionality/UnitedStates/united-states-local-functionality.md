@@ -9,6 +9,7 @@ ms.search.keywords:
 ms.search.form: 315, 466, 467, 468, 469
 ms.date: 01/18/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # United States local functionality
 

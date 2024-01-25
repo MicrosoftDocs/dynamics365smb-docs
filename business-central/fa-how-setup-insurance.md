@@ -11,6 +11,7 @@ ms.search.form: 5607, 5648, 5644, 5651
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up Fixed Asset Insurance
 

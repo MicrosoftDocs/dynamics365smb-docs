@@ -11,6 +11,7 @@ ms.search.form: 11016, 11017, 11019, 11025, 11026, 11027, 11028
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # VAT Reporting in the German version
 

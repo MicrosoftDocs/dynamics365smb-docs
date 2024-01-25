@@ -10,6 +10,7 @@ ms.search.keywords:
 ms.search.form: 26100
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Export and Print Intrastat Reports
 

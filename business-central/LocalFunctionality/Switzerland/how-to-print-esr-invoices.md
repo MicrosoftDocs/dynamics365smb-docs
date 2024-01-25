@@ -10,6 +10,7 @@
     ms.search.form: 3010531, 3010532
     ms.date: 12/08/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Print ESR invoices in the Swiss version
 

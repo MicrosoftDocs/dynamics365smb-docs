@@ -11,6 +11,7 @@
     ms.search.keywords:
     ms.date: 11/21/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Receivables Cartera module in the Spanish version
 The Receivables Cartera module allows you to manage bills generated from sales invoices. The documents are managed using:  

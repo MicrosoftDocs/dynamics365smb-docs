@@ -11,6 +11,7 @@ ms.search.form: 5610, 5611
 ms.date: 06/18/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Calculate Accelerated Depreciation in the French Version
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you calculate periodic depreciation for fixed assets by using the **Calculate Depreciation** batch job. The fixed asset depreciation book that is linked to the fixed asset defines the depreciation method, the starting date for depreciation, and the fixed asset posting group that is used in the batch job.  

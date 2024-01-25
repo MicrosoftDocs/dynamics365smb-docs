@@ -11,6 +11,7 @@ ms.search.form: 201,206, 207, 271, 493
 ms.date: 03/08/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Use Resources for Jobs
 

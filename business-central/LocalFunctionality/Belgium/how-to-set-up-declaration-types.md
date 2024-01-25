@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 11/28/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Set up declaration types in the Belgian version
 

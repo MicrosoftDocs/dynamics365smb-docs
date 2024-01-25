@@ -10,6 +10,7 @@
     ms.date: 06/25/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Set Up Unrealized Sales Tax and Sales Payment Discounts in the Canadian Version
 

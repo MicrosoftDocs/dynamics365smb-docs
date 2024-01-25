@@ -11,6 +11,7 @@ ms.search.form: 431, 432, 436, 478
 ms.date: 02/09/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up Reminder Terms and Levels
 

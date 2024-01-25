@@ -11,6 +11,7 @@ ms. search.keywords: cloud, migrate, insights
 ms.search.form: 4010
 ms.date: 04/12/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Intelligent Insights in [!INCLUDE[prod_short](includes/prod_short.md)] Online

@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 11/23/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Swiss inventory management
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includes Swiss enhancements to inventory management. This includes the following:  

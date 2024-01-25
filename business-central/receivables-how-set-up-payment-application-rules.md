@@ -11,6 +11,7 @@ ms.search.form: 1290, 1294, 1287
 ms.date: 06/25/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up Rules for Automatic Application of Payments
 

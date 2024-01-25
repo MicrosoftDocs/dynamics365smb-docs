@@ -11,6 +11,7 @@ ms.search.form: 5642, 5625
 ms.date: 06/15/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Maintain Fixed Assets
 

@@ -10,6 +10,7 @@
     ms.date: 06/08/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Design Details: Cost Components
 Cost components are different types of costs that make up the value of an inventory increase or decrease.  

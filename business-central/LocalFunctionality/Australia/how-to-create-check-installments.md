@@ -11,6 +11,7 @@
     ms.date: 11/24/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Create check installments in the Australian version
 

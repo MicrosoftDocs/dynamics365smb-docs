@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.form: 100
 ms.date: 08/25/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Work with Accounting Periods and Fiscal Years
 

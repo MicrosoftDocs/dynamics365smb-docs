@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.form: 
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Set Up Reverse Charge VAT in the British Version
 

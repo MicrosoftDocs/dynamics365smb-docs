@@ -11,6 +11,7 @@ ms.search.forms: 729
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Copy Existing Items to Create New Items
 

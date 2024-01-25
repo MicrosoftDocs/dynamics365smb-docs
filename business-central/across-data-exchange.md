@@ -9,6 +9,7 @@
     ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
     ms.date: 06/10/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 
 # Exchanging Data Electronically

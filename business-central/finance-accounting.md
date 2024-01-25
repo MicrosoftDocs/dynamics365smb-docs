@@ -9,6 +9,7 @@ ms.date: 10/19/2023
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]
 

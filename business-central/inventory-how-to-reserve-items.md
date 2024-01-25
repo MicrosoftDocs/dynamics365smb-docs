@@ -10,6 +10,7 @@ ms.search.forms: 498, 497
 ms.date: 09/19/2023
 ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # Reserve Items
 

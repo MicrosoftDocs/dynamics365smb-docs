@@ -10,6 +10,7 @@
     ms.date: 06/23/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Set Up Shipping Agents
 You can set up a code for each of your shipping agents and enter information about them.  

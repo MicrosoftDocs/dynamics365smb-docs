@@ -9,6 +9,7 @@
     ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
     ms.date: 12/13/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Create bins
 

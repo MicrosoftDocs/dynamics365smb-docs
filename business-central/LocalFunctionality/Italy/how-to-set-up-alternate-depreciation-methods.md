@@ -12,6 +12,7 @@
     ms.date: 11/21/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Set up alternate depreciation methods
 Alternate depreciation methods include the following:  

@@ -10,6 +10,7 @@
     ms.search.form: 5005279, 5005280, 5005281, 5005282, 5005283
     ms.date: 04/01/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Set Up Delivery Reminder Terms, Levels, and Text in the German Version
 

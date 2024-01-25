@@ -11,6 +11,7 @@ ms.search.form: 50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310
 ms.date: 12/19/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Record Purchases with Purchase Invoices and Orders
 

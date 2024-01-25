@@ -7,6 +7,7 @@ ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.date: 12/12/2023
+ms.service: dynamics-365-business-central
 ---
 
 # Handling missing option values

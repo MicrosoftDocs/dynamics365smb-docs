@@ -10,6 +10,7 @@ ms.search.keywords:
 ms.search.form: 28043
 ms.date: 11/20/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Set up vendors without IRD numbers for calculating the withholding tax
 

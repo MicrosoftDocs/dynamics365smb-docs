@@ -10,6 +10,7 @@
     ms.search.form: 10455, 10456
     ms.date: 02/16/2022
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Set Up PAC Web Services
 Before you can send invoices and credit memos electronically, you must specify one or more providers of the electronic stamp that must be included in invoices in Mexico.  

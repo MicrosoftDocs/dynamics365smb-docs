@@ -9,6 +9,7 @@ ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862
 ms.date: 02/08/2023
 
+ms.service: dynamics-365-business-central
 ---
 
 # Assign Permissions to Users and Groups

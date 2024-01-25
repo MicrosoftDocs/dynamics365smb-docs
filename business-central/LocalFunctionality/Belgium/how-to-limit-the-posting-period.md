@@ -11,6 +11,7 @@
     ms.date: 06/17/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Limit the Posting Period in the Belgian Version
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can limit the period by which posting is permitted on three different levels: **by company**, **by user**, and **by template**.  

@@ -9,6 +9,7 @@ ms.date: 03/08/2023
 ms.custom: bap-template
 ms.search.keywords: non-inventoriable
 ms.search.forms: 5725, 5726, 5732
+ms.service: dynamics-365-business-central
 ---
 
 # Work with Catalog Items

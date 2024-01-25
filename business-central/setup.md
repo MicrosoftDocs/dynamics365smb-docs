@@ -10,6 +10,7 @@ ms.search.keywords: configure, initialize
 ms.date: 12/19/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]
 

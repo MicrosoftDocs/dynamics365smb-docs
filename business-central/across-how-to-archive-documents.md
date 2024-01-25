@@ -8,6 +8,7 @@ ms.topic: how-to
 ms.date: 08/18/2023
 ms.custom: bap-template
 ms.search.form: 42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349
+ms.service: dynamics-365-business-central
 ---
 # Archive Documents
 

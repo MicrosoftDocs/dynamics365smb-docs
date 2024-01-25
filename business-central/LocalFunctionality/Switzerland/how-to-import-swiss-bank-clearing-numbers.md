@@ -10,6 +10,7 @@
     ms.search.form: 11501
     ms.date: 06/21/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Import Swiss Bank Clearing Numbers in the Swiss Version
 

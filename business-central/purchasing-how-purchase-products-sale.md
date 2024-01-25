@@ -11,6 +11,7 @@ ms.search.form: 50, 51, 56, 9308
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Purchase Items for a Sale by Creating Purchase Invoices
 

@@ -10,6 +10,7 @@ ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, da
 ms.search.form: 680
 ms.date: 08/08/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Share and Export Reports with the Report Inbox
 

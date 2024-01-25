@@ -11,6 +11,7 @@
     ms.search.keywords:
     ms.date: 11/22/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Print account book reports in the Spanish version
 Account book reports display all the general ledger entries created in a specific period. The two account book reports are:  

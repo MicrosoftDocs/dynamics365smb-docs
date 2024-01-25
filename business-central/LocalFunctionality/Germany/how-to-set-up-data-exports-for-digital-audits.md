@@ -10,6 +10,7 @@
     ms.date: 06/27/2022
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Set Up Data Exports for a Digital Audit (GoBD/GDPdU) in the German Version
 

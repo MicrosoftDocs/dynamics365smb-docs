@@ -9,6 +9,7 @@ ms.date: 09/25/2023
 ms.custom: bap-template
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.search.form: 1826, 1827
+ms.service: dynamics-365-business-central
 ---
 
 # Set Up Company Consolidation

@@ -11,6 +11,7 @@ ms.search.form: 16, 10842
 ms.date: 06/18/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Apply General Ledger Entries in the French Version
 

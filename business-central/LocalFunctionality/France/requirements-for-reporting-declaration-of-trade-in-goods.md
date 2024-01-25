@@ -10,6 +10,7 @@ ms.search.keywords:
 ms.date: 05/09/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Requirements for Reporting Declaration of Trade in Goods in the French Version
 

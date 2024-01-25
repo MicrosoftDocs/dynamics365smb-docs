@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Enter Statutory Information in the British Version
 

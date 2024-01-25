@@ -11,6 +11,7 @@ ms.search.forms: 1060, 1061, 1062
 ms.date: 06/25/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Enable Customer Payments Through Payment Services
 

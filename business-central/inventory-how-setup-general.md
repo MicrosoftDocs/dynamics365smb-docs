@@ -11,6 +11,7 @@ ms.search.form: 30, 456, 461
 ms.date: 07/28/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up General Inventory Information
 

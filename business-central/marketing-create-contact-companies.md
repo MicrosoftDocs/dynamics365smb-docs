@@ -10,6 +10,7 @@ ms.search.keywords: relationship, prospect
 ms.date: 08/30/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Create Contacts
 

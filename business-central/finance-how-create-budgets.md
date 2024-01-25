@@ -11,6 +11,7 @@ ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219
 ms.date: 08/24/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Create G/L Budgets
 

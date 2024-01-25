@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 10/16/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Set Up Units of Measure
 

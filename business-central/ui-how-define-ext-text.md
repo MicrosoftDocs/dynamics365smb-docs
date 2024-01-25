@@ -10,6 +10,7 @@ ms.search.form: 391, 30
 ms.date: 06/24/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Add Extended Text
 

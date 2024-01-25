@@ -13,6 +13,7 @@
     ms.date: 04/01/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # GST on Advance Payment Made to Vendor, with Reverse Charge
 

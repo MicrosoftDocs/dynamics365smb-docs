@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.form: 256
 ms.date: 06/21/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Print Remittance Advice in the British Version
 You can print remittance advice before posting a payment journal and after posting a payment. This advice displays vendor invoice numbers, which helps vendors to perform reconciliations.  

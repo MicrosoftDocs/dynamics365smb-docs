@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 11/03/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Adjust settlement exchange rates for VAT entries in the New Zealand version
 

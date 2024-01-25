@@ -10,6 +10,7 @@ ms.search.keywords:
 ms.date: 09/17/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 
 # Error message: "Posting Date is not within your range of allowed posting dates…"

@@ -9,6 +9,7 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 06/24/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # The Payments and Reconciliations (DK) Extension

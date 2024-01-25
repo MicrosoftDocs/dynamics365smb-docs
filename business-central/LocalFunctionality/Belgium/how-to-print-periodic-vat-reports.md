@@ -12,6 +12,7 @@
     ms.search.form: 11306,11307,11308
     ms.date: 11/28/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 
 # Print periodic VAT reports in the Belgian version

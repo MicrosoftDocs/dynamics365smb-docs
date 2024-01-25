@@ -10,6 +10,7 @@
     ms.search.forms: 
     ms.date: 10/28/2022
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Calculate Dates for Purchases
 

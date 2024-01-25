@@ -10,6 +10,7 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.search.form: 762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818
 ms.date: 12/20/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Analyzing Cash Flow in Your Company
 The charts on the Accountant Role Center provide insights that can help you make solid decisions about what to do with your cash.  

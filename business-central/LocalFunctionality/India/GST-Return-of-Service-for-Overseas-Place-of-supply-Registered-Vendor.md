@@ -13,6 +13,7 @@
     ms.date: 04/01/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Purchase Return of Services for Overseas Place of Supply to Registered Vendor
 

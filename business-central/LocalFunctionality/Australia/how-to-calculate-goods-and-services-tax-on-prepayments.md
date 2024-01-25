@@ -11,6 +11,7 @@
     ms.date: 12/08/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Calculate goods and services tax on prepayments in the Australian version
 

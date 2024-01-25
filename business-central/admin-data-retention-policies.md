@@ -9,6 +9,7 @@ ms.search.form: 3903, 3901
 ms.date: 12/15/2023
 ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # Define Retention Policies
 

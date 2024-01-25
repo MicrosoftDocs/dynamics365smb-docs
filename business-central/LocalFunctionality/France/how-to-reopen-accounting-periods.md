@@ -10,6 +10,7 @@ ms.search.keywords:
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Reopen Accounting Periods
 When a single fiscal period has been fiscally closed it might be necessary to reopen it to post general ledger entries.  

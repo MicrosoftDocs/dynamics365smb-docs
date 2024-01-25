@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Planning Services
 With [!INCLUDE[prod_short](includes/prod_short.md)], you can set up the standard tasks that you need to fulfill your customer service requirements. To do this, you must determine what service items and offerings your service organization supports, and at what price.   

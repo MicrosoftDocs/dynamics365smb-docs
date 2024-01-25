@@ -27,7 +27,7 @@ This video introduces some of the key capabilities for managing finances. <br><b
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 
-## Basic Finance
+## Starting with the Finance module
 
 Before you can begin to run your business, you must specify how you want to manage company finance processes. 
 
@@ -84,7 +84,7 @@ Managing multiple companies intro text
 | --- | --- |
 |Set up intercompany partners and process transactions, manually or automatically, between legal entities within the same company.|[Managing Intercompany Transactions](intercompany-manage.md)|
 |Combine general ledger entries from multiple companies in one virtual consolidated company for financial analysis.|[Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)|
-| XXX | [Manage Work across Multiple Companies in the Company Hub](company-hub.md)|
+| Work more closely with related companies that you have access to and to get information about key point of interest (KPI) data. | [Manage Work across Multiple Companies in the Company Hub](company-hub.md)|
 
  
 ## Period-End reporting and related tasks
@@ -93,18 +93,24 @@ Period-End reporting and related tasks intro text
 
 | To... | See |
 | --- | --- |
+|Manage inventory and manufacturing costs, and report and reconcile costs with the general ledger.|[Managing Inventory Costs](finance-manage-inventory-costs.md)|
+| Import salary transactions from your payroll provider into the general ledger. |[Import Payroll Transactions](finance-how-import-payroll-transactions.md)|
+|Learn how to use the Accountant Role Center, engage an external accountant, and use the Company Hub to manage accounts of multiple clients.|[Accountant Experiences in Business Central](finance-accounting.md)| 
 
-Managing Inventory Costs
-Import Payroll Transactions
-Accountant Experiences in Business Central
+
+## Managerial accounting
+
+Managerial accounting intro text 
+
+| To... | See |
+| --- | --- |
+|Analyze the costs of running your business by allocating actual and budgeted costs of operations, departments, products, and projects to cost centers.|[Accounting for Costs](finance-manage-cost-accounting.md)|
+| Monitor the flow of cash in and out of your business. |[Analyzing Cash Flows in Your Company](finance-analyze-cash-flow.md) |
+|Follow an end-to-end process describing how to use financial reports to make cash flow forecasts.|[Walkthrough: Making Cash Flow Forecasts by Using Financial Reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+| Work with financial statements and overviews in Microsoft Excel. |[Analyzing Financial Statements in Excel](finance-analyze-excel.md) |
 
 
-#Managerial accounting
-Accounting for Costs
-Analyzing Cash Flows in Your Company
-Walkthrough: Making Cash Flow Forecasts by Using Financial Reports
-Analyzing Financial Statements in Excel
-
+## old table
 [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard configuration for most financial processes, but you can change it to suit your business needs. Learn more at [Setting Up Finance](finance-setup-finance.md).
 
 The default configuration includes a chart of accounts and standard posting groups, which make the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.  
@@ -155,4 +161,5 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
+## Free e-learning modules
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -100,7 +100,7 @@ At the end of each accounting period or at the end of the fiscal year, there are
 
 ## Managerial accounting
 
-As a business manager or controller, perparing or analyzing business data you need to need data and analytics to help you. These sections help you preparing more data, while the [Business Intelligence and Reporting Overview](reports-bi-reporting?branch=kepontop-finance-update-overview.md) article describe the analytics parts.
+As a business manager or controller, perparing or analyzing business data you need to need data and analytics to help you. These sections help you preparing more data, while the [Business Intelligence and Reporting Overview](reports-bi-reporting.md) article describe the analytics parts.
 
 
 | To... | See |

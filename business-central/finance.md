@@ -65,10 +65,15 @@ VAT and Taxes intro
 
 
 ## Managing Receivables and Payables
-Managing Receivables
-Managing Payable
-Invoicing Prepayments
-Reconciling Bank Accounts
+
+Receivables and Payables intro text
+
+| To... | See |
+| --- | --- |
+| Apply incoming payments, reconcile bank accounts during payment application, and collect outstanding balances. |[Managing Receivables](receivables-manage-receivables.md) |
+| Make payments, apply outgoing payments, and work with checks. |[Managing Payables](payables-manage-payables.md) |
+|Ask your customers to submit payment before you ship to them, or submit payment to your vendors before they ship to you.|[Invoicing Prepayments](finance-invoice-prepayments.md)|
+| Reconcile and transfer funds between bank accounts. |[Reconciling Bank Accounts](bank-manage-bank-accounts.md) |
  
 
 ## Managing multiple companies

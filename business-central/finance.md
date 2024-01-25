@@ -77,14 +77,28 @@ Receivables and Payables intro text
  
 
 ## Managing multiple companies
-Managing Intercompany Transactions
-Consolidating Financial Data from Multiple Companies
-NEW: Manage Work across Multiple Companies in the Company Hub
+
+Managing multiple companies intro text
+
+| To... | See |
+| --- | --- |
+|Set up intercompany partners and process transactions, manually or automatically, between legal entities within the same company.|[Managing Intercompany Transactions](intercompany-manage.md)|
+|Combine general ledger entries from multiple companies in one virtual consolidated company for financial analysis.|[Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)|
+| XXX | [Manage Work across Multiple Companies in the Company Hub](company-hub.md)|
+
  
-#Period-End reporting and related tasks
+## Period-End reporting and related tasks
+
+Period-End reporting and related tasks intro text
+
+| To... | See |
+| --- | --- |
+
 Managing Inventory Costs
 Import Payroll Transactions
 Accountant Experiences in Business Central
+
+
 #Managerial accounting
 Accounting for Costs
 Analyzing Cash Flows in Your Company

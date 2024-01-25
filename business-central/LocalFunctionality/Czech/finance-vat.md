@@ -8,6 +8,7 @@ ms.search.keywords: CZ, Czech, Finance, VAT
 ms.date: 11/27/2023
 ms.reviewer: v-pejano
 ms.author: v-makune
+ms.service: dynamics-365-business-central
 ---
 
 # Finance - VAT in the Czech version

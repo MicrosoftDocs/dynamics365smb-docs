@@ -47,17 +47,24 @@ TODO: intro paragraph
 
  
 ## VAT and Taxes
-Work with VAT on Sales and Purchases
-Report VAT to Tax Authorities
-Convert Service Contracts that Include VAT Amounts   - why is this here?
- 
-#Managing Receivables and Payables
+
+VAT and Taxes intro
+
+| To... | See |
+| --- | --- |
+|Calculate value-added tax (VAT) on sales and purchase transactions so you can report the amounts to the tax authorities.|[Work with VAT on Sales and Purchases](finance-work-with-vat.md)|
+|Prepare a report that lists VAT from sales, and submit the report to tax authorities in the European Union (EU). | [Report VAT to Tax Authorities](finance-how-report-vat.md)|
+|Manually convert service contracts to change their VAT rate.|[Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)|
+
+
+## Managing Receivables and Payables
 Managing Receivables
 Managing Payable
 Invoicing Prepayments
 Reconciling Bank Accounts
  
-#Managing multiple companies
+
+## Managing multiple companies
 Managing Intercompany Transactions
 Consolidating Financial Data from Multiple Companies
 NEW: Manage Work across Multiple Companies in the Company Hub

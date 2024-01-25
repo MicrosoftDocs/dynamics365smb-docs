@@ -9,6 +9,7 @@ ms.search.keywords: relationship, prospect
 ms.date: 12/28/2023
 ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # Process Sales Opportunities
 

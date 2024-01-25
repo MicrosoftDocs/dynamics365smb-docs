@@ -12,6 +12,7 @@ ms.reviewer: bholtorf
 ms.date: 04/01/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]
 

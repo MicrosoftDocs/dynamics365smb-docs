@@ -8,6 +8,7 @@ ms.search.keywords:
 ms.date: 08/03/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Opening and Sharing Business Central Files in Microsoft OneDrive
 

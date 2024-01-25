@@ -10,6 +10,7 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 12/19/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Work with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)]
 

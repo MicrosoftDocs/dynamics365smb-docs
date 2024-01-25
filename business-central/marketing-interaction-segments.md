@@ -12,6 +12,7 @@ ms.search.forms: 5091, 5139,
 ms.date: 04/01/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Manage Interactions for Segments
 The **Segment** page is a type of worksheet where you can:

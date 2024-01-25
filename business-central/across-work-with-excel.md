@@ -11,6 +11,7 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Viewing and Editing in Excel From Business Central
 

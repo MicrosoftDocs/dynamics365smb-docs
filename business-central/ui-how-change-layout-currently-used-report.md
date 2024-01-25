@@ -10,6 +10,7 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 03/07/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # (Legacy) Set the Layout Used by a Report
 

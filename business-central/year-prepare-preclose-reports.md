@@ -12,6 +12,7 @@ ms.search.form: 1393, 1394
 ms.date: 04/01/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Use Pre-Closing Reports
 

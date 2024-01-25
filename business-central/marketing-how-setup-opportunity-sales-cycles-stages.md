@@ -12,6 +12,7 @@ ms.search.forms: 5122, 5121, 5120, 5175, 5119, 5098, 5096
 ms.date: 05/27/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up Opportunity Sales Cycles and Cycle Stages
 

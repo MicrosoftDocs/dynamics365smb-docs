@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 02/28/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Managing OneDrive Integration with Business Central
 

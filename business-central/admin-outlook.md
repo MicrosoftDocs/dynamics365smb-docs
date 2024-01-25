@@ -12,6 +12,7 @@ ms.search.form: 1831, 1832
 ms.date: 04/27/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Get the Business Central Add-in for Outlook
 

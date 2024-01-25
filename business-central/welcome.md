@@ -9,6 +9,7 @@ ms.workload: na
 ms.date: 05/22/2023
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]
 

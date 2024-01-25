@@ -10,6 +10,7 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form:
 ms.date: 10/30/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Sorting, Searching, and Filtering
 

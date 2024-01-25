@@ -14,6 +14,58 @@ ms.author: bholtorf
 ---
 # Financial Management
 
+## Basic Finance
+
+TODO: intro paragraph
+
+| To... | See |
+| --- | --- |
+| Change the standard configuration of BC for most financial processes to suit your business needs. | [Setting Up Finance](finance-setup-finance.md) | 
+| Learn about the general ledger and the chart of accounts (COA). |[Understanding the General Ledger and the COA](finance-general-ledger.md) |
+
+
+
+## Accounting 
+
+TODO: intro paragraph
+
+| To... | See |
+| --- | --- |
+| Add dimensions for richer business intelligence. |[Work with Dimensions](finance-dimensions.md) |
+|Learn how to use additional currencies and update currency exchange rates automatically. |[Update Currency Exchange Rates](finance-how-update-currencies.md)|
+| Allocate revenues and expenses to periods other than when the transactions actually posted. |[Defer Revenues and Expenses](finance-how-defer-revenue-expenses.md)|
+|Allocate an entry in a general journal to several different accounts when you post the journal. |[Allocate Costs and Income](year-allocate-costs-income.md) |
+| Assign extra costs, such as freight and physical handling expenses you incur during trade, to the involved items. This way the cost is reflected in inventory valuation. |[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md) |
+| Learn about the available options to automate sending subscription invoices to customers and register recurring revenue. |[Work with Recurring Revenue](finance-recurring-invoicing.md)|
+|Post employee expenses for work-related activities and make reimbursements directly to employee bank accounts.|[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
+
+ 
+## VAT and Taxes
+Work with VAT on Sales and Purchases
+Report VAT to Tax Authorities
+Convert Service Contracts that Include VAT Amounts   - why is this here?
+ 
+#Managing Receivables and Payables
+Managing Receivables
+Managing Payable
+Invoicing Prepayments
+Reconciling Bank Accounts
+ 
+#Managing multiple companies
+Managing Intercompany Transactions
+Consolidating Financial Data from Multiple Companies
+NEW: Manage Work across Multiple Companies in the Company Hub
+ 
+#Period-End reporting and related tasks
+Managing Inventory Costs
+Import Payroll Transactions
+Accountant Experiences in Business Central
+#Managerial accounting
+Accounting for Costs
+Analyzing Cash Flows in Your Company
+Walkthrough: Making Cash Flow Forecasts by Using Financial Reports
+Analyzing Financial Statements in Excel
+
 [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard configuration for most financial processes, but you can change it to suit your business needs. Learn more at [Setting Up Finance](finance-setup-finance.md).
 
 The default configuration includes a chart of accounts and standard posting groups, which make the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.  
@@ -29,7 +81,7 @@ The following table describes a sequence of tasks, with links to the topics that
 |Set up intercompany partners and process transactions, manually or automatically, between legal entities within the same company.|[Managing Intercompany Transactions](intercompany-manage.md)|
 |Analyze the costs of running your business by allocating actual and budgeted costs of operations, departments, products, and projects to cost centers.|[Accounting for Costs](finance-manage-cost-accounting.md)|
 |Manage inventory and manufacturing costs, and report and reconcile costs with the general ledger.|[Managing Inventory Costs](finance-manage-inventory-costs.md)|
-| Learn about the general ledger and the chart of accounts (COA). |[Understanding the General Ledger and the COA](finance-general-ledger.md) |
+
 |Combine general ledger entries from multiple companies in one virtual consolidated company for financial analysis.|[Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)|
 | Add dimensions for richer business intelligence. |[Work with Dimensions](finance-dimensions.md) |
 | Create general ledger (G/L) budgets to forecast different financial activities and assign dimensions for business intelligence purposes. |[Create G/L Budgets](finance-how-create-budgets.md) |

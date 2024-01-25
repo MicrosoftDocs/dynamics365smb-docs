@@ -126,7 +126,6 @@ The following table describes a sequence of tasks, with links to the topics that
 |Set up intercompany partners and process transactions, manually or automatically, between legal entities within the same company.|[Managing Intercompany Transactions](intercompany-manage.md)|
 |Analyze the costs of running your business by allocating actual and budgeted costs of operations, departments, products, and projects to cost centers.|[Accounting for Costs](finance-manage-cost-accounting.md)|
 |Manage inventory and manufacturing costs, and report and reconcile costs with the general ledger.|[Managing Inventory Costs](finance-manage-inventory-costs.md)|
-
 |Combine general ledger entries from multiple companies in one virtual consolidated company for financial analysis.|[Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)|
 | Add dimensions for richer business intelligence. |[Work with Dimensions](finance-dimensions.md) |
 | Create general ledger (G/L) budgets to forecast different financial activities and assign dimensions for business intelligence purposes. |[Create G/L Budgets](finance-how-create-budgets.md) |

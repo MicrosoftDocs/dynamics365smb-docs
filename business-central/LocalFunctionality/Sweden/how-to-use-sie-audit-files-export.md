@@ -11,6 +11,7 @@ ms.search.form: 5264, 5266, 5267, 5270, 5315
 ms.date: 06/08/2023
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
 ---
 
 # Import and export data in the standard import export (SIE) format

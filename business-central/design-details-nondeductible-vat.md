@@ -10,6 +10,7 @@
     ms.date: 07/04/2023
     ms.author: altotovi
 
+    ms.service: dynamics-365-business-central
 ---
 
 # Design details: Non-deductible VAT

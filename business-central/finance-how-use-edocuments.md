@@ -10,6 +10,7 @@ ms.search.keywords: electronic document, electronic invoice, e-document, e-invoi
 ms.search.form: 42, 43, 51, 6103, 6133, 6121, 9301, 9305, 9308
 ms.date: 10/03/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
 # Use e-documents in sales and purchases

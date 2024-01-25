@@ -10,6 +10,7 @@ ms.search.keywords: electronic document, electronic invoice, e-document, e-invoi
 ms.search.form: 359, 360, 6103, 6133
 ms.date: 10/05/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
 # Set up e-documents

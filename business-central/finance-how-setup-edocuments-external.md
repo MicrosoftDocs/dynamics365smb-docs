@@ -10,6 +10,7 @@ ms.search.keywords: electronic document, electronic invoice, e-document, e-invoi
 ms.search.form: 359, 360, 6103, 6133
 ms.date: 12/13/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
 # Set the E-Documents connector with external endpoints

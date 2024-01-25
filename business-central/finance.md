@@ -121,12 +121,12 @@ Want to learn more about [!INCLUDE[prod_short](includes/prod_short.md)] on your 
 ## See also
 
 [Setting Up Finance](finance-setup-finance.md)  
-[Sales](sales-manage-sales.md)  
-[Purchasing](purchasing-manage-purchasing.md)  
+[Working with the Sales module](sales-manage-sales.md)  
+[Working with the Purchasing module](purchasing-manage-purchasing.md)  
 [Closing Fiscal Periods](year-close-years-periods.md)  
 [Managing Projects](projects-manage-projects.md)  
 [Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)  
-[Work with General Journals](ui-work-general-journals.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Working with General Journals](ui-work-general-journals.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

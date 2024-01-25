@@ -11,6 +11,7 @@ ms.search.form: 11502, 11510, 11511, 11512, 11513, 11514, 11515, 11516, 11517, 1
 ms.date: 04/05/2023
 ms.author: soalex
 
+ms.service: dynamics-365-business-central
 ---
 # QR-Bill Management in the Swiss Version of Business Central
 

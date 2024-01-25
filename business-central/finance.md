@@ -33,7 +33,7 @@ Before you can begin to run your business, you must specify how you want to mana
 
 ## Accounting 
 
-TODO: intro paragraph
+This section describes some of the accounting tools you have available to register the business transaction in finance so they match both the registration, reporting and managerial finance requirements.
 
 | To... | See |
 | --- | --- |

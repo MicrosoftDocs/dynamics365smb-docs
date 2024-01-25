@@ -11,6 +11,7 @@ ms.search.form: 550,
 ms.date: 06/16/2021
 ms.author: andregu
 
+ms.service: dynamics-365-business-central
 ---
 
 # Managing VAT Rate Changes

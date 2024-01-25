@@ -10,6 +10,7 @@ ms.search.form: 249, 575, 1279
 ms.date: 06/16/2021
 ms.author: andregu
 
+ms.service: dynamics-365-business-central
 ---
 
 # Validate VAT Registration Numbers

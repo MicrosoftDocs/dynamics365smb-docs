@@ -14,9 +14,15 @@ ms.author: bholtorf
 ---
 # Financial Management
 
+[!INCLUDE[prod_short](includes/prod_short.md)] includes a standard configuration for most financial processes, but you can change it to suit your business needs. Learn more at [Setting Up Finance](finance-setup-finance.md).
+
+The default configuration includes a chart of accounts and standard posting groups, which make the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.  
+
+The following sections describe a sequence of tasks, with links to the topics that describe them.  
+
 ## Basic Finance
 
-TODO: intro paragraph
+Before you can begin to run your business, you must specify how you want to manage company finance processes. 
 
 | To... | See |
 | --- | --- |

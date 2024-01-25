@@ -10,8 +10,8 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
 ms.date: 12/19/2023
 ms.author: bholtorf
-
 ---
+
 # Financial Management
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard configuration for most financial processes, but you can change it to suit your business needs. Learn more at [Setting Up Finance](finance-setup-finance.md).
@@ -19,6 +19,7 @@ ms.author: bholtorf
 The default configuration includes a chart of accounts and standard posting groups, which make the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.  
 
 The following sections describe a sequence of tasks, with links to the topics that describe them.  
+
 
 ## Take a video tour
 
@@ -35,7 +36,6 @@ Before you can begin to run your business, you must specify how you want to mana
 | --- | --- |
 | Change the standard configuration of [!INCLUDE[prod_short](includes/prod_short.md)] for most financial processes to suit your business needs. | [Setting Up Finance](finance-setup-finance.md) | 
 | Learn about the general ledger and the chart of accounts (COA). |[Understanding the General Ledger and the COA](finance-general-ledger.md) |
-
 
 
 ## Accounting 
@@ -66,7 +66,7 @@ Working with VAT in [!INCLUDE[prod_short](includes/prod_short.md)] is easy and y
 
 ## Managing Receivables and Payables
 
-Receivables and Payables intro text
+The core of finance is centered around managing receivables and payables, registering the transactions, reconciling banks accounts, paying vendors, receiving customer payments, reimbursing employees for expenses among others. This section links you to the core concepts.
 
 | To... | See |
 | --- | --- |
@@ -111,7 +111,6 @@ As a business manager or controller, perparing or analyzing business data you ne
 | Work with financial statements and overviews in Microsoft Excel. |[Analyzing Financial Statements in Excel](finance-analyze-excel.md) |
 
 
-
 ## Free e-learning modules
 
 Want to learn more about [!INCLUDE[prod_short](includes/prod_short.md)] on your own pace? 
@@ -131,4 +130,3 @@ Want to learn more about [!INCLUDE[prod_short](includes/prod_short.md)] on your 
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-

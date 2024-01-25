@@ -33,7 +33,7 @@ Before you can begin to run your business, you must specify how you want to mana
 
 | To... | See |
 | --- | --- |
-| Change the standard configuration of BC for most financial processes to suit your business needs. | [Setting Up Finance](finance-setup-finance.md) | 
+| Change the standard configuration of [!INCLUDE[prod_short](includes/prod_short.md)] for most financial processes to suit your business needs. | [Setting Up Finance](finance-setup-finance.md) | 
 | Learn about the general ledger and the chart of accounts (COA). |[Understanding the General Ledger and the COA](finance-general-ledger.md) |
 
 
@@ -55,7 +55,7 @@ This section describes some of the accounting tools you have available to regist
  
 ## VAT and Taxes
 
-VAT and Taxes intro
+Working with VAT in [!INCLUDE[prod_short](includes/prod_short.md)] is easy and you can either use a manual or an automatic setup. These article guides you on how to meet country/region-specific regulations.
 
 | To... | See |
 | --- | --- |
@@ -78,7 +78,7 @@ Receivables and Payables intro text
 
 ## Managing multiple companies
 
-Managing multiple companies intro text
+Business Central gives small and mid-sized businesses a business management solution that's easy-to-use and maintain at a low cost of ownership.
 
 | To... | See |
 | --- | --- |
@@ -89,7 +89,7 @@ Managing multiple companies intro text
  
 ## Period-End reporting and related tasks
 
-Period-End reporting and related tasks intro text
+At the end of each accounting period or at the end of the fiscal year, there are a number of administrative tasks you must perform, such as making sure all documents and journals are posted, ensuring currency data are up to date, closing the books, and more. The actual tasks will depend your company.
 
 | To... | See |
 | --- | --- |
@@ -147,6 +147,13 @@ The following table describes a sequence of tasks, with links to the topics that
 |Learn how to use the Accountant Role Center, engage an external accountant, and use the Company Hub to manage accounts of multiple clients.|[Accountant Experiences in Business Central](finance-accounting.md)|  
 
 
+## Free e-learning modules
+
+Want to learn more about [!INCLUDE[prod_short](includes/prod_short.md)] on your own pace? 
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
+
+
 ## See also
 
 [Setting Up Finance](finance-setup-finance.md)  
@@ -160,5 +167,3 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
-## Free e-learning modules
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,6 +10,7 @@
     ms.date: 06/08/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Design Details: Table Structure
 To understand how dimension entries are stored and posted, it is important to understand the table structure.  

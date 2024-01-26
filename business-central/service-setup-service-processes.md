@@ -9,6 +9,7 @@
     ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
     ms.date: 04/01/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Configure Service Processes
 The following are some examples of the settings that you can apply to service management processes:  

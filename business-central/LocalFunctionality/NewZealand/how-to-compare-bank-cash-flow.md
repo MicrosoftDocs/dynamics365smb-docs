@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 06/25/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Compare Bank Cash Flow in the New Zealand Version
 

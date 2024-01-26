@@ -10,6 +10,7 @@
     ms.search.form: 28090,28091,28092,28093
     ms.date: 11/15/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Create check installments in the New Zealand version
 

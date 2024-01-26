@@ -12,6 +12,7 @@
     ms.date: 11/21/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Correct VAT transactions reports in the Italian version
 

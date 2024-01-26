@@ -10,6 +10,7 @@ ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Work with Blanket Sales Orders or Blanket Purchase Orders
 

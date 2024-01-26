@@ -10,6 +10,7 @@
     ms.search.form: 11500
     ms.date: 12/11/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # General ledger balance in the Swiss version
 

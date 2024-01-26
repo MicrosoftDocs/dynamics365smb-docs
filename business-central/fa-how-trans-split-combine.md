@@ -10,6 +10,7 @@ ms.search.form: 5638, 5636, 5640, 5637
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Transfer, Split, or Combine Fixed Assets
 

@@ -11,6 +11,7 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 06/18/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Print Finnish Intrastat Reports
 

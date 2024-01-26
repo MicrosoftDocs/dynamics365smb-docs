@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 11/22/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Print an inventory picking list from a sales order in the Swiss version
 

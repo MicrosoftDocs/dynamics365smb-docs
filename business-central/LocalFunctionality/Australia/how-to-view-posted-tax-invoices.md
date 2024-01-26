@@ -9,6 +9,7 @@ ms.search.form: 28071, 28073, 28081, 28082
 ms.date: 06/25/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # View Posted Tax Invoices in the Australian Version
 

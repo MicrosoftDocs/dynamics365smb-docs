@@ -10,6 +10,7 @@ ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 10/09/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Setting Up Cost Accounting
 

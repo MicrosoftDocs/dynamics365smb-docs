@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/14/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Find Posted Documents without Incoming Document Records
 

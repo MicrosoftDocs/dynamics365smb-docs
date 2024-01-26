@@ -10,6 +10,7 @@
     ms.date: 11/27/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Print troubleshooting reports in the Canadian version
 

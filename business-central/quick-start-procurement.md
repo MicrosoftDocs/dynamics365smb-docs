@@ -11,6 +11,7 @@ ms.search.form: 26, 27, 50, 56
 ms.date: 09/29/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 
 # Procurement Quick Start

@@ -9,6 +9,7 @@
     ms.search.keywords: India, local, IN, English
     ms.date: 12/13/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 
 # GST on advance payment received from customer

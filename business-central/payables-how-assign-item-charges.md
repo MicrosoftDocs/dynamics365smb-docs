@@ -10,6 +10,7 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.search.form: 5709, 5800, 5805, 5814
 ms.date: 11/08/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Use item charges to account for additional trade costs
 

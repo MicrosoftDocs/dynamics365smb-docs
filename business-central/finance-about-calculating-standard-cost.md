@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.form: 5841
 ms.author: bholtorf
 ms.date: 10/10/2023
+ms.service: dynamics-365-business-central
 ---
 # About Calculating Standard Cost
 

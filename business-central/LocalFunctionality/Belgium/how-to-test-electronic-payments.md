@@ -11,6 +11,7 @@ ms.search.form: 2000001
 ms.date: 06/17/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Test Electronic Payments in the Belgian Version
 

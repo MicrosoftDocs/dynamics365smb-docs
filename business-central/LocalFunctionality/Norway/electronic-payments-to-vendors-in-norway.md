@@ -11,6 +11,7 @@
     ms.search.keywords:
     ms.date: 06/18/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Electronic Payments to Vendors in Norway
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. You can use this functionality to perform the following operations:  

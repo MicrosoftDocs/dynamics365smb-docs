@@ -10,6 +10,7 @@ ms.search.form: 30, 31
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Setup Best Practices: Costing Method
 

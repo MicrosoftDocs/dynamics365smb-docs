@@ -10,6 +10,7 @@ ms.date: 06/24/2021
 ms.search.form: 
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Posting Documents and Journals
 

@@ -10,6 +10,7 @@ ms.search.keywords:
 ms.search.form: 10458, 10459, 27001, 27002, 27003, 27010,27011, 27011, 27012, 27013,27014,27015, 27016, 27017, 27018, 27040, 27041, 27042, 27043, 27044
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Electronic invoicing in the Mexican version
 

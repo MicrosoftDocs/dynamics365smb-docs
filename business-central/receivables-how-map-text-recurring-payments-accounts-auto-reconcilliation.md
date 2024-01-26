@@ -11,6 +11,7 @@ ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Map Text on Recurring Payments to Accounts for Automatic Reconciliation
 

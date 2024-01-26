@@ -10,6 +10,7 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.search.form: 846, 847, 849, 851, 855, 862, 869, 1818
 ms.date: 08/23/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Setting Up Cash Flow Analysis
 

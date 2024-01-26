@@ -11,6 +11,7 @@ ms.search.keywords: Posted document, editable, posted sales shipment, posted pur
 ms.search.form: 130, 138, 142, 146, 6660, 6662, 6650, 6652
 ms.date: 06/10/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Edit Posted Documents
 

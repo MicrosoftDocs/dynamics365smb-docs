@@ -10,6 +10,7 @@ ms.search.keywords:
 ms.date: 09/13/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Walkthrough: Setting Up and Using a Purchase Approval Workflow
 

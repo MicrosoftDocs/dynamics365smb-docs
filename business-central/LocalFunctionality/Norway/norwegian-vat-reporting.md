@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.form: 737, 738, 743, 10601, 10604, 10692 ,10696
 ms.date: 05/12/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Norwegian VAT Reporting in the Norwegian Version
 

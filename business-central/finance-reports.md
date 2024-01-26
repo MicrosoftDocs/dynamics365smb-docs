@@ -8,6 +8,7 @@ ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
 ms.date: 12/19/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Financial Reports and Analytics in Business Central
 

@@ -11,6 +11,7 @@ ms.search.form: 21, 9650
 ms.date: 04/07/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Define Document Layouts for Customers and Vendors
 

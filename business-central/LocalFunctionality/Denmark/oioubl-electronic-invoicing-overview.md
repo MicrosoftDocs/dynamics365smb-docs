@@ -12,6 +12,7 @@
     ms.date: 11/11/2022
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # OIOUBL Electronic Invoicing Overview
 

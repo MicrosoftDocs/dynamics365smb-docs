@@ -10,6 +10,7 @@
     ms.date: 06/18/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Germany Local Functionality
 

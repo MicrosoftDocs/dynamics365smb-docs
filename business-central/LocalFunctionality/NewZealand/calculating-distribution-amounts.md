@@ -10,6 +10,7 @@ ms.search.keywords:
 ms.date: 11/10/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Calculating distribution amounts in the New Zealand version
 

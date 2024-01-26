@@ -10,6 +10,7 @@ ms.search.keywords: local
 ms.date: 10/12/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Reporting Sales Tax in Canada
 

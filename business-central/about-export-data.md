@@ -10,6 +10,7 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Export Your Business Data to Excel
 

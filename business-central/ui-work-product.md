@@ -9,6 +9,7 @@ ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 90
 ms.date: 09/19/2023
 ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # Work with [!INCLUDE[prod_short](includes/prod_short.md)]
 

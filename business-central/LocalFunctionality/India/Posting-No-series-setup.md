@@ -13,6 +13,7 @@
     ms.date: 09/20/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Setting up Posting No. Series
 

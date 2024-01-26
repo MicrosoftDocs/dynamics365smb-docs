@@ -11,6 +11,7 @@ ms.search.form: 148, 460, 25
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Enable Application of Ledger Entries in Different Currencies
 

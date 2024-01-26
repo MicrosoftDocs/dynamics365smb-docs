@@ -9,6 +9,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.custom: bap-template 
 
+ms.service: dynamics-365-business-central
 ---
 # Run Full Planning, MPS, or MRP
 

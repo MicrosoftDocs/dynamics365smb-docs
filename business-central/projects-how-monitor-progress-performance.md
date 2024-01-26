@@ -10,6 +10,7 @@ ms.date: 03/28/2023
 ms.custom: bap-template
 ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
+ms.service: dynamics-365-business-central
 ---
 # Monitor Job Progress and Performance
 

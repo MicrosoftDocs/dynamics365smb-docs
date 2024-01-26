@@ -11,6 +11,7 @@
     ms.date: 11/21/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Issue delivery reminders in the German version
 

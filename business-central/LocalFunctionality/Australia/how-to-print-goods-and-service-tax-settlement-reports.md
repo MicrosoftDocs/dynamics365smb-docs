@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 12/07/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 
 # Print goods and service tax settlement reports in the Australian version

@@ -10,6 +10,7 @@ ms.search.form: 99000773, 99000778, 99000823, 99000827
 ms.date: 03/08/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Batch Post Output and Run Times
 

@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 04/01/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Create Proposals
 Proposals can be generated manually or automatically based on either vendor or customer ledger entries.  

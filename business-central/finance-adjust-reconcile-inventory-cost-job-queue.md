@@ -10,6 +10,7 @@ ms.reviewer: bholtorf
 ms.search.form: 461
 ms.date: 09/19/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Schedule jobs to adjust and reconcile inventory cost
 

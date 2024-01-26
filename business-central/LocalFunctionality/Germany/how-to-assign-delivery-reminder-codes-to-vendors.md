@@ -11,6 +11,7 @@
     ms.date: 11/14/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Assign delivery reminder codes to vendors in the German version
 

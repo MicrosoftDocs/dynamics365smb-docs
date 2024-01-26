@@ -11,6 +11,7 @@ ms.search.form: 189, 190, 191
 ms.date: 06/23/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Receive and Convert Electronic Documents
 

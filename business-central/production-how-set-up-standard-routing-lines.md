@@ -10,6 +10,7 @@ ms.search.form: 99000799, 99000803, 99000804, 99000805, 99000807
 ms.date: 06/22/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up Standard Routing Lines
 

@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 05/28/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Enter External Document Numbers
 

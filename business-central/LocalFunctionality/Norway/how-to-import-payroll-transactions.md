@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 12/07/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Import payroll transactions in the Norwegian version
 

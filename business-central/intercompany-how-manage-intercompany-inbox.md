@@ -9,6 +9,7 @@ ms.date: 02/06/2023
 ms.custom: bap-template
 ms.search.keywords: incoming document
 ms.search.form: 600, 605, 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
+ms.service: dynamics-365-business-central
 ---
 # Manage the Intercompany Inbox and Outbox
 

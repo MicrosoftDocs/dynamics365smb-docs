@@ -10,6 +10,7 @@
     ms.date: 06/15/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # General Journal Post Line Overview
 

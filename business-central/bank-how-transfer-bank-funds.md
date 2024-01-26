@@ -10,6 +10,7 @@ ms.search.keywords: bank account transfer, multiple currencies
 ms.search.form: 39
 ms.date: 04/29/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Transfer Bank Funds
 

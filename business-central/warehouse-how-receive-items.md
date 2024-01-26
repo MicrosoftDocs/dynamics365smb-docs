@@ -9,6 +9,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008
+ms.service: dynamics-365-business-central
 ---
 # Receive Items with Warehouse Receipts
 

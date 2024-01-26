@@ -10,6 +10,7 @@
     ms.search.form: 5005270, 5005272
     ms.date: 06/21/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Delivery Reminders in the Swiss Version
 

@@ -11,6 +11,7 @@ ms.search.form: 4021, 4026, 4031, 4090, 4091, 4092, 4093, 4094, 4095, 4096, 4097
 ms.reviewer: bholtorf
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Cloud Migration Extensions for Migrating to Business Central Online

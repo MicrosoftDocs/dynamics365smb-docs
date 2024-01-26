@@ -12,6 +12,7 @@ ms.search.form: 908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417
 ms.date: 09/21/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # View the Availability of Items
 

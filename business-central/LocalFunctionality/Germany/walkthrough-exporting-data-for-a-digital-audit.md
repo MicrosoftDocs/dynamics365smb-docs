@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 12/07/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Walkthrough: Exporting data for a digital audit in the German version
 

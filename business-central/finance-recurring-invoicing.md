@@ -11,6 +11,7 @@ ms.search.form: 283
 ms.reviewer: bholtorf
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Work with recurring revenue in [!INCLUDE[prod_short](includes/prod_short.md)]
 

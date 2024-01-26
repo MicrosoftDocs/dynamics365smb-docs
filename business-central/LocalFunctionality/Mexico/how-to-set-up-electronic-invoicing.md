@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 05/19/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Set up Electronic invoicing - Mexico

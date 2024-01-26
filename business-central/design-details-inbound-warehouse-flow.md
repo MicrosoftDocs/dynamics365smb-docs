@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.keywords: warehouse
 ms.date: 09/18/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Design details: Inbound warehouse flow
 

@@ -11,6 +11,7 @@ ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 03/24/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Create Number Series
 

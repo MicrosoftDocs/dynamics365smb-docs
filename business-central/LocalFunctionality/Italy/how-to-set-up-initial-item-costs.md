@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 11/24/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Set up initial item costs in the Italian version
 When you set up [!INCLUDE[prod_short](../../includes/prod_short.md)] in your organization.  

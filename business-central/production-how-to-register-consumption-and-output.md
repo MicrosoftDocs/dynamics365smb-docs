@@ -10,6 +10,7 @@
     ms.date: 03/08/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Register Consumption and Output for One Released Production order line
 

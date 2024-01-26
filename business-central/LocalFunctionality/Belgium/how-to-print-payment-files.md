@@ -7,6 +7,7 @@
     ms.date: 01/10/2022
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Export Payment Files in the Belgian Version
 

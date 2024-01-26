@@ -10,6 +10,7 @@ ms.search.form: 283, 5629
 ms.date: 09/26/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Allocate Recurring Costs and Income
 

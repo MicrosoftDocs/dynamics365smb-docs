@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 11/07/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Generate delivery reminders in the Austrian version
 

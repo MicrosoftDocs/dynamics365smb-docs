@@ -10,6 +10,7 @@ ms.search.keywords:
 ms.search.form: 8645,
 ms.date: 06/06/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Design Details: Average Cost
 

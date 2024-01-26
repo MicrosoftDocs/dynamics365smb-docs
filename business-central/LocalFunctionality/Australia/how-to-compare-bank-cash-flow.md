@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 11/09/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Compare bank cash flow in the Australian version
 

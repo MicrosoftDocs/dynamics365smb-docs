@@ -11,6 +11,7 @@ ms.search.form: 1070, 1071, 1073, 1074
 ms.date: 12/12/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # The PayPal Payments Standard extension
 

@@ -11,6 +11,7 @@ ms.search.form: 13645, 13646, 13647
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # The OIOUBL Extension for Electronic Invoicing in Denmark
 

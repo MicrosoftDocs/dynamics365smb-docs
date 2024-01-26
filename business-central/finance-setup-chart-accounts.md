@@ -10,6 +10,7 @@ ms.search.form: 16, 17, 18, 118, 386, 391
 ms.date: 12/19/2023
 ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up or Change the Chart of Accounts
 

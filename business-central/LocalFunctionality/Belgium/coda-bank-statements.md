@@ -11,6 +11,7 @@ ms.search.form: 2000040, 2000041, 2000042, 2000043, 2000045
 ms.date: 02/08/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Belgian CODA Bank Statements in the Belgian Version
 

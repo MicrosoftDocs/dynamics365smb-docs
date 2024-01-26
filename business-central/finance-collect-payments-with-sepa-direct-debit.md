@@ -10,6 +10,7 @@ ms.search.form: 371, 423, 424, 427, 1208, 1207, 1230
 ms.date: 06/16/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Collect Payments with SEPA Direct Debit
 

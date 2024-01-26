@@ -11,6 +11,7 @@ ms.search.form: 5628, 5610, 5611, 5629, 5633
 ms.date: 06/15/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Dispose of or Retire Fixed Assets
 

@@ -11,6 +11,7 @@ ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
 ms.date: 08/30/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Setting Up Purchasing
 

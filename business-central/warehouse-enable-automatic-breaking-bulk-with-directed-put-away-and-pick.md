@@ -10,6 +10,7 @@ ms.search.keywords:
 ms.search.form: 5703, 7352
 ms.date: 11/04/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Enable Automatic Breaking Bulk with Directed Put-away and Pick
 

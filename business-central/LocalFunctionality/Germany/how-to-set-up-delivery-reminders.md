@@ -10,6 +10,7 @@
     ms.search.form: 5005270, 5005271, 5005271
     ms.date: 06/25/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Set Up Delivery Reminders in the German Version
 

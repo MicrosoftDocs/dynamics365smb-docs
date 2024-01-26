@@ -10,6 +10,7 @@
     ms.date: 08/31/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Set Up Item Tracking with Serial, Lot, and Package Numbers
 

@@ -11,6 +11,7 @@ ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up Resources for Projects
 

@@ -10,6 +10,7 @@
     ms.date: 04/01/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Set Up Vendors Without ABN for Calculating the Withholding Tax in the Australian Version
 

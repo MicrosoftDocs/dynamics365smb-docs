@@ -10,6 +10,7 @@ ms.search.keywords: sales tax, local
 ms.date: 06/25/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Reporting Goods/Services Tax and Harmonized Sales Tax in Canada
 

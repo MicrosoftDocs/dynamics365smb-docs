@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 06/11/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Set Up a Document Exchange Service
 

@@ -10,6 +10,7 @@
     ms.date: 06/16/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Enter Australian Business Numbers in the Australian version
 

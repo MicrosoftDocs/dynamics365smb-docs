@@ -11,6 +11,7 @@ ms.search.form: 9650, 9652
 ms.date: 03/06/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # (Legacy) Create and Modify Custom Report Layouts
 

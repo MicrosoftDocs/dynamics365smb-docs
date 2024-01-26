@@ -8,6 +8,7 @@ ms.workload: na
 ms.search.form: 256
 ms.date: 01/18/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Generate payment suggestions in the Belgian version

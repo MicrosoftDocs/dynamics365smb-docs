@@ -8,6 +8,7 @@ ms.search.keywords: Czech, Finance, Localization
 ms.date: 11/07/2023
 ms.reviewer: v-pejano
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Core localization pack for Czech (extension)

@@ -14,6 +14,7 @@
     ms.author: bholtorf
 
 
+    ms.service: dynamics-365-business-central
 ---
 # Sale of Services to Overseas Place of Supply to Registered Customer
 

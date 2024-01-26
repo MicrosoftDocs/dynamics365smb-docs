@@ -11,6 +11,7 @@ ms.search.form: 11, 130
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up Shipment Methods
 

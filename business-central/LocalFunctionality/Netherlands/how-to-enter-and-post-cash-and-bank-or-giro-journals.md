@@ -10,6 +10,7 @@
     ms.date: 04/01/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Enter and Post Cash and Bank/Giro Journals
 The cash journal and the bank/giro journal help you post transactions into the system in an easier and more direct way than using the general journal.  

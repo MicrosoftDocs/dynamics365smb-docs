@@ -10,6 +10,7 @@
     ms.date: 04/01/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Setup Best Practices: Global Planning Setup
 The **Planning** FastTab on the **Manufacturing Setup** page contains several fields that define global rules for supply planning.  

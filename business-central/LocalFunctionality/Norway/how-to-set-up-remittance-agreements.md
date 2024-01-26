@@ -10,6 +10,7 @@ ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 06/21/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Set Up Remittance Agreements in the Norwegian Version
 

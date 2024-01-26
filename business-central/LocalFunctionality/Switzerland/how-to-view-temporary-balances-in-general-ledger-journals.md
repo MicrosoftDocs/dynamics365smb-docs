@@ -10,6 +10,7 @@
     ms.search.form: 11500
     ms.date: 12/08/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # View temporary balances in general ledger journals in the Swiss version
 

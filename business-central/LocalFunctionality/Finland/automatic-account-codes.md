@@ -11,6 +11,7 @@ ms.search.form: 11207, 11208
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Automatic Account Codes in the Finnish Version
 

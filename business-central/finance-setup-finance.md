@@ -10,6 +10,7 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 08/19/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Setting Up Finance
 

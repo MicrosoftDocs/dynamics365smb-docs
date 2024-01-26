@@ -10,6 +10,7 @@
     ms.date: 12/03/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Walkthrough: Setting Up and Invoicing Sales Prepayments
 

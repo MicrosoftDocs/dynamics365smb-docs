@@ -13,6 +13,7 @@
     ms.date: 04/01/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Disregard Payment Discounts
 Use the disregard payment discount at full payment feature to accept payments when the following conditions are true:  

@@ -10,6 +10,7 @@ ms.search.keywords:
 ms.search.form: 11207, 11208
 ms.date: 03/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Automatic account codes in the Swedish Version
 

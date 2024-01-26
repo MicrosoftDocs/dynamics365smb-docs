@@ -10,6 +10,7 @@ ms.search.keywords: quickstart
 ms.date: 08/25/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 
 # Business Central Quick Starts

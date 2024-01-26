@@ -10,6 +10,7 @@
     ms.search.form: 5005270, 5005272
     ms.date: 06/25/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Set Up Delivery Reminder Terms, Levels, and Text in the Swiss Version
 

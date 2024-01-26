@@ -9,6 +9,7 @@ ms.date: 02/06/2023
 ms.custom: bap-template
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 605,
+ms.service: dynamics-365-business-central
 ---
 # Managing Intercompany Transactions
 

@@ -7,6 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/27/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations
 

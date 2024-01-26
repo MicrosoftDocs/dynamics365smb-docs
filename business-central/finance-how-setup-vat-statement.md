@@ -10,6 +10,7 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Set Up VAT Statement Templates and VAT Statement Names
 

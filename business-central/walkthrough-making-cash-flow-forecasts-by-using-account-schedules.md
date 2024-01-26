@@ -10,6 +10,7 @@
     ms.date: 08/18/2022
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Walkthrough: Making Cash Flow Forecasts Using Financial Reports
 

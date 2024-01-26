@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.keywords: OneDrive, integration, share, browser
 ms.date: 09/09/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # OneDrive for Business FAQ
 

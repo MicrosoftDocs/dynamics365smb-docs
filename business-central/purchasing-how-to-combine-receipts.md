@@ -11,6 +11,7 @@ ms.search.form: 136, 145, 146, 9308
 ms.date: 08/03/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Combine Receipts on a Single Invoice
 

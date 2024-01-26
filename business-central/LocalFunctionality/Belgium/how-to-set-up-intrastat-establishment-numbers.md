@@ -11,6 +11,7 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 06/17/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Set Up Intrastat Establishment Numbers in the Belgian Version
 

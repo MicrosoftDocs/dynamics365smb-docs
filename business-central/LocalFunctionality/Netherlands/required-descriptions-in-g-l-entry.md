@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 12/08/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Required descriptions in G-L entry
 

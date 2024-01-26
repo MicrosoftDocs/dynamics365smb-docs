@@ -10,6 +10,7 @@
     ms.date: 04/03/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Work with Payment Tolerances and Payment Discount Tolerances
 

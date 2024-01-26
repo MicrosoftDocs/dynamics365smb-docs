@@ -13,6 +13,7 @@
     ms.date: 06/21/2021
     ms.author: soalex
 
+    ms.service: dynamics-365-business-central
 ---
 # Switzerland Local Functionality
 

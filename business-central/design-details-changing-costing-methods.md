@@ -10,6 +10,7 @@ ms.search.keywords: costing methods, costing, item cost
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Design Details: Change the Costing Method for Items

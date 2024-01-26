@@ -10,6 +10,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
+  ms.service: dynamics-365-business-central
 ---
 
 # Responsible AI FAQs for Dynamics 365 Business Central

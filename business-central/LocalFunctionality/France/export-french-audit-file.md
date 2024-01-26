@@ -11,6 +11,7 @@ ms.search.form:
 ms.date: 06/13/2023
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
 ---
 
 # Export General Ledger entries for tax audits

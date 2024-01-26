@@ -11,6 +11,7 @@ ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790,
 ms.date: 12/19/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Understanding the General Ledger and Chart of Accounts
 

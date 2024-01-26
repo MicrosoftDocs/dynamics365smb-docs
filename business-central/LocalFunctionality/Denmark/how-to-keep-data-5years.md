@@ -11,6 +11,7 @@ ms.search.form:
 ms.date: 12/11/2023
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
 ---
 
 # Keep transactional data for five years in Denmark

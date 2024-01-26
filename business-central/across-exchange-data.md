@@ -9,6 +9,7 @@
     ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
     ms.date: 06/10/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Exchanging Data
 You can exchange data between [!INCLUDE[prod_short](includes/prod_short.md)] and external files or streams in connection with common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.  

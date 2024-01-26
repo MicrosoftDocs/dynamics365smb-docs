@@ -10,6 +10,7 @@ ms.search.form:  1100, 1103, 1104, 1108, 1113, 1135
 ms.date: 06/16/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Transferring and Posting Cost Entries
 

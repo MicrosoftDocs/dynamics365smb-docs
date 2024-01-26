@@ -9,6 +9,7 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 11/28/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # The tax file formats (DK) extension

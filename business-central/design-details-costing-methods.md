@@ -11,6 +11,7 @@
     ms.date: 05/12/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Design Details: Costing Methods
 

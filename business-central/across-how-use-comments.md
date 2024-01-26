@@ -10,6 +10,7 @@ ms.search.keywords: tasks, work
 ms.search.form: 124, 30
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Add Comments to Cards and Documents
 

@@ -10,6 +10,7 @@ ms.topic: conceptual
 author: jswymer
 ms.author: jswymer
 ms.date: 09/15/2023
+ms.service: dynamics-365-business-central
 ---
 
 # Inspecting pages in Business Central

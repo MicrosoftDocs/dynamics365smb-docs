@@ -11,6 +11,7 @@ ms.search.keywords: user setup
 ms.search.form: 118
 ms.date: 12/05/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Specify posting periods
 

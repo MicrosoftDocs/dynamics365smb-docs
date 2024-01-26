@@ -13,6 +13,7 @@ ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Close Accounting Periods
 

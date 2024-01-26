@@ -11,6 +11,7 @@ ms.search.form: 436, 437, 442, 431, 432, 434
 ms.date: 02/09/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Send Reminders of Outstanding Balances
 

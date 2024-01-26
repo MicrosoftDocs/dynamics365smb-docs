@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 11/07/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Print balance sheet reports in the Australian version
 

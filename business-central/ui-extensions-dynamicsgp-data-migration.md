@@ -11,6 +11,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ROBOTS: NOINDEX
 
+ms.service: dynamics-365-business-central
 ---
 # The Dynamics GP Data Migration Extension
 

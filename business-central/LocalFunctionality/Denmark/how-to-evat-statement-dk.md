@@ -11,6 +11,7 @@ ms.search.form:
 ms.date: 11/17/2023
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
 ---
 
 # Submit VAT returns electronically

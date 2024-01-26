@@ -8,6 +8,7 @@ ms.workload: na
 ms.search.keywords: Denmark, local, DK, Danish
 ms.date: 01/18/2024
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Denmark local functionality

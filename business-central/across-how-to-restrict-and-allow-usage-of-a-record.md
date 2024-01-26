@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 09/08/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Restrict and Allow Usage of a Record
 

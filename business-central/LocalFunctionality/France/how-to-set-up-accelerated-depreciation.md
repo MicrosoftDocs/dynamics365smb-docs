@@ -11,6 +11,7 @@ ms.search.form: 5610, 5611
 ms.date: 02/14/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up Accelerated Depreciation
 

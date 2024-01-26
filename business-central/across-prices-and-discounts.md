@@ -10,6 +10,7 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Set Up Prices and Discounts
 

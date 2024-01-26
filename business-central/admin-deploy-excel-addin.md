@@ -11,6 +11,7 @@ ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, in
 ms.date: 10/07/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Get the Business Central Add-in for Excel
 

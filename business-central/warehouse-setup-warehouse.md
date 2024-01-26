@@ -10,6 +10,7 @@ ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325
 ms.date: 09/28/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Setting Up Warehouse Management
 

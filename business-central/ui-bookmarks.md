@@ -10,6 +10,7 @@ ms.search.keywords:
 ms.search.form: 
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Bookmark a Page or Report on Your Role Center

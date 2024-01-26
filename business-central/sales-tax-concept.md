@@ -11,6 +11,7 @@ ms.search.form: 10, 315, 466, 467, 468, 469, 10015, 10016, 10101
 ms.date: 07/21/2022
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
 ---
 
 # Sales Tax in the Default Version of Business Central

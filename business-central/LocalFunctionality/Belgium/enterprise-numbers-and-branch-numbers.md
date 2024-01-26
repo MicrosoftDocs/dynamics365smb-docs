@@ -10,6 +10,7 @@
     ms.date: 06/25/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Enterprise Numbers and Branch Numbers in the Belgian Version
 

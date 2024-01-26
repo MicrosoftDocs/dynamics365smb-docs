@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 12/11/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 You can use the **General Ledger Setup** page to set up unrealized sales tax. You can also set up maximum correction tax amounts so that you can limit the tax correction amounts that are entered for sales and purchases. This allows you to overwrite the calculated tax when there are rounding differences between what is calculated on the purchase order, and what is calculated on the purchase invoice from the vendor.  
 

@@ -10,6 +10,7 @@ ms.search.keywords:
 ms.date: 09/22/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Delivery Date Calculation for Sales
 

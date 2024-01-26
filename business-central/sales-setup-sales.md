@@ -11,6 +11,7 @@ ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
 ms.date: 06/23/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Setting Up Sales
 

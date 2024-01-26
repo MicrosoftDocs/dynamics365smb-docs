@@ -11,6 +11,7 @@ ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Terminology in Cost Accounting
 

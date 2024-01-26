@@ -10,6 +10,7 @@
     ms.date: 06/25/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Set Up Service Items and Service Item Components
 To work with service items, you must set up the following

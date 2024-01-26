@@ -10,6 +10,7 @@
     ms.date: 12/05/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # VAT reporting in the Austrian version
 

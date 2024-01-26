@@ -10,6 +10,7 @@
     ms.date: 04/01/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Set Up Delivery Reminders in the Austrian Version
 

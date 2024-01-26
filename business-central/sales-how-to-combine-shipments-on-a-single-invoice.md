@@ -10,6 +10,7 @@
     ms.date: 12/16/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Combine Shipments on a Single Invoice
 

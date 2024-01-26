@@ -10,6 +10,7 @@
     ms.date: 04/01/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Print General Ledger Reports
 General ledger reports meet financial accounting standards, and they contain information about ledger entries, customer entries, vendor entries, and bank entries.  

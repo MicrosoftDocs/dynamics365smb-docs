@@ -10,6 +10,7 @@ ms.search.keywords: assembly bom, bills of material,
 ms.search.form: 36, 5870, 5872, 5874
 ms.date: 09/26/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Work with Assembly BOMs
 

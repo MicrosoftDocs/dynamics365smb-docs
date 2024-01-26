@@ -12,6 +12,7 @@
     ms.date: 03/17/2023
     ms.author: soalex
 
+    ms.service: dynamics-365-business-central
 ---
 # Austria Local Functionality
 The following topics describe local functionality that is unique to the Austrian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  

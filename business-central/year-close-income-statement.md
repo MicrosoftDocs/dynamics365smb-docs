@@ -12,6 +12,7 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 06/25/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Closing Income Statement Accounts
 When a fiscal year is over, you must close the periods that comprise it. To do this, you run the **Close Income Statement** batch job. This job transfers the year's result to an account in the balance sheet and closes the income statement accounts. You do this by creating lines in a journal, which you then can post.

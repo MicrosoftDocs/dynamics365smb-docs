@@ -9,6 +9,7 @@
     ms.search.form: 28071, 28073, 28081, 28082
     ms.date: 11/07/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # View posted tax credit memos in the New Zealand version
 

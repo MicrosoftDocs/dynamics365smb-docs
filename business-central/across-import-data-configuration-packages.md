@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.keywords: migration, Excel
 ms.date: 05/10/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Import Business Data from Other Finance Systems
 

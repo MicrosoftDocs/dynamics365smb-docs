@@ -11,6 +11,7 @@ ms.search.form: 841, 849, 1818
 ms.date: 12/20/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 
 # Cash Flow Overview

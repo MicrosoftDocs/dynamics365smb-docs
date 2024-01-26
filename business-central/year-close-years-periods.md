@@ -13,6 +13,7 @@ ms.search.form: 100
 ms.date: 08/18/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Closing Years and Periods
 

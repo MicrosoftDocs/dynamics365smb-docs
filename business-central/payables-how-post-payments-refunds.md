@@ -11,6 +11,7 @@ ms.search.form: 256, 233, 624, 1228
 ms.date: 07/09/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Record Payments and Refunds in the Payment Journal
 

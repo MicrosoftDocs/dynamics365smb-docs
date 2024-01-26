@@ -11,6 +11,7 @@ ms.date: 06/10/2022
 ms.author: altotovi
 ms.reviewer: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 
 # Set Up and Use the IRS 1099 Form in the US Version

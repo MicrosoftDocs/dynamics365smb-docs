@@ -10,6 +10,7 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Troubleshooting and Correcting Dimensions

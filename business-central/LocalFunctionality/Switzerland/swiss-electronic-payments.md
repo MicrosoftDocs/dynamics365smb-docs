@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 03/22/2022
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Swiss Electronic Payments
 

@@ -10,6 +10,7 @@
     ms.search.form: 5005272, 5005273, 5005274, 5005275, 5005276
     ms.date: 11/13/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Issue delivery reminders in the Austrian version
 

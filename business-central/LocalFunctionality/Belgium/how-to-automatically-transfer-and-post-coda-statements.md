@@ -9,6 +9,7 @@
     ms.search.form: 2000040
     ms.date: 12/06/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 
 # Automatically transfer and post CODA statements in the Belgian version

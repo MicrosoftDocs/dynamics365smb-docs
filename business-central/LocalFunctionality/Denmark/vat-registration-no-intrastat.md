@@ -9,6 +9,7 @@ ms.search.form: 328
 ms.date: 05/09/2022
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
 ---
 # VAT Registration Number Setup for Intrastat in the Danish Version
 

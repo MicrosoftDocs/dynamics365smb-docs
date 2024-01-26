@@ -11,6 +11,7 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 11/10/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Working with Microsoft Excel Layouts
 

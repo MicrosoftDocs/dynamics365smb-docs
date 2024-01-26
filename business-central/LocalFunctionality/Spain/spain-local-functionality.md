@@ -8,6 +8,7 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 01/12/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Spain local functionality in the Spanish version

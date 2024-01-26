@@ -12,6 +12,7 @@ ms.search.form: 9701, 9702
 ms.date: 04/01/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up a Colored Indicator on Cues for the Company or Individual Users
 

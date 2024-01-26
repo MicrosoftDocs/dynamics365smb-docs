@@ -10,6 +10,7 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.search.form: 6250
 ms.date: 06/14/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # View the Status of Synchronization Jobs

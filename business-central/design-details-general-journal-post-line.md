@@ -10,6 +10,7 @@
     ms.date: 06/14/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Design Details: General Journal Post Line
 

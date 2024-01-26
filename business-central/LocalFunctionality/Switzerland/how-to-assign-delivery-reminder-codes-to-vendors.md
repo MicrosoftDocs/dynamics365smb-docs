@@ -10,6 +10,7 @@
     ms.search.form: 5005270, 5005272
     ms.date: 11/03/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Assign delivery reminder codes to vendors in the Swiss version
 

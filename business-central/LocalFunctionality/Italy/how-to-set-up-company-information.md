@@ -10,6 +10,7 @@
     ms.date: 12/12/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Set up company information
 Fiscal documents must contain all company information. You can enter all relevant data on the **Company Information** page when setting up a company. This data is included in all reports and fiscal documents.  

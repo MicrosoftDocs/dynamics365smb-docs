@@ -10,6 +10,7 @@ ms.search.keywords:
 ms.search.form: 
 ms.date: 12/07/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Walkthrough of inbound and outbound flow in advanced warehouse Configuration

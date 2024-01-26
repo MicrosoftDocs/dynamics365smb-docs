@@ -10,6 +10,7 @@ ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # (Legacy) Import and Export Custom Report Layouts
 

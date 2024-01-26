@@ -12,6 +12,7 @@
     ms.date: 06/25/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Electronic Funds Transfer (EFT) in the Australian Version
 

@@ -10,6 +10,7 @@
     ms.date: 06/29/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Print Vendor Payments List Reports in the Austrian Version
 

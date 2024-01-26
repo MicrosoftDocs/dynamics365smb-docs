@@ -10,6 +10,7 @@ ms.search.keywords: bill, sale, invoice, order
 ms.search.form: 43, 48, 9301
 ms.date: 11/01/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Invoice sales
 

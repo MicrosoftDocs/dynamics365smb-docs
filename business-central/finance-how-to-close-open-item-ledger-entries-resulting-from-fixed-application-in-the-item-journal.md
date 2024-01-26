@@ -10,6 +10,7 @@
     ms.date: 12/12/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Close open item ledger entries resulting from fixed application in the Item Journal
 

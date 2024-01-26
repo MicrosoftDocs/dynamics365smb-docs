@@ -13,6 +13,7 @@ ms.search.form: 32000006
 ms.date: 06/18/2021
 ms.author: soalex
 
+ms.service: dynamics-365-business-central
 ---
 # Finland Local Functionality
 

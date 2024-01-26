@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 12/12/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 
 # Complying with electronic accounting regulations in Mexico

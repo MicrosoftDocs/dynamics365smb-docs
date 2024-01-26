@@ -8,6 +8,7 @@ ms.search.keywords:
 ms.search.forms: 7200, 7201
 ms.date: 09/28/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Connect to Microsoft Dataverse
 

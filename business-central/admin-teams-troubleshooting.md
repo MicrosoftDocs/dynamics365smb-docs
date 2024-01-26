@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 09/19/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
 # Troubleshoot Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]

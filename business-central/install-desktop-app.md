@@ -10,6 +10,7 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 01/11/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Get Business Central Desktop App
 

@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 11/17/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Upgrade a .DTD definition file for digital audits in the German version
 

@@ -11,6 +11,7 @@ ms.search.form: 63, 234, 625, 5224, 5237, 5238, 5239, 5240
 ms.date: 06/16/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Record and Reimburse Employees' Expenses
 

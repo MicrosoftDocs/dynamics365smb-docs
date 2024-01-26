@@ -10,6 +10,7 @@ ms.search.form: 99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 9900
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # View Load on Work and Machine Centers
 

@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.form: 1080, 1081, 1083, 1085, 1087, 1089
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # The Microsoft Pay extension
 

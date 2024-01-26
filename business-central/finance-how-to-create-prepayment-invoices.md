@@ -8,6 +8,7 @@ ms.topic: how-to
 ms.date: 10/04/2023
 ms.custom: bap-template
 ms.search.form: 42, 50, 9305, 9307
+ms.service: dynamics-365-business-central
 ---
 # Create Prepayment Invoices
 

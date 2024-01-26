@@ -11,6 +11,7 @@ ms.search.keywords: role explorer, find features, navigate
 ms.search.form: RoleExplorer, 9020, 9022, 9027, 9024
 ms.date: 08/01/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
 # Finding Pages with the Role Explorer

@@ -11,6 +11,7 @@ ms.search.form: 6, 494
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up Finance Charge Terms
 

@@ -9,6 +9,7 @@ ms.reviewer: jswymer
 ms.date: 09/28/2023
 ms.author: jswymer
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Introduction to [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI
 

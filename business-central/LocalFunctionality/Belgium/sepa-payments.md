@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 11/27/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # SEPA payments in the Belgian version
 

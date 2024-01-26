@@ -11,6 +11,7 @@ ms.search.form: 5, 16,118, 483, 495
 ms.date: 07/23/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up an Additional Reporting Currency
 

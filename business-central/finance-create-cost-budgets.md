@@ -10,6 +10,7 @@ ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Creating Cost Budgets
 

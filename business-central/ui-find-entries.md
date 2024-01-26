@@ -11,6 +11,7 @@ ms.search.keywords: find
 ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Finding Related Entries for Documents
 

@@ -10,6 +10,7 @@ ms.search.form: 9245, 99000919, 99000921, 99000922
 ms.date: 03/11/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Create a Demand Forecast
 

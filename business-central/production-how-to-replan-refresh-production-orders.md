@@ -10,6 +10,7 @@ ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
 ms.date: 06/25/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Replan or Refresh Production Orders Directly
 

@@ -13,6 +13,7 @@ ms.search.form: 5091, 5093
 ms.date: 04/01/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Adding Contacts to Segments
 After you have created a segment and entered basic information about it, you may want to add contacts to the segment. You can do this by filling in the lines on the **Segment** page manually, but it is easier and faster to use the **Add Contacts** action.

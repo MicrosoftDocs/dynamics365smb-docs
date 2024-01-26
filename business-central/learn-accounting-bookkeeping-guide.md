@@ -11,6 +11,7 @@ ms.search.form: 16, 39, 108
 ms.date: 03/14/2023
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
 ---
 
 # Accounting and bookkeeping

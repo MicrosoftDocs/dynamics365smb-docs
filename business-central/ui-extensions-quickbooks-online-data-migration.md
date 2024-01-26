@@ -10,6 +10,7 @@ ms.search.keywords: extension, migrate, data, QuickBooks, import
 ms.search.form: 1830, 
 ms.date: 06/24/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # The QuickBooks Online Data Migration Extension

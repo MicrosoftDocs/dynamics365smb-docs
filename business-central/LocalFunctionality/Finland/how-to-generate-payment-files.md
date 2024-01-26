@@ -11,6 +11,7 @@ ms.search.form: 32000000, 32000001, 32000002, 32000004, 32000005, 32000006
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Generate Payment Files in the Finnish Version
 

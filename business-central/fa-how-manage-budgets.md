@@ -11,6 +11,7 @@ ms.search.form: 5610, 5611
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Manage Budgets for Fixed Assets
 

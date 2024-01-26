@@ -10,6 +10,7 @@ ms.search.keywords: customer price groups, discounts, sales prices
 ms.date: 09/30/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 
 # Set Up Customer Price Groups

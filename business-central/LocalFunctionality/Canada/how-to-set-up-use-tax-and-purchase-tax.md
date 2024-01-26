@@ -10,6 +10,7 @@
     ms.date: 06/17/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Set Up Use Tax and Purchase Tax in the Canadian Version
 

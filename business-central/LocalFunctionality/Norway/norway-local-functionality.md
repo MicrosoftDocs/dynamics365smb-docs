@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 06/21/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Norway Local Functionality in the Norwegian Version
 

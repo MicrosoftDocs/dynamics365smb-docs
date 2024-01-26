@@ -10,6 +10,7 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 108, 198, 490
 ms.date: 09/22/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Financial Business Intelligence
 

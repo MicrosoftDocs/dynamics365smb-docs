@@ -8,6 +8,7 @@ ms.search.keywords:
 ms.reviewer: bholtorf
 ms.date: 11/07/2023
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 # Russia local functionality
 

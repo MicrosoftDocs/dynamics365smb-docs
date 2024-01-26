@@ -10,6 +10,7 @@
     ms.date: 06/08/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Design Details: Reservation, Order Tracking, and Action Messaging
 The reservations system is comprehensive and includes the interrelated and parallel features of Order Tracking and Action Messaging.  

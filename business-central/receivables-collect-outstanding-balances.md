@@ -11,6 +11,7 @@ ms.search.form: 6, 25, 440, 443, 448, 452
 ms.date: 02/09/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Collect Outstanding Balances
 

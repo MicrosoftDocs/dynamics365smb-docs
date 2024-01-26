@@ -11,6 +11,7 @@ ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up Basic Warehouses with Operations Areas
 

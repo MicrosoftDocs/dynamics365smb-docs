@@ -10,6 +10,7 @@ ms.search.keywords: trade, partial deliveries, customer sales order, shipping ad
 ms.search.form: 42, 48, 9305
 ms.date: 11/03/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Sell products with a customer sales order
 

@@ -9,6 +9,7 @@ ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.search.form: 1950, 1951, 
 ms.date: 12/06/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # The Late Payment Prediction Extension
 

@@ -11,6 +11,7 @@ ms.search.form: 1660, 1661, 36601
 ms.date: 06/16/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Importing Payroll Transactions
 

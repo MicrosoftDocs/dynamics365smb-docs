@@ -10,6 +10,7 @@ ms.search.keywords:
 ms.date: 06/17/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Print the Intrastat Form Report in the Belgian Version
 

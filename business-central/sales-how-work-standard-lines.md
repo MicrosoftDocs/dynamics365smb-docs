@@ -11,6 +11,7 @@ ms.search.form: 172
 ms.date: 07/06/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Create Recurring Sales
 

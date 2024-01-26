@@ -10,6 +10,7 @@ ms.search.keywords: API templates, configuring templates
 ms.search.form: 5469
 ms.date: 06/07/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Configure API Templates

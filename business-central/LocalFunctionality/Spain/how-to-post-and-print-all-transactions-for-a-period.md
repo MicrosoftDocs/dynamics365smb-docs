@@ -11,6 +11,7 @@
     ms.search.keywords:
     ms.date: 04/01/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Post and Print All Transactions for a Period
 Companies must submit their business transaction entries, grouped by transaction numbers, in an annual report to tax authorities. Every general ledger transaction must have a sequential number for the fiscal year. Posting transactions will assign transaction numbers to general ledger entries.  

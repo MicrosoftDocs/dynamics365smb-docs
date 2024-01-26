@@ -10,6 +10,7 @@
     ms.search.form: 3010531, 3010532
     ms.date: 06/21/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Swiss Electronic Payments Using ESR in the Swiss Version
 The Einzahlungsschein mit Referenznummer (ESR) electronic payment method is an electronic debtor service that allows the customer to bill open invoices in Swiss Francs (CHF) and Euros (EUR), and to post incoming payments efficiently. The reference number, or code line, contains all relevant bookkeeping data.  

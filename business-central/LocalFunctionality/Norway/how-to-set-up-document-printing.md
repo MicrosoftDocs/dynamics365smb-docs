@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 04/01/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Set Up Document Printing
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can print the sales reports that use the required giro specifications by using different paper types and paper trays.  

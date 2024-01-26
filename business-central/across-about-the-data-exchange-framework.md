@@ -10,6 +10,7 @@ ms.search.keywords: Data exchange framework, data files, data exchange, electron
 ms.search.form: 189, 
 ms.date: 12/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # About the Data Exchange Framework
 

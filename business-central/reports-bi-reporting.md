@@ -11,6 +11,7 @@ ms.reviewer: bholtorf
 ms.date: 09/22/2022
 ms.author: kepontop
 
+ms.service: dynamics-365-business-central
 ---
 # Business Intelligence and Reporting Overview
 

@@ -11,6 +11,7 @@
     ms.date: 03/02/2022
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Belgian VAT
 

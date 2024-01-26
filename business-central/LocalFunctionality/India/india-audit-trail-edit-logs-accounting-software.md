@@ -10,6 +10,7 @@ ms.search.keywords: India, Indian, local, IN, English
 ms.date: 06/09/2023
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
 ---
 
 # Audit trail and edit logs for accounting software in India

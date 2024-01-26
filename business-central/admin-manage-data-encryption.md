@@ -9,6 +9,7 @@
     ms.search.keywords:
     ms.date: 12/12/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Managing data encryption
 You can encrypt data on the [!INCLUDE[prod_short](includes/prod_short.md)] server by generating new or importing existing encryption keys that you enable on the [!INCLUDE[prod_short](includes/prod_short.md)] server instance that connects to the database.

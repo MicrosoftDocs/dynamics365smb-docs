@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.form: 663,
 ms.date: 05/31/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Set Up Approval Users
 

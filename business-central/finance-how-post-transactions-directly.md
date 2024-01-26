@@ -11,6 +11,7 @@ ms.search.form: 39, 251
 ms.date: 06/16/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Post Transactions Directly to the General Ledger
 

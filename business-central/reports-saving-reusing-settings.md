@@ -10,6 +10,7 @@ ms.search.keywords: customization, personalization
 ms.date: 12/21/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Manage Saved Settings for Reports and Batch jobs
 

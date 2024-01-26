@@ -11,6 +11,7 @@ ms.search.form: 32000000, 32000001, 32000002, 32000004, 32000005, 32000006
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up Bank Reference Files in the Finnish Version
 To process electronic payments, you must first set up bank reference files to determine how payment data should be imported or exported.  

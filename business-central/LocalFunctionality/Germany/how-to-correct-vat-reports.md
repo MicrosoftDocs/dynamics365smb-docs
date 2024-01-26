@@ -11,6 +11,7 @@
     ms.date: 06/18/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Correct VAT Reports in the German Version
 

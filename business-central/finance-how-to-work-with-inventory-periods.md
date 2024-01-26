@@ -11,6 +11,7 @@ ms.search.form: 5828
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Work with Inventory Periods
 

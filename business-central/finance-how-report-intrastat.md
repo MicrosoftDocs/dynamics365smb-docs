@@ -10,6 +10,7 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077
 ms.date: 01/10/2024
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 # Work with Intrastat reporting
 

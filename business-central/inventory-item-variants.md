@@ -8,6 +8,7 @@ ms.search.keywords: item, variant, finished good, component, raw material, assem
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
 ms.date: 09/26/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Manage Product Variants
 

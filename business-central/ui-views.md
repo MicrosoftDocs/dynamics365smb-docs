@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.form: 
 ms.date: 11/02/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Save and personalize List Views
 

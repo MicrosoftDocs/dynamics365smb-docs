@@ -11,6 +11,7 @@
     ms.date: 07/07/2023
     ms.author: altotovi
 
+    ms.service: dynamics-365-business-central
 ---
 
 # EU third-party purchase transactions

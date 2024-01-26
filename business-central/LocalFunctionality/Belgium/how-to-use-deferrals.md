@@ -11,6 +11,7 @@ ms.search.form: 279, 1700, 1701
 ms.date: 03/13/2023
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
 ---
 
 # Deferrals in Sales ledger and Purchase ledger reports

@@ -11,6 +11,7 @@ ms.search.form: 5264, 5266, 5267, 5270,
 ms.date: 08/23/2023
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
 ---
 
 # Export accounting data to Regnskab Basis in Denmark

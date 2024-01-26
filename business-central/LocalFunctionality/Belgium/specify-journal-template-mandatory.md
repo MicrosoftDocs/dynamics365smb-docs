@@ -9,6 +9,7 @@ ms.search.keywords: 118
 ms.date: 05/24/2022
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
 ---
 
 # Make Journal Templates Mandatory in the Belgian Version

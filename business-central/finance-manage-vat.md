@@ -11,6 +11,7 @@ ms.search.form: 118, 472, 737, 743
 ms.date: 01/31/2023
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
 ---
 # VAT management overview
 Value Added Tax (VAT) is an indirect tax on the consumption of goods and services. VAT is levied at each stage of the supply chain where value is added from initial production to the point of sale. To get started with VAT management, see the following topics.  

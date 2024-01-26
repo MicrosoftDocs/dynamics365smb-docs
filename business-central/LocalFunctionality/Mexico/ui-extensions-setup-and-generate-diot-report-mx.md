@@ -11,6 +11,7 @@ ms.search.form: 27030, 27031, 27032, 27033, 27034
 ms.date: 06/24/2021
 ms.author: soalex
 
+ms.service: dynamics-365-business-central
 ---
 
 # Set Up and Generate DIOT Reports

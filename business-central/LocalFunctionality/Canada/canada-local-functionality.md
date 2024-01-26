@@ -12,6 +12,7 @@
     ms.date: 06/17/2021
     ms.author: soalex
 
+    ms.service: dynamics-365-business-central
 ---
 # Local Functionality in the Canadian Version
 

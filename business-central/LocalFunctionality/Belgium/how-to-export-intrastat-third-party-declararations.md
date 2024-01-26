@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 11/22/2023
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 # Export intrastat third-party declarations in the Belgian version
 

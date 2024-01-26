@@ -12,6 +12,7 @@ ms.search.form: 9204,
 ms.date: 04/01/2021
 ms.author: soalex
 
+ms.service: dynamics-365-business-central
 ---
 # Manage user settings and preferences
 

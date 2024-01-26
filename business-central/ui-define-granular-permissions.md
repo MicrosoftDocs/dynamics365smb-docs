@@ -263,7 +263,9 @@ Any permission sets that are already assigned to the user are displayed in the *
 3. Choose the **Edit** action to open the **User Card** page.
 4. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. For more information, see [To create or edit a permission set](ui-define-granular-permissions.md#to-create-a-permission-set).
 
-### To assign a permission set on the Permission Set by User page
+   Use the **Company** field to apply to permission set to a specific company. If you leave the field blank, then it applies to all companies.
+
+## To assign a permission set on the Permission Set by User page
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. On the **Users** page, choose the **Permission Set by User** action.

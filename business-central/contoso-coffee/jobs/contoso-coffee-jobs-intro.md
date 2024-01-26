@@ -6,6 +6,7 @@ ms.author: andreipa
 ms.topic: how-to
 ms.date: 05/31/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
 # Introduction to Contoso Coffee Jobs and Project Management

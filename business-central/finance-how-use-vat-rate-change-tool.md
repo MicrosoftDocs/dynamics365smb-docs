@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.search.form: 550, 
 ms.date: 06/16/2021
-ms.author: andregu
+ms.author: jswymer
 
 ms.service: dynamics-365-business-central
 ---

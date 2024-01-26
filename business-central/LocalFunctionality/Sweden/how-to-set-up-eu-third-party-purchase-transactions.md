@@ -3,9 +3,7 @@
     description: The following topic explains how to set up EU Third-Party Purchase Transactions with the Swedish version of Business Central.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 08/07/2023
     ms.author: bholtorf

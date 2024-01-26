@@ -4,7 +4,6 @@ description: Learn how to set up the 1099 tax form boxes so that you can submit 
 author: altotovi
 
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: local, 1099
 ms.search.form: 26, 29, 50, 51, 10015, 10016, 10018, 10900
 ms.date: 06/10/2022

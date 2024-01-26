@@ -3,9 +3,7 @@
     description: In Iceland, you must send a report to the government if an invoice is printed more than once, using electronic invoicing.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 11/23/2023
     ms.author: bholtorf

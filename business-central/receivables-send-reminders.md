@@ -3,9 +3,7 @@ title: Send Reminders of Outstanding Balances
 description: Learn how to issue a reminder to a customer about an overdue payment.  is due and add charges, or fees to the payment because of the delay.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 436, 437, 442, 431, 432, 434
 ms.date: 02/09/2022

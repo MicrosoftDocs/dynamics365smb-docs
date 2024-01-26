@@ -3,9 +3,7 @@
     description: Specifies Basic Setups required to keep track of entrance and exit of materials or other entities, to and from the organization’s premises.
     author: v-debapd
     ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords: India, local, IN, English
     ms.date: 12/12/2023
     ms.author: bholtorf

@@ -3,9 +3,7 @@
     description: Learn how to calculate and post the withholding tax (WHT) in the New Zealand version of Business Central.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 11/10/2023
     ms.author: bholtorf

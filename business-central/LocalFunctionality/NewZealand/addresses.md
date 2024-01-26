@@ -3,9 +3,7 @@
     description: This article explains how to benefit from the address bar coding system in which every address is assigned a unique Delivery Point Identifier (DPID).
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 11/23/2023
     ms.author: bholtorf

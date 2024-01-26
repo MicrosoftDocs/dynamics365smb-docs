@@ -3,9 +3,7 @@
     description: This topic describes the design behind item tracking in Business Central as it matures through product versions.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords: design, item, tracking, tracing
     ms.date: 06/08/2021
     ms.author: bholtorf

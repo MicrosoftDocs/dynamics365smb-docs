@@ -3,9 +3,7 @@ title: Financial Business Intelligence
 description: Business Central contains many features to help you gather, analyze, and share valuable company data for business intelligence and decision-making.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 108, 198, 490
 ms.date: 09/22/2022

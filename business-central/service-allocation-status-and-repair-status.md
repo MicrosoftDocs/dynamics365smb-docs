@@ -3,9 +3,7 @@
     description: Learn about the relationship between the repair status of service items and the allocation status of the allocation entries for them.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords: resources, allocation, status, repairs
     ms.date: 04/01/2021
     ms.author: bholtorf

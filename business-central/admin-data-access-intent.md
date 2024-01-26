@@ -4,9 +4,7 @@ description: Change the database access intent for reports, API pages, and queri
 author: jswymer
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 9880
 ms.date: 04/01/2021
 ms.author: jswymer

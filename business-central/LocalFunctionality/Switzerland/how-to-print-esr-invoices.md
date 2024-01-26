@@ -3,9 +3,7 @@
     description: This article describes how you can print an Einzahlungsschein mit Referenznummer (ESR) payment slip invoices and coupons.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.search.form: 3010531, 3010532
     ms.date: 12/08/2023

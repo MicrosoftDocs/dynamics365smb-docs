@@ -3,9 +3,7 @@ title: Business Intelligence Quick Start
 description: Learn how Business Central helps you transform company data into actionable insights using business intelligence reports and dashboards.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: 
 ms.date: 08/17/2022

@@ -3,7 +3,6 @@ title: Russia local functionality
 description: The following articles describe the local functionality in the Russian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
 author: AliiaSalikhova
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords:
 ms.reviewer: bholtorf
 ms.date: 11/07/2023

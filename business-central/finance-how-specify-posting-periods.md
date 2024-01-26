@@ -4,9 +4,7 @@ description: You specify posting periods (posting start and end dates) to set up
 author: brentholtorf
 editor: ''
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: user setup
 ms.search.form: 118
 ms.date: 12/05/2023

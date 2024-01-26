@@ -3,9 +3,7 @@
     description: This article describes a scenario 2 where you can use telebanking for trade with domestic and foreign customers and vendors.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 12/08/2023
     ms.author: bholtorf

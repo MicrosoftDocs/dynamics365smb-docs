@@ -3,9 +3,7 @@ title: Setting the Report Layout
 description: Learn how to set the layout that's used on a report when previewing and printing.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 08/12/2022

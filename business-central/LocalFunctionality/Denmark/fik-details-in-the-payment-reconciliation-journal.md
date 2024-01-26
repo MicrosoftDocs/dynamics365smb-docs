@@ -3,9 +3,7 @@
     description: The Transaction Text field shows information about the automatic application of payments using the Danish FIK standard.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 12/12/2023
     ms.author: bholtorf

@@ -3,9 +3,7 @@
     description: The Vendor Payments List report provides a list of payments for each vendor in the German version. The report can sort payments chronologically or grouped by vendor.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 11/28/2023
     ms.author: bholtorf

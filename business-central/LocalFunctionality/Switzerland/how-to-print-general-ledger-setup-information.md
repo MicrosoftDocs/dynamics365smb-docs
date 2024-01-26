@@ -3,9 +3,7 @@
     description: Before you use Business Central in your daily business, you can run the G/L Setup Information report to display the master data that you have set up.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/25/2021
     ms.author: bholtorf

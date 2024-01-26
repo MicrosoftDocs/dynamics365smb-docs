@@ -3,9 +3,7 @@ title: Company Information Quick Start
 description: Learn how to fill in the first critical fields about your company in Business Central by reading this Quick Start article.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: 1,
 ms.date: 03/14/2022

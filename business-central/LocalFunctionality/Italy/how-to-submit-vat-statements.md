@@ -3,9 +3,7 @@ title: How to Submit VAT Statements [IT]
 description: VAT can be deducted if the goods and services that are purchased by a company are used in the production of its income. 
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 12121, 12123
 ms.date: 06/18/2021

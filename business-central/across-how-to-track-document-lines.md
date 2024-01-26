@@ -3,9 +3,7 @@
     description: View documents related to sales and purchase order lines, like quotes, shipments, receipts, and blanket orders, to identify documents used to process orders.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.form: 6560, 42, 50, 507, 509
     ms.date: 06/11/2021
     ms.author: bholtorf

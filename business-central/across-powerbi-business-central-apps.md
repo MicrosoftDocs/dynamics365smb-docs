@@ -3,9 +3,7 @@ title: Use the Business Central apps in Power BI
 description: Getting insight, business intelligence, and KPIs from your Business Central data is easy with the Business Central apps for Power BI.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 09/07/2023
 ms.author: jswymer

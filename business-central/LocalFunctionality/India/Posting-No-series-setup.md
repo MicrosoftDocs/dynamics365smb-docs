@@ -6,9 +6,7 @@
 
     
     ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords: India, local, IN, English
     ms.date: 09/20/2021
     ms.author: bholtorf

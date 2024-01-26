@@ -3,9 +3,7 @@ title: Using the QuickBooks Payroll file import extension | Microsoft Docs
 description: This article describes how to use the extension to import salary and wage transactions from QuickBooks.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 12/07/2023
 ms.author: bholtorf

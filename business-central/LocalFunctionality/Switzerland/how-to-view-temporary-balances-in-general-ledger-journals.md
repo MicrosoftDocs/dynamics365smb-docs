@@ -3,9 +3,7 @@
     description: You can view temporary balances that show how the general ledger account balances would be affected by posting a new transaction in the general journal.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.search.form: 11500
     ms.date: 12/08/2023

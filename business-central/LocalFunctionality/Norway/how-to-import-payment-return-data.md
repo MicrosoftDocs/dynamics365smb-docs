@@ -3,9 +3,7 @@
     description: This article explains how to import receipt and settlement returns, use the Rem. payment order – import page.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 12/20/2023
     ms.author: bholtorf

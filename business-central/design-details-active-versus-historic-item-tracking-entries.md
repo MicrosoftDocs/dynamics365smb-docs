@@ -3,9 +3,7 @@
     description: When parts of a document line quantity are posted, only that quantity is transferred to the item ledger entries and its item tracking numbers.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/15/2021
     ms.author: bholtorf

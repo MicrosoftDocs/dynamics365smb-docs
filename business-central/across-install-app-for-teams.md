@@ -10,6 +10,7 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
 # Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams

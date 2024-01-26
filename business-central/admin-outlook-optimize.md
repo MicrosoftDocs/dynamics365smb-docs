@@ -9,6 +9,7 @@ ms.workload: na
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
 ms.date: 12/06/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Optimize Outlook for your Business Inbox 
 

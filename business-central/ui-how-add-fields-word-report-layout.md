@@ -11,6 +11,7 @@
     ms.date: 11/25/2021
     ms.author: jswymer
 
+    ms.service: dynamics-365-business-central
 ---
 
 # Work with Word Layouts

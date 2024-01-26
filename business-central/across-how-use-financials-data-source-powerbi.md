@@ -10,6 +10,7 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 09/07/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
 # Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data

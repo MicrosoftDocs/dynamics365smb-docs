@@ -11,6 +11,7 @@ ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Wo
 ms.date: 03/16/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Analyzing Report Data with Excel and XML
 

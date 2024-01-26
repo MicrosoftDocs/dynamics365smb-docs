@@ -7,6 +7,7 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650, 9660
 ms.date: 01/18/2024
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Report and Document Layouts Overview
 

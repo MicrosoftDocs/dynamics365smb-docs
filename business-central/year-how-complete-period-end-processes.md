@@ -12,6 +12,7 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ag
 ms.date: 08/29/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Overview of Tasks to Close Accounting Periods
 

@@ -6,6 +6,7 @@ ms.topic: get-started
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 09/28/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Enabling Power BI Integration With [!INCLUDE[prod_short](includes/prod_short.md)]
 

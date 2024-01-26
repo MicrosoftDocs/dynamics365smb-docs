@@ -11,6 +11,7 @@ ms.search.form: 9650, 9652
 ms.date: 03/23/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Get Started Creating Report Layouts
 

@@ -7,6 +7,7 @@ ms.workload: na
 ms.search.keywords:
 ms.date: 02/28/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
 # Business Central and OneDrive for Business Integration

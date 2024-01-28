@@ -25,6 +25,7 @@ The difference between canceling or correcting a posted sales invoice that has n
 | --- | --- |
 | **Cancel** |The posted sales invoice is canceled. A corrective sales credit memo is automatically created and posted to void the initial posted sales invoice. On the initial posted sales invoice, the **Canceled** and **Paid** check boxes are selected. |
 | **Correct** |The posted sales invoice is canceled. A new sales invoice with the same information is created, unless the posted sales order was posted from a sales order. In that case, we suggest you cancel the posted sales invoice instead and then make the correction and continue the sales process from the original sales order. <br/><br/>The new sales invoice has a different number than the initial sales invoice. A corrective sales credit memo is automatically created and posted to void the initial posted sales invoice. On the initial posted sales invoice, the **Canceled** and **Paid** check boxes are selected. |
+| **Create Corrective Credit Memo** |A new sales credit memo is created with the same information. The new sales credit memo may be adjusted before posting and will be applied to the original invoice when posted. |
 
 When you correct or cancel a posted sales invoice, the corrective sales credit memo is applied to all general ledger and inventory ledger entries that were created when the initial sales invoice was posted. This reverses the posted sales invoice in your financial records and leaves the corrective posted sales credit memo for your audit trail.  
 

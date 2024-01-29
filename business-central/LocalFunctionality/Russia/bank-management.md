@@ -3,7 +3,7 @@ title: Bank management in Russia
 description: Russian enhancements include bank management.
 author: DianaMalina
 ms.topic: conceptual
-ms.search.keywords
+ms.search.keywords:
 ms.date: 11/14/2023
 ms.reviewer: bholtorf
 ms.author: soalex

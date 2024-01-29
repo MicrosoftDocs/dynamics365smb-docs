@@ -38,7 +38,7 @@ On most pages where files are available, such as the Report Inbox or files that 
 With OneDrive integration set up, a couple other familiar features will automatically use OneDrive for saving files instead of saving files on your device:
 
 - The **Open in Excel** and **Edit in Excel** actions on list pages will automatically copy the Excel file to OneDrive, then open it in Excel Online. For more information, see [Viewing and Editing in Excel](across-work-with-excel.md).
-- Sending a report to an Excel or Word file will automatically copy the file to OneDrive, then open it in the Excel or Word online. For more information, see [Saving a report to a file](ui-work-report.md#saving-a-report-to-a-file).
+- Sending a report to an Excel or Word file will automatically copy the file to OneDrive, then open it in the Excel or Word online. For more information, see [Saving a report to a file](ui-work-report.md#save-a-report-to-a-file).
 
 These features aren't turned on by default. But as an administrator, you can easily turn them on by using the **OneDrive Setup** assisted setup guide.
 

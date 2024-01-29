@@ -3,9 +3,7 @@
     description: This topic tells you how to calculate finance charges with multiple interest rates for a specific period. 
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.form: 6, 431, 432, 572
     ms.date: 06/16/2021
     ms.author: bholtorf

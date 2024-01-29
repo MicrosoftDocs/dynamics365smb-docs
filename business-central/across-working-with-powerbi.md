@@ -4,9 +4,7 @@ description: Get insight, business intelligence, and KPIs from your Business Cen
 author: jswymer
 
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 12/19/2023
 ms.author: jswymer

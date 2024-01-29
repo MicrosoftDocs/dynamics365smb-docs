@@ -3,9 +3,7 @@
     description: Read about how to submit an annual report of purchases and sales for payments that were made before or after the due date.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.search.form: 7000048
     ms.date: 06/21/2021

@@ -3,9 +3,7 @@
     description: Inventory valuation is the determination of the cost of an inventory item.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 12/13/2023
     ms.author: bholtorf

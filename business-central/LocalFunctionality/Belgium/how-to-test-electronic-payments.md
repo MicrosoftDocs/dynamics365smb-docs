@@ -4,9 +4,7 @@ description: After you have set up electronic banking and generated payment sugg
 
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 2000001
 ms.date: 06/17/2021
 ms.author: bholtorf

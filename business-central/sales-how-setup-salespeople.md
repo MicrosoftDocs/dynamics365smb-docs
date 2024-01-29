@@ -3,9 +3,7 @@ title: Set Up a Salesperson (contains video) | Microsoft Docs'
 description: You can set up a identifier for each of your salespeople, so you can track an individual's performance or assign a salesperson to a contact.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: bholtorf

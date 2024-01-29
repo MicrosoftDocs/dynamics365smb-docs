@@ -4,7 +4,6 @@ description: What to if control add-ins or custom controls are resulting in redu
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
-ms.tgt_pltfrm: na
 ms.topic: conceptual
 author: brentholtorf
 ms.author: bholtorf

@@ -3,7 +3,6 @@ title: Business Central and OneDrive for Business Integration
 description: You can use OneDrive for Business to store, manage, and share files, such as reports or file attachments. Also if you spell it One Drive. 
 author: jswymer
 ms.topic: overview
-ms.workload: na
 ms.search.keywords:
 ms.date: 02/28/2022
 ms.author: jswymer

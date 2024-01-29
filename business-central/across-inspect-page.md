@@ -4,7 +4,6 @@ description: Use the page inspection feature to zoom into details about the page
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
-ms.tgt_pltfrm: na
 ms.topic: conceptual
 
 author: jswymer

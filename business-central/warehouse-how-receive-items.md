@@ -5,9 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.topic: how-to
 ms.date: 09/02/2022
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008
 ms.service: dynamics-365-business-central
 ---

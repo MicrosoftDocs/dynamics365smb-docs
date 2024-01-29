@@ -3,9 +3,7 @@ title: Reporting Sales Tax [CA]
 description: Learn about how sales tax is set up, and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work in Canada.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: local
 ms.date: 10/12/2021
 ms.author: bholtorf

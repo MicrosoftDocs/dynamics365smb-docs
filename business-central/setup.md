@@ -3,9 +3,7 @@ title: Overview of Tasks to Set Up Business Central
 description: Read an overview of the tasks necessary to set up, initialize, and configure Business Central to suit your needs.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: configure, initialize
 ms.date: 12/19/2023
 ms.author: bholtorf

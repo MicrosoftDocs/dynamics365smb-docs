@@ -3,9 +3,7 @@
     description: After you have set up your bins, you can specify the items that you want to store in them, and set up rules that control how often bins are refilled.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.form: 7374
     ms.date: 04/01/2021
     ms.author: bholtorf

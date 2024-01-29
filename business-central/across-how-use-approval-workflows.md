@@ -3,7 +3,6 @@ title: Approve or Reject Documents in Workflows
 description: Request, reject, or delegate an approval of, for example, a purchase or sales document, as part of a workflow.
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.search.form: 654, 662, 1500, 
 ms.date: 09/12/2022

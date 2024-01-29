@@ -3,9 +3,7 @@
     description: The posting interface uses posting engine functions to prepare and insert general ledger entry and VAT entry records. 
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/15/2021
     ms.author: bholtorf

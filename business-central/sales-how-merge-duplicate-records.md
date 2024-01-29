@@ -3,9 +3,7 @@ title: Merge Duplicate Customer or Vendor Records
 description: Describes how to consolidate information about customers or vendors when you have duplicate entries about some of them.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: bholtorf

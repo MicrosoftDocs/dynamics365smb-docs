@@ -3,9 +3,7 @@ title: Adjust the Amount of Detail You See in Lists
 description: You can display lists as detailed rows that provide most information, or as tiles that are easy to visually scan and may include picture thumbnails.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: personalization
 ms.search.form: 31
 ms.date: 04/01/2021

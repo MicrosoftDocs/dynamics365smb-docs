@@ -3,9 +3,7 @@ title: About the Data Exchange Framework
 description: This article explains how to use the Data Exchange Framework to manage the exchange of data in business documents like invoices with your business partners.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file, OCR
 ms.search.form: 189, 
 ms.date: 12/13/2023

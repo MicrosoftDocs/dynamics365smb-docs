@@ -3,9 +3,7 @@
     description: You must set up data export record sources to be able to export data for a digital audit based on GDPdU.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/27/2022
     ms.author: bholtorf

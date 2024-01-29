@@ -3,7 +3,6 @@ title: Send Documents and Emails
 description: You can define content to insert into the body of an email message, for example, a PayPal link. You can also attach documents to email messages.
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: 41,
 ms.date: 04/01/2021

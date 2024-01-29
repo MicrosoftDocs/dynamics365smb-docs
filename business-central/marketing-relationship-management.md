@@ -4,9 +4,7 @@ description: The relationship management features support your sales efforts and
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: contact, prospect, client
 ms.search.forms: 9076, 9026
 ms.date: 06/22/2021

@@ -5,9 +5,7 @@
 
     
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.reviewer: bholtorf
     ms.date: 06/14/2021

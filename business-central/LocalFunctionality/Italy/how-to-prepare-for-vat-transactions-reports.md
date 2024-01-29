@@ -3,9 +3,7 @@
     description: The following article explains how to prepare and submit the periodic VAT Transactions Reports to the tax authorities. 
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 11/17/2023
     ms.author: bholtorf

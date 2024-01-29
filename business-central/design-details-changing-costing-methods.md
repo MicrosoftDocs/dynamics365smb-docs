@@ -3,9 +3,7 @@ title: Design Details - Changing Costing Methods for Items
 description: Learn how to assign a different costing method to an item although you have already used the item in transactions.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: costing methods, costing, item cost
 ms.search.form: 8645
 ms.date: 06/08/2021

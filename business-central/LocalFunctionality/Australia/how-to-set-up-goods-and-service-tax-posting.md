@@ -3,9 +3,7 @@
     description: Describes the steps to start applying goods and services tax (GST) to goods and services to the Australian Taxation Office (ATO).
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.form: 28043
     ms.date: 12/07/2023
     ms.author: bholtorf

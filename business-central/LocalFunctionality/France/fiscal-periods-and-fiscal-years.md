@@ -3,9 +3,7 @@ title: Fiscal Periods and Fiscal Years (FR)
 description: A fiscal year is typically divided into 12 monthly fiscal periods. In the French version of Business Central, you can have two fiscal years open at the same time.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.author: bholtorf

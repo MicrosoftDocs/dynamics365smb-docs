@@ -3,9 +3,7 @@ title: Breaking Bulk with Directed Put-away and Pick
 description: Learn how to enable automatic breaking bulk with directed put-away and pick, as well as breakbulking in picks, put-aways, movements, and more.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 5703, 7352
 ms.date: 11/04/2022

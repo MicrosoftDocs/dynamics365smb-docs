@@ -3,7 +3,6 @@ title: Set up and use the IRS 1096 form [US]
 description: Learn how to set up the 1096 tax form boxes so that you can submit the required reports.
 author: altotovi
 ms.topic: how-to
-ms.workload: na
 ms.search.keywords: local, 1096, irs
 ms.search.form: 10019, 10020, 10021
 ms.date: 12/12/2023

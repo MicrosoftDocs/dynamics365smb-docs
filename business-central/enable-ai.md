@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: 7775
 ms.collection:
   - bap-ai-copilot
-  ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
 ---
 
 # Configure Copilot and AI capabilities 

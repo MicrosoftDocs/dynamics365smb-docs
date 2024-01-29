@@ -9,7 +9,6 @@ ms.date: 11/30/2023
 ms.custom: bap-template 
 ms.collection:
   - bap-ai-copilot
-  ms.service: dynamics-365-business-central
 ---
 
 # Copilot data movement across geographies 

@@ -82,7 +82,7 @@ In the **OneDrive Setup** assisted setup guide for setting up OneDrive integrati
 |Option|Description|
 |------|----------|
 |**Use OneDrive for app features**|If you turn on this option, the **Open in OneDrive** and **Share** actions are made available on files in Business Central, like files attached to documents or in the report inbox. These actions let users copy, open, and share files in OneDrive. For more information, see [Opening and Sharing Business Central Files in OneDrive](across-share-onedrive.md).
-|**Use OneDrive for system features**|Turning on this option activates the following features:<ul><li> The **Open in Excel** and **Edit in Excel** actions on list pages will automatically copy the Excel file to OneDrive, then open it in Excel Online. For more information, see [Viewing and Editing in Excel](across-work-with-excel.md).</li><li> Sending a report to an Excel or Word file will automatically copy the file to OneDrive, then open it in the Excel or Word online. For more information, see [Saving a report to a file](ui-work-report.md#saving-a-report-to-a-file).|
+|**Use OneDrive for system features**|Turning on this option activates the following features:<ul><li> The **Open in Excel** and **Edit in Excel** actions on list pages will automatically copy the Excel file to OneDrive, then open it in Excel Online. For more information, see [Viewing and Editing in Excel](across-work-with-excel.md).</li><li> Sending a report to an Excel or Word file will automatically copy the file to OneDrive, then open it in the Excel or Word online. For more information, see [Saving a report to a file](ui-work-report.md#save-a-report-to-a-file).|
 
 ## Will Microsoft continue to improve the integration to OneDrive?
 

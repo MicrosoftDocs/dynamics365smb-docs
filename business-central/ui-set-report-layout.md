@@ -24,7 +24,7 @@ There are a few ways to set which layout a report uses. Each way has advantages,
 
 - From the report request page
 
-  When setting up a report to run, the report request page includes the **Reports Layout** field that shows the current default layout used by the report. You can use this field to temporarily switch to another available layout the report you're running. After you run the report, the layout will revert to the default layout again. For more information, see [Run and Print Reports](ui-work-report.md#switching-the-report-layout).
+  When setting up a report to run, the report request page includes the **Reports Layout** field that shows the current default layout used by the report. You can use this field to temporarily switch to another available layout the report you're running. After you run the report, the layout will revert to the default layout again. For more information, see [Run and Print Reports](ui-work-report.md#switch-the-report-layout).
 
 - From the **Report Layout Selection** page
 

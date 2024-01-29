@@ -3,9 +3,7 @@
     description: Use a batch job to settle VAT entries according to the government exchange rates in the New Zealand version.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 11/03/2023
     ms.author: bholtorf

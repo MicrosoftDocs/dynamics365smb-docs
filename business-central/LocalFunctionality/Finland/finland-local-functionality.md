@@ -5,9 +5,7 @@ author: sorenfriisalexandersen
 
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 32000006
 ms.date: 06/18/2021

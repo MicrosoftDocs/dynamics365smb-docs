@@ -3,9 +3,7 @@
     description: In order to enable delivery reminders for overdue purchases, you must assign delivery reminder terms to vendors in the German version.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.search.form: 5005270, 5005272
     ms.date: 11/14/2023

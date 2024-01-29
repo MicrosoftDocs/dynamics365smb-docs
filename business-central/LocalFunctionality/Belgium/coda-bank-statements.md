@@ -3,9 +3,7 @@ title: Belgian CODA Bank Statements [BE]
 description: The Coded Statement of Account is a national banking standard, designed by the Belgian Banker's Association to automatically process electronic bank statements.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 2000040, 2000041, 2000042, 2000043, 2000045
 ms.date: 02/08/2022

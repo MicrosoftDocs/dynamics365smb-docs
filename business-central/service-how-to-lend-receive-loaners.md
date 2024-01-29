@@ -3,9 +3,7 @@
     description: You can lend customers loaner items to temporarily replace service items that you have received for servicing.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 04/01/2021
     ms.author: bholtorf

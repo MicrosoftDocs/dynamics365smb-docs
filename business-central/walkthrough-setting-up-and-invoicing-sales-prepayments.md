@@ -3,9 +3,7 @@
     description: Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing. 
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 12/03/2021
     ms.author: bholtorf

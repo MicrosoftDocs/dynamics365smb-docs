@@ -3,9 +3,7 @@
     description: You can import a file that specifies post codes for marketing and relationship management activities. The data will be saved in the Post Code Range table.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/18/2021
     ms.author: bholtorf

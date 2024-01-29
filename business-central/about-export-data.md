@@ -3,9 +3,7 @@ title: Export Your Business Central Data to Excel
 description: You can export your financial reports and business intelligence data from Business Central to Excel, or open your data in Excel.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
 ms.search.form: 9901
 ms.date: 04/01/2021

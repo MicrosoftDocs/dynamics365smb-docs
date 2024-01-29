@@ -3,9 +3,7 @@ title: Using Approval Workflows
 description: You can set up and use workflows to connect business-process tasks such as automatic posting or requesting and granting approval for new records. 
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 
 ms.search.form: 1500, 1501, 1503, 1504, 1505
 ms.date: 09/13/2022

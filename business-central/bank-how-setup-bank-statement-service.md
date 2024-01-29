@@ -3,9 +3,7 @@ title: Set Up Yodlee Bank Feeds
 description: You can convert payment information to any data format that your bank requires and enable the export or import of bank files.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.search.form: 1280, 1290
 ms.date: 04/01/2021

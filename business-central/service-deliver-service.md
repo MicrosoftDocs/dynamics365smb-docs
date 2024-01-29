@@ -3,9 +3,7 @@ title: Overview of Tasks to Deliver Service | Microsoft Docs
 description: Outlines tasks to set up make sure that you deliver quality service and live up to agreements with customers.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: service, service items, respond, response
 ms.date: 04/01/2021
 ms.author: bholtorf

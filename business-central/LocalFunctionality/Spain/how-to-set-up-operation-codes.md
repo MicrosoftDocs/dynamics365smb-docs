@@ -3,9 +3,7 @@
     description: You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in Business Central.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 04/01/2021
     ms.author: bholtorf

@@ -3,9 +3,7 @@
     description: You can report VAT electronically to the tax authorities in the Austrian version.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 12/05/2023
     ms.author: bholtorf

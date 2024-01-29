@@ -3,9 +3,7 @@
     description: The application checks if the amount including VAT and the VAT amount stated on the purchase document is equal to the total amount of inserted purchase lines.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/18/2021
     ms.author: bholtorf

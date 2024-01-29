@@ -3,9 +3,7 @@ title: Business Functionality Supported by Business Central
 description: Provides a feature overview of all the business functions and departments supported by application areas, such as finance, inventory, and project management.
 author: brentholtorf
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 11/01/2023

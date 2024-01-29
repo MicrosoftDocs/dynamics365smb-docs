@@ -3,9 +3,7 @@ title: Sorting, Searching, and Filtering Lists
 description: Work efficiently in lists by searching across your data, sorting columns, and refining results using filter symbols and keyboard shortcuts.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form:
 ms.date: 10/30/2023

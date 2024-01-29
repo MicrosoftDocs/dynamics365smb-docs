@@ -3,9 +3,7 @@ title: Create and Modify Custom Layouts for Reports and Documents
 description: Learn how to create customized layouts to personalize the appearance of a report when viewed, printed, or saved.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/06/2022

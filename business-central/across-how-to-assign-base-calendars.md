@@ -3,9 +3,7 @@
     description: You can assign a base calendar to your company and its business partners, to calculate delivery and receipt dates according to the specified working days.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.form: 7600, 7601, 7602, 5703
     ms.date: 06/11/2021
     ms.author: bholtorf

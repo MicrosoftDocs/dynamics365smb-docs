@@ -3,9 +3,7 @@ title: Compliance with the bookkeeping act in Denmark
 description: Learn how Business Central complies with the bookkeeping act in Denmark.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: bookkeeping, law, compliance, e-vat, e-document, nemhandel, denmark, dk
 ms.search.form: 
 ms.date: 01/18/2024

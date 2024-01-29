@@ -9,7 +9,6 @@ ms.date: 12/13/2023
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
-  ms.service: dynamics-365-business-central
 ---
 
 # Add marketing text to items

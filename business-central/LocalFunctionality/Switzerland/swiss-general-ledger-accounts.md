@@ -3,9 +3,7 @@
     description: This article explains enhancements to the Swiss General Ledger Accounts and General Journals.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.search.form: 11500
     ms.date: 06/21/2021

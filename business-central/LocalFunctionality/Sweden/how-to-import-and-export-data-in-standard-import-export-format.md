@@ -3,9 +3,7 @@ title: Import and Export Data in SIEE [SE]
 description: You can import and export general ledger data according to the standard import export (SIE) format explained in this topic.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 11212
 ms.date: 06/24/2021

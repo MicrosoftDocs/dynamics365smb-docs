@@ -3,9 +3,7 @@ title: Requirements for Reporting Declaration of Trade in Goods [FR]
 description: This article shows a list of required fields that are needed for reporting Declaration of Trade in Goods (DEB) based on the DTI+ format in the French version of Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.date: 05/09/2022
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Procurement Quick Start (contains video)
 description: Learn how to fill in the first critical fields about vendors in Business Central so that you can start purchasing products and services.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: 26, 27, 50, 56
 ms.date: 09/29/2021

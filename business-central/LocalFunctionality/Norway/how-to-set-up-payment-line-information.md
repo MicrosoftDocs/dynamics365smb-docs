@@ -3,9 +3,7 @@
     description: Read about how payment journal line information for the remittance payment is set up on the Payment Info page.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 11/22/2023
     ms.author: bholtorf

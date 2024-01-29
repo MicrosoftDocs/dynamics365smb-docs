@@ -3,9 +3,7 @@
     description: Exchange electronic business documents, for example bank files, between Business Central and external parties. 
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
     ms.date: 06/10/2021
     ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Record Payments and Refunds in Payment Journal
 description: Read about how to record payments that you make to vendors, and refunds that you make to customers, on the Payment Journal page.  
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
 ms.search.form: 256, 233, 624, 1228
 ms.date: 07/09/2021

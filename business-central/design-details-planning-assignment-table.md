@@ -3,9 +3,7 @@
     description: This topic provides insight into what happens when a change in the demand or supply patterns requires that you calculate how you plan for an item.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/15/2021
     ms.author: bholtorf

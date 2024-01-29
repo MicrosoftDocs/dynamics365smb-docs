@@ -3,9 +3,7 @@
     description: You can enter an Australian Business Number (ABN) in both the Company Information and the Vendor Card pages.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/16/2021
     ms.author: bholtorf

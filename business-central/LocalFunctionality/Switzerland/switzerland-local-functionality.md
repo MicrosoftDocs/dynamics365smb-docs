@@ -5,9 +5,7 @@
 
     
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.search.form: 35561, 35562, 35563, 3010541, 3010542, 3010543
     ms.date: 06/21/2021

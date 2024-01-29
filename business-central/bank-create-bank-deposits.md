@@ -4,7 +4,7 @@ description: You can make deposits to maintain a transaction record that contain
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: bank, deposit
 ms.search.form: 10140, 10141, 10143, 10144, 10146, 10147, 10148, 36646

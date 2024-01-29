@@ -4,12 +4,14 @@ description: Get answers to common questions about accessing Business Central wi
 author: mikebc
 ms.author: mikebc
 ms.reviewer: jswymer 
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: faq
-ms.date: 11/22/2022
+ms.date: 09/28/2023
 ms.custom: bap-template 
 ---
 # Access with Microsoft 365 Licenses FAQ
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 

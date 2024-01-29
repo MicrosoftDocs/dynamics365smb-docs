@@ -2,11 +2,12 @@
 title: Ad-hoc data analysis
 description: Provides an overview of the features that support ad-hoc data analysis tasks in the Business Central product.
 author: jswymer
-ms.topic: get-started-article
+ms.topic: get-started
 ms.search.keywords: feature overview
 ms.date: 03/31/2023
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Ad-hoc Data Analysis
 

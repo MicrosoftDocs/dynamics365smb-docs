@@ -1,15 +1,16 @@
 ---
-title: Troubleshoot Your Automated Workflows
+title: Troubleshoot your automated workflows
 description: Learn how to troubleshoot the connection between Business Central and Power Automate when you build an automated workflow.
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate, 
-ms.date: 07/03/2023
+ms.date: 12/13/2023
 ms.author: jswymer
 ms.reviewer: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# Troubleshoot Your [!INCLUDE[prod_short](includes/prod_short.md)] Automated Workflows
+# Troubleshoot your [!INCLUDE[prod_short](includes/prod_short.md)] automated workflows
 
 When you connect [!INCLUDE [prod_short](includes/prod_short.md)] with Power Automate to create automated workflows, you might run into error messages. This article provides suggested solutions to recurring problems.
 
@@ -38,7 +39,7 @@ When using an action that interacts with records (such as *Create record (V3)* a
 
 Even though Business Central has no set limit on the size of records returned by APIs, the Dynamics 365 Business Central connector for Power Automate can handle only records up to 8 MB.
 
-All the Business Central APIs provided by Microsoft return records under this limit, but APIs provided by partners might not. If you see an error "The response from the Business Central service is too large", reach out to the partner who created the API you're using.
+All the Business Central APIs provided by Microsoft return records under this limit, but APIs provided by partners might not. If you see an error "The response from the Business Central service is too large," reach out to the partner who created the API you're using.
 
 ## "Entity set not found" error
 
@@ -52,7 +53,7 @@ The placeholder, `\<name\>`, is the service name of the missing web service, suc
 
 ### Possible cause
 
-Using Power Automate for approvals requires certain page and codeunit objects to be published as web services. By default, most of the required objects are published as web services. But in some cases, your environment may have been customized so these objects are no longer published.
+Using Power Automate for approvals requires certain page and codeunit objects to be published as web services. By default, most of the required objects are published as web services. But in some cases, your environment might have been customized so these objects are no longer published.
 
 ### Fix
 

@@ -3,13 +3,12 @@ title: Analyze Data by Dimensions
 description: This article describes how you can analyze business data by dimensions to gain greater insight into your business.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 545, 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 09/22/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Analyze Data by Dimensions
 

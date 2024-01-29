@@ -4,7 +4,7 @@ description: This article explains how to configure non-deductible VAT in Micros
 author: altotovi
 ms.author: altotovi
 ms.reviewer: 
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: VAT, non-deductible, setup
 ms.search.form: 187, 472, 473
@@ -25,7 +25,7 @@ In general, VAT can't be deducted for some purchases because of the following fa
 Because it can be difficult to know where and how an item is used, you must contact the local tax authorities in your country/region to determine whether a specified percentage of the VAT is deductible based on historical data. 
 
 > [!IMPORTANT]
-> This global feature is available in all countries with enabled VAT **except for Belgium, Italy, Norway, and Spain**. These localizations already have existing local feature and will be upgraded in the future. Don't run this feature in these countries because the upgrade procedure doesn't exist.
+> This global feature is available in all countries with enabled VAT **except for Belgium, Italy, and Norway**. These localizations already have existing local feature and will be upgraded in the future. Don't run this feature in these countries because the upgrade procedure doesn't exist.
 
 ## Use non-deductible VAT
 

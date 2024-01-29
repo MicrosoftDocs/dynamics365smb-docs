@@ -3,14 +3,17 @@ title: Set up email in Business Central (contains video)
 description: Describes how to connect email accounts to Business Central so that you can send outbound messages without having to open another app.
 author: brentholtorf
 ms.author: bholtorf
-ms.topic: get-started-article
+ms.topic: get-started
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 09/13/2023
+ms.date: 10/06/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
 # Set Up Email
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 People in businesses send information and documents, such as sales and purchase orders and invoices, by email every day. Administrators can connect one or more email accounts to [!INCLUDE[prod_short](includes/prod_short.md)], letting you send documents without having to open an email app. You can compose each message individually with basic formatting tools, such as fonts, styles, colors, and so on, and add attachments of up to 100 MB. Additionally, report layouts enable administrators to include only the key information from documents. Learn more at [Send Documents by Email](ui-how-send-documents-email.md).
 
@@ -43,7 +46,7 @@ The following table describes the email extensions that are available by default
 |**SMTP Connector**|Use SMTP protocol to send emails.|Allow communications through your SMTP mail server. |
 
 > [!NOTE]
-> The **Microsoft 365 Connector** and **Current User Connector** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Microsoft 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. Additionally, in sandbox environments, these extensions require that the **Allow HttpClient Requests** setting is enabled. To check whether it is enabled for these extensions, go to the **Extension Management** page, choose the extension, and then choose the **Configure** option.
+> The **Microsoft 365 Connector** and **Current User Connector** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Microsoft 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. Additionally, in sandbox environments, these extensions including **Outlook REST API** extension require that the **Allow HttpClient Requests** setting is enabled. To check whether it is enabled for these extensions, go to the **Extension Management** page, choose the extension, and then choose the **Configure** option.
 
 > External users, such as delegated admins and external accountants, cannot use these extensions to send email messages from [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -274,7 +277,7 @@ After you register your application in Azure portal, in [!INCLUDE[prod_short](in
 
 -->
 
-## See Also
+## See also
 
 [Shared mailboxes in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

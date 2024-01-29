@@ -9,6 +9,7 @@ ms.date: 02/27/2023
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: 103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766
+ms.service: dynamics-365-business-central
 ---
 # Prepare Financial Reporting with Financial Data and Account Categories
 

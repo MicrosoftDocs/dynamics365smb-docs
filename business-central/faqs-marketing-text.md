@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
-  ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
 ---
 
 # FAQ for marketing text suggestions with Copilot

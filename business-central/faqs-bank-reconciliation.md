@@ -11,7 +11,7 @@ ms.reviewer: jswymer
 ms.search.keywords: copilot, AI 
 ms.collection:
   - bap-ai-copilot
-  ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
 ---
 
 # FAQ for bank account reconciliation assist (preview) with Copilot

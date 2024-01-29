@@ -7,6 +7,7 @@ ms.search.form: 256, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 06/25/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Create Payment Journal Templates and Batches in the Belgian Version
 

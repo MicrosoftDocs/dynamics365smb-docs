@@ -1,8 +1,9 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 11/14/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 In order to enable delivery reminders for overdue purchases, you must assign delivery reminder terms to vendors.  
 

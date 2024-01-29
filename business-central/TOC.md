@@ -1,12 +1,15 @@
-﻿
+---
+ms.service: dynamics-365-business-central
+---
+
 # [Business Central documentation](index.yml)
 # [Welcome to Business Central](welcome.md)
-# [New and planned](product-news.md)
+# [New and planned](/dynamics365/business-central/dev-itpro/whatsnew/overview?toc=/dynamics365/business-central/toc.json)
 # Get started
 ## [Overview of business functionality](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Learn
-### [Business Central learning catalog](readiness/readiness-learning-catalog.md)
+### [Resources for users](resources-for-users.md)
 ### [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Business process walkthroughs
 #### [Available walkthroughs](walkthrough-business-process-walkthroughs.md)
@@ -42,6 +45,10 @@
 ##### [Walkthrough of inbound and outbound flow in basic warehouse configurations](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
 ##### [Walkthrough of inbound and outbound flow in mixed warehouse configurations](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
 ##### [Walkthrough of inbound and outbound flow in advanced warehouse configuration with directed put-away and pick](contoso-coffee/warehousing/warehouse-directed-flow.md)
+#### Service
+##### [Introduction to Contoso Coffee service management](contoso-coffee/service/contoso-coffee-service-intro.md)
+##### [Walkthrough of Service Orders for Service Items](contoso-coffee/service/service-basic-flow-order.md)
+##### [Walkthrough of service contracts for service items](contoso-coffee/service/service-contract-flow.md)
 
 ### Design details
 #### [Application design details overview](design-details-application-design.md)
@@ -115,13 +122,6 @@
 ### [Troubleshoot self-service sign-up](ui-troubleshoot-self-signup.md)
 ### [Extend your trial version](admin-extend-trial.md)
 ### [Unsubscribe or remove Business Central](admin-cancel.md)
-### AI-powered item marketing text with copilot
-#### [Overview](ai-overview.md)
-#### [Get preview version](ai-preview-getstarted.md)
-#### [Configure AI-powered item marketing text](enable-ai.md)
-#### [Create AI-powered item marketing text](item-marketing-text.md)
-#### [FAQ](ai-faq.md)
-
 ## Buy
 ### [Get started with a subscription](trial-signup.md#get-started-with-a-subscription)
 ### [Get ready for doing business](ui-get-ready-business.md)
@@ -215,19 +215,6 @@
 ### [Visit our video library](across-videos.md)
 ### [Get technical support](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
-<!--## Microsoft Learn training
-### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
-### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
-### Resources for a Business Decision Maker
-#### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Business User
-#### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Developer
-#### [Learning catalog](readiness/readiness-learning-developers.md)
-#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
 # Business functionality
 ## [Overview of business functionality](across-business-functionality.md)
 <!--general-->
@@ -250,6 +237,7 @@
 ### [Use job queues to schedule tasks](admin-job-queues-schedule-tasks.md)
 ### [Let Business Central suggest values](ui-let-system-suggest-values.md)
 ### [Use Online Maps to find locations and directions](across-online-maps.md)
+### [Set up digital vouchers](across-how-setup-digital-vouchers.md)
 
 ### Incoming documents
 #### [Incoming documents overview](across-income-documents.md)
@@ -301,6 +289,7 @@
 ## Finance
 ### [Finance overview](finance.md)
 ### [Financial reports](finance-reports.md)
+
 ### Manage receivables
 #### [Receivables overview](receivables-manage-receivables.md)
 #### [Accounts receivable reports and analytics](receivables-reports.md)
@@ -313,6 +302,7 @@
 ##### [Set up rules for automatic application of payments](receivables-how-set-up-payment-application-rules.md)
 #### [Reconcile customer payments from a list of unpaid sales documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 #### [Reconcile customer payments with the cash receipt journal or from customer ledger entries](receivables-how-apply-sales-transactions-manually.md)
+#### [Consolidate balances for a company that is a customer and a vendor](finance-consolidate-customer-vendor-balances.md)
 #### [Collect outstanding balances](receivables-collect-outstanding-balances.md)
 #### [Collect payments with SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Send reminders of outstanding balances](receivables-send-reminders.md)
@@ -341,27 +331,13 @@
 ##### [Reconcile payments that can't be applied automatically](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ##### [Map text on recurring payments to accounts for automatic reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 #### [Reconcile vendor payments with the payment journal or from vendor ledger entries](payables-how-apply-purchase-transactions-manually.md)
+#### [Consolidate balances for a company that is a customer and a vendor](finance-consolidate-customer-vendor-balances.md)
 #### [Collect outstanding balances](receivables-collect-outstanding-balances.md)
 #### [Collect payments with SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Block vendors](payables-how-block-vendors.md)
 #### [Use item charges to account for additional trade costs](payables-how-assign-item-charges.md)
 #### [Work with payment tolerances and payment discount tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [The late payment prediction extension](ui-extensions-late-payment-prediction.md)
-
-### Manage VAT
-#### [VAT management overview](finance-manage-vat.md)
-#### [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md)
-#### Set up VAT
-##### [Set up value-added tax](finance-setup-vat.md)
-##### [Post group setup](finance-posting-groups.md#tax-posting-groups)
-##### [Set up non-deductible VAT](finance-setup-nondeductible-vat.md)
-##### [Set up unrealized value added tax](finance-setup-unrealized-vat.md)
-##### [Set up a VAT statement](finance-how-setup-vat-statement.md)
-#### [Work with VAT on sales and purchases](finance-work-with-vat.md)
-#### [Use non-deductible VAT](finance-how-use-non-deductible-vat.md)
-#### [Submit VAT reports to tax authorities](finance-how-report-vat.md)
-#### [Managing VAT rate changes](finance-how-use-vat-rate-change-tool.md)
-#### [Validate VAT registration numbers](finance-how-validate-vat-registration-number.md)
 
 ### Invoicing prepayments
 #### [Prepayments overview](finance-invoice-prepayments.md)
@@ -372,14 +348,10 @@
 ### Reconcile bank accounts
 #### [Bank reconciliation overview](bank-manage-bank-accounts.md)
 #### [Reconcile bank accounts](bank-how-reconcile-bank-accounts-separately.md)
+#### [Reconcile bank accounts using Copilot (preview)](bank-reconciliation-with-copilot.md)
 #### [Applying payments automatically and reconcile bank accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-
-### Manage intercompany transactions
-#### [Intercompany overview](intercompany-manage.md)
-#### [Set up intercompany](intercompany-how-setup.md)
-#### [Work with intercompany documents and journals](intercompany-how-work-documents-journals.md)
-#### [Manage the intercompany inbox and outbox](intercompany-how-manage-intercompany-inbox.md)
-#### [Allocate costs to intercompany partners](intercompany-allocate-costs.md)
+#### [Transfer bank funds](bank-how-transfer-bank-funds.md)
+#### [Create bank deposits](bank-create-bank-deposits.md)
 
 ### Accounting for costs
 #### [Cost accounting overview](finance-manage-cost-accounting.md)
@@ -415,6 +387,8 @@
 ### Manage cash flow
 #### [Cash flow overview](finance-cash-flow-overview.md)
 #### [Analyze cash flows in your company](finance-analyze-cash-flow.md)
+#### [Walkthrough: Use financial reports to make cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ### Closing years and periods
 #### [Year closing overview](year-close-years-periods.md)
@@ -431,37 +405,63 @@
 #### [Close income statement accounts](year-close-income-statement.md)
 #### [Post the year-end closing entry](year-how-post-year-end-close-entry.md)
 
-### Consolidate financial data from multiple companies
-#### [Company consolidation](finance-consolidated-company-reporting.md)
-#### [Set up company consolidation](finance-consolidated-company-reporting-setup.md)
-
-### Work with the chart of accounts and general ledger
+### Work with the chart of accounts and General Ledger (G/L)
 #### [Understand the general ledger and chart of accounts](finance-general-ledger.md)
 #### [Review accounts](finance-review-accounts.md)
+#### [Post transactions directly to the general ledger](finance-how-post-transactions-directly.md)
+#### [Reverse journal postings and undo receipts/shipments](finance-how-reverse-journal-posting.md)
+#### [Record and reimburse employees' expenses](finance-how-record-reimburse-employee-expenses.md)
+#### [Create G/L budgets](finance-how-create-budgets.md)
+#### [Audit file export](finance-how-to-export-audit-files.md)
+#### [Defer revenues and expenses](finance-how-defer-revenue-expenses.md)
+#### [Allocate recurring costs and income](year-allocate-costs-income.md)
+#### [Allocate revenue and costs to multiple G/L accounts](finance-allocate-revenue-costs.md)
 
-### [Consolidate balances for a company that is a customer and a vendor](finance-consolidate-customer-vendor-balances.md)
-### [Work with dimensions](finance-dimensions.md)
-### [Troubleshoot and correct dimensions](finance-troubleshooting-correcting-dimensions.md)
-### [Currencies in Business Central](finance-currencies.md)
-### [Create G/L budgets](finance-how-create-budgets.md)
-### [Post transactions directly to the general ledger](finance-how-post-transactions-directly.md)
-### [Reverse journal postings and undo receipts/shipments](finance-how-reverse-journal-posting.md)
-### [Audit file export](finance-how-to-export-audit-files.md)
-### [Allocate costs and income](year-allocate-costs-income.md)
-### [Record and reimburse employees' expenses](finance-how-record-reimburse-employee-expenses.md)
-### [Defer revenues and expenses](finance-how-defer-revenue-expenses.md)
-### [Update currency exchange rates](finance-how-update-currencies.md)
-### [Import payroll transactions](finance-how-import-payroll-transactions.md)
-### [Work with VAT on sales and purchases](finance-work-with-vat.md)
-### [Report VAT to tax authorities](finance-how-report-vat.md)
-### [Convert service contracts that include VAT amounts](service-how-to-convert-service-contracts.md)
-### [Manage VAT rate changes](finance-how-use-vat-rate-change-tool.md)
-### [Walkthrough: Use financial reports to make cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-### [Analyze financial statements in Excel](finance-analyze-excel.md)
-### [Transfer bank funds](bank-how-transfer-bank-funds.md)
-### [Create bank deposits](bank-create-bank-deposits.md)
-### [Accountant experiences in Business Central](finance-accounting.md)
+### Working with dimensions
+#### [Dimensions overview](finance-dimensions.md)
+#### [Troubleshoot and correct dimensions](finance-troubleshooting-correcting-dimensions.md)
+#### [Import payroll transactions](finance-how-import-payroll-transactions.md)
+
+### Working with Currencies
+#### [Currencies in Business Central](finance-currencies.md)
+#### [Update currency exchange rates](finance-how-update-currencies.md)
+
+### Working with VAT
+#### [VAT management overview](finance-manage-vat.md)
+#### [EU third-party purchase transactions](finance-how-to-eu3party-trade-purchase.md)
+#### Set up VAT
+##### [Set up value-added tax](finance-setup-vat.md)
+##### [Post group setup](finance-posting-groups.md#tax-posting-groups)
+##### [Set up non-deductible VAT](finance-setup-nondeductible-vat.md)
+##### [Set up unrealized value added tax](finance-setup-unrealized-vat.md)
+##### [Set up a VAT statement](finance-how-setup-vat-statement.md)
+#### [Work with VAT on sales and purchases](finance-work-with-vat.md)
+#### [Use non-deductible VAT](finance-how-use-non-deductible-vat.md)
+#### [Submit VAT reports to tax authorities](finance-how-report-vat.md)
+#### [Managing VAT rate changes](finance-how-use-vat-rate-change-tool.md)
+#### [Validate VAT registration numbers](finance-how-validate-vat-registration-number.md)
+#### [Convert service contracts that include VAT amounts](service-how-to-convert-service-contracts.md)
+
+### Setup and use E-documents
+#### [E-Documents overview](finance-edocuments-overview.md)
+#### [Set up E-documents](finance-how-setup-edocuments.md)
+#### [Use e-documents in sales and purchases](finance-how-use-edocuments.md)
+#### [Set the E-Documents connector with external endpoints](finance-how-setup-edocuments-external.md)
+#### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
+#### Consolidate financial data from multiple companies
+##### [Company consolidation](finance-consolidated-company-reporting.md)
+##### [Set up company consolidation](finance-consolidated-company-reporting-setup.md)
+#### Manage intercompany transactions
+##### [Intercompany overview](intercompany-manage.md)
+##### [Set up intercompany](intercompany-how-setup.md)
+##### [Work with intercompany documents and journals](intercompany-how-work-documents-journals.md)
+##### [Manage the intercompany inbox and outbox](intercompany-how-manage-intercompany-inbox.md)
+##### [Allocate costs to intercompany partners](intercompany-allocate-costs.md)
+
+### [Accountant experiences in Business Central](finance-accounting.md)
+
 
 ## Financial business intelligence and reports
 ### [Financial business intelligence and reports overview](bi.md)
@@ -472,8 +472,11 @@
 ### [Set up and publish KPI web services based on financial reports](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
 ### [Create analysis reports](bi-how-create-analysis-views-reports.md)
+### [Analyze financial statements in Excel](finance-analyze-excel.md)
 ### [Create reports with XBRL](bi-create-reports-with-xbrl.md)
 ### [Manage database access intent](admin-data-access-intent.md)
+### [Walkthrough: Use financial reports to make cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
@@ -585,6 +588,7 @@
 #### [Manage interactions for segments](marketing-interaction-segments.md)
 ### Manage interactions
 #### [Interactions](marketing-interactions-overview.md)
+#### [Attachments for interactions](marketing-interaction-attachments.md)
 #### [Record interactions with contacts](marketing-interactions.md)
 #### [Create interactions on contacts and segments](marketing-how-create-interactions.md)
 #### [Automatically record interactions with contacts](marketing-auto-record-interactions.md)
@@ -879,10 +883,18 @@
 
 ### Denmark
 #### [Local functionality in the Danish version](LocalFunctionality/Denmark/denmark-local-functionality.md)
+#### Compliance
+#### [Keep transactional data for five years in Denmark](localfunctionality/denmark/how-to-keep-data-5years.md)
+##### [Set up digital vouchers in Denmark](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
+#### Auditing
+##### [Export the SAF-T audit file format in Denmark](LocalFunctionality/Denmark/how-to-use-saft-audit-files-export.md)
+##### [Public Standard Chart of Accounts in Denmark](LocalFunctionality/Denmark/how-to-set-up-standard-coa.md)
+##### [Export accounting data to Regnskab Basis in Denmark](LocalFunctionality/Denmark/how-to-use-regnskabbasis-export.md)
 #### VAT
 ##### [Print VAT reconciliation reports](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [VAT-VIES reports](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [VAT registration number setup for Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
+##### [Submit VAT returns electronically](localfunctionality/denmark/how-to-evat-statement-dk.md)
 #### Banking & payments
 ##### [FIK details in the payment reconciliation journal](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [The Payments and reconciliations (DK) extension](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -892,6 +904,8 @@
 ##### [Set up OIOUBL electronic invoice](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [The OIOUBL extension for electronic invoice](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
 ##### [Create electronic documents in an OIOUBL format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+#### [Notification and registration for the NemHandelsregisteret in Denmark](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Set up electronic invoicing with NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
 #### Payroll
 ##### [Payroll data definitions (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 
@@ -1545,6 +1559,7 @@
 #### [Set up shipment methods](sales-how-set-up-shipment-methods.md)
 #### [Set up shipping agents](sales-how-to-set-up-shipping-agents.md)
 #### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
+#### [Update document dates with posting dates](across-link-doc-dates-to-posting-dates.md)
 ### Set up purchase
 #### [Set up purchase](purchasing-setup-purchasing.md)
 #### [Register new vendors](purchasing-how-register-new-vendors.md)
@@ -1554,6 +1569,7 @@
 #### [Set up prices and discounts](across-prices-and-discounts.md)
 #### [Record special purchase prices and discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
+#### [Update document dates with posting dates](across-link-doc-dates-to-posting-dates.md)
 ### Set up inventory
 #### [Set up inventory](inventory-setup-inventory.md)
 #### [Set up general inventory information](inventory-how-setup-general.md)
@@ -1566,7 +1582,6 @@
 #### [Set up stockkeeping units](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Categorize items](inventory-how-categorize-items.md)
 #### [Import multiple item pictures](inventory-how-import-item-pictures.md)
-#### [Configure AI-powered item marketing text with copilot](enable-ai.md)
 ### Set up project management
 #### [Set up projects](projects-setup-projects.md)
 #### [Set up resources](projects-how-setup-resources.md)
@@ -1791,7 +1806,7 @@
 ### [Search and filter FAQ](ui-search-filter-faq.yml)
 ### [Analyze page data in Excel](across-work-with-excel.md)
 ### [Analyze report data with Excel](report-analyze-excel.md)
-### [Analyze list data with analysis mode](analysis-mode.md)
+### [Analyze list and query data with analysis mode](analysis-mode.md)
 ### [Financial business intelligence](bi.md)
 
 ## Built-in analytics 
@@ -1806,6 +1821,7 @@
 
 ## Analyze data in business intelligence tools
 ### [Overview](reports-external-analysis.md)
+### [Microsoft Fabric and Business Central](admin-fabric.md)
 ### [Use Power BI with Business Central](admin-powerbi.md)
 ### [Analyze financial statements with Excel](finance-analyze-excel.md)
 ### [Extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
@@ -1828,7 +1844,6 @@
 ### Develop report datasets
 #### [Report development guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Report performance tuning guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
-
 
 # Security, privacy, and compliance
 ## Security and protection
@@ -1882,6 +1897,7 @@
 ### [Enable new features ahead of time](admin-feature-management.md)
 ### [Onboard users with checklists](admin-checklist.md)
 ### [Sandbox environments](admin-sandbox-environments.md)
+## [Copilot and AI capabilities](enable-ai.md)
 ## Customize Business Central
 ### [Customization overview](ui-customizing-overview.md)
 ### [Customize pages for profiles](ui-personalization-manage.md)
@@ -1914,19 +1930,19 @@
 #### [US/CA/UK/AU/NZ/ZA - Send remittance advice](ui-extensions-send-remittance-advice.md)
 #### [WorldPay payments standard](ui-extensions-worldpay-payments-standard.md)
 #### [Business Central extensions by other providers](ui-extensions-other.md)
-## Integrate with Dynamics 365 sales
-### [Integrate with Dynamics 365 sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## Integrate with other Dynamics 365 applications
+### [Integrate with Dynamics 365 Sales via data sync](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ## Integrate with Microsoft Dataverse
-### [Integrate with Microsoft Dataverse](admin-common-data-service.md)
-### [Data ownership models](admin-cds-company-concept.md)
-### [Set up user accounts for Microsoft Dataverse integration](admin-setting-up-integration-with-dynamics-sales.md)
-### [Connect to Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Integrate with Dataverse via data sync](admin-common-data-service.md)
+### [Data ownership models for synchronization](admin-cds-company-concept.md)
+### [Set up user accounts for Dataverse integration via data sync](admin-setting-up-integration-with-dynamics-sales.md)
+### [Connect to Dataverse for data sync](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synchronize Business Central and Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Map the tables and fields to synchronize](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Manually synchronize table mappings](admin-manual-synchronization-of-table-mappings.md)
 ### [Schedule a synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Troubleshoot synchronization errors](admin-troubleshoot-sales-synchronization.md)
-### [Use a Power Automate flow for alerts to Dataverse entity changes](admin-power-automate-flow-dataverse.md)
+### [Use a Power Automate flow to timely synchronize Dataverse entity changes](admin-power-automate-flow-dataverse.md)
 ## Synchronize master data across companies
 ### [Get ready to synchronize master data](admin-set-up-data-sync.md)
 ### [Manage master data synchronization](admin-sync-master-data.md)
@@ -2007,3 +2023,19 @@
 ## [Security and protection](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Performance](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Removed or deprecated features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Copilot and AI capabilities
+## Manage Copilot and AI capabilities
+### [Configure Copilot and AI capabilities](enable-ai.md)
+### [Copilot data movement across geographies](ai-copilot-data-movement.md)
+### [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)
+## Bank account reconciliation assist (preview)
+### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
+### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
+## Marketing text suggestions
+### [Marketing text suggestions overview](ai-overview.md)
+### [Create marketing text with Copilot](item-marketing-text.md)
+### [FAQ for marketing text suggestions](faqs-marketing-text.md)
+# Responsible AI
+## [Overview](responsible-ai-overview.md)
+## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
+## [FAQ for marketing text suggestions](faqs-marketing-text.md)

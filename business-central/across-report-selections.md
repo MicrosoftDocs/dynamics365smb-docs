@@ -7,6 +7,7 @@ ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
 ms.date: 06/09/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Report Selection for Documents in Business Central
 

@@ -4,13 +4,15 @@ description: Learn what the different printer opportunities in Business Central
 author: jswymer 
 ms.author: jswymer 
 ms.reviewer: jswymer 
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: overview 
-ms.date: 02/10/2023
+ms.date: 09/28/2023
 ms.custom: bap-template 
 ---
 
 # Printer Setup and Management Overview
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Printing documents and reports from [!INCLUDE[prod_short](includes/prod_short.md)] is an important task for business users. You'll typically want to send print jobs directly to one of your organization's printers&mdash;no matter the [!INCLUDE[prod_short](includes/prod_short.md)] client or app you're using. Because [!INCLUDE[prod_short](includes/prod_short.md)] online is a cloud service, it can't directly reach local printers connected to users' devices, but you can connect it to cloud-enabled printers.
 

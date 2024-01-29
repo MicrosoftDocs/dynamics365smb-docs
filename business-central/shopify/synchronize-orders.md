@@ -3,7 +3,7 @@ title: Synchronize and Fulfill Sales Orders
 description: Set up and run import and processing of sales order from Shopify.
 ms.date: 06/06/2023
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147
 author: brentholtorf
 ms.author: bholtorf
@@ -18,7 +18,7 @@ This article describes the necessary settings and steps that you must complete t
 
 Enter a **currency code** if your online shop uses a different currency than the local currency (LCY). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty. 
 
-You can saccess the Store Currency in the [Store details](https://www.shopify.com/admin/settings/general) settings in your Shopify Admin. Shopify can be configured to accept different currencies, however imported orders into [!INCLUDE[prod_short](../includes/prod_short.md)] use store currency.
+You can review the Store Currency in the [Store details](https://www.shopify.com/admin/settings/general) settings in your Shopify Admin. Shopify can be configured to accept different currencies, however imported orders into [!INCLUDE[prod_short](../includes/prod_short.md)] use store currency.
 
 A regular Shopify order can include costs in addition to the subtotal, such as shipping charges or, if enabled, tips. These amounts are posted directly to the G/L account you want used for specific transaction types:
 
@@ -33,7 +33,7 @@ If you want to automatically release a sales document, turn on the **Auto Releas
 If you select the **Shopify Order No. on Doc. Line** field, [!INCLUDE [prod_short](../includes/prod_short.md)] inserts sales lines of the type **Comment** with the Shopify order number.
 
 >[!NOTE]
->The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add the **Shopify Order No.** field to the list or card pages for sales orders, invoices, and shipment. To learn more about adding a field, go to [To start personalizing a page through the **Personalizing** banner](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). 
+>The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add the **Shopify Order No.** field to the list or card pages for sales orders, invoices, and shipment. To learn more about adding a field, go to [To start personalizing a page through the **Personalizing** banner](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
 
 In the **Tax area priority** field, prioritize how to select a tax area code for addresses on orders. The Shopify order you import contains information about taxes. Taxes are recalculated when you create sales documents, so it's important that the VAT or tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. To learn more about taxes, go to [Set Up Taxes for the Shopify Connection](setup-taxes.md).
 
@@ -65,24 +65,25 @@ The **Shipment method code** for sales documents imported from Shopify can be fi
 
 ### Location mapping
 
-The location mapping is required for three purposes:
-
-* To sync inventory, for more information, see [Sync inventory to Shopify](synchronize-items.md#sync-inventory-to-shopify)
-* To fill in the **Location Code** for sales documents imported from Shopify. This is important when the **Location Mandatory** toggle is enabled on the **Inventory Setup** card, otherwise, you won't be able to create sales documents.
-* To update the Shopify order with the fulfillment information based on the **Posted Sales Shipment** page.
+The location mapping is required to fill in the **Location Code** for sales documents lines imported from Shopify. This is important when the **Location Mandatory** toggle is enabled on the **Inventory Setup** card, otherwise, you won't be able to create sales documents.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.
 2. Select the shop for which you want to configure the mapping of locations to open the **Shopify Shop Card** page.
 3. Choose the **Locations** action to open the **Shopify Shop Locations**.
-4. Choose the **Get Shopify Locations** action to import all the locations defined in Shopify. You can find them in the [**Locations**](https://www.shopify.com/admin/settings/locations) settings in your **Shopify admin** panel. Note that the location marked as *Default* will be used when importing unfulfilled Shopify orders.
+4. Choose the **Get Shopify Locations** action to import all the locations defined in Shopify. You can find them in the [**Locations**](https://www.shopify.com/admin/settings/locations) settings in your **Shopify admin** panel. 
 5. Enter the **Default Location Code** with the corresponding location in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
+> [!NOTE]  
+> Location mapping is also used to sync inventory, for more information, see [Sync inventory to Shopify](synchronize-items.md#sync-inventory-to-shopify).
+  
 ## Run the order synchronization
 
 The following procedure describes how to import and update the sales orders.
 
 > [!NOTE]  
-> Archived orders in Shopify can't be imported. Deactivate the **Automatically archive the order** option in the **Order Processing** section of the **Checkout** settings in your **Shopify Admin** panel to make sure that all orders are imported to [!INCLUDE[prod_short](../includes/prod_short.md)]. If you need to import archived orders, use the **Unarchive Orders** action on the [Orders](https://www.shopify.com/admin/orders) page of the **Shopify admin** panel.
+> Archived orders in Shopify can't be imported. If you need to check the order status, open the order from the [orders](https://www.shopify.com/admin/orders) page of the **Shopify admin** panel and review order details.
+> 
+> Deactivate the **Automatically archive the order** option in the **Order Processing** section of the **Checkout** settings in your **Shopify Admin** panel to make sure that all orders are imported to [!INCLUDE[prod_short](../includes/prod_short.md)]. If you need to import archived orders, use the **Unarchive Orders** action on the [Orders](https://www.shopify.com/admin/orders) page of the **Shopify admin** panel. 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.
 2. Select the shop for which you want to import orders to open the **Shopify Shop Card** page.
@@ -110,7 +111,7 @@ The Shopify Connector imports orders in two steps:
 
 2.	It imports Shopify orders and supplementary information.
 * The Shopify Connector processes all records in the **Shopify Orders to Import** table that match the filter criteria you defined on the **Sync Orders from Shopify** request page. For example, tags, channel, or the fulfilment status. If you haven't specified any filters it processes all records.
-* When importing shopify order, the Shopify Connector requests additional information from Shopify:
+* When importing Shopify order, the Shopify Connector requests additional information from Shopify:
 
     * Order header
     * Order lines
@@ -118,7 +119,7 @@ The Shopify Connector imports orders in two steps:
     * Transactions
     * Returns and refunds, if configured
 
-The **Shopify Order to Import** page is useful for troubleshooting order import issues. You can assess the orders that are available and teke the next steps:
+The **Shopify Order to Import** page is useful for troubleshooting order import issues. You can assess the orders that are available and take the next steps:
 
 * Check whether an error blocked the import of a specific order, and explore the error's details. Check the **Has Error** field.
 * Process only specific orders. You'll need to fill in the **Shop Code** field, select one or more orders, and then choose the **Import Selected Orders** action.

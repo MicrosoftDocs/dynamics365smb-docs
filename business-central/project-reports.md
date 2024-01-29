@@ -7,6 +7,7 @@ ms.search.keywords: reporting
 ms.search.form: Report_1006, Report_1007, Report_1008, Report_1009, Report_1010, Report_1011, Report_1012, Report_1013, Report_1014
 ms.date: 06/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Project Reports and Analytics in Business Central
 

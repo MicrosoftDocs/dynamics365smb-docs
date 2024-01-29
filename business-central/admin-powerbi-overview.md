@@ -4,14 +4,13 @@ description: Learn about the different aspects of Power BI integration with Busi
 author: jswymer
 
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: bholtorf
 ms.date: 04/01/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]
 

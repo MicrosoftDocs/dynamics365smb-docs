@@ -3,13 +3,12 @@
     description: Companies receive a unique enterprise number and one or more branch numbers from the Belgian Crossroad Bank of Enterprises.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/25/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Enterprise Numbers and Branch Numbers in the Belgian Version
 

@@ -8,6 +8,7 @@ ms.search.form: 17101
 ms.date: 06/25/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # How to Calculate Distribution Amounts in the Australian Version
 

@@ -4,13 +4,15 @@ description: Learn how you can use Universal Print to provide cloud printing in 
 author: jswymer #Required; your GitHub user alias, with correct capitalization.
 ms.author: jswymer #Required; your Microsoft alias; optional team alias.
 ms.reviewer: jswymer #Required; Microsoft alias of content publishing team member.
-ms.service: dynamics365-business-central #Required; per approved Microsoft taxonomy (https://taxonomy.docs.microsoft.com/TaxonomyServiceAdminPage/#/taxonomy/detail/2022-04-07T09:00:02.5587920Z!a892accc-6925-4c06-8723-fb5e30ba7ca3/product).
+ms.service: dynamics-365-business-central #Required; per approved Microsoft taxonomy (https://taxonomy.docs.microsoft.com/TaxonomyServiceAdminPage/#/taxonomy/detail/2022-04-07T09:00:02.5587920Z!a892accc-6925-4c06-8723-fb5e30ba7ca3/product).
 ms.topic: how-to #Required; don't change.
 ms.date: 01/26/2023
 ms.custom: bap-template #Required; don't change.
 ---
 
 # Set Up Universal Print Printers
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Universal Print is a Microsoft 365 subscription-based service that runs entirely on Microsoft Azure. It gives you centralized printer management through the Universal Print portal. [!INCLUDE[prod_short](includes/prod_short.md)] makes printers set up in Universal Print available to client users through the **Universal Print Integration** extension.
 
@@ -69,9 +71,9 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
 
       Learn more at [Microsoft Admin Center Help - Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-    - With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you assign licenses in your Azure tenant using the Azure portal.
+    - With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you assign licenses in your tenant using the Azure portal.
 
-      Learn more at [Azure Directory - Assign or remove licenses in the Azure portal](/azure/active-directory/fundamentals/license-users-groups).
+      Learn more at [Assign or remove licenses in the Azure portal](/azure/active-directory/fundamentals/license-users-groups).
 
 2. Install the Universal Print connector for registering printers that can't communicate with Universal Print directly.
 

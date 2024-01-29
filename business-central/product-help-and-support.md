@@ -6,10 +6,14 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: bholtorf
-ms.date: 07/14/2023
+ms.date: 09/28/2023
+ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
 # Resources for Help and Support
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Organizations that use [!INCLUDE[prod_long](includes/prod_long.md)] can get technical support for any issues that they may experience. In this article, we show you the following information and many other tips for how to use [!INCLUDE[prod_short](includes/prod_short.md)]:
 
@@ -234,7 +238,7 @@ The same applies if you use [!INCLUDE [prod_short](includes/prod_short.md)] on-p
 
 ## See Also
 
-[Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
+[Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Business Central Quick Starts](quick-start-business-central.md)  
 [How do I find a reselling partner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Help System (available in English only)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  

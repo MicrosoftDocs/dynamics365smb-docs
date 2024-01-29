@@ -9,7 +9,6 @@ ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Wo
 ms.search.form:
 ms.date: 09/04/2023
 ms.custom: bap-template
-
 ---
 
 # Run and print reports in Business Central

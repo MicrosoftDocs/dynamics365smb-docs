@@ -3,13 +3,12 @@
     description: The Vendor Payments List report in Austria provides a list of payments for each vendor. The report can sort payments chronologically or grouped by vendor.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/29/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Print Vendor Payments List Reports in the Austrian Version
 

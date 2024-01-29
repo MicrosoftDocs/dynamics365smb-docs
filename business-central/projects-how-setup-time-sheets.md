@@ -1,7 +1,6 @@
 ---
 title: Set Up Time Sheets and Their Approval
 description: You set up time sheets to track the time used on tasks and projects, helping you with project management, staffing, and capacity
-ms.reviewer: jswymer
 author: brentholtorf
 ms.author: bholtorf
 mw.reviewer: ivkoleti
@@ -11,7 +10,6 @@ ms.search.form: 977, 462, 76, 77, 462
 ms.date: 07/27/2023
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
-ms.author: bholtorf
 ---
 # Set Up Time Sheets
 
@@ -96,7 +94,7 @@ The following sections describe how to set up time sheets if you don't use the *
 ## See also
 
 [Use Time Sheets for Projects](projects-how-use-time-sheets.md)  
-[How To Create Time Sheets](projects-how-use-time-sheets.md#to-create-time-sheets)  
+[How To Create Time Sheets](projects-how-use-time-sheets.md#create-time-sheets)  
 [Record Consumption or Usage for Projects](projects-how-record-job-usage.md)  
 [Setting Up Project Management](projects-setup-projects.md)  
 [Project Management](projects-manage-projects.md)  

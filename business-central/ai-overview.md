@@ -9,7 +9,7 @@ ms.date: 10/29/2023
 ms.custom: bap-template 
 ms.collection:
   - bap-ai-copilot
-  ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
 ---
 # Marketing text suggestions with Copilot overview
 

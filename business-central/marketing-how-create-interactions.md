@@ -9,6 +9,7 @@ ms.date: 12/13/2023
 ms.custom: bap-template
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5077, 5078, 5074, 5076, 5186, 5075, 5079
+ms.service: dynamics-365-business-central
 ---
 # Create interactions on contacts and segments
 

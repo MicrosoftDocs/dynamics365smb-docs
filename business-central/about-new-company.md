@@ -9,6 +9,7 @@ ms.date: 04/14/2023
 ms.custom: bap-template
 ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.service: dynamics-365-business-central
 ---
 # Create New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]
 

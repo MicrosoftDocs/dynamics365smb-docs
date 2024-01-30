@@ -8,6 +8,7 @@ ms.topic: how-to
 ms.date: 02/27/2023
 ms.custom: bap-template
 ms.search.form: 99000883, 99000884,
+ms.service: dynamics-365-business-central
 ---
 # Create Production Orders from Sales Orders
 

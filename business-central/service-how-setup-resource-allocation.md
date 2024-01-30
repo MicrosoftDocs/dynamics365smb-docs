@@ -3,12 +3,11 @@
     description: Learn how the system can help ensure that you assign someone who has the skills required to provide a service.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords: resource, skill, service, zones
     ms.date: 04/01/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 
 # Set Up Resource Allocation

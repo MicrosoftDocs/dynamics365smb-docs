@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.search.keywords:
 ms.date: 01/12/2024
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Setting up user accounts for integrating with Microsoft Dataverse via data sync
 

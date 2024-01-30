@@ -8,6 +8,7 @@ ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 11/14/2023
 ms.reviewer: bholtorf
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Financial report feature in the Czech version

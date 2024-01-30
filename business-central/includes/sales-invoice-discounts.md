@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 10/05/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 After you've added all the items on lines you can calculate the invoice discount for the entire sales document by choosing the **Calculate Invoice Discount** action.
 

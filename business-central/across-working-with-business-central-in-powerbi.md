@@ -3,13 +3,12 @@ title: Connect to Power BI from Business Central on-premises| Microsoft Docs
 description: Getting insight, business intelligence, and KPIs from your Business Central data using Power BI.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 01/22/2024
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Connect to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
 

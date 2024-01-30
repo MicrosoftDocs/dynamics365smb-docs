@@ -3,12 +3,11 @@ title: Get Business Central on your mobile device (contains video)
 description: This article describes the various ways you can view and edit your Business Central data, send to Excel and more on your phone or tablet.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: desktop, Windows, app
 ms.date: 12/13/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
 # Getting Business Central on your mobile device

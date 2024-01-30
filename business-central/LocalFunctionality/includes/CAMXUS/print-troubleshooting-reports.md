@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 11/27/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 The following troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues:  

@@ -3,13 +3,12 @@
     description: This article describes how you can calculate dates for purchases. 
     author: brentholtorf 
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
     ms.search.forms: 
     ms.date: 10/28/2022
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Calculate Dates for Purchases
 

@@ -3,13 +3,12 @@ title: Create remittance suggestions [NO]
 description: You can create a remittance suggestion so that payment proposals are sent to vendors who are set up to receive remittance payments.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 12/05/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Create remittance suggestions in the Norwegian version
 

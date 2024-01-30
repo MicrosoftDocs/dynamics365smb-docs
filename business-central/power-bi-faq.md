@@ -4,12 +4,11 @@ description: Get answers for some typical questions about working with Power BI 
 author: jswymer
 
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Power BI  FAQ
 

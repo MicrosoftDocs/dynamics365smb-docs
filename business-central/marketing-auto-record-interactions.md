@@ -3,13 +3,12 @@ title: Set up automatic recording of interactions| Microsoft Docs
 description: You can automatically record your customer or client interactions, for example, for sales, purchase and service documents or phone calls.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 12/12/2023
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Recording interactions with contacts automatically
 You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:

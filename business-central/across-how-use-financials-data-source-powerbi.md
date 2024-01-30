@@ -3,12 +3,11 @@ title: Building Reports in Power BI Desktop to Display Business Central Data| Mi
 description: Make your data available as a data source in Power BI and build powerful reports of the state of your business.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 01/22/2024
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
 # Building Power BI reports to display [!INCLUDE [prod_long](includes/prod_long.md)] data

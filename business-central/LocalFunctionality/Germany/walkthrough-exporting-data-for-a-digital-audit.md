@@ -3,12 +3,11 @@
     description: You can export business data for auditing purposes according to the process for digital audits (GoBD/GDPdU), which is based on German tax law. 
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 12/07/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Walkthrough: Exporting data for a digital audit in the German version
 

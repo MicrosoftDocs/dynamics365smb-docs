@@ -6,6 +6,7 @@ ms.topic: conceptual
 ms.search.keywords:
 ms.date: 11/17/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Create report 347 in the Spanish version
 All companies must provide an annual declaration, **Report 347**, to the tax authorities providing the sales and purchase transactions from the previous fiscal period.  

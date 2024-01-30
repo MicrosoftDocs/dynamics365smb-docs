@@ -9,6 +9,7 @@ ms.date: 03/2/2023
 ms.author: jswymer
 ms.custom: bap-template
 ms.reviewer: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Create incoming document records
 

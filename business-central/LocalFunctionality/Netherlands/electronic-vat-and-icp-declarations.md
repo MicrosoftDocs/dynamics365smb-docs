@@ -3,12 +3,11 @@
     description: With the eXtensible Business Reporting Language (XBRL) reporter, you can submit the ICP declaration or the VAT declaration in the required XML format.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 12/12/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Submitting electronic VAT and ICP declarations in the Dutch version
 Companies must submit periodic VAT and Intracommunautaire leveringen (ICP) declarations to the tax authorities.  

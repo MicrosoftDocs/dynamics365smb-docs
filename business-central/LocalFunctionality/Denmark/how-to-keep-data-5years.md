@@ -3,14 +3,13 @@ title: Keep transactional data for five years in Denmark
 description: This article describes how to automatically keep data based on the Danish bookkeeping act.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 
 ms.date: 12/11/2023
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
 ---
 
 # Keep transactional data for five years in Denmark

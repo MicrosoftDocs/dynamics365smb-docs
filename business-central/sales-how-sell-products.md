@@ -3,13 +3,12 @@ title: Create a customer sales order and sell products
 description: Describes how to create a sales order to record your agreement with a customer to sell or trade products under specific terms.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: trade, partial deliveries, customer sales order, shipping advice, partial shipments, 
 ms.search.form: 42, 48, 9305
 ms.date: 11/03/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Sell products with a customer sales order
 

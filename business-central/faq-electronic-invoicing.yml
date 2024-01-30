@@ -5,6 +5,7 @@ metadata:
   ms.topic: faq
   author: brentholtorf
   ms.author: bholtorf
+  ms.service: dynamics-365-business-central
 title: Electronic Invoicing FAQ
 summary: |
   The built-in document exchange service submits electronic invoices to TradeShift, a  service provider that relays electronic invoices to PEPPOL or NemHandel recipients. But the service supports a limited number of versions.   

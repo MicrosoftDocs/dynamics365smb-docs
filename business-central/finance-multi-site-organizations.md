@@ -1,14 +1,13 @@
-﻿---
+---
     title: Business Central for Multi-Site and International Organizations | Microsoft Docs
     description: Business Central provides capabilities that support a hub-and-spoke business model.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
     ms.date: 10/01/2020
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 
 # Business Central for Multi-Site and International Organizations

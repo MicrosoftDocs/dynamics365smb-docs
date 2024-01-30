@@ -3,13 +3,12 @@ title: Overview of Tasks to Allocate Costs and Income
 description: Outlines the tasks to allocate an entry in a recurring general journal to several different accounts when you post the journal.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 283, 5629
 ms.date: 09/26/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Allocate Recurring Costs and Income
 

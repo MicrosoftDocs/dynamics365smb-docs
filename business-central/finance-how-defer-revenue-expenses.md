@@ -11,6 +11,7 @@ ms.date: 12/06/2023
 ms.custom: bap-template
 
 
+ms.service: dynamics-365-business-central
 ---
 # Defer Revenues and Expenses
 

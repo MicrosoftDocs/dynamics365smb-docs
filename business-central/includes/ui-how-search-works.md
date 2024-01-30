@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 06/14/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 After you enter your keywords, [!INCLUDE [prod_short](prod_short.md)] starts your search in the background and goes through each table one at a time. Search results begin to appear after it finished each table. If you enter more than one keyword, the results will include only records that have all of the words in any of the selected fields.

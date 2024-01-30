@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.date: 10/09/2023
 ms.custom: bap-template
 ms.search.form: 15, 5703, 7302, 7332, 5768
+ms.service: dynamics-365-business-central
 ---
 # Cross-Dock Items
 

@@ -3,13 +3,12 @@
     description: This topic talks about item tracking and reservations, and describes the concepts behind the two options.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/15/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Design Details: Item Tracking and Reservations
 

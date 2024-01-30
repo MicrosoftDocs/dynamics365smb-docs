@@ -9,6 +9,7 @@ ms.collection:
   - bap-ai-copilot
 ms.date: 11/15/2023
 ms.custom: bap-template 
+ms.service: dynamics-365-business-central
 ---
 # Troubleshoot Copilot and AI capabilities
 

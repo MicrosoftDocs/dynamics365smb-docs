@@ -3,13 +3,12 @@
     description: Learn how you can create a fixed application between an inbound transaction and the original outbound transaction in the item journal.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.form: 40
     ms.date: 12/12/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Close open item ledger entries resulting from fixed application in the Item Journal
 

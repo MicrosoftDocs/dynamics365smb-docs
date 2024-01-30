@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 01/17/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 <!--1. Go to **[Dynamics 365 Business Central product](https://www.microsoft.com/en-us/dynamics-365/products/business-central)** page, and choose the **Try for free** button.-->  
 

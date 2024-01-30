@@ -3,13 +3,12 @@
     description: The following article explains how to prepare and submit the periodic VAT Transactions Reports to the tax authorities. 
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 11/17/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Prepare for VAT transactions reports in the Italian version
 You must submit periodic reports to the tax authorities to list all transactions that include VAT. The tax authority establishes the thresholds at which reporting is required. Currently, the threshold is set at zero, meaning that all transactions are to be reported. To prepare for these reports, you must set up VAT posting to include VAT transaction report amounts.  

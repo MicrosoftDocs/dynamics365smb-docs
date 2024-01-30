@@ -10,6 +10,7 @@ ms.search.form:
 ms.date: 09/04/2023
 ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # Run and Print Reports
 

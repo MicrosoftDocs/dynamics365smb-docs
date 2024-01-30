@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.date: 09/15/2023
 ms.custom: bap-template
 ms.search.form: 672, 673, 674, 671
+ms.service: dynamics-365-business-central
 ---
 # Use job queues to schedule tasks
 

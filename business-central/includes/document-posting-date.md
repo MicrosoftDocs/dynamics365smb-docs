@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 11/14/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 
 The **Document Date** and **Posting Date** fields on sales and purchase documents can help you comply with accounting standards and ensure accurate financial calculations. The fields serve different purposes:

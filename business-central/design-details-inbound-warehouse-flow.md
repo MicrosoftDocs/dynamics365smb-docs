@@ -3,12 +3,11 @@ title: Design Details - Inbound Warehouse Flow
 description: Learn how to receive items at your warehouse, and register and match them to inbound source documents.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: warehouse
 ms.date: 09/18/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Design details: Inbound warehouse flow
 

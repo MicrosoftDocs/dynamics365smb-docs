@@ -7,6 +7,7 @@ ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.date: 06/28/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
 # Integrate with Microsoft Dataverse via data sync

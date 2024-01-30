@@ -3,12 +3,11 @@
     description: Jobs involve the consumption of employee hours, machine hours, inventory items, and other types of usage that have to be tracked as a job progresses.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 12/13/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Walkthrough: Calculating Work in Process for a Job
 

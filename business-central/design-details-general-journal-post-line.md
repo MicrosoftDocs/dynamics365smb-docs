@@ -3,13 +3,12 @@
     description: This topic provides insight into the concepts and principles that are used to redesign the general journal posting line feature in Business Central.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords: design, general journal, posting, codeunit 12
     ms.date: 06/14/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Design Details: General Journal Post Line
 

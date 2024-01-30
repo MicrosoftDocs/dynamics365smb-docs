@@ -8,6 +8,7 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 10/06/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
 # Set Up Email

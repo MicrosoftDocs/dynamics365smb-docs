@@ -7,6 +7,7 @@ ms.search.keywords: feature overview
 ms.date: 03/31/2023
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Ad-hoc Data Analysis
 

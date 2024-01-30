@@ -3,14 +3,13 @@ title: Financial Management (contains video)
 description: Learn how Business Central supports your needs for financial management, accounting, auditing, and bookkeeping.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
 ms.date: 12/19/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Financial Management
 

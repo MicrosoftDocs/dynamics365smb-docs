@@ -8,6 +8,7 @@ ms.topic: how-to
 ms.date: 04/19/2023
 ms.custom: bap-template
 ms.search.forms: 5704, 5700, 5702, 5701
+ms.service: dynamics-365-business-central
 ---
 
 # Set Up Stockkeeping Units

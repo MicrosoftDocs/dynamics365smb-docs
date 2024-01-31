@@ -5,13 +5,13 @@ author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 01/22/2024
+ms.date: 01/31/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 # Work with Power BI reports in [!INCLUDE [prod_short](includes/prod_short.md)]
 
-In this article, you learn some of the basics about working with reports (about viewing Power BI reports, including scorecards and dashboards), in Power BI that use [!INCLUDE [prod_short](includes/prod_short.md)] as a data source. The article discusses some aspects that will help you get started as a [!INCLUDE[prod_short](includes/prod_short.md)] user. For general guidelines and instructions about using Power BI, see [Power BI documentation for consumers](/power-bi/consumer).
+In this article, you learn some of the basics about working with reports. This includes viewing Power BI reports inside [!INCLUDE [prod_short](includes/prod_short.md)] (including scorecards and dashboards), and editing Power BI reports that use [!INCLUDE [prod_short](includes/prod_short.md)] as a data source. The article discusses some aspects that will help you get started as a [!INCLUDE[prod_short](includes/prod_short.md)] user. For general guidelines and instructions about using Power BI, see [Power BI documentation for consumers](/power-bi/consumer).
 
 ## Overview
 
@@ -32,7 +32,7 @@ Before you can use Power BI with [!INCLUDE[prod_short](includes/prod_short.md)],
 
 Once you have a Power BI account, you can sign in at [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/).
 
-The Power BI service hosts all the reports available to you. To see the report, select **My Workspace** > **Reports**. Then just select the report that you want to view.
+The Power BI service hosts all the reports available to you. To see a report in your personal workspace, select **My Workspace** > **Reports**. Then just select the report that you want to view. If you have access to one or more shared Power BI workspaces, you can also see reports in those workspaces.
 
 With [!INCLUDE[prod_short](includes/prod_short.md)] online, you'll automatically have a set of default reports on your workspace. If you want to create your own reports, you can use Power BI Desktop to create reports, and then publish them to your workspace. For more information, see [Getting Started Building Reports in Power BI Desktop to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data](across-how-use-financials-data-source-powerbi.md).
 
@@ -68,13 +68,13 @@ Once connected, you can select a report from the Power BI part on pages.-->
 
 Each Power BI report is based on a dataset that gets data from the [!INCLUDE[prod_short](includes/prod_short.md)] sources. You want to make sure that the data in your Power BI reports is up to date with the data in [!INCLUDE[prod_short](includes/prod_short.md)]. This concept is referred to as *refreshing*.  Depending on how your organization has set up Power BI, refreshing might not happen automatically. There are two ways to refresh data: manually or by scheduling a refresh. Manual refreshing is done on-demand, as needed. Scheduled refreshing lets you refresh automatically at defined time intervals.
 
-### Refresh manually
+#### Refresh manually
 
-In the navigation pane, under **Datasets**, select **More options (...)** next to the dataset, then select **Refresh now**.
+From Power BI online, in the navigation pane, under **Datasets**, select **More options (...)** next to the dataset, then select **Refresh now**.
 
-### Schedule a refresh
+#### Schedule a refresh
 
-In the navigation pane, under Datasets, select More options (...) next to the dataset, then select **Schedule refresh**. Fill in the information under the **Schedule refresh** section, and select **Apply**.
+From Power BI online, in the navigation pane, under Datasets, select More options (...) next to the dataset, then select **Schedule refresh**. Fill in the information under the **Schedule refresh** section, and select **Apply**.
 
 For more information, see [Configure scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh)
 

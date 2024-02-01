@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: how-to
-ms.date: 02/27/2023
+ms.date: 02/01/2024
 ms.custom: bap-template
 ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
 ms.search.form: 103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766
@@ -26,9 +26,9 @@ Setting up financial reports requires an understanding of the financial data in 
 Financial reports arrange accounts from your chart of accounts in ways that make data easier to present. You can set up various layouts to define the information you want to extract from the chart of accounts. Financial reports provide a place for calculations that can't be made directly in the chart of accounts. For example, you can create subtotals for groups of accounts and then include that total in other totals. Another example is to calculate profit margins on dimensions such as departments or customer groups. Additionally, you can filter general ledger entries and budget entries, for example, by net change or debit amount.
 
 > [!NOTE] 
-> Mathematically, you can think of a financial report as being defined by two things:
-> 1. a vector of row definitions that define what needs to be calculated, and
-> 2. a vector of column definitions that defines the data for the calculation.
+> Mathematically, think of a financial report as defined by two things:
+> 1. A vector of row definitions that define what needs to be calculated.
+> 2. A vector of column definitions that defines the data for the calculation.
 > 
 > The financial report is then the outer product of these two vectors, where each cell value is calculated according to the formula in the row applied to the data definition from the column.
 

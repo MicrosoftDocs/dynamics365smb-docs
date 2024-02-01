@@ -26,9 +26,9 @@ This article explains how to control Copilot and other AI capabilities in Busine
 
 - Activate the feature on the **Copilot & AI Capabilities** page. [Learn more](#activate-features)
 
-- Enable the specific feature, if it's still governed by **Feature Management**.
+- Enable the specific feature, if governed by **Feature Management**.
 
-  In 2023 release wave 2, chat with Coplit, marketing text suggestions, and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)
+  As of 2024 release wave 1, chat with Copilot, marketing text suggestions, and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)
 
 If any of these requirements aren't fulfilled, the feature isn't available for use.
 
@@ -74,7 +74,7 @@ Meanwhile, customers with environments outside the United States can use Copilot
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
 ## Activate features
 
-All Copilot and AI capabilities are active by default when they are made available in preview or become generally available. Using the **Copilot & AI Capabilities** page, you can turn individual features off or on again for all users.
+All Copilot and AI capabilities are active by default when they're made available in preview or become generally available. Using the **Copilot & AI Capabilities** page, you can turn individual features off or on again for all users.
 
 1. In Business Central, search for and open the **Copilot & AI Capabilities** page.
 
@@ -93,22 +93,23 @@ When individual Copilot capabilities are released in Business Central minor upda
 2. To enable a feature, set the **Enabled for** column to **All users**. To disable a feature, set the **Enabled for** column to **None**. Use the following table to help you determine the switch that applies to the Copilot and AI capability you want to enable:
 
    - **Feature Preview: Bank account reconciliation with Copilot** enables the bank account reconciliation assist feature.
+   - **Feature Preview: Chat with Copilot** enables the chat with Copilot feature.
    - **Feature preview: Create AI-powered product descriptions with Copilot** enables the marketing text suggestions feature.
 
    For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 ## Granting user access 
 
-Copilot and AI capabilities may offer functionality intended for any users across your organization or for specific user roles. Most Copilot and AI capabilities offer access control using permissions and permission sets in Business Central´s permission management system. [Learn more about permissions and permission sets](ui-define-granular-permissions.md).
+Copilot and AI capabilities can offer functionality intended for any users across your organization or for specific user roles. Most Copilot and AI capabilities offer access control using permissions and permission sets in Business Central´s permission management system. [Learn more about permissions and permission sets](ui-define-granular-permissions.md).
 
-To grant or deny access to specific Copilot and AI capabilities, consult the documentation or publisher of that feature to identify which permissions are required. 
+To grant or deny access to a specific capability, consult the documentation or publisher of that feature to identify which permissions are required. 
 
 ## Next steps
 
 After you enable and consent to the features, you're ready to try them out. Go to:
 
 - [Add marketing text to items](item-marketing-text.md)
-- [Chat with Copilot]()
+- [Chat with Copilot](chat-with-copilot.md)
 - [Reconcile using bank account reconciliation assist](bank-reconciliation-with-copilot.md)
 
 ## See also

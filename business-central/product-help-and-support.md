@@ -8,6 +8,7 @@ ms.search.form: HelpAndSupport
 ms.author: bholtorf
 ms.date: 09/28/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
 # Resources for Help and Support

@@ -2,7 +2,7 @@
 title: New invoice | Invoicing
 description: Learn how to create and send invoices. You can add both the customer and the product or service on the fly, or choose from a list.
 author: brentholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

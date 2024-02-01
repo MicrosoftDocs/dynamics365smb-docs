@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 11/29/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 The **Deposit Slip** report displays cash and check details in a format required by the bank.  
 

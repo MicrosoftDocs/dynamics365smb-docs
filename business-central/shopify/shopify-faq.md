@@ -1,7 +1,7 @@
 ---
 title: FAQ for technical details
 description: Implementation details related to the Shopify connector.
-ms.date: 03/27/2023
+ms.date: 01/24/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 author: brentholtorf
@@ -70,8 +70,7 @@ You can also explore [Experts Marketplace](https://experts.shopify.com/) to find
 ## Currently unsupported features, however, we're tracking them and may consider adding them
 
 - B2B features, including companies, company price lists, and payment terms
-  - It is currently possible to import orders created via B2B. If you have multiple buyers linked to company, you should not enable automatic creation of customers, but link each Shopify buyer to a respective customer manually.
-  - You will need to maintain company price lists in Shopify.
+  - Extended support of B2B will be available in 2024 release wave 1. For more information, see [Connect Business Central with Shopify B2B](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b)
 - Markets
   - Multiple translations of master data. You can choose one language that will be used for product information export.
   - Prices per country/region. One price list is available for the selected currency. Shopify handles the conversion to other currencies.
@@ -84,6 +83,16 @@ Yes, the Shopify connector is extensible. Check GitHub to access the [list of ex
 ## Is the Shopify connector open for contribution
 
 Yes, this extension is open for contributions from our community. You can find the [source code](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) in the Microsoft AL application add-ons repository.
+
+## Building your version of Shopify Connector
+
+According to Shopify, if you want to build and publish a connector app on Shopify marketplace that has the primary purpose of transferring or sharing merchant data to a third party ([!INCLUDE [prod_short](../includes/prod_short.md)]), you must have written consent from Shopify. As part of this process, you must get consent from Microsoft in the "End Recipient Data Acknowledgement Form". We need to ask you to handle the matter with Shopify because Microsoft can't sign 3rd party agreements.
+
+### What to do
+
+Check the Shopify requirements because you still might be able to have an unlisted app.
+
+Alternatively, the Shopify Connector for [!INCLUDE [prod_short](../includes/prod_short.md)] constantly gets new features and new customers. If you discover a specific gap, please consider submitting a product suggestion (https://aka.ms/bcideas) or a code contribution to [!INCLUDE [prod_short](../includes/prod_short.md)]. For requirements that might not be relevant for a majority of customers, and can't be easily addressed by the current extensibility model, please reach out to the [!INCLUDE [prod_short](../includes/prod_short.md)] development team to discuss the use case. We should be able to find a feasible solution.
 
 ## See Also
 

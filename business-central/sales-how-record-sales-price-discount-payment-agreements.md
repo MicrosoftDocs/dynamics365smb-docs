@@ -9,6 +9,7 @@ ms.date: 06/13/2023
 ms.custom: bap-template
 ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
+ms.service: dynamics-365-business-central
 ---
 
 # Record Special Sales Prices and Discounts

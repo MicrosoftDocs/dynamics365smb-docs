@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 03/15/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 You must set up a code for each currency you use if you:
 

@@ -6,6 +6,7 @@ ms.topic: conceptual
 ms.search.keywords:
 ms.date: 01/17/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Belgium local functionality
 

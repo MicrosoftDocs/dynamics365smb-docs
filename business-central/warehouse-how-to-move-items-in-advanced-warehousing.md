@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
 ms.search.form: 7351,
+ms.service: dynamics-365-business-central
 ---
 
 # Move Items in Advanced Warehouse Configurations That Use Directed Put-away and Pick

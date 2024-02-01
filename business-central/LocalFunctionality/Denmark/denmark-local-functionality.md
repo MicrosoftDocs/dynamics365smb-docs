@@ -3,11 +3,10 @@ title: Denmark local functionality
 description: The following article refers you to linked information that describes local functionality in Denmark.
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: Denmark, local, DK, Danish
 ms.date: 01/18/2024
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Denmark local functionality

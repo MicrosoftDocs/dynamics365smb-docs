@@ -8,6 +8,7 @@ ms.search.keywords: Iceland, post, invoice, credit memo
 ms.date: 12/11/2023
 ms.author: bholtorf
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Delete posted invoices and credit memos in the Icelandic version
 

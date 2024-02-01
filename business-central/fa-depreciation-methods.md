@@ -10,6 +10,7 @@ ms.search.form: 5629, 5633
 ms.date: 09/22/2023
 ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # Depreciation Methods for Fixed Assets
 

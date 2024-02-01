@@ -3,13 +3,12 @@ title: E-Documents overview
 description: This article provides an overview of the E-Documents module.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice
 ms.search.form: 
 ms.date: 01/16/2024
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
 # E-Documents overview

@@ -3,12 +3,11 @@
     description: In the Austrian version of Business Central, you can automatically generate delivery reminders when a purchase has not been delivered as expected.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 11/07/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Generate delivery reminders in the Austrian version
 

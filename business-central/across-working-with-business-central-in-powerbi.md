@@ -4,13 +4,12 @@ description: Getting insight, business intelligence, and KPIs from your Business
 author: jswymer
 
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 09/07/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Work with [!INCLUDE [prod_short](includes/prod_short.md)] Data in Power BI
 

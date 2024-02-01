@@ -10,6 +10,7 @@ ms.search.form:
 ms.date: 09/05/2023
 ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # What is Local Functionality in [!INCLUDE[prod_long](includes/prod_long.md)]?
 

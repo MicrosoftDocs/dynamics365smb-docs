@@ -4,13 +4,12 @@ description: Learn how the Essential Business Insights extension rotates a serie
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: BI, add-in, insight, headline, data
 ms.search.form: 1439, 
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # The Essential Business Insights extension

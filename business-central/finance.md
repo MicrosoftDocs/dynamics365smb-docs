@@ -2,13 +2,14 @@
 title: Financial Management (contains video)
 description: Learn how Business Central supports your needs for financial management, accounting, auditing, and bookkeeping.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 12/19/2023
-ms.author: bholtorf
+ms.date: 02/01/2024
 ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Financial Management
@@ -19,27 +20,24 @@ The default configuration includes a chart of accounts and standard posting grou
 
 The following sections describe a sequence of tasks, with links to the topics that describe them.  
 
-
 ## Take a video tour
 
 This video introduces some of the key capabilities for managing finances. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
+## Get started with finance capabilities
 
-## Starting with the Finance module
+Before you can begin to run your business, you must specify how you want to manage your company's financial processes.
 
-Before you can begin to run your business, you must specify how you want to manage company finance processes. 
-
-| To... | See |
-| --- | --- |
+|To...| See |
+|---|---|
 | Change the standard configuration of [!INCLUDE[prod_short](includes/prod_short.md)] for most financial processes to suit your business needs. | [Setting Up Finance](finance-setup-finance.md) | 
 | Learn about the general ledger and the chart of accounts (COA). |[Understanding the General Ledger and the COA](finance-general-ledger.md) |
 
+## Accounting
 
-## Accounting 
-
-This section describes some of the accounting tools you have available to register the business transaction in finance so they match both the registration, reporting and managerial finance requirements.
+This section describes some of the accounting tools that you use to register financial transactions so that they meet your registration, reporting, and managerial finance requirements.
 
 | To... | See |
 | --- | --- |
@@ -51,10 +49,9 @@ This section describes some of the accounting tools you have available to regist
 | Learn about the available options to automate sending subscription invoices to customers and register recurring revenue. |[Work with Recurring Revenue](finance-recurring-invoicing.md)|
 |Post employee expenses for work-related activities and make reimbursements directly to employee bank accounts.|[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
 
- 
-## VAT and Taxes
+## VAT and taxes
 
-Working with VAT in [!INCLUDE[prod_short](includes/prod_short.md)] is easy and you can either use a manual or an automatic setup. These article guides you on how to meet country/region-specific regulations.
+Working with VAT in [!INCLUDE[prod_short](includes/prod_short.md)] is easy, and you can either use a manual or an automatic setup. These articles provide information about how to meet your country/region-specific regulations.
 
 | To... | See |
 | --- | --- |
@@ -62,10 +59,9 @@ Working with VAT in [!INCLUDE[prod_short](includes/prod_short.md)] is easy and y
 |Prepare a report that lists VAT from sales, and submit the report to tax authorities in the European Union (EU). | [Report VAT to Tax Authorities](finance-how-report-vat.md)|
 |Manually convert service contracts to change their VAT rate.|[Convert Service Contracts that Include VAT Amounts](service-how-to-convert-service-contracts.md)|
 
+## Manage receivables and payables
 
-## Managing Receivables and Payables
-
-The core of finance is centered around managing receivables and payables, registering the transactions, reconciling banks accounts, paying vendors, receiving customer payments, reimbursing employees for expenses among others. This section links you to the core concepts.
+The core of finance is centered around managing receivables and payables, registering transactions, reconciling banks accounts, paying vendors, receiving customer payments, reimbursing employees for expenses, and so on. This section provides links to the core concepts.
 
 | To... | See |
 | --- | --- |
@@ -73,11 +69,10 @@ The core of finance is centered around managing receivables and payables, regist
 | Make payments, apply outgoing payments, and work with checks. |[Managing Payables](payables-manage-payables.md) |
 |Ask your customers to submit payment before you ship to them, or submit payment to your vendors before they ship to you.|[Invoicing Prepayments](finance-invoice-prepayments.md)|
 | Reconcile and transfer funds between bank accounts. |[Reconciling Bank Accounts](bank-manage-bank-accounts.md) |
- 
 
-## Managing multiple companies
+## Manage multiple companies
 
-Business Central gives small and mid-sized businesses a business management solution that's easy-to-use and maintain at a low cost of ownership.
+[!INCLUDE [prod_short](includes/prod_short.md)] gives small and mid-sized businesses a business management solution that's easy-to-use and maintain at a low cost of ownership.
 
 | To... | See |
 | --- | --- |
@@ -85,10 +80,9 @@ Business Central gives small and mid-sized businesses a business management solu
 |Combine general ledger entries from multiple companies in one virtual consolidated company for financial analysis.|[Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md)|
 | Work more closely with related companies that you have access to and to get information about key point of interest (KPI) data. | [Manage Work across Multiple Companies in the Company Hub](company-hub.md)|
 
- 
-## Period-End reporting and related tasks
+## Period-end reporting and related tasks
 
-At the end of each accounting period or at the end of the fiscal year, there are a number of administrative tasks you must perform, such as making sure all documents and journals are posted, ensuring currency data are up to date, closing the books, and more. The actual tasks will depend your company.
+At the end of each accounting period or at the end of the fiscal year, there are a number of administrative tasks to do. For example, you'll probably want to make sure all documents and journals are posted, ensure currency data is up to date, close the books, and so on. The actual tasks will depend your company.
 
 | To... | See |
 | --- | --- |
@@ -96,11 +90,9 @@ At the end of each accounting period or at the end of the fiscal year, there are
 | Import salary transactions from your payroll provider into the general ledger. |[Import Payroll Transactions](finance-how-import-payroll-transactions.md)|
 |Learn how to use the Accountant Role Center, engage an external accountant, and use the Company Hub to manage accounts of multiple clients.|[Accountant Experiences in Business Central](finance-accounting.md)| 
 
-
 ## Managerial accounting
 
-As a business manager or controller, perparing or analyzing business data you need to need data and analytics to help you. These sections help you preparing more data, while the [Business Intelligence and Reporting Overview](reports-bi-reporting.md) article describe the analytics parts.
-
+As a business manager or controller, it's important that you can prepare and analyze the business data you need to make informed decisions. The articles in the following table help you prepare data. To learn more about analytics, go to [Business Intelligence and Reporting Overview](reports-bi-reporting.md).
 
 | To... | See |
 | --- | --- |
@@ -109,13 +101,11 @@ As a business manager or controller, perparing or analyzing business data you ne
 |Follow an end-to-end process describing how to use financial reports to make cash flow forecasts.|[Walkthrough: Making Cash Flow Forecasts by Using Financial Reports](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Work with financial statements and overviews in Microsoft Excel. |[Analyzing Financial Statements in Excel](finance-analyze-excel.md) |
 
-
 ## Free e-learning modules
 
 Want to learn more about [!INCLUDE[prod_short](includes/prod_short.md)] on your own pace? 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
-
 
 ## See also
 
@@ -128,4 +118,4 @@ Want to learn more about [!INCLUDE[prod_short](includes/prod_short.md)] on your 
 [Working with General Journals](ui-work-general-journals.md)  
 [Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]

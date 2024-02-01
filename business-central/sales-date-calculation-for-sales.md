@@ -3,13 +3,12 @@ title: Delivery Date Calculation for Sales
 description: The application automatically calculates the date on which you must order an item to have it in inventory on a certain date and available for picking.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.date: 09/22/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Delivery Date Calculation for Sales
 

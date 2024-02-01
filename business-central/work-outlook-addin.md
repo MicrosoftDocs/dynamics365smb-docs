@@ -4,13 +4,12 @@ description: This service has deep integration with Microsoft 365 enabling you t
 author: jswymer
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/21/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Use Business Central as your Business Inbox in Outlook
 

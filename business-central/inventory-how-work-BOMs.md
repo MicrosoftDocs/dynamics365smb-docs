@@ -3,13 +3,12 @@ title: Work with Bills of Material
 description: You create an assembly BOM or production BOM to specify the components or resources required to put together the item that the BOM represents.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: bills of material, assembly BOM, production BOM,
 ms.search.form: 
 ms.date: 09/26/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Work with Bills of Material
 

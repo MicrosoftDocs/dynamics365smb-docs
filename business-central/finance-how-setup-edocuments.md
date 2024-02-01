@@ -3,13 +3,12 @@ title: Set up e-documents
 description: Learn how to set up e-documents functionality.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice
 ms.search.form: 359, 360, 6103, 6133
 ms.date: 10/05/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
 # Set up e-documents

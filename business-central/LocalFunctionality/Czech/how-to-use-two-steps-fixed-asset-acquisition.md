@@ -2,7 +2,7 @@
 title: Czech local functionality - Two steps fixed asset acquisition | Microsoft Docs
 description: There are two steps to accomplish when acquiring a fixed asset in Czech accounting. This function describes them.
 author: v-pejano
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
 ms.date: 11/07/2023

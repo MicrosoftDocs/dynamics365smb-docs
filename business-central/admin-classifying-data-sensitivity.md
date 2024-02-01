@@ -8,6 +8,7 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: 1752
 ms.date: 06/14/2021
+ms.service: dynamics-365-business-central
 ---
 
 # Classifying data sensitivity fields

@@ -3,7 +3,7 @@ title: Getting started with connector for Shopify
 description: First steps when configuring connection between Business Central and Shopify
 ms.date: 03/27/2023
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135, 
 author: brentholtorf
@@ -63,6 +63,7 @@ Repeat steps 2-6 for all online shops that you want to connect.
 - [Error: Oauth error invalid_request: Could not find Shopify API application with api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
 - [Error: Oauth error invalid_request: Your account does not have permission to grant the requested access for this app.](troubleshoot.md#error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app)
 - [Can't connect from sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
+- Make sure you enter right URL in the **Shopify URL** field. You can build the URL by combining the store ID from the admin URL. For example, `admin.shopify.com/store/{shop}` and `.myshopify.com` to get `https://{shop}.myshopify.com/`.
 
 ## Next steps
 

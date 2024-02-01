@@ -4,13 +4,12 @@
 
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/17/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Set Up Non-Deductible VAT in the Belgian Version
 You can calculate VAT amounts for specific types of expenses that can be partially declared as VAT. For example, on the **G/L Account Card** page, if you enter 75 in the **% Non-Deductible VAT** field, then 75 percent of the regular VAT amount is considered an additional cost and will be added to the net amount during posting. The remaining 25 percent will be posted as regular VAT.  

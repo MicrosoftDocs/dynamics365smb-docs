@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.date: 02/27/2023
 ms.custom: bap-template
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
+ms.service: dynamics-365-business-central
 ---
 # Walkthrough: Picking and Shipping in Basic Warehouse Configurations
 

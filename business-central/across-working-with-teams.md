@@ -3,7 +3,7 @@ title: Sharing Business Central records in Microsoft Teams
 description: Learn how to use the Business Central app for Microsoft Teams.
 author: jswymer
 ms.topic: how-to
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 12/12/2023

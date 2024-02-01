@@ -8,6 +8,7 @@ ms.search.form: 6774, 6775, 6776
 ms.date: 11/08/2023
 ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Inventory documents

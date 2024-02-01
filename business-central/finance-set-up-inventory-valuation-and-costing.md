@@ -7,6 +7,7 @@
     ms.date: 06/16/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Setting Up Inventory Valuation and Costing
 

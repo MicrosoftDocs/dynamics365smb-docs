@@ -6,8 +6,10 @@ ms.author: jswymer
 ms.reviewer: jswymer 
 ms.topic: troubleshooting 
 ms.collection:
-ms.date: 01/05/2024
+  - bap-ai-copilot
+ms.date: 02/01/24
 ms.custom: bap-template 
+ms.service: dynamics-365-business-central
 ---
 # Troubleshoot Copilot and AI capabilities
 

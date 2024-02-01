@@ -3,12 +3,11 @@
     description: This topic covers how to create electronic payment files and direct debit files, and import electronic bank statements from supported bank software.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/18/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Dutch Electronic Banking
 

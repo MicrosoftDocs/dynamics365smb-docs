@@ -43,7 +43,7 @@
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "titleSuffix": "Microsoft Invoicing",
       "breadcrumb_path": "/dynamics365/invoicing/breadcrumb/toc.json",
-      "ms.service": "dynamics365-business-central",
+      "ms.service": "dynamics-365-business-central",
       "extendBreadcrumb": true
     },
     "fileMetadata": {},

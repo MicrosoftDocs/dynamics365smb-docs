@@ -3,12 +3,11 @@
     description: You can use the Bank Detail Cashflow Compare report to compare the flow of cash in a particular bank for a specified period in the Australian version.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 11/09/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Compare bank cash flow in the Australian version
 

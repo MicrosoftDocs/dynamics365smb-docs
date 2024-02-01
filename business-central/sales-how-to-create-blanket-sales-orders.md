@@ -3,13 +3,12 @@ title: Work with Blanket Sales Orders or Purchase Orders
 description: Use blanket orders when a customer has agreed to buy large quantities that are to be delivered in several smaller shipments over a certain period of time. The same applies to purchasing.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Work with Blanket Sales Orders or Blanket Purchase Orders
 

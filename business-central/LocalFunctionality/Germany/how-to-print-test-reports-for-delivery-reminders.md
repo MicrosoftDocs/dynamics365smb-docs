@@ -3,12 +3,11 @@
     description: After you create delivery reminders and make changes in Germany, you can either print the test reports or issue the delivery reminders.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 11/08/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Print test reports for delivery reminders in the German version
 

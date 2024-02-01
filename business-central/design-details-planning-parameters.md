@@ -7,6 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 04/26/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Design Details: Planning Parameters
 

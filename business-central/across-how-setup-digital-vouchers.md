@@ -4,7 +4,7 @@ description: This article explains how to set up and use enforced digital vouche
 author: altotovi
 ms.author: altotovi
 ms.reviewer: 
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: digital voucher, voucher, attachment, setup
 ms.search.form: 5579, 5582, 5587

@@ -3,13 +3,12 @@
     description: Describes how to create check installments for post-dated checks in the New Zealand version.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.search.form: 28090,28091,28092,28093
     ms.date: 11/15/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Create check installments in the New Zealand version
 

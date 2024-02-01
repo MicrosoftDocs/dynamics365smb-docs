@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.date: 02/01/2023
 ms.custom: bap-template
 ms.search.forms: 9989, 13,
+ms.service: dynamics-365-business-central
 ---
 
 # Use Word Templates for Bulk Communication

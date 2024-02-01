@@ -5,14 +5,13 @@ author: jswymer
 
 
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Closing the Books
 After you ensure that all your accounts are up-to-date, and you allocate costs and income, then you can close the books for a fiscal year or period.

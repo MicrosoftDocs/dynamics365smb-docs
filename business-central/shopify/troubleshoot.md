@@ -8,6 +8,7 @@ ms.topic: how-to
 ms.date: 04/24/2023
 ms.custom: bap-template
 ms.search.form: 30118, 30119, 30120, 30101, 30102 
+ms.service: dynamics-365-business-central
 ---
 
 # Troubleshooting the Shopify and Business Central Synchronization

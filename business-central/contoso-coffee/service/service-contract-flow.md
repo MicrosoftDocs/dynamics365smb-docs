@@ -6,6 +6,7 @@ ms.author: andreipa
 ms.topic: how-to
 ms.date: 11/08/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
 # Walkthrough of service contracts for service items

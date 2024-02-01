@@ -3,12 +3,11 @@
     description: The post code file can be imported and update the relevant data of the Post Code Range table.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 11/23/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Import post code updates in the Dutch version
 Every month a post code file is delivered with all post code mutations in a month. This post code file can be imported and update the relevant data of the **Post Code Range** table.  

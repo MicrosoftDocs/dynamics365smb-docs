@@ -3,14 +3,13 @@ title: Create Electronic Documents in an OIOUBL format
 description: When you sell goods or services to a customer in the Danish public sector, you must submit documents electronically.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 11/11/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Create Electronic Documents by Using OIOUBL
 

@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.search.keywords:
 ms.date: 12/13/2023
 ms.custom: bap-template    
+ms.service: dynamics-365-business-central
 ---
 
 # Pick for production, assembly, or jobs in advanced warehouse configurations

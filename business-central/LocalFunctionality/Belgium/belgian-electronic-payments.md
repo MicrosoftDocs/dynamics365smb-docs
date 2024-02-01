@@ -7,6 +7,7 @@ ms.search.keywords:
 ms.search.form: 2000006
 ms.date: 11/27/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Belgian electronic payments

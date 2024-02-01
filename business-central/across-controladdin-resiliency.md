@@ -4,11 +4,11 @@ description: What to if control add-ins or custom controls are resulting in redu
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
-ms.tgt_pltfrm: na
 ms.topic: conceptual
 author: brentholtorf
 ms.author: bholtorf
 ms.date: 12/12/2023
+ms.service: dynamics-365-business-central
 ---
 
 # Control add-in resiliency in Business Central

@@ -6,6 +6,7 @@ ms.topic: conceptual
 ms.search.keywords: New Zealand, local functionality
 ms.date: 11/10/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # New Zealand local functionality
 

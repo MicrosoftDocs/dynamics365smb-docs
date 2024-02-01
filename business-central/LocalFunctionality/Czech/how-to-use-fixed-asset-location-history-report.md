@@ -8,6 +8,7 @@ ms.search.keywords: Czech, Fixed Asset, Localization, CZ
 ms.date: 12/08/2023
 ms.reviewer: altotovi
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
 # Fixed asset location/responsible history report in the Czech version

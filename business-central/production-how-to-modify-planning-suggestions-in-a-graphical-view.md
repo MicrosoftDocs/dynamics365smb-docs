@@ -3,13 +3,12 @@
     description: Typical planning activity- change or add planning worksheet lines to modify suggested supply orders before you commit run Carry out Action Message function.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 11/22/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Modify planning suggestions in a graphical view
 

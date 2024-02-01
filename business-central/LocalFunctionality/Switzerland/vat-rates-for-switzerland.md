@@ -7,6 +7,7 @@ ms.search.keywords:
 ms.date: 12/11/2023
 ms.author: bholtorf
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # VAT rates for Switzerland
 

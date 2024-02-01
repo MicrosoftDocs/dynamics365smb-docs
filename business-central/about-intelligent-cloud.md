@@ -3,14 +3,13 @@ title: Intelligent insights and cloud migration
 description: In Business Central online, you have access to other online services, and you can get intelligent insights that are based on Azure AI, for example. Read on if you're considering to migrate from on-premises to the cloud.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.reviewer: bholtorf
 ms. search.keywords: cloud, migrate, insights
 ms.search.form: 4010
 ms.date: 04/12/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Intelligent Insights in [!INCLUDE[prod_short](includes/prod_short.md)] Online

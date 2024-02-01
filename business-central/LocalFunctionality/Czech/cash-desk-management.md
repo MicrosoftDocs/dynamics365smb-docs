@@ -7,6 +7,7 @@ ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
 ms.date: 11/23/2023
 ms.reviewer: v-pejano
 ms.author: v-makune
+ms.service: dynamics-365-business-central
 ---
 
 # Cash desk management in the Czech version

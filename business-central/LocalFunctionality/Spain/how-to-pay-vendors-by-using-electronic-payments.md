@@ -3,12 +3,11 @@
     description: In Business Central, you can pay a vendor using electronic payments. Payments are exported to a file, which are then transmitted to your bank. 
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 12/12/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Pay vendors using electronic payments in the Spanish version
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can pay a vendor using electronic payments. Payments are exported to a file, which are then transmitted to your bank. The bank then electronically transfers the payments from your bank account to the payee’s (vendor) bank account.  

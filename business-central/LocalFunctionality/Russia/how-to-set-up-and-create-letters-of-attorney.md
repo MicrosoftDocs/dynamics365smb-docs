@@ -7,6 +7,7 @@ ms.search.keywords:
 ms.date: 11/08/2023
 ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Set up and create letters of attorney

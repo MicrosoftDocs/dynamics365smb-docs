@@ -8,6 +8,7 @@ ms.search.form: 2500, 2502, 20350, 20353
 ms.date: 09/27/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Customizing Business Central Online with Apps
 

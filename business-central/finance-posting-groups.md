@@ -9,6 +9,7 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 12/21/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Set up posting groups
 

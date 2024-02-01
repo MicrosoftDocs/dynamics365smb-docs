@@ -3,11 +3,10 @@ title: Generate payment suggestions [BE]
 description: After you set up electronic banking, you can start generating payment suggestions. You can do this in the payment journal.
 author: brentholtorf
 ms.topic: conceptual
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.form: 256
 ms.date: 01/18/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Generate payment suggestions in the Belgian version

@@ -1,4 +1,7 @@
-﻿
+---
+ms.service: dynamics-365-business-central
+---
+
 # [Business Central documentation](index.yml)
 # [Welcome to Business Central](welcome.md)
 # [New and planned](/dynamics365/business-central/dev-itpro/whatsnew/overview?toc=/dynamics365/business-central/toc.json)

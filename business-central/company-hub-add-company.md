@@ -7,6 +7,7 @@ ms.search.keywords: accountant, accounting, company hub
 ms.search.form: 1151, 1155, 1166, 1165
 ms.date: 09/28/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Add Companies to Your Company Hub
 

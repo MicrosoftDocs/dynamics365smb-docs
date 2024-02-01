@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/24/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 22.](../media/ui-search/search_small.png "Search magnifying glass") icon, enter **Items**, and then choose the related link.  

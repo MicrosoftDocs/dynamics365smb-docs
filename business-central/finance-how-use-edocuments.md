@@ -3,30 +3,36 @@ title: Use e-documents in sales and purchases
 description: Learn how to use e-documents functionality that is related to sales and purchase invoices.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, sales, purchase
 ms.search.form: 42, 43, 51, 6103, 6133, 6121, 9301, 9305, 9308
 ms.date: 10/03/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
 # Use e-documents in sales and purchases
 
 You can use configured electronic documents (e-documents) with sales and purchase documents.
 
-Currently, you can use the following documents for e-documents:
+You can use the following documents with e-documents functionality:  
 
-- Sales invoices
-- Sales orders
-- Sales credit memos
-- Purchase invoices
-- Purchase orders
-- Purchase credit memos
-- General journals
+- Sales: 
+    - Sales invoices
+    - Sales orders
+    - Sales credit memos
+    - Service invoices
+    - Service credit memos
+    - Finance charge memos
+    - Reminders
+- Purchase: 
+    - Purchase invoices
+    - Purchase orders (only create new document)
+    - Purchase credit memos
+    - General journals
 
-Currently, a purchase order can be used only when you create the document from the e-document from your vendor. However, you can't update the existing document with lines that you got from your vendor.
+> [!NOTE]
+> Currently, a purchase order can be used only when you create the document from the e-document from your vendor. However, you can't update the existing document with lines that you got from your vendor.  
 
 ## E-documents in sales
 

@@ -3,13 +3,12 @@
     description: How to post the difference in accumulated depreciation between the different depreciation methods be calculated and posted to the general ledger.  
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/18/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Posting Depreciation Differences in the Finnish Version
 In Finland, the following depreciation methods are commonly used for fixed assets:  

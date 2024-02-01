@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.date: 08/18/2023
 ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # United Kingdom Local Functionality in the British Version
 

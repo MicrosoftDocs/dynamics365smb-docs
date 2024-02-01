@@ -1,13 +1,14 @@
 ---
-title: Set Up Payment Terms
+title: Set up payment terms
 description: Use payment terms to manage due dates and payment discounts. 
 author: brentholtorf
 ms.topic: conceptual
 ms.search.form: 4,
 ms.date: 09/05/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# Set Up Payment Terms
+# Set up payment terms
 
 Payment terms determine how you manage due dates and payment discounts. You can set up any number of payment term codes and use date formulas to define the payment terms. When you first sign up for [!INCLUDE [prod_short](includes/prod_short.md)], the demonstration company provides a few payment methods that businesses often use. You can, however, add as many as you need.  
 

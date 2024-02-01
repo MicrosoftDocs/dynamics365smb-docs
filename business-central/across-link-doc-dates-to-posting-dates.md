@@ -5,10 +5,10 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
-ms.date: 08/03/2023
+ms.date: 11/14/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-
 # Updating document dates with posting dates
 
 [!INCLUDE [document-posting-date](includes/document-posting-date.md)]

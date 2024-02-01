@@ -9,6 +9,7 @@ ms.reviewer: jswymer
 ms.date: 10/10/2023
 ms.author: kepontop
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Introduction to Microsoft Fabric and Business Central
 

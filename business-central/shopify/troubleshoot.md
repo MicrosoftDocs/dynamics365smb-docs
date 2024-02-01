@@ -8,6 +8,7 @@ ms.topic: how-to
 ms.date: 04/24/2023
 ms.custom: bap-template
 ms.search.form: 30118, 30119, 30120, 30101, 30102 
+ms.service: dynamics-365-business-central
 ---
 
 # Troubleshooting the Shopify and Business Central Synchronization
@@ -28,16 +29,7 @@ The logging features can make it easier to identify why an error occurred. On th
 
 - **Disabled** - Don't log information about errors.
 - **Error Only** - Log only the error message, without the request/response pairs. This setting is the default for new shops.
-- **All** - Log the request/response pairs for all transactions, including those that were successful.
-
-> [!NOTE]
-> Logging errors continuously can slow down [!INCLUDE [prod_short](../includes/prod_short.md)]. To avoid that, you can turn on logging after you find an error in your synchronization. You can manually trigger the synchronization again, and then review the log to find out what went wrong.
-
-### Manage log entry data
-
-To help keep the size of your database under control, log entries are included in a data retention policy named **Shpfy Log Entry**. Retention policies let you specify how long you want to store different types of data. By default, Shopify log entries are kept for one month. To learn more about retention policies, go to [Define Retention Policies](../admin-data-retention-policies.md).
-
-Also, on the **Shopify Log Entries** page, you can delete all log entries, or just the entries that are older than seven days.
+- **All** - Log the request/response pairs for all transactions, including those that were successful. Logging all errors continuously can slow down [!INCLUDE [prod_short](../includes/prod_short.md)]. Use this mode when the data exchange doesn't result in error, but you want to get more insights about the data that was actually sent and received. Note that some data is always logged, regardless of whether logging is turned on. For more information, see [Data capture](#data-capture).
 
 ### To review logs
 
@@ -50,7 +42,11 @@ Also, on the **Shopify Log Entries** page, you can delete all log entries, or ju
 
 You can download the request and response values as files in a text format.
 
-To avoid effects on performance and the size of your database, consider whether to turn off logging.
+### Manage log entry data
+
+To help keep the size of your database under control, log entries are included in a data retention policy named **Shpfy Log Entry**. Retention policies let you specify how long you want to store different types of data. By default, Shopify log entries are kept for one month. To learn more about retention policies, go to [Define Retention Policies](../admin-data-retention-policies.md).
+
+Also, on the **Shopify Log Entries** page, you can delete all log entries, or just the entries that are older than seven days.
 
 ## Data capture
 
@@ -157,6 +153,10 @@ Contact Shopify support within seven days of experiencing this error, and provid
 ### Error: Oauth error invalid_request: Your account does not have permission to grant the requested access for this app. 
 
 It seems that user which requests access doesn’t have rights to manage apps (ability to manage and install apps and channels, as well as potentially approve app charges). You may be able to resolve this issue by installing the app as the account owner. Alternatively you can check the **App permission** for the user in the [**User and permissions**](https://www.shopify.com/admin/settings/account) settings in your **Shopify admin**.  
+
+### [{"message":"Access denied for FIELD field.","locations":[{"line":0,"column":0}],"path":["path"],"extensions":{"code":"ACCESS_DENIED","documentation":https://shopify.dev/api/usage/access-scopes}}]
+
+Request a new token because the updated version of the connector requires more permissions (application scopes). To learn more, go to [Request access token](#request-the-access-token).
 
 ## See also
 

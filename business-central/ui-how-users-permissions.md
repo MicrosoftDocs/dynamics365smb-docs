@@ -8,6 +8,7 @@ ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838,
 ms.date: 03/24/2023
 ms.author: jswymer
 ms.reviewer: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Create Users According to Licenses
 

@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/27/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 2.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  

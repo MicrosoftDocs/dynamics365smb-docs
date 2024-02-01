@@ -8,6 +8,7 @@ ms.search.form: HelpAndSupport
 ms.author: bholtorf
 ms.date: 09/28/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
 # Resources for Help and Support
@@ -237,7 +238,7 @@ The same applies if you use [!INCLUDE [prod_short](includes/prod_short.md)] on-p
 
 ## See Also
 
-[Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
+[Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Business Central Quick Starts](quick-start-business-central.md)  
 [How do I find a reselling partner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Help System (available in English only)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  

@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: troubleshooting 
 ms.collection:
   - bap-ai-copilot
-ms.date: 02/01/24
+ms.date: 02/01/2024
 ms.custom: bap-template 
 ms.service: dynamics-365-business-central
 ---

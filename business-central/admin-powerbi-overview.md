@@ -50,7 +50,7 @@ Starting in February 2022, Power BI reports for [!INCLUDE[prod_short](includes/p
 
 The following diagram illustrates the basic workflow for users when connecting [!INCLUDE[prod_short](includes/prod_short.md)] to Power BI.
 
-![Power BI workflow  for integration with Business Central.](./media/power-bi-flow.png)
+![Power BI workflow  for integration with Business Central.](./media/power-bi-flow.svg)
 
 1. User signs up for a Power BI account.
 2. User connects to Power BI from [!INCLUDE[prod_short](includes/prod_short.md)].

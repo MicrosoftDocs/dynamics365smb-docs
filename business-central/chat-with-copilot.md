@@ -37,7 +37,7 @@ Chat with Copilot capability is enabled and activated. This task is done by an a
 
 ## Get started using chat with Copilot
 
-1. In the upper right of the screen, select the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon ![Shows the icon for chat with Copilot pane with callouts](media/callout-number-1.svg).
+1. In the upper-right corner of the screen, select the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon ![Shows the icon for chat with Copilot pane with callouts](media/callout-number-1.svg).
 
    The **Copilot** pane displays on the right as illustrated in the following figure:
 
@@ -49,7 +49,7 @@ Chat with Copilot capability is enabled and activated. This task is done by an a
 
    > [!TIP]
    > Copilot includes a couple features that can help your write questions:
-   > - To get started on formulating a question, select one of the prompts&mdash;**Find**, **Explain**, or **Guide**&mdash;by using the buttons at the top of the pane ![Shows callout number 3](media/callout-number-3.svg) or the **View Prompts** button above **Ask a question** box ![Shows callout number 3](media/callout-number-4.svg). Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.
+   > - To get started on formulating a question, select one of the prompts&mdash;**Find**, **Explain**, or **Guide**&mdash;available the top of the pane ![Shows callout number 3](media/callout-number-3.svg) or from the **View Prompts** button above **Ask a question** box ![Shows callout number 3](media/callout-number-4.svg). Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.
    > - Select the sample questions above the View prompts button ![Shows callout number 5](media/callout-number-5.svg) to automatically ask a predefined question to get insight into how the questions and answers work.  
 
 1. Review the answers displayed in the Copilot pane ![Shows callout number 6](media/callout-number-6.svg).

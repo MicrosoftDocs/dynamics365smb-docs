@@ -51,7 +51,7 @@ Configure the Shopify shop as described in the following steps:
 6. Select *Deny* in the **Default Inventory Policy** field.
 7. Turn on the **Auto Create Unknown Customers** toggle.
 8. Fill in the **Customer Template Code** field with the appropriate template.
-9. Fill in the **Shipping Cost Account**, the **Tip Account** with the revenue account. For example, in the US, use `40100`.
+9. Fill in the **Shipping Cost Account**, the **Tip Account** with the revenue account. For example, in the US, use `40210`.
 10. Turn on the **Auto Create Orders** toggle.
 
 Configure location mapping:

@@ -99,7 +99,10 @@ If you want to make a table-only field available on a page to users, you must fi
 - One way is to drag it from  **Add field to page** pane to the desired position.
 - Another way is to select the field in the pane to display the recommended location on the page. Then go to the field location on the pages, select the arrowhead, then select **Add**. 
 
-Once the field has been added, the tooltip for the field in the  **Add field to page** pane switches to **Defined by the page**. The added field is locked from editing and can't be unlocked.
+Once the field has been added, the tooltip for the field in the  **Add field to page** pane switches to **Defined by the page**.
+
+> [!NOTE]
+> The added field is locked from editing and can't be unlocked.
 
 ## Remove a field
 

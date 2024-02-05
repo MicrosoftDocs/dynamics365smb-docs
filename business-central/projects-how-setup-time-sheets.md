@@ -11,7 +11,6 @@ ms.search.form: 977, 462, 76, 77, 462
 ms.date: 07/27/2023
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
-ms.author: bholtorf
 ---
 # Set up time sheets
 

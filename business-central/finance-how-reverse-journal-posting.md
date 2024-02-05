@@ -7,6 +7,7 @@ ms.reviewer: bnielse
 ms.topic: how-to
 ms.date: 03/28/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Reverse Journal Postings and Undo Receipts/Shipments
 

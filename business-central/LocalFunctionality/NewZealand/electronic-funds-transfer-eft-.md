@@ -4,14 +4,13 @@
     author: brentholtorf
     
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.search.form: 11615
     ms.date: 06/18/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Electronic Funds Transfer (EFT) in the New Zealand Version
 

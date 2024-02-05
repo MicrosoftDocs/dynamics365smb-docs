@@ -3,7 +3,7 @@ title: Synchronize and fulfill sales orders
 description: Set up and run import and processing of sales orders from Shopify.
 ms.date: 06/06/2023
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147
 author: brentholtorf
 ms.author: bholtorf
@@ -81,7 +81,9 @@ The location mapping is required to fill in the **Location Code** for sales docu
 The following procedure describes how to import and update the sales orders.
 
 > [!NOTE]  
-> Archived orders in Shopify can't be imported. Deactivate the **Automatically archive the order** option in the **Order Processing** section of the **Checkout** settings in your **Shopify Admin** panel to make sure that all orders are imported to [!INCLUDE[prod_short](../includes/prod_short.md)]. If you need to import archived orders, use the **Unarchive Orders** action on the [Orders](https://www.shopify.com/admin/orders) page of the **Shopify admin** panel.
+> Archived orders in Shopify can't be imported. If you need to check the order status, open the order from the [orders](https://www.shopify.com/admin/orders) page of the **Shopify admin** panel and review order details.
+> 
+> Deactivate the **Automatically archive the order** option in the **Order Processing** section of the **Checkout** settings in your **Shopify Admin** panel to make sure that all orders are imported to [!INCLUDE[prod_short](../includes/prod_short.md)]. If you need to import archived orders, use the **Unarchive Orders** action on the [Orders](https://www.shopify.com/admin/orders) page of the **Shopify admin** panel. 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, then choose the related link.
 2. Select the shop for which you want to import orders to open the **Shopify Shop Card** page.

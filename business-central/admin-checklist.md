@@ -7,6 +7,7 @@ ms.search.keywords: setup, wizard, checklist
 ms.search.form: 1992, 1993, 1994, 1995, 1990, 1997, 1801
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Onboard Users with Checklists
 

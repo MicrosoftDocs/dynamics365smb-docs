@@ -4,9 +4,10 @@ description: This section describes the Czech local functionality namely the Fix
 author: ACMartinKunes
 ms.topic: conceptual
 ms.search.keywords: Czech, finance, CZ, Fixed Assets
-ms.date: 11/15/2023
+ms.date: 12/20/2023
 ms.reviewer: v-pejano
 ms.author: v-makune
+ms.service: dynamics-365-business-central
 ---
 
 # Fixed assets in the Czech version
@@ -25,9 +26,9 @@ Each long-term fixed asset belongs to a depreciation group. These groups determi
 
 ## Calculation of depreciation basis in fixed assets
 
-Due to Czech legislation, it's necessary to calculate tax depreciations from the depreciable basis, which can be different from acquisition costs. According to the requirements, a depreciation basis by the Czech declining-balance depreciation method for the second and following years is calculated using the new formula defined in the Income Tax Act of a fixed asset's life.
+Due to Czech legislation, it is necessary to calculate tax depreciations from the depreciable basis which can be different from acquisition costs. According to the requirements, a depreciation basis by the Czech declining-balance depreciation method for the second and following years of a fixed asset's life should be calculated by the new formula defined in the Income Tax Act.
 
-The changes are made in the calculation of depreciation amounts by the CZ declining-balance depreciation method, for the second and following years of a fixed asset's life with the help of the above formula. The tax depreciation is calculated annually and the **Force No. of Days** option is recommended for calculating the correct depreciation amount.
+Changes have been made in the calculation of depreciation amounts by the CZ declining-balance depreciation method for the second and following years of a fixed asset's life by the formula stated above. The tax depreciation is calculated annually and the **Force No. of Days** option is recommended for calculating the correct depreciation amount.
 
 ## Fixed assets depreciation holidays
 
@@ -54,7 +55,7 @@ The value **Custom 2** is renamed in Czech language from "Vlastní 2" to "Poří
 
 Czech accounting standards require specific posting when a fixed asset is being disposed of or being sold. After selling or posting the fixed assets, the posting of disposal ensures that the fixed asset value remains the same as the acquired value after depreciation.
 
-The fixed asset remains unchanged even after its usage. When the fixed asset is depreciated periodically, a corresponding sum is debited from the acquired cost at the time of disposal. The balance amount is the current fixed asset value.
+The fixed asset remains unchanged even after it is put to use. When the fixed asset is depreciated periodically, a corresponding sum is debited from the acquired cost at the time of disposal. The balance amount is the current fixed asset value.
 
 On the **Depreciation Book** page, select the **Corresponding G/L Entries on Disposal** check box to make this feature operational. Also select the **Corresponding FA Entries on Disposal** check box to retain the correspondence between G/L entries and FA entries.  
 
@@ -62,7 +63,7 @@ On the **Depreciation Book** page, select the **Corresponding G/L Entries on Dis
 
 In Czech accounting, it's necessary to post different types of disposal and different types of maintenance of fixed assets to specific G/L accounts. A standard way offers only one method of disposal and maintenance posting.
 
-A new setup is added for this, namely the **FA Extended Posting Group** table. You can set up each FA posting group using this table:
+A new setup is added for this, namely the **FA Extended Posting Group** table. This table allows to set up each FA posting group:
 
 - Posting disposals to different accounts in combination with **Reason Code** field for disposals
 - Posting maintenance in combination with the **Maintenance Code** field for maintenance
@@ -95,7 +96,7 @@ New reports for transactions and history documentation added:
 In order to comply with the requirements in legislation reporting features and local reporting practices of Czech companies, this feature provides the following reports:
 
 - **Fixed Asset Card** – combines data from the standard **FA List** and **FA Details** reports, grouping details per FA depreciation book.
-- **FA Receipt** – is printed when a particular fixed asset is received and put to use. The company officials sign such document.
+- **FA Receipt** – is printed when a particular fixed asset is received to be put to use. Such document must be signed by company officials.
 - **FA Disposal** – is printed when a particular fixed asset is disposed of or damaged.
 - **FA – Analysis G/L Account** – used to compare it with G/L account.
 - **Fixed Asset – Analysis 2** – users can define 3 columns for date, 4 columns for amount field, group totals, and export to Excel.

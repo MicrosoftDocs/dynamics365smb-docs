@@ -6,6 +6,7 @@ ms.topic: conceptual
 ms.search.form: 107, 9035, 9040
 ms.date: 09/14/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Manage Storage by Deleting Documents or Compressing Data
 
@@ -80,7 +81,8 @@ The number of entries that result from a date compression depends on how many fi
     * To set up compression for an individual type of data, choose **Data Compression**, **Compress Entries**, then choose the data to compress.
 
    > [!NOTE]
-   > You can only compress data more than five years old. If you want to compress data less than five years old, contact your Microsoft partner.
+   > You can only compress data more than five years old. If you want to compress data less than five years old, contact your Microsoft partner. They need to use the `OnSetMinimumNumberOfYearsToKeep` event in the "Date Compression" codeunit to set the threshold.
+
 
 ## See also
 

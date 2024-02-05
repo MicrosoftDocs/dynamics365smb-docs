@@ -1,19 +1,23 @@
 ---
-title: Personalizing Pages (contains video)
+title: Personalizing pages (contains video)
 description: Learn how to customize the user interface and personalize your workspace to suit your way of working and personal preferences in Business Central.
 author: jswymer
 ms.topic: conceptual
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 09/14/2023
+ms.date: 01/15/2024
 ms.author: jswymer
 ---
 # Personalize your workspace
 
-You can personalize your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalization affects only your workspace. It doesn't change how others work. You can personalize all types of pages, including the [role center](ui-change-basic-settings.md#role-center) page. 
+You can personalize your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalization affects only your workspace. It doesn't change how others work. You can personalize all types of pages, including the [role center](ui-change-basic-settings.md#role-center) page.
+
+> [!NOTE]
+> Due to restrictions on design capabilities in the web client, it's currently not possible to customize or personalize the controls within the `grid` and `fixed` syntax.
+It applies to all design modes, not just personalization.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -46,7 +50,7 @@ As for other personalization, the changes you make to column width are stored on
     The **Personalizing** banner appears at the top to indicate that you can start making changes.
 
     > [!NOTE]
-    > To navigate during personalization, use <kbd>Ctrl</kbd>+<kbd>Click<kbd> on an action if it is highlighted by the arrowhead.
+    > To navigate during personalization, use <kbd>Ctrl</kbd>+<kbd>Click</kbd> on an action if it is highlighted by the arrowhead.
 
     If you see a ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock") or ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked") on the banner, you can't personalize the page. For more information, see [Why a Page is Locked from Personalization](ui-personalization-locked.md).
 
@@ -140,7 +144,7 @@ When personalizing a page, you use **Add field to page** pane to show fields tha
 
 To make working with fields easier, here are some general guidelines to follow when using the **Add field to page** pane:
 
-- By default, the pane lists all hidden fields, which are marked by the [Shows the hidden field icon](media/hidden-icon.png "Shows the hidden field icon") icon.
+- By default, the pane lists all hidden fields, which are marked by the ![Shows the hidden field icon](media/hidden-icon.png "Shows the hidden field icon") icon.
 - You can filter the list show other fields, like those currently shown on the page, by selecting the **Recommended fields** button above the list and choosing a filter option. The name of the button changes  based on the filter option you choose.
   
    :::image type="content" source="media/personlaization-filter.svg" alt-text="Shows the filter button in the Add a field pane in the personalization mode.":::
@@ -185,9 +189,8 @@ To help you better understand personalization, here are some pointers.
 - Some pages have multiple page fields that map to the same source table. The pane will show both/all of those page fields independently. Showing/Hiding/moving those fields is also independent without one affecting the other.
 - If a part or group is hidden, ghosted fields will still show inside it, but you cannot drag-drop or add/show that field until you make the group/part visible.
 
-## See related [Microsoft training](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## See Also
+## See also
 [Customize Pages for Profiles](ui-personalization-manage.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  

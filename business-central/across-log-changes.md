@@ -9,6 +9,7 @@ ms.search.keywords: user log, user activity, tracking
 ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
 ms.date: 08/03/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Auditing Changes in Business Central
 

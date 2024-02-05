@@ -3,12 +3,11 @@
     description: In this feature, controls have been added to the Reverse Transaction Entries page to comply with local laws.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/18/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Reversing Journal Entries in the Italian Version
 Controls have been added to the **Reverse Transaction Entries** page to comply with local laws. These controls ensure the following:  

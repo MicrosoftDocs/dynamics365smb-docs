@@ -10,6 +10,7 @@
     ms.date: 04/01/2021
     ms.author: soalex
 
+    ms.service: dynamics-365-business-central
 ---
 # Use the same External Document Numbers across fiscal years
 

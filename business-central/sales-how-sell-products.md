@@ -2,14 +2,14 @@
 title: Create a customer sales order and sell products
 description: Describes how to create a sales order to record your agreement with a customer to sell or trade products under specific terms.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: soalex
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: trade, partial deliveries, customer sales order, shipping advice, partial shipments, 
 ms.search.form: 42, 48, 9305
-ms.date: 11/03/2023
-ms.author: bholtorf
+ms.date: 02/01/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Sell products with a customer sales order
 
@@ -90,6 +90,12 @@ The related item and customer ledger entries are now created in your system, and
 ## External document number
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
+
+## Working with amount fields
+
+The values in fields that show amounts can be positive or negative, depending on whether the value represents a credit or a debit. This video shows how to work with fields that show amounts.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
 ## See also
 

@@ -9,6 +9,7 @@ ms.date: 03/31/2023
 ms.custom: bap-template
 ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.search.form: 6250,
+ms.service: dynamics-365-business-central
 ---
 
 # Couple and Synchronize Records between Dataverse and Business Central

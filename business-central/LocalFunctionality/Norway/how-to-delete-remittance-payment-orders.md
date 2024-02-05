@@ -3,13 +3,12 @@ title: Delete remittance payment orders [NO]
 description: Orders can be deleted if they're managed in full and are in a closed financial year. 
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 11/20/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Delete remittance payment orders in the Norwegian version
 

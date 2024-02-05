@@ -4,7 +4,7 @@ description: Learn how to set up and work with France-specific information in Fr
 author: altotovi
 ms.author: altotovi
 ms.reviewer: kfend
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 05/26/2023
 ms.custom: bap-template

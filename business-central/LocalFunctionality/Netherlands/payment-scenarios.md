@@ -3,12 +3,11 @@
     description: Based on a sales or purchase invoice or credit memo a proposal can be generated and exported in order processed it by our bank.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 11/17/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Payment scenarios
 Based on a sales or purchase invoice or credit memo a proposal can be generated and exported in order to  process it by our bank.  

@@ -5,12 +5,11 @@
     documentationcenter: ''
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 04/01/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Set Limits for Due Dates
 You can modify payment terms to have limits for the maximum number of days that can be between a delivery and the corresponding payment.  

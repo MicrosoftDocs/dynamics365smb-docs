@@ -8,6 +8,7 @@ ms.search.form: Report_33, Report_101, Report_104, Report_109, Report_112, Repor
 ms.date: 07/13/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Accounts Receivable Reports and Analytics in Business Central
 

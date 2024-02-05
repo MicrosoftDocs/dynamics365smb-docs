@@ -1560,6 +1560,7 @@ ms.service: dynamics-365-business-central
 #### [Set up shipping agents](sales-how-to-set-up-shipping-agents.md)
 #### [Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)
 #### [Update document dates with posting dates](across-link-doc-dates-to-posting-dates.md)
+#### [Display a stockout warning](sales-setup-show-stockout-warning.md)
 ### Set up purchase
 #### [Set up purchase](purchasing-setup-purchasing.md)
 #### [Register new vendors](purchasing-how-register-new-vendors.md)

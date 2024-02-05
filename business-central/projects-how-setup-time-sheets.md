@@ -96,7 +96,7 @@ The following sections describe how to set up time sheets if you don't use the *
 ## See also
 
 [Use Time Sheets for Projects](projects-how-use-time-sheets.md)  
-[How To Create Time Sheets](projects-how-use-time-sheets.md#to-create-time-sheets)  
+[How To Create Time Sheets](projects-how-use-time-sheets.md#create-time-sheets)  
 [Record Consumption or Usage for Projects](projects-how-record-job-usage.md)  
 [Setting Up Project Management](projects-setup-projects.md)  
 [Project Management](projects-manage-projects.md)  

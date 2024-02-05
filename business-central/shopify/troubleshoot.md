@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting the Shopify and Business Central Synchronization
+title: Troubleshooting the Shopify and Business Central synchronization
 description: Learn what to do if something goes wrong when you synchronize data between Shopify and Business Central.
 author: brentholtorf
 ms.author: bholtorf
@@ -11,7 +11,7 @@ ms.search.form: 30118, 30119, 30120, 30101, 30102
 ms.service: dynamics-365-business-central
 ---
 
-# Troubleshooting the Shopify and Business Central Synchronization
+# Troubleshooting the Shopify and Business Central synchronization
 
 You might run into situations where you need to troubleshoot issues when synchronizing data between Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)]. This page defines troubleshooting steps for some typical scenarios.
 
@@ -21,7 +21,7 @@ You might run into situations where you need to troubleshoot issues when synchro
 2. Select the shop for which you want to troubleshoot to open the **Shopify Shop Card** page.
 3. Turn off the **Allow Background Syncs** toggle.
 
-Now, when the sync action is triggered the task runs in the foreground. If an error occurs, you get an error dialog with a **Copy details** link. Use the link to copy information to a text editor for further analysis.
+Now, when the sync action is triggered, the task runs in the foreground. If an error occurs, you get an error dialog with a **Copy details** link. Use the link to copy information to a text editor for further analysis.
 
 ## Logs
 
@@ -114,7 +114,7 @@ The following procedures describe how to rotate the access token used by the Sho
 
 ### Error: The Sales Header does not exist. Identification fields and values: Document Type='Quote',No.='YOUR SHOPIFY STORE'
 
-To calculate prices, the Shopify Connector creates a temporary sales document (quote) for a temporary customer (Shop Code) and uses the standard price calculation logic. If a third-party extension subscribes to events on a temporary sales document, the header might not be available. We recommend that you contact the extension provider. Ask them to modify their code to check for temporary records. In some cases, they just need to add the `IsTemporary` method ìn the right place. To learn more about `IsTemporary`, go to [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
+To calculate prices, the Shopify Connector creates a temporary sales document (quote) for a temporary customer (Shop Code) and uses the standard price calculation logic. If a third-party extension subscribes to events on a temporary sales document, the header might not be available. We recommend that you contact the extension provider. Ask them to modify their code to check for temporary records. In some cases, they just need to add the `IsTemporary` method in the right place. To learn more about `IsTemporary`, go to [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
 
 To verify that the problem is caused by a third-party extension, use the **Copy information to clipboard** link in the error message and copy the content to a text editor. The information contains an **AL call stack**, where the top line is the line where the error occurred. The following example shows an AL call stack.
 
@@ -132,7 +132,7 @@ AL call stack:
 "Shpfy Products"(Page 30126)."AddItems - OnAction"(Trigger) line 5 - Shopify Connector by Microsoft
 ```
 
-Remember to the share AL call stack information with the supplier of the extension.
+Remember to share the AL call stack information with the supplier of the extension.
 
 ### Error: Gen. Bus. Posting Group must have a value in Customer: 'YOUR SHOPIFY STORE'. It cannot be zero or empty
 
@@ -144,7 +144,7 @@ On the **Shopify Shop Card** page, turn on the **Allow Data Sync to Shopify** to
 
 ### Error: Oauth error invalid_request: Could not find Shopify API application with api_key
 
-It seems you use the [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), where the client URL has the format: `https://[application name].bc.dynamics.com`. The Shopify connector doesn't work for Embed Apps. To learn more, go to [Which Microsoft products are the Shopify connector available for?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
+You may have used the [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), where the client URL has the format: `https://[application name].bc.dynamics.com`. The Shopify connector doesn't work for Embed Apps. To learn more, go to [Which Microsoft products are the Shopify connector available for?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
 
 ### Error: Internal Error. Looks like Something Went Wrong on Our End. Request ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
 
@@ -152,7 +152,7 @@ Contact Shopify support within seven days of experiencing this error, and provid
 
 ### Error: Oauth error invalid_request: Your account does not have permission to grant the requested access for this app. 
 
-It seems that user which requests access doesn’t have rights to manage apps (ability to manage and install apps and channels, as well as potentially approve app charges). You may be able to resolve this issue by installing the app as the account owner. Alternatively you can check the **App permission** for the user in the [**User and permissions**](https://www.shopify.com/admin/settings/account) settings in your **Shopify admin**.  
+The user who requested access doesn’t have the rights to manage apps (the ability to manage and install apps and channels, as well as potentially approve app charges). You may be able to resolve this by installing the app as the account owner. Alternatively, you can check the **App permission** for the user in the [**User and permissions**](https://www.shopify.com/admin/settings/account) settings in your **Shopify admin**.  
 
 ### [{"message":"Access denied for FIELD field.","locations":[{"line":0,"column":0}],"path":["path"],"extensions":{"code":"ACCESS_DENIED","documentation":https://shopify.dev/api/usage/access-scopes}}]
 

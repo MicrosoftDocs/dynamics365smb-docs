@@ -56,7 +56,7 @@ As for other personalization, the changes you make to column width are stored on
 
 1. To change a UI element, point to the element, such as an action, a field, or a part. The element is immediately highlighted with an arrowhead or border. Choose the element, and then choose either **Move**, **Remove**, **Hide**, **Show**, **Show under "Show more"**, **Show when collapsed**, **Show always**, **Set/Clear Freeze Pane**, or **Include/Exclude from Quick Entry**, depending on the type and state of the UI element.
 1. To add a field, choose the **+ Field** action. From the **Add Field to Page** pane, drag and drop a field into the desired position on the page.
-1. When you have finished changing the layout of one or more pages, choose the **Done** button on the **Personalizing** banner.
+1. When you finish changing the layout of one or more pages, choose the **Done** button on the **Personalizing** banner.
 
 For more information, see [What You Can Personalize](#What).
 
@@ -104,7 +104,7 @@ When you want to show or hide an action, the options under the arrowhead define 
 2. Choose from one of the following options:
 
 |Option|What it does|
-|------|------------
+|------|------------|
 |**Remove**|This option appears if the selected action is also shown somewhere else on the navigation bar or action bar. Choosing this option deletes the action from the selected location so that it no longer appears. The action or action group remains in the other locations. |
 |**Hide**|This option appears if the action or action group isn't located anywhere else on the navigation bar or action bar. Like **Remove**, choosing this option makes the action or action group disappear from the navigation bar or action bar. However, in personalizing mode, the action or action group are still shown in the current position, except that it appears dimmed.|
 |**Show**|This option appears if the action or action group has been previously hidden (dimmed). Choosing this option makes the action or action group appear on the navigation bar or action bar.|
@@ -142,17 +142,16 @@ You can clear all personalization changes that you have made within a single par
 
 When personalizing a page, you use **Add field to page** pane to show fields that are currently hidden on the page. You open this pane by selecting the **+ Field** action near the top of the page. Unlike other elements, hidden fields aren't indicated on the page itself in personalization mode. However, you can identify hidden fields by using the **Add field to page** pane.
 
-To make working with fields easier, here are some general guidelines to follow when using the **Add field to page** pane:
+Here are some general guidelines to follow when using the **Add field to page** pane:
 
-- By default, the pane lists all hidden fields, which are marked by the ![Shows the hidden field icon](media/hidden-icon.png "Shows the hidden field icon") icon.
-- You can filter the list show other fields, like those currently shown on the page, by selecting the **Recommended fields** button above the list and choosing a filter option. The name of the button changes  based on the filter option you choose.
+- By default, the pane lists all hidden fields. Hidden fields are marked by the ![Shows the hidden field icon](media/hidden-icon.png "Shows the hidden field icon") icon.
+- You can filter the list to show other fields, for example, those currently shown on the page, by selecting the **Recommended fields** button above the list and choosing a filter option. The name of the button changes based on the filter option you choose.
   
    :::image type="content" source="media/personlaization-filter.svg" alt-text="Shows the filter button in the Add a field pane in the personalization mode.":::
-- Selecting a field in the list highlights its location on the page. If the field's currently hidden, it's designed location is shown in a shaded state. 
+- Selecting a field in the list highlights its location on the page. If the field's currently hidden, its location by design is shown in a shaded state. 
 - To get more details about a field in the list, point to it or select <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> to display a tooltip.
-- The fields available in the Add field to page pane are determined by the developer of the page and its source table, or by a profile admin who has [customized the page](ui-personalization-manage.md). You can't create new ones.
+- The fields available in the **Add field to page** pane are determined by the developer of the page and its source table or by a profile admin who has [customized the page](ui-personalization-manage.md). You can't create new ones.
 - Some pages have multiple page fields that map to the same source table. The pane will show both/all of those page fields independently. Showing/Hiding/moving those fields is also independent without one affecting the other.
-
 
 ### Make a hidden field visible
 
@@ -189,8 +188,8 @@ To help you better understand personalization, here are some pointers.
 - Some pages have multiple page fields that map to the same source table. The pane will show both/all of those page fields independently. Showing/Hiding/moving those fields is also independent without one affecting the other.
 - If a part or group is hidden, ghosted fields will still show inside it, but you cannot drag-drop or add/show that field until you make the group/part visible.
 
-
 ## See also
+
 [Customize Pages for Profiles](ui-personalization-manage.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  

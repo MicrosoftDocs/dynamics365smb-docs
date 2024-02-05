@@ -3,7 +3,7 @@ title: Synchronize and transactions and payouts
 description: Set up and run import of transactions and payouts from Shopify.
 ms.date: 06/06/2023
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: 30124, 30125, 30130, 30131, 30132, 30133, 30134, 
 author: brentholtorf
 ms.author: bholtorf

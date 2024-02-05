@@ -3,14 +3,13 @@ title: Rules for Automatic Application of Payments
 description: Read about how to set Up Rules for the Automatic Application of Payments on the Payment Application Rules page.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.search.form: 1290, 1294, 1287
 ms.date: 06/25/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up Rules for Automatic Application of Payments
 

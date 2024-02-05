@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/11/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Increase efficiency in your warehouse with accurate, real-time information about factors that can affect available quantities. For example: 
@@ -82,4 +83,4 @@ If items require item tracking, you can also find the quantity in blocked lots o
 * Available quantity, excluding the shipment bin
 * The reserved quantity in warehouse 
 
-If you pick the same item for multiple source documents or lines, which is also the case when you pick serial numbers, information about picks for others lines also displays because it reduces the pickable quantity.
+If you pick the same item for multiple source documents or lines, which is also the case when you pick serial numbers, information about picks for other lines also displays because it reduces the pickable quantity.

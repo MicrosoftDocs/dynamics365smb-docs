@@ -9,6 +9,7 @@ ms.search.keywords:
 ms.date: 06/07/2021
 ms.author: soalex
 
+ms.service: dynamics-365-business-central
 ---
 # Payment Times Reporting in the Australian Version
 

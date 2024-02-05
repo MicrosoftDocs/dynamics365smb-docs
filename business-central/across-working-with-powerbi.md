@@ -3,17 +3,16 @@ title: Working with Power BI Reports in Business Central| Microsoft Docs
 description: Get insight, business intelligence, and KPIs from your Business Central data with Power BI.
 author: jswymer
 
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: get-started
+ms.devlang: al
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2021
+ms.date: 12/19/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Work with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)]
 
-In this article, you learn some of the basics about viewing Power BI reports in [!INCLUDE [prod_short](includes/prod_short.md)].
+In this article, you learn some of the basics about viewing Power BI reports, including scorecards, in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## Overview
 

@@ -8,7 +8,7 @@ metadata:
   title: Microsoft Dynamics 365 Business Central documentation
   description: Business Central is a business management solution for small and mid-sized organizations. It connect sales, service, finance, and operations to work smarter, adapt faster, and perform better. Business Central automates and streamlines business processes and helps you manage your business.  
   ms.topic: hub-page
-  ms.service: dynamics365-business-central
+  ms.service: dynamics-365-business-central
   author: jswymer
   ms.author: jswymer
   ms.date: 06/16/2023
@@ -27,7 +27,7 @@ highlightedContent:
     # Card
     - title: What's new
       itemType: whats-new
-      url: /dynamics365/business-central/product-news
+      url: /dynamics365/business-central/dev-itpro/whatsnew/overview?toc=/dynamics365/business-central/toc.json
     # Card
     - title: Training
       itemType: training
@@ -267,7 +267,7 @@ additionalContent:
         # - text: Change layout
         #    url: /dynamics365/business-central/ui-set-report-layout                                                   
           - text: Analyze list data with analysis mode
-            url: /dynamics365/business-central/across-working-with-powerbi            
+            url: /dynamics365/business-central/analysis-mode            
           - text: Analyze report data with Excel
             url: /dynamics365/business-central/report-analyze-excel                                                                                
       - title: General business functionality

@@ -7,6 +7,7 @@ ms.search.keywords: find, Tell Me, search
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/14/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Finding Pages and Information with Tell Me
 
@@ -15,7 +16,6 @@ This article describes how the in-product search, *Tell me what you want to do*,
 * Quickly go to things like actions, pages, or reports.
 * Search for specific data, either on a list page or in all of [!INCLUDE [prod_short](includes/prod_short.md)].
 * Find [!INCLUDE [prod_short](includes/prod_short.md)] documentation about a subject you're interested in.
-* Discover other apps and consulting services for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 <!-- ![!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048] -->
 

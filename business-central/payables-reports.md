@@ -8,6 +8,7 @@ ms.search.form: 347, Report_301, Report_304, Report_305, Report_312, Report_317,
 ms.date: 07/13/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Accounts Payable Reports and Analytics in Business Central
 

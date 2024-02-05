@@ -7,6 +7,7 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 9027
 ms.date: 08/23/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Analyzing Financial Statements in Microsoft Excel
 

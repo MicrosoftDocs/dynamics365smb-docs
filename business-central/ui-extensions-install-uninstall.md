@@ -9,6 +9,7 @@ ms.date: 09/07/2023
 ms.custom: bap-template
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.search.form: 2500, 2514, 20350
+ms.service: dynamics-365-business-central
 ---
 
 # Install and Uninstall Extensions (Apps) in Business Central

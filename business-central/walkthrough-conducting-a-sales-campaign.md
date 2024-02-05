@@ -3,13 +3,12 @@
     description: This walkthrough gives a detailed overview of all the tasks involved in conducting a sales campaign in Business Central.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/24/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Walkthrough Conducting a Sales Campaign
 

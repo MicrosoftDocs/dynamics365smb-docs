@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize
-ms.date: 03/29/2017
+ms.date: 12/05/2023
 ms.author: bholtorf
 ---
 <!-- # User Personalization

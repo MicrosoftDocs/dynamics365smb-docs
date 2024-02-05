@@ -144,7 +144,7 @@ When personalizing a page, you use **Add field to page** pane to show fields tha
 
 To make working with fields easier, here are some general guidelines to follow when using the **Add field to page** pane:
 
-- By default, the pane lists all hidden fields, which are marked by the [Shows the hidden field icon](media/hidden-icon.png "Shows the hidden field icon") icon.
+- By default, the pane lists all hidden fields, which are marked by the ![Shows the hidden field icon](media/hidden-icon.png "Shows the hidden field icon") icon.
 - You can filter the list show other fields, like those currently shown on the page, by selecting the **Recommended fields** button above the list and choosing a filter option. The name of the button changes  based on the filter option you choose.
   
    :::image type="content" source="media/personlaization-filter.svg" alt-text="Shows the filter button in the Add a field pane in the personalization mode.":::

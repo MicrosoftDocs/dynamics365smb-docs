@@ -59,7 +59,9 @@ The company name is always displayed at the top left corner and works as an acti
 
 ## Experience
 
-The default user experience in a [!INCLUDE [prod_short](includes/prod_short.md)] trial doesn't reveal all capabilities. You can switch on the full experience on the **Company Information** page. For more information, see [Change Which Features are Displayed](ui-experiences.md).  
+The default user experience in a [!INCLUDE [prod_short](includes/prod_short.md)] trial doesn't reveal all capabilities. You can switch on the full experience on the **Company Information** page.  
+
+For more information, go to [Change Which Features are Displayed](ui-experiences.md).  
 
 ## See also
 

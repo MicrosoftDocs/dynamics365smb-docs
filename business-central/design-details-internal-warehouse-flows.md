@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 05/05/2024
+ms.date: 02/05/2024
 ms.custom: bap-template
 ---
 # Flows for Production, Assembly, and Jobs

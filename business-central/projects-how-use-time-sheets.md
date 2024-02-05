@@ -18,7 +18,7 @@ This article describes how to use time sheets to track absence, and to track tim
 
 You can copy and use your job planning lines in a time sheet. In that way, you must only enter the information in one place and the line information is always correct. To learn more, go to [To copy job planning lines to a time sheet](#copy-job-planning-lines-to-a-time-sheet).
 
-After you approve time sheet entries for a job, you can post them to the relevant job journal or resource journal. To learn more, go to [To post time sheet lines in a job journal](#to-post-time-sheet-lines-in-a-job-journal) and [To post time sheet lines in a resource journal](#post-time-sheet-lines-in-a-resource-journal).
+After you approve time sheet entries for a job, you can post them to the relevant job journal or resource journal. To learn more, go to [To post time sheet lines in a job journal](#post-time-sheet-lines-in-a-job-journal) and [To post time sheet lines in a resource journal](#post-time-sheet-lines-in-a-resource-journal).
 
 Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets. To learn more about setting up time sheets, go to [Set Up Time Sheets](projects-how-setup-time-sheets.md).  
 

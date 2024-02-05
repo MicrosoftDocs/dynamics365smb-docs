@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.date: 02/28/2023
 ms.custom: bap-template
 ms.search.form: 22207,
+ms.service: dynamics-365-business-central
 ---
 
 # Review Amounts in General Ledger Accounts

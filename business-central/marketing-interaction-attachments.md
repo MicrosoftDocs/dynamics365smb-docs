@@ -9,6 +9,7 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5082,
 ms.date: 09/05/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Attachments for interactions
 

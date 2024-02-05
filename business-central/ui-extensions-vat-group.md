@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.search.keywords: VAT, value added tax, report
 ms.search.form: 4700, 4701, 4703, 4704, 4705, 4706, 4707, 4708, 4709, 
 ms.date: 12/12/2023
+ms.service: dynamics-365-business-central
 ---
 
 # The VAT Group Management extension for the United Kingdom

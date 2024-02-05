@@ -8,6 +8,7 @@ ms.search.form: Report_5600, Report_5601, Report_5603, Report_5604, Report_5605,
 ms.date: 07/13/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Fixed Assets Reports and Analytics in Business Central
 

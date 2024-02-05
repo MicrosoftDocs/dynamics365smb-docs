@@ -3,13 +3,12 @@ title: How to create delivery reminders manually [AT]
 description: In the Austrian version of Business Central, you can create delivery reminders when a purchase isn't delivered as expected.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.date: 11/21/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Create delivery reminders manually in the Austrian version
 

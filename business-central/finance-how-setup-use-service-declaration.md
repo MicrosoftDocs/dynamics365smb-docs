@@ -5,7 +5,7 @@ description: Learn how to set up and use Service Declaration (Intrastat for Serv
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 12/21/2022
 ms.custom: bap-template

@@ -7,6 +7,7 @@ ms.search.keywords:
 ms.date: 11/27/2023
 ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Special codes for company information, customers, and vendors

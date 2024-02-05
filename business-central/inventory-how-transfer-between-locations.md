@@ -9,6 +9,7 @@ ms.date: 02/21/2023
 ms.custom: bap-template
 ms.search.keywords: move, warehouse
 ms.search.forms: 5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755
+ms.service: dynamics-365-business-central
 ---
 # Transfer Inventory Between Locations
 

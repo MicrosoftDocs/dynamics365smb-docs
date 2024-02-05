@@ -6,13 +6,12 @@
 
     
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords: India, local, IN, English
     ms.date: 04/01/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Purchase Return of Goods and Services to Composite Vendor or Purchase Return of Exempted Goods and Services with no GST Impact
 

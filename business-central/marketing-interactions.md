@@ -10,6 +10,7 @@ ms.search.forms: 5082,
 ms.date: 04/01/2021
 ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # Record interactions with contacts
 

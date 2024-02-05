@@ -3,11 +3,11 @@ title: Regulatory 1099 Format Changes and Details
 description: Details on changes applied to the IRS 1099 tax form regarding the required codes for payments to vendors.
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: local, 1099
 ms.search.form: 10015, 10016, 10018, 10900, 315, 466, 467, 468, 469
 ms.date: 12/01/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Regulatory 1099 Format Changes and Details
 

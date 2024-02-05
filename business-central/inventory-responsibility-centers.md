@@ -3,13 +3,12 @@ title: How to Work with Responsibility Centers
 description: Responsibility center as administrative centers help companies set up user-specific views of sales and purchase documents related exclusively to each center.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.forms: 5714, 5715
 ms.date: 03/09/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Work with Responsibility Centers
 

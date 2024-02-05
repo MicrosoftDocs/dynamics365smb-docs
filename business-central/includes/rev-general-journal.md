@@ -4,6 +4,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 10/27/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 ### Reversing Journals to Correct Mistakes

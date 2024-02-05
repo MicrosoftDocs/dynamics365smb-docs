@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.search.form: 1360, 1361, 1364, 
 ms.date: 12/11/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # The WorldPay Payments Standard extension
 

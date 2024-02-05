@@ -3,13 +3,12 @@ title: Set the E-Documents connector with external endpoints
 description: This article explains how to set up E-Documents functionality when it's connected to external endpoints.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, access-point, endpoint
 ms.search.form: 359, 360, 6103, 6133
 ms.date: 12/13/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
 # Set the E-Documents connector with external endpoints

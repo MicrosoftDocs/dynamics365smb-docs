@@ -5,8 +5,10 @@ author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 11/17/2023
+ms.date: 12/13/2023
 ms.custom: bap-template
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # Add marketing text to items

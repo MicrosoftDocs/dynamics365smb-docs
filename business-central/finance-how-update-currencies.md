@@ -10,6 +10,7 @@ ms.search.form: 5, 118
 ms.date: 11/13/2023
 ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # Update currency exchange rates
 

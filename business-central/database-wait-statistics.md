@@ -2,7 +2,7 @@
 title: Database Wait Statistics in Business Central
 description: An overview of database wait statistics 
 author: brentholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords:
 ms.search.form: 9520

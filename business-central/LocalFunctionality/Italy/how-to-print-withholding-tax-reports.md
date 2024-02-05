@@ -3,12 +3,11 @@ title: Print withholding tax reports (IT)
 description: The Withholding Taxes report displays a list of withholding taxes that are payable to the Italian government.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 12103
 ms.date: 11/21/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Print withholding tax reports in the Italian version

@@ -5,13 +5,12 @@
     documentationcenter: ''
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/29/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Create Electronic VAT Transactions Reports in the Italian Version
 You must create a list of transactions that include VAT with amounts over the current threshold on or before the specified occurrence date. You submit this report to the tax authorities.  

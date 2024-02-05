@@ -3,10 +3,10 @@ title: Sharing Data
 description: Learn about the different ways to share business data from Business Central. 
 author: jswymer
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords:
 ms.date: 09/21/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Sharing Business Data from Business Central
 

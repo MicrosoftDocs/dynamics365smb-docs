@@ -3,12 +3,12 @@ title: Personalizing pages (contains video)
 description: Learn how to customize the user interface and personalize your workspace to suit your way of working and personal preferences in Business Central.
 author: jswymer
 ms.topic: conceptual
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 12/05/2023
+ms.date: 01/15/2024
 ms.author: jswymer
 ---
 # Personalize your workspace
@@ -16,7 +16,7 @@ ms.author: jswymer
 You can personalize your workspace to suit your work and preferences. Change pages so that they display only the information you need, where you need it. Personalization affects only your workspace. It doesn't change how others work. You can personalize all types of pages, including the [role center](ui-change-basic-settings.md#role-center) page.
 
 > [!NOTE]
-> Due to restrictions on design capabilities in the web client, it's currently not possible to customize or personalize the controls within the grid syntax.
+> Due to restrictions on design capabilities in the web client, it's currently not possible to customize or personalize the controls within the `grid` and `fixed` syntax.
 It applies to all design modes, not just personalization.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
@@ -50,7 +50,7 @@ As for other personalization, the changes you make to column width are stored on
     The **Personalizing** banner appears at the top to indicate that you can start making changes.
 
     > [!NOTE]
-    > To navigate during personalization, use <kbd>Ctrl</kbd>+<kbd>Click<kbd> on an action if it is highlighted by the arrowhead.
+    > To navigate during personalization, use <kbd>Ctrl</kbd>+<kbd>Click</kbd> on an action if it is highlighted by the arrowhead.
 
     If you see a ![Personalize Lock](media/personalization-lock-icon.png "Personalize lock") or ![Personalization blocked](media/personalization-blocked-icon.png "Personalization blocked") on the banner, you can't personalize the page. For more information, see [Why a Page is Locked from Personalization](ui-personalization-locked.md).
 
@@ -65,7 +65,7 @@ For more information, see [What You Can Personalize](#What).
 |What do you want to do|How to do it|Remarks|
 |----|------------|-------|
 |Move something, like a field, column in list, tile, action, or part to another place on the page|Point anywhere on what you want to move, and drag it to its new position. A thick horizontal or vertical line indicates the position.<br /><br />![Cannot move here icon](media/personalization-cannot-move-here.png "Personalizing mode - Cannot move here icon") indicates that you can't move the element to the selected position.|Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.<br /><br />[Learn more about personalizing actions](#Actions)<br>[Learn more about personalizing parts](#Parts)|
-|Hide an element that's currently shown, like a field, column in list, tile, action, or part.|Select the element, select the arrowhead, and then select <b>Hide</b>.|In the personalization mode, hidden actions are grayed with italic text, and hidden parts are shaded by diagonal lines. Hidden fields and columns aren't indicated on the page. <!--The element is grayed when you are in personalizing mode.--> When you exit personalization mode, all elements disappear from view. If the field you hide is also shown on the FastTab heading when the FastTab is collapsed, the field no longer appears there.|
+|Hide an element that's currently shown, like a field, column in list, tile, action, or part.|Select the element, select the arrowhead, and then select <b>Hide</b>.|In the personalization mode, hidden actions are grayed with italic text, and hidden parts are shaded by diagonal lines. Hidden fields and columns aren't indicated directly on the page, but you can locate them by using the <b>Add Field to Page</b> pane ([learn more about working fields](#fields)].<br><br>When you exit personalization mode, all elements disappear from view. If the field you hide is also shown on the FastTab heading when the FastTab is collapsed, the field no longer appears there.|
 |Show an action or part that is currently hidden|For a grayed (hidden) element, choose the arrowhead, and then choose <b>Show</b>.|The hidden element is visible again.|
 |Show a field that's currently hidden|In the <b>Personalizing</b> banner, choose the <b>+ Field</b> action.<br /></br>The <b>Add Field to Page</b> pane opens on the right side of the page. If you select a field in the pane, it's hidden location appears on the page.<br /><br />To show a field, drag it from the pane, or from its hidden location, to the position that you want it. The position is indicated by either a thick horizontal or vertical line.<br><br> Another way is to select the arrowhead in the field's hidden location and select **Show**. |Each page includes a predefined set of fields that you can choose to display.<br /><br />[Learn more about working fields](#fields) |
 |Display a field in the heading of a FastTab when it's collapsed.|Choose the arrowhead, and then choose <b>Show when collapsed</b>. <br /> <br />If you don't see this option, then it's already set. In this case, to stop displaying the field on the FastTab heading, choose <b>Show always</b>.|*FastTab* is the term used for a group of fields that appear under a common heading. Use the <b>Show when collapsed</b> option to display the most important fields. If you select a field in the heading, the FastTab opens and focuses on the selected field.<br /><br />This option is only applicable if a page has a more than one FastTab. If there's only one FastTab, it can't be collapsed, so the <b>Show when collapsed</b> option isn't available.|
@@ -144,7 +144,7 @@ When personalizing a page, you use **Add field to page** pane to show fields tha
 
 To make working with fields easier, here are some general guidelines to follow when using the **Add field to page** pane:
 
-- By default, the pane lists all hidden fields, which are marked by the [Shows the hidden field icon](media/hidden-icon.png "Shows the hidden field icon") icon.
+- By default, the pane lists all hidden fields, which are marked by the ![Shows the hidden field icon](media/hidden-icon.png "Shows the hidden field icon") icon.
 - You can filter the list show other fields, like those currently shown on the page, by selecting the **Recommended fields** button above the list and choosing a filter option. The name of the button changes  based on the filter option you choose.
   
    :::image type="content" source="media/personlaization-filter.svg" alt-text="Shows the filter button in the Add a field pane in the personalization mode.":::

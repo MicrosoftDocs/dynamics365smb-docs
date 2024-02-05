@@ -3,12 +3,11 @@
     description: When entering general journal lines on a form, the system fills in automatically the description field.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 12/08/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Required descriptions in G-L entry
 

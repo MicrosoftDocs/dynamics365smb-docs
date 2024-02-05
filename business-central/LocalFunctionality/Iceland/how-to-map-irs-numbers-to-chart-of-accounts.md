@@ -5,13 +5,12 @@
     documentationcenter: ''
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 11/24/2023
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Map IRS numbers to chart of accounts in the Icelandic version
 Companies in Iceland are required to send the tax authority a data file in a predefined format. Before you can do this, you must map predefined Internal Revenue Service (IRS) account codes to general ledger accounts.  

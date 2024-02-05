@@ -9,6 +9,7 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: 211, 463, 1012
+ms.service: dynamics-365-business-central
 ---
 # Set Up Jobs, Prices, and Job Posting Groups
 

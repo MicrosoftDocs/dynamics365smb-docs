@@ -1,19 +1,17 @@
 ---
-title: United States Local Functionality
-description: The following topics describe the local functionality in the United States version of Business Central.
+title: United States local functionality
+description: The following articles describe the local functionality in the United States version of Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords:
 ms.search.form: 315, 466, 467, 468, 469
-ms.date: 04/01/2021
+ms.date: 01/18/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# United States Local Functionality
+# United States local functionality
 
-The following topics describe local functionality that is unique to the United States version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
+The following articles describe local functionality that is unique to the United States version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 ## Feature availability  
 
@@ -39,11 +37,12 @@ The following topics describe local functionality that is unique to the United S
 
 ## Future legislation requirements being investigated
 
-* New IRS 1099 functionality as an app with more features and automations included - planned for **2024 Wave 1**
-* EFT improvements - planned for **2024 Wave 1**
-* Tax improvements - planned for **2024 Wave 1**
+* Updates for IRS 1099 and 1096 for 2023 - **planned for 23.2**
+* New IRS 1099 functionality as an app with more features and automations included - **planned for 2024 Wave 1**
+* EFT improvements - **planned for 2024 Wave 2**
+* Tax improvements - **planned for 2024 Wave 2**
 
-If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See also
 

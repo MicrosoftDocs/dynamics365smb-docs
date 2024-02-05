@@ -7,7 +7,7 @@ ms.search.form: 1
 ms.date: 09/24/2023
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 

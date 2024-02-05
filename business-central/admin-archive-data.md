@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.date: 01/30/2023
 ms.custom: bap-template
 ms.search.form: 630
+ms.service: dynamics-365-business-central
 ---
 
 # The Data Archive Extension

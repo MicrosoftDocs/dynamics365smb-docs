@@ -3,13 +3,12 @@ title: Make Drop Shipments (contains video)
 description: Describes how to create a sales order linked to a purchase order to enable shipment directly from the vendor to the customer.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Make Drop Shipments
 

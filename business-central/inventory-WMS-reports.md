@@ -10,6 +10,7 @@ ms.search.form: Report_707, Report_716, Report_813, Report_1001, Report_5807, Re
 ms.date: 04/13/2023
 ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # Inventory and Warehouse Reports and Analytics
 

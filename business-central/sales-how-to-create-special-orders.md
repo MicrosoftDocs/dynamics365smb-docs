@@ -3,13 +3,12 @@
     description: Learn how to create a special order for a specific catalog item to be shipped to a specific customer.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/23/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Create Special Orders
 

@@ -3,12 +3,11 @@
     description: The following topics describe the different local functionality in the Swedish version of Business Central.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/02/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Sweden Local Functionality in the Swedish Version
 

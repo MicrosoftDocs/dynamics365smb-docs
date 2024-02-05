@@ -3,14 +3,13 @@ title: Record and Reimburse Employees' Expenses
 description: Post employees' expenses with the general journal to the employee's account  then post a payment to their bank account to reimburse the business-related expense.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: reimbursement
 ms.search.form: 63, 234, 625, 5224, 5237, 5238, 5239, 5240
 ms.date: 06/16/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Record and Reimburse Employees' Expenses
 

@@ -50,9 +50,9 @@ To allow data movement outside of your geographical region, complete the followi
 1. In Business Central, search for and open the **Copilot & AI Capabilities** page.
 1. Turn on the **Allow data movement** switch.
 
-You can opt out by turning off the  **Allow data movement** switch. Once an Azure OpenAI Service becomes available in your Business Central environment geography, your environment is automatically connected to it, and the switch is no longer available. 
+   The **Allow data movement** switch is turned on by default for environments in West Europe and North Europe Azure regions.
 
-
+You can opt out data movement by turning off the **Allow data movement** switch. Once an Azure OpenAI Service becomes available in your Business Central environment geography, your environment is automatically connected to it, and the switch is no longer available.
 <!--
 | Australia, United Kingdom, United States | Within the respective geographical region |
 | Europe, France, Germany, Norway, Switzerland  | Sweden or Switzerland |

@@ -2038,7 +2038,9 @@ ms.service: dynamics-365-business-central
 ### [FAQ for marketing text suggestions](faqs-marketing-text.md)
 ## Sales line suggestions
 ### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
+### [FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
+## [FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)

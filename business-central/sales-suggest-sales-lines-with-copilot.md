@@ -37,24 +37,30 @@ Copilot can assist with creating lines on sales documents such as sales quotes, 
 
 ## Geographic availability
 
-This feature is available in the following Microsoft Azure geographic areas:
+The following table shows the Microsoft Azure geographic areas in which his feature is available.
 
-* Germany
-* Norway
-* Singapore
-* South Africa
-* Switzerland
-* United Arab Emirates
-* United States
-* Europe
-* Asia Pacific
-* United Kingdom
-* Australia
-* South America
-* India
-* Japan
-* France
-* Korea
+
+|Environment Azure region  |Azure OpenAI Service geography   |Admin action required to unlock Copilot  |
+|---------|---------|---------|
+|Germany (North, West Central)     | Sweden or Switzerland        |  Yes       |
+|Norway (East, West)     | Sweden or Switzerland        | Yes     |
+|Singapore     |         |         |
+|South Africa (North, West)     |   United States      |   Yes      |
+|Switzerland (North, West)     |  Sweden or Switzerland       |    Yes     |
+|United Arab Emirates (North, West)     |    United States     |   Yes     |
+|United States (Central, East, North Central, South Central, West)     |   United States      |   No      |
+|Europe (West, North)     |   Sweden or Switzerland      |   Yes      |
+|Asia Pacific     |         |         |
+|Australia (South East)     |   United States      |    Yes     |
+|South America     |         |         |
+|India (Central, South)     |    United States     |   Yes      |
+|Japan (East, West)     |    United States     |    Yes     |
+|France (Central, South)     |    Sweden or Switzerland     |    Yes     |
+|Korea (Central, South)     |    United States     |    Yes     |
+
+## Examples of prompts
+
+The suggest sales lines with Copilot can handle a wide variety of prompt input. This section offers some examples of prompts that we've tested.
 
 ## Suggest lines on a sales document
 
@@ -63,7 +69,7 @@ This process describes how to suggest lines on a sales order. The steps are the 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order**, and then choose the related link.
 1. Open the sales order.
 1. On the **Lines** FastTab, choose **Get line suggestions**.
-1. In the **Suggest lines with Copilot** window, 
+1. In the **Suggest lines with Copilot** window, enter your prompt.  
 
 ## Review, save, discard, or regenerate suggestions
 

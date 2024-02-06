@@ -487,7 +487,6 @@ ms.service: dynamics-365-business-central
 ### [Make sales quotes](sales-how-make-offers.md)
 ### [Invoice sales](sales-how-invoice-sales.md)
 ### [Sell products](sales-how-sell-products.md)
-### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 ### [Print the picking list](sales-how-print-picking-list.md)
 ### [Post sales](ui-post-sales.md)
 ### [Create recurring sales lines](sales-how-work-standard-lines.md)
@@ -2037,6 +2036,8 @@ ms.service: dynamics-365-business-central
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)
 ### [FAQ for marketing text suggestions](faqs-marketing-text.md)
+## Sales line suggestions
+### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)

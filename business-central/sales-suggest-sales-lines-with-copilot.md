@@ -63,7 +63,11 @@ This process describes how to suggest lines on a sales order. The steps are the 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order**, and then choose the related link.
 1. Open the sales order.
 1. On the **Lines** FastTab, choose **Get line suggestions**.
-1. 
+1. In the **Suggest lines with Copilot** window, 
+
+## Review, save, discard, or regenerate suggestions
+
+After Copilot suggests the items to add to lines, review its suggestions and decide whether they're what you want.
 
 ## See also
 

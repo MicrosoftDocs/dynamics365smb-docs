@@ -13,6 +13,9 @@
 # Create and Print a Swiss VAT Statement in the Swiss Version
 Based on the information that you have specified on the **VAT Posting Setup** page, [!INCLUDE[prod_short](../../includes/prod_short.md)] can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
 
+>[!NOTE]
+> The VAT Statement in the Cronus company has been refreshed to include new Ciphers 303 and 383 starting from January 2024.  
+
 ## To set up a Swiss VAT statement template  
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Update VAT Statement Template**, and then choose the related link.  

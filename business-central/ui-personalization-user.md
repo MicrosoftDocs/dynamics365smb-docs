@@ -161,7 +161,7 @@ From **Add field to page** pane, there are two ways to show a field that's curre
 - Select the field in the list, then go to the shaded field on the page and select the **Show** option.
 
 > [!NOTE]
-> Some fields that you add won't be editable on the page when you're done with personalization. These fields are either originally designed this way or an administrator [customized](ui-personalization-manage.md) the page to prevent you from editing them.
+> Some fields that you added won't be editable on the page when you're done with personalization. These fields are either originally designed this way or an administrator [customized](ui-personalization-manage.md) the page to prevent you from editing them.
 
 ## Clear personalization
 

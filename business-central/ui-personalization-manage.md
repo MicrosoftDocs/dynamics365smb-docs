@@ -13,6 +13,7 @@ ms.custom: bap-template
 ---
 # Customize pages for profiles
 
+
 Business Central provides both [personalization](ui-personalization-user.md) for users and customization for administrators. Personalization allows users to tailor their workspace by adjusting page layouts to suit their own preferences. Administrators can customize page layouts for a specific profile, based on business roles or departments, so that all assigned users see the same customized page. While personalization allows users to show, hide, and move fields and actions on a page, customization offers extra capabilities. For example, customization allows you to show fields that are in the page's source table or extension tables but aren't defined on the page object&mdash;this isn't possible personalization.  <!--For more information, see [Personalize Your Workspace](ui-personalization-user.md).-->
 
 <!--Similarly, administrators can customize pages for a profile, according to the related business role or department, so that all users assigned the profile see the customized page layout. As an administrator, you customize pages by using the same functionality as users do when they personalize pages, except with few extra capabilities. Like personalization, you can show, hide, and move fields, actions, or parts on a page. But while personalization only allows you to work with fields that are defined on the page object, customization allows you add fields that are in the source table or table extension, but not defined on the page object. -->

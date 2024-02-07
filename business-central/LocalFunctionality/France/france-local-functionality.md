@@ -64,7 +64,7 @@ The following articles describe local functionality that is unique to the French
 
 * Electronic invoicing - **planned for 2025 release wave 1**
 * New VAT declaration format in demo data - **planned for 2024 release wave 2**
-* Prepayments regulatory update - **planned for 23.5**
+* Prepayments regulatory update - **planned for 2024 release wave 2**
 
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).  

@@ -16,6 +16,10 @@ The Internal Revenue Service (IRS) periodically issues updates to the format use
 > [!IMPORTANT]
 > Running the [**Update Form Boxes**](set-up-use-irs1099-form.md#setup) action will prevent you from reporting for previous years because some boxes change their meaning. Make sure you've done all your reporting for the previous year before you update the form boxes to prepare for reporting for the new year.
 
+## Regulatory 1099 Format Changes November 2023
+
+There is no changes associated with the 1099 report layouts for the 2023 year. Anyway, you should first upgrade your [!INCLUDE[prod_short](../../includes/prod_short.md)] to keep printing new year on reports. To get this update, you must [run the **Update Form Boxes** action on the **1099 Form Boxes** page](set-up-use-irs1099-form.md#setup).   
+
 ## Regulatory 1099 Format Changes November 2022
 
 1099 changes for 2022 provide an upgrade for the MISC and DIV boxes.

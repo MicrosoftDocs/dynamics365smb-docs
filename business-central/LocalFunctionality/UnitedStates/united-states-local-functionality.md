@@ -37,10 +37,11 @@ The following articles describe local functionality that is unique to the United
 
 ## Future legislation requirements being investigated
 
-* Updates for IRS 1099 and 1096 for 2023 - **planned for 23.2**
-* New IRS 1099 functionality as an app with more features and automations included - **planned for 2024 Wave 1**
-* EFT improvements - **planned for 2024 Wave 2**
-* Tax improvements - **planned for 2024 Wave 2**
+* New IRS 1099 functionality as an app with more features and automations included - **Planned for 2024 Wave 1**
+* New IRS 1099 functionality integrated with IRS via IRIS - **Planned for 2024 Wave 2**  
+* EFT improvements - **Planned for 2024 Wave 2**  
+* Tax improvements - **Planned for 2024 Wave 2**
+* Enabling E-Document in the US market - **Planned for 2024 Wave 1**  
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

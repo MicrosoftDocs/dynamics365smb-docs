@@ -1,6 +1,6 @@
 ---
 title: FAQ for suggest sales lines with Copilot
-description: This FAQ provides information about the AI technology used in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+description: This FAQ provides information about the AI technology used in Business Central.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
@@ -8,7 +8,6 @@ ms.topic: article
 ms.search.form:
 ms.date: 02/02/2024
 ms.service: dynamics-365-business-central
-ms.custom: bap-template
 ms.collection: bap-ai-copilot
 ms.custom: 
   - responsible-ai-faqs

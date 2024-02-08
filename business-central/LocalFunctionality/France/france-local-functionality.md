@@ -6,7 +6,7 @@ ms.author: soalex
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 01/18/2024
+ms.date: 02/08/2024
 ms.custom: bap-template
 ---
 
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 The following articles describe local functionality that is unique to the French version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Feature Availability
+## Feature availability
 
 * VAT
     * [New Audit Export functionality](export-french-audit-file.md) **Available Now**

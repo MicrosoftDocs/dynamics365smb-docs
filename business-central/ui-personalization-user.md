@@ -67,7 +67,7 @@ For more information, see [What You Can Personalize](#What).
 |Move something, like a field, column in list, tile, action, or part to another place on the page|Point anywhere on what you want to move, and drag it to its new position. A thick horizontal or vertical line indicates the position.<br /><br />![Cannot move here icon](media/personalization-cannot-move-here.png "Personalizing mode - Cannot move here icon") indicates that you can't move the element to the selected position.|Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.<br /><br />[Learn more about personalizing actions](#Actions)<br>[Learn more about personalizing parts](#Parts)|
 |Hide an element that's currently shown, like a field, column in list, tile, action, or part.|Select the element, select the arrowhead, and then select <b>Hide</b>.|In the personalization mode, hidden actions are grayed with italic text, and hidden parts are shaded by diagonal lines. Hidden fields and columns aren't indicated directly on the page, but you can locate them by using the <b>Add Field to Page</b> pane ([learn more about working fields](#fields)).<br><br>When you exit personalization mode, all elements disappear from view. If the field you hide is also shown on the FastTab heading when the FastTab is collapsed, the field no longer appears there.|
 |Show an action or part that is currently hidden|For a grayed (hidden) element, choose the arrowhead, and then choose <b>Show</b>.|The hidden element is visible again.|
-|Show a field that's currently hidden|In the <b>Personalizing</b> banner, choose the <b>+ Field</b> action.<br /></br>The <b>Add Field to Page</b> pane opens on the right side of the page. If you select a field in the pane, its hidden location appears on the page.<br /><br />To show a field, drag it from the pane, or from its hidden location, to the position that you want it. The position is indicated by either a thick horizontal or vertical line.<br><br> Another way is to select the arrowhead in the field's hidden location and select **Show**. |Each page includes a predefined set of fields that you can choose to display.<br /><br />[Learn more about working fields](#fields) |
+|Add a field that's currently hidden|In the <b>Personalizing</b> banner, choose the <b>+ Field</b> action.<br /></br>The <b>Add Field to Page</b> pane opens on the right side of the page. If you select a field in the pane, its hidden location appears on the page.<br /><br />To add a field, drag it from the pane, or from its hidden location, to the position that you want it. The position is indicated by either a thick horizontal or vertical line.<br><br> Another way is to select the arrowhead in the field's hidden location and select **Show**. |Each page includes a predefined set of fields that you can choose to display.<br /><br />[Learn more about working fields](#fields) |
 |Display a field in the heading of a FastTab when it's collapsed.|Choose the arrowhead, and then choose <b>Show when collapsed</b>. <br /> <br />If you don't see this option, then it's already set. In this case, to stop displaying the field on the FastTab heading, choose <b>Show always</b>.|*FastTab* is the term used for a group of fields that appear under a common heading. Use the <b>Show when collapsed</b> option to display the most important fields. If you select a field in the heading, the FastTab opens and focuses on the selected field.<br /><br />This option is only applicable if a page has a more than one FastTab. If there's only one FastTab, it can't be collapsed, so the <b>Show when collapsed</b> option isn't available.|
 |Make a field display only when you select **Show more**.|Choose the arrowhead, and then choose <b>Show under "Show More"</b>.|If you don't see the <b>Show under "Show More"</b> option, then the field's already set. In this case, to make a field display always, not just when you select **Show more**, choose <b>Show always</b>.|
 |Change whether or not a field can be edited.|Select the field, select the arrowhead on the field, and then select <b>Lock editing</b> to prevent changing the field's value or <b>Unlock editing</b> to allow changing the field's value.|You can only unlock fields that you previously locked yourself. Some fields are locked by default, either by design or by a profile admin who has [customized the page](ui-personalization-manage.md). These fields can't be unlocked.|
@@ -140,7 +140,7 @@ You can clear all personalization changes that you have made within a single par
 
 ## <a name="fields"></a> Work with fields and columns
 
-When personalizing a page, you use **Add field to page** pane to show fields that are currently hidden on the page. To open this pane, select the **+ Field** action near the top of the page. Unlike other hidden elements, hidden fields aren't indicated on the page itself in personalization mode. However, you can identify hidden fields by using the **Add field to page** pane.
+When personalizing a page, you use **Add field to page** pane to include fields or columns on the page that are currently hidden from view. To open this pane, select the **+ Field** action near the top of the page. Unlike other hidden elements, hidden fields aren't indicated on the page itself in personalization mode. However, you can identify hidden fields by using the **Add field to page** pane.
 
 Here are some general guidelines to follow when using the **Add field to page** pane:
 
@@ -153,12 +153,15 @@ Here are some general guidelines to follow when using the **Add field to page** 
 - The fields available in the **Add field to page** pane are determined by the developer of the page and its source table or by a profile admin who has [customized the page](ui-personalization-manage.md). You can't create new ones.
 - Some pages have multiple page fields that map to the same source table. The pane shows both/all of those page fields independently. Showing/Hiding/moving those fields is also independent without one affecting the other.
 
-### Make a hidden field visible
+### Add a field so it's visible on the page
 
-There are two ways to show a field that's currently hidden on the page:
+From **Add field to page** pane, there are two ways to include a field that's currently hidden on the page:
 
 - Drag the field to the desired position. A thick horizontal or vertical line indicates the target location.
 - Select the field in the list, then go to the shaded field on the page and select the **Show** option.
+
+> [!NOTE]
+> Some fields that you add won't be editable on the page when you're done with personalization. These fields are either originally designed this way or an administrator [customized](ui-personalization-manage.md) the page to prevent you from editing them.
 
 ## Clear personalization
 

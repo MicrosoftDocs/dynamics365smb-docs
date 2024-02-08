@@ -50,8 +50,8 @@ The following articles describe local functionality that is unique to the Austra
 
 ## Future legislation requirements being investigated
 
-* ANZ Peppol format for E-Documents **Planned for 2024 Wave 2**  
-* Payment Times Reporting Bill Compliance **Planned for 2024 Wave 2** 
+* ANZ Peppol format for E-Documents **Planned for 2024 release wave 2**  
+* Payment Times Reporting Bill Compliance **Planned for 2024 release wave 2** 
 * Taxable payments annual report (TPAR) **Under review**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).

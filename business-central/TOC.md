@@ -2036,7 +2036,7 @@ ms.service: dynamics-365-business-central
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)
 ### [FAQ for marketing text suggestions](faqs-marketing-text.md)
-## Sales line suggestions
+## Sales line suggestion
 ### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 ### [FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
 # Responsible AI

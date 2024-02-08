@@ -9,8 +9,7 @@ ms.search.form:
 ms.date: 02/02/2024
 ms.service: dynamics-365-business-central
 ms.collection: bap-ai-copilot
-ms.custom: 
-  - responsible-ai-faqs
+ms.custom: responsible-ai-faqs
 ---
 
 # FAQ for sales line suggestions with Copilot

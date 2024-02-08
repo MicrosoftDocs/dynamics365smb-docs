@@ -16,20 +16,32 @@ ms.custom: responsible-ai-faqs
 
 These frequently asked questions (FAQ) describe the AI impact of the sales line suggestions feature in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## What are sales line suggestions with Copilot
+## What is sales line suggestions with Copilot?
 
-## What is the intended use of sales line suggestions?
+[Describe the system in plain English. What type of system or feature is this? What does it do? At a high level, what does the system or feature take as input? What kind of outputs does the system or feature produce?]
 
-## What are the limitations of sales line suggestions?
+## What are capabilities of sales line suggestions with Copilot?
 
-## In which geographies and languages is sales line suggestions available?
+[Building on the previous question, provide semi-technical, high-level information on how the system or feature offers functionality for various uses.]
 
-## How do I give feedback about the suggestions that Copilot generates?
+## What is the intended use of sales line suggestions with Copilot?
 
-Each time Copilot provides matches or suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the like and dislike controls. Your feedback remains anonymous and we use this data to improve the quality of the service.
+[Explain intended use(s), as identified in your Impact Assessment.]
+
+## How was sales line suggestions with Copilot evaluated? What metrics are used to measure performance?
+
+[Provide evidence of system or feature accuracy and performance, and, when applicable, a description of the extent to which these results are generalizable across use cases that were not part of the evaluation.]
+
+## What are the limitations of sales line suggestions with Copilot? How can users minimize the impact of the sales line suggestions with Copilot limitations when using the system?
+
+[See Impact Assessment. Describe the known limitations of the system or feature including uses for which the system was not designed or evaluated. Discuss steps that the user can take to minimize errors and the impact of trade-offs for the user.]
+
+## What operational factors and settings allow for effective and responsible use of the feature?
+
+[Describe the operational factors and ranges within which the system is expected to perform reliably and safely. List the choices that end users can make (e.g., customization, settings, etc.), with a description of how those choices may impact system behavior in the real world.]
 
 ## See also
 
-[Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
-[Configure Copilot and AI capabilities](enable-ai.md)
-[Responsible AI FAQs for Dynamics 365 Business Central](responsible-ai-overview.md)
+[Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)  
+[Configure Copilot and AI capabilities](enable-ai.md)  
+[Responsible AI FAQs for Dynamics 365 Business Central](responsible-ai-overview.md)  

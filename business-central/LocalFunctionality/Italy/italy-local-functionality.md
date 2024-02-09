@@ -5,7 +5,7 @@
     ms.topic: conceptual
     ms.devlang: al
     ms.search.keywords:
-    ms.date: 02/08/2024
+    ms.date: 02/09/2024
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
 ---
@@ -60,7 +60,7 @@ The following articles describe local functionality that is unique to the Italia
 
 ## Future legislation requirements being investigated
 
-* Redesigned and upgraded non-deductible VAT - planned for **2025 release wave 1**  
+* Redesigned and upgraded non-deductible VAT - **Planned for 2025 release wave 1**  
 * Updated Electronic invoicing with new E-documents framework (SDI) **2024 release wave 2**  
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).

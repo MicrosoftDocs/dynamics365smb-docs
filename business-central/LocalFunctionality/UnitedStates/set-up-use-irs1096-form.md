@@ -37,7 +37,7 @@ Complete the following steps to set up more required fields for reporting.
 ## To create a new 1096 form
 
 > [!NOTE]
-> The IRS 1096 report layout currently supports the 2023 reporting year.  
+> The IRS 1096 report layout currently supports reporting for the year 2023.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **1096 Forms**, and then choose the related link.
 2. Choose the **Create forms…** action to create a new entry.
@@ -101,7 +101,7 @@ The lines contain the following information. Amounts are summarized per **Vendor
 
 ## See also
 
-[Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md) **Available Now**  
+[Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md)   
 [United States Local Functionality](united-states-local-functionality.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

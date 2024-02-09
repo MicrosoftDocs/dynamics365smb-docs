@@ -5,7 +5,7 @@ author: altotovi
 ms.topic: how-to
 ms.search.keywords: local, 1096, irs
 ms.search.form: 10019, 10020, 10021
-ms.date: 12/12/2023
+ms.date: 02/09/2024
 ms.author: altotovi
 ms.reviewer: 
 ms.service: dynamics-365-business-central

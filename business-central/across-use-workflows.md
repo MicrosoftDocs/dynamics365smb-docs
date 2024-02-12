@@ -19,7 +19,7 @@ The workflows can be designed to create requests for approval of a record field 
 The business logic could be the approval of:
 
 - New master data such as general ledger (G/L) accounts, customers, vendors, or items.
-- Changes to fields in existing records containing sensible information, such as **Vendor Bank Account No.** or **Customer Credit Limit**.
+- Changes to fields in existing records containing sensitive information, such as **Vendor Bank Account No.** or **Customer Credit Limit**.
 - Changes to fields in existing records containing business critical information, such as **Item Sales Prices**.
 - New users or changes to user permissions.
 - Purchase documents.

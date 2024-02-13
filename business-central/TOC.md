@@ -2038,5 +2038,6 @@ ms.service: dynamics-365-business-central
 ### [FAQ for marketing text suggestions](faqs-marketing-text.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
+## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
 ## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)

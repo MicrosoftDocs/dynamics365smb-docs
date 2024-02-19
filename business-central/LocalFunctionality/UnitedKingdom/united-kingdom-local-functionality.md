@@ -1,20 +1,19 @@
 ---
-title: United Kingdom Local Functionality [GB]
+title: United Kingdom local functionality [GB]
 description: This article gives you an overview of local functionality in the United Kingdom version of Business Central.
 author: sorenfriisalexandersen
 ms.author: soalex
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 08/18/2023
+ms.date: 02/07/2024
 ms.custom: bap-template
-
 ms.service: dynamics-365-business-central
 ---
-# United Kingdom Local Functionality in the British Version
+# United Kingdom local functionality in the British version
 
-The following topics describe local functionality that is unique to the United Kingdom version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following articles describe local functionality that is unique to the United Kingdom version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Feature Availability
+## Feature availability
 
 * VAT & Tax
     * [Making Tax Digital - VAT Returns submission](making-tax-digital-submit-vat-return.md) **Available Now**
@@ -39,11 +38,12 @@ The following topics describe local functionality that is unique to the United K
 
 ## Future legislation requirements being investigated
 
-* Functionality to resubmit a VAT Return **2024 Wave 1**
+* Delocalization of GB base app **Planned for 2024 release wave 2**
+* Functionality to resubmit a VAT Return **Planned for 2025 release wave 1**
 
-If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+If you're aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## See Also
+## See also
 
 [Use Business Central after the United Kingdom Has Left the European Union](united-kingdom-leaving-eu.md)  
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

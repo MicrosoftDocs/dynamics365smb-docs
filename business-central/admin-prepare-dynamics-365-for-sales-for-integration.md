@@ -40,7 +40,10 @@ When you install the Integration Solution, permissions for the integration user 
 * Dynamics 365 Business Central Product Availability User
 
 > [!NOTE]
-> To use the "Open in Business Central" deep linking action in Dynamics 365 Sales UI, users must have the appropriate privileges for two entities: `nav_connection` and `nav_defaultconnection`. Specifically, users must have read privileges for the `nav_connection` entity. For the `nav_defaultconnection` entity, users must have read, write, and delete privileges. By ensuring that users have these privileges, they will be able to use the "Open in Business Central" deep linking action in Dynamics 365 Sales UI.
+> To use the **Open in Business Central** action in Dynamics 365 Sales, you must have the appropriate privileges for the following tables:
+
+* You must have Read permissions for the Dynamics 365 Business Central Connection (nav_connection) table.
+* You must have Read, Write, and Delete permissions for the Default Dynamics 365 Business Central Connection (nav_defaultconnection) table. 
 
 ### Connection settings in the setup guide
 

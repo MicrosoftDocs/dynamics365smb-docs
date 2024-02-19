@@ -95,7 +95,7 @@ Use the filter button above the list to change what category of fields are prese
  
 ### Add table field that's not on the page object
 
-If you want to make a table-only field available on a page to users, you must first add it to the page. Once you've added the field, users can choose to show or hide the field as they like using personalization. There are couple ways to add a field.
+If you want to make a table-only field available on a page to users, you must first add it to the page. Once you've added the field, users can choose to show or hide the field by using personalization. There are couple ways to add a field.
 
 - One way is to drag it from  **Add field to page** pane to the desired position.
 - Another way is to select the field in the pane to display the recommended location on the page. Then go to the field location on the pages, select the arrowhead, then select **Add**. 

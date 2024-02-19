@@ -1,23 +1,19 @@
 ---
-    title: Iceland Local Functionality
-    description: This topic provides links to descriptions of features that are specific to the Icelandic version of Dynamics 365 Business Central.
-
+    title: Iceland local functionality
+    description: This article provides links to descriptions of features that are specific to the Icelandic version of Dynamics 365 Business Central.
     author: brentholtorf
-
-    
     ms.topic: conceptual
     ms.devlang: al
     ms.search.keywords:
-    ms.date: 04/01/2021
+    ms.date: 02/08/2024
     ms.author: bholtorf
-
     ms.service: dynamics-365-business-central
 ---
-# Iceland Local Functionality
+# Iceland local functionality
 
-The following topics describe local functionality that is unique to the Icelandic version of [!INCLUDE[prod_short](../../includes/prod_short.md)]
+The following articles describe local functionality that is unique to the Icelandic version of [!INCLUDE[prod_short](../../includes/prod_short.md)]
 
-## Feature Availability
+## Feature availability
 
 * VAT
     * [Print VAT Summary Information on Documents](how-to-print-vat-summary-information-on-documents.md) **Available Now**
@@ -32,9 +28,11 @@ The following topics describe local functionality that is unique to the Icelandi
 
 ## Future legislation requirements being investigated
 
-Currently, there are no upcoming regulatory features or requirements. If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+* Delocalization of Iceland base app **Planned for 2024 release wave 1**
 
-## See Also
+Currently, there are no upcoming regulatory features or requirements. If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
+## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

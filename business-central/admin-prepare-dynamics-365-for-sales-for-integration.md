@@ -41,9 +41,9 @@ When you install the Integration Solution, permissions for the integration user 
 
 > [!NOTE]
 > To use the **Open in Business Central** action in Dynamics 365 Sales, you must have the appropriate privileges for the following tables:
-
-* You must have Read permissions for the Dynamics 365 Business Central Connection (nav_connection) table.
-* You must have Read, Write, and Delete permissions for the Default Dynamics 365 Business Central Connection (nav_defaultconnection) table. 
+>
+> * You must have Read permissions for the Dynamics 365 Business Central Connection (nav_connection) table.
+> * You must have Read, Write, and Delete permissions for the Default Dynamics 365 Business Central Connection (nav_defaultconnection) table. 
 
 ### Connection settings in the setup guide
 

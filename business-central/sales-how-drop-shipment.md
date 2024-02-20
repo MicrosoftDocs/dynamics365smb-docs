@@ -24,10 +24,10 @@ When a sales order is marked for drop shipment, and you create a purchase order 
 To prepare a drop shipment, you create a sales order for an item and indicate on the sales line that the sale requires drop shipment.
 
 1. Create a sales order for an item. For more information, see [Sell Products](sales-how-sell-products.md).
-2. On the sales order line for the drop shipment, select the **Drop Shipment** check box. 
+2. On the sales order line for the drop shipment, select the **Drop Shipment** check box. Alternatively, in the **Purchasing Code** field, select a purchasing code that has the **Drop Shipment** field selected.
 
 > [!TIP]
-> By default, the Drop Shipment check box isn't available on the lines. If it isn't, you can add it by personalizing the section of page that contains the lines. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
+> By default, the Drop Shipment check box and Purchasing Code field aren't available on the lines. If they aren't, you can add them by personalizing the section of page that contains the lines. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 ## To create the purchase order for drop shipment
 

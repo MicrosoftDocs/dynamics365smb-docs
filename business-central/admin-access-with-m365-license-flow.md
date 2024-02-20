@@ -4,7 +4,7 @@ description: Get an overview of what happens when a user accesses Business Centr
 author: mikebc
 ms.author: mikebc
 ms.reviewer: jswymer 
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 11/03/2022
 ms.custom: bap-template

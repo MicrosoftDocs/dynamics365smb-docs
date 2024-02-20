@@ -3,8 +3,8 @@ title: Assemble Items
 description: Learn about assemble-to-order and assemble-to-stock processes in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
-ms.service: dynamics365-business-central
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
 ms.search.keywords: kit, kitting
@@ -60,8 +60,6 @@ Follow the steps in this procedure to assemble an item to stock. To learn about 
     >  If warnings are still present in the assembly order lines, you can't post the order. A message displays the component or components that are not in inventory.  
 
 After posting succeeds, the assembly item is posted as output to the location code and potential bin code that are defined on the assembly order. For manually created assembly orders, the location may be copied from the **Default Location for Orders** setup field. For assemble-to-order flows, the location code may be copied from the sales order line.  
-
-## See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## See also
 

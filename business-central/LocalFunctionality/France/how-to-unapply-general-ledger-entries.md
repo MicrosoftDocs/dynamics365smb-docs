@@ -4,17 +4,14 @@
 
     services: project-madeira 
     documentationcenter: ''
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/18/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Unapply General Ledger Entries in the French Version
 You can unapply general ledger entries in a very straightforward way.  

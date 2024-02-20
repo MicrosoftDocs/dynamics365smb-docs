@@ -4,13 +4,12 @@ description: There are many general features that help you enter data easier, fa
 author: jswymer
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 03/23/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Entering Data
 
@@ -275,8 +274,6 @@ For example, suppose you're using a numeric keyboard that uses a period (.) as t
 
 > [!TIP]
 > There may be occasions when you want to use the decimal separator to enter a period (.). For example, suppose you were entering a date range in a filter, like `01/01/2022..04/01/2022`, or anything that requires a period. To accommodate this case, select the <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> keys on the numeric keyboard. This key combination switches the decimal separator between outputting a period and the decimal separator as determined by the **Region** setting.
-
-## See related [Microsoft training](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## See also
 

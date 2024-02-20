@@ -1,17 +1,14 @@
 ---
     title: Subcontract Manufacturing
     description: This topic gives an extended overview of the extended funtionality of subcontracting in Business Central including work center fields and routing.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords: 99000886
     ms.date: 06/22/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Subcontract Manufacturing
 

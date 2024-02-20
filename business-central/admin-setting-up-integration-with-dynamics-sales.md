@@ -1,19 +1,16 @@
 ---
-    title: Setting Up User Accounts for Integrating with Microsoft Dataverse | Microsoft Docs
-    description: Learn how to set up the user accounts that the apps use to exchange data, and that people use to access and synchronize data in the apps.
-    author: brentholtorf
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-
+title: Setting Up User Accounts for Integrating with Microsoft Dataverse | Microsoft Docs
+description: Learn how to set up the user accounts that the apps use to exchange data, and that people use to access and synchronize data in the apps.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.search.keywords:
+ms.date: 01/12/2024
+ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# Setting Up User Accounts for Integrating with Microsoft Dataverse
+# Setting up user accounts for integrating with Microsoft Dataverse via data sync
 
 This article provides an overview of how to set up the user accounts that are required to integrate [!INCLUDE[prod_short](includes/cds_long_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -28,14 +25,12 @@ To set up the connection between [!INCLUDE[prod_short](includes/prod_short.md)] 
 
 ## Permissions and security roles for user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-The Base Integration Solution creates the following roles in [!INCLUDE[cds_long](includes/cds_long_md.md)] for the integration:
+The Base Integration Solution creates the following role in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] for the integration:
 
-* **Integration Administrator**: Allows users to manage the connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long](includes/cds_long_md.md)]. Typically, this is assigned only to the automatically created user account for synchronization.
-* **Integration User**: Allows users to access synchronized data. Typically, this is assigned to the automatically created user account for synchronization and other users who need to view or access the synchronized data.
+* **Business Central Dataverse Integration** - Allows you to manage the connection between [!INCLUDE [prod_short](includes/prod_short.md)] and [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Typically, this is assigned only to the automatically created user account for synchronization.
 
 > [!NOTE]
->
-> The **Integration Administrator** and **Integration User** roles should only be used by the application user that runs the integration. The application user does not need the [!INCLUDE[prod_short](includes/prod_short.md)] or [!INCLUDE[cds_long](includes/cds_long_md.md)] license assigned.
+> Only the application user who runs the integration should have the **Business Central Dataverse Integration** role. The application user doesn't need the [!INCLUDE [prod_short](includes/prod_short.md)] or [!INCLUDE [cds_long_md](includes/cds_long_md.md)] licenses.
 
 When you install the Base Integration Solution, it configures the permissions for the integration user account. If those permissions are changed manually, you can reset them. Choose **Redeploy Integration Solution** on the **Dataverse Connection Setup** page to reinstall the Base Integration Solution. This step will deploy the  Business Central Integration security role.
 

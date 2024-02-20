@@ -1,18 +1,15 @@
 ---
 title: Count and Adjust Inventory
 description: Describes how to count physical inventory and use inventory documents to adjust on-hand inventory.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
 ms.search.forms: 5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 5880, 5893, 5897, 5882, 5881, 5899, 5875, 5878, 5877, 5876, 5896, 6567, 6568, 6569, 6570, 6571, 6572, 5883, 5886, 884, 5898, 5885, 5890, 5888, 5889, 5887, 5894, 6774, 6775, 6776, 6780, 6781, 6782, 6783
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Count and Adjust Inventory Using Documents
 
@@ -243,9 +240,7 @@ You can specify the reports that must be printed at different stages by choosing
 * Posted Inventory Shipment
 
 > [!NOTE]
-> The available reports may vary based on your country's localization. The base application doesn't include any layouts.
-
-## See related [Microsoft training](/training/modules/adjust-inventory/)
+> The available reports may vary based on localization for your country/region. The base application doesn't include any layouts.
 
 ## See also
 

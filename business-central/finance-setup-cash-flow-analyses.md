@@ -3,13 +3,12 @@ title: Setting up Cash Flow Analysis (contains video)
 description: Use Accountant Role Center charts to analyze the flow of money in your business, including expenses and income, liquidity, and cash receipts minus cash payments.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.search.form: 846, 847, 849, 851, 855, 862, 869, 1818
 ms.date: 08/23/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Setting Up Cash Flow Analysis
 
@@ -133,8 +132,6 @@ You can also create your own predictive web service based on a public model name
 6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Flow Setup**, and then choose the related link.  
 7. Expand the **Azure AI** FastTab, and then fill in the fields, including the API URL and API key provided from Azure Machine Learning studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. In the Accountant Role Center, choose the **Recalculate Forecast** action under the **Cash Flow Forecast** chart.
-
-## See related [Microsoft training](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## See also
 

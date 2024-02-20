@@ -2,13 +2,15 @@
 title: Report overview
 description: See which reports are available across all functional areas of the standard version of Business Central so that you can keep track of your business.
 author: KennieNP
-
-
+ms.author: kepontop
+ms.reviewer: jswymer
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.date: 02/02/2022
-ms.author: kepontop
+ms.date: 09/11/2023
+ms.custom: bap-template
 
+
+ms.service: dynamics-365-business-central
 ---
 # Report Overview
 

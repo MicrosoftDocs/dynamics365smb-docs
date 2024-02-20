@@ -1,20 +1,20 @@
 ---
 title: Basic Tax Setup in the US Version
 description: Learn how to set basic tax data and apply default accounts for posting calculated tax information.
-author: rubenseishima
-ms.service: dynamics365-business-central
+author: brentholtorf
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: tax, setup
 ms.search.form: 485
 ms.date: 09/21/2022
-ms.author: a-reishima
+ms.author: bholtorf
 ---
 # Basic Tax Setup in the US Version
 
 To ensure compliance with local tax reporting, use the **Tax Setup** page to define basic tax information in [!INCLUDE [prod_short](../../includes/prod_short.md)]. The page guides you through settings such as choosing the proper group code for non-taxable sales and the default accounts for posting calculated tax.
 
 > [!TIP]
-> [!INCLUDE [prod_short](../../includes/prod_short.md)] is available in countries that use value-added tax (VAT). For information about how to set up and report VAT in your country, see the articles in the [Local Functionality](../../about-localization.md) section.
+> [!INCLUDE [prod_short](../../includes/prod_short.md)] is available in countries/regions that use value-added tax (VAT). For information about how to set up and report VAT in your country/region, see the articles in the [Local Functionality](../../about-localization.md) section.
 
 ## Set up taxes
 

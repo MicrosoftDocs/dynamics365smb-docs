@@ -3,13 +3,11 @@ title: Set Up Approval Users
 description: Before you can create workflows that involve approval steps, you must set up the workflow users involved in the approval processes.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 663,
 ms.date: 05/31/2023
 ms.author: bholtorf
-
+ms.service: dynamics-365-business-central
 ---
 # Set Up Approval Users
 
@@ -46,8 +44,6 @@ After you set up approval users, you can create workflow responses for approval 
 4. Repeat steps 2 and 3 for every person you want to set up as an approval user.  
 
 The next step is to specify how you want [!INCLUDE [prod_short](includes/prod_short.md)] to notify people that a request is pending their attention. Learn more at [Setting Up Workflow Notifications](across-setting-up-workflow-notifications.md).
-
-## See related [Microsoft training](/training/modules/create-workflows/)
 
 ## See also
 

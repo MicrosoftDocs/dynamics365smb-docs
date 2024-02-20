@@ -1,18 +1,14 @@
 ---
     title: Print VAT Summary Information on Document [IS]
     description: If VAT is calculated, VAT summary information is typically printed on the sales and purchase documents.
-
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/25/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Print VAT Summary Information on Documents in the Icelandic Version
 If VAT is calculated, VAT summary information is typically printed on sales and purchase documents. However, in Iceland, [!INCLUDE[prod_short](../../includes/prod_short.md)] does not print VAT summary information if only one VAT sales code is used in the document. You can modify this behavior by using the **Always Show VAT Summary** option.  

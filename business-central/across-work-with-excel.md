@@ -4,13 +4,13 @@ description: Learn about how you can open the pages in Microsoft Excel from Busi
 author: jswymer
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
+ms.devlang: al
 ms.search.form: 1480
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Viewing and Editing in Excel From Business Central
 
@@ -71,8 +71,6 @@ When **Edit in Excel** is used on list pages for tables with many columns, the r
 <br><br>  
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
-
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## See Also
 

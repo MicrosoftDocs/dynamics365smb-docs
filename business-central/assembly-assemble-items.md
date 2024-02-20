@@ -3,12 +3,13 @@ title: Assembly Management
 description: Learn how to supply products to customers by combining components in simple processes without using manufacturing features.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/21/2023
 ms.custom: bap-template
 ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.service: dynamics-365-business-central
 ---
 # Assembly Management
 
@@ -50,8 +51,6 @@ The following table describes a sequence of tasks, with links to the articles th
 |Undo a posted assembly order, for example because the order was posted with mistakes.|[Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)|
 |Learn how to work with assembly BOMs and how they differ from production BOMs.|[Work with Assembly BOMs](assembly-how-work-assembly-boms.md)|
 |Learn about posting assembly consumption and output, and how [!INCLUDE [prod_short](includes/prod_short.md)] distributes item and resource costs to the general ledger.|[Design Details: Assembly Order Posting](design-details-assembly-order-posting.md)|  
-
-## See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## See also
 

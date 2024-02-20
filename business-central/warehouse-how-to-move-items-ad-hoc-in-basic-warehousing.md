@@ -4,7 +4,7 @@ description: This article explains unplanned internal movements between bins wit
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 12/16/2022
 ms.custom: bap-template
@@ -88,8 +88,6 @@ Instead of using movement documents, you can record movements by reclassifying b
 4. Post the reclassification journal.  
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
-
-## See related [Microsoft training](/training/modules/manage-internal-warehouse-processes/)
 
 ## See also
 

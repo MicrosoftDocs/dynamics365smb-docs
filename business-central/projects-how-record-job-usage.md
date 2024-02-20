@@ -4,7 +4,7 @@ description: This article describes how to record the consumption or use of item
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 03/08/2023
 ms.custom: bap-template
@@ -95,8 +95,6 @@ After you have posted job journal lines, you can see the planning lines that are
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
 2. Select a relevant job journal, and then choose the **Ledger Entries** action.  
 3. On the **Job Ledger Entries** page, choose **Show Linked Job Planning Lines** action.
-
-## See related [Microsoft training](/training/paths/post-job-usage-sales/)
 
 ## See also
 

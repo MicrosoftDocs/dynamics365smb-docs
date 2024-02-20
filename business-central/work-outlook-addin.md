@@ -4,13 +4,12 @@ description: This service has deep integration with Microsoft 365 enabling you t
 author: jswymer
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/21/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Use Business Central as your Business Inbox in Outlook
 
@@ -123,9 +122,6 @@ If you're using the Outlook app, just choose **Document Link** at the top of the
 
 > [!TIP]
 > Starting in 2022 release wave 1, documents open in a new browser window with all the capabilities that you know from [!INCLUDE [prod_short](includes/prod_short.md)]. You can navigate from a document to a list and back again, open lists in Excel, send documents to be printed, and run or preview related reports. You also have all of the familiar keyboard shortcuts right there when you open documents from Outlook.  
-
-
-## See related [Microsoft training](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## See Also
 

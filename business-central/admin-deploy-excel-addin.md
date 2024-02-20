@@ -4,13 +4,13 @@ description: Learn about how to get users the Business Central add-in for Excel.
 author: jswymer
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
+ms.devlang: al
 ms.search.form: 1480
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Get the Business Central Add-in for Excel
 
@@ -160,8 +160,6 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
-
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## See Also
 

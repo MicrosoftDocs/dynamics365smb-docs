@@ -1,17 +1,14 @@
 ---
     title: Handle Inventory and Manufacturing Costs
     description: Learn how a number of fields, pages, and reports are aimed at users who directly or indirectly manage the cost of items or operations.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/16/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Handling Inventory and Manufacturing Costs
 

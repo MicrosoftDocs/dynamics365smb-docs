@@ -7,8 +7,9 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 02/23/2023
 ms.author: jswymer
 ms.reviewer: jswymer
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Create incoming document records directly from documents and entries
 
@@ -46,8 +47,6 @@ You can remove file attachments from non-posted documents at any time by deletin
 2. Select the line for an incoming document record connected to a posted document that you want to remove, and then choose the **Remove Reference to Record** action.
 
 The connection to the posted document is removed. You can now proceed to connect another incoming document record to the posted document as described in this article.
-
-## See related [Microsoft training](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## See also
 

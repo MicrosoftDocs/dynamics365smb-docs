@@ -1,18 +1,15 @@
 ---
 title: Record and Adjust Resource Usage and Prices
 description: Describes how you can record the resource usage or consumption associated with a job, to keep track and manage costs, prices, and work types.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: project management, capacity, staff
 ms.search.form: 201,206, 207, 271, 493
 ms.date: 03/08/2023
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Use Resources for Jobs
 

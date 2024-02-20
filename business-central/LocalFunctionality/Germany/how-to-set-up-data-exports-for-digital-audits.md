@@ -1,17 +1,14 @@
 ---
     title: Set Up Data Exports for a Digital Audit [DE]
     description: You must set up data export record sources to be able to export data for a digital audit based on GDPdU.
-    author: edupont04
-
-    
+    author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/27/2022
-    ms.author: edupont
+    ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Set Up Data Exports for a Digital Audit (GoBD/GDPdU) in the German Version
 

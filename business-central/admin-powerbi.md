@@ -6,11 +6,14 @@ ms.topic: overview
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.search.form: 6316, 6317
 ms.reviewer: jswymer
-ms.date: 04/26/2023
+ms.date: 09/28/2023
 ms.author: jswymer
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Introduction to [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 It's easy to get insights into your [!INCLUDE[prod_short](includes/prod_short.md)] data with [Power BI](https://powerbi.microsoft.com) - a data visualization system from Microsoft. Power BI retrieves [!INCLUDE[prod_short](includes/prod_short.md)] data so that you can build dashboards and reports based on that data. Power BI provides a flexible alternative to reports built in [!INCLUDE[prod_short](includes/prod_short.md)], enabling you drill down and customize the visualization, and even merge data from different companies in [!INCLUDE[prod_short](includes/prod_short.md)]. Some Power BI reports can also be embedded in Business Central and viewed without leaving the system. More complex dashboards are better experienced from the Power BI web site.
 
@@ -28,7 +31,7 @@ There are various features for working with [!INCLUDE[prod_short](includes/prod_
 |[!INCLUDE[prod_short](includes/prod_short.md)] apps in Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publishes three apps for Power BI on Microsoft AppSource. These apps create detailed reports and dashboards in your Power BI service for viewing [!INCLUDE[prod_short](includes/prod_short.md)] data. Available apps include: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Works online.](media/check.png)||[Here...](across-powerbi-business-central-apps.md)|
 |Work with [!INCLUDE [prod_short](includes/prod_short.md)] data in datamarts and dataflows|Starting in July 2022, you can use the [!INCLUDE [prod_short](includes/prod_short.md)] connector in Power Query Online to dataflows that you share across different reports and dashboards.|![works online.](media/check.png)||[Here...](across-powerbi-business-central-apps.md)|
 
-<a name="onprem"><sup>*</sup></a> This feature requires a registered application for Business Central in Microsoft Azure. For more information, see [Registering Business Central on-premises in Azure AD for integrating with other services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
+<a name="onprem"><sup>*</sup></a> This feature requires a registered application for Business Central in Microsoft Azure. For more information, see [Registering Business Central on-premises in Microsoft Entra ID for integrating with other services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
 ## Get ready to use Power BI
 
@@ -53,27 +56,24 @@ With metrics in Power BI, you can curate your own metrics and track them against
 
 Follow this four-step process to setup Power BI metrics:
 
-1. Create a scorecard in the Power BI service. See [Create scorecards in Power BI](/power-bi/create-reports/service-goals-create).
-2. Add the _metrics_ you want to track by connecting to your Power BI report on telemetry. See [Create connected metrics](/power-bi/create-reports/service-goals-create-connected).
-3. To add alerting, define status rules for your metrics. See [Create automated status rules for metrics](/power-bi/create-reports/service-metrics-status-rules).
+1. Create a scorecard in the Power BI service. Learn more at [Create scorecards in Power BI](/power-bi/create-reports/service-goals-create).  
+2. Add the _metrics_ you want to track by connecting to your Power BI report on telemetry. Learn more at [Create connected metrics](/power-bi/create-reports/service-goals-create-connected).  
+3. To add alerting, define status rules for your metrics. Learn more at [Create automated status rules for metrics](/power-bi/create-reports/service-metrics-status-rules).  
 
-   This step will automate status updates based on rules that govern that metric. Rules trigger changes based on value, percentage of target met, date conditions, or a combination of the three, making the rules as versatile as possible. For connected metrics, these status rules are refreshed every time the data in your scorecard is refreshed.
-4. Finally, follow metrics to get alerts in Teams or by email. See [Follow your metrics](/power-bi/create-reports/service-metrics-follow).
+    This step will automate status updates based on rules that govern that metric. Rules trigger changes based on value, percentage of target met, date conditions, or a combination of the three, making the rules as versatile as possible. For connected metrics, these status rules are refreshed every time the data in your scorecard is refreshed.
+4. Finally, follow metrics to get alerts in Teams or by email. Learn more at [Follow your metrics](/power-bi/create-reports/service-metrics-follow).  
 
-For more information about Power BI Metrics, see [Get started with metrics in Power BI](/power-bi/create-reports/service-goals-introduction).
+Learn more about Power BI metrics at [Get started with metrics in Power BI](/power-bi/create-reports/service-goals-introduction).
 
 > [!NOTE]
-> It is currently not possible to embed scorecards from Power BI metrics in [!INCLUDE[prod_short](includes/prod_short.md)].
+> Starting with Business Central 2023 release wave 2, it's possible to embed scorecards from Power BI metrics in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Next steps
 
 - If you're an admin who needs to set up Power BI in [!INCLUDE[prod_short](includes/prod_short.md)], go to [Enabling Power BI Integration](admin-powerbi-setup.md).
 - If Power BI is already set up, and you want to try the features, go to [Work with Power BI Reports in Business Central](across-working-with-powerbi.md).
 
-
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
-## See Also
+## See also
 
 [Business Intelligence](bi.md)  
 [Set Up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

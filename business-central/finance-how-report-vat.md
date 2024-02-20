@@ -2,31 +2,27 @@
 title: Submit VAT Reports to Tax Authorities
 description: Learn how to prepare reports that lists VAT from sales during a period, or from sales and purchases, and submit the report to a tax authority.
 author: brentholtorf
-
-
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-
+ms.service: dynamics-365-business-central
 ---
 
 # Report VAT to Tax Authorities
 
-This topic describes the reports in [!INCLUDE[prod_short](includes/prod_short.md)] that you can use to submit information about value-added tax (VAT) amounts for sales and purchases to tax authorities in your region. Depending on the specific country, the reports may include specific information, or there might be additional reports that you must submit. Check the articles for your country in the [Local Functionality](about-localization.md) section.  
+This topic describes the reports in [!INCLUDE[prod_short](includes/prod_short.md)] that you can use to submit information about value-added tax (VAT) amounts for sales and purchases to tax authorities in your region. Depending on the specific country/region, the reports may include specific information, or there might be additional reports that you must submit. Check the articles for your country/region in the [Local Functionality](about-localization.md) section.  
 
 You can use the following built-in reports:
 
 * The **EC Sales List** report  
 
-    The European Community (EC) Sales List report lists the value added tax (VAT) amounts that you have collected for sales to VAT-registered customers in the European Union (EU) countries.  
+    The European Community (EC) Sales List report lists the value added tax (VAT) amounts that you have collected for sales to VAT-registered customers in the European Union (EU) countries/regioins.  
 * The **VAT Return** report  
 
-    The VAT Return report includes VAT for sales and purchases to customers and from vendors in all countries that use VAT.  
+    The VAT Return report includes VAT for sales and purchases to customers and from vendors in all countries/regions that use VAT.  
 
 In both cases (as in other VAT-related reports), VAT is calculated based on the VAT posting setup and the VAT posting groups that you have set up. [!INCLUDE[prod_short](includes/prod_short.md)] shows VAT entries always based on their **VAT Date** as a primary reporting date.  
 
@@ -36,11 +32,11 @@ In both cases (as in other VAT-related reports), VAT is calculated based on the 
 If you want to view a complete history of VAT entries, every posting that involves VAT creates an entry on the **VAT Entries** page. These entries are used to calculate your VAT settlement amount, such as your payment and refund, for a specific period. To view VAT entries, choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Entries**, and then choose the related link.
 
 > [!NOTE]
-> Each [!INCLUDE[prod_short](includes/prod_short.md)] environment is meant to handle regulatory reporting in one single country. For example, the Dutch version of [!INCLUDE[prod_short](includes/prod_short.md)] handles VAT reporting in The Netherlands but not in other countries. Similarly, the United States version of [!INCLUDE[prod_short](includes/prod_short.md)] handles 1099 reporting in the United States and does not support claiming VAT reporting in other countries, unless brought by an extension delivered by our partner ecosystem or a customer-specific code modification.
+> Each [!INCLUDE[prod_short](includes/prod_short.md)] environment is meant to handle regulatory reporting in one single country/region. For example, the Dutch version of [!INCLUDE[prod_short](includes/prod_short.md)] handles VAT reporting in The Netherlands but not in other countries/regions. Similarly, the United States version of [!INCLUDE[prod_short](includes/prod_short.md)] handles 1099 reporting in the United States and does not support claiming VAT reporting in other countries/regions, unless brought by an extension delivered by our partner ecosystem or a customer-specific code modification.
 
 ## <a name="ecsaleslist"></a>About the EC Sales List report
 
-In the European Union (EU) and in the UK, all companies that sell goods and services to VAT-registered customers, including customers in other European Union (EU) countries, must submit an electronic version of the European Community (EC) Sales List report to their customs and tax authorities. The **EC Sales List** report works only for countries in the EU.
+In the European Union (EU) and in the UK, all companies that sell goods and services to VAT-registered customers, including customers in other European Union (EU) countries/regions, must submit an electronic version of the European Community (EC) Sales List report to their customs and tax authorities. The **EC Sales List** report works only for countries/regions in the EU.
 
 The report includes one line for each type of transaction with the customer, and displays the total amount for each type of transactions. There are three types of transactions that the report can include:  
 
@@ -121,7 +117,7 @@ VAT returns can have different statuses, as described in the following table.
 
 ## Viewing communications with your tax authority
 
-In some countries, you exchange messages with the tax authority when you submit reports. You can view the first and the last message you sent or received by choosing the **Download Submission Message** and **Download Response Message** actions.  
+In some countries/regions, you exchange messages with the tax authority when you submit reports. You can view the first and the last message you sent or received by choosing the **Download Submission Message** and **Download Response Message** actions.  
 
 ## Submitting VAT reports manually
 If you use another method to submit the report, for example by exporting the XML and uploading it to a tax authority website, afterward you can choose **Mark as Submitted** to close the reporting period. When you mark the report as released, it becomes non-editable. If you must change the report after you mark it as released, you must reopen it.
@@ -150,8 +146,6 @@ The following table describes the codeunits that you must create for your report
 
 > [!Note]
 > When you create codeunits for the report, pay attention to the value in the **VAT Report Version** field. This field must reflect the version of the report that is, or was, required by the tax authority. For example, you might enter **2021** in the field to indicate that the report conforms to the requirements that were in place that year. To find the current version, contact your tax authority.  
-
-## See related [Microsoft training](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## See also
 

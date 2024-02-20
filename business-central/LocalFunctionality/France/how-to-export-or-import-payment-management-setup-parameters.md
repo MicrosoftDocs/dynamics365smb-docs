@@ -2,17 +2,14 @@
     title: Export or Import Payment Management Setup Parameters
     description: You can export or import payment management setup parameters to an external disk so that you can use the same parameters for another company with similar requirements.
 
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 04/01/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Export or Import Payment Management Setup Parameters
 

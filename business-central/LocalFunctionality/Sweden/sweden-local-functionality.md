@@ -1,15 +1,13 @@
 ---
     title: Sweden Local Functionality [SE]
     description: The following topics describe the different local functionality in the Swedish version of Business Central.
-    author: SorenGP
+    author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/02/2023
-    ms.author: edupont
-
+    ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Sweden Local Functionality in the Swedish Version
 
@@ -23,13 +21,13 @@ The following topics describe local functionality that is unique to the Swedish 
 * Core Finance
     * [Automatic Account Codes](automatic-account-codes.md) **Available Now**
     * [Set Up Automatic Account Posting Groups](how-to-set-up-automatic-account-posting-groups.md)  **Available Now**
-    * [Import and Export Data in Standard Import Export Format](how-to-import-and-export-data-in-standard-import-export-format.md) **Available Now**  
-    * SIE export/import as a part of the Audit file export app **Available Now**
+    * [Import and Export Data in Standard Import Export Format](how-to-import-and-export-data-in-standard-import-export-format.md) **Available Now; marked for deprecate**  
+    * [SIE export/import as a part of the Audit file export app](how-to-use-sie-audit-files-export.md) **Available Now**
     * [Print Balance Sheet and Income Statement Reports](how-to-print-balance-sheet-and-income-statement-reports.md) **Available Now**  
 
 ## Future legislation requirements being investigated
 
-* Large companies to report payment times **22.3**
+* Large companies to report payment times app **planned for 22.4**
 
 If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

@@ -1,22 +1,20 @@
 ---
 title: Export and Print Intrastat Reports (DE)
-description: Business Central supports Intrastat reporting according to German requirements. You can meet the requirement to report your trade with other EU countries.
-author: SorenGP
-    
+description: Business Central supports Intrastat reporting according to German requirements. You can meet the requirement to report your trade with other EU countries/regions.
+author: brentholtorf 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 26100
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Export and Print Intrastat Reports
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
-Intrastat reporting is required throughout the European Union (EU) and must follow local requirements, such as specific formats and files. All companies in the EU must report their trade with other EU countries. The movement of goods must be reported to the statistics authorities (Statistisches Bundesamt) every month, and a report must be delivered to the tax authorities.  
+Intrastat reporting is required throughout the European Union (EU) and must follow local requirements, such as specific formats and files. All companies in the EU must report their trade with other EU countries/regions. The movement of goods must be reported to the statistics authorities (Statistisches Bundesamt) every month, and a report must be delivered to the tax authorities.  
 
 For Intrastat reporting, you must provide paper reports and files, which must be in ASCII format for Germany. [!INCLUDE[prod_short](../../includes/prod_short.md)] includes reports and batch jobs that generate all of the information that must be sent to the German tax authorities. This information automatically includes both receipt and delivery of goods. The Intrastat file contains information from the lines in the **Intrastat** journal.  
 

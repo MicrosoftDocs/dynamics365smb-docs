@@ -1,18 +1,15 @@
 ---
 title: Standard Recurring Sales Lines
 description: Set up frequently used sales lines to insert them on sales documents and quickly fill the lines with standard information.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: trade, sell, replenishment
 ms.search.form: 172
 ms.date: 07/06/2022
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Create Recurring Sales
 
@@ -72,8 +69,6 @@ You can use the **Create Recurring Sales Invoices** batch job to create sales in
 4. Choose the **OK** button.
 
 Sales invoices are created for the customers with the specified standard customer sales code, and any specified direct-debit information, for posting on the specified date.
-
-## See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## See also
 

@@ -1,18 +1,15 @@
 ---
 title: Create a Job Sales Invoice to Invoice a Job
 description: Describes how to invoice customers for job expenses as a project progresses and costs accumulate.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: project invoice
 ms.search.form: 1002, 1007, 
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Invoice Jobs
 
@@ -62,8 +59,6 @@ You can create an invoice from a job planning lines, and indicate at that time t
 
 > [!NOTE]  
 >   The above procedure is similar for creating, reviewing, and posting a job-related sales credit memo.
-
-## See related [Microsoft training](/training/paths/post-job-usage-sales/)
 
 ## See also
 

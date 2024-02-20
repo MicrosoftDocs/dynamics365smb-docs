@@ -1,17 +1,13 @@
-﻿---
+---
     title: Business Central for Multi-Site and International Organizations | Microsoft Docs
     description: Business Central provides capabilities that support a hub-and-spoke business model.
     author: brentholtorf
-
-    
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
     ms.date: 10/01/2020
     ms.author: bholtorf
-
+    ms.service: dynamics-365-business-central
 ---
 
 # Business Central for Multi-Site and International Organizations
@@ -35,8 +31,8 @@ Business needs at sites often differ based on industry, business methods, or the
 
 For multi-national organizations, [!INCLUDE[prod_short](includes/prod_short.md)] supports local legal requirements and business practices.
 
-* For online versions, there are more than [40 localized country versions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) that you can install as extensions from Microsoft AppSource.  
-* For on-premises versions, [country versions](/azure/architecture/solution-ideas/articles/business-central) are available either as Microsoft-localized versions or partner-led add-on localizations.
+* For online versions, there are more than [40 localized country/region versions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) that you can install as extensions from Microsoft AppSource.  
+* For on-premises versions, [country/region versions](/azure/architecture/solution-ideas/articles/business-central) are available either as Microsoft-localized versions or partner-led add-on localizations.
 
 A network of more than 4,000 Microsoft partners world-wide provides local expertise.
 

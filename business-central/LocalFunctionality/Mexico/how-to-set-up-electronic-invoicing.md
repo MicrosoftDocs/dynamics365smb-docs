@@ -1,15 +1,13 @@
 ---
 title: Set Up Electronic Invoicing [MX]
 description: Before you can send electronic documents in Mexico, you must set up Business Central to ensure that the required identification numbers are in place for CFDI.
-author: edupont04
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.date: 05/19/2022
-ms.author: edupont
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Set up Electronic invoicing - Mexico
@@ -32,7 +30,7 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
 
     |Field|Description|  
     |------------------------------------|---------------------------------------|
-    |**SCT Permission Type** and **SCT Permission Name**|These fields specify a permission that has been provided by the Secretaría de Comunicaciones y Transportes. The permission must correspond to the type of motor transport that the company uses for the transfer of goods or merchandise if you transport goods and merchandise in the national territory.|
+    |**SCT Permission Type** and **SCT Permission Name**|These fields specify a permission that has been provided by the Secretaría de Comunicaciones y Transportes. The permission must correspond to the type of motor transport that the company uses for the transfer of goods or merchandise if you transport goods and merchandise in the national/regional territory.|
 4. On the **Tax** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] The following table describes some of the complex CFDI-related fields.  
 
     |Field|Description|  
@@ -71,7 +69,7 @@ You also must add information about your customers and vendors. The following se
     |------------------------------------|---------------------------------------|
     |**CFDI Purpose**|Enter the CFDI purpose required for reporting to the Mexican tax authorities (SAT).|
     |**CFDI Relation**|Enter the relation of the CFDI document.|
-    |**CFDI Export Code**|Enter a code to indicate if the customer is typically used for exports to other countries.|
+    |**CFDI Export Code**|Enter a code to indicate if the customer is typically used for exports to other countries/regions.|
     |**SAT Tax Regime Classification**|Enter the tax scheme required for reporting to the Mexican tax authorities (SAT).|
 
 3. On the **Invoicing** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] The following table describes some of the complex CFDI-related fields.  

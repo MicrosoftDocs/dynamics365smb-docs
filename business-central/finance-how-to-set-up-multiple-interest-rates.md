@@ -1,18 +1,14 @@
 ---
     title: Set Up Multiple Interest Rates for Delayed Payment
     description: This topic tells you how to calculate finance charges with multiple interest rates for a specific period. 
-
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.form: 6, 431, 432, 572
     ms.date: 06/16/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Set Up Multiple Interest Rates for Delayed Payment
 

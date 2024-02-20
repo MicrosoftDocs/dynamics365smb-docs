@@ -1,18 +1,14 @@
 ---
 title: Export Your Business Central Data to Excel
 description: You can export your financial reports and business intelligence data from Business Central to Excel, or open your data in Excel.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
 ms.search.form: 9901
 ms.date: 04/01/2021
-ms.author: edupont
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Export Your Business Data to Excel
 
@@ -74,8 +70,6 @@ We recommend that you also consider exporting data from the following pages:
 > * System permission 6110 *Allow Action Export To Excel*.  
 
 For more information, see [To get an overview of a user's permissions](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
-
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## See Also
 [Canceling Your Subscription for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  

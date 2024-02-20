@@ -7,6 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 04/25/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
 # Compliance Overview
@@ -21,7 +22,7 @@ In this section you can read more about our approach to compliance from the pers
 |------------|-------------|  
 |Learn about compliance from an application perspective, such as data privacy, international accounting standards, and more.|[Application Compliance](compliance-application-compliance.md)|  
 |Learn about compliance at the service level and the approaches made at the platform to ensure Business Central a best-in-class service compliance.|[Service Compliance](compliance-service-compliance.md)|  
-|See information about different certifications related to Business Central. Here you will find information about general certifications and country-specific certifications.|[Certifications](compliance-certifications.md)|  
+|See information about different certifications related to Business Central. Here you will find information about general certifications and country/region specific certifications.|[Certifications](compliance-certifications.md)|  
 |Learn about the service level agreement terms and other terms for the service|[Service Terms](compliance-service-compliance.md#service-terms)|  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  

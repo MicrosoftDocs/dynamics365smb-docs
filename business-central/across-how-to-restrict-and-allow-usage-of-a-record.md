@@ -1,15 +1,13 @@
 ---
 title: How to Restrict and Allow Usage of a Record
 description: If you want to restrict a record from being used, you can incorporate two workflow responses in a workflow that controls the usage of the record.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.date: 09/08/2022
-ms.author: edupont
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Restrict and Allow Usage of a Record
 

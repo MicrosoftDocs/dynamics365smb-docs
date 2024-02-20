@@ -1,18 +1,14 @@
 ---
 title: Set Up Automatic Account Posting Groups [SE]
 description: To use automatic account codes, you must create an automatic account posting group in the Swedish version.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 11207, 11208, 11206
 ms.date: 06/25/2021
-ms.author: edupont
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Set Up Automatic Account Posting Groups in the Swedish Version
 

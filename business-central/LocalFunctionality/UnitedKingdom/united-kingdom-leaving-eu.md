@@ -2,18 +2,18 @@
 title: Brexit Impact on Business Central [GB]
 description: Learn about recommended steps you can take in Business Central to help manage the impact of the United Kingdom leaving the European Union.
 author: sorenfriisalexandersen
-
 ms.topic: conceptual
 ms.reviewer: bholtorf
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: united kingdom, uk, brexit, eu, european union, great britain, northern ireland
-ms.date: 06/25/2021
-ms.author: soalex
+ms.date: 09/28/2023
+ms.author: bholtorf
+ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # Brexit Impact on Business Central
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 The departure of the United Kingdom (UK) from the European Union (EU) will impact many businesses operating inside and across UK borders. As of January 1, 2021, it is likely the impact on UK businesses will revolve around these areas:
 
@@ -24,7 +24,7 @@ The departure of the United Kingdom (UK) from the European Union (EU) will impac
 If your business performs any of the above activities, you will likely need to make some configuration changes in [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 > [!NOTE]  
->  Make sure to check with Her Majesty's Revenue and Customs (HMRC) for the latest information and to investigate the impact that Brexit might have on your business: [https://www.gov.uk/transition](https://www.gov.uk/transition). Microsoft will continuously monitor legislation changes due to Brexit and assess potential product impact.   
+>  Make sure to check with His Majesty's Revenue and Customs (HMRC) for the latest information and to investigate the impact that Brexit might have on your business: [https://www.gov.uk/transition](https://www.gov.uk/transition). Microsoft will continuously monitor legislation changes due to Brexit and assess potential product impact.   
 
 
 ## Trade Across Borders and the Use of Economic Operators Registration and Identification Numbers 
@@ -36,7 +36,7 @@ Please engage your [!INCLUDE[prod_short](../../includes/prod_short.md)] resellin
 >  If you are using [!INCLUDE[prod_short](../../includes/prod_short.md)] on-premises, to use the **EORI number**, **Supplemental VAT Reg. No.** and **Location Code** fields you must install the January 2021 Cumulative Update.   
 
 ## Trade Involving Northern Ireland
-If part of your business is in Northern Ireland and you trade across EU borders or other European countries, or your business is in one of these countries and trade with a company or move goods into Northern Ireland, make sure to do the following:
+If part of your business is in Northern Ireland and you trade across EU borders or other European countries/regions, or your business is in one of these countries/regions and trade with a company or move goods into Northern Ireland, make sure to do the following:
 
 * Add your **EORI number** and/or **Supplemental VAT Registration number** (starting with "XI") on the **Company Information** page.
 * Add Northern Ireland to the **Countries/Regions** list.
@@ -45,7 +45,7 @@ If part of your business is in Northern Ireland and you trade across EU borders 
 * Specify Northern Ireland on the **Locations** page as the region for any warehouse locations you have in Northern Ireland.  
 
 ## Intrastat Changes
-Northern Ireland will have a dual position in the EU in areas related to the Customs Union, Single Market, VAT regime, and in the UK’s equivalents for goods (only). Goods moved in or out of Northern Ireland to or from European countries must be reported on Intrastat. To handle this requirement, use Intrastat journals in [!INCLUDE[prod_short](../../includes/prod_short.md)]. 
+Northern Ireland will have a dual position in the EU in areas related to the Customs Union, Single Market, VAT regime, and in the UK’s equivalents for goods (only). Goods moved in or out of Northern Ireland to or from European countries/regions must be reported on Intrastat. To handle this requirement, use Intrastat journals in [!INCLUDE[prod_short](../../includes/prod_short.md)]. 
 
 Because Intrastat reporting is no longer needed for regular export and import for the UK, you may need to filter or delete such item movements on the **Intrastat Journal** when lines are suggested in the journal. To make this easier, we have added a **Location Code** field on the **Intrastat Journal Lines** so you can filter lines based on their **Ship-from** or **Receive-to** location. 
 
@@ -56,11 +56,11 @@ If your business has a warehouse in Northern Ireland, goods moved to that locati
 
 1. **I’m using [!INCLUDE[prod_short](../../includes/prod_short.md)] online – where is my data stored?**
 
-    The data for UK customers using [!INCLUDE[prod_short](../../includes/prod_short.md)] online is stored in data centers in the UK. If you create another [!INCLUDE[prod_short](../../includes/prod_short.md)] environment in the same Azure AD tenant, and choose another country for this environment, the data will be stored in data centers that serve that specific country. In most cases, those data centers are outside the UK, which helps ensure optimal data residency and performance.
+    The data for UK customers using [!INCLUDE[prod_short](../../includes/prod_short.md)] online is stored in data centers in the UK. If you create another [!INCLUDE[prod_short](../../includes/prod_short.md)] environment in the same Microsoft Entra tenant, and choose another country/region for this environment, the data will be stored in data centers that serve that specific country/region. In most cases, those data centers are outside the UK, which helps ensure optimal data residency and performance.
 
 2. **Does [!INCLUDE[prod_short](../../includes/prod_short.md)] support legislation in the United Kingdom?**
 
-    In many cases, yes. As with all countries for which Microsoft provides a localized version, we follow the impact of local and EU-wide legislation and evaluate how we can support our customers. The responsibility for compliance rests on the individual business in a country, but we provide tools and features that can help our customers meet regulatory requirements, within the confines of our product strategy. A good example of that is our feature for Making Tax Digital, which makes VAT reporting easier and fully digital. There are, however, cases where regulations may require other feature support. For example, if regulatory changes impact a vertical industry, such as construction, we expect that the Microsoft Independent Software Vendor (ISV) who provides a solution that extends [!INCLUDE[prod_short](../../includes/prod_short.md)] for that industry will deliver the features needed to comply. However, the business who uses the solution is responsible for compliance.
+    In many cases, yes. As with all countries/regions for which Microsoft provides a localized version, we follow the impact of local and EU-wide legislation and evaluate how we can support our customers. The responsibility for compliance rests on the individual business in a country/region, but we provide tools and features that can help our customers meet regulatory requirements, within the confines of our product strategy. A good example of that is our feature for Making Tax Digital, which makes VAT reporting easier and fully digital. There are, however, cases where regulations may require other feature support. For example, if regulatory changes impact a vertical industry, such as construction, we expect that the Microsoft Independent Software Vendor (ISV) who provides a solution that extends [!INCLUDE[prod_short](../../includes/prod_short.md)] for that industry will deliver the features needed to comply. However, the business who uses the solution is responsible for compliance.
 
 ## See Also
 

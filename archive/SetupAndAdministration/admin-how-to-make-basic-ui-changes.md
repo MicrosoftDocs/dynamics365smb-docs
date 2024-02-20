@@ -3,7 +3,7 @@
     description: As basic types of UI personalization, you can change the size and position of any window, the width of columns and the height of column headers, and you can change the sorting of data in columns.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

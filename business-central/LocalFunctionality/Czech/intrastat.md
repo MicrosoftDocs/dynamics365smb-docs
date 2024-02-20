@@ -4,7 +4,7 @@ description: Learn about local functionality for Intrastat, Intrastat Engine Set
 author: ACMartinKunes 
 ms.author: v-makune
 ms.reviewer: v-pejano
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 03/02/2023
 ms.custom: bap-template
@@ -54,7 +54,7 @@ More setup for Intrastat enables you to do the following:
 - Set an area value in a Location card.
 - Set default values and enforce company policies following additional Intrastat data available on Customer and Vendor cards.
 - On the Item card define and add Intrastat data that includes statistic indication and specific movement.
-- Create a special foreign currency exchange rate setup and object for the export setup for each Registration country.
+- Create a special foreign currency exchange rate setup and object for the export setup for each Registration country/region.
 
 ## Post sales, purchase, or transfer transactions
 
@@ -79,13 +79,13 @@ The Intrastat journal contains the following new fields and functionalities:
 - Supplementary Units of Measure Calculation
 - Declaration Numbering
 - Declaration types for Statement Classification – Primary, Null, Replacing, Deleting
-- Registration Country entries filtering
+- Registration Country/Region entries filtering
 
 The fastest way to prepare the Intrastat journal and make sure all the rules set in the previous steps are followed is by using the **Get Entries** batch job. During the execution of the Get Entries batch job, the following occurs:
 
 - The system considers the Item and Job ledger entries created by transactions identified as an Intrastat transactions.
 - The system ignores sales and purchase Intrastat transactions with the EU-3 Party Trade flag.
-- The system includes Intrastat transactions with entry and exit points in EU countries.
+- The system includes Intrastat transactions with entry and exit points in EU countries/regions.
 - The system includes sales and purchase documents, such as credit memos that are posted with the **Correction** check box as inserted in the Intrastat journal. These documents are the same type as the documents they're correcting, but with the opposite sign for non-physical transfer documents and the opposite type for documents marked as physical transfer.
 - The system excludes the reversed Intrastat transactions (using Undo Receipt/Shipment) from reporting.
 - The system ensures the item charges are (not) included, adjusted, and calculated in Intrastat Amount and Statistical Amount according to the user's setup in Stat. Reporting Setup, Item Charges, Shipment Methods, and Item Charge Assignments.
@@ -95,7 +95,7 @@ The fastest way to prepare the Intrastat journal and make sure all the rules set
 ## Export Intrastat report to CSV format
 
 Exporting Intrastat reports to .csv files according to local requirements (for INSTATDESK and INSTATONLINE applications) was added to the Intrastat journal.
-Export use object for export based on setup in Stat. Reporting Setup or Registration Country.
+Export use object for export based on setup in Stat. Reporting Setup or Registration Country/Region.
 
 ## See also
 

@@ -3,11 +3,12 @@ title: Design Details - Transfers in Planning
 description: Learn how to use transfer orders as a source of supply when planning inventory levels.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
 ms.search.keywords: design, transfer, sku, locations, warehouse
+ms.service: dynamics-365-business-central
 ---
 # Design Details: Transfers in Planning
 

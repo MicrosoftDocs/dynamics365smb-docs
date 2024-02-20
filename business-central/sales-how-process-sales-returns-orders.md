@@ -1,18 +1,15 @@
 ---
 title: Process Sales Return Orders
 description: Describes how to create a sales return order to process a return, cancellation, or reimbursement for items or services you have been received payment for.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: undo, credit memo, return, order
 ms.search.form: 44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
 ms.date: 09/08/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Process Sales Return Orders  
 
@@ -97,8 +94,6 @@ You can post this increased cost as an item charge in a credit memo or a return 
 3. Fill in the fields as for any item charge line. For more information, see [Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md).  
 
 When you post the sales return order, the restock charge is added to the relevant sales entry amount. In this way, you can maintain accurate inventory valuation.  
-
-## See related [Microsoft training](/training/paths/return-items-dynamics-365-business-central/)
 
 ## See Also
 

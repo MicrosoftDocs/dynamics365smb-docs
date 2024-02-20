@@ -1,17 +1,14 @@
 ---
     title: Set Up Service Contracts
     description: Learn how to set up service contracts with required prerequisites including service contract groups, contract templates and customer templates.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords: service, cost, service order
     ms.date: 06/23/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 
 # Set Up Service Contracts

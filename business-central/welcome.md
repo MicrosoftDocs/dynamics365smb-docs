@@ -3,12 +3,11 @@ title: Welcome to Microsoft Dynamics 365 Business Central
 description: Learn about capabilities and work scenarios in Business Central that helps companies manage their business, including finance, manufacturing, sales, shipping, project management, services, and more.
 author: jswymer
 ms.topic: landing-page
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 05/22/2023
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -79,17 +78,15 @@ You can also view videos of new and commonly used capabilities in our video libr
 
 ## Community Resources
 
-- [Microsoft Dynamics 365 Business Central Community](https://community.dynamics.com/business)
-- [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)
-- [Microsoft Dynamics 365 Release Plans](/dynamics365/release-plans/)
-- [Microsoft Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/)
-- [Microsoft Partner Network \(requires Microsoft Partner Network membership account\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
+- [Microsoft Dynamics 365 Business Central community forum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
+- [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
+- [Microsoft Dynamics 365 Release Plans](/dynamics365/release-plans/)  
+- [Microsoft Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/)  
+- [Microsoft Partner Network \(requires Microsoft Partner Network membership account\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)  
 
 ## Get notified about changes through an RSS feed
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
-
-## See related [Microsoft Learn training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
 ## See Also
 
@@ -105,6 +102,7 @@ You can also view videos of new and commonly used capabilities in our video libr
 [Learn more using the product documentation](product-help-and-support.md#learn-more-using-the-product-documentation)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Compliance](compliance/compliance-overview.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Online Service Terms](compliance/compliance-service-compliance.md#service-terms)  
+[What's new and changed](/dynamics365/business-central/dev-itpro/whatsnew/overview)  
 [Major Updates and Minor Updates of Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
 [Dynamics 365 documentation](/dynamics365/)  
 [Dynamics 365 Business Central on microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  

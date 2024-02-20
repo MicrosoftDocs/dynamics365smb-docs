@@ -5,14 +5,13 @@ author: jswymer
 
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.search.form: 100
 ms.date: 08/18/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Closing Years and Periods
 
@@ -31,8 +30,6 @@ The following table provides an overview of tasks that you typically perform to 
 | Print reports to verify general ledger, customer, vendor, and bank account balances before closing a period. |[Preparing Pre-Closing Reports](year-prepare-preclose-reports.md) |
 | Close accounting periods and fiscal year, transfer income statement balances to balance sheet accounts, and post the year-end closing entry. |[Closing Books](year-close-books.md) |
 | Print reports that can assist you in creating financial statements. |[Preparing Closing Statements](year-prepare-close-statement.md) |
-
-## See related [Microsoft training](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
 
 ## See also
 

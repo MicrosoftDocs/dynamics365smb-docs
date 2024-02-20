@@ -1,18 +1,15 @@
 ---
 title: Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries
 description: Describes how to apply customer cash receipts or refunds to one or more open customer ledger entries. This is part of reconciling customer payments.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: payment process, cash receipt
 ms.search.form: 25, 255
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Reconcile Customer Payments with the Cash Receipt Journal or from Customer Ledger Entries
 

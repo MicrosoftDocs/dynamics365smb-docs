@@ -3,13 +3,12 @@ title: Searching for Contacts from Microsoft Teams
 description: Learn how to look up Business Central customers, vendors, and other contacts from Microsoft Teams.
 author: jswymer
 
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: get-started
+ms.devlang: al
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
 ms.date: 04/12/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
 # Searching for Customers, Vendors, and Other Contacts from Microsoft Teams

@@ -1,17 +1,14 @@
 ---
     title: Setup Best Practices - Planning Parameters
     description: This topic outlines best practices on how to set up selected planning parameter fields with the Planning FastTab on the item card.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/23/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Setup Best Practices: Planning Parameters
 

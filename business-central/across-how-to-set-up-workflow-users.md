@@ -3,14 +3,12 @@ title: How to Set Up Workflow Users
 description: Before you can create workflows, you must set up the users who take part in them on the Approval User Setup page.
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: reject, delegate, request
 ms.search.form: 1533,
 ms.date: 05/31/2023
 ms.author: bholtorf
-
+ms.service: dynamics-365-business-central
 ---
 # Set Up a Sequence of Workflow Users
 
@@ -34,8 +32,6 @@ On the **Workflow User Groups** page, you can specify where a participant engage
    |**Sequence No.**|Specify the order in which the workflow user engages in a workflow relative to other users. This field can specify, for example, when the user approves relative to other approvers by setting up the **Workflow User Group** option in the **Approver Type** field on the related workflow response.| 
 
 6. Repeat step 5 to add more workflow users to the workflow user group.  
-
-## See related [Microsoft training](/training/modules/create-workflows/)
 
 ## See also
 

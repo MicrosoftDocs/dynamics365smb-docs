@@ -5,11 +5,9 @@ author: brentholtorf
 ms.author: bholtorf
 ms.topic: how-to
 ms.date: 09/02/2022
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008
-
+ms.service: dynamics-365-business-central
 ---
 # Receive Items with Warehouse Receipts
 
@@ -92,8 +90,6 @@ If bins are mandatory for a location, zone and bin codes are added to warehouse 
 
 * For advanced configurations that use directed put-away and pick, [!INCLUDE [prod_short](includes/prod_short.md)] uses the receipt bin code from the **Location Card** page for the location. If a receipt bin code isn't specified, no bin is specified. If the item and receipt bins don't match, the receipt bin code is blank.
 * In other configurations, if a receipt bin code isn't specified, [!INCLUDE [prod_short](includes/prod_short.md)] uses the bin code from the source document.
-
-## See related [Microsoft training](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
 ## See also
 

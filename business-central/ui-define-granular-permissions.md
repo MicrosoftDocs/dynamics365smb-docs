@@ -9,6 +9,7 @@ ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862
 ms.date: 02/08/2023
 
+ms.service: dynamics-365-business-central
 ---
 
 # Assign Permissions to Users and Groups
@@ -262,7 +263,9 @@ Any permission sets that are already assigned to the user are displayed in the *
 3. Choose the **Edit** action to open the **User Card** page.
 4. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. For more information, see [To create or edit a permission set](ui-define-granular-permissions.md#to-create-a-permission-set).
 
-### To assign a permission set on the Permission Set by User page
+   Use the **Company** field to apply to permission set to a specific company. If you leave the field blank, then it applies to all companies.
+
+## To assign a permission set on the Permission Set by User page
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. On the **Users** page, choose the **Permission Set by User** action.
@@ -271,6 +274,10 @@ Any permission sets that are already assigned to the user are displayed in the *
     Select the **All Users** checkbox to assign the permission set to all users.
 
 ## To get an overview of a user's permissions
+
+You can view other users' effective permissions only if you're assigned to the SECURITY or SUPER permissions. 
+
+The **Effective Permissions** page offers additional information about the source of each permission. For example, whether the source is a security group, or a permission is inherited. The page also contains a column where administrators can review the security filters that are applied. To learn more about security filters, go to [Security filters limit a user's access to specific records in a table](#security-filters-limit-a-users-access-to-specific-records-in-a-table).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 2. Open the card of the relevant user.

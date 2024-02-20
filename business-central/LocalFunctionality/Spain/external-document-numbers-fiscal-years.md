@@ -5,11 +5,12 @@
 
     
     ms.topic: conceptual
-    ms.reviewer: edupont
+    ms.reviewer: bholtorf
     ms.search.keywords:
     ms.date: 04/01/2021
     ms.author: soalex
 
+    ms.service: dynamics-365-business-central
 ---
 # Use the same External Document Numbers across fiscal years
 

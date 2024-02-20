@@ -4,12 +4,13 @@ title: Monitor Job Progress and Performance
 description: Describes how you can create a work in process (WIP) method and calculate WIP to estimate the financial value of jobs while they are ongoing.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 03/28/2023
 ms.custom: bap-template
 ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
+ms.service: dynamics-365-business-central
 ---
 # Monitor Job Progress and Performance
 
@@ -139,8 +140,6 @@ All job-related entries are recorded in job registers and sequentially numbered,
 2. Select a relevant register, and then choose **Job Ledger** action.
 
 On the **Job Ledger Entries** page you can review the entries that are associated with any job.  
-
-## Find related [Microsoft training](/training/paths/calculate-post-job-wip/)
 
 ## See also
 

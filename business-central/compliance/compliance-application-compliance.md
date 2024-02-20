@@ -7,6 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 04/25/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
 # Application Compliance
@@ -81,7 +82,7 @@ Integrated information, aligned processes, and easy-to-use tools help your peopl
 
 ## Compliance and local functionality
 
-Microsoft builds localized versions of Business Central for a limited number of markets. These localizations primarily focus on regulatory features in the tax and financial areas but can sometimes involve other parts of the solution. If you want to see what is built in Microsoft's localized versions of Business Central, see **Local Functionality** in the menu on this website and choose a country. Learn more at [Local Functionality](../about-localization.md).  
+Microsoft builds localized versions of Business Central for a limited number of markets. These localizations primarily focus on regulatory features in the tax and financial areas but can sometimes involve other parts of the solution. If you want to see what is built in Microsoft's localized versions of Business Central, see **Local Functionality** in the menu on this website and choose a country/region. Learn more at [Local Functionality](../about-localization.md).  
 
 > [!NOTE]  
 > **Sarbanes-Oxley: Validating Data and Processes**  

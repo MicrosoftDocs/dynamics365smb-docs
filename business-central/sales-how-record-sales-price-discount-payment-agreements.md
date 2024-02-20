@@ -9,6 +9,7 @@ ms.date: 06/13/2023
 ms.custom: bap-template
 ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
+ms.service: dynamics-365-business-central
 ---
 
 # Record Special Sales Prices and Discounts
@@ -319,8 +320,6 @@ Proceed to set up the new sales invoice discount terms.
 3. In the **Minimum Amount** field, enter the minimum amount that an invoice must have to be eligible for the discount.
 4. In the **Discount %** field, enter the invoice discount as a percentage of the invoice amount.
 5. Repeat steps 5 through 7 for each currency that the customer will receive a different invoice discount for.
-
-## See related [Microsoft training](/training/modules/manage-sales-prices-dynamics-365-business-central/index)
 
 ## See also
 

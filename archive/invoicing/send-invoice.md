@@ -1,16 +1,14 @@
 ---
 title: New invoice | Invoicing
 description: Learn how to create and send invoices. You can add both the customer and the product or service on the fly, or choose from a list.
-author: edupont04
-
-ms.service: dynamics365-business-central
+author: brentholtorf
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Send an invoice to a new customer in [!INCLUDE[d365inv_long](includes/d365inv_long.md)]
 > [!Note]
@@ -35,7 +33,7 @@ When your customer then pays the invoice, you must mark the invoice as paid in [
 5. Close the page.  
 
 ## Tax on invoices
-Tax is calculated automatically based on the information that you specify. That means that you must make sure that you set up the right tax information in Settings, and that you have chosen the right tax rates for the customer or the items that you are selling. Depending on your country, the tax can be sales tax or value-added tax, for example.
+Tax is calculated automatically based on the information that you specify. That means that you must make sure that you set up the right tax information in Settings, and that you have chosen the right tax rates for the customer or the items that you are selling. Depending on your country/region, the tax can be sales tax or value-added tax, for example.
 
 For more information, see [Set up your business information](set-up-business-profile.md).
 

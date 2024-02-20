@@ -3,9 +3,9 @@ title: Set Up New Capacity
 description: Walkthrough to learn how to set up a new work center with a capacity calendar for a single shift in Business Central.
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
-author: edupont04
-ms.author: andreipa
+ms.service: dynamics-365-business-central
+author: brentholtorf
+ms.author: bholtorf
 ---
 
 # Walkthrough: Set Up New Capacity
@@ -32,7 +32,7 @@ You are the production planner at Contoso Coffee. In response to changes on the 
         |**Direct Unit Cost**|3.25|
         |**Unit Cost Calculation**|Time|
         |**Flushing Method**|Manual|
-        |**Gen. Prod. Posting Group**|NO VAT</br></br>Note that this selection depends on your accounting setup and country.|
+        |**Gen. Prod. Posting Group**|NO VAT</br></br>Note that this selection depends on your accounting setup and country/region.|
         |**Unit of Measure Code** |MINUTES|
         |**Capacity** |1|
         |**Efficiency** |90|

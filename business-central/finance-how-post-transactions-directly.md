@@ -1,18 +1,15 @@
 ---
 title: Record expenses or income directly in G/L
 description: For business activities that are not represented by a document you can create the related transactions by posting journal lines in the General Journal page.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: direct posting, general ledger
 ms.search.form: 39, 251
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Post Transactions Directly to the General Ledger
 

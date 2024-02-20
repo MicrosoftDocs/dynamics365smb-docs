@@ -1,17 +1,14 @@
 ---
 title: Posting Documents and Journals
 description: This topic outlines posting actions and the ways you can post documents and journals in the various company ledgers.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 06/24/2021
 ms.search.form: 
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Posting Documents and Journals
 

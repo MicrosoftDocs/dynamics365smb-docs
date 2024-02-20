@@ -4,12 +4,11 @@ description: Make your data available as a data source in Power BI and build pow
 author: jswymer
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 09/07/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
 # Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data
@@ -180,8 +179,6 @@ Starting in February 2022, new reports that use Business Central data will conne
 
 9. Select **Done**.
 10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
-
-## See related [Microsoft training](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## See Also
 

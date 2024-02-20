@@ -3,10 +3,10 @@ title: Run Tasks in the Background and Recurrently
 description: Configure synchronization of data between Business Central and Shopify in background.
 ms.date: 05/11/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.reviewer: solsen
-author: edupont04
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
 # Run Tasks in the Background

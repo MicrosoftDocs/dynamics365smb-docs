@@ -1,16 +1,14 @@
 ---
     title: Calculate Dates for Purchases
     description: This article describes how you can calculate dates for purchases. 
-    author: brentholtorf    
+    author: brentholtorf 
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
     ms.search.forms: 
     ms.date: 10/28/2022
     ms.author: bholtorf
-
+    ms.service: dynamics-365-business-central
 ---
 # Calculate Dates for Purchases
 
@@ -58,8 +56,6 @@ You can manually specify the date formula on lines. Otherwise, [!INCLUDE[prod_sh
 2. Item Card
 3. Stockkeeping Unit Card
 4. Vendor Card
-
-## See related [Microsoft training](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
 
 ## See also
 

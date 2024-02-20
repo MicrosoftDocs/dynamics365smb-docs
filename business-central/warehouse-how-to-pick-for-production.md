@@ -4,7 +4,7 @@ description: When your warehouse location requires that you process picks but no
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 12/16/2022
 ms.custom: bap-template
@@ -173,8 +173,6 @@ The following steps provide an example of the actions that different people take
  The following illustration shows when the **Bin Code** field on the component list is filled according to your location or machine/work center setup.  
 
 :::image type="content" source="media/binflow.png" alt-text="Overview of when and how the Bin Code field is filled in.":::
-
-## See related [Microsoft training](/training/paths/pick-ship-items-business-central/)
 
 ## See also
 

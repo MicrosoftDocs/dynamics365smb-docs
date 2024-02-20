@@ -4,7 +4,7 @@ description: Learn how to do physical counting and make adjustments and reclassi
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 12/20/2022
 ms.custom: bap-template
@@ -21,6 +21,8 @@ To change attributes on item ledger entries, use an item reclassification journa
 
 > [!NOTE]
 > In multi-step processes, items are registered in bins as warehouse entries, not as item ledger entries. Therefore, you do counting, adjusting, and reclassifying in warehouse journals that support bins. Then you synchronize the new or changed warehouse entries with their related item ledger entries to reflect the changes in inventory quantities and values.
+
+[!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
 ## To count physical inventory
 
@@ -201,8 +203,6 @@ Post the adjustment bin records in the item ledger for the periods you've define
 4. On the **Options** FastTab, fill in the **Document No.** field with a number that you enter manually. Because no number series has been set up for this batch job, use the number scheme set up by the warehouse, or enter the date followed by your initials.  
 5. Choose **OK**. The positive and negative adjustments are totaled for each item, and lines are created in the item journal.  
 6. Post the journal lines to enter the quantity differences in the item ledger. The inventories in the bins and the item ledger now matches.  
-
-## See related [Microsoft training](/training/modules/adjust-inventory/)
 
 ## See also
 

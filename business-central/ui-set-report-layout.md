@@ -3,13 +3,12 @@ title: Setting the Report Layout
 description: Learn how to set the layout that's used on a report when previewing and printing.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 08/12/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Setting the Layout Used by a Report
 
@@ -58,8 +57,6 @@ There are a few ways to set which layout a report uses. Each way has advantages,
 ## Revert to the original default layout
 
 Reports are designed to use a layout by default. You can switch back to the original default layout from **Report Layout Selection** page. Just select the report, then select the **Restore Default Selection** action at the top of the page.
-
-## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## See Also
 

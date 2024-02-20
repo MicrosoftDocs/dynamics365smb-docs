@@ -3,9 +3,9 @@ title: Set up and Process a Subcontracting Operation
 description: Walkthrough to learn how to set up and process a subcontracting operation in Business Central.
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
-author: edupont04
-ms.author: andreipa
+ms.service: dynamics-365-business-central
+author: brentholtorf
+ms.author: bholtorf
 ---
 
 # Set up and Process a Subcontracting Operation

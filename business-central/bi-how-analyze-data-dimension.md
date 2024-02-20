@@ -1,16 +1,14 @@
 ---
 title: Analyze Data by Dimensions
 description: This article describes how you can analyze business data by dimensions to gain greater insight into your business.
-author: edupont
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 545, 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 09/22/2022
-ms.author: edupont
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Analyze Data by Dimensions
 
@@ -73,8 +71,6 @@ Use the following procedure to update an analysis view from the **Analysis by Di
 
 > [!NOTE]  
 > To update some or all analysis views at the same time, you must use the **Update Analysis Views** batch job.  
-
-## See related training at [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
 
 ## See also
 

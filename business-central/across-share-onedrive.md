@@ -3,11 +3,11 @@ title: Opening Business Central Files in OneDrive
 description: Learn how you can share Business Central data through OneDrive for Business. 
 author: jswymer
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords:
 ms.date: 08/03/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 # Opening and Sharing Business Central Files in Microsoft OneDrive
 
@@ -77,10 +77,10 @@ If a file with the same name already exists in OneDrive, you'll be given the fol
   
 - **Replace**
   
-  This option replaces the existing file in OneDrive with the file you selected from Business Central. The original file isn't lost&mdash;you can see and restore it using the version history in OneDrive. Learn more at [Restore a previous version of a file stored in OneDrive](https://support.microsoft.com/office/restore-a-previous-version-of-a-file-stored-in-onedrive).
+  This option replaces the existing file in OneDrive with the file you selected from Business Central. The original file isn't lost&mdash;you can see and restore it using the version history in OneDrive. Learn more at [Restore a previous version of a file stored in OneDrive](https://support.microsoft.com/office/restore-a-previous-version-of-a-file-stored-in-onedrive-159cad6d-d76e-4981-88ef-de6e96c93893).
 
 - **Keep both**
- 
+
   This option keeps the existing file as-is and saves the file you selected from Business Central under a different name. The new name is similar to the existing name, except with a suffix number such  “Items (2).xlsx”.
 
 ## About your Business Central folder on OneDrive

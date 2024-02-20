@@ -3,17 +3,15 @@ title: Personalizing the Way Information is Displayed for a User Account | Micro
 description: Describes how to customize the look and feel of Business Central for your user account.
 services: project-madeira
 documentationcenter: ''
-author: SorenGP
-
+author: brentholtorf
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize
-ms.date: 03/29/2017
-ms.author: sgroespe
-
+ms.date: 12/05/2023
+ms.author: bholtorf
 ---
 <!-- # User Personalization
 You can change how certain UI elements are displayed in your version of [!INCLUDE[d365fin](includes/d365fin_md.md)] to best serve your needs.

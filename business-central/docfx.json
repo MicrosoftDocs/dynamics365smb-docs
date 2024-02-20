@@ -24,8 +24,8 @@
           "**/*.png",
           "**/*.jpg",
           "**/*.gif",
-          "**/*.pdf"
-
+          "**/*.pdf",
+          "**/*.svg"
         ],
         "exclude": [
           "**/obj/**",
@@ -45,15 +45,14 @@
         "dynamics365-bc-app",
         "Dynamics 365",
         "BusinessCentral"],
-      "uhfHeaderId": "MSDocsHeader-Dynamics365",
+      "uhfHeaderId": "MSDocsHeader-Dynamics365-BusinessCentral",
       "titleSuffix": "Business Central",
       "search.app": [
 	"businesscentral",
 	"businesscentral-docs"],
       "search.audienceType": "enduser, admin",
       "breadcrumb_path": "/dynamics365/business-central/breadcrumb/toc.json",
-      "ms.service": "dynamics365-business-central",
-      "extendBreadcrumb": true,
+      "ms.service": "dynamics-365-business-central",
       "recommendations": "true"
     },
     "fileMetadata": {
@@ -67,7 +66,7 @@
 	  "across-how-to-**approval**.md": ["dynamics365-bc-app","Dynamics365","approval","workflow","BusinessCentral"], 
       },
       "ms.service":{
-        "**.*": "dynamics365-business-central"
+        "**.*": "dynamics-365-business-central"
       }
     },
     "template": [],

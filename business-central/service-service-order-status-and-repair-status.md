@@ -1,17 +1,14 @@
 ---
     title: Service Order Status and Repair Status
     description: The service order status reflects the repair status of all the service items in the service order.
-    author: SorenGP
-
-    
+    author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 04/01/2021
-    ms.author: edupont
+    ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Service Order Status and Repair Status
 

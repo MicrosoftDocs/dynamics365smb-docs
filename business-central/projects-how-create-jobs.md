@@ -23,7 +23,13 @@ The layer structure enables you to divide the project into smaller tasks, and th
 > [!TIP]
 > Choose the **New Job** action on the **Project Manager** Role Center to launch an assisted setup guide that takes you through the steps of creating a project with integrated tasks and planning lines. The following procedure describes how to perform the steps manually. For an example of how to create a project manually, see [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
 
-Sometimes the party that is receiving a service is different from the party that is paying the bill. On the **Jobs** page, you can specify the customer who will benefit from the project in the **Sell-to** fields, and the party to invoice in the **Bill-to** fields. You can also provide the following information: 
+## Invoice one or more customers
+
+Sometimes the party that is receiving a service is different from the party that is paying the bill. Also, sometimes you might need to invoice multiple customers for the tasks in the project. On the **Project Card** page, use the **Task Billing Method** field to specify whether you're billing one customer, or multiple customers. 
+
+If the customer who is receiving the service will also pay the bill, in the **Bill-to** and **Ship-to** fields, choose **Default (Customer)** and **Default (Sell-to Address)**.  
+
+If you're billing multiple customers, you can specify the customer who will receive the service and the customer to invoice for each task in the project. You can also provide the following information: 
 
 * Where the work will happen by selecting from a list of ship-to addresses for the customer.
 * Add information about external references to simplify communication about the project.

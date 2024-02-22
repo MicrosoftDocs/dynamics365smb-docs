@@ -5,9 +5,10 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.collection: 
 ms.date: 11/30/2023
 ms.custom: bap-template 
+ms.collection:
+  - bap-ai-copilot
 ---
 
 # Copilot data movement across geographies 
@@ -32,7 +33,7 @@ The following table shows the Azure OpenAI Service's geography used by Copilot, 
 |Australia (South East)| United States |Yes |
 |Brazil (South) |United States|Yes|
 |Canada (Central, East)|United States|Yes|
-|Europe (West, North)| Sweden or Switzerland |Yes|
+|Europe (West, North)| Sweden or Switzerland |No\*|
 |France (Central, South)| Sweden or Switzerland |Yes|
 |Germany (North, West Central)| Sweden or Switzerland |Yes|
 |India (Central, South)|United States|Yes|
@@ -45,8 +46,10 @@ The following table shows the Azure OpenAI Service's geography used by Copilot, 
 |United Kingdom (South, West)|United Kingdom|Yes|
 |United States (Central, East, North Central, South Central, West) |United States|No|
 
+\* For environments in West Europe and North Europe Azure regions, Business Central automatically opts in to data movement across geographies, but administrators can choose to opt out at any time.
+
 > [!NOTE]
-> Once an Azure OpenAI Service becomes available in your  Business Central geography, your environment will automatically transition to use the Azure OpenAI Service and opting in isn't required or even possible.  
+> Once an Azure OpenAI Service becomes available in your Business Central geography, your environment will automatically transition to use the Azure OpenAI Service and opting in isn't required or even possible.
 <!--
 
 BC geos base on https://dynamics.microsoft.com/en-us/availability-reports/georeport/
@@ -108,4 +111,4 @@ case "AUSTRALIAEAST":
 
 ## Next steps
 
-You opt in to allow data movement across geographies from the [Copilot & AI Capabilities](https://businesscentral.dynamics.com/?page=7775) page. To learn more, go to [Allow data movement across geographies](enable-ai.md#allow-data-movement-across-geographies).
+You opt in to (or out of) data movement across geographies from the [Copilot & AI Capabilities](https://businesscentral.dynamics.com/?page=7775) page. To learn more, go to [Allow data movement across geographies](enable-ai.md#allow-data-movement-across-geographies).

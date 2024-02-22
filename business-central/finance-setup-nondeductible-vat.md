@@ -4,7 +4,7 @@ description: This article explains how to configure non-deductible VAT in Micros
 author: altotovi
 ms.author: altotovi
 ms.reviewer: 
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: VAT, non-deductible, setup
 ms.search.form: 187, 472, 473

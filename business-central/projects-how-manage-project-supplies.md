@@ -3,14 +3,13 @@ title: Manage Job Supplies
 description: Describes the different ways to to manage the supply and purchase of material and services for projects.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: project management, material, purchase
 ms.search.form: 98, 1020 
 ms.date: 06/22/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Manage Job Supplies
 Managing project supplies of items, services, and expenses is an integral and critical aspect of the execution of all projects. You can use inventory quantities or make project-specific purchases using purchase orders or purchase invoices. For example, a service project on a computer requires a new disk. You create a purchase invoice to buy a new disk and record the project that it will be used on.

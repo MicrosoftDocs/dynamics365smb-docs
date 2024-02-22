@@ -2,7 +2,7 @@
 title: Czech local functionality - Fixed assets depreciation holiday
 description: This function enables user to discontinue depreciation for selected fixed assets and for specified periods.
 author: v-pejano
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
 ms.date: 11/13/2023

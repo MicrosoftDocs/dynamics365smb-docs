@@ -3,14 +3,13 @@ title: Creating G/L Budgets
 description: Describes how to create G/L budgets to forecast different financial activities and assign dimensions for business intelligence purposes.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: postpone
 ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
 ms.date: 08/24/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Create G/L Budgets
 

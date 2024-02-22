@@ -4,7 +4,7 @@ description: Learn about the different ways to use warehouse put-aways to put aw
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 09/19/2023
 ms.custom: bap-template

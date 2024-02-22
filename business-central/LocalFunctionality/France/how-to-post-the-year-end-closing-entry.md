@@ -3,13 +3,12 @@
     description: This article tells you how to post the year-end closing entries after you use the Close Income Statement batch job.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/18/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Post the Year-End Closing Entry in the French Version
 

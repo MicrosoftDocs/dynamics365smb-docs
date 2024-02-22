@@ -7,6 +7,7 @@ ms.search.keywords: Czech, Advance payment, Advance invoices, Payables, Finance,
 ms.date: 06/24/2021
 ms.reviewer: v-pejano
 ms.author: v-makune
+ms.service: dynamics-365-business-central
 ---
 
 # Advance Payments and Invoices in the Czech Version

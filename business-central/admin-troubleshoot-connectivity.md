@@ -3,13 +3,12 @@ title: Troubleshoot connectivity
 description: Describes how to use the Troubleshoot Connectivity page to identify and fix problems connecting to Business Central online.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: connectivity, troubleshooting, connection problems
 ms.date: 11/24/2023
 ms.author: jswymer
 ROBOTS: NOINDEX
+ms.service: dynamics-365-business-central
 ---
 
 # Troubleshoot connectivity for Business Central

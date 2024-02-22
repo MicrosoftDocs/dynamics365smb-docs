@@ -10,6 +10,7 @@ ms.search.form: 256,
 ms.date: 12/04/2023
 ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # Suggest Vendor Payments
 

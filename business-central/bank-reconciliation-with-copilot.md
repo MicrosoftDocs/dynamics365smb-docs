@@ -5,7 +5,9 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to 
-ms.collection: get-started
+ms.collection:
+  - get-started
+  - bap-ai-copilot
 ms.date: 10/25/2023
 ms.custom: bap-template 
 ---
@@ -107,11 +109,6 @@ In the **Matched Proposals** section, review the suggested matches line by line,
 - To discard a single proposed match, select it in the list, and then select the **Delete Line** action.
 
 - To discard all proposed matches and close the Copilot window, select the discard button (trash can) ![Shows the trash can icon for deleting all Copilot proposal for bank account reconciliation](media/copilot-delete-trash-can.png) next to the **Keep it** button at the bottom of the window.
-
-   > [!NOTE]
-   > If you started Copilot from the **Bank Acc. Reconciliation** card for a new or existing reconciliation, only the Copilot proposed matches are deleted. The matches made by the automatch operation are already saved.
-   > 
-   > If you started Copilot from the **Bank Account Reconciliations** list, nothing is saved, including the imported bank statement lines, automatches, and Copilot proposed matches.
 
 - To post the fully matched reconciliation automatically when you save it, turn on the **Post if fully applied** switch.  
 - To save the matches currently shown in the Copilot window, select **Keep it**.

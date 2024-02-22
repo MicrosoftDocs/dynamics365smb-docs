@@ -2,7 +2,7 @@
 title: Czech Local Functionality - Supplementary VAT Statement
 description: This feature allows calculation and printing VAT statement for different VAT statements posted and submitted in one VAT period.
 author: v-makune
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, VAT, Localization, CZ
 ms.date: 11/07/2023

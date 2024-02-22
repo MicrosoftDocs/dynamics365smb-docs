@@ -3,14 +3,13 @@ title: Set Up Resources, Time Sheets, and Jobs
 description: This topic outlines how to set up resources, time sheets, to manage projects and their budgets.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: projects
 ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Setting Up Project Management
 

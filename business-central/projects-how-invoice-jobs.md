@@ -3,14 +3,13 @@ title: Create a Job Sales Invoice to Invoice a Job
 description: Describes how to invoice customers for project expenses as a project progresses and costs accumulate.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: project invoice
 ms.search.form: 1002, 1007, 
 ms.date: 06/22/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Invoice Jobs
 

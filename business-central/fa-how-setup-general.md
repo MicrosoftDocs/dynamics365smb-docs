@@ -3,13 +3,12 @@ title: Set Up General FA Information
 description: Before you work with fixed assets, you must set up default G/L accounts, posting groups, allocation keys, journal templates and batches, and class codes.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up General Fixed Assets Information
 

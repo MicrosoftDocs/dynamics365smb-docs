@@ -4,7 +4,7 @@ description: Learn about using journals to post financial transactions to genera
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 08/29/2023
 ms.custom: bap-template

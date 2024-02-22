@@ -10,6 +10,7 @@ ms.search.form: 389, 10120,10121,10122,10123,10124,10125,10126,10127,10128,10129
 ms.date: 09/26/2023
 ms.custom: bap-template    
 
+ms.service: dynamics-365-business-central
 ---
 # Reconciling Bank Accounts in the US Version
 

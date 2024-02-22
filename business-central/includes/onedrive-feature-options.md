@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 |Option|Description|
 |------|----------|
 |**Use OneDrive for app features**|If you turn on this option, the **Open in OneDrive** and **Share** actions are made available on files in Business Central, like files attached to documents or in the Report Inbox. These actions let users copy, open, and share files in OneDrive. <ul><li>Business Central features that store or capture documents and other files, and offer Open in OneDrive and Share actions to bring those files out of Business Central, such as Incoming Documents and record attachments.</li><li>Line of business features that generate custom Excel workbooks, such as Sales Budgets.</li><li>Reports sent to the Report Inbox</li><li>If you have installed any customizations or extensions, these may add more features that use OneDrive.</li></ul>For more information, see [Opening and Sharing Business Central Files in OneDrive](../across-share-onedrive.md).

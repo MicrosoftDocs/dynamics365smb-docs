@@ -3,13 +3,12 @@ title: WIP Methods for Calculating and Recording Job Progress
 description: Describes the different work in process (WIP) methods you can use to post, monitor, and calculate financial information for projects that are in progress.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Understanding WIP Methods in Project Management
 

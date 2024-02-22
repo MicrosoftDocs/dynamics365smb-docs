@@ -10,6 +10,7 @@ ms.search.forms: 5737, 5735, 5736
 ms.date: 10/02/2023
 ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # Use Item References
 

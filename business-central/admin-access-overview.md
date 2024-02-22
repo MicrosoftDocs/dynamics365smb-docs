@@ -7,6 +7,7 @@ ms.reviewer: jswymer
 ms.topic: overview
 ms.date: 04/04/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
 # Manage Access to Business Central

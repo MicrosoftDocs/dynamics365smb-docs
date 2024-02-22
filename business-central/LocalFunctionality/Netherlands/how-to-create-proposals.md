@@ -3,12 +3,11 @@
     description: Proposals can be generated manually or automatically based on either vendor or customer ledger entries.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 04/01/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Create Proposals
 Proposals can be generated manually or automatically based on either vendor or customer ledger entries.  

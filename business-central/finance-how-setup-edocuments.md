@@ -3,13 +3,12 @@ title: Set up e-documents
 description: Learn how to set up e-documents functionality.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice
 ms.search.form: 359, 360, 6103, 6133
 ms.date: 10/05/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
 # Set up e-documents
@@ -70,7 +69,11 @@ Follow these steps to set up the E-Document Service.
 
 If you've configured the **Data Exchange Definition** format in your localization, you can add a line for every document type that you need. Add lines that match the default data exchange example for the W1 PEPPOL format. However, first select the **Document Type** option for each line that you need. For each data type, select the **Import Data Exchange Def. Code** or **Export Data Exchange Def. Code** value that you want to use.
 
-If you don't use the **Data Exchange Definition** format, you can create and configure formats by using the [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Adjust the information on the **Export Mapping** and **Import Mapping** lines, where you can find the tables and fields to configure transformation rules. In this case, you must add a new option in the **Document Format** field that's related to your format.
+If you don't use the **Data Exchange Definition** format, you can create and configure formats by using the [interface](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Adjust the information on the **Export Mapping** and **Import Mapping** lines, where you can find the tables and fields to configure transformation rules. In this case, you must add a new option in the **Document Format** field that's related to your format.  
+
+### Supported document types 
+
+Supported document types are based on the chosen **Document Format**. To check which document types are supported, on the **E-Document Service** page, run the **Supported Document Types** action. The **E-Document Service Supported Source Document Types** opens and in the **Source Document Type** column, you can find all the supported document types.  
 
 ## Set up a document sending profile
 

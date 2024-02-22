@@ -16,7 +16,7 @@ ms.collection:
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-This article explains how to use chat with Copilot to get answers about your company data and assistance with tasks and a subject matter.​
+This article explains how to use chat with Copilot to get answers about your company data and assistance with tasks and subject matters related to Business Central.​
 
 ## About chat with Copilot
 

@@ -18,7 +18,7 @@ This article describes how to use time sheets to track absence, and to track tim
 
 You can copy and use your project planning lines in a time sheet. In that way, you must only enter the information in one place and the line information is always correct. To learn more, go to [To copy project planning lines to a time sheet](#copy-project-planning-lines-to-a-time-sheet).
 
-After you approve time sheet entries for a job, you can post them to the relevant project journal or resource journal. To learn more, go to [To post time sheet lines in a project journal](#post-time-sheet-lines-in-a-project-journal) and [To post time sheet lines in a resource journal](#post-time-sheet-lines-in-a-resource-journal).
+After you approve time sheet entries for a project, you can post them to the relevant project journal or resource journal. To learn more, go to [To post time sheet lines in a project journal](#post-time-sheet-lines-in-a-project-journal) and [To post time sheet lines in a resource journal](#post-time-sheet-lines-in-a-resource-journal).
 
 Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets. To learn more about setting up time sheets, go to [Set Up Time Sheets](projects-how-setup-time-sheets.md).  
 
@@ -167,11 +167,11 @@ After you approve or reject a time sheet, it can't be modified unless it's first
 On a project, you can specify a person who is responsible for the project. That information is linked to time sheet lines. The link gives project managers a list of the time sheets to approve. For example, the team's project manager might be responsible for certain projects in your company. In that case, the manager should be designated as the **Person Responsible** on the Project Card page. This view of time sheet information shows the project tasks associated with a project and the quantity of hours used.
 
 > [!NOTE]
-> To approve time sheets on the **Manager Time Sheet by Job** page, you must first select a **Time Sheet by Job Approval** option in the **Resources Setup** page. To learn how to set up approvals for resources, go to [Set Up Resources](projects-how-setup-resources.md).
+> To approve time sheets on the **Manager Time Sheet by Project** page, you must first select a **Time Sheet by Project Approval** option in the **Resources Setup** page. To learn how to set up approvals for resources, go to [Set Up Resources](projects-how-setup-resources.md).
 
 ### Approve or reject a time sheet by project
 
-1. In the **Search** box, enter **Manager Time Sheet by Project**, and then choose the related link. [!INCLUDE[prod_short](includes/prod_short.md)] displays a list of time sheet lines associated with the jobs for which you're responsible.
+1. In the **Search** box, enter **Manager Time Sheet by Project**, and then choose the related link. [!INCLUDE[prod_short](includes/prod_short.md)] displays a list of time sheet lines associated with the projects for which you're responsible.
 2. Choose the **Approve** action, and then choose the **All submitted lines** action to approve all lines or the **Selected lines only** action to approve only the lines that are selected on the **Time Sheet** page.
 
     > [!NOTE]

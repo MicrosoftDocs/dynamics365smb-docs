@@ -12,7 +12,7 @@ ms.custom: bap-template
 ---
 # Use resources for projects
 
-You record the usage of resources in the project journal to keep track of costs, prices, and the work types that are linked to projects. For more information, see [Record Usage for Jobs](projects-how-record-job-usage.md).
+You record the usage of resources in the project journal to keep track of costs, prices, and the work types that are linked to projects. For more information, see [Record Usage for Projects](projects-how-record-job-usage.md).
 
 > [!NOTE]
 > You can also purchase external resources, for example, to invoice a vendor for work delivered. For more information, see [Record Purchases](purchasing-how-record-purchases.md).

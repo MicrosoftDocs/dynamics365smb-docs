@@ -47,12 +47,12 @@ Create a project WIP method that meets the needs of your organization and set it
 When you create a new project, you must specify which project WIP method applies. In some cases, the project WIP method you use is already set as the default.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, then choose the related link.
-2. Choose the **New** action. Learn more at [Create Jobs](projects-how-create-jobs.md).  
+2. Choose the **New** action. Learn more at [Create Projects](projects-how-create-jobs.md).  
 3. On the **Project Card** page, in the **WIP Method** field, select a WIP method from the list. If a default method has been defined, you can select another option if needed.  
 
 ### Define a WIP method for a project task
 
-You can define a WIP method for a project task, exclude some project tasks from WIP calcualtion, or group tasks to be calcualted together. 
+You can define a WIP method for a project task, exclude project tasks from WIP calcualtion, or group tasks to be calculated together. 
 
 If you want to calculate WIP for each project task individually, WIP posting provides defined dimensions for the specific tasks.
 

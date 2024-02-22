@@ -41,7 +41,7 @@ With this option, you follow the standard invoicing procedure with all the benef
 
 However, for each new customer, you must create a new project and add lines to the recurring journal. 
 
-For more information, see [Create project journal lines](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) and [Create multiple project sales invoices](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
+For more information, see [Create project journal lines](projects-how-record-job-usage.md#to-create-project-journal-lines-manually) and [Create multiple project sales invoices](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices).
 
 ## Create multiple invoices based on recurring sales lines
 
@@ -107,8 +107,8 @@ At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get exte
 
 [Date Formulas](ui-enter-date-ranges.md#use-date-formulas)  
 [Work with Recurring Journals](ui-work-general-journals.md#work-with-recurring-journals)  
-[Create project journal lines](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
-[Create multiple project sales invoices](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
+[Create project journal lines](projects-how-record-job-usage.md#to-create-project-journal-lines-manually)  
+[Create multiple project sales invoices](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices)  
 [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)  
 [Work with Service Contracts and Service Contract Quotes](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Invoice several service contracts](service-how-create-invoices.md#to-invoice-several-service-contracts)  

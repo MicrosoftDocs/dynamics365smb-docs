@@ -62,9 +62,9 @@ For locations that use bins, you can extend the flow to jobs with **Inventory Mo
 > [!NOTE]
 > The ability to pick components for project planning lines was added to [!INCLUDE[d365fin](includes/d365fin_md.md)] in 2022 release wave 2. To start using the capability, an administrator must turn on **Feature Update: Enable inventory and warehouse pick from Jobs** on the **Feature Management** page.
 >
-> [!INCLUDE[prod_short](includes/prod_short.md)] uses the value in the **Remaining Quantity** field on the project planning line when it creates inventory picks. To use inventory picks for jobs, you must turn on the **Apply Usage Link** toggle on the **Project Card** page for the job. This lets you track usage against your plan. If you don't turn on the toggle, the remaining quantity will stay at **0** and the inventory pick won't be created. Learn more at [To set up job usage tracking](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
+> [!INCLUDE[prod_short](includes/prod_short.md)] uses the value in the **Remaining Quantity** field on the project planning line when it creates inventory picks. To use inventory picks for jobs, you must turn on the **Apply Usage Link** toggle on the **Project Card** page for the job. This lets you track usage against your plan. If you don't turn on the toggle, the remaining quantity will stay at **0** and the inventory pick won't be created. Learn more at [To set up project usage tracking](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
 
-## Pick or move for production, assembly, and jobs in a basic warehouse configuration
+## Pick or move for production, assembly, and projects in a basic warehouse configuration
 
 You can create an inventory pick or inventory movement in three ways:  
 

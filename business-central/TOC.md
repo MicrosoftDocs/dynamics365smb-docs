@@ -549,15 +549,15 @@ ms.service: dynamics-365-business-central
 ## Project management
 ### [Project management overview](projects-manage-projects.md)
 ### [Project reports](project-reports.md)
-### [Create jobs](projects-how-create-jobs.md)
+### [Create projects](projects-how-create-jobs.md)
 ### [Use resources for projects](projects-how-use-resources.md)
 ### [Use time sheets](projects-how-use-time-sheets.md)
-### [Manage job budgets](projects-how-manage-budgets.md)
-### [Record usage for jobs](projects-how-record-job-usage.md)
-### [Manage job supplies](projects-how-manage-project-supplies.md)
+### [Manage project budgets](projects-how-manage-budgets.md)
+### [Record usage for project](projects-how-record-job-usage.md)
+### [Manage project supplies](projects-how-manage-project-supplies.md)
 ### [Understand WIP methods](projects-understanding-wip.md)
-### [Monitor job progress and performance](projects-how-monitor-progress-performance.md)
-### [Invoice jobs](projects-how-invoice-jobs.md)
+### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
+### [Invoice projects](projects-how-invoice-jobs.md)
 
 ## Fixed assets
 ### [Fixed assets overview](fa-manage.md)
@@ -1584,10 +1584,10 @@ ms.service: dynamics-365-business-central
 #### [Categorize items](inventory-how-categorize-items.md)
 #### [Import multiple item pictures](inventory-how-import-item-pictures.md)
 ### Set up project management
-#### [Set up projects](projects-setup-projects.md)
+#### [Set up project management](projects-setup-projects.md)
 #### [Set up resources](projects-how-setup-resources.md)
 #### [Set up time sheets](projects-how-setup-time-sheets.md)
-#### [Set up jobs](projects-how-setup-jobs.md)
+#### [Set up projects](projects-how-setup-jobs.md)
 ### Set up fixed assets
 #### [Set up fixed assets](fa-setup.md)
 #### [Set up general fixed assets information](fa-how-setup-general.md)
@@ -1775,8 +1775,8 @@ ms.service: dynamics-365-business-central
 
 ### Project
 #### [Project reports](project-reports.md)
-#### [View job usage estimates](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
-#### [Monitor job progress and performance](projects-how-monitor-progress-performance.md)
+#### [View project usage estimates](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
+#### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 
 ### Fixed assets
 #### [Fixed assets reports](fa-reports.md)

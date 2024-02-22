@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 You can set up a budget for each project. The budget is used to plan the resources that you allocate to a project. The budget can be either general with few entries or it can contain more entries that are divided into activity levels. You can then compare the budgeted amounts with the actual usage as recorded in the project journal. By monitoring differences between actual usage and budgeted usage, you can control an ongoing project and improve the quality of future projects by reducing the risk of underestimating costs.
 
-The following procedure describes how to estimate budgeted costs during planning. For information about recording budgeted versus actual project prices and costs, see [Record Usage for Jobs](projects-how-record-project-usage.md).  
+The following procedure describes how to estimate budgeted costs during planning. For information about recording budgeted versus actual project prices and costs, see [Record Usage for Projects](projects-how-record-job-usage.md).  
 
 ## <a name="JobBudgetCosts"></a> To estimate the budgeted costs for a project
 
@@ -42,7 +42,7 @@ For the **Line Type** field, refer to the following information.
 
 On the **Project Card** page, you can now see a summary of the total budgeted costs, budgeted price, billable cost and billable price for each task.
 
-For information about recording budgeted versus actual project prices and costs, see [Record Usage for Projects](projects-how-record-project-usage.md).
+For information about recording budgeted versus actual project prices and costs, see [Record Usage for Projects](projects-how-record-job-usage.md).
 
 ## See also
 

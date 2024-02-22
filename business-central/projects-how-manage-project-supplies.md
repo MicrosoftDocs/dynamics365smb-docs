@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 You should manage project supplies of items, services, and expenses as an integral and critical aspect of all projects. You can use inventory quantities or make project-specific purchases through purchase orders or purchase invoices. For example, a service project on a computer requires a new disk. You create a purchase invoice to buy a new disk and record the project that uses it.
 
-If the purchase process doesn't require you to record the physical transaction separately, you can process a purchase on the **Project G/L Journal** page. For more information, see [To post a project-related expense](projects-how-manage-project-supplies.md#to-post-a-job-related-expense).
+If the purchase process doesn't require you to record the physical transaction separately, you can process a purchase on the **Project G/L Journal** page. For more information, see [To post a project-related expense](projects-how-manage-project-supplies.md#to-post-a-project-related-expense).
 
 ## To purchase items or services for a project
 

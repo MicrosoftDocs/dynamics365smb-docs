@@ -39,7 +39,7 @@ After you set up usage tracking by turning on the **Apply Usage Link by Default*
 >[!NOTE]
 > If the **Apply Usage Link** is chosen on the project, and the **Line Type** field on the project journal line or purchase line is **Billable**, new project planning lines of the line type **Both Budget and Billable** are created when you post the project journal or purchase document.  
 >
-> For more information, see [Record Usage for Projects](projects-how-record-project-usage.md) and [Manage Project Supplies](projects-how-manage-project-supplies.md)
+> For more information, see [Record Usage for Projects](projects-how-record-job-usage.md) and [Manage Project Supplies](projects-how-manage-project-supplies.md)
 
 > [!IMPORTANT]
 > If you don't specify a value in the **Line Type** field on the project journal line or purchase line, project planning lines aren't created when you post the project journal or purchase document.

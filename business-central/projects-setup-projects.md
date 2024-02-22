@@ -21,7 +21,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 | To | See |
 | --- | --- |
-| Set up project management.|[Set general information for projects](projects-how-setup-jobs.md#to-set-general-information-for-jobs)|
+| Set up project management.|[Set general information for projects](projects-how-setup-jobs.md#to-set-general-information-for-projects)|
 | Set up your resources and the related costs and prices, either for individual resources, resource groups, or for all available resources of the company. |[Set Up Resources](projects-how-setup-resources.md) |
 | Enable resources to report time usage for an individual or a machine and enable a manager to review the usage and its allocation. |[Set Up Time Sheets](projects-how-setup-time-sheets.md) |
 | Create project cards and prepare project tasks. Set up prices for project items and project resources and define project posting groups. |[Set Up Projects](projects-how-setup-jobs.md) |

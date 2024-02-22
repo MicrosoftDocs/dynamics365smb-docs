@@ -47,7 +47,7 @@ Create a project WIP method that meets the needs of your organization and set it
 When you create a new project, you must specify which project WIP method applies. In some cases, the project WIP method you use is already set as the default.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, then choose the related link.
-2. Choose the **New** action. Learn more at [Create Jobs](projects-how-create-projects.md).  
+2. Choose the **New** action. Learn more at [Create Jobs](projects-how-create-jobs.md).  
 3. On the **Project Card** page, in the **WIP Method** field, select a WIP method from the list. If a default method has been defined, you can select another option if needed.  
 
 ### Define a WIP method for a project task
@@ -143,7 +143,7 @@ On the **Project Ledger Entries** page you can review the entries that are assoc
 
 ## See also
 
-[Walkthrough - Calculating Work in Process for a Project](walkthrough-calculating-work-in-process-for-a-project.md)
+[Walkthrough - Calculating Work in Process for a Project](walkthrough-calculating-work-in-process-for-a-job.md)
 [Managing Projects](projects-manage-projects.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Finance](finance.md)  

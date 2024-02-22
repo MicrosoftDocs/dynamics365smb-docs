@@ -2,16 +2,16 @@
 title: Set Up Project Resource Costs, Prices, and Capacity
 description: To use resources and facilitate project management, you specify costs and prices for individual resources or resource groups, and set the resource capacity.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
-ms.date: 04/01/2021
-ms.author: bholtorf
-
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Set Up Resources for Projects
+# Set up resources for projects
 
 To correctly manage resource activities, you must set up your resources and the related costs and prices. The project-related prices, discounts, and cost factor rules are set up on the project card. You can specify the costs and prices for individual resources, resource groups, or all available resources of the company.
 
@@ -43,7 +43,7 @@ You can combine several resources in one resource group. All capacities and budg
 
 ## To set capacity for a resource
 
-To calculate how much time a resource can spend on projects, their capacity must first be set up as available time per period on the work calendar. This setup is used when you fill in project planning lines that contain the resource. For more information, see [Create Jobs](projects-how-create-projects.md).
+To calculate how much time a resource can spend on projects, their capacity must first be set up as available time per period on the work calendar. This setup is used when you fill in project planning lines that contain the resource. For more information, see [Create Projects](projects-how-create-projects.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.
 2. Open the relevant resource card, and then choose the **Resource Capacity** action.

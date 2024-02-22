@@ -93,7 +93,7 @@ When you enable the **New sales pricing experience** feature update on the **Fea
   * Job sales
   * Job purchases
 
-  You can edit all prices for these areas on the **Prices Worksheet** page. The default price lists will be set on the **Sales & Receivables Setup**, **Purchases & Payables Setup,** and **Jobs Setup** pages.
+  You can edit all prices for these areas on the **Prices Worksheet** page. The default price lists will be set on the **Sales & Receivables Setup**, **Purchases & Payables Setup,** and **Projects Setup** pages.
 
 > [!NOTE]
 > If prices are set only on item or resource cards, default price lists will not be filled in with those prices during the data update. However, you can open any of the default price lists or the **Price Worksheet** page and use the **Suggest Lines** action to add the prices set on item or resource cards.
@@ -107,7 +107,7 @@ When you enable the **New sales pricing experience** feature update on the **Fea
 
 If you have many combinations, you'll have many price lists.
 
-If you've already enabled the New Pricing Experience, you can create default price lists manually or specify an existing price list as the default. To set an existing price list as default, turn on the **Allow Updating Defaults** toggle on the price list. Then, on the **Sales & Receivables Setup**, **Purchase & Payables**, or **Jobs Setup** pages, set the price list as the default.
+If you've already enabled the New Pricing Experience, you can create default price lists manually or specify an existing price list as the default. To set an existing price list as default, turn on the **Allow Updating Defaults** toggle on the price list. Then, on the **Sales & Receivables Setup**, **Purchase & Payables**, or **Projects Setup** pages, set the price list as the default.
 
 ### Editing active price lists
 

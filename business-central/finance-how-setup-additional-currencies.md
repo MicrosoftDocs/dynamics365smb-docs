@@ -114,7 +114,7 @@ After running the batch job, amounts on the following existing entries will be i
 - General ledger entries  
 - Item application entries  
 - VAT entries  
-- Job ledger entries  
+- Project ledger entries  
 - Value entries  
 - Production order lines  
 - Production order ledger entries  

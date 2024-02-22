@@ -141,7 +141,7 @@ Field 480 is editable in the following tables.
 |89|**BOM Journal Line**|  
 |96|**G/L Budget Entry**|  
 |207|**Res. Journal Line**|  
-|210|**Job Journal Line**|  
+|210|**Project Journal Line**|  
 |221|**Gen. Jnl. Allocation**|  
 |246|**Requisition Line**|  
 |295|**Reminder Header**|  
@@ -167,7 +167,7 @@ Field 480 exists in the following buffer tables.
 |Table No.|Table Name|  
 |---------------|----------------|  
 |49|**Invoice Post. Buffer**|  
-|212|**Job Posting Buffer**|  
+|212|**Project Posting Buffer**|  
 |372|**Payment Buffer**|  
 |382|**CV Ledger Entry Buffer**|  
 |461|**Prepayment Inv. Line Buffer**|  

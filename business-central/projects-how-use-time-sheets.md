@@ -1,6 +1,6 @@
 ---
 title: Use time sheets
-description: Learn how to create, submit, approve, and post time sheets for resources, jobs, and services.
+description: Learn how to create, submit, approve, and post time sheets for resources, projects, and services.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
@@ -14,11 +14,11 @@ ms.custom: bap-template
 ---
 # Use time sheets
 
-This article describes how to use time sheets to track absence, and to track time and resources that are spent on a project. Tracking time helps you identify issues early and avoid delays or cost overruns. Time sheets make it easy for a resource to report time usage for an individual or a machine so that managers can review the usage and its allocation. 
+This article describes how to use time sheets to track absence, and to track time and resources that are spent on a project. Tracking time helps you identify issues early and avoid delays or cost overruns. Time sheets make it easy for a resource to report time usage for an individual or a machine so that managers can review the usage and its allocation.
 
 You can copy and use your project planning lines in a time sheet. In that way, you must only enter the information in one place and the line information is always correct. To learn more, go to [To copy project planning lines to a time sheet](#copy-project-planning-lines-to-a-time-sheet).
 
-After you approve time sheet entries for a job, you can post them to the relevant job journal or resource journal. To learn more, go to [To post time sheet lines in a job journal](#post-time-sheet-lines-in-a-job-journal) and [To post time sheet lines in a resource journal](#post-time-sheet-lines-in-a-resource-journal).
+After you approve time sheet entries for a job, you can post them to the relevant project journal or resource journal. To learn more, go to [To post time sheet lines in a project journal](#post-time-sheet-lines-in-a-job-journal) and [To post time sheet lines in a resource journal](#post-time-sheet-lines-in-a-resource-journal).
 
 Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets. To learn more about setting up time sheets, go to [Set Up Time Sheets](projects-how-setup-time-sheets.md).  
 
@@ -77,7 +77,7 @@ If your time sheet information remains the same from time period to time period,
 2. Open the time sheet for a period later than the period for an existing time sheet with lines.  
 3. Choose the **Copy Lines from Previous Time Sheet** action.
 
-The lines are copied, including details such as type and description. For example, if the line is related to a project, the **Job No.** is copied. All copied lines have the status **Open**. You can now modify the lines as needed.
+The lines are copied, including details such as type and description. For example, if the line is related to a project, the **Project No.** is copied. All copied lines have the status **Open**. You can now modify the lines as needed.
 
 ## Copy project planning lines to a time sheet
 
@@ -164,7 +164,7 @@ After you approve or reject a time sheet, it can't be modified unless it's first
 
 ## View and approve time sheets by project
 
-On a project, you can specify a person who is responsible for the project. That information is linked to time sheet lines. The link gives project managers a list of the time sheets to approve. For example, the team's project manager might be responsible for certain projects in your company. In that case, the manager should be designated as the **Person Responsible** on the Job Card page. This view of time sheet information shows the project tasks associated with a project and the quantity of hours used.
+On a project, you can specify a person who is responsible for the project. That information is linked to time sheet lines. The link gives project managers a list of the time sheets to approve. For example, the team's project manager might be responsible for certain projects in your company. In that case, the manager should be designated as the **Person Responsible** on the Project Card page. This view of time sheet information shows the project tasks associated with a project and the quantity of hours used.
 
 > [!NOTE]
 > To approve time sheets on the **Manager Time Sheet by Job** page, you must first select a **Time Sheet by Job Approval** option in the **Resources Setup** page. To learn how to set up approvals for resources, go to [Set Up Resources](projects-how-setup-resources.md).
@@ -198,15 +198,15 @@ After you have approved time sheet entries for a resource, you can post them to 
 
 After you have approved time sheet entries for a project, you can post them to the relevant project journal.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Journals**, and then choose the related link.  
 2. Choose the **Suggest Lines from Time Sheets** action.  
-3. On the **Suggest Job Jnl. Lines** page, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
+3. On the **Suggest Project Jnl. Lines** page, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 4. Choose the **OK** button. Entries for usage are created in the project journal, where you can modify the information as needed.  
 
     > [!NOTE]  
     > Information about the work type and whether the work is chargeable is copied from the time sheet line. If needed, you can reduce the quantity of hours and do a partial posting. If you reduce the quantity, the next time you choose the **Suggest Lines From Time Sheets** action, the line will contain the remaining quantity of hours.  
 5. Choose the **Post** action.  
-6. To verify the posting, choose the **Ledger Entries** action. The **Job Ledger Entries** page opens showing the result of posting the resource journal.
+6. To verify the posting, choose the **Ledger Entries** action. The **Project Ledger Entries** page opens showing the result of posting the resource journal.
 
 ## Archive time sheets
 
@@ -228,6 +228,5 @@ After you post time sheets, you can archive them for future reference. You must 
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

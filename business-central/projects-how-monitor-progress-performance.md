@@ -1,18 +1,18 @@
 ---
 
-title: Monitor Job Progress and Performance
+title: Monitor Project Progress and Performance
 description: Describes how you can create a work in process (WIP) method and calculate WIP to estimate the financial value of projects while they are ongoing.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.topic: how-to
-ms.date: 03/28/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
 ms.service: dynamics-365-business-central
 ---
-# Monitor Job Progress and Performance
+# Monitor project progress and performance
 
 With the work in process (WIP) feature you can estimate the financial value of ongoing projects in the general ledger.
 
@@ -46,9 +46,9 @@ Create a project WIP method that meets the needs of your organization and set it
 
 When you create a new project, you must specify which project WIP method applies. In some cases, the project WIP method you use is already set as the default.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **projects**, then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, then choose the related link.
 2. Choose the **New** action. Learn more at [Create Jobs](projects-how-create-projects.md).  
-3. On the **Job Card** page, in the **WIP Method** field, select a WIP method from the list. If a default method has been defined, you can select another option if needed.  
+3. On the **Project Card** page, in the **WIP Method** field, select a WIP method from the list. If a default method has been defined, you can select another option if needed.  
 
 ### Define a WIP method for a project task
 
@@ -61,19 +61,19 @@ The **WIP-Total** specifies project tasks you want to group together when calcul
 
 * Has a **WIP-Total** set to *Total*. (If there are no project tasks with **WIP-Total** set to *Total*, *Total* is set automatically on the last project task line when WIP is calculated for the first time.)
 
-* Has a **Job Task No.** number that's the final one in the group or range of project tasks.
+* Has a **Project Task No.** number that's the final one in the group or range of project tasks.
 
 The following table describes the three options:
 
 | Field | Description |
 |--|--|
 | **\<blank\>** | Leave blank if the project task is part of a group of tasks. |
-| **Total** | Defines the range or group of tasks included in the WIP and recognition calculation. Within the group, any project task with **Job Task Type** set to **Posting** is included in the WIP total, unless the task's **WIP-Total** field is set to **Excluded**. |
-| **Excluded** | Applies only to a task with **Job Task Type** of **Posting**, in which case the task isn't included when WIP and recognition are calculated. |
+| **Total** | Defines the range or group of tasks included in the WIP and recognition calculation. Within the group, any project task with **Project Task Type** set to **Posting** is included in the WIP total, unless the task's **WIP-Total** field is set to **Excluded**. |
+| **Excluded** | Applies only to a task with **Project Task Type** of **Posting**, in which case the task isn't included when WIP and recognition are calculated. |
 
 In the following example, project tasks are divided into two WIP total groupings, demonstrating how the **WIP-Total** field works:
 
-|Job task no.|Description|Job task type|**WIP-Total** field|  
+|Project task no.|Description|Project task type|**WIP-Total** field|  
 |------------------|----------------------|----------------------|----------------------|  
 |1000|Preparation|Begin-Total|\<blank\>|
 |1010|.    Cleaning|Posting|**Excluded**|
@@ -97,53 +97,53 @@ You'll notice:
 
 ## Calculate WIP
 
-You can determine the WIP amount to post to balance sheet accounts for the period end reporting. Use the **Job Calculate WIP** batch project to do this.  
+You can determine the WIP amount to post to balance sheet accounts for the period end reporting. Use the **Project Calculate WIP** batch project to do this.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **project calculate wip**,  then choose the related link.  
 2. Choose the **Calculate WIP** action.
-3. On the **Job Calculate WIP** page, fill in the fields as necessary.
+3. On the **Project Calculate WIP** page, fill in the fields as necessary.
 4. Choose the **OK** button.  
 
 > [!NOTE]  
->   The batch project only calculates the WIP, it does not post it to the general ledger. To post it, run the **Post WIP to G/L** batch project after you've calculated the WIP. Learn more in the following procedure.
+> The batch project only calculates the WIP, it does not post it to the general ledger. To post it, run the **Post WIP to G/L** batch project after you've calculated the WIP. Learn more in the following procedure.
 
 ## Post WIP
 
-When you've calculated WIP, you can post it to balance sheet accounts for the period end reporting. You use the **Job Post WIP to G/L** batch project to do this.
+When you've calculated WIP, you can post it to balance sheet accounts for the period end reporting. You use the **Project Post WIP to G/L** batch project to do this.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **project post wip to g/l**,  then choose the related link.  
-2. On the **Job Post WIP to G/L** page, fill in the fields as necessary.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Post WIP to G/L**,  then choose the related link.  
+2. On the **Project Post WIP to G/L** page, fill in the fields as necessary.  
 3. Choose the **OK** button.
 
 ## Calculate and post project completion entries
 
-When you have completed all activities for a project, including usage posting and invoicing, you must update the project to a **Status** of **Completed**. Then, you must reverse any WIP that has been posted to the general ledger.
+When you have completed all activities for a project, including usage posting and invoicing, you must update the project's status to **Completed**. Then, you must reverse any WIP that has been posted to the general ledger.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **projects**, then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, then choose the related link.  
 2. Select an open project, and then choose the **Edit** action.
 3. In the **Status** field, select **Completed**.
-4. Follow the assistance steps to calculate and post the WIP. Or follows steps 5 and 6 to do so manually.  
+4. Follow the assistance steps to calculate and post the WIP, or follow steps 5 and 6 to do so manually.  
 5. Choose the **Calculate WIP** action.
-6. On the **Job Calculate WIP** page, fill in the fields as necessary.  
+6. On the **Project Calculate WIP** page, fill in the fields as necessary.  
 
-     The project WIP entries created by running the batch project will have the **Job Complete** check box selected to show that they are completion entries.  
-7. Choose the **Job Post WIP to G/L** action.
-8. On the **Job Post WIP to G/L** page, fill in the fields as necessary.  
+     The project WIP entries created by running the batch job will have the **Project Complete** checkbox selected to show that they are completion entries.  
+7. Choose the **Post WIP to G/L** action.
+8. On the **Project Post WIP to G/L** page, fill in the fields as necessary.  
 
-     The project WIP general ledger entries created by running the batch project will have the **Job Complete** check box selected to show they are completion entries.
+     The project WIP general ledger entries created by running the batch project will have the **Project Complete** checkbox selected to show they are completion entries.
 
 ## View project ledger entries
 
 All project-related entries are recorded in project registers and sequentially numbered, starting with 1. From the project register, you can get an overview of all project ledger entries.    
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **project registers**, and choose the related link.
-2. Select a relevant register, and then choose **Job Ledger** action.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Registers**, and choose the related link.
+2. Select a relevant register, and then choose **Project Ledger** action.
 
-On the **Job Ledger Entries** page you can review the entries that are associated with any project.  
+On the **Project Ledger Entries** page you can review the entries that are associated with any project.  
 
 ## See also
 
-[Walkthrough - Calculating Work in Process for a Job](walkthrough-calculating-work-in-process-for-a-project.md)
+[Walkthrough - Calculating Work in Process for a Project](walkthrough-calculating-work-in-process-for-a-project.md)
 [Managing Projects](projects-manage-projects.md)  
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  
 [Finance](finance.md)  

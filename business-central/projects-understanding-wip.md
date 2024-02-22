@@ -1,20 +1,21 @@
 ---
-title: WIP Methods for Calculating and Recording Job Progress
+title: WIP Methods for Calculating and Recording Project Progress
 description: Describes the different work in process (WIP) methods you can use to post, monitor, and calculate financial information for projects that are in progress.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: work in process, work in progress, calculate project WIP
-ms.search.form: 1010
-ms.date: 04/01/2021
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.search.keywords: work in process, work in progress, calculate project WIP
+ms.search.form: 1010,
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Understanding WIP Methods in Project Management
 
 As a project progresses, materials, resources, and other expenses are consumed and must be posted to the project. Work in Process (WIP) is a feature that enables you to estimate the financial value of projects in the general ledger while the projects are ongoing. In many cases, you might post expenses for a project before invoicing a project. When only expenses have been posted, your financial statement will be inaccurate.
 
-To track the value in the general ledger, you can calculate WIP and post the value to the general ledger. For more information, see [Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md).
+To track the value in the general ledger, you can calculate WIP and post the value to the general ledger. For more information, see [Monitor Project Progress and Performance](projects-how-monitor-progress-performance.md).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supports the following methods of calculating and recording the value of work in process.
 

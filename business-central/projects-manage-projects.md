@@ -22,12 +22,12 @@ The following table describes a sequence of tasks, with links to the topics that
 | Create projects, assign project tasks, and prepare project planning lines. |[Create projects](projects-how-create-jobs.md) |
 | Allocate resources to projects and manage resource prices. |[Use resources for projects](projects-how-use-resources.md) |
 | Create a time sheet with integrated project task and planning lines and post time sheet lines to a project journal. |[Use time sheets for projects](projects-how-use-time-sheets.md) |
-| Budget for resources to be used in projects and compare actual item and resource usage to budgeted usage to improve the quality and cost efficiency of future projects. |[Manage Job Budgets](projects-how-manage-budgets.md) |
-| Review and record usage on various parts of your project, which is automatically updated as you modify and transfer information from project planning lines to project journals or project invoices for posting. |[Record Usage for Jobs](projects-how-record-job-usage.md) |
-| Purchase supplies for a project, either on purchase orders or invoices, and record item and time usage. |[Manage Job Supplies](projects-how-manage-project-supplies.md) |
+| Budget for resources to be used in projects and compare actual item and resource usage to budgeted usage to improve the quality and cost efficiency of future projects. |[Manage Project Budgets](projects-how-manage-budgets.md) |
+| Review and record usage on various parts of your project, which is automatically updated as you modify and transfer information from project planning lines to project journals or project invoices for posting. |[Record Usage for Projects](projects-how-record-job-usage.md) |
+| Purchase supplies for a project, either on purchase orders or invoices, and record item and time usage. |[Manage Project Supplies](projects-how-manage-project-supplies.md) |
 | Learn about WIP (Work in Process), a feature that ensures correct financial statements and enables you to estimate the financial value of projects that are ongoing. |[Understanding WIP Methods](projects-understanding-wip.md) |
-| Post the consumption of materials, resources, and other expenses of project work in process (WIP) to monitor its financial value and to maintain correct financial statements even though you post project expenses before invoicing the project. |[Monitor Job Progress and Performance](projects-how-monitor-progress-performance.md) |
-| Record project costs for resource usage, materials, and project-related purchases on an on-going basis and invoice the customer, either when the project is finished or according to an invoicing schedule. |[Invoice Jobs](projects-how-invoice-jobs.md) |
+| Post the consumption of materials, resources, and other expenses of project work in process (WIP) to monitor its financial value and to maintain correct financial statements even though you post project expenses before invoicing the project. |[Monitor Project Progress and Performance](projects-how-monitor-progress-performance.md) |
+| Record project costs for resource usage, materials, and project-related purchases on an on-going basis and invoice the customer, either when the project is finished or according to an invoicing schedule. |[Invoice Project](projects-how-invoice-jobs.md) |
 
 ## Get started with projects
 
@@ -44,6 +44,5 @@ Project management is complicated enough in itself, and learning how to create p
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

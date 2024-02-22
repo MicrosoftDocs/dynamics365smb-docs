@@ -2,12 +2,14 @@
 title: Create a Project Card for a Project and Specify Tasks
 description: For a new project, you create a project card that contains project tasks and planning lines, to help you manage progress and budgets.
 author: brentholtorf
-ms.topic: conceptual
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
-ms.date: 08/03/2022
-ms.author: bholtorf
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Create projects
 

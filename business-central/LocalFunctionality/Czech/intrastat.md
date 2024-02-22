@@ -83,7 +83,7 @@ The Intrastat journal contains the following new fields and functionalities:
 
 The fastest way to prepare the Intrastat journal and make sure all the rules set in the previous steps are followed is by using the **Get Entries** batch job. During the execution of the Get Entries batch job, the following occurs:
 
-- The system considers the Item and Job ledger entries created by transactions identified as an Intrastat transactions.
+- The system considers the Item and Project Ledger Entries created by transactions identified as an Intrastat transactions.
 - The system ignores sales and purchase Intrastat transactions with the EU-3 Party Trade flag.
 - The system includes Intrastat transactions with entry and exit points in EU countries/regions.
 - The system includes sales and purchase documents, such as credit memos that are posted with the **Correction** check box as inserted in the Intrastat journal. These documents are the same type as the documents they're correcting, but with the opposite sign for non-physical transfer documents and the opposite type for documents marked as physical transfer.

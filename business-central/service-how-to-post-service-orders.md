@@ -71,7 +71,7 @@ The following procedure describes how to post the items, resource hours, and or 
 4. Find the required entries, and specify the quantities for which you'll post consumption in the **Qty. to Consume** field. The quantity can't be larger than the quantity already shipped and the quantity remaining but not invoiced after partial invoicing of this shipment.  
 
     > [!NOTE]  
-    >  To register consumption with respect to a project, fill in the **Job No.**, **Job Task No.**, and the **Job Line Type** fields on the service line.  
+    >  To register consumption with respect to a project, fill in the **Project No.**, **Project Task No.**, and the **Project Line Type** fields on the service line.  
 
 5. Choose the lines to post, and then choose the **Post** action. On the page that opens, select **Ship and Consume**.  
 

@@ -29,7 +29,7 @@ Chat with Copilot is an AI-powered tool that answers questions and finds busines
 
 Chat with Copilot circumvents the need to navigate the user interface or product help, which can save time and increase productivity.
   
-> [What video](https://go.microsoft.com/fwlink/?linkid=2250609)
+> [Watch video](https://go.microsoft.com/fwlink/?linkid=2250609)
 
 ## Prerequisites
 

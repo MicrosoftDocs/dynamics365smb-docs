@@ -117,13 +117,15 @@ Use the **Blocked** field in the **General Posting Setup** page to prevent users
 
 ## Access all fields and accounts when you set up a posting group  
 
-Posting groups can be complex to set up. To make it a bit easier to choose the right accounts, by default [!INCLUDE [prod_short](includes/prod_short.md)] filters the accounts that you can choose in fields. However, if you want to access all accounts in the fields, there are a couple of settings that can help:
+Posting groups can be complex to set up. Because some types of accounts aren't frequently used, [!INCLUDE [prod_short](includes/prod_short.md)] doesn't show them as columns on the lines. Also, to make it a bit easier to choose the right accounts, [!INCLUDE [prod_short](includes/prod_short.md)] filters the accounts that you can choose in field lookups. 
 
-* To access all accounts in all fields on all lines, turn on the **Show All Accounts** toggle.
-* On individual lines, to access all accounts in the fields, choose the **View All Accounts on Lookup** checkbox.
+If you want to access all accounts on the lines and in the field lookups, there are a couple of settings that can help:
+
+* To show all accounts as columns on the lines, turn on the **Show All Accounts** toggle.
+* On individual lines, to access all accounts in the field lookups, choose the **View All Accounts on Lookup** checkbox.
 
 > [!NOTE]
-> The **Show All Accounts** toggle doesn't work on the **General Posting Setup** page. [!INCLUDE [prod_short](includes/prod_short.md)] always filters the accounts in the fields on that page.
+> The **Show All Accounts** toggle might not seem to work on the **General Posting Setup** page. That's because [!INCLUDE [prod_short](includes/prod_short.md)] always shows all accounts as columns on the lines on that page.
 
 ## Troubleshooting posting group errors
 

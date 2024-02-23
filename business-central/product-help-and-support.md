@@ -27,6 +27,10 @@ Organizations that use [!INCLUDE[prod_long](includes/prod_long.md)] can get tech
 
 Chat with copilot is an AI-powered tool that answers questions and finds business data related to Business Central. It's available from any page by selecting the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon in the upper-right corner. [Learn more about chat with Copilot](chat-with-copilot.md).
 
+### Help with fields
+
+Chat can help you understand the purpose and typical use of individual fields. When you choose **Ask Copilot** in a tooltip for a field, chat opens with an Explain prompt for the field name and Copilot provides information about it. Copilot links to the articles it referenced, so it's easy to verify the description.
+
 ## In-product tips
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] These links can also access content from other websites, such as the websites of providers of any apps that are part of your [!INCLUDE [prod_short](includes/prod_short.md)].  
@@ -41,12 +45,6 @@ In [!INCLUDE [prod_short](includes/prod_short.md)], the Help menu item (the ques
 
 The following list describes how you can access the Help pane and whether cards are added to it:
 
-- Choose the *Learn more* link on a tooltip for a field
-
-  The following card is added to the Help pane:
-
-  - The field's tooltip
-- Choose the *Learn more* link on a tooltip for an action
 - Choose the Help menu item (the question mark in the top-right corner)
 - Use the <kbd>Ctrl</kbd>+<kbd>F1</kbd> keyboard shortcut from anywhere
 

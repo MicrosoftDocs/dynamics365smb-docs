@@ -44,4 +44,4 @@ These frequently asked questions (FAQ) describe the AI impact of [Feature] featu
 
 [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](includes/footer-banner.md)]

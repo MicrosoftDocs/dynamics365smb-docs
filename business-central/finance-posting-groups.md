@@ -7,7 +7,7 @@ ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
-ms.date: 12/21/2023
+ms.date: 02/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -111,9 +111,18 @@ This way, when you work on a document that uses a posting group or a setup that 
 > [!NOTE]
 > In order to take you directly to the posting group or setup that is missing a general ledger account, [!INCLUDE[prod_short](includes/prod_short.md)] will create a placeholder posting group or setup. Posting groups and setups are a way for the accountant to control how entries are posted to the general ledger, so such the just-in-time creation of posting groups and setups might not be allowed in your organization.  
 >
-> In that case, disable the *G/L Account is missing in posting group or setup* notification, and then work with your accountant to make the relevant changes to the posting group, setup, or your document. This is an important step, because once documents are posted, any incorrectly used posting groups or setups cannot be deleted because there are general ledger entries created for them.
+> In that case, disable the *G/L Account is missing in posting group or setup* notification, and then work with your accountant to make the relevant changes to the posting group, setup, or your document. This is an important step, because after documents are posted, you can't delete incorrectly used posting groups or setups because general ledger entries are created for them.
 
-Starting in 2022 release wave 1, you can use the **Blocked** field in the **General Posting Setup** page to prevent users from mistakenly using a setup that is no longer relevant for new postings.  
+Use the **Blocked** field in the **General Posting Setup** page to prevent users from mistakenly using a setup that is no longer relevant for new postings. 
+
+## Access all fields and accounts when you set up a posting group  
+
+Posting groups can be complex to set up. Because not all fields are required, [!INCLUDE [prod_short](includes/prod_short.md)] hides fields and values that companies don't frequently use. Also to make things a little easier, [!INCLUDE [prod_short](includes/prod_short.md)] also filters the accounts that are available in the fields where you choose sales and purchase accounts.
+
+If you want to access all fields or all accounts, there are two settings to use:
+
+* To view all setup fields, turn on the **Show All Accounts** toggle.
+* On lines, to view all accounts in the fields for sales and purchase accounts, choose the **View All Accounts on Lookup** checkbox.
 
 ## Troubleshooting posting group errors
 

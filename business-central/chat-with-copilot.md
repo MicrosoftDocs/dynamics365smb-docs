@@ -38,7 +38,7 @@ Chat with Copilot capability is enabled and activated. This task is done by an a
 
 ## Get started using chat with Copilot
 
-1. In the upper-right corner of the screen, select the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon ![Shows the icon for chat with Copilot pane with callouts](media/callout-number-1.svg).
+1. In the upper-right corner of the screen, select the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon ![Shows cllour number 1](media/callout-number-1.svg).
 
    The **Copilot** pane displays on the right as illustrated in the following figure:
 

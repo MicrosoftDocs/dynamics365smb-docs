@@ -36,6 +36,24 @@ If you're billing multiple customers, you can specify the customer who will rece
 * Add information about external references to simplify communication about the project.
 * Overwrite the standard financial terms of the project.
 
+## Invoice one customer for multiple project tasks
+
+You can simplify your invoicing process by sending one invoice to a customer for multiple projects. Add project planning lines from multiple projects to a sales invoice in one go. This process is similar to creating a sales invoice from a project planning line and entering a value in the **Append to Sales Invoice No.** field.
+
+Here's an overview of the process.
+
+1. Create a new sales invoice, and fill in the **Sell-to Customer No.** field. If needed, also fill in the **Bill-to Customer No.** and **Currency Code** fields.
+2. On the **Lines** FastTab, choose the **Get Project Planning Lines** action. The **Get Project Planning Lines** page shows billable project planning lines from projects for the sell-to customer, bill-to customer, and invoicing currency where the quantity to invoice is more than zero. 
+3. Choose the lines you want to add to the invoice, and then choose **OK**.
+
+Repeat these steps if you want to add another set of project planning lines. You can also delete the invoice or its lines and start over.
+
+> [!NOTE]
+> There are a couple of limitations:
+>
+> * The **Get Project Planning Lines** action isn't available on sales orders or sales quotes.
+> * You can't filter on the **Ship-to Code** or **Contact No.** fields.
+
 ## To create a project card
 
 You create a project card and then create project task lines and project planning lines for it.

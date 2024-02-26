@@ -58,10 +58,9 @@ Users benefit from simplifying this task down to a single, natural language quer
 * This feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft](https://aka.ms/RAI).
 
 ## What are the limitations of sales line suggestions with Copilot? How can users minimize the impact of the sales line suggestions with Copilot limitations when using the system?
-Currently Sales lines suggestion can be launched for following sales documents: Sales Order, Sales Invoice, Sales Quote. 
 
-Finding documents be reference searches Sales Order, Sales Quote, Sales Invoice, Posted Sales Invoice, Posted Sales Shipment; it uses fields **Document No.**, **External Document No.**, **Your Reference**, **Document Date**, **Sell-to Cusotmer No.**.
 
+### Finding products.
 Finding product performs best in English language. While this feature can be operated in any of the available [!INCLUDE [prod_short](includes/prod_short.md)] languages, users might experience less accurate item search in other languages.
 
 For customers that operate in industries/domains that overlap with what Microsoft considers sensitive topics (such as drugs, violence, sexual, etc.) Copilot may defer to neutral, curated responses, or give inaccurate responses. 
@@ -73,7 +72,7 @@ How customers name their products have impact on quality of output. Using crypti
 
 For product search following is the list of tables and field on which search relies on:
 *	**Items**
-*  No.
+*   No.
 *   Description
 *   Description 2
 *   Search Description
@@ -102,6 +101,13 @@ For product search following is the list of tables and field on which search rel
 *   Code	
 * **Extended text Line**
 *   Text
+  
+### Finding documents by reference.
+Currently Sales lines suggestion can be launched for following sales documents: Sales Order, Sales Invoice, Sales Quote. 
+
+Finding documents be reference searches Sales Order, Sales Quote, Sales Invoice, Posted Sales Invoice, Posted Sales Shipment; it uses fields **Document No.**, **External Document No.**, **Your Reference**, **Quote No.**, **Document Date**, **Sell-to Cusotmer No.**.
+
+Finding document doesn't perform product search and returns all lines of type Item from the found document. Only items numbers, variant code and quantities are transfered. Quantities from the source document will be converted to the **Sales Unit of Measure**.
 
 ## In which geographies and languages is Sales lines suggestions available? 
 

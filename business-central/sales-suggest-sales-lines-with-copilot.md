@@ -90,6 +90,8 @@ After Copilot suggests the items to add to lines, review its suggestions and dec
 * To discard all proposed lines and close the Copilot window, select the discard button (trash can) next to the Keep it button at the bottom of the window.
 * To transfer lines currenctly currently shown in the Copilot window, select **Keep it**. 
 
+There is a **Reliability** field that displays High (80+), Medium (60-80), Low (60-) scores. That points user to lines that require extra attention.
+
   This step confirms the transfer of the currently showns lines to the corresponding sales document. You can delete or edit transfered lines there.
 
 ## See also

@@ -87,7 +87,7 @@ This sections provides example prompts for the different catagories of questions
 
 - You want to list...
 
-   Prompt:
+  Prompt:
 
 - You want to find
 
@@ -103,7 +103,7 @@ This sections provides example prompts for the different catagories of questions
 
    Prompt:
 
-### Get guidance about how to do something
+### Get guidance 
 
 - You want to know how to xxxxx
 
@@ -111,7 +111,7 @@ This sections provides example prompts for the different catagories of questions
 
 - You want to know how to xxxxx
 
-  Prompt:
+  Prompt: 
 
 ## Provide feedback
 

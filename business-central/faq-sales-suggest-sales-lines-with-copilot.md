@@ -100,16 +100,16 @@ For products, the following table lists the tables and fields that Copilot searc
 
   Copilot searches the following fields
 
-  * **Document No.**
-  * **External Document No.**
-  * **Your Reference**
-  * **Quote No.**
-  * **Document Date**
-  * **Sell-to Customer No.**
+  * Document No.
+  * External Document No.
+  * Your Reference
+  * Quote No.
+  * Document Date
+  * Sell-to Customer No.
 
   Copilot doesn't return all lines of the type Item. Only items numbers, variant codes, and quantities are transferred. Quantities from the source document are converted to the **Sales Unit of Measure**.
 
-## In which geographies and languages is Sales lines suggestions available? 
+## In which geographies and languages is Sales lines suggestions available?
 
 With the exception of Canada, this feature is available to all environment country/region localization and in all supported languages. Due to limited language support, the feature won't initially be available to Canadian customers due to regulatory language compliance. For this capability to be available for customer environments located in countries/regions where Azure OpenAI Service isn't deployed, administrators must first consent to allowing their data to move across boundaries for [!INCLUDE [prod_short](includes/prod_short.md)] to connect to Azure OpenAI service.  
 

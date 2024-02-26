@@ -44,7 +44,7 @@ Chat with Copilot capability is enabled and activated. This task is done by an a
 
     ![Shows the icon for chat with Copilot pane with callouts](media/chat-with-copilot-pane.svg)
 
-1. In the **Ask a question** box at the bottom ![Shows the icon for chat with Copilot pane with callouts](media/callout-number-2.svg), enter your question, and then select the arrowhead or press <kbd>Enter</kbd> to get an answer.
+1. In the **Ask a question** box at the bottom ![Shows callout number 2](media/callout-number-2.svg), enter your question, and then select the arrowhead or press <kbd>Enter</kbd> to get an answer.
 
    The text you enter can be in the form of a question, statement, or command.
 
@@ -73,8 +73,9 @@ This section provides ways you can improve the answers you get from Copilot.
 
 - Ask clear and specific questions
 - Be concise and avoid long sentences or multiple sentences
+- Ask one question at a time. <!--Avoid asking about multiple questions in one message.-->
 - Use natural language, expressing the questions in a friendly and conversational manner
-- Choose phrases and terms that you know are used in Business Central, either in the software or documentation.
+- Use keywords, phrases, and terms that you know are used in Business Central, either in the software or documentation.
 - If the initial response doesn't fully answer your questions, ask follow up questions or rephrase the last question.
 - If you're asking a question on a different subject matter than previous question, clear the current chat session to start over.
 

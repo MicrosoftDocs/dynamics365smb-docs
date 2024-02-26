@@ -89,7 +89,7 @@ This sections provides example prompts for the different catagories of questions
 
    Prompt:
 
-- I  want to find
+- You want to find
 
   Prompt: 
 

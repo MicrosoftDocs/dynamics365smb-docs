@@ -91,8 +91,7 @@ This sections provides example prompts for the different catagories of questions
 
 - I  want to find
 
-  Prompt:
-
+  Prompt: 
 
 ### Explain a concept
 
@@ -104,7 +103,6 @@ This sections provides example prompts for the different catagories of questions
 
    Prompt:
 
-
 ### Get guidance about how to do something
 
 - You want to know how to xxxxx
@@ -113,7 +111,7 @@ This sections provides example prompts for the different catagories of questions
 
 - You want to know how to xxxxx
 
-  Prompt: 
+  Prompt:
 
 ## Provide feedback
 

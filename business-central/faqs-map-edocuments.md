@@ -14,7 +14,9 @@ ms.collection:
 
 # FAQ for mapping e-documents with purchase orders using Copilot
 
-These frequently asked questions (FAQ) describe the AI impact of [Feature] feature in [Product].
+[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+
+These frequently asked questions (FAQ) describe the AI impact of **E-documents Matching Assistance** feature in Dynamics 365 Business Central.
 
 ## What is E-documents Matching Assistance? 
 
@@ -62,7 +64,28 @@ For more information on language, see previous question about limitations.
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
-[Describe the operational factors and ranges within which the system is expected to perform reliably and safely. List the choices that end users can make (e.g., customization, settings, etc.), with a description of how those choices may impact system behavior in the real world.]
+With the **E-Documents Matching Assistance** feature, Copilot is used to complement the existing Business Central matching algorithm and match the lines left unmatched by Business Central. 
+
+### What is expected of end-users while using E-Documents Matching Assistance? 
+
+Once the incoming electronic invoice has been related to the proper purchase order, the accountant needs to match lines from these two documents. 
+
+The accountant will open the Purchase Order Mapping page where all lines from both of documents will exist parallelly on the page. Here, the accountant can do matching manually, but if there are many lines it can be a difficult task. 
+
+Instead of a time-consuming and not-fault-tolerant manual process, users can use **E-Documents Matching Assistance** to match lines, based on similarity of descriptions, unit of measures, quantities available for invoicing, and amounts. 
+
+AI-powered matches might sometimes be incorrect or incomplete. Users of **E-Documents Matching Assistance** must review the accuracy of matches and suggestions provided by Copilot before choosing to keep them. Copilot’s matches and suggestions aren't saved to the Business Central database until you choose the Keep it button and exiting the Copilot window. You can also edit and correct any matches or suggestions before choosing to keep it. 
+
+
+### What is expected of administrators and end-users when operating E-Documents Matching Assistance?
+
+End-users, such as accountants, or others working on e-invoices receiving should always review the accuracy of matches and suggestions provided by Copilot before choosing to keep them. After matching with Copilot, we recommend reviewing the purchase order lines to verify accuracy and identify any discrepancies. Each individual accountant chooses whether or not to use the **E-Documents Matching Assistance**. Even when the **E-Documents Matching Assistance** is enabled by administrators and available, the accountant can still choose to use it always, sometimes or never.  
+
+Administrators make the overall decisions to use or not use Copilot capabilities in Business Central across lines of business. If administrators enable Copilot, they should ensure the appropriate accounting users have been granted access to this capability.   
+
+> [NOTE!]
+> - We do not support the feature being used in Business Central deployed to on premises or private cloud.
+> - Partner extensibility is not supported. That means partner developers will not be able to modify, replace or extend this functionality in Business Central. 
 
 ## Is Copilot the only means to completing E-documents Matching?  
 

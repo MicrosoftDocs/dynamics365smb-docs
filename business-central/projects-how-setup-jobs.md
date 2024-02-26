@@ -36,13 +36,17 @@ You can save time on data entry by specifying a default location and bin for pro
 
 If you define a **To-Project Bin Code** on the location, the bin code is populated when you select the location code. If your warehouse flow requires warehouse picks, you can also define other bins from which to consume items.
 
-These fields are the defaults when you create project tasks. Changes won't be made to existing project tasks.
+These fields are the defaults when you create project tasks. Existing project tasks don't change.
 
 There are a few things to know about using default locations:
 
 * For project tasks, if you define a **To-Project Bin Code** on the location, the bin code is assigned when you select the location code. If your warehouse flow requires warehouse picks, you can also define other bins from which to consume items.
 * For project planning lines, the **Location Code** is based on the value selected on the project planning line when you select an item. If a bin code isn't defined for the project task, the bin from the default bin content is selected. You can change both values manually.
 * For project journal lines, the **Location Code** is based on the value selected on the job journal line when you select an item. If a bin code isn't defined for the project task, the bin from default bin content is selected. You can change both values manually.
+
+### Invoice multiple customers 
+
+When projects involve multiple customers, billing the right customers for the right project tasks can be challenging and take time. [!INCLUDE [prod_short](includes/prod_short.md)] makes billing less complex by letting you specify the bill-to and sell-to customers on each project task line. Having that information on each task lets you automatically generate invoices for the correct customers.
 
 ### To set up project usage tracking
 

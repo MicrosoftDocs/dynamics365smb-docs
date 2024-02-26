@@ -83,8 +83,6 @@ This process describes how to suggest lines on a sales order. The steps are the 
 1. On the **Lines** FastTab, choose **Get line suggestions**.
 1. In the **Suggest lines with Copilot** window, enter your prompt or select one from prompt guides.
 
-If 
-
 ## Review, save, discard, or regenerate suggestions
 
 After Copilot suggests the items to add to lines, review its suggestions and decide whether they're what you want:

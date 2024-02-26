@@ -57,6 +57,8 @@ When you open a new document or card that a number series exists for, the **No. 
 
 > [!NOTE]  
 > If you need to enable manual numbering on, for example, new item cards that were created with a data migration process that has hidden the **No.** by default, go to the **Inventory Setup** page and choose the **Item Nos.** field to open and set the related number series to **Manual Nos.**.
+>
+> The same is true if you're using service management features. To resolve that issue, go to the **Service Management Setup** page and choose the **Service Item Nos.** field to set the number series to **Manual Nos.**.
 
 ## To create a new number series
 

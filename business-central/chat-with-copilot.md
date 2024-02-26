@@ -79,6 +79,42 @@ This section provides ways you can improve the answers you get from Copilot.
 - If the initial response doesn't fully answer your questions, ask follow up questions or rephrase the last question.
 - If you're asking a question on a different subject matter than previous question, clear the current chat session to start over.
 
+## Example prompts
+
+This sections provides example prompts for the different catagories of questions you ask chat.
+
+### Find business data
+
+- You want to list...
+
+   Prompt:
+
+- I  want to find
+
+  Prompt:
+
+
+### Explain a concept
+
+- You want to know how xxxx works
+
+  Prompt:
+
+- You want to understand xxx
+
+   Prompt:
+
+
+### Get guidance about how to do something
+
+- You want to know how to xxxxx
+
+  Prompt: 
+
+- You want to know how to xxxxx
+
+  Prompt: 
+
 ## Provide feedback
 
 To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.

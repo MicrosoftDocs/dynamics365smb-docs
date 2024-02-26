@@ -26,7 +26,7 @@ Sales line suggestion with Copilot can assist with creating lines on sales docum
 * Finding products.
 The information describing the product is stored in multiple places within [!INCLUDE [prod_short](includes/prod_short.md)] database, for example item number and item description are stored in the **Item** table, but multiple barcodes are stored in the **Item Reference** table, property of product are stored in the **Item Attributes**. While user may express need in *Red bicycle*, the actual product might be *Crimson tourer*, where *Bicycle* is a product category and *red* is an attribute.
 
-* Finding document by reference
+* Finding document by reference.
 It is common to repeat the past order or at least to have it as a starting point. But it might be tricky to find one if there is a load of orders. Users might remember some id, which can be company assigned number or reference number received from customer. Accepting inquiry inquiries like *Need last invoice from April* should help user to start editing faster.
 
 ## Prerequisites
@@ -81,7 +81,9 @@ This process describes how to suggest lines on a sales order. The steps are the 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Order**, and then choose the related link.
 1. Open the sales order.
 1. On the **Lines** FastTab, choose **Get line suggestions**.
-1. In the **Suggest lines with Copilot** window, enter your prompt or select one from prompt guides. 
+1. In the **Suggest lines with Copilot** window, enter your prompt or select one from prompt guides.
+
+If 
 
 ## Review, save, discard, or regenerate suggestions
 
@@ -90,9 +92,9 @@ After Copilot suggests the items to add to lines, review its suggestions and dec
 * To discard all proposed lines and close the Copilot window, select the discard button (trash can) next to the Keep it button at the bottom of the window.
 * To transfer lines currenctly currently shown in the Copilot window, select **Keep it**. 
 
-There is a **Reliability** field that displays High (80+), Medium (60-80), Low (60-) scores. That points user to lines that require extra attention.
+There is a **Reliability** field that displays High (80+), Medium (60-80), Low (60-) scores. That points user to lines that require extra attention. 
 
-  This step confirms the transfer of the currently showns lines to the corresponding sales document. You can delete or edit transfered lines there.
+This step confirms the transfer of the currently showns lines to the corresponding sales document. You can delete or edit transfered lines there as well, you can delete the whole document if needed.
 
 ## See also
 

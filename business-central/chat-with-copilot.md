@@ -16,11 +16,11 @@ ms.collection:
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-This article explains how to use chat with Copilot to get answers about your company data and assistance with tasks and subject matters related to Business Central.​
+This article explains how to chat with Copilot to get answers about your company data and assistance with tasks and subject matters related to Business Central.​
 
 ## About chat with Copilot
 
-Chat with Copilot is an AI-powered tool that answers questions and finds business data related to Business Central. By expressing what you're looking for in natural language, you can use the chat with Copilot feature to: 
+Microsoft Copilot is the AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks. You can chat with Copilot in Business Central to answer questions and find business data by expressing what you're looking for in natural language. You can use chat to:
 
 - Find business data for the company you're working with in Business Central. Use chat to look up (and open) data about entities/records related to business processes, such as customers, vendors, sales orders, and items, and more. For example, ask Copilot: "Show me the latest sales order for Adatum." or "How many sales invoices have been posted this year."
 - Explain a concept or get guidance on how to accomplish a task. For example, ask "Help me understand dimensions" or "How to I post a sales order".
@@ -34,7 +34,9 @@ Chat with Copilot circumvents the need to navigate the user interface or product
 
 ## Prerequisites
 
-Chat with Copilot capability is enabled and activated. This task is done by an administrator. [Learn more about enabling Copilot and AI capabilities](enable-ai.md).
+- Chat with Copilot capability is activated. This task is done by an administrator. [Learn more about enabling Copilot and AI capabilities](enable-ai.md).
+- The display language in Business Central is set to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn more about changing the language](ui-change-basic-settings.md#language).
+- Your Business Central environment is in any country/region except Canada (this feature is not yet available in Canada).
 
 ## Get started using chat with Copilot
 
@@ -49,9 +51,9 @@ Chat with Copilot capability is enabled and activated. This task is done by an a
    The text you enter can be in the form of a question, statement, or command.
 
    > [!TIP]
-   > Copilot includes a couple features that can help your write questions:
-   > - To get started on formulating a question, select one of the prompts&mdash;**Find**, **Explain**, or **Guide**&mdash;available the top of the pane ![Shows callout number 3](media/callout-number-3.svg) or from the **View Prompts** button above **Ask a question** box ![Shows callout number 4](media/callout-number-4.svg). Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.
-   > - Select the sample questions above the **View prompts** button ![Shows callout number 5](media/callout-number-5.svg) to automatically ask a predefined question to get insight into how the questions and answers work.  
+   > Copilot includes a couple of features that can help your write questions:
+   > - To get started on formulating a question, select one of the prompt starters&mdash;**Find**, **Explain**, or **Guide**&mdash;available the top of the pane ![Shows callout number 3](media/callout-number-3.svg) or from the **View Prompts** button above **Ask a question** box ![Shows callout number 4](media/callout-number-4.svg). Prompt starters are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.
+   > - Select the prompt suggestions above the **View prompts** button ![Shows callout number 5](media/callout-number-5.svg) to automatically ask a predefined question to get insight into how the questions and answers work. Prompt suggestions are only available when you're using the CRONUS demonstration company.
 
 1. Review the answers displayed in the Copilot pane ![Shows callout number 6](media/callout-number-6.svg).
 
@@ -63,7 +65,7 @@ Chat with Copilot capability is enabled and activated. This task is done by an a
 
 ## Clear chat to start over
 
-If you want clear the questions and answers of the current chat and start over, select the **Start a new Copilot chat session** icon at the bottom of the Copilot pane above the question box.
+If you want to switch to a different topic of conversation with Copilot, elect the **Start a new Copilot chat session** icon at the bottom of the Copilot pane above the question box. This action clears Copilot's memory of your last few messages. Starting over is often helpful after a lengthy conversation with many messages and can help Copilot deliver more accurate answers.
 
 The chat is also cleared if you close or sign out of Business Central.
 
@@ -115,7 +117,7 @@ This sections provides example prompts for the different catagories of questions
 
 ## Provide feedback
 
-To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.
+Above the You can rate feedback by using the like (thumbs up) button for good rating or the dislike (thumbs down) button for a poor rating  [!INCLUDEprod_short]. This information us can p us improve suggestions. To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.
 
 <!--
 1. If you want help getting you're question started, select the prompts either from the **Find**, **Explain**, or **Guide** buttons at the top of the Coplit pane or use the **View Prompts** menu above **Ask a question** box at the bottom.

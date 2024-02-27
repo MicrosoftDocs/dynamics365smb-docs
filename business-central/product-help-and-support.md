@@ -30,7 +30,7 @@ Chat with Copilot is an AI-powered tool that answers questions and finds busines
 
 ### Help with fields
 
-Chat can help you understand the purpose and typical use of individual fields. When you choose **Ask Copilot** in a tooltip for a field, chat opens with an Explain prompt for the field name and Copilot provides information about it. Copilot links to the articles it referenced, so it's easy to verify the description.
+Copilot can help you understand the purpose and typical use of individual fields. When you choose **Ask Copilot** in a tooltip for a field, chat opens with an Explain prompt for the field name and Copilot provides information about it. Copilot links to the articles it referenced, so it's easy to verify the description.
 
 ## In-product tips
 

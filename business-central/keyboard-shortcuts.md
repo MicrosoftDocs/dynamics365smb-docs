@@ -154,7 +154,7 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 |Select these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
 |<kbd>Alt</kbd>+<kbd>D</kbd>|Open the dimension set entries.|
-|<kbd>Alt</kbd>+<kbd>F6</kbd>|Toggle collapse/expand for the current Fast<kbd>Tab</kbd> or part (subpage).|
+|<kbd>Alt</kbd>+<kbd>F6</kbd>|Toggle collapse/expand for the current FastTab or part (subpage).|
 |<kbd>Alt</kbd>+<kbd>F9</kbd>|Create new document and post it.|
 |<kbd>Alt</kbd>+<kbd>G</kbd>|Open the **Find Entries** page for finding entries related to the posted document. Works on lists also.|
 |<kbd>Alt</kbd>+<kbd>N</kbd> |Open a page to create a new record; the same way as choosing the **New** action. |
@@ -168,11 +168,11 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 |<kbd>Ctrl</kbd>+<kbd>F7</kbd>|Open ledger entries, logs entries, cost entries, and so on.|
 |<kbd>Ctrl</kbd>+<kbd>F9</kbd>|Release document.|
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd> |Maximize the line items part on a document page. Select the keys again to return to the normal display. For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).|
-|<kbd>F6</kbd>|Move to the next Fast<kbd>Tab</kbd> or part (subpage).|
+|<kbd>F6</kbd>|Move to the next FastTab or part (subpage).|
 |<kbd>F7</kbd>|Open statistics.|
 |<kbd>F9</kbd>|Post, issue, register, or reverse document.|
 |<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>F9</kbd>|Post, print, and put away warehouse receipt.|
-|<kbd>Shift</kbd>+<kbd>F6</kbd>|Move to previous Fast<kbd>Tab</kbd> or part (subpage).|
+|<kbd>Shift</kbd>+<kbd>F6</kbd>|Move to previous FastTab or part (subpage).|
 |<kbd>Shift</kbd>+<kbd>F9</kbd>|Post and print a document.|
 |<kbd>Shift</kbd>+<kbd>F11</kbd>|Apply entries, get source documents, or get warehouse documents.|
 

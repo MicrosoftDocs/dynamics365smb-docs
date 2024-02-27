@@ -34,7 +34,7 @@ Chat with Copilot circumvents the need to navigate the user interface or product
 
 ## Prerequisites
 
-- Chat with Copilot capability is activated. This task is done by an administrator. [Learn more about enabling Copilot and AI capabilities](enable-ai.md).
+- Chat with Copilot capability is activated. This task is done by an administrator. [Learn more about configuring Copilot and AI capabilities](enable-ai.md).
 - The display language in Business Central is set to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn more about changing the language](ui-change-basic-settings.md#language).
 - Your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).
 
@@ -52,7 +52,7 @@ Chat with Copilot circumvents the need to navigate the user interface or product
 
    > [!TIP]
    > Copilot includes a couple of features that can help your write questions:
-   > - To get started on formulating a question, select one of the prompt starters&mdash;**Find**, **Explain**, or **Guide**&mdash;available the top of the pane ![Shows callout number 3](media/callout-number-3.svg) or from the **View Prompts** button above **Ask a question** box ![Shows callout number 4](media/callout-number-4.svg). Prompt starters are predefined short phrases that begin a question or prompt. Apart from saving you time, they're designed to guide Copilot's responses to target specific categories of answers. They also help you undestand how you can phrase questions to get the responses.
+   > - To get started on formulating a question, select one of the prompt guides&mdash;**Find**, **Explain**, or **Guide**&mdash;available the top of the pane ![Shows callout number 3](media/callout-number-3.svg) or from the **View Prompts** button above **Ask a question** box ![Shows callout number 4](media/callout-number-4.svg). Prompt guides are predefined short phrases that begin a question or prompt. Apart from saving you time, they're designed to guide Copilot's responses toward a category of answers. They also help you understand how to phrase questions to get the best responses.
    > - Select the prompt suggestions above the **View prompts** button ![Shows callout number 5](media/callout-number-5.svg) to automatically ask a predefined question to get insight into how the questions and answers work. Prompt suggestions are only available when you're using the CRONUS demonstration company.
 
 1. Review the answers displayed in the Copilot pane ![Shows callout number 6](media/callout-number-6.svg).
@@ -78,12 +78,26 @@ This section provides ways you can improve the answers you get from Copilot.
 - Ask one question at a time. <!--Avoid asking about multiple questions in one message.-->
 - Use natural language, expressing the questions in a friendly and conversational manner.
 - Use keywords, phrases, and terms that you know are used in Business Central, either in the software or documentation.
-- - If the initial response doesn't fully answer your questions, ask follow up questions or rephrase the last question.
+- - If the initial response doesn't fully answer your questions, ask follow-up questions or rephrase the last question.
 - If you're asking a question on a different subject matter than previous question, clear the current chat session to start over.
 
 ## Example prompts
 
-This sections provides example prompts for the different catagories of questions you ask chat.
+Your questions to Copilot will naturally vary depending on your role, current task, the processes that your organization follows, and how you express yourself in words. The following are examples that showcase different ways of asking questions in the chat pane that can inspire you to write your own questions based on your own unique situation.
+
+** Example 1: "Find the Item with Description 'ATHENS Desk'"**
+In this example, you give clear instructions for Copilot to locate a single record. For example, you hint that the record is found in the Item list, and you indicate the field 'Description' must be a specific text that you have typed using quotes and with correct capitalization. Copilot usually responds accurately when given a few precise hints, but you can also use more casual language as in the next example.
+
+Example 2: "give me the latest invoice for adatum"
+In this example, you ask Copilot to locate a record, but the question is less precise and may result in a less accurate answer. Copilot is often able to understand, or guess, that the invoice you are looking for is not a purchase invoice but a sales invoice from the Posted Sales Invoice list. Copilot would also need to match "adatum" with "Adatum Corporation", that is the full and precise name for the sell-to Customer name associated with the invoice.
+
+Example 3: "Show me customer ledger entries for Adatum from about three weeks ago"
+In this example, you ask copilot to solve a common date puzzle that typically requires you to open a calendar for reference, or to use advanced date range filters. Copilot is usually able to understand common expressions and business terms.
+
+Example 4: "How does I save my filterrings to do them later?"
+In this example, you ask Copilot for guidance on how to perform some task in Business Central. Copilot is usually able to understand the intent of your question, even if there are a few grammatical errors, spelling mistakes or abbreviations.
+
+This section provides example prompts for the different categories of questions you ask chat.
 
 ### Find business data
 
@@ -107,7 +121,7 @@ This sections provides example prompts for the different catagories of questions
 
 ### Get guidance 
 
-- You want to know how to xxxxx
+- You want to know how to save the filters you apply x
 
   Prompt: 
 
@@ -117,7 +131,7 @@ This sections provides example prompts for the different catagories of questions
 
 ## Provide feedback on answers
 
-You can rate the answers you get from Copilot by using the like (thumbs up) button for good rating or the dislike (thumbs down) button for a poor rating  [!INCLUDEprod_short]. This information us can p us improve suggestions. To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.
+You can rate the answers you get from Copilot by using the like (thumbs up) button for good rating or the dislike (thumbs down) button for a poor rating [!INCLUDEprod_short]. This information us can p us improve suggestions. To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.
 
 <!--
 1. If you want help getting you're question started, select the prompts either from the **Find**, **Explain**, or **Guide** buttons at the top of the Coplit pane or use the **View Prompts** menu above **Ask a question** box at the bottom.
@@ -126,5 +140,6 @@ You can rate the answers you get from Copilot by using the like (thumbs up) butt
 ## See also
 
 [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
+[Configure Copilot and AI capabilities](enable-ai.md)  
 [Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md)  
 [Resources for help in Business Central ](product-help-and-support.md)  

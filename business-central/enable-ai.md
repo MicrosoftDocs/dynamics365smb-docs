@@ -28,7 +28,7 @@ This article explains how to control Copilot and other AI capabilities in Busine
 
 - Enable the specific feature, if governed by **Feature Management**.
 
-  As of 2024 release wave 1, chat with Copilot, marketing text suggestions, and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)
+  Check whether  of 2024 release wave 1, chat with Copilot, marketing text suggestions, and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)
 
 If any of these requirements aren't fulfilled, the feature isn't available for use.
 

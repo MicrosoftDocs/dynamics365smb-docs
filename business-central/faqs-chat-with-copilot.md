@@ -1,7 +1,7 @@
 ---
 title: FAQs for chat (preview) with Copilot
 description: This FAQ provides information about the AI technology used for chatting with Copilot in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 01/10/2024
+ms.date: 02/27/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.keywords: copilot, AI, chat
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-These frequently asked questions (FAQ) describe the AI impact of Chat with Copilot in [!INCLUDE[prod_short](includes/prod_short.md)].
+These frequently asked questions (FAQ) describe the AI impact of Chat with Copilot in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ## What is Chat with Copilot?
 
-Chat with Copilot is an interactive feature that answers questions and finds business data related to Business Central, without users having to navigate the user interface or the product documentation. Chat with Copilot pane is available from anywhere in the Business Central client.
+Chat with Copilot, also referred as chat, is an interactive feature that answers questions and finds business data related to Business Central, without users having to navigate the user interface or the product documentation. The Copilot pane is available from anywhere in the Business Central client.
 
-Users ask questions in natural language, like "How do I deliver goods to my customers directly from my vendors?" or "Do we have any office chairs in stock for under $600?". In response, chat with Copilot provides answers in natural language. Depending on the questions, answers can include plain text, links to records or pages in Business Central, and links to Business Central help articles on Microsoft Learn.
+Users ask questions in natural language, like "How do I deliver goods to my customers directly from my vendors?" or "Do we have any office chairs in stock for under $600?". In response, Copilot provides answers in natural language. Depending on the questions, answers can include plain text, links to records or pages in Business Central, and links to Business Central help articles on Microsoft Learn.
 
 ## What are capabilities of Chat with Copilot?
 
-Chat with Copilot offers the following distinct skills:
+Chat offers the following distinct skills:
 
 ### Explain and guide
 
-Users can ask Copilot to expain a specific concept related to Business Central, like what are dimensions, or provide guidance on how to complete a task, like how to post a sales order. Chat with Copilot searches the official Business Central documentation published by Microsoft, and provides an answer based on the documentation.
+Users can ask Copilot to expain a specific concept related to Business Central, like what are dimensions, or provide guidance on how to complete a task, like how to post a sales order. Copilot searches the official Business Central documentation published by Microsoft, and provides an answer based on the documentation.
 
 - Copilot uses Microsoft Learn Knowledge Service (not Bing web search) to semantically search only Dynamics 365 Business Central documentation on Microsoft Learn. 
 
@@ -46,7 +46,7 @@ Users can ask questions about specific records/entities within the company in Bu
 
 ## What is the intended use of Chat with Copilot?
 
-Copilot has two intended uses:
+Chat has two intended uses:
 
 - Answer users' inquiries to explain a concept or provide instructions on how to accomplish some task in Business Central. 
 - Answer users inquiries to navigate to a specific Business Central page, or find one or more business records stored in the companies database and let the user choose to navigate them.
@@ -78,7 +78,7 @@ Users have the opportunity to provide feedback to report inappropriate content a
 
 - Language limitations
 
-  - Chat with Copilot is only supported in English for the following locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA.
+  - Chat is only supported in English for the following locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA.
 
     Inaccurate responses might be returned when users interact with the feature in languages other than the supported languages.
 
@@ -88,7 +88,7 @@ Users have the opportunity to provide feedback to report inappropriate content a
 
 - Specific industry, product, and topic limitations
 
-   Chat with Copilot includes built-in safety mechanisms that prevent the undesirable generation of harmful content, such as sexually explicit content or incitement of violence. Sometimes, customers operate in industries, sell products and services, or work with processes that naturally overlap with what might be considered inappropriate in other contexts, or work with data that might trigger these safeguards. Chat with Copilot might not perform as well in these cases.
+   Chat includes built-in safety mechanisms that prevent the undesirable generation of harmful content, such as sexually explicit content or incitement of violence. Sometimes, customers operate in industries, sell products and services, or work with processes that naturally overlap with what might be considered inappropriate in other contexts, or work with data that might trigger these safeguards. Chat might not perform as well in these cases.
 
 <!--## What operational factors and settings allow for effective and responsible use of the feature?-->
 
@@ -98,9 +98,9 @@ Microsoft doesn't use your company data, including the text you send to Copilot,
 
 ## What does Chat with Copilot offer for security
 
-Chat with Copilot is designed to be secure and executes under the user's identity, inheriting all security permissions and other restrictions and never operating outside of Business Central's platform security. This means that Copilot can only access data that the user has access to. For users that have SUPER permission, chat can more easily locate unsecured data that's typically harder to get to for other users.
+Chat is designed to be secure and executes under the user's identity, inheriting all security permissions and other restrictions and never operating outside of Business Central's platform security. This means that Copilot can only access data that the user has access to. For users that have SUPER permission, chat can more easily locate unsecured data that's typically harder to get to for other users.
 
-Organizations that don't apply Business Central's security model to restrict which tables and objects each user or user role has access to, might be at elevated risk when using chat. Therefore, we recommend that your organization either implements Business Central's security model or deactivates Chat with Copilot.
+Organizations that don't apply Business Central's security model to restrict which tables and objects each user or user role has access to, might be at elevated risk when using chat. Therefore, we recommend that your organization either implements Business Central's security model or deactivates chat.
 
 ## See also
 

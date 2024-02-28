@@ -50,17 +50,16 @@ To configure the Shopify shop, follow these steps:
 5. Turn on the **Inventory Tracked** toggle.
 6. Select *Deny* in the **Default Inventory Policy** field.
 7. Turn on the **Auto Create Unknown Customers** toggle.
-8. Fill in the **Customer Template Code** field with the appropriate template.
+8. Fill in the **Customer/Company Template Code** field with the appropriate template.
 9. Fill in the **Shipping Cost Account**, the **Tip Account** with the revenue account. For example, in the US, use `40210`.
 10. Turn on the **Auto Create Orders** toggle.
 
 Configure location mapping:
 
 1. Select the **Locations** action to open **Shopify Shop Locations**.
-2. Select the **Get Shopify Locations** action to import all locations defined in the Shopify. Select your default location in Shopify.
+2. Select the **Get Shopify Locations** action to import all locations defined in the Shopify. Select entry with **Is Primary** toggle is selected.
 3. In the **Location Filter**, enter `''|EAST|MAIN`.
-4. Turn on the **Default Product Location** toggle.
-5. Select *Projected Available Balance at Today* in the **Stock Calculation** field to enable an inventory sync for a selected Shopify location.
+4. Select *Projected Available Balance at Today* in the **Stock Calculation** field to enable an inventory sync for a selected Shopify location.
 
 ## Walkthrough: Start selling products online
 
@@ -75,10 +74,10 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], follow these steps:
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and select the related link.
 2. Select **Add Items**.
 3. In the **Shop Code** field, enter *DEMO1*.
-4. Set the filter `CHAIR` on the **Item Category Code** field (add filter field if necessary).
-5. Select **OK** and wait until initial synchronization of items and prices is completed.
-6. Select **Sync Product Images**.
-7. Select **Sync Inventory**.
+4. Set the filter `CHAIR` on the **Item Category Code** field .
+5. Turn on the **Sync Product Images** toggle.
+6. Turn on the **Sync Inventory** toggle.
+7. Select **OK** and wait until initial synchronization of items, prices, images and inventory is completed.
 
 In the **Shopify online store**:
 > [!Tip]  
@@ -99,7 +98,7 @@ Select **Buy it now** and proceed to checkout.
 4. Select the **Save this information for next time** checkbox.
 5. Select **Continue to shipping**.
 6. Keep `Standard` as the shipping method and then select the **Continue to payment** button.
-7. Select `10%` tip.
+7. Optional: Select `10%` tip.
 8. In the **Credit Card** field, enter `1` if you use *(for testing) Bogus Gateway*, or enter `5555 5555 5555 4444` if you use *Shopify payments* in test mode.
 9. Fill in the **Name on card** field.
 10. In the **Expiration date** field, enter the current month/year.
@@ -130,27 +129,43 @@ Now physical and financial data is registered in [!INCLUDE[prod_short](../includ
 
 In **Shopify Admin**, notice that the order is now marked as *Fulfilled*. You can also review shipment details and see the tracking URL there. If you run **Sync Orders From Shopify** again, the order will be archived in both systems.
 
-## Walkthrough: Invite your customers to your new online store
+## Walkthrough: Add your customers to your new online store
 
 ### Scenario
 
-After a successful quick launch of your new online store, you want your current customers to visit it and start placing orders.
+After a successful quick launch of your new online store, you want your current customers to visit it and start placing orders. Depending on your Shopify plan and process you can try B2B and D2C flow
 
-### Steps
+### D2C Steps
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following:
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and select the related link.
-2. Select the **DEMO1** Shop for which you want to synchronize customers to open the **Shopify Shop Card** page.
-3. Select **Sync Customers**.
+1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Customers**, and select the related link.
+2. Select **Add Customers**.
+3. In the **Shop Code** field, enter *DEMO1*.
+4. Set the filter `20000` on the **No.** field.
+5. Select **OK** and wait until initial synchronization of customers is completed.
 
-In **Shopify Admin**, notice that the customers were imported. Open one of the customers and notice that the first and last names of the customer are coming from the **Contact Name** field of the **Customer Card**. The company name can be found in the default address, linked to the customer. Select **Send account invite** to invite the customer.
+In **Shopify Admin**, notice that the customer was imported. Open the customers and notice that the first and last names of the customer are coming from the **Contact Name** field of the **Customer Card**. The company name can be found in the default address, linked to the customer. If you use *Classic customer accounts*, then you can select **Send account invite** to invite the customer. With *New customer accounts* a password isn't required for customers to log in, instead Shopify lets your customers log in using a one-time 6-digit verification code sent by email. 
+
+### B2B Steps
+
+In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following:
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Companies**, and select the related link.
+2. Select **Add Company**.
+3. In the **Shop Code** field, enter *DEMO1*.
+4. Set the filter `30000` on the **No.** field.
+5. Select **OK** and wait until initial synchronization of customers is completed.
+
+In **Shopify Admin**, notice that both the Company and the customer was imported. Open the customers and notice the Company fact box with link to Company, location and assigned permissions. 
+Select **Send B2B access email** to invite the customer.
+
 
 ## Walkthrough: Fine-tuning of item management
 
 ### Scenario 
 
-You'd like to add more flexibility and control to your processes around items management. You want to improve product descriptions and would like to add more review steps before products become available to customers.
+You'd like to add more flexibility and control to your processes around items management. You want to improve product descriptions and would like to add more review steps before products become available to all customers.
 
 ### Steps
 
@@ -161,17 +176,18 @@ Prepare data.
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Price Group**, and select the related link.
 2. Add a new price group. In the **Code** field, enter `SHOPIFY`.
 3. Close the **Customer Price Group** window.
-4. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and select the related link.
+  
+  
+5. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and select the related link.
 
 Select item **1896-S, Athens Desk** and then follow these steps:
 
 1. Select the **Variants** action and then add two variants: `PREMIUM, Athens Desk, Premium edition` and `ESSENTIAL, Athens Desk, Essential edition`.
-2. Select the **Extended Text** action and then create a new extended text valid for all language codes. In the **Description** field, enter `Shopify`. 
-3. Add the following text with HTML tags: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`. Close the **Extended Text** page and return to the item card.
+2. Select the **Marketing Text** action and use the **Draft with Copilot**  to get creative and engaging text. If marketing text suggestion is not enabled, just enter: '**Simple stylish design** blends with any ensemble. *Available in two editions.*'. 
 4. Select the **Sales Prices** action and add new prices as shown in the following table:
 
    |Line|Sales Type|Sales Code|Type|Code|Variant Code<br>(add the field via personalization)|Unit Price|
-   |------|------------|------------|------------|------------|------------|------------|
+   |------|------------|------------|------------|----------------|------------|------------|
    |1|Customer Price Group|SHOPIFY|Item|1896-S|ESSENTIAL|700|
    |2|Customer Price Group|SHOPIFY|Item|1896-S|PREMIUM|1000|
 
@@ -203,10 +219,11 @@ Adjust the synchronization settings.
 2. Select the *DEMO1* shop for which you want to synchronize items to open the **Shopify Shop Card** page.
 3. Select *SHOPIFY* in the **Customer Price Group** field.
 4. Select *RETAIL* in the **Customer Discount Group** field.
-5. Enable the **Sync Item Extended Text** field.
+5. Enable the **Sync Marketing Text** field.
 6. Select *Item No.+ Variant Code* in the **SKU Mapping** field.
-7. Select *Draft* in the **Status for Created Products** field.
-8. Select *Status to Archived* in the **Action for Removed Product** field.
+7. Select *Continue* in the **Default Inventory Policy** field.
+8. Select *Draft* in the **Status for Created Products** field.
+9. Select *Status to Archived* in the **Action for Removed Product** field.
 
 Run the synchronization.
 
@@ -215,8 +232,9 @@ Run the synchronization.
 3. Select **Products** to open the **Shopify Products** window.
 4. Select the **Add Items** action.
 5. Set the filter *TABLE|DESK* on the **Item Category Code** field.
-6. Select **Sync Product Images**.
-7. Select **Sync Inventory**.
+6. Turn on the **Sync Product Images** toggle.
+7. Turn on the **Sync Inventory** toggle.
+8. Select **OK** and wait until initial synchronization of items, prices, images and inventory is completed.
 
 Products are added. Notice that the status is set to *Draft*, and therefore items aren't visible in the Shopify online store.
 
@@ -238,6 +256,49 @@ Notice that Inventory for ANTWERP Conference Table is 100, because we configured
 * Change the status of *Athens Desk* to *Active* and select **Preview**.
 
 In the **Shopify online store**, open the product catalog and find the *ATHENS Desk* product. Notice that different options are available. For different options, prices are different. Pay attention to discount information.
+
+### Additional steps for B2B
+
+In **Shopify Admin** 
+You can configure connector to create and assign catalog for exported Companies automatically. The steps below are useful if you want more precise control of what is available for B2B customers.
+
+Create and assign catalog.
+
+1. Select **Products** and then **Catalogs** in the sidebar of **Shopify admin**.
+2. Create catalog for Specific products. Give in title *B2B*. 
+3. Choose **Manage** and then **Manage products and pricing**.
+4. Select *All* filter, find *ATHERN Desk* and choose **Include in catalog**.
+5. Select **Customers** and then **Companies** in the sidebar of **Shopify admin**.
+6. Select *School of Fine Art* and choose **[...]** and then **Add catalogs** and add *B2B* catalog created earlier.
+
+In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following:
+
+Prepare data.
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and select the related link.
+
+Select item **1896-S, Athens Desk** and then follow these steps:
+
+2. Select the **Sales Discounts** action and add a new discount:
+
+   * **Sales Type** *Customer Disc. Group*
+   * **Sales Code** *LARGE ACC*
+   * **Type** *Item*
+   * **Code** *1896-S*
+   * **Unit of Measure Code** *PCS*
+   * **Line Discount %** *25*
+
+3. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
+2. Select **Get Catalogs**.
+3. In the **Shop Code** field, enter *DEMO1*.
+4. Select entry with name *B2B* catalog for which you want to synchronize prices.
+5. Enable the **Sync Prices** toggle.
+6. Select *SHOPIFY* in the **Customer Price Group** field.
+4. Select *LARGE ACC* in the **Customer Discount Group** field.
+5. Choose **Sync Prices** and wait until synchronization of prices is completed.
+
+In **Shopify Admin**, explore prices for *B2B* catalog.
+Login to online store on behalf of *School of Fine Art* company and try to purchase **ATHEN Desc** on behalf of *School of Fine Art* and as private customer. Compare prices, compare products available.
 
 ## Walkthrough: Import items from Shopify
 
@@ -268,7 +329,9 @@ Configure the Shopify shop as described here:
 1. Fill in the **Item Template Code** field with the appropriate template.
 1. Select *From Shopify* in the **Sync Item Images** field.
 1. Select *All Customers* in **Customer Import from Shopify**.
-1. Enable the **Auto Create Unknown Customers** toggle.
+1. Enable the **Auto Create Unknown Customer** toggle.
+2. Select *All Customers* in **Company Import from Shopify**.
+1. Enable the **Auto Create Unknown Company** toggle.
 
 #### Run the synchronization
 
@@ -277,6 +340,7 @@ Configure the Shopify shop as described here:
 3. Select **Sync Products**.
 4. Select **Sync Product Images**.
 5. Select **Sync Customers**.
+6. Select **Sync Companies**
 
 ### Results
 

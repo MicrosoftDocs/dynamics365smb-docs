@@ -65,7 +65,7 @@ Chat with Copilot circumvents the need to navigate the user interface or product
 
 ## Clear chat to start over
 
-If you want to switch to a different topic of conversation with Copilot, select the **Start a new Copilot chat session** icon at the bottom of the Copilot pane above the question box. This action clears Copilot's memory of your last few messages. Starting over is often helpful after a lengthy conversation with many messages, and it can help Copilot deliver more accurate answers.
+If you want to switch to a different topic of conversation with Copilot, select the **Start a new Copilot chat session** ![Shows the clear chat icon](media/clear-chat-icon.png) icon at the bottom of the Copilot pane above the question box. This action clears Copilot's memory of your last few messages. Starting over is often helpful after a lengthy conversation with many messages, and it can help Copilot deliver more accurate answers.
 
 The chat is also cleared if you close or sign out of Business Central.
 

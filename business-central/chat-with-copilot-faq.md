@@ -12,7 +12,7 @@ ms.custom: bap-template jswymer
 ---
 # Chat with Copilot FAQ
 
-This article answers common questions about chat in Business Central.
+This article answers some common questions about chatting with Coplit in Business Central. The questions pertain to . For questions related to AI of chat, go to []() 
 
 ## Can admins grant or deny permission to individual users to get access to chat?
 

@@ -53,6 +53,7 @@ To configure the Shopify shop, follow these steps:
 8. Fill in the **Customer/Company Template Code** field with the appropriate template.
 9. Fill in the **Shipping Cost Account**, the **Tip Account** with the revenue account. For example, in the US, use `40210`.
 10. Turn on the **Auto Create Orders** toggle.
+11. Turn off the **Auto Release Sales Orders** toggle.
 
 Configure location mapping:
 
@@ -117,8 +118,7 @@ The imported order is ready for processing.
 2. Notice that the new customer and sales orders are created.
 3. Explore the **Risk** and **Shipping Cost** actions.
 4. Select **Sales Order** to open the **Sales Order** window. Sales order is a demand that, if necessary, can be covered with assembly, production, or by purchase with the help of the planning engine. It also supports various warehouse handling processes with complete separation of duties.
-5. Select the **Reopen** action.
-6. In the **Agent** field, enter `DHL`.
+6. In the **Agent** field, enter `DHL`. Reopen order if needed by choosing **Reopen** action.
 7. In the **Package Tracking No.**, enter `123456789`.
 8. Select **Post**, keep the **Ship and Invoice** option, and then select **OK**.
 
@@ -133,7 +133,7 @@ In **Shopify Admin**, notice that the order is now marked as *Fulfilled*. You ca
 
 ### Scenario
 
-After a successful quick launch of your new online store, you want your current customers to visit it and start placing orders. Depending on your Shopify plan and process you can try B2B and D2C flow
+After a successful quick launch of your new online store, you want your current customers to visit it and start placing orders. Depending on your Shopify plan and process you can try B2B and D2C flows.
 
 ### D2C Steps
 
@@ -158,7 +158,7 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following:
 5. Select **OK** and wait until initial synchronization of customers is completed.
 
 In **Shopify Admin**, notice that both the Company and the customer was imported. Open the customers and notice the Company fact box with link to Company, location and assigned permissions. 
-Select **Send B2B access email** to invite the customer.
+Select **[...]** in the **Copmany fact box, then select **Send B2B access email** to invite the customer.
 
 
 ## Walkthrough: Fine-tuning of item management
@@ -217,14 +217,14 @@ Adjust the synchronization settings.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and select the related link.
 2. Select the *DEMO1* shop for which you want to synchronize items to open the **Shopify Shop Card** page.
-3. Select *SHOPIFY* in the **Customer Price Group** field.
-4. Select *RETAIL* in the **Customer Discount Group** field.
-5. Enable the **Sync Marketing Text** field.
-6. Select *Item No.+ Variant Code* in the **SKU Mapping** field.
-7. Select *Continue* in the **Default Inventory Policy** field.
-8. Select *Draft* in the **Status for Created Products** field.
-9. Select *Status to Archived* in the **Action for Removed Product** field.
-
+3. Enable the **Sync Marketing Text** field.
+4. Select *Item No.+ Variant Code* in the **SKU Mapping** field.
+5. Select *Continue* in the **Default Inventory Policy** field.
+6. Select *Draft* in the **Status for Created Products** field.
+7. Select *Status to Archived* in the **Action for Removed Product** field.
+8. Select *SHOPIFY* in the **Customer Price Group** field.
+9. Select *RETAIL* in the **Customer Discount Group** field.
+ 
 Run the synchronization.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and select the related link.
@@ -259,15 +259,15 @@ In the **Shopify online store**, open the product catalog and find the *ATHENS D
 
 ### Additional steps for B2B
 
-In **Shopify Admin** 
+
 You can configure connector to create and assign catalog for exported Companies automatically. The steps below are useful if you want more precise control of what is available for B2B customers.
 
-Create and assign catalog.
+In **Shopify Admin**cCreate and assign catalog.
 
 1. Select **Products** and then **Catalogs** in the sidebar of **Shopify admin**.
 2. Create catalog for Specific products. Give in title *B2B*. 
 3. Choose **Manage** and then **Manage products and pricing**.
-4. Select *All* filter, find *ATHERN Desk* and choose **Include in catalog**.
+4. Select *Excluded* filter, find *ATHERN Desk* and choose **Include in catalog**.
 5. Select **Customers** and then **Companies** in the sidebar of **Shopify admin**.
 6. Select *School of Fine Art* and choose **[...]** and then **Add catalogs** and add *B2B* catalog created earlier.
 
@@ -298,7 +298,39 @@ Select item **1896-S, Athens Desk** and then follow these steps:
 5. Choose **Sync Prices** and wait until synchronization of prices is completed.
 
 In **Shopify Admin**, explore prices for *B2B* catalog.
+
+In the **Shopify online store**, open the product catalog and find the *ATHENS Desk* product. Note prices are discount information.
 Login to online store on behalf of *School of Fine Art* company and try to purchase **ATHEN Desc** on behalf of *School of Fine Art* and as private customer. Compare prices, compare products available.
+
+## Check out experience as Individual and Company representative
+
+Individual buyer
+
+1. In the **Shopify online store**. Choose **Account** icon. Enter email you have access to.
+2. Log in using a one-time 6-digit verification code sent by email you entered.
+3. Explore product catalog, you should be able to see all products with retail prices.
+4. Select Essential variant and select **Buy it now** and proceed to checkout.
+5. In the **First name** and **Last name** fields, enter `Claudia Lawson`.
+6. Enter the local address.
+7. Keep `Standard` as the shipping method.
+8. In the **Credit Card Number** field, enter `1` if you use *(for testing) Bogus Gateway*, or enter `5555 5555 5555 4444` if you use *Shopify payments* in test mode.
+9. In the **Expiration date** field, enter the current month/year.
+10. In the **Security code**, enter `111`.
+11. Fill in the **Name on card** field.
+12. Select **Pay now**.
+ 
+Company representative
+
+6. In **Shopify Admin**.
+7. Select **Customers** and then **Companies** in the sidebar of **Shopify admin**.
+8. Open *School of Fine Art* entry.
+9. Choose **[...]** in the **Shcool of Fine Art** faxt box and then **Edit payment terms** and select *Due on fulfillment*.
+10. Choose **[...]** in the **Customers** faxt box and then **Add customer** and add one with email you used to log in to the store earlier.
+
+1. In the **Shopify online store**. Choose **Account** icon. Enter email you have access to.
+2. Log in using a one-time 6-digit verification code sent by email you entered.
+3. Explore product catalog, you should be able to see only product added to the *B2B* catalog with retail special prices.
+   
 
 ## Walkthrough: Import items from Shopify
 

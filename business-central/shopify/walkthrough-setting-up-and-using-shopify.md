@@ -175,22 +175,19 @@ Prepare data.
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer Price Group**, and select the related link.
 2. Add a new price group. In the **Code** field, enter `SHOPIFY`.
 3. Close the **Customer Price Group** window.
-  
-  
-5. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and select the related link.
+4. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and select the related link.
+5. Select item *1896-S, Athens Desk* and then follow these steps:
 
-Select item *1896-S, Athens Desk* and then follow these steps:
-
-1. Select the **Variants** action and then add two variants: `PREMIUM, Athens Desk, Premium edition` and `ESSENTIAL, Athens Desk, Essential edition`.
-2. Select the **Marketing Text** action and use the **Draft with Copilot**  to get creative and engaging text. If marketing text suggestion is not enabled, just enter: '**Simple stylish design** blends with any ensemble. *Available in two editions.*'. 
-4. Select the **Sales Prices** action and add new prices as shown in the following table:
+6. Select the **Variants** action and then add two variants: `PREMIUM, Athens Desk, Premium edition` and `ESSENTIAL, Athens Desk, Essential edition`.
+7. Select the **Marketing Text** action and use the **Draft with Copilot**  to get creative and engaging text. If marketing text suggestion is not enabled, just enter: '**Simple stylish design** blends with any ensemble. *Available in two editions.*'. 
+8. Select the **Sales Prices** action and add new prices as shown in the following table:
 
    |Line|Sales Type|Sales Code|Type|Code|Variant Code<br>(add the field via personalization)|Unit Price|
    |------|------------|------------|------------|----------------|------------|------------|
    |1|Customer Price Group|SHOPIFY|Item|1896-S|ESSENTIAL|700|
    |2|Customer Price Group|SHOPIFY|Item|1896-S|PREMIUM|1000|
 
-5. Select the **Sales Discounts** action and add a new discount:
+9. Select the **Sales Discounts** action and add a new discount:
 
    * **Sales Type** *Customer Disc. Group*
    * **Sales Code** *RETAIL*
@@ -199,7 +196,7 @@ Select item *1896-S, Athens Desk* and then follow these steps:
    * **Unit of Measure Code** *PCS*
    * **Line Discount %** *10*
 
-6. Select the **Item References** action and the following add lines:
+10. Select the **Item References** action and the following add lines:
 
    |Line|Reference Type|Reference No.|Variant Code|
    |------|------------|------------|------------|
@@ -207,10 +204,9 @@ Select item *1896-S, Athens Desk* and then follow these steps:
    |2|Barcode|11111111|PREMIUM|
 
 
-Select the item *1920-S, ANTWERP Conference Table* and then follow these steps:
-
-1. Select **Adjust Inventory** and in the **New Inventory** field, enter `100` for the locations *EAST* and *WEST*. 
-2. Select **OK**.
+11. Select the item *1920-S, ANTWERP Conference Table* and then follow these steps:
+12. Select **Adjust Inventory** and in the **New Inventory** field, enter `100` for the locations *EAST* and *WEST*. 
+13. Select **OK**.
 
 Adjust the synchronization settings.
 
@@ -275,9 +271,9 @@ Prepare data.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and select the related link.
 
-Select item **1896-S, Athens Desk** and then follow these steps:
+2. Select item **1896-S, Athens Desk** and then follow these steps:
 
-2. Select the **Sales Discounts** action and add a new discount:
+3. Select the **Sales Discounts** action and add a new discount:
 
    * **Sales Type** *Customer Disc. Group*
    * **Sales Code** *LARGE ACC*
@@ -286,14 +282,14 @@ Select item **1896-S, Athens Desk** and then follow these steps:
    * **Unit of Measure Code** *PCS*
    * **Line Discount %** *25*
 
-3. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
-2. Select **Get Catalogs**.
-3. In the **Shop Code** field, enter `DEMO1`.
-4. Select entry with name *B2B* catalog for which you want to synchronize prices.
-5. Enable the **Sync Prices** toggle.
-6. Select *SHOPIFY* in the **Customer Price Group** field.
-4. Select *LARGE ACC* in the **Customer Discount Group** field.
-5. Choose **Sync Prices** and wait until synchronization of prices is completed.
+4. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
+5. Select **Get Catalogs**.
+6. In the **Shop Code** field, enter `DEMO1`.
+7. Select entry with name *B2B* catalog for which you want to synchronize prices.
+8. Enable the **Sync Prices** toggle.
+9. Select *SHOPIFY* in the **Customer Price Group** field.
+10. Select *LARGE ACC* in the **Customer Discount Group** field.
+11. Choose **Sync Prices** and wait until synchronization of prices is completed.
 
 In **Shopify Admin**, explore prices for *B2B* catalog.
 
@@ -319,19 +315,18 @@ Individual buyer
  
 Company representative
 
-6. In **Shopify Admin**.
-7. Select **Customers** and then **Companies** in the sidebar of **Shopify admin**.
-8. Open *School of Fine Art* entry.
-9. Choose **[...]** in the **Shcool of Fine Art** faxt box and then **Edit payment terms** and select *Due on fulfillment*.
-10. Choose **[...]** in the **Customers** faxt box and then **Add customer** and add one with email you used to log in to the store earlier.
-
-1. In the **Shopify online store**. Choose **Account** icon. Enter email you have access to.
-2. Log in using a one-time 6-digit verification code sent by email you entered.
-3. Explore product catalog, you should be able to see only product added to the *B2B* catalog with retail special prices.
-4. Select Essential variant and select **Buy it now** and proceed to checkout.
-5. Notice that account, Ship to, payment method are populated.
-6. Fill in the **PO Number** fied with `PO-12345`.
-13. Select **Submit order**.
+1. In **Shopify Admin**.
+2. Select **Customers** and then **Companies** in the sidebar of **Shopify admin**.
+3. Open *School of Fine Art* entry.
+4. Choose **[...]** in the **Shcool of Fine Art** faxt box and then **Edit payment terms** and select *Due on fulfillment*.
+5. Choose **[...]** in the **Customers** faxt box and then **Add customer** and add one with email you used to log in to the store earlier.
+6. In the **Shopify online store**. Choose **Account** icon. Enter email you have access to.
+7. Log in using a one-time 6-digit verification code sent by email you entered.
+8. Explore product catalog, you should be able to see only product added to the *B2B* catalog with retail special prices.
+9. Select Essential variant and select **Buy it now** and proceed to checkout.
+10. Notice that account, Ship to, payment method are populated.
+11. Fill in the **PO Number** fied with `PO-12345`.
+12. Select **Submit order**.
  
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the next steps:
 
@@ -370,16 +365,16 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], follow the steps listed ne
 Configure the Shopify shop as described here:
 
 1. Deactivate the **Allow Background Syncs** toggle.
-1. Select *From Shopify* in the **Sync Item** field.
-1. Enable the **Auto Create Unknown Items** toggle.
-1. Fill in the **Item Template Code** field with the appropriate template.
-1. Select *From Shopify* in the **Sync Item Images** field.
-2. Select *Item No.+ Variant Code* in the **SKU Mapping** field.
-1. Select *All Customers* in **Customer Import from Shopify**.
-1. Enable the **Auto Create Unknown Customer** toggle.
-2. Fill in the **Customer/Company Template Code** field with the appropriate template.
-3. Select *All Customers* in **Company Import from Shopify**.
-1. Enable the **Auto Create Unknown Company** toggle.
+2. Select *From Shopify* in the **Sync Item** field.
+3. Enable the **Auto Create Unknown Items** toggle.
+4. Fill in the **Item Template Code** field with the appropriate template.
+5. Select *From Shopify* in the **Sync Item Images** field.
+6. Select *Item No.+ Variant Code* in the **SKU Mapping** field.
+7. Select *All Customers* in **Customer Import from Shopify**.
+8. Enable the **Auto Create Unknown Customer** toggle.
+9. Fill in the **Customer/Company Template Code** field with the appropriate template.
+10. Select *All Customers* in **Company Import from Shopify**.
+11. Enable the **Auto Create Unknown Company** toggle.
 
 #### Run the synchronization
 
@@ -395,7 +390,7 @@ Configure the Shopify shop as described here:
 * Shopify Products are imported. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and select the related link.
 * Items with images are created. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item**, and select the related link.
 * Shopify Customers are imported. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Customers**, and select the related link.
-* * Shopify Companies are imported. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Companies**, and select the related link.
+* Shopify Companies are imported. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Companies**, and select the related link.
 * Customers are created. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and select the related link.
 
 

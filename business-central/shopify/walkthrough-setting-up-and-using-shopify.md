@@ -4,7 +4,7 @@ description: Various integration scenarios for demonstrating workflow between Sh
 ms.date: 06/21/2022
 ms.topic: article
 ms.service: dynamics-365-business-central
-ms.search.form: 30101, 30102, 30106, 30107, 30113, 30115, 30126
+ms.search.form: 30101, 30102, 30106, 30107, 30113, 30115, 30126, 30156, 30157
 ms.reviewer: solsen
 author: brentholtorf
 ms.author: bholtorf
@@ -74,7 +74,7 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], follow these steps:
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and select the related link.
 2. Select **Add Items**.
-3. In the **Shop Code** field, enter *DEMO1*.
+3. In the **Shop Code** field, enter `DEMO1`.
 4. Set the filter `CHAIR` on the **Item Category Code** field .
 5. Turn on the **Sync Product Images** toggle.
 6. Turn on the **Sync Inventory** toggle.
@@ -97,14 +97,13 @@ Select **Buy it now** and proceed to checkout.
 2. In the **First name** and **Last name** fields, enter `Claudia Lawson`.
 3. Enter the local address.
 4. Select the **Save this information for next time** checkbox.
-5. Select **Continue to shipping**.
-6. Keep `Standard` as the shipping method and then select the **Continue to payment** button.
-7. Optional: Select `10%` tip.
-8. In the **Credit Card** field, enter `1` if you use *(for testing) Bogus Gateway*, or enter `5555 5555 5555 4444` if you use *Shopify payments* in test mode.
+6. Keep *Standard* as the shipping method.
+8. In the **Credit Card number** field, enter `1` if you use *(for testing) Bogus Gateway*, or enter `5555 5555 5555 4444` if you use *Shopify payments* in test mode.
 9. Fill in the **Name on card** field.
 10. In the **Expiration date** field, enter the current month/year.
 11. In the **Security code**, enter `111`.
-12. Select **Pay now**.
+7. Optional: Select `10%` tip.
+8. 12. Select **Pay now**.
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the next steps:
 
@@ -141,7 +140,7 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following:
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Customers**, and select the related link.
 2. Select **Add Customers**.
-3. In the **Shop Code** field, enter *DEMO1*.
+3. In the **Shop Code** field, enter `DEMO1`.
 4. Set the filter `20000` on the **No.** field.
 5. Select **OK** and wait until initial synchronization of customers is completed.
 
@@ -153,7 +152,7 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following:
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Companies**, and select the related link.
 2. Select **Add Company**.
-3. In the **Shop Code** field, enter *DEMO1*.
+3. In the **Shop Code** field, enter `DEMO1`.
 4. Set the filter `30000` on the **No.** field.
 5. Select **OK** and wait until initial synchronization of customers is completed.
 
@@ -180,7 +179,7 @@ Prepare data.
   
 5. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and select the related link.
 
-Select item **1896-S, Athens Desk** and then follow these steps:
+Select item *1896-S, Athens Desk* and then follow these steps:
 
 1. Select the **Variants** action and then add two variants: `PREMIUM, Athens Desk, Premium edition` and `ESSENTIAL, Athens Desk, Essential edition`.
 2. Select the **Marketing Text** action and use the **Draft with Copilot**  to get creative and engaging text. If marketing text suggestion is not enabled, just enter: '**Simple stylish design** blends with any ensemble. *Available in two editions.*'. 
@@ -208,7 +207,7 @@ Select item **1896-S, Athens Desk** and then follow these steps:
    |2|Barcode|11111111|PREMIUM|
 
 
-Select the item **1920-S, ANTWERP Conference Table** and then follow these steps:
+Select the item *1920-S, ANTWERP Conference Table* and then follow these steps:
 
 1. Select **Adjust Inventory** and in the **New Inventory** field, enter `100` for the locations *EAST* and *WEST*. 
 2. Select **OK**.
@@ -216,7 +215,7 @@ Select the item **1920-S, ANTWERP Conference Table** and then follow these steps
 Adjust the synchronization settings.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and select the related link.
-2. Select the *DEMO1* shop for which you want to synchronize items to open the **Shopify Shop Card** page.
+2. Select the `DEMO1` shop for which you want to synchronize items to open the **Shopify Shop Card** page.
 3. Enable the **Sync Marketing Text** field.
 4. Select *Item No.+ Variant Code* in the **SKU Mapping** field.
 5. Select *Continue* in the **Default Inventory Policy** field.
@@ -228,7 +227,7 @@ Adjust the synchronization settings.
 Run the synchronization.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shops**, and select the related link.
-2. Select the *DEMO1* shop for which you want to synchronize items to open the **Shopify Shop Card** page.
+2. Select the `DEMO1` shop for which you want to synchronize items to open the **Shopify Shop Card** page.
 3. Select **Products** to open the **Shopify Products** window.
 4. Select the **Add Items** action.
 5. Set the filter *TABLE|DESK* on the **Item Category Code** field.
@@ -259,13 +258,12 @@ In the **Shopify online store**, open the product catalog and find the *ATHENS D
 
 ### Additional steps for B2B
 
-
 You can configure connector to create and assign catalog for exported Companies automatically. The steps below are useful if you want more precise control of what is available for B2B customers.
 
 In **Shopify Admin**cCreate and assign catalog.
 
 1. Select **Products** and then **Catalogs** in the sidebar of **Shopify admin**.
-2. Create catalog for Specific products. Give in title *B2B*. 
+2. Create catalog for Specific products. Give in title 'B2B'. 
 3. Choose **Manage** and then **Manage products and pricing**.
 4. Select *Excluded* filter, find *ATHERN Desk* and choose **Include in catalog**.
 5. Select **Customers** and then **Companies** in the sidebar of **Shopify admin**.
@@ -290,7 +288,7 @@ Select item **1896-S, Athens Desk** and then follow these steps:
 
 3. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
 2. Select **Get Catalogs**.
-3. In the **Shop Code** field, enter *DEMO1*.
+3. In the **Shop Code** field, enter `DEMO1`.
 4. Select entry with name *B2B* catalog for which you want to synchronize prices.
 5. Enable the **Sync Prices** toggle.
 6. Select *SHOPIFY* in the **Customer Price Group** field.
@@ -300,9 +298,9 @@ Select item **1896-S, Athens Desk** and then follow these steps:
 In **Shopify Admin**, explore prices for *B2B* catalog.
 
 In the **Shopify online store**, open the product catalog and find the *ATHENS Desk* product. Note prices are discount information.
-Login to online store on behalf of *School of Fine Art* company and try to purchase **ATHEN Desc** on behalf of *School of Fine Art* and as private customer. Compare prices, compare products available.
 
-## Check out experience as Individual and Company representative
+## Walkthrough: Check out and order synchronization for Individual buyer and Company representative
+This is a continuation of [Walkthrough: Start selling products online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). You can also try with your own data—for example, your Shopify store or sandbox.
 
 Individual buyer
 
@@ -310,9 +308,9 @@ Individual buyer
 2. Log in using a one-time 6-digit verification code sent by email you entered.
 3. Explore product catalog, you should be able to see all products with retail prices.
 4. Select Essential variant and select **Buy it now** and proceed to checkout.
-5. In the **First name** and **Last name** fields, enter `Claudia Lawson`.
+5. Fill in the **First name** and **Last name** fields.
 6. Enter the local address.
-7. Keep `Standard` as the shipping method.
+7. Keep *Standard* as the shipping method.
 8. In the **Credit Card Number** field, enter `1` if you use *(for testing) Bogus Gateway*, or enter `5555 5555 5555 4444` if you use *Shopify payments* in test mode.
 9. In the **Expiration date** field, enter the current month/year.
 10. In the **Security code**, enter `111`.
@@ -330,9 +328,25 @@ Company representative
 1. In the **Shopify online store**. Choose **Account** icon. Enter email you have access to.
 2. Log in using a one-time 6-digit verification code sent by email you entered.
 3. Explore product catalog, you should be able to see only product added to the *B2B* catalog with retail special prices.
-   
+4. Select Essential variant and select **Buy it now** and proceed to checkout.
+5. Notice that account, Ship to, payment method are populated.
+6. Fill in the **PO Number** fied with `PO-12345`.
+13. Select **Submit order**.
+ 
+In [!INCLUDE[prod_short](../includes/prod_short.md)], do the next steps:
 
-## Walkthrough: Import items from Shopify
+1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Orders**, and then select the related link.
+2. Select the **Sync Orders From Shopify** action.
+3. Select **OK**.
+
+The imported order is ready for processing.
+
+1. Select the imported order to open the **Shopify Order** window.
+2. Notice that the though both orders were submitted by same person, they are linked to two different customers. 
+3. In the order submitted on behalf of company you can see value in **PO Number** field, which is also transferred to the **External Document No.** field of created sales document.
+4. Because we configured B2B Company to handle payments outside of Shopify the **Financial Status** is set to *Pending*. Once you received paiment, select the **Mark as Paid** action. Financial status will be updated in Shopify. 
+
+## Walkthrough: Import items, customers, companies from Shopify
 
 ### Scenario 
 
@@ -340,7 +354,7 @@ You already have a successful online store and would like to start using [!INCLU
 
 ### Steps
 
-This is a continuation of [Walkthrough: Start selling products online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). You can also try with your own data—for example, your Shopify store or sandbox.
+This is a continuation of [Walkthrough: Start selling products online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online) and [Walkthrough: Add your customers to your new online store](walkthrough-setting-up-and-using-shopify.md#walkthrough-add-your-customers-to-your-new-online-store). You can also try with your own data—for example, your Shopify store or sandbox.
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], follow the steps listed next.
 
@@ -360,9 +374,11 @@ Configure the Shopify shop as described here:
 1. Enable the **Auto Create Unknown Items** toggle.
 1. Fill in the **Item Template Code** field with the appropriate template.
 1. Select *From Shopify* in the **Sync Item Images** field.
+2. Select *Item No.+ Variant Code* in the **SKU Mapping** field.
 1. Select *All Customers* in **Customer Import from Shopify**.
 1. Enable the **Auto Create Unknown Customer** toggle.
-2. Select *All Customers* in **Company Import from Shopify**.
+2. Fill in the **Customer/Company Template Code** field with the appropriate template.
+3. Select *All Customers* in **Company Import from Shopify**.
 1. Enable the **Auto Create Unknown Company** toggle.
 
 #### Run the synchronization
@@ -379,6 +395,7 @@ Configure the Shopify shop as described here:
 * Shopify Products are imported. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Products**, and select the related link.
 * Items with images are created. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item**, and select the related link.
 * Shopify Customers are imported. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Customers**, and select the related link.
+* * Shopify Companies are imported. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Companies**, and select the related link.
 * Customers are created. To verify, select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and select the related link.
 
 

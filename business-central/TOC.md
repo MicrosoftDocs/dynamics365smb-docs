@@ -556,6 +556,7 @@ ms.service: dynamics-365-business-central
 ### [Record usage for jobs](projects-how-record-job-usage.md)
 ### [Manage job supplies](projects-how-manage-project-supplies.md)
 ### [Understand WIP methods](projects-understanding-wip.md)
+### [Assemble to project](projects-assemble-to-project.md)
 ### [Monitor job progress and performance](projects-how-monitor-progress-performance.md)
 ### [Invoice jobs](projects-how-invoice-jobs.md)
 

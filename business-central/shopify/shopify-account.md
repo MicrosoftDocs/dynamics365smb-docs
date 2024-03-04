@@ -1,7 +1,7 @@
 ---
 title: Create and Set up a Shopify Account
 description: Learn how to get a Shopify account so you can demonstrate the workflow for integrating Shopify and Business Central.
-ms.date: 06/21/2022
+ms.date: 03/04/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: 30101, 30102 
@@ -11,6 +11,8 @@ ms.author: bholtorf
 ---
 
 # Create and Set up a Shopify Account
+
+
 
 If you're considering whether to use Shopify as your e-Commerce solution and need a Shopify account to validate integrated workflow, you have the following options:
 

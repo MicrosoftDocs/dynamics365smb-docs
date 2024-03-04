@@ -6,4 +6,5 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-This feature is currently in preview so that our customers and partners can provide feedback. It'll become a standard feature in 2024 release wave 1. 
+> [!NOTE]
+> This feature is currently in preview so that our customers and partners can provide feedback. It'll become a standard feature in 2024 release wave 1. 

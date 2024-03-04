@@ -148,6 +148,8 @@ In **Shopify Admin**, notice that the customer was imported. Open the customers 
 
 ### B2B Steps
 
+[!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
+
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following:
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Companies**, and select the related link.
@@ -158,7 +160,6 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following:
 
 In **Shopify Admin**, notice that both the Company and the customer was imported. Open the customers and notice the Company fact box with link to Company, location and assigned permissions. 
 Select **[...]** in the **Copmany fact box, then select **Send B2B access email** to invite the customer.
-
 
 ## Walkthrough: Fine-tuning of item management
 
@@ -202,7 +203,6 @@ Prepare data.
    |------|------------|------------|------------|
    |1|Barcode|77777777|ESSENTIAL|
    |2|Barcode|11111111|PREMIUM|
-
 
 11. Select the item *1920-S, ANTWERP Conference Table* and then follow these steps:
 12. Select **Adjust Inventory** and in the **New Inventory** field, enter `100` for the locations *EAST* and *WEST*. 
@@ -253,6 +253,8 @@ Notice that Inventory for ANTWERP Conference Table is 100, because we configured
 In the **Shopify online store**, open the product catalog and find the *ATHENS Desk* product. Notice that different options are available. For different options, prices are different. Pay attention to discount information.
 
 ### Additional steps for B2B
+
+[!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
 You can configure connector to create and assign catalog for exported Companies automatically. The steps below are useful if you want more precise control of what is available for B2B customers.
 
@@ -314,6 +316,8 @@ Individual buyer
 12. Select **Pay now**.
  
 Company representative
+
+[!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
 1. In **Shopify Admin**.
 2. Select **Customers** and then **Companies** in the sidebar of **Shopify admin**.

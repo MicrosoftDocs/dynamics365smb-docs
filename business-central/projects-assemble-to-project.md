@@ -37,7 +37,7 @@ This section describes known limitations for assemble to project.
 
 * The **Quantity to Assemble to Order** field isn't available for projects that are closed.
 * For warehouse pick scenarios, the **Quantity to Assemble to Order** can be either zero or equal to the quantity. You can't mix assemble to order and assemble to stock on a project planning line. You must create separate project planning lines.
-* Assemble to order doesn't affect billable parts of a project. An assembly is included on sales invoices, but not its components. You can't edit the **Quantity to Assemble to Order** field for billable lines, including (not Budget+Billable).
+* Assemble to order doesn't affect billable parts of a project. An assembly is included on sales invoices, but not its components. You can't edit the **Quantity to Assemble to Order** field for billable lines.
 * Order planning and the planning worksheet aren't affected because the project is the input for planning. The planning engine considers the assembly as demand.
 * You can't enter a negative quantity in the **Quantity to Assemble to Order** field.
 * You can't undo an assembly.

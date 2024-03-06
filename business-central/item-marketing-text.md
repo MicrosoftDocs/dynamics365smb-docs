@@ -48,7 +48,7 @@ Complete the following steps to add marketing text to an existing item. To learn
 
    - Double-click the item or select its value in the **No.** column.
 
-2. From the item card, there are two ways to get started writing marketing text with Copilot: from the **Marketing Text** FactBox or using the **Marketing text** action. These methods are indicated in the following figure of an item card.  
+1. From the item card, there are two ways to get started writing marketing text with Copilot: from the **Marketing Text** FactBox or using the **Marketing text** action. These methods are indicated in the following figure of an item card.  
 
    [![Shows an item card with Marketing Text pane](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
@@ -59,12 +59,11 @@ Complete the following steps to add marketing text to an existing item. To learn
      Copilot starts to draft the marketing text.
 
    - At the top of the page, select the **Marketing Text** action, then select **Draft with Copilot** on the **Edit Marketing Text** window.  The **Draft Marketing Text with Copilot** windows appears and lists all available attributes for the item.
+1. Select the attributes you want Copilot base suggestions on, then select **Generate**. You can change the selected attributes and other options later. Copilot starts to draft the marketing text. 
 
-     ![Shows the edit marketing text window](media/marketing-text-copilot-attributes.svg)
+   ![Shows the edit marketing text window](media/marketing-text-copilot-attributes.svg)
 
-     Select the attributes you want Copilot base suggestions on, then select **Generate**. You can change the selected attributes and other options later. Copilot starts to draft the marketing text. 
-
-3. When Copilot completes the draft, the text appears in the Copilot editor window for you to review and edit.
+1. When Copilot completes the draft, the text appears in the Copilot editor window for you to review and edit.
 
    [![Shows the create with Copilot windows](media/create-with-copilot-window.svg)](media/create-with-copilot-window.svg#lightbox)
 

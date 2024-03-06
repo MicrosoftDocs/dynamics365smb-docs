@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 12/13/2023
+ms.date: 03/06/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -52,7 +52,7 @@ Complete the following steps to add marketing text to an existing item. To learn
 
    [![Shows an item card with Marketing Text pane](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
-   To create the forst draft for an item, do one of the following steps:
+   To create the first draft for an item, do one of the following steps:
 
    - In the **Marketing Text** pane in the FactBox on the right side of the page, select **Draft with Copilot**. 
 

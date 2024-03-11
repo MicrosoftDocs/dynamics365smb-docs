@@ -4,7 +4,7 @@ description: Learn how tracking adjustments to item costs can help you keep your
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords:
 ms.search.form:
 ms.date: 03/08/2024
@@ -43,14 +43,14 @@ To create a batch, on the **Inventory Cost Adjustment** page, do one of the foll
 * To create a batch and run cost adjustment immediately, select the items in the list, choose **Run cost adjustment**, and then choose **Add batch and run**.
 * Choose **Run cost adjustment**, choose **Item Batches**, and then enter a filter in the **Item Filter** field.
   
-  > [!TIP]
-  > To quickly create another batch for all items that are not already included in a batch, on the **Cost Adjustment - Item Batches** page, choose **Add Missing Items**.
+> [!TIP]
+> To quickly create another batch for all items that are not already included in a batch, on the **Cost Adjustment - Item Batches** page, choose **Add Missing Items**.
 
-When a batch run finishes, it has one of the following status:
+When a run for a batch finishes, the batch has one of the following status on the **Item Batches** page:
 
 * **Success**: The cost adjustment is successful.
-* **Failed**: If the cost adjustment fails, [!INCLUDE [prod_short](includes/prod_short.md)] identifies the item that caused the error, and then splits the current batch into two. One batch with the problematic item, and another with the remaining items. Cost adjustment reruns for the batch with the remaining items. If it fails again, the process repeats. You define the maximum number of splits in the **Max. Retry Attempts** field. The default value for retries is 10, but you can change it.
-* **Timed out**: If the cost adjustment for a batch doesn't finish within the period specified in the **Timeout (Minutes)** field (ranging from 1 to 720 minutes), the session terminates and changes are rolled back. [!INCLUDE [prod_short](includes/prod_short.md)] then splits the current batch in half and reruns the cost adjustment process for each half. This process continues until the cost adjustment completes successfully or reaches the maximum retry attempts.
+* **Failed**: If the cost adjustment fails, [!INCLUDE [prod_short](includes/prod_short.md)] identifies the item that caused the error, and then splits the current batch into two. One batch with the problematic item, and another with the remaining items. Cost adjustment reruns for the batch with the remaining items. If it fails again, the process repeats. You define the maximum number of splits in the **Max. Retry Attempts** field. The default value for retries is 10, but you can enter a new limit.
+* **Timed out**: If the cost adjustment for a batch doesn't finish within the period specified in the **Timeout (Minutes)** field (ranging from 1 to 720 minutes), the session terminates and changes are rolled back. [!INCLUDE [prod_short](includes/prod_short.md)] then splits the current batch in half and reruns the cost adjustment process for each half. This process continues until the cost adjustment is successful or reaches the maximum retry attempts.
 
 > [TIP!]
 > Each batch runs in a separate session. To monitor progress, use the **Refresh** action.

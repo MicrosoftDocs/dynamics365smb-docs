@@ -17,79 +17,67 @@ ms.collection:
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-These frequently asked questions (FAQ) describe the AI impact of Copilot assistance with data analysis on pages in [!INCLUDE[prod_short](includes/prod_short.md)]. 
+These frequently asked questions (FAQ) describe the AI impact of anaylsis assist in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## What is analysis assist?
 
-Bank reconciliation is a common accounting task where organizations review their bank account statements to identify transactions that should be registered in [!INCLUDE[prod_short](includes/prod_short.md)]. For example, this task would be used to identify periodic bank fees or small employee expenses. This task is typically a multi-step process, starting with importing bank statements into [!INCLUDE[prod_short](includes/prod_short.md)], followed by matching transactions with ledger entries, and posting new ledger entries to reflect any residual transactions that weren't previously known to your ledgers. Copilot in [!INCLUDE[prod_short](includes/prod_short.md)] reduces manual effort by matching more transactions and suggesting general ledger accounts that you can post to. 
+Analysis assist is data analysis mode. The data analysis mode enables you to analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Examples could be "My customers", "Follow up items", "Recently added vendors", "Sales statistics", or any other view you can imagine
 
-## What are capabilities of bank reconciliation assist?
+Analysis assist enables you to 
+Copilot is the AI-powered assistant for work that boosts creativity and improves productivity for Business Central users. Copilot can help reduce the time it takes to identify trends and anomalies in your business data by enabling you to express your analysis as a simple sentence, and without ever leaving Business Central. By describing how you want to structure your data analysis, such as “show me vendors by location sorted by amount of purchases,” you can quickly get to insights instead of spending time on the clicks and keystrokes needed to construct analysis views. This feature can help you make informed decisions and take action based on the insights you gain from your data. For example, you can use this feature to identify which vendors are supplying each of your warehouses, and then take steps to optimize your supply chain or negotiate better deals with your vendors.
 
-Copilot provides AI-powered assistance with two distinct tasks: 
 
-- Improved matching of transactions with ledger entries 
+## What are capabilities of analysis assist?
 
-   [!INCLUDE[prod_short](includes/prod_short.md)] offers automated rules that automatically match many bank transactions with ledger entries. However, these rules are inflexible and often result in many unmatched transactions that each require manual inspection and comparison. Copilot uses AI technology to inspect remaining transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if multiple invoices were paid as one lump sum by a customer, Copilot reconciles the single bank statement line with the multiple invoice ledger entries. 
- 
-- Suggested general ledger accounts 
+## What is the intended use of analysis assist?
 
-   For residual bank transactions that couldn't be matched to any ledger entries, Copilot uses AI technology to compare the transaction description with G/L account names, suggesting the most likely G/L account to post to. For example, Copilot might suggest that transaction with narrative "Fuel Stop24" be posted to the "Transportation" account. 
+Analysis assist is intended for creating analysis tabs to arrange and summarize data shown on list pages and queries. It doesn't provide insight into the data, like extracting actionable information or discovering trends or patterns that inform decision-making and drive business value.
 
-Copilot doesn't connect to your bank to retrieve or send transactions. This task remains fully within your control and is a prerequisite to begin using Copilot's assistance, whether those transactions are added to [!INCLUDE[prod_short](includes/prod_short.md)] using a digital bank connection, imported from a bank statement file, or entered manually. 
+## How was analysis assist evaluated? What metrics are used to measure performance?
 
-## What is the intended use of bank reconciliation assist?
+## How does Microsoft monitor the quality of generated content?
 
-Bank account reconciliation assist is designed to help identify new transactions that customers should account for in [!INCLUDE[prod_short](includes/prod_short.md)], to improve the accuracy of their ledgers. This activity isn't intended for fraud detection or identifying if customers have paid on time.   
+Microsoft has various systems in place to ensure that content generated by Copilot is of the highest quality, detect abuse, and ensure safety for our customers and their data.
 
-## How was bank reconciliation assist evaluated? What metrics are used to measure performance?
+Users have the opportunity to provide feedback to every Copilot response and report inaccurate or inappropriate content to help Microsoft improve this feature.
 
-This functionality was tested using combinations of synthetic bank transaction data and similar G/L accounts and ledger entries that cover the typical variations and data limits for each field and in different languages. Test data represents both typical usage and usage by bad actors. Performance was measured in comparison to manual reconciliation of the same data. 
+- If you encounter inappropriate generated content, report it to Microsoft by using this feedback form: [Report abuse](https://go.microsoft.com/fwlink/?linkid=2249810).
 
-## What are the limitations of bank reconciliation assist? How can users minimize the impact of the bank reconciliation limitations when using the system?
+- We analyze and utilize user feedback on the feature to help us improve suggestions.
 
-Bank account reconciliation assist performs best when G/L account names, ledger entry descriptions, and bank transaction descriptions are all in the same language. Mixed languages or mixed language of transaction descriptions often result in fewer matches and suggestions. 
+  You provide feedback by using the like (thumbs up) or dislike (thumbs down) icon on the **Copilot** pane in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Suggested ledger accounts performs best in English language. While this feature can be operated in any of the available [!INCLUDE[prod_short](includes/prod_short.md)] languages, users might experience fewer transaction matches and fewer suggested ledger accounts in other languages. 
-<!--
+- Microsoft might disable the Copilot-driven features for selected customers if abuse of the functionality is detected.
+
+## What are the limitations of analysis assist? How can users minimize the impact of the analysis assist limitations when using the system?
+
+- General limitations of AI
+
+  AI systems are valuable tools but they're nondeterministic. The content they generate may not be completely accurate. So, it's important to use your judgment to review and verify responses Copilot before making decisions that could affect stakeholders like customers and partners.
+
+- Language limitations
+
+  - Analysis assist is only supported in English for the following locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA.
+
+    If the display language in Business Central isn't one of the these locales, chat isn't available.
+
+  - The quality of answers can be lower under the following conditions:
+    - The language locale is something other than en-US.
+    - When the language setting for the user in Business Central differs from the primary language of the business data in the [!INCLUDE[prod_short](includes/prod_short.md)] database.
+
+- Specific industry, product, and topic limitations
+
+  Organizations that operate in some domains, such as medical, drugs, legal, and weapons, and so on, might experience lower quality of service.
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
 
 -->
-## In which geographies and languages is bank reconciliation assist available? 
+## In which geographies and languages is analysis assist available? 
 
 This capability is available to any environment country/region localization and in any user language. For customer environments located in countries/regions where Azure OpenAI Service isn't deployed, administrators must first consent to allowing movement of data across boundaries for [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Azure OpenAI service and for this capability to be available. 
 
 For more information on language, see previous question about limitations.  
-
-## What is expected of end-users when operating bank account reconciliation assist? 
-
-### While using bank account reconciliation 
-
-AI-powered matches and suggestions might sometimes be incorrect or incomplete. Users of bank account reconciliation assist must review the accuracy of matches and suggestions provided by Copilot before choosing to keep them. Copilot’s matches and suggestions aren't saved to the [!INCLUDE[prod_short](includes/prod_short.md)] database until you choose the Keep it button and exiting the Copilot window. You can also edit and correct any matches or suggestions before choosing to keep it. 
-
-### After completing bank account reconciliation 
-
-It's recommended that users also verify accuracy and correct any discrepancies after exiting the Copilot window, including the following activities: 
-
-- Review the reconciliation test report. 
-- Ensure your organization has the appropriate review and audit processes in place. 
-- Reopen any posted reconciliations by using the Undo function. 
-- Correct any erroneous ledger entries through reverse posting of entries. 
-
-## What is expected of administrators and end-users when operating bank account reconciliation assist? 
-
-End-users, such as accountants, treasurers or others working on business accounting should always review the accuracy of matches and suggestions provided by Copilot before choosing to keep them. After reconciling with Copilot, we recommend reviewing the reconciliation test report to verify accuracy and identify any discrepancies. 
-
-Administrators should ensure the appropriate accounting users have been granted access to this capability. 
-
-## Is Copilot the only means to completing bank account reconciliation? 
-
-No – use of Copilot is optional. [!INCLUDE[prod_short](includes/prod_short.md)] offers traditional, non-AI-powered means of importing bank statements, running predefined matching rules, and manually applying matches and posting to appropriate ledger accounts. Both the traditional approach and Copilot can be used simultaneously within an organization. 
-
-## How do I give feedback about AI-generated content?
-
-Each time Copilot provides matches or suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the like and dislike controls. Your feedback remains anonymous and we use this data to improve the quality of the service.
 
 
 ## See also

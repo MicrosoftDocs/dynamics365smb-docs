@@ -45,13 +45,12 @@ This setting affects the following documents:
 
 The following table describes the effects on different documents.
 
-
 |Document  |Allow<br>Displays a series of options   |Prohibited<br>Conformation dialog  |Mandatory<br>Confirmation dialog  |
 |---------|---------|---------|---------|
-|Service order     | * Ship<br>* Invoice<br>* Ship and Invoice        |Do you want to post the shipment?         |Do you want to post the shipment and invoice?         |
+|Service order     | * Ship<br>* Invoice<br>* Ship and Invoice<br>* Ship and Consume         |* Ship<br>* Ship and Consume  |Do you want to post the shipment and invoice?         |
 |Warehouse Shipment     |* Ship<br>* Ship and Invoice         |Do you want to post the shipment?         | Do you want to post the shipment and invoice?        |
-|Service invoice     | No options        | Do you want to post the invoice?        |Do you want to post the invoice?         |
-|Service credit memo     | No options         |Do you want to post the credit memo?         |Do you want to post the credit memo?         |
+|Service invoice     | Do you want to post the invoice?         | Error: you cannot post.       |Do you want to post the invoice?         |
+|Service credit memo     | Do you want to post the credit memo?         | Error: you cannot post.        |Do you want to post the credit memo?         |
 
 > [!NOTE]
 > When you post service invoices and credit memos, you don't have any posting options. The documents always post physical and financial transactions together. You can't partially post service invoices and credit memos.

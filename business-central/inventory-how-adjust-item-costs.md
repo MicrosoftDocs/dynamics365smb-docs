@@ -80,6 +80,10 @@ When you sell items, the unit cost copies from the **Unit Cost** field on the it
 
 When you post, the unit cost copies to the sales invoice item entry, and it shows on the entry list for the item. [!INCLUDE[prod_short](includes/prod_short.md)] uses the unit cost from the source document line to calculate the contents of the **Cost Amount (Actual)** field or, if applicable, the **Cost Amount (Expected)** field in the value entry related to this item entry.  
 
+## Track item cost adjustments
+
+Item costs can change for a lot of reasons, so it's important that you can keep track of cost adjustments. Use the **Inventory Cost Adjustment** page to manage and monitor the cost adjustment process. This page displays items along with their costing parameters and cost adjustment status. You can filter the list to focus on items that require adjustment or that are excluded from the cost adjustment process. To learn more about tracking cost adjustments, go to [Track item cost adjustments](finance-track-inventory-costs.md).
+
 ## See also
 
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  

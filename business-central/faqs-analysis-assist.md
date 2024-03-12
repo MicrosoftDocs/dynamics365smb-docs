@@ -1,5 +1,5 @@
 ---
-title: FAQs for analysis assist (preview) with Copilot
+title: FAQs for analysis assist (preview)
 description: This FAQ provides information about the AI technology used for analyzing data on pages in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 02/13/2024
 ms.custom: 
@@ -13,7 +13,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# FAQ for analysis assist (preview) with Copilot
+# FAQ for analysis assist (preview)
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
@@ -21,15 +21,14 @@ These frequently asked questions (FAQ) describe the AI impact of the analysis as
 
 ## What is analysis assist?
 
-Analysis assist is a Copilot feature that provides assistance for working with the [data analysis mode](analysis-mode) in Business Central. The data analysis mode enables you to organize, aggregate, and summarize data on pages and queries, making it more suitable for analyzing and extracting meaningful insights. With analysis assist, you can automatically construct the view of the data you want to analyze by expressing your needs in simple, natural language like "show vendors by location sorted by amount of purchases". Analysis assist makes it easier to work with data without the need for complex technical skills.
+Analysis assist is a Copilot that provides assistance for working with the [data analysis mode](analysis-mode) in Business Central. The data analysis mode enables you to organize, aggregate, and summarize data on pages and queries to make it more suitable for analyzing and extracting meaningful insights. With analysis assist, you can automatically construct the view of the data you want to analyze by expressing your needs in simple, natural language, like "show vendors by location sorted by number of purchases." Analysis assist makes it easier to work with data without the need for complex technical skills.
 
 ## What are capabilities of analysis assist?
 
 
-
 ## What is the intended use of analysis assist?
 
-The intended use of analysis assist is to help you create analysis tabs in the data analysis mode to present data in a manner that makes it easier to draw conclusions. However, it's important to note that analysis assist doesn't provide direct insights or conclusions about the data. It's a tool to help users organize and view their data, but it's up to the user to extract actionable information, discover trends, and make informed decisions to drive business value.
+The intended use of analysis assist is to help create analysis tabs in the data analysis mode to present data in a manner that makes it easier to draw conclusions. However, it's important to note that analysis assist doesn't provide direct insights or conclusions about the data. It's a tool to help users organize and view their data, but it's up to the user to extract actionable information, discover trends, and make informed decisions to drive business value.
 
 ## How was analysis assist evaluated? What metrics are used to measure performance?
 
@@ -41,7 +40,7 @@ Users have the opportunity to provide feedback to every Copilot response and rep
 
 - If you encounter inappropriate generated content, report it to Microsoft by using this feedback form: [Report abuse](https://go.microsoft.com/fwlink/?linkid=2249810).
 
-- We analyze and utilize user feedback on the feature to help us improve suggestions.
+- We analyze and utilize user feedback on the feature to help us improve responses.
 
   You provide feedback by using the like (thumbs up) or dislike (thumbs down) icon on the **Copilot** pane in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -53,7 +52,7 @@ Users have the opportunity to provide feedback to every Copilot response and rep
 
   AI systems are valuable tools but they're nondeterministic. The content they generate might not be accurate. So, it's important to use your judgment to review and verify responses Copilot before making decisions that could affect stakeholders like customers and partners.
 
-- Language and geographical limitations
+- Language and geographical limitations:
 
   - Analysis assist is only supported in English for the following locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA.
 
@@ -63,11 +62,11 @@ Users have the opportunity to provide feedback to every Copilot response and rep
     - The language locale in Business Central is something other than en-US.
     - The language setting for the user in Business Central differs from the primary language of the business data in the [!INCLUDE[prod_short](includes/prod_short.md)] database.
   
-  - Geographical limitation
+  - Geographical limitation:
   
     The feature is available in all supported [Business Central countries/regions](dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) except for Canada, due to regulatory language compliance. However, the feature uses Microsoft Azure OpenAI Service, which is currently available for Business Central in some geographies. If your environment is located in a country/region where Azure OpenAI Service isn't available, administrators must allow data to move across geographies. [Learn more](dynamics365/business-central/ai-copilot-data-movement).
 
-- Certain industry, product, and topic limitations
+- Certain industry, product, and subject limitations
 
   Organizations that operate in some business domains, such as medical, drugs, legal, and weapons, might experience lower quality of service.
 

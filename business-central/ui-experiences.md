@@ -27,7 +27,7 @@ The following table lists the experiences that are currently available.
 The experiences that can be selected in [!INCLUDE[prod_short](includes/prod_short.md)] reflect the solution licenses, called plans, that are defined for the product. For information about the Essential and Premium plans, see [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) on the Microsoft Dynamics 365 marketing site. See also the [[!INCLUDE[prod_short](includes/prod_short.md)] Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2068931).
 
 > [!IMPORTANT]  
-> All regular users in a solution must be assigned the same plan, Essential or Premium, before that experience can be selected for the company. Accordingly, one user cannot access Premium features if one or more other users can only access Essential features. This is not the case for non-regular users of type Team Member, Internal Admin, External Accountant, and Delegated Admin, who can each be assigned a different plan than other users in the solution.<br /><br /> Only users of type Evaluation or Premium can change the value in the **Experience** field from Essential to Premium.
+> Users of type Team Member, Internal Admin, External Accountant, and Delegated Admin can be assigned a different plan than other users in the solution. Only users of type Evaluation or Premium can change the value in the **Experience** field from Essential to Premium.
 
 > [!NOTE]
 > In 2024 release wave 1, a user with the Premium plan can sign in to a company that's using the Essentials plan. However, the Premium user can't use any of the features that the Premium license provides. The same isn't true in the opposite direction. Users who have the Essentials plan can't sign in to a company that's using the Premium plan.

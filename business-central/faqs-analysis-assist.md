@@ -21,16 +21,15 @@ These frequently asked questions (FAQ) describe the AI impact of the analysis as
 
 ## What is analysis assist?
 
-Analysis assist is data analysis mode. The data analysis mode enables you to analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Examples could be "My customers", "Follow up items", "Recently added vendors", "Sales statistics", or any other view you can imagine.
-
-Analysis assist  
-Copilot is the AI-powered assistant for work that boosts creativity and improves productivity for Business Central users. Copilot can help reduce the time it takes to identify trends and anomalies in your business data by enabling you to express your analysis as a simple sentence, and without ever leaving Business Central. By describing how you want to structure your data analysis, such as “show me vendors by location sorted by amount of purchases,” you can quickly get to insights instead of spending time on the clicks and keystrokes needed to construct analysis views. This feature can help you make informed decisions and take action based on the insights you gain from your data. For example, you can use this feature to identify which vendors are supplying each of your warehouses, and then take steps to optimize your supply chain or negotiate better deals with your vendors.
+Analysis assist is a Copilot feature that provides assistance for working with the [data analysis mode](analysis-mode) in Business Central. The data analysis mode enables you to organize, aggregate, and summarize data on pages and queries, making it more suitable for analyzing and extracting meaningful insights. With analysis assist, you can automatically construct the view of the data you want to analyze by expressing your needs in simple, natural language like "show vendors by location sorted by amount of purchases". Analysis assist makes it easier to work with data without the need for complex technical skills.
 
 ## What are capabilities of analysis assist?
 
+
+
 ## What is the intended use of analysis assist?
 
-Analysis assist is intended for creating analysis tabs to arrange and summarize data shown on list pages and queries. It doesn't provide insight into the data, like extracting actionable information or discovering trends or patterns that inform decision-making and drive business value.
+The intended use of analysis assist is to help you create analysis tabs in the data analysis mode to present data in a manner that makes it easier to draw conclusions. However, it's important to note that analysis assist doesn't provide direct insights or conclusions about the data. It's a tool to help users organize and view their data, but it's up to the user to extract actionable information, discover trends, and make informed decisions to drive business value.
 
 ## How was analysis assist evaluated? What metrics are used to measure performance?
 
@@ -74,4 +73,4 @@ Users have the opportunity to provide feedback to every Copilot response and rep
 
 ## See also
 
-[Reconcile bank accounts using bank reconciliation assist (preview)](bank-reconciliation-with-copilot.md)
+[Reconcile bank accounts using bank reconciliation assist (preview)](analysis-mode.md)

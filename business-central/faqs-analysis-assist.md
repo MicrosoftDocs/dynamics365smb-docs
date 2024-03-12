@@ -17,15 +17,14 @@ ms.collection:
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-These frequently asked questions (FAQ) describe the AI impact of anaylsis assist in [!INCLUDE[prod_short](includes/prod_short.md)].
+These frequently asked questions (FAQ) describe the AI impact of the analysis assist feature in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## What is analysis assist?
 
-Analysis assist is data analysis mode. The data analysis mode enables you to analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Examples could be "My customers", "Follow up items", "Recently added vendors", "Sales statistics", or any other view you can imagine
+Analysis assist is data analysis mode. The data analysis mode enables you to analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Examples could be "My customers", "Follow up items", "Recently added vendors", "Sales statistics", or any other view you can imagine.
 
-Analysis assist enables you to 
+Analysis assist  
 Copilot is the AI-powered assistant for work that boosts creativity and improves productivity for Business Central users. Copilot can help reduce the time it takes to identify trends and anomalies in your business data by enabling you to express your analysis as a simple sentence, and without ever leaving Business Central. By describing how you want to structure your data analysis, such as “show me vendors by location sorted by amount of purchases,” you can quickly get to insights instead of spending time on the clicks and keystrokes needed to construct analysis views. This feature can help you make informed decisions and take action based on the insights you gain from your data. For example, you can use this feature to identify which vendors are supplying each of your warehouses, and then take steps to optimize your supply chain or negotiate better deals with your vendors.
-
 
 ## What are capabilities of analysis assist?
 
@@ -51,34 +50,27 @@ Users have the opportunity to provide feedback to every Copilot response and rep
 
 ## What are the limitations of analysis assist? How can users minimize the impact of the analysis assist limitations when using the system?
 
-- General limitations of AI
+- General AI limitations
 
-  AI systems are valuable tools but they're nondeterministic. The content they generate may not be completely accurate. So, it's important to use your judgment to review and verify responses Copilot before making decisions that could affect stakeholders like customers and partners.
+  AI systems are valuable tools but they're nondeterministic. The content they generate might not be accurate. So, it's important to use your judgment to review and verify responses Copilot before making decisions that could affect stakeholders like customers and partners.
 
-- Language limitations
+- Language and geographical limitations
 
   - Analysis assist is only supported in English for the following locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA.
 
-    If the display language in Business Central isn't one of the these locales, chat isn't available.
+    If the display language in Business Central isn't one of the listed locales, the feature isn't available.
 
-  - The quality of answers can be lower under the following conditions:
-    - The language locale is something other than en-US.
-    - When the language setting for the user in Business Central differs from the primary language of the business data in the [!INCLUDE[prod_short](includes/prod_short.md)] database.
+  - The quality of answers can be lower if:
+    - The language locale in Business Central is something other than en-US.
+    - The language setting for the user in Business Central differs from the primary language of the business data in the [!INCLUDE[prod_short](includes/prod_short.md)] database.
+  
+  - Geographical limitation
+  
+    The feature is available in all supported [Business Central countries/regions](dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) except for Canada, due to regulatory language compliance. However, the feature uses Microsoft Azure OpenAI Service, which is currently available for Business Central in some geographies. If your environment is located in a country/region where Azure OpenAI Service isn't available, administrators must allow data to move across geographies. [Learn more](dynamics365/business-central/ai-copilot-data-movement).
 
-- Specific industry, product, and topic limitations
+- Certain industry, product, and topic limitations
 
-  Organizations that operate in some domains, such as medical, drugs, legal, and weapons, and so on, might experience lower quality of service.
-
-## What operational factors and settings allow for effective and responsible use of the feature?
-
-
--->
-## In which geographies and languages is analysis assist available? 
-
-This capability is available to any environment country/region localization and in any user language. For customer environments located in countries/regions where Azure OpenAI Service isn't deployed, administrators must first consent to allowing movement of data across boundaries for [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Azure OpenAI service and for this capability to be available. 
-
-For more information on language, see previous question about limitations.  
-
+  Organizations that operate in some business domains, such as medical, drugs, legal, and weapons, might experience lower quality of service.
 
 ## See also
 

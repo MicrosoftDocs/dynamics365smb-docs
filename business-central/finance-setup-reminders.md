@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 431, 432, 436, 478
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
@@ -15,9 +15,14 @@ ms.service: dynamics-365-business-central
 
 You can use reminders to remind customers about overdue amounts. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
+> [!TIP]
+> After you set up reminder terms and levels, you can include them in automated processes for creating, issuing, and sending reminders. To learn more about the automated process, go to [Automate reminders in collections](finance-automate-reminders.md).
+
 ## Reminder terms
 
 If customers have overdue payments, you must decide when and how to send them a reminder. In addition, you may want to debit their accounts for interest or fees. You can set up any number of reminder terms.  
+
+You can set up standard email messages to use either for all reminder levels, or create specific messages for each level. For example, the message you send for the first reminder level might have a different tone or content than the fifth. To create one email message for all levels, choose **Customer Communication** at the top of the page. To create messages for specific lines, on the **Reminder Level** FastTab, choose a line and then choose the **Customer Communication** action on the FastTab. If you issue reminders in multiple countries, you might want your communicatons to be in different languages. 
 
 > [!NOTE]
 > If you want to calculate interest on overdue payments, you can do so when you create reminders. If, however, you just want to calculate interest and inform your customers about this without sending reminders, you should use [finance charge memos](finance-setup-finance-charges.md). For more information, see [Reminders](receivables-collect-outstanding-balances.md#reminders) or [Finance Charges](receivables-collect-outstanding-balances.md#finance-charges), respectively.
@@ -30,7 +35,7 @@ If customers have overdue payments, you must decide when and how to send them a 
 
 ## Reminder levels
 
-For each reminder terms code, you can define an unlimited number of reminder levels. The first time a reminder is created for a customer, the setting from level 1 is used. When the reminder is issued, the level number is registered on the reminder entries that are created and linked to the individual customer ledger entries. If it is necessary to remind the customer again, all reminder entries linked to open customer ledger entries are checked to locate the highest level number. The conditions from the next level number will then be used for the new reminder.
+For each reminder term, you can define an unlimited number of reminder levels. The first time a reminder is created for a customer, the setting from level 1 is used. When the reminder is issued, the level number is registered on the reminder entries that are created and linked to the individual customer ledger entries. If it is necessary to remind the customer again, all reminder entries linked to open customer ledger entries are checked to locate the highest level number. The conditions from the next level number will then be used for the new reminder.
 
 If you create more reminders than you have defined levels for, the conditions for the highest level will be used. You can create as many reminders as are allowed by the **Max. No of Reminders** field in the reminder terms.
 
@@ -89,6 +94,8 @@ If you create more reminders than you have defined levels for, the conditions fo
 
     > [!NOTE]
     > The due date is calculated according to the date formula that you enter. For more information, see [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas).
+
+8. To specify the language for an email message, choose the **Add text for language** action. The **Language Code** field updates to show your selection. On the **Email Text** FastTab, enter the content of the message in the selected language.
 
 After you have set up the reminder terms, with additional levels and text, enter one of the codes on each of the customer cards. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
 

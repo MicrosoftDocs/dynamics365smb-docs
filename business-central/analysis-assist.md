@@ -30,17 +30,16 @@ The data analysis mode enables you to analyze data directly from the page, witho
 
 ## Get started
 
-1. Open the list page or query.
+1. Open the list page.
 
    For example, to work with **Items** page, select the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png) icon (<kbd>Alt</kbd>+<kbd>Q</kbd>), enter *items*, and then choose the related link. 
 
-2. To start analysis assIn the action bar at the top of the page, turn on the **Analyze** toggle switch.
+2. You can start analyzing data with Copilot directly from the list page or by first entering the analysis mode. Do one of the following steps
 
-    Data analysis mode opens the data in an experience that's optimized for data analysis.  While in data analysis mode, the normal action bar is replaced with a special data analysis mode bar. The following figure illustrates the different areas of a page in the data analysis mode.
+    - In the action bar at the top of the page, select ![Shows the copilot icon](media/copilot-icon.png) **Copilot** > **Analyze list**.
+    - In the action bar at the top of the page, select ![Shows the enter analysis mode icon](media/analysis-mode-icon.png) **Enter analsis mode**, then select ![Shows the copilot icon](media/copilot-icon.png) **Copilot** > **Create new analysis**.
 
-   [![Shows an overview of a page on the data analysis mode](media/analysis-mode-overview-2.png)](media/analysis-mode-overview-2.png#lightbox)
-
-   Each area is explained in the sections that follow.
+3. In the **Analyze Items** with Copilot window, enter your prompt or select one from prompt guides.
 
 3. Use the different areas to manipulate, summarize, and analyze data. See the sections that follow for details.
 

@@ -1523,6 +1523,7 @@ ms.service: dynamics-365-business-central
 #### [Work with payment tolerances and payment discount tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Work with accounting periods and fiscal years](finance-accounting-periods-and-fiscal-years.md)
 #### [Set up reminder terms and levels](finance-setup-reminders.md)
+#### [Automate reminders in collections](finance-automate-reminders.md)
 #### [Set up finance charge terms](finance-setup-finance-charges.md)
 #### [Set up value-added tax (VAT)](finance-setup-vat.md)
 #### [Set up calculations and posting methods for value-added tax (VAT)](finance-setup-vat.md)

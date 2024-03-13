@@ -15,11 +15,9 @@ ms.custom: bap-template
 
 Make your collections more effective by automating the process of creating, issuing, and sending reminders to your customers. Automation can significantly reduce the time you'll spend on collections, provide a better overview of the process, and give you full control over each step.
 
-You set up reminder automation on the **Reminder Automation** page, where you create individual automations. You can combine the steps to the create, issue, and send reminders, or you can create separate automations for each step if that's better for your collection proccesses.
+On the **Reminder Automation** page, you define the individual actions (steps) in the automations. You can combine the steps to the create, issue, and send reminders, or you can create separate automations for each step if that's better for your collection proccesses. Automations are based on reminder terms and reminder levels. To learn more, go to [Set Up Reminder Terms and Levels](finance-setup-reminders.md). You can set filters for reminder terms for an automation as a whole, and set filters for each action in the automation. You can also attach outstanding invoices to emails as PDF files.
 
-On the **Reminder Automation** page, you define the individual actions (steps) in the automations. You can set filters for reminder terms for the automation as a whole, and set filters for each action in the automation. You can also attach outstanding invoices to emails as PDF files.
-
-After you set up an automation, you can start it and it'll run until you put it on hold or stop it. If you want to control when the automation runs, you can open the **Job Queue Entries** page and set the recurrence to daily, or every Tuesday, for example.
+Automation happens through a job queue entry. After you set up an automation, you can start it and it'll run until you pause it to put it on hold. For each automation, you specify a cadence that controls how often it runs. If you want to be more specific about when it runs, use the **Job queue entries** action to open the **Job Queue Entries** page and adjust the recurrence, for example to daily or a specific weekday.
 
 ## Automate the reminders flow
 
@@ -53,17 +51,13 @@ When you issue a reminder, you create entries for the customer that contain the 
 > [!NOTE]
 > The Send automation requires that you've set up email in [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more about setting up email, go to [Set up email](admin-how-setup-email.md).
 
-On the **Reminder Terms Setup** page, you can choose the **Customer Communication** action to open the **Reminder Level Communication** page, where you can set up the following communications:
+The content of the emails, such as attachment texts, email body texts, and language come from the setup for the reminder term. To learn more about email settings, go to [Set Up Reminder Terms and Levels](finance-setup-reminders.md).
 
-* On the **Attachment Text** FastTab, enter texts that show on the reminder.
-* On the **Email Text** FastTab, enter body texts for emails.
+Use the settings on the **Send Reminders Setup** page control the following:
 
-The texts let you tailor the messages you send for each reminder level, which makes it more flexible and accomodates business policies for communicating payment requests.
-
-> [!TIP]
-> If you do business with customers in another country, you might want to send email messages in their local language. You can set up customer communications to generate email messages in any language that [!INCLUDE [prod_short](includes/prod_short.md)] supports. To learn more, go to [Set Up Reminder Terms and Levels](finance-setup-reminders.md).
-
-When you send an email, the reminder is a report you attach to the email. You define the report that generates the reminder on the **Report Selection Reminder/Finance Charge** page, where you also select the report that holds the email body text in the **Email Body Layout Name** field. When you send emails to your customers, the texts on the **Email Text** FastTab is inserted in the report selected in the **Email Body Layout Name** field. The standard report has a text field for this text. If you want, you can edit this report, for example, to add or remove content. Edit the layout of these reports on the **Report Layouts** page. To learn more about report layouts, go to [Get Started Creating Report Layouts](ui-get-started-layouts.md).
+* General settings, such as the description, and how many times you'll send the same reminder.
+* Settings for what to include in the reminder.
+* Settings for tracking the reminders you send by creating interactions, whether you print or send the reminder by email, and whether you want to attach overdue invoices only, all invoices, or no invoices. 
 
 ## Access the history of a reminder
 
@@ -71,11 +65,11 @@ When you send an email, the reminder is a report you attach to the email. You de
 
 ## Handle errors
 
-
+On the **Actions** FastTab, for each action you can specify whether you want the automation to stop if the action has an error. If you do, the automation won't process the actions that come afterward. To turn this feature on or off, use the **Set stop on error** or **Clear stop on error** actions.
 
 ## Change action settings for an automation
 
-You can change settings for automations at any time. On the **Actions** FastTab, choose **Setup**, and then make your changes.
+You can change settings for an automation at any time. On the **Actions** FastTab, choose **Setup**, and then make your changes.
 
 ## See also
 

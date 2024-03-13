@@ -22,12 +22,19 @@ You can use reminders to remind customers about overdue amounts. [!INCLUDE [remi
 
 If customers have overdue payments, you must decide when and how to send them a reminder. In addition, you may want to debit their accounts for interest or fees. You can set up any number of reminder terms.  
 
-You can set up standard email messages to use either for all reminder levels, or create specific messages for each level. For example, the message you send for the first reminder level might have a different tone or content than the fifth. To create one email message for all levels, choose **Customer Communication** at the top of the page. To create messages for specific lines, on the **Reminder Level** FastTab, choose a line and then choose the **Customer Communication** action on the FastTab. If you issue reminders in multiple countries, you might want your communicatons to be in different languages. 
-
 > [!NOTE]
 > If you want to calculate interest on overdue payments, you can do so when you create reminders. If, however, you just want to calculate interest and inform your customers about this without sending reminders, you should use [finance charge memos](finance-setup-finance-charges.md). For more information, see [Reminders](receivables-collect-outstanding-balances.md#reminders) or [Finance Charges](receivables-collect-outstanding-balances.md#finance-charges), respectively.
 
-### To set up reminder terms
+### Set up attachment and email body texts for communications
+
+On the **Reminder Terms Setup** page, you can set up attachment texts and standard email messages to use either for all reminder levels, or create specific messages for each level. For example, the message you send for the first reminder level might have a different tone or content than the fifth. To create attachment and email message texts for all levels, choose **Customer Communication** at the top of the page. To create messages for specific lines, on the **Reminder Level** FastTab, choose a line and then choose the **Customer Communication** action on the FastTab.
+
+By default, attachment and email texts use your language setting. If you issue reminders to customers in other countries, however, you might want to communicate in different languages. You can create texts for each language that [!INCLUDE [prod_short](includes/prod_short.md)] supports by using the **Add text for language** action. If you do, ensure that the languages are the same for attachment texts and email texts. If they don't match, and the reminder term has more than one level, the automation might not be able to customize the message for one or more levels. To verify that the languages match, use the **Overview communications** action and compare the communications for the texts.
+
+> [!NOTE]
+> Communicating by email directly from [!INCLUDE [prod_short](includes/prod_short.md)] requires that you're set up to do that. To learn more about connecting email accounts with [!INCLUDE [prod_short](includes/prod_short.md)], go to [Set up email](admin-how-setup-email.md).
+
+### Set up reminder terms
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  

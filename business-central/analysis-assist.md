@@ -47,9 +47,8 @@ The data analysis mode enables you to analyze data directly from the page, witho
 4. Select **Generate**.
 5. Review
 
-
-
 ## See also
 
+[Responsible AI FAQ for analysis assist](faqs-analysis-assist.md)  
 [Ad-hoc Data Analysis](reports-adhoc-analysis.md)  
 [View and Edit in Excel](across-work-with-excel.md)  

@@ -18,7 +18,7 @@ This article explains how to use analysis assist to help you data using the data
 
 ## About analysis assist
 
-The data analysis mode enables you to analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. However, the data analysis mode requires some understanding of how to structure fields to meet the desired aggregations and summarizations. Plus, there's an overhead in the tasks of moving fields and filtering data within the analysis mode pane. Analysis assist minimizes these requirements by enabling you to express the desired structure in words. 
+The data analysis mode enables you to analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. However, the data analysis mode requires some understanding of how to structure fields to meet the desired aggregations and summarizations. Plus, there's an overhead in the tasks of moving fields and filtering data within the analysis mode pane. Analysis assist minimizes these requirements by enabling you to express the desired structure in words. With anaysis assist, you can prompt Coplit to perform varipud data anlysis tasks, like structure, add filters,  things l 
 
 ## Prerequisites
 
@@ -32,9 +32,9 @@ The data analysis mode enables you to analyze data directly from the page, witho
 
 1. Open the list page or query.
 
-   For example, to work with **Customer Ledger Entries** page, select the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png) icon (<kbd>Alt</kbd>+<kbd>Q</kbd>), enter *customer ledger entries*, and then choose the related link. 
+   For example, to work with **Items** page, select the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png) icon (<kbd>Alt</kbd>+<kbd>Q</kbd>), enter *items*, and then choose the related link. 
 
-2. In the action bar at the top of the page, turn on the **Analyze** toggle switch.
+2. To start analysis assIn the action bar at the top of the page, turn on the **Analyze** toggle switch.
 
     Data analysis mode opens the data in an experience that's optimized for data analysis.  While in data analysis mode, the normal action bar is replaced with a special data analysis mode bar. The following figure illustrates the different areas of a page in the data analysis mode.
 

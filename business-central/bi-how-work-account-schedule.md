@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 ---
 # Prepare Financial Reporting with Financial Data and Account Categories
 
-Financial reports give you insight into the financial data stored in your chart of accounts (COA). Financial reports analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports in your Role Center, such as the cash flow chart and income statement and balance sheet reports.
+The *Financial reporting* feature gives you insight into the financial data stored in your chart of accounts (COA). You can setup financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports in your Role Center, such as the cash flow chart and income statement and balance sheet reports.
 
 You access these two reports, for example, with the **Financial Statements** action in the business manager and accountant role centers.  
 
@@ -32,13 +32,16 @@ Financial reports arrange accounts from your chart of accounts in ways that make
 > 
 > The financial report is then the outer product of these two vectors, where each cell value is calculated according to the formula in the row applied to the data definition from the column.
 
+:::image type="content" source="media/financial-report-definition.svg" alt-text="Shows how a financial report is constructed from a row definition and a column definition." lightbox="media/financial-report-definition.svg":::
+
+
 You can also compare two or more financial reports and column definitions by using formulas, so you can do the following things:
 
 * Create customized financial reports.
 * Create as many financial reports as you need, each with a unique name.
 * Set up various report layouts and print the reports with the current figures.
 
-## G/L account categories
+## Use G/L account categories to change the layout of your financial statements
 
 You can use G/L account categories to change the layout of your financial statements. For example, once you've set up your account categories on the **G/L Account Categories** page, you can choose the **Generate Financial Reports** action and update the underlying financial reports for the core financial reports. Then the next time you run one of these reports, such as the **Balance Statement** report, new totals and subentries are added.
 

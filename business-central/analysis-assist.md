@@ -16,12 +16,9 @@ ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 
 
 This article explains how to use analysis assist to help you data using the data analysis mode.
 
-## About analysis assiste
+## About analysis assist
 
-The data analysis mode enables you to analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. Using the data analysis mode requires that you have some knowledge with the is realtively intuitive,  a 
-
-> [!TIP]
-> A good thing about the data analysis mode is that it doesn't change any of the underlying data of list page or query, or the layout of the page or query when it's not in data analysis mode. So the best way to learn about what you can do in the data analysis mode is to try things out.
+The data analysis mode enables you to analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. However, the data analysis mode requires some understanding of how to structure fields to meet the desired aggregations and summarizations. Plus, there's an overhead in the tasks of moving fields and filtering data within the analysis mode pane. Analysis assist minimizes these requirements by enabling you to express the desired structure in words. 
 
 ## Prerequisites
 
@@ -45,7 +42,7 @@ The data analysis mode enables you to analyze data directly from the page, witho
 
    Each area is explained in the sections that follow.
 
-3. Use the different areas to manipulate, summarize and analyze data. See the sections that follow for details.
+3. Use the different areas to manipulate, summarize, and analyze data. See the sections that follow for details.
 
 4. When you want to exit the analyze mode, turn off the **Analyze** toggle switch.
 

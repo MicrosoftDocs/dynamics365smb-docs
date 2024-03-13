@@ -85,7 +85,6 @@ All Copilot and AI capabilities are active by default when they are made availab
    - To turn on a feature, select it in the list, then select the **Activate** action.
    - To turn off a feature, select it, and then select **Deactivate** action. 
 
-
 ## Enable feature in Feature Management
 
 When individual Copilot capabilities are released in Business Central minor updates, these capabilities are optional until the next major update. **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like marketing text suggestions. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).

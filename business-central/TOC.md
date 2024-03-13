@@ -464,7 +464,7 @@ ms.service: dynamics-365-business-central
 
 ## Financial analytics 
 ### [Financial analytics overview](bi.md)
-### Financial reporting (KPIs)
+### Financial reporting (Financial statements and KPIs)
 #### [Prepare financial reporting](bi-how-work-account-schedule.md)
 #### [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Set up and publish a KPI web service based on financial reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)

@@ -79,7 +79,7 @@ Open in Excel
 
 To get an overview of available reports, you can click **All reports** on the top pane of your role centre. This takes you to the Role explorer limiting the features shown to the **Report & Analysis** option. For more information, see [Finding Reports with the Role Explorer](ui-role-explorer.md).
 
-:::image type="content" source="/media/report-explorer-finance.png" alt-text="Example of reports on the finance role centre." lightbox="/media/report-explorer-finance.png":::
+:::image type="content" source="media/report-explorer-finance.png" alt-text="Example of reports on the finance role centre." lightbox="media/report-explorer-finance.png":::
 
 Built-in reports come in two flavors: one designed for print (pdf) and one designed for further consumption and analysis in Excel.
 
@@ -91,6 +91,8 @@ For more information, see
 
 
 ## On-screen finance task data
+
+[!INCLUDE [prod_short](includes/prod_short.md)] has a number of pages that you can use for getting finance overviews and tasks to perform within the finance area. 
 
 ### Chart of Accounts page
 

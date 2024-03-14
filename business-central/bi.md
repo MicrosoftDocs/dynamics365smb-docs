@@ -60,24 +60,47 @@ The following table describes a sequence of tasks, with links to the articles th
 |Set up views to analyze data using dimensions.|[Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)|
 |Create new analysis reports for sales, purchases, and inventory, and set up analysis templates.|[Create Analysis Reports](bi-how-create-analysis-views-reports.md)|
 
-## Ad-hoc analysis of financial data
 
-CoA page
+## Handling finance reporting across business units or legal entities
+
+Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that must report into parent organizations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company.  
+
+For more information, see [Company consolidation](finance-consolidated-company-reporting.md)
+
+## Ad-hoc analysis of financial data
 
 Data analysis on ledgers
 
+Open in Excel
 
 ## Built-in reports for finance
 
+[!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help auditors or controllers who are responsible for reporting to the finance department. 
+
+Built-in reports come in two flavors: one designed for print (pdf) and one designed for further consumption and analysis in Excel.
+
+For more information, see
+* [Built-in finance Excel reports](finance-analyze-excel.md)
+* [Built-in finance reports](finance-reports.md)
+
+
+## On-screen finance task data
+
+### Chart of Accounts page
+
+The Chart of Accounts page shows all general ledger accounts with aggreated numbers on what has been posted to the. From this page, you can do things like:  
+
+* View reports that show general ledger entries and balances.  
+* See a list of posting groups for that account.
+* View separate debit and credit balances for a single account.
+
+For more information, see [Understand Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)
 
 
 ## See also
 
-[Finance](finance.md)  
-[Use Business Central as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md)  
-[Closing Fiscal Periods](year-close-years-periods.md)  
-[Importing Data from Other Finance Systems](across-import-data-configuration-packages.md)  
 [Business Intelligence and Reporting Overview](reports-bi-reporting.md)  
+[Finance overview](finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

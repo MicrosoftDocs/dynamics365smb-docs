@@ -81,13 +81,13 @@ To get an overview of available reports, you can click **All reports** on the to
 
 :::image type="content" source="media/report-explorer-finance.png" alt-text="Example of reports on the finance role centre." lightbox="media/report-explorer-finance.png":::
 
-Built-in reports come in two flavors: one designed for print (pdf) and one designed for further consumption and analysis in Excel.
-
-For more information, see
+Built-in reports come in two flavors: one designed for print (pdf) and one designed for further consumption and analysis in Excel. For more information, see these overviews for reports that are relevant for finance
 * [Built-in finance Excel reports](finance-analyze-excel.md)
 * [Built-in key finance reports](finance-reports.md)
 * [Built-in fixed assets reports](fa-reports.md)
-* [Built-in fixed assets reports](inventory-reports.md)
+* [Accounts receivable reports](receivables-reports.md)
+* [Accounts payable reports](payables-reports.md)
+
 
 
 ## On-screen finance task data

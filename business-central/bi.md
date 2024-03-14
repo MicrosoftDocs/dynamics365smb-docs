@@ -77,13 +77,17 @@ Open in Excel
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help auditors or controllers who are responsible for reporting to the finance department. 
 
-To get an overview of available reports, you can use the Role explorer and limit the features shown by clicking the **Report & Analysis** option in the top pane. For more information, see [Finding Reports with the Role Explorer](ui-role-explorer.md).
+To get an overview of available reports, you can click **All reports** on the top pane of your role centre. This takes you to the Role explorer limiting the features shown to the **Report & Analysis** option. For more information, see [Finding Reports with the Role Explorer](ui-role-explorer.md).
+
+:::image type="content" source="/media/report-explorer-finance.png" alt-text="Example of reports on the finance role centre." lightbox="/media/report-explorer-finance.png":::
 
 Built-in reports come in two flavors: one designed for print (pdf) and one designed for further consumption and analysis in Excel.
 
 For more information, see
 * [Built-in finance Excel reports](finance-analyze-excel.md)
-* [Built-in finance reports](finance-reports.md)
+* [Built-in key finance reports](finance-reports.md)
+* [Built-in fixed assets reports](fa-reports.md)
+* [Built-in fixed assets reports](inventory-reports.md)
 
 
 ## On-screen finance task data

@@ -72,4 +72,4 @@ Users have the opportunity to provide feedback to every Copilot response and rep
 
 ## See also
 
-[Reconcile bank accounts using bank reconciliation assist (preview)](analysis-mode.md)
+[Analyze data with Copilot (preview)](analysis-assist.md)

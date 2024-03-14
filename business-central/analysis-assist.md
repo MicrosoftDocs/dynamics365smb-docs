@@ -14,41 +14,43 @@ ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-This article explains how to use analysis assist to help you data using the data analysis mode.
+This article explains how to use analysis assist to help you analyze data on list pages.
 
 ## About analysis assist
 
-The data analysis mode enables you to analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. However, the data analysis mode requires some understanding of how to structure fields to meet the desired aggregations and summarizations. Plus, there's an overhead in the tasks of moving fields and filtering data within the analysis mode pane. Analysis assist minimizes these requirements by enabling you to express the desired structure in words. With anaysis assist, you can prompt Coplit to perform varipud data anlysis tasks, like structure, add filters,  things l 
+Analysis assist is a Copilit for the data analysis mode on list pages in Business Central. The data analysis mode enables you to analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. However, the data analysis mode requires some understanding of how to structure fields to meet the desired aggregations and summarizations. Plus, there's the task of moving fields within the analysis mode pane. Analysis assist minimizes these requirments by enabling you to express the desired layout in words. 
 
 ## Prerequisites
 
 - Analysis assist capability is activated. This task is typically done by an admin. [Learn more about configuring Copilot and AI capabilities](enable-ai.md).
 - Your user account is assigned the **DATA ANALYSIS - EXEC** permission set or includes execute permission on the system object **9640 Allow Data Analysis mode**. This task is typically done by an admin. Admins can exclude these permissions on users who you don't want to have access to the analysis mode and analysis assist.
 
+<!--
 > [!NOTE]
-> You may notice some list pages that don't include the **Analyze** switch for changing to the analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.
+> You may notice some list pages that don't include the **Analyze** switch for changing to the analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.-->
 
 ## Get started
 
-1. Open the list page.
+1. Open the list page you want to analyze.
 
    For example, to work with **Items** page, select the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png) icon (<kbd>Alt</kbd>+<kbd>Q</kbd>), enter *items*, and then choose the related link. 
 
-2. You can start analyzing data with Copilot directly from the list page or by first entering the analysis mode. Do one of the following steps
+2. You can start analyzing data with Copilot directly from the list page or by first entering the analysis mode. to get started, do one of the following steps:
 
     - In the action bar at the top of the page, select ![Shows the copilot icon](media/copilot-icon.png) **Copilot** > **Analyze list**.
     - In the action bar at the top of the page, select ![Shows the enter analysis mode icon](media/analysis-mode-icon.png) **Enter analysis mode**, then select ![Shows the copilot icon](media/copilot-icon.png) **Copilot** > **Create new analysis**.
 
-3. In the **Analyze Items** with Copilot window, enter your prompt.
+3. In the **Analyze** with Copilot window, enter your prompt.
 
     > [!TIP]
-    >For help in writing a prompt, select ![Shows the view prompt icon](media/prompt-guide-icon.png) **Prompt guide**, and choose one of the options to get you started.. 
+    > For help in writing a prompt, select ![Shows the view prompt icon](media/prompt-guide-icon.png) **Prompt guide**, and choose one of the options to get you started.
 
 4. Select **Generate**.
-5. Review
+
+   Copilot 
+1. Review 
 
 ## See also
 
 [Responsible AI FAQ for analysis assist](faqs-analysis-assist.md)  
 [Ad-hoc Data Analysis](reports-adhoc-analysis.md)  
-[View and Edit in Excel](across-work-with-excel.md)  

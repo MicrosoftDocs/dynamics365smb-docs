@@ -61,21 +61,30 @@ The following table describes a sequence of tasks, with links to the articles th
 |Create new analysis reports for sales, purchases, and inventory, and set up analysis templates.|[Create Analysis Reports](bi-how-create-analysis-views-reports.md)|
 
 
-## Handling finance reporting across business units or legal entities
+## Finance reporting across business units or legal entities
 
 Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that must report into parent organizations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company.  
 
 For more information, see [Company consolidation](finance-consolidated-company-reporting.md)
 
-## Ad-hoc analysis of financial data
+## Ad-hoc analysis of finance data
 
 Sometimes, you just need to check if the numbers add up correctly, quickly confirm or debunc a hypothosis about the business, or maybe look for anomalies in your financial data. For these ad-hoc analysis tasks, you might not have a built-in report that helps you with your questions, instead you can use these two features
 - Data analysis on ledger list pages
 - Open in Excel
 
+With the *Data analysis* feature, you can open almost a list page such as General Ledger Entries, Fixed assets Ledger Entries, Check Ledger Entries, or Bank Account Ledger Entries, enter analysis mode, and then group, filter, and pivot data as you see fit, all directly in the [!INCLUDE [prod_short](includes/prod_short.md)] client. 
 
 :::image type="content" source="media/data-analysis-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries page." lightbox="media/data-analysis-gl-entries.png":::
 
+
+Similarly, using the *Open in Excel* feature, you can open a list page such as General Ledger Entries, Fixed assets Ledger Entries, Check Ledger Entries, or Bank Account Ledger Entries, optionally filter the list to a subset of the data, and then get the data in Excel. You can then do further analysis in Excel, using built-in tools such as 
+
+
+:::image type="content" source="media/open-in-excel-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries data using Excel." lightbox="media/open-in-excel-gl-entries.png":::
+
+> [!TIP]
+> If your organization has configured OneDrive for system features, the Excel workbook is opened in your browser by using Excel for the web. 
 
 For more information, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md).
 

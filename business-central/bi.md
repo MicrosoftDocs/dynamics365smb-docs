@@ -78,8 +78,7 @@ With the *Data analysis* feature, you can open almost a list page such as Genera
 :::image type="content" source="media/data-analysis-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries page." lightbox="media/data-analysis-gl-entries.png":::
 
 
-Similarly, using the *Open in Excel* feature, you can open a list page such as General Ledger Entries, Fixed assets Ledger Entries, Check Ledger Entries, or Bank Account Ledger Entries, optionally filter the list to a subset of the data, and then get the data in Excel. You can then do further analysis in Excel, using built-in tools such as 
-
+Similarly, using the *Open in Excel* feature, you can open a list page such as General Ledger Entries, Fixed assets Ledger Entries, Check Ledger Entries, or Bank Account Ledger Entries, optionally filter the list to a subset of the data, and then get the data in Excel. You can then do further analysis in Excel, using built-in Excel functionality such as Analyze Data, What-If Analysis, or Forecast Sheet.
 
 :::image type="content" source="media/open-in-excel-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries data using Excel." lightbox="media/open-in-excel-gl-entries.png":::
 
@@ -103,12 +102,18 @@ Built-in reports come in two flavors: one designed for print (pdf) and one desig
 * [Built-in accounts receivable reports](receivables-reports.md)
 * [Built-in accounts payable reports](payables-reports.md)
 
+<!-- TODO: add when we have that article
+* [Built-in Cost Accounting reports](cost-accounting-reports.md) 
+* [Built-in Cash Management reports](cost-accounting-reports.md) 
+* [Built-in Tax and VAT reports](tax-and-vat-reports.md) 
+-->
 
-## On-screen finance task data
+
+## On-screen finance task pages
 
 [!INCLUDE [prod_short](includes/prod_short.md)] has a number of pages that you can use for getting finance overviews and tasks to perform within the finance area. 
 
-### Chart of Accounts page
+### Show general ledger entries and balances from the Chart of Accounts page
 
 The Chart of Accounts page shows all general ledger accounts with aggreated numbers on what has been posted to the. From this page, you can do things like:  
 
@@ -120,8 +125,23 @@ The Chart of Accounts page shows all general ledger accounts with aggreated numb
 
 For more information, see [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)
 
+### Analyzing Cash Flow 
+
+On the Accountant Role Center, under Finance Performance, the Cash Cycle, Cash Flow, and Income & Expense charts offer ways to analyze cash flow:
+- See figures for a period by using the timeline slider.
+- Filter the chart by choosing the source in the legend.
+- Change the length of the period, or go to the previous or next period, by choosing options on the Finance Performance drop down.
+
+If you want to examine the forecast, in addition to forecast entries, you can also look at the cash flow worksheet. For example, you can see how the forecast:
+- Handles confirmed sales and purchases.
+- Subtracts payables and adds receivables.
+- Skips duplicate sales orders and purchase orders.
+
+For more information, see [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md)
+
 
 ## See also
+[Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
 [Built-in finance Excel reports](finance-analyze-excel.md)  
 [Built-in key finance reports](finance-reports.md)  

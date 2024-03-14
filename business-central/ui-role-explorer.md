@@ -1,5 +1,5 @@
 ---
-title: Exploring and Navigating Pages per Role
+title: Exploring and Navigating Pages and Reports per Role
 description: You can get an overview of all the business features that are available for your role, and for other roles, with the Role Explorer.
 author: jswymer
 
@@ -12,11 +12,11 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Finding Pages with the Role Explorer
+# Finding Pages and Reports with the Role Explorer
 
 You can get an overview of all the business features that are available for your role, and for other roles if you go a step further. In the following documentation, this feature overview is referred to as the *role explorer*.
 
-Each element on the role explorer is an action that opens a page. Accordingly, you can also use the role explorer as a means to navigate in [!INCLUDE[prod_short](includes/prod_short.md)].
+Each element on the role explorer is an action that opens a page or report. Accordingly, you can also use the role explorer as a means to navigate in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -29,9 +29,16 @@ You can open the role explorer from the Role Center and all list pages and from 
 
 When you first open the role center, it shows links to most features available for your role.
 
+## Open the role explorer filtered to show reports 
+
+The role explorer can be opened filtered to show reports from the Role Center and all list pages and from the **Tell Me** window:
+
+- On your Role Center or any list page, choose the "All Reports" link to the right of the navigation bar
+- In the **Tell Me** window, choose the **exploring reports** action at the bottom.
+
 ## Navigate features
 
-The actions that open pages are organized under nodes named after the features or application areas. Each node can be collapsed or expanded individually and you can collapse/expand all nodes together.
+The actions that open pages or reports are organized under nodes named after the features or application areas. Each node can be collapsed or expanded individually and you can collapse/expand all nodes together.
 
 - To expand/collapse an individual node, choose the node. This applies to top-level nodes and sub nodes.
 - To expand/collapse all top-level nodes on the page, but leave the sub-nodes as they are, choose **...** at the top, then choose **Expand** or **Collapse**.
@@ -91,6 +98,7 @@ The actions that open pages are organized under nodes named after the features o
   - Choose **...** in the top-right corner, then choose the **Expand All** or **Collapse All** action.
 
 ## See Also
+
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

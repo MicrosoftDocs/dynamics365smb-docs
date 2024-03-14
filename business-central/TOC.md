@@ -476,8 +476,6 @@ ms.service: dynamics-365-business-central
 ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
 ### Built-in finance reports
 #### [Built-in finance Excel reports](finance-analyze-excel.md)
-#### [Built-in finance reports](finance-reports.md)
-#### [Built-in finance Excel reports](finance-analyze-excel.md)
 #### [Built-in key finance reports](finance-reports.md)
 #### [Built-in fixed assets reports](fa-reports.md)
 #### [Built-in accounts receivable reports](receivables-reports.md)

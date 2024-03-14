@@ -5,12 +5,12 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 12/08/2023
+ms.date: 03/14/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
 ---
-# Analyze data in the analysis mode with Copilot
+# Analyze data in analysis mode with Copilot
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
@@ -36,7 +36,7 @@ Analysis assist is a Copilot for the analysis mode on list pages in Business Cen
 
 1. Open the list page you want to analyze.
 
-   For example, to work with **Items** page, select the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png) icon (<kbd>Alt</kbd>+<kbd>Q</kbd>), enter *items*, and then choose the related link. 
+   For example, to work with **Items** page, select the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png) icon (<kbd>Alt</kbd>+<kbd>Q</kbd>), enter *items*, and then choose the related link.
 
 1. You can start analyzing data with Copilot directly from the list page or by first entering the analysis mode. To get started, do one of the following steps:
 
@@ -69,7 +69,7 @@ Creating effective prompts for Copilot is essential to get accurate and relevant
 
 - Make sure field names used in prompts are somewhat close to actual field names on the page.
 - Common abbreviations are acceptable.
-- You don't have to use uppercase letters.
+- Letter case isn't important.
 - more.
 
 ### Examples

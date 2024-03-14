@@ -132,6 +132,9 @@ On the Accountant Role Center, under Finance Performance, the Cash Cycle, Cash F
 - Filter the chart by choosing the source in the legend.
 - Change the length of the period, or go to the previous or next period, by choosing options on the Finance Performance drop down.
 
+:::image type="content" source="media/cashflow-accountant-rolecentre.png" alt-text="Example of how the cash flow visuals look on the accountant role centre" lightbox="media/cashflow-accountant-rolecentre.png":::
+
+
 If you want to examine the forecast, in addition to forecast entries, you can also look at the cash flow worksheet. For example, you can see how the forecast:
 - Handles confirmed sales and purchases.
 - Subtracts payables and adds receivables.

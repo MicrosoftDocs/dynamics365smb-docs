@@ -74,6 +74,8 @@ Sometimes, you just need to check if the numbers add up correctly, quickly confi
 - Open in Excel
 
 
+:::image type="content" source="media/data-analysis-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries page." lightbox="media/data-analysis-gl-entries.png":::
+
 
 For more information, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md).
 
@@ -107,14 +109,18 @@ The Chart of Accounts page shows all general ledger accounts with aggreated numb
 
 :::image type="content" source="media/chart-of-accounts-page.png" alt-text="Example of how the Chart of Accounts page shows finance insights" lightbox="media/chart-of-accounts-page.png":::
 
-
-For more information, see [Understand Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)
+For more information, see [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)
 
 
 ## See also
-
-[Business Intelligence and Reporting Overview](reports-bi-reporting.md)  
+[Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
+[Built-in finance Excel reports](finance-analyze-excel.md)  
+[Built-in key finance reports](finance-reports.md)  
+[Built-in fixed assets reports](fa-reports.md)  
+[Built-in accounts receivable reports](receivables-reports.md)  
+[Built-in accounts payable reports](payables-reports.md)  
 [Finance overview](finance.md)  
+[Business Intelligence and Reporting Overview](reports-bi-reporting.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

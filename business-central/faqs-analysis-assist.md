@@ -25,6 +25,7 @@ Analysis assist is a Copilot that provides assistance for working with the [data
 
 ## What are capabilities of analysis assist?
 
+Analysis assist is built on the developer tools for Copilot in Business Central. It uses Azure Open AI Azure OpenAI to convert unstructured instructions into a structured design for displaying data in the analysis mode, without creating, modifying or updating customer business data itself.
 
 ## What is the intended use of analysis assist?
 

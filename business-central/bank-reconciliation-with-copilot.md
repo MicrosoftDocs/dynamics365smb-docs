@@ -25,7 +25,7 @@ Bank account reconciliation assist is a set of AI-powered features that assist y
 - Improved matching of transactions with ledger entries
 
    You might already be familiar with the **Match Automatically** action on **Bank Acc. Reconciliation** page that automatically matches most bank transactions with ledger entries. We refer to this operation as *automatch*. Although automatch works well, the algorithms it uses can sometimes result in many unmatched transactions. Copilot uses AI technology to inspect remaining transactions and identify more matches, based on the dates, amounts, and descriptions. For example, if multiple invoices were paid as one lump sum by a customer, Copilot reconciles the single bank statement line with the multiple invoice ledger entries.
-   
+
    Go to [Reconcile bank accounts with Copilot](#reconcile-bank-accounts-with-copilot).
 
 - Suggested general ledger accounts
@@ -34,8 +34,6 @@ Bank account reconciliation assist is a set of AI-powered features that assist y
   
    Go to [Transfer unmatched bank transactions to suggested general ledger accounts](#transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts).
 
-
-   
 ## Prerequisites
 
 - Bank account reconciliation assist is activated. This task is done by an administrator. [Learn more about configuring Copilot and AI capabilities](enable-ai.md).

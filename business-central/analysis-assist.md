@@ -25,8 +25,7 @@ Analysis assist is a Copilot for the analysis mode on list pages in Business Cen
 --> 
 ## Prerequisites
 
-- Analysis assist capability is activated. This task is typically done by an admin. [Learn more about configuring Copilot and AI capabilities](enable-ai.md).
-- Your user account is assigned the **DATA ANALYSIS - EXEC** permission set or includes execute permission on the system object **9640 Allow Data Analysis mode**. This task is typically done by an admin. Admins can exclude these permissions on users who you don't want to have access to the analysis mode and analysis assist.
+Analysis assist capability is activated and you're granted permissions to use it. This task is typically done by an admin. [Learn more about configuring Copilot and AI capabilities](enable-ai.md).
 
 <!--
 > [!NOTE]

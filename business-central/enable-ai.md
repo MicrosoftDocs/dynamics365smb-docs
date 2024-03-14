@@ -72,6 +72,7 @@ Copilot and other AI capabilities use Azure OpenAI Service.  and are provided by
 Meanwhile, customers with environments outside the United States can use Copilot AI features by opting in to share relevant data with the Azure OpenAI Service in United States or Switzerland.
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
+
 ## Activate features
 
 All Copilot and AI capabilities are active by default when they are made available in preview or become generally available. Using the **Copilot & AI Capabilities** page, you can turn individual features off or on again for all users.
@@ -101,8 +102,14 @@ When individual Copilot capabilities are released in Business Central minor upda
 
 Copilot and AI capabilities may offer functionality intended for any users across your organization or for specific user roles. Most Copilot and AI capabilities offer access control using permissions and permission sets in Business Central´s permission management system. [Learn more about permissions and permission sets](ui-define-granular-permissions.md).
 
-To grant or deny access to specific Copilot and AI capabilities, consult the documentation or publisher of that feature to identify which permissions are required. 
+The following table lists the premissions required to use Copilot features provided by Business Central. To grant or deny access to specific Non-Microsoft copilot and AI capabilities, consult the documentation or publisher of that feature to identify which permissions are required. |||
 
+|Copilot features|Required permissions|
+|-|-|
+|Analysis assist|**DATA ANALYSIS - EXEC** permission set or execute permission on the system object **9640 Allow Data Analysis mode**|
+|Bank reconciliation assist||
+|Marketing text suggestions||
+|||
 ## Next steps
 
 After you enable and consent to the features, you're ready to try them out. Go to:

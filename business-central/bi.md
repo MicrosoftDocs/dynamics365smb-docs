@@ -34,14 +34,22 @@ Each of the roles has some preferred/typical ways to consume/analyze data, ways 
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg" alt-text="Illustration of how different personas have different analytics needs." lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg":::
 
-| Role              | Data aggregation  | Typical ways to consume data                | 
-|-------------------|-------------------| --------------------------------------------|
-|CFO / CEO          | Performance data  | KPIs <br> Dashboards <br> Financial reports |
-|Finance Management | Trends, summaries | Managerial reports <br> Ad-hoc analysis     | 
-|Bookkepper         | Detailed data     | Operational reports <br> On-screen task data|
+| Role              | Data aggregation  | Typical ways to consume data                          | 
+|-------------------|-------------------| ----------------------------------------------------- |
+|CFO / CEO          | Performance data  | KPIs <br> Dashboards <br> Financial reports           |
+|Finance Management | Trends, summaries | Built-in managerial reports <br> Ad-hoc analysis      | 
+|Bookkeeper         | Detailed data     | Built-in operational reports <br> On-screen task data |
 
 
-## Financial reporting
+## Finance KPIs
+
+TODO
+
+## Finance Dashboards
+
+TODO
+
+## Using Financial reporting to produce financial statements and KPIs
 
 The *Financial reporting* feature gives you insight into the financial data stored in your chart of accounts (COA). You can setup financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports in your Role Center, such as the cash flow chart and income statement and balance sheet reports.
 

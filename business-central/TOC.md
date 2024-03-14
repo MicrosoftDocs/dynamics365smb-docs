@@ -477,6 +477,13 @@ ms.service: dynamics-365-business-central
 ### Built-in finance reports
 #### [Built-in finance Excel reports](finance-analyze-excel.md)
 #### [Built-in finance reports](finance-reports.md)
+#### [Built-in finance Excel reports](finance-analyze-excel.md)
+#### [Built-in key finance reports](finance-reports.md)
+#### [Built-in fixed assets reports](fa-reports.md)
+#### [Built-in accounts receivable reports](receivables-reports.md)
+#### [Built-in accounts payable reports](payables-reports.md)
+
+
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)

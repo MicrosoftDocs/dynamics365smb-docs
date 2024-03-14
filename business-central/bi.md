@@ -85,9 +85,8 @@ Built-in reports come in two flavors: one designed for print (pdf) and one desig
 * [Built-in finance Excel reports](finance-analyze-excel.md)
 * [Built-in key finance reports](finance-reports.md)
 * [Built-in fixed assets reports](fa-reports.md)
-* [Accounts receivable reports](receivables-reports.md)
-* [Accounts payable reports](payables-reports.md)
-
+* [Built-in accounts receivable reports](receivables-reports.md)
+* [Built-in accounts payable reports](payables-reports.md)
 
 
 ## On-screen finance task data

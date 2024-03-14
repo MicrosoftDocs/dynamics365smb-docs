@@ -69,9 +69,13 @@ For more information, see [Company consolidation](finance-consolidated-company-r
 
 ## Ad-hoc analysis of financial data
 
-Data analysis on ledgers
+Sometimes, you just need to check if the numbers add up correctly, quickly confirm or debunc a hypothosis about the business, or maybe look for anomalies in your financial data. For these ad-hoc analysis tasks, you might not have a built-in report that helps you with your questions, instead you can use these two features
+- Data analysis on ledger list pages
+- Open in Excel
 
-Open in Excel
+
+
+For more information, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md).
 
 ## Built-in reports for finance
 
@@ -100,6 +104,9 @@ The Chart of Accounts page shows all general ledger accounts with aggreated numb
 * View reports that show general ledger entries and balances.  
 * See a list of posting groups for that account.
 * View separate debit and credit balances for a single account.
+
+:::image type="content" source="media/chart-of-accounts-page.png" alt-text="Example of how the Chart of Accounts page shows finance insights" lightbox="media/chart-of-accounts-page.png":::
+
 
 For more information, see [Understand Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)
 

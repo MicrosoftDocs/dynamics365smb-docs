@@ -77,6 +77,8 @@ Open in Excel
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help auditors or controllers who are responsible for reporting to the finance department. 
 
+To get an overview of available reports, you can use the Role explorer and limit the features shown by clicking the **Report & Analysis** option in the top pane. For more information, see [Finding Reports with the Role Explorer](ui-role-explorer.md).
+
 Built-in reports come in two flavors: one designed for print (pdf) and one designed for further consumption and analysis in Excel.
 
 For more information, see

@@ -21,33 +21,33 @@ You set up each account that you want to include in revaluations on the **G/L Ac
 
 To minimize errors, in the **Source Currency Posting** field, you can set up a validation for the currencies that you want to allow to post to individual G/L accounts:
 
-* Only one currency (blank)
+* All currencies (blank)
 * Multiple currencies
-* All currencies
-* Only local currency
+* Same currency
+* Local currency
 
 ## Run a revaluation
 
-To revalue the foreign currency amounts in local currency for G/L account balances, on the **Chart of Accounts** page, use the **Revalue G/L Accounts** action to start a batch job. The batch job creates an adjustment entry in the journal that you select. When you post the entries, you also adjust the local currency (LCY) balance for the account. G/L account balances that always show in LCY are revalued to reflect changes to the currencies in which entries were posted. This revaluation enables you to produce a more accurate financial statement with less effort.
+To revalue the foreign currency amounts in local currency for G/L account balances, on the **Chart of Accounts** page, use the **G/L Currency Revaluation** action to start a batch job. The batch job creates adjustment entries in the journal that you select. When you post the entries, you adjust the local currency (LCY) balance for the account. G/L account balances that always show in LCY now reflect changes to the currencies in which entries were posted. This revaluation enables you to produce a more accurate financial statement with less effort.
 
 If you're using an additional reporting currency (ACY), the G/L revaluation entries have an ACY amount. The amount only corresponding to the LCY amount on these entries, not the ACY balance on the G/L account. If you adjust the ACY rates after you post the adjustments, run the currency exchange rate adjustment one more time to adjust all G/L entries.
 
 > [!IMPORTANT]
-> G/L account revaluation might not meet all requirements for transaction and asset registrations that need revaluation. For example, for financial instruments, securities, leased assets, or if you use them for specific or large volumes of transactions or assets. We recommend that you discuss with your auditor whether you can use the feature.
+> G/L account revaluation might not meet all requirements for transaction and asset registrations that need revaluation. For example, for financial instruments, securities, leased assets, or if you use them for specific or large volumes of transactions or assets. We recommend that you discuss with your auditor whether you can use the feature, and if so, how you should use it. For example, if you'll allow currencies to mix for an account, or if you need to keep a separate account for each asset you want to track.
 
 > [!NOTE]
-> Revaluation doesn’t provide the ability to apply or unapply entries. Adjustments happen on a balance per currency basis.
+> Revaluation doesn’t provide the ability to apply or unapply entries, like you can with customer and vendor ledger entries. Adjustments happen on a balance per currency basis.
 
-## Revaluate G/L accounts for customers, vendors, and bank accounts
+## Revaluate accounts vs. customer and vendor exchange rate adjustments
 
 Revaluation simplifies the task of adjusting G/L account balances. The feature revaluates the balance per currency per G/L account, much like you do for adjustments to G/L accounts that are linked to bank accounts. If you use a G/L account to keep track of multiple assets, consider using a vendor or customer account instead.
 
 > [!NOTE]
-> G/L account revaluation might not meet all requirements for transaction and asset registrations that need revaluation. For example, for financial instruments, securities, leased assets, or if you use them for specific or large volumes of transactions or assets. We recommend that you discuss with your auditor whether you can use the feature.
+> G/L account revaluation might not meet all requirements for transaction and asset registrations that need revaluation. For example, for financial instruments, securities, leased assets, or if you use them for specific or large volumes of transactions or assets. We recommend that you discuss with your auditor whether you can use the feature, and if so, how you should use it. For example, if you'll allow currencies to mix for an account, or if you need to keep a separate account for each asset you want to track.
 
 The following examples illustrate the difference between using a G/L account and using a vendor account to track the balance of two monetary assets that use a foreign currency.
 
-**Use a G/L account**
+**Use a customer account**
 Example with posting 2 'loans', making a few payments and a few revals. Pointing to the adjustments being made per currency balances
 
 **Use a vendor account**

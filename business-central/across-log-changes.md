@@ -26,7 +26,7 @@ Tracking changes can impact performance, which can cost you time, and increase t
 - Do not use the **All Fields** tracking type. Instead, choose **Some Fields** and track only the most important fields.
 
 > [!NOTE]
-> The Change Log doesn't track changes for fields that use the `autoIncrement property`. For example, fields that use the property are typically the primary key for a table.
+> The Change Log doesn't track changes for fields that use the `autoIncrement property`. An example of a field that uses the property is the Integer field on the Error Messages and VAT Report Line tables.
 
 Also for performance reasons, the change log is turned off during the process of upgrading [!INCLUDE [prod_short](includes/prod_short.md)] to the next version. In addition to speeding up the upgrade process, this also helps reduce clutter in the chance log. As soon as the upgrade is complete, the log starts tracking changes again.
 

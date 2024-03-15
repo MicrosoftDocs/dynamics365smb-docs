@@ -1,6 +1,6 @@
 ---
 title: FAQs for chat (preview) with Copilot
-description: This FAQ provides information about the AI technology used for chatting with Copilot in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+description: This FAQ provides information about the AI technology used for chatting with Copilot in [!INCLUDE[prod_short](includes/prod_short.md)]. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 02/27/2024
 ms.custom: 
   - responsible-ai-faqs
@@ -18,9 +18,9 @@ These frequently asked questions (FAQ) describe the AI impact of Chat with Copil
 
 ## What is Chat with Copilot?
 
-Chat with Copilot, also referred as chat, is an interactive feature that answers questions and finds business data related to Business Central, without users having to navigate the user interface or the product documentation. The Copilot pane is available from anywhere in the Business Central client.
+Chat with Copilot, also referred as chat, is an interactive feature that answers questions and finds business data related to [!INCLUDE[prod_short](includes/prod_short.md)], without users having to navigate the user interface or the product documentation. The Copilot pane is available from anywhere in the [!INCLUDE[prod_short](includes/prod_short.md)] client.
 
-Users ask questions in natural language, like "How do I deliver goods to my customers directly from my vendors?" or "Do we have any office chairs in stock for under $600?" In response, Copilot provides answers in natural language. Depending on the questions, answers can include plain text, links to records or pages in Business Central, and links to Business Central help articles on Microsoft Learn.
+Users ask questions in natural language, like "How do I deliver goods to my customers directly from my vendors?" or "Do we have any office chairs in stock for under $600?" In response, Copilot provides answers in natural language. Depending on the questions, answers can include plain text, links to records or pages in [!INCLUDE[prod_short](includes/prod_short.md)], and links to [!INCLUDE[prod_short](includes/prod_short.md)] help articles on Microsoft Learn.
 
 ## What are capabilities of Chat with Copilot?
 
@@ -28,9 +28,9 @@ Chat offers the following distinct skills:
 
 ### Explain and guide
 
-Users can ask Copilot to explain a specific concept related to Business Central, like what are dimensions, or provide guidance on how to complete a task, like how to post a sales order. Copilot searches the official Business Central documentation published by Microsoft, and provides an answer based on the documentation.
+Users can ask Copilot to explain a specific concept related to [!INCLUDE[prod_short](includes/prod_short.md)], like what are dimensions, or provide guidance on how to complete a task, like how to post a sales order. Copilot searches the official [!INCLUDE[prod_short](includes/prod_short.md)] documentation published by Microsoft, and provides an answer based on the documentation.
 
-- Copilot uses the knowledge on Microsoft Learn (not a broad web search) to semantically search only Dynamics 365 Business Central documentation on Microsoft Learn.
+- Copilot uses the knowledge on Microsoft Learn (not a broad web search) to semantically search only Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)] documentation on Microsoft Learn.
 
 - Copilot doesn't take action, create new data, or modify any configuration. It simply summarizes any paragraphs it finds on Microsoft Learn that match the question or prompt in chat.
 
@@ -40,13 +40,13 @@ Users can ask Copilot to locate pages by name or ask for records based on their 
 
 - Copilot converts the natural language input into a query consisting of a table search, sort, and filter criteria.
 
-  The capability uses the Business Central's native data search capabilities to find matching data from tables within the companies database. The search runs under the user's own identity for security and compliance. It doesn't search outside of the Business Central database.
+  The capability uses the [!INCLUDE[prod_short](includes/prod_short.md)]'s native data search capabilities to find matching data from tables within the companies database. The search runs under the user's own identity for security and compliance. It doesn't search outside of the [!INCLUDE[prod_short](includes/prod_short.md)] database.
 
-- Copilot doesn't take action, create new data, or modify any configuration. It only summarizes the records received from the Business Central native data search. 
+- Copilot doesn't take action, create new data, or modify any configuration. It only summarizes the records received from the [!INCLUDE[prod_short](includes/prod_short.md)] native data search. 
 
 ## What is the intended use of Chat with Copilot?
 
-Chat is designed for enterprise use and answering questions that pertain to Business Central and the business data it contains. The feature empowers people to solve common tasks such as finding records or getting guidance by expressing themselves in their own words, making it easier and more accessible to work with Business Central.
+Chat is designed for enterprise use and answering questions that pertain to [!INCLUDE[prod_short](includes/prod_short.md)] and the business data it contains. The feature empowers people to solve common tasks such as finding records or getting guidance by expressing themselves in their own words, making it easier and more accessible to work with [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## How was Chat with Copilot evaluated? What metrics are used to measure performance?
 
@@ -77,11 +77,11 @@ Users have the opportunity to provide feedback to every Copilot response and rep
 
   - Chat is only supported in English for the following locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA.
 
-    If the display language in Business Central isn't one of the these locales, chat isn't available.
+    If the display language in [!INCLUDE[prod_short](includes/prod_short.md)] isn't one of the these locales, chat isn't available.
 
   - The quality of answers can be lower under the following conditions:
     - The language locale is something other than en-US.
-    - When the language setting for the user in Business Central differs from the primary language of the data in the [!INCLUDE[prod_short](includes/prod_short.md)] database.
+    - When the language setting for the user in [!INCLUDE[prod_short](includes/prod_short.md)] differs from the primary language of the data in the [!INCLUDE[prod_short](includes/prod_short.md)] database.
 
 - Specific industry, product, and topic limitations
 
@@ -95,9 +95,9 @@ Microsoft doesn't use your company data, including the text you send to Copilot,
 
 ## What does Chat with Copilot offer for security
 
-Chat is designed to be secure and executes under the user's identity, inheriting all security permissions and other restrictions and never operating outside of Business Central's platform security. This means that Copilot can only access data that the user has access to.
+Chat is designed to be secure and executes under the user's identity, inheriting all security permissions and other restrictions and never operating outside of [!INCLUDE[prod_short](includes/prod_short.md)]'s platform security. This means that Copilot can only access data that the user has access to.
 
-For users with SUPER permission, chat can more easily locate unsecured data that's typically harder to get to for other users. Organizations that don't apply Business Central's security model to restrict which tables and objects each user or user role has access to, might be at elevated risk when using chat. Therefore, we recommend that your organization either implements Business Central's security model or deactivates chat.
+For users with SUPER permission, chat can more easily locate unsecured data that's typically harder to get to for other users. Organizations that don't apply [!INCLUDE[prod_short](includes/prod_short.md)]'s security model to restrict which tables and objects each user or user role has access to, might be at elevated risk when using chat. Therefore, we recommend that your organization either implements [!INCLUDE[prod_short](includes/prod_short.md)]'s security model or deactivates chat.
 
 ## See also
 

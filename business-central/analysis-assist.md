@@ -18,8 +18,7 @@ This article explains how to use analysis assist to help you analyze data on lis
 
 ## About analysis assist
 
-Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list pages in Business Central. The analysis mode provides an interactive and versatile way to calculate, summarize, and examine data. To analyze data in the anaysis mode
-, you create an *analysis* tab where you transform the data to display the desired aggregations and summarizations. For example, you arrange fields in rows and columns, specify filters, sort columns, and pivot on fields. Instead of doing this task manually, analysis assist lets you achieve the same using words. By expressing the structure you want in natural language, like "sort on quantity from smallest to largest" or "show average cost per category", analysis assist uses AI to generate a suggested layout on an analysis tab.
+Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list pages in Business Central. The analysis mode provides an interactive and versatile way to calculate, summarize, and examine data. To analyze data in the anaysis mode, you create an *analysis* tab where you transform the data to display the desired aggregations and summarizations. For example, you arrange fields in rows and columns, specify filters, sort columns, and pivot on fields. Instead of doing this task manually, analysis assist lets you achieve the same using words. By expressing the structure you want in natural language, like "sort on quantity from smallest to largest" or "show average cost per category", analysis assist uses AI to generate a suggested layout on an analysis tab.
 
 
 <!-- 
@@ -78,7 +77,7 @@ Creating effective prompts for Copilot is essential to get accurate and relevant
 
 ### Examples
 
-This following prompt examples use analysis assist on the **Items** list. The items page includes three summarizable fields for analysis: **Quantity on Hand**, **Unit Cost**, **Unit Price**. 
+These following prompt examples use analysis assist on the **Items** list. The items page includes three summarizable fields for analysis: **Quantity on Hand**, **Unit Cost**, **Unit Price**. 
 
 #### Prompt: Show items by brand and unit of measure
 

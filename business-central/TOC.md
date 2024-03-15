@@ -2031,7 +2031,7 @@ ms.service: dynamics-365-business-central
 ### [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)
 ## Analysis assist (preview)
 ### [Analyze data with Copilot](bank-reconciliation-with-copilot.md)
-### [FAQ for analysisassist](faqs-analysis-assist.md)
+### [FAQ for analysis assist](faqs-analysis-assist.md)
 ## Bank account reconciliation assist (preview)
 ### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 ### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)

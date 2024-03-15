@@ -7,23 +7,26 @@ ms.reviewer:
 ms.topic: conceptual
 ms.search.keywords: user log, user activity, tracking
 ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
-ms.date: 08/03/2023
+ms.date: 03/15/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Auditing Changes in Business Central
+# Auditing changes in Business Central
 
-A common challenge in many business management applications is avoiding unwanted changes in data. It could be anything from an incorrect customer telephone number to an incorrect posting to the general ledger. This topic describes the capabilities for finding out what changed, who changed it, and when the change was made.
+A common challenge in many business management applications is avoiding unwanted changes in data. It could be anything from an incorrect customer telephone number to an incorrect posting to the general ledger. This article describes the capabilities for finding out what changed, who changed it, and when the change was made.
 
 ## About the Change Log
 
-The change log lets you track all direct modifications a user makes to data in the database. You specify each table and field that you want the system to log, and then you activate the change log. The change log is based on changes that are made to data in the tables that you track. On the **Change Log Entries** page, entries are chronologically ordered and show all changes that are made to the values in fields on the tables you specify. 
+The change log lets you track all direct modifications a user makes to data in the database. You specify each table and field that you want the system to log, and then you activate the change log. The change log is based on changes that are made to data in the tables that you track. On the **Change Log Entries** page, entries are chronologically ordered and show all changes that are made to the values in fields on the tables you specify.
 
 Tracking changes can impact performance, which can cost you time, and increase the size of your database, which might cost you money. To reduce those costs, keep the following in mind:
 
 - Use caution when choosing the tables and operations.
 - Do not add ledger entries and posted documents. Instead, prioritize system fields such as Created By and Created Date.
-- Do not use the All Fields tracking type. Instead, choose Some Fields and track only the most important fields.
+- Do not use the **All Fields** tracking type. Instead, choose **Some Fields** and track only the most important fields.
+
+> [!NOTE]
+> The Change Log doesn't track changes for fields that use the `autoIncrement property`. For example, fields that use the property are typically the primary key for a table.
 
 Also for performance reasons, the change log is turned off during the process of upgrading [!INCLUDE [prod_short](includes/prod_short.md)] to the next version. In addition to speeding up the upgrade process, this also helps reduce clutter in the chance log. As soon as the upgrade is complete, the log starts tracking changes again.
 

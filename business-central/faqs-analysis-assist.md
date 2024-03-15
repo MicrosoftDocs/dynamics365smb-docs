@@ -71,6 +71,10 @@ Users have the opportunity to provide feedback to every Copilot response and rep
 
   Organizations that operate in some business domains, such as medical, drugs, legal, and weapons, might experience lower quality of service.
 
+## What data does analysis collect and how is it used
+
+
+Microsoft doesn't use your company data, including the text you send to Copilot, to train the foundational models for the benefit of others. Company administrators have full control to govern this data that is part of their Azure subscription. Because administrators or others in your company might have access to this data as determined by your employer, we recommend users don't enter sensitive data such as passwords or other secrets.
 ## See also
 
 [Analyze data with Copilot (preview)](analysis-assist.md)

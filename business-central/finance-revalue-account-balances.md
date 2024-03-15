@@ -47,11 +47,13 @@ Revaluation simplifies the task of adjusting G/L account balances. The feature r
 
 The following examples illustrate the difference between using a G/L account and using a vendor account to track the balance of two monetary assets that use a foreign currency.
 
-**Use a customer account**
-Example with posting 2 'loans', making a few payments and a few revals. Pointing to the adjustments being made per currency balances
+**Use a G/L account**
+If you're using one G/L account to track either multiple assets (for example, loans or fixed assets) in the same currency, or individual part transactions for the same asset but still in the same currency, G/L revaluation makes one entry per revaluation for the currency. This means that you can't track the adjustments related to individual assets or individual transactions for the same asset.
 
 **Use a vendor account**
-Example with posting 2 'loans, making a few payments and a few revals. Pointing to the adjustments being made per vendor ledger entry (if the setting "post per entry" is selected in reqs page).
+If you set up multiple assets as vendors and you post transactions to them, either in same or different currencies, you'll get an adjustment per currency per vendor. Or, if you turn on the **Posting per entry** toggle on the **Adjust Currency Exchange Rate** job queue entry, you'll get an adjustment entry for each separate vendor ledger entry.
+
+This difference is important when you assess whether G/L revaluation is the right feature to you for your reporting needs.
 
 > [!TIP]
 > We recommend that you ask your accountant or auditor which type of account is best for your business. Also, there might be an app for [!INCLUDE [prod_short](includes/prod_short.md)] on [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=dynamics-365-business-central) that's just right for your business scenarios.

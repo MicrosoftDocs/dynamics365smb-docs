@@ -40,7 +40,7 @@ If you're using an additional reporting currency (ACY), the G/L revaluation entr
 
 ## Revaluate accounts vs. customer and vendor exchange rate adjustments
 
-Revaluation simplifies the task of adjusting G/L account balances. The feature revaluates the balance per currency per G/L account, much like you do for adjustments to G/L accounts that are linked to bank accounts. If you use a G/L account to keep track of multiple assets, consider using a vendor or customer account instead.
+Revaluation simplifies the task of adjusting G/L account balances. The feature revaluates the balance per currency per G/L account much like you do for adjustments to G/L accounts that are linked to bank accounts. If you use a G/L account to track multiple assets, consider using a vendor or customer account instead.
 
 > [!NOTE]
 > G/L account revaluation might not meet all requirements for transaction and asset registrations that need revaluation. For example, for financial instruments, securities, leased assets, or if you use them for specific or large volumes of transactions or assets. We recommend that you discuss with your auditor whether you can use the feature, and if so, how you should use it. For example, if you'll allow currencies to mix for an account, or if you need to keep a separate account for each asset you want to track.

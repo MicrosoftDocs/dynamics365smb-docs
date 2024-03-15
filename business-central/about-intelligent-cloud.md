@@ -1,5 +1,5 @@
 ---
-title: Intelligent insights and cloud migration
+title: Intelligent insights (on-premises only) and cloud migration
 description: In Business Central online, you have access to other online services, and you can get intelligent insights that are based on Azure AI, for example. Read on if you're considering to migrate from on-premises to the cloud.
 author: brentholtorf
 ms.topic: conceptual
@@ -12,7 +12,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Intelligent Insights in [!INCLUDE[prod_short](includes/prod_short.md)] Online
+# Intelligent Insights in [!INCLUDE[prod_short](includes/prod_short.md)] Online (on-premises only)
 
 As a user of [!INCLUDE[prod_short](includes/prod_short.md)] online, you have full access to scenarios that are based on the intelligent cloud, such as KPIs that are based on machine learning, or when you view your data in Power BI.  
 
@@ -20,7 +20,7 @@ However, if you use [!INCLUDE [prod_short](includes/prod_short.md)] on-premises,
 
 ## Viewing Insights in [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] online, the **Intelligent Cloud Insights** page shows four key points of interest for most businesses:
+For an on-premises environment that has had its data migrated to [!INCLUDE[prod_short](includes/prod_short.md)] online, the **Intelligent Cloud Insights** page in the online environment shows four key points of interest for most businesses:
 
 - Cash availability
 - Sales profitability

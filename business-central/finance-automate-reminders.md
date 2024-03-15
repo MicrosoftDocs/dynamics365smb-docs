@@ -15,9 +15,9 @@ ms.custom: bap-template
 
 Make your collections more effective by automating the process of creating, issuing, and sending reminders to your customers. Automation can significantly reduce the time you'll spend on collections, provide a better overview of the process, and give you full control over each step.
 
-On the **Reminder Automation** page, you define the individual actions (steps) in the automations. You can combine the steps to the create, issue, and send reminders, or you can create separate automations for each step if that's better for your collection proccesses. Automations are based on reminder terms and reminder levels. To learn more, go to [Set Up Reminder Terms and Levels](finance-setup-reminders.md). You can set filters for reminder terms for an automation as a whole, and set filters for each action in the automation. You can also attach outstanding invoices to emails as PDF files.
+On the **Reminder Automation** page, you define the individual actions (steps). You can combine the steps to the create, issue, and send reminders, or you can create a separate automation for each step if that's better for your collection processes. Automations are based on reminder terms and reminder levels. To learn more, go to [Set Up Reminder Terms and Levels](finance-setup-reminders.md). You can set filters for reminder terms for an automation as a whole, and set filters for each action in the automation. You can also attach outstanding invoices to emails as PDF files.
 
-Automation happens through a job queue entry. After you set up an automation, you can start it and it'll run until you pause it to put it on hold. For each automation, you specify a cadence that controls how often it runs. If you want to be more specific about when it runs, use the **Job queue entries** action to open the **Job Queue Entries** page and adjust the recurrence, for example to daily or a specific weekday.
+Automation happens through a job queue entry. When you set set up an automation, use the **Cadence** field to specify specify how and when it runs. If you choose **Manual**, the automation runs one time when you use the **Start** action. You can also choose **Weekly**, **Monthly**, or choose **Custom** to set up a more detailed cadence. If you choose **Custom**, you'll need to enter a data formula. To learn more about entering a date formula, go to [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas). When you choose an option other than **Manual**, the automation will run until you pause it to put it on hold. If you want to be even more specific about when it runs, use the **Job queue entries** action to open the **Job Queue Entries** page and adjust the recurrence, for example to daily or a specific weekday.
 
 ## Automate the reminders flow
 
@@ -44,7 +44,7 @@ The setup settings differ for the Create, Issue, and Send reminder actions. The 
 
 ### Issue
 
-When you issue a reminder, you create entries for the customer that contain the posting date and tax date. Use the settings on the **Issue Reminders Setup** page to specify whether to replace that information on the reminder with the information from the original invoice.
+When you issue a reminder, you create entries in the customer ledger that contain the posting date and tax date. Use the settings on the **Issue Reminders Setup** page to specify whether to replace that information on the issued reminder with the information from the created reminder. For example, if you created the reminder yesterday, and issue it today, the due date will move one day.
 
 ### Send
 

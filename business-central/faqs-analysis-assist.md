@@ -25,13 +25,17 @@ Analysis assist is a Copilot that provides assistance for working with the [data
 
 ## What are capabilities of analysis assist?
 
-Analysis assist is built on the developer tools for Copilot in Business Central. It uses Azure Open AI Azure OpenAI to convert unstructured instructions into a structured design for displaying data in the analysis mode, without creating, modifying or updating customer business data itself.
+Analysis assist is built on the developer tools for Copilot in Business Central. It uses Azure Open AI Azure OpenAI to convert unstructured instructions into a structured design for displaying data in the analysis mode, without creating, modifying, or updating customer business data itself.
 
 ## What is the intended use of analysis assist?
 
-The intended use of analysis assist is to help create analysis tabs in the data analysis mode to present data in a manner that makes it easier to draw conclusions. However, it's important to note that analysis assist doesn't provide direct insights or conclusions about the data. It's a tool to help users organize and view their data, but it's up to the user to extract actionable information, discover trends, and make informed decisions to drive business value.
+The intended use of analysis assist is to help create analysis tabs in the data analysis mode to present data in a manner that makes it easier to draw conclusions. However, it's important to note that analysis assist doesn't provide direct insights or conclusions about the data. It's a tool help users organize and view their data. However, it's up to the user to extract actionable information, discover trends, and make informed decisions to drive business value.
 
 ## How was analysis assist evaluated? What metrics are used to measure performance?
+
+- The feature underwent extensive testing based on [!INCLUDE[prod_short](includes/prod_short.md)]'s demonstration data and other fictitious product catalogs. Copilot was given numerous prompts in the supported English locales. The prompts covered a broad range of data analysis instructions and styles of expressing intent. The outcomes were evaluated against accuracy, relevance, and safety.
+
+- The feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft](https://aka.ms/RAI).
 
 ## How does Microsoft monitor the quality of generated content?
 
@@ -67,7 +71,7 @@ Users have the opportunity to provide feedback to every Copilot response and rep
   
     The feature is available in all supported [Business Central countries/regions](dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) except for Canada, due to regulatory language compliance. However, the feature uses Microsoft Azure OpenAI Service, which is currently available for Business Central in some geographies. If your environment is located in a country/region where Azure OpenAI Service isn't available, administrators must allow data to move across geographies. [Learn more](dynamics365/business-central/ai-copilot-data-movement).
 
-- Certain industry, product, and subject limitations
+- Certain industry, product, and subject limitations:
 
   Organizations that operate in some business domains, such as medical, drugs, legal, and weapons, might experience lower quality of service.
 
@@ -75,7 +79,7 @@ Users have the opportunity to provide feedback to every Copilot response and rep
 
 Microsoft doesn't use your company data, including the text you send to Copilot, to train the foundational models for the benefit of others. Company administrators have full control to govern this data that is part of their Azure subscription. Because administrators or others in your company might have access to this data as determined by your employer, we recommend users don't enter sensitive data such as passwords or other secrets.
 
-The analysis assist capability collects the minimum data required by Business Central to offer the service. For more information, see [Dynamics 365 terms for Azure OpenAI-powered features](https://go.microsoft.com/fwlink/?linkid=2236010). It also collects data from the feedback user's can provide using the like (thumbs up) or dislike (thumbs down) icons in the analysis assist **Copilot** page. The data is anonymous and includes the choice of like ot dislike, the dislike reason if provided, and the Copilot feature the feedback applies to.
+The analysis assist capability collects the minimum data required by Business Central to offer the service. For more information, see [Dynamics 365 terms for Azure OpenAI-powered features](https://go.microsoft.com/fwlink/?linkid=2236010). It also collects data from the feedback user's can provide using the like (thumbs up) or dislike (thumbs down) icons in the analysis assist **Copilot** page. The data is anonymous and includes the choice of like to dislike, the dislike reason if provided, and the Copilot feature the feedback applies to.
 
 Microsoft doesn't use your company data, including the text you send to Copilot, to train the foundational models for the benefit of others.
 

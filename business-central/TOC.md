@@ -1727,6 +1727,7 @@ ms.service: dynamics-365-business-central
 ### [Set up online maps](across-online-maps-setup.md)
 ### [Get Business Central on your mobile device](install-mobile-app.md)
 ### [Get Business Central on your desktop](install-desktop-app.md)
+
 <!--Reporting landing page-->
 # Business intelligence and reporting 
 

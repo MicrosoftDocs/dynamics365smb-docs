@@ -1,6 +1,6 @@
 ---
-title: Business Intelligence and Reporting Overview
-description: Provides an overview of all the business intelligence and reporting features supported in Business Central.
+title: Analytics, business intelligence, and reporting overview
+description: Provides an overview of all the analytics, business intelligence, and reporting features supported in Business Central.
 author: KennieNP
 ms.topic: get-started
 ms.devlang: al
@@ -11,7 +11,7 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# Business Intelligence and Reporting Overview
+# Analytics, business intelligence, and reporting overview
 
 Small and mid-sized companies rely on built-in analytics and reporting capabilities they can use out-of-the-box to help keep track of their business. [!INCLUDE[prod_short](includes/prod_short.md)] supports common business processes as well as more complex processes for such organizations. Each of these processes includes reports and analytics tools. You can also do ad-hoc analysis directly from your home page.  
 

@@ -86,7 +86,7 @@ A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information b
 
 [!INCLUDE[prod_short](includes/prod_short.md)] comes with more than 300 built-in reports that you can use to support your business processes with data-driven insights. To get a quick overview of all the reports that are available for your role, you can open the report explorer from the role center and all list pages and from the **Tell Me** window. 
 
-<!-- TODO: add screenshot here -->
+:::image type="content" source="media/report-explorer-finance.png" alt-text="Example of how the report explorer show all reports for a role." lightbox="media/report-explorer-finance.png":::
 
 For more information about using the report explorer to see all built-in reports, see [Exploring reports per Role](ui-role-explorer.md).
 

@@ -84,15 +84,20 @@ For more information, see [Ad-hoc data analysis](reports-adhoc-analysis.md).
 
 A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information based on a specified set of criteria. It organizes and presents the information in an easy-to-read format you can use in Excel, print or save as a file.  
 
+[!INCLUDE[prod_short](includes/prod_short.md)] comes with more than 300 built-in reports that you can use to support your business processes with data-driven insights. To get a quick overview of all the reports that are available for your role, you can open the report explorer from the role center and all list pages and from the **Tell Me** window. 
 
-<!-- TODO: need more text here -->
+<!-- TODO: add screenshot here -->
+
+For more information about using the report explorer to see all built-in reports, see [Exploring reports per Role](ui-role-explorer.md).
+
 
 The following table covers topis related to using built-in reports in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 | To  | See |
 | --- | --- |
-| Learn how to use with reports (bookmark, run, print, schedule, and change the layout). | [Use Reports in Daily Work](reports-use-reports.md) |
-| Learn about which built-in reports are available in [!INCLUDE[prod_short](includes/prod_short.md)]. |[Report Overview](reports-available-reports.md)|
+| Learn how to use reports (bookmark, run, print, schedule, and change the layout). | [Use Reports in Daily Work](reports-use-reports.md) |
+| Learn about which built-in reports are available in [!INCLUDE[prod_short](includes/prod_short.md)]. |[Report Overview](reports-available-reports.md)| 
+| Use the report explorer to see all built-in reports. | [Exploring reports per Role](ui-role-explorer.md) |
 
 
 ## External business intelligence and reporting tools

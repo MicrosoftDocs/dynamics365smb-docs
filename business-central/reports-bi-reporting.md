@@ -85,7 +85,7 @@ The following table covers topis related to using built-in reports in [!INCLUDE[
 
 ## External business intelligence and reporting tools
 
-The following table covers topis related to using external business intelligence and reporting tools with [!INCLUDE[prod_short](includes/prod_short.md)] data.
+The following table covers topics related to using external business intelligence and reporting tools with [!INCLUDE[prod_short](includes/prod_short.md)] data.
 
 | To  | See |
 | --- | --- |

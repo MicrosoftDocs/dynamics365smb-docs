@@ -24,7 +24,7 @@ Identifying and tracking KPIs lets you know if your business is on the right pat
 - Motivate team members.
 - Make better decisions, faster.
 
-## Get started identifying KPIs that matter
+## Get started identifying your KPIs 
 
 So how do you begin to identify the KPIs that are important to your business? Start by clarifying your strategic objectives—collectively or by department.
 
@@ -69,7 +69,20 @@ Additional considerations for creating your KPI reports include:
 - Presenting only the relevant KPIs so you don’t overload the report with KPIs that don’t map back to the reporting - goals.
 - Making sure your reporting is clear, easy to understand, and actionable for the intended audience.
 
+## Tools for implementing KPIs in [!INCLUDE[prod_short](includes/prod_short.md)]
+
+The following table covers topics related to using different business intelligence and reporting tools with [!INCLUDE[prod_short](includes/prod_short.md)] data to implement KPIs.
+
+| To  | See |
+| --- | --- |
+| Use the Financial Reporting feature to produce financial statements and KPIs | [Using Financial reporting to produce financial statements and KPIs](bi.md) |
+| Use Power BI to produce KPI dashboards | [Work with Power BI reports](across-working-with-powerbi.md) | 
+| [Analyze financial statements with Microsoft Excel](finance-analyze-excel.md) |
+| Integrate external business intelligence tools with [!INCLUDE[prod_short](includes/prod_short.md)].| [External Business Intelligence Tools](reports-external-analysis.md) |
+
+
 ## KPI best practices
+
 To help you successfully harness the power of KPIs, we’ve compiled a few tips to get you started.
 
 Identifying KPIs:

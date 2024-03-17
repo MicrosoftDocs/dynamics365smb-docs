@@ -27,6 +27,12 @@ Each of the roles has some preferred/typical ways to consume/analyze data, ways 
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg" alt-text="Illustration of how different personas have different analytics needs." lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg":::
 
+In the paragraphs below, you can learn more about each of the ways to consume data from [!INCLUDE[prod_short](includes/prod_short.md)]
+
+- KPIs and dashboards
+- Ad-hoc analysis
+- Reports
+
 ## Using Financial reporting to produce financial statements and KPIs
 
 The *Financial reporting* feature gives you insight into the financial data stored in your chart of accounts (COA). You can setup financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports in your Role Center, such as the cash flow chart and income statement and balance sheet reports.
@@ -71,7 +77,7 @@ Similarly, using the *Open in Excel* feature, you can open a list page such as G
 For more information, see [Ad-hoc data analysis](reports-adhoc-analysis.md).
 
 
-## Built-in reports
+## Reports in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information based on a specified set of criteria. It organizes and presents the information in an easy-to-read format you can print or save as a file.  
 
@@ -79,7 +85,7 @@ The following table covers topis related to using built-in reports in [!INCLUDE[
 
 | To  | See |
 | --- | --- |
-| Work with standard reports (bookmark, run, print, schedule, and change the layout). | [Use Reports in Daily Work](reports-use-reports.md) |
+| Learn how to use with reports (bookmark, run, print, schedule, and change the layout). | [Use Reports in Daily Work](reports-use-reports.md) |
 | Learn about which built-in reports are available in [!INCLUDE[prod_short](includes/prod_short.md)]. |[Report Overview](reports-available-reports.md)|
 
 

@@ -31,7 +31,9 @@ Each of the roles has some preferred/typical ways to consume/analyze data, ways 
 
 The *Financial reporting* feature gives you insight into the financial data stored in your chart of accounts (COA). You can setup financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports in your Role Center, such as the cash flow chart and income statement and balance sheet reports.
 
-For more info, see...
+<!-- Screenshot here when available -->
+
+For more info, see [Using Financial reporting to produce financial statements and KPIs](bi.md)
 
 
 ## What is a KPI and why should I care?
@@ -46,7 +48,7 @@ Identifying and tracking KPIs lets you know if your business is on the right pat
 - Motivate team members.
 - Make better decisions, faster.
 
-For more info, see...
+For more info, [Using key performance indicators (KPIs) to meet your business goals](./analytics-about-kpis.md)
 
 
 ## Ad-hoc data analysis 
@@ -68,6 +70,7 @@ Similarly, using the *Open in Excel* feature, you can open a list page such as G
 
 For more information, see [Ad-hoc data analysis](reports-adhoc-analysis.md).
 
+
 ## Built-in reports
 
 A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information based on a specified set of criteria. It organizes and presents the information in an easy-to-read format you can print or save as a file.  
@@ -76,20 +79,19 @@ More text here and some references.
 
 | Work with standard reports (bookmark, run, print, schedule, and change the layout). | [Use Reports in Daily Work](reports-use-reports.md) |
 
-
-## Key business intelligence and reporting functionality
-
-The following table covers key business intelligence and reporting functionality in [!INCLUDE[prod_short](includes/prod_short.md)] you can learn to use.
-
-| To | See |
-| --- | --- |
-| Work with standard reports (bookmark, run, print, schedule, and change the layout). | [Use Reports in Daily Work](reports-use-reports.md) |
 | Learn about built-in reports in [!INCLUDE[prod_short](includes/prod_short.md)]. |[Report Overview](reports-available-reports.md)|
-| Do ad-hoc data analysis using in-client features or Microsoft Excel. | [Ad-hoc Data Analysis](reports-adhoc-analysis.md) |
-| Work with built-in analytics tools in [!INCLUDE[prod_short](includes/prod_short.md)].| [Built-in Analytics](reports-built-in-analytics.md) |
+
+
+## External business intelligence and reporting tools
+
+The following table covers topis related to using external business intelligence and reporting tools with [!INCLUDE[prod_short](includes/prod_short.md)] data.
+
+| To  | See |
+| --- | --- |
 | Integrate external business intelligence tools with [!INCLUDE[prod_short](includes/prod_short.md)].| [External Business Intelligence Tools](reports-external-analysis.md) |
-|Modify report layouts or even develop your own reports from scratch. |[Developing reports](reports-develop-reports.md)|
-|Analyze data with Microsoft Fabric| [Introduction to Microsoft Fabric and Business Central](admin-fabric.md) |
+| Extract data to data warehouses or data lakes| [Extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses) |
+| Analyze data with Microsoft Fabric| [Introduction to Microsoft Fabric and Business Central](admin-fabric.md) |
+| Read data with the Business Central API | [Read data with the Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
 
 
 ## See also

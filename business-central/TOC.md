@@ -1733,6 +1733,9 @@ ms.service: dynamics-365-business-central
 
 ## [Overview](reports-bi-reporting.md)
 
+## [Using key performance indicators (KPIs) to meet your business goals](./analytics-about-kpis.md)
+## [Using financial reporting](bi-how-work-account-schedule.md)
+
 ## Use reports in daily work
 ### [Overview](reports-use-reports.md)
 ### [Run reports](ui-work-report.md)

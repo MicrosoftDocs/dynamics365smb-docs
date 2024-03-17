@@ -75,11 +75,12 @@ For more information, see [Ad-hoc data analysis](reports-adhoc-analysis.md).
 
 A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information based on a specified set of criteria. It organizes and presents the information in an easy-to-read format you can print or save as a file.  
 
-More text here and some references.
+The following table covers topis related to using built-in reports in [!INCLUDE[prod_short](includes/prod_short.md)].
 
+| To  | See |
+| --- | --- |
 | Work with standard reports (bookmark, run, print, schedule, and change the layout). | [Use Reports in Daily Work](reports-use-reports.md) |
-
-| Learn about built-in reports in [!INCLUDE[prod_short](includes/prod_short.md)]. |[Report Overview](reports-available-reports.md)|
+| Learn about which built-in reports are available in [!INCLUDE[prod_short](includes/prod_short.md)]. |[Report Overview](reports-available-reports.md)|
 
 
 ## External business intelligence and reporting tools
@@ -96,7 +97,11 @@ The following table covers topis related to using external business intelligence
 
 ## See also
 
-[Financial Business Intelligence](bi.md)  
+[Using Financial reporting to produce financial statements and KPIs](bi.md)
+[Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md) 
+[Doing ad-hoc data analysis](reports-adhoc-analysis.md)  
+[Use reports in your daily work](reports-use-reports.md) 
+[Overview of built-in reports](reports-available-reports.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -35,11 +35,13 @@ In the paragraphs below, you can learn more about each of the ways to consume da
 
 ## Using Financial reporting to produce financial statements and KPIs
 
-The *Financial reporting* feature gives you insight into the financial data stored in your chart of accounts (COA). You can setup financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports in your Role Center, such as the cash flow chart and income statement and balance sheet reports.
+The *Financial reporting* feature in [!INCLUDE[prod_short](includes/prod_short.md)] gives you insight into the financial data stored in your chart of accounts (COA). You can setup financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports in your Role Center, such as the cash flow chart and income statement and balance sheet reports.
 
 <!-- Screenshot here when available -->
 
-For more info, see [Using Financial reporting to produce financial statements and KPIs](bi.md)
+Using the **Dimensions** functionality in [!INCLUDE[prod_short](includes/prod_short.md)] plays an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. As such, you can use it to group entries that have similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Among other purposes, you use dimensions when defining analysis views and creating financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
+
+For more information about financial statements and KPIs, see [Using Financial reporting to produce financial statements and KPIs](bi.md)
 
 
 ## What is a KPI and why should I care?
@@ -91,10 +93,11 @@ The following table covers topis related to using built-in reports in [!INCLUDE[
 
 ## External business intelligence and reporting tools
 
-The following table covers topics related to using external business intelligence and reporting tools with [!INCLUDE[prod_short](includes/prod_short.md)] data.
+In case you prefer to use business intelligence tools that are not embedded in [!INCLUDE[prod_short](includes/prod_short.md)], the following table provides links to guidance on tools and methods to achieve this.
 
 | To  | See |
 | --- | --- |
+| Use Power BI with Business Central | [Use Power BI with Business Central](admin-powerbi.md) |
 | Integrate external business intelligence tools with [!INCLUDE[prod_short](includes/prod_short.md)].| [External Business Intelligence Tools](reports-external-analysis.md) |
 | Extract data to data warehouses or data lakes| [Extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses) |
 | Analyze data with Microsoft Fabric| [Introduction to Microsoft Fabric and Business Central](admin-fabric.md) |
@@ -103,7 +106,7 @@ The following table covers topics related to using external business intelligenc
 
 ## See also
 
-[Using Financial reporting to produce financial statements and KPIs](bi.md)
+[Using Financial reporting to produce financial statements and KPIs](bi.md)  
 [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md) 
 [Doing ad-hoc data analysis](reports-adhoc-analysis.md)  
 [Use reports in your daily work](reports-use-reports.md) 

@@ -82,7 +82,8 @@ For more information, see [Ad-hoc data analysis](reports-adhoc-analysis.md).
 
 ## Reports in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information based on a specified set of criteria. It organizes and presents the information in an easy-to-read format you can print or save as a file.  
+A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information based on a specified set of criteria. It organizes and presents the information in an easy-to-read format you can use in Excel, print or save as a file.  
+
 
 <!-- TODO: need more text here -->
 
@@ -100,11 +101,11 @@ In case you prefer to use business intelligence tools that are not embedded in [
 
 | To  | See |
 | --- | --- |
-| Use Power BI with Business Central | [Use Power BI with Business Central](admin-powerbi.md) |
+| Use Power BI with Business Central data | [Using Power BI with Business Central](admin-powerbi.md) |
 | Integrate external business intelligence tools with [!INCLUDE[prod_short](includes/prod_short.md)].| [External Business Intelligence Tools](reports-external-analysis.md) |
-| Extract data to data warehouses or data lakes| [Extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses) |
-| Analyze data with Microsoft Fabric| [Introduction to Microsoft Fabric and Business Central](admin-fabric.md) |
-| Read data with the Business Central API | [Read data with the Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
+| Extract data to data warehouses or data lakes| [How to extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses) |
+| Analyze Business Central data with Microsoft Fabric| [Introduction to Microsoft Fabric and Business Central](admin-fabric.md) |
+| Read data from Business Central using APIs | [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
 
 
 ## See also

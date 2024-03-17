@@ -29,6 +29,7 @@ Each of the roles has some preferred/typical ways to consume/analyze data, ways 
 
 In the paragraphs below, you can learn more about each of the ways to consume data from [!INCLUDE[prod_short](includes/prod_short.md)]
 
+- Financial Reporting
 - KPIs and dashboards
 - Ad-hoc analysis
 - Reports
@@ -83,6 +84,8 @@ For more information, see [Ad-hoc data analysis](reports-adhoc-analysis.md).
 
 A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information based on a specified set of criteria. It organizes and presents the information in an easy-to-read format you can print or save as a file.  
 
+<!-- TODO: need more text here -->
+
 The following table covers topis related to using built-in reports in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 | To  | See |
@@ -107,9 +110,9 @@ In case you prefer to use business intelligence tools that are not embedded in [
 ## See also
 
 [Using Financial reporting to produce financial statements and KPIs](bi.md)  
-[Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md) 
+[Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)  
 [Doing ad-hoc data analysis](reports-adhoc-analysis.md)  
-[Use reports in your daily work](reports-use-reports.md) 
+[Use reports in your daily work](reports-use-reports.md)  
 [Overview of built-in reports](reports-available-reports.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

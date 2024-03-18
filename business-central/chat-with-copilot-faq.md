@@ -35,11 +35,11 @@ Chat is available in public preview from version 24.0 (2024 release wave 1).
 It depends on the type of question you ask Copilot. For example:
 
 - When you ask questions to locate records, Copilot is able to find records in your custom tables that are identified using custom fields.
-- When you ask for explanation or guidance, Copilot doesn't have access to any information about your customizations or documentation for your add-ons.
+- When you ask for an explanation or guidance, Copilot doesn't have access to any information about your customizations or documentation for your add-ons.
 
 ## Copilot never seems to open the record or page I asked for. What am I doing wrong?
 
-When you ask Copilot to find records in [!INCLUDE[prod_short](includes/prod_short.md)], it displays ant records it finds as tiles or links in the chat pane that you can select. While in preview, Copilot doesn't automatically navigate to any page.
+When you ask Copilot to find records in [!INCLUDE[prod_short](includes/prod_short.md)], it displays any records it finds as selectable tiles or links in the chat pane. While in preview, Copilot doesn't automatically navigate to any page.
 
 ## The answers I get from Copilot vary even though I ask the same question. Is it a bug?
 

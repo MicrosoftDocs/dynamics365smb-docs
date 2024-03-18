@@ -202,6 +202,7 @@ ms.service: dynamics-365-business-central
 ### [Intelligent insights (online only)](about-intelligent-cloud.md)
 ## Frequently Asked Questions
 ### [Frequently Asked Questions](across-faq.yml)
+### [Chat with Copliot FAQ](chat-with-copilot-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Search and filter FAQ](ui-search-filter-faq.yml)
 ### [List views FAQ](ui-views-faq.yml)

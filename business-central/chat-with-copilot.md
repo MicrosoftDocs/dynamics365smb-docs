@@ -83,15 +83,15 @@ This section provides ways you can improve the answers you get from Copilot.
 
 ## Example prompts
 
-Your questions to Copilot will naturally vary depending on your role, current task, the processes that your organization follows, and how you express yourself in words. The following are examples that showcase different ways of asking questions in the chat pane that can inspire you to write your own questions based on your own unique situation.
+Your questions to Copilot naturally vary depending on your role, current task, the processes that your organization follows, and how you express yourself in words. The following are examples that showcase different ways of asking questions in the chat pane that can inspire you to write your own questions based on your own unique situation.
 
 ### Find the Item with Description 'ATHENS Desk'
 
-In this example, you give clear instructions for Copilot to locate a single record. For example, you hint that the record is found in the Item list, and you indicate the field 'Description' must be a specific text that you have typed using quotes and with correct capitalization. Copilot usually responds accurately when given a few precise hints, but you can also use more casual language as in the next example.
+In this example, you give clear instructions for Copilot to locate a single record. For example, you hint that the record is found in the Item list. You indicate the field 'Description' must be a specific text that you have typed using quotes and with correct capitalization. Copilot usually responds accurately when given a few precise hints, but you can also use more casual language as in the next example.
 
 ### give me the latest invoice for adatum
 
-In this example, you ask Copilot to locate a record, but the question is less precise and may result in a less accurate answer. Copilot is often able to understand, or guess, that the invoice you are looking for is not a purchase invoice but a sales invoice from the Posted Sales Invoice list. Copilot would also need to match "adatum" with "Adatum Corporation", that is the full and precise name for the sell-to Customer name associated with the invoice.
+In this example, you ask Copilot to locate a record, but the question is less precise and might result in a less accurate answer. Copilot is often able to understand, or guess, that the invoice you're looking for isn't a purchase invoice but a sales invoice from the Posted Sales Invoice list. Copilot would also need to match "adatum" with "Adatum Corporation", that is the full and precise name for the sell-to Customer name associated with the invoice.
 
 ### Show me customer ledger entries for Adatum from about three weeks ago
 
@@ -99,11 +99,11 @@ In this example, you ask copilot to solve a common date puzzle that typically re
 
 ### How does I save my filterrings to do them later?
 
-In this example, you ask Copilot for guidance on how to perform some task in Business Central. Copilot is usually able to understand the intent of your question, even if there are a few grammatical errors, spelling mistakes or abbreviations.
+In this example, you ask Copilot for guidance on how to perform some task in Business Central. Copilot can usually understand the intent of your question, even if there are a few grammatical errors, spelling mistakes or abbreviations.
 
 ## Provide feedback on answers
 
-You can rate the answers you get from Copilot by using the like (thumbs up) button for good rating or the dislike (thumbs down) button for a poor rating [!INCLUDEprod_short]. This information us can p us improve suggestions. To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.
+You can rate the answers you get from Copilot by using the like (thumbs up) button for good rating or the dislike (thumbs down) button for a poor rating. When you select the didlike button, you can choose from   This information us can help us improve suggestions.
 
 <!--
 1. If you want help getting you're question started, select the prompts either from the **Find**, **Explain**, or **Guide** buttons at the top of the Coplit pane or use the **View Prompts** menu above **Ask a question** box at the bottom.

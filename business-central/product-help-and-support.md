@@ -47,7 +47,8 @@ In [!INCLUDE [prod_short](includes/prod_short.md)], the Help menu item (the ques
 The following list describes how you can access the Help pane and whether cards are added to it:
 
 - Choose the Help menu item (the question mark in the top-right corner)
-- Use the <kbd>Ctrl</kbd>+<kbd>F1</kbd> keyboard shortcut from anywhere
+- Use the <kbd>Ctrl</kbd>+<kbd>F1</kbd> keyboard shortcut from anywhe
+- Choose the *Learn more* link on a tooltip for a field, if available. The *Learn more* link is only available in the mobile app or on custom fields (that is, fields from non-Mocrosoft extensions) in the web client.
 
 > [!TIP]
 > When you choose a link, the target article opens in a new browser tab. You can choose to un-dock the browser tab, then, so that you can view the relevant information side-by-side with [!INCLUDE [prod_short](includes/prod_short.md)]. The pane remains open while you navigate through [!INCLUDE [prod_short](includes/prod_short.md)] so that content you searched for remains visible.  

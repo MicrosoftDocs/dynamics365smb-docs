@@ -85,49 +85,21 @@ This section provides ways you can improve the answers you get from Copilot.
 
 Your questions to Copilot will naturally vary depending on your role, current task, the processes that your organization follows, and how you express yourself in words. The following are examples that showcase different ways of asking questions in the chat pane that can inspire you to write your own questions based on your own unique situation.
 
-** Example 1: "Find the Item with Description 'ATHENS Desk'"**
+### Find the Item with Description 'ATHENS Desk'
+
 In this example, you give clear instructions for Copilot to locate a single record. For example, you hint that the record is found in the Item list, and you indicate the field 'Description' must be a specific text that you have typed using quotes and with correct capitalization. Copilot usually responds accurately when given a few precise hints, but you can also use more casual language as in the next example.
 
-Example 2: "give me the latest invoice for adatum"
+### give me the latest invoice for adatum
+
 In this example, you ask Copilot to locate a record, but the question is less precise and may result in a less accurate answer. Copilot is often able to understand, or guess, that the invoice you are looking for is not a purchase invoice but a sales invoice from the Posted Sales Invoice list. Copilot would also need to match "adatum" with "Adatum Corporation", that is the full and precise name for the sell-to Customer name associated with the invoice.
 
-Example 3: "Show me customer ledger entries for Adatum from about three weeks ago"
+### Show me customer ledger entries for Adatum from about three weeks ago
+
 In this example, you ask copilot to solve a common date puzzle that typically requires you to open a calendar for reference, or to use advanced date range filters. Copilot is usually able to understand common expressions and business terms.
 
-Example 4: "How does I save my filterrings to do them later?"
+### How does I save my filterrings to do them later?
+
 In this example, you ask Copilot for guidance on how to perform some task in Business Central. Copilot is usually able to understand the intent of your question, even if there are a few grammatical errors, spelling mistakes or abbreviations.
-
-This section provides example prompts for the different categories of questions you ask chat.
-
-### Find business data
-
-- You want to list...
-
-  Prompt:
-
-- You want to find
-
-  Prompt: 
-
-### Explain a concept
-
-- You want to know how xxxx works
-
-  Prompt:
-
-- You want to understand xxx
-
-   Prompt:
-
-### Get guidance 
-
-- You want to know how to save the filters you apply x
-
-  Prompt: 
-
-- You want to know how to xxxxx
-
-  Prompt: 
 
 ## Provide feedback on answers
 

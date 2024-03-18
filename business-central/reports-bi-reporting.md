@@ -105,7 +105,7 @@ The following table covers topics related to using built-in reports in [!INCLUDE
 | --- | --- |
 | Learn how to use reports (bookmark, run, print, schedule, and change the layout). | [Use Reports in Daily Work](reports-use-reports.md) |
 | Learn about which built-in reports are available in [!INCLUDE[prod_short](includes/prod_short.md)]. |[Report Overview](reports-available-reports.md)| 
-| Use the report explorer to see all built-in reports. | [Exploring reports per Role](ui-role-explorer.md) |
+| Use the Report Explorer to see all built-in reports. | [Exploring reports per Role](ui-role-explorer.md) |
 
 
 ## External business intelligence and reporting tools
@@ -128,6 +128,7 @@ In case you prefer to use business intelligence tools that are not embedded in [
 [Doing ad-hoc data analysis](reports-adhoc-analysis.md)  
 [Use reports in your daily work](reports-use-reports.md)  
 [Overview of built-in reports](reports-available-reports.md)  
+[Exploring reports per Role](ui-role-explorer.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

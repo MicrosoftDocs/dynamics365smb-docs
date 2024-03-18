@@ -1813,13 +1813,12 @@ ms.service: dynamics-365-business-central
 
 ## Built-in analytics 
 ### [Overview](reports-built-in-analytics.md)
-### [Intelligent insights](about-intelligent-cloud.md)
 ### [Work with Power BI reports](across-working-with-powerbi.md)
 ### [Financial business intelligence](bi.md)
 ### [Analyze financial statements with excel](finance-analyze-excel.md)
 ### [Consolidate financial data from multiple companies](finance-consolidated-company-reporting.md)
 ### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-
+### [Intelligent Insights (on-premises only)](about-intelligent-cloud.md)
 
 ## Analyze data in business intelligence tools
 ### [Overview](reports-external-analysis.md)

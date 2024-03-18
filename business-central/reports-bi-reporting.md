@@ -36,9 +36,9 @@ In the paragraphs below, you can learn more about each of the ways to consume da
 
 ## Using Financial reporting to produce financial statements and KPIs
 
-The *Financial reporting* feature in [!INCLUDE[prod_short](includes/prod_short.md)] gives you insight into the financial data stored in your chart of accounts (COA). You can setup financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports in your Role Center, such as the cash flow chart and income statement and balance sheet reports.
+The *Financial reporting* feature in [!INCLUDE[prod_short](includes/prod_short.md)] gives you insight into the financial data stored in your chart of accounts (COA). You can setup financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. 
 
-<!-- Screenshot here when available -->
+:::image type="content" source="media/acc_schedule_13_columns.png" alt-text="Screenshot of a financial report." lightbox="media/acc_schedule_13_columns.png":::
 
 Using the **Dimensions** functionality in [!INCLUDE[prod_short](includes/prod_short.md)] plays an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. As such, you can use it to group entries that have similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Among other purposes, you use dimensions when defining analysis views and creating financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
 

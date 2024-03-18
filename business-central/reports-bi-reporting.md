@@ -84,6 +84,14 @@ For more information, see [Ad-hoc data analysis](reports-adhoc-analysis.md).
 
 A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information based on a specified set of criteria. It organizes and presents the information in an easy-to-read format you can use in Excel, print or save as a file.  
 
+As an example of an interactive report in Excel, the aged accounts receivables report allows you to analyze what your customers owe you and when payments are due. 
+:::image type="content" source="media/aged-accounts-receivables-excel.png" alt-text="Example of the interactive aged accounts receivables report in Excel." lightbox="media/aged-accounts-receivables-excel.png":::
+
+
+For aged accounts receivables, [!INCLUDE[prod_short](includes/prod_short.md)] also include a report designed for print, should you prefer to get a pdf version of this data.
+:::image type="content" source="media/aged-accounts-receivables-pdf.png" alt-text="Example of the  aged accounts receivables report in pdf." lightbox="media/aged-accounts-receivables-pdf.png":::
+
+
 [!INCLUDE[prod_short](includes/prod_short.md)] comes with more than 300 built-in reports that you can use to support your business processes with data-driven insights. To get a quick overview of all the reports that are available for your role, you can open the report explorer from the role center and all list pages and from the **Tell Me** window. 
 
 :::image type="content" source="media/report-explorer-finance.png" alt-text="Example of how the report explorer show all reports for a role." lightbox="media/report-explorer-finance.png":::
@@ -91,7 +99,7 @@ A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information b
 For more information about using the report explorer to see all built-in reports, see [Exploring reports per Role](ui-role-explorer.md).
 
 
-The following table covers topis related to using built-in reports in [!INCLUDE[prod_short](includes/prod_short.md)].
+The following table covers topics related to using built-in reports in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 | To  | See |
 | --- | --- |

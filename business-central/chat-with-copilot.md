@@ -91,11 +91,11 @@ In this example, you give clear instructions for Copilot to locate a single reco
 
 ### give me the latest invoice for adatum
 
-In this example, you ask Copilot to locate a record, but the question is less precise and might result in a less accurate answer. Copilot is often able to understand, or guess, that the invoice you're looking for isn't a purchase invoice but a sales invoice from the Posted Sales Invoice list. Copilot would also need to match "adatum" with "Adatum Corporation", that is the full and precise name for the sell-to Customer name associated with the invoice.
+In this example, you ask Copilot to locate a record, but the question is less precise and might result in a less accurate answer. Copilot can often understand, or guess, that the invoice you're looking for isn't a purchase invoice but a sales invoice from the Posted Sales Invoice list. Copilot would also need to match "adatum" with "Adatum Corporation", that is the full and precise name for the sell-to Customer name associated with the invoice.
 
 ### Show me customer ledger entries for Adatum from about three weeks ago
 
-In this example, you ask copilot to solve a common date puzzle that typically requires you to open a calendar for reference, or to use advanced date range filters. Copilot is usually able to understand common expressions and business terms.
+In this example, you ask copilot to solve a common date puzzle that typically requires you to open a calendar for reference, or to use advanced date range filters. Copilot can usuallyunderstand common expressions and business terms.
 
 ### How does I save my filterrings to do them later?
 
@@ -103,7 +103,7 @@ In this example, you ask Copilot for guidance on how to perform some task in Bus
 
 ## Provide feedback on answers
 
-You can rate the answers you get from Copilot by using the like (thumbs up) button for good rating or the dislike (thumbs down) button for a poor rating. When you select the didlike button, you can choose from   This information us can help us improve suggestions.
+You can rate the answers you get from Copilot by using the like (thumbs up) button for good rating or the dislike (thumbs down) button for a poor rating. When you select the dislike button, you can choose a reason, including unaccurate, inappropriate, or other. This information us can help us improve suggestions.
 
 <!--
 1. If you want help getting you're question started, select the prompts either from the **Find**, **Explain**, or **Guide** buttons at the top of the Coplit pane or use the **View Prompts** menu above **Ask a question** box at the bottom.
@@ -114,4 +114,4 @@ You can rate the answers you get from Copilot by using the like (thumbs up) butt
 [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
 [Configure Copilot and AI capabilities](enable-ai.md)  
 [Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md)  
-[Resources for help in Business Central ](product-help-and-support.md)  
+[Resources for help in Business Central](product-help-and-support.md)  

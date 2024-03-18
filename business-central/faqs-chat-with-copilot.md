@@ -1,7 +1,7 @@
 ---
-title: FAQs for chat (preview) with Copilot
-description: This FAQ provides information about the AI technology used for chatting with Copilot in [!INCLUDE[prod_short](includes/prod_short.md)]. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 02/27/2024
+title: Responsible AI FAQ for Chat with Copilot (preview)
+description: This FAQ provides information about the AI technology used for chatting with Copilot in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+ms.date: 03/18/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -10,11 +10,11 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.search.keywords: copilot, AI, chat 
 ---
-# FAQ for Chat with Copilot (preview)
+# Responsible AI FAQ for Chat with Copilot (preview)
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-These frequently asked questions (FAQ) describe the AI impact of Chat with Copilot in [!INCLUDE[prod_short](includes/prod_short.md)]
+These frequently asked questions (FAQ) describe the AI impact of Chat with Copilot in [!INCLUDE[prod_short](includes/prod_short.md)]. If you're inetersted in general questions about using the feature, go to [FAQ for chat with Copilot](chat-with-copilot-faq.md).
 
 ## What is Chat with Copilot?
 
@@ -102,3 +102,4 @@ For users with SUPER permission, chat can more easily locate unsecured data that
 ## See also
 
 [Chat with Copilot (preview)](chat-with-copilot.md)
+

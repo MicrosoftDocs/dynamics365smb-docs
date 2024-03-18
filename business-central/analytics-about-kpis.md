@@ -108,7 +108,9 @@ Avoid these common KPI mistakes:
 
 ## See also
 
-[Financial Business Intelligence](bi.md)  
+[Analytics overview](reports-bi-reporting.md)  
+[Using Financial reporting to produce financial statements and KPIs](bi.md)  
+[Analyze Data in (External) Business Intelligence Tools](reports-external-analysis.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

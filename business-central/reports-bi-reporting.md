@@ -84,7 +84,7 @@ For more information, see [Ad-hoc data analysis](reports-adhoc-analysis.md).
 
 A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information based on a specified set of criteria. It organizes and presents the information in an easy-to-read format you can use in Excel, print or save as a file.  
 
-As an example of an interactive report in Excel, the aged accounts receivables report allows you to analyze what your customers owe you and when payments are due. 
+As an example of an interactive report in Excel, the *Aged Accounts Receivable* report (introduced in 2024 release wave 1) allows you to analyze what your customers owe you and when payments are due. 
 :::image type="content" source="media/aged-accounts-receivables-excel.png" alt-text="Example of the interactive aged accounts receivables report in Excel." lightbox="media/aged-accounts-receivables-excel.png":::
 
 

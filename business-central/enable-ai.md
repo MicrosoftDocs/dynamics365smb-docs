@@ -77,7 +77,7 @@ The information in the following table outlines the Azure OpenAI service that's 
 
 ## Activate features
 
-All Copilot and AI capabilities are active by default when they are made available in preview or become generally available. Using the **Copilot & AI Capabilities** page, you can turn individual features off or on again for all users.
+All Copilot and AI capabilities are active by default when they're made available in preview or become generally available. Using the **Copilot & AI Capabilities** page, you can turn individual features off or on again for all users.
 
 1. In Business Central, search for and open the **Copilot & AI Capabilities** page.
 
@@ -102,9 +102,9 @@ When individual Copilot capabilities are released in Business Central minor upda
 
 ## Granting user access 
 
-Copilot and AI capabilities may offer functionality intended for any users across your organization or for specific user roles. Most Copilot and AI capabilities offer access control using permissions and permission sets in Business Central´s permission management system. [Learn more about permissions and permission sets](ui-define-granular-permissions.md).
+Copilot and AI capabilities might offer functionality intended for any users across your organization or for specific user roles. Most Copilot and AI capabilities offer access control using permissions and permission sets in Business Central´s permission management system. [Learn more about permissions and permission sets](ui-define-granular-permissions.md).
 
-The following table lists the permissions required to use Copilot features provided by Business Central. To grant or deny access to specific non-Microsoft copilot and AI capabilities, consult the documentation or publisher of that feature to identify which permissions are required. |||
+The following table lists the permissions required to use Copilot features provided by Business Central. To grant or deny access to specific non-Microsoft copilot and AI capabilities, consult the documentation or publisher of that feature to identify which permissions are required.
 
 |Copilot features|Required permissions|
 |-|-|
@@ -121,5 +121,5 @@ After you enable and consent to the features, you're ready to try them out. Go t
 ## See also
 
 [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
-[Marketing text suggestions overview](ai-overview.md)   
+[Marketing text suggestions overview](ai-overview.md)  
 [FAQ for marketing text suggestions](faqs-marketing-text.md)  

@@ -85,23 +85,23 @@ This section provides ways you can improve the answers you get from Copilot.
 
 Your questions to Copilot naturally vary depending on your role, current task, the processes that your organization follows, and how you express yourself in words. The following are examples that showcase different ways of asking questions in the chat pane that can inspire you to write your own questions based on your own unique situation.
 
-### Find the Item with Description 'ATHENS Desk'
+Prompt: `Find the Item with Description 'ATHENS Desk'`
 
 In this example, you give clear instructions for Copilot to locate a single record. For example, you hint that the record is found in the Item list. You indicate the field 'Description' must be a specific text that you have typed using quotes and with correct capitalization. Copilot usually responds accurately when given a few precise hints, but you can also use more casual language as in the next example.
 
-### give me the latest invoice for adatum
+Prompt: `give me the latest invoice for adatum`
 
-In this example, you ask Copilot to locate a record, but the question is less precise and might result in a less accurate answer. Copilot can often understand, or guess, that the invoice you're looking for isn't a purchase invoice but a sales invoice from the Posted Sales Invoice list. Copilot would also need to match "adatum" with "Adatum Corporation", that is the full and precise name for the sell-to Customer name associated with the invoice.
+In this example, you ask Copilot to locate a record, but the question is less precise and might result in a less accurate answer. Copilot can often understand, or guess, that the invoice you're looking for isn't a purchase invoice but a sales invoice from the Posted Sales Invoice list. Copilot would also need to match `adatum` with `Adatum Corporation`, that is the full and precise name for the sell-to Customer name associated with the invoice.
 
-### Show me customer ledger entries for Adatum from about three weeks ago
+Prompt: `Show me customer ledger entries for Adatum from about three weeks ago`
 
-In this example, you ask copilot to solve a common date puzzle that typically requires you to open a calendar for reference, or to use advanced date range filters. Copilot can usuallyunderstand common expressions and business terms.
+In this example, you ask copilot to solve a common date puzzle that typically requires you to open a calendar for reference, or to use advanced date range filters. Copilot can usually understand common expressions and business terms.
 
-### How does I save my filterrings to do them later?
+Prompt: `How does I save my filterrings to do them later?`
 
 In this example, you ask Copilot for guidance on how to perform some task in Business Central. Copilot can usually understand the intent of your question, even if there are a few grammatical errors, spelling mistakes or abbreviations.
 
-## Provide feedback on answers
+Prompt: `Provide feedback on answers`
 
 You can rate the answers you get from Copilot by using the like (thumbs up) button for good rating or the dislike (thumbs down) button for a poor rating. When you select the dislike button, you can choose a reason, including unaccurate, inappropriate, or other. This information us can help us improve suggestions.
 

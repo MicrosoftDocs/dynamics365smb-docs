@@ -26,7 +26,7 @@ In finance, the following KPIs are commonly used for monitoring your organizatio
 - Return on Equity
 - Return on Assets
 
-For more information on how to use KPIs in your organization, see [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)
+For more information on how to use KPIs in your organization, see [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md).
 
 > [!NOTE]
 > Borrow list and definitions from D365 Finance???
@@ -302,7 +302,7 @@ Number of budget iterations = Total amount of budget versions created
 ## See also
 
 [Financial Analytics in Business Central](bi.md)  
-[Finance overview](finance.md)  
+[Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)
 [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -75,7 +75,6 @@ The following table describes a sequence of tasks within financial reporting, wi
 
 | To | See |
 | --- | --- |
-|View actual amounts compared to budgeted amounts for all accounts and for several periods.|[Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)|
 |Create new financial reports to define financial statements for reporting or to display as charts.|[Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)|
 |Analyze your financial performance by setting up key performance indicators (KPIs) based on financial reports, which you then publish as web services. The published financial reports KPIs can be viewed on a web site or imported to Microsoft Excel using OData web services.|[Set Up and Publish KPI Web Services Based on Financial Reports](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
 |Set up views to analyze data using dimensions.|[Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)|
@@ -147,6 +146,12 @@ The Chart of Accounts page shows all general ledger accounts with aggreated numb
 :::image type="content" source="media/chart-of-accounts-page.png" alt-text="Example of how the Chart of Accounts page shows finance insights" lightbox="media/chart-of-accounts-page.png":::
 
 For more information, see [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)
+
+### View actual amounts compared to budgeted amounts for all accounts and for several periods
+
+As a part of gathering, analyzing, and sharing your company data, you might want to view actual amounts compared to budgeted amounts for all accounts and for several periods. You can do this from  the **Chart of Accounts** page, by choosing the **G/L Balance/Budget** action.
+
+For more information, see [Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
 
 ### Analyzing Cash Flow 
 

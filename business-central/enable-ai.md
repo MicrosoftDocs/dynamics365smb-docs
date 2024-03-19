@@ -26,9 +26,10 @@ This article explains how to control Copilot and other AI capabilities in Busine
 
 - Activate the feature on the **Copilot & AI Capabilities** page. [Learn more](#activate-features)
 
+<!-- 
 - Enable the specific feature, if it's still governed by **Feature Management**.
 
-  In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)
+  In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)-->
 
 If any of these requirements aren't fulfilled, the feature isn't available for use.
 

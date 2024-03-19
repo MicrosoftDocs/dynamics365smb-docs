@@ -475,7 +475,7 @@ ms.service: dynamics-365-business-central
 
 ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
 
-### Built-in finance analysis
+### Built-in finance analysis tools
 #### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
 #### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
 #### [Create analysis reports](bi-how-create-analysis-views-reports.md)

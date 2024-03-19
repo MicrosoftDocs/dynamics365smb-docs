@@ -76,7 +76,7 @@ Creating effective prompts for Copilot is essential to get accurate and relevant
 
 ### Examples
 
-These following prompt examples use analysis assist on the **Items** list. The items page includes three summable fields thatfor analysis: **Quantity on Hand**, **Unit Cost**, **Unit Price**. 
+These following prompt examples use analysis assist on the **Items** list. The items page includes three summable fields for analysis: **Quantity on Hand**, **Unit Cost**, **Unit Price**. 
 
 #### Prompt: Show items by brand and unit of measure
 

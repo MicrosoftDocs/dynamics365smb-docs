@@ -77,9 +77,9 @@ Users have the opportunity to provide feedback to every Copilot response and rep
 
 ## What data does analysis collect and how is it used
 
-The analysis assist capability collects the minimum data required by Business Central to offer the service. Microsoft doesn't use your company data, including the text you send to Copilot, to train the foundational models for the benefit of others.For more information, see [Dynamics 365 terms for Azure OpenAI-powered features](https://go.microsoft.com/fwlink/?linkid=2236010).
+The analysis assist capability collects the minimum data required by Business Central to offer the service. Microsoft doesn't use your company data, including the text you send to Copilot, to train the foundational models for the benefit of others. For more information, see [Dynamics 365 terms for Azure OpenAI-powered features](https://go.microsoft.com/fwlink/?linkid=2236010).
 
-It also collects data from the feedback user's can provide using the like (thumbs up) or dislike (thumbs down) icons in the analysis assist **Copilot** page. The data is anonymous and includes the choice of like or dislike, the dislike reason if provided, and the Copilot feature the feedback applies to.
+It also collects data from the feedback users can provide using the like (thumbs up) or dislike (thumbs down) icons in the analysis assist **Copilot** page. The data is anonymous and includes the choice of like or dislike, the dislike reason if provided, and the Copilot feature the feedback applies to.
 
 ## See also
 

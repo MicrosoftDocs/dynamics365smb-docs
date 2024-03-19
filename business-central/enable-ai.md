@@ -114,7 +114,7 @@ The following table lists the permissions required to use Copilot features provi
 
 After you enable and consent to the features, you're ready to try them out. Go to:
 
-- [Analyze data with Copilot](analysis-assist.md)  
+- [Analyze data in analysis mode with Copilot](analysis-assist.md)  
 - [Add marketing text to items](item-marketing-text.md)
 - [Reconcile using bank account reconciliation assist](bank-reconciliation-with-copilot.md)
 

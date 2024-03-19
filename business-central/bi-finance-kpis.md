@@ -1,6 +1,6 @@
 ---
 title: Financial KPIs in Business Central
-description: Business Central contains many features to help you gather, analyze, and share valuable company data for business intelligence and decision-making.
+description: Learn about common finance KPIs and how to implement them in Business Central.
 author: kennieNP
 ms.topic: conceptual
 ms.devlang: al

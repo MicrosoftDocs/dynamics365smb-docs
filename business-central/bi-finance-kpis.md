@@ -37,7 +37,9 @@ For more information on how to use KPIs in your organization, see [Using key per
 
 Gross Profit Margin is a financial metric that calculates the percentage of revenue remaining after deducting the cost of goods sold (COGS). COGS represents the direct expenses related to production and excludes operating costs, interest, and taxes. Essentially, gross profit margin assesses the profitability of a specific product, product line, or service without factoring in overhead expenses.
 
-**Formula:** Gross Profit Margin (in %) = Gross Profit / Revenue * 100% = (Revenue - Cost of Sales) / Revenue * 100%
+**Formula** 
+
+Gross Profit Margin (in %) = Gross Profit / Revenue * 100% = (Revenue - Cost of Sales) / Revenue * 100%
 
 **Implementing Gross Profit Margin**
 

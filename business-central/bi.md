@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Financial Analytics in Business Central
 
-Businesses capture a tremendous amount of data during daily activities. This data, which reflects such things as the organization's sales figures, purchases, operational expenses, employee salaries, and budgets, represents valuable information, or business intelligence (BI), for decision makers. [!INCLUDE[prod_short](includes/prod_short.md)] contains many features to help you gather, analyze, and share your company data:
+Businesses capture a tremendous amount of data during daily activities. This data, which reflects such things as the organization's sales figures, purchases, operational expenses, employee salaries, and budgets, represents valuable information, or business intelligence (BI), for decision makers. [!INCLUDE[prod_short](includes/prod_short.md)] contains many features to help you gather, analyze, and share your organization's finance data:
 
 - Financial reporting (for financial statements and KPIs)
 - Ad-hoc analysis on lists
@@ -45,9 +45,9 @@ Each of the roles has some preferred/typical ways to consume/analyze data, ways 
 
 ## Finance KPIs
 
-A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. Think of KPIs as your company’s scorecard, a way of measuring whether or not you’re delivering on your objectives. 
+A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. Think of KPIs as your organization's scorecard, a way of measuring whether or not you’re delivering on your objectives. 
 
-In finance, the following KPIs are commonly used for monitoring your companys financial health:
+In finance, the following KPIs are commonly used for monitoring your organization's financial health:
 
 - Gross Profit Margin
 - Net Profit Margin
@@ -71,7 +71,7 @@ The **Dimensions** functionality plays an important role in business intelligenc
 > [!TIP]
 > As a quick way to analyze transactional data, you can filter totals in the chart of accounts and all entries in **Entries** pages by dimensions. Look for the **Set Dimension Filter** action.  
 
-The following table describes a sequence of tasks, with links to the articles that describe them.  
+The following table describes a sequence of tasks within financial reporting, with links to the articles that describe them.  
 
 | To | See |
 | --- | --- |
@@ -87,6 +87,7 @@ The following table describes a sequence of tasks, with links to the articles th
 Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that must report into parent organizations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company.  
 
 For more information, see [Company consolidation](finance-consolidated-company-reporting.md)
+
 
 ## Ad-hoc analysis of finance data
 
@@ -166,6 +167,10 @@ For more information, see [Analyzing Cash Flow in Your Company](finance-analyze-
 
 
 ## See also
+
+[Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
+[Financial KPIs in Business Central](bi-finance-kpis.md)
+[Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)   
 [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)  
 [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
 [Built-in finance Excel reports](finance-analyze-excel.md)  
@@ -174,7 +179,7 @@ For more information, see [Analyzing Cash Flow in Your Company](finance-analyze-
 [Built-in accounts receivable reports](receivables-reports.md)  
 [Built-in accounts payable reports](payables-reports.md)  
 [Finance overview](finance.md)  
-[Business Intelligence and Reporting Overview](reports-bi-reporting.md)  
+[Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)   
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

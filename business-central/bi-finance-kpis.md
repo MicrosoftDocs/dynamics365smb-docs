@@ -40,11 +40,12 @@ Gross Profit Margin is a financial metric that calculates the percentage of reve
 **Formula:** Gross Profit Margin (in %) = Gross Profit / Revenue * 100% = (Revenue - Cost of Sales) / Revenue * 100%
 
 **Implementing Gross Profit Margin**
+
 You can very easily implement the Gross Profit Margin KPI using Financial reports. Do as follows
 
 1. Navigate to the Financial Reporting page
 1. Take a copy of the Income Statement report
-1. Modify the row definition for the copied report. It already includes row calculations of Gross Profit and Revenue (might be called Income in the row definition), so you just need to add a row that calculates the ratio.
+1. Modify the row definition for the copied report. It already includes row calculations of Gross Profit and Revenue (might be called Income in the row definition), so you might just need to add a row that calculates the ratio. Note that you need to check if the accounts used in the row calculations of Gross Profit and Revenue match how you have setup your posting accounts.
 
 See also Kerry Peters screenshot (when we get this IP)
 https://www.kerrypeters.com/account-schedule-examples#exercise-f

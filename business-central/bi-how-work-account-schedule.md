@@ -17,7 +17,7 @@ The *Financial reporting* feature gives you insight into the financial data stor
 
 You access these two reports, for example, with the **Financial Statements** action in the business manager and accountant role centers.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] provides sample financial reports you can use right away. You can also set up your own rows and columns to specify the figures to compare. For example, you can create financial reports to calculate profit margins using dimensions such as departments or customer groups. The number of customized financial statements you can create is unlimited.  
+[!INCLUDE[prod_short](includes/prod_short.md)] provides sample financial reports you can use right away as templates. You can also set up your own rows and columns to specify the figures to compare. For example, you can create financial reports to calculate profit margins using dimensions such as departments or customer groups. The number of customized financial statements you can create is unlimited.  
 
 Setting up financial reports requires an understanding of the financial data in the chart of accounts. For example, you can view general ledger entries as percentages of budget entries, but that requires you to have created budgets. Learn more at [Create G/L Budgets](finance-how-create-budgets.md).
 
@@ -34,21 +34,25 @@ Financial reports arrange accounts from your chart of accounts in ways that make
 
 :::image type="content" source="media/financial-report-definition.svg" alt-text="Shows how a financial report is constructed from a row definition and a column definition." lightbox="media/financial-report-definition.svg":::
 
+On the **Financial Reports** page you can see how all financial reports follow this pattern, they consist of a name (code), a description, a row definition, and a column definition:
 
-You can also compare two or more financial reports and column definitions by using formulas, so you can do the following things:
+:::image type="content" source="media/financial-reports.png" alt-text="Shows how all financial reports is constructed from a row definition and a column definition." lightbox="media/financial-reports.png":::
+
+> [!NOTE]
+> The sample finance reports that ship with [!INCLUDE[prod_short](includes/prod_short.md)] are not ready to use out-of-the box. Depending of the way you setup your G/L accounts, dimensions, G/L account categories, and budgets, you need to adjust the sample row and column definitions and also the finance reports they are used in, to match your setup. 
+
+Within the financial reporting feature, you can also compare two or more financial reports and column definitions by using formulas, so you can do the following things:
 
 * Create customized financial reports.
 * Create as many financial reports as you need, each with a unique name.
 * Set up various report layouts and print the reports with the current figures.
 
-## Use G/L account categories to change the layout of your financial statements
+## Learning path: Create financial reports in Microsoft Dynamics 365 Business Central
 
-You can use G/L account categories to change the layout of your financial statements. For example, once you've set up your account categories on the **G/L Account Categories** page, you can choose the **Generate Financial Reports** action and update the underlying financial reports for the core financial reports. Then the next time you run one of these reports, such as the **Balance Statement** report, new totals and subentries are added.
+Want to learn how to create budgets, and then use financial reports, dimensions, and row and column definitions to generate the financial reports that are typically needed for most businesses?
 
-> [!NOTE]
-> The top-level account categories, such as the **Liabilities** node, are fixed and you cannot add your own. However, you can delete and add account categories at lower levels and define how the related financial report appears in reports.
->
-> You should create and structure your own lower-level G/L account categories from scratch, in a hierarchy if needed, rather than try to rearrange the existing ones. For example, you can restructure the **Liabilities** node to contain a new **Equity** node followed by the **Current Liabilities** and **Long Term Liabilities** nodes.
+Start learning in the learning path [Create financial reports in Microsoft Dynamics 365 Business Central](https://learn.microsoft.com/training/paths/create-financial-reports-dynamics-365-business-central)
+
 
 ## Create a new financial report
 
@@ -108,6 +112,18 @@ Sometimes you may want to include a column in a financial report to calculate pe
 6. Choose the **Edit Column Definition** action to set up a column.  
 7. Fill in the fields on the line as follows: In the **Column Type** field, select **Formula**. In the **Formula** field, enter a formula for the amount you want to calculate a percentage for, followed by the percentage sign (%). So, if column number N contains the net change, enter **N%**.  
 8. Repeat steps 4 through 7 for each group of rows you want to break down by percentage.
+
+## Example: 
+
+
+## Use G/L account categories to change the layout of your financial statements
+
+You can use G/L account categories to change the layout of your financial statements. For example, once you've set up your account categories on the **G/L Account Categories** page, you can choose the **Generate Financial Reports** action and update the underlying financial reports for the core financial reports. Then the next time you run one of these reports, such as the **Balance Statement** report, new totals and subentries are added.
+
+> [!NOTE]
+> The top-level account categories, such as the **Liabilities** node, are fixed and you cannot add your own. However, you can delete and add account categories at lower levels and define how the related financial report appears in reports.
+>
+> You should create and structure your own lower-level G/L account categories from scratch, in a hierarchy if needed, rather than try to rearrange the existing ones. For example, you can restructure the **Liabilities** node to contain a new **Equity** node followed by the **Current Liabilities** and **Long Term Liabilities** nodes.
 
 ## Set up financial reports with overviews
 

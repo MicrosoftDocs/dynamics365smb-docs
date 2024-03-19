@@ -472,13 +472,15 @@ ms.service: dynamics-365-business-central
 #### [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Set up and publish a KPI web service based on financial reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
+#### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
+#### [Create analysis reports](bi-how-create-analysis-views-reports.md)
 
 ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
 
 ### Built-in finance analysis tools
+#### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)
 #### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
-#### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
-#### [Create analysis reports](bi-how-create-analysis-views-reports.md)
+#### [Analyze Cash Flow](finance-analyze-cash-flow.md)
 
 ### Built-in finance reports
 #### [Built-in finance Excel reports](finance-analyze-excel.md)
@@ -486,7 +488,6 @@ ms.service: dynamics-365-business-central
 #### [Built-in fixed assets reports](fa-reports.md)
 #### [Built-in accounts receivable reports](receivables-reports.md)
 #### [Built-in accounts payable reports](payables-reports.md)
-
 
 
 ## Sales

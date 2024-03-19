@@ -139,7 +139,7 @@ Built-in reports come in two flavors: one designed for print (pdf) and one desig
 
 ### Show general ledger entries and balances from the Chart of Accounts page
 
-The Chart of Accounts page shows all general ledger accounts with aggreated numbers on what has been posted to the. From this page, you can do things like:  
+The Chart of Accounts page shows all general ledger accounts with aggreated numbers on what has been posted to the general ledger. From this page, you can do things like:  
 
 * View reports that show general ledger entries and balances.  
 * See a list of posting groups for that account.
@@ -154,6 +154,18 @@ For more information, see [Understand the Chart of Accounts](finance-general-led
 As a part of gathering, analyzing, and sharing your company data, you might want to view actual amounts compared to budgeted amounts for all accounts and for several periods. You can do this from  the **Chart of Accounts** page, by choosing the **G/L Balance/Budget** action.
 
 For more information, see [Analyze Actual Amounts Versus Budgeted Amounts](bi-how-analyze-actual-versus-budget.md)
+
+### Analyze data by dimensions
+
+Dimensions are values that categorize entries so you can track and analyze them on documents, such as sales orders. Dimensions can, for example, indicate the project or department an entry came from.  
+
+So, instead of setting up separate general ledger accounts for each department and project, you can use dimensions as a basis for analysis and avoid having to create a complicated chart of accounts structure.
+
+In financial analysis, a dimension is data you add to a G/L entry as a kind of marker. This data is used to group G/L entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Dimensions can be used on entries in journals, documents, and budgets. 
+
+Each "dimension" describes the focus of analysis. So, a two-dimensional analysis, for example, would be sales per area. By using more than two dimensions when creating an entry, you can carry out a more complex analysis, such as sales per sales campaign per customer group per area. That gives you greater insight into your business, such as how well your business is operating, where it is thriving and where it is not, and where more resources should be allocated, so you can make more informed decisions as you move forward.
+
+For more information, see [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 
 ### Analyzing Cash Flow 
 

@@ -48,16 +48,16 @@ Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list p
 
 1. In the **Analyze** with Copilot window, enter a description of the layout you want. This description is known as a *prompt*.
 
-    ![Shows the analysis assist Coplit ](media/analysis-assist.png)
+    ![Shows the analysis assist Copilot](media/analysis-assist.png)
 
     > [!TIP]
-    > For help in writing a prompt, select ![Shows the view prompt icon](media/prompt-guide-icon.png) **Prompt guide**, and choose one of the options to get you started. The text in brackets `[ ]` is shown only as an example and isn't included in the Coplit window.
+    > For help in writing a prompt, select ![Shows the view prompt icon](media/prompt-guide-icon.png) **Prompt guide**, and choose one of the options to get you started. The text in brackets `[ ]` is shown only as an example and isn't included in the Copilot window.
 
 1. Select **Generate** and then wait while Copilot generates the layout on new analysis tab.
 1. Review the results on the new analysis tab.
 
    > [!TIP]
-   > You can move focus and select elements on the analysis tab, for example, to expand or collapse groups. But if you select an element in the analysis mode sidebar or anywhere outlide the analysis tab, analysis assist closes.
+   > You can move focus and select elements on the analysis tab, for example, to expand or collapse groups. But if you select an element in the analysis mode sidebar or anywhere outside the analysis tab, analysis assist closes.
 
 1. If you want to change the generated analysis or add more details to try again, you can do one of the steps:
 
@@ -73,19 +73,18 @@ Creating effective prompts for Copilot is essential to get accurate and relevant
 - Make sure field names used in prompts are somewhat close to actual field names on the page.
 - Common abbreviations are acceptable.
 - Letter case isn't important.
-- more.
 
 ### Examples
 
-These following prompt examples use analysis assist on the **Items** list. The items page includes three summarizable fields for analysis: **Quantity on Hand**, **Unit Cost**, **Unit Price**. 
+These following prompt examples use analysis assist on the **Items** list. The items page includes three summable fields thatfor analysis: **Quantity on Hand**, **Unit Cost**, **Unit Price**. 
 
 #### Prompt: Show items by brand and unit of measure
 
-This prompt tries to show totals for all summarizable fields, grouped by brand and **Base Unit of Measure** field. But in this case, "brand" doesn't match any field name, so Copilot probably can't find a matching field so it asks you to rephrase the prompt and try again.
+This prompt tries to show totals for all summable fields, grouped by brand and **Base Unit of Measure** field. But in this case, "brand" doesn't match any field name, so Copilot probably can't find a matching field so it asks you to rephrase the prompt and try again.
 
 #### Prompt: Show items by type and uom
 
-This prompt shows totals for all summarizable fields, grouped by the **Type** field and **Base Unit of Measure** field. But instead of writing out "unit of measure", the abbreviation *uom* is used.
+This prompt shows totals for all summable fields, grouped by the **Type** field and **Base Unit of Measure** field. But instead of writing out "unit of measure", the abbreviation *uom* is used.
 
 #### Prompt: Show total quantity per type per UoM
 

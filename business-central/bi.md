@@ -75,10 +75,11 @@ The following table describes a sequence of tasks within financial reporting, wi
 
 | To | See |
 | --- | --- |
-|Create new financial reports to define financial statements for reporting or to display as charts.|[Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)|
-|Analyze your financial performance by setting up key performance indicators (KPIs) based on financial reports, which you then publish as web services. The published financial reports KPIs can be viewed on a web site or imported to Microsoft Excel using OData web services.|[Set Up and Publish KPI Web Services Based on Financial Reports](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
-|Set up views to analyze data using dimensions.|[Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)|
-|Create new analysis reports for sales, purchases, and inventory, and set up analysis templates.|[Create Analysis Reports](bi-how-create-analysis-views-reports.md)|
+| Create new financial reports to define financial statements for reporting or to display as charts.| [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)|
+| Learn how to setup a new financial report through an example | [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md) |
+| Analyze your financial performance by setting up key performance indicators (KPIs) based on financial reports, which you then publish as web services. The published financial reports KPIs can be viewed on a web site or imported to Microsoft Excel using OData web services. |[Set Up and Publish KPI Web Services Based on Financial Reports](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md) |
+| Set up views to analyze data using dimensions.|[Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)|
+| Create new analysis reports for sales, purchases, and inventory, and set up analysis templates. |[Create Analysis Reports](bi-how-create-analysis-views-reports.md)|
 
 
 ## Finance reporting across business units or legal entities

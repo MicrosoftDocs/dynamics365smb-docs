@@ -23,31 +23,35 @@ In this article, we introduce how you can do ad-hoc data analysis on finance dat
 ## Analyzing General Ledger Entries
 
 The *General Ledger* is involved in... 
+
 It has data about ...
 
-Examples of analysis
+Examples of analysis (with screenshots?)
 
 ## Analyzing Fixed Assets Ledger Entries
 
 The *Fixed Assets* is involved in... 
+
 It has data about ...
 
-Examples of analysis
+Examples of analysis (with screenshots?)
 
 ## Analyzing Check Ledger Entries
 
 The *Check Ledger* is involved in... 
+
 It has data about ...
 
-Examples of analysis
+Examples of analysis (with screenshots?)
 
 
 ## Analyzing Bank Account Ledger Entries
 
 The *Bank Account Ledger* is involved in... 
+
 It has data about ...
 
-Examples of analysis
+Examples of analysis (with screenshots?)
 
 
 ## See also

@@ -45,7 +45,7 @@ Using the **Dimensions** functionality in [!INCLUDE[prod_short](includes/prod_sh
 For more information about financial statements and KPIs, see [Using Financial reporting to produce financial statements and KPIs](bi.md)
 
 
-## What is a KPI and why should I care?
+## Using key performance indicators (KPIs) to meet your business goals
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. Think of KPIs as your company’s scorecard, a way of measuring whether or not you’re delivering on your objectives.
 
 Identifying and tracking KPIs lets you know if your business is on the right path—or if you should change course to avoid losing valuable time and money. When used properly, KPIs are powerful tools that help you:
@@ -66,11 +66,11 @@ Sometimes, you just need to check if the numbers add up correctly, quickly confi
 - Data analysis on ledger list pages
 - Open in Excel
 
-With the *Data analysis* feature, you can open almost a list page such as General Ledger Entries or , Customer Ledger Entries, enter analysis mode, and then group, filter, and pivot data as you see fit, all directly in the [!INCLUDE [prod_short](includes/prod_short.md)] client. 
+With the *Data analysis* feature, you can open almost a list page such as General Ledger Entries or Customer Ledger Entries, enter analysis mode, and then group, filter, and pivot data as you see fit, all directly in the [!INCLUDE [prod_short](includes/prod_short.md)] client. 
 
 :::image type="content" source="media/data-analysis-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries page." lightbox="media/data-analysis-gl-entries.png":::
 
-Similarly, using the *Open in Excel* feature, you can open a list page such as General Ledger Entries  or Customer Ledger Entries, optionally filter the list to a subset of the data, and then get the data in Excel. You can then do further analysis in Excel, using built-in Excel functionality such as Analyze Data, What-If Analysis, or Forecast Sheet.
+Similarly, using the *Open in Excel* feature, you can open a list page such as General Ledger Entries or Customer Ledger Entries, optionally filter the list to a subset of the data, and then get the data in Excel. You can then do further analysis in Excel, using built-in Excel functionality such as Analyze Data, What-If Analysis, or Forecast Sheet.
 
 :::image type="content" source="media/open-in-excel-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries data using Excel." lightbox="media/open-in-excel-gl-entries.png":::
 

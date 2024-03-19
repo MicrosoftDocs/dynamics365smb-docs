@@ -464,6 +464,7 @@ ms.service: dynamics-365-business-central
 
 ## Financial analytics 
 ### [Financial analytics overview](bi.md)
+### [Financial KPIs](bi-finance-kpis.md)
 ### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
 ### Financial reporting (Financial statements and KPIs)
 #### [Prepare financial reporting](bi-how-work-account-schedule.md)

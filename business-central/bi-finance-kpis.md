@@ -33,14 +33,29 @@ For more information on how to use KPIs in your organization, see [Using key per
 >
 > https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/analytics/financial-insights#account-categories-used-by-page-and-visual
 
+## Gross Profit Margin 
+
+Gross Profit Margin is a financial metric that calculates the percentage of revenue remaining after deducting the cost of goods sold (COGS). COGS represents the direct expenses related to production and excludes operating costs, interest, and taxes. Essentially, gross profit margin assesses the profitability of a specific product, product line, or service without factoring in overhead expenses.
+
+**Formula:** Gross Profit Margin (in %) = Gross Profit / Revenue * 100% = (Revenue - Cost of Sales) / Revenue * 100%
+
+**Implementing Gross Profit Margin**
+You can very easily implement the Gross Profit Margin KPI using Financial reports. Do as follows
+
+1. Navigate to the Financial Reporting page
+1. Take a copy of the Income Statement report
+1. Modify the row definition for the copied report. It already includes row calculations of Gross Profit and Revenue (might be called Income in the row definition), so you just need to add a row that calculates the ratio.
+
+See also Kerry Peters screenshot (when we get this IP)
+https://www.kerrypeters.com/account-schedule-examples#exercise-f
+
+
+
+## Next
+
 > [!NOTE]
 > The KPI list below was copied from https://online.hbs.edu/blog/post/financial-performance-measures
 > We need to change that before we go live
-
-1. 
-Gross profit margin is a profitability ratio that measures what percentage of revenue is left after subtracting the cost of goods sold. The cost of goods sold refers to the direct cost of production and does not include operating expenses, interest, or taxes. In other words, gross profit margin is a measure of profitability, specifically for a product or item line, without accounting for overheads.
-
-Gross Profit Margin = (Revenue - Cost of Sales) / Revenue * 100
 
 2. Net Profit Margin
 Net profit margin is a profitability ratio that measures what percentage of revenue and other income is left after subtracting all costs for the business, including costs of goods sold, operating expenses, interest, and taxes. Net profit margin differs from gross profit margin as a measure of profitability for the business in general, taking into account not only the cost of goods sold, but all other related expenses.

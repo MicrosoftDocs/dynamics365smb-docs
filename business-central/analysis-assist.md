@@ -76,17 +76,17 @@ Creating effective prompts for Copilot is essential to get accurate and relevant
 
 ### Examples
 
-These following prompt examples use analysis assist on the **Items** list. The items page includes three summable fields for analysis: **Quantity on Hand**, **Unit Cost**, **Unit Price**. 
+These following prompt examples use analysis assist on the **Items** list. The items page includes three summable fields for analysis: **Quantity on Hand**, **Unit Cost**, **Unit Price**.
 
-#### Prompt: Show items by brand and unit of measure
+Prompt: `Show items by brand and unit of measure`
 
 This prompt tries to show totals for all summable fields, grouped by brand and **Base Unit of Measure** field. But in this case, "brand" doesn't match any field name, so Copilot probably can't find a matching field so it asks you to rephrase the prompt and try again.
 
-#### Prompt: Show items by type and uom
+Prompt: `Show items by type and uom`
 
-This prompt shows totals for all summable fields, grouped by the **Type** field and **Base Unit of Measure** field. But instead of writing out "unit of measure", the abbreviation *uom* is used.
+This prompt shows totals for all summable fields, grouped by the **Type** field and **Base Unit of Measure** field. But instead of writing out "unit of measure", the abbreviation `uom` is used.
 
-#### Prompt: Show total quantity per type per UoM
+Prompt: `Show total quantity per type per UoM`
 
 This prompt creates a pivot table on the **Quantity on Hand** field per **Base Unit of Measure** per **Type**.
 

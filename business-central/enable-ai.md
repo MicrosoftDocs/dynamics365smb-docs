@@ -53,6 +53,7 @@ To allow data movement outside of your geographical region, complete the followi
    The **Allow data movement** switch is turned on by default for environments in West Europe and North Europe Azure regions.
 
 You can opt out data movement by turning off the **Allow data movement** switch. Once an Azure OpenAI Service becomes available in your Business Central environment geography, your environment is automatically connected to it, and the switch is no longer available.
+
 <!--
 | Australia, United Kingdom, United States | Within the respective geographical region |
 | Europe, France, Germany, Norway, Switzerland  | Sweden or Switzerland |
@@ -102,20 +103,19 @@ When individual Copilot capabilities are released in Business Central minor upda
 
 Copilot and AI capabilities may offer functionality intended for any users across your organization or for specific user roles. Most Copilot and AI capabilities offer access control using permissions and permission sets in Business Central´s permission management system. [Learn more about permissions and permission sets](ui-define-granular-permissions.md).
 
-The following table lists the premissions required to use Copilot features provided by Business Central. To grant or deny access to specific Non-Microsoft copilot and AI capabilities, consult the documentation or publisher of that feature to identify which permissions are required. |||
+The following table lists the permissions required to use Copilot features provided by Business Central. To grant or deny access to specific Non-Microsoft copilot and AI capabilities, consult the documentation or publisher of that feature to identify which permissions are required. |||
 
 |Copilot features|Required permissions|
 |-|-|
 |Analysis assist|**DATA ANALYSIS - EXEC** permission set or execute permission on the system object **9640 Allow Data Analysis mode**|
-|Bank reconciliation assist||
-|Marketing text suggestions||
-|||
+
 ## Next steps
 
 After you enable and consent to the features, you're ready to try them out. Go to:
 
-- [Add marketing text to items](item-marketing-text.md) 
-- [Reconcile using bank account reconciliation assist](bank-reconciliation-with-copilot.md) 
+- [Analyze data with Copilot](analysis-assist.md)  
+- [Add marketing text to items](item-marketing-text.md)
+- [Reconcile using bank account reconciliation assist](bank-reconciliation-with-copilot.md)
 
 ## See also
 

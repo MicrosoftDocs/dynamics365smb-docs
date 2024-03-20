@@ -103,15 +103,17 @@ When individual Copilot capabilities are released in Business Central minor upda
 
 ## Granting user access 
 
-Copilot and AI capabilities might offer functionality intended for any users across your organization or for specific user roles. Most Copilot and AI capabilities offer access control using permissions and permission sets in Business Central´s permission management system. [Learn more about permissions and permission sets](ui-define-granular-permissions.md).
+Copilot and AI capabilities may offer functionality intended for any users across your organization or for specific user roles. Most Copilot and AI capabilities offer access control using permissions and permission sets in Business Central´s permission management system. [Learn more about permissions and permission sets](ui-define-granular-permissions.md).
 
-The following table lists the permissions required to use Copilot features provided by Business Central. To grant or deny access to specific non-Microsoft copilot and AI capabilities, consult the documentation or publisher of that feature to identify which permissions are required.
+The following table lists the permissions required to use Copilot features provided by Business Central.
 
 |Copilot features|Required permissions|
 |-|-|
 |Analysis assist|**DATA ANALYSIS - EXEC** permission set or execute permission on the system object 9640 **Allow Data Analysis mode**|
-|Chat |There are no permissions or permission sets that control access to chat on a per user basis. If chat is activated, it's accessible to all users. If it's deactivated, it's not accessible to any users.|
+|Chat |There are no permissions or permission sets that control access to chat on a per user basis. If chat is activated, it's available to all users.|
 |Marketing text suggestions |Permission on page 5836 **Copilot Marketing Text**|
+
+To grant or deny access to specific non-Microsoft copilot and AI capabilities, consult the documentation or publisher of that feature to identify which permissions are required.
 
 ## Next steps
 

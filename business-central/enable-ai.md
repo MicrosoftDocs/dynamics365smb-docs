@@ -102,7 +102,13 @@ When individual Copilot capabilities are released in Business Central minor upda
 
 Copilot and AI capabilities may offer functionality intended for any users across your organization or for specific user roles. Most Copilot and AI capabilities offer access control using permissions and permission sets in Business Central´s permission management system. [Learn more about permissions and permission sets](ui-define-granular-permissions.md).
 
-To grant or deny access to specific Copilot and AI capabilities, consult the documentation or publisher of that feature to identify which permissions are required. 
+The following table lists the permissions required to use Copilot features provided by Business Central.
+
+|Copilot features|Required permissions|
+|-|-|
+|Marketing text suggestions |Permission on page 5836 **Copilot Marketing Text**|
+
+To grant or deny access to specific non-Microsoft copilot and AI capabilities, consult the documentation or publisher of that feature to identify which permissions are required.
 
 ## Next steps
 

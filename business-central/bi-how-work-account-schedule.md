@@ -35,7 +35,7 @@ If you want to view general ledger entries as percentages of budget entries, tha
 
 ## Financial reports
 
-Financial reports arrange accounts from your chart of accounts in ways that make data easier to present. You can set up various layouts to define the information you want to extract from the chart of accounts. Financial reports provide a place for calculations that can't be made directly in the chart of accounts. For example, you can create subtotals for groups of accounts and then include that total in other totals. Another example is to calculate profit margins on dimensions such as departments or customer groups. Additionally, you can filter general ledger entries and budget entries, for example, by net change or debit amount.
+Financial reports arrange accounts from your chart of accounts in ways that make data easier to present. You can set up various layouts to define the information you want to extract from the chart of accounts. Financial reports also provide a place for calculations that can't be made directly in the chart of accounts. For example, you can create subtotals for groups of accounts and then include that total in other totals. Another example is to calculate profit margins on dimensions such as departments or customer groups. Additionally, you can filter general ledger entries and budget entries, for example, by net change or debit amount.
 
 > [!NOTE] 
 > Mathematically, think of a financial report as defined by two things:
@@ -59,6 +59,7 @@ Within the financial reporting feature, you can also compare two or more financi
 * Create as many financial reports as you need, each with a unique name.
 * Set up various report layouts and print the reports with the current figures.
 
+
 ## Learning path: Create financial reports in Microsoft Dynamics 365 Business Central
 
 Want to learn how to create budgets, and then use financial reports, dimensions, and row and column definitions to generate the financial reports that are typically needed for most businesses?
@@ -72,34 +73,36 @@ You use financial reports to analyze general ledger accounts or to compare gener
 
 The financial reports in the standard version of [!INCLUDE[prod_short](includes/prod_short.md)] might not suit your business needs. To quickly create your own financial reports, start by copying an existing one, as described in step three below.
 
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.  
+1. On the **Financial Reports** page, choose the **New** action to create a new financial report name.
+1. Alternatively, if you want to reuse settings from an existing financial report, choose the **Copy Financial Report** action.
+1. Fill in the report short name (this cannot be changed) and description.
+1. Now choose a row definition and a column definition for the report.
+1. Optionally, choose analysis views for the row and/or column definitions.
+1. Now choose the **Edit Financial Report** action to access further properties on the financial report.
+1. In the Options FastTab you can edit the report description, change the row and column definitions for the report, and define how dates are represented, either as a Day/Week/Month/Quarter/Year hierachy or using accounting periods (for more information, see [Comparing accounting periods using period formulas](#comparing-accounting-periods-using-period-formulas) ).
+1. In the Dimensions FastTab you can define dimension filters for the report.
+1. You can see a preview of the report in the area below the Dimensions FastTab.
+1. Congratulations! You've now defined the basis of the financial report, the rows of financial data to display, and an existing layout of columns to show the data on the rows using custom parameters. 
+
 > [!TIP]
-> After you create a financial report, you can use the **Financial Report** page to preview and validate your newly defined financial report. To open the page, choose the **Edit Financial Report** action.  
+> After you create a financial report, you can always use the **Financial Report** page to preview and validate your newly defined financial report. To open the page, choose the **View Financial Report** action.  
 
 > [!NOTE]
-> When you open a financial report in View or Edit mode, the Filter pane is available. However, don't use the pane to set filters for the data in your report. The filters can cause errors or might not actually filter the data. Instead, use the filter fields on the **Options** and **Dimensions** FastTabs.
+> When you open a financial report in View or Edit mode, the Filter pane available on all other pages is also shown. However, don't use the Filter pane to set filters for the data in your report. Such filters can cause errors or might not actually filter the data. Instead, setup report filtering using the fields on the **Options** and **Dimensions** FastTabs.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.  
-2. On the **Financial Reports** page, choose the **New** action to create a new financial report name.
-3. Alternatively, if you want to reuse settings from an existing financial report, choose the **Copy Financial Report** action.
-4. Fill the fields in as necessary. In the **Column Definition** field, select an existing definition, which you can later edit if you want.
+### Edit a row definition
 
-    Column definitions specify the parameters by which the financial data on the rows is shown. For example, a column definition might contain four columns you can use to compare net change and balance for the same period this year and last year. Learn more in the [Edit a column definition](bi-how-work-account-schedule.md#edit-a-column-definition) section.
+Row definitions in financial reports provide a place for calculations that can't be made directly in the chart of accounts. For example, you can create subtotals for groups of accounts and then include that total in other totals. You can also calculate intermediate steps that are not shown in the final report.
 
-5. Choose the **Edit Row Definition** action.
-6. Choose the **Insert G/L Accounts**, **Insert CF Accounts**, and **Insert Cost Types** actions to create a row for each financial element you want to analyze. For example, you might have one row for current assets and another row for fixed assets. For inspiration, see the financial reports in the CRONUS demonstration company.
-
+1. On the **Financial Reports** page, select the relevant financial report, then choose the **Edit Row Definition** action.
+1. Choose the **Insert G/L Accounts**, **Insert CF Accounts**, and **Insert Cost Types** actions to create a row for each financial element you want to analyze. For example, you might have one row for current assets and another row for fixed assets. For inspiration, see the financial reports in the CRONUS demonstration company.
     > [!NOTE]
     > The **Row No.** field shows the first 10 characters of an identifier, such as an account number. If you add elements with identifiers that start with the same 10 characters you'll have duplicates in the **Row No.** field. If needed, you can manually edit the identifiers after you insert the elements. The full identifiers are displayed in the **Totaling** field.
 
-7. On the **Financial Reports** page, choose the **Edit Financial Report** action to access the resulting financial report.
-8. On the **Financial Report** page, in the **Column Definition** field, select another column definition to explore the financial data by other parameters.
-9. Choose **OK**.
-
-You've now defined the following the basis of the financial report, the rows of financial data to display, and an existing layout of columns to show the data on the rows using custom parameters. If the default column definition you selected in step 4 doesn't suit your purpose, follow the steps in [Edit a column definition](#edit-a-column-definition).
-
 ### Edit a column definition
 
-Use column definitions to specify the columns to include in the report. For example, you can design a layout to compare net change and balance for the same period this year and last year. You can have up to 15 columns, which is useful for, say, displaying budgets for 12 months with a column that shows the total.
+Use column definitions to specify the columns to include in the report. For example, you can design a report layout to compare net change and balance for the same period this year and last year. You can have up to 15 columns in a column definition, which is useful for, say, displaying budgets for 12 months with a column that shows the total.
 
 > [!NOTE]
 > A printed/previewed/saved version of a financial report displays a maximum of five columns. In contrast, if a financial report is only meant for analysis on the **Financial Report** page, you can create as many columns as you want.
@@ -112,7 +115,7 @@ Use column definitions to specify the columns to include in the report. For exam
 > [!NOTE]
 > The columns you define on each row represent columns three and up on the **Financial Report** page. The first two columns, **Row No.** and **Description**, are fixed.  
 
-### Create a column that calculates percentages
+### Create a column definition to calculate percentages
 
 Sometimes you may want to include a column in a financial report to calculate percentages of a total. For example, if you have rows that break down sales by dimension, you may want a column to indicate the percentage of total sales in each row.
 
@@ -124,6 +127,7 @@ Sometimes you may want to include a column in a financial report to calculate pe
 6. Choose the **Edit Column Definition** action to set up a column.  
 7. Fill in the fields on the line as follows: In the **Column Type** field, select **Formula**. In the **Formula** field, enter a formula for the amount you want to calculate a percentage for, followed by the percentage sign (%). So, if column number N contains the net change, enter **N%**.  
 8. Repeat steps 4 through 7 for each group of rows you want to break down by percentage.
+
 
 ## Example: Create a simple income statement including a Gross Profit Margin KPI
 
@@ -175,6 +179,7 @@ You can use a financial report to create a statement comparing general ledger fi
 9. Choose **OK**.  
 
 Now you can copy and paste your budget statement into a spreadsheet.  
+
 
 ## Comparing accounting periods using period formulas
 

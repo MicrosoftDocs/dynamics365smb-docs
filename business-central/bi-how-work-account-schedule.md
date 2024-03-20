@@ -13,11 +13,9 @@ ms.service: dynamics-365-business-central
 ---
 # Prepare Financial Reporting with Financial Data and Account Categories
 
-The *Financial reporting* feature gives you insight into the financial data stored in your chart of accounts (COA). You can setup financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports in your Role Center, such as the cash flow chart and income statement and balance sheet reports.
+The *Financial reporting* feature gives you insights into the financial data shown on your chart of accounts (COA). You can setup financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. The results display in charts and reports in your Role Center, such as the cash flow chart and income statement and balance sheet reports. You access these two reports, for example, with the **Financial Statements** action in the business manager and accountant role centers.  
 
-You access these two reports, for example, with the **Financial Statements** action in the business manager and accountant role centers.  
-
-[!INCLUDE[prod_short](includes/prod_short.md)] provides sample financial reports you can use right away as templates. You can also set up your own rows and columns to specify the figures to compare. For example, you can create financial reports to calculate profit margins using dimensions such as departments or customer groups. The number of customized financial statements you can create is unlimited.  
+[!INCLUDE[prod_short](includes/prod_short.md)] provides sample financial reports you can use right away as templates. You can also set up your own reports to specify the figures to compare. For example, you can create financial reports to calculate profit margins using dimensions such as departments or customer groups. The number of financial reports you can create is unlimited and require no involvement of a developer.  
 
 
 ## Prerequisites for financial reports 

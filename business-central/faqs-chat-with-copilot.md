@@ -70,7 +70,7 @@ Users have the opportunity to provide feedback to every Copilot response and rep
 
 - General limitations of AI
 
-  AI systems are valuable tools but they're nondeterministic. The content they generate may not be completely accurate. So, it's important to use your judgment to review and verify responses Copilot before making decisions that could affect stakeholders like customers and partners.
+  AI systems are valuable tools but they're nondeterministic. The content they generate may not be completely accurate. So, it's important to use your judgment to review and verify responses Copilot before making decisions that could affect stakeholders like customers and partners. For most responses, Copilot will also include citations or reference links that you can use to quickly verify whether Copilot has come to the correct answer. For example, when asked how to perform some task, Copilot includes links to the source article. When asked to find a record based on specific criteria, Copilot includes links that describe the list page it identified as the topic of conversation, as well as any filters or sorting that was applied to reach an answer.
 
 - Language limitations
 

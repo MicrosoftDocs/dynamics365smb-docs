@@ -26,7 +26,7 @@ Users ask questions in natural language, like "How do I deliver goods to my cust
 
 ## What are capabilities of Chat with Copilot?
 
-Chat offers the following distinct skills:
+You can chat with Copilot to get answers to the following classes of questions:
 
 ### Explain and guide
 

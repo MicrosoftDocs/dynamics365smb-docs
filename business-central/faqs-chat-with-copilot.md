@@ -18,6 +18,8 @@ These frequently asked questions (FAQ) describe the AI impact of Chat with Copil
 
 ## What is Chat with Copilot?
 
+Microsoft Copilot is the AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks. You can chat with Copilot in Business Central to answer questions and find business data by expressing what you're looking for in natural language.
+
 Chat with Copilot, also referred as chat, is an interactive feature that answers questions and finds business data related to [!INCLUDE[prod_short](includes/prod_short.md)], without users having to navigate the user interface or the product documentation. The Copilot pane is available from anywhere in the [!INCLUDE[prod_short](includes/prod_short.md)] client.
 
 Users ask questions in natural language, like "How do I deliver goods to my customers directly from my vendors?" or "Do we have any office chairs in stock for under $600?" In response, Copilot provides answers in natural language. Depending on the questions, answers can include plain text, links to records or pages in [!INCLUDE[prod_short](includes/prod_short.md)], and links to [!INCLUDE[prod_short](includes/prod_short.md)] help articles on Microsoft Learn.

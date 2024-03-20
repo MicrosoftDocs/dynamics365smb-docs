@@ -49,7 +49,6 @@ sections:
           | Lookups | Available. | Available, with the difference that advanced and simple lookups behave similarly on the phone. The lookup will not bring up the card, show FactBoxes, or any field groups. | Go to examples on the `Customer Card` page. |
           | Matrix controls | Not available. | Not available. | Go to example in `G/L Budget`. |
           | File download | Available. Cannot download multiple files at the same time. | Available. Cannot download multiple files at the same time. | `Trial Balance` report in the **Print to Excel** check box. |
-          | Worksheet pages | Available. | Not available; an error message is displayed. | `Sales Price` Worksheet or `Cash Flow` Worksheet. |
           | Lists | Available. | Available, with the difference that these are displayed in a brick layout. | Customers or Sales Orders pages. |
           | Indentation in repeater controls | Available. | Not available. The repeater control will be rendered as a regular flat brick layout. | Chart of Accounts and Contacts List pages. |
           | Automatic input focus on first editable field of a page | Not available. | Not available. | `Customer Card` page.<BR /><BR />In the browser, focus will automatically be on the first editable field (such as the `Name` field), enabling you to change the value right away.<BR /><BR />In the tablet and phone apps, this field will not be in focus; instead, you will have to manually select the field first in order to make changes.|

@@ -78,7 +78,7 @@ This section provides ways you can improve the answers you get from Copilot.
 - Ask one question at a time. <!--Avoid asking about multiple questions in one message.-->
 - Use natural language, expressing the questions in a friendly and conversational manner.
 - Use keywords, phrases, and terms that you know are used in Business Central, either in the app or documentation.
-- - If the initial response doesn't fully answer your questions, ask follow-up questions or rephrase the last question.
+- If the initial response doesn't fully answer your questions, ask follow-up questions or rephrase the last question.
 - If you're asking a question on a different subject matter than previous question, clear the current chat session to start over.
 
 ## Example prompts

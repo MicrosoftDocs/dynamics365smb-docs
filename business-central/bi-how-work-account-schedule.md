@@ -19,7 +19,21 @@ You access these two reports, for example, with the **Financial Statements** act
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides sample financial reports you can use right away as templates. You can also set up your own rows and columns to specify the figures to compare. For example, you can create financial reports to calculate profit margins using dimensions such as departments or customer groups. The number of customized financial statements you can create is unlimited.  
 
-Setting up financial reports requires an understanding of the financial data in the chart of accounts. For example, you can view general ledger entries as percentages of budget entries, but that requires you to have created budgets. Learn more at [Create G/L Budgets](finance-how-create-budgets.md).
+
+## Prerequisites for financial reports 
+
+Setting up financial reports requires an understanding of how the chart of accounts has been structured. There are three key concepts that you likely need to pay attention to before designing your financial reports:
+
+1. mapping G/L posting accounts to G/L account categories,
+1. design how you use dimensions, and
+1. setup G/L budgets. 
+
+Using G/L account categories will simplify your financial report definitions and also make them more stable towards changes in the chart of accounts structure. Learn more at [Use G/L account categories to change the layout of your financial statements](#use-gl-account-categories-to-change-the-layout-of-your-financial-statements).
+
+Setting up dimensions allows you to slice and dice your financial data in ways that make sense for your organization. Learn more at [Work with Dimensions](finance-dimensions.md). 
+
+If you want to view general ledger entries as percentages of budget entries, that requires you to have created budgets. Learn more at [Create G/L Budgets](finance-how-create-budgets.md).
+
 
 ## Financial reports
 
@@ -135,6 +149,15 @@ Another benefit of using G/L account categories over the raw G/L accounts in you
 > You should create and structure your own lower-level G/L account categories from scratch, in a hierarchy if needed, rather than try to rearrange the existing ones. For example, you can restructure the **Liabilities** node to contain a new **Equity** node followed by the **Current Liabilities** and **Long Term Liabilities** nodes.
 
 Learn more at [Mapping general ledger accounts to account categories](finance-general-ledger#account-categories).
+
+
+## Using dimensions in financial reports
+
+In financial analysis, a dimension is data you add to an entry as a kind of marker. This data is used to group entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Dimensions can be used on entries in journals, documents, and budgets. 
+
+Each "dimension" describes the focus of analysis. So, a two-dimensional analysis, for example, would be sales per area. By using more than two dimensions when creating an entry, you can carry out a more complex analysis, such as sales per sales campaign per customer group per area. That gives you greater insight into your business, such as how well your business is operating, where it is thriving and where it is not, and where more resources should be allocated, so you can make more informed decisions as you move forward. 
+
+Learn more at [Analyze data by dimensions](bi-how-analyze-data-dimension.md).
 
 
 ## Set up financial reports with overviews

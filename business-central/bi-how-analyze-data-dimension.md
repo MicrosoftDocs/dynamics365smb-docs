@@ -10,6 +10,7 @@ ms.date: 09/22/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
+
 # Analyze Data by Dimensions
 
 In financial analysis, a dimension is data you add to an entry as a kind of marker. This data is used to group entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Dimensions can be used on entries in journals, documents, and budgets. 

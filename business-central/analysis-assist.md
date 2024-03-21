@@ -74,7 +74,7 @@ Creating effective prompts for Copilot is essential to get accurate and relevant
 - Make sure field names used in prompts are somewhat close to actual field names on the page.
 - Use natural language, expressing the data structure you want in a friendly and conversational manner.
 - Use common keywords, phrases, and terms used in data analysis, like `group by`, `sum`, `sort by`, and so on.
-- If the initial response isn't what you want. add follow-up instructions or rephrase the last instruction.
+- If the initial response isn't what you want, add follow-up instructions or rephrase the last instruction.
 - Common abbreviations are acceptable.
 - Letter case isn't important.
 

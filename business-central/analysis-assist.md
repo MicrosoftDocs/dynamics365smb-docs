@@ -57,13 +57,13 @@ Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list p
 1. Review the results on the new analysis tab.
 
    > [!NOTE]
-   > If navigate away from the the new analysis tab (such as going to another anlaysis tab or page) or make changes in **Columns** and **Analysis Filters** tab, the analysis tab is automatically saved and Copilot window closes.
+   > If navigate away from the new analysis tab (such as going to another anlaysis tab or page) or make data changes on the tab (such as sorting columns or changing settings in the **Columns** and **Analysis Filters** tab), the new analysis tab is automatically saved and Copilot closes.
 
 1. If you want to change the generated analysis, you can do one of the steps:
 
-   - To build on the previous instructions, enter the information in the **Add more details about the analysis** box, then select the ![alt text](media/analysis-assist-adjust-button.png) **Adust** arrow. Copilot remembers your previous instructions and uses them to make adjustments.
+   - To build on the previous instructions, enter the information in the **Add more details about the analysis** box, then select the ![alt text](media/analysis-assist-adjust-button.png) **Adjust** arrow. Copilot remembers your previous instructions and uses them to make adjustments.
 
-   - To start from scratch by adding new intructions, select the ![Shows the edit prompt pencil icon](media/edit-pencil.png) **Edit prompt:**, add the details to the prompt, and then select **Generate**.
+   - To start from scratch by adding new instructions, select the ![Shows the edit prompt pencil icon](media/edit-pencil.png) **Edit prompt:**, add the details to the prompt, and then select **Generate**.
 
 1. If you want to save the analysis tab, select **Keep it**. If you don't to save it, select **Discard**.
 

@@ -18,7 +18,7 @@ This article explains how to use the *analysis assist* to help you analyze data 
 
 ## About analysis assist
 
-Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list pages in Business Central. The analysis mode provides an interactive and versatile way to calculate, summarize, and examine data. To analyze data in the analysis mode, you create an *analysis* tab where you transform the data to display the desired aggregations and summarizations. For example, you arrange fields in rows and columns, specify filters, sort columns, and pivot on fields. Instead of doing this task manually, analysis assist lets you achieve the same using words. By expressing the structure you want in natural language, like "sort on quantity from smallest to largest" or "show average cost per category", analysis assist uses AI to generate a suggested layout on an analysis tab.
+Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list pages in Business Central. The analysis mode provides an interactive and versatile way to calculate, summarize, and examine data. To analyze data in the analysis mode, you create an *analysis* tab where you transform the data to display the desired aggregations and summarizations. For example, you arrange fields in rows and columns, specify filters, sort columns, and pivot on fields. With analysis assist, instead of doing this task manually, you achieve the same using words. By expressing the structure you want in natural language, like "sort on quantity from smallest to largest" or "show average cost per category", analysis assist uses AI to generate a suggested layout on an analysis tab.
 
 
 <!-- 

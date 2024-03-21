@@ -57,7 +57,7 @@ Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list p
 1. Review the results on the new analysis tab.
 
    > [!TIP]
-   > You can move focus and select elements on the analysis tab, for example, to expand or collapse groups. But if you select an element in the analysis mode sidebar or anywhere outside the analysis tab, analysis assist closes.
+   > You can move focus and select elements on the analysis tab, for example, to expand or collapse groups. But if change the you select an element in the analysis mode sidebar or navigate to another anywhere outside the analysis tab, analysis assist closes.
 
 1. If you want to change the generated analysis or add more details to try again, you can do one of the steps:
 

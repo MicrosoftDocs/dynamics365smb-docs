@@ -15,9 +15,9 @@ ms.collection:
 
 # FAQ for analysis assist (preview)
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
-
 These frequently asked questions (FAQ) describe the AI impact of the analysis assist feature in [!INCLUDE[prod_short](includes/prod_short.md)].
+
+[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 ## What is analysis assist?
 

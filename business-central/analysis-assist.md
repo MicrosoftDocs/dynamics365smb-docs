@@ -12,9 +12,9 @@ ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 
 ---
 # Analyze data in analysis mode with Copilot
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
-
 This article explains how to use the *analysis assist* to help you analyze data on list pages.
+
+[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 ## About analysis assist
 

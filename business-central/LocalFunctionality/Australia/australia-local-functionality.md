@@ -9,7 +9,7 @@ ms.date: 02/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Australia local unctionality
+# Australia local functionality
 The following articles describe local functionality that is unique to the Australian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature availability

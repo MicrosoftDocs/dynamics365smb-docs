@@ -55,7 +55,7 @@ To allow data movement outside of your geographical region, complete the followi
 
 You can opt out data movement by turning off the **Allow data movement** switch. Once an Azure OpenAI Service becomes available in your Business Central environment geography, your environment is automatically connected to it, and the switch is no longer available.
 
-<!--
+<!-- Don't review
 | Australia, United Kingdom, United States | Within the respective geographical region |
 | Europe, France, Germany, Norway, Switzerland  | Sweden or Switzerland |
 | Asia Pacific, Brazil, Canada, India, Japan, Singapore, South Africa, South Korea, United Arab Emirates  | United States |-->
@@ -88,7 +88,7 @@ All Copilot and AI capabilities are active by default when they're made availabl
    - To turn on a feature, select it in the list, then select the **Activate** action.
    - To turn off a feature, select it, and then select **Deactivate** action. 
 
-<!--
+<!-- don't review 
 ## Enable feature in Feature Management
 
 When individual Copilot capabilities are released in Business Central minor updates, these capabilities are optional until the next major update. **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like marketing text suggestions. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).

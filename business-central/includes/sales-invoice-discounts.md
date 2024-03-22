@@ -13,7 +13,7 @@ The discount is calculated based on all lines on the sales document where the **
 > By default, the **Allow Invoice Disc.** and **Line Discount Amount** fields are hidden on lines. If the fields aren't available, you can add them by personalizing the page. For more information, see [Personalize Your Workspace](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 > [!TIP]
-> If the **Calc. Inv. Discount** field is selected in the **Sales and Receivables Setup** page, the invoice discount is calculated automatically. When the calculation happens differs, depending on the type of sales document you're using.
+> If the **Calc. Inv. Discount** field is selected in the **Sales & Receivables Setup** page, the invoice discount is calculated automatically. When the calculation happens differs, depending on the type of sales document you're using.
 >
 > If you're using a sales order, the discount is calculated when you add a line. For all other sales documents, such as sales invoices, the discount is calculated when you do any of the following actions:
 >

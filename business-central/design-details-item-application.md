@@ -134,7 +134,7 @@ If the user had not made the fixed application between the purchase credit memo 
 
 The following table shows the result on the item's value entries if step 2 in the previous scenario is performed without a fixed application.  
 
-|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Appl.-to Item Entry|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
+|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)||Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Purchase|1|200.00||No|1|1|  
 |01-01-20|Purchase|1|1000.00||No|2|2|  

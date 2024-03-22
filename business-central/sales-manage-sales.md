@@ -1,12 +1,12 @@
 ---
-title: Overview of Tasks to Manage Sales
+title: Overview of tasks to manage sales
 description: Read all about how to use Business Central's services to manage your customers' sales activities with sales invoices, orders, quotes, and more.
 author: brentholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: trade, sell
 ms.search.form: 253
-ms.date: 09/02/2022
+ms.date: 01/25/2024
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
@@ -15,11 +15,11 @@ ms.service: dynamics-365-business-central
 
 You create a sales invoice or sales order to record your agreement with a customer to sell certain products on certain delivery and payment terms.
 
-You must use sales orders if your sales process requires you to ship parts of an order quantity, for example, because the full quantity is not available right away. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use sales orders. In all other respects, sales orders work the same way as sales invoices. With sales orders, you can also use the order promising functionality to communicate certain delivery dates to your customers.  
+You must use sales orders if your sales process requires you to ship parts of an order quantity, for example, because the full quantity isn't available right away. If you sell items by delivering directly from your vendor to your customer, as a drop shipment, then you must also use sales orders. In all other respects, sales orders work the same way as sales invoices. With sales orders, you can also use the order promising functionality to communicate certain delivery dates to your customers.  
 
 You can negotiate with the customer by first creating a sales quote, which you can convert to a sales invoice or sales order when you agree on the sale. After the customer has confirmed the agreement, you can send an order confirmation to record your obligation to deliver the products as agreed.
 
-You can easily correct or cancel a posted sales invoice before it is paid. This is useful if you want to correct a typing mistake or if the customer requests a change early in the order process. If the posted sales invoice is paid, then you must create a sales credit memo or a sales return order to reverse the sale.
+You can easily correct or cancel a posted sales invoice before it's paid. This is useful if you want to correct a typing mistake or if the customer requests a change early in the order process. If the posted sales invoice is paid, then you must create a sales credit memo or a sales return order to reverse the sale.
 
 Good sales and marketing practices are all about how to make the best decisions at the right time. Marketing functionality in [!INCLUDE[prod_short](includes/prod_short.md)] provides a precise and timely overview of your contact information so you can serve your prospective customers more efficiently and increase customer satisfaction. Learn more at [Relationship Management](marketing-relationship-management.md).
 
@@ -46,7 +46,7 @@ The following table describes a sequence of tasks, with links to the articles th
 | Link a sales order to a purchase order to sell a drop-shipment item to be delivered directly from your vendor to your customer. |[Make Drop Shipments](sales-how-drop-shipment.md) |
 |Have a catalog item shipped from a vendor to your warehouse so you can ship the item on to your customer.|[Create Special Orders](sales-how-to-create-special-orders.md)|
 | Perform an action on an unpaid posted sales invoice to automatically create a credit memo and either cancel the sales invoice or recreate it so you can make corrections. |[Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md) |
-| Create a sales credit memo to revert a specific posted sales invoice to reflect the products the customer returns and the payment amount you will refund. |[Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md) |
+| Create a sales credit memo to revert a specific posted sales invoice to reflect the products the customer returns and the payment amount you'll refund. |[Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md) |
 |Manage your customer's commitment to purchase large quantities delivered in several shipments over time.|[Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)|
 |Sell assembly items not currently available by creating a linked assembly order to supply the full or partial sales order quantity.|[Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)|
 |Invoice a customer once for multiple shipments by combining the shipments on one invoice.|[Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)|

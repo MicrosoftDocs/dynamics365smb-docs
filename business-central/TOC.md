@@ -374,6 +374,7 @@ ms.service: dynamics-365-business-central
 #### [Set up inventory valuation and costs](finance-set-up-inventory-valuation-and-costing.md)
 #### [Revalue inventory](inventory-how-revalue-inventory.md)
 #### [Adjust item costs](inventory-how-adjust-item-costs.md)
+#### [Track item cost adjustments](finance-track-inventory-costs.md)
 #### [Handle inventory and manufacturing costs](finance-handle-inventory-and-manufacturing-costs.md)
 #### [Update standard costs](finance-how-to-update-standard-costs.md)
 #### [Remove and reapply item ledger entries](finance-how-to-remove-and-reapply-item-entries.md)
@@ -1524,6 +1525,7 @@ ms.service: dynamics-365-business-central
 #### [Work with payment tolerances and payment discount tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Work with accounting periods and fiscal years](finance-accounting-periods-and-fiscal-years.md)
 #### [Set up reminder terms and levels](finance-setup-reminders.md)
+#### [Automate reminders in collections](finance-automate-reminders.md)
 #### [Set up finance charge terms](finance-setup-finance-charges.md)
 #### [Set up value-added tax (VAT)](finance-setup-vat.md)
 #### [Set up calculations and posting methods for value-added tax (VAT)](finance-setup-vat.md)
@@ -1813,13 +1815,12 @@ ms.service: dynamics-365-business-central
 
 ## Built-in analytics 
 ### [Overview](reports-built-in-analytics.md)
-### [Intelligent insights](about-intelligent-cloud.md)
 ### [Work with Power BI reports](across-working-with-powerbi.md)
 ### [Financial business intelligence](bi.md)
 ### [Analyze financial statements with excel](finance-analyze-excel.md)
 ### [Consolidate financial data from multiple companies](finance-consolidated-company-reporting.md)
 ### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-
+### [Intelligent Insights (on-premises only)](about-intelligent-cloud.md)
 
 ## Analyze data in business intelligence tools
 ### [Overview](reports-external-analysis.md)

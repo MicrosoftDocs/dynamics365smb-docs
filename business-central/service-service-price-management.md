@@ -46,7 +46,7 @@ For example, you can set up types of service pricing for a radio service price g
 #### [Current Experience](#tab/current-experience)
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Items**, and then choose the related link.  
 2. Select the service item, expand the **Prices and Sales** FastTab, choose the **Resource**, **Item**, or **G/L Account** action.
-3. On the **Job Resource Prices**, **Job Item Prices**, or **Job G/L Account Prices** pages, fill in the fields as necessary.
+3. On the **Project Resource Prices**, **Project Item Prices**, or **Project G/L Account Prices** pages, fill in the fields as necessary.
 
   
 ## Service Price Adjustment  

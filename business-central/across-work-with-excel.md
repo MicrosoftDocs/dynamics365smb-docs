@@ -67,10 +67,10 @@ If you make changes to the add-in, you must reload it to update the connection. 
 
 When **Edit in Excel** is used on list pages for tables with many columns, the resulting workbook may have too many columns for the file to be viewed in Excel for the web. [!INCLUDE[prod_short](includes/prod_short.md)] automatically limits the exported workbook to 100 columns when OneDrive is configured for system features. 
 
-## See the differences between the options
+<!--## See the differences between the options
 <br><br>  
 
-> [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
+> [!Video https://go.microsoft.com/fwlink/?linkid=2086039]-->
 
 ## See Also
 

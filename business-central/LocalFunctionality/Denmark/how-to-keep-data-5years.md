@@ -29,7 +29,7 @@ The Central Business Register (CVR) number must be filled in before users post t
 3. Close the page.
 
 > [!IMPORTANT]
-> After you enter the CVR number in the **Registration No.** field on the **Company Information** page and Nemhandel APS validates the number, you can't modify or delete it.   
+> After you enter the CVR number in the **Registration No.** field on the **Company Information** page and Nemhandel APIs validates the number, you can't modify or delete it.   
 
 For more information, see [Denmark Local Functionality](denmark-local-functionality.md).
 

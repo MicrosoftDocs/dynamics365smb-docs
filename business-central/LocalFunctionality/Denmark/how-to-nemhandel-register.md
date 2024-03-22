@@ -45,7 +45,7 @@ Additionally, when you select **Copy** on the **Companies** page, the new compan
 > [!NOTE]
 > These limitations work only if the environment is a production environment. In a sandbox environment, you can delete the company without limitations. 
 >
-> If you don't enter a valid CVR number in the **Registration No.** field, you can use e-documents in Denmark.
+> If you don't enter a valid CVR number in the **Registration No.** field, you cannot use e-documents in Denmark.
 
 ## See also
 

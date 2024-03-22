@@ -3,13 +3,14 @@ title: How to Create Service Items
 description: Read about the different ways you can create service items in Business Central, for example within a service order or when shipping items.
 author: brentholtorf
 ms.author: bholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.reviewer: andreipa
+ms.topic: how-to
 ms.search.keywords:
-ms.date: 02/05/2024
+ms.date: 03/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Create Service Items
+# Create service items
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], the term "service item" refers to equipment or items that require service. When you create a service order, you specify the items that need service. In the order, you can link a service item to an item in inventory or a service item group.
 
@@ -61,8 +62,6 @@ You can prevent items, item variants, or service items from being used in servic
 
 To block an item or an item variant from being used in service management transactions, turn on the **Service Blocked** toggle on the **Item Card**, **Item Variants**, and **Item Variant Card** page. You can also set this field on the **Item Template** page, and it will be copied to the items created from that template.
 
-![<!--alt text start -->Blocked item<!--alt text end -->](media/service_blockeditem.png "Blocked item")
-
 When an item or an item variant is service blocked, it isn't available for selection on the following pages:
 
 - Service Line (except for service credit memos, where you'll see a notification that the item or variant is blocked, but allowed on this type of document)
@@ -70,7 +69,7 @@ When an item or an item variant is service blocked, it isn't available for selec
 - Service Contract Line
 - Standard Service Line
 
-If you manually enter an item number or variant code that's blocked, you'll get an error message that states, "The field contains a value that cannot be found in the related table."
+If you manually enter an item number or variant that's blocked, you'll get an error message that states, "The field contains a value that cannot be found in the related table."
 
 Additionally, if you have service contracts, service contract quotes, or service orders that include blocked service items or item variants, you can't use the following actions:
 

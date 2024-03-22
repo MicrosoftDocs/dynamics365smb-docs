@@ -374,6 +374,7 @@ ms.service: dynamics-365-business-central
 #### [Set up inventory valuation and costs](finance-set-up-inventory-valuation-and-costing.md)
 #### [Revalue inventory](inventory-how-revalue-inventory.md)
 #### [Adjust item costs](inventory-how-adjust-item-costs.md)
+#### [Track item cost adjustments](finance-track-inventory-costs.md)
 #### [Handle inventory and manufacturing costs](finance-handle-inventory-and-manufacturing-costs.md)
 #### [Update standard costs](finance-how-to-update-standard-costs.md)
 #### [Remove and reapply item ledger entries](finance-how-to-remove-and-reapply-item-entries.md)

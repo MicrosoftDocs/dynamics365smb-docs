@@ -47,7 +47,7 @@ To create the physical inventory order lines, you typically use the **Calculate 
 
 7. Choose the **OK** button.
 
-A line for each item that exists on the chosen location and per the set filters and options is added to the order. For items that are set up for item tracking, the **Use Item Tracking** checkbox is selected and information about the expected quantity of serial and lot numbers is available by choosing **Lines**, and then **Item Tracking Lines**. To learn more, go to [Handling Item Tracking when Counting Inventory](#handling-item-tracking-when-counting-inventory).
+A line for each item that exists on the chosen location and per the set filters and options is added to the order. For items that are set up for item tracking, the **Use Item Tracking** checkbox is selected and information about the expected quantity of serial and lot numbers is available by choosing **Lines**, and then **Item Tracking Lines**. To learn more, go to [Handle item tracking when counting inventory](#handle-item-tracking-when-counting-inventory).
 
 You can now create one or more recordings, which are instructions to the employees who do the counting.  
 
@@ -73,7 +73,7 @@ For manual counting, you can print the **Phys. Invt. Recording** report, which h
 5. Choose the **Recordings** action to open the **Phys. Inventory Recording List** page.
 6. Open the relevant recording.
 7. On the **General** FastTab, fill in the fields as necessary.
-8. For items that use item tracking, create an additional line for each lot number or serial number code by choosing the **Functions** action, and then the **Copy Line** action. To learn more, go to [Handling Item Tracking when Counting Inventory](#handling-item-tracking-when-counting-inventory).  
+8. For items that use item tracking, create an additional line for each lot number or serial number code by choosing the **Functions** action, and then the **Copy Line** action. To learn more, go to [Handle item tracking when counting inventory](#handle-item-tracking-when-counting-inventory).  
 9. Choose the **Print** action to prepare the physical document that employees can use to note the quantities they count.
 
 ## To finish a physical inventory recording
@@ -82,7 +82,7 @@ After employees count the quantities, record the quantities in [!INCLUDE [prod_s
 
 1. From the **Phys. Inventory Recording List** page, select the physical inventory recording that you want to finish, and then choose the **Edit** action.
 2. On the **Lines** FastTab, fill the actual counted quantity in the **Quantity** field for each line.
-3. For items with serial or lot numbers (the **Use Item Tracking** checkbox is selected), enter the counted quantities on the lines for the item's serial and lot numbers respectively. To learn more, go to [Handling Item Tracking when Counting Inventory](#handling-item-tracking-when-counting-inventory).
+3. For items with serial or lot numbers (the **Use Item Tracking** checkbox is selected), enter the counted quantities on the lines for the item's serial and lot numbers respectively. To learn more, go to [Handle item tracking when counting inventory](#handle-item-tracking-when-counting-inventory).
 4. Select the **Recorded** checkbox on each line.
 5. When you have entered all data for a physical inventory recording, choose the **Finish** action. Note that all lines must have the **Recorded** checkbox selected.
 

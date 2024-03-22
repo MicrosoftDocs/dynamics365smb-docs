@@ -374,6 +374,7 @@ ms.service: dynamics-365-business-central
 #### [Set up inventory valuation and costs](finance-set-up-inventory-valuation-and-costing.md)
 #### [Revalue inventory](inventory-how-revalue-inventory.md)
 #### [Adjust item costs](inventory-how-adjust-item-costs.md)
+#### [Track item cost adjustments](finance-track-inventory-costs.md)
 #### [Handle inventory and manufacturing costs](finance-handle-inventory-and-manufacturing-costs.md)
 #### [Update standard costs](finance-how-to-update-standard-costs.md)
 #### [Remove and reapply item ledger entries](finance-how-to-remove-and-reapply-item-entries.md)
@@ -408,6 +409,7 @@ ms.service: dynamics-365-business-central
 ### Work with the chart of accounts and General Ledger (G/L)
 #### [Understand the general ledger and chart of accounts](finance-general-ledger.md)
 #### [Review accounts](finance-review-accounts.md)
+#### [Revalue general ledger account balances](finance-revalue-account-balances.md)
 #### [Post transactions directly to the general ledger](finance-how-post-transactions-directly.md)
 #### [Reverse journal postings and undo receipts/shipments](finance-how-reverse-journal-posting.md)
 #### [Record and reimburse employees' expenses](finance-how-record-reimburse-employee-expenses.md)
@@ -549,15 +551,15 @@ ms.service: dynamics-365-business-central
 ## Project management
 ### [Project management overview](projects-manage-projects.md)
 ### [Project reports](project-reports.md)
-### [Create jobs](projects-how-create-jobs.md)
+### [Create projects](projects-how-create-jobs.md)
 ### [Use resources for projects](projects-how-use-resources.md)
 ### [Use time sheets](projects-how-use-time-sheets.md)
-### [Manage job budgets](projects-how-manage-budgets.md)
-### [Record usage for jobs](projects-how-record-job-usage.md)
-### [Manage job supplies](projects-how-manage-project-supplies.md)
+### [Manage project budgets](projects-how-manage-budgets.md)
+### [Record usage for project](projects-how-record-job-usage.md)
+### [Manage project supplies](projects-how-manage-project-supplies.md)
 ### [Understand WIP methods](projects-understanding-wip.md)
-### [Monitor job progress and performance](projects-how-monitor-progress-performance.md)
-### [Invoice jobs](projects-how-invoice-jobs.md)
+### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
+### [Invoice projects](projects-how-invoice-jobs.md)
 
 ## Fixed assets
 ### [Fixed assets overview](fa-manage.md)
@@ -1523,6 +1525,7 @@ ms.service: dynamics-365-business-central
 #### [Work with payment tolerances and payment discount tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Work with accounting periods and fiscal years](finance-accounting-periods-and-fiscal-years.md)
 #### [Set up reminder terms and levels](finance-setup-reminders.md)
+#### [Automate reminders in collections](finance-automate-reminders.md)
 #### [Set up finance charge terms](finance-setup-finance-charges.md)
 #### [Set up value-added tax (VAT)](finance-setup-vat.md)
 #### [Set up calculations and posting methods for value-added tax (VAT)](finance-setup-vat.md)
@@ -1584,10 +1587,10 @@ ms.service: dynamics-365-business-central
 #### [Categorize items](inventory-how-categorize-items.md)
 #### [Import multiple item pictures](inventory-how-import-item-pictures.md)
 ### Set up project management
-#### [Set up projects](projects-setup-projects.md)
+#### [Set up project management](projects-setup-projects.md)
 #### [Set up resources](projects-how-setup-resources.md)
 #### [Set up time sheets](projects-how-setup-time-sheets.md)
-#### [Set up jobs](projects-how-setup-jobs.md)
+#### [Set up projects](projects-how-setup-jobs.md)
 ### Set up fixed assets
 #### [Set up fixed assets](fa-setup.md)
 #### [Set up general fixed assets information](fa-how-setup-general.md)
@@ -1775,8 +1778,8 @@ ms.service: dynamics-365-business-central
 
 ### Project
 #### [Project reports](project-reports.md)
-#### [View job usage estimates](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
-#### [Monitor job progress and performance](projects-how-monitor-progress-performance.md)
+#### [View project usage estimates](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
+#### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 
 ### Fixed assets
 #### [Fixed assets reports](fa-reports.md)
@@ -1812,13 +1815,12 @@ ms.service: dynamics-365-business-central
 
 ## Built-in analytics 
 ### [Overview](reports-built-in-analytics.md)
-### [Intelligent insights](about-intelligent-cloud.md)
 ### [Work with Power BI reports](across-working-with-powerbi.md)
 ### [Financial business intelligence](bi.md)
 ### [Analyze financial statements with excel](finance-analyze-excel.md)
 ### [Consolidate financial data from multiple companies](finance-consolidated-company-reporting.md)
 ### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-
+### [Intelligent Insights (on-premises only)](about-intelligent-cloud.md)
 
 ## Analyze data in business intelligence tools
 ### [Overview](reports-external-analysis.md)
@@ -1933,6 +1935,7 @@ ms.service: dynamics-365-business-central
 #### [Business Central extensions by other providers](ui-extensions-other.md)
 ## Integrate with other Dynamics 365 applications
 ### [Integrate with Dynamics 365 Sales via data sync](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### [Integrate with Microsoft Dynamics 365 Field Service](admin-integrate-field-service.md)
 ## Integrate with Microsoft Dataverse
 ### [Integrate with Dataverse via data sync](admin-common-data-service.md)
 ### [Data ownership models for synchronization](admin-cds-company-concept.md)
@@ -2039,8 +2042,12 @@ ms.service: dynamics-365-business-central
 ## Sales line suggestion
 ### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 ### [FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
+## Map e-documents
+### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
+### [FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
 ## [FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
+## [FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)

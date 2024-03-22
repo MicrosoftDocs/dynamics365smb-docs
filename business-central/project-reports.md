@@ -14,6 +14,7 @@ ms.service: dynamics-365-business-central
 Project reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows project and business professionals to get insights and statistics about current and past project activities.  
 
 ## Reports
+
 [!INCLUDE [project_reports](includes/project-reports-include.md)]
 
 ## Tasks

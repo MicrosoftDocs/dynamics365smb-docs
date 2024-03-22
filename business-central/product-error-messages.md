@@ -5,11 +5,11 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: conceptual
-ms.date: 02/26/2024
+ms.date: 03/08/2024
 ms.service: dynamics-365-business-central
-ms.custom: bap-template
+ms.custom: bap-temeplate
 ---
-# Warnings and Error Messages in Dynamics 365 Business Central
+# Warnings and error messages
 
 During your work day, you might see notifications in [!INCLUDE [prod_short](includes/prod_short.md)] that something went wrong, or that it was not possible to post something, for example. In many cases, the notification makes it easy to resolve the matter, or to roll back any changes that you made. In other cases, you might not have have the information that you need to get unblocked. This article provides tips on how to make progress.  
 
@@ -29,7 +29,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], the Help menu item (the quest
 
 If you are an administrator or superuser, you can help others by looking up error messages in the **Error Message Register** page or in the administration center. In many cases, the warning or error message is about setup or lack of permission and similar issues that the superuser or administrator can easily help with. In other cases, you might have to inspect pages to identify the cause. For more information, see [Finding technical information](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) in the administration content for [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## Share error detials for faster assistance
+## Share error details for faster assistance
 
 Leverage the expertise of colleagues or subject matter experts to overcome obstacles and minimize downtime. When you're blocked by an error, you can easily share the error details when you get assistance. 
 
@@ -46,6 +46,21 @@ You can also choose to share details by email by choosing **Share details via em
 
 * Copy the error details.
 * Open your default email editor, where you can paste the error details you copied and specify who you want to ask for help. [!INCLUDE [prod_short](includes/prod_short.md)] adds a link to the page where you experienced.
+
+## Help yourself
+
+We've made it easier to understand, go to, and resolve errors that come from the platform.
+
+The error messages that the [!INCLUDE [prod_short](includes/prod_short.md)] platform generates contain the full technical details, including field names, in the **Detailed error message** section. Select the **Copy details** icon on inline validation errors or in an error message to access the technical information.
+
+Actions on error messages take you directly to the page where a field is causing the error. You don't have to take time to find the page or field yourself. Just choose the action in the error message and [!INCLUDE [prod_short](includes/prod_short.md)] will take you to the appropriate location to resolve the error.
+
+### Tip for developers
+
+If you're a developer, when you call the [TestField](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-testfield-joker-joker-errorinfo-method) method and don't pass in the ErrorInfo object, [!INCLUDE [prod_short](includes/prod_short.md)] automatically generates the link to a page where a user can correct the issue. [!INCLUDE [prod_short](includes/prod_short.md)] first gets the lookup or drill-down page for the record, and then finds the card page or lookup page and adds a navigation link to that card page. [!INCLUDE [prod_short](includes/prod_short.md)] doesn't add a link in the following situations:
+
+* If the error is on the page that's currently open.
+* If the user doesn't have permission to modify the underlying record.
 
 ## See Also
 

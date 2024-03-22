@@ -21,8 +21,8 @@ When the location is set up to require warehouse pick processing and warehouse s
 
 You can't create a warehouse pick document from scratch. Picks are part of a workflow where a person who is processing an order creates them in a push fashion, or the warehouse employee creates them in a pull fashion:
 
-- In a push fashion, where you use the **Create Pick** action in the **Production Order**, **Assembly Order**, **Job Card** page. Select the lines to pick and prepare the picks by specifying, for example, which bins to take from and place in, and how many units to handle. Bins can be predefined for the warehouse location or resource.
-- In a pull fashion, where you release **Production Order**, **Assembly Order**, **Job Card** to warehouse making the items available for picking. Then, on the **Pick Worksheet** page, warehouse employees can use the **Get Warehouse Documents** action to pull their assigned picks.
+- In a push fashion, where you use the **Create Pick** action in the **Production Order**, **Assembly Order**, **Project Card** page. Select the lines to pick and prepare the picks by specifying, for example, which bins to take from and place in, and how many units to handle. Bins can be predefined for the warehouse location or resource.
+- In a pull fashion, where you release **Production Order**, **Assembly Order**, **Project Card** to warehouse making the items available for picking. Then, on the **Pick Worksheet** page, warehouse employees can use the **Get Warehouse Documents** action to pull their assigned picks.
 
 To pick or move components for source documents in a pull fashion, you must release the source document to make it ready for picking. Release source documents for internal operations in the following ways.  
 
@@ -52,7 +52,7 @@ Use **Warehouse Pick** documents to move assembly components to the assembly are
 Use **Warehouse Pick** documents to pick job components in the flow to project management.
 
 > [!NOTE]
-> The ability to pick components for job planning lines was added to [!INCLUDE[d365fin](includes/d365fin_md.md)] in 2022 release wave 2. To start using the capability, an administrator must turn on **Feature Update: Enable inventory and warehouse pick from Jobs** on the **Feature Management** page.
+> The ability to pick components for project planning lines was added to [!INCLUDE[d365fin](includes/d365fin_md.md)] in 2022 release wave 2. To start using the capability, an administrator must turn on **Feature Update: Enable inventory and warehouse pick from Jobs** on the **Feature Management** page.
 >
 > Jobs don't support advanced configurations where the **Directed pick and Put-away** toggle is turned on.
 
@@ -135,11 +135,11 @@ Use **Warehouse Pick** documents to pick job components in the flow to project m
 
 4. After you pick and place the items in the production, assembly or job area or bin, choose the **Register Pick** action.  
 
-    You can now bring the items to the respective area and post the usage or consumption of the picked components by posting consumption journal, assembly order, or job journal. The following articles provide more information:
+    You can now bring the items to the respective area and post the usage or consumption of the picked components by posting consumption journal, assembly order, or project journal. The following articles provide more information:
 
     * [Register Consumption and Output for One Released Production order line](production-how-to-register-consumption-and-output.md)
     * [Assemble Items](assembly-how-to-assemble-items.md)
-    * [Record Consumption or Usage for Jobs](projects-how-record-job-usage.md)
+    * [Record Consumption or Usage for Projects](projects-how-record-job-usage.md)
 
 ## Flushing production components in an advanced warehouse configuration
 

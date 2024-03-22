@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.search.form: 1
+ms.search.form: 1,
 ms.date: 03/11/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
@@ -24,7 +24,7 @@ The following table lists the experiences that are currently available.
 | **Essential** |Shows all actions and fields for all common business functionality.|
 | **Premium** |Shows all actions and fields for all business functionality, including Manufacturing and Service Management.|
 
-The experiences that can be selected in [!INCLUDE[prod_short](includes/prod_short.md)] reflect the solution licenses, called plans, that are defined for the product. For information about the Essential and Premium plans, see [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) on the Microsoft Dynamics 365 marketing site. See also the [[!INCLUDE[prod_short](includes/prod_short.md)] Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2068931).
+The experiences that can be selected in [!INCLUDE[prod_short](includes/prod_short.md)] reflect the solution licenses, called plans, that are defined for the product. For information about the Essential and Premium plans, see [Business Central](https://go.microsoft.com/fwlink/?linkid=2264940) on the Microsoft Dynamics 365 marketing site. See also the [[!INCLUDE[prod_short](includes/prod_short.md)] Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2264939).
 
 > [!IMPORTANT]  
 > Users of type Team Member, Internal Admin, External Accountant, and Delegated Admin can be assigned a different plan than other users in the solution. Only users of type Evaluation or Premium can change the value in the **Experience** field from Essential to Premium.

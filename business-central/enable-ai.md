@@ -110,6 +110,7 @@ The following table lists the permissions required to use Copilot features provi
 |Copilot features|Required permissions|
 |-|-|
 |Analysis assist|**DATA ANALYSIS - EXEC** permission set or execute permission on the system object 9640 **Allow Data Analysis mode**. These are the same permissions needed to access the analysis mode.|
+|Bank reconciliation assist|Permission on page 7250 **Bank Acc. Rec. AI Proposal** and page 7252 **Trans. To GL Acc. AI Proposal**.|
 |Chat |There are no permissions or permission sets that control access to chat on a per user basis. If chat is activated, it's available to all users.|
 |Marketing text suggestions |Permission on page 5836 **Copilot Marketing Text**|
 

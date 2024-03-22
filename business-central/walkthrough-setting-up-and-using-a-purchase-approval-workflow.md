@@ -1,16 +1,15 @@
 ---
-title: Setting Up and Using a Purchase Approval Workflow
+title: Set up and use a purchase approval workflow
 description: This walkthrough takes you through all the stages involved in setting up and using a purchase approval workflow in Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
-ms.date: 09/13/2022
+ms.date: 03/11/2024
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ---
-# Walkthrough: Setting Up and Using a Purchase Approval Workflow
+# Walkthrough: Set up and use a purchase approval workflow
 
 You can automate the process of approving new or changed records, such as documents, journal lines, and customer cards, by creating workflows with steps for the approvals in question.
 
@@ -41,7 +40,7 @@ To test the approval workflow, Sean signs in to [!INCLUDE[prod_short](includes/p
 
 Before you can set up approval users and their notification method, you must make sure that those users exist in [!INCLUDE[prod_short](includes/prod_short.md)]: One user will represent Alicia. The other user, yourself, will represent Sean. Learn more at [Create Users According to Licenses](ui-how-users-permissions.md).
 
-### Setting up approval users
+### Set up approval users
 
 When signed in as yourself, set up Alicia as an approval user whose approver is yourself. Set up your approval rights and specify how and when you're notified of approval requests.  
 
@@ -60,11 +59,11 @@ When signed in as yourself, set up Alicia as an approval user whose approver is 
     |YOU||Selected|
     |ALICIA|YOU||
 
-### Setting up notifications
+### Set up notifications
 
 In this walkthrough, the user is notified by an internal note about requests to approve. Approval notifications can also be sent by email, and you can add a workflow response step that notifies the sender when a request is approved or rejected. Learn more at [Specify When and How to Receive Notifications](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
-#### To set up how and when you are notified
+#### To set up how and when you're notified
 
 1. On the **Approval User Setup** page, select the line for yourself, and then choose the **Notification Setup** action.  
 2. On the **Notification Setup** page, in the **Notification Type** field, choose **Approval**.  
@@ -72,7 +71,7 @@ In this walkthrough, the user is notified by an internal note about requests to 
 4. On the **Notification Setup** page, choose the **Notification Schedule** action.  
 5. On the **Notification Schedule** page, in the **Recurrence** field, select **Instantly**.  
 
-## Creating the approval workflow
+## Create the approval workflow
 
 Create the purchase order approval workflow by copying the steps from the **Purchase Order Approval Workflow** template. Leave the existing workflow steps unchanged, and then enable the workflow.  
 

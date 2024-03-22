@@ -2039,6 +2039,9 @@ ms.service: dynamics-365-business-central
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)
 ### [FAQ for marketing text suggestions](faqs-marketing-text.md)
+## Sales line suggestion
+### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
+### [FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
 ## Map e-documents
 ### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
 ### [FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
@@ -2046,4 +2049,5 @@ ms.service: dynamics-365-business-central
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
+## [FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
 ## [FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)

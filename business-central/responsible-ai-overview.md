@@ -20,4 +20,5 @@ ms.collection:
 
 - [Bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
 - [Marketing text suggestions](faqs-marketing-text.md)
+- [Sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot)
 - [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)

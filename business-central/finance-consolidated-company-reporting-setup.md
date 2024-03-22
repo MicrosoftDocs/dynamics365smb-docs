@@ -5,14 +5,14 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: conceptual
-ms.date: 09/25/2023
+ms.date: 02/28/2024
 ms.custom: bap-template
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.search.form: 1826, 1827
 ms.service: dynamics-365-business-central
 ---
 
-# Set Up Company Consolidation
+# Set up company consolidation
 
 Before you can consolidate the general ledger entries of two or more companies (subsidiaries) into a consolidated company, you must prepare the charts of accounts and the consolidation company.  
 
@@ -74,6 +74,19 @@ A big part of setting up the business unit is to specify how the unit will share
 
 > [!NOTE]
 > The API option also lets you share general ledger entries from other [!INCLUDE [prod_short](includes/prod_short.md)] environments. To use the API option, the user who configures the consolidation must have permission to access G/L entries. For example, the D365 Basic and D365 Read permission sets provide access.
+
+#### Set up business unit currencies
+
+When you run consolidation for business units that use a foreign currency, you must pay special attention to the exchange rates that various parts of the process use, and even more so when you rerun consolidation. To do that, use the **Set Up Business Unit Currencies** page to easily keep track of the rates.
+
+The **Set Up Business Unit Currencies** page gives you the last rates for average, closing, and last closing rate. You can look up the exchange rates in the currency exchange rate table, which makes it easier to validate rates. You can change the rates for the current run by entering the values or copying them from previous runs. To copy rates, choose **Select from previous consolidation**. This page is particularly valuable when you want to rerun a previous consolidation, where you need to use a previous closing rate. This is required to correctly revaluate your balance sheet items. The **Select from previous consolidation** page is also useful if you just want to view the rates that were used, for example, when you're troubleshooting. The page is filtered to runs that included the selected business unit.
+
+You start the **Run Consolidation** batch job from the **Business Units** list page. You can also find the **Set Up Business Unit Currencies** page by choosing the **Exchange Rates** action.
+
+> [!NOTE]
+> The exchange rate setup pages for average, closing, and last closing rate that are currently available on the **Business Unit** card will be deprecated in a future version. However, you can still maintain these rates if you have business units that you import through files.
+
+#### Create a business unit
 
 1. Sign in to the consolidated company.
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  

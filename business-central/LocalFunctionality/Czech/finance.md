@@ -23,7 +23,7 @@ The purpose of the corrections posting feature is to allow the:
 - Accounting manager to enforce corrective posting on desired G/L accounts.  
 - Accounting manager to enforce corrective posting in inventory postings (such as negative transfer entries and expected costs posting).  
 - Accounting manager to enforce corrective posting of canceling in fixed assets.
-- User to enforce corrective posting with one select (in G/L, inventory, and job postings).  
+- User to enforce corrective posting with one select (in G/L, inventory, and project postings).  
 
 ## Statutory company information
 

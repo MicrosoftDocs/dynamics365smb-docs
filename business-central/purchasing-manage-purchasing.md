@@ -6,7 +6,7 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 460, 9307
-ms.date: 04/08/2024
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---

@@ -1,12 +1,12 @@
 ---
 title: Synchronize items and inventory
 description: Set up and run synchronizations of items between Shopify and Business Central
-ms.date: 11/17/2023
+ms.date: 02/28/2024
 ms.topic: article
 ms.search.form: 30116, 30117, 30126, 30127, 
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.collection:
   - bap-ai-copilot
 ---
@@ -101,6 +101,9 @@ You manage the process of exporting items using these settings:
 |**Inventory Tracked**| Choose how the system should populate the **Track Inventory** field for products exported to Shopify. You can update availability information from [!INCLUDE[prod_short](../includes/prod_short.md)] for products in Shopify whose track inventory is enabled. Learn more in the [Inventory](synchronize-items.md#sync-inventory-to-shopify) section.|
 |**Default Inventory Policy**|Choose *Deny* to prevent negative stock on the Shopify side. <br>If  **Can Update Shopify Products** is enabled, changes in the **Default Inventory Policy** field will be propagated to Shopify after next sync for all products and variants listed in the **Shopify Products** page for selected shop.|
 |**Can Update Shopify Products**|Define this field if [!INCLUDE[prod_short](../includes/prod_short.md)] can only create items or can update items as well. Select this option if, after the initial sync is triggered by the **Add Item** action, you plan to update products manually using the **Sync Product** action or using the job queue for recurring updates. Remember to select **To Shopify** in the **Item Sync** field.<br>**Can Update Shopify Products** doesn't impact synchronization of prices, images or inventory levels, which are configured by independent controls.<br>If **Can Update Shopify Products** is enabled, the following fields on the Shopify side will be updated on the product and, if needed, the variant level: **SKU**, **Barcode**, **Weight**. The **Title**, **Product Type**, **Vendor**, and **Description** on the product will be also updated if the exported values aren't empty. For description, this means you need to enable any of the **Sync Item Extended Text**, **Sync Item Marketing Text**, and **Sync Item Attributes** toggles and  attributes, extended or marketing text must have values. If the product uses variants, then the variant is added or removed if necessary. <br>If the product on Shopify is configured to use a variant matrix that combines two or more options, the Shopify Connector can't create a variant for that product. In [!INCLUDE[prod_short](../includes/prod_short.md)] there's no way to define an option matrix—that's why the connector uses the **Variant Code** as the only option. However, Shopify expects several options and refuses to create a variant if information about a second and other options is missing. |
+
+> [!NOTE]
+> When you want to export many items and variants, there might be some that are blocked. You can't include blocked items and variants in price calculations, so they aren't exported. The Connector skips those items and variants, so you don't need to filter them on the **Add Item to Shopify** request page.
 
 ### Fields-mapping overview
 

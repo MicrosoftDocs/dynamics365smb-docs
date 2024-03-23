@@ -24,8 +24,10 @@ There are eight methods of depreciation available in [!INCLUDE [prod_short](incl
 
   Allocates the largest part of an asset's cost to the early years of its useful lifetime.
 * Declining-Balance 2 (DB2)
+
   Similar to DB1, but allows depreciation amounts that decline for non-yearly deprecation periods.
 * DB1/SL
+
   Abbreviated combination of Declining-Balance 1 and Straight-Line.
 * DB2/SL
 * Half-Year Convention. 
@@ -246,7 +248,7 @@ Calculation method:
     *Straight-line amount = 100,000 / 8 = 12,500 = 6,250 + 6,250*  
 
     The declining-balance amount is used because it is the greater amount.  
-
+* ...
 * Year 5 (2025):  
 
     *Declining-balance amount: 25% of 23,730.46 = 4,943.85= 2,471.92 + 2,471.92*  
@@ -315,7 +317,7 @@ Calculation method:
     *Straight-line amount = Full year amount = 100,000 / 5 = 20,000.* Thus, for half a year = 20,000 / 2 = 10,000  
 
     The declining-balance amount is used because it is the greater amount.  
-
+* ...
 * Year 5 (2024):  
 
     *Declining-balance amount = 40% of 17,280.00 = 6,912.00*  

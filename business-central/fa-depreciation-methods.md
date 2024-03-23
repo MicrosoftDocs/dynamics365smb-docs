@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 # Depreciation Methods for Fixed Assets
 
-[!INCLUDE [prod_short](includes/prod_short.md)] supported eight different methods of depreciation for fixed assets: 
+[!INCLUDE [prod_short](includes/prod_short.md)] supports eight different methods of depreciation for fixed assets: 
 
 * Straight-Line (SL)
 * Declining-Balance 1 (DB1)

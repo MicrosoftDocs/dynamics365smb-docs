@@ -15,32 +15,16 @@ ms.service: dynamics-365-business-central
 
 # Depreciation Methods for Fixed Assets
 
-There are eight methods of depreciation available in [!INCLUDE [prod_short](includes/prod_short.md)]:  
+[!INCLUDE [prod_short](includes/prod_short.md)] supported eight different methods of depreciation for fixed assets: 
 
-* Straight-Line (SL). 
-
-  Depreciates a fixed asset either with a fixed yearly percentage or with a fixed yearly amount.
+* Straight-Line (SL)
 * Declining-Balance 1 (DB1)
-
-  Allocates the largest part of an asset's cost to the early years of its useful lifetime.
 * Declining-Balance 2 (DB2)
-
-  Similar to DB1, but allows depreciation amounts that decline for non-yearly deprecation periods.
 * DB1/SL
-
-  Abbreviated combination of Declining-Balance 1 and Straight-Line.
 * DB2/SL
-* Half-Year Convention. 
-
-  Depreciates a fixed asset by the same amount each year.
+* Half-Year Convention
 * Manual
-
-  For assets that aren't subject to depreciation, for example, land.
-
 * User-defined depreciation
-
-  Roll your own method.
-
 
 ## Straight-Line depreciation
 

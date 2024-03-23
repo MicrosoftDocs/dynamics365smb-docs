@@ -1,5 +1,5 @@
 ---
-title: Analyze data in list pages and queries using data analysis mode
+title: Analyze data in lists with help from Copilot
 description: Learn how to use the data analysis mode in Business central to analyze data.
 author: jswymer 
 ms.author: jswymer
@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
 ---
-# Analyze data in analysis mode with Copilot
+# Analyze data in lists with help from Copilot
 
 This article explains how to use the *analysis assist* to help you analyze data on list pages.
 

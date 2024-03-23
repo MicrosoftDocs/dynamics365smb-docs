@@ -12,6 +12,8 @@ ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 
 ---
 # Analyze data in lists with help from Copilot
 
+[This article is prerelease documentation and is subject to change.]
+
 This article explains how to use the *analysis assist* to help you analyze data on list pages.
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]

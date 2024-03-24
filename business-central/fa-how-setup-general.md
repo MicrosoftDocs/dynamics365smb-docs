@@ -47,7 +47,11 @@ A template is a predefined layout for a journal. The template contains informati
 2. Fill in the fields as necessary.
 
 
-## To set up fixed asset class codes
+## To set up fixed asset class and subclass codes 
+
+In fixed assets, you can define a classification hierarchy that can be used to group assets. The hierarchy has two levels: classes and subclasses.
+
+### Fixed asset class codes
 
 Fixed asset class codes are the top-level entries in your classification hierarchy that can be used to group assets. For example, you can use this to divide assets into tangible or intangible assets. 
 
@@ -56,7 +60,7 @@ Fixed asset class codes are the top-level entries in your classification hierarc
 
 You must have at least one fixed asset class code defined in your setup.
 
-## To set up fixed asset subclass codes
+### Fixed asset subclass codes
 
 Fixed asset subclass codes are the level two entries in your classification hierarchy that can be used to group assets. Each subclass points to a top-level class. You can use fixed asset subclass codes to group your fixed assets into asset categories, such as buildings, vehicles, furniture, or machinery. 
 

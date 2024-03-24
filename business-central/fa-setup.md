@@ -17,14 +17,14 @@ Before you can work with Fixed Assets, you need to define a few things:
 * How you insure, maintain, and depreciate fixed assets.  
 * How you record costs and other values in the general ledger.  
 
-The table below has links to more information. After you set those things up, you can start various activities. For more information, see [Fixed Assets](fa-manage.md).  
+The table below has links to more information on how to setup Fixed Assets. After you finish the setup, you can start working with Fixed Assets features. For more information, see [Using Fixed Assets](fa-manage.md).  
 
 > [!NOTE]  
->   You can record fixed asset transactions in the **Fixed Asset G/L Journal** or **Fixed Asset Journal** pages, depending on whether the transactions are for financial reporting or for internal management. Help for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** page.  
+>   You can record fixed asset transactions in the **Fixed Asset G/L Journal** or **Fixed Asset Journal** pages, depending on whether the transactions are for financial reporting or for internal management. The help articles for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** page.  
 
 When you enable a fixed asset activity in the **G/L Integration** section on the **Depreciation Book Card** page, the **Fixed Asset G/L Journal** page is used to post transactions for the activity.
 
-The following table describes a sequence of tasks, with links to the topics that describe them.  
+The following table describes a sequence of tasks needed for setting up Fixed Assets, with links to the topics that describe them. 
 
 | To | See |
 | --- | --- |
@@ -37,7 +37,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 ## See also
 
-[Fixed Assets](fa-manage.md)  
+[Fixed Assets overview](fa-manage.md)  
 [Finance](finance.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

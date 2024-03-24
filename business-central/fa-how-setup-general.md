@@ -1,5 +1,5 @@
 ---
-title: Set Up General FA Information
+title: Set Up General Fixed Assets (FA) Information
 description: Before you work with fixed assets, you must set up default G/L accounts, posting groups, allocation keys, journal templates and batches, and class codes.
 author: brentholtorf
 ms.topic: conceptual
@@ -10,13 +10,13 @@ ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
 ---
-# Set Up General Fixed Assets Information
+# Set Up General Fixed Assets (FA) Information
 
-Before you can manage fixed assets, you must set up default G/L accounts, allocation keys, journal templates and batches for fixed asset posting and reclassification, and you can classify fixed assets in classes, such as Tangible and Intangible.
+Before you can manage fixed assets, you must set up default G/L accounts, allocation keys, journal templates and batches for fixed asset posting and reclassification. You can also define a classification hiearchy (classes and sub classes) to be used for structuring your assets, and define locations for where assets are located.
 
-## To set up general default values for fixed assets
+## To set up general behavior for fixed assets functionality
 
-You define the general behavior or the fixed asset functionality and set up document number series in the  on the **Fixed Assets Setup** page.
+You define the general behavior or the fixed asset functionality and set up its document number series on the **Fixed Assets Setup** page.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets Setup**, and then choose the related link.  
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -80,21 +80,25 @@ You can set up multiple journal batches, which are individual journals for each 
 
 ## To set up fixed asset class codes
 
-Fixed asset class codes can be used to group fixed assets, for example, in tangible and intangible assets.
+Fixed asset class codes are the top-level entries in your classification hierarchy that can be used to group assets. For example, you can use this to divide assets into tangible or intangible assets. 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Classes**, and then choose the related link.
-2. Enter codes and names for the classes that you want to create.
+2. Enter codes and names for the fixed asset classes that you want to create.
+
+You must have at least one fixed asset class code defined in your setup.
 
 ## To set up fixed asset subclass codes
 
-You use fixed asset subclass codes to group your fixed assets into categories, such as buildings, vehicles, furniture, or machinery.  
+Fixed asset subclass codes are the level two entries in your classification hierarchy that can be used to group assets. Each subclass points to a top-level class. You can use fixed asset subclass codes to group your fixed assets into asset categories, such as buildings, vehicles, furniture, or machinery. 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Subclasses**, and then choose the related link.
-2. Enter codes and names for the classes that you want to create.
+2. Enter codes and names for the fixed asset subclasses that you want to create.
 
-## To set up fixed asset location codes
+You must have at least one fixed asset subclass code defined in your setup.
 
-You use fixed asset location codes to register the location of the fixed asset, such as sales department, reception, administration, production, or warehouse. This information is useful for insurance and inventory purposes.
+## To set up fixed asset location codes (optional)
+
+Fixed asset location codes define identifiers for where assets can be located, such as sales department, reception, administration, production, or warehouse. You can use them to register the location of a fixed asset. This information is useful for insurance and inventory purposes.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA locations**, and then choose the related link.
 2. Enter codes and names for the fixed asset locations that you want to create.
@@ -103,11 +107,11 @@ You use fixed asset location codes to register the location of the fixed asset, 
 
 If you are using the fixed assets in [!INCLUDE[prod_short](includes/prod_short.md)] for the first time, you must set up the general ledger application area before you set up fixed assets. How you do this depends on whether fixed assets is integrated with general ledger.  
 
- The following procedure is used if fixed asset transactions are to be posted to the general ledger.  
+The following procedure is used if fixed asset transactions are to be posted to the general ledger.  
 
 1. Make sure that you have completed the basic setup procedures for fixed assets.  
 2. Create a fixed asset card for each existing asset.  
-3. Create a fixed asset depreciation book for each depreciation purpose (such as tax and financial statements). For each depreciation book, you must define the terms and conditions, such as integration with general ledger.  
+3. Create a fixed asset depreciation book for each depreciation purpose (such as tax and financial statements). For each depreciation book, you must define the terms and conditions, such as integration with general ledger. 
 
     Enable general ledger integration by following the next steps. First, make sure that general ledger integration is disabled for all depreciation books, then post the opening entries, and finally, turn on general ledger integration.  
 4. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Depreciation Books**, and then choose the related link.  
@@ -127,7 +131,7 @@ If the fixed assets are not integrated with the general ledger, skip step 6 and 
 ## See also
 
 [Setting Up Fixed Assets](fa-setup.md)  
-[Fixed Assets](fa-manage.md)  
+[Fixed Assets overview](fa-manage.md)  
 [Finance](finance.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

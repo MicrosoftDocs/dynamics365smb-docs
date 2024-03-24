@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Set Up General Fixed Assets (FA) Information
 
-Before you can manage fixed assets, you must set up default G/L accounts, allocation keys, journal templates and batches for fixed asset posting and reclassification. You can also define a classification hiearchy (classes and sub classes) to be used for structuring your assets, and define locations for where assets are located.
+Before you can manage fixed assets, you must set up default G/L accounts, allocation keys, journal templates and batches for fixed asset posting and reclassification. You also define a classification hiearchy (classes and sub classes) to be used for structuring your assets, and you can define locations for where assets are located.
 
 ## To set up general behavior for fixed assets functionality
 

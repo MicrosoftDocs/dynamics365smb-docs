@@ -2029,7 +2029,7 @@ ms.service: dynamics-365-business-central
 ### [Copilot data movement across geographies](ai-copilot-data-movement.md)
 ### [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)
 ## Analysis assist (preview)
-### [Analyze data with Copilot](bank-reconciliation-with-copilot.md)
+### [Analyze data in lists with Copilot](analysis-assist.md)
 ### [FAQ for analysis assist](faqs-analysis-assist.md)
 ## Bank account reconciliation assist (preview)
 ### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)

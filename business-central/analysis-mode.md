@@ -29,7 +29,10 @@ In this article, you learn how to analyze data from list pages and queries using
 
 ## Get started
 
-Complete these steps to get started analyzing data using the analysis mode. Analysis mode also includes a Copilot feature called *analysis assist* that can help you get started. [Learn more about analysis assist with Copilot](analysis-assist.md).
+Complete these steps to get started analyzing data using the analysis mode.
+
+>[!TIP]
+> Analysis mode also includes a Copilot feature called *analysis assist* that can help you get started. [Learn more about analysis assist with Copilot](analysis-assist.md).
 
 1. Open the list page or query.
 

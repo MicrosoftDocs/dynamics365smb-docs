@@ -103,7 +103,7 @@ Fixed asset location codes define identifiers for where assets can be located, s
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA locations**, and then choose the related link.
 2. Enter codes and names for the fixed asset locations that you want to create.
 
-## To register opening entries
+## Get started registering assets
 
 If you are using the fixed assets in [!INCLUDE[prod_short](includes/prod_short.md)] for the first time, you must set up the general ledger application area before you set up fixed assets. How you do this depends on whether fixed assets is integrated with general ledger.  
 

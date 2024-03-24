@@ -18,7 +18,7 @@ Before you can work with Fixed Assets, you need to define a few things:
 * How you record acquisition costs, depreciations, and other values in the general ledger.  
 * Optionally, how to record insurance and maintenance on fixed assets.
 
-The table below has links to more information on how to setup Fixed Assets. After you finish the setup, you can start working with Fixed Assets features. For more information, see [Using Fixed Assets](fa-manage.md).  
+The sections below have links to more information on how to setup Fixed Assets. After you finish the setup, you can start working with Fixed Assets features. For more information, see [Using Fixed Assets](fa-manage.md).  
 
 > [!NOTE]  
 > You can record fixed asset transactions in the **Fixed Asset G/L Journal** or **Fixed Asset Journal** pages, depending on whether the transactions are for financial reporting or for internal management. The help articles for Fixed Assets only describes how to use the **Fixed Asset G/L Journal** page.  

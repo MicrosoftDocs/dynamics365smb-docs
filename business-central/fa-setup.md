@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Setting Up Fixed Assets
+# Setting Up Fixed Assets (FA)
 
 Before you can work with Fixed Assets, you need to define a few things:  
 

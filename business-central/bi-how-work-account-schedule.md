@@ -131,21 +131,12 @@ Sometimes you may want to include a column in a financial report to calculate pe
 8. Repeat steps 4 through 7 for each group of rows you want to break down by percentage.
 
 
-## Example: Create a simple income statement including a Gross Profit Margin KPI
-
-As an example that shows how to use financial reports, this walk-through explains how to create a simple income statement including a Gross Profit Margin KPI: 
-
-**???? TODO: wait for Kerry Peters content or create a new walk-through article????**
-
-
 ## Use G/L account categories to change the layout of your financial statements
 
 You can use G/L account categories to change the layout of your financial statements. For example, once you've set up your account categories on the **G/L Account Categories** page, you can choose the **Generate Financial Reports** action and update the underlying financial reports for the core financial reports. Then the next time you run one of these reports, such as the **Balance Statement** report, new totals and subentries are added.
 
-**??? TODO: Brian, is this correct???**
 Another benefit of using G/L account categories over the raw G/L accounts in your row definitions is that any change in your chart of accounts structure does not affect your financial reports. 
 
-**TODO:** consider moving this note to this section: [Account categories](finance-general-ledger#account-categories).
 
 > [!NOTE]
 > The top-level account categories, such as the **Liabilities** node, are fixed and you cannot add your own. However, you can delete and add account categories at lower levels and define how the related financial report appears in reports.

@@ -63,7 +63,7 @@ Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list p
 
 1. If you want to change the generated analysis, you can do one of the steps:
 
-   - To build on the previous instructions, enter the information in the **Add more details about the analysis** box, then select the ![alt text](media/analysis-assist-adjust-button.png) **Adjust** arrow. Copilot remembers your previous instructions and uses them to make adjustments.
+   - To build on the previous instructions, enter the information in the **Add more details about the analysis** box, then select the ![Show the adjust arrow](media/analysis-assist-adjust-button.png) **Adjust** arrow. Copilot remembers your previous instructions and uses them to make adjustments.
 
    - To start from scratch by adding new instructions, select the ![Shows the edit prompt pencil icon](media/edit-pencil.png) **Edit prompt:**, add the details to the prompt, and then select **Generate**.
 

@@ -136,6 +136,11 @@ Whether you import Companies from Shopify in bulk or when you import orders, use
 |**Auto Create Unknown Companies**| Select this field if you want the connector to create missing customers when the **By Email/Phone** option is selected in the **Company Mapping Type** field. A new customer will be created using imported data and the **Customer/Company Template Code** defined on the **Shopify Shop Card** or **Shopify Customer Template** pages.|
 |**Customer/Company Template Code**|This field is used together with **Auto Create Unknown Company**.<br>- Choose the default template to be used for automatically created customers. Make sure that the selected template contains the mandatory fields, such as the **Gen. Business Posting Group**, **Customer Posting Group**, and value-added tax (VAT)- or tax-related fields.<br>- You can define templates per country/region on the **Shopify Customer Templates** page, which is useful for proper tax calculation. <br>- Learn more at [Set up Taxes](setup-taxes.md).|
 
+> [!NOTE]  
+> Company must have main contact defined, otherwise Connector will skip to Company.
+> Only one oldest location will be imported.
+> Only main contact will be imported.
+
 ## Important settings when exporting B2B companies to Shopify
 
 You can export existing customers to Shopify in bulk as Company. In each case, a company and one default location are created and one main contact. It is also possible to create catalog.

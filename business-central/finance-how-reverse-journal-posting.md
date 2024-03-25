@@ -28,7 +28,7 @@ You can reverse entries from all **Ledger Entries** pages. The following procedu
 > [!NOTE]
 > The entry must originate from a journal posting.
 >
-> Also, you can't reverse entries that have been posted with information from a job, or which have realized gains and losses within the same transaction.
+> Also, you can't reverse entries that have been posted with information from a project, or which have realized gains and losses within the same transaction.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Entries**, and then choose the related link.
 2. Select the entry that you want to reverse, and then choose the **Reverse Transaction** action.

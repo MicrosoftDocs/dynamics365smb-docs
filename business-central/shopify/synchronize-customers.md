@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
 
-# Synchronize Customers
+# Synchronize Customers and Companies
 
 When you import an order from Shopify, getting the information about the customer is essential for further processing the document in [!INCLUDE[prod_short](../includes/prod_short.md)]. There are two main options for doing so, and several combinations:
 
@@ -27,7 +27,7 @@ Whether you import customers from Shopify in bulk or when you import orders, use
 |**Customer Mapping Type**|Define how you want the connector to perform the mapping.<br>- **By Email/Phone** if you want the connector to map the imported Shopify customer to an existing customer in [!INCLUDE[prod_short](../includes/prod_short.md)] using email and phone.</br>- **By Bill-to Info** if you want the connector to use the address of the invoice recipient to map the imported Shopify customer to an existing customer in [!INCLUDE[prod_short](../includes/prod_short.md)].</br>- Select **Always Take the Default Customer** if you want the system to use a customer from the **Default Customer No.** field. |
 |**Shopify Can Update Customers**| Select this field if you want the connector to update the customers it finds when either of the **By Email/Phone** or **By Bill-to Info** options are selected in the **Customer Mapping Type** field.|
 |**Auto Create Unknown Customers**| Select this field if you want the connector to create missing customers when the **By Email/Phone** or **By Bill-to Info** options are selected in the **Customer Mapping Type** field. A new customer will be created using imported data and the **Customer Template Code** defined on the **Shopify Shop Card** or **Shopify Customer Template** pages. Notice that the Shopify customer must have at least one address. Orders created via Shopify POS sales channel are often missing address details. If this option isn't enabled, you'll need to create a customer manually and link it to the Shopify customer.|
-|**Customer Template Code**|This field is used together with **Auto Create Unknown Customers**.<br>- Choose the default template to be used for automatically created customers. Make sure that the selected template contains the mandatory fields, such as the **Gen. Business Posting Group**, **Customer Posting Group**, and value-added tax (VAT)- or tax-related fields.<br>- You can define templates per country/region on the **Shopify Customer Templates** page, which is useful for proper tax calculation. <br>- Learn more at [Set up Taxes](setup-taxes.md).|
+|**Customer.Company Template Code**|This field is used together with **Auto Create Unknown Customers**.<br>- Choose the default template to be used for automatically created customers. Make sure that the selected template contains the mandatory fields, such as the **Gen. Business Posting Group**, **Customer Posting Group**, and value-added tax (VAT)- or tax-related fields.<br>- You can define templates per country/region on the **Shopify Customer Templates** page, which is useful for proper tax calculation. <br>- Learn more at [Set up Taxes](setup-taxes.md).|
 
 ### Customer template per country/region
 
@@ -43,19 +43,19 @@ You can do the following for each customer using the **Shopify Customer Template
 > [!NOTE]  
 > The country codes are ISO 3166-1 alpha-2 country codes. Learn more at [Country Code](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
-## Export customers to Shopify
+## Important settings when exporting customers to Shopify
 
 You can export existing customers to Shopify in bulk. In each case, a customer and one default address are created. You can manage the process using the following settings:
 
 |Field|Description|
 |------|-----------|
-|**Export customers to Shopify**|Select this option if you plan to export all customers from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify in bulk. You can do it either manually, using the **Sync Customers** action, or automatically, using a job queue for recurring updates.<br> When exporting customers with addresses that include provinces/states, make sure that **ISO Code** is filled in for countries/regions.|
-|**Can update Shopify Customers**|This option works together with the **Export customer to Shopify** setting. Enable this option if you want to generate updates later from [!INCLUDE[prod_short](../includes/prod_short.md)] for customers that already exist in Shopify.|
+|**Can update Shopify Customers**| Enable this option if you want to generate updates later from [!INCLUDE[prod_short](../includes/prod_short.md)] for customers that already exist in Shopify.|
 
 The following are requirements for exporting a customer:
 
 * The customer must have a valid email address.
-* A country/region is selected on the customer card, for local customers, with blank country/region the country/region specified in the **Company Information** page must have an ISO Code defined.
+* When exporting customers with addresses that include provinces/states, make sure that **ISO Code** is filled in for countries/regions.|
+* For country/region is selected on the customer card make sure that **ISO Code**. For local customers, with blank country/region, Shopify connector uses the country/region specified in the **Company Information**.
 * If the customer has a phone number, the number must be unique because Shopify won't accept a second customer with the same phone number.
 * If the customer has a phone number, it must be in the E.164 format. Different formats are supported if they represent a number that can be dialed from anywhere in the world. The following formats are valid:
 
@@ -85,8 +85,22 @@ A customer in Shopify also has a default address. The address might contain a co
 
 For addresses where the county/province is used, select **Code** or **Name** in the **County Source** field on the **Shopify Shop Card** page. The code or name specifies the type of data stored in [!INCLUDE[prod_short](../includes/prod_short.md)] in the **County** field. Remember to initialize customer templates per country/region so that the county code/name mapping is ready. 
 
+## Export customers to Shopify
 
-## Sync customers
+### Initial sync of customers from Business Central to Shopify
+
+1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Customers**, and choose the related link.
+2. Choose the **Add Customer** action.
+3. In the **Shop Code** field, enter the code. If you open the **Shopify Customers** window from the **Shop Card** page, the shop code will be populated automatically.
+4. Define filters on customer as required. For example, you can filter by Country/Region code.
+5. Choose **OK**.
+
+The resulting customers are automatically created in Shopify with address.
+
+> [!NOTE]  
+> Initial sync of customers from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify doesn't consider **Can Update Shopify Customers** settings.
+
+### Sync customers
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify shop**, and then choose the related link.
 2. Select the specific shop for which you want to synchronize customers.
@@ -95,6 +109,58 @@ For addresses where the county/province is used, select **Code** or **Name** in 
 Alternatively, use the **Start Customer Sync** action on the **Shopify Customers** window or search for the **Sync Customers** batch job.
 
 You can schedule the task to be performed in an automated manner. Learn more at [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
+
+## B2B Companies
+
+If you use B2B in Shopify, in addition to Customers you can also create Company. You can link one or more individual customers to company. Also it is possible to define payment terms, locations, catalogues.
+
+## Important settings when importing companies from Shopify
+
+Whether you import Companies from Shopify in bulk or when you import orders, use the following settings to manage the process:
+
+|Field|Description|
+|------|-----------|
+|**Company Import from Shopify**|Select **All Companies** if you plan to import customers from Shopify in bulk; either manually using the **Sync Companies** action or via the job queue for recurring updates. Regardless of the selection, the customer information will always be imported together with the order. However, the use of this information depends on the **Shopify Company Templates** and settings in the **Company Mapping Type** field.|
+|**Company Mapping Type**|Define how you want the connector to perform the mapping.<br>- **By Email/Phone** if you want the connector to map the imported Shopify companies to an existing customer in [!INCLUDE[prod_short](../includes/prod_short.md)] using email and phone from main contact.</br>- Select **Always Take the Default Company** if you want the system to use a company from the **Default Company No.** field. |
+|**Shopify Can Update Company**| Select this field if you want the connector to update the customers it finds when the **By Email/Phone** option is selected in the **Company Mapping Type** field.|
+|**Auto Create Unknown Companies**| Select this field if you want the connector to create missing customers when the **By Email/Phone** option is selected in the **Company Mapping Type** field. A new customer will be created using imported data and the **Customer/Company Template Code** defined on the **Shopify Shop Card** or **Shopify Customer Template** pages.|
+|**Customer/Company Template Code**|This field is used together with **Auto Create Unknown Company**.<br>- Choose the default template to be used for automatically created customers. Make sure that the selected template contains the mandatory fields, such as the **Gen. Business Posting Group**, **Customer Posting Group**, and value-added tax (VAT)- or tax-related fields.<br>- You can define templates per country/region on the **Shopify Customer Templates** page, which is useful for proper tax calculation. <br>- Learn more at [Set up Taxes](setup-taxes.md).|
+
+## Important settings when exporting companies to Shopify
+
+You can export existing customers to Shopify in bulk as Company. In each case, a company and one default location are created and one main contact. It is also possible to create catalog.
+
+|Field|Description|
+|------|-----------|
+|**Can update Shopify Companies**| Enable this option if you want to generate updates later from [!INCLUDE[prod_short](../includes/prod_short.md)] for companies that already exist in Shopify.|
+|**Default Contact Permissions**| Specify which permissions must be assigned to main contact, you can choose between *None*, *Ordering only*, *Location admin*.|
+|**Auto Create Catalog**| Enable this option if you want to create catalog  that includes all products. Catalog will be created per each exported company.|
+
+## Export company to Shopify
+
+### Initial sync of customers from Business Central to Shopify
+
+1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Company**, and choose the related link.
+2. Choose the **Add Company** action.
+3. In the **Shop Code** field, enter the code. If you open the **Shopify Company** window from the **Shop Card** page, the shop code will be populated automatically.
+4. Define filters on customer as required. For example, you can filter by Country/Region code.
+5. Choose **OK**.
+
+The resulting company and customers are automatically created in Shopify.
+
+> [!NOTE]  
+> Initial sync of companies from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify doesn't consider **Can Update Shopify Company** settings.
+
+### Sync company
+
+1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify shop**, and then choose the related link.
+2. Select the specific shop for which you want to synchronize customers.
+3. Choose the **Sync Company** action.
+
+Alternatively, use the **Start Company Sync** action on the **Shopify Company** window or search for the **Sync Company** batch job.
+
+You can schedule the task to be performed in an automated manner. Learn more at [Schedule recurring tasks](background.md#to-schedule-recurring-tasks).
+
 
 ## See also
 

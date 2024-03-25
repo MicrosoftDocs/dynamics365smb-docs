@@ -335,7 +335,7 @@ If logistic is handled in [!INCLUDE[prod_short](../includes/prod_short.md)] wher
 
 #### Example of using Default Product Location toggle
 
-AFter you choose **Get Shopify Locations** you got following locations:
+After you choose the **Get Shopify Locations** action in the **Shopify Locations** page you see following locations:
 
 |Name|Is Fulfillment Service|Is Primary|
 |------|-----------------|-----------------|
@@ -350,7 +350,7 @@ Let's review impact of enabling Default Product Location toggle:
 |Main| Inventory will be stocked at: Multiple locations; Selected locations: Main (primary) |
 |Main and Second| Inventory will be stocked at: Multiple locations; Selected locations: Main and Second |
 |Business Central Fulfillment Service|Inventory will be stocked at: Business Central Fulfillment Service; Selected locations: (App) Business Central Fulfillment Service|
-|Business Central Fulfillment Service and Main| Error: You can not use standard Shopify Locations with FulFillment Service Locations.|
+|Business Central Fulfillment Service and Main| Error: You can not use standard Shopify Locations with FulFillment Service Locations|
 
 ## See also
 

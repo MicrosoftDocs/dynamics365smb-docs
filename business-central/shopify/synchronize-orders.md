@@ -137,6 +137,8 @@ Once the import is completed, you can explore the Shopify order and find all rel
 
 Before sales documents are created in [!INCLUDE[prod_short](../includes/prod_short.md)] you can use the **Synch order from Shopify** action in the **Shopify Order** page to reimport specific order.
 
+You can also mark order as paid, which is useful in B2B scenario when payments are processed outside Shopify checkout. Choose **Mark as Paid** action in the **Shopify Order** page. Also you can mark order as canceled and trigger refund flow in Shopify. Choose the **Cancel Order** action in the **Shopify Order** page, fill in fields as necessary in th **Shopify Cancel Order** page and press OK. You will need to run order synchronization to import updates into [!INCLUDE[prod_short](../includes/prod_short.md)].
+
 ## Create sales documents in Business Central
 
 If the **Auto Create Orders** toggle is enabled on the **Shopify Shop Card**, [!INCLUDE[prod_short](../includes/prod_short.md)] tries to create a sales document after the order is imported. If issues such as a missing customer or product occur, you'll need to fix the problems and then create the sales order again.

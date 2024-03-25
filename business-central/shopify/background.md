@@ -37,8 +37,10 @@ You can schedule the following recurring activities to be performed in an automa
 |**Sync inventory**|Report 30102 Sync stock to Shopify|
 |**Sync images**|Report 30107 Shopify sync images|
 |**Sync customers**|Report 30100 Shopify sync customers|
-|**Sync companies**|Report 30114 Shopify sync companies|
+|**Sync companies**|Report 30114 Shopify sync companies (B2B)|
 |**Sync payments**|Report 30105 Shopify sync payments|
+|**Sync catalogues**|Report 30115 Shopify sync catalogues (B2B)|
+|**Sync catalogue prices**|Report 30116 Shopify sync catalog prices (B2B)|
 
 > [!NOTE]
 > Some elements might be updated by several tasks, for example when you import orders, depending on the setting in the **Shopify Shop Card**, the system may also import and update customer and/or product data. Remember to use the same job queue category to avoid conflicts.
@@ -51,6 +53,18 @@ Other tasks that can be helpful to automate further processing of sales document
 You can use the **Shopify Order No.** field to identify sales documents that were imported from Shopify.
 
 To learn more about posting sales orders in a batch, go to [To create a job queue entry for batch posting of sales orders](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
+
+## To check the status of synchronization
+
+The **Business Manager Role Center** contains the **Shopify Activities** part with number of cues that help you quickly get idea if there are any issues with Shopify Connector.
+
+* **Unmapped Customers** - Shopify Customer imported, but it is not linked to corresponding customer entry in [!INCLUDE [prod_short](../includes/prod_short.md)].
+* **Unmapped Products** - Shopify Product imported, but it is not linked to corresponding item entry in [!INCLUDE [prod_short](../includes/prod_short.md)].
+* **Unprocessed Orders** - Shopify Orders imported, but sales document [!INCLUDE [prod_short](../includes/prod_short.md)] wasn't created, often because of unmapped products or cusotmers.
+* **Unprocessed Shipments** - posted sales shipments originated from Shopify Orders yet to be synchronized with Shopify. 
+* **Shipments Errors** - Shopify Connector could not synchronize posted sales shipments with Shopify.
+* **Synchronization Errors** - failed job queue entries related to synchronization with Shopify.
+
 
 ## See also
 

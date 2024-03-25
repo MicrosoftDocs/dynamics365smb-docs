@@ -333,6 +333,24 @@ Shopify fulfilment is useful when using Shopify POS and there are multiple physi
 
 If logistic is handled in [!INCLUDE[prod_short](../includes/prod_short.md)] where can have as many locations as needed representing distribution centers, you don't create locations in Shopify, Shopify connector creates Business Central Fulfillment Services automatically and you can link inventory via Location Filters from several locations to one fulfilment services record. As result in Shopify there is no information about where goods are sent from, it only has information about  tracking. While in [!INCLUDE[prod_short](../includes/prod_short.md)] you can select based on availability and proximity to destination. 
 
+#### Example of using  of projected available balance
+
+AFter you choose **Get Shopify Locations** you got following locations:
+
+|Name|Is Fulfillment Service|Is Primary|
+|------|-----------------|-----------------|
+|Main| |**Yes**|
+|Second| | |
+|Business Central Fulfillment Service|**Yes**| |
+
+Let's review impact of enabling Default Product Location toggle:
+
+|Name of locations where Default Product Location toggle is turned on|Impact on how product is created in Shopify|
+|------|-----------------|
+|Main| Inventory will be stocked at: Multiple locations; Selected locations: Main (primary) |
+|Main and Second| Inventory will be stocked at: Multiple locations; Selected locations: Main and Second |
+|Business Central Fulfillment Service|Inventory will be stocked at: Business Central Fulfillment Service; Selected locations: (App) Business Central Fulfillment Service|
+|Business Central Fulfillment Service and Main| Error: You can not use standard Shopify Locations with FulFillment Service Locations.|
 
 ## See also
 

@@ -51,7 +51,7 @@ In fixed assets, you can define a classification hierarchy that can be used to g
 
 ### Fixed asset class codes
 
-Fixed asset classes are the top-level entries in the classification hierarchy in which you group assets. For example, you can use classes to divide assets into tangible or intangible assets. You must create at least one fixed asset class in your setup.
+Fixed asset classes are the top-level entries in the classification hierarchy in which you group assets. For example, use classes to divide assets into tangible or intangible assets. You must create at least one fixed asset class in your setup.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Classes**, and then choose the related link.
 2. Enter codes and names for the fixed asset classes that you want to create.
@@ -97,7 +97,7 @@ Fixed asset location codes define identifiers for where assets can be located, s
 
 ## To set up fixed asset allocation keys (optional)
 
-Transactions can be allocated to various departments or projects, according to user-defined allocation keys. For example, you could set up an allocation key to allocate depreciation costs on cars with 35 percent to the administration department and 65 percent to the sales department. For more information, see [Allocate Costs and Income](year-allocate-costs-income.md).
+Use allocation keys to allocate transactions to various departments or projects. For example, you can set up an allocation key to allocate vehicle depreciation costs with 35 percent to the administration department and 65 percent to the sales department. For more information, see [Allocate Costs and Income](year-allocate-costs-income.md).
 
 Allocation keys apply to fixed asset classes, not to individual assets.
 

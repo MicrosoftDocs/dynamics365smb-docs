@@ -59,7 +59,7 @@ Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list p
 1. Review the results on the new analysis tab.
 
    > [!NOTE]
-   > If navigate away from the new analysis tab (such as going to another anlaysis tab or page) or make data changes on the tab (such as sorting columns or changing settings in the **Columns** and **Analysis Filters** tab), the new analysis tab is automatically saved and Copilot closes.
+   > If navigate away from the new analysis tab (such as going to another anlaysis tab or page) or make layout changes on the tab (such as sorting columns or changing settings in the **Columns** and **Analysis Filters** tabs), the new analysis tab is automatically saved and Copilot closes.
 
 1. If you want to change the generated analysis, you can do one of the steps:
 

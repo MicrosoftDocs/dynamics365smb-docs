@@ -20,7 +20,7 @@ Enter a **currency code** if your online shop uses a different currency than the
 
 You can access the Store Currency in the [Store details](https://www.shopify.com/admin/settings/general) settings in your Shopify Admin. Shopify can be configured to accept different currencies. However, imported orders into [!INCLUDE[prod_short](../includes/prod_short.md)] use store currency.
 
-A regular Shopify order can include costs in addition to the subtotal, such as shipping charges or, if enabled, tips. These amounts are posted directly to the G/L account you want used for specific transaction types:
+A regular Shopify order can include costs in addition to the subtotal, such as shipping charges or, if enabled, tips. These amounts are posted directly to the G/L account you want to use for specific transaction types:
 
 * **Shipping Charges Account**
 * **Sold Gift Card Account**; learn more at [Gift Card](synchronize-orders.md#gift-cards)
@@ -29,6 +29,8 @@ A regular Shopify order can include costs in addition to the subtotal, such as s
 Enable **Auto Create Orders** to automatically create sales documents in [!INCLUDE[prod_short](../includes/prod_short.md)] once the Shopify order is imported.
 
 If you want to automatically release a sales document, turn on the **Auto Release Sales Order** toggle.
+
+If you don't want to send automatic shipping confirmations to customers, turn off the **Send Shipping Confirmation** toggle. That can be useful if you sell digital goods or want to use alternative notification mechanism.
 
 If you select the **Shopify Order No. on Doc. Line** field, [!INCLUDE [prod_short](../includes/prod_short.md)] inserts sales lines of the type **Comment** with the Shopify order number.
 
@@ -133,6 +135,8 @@ Once the import is completed, you can explore the Shopify order and find all rel
 > [!NOTE]  
 > You can navigate to the **Shopify Orders** window directly and you'll see orders with the *open* status from all shops. To review completed orders, you need to open the **Shopify Orders** page from the specific **Shopify Shop Card** window.
 
+Before sales documents are created in [!INCLUDE[prod_short](../includes/prod_short.md)] you can use the **Synch order from Shopify** action in the **Shopify Order** page to reimport specific order.
+
 ## Create sales documents in Business Central
 
 If the **Auto Create Orders** toggle is enabled on the **Shopify Shop Card**, [!INCLUDE[prod_short](../includes/prod_short.md)] tries to create a sales document after the order is imported. If issues such as a missing customer or product occur, you'll need to fix the problems and then create the sales order again.
@@ -148,6 +152,8 @@ If the **Auto Create Orders** toggle is enabled on the **Shopify Shop Card**, [!
 If the Shopify order requires fulfillment, a **Sales Order** is created. For fulfilled Shopify orders, such as those orders that contain only a gift card or which are already handled in Shopify, a **Sales Invoice** gets created.
 
 A sales document is now created and can be managed by using standard [!INCLUDE[prod_short](../includes/prod_short.md)] functionality.
+
+If you want to recreate sales document you can use the **Unlink Processed Documents** action in the **Shopify Order** page. Note that this action doesn't delete already created sales document and you need to process it manually.
 
 ### Manage missing customers
 
@@ -172,6 +178,8 @@ The next steps depend on the **Customer Mapping Type**.
 
 > [!NOTE]  
 > The connector uses information from the bill-to address and creates the bill-to customer in [!INCLUDE[prod_short](../includes/prod_short.md)]. The sell-to customer is the same as the bill-to customer.
+
+For B2B orders flow is the similar, though connector uses **Default Company No.**, **Company Import From Shopify**, **Company Mapping Type** fields  on the **Shopify Shop Card** page. Notice that there is no **Default Company No.** in the **Shopify Customer Template** as for B2B it is expected to have named customers.
 
 ### Different processing rules for orders
 
@@ -199,27 +207,32 @@ Each job queue will import and process orders within the defined filters and use
 
 In Shopify:
 
-|Edit|Impact for already imported order|Impact for order that gets imported for the first time|
+|Edit|Impact on Shopify Orders yet not processed in [!INCLUDE[prod_short](../includes/prod_short.md)] | Impact on Shopify Orders yet already processed in [!INCLUDE[prod_short](../includes/prod_short.md)] |
 |------|-----------|-----------|
-|Change the fulfillment location | Original location is in lines | Fulfillment location is synched to [!INCLUDE[prod_short](../includes/prod_short.md)].|
-|Edit an order and increase quantity| The order header and supplementary tables will be updated in [!INCLUDE[prod_short](../includes/prod_short.md)], lines won't.| Imported order will use new quantity|
-|Edit an order and decrease quantity| The order header and supplementary tables will be updated in [!INCLUDE[prod_short](../includes/prod_short.md)], lines won't.| Imported order will use the original quantity, the Fulfillable Quantity field will contain a new value.|
-|Edit an order and remove existing item | Order header  and supplementary tables will be updated in [!INCLUDE[prod_short](../includes/prod_short.md)], lines won't.| Removed item still will be imported, the Fulfillable Quantity field will contain zero. |
-|Edit an order and add new item | Order header will be updated, lines won't. | Original and added items will be imported. |
-|Process order: fulfill, update payment information | Order header will be updated, but the lines won't. |Change has no impact on how the order is imported.|
-|Cancel order | Order header will be updated, but the lines won't. |Canceled order is not imported |
+|Change the fulfillment location | Fulfillment location is synched to [!INCLUDE[prod_short](../includes/prod_short.md)]. | Fulfillment location is synched to [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Edit an order and increase quantity|Imported order will use new quantity.| Connector will detect change and mark orders. |
+|Edit an order and decrease quantity|Imported order will use new quantity. Shopify refund with 0 amount will be imported that can not be converted into Credit Memo.| Connector will detect change and mark orders. |
+|Edit an order and remove existing item |Removed item won't be imported. Shopify refund with 0 amount will be imported that can not be converted into Credit Memo.| Connector will detect change and mark orders. |
+|Edit an order and add new item | Original and added items will be imported. | Connector will detect change and mark orders. |
+|Process order: fulfill, update payment information | Order header will be updated. |Order header will be updated. The fulfillment won't be synchronized with Shopify.|
+|Cancel paid order | Order header will be updated, to be processed separatelly |Connector will detect change and mark orders. |
+|Cancel unpaid order | Removed item won't be imported. Shopify refund with 0 amount will be imported that can not be converted into Credit Memo. |Connector will detect change and mark orders. |
 
-As you can see, in some cases it might be reasonable to delete an edited order in [!INCLUDE[prod_short](../includes/prod_short.md)] and import it as new.
+In case order was already processed in [!INCLUDE[prod_short](../includes/prod_short.md)] connector will display the following error message: *The order has already been processed in Business Central, but an edition was received from Shopify. Changes were not propagated to the processed order in Business Central. Update the processed documents to match the received data from Shopify. If you wish to force the synchronization use the action "Sync order from Shopify" in the Shopify Order card page.*
+
+Depending on status of created sales document you can perform following actions:
+1. Delete created sales document
+2. Choose the **Unlink Processed Documents** action to reset the **Processed** indicator.
+3. Choose the **Synch order from Shopify** action to update individual order with recent data from Shopify.
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Edit|Impact|
 |------|-----------|
-|Change the location to another location, mapped to the Shopify Locations. Post shipment. | Order will be marked as fulfilled. Original location will be used. |
-|Change the location to another location, not mapped to the Shopify Locations. Post shipment. | The fulfillment won't be synchronized with Shopify. |
+|Change the location to another location. Post shipment. | Order will be marked as fulfilled. Fulfillment location from Shopify will be used. |
 |Decrease quantity. Post shipment. | The Shopify order will be marked as partially fulfilled. |
-|Increase quantity. Post shipment. | The fulfillment won't be synchronized with Shopify. |
-|Add a new item. Post shipment. | The Shopify order will be marked as fulfilled. Lines won't be updated. |
+|Increase quantity. Post shipment. | The fulfillment won't be synchronized with Shopify. Same if fulfilment was split in Shopify but processed as one line in [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|Add a new item. Post shipment. | The Shopify order will be marked as fulfilled. New lines won't be added. |
 
 ## Synchronize shipments to Shopify
 

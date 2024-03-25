@@ -465,7 +465,7 @@ ms.service: dynamics-365-business-central
 ## Financial analytics 
 ### [Financial analytics overview](bi.md)
 ### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
-### [Financial KPIs](bi-finance-kpis.md)
+<!-- ### [Financial KPIs](bi-finance-kpis.md) -->
 
 ### Financial reporting (Implementing financial statements and KPIs)
 #### [Prepare financial reporting](bi-how-work-account-schedule.md)
@@ -475,7 +475,7 @@ ms.service: dynamics-365-business-central
 #### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
 #### [Create analysis reports](bi-how-create-analysis-views-reports.md)
 
-### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
+<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
 
 ### Built-in finance analysis tools
 #### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)

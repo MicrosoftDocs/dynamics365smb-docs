@@ -59,7 +59,9 @@ In finance, the following KPIs are commonly used for monitoring your organizatio
 - Return on Equity
 - Return on Assets
 
-For more information, see [Financial KPIs in Business Central](bi-finance-kpis.md)
+<!-- Not ready to publish yet
+For more information, see [Financial KPIs in Business Central](bi-finance-kpis.md) 
+-->
 
 
 ## Using Financial reporting to produce financial statements and KPIs
@@ -108,7 +110,9 @@ Similarly, using the *Open in Excel* feature, you can open a list page such as G
 > [!TIP]
 > If your organization has configured OneDrive for system features, the Excel workbook is opened in your browser by using Excel for the web. 
 
-For more information on how to do ad-hoc analysis on ledgers, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md).
+<!-- Not ready yet
+For more information on how to do ad-hoc analysis on ledgers, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md). 
+-->
 
 
 ## Built-in reports for finance
@@ -126,7 +130,7 @@ Built-in reports come in two flavors: one designed for print (pdf) and one desig
 * [Built-in accounts receivable reports](receivables-reports.md)
 * [Built-in accounts payable reports](payables-reports.md)
 
-<!-- TODO: add when we have that article
+<!-- TODO: add when we have these articles
 * [Built-in Cost Accounting reports](cost-accounting-reports.md) 
 * [Built-in Cash Management reports](cost-accounting-reports.md) 
 * [Built-in Tax and VAT reports](tax-and-vat-reports.md) 
@@ -188,9 +192,9 @@ For more information, see [Analyzing Cash Flow in Your Company](finance-analyze-
 ## See also
 
 [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)   
-[Financial KPIs in Business Central](bi-finance-kpis.md)   
+<!-- [Financial KPIs in Business Central](bi-finance-kpis.md)    -->
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)   
-[Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)  
+<!-- [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)   -->
 [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
 [Built-in finance Excel reports](finance-analyze-excel.md)  
 [Built-in key finance reports](finance-reports.md)  

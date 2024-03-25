@@ -563,6 +563,8 @@ ms.service: dynamics-365-business-central
 
 ## Fixed assets
 ### [Fixed assets overview](fa-manage.md)
+### [Set up fixed assets](fa-setup.md)
+### [Depreciation methods](fa-depreciation-methods.md)
 ### [Fixed assets reports and analytics](fa-reports.md)
 ### [Acquire fixed assets](fa-how-acquire.md)
 ### [Maintain fixed assets](fa-how-maintain.md)
@@ -1595,7 +1597,6 @@ ms.service: dynamics-365-business-central
 #### [Set up fixed assets](fa-setup.md)
 #### [Set up general fixed assets information](fa-how-setup-general.md)
 #### [Set up fixed asset depreciation](fa-how-setup-depreciation.md)
-#### [Define depreciation methods](fa-depreciation-methods.md)
 #### [Set up user-defined depreciation methods](fa-how-setup-user-defined-depreciation-method.md)
 #### [Set up fixed asset insurance](fa-how-setup-insurance.md)
 #### [Set up fixed asset maintenance](fa-how-setup-maintenance.md)

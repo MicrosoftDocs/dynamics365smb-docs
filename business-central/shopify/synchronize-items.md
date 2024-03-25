@@ -127,7 +127,7 @@ The following table outlines the effects of the **Barcode** field.
 |Cost per item|**Unit Cost**|**Unit Cost**. The unit cost is only imported to newly created items, and it won't be updated in later synchronizations.|
 |SKU|Learn about SKUs under **SKU Mapping** in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify) section.|Learn about SKUs in the [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central) section.|
 |Barcode|**Item References** of the barcode type.|**Item References** of the barcode type.|
-|Inventory will be stocked at| Depends on Shopify Shop Locations. If **Business Central Fulfilment Services** has **Default** field enabled, inventory is stocked and shipped from **Business Central Fulfilment Services**. Otherwise, the Shopify primary location or multiple locations are used.| Not used.|
+|Inventory will be stocked at| Depends on Shopify Shop Locations. If **Business Central Fulfilment Services** has **Default Product Location** field enabled, inventory is stocked and shipped from **Business Central Fulfilment Services**. Otherwise, the Shopify primary location or multiple locations are used. Learn more in the [Two approached to manage fulfillments](synchronize-items.md#two-approaches-to-manage-fulfillments)| Not used.|
 |Track quantity|According to the **Inventory Tracked** field on the **Shopify Shop Card** page. Learn more in the [Inventory](synchronize-items.md#sync-inventory-to-shopify) section. Only used when you export a product for the first time.|Not used.|
 |Continue selling when out of stock|According to the **Default Inventory Policy** in the **Shopify Shop Card**.|Not used.|
 |Type|**Description** of **Item Category Code**. If the type isn't specified in Shopify, it's added as a custom type.|**Item Category Code**. Mapping by description.|
@@ -275,7 +275,7 @@ Inventory synchronization can be configured for already synchronized items. Ther
 4. Choose the **Get Shopify Locations** action to import all the locations defined in Shopify. You can find them in the [**Locations**](https://www.shopify.com/admin/settings/locations) settings in your **Shopify Admin**.
 5. In the **Location Filter** field, add locations if you want to include inventory from specific locations only. So, you could enter *EAST|WEST* to make the inventory from only these two locations available for sales via the online shop.
 6. Select the stock calculation method to use for the selected Shopify locations.
-7. Enable **Default** if you want location to be used for creation of Inventory records and participate in the inventory synchronization. 
+7. Enable **Default Product Location** if you want location to be used for creation of Inventory records and participate in the inventory synchronization. 
 
 You can initialize inventory synchronization in the two ways described below.
 
@@ -324,16 +324,16 @@ When you decide on which location to track item, Shopify creates records in the 
 Connector support both modes. It can send inventory to multiple Shopify locations or work as fulfillment service.
 
 From [!INCLUDE[prod_short](../includes/prod_short.md)] perspective when you create item and want to send it to Shopify you also want to:
-* use **Default** toggle to specify if this item will be fulfilled by Shopify fulfillment or by 3PL. There is always **Business Central Fulfillment Service**, but there can be more fulfillments services if more apps are installed. You can enable **Default** only in one record if you want to use fulfillment service. 
-* use **Default** toggle to specify which locations you want to use to track inventory. You can turn on **Default** for multiple locations where **Is Fulfillment Service** is disabled. Notice that inventory will be always tracked for primary location. 
+* use **Default Product Location** toggle to specify if this item will be fulfilled by Shopify fulfillment or by 3PL. There is always **Business Central Fulfillment Service**, but there can be more fulfillments services if more apps are installed. You can enable **Default Product Location** only in one record if you want to use fulfillment service. 
+* use **Default Product Location** toggle to specify which locations you want to use to track inventory. You can turn on **Default Product Location** for multiple locations where **Is Fulfillment Service** is disabled. Notice that inventory will be always tracked for primary location. 
  
 #### What is the difference?
 
-Shopify fulfilment is useful when using Shopify POS and there are multiple physical stores. You want employee in physical store to know their current inventory. In this case you create multiple locations in Shopify, multiple locations in [!INCLUDE[prod_short](../includes/prod_short.md)], activate **Default** for all these locations.  
+Shopify fulfilment is useful when using Shopify POS and there are multiple physical stores. You want employee in physical store to know their current inventory. In this case you create multiple locations in Shopify, multiple locations in [!INCLUDE[prod_short](../includes/prod_short.md)], activate **Default Product Location** for all these locations.  
 
 If logistic is handled in [!INCLUDE[prod_short](../includes/prod_short.md)] where can have as many locations as needed representing distribution centers, you don't create locations in Shopify, Shopify connector creates Business Central Fulfillment Services automatically and you can link inventory via Location Filters from several locations to one fulfilment services record. As result in Shopify there is no information about where goods are sent from, it only has information about  tracking. While in [!INCLUDE[prod_short](../includes/prod_short.md)] you can select based on availability and proximity to destination. 
 
-#### Example of using  of projected available balance
+#### Example of using Default Product Location toggle
 
 AFter you choose **Get Shopify Locations** you got following locations:
 

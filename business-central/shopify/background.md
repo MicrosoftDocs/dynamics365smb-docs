@@ -37,6 +37,7 @@ You can schedule the following recurring activities to be performed in an automa
 |**Sync inventory**|Report 30102 Sync stock to Shopify|
 |**Sync images**|Report 30107 Shopify sync images|
 |**Sync customers**|Report 30100 Shopify sync customers|
+|**Sync companies**|Report 30114 Shopify sync companies|
 |**Sync payments**|Report 30105 Shopify sync payments|
 
 > [!NOTE]

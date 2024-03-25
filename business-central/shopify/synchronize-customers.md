@@ -17,7 +17,17 @@ When you import an order from Shopify, getting the information about the custome
 * Use a special customer for all orders.
 * Import the actual customer information from Shopify. This option is also available when you export customers to Shopify from [!INCLUDE[prod_short](../includes/prod_short.md)] first.
 
-## Important settings when importing customers from Shopify
+Shopify allows you to run your B2B and DTC business from one place with the power and ease of Shopify's all-in-one platform. Shopify Connector also works with different flavors of e-Commerce.
+
+While Shopify uses two enities: customer and company, in [!INCLUDE[prod_short](../includes/prod_short.md) it is only Customer. That has impact on how synchornization works.
+
+If you run DTC, then the buyer will be created in Shopify as Customer, imported into [!INCLUDE[prod_short](../includes/prod_short.md) as Shopify Customer and linked or converted to Customer.
+
+If you run B2B, then the buyer will be created in Shopify as Customer linked to Company. Customer will be imported into [!INCLUDE[prod_short](../includes/prod_short.md) as Shopify Customer, Company will be imported into [!INCLUDE[prod_short](../includes/prod_short.md) as Shopify Company and linked or converted to Customer.
+
+To export Customer from [!INCLUDE[prod_short](../includes/prod_short.md) to Shopify you should use slightlty different steps if you want customer exported as Shopify Customer for DTC or if you want customer to be exported as pair Company and Customer for B2B flow.
+
+## Important settings when importing DTC customers from Shopify
 
 Whether you import customers from Shopify in bulk or when you import orders, use the following settings to manage the process:
 
@@ -43,7 +53,7 @@ You can do the following for each customer using the **Shopify Customer Template
 > [!NOTE]  
 > The country codes are ISO 3166-1 alpha-2 country codes. Learn more at [Country Code](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
-## Important settings when exporting customers to Shopify
+## Important settings when exporting DTC customers to Shopify
 
 You can export existing customers to Shopify in bulk. In each case, a customer and one default address are created. You can manage the process using the following settings:
 
@@ -85,7 +95,7 @@ A customer in Shopify also has a default address. The address might contain a co
 
 For addresses where the county/province is used, select **Code** or **Name** in the **County Source** field on the **Shopify Shop Card** page. The code or name specifies the type of data stored in [!INCLUDE[prod_short](../includes/prod_short.md)] in the **County** field. Remember to initialize customer templates per country/region so that the county code/name mapping is ready. 
 
-## Export customers to Shopify
+## Export DTC customers to Shopify
 
 ### Initial sync of customers from Business Central to Shopify
 
@@ -114,7 +124,7 @@ You can schedule the task to be performed in an automated manner. Learn more at 
 
 If you use B2B in Shopify, in addition to Customers you can also create Company. You can link one or more individual customers to company. Also it is possible to define payment terms, locations, catalogues.
 
-## Important settings when importing companies from Shopify
+## Important settings when importing B2B companies from Shopify
 
 Whether you import Companies from Shopify in bulk or when you import orders, use the following settings to manage the process:
 
@@ -126,7 +136,7 @@ Whether you import Companies from Shopify in bulk or when you import orders, use
 |**Auto Create Unknown Companies**| Select this field if you want the connector to create missing customers when the **By Email/Phone** option is selected in the **Company Mapping Type** field. A new customer will be created using imported data and the **Customer/Company Template Code** defined on the **Shopify Shop Card** or **Shopify Customer Template** pages.|
 |**Customer/Company Template Code**|This field is used together with **Auto Create Unknown Company**.<br>- Choose the default template to be used for automatically created customers. Make sure that the selected template contains the mandatory fields, such as the **Gen. Business Posting Group**, **Customer Posting Group**, and value-added tax (VAT)- or tax-related fields.<br>- You can define templates per country/region on the **Shopify Customer Templates** page, which is useful for proper tax calculation. <br>- Learn more at [Set up Taxes](setup-taxes.md).|
 
-## Important settings when exporting companies to Shopify
+## Important settings when exporting B2B companies to Shopify
 
 You can export existing customers to Shopify in bulk as Company. In each case, a company and one default location are created and one main contact. It is also possible to create catalog.
 
@@ -136,9 +146,9 @@ You can export existing customers to Shopify in bulk as Company. In each case, a
 |**Default Contact Permissions**| Specify which permissions must be assigned to main contact, you can choose between *None*, *Ordering only*, *Location admin*.|
 |**Auto Create Catalog**| Enable this option if you want to create catalog  that includes all products. Catalog will be created per each exported company.|
 
-## Export company to Shopify
+## Export B2B company to Shopify
 
-### Initial sync of customers from Business Central to Shopify
+### Initial sync of B2B companies from Business Central to Shopify
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Company**, and choose the related link.
 2. Choose the **Add Company** action.
@@ -151,7 +161,7 @@ The resulting company and customers are automatically created in Shopify.
 > [!NOTE]  
 > Initial sync of companies from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify doesn't consider **Can Update Shopify Company** settings.
 
-### Sync company
+### Sync B2B company
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify shop**, and then choose the related link.
 2. Select the specific shop for which you want to synchronize customers.

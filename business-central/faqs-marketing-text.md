@@ -80,7 +80,7 @@ For Microsoft to safeguard the service and its customers, it's not possible to o
 
 The marketing text suggestions capability collects the minimum data required by Business Central to offer the service. For more information, see [Dynamics 365 terms for Azure OpenAI-powered features](https://go.microsoft.com/fwlink/?linkid=2236010).
 
-The capability also collects data from the feedback user's can provide using the like (thumbs up) or dislike (thumbs down) icons at the top of the **Copilot** page. The data is anonymous and includes the choice of like ot dislike, the dislike reason if provided, and the Copit feature the feedback applies to. We use this data to evaluate and improve the quality of the capability.
+The capability also collects data from the feedback user's can provide using the like (thumbs up) or dislike (thumbs down) icons at the top of the **Copilot** page. The data is anonymous and includes the choice of like ot dislike, the dislike reason if provided, and the Copilot feature the feedback applies to. We use this data to evaluate and improve the quality of the capability.
 
 ## What are the limitations of [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? How can users minimize the impact of the [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] limitations when using the system?
 
@@ -88,7 +88,6 @@ The capability also collects data from the feedback user's can provide using the
 - [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
   Inaccurate responses might be returned when users interact with the system in languages other than the supported languages. Also, inaccurate text might be generated when the user's language and primary data language in the [!INCLUDE[prod_short](includes/prod_short.md)] database aren't identical.
-
 
 ## What operational factors and settings allow for effective and responsible use of the system?
 

@@ -111,6 +111,14 @@ You can't create a warehouse pick document from scratch. Picks are part of a wor
 
     > [!NOTE]
     > If you must pick or place the items for one line in more than one bin, for example because the designated bin is full, use the **Split Line** action on the **Lines** FastTab. The action creates a line for the remaining quantity to handle.
+        
+    You can sort the pick lines by various criteria, for example, by item, shelf number, or due date. Sorting can help optimize the put-away process, for example:
+
+    * If the Take and Place lines for each shipment line don't immediately follow one another, and you want them to, sort the lines by selecting **Item** in the **Sorting Method** field.  
+    * If bin rankings reflect the physical layout of the warehouse, use the **Bin Ranking** sorting method to organize the work by bin locations.
+
+  > [!NOTE]  
+  > Lines will be sorted by selected criteria in ascending order. If you sort by document, first sorting will be done by document type based on the **Warehouse Activity Source Document** enum. If you sort by ship-to, first sorting will be done by Desctination Type based on **Warehouse Destination Type** enum.
 
 4. After you pick and place the items in the shipping area or shipping bin, choose the **Register Pick** action.  
 

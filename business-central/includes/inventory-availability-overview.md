@@ -70,6 +70,7 @@ The **Avail. Qty. Excluding Shipment Bin** field shows the quantity that's avail
 * They're already picked for shipments.
 * They're in blocked item lots or serial numbers.
 * They're in blocked bins.
+* They're in dedicated bins.
 
 These quantities might be available, but you might not be able to pick them yet. They could still be in the receipt, storage, or quality-assurance areas. You can move them to the picking area by processing a put-away or movement worksheet.
 

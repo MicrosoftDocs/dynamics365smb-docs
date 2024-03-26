@@ -2033,6 +2033,9 @@ ms.service: dynamics-365-business-central
 ### [Configure Copilot and AI capabilities](enable-ai.md)
 ### [Copilot data movement across geographies](ai-copilot-data-movement.md)
 ### [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)
+## Analysis assist (preview)
+### [Analyze data in lists with Copilot](analysis-assist.md)
+### [FAQ for analysis assist](faqs-analysis-assist.md)
 ## Bank account reconciliation assist (preview)
 ### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 ### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
@@ -2048,6 +2051,7 @@ ms.service: dynamics-365-business-central
 ### [FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
+## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
 ## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
 ## [FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)

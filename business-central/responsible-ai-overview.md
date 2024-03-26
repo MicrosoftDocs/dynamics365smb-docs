@@ -18,6 +18,7 @@ ms.collection:
 
 [!INCLUDE[responsible-ai-features](includes/responsible-ai-features.md)]
 
+- [Analysis assist (preview)](faqs-analysis-assist.md)
 - [Bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
 - [Marketing text suggestions](faqs-marketing-text.md)
 - [Sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot)

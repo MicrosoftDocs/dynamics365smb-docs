@@ -172,6 +172,15 @@ The following illustration shows when the **Bin Code** field on the component li
 
 :::image type="content" source="media/binflow.png" alt-text="Overview of when and how the Bin Code field is filled in.":::
 
+## Make-to-Order (MTO) production components in an advanced warehouse configuration
+
+In scenarios where produced item consists of raw materials and semi-finished items with manufacturing policy set to *Make-to-order* the warehouse pick those semi-finished components will be added to the same production order with "Planning Level Code" filled in. It is expected that those semi-finished items produced for order will be available for consumption immidiatelly and won't require pick neither will be included into warehouse pick document.
+Created warehouse picks will only include raw materials for produced item and for semi-finished items.
+
+However if semi-finished items already available on stock the planning system suggests to consume those instead of producing whole quantity. For example produced item requires 5 semi-finised components, but 3 are already in stock. In this case 5 semi-finished item will be listed in the production order components, but only 2 will be produced in the same production order as separate production order line.
+Such setup is not compatible with warehouse pick and depending on frequency you either shall change manufacturing policy for such semi-finished items to *Make-to-stock* or manually split production order component line when you need to pick semi-finished items produced earlier.
+
+
 ## See also
 
 - [Manage Inventory](inventory-manage-inventory.md)  

@@ -1,7 +1,7 @@
 ---
 title: Run Tasks in the Background and Recurrently
 description: Configure synchronization of data between Business Central and Shopify in background.
-ms.date: 05/11/2022
+ms.date: 03/26/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -9,7 +9,7 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Run Tasks in the Background
+# Run tasks in the background
 
 It's efficient to run some tasks simultaneously and in an automated manner. You can perform such tasks in the background and can also set a schedule when you want those tasks to run automatically. To run tasks in the background, two modes are supported:
 
@@ -56,15 +56,14 @@ To learn more about posting sales orders in a batch, go to [To create a job queu
 
 ## To check the status of synchronization
 
-The **Business Manager Role Center** contains the **Shopify Activities** part with number of cues that help you quickly get idea if there are any issues with Shopify Connector.
+On the **Business Manager** Role Center, the **Shopify Activities** part offers several cues that can help you quickly identify whether there are issues with Shopify Connector.
 
-* **Unmapped Customers** - Shopify Customer imported, but it is not linked to corresponding customer entry in [!INCLUDE [prod_short](../includes/prod_short.md)].
-* **Unmapped Products** - Shopify Product imported, but it is not linked to corresponding item entry in [!INCLUDE [prod_short](../includes/prod_short.md)].
-* **Unprocessed Orders** - Shopify Orders imported, but sales document [!INCLUDE [prod_short](../includes/prod_short.md)] wasn't created, often because of unmapped products or cusotmers.
-* **Unprocessed Shipments** - posted sales shipments originated from Shopify Orders yet to be synchronized with Shopify. 
-* **Shipments Errors** - Shopify Connector could not synchronize posted sales shipments with Shopify.
-* **Synchronization Errors** - failed job queue entries related to synchronization with Shopify.
-
+* **Unmapped Customers** - Shopify customer is imported, but isn't linked to a corresponding customer entry in [!INCLUDE [prod_short](../includes/prod_short.md)].
+* **Unmapped Products** - Shopify product is imported, but isn't linked to a corresponding item entry in [!INCLUDE [prod_short](../includes/prod_short.md)].
+* **Unprocessed Orders** - Shopify orders are imported, but sales documents in [!INCLUDE [prod_short](../includes/prod_short.md)] weren't created, often because of unmapped products or customers.
+* **Unprocessed Shipments** - Posted sales shipments originated from Shopify orders aren't synchronized with Shopify.
+* **Shipments Errors** - Shopify Connector couldn't synchronize posted sales shipments with Shopify.
+* **Synchronization Errors** - There are failed job queue entries related to synchronization with Shopify.
 
 ## See also
 

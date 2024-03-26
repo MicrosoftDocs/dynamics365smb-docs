@@ -1,13 +1,13 @@
 ---
 title: Synchronize and fulfill sales orders
 description: Set up and run import and processing of sales orders from Shopify.
-ms.date: 06/06/2023
+ms.date: 03/25/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ---
 
 # Synchronize and fulfill sales orders
@@ -30,12 +30,12 @@ Enable **Auto Create Orders** to automatically create sales documents in [!INCLU
 
 If you want to automatically release a sales document, turn on the **Auto Release Sales Order** toggle.
 
-If you don't want to send automatic shipping confirmations to customers, turn off the **Send Shipping Confirmation** toggle. That can be useful if you sell digital goods or want to use alternative notification mechanism.
+If you don't want to send automatic shipping confirmations to customers, turn off the **Send Shipping Confirmation** toggle. Turning the toggle off can be useful if you sell digital goods or want to use another notification mechanism.
 
 If you select the **Shopify Order No. on Doc. Line** field, [!INCLUDE [prod_short](../includes/prod_short.md)] inserts sales lines of the type **Comment** with the Shopify order number.
 
->[!NOTE]
->The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add the **Shopify Order No.** field to the list or card pages for sales orders, invoices, and shipment. To learn more about adding a field, go to [Start personalizing by using the personalization mode](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
+> [!NOTE]
+> The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add the **Shopify Order No.** field to the list or card pages for sales orders, invoices, and shipment. To learn more about adding a field, go to [Start personalizing by using the personalization mode](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
 
 In the **Tax area priority** field, prioritize how to select a tax area code for addresses on orders. The Shopify order you import contains information about taxes. Taxes are recalculated when you create sales documents, so it's important that the VAT or tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. To learn more about taxes, go to [Set Up Taxes for the Shopify Connection](setup-taxes.md).
 
@@ -135,9 +135,9 @@ Once the import is completed, you can explore the Shopify order and find all rel
 > [!NOTE]  
 > You can navigate to the **Shopify Orders** window directly and you'll see orders with the *open* status from all shops. To review completed orders, you need to open the **Shopify Orders** page from the specific **Shopify Shop Card** window.
 
-Before sales documents are created in [!INCLUDE[prod_short](../includes/prod_short.md)] you can use the **Synch order from Shopify** action in the **Shopify Order** page to reimport specific order.
+Before sales documents are created in [!INCLUDE[prod_short](../includes/prod_short.md)], you can use the **Synch order from Shopify** action in the **Shopify Order** page to reimport specific orders.
 
-You can also mark order as paid, which is useful in B2B scenario when payments are processed outside Shopify checkout. Choose **Mark as Paid** action in the **Shopify Order** page. Also you can mark order as canceled and trigger refund flow in Shopify. Choose the **Cancel Order** action in the **Shopify Order** page, fill in fields as necessary in th **Shopify Cancel Order** page and press OK. You will need to run order synchronization to import updates into [!INCLUDE[prod_short](../includes/prod_short.md)].
+You can also mark an order as paid, which is useful in a B2B scenario where payments are processed outside Shopify checkout. Choose the **Mark as Paid** action on the **Shopify Order** page. Also, you can mark an order as canceled to start the refund flow in Shopify. Choose the **Cancel Order** action on the **Shopify Order** page, fill in the fields as necessary on the **Shopify Cancel Order** page, and press **OK**. You'll need to run order synchronization to import the updates to [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## Create sales documents in Business Central
 
@@ -153,17 +153,17 @@ If the **Auto Create Orders** toggle is enabled on the **Shopify Shop Card**, [!
 
 If the Shopify order requires fulfillment, a **Sales Order** is created. For fulfilled Shopify orders, such as those orders that contain only a gift card or which are already handled in Shopify, a **Sales Invoice** gets created.
 
-A sales document is now created and can be managed by using standard [!INCLUDE[prod_short](../includes/prod_short.md)] functionality.
+A sales document is created and can be managed by using standard [!INCLUDE[prod_short](../includes/prod_short.md)] functionality.
 
-If you want to recreate sales document you can use the **Unlink Processed Documents** action in the **Shopify Order** page. Note that this action doesn't delete already created sales document and you need to process it manually.
+If you want to recreate sales document, you can use the **Unlink Processed Documents** action in the **Shopify Order** page. Note that this action doesn't delete the already created sales document. You must process it manually.
 
 ### Manage missing customers
 
-If your settings prevent creating a customer automatically and a proper existing customer can't be found, you'll need to assign a customer to the Shopify order manually. There are a few ways to do this:
+If your settings prevent creating a customer automatically and a matching customer isn't found, you'll need to assign a customer to the Shopify order manually. There are a few ways to assign customers to orders:
 
-* You can assign the **Sell-to Customer No.** and **Bill-to Customer No.** directly on the **Shopify Orders** page by choosing a customer from the list of existing customers.
-* You can select a customer template code, then create, and assign the customer via the **Create new customer** action on the **Shopify Orders** page. Notice that the Shopify customer must have at least one address. Orders created via the Shopify POS sales channel are often missing address details.
-* You can map an existing customer to the related **Shopify Customer** in the **Shopify Customers** window and then choose the **Find Mapping** action on the **Shopify Orders** page.
+* Assign the **Sell-to Customer No.** and **Bill-to Customer No.** directly on the **Shopify Orders** page by choosing a customer from the list of existing customers.
+* Select a customer template, then create and assign the customer via the **Create new customer** action on the **Shopify Orders** page. The Shopify customer must have at least one address. Orders you create via the Shopify POS sales channel are often missing address details.
+* Map an existing customer to the related **Shopify Customer** on the **Shopify Customers** page, and then choose the **Find Mapping** action on the **Shopify Orders** page.
 
 ### How the connector chooses which customer to use
 

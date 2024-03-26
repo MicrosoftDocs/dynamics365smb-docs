@@ -73,7 +73,7 @@ If you don't use the **Data Exchange Definition** format, you can create and con
 
 ### Supported document types 
 
-Supported document types are based on the chosen **Document Format**. To check which document types are supported, on the **E-Document Service** page, run the **Supported Document Types** action. The **E-Document Service Supported Source Document Types** opens and in the **Source Document Type** column, you can find all the supported document types.  
+Supported document types are based on the chosen **Document Format**. To check which document types are supported, on the **E-Document Service** page, run the **Supported Document Types** action. The **E-Document Service Supported Source Document Types** opens and in the **Source Document Type** column, you can choose different document types to make them as supported for the format you are planning to use. Keep in mind you cannot use the document typoe if this document is not selecvted in this page.   
 
 ## Set up a document sending profile
 
@@ -129,6 +129,21 @@ To set up e-document-related retention policies, follow these steps.
     - E-Document Integration Log
     - E-Document Mapping Log
     - E-Document Data Storage
+
+## E-Documents Demo Data  
+
+> [!NOTE]
+> From Business Central version 24.0, it is possible to set up demo data for E-Documents.
+
+To provide easier ways of testing and demonstrating capabilities of **E-Documents**, Microsoft created a new demo module for electronic documents. To enable this module, follow the next steps:  
+
+1.	Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contoso Demo Tool**, and then select the related link.  
+2.	Before enabling the **E-Document Contoso Module**, because of dependencies you must have enabled following modules: **Common Module** and **Warehouse Module**. 
+3.	After enabling these modules, select the **E-Documents Contoso Module** and run the **Generate** action. 
+4.	Follow the steps.  
+5.	Close the page.   
+
+Once you have an enabled module, you will have created new demo items, imported six electronic documents (based on Peppol BIS 3), and already configured **E-Document Service** with created workflows.  
 
 ## See also
 

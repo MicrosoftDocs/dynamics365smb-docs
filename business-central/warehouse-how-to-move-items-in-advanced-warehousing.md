@@ -118,9 +118,12 @@ The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Inter
 3. If required, enter your user ID when you start work on a put-away.  
 
     To optimize the put-away process, you can sort the put-away lines by various criteria. For example, by item, shelf number, or due date.
-
+   
     * If the Take and Place lines for each receipt line don't immediately follow one another, and you want them to, sort the lines by selecting **Item** in the **Sorting Method** field.  
-    * If the bin rankings reflect the physical layout of the warehouse, use the **Bin Ranking** sorting method to organize the work around the bin locations.  
+    * If the bin rankings reflect the physical layout of the warehouse, use the **Bin Ranking** sorting method to organize the work around the bin locations.
+
+  > [!NOTE]  
+  > Lines will be sorted by selected criteria in ascending order. If you sort by document, first sorting will be done by document type based on the **Warehouse Activity Source Document** enum. If you sort by ship-to, first sorting will be done by Desctination Type based on **Warehouse Destination Type** enum.
 
 4. Perform the put-away.
 

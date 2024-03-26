@@ -19,13 +19,16 @@ When you import an order from Shopify, getting the information about the custome
 
 Shopify allows you to run your B2B and DTC business from one place with the power and ease of Shopify's all-in-one platform. Shopify Connector also works with different flavors of e-Commerce.
 
-While Shopify has two entities, customer and company, in [!INCLUDE[prod_short](../includes/prod_short.md)] it it's only customer, which affects how synchronization works.
+While Shopify has two entities, customer and company, but [!INCLUDE[prod_short](../includes/prod_short.md)] has only the customer entity, which affects how synchronization works.
 
-If you run DTC, the buyer is created in Shopify as a customer, imported into [!INCLUDE[prod_short](../includes/prod_short.md)] as a Shopify customer and linked or converted to a customer.
+When you run DTC, the buyer is created in Shopify as a customer. THe customer is then imported to [!INCLUDE[prod_short](../includes/prod_short.md)] as a Shopify customer, and linked or converted to a customer.
 
 If you run B2B, the buyer is created in Shopify as a customer linked to a company. The customer is imported to [!INCLUDE[prod_short](../includes/prod_short.md)] as a Shopify customer, and the company is imported to [!INCLUDE[prod_short](../includes/prod_short.md)] as a Shopify company and linked or converted to a customer.
 
-To export a customer from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify, the steps are slightly different if you want to export a customer as a Shopify customer for DTC, or export a customer as a company and customer pair for the B2B flow.
+To export a customer from [!INCLUDE[prod_short](../includes/prod_short.md)] to Shopify, the steps are slightly different depending on what you want to do:
+
+* Export a customer as a Shopify customer for DTC.
+* Export a customer as a company and customer pair for the B2B flow.
 
 ## Important settings when importing DTC customers from Shopify
 
@@ -36,8 +39,8 @@ Whether you import customers from Shopify in bulk or when you import orders, use
 |**Customer Import from Shopify**|Select **All Customers** if you plan to import customers from Shopify in bulk; either manually using the **Sync Customers** action or via the job queue for recurring updates. Regardless of the selection, the customer information will always be imported together with the order. However, the use of this information depends on the **Shopify Customer Templates** and settings in the **Customer Mapping Type** field.|
 |**Customer Mapping Type**|Define how you want the connector to perform the mapping.</br></br>- **By Email/Phone** if you want the connector to use email account and telephone information to map the imported Shopify customer to a customer in Business Central.</br></br>- **By Bill-to Info** if you want the connector to use the address of the invoice recipient to map the imported Shopify customer to an existing customer in Business Central.</br></br>Select **Always Take the Default Customer** if you want the system to use a customer from the **Default Customer No.** field. |
 |**Shopify Can Update Customers**| Select this field if you want the connector to update the customers it finds when either of the **By Email/Phone** or **By Bill-to Info** options are selected in the **Customer Mapping Type** field.|
-|**Auto Create Unknown Customers**| Select this field if you want the connector to create missing customers when the **By Email/Phone** or **By Bill-to Info** options are selected in the **Customer Mapping Type** field. A new customer will be created using imported data and the **Customer Template Code** defined on the **Shopify Shop Card** or **Shopify Customer Template** pages. Notice that the Shopify customer must have at least one address. Orders created via Shopify POS sales channel are often missing address details. If this option isn't enabled, you'll need to create a customer manually and link it to the Shopify customer.|
-|**Customer.Company Template Code**|Use this field together with **Auto Create Unknown Customers**.</br></br>Choose the default template to use for automatically created customers. Make sure that the selected template contains the mandatory fields, such as the **Gen. Business Posting Group**, **Customer Posting Group**, and value-added tax (VAT) or tax-related fields.</br></br>You can define templates per country/region on the **Shopify Customer Templates** page, which helps calculate taxes correctly.</br></br>Learn more at [Set up Taxes](setup-taxes.md).|
+|**Auto Create Unknown Customers**| Select this field if you want the connector to create missing customers when the **By Email/Phone** or **By Bill-to Info** options are selected in the **Customer Mapping Type** field. A new customer is created using imported data and the **Customer Template Code** defined on the **Shopify Shop Card** or **Shopify Customer Template** pages. Notice that the Shopify customer must have at least one address. Orders created via Shopify POS sales channel are often missing address details. If this option isn't enabled, you must create a customer manually and link it to the Shopify customer.|
+|**Customer.Company Template Code**|Use this field together with **Auto Create Unknown Customers**.</br></br> Choose the default template to use for automatically created customers. Make sure that the selected template contains the mandatory fields, such as the **Gen. Business Posting Group**, **Customer Posting Group**, and value-added tax (VAT) or tax-related fields.</br></br>You can define templates per country/region on the **Shopify Customer Templates** page, which helps calculate taxes correctly.</br></br>Learn more at [Set up Taxes](setup-taxes.md).|
 
 ### Customer template per country/region
 
@@ -74,7 +77,7 @@ The following are requirements for exporting a customer:
   * (xxx)xxx-xxxx
   * +x xxx-xxx-xxxx
 
-After you've created the customers in Shopify, you can send them direct invitations to encourage them to activate their accounts.
+After you create the customers in Shopify, you can send them direct invitations to encourage them to activate their accounts.
 
 ### Populate customer information in Shopify
 
@@ -101,7 +104,7 @@ For addresses where the county/province is used, select **Code** or **Name** in 
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Customers**, and choose the related link.
 2. Choose the **Add Customer** action.
-3. In the **Shop Code** field, enter the code. If you open the **Shopify Customers** window from the **Shop Card** page, the shop code will be populated automatically.
+3. In the **Shop Code** field, enter the code. If you open the **Shopify Customers** window from the **Shop Card** page, the shop code is populated automatically.
 4. Define filters on customer as required. For example, you can filter by Country/Region code.
 5. Choose **OK**.
 
@@ -122,7 +125,7 @@ You can schedule the task to be performed in an automated manner. Learn more at 
 
 ## B2B Companies
 
-If you use B2B in Shopify, in addition to customers you can also create companies. You can link one or more individual customers to a company. You can also define payment terms, locations, and catalogues.
+If you use B2B in Shopify, in addition to customers you can also create companies. You can link one or more individual customers to a company. You can also define payment terms, locations, and catalogs.
 
 ## Important settings when importing B2B companies from Shopify
 
@@ -157,7 +160,7 @@ You can export existing customers to Shopify in bulk as a company. In each case,
 
 1. Go to the search ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Company**, and choose the related link.
 2. Choose the **Add Company** action.
-3. In the **Shop Code** field, enter the code. If you open the **Shopify Company** window from the **Shop Card** page, the shop code will be populated automatically.
+3. In the **Shop Code** field, enter the code. If you open the **Shopify Company** window from the **Shop Card** page, the shop code is populated automatically.
 4. Define filters on customer as required. For example, you can filter by Country/Region code.
 5. Choose **OK**.
 

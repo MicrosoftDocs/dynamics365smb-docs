@@ -133,7 +133,7 @@ The **Shopify Order to Import** page is useful for troubleshooting order import 
 Once the import is completed, you can explore the Shopify order and find all related information, such as the payment transactions, shipping costs, risk level, order attributes and tags, or fulfillments, if the order was already fulfilled in Shopify. You can also see any order confirmation that has been sent to the customer by choosing the **Shopify Status Page** action.
 
 > [!NOTE]  
-> You can navigate to the **Shopify Orders** window directly and you'll see orders with the *open* status from all shops. To review completed orders, you need to open the **Shopify Orders** page from the specific **Shopify Shop Card** window.
+> You can navigate to the **Shopify Orders** window directly and you'll see orders with the *open* status from all shops. To review completed orders, you need to open the **Shopify Orders** page from the specific **Shopify Shop Card** page.
 
 Before sales documents are created in [!INCLUDE[prod_short](../includes/prod_short.md)], you can use the **Synch order from Shopify** action in the **Shopify Order** page to reimport specific orders.
 

@@ -1,7 +1,7 @@
 ---
 title: Responsible AI FAQs for Dynamics 365 Business Central
 description: Responsible AI FAQs provide information about the AI technology used in  Business Central, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 10/29/2023
+ms.date: 01/10/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -20,6 +20,7 @@ ms.collection:
 
 - [Analysis assist (preview)](faqs-analysis-assist.md)
 - [Bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
+- [Chat with Copilot](faqs-chat-with-copilot.md)
 - [Marketing text suggestions](faqs-marketing-text.md)
-- [Sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot)
+- [Sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
 - [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)

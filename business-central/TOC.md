@@ -139,6 +139,7 @@ ms.service: dynamics-365-business-central
 ## Get productive in Business Central
 ### [General functionality overview](ui-work-product.md)
 ### [Print-friendly cheat sheet](ui-work-product.md#cheatsheet)
+### [Chat with Copilot](chat-with-copilot.md)
 ### [Find pages and information with Tell Me](ui-search.md)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Search for specific data](ui-search-data.md)
@@ -201,6 +202,7 @@ ms.service: dynamics-365-business-central
 ### [Intelligent insights (online only)](about-intelligent-cloud.md)
 ## Frequently Asked Questions
 ### [Frequently Asked Questions](across-faq.yml)
+### [Chat with Copliot FAQ](chat-with-copilot-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Search and filter FAQ](ui-search-filter-faq.yml)
 ### [List views FAQ](ui-views-faq.yml)
@@ -2039,6 +2041,10 @@ ms.service: dynamics-365-business-central
 ## Bank account reconciliation assist (preview)
 ### [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
 ### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
+## Chat with Copilot (preview)
+### [Chat with Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+### [FAQ for chat with Copilot (preview)](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
+### [Repsonsible AI FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)
@@ -2053,6 +2059,7 @@ ms.service: dynamics-365-business-central
 ## [Overview](responsible-ai-overview.md)
 ## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
 ## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
+## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
 ## [FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
 ## [FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)

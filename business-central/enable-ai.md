@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 10/29/2023
+ms.date: 02/27/2024
 ms.custom: bap-template
 ms.search.form: 7775
 ms.collection:
@@ -26,16 +26,20 @@ This article explains how to control Copilot and other AI capabilities in Busine
 
 - Activate the feature on the **Copilot & AI Capabilities** page. [Learn more](#activate-features)
 
+<!-- For 2024 there are no AI features governed by **Feature Management**, so this section is not shown
+- Enable the specific feature if it's governed by **Feature Management**.
+
+  Check whether  of 2024 release wave 1, chat with Copilot, marketing text suggestions, and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)
 <!-- 
 - Enable the specific feature, if it's still governed by **Feature Management**.
 
   In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)-->
 
-If any of these requirements aren't fulfilled, the feature isn't available for use.
+If any of these requirements aren't fulfilled, the feature isn't available for use.-->
 
 ## Prerequisites
 
-- You're using Business Central online, version 23.1 or later. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
+- You're using Business Central online <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
 - You have admin or super permissions in Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
 ## Allow data movement across geographies
@@ -90,6 +94,7 @@ All Copilot and AI capabilities are active by default when they're made availabl
 
 <!-- don't review 
 
+<!-- For 2024 there are no AI features governed by **Feature Management**, so this section is not shown
 ## Enable feature in Feature Management
 
 When individual Copilot capabilities are released in Business Central minor updates, these capabilities are optional until the next major update. **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like marketing text suggestions. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -98,13 +103,14 @@ When individual Copilot capabilities are released in Business Central minor upda
 2. To enable a feature, set the **Enabled for** column to **All users**. To disable a feature, set the **Enabled for** column to **None**. Use the following table to help you determine the switch that applies to the Copilot and AI capability you want to enable:
 
    - **Feature Preview: Bank account reconciliation with Copilot** enables the bank account reconciliation assist feature.
+   - **Feature Preview: Chat with Copilot** enables the chat with Copilot feature.
    - **Feature preview: Create AI-powered product descriptions with Copilot** enables the marketing text suggestions feature.
 
    For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).-->
 
 ## Granting user access
 
-Copilot and AI capabilities may offer functionality intended for any users across your organization or for specific user roles. Most Copilot and AI capabilities offer access control using permissions and permission sets in Business Central´s permission management system. [Learn more about permissions and permission sets](ui-define-granular-permissions.md).
+Copilot and AI capabilities can offer functionality intended for any users across your organization or for specific user roles. Most Copilot and AI capabilities offer access control using permissions and permission sets in Business Central´s permission management system. [Learn more about permissions and permission sets](ui-define-granular-permissions.md).
 
 The following table lists the permissions required to use Copilot features provided by Business Central.
 
@@ -121,12 +127,16 @@ To grant or deny access to specific non-Microsoft copilot and AI capabilities, c
 
 After you enable and consent to the features, you're ready to try them out. Go to:
 
-- [Analyze data in analysis mode with Copilot](analysis-assist.md)  
 - [Add marketing text to items](item-marketing-text.md)
+- [Analyze data in analysis mode with Copilot](analysis-assist.md)  
+- [Chat with Copilot](chat-with-copilot.md)
 - [Reconcile using bank account reconciliation assist](bank-reconciliation-with-copilot.md)
 
 ## See also
 
 [Troubleshoot Copilot and AI capabilities](ai-copilot-troubleshooting.md)  
-[Marketing text suggestions overview](ai-overview.md)  
+[FAQ for analysis assist](faqs-analysis-assist.md)  
+[FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)  
+[FAQ for chat with Copilot](faqs-chat-with-copilot.md)  
 [FAQ for marketing text suggestions](faqs-marketing-text.md)  
+[Marketing text suggestions overview](ai-overview.md)  

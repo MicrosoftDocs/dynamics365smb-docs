@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: bholtorf
-ms.date: 09/28/2023
+ms.date: 02/27/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -17,9 +17,20 @@ ms.service: dynamics-365-business-central
 
 Organizations that use [!INCLUDE[prod_long](includes/prod_long.md)] can get technical support for any issues that they may experience. In this article, we show you the following information and many other tips for how to use [!INCLUDE[prod_short](includes/prod_short.md)]:
 
+- Learn how your AI-powered assistant [can guide and explain](#chat-with-copilot)
 - Learn how to [get unblocked](#in-product-tips)  
-- Learn where to [learn more](#help-pane)    
-- Learn how to find [the technical information](#help--support-page) you need to submit a support request    
+- Learn where to [learn more](#help-pane)
+- Learn how to find [the technical information](#help--support-page) you need to submit a support request
+
+## Chat with Copilot
+
+[!INCLUDE [online_only](includes/online_only.md)]
+
+Chat with Copilot is an AI-powered tool that answers questions and finds business data related to Business Central. It's available from any page by selecting the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon in the upper-right corner. [Learn more about chat with Copilot](chat-with-copilot.md).
+
+### Help with fields
+
+Copilot can help you understand the purpose and typical use of individual fields. When you choose **Ask Copilot** in a tooltip for a field, chat opens with an Explain prompt for the field name and Copilot provides information about it. Copilot links to the articles it referenced, so it's easy to verify the description.
 
 ## In-product tips
 
@@ -35,14 +46,9 @@ In [!INCLUDE [prod_short](includes/prod_short.md)], the Help menu item (the ques
 
 The following list describes how you can access the Help pane and whether cards are added to it:
 
-- Choose the *Learn more* link on a tooltip for a field
-
-  The following card is added to the Help pane:
-
-  - The field's tooltip
-- Choose the *Learn more* link on a tooltip for an action
 - Choose the Help menu item (the question mark in the top-right corner)
-- Use the <kbd>Ctrl</kbd>+<kbd>F1</kbd> keyboard shortcut from anywhere
+- Use the <kbd>Ctrl</kbd>+<kbd>F1</kbd> keyboard shortcut from anywhe
+- Choose the *Learn more* link on a tooltip for a field, if available. The *Learn more* link is only available in the mobile app or on custom fields (that is, fields from non-Mocrosoft extensions) in the web client.
 
 > [!TIP]
 > When you choose a link, the target article opens in a new browser tab. You can choose to un-dock the browser tab, then, so that you can view the relevant information side-by-side with [!INCLUDE [prod_short](includes/prod_short.md)]. The pane remains open while you navigate through [!INCLUDE [prod_short](includes/prod_short.md)] so that content you searched for remains visible.  

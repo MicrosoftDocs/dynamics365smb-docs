@@ -76,6 +76,22 @@ These quantities might be available, but you might not be able to pick them yet.
 
 The difference between **Avail. Qty. Excluding Shipment Bin** and reserved quantity in warehouse is the quantity available for picking without impacting reserved stock.
 
+The following immage illustrates the allocation of avalable quantity for reserved quanity.
+
+:::image type="content" source="../media/Warehouse_Reservation_Pick.png" alt-text="Maximum quantity considered for picking when reservation involved.":::
+
+**Legend**
+
+|Letter  |Description  |
+|---------|---------|
+|P     |Quantity to pick         |
+|TR    |Total Reserved Qty. in Warehouse.  ​       |
+|RS    |Reserved quantities that are already picked and are ready for shipment, usage, or consumption       |
+|A     |Avail. Qty. Excluding Shipment Bin​         |
+|B     |quantity in Dedicated or Blocked bins, blocked item lots or serial numbers         |
+
+While there is enough available quantity in warehouse to satisfy pick completely it will lead to fact that total reserved quantity will be allocated against quantity in dedicated or blocked bins which will prevent picking for this demand. As reserved demand has higher priority system will reduce quantity to pick to prevent negative impact, such as inability to pick, on reserved demand.
+
 ### Other details
 
 If items require item tracking, you can also find the quantity in blocked lots or serial numbers, which causes the following reductions:

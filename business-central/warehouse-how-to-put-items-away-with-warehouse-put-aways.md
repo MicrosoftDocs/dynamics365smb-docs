@@ -103,6 +103,9 @@ If a location uses both put-away processing and receive processing and you have 
     * If the Take and Place lines for each receipt line don't immediately follow one another, and you want them to, sort the lines by selecting **Item** in the **Sorting Method** field.  
     * If bin rankings reflect the physical layout of the warehouse, use the **Bin Ranking** sorting method to organize the work by bin locations.
 
+  > [!NOTE]  
+  > Lines will be sorted by selected criteria in ascending order. If you sort by document, first sorting will be done by document type based on the **Warehouse Activity Source Document** enum. If you sort by ship-to, first sorting will be done by Desctination Type based on **Warehouse Destination Type** enum.
+
 4. Perform the actions.
 
     If a bin code is mandatory for the locations, each receipt line becomes at least two lines in the warehouse put-away, as follows.  

@@ -38,7 +38,7 @@ Complete these steps to get started analyzing data using the analysis mode.
 
    For example, to work with **Customer Ledger Entries** page, select the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png) icon (<kbd>Alt</kbd>+<kbd>Q</kbd>), enter *customer ledger entries*, and then choose the related link. 
 
-2. In the action bar at the top of the page, turn on the **Analyze** toggle switch.
+2. In the action bar at the top of the page, select on the **Enter analysis mode** ![Shows the button for turning on analysis mode](media/analysis-mode-icon.png) button.
 
     Data analysis mode opens the data in an experience that's optimized for data analysis.  While in data analysis mode, the normal action bar is replaced with a special data analysis mode bar. The following figure illustrates the different areas of a page in the data analysis mode.
 
@@ -48,7 +48,7 @@ Complete these steps to get started analyzing data using the analysis mode.
 
 3. Use the different areas to manipulate, summarize and analyze data. See the sections that follow for details.
 
-4. When you want to exit the analyze mode, turn off the **Analyze** toggle switch.
+4. When you want to exit the analyze mode, select the **Leave analysis mode** ![Shows the button for turning off analysis mode](media/analysis-mode-exit.png) button
 
    The analysis tabs that you've added remain until you delete them. So if you return to the data analysis mode again, you see them exactly as you left them.
 

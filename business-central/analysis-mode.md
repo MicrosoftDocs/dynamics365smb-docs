@@ -42,7 +42,7 @@ Complete these steps to get started analyzing data using the analysis mode.
 
     Data analysis mode opens the data in an experience that's optimized for data analysis.  While in data analysis mode, the normal action bar is replaced with a special data analysis mode bar. The following figure illustrates the different areas of a page in the data analysis mode.
 
-   [![Shows an overview of a page on the data analysis mode](media/analysis-mode-overview-2.png)](media/analysis-mode-overview-2.png#lightbox)
+   [![Shows an overview of a page on the data analysis mode](media/analysis-mode-overview-3.png)](media/analysis-mode-overview-3.png#lightbox)
 
    Each area is explained in the sections that follow.
 

@@ -15,6 +15,7 @@ ms.service: dynamics-365-business-central
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. Think of KPIs as your company’s scorecard, a way of measuring whether or not you’re delivering on your objectives.
 
 ## Why KPIs matter
+
 Identifying and tracking KPIs lets you know if your business is on the right path—or if you should change course to avoid losing valuable time and money. When used properly, KPIs are powerful tools that help you:
 
 - Monitor company financial health.
@@ -24,7 +25,7 @@ Identifying and tracking KPIs lets you know if your business is on the right pat
 - Motivate team members.
 - Make better decisions, faster.
 
-## Get started identifying your KPIs 
+## Get started identifying your KPIs
 
 So how do you begin to identify the KPIs that are important to your business? Start by clarifying your strategic objectives—collectively or by department.
 
@@ -33,7 +34,6 @@ These goals will help you identify which KPIs matter for your company. Picking K
 Next, identify the KPI targets that you’re working toward, and how they’ll be measured. Keep in mind that these could be both short- and long-term targets.
 
 Talk to your team and encourage open dialogue about the KPIs and their targets. Are they too aggressive? Too easy? Targets should be challenging, but if they’re too far-fetched or rely entirely on metrics that your team doesn’t control, it would be wise to revisit. You’ll also want to explore the activities and tactics your company will use to achieve those targets. Lastly, take time to evaluate where you are today—this will be your KPI starting point.
-
 
 ## Get to know the different types of KPIs
 
@@ -46,7 +46,6 @@ Identifying which KPIs you should track becomes easier when you have a better un
 - Leading and lagging KPIs are commonly used together. Along with quantitative and qualitative KPIs, they’re a good place to start.
 
 For each KPI that you choose to track, assign an owner and agree on tracking frequency. Whatever KPIs you decide to track, using a KPI platform or tool is key for collaborating with your team on KPI definitions. By collectively defining each KPI, then capturing contextual data and unifying it into a single view, you enable spot-on, real-time actions.
-
 
 ## KPI reporting
 
@@ -69,28 +68,29 @@ Additional considerations for creating your KPI reports include:
 - Presenting only the relevant KPIs so you don’t overload the report with KPIs that don’t map back to the reporting - goals.
 - Making sure your reporting is clear, easy to understand, and actionable for the intended audience.
 
-## Tools for implementing KPIs in [!INCLUDE[prod_short](includes/prod_short.md)]
+## Tools for implementing KPIs
 
-The following table covers topics related to using different business intelligence and reporting tools with [!INCLUDE[prod_short](includes/prod_short.md)] data to implement KPIs.
+The following table links to articles about how to use business intelligence and reporting tools with [!INCLUDE[prod_short](includes/prod_short.md)] data to implement KPIs.
 
 | To  | See |
 | --- | --- |
-| Use the Financial Reporting feature to produce financial statements and KPIs | [Using Financial reporting to produce financial statements and KPIs](bi.md) |
-| Use Power BI to produce KPI dashboards | [Work with Power BI reports](across-working-with-powerbi.md) | 
+| Use the Financial Reports feature to produce financial statements and KPIs. | [Using financial reporting to produce financial statements and KPIs](bi.md) |
+| Use Power BI to produce KPI dashboards. | [Work with Power BI reports](across-working-with-powerbi.md) | 
 | [Analyze financial statements with Microsoft Excel](finance-analyze-excel.md) |
 | Integrate external business intelligence tools with [!INCLUDE[prod_short](includes/prod_short.md)].| [External Business Intelligence Tools](reports-external-analysis.md) |
-
 
 ## KPI best practices
 
 To help you successfully harness the power of KPIs, we’ve compiled a few tips to get you started.
 
 Identifying KPIs:
+
 - Only pick KPIs that are aligned to your specific goals. If your objectives aren’t clear, matching KPIs against them will prove complicated.
 - Use different KPIs for the same goals if they stretch across departments—for example, the marketing department will have different KPIs than the sales team.
 - Make sure that for whatever KPIs you pick, there’s a core team responsible for defining them.
 
 Monitoring KPIs:
+
 - Explore the different dashboards, visualization charts, and templates available in your KPI tool or platform to select the right ones for your goals.
 - Make sure to include starting data for comparison, so that your dashboard shows a true representation of company performance and progress over time.
 - Determine a cadence for monitoring and acting on KPIs. Are KPI dashboards monitored daily or weekly? Do actions only come after reporting or are stakeholders and/or team members empowered to adjust tactics along the way?
@@ -99,12 +99,12 @@ Monitoring KPIs:
 ## Common KPI mistakes
 
 Avoid these common KPI mistakes:
+
 - Selecting KPIs that aren’t key to your strategic goals. While it’s smart to track your relevant business metrics, not all of your metrics are worthy of KPI status.
 - Adopting poorly defined or vague KPIs. Collaborate with your team to define the KPIs with specific details on how they’ll be measured. If you don’t, you’ll struggle to meet your goals.
 - Setting lofty or unrealistic KPI targets. It’s better to set more realistic targets based on historical data, resources, and current tactics. Consider focusing on a specific timeframe or set short- and long-term targets.
 - Tracking KPIs without owners. Accountability matters, not just for the results but also for the process. Each KPI should have an owner responsible for monitoring, reporting, analysis, and action.
 - Failing to take action on your KPIs. Whether you’re meeting your goals or falling behind, KPIs are tools to help you make better decisions. So don’t track just for tracking’s sake—take action.
-
 
 ## See also
 

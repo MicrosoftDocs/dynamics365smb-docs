@@ -13,42 +13,42 @@ ms.service: dynamics-365-business-central
 
 # Analytics, business intelligence, and reporting overview
 
-Small and mid-sized companies rely on built-in analytics and reporting capabilities they can use out-of-the-box to help keep track of their business. [!INCLUDE[prod_short](includes/prod_short.md)] supports common business processes as well as more complex processes for such organizations. Each of these processes includes reports and analytics tools. You can also do ad-hoc analysis directly from your home page.  
+Small and mid-sized companies rely on built-in analytics and reporting capabilities they can use out-of-the-box to help keep track of their business. [!INCLUDE[prod_short](includes/prod_short.md)] provides reports and analytics tools that cover basic and complex business processes for such organizations. You can also do ad-hoc analyses directly from your home page.  
 
 ## Analytics needs in organizations
 
-When thinking of analytics needs in organizations, it might help to use a mental model based on  personas described on a high-level and their different analytics needs.
+When you think about analytics needs in organizations, it might help to use a mental model based on personas described on a high-level, and their different analytics needs.
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg" alt-text="Illustration of different personas for analytics" lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg":::
 
-The model is based on the observation that different roles in an organization have different needs when it comes to data: the higher the role is placed in the org chart, the more data needs to be aggregated for them to do their work. 
+The model is based on the fact that different roles in an organization have different needs when it comes to data. The higher a role is placed in the organizational chart, the more aggregated data someone in the role needs to do their work.
 
-Each of the roles has some preferred/typical ways to consume/analyze data, ways that reflect the level of data aggregation needed in their role as shown in this illustration and table.
+Roles often have preferred ways to consume and analyze data, ways that reflect the level of data aggregation they need.
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg" alt-text="Illustration of how different personas have different analytics needs." lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg":::
 
-In the paragraphs below, you can learn more about each of the ways to consume data from [!INCLUDE[prod_short](includes/prod_short.md)]
+Use the following sections to learn more about ways to consume data from [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Financial Reporting
+- Financial Reports
 - KPIs and dashboards
 - Ad-hoc analysis
 - Reports
 
-## Using Financial reporting to produce financial statements and KPIs
+## Using Financial Reports to produce financial statements and KPIs
 
-The *Financial reporting* feature in [!INCLUDE[prod_short](includes/prod_short.md)] gives you insight into the financial data stored in your chart of accounts (COA). You can setup financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. 
+The Financial Reports feature gives you insight into the financial data stored in your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries.
 
 :::image type="content" source="media/acc_schedule_13_columns.jpg" alt-text="Screenshot of a financial report." lightbox="media/acc_schedule_13_columns.jpg":::
 
-Using the **Dimensions** functionality in [!INCLUDE[prod_short](includes/prod_short.md)] plays an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. As such, you can use it to group entries that have similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Among other purposes, you use dimensions when defining analysis views and creating financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
+Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Among other purposes, you use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
 
-For more information about financial statements and KPIs, see [Using Financial reporting to produce financial statements and KPIs](bi.md)
+To learn more about financial statements and KPIs, go to [Using Financial reporting to produce financial statements and KPIs](bi.md).
 
+## Using key performance indicators to meet your business goals
 
-## Using key performance indicators (KPIs) to meet your business goals
-A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. Think of KPIs as your company’s scorecard, a way of measuring whether or not you’re delivering on your objectives.
+A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. Think of KPIs as your company’s scorecard, a way to measure whether you’re delivering on your objectives.
 
-Identifying and tracking KPIs lets you know if your business is on the right path—or if you should change course to avoid losing valuable time and money. When used properly, KPIs are powerful tools that help you:
+Identifying and tracking KPIs lets you know whether your business is on the right path, or whether you should change course. When used properly, KPIs are powerful tools that help you:
 
 - Monitor company financial health.
 - Measure progress against strategic goals.
@@ -57,49 +57,47 @@ Identifying and tracking KPIs lets you know if your business is on the right pat
 - Motivate team members.
 - Make better decisions, faster.
 
-For more info, [Using key performance indicators (KPIs) to meet your business goals](./analytics-about-kpis.md)
+To learn more about KPIs, go to [Using key performance indicators to meet your business goals](./analytics-about-kpis.md)
 
+## Ad-hoc data analysis
 
-## Ad-hoc data analysis 
+Sometimes you might just want to check whether the numbers add up correctly, quickly confirm or debunk a hypothesis about the business, or maybe look for anomalies in your financial data. For ad-hoc analyses, you might not have a built-in report that helps answer your questions. For ad-hoc analyses, use these two features:
 
-Sometimes, you just need to check if the numbers add up correctly, quickly confirm or debunc a hypothosis about the business, or maybe look for anomalies in your financial data. For these ad-hoc analysis tasks, you might not have a built-in report that helps you with your questions, instead you can use these two features
 - Data analysis on ledger list pages
 - Open in Excel
 
-With the *Data analysis* feature, you can open almost a list page such as General Ledger Entries or Customer Ledger Entries, enter analysis mode, and then group, filter, and pivot data as you see fit, all directly in the [!INCLUDE [prod_short](includes/prod_short.md)] client. 
+The Data analysis feature lets you open almost any list page, such as the General Ledger Entries or Customer Ledger Entries pages, enter analysis mode, and then group, filter, and pivot data as you see fit. 
 
 :::image type="content" source="media/data-analysis-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries page." lightbox="media/data-analysis-gl-entries.png":::
 
-Similarly, using the *Open in Excel* feature, you can open a list page such as General Ledger Entries or Customer Ledger Entries, optionally filter the list to a subset of the data, and then get the data in Excel. You can then do further analysis in Excel, using built-in Excel functionality such as Analyze Data, What-If Analysis, or Forecast Sheet.
+Similarly, you can use the **Open in Excel** action to open a list page, optionally filter the list to a subset of the data, and then use Excel to work with the data. For example, by using features such as Analyze Data, What-If Analysis, or Forecast Sheet.
 
 :::image type="content" source="media/open-in-excel-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries data using Excel." lightbox="media/open-in-excel-gl-entries.png":::
 
 > [!TIP]
-> If your organization has configured OneDrive for system features, the Excel workbook is opened in your browser by using Excel for the web. 
+> If you configure OneDrive for system features, the Excel workbook opens in your browser by using Excel for the web.
 
-For more information, see [Ad-hoc data analysis](reports-adhoc-analysis.md).
+To learn more about ad-how analyses, go to [Ad-hoc data analysis](reports-adhoc-analysis.md).
 
+## Reports
 
-## Reports in [!INCLUDE[prod_short](includes/prod_short.md)]
+A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information based on a specified set of criteria. Reports organize and present the information in an easy-to-read format you can use in Excel, print, or save as a file.  
 
-A report in [!INCLUDE[prod_short](includes/prod_short.md)] gathers information based on a specified set of criteria. It organizes and presents the information in an easy-to-read format you can use in Excel, print or save as a file.  
+As an example of an interactive report in Excel, the ***Aged Accounts Receivable** report lets you analyze what your customers owe you and when payments are due.
 
-As an example of an interactive report in Excel, the *Aged Accounts Receivable* report (introduced in 2024 release wave 1) allows you to analyze what your customers owe you and when payments are due. 
 :::image type="content" source="media/aged-accounts-receivables-excel.png" alt-text="Example of the interactive aged accounts receivables report in Excel." lightbox="media/aged-accounts-receivables-excel.png":::
 
+For aged accounts receivables, [!INCLUDE[prod_short](includes/prod_short.md)] also includes a report designed for print. The ability to print is handy if you prefer to have the data in a .pdf file.
 
-For aged accounts receivables, [!INCLUDE[prod_short](includes/prod_short.md)] also include a report designed for print, should you prefer to get a pdf version of this data.
 :::image type="content" source="media/aged-accounts-receivables-pdf.png" alt-text="Example of the  aged accounts receivables report in pdf." lightbox="media/aged-accounts-receivables-pdf.png":::
 
-
-[!INCLUDE[prod_short](includes/prod_short.md)] comes with more than 300 built-in reports that you can use to support your business processes with data-driven insights. To get a quick overview of all the reports that are available for your role, you can open the report explorer from the role center and all list pages and from the **Tell Me** window. 
+[!INCLUDE[prod_short](includes/prod_short.md)] comes with more than 300 built-in reports that you can use to support your business processes with data-driven insights. To get a quick overview of all the reports that are available for your role, you can open the report explorer from the role center and all list pages and from **Tell Me**.
 
 :::image type="content" source="media/report-explorer-finance.png" alt-text="Example of how the report explorer show all reports for a role." lightbox="media/report-explorer-finance.png":::
 
-For more information about using the report explorer to see all built-in reports, see [Exploring reports per Role](ui-role-explorer.md).
+To learn more about using the report explorer to see all built-in reports, go to [Exploring reports per Role](ui-role-explorer.md).
 
-
-The following table covers topics related to using built-in reports in [!INCLUDE[prod_short](includes/prod_short.md)].
+The following table lists articles about how to use built-in reports in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 | To  | See |
 | --- | --- |
@@ -107,10 +105,9 @@ The following table covers topics related to using built-in reports in [!INCLUDE
 | Learn about which built-in reports are available in [!INCLUDE[prod_short](includes/prod_short.md)]. |[Report Overview](reports-available-reports.md)| 
 | Use the Report Explorer to see all built-in reports. | [Exploring reports per Role](ui-role-explorer.md) |
 
-
 ## External business intelligence and reporting tools
 
-In case you prefer to use business intelligence tools that are not embedded in [!INCLUDE[prod_short](includes/prod_short.md)], the following table provides links to guidance on tools and methods to achieve this.
+If you prefer to use business intelligence tools that aren't embedded in [!INCLUDE[prod_short](includes/prod_short.md)], the following table provides links to guidance on tools and ways to use external tools.
 
 | To  | See |
 | --- | --- |
@@ -119,7 +116,6 @@ In case you prefer to use business intelligence tools that are not embedded in [
 | Extract data to data warehouses or data lakes| [How to extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses) |
 | Analyze Business Central data with Microsoft Fabric| [Introduction to Microsoft Fabric and Business Central](admin-fabric.md) |
 | Read data from Business Central using APIs | [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
-
 
 ## See also
 

@@ -87,7 +87,7 @@ Once the document is posted, you can go to the **Vendor Ledger Entries** list pa
    - **Vendor 1099 Div** - Prints the federal form 1099-DIV for dividends and distribution. You can print all or specific 1099-DIV forms. The report uses the codes that apply to the DIV form amount boxes from the **1099 Form Boxes** page.
    - **Vendor 1099 Int** - Prints the federal form 1099-INT for interest income. You can print all or specific 1099-INT forms. The report uses the codes that apply to the INT form amount boxes from the **1099 Form Boxes** page.
    - **Vendor 1099 Misc** - Prints the federal form 1099-MISC for miscellaneous income. You can print all or specific 1099-MISC forms. The report uses the codes that apply to the MISC form amount boxes from the **1099 Form Boxes** page.
-   - **Vendor 1099 Nec** – Prints the federal form 1099-NEC for non-employee compensation. You can print all or specific 1099-NEC forms. The report uses the codes that apply to the NEC form amount boxes from the **1099 Form Boxes** page.
+   - **Vendor 1099 Nec** – Prints the federal form 1099-NEC for nonemployee compensation. You can print all or specific 1099-NEC forms. The report uses the codes that apply to the NEC form amount boxes from the **1099 Form Boxes** page.
 
 > [!NOTE]
 > Regulatory changes affecting this report and the table data are generally handled in end-of-year updates. For more information, see [Regulatory 1099 Form Box Changes](tax-1099-changes.md).

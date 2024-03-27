@@ -2,18 +2,16 @@
 title: Set up and use the IRS 1099 Form [US]
 description: Learn how to set up the 1099 tax form boxes so that you can submit the required reports.
 author: altotovi
-
 ms.topic: conceptual
 ms.search.keywords: local, 1099
 ms.search.form: 26, 29, 50, 51, 10015, 10016, 10018, 10900
-ms.date: 06/10/2022
+ms.date: 03/27/2024
 ms.author: altotovi
 ms.reviewer: bholtorf
-
 ms.service: dynamics-365-business-central
 ---
 
-# Set Up and Use the IRS 1099 Form in the US Version
+# Set up and use the IRS 1099 form in the US version
 
 The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax form for payments to vendors. Copies of these forms must be sent to vendors annually on or before the last day of January. On your purchase documents, you can specify that the document is 1099 liable, and you can specify the 1099 code for the vendor.
 
@@ -21,7 +19,7 @@ The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax
 
 Before you start using [!INCLUDE[prod_short](../../includes/prod_short.md)], you must set up **1099 Form Boxes** and **Vendors** as 1099 liable. The most common 1099 codes are already set up for you, and they're defined on the **1099 Form Box** page, where you can also add new 1099 codes. Before you prepare your reporting for the new year, you must first update your [!INCLUDE[prod_short](../../includes/prod_short.md)] to handle the new requirements.
 
-### To update the 1099 Form Boxes
+### To update the 1099 form boxes
 
 In order to support the form changes by the IRS, [!INCLUDE[prod_short](../../includes/prod_short.md)] offers the **Update Form Boxes** action to include new codes and other requirements in the 1099 form. For more information, see [Regulatory 1099 Format Changes and Details](tax-1099-changes.md).
 

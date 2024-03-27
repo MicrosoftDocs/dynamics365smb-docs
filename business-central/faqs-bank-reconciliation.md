@@ -13,7 +13,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# FAQ for bank account reconciliation assist (preview) with Copilot
+# FAQ for bank account reconciliation assist with Copilot (preview)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 

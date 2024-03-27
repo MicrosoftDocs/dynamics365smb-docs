@@ -12,7 +12,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# FAQ for mapping e-documents with purchase orders using Copilot
+# FAQ for mapping e-documents with purchase orders using Copilot (preview)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 

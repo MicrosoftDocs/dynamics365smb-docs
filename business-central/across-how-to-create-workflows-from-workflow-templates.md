@@ -23,7 +23,7 @@ If you change a workflow template, but later regret the change, use the **Reset 
 > [!CAUTION]
 > The **Reset Microsoft Templates** action resets all of the Microsoft workflow templates. You can't reset a single template.  
 
-Another way to quickly create a workflow is to import it, for example, if you've exported it from another instance of [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [Export and Import Workflows](across-how-to-export-and-import-workflows.md).  
+Another way to quickly create a workflow is to import it, for example, if you exported it from another instance of [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [Export and Import Workflows](across-how-to-export-and-import-workflows.md).  
 
 ## To create a workflow from a workflow template
 

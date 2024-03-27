@@ -1733,10 +1733,13 @@ ms.service: dynamics-365-business-central
 ### [Set up online maps](across-online-maps-setup.md)
 ### [Get Business Central on your mobile device](install-mobile-app.md)
 ### [Get Business Central on your desktop](install-desktop-app.md)
-<!--Reporting landing page-->
-# Business intelligence and reporting 
 
-## [Overview](reports-bi-reporting.md)
+<!--Reporting landing page-->
+# Analytics, business intelligence, and reporting 
+
+## [Analytics overview](reports-bi-reporting.md)
+## [Using key performance indicators (KPIs) to meet your business goals](./analytics-about-kpis.md)
+## [Using financial reporting](bi-how-work-account-schedule.md)
 
 ## Use reports in daily work
 ### [Overview](reports-use-reports.md)

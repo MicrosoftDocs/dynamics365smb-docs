@@ -67,7 +67,7 @@ You can also use formulas to compare two or more financial reports and column de
 
 Want to learn how to create budgets, and then use financial reports, dimensions, and row and column definitions to generate the financial reports that are typically needed for most businesses?
 
-Start learning in the learning path [Create financial reports in Microsoft Dynamics 365 Business Central](https://learn.microsoft.com/training/paths/create-financial-reports-dynamics-365-business-central)
+Start learning in the learning path [Create financial reports in Microsoft Dynamics 365 Business Central](/training/paths/create-financial-reports-dynamics-365-business-central)
 
 ## Create a new financial report
 
@@ -138,7 +138,7 @@ Another benefit of using G/L account categories over the raw G/L accounts in you
 > [!NOTE]
 > The top-level account categories, such as the **Liabilities** node, are fixed and you can't add your own. However, you can delete and add account categories at lower levels and define how the related financial report appears in reports.
 >
-> You should create and structure your own lower-level G/L account categories from scratch, in a hierarchy if needed, rather than try to rearrange the existing ones. For example, you can restructure the **Liabilities** node to contain a new **Equity** node followed by the **Current Liabilities** and **Long Term Liabilities** nodes. Learn more at [Mapping general ledger accounts to account categories](finance-general-ledger#account-categories).
+> You should create and structure your own lower-level G/L account categories from scratch, in a hierarchy if needed, rather than try to rearrange the existing ones. For example, you can restructure the **Liabilities** node to contain a new **Equity** node followed by the **Current Liabilities** and **Long Term Liabilities** nodes. Learn more at [Mapping general ledger accounts to account categories](finance-general-ledger.md#account-categories).
 
 ## Using dimensions in financial reports
 

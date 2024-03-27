@@ -22,8 +22,14 @@ In the initial release of the **e-document** app, we introduced fundamental scen
 
 You can now update an existing purchase order in Business Central with the information received in the e-invoice.
 
+<!--
 > [!NOTE]
 > - This feature is available as a production-ready preview for production and sandbox environments in any country localization, with the exception of Canada. Production-ready previews are subject to supplemental terms of use. For more information, see [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274).
+> - AI-generated content may be incorrect.-->
+
+> [!IMPORTANT]
+> - This is a Production Ready Preview feature for production and sandbox environments in any country localization, with the exception of Canada.
+> - Production Ready Previews are subject to supplemental terms of use. More information: [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274)
 > - AI-generated content may be incorrect.
 
 ## Identify purchase orders

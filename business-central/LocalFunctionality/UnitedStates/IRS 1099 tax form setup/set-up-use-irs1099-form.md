@@ -17,13 +17,13 @@ The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax
 
 ## Setup
 
-Before you start using [!INCLUDE[prod_short](../../includes/prod_short.md)], you must set up **1099 Form Boxes** and **Vendors** as 1099 liable. The most common 1099 codes are already set up for you, and they're defined on the **1099 Form Box** page, where you can also add new 1099 codes. Before you prepare your reporting for the new year, you must first update your [!INCLUDE[prod_short](../../includes/prod_short.md)] to handle the new requirements.
+Before you start using [!INCLUDE[prod_short](../../../includes/prod_short.md)], you must set up **1099 Form Boxes** and **Vendors** as 1099 liable. The most common 1099 codes are already set up for you, and they're defined on the **1099 Form Box** page, where you can also add new 1099 codes. Before you prepare your reporting for the new year, you must first update your [!INCLUDE[prod_short](../../../includes/prod_short.md)] to handle the new requirements.
 
 ### To update the 1099 form boxes
 
-In order to support the form changes by the IRS, [!INCLUDE[prod_short](../../includes/prod_short.md)] offers the **Update Form Boxes** action to include new codes and other requirements in the 1099 form. For more information, see [Regulatory 1099 Format Changes and Details](tax-1099-changes.md).
+In order to support the form changes by the IRS, [!INCLUDE[prod_short](../../../includes/prod_short.md)] offers the **Update Form Boxes** action to include new codes and other requirements in the 1099 form. For more information, see [Regulatory 1099 Format Changes and Details](tax-1099-changes.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **1099 Form Boxes**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **1099 Form Boxes**, and then choose the related link.
 2. Choose the **Update Form Boxes** action.  
 
 > [!NOTE] 
@@ -34,7 +34,7 @@ In order to support the form changes by the IRS, [!INCLUDE[prod_short](../../inc
 
 ### To set up a vendor as 1099 liable
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor's card.
 3. On the **Payments** FastTab, in the **IRS 1099 Code** field, choose the relevant IRS 1099 code.
 4. Repeat steps 2 and 3 for additional vendors.  
@@ -43,12 +43,12 @@ In order to support the form changes by the IRS, [!INCLUDE[prod_short](../../inc
 
 ### To process a document as 1099 liable
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoice**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoice**, and then choose the related link.
 2. Create a new entry, and then, in the **Vendor Name** field on the **Purchase Invoice** header, specify a vendor with the relevant IRS 1099 code.
 3. Optionally, on the **Shipping and Payment** FastTab, in the **IRS 1099 Code** field, override the default value with another code, or delete it to have transaction without an IRS 1099 code.
 
     The **IRS 1099 Code** field is prepopulated with the value from the vendor card.  
-4. Enter all information into the required fields for purchase invoice and post the document. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
+4. Enter all information into the required fields for purchase invoice and post the document. [!INCLUDE [tooltip-inline-tip_md](../../../includes/tooltip-inline-tip_md.md)]
 
 Once the document is posted, you can go to the **Vendor Ledger Entries** list page and find that the **IRS 1099 Code** and **IRS 1099 Amount** fields are automatically populated.  
 
@@ -57,7 +57,7 @@ Once the document is posted, you can go to the **Vendor Ledger Entries** list pa
 
 ### To correct posted entries
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor's card.
 3. On the **Vendor Card** page, choose the **Ledger Entries** action to open the **Vendor Ledger Entries** page. Here, you can review a list of all transactions for your vendor.  
 4. Locate the entry that you want to correct.  
@@ -68,20 +68,20 @@ Once the document is posted, you can go to the **Vendor Ledger Entries** list pa
 
 ### To find the IRS 1099 statistics
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor's card.
 3. On the **Vendor Card** page, choose the **1099 Statistics** action to open the **Vendor 1099 Statistics** page.
 
 ### To review IRS 1099 amounts for a specific vendor
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor's card.
 3. On the **Vendor Card** page, choose the **Vendor 1099 Information** action to open the **Vendor 1099 Information** report.  
 4. Set filters for vendor number and date, and then choose to print or preview the report.
 
 ### To print the 1099 tax forms
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **1099 Form Boxes**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **1099 Form Boxes**, and then choose the related link.
 2. On the **1099 Form Boxes** page, choose the **Reports** action, and then choose one of vendor 1099 reports for printing:
 
    - **Vendor 1099 Div** - Prints the federal form 1099-DIV for dividends and distribution. You can print all or specific 1099-DIV forms. The report uses the codes that apply to the DIV form amount boxes from the **1099 Form Boxes** page.
@@ -94,7 +94,7 @@ Once the document is posted, you can go to the **Vendor Ledger Entries** list pa
 
 ### To submit the 1099 tax forms electronically
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **1099 Form Boxes**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **1099 Form Boxes**, and then choose the related link.
 2. On the **1099 Form Boxes** page, choose the **Vendor 1099 Magnetic Media** action.
 3. Specifies the 1099 forms that can be exported.
 
@@ -112,6 +112,6 @@ The report uses the codes that apply to the form amount boxes from the **1099 Fo
 [United States Local Functionality](united-states-local-functionality.md)  
 [Register New Vendors](../../purchasing-how-register-new-vendors.md)  
 [Record Purchase](../../purchasing-how-record-purchases.md)  
-[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](../../../includes/prod_short.md)]](../../ui-work-product.md)  
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -17,7 +17,7 @@ The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax
 
 ## To enable this feature to transmit the tax data using 1099 form 
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Feature Management**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Feature Management**, and then choose the related link.
 2. Find the following feature: **Feature Update: Enable using 1099 forms to transmit the tax data to the IRS in the United States.** that you want to enable.
 1. In the **Feature** column, choose the three vertical dots, and then choose the **Select More** action.
 1. Select the check box for all the features that you want to edit, and then choose **Edit List**.
@@ -30,7 +30,7 @@ The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax
 1. To transfer the existing data from the 1099 base application, select the **Transfer Existing Data** field.  
 
   > [!NOTE]
-  > If you’re establishing [!INCLUDE[prod_short](../../includes/prod_short.md)] for the first time, choose **Create New Setup** to create the forms and associated setups, and then you can fill in the appropriate fields in the forms and print them. If you’re upgrading and already have data for your 1099 form, you can choose **Transfer Existing Data** from the previous solution.
+  > If you’re establishing [!INCLUDE[prod_short](../../../includes/prod_short.md)] for the first time, choose **Create New Setup** to create the forms and associated setups, and then you can fill in the appropriate fields in the forms and print them. If you’re upgrading and already have data for your 1099 form, you can choose **Transfer Existing Data** from the previous solution.
  
 8. Specify how the IRS forms work with documents, as you can decide to choose the **Collect Details For Line** field. By selecting this field, the details will be collected from the **IRS 1099 Form Doc Line Details** page for each of **Calculated Amounts** in the **IRS 1099 Form Document**, but this option requires an extra space in the database.
 
@@ -51,7 +51,7 @@ You can also choose not to protect TIN numbers if you want.
 
 If you aren't able to finish the setup while enabling this feature or want to modify or add some configurations, follow the steps:  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IRS Forms Setup**, and then choose the related link. 
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IRS Forms Setup**, and then choose the related link. 
 2. On the **General** FastTab, you can change the setup for the **Collect Details For Line** and **Protect TIN** fields, as mentioned previously.  
 3. You can also set up details for the email you want to send to your recipients:
 
@@ -64,7 +64,7 @@ If you aren't able to finish the setup while enabling this feature or want to mo
 
 To configure reporting periods and forms, follow the steps:   
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IRS Reporting Periods**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IRS Reporting Periods**, and then choose the related link.  
 2. On the **IRS Reporting Periods** page, you can specify the time period that the report applies.
 **Starting** and **Ending Date** for their validity. To set up specific 1099 forms for this period, you need to run the **Forms** action to open the **IRS Reporting Periods** page.  
 1. On the **IRS 1099 Forms** page, you can specify different 1099 form types, such as MISC, NEC, etc. As all of these form types have more than one source with different rules, you need to set up them. To do so, you need to run the **Form Boxes** action to open the **IRS 1099 Form Boxes** page.  
@@ -109,7 +109,7 @@ Users might need to make some additional setup on the **Vendor card** page. To d
 
 To print the form substitute documents, there are a few setups you must use. For every single printing form, there's a **Form Statement**. These statements are already configured, but users can change or update through configuration. To do this, follow the steps:  
 
-1. To configure or customize the printing form, choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter the **IRS 1099 Forms**, and then choose the related link. 
+1. To configure or customize the printing form, choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter the **IRS 1099 Forms**, and then choose the related link. 
 2. When you open the **IRS 1099 Forms** page for a specific form **No.**, choose the **Edit Statement** action.  
 3. The **IRS 1099 Form Statement** page opens, and, on this page, you can set up the filters and rules, which will be applied to the form document lines for printing. You can use the following fields to set up the 1099 form statement:  
 
@@ -133,6 +133,6 @@ To do so, on the **IRS 1099 Forms** page and for specific form **No.**, choose t
 [How to use the IRS 1099 forms](../../UnitedStates/set-up-use-irs1096-form-v24.md)  
 [How to submit and report the IRS 1099](../../UnitedStates/set-up-use-irs1096-form-v24.md#to-print-report-configuration)  
 [Register New Vendors](../../purchasing-how-register-new-vendors.md)    
-[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)    
+[Work with [!INCLUDE[prod_short](../../../includes/prod_short.md)]](../../ui-work-product.md)    
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

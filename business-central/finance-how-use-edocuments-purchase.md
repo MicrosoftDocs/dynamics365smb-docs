@@ -100,6 +100,9 @@ You can match your received electronic documents with purchase orders’ lines f
 > [!NOTE]
 > The **E-Document Activities** with these two tiles can be found in the next **Role Centers**: Business Manager Evaluation, Business Manager, Accountant, Inventory Manager, and Shipping and Receiving.  
 
+> [!NOTE]
+> It is not possible to use matching documents in multicountri environment if VAT percentage differs from incoming document with VAT percentage in the company.  
+
 ##### Matching Lines from Purchase Order  
 
 You can match the lines from the **Purchase Orders** list or from one opened **Purchase Order**. To start with this, use the following steps:  

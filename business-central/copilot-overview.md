@@ -22,11 +22,11 @@ Microsoft Copilot is the AI-powered assistant that helps spark creativity, boost
 
 ## Where can I find the list of Copilot features in Business Central?
 
-Copilot includes a constantly expanding set of capabilities that assist users in different roles and tasks. You can read about Copilot and other AI features in Business Central at https://aka.ms/BCAI 
+Copilot includes a constantly expanding set of capabilities that assist users in different roles and tasks. You can read about Copilot and other AI features in Business Central at [aka.ms/BCAI](https://aka.ms/BCAI). 
 
 ## Is Copilot free? 
 
-At this time, Copilot in Business Central is included with your Business Central license at no extra cost. This doesn't exclude that fair-use policies, quotas, or pricing might be introduced at a later date. 
+At this time, Copilot in Business Central is included with your Business Central license at no extra cost. This doesn't exclude that fair-use policies, quotas, or pricing might be introduced at a later date.
 
 ## Does Copilot in Business Central require a minimum number of users?
 
@@ -34,13 +34,13 @@ At this time, there's no minimum number of users required to start using Copilot
 
 ## How does Copilot use the Azure AI time quota that comes with licenses?
 
-Business Central offers numerous AI-powered features. Some features, such as sales and inventory forecasting, use specific machine learning models. These features rely on Azure AI and aren't related to Copilot. The Dynamics 365 licensing guide indicates that 30 minutes of Azure AI time is included with Business Central licenses. This quota refers to non-Copilot features where consumption of Azure AI time has no effect on Copilot in Business Central.)
+Business Central offers numerous AI-powered features. Some features, such as sales and inventory forecasting, use specific machine learning models. These features rely on Azure AI and aren't related to Copilot. The Dynamics 365 licensing guide indicates that 30 minutes of Azure AI time is included with Business Central licenses. This quota refers to non-Copilot features where consumption of Azure AI time has no effect on Copilot in Business Central.
 
 ## Is Copilot in Business Central available worldwide? 
 
-Copilot includes a constantly expanding set of capabilities that assist users in different roles and tasks. Each Copilot capability defines its own list of supported regions and supported languages. While most features will likely start out as available only in English language, we aspire to unlock more languages and regions over time. You can see the overview of Copilot language and region available for business applications at [https://dynamics.microsoft.com/availability-reports/copilotreport](https://dynamics.microsoft.com/availability-reports/copilotreport).
+Copilot includes a constantly expanding set of capabilities that assist users in different roles and tasks. Each Copilot capability defines its own list of supported regions and supported languages. While most features will likely start out as available only in English, we aspire to unlock more languages and regions over time. You can get an the overview of the Copilot languages and regions available for business applications at [https://dynamics.microsoft.com/availability-reports/copilotreport](https://dynamics.microsoft.com/availability-reports/copilotreport).
 
-## Can I develop my own Copilots for Business Central? 
+## Can I develop my own Copilots for Business Central?
 
 You can extend and enhance Copilot in Business Central using tools that are a part of Business Central's standard development platform. [Learn more about Integrating AI using the developer tools for Copilot](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page).
 
@@ -48,7 +48,7 @@ You can also connect Copilots using Copilot Studio, or implement your own standa
 
 ## How do I keep up with the latest news about Copilot in Business Central? 
 
-You can follow the release plans at [aka.ms/BCreleaseplans](https://aka.ms/BCreleaseplans) for news about Copilot and other AI innovation in Business Central.
+You can follow the release plans at [aka.ms/BCReleasePlan](https://aka.ms/BCReleasePlan) for news about Copilot and other AI innovation in Business Central.
 
 ## As a Business Central partner, how easily can I demonstrate Copilot in Business Central to my customers?
 

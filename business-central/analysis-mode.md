@@ -48,7 +48,7 @@ Complete these steps to get started analyzing data using the analysis mode.
 
 3. Use the different areas to manipulate, summarize and analyze data. See the sections that follow for details.
 
-4. When you want to exit the analyze mode, select the **Leave analysis mode** ![Shows the button for turning off analysis mode](media/analysis-mode-exit.png) button
+4. When you want to stop the analysis mode, select the **Leave analysis mode** ![Shows the button for turning off analysis mode](media/analysis-mode-exit-icon.png) button
 
    The analysis tabs that you've added remain until you delete them. So if you return to the data analysis mode again, you see them exactly as you left them.
 

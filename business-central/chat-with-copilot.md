@@ -14,9 +14,11 @@ ms.collection:
 
 # Chat with Copilot (preview)
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
 
 This article explains how to chat with Copilot to get answers about your company data and assistance with tasks and subject matters related to Business Central.​
+
+[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 ## About chat with Copilot
 

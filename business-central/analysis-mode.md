@@ -100,7 +100,7 @@ The following table describes the different numbers that are shown in the totals
 
 The **Columns** is one of two panes that work together to define your analysis. The other area is the **Analysis filters** pane. The **Columns** pane is used to summarize the data. Use the **Columns** pane to define which columns should be included in the analysis.
 
-![Shows an overview of the columns pane in the data analysis mode](media/analysis-mode-columns-2.png)
+![Shows an overview of the columns pane in the data analysis mode](media/analysis-mode-columns-3.png)
 
 |Areas|Description|
 |-|-|
@@ -115,7 +115,7 @@ To move a field from one area to another, select the grab icon ![Shows an overvi
 
 The **Analysis filters** pane lets you set further data filters on columns to limit the entries in the list. Set filters on columns to limit the entries in the list and subsequent sums to only those entries you're interested in based on a criteria you define. For example, suppose you're only interested in data for a specific customer or sales orders that exceed a specific amount. To set a filter, select the column, choose the comparison operation from the list (like **Equals** or **Starts with**), then enter the value.
 
-![Shows an overview of the filters pane in the analysis mode](media/analysis-mode-filters.png)
+![Shows an overview of the filters pane in the analysis mode](media/analysis-mode-filters-2.png)
 
 > [!NOTE]
 > The additional filters only apply to the current analysis tab. This allows you to define exactly the extra data filters that are needed for a specific analysis.
@@ -189,7 +189,7 @@ After you’ve prepared an analysis on a tab, you can share it as a link with co
 
 1. On the analysis tab, select the down arrowhead, and then select **Copy link**.
 
-   ![Shows the action for copying an analysis](media/copy-analysis.svg)
+   ![Shows the action for copying an analysis](media/analysis-mode-copy.png)
 
    The **Link to \<tab name\>** dialog opens.
 

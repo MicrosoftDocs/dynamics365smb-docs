@@ -3,9 +3,9 @@ title: Create new companies using an assisted setup guide
 description: It's easy to create a new, blank company in Business Central. An assisted setup guide helps you through the steps, and you can import your business data.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: ivkoleti
 ms.topic: conceptual
-ms.date: 04/14/2023
+ms.date: 03/08/2024
 ms.custom: bap-template
 ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
@@ -52,6 +52,8 @@ On the **Companies** page, you can use the **Copy** action to create a second co
 > Don't use the Copy action to take a backup of a company. To take a backup, start by exporting the database as a .bacpac file. For more information, see [Exporting Databases](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) in the development and administration help.
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
+
+[!INCLUDE [dataverse-copy-company](includes/dataverse-copy-company.md)]
 
 ## Set up the company
 

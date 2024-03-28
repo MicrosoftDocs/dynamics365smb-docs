@@ -25,7 +25,7 @@ Providing ongoing service to customers is an important part of any business and 
 
 In addition, you can standardize coding, set up contracts, implement a discounting policy, and create route maps for service employees.  
 
-In general, there are two aspects to service management: configuring and setting up your system, and using it for pricing, contracts, orders, service personnel dispatch, and job scheduler.  
+In general, there are two aspects to service management: configuring and setting up your system, and using it for pricing, contracts, orders, service personnel dispatch, and project scheduler.  
 
 The following table describes a sequence of tasks, with links to the topics that describe them.   
 

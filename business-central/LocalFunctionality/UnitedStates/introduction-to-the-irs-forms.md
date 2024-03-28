@@ -1,6 +1,6 @@
 ---
 title: Introduction to the IRS 1099 forms [US]
-description: Learn about reasons why and how to use IRS 1099 Tax Forms in the US.
+description: Learn about the reasons why and how to use IRS 1099 tax forms in the US.
 author: altotovi
 ms.topic: conceptual
 ms.search.keywords: local, 1099, IRS, tax
@@ -51,7 +51,7 @@ To get started managing IRS 1099 functionality, see the following articles.
 
 |  Article  |  Description  |  
 |--------|--------------|  
-| [IRS 1099 Setup](how-to-1099-setup.md) | Learn how to set up all IRS 1099 related areas. |
+| [IRS 1099 Setup](../../UnitedStates/set-up-use-irs1096-form-v24.md) | Learn how to set up all IRS 1099 related areas. |
 | [Using IRS 1099](how-to-1099-use.md) | Learn how to prepare your document and how to create 1099 forms based on your entries. |
 | [Reporting IRS 1099](how-to-1099-report.md) | Learn how to submit your 1099 forms to the IRS and to send them to your vendors. |
 
@@ -59,10 +59,10 @@ To get started managing IRS 1099 functionality, see the following articles.
 ## See also 
 
 [United States Local Functionality](united-states-local-functionality.md)    
-[How to setup the IRS 1099 forms](how-to-1099-setup.md)    
+[How to setup the IRS 1099 forms](../../UnitedStates/set-up-use-irs1096-form-v24.md)    
 [How to use the IRS 1099 forms](how-to-1099-use.md)    
-[How to submit and report the IRS 1099](how-to-1099-report.md)    
-[Previous version of 1099 functionality](set-up-use-irs1099-form.md)    
+[How to submit and report the IRS 1099](../../UnitedStates/set-up-use-irs1096-form-v24.md#to-print-report-configuration)    
+[Previous version of 1099 functionality](../../UnitedStates/set-up-use-irs1096-form.md)    
 [Register New Vendors](../../purchasing-how-register-new-vendors.md)    
 [Record Purchase](../../purchasing-how-record-purchases.md)    
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

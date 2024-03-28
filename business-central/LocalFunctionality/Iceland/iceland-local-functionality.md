@@ -27,6 +27,7 @@ The following articles describe local functionality that is unique to the Icelan
 * General  
     * [Map IRS Numbers to the Chart of Accounts](how-to-map-irs-numbers-to-chart-of-accounts.md) **Available Now**
     * [Deleting Posted Invoices and Credit Memos](deleting-posted-invoices-and-credit-memos.md) **Available Now**
+    * [Registration Number in Icelandic localization](use-registration-no.md) **Available Now (from v24.0)** 
 
 ## Future legislation requirements being investigated
 

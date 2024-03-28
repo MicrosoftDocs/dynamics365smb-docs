@@ -59,10 +59,10 @@ To get started managing IRS 1099 functionality, see the following articles.
 ## See also 
 
 [United States Local Functionality](united-states-local-functionality.md)    
-[How to setup the IRS 1099 forms](how-to-1099-setup.md)  
-[How to use the IRS 1099 forms](how-to-1099-use.md)  
-[How to submit and report the IRS 1099](how-to-1099-report.md)  
-[Previous version of 1099 functionality](set-up-use-irs1099-form.md)  
+[How to setup the IRS 1099 forms](how-to-1099-setup.md)    
+[How to use the IRS 1099 forms](how-to-1099-use.md)    
+[How to submit and report the IRS 1099](how-to-1099-report.md)    
+[Previous version of 1099 functionality](set-up-use-irs1099-form.md)    
 [Register New Vendors](../../purchasing-how-register-new-vendors.md)    
 [Record Purchase](../../purchasing-how-record-purchases.md)    
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

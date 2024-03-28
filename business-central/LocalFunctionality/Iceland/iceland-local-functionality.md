@@ -15,6 +15,8 @@ The following articles describe local functionality that is unique to the Icelan
 
 ## Feature availability
 
+* Localization
+    * [Icelandic localization based on W1 Base App](iceland-global-core-app.md) **Available Now (from v24.0)**  
 * VAT
     * [Print VAT Summary Information on Documents](how-to-print-vat-summary-information-on-documents.md) **Available Now**
     * [Special Data Output and Reports for the Tax Authority](special-data-output-and-reports-for-the-tax-authority.md) **Available Now**
@@ -27,8 +29,6 @@ The following articles describe local functionality that is unique to the Icelan
     * [Deleting Posted Invoices and Credit Memos](deleting-posted-invoices-and-credit-memos.md) **Available Now**
 
 ## Future legislation requirements being investigated
-
-* Delocalization of Iceland base app **Planned for 2024 release wave 1**
 
 Currently, there are no upcoming regulatory features or requirements. If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

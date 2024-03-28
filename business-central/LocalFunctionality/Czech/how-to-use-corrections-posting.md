@@ -19,7 +19,7 @@ The purpose of the feature is:
 - To allow the accounting manager to enforce corrective posting on desired G/L accounts  
 - To allow the accounting manager to enforce corrective posting in inventory postings (negative transfer entries, expected costs posting)  
 - To allow the accounting manager to enforce corrective posting of canceling in fixed assets  
-- To allow the user to enforce corrective posting with one select (in G/L, inventory, and job postings)  
+- To allow the user to enforce corrective posting with one select (in G/L, inventory, and project postings)  
 
 ## See also
 

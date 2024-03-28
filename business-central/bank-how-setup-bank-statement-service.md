@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.search.form: 1280, 1290
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -30,22 +30,22 @@ The Envestnet Yodlee Bank Feeds service is installed as an extension to [!INCLUD
 
 After you enable the bank feed service, you must link a bank account to the online bank account that the feed will come from. You link bank accounts to online bank accounts in the following different scenarios:
 
-* A bank account does not exist in [!INCLUDE[prod_short](includes/prod_short.md)] for your online bank account. Therefore, you create the bank account by linking from the online bank account.
+* A bank account doesn't exist in [!INCLUDE[prod_short](includes/prod_short.md)] for your online bank account. Therefore, you create the bank account by linking from the online bank account.
 * A bank account exists in [!INCLUDE[prod_short](includes/prod_short.md)], which you want to link to an online bank account.
 * A linked bank account must be unlinked because you want to stop using the bank feed service for the account.
 * Online bank accounts have changed and you want to update the information on bank accounts in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-When the bank feed service is enabled, you can set a bank account up to automatically import new bank statements into the **Payment Reconciliation Journal** page every two hour. Transactions for payments that have already been posted as applied and/or reconciled on the **Payment Reconciliation Journal** page will not be imported. For more information, see the “To enable automatic import of bank statements” section.
+When the bank feed service is enabled, you can set a bank account up to automatically import new bank statements into the **Payment Reconciliation Journal** page every two hours. Transactions for payments that have already been posted as applied and/or reconciled on the **Payment Reconciliation Journal** page won't be imported. For more information, see the “To enable automatic import of bank statements” section.
 
 > [!NOTE]  
 > If you use the Set Up Company assisted setup guide, some of the steps in the following procedures happen automatically when you get to the company bank account setup. For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).
 
 ## To enable the bank feed service
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
-2. Open the bank account that you will use for the bank feed service.
-3. On the **Bank Account** page, in the **Bank Statement Import Format** field, select YODLEEBANKFEED.  
+2. Open the bank account that you'll use for the bank feed service.
+3. On the **Bank Account Card** page, in the **Bank Statement Import Format** field, select YODLEEBANKFEED.  
 
-The bank feed service will be enabled when you link a bank account to its related online bank account. See the next procedure.  
+The bank feed service is enabled when you link a bank account to its related online bank account. See the next procedure.  
 
 > [!NOTE]
 > If you use the **Company Setup** assisted setup guide, then you enable the service by selecting the **Use a bank feed service** check box. For more information, see [Creating New Companies in Business Central](about-new-company.md).
@@ -58,7 +58,7 @@ The bank feed service will be enabled when you link a bank account to its relate
     > This page shows the actual web page of the Envestnet Yodlee Bank Feeds service. Terminology and functionality on the page may not match instructions provided in this topic.  
 3. On the **Online Bank Account Linking** page, in the **Link Account** pane, use the Search function to find the bank where you have one or more online bank accounts.
 4. Choose the bank name. The **Log In** pane opens.
-5. Enter the username and password that you use to log on to the online bank, and then choose the **Next** button.  
+5. Enter the username and password that you use to sign in to the online bank, and then choose the **Next** button.  
 6. The bank feed service prepares to link the first online bank account at the specified bank to a new bank account in [!INCLUDE[prod_short](includes/prod_short.md)].
 
     > [!NOTE]  
@@ -67,9 +67,9 @@ The bank feed service will be enabled when you link a bank account to its relate
     After the process completes, the bank name will appear in the **My Accounts** pane on the **Linked** tab. The number in brackets indicates how many online bank accounts were linked.  
 7. Choose the **OK** button.
 
-    If you are only linking one online bank account, the **Bank Account Card** page opens and displays the name of the online bank account. In this case, the bank account linking task is completed. All that's left to do is to set up the bank account. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md).
+    If you're only linking one online bank account, the **Bank Account Card** page opens and displays the name of the online bank account. In this case, the bank account linking task is completed. All that's left to do is to set up the bank account. For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md).
 
-    If you are linking more than one online bank accounts, the **Bank Account Linking** page opens and lists the online bank accounts that are not yet linked to bank accounts in [!INCLUDE[prod_short](includes/prod_short.md)]. In that case, follow the next step.  
+    If you're linking more than one online bank accounts, the **Bank Account Linking** page opens and lists the online bank accounts that aren't yet linked to bank accounts in [!INCLUDE[prod_short](includes/prod_short.md)]. In that case, follow the next step.  
 8. On the **Bank Account Linking** page, select the line for an online bank account, and then choose the **Link to New Bank Account** action.  
 
     The **Bank Account Card** page for a new bank account opens and displays the name of the online bank account.
@@ -80,9 +80,9 @@ The bank feed service will be enabled when you link a bank account to its relate
 
 ## To link a bank account to an online bank account
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
-2. Select the line for a bank account that is not linked to an online bank account, and then choose the **Link to Online Bank Account** action. The **Online Bank Account Linking** page opens with the name of the bank prefilled in the **Link Account** pane.
+2. Select the line for a bank account that isn't linked to an online bank account, and then choose the **Link to Online Bank Account** action. The **Online Bank Account Linking** page opens with the name of the bank prefilled in the **Link Account** pane.
 3. Choose the bank name. The **Log In** pane opens.
-4. Enter the username and password that you use to log on to the online bank, and then choose the **Next** button.  
+4. Enter the username and password that you use to sign in to the online bank, and then choose the **Next** button.  
 
     The bank feed service prepares to link your bank account in [!INCLUDE[prod_short](includes/prod_short.md)] to the related online bank account.  
 
@@ -127,7 +127,7 @@ Every hour, the **Payment Reconciliation Journal** page will display new payment
 [Setting Up Banking](bank-setup-banking.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  
 [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions ](ui-extensions.md)  
+[Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

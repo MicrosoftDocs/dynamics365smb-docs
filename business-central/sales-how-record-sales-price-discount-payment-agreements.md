@@ -35,7 +35,7 @@ To use a basic pricing model, you only need to specify a unit price when you set
 * Minimum quantity
 * Dates that define the period for which the prices are valid.
 
-After you set up special prices, [!INCLUDE[prod_short](includes/prod_short.md)] can calculate best prices on sales and purchase documents, and on lines on jobs and item journals. Learn more at [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+After you set up special prices, [!INCLUDE[prod_short](includes/prod_short.md)] can calculate best prices on sales and purchase documents, and on lines on projects and item journals. Learn more at [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 For sales discounts, you can set up two types:
 
@@ -93,7 +93,7 @@ When you enable the **New sales pricing experience** feature update on the **Fea
   * Job sales
   * Job purchases
 
-  You can edit all prices for these areas on the **Prices Worksheet** page. The default price lists will be set on the **Sales & Receivables Setup**, **Purchases & Payables Setup,** and **Jobs Setup** pages.
+  You can edit all prices for these areas on the **Prices Worksheet** page. The default price lists will be set on the **Sales & Receivables Setup**, **Purchases & Payables Setup,** and **Projects Setup** pages.
 
 > [!NOTE]
 > If prices are set only on item or resource cards, default price lists will not be filled in with those prices during the data update. However, you can open any of the default price lists or the **Price Worksheet** page and use the **Suggest Lines** action to add the prices set on item or resource cards.
@@ -107,7 +107,7 @@ When you enable the **New sales pricing experience** feature update on the **Fea
 
 If you have many combinations, you'll have many price lists.
 
-If you've already enabled the New Pricing Experience, you can create default price lists manually or specify an existing price list as the default. To set an existing price list as default, turn on the **Allow Updating Defaults** toggle on the price list. Then, on the **Sales & Receivables Setup**, **Purchase & Payables**, or **Jobs Setup** pages, set the price list as the default.
+If you've already enabled the New Pricing Experience, you can create default price lists manually or specify an existing price list as the default. To set an existing price list as default, turn on the **Allow Updating Defaults** toggle on the price list. Then, on the **Sales & Receivables Setup**, **Purchase & Payables**, or **Projects Setup** pages, set the price list as the default.
 
 ### Editing active price lists
 
@@ -223,7 +223,7 @@ To update prices for multiple items, you must create a new price list, and then 
 
 ## Best price calculation
 
-After you record special prices and line discounts for sales and purchases, [!INCLUDE[prod_short](includes/prod_short.md)] calculates the best price on sales and purchase documents, and on job and item journal lines.
+After you record special prices and line discounts for sales and purchases, [!INCLUDE[prod_short](includes/prod_short.md)] calculates the best price on sales and purchase documents, and on project and item journal lines.
 
 The best price is the lowest price with the highest line discount allowed on a given date. [!INCLUDE[prod_short](includes/prod_short.md)] calculates best prices when it adds unit prices and the line discount percentages on document and journal lines.
 

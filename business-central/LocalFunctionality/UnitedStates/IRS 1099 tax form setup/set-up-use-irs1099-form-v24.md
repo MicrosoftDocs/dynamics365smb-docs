@@ -18,7 +18,7 @@ The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax
 ## To enable this feature to transmit the tax data using 1099 form 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Feature Management**, and then choose the related link.
-2. Find the following feature: **Feature Update: Enable using 1099 forms to transmit the tax data to the IRS in the United States.** that you want to enable.
+1. Find the following feature: **Feature Update: Enable using 1099 forms to transmit the tax data to the IRS in the United States.** that you want to enable.
 1. In the **Feature** column, choose the three vertical dots, and then choose the **Select More** action.
 1. Select the check box for all the features that you want to edit, and then choose **Edit List**.
 1. In the **Enabled for** column, change the status to **All Users**.
@@ -29,23 +29,22 @@ The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax
 1. By selecting the **Create new setup** field, you can choose to create a new default setup data in an app.
 1. To transfer the existing data from the 1099 base application, select the **Transfer Existing Data** field.  
 
-  > [!NOTE]
-  > If you’re establishing [!INCLUDE[prod_short](../../../includes/prod_short.md)] for the first time, choose **Create New Setup** to create the forms and associated setups, and then you can fill in the appropriate fields in the forms and print them. If you’re upgrading and already have data for your 1099 form, you can choose **Transfer Existing Data** from the previous solution.
- 
-8. Specify how the IRS forms work with documents, as you can decide to choose the **Collect Details For Line** field. By selecting this field, the details will be collected from the **IRS 1099 Form Doc Line Details** page for each of **Calculated Amounts** in the **IRS 1099 Form Document**, but this option requires an extra space in the database.
+> [!NOTE]
+> If you’re establishing [!INCLUDE[prod_short](../../../includes/prod_short.md)] for the first time, choose **Create New Setup** to create the forms and associated setups, and then you can fill in the appropriate fields in the forms and print them. If you’re upgrading and already have data for your 1099 form, you can choose **Transfer Existing Data** from the previous solution.
+
+12. Specify how the IRS forms work with documents, as you can decide to choose the **Collect Details For Line** field. By selecting this field, the details will be collected from the **IRS 1099 Form Doc Line Details** page for each of **Calculated Amounts** in the **IRS 1099 Form Document**, but this option requires an extra space in the database.
 
 > [!NOTE]
-> If you don't select this field, the total amount will be calculated without the details. 
+> If you don't select this field, the total amount will be calculated without the details.
 
-1. You can choose one more option during setup.
-**Protect TIN** (Taxpayer Identification Number) to mask or protect TIN for vendors or for both vendors and your company.
+13. You can choose one more option during setup.
+**Protect TIN** (Taxpayer Identification Number) to mask or protect TIN for vendors or for both vendors and your company.  
+You can also choose not to protect TIN numbers if you want.
 
 > [!NOTE]
 > Using this protection option, enables you to print only the last four digits on your printing forms, truncating the first 5 digits of the 9-digit number and replacing these digits with Xs, following the IRS regulations (example: XXXXX1234), and providing more security when sending documents using the email option, protecting the recipient from identity theft.  
 
-You can also choose not to protect TIN numbers if you want.
-
-1. Finish the setup.    
+ 14. Finish the setup.    
 
 ## Manual setup  
 
@@ -92,7 +91,7 @@ By choosing the **IRS Setup** action in the **Related** menu, you can do the sam
 
 Users might need to make some additional setup on the **Vendor card** page. To do this, follow the steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
 2. All details related to the 1099 reporting can be found in the **Payments** FastTab. First, the user can see default values for the following fields, based on the **IRS 1099 Vendor Form Box Setup** configuration:
 
    - **IRS Reporting Period**

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: conceptual
-ms.date: 02/28/2024
+ms.date: 03/14/2024
 ms.custom: bap-template
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.search.form: 1826, 1827
@@ -113,7 +113,7 @@ If the chart of accounts in the business unit differs from the consolidated comp
 
 ### <a name="exchrates"></a>Specify exchange rates for consolidations
 
-If a business unit uses a different currency than the consolidated company, you must specify exchange rate methods for each account before you consolidate. For each account, the content of the **Consol. Translation Method** field determines the exchange rate. In the consolidated company, on each business unit card, in the **Currency Exchange Rate Table** field, you specify whether consolidation will use exchange rates from the business unit or the consolidated company. If you use exchange rates from the consolidated company, you can change the exchange rates for a business unit. For business units, if the **Currency Exchange Rate Table** field on the business unit card contains **Local**, you can change the exchange rate from the business unit card. The exchange rates are copied from the **Currency Exchange Rate** table, but you can change them before consolidating.
+If a business unit uses a different currency than the consolidated company, you must specify exchange rate methods for each account before you consolidate. For each account, the content of the **Consol. Translation Method** field determines the exchange rate. In the consolidated company, on each business unit card, in the **Currency Exchange Rate Table** field you specify whether consolidation uses exchange rates from the business unit or the consolidated company. If you use exchange rates from the consolidated company, you can change the exchange rates for a business unit. For business units, if the **Currency Exchange Rate Table** field on the business unit card contains **Local**, you can change the exchange rate from the business unit card. The exchange rates are copied from the **Currency Exchange Rate** table, but you can change them before consolidating.
 
 The following table describes the exchange rate methods you can use for accounts.
 
@@ -126,13 +126,11 @@ The following table describes the exchange rate methods you can use for accounts
 |Composite Rate | The current period amounts are translated at the average rate and added to the previously recorded balance in the consolidated company. You typically use this method for retained earnings accounts. Those accounts include amounts from different periods, so they contain amounts translated with different exchange rates.|
 |Equity Rate | This option is similar to **Composite**. Differences post to separate general ledger accounts.|
 
-To specify exchange rates for business units, follow these steps:
+To specify exchange rates for a business unit, follow these steps:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Business Units**, and then choose the related link.  
-2. On the **Business Unit List** page, choose the business unit, and then choose the **Average Rate (Manual)** action.  
-3. On the **Change Exchange Rate** page, the contents of the **Relational Exch. Rate** field have been copied from the **Currency Exchange Rate** table, but you can modify them. Close the page.  
-4. Choose the **Closing Rate** action.  
-5. In the **Relational Exch. Rate Amount** field, enter the exchange rate.
+2. On the **Business Unit List** page, choose the business unit, and then choose the **Exchange Rates** action.  
+3. On the **Setup Business Unit Currencies** page, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="dim"></a>Include or exclude dimensions
 

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.search.form: 315, 466, 467, 468, 469
-ms.date: 02/09/2024
+ms.date: 03/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -18,11 +18,11 @@ The following articles describe local functionality that is unique to the United
 * Tax
   * [Basic Tax Setup](us-tax-setup.md) **Available Now**
   * [Reporting Sales Tax in the US](us-sales-tax.md) **Available Now**
-  * [IRS 1099 Forms Overview](how-to-1099-introduction.md) **Available Now (24.0)**
-      * [IRS 1099 Forms Setup](how-to-1099-setup.md) **Available Now (24.0)**
+  * [IRS 1099 Forms Overview](introduction-to-the-irs-forms.md) **Available Now (24.0)**
+      * [IRS 1099 Forms Setup](../../UnitedStates/set-up-use-irs1096-form-v24.md) **Available Now (24.0)**
       * [Using of IRS 1099 Forms](how-to-1099-use.md) **Available Now (24.0)**
       * [Submitting and Reporting of IRS 1099 Forms](how-to-1099-report.md) **Available Now (24.0)**
-  * [Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md) **Available Now - Planned for Obsoletion**  
+  * [Set Up and Use the IRS 1099 Form](../../UnitedStates/set-up-use-irs1099-form.md) **Available Now - Planned for Obsoletion**  
   * [Regulatory 1099 Format Changes and Details](tax-1099-changes.md) **Available Now - Planned for Obsoletion**  
   * [Set Up and Use the IRS 1096 Form](set-up-use-irs1096-form.md) **Available Now**
   * [Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md) **Available Now**  

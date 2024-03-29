@@ -1,17 +1,17 @@
 ---
-title: Use e-documents in sales and purchases
-description: Learn how to use e-documents functionality that is related to sales and purchase invoices.
+title: Use e-documents in sales
+description: Learn how to use e-documents functionality that is related to sales.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, sales, deliver
 ms.search.form: 42, 43, 132, 6103, 6133, 6121, 9301, 9305
-ms.date: 10/03/2023
+ms.date: 03/29/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Use e-documents in the Sales Process
+# Use e-documents in the sales process
 
 You can use configured electronic documents (e-documents) with the sales documents.
 
@@ -25,13 +25,13 @@ You can use the following sales documents with e-documents functionality:
 - Finance charge memos
 - Reminders
 
-## E-documents in Sales  
+## E-documents in sales  
 
 To create and send an e-invoice to a customer, you must create and post the sales invoice. To learn more about the standard process, see [Invoice Sales](sales-how-invoice-sales.md).
 
 After you post the sales document, open the **Posted Sales Invoice** page to access the related **E-Document** page.
 
-### View E-Documents   
+### View e-documents   
 
 To view existing e-documents, follow these steps.
 
@@ -40,7 +40,7 @@ To view existing e-documents, follow these steps.
 3. The **Record** field shows the document number of the posted sales invoice. Select the link to open the document.
 4. In the **Electronic Document Status** field, you can view the real-time status of the document and its location in the process pipeline. If the document is posted, the status is **Processed**.
 
-### E-document Statuses and Logs 
+### E-document statuses and logs 
 
 For details about the service status level of your e-document, check the **E-Document Service Status** FastTab. On the lines, the system shows one or more services that the document used. In the most common scenario, each document uses only one service. However, a document can use multiple services.
 

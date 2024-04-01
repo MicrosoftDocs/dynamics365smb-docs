@@ -5,7 +5,7 @@ author: altotovi
 ms.topic: conceptual
 ms.search.keywords: local, 1099, tax, taxes, IRS
 ms.search.form: 50, 51, 132, 10036, 10037, 10049
-ms.date: 03/28/2024
+ms.date: 04/01/2024
 ms.author: altotovi
 ms.reviewer: 
 ms.service: dynamics-365-business-central
@@ -66,8 +66,8 @@ To create new 1099 form documents for the reporting years, you must follow the s
 
  -- or -- 
 
-3. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IRS 1009 Form Documents**, and then choose the related link. 
-4. On the **IRS 1009 Form Documents** page, choose the **Create Forms** action to create IRS 1099 forms based on the filters you want to use:   
+3. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IRS 1099 Form Documents**, and then choose the related link. 
+4. On the **IRS 1099 Form Documents** page, choose the **Create Forms** action to create IRS 1099 forms based on the filters you want to use:   
 
    - It's required to select the period. The other options are optional.  
    - If you don't select a vendor, then form documents will be created for all vendors. 
@@ -104,7 +104,7 @@ To create new 1099 form documents for the reporting years, you must follow the s
 ## See also 
 
 [United States Local Functionality](united-states-local-functionality.md)    
-[How to setup the IRS 1099 forms](../../UnitedStates/set-up-use-irs1096-form-v24.md)     
+[How to setup the IRS 1099 forms](../../UnitedStates/set-up-use-irs1099-form-v24.md)     
 [How to submit and report the IRS 1099](how-to-1099-report.md)    
 [Register New Vendors](../../purchasing-how-register-new-vendors.md)    
 [Record Purchase](../../purchasing-how-record-purchases.md)    

@@ -5,12 +5,13 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: access, right, security
 ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
-ms.date: 03/24/2023
+ms.date: 02/21/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Create Users According to Licenses
+# Create users according to licenses
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -93,6 +94,9 @@ If this default configuration isn't the right setup for a particular environment
 ### <a name="adduser"></a>To add users or update user information and license assignments in Business Central
 
 After you add users or change user information in the Microsoft 365 Admin Center, you can quickly import the user information to [!INCLUDE[prod_short](includes/prod_short.md)]. The import includes license assignments.  
+
+> [!TIP]
+> If you need to update user information and you have a lot of users, you can use the filter pane to narrow down the list. You can filter on basic information such as the user name, or set more technical filters, such as the user's security ID.
 
 1. Sign in to [!INCLUDE[prod_short](includes/prod_short.md)] using an administrator account.
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.  

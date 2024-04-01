@@ -30,7 +30,7 @@ Copilot is designed to save you time and help you write creative and engaging te
 
 ### Prerequisites
 
-- Marketing text suggestions feature is enabled and activated on your environment. This task is typically done by an admin. For more information, go to [Configure Copilot and AI capabilities](enable-ai.md).
+- Marketing text suggestions feature is activated on your environment. This task is typically done by an admin. For more information, go to [Configure Copilot and AI capabilities](enable-ai.md).
 - You're using one of the languages currently supported by the marketing text suggestions.
 
   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]

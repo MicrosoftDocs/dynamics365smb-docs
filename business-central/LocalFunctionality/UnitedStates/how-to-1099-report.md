@@ -60,11 +60,11 @@ If you try to send email for only one document and sending failed, the error dia
 
 ## See also 
 
-[United States Local Functionality](united-states-local-functionality.md)  
-[How to setup the IRS 1099 forms](../../UnitedStates/set-up-use-irs1099-form-v24.md)
-[How to use the IRS 1099 forms](how-to-1099-use.md)
-[Register New Vendors](../../purchasing-how-register-new-vendors.md)  
-[Set up Email](../../admin-how-setup-email.md)  
-[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[United States Local Functionality](united-states-local-functionality.md)    
+[How to setup the IRS 1099 forms](../../UnitedStates/set-up-use-irs1099-form-v24.md)  
+[How to use the IRS 1099 forms](how-to-1099-use.md)  
+[Register New Vendors](../../purchasing-how-register-new-vendors.md)    
+[Set up Email](../../admin-how-setup-email.md)    
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)    
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

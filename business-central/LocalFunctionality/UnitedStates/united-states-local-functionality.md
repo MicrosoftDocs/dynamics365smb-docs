@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.search.form: 315, 466, 467, 468, 469
-ms.date: 03/29/2024
+ms.date: 04/01/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -19,7 +19,7 @@ The following articles describe local functionality that is unique to the United
   * [Basic Tax Setup](us-tax-setup.md) **Available Now**
   * [Reporting Sales Tax in the US](us-sales-tax.md) **Available Now**
   * [IRS 1099 Forms Overview](introduction-to-the-irs-forms.md) **Available Now (24.0)**
-      * [IRS 1099 Forms Setup](../../UnitedStates/set-up-use-irs1096-form-v24.md) **Available Now (24.0)**
+      * [IRS 1099 Forms Setup](../../UnitedStates/set-up-use-irs1099-form-v24.md) **Available Now (24.0)**
       * [Using of IRS 1099 Forms](how-to-1099-use.md) **Available Now (24.0)**
       * [Submitting and Reporting of IRS 1099 Forms](how-to-1099-report.md) **Available Now (24.0)**
   * [Set Up and Use the IRS 1099 Form](../../UnitedStates/set-up-use-irs1099-form.md) **Available Now - Planned for Obsoletion**  

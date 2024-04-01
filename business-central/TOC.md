@@ -464,19 +464,32 @@ ms.service: dynamics-365-business-central
 ##### [Allocate costs to intercompany partners](intercompany-allocate-costs.md)
 ### [Accountant experiences in Business Central](finance-accounting.md)
 
-## Financial business intelligence and reports
-### [Financial business intelligence and reports overview](bi.md)
-### [Financial reports](finance-reports.md)
-### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
-### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
-### [Prepare financial reports with financial data and account categories](bi-how-work-account-schedule.md)
-### [Set up and publish KPI web services based on financial reports](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
-### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
-### [Create analysis reports](bi-how-create-analysis-views-reports.md)
-### [Analyze financial statements in Excel](finance-analyze-excel.md)
-### [Create reports with XBRL](bi-create-reports-with-xbrl.md)
-### [Manage database access intent](admin-data-access-intent.md)
-### [Walkthrough: Use financial reports to make cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+## Financial analytics 
+### [Financial analytics overview](bi.md)
+### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
+<!-- ### [Financial KPIs](bi-finance-kpis.md) -->
+
+### Financial reporting (Implementing financial statements and KPIs)
+#### [Prepare financial reporting](bi-how-work-account-schedule.md)
+#### [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Set up and publish a KPI web service based on financial reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+#### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
+#### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
+#### [Create analysis reports](bi-how-create-analysis-views-reports.md)
+
+<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+
+### Built-in finance analysis tools
+#### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)
+#### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
+#### [Analyze Cash Flow](finance-analyze-cash-flow.md)
+
+### Built-in finance reports
+#### [Built-in finance Excel reports](finance-analyze-excel.md)
+#### [Built-in key finance reports](finance-reports.md)
+#### [Built-in fixed assets reports](fa-reports.md)
+#### [Built-in accounts receivable reports](receivables-reports.md)
+#### [Built-in accounts payable reports](payables-reports.md)
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)

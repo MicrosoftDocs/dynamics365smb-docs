@@ -46,7 +46,7 @@ To start working with the **Sustainability Journals**, follow the steps:
 >[!NOTE]
 >If you use the batch where the emission scope is configured, the **Emission Scope** in the **Sustainability Account** must be equal to the **Emission Scope** in the used batch.  
 
-5. You have two options: how to post amounts, manually or using formulas:   
+5. You have two options: either manually post the amounts or use formulas.   
 
     1. If you have accurate information about the emission, you want to post it (i.e., you have it on the received invoice), you need to select the **Manual Input** field to specify that the amounts will be input manually. In this case, you can't populate your data in the **Fuel/Electricity**, **Distance**, **Custom Amount**, **Installation Multiplier**, and **Time Factor** fields, as they'll be non-editable for this choice. But the **Emission CO2**, **Emission CH4**, and **Emission N2O** fields will be editable, and you can fill in your data directly there. 
     2. If you don't know your emission accurately, you need to calculate it, and you need to haven't selected the **Manual Input** field, and in this case the **Emission CO2**, **Emission CH4**, and **Emission N2O** fields will be non-editable, but you can enter your calculation details based on the formula you're using. You can find more about the used formulas and defined in the **Sustainability Account Category** here in the [Chart of Sustainability Accounts and Ledger](finance-sustainability-accounts-ledger.md#Account-categories).  

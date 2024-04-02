@@ -139,7 +139,7 @@ ms.service: dynamics-365-business-central
 ## Get productive in Business Central
 ### [General functionality overview](ui-work-product.md)
 ### [Print-friendly cheat sheet](ui-work-product.md#cheatsheet)
-### [Chat with Copilot](chat-with-copilot.md)
+### [Chat with Copilot (preview)](chat-with-copilot.md)
 ### [Find pages and information with Tell Me](ui-search.md)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Search for specific data](ui-search-data.md)

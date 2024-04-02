@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD
 ms.search.form: 
-ms.date: 04/01/2024
+ms.date: 04/02/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -17,7 +17,7 @@ To have the Sustainability module working properly, you first need to set up som
 
 To set up a sustainability module, follow the next steps:  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Setup**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Setup**, and then choose the related link.  
 2. On the **General** FastTab, configure the required fields related to this module:   
 
 |  Field  |  Description  |  

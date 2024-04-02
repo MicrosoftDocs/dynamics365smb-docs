@@ -71,7 +71,7 @@ If you want to switch to a different topic of conversation with Copilot, select 
 
 The chat is also cleared if you close or sign out of Business Central.
 
-## Get the most out of your questions
+## <a name="tips"></a>Get the most out of your questions
 
 This section provides ways you can improve the answers you get from Copilot.
 

@@ -132,9 +132,9 @@ In **Shopify Admin**, notice that the order is now marked as *Fulfilled*. You ca
 
 ### Scenario
 
-After a successful quick launch of your new online store, you want your current customers to visit it and start placing orders. Depending on your Shopify plan and process you can try B2B and D2C flows.
+After a successful quick launch of your new online store, you want your current customers to visit it and start placing orders. Depending on your Shopify plan and process you can try B2B and DTC flows.
 
-### D2C Steps
+### DTC Steps
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following:
 

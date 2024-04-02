@@ -1,15 +1,15 @@
 ---
-title: Sales Reports and Analytics
+title: Sales reports and analytics
 description: See which sales reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_107, Report_111, Report_112, Report_113, Report_119, Report_121, Report_129, Report_209, Report_708, Report_713, Report_718, Report_813, Report_7313
-ms.date: 12/19/2023
+ms.date: 01/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Sales Reports and Analytics in Business Central
+# Sales reports and analytics in Business Central
 
 Sales reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows sales and business professionals to get insights and statistics about current and past sales activities.  
 

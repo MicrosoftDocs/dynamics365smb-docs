@@ -202,7 +202,7 @@ ms.service: dynamics-365-business-central
 ### [Intelligent insights (online only)](about-intelligent-cloud.md)
 ## Frequently Asked Questions
 ### [Frequently Asked Questions](across-faq.yml)
-### [Chat with Copliot FAQ](chat-with-copilot-faq.md)
+### [Chat with Copliot FAQ (preview)](chat-with-copilot-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Search and filter FAQ](ui-search-filter-faq.yml)
 ### [List views FAQ](ui-views-faq.yml)
@@ -2090,8 +2090,8 @@ ms.service: dynamics-365-business-central
 ### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## Chat with Copilot (preview)
 ### [Chat with Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
-### [FAQ for chat with Copilot (preview)](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
-### [Repsonsible AI FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+### [FAQ for chat with Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
+### [Repsonsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)

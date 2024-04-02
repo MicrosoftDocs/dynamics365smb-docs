@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, CoA, Chart, Account, Ledger
 ms.search.form: 6210, 6213, 6214, 6220
-ms.date: 04/01/2024
+ms.date: 04/02/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -37,7 +37,7 @@ You can add, change, or delete **Sustainability Accounts**. However, to prevent 
 
 ### Add or change accounts  
 
-1. Select the ![Lightbulb that opens the Tell Me feature 3.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Sustainability Accounts**, and then select the related link. 
+1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Sustainability Accounts**, and then select the related link. 
 2. On the **Chart of Sustainability Accounts** (CoSA) page, you can open each **Sustainability Account**, and then add or change settings. Hover over a field to read a short description. 
 
 For accounts of the **Total** account type, you must fill in the **Totaling** field. For **End-Total** accounts, this field is filled in automatically by the Indent function. After you have set up all the accounts, choose the **Indent Chart of Sustainability Accounts** action to do that.  
@@ -55,7 +55,7 @@ Users need to add the **Sustainability Account Category** to each of **Sustainab
 
 To review **Sustainability Account Categories**, follow the steps: 
 
-1.	Select the ![Lightbulb that opens the Tell Me feature 3.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Account Categories**, and then select the related link. 
+1.	Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Account Categories**, and then select the related link. 
 2.	On the **Sustainability Account Categories** page, you can edit the existing list or create a new category. For creating new category, select the **New** action.  
 3.	Fill in the **Code** and **Description** fields.   
 4.	Set up the **Emission Scope** field, choosing one of scope options.  
@@ -95,7 +95,7 @@ Users need to add the **Sustainability Account Subcategory** to each of **Sustai
 
 To review **Sustainability Account Subcategories**, follow the steps:  
 
-1.	Select the ![Lightbulb that opens the Tell Me feature 3.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Account Subcategories**, and then select the related link. 
+1.	Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Account Subcategories**, and then select the related link. 
 2.	On the **Sustainability Account Subcategories** page, you can edit the existing list or create a new category. For creating new category, select the **New** action.  
 3.	Fill in the **Code** and **Description** fields.   
 4.	Based on the gas emissions that you want to track in the **Sustainability Account Category**, and connect this subcategory with, you can also populate one or more emission factors: 
@@ -113,9 +113,9 @@ To review **Sustainability Account Subcategories**, follow the steps:
 
 **Sustainability Ledger** stores the history of all posted sustainability transactions, organizing all emission data according to the **Chart of Sustainability Accounts**. When a user posts the **Sustainability Journal**, all crucial data will be recorded there. All active reports are generated based on the **Sustainability Ledger Entries**.   
 
-User can open this ledger for one specific account using the **Ledger Entries** action from the **Chart of Sustainability Account** page or, to open all the ledger entries, select the ![Lightbulb that opens the Tell Me feature 3.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Ledger Entries**, and then select the related link. Hover over a field to read a short description.  
+User can open this ledger for one specific account using the **Ledger Entries** action from the **Chart of Sustainability Account** page or, to open all the ledger entries, select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Ledger Entries**, and then select the related link. Hover over a field to read a short description.  
 
->[!IMPORTNAT]
+>[!IMPORTANT]
 >Once you post your data into the Sustainability Ledger, you cannot delete them. In case you made a mistake, you can post the reverse trasaction using the same details, but using the negative sign for amount.  
 
 ## See also  

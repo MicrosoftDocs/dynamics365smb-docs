@@ -7,8 +7,10 @@ ms.search.keywords:
 ms.search.form: 315, 466, 467, 468, 469
 ms.date: 04/01/2024
 ms.author: bholtorf
+ms.reviewer: solsen
 ms.service: dynamics-365-business-central
 ---
+
 # United States local functionality
 
 The following articles describe local functionality that is unique to the United States version of [!INCLUDE[prod_short](../../includes/prod_short.md)].

@@ -12,6 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 
 # Set up the IRS 1099 forms in the US version
+
 The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax form for payments to vendors. Copies of these forms must be sent to vendors annually on or before the last day of January. On your purchase documents, you can specify that the document is 1099 liable, and you can specify the 1099 code for the vendor.
 
 

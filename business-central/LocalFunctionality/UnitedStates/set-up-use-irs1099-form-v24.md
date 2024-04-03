@@ -130,8 +130,8 @@ To do so, on the **IRS 1099 Forms** page and for specific form **No.**, choose t
 ## See also
 
 [United States Local Functionality](united-states-local-functionality.md)    
-[How to use the IRS 1099 forms](../../UnitedStates/set-up-use-irs1096-form-v24.md)  
-[How to submit and report the IRS 1099](../../UnitedStates/set-up-use-irs1096-form-v24.md#to-print-report-configuration)  
+[How to use the IRS 1099 forms](set-up-use-irs1096-form-v24.md)  
+[How to submit and report the IRS 1099](set-up-use-irs1099-form-v24.md#to-print-report-configuration)  
 [Register New Vendors](../../purchasing-how-register-new-vendors.md)    
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)    
 

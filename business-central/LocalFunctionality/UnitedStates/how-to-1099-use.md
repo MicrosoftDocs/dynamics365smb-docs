@@ -104,7 +104,7 @@ To create new 1099 form documents for the reporting years, you must follow the s
 ## See also 
 
 [United States Local Functionality](united-states-local-functionality.md)    
-[How to setup the IRS 1099 forms](../../UnitedStates/set-up-use-irs1099-form-v24.md)     
+[How to setup the IRS 1099 forms](set-up-use-irs1099-form-v24.md)     
 [How to submit and report the IRS 1099](how-to-1099-report.md)    
 [Register New Vendors](../../purchasing-how-register-new-vendors.md)    
 [Record Purchase](../../purchasing-how-record-purchases.md)    

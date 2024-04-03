@@ -7,7 +7,6 @@ ms.topic: faq
 ms.date: 04/03/2023
 ms.custom: bap-template 
 author: jswymer
-ms.service: dynamics365-business-central 
 ---
 
 # AI-powered item marketing text (preview) with Copilot FAQ

@@ -34,7 +34,7 @@ To create or edit a column definition, do as follows
 Starting with the 2024 release wave 1 (version 24.1), [!INCLUDE[prod_short](includes/prod_short.md)] ships with sample column definitions that helps you quickly get started setting up finance reports that suits your needs.
 
 | Column definition code | Description | How to use this column definition | 
-| ---------------------- | ----------- |--- ------------------------------ | 
+| ---------------------- | ----------- | --------------------------------- | 
 | TBA 1 | TBA 1 | TBA 1 |
 | TBA 2 | TBA 2 | TBA 2 |
 | TBA 3 | TBA 3 | TBA 3 |

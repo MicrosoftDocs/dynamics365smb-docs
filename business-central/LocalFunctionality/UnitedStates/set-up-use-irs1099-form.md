@@ -20,11 +20,11 @@ The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax
 
 ## Setup
 
-Before you start using [!INCLUDE[prod_short](../../../includes/prod_short.md)], you must set up **1099 Form Boxes** and **Vendors** as 1099 liable. The most common 1099 codes are already set up for you, and they're defined on the **1099 Form Box** page, where you can also add new 1099 codes. Before you prepare your reporting for the new year, you must first update your [!INCLUDE[prod_short](../../../includes/prod_short.md)] to handle the new requirements.
+Before you start using [!INCLUDE[prod_short](../../includes/prod_short.md)], you must set up **1099 Form Boxes** and **Vendors** as 1099 liable. The most common 1099 codes are already set up for you, and they're defined on the **1099 Form Box** page, where you can also add new 1099 codes. Before you prepare your reporting for the new year, you must first update your [!INCLUDE[prod_short](../../../includes/prod_short.md)] to handle the new requirements.
 
 ### To update the 1099 form boxes
 
-In order to support the form changes by the IRS, [!INCLUDE[prod_short](../../../includes/prod_short.md)] offers the **Update Form Boxes** action to include new codes and other requirements in the 1099 form. For more information, see [Regulatory 1099 Format Changes and Details](tax-1099-changes.md).
+In order to support the form changes by the IRS, [!INCLUDE[prod_short](../../includes/prod_short.md)] offers the **Update Form Boxes** action to include new codes and other requirements in the 1099 form. For more information, see [Regulatory 1099 Format Changes and Details](tax-1099-changes.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **1099 Form Boxes**, and then choose the related link.
 2. Choose the **Update Form Boxes** action.  

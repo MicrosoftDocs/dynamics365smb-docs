@@ -5,9 +5,9 @@ author: altotovi
 ms.topic: conceptual
 ms.search.keywords: local, 1099, IRS, tax
 ms.search.form: 10030, 10031, 10036, 10037
-ms.date: 03/28/2024
+ms.date: 04/03/2024
 ms.author: altotovi
-ms.reviewer: 
+ms.reviewer: solsen 
 ms.service: dynamics-365-business-central
 ---
 
@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 In this article, you'll understand:
 
-- What is IRS 1099 form?
+- What is the IRS 1099 form?
 - Who needs to file an IRS 1099 form?
 - Types of IRS forms
 
@@ -36,10 +36,10 @@ There are different types of 1099 forms, each corresponding to a specific type o
 There are many other types of 1099 forms, each with its own rules and requirements. You can find a complete list of 1099 forms and instructions on the IRS website.  
 
 > [!NOTE]
-> This guidance is not intended as comprehensive instruction for tax reporting. Before making your final calculations, it's advisable to seek advice from your tax consultant, accountant, and representatives from the IRS. 
+> This guidance isn't intended as comprehensive instruction for tax reporting. Before making your final calculations, it's advisable to seek advice from your tax consultant, accountant, and representatives from the IRS. 
 
 > [!IMPORTANT]
-> This functionality described here is active from [!INCLUDE[prod_short](../../includes/prod_short.md)] version 24.0 and it requires manual activation on the **Feature Management** page. Once, user activates it, the old [1099 functionality](set-up-use-irs1099-form.md) will be deactivated. This is the one direction process.  
+> The functionality described here is active from [!INCLUDE[prod_short](../../includes/prod_short.md)] version 24.0 and it requires manual activation on the **Feature Management** page. Once, the user activates it, the old [1099 functionality](set-up-use-irs1099-form.md) will be deactivated. This is the one direction process.  
 
 This feature is integrated with IRS and it will not print 1099 forms on preprinted original IRS 1099 forms. Instead, [!INCLUDE[prod_short](../../includes/prod_short.md)] will submit 1099 forms through integration with IRS and send Copy Bs to vendors as printed **Copy Substitutions** printed on plain paper.  
 

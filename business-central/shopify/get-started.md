@@ -51,6 +51,10 @@ For existing instances of [!INCLUDE[prod_short](../includes/prod_short.md)], thi
 2. Choose the **New** action.  
 3. In the **Code** field, enter a code that will be easy to find in [!INCLUDE[prod_short](../includes/prod_short.md)]. For example, the name might reflect what a shop sells, such as "Furniture" or "Coffee," or the country or region it serves.
 4. In the **Shopify URL** field, enter the URL of the online shop that you're connecting. Use the following format: `https://{shop}.myshopify.com/`.
+
+   > [!TIP]
+   > You can copy the URL from Shopify Admin, like `https://admin.shopify.com/store/{shop}`, and the connector will convert it to the required format.
+
 5. Turn on the **Enabled** toggle, and then review and accept the terms and conditions.
 6. If prompted, sign in to your Shopify account. Review the privacy terms and permissions, and then choose the **Install App** button.
 
@@ -69,7 +73,7 @@ Repeat steps 2-6 for all online shops that you want to connect.
 
 Now your online shop is connected to [!INCLUDE[prod_short](../includes/prod_short.md)]. In the next steps, you'll define how and what to synchronize.
 
-- [Synchronize Items](synchronize-items.md)
+- [Synchronize Items and Inventory](synchronize-items.md)
 - [Synchronize Customers](synchronize-customers.md)
 - [Synchronize Orders](synchronize-orders.md)
 

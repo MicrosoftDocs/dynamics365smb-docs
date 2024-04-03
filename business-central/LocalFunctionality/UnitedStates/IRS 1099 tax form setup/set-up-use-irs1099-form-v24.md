@@ -5,9 +5,9 @@ author: altotovi
 ms.topic: conceptual
 ms.search.keywords: local, 1099, IRS, Tax
 ms.search.form: 26, 10030, 10031, 10033, 10034
-ms.date: 03/27/2024
+ms.date: 04/03/2024
 ms.author: altotovi
-ms.reviewer: 
+ms.reviewer: solsen
 ms.service: dynamics-365-business-central
 ---
 
@@ -48,7 +48,7 @@ You can also choose not to protect TIN numbers if you want.
 
 ## Manual setup  
 
-If you aren't able to finish the setup while enabling this feature or want to modify or add some configurations, follow the steps:  
+If you aren't able to finish the setup while enabling this feature or want to modify or add some configurations, follow these steps:  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IRS Forms Setup**, and then choose the related link. 
 2. On the **General** FastTab, you can change the setup for the **Collect Details For Line** and **Protect TIN** fields, as mentioned previously.  

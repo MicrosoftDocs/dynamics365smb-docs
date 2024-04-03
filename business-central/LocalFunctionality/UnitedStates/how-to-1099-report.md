@@ -29,7 +29,7 @@ After calculation, you can print the document using the **Print** action. When r
 
 - Copy B is for the vendor.
 - Copy C is for the sender.
--	Copy 2 is the second copy for the vendor.
+- Copy 2 is the second copy for the vendor.
 
 ## Email automation 
 
@@ -61,7 +61,7 @@ If you try to send email for only one document and sending failed, the error dia
 ## See also 
 
 [United States Local Functionality](united-states-local-functionality.md)    
-[How to setup the IRS 1099 forms](../../UnitedStates/set-up-use-irs1099-form-v24.md)  
+[How to setup the IRS 1099 forms](set-up-use-irs1099-form-v24.md)  
 [How to use the IRS 1099 forms](how-to-1099-use.md)  
 [Register New Vendors](../../purchasing-how-register-new-vendors.md)    
 [Set up Email](../../admin-how-setup-email.md)    

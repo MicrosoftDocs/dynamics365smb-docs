@@ -58,7 +58,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], a new 1099 Form Box cod
 
 ## See also
 
-[Set Up and Use the IRS 1099 Form](../../UnitedStates/set-up-use-irs1099-form-v24.md)  
+[Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form-v24.md)  
 [United States Local Functionality](united-states-local-functionality.md)  
 [Register New Vendors](../../purchasing-how-register-new-vendors.md)  
 [Record Purchase](../../purchasing-how-record-purchases.md)  

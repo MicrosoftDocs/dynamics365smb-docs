@@ -1,13 +1,13 @@
 ---
-    title: Iceland W1 core app setup
-    description: This article provides instructions about delocalization of the Icelandic version of Dynamics 365 Business Central.
-    author: altotovi
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 04/02/2024
-    ms.author: altotovi
-    ms.service: dynamics-365-business-central
+title: Iceland W1 core app setup
+description: This article provides instructions about delocalization of the Icelandic version of Dynamics 365 Business Central.
+author: altotovi
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/02/2024
+ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
 # Iceland core app setup
@@ -21,7 +21,7 @@ To finish the migration to new localization model, you need to follow the steps:
 3. Choose **Next**. 
 
 > [!NOTE]
-> Note that this process includes data migration, so after enabling this app, it is not possible to disable it again.
+> This process includes data migration, so after enabling this app, it isn't possible to switch it on again.
  
 1. Select the **I accept the data update** field to confirm whether you understand the update procedure and agree to proceed. It's highly recommended to select on the **Review Affected Data** link to review affected data. 
 1. Choose **Finish**.   

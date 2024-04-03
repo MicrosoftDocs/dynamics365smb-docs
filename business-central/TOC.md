@@ -1058,6 +1058,7 @@ ms.service: dynamics-365-business-central
 #### General  
 ##### [Map IRS numbers to the chart of accounts](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Delete posted invoices and credit memos](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
+##### [Registration number in the Icelandic localization](LocalFunctionality/Iceland/use-registration-no.md)
 
 ### India
 #### [Overview](LocalFunctionality/India/india-local-functionality.md)

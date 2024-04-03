@@ -1,17 +1,20 @@
 ---
-title: Set up and use the IRS 1099 Form [US]
+title: Set up and use the IRS 1099 form [US]
 description: Learn how to set up the 1099 tax form boxes so that you can submit the required reports.
 author: altotovi
 ms.topic: conceptual
 ms.search.keywords: local, 1099
 ms.search.form: 26, 29, 50, 51, 10015, 10016, 10018, 10900
-ms.date: 03/27/2024
+ms.date: 03/28/2024
 ms.author: altotovi
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
 # Set up and use the IRS 1099 form in the US version
+
+> [!IMPORTANT]
+> From version 24.0, you can start using this new 1099 functionality for better transparency, integration, and automation. To do this, you must enable this new feature using the **Feature Management** page. You can find more details [here](introduction-to-the-irs-forms.md). If you do not enable it earlier, [!INCLUDE[prod_short](../../includes/prod_short.md)] will automatically do it with the version 27.0, so we recommend to start using the new version right now.  
 
 The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax form for payments to vendors. Copies of these forms must be sent to vendors annually on or before the last day of January. On your purchase documents, you can specify that the document is 1099 liable, and you can specify the 1099 code for the vendor.
 

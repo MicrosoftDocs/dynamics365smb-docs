@@ -25,7 +25,7 @@ Setting up financial reports requires an understanding of the structure of your 
 - Design how you use dimensions.
 - Set up G/L budgets.
 
-G/L account categories simplify your financial report definitions and make them more resiliant to changes in the chart of accounts structure. Learn more at [Use G/L account categories to change the layout of your financial statements](#use-gl-account-categories-to-change-the-layout-of-your-financial-statements).
+G/L account categories simplify your financial report definitions and make them more resiliant to changes in the chart of accounts structure. Learn more at [Use G/L account categories to change the layout of your financial statements](bi-row-definitions.md#use-gl-account-categories-to-change-the-layout-of-your-financial-statements).
 
 Setting up dimensions allows you to slice and dice your financial data in ways that make sense for your organization. Learn more at [Work with Dimensions](finance-dimensions.md). 
 
@@ -81,7 +81,7 @@ The financial reports in the standard version of [!INCLUDE[prod_short](includes/
 1. Choose a row definition and a column definition.
 1. Optionally, choose analysis views for the row and column definitions.
 1. Choose the **Edit Financial Report** action to access more properties on the financial report.
-1. On the **Options** FastTab, you can edit the report description, change the row and column definitions, and define how to show dates. Dates can be a Day/Week/Month/Quarter/Year hierachy, or use accounting periods. To learn more, go to [Comparing accounting periods using period formulas](#comparing-accounting-periods-using-period-formulas).
+1. On the **Options** FastTab, you can edit the report description, change the row and column definitions, and define how to show dates. Dates can be a Day/Week/Month/Quarter/Year hierachy, or use accounting periods. To learn more, go to [Comparing accounting periods using period formulas](bi-column-definitions.md#comparing-accounting-periods-using-period-formulas).
 1. On the **Dimensions** FastTab, you can define dimension filters for the report.
 1. You can preview the report in the area below the **Dimensions** FastTab.
 

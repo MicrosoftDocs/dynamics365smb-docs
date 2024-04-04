@@ -90,6 +90,15 @@ If you want to calculate by regular time periods, you must enter a formula in th
 Learn more at [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
 
+## Best practices for working with column definitions
+
+Column definitions are not versioned, so when you change something in a column definition, the old version is overwritten when your change is saved to the database. This list contains some best practices for working with column definitions:
+
+- When adding new column definitions, choose a good code and fill in the description field with a meaningful text while you still know what the column definition is to be used for. This helps both your co-workers (and your future self) working with financial reporting and perhaps changing the column definition.
+- Before changing a column definition, consider taking a copy of it as a backup, should your change not work as expected. You can either just copy the definition (give it a good name) or export it (see [Importing or exporting column definitions](#importing-or-exporting-financial-report-column-definitions)) below.
+- Should you need to get a fresh copy of one of the definitions that ship with [!INCLUDE[prod_short](includes/prod_short.md)], the easiest is to create a new company that only contains setup data. Then export the definition there and import it in the company where the definition needs a refresh. 
+
+
 ## Importing or exporting financial report column definitions
 
 Starting with the 2024 release wave 1 (version 24.1), you can import and export financial report column definitions as RapidStart configuration packages, which are useful for sharing the information with other companies, for example. The package is created in a .rapidstart file, which compresses the contents.

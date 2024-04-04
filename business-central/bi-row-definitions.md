@@ -58,6 +58,15 @@ Another benefit of using G/L account categories over the raw G/L accounts in you
 > You should create and structure your own lower-level G/L account categories from scratch, in a hierarchy if needed, rather than try to rearrange the existing ones. For example, you can restructure the **Liabilities** node to contain a new **Equity** node followed by the **Current Liabilities** and **Long Term Liabilities** nodes. Learn more at [Mapping general ledger accounts to account categories](finance-general-ledger.md#account-categories).
 
 
+## Best practices for working with row definitions
+
+Row definitions are not versioned, so when you change something in a row definition, the old version is overwritten when your change is saved to the database. This list contains some best practices for working with row definitions:
+
+- When adding new row definitions, choose a good code and fill in the description field with a meaningful text while you still know what the row definition is to be used for. This helps both your co-workers (and your future self) working with financial reporting and perhaps changing the row definition.
+- Before changing a row definition, consider taking a copy of it as a backup, should your change not work as expected. You can either just copy the definition (give it a good name) or export it (see [Importing or exporting row definitions](#importing-or-exporting-financial-reporting-row-definitions)) below.
+- Should you need to get a fresh copy of one of the definitions that ship with [!INCLUDE[prod_short](includes/prod_short.md)], the easiest is to create a new company that only contains setup data. Then export the definition there and import it in the company where the definition needs a refresh. 
+
+
 ## Importing or exporting financial reporting row definitions
 
 You can import and export financial row definitions as RapidStart configuration packages, which are useful for sharing the information with other companies, for example. The package is created in a .rapidstart file, which compresses the contents.

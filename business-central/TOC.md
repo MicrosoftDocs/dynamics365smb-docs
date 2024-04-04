@@ -1049,6 +1049,7 @@ ms.service: dynamics-365-business-central
 
 ### Iceland
 #### [Local functionality in the Icelandic version](LocalFunctionality/Iceland/iceland-local-functionality.md)
+#### [Iceland W1 core app setup](LocalFunctionality/Iceland/iceland-global-core-app.md)
 #### VAT
 ##### [Print VAT summary information on documents](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Special data output and reports for the tax authority](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
@@ -1057,6 +1058,7 @@ ms.service: dynamics-365-business-central
 #### General  
 ##### [Map IRS numbers to the chart of accounts](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Delete posted invoices and credit memos](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
+##### [Registration number in the Icelandic localization](LocalFunctionality/Iceland/use-registration-no.md)
 
 ### India
 #### [Overview](LocalFunctionality/India/india-local-functionality.md)

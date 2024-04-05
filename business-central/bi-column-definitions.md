@@ -14,24 +14,23 @@ ms.service: dynamics-365-business-central
 
 # Column definitions in Financial Reporting
 
-Use column definitions to specify the columns to include in the report. For example, you can design a report layout to compare net change and balance for the same period this year and last year. You can have up to 15 columns in a column definition. For example, multiple columns are useful for displaying budgets for 12 months with a column that shows the total.
+Use column definitions to specify the columns to include in a report. For example, you can design a report layout to compare net change and balance for the same period this year and last year. You can have up to 15 columns in a column definition. For example, multiple columns are useful for displaying budgets for 12 months with a column that shows the total.
 
 ## Create or edit a column definition
 
-To create or edit a column definition, do as follows
+To create or edit a column definition, follow these steps.
 
 > [!NOTE]
-> A printed/previewed/saved version of a financial report displays a maximum of five columns. In contrast, if a financial report is only meant for analysis on the **Financial Report** page, you can create as many columns as you want.
+> A printed, previewed, and saved versions of a financial report display a maximum of five columns. In contrast, if a financial report is only meant for analysis on the **Financial Report** page, you can create as many columns as you want.
 
-1. On the **Financial Reports** page, select the relevant financial report, then choose the **Edit Column Definition** action.
+1. On the **Financial Reports** page, select the relevant financial report, and then choose the **Edit Column Definition** action.
 1. On the **Column Definition** page, create a row for each column of financial data shown in the financial report. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 1. Choose **OK**.
 1. Open the **Financial Report** page from time to time to verify the new column definition works as intended.
 
-
 ## Built-in column definitions
 
-[!INCLUDE[prod_short](includes/prod_short.md)] ships with sample column definitions that helps you quickly get started setting up finance reports that suits your needs.
+[!INCLUDE[prod_short](includes/prod_short.md)] provides sample column definitions that can help you to quickly get started setting up finance reports that suit your needs.
 
 <!-- update this when we release the new templates in 24.1
 | Column definition code | Description | How to use this column definition | 
@@ -44,25 +43,28 @@ To create or edit a column definition, do as follows
 
 ## Example: Create a column definition to calculate percentages
 
-You might want to include a column in a financial report to calculate percentages of a total. For example, if you have rows that break down sales by dimension, you may want a column to indicate the percentage of total sales in each row.
+You might want to include a column in a financial report to calculate percentages of a total. For example, if you have rows that break down sales by dimension, you might want a column to indicate the percentage of total sales in each row.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 2.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.
 1. On the **Financial Reports** page, select a financial report.  
 1. Choose the **Edit Financial Report** action to set up a financial report row to calculate the total on which the percentages are based.  
-1. add a line immediately above the first row for which you want to display a percentage.  
-1. Fill in the fields on the line as follows: In the **Totaling Type** field, enter **Set Base for Percent**. In the **Totaling** field, enter a formula for the total the percentage will be based on. For example, if row 11 contains the total sales, enter **11**.  
+1. Add a line immediately above the first row for which you want to display a percentage.  
+1. Fill in the fields on the line as follows: 
+    1. In the **Totaling Type** field, enter **Set Base for Percent**. 
+    1. In the **Totaling** field, enter a formula for the total that the percentage is based on. For example, if row 11 contains the total sales, enter **11**.  
 1. Choose the **Edit Column Definition** action to set up a column.  
-1. Fill in the fields on the line as follows. In the **Column Type** field, select **Formula**. In the **Formula** field, enter a formula for the amount you want to calculate a percentage for, followed by the percentage sign (%). So, if column number N contains the net change, enter **N%**.  
+1. Fill in the fields on the line as follows. 
+    1. In the **Column Type** field, select **Formula**. 
+    1. In the **Formula** field, enter a formula for the amount you want to calculate a percentage for, followed by the percentage sign (%). So, if column number N contains the net change, enter **N%**.  
 1. Repeat steps 4 through 7 for each group of rows you want to break down by percentage.
-
 
 ## Comparing accounting periods using period formulas
 
 Your financial report can compare the results of different accounting periods, such as the past month versus the same month last year. To do that, open the **Column Definition** page, and personalize it by adding the **Comparison Period Formula** field as a column. Learn more at [Personalize Your Workspace](ui-personalization-user.md). You can then set that field to a period formula.  
 
-An accounting period doesn't need to match the calendar. However, each fiscal year must have the same number of accounting periods, even though each period can be different in length.  
+An accounting period doesn't need to match the calendar. However, each fiscal year must have the same number of accounting periods, although each period can be different in length.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] uses the period formula to calculate the duration of the comparison period in relation to the period represented by the date filter on the report. The comparison period is based on the period of the start date of the date filter. The abbreviations for period specifications are:
+[!INCLUDE[prod_short](includes/prod_short.md)] uses the period formula to calculate the duration of the comparison period in relation to the period represented by the date filter on the report. The comparison period is based on the period of the start date of the date filter. The following table shows the abbreviations for period specifications.
 
 | Abbreviation | Description                                                                           |
 | ------------ | ------------------------------------------------------------------------------------- |
@@ -73,45 +75,36 @@ An accounting period doesn't need to match the calendar. However, each fiscal ye
 
 Examples of formulas:
 
-| Formula         | Description                                                                                     |
-| --------------- | ----------------------------------------------------------------------------------------------- |
-| \<Blank\>       | Current period.                                                                                  |
-| \-1P            | Previous period.                                                                                 |
-| \-1FY\[1..LP\]  | Entire previous fiscal year.                                                                     |
-| \-1FY           | Current period in previous fiscal year.                                                          |
-| \-1FY\[1..3\]   | First quarter of previous fiscal year.                                                           |
+| Formula | Description |
+|-----|-----|
+| \<Blank\>       | Current period. |
+| \-1P            | Previous period.            |
+| \-1FY\[1..LP\]  | Entire previous fiscal year.                  |
+| \-1FY           | Current period in previous fiscal year.       |
+| \-1FY\[1..3\]   | First quarter of previous fiscal year.        |
 | \-1FY\[1..CP\]  | From the beginning of the previous fiscal year to the current period in the previous fiscal year, including both periods. |
 | \-1FY\[CP..LP\] | From the current period in previous fiscal year to the last period of the previous fiscal year, including both periods.   |
 
-If you want to calculate by regular time periods, you must enter a formula in the **Comparison Date Formula** field instead. For instance, if the field is set to -1Y, [!INCLUDE [prod_short](includes/prod_short.md)] compares to the same period one year earlier.
+To calculate by regular time periods, enter a formula in the **Comparison Date Formula** field instead. For example, if the field is set to -1Y, [!INCLUDE [prod_short](includes/prod_short.md)] compares to the same period one year earlier.
 
 > [!NOTE]
-> It is not always transparent which periods you are comparing because you can set a date filter on a report that spans different dates than the accounting periods reflected in the chart of accounts. So, if you create a financial report where you want to compare this period to the same period last year, you set the **Comparison Date Formula** field to *-1FY*. Then, you run the report on February 28th and set the date filter to January and February. As a result, the financial report compares January and February this year to January last year, which is the only completed accounting period of the two for last year.  
+> It isn't always obvious which periods you're comparing because you can set a date filter on a report that spans dates that are different than the accounting periods in your chart of accounts. So, if you create a financial report where you want to compare this period to the same period last year, set the **Comparison Date Formula** field to **-1FY**. Then, run the report on **February 28th** and set the date filter to **January and February**. As a result, the financial report compares January and February this year to January last year, which is the only completed accounting period of the two for last year.  
 
 Learn more at [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
+[!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs.md)]
 
-## Best practices for working with column definitions
+## Import or export financial report column definitions
 
-Column definitions are not versioned, so when you change something in a column definition, the old version is overwritten when your change is saved to the database. This list contains some best practices for working with column definitions:
-
-- When adding new column definitions, choose a good code and fill in the description field with a meaningful text while you still know what the column definition is to be used for. This helps both your co-workers (and your future self) working with financial reporting and perhaps changing the column definition.
-- Before changing a column definition, consider taking a copy of it as a backup, should your change not work as expected. You can either just copy the definition (give it a good name) or export it (see [Importing or exporting column definitions](#importing-or-exporting-financial-report-column-definitions)) below.
-- Should you need to get a fresh copy of one of the definitions that ship with [!INCLUDE[prod_short](includes/prod_short.md)], the easiest is to create a new company that only contains setup data. Then export the definition there and import it in the company where the definition needs a refresh. 
-
-
-## Importing or exporting financial report column definitions
-
-Starting with the 2024 release wave 1 (version 24.1), you can import and export financial report column definitions as RapidStart configuration packages, which are useful for sharing the information with other companies, for example. The package is created in a .rapidstart file, which compresses the contents.
+Starting with the 2024 release wave 1 (version 24.1), you can import and export financial report column definitions as RapidStart configuration packages. For example, configuration packages are useful for sharing information with other companies. The package is created in a .rapidstart file, which compresses the contents.
 
 > [!NOTE]
-> When you import financial report column definitions, existing records with the same names as those you are importing will be replaced with the new definitions. Note that the configuration package for a report definition will not overwrite any existing row or column definitions that are used in the report definition.
+> When you import financial report column definitions, existing records with the same names as those you are importing are replaced with the new definitions. The configuration package for a report definition won't overwrite any existing row or column definitions that are used in the report definition.
 
 To import or export financial report column definitions, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Column Definitions**, then choose the related link.
-1. Choose the row definition, then choose the **Import Column Definition** or **Export Column Definition** action, depending on what you want to do.
-
+1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Column Definitions**, and then choose the related link.
+1. Choose the row definition, and then choose the **Import Column Definition** or **Export Column Definition** action, depending on what you want to do.
 
 ## See also
 

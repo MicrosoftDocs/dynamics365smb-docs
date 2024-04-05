@@ -170,8 +170,8 @@ To import or export financial report definitions, follow these steps:
 
 To learn more about how to import or export financial report row or column definitions, go to the following articles: 
 
-- [Importing or exporting financial reporting row definitions](bi-row-definitions.md#importing-or-exporting-financial-reporting-row-definitions), or
-- [Importing or exporting financial reporting column definitions](bi-column-definitions.md#importing-or-exporting-financial-report-column-definitions)
+- [Import or export financial reporting row definitions](bi-row-definitions.md#import-or-export-financial-reporting-row-definitions), or
+- [Import or export financial reporting column definitions](bi-column-definitions.md#import-or-export-financial-report-column-definitions)
 
 ## See also
 

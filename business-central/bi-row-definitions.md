@@ -32,15 +32,16 @@ To create or edit a row definition, do as follows
 
 ## Built-in row definitions
 
-Starting with the 2024 release wave 1 (version 24.1), [!INCLUDE[prod_short](includes/prod_short.md)] ships with sample row definitions that helps you quickly get started setting up finance reports that suits your needs.
+[!INCLUDE[prod_short](includes/prod_short.md)] ships with sample row definitions that helps you quickly get started setting up finance reports that suits your needs.
 
+<!-- update this when we release the new templates in 24.1
 | Row definition code | Description | How to use this row definition | 
 | ------------------- | ----------- | ------------------------------ | 
 | TBA 1 | TBA 1 | TBA 1 |
 | TBA 2 | TBA 2 | TBA 2 |
 | TBA 3 | TBA 3 | TBA 3 |
-| TBA 4 | TBA 4 | TBA 4 |
-
+| TBA 4 | TBA 4 | TBA 4 | 
+-->
 
 > [!NOTE]
 > The sample finance reports in [!INCLUDE[prod_short](includes/prod_short.md)] aren't ready to use out-of-the box. Depending of the way you set up your G/L accounts, dimensions, G/L account categories, and budgets, you need to adjust the sample row and column definitions and the finance reports they're used in to match your setup.

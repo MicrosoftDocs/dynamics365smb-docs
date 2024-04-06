@@ -35,7 +35,7 @@ This article explains how to control Copilot and other AI capabilities in Busine
 
   In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)-->
 
-If any of these requirements aren't fulfilled, the feature isn't available for use.-->
+If any of these requirements aren't fulfilled, the feature isn't available for use.
 
 ## Prerequisites
 

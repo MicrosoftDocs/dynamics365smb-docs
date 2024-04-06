@@ -132,7 +132,8 @@ You must have either SUPER permissions in Business Central user account or one o
 - BC Admin
 - D365 Admin
 
-Business Central doesn't offer granular, object-level permissions at this time so that only specific administrators can configure Copilot.
+Business Central doesn't yet offer granular, object-level permissions so that only specific administrators can configure Copilot.
+
 ## Next steps
 
 After you enable and consent to the features, you're ready to try them out. Go to:

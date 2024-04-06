@@ -40,7 +40,7 @@ If any of these requirements aren't fulfilled, the feature isn't available for u
 ## Prerequisites
 
 - You're using Business Central online.
-- You 're an [administrator](#requirements-for-being-an-administrator) in Business Central.
+- You're an [administrator](#requirements-for-being-an-administrator) in Business Central.
 
 ## Allow data movement across geographies
 

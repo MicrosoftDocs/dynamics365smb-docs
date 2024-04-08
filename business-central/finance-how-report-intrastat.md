@@ -103,8 +103,8 @@ Grouping required by authorities will be provided in the exported file. You need
 
 Fixed assets will be shown in the Intrastat lines only if:
 
-* The **FA Posting Type** in the **VAT Ledger Entry** field is **Acquisition Cost** and if the **Document Type** is **Invoice** in the case of purchases, and
-* The **FA Posting Type** in the **VAT Ledger Entry** field is **Proceeds on Disposal** and if the **Document Type** is **Invoice** in the case of sales.
+* The **FA Posting Type** in the **FA Ledger Entry** field is **Acquisition Cost** and if the **Document Type** is **Invoice** in the case of purchases, and
+* The **FA Posting Type** in the **FA Ledger Entry** field is **Proceeds on Disposal** and if the **Document Type** is **Invoice** in the case of sales.
 
 ### Intrastat report statuses
 

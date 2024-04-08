@@ -233,23 +233,23 @@ additionalContent:
  #       url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams 
  #     - text: Dataverse
  #       url: /dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration 
-    - title: Translation Services
-      links:
-      - text: Dynamics 365 Translation Service overview
-        url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview
-      - text: Dynamics 365 Translation Service API 
-        url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/dts-api-info 
-      - text: Dynamics Lifecycle Services API - Authentication  
-        url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-aad-app-reg
-      - text: Translate user interface files  
-        url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/use-translation-service       
+ #   - title: Translation Services
+ #     links:
+ #     - text: Dynamics 365 Translation Service overview
+ #       url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview
+ #     - text: Dynamics 365 Translation Service API 
+ #       url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/dts-api-info 
+ #     - text: Dynamics Lifecycle Services API - Authentication  
+ #       url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-aad-app-reg
+ #     - text: Translate user interface files  
+ #       url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/use-translation-service       
     - title: Copilot and AI capabilities
       links:
       - text: Features and responsible AI FAQs
         url: /dynamics365/business-central/responsible-ai-overview
       - text: Configure Copilot and AI capabilities
         url: /dynamics365/business-central/enable-ai
-      - text: Developer tools for Copilot 
+      - text: Extend Copilot 
         url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page
 
   - title: Be productive
@@ -302,8 +302,12 @@ additionalContent:
 #            url: /dynamics365/business-central/about-localization
       - title: Use Copilot
         links:
-          - text: Get marketing text suggestion
+          - text: Get marketing text suggestions
             url: /dynamics365/business-central/ai-overview
+          - text: Reconcile bank accounts (preview)
+            url: /dynamics365/business-central/bank-reconciliation-with-copilot
+          - text: Chat with Copilot
+            url: /dynamics365/business-central/co
           - text: Reconcile bank accounts
             url: /dynamics365/business-central/bank-reconciliation-with-copilot
   - title: Do business

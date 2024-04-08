@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077
-ms.date: 01/10/2024
+ms.date: 04/08/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -57,7 +57,7 @@ If needed, you can modify the lines, but whenever you change a value in the Intr
 
 ## Validate Intrastat lines
 
-After you fill in the **Intrastat Report**, you can run the **Checklist Report** action to ensure that all information in the **Intrastat Report** is correct. Mandatory fields you have set on **Intrastat Report Checklist** page that are missing values will be shown in **Errors and warning** FactBox on the **Intrastat Report** page.
+After you fill in the **Intrastat Report**, you can run the **Checklist Report** action to ensure that all information in the **Intrastat Report** is correct. Mandatory fields you have set on Intrastat Report Checklist page that is missing values will be shown in **Errors and warning** FactBox on the **Intrastat Report** page.
 
 Run the **Intrastat Report Checklist** report to check Intrastat lines before they're exported to the required format. The check is run inside the **Intrastat Report**.
 

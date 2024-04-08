@@ -129,36 +129,34 @@ Now you can copy and paste your budget statement into a spreadsheet.
 
 ## Integrate financial reports with Excel
 
-You can use a financial report to integrate to an Excel workbook template, which you can layout to your choice, and then update data in the Excel template from within [!INCLUDE[prod_short](includes/prod_short.md)]. This way, you can easily generate your monthly/yearly financial statements in a format that works for you.
+You can integrate a financial report with an Excel workbook template, adjust the layout to suit your needs, and then update the Excel template with data from [!INCLUDE[prod_short](includes/prod_short.md)]. For example, this integration makes it easier to generate your monthly and yearly financial statements in a format that works for you.
 
-### Setup Excel integration for a financial report (create an Excel template)
+### Set up Excel integration for a financial report (create an Excel template)
 
-To setup Excel integration for a financial report, do as follows to create an Excel template for a report.
+To set up Excel integration for a financial report, follow these steps to create an Excel template for a report.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.
-1. On the **Financial Reports** page, select the financial report to enable with Excel, then choose the **Export to Excel** action.
-1. Choose the **Create New Document** action. This downloads a template Excel workbook for you with a single worksheet named after the report name. 
-1. Copy the worksheet and rename it to *Data*.
+1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, and then choose the related link.
+1. On the **Financial Reports** page, select the financial report to enable with Excel, and then choose the **Export to Excel** action.
+1. Choose the **Create New Document** action. This action downloads a template Excel workbook with a single worksheet named after the report name.
+1. Copy the worksheet, and rename it to **Data**.
 1. Rename the report worksheet to your liking.
-1. In the report worksheet, mark all cells that show data from the financial report (including column and row headers). In the ``Home`` ribbon, find the ``Number`` menu and choose *General* as the format.
-1. Now, place the cursor in the left most cell of the area showing data from the financial report and set a reference to the equivalent cell in the Data worksheet. Drag the formula to the right to extend to all cells in the first row , and then drag the row down to cover all rows in the financial report.
-1. Hide the *Data* worksheet.
-1. Now, format the report worksheet as you want it. 
-1. Save the workbook in Onedrive or a similar place where the file is backed up and versioned.
-1. Remember to close the workbook.
-
+1. In the report worksheet, mark all cells that show data from the financial report (including column and row headers). On the **Home** ribbon, find the **Number** menu and choose **General** as the format.
+1. Choose the left most cell of the area with data from the financial report, and set a reference to the equivalent cell in the Data worksheet. Drag the formula to the right to extend it to all cells in the first row, and then drag the row down to cover all rows in the financial report.
+1. Hide the **Data** worksheet.
+1. Format the report worksheet to suit your needs.
+1. Save the workbook in OneDrive, or a similar place where the file is backed up and versioned.
+1. Close the workbook.
 
 ### Run a financial report with an Excel template
 
-To run a financial report with an Excel template, do as follows
+To run a financial report with an Excel template, follow these steps:
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, then choose the related link.
-1. On the **Financial Reports** page, select the financial report to enable with Excel, then choose the **Export to Excel** action.
-1. Choose the **Update Copy of Existing Document** action. 
+1. Choose the ![Lightbulb that opens the Tell Me feature 4.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Financial Reports**, and then choose the related link.
+1. On the **Financial Reports** page, select the financial report to enable with Excel, and then choose the **Export to Excel** action.
+1. Choose the **Update Copy of Existing Document** action.
 1. Upload your Excel template (close the Excel workbook before uploading it).
 1. On the **Name/Value Lookup** page, choose the Data worksheet.
-1. [!INCLUDE[prod_short](includes/prod_short.md)] will now run the financial report and merge the resulting data with your Excel template. 
-
+1. [!INCLUDE[prod_short](includes/prod_short.md)] runs the financial report and merges the resulting data with your Excel template.
 
 ## Print and save financial reports
 

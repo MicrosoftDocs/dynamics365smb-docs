@@ -307,9 +307,9 @@ additionalContent:
           - text: Reconcile bank accounts (preview)
             url: /dynamics365/business-central/bank-reconciliation-with-copilot
           - text: Chat with Copilot
-            url: /dynamics365/business-central/co
+            url: /dynamics365/business-central/chat-with-copilot
           - text: Reconcile bank accounts
-            url: /dynamics365/business-central/bank-reconciliation-with-copilot
+            url: /dynamics365/business-central/analysis-assist
   - title: Do business
     items:
 #      - title: Workspace settings

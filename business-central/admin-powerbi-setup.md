@@ -4,8 +4,10 @@ description: Learn how to set up the connection to Power BI. With Power BI repor
 author: jswymer
 ms.topic: get-started
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 09/28/2023
+ms.date: 01/28/2024
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Enabling Power BI Integration With [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -90,7 +92,13 @@ This section explains the requirements for a [!INCLUDE[prod_short](includes/prod
 
     To make the initial connection, open [!INCLUDE[prod_short](includes/prod_short.md)], and run **Get Started with Power BI** from the Home page. This action will lead you through the consent process, and check your Power BI license. When prompted sign in using an Microsoft Entra admin account. For more information, see [Connect to Power BI - one time only](across-working-with-powerbi.md#connect).
 
-## See Also
+## Setting up Dataflows
+
+Dataflows enable you to ingest, transform, and load data into a Power BI workspace and then use the data as the basis for your reports. These dataflows can in some cases experience transient errors while doing a scheduled refresh. The error message looks like this: `DataSource.Error: OData: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.` 
+
+Using PowerAutomate, you can set up retries for this situation. For more information, see [Automatically retry a dataflow on failure](/power-query/dataflows/automatically-retry-dataflow).
+
+## See also
 
 [Business Central and Power BI](admin-powerbi.md)  
 [Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

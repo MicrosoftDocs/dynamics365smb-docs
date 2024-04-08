@@ -9,6 +9,7 @@ ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Print the Cash Order Journal CO-3 Report

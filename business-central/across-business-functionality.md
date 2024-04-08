@@ -3,13 +3,12 @@ title: Business Functionality Supported by Business Central
 description: Provides a feature overview of all the business functions and departments supported by application areas, such as finance, inventory, and project management.
 author: brentholtorf
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 11/01/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Business Functionality
 
@@ -26,7 +25,7 @@ ms.author: bholtorf
 |Manage sales processes and information, such as quotes, orders, returns, and customer accounts, and make drop shipments.|[Sales](sales-manage-sales.md)|
 |Manage purchasing processes and information, such as invoices, orders, returns, and vendor accounts, and purchase items from sales documents. |[Purchasing](purchasing-manage-purchasing.md)|
 |Register new inventory or service-type items, categorize items for easy searching, adjust inventory levels, and perform common inventory costing tasks.|[Inventory](inventory-manage-inventory.md)|
-|Create jobs and schedule resources for projects, manage job budgets, monitor progress, and track machine and employee hours.|[Project Management](projects-manage-projects.md)|
+|Create projects and schedule resources for projects, manage project budgets, monitor progress, and track machine and employee hours.|[Project Management](projects-manage-projects.md)|
 |Organize your fixed assets, ensure correct periodic depreciation, and keep track of maintenance costs.|[Fixed Assets](fa-manage.md)|
 |Manage and support your sales efforts, and focus your interactions on preferred customers and contacts.|[Relationship Management](marketing-relationship-management.md)|
 |Keep detailed records of your employees, and register absences for analysis purposes. |[Human Resources](hr-manage-human-resources.md)|

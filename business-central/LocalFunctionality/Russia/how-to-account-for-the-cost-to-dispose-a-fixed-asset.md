@@ -7,6 +7,7 @@ ms.search.keywords:
 ms.date: 11/14/2023
 ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Account for the cost to dispose a fixed asset

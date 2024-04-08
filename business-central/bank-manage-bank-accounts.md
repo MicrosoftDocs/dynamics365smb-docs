@@ -3,13 +3,12 @@ title: Manage Bank Accounts
 description: You must regularly reconcile bank ledger entries with the related bank transactions in your bank accounts.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: reconcile
 ms.search.form: 377, 378, 165, 1284
 ms.date: 10/04/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Manage and Reconcile Your Bank Accounts
 

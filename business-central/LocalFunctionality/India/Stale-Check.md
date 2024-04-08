@@ -3,12 +3,11 @@
     description: Specifies Basic Setups and Process of how to stale check
     author: v-debapd
     ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords: India, local, IN, English
     ms.date: 12/08/2023
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 
 # Setting up stale check

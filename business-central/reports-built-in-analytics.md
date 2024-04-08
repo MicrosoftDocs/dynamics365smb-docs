@@ -3,13 +3,12 @@ title: Built-in Analytics
 description: Provides a overview of all the features that support analytics tasks in the Business Central product.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Built-in Analytics
 

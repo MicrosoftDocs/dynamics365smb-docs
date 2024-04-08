@@ -8,10 +8,11 @@ ms.search.form: 9171
 ms.date: 08/25/2023
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 # Customize pages for profiles
+
 
 Business Central provides both [personalization](ui-personalization-user.md) for users and customization for administrators. Personalization allows users to tailor their workspace by adjusting page layouts to suit their own preferences. Administrators can customize page layouts for a specific profile, based on business roles or departments, so that all assigned users see the same customized page. While personalization allows users to show, hide, and move fields and actions on a page, customization offers extra capabilities. For example, customization allows you to show fields that are in the page's source table or extension tables but aren't defined on the page object&mdash;this isn't possible personalization.  <!--For more information, see [Personalize Your Workspace](ui-personalization-user.md).-->
 
@@ -94,12 +95,15 @@ Use the filter button above the list to change what category of fields are prese
  
 ### Add table field that's not on the page object
 
-If you want to make a table-only field available on a page to users, you must first add it to the page. Once you've added the field, users can choose to show or hide the field as they like using personalization. There are couple ways to add a field.
+If you want to make a table-only field available on a page to users, you must first add it to the page. Once you've added the field, users can choose to show or hide the field by using personalization. There are couple ways to add a field.
 
 - One way is to drag it from  **Add field to page** pane to the desired position.
 - Another way is to select the field in the pane to display the recommended location on the page. Then go to the field location on the pages, select the arrowhead, then select **Add**. 
 
-Once the field has been added, the tooltip for the field in the  **Add field to page** pane switches to **Defined by the page**. The added field is locked from editing and can't be unlocked.
+Once the field has been added, the tooltip for the field in the  **Add field to page** pane switches to **Defined by the page**.
+
+> [!NOTE]
+> The added field is locked from editing and can't be unlocked.
 
 ## Remove a field
 

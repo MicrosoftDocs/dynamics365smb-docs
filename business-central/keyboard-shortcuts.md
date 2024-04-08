@@ -7,7 +7,7 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 12/14/2023
 ms.author: jswymer
 ms.review: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
@@ -20,7 +20,6 @@ For an overview of the most popular keyboard shortcuts, see [Keyboard shortcuts 
 > [!TIP]
 > For a graphical view of the most used shortcuts, choose the following image and download the PDF file.  
 > [ ![Icon for the PDF file.](media/keyboard_shortcut_inline.png) ](media/keyboard-shortcuts-2023.pdf "Icon that opens a PDF")
-
 
 
 ## Overview
@@ -154,7 +153,7 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 |Select these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
 |<kbd>Alt</kbd>+<kbd>D</kbd>|Open the dimension set entries.|
-|<kbd>Alt</kbd>+<kbd>F6</kbd>|Toggle collapse/expand for the current Fast<kbd>Tab</kbd> or part (subpage).|
+|<kbd>Alt</kbd>+<kbd>F6</kbd>|Toggle collapse/expand for the current FastTab or part (subpage).|
 |<kbd>Alt</kbd>+<kbd>F9</kbd>|Create new document and post it.|
 |<kbd>Alt</kbd>+<kbd>G</kbd>|Open the **Find Entries** page for finding entries related to the posted document. Works on lists also.|
 |<kbd>Alt</kbd>+<kbd>N</kbd> |Open a page to create a new record; the same way as choosing the **New** action. |
@@ -168,11 +167,11 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 |<kbd>Ctrl</kbd>+<kbd>F7</kbd>|Open ledger entries, logs entries, cost entries, and so on.|
 |<kbd>Ctrl</kbd>+<kbd>F9</kbd>|Release document.|
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd> |Maximize the line items part on a document page. Select the keys again to return to the normal display. For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).|
-|<kbd>F6</kbd>|Move to the next Fast<kbd>Tab</kbd> or part (subpage).|
+|<kbd>F6</kbd>|Move to the next FastTab or part (subpage).|
 |<kbd>F7</kbd>|Open statistics.|
 |<kbd>F9</kbd>|Post, issue, register, or reverse document.|
 |<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>F9</kbd>|Post, print, and put away warehouse receipt.|
-|<kbd>Shift</kbd>+<kbd>F6</kbd>|Move to previous Fast<kbd>Tab</kbd> or part (subpage).|
+|<kbd>Shift</kbd>+<kbd>F6</kbd>|Move to previous FastTab or part (subpage).|
 |<kbd>Shift</kbd>+<kbd>F9</kbd>|Post and print a document.|
 |<kbd>Shift</kbd>+<kbd>F11</kbd>|Apply entries, get source documents, or get warehouse documents.|
 
@@ -194,10 +193,10 @@ When setting a date field, you can either enter the date manually or open a cale
 |--------------------------------|----------|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>|Open the calendar if closed. **Note**: This doesn't work if the date field is in a grid, where <kbd>Ctrl</kbd>+<kbd>Home</kbd> jumps to the first row.|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Home</kbd>)|Move to the current month, current day.|
-|<kbd>Ctrl</kbd>+<kbd>Left Arrow</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Left Arrow</kbd>)|Move to the previous day.|
-|<kbd>Ctrl</kbd>+<kbd>Right Arrow</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Right Arrow</kbd>)|Move to the next day.|
-|<kbd>Ctrl</kbd>+<kbd>Up Arrow</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Up Arrow</kbd>)|Move to the previous week, same day of the week.|
-|<kbd>Ctrl</kbd>+<kbd>Down Arrow</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Down Arrow</kbd>)|Move to the next week, same day of the week.|
+|<kbd>Left Arrow</kbd><br /><br />(<kbd>Left Arrow</kbd>)|Move to the previous day.|
+|<kbd>Right Arrow</kbd><br /><br />(<kbd>Right Arrow</kbd>)|Move to the next day.|
+|<kbd>Up Arrow</kbd><br /><br />(<kbd>Up Arrow</kbd>)|Move to the previous week, same day of the week.|
+|<kbd>Down Arrow</kbd><br /><br />(<kbd>Down Arrow</kbd>)|Move to the next week, same day of the week.|
 |<kbd>Enter</kbd>|Select the focused date.|
 |<kbd>Ctrl</kbd>+<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Close the calendar and delete the current date.|
 |<kbd>Esc</kbd>|Close the calendar without a selection, keep the current date.|

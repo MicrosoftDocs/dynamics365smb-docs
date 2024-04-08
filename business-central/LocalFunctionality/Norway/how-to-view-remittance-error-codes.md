@@ -3,13 +3,12 @@ title: View remittance error codes [NO]
 description: For a remittance error, the error code from the bank, and an explanation of the error is shown for the payment on the Waiting Journal page in the Norwegian version of Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 11/22/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # View remittance error codes in the Norwegian version
 

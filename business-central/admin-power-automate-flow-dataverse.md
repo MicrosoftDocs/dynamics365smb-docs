@@ -3,14 +3,13 @@ title: Use a Power Automate flow to timely synchronize Dataverse entity changes
 description: Learn how to create a flow in Power Automate that will alert you when an entity is changed in Dataverse environment. 
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: Power Automate, Flow, Dataverse
 ms.search.form: 
 ms.date: 09/05/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Use a Power Automate flow to timely synchronize Dataverse entity changes
 

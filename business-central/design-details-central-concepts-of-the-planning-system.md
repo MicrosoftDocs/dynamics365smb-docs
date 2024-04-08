@@ -4,7 +4,7 @@ description: Planning suggests actions for the user to take based on the demand/
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 01/25/2023
 ms.custom: bap-template
@@ -12,7 +12,7 @@ ms.custom: bap-template
 ---
 # Design Details: Central Concepts of the Planning System
 
-The planning functions are contained in a batch job that first selects the relevant items and period to plan for. Then, according to each item's low-level code (BOM position), the batch job calls a code unit that calculates a supply plan. The code unit balances supply-demand sets and suggests actions for the user to take. The suggested actions appear as lines in the planning worksheet or the requisition worksheet.  
+The planning functions are contained in a batch project that first selects the relevant items and period to plan for. Then, according to each item's low-level code (BOM position), the batch job calls a code unit that calculates a supply plan. The code unit balances supply-demand sets and suggests actions for the user to take. The suggested actions appear as lines in the planning worksheet or the requisition worksheet.  
 
 ![Contents of the Planning Worksheets page.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Contents of the Planning Worksheets page")  
 
@@ -76,7 +76,7 @@ After you run planning, the Action Message Entry table doesn't contain any actio
 
 ## Sequence and priority in planning
 
-The sequence of the calculations in your plan is important for getting the job done in a reasonable amount of time. The prioritization of requirements and resources also plays an important role in getting the best results.  
+The sequence of the calculations in your plan is important for getting the project done in a reasonable amount of time. The prioritization of requirements and resources also plays an important role in getting the best results.  
 
 The planning system is demand-driven. High-level items should be planned before low-level items because they might generate demand for lower-level items. For example, plan retail locations before distribution centers because the retail location might include demand from the distribution center. On a detailed balancing level, if a released supply order can cover a sales order the system shouldn't create a new supply order. A supply with a specific lot number shouldn't be allocated to cover a generic demand if another demand requires this specific lot.  
 
@@ -268,7 +268,7 @@ If the field isn't selected, the **Calculate Plan** batch job will continue unti
 
 ## Planning flexibility
 
-It isn't always practical to plan an existing supply order. For example, when production has started or you hire extra people on a specific day to do the job. To indicate whether the planning system can change an order, all supply order lines have a **Planning Flexibility** field with two options: **Unlimited** or **None**. If the field is set to **None**, the planning system won't try to change the supply order line.  
+It isn't always practical to plan an existing supply order. For example, when production has started or you hire extra people on a specific day to do the project. To indicate whether the planning system can change an order, all supply order lines have a **Planning Flexibility** field with two options: **Unlimited** or **None**. If the field is set to **None**, the planning system won't try to change the supply order line.  
 
 You can manually choose an option in the field, however, in some cases it'll be set automatically by [!INCLUDE [prod_short](includes/prod_short.md)]. The fact that you can manually set planning flexibility is important because it makes it easy to adapt the use of the feature to different workflows and business cases. To learn more about how this field is used, go to [Design Details: Transfers in Planning](design-details-transfers-in-planning.md).  
 

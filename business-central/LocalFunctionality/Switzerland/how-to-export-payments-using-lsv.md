@@ -3,13 +3,12 @@
     description: You can export or write Lastschrift Verfahren (LSV+) files that contain payments information after closing the LSV collection.
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
     ms.date: 06/21/2021
     ms.author: bholtorf
+    ms.service: dynamics-365-business-central
 ---
 # Export Payments Using LSV in the Swiss Version
 You can export or write Lastschrift Verfahren (LSV+) files that contain payments information after closing the LSV collection. You can send the generated files to the bank on a disk, or use an electronic file transfer such as your online banking software or an Internet portal.  

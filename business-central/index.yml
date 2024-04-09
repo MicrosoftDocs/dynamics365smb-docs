@@ -302,16 +302,16 @@ additionalContent:
             url: /dynamics365/business-central/analysis-mode            
           - text: Analyze report data with Excel
             url: /dynamics365/business-central/report-analyze-excel                                                                                
-      - title: General business functionality
-        links:
-          - text: General journals
-            url: /dynamics365/business-central/ui-work-general-journals
-          - text: Post documents and journals
-            url: /dynamics365/business-central/ui-post-documents-journals
-          - text: Job queues
-            url: /dynamics365/business-central/admin-job-queues-schedule-tasks
-          - text: Incoming documents
-            url: /dynamics365/business-central/across-income-documents
+#     - title: General business functionality
+#       links:
+#          - text: General journals
+#            url: /dynamics365/business-central/ui-work-general-journals
+#          - text: Post documents and journals
+#            url: /dynamics365/business-central/ui-post-documents-journals
+#          - text: Job queues
+#            url: /dynamics365/business-central/admin-job-queues-schedule-tasks
+#          - text: Incoming documents
+#            url: /dynamics365/business-central/across-income-documents
 #          - text: Local functionality
 #            url: /dynamics365/business-central/about-localization
   - title: Do business

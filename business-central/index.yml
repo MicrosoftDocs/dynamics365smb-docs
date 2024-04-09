@@ -256,7 +256,7 @@ additionalContent:
 
   - title: Be productive
     items:
-      - title: Use Copilot
+      - title: Copilot
         links:
           - text: Chat with Copilot
             url: /dynamics365/business-central/chat-with-copilot

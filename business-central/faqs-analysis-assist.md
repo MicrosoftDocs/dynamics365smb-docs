@@ -23,7 +23,7 @@ These frequently asked questions (FAQ) describe the AI impact of the analysis as
 
 ## What is analysis assist?
 
-Analysis assist is a Copilot that provides assistance for working with the [data analysis mode](analysis-mode) in Business Central. The data analysis mode enables you to organize, aggregate, and summarize data on pages and queries to make it more suitable for analyzing and extracting meaningful insights. With analysis assist, you can automatically construct the view of the data you want to analyze by expressing your needs in simple, natural language, like "show vendors by location sorted by number of purchases." Analysis assist makes it easier to work with data without the need for complex technical skills.
+Analysis assist is a Copilot that provides assistance for working with the [data analysis mode](analysis-mode.md) in Business Central. The data analysis mode enables you to organize, aggregate, and summarize data on pages and queries to make it more suitable for analyzing and extracting meaningful insights. With analysis assist, you can automatically construct the view of the data you want to analyze by expressing your needs in simple, natural language, like "show vendors by location sorted by number of purchases." Analysis assist makes it easier to work with data without the need for complex technical skills.
 
 ## What are capabilities of analysis assist?
 
@@ -71,7 +71,7 @@ Users have the opportunity to provide feedback to every Copilot response and rep
   
   - Geographical limitation:
   
-    The feature is available in all supported [Business Central countries/regions](dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) except for Canada, due to regulatory language compliance. However, the feature uses Microsoft Azure OpenAI Service, which is currently available for Business Central in some geographies. If your environment is located in a country/region where Azure OpenAI Service isn't available, administrators must allow data to move across geographies. [Learn more](dynamics365/business-central/ai-copilot-data-movement).
+    The feature is available in all supported [Business Central countries/regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) except for Canada, due to regulatory language compliance. However, the feature uses Microsoft Azure OpenAI Service, which is currently available for Business Central in some geographies. If your environment is located in a country/region where Azure OpenAI Service isn't available, administrators must allow data to move across geographies. [Learn more](/dynamics365/business-central/ai-copilot-data-movement).
 
 - Certain industry, product, and subject limitations:
 

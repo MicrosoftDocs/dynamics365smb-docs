@@ -1,6 +1,6 @@
 ---
 title: Analyze data in lists with help from Copilot (preview)
-description: Learn how to use the data analysis mode in Business central to analyze data.
+description: Learn how to use Copilot in Business central to analyze data.
 author: jswymer 
 ms.author: jswymer
 ms.reviewer: jswymer

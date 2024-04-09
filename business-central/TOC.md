@@ -139,7 +139,7 @@ ms.service: dynamics-365-business-central
 ## Get productive in Business Central
 ### [General functionality overview](ui-work-product.md)
 ### [Print-friendly cheat sheet](ui-work-product.md#cheatsheet)
-### [Chat with Copilot](chat-with-copilot.md)
+### [Chat with Copilot (preview)](chat-with-copilot.md)
 ### [Find pages and information with Tell Me](ui-search.md)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Search for specific data](ui-search-data.md)
@@ -202,7 +202,7 @@ ms.service: dynamics-365-business-central
 ### [Intelligent insights (online only)](about-intelligent-cloud.md)
 ## Frequently Asked Questions
 ### [Frequently Asked Questions](across-faq.yml)
-### [Chat with Copliot FAQ](chat-with-copilot-faq.md)
+### [Chat with Copliot FAQ (preview)](chat-with-copilot-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Search and filter FAQ](ui-search-filter-faq.yml)
 ### [List views FAQ](ui-views-faq.yml)
@@ -464,19 +464,34 @@ ms.service: dynamics-365-business-central
 ##### [Allocate costs to intercompany partners](intercompany-allocate-costs.md)
 ### [Accountant experiences in Business Central](finance-accounting.md)
 
-## Financial business intelligence and reports
-### [Financial business intelligence and reports overview](bi.md)
-### [Financial reports](finance-reports.md)
-### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
-### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
-### [Prepare financial reports with financial data and account categories](bi-how-work-account-schedule.md)
-### [Set up and publish KPI web services based on financial reports](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
-### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
-### [Create analysis reports](bi-how-create-analysis-views-reports.md)
-### [Analyze financial statements in Excel](finance-analyze-excel.md)
-### [Create reports with XBRL](bi-create-reports-with-xbrl.md)
-### [Manage database access intent](admin-data-access-intent.md)
-### [Walkthrough: Use financial reports to make cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+## Financial analytics 
+### [Financial analytics overview](bi.md)
+### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
+<!-- ### [Financial KPIs](bi-finance-kpis.md) -->
+
+### Financial reporting (Implementing financial statements and KPIs)
+#### [Prepare financial reporting](bi-how-work-account-schedule.md)
+#### [Row definitions in financial reporting](bi-row-definitions.md)
+#### [Column definitions in financial reporting](bi-column-definitions.md)
+#### [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Set up and publish a KPI web service based on financial reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+#### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
+#### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
+#### [Create analysis reports](bi-how-create-analysis-views-reports.md)
+
+<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+
+### Built-in finance analysis tools
+#### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)
+#### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
+#### [Analyze Cash Flow](finance-analyze-cash-flow.md)
+
+### Built-in finance reports
+#### [Built-in finance Excel reports](finance-analyze-excel.md)
+#### [Built-in key finance reports](finance-reports.md)
+#### [Built-in fixed assets reports](fa-reports.md)
+#### [Built-in accounts receivable reports](receivables-reports.md)
+#### [Built-in accounts payable reports](payables-reports.md)
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
@@ -1036,6 +1051,7 @@ ms.service: dynamics-365-business-central
 
 ### Iceland
 #### [Local functionality in the Icelandic version](LocalFunctionality/Iceland/iceland-local-functionality.md)
+#### [Iceland W1 core app setup](LocalFunctionality/Iceland/iceland-global-core-app.md)
 #### VAT
 ##### [Print VAT summary information on documents](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Special data output and reports for the tax authority](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
@@ -1044,6 +1060,7 @@ ms.service: dynamics-365-business-central
 #### General  
 ##### [Map IRS numbers to the chart of accounts](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Delete posted invoices and credit memos](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
+##### [Registration number in the Icelandic localization](LocalFunctionality/Iceland/use-registration-no.md)
 
 ### India
 #### [Overview](LocalFunctionality/India/india-local-functionality.md)
@@ -2077,8 +2094,8 @@ ms.service: dynamics-365-business-central
 ### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## Chat with Copilot (preview)
 ### [Chat with Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
-### [FAQ for chat with Copilot (preview)](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
-### [Repsonsible AI FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+### [FAQ for chat with Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
+### [Repsonsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)

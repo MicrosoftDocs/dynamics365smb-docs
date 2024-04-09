@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, CoA, Chart, Account, Ledger
 ms.search.form: 6210, 6213, 6214, 6220
-ms.date: 04/02/2024
+ms.date: 04/09/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -76,7 +76,7 @@ If you use the **Calculation Foundation** (formulas), there's an explanation, ho
 |  |  |  Emission = Distance * EF | _i.e.,  Distance = Milleage of on-road or non-road vehicles, rail..._ |
 | Fugitive emissions | Installation | Emission = Installation multiplier * Custom Amount / 100 * Time Factor | _i.e.,  Custom Amount = Assembly losses, Annual leak rate..._ |
 | **SCOPE 2**  |
-| Utillity providers | Fuel/Electricity | Emission = Electricity * EF | _i.e., Fuel/Electricity = Electricity quantity, Steam quantity, Heating unit..._ |
+| Utility providers | Fuel/Electricity | Emission = Electricity * EF | _i.e., Fuel/Electricity = Electricity quantity, Steam quantity, Heating unit..._ |
 |  | Custom | Emission = Custom Amount * EF | _i.e., Custom Amount = Thermal unit, Ton-hour..._ |
 | **SCOPE 3**  |
 | Purchased goods and services, and capital goods | Custom | Emission = Custom Amount * EF | _i.e., Custom Amount = Cost (GL)..._ |
@@ -120,10 +120,10 @@ User can open this ledger for one specific account using the **Ledger Entries** 
 
 ## See also  
 [Finance](finance.md)    
-[Sustainability management overview](finance-manage-sustainability.md)
-[Sustainability Setup](finance-sustainability-setup.md)
-[How to record emissions](finance-sustainability-journal.md)
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Sustainability management overview](finance-manage-sustainability.md)  
+[Sustainability Setup](finance-sustainability-setup.md)  
+[How to record emissions](finance-sustainability-journal.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

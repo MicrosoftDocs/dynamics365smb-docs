@@ -22,7 +22,6 @@ For an overview of the most popular keyboard shortcuts, see [Keyboard shortcuts 
 > [ ![Icon for the PDF file.](media/keyboard_shortcut_inline.png) ](media/keyboard-shortcuts-2023.pdf "Icon that opens a PDF")
 
 
-
 ## Overview
 
 Keyboard shortcuts aid accessibility and can make it easier and more efficient to navigate to different areas and elements on a page. Most web browsers support these shortcuts, however, the behavior might vary slightly.
@@ -194,10 +193,10 @@ When setting a date field, you can either enter the date manually or open a cale
 |--------------------------------|----------|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>|Open the calendar if closed. **Note**: This doesn't work if the date field is in a grid, where <kbd>Ctrl</kbd>+<kbd>Home</kbd> jumps to the first row.|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Home</kbd>)|Move to the current month, current day.|
-|<kbd>Ctrl</kbd>+<kbd>Left Arrow</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Left Arrow</kbd>)|Move to the previous day.|
-|<kbd>Ctrl</kbd>+<kbd>Right Arrow</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Right Arrow</kbd>)|Move to the next day.|
-|<kbd>Ctrl</kbd>+<kbd>Up Arrow</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Up Arrow</kbd>)|Move to the previous week, same day of the week.|
-|<kbd>Ctrl</kbd>+<kbd>Down Arrow</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Down Arrow</kbd>)|Move to the next week, same day of the week.|
+|<kbd>Left Arrow</kbd><br /><br />(<kbd>Left Arrow</kbd>)|Move to the previous day.|
+|<kbd>Right Arrow</kbd><br /><br />(<kbd>Right Arrow</kbd>)|Move to the next day.|
+|<kbd>Up Arrow</kbd><br /><br />(<kbd>Up Arrow</kbd>)|Move to the previous week, same day of the week.|
+|<kbd>Down Arrow</kbd><br /><br />(<kbd>Down Arrow</kbd>)|Move to the next week, same day of the week.|
 |<kbd>Enter</kbd>|Select the focused date.|
 |<kbd>Ctrl</kbd>+<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Close the calendar and delete the current date.|
 |<kbd>Esc</kbd>|Close the calendar without a selection, keep the current date.|

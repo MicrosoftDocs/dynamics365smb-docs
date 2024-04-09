@@ -1,21 +1,20 @@
 ---
-title: Record Purchases with Purchase Invoices  (contains video)
+title: Record purchases with purchase invoices (contains video)
 description: Describes how to purchase inventory, non-inventory items, or resources by creating and posting purchase invoices or orders.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: procurement
 ms.search.form: 50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310
-ms.date: 12/19/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ---
-# Record Purchases with Purchase Invoices and Orders
+# Record purchases with purchase invoices and orders
 
 You create a purchase invoice or purchase order to record the cost of purchases and to track accounts payable. Purchase invoices and purchase orders are also used to dynamically update inventory levels, meaning you can minimize inventory costs and provide better customer service. The purchasing costs, including service expenses, and inventory values that result from posting purchase invoices or orders, contribute to profit figures and other financial key performance indicators (KPIs) in your Role Center.
 
-## Record Purchases with Purchase Invoices
+## Record purchases with purchase invoices
 
 When you receive the inventory items or the purchased service is complete, post the purchase invoice to update inventory and financial records and to activate payment to the vendor according to the payment terms. [Making Payments](payables-make-payments.md).
 
@@ -27,11 +26,11 @@ When you receive the inventory items or the purchased service is complete, post 
 The following steps describe how to create a purchase invoice. The steps for creating a purchase order are similar. The main difference is that purchase orders have some extra fields and actions for physical handling of items.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**,  then choose the related link.  
-2. In the **Vendor** field, enter the name of an existing vendor.
+2. In the **Vendor Name** field, enter the name of an existing vendor.
 
     Other fields on the **Purchase Invoice** page are now filled with standard information for the selected vendor. If the vendor isn't registered, follow these steps:
 
-    1. In the **Vendor** field, enter the name of the new vendor.
+    1. In the **Vendor Name** field, enter the name of the new vendor.
     2. In the dialog box about registering the new vendor, choose **Yes**.
     3. To learn more on how to fill in the vendor card, go to [Register New Vendors](purchasing-how-register-new-vendors.md).  
     4. When you complete the vendor card, choose **OK** to return to the **Purchase Invoice** page.
@@ -51,10 +50,10 @@ The following steps describe how to create a purchase invoice. The steps for cre
 
     The totals fields under the lines are automatically updated as you create or modify lines to display the amounts posted to the ledgers.
 
-6. In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field at the bottom of the invoice.
+6. In the **Inv. Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field at the bottom of the invoice.
 
     > [!NOTE]  
-    > If you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the **Vendor Invoice Discount %** field if the criteria are met. The related amount is inserted in the **Invoice Discount Amount** field.
+    > If you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the **Vendor Invoice Discount %** field if the criteria are met. The related amount is inserted in the **Inv. Discount Amount** field.
 7. When you receive the purchased items or services, choose **Post**.
 
 The purchase is now reflected in inventory, resource ledgers, and financial records, and the vendor payment is activated. The purchase invoice is removed from the list of purchase invoices and replaced with a new document in the list of posted purchase invoices.  For more information on what happens when you post purchase documents, see [Posting Purchases](purchasing-how-record-purchases.md#posting-purchases).
@@ -80,7 +79,7 @@ The lines on a purchase invoice can be of the **Resource** or **Item** type. Ite
 > [!NOTE]
 > With the **Resource** purchase line type, you can also purchase external resources, for example, to invoice a vendor for work delivered. Learn more at [Set Up Resources](projects-how-setup-resources.md).
 >
-> To use a purchased resource, you may need to set the resource's capacity and manually assign it to a job. Purchasing a resource creates a resource ledger entry; however, resource ledger entries are not tracked for quantity and value as, for example, items are. If quantity and value tracking is required, then consider using other line item types.
+> To use a purchased resource, you may need to set the resource's capacity and manually assign it to a project. Purchasing a resource creates a resource ledger entry; however, resource ledger entries are not tracked for quantity and value as, for example, items are. If quantity and value tracking is required, then consider using other line item types.
 
 ## When to use purchase orders
 
@@ -153,7 +152,7 @@ When you handle an over-receipt, you can increase the value in the **Qty. to Rec
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Posting Purchases
+## Posting purchases
 
 On a purchase document, you can choose between the following posting actions:
 

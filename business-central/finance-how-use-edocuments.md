@@ -78,6 +78,7 @@ To get a better overview of all e-documents in the company, you can select the *
 ## See also
 
 [How to set up e-documents in Business Central](finance-how-setup-edocuments.md)  
+[How to use e-documents in purchase](finance-how-use-edocuments-purchase.md)
 [How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
 [Financial Management](finance.md)  
 [Invoice Sales](sales-how-invoice-sales.md)  

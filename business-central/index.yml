@@ -288,7 +288,7 @@ additionalContent:
             url: /dynamics365/business-central/across-share-onedrive
           - text: Collaborate in Excel
             url: /dynamics365/business-central/across-work-with-excel
-      - title: Business intelligence, reporting, and data analysis
+      - title: BI, reporting, and data analysis
         links:
           - text: Overview
             url: /dynamics365/business-central/reports-bi-reporting
@@ -362,6 +362,18 @@ additionalContent:
 #              url: /dynamics365/business-central/across-income-documents
 #            - text: Local functionality
 #              url: /dynamics365/business-central/about-localization
+      - title: General
+        links:
+          - text: General journals
+            url: /dynamics365/business-central/ui-work-general-journals
+          - text: Post documents and journals
+            url: /dynamics365/business-central/ui-post-documents-journals
+          - text: Job queues
+            url: /dynamics365/business-central/admin-job-queues-schedule-tasks
+          - text: Incoming documents
+            url: /dynamics365/business-central/across-income-documents
+#          - text: Local functionality
+#            url: /dynamics365/business-central/about-localization
       - title: Finance
         links:
           - text: Overview

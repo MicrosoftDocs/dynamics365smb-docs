@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, journal
 ms.search.form: 6216, 6219, 6220
-ms.date: 04/02/2024
+ms.date: 04/09/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -51,7 +51,7 @@ To start working with the **Sustainability Journals**, follow the steps:
     1. If you have accurate information about the emission, you want to post it (i.e., you have it on the received invoice), you need to select the **Manual Input** field to specify that the amounts will be input manually. In this case, you can't populate your data in the **Fuel/Electricity**, **Distance**, **Custom Amount**, **Installation Multiplier**, and **Time Factor** fields, as they'll be non-editable for this choice. But the **Emission CO2**, **Emission CH4**, and **Emission N2O** fields will be editable, and you can fill in your data directly there. 
     2. If you don't know your emission accurately, you need to calculate it, and you need to haven't selected the **Manual Input** field, and in this case the **Emission CO2**, **Emission CH4**, and **Emission N2O** fields will be non-editable, but you can enter your calculation details based on the formula you're using. You can find more about the used formulas and defined in the **Sustainability Account Category** here in the [Chart of Sustainability Accounts and Ledger](finance-sustainability-accounts-ledger.md#account-categories).
   	
-7. To post the journal, choose the **Post** action. When posting in a **Sustainability Journal**, entries are generated on the **Sustainability Ledger**. 
+6. To post the journal, choose the **Post** action. When posting in a **Sustainability Journal**, entries are generated on the **Sustainability Ledger**. 
 
 In the case your formula is based on the **Calculate from General Ledger** option in the **Sustainability Account Category**, you must use the **Collect Amount from G/L Entries** action before posting the journal to calculate emissions based on this data source. Also, if you'd made some changes in the emission factors after populating the journal lines, you must choose the **Recalculate** action to get the proper amount in the journal.  
 

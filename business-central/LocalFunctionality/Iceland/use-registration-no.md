@@ -5,7 +5,7 @@ author: altotovi
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
-ms.date: 04/04/2024
+ms.date: 04/09/2024
 ms.author: altotovi
 ms.reviewer: solsen
 ms.service: dynamics-365-business-central
@@ -29,9 +29,9 @@ The **Sender Reg. No.** field has been added to the **Payment Export Data** when
 
 ## See also
 
-[The list of Iceland local functionalities](iceland-local-functionality.md)   
-[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)
-[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)
+[The list of Iceland local functionalities](iceland-local-functionality.md)     
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
 

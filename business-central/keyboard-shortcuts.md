@@ -198,7 +198,7 @@ When setting a date field, you can either enter the date manually or open a cale
 |<kbd>Up Arrow</kbd><br /><br />(<kbd>Up Arrow</kbd>)|Move to the previous week, same day of the week.|
 |<kbd>Down Arrow</kbd><br /><br />(<kbd>Down Arrow</kbd>)|Move to the next week, same day of the week.|
 |<kbd>Enter</kbd>|Select the focused date.|
-|<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Close the calendar and delete the current date.|
+|<kbd>Ctrl</kbd>+<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Close the calendar and delete the current date.|
 |<kbd>Esc</kbd>|Close the calendar without a selection, keep the current date.|
 |<kbd>Page Down</kbd>|Move to the next month.|
 |<kbd>Page Up</kbd>|Move to the previous month.|  

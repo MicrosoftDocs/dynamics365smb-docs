@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, receive, purchase, matching, mapping, Copilot
 ms.search.form: 50, 51, 138, 6103, 6133, 6121, 6167, 9307, 9308
-ms.date: 04/03/2024
+ms.date: 04/09/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -62,8 +62,8 @@ Every time when a **Job Queue** is selected to run, if the external service has 
 > [!NOTE]
 > This system-created document isn't the posted document. 
 
-1. To go directly to the purchase document, select the **Record** field. After you open the **Purchase Invoice** page, check the document. Then, if everything is correct, post the document.  
-1. When you post the purchase document, the **Record** field on the **E-Document** is updated from **Invoice** to **Purchase Invoice**, and the number of the posted purchase document is available. You can select the number to open the posted purchase invoice. 
+4. To go directly to the purchase document, select the **Record** field. After you open the **Purchase Invoice** page, check the document. Then, if everything is correct, post the document.  
+5. When you post the purchase document, the **Record** field on the **E-Document** is updated from **Invoice** to **Purchase Invoice**, and the number of the posted purchase document is available. You can select the number to open the posted purchase invoice. 
 
 Details about logs are the same as they are in the sales process for e-documents.  
 
@@ -119,7 +119,7 @@ You can match the lines from the **Purchase Orders** list or from one of the ope
 
 3. As both options have the same process, you'll open the **Purchase Order Matching** page with the following content: 
 
-  	1. In the header you can find the following information, which can help you to map the lines easier: 
+    1. In the header you can find the following information, which can help you to map the lines easier: 
 
     |Field name |Description |
     |--------|-----------------|

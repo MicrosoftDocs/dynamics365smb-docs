@@ -122,7 +122,7 @@ User can open this ledger for one specific account using the **Ledger Entries** 
 [Finance](finance.md)    
 [Sustainability management overview](finance-manage-sustainability.md)
 [Sustainability Setup](finance-sustainability-setup.md)
-[How to record emissions](finance-sustainability-journals.md)
+[How to record emissions](finance-sustainability-journal.md)
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

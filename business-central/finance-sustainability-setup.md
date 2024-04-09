@@ -53,7 +53,7 @@ To set up a sustainability module, follow the next steps:
 [Finance](finance.md)    
 [Sustainability management overview](finance-manage-sustainability.md)
 [Chart of Sustainability Accounts and Ledger](finance-sustainability-accounts-ledger.md)
-[How to record emissions](finance-sustainability-journals.md)
+[How to record emissions](finance-sustainability-journal.md)
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

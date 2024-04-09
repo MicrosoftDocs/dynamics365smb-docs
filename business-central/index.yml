@@ -251,8 +251,6 @@ additionalContent:
         url: /dynamics365/business-central/enable-ai
       - text: Extend Copilot 
         url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page
-      - text: Analyze list data
-        url: /dynamics365/business-central/analysis-assist 
 
   - title: Be productive
     items:
@@ -268,6 +266,8 @@ additionalContent:
             url: /dynamics365/business-central/bank-reconciliation-with-copilot
           - text: Suggest lines on sales documents (preview)
             url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
+          - text: Analyze list data
+            url: /dynamics365/business-central/analysis-assist 
       - title: Workspace settings
         links:
           - text: Language, region, work date, time zone, and more

@@ -1,4 +1,4 @@
-### YamlMime:Hub
+# ### YamlMime:Hub
 
 title:  Microsoft Dynamics 365 Business Central documentation
 summary: Discover how to make the most of Dynamics 365 Business Central with online training and documentation covering product capabilities. Learn how to use Business Central to manage, adapt, and streamline operations like finance, manufacturing, sales, and more, across your small or medium-sized business.
@@ -537,16 +537,16 @@ additionalContent:
             url: /dynamics365/get-started/availability
           - text: Development for localization
             url: /dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization
-#  - title: Related products
-#    items:
-        # Card
+  - title: Related products
+    items:
+      # Card
         
-#        - title: Dynamics 365
-#          summary: "Learn how to deploy, customize, manage, and use other Microsoft Dynamics 365 services and applications. Get documentation, sample code, tutorials, and more."
-#          url: /dynamics365/index
-#        - title: Microsoft Power Platform
-#          summary: "Analyze data, build solutions, automate processes, and create virtual agents"
-#          url: /power-platform/index
-#        - title: Dynamics 365 App for Outlook
-#          summary: Use Dynamics 365 apps in Microsoft Outlook
-#          url: /dynamics365/outlook-app/overview                                                                                                                            3
+        - title: Dynamics 365
+          summary: "Learn how to deploy, customize, manage, and use other Microsoft Dynamics 365 services and applications. Get documentation, sample code, tutorials, and more."
+          url: /dynamics365/index
+        - title: Microsoft Power Platform
+          summary: "Analyze data, build solutions, automate processes, and create virtual agents"
+          url: /power-platform/index
+        - title: Dynamics 365 App for Outlook
+          summary: Use Dynamics 365 apps in Microsoft Outlook
+          url: /dynamics365/outlook-app/overview                                                                                                                            3

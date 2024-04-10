@@ -61,8 +61,8 @@ additionalContent:
         url: /dynamics365/business-central/dev-itpro/administration/migrate-data
     #  - text: Application design details
     #    url: /dynamics365/business-central/design-details-application-design
-      - text: Performance
-        url: /dynamics365/business-central/dev-itpro/performance/performance-overview
+    #  - text: Performance
+    #    url: /dynamics365/business-central/dev-itpro/performance/performance-overview
     - title: Try/Buy
       links: 
       - text: Try Business Central online for free
@@ -115,8 +115,8 @@ additionalContent:
     #    text: Production
     #  - url: /dynamics365/business-central/service-setup-service
     #    text: Service management
-      - text: Job queues
-        url: /dynamics365/business-central/admin-job-queues-schedule-tasks      
+    #  - text: Job queues
+    #    url: /dynamics365/business-central/admin-job-queues-schedule-tasks      
       - text: Workflows
         url: /dynamics365/business-central/across-set-up-workflows
     #  - text: Printers

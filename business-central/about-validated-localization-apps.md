@@ -102,15 +102,15 @@ Below you find a list of requirements that you must meet before submitting the V
 - If a validated localization app(s) are extending [!INCLUDE[prod_short](includes/prod_short.md)] data model with new tables and/or fields, the validated localization app provider must set the **DataClassification** property correctly.
 
 > [!NOTE]  
-> You can also create an integration if you find it beneficial to have some functionality placed outside the [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central.md)] environment and instead connect to [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central.md)] using for example APIs or web services.
-> You can also create an integration if you find it beneficial to have some functionality placed outside the [!INCLUDE[d365_bus_central_md]] environment and instead connect to [!INCLUDE[d365_bus_central_md]] using for example APIs or Web services.
+> You can also create an integration if you find it beneficial to have some functionality placed outside the [!INCLUDE[prod_short](includes/prod_short.md)] environment and instead connect to [!INCLUDE[prod_short](includes/prod_short.md)] using for example APIs or web services.
+> You can also create an integration if you find it beneficial to have some functionality placed outside the [!INCLUDE[prod_short](includes/prod_short.md)] environment and instead connect to [!INCLUDE[prod_short](includes/prod_short.md)] using for example APIs or Web services.
 
 ## See also
 
 [Technical validation](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission)  
 [Development of a standard Localization Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
-[What is Local Functionality in Dynamics 365 Business Central?](about-localization.md)  
+[What is Local Functionality in Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]?](about-localization.md)  
 [International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability)    
 [Compliance overview](compliance/compliance-overview.md)    
 [Geographical availability for Dynamics 365](https://dynamics.microsoft.com/en-us/availability-reports/georeport/)  

@@ -9,12 +9,11 @@ ms.topic: conceptual
 ms.author: altotovi
 ---
 
+# What is Validated Localization app?  
 Business Central is available [globally in 170+ markets](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json). In a set of markets Microsoft works with ISV partners to localize Business Central through localization apps available on [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). For those regions, localizations can be available through preferred localization app program. Preferred localization apps program recognizes those apps which have been built according to Microsoft specific quality guidelines. 
 ISV partners who comply with those program requirements and guidelines can benefit technically and commercially to serve their resellers and customers.  
 
 Below you can find requirements and guidelines. You can reach out to the program team if you want to participate in this program and comply with the below requirements by contacting us through [Microsoft localization team](mailto:d365bcloc@microsoft.com).   
-
-# What is Validated Localization app?  
 
 > [!IMPORTANT]
 > The Business Central Validated Localization apps initiative is currently being rolled out as a pilot program. Below requirements and benefits can change based upon the partner and customer feedback.  
@@ -83,7 +82,7 @@ Below you find a list of requirements that you must meet before submitting the V
 - If a validated localization app(s) are extending Business Central data model with new tables and/or fields, the validated localization app provider must set the **DataClassification** property correctly.
 
 > [!NOTE]  
-> You can also create an integration if you find it beneficial to have some functionality placed outside the [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] environment and instead connect to [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central_md.md)] using for example APIs or web services.
+> You can also create an integration if you find it beneficial to have some functionality placed outside the [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central.md)] environment and instead connect to [!INCLUDE[d365_bus_central_md](../includes/d365_bus_central.md)] using for example APIs or web services.
 
 ## See also
 

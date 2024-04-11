@@ -9,7 +9,12 @@ ms.topic: conceptual
 ms.author: altotovi
 ---
 
-# What is a Validated Localization app?
+
+# Development of Validated Localization apps
+
+This article describes the requirements and guidelines for developing a Validated Localization app for [!INCLUDE[prod_short](includes/prod_short.md)].
+
+## What is a Validated Localization app?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is available [globally in 170+ markets](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json). In a set of markets Microsoft works with ISV partners to localize [!INCLUDE[prod_short](includes/prod_short.md)] through localization apps available on [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). For those regions, localizations can be available through preferred localization app program. Preferred localization apps program recognizes those apps which have been built according to Microsoft specific quality guidelines. ISV partners who comply with those program requirements and guidelines can benefit technically and commercially to serve their resellers and customers.  
 

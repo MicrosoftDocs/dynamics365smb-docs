@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, sales, deliver
 ms.search.form: 42, 43, 132, 6103, 6133, 6121, 9301, 9305
-ms.date: 03/29/2024
+ms.date: 04/10/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -29,14 +29,14 @@ You can use the following sales documents with e-documents functionality:
 
 To create and send an e-invoice to a customer, you must create and post the sales invoice. To learn more about the standard process, see [Invoice Sales](sales-how-invoice-sales.md).
 
-After you post the sales document, open the **Posted Sales Invoice** page to access the related **E-Document** page.
+After you post the sales document, open the **Posted Sales Invoices** page to access the related **E-Documents** page.
 
 ### View e-documents   
 
 To view existing e-documents, follow these steps.
 
-1. On the **Posted Sales Invoice** page, select **E-Document** \> **Open E-Document**.
-2. On the **E-Document** page, on the header, you can view basic information about the posted invoice.
+1. On the **Posted Sales Invoices** page, select **E-Document**, and then select **Open E-Document**.
+2. On the **E-Documents** page, on the header, you can view basic information about the posted invoice.
 3. The **Record** field shows the document number of the posted sales invoice. Select the link to open the document.
 4. In the **Electronic Document Status** field, you can view the real-time status of the document and its location in the process pipeline. If the document is posted, the status is **Processed**.
 
@@ -56,7 +56,7 @@ For more insights, select the entry that has the **Exported** status, and then r
 
 To view the communication between yourself and the service that you're sending your document to, use the **Communication Logs** field. Open the **E-Document Communication Logs** page to view details about the request and reasons message with that service.
 
-If there's an issue with the service provider, and the document can't be sent, look for the following indicators on the **E-Document** page:
+If there's an issue with the service provider, and the document can't be sent, look for the following indicators on the **E-Documents** page:
 
 - The **Electronic Document Status** field on the header shows the **Error** status.
 - The **E-Document Status** field on the **E-Document Service Status** FastTab shows the **Sending Error** status.
@@ -77,11 +77,12 @@ To get a better overview of all e-documents in the company, you can select the *
 
 ## See also
 
-[How to set up e-documents in Business Central](finance-how-setup-edocuments.md)  
-[How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
-[Financial Management](finance.md)  
-[Invoice Sales](sales-how-invoice-sales.md)  
-[Record Purchases with Purchase Invoices and Orders](purchasing-how-record-purchases.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[How to set up e-documents in [!INCLUDE[prod_short](includes/prod_short.md)]](finance-how-setup-edocuments.md)    
+[How to use e-documents in purchase](finance-how-use-edocuments-purchase.md)  
+[How to extend e-documents in [!INCLUDE[prod_short](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)    
+[Financial Management](finance.md)    
+[Invoice Sales](sales-how-invoice-sales.md)    
+[Record Purchases with Purchase Invoices and Orders](purchasing-how-record-purchases.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

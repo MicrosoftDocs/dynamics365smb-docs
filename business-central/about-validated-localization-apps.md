@@ -85,29 +85,21 @@ In the following, you find a list of requirements that you must meet before subm
 - The Validated Localization app providers must update and/or test its Validated Localization app before the official launch of new release (minimum with the RC before new release) to confirm there are no issues. 
 - All objects in the Validated Localization app code must be in English.   
 - The Validated Localization app providers must follow Microsoft policy for obsolete objects and breaking changes as well as best practices for deprecation of the AL Code.  
-- The Validated Localization app providers should add new events if required by the market (other implementation partners or customers) if it makes reasonable business sense, following Microsoft policy and practice. Otherwise, the validated localization app providers must provide response to such inquiries with proper justification why it does not make reasonable business sense to add. 
+- The Validated Localization app providers should add new events if required by the market (other implementation partners or customers) if it makes reasonable business sense, following Microsoft policy and practice. Otherwise, the validated localization app providers must provide response to such inquiries with proper justification why it doesn't make reasonable business sense to add. 
 - The Validated Localization app providers must provide written test scenarios in English and enable Microsoft to do manual testing if required by Microsoft.  
-- If a validated localization app(s) are extending Business Central data model with new tables and/or fields, the validated localization app provider must set the **DataClassification** property correctly.
-- The Validated Localization App providers must build the Validated Localization App based on W1 base app.  
-- The Validated Localization App providers must follow Microsoft lifecycle and support policies.   
-- Mandatory test automation must cover min. 80% of code and all business processes that change with the Validated Localization App must be covered by test automation.  
-- The Validated Localization App providers must update and/or test its Validated Localization App before officially launch of new release (minimum with the RC before new release) to confirm there are no issues. 
-- All objects in the Validated Localization App code must be in English.   
-- The Validated Localization App providers must follow Microsoft policy for obsolete objects and breaking changes and best practices for deprecation of the AL Code.  
-- The Validated Localization App providers should add new events if required by the market (other implementation partners or customers) if it makes reasonable business sense, following Microsoft policy and practice. Otherwise, the validated localization app providers must provide response to such inquiries with proper justification why it doesn't make reasonable business sense to add. 
-- The Validated Localization App providers must provide written test scenarios in English and enable Microsoft to do manual testing if required by Microsoft.  
-- If a validated localization app(s) are extending [!INCLUDE[prod_short](includes/prod_short.md)] data model with new tables and/or fields, the validated localization app provider must set the **DataClassification** property correctly.
+- If a Validated Localization app(s) is extending the [!INCLUDE[prod_short](includes/prod_short.md)] data model with new tables and/or fields, the Validated Localization App provider must set the **DataClassification** property correctly.
+- The Validated Localization App providers must build the Validated Localization App based on the W1 base app.  
+- The Validated Localization App providers must follow the Microsoft lifecycle and support policies.   
 
 > [!NOTE]  
 > You can also create an integration if you find it beneficial to have some functionality placed outside the [!INCLUDE[prod_short](includes/prod_short.md)] environment and instead connect to [!INCLUDE[prod_short](includes/prod_short.md)] using for example APIs or web services.
-> You can also create an integration if you find it beneficial to have some functionality placed outside the [!INCLUDE[prod_short](includes/prod_short.md)] environment and instead connect to [!INCLUDE[prod_short](includes/prod_short.md)] using for example APIs or Web services.
 
 ## See also
 
-[Technical validation](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission)    
-[Development of a standard Localization Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)    
-[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)    
-[What is Local Functionality in Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]?](about-localization.md)    
-[International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability)    
-[Compliance overview](compliance/compliance-overview.md)    
-[Geographical availability for Dynamics 365](https://dynamics.microsoft.com/en-us/availability-reports/georeport/)    
+[Technical validation](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission)  
+[Development of a standard Localization Solution](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+[What is Local Functionality in Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]?](about-localization.md)  
+[International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability)  
+[Compliance overview](compliance/compliance-overview.md)  
+[Geographical availability for Dynamics 365](https://dynamics.microsoft.com/en-us/availability-reports/georeport/)  

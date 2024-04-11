@@ -143,7 +143,7 @@ additionalContent:
         url: /dynamics365/business-central/responsible-ai-overview
       - text: Configure Copilot and AI capabilities
         url: /dynamics365/business-central/enable-ai
-      - text: Extend Copilot 
+      - text: Extend Copilot in Business Central
         url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page
     - title: Manage user access
       links:

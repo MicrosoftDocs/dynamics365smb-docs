@@ -261,11 +261,11 @@ additionalContent:
             url: /dynamics365/business-central/chat-with-copilot
           - text: Get marketing text suggestions
             url: /dynamics365/business-central/ai-overview
-          - text: Map e-documents to purchase order lines (preview)
+          - text: Map e-documents to purchase order lines
             url: /dynamics365/business-central/map-edocuments-with-copilot
-          - text: Reconcile bank accounts (preview)
+          - text: Reconcile bank accounts
             url: /dynamics365/business-central/bank-reconciliation-with-copilot
-          - text: Suggest lines on sales documents (preview)
+          - text: Suggest lines on sales documents
             url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
           - text: Analyze list data
             url: /dynamics365/business-central/analysis-assist 

@@ -139,12 +139,12 @@ additionalContent:
     items:
     - title: Copilot and AI capabilities
       links:
-      - text: Features and responsible AI FAQs
-        url: /dynamics365/business-central/responsible-ai-overview
       - text: Configure Copilot and AI capabilities
         url: /dynamics365/business-central/enable-ai
       - text: Extend Copilot in Business Central
         url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page
+      - text: Features and responsible AI FAQs
+        url: /dynamics365/business-central/responsible-ai-overview
     - title: Manage user access
       links:
       - text: Create users
@@ -261,11 +261,11 @@ additionalContent:
             url: /dynamics365/business-central/chat-with-copilot
           - text: Get marketing text suggestions
             url: /dynamics365/business-central/ai-overview
-          - text: Map e-documents to purchase order lines
+          - text: Match e-documents
             url: /dynamics365/business-central/map-edocuments-with-copilot
           - text: Reconcile bank accounts
             url: /dynamics365/business-central/bank-reconciliation-with-copilot
-          - text: Suggest lines on sales documents
+          - text: Suggest lines suggestions
             url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
           - text: Analyze list data
             url: /dynamics365/business-central/analysis-assist 

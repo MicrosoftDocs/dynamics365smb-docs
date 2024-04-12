@@ -1,17 +1,17 @@
 ---
-title: Working with General Journals to Post Directly to G/L
+title: Working with general journals to post directly to G/L
 description: Learn about using journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 08/29/2023
+ms.date: 04/12/2024
 ms.custom: bap-template
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ---
-# Work with General Journals
+# Work with general journals
 
 Most financial transactions are posted to the general ledger through documents such as purchase invoices and sales orders. However, you can also process business activities such as:
 
@@ -78,7 +78,7 @@ The **Recurring Method** field is important. It determines how to treat the amou
 
 | To | See |
 | --- | --- |
-|F Fixed|The amount on the journal line will remain after posting.|
+|F Fixed|The amount on the journal line will remain after posting. Lines with amounts of zero remain in the journal, but aren't posted. You can update the amount in a later run.  |
 |V Variable|The amount on the journal line will be deleted after posting.|
 |B Balance|The posted amount on the account on the line will be allocated among the accounts specified for the line in the Gen. Jnl. Allocation table. The balance on the account will be set to zero. Remember to fill in the **Allocation %** field on the **Allocations** page. For more information, see [Allocating Recurring Journal Amounts to Several Accounts](#allocating-recurring-journal-amounts-to-several-accounts).|
 |RF Reversing Fixed|The amount on the journal line will remain after posting, and a balancing entry will be posted on the next day.|

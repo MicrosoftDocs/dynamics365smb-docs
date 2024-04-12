@@ -268,7 +268,7 @@ You can assign permissions sets to users in two ways:
 1. Choose the **Edit** action to open the **User Card** page.
 1. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. For more information, see [To create or edit a permission set](ui-define-granular-permissions.md#to-create-a-permission-set).
 
-   If you want the permission set to apply to a specific company, set the **Company** field to that company. If you want the permission set to apply to all companies, leave the **Company** field blank.
+   If you want the permission set to apply to a specific company, set the **Company** field to that company. If you want the permission set to apply to all companies, leave the **Company** field blank. 
 
 ## To assign a permission set on the Permission Set by User page
 
@@ -276,7 +276,7 @@ This method makes it easier for you to assign different permission sets to multi
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 1. On the **Users** page, choose the **Permission Set by User** action.
-1. If you want the permission sets to apply only to a specific company, set the **Company name** field to that company. If you want the permission set to apply to all companies, leave the **Company name** field blank.
+1. If you want the permission sets to apply only to a specific company, set the **Company name** field to that company. If you want the permission set to apply to all companies, leave the **Company name** field blank. [Learn more](#assign-permissions-per-company).
 1. On the **Permission Set by User** page, select the **[user name]** checkbox on a line for the relevant permission set to assign the set to the user.
 
     Select the **All Users** checkbox to assign the permission set to all users.

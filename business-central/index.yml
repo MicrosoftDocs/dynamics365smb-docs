@@ -257,6 +257,8 @@ additionalContent:
     items:
       - title: Copilot
         links:
+          - text: Analyze list data
+            url: /dynamics365/business-central/analysis-assist 
           - text: Chat with Copilot
             url: /dynamics365/business-central/chat-with-copilot
           - text: Get marketing text suggestions
@@ -267,8 +269,6 @@ additionalContent:
             url: /dynamics365/business-central/bank-reconciliation-with-copilot
           - text: Suggest lines suggestions
             url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
-          - text: Analyze list data
-            url: /dynamics365/business-central/analysis-assist 
       - title: Workspace settings
         links:
           - text: Language, region, work date, time zone, and more

@@ -11,7 +11,7 @@ metadata:
   ms.service: dynamics-365-business-central
   author: jswymer
   ms.author: jswymer
-  ms.date: 06/16/2023
+  ms.date: 04/11/2024
   hide_bc: true
 
 highlightedContent:
@@ -137,6 +137,14 @@ additionalContent:
         url: /dynamics365/business-central/across-onedrive-overview  
   - title: Administer and develop
     items:
+    - title: Copilot and AI capabilities
+      links:
+      - text: Configure Copilot and AI capabilities
+        url: /dynamics365/business-central/enable-ai
+      - text: Extend Copilot in Business Central
+        url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page
+      - text: Features and responsible AI FAQs
+        url: /dynamics365/business-central/responsible-ai-overview
     - title: Manage user access
       links:
       - text: Create users
@@ -233,9 +241,34 @@ additionalContent:
  #       url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams 
  #     - text: Dataverse
  #       url: /dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration 
+ #   - title: Translation Services
+ #     links:
+ #     - text: Dynamics 365 Translation Service overview
+ #       url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview
+ #     - text: Dynamics 365 Translation Service API 
+ #       url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/dts-api-info 
+ #     - text: Dynamics Lifecycle Services API - Authentication  
+ #       url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-aad-app-reg
+ #     - text: Translate user interface files  
+ #       url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/use-translation-service       
+
 
   - title: Be productive
     items:
+      - title: Copilot
+        links:
+          - text: Analyze list data
+            url: /dynamics365/business-central/analysis-assist 
+          - text: Chat with Copilot
+            url: /dynamics365/business-central/chat-with-copilot
+          - text: Get marketing text suggestions
+            url: /dynamics365/business-central/ai-overview
+          - text: Match e-documents
+            url: /dynamics365/business-central/map-edocuments-with-copilot
+          - text: Reconcile bank accounts
+            url: /dynamics365/business-central/bank-reconciliation-with-copilot
+          - text: Suggest lines suggestions
+            url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
       - title: Workspace settings
         links:
           - text: Language, region, work date, time zone, and more
@@ -256,7 +289,7 @@ additionalContent:
             url: /dynamics365/business-central/across-share-onedrive
           - text: Collaborate in Excel
             url: /dynamics365/business-central/across-work-with-excel
-      - title: Business intelligence, reporting, and data analysis
+      - title: BI, reporting, and data analysis
         links:
           - text: Overview
             url: /dynamics365/business-central/reports-bi-reporting
@@ -270,16 +303,16 @@ additionalContent:
             url: /dynamics365/business-central/analysis-mode            
           - text: Analyze report data with Excel
             url: /dynamics365/business-central/report-analyze-excel                                                                                
-      - title: General business functionality
-        links:
-          - text: General journals
-            url: /dynamics365/business-central/ui-work-general-journals
-          - text: Post documents and journals
-            url: /dynamics365/business-central/ui-post-documents-journals
-          - text: Job queues
-            url: /dynamics365/business-central/admin-job-queues-schedule-tasks
-          - text: Incoming documents
-            url: /dynamics365/business-central/across-income-documents
+#     - title: General business functionality
+#       links:
+#          - text: General journals
+#            url: /dynamics365/business-central/ui-work-general-journals
+#          - text: Post documents and journals
+#            url: /dynamics365/business-central/ui-post-documents-journals
+#          - text: Job queues
+#            url: /dynamics365/business-central/admin-job-queues-schedule-tasks
+#          - text: Incoming documents
+#            url: /dynamics365/business-central/across-income-documents
 #          - text: Local functionality
 #            url: /dynamics365/business-central/about-localization
   - title: Do business
@@ -330,6 +363,18 @@ additionalContent:
 #              url: /dynamics365/business-central/across-income-documents
 #            - text: Local functionality
 #              url: /dynamics365/business-central/about-localization
+      - title: General
+        links:
+          - text: General journals
+            url: /dynamics365/business-central/ui-work-general-journals
+          - text: Post documents and journals
+            url: /dynamics365/business-central/ui-post-documents-journals
+          - text: Job queues
+            url: /dynamics365/business-central/admin-job-queues-schedule-tasks
+          - text: Incoming documents
+            url: /dynamics365/business-central/across-income-documents
+#          - text: Local functionality
+#            url: /dynamics365/business-central/about-localization
       - title: Finance
         links:
           - text: Overview
@@ -505,16 +550,16 @@ additionalContent:
             url: /dynamics365/get-started/availability
           - text: Development for localization
             url: /dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization
-#  - title: Related products
+ # - title: Related products
 #    items:
-        # Card
+#      # Card
         
 #        - title: Dynamics 365
 #          summary: "Learn how to deploy, customize, manage, and use other Microsoft Dynamics 365 services and applications. Get documentation, sample code, tutorials, and more."
 #          url: /dynamics365/index
 #        - title: Microsoft Power Platform
-#          summary: "Analyze data, build solutions, automate processes, and create virtual agents"
-#          url: /power-platform/index
+ #         summary: "Analyze data, build solutions, automate processes, and create virtual agents"
+ #         url: /power-platform/index
 #        - title: Dynamics 365 App for Outlook
 #          summary: Use Dynamics 365 apps in Microsoft Outlook
-#          url: /dynamics365/outlook-app/overview                                                                                                                            3
+ #         url: /dynamics365/outlook-app/overview                                                                                                                            3

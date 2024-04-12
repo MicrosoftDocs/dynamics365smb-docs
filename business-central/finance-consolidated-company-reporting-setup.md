@@ -111,6 +111,12 @@ If the chart of accounts in the business unit differs from the consolidated comp
 1. In each business unit's [!INCLUDE [prod_short](includes/prod_short.md)], choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
 2. Open the card for the account, and then fill in the fields on the **Consolidation** FastTab. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
+> [!NOTE]
+> If you don't fill in the **Consol. Debit Acc.** and **Consol. Credit Acc.** fields, [!INCLUDE [prod_short](includes/prod_short.md)] assumes they're mapped to the same accounts in the consolidated company.
+
+> [!TIP]
+> There might be scenarios where you don't want to include an account in a consolidation. For example, if you want your consolidation company to reflect only the balance sheets from the subsidiary companies. To exclude an account from consolidation, turn on the **Exclude from Consolidation** toggle for the account.
+
 ### <a name="exchrates"></a>Specify exchange rates for consolidations
 
 If a business unit uses a different currency than the consolidated company, you must specify exchange rate methods for each account before you consolidate. For each account, the content of the **Consol. Translation Method** field determines the exchange rate. In the consolidated company, on each business unit card, in the **Currency Exchange Rate Table** field you specify whether consolidation uses exchange rates from the business unit or the consolidated company. If you use exchange rates from the consolidated company, you can change the exchange rates for a business unit. For business units, if the **Currency Exchange Rate Table** field on the business unit card contains **Local**, you can change the exchange rate from the business unit card. The exchange rates are copied from the **Currency Exchange Rate** table, but you can change them before consolidating.

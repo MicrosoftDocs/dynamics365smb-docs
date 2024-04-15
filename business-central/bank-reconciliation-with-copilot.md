@@ -126,9 +126,9 @@ In this section, you learn how to use Copilot to transfer unreconciled bank acco
 
    These lines are the statement lines that Copilot focuses on for transfer to the general ledger account.
 
-3. Select **Transfer to G/L Account** to start the process.
+3. Select **Post Difference to G/L Account** to start the process.
 
-   ![Shows the transfer to G/L with copilot action on the Bank Acc. Reconciliation card](media/bank-reconciliation-transfer-gl-copilot-card.svg) 
+   ![Shows the transfer to G/L with copilot action on the Bank Acc. Reconciliation card](media/bank-reconciliation-transfer-gl-copilot-card.png) 
 
    This step prompts Copilot to start generating proposals for the transfer.
 
@@ -140,7 +140,7 @@ In this section, you learn how to use Copilot to transfer unreconciled bank acco
 
 5. Review each proposal line by line to ensure the accuracy of the suggested transfers.
 
-   - If you drill down on the proposal by selecting it in the list, you're taken to a list of accounts. From here, you can choose another account. This kind of manual correction is only possible when using the **Transfer to G/L Account** flow, not in the matching flow. 
+   - If you drill down on the proposal by selecting it in the list, you're taken to a list of accounts. From here, you can choose another account. This kind of manual correction is only possible when using the **Post Difference to G/L Account** flow, not in the matching flow. 
    - If you select **Save...** next to a proposal, you can add the mapping to the **Text-to-Account Mapping** page, so the next time this text appears while matching, it will be mapped to the proposed account.
 
 6. Discard or save proposals.

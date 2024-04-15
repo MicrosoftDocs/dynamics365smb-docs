@@ -191,6 +191,8 @@ When you have multiple companies in Business Central, managing permissions acros
 
 If you don't specify the company when assigning a permission set, the permission set then applies to all companies. If you want a permission set to apply to more that one company, but not all companies, add the permission set specifically for each company separately.
 
+Learn how at [Assign permission sets to users](#assign-permission-sets-to-users) or [Assign permissions to a security group](ui-security-groups.md#assign-permissions-to-a-security-group).
+
 ## Manage permissions through user groups
 
 User groups help you manage permission sets across the company. [!INCLUDE [prod_short](includes/prod_short.md)] online includes default user groups that are assigned to users automatically based on their license. You can add users manually to a user group, and you can create new user groups as copies of existing ones.  
@@ -234,7 +236,7 @@ The new user group is added to the **User Groups** page. Proceed to add users. F
 3. Choose the **User Permission Sets** action to open the **User Permission Sets** page.
 4. On the **User Permission Sets** page, on a new line, fill in the fields as necessary.
 
-### To assign a permission set on the Permission Set by User Group** page
+### To assign a permission set on the Permission Set by User Group page
 
 The following procedure explains how to assign permission sets to a user group on the **Permission Set by User Group** page.
 

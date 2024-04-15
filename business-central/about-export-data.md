@@ -69,7 +69,7 @@ We recommend that you also consider exporting data from the following pages:
 > * Permission set *D365 Excel Export Action*  
 > * System permission 6110 *Allow Action Export To Excel*.  
 
-For more information, see [To get an overview of a user's permissions](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
+For more information, see [Get an overview of a user's permissions](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).
 
 ## See Also
 [Canceling Your Subscription for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  

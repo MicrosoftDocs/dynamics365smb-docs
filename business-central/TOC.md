@@ -573,6 +573,7 @@ ms.service: dynamics-365-business-central
 ### [Understand WIP methods](projects-understanding-wip.md)
 ### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 ### [Invoice projects](projects-how-invoice-jobs.md)
+### [Assemble to project](projects-assemble-to-project.md)
 
 ## Fixed assets
 ### [Fixed assets overview](fa-manage.md)

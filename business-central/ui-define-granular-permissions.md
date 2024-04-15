@@ -185,9 +185,9 @@ Administrators can define periods of time during which specified users are able 
 3. In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users in the system.
 4. Fill in the fields as necessary.
 
-## Assign permissions per company
+## Control access to specific companies
 
-When you have multiple companies in Business Central, managing permissions across companies requires thoughtful consideration. You might not want users to have identical access rights to all companies. Instead, you may need to grant users' permissions based on their company affiliations. To support this scenario when assigning permission sets to individual users or user groups, you have the option to select a specific company to which the permission set applies. Notably, the company isn't explicitly specified within the permission set; rather, it's determined when the permission set is assigned to the user or group.
+When you have multiple companies in Business Central, managing permissions across companies requires thoughtful consideration. You might not want users to have identical access rights to all companies. Instead, you may need to grant users' permissions based on their company affiliations. To support this scenario when assigning permission sets to individual users or security groups, you have the option to select a specific company to which the permission set applies. Notably, the company isn't explicitly specified within the permission set; rather, the company is determined when the permission set is assigned to the user or security group.
 
 ## Manage permissions through user groups
 
@@ -268,7 +268,7 @@ You can assign permissions sets to users in two ways:
 1. Choose the **Edit** action to open the **User Card** page.
 1. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. For more information, see [To create or edit a permission set](ui-define-granular-permissions.md#to-create-a-permission-set).
 
-   If you want the permission set to apply to a specific company, set the **Company** field to that company. If you want the permission set to apply to all companies, leave the **Company** field blank. 
+   If you want the permission set to apply to a specific company, set the **Company** field to that company. If you want the permission set to apply to all companies, leave the **Company** field blank. [Learn more](#control-access-to-specific-companies).
 
 ## To assign a permission set on the Permission Set by User page
 
@@ -276,7 +276,7 @@ This method makes it easier for you to assign different permission sets to multi
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Users**, and then choose the related link.
 1. On the **Users** page, choose the **Permission Set by User** action.
-1. If you want the permission sets to apply only to a specific company, set the **Company name** field to that company. If you want the permission set to apply to all companies, leave the **Company name** field blank. [Learn more](#assign-permissions-per-company).
+1. If you want the permission sets to apply only to a specific company, set the **Company name** field to that company. If you want the permission set to apply to all companies, leave the **Company name** field blank. [Learn more](#control-access-to-specific-companies).
 1. On the **Permission Set by User** page, select the **[user name]** checkbox on a line for the relevant permission set to assign the set to the user.
 
     Select the **All Users** checkbox to assign the permission set to all users.

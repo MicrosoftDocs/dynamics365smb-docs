@@ -60,7 +60,7 @@ Using the company switcher is probably the quickest and most versatile way to sw
 
 ## Use the app launcher
 
-When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the environments that you can access are available on the Office.com.  
+When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the environments that you can access are available on the Microsoft 365.  
 
 1. Select the **App Launcher** icon ![App Launcher.](media/app-launcher-icon.png "The App Launcher provides access to more features").
 2. In the pane that opens, look for and choose [!INCLUDE[prod_short](includes/prod_short.md)]. If you don't see [!INCLUDE[prod_short](includes/prod_short.md)], choose **All apps**, then enter **Business Central** in the **Search** box.
@@ -68,6 +68,9 @@ When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the env
    :::image type="content" source="media/app-launcher-bc-tile.png" alt-text="The Microsoft 365 app launcher showing the Business Central tile.":::  
 
 3. If there's more than one environment, you'll be asked to choose the environment to access.
+
+> [!NOTE]
+> App launcher isn't available if you're signed in to Business Central as a guest.
 
 <!--
 The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.

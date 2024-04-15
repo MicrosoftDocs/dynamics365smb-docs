@@ -37,10 +37,10 @@ For more information, see [Delegated administrator access to Business Central On
 
 |To  |See  |
 |---------|---------|
-|To make it easier to manage permissions for multiple users, you can organize them in security groups and then assign or change one permission set for many users in one action.| [To manage permissions through user groups](#to-manage-permissions-through-user-groups) |
-|To manage permission sets for specific users | [To assign permission sets to users](#to-assign-permission-sets-to-users) |
-|To learn how to define a permission set|[To create a permission set](#to-create-a-permission-set)|
-|To view or troubleshoot a user's permissions|[To get an overview of a user's permissions](#to-get-an-overview-of-a-users-permissions)|
+|To make it easier to manage permissions for multiple users, you can organize them in security groups and then assign or change one permission set for many users in one action.| [Manage permissions through user groups](#manage-permissions-through-user-groups) |
+|To manage permission sets for specific users | [Assign permission sets to users](#assign-permission-sets-to-users) |
+|To learn how to define a permission set|[Create a permission set](#create-a-permission-set)|
+|To view or troubleshoot a user's permissions|[Get an overview of a user's permissions](#get-an-overview-of-a-users-permissions)|
 |To learn about record-level security|[Security filters limit a user's access to specific records in a table](#security-filters-limit-a-users-access-to-specific-records-in-a-table)|
 
 > [!NOTE]
@@ -249,7 +249,7 @@ You can also assign permissions sets directly to a user.
 
 A permission set is a collection of permissions for specific database objects. All users must be assigned one or more permission sets before they can access [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-A [!INCLUDE[prod_short](includes/prod_short.md)] solution contains predefined permission sets that are added by Microsoft or by your solution provider. You can also add new permission sets tailored to meet the needs of your organization. For more information, see the [To create a permission set](#to-create-a-permission-set) section.
+A [!INCLUDE[prod_short](includes/prod_short.md)] solution contains predefined permission sets that are added by Microsoft or by your solution provider. You can also add new permission sets tailored to meet the needs of your organization. For more information, see the [Create a permission set](#create-a-permission-set) section.
 
 > [!NOTE]
 > If you do not want to restrict a user's access more than already defined by the license, you can assign a special permission set called SUPER to the user. This permission set ensures that the user can access all objects specified in the license.
@@ -268,7 +268,7 @@ You can assign permissions sets to users in two ways:
 
    Any permission sets that are already assigned to the user are displayed in the **Permission Sets** FactBox.
 1. Choose the **Edit** action to open the **User Card** page.
-1. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. For more information, see [To create or edit a permission set](ui-define-granular-permissions.md#to-create-a-permission-set).
+1. On the **User Permission Sets** FastTab, on a new line, fill in the fields as necessary. For more information, see [Create or edit a permission set](ui-define-granular-permissions.md#create-a-permission-set).
 
    If you want the permission set to apply to a specific company, set the **Company** field to that company. If you want the permission set to apply to all companies, leave the **Company** field blank. [Learn more](#control-access-to-specific-companies).
 
@@ -304,7 +304,7 @@ The **Effective Permissions** page offers additional information about the sourc
     >
     > Rows of source Entitlement originate from the subscription license. The permission values of the entitlement overrule values in other permission sets if they have a higher ranking. A value in a non-entitlement permission set that has a higher ranking than the related value in the entitlement will be surrounded by brackets to indicate that it is not effective as it is overruled by the entitlement.
     >
-    > For an explanation of ranking, see [To create a permission set](ui-define-granular-permissions.md#to-create-a-permission-set).  
+    > For an explanation of ranking, see [Create a permission set](ui-define-granular-permissions.md#create-a-permission-set).  
 
 4. To edit a permission set, in the **By Permission Set** part, on the line for a relevant permission set of type **User-Defined**, choose one of the five access type fields and select a different value.
 

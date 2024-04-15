@@ -187,7 +187,7 @@ Administrators can define periods of time during which specified users are able 
 
 ## Assign permissions per company
 
-When you have multiple companies in Business Central, managing permissions across companies requires thoughtful consideration. You typically wouldn't want users to have identical access rights to all companies. companies. Instead, you may need to grant users' permissions based on their company affiliations. When assigning permission sets to individual users or user groups, you have the flexibility to select a specific company to which the permission set applies. Notably, the company isn't explicitly specified within the permission set; rather, it's determined when the permission set is assigned to the user or group.
+When you have multiple companies in Business Central, managing permissions across companies requires thoughtful consideration. You might not want users to have identical access rights to all companies. Instead, you may need to grant users' permissions based on their company affiliations. To support this scenario when assigning permission sets to individual users or user groups, you have the option to select a specific company to which the permission set applies. Notably, the company isn't explicitly specified within the permission set; rather, it's determined when the permission set is assigned to the user or group.
 
 ## Manage permissions through user groups
 

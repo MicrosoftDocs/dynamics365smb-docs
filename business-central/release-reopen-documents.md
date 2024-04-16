@@ -15,7 +15,7 @@ In this article, you learn how to release or reopen sales and purchase documents
 
 ## Release a sales or purchase document
 
-1. Open the document that you want to release.
+1. Open the document that you want to release as follows:
 
    1. In the upper right, select the ![Shows the question mark icon that opens the search box.](media/ui-search/search_small.png) icon to open the search box.
    1. Enter the document type you're looking for, such as **Sales orders** or **Purchase orders**, then choose the related link.
@@ -28,7 +28,7 @@ In this article, you learn how to release or reopen sales and purchase documents
 
 You can make changes to a released sales and purchase document by reopening it.
 
-1. Open the document that you want to reopen.
+1. Open the document that you want to reopen as follows:
 
    1. In the upper right, select the ![Shows the question mark icon that opens the search box.](media/ui-search/search_small.png) icon to open the search box.
    1. Enter the document type you're looking for, such as **Sales orders** or **Purchase orders**, then choose the related link.

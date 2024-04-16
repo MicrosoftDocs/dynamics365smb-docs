@@ -72,11 +72,12 @@ The advantage of using the message compose box is that you can add a contact car
     > [!NOTE]
     > The contact card isn't sent to the conversation right away for others to see. You have the opportunity to review the contents of the card, and add text before or after it as you like. Then, send your message to the chat when ready.
 
+<!--
 ### Here's another way
 
 1. Instead of using the **Business Central** icon, type **@Business Central** directly in the message compose box.
 2. Enter your search terms in the box.
-3. Use the up and down arrow keys on the keyboard to choose a contact, then select <kbd>Enter</kbd> to select it.
+3. Use the up and down arrow keys on the keyboard to choose a contact, then select <kbd>Enter</kbd> to select it.-->
 
 ## Viewing contact card details
 

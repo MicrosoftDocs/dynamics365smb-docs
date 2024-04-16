@@ -56,9 +56,9 @@ For example, users must have this role to connect work orders to [!INCLUDE [prod
 
 > [!NOTE]
 > To use the **Open in Business Central** action in Sales, you must have the following privileges for the following tables:
-
-You must have **Read** permissions for the **Dynamics 365 Business Central Connection** (nav_connection) table.
-You must have **Read**, **Write**, and **Delete** permissions for the **Default Dynamics 365 Business Central Connection** (nav_defaultconnection) table.
+>
+>* You must have **Read** permissions for the **Dynamics 365 Business Central Connection** (nav_connection) table.
+>* You must have **Read**, **Write**, and **Delete** permissions for the **Default Dynamics 365 Business Central Connection** (nav_defaultconnection) table.
 
 ### Other settings in Field Service
 
@@ -109,7 +109,7 @@ The following sections describe the features where you can use the data that fro
 
 ### Field Service
 
-You can [create **Work Orders**](/dynamics365/field-service/create-work-order) using the **Service Account** and **Billing Account** from [!INCLUDE [prod_short](includes/prod_short.md)]. On work orders, you must select the **Business Central Project Task** in the **External Project** field. Selecting a project lets you synchronize work order products and services to the appropriate project task in [!INCLUDE [prod_short](includes/prod_short.md)].
+You can [create work orders](/dynamics365/field-service/create-work-order) using the **Service Account** and **Billing Account** from [!INCLUDE [prod_short](includes/prod_short.md)]. On work orders, you must select the **Business Central Project Task** in the **External Project** field. Selecting a project lets you synchronize work order products and services to the appropriate project task in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 You can add inventory and noninventory items as **Work Order Products** on work orders and get the quantity on hand and costs and prices from [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Create a work order from the work order form and record list](/dynamics365/field-service/create-work-order#create-a-work-order-from-the-work-order-form-and-record-list).
 

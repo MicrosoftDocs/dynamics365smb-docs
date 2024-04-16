@@ -7,6 +7,7 @@ ms.topic: how-to
 ms.collection: 
 ms.date: 04/16/2024
 ms.custom: bap-template
+author: jswymer
 ---
 
 # Release and reopen sales and purchase documents

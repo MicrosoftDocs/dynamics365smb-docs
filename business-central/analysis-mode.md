@@ -143,7 +143,7 @@ Here's some pointers on working with multiple analysis tabs:
 
 In analysis mode, date fields of the dataset are generated in a Year-Quarter-Month hierarchy of three separate fields. This hierarchy is based on the normal calendar, not any fiscal calendars defined in Business Central.
 
-The extra fields are named _\<field name\> Year_, _\<field name\> Quarter_, and _\<field name\> Month_. For example, if the dataset includes a field called _Posting Date_, then the corresponding date hierarchy consists of fields called _Posting Date Year_, _Posting Date Quarter_, and _Posting Date Month_.
+The extra fields are named *\<field name\> Year*, *\<field name\> Quarter*, and *\<field name\> Month*. For example, if the dataset includes a field called *Posting Date*, then the corresponding date hierarchy consists of fields called *Posting Date Year*, *Posting Date Quarter*, and *Posting Date Month*.
 
 > [!NOTE]
 > The date hierarchy currently only applies to fields of type date, not for fields of type datetime.
@@ -205,25 +205,40 @@ After you’ve prepared an analysis on a tab, you can share it as a link with co
 
 ## Examples of how to analyze data
 
-The Analyze Data feature is meant for quick fact checking and ad-hoc analysis when you don't want to run a report, if a report for your specific needs does exist, or if you want to quickly iterate to get a good overview on part of your business.
+The *Analyze Data* feature is meant for quick fact checking and ad-hoc analysis when you don't want to run a report, if a report for your specific needs does exist, or if you want to quickly iterate to get a good overview on part of your business.
 
 In the following sections, you'll find examples of usage scenarios for many of the functional areas in the Business Central application.
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Finance (Accounts Receivables)](#example-finance-accounts-receivables) | See what your customers owe you, maybe broken down into time intervals for when amounts are due | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) | _Customer Name_, _Due Date_, and _Remaining Amount_ | 
+| [Finance (Accounts Receivables)](#example-finance-accounts-receivables) | See what your customers owe you, maybe broken down into time intervals for when amounts are due | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) | *Customer Name*, *Due Date*, and *Remaining Amount* | 
+| [Finance (Income statement)](#example-finance-income-statement) | See your income over the income accounts from the chart of account, maybe broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) | *G/L Account No.*, *Posting Date*, and *Amount*. |
+
 
 ### Example: Finance (Accounts Receivables)
 
 To see what your customers owe you, maybe broken down into time intervals for when amounts are due, do as follows:
 
-1. Open the [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) list and switch on Analyze. 
-1. Go to the Columns menu and remove all columns (click the box next to the _Search_ field). 
-1. Turn on _Pivot_ mode (located directly above the _Search_ field). 
-1. Now, drag the _Customer Name_ field to the _Row Groups_ area and drag _Remaining Amount_ to the _Values_ area. 
-1. Finally, find the _Due Date Month_ field and drag it to the _Column Labels_ area. 
-1. If you want to restrict the analysis to a given year/quarter, apply a filter in the _Additional Filters_ menu (to the right, just below the _Columns_ menu.) 
+1. Open the [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) list and switch on analyze mode. 
+1. Go to the Columns menu and remove all columns (click the box next to the *Search* field). 
+1. Turn on *Pivot* mode (located directly above the *Search* field). 
+1. Now, drag the *Customer Name* field to the *Row Groups* area and drag *Remaining Amount* to the *Values* area. 
+1. Finally, find the *Due Date Month* field and drag it to the *Column Labels* area. 
+1. If you want to restrict the analysis to a given year/quarter, apply a filter in the *Additional Filters* menu (to the right, just below the *Columns* menu.) 
 1. Rename your analysis tab to "Aged Accounts by Month" or something that describes this analysis for you. 
+
+
+### Example: Finance (Income statement)
+
+To see your income over the income accounts from the chart of account, maybe broken down into time intervals for when amounts were posted, do as follows:
+
+1. Open the [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) list and switch on analyze mode. 
+1. Go to the Columns menu and remove all columns (click the box next to the *Search* field). 
+1. Turn on *Pivot* mode (located directly above the *Search* field). 
+1. Now, drag the *G/L Account No.* field to the *Row Groups* area and drag *Amount* to the *Values* area. 
+1. Finally, find the *Posting Date Month* field and drag it to the *Column Labels* area. 
+1. For the income statement, you need to filter on the accounts you use for this, in the Business Central demo data, these are accounts starting with "4", your chart of account setup might be different (if you run the [Trial Balance by Period](https://businesscentral.dynamics.com/?report=38) report, you can easily see which accounts is used in your setup). Set a filter on appropriate accounts in the *Additional Filters* menu (to the right, just below the *Columns* menu.) 
+1. Rename your analysis tab to "Income by Month" or something that describes this analysis for you.
 
 
 ## Limitations in 2023 release wave 1 (preview)

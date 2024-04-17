@@ -10,14 +10,14 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
 ---
-# Analyze list page and query data using data analysis mode
+# Analyze list page and query data using Data Analysis 
 
 > **APPLIES TO:** Public preview in Business Central 2023 release wave 1 and later for analyzing list pages; Generally available in Business Central 2023 release wave 2 for analyzing data from list pages and queries.
 
-In this article, you learn how to analyze data from list pages and queries using the *data analysis mode*. The data analysis mode enables you to analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Examples could be "My customers", "Follow up items", "Recently added vendors", "Sales statistics", or any other view you can imagine.
+In this article, you learn how to analyze data from list pages and queries using the *Data Analysis* feature. With Data Analysis you can analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Examples could be "My customers", "Follow up items", "Recently added vendors", "Sales statistics", or any other view you can imagine.
 
 > [!TIP]
-> A good thing about the data analysis mode is that it doesn't change any of the underlying data of list page or query, or the layout of the page or query when it's not in data analysis mode. So the best way to learn about what you can do in the data analysis mode is to try things out.
+> A good thing about the *data analysis* feature is that it doesn't change any of the underlying data of list page or query, or the layout of the page or query when it's not in data analysis mode. So the best way to learn about what you can do in the data analysis mode is to try things out.
 
 ## Prerequisites 
 
@@ -202,6 +202,29 @@ After you’ve prepared an analysis on a tab, you can share it as a link with co
 1. Paste the link into the communication media of your choice, like Word, Outlook, Teams, OneNote, and so one. 
 
 2. Once received, recipients can then select the link and open the analysis for the page or query in Business Central. They're prompted to specify a name for the new analysis tab that will be created.  
+
+## Examples of how to analyze data
+
+The Analyze Data feature is meant for quick fact checking and ad-hoc analysis when you don't want to run a report, if a report for your specific needs does exist, or if you want to quickly iterate to get a good overview on part of your business.
+
+In the following sections, you'll find examples of usage scenarios for many of the functional areas in the Business Central application.
+
+| Area | To... | Open this page in analysis mode | Using these fields |
+| ---- | ----- | ------------------------------- |------------------- |
+| [Finance (Accounts Receivables)](#example-finance-accounts-receivables) | See what your customers owe you, maybe broken down into time intervals for when amounts are due | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) | _Customer Name_, _Due Date_, and _Remaining Amount_ | 
+
+### Example: Finance (Accounts Receivables)
+
+To see what your customers owe you, maybe broken down into time intervals for when amounts are due, do as follows:
+
+1. Open the [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) list and switch on Analyze. 
+1. Go to the Columns menu and remove all columns (click the box next to the _Search_ field). 
+1. Turn on _Pivot_ mode (located directly above the _Search_ field). 
+1. Now, drag the _Customer Name_ field to the _Row Groups_ area and drag _Remaining Amount_ to the _Values_ area. 
+1. Finally, find the _Due Date Month_ field and drag it to the _Column Labels_ area. 
+1. If you want to restrict the analysis to a given year/quarter, apply a filter in the _Additional Filters_ menu (to the right, just below the _Columns_ menu.) 
+1. Rename your analysis tab to "Aged Accounts by Month" or something that describes this analysis for you. 
+
 
 ## Limitations in 2023 release wave 1 (preview)
 

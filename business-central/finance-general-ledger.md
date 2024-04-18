@@ -56,6 +56,7 @@ The chart of accounts page shows all general ledger accounts. From the chart of 
 * See a list of posting groups for that account.
 * View separate debit and credit balances for a single account.
 
+
 For more information, see [Understanding the Chart of Accounts](finance-chart-of-accounts.md).
 
 

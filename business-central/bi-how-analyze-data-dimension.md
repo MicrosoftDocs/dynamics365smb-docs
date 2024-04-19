@@ -7,7 +7,7 @@ ms.reviewer: kepontop
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 545, 555, 556, 557, 558, 9372, 9370, 9371
-ms.date: 03/27/2024
+ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

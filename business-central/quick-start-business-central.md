@@ -1,17 +1,17 @@
 ---
-title: Business Central Quick Starts
+title: Business Central quick starts
 description: Get up and running with Business Central with quick start articles and tips that help you fill in the first critical fields.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: quickstart
-ms.date: 08/25/2022
 ms.author: bholtorf
-
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: quickstart
+ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Business Central Quick Starts
+# Business Central quick starts
 
 Quick start articles help you get set up sooner so you can begin performing the basic [!INCLUDE[prod_short](includes/prod_short.md)] functions you need.
 

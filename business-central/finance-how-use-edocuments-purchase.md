@@ -1,6 +1,6 @@
 ---
 title: Use e-documents in the purchase process
-description: Learn how to use e-documents functionality that is related to purchase invoices and orders.
+description: Learn how to use e-document functionality that is related to purchase invoices and orders.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
@@ -11,11 +11,11 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Use E-documents in the purchases process
+# Use e-documents in the purchases process
 
 You can use configured electronic documents (e-documents) with the purchase documents.
 
-You can use the following purchase documents with e-documents functionality:  
+The following purchase documents can be used with e-documents functionality:  
 
 - Purchase invoices
 - Purchase orders (from version 24.0)
@@ -23,19 +23,22 @@ You can use the following purchase documents with e-documents functionality:
 - General journals
 
 > [!NOTE]
-> From [!INCLUDE[prod_short](includes/prod_short.md)] version 24.0, it is possible to connect **Purchase Orders** with the received **E-Documents**.  
+> From [!INCLUDE[prod_short](includes/prod_short.md)] version 24.0, it's possible to connect **Purchase Orders** with the received **E-Documents**.  
 
 ## E-documents in purchases
 
-The receipt of purchase electronic documents in Dynamics 365 Business Central can be done as a batch job or manually.  
+The receipt of purchase e-documents in Dynamics 365 Business Central can be done as a batch job or manually.  
 
 ### How to set up vendors to work with different purchase documents  
 
-Follow the steps to configure vendors to work properly with incoming electronic invoices: 
+Follow these steps to configure vendors to work properly with incoming electronic invoices: 
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then select the related link. 
 2. Choose the vendor you want to configure.   
-3. In the **Receiving** FastTab, find the **Receive E-Document To** field to specify the default purchase document to be generated from the received E-document. 
+3. In the **Receiving** FastTab, find the **Receive E-Document To** field to specify the default purchase document to be generated from the received e-document. 
+
+
+
 
 > [!NOTE]
 > In the **Receive E-Document To** field, users can either select a **Purchase Invoice** or **Purchase Order** based on what they would like to have created from the received e-invoice. This selection does not affect the creation of corrective documents; in both scenarios, the system will generate a **Credit Memo**.  
@@ -223,7 +226,7 @@ If the Copilot is activated, existing actions **Map E-Document Lines** on purcha
 7. From this moment, you can continue to work as you're doing manual matching, and that means you can remove matches, manual matches, reset matching or if there are no changes you want to make, just choose the **Apply To Purchase Order** action and continue working with the **Purchase Order**. 
 
 > [!NOTE]
-> If you want you can choose the **Match with Copilot** action fon the **Purchase Order Matching** page again, but in this case, you will be asked if you want to overwrite the existing matches, as all lines have been matched already.  
+> If you want you can choose the **Match with Copilot** action on the **Purchase Order Matching** page again, but in this case, you will be asked if you want to overwrite the existing matches, as all lines have been matched already.  
 
 > [!NOTE]
 > Price/Cost analyze, and the available quantity check is a part of preprocessing activity.   

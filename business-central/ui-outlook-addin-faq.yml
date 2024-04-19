@@ -3,7 +3,6 @@ metadata:
   title: Business Central Add-in for Outlook FAQ
   description: See answers to frequently asked questions about using Business Central add-in for Outlook.
   author: jswymer
-  
   ms.topic: faq
   ms.devlang: al
   ms.search.keywords: phone, tablet
@@ -36,7 +35,7 @@ sections:
       - question: |
           Outlook add-in tells me the page is not supported. Why?
         answer: |
-          Some features in Business Central require significant workspace to provide a great experience and will not be available when using the Outlook add-in pane. For example, any step-by-step wizard page is not available in the pane. To overcome this, you can pop out the page in the add-in using the "Pop out" action. The popout window can be stretched to any size including expanding to fill your screen.
+          Some features in Business Central require significant workspace to provide a great experience and aren't available when using the Outlook add-in pane. For example, any step-by-step wizard page isn't available in the pane. To overcome this, you can pop out the page in the add-in using the "Pop out" action. The popout window can be stretched to any size including expanding to fill your screen.
 
 additionalContent: |
 

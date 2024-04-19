@@ -254,7 +254,7 @@ The following table describes the shortcuts on a numeric keypad.
 
 ## Access keys for action bar and navigation menu
 
-Access keys are keyboard shortcuts that allow you to select specific actions on the action bar and navigation menu for easier navigation, similar to access keys in Excel and Word. However, they're only available in the Business Central web client when the display language is set to English
+Access keys are keyboard shortcuts that allow you to select specific actions on the action bar and menu for easier navigation, similar to access keys in Excel and Word. However, they're only available in the Business Central web client when the display language is set to English
 
 To use access keys on a page, first select the <kbd>Alt</kbd> key to display *key tips*, which are letters in small boxes next to the actions in the action bar and navigation menu. 
 

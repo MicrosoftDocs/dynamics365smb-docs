@@ -4,7 +4,7 @@ description: The complete list of keyboard shortcut combinations to work efficie
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 12/14/2023
+ms.date: 04/19/2024
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
@@ -252,19 +252,19 @@ The following table describes the shortcuts on a numeric keypad.
 |--------------------------------|----------|
 |<kbd>Alt</kbd>+<kbd>Decimal Separator</kbd>|Switch the output of the decimal separator key to either a period (.) or the character determined by the **Region** setting of the **My Settings** page. For more information, see [Setting the decimal separator used by numeric keyboards](ui-enter-data.md#decimal).|
 
-
 ## Access keys for action bar and navigation menu
 
-Access keys are keyboard shortcuts that can select specific actions on the action bar and navigation menu. It allows you to navigate through actions to get to the page you want. Access keys are available in the Business Central web client and are similar to access keys in Excel and Word Online.  
+Access keys are keyboard shortcuts that allow you to select specific actions on the action bar and menu for easier navigation, similar to access keys in Excel and Word. However, they're only available in the Business Central web client when the display language is set to English.
 
 To use access keys on a page, first select the <kbd>Alt</kbd> key to display *key tips*, which are letters in small boxes next to the actions in the action bar and navigation menu. 
 
 ![Image that shows access keys on the customer list page.](media/access-keys.png) 
 
 To select an action, select the key combination displayed in the key tip, for example <kbd>H</kbd> or <kbd>J</kbd>+<kbd>F</kbd>.
+
 - If the action opens to a submenu of other actions, the keys tips for the submenu are shown, allowing you to continue using access keys if you like.
-- If the action opens a different page, then key tips are turned off. To show them again, select <kbd>Alt</kbd> key. 
- 
+- If the action opens a different page, then key tips are turned off. To show them again, select <kbd>Alt</kbd> key.
+
 ## See also
 
 [Keyboard quick reference - PC Only](keyboard-shortcuts-cheatsheet.md)  

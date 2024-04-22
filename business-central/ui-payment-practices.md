@@ -28,7 +28,7 @@ Users can select the period for which they want to run a calculation and to find
 
 ## Generate the report 
 
-To run the Payment Practices report, use the following steps:
+To run the **Payment Practices** report, use the following steps:
 
 1. Select the ![Lightbulb that op the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Practices**, and then select the related link. 
 2. Select **New**.
@@ -37,7 +37,27 @@ To run the Payment Practices report, use the following steps:
    | Field | Description |
    |---------|-----------------------------------|
    | No. | Specify the number of the entry or record for the report. |
-   | Aggregation Type | Specify how data is aggregated. If you choose the option **Period** report will be based on |
-   | Header Type |   |
-   | Starting Date |   |
-   | Ending Date |    |
+   | Aggregation Type | Specify how data is aggregated. If you choose the option **Period** report will be based on different periods, but if you choose the **Company Size** option report will be created based on company sizes configured in the **Company Size Code** field on the **Vendor** card. |
+   | Header Type | Specifies the source for entries in the payment practice, and you can choose Vendors, Customers or both. |
+   | Starting Date | Specifies the starting date of the payment practice. |
+   | Ending Date | Specifies the ending date of the payment practice. |
+
+> [!NOTE]
+> If you decide to use the **Company Size** option, you first must create entries in the **Company Sizes** page anad to add them to all vendors you want to track by this method.
+
+4. Once when you populate all fields in the header, you need to run the **Generate** action to generate data in the lines and statistics for selected type of reporting.
+5. Based on the **Agregation Type** you will get different lines. You can change some of values manually, but in this case each of modified line and the whole report will be marked as **Modified Manually**.
+6. From all of calculated fields, you can go deeper to see how this result has been calculated, opening the **Payment Practice Data List** page.
+7. If you want to print the document, you can do it running the **Print** action.
+
+## See also
+
+[Finance reports](finance-reports.md)  
+[Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
+[Accounts Receivable Reports and Analytics](receivables-reports.md)  
+[Accounts Payable Reports and Analytics](payables-reports.md)  
+[Setting Up Finance](finance-setup-finance.md)  
+[Finance](finance.md)  
+[Local Functionality Overview](about-localization.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

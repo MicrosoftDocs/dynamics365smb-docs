@@ -103,9 +103,17 @@ When you choose the **Generate Financial Reports** action—or the next time the
 In a small organization, such as the CRONUS demonstration company, most users can edit financial entities such as G/L accounts, account categories, and the chart of accounts, except those users with a TEAM MEMBER license. However, larger organizations typically use roles and permissions to limit access to editing these entities. If you're an administrator, or have the *Business Manager* or *Accountant* role, you can control user permissions to give the right people access to the relevant tables. Learn more in the [Get an overview of a user's permissions](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions) section.  
 
 
+## Use dimensions to simplify your chart of accounts
+
+Dimensions are values that categorize entries so you can track and analyze them on documents, such as sales orders. Dimensions can, for example, indicate the project or department an entry came from. So, instead of setting up separate general ledger accounts for each department and project, you can use dimensions as a basis for analysis and avoid having to create a complicated chart of accounts. 
+
+For more information, see [Set up default dimensions for customers, vendors, and other accounts](finance-dimensions.md#to-set-up-default-dimensions-for-customers-vendors-and-other-accounts).
+
+
 ## See also
 
-[Understand the chart of accounts](finance-chart-of-accounts.md)
+[Understand the chart of accounts](finance-chart-of-accounts.md)  
+[Work with Dimensions](finance-dimensions.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Business Intelligence](bi.md)  
 [Finance](finance.md)  

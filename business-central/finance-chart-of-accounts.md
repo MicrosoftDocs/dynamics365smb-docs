@@ -86,7 +86,7 @@ A mimimalist chart of accounts can consist of only lines of posting accounts. Yo
 > If you use account types other than of type *Posting* in your chart of accounts, you can define different views such as *Show only posting accounts* and *Hide blocked accounts* to be able to see the "raw" posting accounts without the reporting-type account types for totalling and headings.
 
 
-## Using dimensions to simplify your chart of accounts
+## Use dimensions to simplify your chart of accounts
 
 Dimensions are values that categorize entries so you can track and analyze them on documents, such as sales orders. Dimensions can, for example, indicate the project or department an entry came from. So, instead of setting up separate general ledger accounts for each department and project, you can use dimensions as a basis for analysis and avoid having to create a complicated chart of accounts. 
 

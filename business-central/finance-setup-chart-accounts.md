@@ -51,7 +51,7 @@ This video shows how to specify whether, and when, people can delete G/L account
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
 
-## Learning path: Create financial reports in Microsoft Dynamics 365 Business Central
+## Learning path: Set up the chart of accounts in Dynamics 365 Business Central
 
 Want to learn how to set up the chart of accounts in Business Central? Then start on the following learning path [Set up the chart of accounts in Dynamics 365 Business Central](/training/modules/chart-accounts-dynamics-365-business-central).
 

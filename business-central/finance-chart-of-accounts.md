@@ -26,14 +26,14 @@ Balance sheet accounts are further categorized into three groups:
 
 Income accounts are divided into two groups:
 
-1. Revenue accounts: These capture your company’s income from various sources.
-1. Expense accounts: These capture all your company’s expenses.
+1. Revenue accounts: These accounts capture your company’s income from various sources.
+1. Expense accounts: These accounts capture all your company’s expenses.
 
 Use the COA to record transactions in your organization’s general ledger. Each account typically has an identifier (account number) and a descriptive caption or header, and they're systematically coded based on their account type.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard chart of accounts that is ready to support your business.
 
-The composition of your company’s chart of accounts is a strategic decision made by your management (or by country-specific regulation). It varies based on your company’s industry, business model, and financial structure. For instance, depending on your industry, you may have specific asset accounts tailored to your company's unique operations and needs:
+The composition of your company’s chart of accounts is a strategic decision made by your management (or by country-specific regulation). It varies based on your company’s industry, business model, and financial structure. For instance, depending on your industry, you might have specific asset accounts tailored to your company's unique operations and needs:
 
 * A retail business might emphasize inventory and accounts receivable.
 * A technology company might focus on intangible assets like patents and software.
@@ -45,13 +45,13 @@ The chart of accounts shows all general ledger accounts. From the chart of accou
 
 * View reports that show general ledger entries and balances.  
 * Close your income statement.  
-* Open the general ledger (G/L) account card to add or change settings.  
+* Open the General Ledger Account Card, where you can add or change settings.  
 * See a list of posting groups for that account.
 * View separate debit and credit balances for a single account.
 
 You can add, change, or delete general ledger accounts. However, to prevent discrepancies, you can't delete a general ledger account if its data is used in the chart of accounts. Also, you can block the accidental deletion of accounts in sensitive periods. To learn more about protecting accounts from deletion, go to [Deleting accounts](finance-setup-chart-accounts.md#delete-accounts).  
 
-## The code hierachy in G/L accounts
+## The code hierarchy in G/L accounts
 
 Businesses typically create a hierarchical structure in G/L account codes to reflect where they belong in the chart of accounts. For instance, in some implementations, G/L account codes that start with **1** denotes asset accounts, whereas G/L account codes that start with 3 denotes equity accounts. In some regions, there are local regulations for using a standard chart of accounts. To help users understand this hierarchy without the need to know the internal code structure, you can define headers and subtotals in your chart of accounts that encapsulate these internal structures.
 
@@ -59,13 +59,13 @@ Businesses typically create a hierarchical structure in G/L account codes to ref
 
 Each line in the chart of accounts is a G/L account of one of the types:
 
-* Posting (journals can post lines to this accounts)
+* Posting (journals can post lines to these accounts)
 * Heading (defines an overall heading in the chart of accounts)
-* Total (defines a formula for a subtotal in in the chart of accounts)
-* Begin-Total (defines a beginning heading for a subtotal in in the chart of accounts. All subsequent lines until an End-Total line are indented)
-* End-Total (defines a ending heading for a subtotal and the formula for it in in the chart of accounts. All subsequent lines after this End-Total line are outdented)
+* Total (defines a formula for a subtotal in the chart of accounts)
+* Begin-Total (defines a beginning heading for a subtotal in the chart of accounts. All subsequent lines until an End-Total line are indented)
+* End-Total (defines an ending heading for a subtotal and the formula for it in the chart of accounts. All subsequent lines after this End-Total line are outdented)
 
-A minimalist chart of accounts can consist of only lines of posting accounts. You use the other four types to define how the chart of accounts also show a financial statement with headers and subtotals. Totalling accounts are frequently used in financial reporting.
+A minimalist chart of accounts can consist of only lines of posting accounts. You use the other four types to define how the chart of accounts also shows a financial statement with headers and subtotals. Totaling accounts are frequently used in financial reporting.
 
 > [!TIP]
 > If you use account types other than **Posting** in your chart of accounts, you can define different views to show the "raw" posting accounts without the reporting-type account types for totalling and headings. For example, Show only posting accounts and Hide blocked accounts.
@@ -78,7 +78,7 @@ To learn more about dimensions, go to [Work with Dimensions](business-central/fi
 
 ## Get a quick overview of your finances
 
-The **Chart of Accounts** page displays accounts in a hierarchical list that offers fast access to the key information for each account. However, the list is static, and if you have many accounts, you might have to scroll to view different accounts. If you just want a quick overview of the basics, such as net changes and balances, the **Chart of Accounts Overview** page is a useful alternative. The column layout on the page is the same as you'll find on the **Chart of Accounts** page (though with fewer columns), so you won't have to reorient yourself. You can expand or collapse the hierarchical levels. To make it easy to switch between the pages, the **Chart of Accounts Overview** page is available from the **Chart of Accounts** page.
+The **Chart of Accounts** page displays accounts in a hierarchical list that offers fast access to the key information for each account. However, the list is static, and if you have many accounts, you might have to scroll to view different accounts. If you just want a quick overview of the basics, such as net changes and balances, the **Chart of Accounts Overview** page is a useful alternative. The column layout on the page is the same as the **Chart of Accounts** page (though with fewer columns), so it's easy to understand. You can expand or collapse the hierarchical levels. To make it easy to switch between the pages, the **Chart of Accounts Overview** page is available from the **Chart of Accounts** page.
 
 ## Access to create and edit the chart of accounts
 
@@ -101,7 +101,7 @@ Here are some best practices that you might consider when you develop and mainta
 
 * Compose your company’s chart of accounts to support the financial reporting needs for your management to take strategic decisions.
 * Consider starting simple with fewer G/L accounts. You can always add more detailed accounts if needed.
-* Define headers and subtotals in your chart of accounts to encapsulate the internal structures in G/L accounts.
+* Define headers and subtotals in your chart of accounts that summarize the internal structures in G/L accounts.
 * Use dimensions to simplify your chart of accounts. Don't have specific G/L accounts for each product or department.
 * Add new G/L accounts as they come in, but remove accounts from your chart of accounts only during period-end of your finance period.
 

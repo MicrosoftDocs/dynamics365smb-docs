@@ -74,7 +74,7 @@ A minimalist chart of accounts can consist of only lines of posting accounts. Yo
 
 Dimensions are values that categorize entries so you can track and analyze them on documents, such as sales orders. Dimensions can, for example, indicate the project or department an entry came from. So, instead of setting up separate general ledger accounts for each department and project, you can use dimensions as a basis for analysis and avoid having to create a complicated chart of accounts.
 
-To learn more about dimensions, go to [Work with Dimensions](business-central/finance-dimensions.md).
+To learn more about dimensions, go to [Work with Dimensions](finance-dimensions.md).
 
 ## Get a quick overview of your finances
 

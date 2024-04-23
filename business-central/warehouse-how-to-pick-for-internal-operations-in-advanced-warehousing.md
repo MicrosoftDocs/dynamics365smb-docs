@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 12/13/2023
+ms.date: 04/23/2024
 ms.custom: bap-template    
 ms.service: dynamics-365-business-central
 ---
@@ -135,11 +135,11 @@ Use **Warehouse Pick** documents to pick job components in the flow to project m
 
       You can sort the pick lines by various criteria, for example, by item, shelf number, or due date. Sorting can help optimize the put-away process, for example:
 
-    * If the Take and Place lines for each shipment line don't immediately follow one another, and you want them to, sort the lines by selecting **Item** in the **Sorting Method** field.  
+    * If the take and place lines for each shipment line don't immediately follow one another, and you want them to, sort the lines by selecting **Item** in the **Sorting Method** field.  
     * If bin rankings reflect the physical layout of the warehouse, use the **Bin Ranking** sorting method to organize the work by bin locations.
 
   > [!NOTE]  
-  > Lines will be sorted by selected criteria in ascending order. If you sort by document, first sorting will be done by document type based on the **Warehouse Activity Source Document** enum. If you sort by ship-to, first sorting will be done by Desctination Type based on **Warehouse Destination Type** enum.
+  > Lines are sorted in ascending order by the selected criteria. If you sort by document, sorting is done first by document type based on the **Warehouse Activity Source Document** field. If you sort by ship-to, sorting is done first by destination type based on the **Warehouse Destination Type** field.
 
 4. After you pick and place the items in the production, assembly or job area or bin, choose the **Register Pick** action.  
 
@@ -182,11 +182,10 @@ The following illustration shows when the **Bin Code** field on the component li
 
 ## Make-to-Order (MTO) production components in an advanced warehouse configuration
 
-In scenarios where produced item consists of raw materials and semi-finished items with manufacturing policy set to *Make-to-order* the warehouse pick those semi-finished components will be added to the same production order with "Planning Level Code" filled in. It is expected that those semi-finished items produced for order will be available for consumption immidiatelly and won't require pick neither will be included into warehouse pick document.
-Created warehouse picks will only include raw materials for produced item and for semi-finished items.
+In scenarios where a produced item consists of raw materials and semi-finished items with the manufacturing policy set to **Make-to-order**, the warehouse pick for those semi-finished components is added to the same production order with the **Planning Level Code** field filled in. It's expected that the semi-finished items are available for consumption immediately and won't require pick so they aren't included in the warehouse pick document. The created warehouse picks only include raw materials for produced item and for semi-finished items.
 
-However if semi-finished items already available on stock the planning system suggests to consume those instead of producing whole quantity. For example produced item requires 5 semi-finised components, but 3 are already in stock. In this case 5 semi-finished item will be listed in the production order components, but only 2 will be produced in the same production order as separate production order line.
-Such setup is not compatible with warehouse pick and depending on frequency you either shall change manufacturing policy for such semi-finished items to *Make-to-stock* or manually split production order component line when you need to pick semi-finished items produced earlier.
+However, if semi-finished items are available on stock, the planning system suggests that you consume those instead of producing the whole quantity. For example, a produced item requires five semi-finished components, but three are already in stock. In this case, five semi-finished items are listed in the production order components, but only two are produced in the same production order as a separate production order line.
+Such a setup isn't compatible with warehouse picks and, depending on frequency, you must either change the manufacturing policy for such semi-finished items to **Make-to-stock** or manually split the production order component line when you need to pick the semi-finished items produced earlier.
 
 
 ## See also

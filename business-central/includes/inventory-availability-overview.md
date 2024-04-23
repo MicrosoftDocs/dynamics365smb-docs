@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 09/11/2023
+ms.date: 04/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -88,9 +88,9 @@ The following immage illustrates the allocation of avalable quantity for reserve
 |TR    |Total Reserved Qty. in Warehouse.  ​       |
 |RS    |Reserved quantities that are already picked and are ready for shipment, usage, or consumption       |
 |A     |Avail. Qty. Excluding Shipment Bin​         |
-|B     |quantity in Dedicated or Blocked bins, blocked item lots or serial numbers         |
+|B     |Quantity in dedicated or blocked bins, blocked item lots, or serial numbers         |
 
-While there is enough available quantity in warehouse to satisfy pick completely it will lead to fact that total reserved quantity will be allocated against quantity in dedicated or blocked bins which will prevent picking for this demand. As reserved demand has higher priority system will reduce quantity to pick to prevent negative impact, such as inability to pick, on reserved demand.
+While there's enough available quantity in warehouse to satisfy the pick completely, it'll lead to the fact that the total reserved quantity is allocated against the quantities in dedicated or blocked bins, which prevents picking for this demand. Because reserved demand has higher priority, [!INCLUDE [prod_short](prod_short.md)] reduces the quantity to pick to prevent negative impact, such as the inability to pick, on reserved demand.
 
 ### Other details
 

@@ -1,17 +1,17 @@
 ---
-title: Move Items in Warehouses That Use Directed Put-away and Pick
+title: Move items in warehouses that use directed put-away and pick
 description: This article explains how to move items in locations that use directed put-away and pick.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 02/22/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.form: 7351,
 ms.service: dynamics-365-business-central
 ---
 
-# Move Items in Advanced Warehouse Configurations That Use Directed Put-away and Pick
+# Move items in advanced warehouse configurations that use directed put-away and pick
 
 You can move items between bins without a demand from a source document. For example, you might want to do that as part of the following activities:
 
@@ -123,7 +123,7 @@ The **Movement Worksheet** , **Warehouse Internal Pick**, and  **Warehouse Inter
     * If the bin rankings reflect the physical layout of the warehouse, use the **Bin Ranking** sorting method to organize the work around the bin locations.
 
   > [!NOTE]  
-  > Lines will be sorted by selected criteria in ascending order. If you sort by document, first sorting will be done by document type based on the **Warehouse Activity Source Document** enum. If you sort by ship-to, first sorting will be done by Desctination Type based on **Warehouse Destination Type** enum.
+  > Lines are sorted in ascending order by the selected criteria. If you sort by document, sorting is done first by document type based on the **Warehouse Activity Source Document** enum. If you sort by ship-to, sorting is done by destination type based on the **Warehouse Destination Type** field.
 
 4. Perform the put-away.
 

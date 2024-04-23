@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 02/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ms.search.form: 7775
 ms.collection:
@@ -35,12 +35,12 @@ This article explains how to control Copilot and other AI capabilities in Busine
 
   In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)-->
 
-If any of these requirements aren't fulfilled, the feature isn't available for use.-->
+If any of these requirements aren't fulfilled, the feature isn't available for use.
 
 ## Prerequisites
 
-- You're using Business Central online <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
-- You have admin or super permissions in Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
+- You're using Business Central online.
+- You're an [administrator](#requirements-for-being-an-administrator) in Business Central.
 
 ## Allow data movement across geographies
 
@@ -116,21 +116,37 @@ The following table lists the permissions required to use Copilot features provi
 
 |Copilot features|Required permissions|
 |-|-|
-|Analysis assist|**DATA ANALYSIS - EXEC** permission set or execute permission on the system object 9640 **Allow Data Analysis mode**. These are the same permissions needed to access the analysis mode.|
+|Analysis assist|**DATA ANALYSIS - EXEC** permission set or execute permission on the system object 9640 **Allow Data Analysis mode**. These permissions are the same permissions needed to access the analysis mode.|
 |Bank reconciliation assist|Permission on page 7250 **Bank Acc. Rec. AI Proposal** and page 7252 **Trans. To GL Acc. AI Proposal**.|
 |Chat |There are no permissions or permission sets that control access to chat on a per user basis. If chat is activated, it's available to all users.|
+|Map e-documents |Permission on page 6166 **E-Doc. PO Copilot Prop**|
 |Marketing text suggestions |Permission on page 5836 **Copilot Marketing Text**|
+|Sales line suggestions |Permission on page 7275 **Sales Line AI Suggestions** and page 7276 **Sales Line AI Suggestions Sub**|
 
-To grant or deny access to specific non-Microsoft copilot and AI capabilities, consult the documentation or publisher of that feature to identify which permissions are required.
+To grant or deny access to specific non-Microsoft copilot and AI capabilities, consult the feature's documentation or publisher to identify the required permissions.
+
+## Requirements for being an administrator
+
+You must have either SUPER permissions in Business Central user account or one of the following Business Central licenses:
+
+- Delegated Admin
+- Delegated Helpdesk
+- Global Admin
+- BC Admin
+- D365 Admin
+
+Business Central doesn't yet offer granular, object-level permissions so that only specific administrators can configure Copilot.
 
 ## Next steps
 
 After you enable and consent to the features, you're ready to try them out. Go to:
 
-- [Add marketing text to items](item-marketing-text.md)
-- [Analyze data in analysis mode with Copilot](analysis-assist.md)  
+- [Add marketing text to items with Copilot](item-marketing-text.md)
+- [Analyze list data with help of Copilot](analysis-assist.md)  
 - [Chat with Copilot](chat-with-copilot.md)
-- [Reconcile using bank account reconciliation assist](bank-reconciliation-with-copilot.md)
+- [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
+- [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
+- [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)  
 
 ## See also
 
@@ -138,5 +154,8 @@ After you enable and consent to the features, you're ready to try them out. Go t
 [FAQ for analysis assist](faqs-analysis-assist.md)  
 [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)  
 [FAQ for chat with Copilot](faqs-chat-with-copilot.md)  
+[FAQ for mapping e-documents with purchase orders](faqs-map-edocuments.md)  
 [FAQ for marketing text suggestions](faqs-marketing-text.md)  
+[FAQ for sales line suggestions](faq-sales-suggest-sales-lines-with-copilot.md)  
+
 [Marketing text suggestions overview](ai-overview.md)  

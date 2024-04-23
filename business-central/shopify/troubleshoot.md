@@ -158,6 +158,10 @@ The user who requested access doesn’t have the rights to manage apps (the abil
 
 Request a new token because the updated version of the connector requires more permissions (application scopes). To learn more, go to [Request access token](#request-the-access-token).
 
+### [API] Invalid API key or access token (unrecognized login or wrong password)
+
+Request a new token because the updated version of the connector requires more permissions (application scopes). To learn more, go to [Request access token](#request-the-access-token).
+
 ## See also
 
 [Get Started with the Connector for Shopify](get-started.md)

@@ -247,13 +247,13 @@ To get a better overview of all e-documents in the company, you can select the *
 
 ## See also
 
-[How to set up e-documents in [!INCLUDE[prod_short](includes/prod_short.md)]](finance-how-setup-edocuments.md)    
-[How to use e-document in the sales process](finance-how-use-edocuments.md)   
-[How to extend e-documents in [!INCLUDE[prod_short](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)    
+[Set up e-documents](finance-how-setup-edocuments.md)    
+[Use e-document in the sales process](finance-how-use-edocuments.md)   
+[Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)    
 [Financial Management](finance.md)    
-[Invoice Sales](sales-how-invoice-sales.md)    
-[Record Purchases with Purchase Invoices and Orders](purchasing-how-record-purchases.md)    
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Invoice sales](sales-how-invoice-sales.md)    
+[Record purchases with purchase invoices and orders](purchasing-how-record-purchases.md)    
+[Work with Business Central](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
 

@@ -6,14 +6,10 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, receive, purchase, matching, mapping, Copilot
 ms.search.form: 50, 51, 138, 6103, 6133, 6121, 6167, 9307, 9308
-ms.date: 04/09/2024
+ms.date: 04/23/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
-
-<!-- Request from editor: The language in the step in line 102 was confusing. I split up some long sentences, so please review this to ensure it is still accurate. -->
-<!-- Seems like substeps 3-5 in lines 152-154 should be primary steps. Also, should line 208 say "including" instead of "excluding"? --> 
-
 
 # Use e-documents in the purchases process
 
@@ -99,7 +95,7 @@ If your **Vendor** has configured the **Receive E-Document To** field to work wi
 
 1. If the **Purchase Order** for this particular vendor exists and there's a purchase order number in the receive **E-Document** file, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically link this **E-Document** with the mentioned **Purchase Order**, and the **Document Status** of this **E-Document** will be **In Progress**, and the **E-Document Status** in the **Service Status** subpage will be **Order linked**. This link will be visible in the **Document** field on this specific **E-Document**. If you need to change the **Purchase Order** linked automatically, you can do it using the **Update Purchase Order Link** action and choose manually one of the existing purchase orders for this vendor. You can do it only before matching the lines between **E-Document** and **Purchase Order**.  
 
-2. If the **Purchase Order** for this particular vendor exists but there's no purchase order number in the receive **E-Document** file, [!INCLUDE[prod_short](includes/prod_short.md)] will offer possibilities to choose one of the existing purchase orders when and if you uploaded this document manually. This opens the **Purchase Orders** list with orders only for the vendor you got the **E-Document** from. You need to select the **Purchase Order** you want and then select **OK**. If you didn’t select the proper **Purchase Order**, or you got the **E-Document** automatically from an external end point using the **Job Queue**, a new **E-Document** won't be linked with any purchase document. The **Document Status** will be **Error** and the **E-Document Status** in the **Service Status** subpage will be **Imported document processing error**. To finish linking with the **Purchase Order**, select the **Update Purchase Order Link** action and choose one of the existing purchase orders for this vendor. 
+2. If the **Purchase Order** for this particular vendor exists but there's no purchase order number in the received **E-Document** file, [!INCLUDE[prod_short](includes/prod_short.md)] will offer the possibility to choose one of the existing purchase orders when and if you uploaded this document manually. This opens the **Purchase Orders** list with orders only for the vendor from whom you received the **E-Document**. You need to select the **Purchase Order** you want and then select **OK**. If you failed to select the correct **Purchase Order**, or obtained the **E-Document** automatically from an external endpoint using the **Job Queue**, a new **E-Document** will not be linked to any purchase document. The **Document Status** will show **Error**, and the **E-Document Status** in the **Service Status** subpage will also show **Imported document processing error**. To finish linking with the **Purchase Order**, choose the **Update Purchase Order Link** action and choose one of the existing purchase orders for this vendor. 
 
 3. If the **Purchase Order** for this particular vendor doesn’t exist when a new **E-Document** is created, [!INCLUDE[prod_short](includes/prod_short.md)] will create a new **Purchase Order**, using the same model of creation that already exists for new **Purchase Invoices**. The **Document Status** of this **E-Document** will be **Processed**, and the **E-Document Status** in the **Service Status** subpage will be **Imported document created**. This link will be visible in the **Document** field on this specific **E-Document**.   
 
@@ -148,7 +144,7 @@ You can match the lines from the **Purchase Orders** list or from one of the ope
 5. After you apply the matching to the **Purchase Order**, [!INCLUDE[prod_short](includes/prod_short.md)] will update the following fields:
 
     1. **Vendor Invoice No.** and **Document Date** on the document header will be updated with values from the electronic document that you'd received and linked. 
-    2. **Qty. to Invoice** in lines will be updated with the values from the **Qty. to Invoice** column from the **Purchase Order Matching** page based on matching you did. 
+    2. **Qty. to Invoice** in lines will be updated with the values from the **Qty. to Invoice** column from the **Purchase Order Matching** page based on the match you did. 
     3. Now you can post the document by choosing the **Post** action.  
     4. Once you post the document, the **Document** field on the **E-Document** page will change the value and it will relate to the **Posted Purchase Invoice**. 
     5. Close the page.  
@@ -205,7 +201,7 @@ If the copilot is activated, existing actions **Map E-Document Lines** on purcha
        |Copilot matched | Specifies the number of matches proposed by copilot using both string and semantical comparison. |
        |E-Document No. | Specifies the linked e-document number. |
        |Invoice Total Amount Excl. VAT | Specifies the total invoice amount excluding VAT. |
-       |Matched Total Amount Incl. VAT | Specifies the matched amount excluding VAT. |
+       |Matched Total Amount Incl. VAT | Specifies the matched amount including VAT. |
     
     2. If all lines are matched, you'll see the green text in the upper right corner: **All lines (100%) are matched. Review match proposals**.  
     3. In the **Matched proposal** lines, you can find the following information:  

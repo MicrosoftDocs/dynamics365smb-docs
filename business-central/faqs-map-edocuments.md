@@ -1,6 +1,6 @@
 ---
-title: FAQs for mapping e-documents with purchase orders
-description: These FAQs provide information about the AI technology used in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+title: FAQ for mapping e-documents with purchase orders
+description: This FAQ provides information about the AI technology used in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 02/23/2024
 ms.custom: 
   - responsible-ai-faqs
@@ -12,11 +12,11 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# FAQs for mapping e-documents with purchase orders using Copilot (preview)
+# FAQ for mapping e-documents with purchase orders using Copilot (preview)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
-These frequently asked questions (FAQs) describe the AI impact of **E-documents Matching Assistance** feature in [!INCLUDE [prod_short](includes/prod_short.md)].
+These frequently asked questions (FAQ) describe the AI impact of **E-documents Matching Assistance** feature in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 

@@ -25,7 +25,7 @@ In this article, you learn how to analyze data from list pages and queries using
 - In version 23 and later, your account must be assigned the **DATA ANALYSIS - EXEC** permission set or include execute permission on the system object **9640 Allow Data Analysis mode**. As an admin, you can exclude these permissions on users who you don't want to have access to the analysis mode.
 
 > [!NOTE]
-> You may notice some list pages that don't include the **Analyze** switch for changing to the analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.
+> You may notice some list pages that don't include the **Enter analysis mode** switch for changing to the analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.
 
 ## Get started
 
@@ -40,17 +40,17 @@ Complete these steps to get started analyzing data using the analysis mode.
 
 2. In the action bar at the top of the page, select on the **Enter analysis mode** ![Shows the button for turning on analysis mode](media/analysis-mode-icon.png) button.
 
-    Data analysis mode opens the data in an experience that's optimized for data analysis.  While in analysis mode, the normal action bar is replaced with a special analysis mode bar. The following figure illustrates the different areas of a page in the analysis mode.
+    The analysis mode opens the data in an experience that's optimized for data analysis. While in analysis mode, the normal action bar is replaced with a special analysis mode bar. The following figure illustrates the different areas of a page in the analysis mode.
 
    [![Shows an overview of a page on the analysis mode](media/analysis-mode-overview-3.png)](media/analysis-mode-overview-3.png#lightbox)
 
    Each area is explained in the sections that follow.
 
-3. Use the different areas to manipulate, summarize and analyze data. See the sections that follow for details.
+3. Use the different areas to manipulate, summarize, and analyze data. See the sections that follow for details.
 
 4. When you want to stop the analysis mode, select the **Leave analysis mode** ![Shows the button for turning off analysis mode](media/analysis-mode-exit-icon.png) button
 
-   The analysis tabs that you've added remain until you delete them. So if you return to the analysis mode again, you see them exactly as you left them.
+   The analysis tabs that you added remain until you delete them. So if you return to the analysis mode again, you see them exactly as you left them.
 
 > [!NOTE]
 > The data shown in analysis mode is controlled by the filters or views set on the list page. This allows you to pre-filter data before entering analysis mode.
@@ -59,7 +59,7 @@ Complete these steps to get started analyzing data using the analysis mode.
 
 In the analysis mode, the page is divided into two areas:
 
-- The main area, which consists of the data area (1), summary bar (2), and tabs bar (5)
+- The main area, which consists of the data area (1), summary bar (2), and tabs bar (5).
 - The data manipulation area, which consists of two panes: columns (3) and analysis filters (4).
 
 ### Data area (1)
@@ -179,7 +179,7 @@ If the dataset you want to analyze exceeds 100,000 rows, you're suggested to ent
    - timezones
 - Fields that are used in pivot mode and added to column labels must have a low number of distinct values.
 
-   If you enable pivot mode and drag a field into **Column labels** area, where the underlying data for that field has too many distinct values, then the browser tab might become unresponsive and will eventually close, requiring you to start over in a new session. In this case, either don't pivot on that field or set a filter on the field prior to adding it to the **Column labels** area.
+   If you enable pivot mode and drag a field into **Column labels** area, where the underlying data for that field has too many distinct values, then the browser tab might become unresponsive and will eventually close, requiring you to start over in a new session. In this case, either don't pivot on that field or set a filter on the field before adding it to the **Column labels** area.
 
 ## Share data analysis
 
@@ -196,10 +196,8 @@ After you’ve prepared an analysis on a tab, you can share it as a link with co
    ![Shows the copy link dialog for an analysis tab](media/analysis-link-copied.svg)
 
 1. Select **Copy**.
-
 1. Paste the link into the communication media of your choice, like Word, Outlook, Teams, OneNote, and so one. 
-
-2. Once received, recipients can then select the link and open the analysis for the page or query in Business Central. They're prompted to specify a name for the new analysis tab that will be created.  
+1. Once received, recipients can then select the link and open the analysis for the page or query in Business Central. They're prompted to specify a name for the new analysis tab that will be created.  
 
 ## Examples of how to analyze data
 
@@ -209,55 +207,52 @@ In the following sections, you'll find examples of usage scenarios for many of t
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Finance (Accounts Receivables)](#example-finance-accounts-receivables) | See what your customers owe you, maybe broken down into time intervals for when amounts are due | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) | *Customer Name*, *Due Date*, and *Remaining Amount* | 
-| [Finance (Income statement)](#example-finance-income-statement) | See your income over the income accounts from the chart of account, maybe broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) | *G/L Account No.*, *Posting Date*, and *Amount*. |
-| [Finance (total assets)](#example-finance-total-assets) | See your assets over the asset accounts from the chart of account, maybe broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) | *G/L Account No.*, *Posting Date*, and *Amount*. | 
-
+| [Finance (Accounts Receivables)](#example-finance-accounts-receivables) | See what your customers owe you, for example, broken down into time intervals for when amounts are due. | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) | **Customer Name**, **Due Date**, and **Remaining Amount** |
+| [Finance (Income statement)](#example-finance-income-statement) | See your income over the income accounts from the chart of account, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) | **G/L Account No.**, **Posting Date**, and **Amount**. |
+| [Finance (total assets)](#example-finance-total-assets) | See your assets over the asset accounts from the chart of account, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) | **G/L Account No.**, **Posting Date**, and **Amount**. |
 
 ### Example: Finance (Accounts Receivables)
 
 To see what your customers owe you, maybe broken down into time intervals for when amounts are due, do as follows:
 
-1. Open the [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) list and switch on analyze mode. 
-1. Go to the Columns menu and remove all columns (click the box next to the *Search* field). 
-1. Turn on *Pivot* mode (located directly above the *Search* field). 
+1. Open the [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) list and switch on the analysis mode.
+1. Go to the **Columns** menu and remove all columns (select the box next to the *Search* field).
+1. Turn on *Pivot* mode (located directly above the *Search* field).
 1. Now, drag the *Customer Name* field to the *Row Groups* area and drag *Remaining Amount* to the *Values* area. 
 1. Finally, find the *Due Date Month* field and drag it to the *Column Labels* area. 
-1. If you want to restrict the analysis to a given year/quarter, apply a filter in the *Additional Filters* menu (to the right, just below the *Columns* menu.) 
+1. If you want to restrict the analysis to a given year/quarter, apply a filter in the *Additional Filters* menu (to the right, just below the **Columns** menu.) 
 1. Rename your analysis tab to "Aged Accounts by Month" or something that describes this analysis for you. 
-
 
 ### Example: Finance (Income statement)
 
-To see your income over the income accounts from the chart of account, maybe broken down into time intervals for when amounts were posted, do as follows:
+To see your income over the income accounts from the chart of account, broken down into time intervals for when amounts were posted, do as follows:
 
-1. Open the [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) list and switch on analyze mode. 
-1. Go to the Columns menu and remove all columns (click the box next to the *Search* field). 
-1. Turn on *Pivot* mode (located directly above the *Search* field). 
-1. Now, drag the *G/L Account No.* field to the *Row Groups* area and drag *Amount* to the *Values* area. 
-1. Finally, find the *Posting Date Month* field and drag it to the *Column Labels* area. 
-1. For the income statement, you need to filter on the accounts you use for this, in the Business Central demo data, these are accounts starting with "4", your chart of account setup might be different (if you run the [Trial Balance by Period](https://businesscentral.dynamics.com/?report=38) report, you can easily see which accounts is used in your setup). Set a filter on appropriate accounts in the *Additional Filters* menu (to the right, just below the *Columns* menu.) 
+1. Open the [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) list and switch on the analysis mode.
+1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
+1. Turn on **Pivot** mode (located directly above the **Search** field).
+1. Now, drag the **G/L Account No.** field to the **Row Groups** area and drag **Amount** to the **Values* area.
+1. Finally, find the *Posting Date Month* field and drag it to the *Column Labels* area.*
+1. For the income statement, you need to filter on the accounts you use for this, in the Business Central demo data, these are accounts starting with "4", your chart of account setup might be different (if you run the [Trial Balance by Period](https://businesscentral.dynamics.com/?report=38) report, you can easily see which accounts is used in your setup). Set a filter on appropriate accounts in the **Additional Filters** menu (to the right, just below the **Columns** menu.)
 1. Rename your analysis tab to "Income by Month" or something that describes this analysis for you.
 
 
 ### Example: Finance (total assets)
 
-To see your assets over the asset accounts from the chart of account, maybe broken down into time intervals for when amounts were posted, do as follows:
+To see your assets over the asset accounts from the chart of account, broken down into time intervals for when amounts were posted, do as follows:
 
-1. Open the [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) list and switch on analyze mode. 
-1. Go to the Columns menu and remove all columns (click the box next to the *Search* field). 
-1. Turn on *Pivot* mode (located directly above the *Search* field). 
-1. Now, drag the *G/L Account No.* field to the *Row Groups* area and drag *Amount* to the *Values* area. 
-1. Finally, find the *Posting Date Month* field and drag it to the *Column Labels* area. 
-1. For the total assets statement, you need to filter on the accounts you use for this, in the Business Central demo data, these are accounts starting with "10", your chart of account setup might be different (if you run the [Trial Balance by Period](https://businesscentral.dynamics.com/?report=38) report, you can easily see which accounts is used in your setup). Set a filter on appropriate accounts in the *Additional Filters* menu (to the right, just below the *Columns* menu.) 
+1. Open the [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) list and switch on the analysis mode.
+1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
+1. Turn on **Pivot** mode (located directly above the **Search** field).
+1. Now, drag the **G/L Account No.** field to the **Row Groups** area and drag **Amount** to the **Values** area.
+1. Finally, find the *Posting Date Month* field and drag it to the *Column Labels* area.
+1. For the total assets statement, you need to filter on the accounts you use for this, in the Business Central demo data, these are accounts starting with "10", your chart of account setup might be different. If you run the [Trial Balance by Period](https://businesscentral.dynamics.com/?report=38) report, you can easily see which accounts are used in your setup. Set a filter on appropriate accounts in the **Additional Filters** menu (to the right, just below the **Columns** menu.)
 1. Rename your analysis tab to "Income by Month" or something that describes this analysis for you.
-
 
 ## Limitations in 2023 release wave 1 (preview)
 
 The public preview of this feature has the following limitations:
 
-- The analysis mode view has a limit of 100,000 rows. If you exceed this limit, you'll get a message telling you so. To work around this limitation, the set filters on the page before you switch to analysis mode, if it's possible. For example, maybe you want to analyze a certain group of customers or only want data from the current year. You can also choose a predefined view if it would work for your analysis.
+- The analysis mode view has a limit of 100,000 rows. If you exceed this limit, you get a message telling you so. To work around this limitation, the set filters on the page before you switch to analysis mode, if it's possible. For example, maybe you want to analyze a certain group of customers or only want data from the current year. You can also choose a predefined view if it would work for your analysis.
 - The share data analysis feature isn't available.
 - The ability to save preferred data analysis choices on list pages and save analysis menus per analysis tab are currently not available.
 

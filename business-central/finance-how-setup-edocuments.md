@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice
 ms.search.form: 359, 360, 6103, 6133
-ms.date: 04/09/2024
+ms.date: 03/29/2023
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -26,7 +26,7 @@ The first step in the configuration of electronic documents (e-documents) is to 
 Follow these steps to set up the E-Document Service.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
-2. Select **New**, and then, on the **E-Document Service** page, on the **General** FastTab, configure the fields as described in the following table.
+2. Select **New**, and then, on the **E-Document Services** page, on the **General** FastTab, configure the fields as described in the following table.
 
     | Field | Description |
     |-------|-------------|
@@ -73,7 +73,7 @@ If you don't use the **Data Exchange Definition** format, you can create and con
 
 ### Supported document types 
 
-Supported document types are based on the chosen **Document Format**. To check which document types are supported, on the **E-Document Service** page, choose the **Supported Document Types** action. The **E-Document Service Supported Source Document Types** opens, and in the **Source Document Type** column, you can choose different document types to make them as supported for the format you're planning to use. 
+Supported document types are based on the chosen **Document Format**. To check which document types are supported, on the **E-Document Services** page, choose the **Supported Document Types** action. The **E-Document Service Supported Source Document Types** opens, and in the **Source Document Type** column, you can choose different document types to make them as supported for the format you're planning to use. 
 Make sure not to use the document type if that document isn't selected in this page.   
 
 ## Set up a document sending profile
@@ -115,7 +115,7 @@ Follow these steps to set up the workflow that's used in e-document functionalit
 
 To use more workflows, configure them through the document sending profiles for different customers. When you set up the workflow, specify the document sending profile in the **On Condition** column on the **Workflow Steps** FastTab, because you can't have two services that use the same document sending profile in workflows.
 
-When you configure your workflow on the **Workflow** page, point to the **On Condition** field on the **Workflow Steps** FastTab. On the **Event Conditions** page, in the **Filter** field, select the document sending profile that you want to use.
+When you configure your workflow on the **Workflows** page, point to the **On Condition** field on the **Workflow Steps** FastTab. On the **Event Conditions** page, in the **Filter** field, select the document sending profile that you want to use.
 
 ## Set up a retention policy for e-documents
 
@@ -144,15 +144,16 @@ To provide easier ways of testing and demonstrating capabilities of **E-Document
 4.	Follow the steps.  
 5.	Close the page.   
 
-Once you have an enabled module, you would have created new demo items, imported six electronic documents (based on Peppol BIS 3), and already configured **E-Document Service** with created workflows.  
+Once you have an enabled module, you would have created new demo items, imported six electronic documents (based on Peppol BIS 3), and already configured **E-Document Services** with created workflows.  
 
 ## See also
 
-[How to use e-documents in Business Central](finance-how-use-edocuments.md)  
-[How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
-[Financial Management](finance.md)  
-[Invoice Sales](sales-how-invoice-sales.md)  
-[Record Purchases with Purchase Invoices and Orders](purchasing-how-record-purchases.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[How to use e-documents in sales](finance-how-use-edocuments.md)    
+[How to use e-documents in purchase](finance-how-use-edocuments-purchase.md)  
+[How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)    
+[Financial Management](finance.md)    
+[Invoice Sales](sales-how-invoice-sales.md)    
+[Record Purchases with Purchase Invoices and Orders](purchasing-how-record-purchases.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

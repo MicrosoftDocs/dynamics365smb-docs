@@ -573,6 +573,7 @@ ms.service: dynamics-365-business-central
 ### [Understand WIP methods](projects-understanding-wip.md)
 ### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 ### [Invoice projects](projects-how-invoice-jobs.md)
+### [Assemble to project](projects-assemble-to-project.md)
 
 ## Fixed assets
 ### [Fixed assets overview](fa-manage.md)
@@ -2095,7 +2096,7 @@ ms.service: dynamics-365-business-central
 ## Chat with Copilot (preview)
 ### [Chat with Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ### [FAQ for chat with Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
-### [Repsonsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+### [Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)

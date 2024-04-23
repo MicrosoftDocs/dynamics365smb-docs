@@ -3,14 +3,13 @@ title: Understanding the General Ledger and COA
 description: Describes the general ledger, chart of accounts, and account categories. Use the General Ledger Setup page to specify handling accounting issues in your company.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: analysis, history, track
 ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 12/19/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Understanding the General Ledger and Chart of Accounts
 
@@ -97,7 +96,7 @@ The **Chart of Accounts** page displays accounts in a hierarchical list that off
 
 ## Access to create and edit accounts and account categories
 
-In a small organization, such as the CRONUS demonstration company, most users can edit the chart of accounts, except those users with a TEAM MEMBER license. However, larger organizations typically use roles and permissions to limit access to editing the chart of accounts. If you're an administrator, or have the *Business Manager* or *Accountant* role, you can control user permissions to give the right people access to the relevant tables. Learn more in the [To get an overview of a user's permissions](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions) section.  
+In a small organization, such as the CRONUS demonstration company, most users can edit the chart of accounts, except those users with a TEAM MEMBER license. However, larger organizations typically use roles and permissions to limit access to editing the chart of accounts. If you're an administrator, or have the *Business Manager* or *Accountant* role, you can control user permissions to give the right people access to the relevant tables. Learn more in the [Get an overview of a user's permissions](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions) section.  
 
 ## See also
 

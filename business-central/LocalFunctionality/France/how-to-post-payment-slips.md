@@ -3,13 +3,12 @@
     description: You must post payment slips to complete a payment transaction and to create the related financial data. 
     author: brentholtorf
     ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 06/18/2021
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # Post Payment Slips in the French Version
 You must post payment slips to complete a payment transaction and to create the related financial data. You can post a payment slip if the payment slip's **Action Type** is set to **Ledger**.  

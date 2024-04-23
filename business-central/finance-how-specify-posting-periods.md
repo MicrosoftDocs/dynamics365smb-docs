@@ -4,13 +4,12 @@ description: You specify posting periods (posting start and end dates) to set up
 author: brentholtorf
 editor: ''
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: user setup
 ms.search.form: 118
 ms.date: 12/05/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Specify posting periods
 
@@ -22,7 +21,7 @@ Use posting periods to specify when users can post to the general ledger.
 2. On the **General Ledger Setup** page, define the period by entering dates in the **Allow Posting From** and **Allow Posting To** fields.  
 
 > [!NOTE]  
-> These posting periods apply to the company and to all users. To allow for exceptions, you can define different posting periods for specific users on the **User Setup** page. These posting periods overrule those specified on the **General Ledger Setup** page. For more information, see [To set up time constraints for users](ui-define-granular-permissions.md#to-set-up-time-constraints-for-users).
+> These posting periods apply to the company and to all users. To allow for exceptions, you can define different posting periods for specific users on the **User Setup** page. These posting periods overrule those specified on the **General Ledger Setup** page. For more information, see [Set up time constraints for users](ui-define-granular-permissions.md#set-up-time-constraints-for-users).
 
 ## Video guidance
 

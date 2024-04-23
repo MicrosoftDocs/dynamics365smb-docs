@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.date: 03/09/2023
 ms.custom: bap-template
 ms.search.forms: 119, 9807, 
+ms.service: dynamics-365-business-central
 ---
 
 # Define an invoice posting policy for users

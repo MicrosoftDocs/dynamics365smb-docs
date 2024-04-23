@@ -5,13 +5,12 @@
 
     
     ms.topic: overview
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
+    ms.devlang: al
     ms.search.keywords:
     ms.date: 11/11/2022
     ms.author: bholtorf
 
+    ms.service: dynamics-365-business-central
 ---
 # OIOUBL Electronic Invoicing Overview
 

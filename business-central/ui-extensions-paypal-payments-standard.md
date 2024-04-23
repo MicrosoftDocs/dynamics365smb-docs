@@ -3,14 +3,13 @@ title: Using the PayPal Payments Standard extension
 description: This article describes how to use the standard extension to enable customers to make payments with PayPal.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 1070, 1071, 1073, 1074
 ms.date: 12/12/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # The PayPal Payments Standard extension
 

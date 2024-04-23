@@ -3,14 +3,12 @@ title: Keep transactional data for five years in Denmark
 description: This article describes how to automatically keep data based on the Danish bookkeeping act.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 
-ms.date: 12/11/2023
+ms.date: 03/29/2024
 ms.author: altotovi
-
+ms.service: dynamics-365-business-central
 ---
 
 # Keep transactional data for five years in Denmark
@@ -30,7 +28,7 @@ The Central Business Register (CVR) number must be filled in before users post t
 3. Close the page.
 
 > [!IMPORTANT]
-> After you enter the CVR number in the **Registration No.** field on the **Company Information** page and Nemhandel APS validates the number, you can't modify or delete it.   
+> After you enter the CVR number in the **Registration No.** field on the **Company Information** page and Nemhandel APIs validates the number, you can't modify or delete it.   
 
 For more information, see [Denmark Local Functionality](denmark-local-functionality.md).
 

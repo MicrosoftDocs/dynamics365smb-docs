@@ -3,13 +3,12 @@ title: Remittance errors [NO]
 description: Remittance errors for payments might occur when data is transferred after payments are sent to the bank. These errors are reported on the Return Error page.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 12/07/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Remittance errors in the Norwegian version
 

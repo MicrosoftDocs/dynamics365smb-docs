@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
 ms.search.keywords: design, transfer, sku, locations, warehouse
+ms.service: dynamics-365-business-central
 ---
 # Design Details: Transfers in Planning
 

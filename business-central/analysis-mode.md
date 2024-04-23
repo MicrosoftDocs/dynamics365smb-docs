@@ -1,6 +1,6 @@
 ---
-title: Analyze data in list pages and queries using data analysis mode
-description: Learn how to use the data analysis mode in Business central to analyze data.
+title: Analyze list page and query data using data analysis
+description: Learn how to use the analysis mode in Business central to analyze data.
 author: jswymer 
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -10,18 +10,18 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
 ---
-# Analyze list page and query data using Data Analysis 
+# Analyze list page and query data using data analysis
 
 > **APPLIES TO:** Public preview in Business Central 2023 release wave 1 and later for analyzing list pages; Generally available in Business Central 2023 release wave 2 for analyzing data from list pages and queries.
 
-In this article, you learn how to analyze data from list pages and queries using the *Data Analysis* feature. With Data Analysis you can analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Examples could be "My customers", "Follow up items", "Recently added vendors", "Sales statistics", or any other view you can imagine.
+In this article, you learn how to analyze data from list pages and queries using the *data analysis* feature. With data analysis feature, you can analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Examples could be "My customers", "Follow up items", "Recently added vendors", "Sales statistics", or any other view you can imagine.
 
 > [!TIP]
-> A good thing about the *data analysis* feature is that it doesn't change any of the underlying data of list page or query, or the layout of the page or query when it's not in data analysis mode. So the best way to learn about what you can do in the data analysis mode is to try things out.
+> A good thing about the data analysis feature is that it doesn't change any of the underlying data of list page or query, or the layout of the page or query when it's not in the analysis mode. So the best way to learn about what you can do in the analysis mode is to try things out.
 
 ## Prerequisites 
 
-- If you're using Business Central version 22, the data analysis mode is in preview. So, an admin must enable it before you can use it. To enable it, go to the **Feature Management** page and switch on **Feature Update: Analysis mode, quickly analyze data directly in Business Central**. [Learn more about Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- If you're using Business Central version 22, the data analysis feature is in preview. So, an admin must enable it before you can use it. To enable it, go to the **Feature Management** page and switch on **Feature Update: Analysis mode, quickly analyze data directly in Business Central**. [Learn more about Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - In version 23 and later, your account must be assigned the **DATA ANALYSIS - EXEC** permission set or include execute permission on the system object **9640 Allow Data Analysis mode**. As an admin, you can exclude these permissions on users who you don't want to have access to the analysis mode.
 
 > [!NOTE]
@@ -40,9 +40,9 @@ Complete these steps to get started analyzing data using the analysis mode.
 
 2. In the action bar at the top of the page, select on the **Enter analysis mode** ![Shows the button for turning on analysis mode](media/analysis-mode-icon.png) button.
 
-    Data analysis mode opens the data in an experience that's optimized for data analysis.  While in data analysis mode, the normal action bar is replaced with a special data analysis mode bar. The following figure illustrates the different areas of a page in the data analysis mode.
+    Data analysis mode opens the data in an experience that's optimized for data analysis.  While in analysis mode, the normal action bar is replaced with a special analysis mode bar. The following figure illustrates the different areas of a page in the analysis mode.
 
-   [![Shows an overview of a page on the data analysis mode](media/analysis-mode-overview-3.png)](media/analysis-mode-overview-3.png#lightbox)
+   [![Shows an overview of a page on the analysis mode](media/analysis-mode-overview-3.png)](media/analysis-mode-overview-3.png#lightbox)
 
    Each area is explained in the sections that follow.
 
@@ -50,14 +50,14 @@ Complete these steps to get started analyzing data using the analysis mode.
 
 4. When you want to stop the analysis mode, select the **Leave analysis mode** ![Shows the button for turning off analysis mode](media/analysis-mode-exit-icon.png) button
 
-   The analysis tabs that you've added remain until you delete them. So if you return to the data analysis mode again, you see them exactly as you left them.
+   The analysis tabs that you've added remain until you delete them. So if you return to the analysis mode again, you see them exactly as you left them.
 
 > [!NOTE]
 > The data shown in analysis mode is controlled by the filters or views set on the list page. This allows you to pre-filter data before entering analysis mode.
 
-## Work with data analysis mode
+## Work with analysis mode
 
-In the data analysis mode, the page is divided into two areas:
+In the analysis mode, the page is divided into two areas:
 
 - The main area, which consists of the data area (1), summary bar (2), and tabs bar (5)
 - The data manipulation area, which consists of two panes: columns (3) and analysis filters (4).
@@ -66,13 +66,13 @@ In the data analysis mode, the page is divided into two areas:
 
 The data area is where the rows and columns of the list page query are shown and data is summarized. The data area provides a versatile way to control of the layout of columns and a quick way to get a summary of the data. For columns that contain numeric values, the sum of all values in the column is shown in a last row, unless you've defined row groups. In this case, the sums appear as a subtotal for the groups.  
 
-![Shows an overview of a data area on a page in the data analysis mode](media/analysis-mode-data-area.png)
+![Shows an overview of a data area on a page in the analysis mode](media/analysis-mode-data-area.png)
 
 - To move a column, select it and drag it to where they make the most sense in your analysis.
 - To sort on a column, select the column header. To sort on multiple columns, select and hold <kbd>Shift</kbd> key while selecting the column headers want to sort on.
-- Right-click the column or hover over it and select the menu icon ![Shows the icon on a column in data analysis mode that opens a menu of actions](media/analysis-mode-column-menu-icon.png) to access several actions that you can do on columns. For example:
+- Right-click the column or hover over it and select the menu icon ![Shows the icon on a column in analysis mode that opens a menu of actions](media/analysis-mode-column-menu-icon.png) to access several actions that you can do on columns. For example:
 
-  - To pin a column to the left or right of the data area so that it doesn't move off the screen when you scroll, select ![Shows the icon on a column in data analysis mode that opens a menu of actions](media/analysis-mode-column-menu-icon.png) > **Pin column** > **Pin left** the column part.
+  - To pin a column to the left or right of the data area so that it doesn't move off the screen when you scroll, select ![Shows the icon on a column in analysis mode that opens a menu of actions](media/analysis-mode-column-menu-icon.png) > **Pin column** > **Pin left** the column part.
   - Define data filters directly on the column definition instead of going to the **Analysis Filters** panes. You can still peek in on details about related data and for each line, and open the card to learn more about a given entity.
 - Use the data area to interact with the data. For columns that contain numeric, summable values, you can get descriptive statistics on a set of fields by marking them. The statistics appear in the status bar (2) along the bottom of the page.
 - Export data in Excel or csv format. Right-click on the data area or a selection of cells to export.
@@ -81,7 +81,7 @@ The data area is where the rows and columns of the list page query are shown and
 
 The summary bar is along the bottom of the page and displays statistics about the data in the list page or query. As you interact with columns whose values can be summed, like selecting multiple rows in a column that displays amounts, the data updates.
 
-![Shows an overview of a summary bar on the data analysis mode](media/analysis-mode-totals-row.png)
+![Shows an overview of a summary bar on the analysis mode](media/analysis-mode-totals-row.png)
 
 The following table describes the different numbers that are shown in the totals area:
 
@@ -100,7 +100,7 @@ The following table describes the different numbers that are shown in the totals
 
 The **Columns** is one of two panes that work together to define your analysis. The other area is the **Analysis filters** pane. The **Columns** pane is used to summarize the data. Use the **Columns** pane to define which columns should be included in the analysis.
 
-![Shows an overview of the columns pane in the data analysis mode](media/analysis-mode-columns-3.png)
+![Shows an overview of the columns pane in the analysis mode](media/analysis-mode-columns-3.png)
 
 |Areas|Description|
 |-|-|
@@ -132,12 +132,11 @@ Here's some pointers on working with multiple analysis tabs:
    - **Delete** deletes the tab you currently have open. **Delete All** deletes all tabs that you've added, except the default **Analysis 1** tab.
 - You can't completely remove the **Analysis 1**, but you can rename it by using the **Rename** action and clear the changes you've made by using **Delete** or **Delete All**.  
 
-- The analysis tabs that you've added and configured remain until you delete them. So if you return to the data analysis mode again, you see them exactly as you left them.
+- The analysis tabs that you've added and configured remain until you delete them. So if you return to the analysis mode again, you see them exactly as you left them.
 
    > [!TIP]
    > The tabs that you set up are only visible to you. Other users will only see tabs they've set up.
 - You can copy analysis tabs. Copying can be useful if you want to experiment with changing a tab without changing the original, or if you want to create different variations of the same analysis.
-
 
 ## Date hierarchies
 
@@ -167,7 +166,6 @@ Building out the data analysis in pivot mode involves moving fields into the thr
 
 > [!TIP]
 > Columns that only have a few possible values are the best candidates for using in column **Values**.
-
 
 ## Analyze large amounts of data
 

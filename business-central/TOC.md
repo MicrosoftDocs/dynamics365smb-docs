@@ -408,7 +408,8 @@ ms.service: dynamics-365-business-central
 #### [Post the year-end closing entry](year-how-post-year-end-close-entry.md)
 
 ### Work with the chart of accounts and General Ledger (G/L)
-#### [Understand the general ledger and chart of accounts](finance-general-ledger.md)
+#### [Understand the general ledger](finance-general-ledger.md)
+#### [Understand the chart of accounts](finance-chart-of-accounts.md)
 #### [Review accounts](finance-review-accounts.md)
 #### [Revalue general ledger account balances](finance-revalue-account-balances.md)
 #### [Post transactions directly to the general ledger](finance-how-post-transactions-directly.md)

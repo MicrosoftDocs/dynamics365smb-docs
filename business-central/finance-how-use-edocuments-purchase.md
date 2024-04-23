@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 
 <!-- Request from editor: The language in the step in line 102 was confusing. I split up some long sentences, so please review this to ensure it is still accurate. -->
-<!-- Seems like substeps 3-5 in lines 152-154 should be primary steps. --> 
+<!-- Seems like substeps 3-5 in lines 152-154 should be primary steps. Also, should line 208 say "including" instead of "excluding"? --> 
 
 
 # Use e-documents in the purchases process
@@ -184,41 +184,38 @@ You can match the lines on the **E-Document** page. To begin, use the following 
 
 In case you didn't activate the **E-Document Matching Assistance** copilot, you need to do it manually. To enable the **E-Document Matching Assistance** copilot, follow these steps: 
 
-
-
-
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Copilot & AI Capabilities**, and then select the related link. 
-2. In the list of capabilities choose **E-Document Matching Assistance** and change the status to **Active**.  
+2. In the list of capabilities, choose **E-Document Matching Assistance** and change the status to **Active**.  
 
-Once the Copilot is activated, you can begin using it.
+Once the copilot is activated, you can begin using it.
 
 #### Use the e-document matching assistance copilot 
 
-If the Copilot is activated, existing actions **Map E-Document Lines** on purchased orders and **Match Purchase Order** on the **E-Document** page will get different icons, symbolizing AI capability. You can run these actions (absolutely the same as in previous examples from the list of purchase orders), from one of the **Purchase Orders**, or from **E-Document**. All steps for running are the same, but when you run this action, the result will be different, and you need to follow the steps:  
+If the copilot is activated, existing actions **Map E-Document Lines** on purchased orders and **Match Purchase Order** on the **E-Document** page will get different icons, symbolizing AI capability. You can run these actions (the same as in previous examples from the list of purchase orders) from one of the **Purchase Orders**, or from **E-Document**. All steps for running are the same, but when you run this action, the result will be different, and you need to follow these steps:  
 
-1. Choose the **Map E-Document Lines** or **Match Purchase Order** action, for already linked documents.  
-2. You can notice that **E-Document Match Order Lines with Copilot** prompt is working and  you have the **Purchase Order Matching** page in the background. That means the same process is happening but with the automatic support of **Copilot**, who runs the process of matching instead of you. 
+1. Choose the **Map E-Document Lines** or **Match Purchase Order** action for already linked documents.  
+2. Notice that the **E-Document Match Order Lines with Copilot** prompt is working and the **Purchase Order Matching** page is in the background. That means the same process is happening but with the automatic support of **Copilot**, which runs the matching process instead of you. 
 3. After a few seconds, the **E-Document Match Order Lines with Copilot** will suggest lines for matching with some additional details: 
 
     1. In the prompt header, you can find the following information: 
 
-    |Field name |Description |
-    |--------|-----------------|
-    |Auto-matched | Specifies the number of matches proposed automatically. This is based on a string comparison and if there's 80% or more description overlapping, the system will match these descriptions automatically without using GPT capabilities. |
-    |Copilot matched | Specifies the number of matches proposed by Copilot using both string and semantical comparison. |
-    |E-Document No. | Specifies the linked E-Document number. |
-    |Invoice Total Amount Excl. VAT | Specifies the total invoice amount excluding VAT. |
-    |Matched Total Amount Incl. VAT | Specifies the matched amount excluding VAT. |
+       |Field name |Description |
+       |--------|-----------------|
+       |Auto-matched | Specifies the number of matches proposed automatically. This is based on a string comparison and if there's 80% or more description overlap, the system will match these descriptions automatically without using GPT capabilities. |
+       |Copilot matched | Specifies the number of matches proposed by copilot using both string and semantical comparison. |
+       |E-Document No. | Specifies the linked e-document number. |
+       |Invoice Total Amount Excl. VAT | Specifies the total invoice amount excluding VAT. |
+       |Matched Total Amount Incl. VAT | Specifies the matched amount excluding VAT. |
     
     2. If all lines are matched, you'll see the green text in the upper right corner: **All lines (100%) are matched. Review match proposals**.  
     3. In the **Matched proposal** lines, you can find the following information:  
 
-    |Field name |Description |
-    |--------|-----------------|
-    |E-Document Line No. | Specifies the E-Document line number (coming from the original e-document file). |
-    |E-Document Line Description | Specifies the E-Document line description (coming from the original e-document file). |
-    |Matched Quantity | Specifies the quantity that will be applied to the purchase order line. |
-    |Proposal | Specifies the action proposed by AI, and these suggested actions are related to matching the purchase order lines. |
+       |Field name |Description |
+       |--------|-----------------|
+       |E-Document Line No. | Specifies the e-document line number (coming from the original e-document file). |
+       |E-Document Line Description | Specifies the e-document line description (coming from the original e-document file). |
+       |Matched Quantity | Specifies the quantity that will be applied to the purchase order line. |
+       |Proposal | Specifies the action proposed by AI, and these suggested actions are related to matching the purchase order lines. |
 
     4. All fully suggested and matched lines are marked with green color. If there's any issue, i.e., different price, but in the allowed price range, this line will be marked as yellow, and if there's any similarity between the description fields but price difference is bigger than allowed, this line will be marked as red. 
     5. If you aren't satisfied with some suggestions, you can delete them using the **Delete Line** action.  
@@ -226,16 +223,16 @@ If the Copilot is activated, existing actions **Map E-Document Lines** on purcha
     7. On the **E-Document Match Details** page you can compare details from the **E-Document** and **Purchase Order**, to be sure about the suggested matching before confirming it. 
     8. After reviewing, close the page.   
 
-4. If you aren't satisfied with most of the suggestions, or in a case you don't want to use the **E-Document Match Order Lines with Copilot** feature, select **Discard it**, and you can continue with the manual matching as explained previously.  
+4. If you aren't satisfied with most of the suggestions, or if you don't want to use the **E-Document Match Order Lines with Copilot** feature, select **Discard it** and you can continue with the manual matching as explained previously.  
 5. If you want to keep suggestions, choose the **Keep it** button and the system will save all suggestions made by **Copilot**.  
-6. [!INCLUDE[prod_short](includes/prod_short.md)] will close the Copilot prompt and lines on the **Purchase Order Matching** page will be marked as green, as they're already matched.  
-7. From this moment, you can continue to work as you're doing manual matching, and that means you can remove matches, manual matches, reset matching or if there are no changes you want to make, just choose the **Apply To Purchase Order** action and continue working with the **Purchase Order**. 
+6. [!INCLUDE[prod_short](includes/prod_short.md)] will close the Copilot prompt and lines on the **Purchase Order Matching** page will be marked as green because they're already matched. 
+7. Now you can continue to work as you're doing manual matching; that means you can remove matches, match manually, or reset matching. If you don't want to make changes, just choose the **Apply To Purchase Order** action and continue working with the **Purchase Order**. 
 
 > [!NOTE]
-> If you want you can choose the **Match with Copilot** action on the **Purchase Order Matching** page again, but in this case, you will be asked if you want to overwrite the existing matches, as all lines have been matched already.  
+> You can choose the **Match with Copilot** action on the **Purchase Order Matching** page again, but in this case, you'll be asked if you want to overwrite the existing matches, as all lines have been matched already.  
 
 > [!NOTE]
-> Price/Cost analyze, and the available quantity check is a part of preprocessing activity.   
+> Price/cost analysis and the available quantity check is part of the preprocessing activity.   
 
 ## Overview of e-document statuses
 

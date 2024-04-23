@@ -139,7 +139,7 @@ ms.service: dynamics-365-business-central
 ## Get productive in Business Central
 ### [General functionality overview](ui-work-product.md)
 ### [Print-friendly cheat sheet](ui-work-product.md#cheatsheet)
-### [Chat with Copilot](chat-with-copilot.md)
+### [Chat with Copilot (preview)](chat-with-copilot.md)
 ### [Find pages and information with Tell Me](ui-search.md)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Search for specific data](ui-search-data.md)
@@ -202,7 +202,7 @@ ms.service: dynamics-365-business-central
 ### [Intelligent insights (online only)](about-intelligent-cloud.md)
 ## Frequently Asked Questions
 ### [Frequently Asked Questions](across-faq.yml)
-### [Chat with Copliot FAQ](chat-with-copilot-faq.md)
+### [Chat with Copliot FAQ (preview)](chat-with-copilot-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Search and filter FAQ](ui-search-filter-faq.yml)
 ### [List views FAQ](ui-views-faq.yml)
@@ -392,7 +392,6 @@ ms.service: dynamics-365-business-central
 #### [Analyze cash flows in your company](finance-analyze-cash-flow.md)
 #### [Walkthrough: Use financial reports to make cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
-
 ### Closing years and periods
 #### [Year closing overview](year-close-years-periods.md)
 #### [Work with accounting periods and fiscal years](finance-accounting-periods-and-fiscal-years.md)
@@ -463,24 +462,36 @@ ms.service: dynamics-365-business-central
 ##### [Work with intercompany documents and journals](intercompany-how-work-documents-journals.md)
 ##### [Manage the intercompany inbox and outbox](intercompany-how-manage-intercompany-inbox.md)
 ##### [Allocate costs to intercompany partners](intercompany-allocate-costs.md)
-
 ### [Accountant experiences in Business Central](finance-accounting.md)
 
+## Financial analytics 
+### [Financial analytics overview](bi.md)
+### [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)
+<!-- ### [Financial KPIs](bi-finance-kpis.md) -->
 
-## Financial business intelligence and reports
-### [Financial business intelligence and reports overview](bi.md)
-### [Financial reports](finance-reports.md)
-### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
-### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
-### [Prepare financial reports with financial data and account categories](bi-how-work-account-schedule.md)
-### [Set up and publish KPI web services based on financial reports](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
-### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
-### [Create analysis reports](bi-how-create-analysis-views-reports.md)
-### [Analyze financial statements in Excel](finance-analyze-excel.md)
-### [Create reports with XBRL](bi-create-reports-with-xbrl.md)
-### [Manage database access intent](admin-data-access-intent.md)
-### [Walkthrough: Use financial reports to make cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+### Financial reporting (Implementing financial statements and KPIs)
+#### [Prepare financial reporting](bi-how-work-account-schedule.md)
+#### [Row definitions in financial reporting](bi-row-definitions.md)
+#### [Column definitions in financial reporting](bi-column-definitions.md)
+#### [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Set up and publish a KPI web service based on financial reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+#### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
+#### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
+#### [Create analysis reports](bi-how-create-analysis-views-reports.md)
 
+<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+
+### Built-in finance analysis tools
+#### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)
+#### [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md)
+#### [Analyze Cash Flow](finance-analyze-cash-flow.md)
+
+### Built-in finance reports
+#### [Built-in finance Excel reports](finance-analyze-excel.md)
+#### [Built-in key finance reports](finance-reports.md)
+#### [Built-in fixed assets reports](fa-reports.md)
+#### [Built-in accounts receivable reports](receivables-reports.md)
+#### [Built-in accounts payable reports](payables-reports.md)
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
@@ -562,6 +573,7 @@ ms.service: dynamics-365-business-central
 ### [Understand WIP methods](projects-understanding-wip.md)
 ### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 ### [Invoice projects](projects-how-invoice-jobs.md)
+### [Assemble to project](projects-assemble-to-project.md)
 
 ## Fixed assets
 ### [Fixed assets overview](fa-manage.md)
@@ -729,12 +741,12 @@ ms.service: dynamics-365-business-central
 ## Online store with shopify
 ### [Get started with the Shopify connector](shopify/get-started.md)
 #### [Create and set up a Shopify account](shopify/shopify-account.md)
-### [Synchronize items with Shopify](shopify/synchronize-items.md)
-### [Synchronize customers with Shopify](shopify/synchronize-customers.md)
+### [Synchronize items and inventory with Shopify](shopify/synchronize-items.md)
+### [Synchronize customers and companies with Shopify](shopify/synchronize-customers.md)
 ### [Synchronize and fulfill sales orders with Shopify](shopify/synchronize-orders.md)
 ### [Synchronize transactions and payouts](shopify/transactions-and-payouts.md)
 ### [Set up taxes for the Shopify connection](shopify/setup-taxes.md)
-### [Run tasks in the background](shopify/background.md)
+### [Automate Shopify synchronization using job queue](shopify/background.md)
 ### [Troubleshoot the Shopify connector](shopify/troubleshoot.md)
 ### [FAQ for the Shopify connector](shopify/shopify-faq.md)
 ### [Walkthrough: Set up and use the Shopify connector](shopify/walkthrough-setting-up-and-using-shopify.md)
@@ -855,37 +867,70 @@ ms.service: dynamics-365-business-central
 ##### [Work with GIFI codes](LocalFunctionality/Canada/work-gifi-codes.md)
 
 ### Czech Republic
-#### [Local functionality in the Czech version](LocalFunctionality/Czech/czech-local-functionality.md)
-#### [Core localization pack for Czech (extension)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
-#### [Advanced localization pack for Czech (extension)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
-#### Core finance  
-##### [Finance](LocalFunctionality/Czech/finance.md)
-##### [Year close operations](LocalFunctionality/Czech/year-close-operations.md)
-##### [General ledger entries application](LocalFunctionality/Czech/general-ledger-entries-application.md)
-##### [Exchange rate update](LocalFunctionality/Czech/exchange-rate-update.md)
+#### [Local Functionality in the Czech Version](LocalFunctionality/Czech/czech-local-functionality.md)
+#### [Core Localization Pack for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
+#### [Advanced Localization Pack for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
+#### Core Finance  
+##### [Correction Posting (Red Storno)](LocalFunctionality/Czech/how-to-use-corrections-posting.md)
+##### [Statutory Information About Company](LocalFunctionality/Czech/statutory-company-information.md)
+##### [Internal Financial Documents](LocalFunctionality/Czech/internal-financial-documents.md)
+##### [Accounting Output Documents](LocalFunctionality/Czech/accounting-output-documents.md)
+##### [Accounting schedule feature](LocalFunctionality/Czech/how-to-use-accounting-schedule-feature.md)
+##### [Statutory Statements](LocalFunctionality/Czech/statutory-statements.md)
+##### [Year Close Operations](LocalFunctionality/Czech/year-close-operations.md)
+##### [General Ledger Entries Application](LocalFunctionality/Czech/general-ledger-entries-application.md)
+##### [Exchange Rate Update](LocalFunctionality/Czech/exchange-rate-update.md)
+##### [Multi-circuit Accounting](LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md)
 #### VAT
-##### [Finance - VAT](LocalFunctionality/Czech/finance-vat.md)
-##### [VAT control report](LocalFunctionality/Czech/vat-control-report.md)
-#### Fixed assets
-##### [Fixed assets](LocalFunctionality/Czech/fixed-assets.md)
-##### [Fixed asset localization for Czech (extension)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
-#### Banking and payments
-##### [Bank feature](LocalFunctionality/Czech/bank-feature.md)
-##### [Banking documents localization for Czech (extension)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
-##### [Cash desk management](LocalFunctionality/Czech/cash-desk-management.md)
-##### [Cash desk localization for Czech (extension)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
-##### [Registration of sales (EET)](LocalFunctionality/Czech/eet.md)
-##### [Advances](LocalFunctionality/Czech/advances.md)
-##### [Advance payments localization for Czech (extension)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
-#### Payables and receivables
-##### [Payables and receivables](LocalFunctionality/Czech/receivables-payables.md)
+##### [VAT Date](LocalFunctionality/Czech/how-to-setup-vat-date.md)
+##### [VAT Statement](LocalFunctionality/Czech/vat-statement.md)
+##### [Supplementary VAT Statement](LocalFunctionality/Czech/supplementary-vat-statement.md)
+##### [VIES](LocalFunctionality/Czech/vies-cz.md)
+##### [VIES – CZ Export](LocalFunctionality/Czech/how-to-use-vies-cz-export.md)
+##### [Unreliable Payer](LocalFunctionality/Czech/unreliable-payer.md)
+##### [VAT Exchange Rate](LocalFunctionality/Czech/how-to-setup-vat-exchange-rate.md)
+##### [Set Up and Post Reverse Charge](LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge.md)
+##### [VAT Control Report](LocalFunctionality/Czech/vat-control-report.md)
+##### [VAT Reports](LocalFunctionality/Czech/vat-reports-cz.md)
+##### [VAT Correction in Local Currency](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
-##### [Compensations localization for Czech (extension)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
+##### [Intrastat for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
+#### Fixed Assets
+##### [Fixed Asset Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
+#### Banking and Payments
+##### [Banking Documents Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
+##### [Cash Desk Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
+##### [Registration of Sales (EET)](LocalFunctionality/Czech/eet.md)
+##### [Advance Payments Localization for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
+#### Payables and Receivables
+##### [Exchange Rates Adjustment Feature)](LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md)
+##### [Multiple Payables and Receivables Accounts](LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts.md)
+##### [Customer and Vendor Reconciliations](LocalFunctionality/Czech/customers-vendors-reconciliations.md)
+##### [Sales Correcting Documents](LocalFunctionality/Czech/sales-correcting-documents.md)
+##### [Update Contacts from ARES](LocalFunctionality/Czech/how-to-update-contacts-from-ares.md)
+##### [New Design of Output Documents](LocalFunctionality/Czech/new-design-of-output-documents.md)
+##### [Compensations](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
 #### Inventory
-##### [Inventory](LocalFunctionality/Czech/inventory.md)
+##### [Round Accounting in Inventory](LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md)
+##### [Inventory General Ledger Reconciliation Enhacements](LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md)
+##### [Advanced Feature of Physical Inventory](LocalFunctionality/Czech/advanced-features-physical-inventory.md)
+##### [Inventory Counting Documents](LocalFunctionality/Czech/how-to-use-inventory-counting-documents.md)
+##### [Inventory Operations Documemt](LocalFunctionality/Czech/how-to-use-inventory-operations-document.md)
+##### [Posting Groups in Transfer Orders](LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders.md)
 #### General
-##### [Extended user control](LocalFunctionality/Czech/general.md)
-##### [Best practices](LocalFunctionality/Czech/best-practices.md)
+##### [Extended User Control](LocalFunctionality/Czech/general.md)
+##### [Control of Posting Group Changes](LocalFunctionality/Czech/check-of-posting-group-changing.md)
+##### [Control of Output Inventory Time Sequence](LocalFunctionality/Czech/check-output-inventory-time-sequence.md)
+##### [Inventory Movement Templates](LocalFunctionality/Czech/inventory-movement-templates.md)
+##### [Stockkeeping Unit Templates](LocalFunctionality/Czech/stockkeeping-unit-templates.md)
+##### [Mandatory Exact Cost Return in Manufacturing](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
+##### [Default Bus Post Group in Manufacturing](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-manufacturing.md)
+##### [Default Bus Post Group in Assembly Orders](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-assembly-orders.md)
+##### [Automatic Creation and Update Dimensions](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
+##### [Add Fields in Item Entries](LocalFunctionality/Czech/how-to-use-add-fields-item-entries.md)
+##### [General Production Posting Group in Stockkeeping Unit](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
+##### [Skip Update for Stockkeeping Unit at Posting](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
+##### [Nonstock Item Nummbering](LocalFunctionality/Czech/how-to-setup-nonstock-item-numbering.md)
 
 ### Denmark
 #### [Local functionality in the Danish version](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1007,6 +1052,7 @@ ms.service: dynamics-365-business-central
 
 ### Iceland
 #### [Local functionality in the Icelandic version](LocalFunctionality/Iceland/iceland-local-functionality.md)
+#### [Iceland W1 core app setup](LocalFunctionality/Iceland/iceland-global-core-app.md)
 #### VAT
 ##### [Print VAT summary information on documents](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Special data output and reports for the tax authority](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
@@ -1015,6 +1061,7 @@ ms.service: dynamics-365-business-central
 #### General  
 ##### [Map IRS numbers to the chart of accounts](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Delete posted invoices and credit memos](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
+##### [Registration number in the Icelandic localization](LocalFunctionality/Iceland/use-registration-no.md)
 
 ### India
 #### [Overview](LocalFunctionality/India/india-local-functionality.md)
@@ -1733,10 +1780,13 @@ ms.service: dynamics-365-business-central
 ### [Set up online maps](across-online-maps-setup.md)
 ### [Get Business Central on your mobile device](install-mobile-app.md)
 ### [Get Business Central on your desktop](install-desktop-app.md)
-<!--Reporting landing page-->
-# Business intelligence and reporting 
 
-## [Overview](reports-bi-reporting.md)
+<!--Reporting landing page-->
+# Analytics, business intelligence, and reporting 
+
+## [Analytics overview](reports-bi-reporting.md)
+## [Using key performance indicators (KPIs) to meet your business goals](./analytics-about-kpis.md)
+## [Using financial reporting](bi-how-work-account-schedule.md)
 
 ## Use reports in daily work
 ### [Overview](reports-use-reports.md)
@@ -1818,12 +1868,13 @@ ms.service: dynamics-365-business-central
 
 ## Built-in analytics 
 ### [Overview](reports-built-in-analytics.md)
+### [Intelligent insights](about-intelligent-cloud.md)
 ### [Work with Power BI reports](across-working-with-powerbi.md)
 ### [Financial business intelligence](bi.md)
 ### [Analyze financial statements with excel](finance-analyze-excel.md)
 ### [Consolidate financial data from multiple companies](finance-consolidated-company-reporting.md)
 ### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-### [Intelligent Insights (on-premises only)](about-intelligent-cloud.md)
+
 
 ## Analyze data in business intelligence tools
 ### [Overview](reports-external-analysis.md)
@@ -2031,6 +2082,7 @@ ms.service: dynamics-365-business-central
 ## [Performance](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Removed or deprecated features](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
 # Copilot and AI capabilities
+## [About Copilot in Business Central](copilot-overview.md)
 ## Manage Copilot and AI capabilities
 ### [Configure Copilot and AI capabilities](enable-ai.md)
 ### [Copilot data movement across geographies](ai-copilot-data-movement.md)
@@ -2043,16 +2095,16 @@ ms.service: dynamics-365-business-central
 ### [FAQ for bank reconciliation assist](faqs-bank-reconciliation.md)
 ## Chat with Copilot (preview)
 ### [Chat with Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
-### [FAQ for chat with Copilot (preview)](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
-### [Repsonsible AI FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+### [FAQ for chat with Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
+### [Responsible AI FAQ for chat with Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Marketing text suggestions
 ### [Marketing text suggestions overview](ai-overview.md)
 ### [Create marketing text with Copilot](item-marketing-text.md)
 ### [FAQ for marketing text suggestions](faqs-marketing-text.md)
-## Sales line suggestion
+## Sales line suggestion (preview)
 ### [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
 ### [FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
-## Map e-documents
+## Map e-documents (preview)
 ### [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
 ### [FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
 # Responsible AI
@@ -2061,5 +2113,5 @@ ms.service: dynamics-365-business-central
 ## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)
 ## [FAQ for marketing text suggestions](faqs-marketing-text.md)
-## [FAQ for sales line suggestions with Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
-## [FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
+## [FAQ for sales line suggestions with Copilot (preview)](faq-sales-suggest-sales-lines-with-copilot.md)
+## [FAQ for mapping e-documents with purchase orders using Copilot (preview)](faqs-map-edocuments.md)

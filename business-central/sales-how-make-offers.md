@@ -73,7 +73,7 @@ In most cases, you send sales quotes to prospective customers. You often have a 
     > To have the **Quote Valid Until Date** filled in automatically with a certain number of days after quote creation, you can fill in the **Quote Validity Calculation** field on the **Sales & Receivables** page.
 
 10. When the sales quote lines are completed, choose the **Send by Email** action.
-11. On the **Send Email** page, fill in any remaining fields and review the embedded sales quote. For more information, see [Send Documents by Email](ui-how-send-documents-email#to-send-documents-by-email.md).
+11. On the **Send Email** page, fill in any remaining fields and review the embedded sales quote. For more information, see [Send Documents by Email](ui-how-send-documents-email.md#to-send-documents-by-email).
 12. If the contact accepts the quote, choose the **Make Order** action.  
 
     Alternatively, if your organization prefers that process, choose the **Make Invoice** action.  
@@ -95,7 +95,7 @@ The conversion removes the sales quote from the database. A sales invoice or a s
 
 [Sales](sales-manage-sales.md)  
 [Setting Up Sales](sales-setup-sales.md)  
-[Send Documents by Email](ui-how-send-documents-email#to-send-documents-by-email.md)  
+[Send Documents by Email](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Archive Documents](across-how-to-archive-documents.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

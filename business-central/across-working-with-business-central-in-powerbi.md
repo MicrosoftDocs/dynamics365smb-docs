@@ -7,10 +7,9 @@ ms.devlang: al
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 01/22/2024
 ms.author: jswymer
-
 ms.service: dynamics-365-business-central
 ---
-# Connect to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
+# Connect to Power BI from Business Central on-premises
 
 <!--In this article, you learn some of the basics about working with reports and dashboards in Power BI that use [!INCLUDE [prod_short](includes/prod_short.md)] as a data source. The article discusses some aspects that will help you get started as a [!INCLUDE[prod_short](includes/prod_short.md)] user. For general guidelines and instructions about using Power BI, see [Power BI documentation for consumers](/power-bi/consumer).
 

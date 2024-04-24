@@ -7,6 +7,7 @@ ms.search.keywords: Power BI, setup, analysis, reporting, financial report, busi
 ms.date: 01/28/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Enabling Power BI integration with [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -95,7 +96,7 @@ This section explains the requirements for a [!INCLUDE[prod_short](includes/prod
 
 Dataflows enable you to ingest, transform, and load data into a Power BI workspace and then use the data as the basis for your reports. These dataflows can in some cases experience transient errors while doing a scheduled refresh. The error message looks like this: `DataSource.Error: OData: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.` 
 
-Using PowerAutomate, you can set up retries for this sitation. For more information, see [Automatically retry a dataflow on failure](/power-query/dataflows/automatically-retry-dataflow).
+Using PowerAutomate, you can set up retries for this situation. For more information, see [Automatically retry a dataflow on failure](/power-query/dataflows/automatically-retry-dataflow).
 
 ## See also
 

@@ -1,16 +1,16 @@
 ---
-title: Synchronize and Fulfill Sales Orders
-description: Set up and run import and processing of sales order from Shopify.
-ms.date: 06/06/2023
+title: Synchronize and fulfill sales orders
+description: Set up and run import and processing of sales orders from Shopify.
+ms.date: 03/25/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ---
 
-# Synchronize and Fulfill Sales Orders
+# Synchronize and fulfill sales orders
 
 This article describes the necessary settings and steps that you must complete to synchronize and fulfill sales orders with Shopify in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -18,9 +18,9 @@ This article describes the necessary settings and steps that you must complete t
 
 Enter a **currency code** if your online shop uses a different currency than the local currency (LCY). The specified currency must have exchange rates configured. If your online shop uses the same currency as [!INCLUDE[prod_short](../includes/prod_short.md)], leave the field empty. 
 
-You can review the Store Currency in the [Store details](https://www.shopify.com/admin/settings/general) settings in your Shopify Admin. Shopify can be configured to accept different currencies, however imported orders into [!INCLUDE[prod_short](../includes/prod_short.md)] use store currency.
+You can access the Store Currency in the [Store details](https://www.shopify.com/admin/settings/general) settings in your Shopify Admin. Shopify can be configured to accept different currencies. However, imported orders into [!INCLUDE[prod_short](../includes/prod_short.md)] use store currency.
 
-A regular Shopify order can include costs in addition to the subtotal, such as shipping charges or, if enabled, tips. These amounts are posted directly to the G/L account you want used for specific transaction types:
+A regular Shopify order can include costs in addition to the subtotal, such as shipping charges or, if enabled, tips. These amounts are posted directly to the G/L account you want to use for specific transaction types:
 
 * **Shipping Charges Account**
 * **Sold Gift Card Account**; learn more at [Gift Card](synchronize-orders.md#gift-cards)
@@ -30,10 +30,12 @@ Enable **Auto Create Orders** to automatically create sales documents in [!INCLU
 
 If you want to automatically release a sales document, turn on the **Auto Release Sales Order** toggle.
 
+If you don't want to send automatic shipping confirmations to customers, turn off the **Send Shipping Confirmation** toggle. Turning the toggle off can be useful if you sell digital goods or want to use another notification mechanism.
+
 If you select the **Shopify Order No. on Doc. Line** field, [!INCLUDE [prod_short](../includes/prod_short.md)] inserts sales lines of the type **Comment** with the Shopify order number.
 
->[!NOTE]
->The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add the **Shopify Order No.** field to the list or card pages for sales orders, invoices, and shipment. To learn more about adding a field, go to [To start personalizing a page through the **Personalizing** banner](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
+> [!NOTE]
+> The sales document in [!INCLUDE[prod_short](../includes/prod_short.md)] links to the Shopify order, and you can add the **Shopify Order No.** field to the list or card pages for sales orders, invoices, and shipment. To learn more about adding a field, go to [Start personalizing by using the personalization mode](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
 
 In the **Tax area priority** field, prioritize how to select a tax area code for addresses on orders. The Shopify order you import contains information about taxes. Taxes are recalculated when you create sales documents, so it's important that the VAT or tax settings are correct in [!INCLUDE[prod_short](../includes/prod_short.md)]. To learn more about taxes, go to [Set Up Taxes for the Shopify Connection](setup-taxes.md).
 
@@ -45,8 +47,8 @@ Specify how you'll process returns and refunds:
 
 Specify a location for returns, and G/L accounts for refunds for goods and other refunds.
 
-* **Refund Account non-restock Items** - Specifies a G/L Account No. for items where you don't want to have an inventory correction.
-* **Refund Account** - Specifies a G/L account for the difference in the total refunded amount and the total amount of the items.
+* **Refund Account non-restock Items** specifies a G/L Account No. for items where you don't want to have an inventory correction.
+* **Refund Account** specifies a G/L account for the difference in the total refunded amount and the total amount of the items.
 
 Learn more at [Returns and refunds](synchronize-orders.md#returns-and-refunds)
 
@@ -74,7 +76,7 @@ The location mapping is required to fill in the **Location Code** for sales docu
 5. Enter the **Default Location Code** with the corresponding location in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 > [!NOTE]  
-> Location mapping is also used to sync inventory, for more information, see [Sync inventory to Shopify](synchronize-items.md#sync-inventory-to-shopify).
+> Location mapping is also used to sync inventory. To learn more, go to [Sync inventory to Shopify](synchronize-items.md#sync-inventory-to-shopify).
   
 ## Run the order synchronization
 
@@ -91,8 +93,8 @@ The following procedure describes how to import and update the sales orders.
 4. Choose the **Sync Orders From Shopify** action.
 5. Define filters on orders as necessary. For example, you can import fully paid orders or the ones with a low-risk level.
 
-> [!NOTE]  
-> When filtering by tag, you should use filter tokens `@` and `*`. For example if you want to import orders containing *tag1*, use `@*tag1*`. `@` will ensure that result is case insensitive, while `*` find orders with multiple tags.
+   > [!NOTE]  
+   > When filtering by tag, you should use filter tokens `@` and `*`. For example, if you want to import orders containing *tag1*, use `@*tag1*`. `@` will ensure the result is case insensitive, while `*` finds orders with multiple tags.
 
 6. Choose the **OK** button.
 
@@ -104,20 +106,21 @@ You can schedule the task to be performed automatically. Learn more at [Schedule
 
 The Shopify Connector imports orders in two steps:
 
-1.	It imports order headers to the **Shopify Orders to Import** table when they match certain conditions:
+1. It imports order headers to the **Shopify Orders to Import** table when they match certain conditions:
     
-* They aren't archived. This means you can include or exclude orders from sync by archiving or unarchiving them in the Shopify Admin.
-* They were created or modified after the last sync. This means that you can force reimport of specific order if you modify it, for example by adding the **Notes** or **Tag**.
+   * They aren't archived. This means you can include or exclude orders from sync by archiving or unarchiving them in the Shopify Admin.
+   * They were created or modified after the last sync. This means you can force reimport of a specific order if you modify it—for example, by adding **Notes** or **Tag**.
 
-2.	It imports Shopify orders and supplementary information.
-* The Shopify Connector processes all records in the **Shopify Orders to Import** table that match the filter criteria you defined on the **Sync Orders from Shopify** request page. For example, tags, channel, or the fulfilment status. If you haven't specified any filters it processes all records.
-* When importing Shopify order, the Shopify Connector requests additional information from Shopify:
+2. It imports Shopify orders and supplementary information.
 
-    * Order header
-    * Order lines
-    * Shipping and fulfillment information
-    * Transactions
-    * Returns and refunds, if configured
+   * The Shopify Connector processes all records in the **Shopify Orders to Import** table that match the filter criteria you defined on the **Sync Orders from Shopify** request page. For example, tags, channel, or the fulfillment status. If you haven't specified any filters, it processes all records.
+   * When importing a Shopify order, the Shopify Connector requests additional information from Shopify:
+
+     * Order header
+     * Order lines
+     * Shipping and fulfillment information
+     * Transactions
+     * Returns and refunds, if configured
 
 The **Shopify Order to Import** page is useful for troubleshooting order import issues. You can assess the orders that are available and take the next steps:
 
@@ -130,7 +133,11 @@ The **Shopify Order to Import** page is useful for troubleshooting order import 
 Once the import is completed, you can explore the Shopify order and find all related information, such as the payment transactions, shipping costs, risk level, order attributes and tags, or fulfillments, if the order was already fulfilled in Shopify. You can also see any order confirmation that has been sent to the customer by choosing the **Shopify Status Page** action.
 
 > [!NOTE]  
-> You can navigate to the **Shopify Orders** window directly and you'll see orders with the *open* status from all shops. To review completed orders, you need to open the **Shopify Orders** page from the specific **Shopify Shop Card** window.
+> You can navigate to the **Shopify Orders** window directly and you'll see orders with the *open* status from all shops. To review completed orders, you need to open the **Shopify Orders** page from the specific **Shopify Shop Card** page.
+
+Before sales documents are created in [!INCLUDE[prod_short](../includes/prod_short.md)], you can use the **Synch order from Shopify** action in the **Shopify Order** page to reimport specific orders.
+
+You can also mark an order as paid, which is useful in a B2B scenario where payments are processed outside Shopify checkout. Choose the **Mark as Paid** action on the **Shopify Order** page. Also, you can mark an order as canceled to start the refund flow in Shopify. Choose the **Cancel Order** action on the **Shopify Order** page, fill in the fields as necessary on the **Shopify Cancel Order** page, and press **OK**. You'll need to run order synchronization to import the updates to [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## Create sales documents in Business Central
 
@@ -146,15 +153,17 @@ If the **Auto Create Orders** toggle is enabled on the **Shopify Shop Card**, [!
 
 If the Shopify order requires fulfillment, a **Sales Order** is created. For fulfilled Shopify orders, such as those orders that contain only a gift card or which are already handled in Shopify, a **Sales Invoice** gets created.
 
-A sales document is now created and can be managed by using standard [!INCLUDE[prod_short](../includes/prod_short.md)] functionality.
+A sales document is created and can be managed by using standard [!INCLUDE[prod_short](../includes/prod_short.md)] functionality.
+
+If you want to recreate sales document, you can use the **Unlink Processed Documents** action in the **Shopify Order** page. Note that this action doesn't delete the already created sales document. You must process it manually.
 
 ### Manage missing customers
 
-If your settings prevent creating a customer automatically and a proper existing customer can't be found, you'll need to assign a customer to the Shopify order manually. There are a few ways to do this:
+If your settings prevent creating a customer automatically and a matching customer isn't found, you'll need to assign a customer to the Shopify order manually. There are a few ways to assign customers to orders:
 
-* You can assign the **Sell-to Customer No.** and **Bill-to Customer No.** directly on the **Shopify Orders** page by choosing a customer from the list of existing customers.
-* You can select a customer template code, then create, and assign the customer via the **Create new customer** action on the **Shopify Orders** page. Notice that the Shopify customer must have at least one address. Orders created via Shopify POS sales channel are often missing address details.
-* You can map an existing customer to the related **Shopify Customer** in the **Shopify Customers** window and then choose the **Find Mapping** action on the **Shopify Orders** page.
+* Assign the **Sell-to Customer No.** and **Bill-to Customer No.** directly on the **Shopify Orders** page by choosing a customer from the list of existing customers.
+* Select a customer template, then create and assign the customer via the **Create new customer** action on the **Shopify Orders** page. The Shopify customer must have at least one address. Orders you create via the Shopify POS sales channel are often missing address details.
+* Map an existing customer to the related **Shopify Customer** on the **Shopify Customers** page, and then choose the **Find Mapping** action on the **Shopify Orders** page.
 
 ### How the connector chooses which customer to use
 
@@ -172,53 +181,60 @@ The next steps depend on the **Customer Mapping Type**.
 > [!NOTE]  
 > The connector uses information from the bill-to address and creates the bill-to customer in [!INCLUDE[prod_short](../includes/prod_short.md)]. The sell-to customer is the same as the bill-to customer.
 
+For B2B orders flow is the similar, though connector uses **Default Company No.**, **Company Import From Shopify**, **Company Mapping Type** fields  on the **Shopify Shop Card** page. Notice that there is no **Default Company No.** in the **Shopify Customer Template** as for B2B it is expected to have named customers.
+
 ### Different processing rules for orders
 
 You might want to process orders differently based on a rule. For example, orders from a specific sales channel, like POS, should use the default customer, but you want your online store to have real information about the customer.
 
 One way to address this requirement is to create an additional Shopify Shop card and use filters in the **Sync Orders from Shopify** request page.
 
-Example: you have online store as well as a Shopify POS. For your POS, you want to use a fixed customer, but for your online store you want to create customers in [!INCLUDE[prod_short](../includes/prod_short.md)]. The following procedure lists the high-level steps. To learn more, go to the corresponding help articles.
+Example: You have an online store as well as a Shopify POS. For your POS, you want to use a fixed customer, but for your online store you want to create customers in [!INCLUDE[prod_short](../includes/prod_short.md)]. The following procedure lists the high-level steps. To learn more, go to the corresponding help articles.
 
 1. Create a Shopify shop called *STORE* and link it to your Shopify account.
-2. Configure item/product synchronization so that this store manages product information.
-3. Specify that customers are imported with orders. The connector should find customers by looking for their email address. If it doesn't find an address, it uses the customer template to create a new customer.
-4. Create a Shopify shop called *POS* and link it to same Shopify account.
-6. Make sure that item/product synchronization is disabled.
-7. Select the connector that uses the default customer.
-8. Create a recurring job queue entry for Report 30104 **Sync orders from Shopify**. Select **STORE** in the **Shopify Shop Code** field, and use filters to catch all orders except those that the POS sales channel creates. For example, **<>Point of Sale**
-9. Create a recurring job queue entry for the Report 30104 **Sync orders from Shopify**. Select **POS** in the **Shopify Shop Code** field, and use filters to catch orders generated by POS sales channel. For example, **Point of Sale**.
+1. Configure item/product synchronization so that this store manages product information.
+1. Specify that customers are imported with orders. The connector should find customers by looking for their email address. If it doesn't find an address, it uses the customer template to create a new customer.
+1. Create a Shopify shop called *POS* and link it to same Shopify account.
+1. Make sure that item/product synchronization is disabled.
+1. Select the connector that uses the default customer.
+1. Create a recurring job queue entry for Report 30104 **Sync orders from Shopify**. Select **STORE** in the **Shopify Shop Code** field, and use filters to catch all orders except those that the POS sales channel creates. For example, **<>Point of Sale**
+1. Create a recurring job queue entry for the Report 30104 **Sync orders from Shopify**. Select **POS** in the **Shopify Shop Code** field, and use filters to catch orders generated by POS sales channel. For example, **Point of Sale**.
 
 Each job queue will import and process orders within the defined filters and use the rules from the corresponding Shopify Shop card. For example, they'll create point of sales orders for the default customer.
 
 >[!Important]
-> To avoid conflicts when processing orders, remember to use the same job queue category for both job queue entries.
+> To avoid conflicts when processing orders, use the same job queue category for both job queue entries.
 
 ### Impact of order editing
 
 In Shopify:
 
-|Edit|Impact for already imported order|Impact for order that gets imported for the first time|
+|Edit|Impact on Shopify Orders yet not processed in [!INCLUDE[prod_short](../includes/prod_short.md)] | Impact on Shopify Orders yet already processed in [!INCLUDE[prod_short](../includes/prod_short.md)] |
 |------|-----------|-----------|
-|Change the fulfillment location | Original location is in lines | Fulfillment location is synched to [!INCLUDE[prod_short](../includes/prod_short.md)].|
-|Edit an order and increase quantity| The order header and supplementary tables will be updated in [!INCLUDE[prod_short](../includes/prod_short.md)], lines won't.| Imported order will use new quantity|
-|Edit an order and decrease quantity| The order header and supplementary tables will be updated in [!INCLUDE[prod_short](../includes/prod_short.md)], lines won't.| Imported order will use the original quantity, the Fulfillable Quantity field will contain a new value.|
-|Edit an order and remove existing item | Order header  and supplementary tables will be updated in [!INCLUDE[prod_short](../includes/prod_short.md)], lines won't.| Removed item still will be imported, the Fulfillable Quantity field will contain zero. |
-|Edit an order and add new item | Order header will be updated, lines won't. | Original and added items will be imported. |
-|Process order: fulfill, update payment information | Order header will be updated, but the lines won't. |Change has no impact on how the order is imported.|
-|Cancel order | Order header will be updated, but the lines won't. |Canceled order is not imported |
+|Change the fulfillment location | Fulfillment location is synched to [!INCLUDE[prod_short](../includes/prod_short.md)]. | Fulfillment location is synched to [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Edit an order and increase quantity|Imported order will use new quantity.| Connector will detect change and mark orders. |
+|Edit an order and decrease quantity|Imported order will use new quantity. Shopify refund with 0 amount will be imported that can not be converted into Credit Memo.| Connector will detect change and mark orders. |
+|Edit an order and remove existing item |Removed item won't be imported. Shopify refund with 0 amount will be imported that can not be converted into Credit Memo.| Connector will detect change and mark orders. |
+|Edit an order and add new item | Original and added items will be imported. | Connector will detect change and mark orders. |
+|Process order: fulfill, update payment information | Order header will be updated. |Order header will be updated. The fulfillment won't be synchronized with Shopify.|
+|Cancel paid order | Order header will be updated, to be processed separatelly |Connector will detect change and mark orders. |
+|Cancel unpaid order | Removed item won't be imported. Shopify refund with 0 amount will be imported that can not be converted into Credit Memo. |Connector will detect change and mark orders. |
 
-As you can see in some cases it might be reasonable to delete edited order in [!INCLUDE[prod_short](../includes/prod_short.md)] and import it as new.
+In case order was already processed in [!INCLUDE[prod_short](../includes/prod_short.md)] connector will display the following error message: *The order has already been processed in Business Central, but an edition was received from Shopify. Changes were not propagated to the processed order in Business Central. Update the processed documents to match the received data from Shopify. If you wish to force the synchronization use the action "Sync order from Shopify" in the Shopify Order card page.*
+
+Depending on status of created sales document you can perform following actions:
+1. Delete created sales document
+2. Choose the **Unlink Processed Documents** action to reset the **Processed** indicator.
+3. Choose the **Synch order from Shopify** action to update individual order with recent data from Shopify.
 
 In [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Edit|Impact|
 |------|-----------|
-|Change the location to another location, mapped to the Shopify Locations. Post shipment. | Order will be marked as fuflilled. Original location will be used. |
-|Change the location to another location, not mapped to the Shopify Locations. Post shipment. | The fulfillment won't be synchronized with Shopify. |
+|Change the location to another location. Post shipment. | Order will be marked as fulfilled. Fulfillment location from Shopify will be used. |
 |Decrease quantity. Post shipment. | The Shopify order will be marked as partially fulfilled. |
-|Increase quantity. Post shipment. | The fulfillment won't be synchronized with Shopify. |
-|Add a new item. Post shipment. | The Shopify order will be marked as fulfilled. Lines won't be updated. |
+|Increase quantity. Post shipment. | The fulfillment won't be synchronized with Shopify. Same if fulfilment was split in Shopify but processed as one line in [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|Add a new item. Post shipment. | The Shopify order will be marked as fulfilled. New lines won't be added. |
 
 ## Synchronize shipments to Shopify
 
@@ -237,7 +253,7 @@ You can schedule the task to be performed in an automated manner. Learn more at 
 >[!Important]
 >The location, including blank location, defined in the Posted Shipment Line must have a matching record in the Shopify Location. Otherwise, this line won't be sent back to Shopify. Learn more at [Location mapping](synchronize-orders.md#location-mapping).
 
-Remember to run **Synchronize Orders from Shopify** to update the fulfillment status of an order in [!INCLUDE[prod_short](../includes/prod_short.md)]. The connector functionality also archives completely paid and fulfilled orders in both Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)] provided the conditions are met. 
+Remember to run **Synchronize Orders from Shopify** to update the fulfillment status of an order in [!INCLUDE[prod_short](../includes/prod_short.md)]. The connector functionality also archives completely paid and fulfilled orders in both Shopify and [!INCLUDE[prod_short](../includes/prod_short.md)], provided the conditions are met. 
 
 ### Shipping agents and tracking URL
 
@@ -259,18 +275,19 @@ Returns and refunds are imported with their related orders if you enabled the pr
 
 Returns are imported for informational purposes only. There is no processing logic associated with them.
 
-Financial and, if needed, inventory transactions are processed via refunds. Refunds can include products or just amounts, for example, if a merchant decided to compensate shipping charges or some other amount.
+Financial and, if needed, inventory transactions are processed via refunds. Refunds can include products or just amounts—for example, if a merchant decides to compensate shipping charges or some other amount.
+
 You can create sales credit memos for refunds. The credit memos can have the following types of lines:
 
 |Type|No.|Comment|
 |-|-|-|
 |G/L Account|Sold Gift Card Account| Use for refunds related to gift cards.|
 |G/L Account|Refund Account Non-stock | Use for refunds related to products that weren’t restocked. |
-|Item |Item No.| Use for refunds related to products that were restocked. Valid for direct refunds or refunds linked to refunds. The location code on credit more line is set based on the value selected for the return location.|
+|Item |Item No.| Use for refunds related to products that were restocked. Valid for direct refunds or refunds linked to refunds. The location code on the credit more line is set based on the value selected for the return location.|
 |G/L Account| Refund Account | Use for other refunded amounts that aren't related to products or gift cards. For example, tips, or if you manually specified an amount to refund in Shopify. |
 
 >[!Note]
->The return location, including blank locations, defined in the **Shopify Shop Card** are used on the created credit memo. The system ignores the original locations from orders or shipments.
+>The return locations, including blank locations, defined in the **Shopify Shop Card** are used on the created credit memo. The system ignores the original locations from orders or shipments.
 
 ## Gift cards
 

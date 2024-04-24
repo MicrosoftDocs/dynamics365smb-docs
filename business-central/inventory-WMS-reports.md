@@ -1,5 +1,5 @@
 ---
-title: Inventory and Warehouse Reports and Analytics
+title: Inventory and warehouse reports and analytics
 description: See which inventory and warehouse reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
 author: brentholtorf
 ms.author: bholtorf
@@ -7,12 +7,11 @@ ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_707, Report_716, Report_813, Report_1001, Report_5807, Report_5808, Report_5809, Report_7313, Report_7319, Report_7320
-ms.date: 04/13/2023
+ms.date: 03/21/2024
 ms.custom: bap-template
-
 ms.service: dynamics-365-business-central
 ---
-# Inventory and Warehouse Reports and Analytics
+# Inventory and warehouse reports and analytics
 
 Inventory and warehouse reporting in [!INCLUDE [prod_short](includes/prod_short.md)] gives inventory and business professionals insights and statistics about current and past inventory and warehouse activities.  
 

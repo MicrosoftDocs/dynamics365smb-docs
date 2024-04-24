@@ -16,7 +16,7 @@ You can get a map from your online map service that shows the address and locati
 * Customer card
 * Vendor card
 * Resource card
-* Job card
+* Project card
 * Bank account card
 * Contact card
 * Employee card

@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 12/08/2023
+ms.date: 03/15/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
@@ -29,21 +29,26 @@ In this article, you learn how to analyze data from list pages and queries using
 
 ## Get started
 
+Complete these steps to get started analyzing data using the analysis mode.
+
+>[!TIP]
+> Analysis mode also includes a Copilot feature called *analysis assist* that can help you get started. [Learn more about analysis assist with Copilot](analysis-assist.md).
+
 1. Open the list page or query.
 
    For example, to work with **Customer Ledger Entries** page, select the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png) icon (<kbd>Alt</kbd>+<kbd>Q</kbd>), enter *customer ledger entries*, and then choose the related link. 
 
-2. In the action bar at the top of the page, turn on the **Analyze** toggle switch.
+2. In the action bar at the top of the page, select on the **Enter analysis mode** ![Shows the button for turning on analysis mode](media/analysis-mode-icon.png) button.
 
     Data analysis mode opens the data in an experience that's optimized for data analysis.  While in data analysis mode, the normal action bar is replaced with a special data analysis mode bar. The following figure illustrates the different areas of a page in the data analysis mode.
 
-   [![Shows an overview of a page on the data analysis mode](media/analysis-mode-overview-2.png)](media/analysis-mode-overview-2.png#lightbox)
+   [![Shows an overview of a page on the data analysis mode](media/analysis-mode-overview-3.png)](media/analysis-mode-overview-3.png#lightbox)
 
    Each area is explained in the sections that follow.
 
 3. Use the different areas to manipulate, summarize and analyze data. See the sections that follow for details.
 
-4. When you want to exit the analyze mode, turn off the **Analyze** toggle switch.
+4. When you want to stop the analysis mode, select the **Leave analysis mode** ![Shows the button for turning off analysis mode](media/analysis-mode-exit-icon.png) button
 
    The analysis tabs that you've added remain until you delete them. So if you return to the data analysis mode again, you see them exactly as you left them.
 
@@ -95,7 +100,7 @@ The following table describes the different numbers that are shown in the totals
 
 The **Columns** is one of two panes that work together to define your analysis. The other area is the **Analysis filters** pane. The **Columns** pane is used to summarize the data. Use the **Columns** pane to define which columns should be included in the analysis.
 
-![Shows an overview of the columns pane in the data analysis mode](media/analysis-mode-columns-2.png)
+![Shows an overview of the columns pane in the data analysis mode](media/analysis-mode-columns-3.png)
 
 |Areas|Description|
 |-|-|
@@ -110,7 +115,7 @@ To move a field from one area to another, select the grab icon ![Shows an overvi
 
 The **Analysis filters** pane lets you set further data filters on columns to limit the entries in the list. Set filters on columns to limit the entries in the list and subsequent sums to only those entries you're interested in based on a criteria you define. For example, suppose you're only interested in data for a specific customer or sales orders that exceed a specific amount. To set a filter, select the column, choose the comparison operation from the list (like **Equals** or **Starts with**), then enter the value.
 
-![Shows an overview of the filters pane in the analysis mode](media/analysis-mode-filters.png)
+![Shows an overview of the filters pane in the analysis mode](media/analysis-mode-filters-2.png)
 
 > [!NOTE]
 > The additional filters only apply to the current analysis tab. This allows you to define exactly the extra data filters that are needed for a specific analysis.
@@ -184,7 +189,7 @@ After you’ve prepared an analysis on a tab, you can share it as a link with co
 
 1. On the analysis tab, select the down arrowhead, and then select **Copy link**.
 
-   ![Shows the action for copying an analysis](media/copy-analysis.svg)
+   ![Shows the action for copying an analysis](media/analysis-mode-copy.png)
 
    The **Link to \<tab name\>** dialog opens.
 

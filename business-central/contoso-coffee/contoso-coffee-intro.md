@@ -22,7 +22,7 @@ Contoso Coffee is a fictitious company that produces consumer and commercial cof
 
 When the apps are installed, on the **Contoso Demo Tool** page, use the **Configure** action to prepare the following modules. You can choose to install all available data, which includes set up and production data, or setup data only.
 
- - The **Common Module** to prepare general settings that [!INCLUDE [prod_short](../includes/prod_short.md)] requires. For example, things like number series. 
+ - The **Common Module** to prepare general settings that [!INCLUDE [prod_short](../includes/prod_short.md)] requires. For example, things like number series. Note that **Common Module** contains supplementary data for the Warehouse, Manufacturing, Service scenarios only. It is not recommended to run it in isolation.
 
 The following table describes the settings:  
 

@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Introduction to [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI
+# Introduction to Business Central and Power BI
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -19,7 +19,7 @@ It's easy to get insights into your [!INCLUDE[prod_short](includes/prod_short.md
 
 ![Power BI and Business Central.](media/power-bi-intro.png)
 
-## What you can do with Power BI and [!INCLUDE[prod_short](includes/prod_short.md)]
+## What you can do with Power BI and Business Central
 
 There are various features for working with [!INCLUDE[prod_short](includes/prod_short.md)] and Power BI. Some things you can do from Power BI, while other things are done from [!INCLUDE[prod_short](includes/prod_short.md)]. Also, some features are only available with [!INCLUDE[prod_short](includes/prod_short.md)] online, not on-premises. The following table gives you an overview.
 

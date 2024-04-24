@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 01/31/2024
+ms.date: 04/24/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
@@ -125,7 +125,7 @@ To upload a report, select the **Upload Report** action from the drop-down comma
 After the report uploads to your Power BI workspace, it automatically uploads to other users' Power BI workspaces.
 
 > [!NOTE]
-> Uploading a report requires that you have SUPER user permissions in [!INCLUDE[prod_short](includes/prod_short.md)].
+> Uploading a report through [!INCLUDE[prod_short](includes/prod_short.md)] requires that you have SUPER user permissions in [!INCLUDE[prod_short](includes/prod_short.md)]. You don't need any special permission to upload reports to your workspace through the Power BI service.
 
 ## <a name="upload"></a>Upload reports from files
 

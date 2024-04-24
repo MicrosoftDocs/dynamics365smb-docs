@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
 ms.search.form:
-ms.date: o4/24/2024
+ms.date: 04/24/2024
 ms.author: jswymer
 
 ms.service: dynamics-365-business-central

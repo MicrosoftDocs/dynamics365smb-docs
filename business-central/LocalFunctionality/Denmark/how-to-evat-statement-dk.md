@@ -4,7 +4,7 @@ description: This article describes how to set up and submit value-added tax (VA
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
-ms.search.keywords: vat, return, statement, electronic, denmark, submission
+ms.search.keywords: vat, return, statement, electronic, denmark, submission, skat
 ms.search.form: 
 ms.date: 11/17/2023
 ms.author: altotovi
@@ -14,7 +14,13 @@ ms.service: dynamics-365-business-central
 
 # Submit VAT returns electronically
 
-In the Danish localization, Microsoft Dynamics 365 Business Central supports using the Danish Tax Agency's VAT API to report value-added tax (VAT) returns.
+In the Danish localization, Microsoft Dynamics 365 Business Central supports using the Danish Tax Agency's VAT API to report value-added tax (VAT) returns.  
+
+> [!IMPORTANT]
+> This feature allows to report **_draft VAT Return version_** to skat.dk website from Business Central. You will still need to manually login into your account on the tax authorities site, review the draft and submit it finally. Reporting such draft needs to be set up first in the tax authorities account. (See “Onboarding legal entities” on skat.dk)
+
+> [!NOTE]
+> Before start, ensure the **VAT Return E-Submission** app is installed and enabled.  
 
 To generate a VAT return and send it directly to the Danish Tax Agency's VAT API, complete the following setup:
 
@@ -28,11 +34,31 @@ Complete the following procedures to set up VAT return submission.
 
 ### Set up certificates
 
-Before you can begin the setup, an administrator must configure certificates.
+> [!NOTE]
+> If you use Business Central online, you do not need to configure your certificates, as you will use preinstalled Microsoft security certificate for VAT submission. 
+
+If you use on-premises Business Central version, before you can begin the setup, an administrator must configure certificates using the following procedure: 
 
 1. Select the ![Magnifying glass button that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Certificates**, and then select the related link.
 2. Select **New** to create a _client certificate_. This certificate is a company certificate (VOCES3) that's issued by MitID Erhverv (OCES3). It must include a private key for signing.
 3. Select **New** to create a _server certificate_. This certificate is a certificate that NemVirksomhed provides to verify response XML.
+
+### Set up electronic VAT declaration 
+
+Follow these steps to configure the electronic VAT declaration.
+
+1. Select the ![Magnifying glass button that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Electronic VAT Declaration Setup**, and then select the related link.  
+2. On the **Electronic VAT Declaration Setup** page, enter your legal SE/CVR number in the **ERP SE Number** field as a number used to report the VAT Return to Skat service. Once you enter your CVR number, you will have to give a consent that your data would be shared with third party system (skat.dk) in this process. If you agree, you need to select the **I accept** button.  
+
+### Set up VAT report  
+
+Follow these steps to configure a VAT reporting:
+
+1. Select the ![Magnifying glass button that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Reports Configuration**, and then select the related link.  
+2. Make sure that setup for VAT Return with version **DK ELE.VAT** exists selected in the **VAT Report Version** field in the **VAT Reports Configuration** page. This setup has **Suggest Lines Codeunit ID**, **Content Codeunit ID**, **Submission Codeunit ID** and **Validate Codeunit ID** populated (populated on install).
+3. Select the ![Magnifying glass button that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Report Setup**, and then select the related link. 
+4. Make sure that in the **VAT Report Setup** page in the **Return Period** FastTab the field **Report Version** is populated with the **DK ELE.VAT** report version you previously configured.
+5. The **Manual Receive Codeunit ID** field where you can specify the codeunit ID associated with a manual receipt of the VAT return periods must have selected codeunit 13610 with the **Manual Receive Codeunit Caption** field populated with **Elec. VAT Decl. Get Periods**.   
 
 ### Set up VAT statements
 
@@ -49,16 +75,16 @@ Follow these steps to configure a VAT statement.
 
 Follow these steps to submit a VAT return.
 
-1. Select the ![Magnifying glass button that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then select the related link.
-2. Select **Get VAT Return Periods**. Dynamics 365 Business Central contacts the **VirksomhedKalenderHent** endpoint and gets VAT return periods for your company.
-3. Select an existing VAT return period, and then select **Create VAT Return**. Business Central creates a new **VAT Return** record.
-4. Select **Suggest Lines** to get suggested and created lines/records for the VAT return.
-5. When you check and confirm the validity of the suggested lines, select **Release** to protect any changes in the VAT return before you submit the return.
-6. When you're ready to submit the VAT return, select **Submit** to generate the XML body for the request and submit the request to the **ModtagMomsangivelseForeloebig** service.
+1. Select the ![Magnifying glass button that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then select the related link. 
+2. Select **Get VAT Return Periods**. Dynamics 365 Business Central contacts the **VirksomhedKalenderHent** endpoint and gets VAT return periods for your company.  
+3. Select an existing VAT return period, and then select **Create VAT Return**. Business Central creates a new **VAT Return** record.  
+4. Select **Suggest Lines** to get suggested and created lines/records for the VAT return.   
+5. When you check and confirm the validity of the suggested lines, select **Release** to protect any changes in the VAT return before you submit the return. 
+6. When you're ready to submit the VAT return, select **Submit** to generate the XML body for the request and submit the request to the **ModtagMomsangivelseForeloebig** service. 
 
 If the process is done correctly, you receive a "Request has been submitted" message, and the VAT return's status is changed to **Submitted**.
 
-You can double-check the request message for the VAT return later by selecting **Download**.
+You can double-check the request message for the VAT return later by selecting the **Download** action.  
 
 ## After a VAT return is submitted
 

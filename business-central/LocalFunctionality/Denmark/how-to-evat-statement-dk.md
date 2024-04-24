@@ -14,10 +14,10 @@ ms.service: dynamics-365-business-central
 
 # Submit VAT returns electronically
 
-In the Danish localization, Microsoft Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] supports using the Danish Tax Agency's VAT API to report value-added tax (VAT) returns.  
+In the Danish localization, Microsoft Dynamics 365 [!INCLUDE [prod_short](../../includes/prod_short.md)] supports using the Danish Tax Agency's VAT API to report value-added tax (VAT) returns.  
 
 > [!IMPORTANT]
-> This feature allows to report **_draft VAT Return version_** to skat.dk website from [!INCLUDE [prod_short](includes/prod_short.md)]. You will still need to manually login into your account on the tax authorities site, review the draft and submit it finally. Reporting such draft needs to be set up first in the tax authorities account. (See “Onboarding legal entities” on skat.dk)
+> This feature allows to report **_draft VAT Return version_** to skat.dk website from [!INCLUDE [prod_short](../../includes/prod_short.md)]. You will still need to manually login into your account on the tax authorities site, review the draft and submit it finally. Reporting such draft needs to be set up first in the tax authorities account. (See “Onboarding legal entities” on skat.dk)
 
 > [!NOTE]
 > Before you begin, make sure that the **VAT Return E-Submission** app has been installed and enabled. 
@@ -35,9 +35,9 @@ Complete the following procedures to set up VAT return submission.
 ### Set up certificates
 
 > [!NOTE]
-> If you use [!INCLUDE [prod_short](includes/prod_short.md)] online, you do not need to configure your certificates, as you will use preinstalled Microsoft security certificate for VAT submission. 
+> If you use [!INCLUDE [prod_short](../../includes/prod_short.md)] online, you do not need to configure your certificates, as you will use preinstalled Microsoft security certificate for VAT submission. 
 
-If you use on-premises [!INCLUDE [prod_short](includes/prod_short.md)] version, before you begin the setup, an administrator must configure the certificates using the following procedure: 
+If you use on-premises [!INCLUDE [prod_short](../../includes/prod_short.md)] version, before you begin the setup, an administrator must configure the certificates using the following procedure: 
 
 1. Select the ![Magnifying glass button that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Certificates**, and then select the related link.
 2. Select **New** to create a _client certificate_. This certificate is a company certificate (VOCES3) that's issued by MitID Erhverv (OCES3). It must include a private key for signing.
@@ -77,8 +77,8 @@ Follow these steps to configure a VAT statement:
 Follow these steps to submit a VAT return:
 
 1. Select the ![Magnifying glass button that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then select the related link. 
-2. Select **Get VAT Return Periods**. Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] contacts the **VirksomhedKalenderHent** endpoint and gets VAT return periods for your company.  
-3. Select an existing VAT return period, and then select **Create VAT Return**. [!INCLUDE [prod_short](includes/prod_short.md)] creates a new **VAT Return** record.  
+2. Select **Get VAT Return Periods**. Dynamics 365 [!INCLUDE [prod_short](../../includes/prod_short.md)] contacts the **VirksomhedKalenderHent** endpoint and gets VAT return periods for your company.  
+3. Select an existing VAT return period, and then select **Create VAT Return**. [!INCLUDE [prod_short](../../includes/prod_short.md)] creates a new **VAT Return** record.  
 4. Select **Suggest Lines** to get suggested and created lines/records for the VAT return.   
 5. When you check and confirm the validity of the suggested lines, select **Release** to protect any changes in the VAT return before you submit the return. 
 6. When you're ready to submit the VAT return, select **Submit** to generate the XML body for the request and submit the request to the **ModtagMomsangivelseForeloebig** service. 
@@ -89,7 +89,7 @@ You can double-check the request message for the VAT return later by choosing th
 
 ## After a VAT return is submitted
 
-You won't always know the final status that's confirmed by the authorities. Therefore, [!INCLUDE [prod_short](includes/prod_short.md)] regularly checks the **MomsangivelseKvitteringHent** service through the configured endpoint, to look for any response about submitted VAT returns. If a response is available, it's received, and the status of the company's VAT return is changed to **Accepted** or **Rejected**.
+You won't always know the final status that's confirmed by the authorities. Therefore, [!INCLUDE [prod_short](../../includes/prod_short.md)] regularly checks the **MomsangivelseKvitteringHent** service through the configured endpoint, to look for any response about submitted VAT returns. If a response is available, it's received, and the status of the company's VAT return is changed to **Accepted** or **Rejected**.
 
 You can download a **Response** message by selecting **Download**. If the status is **Accepted**, you can save the receipt link for the VAT return.
 

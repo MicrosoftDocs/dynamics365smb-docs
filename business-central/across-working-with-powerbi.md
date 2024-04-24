@@ -54,7 +54,7 @@ When you first sign into [!INCLUDE [prod_short](includes/prod_short.md)], you'll
 The connection process starts. During the process, [!INCLUDE [prod_short](includes/prod_short.md)] communicates with the Power BI service to determine if you have a valid Power BI account and license. Once your license is verified, the default Power BI report displays on the page. If there a report isn't shown, you can select a report from the part.
 
 > [!TIP]
-> With [!INCLUDE [prod_short](includes/prod_short.md)] online, this this step will automatically upload default Power BI reports used in [!INCLUDE [prod_short](includes/prod_short.md)] to your Power BI workspace.
+> With [!INCLUDE [prod_short](includes/prod_short.md)] online, this step will automatically upload default Power BI reports used in [!INCLUDE [prod_short](includes/prod_short.md)] to your Power BI workspace.
 
 <!--#### From [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
 

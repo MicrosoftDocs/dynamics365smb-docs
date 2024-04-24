@@ -29,6 +29,9 @@ To set up a sustainability module, follow the next steps:
 | **Block Calculation Foundation Change If Ledger Entries Exist** | Specifies if the change of calculation foundation at the Account Category is blocked at the time of sustainability entry, which means this formula has been applied already. |
 | **Enable Background Error Check** | Specifies if the background error check of sustainability journal lines is enabled. |
 
+>[!NOTE]
+> When you enable or disable Background Error Check in journals, before you can start using new setup, you first have to re-login.  
+
 3.	On the **Calculations** FastTab, configure required fields related to the formulas used for calculating emissions:  
 
 |  Field  |  Description  |  

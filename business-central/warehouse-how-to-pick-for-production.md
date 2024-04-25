@@ -4,7 +4,7 @@ description: When your warehouse location requires that you process picks but no
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 12/16/2022
 ms.custom: bap-template
@@ -25,7 +25,7 @@ Use the following documents for internal operations:
 
 * When you register an inventory pick for an internal operation, such as production or a job, the consumption of the picked components is posted at the same time.
 * The **Bin Mandatory** toggle on the **Location Card** page is optional.
-* When you use inventory picks, the **Bin Code** field on a production order component line or job planning lines defines the *take* bin. Components are decreased in the take bin when you post consumption.
+* When you use inventory picks, the **Bin Code** field on a production order component line or project planning lines defines the *take* bin. Components are decreased in the take bin when you post consumption.
 
 ## Inventory movements
 
@@ -60,11 +60,11 @@ Use **Inventory Pick** documents to pick job components in the flow to project m
 For locations that use bins, you can extend the flow to jobs with **Inventory Movement** documents.
 
 > [!NOTE]
-> The ability to pick components for job planning lines was added to [!INCLUDE[d365fin](includes/d365fin_md.md)] in 2022 release wave 2. To start using the capability, an administrator must turn on **Feature Update: Enable inventory and warehouse pick from Jobs** on the **Feature Management** page.
+> The ability to pick components for project planning lines was added to [!INCLUDE[d365fin](includes/d365fin_md.md)] in 2022 release wave 2. To start using the capability, an administrator must turn on **Feature Update: Enable inventory and warehouse pick from Jobs** on the **Feature Management** page.
 >
-> [!INCLUDE[prod_short](includes/prod_short.md)] uses the value in the **Remaining Quantity** field on the job planning line when it creates inventory picks. To use inventory picks for jobs, you must turn on the **Apply Usage Link** toggle on the **Job Card** page for the job. This lets you track usage against your plan. If you don't turn on the toggle, the remaining quantity will stay at **0** and the inventory pick won't be created. Learn more at [To set up job usage tracking](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
+> [!INCLUDE[prod_short](includes/prod_short.md)] uses the value in the **Remaining Quantity** field on the project planning line when it creates inventory picks. To use inventory picks for jobs, you must turn on the **Apply Usage Link** toggle on the **Project Card** page for the job. This lets you track usage against your plan. If you don't turn on the toggle, the remaining quantity will stay at **0** and the inventory pick won't be created. Learn more at [To set up project usage tracking](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
 
-## Pick or move for production, assembly, and jobs in a basic warehouse configuration
+## Pick or move for production, assembly, and projects in a basic warehouse configuration
 
 You can create an inventory pick or inventory movement in three ways:  
 
@@ -140,7 +140,7 @@ The following happens during the posting process:
 
 The following happens during the posting process:
 
-* Warehouse entries now indicate that the components are in the bins specified on the source document order lines. For example, the assembly order, production component, or job planning line.
+* Warehouse entries now indicate that the components are in the bins specified on the source document order lines. For example, the assembly order, production component, or project planning line.
 
 >[!NOTE]
 > Unlike when you move components with inventory picks, consumption isn't posted when you register an inventory movement. You register consumption as a separate step by posting the source document.

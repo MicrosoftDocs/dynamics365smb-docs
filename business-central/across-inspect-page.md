@@ -4,12 +4,12 @@ description: Use the page inspection feature to zoom into details about the page
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
-ms.tgt_pltfrm: na
 ms.topic: conceptual
 
 author: jswymer
 ms.author: jswymer
 ms.date: 09/15/2023
+ms.service: dynamics-365-business-central
 ---
 
 # Inspecting pages in Business Central

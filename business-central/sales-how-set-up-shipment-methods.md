@@ -3,14 +3,13 @@ title: Set Up Shipment Methods
 description: You can set up a code for each of your offered shipment methods, and enter information about them.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: incoterms
 ms.search.form: 11, 130
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
 # Set Up Shipment Methods
 

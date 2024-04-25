@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/21/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Warehouse employees can ship and receive non-inventory items along with physical goods on sales and purchase orders. Non-inventory items are intangibles, such as insurance or extra costs.

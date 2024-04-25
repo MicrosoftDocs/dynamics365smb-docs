@@ -7,6 +7,7 @@ ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: item, variant, product
 ms.date: 08/22/2023
+ms.service: dynamics-365-business-central
 ---
 # Block Items or Item Variants from Sales or Purchasing
 

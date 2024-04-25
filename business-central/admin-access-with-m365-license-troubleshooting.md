@@ -8,6 +8,7 @@ ms.topic: troubleshooting
 ms.date: 02/07/2023
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
+ms.service: dynamics-365-business-central
 ---
 
 # Troubleshoot Access with Microsoft 365 Licenses

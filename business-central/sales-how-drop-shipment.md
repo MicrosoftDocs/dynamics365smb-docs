@@ -1,17 +1,16 @@
 ---
-title: Make Drop Shipments (contains video)
+title: Make drop shipments (contains video)
 description: Describes how to create a sales order linked to a purchase order to enable shipment directly from the vendor to the customer.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: direct shipment
-ms.date: 04/01/2021
+ms.date: 02/20/2024
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
 ---
-# Make Drop Shipments
+# Make drop shipments
 
 A drop shipment is the shipment of items from one of your vendors directly to one of your customers.
 
@@ -25,10 +24,10 @@ When a sales order is marked for drop shipment, and you create a purchase order 
 To prepare a drop shipment, you create a sales order for an item and indicate on the sales line that the sale requires drop shipment.
 
 1. Create a sales order for an item. For more information, see [Sell Products](sales-how-sell-products.md).
-2. On the sales order line for the drop shipment, select the **Drop Shipment** check box. 
+2. On the sales order line for the drop shipment, select the **Drop Shipment** check box. Alternatively, in the **Purchasing Code** field, select a purchasing code that has the **Drop Shipment** field selected.
 
 > [!TIP]
-> By default, the Drop Shipment check box isn't available on the lines. If it isn't, you can add it by personalizing the section of page that contains the lines. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
+> By default, the Drop Shipment check box and Purchasing Code field aren't available on the lines. If they aren't, you can add them by personalizing the section of page that contains the lines. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 ## To create the purchase order for drop shipment
 

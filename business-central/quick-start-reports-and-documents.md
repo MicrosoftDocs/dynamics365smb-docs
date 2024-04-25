@@ -3,13 +3,12 @@ title: Basic Reports and Documents Output Quick Start
 description: Business Central offers built-in templates for reports and documents, with many customization options to adapt them to your company's needs.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: 
 ms.date: 08/15/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Basic Reports and Documents Output Quick Start

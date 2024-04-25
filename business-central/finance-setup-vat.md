@@ -3,13 +3,12 @@ title: Set Up Value-Added Tax
 description: Make sure that you correctly calculate, post, and report on VAT for sales and purchases. We recommend that you use the assisted setup guide to set up VAT.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877, 
 ms.date: 01/31/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Set Up Calculations and Posting Methods for Value-Added Tax
@@ -188,7 +187,10 @@ To set up a VAT business posting group, follow these steps:
 
 [!INCLUDE[prod_short](includes/prod_short.md)] calculates VAT amounts on sales and purchases based on VAT posting setups, which are combinations of VAT business and product posting groups. For each combination, you can specify the VAT percent, VAT calculation type, and general ledger accounts for posting VAT for sales, purchases, and reverse charges. You can also specify whether to recalculate VAT when a payment discount is applied or received.  
 
-Set up as many combinations as you need. If you want to group VAT posting setup combinations with similar attributes, you can define a **VAT Identifier** for each group, and assign the identifier to the group members.
+Set up as many combinations as you need. To group VAT posting setup combinations with similar attributes, define a **VAT Identifier** for each group, and assign the identifier to the group members.  
+
+> [!NOTE]
+> A **VAT Identifier** is a code you can use to group similar attributes. We recommend you use different VAT identifiers for different VAT percentages.  
 
 To combine VAT posting setups, follow these steps:
 

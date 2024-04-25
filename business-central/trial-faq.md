@@ -6,6 +6,7 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: bholtorf
 ms.date: 02/23/2022
+ms.service: dynamics-365-business-central
 ---
 
 # Dynamics 365 Business Central trial FAQ

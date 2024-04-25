@@ -1759,7 +1759,7 @@ ms.service: dynamics-365-business-central
 ###### [Create reports to display list data](across-how-use-powerbi-reports-factbox.md)
 ##### Business user
 ###### [Work with Power BI reports in Business Central](across-working-with-powerbi.md)
-###### [Work with Business Central data in Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Connect to Power BI from Business Central on-premises](across-working-with-business-central-in-powerbi.md)
 ###### [Use the Business Central apps in Power BI](across-powerbi-business-central-apps.md)
 ##### [FAQ](power-bi-faq.md)
 #### Use Power Automate with Business Central

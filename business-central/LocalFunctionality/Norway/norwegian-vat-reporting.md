@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 # Norwegian VAT Reporting in the Norwegian Version
 
 > [!IMPORTANT]
-> There will be changes in the new ID-porten in Norway. Microsoft will update Norwegian Electronic VAT submission solution to the new ID-porten system in the 23.2 release.  
+> ID-porten in Norway has been changed. Microsoft updated Norwegian Electronic VAT submission solution to the new ID-porten system from the 23.5 release. 
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] provides features that allow you to calculate and report VAT returns to the Norwegian tax authorities.  
 
@@ -40,7 +40,7 @@ To register your company with ID-Porten, follow the steps provided by [Samarbeid
 
 ### Set up the integration point
 
-After you register your company in ID-Porten, the next step is to create an integration point in your company's account in ID-Porten. For more information, see [integration point](https://docs.digdir.no/oidc_index.html).
+After you register your company in ID-Porten, the next step is to create an integration point in your company's account in ID-Porten. For more information, see [integration point](https://docs.digdir.no/).
 
 1. Sign in to [Skatteetaten](https://skatteetaten.github.io/mva-meldingen/english/idportenauthentication/).
 2. On the navigation pane, choose **Integrasjoner**, and under **Produksjon**, choose **Ver 2**.

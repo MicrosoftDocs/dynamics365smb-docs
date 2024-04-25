@@ -4,7 +4,7 @@ description: The following articles describe the different local functionality i
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 01/12/2024
+ms.date: 04/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -76,7 +76,7 @@ If you're aware of any upcoming regulatory features, submit a [Regulatory Featur
 
 ## See also
 
-[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
-[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)    
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

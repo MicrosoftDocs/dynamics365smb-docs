@@ -3,7 +3,6 @@ title: Classifying data sensitivity
 description: You must specify which type of data you store about people so that you can respond to data subject requests.
 author: brentholtorf
 ms.author: bholtorf
-ms.custom: na
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: 1752,

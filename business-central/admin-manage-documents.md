@@ -1,14 +1,16 @@
 ---
-title: Manage Storage by Deleting Documents or Compressing Data
+title: Manage storage by deleting documents or compressing data
 description: Learn how to deal with accumulating historic documents (and reduce the amount of data stored in a database) by deleting or compressing them.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: 107, 9035, 9040
-ms.date: 09/14/2022
-ms.author: bholtorf
+ms.date: 04/16/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Manage Storage by Deleting Documents or Compressing Data
+# Manage storage by deleting documents or compressing data
 
 A central role, such as the application administrator, must regularly deal with accumulating historic documents by deleting or compressing them.  
 
@@ -66,7 +68,7 @@ Compressed entries are posted slightly differently than standard posting. This i
 The posting process creates gaps in the number series for entries on the **General Ledger Entries** page. Those numbers are assigned to the entries on the ledger pages only. The number range assigned to the entries is available on the **G/L Register** page in the **From Entry No.** and **To Entry No.** fields. 
 
 > [!NOTE]
-> After you run date compression, all accounts in the ledger are locked. That means you cannot, for example, reverse vendor or bank ledger entries for any accounts affected by the compression.
+> After you run date compression, you can't reverse vendor or bank ledger entries for any transactions that are affected by the compression.
 
 The number of entries that result from a date compression depends on how many filters you set, which fields are combined, and the length of the time period you choose. There will always be at least one entry.
 

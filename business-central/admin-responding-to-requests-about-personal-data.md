@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: conceptual
-ms.date: 04/25/2023
+ms.date: 04/25/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---

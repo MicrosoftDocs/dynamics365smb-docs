@@ -1,17 +1,18 @@
 ---
-title: Troubleshooting and Correcting Dimensions
+title: Troubleshooting and correcting dimensions
 description: Learn how to troubleshoot typical dimension errors, and how to correct dimensions after they are used on posted transactions.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
-ms.date: 09/27/2021
-ms.author: bholtorf
+ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Troubleshooting and Correcting Dimensions
+# Troubleshooting and correcting dimensions
 
 Financial reporting and analysis views often rely on data from dimensions. Despite the safeguards that are available, sometimes a mistake happens that can lead to inaccuracies. This topic describes some of the typical errors, and explains how to correct dimension assignments on posted transactions so that financial reports are accurate.
 

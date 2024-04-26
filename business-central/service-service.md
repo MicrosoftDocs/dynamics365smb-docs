@@ -2,17 +2,18 @@
 title: Service Management
 description: Learn to use features in Business Central designed manage and track services to support repair shop and field service operations.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords:
-ms.date: 06/23/2021
 ms.author: bholtorf
-
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords:
+ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Service Management
+
 > [!NOTE]
-> Functionality described in this topic and sub topics is only visible in the user interface if you have the **Premium** experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).
+> The functionality described in this topic and sub topics is only visible in the user interface if you have the **Premium** experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).
 
 Providing ongoing service to customers is an important part of any business and one that can be a source of customer satisfaction and loyalty, in addition to revenue. However, managing and tracking service is not always easy, and [!INCLUDE[prod_short](includes/prod_short.md)] provides a set of tools to help. These tools are designed to support repair shop and field service operations, and can be used in business scenarios such as complex customer service distribution systems, industrial service environments with bills of materials, and high volume dispatching of service technicians with requirements for spare parts management.  
 

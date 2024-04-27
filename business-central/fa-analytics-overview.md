@@ -29,6 +29,10 @@ Businesses with fixed assets capture a tremendous amount of data during daily ac
 - Built-in fixed assets analytics tools
 - Built-in fixed assets reports
 
+> [!NOTE]
+> Analytics for Fixed Assets is a little different than other areas in the sense that you both have a need for analyzing the data that is already present in the Fixed Assets tables in [!INCLUDE[prod_short](includes/prod_short.md)], such as asset acquisitions, deprecations, and insurance, but also calculated data for future data, such as future depreciation entries and/or asset retirements. For the latter type of analysis, [!INCLUDE[prod_short](includes/prod_short.md)] has built-in reports that can calculate these numbers.
+
+
 Each of these features has its own advantages and disadvantages, depending on the type of data analysis and the role of the user. To learn more, go to [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md).
 
 This article introduces you can use these analytical features to provide fixed assets insights.

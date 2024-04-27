@@ -102,7 +102,7 @@ For more information on how to do ad-hoc analysis on ledgers, see [Ad-hoc analys
 
 To get an overview of available reports, you can click **All reports** on the top pane of your home page. This takes you to the Role explorer, which is filtered to the features in the **Report & Analysis** option. To find reports related to fixed assets, enter **fixed assets** in the Find field. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md). 
 
-:::image type="content" source="media/report-explorer-finance.png" alt-text="Example of reports on the finance role centre." lightbox="media/report-explorer-finance.png":::
+:::image type="content" source="media/report-explorer-fixed-assets.png" alt-text="Example of reports on the finance role centre." lightbox="media/report-explorer-fixed-assets.png":::
 
 <!-- Built-in reports come in two flavors:
 

@@ -20,7 +20,7 @@ To help you manage your fixed assets in [!INCLUDE [prod_short](includes/prod_sho
 
 ## See also
 
-[Fixed assets analytics overview](fa-analytics-overview.md)
+[Fixed assets analytics overview](fa-analytics-overview.md)   
 [Managing Fixed Assets](fa-manage.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

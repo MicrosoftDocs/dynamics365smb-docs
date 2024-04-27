@@ -109,9 +109,7 @@ To get an overview of available reports, you can click **All reports** on the to
 - Designed for print (pdf).
 - Designed for analysis in Excel. -->
 
-For more information, see these overviews for reports that are relevant for fixed assets.
-
-- [Built-in fixed assets reports](fa-reports.md)
+For more information about reports that are relevant for fixed assets, see [Built-in fixed assets reports](fa-reports.md).
 
 
 ## On-screen fixed assets analytics
@@ -140,13 +138,13 @@ Specifically for fixed assets, you can create a view on the Chart of Accounts pa
 To learn more, go to [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts).
 
 
-### Analyze data by dimensions
+### Analyze data by dimensions (related to fixed assets)
 
-Dimensions are values that categorize entries so you can track and analyze them on documents, such as sales orders. Dimensions can, for example, indicate the project or department an entry came from.  
+Dimensions are values that categorize entries so you can track and analyze them on documents, such as FA journals. Dimensions can, for example, indicate the department or location an entry came from.  
 
-So, instead of setting up separate general ledger accounts for each department and project, you can use dimensions as a basis for analysis and avoid having to create a complicated chart of accounts structure.
+So, instead of setting up separate general ledger accounts for each department or location, you can use dimensions as a basis for analysis and avoid having to create a complicated chart of accounts structure.
 
-In financial analysis, a dimension is data you add to a G/L entry as a kind of marker. This data is used to group G/L entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. You can use dimensions on entries in journals, documents, and budgets. For more information, see [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
+For more information, see [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 
 
 ## See also

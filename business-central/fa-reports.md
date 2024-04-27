@@ -20,11 +20,7 @@ To help you manage your fixed assets in [!INCLUDE [prod_short](includes/prod_sho
 
 ## See also
 
-[Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
-[Work with Dimensions](finance-dimensions.md)  
+[Fixed assets analytics overview](fa-analytics-overview.md)
 [Managing Fixed Assets](fa-manage.md)  
-[Local Functionality Overview](about-localization.md)  
-[Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

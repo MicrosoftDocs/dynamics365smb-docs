@@ -478,7 +478,6 @@ ms.service: dynamics-365-business-central
 #### [Set up and publish a KPI web service based on financial reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
 #### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
-#### [Create analysis reports](bi-how-create-analysis-views-reports.md)
 
 <!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
 
@@ -496,7 +495,12 @@ ms.service: dynamics-365-business-central
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
-### [Sales reports](sales-reports.md)
+### Sales analytics 
+#### [Sales analytics overview](sales-analytics-overview.md)
+#### [Create sales analysis reports](bi-how-create-analysis-views-reports.md)
+#### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
+#### [Built-in sales reports](sales-reports.md)
+
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
 ### [Walkthrough: Set up and Invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Register new customers](sales-how-register-new-customers.md)

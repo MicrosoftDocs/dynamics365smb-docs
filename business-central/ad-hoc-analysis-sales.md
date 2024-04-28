@@ -29,8 +29,9 @@ For more information, see [Posting sales](ui-post-sales.md).
 
 
 This means that the following list pages can be used for ad-hoc analysis of sales processes:
-- **G/L Entries**
-- **Cust. Ledger Entries**
+- **General Ledger Entries**
+- **Customer Ledger Entries**
+- **Item Ledger Entries**
 - **Posted Invoices**
 
 

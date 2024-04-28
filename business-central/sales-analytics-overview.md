@@ -80,13 +80,13 @@ Sometimes, you just need to check whether the numbers add up correctly, or quick
 - Data analysis on ledger list pages
 - Open in Excel
 
-The Data analysis feature lets you open almost a list page, such as **General Ledger Entries**, **TODO** enter analysis mode, and then group, filter, and pivot data as you see fit.
+The Data analysis feature lets you open almost a list page, such as **General Ledger Entries**, **Customer Ledger Entries**, **Item Ledger Entries**, or **Posted Invoices**, enter analysis mode, and then group, filter, and pivot data as you see fit.
 
-:::image type="content" source="media/data-analysis-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries page." lightbox="media/data-analysis-gl-entries.png":::
+:::image type="content" source="media/data-analysis-customer-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-customer-ledger-entries.png":::
 
 Similarly, you can use the **Open in Excel** action to open a list page for **TODO**, optionally filter the list to a subset of the data, and then use Excel to work with the data. For example, by using features such as Analyze Data, What-If Analysis, or Forecast Sheet.
 
-:::image type="content" source="media/open-in-excel-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries data using Excel." lightbox="media/open-in-excel-gl-entries.png":::
+:::image type="content" source="media/open-in-excel-customer-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries data using Excel." lightbox="media/open-in-excel-customer-ledger-entries.png":::
 
 > [!TIP]
 > If you configure OneDrive for system features, the Excel workbook opens in your browser by using Excel for the web. 

@@ -44,7 +44,22 @@ In the following sections, you'll find examples of usage scenarios within the sa
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
+| [Sales (Customer sales by volume)](#example-sales-customer-sales-by-volume) | Get an overview of the customers that purchase the most or that owe the most. | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) | **Customer Name**, **Document No.**, **Amount**, and **Remaining Amount** |
 | [Finance (Accounts Receivables)](#example-finance-accounts-receivables) | See what your customers owe you, for example, broken down into time intervals for when amounts are due. | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) | **Customer Name**, **Due Date**, and **Remaining Amount** |
+
+
+## Example: Sales (Customer sales by volume)
+
+To produce an overview of the customers that purchase the most or that owe the most, do as follows:
+
+1. Open the [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) list and switch on the analysis mode.
+1. Go to the **Columns** menu and remove all columns (select the box next to the *Search* field).
+1. Now, drag the *Customer Name* field to the *Row Groups* area and the *Document No.* field below it.
+1. Click *Amount* and *Remaining Amount* fields.
+1. If you want to restrict the analysis to a given year/quarter, apply a filter in the *Additional Filters* menu (to the right, just below the **Columns** menu.) 
+1. Rename your analysis tab to "Customer by sales volume" or something that describes this analysis for you. 
+
+:::image type="content" source="media/data-analysis-customer-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-customer-ledger-entries.png":::
 
 
 ## Example: Finance (Accounts Receivables)

@@ -29,10 +29,11 @@ For more information, see [Posting sales](ui-post-sales.md).
 
 
 This means that the following list pages can be used for ad-hoc analysis of sales processes:
-- **General Ledger Entries**
-- **Customer Ledger Entries**
-- **Item Ledger Entries**
-- **Posted Invoices**
+- General Ledger Entries
+- Customer Ledger Entries
+- Item Ledger Entries
+- Posted Invoices
+- Sales Return Orders
 
 
 ## Sales ad-hoc analysis scenarios
@@ -43,7 +44,6 @@ In the following sections, you'll find examples of usage scenarios within the sa
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
-
 | [Finance (Accounts Receivables)](#example-finance-accounts-receivables) | See what your customers owe you, for example, broken down into time intervals for when amounts are due. | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) | **Customer Name**, **Due Date**, and **Remaining Amount** |
 
 

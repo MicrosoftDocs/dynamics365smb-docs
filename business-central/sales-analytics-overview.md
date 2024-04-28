@@ -44,8 +44,8 @@ People in different roles have different needs when it comes to data, and they u
 
 | Role              | Data aggregation  | Typical ways to consume data                          | 
 |-------------------|-------------------| ----------------------------------------------------- |
-|CFO / CCO / CEO    | Performance data  | KPIs <br> Dashboards <br> Financial reports           |
-|Sales Management   | Trends, summaries | Built-in managerial reports <br> Ad-hoc analysis      | 
+|CCO / CFO / CEO    | Performance data  | KPIs <br> Dashboards <br> Financial reports           |
+|Sales Manager      | Trends, summaries | Built-in managerial reports <br> Ad-hoc analysis      | 
 |Account Manager / Sales Person | Detailed data     | Built-in operational reports <br> On-screen task data |
 
 <!-- 
@@ -57,16 +57,16 @@ A key performance indicator (KPI) is a measurable value that shows how effective
 -->
 
 
-## Using financial reporting to produce financial statements and KPIs (related to fixed assets)
+## Using financial reporting to produce financial statements and KPIs (related to sales)
 
-The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for asset management, you can setup financial reports on the general ledger (G/L) accounts that you use for tracking fixed assets postings.
+The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for sales management, you can setup financial reports on the general ledger (G/L) accounts that you use for tracking sales postings.
 
 Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Among other purposes, you use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
 
 For more information, see [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md).
 
 
-## Finance reporting across business units or legal entities (related to fixed assets)
+## Finance reporting across business units or legal entities (related to sales)
 
 Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that must report into parent organizations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company. Specifically for sales management, you might want to consolidate general ledger entries for your sales accounts to be able to track sales KPIs across business units or legal entities.
 
@@ -107,14 +107,20 @@ Built-in reports come in two flavors:
 - Designed for print (pdf).
 - Designed for analysis in Excel.
 
-For more information about reports that are relevant for fixed assets, see [Built-in sales reports](sales-reports.md).
+For more information about reports that are relevant for sales, see [Built-in sales reports](sales-reports.md).
 
 
 ## On-screen sales analytics
 
 [!INCLUDE [prod_short](includes/prod_short.md)] has a number of pages that give you sales overviews and tasks to do. Here are some examples to get you started:
 
-- TODO
+- [Open the **Sales Quotes** list](https://businesscentral.dynamics.com/?page=9300)
+- [Open the **Sales Orders** list](https://businesscentral.dynamics.com/?page=9305)
+- [Open the **Posted Sales Invoices** list](https://businesscentral.dynamics.com/?page=143)
+- [Open the **Sales Return Orders** list](https://businesscentral.dynamics.com/?page=9304)
+- [Calculate order promising dates](sales-how-to-calculate-order-promising-dates.md)
+- [Calculate delivery dates for sales orders](sales-date-calculation-for-sales.md)
+- [Track packages](sales-how-track-packages.md)
 
 
 ### Show general ledger entries and balances from the Chart of Accounts page (related to sales)

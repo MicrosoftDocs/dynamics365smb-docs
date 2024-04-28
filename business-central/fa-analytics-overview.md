@@ -120,6 +120,7 @@ For more information about reports that are relevant for fixed assets, see [Buil
 
 [!INCLUDE [prod_short](includes/prod_short.md)] has a number of pages that give you fixed assets overviews and tasks to do. Here are some examples to get you started:
 
+- [Calculate depreciation, post depreciation, and analyze depreciation](fa-how-depreciate-amortize.md)
 - [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
 - [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
 - [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)

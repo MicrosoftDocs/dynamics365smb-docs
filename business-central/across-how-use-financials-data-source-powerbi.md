@@ -147,6 +147,15 @@ There are a couple ways to get reports to your coworkers and others:
 
     If you have a Power BI Pro license, you can share the report to others, directly from your Power BI service. For more information, see [Power BI - Share a dashboard or report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
+## How to develop cross-company or cross-environment Power BI reports
+
+The [!INCLUDE[prod_short](includes/prod_short.md)] API endpoints all have the prefix `https://api.businesscentral.dynamics.com/v2.0/<environment_name>/api/v2.0` and then followed by `/companies({company_id})/accounts({id})` (here we use the `accounts` API as an illustration). You can utilize this to create PowerQuery queries that load data for multiple companies or maybe even multiple environments (if the user reading data has access to them).
+
+To do this, do as follows:
+1. Take the PowerQuery query that loads data for a single company. Convert it to a custom Power Query function that takes company id (or maybe even environment name) as parameters. See how to do this here: [Using custom Power Query functions](/power-query/custom-function).
+1. Now use the new custom function in a PowerQuery query, where you map the function over a list of companies and then merge the datasets using the [Table.Combine](/powerquery-m/table-combine) Power Query function.
+
+
 ## Fixing problems
 
 ### "Can't insert a record. Current connection intent is Read-Only." error connecting to custom API page

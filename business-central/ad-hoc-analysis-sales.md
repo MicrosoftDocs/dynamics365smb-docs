@@ -1,6 +1,6 @@
 ---
 title: Ad-hoc analysis of sales data
-description: Business Central contains many features to help you gather, analyze, and share valuable Sales data for business intelligence and decision-making.
+description: Learn how to use the data analysis mode in Business central to analyze sales data.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -25,7 +25,7 @@ When you have entered all the information on a sales order and added all the lin
 - For each sales order, a sales entry is created in the **G/L Entry** table. An entry is also created in the customer's account in the **Cust. Ledger Entry** table and a general ledger entry is created in the relevant receivables account. In addition, posting the order might result in a VAT entry and a general ledger entry for the discount amount. 
 - For each sales order line, an item ledger entry will be created in the **Item Ledger Entry** table (if the sales lines contain item numbers) or a general ledger entry will be created in the **G/L Entry** table (if the sales lines contain a general ledger account). In addition to this, sales orders are always recorded in the **Sales Shipment Header** and **Sales Invoice Header** tables.
 
-For more information, see [Posting sales](ui-post-sales).
+For more information, see [Posting sales](ui-post-sales.md).
 
 
 This means that the following list pages can be used for ad-hoc analysis of sales processes:
@@ -61,8 +61,9 @@ To see what your customers owe you, maybe broken down into time intervals for wh
 
 ## See also
 
+[Posting sales](ui-post-sales.md)  
+[Analyze list and query data with analysis mode](analysis-mode.md)   
 [Sales analytics overview](sales-analytics-overview.md)   
-[Analyze list and query data with analysis mode](analysis-mode.md)  
 [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)   
 [Sales overview](sales-manage-sales.md)   
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

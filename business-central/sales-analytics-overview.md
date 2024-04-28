@@ -1,6 +1,6 @@
 ---
 title: Sales Analytics in Business Central
-description: Business Central contains many features to help you gather, analyze, and share valuable Sales data for business intelligence and decision-making.
+description: Business Central contains many features to help you gather, analyze, and share valuable sales data for business intelligence and decision-making within the sales organization.
 author: kennienp
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -100,7 +100,7 @@ For more information on how to do ad-hoc analysis on sales data, see [Ad-hoc ana
 
 To get an overview of available reports, you can click **All reports** on the top pane of your home page. This takes you to the Role explorer, which is filtered to the features in the **Report & Analysis** option. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md). 
 
-:::image type="content" source="media/report-explorer-fixed-assets.png" alt-text="Example of reports on the finance role centre." lightbox="media/report-explorer-fixed-assets.png":::
+:::image type="content" source="media/report-explorer-sales.png" alt-text="Example of reports on the finance role centre." lightbox="media/report-explorer-sales.png":::
 
 Built-in reports come in two flavors:
 

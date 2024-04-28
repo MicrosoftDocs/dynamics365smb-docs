@@ -63,6 +63,8 @@ To produce an overview of the customers that purchase the most or that owe the m
 1. If you want to restrict the analysis to a given year/quarter, apply a filter in the *Additional Filters* menu (to the right, just below the **Columns** menu.) 
 1. Rename your analysis tab to "Customer by sales volume" or something that describes this analysis for you. 
 
+By following these steps, you should see something similar to this:
+
 :::image type="content" source="media/data-analysis-customer-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-customer-ledger-entries.png":::
 
 

@@ -1,40 +1,40 @@
 ---
-title: Sales Analytics in Business Central
+title: Sales analytics
 description: Business Central contains many features to help you gather, analyze, and share valuable sales data for business intelligence and decision-making within the sales organization.
 author: kennienp
-ms.author: kepontop
+ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI
-#TODO ms.search.form: 103, 108, 198, 490
+ms.search.form: 516, 9300, 5119, 9301, 9305
 ms.date: 04/28/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Sales Analytics in Business Central
+# Sales analytics
 
-Businesses capture a tremendous amount of data during daily activities that's supports valuable business intelligence (BI) for sales managers: 
+Businesses capture lots of data during daily activities that supports business intelligence (BI) for sales managers:
 
 - Opportunities
-- Sales Quotes
-- Sales Orders
-- Sales Invoices
+- Sales quotes
+- Sales orders
+- Sales invoices
 
-[!INCLUDE[prod_short](includes/prod_short.md)] contains many features to help you gather, analyze, and share your organization's fixed sales data:
+[!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you gather, analyze, and share your organization's sales data:
 
 - Ad-hoc analysis on lists
-- Ad-hoc analysis of data in Excel (using open in Excel)
+- Ad-hoc analysis of data in Excel (using Open in Excel)
 - Built-in sales analytics tools
 - Built-in sales reports
 
-Each of these features has its own advantages and disadvantages, depending on the type of data analysis and the role of the user. To learn more, go to [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md).
+Each of these features has its advantages and disadvantages, depending on the type of data analysis and the role of the user. To learn more, go to [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md).
 
-This article introduces you can use these analytical features to provide sales insights.
+This article introduces how you can use these analytical features to gain sales insights.
 
 ## Analytics needs in sales
 
-When thinking of analytics needs in sales management, it might help to use a mental model based on personas described on a high-level and their different analytics needs.
+When you think about the analytics needs in sales management, it might help to use a persona-based model that describes different analytics needs a high-level.
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg" alt-text="Illustration of different personas for analytics" lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg":::
 
@@ -56,22 +56,19 @@ A key performance indicator (KPI) is a measurable value that shows how effective
 - TODO  
 -->
 
+## Use financial reporting to produce financial statements and KPIs related to sales
 
-## Using financial reporting to produce financial statements and KPIs (related to sales)
+The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for sales management, you can set up financial reports on the general ledger (G/L) accounts that you use to track sales postings.
 
-The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for sales management, you can setup financial reports on the general ledger (G/L) accounts that you use for tracking sales postings.
+Dimensions play an important role in business intelligence. A dimension is data that you add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, products, and salesperson. Among other purposes, use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
 
-Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Among other purposes, you use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
+To learn more about financial reports, go to [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md).
 
-For more information, see [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md).
+## Finance reporting across business units or legal entities related to sales
 
-
-## Finance reporting across business units or legal entities (related to sales)
-
-Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that must report into parent organizations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company. Specifically for sales management, you might want to consolidate general ledger entries for your sales accounts to be able to track sales KPIs across business units or legal entities.
+Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that report to parent organizations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company. Specifically for sales management, you might want to consolidate general ledger entries for your sales accounts to be able to track sales KPIs across business units or legal entities.
 
 To learn more, go to [Company consolidation](finance-consolidated-company-reporting.md).
-
 
 ## Ad-hoc analysis of sales data
 
@@ -80,7 +77,7 @@ Sometimes, you just need to check whether the numbers add up correctly, or quick
 - Data analysis on ledger list pages
 - Open in Excel
 
-The Data analysis feature lets you open almost a list page, such as **General Ledger Entries**, **Customer Ledger Entries**, **Item Ledger Entries**, or **Posted Invoices**, enter analysis mode, and then group, filter, and pivot data as you see fit.
+The Data Analysis feature lets you open almost any list page, such as **General Ledger Entries**, **Customer Ledger Entries**, **Item Ledger Entries**, or **Posted Invoices**, enter analysis mode, and then group, filter, and pivot data as you see fit.
 
 :::image type="content" source="media/data-analysis-customer-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-customer-ledger-entries.png":::
 
@@ -89,30 +86,28 @@ Similarly, you can use the **Open in Excel** action to open a list page, optiona
 :::image type="content" source="media/open-in-excel-customer-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries data using Excel." lightbox="media/open-in-excel-customer-ledger-entries.png":::
 
 > [!TIP]
-> If you configure OneDrive for system features, the Excel workbook opens in your browser by using Excel for the web. 
+> If you configure OneDrive for system features, the Excel workbook opens in your browser.
 
-For more information on how to do ad-hoc analysis on sales data, see [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md). 
-
+To learn more about how to do ad-hoc analysis on sales data, go to [Ad hoc analysis of sales data](ad-hoc-analysis-sales.md). 
 
 ## Built-in reports for sales
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help sales organizations report on their data.
 
-To get an overview of available reports, you can click **All reports** on the top pane of your home page. This takes you to the Role explorer, which is filtered to the features in the **Report & Analysis** option. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md). 
+To get an overview of available reports, choose **All reports** on the top pane of your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md). 
 
-:::image type="content" source="media/report-explorer-sales.png" alt-text="Example of reports on the finance role centre." lightbox="media/report-explorer-sales.png":::
+:::image type="content" source="media/report-explorer-sales.png" alt-text="Example of reports on the finance role center." lightbox="media/report-explorer-sales.png":::
 
-Built-in reports come in two flavors:
+The built-in reports come in two flavors:
 
 - Designed for print (pdf).
 - Designed for analysis in Excel.
 
-For more information about reports that are relevant for sales, see [Built-in sales reports](sales-reports.md).
-
+To learn more about reports that are relevant for sales, go to [Built-in sales reports](sales-reports.md).
 
 ## On-screen sales analytics
 
-[!INCLUDE [prod_short](includes/prod_short.md)] has a number of pages that give you sales overviews and tasks to do. Here are some examples to get you started:
+[!INCLUDE [prod_short](includes/prod_short.md)] has several pages that give you sales overviews and tasks to do. Here are some examples to get you started:
 
 - [Open the **Sales Quotes** list](https://businesscentral.dynamics.com/?page=9300)
 - [Open the **Sales Orders** list](https://businesscentral.dynamics.com/?page=9305)
@@ -122,10 +117,9 @@ For more information about reports that are relevant for sales, see [Built-in sa
 - [Calculate delivery dates for sales orders](sales-date-calculation-for-sales.md)
 - [Track packages](sales-how-track-packages.md)
 
+### Show sales-related general ledger entries and balances from the Chart of Accounts page
 
-### Show general ledger entries and balances from the Chart of Accounts page (related to sales)
-
-The Chart of Accounts page shows all general ledger accounts with aggregated numbers on what's posted to the general ledger. From this page, you can do things like:  
+The Chart of Accounts page shows all general ledger accounts with aggregated numbers posted to the general ledger. From this page, you can do things like:  
 
 - View reports that show general ledger entries and balances.  
 - Review a list of posting groups for that account.
@@ -137,22 +131,20 @@ Specifically for sales, you can create a view on the Chart of Accounts page that
 
 To learn more, go to [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts).
 
-
 ### Analyze data by dimensions (related to sales)
 
 Dimensions are values that categorize entries so you can track and analyze them on documents, such as sales orders. Dimensions can, for example, indicate the project or department an entry came from.  
 
 So, instead of setting up separate general ledger accounts for each department or location, you can use dimensions as a basis for analysis and avoid having to create a complicated chart of accounts structure.
 
-For more information, see [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
-
+To learn more, go to [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md).
 
 ## See also
 
 [Company consolidation](finance-consolidated-company-reporting.md)   
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
 [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
-[Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)   
+[Ad hoc analysis of sales data](ad-hoc-analysis-sales.md)   
 [Built-in sales reports](sales-reports.md)   
 [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
 [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  

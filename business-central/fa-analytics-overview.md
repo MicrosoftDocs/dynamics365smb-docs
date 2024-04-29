@@ -1,27 +1,27 @@
 ---
-title: Fixed Assets Analytics in Business Central
-description: Business Central contains many features to help you gather, analyze, and share valuable Fixed Assets data for business intelligence and decision-making.
+title: Fixed assets analytics
+description: Learn how to gather, analyze, and share data about fixed assets for business intelligence.
 author: brentholtorf
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI
-#TODO ms.search.form: 103, 108, 198, 490
+ms.search.form: 5601, 5600, 5615, 5616, 5617
 ms.date: 04/27/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Fixed Assets Analytics in Business Central
+# Fixed assets analytics
 
-Businesses with fixed assets capture a tremendous amount of data during daily activities that's supports valuable business intelligence (BI) for fixed assets managers: 
+Businesses with fixed assets capture a lot of data about them during daily activities. That data supports valuable business intelligence (BI) for fixed assets managers:
 
 - Asset acquisitions
 - Asset deprecations
 - Insurance and repairs
 - Asset budgets
 
-[!INCLUDE[prod_short](includes/prod_short.md)] contains many features to help you gather, analyze, and share your organization's fixed assets data:
+[!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you gather, analyze, and share data about your organization's fixed assets:
 
 - Financial reporting (for financial statements and KPIs on fixed assets accounts)
 - Ad-hoc analysis on lists
@@ -30,20 +30,19 @@ Businesses with fixed assets capture a tremendous amount of data during daily ac
 - Built-in fixed assets reports
 
 > [!NOTE]
-> Analytics for Fixed Assets is a little different than other areas in the sense that you both have a need for analyzing the data that is already present in the Fixed Assets tables in [!INCLUDE[prod_short](includes/prod_short.md)], such as asset acquisitions, deprecations, and insurance, but also calculated data for future data, such as future depreciation entries and/or asset retirements. For the latter type of analysis, [!INCLUDE[prod_short](includes/prod_short.md)] has built-in reports that can calculate these numbers.
+> Analytics for fixed assets is a little different than other areas. You need to analyze data that's already present, such as asset acquisitions, deprecations, and insurance, but also data about future, such as depreciations and asset retirements. For the latter type of analysis, [!INCLUDE[prod_short](includes/prod_short.md)] has built-in reports that can calculate these numbers.
 
+Each feature has its advantages and disadvantages, depending on the type of data analysis and the role of the user. To learn more, go to [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md).
 
-Each of these features has its own advantages and disadvantages, depending on the type of data analysis and the role of the user. To learn more, go to [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md).
-
-This article introduces you can use these analytical features to provide fixed assets insights.
+This article describes ways use these analytical features to get insights into your fixed assets.
 
 ## Analytics needs in asset management
 
-When thinking of analytics needs in asset management, it might help to use a mental model based on personas described on a high-level and their different analytics needs.
+When thinking of analytics needs in asset management, it might help to use a persona-based model that describes their analytics needs at a high-level.
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg" alt-text="Illustration of different personas for analytics" lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg":::
 
-People in different roles have different needs when it comes to data, and they use the data in different ways. For example, people in asset management and finance interact with data differently than people in sales.
+When it comes to data, people in different roles have different needs, and they use the data in different ways. For example, people in asset management and finance interact with data differently than people in sales.
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg" alt-text="Illustration of how different personas have different analytics needs." lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg":::
 
@@ -60,22 +59,19 @@ A key performance indicator (KPI) is a measurable value that shows how effective
 - Total Asset Turnover
 - Return on Assets
 
+## Use financial reporting to produce financial statements and KPIs related to fixed assets
 
-## Using financial reporting to produce financial statements and KPIs (related to fixed assets)
+The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for asset management, you can set up financial reports on the general ledger (G/L) accounts that you use to track fixed assets postings.
 
-The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for asset management, you can setup financial reports on the general ledger (G/L) accounts that you use for tracking fixed assets postings.
+Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, products, and salesperson, and easily retrieve these groups for analysis. Among other purposes, you use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
 
-Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Among other purposes, you use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
-
-For more information, see [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md).
-
+To learn more about financial reporting, go to [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md).
 
 ## Finance reporting across business units or legal entities (related to fixed assets)
 
-Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that must report into parent organizations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company. Specifically for asset management, you might want to consolidate general ledger entries for your fixed assets accounts to be able to track fixed assets KPIs across business units or legal entities.
+Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries report to parent organizations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company. Specifically for asset management, you might want to consolidate general ledger entries for your fixed assets accounts to be able to track fixed assets KPIs across business units or legal entities.
 
 To learn more, go to [Company consolidation](finance-consolidated-company-reporting.md).
-
 
 ## Ad-hoc analysis of fixed assets data
 
@@ -84,7 +80,7 @@ Sometimes, you just need to check whether the numbers add up correctly, or quick
 - Data analysis on ledger list pages
 - Open in Excel
 
-The Data analysis feature lets you open almost a list page, such as *General Ledger Entries* or *Fixed Asset Ledger Entries*, enter analysis mode, and then group, filter, and pivot data as you see fit.
+The data analysis feature lets you open almost any list page, such as **General Ledger Entries** or **Fixed Asset Ledger Entries**, enter analysis mode, and then group, filter, and pivot data as you see fit.
 
 :::image type="content" source="media/data-analysis-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries page." lightbox="media/data-analysis-gl-entries.png":::
 
@@ -99,14 +95,13 @@ Similarly, you can use the **Open in Excel** action to open a list page for ledg
 For more information on how to do ad-hoc analysis on ledgers, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md). 
 -->
 
-
 ## Built-in reports for fixed assets
 
-[!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help auditors or controllers who are responsible for reporting on fixed assets.
+[!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help auditors or controllers who report on fixed assets.
 
-To get an overview of available reports, you can click **All reports** on the top pane of your home page. This takes you to the Role explorer, which is filtered to the features in the **Report & Analysis** option. To find reports related to fixed assets, enter **fixed assets** in the Find field. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md). 
+To get an overview of available reports, choose **All reports** at the top of your Home page. This action opens the Role Explorer page, which is filtered to the features in the **Report & Analysis** option. To find reports related to fixed assets, in the **Find** field, enter **fixed assets**. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
 
-:::image type="content" source="media/report-explorer-fixed-assets.png" alt-text="Example of reports on the finance role centre." lightbox="media/report-explorer-fixed-assets.png":::
+:::image type="content" source="media/report-explorer-fixed-assets.png" alt-text="Example of reports on the finance role center." lightbox="media/report-explorer-fixed-assets.png":::
 
 <!-- Built-in reports come in two flavors:
 
@@ -115,10 +110,9 @@ To get an overview of available reports, you can click **All reports** on the to
 
 For more information about reports that are relevant for fixed assets, see [Built-in fixed assets reports](fa-reports.md).
 
-
 ## On-screen fixed assets analytics
 
-[!INCLUDE [prod_short](includes/prod_short.md)] has a number of pages that give you fixed assets overviews and tasks to do. Here are some examples to get you started:
+[!INCLUDE [prod_short](includes/prod_short.md)] has several pages that give you fixed assets overviews and tasks to do. Here are some examples to get you started:
 
 - [Calculate depreciation, post depreciation, and analyze depreciation](fa-how-depreciate-amortize.md)
 - [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
@@ -127,10 +121,9 @@ For more information about reports that are relevant for fixed assets, see [Buil
 - [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 - [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 
+### Show fixed asset general ledger entries and balances from the Chart of Accounts page
 
-### Show general ledger entries and balances from the Chart of Accounts page (related to fixed assets)
-
-The Chart of Accounts page shows all general ledger accounts with aggregated numbers on what's posted to the general ledger. From this page, you can do things like:  
+The Chart of Accounts page shows all general ledger accounts with aggregated numbers in the general ledger. From this page, you can do things like:  
 
 - View reports that show general ledger entries and balances.  
 - Review a list of posting groups for that account.
@@ -142,15 +135,13 @@ Specifically for fixed assets, you can create a view on the Chart of Accounts pa
 
 To learn more, go to [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts).
 
-
 ### Analyze data by dimensions (related to fixed assets)
 
 Dimensions are values that categorize entries so you can track and analyze them on documents, such as FA journals. Dimensions can, for example, indicate the department or location an entry came from.  
 
 So, instead of setting up separate general ledger accounts for each department or location, you can use dimensions as a basis for analysis and avoid having to create a complicated chart of accounts structure.
 
-For more information, see [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
-
+To learn more, go to [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)
 
 ## See also
 
@@ -158,7 +149,7 @@ For more information, see [Analyze Data by Dimensions](bi-how-analyze-data-dimen
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
 [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
 [Built-in fixed assets reports](fa-reports.md)  
-[Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)   
+[Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

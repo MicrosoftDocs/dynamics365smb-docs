@@ -42,9 +42,9 @@ People in different roles have different needs when it comes to data, and they u
 
 | Role              | Data aggregation  | Typical ways to consume data                          | 
 |-------------------|-------------------| ----------------------------------------------------- |
-|COO / CFO / CEO    | Performance data  | KPIs <br> Dashboards <br> Financial reports           |
+|COO / CSO / CFO / CEO    | Performance data  | KPIs <br> Dashboards <br> Financial reports           |
 |Purchasing Manager      | Trends, summaries | Built-in managerial reports <br> Ad-hoc analysis      | 
-|**WHO IS THIS** | Detailed data     | Built-in operational reports <br> On-screen task data |
+|Purchasing Officer / Purchasing Agent | Detailed data     | Built-in operational reports <br> On-screen task data |
 
 <!-- 
 ## Purchasing KPIs

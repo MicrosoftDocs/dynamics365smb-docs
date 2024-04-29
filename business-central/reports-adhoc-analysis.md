@@ -18,7 +18,6 @@ Sometimes you need to analyze data in [!INCLUDE[prod_short](includes/prod_short.
 | Learn how to analyze data simply by using using Sorting, Searching, and Filtering operations. | [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md) and [Searching and Filtering FAQ](ui-search-filter-faq.yml) |
 | View and analyze data from a page in Microsoft Excel | [View and Edit in Excel](across-work-with-excel.md) |
 | View and analyze data from a report dataset in Excel | [ Analyzing Report Data with Excel and XML](report-analyze-excel.md) |
-| View and analyze financial data using financial reports | [Financial analytics](bi.md) |
 | Analyze list data directly from a page |[Analyze list data using data analysis mode](analysis-mode.md)|
 
 ## See also

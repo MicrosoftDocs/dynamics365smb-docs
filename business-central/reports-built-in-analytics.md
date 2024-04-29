@@ -16,15 +16,12 @@ ms.service: dynamics-365-business-central
 
 | To | See |
 | --- | --- |
-|Get an overview of KPIs such as cash availability, sales profitability, net income, or inventory value | [Intelligent Insights](about-intelligent-cloud.md) |
 |Analyze data with built-in Power BI reports. | [Work with Power BI Reports](across-working-with-powerbi.md) |
-|Analyze financial data in real-time using financial reports and analysis views.| [Financial analytics](bi.md) |
-|Analyze financial statements With Excel | [Analyze Financial Statements With Excel](finance-analyze-excel.md) |
-|Analyze financial data across multiple companies | [Consolidate Financial Data from Multiple Companies](finance-consolidated-company-reporting.md) |
 |Get insight into which reports users use| [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
 ## See also
 
-[Business Intelligence and Reporting Overview](reports-use-reports.md)
+[Analytics overview](reports-bi-reporting.md)
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

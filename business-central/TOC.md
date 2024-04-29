@@ -1805,6 +1805,20 @@ ms.service: dynamics-365-business-central
 ## [Using key performance indicators (KPIs) to meet your business goals](./analytics-about-kpis.md)
 ## [Using financial reporting](bi-how-work-account-schedule.md)
 
+## Ad-hoc data analysis
+### [Overview](reports-adhoc-analysis.md)
+### [Sort, search, and filter](ui-enter-criteria-filters.md)
+### [Search and filter FAQ](ui-search-filter-faq.yml)
+### [Analyze page data in Excel](across-work-with-excel.md)
+### [Analyze report data with Excel](report-analyze-excel.md)
+### [Analyze list and query data with analysis mode](analysis-mode.md)
+
+## Built-in analytics tools
+### [Overview](reports-built-in-analytics.md)
+### [Work with Power BI reports](across-working-with-powerbi.md)
+### [Intelligent insights (on-premises)](about-intelligent-cloud.md)
+### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
 ## Use reports in daily work
 ### [Overview](reports-use-reports.md)
 ### [Run reports](ui-work-report.md)
@@ -1874,33 +1888,6 @@ ms.service: dynamics-365-business-central
 #### [Service quotes overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Posted service document overview](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
-## Ad-hoc data analysis
-### [Overview](reports-adhoc-analysis.md)
-### [Sort, search, and filter](ui-enter-criteria-filters.md)
-### [Search and filter FAQ](ui-search-filter-faq.yml)
-### [Analyze page data in Excel](across-work-with-excel.md)
-### [Analyze report data with Excel](report-analyze-excel.md)
-### [Analyze list and query data with analysis mode](analysis-mode.md)
-### [Financial business intelligence](bi.md)
-
-## Built-in analytics 
-### [Overview](reports-built-in-analytics.md)
-### [Intelligent insights](about-intelligent-cloud.md)
-### [Work with Power BI reports](across-working-with-powerbi.md)
-### [Financial business intelligence](bi.md)
-### [Analyze financial statements with excel](finance-analyze-excel.md)
-### [Consolidate financial data from multiple companies](finance-consolidated-company-reporting.md)
-### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-
-
-## Analyze data in business intelligence tools
-### [Overview](reports-external-analysis.md)
-### [Microsoft Fabric and Business Central](admin-fabric.md)
-### [Use Power BI with Business Central](admin-powerbi.md)
-### [Analyze financial statements with Excel](finance-analyze-excel.md)
-### [Extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
-### [Read data with the Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
 ## Develop reports
 ### [Overview](reports-develop-reports.md)
 ### Develop report layouts
@@ -1918,6 +1905,16 @@ ms.service: dynamics-365-business-central
 ### Develop report datasets
 #### [Report development guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Report performance tuning guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+## Analyze data in business intelligence tools
+### [Overview](reports-external-analysis.md)
+### [Microsoft Fabric and Business Central](admin-fabric.md)
+### [Use Power BI with Business Central](admin-powerbi.md)
+### [Analyze financial statements with Excel](finance-analyze-excel.md)
+### [Extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Read data with the Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+
 
 # Security, privacy, and compliance
 ## Security and protection

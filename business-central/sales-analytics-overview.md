@@ -34,7 +34,7 @@ This article introduces how you can use these analytical features to gain sales 
 
 ## Analytics needs in sales
 
-When you think about the analytics needs in sales management, it might help to use a persona-based model that describes different analytics needs a high-level.
+When you think about the analytics needs in sales management, it might help to use a persona-based model that describes different analytics needs at a high-level.
 
 :::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg" alt-text="Illustration of different personas for analytics" lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas.svg":::
 

@@ -196,7 +196,7 @@ After you’ve prepared an analysis on a tab, you can share it as a link with co
    ![Shows the copy link dialog for an analysis tab](media/analysis-link-copied.svg)
 
 1. Select **Copy**.
-1. Paste the link into the communication media of your choice, like Word, Outlook, Teams, OneNote, and so one. 
+1. Paste the link into the communication media of your choice, like Word, Outlook, Teams, OneNote, and so on. 
 1. Once received, recipients can then select the link and open the analysis for the page or query in Business Central. They're prompted to specify a name for the new analysis tab that will be created.  
 
 ## Examples of how to analyze data

@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 04/24/2024
+ms.date: 04/29/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: 456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311
@@ -109,7 +109,7 @@ The **Columns** is one of two panes that work together to define your analysis. 
 |Row groups|Use this area to group and sum data by one or more fields. You can only include non-numeric fields, like text, date and time fields. Row groups are used often in pivot mode.|
 |Values|Use this area to specify fields that you want a sum total for. You can only include fields that contain numbers that can be added together; for example, not text, date, or time fields.|
 
-To move a field from one area to another, select the grab icon ![Shows an overview of a page on the analysis mode](media/column-grab-icon.png) next to the column in the list and drag into the target area. You're prevented from moving a field into an area where's it's not allowed.
+To move a field from one area to another, select the grab icon ![Shows the button for grabbing a field in the analysis mode](media/column-grab-icon.png) next to the column in the list and drag into the target area. You're prevented from moving a field into an area where's it's not allowed.
 
 ### Analysis filters (4)
 

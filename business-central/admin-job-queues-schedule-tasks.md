@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.date: 09/15/2023
+ms.date: 04/29/2024
 ms.custom: bap-template
 ms.search.form: 672, 673, 674, 671
 ms.service: dynamics-365-business-central
@@ -24,19 +24,7 @@ The Job Queue Entries page lists all existing jobs. If you add a new job queue e
 > [!IMPORTANT]  
 > If you're assigned the SUPER permissions set that comes with [!INCLUDE[prod_short](includes/prod_short.md)], you have permission to run all objects included in your license. If you have the Delegated Admin role, you can create and schedule job queue entries, but only administrators and licensed users can run them.
 
-After job queues are set up and running, the status can change as follows within each recurring period:
-
-* **On Hold**  
-* **Ready**  
-* **In Process**  
-* **Error**  
-* **Finished**  
-* **On Hold Due to Inactivity**
-
-> [!NOTE]
-> The **On Hold Due to Inactivity** status is used primarily for job queue entries that schedule synchronization between [!INCLUDE [prod_short](includes/prod_short.md)] and another application, such as [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. To learn more about this status, go to [About inactivity timeouts](/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries#about-inactivity-timeouts).
-
-After a job finishes successfully it's removed from the list of job queue entries, unless it's a recurring job. For recurring jobs, the **Earliest Start Time** field is adjusted to show the next time that the job will run. 
+After a job finishes successfully it's removed from the list of job queue entries, unless it's a recurring job. For recurring jobs, the **Earliest Start Time** field is adjusted to show the next time that the job will run.
 
 ## Important for scheduling recurring jobs
 
@@ -64,10 +52,12 @@ The following table describes the values of the **Status** field.
 | Ready | The job queue entry is ready to be run. |
 | In Process | The job queue entry is in process. This field updates while the job queue is running. |
 | On Hold | The default status of the job queue entry when it's created. Choose the **Set Status to Ready** action to change the status to **Ready**. Choose the **Set On Hold** action to revert the status to **On Hold**. For more information, refer to [About On Hold](#about-on-hold).|
+| On Hold Due to Inactivity | Used primarily for job queue entries that schedule synchronization between [!INCLUDE [prod_short](includes/prod_short.md)] and another application, such as [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. To learn more about this status, go to [About inactivity timeouts](/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries#about-inactivity-timeouts). |
+|Waiting | Only relevant for job queue entries that are assigned a category code. Indicates that the job is scheduled, but the underlying scheduled task isn't active. After the job queue entry that's currently running and is in the same category finishes, the status of next job in the category with the status Waiting will become Ready. |
 | Error | Something went wrong. Choose **Show Error** to show the error message. |
 | Finished | The job queue entry is complete. |
 
-> [!TIP]  
+ > [!TIP]  
 > Job queue entries stop running when there's an error. For example, this can be a problem when an entry connects to an external service, such as a bank feed. If the service is temporarily not available and the job queue entry can't connect, the entry will show an error and stop running. You'll have to manually restart the job queue entry. However, the **Maximum No. of Attempts** and **Rerun Delay (sec.)** fields can help you avoid this situation. The **Maximum No. of Attempts** field lets you specify how many times the job queue entry can fail before it stops trying to run. The **Rerun Delay (sec.)** field lets you specify the amount of time, in seconds, between attempts. The combination of these two fields might keep the job queue entry running until the external service becomes available.
 
 ### About On Hold

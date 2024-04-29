@@ -48,6 +48,7 @@ The following table contains a sequence of optional tasks to set up fixed assets
 ## See also
 
 [Fixed Assets overview](fa-manage.md)  
+[Fixed assets analytics overview](fa-analytics-overview.md)   
 [Finance](finance.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

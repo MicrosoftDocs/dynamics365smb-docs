@@ -18,6 +18,7 @@ In this article, you learn how to analyze purchasing data from list pages and qu
 
 The following list pages can be used for ad-hoc analysis of sales processes:
 - [Purchase Orders](https://businesscentral.dynamics.com/?page=9307)
+- [Purchase lines](https://businesscentral.dynamics.com/?page=518)
 - [Posted Purchase Invoices](https://businesscentral.dynamics.com/?page=146)
 - [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29)
 - [General Ledger Entries](https://businesscentral.dynamics.com/?page=20)
@@ -31,7 +32,23 @@ In the following sections, you'll find examples of usage scenarios within the pu
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Finance (Accounts Payable)](#example-finance-accounts-payable) | See what you owe your vendors, maybe broken down into time intervals for when amounts are due. | [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29) | **Vendor Name**, **Document Type**, and **Document No.**, **Due Date Year**, **Due Date Month**, and **Remaining Amount**. |
+| [GRNI overview](#example-goods-received-not-invoiced-grni-overview) | Get a Goods Received, Not Invoiced (GRNI) overview across vendors. | **Type**, **Amt. Rec. Not Invoiced (LCY)** (filter on these), **Vendor No.**, **Document No.**, **No.**, and **Amt. Rec. Not Invoiced (LCY)** (need to add this in a personalization) | 
+| [Finance (Accounts Payable)](#example-finance-accounts-payable) | See what you owe your vendors, maybe broken down into time intervals for when amounts are due. | [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29) | **Vendor Name**, **Document Type**, **Document No.**, **Due Date Year**, **Due Date Month**, and **Remaining Amount**. |
+
+
+## Example: Goods Received, Not Invoiced (GRNI) overview
+
+To see a Goods Received, Not Invoiced (GRNI) overview across vendors, do as follows:
+ 
+1. Open the [Purchase lines](https://businesscentral.dynamics.com/?page=518) list
+1. Add the field **Amount Received Not Invoiced** using personalization (in the very top menu to the right, go to Settings, Personlize). Exit personalization mode.
+1. Switch on the analysis mode.
+1. Go to the **Columns** menu and remove all columns (select the box next to the *Search* field).
+1. In the *Additional Filters* menu (to the right, just below the **Columns** menu), set filters on *Type = Item*, and *Amt. Rec. Not Invoiced (LCY) > 0*. 
+1. Now, drag the fields *Vendor No.*, *Document No.*, and *No.* (which is the item number) fields to the Row Groups area (in that order). 
+1. Finally, add *Amt. Rec. Not Invoiced (LCY)* to include it on the overview
+1. If you want to restrict the analysis to a given year/quarter, apply appropriate additional filters
+1. Rename your analysis tab to "Goods Received, Not Invoiced (GRNI)" or something that describes this analysis for you. 
 
 
 ## Example: Finance (Accounts Payable)

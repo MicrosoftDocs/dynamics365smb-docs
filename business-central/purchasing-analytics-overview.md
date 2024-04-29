@@ -91,7 +91,7 @@ Similarly, you can use the **Open in Excel** action to open a list page, optiona
 > [!TIP]
 > If you configure OneDrive for system features, the Excel workbook opens in your browser by using Excel for the web. 
 
-For more information on how to do ad-hoc analysis on sales data, see [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md). 
+For more information on how to do ad-hoc analysis on purchasing data, see [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md).
 
 
 ## Built-in reports for purchasing

@@ -100,7 +100,7 @@ For more information on how to do ad-hoc analysis on purchasing data, see [Ad-ho
 
 To get an overview of available reports, you can click **All reports** on the top pane of your home page. This takes you to the Role explorer, which is filtered to the features in the **Report & Analysis** option. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md). 
 
-:::image type="content" source="media/report-explorer-sales.png" alt-text="Example of reports on the XXX role centre." lightbox="media/report-explorer-sales.png":::
+:::image type="content" source="media/report-explorer-purchasing.png" alt-text="Example of reports on the XXX role centre." lightbox="media/report-explorer-purchasing.png":::
 
 <!-- Built-in reports come in two flavors:
 

@@ -478,7 +478,6 @@ ms.service: dynamics-365-business-central
 #### [Set up and publish a KPI web service based on financial reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
 #### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
-#### [Create analysis reports](bi-how-create-analysis-views-reports.md)
 
 <!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
 
@@ -496,7 +495,12 @@ ms.service: dynamics-365-business-central
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
-### [Sales reports](sales-reports.md)
+### Sales analytics 
+#### [Sales analytics overview](sales-analytics-overview.md)
+#### [Create sales analysis reports](bi-how-create-analysis-views-reports.md)
+#### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
+#### [Built-in sales reports](sales-reports.md)
+
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
 ### [Walkthrough: Set up and Invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Register new customers](sales-how-register-new-customers.md)
@@ -581,9 +585,18 @@ ms.service: dynamics-365-business-central
 
 ## Fixed assets
 ### [Fixed assets overview](fa-manage.md)
+### Fixed assets analytics
+#### [Fixed assets analytics overview](fa-analytics-overview.md)
+#### Built-in fixed assets analytics tools
+##### [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
+##### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+##### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+#### [Built-in fixed assets reports](fa-reports.md)
 ### [Set up fixed assets](fa-setup.md)
 ### [Depreciation methods](fa-depreciation-methods.md)
-### [Fixed assets reports and analytics](fa-reports.md)
+### [Manage budgets for fixed assets](fa-how-manage-budgets.md)
 ### [Acquire fixed assets](fa-how-acquire.md)
 ### [Maintain fixed assets](fa-how-maintain.md)
 ### [Insure fixed assets](fa-how-insure.md)
@@ -591,8 +604,8 @@ ms.service: dynamics-365-business-central
 ### [Revalue fixed assets](fa-how-revalue.md)
 ### [Depreciate or amortize fixed assets](fa-how-depreciate-amortize.md)
 ### [Dispose of or retire fixed assets](fa-how-dispose-retire.md)
-### [Manage budgets for fixed assets](fa-how-manage-budgets.md)
 ### [Troubleshooting FA ledger entries](fa-troubleshooting-fa-ledger-entries.md)
+
 
 ## Relationship management
 ### [Relationship management overview](marketing-relationship-management.md)

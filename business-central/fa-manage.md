@@ -53,20 +53,22 @@ The following table describes a sequence of tasks, with links to the articles th
 | To  | See |
 | --- | --- |
 | Set up prerequisites for using the fixed assets feature (defining default values, fixed asset accounting, posting groups, allocation keys, journals, and posting types). | [Setting Up Fixed Assets](fa-setup.md)|
+| Manage fixed asset budgets, budget acquisition costs, budget disposals of fixed assets, and budget depreciation. |[Manage Budgets for Fixed Assets](fa-how-manage-budgets.md) |
 | Create fixed assets, assign depreciation methods, post acquisitions, salvage values, and print fixed asset lists. |[Acquire Fixed Assets](fa-how-acquire.md) |
+| Learn about different fixed asset depreciation methods. |[Depreciation Methods](fa-depreciation-methods.md) |
+| Calculate depreciation, post depreciation, and analyze depreciation in fixed assets reports. |[Depreciate or Amortize Fixed Assets](fa-how-depreciate-amortize.md) |
+| Learn more about built-in reporting and analytics capabilities for fixed assets. | [Fixed assets analytics overview](fa-analytics-overview.md) |
 | Record service visits, post maintenance costs, and monitor maintenance costs. |[Maintain Fixed Assets](fa-how-maintain.md) |
 | Update insurance information, post acquisition costs to insurance policies, modify insurance coverage, view insurance statistics, and list insurance policies. |[Insure Fixed Assets](fa-how-insure.md) |
 | Reclassify fixed assets, transfer fixed assets to different locations, split up or combine assets. |[Transfer, Split, or Combine Fixed Assets](fa-how-trans-split-combine.md) |
 | Adjust values of fixed assets, post appreciation, and post write-down transactions. |[Revalue Fixed Assets](fa-how-revalue.md) |
-| Calculate depreciation, post depreciation, and  analyze depreciation in fixed assets reports. |[Depreciate or Amortize Fixed Assets](fa-how-depreciate-amortize.md) |
-| Learn about different fixed asset depreciation methods. |[Depreciation Methods](fa-depreciation-methods.md) |
 | Post disposal transactions, view disposal ledger entries, and post partial disposals. |[Dispose of or Retire Fixed Assets](fa-how-dispose-retire.md) |
-| Manage fixed asset budgets, budget acquisition costs, budget disposals of fixed assets, and budget depreciation. |[Manage Budgets for Fixed Assets](fa-how-manage-budgets.md) |
-| Learn more about built-in reporting and analytics capabilities for fixed assets. | [Fixed assets reports and analytics](fa-reports.md) |
+
 
 ## See also
 
 [Setting Up Fixed Assets](fa-setup.md)  
+[Fixed assets analytics overview](fa-analytics-overview.md)   
 [Finance overview](finance.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

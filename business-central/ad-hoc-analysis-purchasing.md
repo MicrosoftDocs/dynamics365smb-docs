@@ -48,7 +48,8 @@ To see what you owe your vendors, maybe broken down into time intervals for when
 
 After doing these steps, you should see something like this:
 
-:::image type="content" source="media/data-analysis-vendor-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-vendor-entries.png":::
+:::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries.png":::
+
 
 ## Data foundation for ad-hoc analysis on purchasing
 

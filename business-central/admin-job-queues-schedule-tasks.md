@@ -53,7 +53,7 @@ The following table describes the values of the **Status** field.
 | In Process | The job queue entry is in process. This field updates while the job queue is running. |
 | On Hold | The default status of the job queue entry when it's created. Choose the **Set Status to Ready** action to change the status to **Ready**. Choose the **Set On Hold** action to revert the status to **On Hold**. For more information, refer to [About On Hold](#about-on-hold).|
 | On Hold Due to Inactivity | Used primarily for job queue entries that schedule synchronization between [!INCLUDE [prod_short](includes/prod_short.md)] and another application, such as [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. To learn more about this status, go to [About inactivity timeouts](/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries#about-inactivity-timeouts). |
-|Waiting | Only relevant for job queue entries that are assigned a category code. Indicates that the job is scheduled, but the underlying scheduled task isn't active. After the job queue entry that's currently running and is in the same category finishes, the status of next job in the category with the status Waiting will become Ready. |
+|Waiting | Only relevant for job queue entries that are assigned a category code. Indicates that the job is scheduled, but the underlying scheduled task isn't active. After the job queue entry that's currently running and is in the same category finishes, the status of the next job in the category with the status Waiting becomes Ready. |
 | Error | Something went wrong. Choose **Show Error** to show the error message. |
 | Finished | The job queue entry is complete. |
 

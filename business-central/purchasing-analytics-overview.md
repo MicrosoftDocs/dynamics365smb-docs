@@ -16,9 +16,9 @@ ms.custom: bap-template
 
 Businesses capture a tremendous amount of data during daily activities that's supports valuable business intelligence (BI) for purchasing managers: 
 
-- Purchasing Quotes???
-- Purchasing Orders
-- Purchasing Invoices
+- Purchase Quotes
+- Purchase Orders
+- Purchase Invoices
 
 [!INCLUDE[prod_short](includes/prod_short.md)] contains many features to help you gather, analyze, and share your organization's purchasing data:
 
@@ -80,7 +80,7 @@ Sometimes, you just need to check whether the numbers add up correctly, or quick
 
 The Data analysis feature lets you open almost a list page, such as **General Ledger Entries**, **Vendor Ledger Entries**, or **TODO**, enter analysis mode, and then group, filter, and pivot data as you see fit.
 
-:::image type="content" source="media/data-analysis-customer-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-customer-ledger-entries.png":::
+:::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
 Similarly, you can use the **Open in Excel** action to open a list page, optionally filter the list to a subset of the data, and then use Excel to work with the data. For example, by using features such as Analyze Data, What-If Analysis, or Forecast Sheet.
 
@@ -110,9 +110,10 @@ For more information about reports that are relevant for purchasing, see [Built-
 
 ## On-screen purchasing analytics
 
-[!INCLUDE [prod_short](includes/prod_short.md)] has a number of pages that give you sales overviews and tasks to do. Here are some examples to get you started:
+[!INCLUDE [prod_short](includes/prod_short.md)] has a number of pages that give you sales overviews and tasks to do. Here are an example to get you started:
 
-- TODO
+- [Calculate Dates for purchases](purchasing-date-calculation-for-purchases.md)
+
 
 ### Show general ledger entries and balances from the Chart of Accounts page (related to sales)
 

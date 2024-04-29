@@ -17,7 +17,11 @@ ms.custom: bap-template
 In this article, you learn how to analyze purchasing data from list pages and queries using the *data analysis* feature. With data analysis feature, you can analyze data directly from the page, without having to run a report or switch another application like Excel. It provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using different options and filters, you can add multiple tabs that represent different tasks or views on the data. Examples could be "My vendors", or "Purchasing statistics", or any other view you can imagine. For more information on how to use the *data analysis* feature, see [Analyze list and query data with analysis mode](analysis-mode.md).
 
 The following list pages can be used for ad-hoc analysis of sales processes:
-- TODO
+- [Purchase Orders](https://businesscentral.dynamics.com/?page=9307)
+- [Posted Purchase Invoices](https://businesscentral.dynamics.com/?page=146)
+- [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29)
+- [General Ledger Entries](https://businesscentral.dynamics.com/?page=20)
+
 
 ## Purchasing ad-hoc analysis scenarios
 
@@ -27,26 +31,29 @@ In the following sections, you'll find examples of usage scenarios within the pu
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Finance (Accounts TODO)](#example-finance-accounts-receivables) | See what your customers owe you, for example, broken down into time intervals for when amounts are due. | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) | **Customer Name**, **Due Date**, and **Remaining Amount**. |
+| [Finance (Accounts Payable)](#example-finance-accounts-payable) | See what you owe your vendors, maybe broken down into time intervals for when amounts are due. | [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29) | **Vendor Name**, **Document Type**, and **Document No.**, **Due Date Year**, **Due Date Month**, and **Remaining Amount**. |
 
 
+## Example: Finance (Accounts Payable)
 
-## Example: Finance (Accounts TODO)
+To see what you owe your vendors, maybe broken down into time intervals for when amounts are due, do as follows:
 
-To see what your customers owe you, maybe broken down into time intervals for when amounts are due, do as follows:
-
-1. Open the [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) list and switch on the analysis mode.
+1. Open the [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29) list and switch on the analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the *Search* field).
 1. Turn on *Pivot* mode (located directly above the *Search* field).
-1. Now, drag the *Customer Name* field to the *Row Groups* area and drag *Remaining Amount* to the *Values* area. 
-1. Finally, find the *Due Date Month* field and drag it to the *Column Labels* area. 
+1. Now, drag the *Vendor Name*, *Document Type*, and *Document No.* fields to the *Row Groups* area and drag *Remaining Amount* to the *Values* area. 
+1. Finally, find the *Due Date Year* and *Due Date Month* fields and drag them to the *Column Labels* area (in that order). 
 1. If you want to restrict the analysis to a given year/quarter, apply a filter in the *Additional Filters* menu (to the right, just below the **Columns** menu.) 
-1. Rename your analysis tab to "Aged Accounts by Month" or something that describes this analysis for you. 
+1. Rename your analysis tab to "Aged Payable Accounts by Month" or something that describes this analysis for you. 
+
+After doing these steps, you should see something like this:
+
+:::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
 
 ## Data foundation for ad-hoc analysis on purchasing
 
-When a purchase document is posted, the vendor's account, the general ledger (G/L), the item ledger entries, and the resource ledger entries are updated.
+When a purchase document is posted, the vendor's account, the general ledger (G/L), the item ledger entries, and the resource ledger entries are updated:
 
 - For each purchase document, a purchase entry is created in the **G/L Entry** table. An entry is also created in the vendor's account in the **Supplier Ledger Entry** table and a G/L entry is created in the relevant payables account. In addition, posting the purchase can result in a value-added tax (VAT) entry and a G/L entry for the discount amount. 
 - For each purchase line, as applicable, entries are created in the:
@@ -60,7 +67,7 @@ For more information, see [Posting purchases](purchasing-how-record-purchases.md
 
 ## See also
 
-[Posting purchases](purchasing-how-record-purchases.md#posting-purchases)
+[Posting purchases](purchasing-how-record-purchases.md#posting-purchases)  
 [Analyze list and query data with analysis mode](analysis-mode.md)   
 [Purchasing overview](purchasing-manage-purchasing.md)   
 [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)   

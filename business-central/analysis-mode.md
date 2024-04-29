@@ -217,10 +217,10 @@ To see what your customers owe you, maybe broken down into time intervals for wh
 
 1. Open the [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) list and switch on the analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the *Search* field).
-1. Turn on *Pivot* mode (located directly above the *Search* field).
-1. Now, drag the *Customer Name* field to the *Row Groups* area and drag *Remaining Amount* to the *Values* area. 
-1. Finally, find the *Due Date Month* field and drag it to the *Column Labels* area. 
-1. If you want to restrict the analysis to a given year/quarter, apply a filter in the *Additional Filters* menu (to the right, just below the **Columns** menu.) 
+1. Turn on **Pivot* mode** (located directly above the **Search** field).
+1. Now, drag the *Customer Name* field to the **Row Groups** area and drag **Remaining Amount** to the **Values** area. 
+1. Finally, find the **Due Date Month** field and drag it to the **Column Labels** area. 
+1. If you want to restrict the analysis to a given year/quarter, apply a filter in the **Additional Filters** menu (to the right, just below the **Columns** menu.) 
 1. Rename your analysis tab to "Aged Accounts by Month" or something that describes this analysis for you. 
 
 ### Example: Finance (Income statement)
@@ -230,11 +230,10 @@ To see your income over the income accounts from the chart of account, broken do
 1. Open the [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) list and switch on the analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
 1. Turn on **Pivot** mode (located directly above the **Search** field).
-1. Now, drag the **G/L Account No.** field to the **Row Groups** area and drag **Amount** to the **Values* area.
-1. Finally, find the *Posting Date Month* field and drag it to the *Column Labels* area.*
+1. Now, drag the **G/L Account No.** field to the **Row Groups** area and drag **Amount** to the **Values** area.
+1. Finally, find the **Posting Date Month** field and drag it to the **Column Labels** area.
 1. For the income statement, you need to filter on the accounts you use for this, in the Business Central demo data, these are accounts starting with "4", your chart of account setup might be different (if you run the [Trial Balance by Period](https://businesscentral.dynamics.com/?report=38) report, you can easily see which accounts is used in your setup). Set a filter on appropriate accounts in the **Additional Filters** menu (to the right, just below the **Columns** menu.)
 1. Rename your analysis tab to "Income by Month" or something that describes this analysis for you.
-
 
 ### Example: Finance (total assets)
 
@@ -244,7 +243,7 @@ To see your assets over the asset accounts from the chart of account, broken dow
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
 1. Turn on **Pivot** mode (located directly above the **Search** field).
 1. Now, drag the **G/L Account No.** field to the **Row Groups** area and drag **Amount** to the **Values** area.
-1. Finally, find the *Posting Date Month* field and drag it to the *Column Labels* area.
+1. Finally, find the **Posting Date Month** field and drag it to the **Column Labels** area.
 1. For the total assets statement, you need to filter on the accounts you use for this, in the Business Central demo data, these are accounts starting with "10", your chart of account setup might be different. If you run the [Trial Balance by Period](https://businesscentral.dynamics.com/?report=38) report, you can easily see which accounts are used in your setup. Set a filter on appropriate accounts in the **Additional Filters** menu (to the right, just below the **Columns** menu.)
 1. Rename your analysis tab to "Income by Month" or something that describes this analysis for you.
 

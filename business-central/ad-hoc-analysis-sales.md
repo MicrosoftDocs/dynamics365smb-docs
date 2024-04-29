@@ -1,8 +1,8 @@
 ---
 title: Ad-hoc analysis of sales data
 description: Learn how to use the data analysis mode in Business central to analyze sales data.
-author: kepontop
-ms.author: bholtorf
+author: brentholtorf
+ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI

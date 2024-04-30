@@ -1803,10 +1803,11 @@ ms.service: dynamics-365-business-central
 # Analytics, business intelligence, and reporting 
 
 ## [Analytics overview](reports-bi-reporting.md)
-### [Financial analytics](bi.md)
-### [Sales analytics](sales-analytics-overview.md)
-### [Purchasing analytics](purchasing-analytics-overview.md)
-### [Fixed assets analytics](fa-analytics-overview.md)
+### Analytics by functional area
+#### [Financial analytics](bi.md)
+#### [Sales analytics](sales-analytics-overview.md)
+#### [Purchasing analytics](purchasing-analytics-overview.md)
+#### [Fixed assets analytics](fa-analytics-overview.md)
 
 ## KPIs, dashboards, and financial reports
 ### [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)

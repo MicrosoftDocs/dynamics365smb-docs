@@ -117,6 +117,18 @@ If you prefer to use business intelligence tools that aren't embedded in [!INCLU
 | Analyze Business Central data with Microsoft Fabric| [Introduction to Microsoft Fabric and Business Central](admin-fabric.md) |
 | Read data from Business Central using APIs | [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
 
+## Analytics by functional area
+
+The content in this general article is also available in special versions for many of the functional area in [!INCLUDE[prod_short](includes/prod_short.md)]. 
+
+| If you work with... | See |
+| --- | --- |
+| Finance | [Financial analytics](bi.md) |
+| Sales | [Sales analytics](sales-analytics-overview.md) |
+| Purchasing | [Purchasing analytics](purchasing-analytics-overview.md) |
+| Fixed Assets Management | [Fixed assets analytics](fa-analytics-overview.md) |
+
+
 ## See also
 
 [Using Financial reporting to produce financial statements and KPIs](bi.md)  

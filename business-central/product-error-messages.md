@@ -1,5 +1,5 @@
 ---
-title: Warnings and Error Messages
+title: Warnings and error messages
 description: Learn how you can troubleshoot and find solutions to error messages when you work in Business Central.
 author: brentholtorf
 ms.author: bholtorf
@@ -54,6 +54,10 @@ We've made it easier to understand, go to, and resolve errors that come from the
 The error messages that the [!INCLUDE [prod_short](includes/prod_short.md)] platform generates contain the full technical details, including field names, in the **Detailed error message** section. Select the **Copy details** icon on inline validation errors or in an error message to access the technical information.
 
 Actions on error messages take you directly to the page where a field is causing the error. You don't have to take time to find the page or field yourself. Just choose the action in the error message and [!INCLUDE [prod_short](includes/prod_short.md)] will take you to the appropriate location to resolve the error.
+
+The following video shows how to use actionable error messages to get unblocked.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l2sM]
 
 ### Tip for developers
 

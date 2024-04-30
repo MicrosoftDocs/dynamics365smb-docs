@@ -71,7 +71,6 @@ You can easily correct or cancel a posted purchase invoice before you pay the ve
 
 [Open the **Posted Purchase Invoices** list](https://businesscentral.dynamics.com/?page=146) in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-
 ## Purchasing non-inventory items
 
 The lines on a purchase invoice can be of the **Resource** or **Item** type. Item cards can be further classified as of the **Inventory**, **Service**, or **Non-Inventory** type, which specifies if the item is a physical inventory unit, a labor time unit (also applicable for resources), or a physical unit that isn't kept in inventory. Learn more at [Register New Items](inventory-how-register-new-items.md). The purchase invoice process is the same for all mentioned types.
@@ -111,6 +110,10 @@ The following steps describe how to receive items with a purchase order.
 ## Receive more items than ordered
 
 When more goods arrive than were ordered, you might want to receive them instead of canceling the receipt. For example, it might be cheaper to keep the excess items in inventory than return them, or your vendor might offer a discount for keeping them.
+
+The following video shows how to work with over-receipts.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l2PE]
 
 <!--move the over-receipt setup info to an article about purchasing. Keep the concept info here and link to the steps-->
 ### Set up over-receipts

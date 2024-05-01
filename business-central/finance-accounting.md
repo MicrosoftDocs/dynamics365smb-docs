@@ -5,12 +5,12 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
-ms.date: 10/19/2023
+ms.date: 05/01/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
-# Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]
+# Accountant experiences in [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -46,7 +46,7 @@ We have made it easy for you to invite your external accountant. Simply open the
 >
 > This task requires access to managing users and licenses in Microsoft Entra ID. The user who sends this invitation must be assigned the **Global admin** role or **User admin** role in the Microsoft 365 admin center. For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) in the Microsoft 365 admin content.  
 
-### Adding your accountant to your Microsoft 365 in the Azure portal
+### Add your accountant to your Microsoft 365 in the Azure portal
 
 If your administrator or reselling partner do not want to use the **Invite External Accountant** guide, they can add an external user in the Azure portal and assign this user the *External Accountant* license. For more information, see [Quickstart: Add guest users to your directory in the Azure portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
@@ -79,7 +79,7 @@ Next, you must assign the new guest user a license to [!INCLUDE[prod_short](incl
 
 If successful, the license is assigned to the guest user, and the guest account is created.
 
-### Importing the new user into [!INCLUDE[prod_short](includes/prod_short.md)]
+### Import the new user into [!INCLUDE[prod_short](includes/prod_short.md)]
 
 The accountant will receive an email that notifies them that they have been given access to your Microsoft Entra ID. Next, you must give them access to the right company in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -93,7 +93,7 @@ This imports the user account that you created in the Azure portal to the compan
 
 If you want to give access to multiple companies, then you must log into each company and repeat this process. Alternatively, you can update the permission groups for the accountant's user profile in [!INCLUDE[prod_short](includes/prod_short.md)], such as assigning them the *D365 Bus Premium* user group. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).  
 
-## See Also
+## See also
 
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  

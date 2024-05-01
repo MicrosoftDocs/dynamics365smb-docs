@@ -594,6 +594,7 @@ ms.service: dynamics-365-business-central
 ### [Fixed assets overview](fa-manage.md)
 ### Fixed assets analytics
 #### [Fixed assets analytics overview](fa-analytics-overview.md)
+
 #### Built-in fixed assets analytics tools
 ##### [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
 ##### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
@@ -1814,8 +1815,19 @@ ms.service: dynamics-365-business-central
 # Analytics, business intelligence, and reporting 
 
 ## [Analytics overview](reports-bi-reporting.md)
-## [Using key performance indicators (KPIs) to meet your business goals](./analytics-about-kpis.md)
-## [Using financial reporting](bi-how-work-account-schedule.md)
+
+## Analytics by functional area
+### [Financial analytics](bi.md)
+### [Sales analytics](sales-analytics-overview.md)
+### [Purchasing analytics](purchasing-analytics-overview.md)
+### [Fixed assets analytics](fa-analytics-overview.md)
+
+## KPIs, dashboards, and financial reports
+### [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)
+### [Introduction to Business Central and Power BI](admin-powerbi.md)
+### [Work with Power BI reports](across-working-with-powerbi.md)
+### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)
+### [Using Financial Reporting](bi-how-work-account-schedule.md)
 
 ## Ad-hoc data analysis
 ### [Overview](reports-adhoc-analysis.md)
@@ -1824,12 +1836,10 @@ ms.service: dynamics-365-business-central
 ### [Analyze page data in Excel](across-work-with-excel.md)
 ### [Analyze report data with Excel](report-analyze-excel.md)
 ### [Analyze list and query data with analysis mode](analysis-mode.md)
+### Ad-hoc data analysis by functional area
+#### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
+#### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
 
-## Built-in analytics tools
-### [Overview](reports-built-in-analytics.md)
-### [Work with Power BI reports](across-working-with-powerbi.md)
-### [Intelligent insights (on-premises)](about-intelligent-cloud.md)
-### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 
 ## Use reports in daily work
 ### [Overview](reports-use-reports.md)
@@ -1900,6 +1910,9 @@ ms.service: dynamics-365-business-central
 #### [Service quotes overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Posted service document overview](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
+### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
+
 ## Develop reports
 ### [Overview](reports-develop-reports.md)
 ### Develop report layouts
@@ -1921,11 +1934,9 @@ ms.service: dynamics-365-business-central
 ## Analyze data in business intelligence tools
 ### [Overview](reports-external-analysis.md)
 ### [Microsoft Fabric and Business Central](admin-fabric.md)
-### [Use Power BI with Business Central](admin-powerbi.md)
-### [Analyze financial statements with Excel](finance-analyze-excel.md)
 ### [Extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
 ### [Read data with the Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
+### [Intelligent insights (on-premises)](about-intelligent-cloud.md)
 
 
 # Security, privacy, and compliance

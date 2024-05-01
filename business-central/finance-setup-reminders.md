@@ -1,6 +1,6 @@
 ---
 title: Set Up Reminder Terms and Levels
-description: Learn how to set up Business Central so that you can send a reminder to a customer about a payment that is due and add charges, or fees to the payment because of the delay.
+description: Set up Business Central so you can send a reminders about payments due and add charges, or fees because of the delay.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
@@ -11,16 +11,16 @@ ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
 ---
-# Set Up Reminder Terms and Levels
+# Set up reminder terms and levels
 
-You can use reminders to remind customers about overdue amounts and request payment. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
+You can use reminders to inform customers about overdue amounts and to request payment. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
 > [!TIP]
 > After you set up reminder terms and levels, you can include them in automated processes for creating, issuing, and sending reminders. To learn more about the automated process, go to [Automate reminders in collections](finance-automate-reminders.md).
 
 ## Reminder terms
 
-If customers have overdue payments, you must decide when and how to send them a reminder. In addition, you may want to debit their accounts for interest or fees. You can set up any number of reminder terms.  
+If customers have overdue payments, you must decide when and how to send a reminder. In addition, you may want to debit their accounts for interest or fees. You can set up any number of reminder terms.  
 
 > [!NOTE]
 > If you want to calculate interest on overdue payments, you can do so when you create reminders. If, however, you just want to calculate interest and inform your customers about this without sending a reminder, use a [finance charge memo](finance-setup-finance-charges.md). For more information, see [Reminders](receivables-collect-outstanding-balances.md#reminders) or [Finance Charges](receivables-collect-outstanding-balances.md#finance-charges).
@@ -31,7 +31,7 @@ On the **Reminder Terms Setup** page, you can set up attachment texts and standa
 
 By default, attachment and email texts use your language setting. If you issue reminders to customers in other countries, however, you might want to communicate in different languages. You can create texts for each language that [!INCLUDE [prod_short](includes/prod_short.md)] supports by using the **Add text for language** action. If you do, ensure that the languages are the same for attachment texts and email texts. If they don't match, and the reminder term has more than one level, the automation might not be able to customize the message for one or more levels. To verify that the languages match, use the **Overview communications** action and compare the communications for the texts.
 
-When you send an email, the reminder is a report you attach to the email. You define the report that generates the reminder on the **Report Selection Reminder/Finance Charge** page, where you also select the report that holds the email body text in the **Email Body Layout Name** field. When you send emails to your customers, the texts on the **Email Text** FastTab is inserted in the report selected in the **Email Body Layout Name** field. The standard report has a text field for this text. If you want, you can edit this report, for example, to add or remove content. Edit the layout of these reports on the **Report Layouts** page. To learn more about report layouts, go to [Get Started Creating Report Layouts](ui-get-started-layouts.md).
+When you send an email, the reminder is a report you attach to the email. You define the report that generates the reminder on the **Report Selection Reminder/Finance Charge** page, where you also select the report that holds the email body text in the **Email Body Layout Name** field. When you send emails to your customers, the texts on the **Email Text** FastTab are inserted in the report selected in the **Email Body Layout Name** field. The standard report has a text field for this text. If you want, you can edit this report, for example, to add or remove content. Edit the layout of these reports on the **Report Layouts** page. To learn more about report layouts, go to [Get Started Creating Report Layouts](ui-get-started-layouts.md).
 
 > [!NOTE]
 > Communicating by email directly from [!INCLUDE [prod_short](includes/prod_short.md)] requires that you're set up to do that. To learn more about connecting email accounts with [!INCLUDE [prod_short](includes/prod_short.md)], go to [Set up email](admin-how-setup-email.md).
@@ -44,14 +44,14 @@ When you send an email, the reminder is a report you attach to the email. You de
 
 ## Reminder levels
 
-For each reminder term, you can define an unlimited number of reminder levels, though most companies use only two or three levels. The first time a reminder is created for a customer, the setting from level 1 is used. When the reminder is issued, the level number is registered on the reminder entries that are created and linked to the individual customer ledger entries. If it is necessary to remind the customer again, all reminder entries linked to open customer ledger entries are checked to locate the highest level number. The conditions from the next level number will then be used for the new reminder.
+For each reminder term, you can define an unlimited number of reminder levels, though most companies use only two or three levels. The first time a reminder is created for a customer, the setting from level 1 is used. When the reminder is issued, the level number is registered on the reminder entries that are created and linked to the individual customer ledger entries. If it's necessary to remind the customer again, all reminder entries linked to open customer ledger entries are checked to locate the highest level number. The conditions from the next level number will then be used for the new reminder.
 
 If you create more reminders than you have defined levels for, the conditions for the highest level will be used. You can create as many reminders as are allowed by the **Max. No of Reminders** field in the reminder terms.
 
 ### To set up reminder levels
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Reminder Terms**, and then choose the related link.  
-2. On the **Reminder Terms** page, select the line with the terms you want to set up levels for, and then choose **Levels** action.  
+2. On the **Reminder Terms** page, select the line with the terms you want to set up levels for, and then choose the **Levels** action.  
 3. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
     > [!TIP]

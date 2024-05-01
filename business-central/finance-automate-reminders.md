@@ -1,6 +1,6 @@
 ---
 title: Automate reminders in collections
-description: This article explains how you save time in collections by automating the processes of creating, issuing, and sending reminders to customers.
+description: Save time in collections by automating the processes of creating, issuing, and sending reminders to customers.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
@@ -17,7 +17,7 @@ Make your collections more effective by automating the process of creating, issu
 
 On the **Reminder Automation** page, you define the individual actions (steps). You can combine the steps to the create, issue, and send reminders, or you can create a separate automation for each step if that's better for your collection processes. Automations are based on reminder terms and reminder levels. To learn more, go to [Set Up Reminder Terms and Levels](finance-setup-reminders.md). You can set filters for reminder terms for an automation as a whole, and set filters for each action in the automation. You can also attach outstanding invoices to emails as PDF files.
 
-Automation happens through a job queue entry. When you set set up an automation, use the **Cadence** field to specify specify how and when it runs. If you choose **Manual**, the automation runs one time when you use the **Start** action. You can also choose **Weekly**, **Monthly**, or choose **Custom** to set up a more detailed cadence. If you choose **Custom**, you'll need to enter a data formula. To learn more about entering a date formula, go to [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas). When you choose an option other than **Manual**, the automation will run until you pause it to put it on hold. If you want to be even more specific about when it runs, use the **Job queue entries** action to open the **Job Queue Entries** page and adjust the recurrence, for example to daily or a specific weekday.
+Automation happens through a job queue entry. When you set up an automation, use the **Cadence** field to specify how and when it runs. If you choose **Manual**, the automation runs one time when you use the **Start** action. You can also choose **Weekly**, **Monthly**, or choose **Custom** to set up a more detailed cadence. If you choose **Custom**, you'll need to enter a date formula. To learn more about entering a date formula, go to [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas). When you choose an option other than **Manual**, the automation will run until you pause it to put it on hold. If you want to be even more specific about when it runs, use the **Job queue entries** action to open the **Job Queue Entries** page and adjust the recurrence, for example to daily or a specific weekday.
 
 ## Automate the reminders flow
 
@@ -27,7 +27,7 @@ The following sections describe how to set up reminders to create, issue, and se
 1. Choose **New**, and then fill in the fields on the **General** FastTab.
 1. In the **Reminder Terms Filter** field, choose the reminder term or terms to use this automation for.
 1. In the **Cadence** field, choose how often the automation runs.
-1. On the **Actions** FastTab, choose **New**, and then choose whether the automation creates, issues, or sends reminders. Click **OK**.
+1. On the **Actions** FastTab, choose **New**, and then choose whether the automation creates, issues, or sends reminders. Choose **OK**.
 1. Depending on the type of action the automation performs, fill in the fields as necessary on the setup page. To learn more about the settings, go to [Settings for reminder actions](#settings-for-reminder-actions).
 1. After you set up the actions for the automation, you can use the **Move up** and **Move down** actions to adjust the order in which they run.
 

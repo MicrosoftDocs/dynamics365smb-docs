@@ -2,12 +2,12 @@
 title: Amend or cancel unpaid purchase invoices (contains video)
 description: Explains how to correct, cancel, or undo a posted purchase invoice and automatically create a purchase credit memo.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: undo, credit memo, return
 ms.search.form: 138, 140, 146
-ms.date: 03/14/2024
-ms.author: bholtorf
+ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
 ---
 # Correct or cancel unpaid purchase invoices

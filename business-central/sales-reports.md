@@ -26,6 +26,8 @@ The following articles describe some of the key tasks for analyzing the state of
 
 ## See also
 
+[Sales analytics overview](sales-analytics-overview.md)   
+[Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)    
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
 [Reserve Items](inventory-how-to-reserve-items.md)

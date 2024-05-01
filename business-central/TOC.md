@@ -478,7 +478,6 @@ ms.service: dynamics-365-business-central
 #### [Set up and publish a KPI web service based on financial reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
 #### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
-#### [Create analysis reports](bi-how-create-analysis-views-reports.md)
 
 <!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
 
@@ -496,7 +495,12 @@ ms.service: dynamics-365-business-central
 
 ## Sales
 ### [Sales overview](sales-manage-sales.md)
-### [Sales reports](sales-reports.md)
+### Sales analytics 
+#### [Sales analytics overview](sales-analytics-overview.md)
+#### [Create sales analysis reports](bi-how-create-analysis-views-reports.md)
+#### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
+#### [Built-in sales reports](sales-reports.md)
+
 ### [Walkthrough: Conduct a sales campaign](walkthrough-conducting-a-sales-campaign.md)
 ### [Walkthrough: Set up and Invoice sales prepayments](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Register new customers](sales-how-register-new-customers.md)
@@ -523,7 +527,10 @@ ms.service: dynamics-365-business-central
 
 ## Purchasing
 ### [Purchasing overview](purchasing-manage-purchasing.md)
-### [Purchasing reports](purchase-reports.md)
+### Purchasing analytics 
+#### [Purchasing analytics overview](purchasing-analytics-overview.md)
+#### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
+#### [Built-in purchasing reports](purchase-reports.md)
 ### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Record purchases](purchasing-how-record-purchases.md)
 ### [Request quotes](purchasing-how-request-quotes.md)
@@ -578,9 +585,18 @@ ms.service: dynamics-365-business-central
 
 ## Fixed assets
 ### [Fixed assets overview](fa-manage.md)
+### Fixed assets analytics
+#### [Fixed assets analytics overview](fa-analytics-overview.md)
+#### Built-in fixed assets analytics tools
+##### [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
+##### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+##### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+#### [Built-in fixed assets reports](fa-reports.md)
 ### [Set up fixed assets](fa-setup.md)
 ### [Depreciation methods](fa-depreciation-methods.md)
-### [Fixed assets reports and analytics](fa-reports.md)
+### [Manage budgets for fixed assets](fa-how-manage-budgets.md)
 ### [Acquire fixed assets](fa-how-acquire.md)
 ### [Maintain fixed assets](fa-how-maintain.md)
 ### [Insure fixed assets](fa-how-insure.md)
@@ -588,8 +604,8 @@ ms.service: dynamics-365-business-central
 ### [Revalue fixed assets](fa-how-revalue.md)
 ### [Depreciate or amortize fixed assets](fa-how-depreciate-amortize.md)
 ### [Dispose of or retire fixed assets](fa-how-dispose-retire.md)
-### [Manage budgets for fixed assets](fa-how-manage-budgets.md)
 ### [Troubleshooting FA ledger entries](fa-troubleshooting-fa-ledger-entries.md)
+
 
 ## Relationship management
 ### [Relationship management overview](marketing-relationship-management.md)
@@ -1759,7 +1775,7 @@ ms.service: dynamics-365-business-central
 ###### [Create reports to display list data](across-how-use-powerbi-reports-factbox.md)
 ##### Business user
 ###### [Work with Power BI reports in Business Central](across-working-with-powerbi.md)
-###### [Work with Business Central data in Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Connect to Power BI from Business Central on-premises](across-working-with-business-central-in-powerbi.md)
 ###### [Use the Business Central apps in Power BI](across-powerbi-business-central-apps.md)
 ##### [FAQ](power-bi-faq.md)
 #### Use Power Automate with Business Central
@@ -1788,6 +1804,20 @@ ms.service: dynamics-365-business-central
 ## [Analytics overview](reports-bi-reporting.md)
 ## [Using key performance indicators (KPIs) to meet your business goals](./analytics-about-kpis.md)
 ## [Using financial reporting](bi-how-work-account-schedule.md)
+
+## Ad-hoc data analysis
+### [Overview](reports-adhoc-analysis.md)
+### [Sort, search, and filter](ui-enter-criteria-filters.md)
+### [Search and filter FAQ](ui-search-filter-faq.yml)
+### [Analyze page data in Excel](across-work-with-excel.md)
+### [Analyze report data with Excel](report-analyze-excel.md)
+### [Analyze list and query data with analysis mode](analysis-mode.md)
+
+## Built-in analytics tools
+### [Overview](reports-built-in-analytics.md)
+### [Work with Power BI reports](across-working-with-powerbi.md)
+### [Intelligent insights (on-premises)](about-intelligent-cloud.md)
+### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 
 ## Use reports in daily work
 ### [Overview](reports-use-reports.md)
@@ -1858,33 +1888,6 @@ ms.service: dynamics-365-business-central
 #### [Service quotes overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Posted service document overview](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
-## Ad-hoc data analysis
-### [Overview](reports-adhoc-analysis.md)
-### [Sort, search, and filter](ui-enter-criteria-filters.md)
-### [Search and filter FAQ](ui-search-filter-faq.yml)
-### [Analyze page data in Excel](across-work-with-excel.md)
-### [Analyze report data with Excel](report-analyze-excel.md)
-### [Analyze list and query data with analysis mode](analysis-mode.md)
-### [Financial business intelligence](bi.md)
-
-## Built-in analytics 
-### [Overview](reports-built-in-analytics.md)
-### [Intelligent insights](about-intelligent-cloud.md)
-### [Work with Power BI reports](across-working-with-powerbi.md)
-### [Financial business intelligence](bi.md)
-### [Analyze financial statements with excel](finance-analyze-excel.md)
-### [Consolidate financial data from multiple companies](finance-consolidated-company-reporting.md)
-### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-
-
-## Analyze data in business intelligence tools
-### [Overview](reports-external-analysis.md)
-### [Microsoft Fabric and Business Central](admin-fabric.md)
-### [Use Power BI with Business Central](admin-powerbi.md)
-### [Analyze financial statements with Excel](finance-analyze-excel.md)
-### [Extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
-### [Read data with the Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
 ## Develop reports
 ### [Overview](reports-develop-reports.md)
 ### Develop report layouts
@@ -1902,6 +1905,16 @@ ms.service: dynamics-365-business-central
 ### Develop report datasets
 #### [Report development guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Report performance tuning guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+## Analyze data in business intelligence tools
+### [Overview](reports-external-analysis.md)
+### [Microsoft Fabric and Business Central](admin-fabric.md)
+### [Use Power BI with Business Central](admin-powerbi.md)
+### [Analyze financial statements with Excel](finance-analyze-excel.md)
+### [Extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Read data with the Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+
 
 # Security, privacy, and compliance
 ## Security and protection

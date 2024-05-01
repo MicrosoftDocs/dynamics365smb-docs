@@ -49,11 +49,11 @@ For each journal template, you can set up your own personal journal as a journal
 > [!TIP]
 > You can add or remove fields in journals by personalizing them. Learn more at [Personalize Your Workspace](ui-personalization-user.md).
 
-### Validating General Journal Batches
+### Validating general journal batches
 
 You can turn on a background check that helps prevent delays when posting. The check notifies you when a mistake in the financial journal you're working on will prevent you from posting the journal. On the **General Journal Batch** page, you can choose **Background Error Check** to have [!INCLUDE[prod_short](includes/prod_short.md)] validate finance journals, such as general or payment journals, while you're working on them.
 
-When you enable the validation, the **Journal Check** FactBox shows issues in the current line and the whole batch. Validation happens when you load a finance journal batch, and when you choose another journal line. The **Issues total** tile in the FactBox shows the total number of issues that [!INCLUDE[prod_short](includes/prod_short.md)] found, and you can choose it to open an overview of the issues.
+When you enable the validation, the **Check Document** or **Journal Check** FactBoxes show issues in the current line and the whole batch. Validation happens when you load a finance journal batch, and when you choose another journal line. The **Issues total** tile in the FactBox shows the total number of issues that [!INCLUDE[prod_short](includes/prod_short.md)] found, and you can choose it to open an overview of the issues.
 
 You can use the **Show Lines with Issues** and **Show All Lines** actions to toggle between journal lines that do or don't have issues. The **Journal Line Details** FactBox provides quick overview and access to data from journal lines, such as the G/L account, customer, or vendor, and the posting setup for specific accounts.
 

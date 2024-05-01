@@ -71,7 +71,8 @@ If you decide to close some entries for **VAT Posting Setup**, the system automa
 
 ## Ignoring invoice lines for SII 
 
-In some situations, the user must use a line in the invoice, but not to report it to SII. To make a setup for this requirement:
+In some situations, the user must use a line in the invoice, but not report it to SII. To make a setup for this requirement, follow these steps:
+
 1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then select the related link. 
 1. Open the **VAT Posting Setup Card** where you want to configure this exemption and choose the **Ignore in SII** field for this posting group.  
 

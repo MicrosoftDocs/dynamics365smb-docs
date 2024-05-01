@@ -1,6 +1,6 @@
 ---
 title: Set Up Reminder Terms and Levels
-description: Set up Business Central so you can send a reminders about payments due and add charges, or fees because of the delay.
+description: Set up Business Central so you can send reminders about payments due and add charges, or fees because of the delay.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
@@ -20,7 +20,7 @@ You can use reminders to inform customers about overdue amounts and to request p
 
 ## Reminder terms
 
-If customers have overdue payments, you must decide when and how to send a reminder. In addition, you may want to debit their accounts for interest or fees. You can set up any number of reminder terms.  
+If customers have overdue payments, you must decide when and how to send a reminder. In addition, you might want to debit their accounts for interest or fees. You can set up any number of reminder terms.  
 
 > [!NOTE]
 > If you want to calculate interest on overdue payments, you can do so when you create reminders. If, however, you just want to calculate interest and inform your customers about this without sending a reminder, use a [finance charge memo](finance-setup-finance-charges.md). For more information, see [Reminders](receivables-collect-outstanding-balances.md#reminders) or [Finance Charges](receivables-collect-outstanding-balances.md#finance-charges).
@@ -46,7 +46,7 @@ When you send an email, the reminder is a report you attach to the email. You de
 
 For each reminder term, you can define an unlimited number of reminder levels, though most companies use only two or three levels. The first time a reminder is created for a customer, the setting from level 1 is used. When the reminder is issued, the level number is registered on the reminder entries that are created and linked to the individual customer ledger entries. If it's necessary to remind the customer again, all reminder entries linked to open customer ledger entries are checked to locate the highest level number. The conditions from the next level number will then be used for the new reminder.
 
-If you create more reminders than you have defined levels for, the conditions for the highest level will be used. You can create as many reminders as are allowed by the **Max. No of Reminders** field in the reminder terms.
+If you create more reminders than you define levels for, the conditions for the highest level are used. You can create as many reminders as are allowed by the **Max. No of Reminders** field in the reminder terms.
 
 ### To set up reminder levels
 
@@ -59,9 +59,9 @@ If you create more reminders than you have defined levels for, the conditions fo
     >
     > To indicate that interest should be calculated, choose the **Calculate Interest** field.
 
-    Optionally, for each reminder level, specify additional fees in both LCY and in foreign currency. You can define many additional fees in foreign currencies for each code on the **Reminder Levels** page.  
+    Optionally, for each reminder level, specify extra fees in both local and foreign currencies. You can define many extra fees in foreign currencies for each code on the **Reminder Levels** page.  
 
-    The additional fees can be calculated in three different ways that are defined by the value of the **Add. Fee Calculation Type** field.  
+    The extra fees can be calculated in three different ways that are defined by the value of the **Add. Fee Calculation Type** field.  
 
     - **Fixed**
 
@@ -74,7 +74,7 @@ If you create more reminders than you have defined levels for, the conditions fo
         Fees are calculated based on the values of the fields on the combined lines in the **Additional Fee Setup** page for that reminder level.
 
 4. Choose the **Currencies** action.
-5. On the **Currencies for Reminder Levels** page, define for each reminder level code and corresponding reminder level number a currency code and an additional fee.
+5. On the **Currencies for Reminder Levels** page, define for each reminder level code and corresponding reminder level number a currency code and an extra fee.
 
     > [!NOTE]  
     > When you create reminders in a foreign currency, the foreign currency conditions that you set up here will be used to create reminders. If there are no foreign currency reminder conditions set up, the LCY reminder conditions that are set up on the **Reminder Levels** page will be used and then converted to the relevant currency.
@@ -106,7 +106,7 @@ If you create more reminders than you have defined levels for, the conditions fo
 
 8. To specify the language for an email message, choose the **Add text for language** action. The **Language Code** field updates to show your selection. On the **Email Text** FastTab, enter the content of the message in the selected language.
 
-After you have set up the reminder terms, you can assign them to customers on Customer Card pages. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
+After you set up the reminder terms, you can assign them to customers on Customer Card pages. For more information, see [Register New Customers](sales-how-register-new-customers.md).  
 
 ## See also
 

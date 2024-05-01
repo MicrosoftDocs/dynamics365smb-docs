@@ -1,12 +1,12 @@
 ---
 title: Sustainability setup
-description: Learn how to setup sustainability features.
+description: Learn how to set up sustainability features.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD
 ms.search.form: 
-ms.date: 04/02/2024
+ms.date: 04/24/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -29,6 +29,10 @@ To set up a sustainability module, follow the next steps:
 | **Block Calculation Foundation Change If Ledger Entries Exist** | Specifies if the change of calculation foundation at the Account Category is blocked at the time of sustainability entry, which means this formula has been applied already. |
 | **Enable Background Error Check** | Specifies if the background error check of sustainability journal lines is enabled. |
 
+> [!NOTE]
+> After enabling or switching off the **Background Error Check** in journals, you'll have to login again before starting the new setup.
+ 
+
 3.	On the **Calculations** FastTab, configure required fields related to the formulas used for calculating emissions:  
 
 |  Field  |  Description  |  
@@ -37,7 +41,7 @@ To set up a sustainability module, follow the next steps:
 | **Distance Decimal Places** | Specifies the number of decimal places that are shown for distance measurements. The default setting, 2:5, specifies that all amounts are shown with a minimum of 2 decimal places and a maximum of 5 decimal places. You can also enter a fixed number, such as 2, which also means that amounts are shown with two decimals. |
 | **Custom Amount Decimal Places** | Specifies the number of decimal places that are shown for custom amounts. The default setting, 2:5, specifies that all amounts are shown with a minimum of 2 decimal places and a maximum of 5 decimal places. You can also enter a fixed number, such as 2, which also means that amounts are shown with two decimals. |
 
-4.	Finish the set up on the **Reporting** FastTab, related to reporting to authorities:   
+4.	Finish the setup on the **Reporting** FastTab, related to reporting to authorities:   
 
 |  Field  |  Description  |  
 |--------|--------------| 
@@ -50,11 +54,11 @@ To set up a sustainability module, follow the next steps:
 > In version 24.0, [!INCLUDE[prod_short](includes/prod_short.md)] does not support reporting to any authority. So, field related to configuration on the **Reporting** FastTab, will be used for future reporting capabilities, but it can also be used by partners in localized versions.
 
 ## See also  
-[Finance](finance.md)    
-[Sustainability management overview](finance-manage-sustainability.md)
-[Chart of Sustainability Accounts and Ledger](finance-sustainability-accounts-ledger.md)
-[How to record emissions](finance-sustainability-journal.md)
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Finance](finance.md)  
+[Sustainability management overview](finance-manage-sustainability.md)    
+[Chart of Sustainability Accounts and Ledger](finance-sustainability-accounts-ledger.md)    
+[How to record emissions](finance-sustainability-journal.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

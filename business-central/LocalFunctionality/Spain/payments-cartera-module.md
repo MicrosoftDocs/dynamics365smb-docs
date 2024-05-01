@@ -6,6 +6,7 @@ ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Payments Cartera Module
 The Payments Cartera module allows you to manage payables documents generated from purchase invoices or from the **Cartera Journal**. The documents can be managed by:  

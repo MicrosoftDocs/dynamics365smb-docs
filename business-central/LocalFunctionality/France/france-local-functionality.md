@@ -1,20 +1,20 @@
 ---
-title: France Local Functionality
+title: France local functionality
 description: This article describes the various local functionalities in the French version of Business Central.
 author: sorenfriisalexandersen
 ms.author: soalex
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 12/21/2022
+ms.date: 02/09/2024
 ms.custom: bap-template
 ---
 
-# France Local Functionality
+# France local functionality
 
 The following articles describe local functionality that is unique to the French version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Feature Availability
+## Feature availability
 
 * VAT
     * [New Audit Export functionality](export-french-audit-file.md) **Available Now**
@@ -22,13 +22,12 @@ The following articles describe local functionality that is unique to the French
     * [Export General Ledger Entries to an XML File](how-to-export-general-ledger-entries-to-an-xml-file.md) **Available Now**
     * [Requirements for Reporting Declaration of Trade in Goods](requirements-for-reporting-declaration-of-trade-in-goods.md) **Available Now**
     * [Reporting Declaration of Services DES](../../finance-how-setup-use-service-declaration.md) **Available Now**
-    * [New Audit Export functionality](export-french-audit-file.md) **Available Now**
-
+   
 * Banking & Payments
     * [Set Up Payment Addresses](how-to-set-up-payment-addresses.md) **Available Now**
-    * [Set Up Payment Statuses](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes) **Available Now**
-    * [Set Up Payment Steps](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes) **Available Now**
-    * [Set Up Payment Classes](how-to-set-up-payment-classes.md) **Available Now**
+    * [Set Up Payment Statuses](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes#to-set-up-payment-statuses-for-a-payment-class) **Available Now**
+    * [Set Up Payment Steps](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes#to-set-up-payment-steps-for-a-payment-class) **Available Now**
+    * [Set Up Payment Classes](how-to-set-up-payment-classes.md#to-set-up-a-payment-class) **Available Now**
     * [Archive Payment Slips](how-to-archive-payment-slips.md) **Available Now**
     * [Create Payment Slips](how-to-create-payment-slips.md) **Available Now**
     * [Export Payments](how-to-export-payments.md) **Available Now**
@@ -63,14 +62,14 @@ The following articles describe local functionality that is unique to the French
 
 ## Future legislation requirements being investigated
 
-* Electronic invoicing - planned for **2024 Wave 1**
-* VAT declaration 2023 format - planned for **August 2023**
-* Prepayments regulatory update - planned for **2023 release wave 2**
+* Electronic invoicing - **Planned for 2025 release wave 1**
+* New VAT declaration format in demo data - **Planned for 2024 release wave 2**
+* Prepayments regulatory update - **Planned for 2024 release wave 2**
 
 
-If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).  
+If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).  
 
-## See Also
+## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

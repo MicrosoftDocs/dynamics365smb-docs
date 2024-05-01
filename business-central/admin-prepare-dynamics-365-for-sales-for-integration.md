@@ -4,9 +4,10 @@ description: Learn how to get Dynamics 365 Business Central ready to integrate w
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 09/28/2023
+ms.date: 12/15/2023
 ms.author: bholtorf
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Integrating with Dynamics 365 Sales
 
@@ -17,7 +18,7 @@ The sales person role is often considered as one the most outward-facing jobs in
 > [!NOTE]
 > This topic describes the process of integrating the online versions of [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)] through [!INCLUDE[prod_short](includes/cds_long_md.md)]. For information about on-premises configuration, see [Preparing Dynamics 365 Sales for Integration on-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
-## Integrating through Dataverse
+## Integrate through Dataverse
 
 To make it easy to connect and synchronize data with other Dynamics 365 applications, [!INCLUDE[prod_short](includes/prod_short.md)] also integrates with [!INCLUDE[prod_short](includes/cds_long_md.md)]. For example, you can connect to [!INCLUDE[crm_md](includes/crm_md.md)], or even apps that you build yourself. If you're integrating for the first time, you must do so through [!INCLUDE[prod_short](includes/cds_long_md.md)]. For more information, see [Integration with Dataverse](admin-common-data-service.md).
 
@@ -37,6 +38,12 @@ When you install the Integration Solution, permissions for the integration user 
 * Dynamics 365 Business Central Integration Administrator
 * Dynamics 365 Business Central Integration User
 * Dynamics 365 Business Central Product Availability User
+
+> [!NOTE]
+> To use the **Open in Business Central** action in Sales, you must have the following privileges for the following tables:
+>
+> * You must have Read permissions for the Dynamics 365 Business Central Connection (nav_connection) table.
+> * You must have Read, Write, and Delete permissions for the Default Dynamics 365 Business Central Connection (nav_defaultconnection) table.
 
 ### Connection settings in the setup guide
 
@@ -120,11 +127,11 @@ The following table lists the standard mapping between tables in [!INCLUDE[prod_
 | Sales Order Notes | Sales Order Notes | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 
 > [!NOTE]
-> The mappings for the Item Unit of Measure, Resource Unit of Measure, and Unit Group tables are available only if your administrator has turned on the **Feature Update: Multiple Units of Measure Synchronization with Dynamics 365 Sales** feature switch on the **Feature Management** page. For more information, see [Synchronizing Items and Resources with Products in Different Units of Measure](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
+> The mappings for the Item Unit of Measure, Resource Unit of Measure, and Unit Group tables are available only if your administrator has turned on the **Unit Group Mapping** toggle on the **Microsoft Dynamics 365 Connection Setup** page. To learn more, go to [Synchronizing Items and Resources with Products in Different Units of Measure](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronize-items-and-resources-with-products-with-different-units-of-measure).
 
-## Synchronizing items and resources with products with different units of measure
+## Synchronize items and resources with products with different units of measure
 
-Businesses often produce or purchase the items in one unit of measure, and then sell them in another. To synchronize items that use multiple units of measure, you must turn on the **Feature Update: Multiple Units of Measure Synchronization with Dynamics 365 Sales** feature switch on the **Feature Management** page. 
+Businesses often produce or purchase the items in one unit of measure, and then sell them in another. To synchronize items that use multiple units of measure, you must turn on the **Unit Group Mapping** toggle on the **Microsoft Dynamics 365 Connection Setup** page. 
 
 When you turn on the feature update, a new Unit Group table is created and assigned to each item and resource in [!INCLUDE[prod_short](includes/prod_short.md)]. The tables let you map the Unit Group, Item Unit of Measure, and Resource Unit of Measure tables in [!INCLUDE[prod_short](includes/prod_short.md)] to the Dynamics 365 Sales Unit Group in [!INCLUDE[crm_md](includes/crm_md.md)]. The following image shows the mappings.
 
@@ -132,9 +139,9 @@ When you turn on the feature update, a new Unit Group table is created and assig
 
 You can create multiple units of measure for each unit group, and assign the groups to products in [!INCLUDE[crm_md](includes/crm_md.md)]. Afterward, you'll be able to synchronize the products with items and resources in [!INCLUDE[prod_short](includes/prod_short.md)]. You can manually couple item units of measure or resource units of measure with a unit group. When you do, if the unit group for the item or resource isn't coupled to a unit group in [!INCLUDE[crm_md](includes/crm_md.md)], for example, because the unit group didn't exist, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically create the unit group in [!INCLUDE[crm_md](includes/crm_md.md)].
 
-### Mapping items and resources to products
+### Map items and resources to products
 
-When you turn on the **Feature Update: Multiple Units of Measure Synchronization with Dynamics 365 Sales** feature switch, the following happens:
+When you turn on the **Unit Group Mapping** toggle on the **Microsoft Dynamics 365 Connection Setup** page, the following happens:
 
 * New mappings are created for items and resources.
 * Existing mappings are deleted. <!--which mappings?-->
@@ -208,7 +215,7 @@ The following table describes the default synchronization jobs for [!INCLUDE[crm
 |POSTEDSALESINV-INV - Dynamics 365 Sales synchronization job|Synchronizes [!INCLUDE[crm_md](includes/crm_md.md)] invoices with [!INCLUDE[prod_short](includes/prod_short.md)] posted sales invoices.|From [!INCLUDE[prod_short](includes/prod_short.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]|INVOICES-POSTED SALES INVOICES|30|1440<br> (24 hrs)|
 |Customer Statistics - Dynamics 365 Sales synchronization|Updates [!INCLUDE[crm_md](includes/crm_md.md)] accounts with the latest [!INCLUDE[prod_short](includes/prod_short.md)] customer data. In [!INCLUDE[crm_md](includes/crm_md.md)], this information appears in **Business Central Account Statistics** quick view form of accounts that are coupled to [!INCLUDE[prod_short](includes/prod_short.md)] customers.<br /><br /> This data can also be updated manually from each customer record. For more information, see [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Note:**  This job queue entry is relevant only if the [!INCLUDE[prod_short](includes/prod_short.md)] integration solution is installed in [!INCLUDE[crm_md](includes/crm_md.md)]. |Not applicable|Not applicable|30|Not applicable| 
 
-## Connecting to on-premises versions of Business Central 2019 release wave 1 and Microsoft Dynamics NAV 2018
+## Connect to on-premises versions of Business Central 2019 release wave 1 and Microsoft Dynamics NAV 2018
 
 The Microsoft Power Platform team has [announced](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) that it's deprecating the Office365 authentication type. If you're using a version of [!INCLUDE[prod_short](includes/prod_short.md)] on-premises that is earlier than Business Central 2019 release wave 1, you must use the OAuth authentication type to connect to [!INCLUDE[crm_md](includes/crm_md.md)] online. The steps in this section describe how to connect the following product versions:
 
@@ -227,7 +234,7 @@ The Microsoft Power Platform team has [announced](/power-platform/important-chan
 
    * OAuth
 
-### To connect Business Central 2019 release wave 1 and Dynamics NAV 2018
+### Connect Business Central 2019 release wave 1 and Dynamics NAV 2018
 
 1. Import the Microsoft Dynamics 365 Business Central Integration Solution into your [!INCLUDE[crm_md](includes/crm_md.md)] environment. The integration solution is available in the CrmCustomization folder on your [!INCLUDE[prod_short](includes/prod_short.md)] or Dynamics NAV 2018 installation DVD. Depending on your product version, import one of the following solutions:
 
@@ -283,7 +290,7 @@ The Microsoft Power Platform team has [announced](/power-platform/important-chan
 > [!Note]
 > If you want to configure a connection to a [!INCLUDE[crm_md](includes/crm_md.md)] instance with a specific authentication type, fill in the fields on the **Authentication Type Details** FastTab. For more information, see [Authentication with Microsoft Dataverse web services](/powerapps/developer/data-platform/authentication). This step is not required when connecting an online version of [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## See Also
+## See also
 
 [Setting Up User Accounts for Integrating with [!INCLUDE[crm_md](includes/crm_md.md)]](admin-setting-up-integration-with-dynamics-sales.md)  
 [Set Up a Connection to [!INCLUDE[crm_md](includes/crm_md.md)]](admin-how-to-set-up-a-dynamics-crm-connection.md)  

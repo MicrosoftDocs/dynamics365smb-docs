@@ -36,14 +36,13 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/dynamics365smb-docs",
+      "feedback_system": "Standard",
       "feedback_product_url": "https://techcommunity.microsoft.com/t5/Microsoft-Invoicing-Ideas/idb-p/MicrosoftInvoicingIdeas",
       "searchScope": ["Invoicing"],
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "titleSuffix": "Microsoft Invoicing",
       "breadcrumb_path": "/dynamics365/invoicing/breadcrumb/toc.json",
-      "ms.service": "dynamics365-business-central",
+      "ms.service": "dynamics-365-business-central",
       "extendBreadcrumb": true
     },
     "fileMetadata": {},

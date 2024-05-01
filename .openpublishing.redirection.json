@@ -941,6 +941,11 @@
            "source_path": "business-central/readiness/readiness-learning-sales.md",
            "redirect_url": "/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs",
            "redirect_document_id": "false"
-        }                
+        },
+        {
+           "source_path": "business-central/product-news.md",
+           "redirect_url": "/dynamics365/business-central/dev-itpro/whatsnew/overview",
+           "redirect_document_id": "false"
+        }             
         ]
 }

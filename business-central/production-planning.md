@@ -1,15 +1,14 @@
 ---
-    title: Supply Planning
-    description: Prepare a detailed executable plan and the final-assembly production schedule for sales and production demand.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.for: 291, 292, 293, 295, 517, 9010, 9038
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-
+title: Supply Planning
+description: Prepare a detailed executable plan and the final-assembly production schedule for sales and production demand.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.form: 291, 292, 293, 295, 517, 9010, 9038
+ms.date: 04/26/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Planning
 

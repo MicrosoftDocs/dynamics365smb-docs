@@ -1,21 +1,21 @@
 ---
-title: Accounts Receivable Reports and Analytics
+title: Accounts receivable reports and analytics
 description: See which reports and analytics are available in the standard version of Business Central so that you can keep track of your accounts receivable.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316
-ms.date: 07/13/2021
-ms.author: bholtorf
-
+ms.date: 04/26/2024
+ms.service: dynamics-365-business-central
 ---
-# Accounts Receivable Reports and Analytics in Business Central
+# Accounts receivable reports and analytics
 
 To help you manage your accounts receivable in [!INCLUDE [prod_short](includes/prod_short.md)], standard reports and analytics are built in. It moves beyond traditional reporting constraints to help you efficiently design various types of reports.  
 
 ## Reports
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
-
 
 ## See also
 

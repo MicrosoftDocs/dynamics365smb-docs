@@ -4,7 +4,7 @@ description: This article explains how to set up Intrastat reporting features to
 author: altotovi 
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 04/05/2023
 ms.custom: bap-template

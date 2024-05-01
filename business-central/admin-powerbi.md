@@ -1,6 +1,6 @@
 ---
 title: Introduction to Business Central and Power BI
-description: Get an overview of using Power BI to get insight, business intelligence, and KPIs from your Business Central data.
+description: Get an overview of using Power BI to get insights and KPIs from your Business Central data.
 author: jswymer
 ms.topic: overview
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
@@ -25,7 +25,7 @@ There are various features for working with [!INCLUDE[prod_short](includes/prod_
 
 |Feature|Description|Online|On-premises|Learn more|
 |-------|-----------|--------------|-----------|----------------|
-|View [!INCLUDE[prod_short](includes/prod_short.md)] data in Power BI|You can view your data from [!INCLUDE[prod_short](includes/prod_short.md)] in reports in Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online includes some predefined Power BI reports. Or your organization might have made some custom reports available to you.|![Works online.](media/check.png)|![Works on-premises](media/check.png)|[Here...](across-working-with-powerbi.md)|
+|View [!INCLUDE[prod_short](includes/prod_short.md)] data in Power BI|You can view your data from [!INCLUDE[prod_short](includes/prod_short.md)] in reports in Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online includes some predefined Power BI reports. Or, your organization might have some custom reports.|![Works online.](media/check.png)|![Works on-premises](media/check.png)|[Here...](across-working-with-powerbi.md)|
 |View Power BI reports in the [!INCLUDE[prod_short](includes/prod_short.md)] client.| Power BI reports that display [!INCLUDE[prod_short](includes/prod_short.md)] data can be embedded directly in parts [!INCLUDE[prod_short](includes/prod_short.md)] pages. You can switch the part to display any report that is made available to you. |![works online.](media/check.png)|![Works on-premises](media/check.png)<sup>[*](#onprem)</sup>|[Here...](across-working-with-powerbi.md).|
 |Create reports and dashboards in Power BI that display [!INCLUDE[prod_short](includes/prod_short.md)] data.|Use Power BI Desktop to create your own reports and dashboards. You can publish the reports to your own Power BI Service or share them with others within your organization.|![Works online.](media/check.png)|![works on-premises](media/check.png)|[Here...](across-how-use-financials-data-source-powerbi.md)|
 |[!INCLUDE[prod_short](includes/prod_short.md)] apps in Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publishes three apps for Power BI on Microsoft AppSource. These apps create detailed reports and dashboards in your Power BI service for viewing [!INCLUDE[prod_short](includes/prod_short.md)] data. Available apps include: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Works online.](media/check.png)||[Here...](across-powerbi-business-central-apps.md)|
@@ -35,7 +35,7 @@ There are various features for working with [!INCLUDE[prod_short](includes/prod_
 
 ## Get ready to use Power BI
 
-There are a few tasks that must be done before you can start using Power BI with [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> The tasks will depend on your role in your organization, and what you want to do with Power BI:
+There are a few tasks that must be done before you can start using Power BI with [!INCLUDE[prod_short](includes/prod_short.md)].<!-- Some of the tasks are typically only done by administrators or super users.--> The tasks depend on your role in your organization, and what you want to do with Power BI:
 
 - As a *business user*, you want to view Power BI reports, either in the Power BI Service or in Business Central
 - As an *administrator*, you're responsible for the management of the organization-wide settings that control how Business Central and Power BI work.
@@ -65,6 +65,6 @@ There are a few tasks that must be done before you can start using Power BI with
 [What is Power BI?](/power-bi/fundamentals/power-bi-overview)  
 [Quickstart: Connect to data in Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Introduction to datamarts](/power-bi/transform-model/datamarts/datamarts-overview)  
-[Introduction to dataflows and self-service data prep](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
+[Introduction to dataflows and self-service data preparation](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1815,12 +1815,7 @@ ms.service: dynamics-365-business-central
 # Analytics, business intelligence, and reporting 
 
 ## [Analytics overview](reports-bi-reporting.md)
-
-## Analytics by functional area
-### [Financial analytics](bi.md)
-### [Sales analytics](sales-analytics-overview.md)
-### [Purchasing analytics](purchasing-analytics-overview.md)
-### [Fixed assets analytics](fa-analytics-overview.md)
+## [Analytics by functional area](analytics-by-functional-area.md)
 
 ## KPIs, dashboards, and financial reports
 ### [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)
@@ -1836,10 +1831,7 @@ ms.service: dynamics-365-business-central
 ### [Analyze page data in Excel](across-work-with-excel.md)
 ### [Analyze report data with Excel](report-analyze-excel.md)
 ### [Analyze list and query data with analysis mode](analysis-mode.md)
-### Ad-hoc data analysis by functional area
-#### [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md)
-#### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
-
+### [Ad-hoc data analysis by functional area](ad-hoc-data-analysis-by-functional-area.md)
 
 ## Use reports in daily work
 ### [Overview](reports-use-reports.md)

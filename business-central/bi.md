@@ -111,9 +111,9 @@ Similarly, you can use the **Open in Excel** action to open a list page for ledg
 > [!TIP]
 > If you configure OneDrive for system features, the Excel workbook opens in your browser by using Excel for the web. 
 
-<!-- Not ready yet
+
 For more information on how to do ad-hoc analysis on ledgers, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md). 
--->
+
 ## Built-in reports for finance
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help auditors or controllers who are responsible for reporting to the finance department.
@@ -189,12 +189,13 @@ To examine the forecast, in addition to forecast entries, you can also look at t
 
 To learn more, go to [Analyzing Cash Flow in Your Company](finance-analyze-cash-flow.md).
 
+
 ## See also
 
 [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
 <!-- [Financial KPIs in Business Central](bi-finance-kpis.md)    -->
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
-<!-- [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)   -->
+[Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)   
 [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
 [Built-in finance Excel reports](finance-analyze-excel.md)  
 [Built-in key finance reports](finance-reports.md)  

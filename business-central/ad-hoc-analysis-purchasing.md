@@ -36,8 +36,9 @@ The following sections provide examples of purchasing scenarios in [!INCLUDE [pr
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
-| [GRNI overview](#example-goods-received-not-invoiced-grni-overview) | Get a Goods Received, Not Invoiced (GRNI) overview across vendors. | **Type**, **Amt. Rec. Not Invoiced (LCY)** (filter on these fields), **Vendor No.**, **Document No.**, **No.**, and **Amt. Rec. Not Invoiced (LCY)** <br> **NOTE:** You must personalize the page to add these fields. To learn more, go to [Personalize your workspace](ui-personalization-user.md). | 
+| [GRNI overview](#example-goods-received-not-invoiced-grni-overview) | Get a Goods Received, Not Invoiced (GRNI) overview across vendors. | [Purchase lines](https://businesscentral.dynamics.com/?page=518) | **Type**, **Amt. Rec. Not Invoiced (LCY)** (filter on these fields), **Vendor No.**, **Document No.**, **No.**, and **Amt. Rec. Not Invoiced (LCY)** <br> **NOTE:** You must personalize the page to add these fields. To learn more, go to [Personalize your workspace](ui-personalization-user.md). | 
 | [Finance (Accounts Payable)](#example-finance-accounts-payable) | See what you owe your vendors, maybe broken down into time intervals for when amounts are due. | [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29) | **Vendor Name**, **Document Type**, **Document No.**, **Due Date Year**, **Due Date Month**, and **Remaining Amount**. |
+
 
 ## Example: Goods Received, Not Invoiced (GRNI) overview
 
@@ -83,6 +84,7 @@ When you post a purchase document, [!INCLUDE [prod_short](includes/prod_short.md
 - In addition, purchase documents are always recorded in the **Purch. Recpt. Header** and **Purch. Inv. Header** tables.
 
 To learn more, go to [Posting purchases](purchasing-how-record-purchases.md#posting-purchases).
+
 
 ## See also
 

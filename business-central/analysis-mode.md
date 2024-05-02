@@ -240,5 +240,6 @@ The public preview of this feature has the following limitations:
 
 ## See also
 
-[Ad-hoc Data Analysis](reports-adhoc-analysis.md)  
+[Ad-hoc data analysis by functional area](ad-hoc-data-analysis-by-functional-area.md)   
+[Ad-hoc data analysis](reports-adhoc-analysis.md)  
 [View and Edit in Excel](across-work-with-excel.md)  

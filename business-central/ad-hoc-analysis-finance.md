@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Ad-hoc analysis of finance data
 
-This article explains how to use the **Data Analysis** feature to analyze finance data directly from list pages and queries. You don't have to run a report or switch to another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "TODO" or "TODO," or any other view you can imagine. To learn more about how to use the **Data Analysis** feature, go to [Analyze list and query data with analysis mode](analysis-mode.md).
+This article explains how to use the **Data Analysis** feature to analyze finance data directly from list pages and queries. You don't have to run a report or switch to another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "Total assets over time", "Accounts Receivable", "Accounts Payable," or any other view you can imagine. To learn more about how to use the **Data Analysis** feature, go to [Analyze list and query data with analysis mode](analysis-mode.md).
 
 Use the following list pages to start doing ad-hoc analysis of finance processes:
 
@@ -33,7 +33,10 @@ Use the **Data Analysis** feature for quick fact checking and ad-hoc analysis:
 
 The following sections provide examples of finance scenarios in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-| [Finance (Accounts Receivables)](#example-finance-accounts-receivables) | See what your customers owe you, for example, broken down into time intervals for when amounts are due. | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) | **Customer Name**, **Due Date**, and **Remaining Amount** |
+| Area | To... | Open this page in analysis mode | Using these fields |
+| ---- | ----- | ------------------------------- |------------------- |
+| [Finance (Accounts Receivable)](#example-finance-accounts-receivables) | See what your customers owe you, for example, broken down into time intervals for when amounts are due. | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) | **Customer Name**, **Due Date**, and **Remaining Amount** |
+| [Finance (Accounts Payable)](#example-finance-accounts-payable) | See what you owe your vendors, maybe broken down into time intervals for when amounts are due. | [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29) | **Vendor Name**, **Document Type**, **Document No.**, **Due Date Year**, **Due Date Month**, and **Remaining Amount**. |
 | [Finance (Income statement)](#example-finance-income-statement) | See your income over the income accounts from the chart of account, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) | **G/L Account No.**, **Posting Date**, and **Amount**. |
 | [Finance (total assets)](#example-finance-total-assets) | See your assets over the asset accounts from the chart of account, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) | **G/L Account No.**, **Posting Date**, and **Amount**. |
 
@@ -49,6 +52,24 @@ To see what your customers owe you, maybe broken down into time intervals for wh
 1. Finally, find the **Due Date Month** field and drag it to the **Column Labels** area. 
 1. If you want to restrict the analysis to a given year/quarter, apply a filter in the **Additional Filters** menu (to the right, just below the **Columns** menu.) 
 1. Rename your analysis tab to "Aged Accounts by Month" or something that describes this analysis for you. 
+
+
+### Example: Finance (Accounts Payable)
+
+To see what you owe your vendors, maybe broken down into time intervals for when amounts are due, follow these steps:
+
+1. Open the [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29) list page, and turn on analysis mode.
+1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
+1. Turn on **Pivot** mode (located directly above the **Search** field).
+1. Drag the **Vendor Name**, **Document Type**, and **Document No.** fields to the **Row Groups** area, and then drag the **Remaining Amount** field to the **Values** area.
+1. Drag the **Due Date Year** and **Due Date Month** fields to the **Column Labels** area. Drag the fields in that order.
+1. To do the analysis for a given year or quarter, apply a filter in the **Additional Filters** menu (to the right of the page, just below the **Columns** menu.)
+1. Rename your analysis tab to **Aged Payable Accounts by Month**, or something that describes this analysis for you.
+
+The following image shows the result of these steps.
+
+:::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries.png":::
+
 
 ### Example: Finance (Income statement)
 

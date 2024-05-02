@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice
 ms.search.form: 359, 360, 6103, 6133
-ms.date: 03/29/2023
+ms.date: 05/02/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---

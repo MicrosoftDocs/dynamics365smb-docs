@@ -267,7 +267,7 @@ additionalContent:
             url: /dynamics365/business-central/map-edocuments-with-copilot
           - text: Reconcile bank accounts
             url: /dynamics365/business-central/bank-reconciliation-with-copilot
-          - text: Suggest lines suggestions
+          - text: Suggest sales lines
             url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
       - title: Workspace settings
         links:

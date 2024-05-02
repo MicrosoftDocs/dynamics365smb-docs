@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 04/24/2023
+ms.date: 05/01/2024
 ms.custom: bap-template
 ms.search.form: 30118, 30119, 30120, 30101, 30102 
 ms.service: dynamics-365-business-central
@@ -144,7 +144,7 @@ On the **Shopify Shop Card** page, turn on the **Allow Data Sync to Shopify** to
 
 ### Error: Oauth error invalid_request: Could not find Shopify API application with api_key
 
-You may have used the [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), where the client URL has the format: `https://[application name].bc.dynamics.com`. The Shopify connector doesn't work for Embed Apps. To learn more, go to [Which Microsoft products are the Shopify connector available for?](shopify-faq.md#which-microsoft-products-is-the-shopify-connector-available-for).
+You may have used the [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), where the client URL has the format: `https://[application name].bc.dynamics.com`. The Shopify connector doesn't work for Embed Apps. To learn more, go to [Which Microsoft products work with the Shopify Connector?](shopify-faq.md#which-microsoft-products-work-with-the-shopify-connector).
 
 ### Error: Internal Error. Looks like Something Went Wrong on Our End. Request ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
 
@@ -155,6 +155,10 @@ Contact Shopify support within seven days of experiencing this error, and provid
 The user who requested access doesn’t have the rights to manage apps (the ability to manage and install apps and channels, as well as potentially approve app charges). You may be able to resolve this by installing the app as the account owner. Alternatively, you can check the **App permission** for the user in the [**User and permissions**](https://www.shopify.com/admin/settings/account) settings in your **Shopify admin**.  
 
 ### [{"message":"Access denied for FIELD field.","locations":[{"line":0,"column":0}],"path":["path"],"extensions":{"code":"ACCESS_DENIED","documentation":https://shopify.dev/api/usage/access-scopes}}]
+
+Request a new token because the updated version of the connector requires more permissions (application scopes). To learn more, go to [Request access token](#request-the-access-token).
+
+### [API] Invalid API key or access token (unrecognized login or wrong password)
 
 Request a new token because the updated version of the connector requires more permissions (application scopes). To learn more, go to [Request access token](#request-the-access-token).
 

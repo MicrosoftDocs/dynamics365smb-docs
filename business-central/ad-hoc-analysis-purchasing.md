@@ -92,7 +92,6 @@ To learn more, go to [Posting purchases](purchasing-how-record-purchases.md#post
 
 [Posting purchases](purchasing-how-record-purchases.md#posting-purchases)  
 [Analyze list and query data with analysis mode](analysis-mode.md)  
-[Purchasing overview](purchasing-manage-purchasing.md)  
 [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
 [Purchasing overview](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

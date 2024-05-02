@@ -107,11 +107,10 @@ To learn more, see
 
 ## See also
 
-[Posting sales](ui-post-sales.md)  
 [Analyze list and query data with analysis mode](analysis-mode.md)  
-[Sales analytics overview](sales-analytics-overview.md)  
+[Financial analytics overview](bi.md)  
 [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
-[Sales overview](sales-manage-sales.md)  
+[Finance overview](finance.md)   
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

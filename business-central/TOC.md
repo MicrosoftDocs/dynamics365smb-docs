@@ -486,7 +486,7 @@ ms.service: dynamics-365-business-central
 #### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
 #### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
 
-<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
 
 ### Built-in finance analysis tools
 #### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)

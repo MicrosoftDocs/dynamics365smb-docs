@@ -36,8 +36,9 @@ The following sections provide examples of purchasing scenarios in [!INCLUDE [pr
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
-| [GRNI overview](#example-goods-received-not-invoiced-grni-overview) | Get a Goods Received, Not Invoiced (GRNI) overview across vendors. | **Type**, **Amt. Rec. Not Invoiced (LCY)** (filter on these fields), **Vendor No.**, **Document No.**, **No.**, and **Amt. Rec. Not Invoiced (LCY)** <br> **NOTE:** You must personalize the page to add these fields. To learn more, go to [Personalize your workspace](ui-personalization-user.md). | 
+| [GRNI overview](#example-goods-received-not-invoiced-grni-overview) | Get a Goods Received, Not Invoiced (GRNI) overview across vendors. | [Purchase lines](https://businesscentral.dynamics.com/?page=518) | **Type**, **Amt. Rec. Not Invoiced (LCY)** (filter on these fields), **Vendor No.**, **Document No.**, **No.**, and **Amt. Rec. Not Invoiced (LCY)** <br><br> **NOTE:** You must personalize the page to add these fields. To learn more, go to [Personalize your workspace](ui-personalization-user.md). | 
 | [Finance (Accounts Payable)](#example-finance-accounts-payable) | See what you owe your vendors, maybe broken down into time intervals for when amounts are due. | [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29) | **Vendor Name**, **Document Type**, **Document No.**, **Due Date Year**, **Due Date Month**, and **Remaining Amount**. |
+ 
 
 ## Example: Goods Received, Not Invoiced (GRNI) overview
 
@@ -55,6 +56,7 @@ To create a Goods Received, Not Invoiced (GRNI) overview across vendors, follow 
 1. To do the analysis for a given year or quarter, apply a filter in the **Additional Filters** menu. The menu is on the right of the page, just below the **Columns** menu.
 1. Rename your analysis tab to **Goods Received, Not Invoiced (GRNI)**, or something that describes this analysis for you.
 
+
 ## Example: Finance (Accounts Payable)
 
 To see what you owe your vendors, maybe broken down into time intervals for when amounts are due, follow these steps:
@@ -71,6 +73,7 @@ The following image shows the result of these steps.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
+
 ## Data foundation for ad-hoc analysis on purchasing
 
 When you post a purchase document, [!INCLUDE [prod_short](includes/prod_short.md)] updates the vendor's account, general ledger (G/L), item ledger entries, and resource ledger entries:
@@ -84,11 +87,11 @@ When you post a purchase document, [!INCLUDE [prod_short](includes/prod_short.md
 
 To learn more, go to [Posting purchases](purchasing-how-record-purchases.md#posting-purchases).
 
+
 ## See also
 
 [Posting purchases](purchasing-how-record-purchases.md#posting-purchases)  
 [Analyze list and query data with analysis mode](analysis-mode.md)  
-[Purchasing overview](purchasing-manage-purchasing.md)  
 [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
 [Purchasing overview](purchasing-manage-purchasing.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

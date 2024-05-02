@@ -17,6 +17,7 @@ The general content about ad-hoc data analysis is also available in special vers
 
 | If you work with... | See |
 | ------------------- | --- |
+| Finance             | [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) |
 | Sales               | [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md) |
 | Purchasing          | [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md) |
 

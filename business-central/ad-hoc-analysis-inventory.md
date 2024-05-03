@@ -46,6 +46,10 @@ To analyze items in your inventory that have been on stock for long and is not s
 1. Set a 'Less than' filter on _Posting Date_ to define what you mean by "old".
 1. Rename your analysis tab to **Old stock** or something that describes this analysis for you.
 
+The following image shows the result of these steps.
+
+:::image type="content" source="media/data-analysis-inventory-dead-stock.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-inventory-dead-stock.png":::
+
 
 <!-- | Inventory (track returns by return reason and month) | Get an overview of goods that customers return, broken down on the return reason. Use this for your quality control processes. | Open the _Item Ledger Entries_ list, add the field _Return Reason Code_ using personalization (in the very top menu to the right, go to Settings, Personlize). Exit personalization mode. Now switch on Analyze. Go to the Columns menu and remove all columns (click the box next to the _Search_ field). Drag the fields _Return Reason Code_, and _Posting Date Month_ to the _Row Groups_ area (in that order). Then drag the fields _Quantity_ and _Cost Amount_ to the _Values_ area. Finally, pick any other fields that you want in the analysis, and enable them in the Columns area. In this example, we enable _Posting Date_, _Document Type_, _Item No._, and  _Document No._ | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) | _Return Reason Code_, _Posting Date Month_, _Quantity_ , _Cost Amount_, _Posting Date_, _Document Type_, _Item No._, and  _Document No._ . |
 

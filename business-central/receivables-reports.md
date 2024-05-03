@@ -27,6 +27,7 @@ To help you manage your accounts receivable in [!INCLUDE [prod_short](includes/p
 
 ## See also
 
+[Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)   
 [Financial analytics](bi.md)   
 [Work with Dimensions](finance-dimensions.md)  
 [Managing Fixed Assets](fa-manage.md)  

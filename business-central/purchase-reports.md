@@ -22,7 +22,7 @@ Purchase reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows pro
 
 The following articles describe some of the key tasks for analyzing the state of your purchasing:
 
-* [View the Availability of Items](inventory-how-availability-overview.md)  
+- [View the Availability of Items](inventory-how-availability-overview.md)  
 - [Calculate Dates for purchases](purchasing-date-calculation-for-purchases.md)
 - [View purchase ledger entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
 

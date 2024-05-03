@@ -27,6 +27,7 @@ ms.service: dynamics-365-business-central
 
 ## See also
 
+[Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)   
 [Financial analytics](bi.md)   
 [Creating Cost Budgets](finance-create-cost-budgets.md)  
 [Report VAT to Tax Authorities](finance-how-report-vat.md)  

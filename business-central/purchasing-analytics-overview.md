@@ -107,7 +107,10 @@ To learn more about reports that are relevant for purchasing, go to [Built-in pu
 
 [!INCLUDE [prod_short](includes/prod_short.md)] has several pages that give you purchasing overviews and tasks to do. Here's an example to get you started:
 
+- [View the Availability of Items](inventory-how-availability-overview.md)  
 - [Calculate Dates for purchases](purchasing-date-calculation-for-purchases.md)
+- [View purchase ledger entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
+
 
 ### Show purchasing-related general ledger entries and balances from the Chart of Accounts page
 

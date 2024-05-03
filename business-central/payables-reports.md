@@ -12,18 +12,21 @@ ms.service: dynamics-365-business-central
 ---
 # Accounts payable reports and analytics
 
-To help you manage your accounts payable in [!INCLUDE [prod_short](includes/prod_short.md)], standard reports and analytics are built in. It moves beyond traditional reporting constraints to help you efficiently design various types of reports.  
+[!INCLUDE [prod_short](includes/prod_short.md)] has built-in reports and analytics that can help you manage your accounts payable. The tools go  beyond traditional reporting constraints, and make it easy to design various types of reports.  
 
 ## Reports
+
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
+
+## Explore finance reports with Report Explorer
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 ## See also
 
-[Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
-[Work with Dimensions](finance-dimensions.md)  
-[Managing Fixed Assets](fa-manage.md)  
-[Local Functionality Overview](about-localization.md)  
+[Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)  
+[Financial analytics](bi.md)  
+[Purchasing analytics](purchasing-analytics-overview.md)  
 [Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

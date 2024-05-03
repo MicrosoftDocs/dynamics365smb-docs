@@ -129,9 +129,9 @@ When you post a purchase document, [!INCLUDE [prod_short](includes/prod_short.md
 ## See also
 
 [Analyze list and query data with analysis mode](analysis-mode.md)  
-[Inventory analytics overview](inventory-analytics-overview.md)
+[Inventory analytics overview](inventory-analytics-overview.md)  
 [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
-[Inventory overview](inventory-manage-inventory.md)
+[Inventory overview](inventory-manage-inventory.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

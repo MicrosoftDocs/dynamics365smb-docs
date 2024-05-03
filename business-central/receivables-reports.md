@@ -27,11 +27,10 @@ To help you manage your accounts receivable in [!INCLUDE [prod_short](includes/p
 
 ## See also
 
+[Key financial reports](finance-reports.md)  
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)   
 [Financial analytics](bi.md)   
-[Work with Dimensions](finance-dimensions.md)  
-[Managing Fixed Assets](fa-manage.md)  
-[Local Functionality Overview](about-localization.md)  
+[Sales analytics](sales-analytics-overview.md)  
 [Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

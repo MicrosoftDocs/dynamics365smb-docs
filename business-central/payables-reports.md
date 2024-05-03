@@ -26,9 +26,7 @@ To help you manage your accounts payable in [!INCLUDE [prod_short](includes/prod
 
 [Ad hoc analysis on finance data](ad-hoc-analysis-finance.md)   
 [Financial analytics](bi.md)    
-[Work with Dimensions](finance-dimensions.md)  
-[Managing Fixed Assets](fa-manage.md)  
-[Local Functionality Overview](about-localization.md)  
+[Purchasing analytics](purchasing-analytics-overview.md)  
 [Accountant Experiences in [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
 
 

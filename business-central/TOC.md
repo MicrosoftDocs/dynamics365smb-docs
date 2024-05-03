@@ -1848,7 +1848,7 @@ ms.service: dynamics-365-business-central
 ## Built-in reports
 ### [Report overview](reports-available-reports.md)
 ### Finance
-#### [Financial reporting](bi.md)
+#### [Prepare financial reporting](bi-how-work-account-schedule.md)
 #### [Key financial reports](finance-reports.md)
 #### [Accounts receivable reports](receivables-reports.md)
 #### [Accounts payable reports](payables-reports.md)

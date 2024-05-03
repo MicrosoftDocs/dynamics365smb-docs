@@ -33,7 +33,27 @@ The following sections provide examples of inventory scenarios in [!INCLUDE [pro
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
+| [Inventory on Hand](#example-inventory-on-hand) | Get an overview of items in your inventory that are available. | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) | **Item No.**, **Remaining Quantity** |
 | [Track dead/old stock](#example-inventory-track-deadold-stock) | Get an overview of items in your inventory that have been on stock for long and is not selling well. | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) | **Posting Date Year**, **Posting Date Month**, **Item No.**, **Posting Date**, **Entry type**, **Quantity**, and **Remaining Quantity**. |
+
+## Example: Inventory on Hand
+
+To analyze items in your inventory that are in stock, follow these steps:
+
+1. Open the [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) list and turn on analysis mode.
+1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
+
+1. Drag the **Item No.** field to the **Row Groups** area. Drag the fields in that order.
+1. Drag the field **Remaining Quantity** to the **Values** ares.
+1. Set a 'Not equal' filter to 0 on **Remaining Quantity**. If you do not allow negative stock, you can use a 'Greater than' 0 filter.
+1. Optionally, add other fields to the analysis and maybe pivot on location or other fields.
+1. Rename your analysis tab to **Inventory on Hand** or something that describes this analysis for you.
+
+The following image shows the result of these steps.
+
+:::image type="content" source="media/data-analysis-inventory-on-hand.png" alt-text="Example of how to do a dead stock data analysis on the Item Ledger Entries page." lightbox="media/data-analysis-inventory-on-hand.png":::
+
+
 
 ## Example: Inventory (Track dead/old stock)
 
@@ -48,7 +68,7 @@ To analyze items in your inventory that have been on stock for long and is not s
 
 The following image shows the result of these steps.
 
-:::image type="content" source="media/data-analysis-inventory-dead-stock.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-inventory-dead-stock.png":::
+:::image type="content" source="media/data-analysis-inventory-dead-stock.png" alt-text="Example of how to do a dead stock data analysis on the Item Ledger Entries page." lightbox="media/data-analysis-inventory-dead-stock.png":::
 
 
 <!-- | Inventory (track returns by return reason and month) | Get an overview of goods that customers return, broken down on the return reason. Use this for your quality control processes. | Open the _Item Ledger Entries_ list, add the field _Return Reason Code_ using personalization (in the very top menu to the right, go to Settings, Personlize). Exit personalization mode. Now switch on Analyze. Go to the Columns menu and remove all columns (click the box next to the _Search_ field). Drag the fields _Return Reason Code_, and _Posting Date Month_ to the _Row Groups_ area (in that order). Then drag the fields _Quantity_ and _Cost Amount_ to the _Values_ area. Finally, pick any other fields that you want in the analysis, and enable them in the Columns area. In this example, we enable _Posting Date_, _Document Type_, _Item No._, and  _Document No._ | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) | _Return Reason Code_, _Posting Date Month_, _Quantity_ , _Cost Amount_, _Posting Date_, _Document Type_, _Item No._, and  _Document No._ . |
@@ -58,8 +78,7 @@ The following image shows the result of these steps.
 
 | Inventory (input/output) | Get an overview of purchases/sales in your inventory by Month (or Quarter.) | Open the _Item Ledger Entries_ list and switch on Analyze. Go to the Columns menu and remove all columns (click the box next to the _Search_ field). Turn on _Pivot_ mode (located directly above the _Search_ field). Now drag the fields _Posting Date Year_, _Posting Date Month_, and _Item No._ to the _Row Groups_ area. Then drag the fields _Quantity_ and _Sales Amount_ to the _Values_ area. Save this analysis as _Sales by Month_. Now copy this analysis (choose Duplicate in the Analysis menu) and change the field _Sales Amount_ to _Cost Amount (Actual)_ in the _Values_ area. Save this analysis as _Purchases by Month_.  | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) | _Posting Date Year_, _Posting Date Month_, _Item No._, _Quantity_, _Sales Amount (actual)_, and _Cost Amount_. |
 
-See also
-https://www.abccgroup.com/post/inventory-on-hand-item-availability-reporting-for-business-central -->
+-->
 
 
 

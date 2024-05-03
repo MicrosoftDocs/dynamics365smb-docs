@@ -52,7 +52,7 @@ After you have set up the change log, activated it, and made a change to data, y
 
 ## Analyzing Change Log data
 
-You can use the **Data Analysis** feature to analyze Change Log data data directly from the XXX list page. You don't have to run a report or switch to another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "XXX" or "XXX," or any other view you can imagine. To learn more about how to use the **Data Analysis** feature, go to [Analyze list and query data with analysis mode](analysis-mode.md).
+You can use the **Data Analysis** feature to analyze Change Log data data directly from the [Change Log Entries](https://businesscentral.dynamics.com/?page=595) page. You don't have to run a report or switch to another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "Who changed What data When" or "Data Changes by table/field," or any other view you can imagine. To learn more about how to use the **Data Analysis** feature, go to [Analyze list and query data with analysis mode](analysis-mode.md).
 
 ### Change Log ad-hoc analysis scenarios
 
@@ -61,27 +61,28 @@ The following sections provide examples of scenarios where analyzing change log 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
 | [Who changed What data When](#example-who-changed-what-data-when) | See who changed what sensitive data or what data was changed by whom. | [Change Log Entries](https://businesscentral.dynamics.com/?page=595) | **User ID**, **Date and Time**, **Table Caption**, **Field Caption**, **Primary Key Value 2**, **Primary Key Value 3**, **Type of Change**, **Old Value**, and **New Value**. |
+| [data changes by table/field](#example-data-changes-by-tablefield) | See data changes by table/field and who did the change. | [Change Log Entries](https://businesscentral.dynamics.com/?page=595) | 
+**Table Caption**, **Field Caption**, **User ID**, **Date and Time**, **Primary Key Value 2**, **Primary Key Value 3**, **Type of Change**, **Old Value**, and **New Value**. |
 
 ### Example: Who changed What data When
 
-To analyze your expected sales volume and sales amounts for unshipped orders for each customer by year or month, follow these steps:
+To analyze Who changed What data When, follow these steps:
 
 1. Open the [Change Log Entries](https://businesscentral.dynamics.com/?page=595) list and turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
-1. Drag the **Sell-to Customer Name**, **Sell-to Customer No.**, and **No.** fields to the **Row Groups** area. Drag the fields in that order.
-1. Drag the field **Amount** field to the **Values** area.
-1. Drag the **Document Date Year** and **Document Date Month** fields to the **Column Labels** area. Drag the fields in that order.
-1. To do the analysis for a given year or quarter, apply a filter in the **Additional Filters** menu. The menu is on the right of the page, just below the **Columns** menu.
-1. Rename your analysis tab to **Expected sales volume** or something that describes this analysis for you.
 1. Drag the field **User ID** (who did it) to the **Row Groups** area.
 1. Now click the fields **Date and Time** (when did it happen), **Table Caption** (on what table), **Field Caption** (on which field), **Primary Key Value 2** (typically a code field), **Primary Key Value 3** (typically the company name), **Type of Change** (Insert/Update/Delete), **Old Value**, **New Value**.
+1. Rename your analysis tab to **Who changed What data When** or something that describes this analysis for you.
 
+### Example: data changes by table/field
 
-<!-- 
+To analyze data changes by table/field, follow these steps:
 
-</br></br> To analyze **Data Changes by table/field**, drag the fields _Table Caption_ (on what table), _Field Caption_ (on which field) to the _Row Groups_ area (and click the fields above, including the _User ID_ field). |  | _User ID_ (who did it), _Date and Time_ (when did it happen), _Table Caption_ (on what table), _Field Caption_ (on which field), _Primary Key Value 2_ (typically a code field), _Primary Key Value 3_ (typically the company name), _Type of Change_ (Insert/Update/Delete), _Old Value_, and _New Value_. |  N/A  | -->
-
-
+1. Open the [Change Log Entries](https://businesscentral.dynamics.com/?page=595) list and turn on analysis mode.
+1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
+1. Drag the fields **Table Caption** (on what table), **Field Caption** (on which field) to the **Row Groups** area.
+1. Now click the fields **Date and Time** (when did it happen), **User ID** (who did it), **Primary Key Value 2** (typically a code field), **Primary Key Value 3** (typically the company name), **Type of Change** (Insert/Update/Delete), **Old Value**, **New Value**.
+1. Rename your analysis tab to **Data changes by table/field** or something that describes this analysis for you.
 
 
 

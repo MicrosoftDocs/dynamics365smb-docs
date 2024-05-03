@@ -75,7 +75,7 @@ To analyze Who changed What data When, follow these steps:
 
 The following image shows the result of these steps.
 
-:::image type="content" source=" media/data-analysis-change-log-entries-Who-changed-What-data-When.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-change-log-entries-Who-changed-What-data-When.png":::
+:::image type="content" source=" media/data-analysis-change-log-entries-Who-changed-What-data-When.png" alt-text="Example of how to do data analysis on the Change Log Entries page (Who changed What data When)." lightbox="media/data-analysis-change-log-entries-Who-changed-What-data-When.png":::
 
 
 ### Example: data changes by table/field
@@ -90,7 +90,7 @@ To analyze data changes by table/field, follow these steps:
 
 The following image shows the result of these steps.
 
-:::image type="content" source=" media/data-analysis-change-log-entries-data-changes-by-table-field.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-change-log-entries-data-changes-by-table-field.png.png":::
+:::image type="content" source=" media/data-analysis-change-log-entries-data-changes-by-table-field.png" alt-text="Example of how to do data analysis on the Change Log Entries page (data changes by table/field)." lightbox="media/data-analysis-change-log-entries-data-changes-by-table-field.png":::
 
 
 ## About activity logs

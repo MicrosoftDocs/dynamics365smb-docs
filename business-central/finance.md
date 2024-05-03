@@ -49,6 +49,26 @@ This section describes some of the accounting tools that you use to register fin
 | Learn about the available options to automate sending subscription invoices to customers and register recurring revenue. |[Work with Recurring Revenue](finance-recurring-invoicing.md)|
 |Post employee expenses for work-related activities and make reimbursements directly to employee bank accounts.|[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
 
+
+## Financial analytics 
+
+This section describes all the analytical tools you can use to get insights into your finance data.
+
+| To... | See |
+| --- | --- |
+| Learn about all capabilities that exists for analyzing finance data. | [Financial analytics overview](bi.md) |
+| Setup finance reporting across business units or legal entities. | [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md) |
+| Set up and use Financial Reporting to produce financial statements and overviews. | [Prepare financial reporting](bi-how-work-account-schedule.md) |
+| Perform ad-hoc analysis of finance data directly on list pages and queries. | [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) |
+| Analyze finance data from the Chart of Accounts. | [Analyze finance data from the Chart of Accounts](finance-general-ledger.md) |
+| Analyze actual amounts versus budgeted amounts. | [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md) |
+| Analyze Cash Flow. | [Analyze Cash Flow](finance-analyze-cash-flow.md) |
+| Explore built-in key finance reports. | [Built-in key finance reports](finance-reports.md) |
+| Explore built-in key fixed assets reports. | [Built-in fixed assets reports](fa-reports.md) |
+| Explore built-in key accounts receivable reports. | [Built-in accounts receivable reports](receivables-reports.md)
+| Explore built-in accounts payable reports. | [Built-in accounts payable reports](payables-reports.md)
+
+
 ## VAT and taxes
 
 Working with VAT in [!INCLUDE[prod_short](includes/prod_short.md)] is easy, and you can either use a manual or an automatic setup. These articles provide information about how to meet your country/region-specific regulations.

@@ -64,6 +64,7 @@ The following table describes how to perform simple sales processes.
 |To...| See |
 |---|---|
 | Create a sales quote to offer products on negotiable terms before converting the quote to a sales invoice. |[Make Sales Quotes](sales-how-make-offers.md) |
+| Process a sales order (maybe doing partial shipping or drop shipment.) |[Sell Products](sales-how-sell-products.md) |
 | Create a sales invoice to record your agreement with a customer to sell them certain products on certain delivery and payment terms. |[Invoice Sales](sales-how-invoice-sales.md) |
 |Understand what happens when you post sales documents.|[Posting Sales](ui-post-sales.md)|
 
@@ -72,7 +73,6 @@ If you need to do more complex sales processes, the following table describes ke
 
 |To...| See |
 |---|---|
-| Process a sales order that involves partial shipping or drop shipment. |[Sell Products](sales-how-sell-products.md) |
 | Fulfill a sales order with multiple partial shipments. | [Process Partial Shipments](sales-how-send-partial-shipments.md) |
 | Set up standard sales or purchase lines you can quickly insert on documents, for example, for recurring replenishment orders.|[Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)|  
 |Manage your customer's commitment to purchase large quantities delivered in several shipments over time.|[Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)|
@@ -116,9 +116,8 @@ The following table describes how to deal with other topics in sales.
 
 [Setting Up Sales](sales-setup-sales.md)  
 [Register New Customers](sales-how-register-new-customers.md)  
+[Sales analytics overview](sales-analytics-overview.md)   
 [Managing Receivables](receivables-manage-receivables.md)  
-[Managing Payables](payables-manage-payables.md)  
-[Project Management](projects-manage-projects.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [General Business Functionality](ui-across-business-areas.md)
 

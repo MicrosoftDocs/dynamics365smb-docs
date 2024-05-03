@@ -113,6 +113,8 @@ To learn more about reports that are relevant for inventory, go to [Built-in inv
 - [View the Availability of Items](inventory-how-availability-overview.md)
 - [Track items with serial, lot, and package numbers](inventory-how-work-item-tracking.md)
 - [Trace item-tracked items](inventory-how-to-trace-item-tracked-items.md)
+- [Audit the reconciliation between the inventory ledger and the general ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
+- [View cross-docked items in a shipment or pick worksheet](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
 
 
 The sales module also include analytics pages related to inventory:

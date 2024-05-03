@@ -1858,11 +1858,7 @@ ms.service: dynamics-365-business-central
 
 ### [Sales reports](sales-reports.md)
 ### [Purchase reports](purchase-reports.md)
-
-### Inventory and warehouse
-#### [Inventory and warehouse reports](inventory-wms-reports.md)
-#### [Audit the reconciliation between the inventory ledger and the general ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [View cross-docked items in a shipment or pick worksheet](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+### [Inventory and warehouse reports](inventory-wms-reports.md)
 
 ### Project
 #### [Project reports](project-reports.md)

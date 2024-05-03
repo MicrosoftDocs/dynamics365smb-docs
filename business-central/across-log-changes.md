@@ -61,8 +61,7 @@ The following sections provide examples of scenarios where analyzing change log 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
 | [Who changed What data When](#example-who-changed-what-data-when) | See who changed what sensitive data or what data was changed by whom. | [Change Log Entries](https://businesscentral.dynamics.com/?page=595) | **User ID**, **Date and Time**, **Table Caption**, **Field Caption**, **Primary Key Value 2**, **Primary Key Value 3**, **Type of Change**, **Old Value**, and **New Value**. |
-| [data changes by table/field](#example-data-changes-by-tablefield) | See data changes by table/field and who did the change. | [Change Log Entries](https://businesscentral.dynamics.com/?page=595) | 
-**Table Caption**, **Field Caption**, **User ID**, **Date and Time**, **Primary Key Value 2**, **Primary Key Value 3**, **Type of Change**, **Old Value**, and **New Value**. |
+| [Data changes by table/field](#example-data-changes-by-tablefield) | See data changes by table/field and who did the change. | [Change Log Entries](https://businesscentral.dynamics.com/?page=595) | **Table Caption**, **Field Caption**, **User ID**, **Date and Time**, **Primary Key Value 2**, **Primary Key Value 3**, **Type of Change**, **Old Value**, and **New Value**. |
 
 ### Example: Who changed What data When
 
@@ -87,8 +86,11 @@ To analyze data changes by table/field, follow these steps:
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
 1. Drag the fields **Table Caption** (on what table), **Field Caption** (on which field) to the **Row Groups** area.
 1. Now click the fields **Date and Time** (when did it happen), **User ID** (who did it), **Primary Key Value 2** (typically a code field), **Primary Key Value 3** (typically the company name), **Type of Change** (Insert/Update/Delete), **Old Value**, **New Value**.
-1. Rename your analysis tab to **Data changes by table/field** or something that describes this analysis for you.
+1. Rename your analysis tab to **Data changes by table + field** or something that describes this analysis for you.
 
+The following image shows the result of these steps.
+
+:::image type="content" source=" media/data-analysis-change-log-entries-data-changes-by-table-field.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-change-log-entries-data-changes-by-table-field.png.png":::
 
 
 ## About activity logs

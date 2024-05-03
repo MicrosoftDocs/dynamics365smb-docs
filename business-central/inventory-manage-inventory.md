@@ -24,6 +24,16 @@ To enhance your overview of items and to help you find them, you can categorize 
 
 Planning for items to fulfill demand is covered as part of supply planning functionality. Learn more at [Planning](production-planning.md).  
 
+## Inventory analytics
+
+This section describes the analytical tools you can use to get insights into your inventory data.
+
+| To... | See |
+| --- | --- |
+| Learn about capabilities for analyzing inventory data. | [Sales analytics overview](inventory-analytics-overview.md) |
+| Do ad-hoc analysis of inventory data directly on list pages and queries. | [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md) |
+| Explore built-in inventory reports. | [Built-in inventory and warehouse reports](inventory-WMS-reports.md) |
+
 ## Inventory reconciliation
 
 When you post inventory transactions, such as sales shipments, purchase invoices, or inventory adjustments, the changed item costs are recorded in item value entries. To reflect this change in inventory value in your financial books, the inventory costs are automatically posted to the related inventory accounts in the general ledger. For each inventory transaction you post, the appropriate values are posted to the inventory account, adjustment account, and COGS account in the general ledger. Learn more at [Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md).

@@ -225,11 +225,7 @@ To see what your customers owe you, maybe broken down into time intervals for wh
 
 Many of the functional areas in [!INCLUDE[prod_short](includes/prod_short.md)] have articles with ad-hoc data analysis examples.
 
-| If you work with... | See |
-| ------------------- | --- |
-| Finance             | [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) |
-| Sales               | [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md) |
-| Purchasing          | [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md) |
+[!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
 ## Limitations in 2023 release wave 1 (preview)
 

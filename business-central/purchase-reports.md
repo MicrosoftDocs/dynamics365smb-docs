@@ -20,15 +20,16 @@ Purchase reporting in [!INCLUDE [prod_short](includes/prod_short.md)] allows pro
 
 ## Tasks
 
-The following articles describe some of the key tasks for analyzing the state of your business:
+The following articles describe some of the key tasks for analyzing the state of your purchasing:
 
-* [Create Analysis Reports](bi-how-create-analysis-views-reports.md)  
 * [View the Availability of Items](inventory-how-availability-overview.md)  
+- [Calculate Dates for purchases](purchasing-date-calculation-for-purchases.md)
+- [View purchase ledger entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
 
 ## Explore purchase reports with Report Explorer
 
-To get an overview of available reports relevant for purchasing, choose **All reports** on the top pane of your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. Now find the *Purchasing* heading and choose **Explore**.
+To get an overview of available reports relevant for purchasing, choose **All reports** on the top pane of your Home page. This action opens the Role Explorer filtered to the features in the **Report & Analysis** option. Now find the *Purchasing* heading and choose **Explore**.
 
 :::image type="content" source="media/report-explorer-purchasing.png" alt-text="Example of reports on the XXX role center." lightbox="media/report-explorer-purchasing.png":::
 
@@ -37,8 +38,9 @@ To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.m
 
 ## See also
 
+[Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)  
 [Purchasing analytics overview](purchasing-analytics-overview.md)   
 [Setting Up Purchase](purchasing-setup-purchasing.md)  
-[Purchasing](purchasing-manage-purchasing.md)  
+[Purchasing overview](purchasing-manage-purchasing.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

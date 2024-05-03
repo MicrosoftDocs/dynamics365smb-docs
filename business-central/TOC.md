@@ -1854,10 +1854,7 @@ ms.service: dynamics-365-business-central
 #### [Accounts payable reports](payables-reports.md)
 
 ### [Sales reports](sales-reports.md)
-
-### Purchases
-#### [Purchase reports](purchase-reports.md)
-#### [View purchase ledger entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
+### [Purchase reports](purchase-reports.md)
 
 ### Inventory and warehouse
 #### [Inventory and warehouse reports](inventory-wms-reports.md)

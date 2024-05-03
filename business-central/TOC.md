@@ -1848,19 +1848,12 @@ ms.service: dynamics-365-business-central
 ## Built-in reports
 ### [Report overview](reports-available-reports.md)
 ### Finance
-#### [Financial business intelligence](bi.md)
-#### [Analyze financial statements with Excel](finance-analyze-excel.md)
+#### [Financial reporting](bi.md)
 #### [Key financial reports](finance-reports.md)
 #### [Accounts receivable reports](receivables-reports.md)
 #### [Accounts payable reports](payables-reports.md)
-#### [Cash flow analysis](finance-setup-cash-flow-analyses.md)
-#### [Consolidate financial data from multiple companies](finance-consolidated-company-reporting.md)
 
-### Sales
-#### [Sales reports](sales-reports.md)
-#### [Blanket sales order status](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
-#### [Package tracking](sales-how-track-packages.md)
-#### [View unposted and posted blanket sales order lines](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
+### [Sales reports](sales-reports.md)
 
 ### Purchases
 #### [Purchase reports](purchase-reports.md)

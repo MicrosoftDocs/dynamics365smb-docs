@@ -24,6 +24,15 @@ The following articles describe some of the key tasks for analyzing the state of
 * [View the Availability of Items](inventory-how-availability-overview.md)
 
 
+## Explore sales reports with Report Explorer
+
+To get an overview of available reports relevant for sales, choose **All reports** on the top pane of your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. Now find the *Sales and Marketing* heading and choose **Explore**.
+
+:::image type="content" source="media/report-explorer-sales.png" alt-text="Example of reports on the finance role center." lightbox="media/report-explorer-sales.png":::
+
+To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md). 
+
+
 ## See also
 
 [Sales analytics overview](sales-analytics-overview.md)   

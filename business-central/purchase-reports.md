@@ -25,7 +25,19 @@ The following articles describe some of the key tasks for analyzing the state of
 * [Create Analysis Reports](bi-how-create-analysis-views-reports.md)  
 * [View the Availability of Items](inventory-how-availability-overview.md)  
 
+
+## Explore purchase reports with Report Explorer
+
+To get an overview of available reports relevant for purchasing, choose **All reports** on the top pane of your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. Now find the *Purchasing* heading and choose **Explore**.
+
+:::image type="content" source="media/report-explorer-purchasing.png" alt-text="Example of reports on the XXX role center." lightbox="media/report-explorer-purchasing.png":::
+
+To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md). 
+
+
 ## See also
+
+[Purchasing analytics overview](purchasing-analytics-overview.md)   
 [Setting Up Purchase](purchasing-setup-purchasing.md)  
 [Purchasing](purchasing-manage-purchasing.md)  
 

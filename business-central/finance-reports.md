@@ -20,8 +20,14 @@ ms.service: dynamics-365-business-central
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 
+## Explore finance reports with Report Explorer
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
+
 ## See also
 
+[Financial analytics](bi.md)   
 [Creating Cost Budgets](finance-create-cost-budgets.md)  
 [Report VAT to Tax Authorities](finance-how-report-vat.md)  
 [Closing Years and Periods](year-close-years-periods.md)  

@@ -17,9 +17,14 @@ To help you manage your accounts payable in [!INCLUDE [prod_short](includes/prod
 ## Reports
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
 
+
+## Explore finance reports with Report Explorer
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
+
 ## See also
 
-[Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
+[Financial analytics](bi.md)    
 [Work with Dimensions](finance-dimensions.md)  
 [Managing Fixed Assets](fa-manage.md)  
 [Local Functionality Overview](about-localization.md)  

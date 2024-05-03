@@ -11,6 +11,7 @@ ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
 ---
+
 # Sales
 
 You create a sales invoice or sales order to record your agreement with a customer to sell certain products on certain delivery and payment terms.
@@ -31,27 +32,85 @@ Sales documents can be sent as PDF files attached to email. The email body will 
 
 For all sales processes, you can incorporate an approval workflow, for example, to require that large sales to certain customers are approved by the accounting manager. Learn more at [Use Workflows](across-use-workflows.md).
 
-The following table describes a sequence of tasks, with links to the articles that cover them.
+
+The following sections describe a sequence of tasks, with links to the articles that cover them.
+
+
+## Get started with sales capabilities
+
+Before you can begin to run your business, you must specify how you want to manage your company's sales processes.
+
+|To...| See |
+|---|---|
+| Create a customer card for each customer you sell to.|[Register New Customers](sales-how-register-new-customers.md) |
+| Set up how you do sales, such as prices and discounts, customer price and discount groups, salespeople, shipment methods and agents. | [Set up sales](sales-setup-sales.md) |
+
+
+## Sales analytics 
+
+This section describes all the analytical tools you can use to get insights into your sales data.
+
+| To... | See |
+| --- | --- |
+| Learn about all capabilities that exists for analyzing sales data. | [Sales analytics overview](sales-analytics-overview.md) |
+| Perform ad-hoc analysis of sales data directly on list pages and queries. | [Create sales analysis reports](bi-how-create-analysis-views-reports.md) |
+| Explore built-in sales reports. | [Built-in sales reports](sales-reports.md) |
+
+
+## Quote to Order to Sales Invoice
+
+The following table describes how to perform simple sales processes.
+
+|To...| See |
+|---|---|
+| Create a sales quote to offer products on negotiable terms before converting the quote to a sales invoice. |[Make Sales Quotes](sales-how-make-offers.md) |
+| Create a sales invoice to record your agreement with a customer to sell them certain products on certain delivery and payment terms. |[Invoice Sales](sales-how-invoice-sales.md) |
+|Understand what happens when you post sales documents.|[Posting Sales](ui-post-sales.md)|
+
+
+If you need to do more complex sales processes, the following table describes key articles on what you can do with [!INCLUDE[prod_short](includes/prod_short.md)].
+
+|To...| See |
+|---|---|
+| Process a sales order that involves partial shipping or drop shipment. |[Sell Products](sales-how-sell-products.md) |
+| Fulfill a sales order with multiple partial shipments. | [Process Partial Shipments](sales-how-send-partial-shipments.md) |
+| Set up standard sales or purchase lines you can quickly insert on documents, for example, for recurring replenishment orders.|[Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)|  
+|Manage your customer's commitment to purchase large quantities delivered in several shipments over time.|[Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)|
+|Invoice a customer once for multiple shipments by combining the shipments on one invoice.|[Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)|
+|Sell assembly items not currently available by creating a linked assembly order to supply the full or partial sales order quantity.|[Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)|
+
+
+## Pick and Ship
+
+The following table describes how to pick items for a sales order and ship the goods to the customer.
 
 | To | See |
 | --- | --- |
-|Create a customer card for each customer you sell to.|[Register New Customers](sales-how-register-new-customers.md)|
-| Create a sales quote to offer products on negotiable terms before converting the quote to a sales invoice. |[Make Sales Quotes](sales-how-make-offers.md) |
-| Create a sales invoice to record your agreement with a customer to sell them certain products on certain delivery and payment terms. |[Invoice Sales](sales-how-invoice-sales.md) |
-| Process a sales order that involves partial shipping or drop shipment. |[Sell Products](sales-how-sell-products.md) |
-|Understand what happens when you post sales documents.|[Posting Sales](ui-post-sales.md)|
 |Prepare to pick items for shipment.|[Print the Picking List](sales-how-print-picking-list.md)|
-| Fulfill a sales order with multiple partial shipments. | [Process Partial Shipments](sales-how-send-partial-shipments.md) |
-|Set up standard sales or purchase lines you can quickly insert on documents, for example, for recurring replenishment orders.|[Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md)|  
 | Link a sales order to a purchase order to sell a drop-shipment item to be delivered directly from your vendor to your customer. |[Make Drop Shipments](sales-how-drop-shipment.md) |
 |Have a catalog item shipped from a vendor to your warehouse so you can ship the item on to your customer.|[Create Special Orders](sales-how-to-create-special-orders.md)|
+|Inform your customers of order delivery dates by calculating either the capable-to-promise date or the available-to-promise date.|[Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)|
+| Learn how to track a package from a posted sales shipment. | [Track packages](sales-how-track-packages.md) | 
+
+
+## Cancelled orders, Refunds, and Returns
+
+The following table describes how to deal with cancelled orders, refunds, and returns of goods.
+
+| To | See |
+| --- | --- |
 | Perform an action on an unpaid posted sales invoice to automatically create a credit memo and either cancel the sales invoice or recreate it so you can make corrections. |[Correct or Cancel Unpaid Sales Invoices](sales-how-correct-cancel-sales-invoice.md) |
 | Create a sales credit memo to revert a specific posted sales invoice to reflect the products the customer returns and the payment amount you'll refund. |[Process Sales Returns or Cancellations](sales-how-process-sales-returns-cancellations.md) |
-|Manage your customer's commitment to purchase large quantities delivered in several shipments over time.|[Work with Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md)|
-|Sell assembly items not currently available by creating a linked assembly order to supply the full or partial sales order quantity.|[Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md)|
-|Invoice a customer once for multiple shipments by combining the shipments on one invoice.|[Combine Shipments on a Single Invoice](sales-how-to-combine-shipments-on-a-single-invoice.md)|
-|Inform your customers of order delivery dates by calculating either the capable-to-promise date or the available-to-promise date.|[Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md)|
+
+
+## Other topics in sales
+
+The following table describes how to deal with other topics in sales.
+
+| To | See |
+| --- | --- |
 |Resolve confusion when two or more records exist for the same customer.|[Merge Duplicate Records](sales-how-merge-duplicate-records.md)|
+
 
 ## See also
 

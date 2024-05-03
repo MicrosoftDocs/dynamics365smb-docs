@@ -62,20 +62,20 @@ https://www.abccgroup.com/post/inventory-on-hand-item-availability-reporting-for
 
 ## Data foundation for ad-hoc analysis on inventory
 
-After you enter information on a sales order and add all the sales order lines, you can post the order. Posting creates a shipment and an invoice. [!INCLUDE [prod_short](includes/prod_short.md)] updates the customer's account, general ledger, and item ledger entries:
+When you post a sales order, [!INCLUDE [prod_short](includes/prod_short.md)] updates the customer's account, general ledger, and item ledger entries. 
+- For each sales order line, an item ledger entry is created in the **Item Ledger Entry** table (if the sales lines contain item numbers). In addition, sales orders are always recorded in the **Sales Shipment Header** and **Sales Invoice Header** tables. To learn more about posting sales, go to [Posting sales](ui-post-sales.md).
 
-- For each sales order, a sales entry is created on the **G/L Entry** table. An entry is also created in the customer's account in the **Cust. Ledger Entry** table and a general ledger entry is created in the relevant receivables account. In addition, posting the order might result in a VAT entry and a general ledger entry for the discount amount.
-- For each sales order line, an item ledger entry is created in the **Item Ledger Entry** table (if the sales lines contain item numbers). In addition, sales orders are always recorded in the **Sales Shipment Header** and **Sales Invoice Header** tables.
+When you post a purchase document, [!INCLUDE [prod_short](includes/prod_short.md)] updates the vendor's account, general ledger (G/L), item ledger entries, and resource ledger entries.
+- For each purchase line, as applicable, entries are created in the **Item Ledger Entry** table (if the purchase line is of the Item type). In addition, purchase documents are always recorded in the **Purch. Recpt. Header** and **Purch. Inv. Header** tables. To learn more, go to [Posting purchases](purchasing-how-record-purchases.md#posting-purchases).
 
-To learn more about posting sales, go to [Posting sales](ui-post-sales.md).
+
 
 ## See also
 
-[Posting sales](ui-post-sales.md)  
 [Analyze list and query data with analysis mode](analysis-mode.md)  
-[Sales analytics overview](sales-analytics-overview.md)  
+[Inventory analytics overview](inventory-analytics-overview.md)
 [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
-[Sales overview](sales-manage-sales.md)  
+[Inventory overview](inventory-manage-inventory.md)
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

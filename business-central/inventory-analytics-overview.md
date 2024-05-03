@@ -16,7 +16,10 @@ ms.custom: bap-template
 
 Businesses capture lots of data during daily activities that supports business intelligence (BI) for inventory managers:
 
-- TODO
+- Shipping of goods when sales orders are fulfilled.
+- In-flux of items when purchase orders are fulfilled.
+- Movement of items between locations.
+
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you gather, analyze, and share your organization's inventory data:
 
@@ -53,21 +56,20 @@ A key performance indicator (KPI) is a measurable value that shows how effective
 - TODO  
 -->
 
-<!-- TODO: will this be relevant?
 
 ## Use financial reporting to produce financial statements and KPIs (related to inventory)
 
-The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for sales management, you can set up financial reports on the general ledger (G/L) accounts that you use to track sales postings.
+The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for inventory management, you can set up financial reports on the general ledger (G/L) accounts that you use to track inventory postings.
 
 Dimensions play an important role in business intelligence. A dimension is data that you add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, products, and salesperson. Among other purposes, use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
 
 To learn more about financial reports, go to [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md).
 
-## Finance reporting across business units or legal entities related to sales
+## Finance reporting across business units or legal entities (related to inventory)
 
-Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that report to parent organizations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company. Specifically for sales management, you might want to consolidate general ledger entries for your sales accounts to be able to track sales KPIs across business units or legal entities.
+Some organizations use [!INCLUDE [prod_short](includes/prod_short.md)] in multiple business units or legal entities. Others use [!INCLUDE [prod_short](includes/prod_short.md)] in subsidiaries that report to parent organizations. [!INCLUDE [prod_short](includes/prod_short.md)] gives accountants tools that help them transfer general ledger entries from two or more companies (subsidiaries) into a consolidated company. Specifically for inventory management, you might want to consolidate general ledger entries for your inventory accounts to be able to track sales KPIs across business units or legal entities.
 
-To learn more, go to [Company consolidation](finance-consolidated-company-reporting.md). -->
+To learn more, go to [Company consolidation](finance-consolidated-company-reporting.md).
 
 ## Ad-hoc analysis of inventory data
 
@@ -93,7 +95,7 @@ To learn more about how to do ad-hoc analysis on inventory data, go to [Ad hoc a
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help inventory organizations report on their data.
 
-To get an overview of available reports, choose **All reports** on the top pane of your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md). 
+To get an overview of available reports, choose **All reports** on the top pane of your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. Under the **Sales and Marketing** heading, choose **Explore**. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md). 
 
 :::image type="content" source="media/report-explorer-sales.png" alt-text="Example of reports on the sales role center." lightbox="media/report-explorer-sales.png":::
 
@@ -121,9 +123,7 @@ The sales module also include analytics pages related to inventory:
 
 
 
-<!-- Is this relevant?
-
-### Show sales-related general ledger entries and balances from the Chart of Accounts page
+### Show inventory-related general ledger entries and balances from the Chart of Accounts page
 
 The Chart of Accounts page shows all general ledger accounts with aggregated numbers posted to the general ledger. From this page, you can do things like:  
 
@@ -131,11 +131,12 @@ The Chart of Accounts page shows all general ledger accounts with aggregated num
 - Review a list of posting groups for that account.
 - View separate debit and credit balances for a single account.
 
-Specifically for sales, you can create a view on the Chart of Accounts page that only shows the accounts you use for posting sales entries.
+Specifically for inventory management, you can create a view on the Chart of Accounts page that only shows the accounts you use for posting inventory entries.
 
 :::image type="content" source="media/chart-of-accounts-page.png" alt-text="Example of how the Chart of Accounts page shows finance insights" lightbox="media/chart-of-accounts-page.png":::
 
-To learn more, go to [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts). -->
+To learn more, go to [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts).
+
 
 ### Analyze data by dimensions (related to inventory)
 
@@ -147,12 +148,12 @@ To learn more, go to [Analyze Data by Dimensions](bi-how-analyze-data-dimension.
 
 ## See also
 
-<!-- [Company consolidation](finance-consolidated-company-reporting.md)   
+[Company consolidation](finance-consolidated-company-reporting.md)   
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
-[Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)   -->
+[Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
 [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
 [Built-in inventory and warehouse reports](inventory-WMS-reports.md)  
-<!-- [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)   -->
+[Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
 [Analyze Data by Dimensions](bi-how-analyze-data-dimension.md)  
 [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)   
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

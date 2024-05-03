@@ -37,7 +37,8 @@ Also for performance reasons, the change log is turned off during the process of
 > - The user selected another company or Role Center.
 > - The user signed out and signed in again.
 
-### Work with the Change Log
+
+## Setting up the Change Log
 
 You activate and deactivate the change log on the **Change Log Setup** page. When a user activates or deactivates the change log, this activity is logged, so you can always see which user deactivated or reactivated the change log.
 
@@ -47,6 +48,42 @@ On the **Change Log Setup** page, if you choose the **Tables** action, you can s
 > You can monitor specific fields for changes, such as fields that contain sensitive data, by setting up field monitoring. If you do, to avoid redundancy the table that contains the field will not be available for the change log setup. For more information, see [Monitor Sensitive Fields](across-log-changes.md#monitor-sensitive-fields).
 
 After you have set up the change log, activated it, and made a change to data, you can view and filter the changes on the **Change Log Entries** page. If you want to delete entries, set up a retention policy, where you can set filters based on dates and time. To learn more about retention policies, go to [Define Retention Policies](admin-data-retention-policies.md).  
+
+
+## Analyzing Change Log data
+
+You can use the **Data Analysis** feature to analyze Change Log data data directly from the XXX list page. You don't have to run a report or switch to another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "XXX" or "XXX," or any other view you can imagine. To learn more about how to use the **Data Analysis** feature, go to [Analyze list and query data with analysis mode](analysis-mode.md).
+
+### Change Log ad-hoc analysis scenarios
+
+The following sections provide examples of scenarios where analyzing change log can help you monitor and audit important changes.
+
+| Area | To... | Open this page in analysis mode | Using these fields |
+| ---- | ----- | ------------------------------- |------------------- |
+| [Who changed What data When](#example-who-changed-what-data-when) | See who changed what sensitive data or what data was changed by whom. | [Change Log Entries](https://businesscentral.dynamics.com/?page=595) | **User ID**, **Date and Time**, **Table Caption**, **Field Caption**, **Primary Key Value 2**, **Primary Key Value 3**, **Type of Change**, **Old Value**, and **New Value**. |
+
+### Example: Who changed What data When
+
+To analyze your expected sales volume and sales amounts for unshipped orders for each customer by year or month, follow these steps:
+
+1. Open the [Change Log Entries](https://businesscentral.dynamics.com/?page=595) list and turn on analysis mode.
+1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
+1. Drag the **Sell-to Customer Name**, **Sell-to Customer No.**, and **No.** fields to the **Row Groups** area. Drag the fields in that order.
+1. Drag the field **Amount** field to the **Values** area.
+1. Drag the **Document Date Year** and **Document Date Month** fields to the **Column Labels** area. Drag the fields in that order.
+1. To do the analysis for a given year or quarter, apply a filter in the **Additional Filters** menu. The menu is on the right of the page, just below the **Columns** menu.
+1. Rename your analysis tab to **Expected sales volume** or something that describes this analysis for you.
+1. Drag the field **User ID** (who did it) to the **Row Groups** area.
+1. Now click the fields **Date and Time** (when did it happen), **Table Caption** (on what table), **Field Caption** (on which field), **Primary Key Value 2** (typically a code field), **Primary Key Value 3** (typically the company name), **Type of Change** (Insert/Update/Delete), **Old Value**, **New Value**.
+
+
+<!-- 
+
+</br></br> To analyze **Data Changes by table/field**, drag the fields _Table Caption_ (on what table), _Field Caption_ (on which field) to the _Row Groups_ area (and click the fields above, including the _User ID_ field). |  | _User ID_ (who did it), _Date and Time_ (when did it happen), _Table Caption_ (on what table), _Field Caption_ (on which field), _Primary Key Value 2_ (typically a code field), _Primary Key Value 3_ (typically the company name), _Type of Change_ (Insert/Update/Delete), _Old Value_, and _New Value_. |  N/A  | -->
+
+
+
+
 
 ## About activity logs
 
@@ -93,20 +130,24 @@ To further investigate a change, choose a value to open the page where it was ma
 
 You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to send field monitoring activity to an Application Insights resource in Microsoft Azure. Then, using Azure Monitor, you create reports and set up alerts on the gathered data. For more information, see the following articles in the [!INCLUDE[prod_short](includes/prod_short.md)] Developer and IT Pro help:
 
-- [Monitoring and Analyzing Telemetry - Enabling Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
-- [Analyzing Field Monitoring Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace)
+- [Monitoring and Analyzing Telemetry - Enabling Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview?toc=/dynamics365/business-central/toc.json#enable)
+- [Analyzing Field Monitoring Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace?toc=/dynamics365/business-central/toc.json)
 
 ## Define retention policies
 
 You can create retention policies to delete unneeded data in logs after a period of time that you specify. For example, over time the number of entries in a log can build up. By cleaning up old entries you can make it easier to focus on more recent, and probably more relevant, entries. To learn more about retention policies, go to [Define Retention Policies](admin-data-retention-policies.md).
 
+
+
 ## See Also
 
+[Monitor Sensitive Fields](across-log-changes.md#monitor-sensitive-fields)  
+[Analyzing Field Monitoring Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace?toc=/dynamics365/business-central/toc.json)  
+[Define Retention Policies](admin-data-retention-policies.md)  
 [Change Basic Settings](ui-change-basic-settings.md)  
 [Sorting, Searching, and Filtering](ui-enter-criteria-filters.md)  
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Assign Permissions to Users and Groups](ui-define-granular-permissions.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Define Retention Policies](admin-data-retention-policies.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

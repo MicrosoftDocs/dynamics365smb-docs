@@ -116,6 +116,10 @@ To learn more about reports that are relevant for sales, go to [Built-in sales r
 - [Calculate order promising dates](sales-how-to-calculate-order-promising-dates.md)
 - [Calculate delivery dates for sales orders](sales-date-calculation-for-sales.md)
 - [Track packages](sales-how-track-packages.md)
+- [View the Availability of Items](inventory-how-availability-overview.md)
+- [Blanket sales order status](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
+- [View unposted and posted blanket sales order lines](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
+
 
 ### Show sales-related general ledger entries and balances from the Chart of Accounts page
 

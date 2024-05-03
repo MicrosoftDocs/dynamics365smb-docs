@@ -74,6 +74,11 @@ To analyze Who changed What data When, follow these steps:
 1. Now click the fields **Date and Time** (when did it happen), **Table Caption** (on what table), **Field Caption** (on which field), **Primary Key Value 2** (typically a code field), **Primary Key Value 3** (typically the company name), **Type of Change** (Insert/Update/Delete), **Old Value**, **New Value**.
 1. Rename your analysis tab to **Who changed What data When** or something that describes this analysis for you.
 
+The following image shows the result of these steps.
+
+:::image type="content" source=" media/data-analysis-change-log-entries-Who-changed-What-data-When.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-change-log-entries-Who-changed-What-data-When.png":::
+
+
 ### Example: data changes by table/field
 
 To analyze data changes by table/field, follow these steps:

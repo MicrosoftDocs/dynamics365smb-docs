@@ -592,9 +592,9 @@ ms.service: dynamics-365-business-central
 
 ## Fixed assets
 ### [Fixed assets overview](fa-manage.md)
+
 ### Fixed assets analytics
 #### [Fixed assets analytics overview](fa-analytics-overview.md)
-
 #### Built-in fixed assets analytics tools
 ##### [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
 ##### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
@@ -602,6 +602,7 @@ ms.service: dynamics-365-business-central
 ##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 ##### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 #### [Built-in fixed assets reports](fa-reports.md)
+
 ### [Set up fixed assets](fa-setup.md)
 ### [Depreciation methods](fa-depreciation-methods.md)
 ### [Manage budgets for fixed assets](fa-how-manage-budgets.md)

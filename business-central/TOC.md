@@ -1870,13 +1870,7 @@ ms.service: dynamics-365-business-central
 #### [View project usage estimates](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
 #### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 
-### Fixed assets
-#### [Fixed assets reports](fa-reports.md)
-#### [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
-#### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
-#### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-#### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-#### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+### [Fixed assets reports](fa-reports.md)
 
 ### Assembly management
 #### [Assembly Management Reports](assembly-reports.md)

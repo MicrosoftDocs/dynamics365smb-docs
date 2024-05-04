@@ -595,6 +595,7 @@ ms.service: dynamics-365-business-central
 
 ### Fixed assets analytics
 #### [Fixed assets analytics overview](fa-analytics-overview.md)
+#### [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)
 #### Built-in fixed assets analytics tools
 ##### [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
 ##### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)

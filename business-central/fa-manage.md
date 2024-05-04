@@ -41,6 +41,7 @@ This section describes the analytical tools you can use to get insights into you
 | To... | See |
 | --- | --- |
 | Learn about capabilities for analyzing fixed assets data. | [Fixed assets analytics overview](fa-analytics-overview.md) |
+| Do ad-hoc analysis of fixed assets data directly on list pages and queries. | [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md) |
 | Explore built-in fixed assets reports. | [Built-in fixed assets reports](fa-reports.md) |
 | Monitor maintenance costs | [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)|
 | Monitor insurance coverage | [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage) |

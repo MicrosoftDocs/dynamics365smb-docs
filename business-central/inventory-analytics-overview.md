@@ -17,9 +17,8 @@ ms.custom: bap-template
 Businesses capture lots of data during daily activities that supports business intelligence (BI) for inventory managers:
 
 - Shipping of goods when sales orders are fulfilled.
-- In-flux of items when purchase orders are fulfilled.
-- Movement of items between locations.
-
+- Receipts of items when purchase orders are fulfilled.
+- Movements of items between locations.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you gather, analyze, and share your organization's inventory data:
 
@@ -44,9 +43,9 @@ People in different roles have different needs when it comes to data, and they u
 
 | Role              | Data aggregation  | Typical ways to consume data                          | 
 |-------------------|-------------------| ----------------------------------------------------- |
-|COO / CFO / CEO    | Performance data  | KPIs <br> Dashboards <br> Financial reports           |
-|Inventory Manager  | Trends, summaries | Built-in managerial reports <br> Ad-hoc analysis      | 
-|Warehouse worker   | Detailed data     | Built-in operational reports <br> On-screen task data |
+|COO / CFO / CEO    | Performance data  | KPIs, dashboards, financial reports           |
+|Inventory Manager  | Trends, summaries | Built-in managerial reports, ad-hoc analysis      | 
+|Warehouse worker   | Detailed data     | Built-in operational reports, on-screen task data |
 
 <!-- 
 ## Inventory KPIs
@@ -56,8 +55,7 @@ A key performance indicator (KPI) is a measurable value that shows how effective
 - TODO  
 -->
 
-
-## Use financial reporting to produce financial statements and KPIs (related to inventory)
+## Use financial reporting to produce financial statements and KPIs related to inventory
 
 The **Financial Reporting** feature gives you insights into the financial data shown on your chart of accounts (COA). You can set up financial reports to analyze figures in general ledger (G/L) accounts, and compare general ledger entries with budget entries. Specifically for inventory management, you can set up financial reports on the general ledger (G/L) accounts that you use to track inventory postings.
 
@@ -80,7 +78,7 @@ Sometimes, you just need to check whether the numbers add up correctly, or quick
 
 The Data Analysis feature lets you open almost any list page, such as **Item Ledger Entries**, enter analysis mode, and then group, filter, and pivot data as you see fit.
 
-:::image type="content" source="media/data-analysis-inventory-dead-stock.png" alt-text="Example of how to do a dead stock data analysis on the Item Ledger Entries page." lightbox="media/data-analysis-inventory-dead-stock.png":::
+:::image type="content" source="media/data-analysis-inventory-dead-stock.png" alt-text="Example of how to do a old stock data analysis on the Item Ledger Entries page." lightbox="media/data-analysis-inventory-dead-stock.png":::
 
 Similarly, you can use the **Open in Excel** action to open a list page, optionally filter the list to a subset of the data, and then use Excel to work with the data. For example, by using features such as Analyze Data, What-If Analysis, or Forecast Sheet.
 
@@ -89,13 +87,13 @@ Similarly, you can use the **Open in Excel** action to open a list page, optiona
 > [!TIP]
 > If you configure OneDrive for system features, the Excel workbook opens in your browser.
 
-To learn more about how to do ad-hoc analysis on inventory data, go to [Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md). 
+To learn more about how to do ad-hoc analysis on inventory data, go to [Ad hoc analysis of inventory data](ad-hoc-analysis-inventory.md).
 
 ## Built-in reports for inventory
 
 [!INCLUDE [prod_short](includes/prod_short.md)] includes several built-in reports, tracing functions, and tools to help inventory organizations report on their data.
 
-To get an overview of available reports, choose **All reports** on the top pane of your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. Under the **Sales and Marketing** heading, choose **Explore**. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md). 
+To get an overview of available reports, choose **All Reports** on your Home page. This action opens the Report Explorer, which is filtered to the features in the **Report & Analysis** option. Under the **Sales and Marketing** heading, choose **Explore**. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
 
 :::image type="content" source="media/report-explorer-sales.png" alt-text="Example of reports on the sales role center." lightbox="media/report-explorer-sales.png":::
 
@@ -116,31 +114,27 @@ To learn more about reports that are relevant for inventory, go to [Built-in inv
 - [Audit the reconciliation between the inventory ledger and the general ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
 - [View cross-docked items in a shipment or pick worksheet](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
 
-
 The sales module also include analytics pages related to inventory:
 
 - [Calculate order promising dates](sales-how-to-calculate-order-promising-dates.md)
 - [Calculate delivery dates for sales orders](sales-date-calculation-for-sales.md)
 - [Track packages](sales-how-track-packages.md)
 
-
-
 ### Show inventory-related general ledger entries and balances from the Chart of Accounts page
 
-The Chart of Accounts page shows all general ledger accounts with aggregated numbers posted to the general ledger. From this page, you can do things like:  
+The **Chart of Accounts** page shows all general ledger accounts with aggregated numbers posted to the general ledger. From this page, you can do things like:  
 
 - View reports that show general ledger entries and balances.  
 - Review a list of posting groups for that account.
 - View separate debit and credit balances for a single account.
 
-Specifically for inventory management, you can create a view on the Chart of Accounts page that only shows the accounts you use for posting inventory entries.
+Specifically for inventory management, you can create a view on the Chart of Accounts page that only shows the accounts you use to post inventory entries.
 
 :::image type="content" source="media/chart-of-accounts-page.png" alt-text="Example of how the Chart of Accounts page shows finance insights" lightbox="media/chart-of-accounts-page.png":::
 
 To learn more, go to [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts).
 
-
-### Analyze data by dimensions (related to inventory)
+### Analyze inventory data by dimensions
 
 Dimensions are values that categorize entries so you can track and analyze them on documents, such as sales orders. Dimensions can, for example, indicate the project or department an entry came from.  
 

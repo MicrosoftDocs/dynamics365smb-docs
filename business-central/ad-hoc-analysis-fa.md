@@ -34,7 +34,7 @@ The following sections provide examples of fixed assets scenarios in [!INCLUDE [
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
 | [Fixed Assets (Current value)](#example-fixed-assets-current-value) | Track asset value, both across all assets and on a single asset. | [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) | **Depreciation Book**, **FA No.**, **FA Posting Date**, **FA Posting Type**, and **Amount** |
-| [Fixed Assets (Depreciations over time)](#example-fixed-assets-depreciations-over-time) | Track depreciations over time, both across all assets and on a single asset. | [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) | **Depreciation Book**, **FA No.**, **FA Posting Year**, **FA Posting Month**, **Amount**, and **FA Posting Type** |
+|[Example: fixed asset depreciations over time](#example-fixed-asset-depreciations-over-time) | Track depreciations over time, both across all assets and on a single asset. | [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) | **Depreciation Book**, **FA No.**, **FA Posting Year**, **FA Posting Month**, **Amount**, and **FA Posting Type** |
 
 ### Example: fixed assets current value
 

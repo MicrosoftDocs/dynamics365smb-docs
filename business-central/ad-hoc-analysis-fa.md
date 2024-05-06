@@ -36,50 +36,46 @@ The following sections provide examples of fixed assets scenarios in [!INCLUDE [
 | [Fixed Assets (Current value)](#example-fixed-assets-current-value) | Track asset value, both across all assets and on a single asset. | [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) | **Depreciation Book**, **FA No.**, **FA Posting Date**, **FA Posting Type**, and **Amount** |
 | [Fixed Assets (Depreciations over time)](#example-fixed-assets-depreciations-over-time) | Track depreciations over time, both across all assets and on a single asset. | [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) | **Depreciation Book**, **FA No.**, **FA Posting Year**, **FA Posting Month**, **Amount**, and **FA Posting Type** |
 
+### Example: fixed assets current value
 
-### Example: Fixed Assets (Current value)
-
-To track asset value, both across all assets and on a single asset, follow these steps:
+To track the value of one or more fixed assets, follow these steps:
 
 1. Open the [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
-1. Go to the **Columns** menu and remove all columns (select the box next to the *Search* field on the right).
+1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field on the right).
 1. Drag the **Depreciation Book** and **FA No.** fields to the **Row Groups** area.
-1. Click on the fields **FA Posting Date** and **FA Posting Type**.
+1. Choose the **FA Posting Date** and **FA Posting Type** fields.
 1. Drag the **Amount** field to the **Values** area.
 1. Rename your analysis tab to **Asset overview - value**, or something that describes this analysis.
 
 The following image shows the result of these steps.
 
-:::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Example of how to do data analysis on the FA Ledger Entries page to see asset value." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
+:::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Example of how to do data analysis on the FA Ledger Entries page to see the value of an asset." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
+### Example: fixed asset depreciations over time
 
-### Example: Fixed Assets (Depreciations over time)
-
-To track depreciations over time, both across all assets and on a single asset, follow these steps:
+To track depreciation for one or more fixed assets, follow these steps:
 
 1. Open the [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
-1. Go to the **Columns** menu and remove all columns (select the box next to the *Search* field on the right).
+1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field on the right).
 1. Turn on the **Pivot* Mode** toggle (located above the **Search** field on the right).
 1. Drag the **Depreciation Book** and **FA No.** fields to the **Row Groups** area.
 1. Drag the **FA Posting Year** and **FA Posting Month** fields to the **Column Labels** area.
-1. Now drag the **Amount** field to the **Values** area.
-1. Finally, set filter the field **FA Posting Type** to `Depreciation`. 
+1. Drag the **Amount** field to the **Values** area.
+1. In the **FA Posting Type** filter field, choose **Depreciation**.
 1. Rename your analysis tab to **Depreciations over time**, or something that describes this analysis.
 
 The following image shows the result of these steps.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-depreciation-by-asset.png" alt-text="Example of how to do data analysis on the FA Ledger Entries page to see depreciation over time." lightbox="media/data-analysis-fa-ledger-entries-depreciation-by-asset.png":::
 
-
-
 ## Data foundation for ad-hoc analysis on fixed assets
 
-When you post FA journals, [!INCLUDE [prod_short](includes/prod_short.md)] creates entries in the **FA Entry** table. Therefore, ad-hoc analysis on fixed assets is typically done on the [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) page. 
+When you post fixed asset journals, [!INCLUDE [prod_short](includes/prod_short.md)] creates entries in the **FA Entry** table. Therefore, ad-hoc analysis on fixed assets is typically done on the [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) page.
 
 ## See also
 
 [Analyze list and query data with analysis mode](analysis-mode.md)  
-[Fixed assets analytics overview](fa-analytics-overview.md)   
+[Fixed assets analytics overview](fa-analytics-overview.md)  
 [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
 [Fixed assets overview](fa-manage.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

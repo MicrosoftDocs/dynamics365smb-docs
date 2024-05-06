@@ -96,7 +96,7 @@ To learn more about how to do ad-hoc analysis on sales data, go to [Ad hoc analy
 
 To get an overview of available reports, choose **All reports** on the top pane of your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md). 
 
-:::image type="content" source="media/report-explorer-sales.png" alt-text="Example of reports on the finance role center." lightbox="media/report-explorer-sales.png":::
+:::image type="content" source="media/report-explorer-sales.png" alt-text="Example of reports on the sales role center." lightbox="media/report-explorer-sales.png":::
 
 The built-in reports come in two flavors:
 

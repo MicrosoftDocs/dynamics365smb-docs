@@ -556,7 +556,10 @@ ms.service: dynamics-365-business-central
 
 ## Inventory
 ### [Inventory overview](inventory-manage-inventory.md)
-### [Inventory and warehouse reports](inventory-WMS-reports.md)
+### Inventory analytics 
+#### [Inventory analytics overview](inventory-analytics-overview.md)
+#### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
+#### [Built-in inventory and warehouse reports](inventory-WMS-reports.md)
 ### [Register new items](inventory-how-register-new-items.md)
 ### [Work with bills of material](inventory-how-work-BOMs.md)
 ### [Categorize items](inventory-how-categorize-items.md)
@@ -1857,14 +1860,7 @@ ms.service: dynamics-365-business-central
 
 ### [Sales reports](sales-reports.md)
 ### [Purchase reports](purchase-reports.md)
-
-### Inventory and warehouse
-#### [Inventory and warehouse reports](inventory-wms-reports.md)
-#### [Item availability](inventory-how-availability-overview.md)
-#### [Track items with serial, lot, and package numbers](inventory-how-work-item-tracking.md)
-#### [Trace item-tracked items](inventory-how-to-trace-item-tracked-items.md)
-#### [Audit the reconciliation between the inventory ledger and the general ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [View cross-docked items in a shipment or pick worksheet](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+### [Inventory and warehouse reports](inventory-wms-reports.md)
 
 ### Project
 #### [Project reports](project-reports.md)

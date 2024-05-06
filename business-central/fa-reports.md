@@ -24,6 +24,7 @@ To help you manage your fixed assets in [!INCLUDE [prod_short](includes/prod_sho
 
 ## See also
 
+[Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)     
 [Fixed assets analytics overview](fa-analytics-overview.md)   
 [Financial analytics overview](bi.md)   
 [Managing Fixed Assets](fa-manage.md)  

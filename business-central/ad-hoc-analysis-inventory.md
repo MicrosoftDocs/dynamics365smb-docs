@@ -52,7 +52,7 @@ To analyze items in your inventory that are in stock, follow these steps:
 
 The following image shows the result of these steps.
 
-:::image type="content" source="media/data-analysis-inventory-on-hand.png" alt-text="Example of how to do a dead stock data analysis on the Item Ledger Entries page." lightbox="media/data-analysis-inventory-on-hand.png":::
+:::image type="content" source="media/data-analysis-inventory-on-hand.png" alt-text="Example of how to do an inventory on-hand data analysis." lightbox="media/data-analysis-inventory-on-hand.png":::
 
 ## Example: track expiring or old stock
 

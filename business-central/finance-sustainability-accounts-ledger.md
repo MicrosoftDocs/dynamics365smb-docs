@@ -66,7 +66,7 @@ To review sustainability account categories, follow the steps:
 6. In the **Calculation Foundation** field, you can select the calculation foundation (formula) to use for emission calculations if you don't know the accurate emission amount. You can select one of the following options: **Fuel/Electricity**, **Distance**, **Installation**, or **Custom**.
 
     > [!NOTE]
-    > If the set of available formulas in the **Calculation Foundation** field isn't enough, you can extend the field and add more calculations to the system for use in the **sustainability journals**.
+    > If the set of available formulas in the **Calculation Foundation** field isn't enough, you can extend the field and add more calculations to the system for use in the sustainability journals.
 
 7. If you selected **Custom** in the **Calculation Foundation** field, you can configure a custom description in the **Custom Value** field.
 

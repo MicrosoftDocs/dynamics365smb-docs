@@ -5,7 +5,7 @@ author: altotovi
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
-ms.date: 04/09/2024
+ms.date: 05/07/2024
 ms.author: altotovi
 ms.reviewer: solsen
 ms.service: dynamics-365-business-central

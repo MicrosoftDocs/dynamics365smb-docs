@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, journal
 ms.search.form: 6216, 6219, 6220
-ms.date: 05/02/2024
+ms.date: 05/07/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -50,7 +50,7 @@ To start to work with sustainability journals, follow these steps:
 
 5. You can either manually post the amounts or use formulas.
 
-    - If you have accurate information about the emission and want to post it (that is, if you have the information on the received invoice), select the **Manual Input** field to indicate that you will manually enter the amounts. In this case, you can't enter your data directly in the **Fuel/Electricity**, **Distance**, **Custom Amount**, **Installation Multiplier**, and **Time Factor** fields, because they become noneditable. However, the **Emission CO2**, **Emission CH4**, and **Emission N2O** fields remain editable, and you can enter your data directly in them.
+    - If you have accurate information about the emission and want to post it (that is, if you have the information on the received invoice), select the **Manual Input** field to indicate that you'll manually enter the amounts. In this case, you can't enter your data directly in the **Fuel/Electricity**, **Distance**, **Custom Amount**, **Installation Multiplier**, and **Time Factor** fields, because they become noneditable. However, the **Emission CO2**, **Emission CH4**, and **Emission N2O** fields remain editable, and you can enter your data directly in them.
     - If you don't have accurate knowledge of the emission and must calculate it, don't select the **Manual Input** field. In this case, the **Emission CO2**, **Emission CH4**, and **Emission N2O** fields become noneditable. However, you can enter your calculation details based on the formula that you're using. Learn more about the formulas that are and defined in the **sustainability account category** in [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md#account-categories).
 
 6. To post the journal, select the **Post** action. When you post in a sustainability journal, entries are generated in the sustainability ledger.
@@ -61,7 +61,7 @@ If your formula is based on the **Calculate from General Ledger** option in the 
 
 A recurring journal is a sustainability journal that has specific fields for managing transactions that you often post with few, if any, changes. Examples include sustainability transactions such as electricity or heat, or other similar transactions. You can use recurring journals to post fixed and variable amounts.
 
-When you use a recurring journal, entries that you will regularly post must be created only one time. Information such as the accounts, dimensions, and dimension values remain in the journal after posting. Each time that you post, you can make any changes that are needed.
+When you use a recurring journal, entries that you'll regularly post must be created only one time. Information such as the accounts, dimensions, and dimension values remain in the journal after posting. Each time that you post, you can make any changes that are needed.
 
 The **Recurring Method** field is important. It determines how the amount on the journal line is handled after posting. For example, if you use the same amount every time that you post the line, you can select the **F Fixed** option to let the amount remain after posting. If you use the same accounts and text on the line, but the amount varies every time that you post, you can select the **V Variable** option to delete the amount after posting.
 

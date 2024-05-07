@@ -1,17 +1,17 @@
 ---
-title: Create and Modify Custom Layouts for Reports and Documents
+title: Create and modify custom layouts for reports and documents
 description: Learn how to create customized layouts to personalize the appearance of a report when viewed, printed, or saved.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 03/06/2022
-ms.author: bholtorf
-
+ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# (Legacy) Create and Modify Custom Report Layouts
+# (Legacy) Create and modify custom report layouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD
 ms.search.form: 
-ms.date: 03/29/2024
+ms.date: 04/23/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -38,17 +38,17 @@ To get started with Sustainability Management, see the following articles.
 
 |  Article  |  Description  |  
 |--------|--------------| 
-|[Sustainability Setup](finance-sustainability-setup.md) | This article provides information to help you correctly configure whole Sustainability module. |
-|[Chart of Sustainability Accounts and Ledger](finance-sustainability-accounts-ledger.md) | This article provides information about how to properly set up Chart of Sustainability Accounts, Account Categories, and Subcategories, and how to analyze information in Sustainability Ledger Entries. |
+|[Sustainability setup](finance-sustainability-setup.md) | This article provides information to help you correctly configure whole Sustainability module. |
+|[Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md) | This article provides information about how to properly set up Chart of Sustainability Accounts, Account Categories, and Subcategories, and how to analyze information in Sustainability Ledger Entries. |
 |[How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md) | Use this article to learn how to work with all types of Sustainability Journals. |
 
 
 ## See also  
-[Sustainability Setup](finance-sustainability-setup.md) 
-[Chart of Sustainability Accounts and Ledger](finance-sustainability-accounts-ledger.md) 
-[How to record GHG emissions](finance-sustainability-journal.md)
-[Finance](finance.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Sustainability Setup](finance-sustainability-setup.md)   
+[Chart of Sustainability Accounts and Ledger](finance-sustainability-accounts-ledger.md)   
+[How to record GHG emissions](finance-sustainability-journal.md)  
+[Finance](finance.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

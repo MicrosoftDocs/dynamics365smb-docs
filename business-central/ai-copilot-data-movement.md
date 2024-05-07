@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.date: 11/30/2023
+ms.date: 04/16/2024
 ms.custom: bap-template 
 ms.collection:
   - bap-ai-copilot
@@ -30,20 +30,20 @@ The following table shows the Azure OpenAI Service's geography used by Copilot, 
 | Environment Azure region| Azure OpenAI Service geography|Admin action required to unlock Copilot| 
 | - | - | - |
 |Asia (East, South East) |United States|Yes|
-|Australia (South East)| United States |Yes |
+|Australia (South East)| Australia |No |
 |Brazil (South) |United States|Yes|
 |Canada (Central, East)|United States|Yes|
 |Europe (West, North)| Sweden or Switzerland |No\*|
 |France (Central, South)| Sweden or Switzerland |Yes|
 |Germany (North, West Central)| Sweden or Switzerland |Yes|
-|India (Central, South)|United States|Yes|
+|India (Central, South)|India|No|
 |Japan (East, West)|United States|Yes|
 |Korea (Central, South)|United States|Yes|
 |Norway (East, West)|Sweden or Switzerland |Yes|
 |South Africa (North, West)|United States|Yes|
 |Switzerland (North, West) |Sweden or Switzerland |Yes|
 |United Arab Emirates (North, West)|United States|Yes|
-|United Kingdom (South, West)|United Kingdom|Yes|
+|United Kingdom (South, West)|United Kingdom|No|
 |United States (Central, East, North Central, South Central, West) |United States|No|
 
 \* For environments in West Europe and North Europe Azure regions, Business Central automatically opts in to data movement across geographies, but administrators can choose to opt out at any time.

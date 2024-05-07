@@ -38,7 +38,7 @@ The following sections provide examples of inventory scenarios in [!INCLUDE [pro
 | Inventory throughput | Get an overview of purchases and sales in your inventory by month or quarter. | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) | **Posting Date Year**, **Posting Date Month**, **Item No.**, **Quantity**, **Sales Amount**, **Cost Amount (Actual)**, and **Posting Date Month** |
 | [Inventory movements] | Get an overview of how goods in your inventory move between locations. | [Item Ledger Entries](https://businesscentral.dynamics.com/?page=38) | **Location Code**, **Quantity**, **Posting Date**, **Item No.** |
 
-## Example: Inventory on-hand
+## Example: inventory on-hand
 
 To analyze items in your inventory that are in stock, follow these steps:
 

@@ -128,9 +128,9 @@ The Chart of Accounts page shows all general ledger accounts with aggregated num
 - Review a list of posting groups for that account.
 - View separate debit and credit balances for a single account.
 
-Specifically for fixed assets, you can create a view on the Chart of Accounts page that only shows the accounts you use for posting fixed assets entries.
+Specifically for fixed assets, you can create a view on the Chart of Accounts page that only shows asset accounts, or maybe only the asset accounts you use for posting fixed assets entries.
 
-:::image type="content" source="media/chart-of-accounts-page.png" alt-text="Example of how the Chart of Accounts page shows finance insights" lightbox="media/chart-of-accounts-page.png":::
+:::image type="content" source="media/chart-of-accounts-page-fa.png" alt-text="Example of how the Chart of Accounts page shows finance insights" lightbox="media/chart-of-accounts-page-fa.png":::
 
 To learn more, go to [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts).
 

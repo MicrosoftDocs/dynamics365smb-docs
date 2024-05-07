@@ -34,7 +34,8 @@ The following sections provide examples of fixed assets scenarios in [!INCLUDE [
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
 | [Fixed Assets (Current value)](#example-fixed-assets-current-value) | Track asset value, both across all assets and on a single asset. | [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) | **Depreciation Book**, **FA No.**, **FA Posting Date**, **FA Posting Type**, and **Amount** |
-|[Example: fixed asset depreciations over time](#example-fixed-asset-depreciations-over-time) | Track depreciations over time, both across all assets and on a single asset. | [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) | **Depreciation Book**, **FA No.**, **FA Posting Year**, **FA Posting Month**, **Amount**, and **FA Posting Type** |
+| [Asset value changes over time](#example-asset-value-changes-over-time) | track asset value changes over time. | [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) | **FA Posting Type**, **FA Posting Date**, and **Amount** |
+|[Fixed asset depreciations over time](#example-fixed-asset-depreciations-over-time) | Track depreciations over time, both across all assets and on a single asset. | [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) | **Depreciation Book**, **FA No.**, **FA Posting Year**, **FA Posting Month**, **Amount**, and **FA Posting Type** |
 
 ### Example: fixed assets current value
 
@@ -50,6 +51,22 @@ To track the value of one or more fixed assets, follow these steps:
 The following image shows the result of these steps.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Example of how to do data analysis on the FA Ledger Entries page to see the value of an asset." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
+
+### Example: Asset value changes over time
+
+To track asset value changes over time, follow these steps:
+
+1. Open the [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
+1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field on the right).
+1. Turn on the **Pivot* Mode** toggle (located above the **Search** field on the right).
+1. Drag the **FA Posting Type** field to the **Row Groups** area.
+1. Drag the **FA Posting Year** and **FA Posting Month** fields to the **Column Labels** area.
+1. Drag the **Amount** field to the **Values** area.
+1. Rename your analysis tab to **Asset value changes over time**, or something that describes this analysis.
+
+The following image shows the result of these steps.
+
+:::image type="content" source="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png" alt-text="Example of how to do data analysis on the FA Ledger Entries page to see asset value changes over time." lightbox="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png":::
 
 ### Example: fixed asset depreciations over time
 

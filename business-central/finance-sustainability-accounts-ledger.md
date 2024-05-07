@@ -16,9 +16,9 @@ ms.service: dynamics-365-business-central
 
 ## Chart of sustainability accounts
 
-The **chart of sustainability accounts** (CoSA) forms the foundational structured list that is used to record all emissions data. It serves as a framework that categorizes and organizes **sustainability accounts** based on their attributes, such as the scope or other groupings. Each account is typically assigned a unique code or number for easy reference and tracking. It has the same structure as a traditional **chart of accounts** but is customized specifically to monitor sustainability-related data and metrics in an organization.
+The chart of sustainability accounts (CoSA) forms the foundational structured list that is used to record all emissions data. It serves as a framework that categorizes and organizes sustainability accounts based on their attributes, such as the scope or other groupings. Each account is typically assigned a unique code or number for easy reference and tracking. It has the same structure as a traditional chart of accounts but is customized specifically to monitor sustainability-related data and metrics in an organization.
 
-Users can add **sustainability account categories** and **sustainability account subcategories** to define how the system behaves. In this way, tThey can select dedicated emissions to track, emission factors, formulas, and similar configurations.
+Users can add sustainability account categories and sustainability account subcategories to define how the system behaves. In this way, they can select dedicated emissions to track, emission factors, formulas, and similar configurations.
 
 > [!NOTE]
 > Based on the greenhouse gas (GHG) standards, there are three emission scopes:
@@ -29,11 +29,11 @@ Users can add **sustainability account categories** and **sustainability account
 
 From the CoSA, you can do things such as:
 
-- View reports that show **sustainability ledger entries** and balances.
-- Open the **sustainability account card** to add or change settings.
+- View reports that show sustainability ledger entries and balances.
+- Open the sustainability account card to add or change settings.
 - View the category and subcategory for the account. 
 - View separate balances for each emission for a single account.
-- Add single or multiple **dimensions** to each account and set dimension filters.
+- Add single or multiple dimensions to each account and set dimension filters.
 
 You can add, change, or delete sustainability accounts. However, to prevent discrepancies, you can't delete a sustainability account if one or more ledger entries are associated with it.
 
@@ -116,7 +116,7 @@ To review sustainability account subcategories, follow the steps:
 
 ## Sustainability ledger entries
 
-The **sustainability ledger** stores the history of all posted sustainability transactions and organizes all emission data according to the CoSA. When a user posts the sustainability journal, all crucial data is recorded there. All active reports are generated based on the sustainability ledger entries.
+The sustainability ledger stores the history of all posted sustainability transactions and organizes all emission data according to the CoSA. When a user posts the sustainability journal, all crucial data is recorded there. All active reports are generated based on the sustainability ledger entries.
 
 To open this ledger for one specific account, use the **Ledger Entries** action on the **Chart of Sustainability Account** page. To open all the ledger entries, select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Ledger Entries**, and then select the related link. Hover over a field to read a short description.
 

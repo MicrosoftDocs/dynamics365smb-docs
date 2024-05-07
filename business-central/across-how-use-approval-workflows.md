@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reject, delegate, request
 ms.search.form: 654, 662, 1500, 
-ms.date: 09/12/2024
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

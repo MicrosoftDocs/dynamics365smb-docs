@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 12/13/2023
+ms.date: 04/23/2024
 ms.custom: bap-template    
 ms.service: dynamics-365-business-central
 ---
@@ -133,6 +133,14 @@ Use **Warehouse Pick** documents to pick job components in the flow to project m
     > [!NOTE]
     > If you must pick or place the items for one line in more than one bin, for example because the designated bin is full, use the **Split Line** action on the **Lines** FastTab. The action creates a line for the remaining quantity to handle.
 
+      You can sort the pick lines by various criteria, for example, by item, shelf number, or due date. Sorting can help optimize the put-away process, for example:
+
+    * If the take and place lines for each shipment line don't immediately follow one another, and you want them to, sort the lines by selecting **Item** in the **Sorting Method** field.  
+    * If bin rankings reflect the physical layout of the warehouse, use the **Bin Ranking** sorting method to organize the work by bin locations.
+
+  > [!NOTE]  
+  > Lines are sorted in ascending order by the selected criteria. If you sort by document, sorting is done first by document type based on the **Warehouse Activity Source Document** field. If you sort by ship-to, sorting is done first by destination type based on the **Warehouse Destination Type** field.
+
 4. After you pick and place the items in the production, assembly or job area or bin, choose the **Register Pick** action.  
 
     You can now bring the items to the respective area and post the usage or consumption of the picked components by posting consumption journal, assembly order, or project journal. The following articles provide more information:
@@ -171,6 +179,14 @@ The following steps describe the actions that different people take and the rela
 The following illustration shows when the **Bin Code** field on the component list is filled according to your location or machine/work center setup.  
 
 :::image type="content" source="media/binflow.png" alt-text="Overview of when and how the Bin Code field is filled in.":::
+
+## Make-to-Order (MTO) production components in an advanced warehouse configuration
+
+In scenarios where a produced item consists of raw materials and semi-finished items with the manufacturing policy set to **Make-to-order**, the warehouse pick for those semi-finished components is added to the same production order with the **Planning Level Code** field filled in. It's expected that the semi-finished items are available for consumption immediately and won't require pick so they aren't included in the warehouse pick document. The created warehouse picks only include raw materials for produced item and for semi-finished items.
+
+However, if semi-finished items are available on stock, the planning system suggests that you consume those instead of producing the whole quantity. For example, a produced item requires five semi-finished components, but three are already in stock. In this case, five semi-finished items are listed in the production order components, but only two are produced in the same production order as a separate production order line.
+Such a setup isn't compatible with warehouse picks and, depending on frequency, you must either change the manufacturing policy for such semi-finished items to **Make-to-stock** or manually split the production order component line when you need to pick the semi-finished items produced earlier.
+
 
 ## See also
 

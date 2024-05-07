@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 03/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ---
 
@@ -24,7 +24,7 @@ Microsoft Copilot is the AI-powered assistant that helps spark creativity, boost
 
 Copilot includes a constantly expanding set of capabilities that assist users in different roles and tasks. You can read about Copilot and other AI features in Business Central at [aka.ms/BCAI](https://aka.ms/BCAI). 
 
-## Is Copilot free? 
+## Is Copilot free?
 
 At this time, Copilot in Business Central is included with your Business Central license at no extra cost. This doesn't exclude that fair-use policies, quotas, or pricing might be introduced at a later date.
 
@@ -38,7 +38,11 @@ Business Central offers numerous AI-powered features. Some features, such as sal
 
 ## Is Copilot in Business Central available worldwide? 
 
-Copilot includes a constantly expanding set of capabilities that assist users in different roles and tasks. Each Copilot capability defines its own list of supported regions and supported languages. While most features will likely start out as available only in English, we aspire to unlock more languages and regions over time. You can get an the overview of the Copilot languages and regions available for business applications at [https://dynamics.microsoft.com/availability-reports/copilotreport](https://dynamics.microsoft.com/availability-reports/copilotreport).
+Copilot includes a constantly expanding set of capabilities that assist users in different roles and tasks. Each Copilot capability defines its own list of supported regions and supported languages. While most features will likely start out as available only in English, we aspire to unlock more languages and regions over time. You can get an overview of the Copilot languages and regions available for business applications at [https://dynamics.microsoft.com/availability-reports/copilotreport](https://dynamics.microsoft.com/availability-reports/copilotreport).
+
+## Is Copilot aware of my environment customizations?
+
+Some but not all Copilot features are able to work with your custom pages and tables. For example, you can use [analysis assist](analysis-assist.md) on your custom lists, or [chat with Copilot](chat-with-copilot.md) to find records in custom tables. To understand which Copilot features work with customizations, consult the articles for each feature.
 
 ## Can I develop my own Copilots for Business Central?
 

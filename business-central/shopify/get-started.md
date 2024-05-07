@@ -1,7 +1,7 @@
 ---
-title: Getting started with connector for Shopify
-description: First steps when configuring connection between Business Central and Shopify
-ms.date: 03/27/2023
+title: Getting started with the connector for Shopify
+description: First steps when configuring a connection between Business Central and Shopify.
+ms.date: 04/30/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.reviewer: solsen
@@ -37,7 +37,7 @@ To learn more about how to create Shopify trials and the recommended settings, g
 
 For existing instances of [!INCLUDE[prod_short](../includes/prod_short.md)], this step is optional and can be skipped.
 
-1. Locate the [Dynamics 365 Business Central](https://apps.shopify.com/dynamics-365-business-central) app on the [Shopify AppStore](https://apps.shopify.com/)
+1. Locate the [Dynamics 365 Business Central](https://apps.shopify.com/dynamics-365-business-central) app on the [Shopify AppStore](https://apps.shopify.com/).
 2. Choose the **Add App** button. Sign in to your Shopify account if prompted. Select the online shop if you have more than one.
 3. After reviewing privacy and permissions, choose the **Install App** button.
 
@@ -67,7 +67,7 @@ Repeat steps 2-6 for all online shops that you want to connect.
 - [Error: Oauth error invalid_request: Could not find Shopify API application with api_key.](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
 - [Error: Oauth error invalid_request: Your account does not have permission to grant the requested access for this app.](troubleshoot.md#error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app)
 - [Can't connect from sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
-- Make sure you enter right URL in the **Shopify URL** field. You can build the URL by combining the store ID from the admin URL. For example, `admin.shopify.com/store/{shop}` and `.myshopify.com` to get `https://{shop}.myshopify.com/`.
+- Make sure you enter the correct URL in the **Shopify URL** field. You can build the URL by combining the store ID from the admin URL. For example, `admin.shopify.com/store/{shop}` and `.myshopify.com` to get `https://{shop}.myshopify.com/`.
 
 ## Next steps
 
@@ -87,21 +87,21 @@ It's easy to rerun synchronization tests. The connector allows you to delete imp
 
 ### Shopify sandbox and Business Central sandbox
 
-This is probably the safest way to test integration. Instead of using a Shopify sandbox, you can also use a trial subscription or Development Store. In [!INCLUDE[prod_short](../includes/prod_short.md)], you can also use a test company in a production environment.
+This is probably the safest way to test integration. Instead of using a Shopify sandbox, you can use a trial subscription or Development Store. In [!INCLUDE[prod_short](../includes/prod_short.md)], you can also use a test company in a production environment.
 
 To learn more about [!INCLUDE[prod_short](../includes/prod_short.md)] sandboxes, go to [Create a new environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
 
 ### Shopify sandbox and Business Central production
 
-This is *not* a recommended configuration for testing because the Shopify connector can create or modify items and customers. It can also create sales documents such as orders and invoices. These documents can be difficult to undo.
- 
+This is *not* a recommended configuration for testing because the Shopify Connector can create or modify items and customers. It can also create sales documents such as orders and invoices. These documents can be difficult to undo.
+
 If you must use this configuration, we recommend that you review and probably disable the following settings:
 
-* **Auto Create Unknown Item** to not create items.
-* **Shopify can update items** to not update mapped items.
-* **Auto Create Unknown Customer** to not create customers and contacts.
-* **Shopify can update customers** to not update existing customers.
-* **Auto Create Sales Order** to not create sales orders and sales invoices.
+- **Auto Create Unknown Item** to not create items.
+- **Shopify can update items** to not update mapped items.
+- **Auto Create Unknown Customer** to not create customers and contacts.
+- **Shopify can update customers** to not update existing customers.
+- **Auto Create Sales Order** to not create sales orders and sales invoices.
 
 For more information, see [Restoring an Environment](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
 
@@ -113,8 +113,8 @@ Turn off the **Allow Data Sync to Shopify** toggle so that [!INCLUDE[prod_short]
 
 If you keep the **Allow Data Sync to Shopify** toggle enabled, then additional protective measures are:
 
-*	Select **Draft** in the **Status for Create Product** field to ensure that exported products aren't available to buyers. You can verify how products look in the online store, and synchronize prices, options, and stock levels. Just make sure to use filters on the **Add Item to Shopify** page to limit the number of exported items.
-* Turn off the **Export Customer to Shopify** toggle so that you don't send customers to Shopify.
+- Select **Draft** in the **Status for Create Product** field to ensure that exported products aren't available to buyers. You can verify how products look in the online store, and synchronize prices, options, and stock levels. Just make sure to use filters on the **Add Item to Shopify** page to limit the number of exported items.
+- Turn off the **Export Customer to Shopify** toggle so that you don't send customers to Shopify.
 
 ## See also
 

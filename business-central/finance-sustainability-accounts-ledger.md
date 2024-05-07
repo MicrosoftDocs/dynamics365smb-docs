@@ -1,3 +1,4 @@
+
 ---
 title: Chart of sustainability accounts and ledger
 description: Learn how to manage the chart of sustainability accounts (CoSA), categories and subcategories, and details about sustainability ledger entries.
@@ -6,7 +7,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, CoA, Chart, Account, Ledger
 ms.search.form: 6210, 6213, 6214, 6220
-ms.date: 04/09/2024
+ms.date: 05/07/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---

@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 03/27/2024
+ms.date: 04/15/2024
 ms.custom: bap-template 
 ---
 
@@ -34,7 +34,7 @@ Bank account reconciliation assist is a set of AI-powered features that assist y
 
   For residual bank transactions that can't be matched to any ledger entries, Copilot compares the transaction description with G/L account names, suggesting the most likely G/L account to post to. For example, Copilot might suggest that transactions with the narrative "Fuel Stop 24" be posted to the "Transportation" account.
   
-   Go to [Transfer unmatched bank transactions to suggested general ledger accounts](#transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts).
+   Go to [Post unmatched bank transaction amounts to suggested general ledger accounts](#post-unmatched-bank-transaction-amounts-to-suggested-general-ledger-accounts).
 
 ## Prerequisites
 
@@ -113,41 +113,40 @@ In the **Matched Proposals** section, review the suggested matches line by line,
 - To post the fully matched reconciliation automatically when you save it, turn on the **Post if fully applied** switch.  
 - To save the matches currently shown in the Copilot window, select **Keep it**.
 
+## Post unmatched bank transaction amounts to suggested general ledger accounts
 
-## Transfer unmatched bank transactions to suggested general ledger accounts
-
-In this section, you learn how to use Copilot to transfer unreconciled bank account statements from the bank account ledger to a general ledger account. This task can only be done from an existing reconciliation. 
+In this section, you learn how to use Copilot to post unreconciled bank account statement line amounts (specified in the **Difference** field) to a general ledger account. This task can only be done from an existing reconciliation.
 
 1. Go to the **Bank Account Reconciliations** list, and open the existing reconciliation that includes the unreconciled lines.
 
    Start by opening an existing bank account reconciliation. This step provides you with a clear view of any unreconciled bank statement lines that need to be transferred to the general ledger account.
 
-2. In the **Bank statement lines** pane, identify the unmatched bank statement lines pane and select one or more lines that you want to reconcile.
+1. In the **Bank statement lines** pane, identify the unmatched bank statement lines pane and select one or more lines that you want to reconcile.
 
-   These lines are the statement lines that Copilot focuses on for transfer to the general ledger account.
+   These lines are the statement lines that Copilot focuses on for posting new payments to the general ledger account.
 
-3. Select **Transfer to G/L Account** to start the process.
+1. Select **Post Difference to G/L Account** to start the process.
 
-   ![Shows the transfer to G/L with copilot action on the Bank Acc. Reconciliation card](media/bank-reconciliation-transfer-gl-copilot-card.svg) 
+   ![Shows the transfer to G/L with copilot action on the Bank Acc. Reconciliation card](media/bank-reconciliation-transfer-gl-copilot-card.png) 
 
-   This step prompts Copilot to start generating proposals for the transfer.
+   This step prompts Copilot to start generating proposals for posting new payments.
 
-4. Once Copilot has finished generating proposals, the **Copilot G/L Account Transfer Proposals** window opens.
+1. Once Copilot has finished generating proposals, the **Copilot Proposals for Posting Differences to G/L Accounts** window opens.
 
    This window displays the proposals in the **Matched Proposal** section. The experience is similar to reconcile with Copilot.
 
    ![Shows the transfer to G/L with copilot proposed matches page for bank account reconciliation](media/bank-reconciliation-gl-transfer-proposed-matches.png) 
 
-5. Review each proposal line by line to ensure the accuracy of the suggested transfers.
+1. Review each proposal line by line to ensure the accuracy of the suggested payments to be posted.
 
-   - If you drill down on the proposal by selecting it in the list, you're taken to a list of accounts. From here, you can choose another account. This kind of manual correction is only possible when using the **Transfer to G/L Account** flow, not in the matching flow. 
+   - If you drill down on the proposal by selecting it in the list, you're taken to a list of accounts. From here, you can choose another account. This kind of manual correction is only possible when using the **Post Difference to G/L Account** flow, not in the matching flow. 
    - If you select **Save...** next to a proposal, you can add the mapping to the **Text-to-Account Mapping** page, so the next time this text appears while matching, it will be mapped to the proposed account.
 
-6. Discard or save proposals.
+1. Discard or save proposals.
 
    - If you want to discard a specific proposal, select it in the list and then select **Delete Line**. To discard all proposals and exit Copilot, select the discard button (trash can) ![Shows the trash can icon for deleting all Copilot proposal for bank account reconciliation](media/copilot-delete-trash-can.png) next to the **Keep it** button at the bottom of the window.
-   
-   - If the proposals meet your requirements and you want to save them, select **Keep It**. 
+
+   - If the proposals meet your requirements and you want to save them, select **Keep It**.
 
       This step confirms the transfer of the currently selected proposals from the bank account ledger to the general ledger account. It posts new payments to the proposed G/L Accounts and applies corresponding lines to the resulting bank account ledger entries.
 

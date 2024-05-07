@@ -57,6 +57,7 @@ You can use the **Fixed Asset - Projected Value** report to calculate future dep
 ## See also
 
 [Fixed Assets](fa-manage.md)  
+[Fixed assets analytics overview](fa-analytics-overview.md)   
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  

@@ -44,8 +44,20 @@ After you install the app, you can use the **Print Label** action to print 1D an
 > [!NOTE]
 > Some printers and barcode/QR code formats require a specific implementation. You might need to upload a different Word template or clone the report to create your own customized version.
 
+
+## Explore inventory reports with Report Explorer
+
+To get an overview of the reports that are available for inventory, choose **All Reports** on your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. Under the **Sales and Marketing** heading, choose **Explore**.
+
+:::image type="content" source="media/report-explorer-sales.png" alt-text="Example of reports on the finance role center." lightbox="media/report-explorer-sales.png":::
+
+To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
+
+
 ## See also
 
+[Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)  
+[Inventory analytics overview](inventory-analytics-overview.md)   
 [Setting Up Inventory](inventory-setup-inventory.md)  
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  

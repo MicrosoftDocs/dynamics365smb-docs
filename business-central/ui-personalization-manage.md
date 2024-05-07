@@ -126,7 +126,7 @@ Customization allows you to lock (allow editing) or unlock editing (prevent edit
 <!--However, whatever option you choose for a field, users can always change the setting on their own workspace using personalization. For this reason, it's important to consider locking as a deterrence measure and not a preventative measure.--> 
 ## Important information and tips 
 
-- Not all table fields may be available for customization from the **Add field to page** pane. The developer of a table can choose to prevent a field from appearing in customization by setting the field's [AllowInCustomization property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-allowincustomizations-property) to `false`.
+- Not all table fields may be available for customization from the **Add field to page** pane. The developer of a table can choose to prevent a field from appearing in customization by setting the field's [AllowInCustomization property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-allowincustomizations-property) to `Never`.
 - You can't customize a page that's in [analysis mode](analysis-mode.md). The **Analyze** switch is deactivated. If you switch to customization mode while the page is in analysis mode, then analyze mode is automatically switched off. 
 - Some pages have multiple page fields that map to the same source table. The **Add field to page** pane shows all of these page fields independently. You can show, hide, or move these fields independently without affecting the others.
 - If a part or group is hidden, you can still identify hidden fields inside the part or group, but you can't add, move or show fields in the part or group until they're made visible. 

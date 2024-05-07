@@ -43,9 +43,9 @@ Before people can use this extension, your administrator must copy the following
 * **D365 Read**
 * **IntelligentCloudBC**
 
-For more information, see [To copy a permission set](ui-define-granular-permissions.md#to-copy-a-permission-set).
+For more information, see [To copy a permission set](ui-define-granular-permissions.md#copy-a-permission-set).
 
-For each new permission set, grant only the **Read** permission for the **AMC Banking Setup table (20101)**. For more information, see [To create or modify permissions manually](ui-define-granular-permissions.md#to-create-a-permission-set).
+For each new permission set, grant only the **Read** permission for the **AMC Banking Setup table (20101)**. For more information, see [To create or modify permissions manually](ui-define-granular-permissions.md#create-a-permission-set).
 
 ### To connect the extension to AMC Banking
 

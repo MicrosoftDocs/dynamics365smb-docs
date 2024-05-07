@@ -13,17 +13,17 @@ ms.service: dynamics-365-business-central
 
 # Record sustainability entries
 
-Currently, the only way to record greenhouse gas (GHG) emissions in the **sustainability ledger** is to use **sustainability journals**.
+Currently, the only way to record greenhouse gas (GHG) emissions in the sustainability ledger is to use sustainability journals.
 
 ## Sustainability journals
 
 Sustainability journals are designed to track and record sustainability-related activities by using the same user experience as other journals in Business Central. Users who have the necessary information can manually enter emissions in a journal. Alternatively, if they lack the information, they can use built-in formulas to accurately calculate emissions based on specific known parameters that correspond to various types of sources and accounts.
 
-The information that you enter in a journal is temporary and can be changed while it's in that journal. When you post the journal, the information is transferred to **sustainability ledger entries** on individual **sustainability accounts**, where it can't be changed. However, you can post reversing or correcting entries.
+The information that you enter in a journal is temporary and can be changed while it's in that journal. When you post the journal, the information is transferred to sustainability ledger entries on individual sustainability accounts, where it can't be changed. However, you can post reversing or correcting entries.
 
 ### Use journal templates and batches
 
-By default, there are two **sustainability journal templates**: the standard template and the recurring template.
+By default, there are two sustainability journal templates: the standard template and the recurring template.
 
 For each journal template, you can set up your own personal journal as a journal batch. To do so, select the **Batches** action on the **Sustainability Journal Templates** page, and then create the new **sustainability journal batch** on the new page. For example, you can define your own journal batch for each emission scope by using the **Emission Scope** option and then selecting among the three existing scopes. For each batch, you can add or change the **Source Code** and **Reason Code** values.
 

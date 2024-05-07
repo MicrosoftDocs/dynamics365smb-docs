@@ -1,16 +1,17 @@
 ---
-    title: Extend Your Trial Version of Business Central
-    description: If you need more time to decide whether to subscribe to Dynamics 365 Business Central, you can extend your trial version once. Learn about your options.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: Extend your trial version of Business Central
+description: If you need more time to decide whether to subscribe to Dynamics 365 Business Central, you can extend your trial version once. Learn about your options.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords:
+ms.date: 05/07/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Need More Time to Decide Whether to Subscribe?
+# Need more time to decide whether to subscribe?
 
 It's important to make the right decision when choosing a business application, and we know that it can take time to explore all of the corners in [!INCLUDE[prod_short](includes/prod_short.md)]. If you need more time to finish your evaluation, you can extend the trial period yourself for another 30 days. When the expiration date for your trial period is approaching, we will display a notification to alert you when you sign in. The notification contains a link to the **Extend Trial Period** guide that you can use to extend your trial period. The extra 30 days start the moment you choose **Extend Trial** in the guide.
 

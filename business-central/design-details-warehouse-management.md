@@ -152,7 +152,9 @@ You can have one default bin per item per location.
 
 #### Bin type
 
-Locations that use directed put-away and pick can use bin types. Bin types control the activities that you allow for a bin. The following types of bins are available:  
+Locations that use directed put-away and pick can use bin types. Bin types control the activities that you allow for a bin. 
+
+The following types of bins are available:  
 
 |Bin Type|Description|  
 |------------------|---------------------------------------|  
@@ -163,10 +165,11 @@ Locations that use directed put-away and pick can use bin types. Bin types contr
 |PUTPICK|Items in bins that are suggested for both put-aways and picks. Bins of this type probably have different bin rankings. Set up your bulk storage bins with lower bin rankings than ordinary pick bins or bins in your forward picking area.|  
 |QC|This bin is used for inventory adjustments if you specify this bin on the location card in the **Adjustment Bin Code** field. You can also set up bins of this type for defective items and items being inspected. You can move items to this type of bin if you want to make them inaccessible to the usual item flow. **Note:**  Unlike all other bin types, the **QC** bin type has none of the item handling checkboxes selected by default. Content you place in a QC bin is excluded from item flows.|  
 
+You can operate your warehouse with all of the eight possible bin types, or you can choose to operate with just the RECEIVE, PUTPICK, SHIP and QC bin types. These four bin types enable suggestions to be made that support the flow of items and allow you to record inventory discrepancies.
 With the exceptions of the PICK, PUTPICK, and PUTAWAY types of bins, the bin type defines the activity allowed for a bin. For example, you can only use a RECEIVE type of bin to receive items or pick items from.  
 
 > [!NOTE]  
-> You must use movements to move items to RECEIVE and QC bins. use movements to move items from SHIP and QC bins.  
+> You must use movements to move items to RECEIVE and QC bins. Similarly, use movements to move items from SHIP and QC bins.  
 
 #### Bin ranking
 

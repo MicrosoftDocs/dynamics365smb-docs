@@ -11,7 +11,7 @@ metadata:
   ms.service: dynamics-365-business-central
   author: jswymer
   ms.author: jswymer
-  ms.date: 06/16/2023
+  ms.date: 04/11/2024
   hide_bc: true
 
 highlightedContent:
@@ -141,12 +141,12 @@ additionalContent:
     items:
     - title: Copilot and AI capabilities
       links:
-      - text: Features and responsible AI FAQs
-        url: /dynamics365/business-central/responsible-ai-overview
       - text: Configure Copilot and AI capabilities
         url: /dynamics365/business-central/enable-ai
-      - text: Extend Copilot 
+      - text: Extend Copilot in Business Central
         url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page
+      - text: Features and responsible AI FAQs
+        url: /dynamics365/business-central/responsible-ai-overview
     - title: Manage user access
       links:
       - text: Create users
@@ -259,18 +259,20 @@ additionalContent:
     items:
       - title: Copilot
         links:
+          - text: Analyze list data
+            url: /dynamics365/business-central/analysis-assist 
           - text: Chat with Copilot
             url: /dynamics365/business-central/chat-with-copilot
           - text: Get marketing text suggestions
             url: /dynamics365/business-central/ai-overview
-#          - text: Map e-documents to purchase order lines (preview)
-#            url: /dynamics365/business-central/map-edocuments-with-copilot
           - text: Reconcile bank accounts (preview)
             url: /dynamics365/business-central/bank-reconciliation-with-copilot
-#          - text: Suggest lines on sales documents (preview)
-#            url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
-#          - text: Analyze list data
-#            url: /dynamics365/business-central/analysis-assist 
+          - text: Match e-documents
+            url: /dynamics365/business-central/map-edocuments-with-copilot
+          - text: Reconcile bank accounts
+            url: /dynamics365/business-central/bank-reconciliation-with-copilot
+          - text: Suggest sales lines
+            url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
       - title: Workspace settings
         links:
           - text: Language, region, work date, time zone, and more
@@ -283,14 +285,14 @@ additionalContent:
 #            url: /dynamics365/business-central/ui-smart-notifications
       - title: Collaboration and sharing 
         links:
-#          - text: Overview
-#            url: /dynamics365/business-central/across-share-data-features
+          - text: Overview
+            url: /dynamics365/business-central/across-share-data-features
           - text: Share data in Teams chats and channels
             url: /dynamics365/business-central/across-teams-overview
           - text: Share files in OneDrive
             url: /dynamics365/business-central/across-share-onedrive
-          - text: Collaborate in Excel
-            url: /dynamics365/business-central/across-work-with-excel
+#          - text: Collaborate in Excel
+#            url: /dynamics365/business-central/across-work-with-excel
       - title: BI, reporting, and data analysis
         links:
           - text: Overview

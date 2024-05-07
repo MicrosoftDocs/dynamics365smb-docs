@@ -1,4 +1,3 @@
-
 ---
 title: Chart of sustainability accounts and ledger
 description: Learn how to manage the chart of sustainability accounts (CoSA), categories and subcategories, and details about sustainability ledger entries.

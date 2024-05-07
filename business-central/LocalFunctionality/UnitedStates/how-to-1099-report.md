@@ -11,7 +11,7 @@ ms.reviewer: solsen
 ms.service: dynamics-365-business-central
 ---
 
-# Submit and report the IRS 1099 forms in the US version
+# Submit and report the IRS 1099 forms
 
 ## Register with IRS  
 

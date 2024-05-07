@@ -52,7 +52,7 @@ The following image shows the result of these steps.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Example of how to do data analysis on the FA Ledger Entries page to see the value of an asset." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
-### Example: Asset value changes over time
+### Example: asset value changes over time
 
 To track asset value changes over time, follow these steps:
 

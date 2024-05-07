@@ -18,7 +18,7 @@ ms.service: dynamics-365-business-central
 
 ## Registration number in documents
 
-The **Registration No.** field has been added to the header of the following documents: **sales invoice**, **sales order**, and **sales credit memo**.
+The **Registration No.** field has been added to the header of the following documents: sales invoice, sales order, and sales credit memo.
 
 ## Sender registration number for payments
 

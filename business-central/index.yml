@@ -137,188 +137,6 @@ additionalContent:
         url: /dynamics365/business-central/admin-powerbi
 #      - text: OneDrive
 #        url: /dynamics365/business-central/across-onedrive-overview  
-  - title: Administer and develop
-    items:
-    - title: Copilot and AI capabilities
-      links:
-      - text: Configure Copilot and AI capabilities
-        url: /dynamics365/business-central/enable-ai
-      - text: Extend Copilot in Business Central
-        url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page
-      - text: Features and responsible AI FAQs
-        url: /dynamics365/business-central/responsible-ai-overview
-    - title: Manage user access
-      links:
-      - text: Create users
-        url: /dynamics365/business-central/ui-how-users-permissions
-      - text: Assign permissions to users and groups
-        url: /dynamics365/business-central/ui-define-granular-permissions
-#      - text: Manage profiles
-#        url: /dynamics365/business-central/admin-users-profiles-roles  
-      - text: Access with Microsoft 365 licenses
-        url: /dynamics365/business-central/admin-access-with-m365-license
-    - title: Manage environments
-      links:
-      - text: Overview
-        url: /dynamics365/business-central/dev-itpro/administration/tenant-administration
-      - text: Create environments
-        url: /dynamics365/business-central/dev-itpro/administration/tenant-administration  
-#      - text: Manage capacity
-#        url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity  
-      - text: Manage updates
-        url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-update-management
-#      - text: Admin center API
-#        url: /dynamics365/business-central/dev-itpro/administration/administration-center-api
-#      - text: Manage on-premises
-#        url: /dynamics365/business-central/dev-itpro/administration/administration
-    - title: Manage data storage
-      links: 
-      - text: Compress data or delete documents
-        url: /dynamics365/business-central/admin-manage-documents
-      - text: Archive data
-        url: /dynamics365/business-central/admin-archive-data
-      - text: Reduce stored data in databases
-        url: /dynamics365/business-central/dev-itpro/administration/database-reduce-data
-#      - text: Manage capacity
-#        url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity  
-#    - title: Manage on-premises 
-#      links:
-#      - text: Overview
-#        url: /dynamics365/business-central/dev-itpro/administration/administration
-#      - text: Configure Business Central Server
-#        url: /dynamics365/business-central/dev-itpro/administration/configure-server-instance  
-#      - text: Configure Business Central Web Server
-#        url: /dynamics365/business-central/dev-itpro/administration/configure-web-server
-#      - text: Optimize Business Central database performance
-#        url: /dynamics365/business-central/dev-itpro/administration/optimize-sql-server-performance
-#      - text: Powershell modules for Business Central admin
-#        url: /powershell/business-central/overview      
-    - title: Monitor operations and changes
-      links: 
-      - text: Audit changes
-        url: /dynamics365/business-central/across-log-changes
-      - text: Telemetry overview
-        url: /dynamics365/business-central/dev-itpro/administration/telemetry-overview       
-      - text: Enable telemetry
-        url: /dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights 
-#      - text: With Power BI
-#        url: /dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app
-#      - text: With KQL
-#        url: /dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql
-    - title: Customize and extend (admin)
-      links:
-      - text: Overview
-        url: /dynamics365/business-central/ui-customizing-overview
-#      - text: Install and Uninstall Extensions
-#        url: /dynamics365/business-central/dev-itpro/ui-extensions-install-uninstall
-      - text: Customize pages for profiles
-        url: /dynamics365/business-central/ui-personalization-manage
-#      - text: Change experience
-#        url: /dynamics365/business-central/ui-experiences
-      - text: Enable features ahead of time
-        url: /dynamics365/business-central/admin-feature-management 
-    - title: Develop in AL
-      links:
-      - text: Overview
-        url: /dynamics365/business-central/dev-itpro/developer/devenv-landing?branch=dev-landing
-#      - text: Set up your AL environment
-#        url: /dynamics365/business-central/dev-itpro/developer/devenv-get-started
-#      - text: Build your first app
-#        url: /dynamics365/business-central/dev-itpro/developer/devenv-extension-example
-      - text: Develop for AppSource
-        url: /dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher
-      - text: AL language reference
-        url: /dynamics365/business-central/dev-itpro/developer/
-    #  - text: System and Base application
-    #    url: /dynamics365/business-central/application/    
-    - title: Develop for integration
-      links:
-      - text: Web services (OData, SOAP)
-        url: /dynamics365/business-central/dev-itpro/webservices/web-services
-      - text: Connect apps 
-        url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps 
-      - text: Business Central API  
-        url: /dynamics365/business-central/dev-itpro/api-reference/v2.0/       
- #     - text: Teams
- #       url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams 
- #     - text: Dataverse
- #       url: /dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration 
- #   - title: Translation Services
- #     links:
- #     - text: Dynamics 365 Translation Service overview
- #       url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview
- #     - text: Dynamics 365 Translation Service API 
- #       url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/dts-api-info 
- #     - text: Dynamics Lifecycle Services API - Authentication  
- #       url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-aad-app-reg
- #     - text: Translate user interface files  
- #       url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/use-translation-service       
-
-
-  - title: Be productive
-    items:
-      - title: Copilot
-        links:
-          - text: Analyze list data
-            url: /dynamics365/business-central/analysis-assist 
-          - text: Chat with Copilot
-            url: /dynamics365/business-central/chat-with-copilot
-          - text: Get marketing text suggestions
-            url: /dynamics365/business-central/ai-overview
-          - text: Reconcile bank accounts (preview)
-            url: /dynamics365/business-central/bank-reconciliation-with-copilot
-          - text: Match e-documents
-            url: /dynamics365/business-central/map-edocuments-with-copilot
-          - text: Reconcile bank accounts
-            url: /dynamics365/business-central/bank-reconciliation-with-copilot
-          - text: Suggest sales lines
-            url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
-      - title: Workspace settings
-        links:
-          - text: Language, region, work date, time zone, and more
-            url: /dynamics365/business-central/ui-change-basic-settings
-          - text: Switch environment or company
-            url: /dynamics365/business-central/ui-organization-switch
-          - text: Personalize UI
-            url: /dynamics365/business-central/ui-personalization-user
-#          - text: Manage notifications
-#            url: /dynamics365/business-central/ui-smart-notifications
-      - title: Collaboration and sharing 
-        links:
-          - text: Overview
-            url: /dynamics365/business-central/across-share-data-features
-          - text: Share data in Teams chats and channels
-            url: /dynamics365/business-central/across-teams-overview
-          - text: Share files in OneDrive
-            url: /dynamics365/business-central/across-share-onedrive
-#          - text: Collaborate in Excel
-#            url: /dynamics365/business-central/across-work-with-excel
-      - title: BI, reporting, and data analysis
-        links:
-          - text: Overview
-            url: /dynamics365/business-central/reports-bi-reporting
-          - text: Run, schedule, and print reports
-            url: /dynamics365/business-central/ui-work-report
-          - text: Work with Power BI reports in Business Central
-            url: /dynamics365/business-central/across-working-with-powerbi
-        # - text: Change layout
-        #    url: /dynamics365/business-central/ui-set-report-layout                                                   
-        #  - text: Analyze list data with analysis mode
-        #    url: /dynamics365/business-central/analysis-mode            
-        #  - text: Analyze report data with Excel
-        #    url: /dynamics365/business-central/report-analyze-excel                                                                                
-#     - title: General business functionality
-#       links:
-#          - text: General journals
-#            url: /dynamics365/business-central/ui-work-general-journals
-#          - text: Post documents and journals
-#            url: /dynamics365/business-central/ui-post-documents-journals
-#          - text: Job queues
-#            url: /dynamics365/business-central/admin-job-queues-schedule-tasks
-#          - text: Incoming documents
-#            url: /dynamics365/business-central/across-income-documents
-#          - text: Local functionality
-#            url: /dynamics365/business-central/about-localization
   - title: Do business
     items:
 #      - title: Workspace settings
@@ -554,6 +372,189 @@ additionalContent:
             url: /dynamics365/get-started/availability
           - text: Development for localization
             url: /dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization
+  - title: Be productive
+    items:
+      - title: Copilot
+        links:
+          - text: Analyze list data
+            url: /dynamics365/business-central/analysis-assist 
+          - text: Chat with Copilot
+            url: /dynamics365/business-central/chat-with-copilot
+#          - text: Get marketing text suggestions
+#            url: /dynamics365/business-central/ai-overview
+#          - text: Reconcile bank accounts (preview)
+#            url: /dynamics365/business-central/bank-reconciliation-with-copilot
+#          - text: Match e-documents
+#            url: /dynamics365/business-central/map-edocuments-with-copilot
+#          - text: Reconcile bank accounts
+#            url: /dynamics365/business-central/bank-reconciliation-with-copilot
+#          - text: Suggest sales lines
+#            url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
+          - text: More...
+            url: /dynamics365/business-central/copilot-overview
+      - title: Workspace settings
+        links:
+          - text: Language, region, work date, time zone, and more
+            url: /dynamics365/business-central/ui-change-basic-settings
+          - text: Switch environment or company
+            url: /dynamics365/business-central/ui-organization-switch
+          - text: Personalize UI
+            url: /dynamics365/business-central/ui-personalization-user
+#          - text: Manage notifications
+#            url: /dynamics365/business-central/ui-smart-notifications
+      - title: Collaboration and sharing 
+        links:
+          - text: Overview
+            url: /dynamics365/business-central/across-share-data-features
+          - text: Share data in Teams chats and channels
+            url: /dynamics365/business-central/across-teams-overview
+          - text: Share files in OneDrive
+            url: /dynamics365/business-central/across-share-onedrive
+#          - text: Collaborate in Excel
+#            url: /dynamics365/business-central/across-work-with-excel
+      - title: BI, reporting, and data analysis
+        links:
+          - text: Overview
+            url: /dynamics365/business-central/reports-bi-reporting
+          - text: Run, schedule, and print reports
+            url: /dynamics365/business-central/ui-work-report
+          - text: Work with Power BI reports in Business Central
+            url: /dynamics365/business-central/across-working-with-powerbi
+        # - text: Change layout
+        #    url: /dynamics365/business-central/ui-set-report-layout                                                   
+        #  - text: Analyze list data with analysis mode
+        #    url: /dynamics365/business-central/analysis-mode            
+        #  - text: Analyze report data with Excel
+        #    url: /dynamics365/business-central/report-analyze-excel                                                                                
+#     - title: General business functionality
+#       links:
+#          - text: General journals
+#            url: /dynamics365/business-central/ui-work-general-journals
+#          - text: Post documents and journals
+#            url: /dynamics365/business-central/ui-post-documents-journals
+#          - text: Job queues
+#            url: /dynamics365/business-central/admin-job-queues-schedule-tasks
+#          - text: Incoming documents
+#            url: /dynamics365/business-central/across-income-documents
+#          - text: Local functionality
+#            url: /dynamics365/business-central/about-localization
+  - title: Administer and develop
+    items:
+    - title: Copilot and AI capabilities
+      links:
+      - text: Configure Copilot and AI capabilities
+        url: /dynamics365/business-central/enable-ai
+      - text: Extend Copilot in Business Central
+        url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page
+      - text: Features and responsible AI FAQs
+        url: /dynamics365/business-central/responsible-ai-overview
+    - title: Manage user access
+      links:
+      - text: Create users
+        url: /dynamics365/business-central/ui-how-users-permissions
+      - text: Assign permissions to users and groups
+        url: /dynamics365/business-central/ui-define-granular-permissions
+#      - text: Manage profiles
+#        url: /dynamics365/business-central/admin-users-profiles-roles  
+      - text: Access with Microsoft 365 licenses
+        url: /dynamics365/business-central/admin-access-with-m365-license
+    - title: Manage environments
+      links:
+      - text: Overview
+        url: /dynamics365/business-central/dev-itpro/administration/tenant-administration
+      - text: Create environments
+        url: /dynamics365/business-central/dev-itpro/administration/tenant-administration  
+#      - text: Manage capacity
+#        url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity  
+      - text: Manage updates
+        url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-update-management
+#      - text: Admin center API
+#        url: /dynamics365/business-central/dev-itpro/administration/administration-center-api
+#      - text: Manage on-premises
+#        url: /dynamics365/business-central/dev-itpro/administration/administration
+    - title: Manage data storage
+      links: 
+      - text: Compress data or delete documents
+        url: /dynamics365/business-central/admin-manage-documents
+      - text: Archive data
+        url: /dynamics365/business-central/admin-archive-data
+      - text: Reduce stored data in databases
+        url: /dynamics365/business-central/dev-itpro/administration/database-reduce-data
+#      - text: Manage capacity
+#        url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity  
+#    - title: Manage on-premises 
+#      links:
+#      - text: Overview
+#        url: /dynamics365/business-central/dev-itpro/administration/administration
+#      - text: Configure Business Central Server
+#        url: /dynamics365/business-central/dev-itpro/administration/configure-server-instance  
+#      - text: Configure Business Central Web Server
+#        url: /dynamics365/business-central/dev-itpro/administration/configure-web-server
+#      - text: Optimize Business Central database performance
+#        url: /dynamics365/business-central/dev-itpro/administration/optimize-sql-server-performance
+#      - text: Powershell modules for Business Central admin
+#        url: /powershell/business-central/overview      
+    - title: Monitor operations and changes
+      links: 
+      - text: Audit changes
+        url: /dynamics365/business-central/across-log-changes
+      - text: Telemetry overview
+        url: /dynamics365/business-central/dev-itpro/administration/telemetry-overview       
+      - text: Enable telemetry
+        url: /dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights 
+#      - text: With Power BI
+#        url: /dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app
+#      - text: With KQL
+#        url: /dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql
+    - title: Customize and extend (admin)
+      links:
+      - text: Overview
+        url: /dynamics365/business-central/ui-customizing-overview
+#      - text: Install and Uninstall Extensions
+#        url: /dynamics365/business-central/dev-itpro/ui-extensions-install-uninstall
+      - text: Customize pages for profiles
+        url: /dynamics365/business-central/ui-personalization-manage
+#      - text: Change experience
+#        url: /dynamics365/business-central/ui-experiences
+      - text: Enable features ahead of time
+        url: /dynamics365/business-central/admin-feature-management 
+    - title: Develop in AL
+      links:
+      - text: Overview
+        url: /dynamics365/business-central/dev-itpro/developer/devenv-landing?branch=dev-landing
+#      - text: Set up your AL environment
+#        url: /dynamics365/business-central/dev-itpro/developer/devenv-get-started
+#      - text: Build your first app
+#        url: /dynamics365/business-central/dev-itpro/developer/devenv-extension-example
+      - text: Develop for AppSource
+        url: /dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher
+      - text: AL language reference
+        url: /dynamics365/business-central/dev-itpro/developer/
+    #  - text: System and Base application
+    #    url: /dynamics365/business-central/application/    
+    - title: Develop for integration
+      links:
+      - text: Web services (OData, SOAP)
+        url: /dynamics365/business-central/dev-itpro/webservices/web-services
+      - text: Connect apps 
+        url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps 
+      - text: Business Central API  
+        url: /dynamics365/business-central/dev-itpro/api-reference/v2.0/       
+ #     - text: Teams
+ #       url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams 
+ #     - text: Dataverse
+ #       url: /dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration 
+ #   - title: Translation Services
+ #     links:
+ #     - text: Dynamics 365 Translation Service overview
+ #       url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview
+ #     - text: Dynamics 365 Translation Service API 
+ #       url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/dts-api-info 
+ #     - text: Dynamics Lifecycle Services API - Authentication  
+ #       url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-aad-app-reg
+ #     - text: Translate user interface files  
+ #       url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/use-translation-service       
+
  # - title: Related products
 #    items:
 #      # Card

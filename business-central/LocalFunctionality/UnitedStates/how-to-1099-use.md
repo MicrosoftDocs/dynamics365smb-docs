@@ -61,20 +61,20 @@ If you didn’t configure the vendor properly, and forgot to add specific **Form
 To create new 1099 form documents for the reporting years, follow these steps:  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IRS Reporting Periods**, and then choose the related link.  
-2. On the **IRS Reporting Periods** page, open the documents list, and then choose the **Documents** action. 
+1. On the **IRS Reporting Periods** page, open the documents list, and then choose the **Documents** action. 
 
    -- or -- 
 
-3. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IRS 1099 Form Documents**, and then choose the related link. 
-4. On the **IRS 1099 Form Documents** page, choose the **Create Forms** action to create IRS 1099 forms based on the filters you want to use:   
+   Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **IRS 1099 Form Documents**, and then choose the related link. 
+1. On the **IRS 1099 Form Documents** page, choose the **Create Forms** action to create IRS 1099 forms based on the filters you want to use:   
 
    - Selecting the period is required. The other choices are optional.  
    - If you don't select a vendor, then form documents will be created for all vendors. 
    - If you don't select a certain form, then form documents will be created for all forms. 
    - If you don't select the option **Replace**, then only new form documents will be created. If you select the option **Replace**, then the existing form documents will be replaced. 
 
-5. In the created 1099 form’s documents list you can see the list of all created documents based on the combination of vendors and form numbers. From this list, you can open any of the created documents.  
-6. Once you open the document, you can find the following information on the document header:  
+1. In the created 1099 form’s documents list you can see the list of all created documents based on the combination of vendors and form numbers. From this list, you can open any of the created documents.  
+1. Once you open the document, you can find the following information on the document header:  
 
    |  Field Name  |  Description  |  
    |--------|-----------------|  
@@ -86,8 +86,8 @@ To create new 1099 form documents for the reporting years, follow these steps:
    | **Email** | Specifies the email where the form will be sent if the vendor consented to electronically receive 1099 forms. If this vendor has configured the **E-Mail For IRS** field, this value will appear; if not, the standard **E-Mail** field from the **Vendor Card** page will be used.  |
    | **Copy B Sent** | Specifies whether this form copy has been sent. This field will be marked automatically and can't be edited.  |
    | **Copy C Sent** | Specifies whether this form copy has been sent. This field will be marked automatically and can't be edited.  |
-
-7. The lines in documents have the following information:  
+>
+1. The lines in documents have the following information:  
 
    |  Field Name  |  Description  |  
    |--------|---------------------|
@@ -98,7 +98,7 @@ To create new 1099 form documents for the reporting years, follow these steps:
    | **Minimum Reportable Amount** | The threshold to decide whether the certain form box with the reporting amount must be reported.   |
    | **Include in 1099** | Specifies whether the document line should be included in the 1099. The line is included if the amount is more than or equal to the minimum reportable amount. |
 
-8. Close the page.  
+1. Close the page.  
 
 ## See also 
 

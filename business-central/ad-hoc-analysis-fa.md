@@ -89,6 +89,12 @@ The following image shows the result of these steps.
 
 When you post fixed asset journals, [!INCLUDE [prod_short](includes/prod_short.md)] creates entries in the **FA Entry** table. Therefore, ad-hoc analysis on fixed assets is typically done on the [FA Ledger Entries](https://businesscentral.dynamics.com/?page=5604) page.
 
+## Contributors
+
+*This article is maintained by Microsoft. Parts of the examples were originally written by the following contributor.*
+
+* [Aldona Stec](https://www.linkedin.com/in/aldona-stec-25283bb1) | [!INCLUDE[prod_short](includes/prod_short.md)] Consultant
+
 ## See also
 
 [Analyze list and query data with analysis mode](analysis-mode.md)  

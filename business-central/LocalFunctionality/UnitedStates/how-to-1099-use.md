@@ -86,7 +86,7 @@ To create new 1099 form documents for the reporting years, follow these steps:
    | **Email** | Specifies the email where the form will be sent if the vendor consented to electronically receive 1099 forms. If this vendor has configured the **E-Mail For IRS** field, this value will appear; if not, the standard **E-Mail** field from the **Vendor Card** page will be used.  |
    | **Copy B Sent** | Specifies whether this form copy has been sent. This field will be marked automatically and can't be edited.  |
    | **Copy C Sent** | Specifies whether this form copy has been sent. This field will be marked automatically and can't be edited.  |
->
+
 1. The lines in documents have the following information:  
 
    |  Field Name  |  Description  |  

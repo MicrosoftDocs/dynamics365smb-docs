@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD
 ms.search.form: 
-ms.date: 04/23/2024
+ms.date: 05/08/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---

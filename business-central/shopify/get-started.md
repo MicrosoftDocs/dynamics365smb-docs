@@ -4,7 +4,7 @@ description: First steps when configuring a connection between Business Central 
 ms.date: 04/30/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135, 
 author: brentholtorf
 ms.author: bholtorf

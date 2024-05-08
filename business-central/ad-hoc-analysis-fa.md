@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Ad-hoc analysis of fixed assets data
 
-This article explains how to use the **Data Analysis** feature to analyze fixed assets data directly from list pages and queries. You don't have to run a report or switch to another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "Total assets", "Depreciations over time," or any other view you can imagine. To learn more about how to use the **Data Analysis** feature, go to [Analyze list and query data with analysis mode](analysis-mode.md).
+This article explains how to use the **Data Analysis** feature to analyze fixed assets data directly from list pages and queries. You don't have to run a report or switch to another application, such as Excel. The feature provides an interactive and versatile way to calculate, summarize, and examine data. Instead of running reports using options and filters, you can add multiple tabs that represent different tasks or views on the data. Some examples are "Total assets," "Depreciations over time," or any other view you can imagine. To learn more about how to use the **Data Analysis** feature, go to [Analyze list and query data with analysis mode](analysis-mode.md).
 
 Use the following list pages to start doing ad-hoc analysis of fixed assets processes:
 
@@ -91,7 +91,7 @@ When you post fixed asset journals, [!INCLUDE [prod_short](includes/prod_short.m
 
 ## Contributors
 
-*This article is maintained by Microsoft. Parts of the examples were originally written by the following contributor.*
+*Microsoft maintains this article. Parts of the examples were originally written by the following contributor.*
 
 * [Aldona Stec](https://www.linkedin.com/in/aldona-stec-25283bb1) | [!INCLUDE[prod_short](includes/prod_short.md)] Consultant
 

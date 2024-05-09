@@ -5,7 +5,7 @@ author: altotovi
 ms.topic: conceptual
 ms.search.keywords: local, 1099, tax, taxes, IRS
 ms.search.form: 50, 51, 132, 10036, 10037, 10049
-ms.date: 04/04/2024
+ms.date: 05/09/2024
 ms.author: altotovi
 ms.reviewer: solsen
 ms.service: dynamics-365-business-central
@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Use the IRS 1099 forms
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] will calculate 1099 forms only for vendors whose **Purchase Invoice** includes information about **IRS 1099 Form No.** and **IRS 1099 Form Box No.** on the document header and if the payment is posted and applied to this invoice.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] will calculate 1099 forms only for vendors whose Purchase Invoice includes information about **IRS 1099 Form No.** and **IRS 1099 Form Box No.** on the document header and if the payment is posted and applied to this invoice.  
 
 ## Work with purchase documents  
 
@@ -23,7 +23,7 @@ To have all IRS-related fields applied to the purchase document, this document m
 > If the **Posting Date** of the document is not within the reporting period date, the IRS fields will be disabled.  
 
 > [!NOTE]
-> If you do not see populated IRS fields and you expect values there, verify that the document is within the data range that you have configured for IRS reporting, and also check if you have created **IRS Reporting Period** for this year, and added this **Vendor** to be 1099 eligible for this reporting year.  
+> If you do not see populated IRS fields and you expect values there, verify that the document is within the data range that you have configured for IRS reporting, and also check if you have created IRS reporting period for this year, and added this vendor to be 1099 eligible for this reporting year.  
 
 When you [post this purchase document](../../purchasing-how-record-purchases.md), you can see the following fields populated in relation to this [posted document](../../purchasing-how-record-purchases.md): 
 

@@ -11,7 +11,7 @@ ms.reviewer: solsen
 ms.service: dynamics-365-business-central
 ---
 
-# Use the IRS 1099 forms in the US version  
+# Use the IRS 1099 forms
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] will calculate 1099 forms only for vendors whose **Purchase Invoice** includes information about **IRS 1099 Form No.** and **IRS 1099 Form Box No.** on the document header and if the payment is posted and applied to this invoice.  
 

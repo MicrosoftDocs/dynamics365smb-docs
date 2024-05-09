@@ -1,5 +1,5 @@
 ---
-title: Revalue General Ledger Account Balances 
+title: Revalue general ledger account balances 
 description: Learn how to revalue general ledger account balances before you produce your financial statements.
 author: brentholtorf
 ms.author: bholtorf
@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 # Revalue general ledger account balances
 
-If you use general ledger accounts to register balance sheet items in foreign currencies, you should revaluate the account balances before you produce financial statements. Currency exchange rates often change, and revaluation helps make your financial statements more accurate.
+If you use general ledger (G/L) accounts to register balance sheet items in foreign currencies, you should revaluate the account balances before you produce financial statements. Currency exchange rates often change, and revaluation helps make your financial statements more accurate.
 
 ## Set up revaluations
 

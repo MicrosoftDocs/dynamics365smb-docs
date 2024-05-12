@@ -17,8 +17,8 @@ ms.custom: bap-template
 Businesses with fixed assets capture a lot of data about them during daily activities. That data supports valuable business intelligence (BI) for fixed assets managers:
 
 - Asset acquisitions
-- Asset deprecations
-- Insurance and repairs
+- Asset deprecation
+- Insurance and maintenance
 - Asset budgets
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you gather, analyze, and share data about your organization's fixed assets:
@@ -30,7 +30,7 @@ Businesses with fixed assets capture a lot of data about them during daily activ
 - Built-in fixed assets reports
 
 > [!NOTE]
-> Analytics for fixed assets is a little different than other areas. You need to analyze data that's already present, such as asset acquisitions, deprecations, and insurance, but also data about future, such as depreciations and asset retirements. For the latter type of analysis, [!INCLUDE[prod_short](includes/prod_short.md)] has built-in reports that can calculate these numbers.
+> Analytics for fixed assets is a little different than other areas. You need to analyze data that's already present, such as asset acquisitions, deprecation, and insurance, but also data about future (projected) data, such as depreciation and asset retirements. For the latter type of analysis, [!INCLUDE[prod_short](includes/prod_short.md)] has built-in reports that can calculate these numbers.
 
 Each feature has its advantages and disadvantages, depending on the type of data analysis and the role of the user. To learn more, go to [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md).
 

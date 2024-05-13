@@ -36,6 +36,7 @@ The following sections provide examples of finance scenarios in [!INCLUDE [prod_
 | ---- | ----- | ------------------------------- |------------------- |
 | [Finance (Accounts Receivable)](#example-finance-accounts-receivables) | See what your customers owe you, for example, broken down into time intervals for when amounts are due. | [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) | **Customer Name**, **Due Date**, and **Remaining Amount** |
 | [Finance (Accounts Payable)](#example-finance-accounts-payable) | See what you owe your vendors, maybe broken down into time intervals for when amounts are due. | [Vendor Ledger Entries](https://businesscentral.dynamics.com/?page=29) | **Vendor Name**, **Document Type**, **Document No.**, **Due Date Year**, **Due Date Month**, and **Remaining Amount**. |
+| [Finance (Sales invoices by G/L account)](#example-finance-sales-invoices-by-gl-account) | See how your sales invoices distribute over G/L accounts from the chart of accounts, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) | **G/L Account name**, **Source Code**, **G/L Account name**, **G/L Account No.**, **Debit Amount**, **Credit Amount**, **Posting Date Year**, **Posting Date Quarter**, and **Posting Date Month** |
 | [Finance (Income statement)](#example-finance-income-statement) | See your income over the income accounts from the chart of accounts, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) | **G/L Account No.**, **Posting Date**, and **Amount**. |
 | [Finance (total assets)](#example-finance-total-assets) | See your assets over the asset accounts from the chart of account, for example, broken down into time intervals for when amounts were posted. | [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) | **G/L Account No.**, **Posting Date**, and **Amount**. |
 
@@ -66,6 +67,27 @@ To see what you owe your vendors, maybe broken down into time intervals for when
 The following image shows the result of these steps.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries.png":::
+
+### Example: Finance (Sales invoices by G/L account)
+
+To see how your sales invoices distribute over G/L accounts from the chart of accounts, for example, broken down into time intervals for when amounts were posted, follow these steps:
+
+1. Open the [General Ledger Entries](https://businesscentral.dynamics.com/?page=20) list 
+1. Add the **G/L Account name** and **Source Code** fields by personalizing the page. On the **Settings** menu, choose **Personalize**.
+1. Exit personalization mode.
+1. Choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
+1. Go to the **Analysis Filters** menu and set a filter on the **Source Code** field to `SALES` (and other values if you have customizations that have added other values)
+1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
+1. Turn on the **Pivot Mode** toggle (located above the **Search** field on the right).
+1. Drag the **G/L Account name** and **G/L Account No.** fields to the **Row Groups** area.
+1. Drag the **Debit Amount** and **Credit Amount** fields to the **Values** area.
+1. Drag the **Posting Date Year**, **Posting Date Quarter**, and **Posting Date Month** fields to the **Column Labels** area.
+1. Rename your analysis tab to **Invoice breakdown by account**, or something that describes this analysis.
+
+The following image shows the result of these steps.
+
+:::image type="content" source="media/data-analysis-vendor-ledger-entries-invoices.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries-invoices.png":::
+
 
 ### Example: Finance (Income statement)
 

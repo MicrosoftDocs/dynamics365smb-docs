@@ -86,7 +86,7 @@ To see how your sales invoices distribute over G/L accounts from the chart of ac
 
 The following image shows the result of these steps.
 
-:::image type="content" source="media/data-analysis-vendor-ledger-entries-invoices.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-vendor-ledger-entries-invoices.png":::
+:::image type="content" source="media/data-analysis-gl-entries-invoices.png" alt-text="Example of how to do data analysis on the G/L Ledger Entries page (to understand sales postings)." lightbox="media/data-analysis-gl-entries-invoices.png":::
 
 
 ### Example: Finance (Income statement)

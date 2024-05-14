@@ -3,7 +3,7 @@ title: Financial analytics
 description: Business Central helps you gather, analyze, and share company data for business intelligence.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: kepontop
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 108, 198, 490

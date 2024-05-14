@@ -7,9 +7,8 @@ ms.search.keywords: making tax digital, vat, vat return, submit vat, making tax 
 ms.search.form: 743, 10530, 10531, 10532, 10537, 10538, 10539, 
 ms.date: 09/28/2023
 ms.author: bholtorf
-ms.reviewer: soalex
+ms.reviewer: bholtorf
 ms.custom: bap-template
-
 ms.service: dynamics-365-business-central
 ---
 # Making Tax Digital in the United Kingdom

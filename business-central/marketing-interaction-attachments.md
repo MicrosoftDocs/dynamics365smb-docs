@@ -3,7 +3,7 @@ title: Attachments for interactions
 description: You can attach files, such as Word documents, to add details about an interaction.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5082,

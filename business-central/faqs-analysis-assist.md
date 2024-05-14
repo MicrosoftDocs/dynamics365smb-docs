@@ -66,6 +66,7 @@ Users have the opportunity to provide feedback to every Copilot response and rep
     If the display language in Business Central isn't one of the listed locales, the feature isn't available.
 
   - The quality of answers can be lower if:
+
     - The language locale in Business Central is something other than en-US.
     - The language setting for the user in Business Central differs from the primary language of the business data in the [!INCLUDE[prod_short](includes/prod_short.md)] database.
   

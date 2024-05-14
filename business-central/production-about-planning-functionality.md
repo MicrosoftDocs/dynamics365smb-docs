@@ -3,7 +3,7 @@ title: About Planning Functionality
 description: Learn how planning uses demand and supply data to suggest how to balance supply to meet demand.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: 5430,
 ms.date: 09/19/2023

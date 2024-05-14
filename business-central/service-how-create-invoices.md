@@ -3,7 +3,7 @@ title: Create Invoices or Credit Memos for Services
 description: Learn how to create invoices and credit memos for your services.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/27/2024
 ms.service: dynamics-365-business-central

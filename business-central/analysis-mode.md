@@ -1,6 +1,6 @@
 ---
 title: Analyze list page and query data using data analysis
-description: Learn how to use the analysis mode in Business central to analyze data.
+description: Learn how to use the analysis mode in Business Central to analyze data.
 author: jswymer 
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -21,11 +21,11 @@ This article explains how to use the data analysis feature from list pages and q
 
 ## Prerequisites
 
-- If you're using [!INCLUDE [prod_short](includes/prod_short.md)] version 22, the data analysis feature is in preview. So, an admin must enable it before you can use it. To enable it, go to the **Feature Management** page and switch on **Feature Update: Analysis mode, quickly analyze data directly in Business Central**. [Learn more about Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).
-- In version 23 and later, your account must be assigned the **DATA ANALYSIS - EXEC** permission set or include execute permission on the system object **9640 Allow Data Analysis mode**. As an admin, you can exclude these permissions on users who you don't want to have access to the analysis mode.
+- If you're using [!INCLUDE [prod_short](includes/prod_short.md)] version 22, the data analysis feature is in preview. So, an admin must enable it before you can use it. To enable it, go to the **Feature Management** page and switch on **Feature Update: Analysis mode, quickly analyze data directly in Business Central**. [Learn more about Feature Management.](/dynamics365/business-central/dev-itpro/administration/feature-management)
+- In version 23 and later, your account must be assigned the **DATA ANALYSIS - EXEC** permission set or include execute permission on the system object **9640 Allow Data Analysis mode**. As an admin, you can exclude these permissions for users who you don't want to access the analysis mode.
 
 > [!NOTE]
-> Some list pages that don't offer the **Enter analysis mode** toggle for turning on analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.
+> Some list pages don't offer the **Enter analysis mode** toggle for turning on analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.
 
 ## Get started
 

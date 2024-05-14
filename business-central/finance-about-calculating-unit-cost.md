@@ -1,13 +1,15 @@
 ---
-title: About Unit Cost Calculation
+title: About unit cost calculation
 description: Learn how the costing method and other factors influence the Unit Cost field on the Item card.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: article
-ms.date: 03/06/2022
-ms.author: bholtorf
+ms.date: 04/19/2024
+
 ---
-# About Unit Cost Calculation
+# About unit cost calculation
 
 Each item has a unit cost that is calculated based on the company's costing method and other factors. As a rule, with the *Standard* costing method, the **Unit Cost** field value is based on the standard cost for the item. For all other costing methods (*FIFO*, *LIFO*, *Specific*, and *Average*), the unit cost is calculated based on the average unit cost across a period of time.  
 

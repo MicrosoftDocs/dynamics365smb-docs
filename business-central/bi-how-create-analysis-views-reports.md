@@ -69,15 +69,15 @@ An analysis column template contains a set of lines, each representing an analys
 
     > [!NOTE]  
     > To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**. Set up the analysis type codes on the **Analysis Types** page.  
-    
-    Also, in the **Ledger Entry Type** field, if you select **Item Entries**, the actual figures from the item ledger entry are copied. If you select **Item Budget Entries**, the budgeted figures from the budget are copied.  
+    >
+    > Also, in the **Ledger Entry Type** field, if you select **Item Entries**, the actual figures from the item ledger entry are copied. If you select **Item Budget Entries**, the budgeted figures from the budget are copied.  
 5. Choose **OK** to save your changes.  
 
 ## Set up analysis line templates
 
 The following procedure is based on analysis reports for sales. The steps are similar for purchase and inventory analysis reports.
 
-An analysis line template contains a set of lines, each representing an analysis line you want in the analysis report. A line can specify one or a range of items, customers, vendors, or groups. You can also create a formula in a line to sum up the other lines. You can set up as many line templates as you like, then use them to create new analysis reports.   
+An analysis line template contains a set of lines, each representing an analysis line you want in the analysis report. A line can specify one or a range of items, customers, vendors, or groups. You can also create a formula in a line to sum up the other lines. You can set up as many line templates as you like, then use them to create new analysis reports.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Line Templates**, then choose the related link.  
 2. Select the first empty line, and then fill in the fields as necessary.

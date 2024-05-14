@@ -3,7 +3,7 @@ title: Use time sheets
 description: Learn how to create, submit, approve, and post time sheets for resources, projects, and services.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973

@@ -3,7 +3,7 @@ title: Create a Project Sales Invoice to Invoice a Project
 description: Describes how to invoice customers for project expenses as a project progresses and costs accumulate.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: project invoice
 ms.search.form: 1002, 1007, 

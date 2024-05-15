@@ -9,6 +9,7 @@ ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 84
 ms.date: 04/08/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Work with Intrastat reporting
 

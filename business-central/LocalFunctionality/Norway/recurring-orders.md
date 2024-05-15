@@ -10,6 +10,7 @@
     ms.date: 12/12/2023
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Recurring orders
 You can use recurring orders to create blanket order templates so that sales orders can be created based on date intervals that you define. For example, if you deliver the same sales order every two weeks, you can use a blanket sales order and create recurring orders.  

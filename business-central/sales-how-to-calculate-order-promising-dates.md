@@ -1,5 +1,5 @@
 ---
-    title: Calculate order promising dates
+title: Calculate order promising dates
     description: The order promising function is a tool for calculating the earliest possible date that an item is available for shipment or delivery. 
     author: brentholtorf
     ms.topic: conceptual
@@ -8,6 +8,7 @@
     ms.date: 03/05/2024
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Calculate order promising dates
 

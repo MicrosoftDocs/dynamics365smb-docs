@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/03/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Security groups are new to Business Central in 2023 release wave 1. They're similar to the user groups that this article mentions. Like user groups, administrators assign the permissions to the security group that its members need to do their jobs.

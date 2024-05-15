@@ -7,6 +7,7 @@ ms.service: dynamics-365-business-central
 ms.search.keywords: OData, Power App, SOAP
 ms.date: 05/15/2023
 ms.author: jswymer
+ms.reviewer: jswymer
 ---
 # Connecting to Your Business Central Data to Build a Business App Using Power Apps
 

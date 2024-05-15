@@ -3,7 +3,7 @@ title: Power BI integration component and architecture overview for Business Cen
 description: Learn about the different aspects of Power BI integration with Business Central.
 author: jswymer
 ms.author: jswymer
-ms.reviewer: bholtorf
+ms.reviewer: jswymer
 ms.topic: overview
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/26/2024

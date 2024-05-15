@@ -9,6 +9,7 @@ ms.search.form:
 ms.date: 03/29/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Keep transactional data for five years in Denmark

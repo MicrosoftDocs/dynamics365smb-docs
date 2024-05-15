@@ -8,6 +8,7 @@ ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Allocate Costs to Intercompany Partners
 When you use intercompany postings to transfer documents between partner companies, the VAT-related settings (primarily the VAT business posting group) assigned to the customer or vendor accounts (associated with the intercompany Partner) control whether, and how, VAT is calculated and registered. 

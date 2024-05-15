@@ -10,6 +10,7 @@
     ms.date: 06/17/2021
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Set the Work Date as the Posting Date in the Belgian Version
 You can set up the general ledger to use the work date as the posting date for customer or vendor open entries on an invoice, payment, or credit memo.  

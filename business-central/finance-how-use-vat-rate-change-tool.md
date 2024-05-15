@@ -4,7 +4,7 @@ description: Learn how to use the VAT Rate Change tool for Dynamics 365 Business
 author: jswymer
 
 ms.topic: conceptual
-ms.reviewer: bholtorf
+ms.reviewer: jswymer
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.search.form: 550, 
 ms.date: 06/16/2021

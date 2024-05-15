@@ -8,6 +8,7 @@ ms.search.form: 663,
 ms.date: 05/31/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Approval Users
 

@@ -5,7 +5,7 @@ author: ACMartinKunes
 ms.topic: conceptual
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash, small regulatory features, best practices
 ms.date: 11/23/2023
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

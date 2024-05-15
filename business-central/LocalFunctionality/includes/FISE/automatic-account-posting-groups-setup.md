@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 To use automatic account codes, you must create an automatic account posting group.  
 

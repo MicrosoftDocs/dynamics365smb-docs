@@ -9,6 +9,7 @@ ms.search.form:
 ms.date: 11/07/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Items and Locations for Directed Put-away and Pick
 

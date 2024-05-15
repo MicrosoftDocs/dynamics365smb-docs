@@ -8,6 +8,7 @@ ms.search.form: 28071, 28073, 28081, 28082
 ms.date: 11/28/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # View posted tax credit memos in the Australian version

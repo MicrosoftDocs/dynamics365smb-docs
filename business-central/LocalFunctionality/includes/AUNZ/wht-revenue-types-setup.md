@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 11/07/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Revenue types are used to categorize withholding tax (WHT) entries and are used for WHT certificates.  
 

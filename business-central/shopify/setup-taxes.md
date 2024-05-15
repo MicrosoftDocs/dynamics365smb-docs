@@ -6,6 +6,7 @@ ms.topic: article
 ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
 
 # Set Up Taxes for the Shopify Connection

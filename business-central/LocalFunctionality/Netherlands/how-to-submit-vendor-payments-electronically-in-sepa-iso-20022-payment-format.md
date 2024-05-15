@@ -8,6 +8,7 @@
     ms.date: 04/01/2021
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format
 

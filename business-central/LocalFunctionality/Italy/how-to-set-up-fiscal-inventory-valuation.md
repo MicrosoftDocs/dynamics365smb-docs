@@ -10,6 +10,7 @@
     ms.date: 06/18/2021
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Set Up Fiscal Inventory Valuation in the Italian Version
 To use fiscal inventory valuation, you must set up inventory valuation methods.  

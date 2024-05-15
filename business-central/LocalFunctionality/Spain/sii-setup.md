@@ -9,6 +9,7 @@ ms.search.form: 10740, 10751, 10752, 10753, 10770, 10771, 747, 473, 472
 ms.date: 04/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up SII for VAT Reporting in the Spanish Version
 

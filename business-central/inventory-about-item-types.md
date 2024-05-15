@@ -12,6 +12,7 @@ ms.author: bholtorf
 
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # About Item Types
 In the **Type** field on the **Item Card** page, you can select what the item is used for in your business, which affects the degree to which you can manage the item in inventory. The following table lists and describes the three types of items that are available.

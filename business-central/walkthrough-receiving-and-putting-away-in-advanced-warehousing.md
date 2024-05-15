@@ -9,6 +9,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations
 

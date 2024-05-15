@@ -3,7 +3,7 @@ title: Troubleshoot Copilot and AI capabilities
 description: Learn how to fix common issues that you might encounter while working with Copilot and AI capabilities in Business Central.
 author: jswymer
 ms.author: jswymer 
-ms.reviewer: jswymer 
+ms.reviewer: jswymer
 ms.topic: troubleshooting 
 ms.collection:
   - bap-ai-copilot

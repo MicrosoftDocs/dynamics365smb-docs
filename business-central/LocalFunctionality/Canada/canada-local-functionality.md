@@ -11,6 +11,7 @@
     ms.author: soalex
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Local Functionality in the Canadian Version
 

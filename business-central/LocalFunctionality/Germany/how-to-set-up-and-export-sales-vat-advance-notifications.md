@@ -9,6 +9,7 @@ ms.date: 12/11/2023
 ms.author: soalex
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set up and export sales VAT advance notifications

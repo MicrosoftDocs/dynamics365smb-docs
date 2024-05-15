@@ -8,6 +8,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Troubleshooting Self-Service Sign-Up
 Signing up for [!INCLUDE[prod_short](includes/prod_short.md)] is easy and can be done very quickly. You can create a free account even if you are an existing organization. This article addresses issues that you may have during signup.

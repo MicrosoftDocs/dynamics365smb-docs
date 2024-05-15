@@ -8,6 +8,7 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 12/11/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Cloud migration base extension

@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 04/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 ## Best practices for working with column definitions

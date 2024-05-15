@@ -10,6 +10,7 @@
     ms.date: 12/06/2023
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Export VAT transactions reports in the Italian version
 After you create a report, you can release it, and then export it for the authorities. To change the report, make sure that the Modify Submitted Reports check box is enabled in the VAT Report Setup page. If it isn't, to change the report when you want to correct an error, you have to create a new report, add the report with the error in the original report number, and then create a corrective report. For more information, see [Correct VAT Transactions Reports](how-to-correct-vat-transactions-reports.md).  

@@ -5,7 +5,7 @@ author: ACMartinKunes
 ms.topic: conceptual
 ms.search.keywords: Czech, finance, CZ, Fixed Assets
 ms.date: 12/20/2023
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-makune
 ms.service: dynamics-365-business-central
 ---

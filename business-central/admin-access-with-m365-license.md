@@ -3,7 +3,7 @@ title: Business Central Access with Microsoft 365 licenses
 description: Learn how users can get access to Business Central data, for example in Microsoft Teams chats and channels, with only a Microsoft 365 license, but no Business Central license.
 author: mikebc
 ms.author: mikebc 
-ms.reviewer: jswymer 
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: overview
 ms.date: 11/22/2022

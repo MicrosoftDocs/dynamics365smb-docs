@@ -3,7 +3,7 @@ title: SEPA Direct Debit in Business Central
 description: With your customer's consent, you can collect payments directly from the customer's bank account according to the SEPA format.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 371, 423, 424, 427, 1208, 1207, 1230
 ms.date: 02/20/2024

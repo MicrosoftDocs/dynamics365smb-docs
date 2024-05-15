@@ -8,6 +8,7 @@ ms.search.keywords: desktop, Windows, app
 ms.date: 12/13/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
 # Getting Business Central on your mobile device

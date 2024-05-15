@@ -9,6 +9,7 @@
     ms.date: 04/01/2021
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Process for Digital Audits (GoBD/GDPdU)
 You can export data from [!INCLUDE[prod_short](../../includes/prod_short.md)] according to the process for digital audits (GoBD/GDPdU), which is based on German tax law.  

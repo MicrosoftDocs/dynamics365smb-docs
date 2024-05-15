@@ -8,6 +8,7 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 01/22/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Connect to Power BI from Business Central on-premises
 

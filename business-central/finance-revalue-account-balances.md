@@ -3,7 +3,7 @@ title: Revalue general ledger account balances
 description: Learn how to revalue general ledger account balances before you produce your financial statements.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 03/14/2024
 ms.custom: bap-template

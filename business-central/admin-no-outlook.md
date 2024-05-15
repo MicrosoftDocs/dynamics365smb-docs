@@ -8,6 +8,7 @@ ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 12/11/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Use Business Central without Outlook
 [!INCLUDE[prod_short](includes/prod_short.md)] has deep integration with Microsoft 365, and you can use [!INCLUDE[prod_short](includes/prod_short.md)] as your business inbox in Outlook. But if you don't have Outlook, you can work with [!INCLUDE[prod_short](includes/prod_short.md)] in the browser or on your mobile device.  

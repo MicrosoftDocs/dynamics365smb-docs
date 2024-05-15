@@ -9,6 +9,7 @@ ms.search.form: 31
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Displaying Lists in Different Ways
 In the right corner of any list in [!INCLUDE[prod_short](includes/prod_short.md)] you will find icons that let you choose how the list of records is displayed. A list can be displayed as detailed rows, which is ideal when you need to work with many fields or edit fields in the list. But you can also switch to display records as tiles, which is more compact and shows less fields on the specific record. This is very useful to gain an overview of several entries and is in particular useful on smaller devices, because it is compact and easier to tap.

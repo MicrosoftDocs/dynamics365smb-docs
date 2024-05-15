@@ -12,6 +12,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Setting Up Tax Deducted at Source (TDS), as per the Provisions of the Income Tax Act, 1961
 

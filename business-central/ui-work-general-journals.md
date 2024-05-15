@@ -3,7 +3,7 @@ title: Working with general journals to post directly to G/L
 description: Learn about using journals to post financial transactions to general ledger accounts and other accounts, such as bank and vendor accounts.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 04/12/2024

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.search.keywords: Iceland, post, invoice, credit memo
 ms.date: 04/03/2024
 ms.author: bholtorf
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---

@@ -8,6 +8,7 @@
     ms.date: 12/13/2023
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Import and reconcile bank statements
 Banks provide electronic bank statements for all your financial interactions. You can import these statements into the bank or giro journals.  

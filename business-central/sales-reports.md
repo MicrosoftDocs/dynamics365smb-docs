@@ -8,6 +8,7 @@ ms.search.form: Report_107, Report_111, Report_112, Report_113, Report_119, Repo
 ms.date: 05/03/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Sales reports and analytics in Business Central
 

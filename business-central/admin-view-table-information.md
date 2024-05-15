@@ -8,6 +8,7 @@ ms.search.form: 8700
 ms.date: 10/11/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
 # Viewing table information

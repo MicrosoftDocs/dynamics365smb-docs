@@ -8,6 +8,7 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 12/13/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Creating Power BI reports for displaying list data in [!INCLUDE[prod_short](includes/prod_short.md)]
 

@@ -9,6 +9,7 @@ ms.search.form: 1
 ms.date: 03/29/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Notification and registration for the NemHandelsregisteret in Denmark

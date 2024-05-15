@@ -8,6 +8,7 @@ ms.date: 12/05/2023
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Print VAT reconciliation reports
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use the **VAT Reconciliation** report to view a list of general ledger accounts with their base amounts and VAT amounts. VAT type groups these amounts to help with VAT settlement reconciliation.  

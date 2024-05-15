@@ -12,6 +12,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # GST Credit and GST Liability Adjustment for Open Reverse Charge Goods and Services Invoices
 

@@ -9,6 +9,7 @@ ms.search.form: 11212
 ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Import and Export Data in Standard Import Export Format in the Swedish Version

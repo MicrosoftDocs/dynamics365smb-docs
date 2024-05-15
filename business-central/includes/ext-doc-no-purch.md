@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 On purchase documents and journals, you can specify a document number that refers to the vendor's numbering system. Use this field to record the number that the vendor assigned to the order, invoice, or credit memo. You can then use the number later if, for some reason, you need to search for the posted entry using this number.

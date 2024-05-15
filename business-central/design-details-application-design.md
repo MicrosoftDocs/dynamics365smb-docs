@@ -8,6 +8,7 @@
     ms.date: 12/13/2023
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Application design details
 

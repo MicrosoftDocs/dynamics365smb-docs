@@ -9,6 +9,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Posting Depreciation Differences in the Finnish Version
 In Finland, the following depreciation methods are commonly used for fixed assets:  

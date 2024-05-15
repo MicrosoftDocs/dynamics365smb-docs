@@ -9,6 +9,7 @@ ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ms.reviewer: jswymer
 ---
 
 # Keyboard shortcuts

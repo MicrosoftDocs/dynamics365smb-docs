@@ -10,6 +10,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # New Zealand Inland Revenue Department Numbers and Adjustment Notes
 

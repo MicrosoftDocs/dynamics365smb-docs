@@ -9,6 +9,7 @@ ms.search.form: 663, 1500, 1512, 1513,
 ms.date: 09/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Specify When and How to Receive Workflow Notifications
 

@@ -9,6 +9,7 @@ ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Test Remittance Payments in the Norwegian Version
 

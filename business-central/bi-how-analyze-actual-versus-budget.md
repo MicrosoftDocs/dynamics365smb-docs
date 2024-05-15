@@ -9,6 +9,7 @@ ms.search.form: 120, 121, 422
 ms.date: 09/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Analyze Actual Amounts Versus Budgeted Amounts
 

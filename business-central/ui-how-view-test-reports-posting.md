@@ -8,6 +8,7 @@ ms.search.form:
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # View Test Reports Before Posting
 When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.

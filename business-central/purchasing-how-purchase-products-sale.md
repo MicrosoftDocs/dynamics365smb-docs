@@ -9,6 +9,7 @@ ms.search.form: 50, 51, 56, 9308
 ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Purchase items for a sale by creating purchase invoices
 

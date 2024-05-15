@@ -11,6 +11,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Managing Relationships
 The relationship management features of [!INCLUDE[prod_short](includes/prod_short.md)] help you manage and support your sales efforts. With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.

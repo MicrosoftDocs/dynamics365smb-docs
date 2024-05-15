@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 11/24/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 You can create check installments for post-dated checks. You can define the number of installments that a payment is divided into, the percent of interest, and the period in which the checks are created.  
 

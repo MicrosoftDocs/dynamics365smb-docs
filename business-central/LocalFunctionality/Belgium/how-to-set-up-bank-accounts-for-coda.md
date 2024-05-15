@@ -12,6 +12,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Set Up Bank Accounts for CODA in the Belgian Version
 Before you can start to use the electronic banking functionality for CODA statements, you must set up the following codes:  

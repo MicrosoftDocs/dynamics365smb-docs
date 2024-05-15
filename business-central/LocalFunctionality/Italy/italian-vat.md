@@ -8,6 +8,7 @@ ms.search.form: 12100, 12104, 12105, 12111, 12112, 12113, 12122, 12126, 12127, 1
 ms.date: 06/18/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Italian VAT
 

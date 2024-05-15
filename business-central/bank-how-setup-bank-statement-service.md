@@ -9,6 +9,7 @@ ms.search.form: 1280, 1290
 ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set up the Envestnet Yodlee bank feeds service
 

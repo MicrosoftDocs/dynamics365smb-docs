@@ -9,6 +9,7 @@ ms.search.keywords: accessibility, shortcuts, charts, tiles
 ms.date: 04/29/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
 # Touch and Pen Gestures for Tablet and Phones 

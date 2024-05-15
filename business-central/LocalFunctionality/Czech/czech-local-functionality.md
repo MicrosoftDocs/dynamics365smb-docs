@@ -6,7 +6,7 @@ ms-service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Advance payment, Advance invoices, Payables, Finance,  Cash, Cash Desk
 ms.date: 03/21/2024
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

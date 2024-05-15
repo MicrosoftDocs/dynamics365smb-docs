@@ -10,6 +10,7 @@ ms.date: 07/23/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up an Additional Reporting Currency
 

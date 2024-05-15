@@ -10,6 +10,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Restructure Warehouses
 You may want to restructure your warehouse with new bin codes and new bin characteristics. You will not undertake this kind of activity very often, but situations can occur where a reclassification is necessary to achieve or maintain a more efficient operation. For example:  

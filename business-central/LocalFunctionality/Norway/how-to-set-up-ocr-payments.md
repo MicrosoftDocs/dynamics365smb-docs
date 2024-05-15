@@ -9,6 +9,7 @@ ms.search.form: 15000100
 ms.date: 12/07/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set up OCR payments
 You can process electronic payments from customers according to a predefined payment ID. This is often referred to as an optical character recognition (OCR) payment. The payment ID is used with electronic payment transactions. Customers can refer to this ID when they make payments. The payment ID is also used to identify imported payment transactions and automatically apply imported payment data.  

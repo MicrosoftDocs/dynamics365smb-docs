@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 04/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 ## Check data in documents and journals while you work
 

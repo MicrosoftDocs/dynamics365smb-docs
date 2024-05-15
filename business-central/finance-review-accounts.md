@@ -3,7 +3,7 @@ title: Review General Ledger Accounts
 description: You can track your progress when you review amounts in general ledger accounts.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/28/2023
 ms.custom: bap-template

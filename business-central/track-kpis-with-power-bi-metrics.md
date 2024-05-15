@@ -3,7 +3,7 @@ title: Track your business KPIs with Power BI metrics
 description: Get an overview of using Power BI to get business intelligence and KPIs from your Business Central data.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.search.form: 6316, 6317

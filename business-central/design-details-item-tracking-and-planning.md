@@ -9,6 +9,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Design Details: Item Tracking and Planning
 Because they are stored in the reservation system, item tracking numbers are fully coordinated with order tracking records. This means that items with order tracking records can be assigned item tracking numbers. Conversely, items that have item tracking numbers can become order tracking records. For more information, see [Design Details: Item Tracking Design](design-details-item-tracking-design.md).

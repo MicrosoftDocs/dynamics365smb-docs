@@ -9,6 +9,7 @@
     ms.date: 12/11/2023
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # General ledger balance in the Swiss version
 

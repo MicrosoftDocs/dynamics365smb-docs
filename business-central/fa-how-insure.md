@@ -10,6 +10,7 @@ ms.date: 06/29/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Insure Fixed Assets
 An insurance policy for a fixed asset is represented by an insurance card. You can assign one fixed asset to one insurance policy or multiple fixed assets to one insurance policy.

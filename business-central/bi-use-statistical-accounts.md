@@ -3,7 +3,7 @@ title: Use Statistical Accounts to Analyze Non-Transactional Data
 description: Describes how to use statistical accounts as another source of data for your analyses.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 03/07/2023
 ms.custom: bap-template

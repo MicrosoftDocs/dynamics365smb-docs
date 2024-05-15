@@ -8,6 +8,7 @@ ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365
 ms.date: 04/16/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
 # Searching for Customers, Vendors, and Other Contacts from Microsoft Teams

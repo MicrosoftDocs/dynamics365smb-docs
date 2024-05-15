@@ -8,6 +8,7 @@
     ms.date: 11/24/2023
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 
 # Export to Accon in the Belgian version

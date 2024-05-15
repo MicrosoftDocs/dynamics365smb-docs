@@ -5,7 +5,7 @@ author: v-pejano
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
 ms.date: 11/06/2023
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

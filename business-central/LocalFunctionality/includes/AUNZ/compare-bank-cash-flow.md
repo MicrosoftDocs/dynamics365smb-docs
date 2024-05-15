@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 11/09/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 You can use the **Bank Detail Cashflow Compare** report to compare the flow of cash in a particular bank for a specified period.  
 

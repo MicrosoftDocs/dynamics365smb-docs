@@ -8,6 +8,7 @@
     ms.date: 11/23/2023
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Electronic invoicing requirement: Issuing single-copy invoice
 

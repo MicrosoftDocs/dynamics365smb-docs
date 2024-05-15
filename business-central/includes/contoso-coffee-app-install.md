@@ -5,6 +5,7 @@ ms.topic: include
 ms.date: 05/31/2023
 ms.author: andreipa
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 To use the Contoso Coffee demo data, you must install two apps in the relevant company in [!INCLUDE [prod_short](../includes/prod_short.md)]:  <br><br>

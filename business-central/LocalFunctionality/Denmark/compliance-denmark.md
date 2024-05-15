@@ -9,6 +9,7 @@ ms.search.form:
 ms.date: 01/18/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Compliance with the bookkeeping act in Denmark 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] (cloud) is registered as a digital bookkeeping system in Denmark.  

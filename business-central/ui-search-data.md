@@ -8,6 +8,7 @@ ms.search.form:
 ms.date: 06/14/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Search for a Record in Your Data

@@ -9,6 +9,7 @@ ms.date: 11/29/2023
 ms.author: bholtorf
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Print and reprint GL books and VAT registers in the Italian version
 

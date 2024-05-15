@@ -7,6 +7,7 @@ ms.topic: article
 ms.search.form: 21, 26, 76, 86, 88, 300, 370, 800, 804, 5050, 5200, 5703
 ms.date: 07/15/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
 # Use Online Maps to Find Locations and Directions
 

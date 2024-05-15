@@ -7,6 +7,7 @@ ms.search.keywords:
 ms.date: 02/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Mexico local functionality
 

@@ -10,6 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Accounting for Costs
 Cost accounting is used to help you understand the costs of running a business. To get started with cost accounting, see the following topics.  

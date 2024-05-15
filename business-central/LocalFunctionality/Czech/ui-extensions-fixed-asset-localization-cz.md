@@ -5,7 +5,7 @@ author: v-pejano
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
 ms.date: 12/20/2023
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

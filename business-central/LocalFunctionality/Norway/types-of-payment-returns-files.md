@@ -9,6 +9,7 @@ ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 12/06/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Types of payment returns files in the Norwegian version
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includes two types of payment return files that can be imported:  

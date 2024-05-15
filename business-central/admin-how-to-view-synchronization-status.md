@@ -9,6 +9,7 @@ ms.search.form: 6250
 ms.date: 06/14/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # View the Status of Synchronization Jobs

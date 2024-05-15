@@ -8,6 +8,7 @@ ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edg
 ms.date: 12/06/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Optimize Outlook for your Business Inbox 
 

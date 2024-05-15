@@ -5,7 +5,7 @@ author: kennienp
 ms.topic: overview
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.search.form: 6316, 6317
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 ms.date: 04/24/2024
 ms.author: kepontop
 ms.custom: bap-template

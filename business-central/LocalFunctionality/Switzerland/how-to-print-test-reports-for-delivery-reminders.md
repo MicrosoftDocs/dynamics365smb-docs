@@ -10,6 +10,7 @@
     ms.date: 11/21/2023
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Print test reports for delivery reminders in the Swiss version
 After you create delivery reminders and make any needed modifications in Switzerland, you can either print the test reports or issue the delivery reminders.  

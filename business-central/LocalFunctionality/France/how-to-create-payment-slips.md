@@ -10,6 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Create Payment Slips
 You can create payments slips to manage vendor and customer payments. Before you create payment slips, you must set up payment classes. For more information, see [Set Up Payment Classes](how-to-set-up-payment-classes.md).  

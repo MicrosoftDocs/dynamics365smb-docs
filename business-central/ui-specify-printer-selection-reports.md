@@ -9,6 +9,7 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900, 
 ms.date: 02/09/2023
 ms.author: jswymer
+ms.reviewer: jswymer
 ---
 # <a name="default"></a>Specify a Default Printer  
 

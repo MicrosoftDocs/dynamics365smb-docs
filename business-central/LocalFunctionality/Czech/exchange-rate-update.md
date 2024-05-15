@@ -7,7 +7,7 @@ author: ACMartinKunes
 ms.topic: conceptual
 ms.search.keywords: Czech, finance, CZ, Exchange, currency
 ms.date: 06/25/2021
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

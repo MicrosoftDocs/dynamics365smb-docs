@@ -7,6 +7,7 @@ ms.date: 04/01/2021
 ms.topic: conceptual
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Troubleshooting: Accessing Camera and Location

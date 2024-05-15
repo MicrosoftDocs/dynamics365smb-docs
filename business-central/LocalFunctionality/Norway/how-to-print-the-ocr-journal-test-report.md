@@ -9,6 +9,7 @@ ms.search.form: 15000100, 255
 ms.date: 11/21/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Print the OCR journal - Test report
 You can print the **OCR Journal – Test** report to test the imported payment transactions in the cash receipt journal. You can also view potential warnings and reconcile conflicts before the payments are posted to the journal.  

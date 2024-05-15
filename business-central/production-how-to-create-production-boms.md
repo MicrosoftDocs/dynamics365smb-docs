@@ -8,6 +8,7 @@ ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 990
 ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Create Production BOMs
 

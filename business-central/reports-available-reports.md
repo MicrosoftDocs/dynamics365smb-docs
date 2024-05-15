@@ -3,7 +3,7 @@ title: Report overview
 description: See which reports are available across all functional areas of the standard version of Business Central so that you can keep track of your business.
 author: KennieNP
 ms.author: kepontop
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 09/11/2023

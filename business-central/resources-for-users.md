@@ -6,6 +6,7 @@ ms.date: 10/15/2023
 ms.topic: conceptual
 ms.author: kepontop
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Resources for Users

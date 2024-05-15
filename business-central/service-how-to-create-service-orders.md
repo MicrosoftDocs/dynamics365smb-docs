@@ -9,6 +9,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Create Service Orders
 You can use the **Service Order** page to create documents where you enter information about a service, such as repairs and maintenance, on service items by customer request.  

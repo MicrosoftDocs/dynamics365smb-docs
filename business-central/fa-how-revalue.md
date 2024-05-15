@@ -3,7 +3,7 @@ title: Revalue Fixed Assets
 description: Learn how to adjust the value of fixed assets, recording new amounts as a write-down or appreciation, and post other acquisition costs.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: 5628, 5629, 5633
 ms.date: 02/22/2024

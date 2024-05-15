@@ -9,6 +9,7 @@ ms.search.form: 389, 1290, 1294, 1287
 ms.date: 06/22/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Reconcile Payments Using Automatic Application
 

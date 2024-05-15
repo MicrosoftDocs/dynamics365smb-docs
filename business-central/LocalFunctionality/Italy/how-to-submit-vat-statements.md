@@ -9,6 +9,7 @@ ms.search.form: 12121, 12123
 ms.date: 06/18/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Submit VAT Statements in the Italian Version
 Companies must pay VAT for most purchased goods and services. VAT can be deducted if the goods and services that are purchased by a company are used in the production of its income.  

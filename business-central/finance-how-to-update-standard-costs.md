@@ -8,6 +8,7 @@ ms.search.form: 5841
 ms.date: 10/11/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Update Standard Costs
 You must periodically update the standard costs of components and roll the new costs up to the parent item. The process typically consists of the following four steps:  

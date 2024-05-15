@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 05/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 You might see other users in the **Users** list apart from those from your own company. When a delegated admin from a reselling partner company logs into a [!INCLUDE [prod_short](prod_short.md)] environment on behalf of their customer, they are automatically created as a user inside [!INCLUDE [prod_short](prod_short.md)]. This way, the actions performed by a delegated admin are logged in [!INCLUDE [prod_short](prod_short.md)], such as posting documents, and associated with their user ID.  
 

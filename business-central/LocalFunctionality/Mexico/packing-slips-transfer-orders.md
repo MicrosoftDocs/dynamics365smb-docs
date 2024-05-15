@@ -8,6 +8,7 @@ ms.search.keywords:
 ms.date: 12/06/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Carta de Porte packing slips and transfer orders in the Mexican version
 

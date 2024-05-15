@@ -9,6 +9,7 @@ ms.date: 02/03/2022
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Analyze Data in Business Intelligence Tools
 

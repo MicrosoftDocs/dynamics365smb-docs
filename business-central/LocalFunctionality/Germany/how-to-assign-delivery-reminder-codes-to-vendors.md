@@ -10,6 +10,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Assign delivery reminder codes to vendors in the German version
 

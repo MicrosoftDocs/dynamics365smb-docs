@@ -10,6 +10,7 @@ ms.search.forms: 5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092
 ms.date: 10/04/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Managing Segments
 You create segments to select a group of contacts according to specific criteria. For example, a segment could be the industry that the contacts belong to or your business relationship with the contacts. You can create a segment to select the contacts you want to target with a campaign.

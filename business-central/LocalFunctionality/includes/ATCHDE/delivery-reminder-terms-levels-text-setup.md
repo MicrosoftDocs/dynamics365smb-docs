@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 12/20/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 To create delivery reminders, you must set up the following prerequisites:  

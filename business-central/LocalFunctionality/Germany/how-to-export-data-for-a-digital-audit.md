@@ -10,6 +10,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Export Data for a Digital Audit in the German Version
 You can export financial data and tax data according to the process for digital audits (GoBD/GDPdU). You can also select various options to be included in an XML file.  

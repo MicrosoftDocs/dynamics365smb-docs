@@ -9,6 +9,7 @@ ms.search.form: 5264, 5266, 5267, 5270,
 ms.date: 12/13/2023
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Export the SAF-T audit file format in Denmark

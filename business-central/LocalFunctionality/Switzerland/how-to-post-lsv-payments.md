@@ -9,6 +9,7 @@
     ms.date: 11/27/2023
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Post LSV+ payments
 You can post payments after you receive Lastschrift Verfahren (LSV+) payment advice from the bank.  

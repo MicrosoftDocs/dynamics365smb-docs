@@ -11,6 +11,7 @@ ms.date: 05/27/2022
 ms.author: jswymer
 
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Set Up Opportunity Sales Cycles and Cycle Stages
 

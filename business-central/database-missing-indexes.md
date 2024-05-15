@@ -9,6 +9,7 @@ ms.search.form: 9521
 audience: 
 ms.author: bholtorf
 ms.date: 11/27/2023
+ms.reviewer: bholtorf
 ---
 
 # Database missing indexes in [!INCLUDE[prod_long](includes/prod_long.md)]

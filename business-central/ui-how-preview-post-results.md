@@ -7,6 +7,7 @@ ms.devlang: al
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Preview Posting Results
 On every document and journal that can be posted, you can choose the **Preview Posting** button to review the different types of entries that will be created when you post the document or journal.

@@ -8,6 +8,7 @@
     ms.date: 02/07/2024
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Germany local functionality
 

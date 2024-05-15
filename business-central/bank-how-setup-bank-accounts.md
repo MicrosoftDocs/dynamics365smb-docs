@@ -3,7 +3,7 @@ title: Set Up Bank Accounts (contains video)
 description: Learn how bank accounts are used in Business Central, and how you can reconcile amounts with your bank.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280

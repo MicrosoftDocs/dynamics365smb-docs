@@ -12,6 +12,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Purchase from Composite Vendor or Purchase of Exempted Goods and Services with No GST Impact
 

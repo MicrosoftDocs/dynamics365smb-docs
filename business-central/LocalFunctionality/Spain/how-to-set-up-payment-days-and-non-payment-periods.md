@@ -10,6 +10,7 @@
     ms.date: 04/01/2021
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Set Up Payment Days and Non-Payment Periods
 Payment days and non-payment periods are used to calculate due dates. Due date calculation is used for sales and purchase documents.  

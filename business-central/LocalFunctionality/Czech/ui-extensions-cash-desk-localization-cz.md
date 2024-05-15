@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash
 ms.date: 03/26/2024
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

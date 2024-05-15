@@ -10,6 +10,7 @@ ms.date: 03/12/2024
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set up reminder terms and levels
 

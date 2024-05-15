@@ -8,6 +8,7 @@ ms.author: bholtorf
 ms.date: 02/27/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Resources for Help and Support

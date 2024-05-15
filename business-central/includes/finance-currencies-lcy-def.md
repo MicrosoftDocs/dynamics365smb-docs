@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 If your company operates in more than one country or region, it's probably important that you can do business in more than one currency. You define your local currency (LCY) on the **General Ledger Setup** page. Afterward, your local currency will be represented as a blank currency on documents and transactions. When the **Currency** field is blank, the currency is LCY.
 

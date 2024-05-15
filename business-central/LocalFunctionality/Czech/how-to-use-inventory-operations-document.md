@@ -6,7 +6,7 @@ ms-service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Inventory, Localization, CZ
 ms.date: 11/06/2023
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

@@ -10,6 +10,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Assign Delivery Reminder Codes to Vendors in the Austrian Version
 

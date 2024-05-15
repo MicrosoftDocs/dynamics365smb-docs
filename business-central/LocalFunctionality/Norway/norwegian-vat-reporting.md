@@ -8,6 +8,7 @@ ms.search.form: 737, 738, 743, 10601, 10604, 10692 ,10696
 ms.date: 04/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Norwegian VAT reporting
 

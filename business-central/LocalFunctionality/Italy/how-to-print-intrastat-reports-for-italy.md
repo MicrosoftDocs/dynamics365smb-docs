@@ -8,6 +8,7 @@ ms.date: 06/18/2021
 ms.search.form: 12116
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Print Intrastat Reports for Italy
 

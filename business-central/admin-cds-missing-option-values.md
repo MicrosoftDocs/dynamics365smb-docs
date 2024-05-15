@@ -6,6 +6,7 @@ ms.author: bholtorf
 ms.topic: conceptual
 ms.date: 12/12/2023
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Handling missing option values

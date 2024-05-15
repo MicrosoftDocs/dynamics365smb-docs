@@ -10,6 +10,7 @@ ms.date: 07/07/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Payment Management in the French Version
 

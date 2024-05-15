@@ -3,7 +3,7 @@ title: Automate reminders in collections
 description: Save time in collections by automating the processes of creating, issuing, and sending reminders to customers.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: collection, remindes
 ms.search.form: 

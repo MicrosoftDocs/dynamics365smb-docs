@@ -8,6 +8,7 @@ ms.search.keywords:
 ms.date: 09/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Create Reports with XBRL
 

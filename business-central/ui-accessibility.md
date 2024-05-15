@@ -11,6 +11,7 @@ ms.date: 06/23/2021
 ms.author: jswymer
 
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Accessibility and Keyboard Shortcuts
 

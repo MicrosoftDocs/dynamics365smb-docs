@@ -8,6 +8,7 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 04/24/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Work with Power BI reports in [!INCLUDE [prod_short](includes/prod_short.md)]
 

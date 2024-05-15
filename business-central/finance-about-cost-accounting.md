@@ -8,6 +8,7 @@ ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
 ms.date: 08/23/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # About Cost Accounting
 

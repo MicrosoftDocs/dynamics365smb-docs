@@ -10,6 +10,7 @@ ms.date: 08/23/2023
 ms.author: altotovi
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Export accounting data to Regnskab Basis in Denmark

@@ -7,7 +7,7 @@ author: ACMartinKunes
 ms.topic: conceptual
 ms.search.keywords: Czech, finance, CZ, General ledger, Entries
 ms.date: 06/24/2021
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

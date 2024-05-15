@@ -9,6 +9,7 @@ ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
 ms.date: 01/31/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set Up Calculations and Posting Methods for Value-Added Tax

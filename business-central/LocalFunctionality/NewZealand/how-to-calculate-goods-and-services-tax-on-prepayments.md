@@ -9,6 +9,7 @@
     ms.date: 10/10/2023
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 
 # Calculate goods and services tax on prepayments in the New Zealand version

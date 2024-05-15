@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 04/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Increase efficiency in your warehouse with accurate, real-time information about factors that can affect available quantities. For example: 

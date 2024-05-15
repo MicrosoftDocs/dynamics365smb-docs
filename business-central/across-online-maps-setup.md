@@ -7,6 +7,7 @@ ms.topic: article
 ms.search.form: 800, 804
 ms.date: 07/15/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
 # Set Up Online Maps
 

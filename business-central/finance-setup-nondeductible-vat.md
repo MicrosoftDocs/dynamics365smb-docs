@@ -9,7 +9,7 @@ ms.search.keywords: VAT, non-deductible, setup
 ms.search.form: 187, 472, 473
 ms.date: 04/26/2023
 ms.custom: bap-template
-
+ms.reviewer: bholtorf
 ---
 
 # Set up nondeductible VAT

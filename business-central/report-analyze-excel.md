@@ -10,6 +10,7 @@ ms.date: 03/16/2022
 ms.author: jswymer
 
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Analyzing Report Data with Excel and XML
 

@@ -9,6 +9,7 @@ ms.search.form: 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Create analysis reports
 

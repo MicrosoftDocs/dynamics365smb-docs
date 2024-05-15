@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.search.keywords: shipping advice, partial shipments, partial deliveries, trade, customer sales order 
 ms.date: 02/14/2024
 ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
 # Process partial shipments
 

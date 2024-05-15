@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 09/22/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 The following table describes some key financial reports.

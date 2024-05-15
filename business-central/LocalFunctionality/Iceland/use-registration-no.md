@@ -7,7 +7,7 @@ ms.devlang: al
 ms.search.keywords:
 ms.date: 05/07/2024
 ms.author: altotovi
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
 

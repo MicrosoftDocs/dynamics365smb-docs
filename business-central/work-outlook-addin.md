@@ -10,6 +10,7 @@ ms.date: 04/21/2022
 ms.author: jswymer
 
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Use Business Central as your Business Inbox in Outlook
 

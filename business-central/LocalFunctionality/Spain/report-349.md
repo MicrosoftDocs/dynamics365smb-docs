@@ -10,6 +10,7 @@
     ms.date: 06/21/2021
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Report 349 in the Spanish Version
 You must submit a periodic report of trade with other EU countries/regions to the tax authorities. In Spain, this Report 349 is part of the EU intra-community VAT Information Exchange System (VIES).  

@@ -12,6 +12,7 @@ ms.date: 04/01/2021
 ms.author: jswymer
 
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Managing Sales Opportunities
 Any incoming lead can be considered a sales opportunity. You can create opportunities and associate them to a salesperson so that you can keep track of potential sales.

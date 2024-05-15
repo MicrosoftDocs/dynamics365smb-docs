@@ -9,6 +9,7 @@ ms.search.form: 10751, 10752, 10753, 10770, 10771
 ms.date: 05/12/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # SII - Invoice and Credit Memo Types in Sales and Purchase Documents
 

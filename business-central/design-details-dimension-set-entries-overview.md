@@ -9,6 +9,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Dimension Set Entries Overview
 This topic describes how dimension set entries are stored and posted in [!INCLUDE[prod_short](includes/prod_short.md)].  

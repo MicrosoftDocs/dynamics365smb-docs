@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 11/21/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 After you create delivery reminders, you must issue and print them so that you can send reminders to vendors. Before you issue the delivery reminders, you can print a test report.  
 

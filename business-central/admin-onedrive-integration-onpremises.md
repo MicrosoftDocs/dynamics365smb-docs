@@ -7,6 +7,7 @@ ms.search.keywords: OneDrive, share, browser
 ms.date: 12/12/2023
 ms.author: jswymer
 ms.service: dynamics-365-op
+ms.reviewer: jswymer
 ---
 # Configuring OneDrive integration with Business Central on-premises
 

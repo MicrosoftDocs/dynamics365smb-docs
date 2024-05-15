@@ -8,6 +8,7 @@
     ms.date: 06/18/2021
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Set Up Goods and Service Tax Posting in the New Zealand Version
 

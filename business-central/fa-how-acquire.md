@@ -9,6 +9,7 @@ ms.search.form: 5605, 5551, 5600, 5628, 5629, 5633
 ms.date: 10/04/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Acquire Fixed Assets
 

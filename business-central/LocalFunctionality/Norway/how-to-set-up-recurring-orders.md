@@ -10,6 +10,7 @@
     ms.date: 04/01/2021
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Set Up Recurring Orders
 After you create a recurring group, you can set up recurring orders on the blanket sales order by adding the group to the order. For more information, see [Create Blanket Sales Orders](how-to-set-up-recurring-groups.md).  

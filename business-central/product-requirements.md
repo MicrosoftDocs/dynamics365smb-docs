@@ -9,6 +9,7 @@ ms.date: 03/11/2024
 ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Minimum requirements for using Business Central
 

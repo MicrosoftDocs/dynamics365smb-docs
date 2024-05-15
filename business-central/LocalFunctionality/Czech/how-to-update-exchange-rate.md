@@ -6,7 +6,7 @@ ms-service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, Finance, Exchange Rate, Localization
 ms.date: 11/20/2023
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

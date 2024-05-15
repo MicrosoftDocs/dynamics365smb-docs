@@ -1,7 +1,7 @@
 ---
 title: Set up time sheets and their approval
 description: Learn how to use time sheets to track time for projects and resources.
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 author: brentholtorf
 ms.author: bholtorf
 mw.reviewer: ivkoleti

@@ -47,7 +47,7 @@ If you want to add numerous fixed assets, Edit in Excel is a great tool to use. 
 > To use the Edit in Excel action, you must have the Microsoft Dynamics Office Add-in installed. The add-in creates the connection between Excel and [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Get the Business Central Add-in for Excel](admin-deploy-excel-addin.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
-2. Choose :::image type="content" source="media/share-icon.png" alt-text="Share this page with other users or apps icon.":::, and then choose **Edit in Excel**.
+2. Choose the :::image type="content" source="media/share-icon.png" alt-text="Share this page with other users or apps icon."::: icon, and then choose **Edit in Excel**.
 3. Open the downloaded file, and enter information about the new fixed assets.
 
    > [!TIP]
@@ -55,7 +55,7 @@ If you want to add numerous fixed assets, Edit in Excel is a great tool to use. 
 
 4. To update [!INCLUDE [prod_short](includes/prod_short.md)], on the **Microsoft Dynamics** pane, choose **Publish**.
 
-### Create an asset from a purchase order or invoice
+### Add a fixed asset from a purchase order or invoice
 
 The following steps describe how to add a fixed asset from a purchase order. The steps are similar for a purchase invoice.
 

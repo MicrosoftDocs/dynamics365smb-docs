@@ -28,7 +28,7 @@ Before you can acquire a fixed asset, you must add it to your list of assets. Th
 * Use a purchase order to add assets.
 * Use the **Copy fixed asset** action.
 
-After you add fixed assets to your list, the next step is to acquire them so you can use them in transactions. Learn more at [Acquire a fixed asset](#acquire-a-fixed-asset).
+After you add fixed assets to your list, the next step is to acquire them so you can use them in transactions. Learn more at [Acquire a fixed asset](#acquire-fixed-assets).
 
 ### Add a fixed asset on the Fixed Asset Card page
 
@@ -68,7 +68,7 @@ The following steps describe how to add a fixed asset from a purchase order. The
 
 ## Acquire a fixed asset by using a fixed asset G/L journal
 
-The following procedure describes how to acquire by creating and posting the required fixed asset G/L journal lines. You can also create and post the journal lines manually. To learn more, go to [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
+The following procedure describes how to acquire by creating and posting the required fixed asset G/L journal lines. You can also create and post the journal lines manually. To learn more, go to [Acquire a fixed asset by using a fixed asset G/L journal](#acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
 1. Choose the asset you want to acquire, and then choose the **Acquire** action.
@@ -81,7 +81,7 @@ When you choose **Finish**, the **Book Value** field on the **Fixed Asset Card**
 
 ## To post a fixed asset acquisition manually with a fixed asset G/L journal
 
-The following procedure describes how to acquire a fixed asset manually by creating and posting lines on the **Fixed Asset G/L Journal** page. You can also acquire a fixed asset automatically on the **Fixed Asset Card** page by choosing the **Acquire fixed asset** action. To learn more, go to [Acquire a fixed asset](#acquire-a-fixed-asset).
+The following procedure describes how to acquire a fixed asset manually by creating and posting lines on the **Fixed Asset G/L Journal** page. You can also acquire a fixed asset automatically on the **Fixed Asset Card** page by choosing the **Acquire fixed asset** action. To learn more, go to [Acquire a fixed asset](#acquire-fixed-assets).
 
 > [!NOTE]  
 > You can also post acquisition cost as credits. In that case, remember that the value in the **Amount** field must be with a minus sign to indicate a credit.
@@ -134,7 +134,7 @@ You can post the salvage value together with the acquisition cost from a fixed a
 > This process might require that you personalize the Fixed Asset Journals page by adding the Salvage Value field. By default, the field is not displayed on the page. To learn more, go to [Personalize Your Workspace](ui-personalization-user.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Journals**, and then choose the related link.
-2. On the **Fixed Asset Journals** page, create the acquisition line. To learn more, go to [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
+2. On the **Fixed Asset Journals** page, create the acquisition line. To learn more, go to [To post a fixed asset acquisition manually with a fixed asset G/L journal](#to-post-a-fixed-asset-acquisition-manually-with-a-fixed-asset-gl-journal).
 3. In the **Salvage Value** field on the journal line, enter the salvage value amount as a credit (prefix the amount with a minus sign, for example, **-**100).
 4. Choose the **Post** action.
 

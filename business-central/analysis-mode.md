@@ -149,11 +149,6 @@ The extra fields are named *\<field name\> Year*, *\<field name\> Quarter*, and 
 
 ## Pivot mode
 
-
-
-
-
-
 You can use pivot mode to analyze large amount of numerical data, subtotaling data by categories and subcategories. The pivot mode is like [pivot tables in Microsoft Excel](https://support.microsoft.com/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576).
 
 To turn pivot mode on and off, turn on the **Pivot Mode** toggle on the **Columns** pane (3). When you turn on pivot mode, the **Column labels** area appears in the pane. Use the **Column labels** area to group sum totals for rows into categories. Fields that you add to the **Column labels** area show as columns in the data area (1).
@@ -174,7 +169,7 @@ Building out the data analysis in pivot mode involves moving fields into the thr
 
 ## Analyze large amounts of data
 
-If the dataset you want to analyze exceeds 100,000 rows, you're suggested to enter an analysis mode that's optimized for large datasets. There are currently two limitations if you switch to this mode: 
+If the dataset you want to analyze exceeds 100,000 rows, we suggest you enter an analysis mode that's optimized for large datasets. There are currently two limitations if you switch to this mode: 
 
 - Formatting of fields of the following four data types might change: 
 
@@ -184,13 +179,13 @@ If the dataset you want to analyze exceeds 100,000 rows, you're suggested to ent
    - timezones
 - Fields that are used in pivot mode and added to column labels must have a low number of distinct values.
 
-   If you enable pivot mode and drag a field into **Column labels** area, where the underlying data for that field has too many distinct values, your browser tab might become unresponsive. The browser eventually closes, requiring you to start over in a new session. In this case, either don't pivot on that field or set a filter on the field before you add it to the **Column labels** area.
+   If you enable pivot mode and drag a field into the **Column labels** area, where the underlying data for that field has too many distinct values, your browser tab might become unresponsive. The browser eventually closes, requiring you to start over in a new session. In this case, either don't pivot on that field or set a filter on the field before you add it to the **Column labels** area.
 
 ## Share data analysis
 
-After you prepare an analysis on a tab, you can share it as a link with coworkers and others in your organization directly from the client. Only recipients that have permission to the company and the data can use the link.
+After you prepare an analysis on a tab, you can share it as a link with coworkers and others in your organization directly from the client. Only recipients who have permission to the company and the data can use the link.
 
-1. On the analysis tab, select the down arrowhead, and then select **Copy link**.
+1. On the analysis tab, select the down arrow, and then select **Copy link**.
 
    ![Shows the action for copying an analysis](media/analysis-mode-copy.png)
 
@@ -202,11 +197,11 @@ After you prepare an analysis on a tab, you can share it as a link with coworker
 
 1. Select **Copy**.
 1. Paste the link into the communication media of your choice, like Word, Outlook, Teams, OneNote, and so on.
-1. Once received, recipients can select the link and open the analysis for the page or query in [!INCLUDE [prod_short](includes/prod_short.md)]. They're prompted to specify a name for the new analysis tab that they create.  
+1. Recipients can select the link and open the analysis for the page or query in [!INCLUDE [prod_short](includes/prod_short.md)]. They're prompted to specify a name for the new analysis tab that they create.  
 
 ## Examples of how to analyze data
 
-Use the **Data Analysis** feature for quick fact checking and ad-hoc analysis:
+Use the **Data Analysis** feature for quick fact checking and ad hoc analysis:
 
 - If you don't want to run a report.
 - If a report for your specific need doesn't exist.
@@ -220,15 +215,15 @@ To see what your customers owe you, maybe broken down into time intervals for wh
 
 1. Open the [Customer Ledger Entries](https://businesscentral.dynamics.com/?page=25) list, and choose :::image type="content" source="media/analysis-mode-icon.png" alt-text="Enter analysis mode."::: to turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the *Search* field on the right).
-1. Turn on the **Pivot* Mode** toggle (located above the **Search** field on the right).
+1. Turn on the **Pivot Mode** toggle (located above the **Search** field on the right).
 1. Drag the **Customer Name** field to the **Row Groups** area, and drag **Remaining Amount** to the **Values** area.
 1. Drag the **Due Date Month** field to the **Column Labels** area.
 1. To do the analysis for a given year or quarter, apply a filter in the **Analysis Filters** menu (located below the **Columns** menu on the right).
 1. Rename your analysis tab to **Aged Accounts by Month**, or something that describes this analysis.
 
-### Ad-hoc data analysis examples by functional area
+### Ad hoc data analysis examples by functional area
 
-Many of the functional areas in [!INCLUDE[prod_short](includes/prod_short.md)] have articles with ad-hoc data analysis examples.
+Many of the functional areas in [!INCLUDE[prod_short](includes/prod_short.md)] have articles with ad hoc data analysis examples.
 
 [!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
@@ -236,7 +231,7 @@ Many of the functional areas in [!INCLUDE[prod_short](includes/prod_short.md)] h
 
 The public preview of this feature has the following limitations:
 
-- The analysis mode view has a limit of 100,000 rows. If you exceed this limit, you get a message telling you so. To work around this limitation, the set filters on the page before you switch to analysis mode, if it's possible. For example, maybe you want to analyze a certain group of customers or only want data from the current year. You can also choose a predefined view if it would work for your analysis.
+- The analysis mode view has a limit of 100,000 rows. If you exceed this, you get a message telling you so. To work around this limitation, set filters on the page before you switch to analysis mode, if possible. For example, you want to analyze a certain group of customers or only want data from the current year. You can also choose a predefined view if it would work for your analysis.
 - The share data analysis feature isn't available.
 - The ability to save preferred data analysis choices on list pages and save analysis menus per analysis tab are currently not available.
 

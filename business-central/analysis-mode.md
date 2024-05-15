@@ -32,25 +32,25 @@ This article explains how to use the data analysis feature from list pages and q
 Follow these steps to start using the analysis mode.
 
 >[!TIP]
-> Analysis mode also includes a Copilot feature called *analysis assist* that can help you get started. [Learn more about analysis assist with Copilot](analysis-assist.md).
+> Analysis mode also includes a Copilot feature called *analysis assist* that can help you get started. [Learn more about analysis assist with Copilot.](analysis-assist.md)
 
 1. Open the list page or query.
 
-   For example, to work with **Customer Ledger Entries** page, select the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png) icon (<kbd>Alt</kbd>+<kbd>Q</kbd>), enter *customer ledger entries*, and then choose the related link. 
+   For example, to work with the **Customer Ledger Entries** page, select the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png) icon (<kbd>Alt</kbd>+<kbd>Q</kbd>), enter *customer ledger entries*, and then choose the related link. 
 
-2. In the action bar at the top of the page, select on the **Enter analysis mode** ![Shows the button for turning on analysis mode](media/analysis-mode-icon.png) button.
+2. In the action bar at the top of the page, select the **Enter analysis mode** ![Shows the button for turning on analysis mode](media/analysis-mode-icon.png) button.
 
     The analysis mode opens the data in an experience that's optimized for data analysis. While in analysis mode, the normal action bar is replaced with a special analysis mode bar. The following figure illustrates the different areas of a page in the analysis mode.
 
-   [![Shows an overview of a page on the analysis mode](media/analysis-mode-overview-3.png)](media/analysis-mode-overview-3.png#lightbox)
+   [![Shows an overview of a page in the analysis mode](media/analysis-mode-overview-3.png)](media/analysis-mode-overview-3.png#lightbox)
 
    Each area is explained in the sections that follow.
 
 3. Use the different areas to manipulate, summarize, and analyze data. See the sections that follow for details.
 
-4. When you want to stop the analysis mode, select the **Leave analysis mode** ![Shows the button for turning off analysis mode](media/analysis-mode-exit-icon.png) button
+4. When you want to stop the analysis mode, select the **Leave analysis mode** ![Shows the button for turning off analysis mode](media/analysis-mode-exit-icon.png) button.
 
-   The analysis tabs that you added remain until you delete them. So if you return to the analysis mode again, you see them exactly as you left them.
+   The analysis tabs that you added remain until you delete them. If you return to the analysis mode again, you see them exactly as you left them.
 
 > [!NOTE]
 > The data shown in analysis mode is controlled by the filters or views set on the list page. This allows you to pre-filter data before entering analysis mode.
@@ -64,18 +64,18 @@ In the analysis mode, the page is divided into two areas:
 
 ### Data area (1)
 
-The data area is where the rows and columns of the list page query are shown and data is summarized. The data area provides a versatile way to control of the layout of columns and a quick way to get a summary of the data. For columns that contain numeric values, the sum of all values in the column is shown in a last row, unless you define row groups. In this case, the sums appear as a subtotal for the groups.  
+The data area is where the rows and columns of the list page query are shown and data is summarized. The data area provides a versatile way to control the layout of columns and a quick way to get a summary of the data. For columns that contain numeric values, the sum of all values in the column is shown in the last row, unless you define row groups. In this case, the sums appear as a subtotal for the groups.  
 
 ![Shows an overview of a data area on a page in the analysis mode](media/analysis-mode-data-area.png)
 
-- To move a column, select it and drag it to where they make the most sense in your analysis.
-- To sort on a column, select the column header. To sort on multiple columns, select and hold <kbd>Shift</kbd> key while selecting the column headers want to sort on.
+- To move a column, select it and drag it to where it makes the most sense in your analysis.
+- To sort on a column, select the column header. To sort on multiple columns, select and hold the <kbd>Shift</kbd> key while selecting the column headers you want to sort on.
 - To access several actions that you can do on columns, right-click the column or hover over it and select the menu icon ![Shows the icon on a column in analysis mode that opens a menu of actions](media/analysis-mode-column-menu-icon.png). For example:
 
   - To pin a column to the data area so that it doesn't move off the screen when you scroll, select ![Shows the icon on a column in analysis mode that opens a menu of actions](media/analysis-mode-column-menu-icon.png) > **Pin column** > **Pin left** the column part.
   - Define data filters directly on the column definition instead of going to the **Analysis Filters** panes. You can still peek in on details about related data and for each line, and open the card to learn more about a given entity.
 - Use the data area to interact with the data. For columns that contain numeric, summable values, you can get descriptive statistics on a set of fields by marking them. The statistics appear in the status bar (2) along the bottom of the page.
-- Export data in Excel or csv format. Right-click on the data area or a selection of cells to export.
+- Export data in Excel or CSV format. Right-click on the data area or a selection of cells to export.
 
 ### Summary bar (2)
 
@@ -88,7 +88,7 @@ The following table describes the different numbers that are shown in the totals
 |Number|Description|
 |-|-|
 |Rows|The number of selected rows as a part of the total number of available rows. |
-|Total rows|The numbers of rows in the unfiltered list or query.|
+|Total rows|The number of rows in the unfiltered list or query.|
 |Filtered|The number of rows displayed as a result of the filters applied to the list or query.|
 |Average|The average value in all the selected summable fields.|
 |Count|The number of selected rows.|
@@ -98,22 +98,22 @@ The following table describes the different numbers that are shown in the totals
 
 ### Columns (3)
 
-The **Columns** is one of two panes that work together to define your analysis. The other area is the **Analysis filters** pane. The **Columns** pane is used to summarize the data. Use the **Columns** pane to define which columns should be included in the analysis.
+The **Columns** pane is one of two panes that work together to define your analysis. The other area is the **Analysis filters** pane. The **Columns** pane is used to summarize the data. Use the **Columns** pane to define which columns should be included in the analysis.
 
 ![Shows an overview of the columns pane in the analysis mode](media/analysis-mode-columns-3.png)
 
 |Areas|Description|
 |-|-|
 |Search/check or clear all boxes|Search for columns. To select/clear all columns, select the checkbox.|
-|Check boxes|This area includes a checkbox for each field in the list's or query's source table. Use this area to change what columns are shown. Select a check box to show column for the field on the page; clear the check box to hide the column. |
-|Row groups|Use this area to group and sum data by one or more fields. You can only include non-numeric fields, like text, date and time fields. Row groups are used often in pivot mode.|
+|Check boxes|This area includes a checkbox for each field in the list's or query's source table. Use this area to change what columns are shown. Select a checkbox to show a column for the field on the page; clear the checkbox to hide the column. |
+|Row groups|Use this area to group and sum data by one or more fields. You can only include non-numeric fields, like text, date, and time fields. Row groups are used often in pivot mode.|
 |Values|Use this area to specify fields that you want a sum total for. You can only include fields that contain numbers that can be added together; for example, not text, date, or time fields.|
 
-To move a field from one area to another, select the grab icon ![Shows the button for grabbing a field in the analysis mode](media/column-grab-icon.png) next to the column in the list and drag into the target area. You're prevented from moving a field to an area where it isn't allowed.
+To move a field from one area to another, select the grab icon ![Shows the button for grabbing a field in the analysis mode](media/column-grab-icon.png) next to the column in the list and drag it into the target area. You're prevented from moving a field to an area where it isn't allowed.
 
 ### Analysis filters (4)
 
-The **Analysis filters** pane lets you set further data filters on columns to limit the entries in the list. Set filters on columns to limit the entries in the list and subsequent sums to only those entries you're interested in based on a criteria you define. For example, suppose you're only interested in data for a specific customer or sales orders that exceed a specific amount. To set a filter, select the column, choose the comparison operation from the list (like **Equals** or **Starts with**), then enter the value.
+The **Analysis filters** pane lets you set further data filters on columns to limit the entries in the list. Set filters on columns to limit the entries in the list and subsequent sums to only those entries you're interested in based on a criteria you define. For example, suppose you're only interested in data for a specific customer or sales orders that exceed a specific amount. To set a filter, select the column, choose the comparison operation from the list (like **Equals** or **Starts with**), and then enter the value.
 
 ![Shows an overview of the filters pane in the analysis mode](media/analysis-mode-filters-2.png)
 
@@ -124,10 +124,10 @@ The **Analysis filters** pane lets you set further data filters on columns to li
 
 The tabs area at the top lets you create different configurations (columns and analysis filters) on separate tabs, where you can manipulate data on the tabs independently of each other. There's always at least one tab, called **Analysis 1** by default. Adding more tabs is beneficial for saving frequently used analysis configurations on a dataset. For example, you might have tabs for analyzing data in the pivot mode, and other tabs that filter to a subset of rows. Some tabs might show a detailed view with many columns, and others only display a few key columns.
 
-Here's some pointers on working with multiple analysis tabs:
+Here are some pointers on working with multiple analysis tabs:
 
 - To add a new tab, select the large **+** sign next to the last analysis tab.
-- Select the down arrowhead on a tab to access a list of actions you can do on a tab, like rename, duplicate, delete, and move.
+- Select the down arrow on a tab to access a list of actions you can do on a tab, like rename, duplicate, delete, and move.
 
    - **Delete** deletes the tab you currently have open. **Delete All** deletes all tabs that you added, except the default **Analysis 1** tab.
 - You can't completely remove the **Analysis 1**, but you can rename it by using the **Rename** action and clear the changes you made by using **Delete** or **Delete All**.  
@@ -148,6 +148,11 @@ The extra fields are named *\<field name\> Year*, *\<field name\> Quarter*, and 
 > The date hierarchy currently only applies to fields of type date, not for fields of type datetime.
 
 ## Pivot mode
+
+
+
+
+
 
 You can use pivot mode to analyze large amount of numerical data, subtotaling data by categories and subcategories. The pivot mode is like [pivot tables in Microsoft Excel](https://support.microsoft.com/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576).
 

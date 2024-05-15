@@ -34,11 +34,11 @@ Businesses invest in a few types of fixed assets. Some examples are:
 
 Fixed asset accounting is the precise recordkeeping of your business’s financial records about your capital assets. This details the lifecycle of an asset within five different stages. After your initial purchase, each fixed asset’s lifecycle includes at least three of the five stages below:
  
-•	Acquisition: A new fixed asset is entered into the books.
-•	Depreciation: Your asset periodically declines in value, calculated within a particular method.
-•	Revaluation: An assessment to record its current fair market value.
-•	Impairment: Also known as writing down, this serves as the recorded reduction in value due to events or circumstances.
-•	Disposal: Selling, scrapping, or another form of disposing an asset at the end of its service life.
+- Acquisition: A new fixed asset is entered into the books.
+- Depreciation: Your asset periodically declines in value, calculated within a particular method.
+- Revaluation: An assessment to record its current fair market value.
+- Impairment: Also known as writing down, this serves as the recorded reduction in value due to events or circumstances.
+- Disposal: Selling, scrapping, or another form of disposing an asset at the end of its service life.
  
 Audits are also included in the detailed checks of your company’s accounting records after closing the books for the financial year. Whether internal or external, this is where you may notice inconsistencies or differences between your notes and the actual state of your assets. This also promotes transparency to your assets and accounting books if you’re losing more money than anticipated.
 

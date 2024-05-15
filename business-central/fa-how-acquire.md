@@ -35,7 +35,7 @@ After you add fixed assets to your list, the next step is to acquire them so you
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields on the **General** FastTab as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. On the **Depreciation Book** FastTab, fill in the fields as necessary. This step assigns a depreciation book to the fixed asset.  
-4. If you need to assign more than one depreciation book to the fixed asset, choose the **Add More Depreciation Books** action. For more information, see [To assign a depreciation book to a fixed asset](fa-how-setup-depreciation.md#to-assign-a-depreciation-book-to-a-fixed-asset).
+4. If you need to assign more than one depreciation book to the fixed asset, choose the **Add More Depreciation Books** action. To learn more, go to [To assign a depreciation book to a fixed asset](fa-how-setup-depreciation.md#to-assign-a-depreciation-book-to-a-fixed-asset).
 
     After you fill in the required fields, the **You are ready to acquire the fixed asset.** notification appears at the top of the page. If you're ready to acquire the asset now, choose the **Acquire** action. Follow the steps on the **Assisted Fixed Asset Acquisition** page to complete the acquisition. If you aren't ready, you can always acquire the asset later.
 
@@ -64,11 +64,11 @@ The following steps describe how to add a fixed asset from a purchase order. The
 3. On the **General** FastTab, fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 4. On the **Lines** FastTab, in the **Type** field, choose **Fixed Asset**.
 5. In the **No.** field, either choose an existing fixed asset to add an expense, or choose **New** to add a new asset.
-6. After you enter the information for the new asset and the purchase order, choose **Post**. 
+6. After you enter the information for the new asset and the purchase order, choose **Post**.
 
-## Acquire a fixed asset
+## Acquire a fixed asset by using a fixed asset G/L journal
 
-The following procedure describes how to acquire by creating and posting the required fixed asset G/L journal lines. You can also create and post the journal lines manually. For more information, see [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
+The following procedure describes how to acquire by creating and posting the required fixed asset G/L journal lines. You can also create and post the journal lines manually. To learn more, go to [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.
 1. Choose the asset you want to acquire, and then choose the **Acquire** action.
@@ -78,6 +78,21 @@ The following procedure describes how to acquire by creating and posting the req
 > You can also post acquisition cost as credits. In that case, remember that the value in the **Acquisition Cost Incl. VAT** field must be with a minus sign to indicate a credit.
 
 When you choose **Finish**, the **Book Value** field on the **Fixed Asset Card** page is filled in, which indicates that the fixed asset was acquired at the specified acquisition cost.  
+
+## To post a fixed asset acquisition manually with a fixed asset G/L journal
+
+The following procedure describes how to acquire a fixed asset manually by creating and posting lines on the **Fixed Asset G/L Journal** page. You can also acquire a fixed asset automatically on the **Fixed Asset Card** page by choosing the **Acquire fixed asset** action. To learn more, go to [Acquire a fixed asset](#acquire-a-fixed-asset).
+
+> [!NOTE]  
+> You can also post acquisition cost as credits. In that case, remember that the value in the **Amount** field must be with a minus sign to indicate a credit.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journals**, and then choose the related link.
+2. On the **Fixed Asset G/L Journal** page, in the **FA Posting Type** field, select **Acquisition Cost**.
+3. Fill in the remaining fields as necessary.
+4. Choose the **Post** action.  
+
+> [!TIP]  
+> If you fill in the **Insurance No.** field, [!INCLUDE[prod_short](includes/prod_short.md)] also posts the acquisition cost of the fixed asset to the insurance coverage ledger. To learn more, go to [Insure Fixed Assets](fa-how-insure.md).
 
 ## To set up a component list for a main asset
 
@@ -93,21 +108,6 @@ You must set up the main asset and all its components as individual fixed asset.
 6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Setup**, and then choose the related link.
 7. Turn on the **Allow Posting to Main Assets** toggle.
 
-## To post a fixed asset acquisition manually with the fixed asset G/L journal
-
-The following procedure describes how to acquire a fixed asset manually by creating and posting lines on the **Fixed Asset G/L Journal** page. You can also acquire a fixed asset automatically by using the **Assisted Fixed Asset Acquisition** page. For more information, see step 5 in [To create a fixed asset and acquire it automatically](fa-how-acquire.md#to-create-a-fixed-asset-and-acquire-it-automatically).
-
-> [!NOTE]  
-> You can also post acquisition cost as credits. In that case, remember that the value in the **Amount** field must be with a minus sign to indicate a credit.
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journals**, and then choose the related link.
-2. On the **Fixed Asset G/L Journal** page, in the **FA Posting Type** field, select **Acquisition Cost**.
-3. Fill in the remaining fields as necessary.
-4. Choose the **Post** action.  
-
-> [!TIP]  
-> If you fill in the **Insurance No.** field in the fixed asset G/L journal when you post an acquisition cost, then [!INCLUDE[prod_short](includes/prod_short.md)] will also post the acquisition cost of the fixed asset to the insurance coverage ledger. For more information, see [Insure Fixed Assets](fa-how-insure.md).
-
 ## To cancel an acquisition cost posting for one fixed asset
 
 If you make an error when posting an acquisition cost, you can remove the entry with the **Cancel FA Entries** batch job and then post the correct acquisition entry. The erroneous entries are transferred to the **FA Error Ledger Entries** page.
@@ -115,7 +115,7 @@ If you make an error when posting an acquisition cost, you can remove the entry 
 For example, if you post an acquisition with the wrong date, you must correct it as soon as possible because the fixed asset posting date is used for many calculations.
 
 > [!IMPORTANT]  
-> You cannot use the **Reverse Transactions** function for fixed asset entries.
+> You can't use the **Reverse Transactions** action for fixed asset entries.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Ledger Entries**, and then choose the related link.  
 2. In the **FA Ledger Entries** page, select the entry or entries that you want to cancel.  
@@ -126,20 +126,20 @@ For example, if you post an acquisition with the wrong date, you must correct it
 
 ## To post the salvage value together with the acquisition cost
 
-The salvage value is the residual value of a fixed asset when it can no longer be used. You can post the salvage value at the same time as you post the acquisition cost. For more information, see [Depreciate or Amortize Fixed Assets](fa-how-depreciate-amortize.md).
+The salvage value is the residual value of a fixed asset when it can no longer be used. You can post the salvage value at the same time as you post the acquisition cost. To learn more, go to [Depreciate or Amortize Fixed Assets](fa-how-depreciate-amortize.md).
 
 You can post the salvage value together with the acquisition cost from a fixed asset journal.
 
 > [!NOTE]
-> This process might require that you personalize the Fixed Asset Journals page by adding the Salvage Value field. By default, the field is not displayed on the page. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
+> This process might require that you personalize the Fixed Asset Journals page by adding the Salvage Value field. By default, the field is not displayed on the page. To learn more, go to [Personalize Your Workspace](ui-personalization-user.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset Journals**, and then choose the related link.
-2. On the **Fixed Asset Journals** page, create the acquisition line. For more information, see [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
+2. On the **Fixed Asset Journals** page, create the acquisition line. To learn more, go to [To post a fixed asset acquisition manually with the fixed asset G/L journal](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 3. In the **Salvage Value** field on the journal line, enter the salvage value amount as a credit (prefix the amount with a minus sign, for example, **-**100).
 4. Choose the **Post** action.
 
 > [!NOTE]
-> If a salvage value exists for a fixed asset, that value is used in depreciation posting instead of the value in the **Ending Book Value** field on the **FA Depreciation Books** page. For more information, see [To manage the ending book value](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
+> If a salvage value exists for a fixed asset, that value is used in depreciation posting instead of the value in the **Ending Book Value** field on the **FA Depreciation Books** page. To learn more, go to [To manage the ending book value](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
 ## See also
 

@@ -2,7 +2,6 @@
 title: Achieve Some Task Max 46 characters
 description: Learn about doing XYZ in Business Central (and then lots of nice search terms in a natural-sounding sentence. Max length is 160 characters, which is this long).
 author: myGitHubHandle
-
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2021

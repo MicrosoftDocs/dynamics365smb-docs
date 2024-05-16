@@ -1,18 +1,18 @@
 ---
-title: Organize Items in Categories(contains video) | Microsoft Docs
+title: Organize items in categories (contains video) | Microsoft Docs
 description: To help you search for and find items, you can assign item attributes and organize items in categories.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: category, search, attribute, facet
 ms.search.form: 5730, 5733, 5401
-ms.date: 04/01/2021
+ms.date: 04/15/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Categorize Items
+# Categorize items
 
-To maintain an overview of your items and to help you sort and find items, it is useful to organize your items in item categories.
+To maintain an overview of your items and to help you sort and find items, it's useful to organize your items in item categories.
 
 To find items by characteristics, you can assign item attributes to items and also to item categories. For more information, see [Work with Item Attributes](inventory-how-work-item-attributes.md).
 <br><br>  
@@ -45,11 +45,11 @@ If you change your mind about an item category, you can delete it. However, if i
 
 ## See also
 
-[Work with Item Attributes](inventory-how-work-item-attributes.md)  
-[Manage Product Variants](inventory-item-variants.md)  
-[Register New Items](inventory-how-register-new-items.md)  
-[Inventory](inventory-manage-inventory.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with Item Attributes](inventory-how-work-item-attributes.md)    
+[Manage Product Variants](inventory-item-variants.md)    
+[Register New Items](inventory-how-register-new-items.md)    
+[Inventory](inventory-manage-inventory.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

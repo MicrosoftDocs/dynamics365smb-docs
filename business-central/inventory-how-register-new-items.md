@@ -1,18 +1,18 @@
 ---
-title: Create Item Cards for Goods or Services (contains video)
+title: Create item cards for goods or services (contains video)
 description: You create item cards for services that you sell as hours and for physical products. Examples include assembly items and finished goods that you sell from your inventory.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 11/02/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Register New Items
+# Register new items
 
-Items, among other products, are the basis of your business, the goods or services that you trade in. Each item must be registered as an item card.
+Items, among other products, are the basis of your business, the goods, or services that you trade in. Each item must be registered as an item card.
 
 Item cards hold the information that is required to buy, store, sell, deliver, and account for items.
 
@@ -29,7 +29,7 @@ If you purchase the same item from more than one vendor, you can connect those v
 
 The following procedure explains how to create an item card from scratch. You can also create new item cards by copying existing ones. For more information, see [Copy Existing Items to Create New Items](inventory-how-copy-items.md).  
 
-<br />
+<br/>
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
@@ -52,7 +52,7 @@ If you want to use this item card as a template when you create new item cards, 
 
 1. On the **Item Card** page, choose the **Save as Template** action. The **Item Template** page opens showing the item card as a template.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. To reuse dimensions in templates, choose the **Dimensions** action. The **Dimension Templates** page opens showing any dimension codes that are set up for the item.
+3. To reuse dimensions in templates, choose the **Related** action, then choose **Item**, and then **Dimensions**. The **Default Dimensions** for the selected item open showing any dimension codes that are set up for the item.
 4. Edit or enter dimension codes that apply to new item cards created by using the template.
 5. When you complete the new item template, choose the **OK** button.
 
@@ -69,7 +69,7 @@ If you purchase the same item from more than one vendor, you must enter informat
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Select the relevant item, and then choose the **Edit** action.  
 3. Choose the **Vendors** action.  
-4. Choose the **Vendor No.** field, and then select the vendor that you want to set up for the item.  
+4. Choose the **No.** field, and then select the vendor that you want to set up for the item.  
 5. Optionally, fill in the remaining fields.  
 6. Repeat steps 2 through 5 for each vendor that you want to buy the item from.
 
@@ -82,7 +82,7 @@ You can set up items to have replacements, such as other items that can be used 
 ### To make an item substitution
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
-2. Find the relevant item, and then choose the **Item No.** to open the Item Card.  
+2. Find the relevant item, and then choose the **No.** to open the Item Card.  
 3. Choose the **Related** action, then choose **Item**, and then **Substitutions** to open the **Item Substitution Entry** page.  
 4. Choose the **Substitute No.** field, and then select the replacement item from the list.
 5. Fill in or change other fields on the page as necessary.
@@ -116,22 +116,22 @@ For examples of how you can use the fields on the **Planning** FastTab, see [Set
 
 ## See also
 
-[Inventory](inventory-manage-inventory.md)  
-[Set Up Units of Measure](inventory-how-setup-units-of-measure.md)  
-[Manage Product Variants](inventory-item-variants.md)  
-[Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
-[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
-[Create Number Series](ui-create-number-series.md)  
-[Setting Up Posting Groups](finance-posting-groups.md)  
-[Purchasing](purchasing-manage-purchasing.md)  
-[Sales](sales-manage-sales.md)  
-[About Planning Functionality](production-about-planning-functionality.md)  
-[Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md)  
-[Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
-[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)  
-[Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)  
-[Design Details: Planning Parameters](design-details-planning-parameters.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Inventory](inventory-manage-inventory.md)    
+[Set Up Units of Measure](inventory-how-setup-units-of-measure.md)    
+[Manage Product Variants](inventory-item-variants.md)    
+[Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md#other-intrastat-configurations)    
+[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)    
+[Create Number Series](ui-create-number-series.md)    
+[Setting Up Posting Groups](finance-posting-groups.md)    
+[Purchasing](purchasing-manage-purchasing.md)    
+[Sales](sales-manage-sales.md)    
+[About Planning Functionality](production-about-planning-functionality.md)    
+[Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md)    
+[Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)    
+[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md)    
+[Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md)    
+[Design Details: Planning Parameters](design-details-planning-parameters.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

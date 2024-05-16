@@ -1,15 +1,15 @@
 ---
-title: Manage Product Variants
+title: Manage product variants
 description: Learn how you can record products that are almost identical but vary in color, size, or material as item variants.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: item, variant, finished good, component, raw material, assembly item, item substitution
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 09/26/2022
+ms.date: 04/15/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Manage Product Variants
+# Manage product variants
 
 Item variants are a great way to keep your list of products under control. For example, you have a large number of items that are almost identical and vary only in color. You can define each variant as a separate item. But you choose to set up one item and specify the various colors as variants of the item.  
 
@@ -23,10 +23,10 @@ If your organization has decided to use variants, then it's easy enough to defin
 ### To add variants
 
 1. Open [the **Items List** page](https://businesscentral.dynamics.com/?page=31), open the relevant item.  
-2. On the **Item** card, choose the **Item** action, and then choose the **Variants** action.  
-3. In the **Item Variants** page, list the variants.  
+2. On the **Item** card, choose the **Related** action, then choose **Item**, and then choose the **Variants** action.  
+3. On the **Item Variants** page, list the variants.  
 
-Then, when you create a sales document and add the item, you can specify the variant of the item in the **Variant Code** field. The same applies to purchase documents.  
+Then, when you create a sales document and add the item, you can specify the variant of the item in the Variant **Code** field. The same applies to purchasing documents.  
 
 ## Item availability by variant
 
@@ -55,6 +55,6 @@ If the capability is switched on, users can't post an entry if the variant isn't
 
 ## See also
 
-[Register New Items](inventory-how-register-new-items.md)  
-[Set Up General Inventory Information](inventory-how-setup-general.md)  
-[Walkthrough: Variants](contoso-coffee/manufacturing/variants.md)  
+[Register New Items](inventory-how-register-new-items.md)    
+[Set Up General Inventory Information](inventory-how-setup-general.md)    
+[Walkthrough: Variants](contoso-coffee/manufacturing/variants.md)    

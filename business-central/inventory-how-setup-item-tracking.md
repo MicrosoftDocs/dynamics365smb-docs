@@ -1,16 +1,15 @@
 ---
-    title: Set Up Item Tracking with Serial, Lot, and Package Numbers
+    title: Set up item tracking with serial, lot, and package numbers
     description: Set up item tracking with serial numbers, lot numbers, and package numbers
     author: brentholtorf
     ms.topic: conceptual
     ms.devlang: al
     ms.search.keywords:
-    ms.date: 08/31/2021
+    ms.date: 05/14/2024
     ms.author: bholtorf
-
     ms.service: dynamics-365-business-central
 ---
-# Set Up Item Tracking with Serial, Lot, and Package Numbers
+# Set up item tracking with serial, lot, and package numbers
 
 Keep track of inventory items even in complex warehouse configurations with numbers that are specific to each item, either as an individual object, as a lot, or as a package. With item tracking, you can trace items across internal warehouse movements, and outbound and inbound documents.
 
@@ -32,7 +31,7 @@ An item tracking code reflects the different considerations a company has regard
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Tracking Codes**, and then choose the related link.  
 2. Choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-4. On the **Serial No.**, **Lot No.**, and the **Package No.** FastTabs, define policies of item tracking by serial, lot, and package numbers respectively.  
+4. On the **Serial No.**, **Lot No.**, and the **Package Tracking** FastTabs, define policies of item tracking by serial, lot, and package numbers respectively.  
 
 > [!NOTE]  
 > If you want to track specific items or specific lots throughout their lifetime, you must choose the **SN Specific Tracking** and **Lot Specific Tracking** fields, respectively. As a result, when handling an outbound unit of an item with this item tracking code, you must always specify which existing serial number or which existing lot number to handle. This means that when selling a unit of the item, it must be applied against a specific pool of serial numbers or a specific lot number in inventory. Or in other words, a serial number or lot number assigned to the item when entering into inventory must follow that item type out of inventory.
@@ -72,14 +71,14 @@ For some items, you might want to set up specific warranties in the item trackin
 
 ## To set up items for tracking with the correct item tracking codes
 
-To enable item tracking you first have to assign the item tracking codes to an item. There are two ways to add item tracking codes, by selecting the code from a predefined list or by assigning a new unique code. Hover over the fields to read a short description.
+To enable item tracking, you first have to assign the item tracking codes to an item. There are two ways to add item tracking codes, by selecting the code from a predefined list or by assigning a new unique code. Hover over the fields to read a short description.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item**, and then choose the related link.
 2. Select an existing item from the list, and open the **Item Card** page.  
 3. On the **Item Tracking** FastTab, assign the appropriate item tracking codes and choose the **Item Tracking Code**, the **Serial Nos.**, and the **Lot Nos.**.
     1. Alternatively you can also create a new item tracking code by selecting the **New** action.
 
-## To specify opening balances for the items you track
+## To specify opening balances for the items, you track
 
 You can create opening balances for the items you track. Because you can choose different warehouse configurations, there are two options:
 

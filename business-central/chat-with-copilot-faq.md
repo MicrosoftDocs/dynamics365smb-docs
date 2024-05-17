@@ -69,7 +69,7 @@ If you still don't see the chat with Copilot feature, it's possible that Microso
 
 ## Why does Copilot only show three records in the Chat pane?
 
-When you ask Copilot to retrieve records, the way you formulate the question determines how Copilot identifies and applies filters on pages to find what you are looking for. To keep answers compact and concise, the Chat pane displays no more than three records shown as tiles—even if Copilot identifies many records that match your inquiry.
+When you ask Copilot to retrieve records, the way you formulate the question determines how Copilot identifies and applies filters on pages to find what you are looking for. To keep answers compact and concise, the Chat pane displays a maximum of three record tiles, even when Copilot finds a larger number of relevant records.
 
 ## Copilot returns incorrect answers to totals and other calculations
 

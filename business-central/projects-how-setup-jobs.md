@@ -3,7 +3,7 @@ title: Set Up Projects, Prices, and Project Posting Groups
 description: Describes how to set up general information about projects.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/22/2024
 ms.custom: bap-template

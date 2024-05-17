@@ -1,17 +1,17 @@
 ---
-title: Pick Items for Warehouse Shipment
+title: Pick items for warehouse shipment
 description: Learn about using warehouse pick documents to create and process pick information prior to posting a warehouse shipment.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 09/11/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.forms: 7335, 7339, 7345, 
 
 ---
-# Pick Items for Warehouse Shipment
+# Pick items for warehouse shipment
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you pick and ship items using one of four methods, as described in the following table.
 
@@ -111,6 +111,14 @@ You can't create a warehouse pick document from scratch. Picks are part of a wor
 
     > [!NOTE]
     > If you must pick or place the items for one line in more than one bin, for example because the designated bin is full, use the **Split Line** action on the **Lines** FastTab. The action creates a line for the remaining quantity to handle.
+        
+    You can sort the pick lines by various criteria, for example, by item, shelf number, or due date. Sorting can help optimize the put-away process, for example:
+
+    * If the Take and Place lines for each shipment line don't immediately follow one another, and you want them to, sort the lines by selecting **Item** in the **Sorting Method** field.  
+    * If bin rankings reflect the physical layout of the warehouse, use the **Bin Ranking** sorting method to organize the work by bin locations.
+
+  > [!NOTE]  
+  > Lines are sorted in ascending order by the selected criteria. If you sort by document, sorting is done first by document type based on the **Warehouse Activity Source Document** field. If you sort by ship-to, sorting is done first by destination type based on the **Warehouse Destination Type** field.
 
 4. After you pick and place the items in the shipping area or shipping bin, choose the **Register Pick** action.  
 

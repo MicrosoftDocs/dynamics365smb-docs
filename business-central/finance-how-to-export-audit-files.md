@@ -9,7 +9,7 @@ ms.search.keywords: audit, export, SIE, SAF-T, FAC, GDPdU, file export
 ms.search.form: 5260, 5261, 5264, 5266, 5267, 5270
 ms.date: 04/04/2023
 ms.author: altotovi
-ms.reviewer: kfend
+ms.reviewer: bholtorf
 ---
 
 # Audit file export

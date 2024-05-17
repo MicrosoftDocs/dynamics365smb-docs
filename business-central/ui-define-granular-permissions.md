@@ -1,5 +1,5 @@
 ---
-title: Define Granular Permissions
+title: Define granular permissions
 description: This article describes how to define granular permissions and assign each user the permission sets that they need to do their jobs.
 author: brentholtorf
 ms.author: bholtorf
@@ -7,12 +7,12 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862
-ms.date: 02/08/2023
-
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Assign Permissions to Users and Groups
+# Assign permissions to users and groups
 
 [!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
 
@@ -189,7 +189,7 @@ Administrators can define periods of time during which specified users are able 
 
 When you have multiple companies in Business Central, managing permissions across companies requires extra consideration. You might not want users to have identical access rights to all companies. Instead, you may need to grant users' permissions based on their company affiliations. To support this scenario, when you assign permission sets to individual users or security groups, you have the option to select a specific company to which the permission set applies. The company isn't explicitly specified within the permission set, but rather when the permission set is assigned to the user or security group.
 
-If you don't specify the company when assigning a permission set, the permission set then applies to all companies. If you want a permission set to apply to more that one company, but not all companies, add the permission set specifically for each company separately.
+If you don't specify the company when assigning a permission set, the permission set then applies to all companies. If you want a permission set to apply to more than one company, but not all companies, add the permission set specifically for each company separately.
 
 Learn how at [Assign permission sets to users](#assign-permission-sets-to-users) or [Assign permissions to a security group](ui-security-groups.md#assign-permissions-to-a-security-group).
 

@@ -2,21 +2,22 @@
 title: Set up and use a purchase approval workflow
 description: This walkthrough takes you through all the stages involved in setting up and using a purchase approval workflow in Business Central.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords:
 ms.date: 03/11/2024
-ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Walkthrough: Set up and use a purchase approval workflow
 
 You can automate the process of approving new or changed records, such as documents, journal lines, and customer cards, by creating workflows with steps for the approvals in question.
 
-Before you create approval workflows, you must set up an approver and substitute approver for each approval user. You can also set approvers' amount limits to define which sales and purchase records they're qualified to approve. Approval requests and other notifications can be sent as an email or internal note. For each approval user setup, you can also set up when they receive notifications.
+Before you create approval workflows, you must set up an approver and substitute approver for each approval user. To define which sales and purchase records they're qualified to approve, you can also set amount limits for approvers. Approval requests and other notifications can be sent as emails or internal notes. For each approval user setup, you can also set up when they receive notifications.
 
 > [!NOTE]
-> In addition to the Workflow functionality within [!INCLUDE[prod_short](includes/prod_short.md)], you can use Power Automate to define workflows for events in [!INCLUDE[prod_short](includes/prod_short.md)]. Note that although they are two separate workflow systems, any flow template that you create with Power Automate is added to the list of workflow templates within [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [Use Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md).  
+> In addition to the workflow functionality in [!INCLUDE[prod_short](includes/prod_short.md)], you can use Power Automate to define workflows for events in [!INCLUDE[prod_short](includes/prod_short.md)]. Note that although they're two separate workflow systems, any flow template that you create with Power Automate is added to the list of workflow templates in [!INCLUDE[prod_short](includes/prod_short.md)]. Learn more at [Use Business Central in an Automated Workflow](across-how-use-financials-data-source-flow.md).  
 
 You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps. Learn more at [Workflow](across-workflow.md).  
 

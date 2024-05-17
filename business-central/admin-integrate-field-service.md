@@ -1,11 +1,11 @@
 ---
 title: Integrate with Microsoft Dynamics 365 Field Service
-description: Learn how to integrate Business Central with Field Service.
+description: Integrate Business Central with Field Service.
 ms.date: 02/21/2024
 ms.topic: article
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
 
@@ -29,7 +29,7 @@ When you install the Integration Solution, permissions for the integration user 
 
 #### Sales
 
-* Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] Integration Administrator/
+* Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] Integration Administrator
 * Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] Integration User
 * Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] Product Availability User
 
@@ -57,12 +57,12 @@ For example, users must have this role to connect work orders to [!INCLUDE [prod
 > [!NOTE]
 > To use the **Open in Business Central** action in Sales, you must have the following privileges for the following tables:
 >
->* You must have **Read** permissions for the **Dynamics 365 Business Central Connection** (nav_connection) table.
->* You must have **Read**, **Write**, and **Delete** permissions for the **Default Dynamics 365 Business Central Connection** (nav_defaultconnection) table.
+> * You must have **Read** permissions for the **Dynamics 365 Business Central Connection** (nav_connection) table.
+> * You must have **Read**, **Write**, and **Delete** permissions for the **Default Dynamics 365 Business Central Connection** (nav_defaultconnection) table.
 
 ### Other settings in Field Service
 
-On the **Field Service Setting** page, make the following settings:
+On the **Field Service Setting** page, make the following changes:
 
 * On the **Purchase** tab, clear the **Use of Products Out of Stock** field. Otherwise, you might get an "out of stock" warning when you choose a product that's out of stock in [!INCLUDE [field-service-short](includes/field-service-short.md)], but is in stock in [!INCLUDE [prod_short](includes/prod_short.md)].
 * On the **Work Order / Booking** tab, turn off the **Calculate Price** and **Calculate Cost** toggles. In the **Work Order Invoice Creation** field, choose **Never**.
@@ -78,7 +78,7 @@ To let people post consumption of items and services in [!INCLUDE [field-service
 
 Because services are expressed in duration in [!INCLUDE [field-service-short](includes/field-service-short.md)], specify the **Hours Unit of Measure** to use to convert durations to quantities in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-You can also specify when work order products and service lines synchronize to [!INCLUDE [prod_short](includes/prod_short.md)]. For example, they might synchronize when work order lines are used, or when someone completes a work order. Choose the appropriate option in **Synchronize work order products/services** field.
+You can also specify when work order products and service lines synchronize to [!INCLUDE [prod_short](includes/prod_short.md)]. For example, they might synchronize when work order lines are used, or when someone completes a work order. Choose the appropriate option in the **Synchronize work order products/services** field.
 
 After work order products and services synchronize to project journals in [!INCLUDE [prod_short](includes/prod_short.md)], you can choose whether to post the project journals manually. Choose the appropriate option in the **Automatically post project journals lines** field:
 
@@ -95,7 +95,7 @@ After you finish the setup, run a full synchronization from the **Dynamics 365 F
 
 The basis of synchronizing data is mapping the tables and fields in [!INCLUDE [prod_short](includes/prod_short.md)] with tables and columns in Dataverse, so they can exchange the data. Mapping happens through integration tables. To learn more about table mappings, go to [Mapping the Tables and Fields to Synchronize](/dynamics365/business-central/admin-how-to-modify-table-mappings-for-synchronization).
 
-Integration with [!INCLUDE [field-service-short](includes/field-service-short.md)] introduces the following standard integration table mappings.
+Integration with [!INCLUDE [field-service-short](includes/field-service-short.md)] introduces the following standard integration table mappings:
 
 * **PJLINE-WORDERPRODUCT** - Maps work order products in [!INCLUDE [field-service-short](includes/field-service-short.md)] to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
 * **PJLINE-WORDERSERVICE** - Maps work order services in [!INCLUDE [field-service-short](includes/field-service-short.md)] to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
@@ -105,7 +105,7 @@ Integration with [!INCLUDE [field-service-short](includes/field-service-short.md
 
 ## Use data in both applications
 
-The following sections describe the features where you can use the data that from [!INCLUDE [prod_short](includes/prod_short.md)] and [!INCLUDE [field-service-short](includes/field-service-short.md)].
+The following sections describe the features where you can use the data that comes from [!INCLUDE [prod_short](includes/prod_short.md)] and [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
 ### Field Service
 
@@ -113,10 +113,10 @@ You can [create work orders](/dynamics365/field-service/create-work-order) using
 
 You can add inventory and noninventory items as **Work Order Products** on work orders and get the quantity on hand and costs and prices from [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Create a work order from the work order form and record list](/dynamics365/field-service/create-work-order#create-a-work-order-from-the-work-order-form-and-record-list).
 
-You can add item of the type service as **Work Order Services**, and get costs and prices from [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Products and services tab](/dynamics365/field-service/work-order-experience#products-and-services-tab).
+You can add items of the type service as **Work Order Services**, and get costs and prices from [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more, go to [Products and services tab](/dynamics365/field-service/work-order-experience#products-and-services-tab).
 
 > [!NOTE]
-> When product or service on a work order status changes from **Estimated** to **Used** in [!INCLUDE [field-service-short](includes/field-service-short.md)], they'll synchronize to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
+> When a product or service's status on a work order changes from **Estimated** to **Used** in [!INCLUDE [field-service-short](includes/field-service-short.md)], they'll synchronize to project journal lines in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 You can book a resource and relate the **Bookings** to work order services using a **Bookable Resource** from [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -129,9 +129,9 @@ The **Quantity To Bill** and **Duration To Bill** values are copied to the **Qty
 Use the **Project Planning Lines** page to track posting and invoicing of consumption on work orders. From the **Project Planning Lines** page, you can create and post sales invoices in [!INCLUDE [prod_short](includes/prod_short.md)]. Afterward, you can synchronize them with [!INCLUDE [field-service-short](includes/field-service-short.md)] and keep track of the status of the invoices.
 
 > [!NOTE]
-> Work order services with a booking that uses a bookable resource that's coupled to a [!INCLUDE [prod_short](includes/prod_short.md)] resource synchronize to two project journal lines. One line of type **Budget** for the coupled resource, and another line of type **Billable** for the item being serviced.
+> Work order services with a booking that uses a bookable resource that's coupled to a [!INCLUDE [prod_short](includes/prod_short.md)] resource synchronize to two project journal lines: one line of type **Budget** for the coupled resource, and another line of type **Billable** for the item being serviced.
 >
-> The product that's chosen on the work order service must be coupled to an item of the type **Service** in [!INCLUDE [prod_short](includes/prod_short.md)]. Also, base unit of measure for the item must be set to the **Hours Unit of Measure** that's chosen on the **Dynamics 365 Field Service Integration Setup** page.
+> The product that's chosen on the work order service must be coupled to an item of the type **Service** in [!INCLUDE [prod_short](includes/prod_short.md)]. Also, the base unit of measure for the item must be set to the **Hours Unit of Measure** that's chosen on the **Dynamics 365 Field Service Integration Setup** page.
 >
 > You can create an invoice for an item of the type **Service** from the billable project planning line, and use the budget project planning line to register cost with the resource.
 

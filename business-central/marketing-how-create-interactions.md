@@ -4,7 +4,7 @@ description: Learn how to create interactions in Business Central for communicat
 author: brentholtorf
 ms.author: bholtorf
 ms.topic: conceptual
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.date: 12/13/2023
 ms.custom: bap-template
 ms.search.keywords: relationship, prospect

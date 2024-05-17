@@ -33,7 +33,9 @@ The following sections provide examples of sustainability scenarios in [!INCLUDE
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Emmision overview (sum by category))](#example-emmision-overview-sum-by-category) | Analyze your emmisions by category. | [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) | **TODO** |
+| [Emmision overview (sum by category)](#example-emmision-overview-sum-by-category) | Analyze your emmisions by category. | [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) | **Account Category**, **Account Name**, **Emmision NH4**, **Emmision CO2**, and **Emmision N2O**.|
+| [Average emmissions by category](#example-average-emmissions-by-category) | Analyze your average emmisions by category. | [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) | **Account Category**, **Account Name**, **Emmision NH4**, **Emmision CO2**, and **Emmision N2O**.|
+| [Emmissions by scope](#example-emmissions-by-scope) | Analyze your emmisions by scope. | [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) | **Emmision Scope**, **Account Category**, **Emmision NH4**, **Emmision CO2**, and **Emmision N2O**.|
 
 
 ## Example: Emmision overview (sum by category)
@@ -43,17 +45,45 @@ To analyze your emmisions by category, follow these steps:
 1. Open the [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) list and turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
 1. Turn on **Pivot** mode (located directly above the **Search** field).
-
-1. Drag the **Sell-to Customer Name**, **Sell-to Customer No.**, and **No.** fields to the **Row Groups** area. Drag the fields in that order.
-1. Drag the field **Amount** field to the **Values** area.
-1. Drag the **Document Date Year** and **Document Date Month** fields to the **Column Labels** area. Drag the fields in that order.
-1. To do the analysis for a given year or quarter, apply a filter in the **Additional Filters** menu. The menu is on the right of the page, just below the **Columns** menu.
-1. Rename your analysis tab to **Expected sales volume** or something that describes this analysis for you.
+1. Drag the **Account Category** and **Account Name** fields to the **Row Groups** area. Drag the fields in that order.
+1. Drag the fields **Emmision NH4**, **Emmision CO2**, and **Emmision N2O** to the **Values** area.
+1. Rename your analysis tab to **Emmision overview (sum)** or something that describes this analysis for you.
 
 The following image shows the result of these steps.
 
-:::image type="content" source="media/data-analysis-customer-ledger-entries.png" alt-text="Example of how to do data analysis on the Customer Ledger Entries page." lightbox="media/data-analysis-customer-ledger-entries.png":::
+:::image type="content" source="media/data-analysis-sustainability-entries.png" alt-text="Example of how to do data analysis on the Sustainability Ledger Entries page." lightbox="media/data-analysis-sustainability-entries.png":::
 
+## Example: Average emmissions by category
+
+To analyze your average emmisions by category, follow these steps:
+
+1. Open the [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) list and turn on analysis mode.
+1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
+1. Turn on **Pivot** mode (located directly above the **Search** field).
+1. Drag the **Account Category** and **Account Name** fields to the **Row Groups** area. Drag the fields in that order.
+1. Drag the fields **Emmision NH4**, **Emmision CO2**, and **Emmision N2O** to the **Values** area.
+1. For each field in the **Values** area, click on them and change the aggregation function to `Average`.
+1. Rename your analysis tab to **Emmision overview (avg)** or something that describes this analysis for you.
+
+The following image shows the result of these steps.
+
+:::image type="content" source="media/data-analysis-sustainability-entries-avg.png" alt-text="Example of how to do data analysis on the Sustainability Ledger Entries page." lightbox="media/data-analysis-sustainability-entries-avg.png":::
+
+
+## Example: Emmissions by scope
+
+To analyze your emmisions by scope, follow these steps:
+
+1. Open the [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) list and turn on analysis mode.
+1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
+1. Turn on **Pivot** mode (located directly above the **Search** field).
+1. Drag the **Emmision Scope** and **Account Category** fields to the **Row Groups** area. Drag the fields in that order.
+1. Drag the fields **Emmision NH4**, **Emmision CO2**, and **Emmision N2O** to the **Values** area.
+1. Rename your analysis tab to **Emmision overview by scope** or something that describes this analysis for you.
+
+The following image shows the result of these steps.
+
+:::image type="content" source="media/data-analysis-sustainability-entries-scope.png" alt-text="Example of how to do data analysis on the Sustainability Ledger Entries page." lightbox="media/data-analysis-sustainability-entries-scope.png":::
 
 
 

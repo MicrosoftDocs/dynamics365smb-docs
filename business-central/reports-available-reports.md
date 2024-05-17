@@ -84,9 +84,11 @@ For more information, see [Assembly Management Reports and Analytics in Business
 
 For more information, see [Production Reports and Analytics in Business Central](production-reports.md).
 
+
 ## See also
 
-[Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
-[Business Intelligence and Reporting](reports-bi-reporting.md)  
+[Report Overview](reports-use-reports.md)   
+[Analyze list and query data with analysis mode](analysis-mode.md)   
+[Analytics overview](reports-bi-reporting.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

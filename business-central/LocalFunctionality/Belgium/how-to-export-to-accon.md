@@ -18,7 +18,10 @@ The **Link to Accon** report enables you to create a file that can be imported i
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Link to Accon**, and then choose the related link.  
 2.  Choose the **Show Amounts in Add. Reporting Currency** check box so that amounts print in the additional reporting currency. If the check box is cleared, the amounts are printed in local currency.  
 3.  Enter the filter information.  
-4.  Choose the **OK** button.  
+4.  Choose the **OK** button.
+
+> [!NOTE]
+> For proper reporting, users must configure their account numbers to have **length between 4 and 12 characters** and the **first 4 characters must be numeric** as these are requirements by Accon.
 
 ## See also  
  [Belgium Local Functionality](belgium-local-functionality.md)

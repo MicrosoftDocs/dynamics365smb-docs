@@ -14,11 +14,11 @@ ms.custom: bap-template
 
 # Map e-documents to purchase order lines with Copilot (preview)
 
-As procurement processes become more digital, the e-documents feature in Business Central plays a key role in automating the vendor invoice reception and processing. Copilot can help this process by improving the mapping and matching of vendor invoices to purchase orders. This reduces time-consuming tasks that would normally include extensive search, lookup, and data entry. The benefit is compounded by the fact that vendor invoices often don't relate exactly with purchase orders, in which case Copilot is better positioned to identify the corresponding purchase orders. Enhanced matching capabilities particularly benefit small and midsized organizations that need efficient document tracking for purchase order lines. Copilot is the AI-powered assistant for work that boosts creativity and improves productivity for Business Central users.
+As procurement processes become more digital, the e-documents feature in Business Central plays a key role in automating the vendor invoice reception and processing. Copilot can help this process by improving the mapping and matching of vendor invoices to purchase orders. This reduces time-consuming tasks that would normally include extensive search, lookup, and data entry. The benefit is compounded by the fact that vendor invoices often don't relate exactly with purchase orders. In which case, Copilot is better positioned to identify the corresponding purchase orders. Enhanced matching capabilities particularly benefit small and midsized organizations that need efficient document tracking for purchase order lines. Copilot is the AI-powered assistant for work that boosts creativity and improves productivity for Business Central users.
 
 > [!IMPORTANT]
 > - This is a Production Ready Preview feature for production and sandbox environments in any country localization, with the exception of Canada.
-> - Production Ready Previews are subject to supplemental terms of use. More information: [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274)
+> - Production Ready Previews are subject to supplemental terms of use. For more information, go to: [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274)
 > - AI-generated content may be incorrect.
 
 In the initial release of the **e-document** app, we introduced fundamental scenarios for e-documents for the entire sales process. However, there's a need for enhancements and automation in handling the received documents, especially in the context of purchase processes. Copilot refines how you manage e-documents in the purchase process, particularly with respect to purchase orders. The e-documents framework lets you specify the type of purchase document to create for each vendor when you receive e-invoices from them. Previously, the only option was to create a purchase invoice, either as a document or a general ledger journal.
@@ -64,7 +64,7 @@ When you want to run matching from the purchase order, choose the **Map E-Docume
 2. You can notice that **E-Document Match Order Lines with Copilot** prompt is working and you have the **Purchase Order Matching** page in the background. That means the same process is happening, but with the automatic support of **Copilot**, who runs the process of matching instead of you. 
 3. After a few seconds, the **E-Document Match Order Lines with Copilot** will suggest lines for matching with some more details: 
 
-    1. In the prompt header, you can find the following information: 
+    1. In the prompt header, you can find the following information:   
 
     |Field name |Description |
     |--------|-----------------|

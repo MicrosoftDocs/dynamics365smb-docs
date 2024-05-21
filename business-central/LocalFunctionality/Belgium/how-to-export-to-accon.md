@@ -5,7 +5,7 @@
     ms.topic: conceptual
     ms.devlang: al
     ms.search.keywords:
-    ms.date: 11/24/2023
+    ms.date: 05/21/2024
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
 ---
@@ -21,10 +21,10 @@ The **Link to Accon** report enables you to create a file that can be imported i
 4.  Choose the **OK** button.
 
 > [!NOTE]
-> For proper reporting, users must configure their account numbers to have **length between 4 and 12 characters** and the **first 4 characters must be numeric** as these are requirements by Accon.
+> Accon requires that users configure their account numbers to have a *length between 4 and 12 characters*, and the *first four characters must be numeric* for reporting.
 
 ## See also  
- [Belgium Local Functionality](belgium-local-functionality.md)
+ [Belgium local functionality](belgium-local-functionality.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

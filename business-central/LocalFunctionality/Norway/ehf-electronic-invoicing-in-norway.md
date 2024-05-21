@@ -14,7 +14,10 @@ ms.service: dynamics-365-business-central
 Companies must send sales invoices and credit memos to the Norwegian public sector electronically in the Elektronisk Handelsformat (EHF) based on Universal Business Language (UBL). If a company does not send these documents electronically, the authorities can deny payment. The standard supported format for electronic exchange between parties is the Ehandel.no format. For more information on EHF electronic invoicing, see [Anskaffelser.no](https://www.anskaffelser.no).  
 
 ## Implementation in [!INCLUDE[prod_short](../../includes/prod_short.md)]  
-From January, 2019, the requirements for sending electronic invoices are based on the PEPPOL BIS Billing 3.0 standard. For more information, see the [EHF Billing 3.0](https://test-vefa.difi.no/ehf/g3/billing-3.0/norway/) page from the Agency of Public Management and eGovernment. Companies that are already sending electronic documents in the pre-2019 format can continue to do so during 2019.
+From January, 2019, the requirements for sending electronic invoices are based on the PEPPOL BIS Billing 3.0 standard. For more information, see the [EHF Billing 3.0](https://anskaffelser.dev/postaward/g3/spec/current/billing-3.0/norway/) page from the Agency of Public Management and eGovernment. Companies that are already sending electronic documents in the pre-2019 format can continue to do so during 2019.
+
+>[NOTE!]
+>You can also use the [Anskaffelser.dev Validator](https://anskaffelser.dev/service/validator) to validate your EHF billing formats.  
 
 To send documents electronically, you must assign European Article Numbering (EAN) location numbers and account codes to the relevant customers on the **Customer Card** page. For more information, see [Set Up Customers for EHF](how-to-set-up-customers-for-ehf.md). These numbers are included when you create, post, or issue documents. After documents are posted or issued, you can create electronic versions to send to customers.  
 

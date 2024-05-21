@@ -3,7 +3,7 @@ title: Set Up Resources, Time Sheets, and Projects
 description: This topic outlines how to set up resources, time sheets, to manage projects and their budgets.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: projects
 ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015

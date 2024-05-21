@@ -3,7 +3,7 @@ title: FAQ for suggest sales lines with Copilot
 description: This FAQ provides information about the AI technology used in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: article
 ms.search.form:
 ms.date: 02/02/2024

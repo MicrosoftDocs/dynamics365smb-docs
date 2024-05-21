@@ -3,7 +3,7 @@ title: Use Item References
 description: Set up references between the descriptions, unit of measures, and variants that you and your vendor or customer use for an item.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: item reference, cross reference, inventory
 ms.search.forms: 5737, 5735, 5736

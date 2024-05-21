@@ -3,7 +3,7 @@ title: Record Consumption or Usage of Project Resources and Items
 description: This article describes how to record the consumption or use of items or resources for projects in project management.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 02/22/2024

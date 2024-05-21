@@ -6,8 +6,8 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
 ms.search.form:
-ms.date: 11/30/2021
-ms.author: bholtorf
+ms.date: 04/24/2024
+ms.author: jswymer
 
 ms.service: dynamics-365-business-central
 ---

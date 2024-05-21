@@ -4,7 +4,7 @@ description: The following articles describe the different local functionality i
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 01/12/2024
+ms.date: 04/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -68,8 +68,6 @@ The following articles describe local functionality unique to the Spanish versio
 
 ## Future legislation requirements being investigated
 
-* New approach of sending multiple documents in SII - **planned for 23.4**
-* Introduce the "Ignore in SII" option for the G/L Account - **planned for 23.5** 
 * Spanish e-invoicing - **planned for 2024 release wave 2**  
 * SII Statuses - **planned for 2024 release wave 2**  
 * Requirements related with the *Antifraud Law* in Spain and the impact on Business Central are subject of investigation. 
@@ -78,7 +76,7 @@ If you're aware of any upcoming regulatory features, submit a [Regulatory Featur
 
 ## See also
 
-[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
-[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)    
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Posting group setup
 description: Learn how to use posting groups to save time and avoid mistakes when you post transactions.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313

@@ -50,6 +50,9 @@ Using the **Company Information** page, you can replace the standard company ico
 1. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 2. When done, refresh the browser (select <kbd>Ctrl</kbd>+<kbd>F5</kbd>) to update the badge in the client.  
 
+> [!TIP]
+> When a company badge has been set it will also serve as a hint to the user about the environment type of the company: A round company badge signifies a Production environment, where a square (box) company badge signifies a Sandbox environment.
+
 > [!NOTE]
 > The company switcher was introduced in 2022 release wave 2, version 21. In earlier releases, the company badge isn't used for switching companies. It's shown in the upper-right corner of most pages, even when there's only one company. Selecting it will show the full company name and environment name.
 

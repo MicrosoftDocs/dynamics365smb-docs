@@ -87,7 +87,7 @@ We recommend that users also verify accuracy and correct any discrepancies after
 
 System users, such as accountants, treasurers, or other people who work on business accounting, should always review the accuracy of matches and suggestions that Copilot provides before they choose to keep them. After reconciliation with Copilot, we recommend that these users review the reconciliation test report to verify accuracy and identify any discrepancies.
 
-Administrators should ensure that the appropriate accounting users have been granted access to this capability.
+Administrators should ensure that the appropriate accounting users are granted access to this capability.
 
 ## Is Copilot the only means of completing bank account reconciliation?
 

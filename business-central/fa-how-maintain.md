@@ -76,7 +76,7 @@ You can view statistics to monitor maintenance costs.
 
 Use the **Maintenance Ledger Entries** page to view the entries that make up the amount in the **Maintenance** field.
 
-## To view or print maintenance costs for multiple fixed assets
+## View or print maintenance costs for multiple fixed assets
 
 In the **Maintenance - Analysis** report, you can select to examine maintenance based on one, two, or three maintenance codes for a specific date or period. The report can show the total for all selected assets, or a total for each asset.
 
@@ -92,7 +92,7 @@ You can also explore maintenance costs by viewing the maintenance ledger entries
 2. Select the fixed asset that you want to view ledger entries for, and then choose the **Depreciation Books** action.
 3. On the **FA Depreciation Books** page, select the relevant fixed asset depreciation book, and then choose the **Maintenance Ledger Entries** action.
 
-## To view or print maintenance ledger entries for multiple fixed assets
+## View or print maintenance ledger entries for multiple fixed assets
 
 In the **Maintenance - Details** report, you can view or print maintenance ledger entries for one or many fixed assets.  
 

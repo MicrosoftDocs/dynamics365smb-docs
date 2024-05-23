@@ -72,7 +72,7 @@ The following sections point to key articles that can help you get familiar with
 ## Copilot and AI content
 
 - [Overview](copilot-overview.md)
-- Use
+- Features
   - [Analyze data in lists with Copilot](analysis-assist.md)
   - [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
   - [Chat with Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)

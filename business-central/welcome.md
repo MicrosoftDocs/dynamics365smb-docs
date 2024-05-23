@@ -4,9 +4,8 @@ description: Learn about capabilities and work scenarios in Business Central tha
 author: jswymer
 ms.topic: landing-page
 ms.devlang: al
-ms.date: 05/22/2023
+ms.date: 05/23/2024
 ms.author: jswymer
-
 ms.service: dynamics-365-business-central
 ---
 # Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]

@@ -69,6 +69,22 @@ The following sections point to key articles that can help you get familiar with
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Rules and Guidelines for AL Code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
+## Copilot and AI content
+
+- [Overview](copilot-overview.md)
+- Use
+  - [Analyze data in lists with Copilot](analysis-assist.md)
+  - [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
+  - [Chat with Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+  - [Marketing text suggestions overview](ai-overview.md)
+  - [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
+  - [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
+- Administration
+  - [Configure Copilot and AI capabilities](enable-ai.md)
+  - [Responsible AI FAQs](responsible-ai-overview.md)
+- Development
+  - [Extend Copilot in Business Central](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page)
+
 ## Microsoft Learn training
 
 Find free e-learning content for [!INCLUDE[prod_short](includes/prod_short.md)] at [Microsoft Learn training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).

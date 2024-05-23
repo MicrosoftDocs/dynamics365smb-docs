@@ -1,6 +1,6 @@
 ---
 title: Welcome to Microsoft Dynamics 365 Business Central
-description: Learn about capabilities and work scenarios in Business Central that helps companies manage their business, including finance, manufacturing, sales, shipping, project management, services, and more.
+description: Learn about capabilities and work scenarios in Business Central that help companies manage their business, including finance, manufacturing, sales, shipping, project management, services, and more.
 author: jswymer
 ms.topic: landing-page
 ms.devlang: al
@@ -97,7 +97,7 @@ You can also view videos of new and commonly used capabilities in our video libr
 - [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
 - [Microsoft Dynamics 365 Release Plans](/dynamics365/release-plans/)  
 - [Microsoft Dynamics 365 Business Central Release Planner](https://releaseplans.microsoft.com/?app=Business+Central&group=dynamics-365&subgroup=dynamics-365-business-central) 
-- [Microsoft Partner Network \(requires Microsoft Partner Network membership account\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)  
+- [Microsoft Partner Network \(requires Microsoft Partner Network membership account\)](https://mspartner.microsoft.com)  
 
 ## Get notified about changes through an RSS feed
 
@@ -120,8 +120,8 @@ You can also view videos of new and commonly used capabilities in our video libr
 [What's new and changed](/dynamics365/business-central/dev-itpro/whatsnew/overview)  
 [Major Updates and Minor Updates of Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
 [Dynamics 365 documentation](/dynamics365/)  
-[Dynamics 365 Business Central on microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
-[Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
+[Dynamics 365 Business Central on microsoft.com](https://www.microsoft.com/dynamics-365/products/business-central/)  
+[Explore Dynamics 365 Business Central capabilities](https://www.microsoft.com/en-us/dynamics-365/products/business-central#Features)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 

@@ -3,7 +3,7 @@ title: Display a stockout warning
 description: Learn how to control whether a warning displays when an order quantity exceeds inventory levels for an item.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: soalex
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: trade, sell, configure
 ms.search.form:

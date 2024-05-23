@@ -151,7 +151,7 @@ The extra fields are named *\<field name\> Year*, *\<field name\> Quarter*, and 
 
 You can use pivot mode to analyze large amount of numerical data, subtotaling data by categories and subcategories. The pivot mode is like [pivot tables in Microsoft Excel](https://support.microsoft.com/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576).
 
-To turn the pivot mode on and off, slide the **Pivot mode** switch in the **Columns** pane (3). When you turn on the pivot mode, the **Column labels** area appears in the pane. Use the **Column labels** area to group sum totals for rows into categories. Fields that you add to the **Column labels** area show as columns in the data area (1).
+To turn pivot mode on and off, turn on the **Pivot Mode** toggle on the **Columns** pane (3). When you turn on pivot mode, the **Column labels** area appears in the pane. Use the **Column labels** area to group sum totals for rows into categories. Fields that you add to the **Column labels** area show as columns in the data area (1).
 
 Building out the data analysis in pivot mode involves moving fields into the three areas: **Row groups**, **Columns labels**, and **Values**. The following figure illustrates where the fields map to the data area (1), where `sum` is the calculated data, and optionally **Values**.
 
@@ -225,11 +225,7 @@ To see what your customers owe you, maybe broken down into time intervals for wh
 
 Many of the functional areas in [!INCLUDE[prod_short](includes/prod_short.md)] have articles with ad-hoc data analysis examples.
 
-| If you work with... | See |
-| ------------------- | --- |
-| Finance             | [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) |
-| Sales               | [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md) |
-| Purchasing          | [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md) |
+[!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
 ## Limitations in 2023 release wave 1 (preview)
 

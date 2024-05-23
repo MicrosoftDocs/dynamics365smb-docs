@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 5601, 5600, 5615, 5616, 5617
-ms.date: 04/27/2024
+ms.date: 05/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -17,8 +17,8 @@ ms.custom: bap-template
 Businesses with fixed assets capture a lot of data about them during daily activities. That data supports valuable business intelligence (BI) for fixed assets managers:
 
 - Asset acquisitions
-- Asset deprecations
-- Insurance and repairs
+- Asset deprecation
+- Insurance and maintenance
 - Asset budgets
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you gather, analyze, and share data about your organization's fixed assets:
@@ -30,7 +30,7 @@ Businesses with fixed assets capture a lot of data about them during daily activ
 - Built-in fixed assets reports
 
 > [!NOTE]
-> Analytics for fixed assets is a little different than other areas. You need to analyze data that's already present, such as asset acquisitions, deprecations, and insurance, but also data about future, such as depreciations and asset retirements. For the latter type of analysis, [!INCLUDE[prod_short](includes/prod_short.md)] has built-in reports that can calculate these numbers.
+> Analytics for fixed assets is a little different than other areas. You need to analyze data that's already present, such as asset acquisitions, deprecation, and insurance, but also data about future (projected) data, such as depreciation and asset retirements. For the latter type of analysis, [!INCLUDE[prod_short](includes/prod_short.md)] has built-in reports that can calculate these numbers.
 
 Each feature has its advantages and disadvantages, depending on the type of data analysis and the role of the user. To learn more, go to [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md).
 
@@ -82,18 +82,17 @@ Sometimes, you just need to check whether the numbers add up correctly, or quick
 
 The data analysis feature lets you open almost any list page, such as **General Ledger Entries** or **Fixed Asset Ledger Entries**, enter analysis mode, and then group, filter, and pivot data as you see fit.
 
-:::image type="content" source="media/data-analysis-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries page." lightbox="media/data-analysis-gl-entries.png":::
+:::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Example of how to do data analysis on the FA Ledger Entries page to see asset value." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
 Similarly, you can use the **Open in Excel** action to open a list page for ledger entries, optionally filter the list to a subset of the data, and then use Excel to work with the data. For example, by using features such as Analyze Data, What-If Analysis, or Forecast Sheet.
 
-:::image type="content" source="media/open-in-excel-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries data using Excel." lightbox="media/open-in-excel-gl-entries.png":::
+<!-- :::image type="content" source="media/open-in-excel-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries data using Excel." lightbox="media/open-in-excel-gl-entries.png"::: -->
 
 > [!TIP]
 > If you configure OneDrive for system features, the Excel workbook opens in your browser by using Excel for the web. 
 
-<!-- Not ready yet
-For more information on how to do ad-hoc analysis on ledgers, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md). 
--->
+For more information on how to do ad-hoc analysis on Fixed Assets ledgers, see [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md).
+
 
 ## Built-in reports for fixed assets
 
@@ -115,7 +114,7 @@ For more information about reports that are relevant for fixed assets, see [Buil
 [!INCLUDE [prod_short](includes/prod_short.md)] has several pages that give you fixed assets overviews and tasks to do. Here are some examples to get you started:
 
 - [Calculate depreciation, post depreciation, and analyze depreciation](fa-how-depreciate-amortize.md)
-- [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
+- [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)
 - [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
 - [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 - [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
@@ -129,9 +128,9 @@ The Chart of Accounts page shows all general ledger accounts with aggregated num
 - Review a list of posting groups for that account.
 - View separate debit and credit balances for a single account.
 
-Specifically for fixed assets, you can create a view on the Chart of Accounts page that only shows the accounts you use for posting fixed assets entries.
+Specifically for fixed assets, you can create a view on the Chart of Accounts page that only shows asset accounts, or maybe only the asset accounts you use for posting fixed assets entries.
 
-:::image type="content" source="media/chart-of-accounts-page.png" alt-text="Example of how the Chart of Accounts page shows finance insights" lightbox="media/chart-of-accounts-page.png":::
+:::image type="content" source="media/chart-of-accounts-page-fa.png" alt-text="Example of how the Chart of Accounts page shows finance insights" lightbox="media/chart-of-accounts-page-fa.png":::
 
 To learn more, go to [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts).
 
@@ -148,6 +147,7 @@ To learn more, go to [Analyze Data by Dimensions](bi-how-analyze-data-dimension.
 [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md)  
 [Prepare Financial Reports with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
 [Understand the Chart of Accounts](finance-general-ledger.md#the-chart-of-accounts)  
+[Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)   
 [Built-in fixed assets reports](fa-reports.md)  
 [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

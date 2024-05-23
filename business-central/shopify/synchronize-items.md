@@ -6,7 +6,7 @@ ms.topic: article
 ms.search.form: 30116, 30117, 30126, 30127, 
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.collection:
   - bap-ai-copilot
 ---

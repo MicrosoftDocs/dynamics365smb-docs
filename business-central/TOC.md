@@ -600,7 +600,7 @@ ms.service: dynamics-365-business-central
 #### [Fixed assets analytics overview](fa-analytics-overview.md)
 #### [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)
 #### Built-in fixed assets analytics tools
-##### [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)
 ##### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
 ##### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)

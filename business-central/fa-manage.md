@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: machinery, buildings
 ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
-ms.date: 05/06/2024
+ms.date: 05/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -69,7 +69,7 @@ This section describes the analytical tools you can use to get insights into dat
 | Learn about capabilities for analyzing data about fixed assets. | [Fixed assets analytics overview](fa-analytics-overview.md) |
 | Do ad-hoc analysis of fixed assets data directly on list pages and queries. | [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md) |
 | Explore built-in reports for fixed assets. | [Built-in fixed assets reports](fa-reports.md) |
-| Monitor maintenance costs. | [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)|
+| Monitor maintenance costs. | [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)|
 | Monitor insurance coverage. | [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage) |
 | View disposal ledger entries. | [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | View projected disposal values. | [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
@@ -107,7 +107,7 @@ You can record maintenance costs and the next service date for each asset. Track
 | To  | See |
 | --- | --- |
 | Record service visits, post maintenance costs, and monitor maintenance costs. |[Maintain Fixed Assets](fa-how-maintain.md) |
-| Monitor maintenance costs. | [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)|
+| Monitor maintenance costs. | [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)|
 | Update insurance information, post acquisition costs to insurance policies, modify insurance coverage, view insurance statistics, and list insurance policies. |[Insure Fixed Assets](fa-how-insure.md) |
 | Monitor insurance coverage. | [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage) |
 

@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 5601, 5600, 5615, 5616, 5617
-ms.date: 04/27/2024
+ms.date: 05/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -114,7 +114,7 @@ For more information about reports that are relevant for fixed assets, see [Buil
 [!INCLUDE [prod_short](includes/prod_short.md)] has several pages that give you fixed assets overviews and tasks to do. Here are some examples to get you started:
 
 - [Calculate depreciation, post depreciation, and analyze depreciation](fa-how-depreciate-amortize.md)
-- [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
+- [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)
 - [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
 - [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 - [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)

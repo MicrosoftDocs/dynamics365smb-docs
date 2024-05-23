@@ -111,7 +111,7 @@ To verify that your setup is ready for production, the following steps will help
    2. In the message sent by test user A, select the Details button on the card. If the [!INCLUDE [prod_short](includes/prod_short.md)] client is displayed and is read-only, your setup was successful.
 
 > [!TIP]
-> Something went wrong? Check out [Troubleshoot Access with Microsoft 365 Licenses](admin-access-with-m365-license-troubleshooting.md).
+> Something went wrong? Check out [Business Central troubleshooting](/troubleshoot/dynamics-365/business-central/welcome-business-central).
 
 ## See also
 

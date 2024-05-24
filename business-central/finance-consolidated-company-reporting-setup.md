@@ -99,7 +99,7 @@ You start the **Run Consolidation** batch job from the **Business Units** list p
    * To share data between companies in the same environment, choose **Database**.
    * To share data between companies in different environments, choose **API**, and then fill in the **API's Endpoint** field.
         
-        To get the endpoint URL, in the business unit company's [!INCLUDE [prod_short](includes/prod_short.md)], open the **Business Unit Card** page and choose the **Setup** action. 
+        To get the endpoint URL, in the business unit company's [!INCLUDE [prod_short](includes/prod_short.md)], open the **Consolidation Setup Page** and check the Current environment's API Endpoint field value. 
    * To export an .xml file and manually share it, choose **File Format**.
 
 ### <a name="glacc"></a>Prepare general ledger accounts for consolidation

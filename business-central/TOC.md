@@ -211,6 +211,7 @@ ms.service: dynamics-365-business-central
 ### [Teams FAQ](teams-faq.md)
 ### [Electronic invoice FAQ](faq-electronic-invoicing.yml)
 ### [Minimum requirements](product-requirements.md)
+### [Troubleshooting in Business Central](/troubleshoot/dynamics-365/business-central/welcome-business-central)
 
 ## Help and Support
 ### [Resources for help and support](product-help-and-support.md)

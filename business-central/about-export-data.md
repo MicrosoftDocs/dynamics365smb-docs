@@ -1,22 +1,22 @@
 ---
-title: Export Your Business Central Data to Excel
+title: Export your Business Central data to Excel
 description: You can export your financial reports and business intelligence data from Business Central to Excel, or open your data in Excel.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.search.form: 9901
-ms.date: 04/01/2021
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
+ms.search.form: 9901,
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
-# Export Your Business Data to Excel
+# Export your business data to Excel
 
 Excel is a powerful tool to work with data. From inside [!INCLUDE[prod_short](includes/prod_short.md)], you can open any list in Excel. You can even modify data in Excel and then submit it back to [!INCLUDE [prod_short](includes/prod_short.md)]. The same capability makes it easy for you to take your data with you if you decide to cancel your subscription.
 
 ## Opening Lists in Excel
 
-You can open data in Excel from any journal, list, or worksheet. You just open the page that you want, and then choose **Open in Excel**. For example, open the list of customers (search for **Customers**), and then choose **Open in Excel**. Your browser will prompt you to open or save the generated Excel workbook.  
+You can open data in Excel from any journal, list, or worksheet. You just open the page that you want, and then choose **Open in Excel**. For example, open the list of customers (search for **Customers**), and then choose **Open in Excel**. Your browser prompts you to open or save the generated Excel workbook.  
 
 > [!NOTE]
 > Use this option when you do not want to make changes and publish those changes back to [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -39,7 +39,7 @@ You can export all pages, but that might be more than you really need. So consid
 * Banks  
 * Items  
 
-If you want all your financial transactions as well, it's a large amount of data, so the export will often take more than a few minutes of time. The financial transactions are shown on the **General Ledger Entries** page.  
+If you want to export all your financial transactions, it's a large amount of data, so the export often takes more than a few minutes. The financial transactions are shown on the **General Ledger Entries** page.  
 
 We recommend that you also consider exporting data from the following pages:  
 

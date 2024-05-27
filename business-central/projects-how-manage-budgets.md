@@ -3,7 +3,7 @@ title: Set Up and Manage a Budget for a Project
 description: Describes how to plan resources and forecast and control the costs of a project by setting up a budget for each project.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: project budget, forecast
 ms.search.form: 1002, 1007

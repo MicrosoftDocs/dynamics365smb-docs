@@ -3,7 +3,7 @@ title: How to Reserve Items
 description: Learn about reserving items for sales orders, purchase orders, and production orders.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.search.forms: 498, 497

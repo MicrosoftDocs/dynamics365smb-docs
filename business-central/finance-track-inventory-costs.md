@@ -3,7 +3,7 @@ title: Track item cost adjustments
 description: Learn how tracking adjustments to item costs can help you keep your item cost data accurate.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords:
 ms.search.form:

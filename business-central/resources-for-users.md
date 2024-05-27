@@ -2,9 +2,7 @@
 title: Resources for users
 description: "Resources for users contains a set of resources, services, and tools to use Microsoft Dynamics 365 Business Central."
 author: kennienp
-ms.custom: na
 ms.date: 10/15/2023
-ms.reviewer: na
 ms.topic: conceptual
 ms.author: kepontop
 ms.service: dynamics-365-business-central

@@ -5,7 +5,7 @@ author: altotovi
 ms.topic: conceptual
 ms.search.keywords: local, 1099, tax, IRS, IRIS, FIRE
 ms.search.form: 100136, 10037, 10048, 10050, 10051
-ms.date: 04/04/2024
+ms.date: 05/27/2024
 ms.author: altotovi
 ms.reviewer: solsen
 ms.service: dynamics-365-business-central
@@ -18,7 +18,7 @@ ms.service: dynamics-365-business-central
 > [!IMPORTANT]
 > Before **2024 release wave 2**, the integration functionality via IRS APIs will be ready.  
 
-Once the document is submitted to the IRS via API, the **IRS 1099 Form Document** changes the **Status** to **Submitted**.  
+Once the document is submitted to the IRS via API, the *IRS 1099 Form Document* changes the **Status** to **Submitted**.  
 
 ## To print  
 
@@ -45,7 +45,7 @@ When a form document is created for a specific vendor, the values are inherited 
 
 ### To send emails
 
-If you want to send a 1099 form to a specific vendor, you can do so directly from the selected **1099 Form Document** by selecting the **Send Email** action. But it's also possible to automate this process to send emails for multiple 1099 documents. To do so, open the **IRS 1099 Form Documents** list page, select all documents or specific ones, and then choose the **Send Email** action.  
+If you want to send a 1099 form to a specific vendor, you can do so directly from the selected *1099 Form Document* by selecting the **Send Email** action. But it's also possible to automate this process to send emails for multiple 1099 documents. To do so, open the **IRS 1099 Form Documents** list page, select all documents or specific ones, and then choose the **Send Email** action.  
 
 Once you run the **Send Email** action, you need to select the report type you want to send. You can choose **Copy B** or **Copy 2** (required in some situations). By default, emails are sent to vendors who haven't received them previously. If you want to send emails for all selected documents enable the **Resend Email** option on the request page.
 

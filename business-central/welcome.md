@@ -1,12 +1,11 @@
 ---
 title: Welcome to Microsoft Dynamics 365 Business Central
-description: Learn about capabilities and work scenarios in Business Central that helps companies manage their business, including finance, manufacturing, sales, shipping, project management, services, and more.
+description: Learn about capabilities and work scenarios in Business Central that help companies manage their business, including finance, manufacturing, sales, shipping, project management, services, and more.
 author: jswymer
 ms.topic: landing-page
 ms.devlang: al
-ms.date: 05/22/2023
+ms.date: 05/23/2024
 ms.author: jswymer
-
 ms.service: dynamics-365-business-central
 ---
 # Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]
@@ -70,6 +69,22 @@ The following sections point to key articles that can help you get familiar with
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Rules and Guidelines for AL Code](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
+## Copilot and AI content
+
+- [Overview](copilot-overview.md)
+- Features
+  - [Analyze data in lists with Copilot](analysis-assist.md)
+  - [Reconcile bank accounts with Copilot](bank-reconciliation-with-copilot.md)
+  - [Chat with Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+  - [Marketing text suggestions overview](ai-overview.md)
+  - [Suggest lines on sales orders with Copilot](sales-suggest-sales-lines-with-copilot.md)
+  - [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
+- Administration
+  - [Configure Copilot and AI capabilities](enable-ai.md)
+  - [Responsible AI FAQs](responsible-ai-overview.md)
+- Development
+  - [Extend Copilot in Business Central](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page)
+
 ## Microsoft Learn training
 
 Find free e-learning content for [!INCLUDE[prod_short](includes/prod_short.md)] at [Microsoft Learn training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
@@ -81,8 +96,8 @@ You can also view videos of new and commonly used capabilities in our video libr
 - [Microsoft Dynamics 365 Business Central community forum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
 - [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
 - [Microsoft Dynamics 365 Release Plans](/dynamics365/release-plans/)  
-- [Microsoft Dynamics 365 Business Central Roadmap](https://dynamics.microsoft.com/roadmap/business-central/)  
-- [Microsoft Partner Network \(requires Microsoft Partner Network membership account\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)  
+- [Microsoft Dynamics 365 Business Central Release Planner](https://releaseplans.microsoft.com/?app=Business+Central&group=dynamics-365&subgroup=dynamics-365-business-central) 
+- [Microsoft Partner Network \(requires Microsoft Partner Network membership account\)](https://mspartner.microsoft.com)  
 
 ## Get notified about changes through an RSS feed
 
@@ -105,8 +120,8 @@ You can also view videos of new and commonly used capabilities in our video libr
 [What's new and changed](/dynamics365/business-central/dev-itpro/whatsnew/overview)  
 [Major Updates and Minor Updates of Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
 [Dynamics 365 documentation](/dynamics365/)  
-[Dynamics 365 Business Central on microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
-[Explore Dynamics 365 Business Central capabilities](https://dynamics.microsoft.com/business-central/capabilities/)  
+[Dynamics 365 Business Central on microsoft.com](https://www.microsoft.com/dynamics-365/products/business-central/)  
+[Explore Dynamics 365 Business Central capabilities](https://www.microsoft.com/en-us/dynamics-365/products/business-central#Features)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 

@@ -1,6 +1,6 @@
 ---
     title: Walkthrough - Managing Projects with Projects
-    description: This walkthrough introduces you to the project management features in jobs which allow you to schedule the usage of your company's resources and more.
+    description: This walkthrough introduces you to the project management features in projects which allow you to schedule the usage of your company's resources and more.
     author: brentholtorf
     ms.topic: conceptual
     ms.devlang: al
@@ -214,7 +214,7 @@ In the next procedure, you create a project journal batch for Tricia in order to
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Journals**, and then choose the related link.  
 2. On the **Project Journal** page, in the **Batch Name** field, open the **Project Journals Batches** list. Select the **Tricia** project journal batch.  
 3. Choose the **Calc. Remaining Usage** action.  
-4. On the **Project Calc. Remaining Usage** page, on the **Project Task** FastTab, choose the **Project No.** field, and select the relevant job number, typically job J00010.  
+4. On the **Project Calc. Remaining Usage** page, on the **Project Task** FastTab, choose the **Project No.** field, and select the relevant project number, typically project J00010.  
 5. On the **Options** FastTab, type **J00001** in the **Document No.** field. This makes future tracking of the posting easier.  
 6. Enter today's date as the posting date.  
 7. Choose the **OK** button. This will generate project journal lines based on the planning lines that Prakash created.  
@@ -231,7 +231,7 @@ The lines are now posted.
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
 2.  Select the project that you created earlier, and then choose the **Create project Sales Invoice** action.  
-3.  On the **Project Task** FastTab, clear any filter on **Project Task No.** in order to invoice the job. In the **Project No.** field, select the relevant job.  
+3.  On the **Project Task** FastTab, clear any filter on **Project Task No.** in order to invoice the project. In the **Project No.** field, select the relevant project.  
 4.  On the **Options** FastTab, fill in the posting date and define whether you want to create one invoice per task or just a single invoice for all tasks.  
 5.  Choose the **OK** button to create the invoice and choose the **OK** button on the confirmation page.  
 
@@ -297,7 +297,7 @@ After being added to the schedule for this task line, Tricia works 25 hours on t
 
 3. Choose the **Post** action.  
 
-     A few days later, Tricia works for another 10 hours on the job, and has now worked 35 hours in all. Because the agreement is for 30 hours with the customer, only five of these hours will be charged to the customer. Tricia will manually add the additional five hours worked to the schedule.  
+     A few days later, Tricia works for another 10 hours on the project, and has now worked 35 hours in all. Because the agreement is for 30 hours with the customer, only five of these hours will be charged to the customer. Tricia will manually add the additional five hours worked to the schedule.  
 
 4. On the **Project Journal** page, choose the **Calc. Remaining Usage** action.  
 5. On the **Project Calc. Remaining Usage** page, on the **Options** FastTab, enter the following information:  
@@ -327,7 +327,7 @@ After being added to the schedule for this task line, Tricia works 25 hours on t
 
 9. Choose the **Post** action. Choose the **OK** button to close the page.  
 10. Open the **Projects** list.  
-11. Select the GUILDFORD job, and then, in the **Project Task Lines** section, select line 1120 and in the **Budget (Total Cost)** field, right-click the amount. Choose **DrillDown** to view the information.  
+11. Select the GUILDFORD project, and then, in the **Project Task Lines** section, select line 1120 and in the **Budget (Total Cost)** field, right-click the amount. Choose **DrillDown** to view the information.  
 
      Changes are automatically entered on the line for Project Task No. 1120. In the total cost of scheduled work, five additional hours of work by Tricia has been added to the schedule.  
 
@@ -459,7 +459,7 @@ The following procedures show how to create a new project, set pricing, and then
  [Setting Up Project Management](projects-setup-projects.md)  
  [Use Resources](projects-how-use-resources.md)  
  [Monitor Progress and Performance](projects-how-monitor-progress-performance.md)  
- [Invoice Jobs](projects-how-invoice-jobs.md)  
+ [Invoice Projects](projects-how-invoice-jobs.md)  
  [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

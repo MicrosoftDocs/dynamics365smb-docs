@@ -33,13 +33,13 @@ The following table describes how invoice posting policies affect documents.
 |Document | Option 1: Allow <br>Displays a series of options| Option 2: Prohibited <br>Confirmation dialog | Option 3: Mandatory <br>Confirmation dialog|
 |--|--|--|--|
 |Sales order |- Ship <br>- Invoice <br>- Ship and Invoice |Do you want to post the shipment? |Do you want to post the shipment and invoice?|
-|Sales invoice|No options|Do you want to post the invoice?|Do you want to post the invoice?|
-|Sales credit memo|No options|Do you want to post the credit memo?|Do you want to post the credit memo?|
+|Sales invoice|No options| Posting is prohibited per User Setup|Do you want to post the invoice?|
+|Sales credit memo|No options|Posting is prohibited per User Setup|Do you want to post the credit memo?|
 |Sales return order |- Receive <br>- Invoice <br>- Receive and Invoice |Do you want to post the receipt? |Do you want to post the receipt and invoice?|
 |Inventory pick |- Ship <br>- Ship and Invoice |Do you want to post the shipment? |Do you want to post the shipment and invoice?|
 |Purchase order |- Receive <br>- Invoice <br>- Receive and Invoice |Do you want to post the receipt? |Do you want to post the receipt and invoice?|
-|Purchase invoice|No options|Do you want to post the invoice?|Do you want to post the invoice?|
-|Purchase credit memo|No options|Do you want to post the credit memo?|Do you want to post the credit memo?|
+|Purchase invoice|No options|Posting is prohibited per User Setup|Do you want to post the invoice?|
+|Purchase credit memo|No options|Posting is prohibited per User Setup|Do you want to post the credit memo?|
 |Purchase Return Order |- Ship <br>- Invoice <br>- Ship and Invoice |Do you want to post the shipment? |Do you want to post the shipment and invoice?|
 |Inventory Put-away |- Receive <br>- Receive and Invoice |Do you want to post the receipt? |Do you want to post the receipt and invoice?|
 |Warehouse Shipment |- Ship <br>- Ship and Invoice | Do you want to post the shipment? |Do you want to post the shipment and invoice?|

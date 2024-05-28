@@ -137,7 +137,7 @@ The quantity on a planning line is calculated as follows:
 planning line quantity = current supply quantity – (projected inventory – overflow level)  
 
 > [!NOTE]  
-> For sAs with all warning lines, the maximum and minimum order quantity and order multiple are ignored.  
+> As with all warning lines, the maximum and minimum order quantity and order multiple are ignored.  
 
 #### Defining the action message type  
 

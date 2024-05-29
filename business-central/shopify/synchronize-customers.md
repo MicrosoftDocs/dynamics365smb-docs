@@ -1,13 +1,14 @@
 ---
 title: Synchronize customers and companies
 description: Import customers from or export to Shopify. 
-ms.date: 03/25/2024
-ms.topic: article
-ms.service: dynamics-365-business-central
-ms.search.form: 30105, 30106, 30107, 30108, 30109, 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
+ms.date: 05/25/2024
+ms.topic: article
+ms.service: dynamics-365-business-central
+ms.search.form: 30105, 30106, 30107, 30108, 30109, 
+ms.custom: bap-template
 ---
 
 # Synchronize customers and companies
@@ -56,6 +57,24 @@ You can do the following for each customer using the **Shopify Customer Template
 > [!NOTE]  
 > The country codes are ISO 3166-1 alpha-2 country codes. Learn more at [Country Code](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
+### Populate customer information in Business Central
+
+A customer in Shopify has a first name, family name, email, and/or phone number. A customer might also have multiple addresses that might contain a company and address in addition to their first name, family name, and/or phone number. The following table describes how data from the customer and address is imported into [!INCLUDE[prod_short](../includes/prod_short.md)]. Note that while the customer might have multiple addresses, only one is marked as default and is used to populate fields in [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+|[!INCLUDE[prod_short](../includes/prod_short.md)]|Field when imported from Shopify|
+|------|-----------------|
+|Name| Based on the selection in the **Name Source** field, this field can contain first and last name, or company from the default address. |
+|Name 2|Based on the selection in the **Name 2 Source** field, this field can contain first and last name, or company from the default address. </br>Field is populated only if **Name** already has a value. Otherwise, the extracted value is assigned to the **Name** field. |
+|Contact |Based on the selection in the **Contact Source** field, this field can contain first and last name, or company from the default address. </br>Field is populated only if **Name** already has value. Otherwise, the extracted value is assigned to the **Name** field. |
+|Country / Region Code| Country from the default address. Mapping is done by ISO code.|
+|County | State/Province from the default address. Based on selection in the **State Source** field, it can be a code or description.|
+|Post Code| Zip code from the default address.|
+|City| City from the default address.|
+|Phone| Phone number from the default address. If a phone number isn't defined for the default address, then it's the phone number from the customer.|
+|Email|Email address from the customer.|
+
+The **Tax Area Code**, **Tax Liable**, **VAT Bus. Posting Group** are from the [customer template](#customer-template-per-countryregion). 
+
 ## Important settings when exporting DTC customers to Shopify
 
 You can export existing customers to Shopify in bulk. In each case, a customer and one default address are created. You can manage the process using the following settings:
@@ -89,7 +108,7 @@ A customer in Shopify has a first name, family name, email, and/or phone number.
 |2|**Name 2**|If the **Name 2** field is filled in and the **Name 2 Source** field in the **Shopify Shop Card** contains either the *First Name and Last Name* or *Last Name and First Name* option to define how to split the values.|
 |3|**Name**|Lowest priority, if the **Name** field is filled and the **Name Source** field in the **Shopify Shop Card** contains either the *First Name and Last Name* or *Last Name and First Name* options to define how to split the values.|
 
-A customer in Shopify also has a default address. The address might contain a company and address in addition to their first name, family name, email, and/or phone number. You can populate the **Company** field based on data from the customer card in [!INCLUDE[prod_short](../includes/prod_short.md)].
+A customer in Shopify also has a default address. The address might contain a company and address in addition to their first name, family name, and/or phone number. You can populate the **Company** field based on data from the customer card in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 |Priority|Field in the customer card|Description|
 |------|------|-----------|

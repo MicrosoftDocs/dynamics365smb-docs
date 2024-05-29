@@ -24,6 +24,7 @@ The following fonts are installed and available to use in Excel, Word and RDLC r
  
 * Angsana New
 * AngsanaUPC
+* Aptos
 * Arial
 * Arial Black
 * Bahnschrift

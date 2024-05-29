@@ -309,6 +309,12 @@ There are 10 pieces of item A available on hand and two outstanding sales orders
 |Tuesday|9|Inventory 10 minus sales order set to ship on Monday|
 |Friday|7|Inventory 10 minus both sales orders|
 
+####  Example of calculation of free inventory (not reserved)
+There are 10 pieces of item A available on hand and three outstanding sales orders. One with quantity *One* reserved from item ledger entry, one with quantity *Two* not reserved, and one with quantity *Three* reserved from purcahse order. For this method date of synchronization is not importand.
+|Value used to update stock level|Comment|
+|-----------------|-----------------|
+|9|Inventory 10 minus sales order with reserved inventory from item ledger entry; notice other sales orders are ignored.|
+
 ### Two approaches to manage fulfillments
 
 There are two ways to deal with fulfillment in Shopify:

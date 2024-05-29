@@ -44,6 +44,8 @@ You can schedule the following recurring activities to be performed in an automa
 
 > [!NOTE]
 > Some elements might be updated by several tasks. For example, when you import orders, depending on the setting in the **Shopify Shop Card**, the system may also import and update customer and/or product data. Remember to use the same job queue category to avoid conflicts.
+>
+> Use the **Report Request Page** action to define filters. For example you can specify that you import orders for only when status is *Fully Paid*.
 
 Other tasks that can be helpful to automate further processing of sales documents:
 

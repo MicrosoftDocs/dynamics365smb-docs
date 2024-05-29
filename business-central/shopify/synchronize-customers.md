@@ -1,13 +1,14 @@
 ---
 title: Synchronize customers and companies
 description: Import customers from or export to Shopify. 
-ms.date: 03/25/2024
-ms.topic: article
-ms.service: dynamics-365-business-central
-ms.search.form: 30105, 30106, 30107, 30108, 30109, 
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
+ms.date: 05/25/2024
+ms.topic: article
+ms.service: dynamics-365-business-central
+ms.search.form: 30105, 30106, 30107, 30108, 30109, 
+ms.custom: bap-template
 ---
 
 # Synchronize customers and companies
@@ -58,19 +59,19 @@ You can do the following for each customer using the **Shopify Customer Template
 
 ### Populate customer information in Business Central
 
-A customer in Shopify has a first name, family name, email, and/or phone number. In addition, a customer might also have multiple addresses that might contain a company and address in addition to their first name, family name, and/or phone number. The following table describes how data from customer and address is imported into [!INCLUDE[prod_short](../includes/prod_short.md)]. Note that while customer might have multiple addresses, only one is marked as default and is used to populate fields in [!INCLUDE[prod_short](../includes/prod_short.md)].
+A customer in Shopify has a first name, family name, email, and/or phone number. A customer might also have multiple addresses that might contain a company and address in addition to their first name, family name, and/or phone number. The following table describes how data from the customer and address is imported into [!INCLUDE[prod_short](../includes/prod_short.md)]. Note that while the customer might have multiple addresses, only one is marked as default and is used to populate fields in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 |[!INCLUDE[prod_short](../includes/prod_short.md)]|Field when imported from Shopify|
 |------|-----------------|
-|Name| Based on the selection in the **Name Source** field, can contain first and last name, or company from the default address. |
-|Name 2|Based on the selection in the **Name 2 Source** field, can contain first and last name, or company from the default address. </br>Field populated only if **Name** already has value, otherwise the extracted value will be assigned to the **Name** field instead. |
-|Contact |Based selection in the **Contact Source** field, can contain first and last name, or company from the default address. </br>Field populated only if **Name** already has value, otherwise the extracted value will be assigned to the **Name** field instead. |
-|Country / Region Code| Country from the default address. Notice that mapping is done by ISO code|
-|County | State/Province from the default address. Based on selection in the **State Source** can be code or description.|
-|Post Code| Zip code from the default address|
-|City| City from the default address|
-|Phone| Phone from the default address. If phone for default address is not defined, then phone from the customer.|
-|Email|Email from the customer.|
+|Name| Based on the selection in the **Name Source** field, this field can contain first and last name, or company from the default address. |
+|Name 2|Based on the selection in the **Name 2 Source** field, this field can contain first and last name, or company from the default address. </br>Field is populated only if **Name** already has a value. Otherwise, the extracted value is assigned to the **Name** field. |
+|Contact |Based on the selection in the **Contact Source** field, this field can contain first and last name, or company from the default address. </br>Field is populated only if **Name** already has value. Otherwise, the extracted value is assigned to the **Name** field. |
+|Country / Region Code| Country from the default address. Mapping is done by ISO code.|
+|County | State/Province from the default address. Based on selection in the **State Source** field, it can be a code or description.|
+|Post Code| Zip code from the default address.|
+|City| City from the default address.|
+|Phone| Phone number from the default address. If a phone number isn't defined for the default address, then it's the phone number from the customer.|
+|Email|Email address from the customer.|
 
 The **Tax Area Code**, **Tax Liable**, **VAT Bus. Posting Group** are from the [customer template](#customer-template-per-countryregion). 
 

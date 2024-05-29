@@ -8,6 +8,7 @@ ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 3
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 
 # Synchronize and fulfill sales orders
@@ -52,9 +53,11 @@ Specify a location for returns, and G/L accounts for refunds for goods and other
 
 Learn more at [Returns and refunds](synchronize-orders.md#returns-and-refunds)
 
-#### Time Zone consideration.
-There are several cases when the Connector converts Date Time values received from Shopify to Date in Business Central. The **Document Date** field in orders is one of such fields. 
-Shopify returns Date Time as an ISO 8601-encoded date and time string. For example, 3:50 pm on September 7, 2019 in the time zone of UTC (Coordinated Universal Time) is represented as "2019-09-07T15:50:00Z". If your company time zone is different that might lead to errors in conversions. To prevent that, navigate to the **Company Information** page, locate the **Post Code** field, and verify that the **Time Zone** value of selected post code entry is populated. 
+#### Time zone consideration
+
+There are several cases when the connector converts Date Time values received from Shopify to Date values in [!INCLUDE [prod_short](../includes/prod_short.md)]. The **Document Date** field on orders is one such field.
+
+Shopify returns Date Time values as an ISO 8601-encoded date and time string. For example, 3:50 PM on September 7, 2019 in the time zone of UTC (Coordinated Universal Time) is represented as "2019-09-07T15:50:00Z". If your company time zone is different that might lead to errors in conversions. To prevent that, go to the **Company Information** page, locate the **Post Code** field, and verify that the **Time Zone** value of selected post code entry is populated.
 
 ### Shipment method mapping
 

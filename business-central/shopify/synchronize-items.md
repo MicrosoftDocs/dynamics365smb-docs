@@ -7,6 +7,7 @@ ms.search.form: 30116, 30117, 30126, 30127,
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
 ---
@@ -63,7 +64,7 @@ There are multiple ways to export items to Shopify:
 
 No matter how you export items, specific item information is transferred to the Shopify products list depending on your choice of settings for item synchronization.
 
-Before exporting an item to Shopify, the Connector first checks if an item already exists. First if checks if there is product or variant with barcode, as it is defined in the **Item References** entry of a barcode type. If the **SKU Mapping** field is populated, then connector checks if there is product or variant with SKU populated. Learn more in the [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central) section.
+Before exporting an item to Shopify, the connector checks whether an item already exists. First, it checks whether there is product or variant with a barcode, because it's defined in the **Item References** entry of a barcode type. If the **SKU Mapping** field is populated, the connector checks whether there is a product or variant with the SKU populated. To learn more, go to [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).
 
 > [!IMPORTANT]
 > The product is added only to the **Online Store** sales channel. You need to publish products to other sales channels, like Shopify POS, from Shopify.
@@ -310,10 +311,12 @@ There are 10 pieces of item A available on hand and two outstanding sales orders
 |Friday|7|Inventory 10 minus both sales orders|
 
 ####  Example of calculation of free inventory (not reserved)
-There are 10 pieces of item A available on hand and three outstanding sales orders. One with quantity *One* reserved from item ledger entry, one with quantity *Two* not reserved, and one with quantity *Three* reserved from purcahse order. For this method date of synchronization is not importand.
+
+There are 10 pieces of item A available on hand and three outstanding sales orders. One order with quantity *1* reserved from item ledger entry, one with quantity *2* not reserved, and one with quantity *3* reserved from a purchase order. For this method, the date of synchronization isn't important.
+
 |Value used to update stock level|Comment|
 |-----------------|-----------------|
-|9|Inventory 10 minus sales order with reserved inventory from item ledger entry; notice other sales orders are ignored.|
+|9|Inventory 10 minus the sales order with reserved inventory from item ledger entry. Other sales orders are ignored.|
 
 ### Two approaches to manage fulfillments
 

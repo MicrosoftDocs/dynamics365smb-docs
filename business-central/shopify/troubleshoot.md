@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 05/01/2024
+ms.date: 05/29/2024
 ms.custom: bap-template
 ms.search.form: 30118, 30119, 30120, 30101, 30102 
 ms.service: dynamics-365-business-central
@@ -156,7 +156,7 @@ The user who requested access doesn’t have the rights to manage apps (the abil
 
 ### You need permissions to update Dynamics 365 Business Central. Ask the store owner to update this app. Or contact them for access to: [PERMISSION]
 
-The updated version of the connector requires more permissions (application scopes) and the user who requested access doesn’t have the rights. You may be able to resolve this by installing the app as the account owner. Alternatively, you can check the **App permission** for the user in the [**User and permissions**](https://www.shopify.com/admin/settings/account) settings in your **Shopify admin**. If required permissions - which you can see in the error message - are indeed missing, contact account owner to grant required permissions.
+The updated version of the connector requires more permissions (application scopes) than the user who requested access has. You might be able to resolve this by installing the app as the account owner. Alternatively, you can check the **App permission** for the user in the [**User and permissions**](https://www.shopify.com/admin/settings/account) settings in your **Shopify admin**. If the required permissions are missing, which you can see in the error message, ask the account owner to grant the required permissions.
 
 ### [{"message":"Access denied for FIELD field.","locations":[{"line":0,"column":0}],"path":["path"],"extensions":{"code":"ACCESS_DENIED","documentation":https://shopify.dev/api/usage/access-scopes}}]
 
@@ -166,9 +166,9 @@ Request a new token because the updated version of the connector requires more p
 
 Request a new token because the updated version of the connector requires more permissions (application scopes). To learn more, go to [Request access token](#request-the-access-token).
 
-### The app couldn’t be loaded. This app can’t load due to an issue with browser cookies. Try enabling cookies in your browser, switching to another browser, or contacting the developer to get support.
+### The app couldn’t be loaded. This app can’t load due to an issue with browser cookies. Try enabling cookies in your browser, switching to another browser, or contacting the developer to get support
 
-It seems you tried to get access token multiple times. Check that the browser doesn't blocks the pop-up window, if using Sandbox, [verify permissions to make HTTP requests](#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment).
+It seems that you tried to get an access token multiple times. Make sure that the browser allows pop-ups. If you're using a sandbox environment, [verify permissions to make HTTP requests](#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment).
 
 ## See also
 

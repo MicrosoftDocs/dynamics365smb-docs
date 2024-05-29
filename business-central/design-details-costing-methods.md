@@ -1,5 +1,5 @@
 ---
-title: Design details: costing methods
+title: Design details costing methods
 description: This topic describes how the costing method affects how actual and budgeted values are capitalized and used in the cost calculation.
 author: brentholtorf
 ms.author: bholtorf

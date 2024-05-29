@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 05/29/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
-ms.custom: bap-template
+
 ---
 # Create workflows to connect tasks in business processes
 

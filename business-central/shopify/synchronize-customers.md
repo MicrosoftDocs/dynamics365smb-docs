@@ -56,6 +56,24 @@ You can do the following for each customer using the **Shopify Customer Template
 > [!NOTE]  
 > The country codes are ISO 3166-1 alpha-2 country codes. Learn more at [Country Code](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
+### Populate customer information in Business Central
+
+A customer in Shopify has a first name, family name, email, and/or phone number. In addition, a customer might also have multiple addresses that might contain a company and address in addition to their first name, family name, and/or phone number. The following table describes how data from customer and address is imported into [!INCLUDE[prod_short](../includes/prod_short.md)]. Note that while customer might have multiple addresses, only one is marked as default and is used to populate fields in [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+|[!INCLUDE[prod_short](../includes/prod_short.md)]|Field when imported from Shopify|
+|------|-----------------|
+|Name| Based on the selection in the **Name Source** field, can contain first and last name, or company from the default address. |
+|Name 2|Based on the selection in the **Name 2 Source** field, can contain first and last name, or company from the default address. </br>Field populated only if **Name** already has value, otherwise the extracted value will be assigned to the **Name** field instead. |
+|Contact |Based selection in the **Contact Source** field, can contain first and last name, or company from the default address. </br>Field populated only if **Name** already has value, otherwise the extracted value will be assigned to the **Name** field instead. |
+|Country / Region Code| Country from the default address. Notice that mapping is done by ISO code|
+|County | State/Province from the default address. Based on selection in the **State Source** can be code or description.|
+|Post Code| Zip code from the default address|
+|City| City from the default address|
+|Phone| Phone from the default address. If phone for default address is not defined, then phone from the customer.|
+|Email|Email from the customer.|
+
+The **Tax Area Code**, **Tax Liable**, **VAT Bus. Posting Group** are from the [customer template](#customer-template-per-countryregion). 
+
 ## Important settings when exporting DTC customers to Shopify
 
 You can export existing customers to Shopify in bulk. In each case, a customer and one default address are created. You can manage the process using the following settings:
@@ -89,7 +107,7 @@ A customer in Shopify has a first name, family name, email, and/or phone number.
 |2|**Name 2**|If the **Name 2** field is filled in and the **Name 2 Source** field in the **Shopify Shop Card** contains either the *First Name and Last Name* or *Last Name and First Name* option to define how to split the values.|
 |3|**Name**|Lowest priority, if the **Name** field is filled and the **Name Source** field in the **Shopify Shop Card** contains either the *First Name and Last Name* or *Last Name and First Name* options to define how to split the values.|
 
-A customer in Shopify also has a default address. The address might contain a company and address in addition to their first name, family name, email, and/or phone number. You can populate the **Company** field based on data from the customer card in [!INCLUDE[prod_short](../includes/prod_short.md)].
+A customer in Shopify also has a default address. The address might contain a company and address in addition to their first name, family name, and/or phone number. You can populate the **Company** field based on data from the customer card in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 |Priority|Field in the customer card|Description|
 |------|------|-----------|

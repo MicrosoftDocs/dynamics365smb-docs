@@ -1,18 +1,18 @@
 ---
-title: Record Special Sales Prices and Discounts
+title: Record special sales prices and discounts
 description: Describes how to define pricing and discount agreements for sales documents.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 06/13/2023
+ms.date: 05/29/2024
 ms.custom: bap-template
 ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.service: dynamics-365-business-central
 ---
 
-# Record Special Sales Prices and Discounts
+# Record special sales prices and discounts
 
 > [!NOTE]
 > 2020 release wave 2 introduced new, streamlined processes for setting up and managing prices and discounts. If you're a new customer using the latest version, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update in **Feature Management**. Learn more at [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management) in the administration content.
@@ -51,13 +51,13 @@ For sales discounts, you can set up two types:
 
 These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. If the feature update isn't turned on, follow the steps on the Current Experience tab. 
 
-#### [Current Experience](#tab/current-experience/)
+#### [Current experience](#tab/current-experience/)
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Prices** action.
 3. Fill in the fields on the line as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fill a line for each combination that will grant a special sales price to the customer.
 
-#### [New Experience](#tab/new-experience/)  
+#### [New experience](#tab/new-experience/)  
 
 By default, the status of new price lists is **Draft**. Draft price lists aren't included in price calculations. When you're done adding lines and want to start using the prices, change the status to **Active**.
 
@@ -153,7 +153,7 @@ To add new prices, on the **Prices Overview** page, use the **Add New Lines** ac
 
 These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. If the feature update isn't turned on, follow the steps on the Current Experience tab.
 
-#### [Current Experience](#tab/current-experience/)  
+#### [Current experience](#tab/current-experience/)  
 
 If you want to copy sales prices, such as an individual customer's sales prices to use for a customer price group, you must run the **Suggest Sales Price on Wksh.** batch job on the **Sales Price Worksheet** page.  
 
@@ -167,7 +167,7 @@ If you want to copy sales prices, such as an individual customer's sales prices 
    > [!NOTE]  
    > This batch job only creates suggestions and it does not implement the suggested changes. If you are satisfied with the suggestions and want to implement them, that is insert them on the **Sales Prices** page, choose the **Implement Price Changes** action on the **Sales Price Worksheet** page.
 
-#### [New Experience](#tab/new-experience/)  
+#### [New experience](#tab/new-experience/)  
 
 You can specify the settings that the price list will use:
 
@@ -187,7 +187,7 @@ You can specify the settings that the price list will use:
 
 These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. If the feature update isn't turned on, follow the steps on the Current Experience tab.
 
-#### [Current Experience](#tab/current-experience/)
+#### [Current experience](#tab/current-experience/)
 
 To bulk update item prices, such as increase all prices by a percentage, you can fill in the Sales Price Worksheet page by using the following batch jobs:
 
@@ -212,7 +212,7 @@ To bulk update item prices, such as increase all prices by a percentage, you can
 7. Choose the **OK** button to fill in the lines on the **Sales Price Worksheet** page with the suggested new prices.
 8. To implement the suggestions, use the **Implement Price Changes** action. The batch job creates suggestions but doesn't implement them. 
 
-#### [New Experience](#tab/new-experience/)
+#### [New experience](#tab/new-experience/)
 
 To update prices for multiple items, you must create a new price list, and then copy the lines from an existing price list. When you copy the lines you can use filters to specify what to copy, and you can specify an integer or decimal number in the **Adjustment Factor** field to increase or decrease prices. The price list must be in the **Draft** status. If needed, you can then deactivate the old price list.
 
@@ -274,7 +274,7 @@ For training in discounts in sales, see [Set up discounts for your customers](/t
 
 These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. If the feature update isn't turned on, follow the steps on the Current Experience tab.
 
-#### [Current Experience](#tab/current-experience/)  
+#### [Current experience](#tab/current-experience/)  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the relevant customer card, and then choose the **Line Discounts** action.
@@ -285,7 +285,7 @@ These steps differ, depending on whether your administrator has turned on the **
 >
 > To set up prices or line discounts for all customers, a customer price group, or a campaign, you must open the pages from an item card. Alternatively, for sales prices, use the **Sales Price Worksheet** page. Learn more at [To bulk update item prices](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
-#### [New Experience](#tab/new-experience/)  
+#### [New experience](#tab/new-experience/)  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Choose the customer, and then choose the **Sales Price Lists** action.

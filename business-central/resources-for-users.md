@@ -1,14 +1,16 @@
 ---
 title: Resources for users
-description: "Resources for users contains a set of resources, services, and tools to use Microsoft Dynamics 365 Business Central."
-author: kennienp
-ms.date: 10/15/2023
+description: Resources for users contains a set of resources, services, and tools to use Microsoft Dynamics 365 Business Central.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.date: 05/29/2024
 ms.topic: conceptual
-ms.author: kepontop
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Resources for Users
+# Resources for users
 
 Are you using [!INCLUDE [prod_short](includes/prod_short.md)] and looking for relevant resources? Find everything you need in this article, and remember to bookmark [aka.ms/BCUsers](https://aka.ms/BCUsers).
 
@@ -37,10 +39,9 @@ Are you using [!INCLUDE [prod_short](includes/prod_short.md)] and looking for re
 - Stay tuned about what’s going on in the #MSDyn365BC community: [twitter.com/MSDYN365BC](https://twitter.com/MSDYN365BC) (Use #BCALHelp on X, formerly known as Twitter, for quick hints on how to do things) 
 - Follow us on LinkedIn: [aka.ms/BCLinkedIn](https://aka.ms/BCLinkedIn)
 - Be a part of the community for [!INCLUDE [prod_short](includes/prod_short.md)]: [community.dynamics.com/forums/thread/?partialUrl=business](https://community.dynamics.com/forums/thread/?partialUrl=business) 
-- Blog for IT professionals: [cloudblogs.microsoft.com/dynamics365/it/product/business-central](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)
-- Blog for decision makers: [cloudblogs.microsoft.com/dynamics365/bdm](https://cloudblogs.microsoft.com/dynamics365/bdm)
+- Blog for IT professionals and decision makers: [cloudblogs.microsoft.com/dynamics365/it/product/business-central](https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/product/dynamics-365-business-central/)
 
-## Customer onboarding and resources 
+## Customer onboarding and resources
 
 - Discover all [!INCLUDE [prod_short](includes/prod_short.md)] apps on AppSource: [aka.ms/BCAppSource](https://appsource.microsoft.com/marketplace/apps?page=1&product=dynamics-365-business-central)
 - Get [!INCLUDE [prod_short](includes/prod_short.md)] on your mobile devices: [aka.ms/BusinessCentralApp](https://aka.ms/BusinessCentralApp)

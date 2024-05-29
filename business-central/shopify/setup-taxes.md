@@ -40,9 +40,9 @@ The toggle is typically enabled for the following countries/regions:
 * Switzerland
 * United Kingdom. 
 
-In markets such as these, a price of 100 EUR defined on the product card already contains value-added tax (VAT). The price, including VAT, displays to the customer in the storefront and at checkout.  
+In markets such as these, a price of 100 EUR defined on the product card already contains value-added tax (VAT). The price, including VAT, is displayed to the customer in the storefront and at checkout.  
 
-In the USA and Canada, customers don't expect prices to include tax. Tak is added at checkout, so the **All prices include tax** toggle is usually turned off. In this case, a price $100 defined on the product card is the price without tax. At checkout, taxes are added to the price.
+In the USA and Canada, customers don't expect to see prices with taxes as final tax depends on where products will be shipped. Tax is added at checkout, so the **All prices include tax** toggle is usually turned off. In this case, a price $100 defined on the product card is the price without tax. At checkout, taxes are added to the price.
 
 To support the scenario where **All prices include tax** is selected, in [!INCLUDE[prod_short](../includes/prod_short.md)], fill in the following fields on the **Shopify shop card** page:  
 
@@ -130,6 +130,8 @@ In the following example, the **All prices include tax** toggle is turned on. Th
 |Price displayed in the storefront|1200|1250|
 |Tax rate percentage|20|25|
 |Price at checkout|1200|1250|
+
+Shopify uses the tax rate in the foreign country/region when it calculates final prices.
 
 ### Collect VAT set to micro-business exemption
 

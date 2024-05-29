@@ -63,6 +63,8 @@ There are multiple ways to export items to Shopify:
 
 No matter how you export items, specific item information is transferred to the Shopify products list depending on your choice of settings for item synchronization.
 
+Before exporting an item to Shopify, the Connector first checks if an item already exists. First if checks if there is product or variant with barcode, as it is defined in the **Item References** entry of a barcode type. If the **SKU Mapping** field is populated, then connector checks if there is product or variant with SKU populated. Learn more in the [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central) section.
+
 > [!IMPORTANT]
 > The product is added only to the **Online Store** sales channel. You need to publish products to other sales channels, like Shopify POS, from Shopify.
 
@@ -117,7 +119,7 @@ The following table outlines the effects of the **Barcode** field.
 |------|-----------------|-----------------|
 |Status|According to the **Status for Created Products** field in the **Shopify Shop Card**. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
 |Title | **Description**. If the language code is defined and a corresponding item translation exists, the item translation will be used instead of the description.|**Description**|
-|Variant title | **Variant Code**.|**Description** of variant|
+|Variant title | **Variant Code**.<br>The reason to use **Code** and not **Description** is because Shopify requires unique variant titles per product. In [!INCLUDE[prod_short](../includes/prod_short.md)] the **Code** is unique, while **Description** is not. Not unique descriptions will lead to issues during product export.|**Description** of variant|
 |Description|Combines extended texts, marketing text, and attributes if you enable the corresponding toggles on the Shopify shop card. Respects the language code.|Not used.|
 |SEO page title|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
 |SEO meta description|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
@@ -151,9 +153,9 @@ To enable this capability use the **UoM as Variant** and **Variant Option Name**
 
 **Unit of measure as variant remarks**
 
-* When product imported into [!INCLUDE[prod_short](../includes/prod_short.md)], connector will create units of measure. You will need to update **Qty. per Unit of Measure**.
-* When dealing with matrix of variants, for example Color and UoM and you want to import products, you should set *Item No. + Variant Code* in the **SKU Mapping** field and make sure that **SKU** field in Shopify has same value for all units of measure and include both item no. and variant code.
-* In [!INCLUDE[prod_short](../includes/prod_short.md)] availability is calculated per item/item variant and not by unit of measure. It means same availability will be assigned to each variant representing unit of measure (with respect to **Qty. per Unit of Measure**), that can lead to cases when avaialble quantity in Shopify is not accurate. Example: Item that is sold in PCS and Box of 6. The inventory in [!INCLUDE[prod_short](../includes/prod_short.md)] is 6 PCS. Item exported to Shopify as PRoduct with two variants. Once inventory sync executed the inventory level in Shopify will be 6 for varaint PCS and 1 for variant BOX. Buyer can explore only store and see that product is available in both options and place order for 1 BOX. The next buyer will see that BOX is not avaialble, but there are still 6 PCS. This will be fixed after with next inventory sync.
+* When dealing with matrix of variants, for example Color and UoM and you want to import products into [!INCLUDE[prod_short](../includes/prod_short.md)], you should set *Item No. + Variant Code* in the **SKU Mapping** field and make sure that **SKU** field in Shopify has same value for all units of measure and include both item no. and variant code.
+* In [!INCLUDE[prod_short](../includes/prod_short.md)] availability is calculated per item/item variant and not by unit of measure. It means same availability will be assigned to each variant representing unit of measure (with respect to **Qty. per Unit of Measure**), that can lead to cases when avaialble quantity in Shopify is not accurate. Example: Item that is sold in PCS and Box of 6. The inventory in [!INCLUDE[prod_short](../includes/prod_short.md)] is 6 PCS. Item exported to Shopify as Product with two variants. Once inventory sync executed the inventory level in Shopify will be 6 for varaint PCS and 1 for variant BOX. Buyer can explore only store and see that product is available in both options and place order for 1 BOX. The next buyer will see that BOX is not avaialble, but there are still 6 PCS. This will be fixed with the next inventory sync.
+* You won't be able to add Unit of measure option to existing products with variants (specific result depends on other setting, like **SKU Mapping**).
 
 ### URL and Preview URL
 

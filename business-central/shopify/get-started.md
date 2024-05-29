@@ -64,10 +64,11 @@ Repeat steps 2-6 for all online shops that you want to connect.
 
 - The browser blocks the pop-up window. When you turn on the **Enabled** toggle, [!INCLUDE [prod_short](../includes/prod_short.md)] opens the **Waiting for a response - do not close this page** page while it waits for an access token from Shopify. If that page is closed or blocked, you can't connect to Shopify. Learn more at [Request the access token](troubleshoot.md#request-the-access-token).
 - It might be a good idea to have the Shopify admin open in the same browser as [!INCLUDE [prod_short](../includes/prod_short.md)].
-- [Error: Oauth error invalid_request: Could not find Shopify API application with api_key.](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
-- [Error: Oauth error invalid_request: Your account does not have permission to grant the requested access for this app.](troubleshoot.md#error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app)
-- [Can't connect from sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
+- [Error: Oauth error invalid_request: Could not find Shopify API application with api_key.](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key).
+- [Error: Oauth error invalid_request: Your account does not have permission to grant the requested access for this app.](troubleshoot.md#error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app).
+- [Can't connect from sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment).
 - Make sure you enter the correct URL in the **Shopify URL** field. You can build the URL by combining the store ID from the admin URL. For example, `admin.shopify.com/store/{shop}` and `.myshopify.com` to get `https://{shop}.myshopify.com/`.
+- [The app couldn’t be loaded](troubleshoot.md#the-app-couldnt-be-loaded-this-app-cant-load-due-to-an-issue-with-browser-cookies-try-enabling-cookies-in-your-browser-switching-to-another-browser-or-contacting-the-developer-to-get-support).
 
 ## Next steps
 

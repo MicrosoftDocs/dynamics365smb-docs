@@ -157,6 +157,5 @@ For items using the **Standard** costing method, inventory increases are valued 
 [Finance](finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Glossary of terms in Dynamics 365 business processes](/dynamics365/guidance/business-processes/glossary)  
-[Define product and service costing overview](/dynamics365/guidance/business-processes/product-service-define-cost-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

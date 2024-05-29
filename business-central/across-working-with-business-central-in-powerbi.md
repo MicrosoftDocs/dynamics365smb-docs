@@ -172,6 +172,6 @@ To share a report, in a list reports, or in an open report, select **Share**. In
 ## See also
 
 [Business Central and Power BI](admin-powerbi.md)  
-[Upload report from files](across-working-with-powerbi.md#upload-reports)  
+[Upload reports](across-working-with-business-central-in-powerbi.md#upload-reports)
  
 [!INCLUDE[footer-include](includes/footer-banner.md)]

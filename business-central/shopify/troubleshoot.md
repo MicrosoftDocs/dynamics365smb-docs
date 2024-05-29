@@ -148,7 +148,7 @@ You may have used the [Embed App](/dynamics365/business-central/dev-itpro/deploy
 
 ### Error: Internal Error. Looks like Something Went Wrong on Our End. Request ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
 
-Contact Shopify support within seven days of experiencing this error, and provide the Request ID. To learn more, go to [Support options for Shopify](shopify-faq.md#in-shopify).
+Contact Shopify support within seven days of experiencing this error, and provide the Request ID. To learn more, go to [Shopify](shopify-faq.md#shopify).
 
 ### Error: Oauth error invalid_request: Your account does not have permission to grant the requested access for this app. 
 

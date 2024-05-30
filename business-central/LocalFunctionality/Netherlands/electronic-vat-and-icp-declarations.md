@@ -8,6 +8,7 @@
     ms.date: 12/12/2023
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Submitting electronic VAT and ICP declarations in the Dutch version
 Companies must submit periodic VAT and Intracommunautaire leveringen (ICP) declarations to the tax authorities.  

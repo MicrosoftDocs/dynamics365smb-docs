@@ -2,9 +2,8 @@
 title: Development of validated localization apps
 description: Comply with regulatory requirements in Dynamics 365 Business Central as a Validated Localization App.
 author: altotovi
-ms.custom: na
 ms.date: 04/24/2024
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.author: altotovi
 ---

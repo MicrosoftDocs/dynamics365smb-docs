@@ -1,6 +1,6 @@
 ---
-    title: Walkthrough - Managing Projects with Jobs
-    description: This walkthrough introduces you to the project management features in jobs which allow you to schedule the usage of your company's resources and more.
+    title: Walkthrough - Managing Projects with Projects
+    description: This walkthrough introduces you to the project management features in projects which allow you to schedule the usage of your company's resources and more.
     author: brentholtorf
     ms.topic: conceptual
     ms.devlang: al
@@ -8,6 +8,7 @@
     ms.date: 06/24/2021
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Walkthrough: Managing Projects
 
@@ -36,7 +37,7 @@ This walkthrough introduces you to the project management features. Projects are
 - See how contract and invoice values are determined.  
 - Allow for extra work in the schedule that has not been invoiced.  
 
-### Copying a Job
+### Copying a Project
 
  This part of the walkthrough focuses on how to copy part or all of a project in order to reduce manual data entry and improve accuracy. It includes the following:  
 
@@ -68,7 +69,7 @@ This walkthrough introduces you to the project management features. Projects are
 
 ## Story
 
-This walkthrough focuses on CRONUS, a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of its work is project oriented. Prakash, a project manager at CRONUS uses project to get an overview of each ongoing task that CRONUS has started, as well as the tasks that are completed. Prakash is usually the one who sets up deals with customers and enters the core of the job, which is task and planning lines in addition to prices, into [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[prod_short](includes/prod_short.md)] enables copying projects and payment by installments.
+This walkthrough focuses on CRONUS, a design and consultancy firm that designs and fits new infrastructures, such as conference halls and offices, with furniture, accessories, and storage units. Most of its work is project oriented. Prakash, a project manager at CRONUS uses project to get an overview of each ongoing task that CRONUS has started, as well as the tasks that are completed. Prakash is usually the one who sets up deals with customers and enters the core of the project, which is task and planning lines in addition to prices, into [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[prod_short](includes/prod_short.md)] enables copying projects and payment by installments.
 
  Tricia, a project team member who reports to Prakash, is responsible for monitoring the project day-to-day. Tricia enters her own work in addition to the work performed by technicians on every task, records the items that they have used, and the costs that they have incurred.  
 
@@ -163,7 +164,7 @@ In the next procedure, you create a project journal batch for Tricia in order to
 
 ### To add project tasks  
 
-1.  On the **Job** card for the new job, choose the **Project Task Lines** action.  
+1.  On the **Project** card for the new project, choose the **Project Task Lines** action.  
 2.  The following table describes the information that you should enter in the fields.  
 
     |Project Task No.|Description|Project Task Type|  
@@ -223,14 +224,14 @@ In the next procedure, you create a project journal batch for Tricia in order to
 
 The lines are now posted.  
 
-## Creating and Posting a Job Sales Invoice
+## Creating and Posting a Project Sales Invoice
 
- Next, Tricia can create a new invoice for the whole job or for part of a job. Tricia can also attach the invoice to another invoice for the same customer for the same job. In this case, Tricia invoices for the whole job, because the project is now completed.  
+ Next, Tricia can create a new invoice for the whole project or for part of a project. Tricia can also attach the invoice to another invoice for the same customer for the same project. In this case, Tricia invoices for the whole project because the project is now completed.  
 
-### To create a job sales invoice  
+### To create a Project Sales Invoice  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
-2.  Select the job that you created earlier, and then choose the **Create Job Sales Invoice** action.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
+2.  Select the project that you created earlier, and then choose the **Create project Sales Invoice** action.  
 3.  On the **Project Task** FastTab, clear any filter on **Project Task No.** in order to invoice the job. In the **Project No.** field, select the relevant job.  
 4.  On the **Options** FastTab, fill in the posting date and define whether you want to create one invoice per task or just a single invoice for all tasks.  
 5.  Choose the **OK** button to create the invoice and choose the **OK** button on the confirmation page.  
@@ -245,26 +246,26 @@ The lines are now posted.
 
 ### To view the posted invoice  
 
-1.  Open the job, and then choose the **Project Planning Lines** action.  
+1.  Open the project, and then choose the **Project Planning Lines** action.  
 2.  Select any of the planning lines that have been invoiced, and then choose the **Sales Invoice/Credit Memo** action.
-3. On the **Job Invoices** page, choose the **Open Sales Invoice/Credit Memo** action.  
+3. On the **Project Invoices** page, choose the **Open Sales Invoice/Credit Memo** action.  
 
- Tricia has a question about the prices, costs, and profits that are relevant to this particular job, so Tricia accesses that information on the **Statistics** page.  
+ Tricia has a question about the prices, costs, and profits that are relevant to this particular project, so Tricia accesses that information on the **Statistics** page.  
 
 ### To open the Statistics page  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
-2.  Choose the **Statistics** action. You can review detailed information about the job prices, costs, and profits in both local and foreign currencies.  
-3.  Choose the **Close** button to close the **Job Statistics** page.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
+2.  Choose the **Statistics** action. You can review detailed information about the project prices, costs, and profits in both local and foreign currencies.  
+3.  Choose the **Close** button to close the **Project Statistics** page.  
 
 ## Handling Fixed Prices
 
- CRONUS has been contracted to set up conference rooms. As the project manager, Prakash wants a good overview of the tasks required for the job with the associated budgeted and incurred costs for each task. In addition, Prakash wants to know the total contracted price for the job and the amount that has been invoiced to this point. They have reached an agreement with the customer regarding fixed pricing for the job.  
+ CRONUS has been contracted to set up conference rooms. As the project manager, Prakash wants a good overview of the tasks required for the project with the associated budgeted and incurred costs for each task. In addition, Prakash wants to know the total contracted price for the project and the amount that has been invoiced to this point. They have reached an agreement with the customer regarding fixed pricing for the project.  
 
-### To manage fixed pricing in jobs  
+### To manage fixed pricing in projects  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
-2. Select the **Guildford** job number, and then choose the **Jobs Task Lines** action.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
+2. Select the **Guildford** project number, and then choose the **Project Task Lines** action.  
 3. Select line 1120, and in the **Budget (Total Cost)** field, right-click the amount and choose **DrillDown**.  
 
      By reviewing the Project Planning Lines, it is determined that Prakash will also need Tricia for 30 hours for this stage of the project. Prakash agrees on a fixed price with the customer.  
@@ -279,7 +280,7 @@ The lines are now posted.
 5. In the **Budget (Total Cost)** field, right-click the field, and choose **Drilldown** again on the **Project Task Lines** page. View the changes to the schedule. You see that 30 hours have been added to the schedule.  
 6. Close the pages.  
 
-After being added to the schedule for this task line, Tricia works 25 hours on the job, and enters these hours into the project journal.  
+After being added to the schedule for this task line, Tricia works 25 hours on the project, and enters these hours into the project journal.  
 
 ### To enter hours in a project journal  
 
@@ -314,7 +315,7 @@ After being added to the schedule for this task line, Tricia works 25 hours on t
 
     There are five hours of work remaining for Tricia. The **Line Type** field is blank, which indicates that only the usage remains to be posted because the work has already been scheduled.  
 
-8. In the **Project Journal**, create a new line with the following information. Make sure that both job numbers are sequential with those that you have already used:  
+8. In the **Project Journal**, create a new line with the following information. Make sure that both project numbers are sequential with those that you have already used:  
 
     - **Line Type**: **Budget**  
     - **Project No.**: **Guildford**  
@@ -326,7 +327,7 @@ After being added to the schedule for this task line, Tricia works 25 hours on t
      By using the **Budget** line type, there are updates to the scheduled costs and prices, but no updates to the contract costs and prices that are invoiced to the customer.  
 
 9. Choose the **Post** action. Choose the **OK** button to close the page.  
-10. Open the **Jobs** list.  
+10. Open the **Projects** list.  
 11. Select the GUILDFORD job, and then, in the **Project Task Lines** section, select line 1120 and in the **Budget (Total Cost)** field, right-click the amount. Choose **DrillDown** to view the information.  
 
      Changes are automatically entered on the line for Project Task No. 1120. In the total cost of scheduled work, five additional hours of work by Tricia has been added to the schedule.  
@@ -338,14 +339,14 @@ In the total price for the contract, only the original contracted 30 hours are i
 
 ## Copying projects
 
-Prakash has reached an agreement with a customer, Selagorian Ltd, to set up 10 conference rooms. The agreement resembles an earlier job. Therefore, it will save time to copy that earlier job.  
+Prakash has reached an agreement with a customer, Selagorian Ltd, to set up 10 conference rooms. The agreement resembles an earlier project. Therefore, it will save time to copy that earlier project.  
 
-On the **Copy Project** page, you can select the job and task lines that you want to copy. You can also select to copy the source project ledger entries, which creates planning lines based on actual usage, or you can copy the source project planning lines, which copies the original planning lines to the new job. You can then choose what planning line or ledger entry line type that you want to include, selecting only what is relevant to this new job. Finally, you can select the job that you want to copy to and define whether prices and quantities should be copied as well.  
+On the **Copy Project** page, you can select the project and task lines that you want to copy. You can also select to copy the source project ledger entries, which creates planning lines based on actual usage, or you can copy the source project planning lines, which copies the original planning lines to the new project. You can then choose what planning line or ledger entry line type that you want to include, selecting only what is relevant to this new project. Finally, you can select the project that you want to copy to and define whether prices and quantities should be copied as well.  
 
 ### To copy a project  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Jobs**, and then choose the related link.  
-2. Choose the **New** action to create a new job. Enter the following information:  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
+2. Choose the **New** action to create a new project. Enter the following information:  
 
     - **Description**: **Setting up 10 Conference Rooms**  
     - **Bill-To Customer No.**: **20000**  
@@ -360,9 +361,9 @@ On the **Copy Project** page, you can select the job and task lines that you wan
     - **To Project No.**: **GuildfordSetting up 10 Conference Rooms**  
     - Select the **Copy Dimensions** and **Copy Quantity** fields.  
 
-5. Choose the **OK** button to copy the job, and then choose the **OK** button to close the confirmation page.  
+5. Choose the **OK** button to copy the project, and then choose the **OK** button to close the confirmation page.  
 
-By comparing prices, project task lines, and project planning lines for the two jobs, you can see that the information was successfully copied.  
+By comparing prices, project task lines, and project planning lines for the two projects, you can see that the information was successfully copied.  
 
 ## Making Payments by Installments
 
@@ -375,17 +376,17 @@ CRONUS has just landed a large project that will take a year to be completed. Be
 3. On the **New G/L Account** card, enter the following information:  
 
     - **No.**: **40255**  
-    - **Name**: **Job Payment**  
+    - **Name**: **Project Payment**  
 
 4. On the **Posting** FastTab, in the **Gen. Prod. Posting Group** field, select **Services**. Close the page.  
 5. On the **Chart of Accounts** page, select **No. 40255 Job Payment**, and then choose the **Indent Chart of Accounts** action. Choose **Yes** to confirm.  
 
-The following procedures show how to create a new job, set pricing, and then set up payment by installment. In the project task lines, you can create specific lines dedicated to the payment by installments. All work completed on the job that is added to the schedule will be entered on the usage lines. For each payment task line on the planning lines, the line type is **Billable**, which means that the customer will be invoiced. Enter a new line for the down payment. On the usage task line, you can enter the information for the items and resources that have been used in this project, which will increase the schedule, such as employee hours and items used on the job.  
+The following procedures show how to create a new project, set pricing, and then set up payment by installment. In the project task lines, you can create specific lines dedicated to the payment by installments. All work completed on the project that is added to the schedule will be entered on the usage lines. For each payment task line on the planning lines, the line type is **Billable**, which means that the customer will be invoiced. Enter a new line for the down payment. On the usage task line, you can enter the information for the items and resources that have been used in this project, which will increase the schedule, such as employee hours and items used on the project.  
 
 ### To make a payment by installment  
 
-1. Create a new job.  
-2. On the new **Job** card, fill in the following information:  
+1. Create a new project.  
+2. On the new **Project** card, fill in the following information:  
 
     - **Description**: **Redecoration of Reception Area**  
     - **Bill-to-Customer No.**: **30000**  
@@ -399,7 +400,7 @@ The following procedures show how to create a new job, set pricing, and then set
 
      Close the page.  
 
-4. On the **Job** card, in the **Tasks** section, add project task lines as described in the following table:  
+4. On the **Project** card, in the **Tasks** section, add project task lines as described in the following table:  
 
     | Line | Project Task No. | Description          | Project Task Type |
     |------|--------------|----------------------|---------------|
@@ -451,7 +452,7 @@ The following procedures show how to create a new job, set pricing, and then set
 
 ## Next Steps
 
- This walkthrough has taken you through some of the basic steps of working with jobs in [!INCLUDE[prod_short](includes/prod_short.md)]. You have learned about how to create a new job, how to copy a job, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
+ This walkthrough has taken you through some of the basic steps of working with projects in [!INCLUDE[prod_short](includes/prod_short.md)]. You have learned about how to create a new project, how to copy a project, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
 
 ## See also
 
@@ -459,7 +460,7 @@ The following procedures show how to create a new job, set pricing, and then set
  [Setting Up Project Management](projects-setup-projects.md)  
  [Use Resources](projects-how-use-resources.md)  
  [Monitor Progress and Performance](projects-how-monitor-progress-performance.md)  
- [Invoice Jobs](projects-how-invoice-jobs.md)  
+ [Invoice Projects](projects-how-invoice-jobs.md)  
  [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -8,6 +8,7 @@ ms.date: 09/02/2022
 ms.devlang: al
 ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Receive Items with Warehouse Receipts
 

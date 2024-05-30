@@ -1,5 +1,5 @@
 ---
-    title: Create Routings
+title: Create Routings
     description: This topic gives an overview of the different ways to create routings including prerequisites required and how to create routing links.
     author: brentholtorf
     ms.topic: conceptual
@@ -9,6 +9,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Create Routings
 

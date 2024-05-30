@@ -10,6 +10,7 @@ ms.date: 06/24/2021
 ms.author: soalex
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set Up and Generate DIOT Reports

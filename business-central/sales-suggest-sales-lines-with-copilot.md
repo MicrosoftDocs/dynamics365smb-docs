@@ -3,7 +3,7 @@ title: Suggest sales lines with Copilot
 description: Learn how to suggest lines on sales orders with Copilot.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: Copilot, AI, sell
 ms.search.form:

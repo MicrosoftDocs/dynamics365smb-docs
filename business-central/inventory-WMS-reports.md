@@ -3,7 +3,7 @@ title: Inventory and warehouse reports and analytics
 description: See which inventory and warehouse reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_707, Report_716, Report_813, Report_1001, Report_5807, Report_5808, Report_5809, Report_7313, Report_7319, Report_7320

@@ -3,7 +3,7 @@ title: The VAT Group Management extension for the United Kingdom
 description: You can engage with other businesses to form a VAT group where all members report VAT in a single return.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: soalex
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: VAT, value added tax, report
 ms.search.form: 4700, 4701, 4703, 4704, 4705, 4706, 4707, 4708, 4709, 

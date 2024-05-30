@@ -7,7 +7,7 @@ ms.custom:
 ms.topic: article
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: altotovi
+ms.reviewer: bholtorf
 ms.collection:
   - bap-ai-copilot
 ---

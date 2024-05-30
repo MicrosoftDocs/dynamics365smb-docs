@@ -9,6 +9,7 @@ ms.search.form: 12203, 12204
 ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Automatic Payments and Automatic Bills in the Italian Version
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can manage automatic payments and bills.  

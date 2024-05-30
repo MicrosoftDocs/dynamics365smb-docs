@@ -1,18 +1,17 @@
 ---
-title: Working with Excel Layouts
+title: Working with Excel layouts
 description: Learn how to create and modify report layouts that are built using Excel.
 author: jswymer
-
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 11/10/2022
+ms.date: 05/30/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Working with Microsoft Excel Layouts
+# Working with Microsoft Excel layouts
 
 Microsoft Excel report layouts are based on Excel workbooks (.xlsx files). With them, you can create reports that include familiar Excel features for summarizing, analyzing, and presenting data such as formulas, PivotTables, and PivotCharts.
 
@@ -32,6 +31,9 @@ Benefits of using Excel layouts:
   - [Adding comments and notes](https://support.microsoft.com/office/insert-comments-and-notes-in-excel-65f504d8-160b-4a05-ac30-46fbd5227a52)
   - [Forecasting and analysis](https://support.microsoft.com/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4)
 - Use installed add-ins and app integrations, such as Power Automate flows or OneDrive.
+
+> [!TIP]
+> With OneDrive integration set up, when you run a report with an Excel layout, the Excel workbook file is copied to OneDrive and then opened in Excel online. For more information, see [Save Excel workbooks and report files in OneDrive](./across-onedrive-overview.md#save-excel-workbooks-and-report-files-in-onedrive)
 
 ## Get started
 
@@ -131,14 +133,12 @@ In summary, this is what you should and shouldn't do on the **Data** sheet:
 - You can place the sheets in any order, with the **Data** sheet first or last.
 
 ## See also
-
+[Creating an Excel layout report (developer documentation)](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout?toc=/dynamics365/business-central/toc.json)  
 [Managing Report Layouts](ui-manage-report-layouts.md)  
 [Change the Current Report Layout](ui-how-change-layout-currently-used-report.md)  
-[Import and Export a Custom Report or Document Layout](ui-how-import-and-export-report-layout.md)  
-[Working with Reports, Batch Jobs, and XMLports](ui-work-report.md)  
-[Prepare Financial Reporting with Financial Data and Account Categories](bi-how-work-account-schedule.md)  
-[Business Intelligence](bi.md)  
-[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Import and Export a Custom Report or Document Layout (Legacy)](ui-how-import-and-export-report-layout.md)  
 [Analyzing Report Data with Excel](report-analyze-excel.md)  
+[Working with Reports](ui-work-report.md)  
+[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

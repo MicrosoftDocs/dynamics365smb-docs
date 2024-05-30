@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 11/01/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 Marketing text suggestions are only supported in the following languages and locales:
 

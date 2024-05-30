@@ -3,7 +3,7 @@ title: Set Up Access with Microsoft 365 Licenses
 description: A guide to how administrators can configure access to Business Central with Microsoft 365 licenses. 
 author: mikebc
 ms.author: mikebc 
-ms.reviewer: jswymer 
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central 
 ms.topic: how-to
 ms.date: 09/28/2023

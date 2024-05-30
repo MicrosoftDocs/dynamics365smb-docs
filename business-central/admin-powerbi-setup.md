@@ -8,6 +8,7 @@ ms.date: 01/28/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ms.reviewer: jswymer
 ---
 # Enabling Power BI integration with [!INCLUDE[prod_short](includes/prod_short.md)]
 

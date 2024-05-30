@@ -7,7 +7,7 @@ ms.search.keywords:
 ms.search.form: 315, 466, 467, 468, 469
 ms.date: 04/01/2024
 ms.author: bholtorf
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
 

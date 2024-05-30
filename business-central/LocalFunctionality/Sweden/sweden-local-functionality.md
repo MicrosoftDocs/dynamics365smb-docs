@@ -8,6 +8,7 @@
     ms.date: 06/02/2023
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Sweden Local Functionality in the Swedish Version
 

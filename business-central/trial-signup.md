@@ -7,6 +7,7 @@ ms.custom: template-trial-setup
 ms.author: bholtorf
 ms.date: 01/17/2024
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Sign up for a free Dynamics 365 Business Central trial

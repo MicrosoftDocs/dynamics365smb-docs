@@ -8,6 +8,7 @@ ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 05/25/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Get Ready for Doing Business
 

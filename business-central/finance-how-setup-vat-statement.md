@@ -9,6 +9,7 @@ ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up VAT Statement Templates and VAT Statement Names
 

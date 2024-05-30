@@ -8,6 +8,7 @@ ms.search.form: 39
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Change VAT Setup in Journals
 

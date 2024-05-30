@@ -8,6 +8,7 @@
     ms.date: 11/28/2023
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 
 # Sales returns from registered customers for goods with an overseas place of supply

@@ -5,7 +5,7 @@ author: ACMartinKunes
 ms.topic: conceptual
 ms.search.keywords: Czech, CashDesk, Finance, CZ, Cash, Inventory
 ms.date: 06/17/2021
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-makune
 ms.service: dynamics-365-business-central
 ---

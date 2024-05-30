@@ -3,7 +3,7 @@ title: Currencies in Business Central
 description: Learn how to define your local currency and the foreign currencies that your business uses.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: currencies
 ms.search.form: 5, 118

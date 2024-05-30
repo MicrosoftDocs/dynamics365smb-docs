@@ -5,7 +5,7 @@ author: ACMartinKunes
 ms.topic: conceptual
 ms.search.keywords: Czech, General function, Finance, CZ, Cash
 ms.date: 11/20/2023
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

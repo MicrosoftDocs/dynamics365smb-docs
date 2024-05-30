@@ -10,6 +10,7 @@ ms.search.form: 9650, 9652
 ms.date: 11/10/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Working with Microsoft Excel Layouts
 

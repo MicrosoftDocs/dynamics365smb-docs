@@ -9,6 +9,7 @@ ms.search.form: 6640, 6643, 9307, 9309, 9308, 6652, 145, 147
 ms.date: 03/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Process purchase returns or cancellations
 

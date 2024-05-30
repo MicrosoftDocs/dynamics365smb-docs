@@ -9,6 +9,7 @@
     ms.date: 02/09/2024
     ms.author: soalex
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Switzerland local functionality
 

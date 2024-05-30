@@ -3,7 +3,7 @@ title: Overview of tasks to allocate costs and income
 description: Outlines the tasks to allocate an entry in a recurring general journal to several different accounts when you post the journal.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.form: 283, 5629

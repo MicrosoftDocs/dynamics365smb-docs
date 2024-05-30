@@ -8,6 +8,7 @@
     ms.date: 03/20/2024
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 
 # Setting up service management

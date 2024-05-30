@@ -9,6 +9,7 @@ ms.search.form: 672, 676, 682
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Run Batch Jobs and XMLports
 

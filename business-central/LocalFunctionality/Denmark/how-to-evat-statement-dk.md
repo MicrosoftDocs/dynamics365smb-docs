@@ -10,6 +10,7 @@ ms.date: 04/24/2024
 ms.author: altotovi
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Submit VAT returns electronically

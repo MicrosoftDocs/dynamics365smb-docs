@@ -9,6 +9,7 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 2500, 2502, 20350, 20353
 ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Customizing Business Central online using apps
 

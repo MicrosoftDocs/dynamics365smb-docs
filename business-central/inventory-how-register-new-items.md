@@ -1,61 +1,63 @@
 ---
-title: Create Item Cards for Goods or Services (contains video)
+title: Create item cards for goods or services (contains video)
 description: You create item cards for services that you sell as hours and for physical products. Examples include assembly items and finished goods that you sell from your inventory.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 11/02/2022
-ms.author: bholtorf
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
-# Register New Items
+# Register new items
 
-Items, among other products, are the basis of your business, the goods or services that you trade in. Each item must be registered as an item card.
+Items are the goods or services that you buy, store, sell, deliver, and account for. Use the **Item Card** page to register information about the following types of items:
 
-Item cards hold the information that is required to buy, store, sell, deliver, and account for items.
+* **Inventory** specifies that the item is a physical unit that you manage and track in inventory.
+* **Non-Inventory** are physical units that you don't manage or track in inventory.
+* **Service** items are a labor time unit, typically used in service management.
 
-The item card can be of type **Inventory**, **Service**, or **Non-Inventory** to specify if the item is a physical inventory unit, a labor time unit, or a physical unit that isn't tracked in inventory. For more information, see [About Item Types](inventory-about-item-types.md).
+To learn more about these types of items, go to [About Item Types](inventory-about-item-types.md).
 
-An item can be structured as a parent item with underlying child items in a bill of materials (BOM). Learn more about assembly BOMs and production BOMs at [Work with Bills of Material](inventory-how-work-BOMs.md).
+> [!TIP]
+> There are also catalog items, which are similar to non-inventory items in that they're items that you offer to customers but don't manage until you sell them. To learn more, go to [Work with Catalog Items](inventory-how-work-nonstock-items.md).  
 
-If you purchase the same item from more than one vendor, you can connect those vendors to the item card. The **Item Vendor Catalog** page displays the vendors, so that you can easily select an alternate vendor.
+## Primary and alternate vendors
 
-*Catalog items* are items that you offer to your customers but you don't want to manage them in your system until you start selling them. Catalog items aren't regular items of type **Non-Inventory**. Learn more at [Work with Catalog Items](inventory-how-work-nonstock-items.md).  
+If you purchase the same item from more than one vendor, you can connect those vendors to the item. Use the **Vendors** action on the **Item Card** page to open the **Item Vendor Catalog** page. The page displays the vendors you buy the item from, so you can easily create or select an alternate vendor when you create a purchase order.
 
-> [!NOTE]  
-> If item templates exist for different item types, then a page appears when you create a new item card from where you can select an appropriate template. If only one item template exists, then new item cards always use that template.
+## Use item templates
 
-The following procedure explains how to create an item card from scratch. You can also create new item cards by copying existing ones. For more information, see [Copy Existing Items to Create New Items](inventory-how-copy-items.md).  
+To reuse settings for different types of items when you create new items, you can save items as item templates. Item templates help speed-up the process of adding new items, and increase consistency in your item data. When you register a new item, a page appears that lets you choose a template. After you choose a template, its settings are filled in for you on the item you're creating. If you only have one item template, new items always use that template. To learn how to set up an item template, go to [Save an item card as an item template](#save-an-item-card-as-an-item-template).
 
-<br />
+## Include items in bills of materials
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
+You can structure hierarchies that have a main item with underlying component items in assembly and production bills of materials (BOM). To learn more about BOMs, go to [Work with Bills of Material](inventory-how-work-BOMs.md).
 
 ## To create a new item card
+
+The following video shows how to set up an item on the Item Card page. However, you can also set up new items by copying existing ones. To learn more, go to [Copy Existing Items to Create New Items](inventory-how-copy-items.md).  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 > [!NOTE]
-> In the **Costing Method** field, you set up how the item's unit cost is calculated by making assumptions about the flow of physical items through your company. Five costing methods are available, depending on the type of item. For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).
+> In the **Costing Method** field, you set up how the item's unit cost is calculated by making assumptions about the flow of physical items through your company. Five costing methods are available, depending on the type of item. To learn more about costing, go to [Design Details: Costing Methods](design-details-costing-methods.md).
 >
-> If you select **Average**, then the item's unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** field to view, on the **Average Cost Calc. Overview** page, the history of transactions that the average cost is calculated from.
+> If you select **Average**, the item's unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** field on the **Average Cost Calc. Overview** page to view the transactions that were used to calculate the average cost.
 
-You can view or edit special prices or discounts that you grant, or that your vendor grants you, for the item if certain criteria are met, such as customer, minimum order quantity, or ending date. You do this by choosing the **Set Special Prices** or **Set Special Discounts** actions. Each row on, for example, the **Sales Prices** page represents a special price. Each column represents a criterion that must apply to grant a customer the special price that you enter in the **Unit Price** field on the **Sales Prices** page. For more information, see [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md) or [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+You can use special prices or discounts that you or your vendor grant for the item based on certain criteria. For example, criteria include the customer, minimum order quantity, or ending date. You set up special prices by choosing the **Set Special Prices** or **Set Special Discounts** actions. Each row on, for example, the **Sales Prices** page represents a special price. Each column represents a criterion that must apply to grant a customer the special price that you enter in the **Unit Price** field on the **Sales Prices** page. To learn more about pricing, go to [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md) or [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
-The item is now registered, and the item card is ready to be used on purchase and sales documents.
+### Save an item card as an item template
 
-If you want to use this item card as a template when you create new item cards, you can save it as a template. For more information, see the following section.  
-
-### To save the item card as a template
-
-1. On the **Item Card** page, choose the **Save as Template** action. The **Item Template** page opens showing the item card as a template.
+1. On the **Item Card** page, choose the **Save as Template** action. The **Item Template** page shows the item card as a template.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. To reuse dimensions in templates, choose the **Dimensions** action. The **Dimension Templates** page opens showing any dimension codes that are set up for the item.
-4. Edit or enter dimension codes that apply to new item cards created by using the template.
-5. When you complete the new item template, choose the **OK** button.
+
+> [!TIP]
+> You can also reuse dimensions for items. To reuse dimensions in templates, choose the **Dimensions** action. The **Dimension Templates** page shows the dimensions that are set up for the item. Edit or add dimensions that apply to new items you create from the template.
 
 The item template is added to the list of item templates, so that you can use it to create new item cards.
 

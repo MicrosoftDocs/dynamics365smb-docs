@@ -2,15 +2,16 @@
 title: Australia local functionality
 description: The following articles describe the local functionality in the Australian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords:
-ms.date: 02/08/2024
 ms.author: bholtorf
-ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords:
+ms.date: 05/17/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Australia local functionality
+
 The following articles describe local functionality that is unique to the Australian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## Feature availability
@@ -52,7 +53,7 @@ The following articles describe local functionality that is unique to the Austra
 ## Future legislation requirements being investigated
 
 * ANZ Peppol format for E-Documents **Planned for 2024 release wave 2**  
-* Payment Times Reporting Bill Compliance **Planned for 2024 release wave 2** 
+* Payment Times Reporting Bill Compliance **Planned for 2024 release wave 2**
 * Taxable payments annual report (TPAR) **Under review**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
@@ -63,6 +64,5 @@ If you're aware of any upcoming regulatory features, submit a [Regulatory Featur
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

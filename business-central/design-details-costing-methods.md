@@ -1,18 +1,16 @@
 ---
-    title: Design Details Costing Methods
-    description: This topic describes how the costing method affects how actual and budgeted values are capitalized and used in the cost calculation.
-    author: brentholtorf
-
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 05/12/2023
-    ms.author: bholtorf
-
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: Design details costing methods
+description: This topic describes how the costing method affects how actual and budgeted values are capitalized and used in the cost calculation.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords:
+ms.date: 05/29/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Design Details: Costing Methods
+# Design details: costing methods
 
 The costing method determines whether an actual or a budgeted value is capitalized and used in the cost calculation. Together with the posting date and sequence, the costing method also influences how the cost flow is recorded.
 
@@ -23,17 +21,17 @@ The following methods are supported in [!INCLUDE[prod_short](includes/prod_short
 
 | Costing method | Description | When to use |
 |--|--|--|
-| FIFO | An item's unit cost is the actual value of any receipt of the item, selected by the FIFO rule.<br /><br /> In inventory valuation, it is assumed that the first items placed in inventory are sold first. | In business environments where product cost is stable.<br /><br /> (When prices are rising, the balance sheet shows greater value. This means that tax liabilities increase, but credit scores and the ability to borrow cash improve.)<br /><br /> For items with a limited shelf life, because the oldest goods need to be sold before they pass their sell-by date. |
-| LIFO | An item's unit cost is the actual value of any receipt of the item, selected by the LIFO rule.<br /><br /> In inventory valuation, it is assumed that the last items placed in inventory are sold first. | Disallowed in many countries/regions, as it can be used to depress profit.<br /><br /> (When prices are rising, the value on the income statement decreases. This means that tax liabilities decrease, but the ability to borrow cash deteriorates.) |
-| Average | An item's unit cost is calculated as the average unit cost at each point in time after a purchase.<br /><br /> For inventory valuation, it is assumes that all inventories are sold simultaneously. | In business environments where product cost is unstable.<br /><br /> When inventories are piled or mixed together and cannot be differentiated, such as chemicals. |
+| FIFO | An item's unit cost is the actual value of any receipt of the item, selected by the FIFO rule.<br /><br /> Inventory valuation assumes that the first items placed in inventory are sold first. | In business environments where product cost is stable.<br /><br /> (When prices are rising, the balance sheet shows greater value. This means that tax liabilities increase, but credit scores and the ability to borrow cash improve.)<br /><br /> For items with a limited shelf life, because the oldest goods need to be sold before they pass their sell-by date. |
+| LIFO | An item's unit cost is the actual value of any receipt of the item, selected by the LIFO rule.<br /><br /> Inventory valuation assumes that the last items placed in inventory are sold first. | Disallowed in many countries/regions, as it can be used to depress profit.<br /><br /> (When prices are rising, the value on the income statement decreases. This means that tax liabilities decrease, but the ability to borrow cash deteriorates.) |
+| Average | An item's unit cost is calculated as the average unit cost at each point in time after a purchase.<br /><br /> Inventory valuation assumes that all inventories are sold simultaneously. | In business environments where product cost is unstable.<br /><br /> When inventories are piled or mixed together and can't be differentiated, such as chemicals. |
 | Specific | An item's unit cost is the exact cost at which the particular unit was received. | In production or trade of easily identifiable items with fairly high unit costs.<br /><br /> For items that are subject to regulation.<br /><br /> For items with serial numbers. |
-| Standard | An item's unit cost is preset based on estimated.<br /><br /> When the actual cost is realized later, the standard cost must be adjusted to the actual cost through variance values. | Where cost control is critical.<br /><br /> In repetitive manufacturing, to value the costs of direct material, direct labor, and manufacturing overhead.<br /><br /> Where there is discipline and staff to maintain standards. |
+| Standard | An item's unit cost is preset based on estimated.<br /><br /> When the actual cost is realized later, the standard cost must be adjusted to the actual cost through variance values. | Where cost control is critical.<br /><br /> In repetitive manufacturing, to value the costs of direct material, direct labor, and manufacturing overhead.<br /><br /> Where there's discipline and staff to maintain standards. |
 
 The following image shows how costs flow through the inventory for each costing method.  
 
 ![Costing methods visualized.](media/design_details_inventory_costing_7_costing_methods.png "Costing methods visualized")  
 
-Costing methods differ in the way that they value inventory decreases and if they use actual cost or standard cost as the valuation base. The following table explains the different characteristics. (The LIFO method is excluded, as it is very similar to the FIFO method.)  
+Costing methods differ in the way that they value inventory decreases and if they use actual cost or standard cost as the valuation base. The following table explains the different characteristics. (The LIFO method is excluded, as it's similar to the FIFO method.)  
 <!--Old  table
 |Category|FIFO|Average|Standard|Specific|  
 |-|----------|-------------|--------------|--------------|  
@@ -48,8 +46,8 @@ Costing methods differ in the way that they value inventory decreases and if the
 |-|---------|---------|---------|---------|
 |**FIFO**     |Easy to understand|Application keeps track of **the remaining quantity**.<br /><br /> Adjustment forwards costs according to quantity application. |Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|If you back-date an inventory decrease, then existing entries are NOT reapplied to provide a correct FIFO cost flow.|
 |**Average**     |Based on period options: **Day**/**Week**/**Month**/**Quarter**/**Accounting Period**.<br /><br /> Can be calculated per item or per item/location/variant.|Application keeps track of the **remaining quantity**.<br /><br /> Costs are calculated and forwarded per the **valuation date**. |Revalues invoiced quantity only.<br /><br /> Can be done per item only.<br /><br /> Can be done backward in time. |If you back-date an inventory increase or decrease, then the average cost is recalculated, and all affected entries are adjusted.<br /><br /> If you change the period or calculation type, then all affected entries must be adjusted.|
-|**Standard**     |Easy to use, but requires qualified maintenance.|Application keeps track of the **remaining quantity**.<br /><br /> Application is based on FIFO.|Revalues invoiced and un-invoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Use the **Standard Worksheet** page to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|
-|**Specific**     |Requires item tracking on both inbound and outbound transaction.<br /><br /> Typically used for serialized items.|All applications are fixed.|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|You can use specific item tracking without using the Specific costing method. Then the cost will NOT follow the lot number, but the cost assumption of the selected costing method.|
+|**Standard**     |Easy to use, but requires qualified maintenance.|Application keeps track of the **remaining quantity**.<br /><br /> Application is based on FIFO.|Revalues invoiced and uninvoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Use the **Standard Worksheet** page to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|
+|**Specific**     |Requires item tracking on both inbound and outbound transaction.<br /><br /> Typically used for serialized items.|All applications are fixed.|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|You can use specific item tracking without using the Specific costing method. The cost won't follow the lot number, but the cost assumption of the selected costing method.|
 
 ## Example
 
@@ -139,7 +137,7 @@ For items using the **Standard** costing method, inventory increases are valued 
 
     Costing methods make an assumption about how cost flows from an inventory increase to an inventory decrease. However, if more accurate information about the cost flow exists, then you can override this assumption by creating a fixed application between entries. A fixed application creates a link between an inventory decrease and a specific inventory increase and directs the cost flow accordingly.  
 
-    For items using the **Specific** costing method, inventory decreases are valued according to the inventory increase that it is linked to by the fixed application.  
+    For items that use the **Specific** costing method, inventory decreases are valued according to the inventory increase that the fixed application links it to.  
 
     The following table shows how inventory decreases are valued for the **Specific** costing method.  
 
@@ -159,6 +157,5 @@ For items using the **Standard** costing method, inventory increases are valued 
 [Finance](finance.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Glossary of terms in Dynamics 365 business processes](/dynamics365/guidance/business-processes/glossary)  
-[Define product and service costing overview](/dynamics365/guidance/business-processes/product-service-define-cost-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

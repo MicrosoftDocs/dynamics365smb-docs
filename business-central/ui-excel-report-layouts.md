@@ -1,18 +1,17 @@
 ---
-title: Working with Excel Layouts
+title: Working with Excel layouts
 description: Learn how to create and modify report layouts that are built using Excel.
 author: jswymer
-
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 11/10/2022
+ms.date: 05/30/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Working with Microsoft Excel Layouts
+# Working with Microsoft Excel layouts
 
 Microsoft Excel report layouts are based on Excel workbooks (.xlsx files). With them, you can create reports that include familiar Excel features for summarizing, analyzing, and presenting data such as formulas, PivotTables, and PivotCharts.
 
@@ -34,7 +33,7 @@ Benefits of using Excel layouts:
 - Use installed add-ins and app integrations, such as Power Automate flows or OneDrive.
 
 > [!TIP]
-> With OneDrive integration set up, when running a report with an Excel layout, the Excel workbook file will be copied to OneDrive, and then opened in Excel online. For more information, see [Save Excel workbooks and report files in OneDrive](./across-onedrive-overview.md#save-excel-workbooks-and-report-files-in-onedrive)
+> With OneDrive integration set up, when you run a report with an Excel layout, the Excel workbook file is copied to OneDrive and then opened in Excel online. For more information, see [Save Excel workbooks and report files in OneDrive](./across-onedrive-overview.md#save-excel-workbooks-and-report-files-in-onedrive)
 
 ## Get started
 

@@ -4,7 +4,7 @@ description: See which sustainability reports and analytics are available in the
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_TODO1, Report_TODO2, Report_TODO3
+ms.search.form: Report_6210, Report_6211, Report_6212
 ms.date: 05/17/2024
 ms.author: kepontop
 ms.service: dynamics-365-business-central
@@ -22,7 +22,7 @@ Sustainability reporting gives finance professionals insights and statistics abo
 
 The following articles describe some of the key tasks for analyzing the state of your sustainability efforts:
 
-* TODO
+* [Calculate Emission based on General Ledger](finance-sustainability-journal.md)
 
 ## Explore sustainability reports with Report Explorer
 

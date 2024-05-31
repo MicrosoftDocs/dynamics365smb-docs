@@ -200,7 +200,7 @@ ms.service: dynamics-365-business-central
 #### [Touch and pen gestures](touch-gestures.md)
 ### [Troubleshoot: Access camera and location](ui-troubleshooting-camera-location.md)
 ### [Intelligent insights (online only)](about-intelligent-cloud.md)
-## Frequently Asked Questions
+## Troubleshooting and FAQs
 ### [Frequently Asked Questions](across-faq.yml)
 ### [Chat with Copilot FAQ (preview)](chat-with-copilot-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
@@ -211,6 +211,7 @@ ms.service: dynamics-365-business-central
 ### [Teams FAQ](teams-faq.md)
 ### [Electronic invoice FAQ](faq-electronic-invoicing.yml)
 ### [Minimum requirements](product-requirements.md)
+### [Troubleshooting in Business Central](/troubleshoot/dynamics-365/business-central/welcome-business-central)
 
 ## Help and Support
 ### [Resources for help and support](product-help-and-support.md)

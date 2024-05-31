@@ -10,6 +10,7 @@ ms.author: bholtorf
 ROBOTS: NOINDEX
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # The Dynamics GP Data Migration Extension
 

@@ -9,6 +9,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Set Up Complex Application Areas Using Best Practices
 Entering the correct setup values from the start is important to the success of any new business software.  

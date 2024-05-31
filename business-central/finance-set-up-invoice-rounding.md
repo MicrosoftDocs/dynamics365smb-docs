@@ -8,6 +8,7 @@
     ms.date: 06/16/2021
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Set Up Invoice Rounding
 If you need to round invoice amounts when you create invoices, you can use the automatic rounding function. When an invoice is rounded, an extra line is added with the rounding amount and posted with the other invoice lines.

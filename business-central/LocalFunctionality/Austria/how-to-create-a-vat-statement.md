@@ -9,6 +9,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Create a VAT Statement
 [!INCLUDE[prod_short](../../includes/prod_short.md)] allows you to submit a periodic report of VAT transactions. The VAT statement is submitted as an FDF file that corresponds with an editable PDF file from the tax authorities.  

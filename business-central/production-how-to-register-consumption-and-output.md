@@ -9,6 +9,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Register Consumption and Output for One Released Production order line
 

@@ -9,6 +9,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Design Details: Item Tracking Lines Page
 Item tracking records and reservation records are created in the reservation system, and their availability is calculated dynamically. Data that is entered on the **Item Tracking Lines** page is managed in a temporary version of the **Tracking Specification** table. When the page is closed, the active data is committed to the **Reservation Entry** table and the historic data is committed to the **Tracking Specification** table. For more information, see [Design Details: Active versus Historic Item Tracking Entries](design-details-active-versus-historic-item-tracking-entries.md).  

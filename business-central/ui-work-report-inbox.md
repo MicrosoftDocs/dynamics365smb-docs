@@ -9,6 +9,7 @@ ms.search.form: 680
 ms.date: 08/08/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Share and Export Reports with the Report Inbox
 

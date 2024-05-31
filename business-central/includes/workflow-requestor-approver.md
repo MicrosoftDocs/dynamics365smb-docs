@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 05/30/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 When you set up users for approval workflows, it's important that the same user isn't both a requestor and an approver in a workflow user group. When a user is both a requestor and an approver, approvals work for them as follows:

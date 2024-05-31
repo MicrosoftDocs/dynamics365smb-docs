@@ -12,6 +12,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Setting Up Fixed Asset for Depreciation Calculation
 

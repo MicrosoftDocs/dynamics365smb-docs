@@ -9,6 +9,7 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Fixed Assets Reports and Analytics in Business Central
 

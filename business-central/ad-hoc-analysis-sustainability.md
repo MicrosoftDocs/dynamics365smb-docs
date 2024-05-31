@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.search.keywords: bi, power BI, analysis, KPI
+ms.search.keywords: bi, power BI, analysis, KPI, sustainability, ESG
 ms.search.form: 6220
 ms.date: 05/17/2024
 ms.service: dynamics-365-business-central

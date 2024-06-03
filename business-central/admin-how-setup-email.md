@@ -53,7 +53,7 @@ External users, such as delegated admins and external accountants, can't use the
 > [!NOTE]
 > If you’re using service-to-service (S2S) authentication, the Microsoft 365 and Current user connectors can’t authenticate the user when they send a sales or purchase document by email. When someone sends a document, the following error message displays:
 >
-> “You are not authorized to access this resource: \https://graph.microsoft.com/.default\. Contact your system administrator."
+> “You are not authorized to access this resource: https:\//graph.microsoft.com/.default. Contact your system administrator."
 >
 > The problem is caused by the bound actions on the document APIs that send email. To learn more about the bound actions, go to [Bound Actions](/dynamics365/business-central/dev-itpro/api-reference/v2.0/resources/dynamics_salesinvoice#bound-actions). 
 >

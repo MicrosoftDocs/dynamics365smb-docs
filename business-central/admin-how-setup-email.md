@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.topic: get-started
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 03/04/2024
+ms.date: 06/03/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -46,10 +46,18 @@ The following table describes the email extensions that are available by default
 |**Current User Connector**|Everyone sends email from the account they used to sign in to [!INCLUDE[prod_short](includes/prod_short.md)].|Allow communications from individual accounts.|
 |**SMTP Connector**|Use SMTP protocol to send emails.|Allow communications through your SMTP mail server. |
 
-> [!NOTE]
-> The **Microsoft 365 Connector** and **Current User Connector** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Microsoft 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. Additionally, in sandbox environments, these extensions including **Outlook REST API** extension require that the **Allow HttpClient Requests** setting is enabled. To check whether it is enabled for these extensions, go to the **Extension Management** page, choose the extension, and then choose the **Configure** option.
+The **Microsoft 365 Connector** and **Current User Connector** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Microsoft 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. Additionally, in sandbox environments, these extensions, including the **Outlook REST API** extension, require that the **Allow HttpClient Requests** setting is enabled. To check whether it is enabled for these extensions, go to the **Extension Management** page, choose the extension, and then choose the **Configure** option.
 
-> External users, such as delegated admins and external accountants, cannot use these extensions to send email messages from [!INCLUDE[prod_short](includes/prod_short.md)].
+External users, such as delegated admins and external accountants, can't use these extensions to send email messages from [!INCLUDE[prod_short](includes/prod_short.md)].
+
+> [!NOTE]
+> If you’re using service-to-service (S2S) authentication, the Microsoft 365 and Current user connectors can’t authenticate the user when they send a sales or purchase document by email. When someone sends a document, the following error message displays:
+>
+> “You are not authorized to access this resource: https://graph.microsoft.com/.default. Contact your system administrator."
+>
+> The problem is caused by the bound actions on the document APIs that send email. To learn more about the bound actions, go to [Bound Actions](/dynamics365/business-central/dev-itpro/api-reference/v2.0/resources/dynamics_salesinvoice#bound-actions). 
+>
+> If you want to use S2S authentication and the email features, use the SMTP connector option.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 

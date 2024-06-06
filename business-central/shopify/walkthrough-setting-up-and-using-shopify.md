@@ -258,7 +258,7 @@ In the **Shopify online store**, open the product catalog and find the *ATHENS D
 
 You can configure connector to create and assign catalog for exported Companies automatically. The steps below are useful if you want more precise control of what is available for B2B customers.
 
-In **Shopify Admin**cCreate and assign catalog.
+In **Shopify Admin** Create and assign catalog.
 
 1. Select **Products** and then **Catalogs** in the sidebar of **Shopify admin**.
 2. Create catalog for Specific products. Give in title 'B2B'. 

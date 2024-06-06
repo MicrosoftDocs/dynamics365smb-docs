@@ -8,4 +8,4 @@ ms.reviewer: bholtorf
 ---
 
 > [!NOTE]
-> This feature is currently in preview so that our customers and partners can provide feedback. It'll become a standard feature in 2024 release wave 1. 
+> This feature is available from 2024 release wave 1. You need Shopify Plus subscription. Remember to request access token to get access to B2B features. For more information, see [Request the access token](../../business-central/shopify/troubleshoot.md#request-the-access-token).

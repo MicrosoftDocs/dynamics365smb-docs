@@ -127,6 +127,41 @@ The theme file is available as a json file on Microsoft Power BI Community Theme
 
 After you've downloaded the [!INCLUDE [prod_short](includes/prod_short.md)] report theme, you can import it to your reports. To import the theme, Select the **View** > **Themes** > **Browse for themes**. For more information, see [Power BI Desktop - Import custom report themes](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
+## <a name="advancedopts"></a>Advanced: Customize the language, timeout, database replica or page size for your Business Central data source
+
+The Power BI connector allows you to specify some advanced options when connecting to a Business Central data source. To configure these options, you can follow these steps:
+
+1. Start Power BI Desktop.
+2. In the ribbon, select **Get Data** > **Online Services**.
+3. In the **Online Services** pane, select **Dynamics 365 Business Central**, then **Connect**.
+4. In the **Navigator** window, select the API endpoint that you want to load data from.
+5. Select **Transform Data** instead of **Load** as you might normally do.
+6. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
+7. In the line that starts with **Source =**, locate the following text:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null)
+   ```
+
+8. You can customize one or more of the following options:
+
+   a. **UseReadOnlyReplica** (default: true): Control whether the connection to Business Central will use the more peformant and recommended read-only database replica .
+
+   b. **Timeout** (default: 00:08:00): Sets the timeout for each single API call to Business Central; notice: this cannot be higher than the timeout enforced by Business Central, which is 10 minutes.
+
+   c. **ODataMaxPageSize** (default: 5000): Sets the maximum number of records to return for each page when calling an API. For example, if your table Customers has 13000 records and ODataMaxPageSize is set to 5000, Power BI will make 3 API calls to get your customers (the first will get 5000 records, the next one will get 5000 more, and the last one the remaining 3000). This cannot be higher than the max page size enforced by Business Central, which is 20000.
+
+   d. **AcceptLanguage** (default: not specified): Sets the language in which the Business Central API session will run in. This influences the language of error messages, formatted values in AL, and other values that depend on language or culture.
+
+9. Add a Power Query record with your desired options as the fourth parameter, for example:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = true, Timeout = Duration.From("00:07:00"), ODataMaxPageSize = 10000, AcceptLanguage = "it-it"])
+   ```
+
+8. Select **Done**.
+9. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
+
 ## Publish reports
 
 After you've created or modified a report, you can publish the report to your Power BI service and also share it with others in your organization. Once published, you'll see the report in Power BI. The report also becomes available for selection in [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -150,36 +185,28 @@ There are a couple ways to get reports to your coworkers and others:
 
 ## Fixing problems
 
+### "Expression.Error: The environment 'Production' does not exist." error when specifying a Business Central environment
+
+> **APPLIES TO:** Business Central online
+
+When you connect to Business Central online from Power BI, or when you install a Power BI app from Microsoft AppSource that uses Business Central data, you might be prompted to input the Business Central environment you want to connect to.
+
+If you get an error similar to "Expression.Error: The environment 'Production' does not exist.", follow these steps to troubleshoot:
+
+1. Make sure you are using the right credentials to access Business Central. These might not be the same credentials you use to access Power BI. [How do I change or clear the account I'm currently using to connect to Business Central from Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
+2. If your environment is an embed ISV environment, you need to specify the embed ISV name in parenthesis as part of the environment name. For example, if you want to connect to an environment named Production from the embed ISV named Fabrikam, you will have to specify "PRODUCTION (fabrikam)" as environment name.
+
+
 ### "Can't insert a record. Current connection intent is Read-Only." error connecting to custom API page
 
 > **APPLIES TO:** Business Central online
 
-Starting in February 2022, new reports that use Business Central data will connect to a read-only replica of the Business Central database by default. In rare cases, depending on the page design, you'll get an error when you try to connect to and get data from the page.
-
-1. Start Power BI Desktop.
-2. In the ribbon, select **Get Data** > **Online Services**.
-3. In the **Online Services** pane, select **Dynamics 365 Business Central**, then **Connect**.
-4. In the **Navigator** window, select the API endpoint that you want to load data from.
-5. In the preview pane on the right, you'll see the following error:
+By default, reports that use Business Central data connect to a read-only replica of the Business Central database. In rare cases, depending on the page design, you might get an error when you try to connect to and get data from the page. The error will look like this:
 
    *Dynamics365BusinessCentral: Request failed: The remote server returned an error: (400) Bad Request. (Can't insert a record. Current connection intent is Read-Only. CorrelationId: [...])".*
 
-6. Select **Transform Data** instead of **Load** as you might normally do.
-7. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
-8. In the line that starts with **Source =**, replace the following text:
+If you are using a custom API page, we recommend you rework the page to make sure it does not make database modifications when it's just reading data. But in case your scenario requires it, you can [configure the connector to use a read-write connection instead](/dynamics365/business-central/across-how-use-financials-data-source-powerbi#advancedopts).
 
-   ```
-   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null)
-   ```
-
-   with:
-
-   ```
-   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false])
-   ```
-
-9. Select **Done**.
-10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
 
 ## See Also
 

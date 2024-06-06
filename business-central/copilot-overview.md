@@ -82,7 +82,7 @@ At this time, we can't offer Copilot to customers running ISV Embed apps, becaus
 
 ## How does Copilot approach AI safety? 
 
-Generative AI within Copilot in Business Central aligns with Microsoft's responsible AI principles, including: fairness, reliability, safety, privacy and security, inclusiveness, transparency and accountability. [Learn how each Copilot capability was built responsibly](responsible-ai-overview.md).
+Generative AI within Copilot in Business Central aligns with Microsoft's responsible AI principles, including: fairness, reliability, safety, privacy and security, inclusiveness, transparency and accountability. Learn how each Copilot capability was built responsibly at [Responsible AI FAQs for Dynamics 365 Business Central](responsible-ai-overview.md) and refer to [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json).
 
 ## See also
 

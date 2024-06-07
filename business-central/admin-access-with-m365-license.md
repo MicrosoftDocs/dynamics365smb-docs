@@ -6,12 +6,12 @@ ms.author: mikebc
 ms.reviewer: jswymer 
 ms.service: dynamics-365-business-central
 ms.topic: overview
-ms.date: 11/22/2022
+ms.date: 06/06/2024
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
 ---
 
-# Business Central Access with Microsoft 365 Licenses
+# Business Central access with Microsoft 365 licenses
 
 [!INCLUDE[prod_short](includes/prod_short.md)] users are assigned a Dynamics 365 Business Central license that allows them to view, modify and act on their business data from any user interface. For all other employees across the organization that only need to occasionally view data, Business Central offers access through Microsoft 365.  
 

@@ -14,15 +14,15 @@ ms.search.keywords: copilot, AI, chat
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-These frequently asked questions (FAQ) describe the AI impact of Chat with Copilot in [!INCLUDE[prod_short](includes/prod_short.md)]. If you're inetersted in general questions about using the feature, go to [FAQ for chat with Copilot](chat-with-copilot-faq.md).
+These frequently asked questions (FAQ) describe the AI impact of Chat with Copilot in [!INCLUDE[prod_short](includes/prod_short.md)]. If you're inetersted in general questions about using the feature, see [FAQ for chat with Copilot](chat-with-copilot-faq.md).
 
 ## What is Chat with Copilot?
 
-Microsoft Copilot is the AI-powered assistant that helps spark creativity, boost productivity, and eliminate tedious tasks. You can chat with Copilot in Business Central to answer questions and find business data by expressing what you're looking for in natural language.
+Microsoft Copilot is an AI-powered assistant that helps you be more creative, productive, and efficient. You can chat with Copilot in Business Central to get answers and insights about [!INCLUDE[prod_short](includes/prod_short.md)] and your business data by typing what you want to know in natural language.
 
-Chat with Copilot, also referred as chat, is an interactive feature that answers questions and finds business data related to [!INCLUDE[prod_short](includes/prod_short.md)], without users having to navigate the user interface or the product documentation. The Copilot pane is available from anywhere in the [!INCLUDE[prod_short](includes/prod_short.md)] client.
+Chat with Copilot, also called as chat, is an interactive feature that answers your questions without requiring you to navigate the user interface or the product documentation. The Copilot pane is available from anywhere in the [!INCLUDE[prod_short](includes/prod_short.md)] client.
 
-Users ask questions in natural language, like "How do I deliver goods to my customers directly from my vendors?" or "Do we have any office chairs in stock for under $600?" In response, Copilot provides answers in natural language. Depending on the questions, answers can include plain text, links to records or pages in [!INCLUDE[prod_short](includes/prod_short.md)], and links to [!INCLUDE[prod_short](includes/prod_short.md)] help articles on Microsoft Learn.
+You can ask questions in natural language, like "How do I deliver goods to my customers directly from my vendors?" or "Do we have any office chairs in stock for under $600?" In response, Copilot provides answers in natural language. Depending on the questions, answers can include plain text, links to records or pages in [!INCLUDE[prod_short](includes/prod_short.md)], and links to [!INCLUDE[prod_short](includes/prod_short.md)] help articles on Microsoft Learn.
 
 ## What are capabilities of Chat with Copilot?
 
@@ -38,39 +38,43 @@ Users can ask Copilot to explain a specific concept related to [!INCLUDE[prod_sh
 
 ### Find business data and related pages
 
-Users can ask Copilot to locate pages by name or ask for records based on their fields and constraints. If Copilot finds a match, it responds with a link to the relevant record or page, which the user then can select to open.
+You can ask Copilot to locate pages by name or ask for records based on their fields and constraints. If Copilot finds a match, it responds with a link to the relevant record or page, which you can then can select to open.
 
 - Copilot converts the natural language input into a query consisting of a table search, sort, and filter criteria.
 
-  The capability uses the [!INCLUDE[prod_short](includes/prod_short.md)]'s native data search capabilities to find matching data from tables within the companies database. The search runs under the user's own identity for security and compliance. It doesn't search outside of the [!INCLUDE[prod_short](includes/prod_short.md)] database.
+  The capability uses the [!INCLUDE[prod_short](includes/prod_short.md)]'s native data search capabilities to find matching data from tables within the companies database. The search runs under the your own identity for security and compliance. It doesn't search outside of the [!INCLUDE[prod_short](includes/prod_short.md)] database.
 
 - Copilot doesn't take action, create new data, or modify any configuration. It only summarizes the records received from the [!INCLUDE[prod_short](includes/prod_short.md)] native data search. 
 
 ## What is the intended use of Chat with Copilot?
 
-Chat is designed for enterprise use and answering questions that pertain to [!INCLUDE[prod_short](includes/prod_short.md)] and the business data it contains. The feature empowers people to solve common tasks such as finding records or getting guidance by expressing themselves in their own words, making it easier and more accessible to work with [!INCLUDE[prod_short](includes/prod_short.md)].
+Chat is designed for enterprise use and answering questions that relate to [!INCLUDE[prod_short](includes/prod_short.md)] and the business data it contains. The feature helps you solve common tasks such as finding records or getting guidance by expressing yourself in your own words, making it easier and more accessible to work with [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## How was Chat with Copilot evaluated? What metrics are used to measure performance?
 
 - The feature underwent extensive testing during which numerous English language texts covering a broad range of topics and styles of expressing intent were given to Copilot. The outcomes were evaluated against accuracy, relevance, and safety.
+  
 - The feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft](https://aka.ms/RAI).
 
 ## How does Microsoft monitor the quality of generated content?
 
 Microsoft has various systems in place to ensure that content generated by Copilot is of the highest quality, detect abuse, and ensure safety for our customers and their data.
 
-Users have the opportunity to provide feedback to every Copilot response and report inaccurate or inappropriate content to help Microsoft improve this feature. 
+You can provide feedback to every Copilot response and report inaccurate or inappropriate content to help Microsoft improve this feature. 
 
-- You provide feedback by using the like (thumbs up) or dislike (thumbs down) icon on the **Copilot** pane in [!INCLUDE[prod_short](includes/prod_short.md)].
-- We analyze and utilize user feedback on the feature to help us improve responses.
+- You can provide feedback by using the like (thumbs up) or dislike (thumbs down) icon on the **Copilot** pane in [!INCLUDE[prod_short](includes/prod_short.md)].
+  
+- We analyze and utilize your feedback on the feature to help us improve responses.
+  
 - If you encounter inappropriate generated content, report it to Microsoft by using this feedback form: [Report abuse](https://go.microsoft.com/fwlink/?linkid=2249810).
-- Microsoft might disable the Copilot-driven features for selected customers if abuse of the functionality is detected.
+  
+- Microsoft may disable the Copilot-driven features for selected customers if abuse of the functionality is detected.
 
 ## What are the limitations of Chat with Copilot? How can users minimize the impact of the Chat with Copilot limitations when using the system?
 
 - General limitations of AI
 
-  AI systems are valuable tools but they're nondeterministic. The content they generate may not be completely accurate. So, it's important to use your judgment to review and verify responses Copilot before making decisions that could affect stakeholders like customers and partners. For most responses, Copilot will also include citations or reference links that you can use to quickly verify whether Copilot has come to the correct answer. For example, when asked how to perform some task, Copilot includes links to the source article. When asked to find a record based on specific criteria, Copilot includes links that describe the list page it identified as the topic of conversation, as well as any filters or sorting that was applied to reach an answer.
+  AI systems are valuable tools but they're nondeterministic. The content they generate may not be completely accurate. So, it's important to use your judgment to review and verify responses Copilot before making decisions that could affect stakeholders like customers and partners. For most responses, Copilot also includes citations or reference links that you can use to quickly verify whether Copilot has come to the correct answer. For example, when asked how to perform some task, Copilot includes links to the source article. When asked to find a record based on specific criteria, Copilot includes links that describe the list page it identified as the topic of conversation, as well as any filters or sorting that was applied to reach an answer.
 
 - Language limitations
 
@@ -80,7 +84,7 @@ Users have the opportunity to provide feedback to every Copilot response and rep
 
   - The quality of answers can be lower under the following conditions:
     - The language locale is something other than en-US.
-    - When the language setting for the user in [!INCLUDE[prod_short](includes/prod_short.md)] differs from the primary language of the data in the [!INCLUDE[prod_short](includes/prod_short.md)] database.
+    - The language setting for the user in [!INCLUDE[prod_short](includes/prod_short.md)] differs from the primary language of the data in the [!INCLUDE[prod_short](includes/prod_short.md)] database.
 
 - Specific industry, product, and topic limitations
 
@@ -100,5 +104,5 @@ For users with SUPER permission, chat can more easily locate unsecured data that
 
 ## See also
 
-[Chat with Copilot (preview)](chat-with-copilot.md)
+- [Chat with Copilot (preview)](chat-with-copilot.md)
 

@@ -22,20 +22,11 @@ This article explains how to use the *analysis assist* to help you analyze data 
 
 Analysis assist is a Copilot for the [analysis mode](analysis-mode.md) on list pages in Business Central. The analysis mode provides an interactive and versatile way to calculate, summarize, and examine data. To analyze data in the analysis mode, you create an *analysis* tab where you transform the data to display the desired aggregations and summarizations. For example, you arrange fields in rows and columns, specify filters, sort columns, and pivot on fields. With analysis assist, instead of doing this task manually, you achieve much of the same&mdash;or least as a start&mdash;by using words. By expressing the structure you want in natural language, like "sort on quantity from smallest to largest" or "show average cost per category", analysis assist uses AI to generate a suggested layout on an analysis tab.
 
-
-<!-- 
-
- However, the data analysis mode requires some understanding of how to structure fields to meet the desired aggregations and summarizations. It requires you to move fields around to the appropriate areas within analysis mode pane which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals. Analysis assist minimizes these requirments by enabling you to express the desired layout in words. , like "group which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals
---> 
 ## Prerequisites
 
 - Analysis assist capability is activated and you're granted permissions to use it. This task is typically done by an admin. [Learn more about configuring Copilot and AI capabilities](enable-ai.md).
 - The display language in Business Central is set to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn more about changing the language](ui-change-basic-settings.md#language).
 - Your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).
-
-<!--
-> [!NOTE]
-> You may notice some list pages that don't include the **Analyze** switch for changing to the analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.-->
 
 ## Get started
 

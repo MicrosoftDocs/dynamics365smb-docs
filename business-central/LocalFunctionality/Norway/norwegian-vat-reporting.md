@@ -111,7 +111,9 @@ To update the electronic VAT setup for the use of the new ID-porten system, plea
 2. On the **Electronic VAT Setup** page, select the **General** FastTab, and then update the following values:
 
    1. In the **Authentication URL** field, specify 'https://idporten.no' 
-   2. In the **Login URL** field, specify 'https://login.idporten.no'  
+   2. In the **Login URL** field, specify 'https://login.idporten.no'
+  
+   ** Note:  The login cannot be opened from a bookmark or a link.**
 
 3. Close the page.
 

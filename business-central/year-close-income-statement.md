@@ -8,6 +8,7 @@ ms.date: 02/22/2024
 ms.author: jswymer
 
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Closing income statement accounts
 

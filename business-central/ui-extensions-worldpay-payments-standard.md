@@ -8,6 +8,7 @@ ms.search.form: 1360, 1361, 1364,
 ms.date: 12/11/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # The WorldPay Payments Standard extension
 

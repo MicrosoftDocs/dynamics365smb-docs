@@ -9,6 +9,7 @@ ms.search.form: 9511
 ms.date: 06/14/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Viewing Database Locks
 

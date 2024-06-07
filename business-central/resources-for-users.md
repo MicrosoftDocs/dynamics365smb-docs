@@ -1,20 +1,22 @@
 ---
 title: Resources for users
-description: "Resources for users contains a set of resources, services, and tools to use Microsoft Dynamics 365 Business Central."
-author: kennienp
-ms.date: 10/15/2023
+description: Resources for users are a set of resources, services, and tools for using Business Central.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.date: 05/29/2024
 ms.topic: conceptual
-ms.author: kepontop
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Resources for Users
+# Resources for users
 
 Are you using [!INCLUDE [prod_short](includes/prod_short.md)] and looking for relevant resources? Find everything you need in this article, and remember to bookmark [aka.ms/BCUsers](https://aka.ms/BCUsers).
 
 ## Hot topics right now
 
-- Register for the [!INCLUDE [prod_short](includes/prod_short.md)] Launch Event on [aka.ms/BCLE](https://aka.ms/BCLE)
+Register for the [!INCLUDE [prod_short](includes/prod_short.md)] Launch Event on [aka.ms/BCLE](https://aka.ms/BCLE).
 
 ## Latest release and updates  
 
@@ -24,36 +26,35 @@ Are you using [!INCLUDE [prod_short](includes/prod_short.md)] and looking for re
 - Missing a feature? Post or vote for ideas on: [aka.ms/BCIdeas](https://aka.ms/BCIdeas) 
 - Where is [!INCLUDE [prod_short](includes/prod_short.md)] available? [aka.ms/BCCountries](https://aka.ms/BCCountries)
 - Read the capability guide for [!INCLUDE [prod_short](includes/prod_short.md)]: [aka.ms/BCcapabilities](https://aka.ms/BCcapabilities)
-- Still on-premises? Learn more at [Software Lifecycle Policy and Dynamics 365 Business Central On-Premises Updates](/dynamics365/business-central/dev-itpro/terms/lifecycle-policy-on-premises)
+- Still on-premises? Learn more at [Software Lifecycle Policy and Dynamics 365 Business Central on-premises Updates](/dynamics365/business-central/dev-itpro/terms/lifecycle-policy-on-premises)
 - Alert Microsoft about an upcoming regulatory feature: [aka.ms/BCAlerts](https://aka.ms/BCAlerts)
 - Optional features that are now mandatory: [aka.ms/BCFeatureMgmt](https://aka.ms/BCFeatureMgmt)
 
 ## Stay up to date on what's new
 
-- Watch the [!INCLUDE [prod_short](includes/prod_short.md)] Launch Event sessions: [aka.ms/BCLE](https://aka.ms/BCLE) 
+- Watch the [!INCLUDE [prod_short](includes/prod_short.md)] Launch Event sessions: [aka.ms/BCLE](https://aka.ms/BCLE).
 
 ## Social and blogs
 
 - Stay tuned about what’s going on in the #MSDyn365BC community: [twitter.com/MSDYN365BC](https://twitter.com/MSDYN365BC) (Use #BCALHelp on X, formerly known as Twitter, for quick hints on how to do things) 
 - Follow us on LinkedIn: [aka.ms/BCLinkedIn](https://aka.ms/BCLinkedIn)
 - Be a part of the community for [!INCLUDE [prod_short](includes/prod_short.md)]: [community.dynamics.com/forums/thread/?partialUrl=business](https://community.dynamics.com/forums/thread/?partialUrl=business) 
-- Blog for IT professionals: [cloudblogs.microsoft.com/dynamics365/it/product/business-central](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)
-- Blog for decision makers: [cloudblogs.microsoft.com/dynamics365/bdm](https://cloudblogs.microsoft.com/dynamics365/bdm)
+- Visit our blog for IT professionals and decision makers: [cloudblogs.microsoft.com/dynamics365/it/product/business-central](https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/product/dynamics-365-business-central/)
 
-## Customer onboarding and resources 
+## Customer onboarding and resources
 
 - Discover all [!INCLUDE [prod_short](includes/prod_short.md)] apps on AppSource: [aka.ms/BCAppSource](https://appsource.microsoft.com/marketplace/apps?page=1&product=dynamics-365-business-central)
 - Get [!INCLUDE [prod_short](includes/prod_short.md)] on your mobile devices: [aka.ms/BusinessCentralApp](https://aka.ms/BusinessCentralApp)
 - Get the [!INCLUDE [prod_short](includes/prod_short.md)] installable app on your desktop: [aka.ms/BCPWA](https://aka.ms/BCPWA)
 - Learn about onboarding experiences in [!INCLUDE [prod_short](includes/prod_short.md)]: [aka.ms/BCOnboarding](https://aka.ms/bconboarding)
-- Productivity tips: [aka.ms/BCProductivity](https://aka.ms/BCProductivity) 
-- Keyboard shortcuts: [aka.ms/BCKeys](https://aka.ms/BCKeys)
+- Find productivity tips: [aka.ms/BCProductivity](https://aka.ms/BCProductivity) 
+- Learn about keyboard shortcuts: [aka.ms/BCKeys](https://aka.ms/BCKeys)
 
 ## Reporting and business intelligence
 
 - Get started with reporting: [aka.ms/BCReporting](https://aka.ms/BCReporting)
-- Excel layout samples: [aka.ms/BCExcelSamples](https://aka.ms/BCExcelSamples)
-- [!INCLUDE [prod_short](includes/prod_short.md)] and Power BI: [aka.ms/BCPBI](https://aka.ms/BCPBI)
+- Find sample Excel layouts: [aka.ms/BCExcelSamples](https://aka.ms/BCExcelSamples)
+- Explore [!INCLUDE [prod_short](includes/prod_short.md)] and Power BI: [aka.ms/BCPBI](https://aka.ms/BCPBI)
 
 ## Power Platform
 
@@ -70,7 +71,7 @@ Are you using [!INCLUDE [prod_short](includes/prod_short.md)] and looking for re
 
 - App performance documentation: [aka.ms/BCPerformance](https://aka.ms/BCPerformance)
 - Telemetry documentation: [aka.ms/BCTelemetry](https://aka.ms/BCTelemetry) 
-- Analyze environment telemetry data with Power BI: [aka.ms/BCTelemetryReport](https://aka.ms/BCTelemetryReport) 
+- Environment telemetry data and Power BI: [aka.ms/BCTelemetryReport](https://aka.ms/BCTelemetryReport) 
 
 ## Security, privacy, and compliance
 

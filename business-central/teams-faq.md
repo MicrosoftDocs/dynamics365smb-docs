@@ -8,6 +8,7 @@ ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365
 ms.date: 09/28/2022
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Teams FAQ
 

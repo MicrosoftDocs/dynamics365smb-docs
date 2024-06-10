@@ -1,6 +1,6 @@
 ---
 title: Resources for help and support
-description: Find product Help, guidance, troubleshooting tips, and assistance, and learn how to get technical support for Business Central.
+description: Learn how to get help and support for Business Central, including chat with Copilot, in-product tips, Help pane, Help & Support page, product documentation, and community forums.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -27,11 +27,11 @@ Organizations that use [!INCLUDE[prod_long](includes/prod_long.md)] can get tech
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-Chat with Copilot is an AI-powered tool that answers questions and finds business data related to Business Central. It's available from any page by selecting the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon in the upper-right corner. [Learn more about chat with Copilot](chat-with-copilot.md).
+Chat with Copilot is an AI-powered tool that answers questions and finds business data related to Business Central. You can access it from any page by selecting the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon in the upper-right corner. [Learn more about chat with Copilot](chat-with-copilot.md).
 
 ### Help with fields
 
-Copilot can help you understand the purpose and typical use of individual fields. When you choose **Ask Copilot** in a tooltip for a field, chat opens with an Explain prompt for the field name and Copilot provides information about it. Copilot links to the articles it referenced, so it's easy to verify the description.
+Copilot can help you understand the purpose and typical use of individual fields. When you choose **Ask Copilot** in a tooltip for a field, chat opens with an Explain prompt for the field name and Copilot provides information about it. Copilot links to the articles it referenced, so you can verify the description.
 
 ## In-product tips
 
@@ -48,7 +48,7 @@ In [!INCLUDE [prod_short](includes/prod_short.md)], the Help menu item (the ques
 The following list describes how you can access the Help pane and whether cards are added to it:
 
 - Choose the Help menu item (the question mark in the top-right corner)
-- Use the <kbd>Ctrl</kbd>+<kbd>F1</kbd> keyboard shortcut from anywhe
+- Use the <kbd>Ctrl</kbd>+<kbd>F1</kbd> keyboard shortcut from anywhere in Business Central.
 - Choose the *Learn more* link on a tooltip for a field, if available. The *Learn more* link is only available in the mobile app or on custom fields (that is, fields from non-Mocrosoft extensions) in the web client.
 
 > [!TIP]
@@ -83,7 +83,7 @@ This section outlines the resources available to you in the different sections o
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-### Find Answers
+### Find answers
 
 The **Find it** section provides links to the most common places to find answers to your questions. The links fall into four categories and are explained in the following subsections. Your [!INCLUDE[prod_short](includes/prod_short.md)] partner can configure some of the links, and as a result the behavior can be slightly different.  
 
@@ -196,7 +196,7 @@ The local functionality content describes the capabilities in [!INCLUDE [prod_sh
 > [!TIP]
 > On the learn.microsoft.com site as well as in the in-product search field and in the Help pane, the search results show some context for the target article. The context includes the link that might show the name of a country, or a short description that calls out a certain capability or a country, for example.
 
-### Finding other content
+### Find other content
 
 If you land on an article that doesn't answer your question, you can find other content in two ways on Microsoft Learn:
 
@@ -204,7 +204,7 @@ If you land on an article that doesn't answer your question, you can find other 
 
   This way, you can filter by words used in the titles of the various articles. For example, type *invoice*, and then choose one of the offered links, such as [Set Up Invoice Rounding](finance-set-up-invoice-rounding.md) or [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md).  
 
-  Underneath each link,  you can see where that article is in the table of contents. That way, you can easily see if the article is in the Purchasing section or in the section for Australian local functionality, for example.  
+  Underneath each link, you can see where that article is in the table of contents. That way, you can easily see if the article is in the Purchasing section or in the section for Australian local functionality, for example.  
 - Use the **Search** field in the top-right corner of the website
 
   This way, you can search for any term. The site will then search all the content for that term or expression. Search for *invoice* again, and scroll through the list of hundreds of articles in the [!INCLUDE [prod_short](includes/prod_short.md)] content that uses that word somewhere in the text.  
@@ -232,7 +232,7 @@ We welcome your contributions, both as pull requests with suggestions or correct
 > [!IMPORTANT]
 > Microsoft accepts pull requests to the *dynamics365smb-docs* repo only, not the language-specific repos. If you have feedback about translations, you can report a GitHub issue in the relevant repo.  
 
-### Navigating to other parts of the site
+### Navigate to other parts of the site
 
 Microsoft Learn hosts content for other products and other types of content. Use the links at the top of the site to navigate to [Microsoft training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) site or to the [Dynamics 365 release plans](/dynamics365/release-plans/), for example. You can also find a link to the
 [Dynamics 365 Community](https://community.dynamics.com/) site, for example.  
@@ -243,17 +243,17 @@ If your [!INCLUDE [prod_short](includes/prod_short.md)] includes functionality t
 
 The same applies if you use [!INCLUDE [prod_short](includes/prod_short.md)] on-premises.  
 
-## See Also
+## See also
 
-[Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
-[Business Central Quick Starts](quick-start-business-central.md)  
-[How do I find a reselling partner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
-[Help System (available in English only)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
-[Leave us feedback](/dynamics365/get-started/feedback)  
-[Blog post: Find the right resources and provide feedback](https://community.dynamics.com/blogs/post/?postid=22e164ac-b804-4ac9-9e57-3e8c4fd24cbd)  
-[Business Central developer and administration docs](/dynamics365/business-central/dev-itpro/)  
-[Resources for Help and Support for Partners](/dynamics365/business-central/dev-itpro/help-and-support)  
-[Technical Support](/dynamics365/business-central/dev-itpro/technical-support)  
-[Microsoft Learn site](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+- [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+- [Business Central Quick Starts](quick-start-business-central.md)  
+- [How do I find a reselling partner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
+- [Help System (available in English only)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
+- [Leave us feedback](/dynamics365/get-started/feedback)  
+- [Blog post: Find the right resources and provide feedback](https://community.dynamics.com/blogs/post/?postid=22e164ac-b804-4ac9-9e57-3e8c4fd24cbd)  
+- [Business Central developer and administration docs](/dynamics365/business-central/dev-itpro/)  
+- [Resources for Help and Support for Partners](/dynamics365/business-central/dev-itpro/help-and-support)  
+- [Technical Support](/dynamics365/business-central/dev-itpro/technical-support)  
+- [Microsoft Learn site](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

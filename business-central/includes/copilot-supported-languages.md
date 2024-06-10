@@ -1,12 +1,12 @@
 ---
 author: jswymer
 ms.topic: include
-ms.date: 11/01/2023
+ms.date: 06/10/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-Marketing text suggestions are only supported in the following languages and locales:
+Copilot works with all display languages in Business Central, but only the following languages are fully supported currently. You can still use other languages, but results might be less accurate and reliable. 
 
 |Language|Locales|
 |-|-|

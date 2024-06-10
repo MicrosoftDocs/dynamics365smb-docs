@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/06/2024
+ms.date: 06/10/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -31,12 +31,13 @@ Copilot is designed to save you time and help you write creative and engaging te
 ### Prerequisites
 
 - Marketing text suggestions feature is activated on your environment. This task is typically done by an admin. For more information, go to [Configure Copilot and AI capabilities](enable-ai.md).
-- You're using one of the languages currently supported by the marketing text suggestions.
+<!-- - You're using one of the languages currently supported by the marketing text suggestions.
 
-  [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
-
-  To change the language, in the upper-right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
+  To change the language, in the upper-right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).-->
 - Review the [FAQ for marketing text suggestions](faqs-marketing-text.md) to learn how AI is applied.
+
+> [!NOTE]
+> Copilot works with all display languages in Business Central, but only some languages are currently fully supported. You can still use other languages, but results might be less accurate and reliable. For a list of supported languages, refer to [FAQ for marketing text suggestions with Copilot](faqs-marketing-text.md#what-are-the-limitations-of-includefeature-marketing-text-suggestions-how-can-users-minimize-the-impact-of-the-includefeature-marketing-text-suggestions-limitations-when-using-the-system). [Learn how to change the language](ui-change-basic-settings.md#language).
 
 ### Create first draft with Copilot
 

@@ -1,7 +1,7 @@
 ---
 title: FAQs for analysis assist (preview)
 description: This FAQ provides information about the AI technology used for analyzing data on pages in Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 02/13/2024
+ms.date: 06/10/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -61,17 +61,15 @@ Users have the opportunity to provide feedback to every Copilot response and rep
 
 - Language and geographical limitations:
 
-  - Analysis assist is only supported in English for the following locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA.
-
-    If the display language in Business Central isn't one of the listed locales, the feature isn't available.
+  - Copilot works with all display languages in Business Central, but only English in the following locales is currently fully supported: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA.
 
   - The quality of answers can be lower if:
-    - The language locale in Business Central is something other than en-US.
+    - The language locale in Business Central is something other than English.
     - The language setting for the user in Business Central differs from the primary language of the business data in the [!INCLUDE[prod_short](includes/prod_short.md)] database.
   
   - Geographical limitation:
   
-    The feature is available in all supported [Business Central countries/regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) except for Canada, due to regulatory language compliance. However, the feature uses Microsoft Azure OpenAI Service, which is currently available for Business Central in some geographies. If your environment is located in a country/region where Azure OpenAI Service isn't available, administrators must allow data to move across geographies. [Learn more](/dynamics365/business-central/ai-copilot-data-movement).
+    The feature is available in all supported [Business Central countries/regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). However, the feature uses Microsoft Azure OpenAI Service, which is currently available for Business Central in some geographies. If your environment is located in a country/region where Azure OpenAI Service isn't available, administrators must allow data to move across geographies. [Learn more](/dynamics365/business-central/ai-copilot-data-movement).
 
 - Certain industry, product, and subject limitations:
 

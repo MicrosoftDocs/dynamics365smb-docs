@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 04/10/2024
+ms.date: 06/10/2024
 ms.custom: bap-template 
 ---
 
@@ -25,10 +25,8 @@ In the initial release of the **e-document** app, we introduced fundamental scen
 
 You can now update an existing purchase order in Business Central with the information received in the e-invoice.
 
-<!--
 > [!NOTE]
-> - This feature is available as a production-ready preview for production and sandbox environments in any country localization, with the exception of Canada. Production-ready previews are subject to supplemental terms of use. For more information, see [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274).
-> - AI-generated content may be incorrect.-->
+> Copilot works with all display languages in Business Central, but only English is currently fully supported. You can still use other languages, but results might be less accurate and reliable. [Learn how to change the language](ui-change-basic-settings.md#language).
 
 ## To activate Copilot  
 

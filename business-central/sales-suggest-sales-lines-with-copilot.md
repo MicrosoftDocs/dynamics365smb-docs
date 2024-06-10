@@ -38,7 +38,9 @@ Sales line suggestion with Copilot can assist with creating lines on sales docum
 * Sales line suggestion with Copilot is enabled and activated by an administrator. To learn more about how to enable AI capabilities, go to [Configure Copilot and AI capabilities](enable-ai.md).
 * You're familiar with creating sales orders.
 
-## Geographic availability
+## Language and Geographic availability
+
+Copilot works with all display languages in Business Central, but only English is currently fully supported. You can still use other languages, but results might be less accurate and reliable. [Learn how to change the language](ui-change-basic-settings.md#language).
 
 The following table shows the Microsoft Azure geographic areas in which his feature is available.
 

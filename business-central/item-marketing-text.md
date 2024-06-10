@@ -37,7 +37,9 @@ Copilot is designed to save you time and help you write creative and engaging te
 - Review the [FAQ for marketing text suggestions](faqs-marketing-text.md) to learn how AI is applied.
 
 > [!NOTE]
-> Copilot works with all display languages in Business Central, but only some languages are currently fully supported. You can still use other languages, but results might be less accurate and reliable. For a list of supported languages, refer to [FAQ for marketing text suggestions with Copilot](faqs-marketing-text.md#what-are-the-limitations-of-includefeature-marketing-text-suggestions-how-can-users-minimize-the-impact-of-the-includefeature-marketing-text-suggestions-limitations-when-using-the-system). [Learn how to change the language](ui-change-basic-settings.md#language).
+> Copilot works with all display languages in Business Central, but only some languages are currently fully supported. You can still use other languages, but results might be less accurate and reliable. For a list of supported languages, refer to [FAQ for marketing text suggestions with Copilot](faqs-marketing-text.md#what-are-the-limitations-of-includefeature-marketing-text-suggestions-how-can-users-minimize-the-impact-of-the-includefeature-marketing-text-suggestions-limitations-when-using-the-system).
+>
+> [Learn how to change the language](ui-change-basic-settings.md#language).
 
 ### Create first draft with Copilot
 

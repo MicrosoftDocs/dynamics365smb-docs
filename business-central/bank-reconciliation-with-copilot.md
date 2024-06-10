@@ -42,13 +42,11 @@ Bank account reconciliation assist is a set of AI-powered features that assist y
 - Bank accounts in Business Central that you want to reconcile are linked to an online bank account or set up with bank statement import format. 
 - You're familiar with bank account reconciliation in Business Central as described in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md). 
 
-
 > [!NOTE]
-> Copilot works with all display languages in Business Central, but only some languages are currently fully supported. You can still use other languages, but results might be less accurate and reliable. For a list of supported languages, refer to [FAQ for bank account reconciliation assist with Copilot](faqs-bank-reconciliation.md#what-are-the-limitations-of-bank-reconciliation-assist-how-can-users-minimize-the-impact-of-the-bank-reconciliation-limitations-when-using-the-system). [Learn how to change the language](ui-change-basic-settings.md#language).
+> Copilot works with all display languages in Business Central, but only some languages are currently fully supported. You can still use other languages, but results might be less accurate and reliable. For a list of supported languages, refer to [FAQ for bank account reconciliation assist with Copilot](faqs-bank-reconciliation.md#what-are-the-limitations-of-bank-reconciliation-assist-how-can-users-minimize-the-impact-of-the-bank-reconciliation-limitations-when-using-the-system).
+>
+> [Learn how to change the language](ui-change-basic-settings.md#language).
 
-
-
-<!--H2s. Required. A how-to article explains how to do a task. The bulk of each H2 should be a procedure.-->
 ## Reconcile bank accounts with Copilot
 
 <!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, Bank account reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while Bank account reconciliation assist is based AI technology though Copilot. Bank account reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where Bank account reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->

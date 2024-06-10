@@ -5,7 +5,7 @@
     ms.topic: conceptual
     ms.devlang: al
     ms.search.keywords:
-    ms.date: 02/09/2024
+    ms.date: 06/10/2024
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
@@ -61,10 +61,10 @@ The following articles describe local functionality that is unique to the Italia
 
 ## Future legislation requirements being investigated
 
-* Fiscal Blacklist for Vendors **Planned for 24.4**
-* Allow Calc and Post VAT Settlement to be posted by Activity code **Planned for 24.4**
+* Fiscal restrictions for vendors **Planned for 24.4**
+* Allow Calc and Post VAT Settlement to be posted by Activity Code **Planned for 24.4**
 * Redesigned and upgraded non-deductible VAT **Planned for 2025 release wave 1**  
-* Updated Electronic invoicing with new E-documents framework (SDI) **Planned for 2025 release wave 1**  
+* Updated electronic invoicing with new e-documents framework (SDI) **Planned for 2025 release wave 1**  
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

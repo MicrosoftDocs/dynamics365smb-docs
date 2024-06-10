@@ -51,7 +51,27 @@ This functionality was tested using combinations of synthetic bank transaction d
 
 Bank account reconciliation assist performs best when G/L account names, ledger entry descriptions, and bank transaction descriptions are all in the same language. Mixed languages or mixed language of transaction descriptions often result in fewer matches and suggestions. 
 
-Suggested ledger accounts performs best in English language. While this feature can be operated in any of the available [!INCLUDE[prod_short](includes/prod_short.md)] languages, users might experience fewer transaction matches and fewer suggested ledger accounts in other languages. 
+Suggested ledger accounts performs best in one of the following supported languages. While this feature can be operated in any of the available [!INCLUDE[prod_short](includes/prod_short.md)] languages, users might experience fewer transaction matches and fewer suggested ledger accounts in other languages.
+
+- Czech
+- English
+- Finnish
+- French
+- German
+- Greek
+- Danish
+- Dutch
+- Italian
+- Japanese
+- Korean
+- Polish
+- Portuguese (Brazil)
+- Russian
+- Spanish
+- Swedish
+- Thai
+- Turkish
+
 <!--
 
 ## What operational factors and settings allow for effective and responsible use of the feature?

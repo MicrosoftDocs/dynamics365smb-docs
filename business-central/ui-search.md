@@ -1,5 +1,5 @@
 ---
-title: Finding Pages and Information (contains video)
+title: Finding Pages and Information
 description: This article describes how to use search to find actions, pages, reports, documentation, and data, and other apps and consulting services.
 author: brentholtorf
 ms.topic: conceptual

@@ -1,5 +1,5 @@
 ---
-title: Set Up Payment Methods (contains video)
+title: Set Up Payment Methods
 description: You use payment methods, for example, check, bank transfer, cash, or PayPal, to define how sales and purchase invoices will be paid.
 author: brentholtorf
 ms.topic: conceptual

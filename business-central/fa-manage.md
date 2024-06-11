@@ -1,5 +1,5 @@
 ---
-title: Manage fixed assets (contains video)
+title: Manage fixed assets
 description: Learn about the fixed assets functionality and get an overview of how to work with and manage your fixed assets.
 author: brentholtorf
 ms.author: bholtorf

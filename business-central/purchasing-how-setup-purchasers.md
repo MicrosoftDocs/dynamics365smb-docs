@@ -1,5 +1,5 @@
 ---
-title: Set Up Purchasers and Assign Purchasers to Vendors (contains video)
+title: Set Up Purchasers and Assign Purchasers to Vendors
 description: If several purchasers, or purchasing agents, work at your company, you can organize them for statistical analysis.
 author: brentholtorf
 ms.topic: conceptual

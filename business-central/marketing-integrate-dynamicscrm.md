@@ -1,5 +1,5 @@
 ---
-title: Manage Customers Using Dynamics 365 Sales(contains video) | Microsoft Docs
+title: Manage Customers Using Dynamics 365 Sales | Microsoft Docs
 description: You can use Dynamics 365 Sales from inside Business Central with seamless integration and synchronization in the lead-to-cash process.
 documentationcenter: ''
 author: brentholtorf

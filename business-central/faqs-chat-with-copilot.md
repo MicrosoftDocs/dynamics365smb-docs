@@ -14,7 +14,7 @@ ms.search.keywords: copilot, AI, chat
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-These frequently asked questions (FAQ) describe the AI impact of Chat with Copilot in [!INCLUDE[prod_short](includes/prod_short.md)]. If you're inetersted in general questions about using the feature, see [FAQ for chat with Copilot](chat-with-copilot-faq.md).
+These frequently asked questions (FAQ) describe the AI impact of Chat with Copilot in [!INCLUDE[prod_short](includes/prod_short.md)]. If you're intrested in general questions about using the feature, see [FAQ for chat with Copilot](chat-with-copilot-faq.md).
 
 ## What is Chat with Copilot?
 
@@ -42,13 +42,13 @@ You can ask Copilot to locate pages by name or ask for records based on their fi
 
 - Copilot converts the natural language input into a query consisting of a table search, sort, and filter criteria.
 
-  The capability uses the [!INCLUDE[prod_short](includes/prod_short.md)]'s native data search capabilities to find matching data from tables within the companies database. The search runs under the your own identity for security and compliance. It doesn't search outside of the [!INCLUDE[prod_short](includes/prod_short.md)] database.
+  The capability uses the [!INCLUDE[prod_short](includes/prod_short.md)]'s native data search capabilities to find matching data from tables within the companies database. The search runs under your own identity for security and compliance. It doesn't search outside of the [!INCLUDE[prod_short](includes/prod_short.md)] database.
 
 - Copilot doesn't take action, create new data, or modify any configuration. It only summarizes the records received from the [!INCLUDE[prod_short](includes/prod_short.md)] native data search. 
 
 ## What is the intended use of Chat with Copilot?
 
-Chat is designed for enterprise use and answering questions that relate to [!INCLUDE[prod_short](includes/prod_short.md)] and the business data it contains. The feature helps you solve common tasks such as finding records or getting guidance by expressing yourself in your own words, making it easier and more accessible to work with [!INCLUDE[prod_short](includes/prod_short.md)].
+Chat is designed for enterprise use and answering questions that relate to [!INCLUDE[prod_short](includes/prod_short.md)] and the business data it contains. The feature helps you solve common tasks such as finding records or getting guidance. You can express yourself in your own words, making your work easier and more accessible when working with [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## How was Chat with Copilot evaluated? What metrics are used to measure performance?
 
@@ -68,19 +68,19 @@ You can provide feedback to every Copilot response and report inaccurate or inap
   
 - If you encounter inappropriate generated content, report it to Microsoft by using this feedback form: [Report abuse](https://go.microsoft.com/fwlink/?linkid=2249810).
   
-- Microsoft may disable the Copilot-driven features for selected customers if abuse of the functionality is detected.
+- Microsoft might disable the Copilot-driven features for selected customers if abuse of the functionality is detected.
 
 ## What are the limitations of Chat with Copilot? How can users minimize the impact of the Chat with Copilot limitations when using the system?
 
 - General limitations of AI
 
-  AI systems are valuable tools but they're nondeterministic. The content they generate may not be completely accurate. So, it's important to use your judgment to review and verify responses Copilot before making decisions that could affect stakeholders like customers and partners. For most responses, Copilot also includes citations or reference links that you can use to quickly verify whether Copilot has come to the correct answer. For example, when asked how to perform some task, Copilot includes links to the source article. When asked to find a record based on specific criteria, Copilot includes links that describe the list page it identified as the topic of conversation, as well as any filters or sorting that was applied to reach an answer.
+  AI systems are valuable tools but they're nondeterministic. The content they generate might not be accurate. So, it's important to use your judgment to review and verify responses Copilot before making decisions that could affect stakeholders like customers and partners. For most responses, Copilot also includes citations or reference links that you can use to quickly verify whether Copilot has come to the correct answer. For example, when asked how to perform some task, Copilot includes links to the source article. When asked to find a record based on specific criteria, Copilot includes links that describe the list page it identified as the topic of conversation. It also provides information about any filters or sorting that was applied to reach an answer.
 
 - Language limitations
 
   - Chat is only supported in English for the following locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA.
 
-    If the display language in [!INCLUDE[prod_short](includes/prod_short.md)] isn't one of the these locales, chat isn't available.
+    If the display language in [!INCLUDE[prod_short](includes/prod_short.md)] isn't one of these locales, chat isn't available.
 
   - The quality of answers can be lower under the following conditions:
     - The language locale is something other than en-US.
@@ -88,7 +88,7 @@ You can provide feedback to every Copilot response and report inaccurate or inap
 
 - Specific industry, product, and topic limitations
 
-   Chat includes built-in safety mechanisms that prevent the undesirable generation of harmful content, such as sexually explicit content or incitement of violence. Sometimes, customers operate in industries, sell products and services, or work with processes that naturally overlap with what might be considered inappropriate in other contexts, or work with data that might trigger these safeguards. Chat may not perform as well in these cases.
+   Chat includes built-in safety mechanisms that prevent the undesirable generation of harmful content, such as sexually explicit content or incitement of violence. Sometimes, customers operate in industries, sell products and services, or work with processes that naturally overlap with what might be considered inappropriate in other contexts, or work with data that might trigger these safeguards. Chat might not perform as well in these cases.
 
 <!--## What operational factors and settings allow for effective and responsible use of the feature?-->
 

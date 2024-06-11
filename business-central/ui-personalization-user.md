@@ -1,5 +1,5 @@
 ---
-title: Personalizing pages (contains video)
+title: Personalizing pages
 description: Learn how to customize the user interface and personalize your workspace to suit your way of working and personal preferences in Business Central.
 author: jswymer
 ms.topic: conceptual

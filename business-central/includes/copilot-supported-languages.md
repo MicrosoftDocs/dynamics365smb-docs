@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-This Copilot feature was validated in the following langauges only:
+This Copilot feature was validated in the following languages only:
 
 |Language|Locales|
 |-|-|

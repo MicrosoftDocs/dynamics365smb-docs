@@ -36,16 +36,15 @@ Bank account reconciliation assist is a set of AI-powered features that assist y
   
    Go to [Post unmatched bank transaction amounts to suggested general ledger accounts](#post-unmatched-bank-transaction-amounts-to-suggested-general-ledger-accounts).
 
+## Available languages
+
+[!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
+
 ## Prerequisites
 
 - Bank account reconciliation assist is activated. This task is done by an administrator. [Learn more about configuring Copilot and AI capabilities](enable-ai.md).
 - Bank accounts in Business Central that you want to reconcile are linked to an online bank account or set up with bank statement import format. 
 - You're familiar with bank account reconciliation in Business Central as described in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md). 
-
-> [!NOTE]
-> Copilot works with all display languages in Business Central, but only some languages are currently fully supported. You can still use other languages, but results might be less accurate and reliable. For a list of supported languages, refer to [FAQ for bank account reconciliation assist with Copilot](faqs-bank-reconciliation.md#what-are-the-limitations-of-bank-reconciliation-assist-how-can-users-minimize-the-impact-of-the-bank-reconciliation-limitations-when-using-the-system).
->
-> [Learn how to change the language](ui-change-basic-settings.md#language).
 
 ## Reconcile bank accounts with Copilot
 

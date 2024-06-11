@@ -1,16 +1,16 @@
 ---
-title: Receive Items
+title: Receive items
 description: This article is an overview of the different ways to receive items at a warehouse with a warehouse receipt.
 author: brentholtorf
 ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 09/02/2022
-ms.devlang: al
+ms.date: 06/06/2024
 ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+
 ---
-# Receive Items with Warehouse Receipts
+# Receive items with warehouse receipts
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you receive items and put them away using one of four methods, as described in the following table.
 

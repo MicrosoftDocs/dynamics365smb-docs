@@ -68,13 +68,13 @@ Suggested matching of items from e-invoices with items in purchase orders perfor
 
 ## In which geographies and languages is E-documents Matching Assistance available?
 
+- Available geographies
+
+   This capability is available to any environment country/region localization. For customer environments located in countries/regions where Azure OpenAI Service isn't deployed, for this capability to be available administrators must first consent to allowing movement of data across boundaries for [!INCLUDE [prod_short](includes/prod_short.md)] to connect to Azure OpenAI service. 
+
 - Available languages
 
    [!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
-
-- Available geographies
-
-   This capability is available to any environment country/region localization. For customer environments located in countries/regions where Azure OpenAI Service isn't deployed, for this capability to be available administrators must first consent to allowing movement of data across boundaries for [!INCLUDE [prod_short](includes/prod_short.md)] to connect to Azure OpenAI service.  
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 

@@ -115,10 +115,15 @@ For products, the following table lists the tables and fields that Copilot searc
 
 ## In which geographies and languages is Sales lines suggestions available?
 
-This feature is available to all environment country/region localization and in all supported Business Central languages.
+- Available geographies
 
-- Copilot works with all display languages in Business Central, but only English is currently fully supported. You can still use other languages, but results might be less accurate and reliable.
-- For this capability to be available for customer environments located in countries/regions where Azure OpenAI Service isn't deployed, administrators must first consent to allowing their data to move across boundaries for [!INCLUDE [prod_short](includes/prod_short.md)] to connect to Azure OpenAI service.  
+   This feature is available to all environment country/region localizations. For this capability to be available for customer environments located in countries/regions where Azure OpenAI Service isn't deployed, administrators must first consent to allowing their data to move across boundaries for [!INCLUDE [prod_short](includes/prod_short.md)] to connect to Azure OpenAI service.  
+
+- Available languages
+
+   [!INCLUDE[sales-lines-suggestions-language-support](includes/sales-lines-suggestions-language-support.md)]
+
+
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 

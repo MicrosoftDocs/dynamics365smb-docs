@@ -33,16 +33,13 @@ Sales line suggestion with Copilot can assist with creating lines on sales docum
 
   People often repeat a previous order, or at least use it as a starting point. But it might be tricky to find the right order in a stack of orders. You might remember some of the order's ID, which can be a company assigned number or a reference number received from a customer. Being able to use prompts such as *Need last invoice from April* should help you find an order faster.
 
-## Prerequisites
+## Available languages
 
-* Sales line suggestion with Copilot is enabled and activated by an administrator. To learn more about how to enable AI capabilities, go to [Configure Copilot and AI capabilities](enable-ai.md).
-* You're familiar with creating sales orders.
+[!INCLUDE[sales-lines-suggestions-language-support](includes/sales-lines-suggestions-language-support.md)]
 
-## Language and Geographic availability
+## Available geographies
 
-Copilot works with all display languages in Business Central, but only English is currently fully supported. You can still use other languages, but results might be less accurate and reliable. [Learn how to change the language](ui-change-basic-settings.md#language).
-
-The following table shows the Microsoft Azure geographic areas in which his feature is available.
+The following table shows the Microsoft Azure geographic areas in which this feature is available.
 
 |Environment Azure region  |Azure OpenAI Service geography   |Admin action required to unlock Copilot  |
 |---------|---------|---------|
@@ -61,6 +58,11 @@ The following table shows the Microsoft Azure geographic areas in which his feat
 |Japan (East, West)     |    United States     |    Yes     |
 |France (Central, South)     |    Sweden or Switzerland     |    Yes     |
 |Korea (Central, South)     |    United States     |    Yes     |
+
+## Prerequisites
+
+* Sales line suggestion with Copilot is enabled and activated by an administrator. To learn more about how to enable AI capabilities, go to [Configure Copilot and AI capabilities](enable-ai.md).
+* You're familiar with creating sales orders.
 
 ## Examples of prompts
 

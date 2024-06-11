@@ -37,28 +37,6 @@ Sales line suggestion with Copilot can assist with creating lines on sales docum
 
 [!INCLUDE[sales-lines-suggestions-language-support](includes/sales-lines-suggestions-language-support.md)]
 
-## Available geographies
-
-The following table shows the Microsoft Azure geographic areas in which this feature is available.
-
-|Environment Azure region  |Azure OpenAI Service geography   |Admin action required to unlock Copilot  |
-|---------|---------|---------|
-|Germany (North, West Central)     | Sweden or Switzerland        |  Yes       |
-|Norway (East, West)     | Sweden or Switzerland        | Yes     |
-|Singapore     |         |         |
-|South Africa (North, West)     |   United States      |   Yes      |
-|Switzerland (North, West)     |  Sweden or Switzerland       |    Yes     |
-|United Arab Emirates (North, West)     |    United States     |   Yes     |
-|United States (Central, East, North Central, South Central, West)     |   United States      |   No      |
-|Europe (West, North)     |   Sweden or Switzerland      |   Yes      |
-|Asia Pacific     |         |         |
-|Australia (South East)     |   United States      |    Yes     |
-|South America     |         |         |
-|India (Central, South)     |    United States     |   Yes      |
-|Japan (East, West)     |    United States     |    Yes     |
-|France (Central, South)     |    Sweden or Switzerland     |    Yes     |
-|Korea (Central, South)     |    United States     |    Yes     |
-
 ## Prerequisites
 
 * Sales line suggestion with Copilot is enabled and activated by an administrator. To learn more about how to enable AI capabilities, go to [Configure Copilot and AI capabilities](enable-ai.md).

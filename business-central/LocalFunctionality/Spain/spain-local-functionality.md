@@ -4,7 +4,7 @@ description: The following articles describe the different local functionality i
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 04/25/2024
+ms.date: 06/11/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -70,7 +70,7 @@ The following articles describe local functionality unique to the Spanish versio
 ## Future legislation requirements being investigated
 
 * Spanish e-invoicing - **Planned for December 2024**  
-* Requirements related with the *Antifraud Law* in Spain and the impact on Business Central are subject of investigation. 
+* Requirements related to the *Antifraud Law* in Spain and how they affect Business Central are being investigated. 
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

@@ -1,5 +1,5 @@
 ---
-title: Update currency exchange rates (contains video)
+title: Update currency exchange rates
 description: Learn how to use Business Central to adjust exchange rates for amounts in different currencies.
 author: brentholtorf
 ms.author: bholtorf

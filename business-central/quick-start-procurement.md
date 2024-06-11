@@ -1,5 +1,5 @@
 ---
-title: Procurement Quick Start (contains video)
+title: Procurement Quick Start
 description: Learn how to fill in the first critical fields about vendors in Business Central so that you can start purchasing products and services.
 author: brentholtorf
 ms.topic: conceptual

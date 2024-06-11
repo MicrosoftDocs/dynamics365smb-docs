@@ -1,5 +1,5 @@
 ---
-title: Set up email in Business Central (contains video)
+title: Set up email in Business Central
 description: Describes how to connect email accounts to Business Central so that you can send outbound messages without having to open another app.
 author: brentholtorf
 ms.author: bholtorf

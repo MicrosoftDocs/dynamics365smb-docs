@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.search.form: 315, 466, 467, 468, 469
-ms.date: 04/01/2024
+ms.date: 06/11/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -46,7 +46,7 @@ The following articles describe local functionality that is unique to the United
 * New IRS 1099 functionality integrated with IRS via IRIS - **Planned before 2024 release wave 2**  
 * EFT improvements - **Planned for 2025 release wave 1**  
 * Tax improvements - **Planned for 2025 release wave 1**
-* Enabling E-Document in the US market - **Planned for 24.5**  
+* Enabling e-document in the US market - **Planned for 24.5**  
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

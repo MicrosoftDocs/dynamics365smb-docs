@@ -1,12 +1,12 @@
 ---
-title: Create cusiness contacts
+title: Create business contacts
 description: Outlines the tasks needed to create contacts and define your business relationships on the Contact Card.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: relationship, prospect
-ms.date: 04/19/2024
+ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

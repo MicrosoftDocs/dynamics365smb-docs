@@ -8,7 +8,7 @@ ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate, 
 ms.search.form: 1500, 
-ms.date: 08/31/2023
+ms.date: 06/07/2024
 ms.custom: bap-template 
 ---
 

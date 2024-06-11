@@ -1,5 +1,5 @@
 ---
-title: Setting up Cash Flow Analysis (contains video)
+title: Setting up Cash Flow Analysis
 description: Use Accountant Role Center charts to analyze the flow of money in your business, including expenses and income, liquidity, and cash receipts minus cash payments.
 author: brentholtorf
 ms.topic: conceptual

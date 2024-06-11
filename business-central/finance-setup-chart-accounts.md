@@ -1,5 +1,5 @@
 ---
-title: Set up or change the Chart of Accounts (contains video)
+title: Set up or change the Chart of Accounts
 description: Learn about setting up your chart of accounts (COA) with the ledger accounts that store your financial data.
 author: brentholtorf
 ms.author: bholtorf

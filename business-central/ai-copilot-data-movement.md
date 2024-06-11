@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.date: 06/10/2024
+ms.date: 04/16/2024
 ms.custom: bap-template 
 ms.collection:
   - bap-ai-copilot
@@ -32,7 +32,7 @@ The following table shows the Azure OpenAI Service's geography used by Copilot, 
 |Asia (East, South East) |United States|Yes|
 |Australia (South East)| Australia |No |
 |Brazil (South) |United States|Yes|
-|Canada (Central, East)|Canada|No|
+|Canada (Central, East)|United States|Yes|
 |Europe (West, North)| Sweden or Switzerland |No\*|
 |France (Central, South)| Sweden or Switzerland |Yes|
 |Germany (North, West Central)| Sweden or Switzerland |Yes|

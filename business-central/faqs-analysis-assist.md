@@ -62,7 +62,7 @@ Users have the opportunity to provide feedback to every Copilot response and rep
 - Available languages
 
    [!INCLUDE[analysis-assist-language-support](includes/analysis-assist-language-support.md)]
- 
+
    The quality of answers can also be lower if the language setting for the user in Business Central differs from the primary language of the business data in the [!INCLUDE[prod_short](includes/prod_short.md)] database.
   
   - Geographical limitation:

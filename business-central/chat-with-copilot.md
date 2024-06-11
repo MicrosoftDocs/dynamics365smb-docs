@@ -28,7 +28,7 @@ Microsoft Copilot is the AI-powered assistant that helps spark creativity, boost
 - Get explanations or step-by-step guidance on various tasks. For example, ask "Help me understand dimensions" or "How do I post a sales order."
 - Understand the purpose and typical use of individual fields. When you choose **Ask Copilot** in a tooltip for a field, chat opens with an Explain prompt for the field name and Copilot provides information about it. Copilot links to the articles it referenced, so it's easy to verify the description.
 
-  Copilot's responses are sourced from the official Dynamics 365 Business Central documentation available on Microsoft Learn at [Dynamics 365 Business Central documentation](/dynamics365/business-central/).
+Copilot's sources responses from the official information available on Microsoft Learn at [Dynamics 365 Business Central documentation](/dynamics365/business-central/).
   
 Using chat with Copilot streamlines your workflow by bypassing traditional navigation and product help.
   
@@ -44,7 +44,7 @@ Using chat with Copilot streamlines your workflow by bypassing traditional navig
 
 1. In the upper-right corner of the screen, select the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon ![Shows cllour number 1](media/callout-number-1.svg).
 
-   The **Copilot** pane appears on the right as shown below:
+   The **Copilot** pane appears as shown in the image:
    
     ![Shows the icon for chat with Copilot pane with callouts](media/chat-with-copilot-pane.svg)
 
@@ -93,7 +93,7 @@ In this example, you give clear instructions for Copilot to locate a single reco
 
 Prompt: `Give me the latest invoice for adatum`
 
-In this example, you ask Copilot to locate a record, but the question is less precise and might result in a less accurate answer. Copilot can often understand, or guess, that the invoice you're looking for isn't a purchase invoice but a sales invoice from the Posted Sales Invoice list. Copilot would also need to match `adatum` with `Adatum Corporation`, that is the full and precise name for the sell-to Customer name associated with the invoice.
+In this example, you ask Copilot to locate a record, but the question is less precise and might result in a less accurate answer. Copilot can often understand, or guess, that the invoice you're looking for isn't a purchase invoice but a sales invoice from the Posted Sales Invoice list. Copilot would also need to match `adatum` with `Adatum Corporation` that is the full and precise name for the sell-to Customer name associated with the invoice.
 
 Prompt: `Show me customer ledger entries for Adatum from about three weeks ago`
 

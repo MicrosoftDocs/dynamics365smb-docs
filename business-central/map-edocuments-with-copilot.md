@@ -25,10 +25,11 @@ In the initial release of the **e-document** app, we introduced fundamental scen
 
 You can now update an existing purchase order in Business Central with the information received in the e-invoice.
 
-> [!NOTE]
-> Copilot works with all display languages in Business Central, but only English is currently fully supported. You can still use other languages, but results might be less accurate and reliable. [Learn how to change the language](ui-change-basic-settings.md#language).
+## Available languages
 
-## To activate Copilot  
+[!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
+
+## Activate Copilot  
 
 If you didn't activate the **E-Document Matching Assistance** Copilot, you must do so manually. To enable the **E-Document Matching Assistance** copilot, follow these steps: 
 

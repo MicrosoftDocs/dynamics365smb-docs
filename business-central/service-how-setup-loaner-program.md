@@ -8,6 +8,7 @@
     ms.date: 04/01/2021
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Set Up a Loaner Program
 Sometimes you must provide a customer a loaner item for use when your customer service team makes a repair. In [!INCLUDE[prod_short](includes/prod_short.md)], you can set up a loaner program, loan items to your customers, and track receipts when customers return the items. Additionally, you can add comments about loaners in one of two ways:  

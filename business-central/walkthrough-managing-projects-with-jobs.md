@@ -1,6 +1,6 @@
 ---
     title: Walkthrough - Managing Projects with Projects
-    description: This walkthrough introduces you to the project management features in jobs which allow you to schedule the usage of your company's resources and more.
+    description: This walkthrough introduces you to the project management features in projects which allow you to schedule the usage of your company's resources and more.
     author: brentholtorf
     ms.topic: conceptual
     ms.devlang: al
@@ -8,6 +8,7 @@
     ms.date: 06/24/2021
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Walkthrough: Managing Projects
 
@@ -459,7 +460,7 @@ The following procedures show how to create a new project, set pricing, and then
  [Setting Up Project Management](projects-setup-projects.md)  
  [Use Resources](projects-how-use-resources.md)  
  [Monitor Progress and Performance](projects-how-monitor-progress-performance.md)  
- [Invoice Jobs](projects-how-invoice-jobs.md)  
+ [Invoice Projects](projects-how-invoice-jobs.md)  
  [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

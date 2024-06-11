@@ -9,6 +9,7 @@ ms.search.form: 49, 97, 9306, 9346
 ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Request quotes
 

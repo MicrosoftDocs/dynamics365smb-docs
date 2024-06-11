@@ -4,7 +4,7 @@ description: Configure synchronization of data between Business Central and Shop
 ms.date: 05/26/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 author: brentholtorf
 ms.author: bholtorf
 ms.custom: bap-template

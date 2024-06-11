@@ -7,6 +7,7 @@ ms.search.keywords:
 ms.date: 04/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Spain local functionality in the Spanish version

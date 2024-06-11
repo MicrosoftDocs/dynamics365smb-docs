@@ -9,6 +9,7 @@ ms.search.form: 10602, 10697, 10698, 10604, 315, 472, 473, 471, 317
 ms.date: 11/28/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Print a VAT reconciliation report in the Norwegian version
 The **VAT Reconciliation** report shows the reconciliation settlement for the base amount and the VAT amount for general ledger accounts. Use different VAT types to categorize these amounts.  

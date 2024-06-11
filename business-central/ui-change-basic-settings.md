@@ -9,6 +9,7 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Change basic settings
 

@@ -10,6 +10,7 @@ ms.date: 06/08/2023
 ms.author: altotovi
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Import and export data in the standard import export (SIE) format

@@ -123,8 +123,6 @@ For products, the following table lists the tables and fields that Copilot searc
 
    [!INCLUDE[sales-lines-suggestions-language-support](includes/sales-lines-suggestions-language-support.md)]
 
-
-
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
 AI-powered suggestions might sometimes be incorrect or incomplete. You should always review the accuracy of Copilot's suggestions before you choose whether to keep them. Copilot’s suggestions aren't saved to the [!INCLUDE [prod_short](includes/prod_short.md)] database until you choose the **Keep it** button and exit the Copilot window. You can edit and correct any suggestions before you choose to keep it, or after they're inserted in a sales document.
@@ -133,9 +131,9 @@ AI-powered suggestions might sometimes be incorrect or incomplete. You should al
 
 Each individual users chooses whether or not to use **Sales lines suggestions**. Even when the feature is enabled by administrators and available, you can choose to use it always, sometimes, or never.  
 
-Administrators make the overall decision on whether to use Copilot capabilities in [!INCLUDE [prod_short](includes/prod_short.md)]. If administrators enable Copilot, they should be sure to grant access to the appropriate users.   
+Administrators make the overall decision on whether to use Copilot capabilities in [!INCLUDE [prod_short](includes/prod_short.md)]. If administrators enable Copilot, they should be sure to grant access to the appropriate users.
 
-> [NOTE!]
+> [!NOTE]
 > - We don't support this feature in [!INCLUDE [prod_short](includes/prod_short.md)] on-premises or private cloud.
 > - Partner's can't extend this feature. That means partner developers can't modify, replace, or extend it.
 

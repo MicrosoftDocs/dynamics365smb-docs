@@ -16,7 +16,7 @@ ms.reviewer: bholtorf
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
-Organizations that use [!INCLUDE[prod_long](includes/prod_long.md)] can get technical support for any issues that they may experience. In this article, we show you the following information and many other tips for how to use [!INCLUDE[prod_short](includes/prod_short.md)]:
+Organizations that use [!INCLUDE[prod_long](includes/prod_long.md)] can get technical support for any issues that they might experience. In this article, we show you the following information and many other tips for how to use [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - Learn how your AI-powered assistant [can guide and explain](#chat-with-copilot)
 - Learn how to [get unblocked](#in-product-tips)  
@@ -147,7 +147,7 @@ As the internal administrator, you have access to the admin center where you can
 
 ### Report a problem
 
-Your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner helps you with technical support. This section makes it easy for you to contact your reselling partner, if they've submitted their support contact details. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then can't resolve the problem, they raise a support ticket with Microsoft.  
+Your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner helps you with technical support. This section makes it easy for you to contact your reselling partner, if they submit their support contact details. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then can't resolve the problem, they raise a support ticket with Microsoft.  
 
 For more information, see [Escalating support issues to Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) in the administration content.  
 
@@ -189,7 +189,7 @@ From inside the product, you can access this content either through the *Learn m
 
 The navigation panel shows the table of contents that groups articles by business area. For example, you read the article [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md), and then the table of contents shows you that there's also an article called [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Both articles are in the group called *Purchasing*, which bundles articles that are related to the Purchasing module in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-The table of contents includes a group of content that describes [local functionality](about-localization.md) for the countries/regions that Microsoft supports. If you don't see your country or region listed there, it's probably because your country or region is localized by a partner. Learn more at [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+The table of contents includes a group of content that describes [local functionality](about-localization.md) for the countries/regions that Microsoft supports. If you don’t see your country or region listed there, it’s probably because a partner localizes your country or region. Learn more at [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 The local functionality content describes the capabilities in [!INCLUDE [prod_short](includes/prod_short.md)] that can help you be compliant in the supported markets, such as tax statements and other reports. In some cases, the difference between the default version and the specific country/region version is invisible to users. In other cases, users must set up reporting or electronic invoicing in a specific way. If you can't find a description of a certain button or action in the general section, you can hopefully find it in the *Local Functionality* section.  
 
@@ -207,7 +207,7 @@ If you land on an article that doesn't answer your question, you can find other 
   Underneath each link, you can see where that article is in the table of contents. That way, you can easily see if the article is in the Purchasing section or in the section for Australian local functionality, for example.  
 - Use the **Search** field in the top-right corner of the website
 
-  This way, you can search for any term. The site will then search all the content for that term or expression. Search for *invoice* again, and scroll through the list of hundreds of articles in the [!INCLUDE [prod_short](includes/prod_short.md)] content that uses that word somewhere in the text.  
+  This way, you can search for any term. The site then searches all the content for that term or expression. Search for *invoice* again, and scroll through the list of hundreds of articles in the [!INCLUDE [prod_short](includes/prod_short.md)] content that uses that word somewhere in the text.  
 
 ### Languages
 
@@ -227,7 +227,7 @@ On Microsoft Learn, each article shows a pane with links to other articles. The 
 
 With Microsoft Learn, each article has two buttons at the end of the article. The *This product* button sends you to the Ideas site, and the **This page** button lets you submit feedback about the content through GitHub. In both cases, you must create an account if you don't already have one. For *product feedback*, you must sign in with your work or organizational email account. For *access to GitHub*, you can use any email address when you create an account.  
 
-We welcome your contributions, both as pull requests with suggestions or corrections to the content, and as GitHub Issues with bugs or questions. But please be mindful that feedback and contributions to the *dynamics365smb-docs* repo is about the content, not about the product.  
+We welcome your contributions, both as pull requests with suggestions or corrections to the content, and as GitHub Issues with bugs or questions. But be mindful that feedback and contributions to the *dynamics365smb-docs* repo is about the content, not about the product.  
 
 > [!IMPORTANT]
 > Microsoft accepts pull requests to the *dynamics365smb-docs* repo only, not the language-specific repos. If you have feedback about translations, you can report a GitHub issue in the relevant repo.  

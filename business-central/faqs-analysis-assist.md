@@ -59,13 +59,11 @@ Users have the opportunity to provide feedback to every Copilot response and rep
 
   AI systems are valuable tools but they're nondeterministic. The content they generate might not be accurate. So, it's important to use your judgment to review and verify responses Copilot before making decisions that could affect stakeholders like customers and partners.
 
-- Language and geographical limitations:
+- Available languages
 
-  - Copilot works with all display languages in Business Central, but only English in the following locales is currently fully supported: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA.
-
-  - The quality of answers can be lower if:
-    - The language locale in Business Central is something other than English.
-    - The language setting for the user in Business Central differs from the primary language of the business data in the [!INCLUDE[prod_short](includes/prod_short.md)] database.
+   [!INCLUDE[analysis-assist-language-support](includes/analysis-assist-language-support.md)]
+ 
+   The quality of answers can also be lower if the language setting for the user in Business Central differs from the primary language of the business data in the [!INCLUDE[prod_short](includes/prod_short.md)] database.
   
   - Geographical limitation:
   

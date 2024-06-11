@@ -16,7 +16,7 @@ ms.service: dynamics-365-business-central
 With Sustainability feature in Business Central you can create Connect apps establishing a point-to-point connection between Business Central and 3rd party sustainability solutions or services. To do so you can typically create those connections using standard REST API to interchange data. Once you have the API access enabled, you can write code that integrates your web service or SaaS solution with the sustainability features in Business Central.  
 
 > [!NOTE]
-> For information about enabling APIs for [!INCLUDE[prod_short](../../../includes/prod_short.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE [prod_short](includes/prod_short.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
 
 ## sustainabilityAccountCategory 
 

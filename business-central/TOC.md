@@ -114,6 +114,7 @@ ms.service: dynamics-365-business-central
 ##### [Design details: Post interface structure](design-details-posting-interface-structure.md)  
 ##### [Design details: Post engine structure](design-details-posting-engine-structure.md)  
 #### [Design details: Non-deductible VAT](design-details-nondeductible-vat.md)
+#### [Design details: Creating warehouse entries](design-details-warehouse-entries.md)
 ## Try
 ### [Sign up for a free Dynamics 365 Business Central trial](trial-signup.md)
 ### [Dynamics 365 Business Central trial FAQ](trial-faq.md)

@@ -17,7 +17,7 @@ ms.custom: bap-template
 As procurement processes become more digital, the e-documents feature in Business Central plays a key role in automating the vendor invoice reception and processing. Copilot can help this process by improving the mapping and matching of vendor invoices to purchase orders. This reduces time-consuming tasks that would normally include extensive search, lookup, and data entry. The benefit is compounded by the fact that vendor invoices often don't relate exactly with purchase orders, in which case Copilot is better positioned to identify the corresponding purchase orders. Enhanced matching capabilities particularly benefit small and midsized organizations that need efficient document tracking for purchase order lines. Copilot is the AI-powered assistant for work that boosts creativity and improves productivity for Business Central users.
 
 > [!IMPORTANT]
-> - This is a Production Ready Preview feature for production and sandbox environments in any country localization, with the exception of Canada.
+> - This is a Production Ready Preview feature for production and sandbox environments in any country localization<!-- with the exception of Canada -->.
 > - Production Ready Previews are subject to supplemental terms of use. More information: [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274)
 > - AI-generated content may be incorrect.
 

@@ -67,7 +67,7 @@ Users have the opportunity to provide feedback to every Copilot response and rep
   
 - Geographical limitation:
   
-   The feature is available in all supported [Business Central countries/regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). However, the feature uses Microsoft Azure OpenAI Service, which is currently available for Business Central in some geographies. If your environment is located in a country/region where Azure OpenAI Service isn't available, administrators must allow data to move across geographies. [Learn more](/dynamics365/business-central/ai-copilot-data-movement).
+   The feature is available in all supported [Business Central countries/regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)<!-- except for Canada-->. However, the feature uses Microsoft Azure OpenAI Service, which is currently available for Business Central in some geographies. If your environment is located in a country/region where Azure OpenAI Service isn't available, administrators must allow data to move across geographies. [Learn more](/dynamics365/business-central/ai-copilot-data-movement).
 
 - Certain industry, product, and subject limitations:
 

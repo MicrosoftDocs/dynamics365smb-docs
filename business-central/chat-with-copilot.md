@@ -38,7 +38,7 @@ Chat with Copilot circumvents the need to navigate the user interface or product
 
 - Chat with Copilot capability is activated. This task is done by an administrator. [Learn more about configuring Copilot and AI capabilities](enable-ai.md).
 - The display language in Business Central is set to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn more about changing the language](ui-change-basic-settings.md#language).
-- Your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).
+<!--- Your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).-->
 
 ## Get started using chat with Copilot
 

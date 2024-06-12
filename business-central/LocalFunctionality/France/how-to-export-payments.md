@@ -11,6 +11,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Export Payments
 The Payment Management module allows you to export your payments electronically via a text file or XMLport.  

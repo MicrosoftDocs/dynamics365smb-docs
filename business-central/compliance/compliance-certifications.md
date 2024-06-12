@@ -7,6 +7,7 @@ ms.search.keywords:
 ms.date: 01/18/2024
 ms.author: soalex
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Certifications

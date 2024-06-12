@@ -9,6 +9,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Close Years in the French Version
 When a fiscal year is over, you must close the periods that it comprises.  

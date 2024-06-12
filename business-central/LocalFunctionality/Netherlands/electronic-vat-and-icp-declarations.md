@@ -33,7 +33,7 @@ Before you can send electronic declarations to the tax authorities, you must per
 
     - Obtain a PKIoverheid certificate for the company if you don't have one already. A list of certificate providers can be found here: [https://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps](https://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps).  
 
-    - Register a user of Digipoort, which can be done here: [https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw](https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw).
+    - Register a user of Digipoort, which can be done here: [https://aansluiten.procesinfrastructuur.nl](https://aansluiten.procesinfrastructuur.nl).
 
     - Obtain a **Digipoort Service certificate**, which can be obtained at the Dutch Tax Administration website: [https://aansluiten.procesinfrastructuur.nl](https://aansluiten.procesinfrastructuur.nl).
 

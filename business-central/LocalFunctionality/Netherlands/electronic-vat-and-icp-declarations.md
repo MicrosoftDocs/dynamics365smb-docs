@@ -22,7 +22,7 @@ For a transaction to qualify for ICP, it is required that the merchandise have c
 
 You can submit the VAT declarations and ICP declarations in the following ways:  
 
-- Sign in to the website of the Dutch tax office and enter the information manually. For more information, see the [website](https://go.microsoft.com/fwlink/?LinkID=223151) of the Dutch tax office.  
+- Sign in to the website of the Dutch tax office and enter the information manually. For more information, see the [website](https://go.microsoft.com/fwlink/?linkid=223151) of the Dutch tax office.  
 
 - Create an electronic declaration and submit the encrypted file through the Digipoort channel to the Dutch tax office. Digipoort is the electronic post office provided by the Dutch government for companies. It provides the common infrastructure for the communication of information between companies and the government, including VAT declarations. The reports are in the eXtensible Business Reporting Language (XBRL) format. For more information, see [Create Reports with XBRL](../../bi-create-reports-with-xbrl.md).
 

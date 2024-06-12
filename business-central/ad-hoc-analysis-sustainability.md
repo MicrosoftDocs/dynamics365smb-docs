@@ -67,7 +67,7 @@ To analyze your average emmisions by category, follow these steps:
 
 The following image shows the result of these steps.
 
-:::image type="content" source="media/data-analysis-sustainability-entries-avg.png" alt-text="Example of how to do data analysis on the Sustainability Ledger Entries page." lightbox="media/data-analysis-sustainability-entries-avg.png":::
+:::image type="content" source="media/data-analysis-sustainability-entries-avg.png" alt-text="Example of how to do data analysis on the Sustainability Ledger Entries page avg." lightbox="media/data-analysis-sustainability-entries-avg.png":::
 
 
 ## Example: Emmissions by scope
@@ -83,7 +83,7 @@ To analyze your emmisions by scope, follow these steps:
 
 The following image shows the result of these steps.
 
-:::image type="content" source="media/data-analysis-sustainability-entries-scope.png" alt-text="Example of how to do data analysis on the Sustainability Ledger Entries page." lightbox="media/data-analysis-sustainability-entries-scope.png":::
+:::image type="content" source="media/data-analysis-sustainability-entries-scope.png" alt-text="Example of how to do data analysis on the Sustainability Ledger Entries page scope." lightbox="media/data-analysis-sustainability-entries-scope.png":::
 
 
 

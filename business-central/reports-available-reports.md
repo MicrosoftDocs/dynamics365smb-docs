@@ -6,12 +6,11 @@ ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.date: 09/11/2023
+ms.date: 06/12/2024
 ms.custom: bap-template
-
-
 ms.service: dynamics-365-business-central
 ---
+
 # Report Overview
 
 [!INCLUDE [prod_short](includes/prod_short.md)] comes with many built-in reports that can be used out-of-the-box to support your business.  
@@ -36,7 +35,7 @@ For more information, see [Accounts Receivable Reports and Analytics in Business
 
 For more information, see [Accounts Payable Reports and Analytics in Business Central](payables-reports.md).
 
-# Sustainability Reports
+## Sustainability Reports
 
 [!INCLUDE [sustainability_reports](includes/sustainability-reports-include.md)]
 

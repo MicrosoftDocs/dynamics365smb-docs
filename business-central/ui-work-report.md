@@ -9,9 +9,9 @@ ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Wo
 ms.search.form:
 ms.date: 09/04/2023
 ms.custom: bap-template
-
 ms.service: dynamics-365-business-central
 ---
+
 # Run and Print Reports
 
 A report gathers information based on a specified set of criteria. It organizes and presents the information in an easy-to-read format you can print or save as a file. There are many reports you can access throughout the application. The reports typically provide information related to the context of the page you're on. For example, the **Customer** page includes reports for the top 10 customers, sales statistics, and more.

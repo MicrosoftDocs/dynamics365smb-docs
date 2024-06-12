@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_6210, Report_6211, Report_6212
-ms.date: 05/17/2024
+ms.date: 06/12/2024
 ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---

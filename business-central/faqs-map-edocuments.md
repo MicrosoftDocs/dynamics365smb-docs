@@ -1,5 +1,5 @@
 ---
-title: FAQ for Mapping E-Documents with Purchase Orders
+title: FAQ for mapping e-documents with purchase orders
 description: This FAQ provides information about the AI technology used in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 02/23/2024
 ms.custom: 
@@ -41,7 +41,7 @@ Copilot provides AI-powered assistance to match received digital invoice with ex
 
 Copilot identifies similar descriptions if they have proper unit of measures and the prices, but it can also find matches in more complex cases. For example, it can identify if an electronic invoice has two lines with a variant of the same item, and just one line in the purchase order; [!INCLUDE [prod_short](includes/prod_short.md)] matches these lines as long as the descriptions are similar and the prices are the same.
 
-Copilot doesn't connect to your e-documents endpoint service to retrieve or send digital vouchers. This task remains fully within your control and is a prerequisite to using Copilot's assistance. This is true, regardless of whether the digital documents are added to [!INCLUDE [prod_short](includes/prod_short.md)] using a connection with an endpoint service, or entered manually.  
+Copilot doesn't connect to your e-documents endpoint service to retrieve or send digital vouchers. This task remains fully within your control and is a prerequisite to using Copilot's assistance. This is true, regardless of whether the digital documents are added to [!INCLUDE [prod_short](includes/prod_short.md)] using a connection with an endpoint service or entered manually.  
 
 ## What is the intended use of the E-documents Matching Assistance?  
 
@@ -80,7 +80,7 @@ Suggested matching of items from e-invoices with items in purchase orders perfor
 
 Copilot supplements the mapping algorithm that [!INCLUDE [prod_short](includes/prod_short.md)] already provides and maps the lines that the algorithm didn't.
 
-### What is expected of end-users while using E-Documents Matching Assistance?
+### What is expected of users while using E-Documents Matching Assistance?
 
 <!--Not sure that this is the right content for this section. Seems like it belongs more in the overview article because it's more related to how to use the feature-->
 
@@ -97,15 +97,15 @@ You can use **E-Documents Matching Assistance** to map lines based on the follow
 
 Copilot's matches might be incorrect or incomplete. You should always review their accuracy before you choose to keep them. Copilot’s matches and suggestions are saved in [!INCLUDE [prod_short](includes/prod_short.md)] when you choose **Keep it** and exit Copilot. You can edit and correct any matches or suggestions before you choose to keep them. 
 
-### What is expected of administrators and end-users when operating E-Documents Matching Assistance?
+### What is expected of administrators and users when operating E-Documents Matching Assistance?
 
-End-users, such as accountants, or others who receive e-invoices should always review the accuracy of matches and suggestions provided by Copilot before choosing to keep them. We recommend that you review the purchase order lines to verify their accuracy and find any discrepancies. You decide whether to use the **E-Documents Matching Assistance**. Even when the **E-Documents Matching Assistance** is enabled by administrators and available, you can still choose to use it always, sometimes, or never.  
+Users, such as accountants or others who receive e-invoices, should always review the accuracy of matches and suggestions provided by Copilot before choosing to keep them. We recommend that you review the purchase order lines to verify their accuracy and find any discrepancies. You decide whether to use the **E-Documents Matching Assistance**. Even when the **E-Documents Matching Assistance** is enabled by administrators and available, you can still choose to use it always, sometimes, or never.  
 
 Administrators make the overall decision on whether to use Copilot in [!INCLUDE [prod_short](includes/prod_short.md)]. If they enable Copilot, administrators should ensure they grant access to the appropriate.
 
 > [NOTE!]
 > - We don't support the feature for [!INCLUDE [prod_short](includes/prod_short.md)] on-premises or in private clouds.
-> - Partner's can't extend this feature. Partner developers can't modify, replace, or extend this feature. 
+> - Partners can't extend this feature. Partner developers can't modify, replace, or extend this feature. 
 
 ## Is Copilot the only way to match e-documents to purchase orders?  
 
@@ -113,11 +113,11 @@ No, whether you use Copilot is up to you. [!INCLUDE [prod_short](includes/prod_s
 
 ## How do I give feedback about AI-generated content?  
 
-Each time Copilot provides matches or suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the Like and Dislike controls. Your feedback remains anonymous and we use this data to improve the quality of the service.  
+Each time Copilot provides matches or suggestions, you can provide feedback to Microsoft directly from the Copilot window, using the **Like** and **Dislike** controls. Your feedback remains anonymous, and we use this data to improve the quality of the service.  
 
 ## See also
 
-[E-Documents overview](finance-edocuments-overview.md)
+[E-Documents overview](finance-edocuments-overview.md)  
 [Map e-documents to purchase order lines with Copilot](map-edocuments-with-copilot.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

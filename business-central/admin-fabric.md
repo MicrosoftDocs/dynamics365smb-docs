@@ -30,8 +30,6 @@ A key part of [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] offerin
 
 [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] items store your data in OneLake in an open file format. For structured tabular data, this format is *delta parquet*. Delta parquet format allows every analytics engine in [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] to access the data from other analytics engines. This way, it allows flexibility for data practitioners to use the tools of your choice.
 
-> [!NOTE]
-> We expect that with one of our future releases, [!INCLUDE[prod_short](includes/prod_short.md)] data will also be made available in OneLake for the customers who use both [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] and [!INCLUDE[prod_short](includes/prod_short.md)] and have unique requirements in the areas that [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] supports. The timeline will depend on the timeline of the general availability of [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] and its components required to enable this experience. We're going to update this article with a more precise timeline, once we know more.
 
 ## See also
 [Using Power BI with Business Central](admin-powerbi.md)   

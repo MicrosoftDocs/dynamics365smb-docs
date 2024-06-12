@@ -1,18 +1,18 @@
 ---
 title: Sustainability reports and analytics
-description: See which sustainability reports and analytics are available in the standard version of Business Central so that you can keep track of your business.
+description: Explore the sustainability reports and analytics in the standard version of Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_6210, Report_6211, Report_6212
 ms.date: 05/17/2024
-ms.author: kepontop
+ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
 # Sustainability reports and analytics in Business Central
 
-Sustainability reporting gives finance professionals insights and statistics about current and past sustainability investments and emmissions.  
+Sustainability reporting gives finance professionals insights and statistics about current and past sustainability investments and emissions.  
 
 ## Reports
 
@@ -28,7 +28,9 @@ The following articles describe some of the key tasks for analyzing the state of
 
 To get an overview of the reports that are available for sustainability, choose **All Reports** on your Home page. This action opens the Role Explorer, which is filtered to the features in the **Report & Analysis** option. Under the **TODO** heading, choose **Explore**.
 
-:::image type="content" source="media/report-explorer-sustainability.png" alt-text="Example of sustainability reports on the finance role center." lightbox="media/report-explorer-sustainability.png":::
+<!--There isn't an image file for this.
+
+:::image type="content" source="media/report-explorer-sustainability.png" alt-text="Example of sustainability reports on the finance role center." lightbox="media/report-explorer-sustainability.png":::-->
 
 To learn more, go to [Finding Reports with the Role Explorer](ui-role-explorer.md).
 

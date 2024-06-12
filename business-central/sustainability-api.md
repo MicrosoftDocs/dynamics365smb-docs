@@ -6,21 +6,21 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, API, REST
 ms.search.form: 
-ms.date: 06/07/2024
+ms.date: 06/12/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
 # Sustainability APIs    
 
-With Sustainability feature in Business Central you can create Connect apps establishing a point-to-point connection between Business Central and 3rd party sustainability solutions or services. To do so you can typically create those connections using standard REST API to interchange data. Once you have the API access enabled, you can write code that integrates your web service or SaaS solution with the sustainability features in Business Central.  
+With the Sustainability feature in [!INCLUDE[prod_short](includes/prod_short.md)] you can create connected apps that establish a point-to-point connection between [!INCLUDE[prod_short](includes/prod_short.md)] and third-party sustainability solutions or services. To do so, you can typically create those connections using the standard REST API to interchange data. Once you have the API access enabled, you can write code that integrates your web service or SaaS solution with the sustainability features in the [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
-> For information about enabling APIs for [!INCLUDE [prod_short](includes/prod_short.md)] see [Enabling the APIs for Dynamics 365 Business Central](../enabling-apis-for-dynamics-nav.md).
+> For information about enabling APIs for [!INCLUDE [prod_short](includes/prod_short.md)], see [Enabling the APIs for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/enabling-apis-for-dynamics-nav).
 
 ## sustainabilityAccountCategory 
 
-Represents the **Sustainability Category** in Business Central.   
+Represents the *Sustainability Category* in [!INCLUDE[prod_short](includes/prod_short.md)].   
 
 ### Methods   
 
@@ -38,16 +38,16 @@ Represents the **Sustainability Category** in Business Central.
 | id | GUID | The unique ID of the sustainabilityAccountCategory. Non-editable. |
 | code | string | The code of sustainabilityAccountCategory. |
 | displayName | string | Specifies the sustainabilityAccountCategory's name. |
-| emmisionScope | string | Specifies the sustainabilityAccountCategory's emission  scope. It can be "Scope 1", "Scope 2", or "Scope 3". |
-| registerCO2 | boolean | Specifies the sustainabilityAccountCategory is used to register CO2 emission. |
-| registerCH4 | boolean | Specifies the sustainabilityAccountCategory is used to register CH4 emission. |
-| registerN20 | boolean | Specifies the sustainabilityAccountCategory is used to register N2O emission. |
+| emmisionScope | string | Specifies the sustainabilityAccountCategory's emission  scope. It can be "Scope 1," "Scope 2," or "Scope 3." |
+| registerCO2 | boolean | Specifies the sustainabilityAccountCategory that is used to register CO2 emission. |
+| registerCH4 | boolean | Specifies the sustainabilityAccountCategory that is used to register CH4 emission. |
+| registerN20 | boolean | Specifies the sustainabilityAccountCategory that is used to register N2O emission. |
 | calculationFoundationType | string | Specifies the sustainabilityAccountCategory's formulas type. |
 | emissionCalculationCustomValue | string | Specifies the sustainabilityAccountCategory's custom value for using in formulas. |
 
 ## sustainabilityAccountSubcategory 
 
-Represents the **Sustainability Subcategory** in Business Cenytral.  
+Represents the *Sustainability Subcategory* in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
@@ -71,7 +71,7 @@ Represents the **Sustainability Subcategory** in Business Cenytral.
 
 ## sustainabilityAccount   
 
-Represents the **Sustainability Accounts** in Business Central.   
+Represents the *Sustainability Accounts* in [!INCLUDE[prod_short](includes/prod_short.md)].   
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
@@ -89,7 +89,7 @@ Represents the **Sustainability Accounts** in Business Central.
 | displayName | string | Specifies the sustainabilityAccount's name. |
 | category | string | Specifies the sustainabilityAccount's category. |
 | subcategory | string | Specifies the subcategory of the sustainabilityAccount's category. |
-| accountType | string| The type of the sustainabilityAccount that the account is related to. It can be "Posting", "Heading", "Total", "Begin Total" or "End Total". |
+| accountType | string| The type of the sustainabilityAccount that the account is related to. It can be "Posting," "Heading," "Total," "Begin Total" or "End Total." |
 
 ## sustainabilityJournalLine  
 
@@ -114,11 +114,11 @@ Represents a **Sustainability Journal Lines** in Business Central.
 | documentType | string | Specifies the sustainabilityJournalLine's document type. |
 | documentNumber | string | Specifies a document number for the sustainabilityJournalLine line. |
 | accountNumber | GUID | The ID of the sustainabilityAccount that the sustainabilityJournalLine is related to.
-| manualInput | boolean | Specifies if manual imput of emissions is allowed in the sustainabilityJournalLine. |
+| manualInput | boolean | Specifies if manual input of emissions is allowed in the sustainabilityJournalLine. |
 | unitOfMeasure | GUID | The ID of unit of measure for the sustainabilityJournalLine. |
 | fuelOrElectricity | decimal | Specifies the fuel or electricity consumption for the sustainabilityJournalLine. |
 | distance | decimal | Specifies the distance used in the formula for the sustainabilityJournalLine. |
-| customAmount | decimal | Specifies the custom amount used in the for the sustainabilityJournalLine. |
+| customAmount | decimal | Specifies the custom amount used in the formula for the sustainabilityJournalLine. |
 | installationMultiplier | decimal | Specifies the installation multiplier used in the formula for the sustainabilityJournalLine. |
 | timeFactor | decimal | Specifies the time factor used in the formula for the sustainabilityJournalLine. |
 | emissionCO2 | decimal | Specifies the CO2 emission in the sustainabilityJournalLine if the manualInput is TRUE. |
@@ -131,7 +131,7 @@ Represents a **Sustainability Journal Lines** in Business Central.
 
 ## sustainabilityLedgerEntry
 
-Represents the **Sustainability Ledger Entries** in Business Central.  
+Represents the *Sustainability Ledger Entries* in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|
@@ -148,7 +148,7 @@ Represents the **Sustainability Ledger Entries** in Business Central.
 | documentNumber | string | Specifies a document number for the sustainabilityLedgerEntry. |
 | accountNumber | string | Specifies the sustainability account code in this specific sustainabilityLedgerEntry. |
 | displayName | string | Specifies the sustainability account name in this specific sustainabilityLedgerEntry. |
-| emissionScope | string | Specifies the emission scope of the sustainabilityAccountCategory in the sustainabilityLedgerEntry. It can be "Scope 1", "Scope 2", or "Scope 3". |
+| emissionScope | string | Specifies the emission scope of the sustainabilityAccountCategory in the sustainabilityLedgerEntry. It can be "Scope 1," "Scope 2," or "Scope 3." |
 | unitOfMeasure | string | Specifies the unit of measure code in the sustainabilityLedgerEntry. |
 | emissionCO2 | decimal | Specifies the CO2 emission for the sustainabilityLedgerEntry. |
 | emissionCH4 | decimal | Specifies the CH4 emission for the sustainabilityLedgerEntry. |
@@ -162,12 +162,12 @@ Represents the **Sustainability Ledger Entries** in Business Central.
 
 ## See also
 
-[Sustainability management overview](finance-manage-sustainability.md)  
-[Sustainability Setup](finance-sustainability-setup.md)  
-[How to record emissions](finance-sustainability-journal.md)  
-[Working with Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
-[Ad-hoc analysis of sustainability data](business-central/ad-hoc-analysis-sustainability.md)
-[Sustainability reports and analytics in Business Central](business-central/sustainability-reports.md)
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Sustainability management overview](finance-manage-sustainability.md)    
+[Sustainability Setup](finance-sustainability-setup.md)    
+[How to record emissions](finance-sustainability-journal.md)    
+[Working with Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)    
+[Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)    
+[Sustainability reports and analytics in Business Central](sustainability-reports.md)   
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

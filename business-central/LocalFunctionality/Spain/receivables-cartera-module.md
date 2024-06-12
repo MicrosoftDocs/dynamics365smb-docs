@@ -1,16 +1,14 @@
 ---
-    title: Receivables Cartera module [ES]
-    description: The Receivables Cartera module allows you to manage bills generated from sales invoices using the Cartera Journal.
-    services: project-madeira 
-    documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 11/21/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: Receivables Cartera module [ES]
+description: The Receivables Cartera module allows you to manage bills generated from sales invoices using the Cartera Journal.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/21/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Receivables Cartera module in the Spanish version
 The Receivables Cartera module allows you to manage bills generated from sales invoices. The documents are managed using:  

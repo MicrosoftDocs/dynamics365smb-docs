@@ -1,6 +1,6 @@
 ---
 title: FAQ for marketing text suggestions
-description: This FAQ provides information about the AI technology used in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+description: This FAQ provides information about the AI technology used in marketing text suggestions in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 10/07/2023
 ms.custom: 
   - responsible-ai-faqs

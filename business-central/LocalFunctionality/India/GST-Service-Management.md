@@ -1,18 +1,18 @@
 ---
-    title: GST on Service Management
-    description: GST on Service Management
+title: GST on Service Management
+description: GST on Service Management
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: article
-    ms.devlang: al
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # GST on Service Management
 

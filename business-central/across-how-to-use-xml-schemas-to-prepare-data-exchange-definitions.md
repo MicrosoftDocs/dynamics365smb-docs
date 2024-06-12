@@ -8,6 +8,7 @@
     ms.date: 06/11/2021
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Use XML Schemas to Prepare Data Exchange Definitions
 

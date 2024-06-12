@@ -10,6 +10,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Create Report 349 in the Spanish Version
 You must submit a periodic report of trade with other EU countries/regions to the tax authorities. This declaration, Report 349, must be submitted to the tax authorities electronically on the tax agency website or on a CD-ROM. For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwlink/?LinkId=238181) website.  

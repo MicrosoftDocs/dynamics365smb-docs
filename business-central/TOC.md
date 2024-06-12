@@ -200,7 +200,7 @@ ms.service: dynamics-365-business-central
 #### [Touch and pen gestures](touch-gestures.md)
 ### [Troubleshoot: Access camera and location](ui-troubleshooting-camera-location.md)
 ### [Intelligent insights (online only)](about-intelligent-cloud.md)
-## Frequently Asked Questions
+## Troubleshooting and FAQs
 ### [Frequently Asked Questions](across-faq.yml)
 ### [Chat with Copilot FAQ (preview)](chat-with-copilot-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
@@ -211,6 +211,7 @@ ms.service: dynamics-365-business-central
 ### [Teams FAQ](teams-faq.md)
 ### [Electronic invoice FAQ](faq-electronic-invoicing.yml)
 ### [Minimum requirements](product-requirements.md)
+### [Troubleshooting in Business Central](/troubleshoot/dynamics-365/business-central/welcome-business-central)
 
 ## Help and Support
 ### [Resources for help and support](product-help-and-support.md)
@@ -459,6 +460,9 @@ ms.service: dynamics-365-business-central
 #### [Sustainability setup](finance-sustainability-setup.md)
 #### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
 #### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
+#### Sustainability analytics
+##### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
+##### [Built-in sustainability reports](sustainability-reports.md)
 
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
 #### Consolidate financial data from multiple companies
@@ -486,7 +490,7 @@ ms.service: dynamics-365-business-central
 #### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
 #### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
 
-<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
 
 ### Built-in finance analysis tools
 #### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)
@@ -556,7 +560,10 @@ ms.service: dynamics-365-business-central
 
 ## Inventory
 ### [Inventory overview](inventory-manage-inventory.md)
-### [Inventory and warehouse reports](inventory-WMS-reports.md)
+### Inventory analytics 
+#### [Inventory analytics overview](inventory-analytics-overview.md)
+#### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
+#### [Built-in inventory and warehouse reports](inventory-WMS-reports.md)
 ### [Register new items](inventory-how-register-new-items.md)
 ### [Work with bills of material](inventory-how-work-BOMs.md)
 ### [Categorize items](inventory-how-categorize-items.md)
@@ -592,25 +599,27 @@ ms.service: dynamics-365-business-central
 
 ## Fixed assets
 ### [Fixed assets overview](fa-manage.md)
+
 ### Fixed assets analytics
 #### [Fixed assets analytics overview](fa-analytics-overview.md)
-
+#### [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)
 #### Built-in fixed assets analytics tools
-##### [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)
 ##### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
 ##### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 ##### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 #### [Built-in fixed assets reports](fa-reports.md)
+
 ### [Set up fixed assets](fa-setup.md)
 ### [Depreciation methods](fa-depreciation-methods.md)
 ### [Manage budgets for fixed assets](fa-how-manage-budgets.md)
 ### [Acquire fixed assets](fa-how-acquire.md)
+### [Depreciate or amortize fixed assets](fa-how-depreciate-amortize.md)
 ### [Maintain fixed assets](fa-how-maintain.md)
 ### [Insure fixed assets](fa-how-insure.md)
 ### [Transfer, split, or combine fixed assets](fa-how-trans-split-combine.md)
 ### [Revalue fixed assets](fa-how-revalue.md)
-### [Depreciate or amortize fixed assets](fa-how-depreciate-amortize.md)
 ### [Dispose of or retire fixed assets](fa-how-dispose-retire.md)
 ### [Troubleshooting FA ledger entries](fa-troubleshooting-fa-ledger-entries.md)
 
@@ -1848,44 +1857,22 @@ ms.service: dynamics-365-business-central
 ## Built-in reports
 ### [Report overview](reports-available-reports.md)
 ### Finance
-#### [Financial business intelligence](bi.md)
-#### [Analyze financial statements with Excel](finance-analyze-excel.md)
+#### [Prepare financial reporting](bi-how-work-account-schedule.md)
 #### [Key financial reports](finance-reports.md)
 #### [Accounts receivable reports](receivables-reports.md)
 #### [Accounts payable reports](payables-reports.md)
-#### [Cash flow analysis](finance-setup-cash-flow-analyses.md)
-#### [Consolidate financial data from multiple companies](finance-consolidated-company-reporting.md)
+#### [Sustainability reports](sustainability-reports.md)
 
-### Sales
-#### [Sales reports](sales-reports.md)
-#### [Blanket sales order status](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
-#### [Package tracking](sales-how-track-packages.md)
-#### [View unposted and posted blanket sales order lines](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
-
-### Purchases
-#### [Purchase reports](purchase-reports.md)
-#### [View purchase ledger entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
-
-### Inventory and warehouse
-#### [Inventory and warehouse reports](inventory-wms-reports.md)
-#### [Item availability](inventory-how-availability-overview.md)
-#### [Track items with serial, lot, and package numbers](inventory-how-work-item-tracking.md)
-#### [Trace item-tracked items](inventory-how-to-trace-item-tracked-items.md)
-#### [Audit the reconciliation between the inventory ledger and the general ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [View cross-docked items in a shipment or pick worksheet](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+### [Sales reports](sales-reports.md)
+### [Purchase reports](purchase-reports.md)
+### [Inventory and warehouse reports](inventory-wms-reports.md)
 
 ### Project
 #### [Project reports](project-reports.md)
 #### [View project usage estimates](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
 #### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 
-### Fixed assets
-#### [Fixed assets reports](fa-reports.md)
-#### [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
-#### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
-#### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-#### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-#### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+### [Fixed assets reports](fa-reports.md)
 
 ### Assembly management
 #### [Assembly Management Reports](assembly-reports.md)

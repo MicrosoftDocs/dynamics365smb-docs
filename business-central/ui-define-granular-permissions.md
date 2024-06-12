@@ -1,5 +1,5 @@
 ---
-title: Define Granular Permissions
+title: Define granular permissions
 description: This article describes how to define granular permissions and assign each user the permission sets that they need to do their jobs.
 author: brentholtorf
 ms.author: bholtorf
@@ -7,12 +7,12 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862
-ms.date: 02/08/2023
-
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Assign Permissions to Users and Groups
+# Assign permissions to users and groups
 
 [!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
 

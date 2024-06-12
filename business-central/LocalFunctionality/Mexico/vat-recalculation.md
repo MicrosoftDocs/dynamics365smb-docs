@@ -10,6 +10,7 @@
     ms.date: 12/06/2023
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # VAT recalculation
 When a customer makes payment in a foreign currency, VAT must be recalculated using the exchange rate at the time of the invoice payment.  

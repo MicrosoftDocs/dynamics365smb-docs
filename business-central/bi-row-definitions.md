@@ -3,7 +3,7 @@ title: Row definitions in Financial Reporting
 description: Describes how row definitions in financial reporting work.
 author: kennieNP
 ms.author: kepontop
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 03/27/2024
 ms.custom: bap-template

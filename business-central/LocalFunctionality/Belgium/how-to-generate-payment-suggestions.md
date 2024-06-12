@@ -7,6 +7,7 @@ ms.search.form: 256
 ms.date: 01/18/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Generate payment suggestions in the Belgian version

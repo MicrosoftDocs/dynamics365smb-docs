@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.search.form: 99000852, 99000860
 ms.date: 01/24/2024
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.custom: bap-template 
 
 ms.service: dynamics-365-business-central

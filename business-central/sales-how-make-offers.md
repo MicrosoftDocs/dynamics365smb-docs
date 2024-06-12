@@ -9,6 +9,7 @@ ms.search.form: 41, 9300
 ms.date: 02/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Make sales quotes
 

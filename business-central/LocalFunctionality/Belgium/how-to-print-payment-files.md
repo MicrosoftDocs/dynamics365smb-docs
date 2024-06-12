@@ -8,6 +8,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Export Payment Files in the Belgian Version
 

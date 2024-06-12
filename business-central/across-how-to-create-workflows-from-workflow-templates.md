@@ -1,9 +1,9 @@
 ---
-title: How to Create Workflows from Workflow Templates
+title: How to create workflows from workflow templates
 description: To save time when creating new approval workflows, you can create workflows from workflow templates.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: dajoo
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords:
 ms.date: 03/27/2024

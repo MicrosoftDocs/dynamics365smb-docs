@@ -15,10 +15,7 @@ ms.custom: bap-template
 
 The general content about ad-hoc data analysis is also available in special versions for many of the functional areas in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
-| If you work with... | See |
-| ------------------- | --- |
-| Sales               | [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md) |
-| Purchasing          | [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md) |
+[!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
 
 ## See also

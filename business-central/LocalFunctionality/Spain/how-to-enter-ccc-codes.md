@@ -9,6 +9,7 @@ ms.date: 12/06/2023
 ms.author: bholtorf
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Enter CCC codes in the Spanish version
 

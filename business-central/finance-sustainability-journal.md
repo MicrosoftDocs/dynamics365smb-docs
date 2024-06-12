@@ -1,75 +1,81 @@
 ---
-title: How to record sustainability entries
-description: Learn how to record GHG (greenhouse gas) emissions.
+title: Record sustainability entries
+description: Learn how to record greenhouse gas (GHG) emissions.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, journal
 ms.search.form: 6216, 6219, 6220
-ms.date: 04/02/2024
+ms.date: 05/07/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# How to record sustainability entries  
+# Record sustainability entries
 
-In this moment, the only way for recording GHG emissions to the **Sustainability Ledger** is using the **Sustainability Journals**.   
+Currently, the only way to record greenhouse gas (GHG) emissions in the sustainability ledger is to use sustainability journals.
 
-## Sustainability journal  
+## Sustainability journals
 
-**Sustainability Journals** are designed to track and record sustainability-related activities using the same user experience as other journals in Business Central. Within the journal, users have the option to input emissions manually if they possess the necessary information. Alternatively, if they lack this data, they can utilize built-in formulas to accurately calculate emissions based on specific known parameters corresponding to various types of sources and accounts. 
+Sustainability journals are designed to track and record sustainability-related activities by using the same user experience as other journals in Business Central. Users who have the necessary information can manually enter emissions in a journal. Alternatively, if they lack the information, they can use built-in formulas to accurately calculate emissions based on specific known parameters that correspond to various types of sources and accounts.
 
-The information that you enter in a journal is temporary and can be changed while it's in the journal. When you post the journal, the information is transferred to **Sustainability Ledger Entries** on individual **Sustainability Accounts**, where it can't be changed. You can, however, post reversing or correcting entries.  
+The information that you enter in a journal is temporary and can be changed while it's in that journal. When you post the journal, the information is transferred to sustainability ledger entries on individual sustainability accounts, where it can't be changed. However, you can post reversing or correcting entries.
 
-### Use journal templates and batches 
+### Use journal templates and batches
 
-There are two **Sustainability Journal Templates** by default, the standard and recurring one. For each journal template, you can set up your own personal journal as a journal batch. To do so, you need to choose the **Batches** action on the **Sustainability Journal Templates** page and create the new **Sustainability Journal Batch** on the new page. For example, you can define your own journal batch for each emission scope, using the **Emission Scope** option where you can choose between three existing scopes. You can also add or change the **Source Code** and **Reason Code** for each of the batches. 
+By default, there are two sustainability journal templates: the standard template and the recurring template.
 
->[!TIP]
->You can have one journal batch for each of emission types, if you have many lines as it can reduce the chance for making mistakes, but you can also use the common batch for all types of emissions.   
+For each journal template, you can set up your own personal journal as a journal batch. To do so, select the **Batches** action on the **Sustainability Journal Templates** page, and then create the new **sustainability journal batch** on the new page. For example, you can define your own journal batch for each emission scope by using the **Emission Scope** option and then selecting among the three existing scopes. For each batch, you can add or change the **Source Code** and **Reason Code** values.
 
-### Validating sustainability journals 
+> [!TIP]
+> If you have many lines, you can help reduce the risk of mistakes by having one journal batch for each emission type. Alternatively, you can use the common batch for all emission types.
 
-You can turn on a background check on the **Sustainability Setup** page that will help prevent delays when posting. The check will notify you when there's a mistake while working in the **Sustainability Journal**, and this will prevent you from posting the journal.  
+### Validate sustainability journals
 
-When you enable the validation, the **Journal Check** FactBox will show issues in the current line, and in the whole batch. Validation happens when you load a journal batch, and when you choose another journal line. The **Issues Total** tile in the FactBox shows the total number of issues that [!INCLUDE [prod_short](includes/prod_short.md)] found, and you can choose it to open an overview of the issues. 
+On the **Sustainability Setup** page, you can turn on a background check to help prevent posting delays. If any mistakes that occur while you work in the sustainability journal, the validation notifies you and prevents you from posting the journal.
 
-### Work with sustainability journals 
+When you enable the validation, the **Journal Check** FactBox shows issues on the current line and in the whole batch. Validation occurs when you load a journal batch and when you select another journal line. The **Issues Total** tile in the FactBox shows the total number of issues that [!INCLUDE [prod_short](includes/prod_short.md)] found. You can select the tile to open an overview of the issues.
 
-To start working with the **Sustainability Journals**, follow the steps:   
+### Work with sustainability journals
 
-1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Journal**, and then select the related link. 
-2. On the **Sustainability Journal** page, you can enter as many lines as you plan to post with the same batch.  
-3. As a **Document Type**, you can keep empty option, or choose to use **Invoice** or **Credit Memo**.  
-4. In the **Account No.** field, you can choose only **Sustainability Accounts** with selected **Direct Posting** field, **Posting** as the **Accounting Type** and non-blocked account. Also, Accounts must have configured with category and subcategory.  
+To start to work with sustainability journals, follow these steps:
 
->[!NOTE]
->If you use the batch where the emission scope is configured, the **Emission Scope** in the **Sustainability Account** must be equal to the **Emission Scope** in the used batch.  
+1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Journal**, and then select the related link.
+2. On the **Sustainability Journal** page, enter as many lines as you plan to post in the same batch.
+3. You can leave the **Document Type** field blank, or you can select **Invoice** or **Credit Memo**.
+4. In the **Account No.** field, you can select only non-blocked sustainability accounts where the **Direct Posting** field is selected and the **Accounting Type** field is set to **Posting**. The accounts must also be configured with a category and a subcategory.
 
-5. You have two options: either manually post the amounts or use formulas.   
+    > [!NOTE]
+    > If you use a batch where the emission scope is configured, the **Emission Scope** value in the sustainability account must equal the **Emission Scope** value in the batch.
 
-    1. If you have accurate information about the emission, you want to post it (i.e., you have it on the received invoice), you need to select the **Manual Input** field to specify that the amounts will be input manually. In this case, you can't populate your data in the **Fuel/Electricity**, **Distance**, **Custom Amount**, **Installation Multiplier**, and **Time Factor** fields, as they'll be non-editable for this choice. But the **Emission CO2**, **Emission CH4**, and **Emission N2O** fields will be editable, and you can fill in your data directly there. 
-    2. If you don't know your emission accurately, you need to calculate it, and you need to haven't selected the **Manual Input** field, and in this case the **Emission CO2**, **Emission CH4**, and **Emission N2O** fields will be non-editable, but you can enter your calculation details based on the formula you're using. You can find more about the used formulas and defined in the **Sustainability Account Category** here in the [Chart of Sustainability Accounts and Ledger](finance-sustainability-accounts-ledger.md#account-categories).
-  	
-7. To post the journal, choose the **Post** action. When posting in a **Sustainability Journal**, entries are generated on the **Sustainability Ledger**. 
+5. You can either manually post the amounts or use formulas.
 
-In the case your formula is based on the **Calculate from General Ledger** option in the **Sustainability Account Category**, you must use the **Collect Amount from G/L Entries** action before posting the journal to calculate emissions based on this data source. Also, if you'd made some changes in the emission factors after populating the journal lines, you must choose the **Recalculate** action to get the proper amount in the journal.  
+    - If you have accurate information about the emission and want to post it (that is, if you have the information on the received invoice), select the **Manual Input** field to indicate that you'll manually enter the amounts. In this case, you can't enter your data directly in the **Fuel/Electricity**, **Distance**, **Custom Amount**, **Installation Multiplier**, and **Time Factor** fields, because they become noneditable. However, the **Emission CO2**, **Emission CH4**, and **Emission N2O** fields remain editable, and you can enter your data directly in them.
+    - If you don't have accurate knowledge of the emission and must calculate it, don't select the **Manual Input** field. In this case, the **Emission CO2**, **Emission CH4**, and **Emission N2O** fields become noneditable. However, you can enter your calculation details based on the formula that you're using. Learn more about the formulas that are and defined in the **sustainability account category** in [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md#account-categories).
 
-### Recurring journals 
+6. To post the journal, select the **Post** action. When you post in a sustainability journal, entries are generated in the sustainability ledger.
 
-A recurring journal is a **Sustainability Journal** with specific fields for managing transactions that you often post with few, or if any, changes. For example, sustainability transactions such as electricity, heat, or other similar transactions. Using recurring journals, lets you post fixed and variable amounts. With a recurring journal, you create entries that will be posted regularly only one time. For example, the accounts, dimensions, dimension values, and so on, stay in the journal after posting. If changes are needed, you can make them each time you post. 
+If your formula is based on the **Calculate from General Ledger** option in the sustainability account category, you must use the **Collect Amount from G/L Entries** action before you post the journal, to calculate emissions based on this data source. Additionally, if you made changes to the emission factors after the journal lines were populated, you must select the **Recalculate** action to get the proper amount in the journal.
 
-The **Recurring Method** field is important. It determines how to treat the amount on the journal line after posting. For example, if you use the same amount every time you post the line, you can let the amount remain, and in this case, you should use the **F Fixed** as an option. If you use the same accounts and text on the line, but the amount will vary every time you post, you can choose to delete the amount after posting, and in this case, you'll choose the **V Variable** option. 
+### Recurring journals
 
-You also need to configure the **Recurring Frequency** field, as this date formula field determines how often to post the entry on the journal line, and it must be filled in. Learn more at [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas).  
+A recurring journal is a sustainability journal that has specific fields for managing transactions that you often post with few, if any, changes. Examples include sustainability transactions such as electricity or heat, or other similar transactions. You can use recurring journals to post fixed and variable amounts.
 
-The **Expiration Date** field determines the date on which the line will be posted for the last time. The line won't be posted after this date. The advantage of using the **Expiration Date** field is that the line won't be deleted from the journal immediately. You can enter a later date so that you can use the line in the future. If the field is blank, the line will be posted every time until it's deleted from the journal.  
+When you use a recurring journal, entries that you'll regularly post must be created only one time. Information such as the accounts, dimensions, and dimension values remain in the journal after posting. Each time that you post, you can make any changes that are needed.
 
-## See also  
-[Finance](finance.md)    
-[Sustainability management overview](finance-manage-sustainability.md)   
-[Sustainability Setup](finance-sustainability-setup.md)   
-[Chart of Sustainability Accounts and Ledger](finance-sustainability-accounts-ledger.md)   
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
+The **Recurring Method** field is important. It determines how the amount on the journal line is handled after posting. For example, if you use the same amount every time that you post the line, you can select the **F Fixed** option to let the amount remain after posting. If you use the same accounts and text on the line, but the amount varies every time that you post, you can select the **V Variable** option to delete the amount after posting.
+
+The **Recurring Frequency** field is also important and must be set. It's a date formula field that determines how often the entry on the journal line is posted. Learn more in [Use Date Formulas](ui-enter-date-ranges.md#use-date-formulas).
+
+The **Expiration Date** field determines the date when the line will be posted for the last time. The line won't be posted after that date. The advantage of using the **Expiration Date** field is that the line isn't immediately deleted from the journal. You can enter a later date so that you can use the line in the future. If the field is blank, the line will be posted every time, until it's deleted from the journal.
+
+## See also
+
+[Finance](finance.md)  
+[Sustainability management overview](finance-manage-sustainability.md)  
+[Sustainability Setup](finance-sustainability-setup.md)  
+[Chart of Sustainability Accounts and Ledger](finance-sustainability-accounts-ledger.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

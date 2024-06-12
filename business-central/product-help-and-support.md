@@ -1,17 +1,18 @@
 ---
-title: Resources for Help and Support
+title: Resources for help and support
 description: Find product Help, guidance, troubleshooting tips, and assistance, and learn how to get technical support for Business Central.
 author: brentholtorf
-ms.reviewer: na
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
-ms.author: bholtorf
-ms.date: 02/27/2024
+ms.date: 05/29/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# Resources for Help and Support
+# Resources for help and support
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -106,7 +107,7 @@ If you don't yet have a partner, the Community can also help you get unblocked i
 
 #### Blog
 
-We talk about new capabilities on [the Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), including if there are special considerations.  
+We talk about new capabilities on [the Dynamics 365 Blog](https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/product/dynamics-365-business-central/), including any special considerations.  
 
 #### Capabilities coming soon
 

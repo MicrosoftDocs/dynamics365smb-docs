@@ -1,9 +1,9 @@
 ---
-title: Register new customers by creating a Customer Card (contains video)
+title: Register new customers by creating a Customer Card
 description: Describes how to create a customer card to register information about each new customer or client you sell to.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: client, customer, credit
 ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305

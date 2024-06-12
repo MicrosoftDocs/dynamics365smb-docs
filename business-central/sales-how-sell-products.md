@@ -3,7 +3,7 @@ title: Create a customer sales order and sell products
 description: Describes how to create a sales order to record your agreement with a customer to sell or trade products under specific terms.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: soalex
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: trade, partial deliveries, customer sales order, shipping advice, partial shipments, 
 ms.search.form: 42, 48, 9305

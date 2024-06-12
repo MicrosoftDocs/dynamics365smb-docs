@@ -3,7 +3,7 @@ title: Ad-hoc data analysis
 description: Provides an overview of features that support ad-hoc data analyses in Business Central.
 author: jswymer
 ms.author: jswymer
-ms.reviewer: bholtorf
+ms.reviewer: jswymer
 ms.topic: get-started
 ms.search.keywords: feature overview
 ms.date: 04/30/2024
@@ -25,10 +25,7 @@ Sometimes you need to analyze data in [!INCLUDE[prod_short](includes/prod_short.
 
 The general content about ad-hoc data analysis is also available in special versions for many of the functional areas in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
-| If you work with... | See |
-| --- | --- |
-| Sales | [Ad-hoc analysis of sales data](ad-hoc-analysis-sales.md) |
-| Purchasing | [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md) |
+[!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
 
 ## See also

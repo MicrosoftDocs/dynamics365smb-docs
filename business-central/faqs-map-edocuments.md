@@ -64,15 +64,17 @@ Test data represents both typical use and use by bad actors. Performance was mea
 
 **E-documents Matching Assistance** performs best when external (e-invoice) and internal ([!INCLUDE [prod_short](includes/prod_short.md)]) item descriptions, and unit of measures are all in the same language. Mixed languages or mixed language of item descriptions often result in fewer matches and suggestions.  
 
-Suggested matching of items from e-invoices with items in purchase orders performs best in English language. Although you can use this feature in any language that [!INCLUDE [prod_short](includes/prod_short.md)] supports, you might experience fewer item matches in other languages.
+Suggested matching of items from e-invoices with items in purchase orders performs best in English language. Although you can use this feature in any language that [!INCLUDE [prod_short](includes/prod_short.md)] supports, you might experience fewer item matches in other languages. For more information about language, go to [In which geographies and languages is E-documents Matching Assistance available?](#in-which-geographies-and-languages-is-e-documents-matching-assistance-available).
 
-## In which geographies and languages is E-documents Matching Assistance available? 
+## In which geographies and languages is E-documents Matching Assistance available?
 
-This capability is available to any environment country/region localization and in any user language with the exception of Canada. Due to limited language support, the feature isn't initially available to Canadian customers because it doesn't meet regulatory language compliance. 
+- Available geographies
 
-For customer environments located in countries/regions where Azure OpenAI Service isn't deployed, for this capability to be available administrators must first consent to allowing movement of data across boundaries for [!INCLUDE [prod_short](includes/prod_short.md)] to connect to Azure OpenAI service.  
+   This Copilot feature is available in all supported [Business Central countries/regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). However, for customer environments located in countries/regions where Azure OpenAI Service isn't deployed, administrators must first consent to allowing their data to move across boundaries for [!INCLUDE [prod_short](includes/prod_short.md)] to connect to Azure OpenAI service. Learn more at [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
-For more information about language, go to [What are the limitations of E-documents Matching Assistance? How can users minimize the impact of the E-documents Matching Assistance limitations when using the system?](#what-are-the-limitations-of-e-documents-matching-assistance-how-can-users-minimize-the-impact-of-the-e-documents-matching-assistance-limitations-when-using-the-system).   
+- Available languages
+
+   [!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 

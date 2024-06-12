@@ -9,6 +9,7 @@ ms.search.form:
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Posting Documents and Journals
 

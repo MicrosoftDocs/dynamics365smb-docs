@@ -1,17 +1,18 @@
 ---
-title: Overview of Tasks to Configure Sales Processes
+title: Overview of tasks to configure sales processes
 description: Overview of tasks required to set up rules and values that define your sales policies and processes including general set-up and finance related sales set-up.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: trade, sell, configure
 ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
-ms.date: 06/23/2021
-ms.author: bholtorf
-
+ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
+
 ---
-# Setting Up Sales
+# Setting up sales
 
 Before you can manage sales processes, you must configure the rules and values that define the company's sales policies.
 

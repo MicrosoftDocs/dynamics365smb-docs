@@ -3,7 +3,7 @@ title: Create Bank Deposits
 description: You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: bank, deposit

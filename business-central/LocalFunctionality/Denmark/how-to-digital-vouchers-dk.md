@@ -9,7 +9,7 @@ ms.search.keywords: digital voucher, voucher, attachment, setup, denmark
 ms.search.form: 5579, 5582, 5587
 ms.date: 11/17/2023
 ms.custom: bap-template
-
+ms.reviewer: bholtorf
 ---
 
 # Set up digital vouchers in Denmark

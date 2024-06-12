@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 You can use reminders to remind customers about overdue amounts. You can also use reminders to calculate finance charges such as interest or fees and include them on the reminder.
 

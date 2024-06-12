@@ -10,6 +10,7 @@ ms.date: 09/05/2022
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Use a Power Automate flow to timely synchronize Dataverse entity changes
 

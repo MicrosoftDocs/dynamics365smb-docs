@@ -8,6 +8,7 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 01/22/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Connect to Power BI from Business Central on-premises
 
@@ -172,6 +173,6 @@ To share a report, in a list reports, or in an open report, select **Share**. In
 ## See also
 
 [Business Central and Power BI](admin-powerbi.md)  
-[Upload report from files](across-working-with-powerbi.md#upload-reports)  
+[Upload reports](across-working-with-business-central-in-powerbi.md#upload-reports)
  
 [!INCLUDE[footer-include](includes/footer-banner.md)]

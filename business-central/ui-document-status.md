@@ -8,6 +8,7 @@ ms.search.keywords: document, status, quote, order, credit memo, released, open,
 ms.search.form: 
 ms.date: 09/19/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
 # Status Field on Documents
 

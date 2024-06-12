@@ -9,6 +9,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Design Details: Item Application
 
@@ -134,13 +135,13 @@ If the user had not made the fixed application between the purchase credit memo 
 
 The following table shows the result on the item's value entries if step 2 in the previous scenario is performed without a fixed application.  
 
-|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)||Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
+|Posting Date|Item Ledger Entry Type|Valued Quantity|Cost Amount (Actual)|Valued by Average Cost|Item Ledger Entry No.|Entry No.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Purchase|1|200.00||No|1|1|  
-|01-01-20|Purchase|1|1000.00||No|2|2|  
-|01-01-20|Purchase|-1|433,33||Yes|3|3|  
-|01-01-20|Purchase|1|100.00||No|4|4|  
-|01-01-20|Sale|-2|866,67||Yes|5|5|  
+|01-01-20|Purchase|1|200.00|No|1|1|  
+|01-01-20|Purchase|1|1000.00|No|2|2|  
+|01-01-20|Purchase|-1|433,33|Yes|3|3|  
+|01-01-20|Purchase|1|100.00|No|4|4|  
+|01-01-20|Sale|-2|866,67|Yes|5|5|  
 
 In entry number 3, the value in the **Cost Amount (Actual)** field is valued by average and therefore includes the erroneous posting of 1000.00. Accordingly, it becomes -433,33, which is an inflated cost amount. The calculation is 1300 / 3 = .-433,33.  
 

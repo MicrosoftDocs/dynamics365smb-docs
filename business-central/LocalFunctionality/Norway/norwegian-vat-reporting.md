@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 737, 738, 743, 10601, 10604, 10692 ,10696
-ms.date: 04/30/2024
+ms.date: 06/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -13,7 +13,7 @@ ms.reviewer: bholtorf
 # Norwegian VAT reporting
 
 > [!IMPORTANT]
-> ID-porten in Norway has been changed. Microsoft updated Norwegian Electronic VAT submission solution to the new ID-porten system from the 23.5 release.
+> ID-porten in Norway has changed. Microsoft updated the Norwegian Electronic VAT submission solution to the new ID-porten system from the 23.5 release.
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] provides features that allow you to calculate and report VAT returns to the Norwegian tax authorities.  
 
@@ -103,17 +103,18 @@ To make it easier to set up VAT reporting, [!INCLUDE[prod_short](../../includes/
 #### Electronic VAT setup for existing users  
 
 > [!IMPORTANT]
-> If you are an existing user, you need to manually change some information on the **Electronic VAT Setup** page.  
+> If you're an existing user, you need to manually change some information on the **Electronic VAT Setup** page.  
 
-To update the electronic VAT setup for the use of the new ID-porten system, please follow the steps: 
+To update the electronic VAT setup for the use of the new ID-porten system, follow these steps:
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Electronic VAT Setup**, and then choose the related link.
 2. On the **Electronic VAT Setup** page, select the **General** FastTab, and then update the following values:
 
    1. In the **Authentication URL** field, specify 'https://idporten.no' 
    2. In the **Login URL** field, specify 'https://login.idporten.no'
-  
-   ** Note:  The login cannot be opened from a bookmark or a link.**
+
+   > [!NOTE]
+   > You can't open the sign in page from a bookmark or a link.
 
 3. Close the page.
 

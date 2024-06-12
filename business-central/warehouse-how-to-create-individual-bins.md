@@ -1,5 +1,5 @@
 ---
-    title: Create bins
+title: Create bins
 description: Generate groups of similar bins in the bin creation worksheet, create bins individually on the location card, or automatically on the Bin Creation Worksheet. 
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.devlang: al
 ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Create bins
 

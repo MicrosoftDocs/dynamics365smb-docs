@@ -1,5 +1,5 @@
 ---
-    title: How to Disregard Payment Discounts
+title: How to Disregard Payment Discounts
 description: Use the disregard payment discount at full payment feature to accept payments when certain conditions are true.
 
     services: project-madeira 
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Disregard Payment Discounts
 Use the disregard payment discount at full payment feature to accept payments when the following conditions are true:  

@@ -1,5 +1,5 @@
 ---
-    title: TDS calculation considering Threshold limits
+title: TDS calculation considering Threshold limits
 description: TDS calculation considering Threshold limits
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # TDS with Threshold
 

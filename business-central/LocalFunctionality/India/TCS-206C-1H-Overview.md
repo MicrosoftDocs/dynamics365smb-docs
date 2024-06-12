@@ -1,5 +1,5 @@
 ---
-    title: Setting up Tax Collected at Source for the section 206C(1H)
+title: Setting up Tax Collected at Source for the section 206C(1H)
 description: Specifies Basic Setups required for the section 206C(1H)
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Setting Up Tax Collected at Source (TCS), for the Section 206C(1H)
 

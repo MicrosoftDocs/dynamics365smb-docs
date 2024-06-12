@@ -1,5 +1,5 @@
 ---
-    title: Set Up Put-away Templates
+title: Set Up Put-away Templates
 description: Use Put-away templates to have the most appropriate bins for your items suggested to you at any given time.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.devlang: al
 ms.date: 10/04/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Set Up Put-away Templates
 

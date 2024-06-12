@@ -1,5 +1,5 @@
 ---
-    title: E-Invoice
+title: E-Invoice
 description: E-Invoice
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # E-Invoice
 

@@ -1,5 +1,5 @@
 ---
-    title: TDS Certificate Tracking
+title: TDS Certificate Tracking
 description: Specifies the TDS Certificate Tracking
 
 author: v-debapd
@@ -13,7 +13,7 @@ ms.author: bholtorf
 
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # TDS Certificate Tracking
 

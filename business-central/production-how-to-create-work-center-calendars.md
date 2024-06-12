@@ -1,5 +1,5 @@
 ---
-    title: Set Up Shop Calendars
+title: Set Up Shop Calendars
 description: Creating and enabling a work center calendar involves several tasks including setting up shop calendars and creating work shifts.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Set Up Shop Calendars
 

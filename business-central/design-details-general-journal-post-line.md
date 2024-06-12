@@ -1,5 +1,5 @@
 ---
-    title: Design Details - General Journal Post Line
+title: Design Details - General Journal Post Line
 description: This topic provides insight into the concepts and principles that are used to redesign the general journal posting line feature in Business Central.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 06/14/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Design Details: General Journal Post Line
 

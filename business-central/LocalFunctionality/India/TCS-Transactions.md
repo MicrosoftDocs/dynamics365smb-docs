@@ -1,5 +1,5 @@
 ---
-    title: TCS calculation on Sales and Receipt Transactions
+title: TCS calculation on Sales and Receipt Transactions
 description: TCS calculation on Sales and Receipt Transactions Transactions
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # TCS Calculation on Sales and Receipt Transactions
 

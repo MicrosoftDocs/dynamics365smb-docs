@@ -1,5 +1,5 @@
 ---
-    title: How to Export Financial Reports to ASC Format
+title: How to Export Financial Reports to ASC Format
 description: You can export the financial report data into a digital file format approved by the local tax authorities for certain reports.
     services: project-madeira 
     documentationcenter: ''
@@ -10,7 +10,7 @@ ms.search.keywords:
 ms.date: 08/26/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Export Financial Reports to ASC Format
 

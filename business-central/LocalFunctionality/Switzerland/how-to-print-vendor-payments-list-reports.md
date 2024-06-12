@@ -1,5 +1,5 @@
 ---
-    title: Print Vendor Payments List Reports [CH]
+title: Print Vendor Payments List Reports [CH]
 description: The Vendor Payments List report provides a list of payments for each vendor. The report can sort payments chronologically or grouped by vendor.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.search.keywords:
 ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Print Vendor Payments List Reports in the Swiss Version
 

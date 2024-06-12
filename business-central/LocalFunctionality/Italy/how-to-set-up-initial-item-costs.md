@@ -1,5 +1,5 @@
 ---
-    title: How to set up initial item costs [IT]
+title: How to set up initial item costs [IT]
 description: The following article explains how to set up initial item costs with the Before Start Item Cost feature.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.search.keywords:
 ms.date: 11/24/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Set up initial item costs in the Italian version
 When you set up [!INCLUDE[prod_short](../../includes/prod_short.md)] in your organization.  

@@ -1,5 +1,5 @@
 ---
-    title: Register Consumption Output for Prod Order
+title: Register Consumption Output for Prod Order
 description: This topic explains how to register consumption and output for a released production order line viewed on the Production Journal page.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 03/08/2023
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Register Consumption and Output for One Released Production order line
 

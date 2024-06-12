@@ -1,5 +1,5 @@
 ---
-    title: GST on Journals where Services paid directly through Cash or Bank
+title: GST on Journals where Services paid directly through Cash or Bank
 description: GST on Journals where Services paid directly through Cash or Bank
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # GST on Journals where Services are Paid Directly through Cash or Bank
 

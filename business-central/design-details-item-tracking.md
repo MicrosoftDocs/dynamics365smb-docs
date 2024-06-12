@@ -1,5 +1,5 @@
 ---
-    title: Design Details - Item Tracking
+title: Design Details - Item Tracking
 description: The item tracking system provides easy handling of serial and lot numbers, which may be needed for meeting legal requirements or assist with warranty handling. 
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Design Details: Item Tracking
 As the flow of goods in today's supply chain becomes more and more complex, the ability to keep track of items is increasingly important to the companies involved. Monitoring an item's transaction flow is a legal requirement in the business of medical and chemical supply, but other businesses may want to monitor products with warranties or expiration dates for customer service reasons.  

@@ -1,5 +1,5 @@
 ---
-    title: Purchase of Goods from SEZ Vendor
+title: Purchase of Goods from SEZ Vendor
 description: Purchase of Goods from SEZ Vendor
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Purchase of Goods from SEZ Vendor
 

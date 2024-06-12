@@ -1,5 +1,5 @@
 ---
-    title: View posted tax invoices [NZ]
+title: View posted tax invoices [NZ]
 description: Describes how to view the details of posted sales tax invoices and posted purchase tax invoices in the New Zealand version.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.devlang: al
 ms.date: 11/20/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # View posted tax invoices in the New Zealand version
 

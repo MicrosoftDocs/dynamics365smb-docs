@@ -1,5 +1,5 @@
 ---
-    title: Registration of Sales (EET) [CZ]
+title: Registration of Sales (EET) [CZ]
 description: Registration of sales (EET) is registration of sales coming from business activities and paid in cash.
 author: v-pejano
 
@@ -7,7 +7,7 @@ author: v-pejano
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, local, VAT, Control Report
 ms.date: 06/17/2021
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

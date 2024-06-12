@@ -1,5 +1,5 @@
 ---
-    title: GST on Advance Payment Application with Sales Invoice
+title: GST on Advance Payment Application with Sales Invoice
 description: GST on Advance Payment Application with Sales Invoice
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 
 # GST on Advance Payment and Application with Sales Invoice

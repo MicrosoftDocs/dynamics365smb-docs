@@ -1,5 +1,5 @@
 ---
-    title: Electronic Funds Transfer (EFT) [AU]
+title: Electronic Funds Transfer (EFT) [AU]
 description: You can pay vendors using the electronic funds transfer (EFT) system in Australia.
 author: brentholtorf
     
@@ -11,7 +11,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Electronic Funds Transfer (EFT) in the Australian Version
 

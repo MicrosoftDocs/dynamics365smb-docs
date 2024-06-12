@@ -1,5 +1,5 @@
 ---
-    title: Transactions for Input Service Distributor
+title: Transactions for Input Service Distributor
 description: Transactions for Input Service Distributor
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Transactions for Input Service Distributor
 

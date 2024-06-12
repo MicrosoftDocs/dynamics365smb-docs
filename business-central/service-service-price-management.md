@@ -1,5 +1,5 @@
 ---
-    title: Service Price Management
+title: Service Price Management
 description: Service price management lets you set up service price groups, service pricing, service pricing adjustment and more.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.search.keywords:
 ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Service Price Management
 The service price management functionality lets you apply the best price to service orders, set up personalized service price agreements for customers, improve service employees' efficiency, and accelerate the invoicing process.  

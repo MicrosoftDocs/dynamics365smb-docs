@@ -1,5 +1,5 @@
 ---
-    title: Manually Transfer and Post CODA Statements [BE]
+title: Manually Transfer and Post CODA Statements [BE]
 description: After you have applied and processed all CODA statement lines, you can manually transfer the CODA statement lines to a financial journal.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Manually Transfer and Post CODA Statements in the Belgian Version
 After you have applied and processed all CODA statement lines, you can manually transfer the CODA statement lines to a financial journal. The financial journal lets you enter a starting balance and an ending balance and automatically calculate the difference between the two balances. Posting is not allowed if the statement line amounts do not balance with the statement ending balance.  

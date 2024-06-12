@@ -1,5 +1,5 @@
 ---
-    title: Walkthrough - Tracing Serial-Lot Numbers
+title: Walkthrough - Tracing Serial-Lot Numbers
 description: This topic describes the actions that are needed to take to prevent selling a defective item, and also how to trace and recall items when needed.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.devlang: al
 ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Walkthrough: Tracing Serial/Lot Numbers
 

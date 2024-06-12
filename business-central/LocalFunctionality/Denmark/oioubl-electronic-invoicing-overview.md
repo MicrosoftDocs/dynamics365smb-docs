@@ -1,5 +1,5 @@
 ---
-    title: OIOUBL Electronic Invoicing Overview | Microsoft Docs
+title: OIOUBL Electronic Invoicing Overview | Microsoft Docs
 description: Learn about how Business Central support you in the requirement for sending sales documents to the Danish public sector electronically in the OIOUBL format.
 author: brentholtorf
 
@@ -11,7 +11,7 @@ ms.date: 11/11/2022
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # OIOUBL Electronic Invoicing Overview
 

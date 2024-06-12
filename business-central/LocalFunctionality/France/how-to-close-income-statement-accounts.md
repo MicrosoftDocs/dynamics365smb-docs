@@ -1,5 +1,5 @@
 ---
-    title: How to Close Income Statement Accounts [FR]
+title: How to Close Income Statement Accounts [FR]
 description: Before you can run the Close Income Statement batch job, you must close the fiscal year.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 06/18/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Close Income Statement Accounts in the French Version
 

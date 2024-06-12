@@ -1,5 +1,5 @@
 ---
-    title: Print vendor payments list reports in the German version
+title: Print vendor payments list reports in the German version
 description: The Vendor Payments List report provides a list of payments for each vendor in the German version. The report can sort payments chronologically or grouped by vendor.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.search.keywords:
 ms.date: 11/28/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Print vendor payments list reports in the German version
 

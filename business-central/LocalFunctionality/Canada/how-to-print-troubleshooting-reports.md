@@ -1,5 +1,5 @@
 ---
-    title: How to print troubleshooting reports [CA]
+title: How to print troubleshooting reports [CA]
 description: Several troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues in the Canadian version.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 11/27/2023
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Print troubleshooting reports in the Canadian version
 

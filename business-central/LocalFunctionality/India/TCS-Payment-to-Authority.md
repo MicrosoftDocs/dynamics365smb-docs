@@ -1,5 +1,5 @@
 ---
-    title: Payment of TCS to the Government Authorities
+title: Payment of TCS to the Government Authorities
 description: Payment of TCS to the Government Authorities
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Payment of TCS to Government Authorities
 

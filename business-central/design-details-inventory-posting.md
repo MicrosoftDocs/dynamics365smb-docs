@@ -1,5 +1,5 @@
 ---
-    title: Design Details - Inventory Posting | Microsoft Docs
+title: Design Details - Inventory Posting | Microsoft Docs
 description: Each inventory transaction, such as a purchase receipt or a sales shipment, posts two entries of different types.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Design Details: Inventory Posting
 

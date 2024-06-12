@@ -1,5 +1,5 @@
 ---
-    title: Issue Vendor Payments and Customer Bills (IT)
+title: Issue Vendor Payments and Customer Bills (IT)
 description: The vendor and customer bill pay feature supports SEPA-based formats in addition to Italian file formats.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.search.keywords:
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Issue Vendor Payments and Customer Bills
 

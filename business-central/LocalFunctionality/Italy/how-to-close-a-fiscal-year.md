@@ -1,5 +1,5 @@
 ---
-    title: How to Close a Fiscal Year
+title: How to Close a Fiscal Year
 description: To evaluate profit and loss, a fiscal year closing report is provided at the end of each fiscal year.
     services: project-madeira 
     documentationcenter: ''
@@ -10,7 +10,7 @@ ms.search.keywords:
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Close a Fiscal Year
 To evaluate profit and loss, a fiscal year closing report is provided at the end of each fiscal year.  

@@ -1,5 +1,5 @@
 ---
-    title: GST TDS and GST TCS on Customer Payments
+title: GST TDS and GST TCS on Customer Payments
 description: GST TDS and GST TCS on Customer Payments
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # GST TCS on Customer Payments
 

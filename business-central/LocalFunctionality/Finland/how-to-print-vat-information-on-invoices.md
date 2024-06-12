@@ -1,5 +1,5 @@
 ---
-    title: How to print VAT information on invoices [FI]
+title: How to print VAT information on invoices [FI]
 description: This article explains how you can use posting groups to print VAT information for each item on the sales invoice.
     services: project-madeira 
     documentationcenter: ''
@@ -10,7 +10,7 @@ ms.search.keywords:
 ms.date: 12/07/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 
 # Print VAT information on invoices

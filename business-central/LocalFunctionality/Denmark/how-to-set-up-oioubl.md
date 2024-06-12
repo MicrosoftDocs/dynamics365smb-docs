@@ -1,5 +1,5 @@
 ---
-    title: Set Up the OIOUBL Extension for Electronic Invoicing | Microsoft Docs
+title: Set Up the OIOUBL Extension for Electronic Invoicing | Microsoft Docs
 description: Describes what you need to do to get ready to submit sales documents in a Offentlig Information Online - Universal Business Language (OIOUBL) format.
 author: brentholtorf
 
@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Set Up OIOUBL
 

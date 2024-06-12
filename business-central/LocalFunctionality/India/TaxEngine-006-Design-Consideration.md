@@ -1,5 +1,5 @@
 ---
-    title: Tax Engine - Design Consideration
+title: Tax Engine - Design Consideration
 description: Tax Engine - Design Consideration
 
 author: v-debapd
@@ -11,7 +11,7 @@ ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Tax Engine - Design Consideration
 

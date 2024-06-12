@@ -1,5 +1,5 @@
 ---
-    title: Setting up Posting No. Series
+title: Setting up Posting No. Series
 description: Specifies Posting No. series required
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 09/20/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Setting up Posting No. Series
 

@@ -1,5 +1,5 @@
 ---
-    title: How to Unapply General Ledger Entries [FR]
+title: How to Unapply General Ledger Entries [FR]
 description: This article explains how to unapply general ledger entries in a very straightforward way with the Chart of Accounts feature.
 
     services: project-madeira 
@@ -12,7 +12,7 @@ ms.date: 06/18/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Unapply General Ledger Entries in the French Version
 You can unapply general ledger entries in a very straightforward way.  

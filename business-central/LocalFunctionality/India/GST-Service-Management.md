@@ -1,5 +1,5 @@
 ---
-    title: GST on Service Management
+title: GST on Service Management
 description: GST on Service Management
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # GST on Service Management
 

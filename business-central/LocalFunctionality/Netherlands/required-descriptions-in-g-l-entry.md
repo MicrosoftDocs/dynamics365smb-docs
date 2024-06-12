@@ -1,5 +1,5 @@
 ---
-    title: Required descriptions in G-L entry
+title: Required descriptions in G-L entry
 description: When entering general journal lines on a form, the system fills in automatically the description field.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.search.keywords:
 ms.date: 12/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Required descriptions in G-L entry
 

@@ -1,5 +1,5 @@
 ---
-    title: Input Service Distribution Process
+title: Input Service Distribution Process
 description: Input Service Distribution Process
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Input Service Distribution Process
 

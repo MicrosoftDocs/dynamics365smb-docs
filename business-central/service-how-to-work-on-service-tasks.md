@@ -1,5 +1,5 @@
 ---
-    title: How to Work on Service Tasks
+title: How to Work on Service Tasks
 description: This topic covers the different ways to work on service tasks. The Service Tasks page gives an overview of all the service items that need attention.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Work on Service Tasks
 After you have created a service order or service quote, registered service item lines, and allocated resources to the service items in the order or quote, you can start repairing and maintaining the service items.  

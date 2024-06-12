@@ -1,5 +1,5 @@
 ---
-    title: GDPdU Filter Examples [DE]
+title: GDPdU Filter Examples [DE]
 description: The following topic provides examples of how you can use and combine different filter types when you set up your GPDdU exports.
 author: brentholtorf
 ms.topic: conceptual
@@ -10,7 +10,7 @@ ms.date: 06/18/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # GDPdU Filter Examples in the German Version
 

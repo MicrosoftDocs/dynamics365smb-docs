@@ -1,5 +1,5 @@
 ---
-    title: How to import payment return data [NO]
+title: How to import payment return data [NO]
 description: This article explains how to import receipt and settlement returns, use the Rem. payment order – import page.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.search.keywords:
 ms.date: 12/20/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Import payment return data in the Norwegian version
 To import receipt and settlement returns, use the **Rem. payment order – import** page. If any errors are indicated when importing settlement returns, you can view this information on the **Settlement Info** page.  

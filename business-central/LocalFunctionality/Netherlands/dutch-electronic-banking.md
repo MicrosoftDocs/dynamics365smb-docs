@@ -1,5 +1,5 @@
 ---
-    title: Dutch Electronic Banking
+title: Dutch Electronic Banking
 description: This topic covers how to create electronic payment files and direct debit files, and import electronic bank statements from supported bank software.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.search.keywords:
 ms.date: 06/18/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Dutch Electronic Banking
 

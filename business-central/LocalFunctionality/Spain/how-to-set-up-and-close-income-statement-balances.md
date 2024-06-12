@@ -1,5 +1,5 @@
 ---
-    title: How to Set Up and Close Income Statement Balances
+title: How to Set Up and Close Income Statement Balances
 description: You can use income statement balancing accounts to balance and track several accounts at the same time.
     services: project-madeira 
     documentationcenter: ''
@@ -10,7 +10,7 @@ ms.search.keywords:
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Set Up and Close Income Statement Balances
 You can use income statement balancing accounts to balance and track several accounts at the same time. The **Close Income Statement** batch job transfers income statement accounts to an account in the balance sheet, and closes the income statement accounts. When the **Close Income Statement** batch job is run, the entries are automatically posted.  

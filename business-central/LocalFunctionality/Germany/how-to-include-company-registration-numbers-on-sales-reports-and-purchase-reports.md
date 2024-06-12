@@ -1,5 +1,5 @@
 ---
-    title: Include Company Registration Numbers on Sales and Purchase Reports
+title: Include Company Registration Numbers on Sales and Purchase Reports
 description: When generating certain sales reports and purchase reports, you can print registration numbers on the reports.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Include Company Registration Numbers on Sales Reports and Purchase Reports
 When generating certain sales reports and purchase reports, you can print registration numbers on the reports.  

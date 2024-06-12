@@ -1,5 +1,5 @@
 ---
-    title: Austria Local Functionality
+title: Austria Local Functionality
 description: The following topics describe the various local functionality in the Austrian version of Business Central.
 author: sorenfriisalexandersen
 
@@ -11,7 +11,7 @@ ms.date: 03/17/2023
 ms.author: soalex
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Austria Local Functionality
 The following topics describe local functionality that is unique to the Austrian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  

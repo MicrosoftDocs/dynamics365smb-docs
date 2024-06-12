@@ -1,5 +1,5 @@
 ---
-    title: Print VAT Reports [GB]
+title: Print VAT Reports [GB]
 description: This topic explains the different reports that you can use to report VAT information and how to print each one.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.search.keywords:
 ms.date: 06/21/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Print VAT Reports in the British Version
 You can use the following reports for VAT reporting:  

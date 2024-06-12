@@ -1,5 +1,5 @@
 ---
-    title: Scenario 2 foreign payment (FCY to FCY) [NL]
+title: Scenario 2 foreign payment (FCY to FCY) [NL]
 description: This article describes a scenario 2 where you can use telebanking for trade with domestic and foreign customers and vendors.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.search.keywords:
 ms.date: 12/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Payment Scenario 2 - Foreign payment (FCY to FCY) in the Dutch version
 You can use telebanking for trade with domestic and foreign customers and vendors. This article describes a scenario where the trade is with foreign customers and vendor that use the same foreign currency as your bank account is set up to use.  

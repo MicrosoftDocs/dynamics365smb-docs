@@ -1,5 +1,5 @@
 ---
-    title: Purchase Return to Registered Vendor
+title: Purchase Return to Registered Vendor
 description: Purchase Return to Registered Vendor
 author: v-debapd
 
@@ -10,7 +10,7 @@ ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Purchase Return to Registered Vendor
 

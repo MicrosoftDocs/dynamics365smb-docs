@@ -1,5 +1,5 @@
 ---
-    title: Transaction on Voucher Interface
+title: Transaction on Voucher Interface
 description: Transaction on Voucher Interface
 
 author: v-debapd
@@ -13,7 +13,7 @@ ms.author: bholtorf
 
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Voucher Transaction
 

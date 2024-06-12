@@ -1,5 +1,5 @@
 ---
-    title: Modify planning suggestions in graphical view
+title: Modify planning suggestions in graphical view
 description: Typical planning activity- change or add planning worksheet lines to modify suggested supply orders before you commit run Carry out Action Message function.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 11/22/2023
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Modify planning suggestions in a graphical view
 

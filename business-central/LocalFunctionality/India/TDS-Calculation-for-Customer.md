@@ -1,5 +1,5 @@
 ---
-    title: TDS calculation for Customer
+title: TDS calculation for Customer
 description: Specifies a calculation and tracking process of TDS on customer
 
 author: v-debapd
@@ -13,7 +13,7 @@ ms.author: bholtorf
 
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # TDS for Customer 
 

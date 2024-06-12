@@ -1,5 +1,5 @@
 ---
-    title: Gate Entry Outward Transactions
+title: Gate Entry Outward Transactions
 description: Gate Entry Outward Transactions.
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Create and Attach Outward Gate Entries
 

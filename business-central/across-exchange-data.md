@@ -1,5 +1,5 @@
 ---
-    title: Exchanging Data
+title: Exchanging Data
 description: Exchange electronic business documents, for example bank files, between Business Central and external parties. 
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.search.keywords: exchange data, external files, electronic documents, AMC Ban
 ms.date: 06/10/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Exchanging Data
 You can exchange data between [!INCLUDE[prod_short](includes/prod_short.md)] and external files or streams in connection with common business tasks, such as sending and receiving electronic documents and importing and exporting bank files.  

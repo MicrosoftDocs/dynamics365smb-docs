@@ -1,5 +1,5 @@
 ---
-    title: Sale of Services to Overseas Place of Supply to registered customer
+title: Sale of Services to Overseas Place of Supply to registered customer
 description: Sale of Services to Overseas Place of Supply to registered customer
 
 author: v-debapd
@@ -13,7 +13,7 @@ ms.author: bholtorf
 
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Sale of Services to Overseas Place of Supply to Registered Customer
 

@@ -1,5 +1,5 @@
 ---
-    title: Service Compliance and SLA
+title: Service Compliance and SLA
 description: From a service perspective Business Central lives up to the strict requirements and SLA compliance in several ISO and industry specific certifications.
 author: sorenfriisalexandersen
 
@@ -7,7 +7,7 @@ author: sorenfriisalexandersen
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ms.date: 06/14/2021
 ms.author: soalex
 

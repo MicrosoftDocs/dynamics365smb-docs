@@ -1,5 +1,5 @@
 ---
-    title: Set Up Work Centers and Machine Centers
+title: Set Up Work Centers and Machine Centers
 description: A Work Center card organizes the fixed values and requirements of the production resource, and thus governs the output of production performed in that work center.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Set Up Work Centers and Machine Centers
 

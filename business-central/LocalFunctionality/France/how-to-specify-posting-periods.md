@@ -1,5 +1,5 @@
 ---
-    title: How to Specify Posting Periods [FR]
+title: How to Specify Posting Periods [FR]
 description: When you specify posting periods, you limit the period in which posting is allowed.
 
 author: brentholtorf
@@ -10,7 +10,7 @@ ms.date: 06/18/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Specify Posting Periods In the French Version
 

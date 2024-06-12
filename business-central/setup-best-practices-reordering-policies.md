@@ -1,5 +1,5 @@
 ---
-    title: Setup Best Practices - Reordering Policies | Microsoft Docs
+title: Setup Best Practices - Reordering Policies | Microsoft Docs
 description: The Reordering Policy field on item cards offers four different planning methods that determine how the individual planning parameters interact.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Setup Best Practices: Reordering Policies
 

@@ -1,5 +1,5 @@
 ---
-    title: Addresses in Australia
+title: Addresses in Australia
 description: Use the Post Code feature to improve accuracy for cases in which a single postal code can include multiple cities in the same region.
     ms.custom: en-AU
 author: brentholtorf
@@ -10,7 +10,7 @@ ms.date: 11/22/2023
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # About addresses in the Australian version
 

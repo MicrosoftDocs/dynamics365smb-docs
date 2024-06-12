@@ -1,5 +1,5 @@
 ---
-    title: Purchase from Registered Vendors
+title: Purchase from Registered Vendors
 description: Purchase from Registered Vendors
 
     
@@ -12,7 +12,7 @@ ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Purchase from Registered Vendors
 

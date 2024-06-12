@@ -1,5 +1,5 @@
 ---
-    title: How to upgrade a .DTD definition file [DE]
+title: How to upgrade a .DTD definition file [DE]
 description: You can explicitly validate a .dtd file after you import one in order to address upgrade issues in the German version.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.search.keywords:
 ms.date: 11/17/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Upgrade a .DTD definition file for digital audits in the German version
 

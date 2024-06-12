@@ -1,5 +1,5 @@
 ---
-    title: Cartera Module
+title: Cartera Module
 description: The Cartera module allows you to use specific documents, such as bills of exchange and promissory notes, to manage customer and vendor payments.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.search.keywords:
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Cartera Module
 The Cartera module allows you to use specific documents, such as bills of exchange and promissory notes, to manage customer and vendor payments.  

@@ -1,5 +1,5 @@
 ---
-    title: Germany local functionality
+title: Germany local functionality
 description: The following articles describe the local functionality available in the German version of Business Central.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.search.keywords:
 ms.date: 02/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Germany local functionality
 

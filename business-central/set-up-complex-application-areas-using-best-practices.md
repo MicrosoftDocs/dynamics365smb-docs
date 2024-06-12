@@ -1,5 +1,5 @@
 ---
-    title: Set Up Complex Application Areas Using Best Practices | Microsoft Docs
+title: Set Up Complex Application Areas Using Best Practices | Microsoft Docs
 description: Entering the correct setup values from the start is important to the success of any new business software.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Set Up Complex Application Areas Using Best Practices
 Entering the correct setup values from the start is important to the success of any new business software.  

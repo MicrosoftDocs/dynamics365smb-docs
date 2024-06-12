@@ -1,5 +1,5 @@
 ---
-    title: GST TCS on Vendor Payment
+title: GST TCS on Vendor Payment
 description: GST TCS on Vendor Payment
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # GST TCS on Vendor Payment
 

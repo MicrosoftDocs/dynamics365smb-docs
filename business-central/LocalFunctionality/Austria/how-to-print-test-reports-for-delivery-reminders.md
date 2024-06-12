@@ -1,5 +1,5 @@
 ---
-    title: Print test reports for delivery reminders [AT]
+title: Print test reports for delivery reminders [AT]
 description: After you create delivery reminders and made any needed modifications, you can either print the test reports or issue the delivery reminders.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.search.keywords:
 ms.date: 11/17/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Print test reports for delivery reminders in the Austrian version
 

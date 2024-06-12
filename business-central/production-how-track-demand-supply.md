@@ -1,5 +1,5 @@
 ---
-    title: Track Relations Between Demand and Supply
+title: Track Relations Between Demand and Supply
 description: This topic explains the different ways to track relations between demand and supply such as tracking linked items and dealing with untracked planing elements.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Track Relations Between Demand and Supply
 

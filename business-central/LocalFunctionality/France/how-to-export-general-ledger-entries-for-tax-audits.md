@@ -1,5 +1,5 @@
 ---
-    title: Export General Ledger Entries Tax Audits [FR]
+title: Export General Ledger Entries Tax Audits [FR]
 description: This topic describes how to prepare audit files to comply with the specified tax regulations in France.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Export General Ledger Entries for Tax Audits in the French Version
 In France, companies must provide corporate tax and VAT information, such as transactions and general ledger postings, for audits in a file format that is specified by tax authorities. In [!INCLUDE[prod_short](../../includes/prod_short.md)], this information is recorded in a standard audit file that is designed to provide information about account types that include posted entries.

@@ -1,5 +1,5 @@
 ---
-    title: Tax Engine - Tax Configuration 02
+title: Tax Engine - Tax Configuration 02
 description: Tax Engine - Tax Configuration
 author: v-debapd
 
@@ -10,7 +10,7 @@ ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Tax Engine - Use Case Configuration
 

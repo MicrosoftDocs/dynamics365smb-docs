@@ -1,5 +1,5 @@
 ---
-    title: How to print periodic VAT reports [BE]
+title: How to print periodic VAT reports [BE]
 description: The VAT reporting feature enables you to print VAT transaction details. You must send three VAT reports to the Belgian tax authorities.
     services: project-madeira 
     documentationcenter: ''
@@ -11,7 +11,7 @@ ms.search.keywords:
 ms.date: 11/28/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 
 # Print periodic VAT reports in the Belgian version

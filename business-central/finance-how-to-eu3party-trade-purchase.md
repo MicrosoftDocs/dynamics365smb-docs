@@ -1,5 +1,5 @@
 ---
-    title: EU third-party purchase transactions
+title: EU third-party purchase transactions
 description: This article topic explains how to set up and use European Union (EU) third-party purchase transactions.
 author: altotovi
 ms.topic: conceptual
@@ -10,7 +10,7 @@ ms.date: 07/07/2023
 ms.author: altotovi
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 
 # EU third-party purchase transactions

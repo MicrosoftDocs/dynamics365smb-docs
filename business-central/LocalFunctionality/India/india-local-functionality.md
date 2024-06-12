@@ -1,5 +1,5 @@
 ---
-    title: India Local Functionality | Microsoft Docs
+title: India Local Functionality | Microsoft Docs
 description: This section describes local functionality in India.
 author: v-debapd
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # India Local Functionality
 

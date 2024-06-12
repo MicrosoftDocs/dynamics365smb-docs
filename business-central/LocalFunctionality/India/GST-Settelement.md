@@ -1,5 +1,5 @@
 ---
-    title: GST Settlement of Net Payment Liability
+title: GST Settlement of Net Payment Liability
 description: GST Settlement of Net Payment Liability
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # GST Settlement of Net Payment Liability
 

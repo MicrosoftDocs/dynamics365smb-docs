@@ -1,5 +1,5 @@
 ---
-    title: Export of Goods and/or Services to Foreign Customer
+title: Export of Goods and/or Services to Foreign Customer
 description: Export of Goods and Services to Foreign Customer
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Export of Goods and Services to Foreign Customer
 

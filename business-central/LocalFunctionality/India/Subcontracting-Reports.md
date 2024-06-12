@@ -1,5 +1,5 @@
 ---
-    title: Sub Contracting Reports
+title: Sub Contracting Reports
 description: Sub Contracting Reports
 
     
@@ -12,7 +12,7 @@ ms.search.keywords: India, local, IN, English
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 
 

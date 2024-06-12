@@ -1,5 +1,5 @@
 ---
-    title: How to Print Troubleshooting Reports [MX]
+title: How to Print Troubleshooting Reports [MX]
 description: Troubleshooting reports are available to assist Microsoft Certified Partners with troubleshooting issues in the Mexican version.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.search.keywords:
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Print Troubleshooting Reports in the Mexican Version
 

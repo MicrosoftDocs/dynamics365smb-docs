@@ -1,5 +1,5 @@
 ---
-    title: Purchase Return to Unregistered Vendor (Reverse Charge)
+title: Purchase Return to Unregistered Vendor (Reverse Charge)
 description: Purchase Return to Unregistered Vendor (Reverse Charge)
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Purchase Return to Unregistered Vendor (Reverse Charge)
 

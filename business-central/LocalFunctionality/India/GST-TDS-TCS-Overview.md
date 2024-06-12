@@ -1,5 +1,5 @@
 ---
-    title: Setting up for GST TDS and GST TCS
+title: Setting up for GST TDS and GST TCS
 description: Setting up for GST TDS and GST TCS
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Setup for GST TDS and GST TCS 
 

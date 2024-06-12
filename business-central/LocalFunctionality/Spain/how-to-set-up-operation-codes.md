@@ -1,5 +1,5 @@
 ---
-    title: How to Set Up Operation Codes
+title: How to Set Up Operation Codes
 description: You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in Business Central.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.search.keywords:
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Set Up Operation Codes
 You can add as many operation codes as you want to the table. However, the operation codes C, D, and I already exist in [!INCLUDE[prod_short](../../includes/prod_short.md)]. For example, Credit Memos always have the operation code D. You cannot set up these values in the table because they are system-created codes. If you try to add them, [!INCLUDE[prod_short](../../includes/prod_short.md)] will return an error.  

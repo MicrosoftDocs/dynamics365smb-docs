@@ -1,5 +1,5 @@
 ---
-    title: GST and TDS on Vendor Advance Payments
+title: GST and TDS on Vendor Advance Payments
 description: GST and TDS on Vendor Advance Payments
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # GST and TDS on Vendor Advance Payments
 

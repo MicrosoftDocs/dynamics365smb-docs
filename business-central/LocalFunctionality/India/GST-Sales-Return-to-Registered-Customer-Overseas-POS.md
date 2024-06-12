@@ -1,5 +1,5 @@
 ---
-    title: Sales returns from registered customers for goods with an overseas place of supply
+title: Sales returns from registered customers for goods with an overseas place of supply
 description: Return or Credit Note of Services for Overseas Place of Supply to Registered Customer
 author: v-debapd
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.search.keywords: India, local, IN, English
 ms.date: 11/28/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 
 # Sales returns from registered customers for goods with an overseas place of supply

@@ -1,5 +1,5 @@
 ---
-    title: Dimension Set Entries Overview
+title: Dimension Set Entries Overview
 description: This article gives you an overview of how dimension set entries are stored as dimension set entries and how they are posted.
 author: brentholtorf
 ms.topic: overview
@@ -9,7 +9,7 @@ ms.date: 06/14/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Dimension Set Entries Overview
 This topic describes how dimension set entries are stored and posted in [!INCLUDE[prod_short](includes/prod_short.md)].  

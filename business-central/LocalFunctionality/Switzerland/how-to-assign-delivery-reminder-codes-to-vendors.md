@@ -1,5 +1,5 @@
 ---
-    title: Assign Delivery Reminder Codes to Vendors [CH]
+title: Assign Delivery Reminder Codes to Vendors [CH]
 description: In order to enable delivery reminders for overdue purchases, you must assign delivery reminder terms to vendors in the Swiss version.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.search.keywords:
 ms.date: 11/03/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Assign delivery reminder codes to vendors in the Swiss version
 

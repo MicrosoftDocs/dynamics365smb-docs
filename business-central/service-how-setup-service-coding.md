@@ -1,5 +1,5 @@
 ---
-    title: Set Up Codes for Standard Services
+title: Set Up Codes for Standard Services
 description: Learn how to set up codes for regularly performed service activities with a predefined set of service lines.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 
 # Set Up Standard Service Codes

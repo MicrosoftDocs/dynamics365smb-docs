@@ -1,5 +1,5 @@
 ---
-    title: Set Up Base Calendars
+title: Set Up Base Calendars
 description: You can assign a base calendar to your company and its business partners, to calculate delivery and receipt dates according to the specified working days.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.devlang: al
 ms.date: 06/11/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Set Up Base Calendars
 

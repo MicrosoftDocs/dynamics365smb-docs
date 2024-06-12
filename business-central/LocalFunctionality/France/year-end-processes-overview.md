@@ -1,5 +1,5 @@
 ---
-    title: Year End Processes Overview [FR]
+title: Year End Processes Overview [FR]
 description: This is an overview of the processes involved in the fiscal year end closing entry in Business Central.
 
 author: brentholtorf
@@ -10,7 +10,7 @@ ms.date: 06/18/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Year End Processes Overview in the French Version
 

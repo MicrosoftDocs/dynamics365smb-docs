@@ -1,5 +1,5 @@
 ---
-    title: GST and Kerala Flood Cess on Sales Transaction
+title: GST and Kerala Flood Cess on Sales Transaction
 description: GST and Kerala Flood Cess on Sales Transaction
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # GST and Kerala Flood Cess on Sales Transaction
 

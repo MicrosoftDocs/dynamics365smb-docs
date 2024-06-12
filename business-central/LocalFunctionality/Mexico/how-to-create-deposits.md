@@ -1,5 +1,5 @@
 ---
-    title: How to create deposits [MX]
+title: How to create deposits [MX]
 description: Make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos with the Mexican version.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,7 +9,7 @@ ms.search.keywords:
 ms.date: 11/27/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Create deposits in the Mexican version
 

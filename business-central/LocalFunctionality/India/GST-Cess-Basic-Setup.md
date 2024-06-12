@@ -1,5 +1,5 @@
 ---
-    title: Setting up GST Compensation Cess
+title: Setting up GST Compensation Cess
 description: Specifies Basic Setups required for GST Compensation Cess
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # Setting Up GST Compensation Cess
 

@@ -1,5 +1,5 @@
 ---
-    title: TDS calculation and transactions as per Section 194Q
+title: TDS calculation and transactions as per Section 194Q
 description: TDS calculation and transactions as per Section 194Q.
 
 author: v-debapd
@@ -12,7 +12,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.reviewer: bholtorf
 ---
 # TDS calculation and transactions as per Section 194Q
 

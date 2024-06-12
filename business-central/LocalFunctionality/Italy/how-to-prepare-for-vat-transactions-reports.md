@@ -1,14 +1,14 @@
 ---
     title: Prepare for VAT transactions reports [IT]
-    description: The following article explains how to prepare and submit the periodic VAT Transactions Reports to the tax authorities. 
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 11/17/2023
-    ms.author: bholtorf
+description: The following article explains how to prepare and submit the periodic VAT Transactions Reports to the tax authorities. 
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/17/2023
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Prepare for VAT transactions reports in the Italian version

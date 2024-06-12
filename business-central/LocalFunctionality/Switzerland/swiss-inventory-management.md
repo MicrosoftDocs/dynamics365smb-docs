@@ -1,13 +1,13 @@
 ---
     title: Swiss inventory management [CH]
-    description: This article describes Swiss enhancements to special inventory management features in Business Central.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 11/23/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+description: This article describes Swiss enhancements to special inventory management features in Business Central.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/23/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Swiss inventory management

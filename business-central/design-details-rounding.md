@@ -1,14 +1,14 @@
 ---
     title: Design Details - Rounding
-    description: Rounding residuals can occur when you value the cost of an inventory decrease measured in a different quantity than the corresponding inventory increase.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/08/2021
-    ms.author: bholtorf
+description: Rounding residuals can occur when you value the cost of an inventory decrease measured in a different quantity than the corresponding inventory increase.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/08/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Design Details: Rounding

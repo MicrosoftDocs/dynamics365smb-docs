@@ -1,14 +1,14 @@
 ---
     title: How to Set Up Shipping Agents
-    description: Learn how to set up a code for each of your shipping agents and enter descriptive information about each of them and the services they provide.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/23/2021
-    ms.author: bholtorf
+description: Learn how to set up a code for each of your shipping agents and enter descriptive information about each of them and the services they provide.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/23/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Set Up Shipping Agents

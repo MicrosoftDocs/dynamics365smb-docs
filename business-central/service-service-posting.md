@@ -1,14 +1,14 @@
 ---
     title: Service Posting
-    description: Service posting functionality lets you process your documents efficiently and maintain successful customer service policy.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/23/2021
-    ms.author: bholtorf
+description: Service posting functionality lets you process your documents efficiently and maintain successful customer service policy.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/23/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Service Posting

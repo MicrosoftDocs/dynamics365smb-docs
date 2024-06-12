@@ -1,13 +1,13 @@
 ---
     title: Single EURO Payments Area (SEPA)
-    description: The Single Euro Payments Area (SEPA) unifies payment methods in participating European countries/regions, making international payments as easy to process as domestic payments.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+description: The Single Euro Payments Area (SEPA) unifies payment methods in participating European countries/regions, making international payments as easy to process as domestic payments.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Single EURO Payments Area (SEPA)

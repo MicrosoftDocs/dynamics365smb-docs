@@ -1,14 +1,14 @@
 ---
     title: Design Details - Item Tracking Availability
-    description: The Item Tracking Lines and Item Tracking Summary pages provide dynamic availability information for serial or lot numbers, increasing transparency for users.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/15/2021
-    ms.author: bholtorf
+description: The Item Tracking Lines and Item Tracking Summary pages provide dynamic availability information for serial or lot numbers, increasing transparency for users.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/15/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Design Details: Item Tracking Availability

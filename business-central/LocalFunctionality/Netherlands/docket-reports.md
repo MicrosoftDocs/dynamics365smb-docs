@@ -1,13 +1,13 @@
 ---
     title: Docket Reports [NL]
-    description: The Dutch telebanking application allows you to combine ledger entries for the same customer or vendor into one payment or collection order to the bank.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+description: The Dutch telebanking application allows you to combine ledger entries for the same customer or vendor into one payment or collection order to the bank.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/18/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Docket Reports in the Dutch Version

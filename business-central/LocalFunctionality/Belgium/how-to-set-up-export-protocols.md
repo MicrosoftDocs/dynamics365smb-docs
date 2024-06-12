@@ -1,18 +1,18 @@
 ---
     title: How to Set Up Export Protocols [BE]
-    description: Before using electronic banking, you must set up export protocols that define the file format generated when you export payment history processed by the bank.
+description: Before using electronic banking, you must set up export protocols that define the file format generated when you export payment history processed by the bank.
 
     services: project-madeira 
     documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
     ms.search.form: 2000005
-    ms.date: 06/17/2021
-    ms.author: bholtorf
+ms.date: 06/17/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Set Up Export Protocols in the Belgian Version

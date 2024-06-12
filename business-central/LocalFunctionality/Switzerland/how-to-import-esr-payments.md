@@ -1,14 +1,14 @@
 ---
     title: Import ESR Payments [CH]
-    description: After you receive payment from a customer, you can receive the ESR file that contains information about paid invoices from your bank electronically. 
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
+description: After you receive payment from a customer, you can receive the ESR file that contains information about paid invoices from your bank electronically. 
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
     ms.search.form: 3010531, 3010532
-    ms.date: 06/21/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+ms.date: 06/21/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Import ESR Payments in the Swiss Version

@@ -1,17 +1,17 @@
 ---
     title: Purchase Return of Services for Overseas Place of Supply to Registered Vendor
-    description: Purchase Return of Services for Overseas Place of Supply to Registered Vendor
+description: Purchase Return of Services for Overseas Place of Supply to Registered Vendor
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Purchase Return of Services for Overseas Place of Supply to Registered Vendor

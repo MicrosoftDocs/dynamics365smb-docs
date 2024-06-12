@@ -1,13 +1,13 @@
 ---
     title: Allocation Status and Repair Status | Microsoft Docs
-    description: Learn about the relationship between the repair status of service items and the allocation status of the allocation entries for them.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords: resources, allocation, status, repairs
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+description: Learn about the relationship between the repair status of service items and the allocation status of the allocation entries for them.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: resources, allocation, status, repairs
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Allocation Status and Repair Status of Service Items

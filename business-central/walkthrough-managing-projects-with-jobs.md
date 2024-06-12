@@ -1,13 +1,13 @@
 ---
     title: Walkthrough - Managing Projects with Projects
-    description: This walkthrough introduces you to the project management features in projects which allow you to schedule the usage of your company's resources and more.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
+description: This walkthrough introduces you to the project management features in projects which allow you to schedule the usage of your company's resources and more.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
     ms.search.keywords:
-    ms.date: 06/24/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+ms.date: 06/24/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Walkthrough: Managing Projects

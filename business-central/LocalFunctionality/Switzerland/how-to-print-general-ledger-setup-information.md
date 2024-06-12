@@ -1,13 +1,13 @@
 ---
     title: Print General Ledger Setup Information [CH]
-    description: Before you use Business Central in your daily business, you can run the G/L Setup Information report to display the master data that you have set up.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/25/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+description: Before you use Business Central in your daily business, you can run the G/L Setup Information report to display the master data that you have set up.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/25/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Print General Ledger Setup Information in the Swiss Version

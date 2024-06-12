@@ -1,15 +1,15 @@
 ---
     title: How to Export VAT Statements in Text Format
-    description: You can export a VAT statement in text format and then submit it electronically to the tax authorities.
+description: You can export a VAT statement in text format and then submit it electronically to the tax authorities.
     services: project-madeira 
     documentationcenter: ''
-    author: brentholtorf 
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+author: brentholtorf 
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Export VAT Statements in Text Format

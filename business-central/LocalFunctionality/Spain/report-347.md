@@ -1,13 +1,13 @@
 ---
     title: Report 347 [ES]
-    description: Report 347 is a required annual report sent by all companies to the tax authorities to reflect the sales or purchases in a given period. 
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/21/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+description: Report 347 is a required annual report sent by all companies to the tax authorities to reflect the sales or purchases in a given period. 
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/21/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Report 347 in the Spanish Version

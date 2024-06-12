@@ -1,14 +1,14 @@
 ---
     title: Service Items and Service Item Components
-    description: Learn about the things you must set up before you can use service items, including default values such as response time and service price group.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/25/2021
-    ms.author: bholtorf
+description: Learn about the things you must set up before you can use service items, including default values such as response time and service price group.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/25/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Set Up Service Items and Service Item Components

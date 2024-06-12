@@ -1,17 +1,17 @@
 ---
     title: Cess Calculation
-    description: Cess Calculation
+description: Cess Calculation
 
     
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: article
-    ms.devlang: al
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Cess Calculation

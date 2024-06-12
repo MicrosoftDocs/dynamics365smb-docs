@@ -1,16 +1,16 @@
 ---
     title: How to correct VAT transactions reports [IT]
-    description: The following article is an explanation of how you can correct and resend electronic VAT transaction reports.
+description: The following article is an explanation of how you can correct and resend electronic VAT transaction reports.
     services: project-madeira 
     documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 11/21/2023
-    ms.author: bholtorf
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/21/2023
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Correct VAT transactions reports in the Italian version

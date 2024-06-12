@@ -1,15 +1,15 @@
 ---
     title: Print test reports for delivery reminders [CH]
-    description: After you create delivery reminders and made needed modifications in Switzerland, you can either print the test reports or issue the delivery reminders.
+description: After you create delivery reminders and made needed modifications in Switzerland, you can either print the test reports or issue the delivery reminders.
     services: project-madeira 
     documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 11/21/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/21/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Print test reports for delivery reminders in the Swiss version

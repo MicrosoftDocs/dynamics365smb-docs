@@ -1,13 +1,13 @@
 ---
     title: Design Details - Active versus Historic Item Tracking Entries
-    description: When parts of a document line quantity are posted, only that quantity is transferred to the item ledger entries and its item tracking numbers.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/15/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+description: When parts of a document line quantity are posted, only that quantity is transferred to the item ledger entries and its item tracking numbers.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/15/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Design Details: Active versus Historic Item Tracking Entries

@@ -1,14 +1,14 @@
 ---
     title: Use the Manufacturing Batch Unit of Measure
-    description: This topic gives an overview of how to work with manufacturing batch units of measure in Business Central. 
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/25/2021
-    ms.author: bholtorf
+description: This topic gives an overview of how to work with manufacturing batch units of measure in Business Central. 
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/25/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Work with Manufacturing Batch Units of Measure

@@ -1,14 +1,14 @@
 ---
     title: Export General Ledger Entries Tax Audits [FR]
-    description: This topic describes how to prepare audit files to comply with the specified tax regulations in France.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/25/2021
-    ms.author: bholtorf
+description: This topic describes how to prepare audit files to comply with the specified tax regulations in France.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/25/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Export General Ledger Entries for Tax Audits in the French Version

@@ -1,13 +1,13 @@
 ---
     title: Set up goods and services tax posting [AU]
-    description: Describes the steps to start applying goods and services tax (GST) to goods and services to the Australian Taxation Office (ATO).
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
+description: Describes the steps to start applying goods and services tax (GST) to goods and services to the Australian Taxation Office (ATO).
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
     ms.search.form: 28043
-    ms.date: 12/07/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+ms.date: 12/07/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Set up goods and services tax posting in the Australian version

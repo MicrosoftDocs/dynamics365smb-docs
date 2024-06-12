@@ -1,17 +1,17 @@
 ---
     title: FA Depreciation Calculation 
-    description: FA Depreciation Calculation
+description: FA Depreciation Calculation
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: article
-    ms.devlang: al
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # FA Depreciation Calculation

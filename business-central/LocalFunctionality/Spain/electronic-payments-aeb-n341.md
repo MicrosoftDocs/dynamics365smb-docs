@@ -1,15 +1,15 @@
 ---
     title: Electronic payments – AEB N34.1 - [ES]
-    description: With the electronic payments functionality, you can pay vendors using electronic payments exported into a standard AEB N34.1 file format.
+description: With the electronic payments functionality, you can pay vendors using electronic payments exported into a standard AEB N34.1 file format.
     services: project-madeira 
     documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 12/08/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 12/08/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Electronic payments – AEB N34.1 in the Spanish version

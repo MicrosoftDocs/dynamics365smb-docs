@@ -1,14 +1,14 @@
 ---
     title: Currency Exchange Rates [DE]
-    description: At the end of the fiscal year, you must adjust currency exchange rates for payables and receivables so that they are valued correctly in the annual balance.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: bholtorf
+description: At the end of the fiscal year, you must adjust currency exchange rates for payables and receivables so that they are valued correctly in the annual balance.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/18/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Currency Exchange Rates in the German Version

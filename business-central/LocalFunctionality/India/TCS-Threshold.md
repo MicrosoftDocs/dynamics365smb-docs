@@ -1,13 +1,13 @@
 ---
     title: TCS calculation considering threshold limits
-    description: TCS calculation considering threshold limits
-    author: v-debapd
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords: India, local, IN, English
-    ms.date: 12/11/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+description: TCS calculation considering threshold limits
+author: v-debapd
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 12/11/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 

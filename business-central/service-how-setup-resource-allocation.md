@@ -1,13 +1,13 @@
 ---
     title: Set Up Resource Allocation | Microsoft Docs
-    description: Learn how the system can help ensure that you assign someone who has the skills required to provide a service.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords: resource, skill, service, zones
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+description: Learn how the system can help ensure that you assign someone who has the skills required to provide a service.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: resource, skill, service, zones
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 

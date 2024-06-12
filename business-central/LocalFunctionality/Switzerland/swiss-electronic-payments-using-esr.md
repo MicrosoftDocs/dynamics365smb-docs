@@ -1,14 +1,14 @@
 ---
     title: Swiss Electronic Payments Using ESR [CH]
-    description: This topic explains the different tasks you can accomplish with the Einzahlungsschein mit Referenznummer (ESR) electronic payment method debtor service.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
+description: This topic explains the different tasks you can accomplish with the Einzahlungsschein mit Referenznummer (ESR) electronic payment method debtor service.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
     ms.search.form: 3010531, 3010532
-    ms.date: 06/21/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+ms.date: 06/21/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Swiss Electronic Payments Using ESR in the Swiss Version

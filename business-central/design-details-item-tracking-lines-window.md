@@ -1,14 +1,14 @@
 ---
     title: Design Details - Item Tracking Lines Page
-    description: Read about how to manage the flow of serial and lot numbers in your inventory using the Item Tracking Lines page.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords: design, inventory, item, tracking, serial number, lot number
-    ms.date: 06/15/2021
-    ms.author: bholtorf
+description: Read about how to manage the flow of serial and lot numbers in your inventory using the Item Tracking Lines page.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: design, inventory, item, tracking, serial number, lot number
+ms.date: 06/15/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Design Details: Item Tracking Lines Page

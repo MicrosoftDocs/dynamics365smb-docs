@@ -1,14 +1,14 @@
 ---
     title: Design Details - Planning Assignment Table
-    description: This topic provides insight into what happens when a change in the demand or supply patterns requires that you calculate how you plan for an item.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/15/2021
-    ms.author: bholtorf
+description: This topic provides insight into what happens when a change in the demand or supply patterns requires that you calculate how you plan for an item.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/15/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Design Details: Planning Assignment Table

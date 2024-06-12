@@ -1,13 +1,13 @@
 ---
     title: How to import Swiss post codes [CH]
-    description: You can import the latest Swiss post code file and use it to update the Post Code table to define post codes for customers or vendors.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 11/14/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+description: You can import the latest Swiss post code file and use it to update the Post Code table to define post codes for customers or vendors.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/14/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Import Swiss post codes in the Swiss version

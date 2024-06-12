@@ -1,14 +1,14 @@
 ---
     title: Create and print a Swiss VAT statement [CH]
-    description: This article explains how to create and print a Swiss VAT Statement based on information you specify on the VAT Posting Setup page.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
+description: This article explains how to create and print a Swiss VAT Statement based on information you specify on the VAT Posting Setup page.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
     ms.search.form: 11023, 11024
-    ms.date: 02/08/2024
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+ms.date: 02/08/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Create and print a Swiss VAT statement in the Swiss version

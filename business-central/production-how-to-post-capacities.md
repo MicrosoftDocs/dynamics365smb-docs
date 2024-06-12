@@ -1,14 +1,14 @@
 ---
     title: Post Capacities
-    description: Post consumed capacities that are not assigned to the production order in the capacity journal and view posted capacities on the capacity ledger entries page. 
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
+description: Post consumed capacities that are not assigned to the production order in the capacity journal and view posted capacities on the capacity ledger entries page. 
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
     ms.search.form: 5832, 99000802, 99000820
-    ms.date: 03/08/2023
-    ms.author: bholtorf
+ms.date: 03/08/2023
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Post Capacities

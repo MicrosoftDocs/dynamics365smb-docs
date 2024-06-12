@@ -1,14 +1,14 @@
 ---
     title: How to Create Service Quotes
-    description: Learn how to use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/23/2021
-    ms.author: bholtorf
+description: Learn how to use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/23/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Create Service Quotes

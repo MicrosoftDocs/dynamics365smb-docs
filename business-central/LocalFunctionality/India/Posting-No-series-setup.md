@@ -1,17 +1,17 @@
 ---
     title: Setting up Posting No. Series
-    description: Specifies Posting No. series required
+description: Specifies Posting No. series required
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: article
-    ms.devlang: al
-    ms.search.keywords: India, local, IN, English
-    ms.date: 09/20/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 09/20/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Setting up Posting No. Series

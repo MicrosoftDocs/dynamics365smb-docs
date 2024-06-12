@@ -1,14 +1,14 @@
 ---
     title: How to Post Payment Slips [FR]
-    description: You must post payment slips to complete a payment transaction and to create the related financial data. 
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: bholtorf
+description: You must post payment slips to complete a payment transaction and to create the related financial data. 
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/18/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Post Payment Slips in the French Version

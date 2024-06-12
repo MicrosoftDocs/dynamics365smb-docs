@@ -1,17 +1,17 @@
 ---
     title: How to Set Up Bank Accounts for CODA [BE]
-    description: Before you can start to use the electronic banking functionality for CODA statements, you must set up certain codes.
+description: Before you can start to use the electronic banking functionality for CODA statements, you must set up certain codes.
 
     services: project-madeira 
     documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/17/2021
-    ms.author: bholtorf
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/17/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Set Up Bank Accounts for CODA in the Belgian Version

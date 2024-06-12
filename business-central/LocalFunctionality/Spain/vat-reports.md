@@ -1,15 +1,15 @@
 ---
     title: VAT Reports [ES]
-    description: VAT is charged on transactions involving goods and services in Spain or goods imported into Spain. The following provides details about VAT functionality.
+description: VAT is charged on transactions involving goods and services in Spain or goods imported into Spain. The following provides details about VAT functionality.
     services: project-madeira 
     documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/21/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/21/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # VAT Reports in the Spanish Version

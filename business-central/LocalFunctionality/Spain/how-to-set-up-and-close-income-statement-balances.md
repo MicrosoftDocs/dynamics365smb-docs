@@ -1,15 +1,15 @@
 ---
     title: How to Set Up and Close Income Statement Balances
-    description: You can use income statement balancing accounts to balance and track several accounts at the same time.
+description: You can use income statement balancing accounts to balance and track several accounts at the same time.
     services: project-madeira 
     documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Set Up and Close Income Statement Balances

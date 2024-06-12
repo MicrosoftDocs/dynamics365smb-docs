@@ -1,13 +1,13 @@
 ---
     title: Application design details
-    description: This content contains detailed technical information about complex application features in Business Central.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 12/13/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+description: This content contains detailed technical information about complex application features in Business Central.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 12/13/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Application design details

@@ -1,13 +1,13 @@
 ---
     title: Check Purchase Amounts [NL]
-    description: The application checks if the amount including VAT and the VAT amount stated on the purchase document is equal to the total amount of inserted purchase lines.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+description: The application checks if the amount including VAT and the VAT amount stated on the purchase document is equal to the total amount of inserted purchase lines.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/18/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Check Purchase Amounts in the Dutch Version

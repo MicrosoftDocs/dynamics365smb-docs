@@ -1,13 +1,13 @@
 ---
     title: How to Print Depreciation Book Reports [IT]
-    description: The Depreciation Book report is run after the depreciation method has been set up and assets have been entered.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+description: The Depreciation Book report is run after the depreciation method has been set up and assets have been entered.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/18/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Print Depreciation Book Reports in the Italian Version

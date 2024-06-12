@@ -1,17 +1,17 @@
 ---
     title: TCS calculation on Sales and Receipt Transactions
-    description: TCS calculation on Sales and Receipt Transactions Transactions
+description: TCS calculation on Sales and Receipt Transactions Transactions
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # TCS Calculation on Sales and Receipt Transactions

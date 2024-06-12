@@ -1,17 +1,17 @@
 ---
     title: GST Input Service Distribution Overview
-    description: GST Input Service Distribution Overview
+description: GST Input Service Distribution Overview
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: overview
-    ms.devlang: al
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: overview
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # GST Input Service Distribution Overview

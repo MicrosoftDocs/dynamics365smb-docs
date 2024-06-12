@@ -1,14 +1,14 @@
 ---
     title: Design Details - Item Tracking
-    description: The item tracking system provides easy handling of serial and lot numbers, which may be needed for meeting legal requirements or assist with warranty handling. 
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/15/2021
-    ms.author: bholtorf
+description: The item tracking system provides easy handling of serial and lot numbers, which may be needed for meeting legal requirements or assist with warranty handling. 
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/15/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Design Details: Item Tracking

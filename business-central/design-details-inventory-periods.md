@@ -1,14 +1,14 @@
 ---
     title: Design Details - Inventory Periods
-    description: Inventory Periods helps avoid problems with balances and stock valuations by opening or closing inventory periods to limit posting in a set period of time.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/15/2021
-    ms.author: bholtorf
+description: Inventory Periods helps avoid problems with balances and stock valuations by opening or closing inventory periods to limit posting in a set period of time.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/15/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Design Details: Inventory Periods

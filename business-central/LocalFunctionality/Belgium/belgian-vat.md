@@ -1,15 +1,15 @@
 ---
     title: Belgian VAT
-    description: Belgian enhancements of the VAT reporting feature enable you to easily print VAT transaction details.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
+description: Belgian enhancements of the VAT reporting feature enable you to easily print VAT transaction details.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
     ms.search.form: 11300, 11301,11303,11306,11307,11308
-    ms.date: 03/02/2022
-    ms.author: bholtorf
+ms.date: 03/02/2022
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Belgian VAT

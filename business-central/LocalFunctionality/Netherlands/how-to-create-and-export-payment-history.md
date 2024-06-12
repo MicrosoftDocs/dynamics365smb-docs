@@ -1,14 +1,14 @@
 ---
     title: How to Create and Export Payment History [NL]
-    description: After you have created a proposal and made any modifications, you can process the proposal to create a payment history. 
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: bholtorf
+description: After you have created a proposal and made any modifications, you can process the proposal to create a payment history. 
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/18/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Create and Export Payment History in the Dutch Version

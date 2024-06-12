@@ -1,16 +1,16 @@
 ---
     title: How to Create Multiple Fixed Asset Cards [IT]
-    description: This topic explains how you can create multiple fixed asset cards automatically during purchase invoice posting.
+description: This topic explains how you can create multiple fixed asset cards automatically during purchase invoice posting.
     services: project-madeira 
     documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: bholtorf
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/18/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Create Multiple Fixed Asset Cards in the Italian Version

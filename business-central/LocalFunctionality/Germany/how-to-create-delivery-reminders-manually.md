@@ -1,14 +1,14 @@
 ---
     title: How to Create Delivery Reminders Manually [DE]
-    description: The following topic provides examples of how to create delivery reminders manually in the German version.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: bholtorf
+description: The following topic provides examples of how to create delivery reminders manually in the German version.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/18/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Create Delivery Reminders Manually in the German Version

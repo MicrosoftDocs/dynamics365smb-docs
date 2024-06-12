@@ -1,14 +1,14 @@
 ---
     title: How to post service Orders
-    description: When you have created a service order, filled in all the necessary information and made any modifications, you can post the service order. 
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 12/13/2023
-    ms.author: bholtorf
+description: When you have created a service order, filled in all the necessary information and made any modifications, you can post the service order. 
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 12/13/2023
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Post service orders and credit memos

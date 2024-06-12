@@ -1,13 +1,13 @@
 ---
     title: CMR Notes [NL]
-    description: Claims with complete CMR note information are easily processed. Use the Dutch feature to follow the CRM Convention with standard CRM notes.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+description: Claims with complete CMR note information are easily processed. Use the Dutch feature to follow the CRM Convention with standard CRM notes.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/18/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # CMR Notes in the Dutch Version

@@ -1,14 +1,14 @@
 ---
     title: Set Up Delivery Reminder Terms, Levels, and Text [DE]
-    description: To create delivery reminders, you must perform certain setup in the German version.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
+description: To create delivery reminders, you must perform certain setup in the German version.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
     ms.search.form: 5005279, 5005280, 5005281, 5005282, 5005283
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Set Up Delivery Reminder Terms, Levels, and Text in the German Version

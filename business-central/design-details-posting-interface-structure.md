@@ -1,14 +1,14 @@
 ---
     title: Design Details - Posting Interface Structure
-    description: This topic provides an overview of the global procedures and design details in the posting interface structure.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords: posting, interface, design
-    ms.date: 06/15/2021
-    ms.author: bholtorf
+description: This topic provides an overview of the global procedures and design details in the posting interface structure.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: posting, interface, design
+ms.date: 06/15/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Design Details: Posting Interface Structure

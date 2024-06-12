@@ -1,15 +1,15 @@
 ---
     title: Transaction numbers
-    description: Transaction numbers allow you to group entries with the same document number and date, so that you can balance them together.
+description: Transaction numbers allow you to group entries with the same document number and date, so that you can balance them together.
     services: project-madeira 
     documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 12/11/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 12/11/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Transaction numbers

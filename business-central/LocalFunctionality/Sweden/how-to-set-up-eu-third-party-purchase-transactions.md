@@ -1,13 +1,13 @@
 ---
     title: EU Third-Party Purchase Transactions [SE]
-    description: The following topic explains how to set up EU Third-Party Purchase Transactions with the Swedish version of Business Central.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 08/07/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+description: The following topic explains how to set up EU Third-Party Purchase Transactions with the Swedish version of Business Central.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 08/07/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Set Up EU Third-Party Purchase Transactions in the Swedish Version

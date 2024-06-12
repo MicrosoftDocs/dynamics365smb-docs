@@ -1,13 +1,13 @@
 ---
     title: Delivery reminder terms, levels, and text [AT]
-    description: To create delivery reminders, you must perform certain setup tasks in the Austrian version.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 11/29/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+description: To create delivery reminders, you must perform certain setup tasks in the Austrian version.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/29/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 

@@ -1,13 +1,13 @@
 ---
     title: How to combine shipments on a single invoice | Microsoft Docs
-    description: If you want to invoice more than one shipment at a time, you can use the combined shipments feature.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 03/05/2024
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+description: If you want to invoice more than one shipment at a time, you can use the combined shipments feature.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 03/05/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Combine shipments on a single invoice

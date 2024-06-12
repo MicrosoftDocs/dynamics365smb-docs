@@ -1,16 +1,16 @@
 ---
     title: How to set up alternate depreciation methods
-    description: Alternate depreciation methods include anticipated depreciation, accelerated depreciation, and reduced depreciation.
+description: Alternate depreciation methods include anticipated depreciation, accelerated depreciation, and reduced depreciation.
     services: project-madeira 
     documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 11/21/2023
-    ms.author: bholtorf
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/21/2023
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
     ms.reviewer: bholtorf
 ---
 # Set up alternate depreciation methods

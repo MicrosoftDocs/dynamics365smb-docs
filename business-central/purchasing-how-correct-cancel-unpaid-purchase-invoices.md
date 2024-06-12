@@ -1,5 +1,5 @@
 ---
-title: Amend or cancel unpaid purchase invoices (contains video)
+title: Amend or cancel unpaid purchase invoices
 description: Explains how to correct, cancel, or undo a posted purchase invoice and automatically create a purchase credit memo.
 author: brentholtorf
 ms.author: bholtorf

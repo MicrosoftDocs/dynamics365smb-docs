@@ -1,5 +1,5 @@
 ---
-title: Create a vendor card to register a new vendor (contains video)
+title: Create a vendor card to register a new vendor
 description: Learn how to create a vendor card to register a new vendor or supplier and save vendor cards as a template.
 author: brentholtorf
 ms.author: bholtorf

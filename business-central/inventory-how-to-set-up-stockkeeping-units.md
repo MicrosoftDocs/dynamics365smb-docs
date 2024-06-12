@@ -1,32 +1,32 @@
 ---
-title: How to Set Up Stockkeeping Units
+title: How to set up stockkeeping units
 description: Use stockkeeping units to record information about your items for a specific location or a specific variant.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 04/19/2023
+ms.date: 06/10/2024
 ms.custom: bap-template
 ms.search.forms: 5704, 5700, 5702, 5701
 ms.service: dynamics-365-business-central
 ---
 
-# Set Up Stockkeeping Units
+# Set up stock keeping units
 
-Use stockkeeping units (SKUs) to record information about items for a specific location or a variant. They let you add different information about an item for a specific location, for example:
+Use stock keeping units (SKUs) to record information about items for a specific location or a variant. They let you add different information about an item for a specific location, for example:
 
 * A warehouse or distribution center
 * Variants, such as different shelf numbers and different replenishment information, for the same item  
 
-## To set up a stockkeeping unit  
+## To set up a SKU  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stockkeeping Units**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Stock keeping Units**, and then choose the related link.  
 2. Choose the **New** action.  
 3. Fill in the fields as necessary. The following fields are required: **Item No.**, **Location Code**, and/or **Variant Code**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-When you have set up the first stockkeeping unit for an item, the **Stockkeeping Unit Exists** checkbox on the **Item** card is selected.  
+After you set up the first SKU for an item, the **Stockkeeping Unit Exists** checkbox on the **Item** card is selected.  
 
-To create several stockkeeping units for an item, use the **Create Stockkeeping Unit** batch job. To learn more about batch jobs, go to [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
+To create several SKUs for an item, use the **Create Stockkeeping Unit** batch job. To learn more about batch jobs, go to [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).  
 
 > [!NOTE]  
 > The information on the **Stockkeeping Unit** card has priority over the **Item** card.

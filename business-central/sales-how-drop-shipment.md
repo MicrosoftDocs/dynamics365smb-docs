@@ -1,5 +1,5 @@
 ---
-title: Make drop shipments (contains video)
+title: Make drop shipments
 description: Describes how to create a sales order linked to a purchase order to enable shipment directly from the vendor to the customer.
 author: brentholtorf
 ms.author: bholtorf

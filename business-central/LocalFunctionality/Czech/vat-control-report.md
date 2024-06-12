@@ -7,7 +7,7 @@ ms-service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, local, Finance, VAT, Control Report
 ms.date: 04/01/2021
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

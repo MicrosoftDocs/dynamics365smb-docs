@@ -11,6 +11,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # View Withholding Tax Entries in the New Zealand Version
 

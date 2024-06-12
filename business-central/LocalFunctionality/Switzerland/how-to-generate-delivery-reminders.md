@@ -8,6 +8,7 @@
     ms.date: 11/17/2023
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Generate delivery reminders in the Swiss version
 

@@ -9,6 +9,7 @@ ms.search.form: 9001, 9027
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Print Balance Sheet and Income Statement Reports
 You can print balance sheet reports and income statement reports to submit to banks and other authorities. The **Balance Sheet** report displays assets, liabilities, and equity. The **Income Statement** report displays income and expenses.  

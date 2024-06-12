@@ -8,6 +8,7 @@
     ms.date: 11/22/2023
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Set up payment line information in the Norwegian version
 Payment journal line information for the remittance payment is set up on the **Payment Info** page.  

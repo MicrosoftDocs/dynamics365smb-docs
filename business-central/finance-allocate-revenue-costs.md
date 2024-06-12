@@ -9,6 +9,7 @@ ms.search.keywords: allocate, allocation, accounts
 ms.search.form: 39, 2673, 2670, 2674, 
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Allocate revenue and costs to multiple general ledger accounts

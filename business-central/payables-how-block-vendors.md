@@ -9,6 +9,7 @@ ms.search.form: 27
 ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Block Vendors
 You can block a vendor, for example because of insolvency, so that the vendor cannot be added to purchase documents or so that no payments can be posted for the vendor.

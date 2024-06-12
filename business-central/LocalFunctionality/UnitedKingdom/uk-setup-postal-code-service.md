@@ -11,6 +11,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up the GetAddress.io UK Postcodes Extension in the British Version
 

@@ -3,7 +3,7 @@ title: Troubleshoot Access with Microsoft 365 Licenses
 description: Learn how you can fix problems accessing Business Central with only a Microsoft 365 license. 
 author: mikebc 
 ms.author: mikebc
-ms.reviewer: jswymer 
+ms.reviewer: bholtorf
 ms.topic: troubleshooting
 ms.date: 02/07/2023
 ms.custom: bap-template

@@ -8,6 +8,7 @@
     ms.date: 10/01/2020
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 
 # Business Central for Multi-Site and International Organizations

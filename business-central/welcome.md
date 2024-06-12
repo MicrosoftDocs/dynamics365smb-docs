@@ -6,7 +6,9 @@ ms.topic: landing-page
 ms.devlang: al
 ms.date: 05/23/2024
 ms.author: jswymer
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -15,7 +17,7 @@ ms.service: dynamics-365-business-central
 If you already have [!INCLUDE[prod_short](includes/prod_short.md)], then sign in at [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Otherwise, [get the overview](https://dynamics.microsoft.com/business-central/overview/), [take the guided tour](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), and then [learn how to start a free trial](trial-signup.md). Check out the [quickstart articles](quick-start-business-central.md) to help you get to know [!INCLUDE [prod_short](includes/prod_short.md)]. For more information about onboarding to [!INCLUDE[prod_short](includes/prod_short.md)], see [Get Ready for Doing Business](ui-get-ready-business.md).  
 
 > [!TIP]
-> Did you land here from inside [!INCLUDE [prod_short](includes/prod_short.md)]? If you are not sure where to find what you are looking for, you can **filter by titles** in the navigation pane to the left, or you can use the **Search** field at the top of the browser window.  
+> Did you land here from inside [!INCLUDE [prod_short](includes/prod_short.md)]? If you aren't sure where to find what you're looking for, you can **filter by titles** in the navigation pane to the left, or you can use the **Search** field at the top of the browser window.  
 >
 > You can also use the search capabilities in [!INCLUDE [prod_short](includes/prod_short.md)] to find relevant documentation. For more information, see [Finding Pages and Information with Tell Me](ui-search.md).
 
@@ -34,7 +36,7 @@ You can also [visit our video library](across-videos.md), or begin with the [Get
 
 The following sections point to key articles that can help you get familiar with [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## Business Processes
+## Business processes
 
 - [Getting Ready for Doing Business](ui-get-ready-business.md)
 - [Setting up [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
@@ -89,12 +91,12 @@ The following sections point to key articles that can help you get familiar with
 
 Find free e-learning content for [!INCLUDE[prod_short](includes/prod_short.md)] at [Microsoft Learn training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
-You can also view videos of new and commonly used capabilities in our video library. For more information, see [Visit Our Video Library](across-videos.md).  
+You can also view videos of new and commonly used capabilities in our video library. To learn more, go to [Visit Our Video Library](across-videos.md).  
 
-## Community Resources
+## Community resources
 
 - [Microsoft Dynamics 365 Business Central community forum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
-- [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
+- [Microsoft Dynamics 365 Business Central on the Dynamics 365 blog](https://www.microsoft.com/dynamics-365/blog/business-leader/product/dynamics-365-business-central/)  
 - [Microsoft Dynamics 365 Release Plans](/dynamics365/release-plans/)  
 - [Microsoft Dynamics 365 Business Central Release Planner](https://releaseplans.microsoft.com/?app=Business+Central&group=dynamics-365&subgroup=dynamics-365-business-central) 
 - [Microsoft Partner Network \(requires Microsoft Partner Network membership account\)](https://mspartner.microsoft.com)  
@@ -103,7 +105,7 @@ You can also view videos of new and commonly used capabilities in our video libr
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## See Also
+## See also
 
 [Dynamics 365 Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Business Central quickstarts](quick-start-business-central.md)  

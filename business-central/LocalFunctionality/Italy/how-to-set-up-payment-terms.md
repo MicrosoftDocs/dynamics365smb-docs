@@ -8,6 +8,7 @@ ms.search.form: 12170, 12171, 12172, 12173, 12174
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Payment Terms in the Italian Version
 

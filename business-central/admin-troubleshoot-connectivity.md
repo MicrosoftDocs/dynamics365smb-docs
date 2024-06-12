@@ -9,6 +9,7 @@ ms.date: 11/24/2023
 ms.author: jswymer
 ROBOTS: NOINDEX
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
 # Troubleshoot connectivity for Business Central

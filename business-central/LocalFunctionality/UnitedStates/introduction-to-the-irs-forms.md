@@ -7,7 +7,7 @@ ms.search.keywords: local, 1099, IRS, tax
 ms.search.form: 10030, 10031, 10036, 10037
 ms.date: 05/23/2024
 ms.author: altotovi
-ms.reviewer: solsen 
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
 

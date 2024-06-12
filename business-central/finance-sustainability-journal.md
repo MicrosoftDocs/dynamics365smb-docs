@@ -9,6 +9,7 @@ ms.search.form: 6216, 6219, 6220
 ms.date: 05/07/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Record sustainability entries

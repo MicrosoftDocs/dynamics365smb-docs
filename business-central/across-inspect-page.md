@@ -7,6 +7,7 @@ author: jswymer
 ms.author: jswymer
 ms.date: 09/15/2023
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
 # Inspecting pages in Business Central

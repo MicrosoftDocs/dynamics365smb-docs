@@ -9,6 +9,7 @@ ms.search.form: 50, 51, 138, 6103, 6133, 6121, 6167, 9307, 9308
 ms.date: 05/02/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Use e-documents in the purchases process

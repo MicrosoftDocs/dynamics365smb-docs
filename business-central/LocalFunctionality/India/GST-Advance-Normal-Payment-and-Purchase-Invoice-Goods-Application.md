@@ -12,6 +12,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # GST on Advance Payment or Normal Payment Application with Purchase Invoice
 

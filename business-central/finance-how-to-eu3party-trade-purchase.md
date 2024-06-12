@@ -10,6 +10,7 @@
     ms.author: altotovi
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 
 # EU third-party purchase transactions

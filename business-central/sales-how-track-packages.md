@@ -8,6 +8,7 @@ ms.search.form: 142, 800, 806
 ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Track packages
 Most shipping agents provide a web service that lets you track the status of your packages while they're en route. That information can be useful in many business processes, for example, when providing customer service. If you use one or more shipping agents, you can enter some basic information about them, and then use their package tracking service directly from the Posted Sales Shipments, Posted Sales Invoices, Posted Sales Credit Memos, and Posted Return Receipt pages. For more information, see [Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md). 

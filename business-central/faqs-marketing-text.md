@@ -85,9 +85,10 @@ The capability also collects data from the feedback user's can provide using the
 ## What are the limitations of [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? How can users minimize the impact of the [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] limitations when using the system?
 
 - Because the underlying technology behind the feature uses AI that has been trained on a wide range of sources, the generated content isn't always factual or suitable. Some suggestions may even include questionable or inappropriate content. It's your responsibility to review and edit generated suggestions to ensure it's accurate and appropriate.
-- [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
-  Inaccurate responses might be returned when users interact with the system in languages other than the supported languages. Also, inaccurate text might be generated when the user's language and primary data language in the [!INCLUDE[prod_short](includes/prod_short.md)] database aren't identical.
+- Available languages
+  
+   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
 ## What operational factors and settings allow for effective and responsible use of the system?
 

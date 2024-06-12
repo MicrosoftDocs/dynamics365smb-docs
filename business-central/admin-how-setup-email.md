@@ -1,5 +1,5 @@
 ---
-title: Set up email in Business Central (contains video)
+title: Set up email in Business Central
 description: Describes how to connect email accounts to Business Central so that you can send outbound messages without having to open another app.
 author: brentholtorf
 ms.author: bholtorf
@@ -232,6 +232,7 @@ The settings that are specific to the email capabilities are the delegated permi
 |Microsoft Graph / Mail.ReadWrite |Delegated|Compose email messages.         |
 |Microsoft Graph / Mail.Send|Delegated|Send email messages.         |
 |Microsoft Graph / offline_access|Delegated|Maintain data access consent.|
+|Microsoft Graph / Mail.Send.Shared|Delegated|Shared Mailbox|
 
 If you're using the SMTP Connector and want to use OAuth 2.0 for authentication, the permissions are slightly different. The following table lists the permissions.
 

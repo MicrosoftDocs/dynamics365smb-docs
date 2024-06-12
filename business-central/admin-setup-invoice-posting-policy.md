@@ -1,11 +1,11 @@
 ---
-title: Define an Invoice Posting Policy for Users
+title: Define an invoice posting policy for users
 description: Use invoice posting policies to control whether a user can post sales and purchase invoices.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 03/09/2023
+ms.date: 06/12/2024
 ms.custom: bap-template
 ms.search.forms: 119, 9807, 
 ms.service: dynamics-365-business-central
@@ -20,8 +20,8 @@ Companies often have unique processes for posting sales and purchase invoices an
 On the **User Setup** page, in the **Sales Invoice Posting Policy** and **Purch. Invoice Posting Policy** fields, choose one of the following options:
 
 * **Allowed** (Default) - Keep the current behavior, where a user can choose the posting option to use, such as **Ship**, **Invoice**, and **Ship and Invoice**. 
-* **Prohibited** - Prevent the user from posting invoices. Business Central will show a confirmation dialog that provides only the **Ship** or **Receive** options.
-* **Mandatory** - Allow the user to post invoices together with receipts or shipments. Business Central will show a confirmation dialog with the **Ship and Invoice** or **Receive and Invoice** options.
+* **Prohibited** - Prevent the user from posting invoices. [!INCLUDE [prod_short](includes/prod_short.md)] shows a confirmation dialog that provides only the **Ship** or **Receive** options.
+* **Mandatory** - Allow the user to post invoices together with receipts or shipments. [!INCLUDE [prod_short](includes/prod_short.md)] shows a confirmation dialog with the **Ship and Invoice** or **Receive and Invoice** options.
 
 ## Effect on documents
 

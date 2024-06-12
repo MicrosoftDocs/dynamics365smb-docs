@@ -4,7 +4,7 @@ description: Learn how to use prepayments to invoice and collect deposits from c
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
+ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
 ms.date: 12/03/2021
 ms.author: bholtorf
 

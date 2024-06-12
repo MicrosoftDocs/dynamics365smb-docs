@@ -4,7 +4,7 @@ description: Describes the steps to start applying goods and services tax (GST) 
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.form: 28043
+ms.search.form: 28043
 ms.date: 12/07/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

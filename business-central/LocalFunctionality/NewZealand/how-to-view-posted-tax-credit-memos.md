@@ -4,7 +4,7 @@ description: Describes how to view details of sales tax credit memos, and purcha
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.form: 28071, 28073, 28081, 28082
+ms.search.form: 28071, 28073, 28081, 28082
 ms.date: 11/07/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

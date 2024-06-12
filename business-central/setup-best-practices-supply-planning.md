@@ -4,7 +4,7 @@ description: When set up and used correctly, supply planning helps a company avo
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.keywords:
+ms.search.keywords:
 ms.date: 06/25/2021
 ms.author: bholtorf
 

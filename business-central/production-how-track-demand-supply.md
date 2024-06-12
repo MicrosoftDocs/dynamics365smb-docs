@@ -4,7 +4,7 @@ description: This topic explains the different ways to track relations between d
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.form: 5830, 9101, 99000822, 99000855
+ms.search.form: 5830, 9101, 99000822, 99000855
 ms.date: 06/25/2021
 ms.author: bholtorf
 

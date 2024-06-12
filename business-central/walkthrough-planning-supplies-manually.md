@@ -4,7 +4,7 @@ description: This walkthrough demonstrates the process of planning supply orders
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.keywords:
+ms.search.keywords:
 ms.date: 06/24/2021
 ms.author: bholtorf
 

@@ -4,7 +4,7 @@ description: Use Put-away templates to have the most appropriate bins for your i
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.form: 7312, 7313, 7314, 7321, 7322, 7323, 7329
+ms.search.form: 7312, 7313, 7314, 7321, 7322, 7323, 7329
 ms.date: 10/04/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

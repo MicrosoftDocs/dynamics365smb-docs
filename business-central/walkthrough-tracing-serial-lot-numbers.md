@@ -4,7 +4,7 @@ description: This topic describes the actions that are needed to take to prevent
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.keywords:
+ms.search.keywords:
 ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

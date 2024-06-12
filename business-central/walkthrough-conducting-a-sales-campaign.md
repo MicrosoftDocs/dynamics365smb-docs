@@ -4,7 +4,7 @@ description: This walkthrough gives a detailed overview of all the tasks involve
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.keywords:
+ms.search.keywords:
 ms.date: 01/31/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

@@ -4,7 +4,7 @@ description: This topic tells you how to calculate finance charges with multiple
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.form: 6, 431, 432, 572
+ms.search.form: 6, 431, 432, 572
 ms.date: 06/16/2021
 ms.author: bholtorf
 

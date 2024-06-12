@@ -4,7 +4,7 @@ description: View documents related to sales and purchase order lines, like quot
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.form: 6560, 42, 50, 507, 509
+ms.search.form: 6560, 42, 50, 507, 509
 ms.date: 06/11/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

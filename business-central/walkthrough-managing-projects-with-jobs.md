@@ -4,7 +4,7 @@ description: This walkthrough introduces you to the project management features 
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.keywords:
+ms.search.keywords:
 ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

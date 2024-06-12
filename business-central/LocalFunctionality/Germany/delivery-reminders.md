@@ -4,7 +4,7 @@ description: Delivery reminders are used to track overdue vendor shipments, and 
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-    ms.search.form: 5005270, 5005272, 5005273, 5005274, 5005275, 5005276, 5005280
+ms.search.form: 5005270, 5005272, 5005273, 5005274, 5005275, 5005276, 5005280
 ms.date: 04/01/2021
 ms.author: bholtorf
 

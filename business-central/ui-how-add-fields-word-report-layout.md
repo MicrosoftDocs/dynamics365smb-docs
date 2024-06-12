@@ -4,7 +4,7 @@ description: This topic describes how to add fields of a report dataset to an ex
 author: jswymer
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.keywords:
+ms.search.keywords:
 ms.date: 01/25/2024
 ms.author: jswymer
 

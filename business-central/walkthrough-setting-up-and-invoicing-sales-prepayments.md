@@ -4,7 +4,7 @@ description: Prepayments are payments that are invoiced and posted to a sales or
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.keywords:
+ms.search.keywords:
 ms.date: 01/29/2024
 ms.author: bholtorf
 

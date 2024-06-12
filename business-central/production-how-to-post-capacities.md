@@ -4,7 +4,7 @@ description: Post consumed capacities that are not assigned to the production or
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.form: 5832, 99000802, 99000820
+ms.search.form: 5832, 99000802, 99000820
 ms.date: 03/08/2023
 ms.author: bholtorf
 

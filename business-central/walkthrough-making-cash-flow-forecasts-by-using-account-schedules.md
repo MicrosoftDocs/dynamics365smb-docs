@@ -4,7 +4,7 @@ description: This walkthrough describes how you can use financial reports to mak
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.keywords:
+ms.search.keywords:
 ms.date: 08/18/2022
 ms.author: bholtorf
 

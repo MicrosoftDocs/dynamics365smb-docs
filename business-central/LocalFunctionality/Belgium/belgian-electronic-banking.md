@@ -4,7 +4,7 @@ description: Electronic banking allows you to electronically exchange data with 
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.form: 11308
+ms.search.form: 11308
 ms.date: 01/10/2022
 ms.author: bholtorf
 

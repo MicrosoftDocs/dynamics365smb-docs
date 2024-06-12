@@ -4,7 +4,7 @@ description: You can assign a base calendar to your company and its business par
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.form: 7600, 7601, 7602, 5703
+ms.search.form: 7600, 7601, 7602, 5703
 ms.date: 06/11/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

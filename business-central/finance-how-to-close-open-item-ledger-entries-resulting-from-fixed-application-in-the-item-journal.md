@@ -4,7 +4,7 @@ description: Learn how you can create a fixed application between an inbound tra
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.form: 40
+ms.search.form: 40
 ms.date: 12/12/2023
 ms.author: bholtorf
 

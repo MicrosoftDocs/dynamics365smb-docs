@@ -4,7 +4,7 @@ description: Revenue types are used to categorize withholding tax (WHT) entries 
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.form: 28042 
+ms.search.form: 28042 
 ms.date: 11/07/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

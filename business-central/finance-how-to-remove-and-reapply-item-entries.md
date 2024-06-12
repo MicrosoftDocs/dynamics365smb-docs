@@ -4,7 +4,7 @@ description: You can view and manually change certain item application entries t
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.form: 506, 521, 9125
+ms.search.form: 506, 521, 9125
 ms.date: 04/01/2021
 ms.author: bholtorf
 

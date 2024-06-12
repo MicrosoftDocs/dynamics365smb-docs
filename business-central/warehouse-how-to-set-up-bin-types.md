@@ -4,7 +4,7 @@ description: Assign types and basic flow activities to bins and, in doing so, de
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.form: 7367
+ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: bholtorf
 

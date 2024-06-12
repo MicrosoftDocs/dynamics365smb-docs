@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
-    ms.search.form: 11500
+ms.search.form: 11500
 ms.date: 12/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

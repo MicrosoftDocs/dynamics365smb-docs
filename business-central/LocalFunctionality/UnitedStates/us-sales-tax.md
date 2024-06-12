@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: local
-    ms.search.form: 315, 466, 467, 468, 469, 10015, 10016, 10101
+ms.search.form: 315, 466, 467, 468, 469, 10015, 10016, 10101
 ms.date: 04/27/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

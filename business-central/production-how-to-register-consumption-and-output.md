@@ -4,7 +4,7 @@ description: This topic explains how to register consumption and output for a re
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-    ms.search.form: 5510
+ms.search.form: 5510
 ms.date: 03/08/2023
 ms.author: bholtorf
 

@@ -8,6 +8,7 @@
     ms.date: 12/12/2023
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 
 # Setting up Gate Entry Tracking

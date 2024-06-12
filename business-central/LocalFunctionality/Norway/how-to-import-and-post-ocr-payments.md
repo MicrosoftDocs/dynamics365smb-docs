@@ -9,6 +9,7 @@ ms.search.form: 15000100, 255
 ms.date: 12/06/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Import and post OCR payments
 Before you can receive optical character recognition (OCR) payments, you must make the following preparations:  

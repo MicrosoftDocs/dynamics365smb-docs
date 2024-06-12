@@ -9,6 +9,7 @@ ms.search.form: 6210, 6213, 6214, 6220
 ms.date: 05/07/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Chart of sustainability accounts and ledger

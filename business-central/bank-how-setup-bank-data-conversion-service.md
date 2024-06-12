@@ -9,6 +9,7 @@ ms.search.form: 304, 20106, 20105, 20100, 20101, 20107, 20109
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up the AMC Banking 365 Fundamentals extension
 A global provider of services to convert payment information to any data format that your bank requires is connected and ready to be enabled in [!INCLUDE[prod_short](includes/prod_short.md)]. This is referred to in [!INCLUDE[prod_short](includes/prod_short.md)] as the AMC Banking 365 Fundamentals extension.

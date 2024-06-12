@@ -1,5 +1,5 @@
 ---
-    title: Walkthrough - Planning Supplies Manually
+     title: Walkthrough - Planning Supplies Manually
     description: This walkthrough demonstrates the process of planning supply orders to fulfill new demand including planning a purchase, transfer, and production order.
     author: brentholtorf
     ms.topic: conceptual
@@ -9,6 +9,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+     ms.reviewer: bholtorf
 ---
 # Walkthrough: Planning Supplies Manually
 

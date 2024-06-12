@@ -8,6 +8,7 @@ ms.search.form: 9027
 ms.date: 08/23/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Analyzing Financial Statements in Microsoft Excel
 

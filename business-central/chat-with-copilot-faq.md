@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: conceptual
 ms.collection:
   - bap-ai-copilot
-ms.date: 02/27/2024
+ms.date: 05/17/2024
 ms.custom: bap-template jswymer
 ---
 # Chat with Copilot FAQ
@@ -59,13 +59,25 @@ While in preview, the chat pane and Copilot's responses can't be modified in any
 
 ## Does Copilot find data in other companies or environments?
 
-Even if your organization uses multiple environments or companies to segregate data, Copilot only searches for records in the company you're currently signed into.
+Copilot only searches for records in the company you're currently signed into&mdash;even if your organization uses multiple environments or companies to segregate data.
 
 ## The Copilot chat pane doesn't show. What can I do?
 
-Check that your user language in My Settings is set to English, and that your environment is of version 24.0 or later. In the Copilot and AI Capabilities page, make sure administrators have switched on consent for data across geographies and have activated chat. Make sure your environment localization is not Canada.
+Check that your user language in **My Settings** is set to English, and that your environment is of version 24.0 or later. In the Copilot and AI Capabilities page, make sure administrators have switched on consent for data across geographies and have activated chat. <!--Make sure your environment localization isn't Canada.-->
 
-If you still do not see the chat with Copilot feature, it is possible that Microsoft is still rolling this out to your region. Copilot rolls out to US customers first in April 2024, and then over the course of weeks will roll out to other country localizations.
+If you still don't see the chat with Copilot feature, it's possible that Microsoft is still rolling the feature out to your region. Copilot rolls out to US customers first in April 2024, and then over the course of weeks will roll out to other country/region localizations.
+
+## Why does Copilot only show three records in the Chat pane?
+
+When you ask Copilot to retrieve records, the way you formulate the question determines how Copilot identifies and applies filters on pages to find what you are looking for. To keep answers compact and concise, the Chat pane displays a maximum of three record tiles, even when Copilot finds a larger number of relevant records.
+
+## Copilot returns incorrect answers to totals and other calculations
+
+While in preview, Chat with Copilot can locate records, explain concepts, and guide you to how to complete tasks in Business Central. Other use cases aren't supported, such as adding up a field across records or calculating the average monthly amount. We hope to add basic mathematics abilities to Copilot in the future.
+
+## Can I use speech instead of typing my prompts?
+
+You can chat with Copilot by using voice typing to talk instead of type your words in the Chat pane. Voice typing uses online speech recognition and is available with Windows. To use voice, activate the chat message box, then use the <kbd>Windows</kbd>+<kbd>H</kbd> shortcut and begin speaking. For more information, see [Use voice typing to talk instead of type on your PC](https://support.microsoft.com/windows/use-voice-typing-to-talk-instead-of-type-on-your-pc-fec94565-c4bd-329d-e59a-af033fa5689f).
 
 ## Next steps
 

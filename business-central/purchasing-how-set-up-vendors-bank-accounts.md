@@ -6,6 +6,7 @@ ms.service: dynamics-365-business-central
 ms.topic: article
 ms.date: 07/04/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
 # Set Up Vendor Bank Accounts
 

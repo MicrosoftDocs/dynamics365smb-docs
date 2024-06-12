@@ -8,6 +8,7 @@
     ms.date: 06/21/2021
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Report 347 in the Spanish Version
 The **Report 347** report is a required annual report sent by all companies to the tax authorities to reflect the sales or purchases in a given period, based on **VAT Date**. This report also includes entries such as payment in cash that was received in the period. The **Report 347** report is generated in a format that is approved by the tax authorities. This file can be uploaded to the Spanish Tax Agency website or submitted on CD-ROM. For more information, see the [Spanish Tax Agency](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio.shtml) website.  

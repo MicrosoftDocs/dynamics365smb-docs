@@ -1,13 +1,14 @@
 ---
 title: Switching to Another Company or Environment
 description: If you do work for multiple organizations, you can quickly switch between the environments and companies.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 08/16/2022
-ms.author: bholtorf
+ms.date: 04/24/2024
+ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Switching to Another Company or Environment
@@ -60,7 +61,7 @@ Using the company switcher is probably the quickest and most versatile way to sw
 
 ## Use the app launcher
 
-When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the environments that you can access are available on the Office.com.  
+When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the environments that you can access are available on the Microsoft 365.  
 
 1. Select the **App Launcher** icon ![App Launcher.](media/app-launcher-icon.png "The App Launcher provides access to more features").
 2. In the pane that opens, look for and choose [!INCLUDE[prod_short](includes/prod_short.md)]. If you don't see [!INCLUDE[prod_short](includes/prod_short.md)], choose **All apps**, then enter **Business Central** in the **Search** box.
@@ -68,6 +69,9 @@ When you're signed in to [!INCLUDE[prod_short](includes/prod_short.md)], the env
    :::image type="content" source="media/app-launcher-bc-tile.png" alt-text="The Microsoft 365 app launcher showing the Business Central tile.":::  
 
 3. If there's more than one environment, you'll be asked to choose the environment to access.
+
+> [!NOTE]
+> App launcher isn't available if you're signed in to Business Central as a guest.
 
 <!--
 The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.

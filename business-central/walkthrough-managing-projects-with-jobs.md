@@ -1,14 +1,14 @@
 ---
-    title: Walkthrough - Managing projects with projects
-    description: This walkthrough introduces you to the project management features the let you schedule the use of your company's resources.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 05/30/2024
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: Walkthrough - Managing projects with projects
+description: This walkthrough introduces you to the project management features the let you schedule the use of your company's resources.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 05/30/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Walkthrough: managing projects
 
@@ -76,11 +76,11 @@ With the budget structure set up for projects, creating a project is straightfor
 
 This walkthrough focuses on CRONUS, which is a fictional design and consultancy firm that designs and fits new infrastructures. For example, conference halls and offices with furniture, accessories, and storage units. Most of its work is project oriented. Prakash, a project manager at CRONUS uses project to get an overview of each ongoing task that CRONUS started and completed. Prakash is usually the one who sets up deals with customers and enters the core of the project, which is task and planning lines in addition to prices, into [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash finds that creating, maintaining, and reviewing information is straightforward. Prakash also likes the way [!INCLUDE[prod_short](includes/prod_short.md)] enables copying projects and payment by installments.
 
- Tricia, a project team member who reports to Prakash, is responsible for monitoring the project day-to-day. Tricia enters a work in addition to the work performed by technicians on every task, records the items that they used, and the costs that they incurred.  
+ Tricia, a project team member who reports to Prakash, is responsible for monitoring the project day-to-day. Tricia enters the work done by technicians on every task, records the items that they used, and the costs that they incurred.  
 
-## Preparing Sample Data
+## Preparing sample data
 
- To prepare for this walkthrough, you must add Tricia as a new resource.  
+To prepare for this walkthrough, you must add Tricia as a resource.  
 
 ### To prepare the sample data  
 
@@ -117,9 +117,9 @@ In the next procedure, you create a project journal batch for Tricia in order to
 
 4. Choose the **OK** button to save the changes.
 
-## Setting Up a Project
+## Setting up a project
 
- In this scenario, CRONUS won a contract with a customer, Progressive Home Furnishings, to design a conference and dining hall. The customer is based in the United States and the project requires special software. The project manager reaches an agreement with the customer and creates a project that covers the agreement.  
+In this scenario, CRONUS won a contract with a customer, Progressive Home Furnishings, to design a conference and dining hall. The customer is based in the United States and the project requires special software. The project manager reaches an agreement with the customer and creates a project that covers the agreement.  
 
 ### To set up a project  
 
@@ -169,8 +169,8 @@ In the next procedure, you create a project journal batch for Tricia in order to
 
 ### To add project tasks  
 
-1.  On the **Project** card for the new project, choose the **Project Task Lines** action.  
-2.  The following table describes the information that you should enter in the fields.  
+1. On the **Project** card for the new project, choose the **Project Task Lines** action.  
+2. The following table describes the information that you should enter in the fields.  
 
     |Project Task No.|Description|Project Task Type|  
     |------------------|---------------------------------------|-------------------|  
@@ -179,20 +179,19 @@ In the next procedure, you create a project journal batch for Tricia in order to
     |1020|Development|Posting|  
     |1090|Consulting Total|End-Total|  
 
-3.  To show that some tasks are subcategories of other tasks, choose the **Indent Project Tasks** action.  
+3. To show that some tasks are subcategories of other tasks, choose the **Indent Project Tasks** action.  
 
- A planning line can be one of the following types:  
+A planning line can be one of the following types:  
 
 - **Budget**: Added to the schedule, but not invoiced.  
 - **Billable**: Invoiced, but not added to the schedule.  
 - **Both Budget and Billable**: Invoiced and added to the schedule.  
 
- In this walkthrough, the project manager uses **Both Budget and Billable**. They create three planning lines for task 1010, and two planning lines for task 1020.  
+In this walkthrough, the project manager uses **Both Budget and Billable**. They create three planning lines for task 1010, and two planning lines for task 1020.  
 
 ### To create planning lines  
 
 1. Select line 1010, and then choose the **Project Planning Lines** action.  
-
 2. Create planning lines with the following information:  
 
     | Line | Line Type | Planning Date  | Type        | No.   | Quantity | Unit Price |
@@ -211,9 +210,9 @@ In the next procedure, you create a project journal batch for Tricia in order to
 
 4. Close the page. Totals are updated on the **Project Task Lines** page.  
 
-## Calculating Remaining Usage
+## Calculating remaining usage
 
- Tricia, the team project member, has been working on the project for a while and wants to register their hours and usage. Tricia didn't work more hours than was agreed upon with the customer in advance. Tricia uses the **Calculate Remaining Usage** batch job to calculate remaining usage in a project journal. For each task, the batch job calculates the difference between scheduled usage of items, resources, and general ledger expenses and the actual usage posted in project ledger entries. The remaining usage is then displayed in the project journal, and Tricia can post it.  
+Tricia, the team project member, has been working on the project for a while and wants to register their hours and usage. Tricia didn't work more hours than was agreed upon with the customer in advance. Tricia uses the **Calculate Remaining Usage** batch job to calculate remaining usage in a project journal. For each task, the batch job calculates the difference between scheduled usage of items, resources, and general ledger expenses and the actual usage posted in project ledger entries. The remaining usage is then displayed in the project journal, and Tricia can post it.  
 
 ### To calculate remaining usage  
 
@@ -229,11 +228,11 @@ In the next procedure, you create a project journal batch for Tricia in order to
 
 The lines are now posted.  
 
-## Creating and Posting a Project Sales Invoice
+## Creating and posting a project sales invoice
 
- Next, Tricia can create a new invoice for the whole project or for part of a project. Tricia can also attach the invoice to another invoice for the same customer for the same project. In this case, Tricia invoices for the whole project because the project is now completed.  
+Next, Tricia can create a new invoice for the whole project or for part of a project. Tricia can also attach the invoice to another invoice for the same customer for the same project. In this case, Tricia invoices for the whole project because the project is now completed.  
 
-### To create a Project Sales Invoice  
+### To create a project sales invoice  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
 2. Select the project that you created earlier, and then choose the **Create project Sales Invoice** action.  
@@ -349,8 +348,8 @@ Prakash reached an agreement with a customer, Selagorian Ltd, to set up 10 confe
 On the **Copy Project** page, you can select the project and task lines that you want to copy.
 
 - Copy the source project ledger entries to create planning lines based on actual use.
-- Copy the source project planning lines to copy the original planning lines to the new project. 
- 
+- Copy the source project planning lines to copy the original planning lines to the new project.
+
 You can then choose what planning line or ledger entry line type that you want to include, selecting only what is relevant to this new project. Finally, you can select the project that you want to copy to and define whether prices and quantities should be copied as well.  
 
 ### To copy a project  
@@ -375,9 +374,9 @@ You can then choose what planning line or ledger entry line type that you want t
 
 By comparing prices, project task lines, and project planning lines for the two projects, you can see that the information was successfully copied.  
 
-## Making Payments by Installments
+## Making payments by installments
 
-CRONUS just landed a large project that will take a year to be completed. Because it requires the dedication of many resources, the project manager sets up the contract so that the customer pays part of the price up front, part when the project is halfway completed, and the final payment upon completion.  
+CRONUS just landed a large project that will take a year to complete. Because it requires many resources, the project manager sets up the contract so that the customer pays part of the price up front, part when the project is halfway completed, and the final payment upon completion.  
 
 ### To set up a new account  
 
@@ -456,13 +455,13 @@ The following procedures show how to create a new project, set pricing, and then
 
 ### To create an invoice  
 
-1.  On the **Project Task Lines** page, select line 1000, and then choose the **Create Sales Invoice** action.  
-2.  On the **Create Sales Invoice** page, set today's date as the posting date, specify **Per Task**, and choose the **OK** button to create an invoice with the default information. Choose the **OK** button to close the confirmation page.  
-3.  Choose the **Sales Invoice/Credit Memo** action. On the sales invoice, you can see that only the down payment is included in the invoice. You can now send this to the customer as agreed.  
+1. On the **Project Task Lines** page, select line 1000, and then choose the **Create Sales Invoice** action.  
+2. On the **Create Sales Invoice** page, set today's date as the posting date, specify **Per Task**, and choose the **OK** button to create an invoice with the default information. Choose the **OK** button to close the confirmation page.  
+3. Choose the **Sales Invoice/Credit Memo** action. On the sales invoice, you can see that only the down payment is included in the invoice. You can now send this to the customer as agreed.  
 
-## Next Steps
+## Summary
 
- This walkthrough has taken you through some of the basic steps of working with projects in [!INCLUDE[prod_short](includes/prod_short.md)]. You have learned about how to create a new project, how to copy a project, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
+This walkthrough has taken you through some of the basic steps of working with projects in [!INCLUDE[prod_short](includes/prod_short.md)]. You have learned about how to create a new project, how to copy a project, and how to handle payments. Also, you have seen a demonstration of how to track hours and create invoices.  
 
 ## See also
 

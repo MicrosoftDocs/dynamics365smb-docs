@@ -1,5 +1,5 @@
 ---
-title: Register new customers by creating a Customer Card (contains video)
+title: Register new customers by creating a Customer Card
 description: Describes how to create a customer card to register information about each new customer or client you sell to.
 author: brentholtorf
 ms.author: bholtorf

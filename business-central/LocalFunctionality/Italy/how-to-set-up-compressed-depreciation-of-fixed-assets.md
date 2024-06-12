@@ -1,8 +1,6 @@
 ---
 title: compressed depreciation of fixed assets [IT]
 description: You can compress fixed asset depreciation into subclasses and choose to display only the total sum by subclass.
-    services: project-madeira 
-    documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al

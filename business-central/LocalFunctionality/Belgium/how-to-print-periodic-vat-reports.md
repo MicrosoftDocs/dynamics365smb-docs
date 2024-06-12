@@ -1,8 +1,6 @@
 ---
 title: How to print periodic VAT reports [BE]
 description: The VAT reporting feature enables you to print VAT transaction details. You must send three VAT reports to the Belgian tax authorities.
-    services: project-madeira 
-    documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al

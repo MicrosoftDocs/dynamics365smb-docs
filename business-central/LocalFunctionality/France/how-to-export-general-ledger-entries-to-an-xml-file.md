@@ -2,8 +2,6 @@
 title: How to Export General Ledger Entries to an XML File
 description: You can export financial transactions for a particular period to an XML file for external archiving.
 
-    services: project-madeira 
-    documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al

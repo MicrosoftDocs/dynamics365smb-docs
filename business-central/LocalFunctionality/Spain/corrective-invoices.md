@@ -1,8 +1,6 @@
 ---
 title: Corrective invoices [ES]
 description: The corrective invoice functionality allows you to send a corrective invoice when there's an error or dispute that affects a VAT amount or fiscal data. 
-    services: project-madeira 
-    documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al

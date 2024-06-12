@@ -1,8 +1,6 @@
 ---
 title: VAT recalculation
 description: When a customer makes payment in a foreign currency, VAT must be recalculated using the exchange rate at the time of the invoice payment.
-    services: project-madeira 
-    documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al

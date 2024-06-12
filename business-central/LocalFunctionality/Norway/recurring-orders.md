@@ -1,8 +1,6 @@
 ---
 title: Recurring orders
 description: You can use recurring orders to create blanket order templates so that sales orders can be created based on date intervals that you define.
-    services: project-madeira 
-    documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al

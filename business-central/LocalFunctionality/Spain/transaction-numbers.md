@@ -1,8 +1,6 @@
 ---
 title: Transaction numbers
 description: Transaction numbers allow you to group entries with the same document number and date, so that you can balance them together.
-    services: project-madeira 
-    documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al

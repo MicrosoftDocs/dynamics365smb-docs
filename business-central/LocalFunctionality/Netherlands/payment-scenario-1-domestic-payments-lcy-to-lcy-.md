@@ -1,9 +1,7 @@
 ---
 title: Scenario 1 Domestic payments (LCY to LCY) [NL]
 description: This article describes a scenario 1 where you can use telebanking for trade with domestic and foreign customers and vendors.
-    documentationcenter: ''
 author: brentholtorf
-    services: project-madeira
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:

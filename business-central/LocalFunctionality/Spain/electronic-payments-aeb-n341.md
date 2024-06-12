@@ -1,8 +1,6 @@
 ---
 title: Electronic payments – AEB N34.1 - [ES]
 description: With the electronic payments functionality, you can pay vendors using electronic payments exported into a standard AEB N34.1 file format.
-    services: project-madeira 
-    documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al

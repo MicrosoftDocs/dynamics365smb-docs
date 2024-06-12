@@ -1,8 +1,6 @@
 ---
 title: How to set up alternate depreciation methods
 description: Alternate depreciation methods include anticipated depreciation, accelerated depreciation, and reduced depreciation.
-    services: project-madeira 
-    documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al

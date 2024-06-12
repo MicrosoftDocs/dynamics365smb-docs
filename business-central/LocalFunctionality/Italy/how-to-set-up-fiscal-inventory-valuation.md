@@ -1,8 +1,6 @@
 ---
 title: How to Set Up Fiscal Inventory Valuation [IT]
 description: To use fiscal inventory valuation, you must set up inventory valuation for item costing with the Item Costing Setup feature.
-    services: project-madeira 
-    documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al

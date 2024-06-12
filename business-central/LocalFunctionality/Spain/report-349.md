@@ -1,8 +1,6 @@
 ---
 title: Report 349 [ES]
 description: Use Business Central to submit a Report 349 declaration, the periodic report of trade with other EU countries/regions to the tax authorities. 
-    services: project-madeira 
-    documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al

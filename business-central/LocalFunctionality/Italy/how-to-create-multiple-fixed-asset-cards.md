@@ -1,8 +1,6 @@
 ---
 title: How to Create Multiple Fixed Asset Cards [IT]
 description: This topic explains how you can create multiple fixed asset cards automatically during purchase invoice posting.
-    services: project-madeira 
-    documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al

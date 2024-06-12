@@ -2,8 +2,6 @@
 title: How to Disregard Payment Discounts
 description: Use the disregard payment discount at full payment feature to accept payments when certain conditions are true.
 
-    services: project-madeira 
-    documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al

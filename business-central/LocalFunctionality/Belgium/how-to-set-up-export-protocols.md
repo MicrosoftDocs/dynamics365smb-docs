@@ -2,8 +2,6 @@
 title: How to Set Up Export Protocols [BE]
 description: Before using electronic banking, you must set up export protocols that define the file format generated when you export payment history processed by the bank.
 
-    services: project-madeira 
-    documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al

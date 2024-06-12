@@ -1,15 +1,15 @@
 ---
-    title: Set up electronic banking [BE]
-    description: With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.search.form: 11308
-    ms.date: 11/24/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: Set up electronic banking [BE]
+description: With electronic banking, you can make electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.search.form: 11308
+ms.date: 11/24/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set up electronic banking in the Belgian version

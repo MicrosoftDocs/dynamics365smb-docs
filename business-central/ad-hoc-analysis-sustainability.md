@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI, sustainability, ESG
 ms.search.form: 6220,
-ms.date: 05/17/2024
+ms.date: 06/12/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -32,15 +32,15 @@ The following sections provide examples of sustainability scenarios in [!INCLUDE
 
 | Area | To... | Open this page in analysis mode | Using these fields |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Emission overview (sum by category)](#example-emmision-overview-sum-by-category) | Analyze your emissions by category. | [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) | **Account Category**, **Account Name**, **Emission NH4**, **Emission CO2**, and **Emission N2O**.|
-| [Average emissions by category](#example-average-emmissions-by-category) | Analyze your average emissions by category. | [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) | **Account Category**, **Account Name**, **Emission NH4**, **Emission CO2**, and **Emission N2O**.|
-| [Emissions by scope](#example-emmissions-by-scope) | Analyze your emissions by scope. | [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) | **Emission Scope**, **Account Category**, **Emission NH4**, **Emission CO2**, and **Emission N2O**.|
+| [Emission overview (sum by category)](#example-emission-overview-sum-by-category) | Analyze your emissions by category. | [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) | **Account Category**, **Account Name**, **Emission NH4**, **Emission CO2**, and **Emission N2O**.|
+| [Average emissions by category](#example-average-emissions-by-category) | Analyze your average emissions by category. | [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) | **Account Category**, **Account Name**, **Emission NH4**, **Emission CO2**, and **Emission N2O**.|
+| [Emissions by scope](#example-emissions-by-scope) | Analyze your emissions by scope. | [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) | **Emission Scope**, **Account Category**, **Emission NH4**, **Emission CO2**, and **Emission N2O**.|
 
 ## Example: Emission overview (sum by category)
 
 To analyze your emissions by category, follow these steps:
 
-1. Open the [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) list and turn on analysis mode.
+1. Open the [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) page and turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
 1. Turn on **Pivot** mode (located directly above the **Search** field).
 1. Drag the **Account Category** and **Account Name** fields to the **Row Groups** area. Drag the fields in that order.
@@ -55,7 +55,7 @@ The following image shows the result of these steps.
 
 To analyze your average emissions by category, follow these steps:
 
-1. Open the [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) list and turn on analysis mode.
+1. Open the [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) page and turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
 1. Turn on **Pivot** mode (located directly above the **Search** field).
 1. Drag the **Account Category** and **Account Name** fields to the **Row Groups** area. Drag the fields in that order.
@@ -71,7 +71,7 @@ The following image shows the result of these steps.
 
 To analyze your emissions by scope, follow these steps:
 
-1. Open the [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) list and turn on analysis mode.
+1. Open the [Sustainability Ledger Entries](https://businesscentral.dynamics.com/?page=6220) page and turn on analysis mode.
 1. Go to the **Columns** menu and remove all columns (select the box next to the **Search** field).
 1. Turn on **Pivot** mode (located directly above the **Search** field).
 1. Drag the **Emission Scope** and **Account Category** fields to the **Row Groups** area. Drag the fields in that order.

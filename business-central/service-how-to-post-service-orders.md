@@ -9,6 +9,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Post service orders and credit memos
 When you have created a service order, filled in all the necessary information and made any modifications, you can post the service order. The order must contain at least one service item line and one service line before you can post it. Should the order contain more than one service line, all the lines are posted at one time.  
@@ -71,7 +72,7 @@ The following procedure describes how to post the items, resource hours, and or 
 4. Find the required entries, and specify the quantities for which you'll post consumption in the **Qty. to Consume** field. The quantity can't be larger than the quantity already shipped and the quantity remaining but not invoiced after partial invoicing of this shipment.  
 
     > [!NOTE]  
-    >  To register consumption with respect to a job, fill in the **Job No.**, **Job Task No.**, and the **Job Line Type** fields on the service line.  
+    >  To register consumption with respect to a project, fill in the **Project No.**, **Project Task No.**, and the **Project Line Type** fields on the service line.  
 
 5. Choose the lines to post, and then choose the **Post** action. On the page that opens, select **Ship and Consume**.  
 
@@ -110,7 +111,7 @@ You can cancel the consumption on the service orders. For example, because it wa
 >  You cannot undo service consumption if:  
 
 >    * The service order has been closed.  
->    * It has been posted to the Jobs area, so there are job ledger entries linked to it.  
+>    * It has been posted to the Jobs area, so there are project ledger entries linked to it.  
 
 ## To post service lines  
 If you have to work on a service order for a considerable time without posting it, you might want to post some of the service lines linked to it as a way, for example, of keeping your inventory updated. You can post by specifying the relevant quantities on the lines to be posted. You might choose to post the lines one by one or by selecting several lines at a time.  

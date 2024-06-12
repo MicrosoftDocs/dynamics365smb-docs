@@ -3,11 +3,11 @@ title: Troubleshoot Copilot and AI capabilities
 description: Learn how to fix common issues that you might encounter while working with Copilot and AI capabilities in Business Central.
 author: jswymer
 ms.author: jswymer 
-ms.reviewer: jswymer 
+ms.reviewer: jswymer
 ms.topic: troubleshooting 
 ms.collection:
   - bap-ai-copilot
-ms.date: 11/15/2023
+ms.date: 02/01/2024
 ms.custom: bap-template 
 ms.service: dynamics-365-business-central
 ---
@@ -29,6 +29,10 @@ When you try to use Copilot and you get an error similar to **Sorry, Copilot is 
 
 - First, make sure that the feature is activated on the **Copilot & AI capabilities** page. [Learn more about activating Copilot and AI capabilities](enable-ai.md#activate-features). 
 - Next, make sure that privacy notice statement for Azure OpenAI integration isn't set to **Disagree for everyone**. If it is, change it to **Agree for everyone**. [Learn more about privacy notices](privacy-notices-status.md).
+
+## Copilot capabilities from Microsoft not listed on Copilot & AI Capabilities page
+
+If none of the AI features from Microsoft are shown in the **Copilot & AI capabilities** page, it's likely because you have one or more embed apps installed on your environment. Embed apps can offer their own Copilot capabilities, but capabilities published by Microsoft aren't compatible with environments having embed apps.
 
 ## See also
 

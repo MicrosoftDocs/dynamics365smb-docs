@@ -9,6 +9,7 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Overview of Tasks to Set Up [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -31,7 +32,7 @@ In addition to the assisted setup guides, some general functionality and specifi
 | Configure the rules and values that define your company's purchasing policies, register new vendors, and prioritize your vendors for payment processing. |[Setting Up Purchasing](purchasing-setup-purchasing.md) |
 | Configure the rules and values that define the company's inventory policies, set up locations if you keep inventory in multiple warehouses, and categorize your items to improve searching and sorting. |[Setting Up Inventory](inventory-setup-inventory.md) |
 |Specify default reports to use with different document types.|[Report Selection for Documents](across-report-selections.md)|
-| Set up resources, time sheets, and jobs to manage projects. |[Setting Up Project Management](projects-setup-projects.md) |
+| Set up resources, time sheets, and projects to manage projects. |[Setting Up Project Management](projects-setup-projects.md) |
 | Configure how to insure, maintain, and depreciate fixed assets and set up how you record the costs of fixed assets in your company books. |[Setting Up Fixed Assets](fa-setup.md) |
 |Define the general rules and values for warehouse processes and specific handling at each location.|[Setting Up Warehouse Management](warehouse-setup-warehouse.md)|
 |Prepare production bills of materials (BOMs) and routings to define how end items are produced, and prepare machine or work centers to perform the required operations.|[Setting Up Manufacturing](production-configure-production-processes.md)|

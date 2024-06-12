@@ -4,9 +4,10 @@ description: The following articles provide descriptions of the local functional
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 01/17/2024
+ms.date: 02/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Mexico local functionality
 
@@ -34,7 +35,7 @@ The following articles describe local functionality that is unique to the Mexica
 ## Future legislation requirements being investigated
 
 * Carta Porte Complement 3.0 update **Planned for 23.4**
-* Rounding in electronic invoice documents **Planned for 23.4**  
+* Rounding in electronic invoice documents **Planned for 24.1**  
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

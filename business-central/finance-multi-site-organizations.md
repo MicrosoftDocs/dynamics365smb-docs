@@ -8,6 +8,7 @@
     ms.date: 10/01/2020
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 
 # Business Central for Multi-Site and International Organizations
@@ -60,7 +61,7 @@ Align the organization with your business goals by providing a common understand
 
 | **Business requirement** | **How Business Central supports it** | **Learn more** |
 |-------------------------|-------------------------|-------------------------|
-| Share insights with sites without extensive IT support. | Create KPIs and business intelligence dashboards in Power BI based on your data. | [Work with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md) |
+| Share insights with sites without extensive IT support. | Create KPIs and business intelligence dashboards in Power BI based on your data. | [Connect to Power BI from Business Central on-premises](across-working-with-business-central-in-powerbi.md) |
 | Develop custom financial reports. | Generate parameter-based financial reports. | [Business Intelligence](bi.md) |
 | Align on the facts. | Generate, view, and share reports with internal and external stakeholders. | [Financial Reports](finance-reports.md) |
 | Analyze data in Excel. | Fact-find, troubleshoot, and do ad hoc analyses in Microsoft Excel. | [Analyze Financial Statements in Excel](finance-analyze-excel.md) |

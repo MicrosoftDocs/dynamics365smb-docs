@@ -1,16 +1,17 @@
 ---
-title: Overview of Tasks to Allocate Costs and Income
+title: Overview of tasks to allocate costs and income
 description: Outlines the tasks to allocate an entry in a recurring general journal to several different accounts when you post the journal.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.form: 283, 5629
-ms.date: 09/26/2023
-ms.author: bholtorf
-
+ms.date: 02/05/2024
+ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Allocate Recurring Costs and Income
+# Allocate recurring costs and income
 
 You can allocate an entry in a recurring general journal to several accounts when you post the journal. To learn more about recurring general journals, go to [Work with recurring journals](ui-work-general-journals.md#work-with-recurring-journals). 
 
@@ -44,12 +45,14 @@ You can allocate an entry in a recurring general journal to several different ac
 11. Post the journal.
 
 ## To change an allocation key that has already been set up
+
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Recurring General Journal**, and then choose the related link.
 2. On the **Recurring General Journal** page, select the journal with the allocation.
-3. Choose the line with the allocation, and then choose **Allocations** action.
-4. Change the relevant fields, and then choose the **OK** button.
+3. Choose the line with the allocation, and then choose the **Allocations** action.
+4. Change the relevant fields, and then choose **OK**.
 
-## See Also
+## See also
+
 [Closing Years and Periods](year-close-years-periods.md)  
 [Work with General Journals](ui-work-general-journals.md)    
 [Posting Documents and Journals](ui-post-documents-journals.md)    

@@ -1,18 +1,19 @@
 ---
-title: Norwegian VAT Reporting [NO]
+title: Norwegian VAT reporting [NO]
 description: Norwegian enhancements in Business Central allow you to calculate and report VAT to the Norwegian tax authorities.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 737, 738, 743, 10601, 10604, 10692 ,10696
-ms.date: 05/12/2022
+ms.date: 04/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Norwegian VAT Reporting in the Norwegian Version
+# Norwegian VAT reporting
 
 > [!IMPORTANT]
-> There will be changes in the new ID-porten in Norway. Microsoft will update Norwegian Electronic VAT submission solution to the new ID-porten system in the 23.2 release.  
+> ID-porten in Norway has been changed. Microsoft updated Norwegian Electronic VAT submission solution to the new ID-porten system from the 23.5 release.
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] provides features that allow you to calculate and report VAT returns to the Norwegian tax authorities.  
 
@@ -20,7 +21,7 @@ This article shows the typical steps that you should follow when reporting Norwe
 
 This article assumes that you have set up VAT reporting. For more information, see [Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md) and [Report VAT to Tax Authorities](../../finance-how-report-vat.md).
 
-## Set Up Business Central to Generate and Submit Electronic VAT Returns
+## Set up Business Central to generate and submit electronic VAT returns
 
 To submit VAT returns to Norwegian tax authorities, an administrator must create a connection to ID-Porten at Digitaliseringsdirektoratet.  
 
@@ -40,11 +41,11 @@ To register your company with ID-Porten, follow the steps provided by [Samarbeid
 
 ### Set up the integration point
 
-After you register your company in ID-Porten, the next step is to create an integration point in your company's account in ID-Porten. For more information, see [integration point](https://docs.digdir.no/oidc_index.html).
+After you register your company in ID-Porten, the next step is to create an integration point in your company's account in ID-Porten. For more information, see [integration point](https://docs.digdir.no/).
 
 1. Sign in to [Skatteetaten](https://skatteetaten.github.io/mva-meldingen/english/idportenauthentication/).
 2. On the navigation pane, choose **Integrasjoner**, and under **Produksjon**, choose **Ver 2**.
-3. Choose **New Integration** to add a new integration point.
+3. Choose **New Integration** to add a new integration point: https://sjolvbetjening.samarbeid.digdir.no/ 
 4. Fill in the fields as described in the following table.
 
 | Parameter name (Norwegian) |  Parameter description | Parameter value |
@@ -53,22 +54,23 @@ After you register your company in ID-Porten, the next step is to create an inte
 | Scopes | The application programming interfaces (APIs)/resources that the integration can access. | <p>Select the following scopes:</p><ul><li>**openid**</li><li>**skatteetaten:mvameldinginnsending**</li><li>**skatteetaten:mvameldingvalidering**</li></ul> |
 | Kundens org.nr. | The organization number of the service owner. | You don't have to specify a value in this field. The required value is automatically set when the setup of the integration point is saved. |
 | Integrasjonens identifikator | The unique identifier of the service. | You don't have to specify a value in this field. The required value is automatically set when the setup of the integration point is saved. |
-| Navn på integrasjonen | The name of the integration as it appears in the sign-in window. | Specify **Microsoft Dynamics 365 Finance**. |
-| Beskrivelse | A brief description of the service (for example, "Meeting portal for NN municipality"). | Specify **Integration with Microsoft Dynamics 365 Finance**. |
+| Navn på integrasjonen | The name of the integration as it appears in the sign-in window. | Specify **Microsoft Dynamics 365 Business Central (New)**. |
+| Beskrivelse | A brief description of the service (for example, "Meeting portal for NN municipality"). | Specify **Integration with Microsoft Dynamics 365 Business Central**. |
 | Tillatte grant types | A grant represents the user's consent to retrieve an access token. By selecting specific grants, you consent to the corresponding methods of retrieving an access token. | <p>Select the following grant types:</p><ul><li>**authorization_code**</li><li>**refresh_token**</li></ul> |
 | Klientautentiseringsmetode | The method of authentication of your client. | Specify **client_secret_post**. |
 | Applikasjonstype | The application (or client) type is the type of runtime environment that the client is running under. OAuth2 chapter 2.1 lists the available options. The choice of client type is a security assessment that the customer will perform. | Select **web**. |
-| Gyldig(e) redirect uri-er | This parameter applies only to personal sign-in integrations. It specifies the URIs that the client is allowed to go to after sign-in. | The URI is a combination of your base URI and OAuthLanding.htm. This value differs depending on whether you use Business Central online or on-premises. For online, use the following URI, `https://www.businesscentral.dynamics.com/OAuthLanding.htm`. Here is an example of a URI for on-premises: `https://<hostname>/OAuthLanding.htm`. |
+| Gyldig(e) redirect uri-er | This parameter applies only to personal sign-in integrations. It specifies the URIs that the client is allowed to go to after sign-in. | The URI is a combination of your base URI and OAuthLanding.htm. This value differs depending on whether you use Business Central online or on-premises. For online, use the following URI, `https://www.businesscentral.dynamics.com/OAuthLanding.htm`. Here's an example of a URI for on-premises: `https://<hostname>/OAuthLanding.htm`. |
 | Gyldig(e) post logout redirect uri-er | This parameter applies only to personal sign-in integrations. It specifies the URIs that the client is allowed to go to after sign-out. | Specify `https://skatteetaten.no`. |
-| Frontchannel logout uri | The URI that the provider sends a request to upon sign-out that is triggered by another client in the same session. If you don't set this parameter, you risk that users remain signed in to your service when they sign out of ID-porten. | Specify `https://skatteetaten.no`. |
+| Frontchannel logout uri | The URI that the provider sends a request to upon sign-out that is triggered by another client in the same session. If you don't set this parameter, you risk that users remain signed in to your service when they sign out of ID-porten. | The value should be blank. |
 | Frontchannel logout krever sesjons-id | This parameter applies only to personal sign-in integrations. It's a flag that determines whether the issuer and session ID parameters are passed together with **frontchannel_logout_uri**. | Leave this checkbox cleared. |
 | Tilbake-uri | This parameter applies only to personal sign-in integrations. It specifies the URI that a user is sent back to when they cancel sign-in. | Specify `https://skatteetaten.no`. |
+| PKCE | This parameter specifies code challenge method. | Specify **S256** |
 | Authorization levetid (sekunder) | The lifetime of the registered authorization. In an OpenID Connect context, this authorization will be access to the "userinfo" endpoint. The value must be specified in seconds. | Specify **31536000** (= one year). |
 | Access token levetid (sekunder) | The lifetime of the issued **access_token** in seconds. | Specify **7200** (= two hours). |
 | Refresh token levetid (sekunder) | The lifetime of the issued **refresh_token** in seconds. | Specify **0** (zero). |
 | Refresh token type | <ul><li>**One-time** – You get a new **refresh_token** at each refresh of **access_token**.</li><li>**Reusable** – A refresh of **access_token** doesn't change **refresh_token**.</li></ul> | Specify **Engangs**. |
 
-:::image type="content" source="../../media/nor-vat-return-integration-point.png" alt-text="Integration point settings for Norwegian VAT":::
+:::image type="content" source="../../media/nor-vat-return-integration-point-new.png" alt-text="Integration point settings for Norwegian VAT":::
 
 ### Set up electronic VAT reporting
 
@@ -97,6 +99,21 @@ To make it easier to set up VAT reporting, [!INCLUDE[prod_short](../../includes/
 
 > [!NOTE]
 > In addition to the settings described above, we automatically create a VAT report configuration for submitting returns and getting responses. You can view the configuration on the **VAT Reports Configuration** page.
+
+#### Electronic VAT setup for existing users  
+
+> [!IMPORTANT]
+> If you are an existing user, you need to manually change some information on the **Electronic VAT Setup** page.  
+
+To update the electronic VAT setup for the use of the new ID-porten system, please follow the steps: 
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Electronic VAT Setup**, and then choose the related link.
+2. On the **Electronic VAT Setup** page, select the **General** FastTab, and then update the following values:
+
+   1. In the **Authentication URL** field, specify 'https://idporten.no' 
+   2. In the **Login URL** field, specify 'https://login.idporten.no'  
+
+3. Close the page.
 
 ### VAT report setup
 

@@ -11,6 +11,7 @@ ms.date: 10/07/2021
 ms.author: jswymer
 
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Get the Business Central Add-in for Excel
 
@@ -127,6 +128,7 @@ Sometimes, users run into problems with the Excel add-in. This section gives som
 |The dates are wrong  |Excel might show times and dates in a different format than [!INCLUDE [prod_short](includes/prod_short.md)]. This condition doesn't make them wrong, and the data in [!INCLUDE [prod_short](includes/prod_short.md)] won't get messed up.|         |
 |For some list pages, editing multiple lines in Excel consistently causes errors. This condition can occur if OData calls include FlowFields and fields outside of the repeater control.|On the **Web Services** page, select the **Exclude Non-Editable FlowFields** and **Exclude Fields Outside of the Repeater** check boxes for the published page. Selecting these check boxes excludes non-editable FlowFields and field from the eTag calculation. |These check boxes are hidden by default. To show them on the **Web Services** page, use [personalization](/dynamics365/business-central/ui-personalization-user). |
 |Users can no longer sign in to the add-in. When they try to sign in, the process stops without completing.| This problem might be caused by an update that we made to the add-in, sometime in July 2022. For more information and a fix, see [Modify the Excel Add-in Configuration to Support July 2022 Update](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Applies to [!INCLUDE [prod_short](includes/prod_short.md)] on-premises only|
+| The add-in communicates using the API v2.0 for Dynamics 365 Business Central, and any limitations of this API are automatically inherited. An example limitation is if you try to edit a list and the underlying card uses a confirmation dialog in its AL logic, for example, as its validation logic. | Sometimes there's nothing to do because it's a design choice that the user must explicitly confirm the change. If the confirmation is negligible when using **Edit in Excel**, then you can wrap the confirmation dialog call in an if-conditional statement that checks whether the client type is different from ODataV4, for example, `if SESSION.CurrentClientType() <> ClientType::ODataV4 then`. | There might be other clients that you want to remove the confirmation dialog from, such as OData and SOAP. |
 
 <!--
 ## Deploy the Excel add-in for Business Central online

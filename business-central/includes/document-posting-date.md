@@ -5,9 +5,10 @@ ms.date: 11/14/2023
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-The **Document Date** and **Posting Date** fields on sales and purchase documents can help you comply with accounting standards and ensure accurate financial calculations. The fields serve different purposes:
+The **Document Date** and **Posting Date** fields on sales and purchase documents helps you comply with accounting standards and get accurate financial calculations. The fields serve different purposes:
 
 - For [!INCLUDE [prod_short](prod_short.md)] to correctly calculate finance charges and the amount due on sales invoices, the **Document Date** must align with one of the following dates:
 

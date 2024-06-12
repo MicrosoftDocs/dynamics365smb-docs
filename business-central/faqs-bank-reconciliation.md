@@ -1,7 +1,7 @@
 ---
 title: FAQs for bank account reconciliation assist (preview) with Copilot
 description: This FAQ provides information about the AI technology used for reconciling bank accounts and statements Business Central. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 11/07/2023
+ms.date: 03/27/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -11,14 +11,15 @@ ms.reviewer: jswymer
 ms.search.keywords: copilot, AI 
 ms.collection:
   - bap-ai-copilot
-ms.service: dynamics-365-business-central
 ---
 
-# FAQ for bank account reconciliation assist (preview) with Copilot
+# FAQ for bank account reconciliation assist with Copilot (preview)
+
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
+
+These frequently asked questions (FAQ) describe the AI impact of Copilot assistance with bank account reconciliation in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
-
-These frequently asked questions (FAQ) describe the AI impact of Copilot assistance with bank account reconciliation in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## What is bank reconciliation assist?
 
@@ -50,18 +51,17 @@ This functionality was tested using combinations of synthetic bank transaction d
 
 Bank account reconciliation assist performs best when G/L account names, ledger entry descriptions, and bank transaction descriptions are all in the same language. Mixed languages or mixed language of transaction descriptions often result in fewer matches and suggestions. 
 
-Suggested ledger accounts performs best in English language. While this feature can be operated in any of the available [!INCLUDE[prod_short](includes/prod_short.md)] languages, users might experience fewer transaction matches and fewer suggested ledger accounts in other languages. 
-<!--
+Suggested ledger accounts performs best in one of the supported languages (see the next section for a list of languages). Users might experience fewer transaction matches and fewer suggested ledger accounts in other languages.
 
-## What operational factors and settings allow for effective and responsible use of the feature?
-
-
--->
 ## In which geographies and languages is bank reconciliation assist available? 
 
-This capability is available to any environment country/region localization and in any user language. For customer environments located in countries/regions where Azure OpenAI Service isn't deployed, administrators must first consent to allowing movement of data across boundaries for [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Azure OpenAI service and for this capability to be available. 
+- Available geographies
 
-For more information on language, see previous question about limitations.  
+  This Copilot feature is available in all supported [Business Central countries/regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). However, for customer environments located in countries/regions where Azure OpenAI Service isn't deployed, administrators must first consent to allowing their data to move across boundaries for [!INCLUDE [prod_short](includes/prod_short.md)] to connect to Azure OpenAI service. Learn more at [Copilot data movement across geographies](ai-copilot-data-movement.md).
+
+- Available languages
+
+  [!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
 
 ## What is expected of end-users when operating bank account reconciliation assist? 
 

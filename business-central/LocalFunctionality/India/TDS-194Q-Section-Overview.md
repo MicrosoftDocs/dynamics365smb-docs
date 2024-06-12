@@ -12,6 +12,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Setting Up Tax Deducted at Source (TDS) on purchase of goods under Section 194Q
 

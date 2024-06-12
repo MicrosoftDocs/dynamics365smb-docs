@@ -1,16 +1,16 @@
 ---
 title: Manage Master Data Synchronization
-description: Learn how manage master data synchronization.
+description: Learn how to manage master data synchronization.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 01/25/2023
+ms.date: 04/05/2024
 ms.custom: bap-template
 ms.search.form: 7230, 7233, 5338, 7236, 672, 7234
 ---
-# Manage Master Data Synchronization
+# Manage master data synchronization
 
 After you set up master data synchronization and synchronize for the first time, records in the selected tables are coupled and a recurring job queue entry is created for each table. The job queue entries automatically synchronize data in the subsidiary companies when someone makes a change in the source company. Otherwise, you don't need to do anything.
 
@@ -20,6 +20,39 @@ After you set up master data synchronization and synchronize for the first time,
 However, sometimes things go wrong, and there might be situations that you need to manage or investigate. For example, if people change the same record in both the source company and a subsidiary, synchronization will fail so that you can specify the change that's correct. Or, the source company might install an extension that changes the schema of one of the tables your synchronizing by adding a field or two. If you want to synchronize the new fields in the subsidiaries, you'll need to install the same extensions and update the table schemas in their setup.
 
 This article describes the tools you can use to keep synchronization running smoothly.
+
+## Overwrite local changes
+
+You can use the **Overwrite Local Change** checkbox on the fields and tables you synchronize to allow data from the source company to overwrite data in the subsidiary company.
+
+> [!NOTE]
+> You can't enable the synchronization of a field and allow the subsidiary to write values in it independently from the source company. You must either disable synchronization for the field, or allow the source company ot overwrite local changes.
+
+## Update table schemas
+
+If the source company changes a table, for example, by adding a field that you want to synchronize, subsidiaries must update their field mappings. On the **Synchronization Fields** page, use the **Update Fields** action.
+
+## Enable or disable couplings between records
+
+To start or stop coupling on specific records on a table, on the **Synchronization Fields** page, choose the fields, and then use either the **Enable** or **Disable** actions.
+
+> [!TIP]
+> A fast way to enable or disable multiple fields at the same time is to select them in the list, and then use either the **Enable** or **Disable** actions.
+
+## Run a full synchronization
+
+The **Run Full Synchronization** action schedules a synchronization for all of the table records in the source company, and resynchronizes all records unconditionally. For example, resynchronization is useful if you enable an extra field on a synchronization table, or add an extra field by using the **Update Fields** action. The action retroactively synchronizes the data in those fields.
+
+## Synchronize modified records
+
+If you change a setting for a table or field in a subsidiary, you must update the synchronization. To update the synchronization, use the **Synchronize Modified Records** action on the **Synchronization Tables** page.
+
+The **Synchronize Modified Records** action schedules a synchronization of the following table records:
+
+* Records that failed to synchronize in the last attempt.
+* Records that were changed in the source company after the last scheduled synchronization. You can review the last scheduled synchronization time on the **Synchronization Tables** page in the **Synchronize Changes Since** field.
+
+The action works in the same way as a scheduled synchronization, and you can use it as a way to synchronize outside the schedule. For example, if you select the **Overwrite Local Change** checkbox on a field to allow data from the source company to overwrite local changes, the action updates that data. You can also just wait until the next scheduled synchronization happens.
 
 ## Investigate the status of synchronization
 
@@ -38,20 +71,12 @@ The following table describes the actions.
 > [!NOTE]
 > If you find an error on the **Integration Synchronization Jobs** page that you can't resolve yourself, if you contact your partner or Microsoft for support, it's helpful to provide the error message and callstack information.
 
-## Synchronize modified records
+## Clean up old entries
 
-If you change a setting for a table or field in a subsidiary, you must update the synchronization. For example, if you decide to select the **Overwrite Local Change** checkbox on a field to allow data from the source company to overwrite local changes. To update the synchronization, use the **Synchronize Modified Records** action on the **Synchronization Tables** page.
+Over time, the number of entries in the synchronization log will become large, so you might want to do a little housekeeping to remove unneeded entries. To make it easier to clean up old entries, the **Integration Synchronization Jobs** page offers the following actions:
 
-## Update table schemas
-
-If the source company changes a table, for example, by adding a field that you want to synchronize, subsidiaries must update their field mappings. On the **Synchronization Fields** page, use the **Update Fields** action. 
-
-## Enable or disable couplings between records
-
-To start or stop coupling on specific records on a table, on the **Synchronization Fields** page, choose the fields, and then use either the **Enable** or **Disable** actions. 
-
-> [!TIP]
-> A fast way to enable or disable multiple fields at the same time is to select them in the list, and then use either the **Enable** or **Disable** actions.
+* **Delete Entries Older Than 7 Days**
+* **Delete All Entries**
 
 ## Adding extensions
 
@@ -59,13 +84,6 @@ If the source company installs a new extension, the subsidiary must also install
 
 > [!NOTE]
 > Some tables get data from related tables. If you add an extension that doesn't include related tables, the fields on those tables won't be available. Verify that you've added all related tables.
-
-## Clean up old entries
-
-Over time, the number of entries in the synchronization log will become large, so you might want to do a little housekeeping to remove unneeded entries. To make it easier to clean up old entries, the **Integration Synchronization Jobs** page offers the following actions:
-
-* **Delete Entries Older Than 7 Days**
-* **Delete All Entries**
 
 <!--
 ## Recreate a deleted job queue entry

@@ -5,8 +5,8 @@ author: kennienp
 ms.topic: overview
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.search.form: 6316, 6317
-ms.reviewer: jswymer
-ms.date: 10/10/2023
+ms.reviewer: bholtorf
+ms.date: 04/24/2024
 ms.author: kepontop
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
@@ -16,7 +16,7 @@ ms.service: dynamics-365-business-central
 [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] is an end-to-end analytics solution with full-service capabilities including data movement, data lakes, data engineering, data integration, data science, real-time analytics, and business intelligence&mdash;all backed by a shared platform providing robust data security, governance, and compliance. Your organization no longer needs to stitch together individual analytics services from multiple vendors. Instead, use a streamlined solution that’s easy to connect, onboard, and operate.
 
 > [!NOTE]
-> [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] is currently in preview. For more information about the Microsoft Fabric release plan, see [aka.ms/FabricRoadmap](https://aka.ms/FabricRoadmap)
+> For more information about the Microsoft Fabric release plan, see [aka.ms/FabricRoadmap](https://aka.ms/FabricRoadmap)
 > 
 > The regular publishing of this roadmap will help you stay informed about how [!INCLUDE[microsoft_fabric](includes/microsoft_fabric.md)] will address your needs.
 

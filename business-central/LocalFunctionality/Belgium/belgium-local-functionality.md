@@ -1,12 +1,13 @@
 ---
 title: Belgium local functionality
-description: The following articles describe the various local functionality in the Belgian version of Business Central.
+description: The following articles describe the various local functionalities in the Belgian version of Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 01/17/2024
+ms.date: 02/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Belgium local functionality
 
@@ -51,7 +52,7 @@ The following articles describe local functionality that is unique to the Belgia
     * [Edit and Delete Domiciliation Lines](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#edit-and-delete-domiciliation-lines) **Available Now**
     * [Test Domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#test-domiciliations) **Available Now**
     * [Export and Post Domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#export-and-post-domiciliations) **Available Now**
-    * [Generate Domiciliation Suggestions](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
+    * [Generate Domiciliation Suggestions](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#generate-domiciliation-suggestions) **Available Now**
     * [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md) **Available Now**
 
 * Electronic Invoicing
@@ -72,7 +73,7 @@ The following articles describe local functionality that is unique to the Belgia
 
 ## Future legislation requirements being investigated
 
-* Redesigned and upgraded non-deductible VAT **Planned for 23.5**
+* Redesigned and upgraded non-deductible VAT **Planned for 2024 release wave 2**
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

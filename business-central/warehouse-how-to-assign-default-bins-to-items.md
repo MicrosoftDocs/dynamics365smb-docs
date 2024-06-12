@@ -10,6 +10,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Assign Default Bins to Items
 If you are using bins at a location, assigning default bins to your items can make the process of shipping, receiving, and moving your items much easier. When a default bin is assigned to an item, this bin is suggested every time you initiate a transaction for this item. Default bins are defined on the **Bin Content** page.  

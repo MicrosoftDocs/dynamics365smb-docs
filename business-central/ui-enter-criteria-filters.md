@@ -2,13 +2,14 @@
 title: Sorting, Searching, and Filtering Lists
 description: Work efficiently in lists by searching across your data, sorting columns, and refining results using filter symbols and keyboard shortcuts.
 author: jswymer
+ms.author: jswymer
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form:
-ms.date: 10/30/2023
-ms.author: jswymer
+ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
+ms.reviewer: jswymer
 ---
 # Sorting, Searching, and Filtering
 
@@ -244,7 +245,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 |-----------------------|-----------------------|  
 |`Hans?n`|Text such as **Hansen** or **Hanson**|  
 
-#### Combined Format Expressions  
+#### Combined format expressions  
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
@@ -252,7 +253,7 @@ When you enter criteria, you can use all the numbers and letters that you normal
 |`..1299|1400..`|Include records with a number less than or equal to 1299 or a number equal to 1400 or greater (all numbers except 1300 through 1399).|  
 |`>50&<100`|Include records with numbers that are greater than 50 and less than 100 (numbers 51 through 99).|  
 
-### <a name="symbols"></a>Filtering on Values That Contain Symbols
+### <a name="symbols"></a>Filtering on values that contain symbols
 
 There may be cases where field values contain the one of the following symbols:
 
@@ -273,13 +274,13 @@ When entering filter criteria, you can also type words that have special meaning
 > [!TIP]
 > Your organization may use custom tokens. To learn about the complete set of tokens available to you or to add more custom tokens, talk to your administrator. For technical information see [Adding Filter Tokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
-#### (%me or %userid) Records Assigned to You
+#### (%me or %user) Records Assigned to You
 
-Use `%me` or `%userid` when filtering fields that contain the user ID, such as **Assigned to User ID** field, to display all records that are assigned to you.
+Use `%me` or `%user` when filtering fields that contain the user ID, such as **Assigned to User ID** field, to display all records that are assigned to you.
 
 |Sample Expression|Records Displayed|  
 |-----------------------|-----------------------|  
-|`%me`<br />or<br />`%userid`|Records that are assigned to your user account. |  
+|`%me`<br />or<br />`%user`|Records that are assigned to your user account. |  
 
 #### (%mycustomers) Customers in My Customers
 

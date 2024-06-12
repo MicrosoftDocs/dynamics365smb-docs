@@ -1,13 +1,14 @@
 ---
-    title: Calculate order promising dates
+title: Calculate order promising dates
     description: The order promising function is a tool for calculating the earliest possible date that an item is available for shipment or delivery. 
     author: brentholtorf
     ms.topic: conceptual
     ms.devlang: al
     ms.search.keywords:
-    ms.date: 12/13/2023
+    ms.date: 03/05/2024
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Calculate order promising dates
 
@@ -91,7 +92,7 @@ In addition to the external order promising that you can perform on the **Order 
 4. Enter an order promising template in the **Order Promising Template** field by selecting a line from the list on the **Req. Worksheet Template List** page.  
 5. Enter a requisition worksheet in the **Order Promising Worksheet** field by selecting a line from the list on the **Req. Wksh. Names** page.
 
-### Inbound and Outbound Warehouse Handling Times in Order Promising
+### Inbound and outbound warehouse handling times in order promising
 
 If you want to include warehouse handling time in the order promising calculation on the purchase line, on the **Inventory Setup** page you can specify a default handling time to use on sales and purchase documents. You can also enter specific times for each of your locations on the **Location Card** page. 
 

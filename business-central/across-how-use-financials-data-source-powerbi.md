@@ -1,17 +1,17 @@
 ---
-title: Building Reports in Power BI Desktop to Display Business Central Data | Microsoft Docs
+title: Building Reports in Power BI Desktop to Display Business Central Data| Microsoft Docs
 description: Make your data available as a data source in Power BI and build powerful reports of the state of your business.
 author: jswymer
-
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 09/07/2022
+ms.date: 01/22/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
-# Building Power BI Reports to Display [!INCLUDE [prod_long](includes/prod_long.md)] Data
+# Building Power BI reports to display [!INCLUDE [prod_long](includes/prod_long.md)] data
 
 You can make your [!INCLUDE[prod_long](includes/prod_long.md)] data available as a data source in Power BI Desktop and build powerful reports of the state of your business.
 
@@ -31,14 +31,14 @@ This article describes how to get started using Power BI Desktop to create repor
 
   For more information, see [Expose data through API pages or OData web services](admin-powerbi-setup.md#exposedata).
 
-- For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, get the following information:
+<!--- For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, get the following information:
 
   - The OData URL for [!INCLUDE[prod_short](includes/prod_short.md)].
   
     Typically, this URL has the format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, for example, `https://localhost:7048/BC190/ODataV4`. If you have a multi-tenant deployment, include the tenant in the URL, for example, `https://localhost:7048/BC190/ODataV4?tenant=tenant1`.
   - A user name and web service access key of a [!INCLUDE[prod_short](includes/prod_short.md)] account.
 
-    To get data from [!INCLUDE[prod_short](includes/prod_short.md)], Power BI uses basic authentication. So, you'll need a user name and web service access key to connect. The account might be your own user account, or your organization may have specific account for this purpose.
+    To get data from [!INCLUDE[prod_short](includes/prod_short.md)], Power BI uses basic authentication. So, you'll need a user name and web service access key to connect. The account might be your own user account, or your organization may have specific account for this purpose.-->
 
 - Download the [!INCLUDE [prod_short](includes/prod_short.md)] report theme (optional).
 
@@ -58,7 +58,7 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
 4. In the **Online Services** pane, do one of the following steps:
 
     - To connect to [!INCLUDE [prod_short](includes/prod_short.md)] online, select **Dynamics 365 Business Central**, then **Connect**.
-    - To connect to  [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, select **Dynamics 365 Business Central (on-premises)**, then **Connect**.
+    <!--- To connect to  [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, select **Dynamics 365 Business Central (on-premises)**, then **Connect**.-->
 
 5. Sign-in to [!INCLUDE [prod_short](includes/prod_short.md)] (one-time only).
 
@@ -66,7 +66,7 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
 
     - For [!INCLUDE [prod_short](includes/prod_short.md)] online, select **Sign in**, and then choose the relevant account. Use the same account that you use to sign into [!INCLUDE [prod_short](includes/prod_short.md)]. When done, select **Connect**.
 
-    - For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, first enter the OData URL for [!INCLUDE[prod_short](includes/prod_short.md)], then select **OK**. When prompted, enter the user name and password of the account to use for connecting to [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Password** box, enter the web service access key. When done, select **Connect**.
+    <!--- For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, first enter the OData URL for [!INCLUDE[prod_short](includes/prod_short.md)], then select **OK**. When prompted, enter the user name and password of the account to use for connecting to [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Password** box, enter the web service access key. When done, select **Connect**.-->
 
     > [!NOTE]  
     > Once you have successfully connected to [!INCLUDE[prod_short](includes/prod_short.md)], you won't be prompted again to sign in. [How do I change or clear the account I'm currently using to connect to Business Central from Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
@@ -89,8 +89,9 @@ The first task in creating reports is to add [!INCLUDE[prod_short](includes/prod
 
           This folder lists pages, codeunits, and queries that are published as web services in Business Central.
 
+    <!--
     > [!NOTE]
-    > The structure for Business Central on-premises is different because it doesn't support API pages.
+    > The structure for Business Central on-premises is different because it doesn't support API pages.-->
 
 7. Select the data source or sources that you want to add to your data model, and then select the **Load** button.
 8. If later you want to add more Business Central data, you can repeat the previous steps.
@@ -138,7 +139,7 @@ There are a couple ways to get reports to your coworkers and others:
 
 - Distribute reports as .pbix files.
 
-    Reports are stored on your computer as .pbix files. You can distribute the report .pbix file to users, like any other file. Then, users can upload the file to their Power BI Service. See [Upload reports from files](across-working-with-business-central-in-powerbi.md#upload).
+    Reports are stored on your computer as .pbix files. You can distribute the report .pbix file to users, like any other file. Then, users can upload the file to their Power BI Service. See [Upload reports from files](across-working-with-powerbi.md#upload).
 
     > [!NOTE]
     > Distributing reports in this manner means that refreshing data for reports will be done individually by each user. This situation might impact [!INCLUDE[prod_short](includes/prod_short.md)] performance.
@@ -149,7 +150,7 @@ There are a couple ways to get reports to your coworkers and others:
 
 ## Fixing problems
 
-### "Cannot insert a record. Current connection intent is Read-Only." error connecting to custom API page
+### "Can't insert a record. Current connection intent is Read-Only." error connecting to custom API page
 
 > **APPLIES TO:** Business Central online
 
@@ -161,7 +162,7 @@ Starting in February 2022, new reports that use Business Central data will conne
 4. In the **Navigator** window, select the API endpoint that you want to load data from.
 5. In the preview pane on the right, you'll see the following error:
 
-   *Dynamics365BusinessCentral: Request failed: The remote server returned an error: (400) Bad Request. (Cannot insert a record. Current connection intent is Read-Only. CorrelationId: [...])".*
+   *Dynamics365BusinessCentral: Request failed: The remote server returned an error: (400) Bad Request. (Can't insert a record. Current connection intent is Read-Only. CorrelationId: [...])".*
 
 6. Select **Transform Data** instead of **Load** as you might normally do.
 7. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
@@ -182,7 +183,7 @@ Starting in February 2022, new reports that use Business Central data will conne
 
 ## See Also
 
-[Enabling Your Business Data for Power BI](admin-powerbi.md)  
+[Enabling Your Business Data for Power BI](admin-powerbi-setup.md)  
 [Business Intelligence](bi.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Importing Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  

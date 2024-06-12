@@ -1,20 +1,20 @@
 ---
-    title: Italy Local Functionality
-    description: The following outlined topics describe the local functionality in the Italian version of Business Central.
-
+    title: Italy local functionality
+    description: The following outlined articles describe the local functionality in the Italian version of Business Central.
     author: brentholtorf
     ms.topic: conceptual
     ms.devlang: al
     ms.search.keywords:
-    ms.date: 06/18/2021
+    ms.date: 02/09/2024
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
-# Italy Local Functionality
+# Italy local functionality
 
-The following topics describe local functionality that is unique to the Italian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following articles describe local functionality that is unique to the Italian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Feature Availability
+## Feature availability
 
 * VAT & Withholding Tax
     * [Italian VAT](italian-vat.md)
@@ -61,12 +61,12 @@ The following topics describe local functionality that is unique to the Italian 
 
 ## Future legislation requirements being investigated
 
-* Redesigned and upgraded non-deductible VAT - planned for **2024 release wave 1**
-* Updated Electronic invoicing with new E-documents framework (SDI) **2024 release wave 2**
+* Redesigned and upgraded non-deductible VAT - **Planned for 2025 release wave 1**  
+* Updated Electronic invoicing with new E-documents framework (SDI) **2024 release wave 2**  
 
-If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## See Also
+## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

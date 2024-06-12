@@ -1,17 +1,17 @@
 ---
 title: Send Reminders of Outstanding Balances
-description: Learn how to issue a reminder to a customer about an overdue payment.  is due and add charges, or fees to the payment because of the delay.
+description: Learn how to issue a reminder to a customer about an overdue payment.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 436, 437, 442, 431, 432, 434
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
+ms.reviewer: bholtorf
 ---
-# Send Reminders of Outstanding Balances
+# Send reminders of outstanding balances
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 

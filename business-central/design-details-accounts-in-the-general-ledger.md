@@ -1,21 +1,24 @@
 ---
-    title: Design Details - Accounts in the General Ledger | Microsoft Docs
-    description: To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/08/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: Design Details - Accounts in the General Ledger | Microsoft Docs
+description: To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords:
+ms.date: 02/20/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Design Details: Accounts in the General Ledger
+# Design details: accounts in the general ledger
+
 To reconcile inventory and capacity ledger entries with the general ledger, the related value entries are posted to different accounts in the general ledger. For more information, see [Design Details: Reconciliation with the General Ledger](design-details-reconciliation-with-the-general-ledger.md).  
 
 ## From the Inventory Ledger  
+
 The following table shows the relationship between different types of inventory value entries and the accounts and balancing accounts in the general ledger.  
 
-|**Item Ledger Entry Type**|**Value Entry Ttype**|**Variance Type**|**Expected Cost**|**Account**|**Balancing Account**|  
+|**Item Ledger Entry Type**|**Value Entry Type**|**Variance Type**|**Expected Cost**|**Account**|**Balancing Account**|  
 |--------------------------------|--------------------------|-----------------------|-----------------------|-----------------|---------------------------|  
 |Purchase|Direct Cost||Yes|Inventory  (Interim)|Invt. Accrual Acc. (Interim)|  
 |Purchase|Direct Cost||No|Inventory|Direct Cost Applied|  
@@ -56,6 +59,7 @@ The following table shows the relationship between different types of inventory 
 |Assembly Output|Rounding||No|Inventory|Inventory Adjmt.|  
 
 ## From the Capacity Ledger  
+
  The following table shows the relationship between different types of capacity value entries and the accounts and balancing accounts in the general ledger. Capacity ledger entries represent labor time consumed in assembly or production work.  
 
 |**Work Type**|**Capacity Ledger Entry Type**|**Value Entry Type**|**Account**|**Balancing Account**|  
@@ -65,18 +69,20 @@ The following table shows the relationship between different types of inventory 
 |Production|Machine Center/Work Center|Direct Cost|WIP Account|Direct Cost Applied|  
 |Production|Machine Center/Work Center|Indirect Cost|WIP Account|Overhead Applied|  
 
-## Assembly Costs are Always Actual  
+## Assembly costs are always actual  
+
  As shown in the table above, assembly postings are not represented in interim accounts. This is because the concept of work in process (WIP) does not apply in assembly output posting, unlike in production output posting. Assembly costs are only posted as actual cost, never as expected cost.  
 
  For more information, see [Design Details: Assembly Order Posting](design-details-assembly-order-posting.md).  
 
-## Calculating the Amount to Post to the General Ledger  
+## Calculating the amount to post to the general ledger  
+
  The following fields in the **Value Entry** table are used to calculate the expected cost amount that is posted to the general ledger:  
 
--   Cost Amount (Actual)  
--   Cost Posted to G/L  
--   Cost Amount (Expected)  
--   Expected Cost Posted to G/L  
+- Cost Amount (Actual)  
+- Cost Posted to G/L  
+- Cost Amount (Expected)  
+- Expected Cost Posted to G/L  
 
 The following table shows how the amounts to post to the general ledger are calculated for the two different cost types.  
 
@@ -85,13 +91,13 @@ The following table shows how the amounts to post to the general ledger are calc
 |Actual Cost|Cost Amount (Actual) – Cost Posted to G/L|  
 |Expected Cost|Cost Amount (Expected) –  Expected Cost Posted to G/L|  
 
-## See Also  
- [Design Details: Inventory Costing](design-details-inventory-costing.md)   
- [Design Details: Inventory Posting](design-details-inventory-posting.md)   
- [Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)  
- [Managing Inventory Costs](finance-manage-inventory-costs.md)  
- [Finance](finance.md)  
- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+## See also  
 
+[Design Details: Inventory Costing](design-details-inventory-costing.md)  
+[Design Details: Inventory Posting](design-details-inventory-posting.md)  
+[Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)  
+[Managing Inventory Costs](finance-manage-inventory-costs.md)  
+[Finance](finance.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

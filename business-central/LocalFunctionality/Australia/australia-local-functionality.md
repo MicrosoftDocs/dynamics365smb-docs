@@ -1,18 +1,20 @@
 ---
-title: Australia Local Functionality
-description: The following topics describe the local functionality in the Australian version of Business Central.
+title: Australia local functionality
+description: The following articles describe the local functionality in the Australian version of Business Central.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords:
-ms.date: 03/17/2023
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords:
+ms.date: 05/17/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Australia Local Functionality
-The following topics describe local functionality that is unique to the Australian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+# Australia local functionality
 
-## Feature Availability
+The following articles describe local functionality that is unique to the Australian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+
+## Feature availability
 
 * Tax
     * [Tax](tax.md) **Available Now**
@@ -50,17 +52,17 @@ The following topics describe local functionality that is unique to the Australi
 
 ## Future legislation requirements being investigated
 
-* Payment Times Reporting Bill Compliance **Planned for 23.4**
+* ANZ Peppol format for E-Documents **Planned for 2024 release wave 2**  
+* Payment Times Reporting Bill Compliance **Planned for 2024 release wave 2**
 * Taxable payments annual report (TPAR) **Under review**
 
-If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## See Also
+## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

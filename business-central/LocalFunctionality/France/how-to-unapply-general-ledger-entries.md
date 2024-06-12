@@ -12,6 +12,7 @@
     ms.author: bholtorf
 
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Unapply General Ledger Entries in the French Version
 You can unapply general ledger entries in a very straightforward way.  

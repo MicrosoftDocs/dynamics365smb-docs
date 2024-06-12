@@ -8,6 +8,7 @@ ms.date: 12/15/2023
 ms.author: bholtorf
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Integrating with Dynamics 365 Sales
 
@@ -38,6 +39,12 @@ When you install the Integration Solution, permissions for the integration user 
 * Dynamics 365 Business Central Integration Administrator
 * Dynamics 365 Business Central Integration User
 * Dynamics 365 Business Central Product Availability User
+
+> [!NOTE]
+> To use the **Open in Business Central** action in Sales, you must have the following privileges for the following tables:
+>
+> * You must have Read permissions for the Dynamics 365 Business Central Connection (nav_connection) table.
+> * You must have Read, Write, and Delete permissions for the Default Dynamics 365 Business Central Connection (nav_defaultconnection) table.
 
 ### Connection settings in the setup guide
 

@@ -8,6 +8,7 @@
     ms.date: 06/21/2021
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
 # Swiss Purchase Documents and Sales Documents
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includes Swiss enhancements to purchase documents and sales documents. This includes the following:  

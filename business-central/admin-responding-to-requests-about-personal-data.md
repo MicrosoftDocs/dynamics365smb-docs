@@ -3,21 +3,16 @@ title: Responding to requests about users' personal data
 description: This article explains how to respond to requests about personal data.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 04/25/2023
+ms.date: 04/25/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
 # Responding to requests about users' personal data
 
-Data subjects can request several types of actions regarding their personal data. For example, under some privacy laws and regulations, they have the right to request the export, deletion, and modification of their personal data. These requests are called *Data Subject Requests*. If you have classified the sensitivity of your data, and are sure they are correct, an administrator can respond to requests by using the options in the **Data Privacy** tab in the **IT Manager** Role Center. 
-<!--
-For more information about classifying data and data sensitivity in [!INCLUDE[prod_long](includes/prod_long.md)], go to the following articles:
-
-* [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) 
-* [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)  -->
+Data subjects can request several types of actions regarding their personal data. For example, under some privacy laws and regulations, they have the right to request the export, deletion, and modification of their personal data. These requests are called *Data Subject Requests*. If you have classified the sensitivity of your data, and are sure they are correct, an administrator can respond to requests by using the options in the **Data Privacy** tab in the **IT Manager** Role Center.
 
 ## Types of requests
 

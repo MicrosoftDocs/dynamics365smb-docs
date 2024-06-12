@@ -44,9 +44,9 @@ If you post the warehouse receipt and the **Use Put-away Worksheet** toggle is t
 
 1. If you're using bins, set up at least one cross-dock bin. If you're using directed put-away and picks, set up a cross-dock zone.  
 
-    A cross-dock bin has the **Cross-Dock Bin** field selected and must have both **Receive** and **Pick** bin types selected. To learn more about bins, go to [Create Bins](warehouse-how-to-create-individual-bins.md) and [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).  
+    A cross-dock bin has the **Cross-Dock Bin** field selected. To learn more about bins, go to [Create Bins](warehouse-how-to-create-individual-bins.md).  
 
-    If you are using zones, create a zone for your cross-dock bins, and select the **Cross-Dock Bin Zone** field. To learn more about zones, go to [Set Up Locations to Use Bins](warehouse-how-to-set-up-locations-to-use-bins.md).  
+    If you are using zones, create a zone for your cross-dock bins, and select the **Cross-Dock Bin Zone** field. If you are using directed put-away and picks, select bin type with **Pick** selected, for example you can use *PICK* or *PUTPICK*. To learn more about zones and bin types, go to [Set Up Locations to Use Bins](warehouse-how-to-set-up-locations-to-use-bins.md) and [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).  
 
 2. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Location**, and then choose the related link.  
 3. On the **Location** page, select the location that you want to set up the warehouse for cross-docking, and then choose the **Edit** action.  

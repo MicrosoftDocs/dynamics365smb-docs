@@ -5,10 +5,10 @@ author: altotovi
 ms.topic: how-to
 ms.search.keywords: local, 1096, irs
 ms.search.form: 10019, 10020, 10021
-ms.date: 12/12/2023
+ms.date: 02/09/2024
 ms.author: altotovi
-ms.reviewer: 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set up and use the IRS 1096 form in the US version
@@ -35,6 +35,9 @@ Complete the following steps to set up more required fields for reporting.
 3. To specify who communicates with the IRS, in the **IRS Contact No.** field, select the employee responsible for this communication.  
 
 ## To create a new 1096 form
+
+> [!NOTE]
+> The IRS 1096 report layout currently supports reporting for the year 2023.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **1096 Forms**, and then choose the related link.
 2. Choose the **Create forms…** action to create a new entry.
@@ -98,5 +101,8 @@ The lines contain the following information. Amounts are summarized per **Vendor
 
 ## See also
 
+[Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md)   
 [United States Local Functionality](united-states-local-functionality.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

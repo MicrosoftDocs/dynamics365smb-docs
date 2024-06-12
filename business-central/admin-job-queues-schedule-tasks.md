@@ -3,7 +3,7 @@ title: Schedule jobs to run automatically
 description: Learn how to use job queue entries to run reports and codeunits.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 09/15/2023
 ms.custom: bap-template
@@ -63,13 +63,16 @@ The following table describes the values of the **Status** field.
 |--|--|
 | Ready | The job queue entry is ready to be run. |
 | In Process | The job queue entry is in process. This field updates while the job queue is running. |
-| On Hold | The default status of the job queue entry when it's created. Choose the **Set Status to Ready** action to change the status to **Ready**. Choose the **Set On Hold** action to revert the status to **On Hold**. |
+| On Hold | The default status of the job queue entry when it's created. Choose the **Set Status to Ready** action to change the status to **Ready**. Choose the **Set On Hold** action to revert the status to **On Hold**. For more information, refer to [About On Hold](#about-on-hold).|
 | Error | Something went wrong. Choose **Show Error** to show the error message. |
 | Finished | The job queue entry is complete. |
 
-> [!Tip]  
+> [!TIP]  
 > Job queue entries stop running when there's an error. For example, this can be a problem when an entry connects to an external service, such as a bank feed. If the service is temporarily not available and the job queue entry can't connect, the entry will show an error and stop running. You'll have to manually restart the job queue entry. However, the **Maximum No. of Attempts** and **Rerun Delay (sec.)** fields can help you avoid this situation. The **Maximum No. of Attempts** field lets you specify how many times the job queue entry can fail before it stops trying to run. The **Rerun Delay (sec.)** field lets you specify the amount of time, in seconds, between attempts. The combination of these two fields might keep the job queue entry running until the external service becomes available.
 
+### About On Hold
+
+Setting a job queue entry to **On Hold** doesn't affect a jog that's already running. Once a job has started in the job queue, it continues to run until completion, regardless of any subsequent changes made to the job queue entry, such as putting it on hold.<br><br>The **On Hold** status is typically used to prevent a job from automatically starting when it reaches its scheduled start time. It allows you to temporarily pause the execution of a job before it begins processing. However, once a job is already running, changing the status to 'On Hold' will not interrupt or impact the job's execution.<br><br>If you need to stop or cancel a running job, you can do so by manually intervening in the process, such as terminating the corresponding session or process responsible for executing the job.
 ### To view status for any job
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
@@ -89,7 +92,7 @@ For example, all scheduled tasks stop if the company is in an environment that's
 
 ## The My Job Queue part
 
-The **My Job Queue** part on your Role Center shows the job queues entries that you've started but aren't finished. By default the part isn't displayed, but you can add it to your Role Center. To learn more about personlization, go to [Personalize Your Workspace](ui-personalization-user.md).  
+The **My Job Queue** part on your Role Center shows the job queues entries that you've started but aren't finished. By default the part isn't displayed, but you can add it to your Role Center. To learn more about personalization, go to [Personalize Your Workspace](ui-personalization-user.md).  
 
 The part shows the following information:
 
@@ -125,7 +128,7 @@ If a job queue entry shows an error, your first option to resolve the issue is t
 
 If a restart doesn't help, the issue might be in the code. You can find the owner (also called the *publisher*) of the code in the AL stack trace in the Job Queue log. If the error comes from an app/extension, contact your Microsoft partner. If the error comes from a Microsoft application, open a support request with Microsoft.
 
-If you contact your Microsoft partner or Microsoft for support, please provide the following information:
+If you contact your Microsoft partner or Microsoft for support, provide the following information:
 
 * The ID of the job queue entry run where the error occurred
 * The timestamp of when the error occurred

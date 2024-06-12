@@ -5,10 +5,12 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.search.form: 315, 466, 467, 468, 469
-ms.date: 01/18/2024
+ms.date: 04/01/2024
 ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
+
 # United States local functionality
 
 The following articles describe local functionality that is unique to the United States version of [!INCLUDE[prod_short](../../includes/prod_short.md)].
@@ -17,9 +19,13 @@ The following articles describe local functionality that is unique to the United
 
 * Tax
   * [Basic Tax Setup](us-tax-setup.md) **Available Now**
-  * [Reporting Sales Tax in the US](us-sales-tax.md) **Available Now**  
-  * [Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md) **Available Now**  
-  * [Regulatory 1099 Format Changes and Details](tax-1099-changes.md) **Available Now**  
+  * [Reporting Sales Tax in the US](us-sales-tax.md) **Available Now**
+  * [IRS 1099 Forms Overview](introduction-to-the-irs-forms.md) **Available Now (24.0)**
+      * [IRS 1099 Forms Setup](set-up-use-irs1099-form-v24.md) **Available Now (24.0)**
+      * [Using of IRS 1099 Forms](how-to-1099-use.md) **Available Now (24.0)**
+      * [Submitting and Reporting of IRS 1099 Forms](how-to-1099-report.md) **Available Now (24.0)**
+  * [Set Up and Use the IRS 1099 Form](set-up-use-irs1099-form.md) **Available Now - Planned for Obsoletion**  
+  * [Regulatory 1099 Format Changes and Details](tax-1099-changes.md) **Available Now - Planned for Obsoletion**  
   * [Set Up and Use the IRS 1096 Form](set-up-use-irs1096-form.md) **Available Now**
   * [Set Up Use Tax and Purchase Tax](how-to-set-up-use-tax-and-purchase-tax.md) **Available Now**  
   * [Set Up Unrealized Sales Tax and Sales Payment Discounts](how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md) **Available Now**  
@@ -37,10 +43,10 @@ The following articles describe local functionality that is unique to the United
 
 ## Future legislation requirements being investigated
 
-* Updates for IRS 1099 and 1096 for 2023 - **planned for 23.2**
-* New IRS 1099 functionality as an app with more features and automations included - **planned for 2024 Wave 1**
-* EFT improvements - **planned for 2024 Wave 2**
-* Tax improvements - **planned for 2024 Wave 2**
+* New IRS 1099 functionality integrated with IRS via IRIS - **Planned before 2024 release wave 2**  
+* EFT improvements - **Planned for 2024 release wave 2**  
+* Tax improvements - **Planned for 2024 release wave 2**
+* Enabling E-Document in the US market - **Planned for 2024 release wave 1**  
 
 If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

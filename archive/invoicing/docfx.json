@@ -36,8 +36,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/dynamics365smb-docs",
+      "feedback_system": "Standard",
       "feedback_product_url": "https://techcommunity.microsoft.com/t5/Microsoft-Invoicing-Ideas/idb-p/MicrosoftInvoicingIdeas",
       "searchScope": ["Invoicing"],
       "uhfHeaderId": "MSDocsHeader-Dynamics365",

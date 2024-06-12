@@ -6,9 +6,10 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 
-ms.date: 04/01/2021
+ms.date: 02/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Walkthrough of inbound and outbound flow in Basic Warehouse Configurations
@@ -84,9 +85,9 @@ Alicia, the purchasing agent, creates a purchase order for various roasted beans
     When putting items to bins, John noticed default bin already contains some items, so he decided to use another bin. John also places other items to the next bins, as received quantity don't fit the capacity.
 
     1. In the first line change **Bin Code** from *S-1-01*, that was copied from the purchase order, to *S-1-02*. 
-    2.  Enter 20 in the **Qty. to Handle** field on the inventory put-away line with item WBR-1000.  
+    2.  Enter 20 in the **Qty. to Handle** field on the inventory put-away line with item WRB-1000.  
     3. In the second line, enter 20 into the **Qty to Handle** field and choose **Split Line** action. A new line appears, which is a copy of the original line, except that the **Qty. to Handle** field contains the quantity that you removed from the original line. 
-    4. Fill in bins codes for item WBR-1001:
+    4. Fill in bins codes for item WRB-1001:
 
     |Item|Bin code|Quantity|  
     |----------|-------------------|--------------|  

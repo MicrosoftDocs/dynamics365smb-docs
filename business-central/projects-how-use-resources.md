@@ -1,33 +1,33 @@
 ---
 title: Record and Adjust Resource Usage and Prices
-description: Describes how you can record the resource usage or consumption associated with a job, to keep track and manage costs, prices, and work types.
+description: Describes how you can record the resource usage or consumption associated with a project, to keep track and manage costs, prices, and work types.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.topic: how-to
 ms.search.keywords: project management, capacity, staff
 ms.search.form: 201,206, 207, 271, 493
-ms.date: 03/08/2023
+ms.date: 02/22/2024
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
+ms.reviewer: bholtorf
 ---
-# Use Resources for Jobs
+# Use resources for projects
 
-You record the usage of resources in the job journal to keep track of costs, prices, and the work types that are linked to jobs. For more information, see [Record Usage for Jobs](projects-how-record-job-usage.md).
+You record the usage of resources in the project journal to keep track of costs, prices, and the work types that are linked to projects. For more information, see [Record Usage for Projects](projects-how-record-job-usage.md).
 
 > [!NOTE]
 > You can also purchase external resources, for example, to invoice a vendor for work delivered. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
 
 You can also post the usage of a resource in a resource journal. Entries posted in a resource journal have no effect on the general ledger.
 
-## To assign resources to jobs
+## To assign resources to projects
 
-You assign resources to jobs by creating job planning lines for the job. For more information, see [Create Jobs](projects-how-create-jobs.md).
+You assign resources to projects by creating project planning lines for the project. For more information, see [Create Projects](projects-how-create-jobs.md).
 
-## To record resource usage for a job
+## To record resource usage for a project
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Journals**, and then choose the related link.
-2. Open a relevant job journal batch, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Journals**, and then choose the related link.
+2. Open a relevant project journal batch, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. When the journal is complete, choose the **Post** action.
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
@@ -76,6 +76,5 @@ If you have already set up alternate resource price for some resources, you can 
 [Purchasing](purchasing-manage-purchasing.md)         
 [Sales](sales-manage-sales.md)     
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

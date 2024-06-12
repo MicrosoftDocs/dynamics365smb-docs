@@ -1,17 +1,21 @@
 ---
-    title: Create and Print a Swiss VAT Statement [CH]
-    description: This topic explains how to create and print a Swiss VAT Statement based on information you specify on the VAT Posting Setup page.
+    title: Create and print a Swiss VAT statement [CH]
+    description: This article explains how to create and print a Swiss VAT Statement based on information you specify on the VAT Posting Setup page.
     author: brentholtorf
     ms.topic: conceptual
     ms.devlang: al
     ms.search.keywords:
     ms.search.form: 11023, 11024
-    ms.date: 06/25/2021
+    ms.date: 02/08/2024
     ms.author: bholtorf
     ms.service: dynamics-365-business-central
+    ms.reviewer: bholtorf
 ---
-# Create and Print a Swiss VAT Statement in the Swiss Version
-Based on the information that you have specified on the **VAT Posting Setup** page, [!INCLUDE[prod_short](../../includes/prod_short.md)] can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this topic, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
+# Create and print a Swiss VAT statement in the Swiss version
+Based on the information that you have specified on the **VAT Posting Setup** page, [!INCLUDE[prod_short](../../includes/prod_short.md)] can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this article, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  
+
+>[!NOTE]
+> From January 2024 onward, the Cronus company's VAT Statement has been refreshed to include new Ciphers 303 and 383.  
 
 ## To set up a Swiss VAT statement template  
 
@@ -32,7 +36,7 @@ Based on the information that you have specified on the **VAT Posting Setup** pa
     |**Period Date Type**|Specifies the type of date used for the period from which VAT entries are processed in the batch job.|
     |**Starting Date**|Enter the date that you want the time interval for VAT statement lines that appear in the report to start.|  
     |**Ending Date**|Enter the date that you want the time interval for VAT statement lines that appear in the report to end.|  
-    |**Closed with VAT Register No.**|Select the VAT Register that contains the posting source of the VAT adjusting entries. This option evaluates accounting periods that have already been settled. When you choose this option, you do not specify options in the following **Include VAT Entries** fields.|  
+    |**Closed with VAT Register No.**|Select the VAT Register that contains the posting source of the VAT adjusting entries. This option evaluates accounting periods that have already been settled. When you choose this option, you don't specify options in the following **Include VAT Entries** fields.|  
     |**Include VAT Entries**|Select one of the available options.|  
     |**Include VAT Entries**|Select one of the available options.|  
     |**Normal Rate %**|Enter the standard VAT rate that applies to the time period.|  
@@ -43,7 +47,7 @@ Based on the information that you have specified on the **VAT Posting Setup** pa
     |**Hotel (Other Rate) %**|Enter an alternative VAT rate for accommodation that applies to certain transactions during the time period.|  
     |**Show Amounts in Add. Reporting Currency**|Select to show amounts in an additional reporting currency.|  
 
-## See Also  
+## See also  
  [Swiss Value Added Tax](swiss-value-added-tax.md)
 
 

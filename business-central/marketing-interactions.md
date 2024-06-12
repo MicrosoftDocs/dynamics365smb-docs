@@ -3,7 +3,7 @@ title: Manage interactions with your contacts
 description: You can manage all types of communication or interactions between your company and your contacts; for example, letters, phone calls, meetings, and so on.
 author: jswymer
 ms.author: jswymer
-ms.reviewer: ivkoleti
+ms.reviewer: jswymer
 ms.topic: conceptual
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5082,

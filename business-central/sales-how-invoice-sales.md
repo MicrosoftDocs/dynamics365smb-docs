@@ -1,14 +1,15 @@
 ---
-title: Invoice Sales
+title: Invoice sales
 description: Describes how to create a bill of sale, or a sales invoice or sales order, to record your agreement with a customer to sell products under specific terms.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: bill, sale, invoice, order
 ms.search.form: 43, 48, 9301
-ms.date: 11/01/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Invoice sales
 
@@ -26,7 +27,7 @@ You can negotiate with the customer by first creating a sales quote, which you c
 
 ## Create sales invoices
 
-If the customer decides to buy, you post the sales invoice to create the related quantity and value entries. When you post the sales invoice, you can also email it as a PDF attachment. You can prefill the email body with a summary of the invoice and payment information, such as providing a link to PayPal. Learn more at [Send Documents by Email](ui-how-send-documents-email.md). When the customer pays the invoice, you can register that payment in different ways, depending on the size and preferred workflows of your organization. Learn more at [Registering Payments](#register-payments) section.  
+If the customer decides to buy, you post the sales invoice to create the related quantity and value entries. When you post the sales invoice, you can also email it as a PDF attachment. You can prefill the email body with a summary of the invoice and payment information, such as providing a link to PayPal. Learn more at [Send Documents by Email](ui-how-send-documents-email.md#to-send-documents-by-email). When the customer pays the invoice, you can register that payment in different ways, depending on the size and preferred workflows of your organization. Learn more at [Registering Payments](#register-payments) section.  
 
 Item cards can be of the **Inventory**, **Service**, or **Non-Inventory** type to specify if the item is a physical inventory unit, a labor time unit, or a physical unit not kept on inventory, respectively. Learn more at [Register New Items](inventory-how-register-new-items.md). The sales invoice process is the same for all three item types.
 
@@ -126,7 +127,7 @@ You can even create directly paid invoices for unregistered customers by setting
 [Setting Up Sales](sales-setup-sales.md)  
 [Print the Picking List](sales-how-print-picking-list.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Send Documents by Email](ui-how-send-documents-email.md)  
+[Send Documents by Email](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Collect Outstanding Balances](receivables-collect-outstanding-balances.md)  
 [Bulk Invoicing from Microsoft Bookings in Business Central](finance-bookings.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

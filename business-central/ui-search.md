@@ -1,6 +1,6 @@
 ---
-title: Finding Pages and Information (contains video)
-description: This article describes how to use search to find actions, pages, reports, documentation, and data, and also other apps and consulting services.
+title: Finding Pages and Information
+description: This article describes how to use search to find actions, pages, reports, documentation, and data, and other apps and consulting services.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: find, Tell Me, search
@@ -8,6 +8,7 @@ ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 90
 ms.date: 06/14/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Finding Pages and Information with Tell Me
 
@@ -37,11 +38,11 @@ The **Tell me what you want to do** page categorizes results based on the data t
 The **On current page** section lets you find actions on the page you have open. For example, if the **Sales Quote** page is open and you type "customer," the section includes an action that opens the Customer Card page for the customer chosen on the sales quote.
 
 > [!NOTE]  
-> The list includes only actions that are available on the navigation bar at the top of the page. Actions on FastTabs are not included.  
+> The list includes only actions that are available on the navigation bar at the top of the page. Actions on FastTabs aren't included.  
 
 ## Find a page or a task
 
-The results in the **Go to Pages and Tasks** section provide access to other pages and let you perform tasks or look up information. If you use these pages often, you can choose the bookmark icon to add a link to any page onto your Role Center. For more information, see [Add a Page Action to Your Role Center](ui-bookmarks.md).
+The results in the **Go to Pages and Tasks** section provide access to other pages and let you perform tasks or look up information. If you use these pages often, you can choose the bookmark icon to add a link to any page onto your Role Center. For more information, go to [Add a Page Action to Your Role Center](ui-bookmarks.md).
 
 The pages and tasks that are listed depend on the user experience you chose for your company. The **Essential** experience gives access to fewer pages and tasks than the **Premium** experience does. The first time you sign in, you use the **Essential** experience. To learn more about user experiences, go to [Customizing Your [!INCLUDE[prod_short](includes/prod_short.md)] Experience](ui-experiences.md).
 
@@ -88,7 +89,7 @@ It isn't related to Tell me what you want to do, but there's another way to sear
 
 We've shown search to a range of stakeholders, noted the questions that they had in common, and turned our notes into a list of frequently asked questions. If you're interested, go to [Tell Me FAQ](ui-search-faq.md).
 
-## See Also
+## See also
 
 [Work with Business Central](ui-work-product.md)  
 [Add a Page Action to Your Role Center](ui-bookmarks.md)  

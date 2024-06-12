@@ -3,7 +3,7 @@ title: Run and Print Reports
 description: Learn to enter a report into a job queue and schedule it to be processed on a specific date and time.
 author: jswymer
 ms.author: jswymer
-ms.reviewer: altotovi
+ms.reviewer: jswymer
 ms.topic: conceptual
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.search.form:

@@ -9,6 +9,7 @@ ms.date: 09/30/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set Up Customer Price Groups

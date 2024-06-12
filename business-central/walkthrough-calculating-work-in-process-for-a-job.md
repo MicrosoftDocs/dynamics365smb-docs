@@ -3,7 +3,7 @@ title: Walkthrough - Calculating work in process for a project
 description: Learn how to track consumption of employee hours, machine hours, inventory items, and other types of usage as a project progresses.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 12/13/2023

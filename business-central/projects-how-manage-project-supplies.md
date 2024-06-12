@@ -3,7 +3,7 @@ title: Manage Project Supplies
 description: Describes the different ways to manage the supply and purchase of material and services for projects.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: project management, material, purchase
 ms.search.form: 98, 1020 

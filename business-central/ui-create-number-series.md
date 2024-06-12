@@ -1,15 +1,15 @@
 ---
-title: Create Number Series
+title: Create number series
 description: Learn how to set up number series that assign unique ID codes to accounts and documents in Business Central.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
-ms.date: 02/26/2024
-ms.author: bholtorf
-
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Create number series
 

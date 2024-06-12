@@ -3,7 +3,7 @@ title: Set Up Fixed Assets (FA)
 description: Learn about the sequence of tasks you must do to set up fixed assets, such as machinery or buildings.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: machinery, buildings
 ms.search.form: 5607,
@@ -48,6 +48,7 @@ The following table contains a sequence of optional tasks to set up fixed assets
 ## See also
 
 [Fixed Assets overview](fa-manage.md)  
+[Fixed assets analytics overview](fa-analytics-overview.md)   
 [Finance](finance.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

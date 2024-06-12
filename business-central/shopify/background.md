@@ -1,12 +1,13 @@
 ---
-title: Run Tasks in the Background and Recurrently
-description: Configure synchronization of data between Business Central and Shopify in background.
-ms.date: 03/26/2024
+title: Run tasks in the background and recurrently
+description: Configure synchronization of data between Business Central and Shopify in the background.
+ms.date: 05/26/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 author: brentholtorf
 ms.author: bholtorf
+ms.custom: bap-template
 ---
 
 # Run tasks in the background
@@ -19,7 +20,7 @@ It's efficient to run some tasks simultaneously and in an automated manner. You 
 ## Run tasks in the background for a specific shop
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Shop**, and choose the related link.
-2. Select the shop for which you want to run synchronization in background to open the **Shopify Shop Card** page.
+2. Select the shop for which you want to run synchronization in the background to open the **Shopify Shop Card** page.
 3. Turn on the **Allow Background Syncs** toggle.
 
 Now, when the sync action starts, instead of running a task in the foreground it asks you to wait. When it completes, you can proceed to the next action. The task is created as a **Job Queue Entry** and starts immediately.
@@ -43,12 +44,14 @@ You can schedule the following recurring activities to be performed in an automa
 |**Sync catalog prices**|Report 30116 Shopify sync catalog prices (B2B)|
 
 > [!NOTE]
-> Some elements might be updated by several tasks, for example when you import orders, depending on the setting in the **Shopify Shop Card**, the system may also import and update customer and/or product data. Remember to use the same job queue category to avoid conflicts.
+> Some elements might be updated by several tasks. For example, when you import orders, depending on the setting on the **Shopify Shop Card** page, the system may also import and update customer and/or product data. To avoid conflicts, remember to use the same job queue category.
+>
+> Use the **Report Request Page** action to define filters. For example, you can specify that you import orders only when their status is **Fully Paid**.
 
 Other tasks that can be helpful to automate further processing of sales documents:
 
-- report 297 Batch Post Sales Invoices
-- report 296 Batch Post Sales Orders
+- Report 297 Batch Post Sales Invoices
+- Report 296 Batch Post Sales Orders
 
 You can use the **Shopify Order No.** field to identify sales documents that were imported from Shopify.
 
@@ -58,13 +61,13 @@ To learn more about posting sales orders in a batch, go to [To create a job queu
 
 On the **Business Manager** Role Center, the **Shopify Activities** part offers several cues that can help you quickly identify whether there are issues with Shopify Connector.
 
-- **Unmapped Customers** - Shopify customer is imported, but isn't linked to a corresponding customer entry in [!INCLUDE [prod_short](../includes/prod_short.md)].
+- **Unmapped Customers**: Shopify customer is imported, but isn't linked to a corresponding customer entry in [!INCLUDE [prod_short](../includes/prod_short.md)].
 - **Unmapped Products** - Shopify product is imported, but isn't linked to a corresponding item entry in [!INCLUDE [prod_short](../includes/prod_short.md)].
-- **Unprocessed Orders** - Shopify orders are imported, but sales documents in [!INCLUDE [prod_short](../includes/prod_short.md)] weren't created, often because of unmapped products or customers.
-- **Unprocessed Shipments** - Posted sales shipments originated from Shopify orders aren't synchronized with Shopify.
-- **Shipments Errors** - Shopify Connector couldn't synchronize posted sales shipments with Shopify.
-- **Synchronization Errors** - There are failed job queue entries related to synchronization with Shopify.
+- **Unprocessed Orders**: Shopify orders are imported, but sales documents in [!INCLUDE [prod_short](../includes/prod_short.md)] weren't created, often because of unmapped products or customers.
+- **Unprocessed Shipments**: Posted sales shipments originated from Shopify orders aren't synchronized with Shopify.
+- **Shipments Errors**: Shopify Connector couldn't synchronize posted sales shipments with Shopify.
+- **Synchronization Errors**: There are failed job queue entries related to synchronization with Shopify.
 
 ## See also
 
-[Get Started with the Connector for Shopify](get-started.md)  
+[Get started with the Shopify Connector](get-started.md)  

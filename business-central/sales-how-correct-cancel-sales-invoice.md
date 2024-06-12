@@ -3,7 +3,7 @@ title: Correct or cancel a posted sales invoice
 description: This article describes how to correct, undo, or cancel a posted sales invoice and apply a sales credit memo.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: undo, credit memo, return
 ms.date: 03/05/2024

@@ -3,7 +3,7 @@ title: Set Up Project Resource Costs, Prices, and Capacity
 description: To use resources and facilitate project management, you specify costs and prices for individual resources or resource groups, and set the resource capacity.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204

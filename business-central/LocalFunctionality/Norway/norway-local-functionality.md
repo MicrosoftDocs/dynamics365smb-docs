@@ -5,9 +5,10 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
-ms.date: 02/05/2024
+ms.date: 04/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Norway local functionality
 
@@ -17,7 +18,7 @@ The following articles describe local functionality that is unique to the Norweg
 
 * VAT
     * [Norwegian Standard Audit File - Tax (SAF-T) Management](ui-extensions-setup-and-generate-saf-t-files-no.md) **Available Now**
-    * [Norwegian VAT Reporting](norwegian-vat-reporting.md) **Available Now**
+    * [Norwegian VAT Reporting - new ID-porten system update](norwegian-vat-reporting.md) **Available Now**
     * [Norwegian VAT Codes](norwegian-vat-codes.md) **Available Now**  
     * [How to Use One VAT Code in Journals](how-to-use-one-vat-code-in-journals.md) **Available Now**
     * [Proportional VAT](proportional-vat.md) **Available Now**
@@ -76,10 +77,9 @@ The following articles describe local functionality that is unique to the Norweg
  
 ## Future legislation requirements being investigated 
 
-* Migrate Norwegian Electronic VAT submission solution to the new ID-porten system **Planned for 23.5** 
 * Redesigned and upgraded non-deductible VAT **Planned for 2024 release wave 2**   
 
-If you're aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 
 ## See also

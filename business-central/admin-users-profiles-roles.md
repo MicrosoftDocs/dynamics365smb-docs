@@ -6,13 +6,11 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 01/11/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
-ms.search.form: 9171
+ms.search.form: 9171,
 ---
 # Manage user profiles
-
-[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
 Assign all users to profiles that reflect:
 

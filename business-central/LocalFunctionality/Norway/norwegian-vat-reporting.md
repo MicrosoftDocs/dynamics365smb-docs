@@ -1,18 +1,19 @@
 ---
-title: Norwegian VAT Reporting [NO]
+title: Norwegian VAT reporting [NO]
 description: Norwegian enhancements in Business Central allow you to calculate and report VAT to the Norwegian tax authorities.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 737, 738, 743, 10601, 10604, 10692 ,10696
-ms.date: 04/25/2024
+ms.date: 04/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Norwegian VAT Reporting in the Norwegian Version
+# Norwegian VAT reporting
 
 > [!IMPORTANT]
-> ID-porten in Norway has been changed. Microsoft updated Norwegian Electronic VAT submission solution to the new ID-porten system from the 23.5 release. 
+> ID-porten in Norway has been changed. Microsoft updated Norwegian Electronic VAT submission solution to the new ID-porten system from the 23.5 release.
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] provides features that allow you to calculate and report VAT returns to the Norwegian tax authorities.  
 
@@ -20,7 +21,7 @@ This article shows the typical steps that you should follow when reporting Norwe
 
 This article assumes that you have set up VAT reporting. For more information, see [Set Up Calculations and Posting Methods for Value-Added Tax](../../finance-setup-vat.md) and [Report VAT to Tax Authorities](../../finance-how-report-vat.md).
 
-## Set Up Business Central to Generate and Submit Electronic VAT Returns
+## Set up Business Central to generate and submit electronic VAT returns
 
 To submit VAT returns to Norwegian tax authorities, an administrator must create a connection to ID-Porten at Digitaliseringsdirektoratet.  
 
@@ -99,7 +100,7 @@ To make it easier to set up VAT reporting, [!INCLUDE[prod_short](../../includes/
 > [!NOTE]
 > In addition to the settings described above, we automatically create a VAT report configuration for submitting returns and getting responses. You can view the configuration on the **VAT Reports Configuration** page.
 
-#### Electronic VAT Setup for existing users  
+#### Electronic VAT setup for existing users  
 
 > [!IMPORTANT]
 > If you are an existing user, you need to manually change some information on the **Electronic VAT Setup** page.  

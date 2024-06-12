@@ -3,7 +3,7 @@ title: How to Block Items or Item Variants from Sales or Purchasing
 description: You can block items and item variants from being entered on lines in sales or purchase documents, as well as from being posted in a transaction. 
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: item, variant, product
 ms.date: 08/22/2023

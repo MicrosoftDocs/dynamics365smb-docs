@@ -3,7 +3,7 @@ title: Integrate with Microsoft Dataverse via data sync
 description: Introduction to how to integrate and use Microsoft Dataverse and its components to connect to other Dynamics 365 applications.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 03/08/2024
 ms.custom: bap-template

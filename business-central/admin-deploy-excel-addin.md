@@ -11,6 +11,7 @@ ms.date: 10/07/2021
 ms.author: jswymer
 
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Get the Business Central Add-in for Excel
 

@@ -1,13 +1,13 @@
 ---
-title: Financial Management (contains video)
+title: Financial Management
 description: Learn how Business Central supports your needs for financial management, accounting, auditing, and bookkeeping.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 02/01/2024
+ms.date: 05/01/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -48,6 +48,24 @@ This section describes some of the accounting tools that you use to register fin
 | Assign extra costs, such as freight and physical handling expenses you incur during trade, to the involved items. This way the cost is reflected in inventory valuation. |[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md) |
 | Learn about the available options to automate sending subscription invoices to customers and register recurring revenue. |[Work with Recurring Revenue](finance-recurring-invoicing.md)|
 |Post employee expenses for work-related activities and make reimbursements directly to employee bank accounts.|[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
+
+## Financial analytics
+
+This section describes analytical tools you can use to get insights into your financial data.
+
+| To... | See |
+| --- | --- |
+| Learn about capabilities for analyzing finance data. | [Financial analytics overview](bi.md) |
+| Set up financial reporting across business units or legal entities. | [Handling finance reporting across business units or legal entities](finance-consolidated-company-reporting.md) |
+| Set up and use financial reporting to produce statements and overviews. | [Prepare financial reporting](bi-how-work-account-schedule.md) |
+| Perform ad-hoc analysis of financial data directly on list pages and queries. | [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) |
+| Analyze financial data from your chart of accounts. | [Analyze finance data from the chart of accounts](finance-general-ledger.md) |
+| Analyze actual amounts versus budgeted amounts. | [Analyze actual amounts versus budgeted amounts](bi-how-analyze-actual-versus-budget.md) |
+| Analyze cash flow. | [Analyze cash flow](finance-analyze-cash-flow.md) |
+| Explore built-in key financial reports. | [Built-in key finance reports](finance-reports.md) |
+| Explore built-in key fixed assets reports. | [Built-in fixed assets reports](fa-reports.md) |
+| Explore built-in key accounts receivable reports. | [Built-in accounts receivable reports](receivables-reports.md)
+| Explore built-in accounts payable reports. | [Built-in accounts payable reports](payables-reports.md)
 
 ## VAT and taxes
 

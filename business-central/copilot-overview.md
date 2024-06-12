@@ -3,12 +3,12 @@ title: About Copilot in Business Central
 description: This article covers common questions about Copilot in Business Central.
 author: mikebc
 ms.author: mikebc
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 ms.topic: overview 
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 04/16/2024
+ms.date: 05/17/2024
 ms.custom: bap-template
 ---
 
@@ -43,6 +43,10 @@ Copilot includes a constantly expanding set of capabilities that assist users in
 ## Is Copilot aware of my environment customizations?
 
 Some but not all Copilot features are able to work with your custom pages and tables. For example, you can use [analysis assist](analysis-assist.md) on your custom lists, or [chat with Copilot](chat-with-copilot.md) to find records in custom tables. To understand which Copilot features work with customizations, consult the articles for each feature.
+
+## Does Copilot need to be trained on my data?
+
+Copilot in Business Central relies on powerful AI foundation models coupled with data management features of the Business Central platform. No expensive or time-consuming training is needed for your organization to get started using Copilot with your own company data.
 
 ## Can I develop my own Copilots for Business Central?
 

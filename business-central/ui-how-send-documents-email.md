@@ -1,16 +1,17 @@
 ---
-title: Send Documents and Emails
+title: Send documents and emails
 description: You can define content to insert into the body of an email message, for example, a PayPal link. You can also attach documents to email messages.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: 41,
-ms.date: 04/01/2021
-ms.author: bholtorf
-
+ms.date: 05/01/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Send Documents and Emails
+# Send documents and emails
 
 You can easily share information and documents, such as sales and purchase orders and invoices, by email directly from [!INCLUDE[prod_short](includes/prod_short.md)], without having to open an email app.  
 

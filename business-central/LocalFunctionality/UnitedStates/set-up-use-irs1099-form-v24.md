@@ -1,5 +1,5 @@
 ---
-title: Set up the IRS 1099 form [US]
+title: Set up the IRS 1099 form for version 24 [US]
 description: Learn how to set up the 1099 tax forms so that you can calculate and submit the required reports.
 author: altotovi
 ms.topic: conceptual
@@ -7,11 +7,11 @@ ms.search.keywords: local, 1099, IRS, Tax
 ms.search.form: 26, 10030, 10031, 10033, 10034
 ms.date: 04/03/2024
 ms.author: altotovi
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Set up the IRS 1099 forms in the US version
+# Set up the IRS 1099 forms
 
 The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax form for payments to vendors. Copies of these forms must be sent to vendors annually on or before the last day of January. On your purchase documents, you can specify that the document is 1099 liable, and you can specify the 1099 code for the vendor.
 
@@ -129,10 +129,9 @@ To do so, on the **IRS 1099 Forms** page and for specific form **No.**, choose t
 
 ## See also
 
-[United States Local Functionality](united-states-local-functionality.md)    
-[How to use the IRS 1099 forms](set-up-use-irs1096-form-v24.md)  
+[United States Local Functionality](united-states-local-functionality.md)  
 [How to submit and report the IRS 1099](set-up-use-irs1099-form-v24.md#to-print-report-configuration)  
-[Register New Vendors](../../purchasing-how-register-new-vendors.md)    
-[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)    
+[Register New Vendors](../../purchasing-how-register-new-vendors.md)  
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

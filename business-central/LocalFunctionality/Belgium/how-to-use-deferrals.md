@@ -10,6 +10,7 @@ ms.date: 03/13/2023
 ms.author: altotovi
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Deferrals in Sales ledger and Purchase ledger reports

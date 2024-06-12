@@ -10,6 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Manage Budgets for Fixed Assets
 
@@ -57,6 +58,7 @@ You can use the **Fixed Asset - Projected Value** report to calculate future dep
 ## See also
 
 [Fixed Assets](fa-manage.md)  
+[Fixed assets analytics overview](fa-analytics-overview.md)   
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  

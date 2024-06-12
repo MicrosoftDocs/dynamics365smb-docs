@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 03/14/2024
+ms.date: 06/12/2024
 ms.custom: bap-template
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.search.form: 1826, 1827
@@ -18,16 +18,16 @@ Before you can consolidate the general ledger entries of two or more companies (
 
 Depending on the complexity of your businesses, there are two ways to set up consolidation:
 
-* If you don't need advanced settings, such as including a company that you only own part of, you can use the **Company Consolidation** setup guide to quickly set up a consolidation. The guide helps you through the basic steps.
+* If you don't need advanced settings, such as including a company that you only own part of, you can use the **Company Consolidation** setup guide to quickly set-up a consolidation. The guide helps you through the basic steps.
 * If you need more advanced settings, you can set up the consolidated company and business units yourself.
   * In each business unit, specify the general ledger accounts to include in the consolidation and the translation method for each account.
   * In the consolidated company, set up a business unit card for each company to include in the consolidation. The business unit card includes information such as the dates of the business unit's fiscal year, and the percentage of each account to include in the consolidation.
 
 ## Simple consolidation setup
 
-If your consolidation is straightforward, for example because you wholly own the business units to consolidate, the **Company Consolidation** guide will help you through the following steps:
+If your consolidation is straightforward, for example because you wholly own the business units to consolidate, the **Company Consolidation** guide helps you through the following steps:
 
-* Create a new consolidated company, or consolidate a company you've already created. The company shouldn't contain transactions.
+* Create a new consolidated company, or consolidate a company you already created. The company shouldn't contain transactions.
 * Preview the results. [!INCLUDE[prod_short](includes/prod_short.md)] verifies that you can successfully transfer the master data and transactions to the consolidated company.
 
 To use the assisted setup guide, follow these steps:
@@ -57,7 +57,7 @@ The following list illustrates key aspects of the consolidated company.
 
 3. Specify exchange rates, if needed.
 
-    Specify exchange rates if you'll consolidate data for business units that use different currencies. The three exchange rates you can use are **Average Rate (Manual)**, **Closing Rate**, and **Last Closing Rate**. To learn more about exchange rates, go to the [Specify exchange rates for consolidations](#exchrates) section.
+    Specify exchange rates if you consolidate data for business units that use different currencies. The three exchange rates you can use are **Average Rate (Manual)**, **Closing Rate**, and **Last Closing Rate**. To learn more about exchange rates, go to [Specify exchange rates for consolidations](#exchrates).
 
 4. Consolidate dimension information and general ledger accounts.
 
@@ -67,7 +67,7 @@ The following list illustrates key aspects of the consolidated company.
 
 In the consolidated company, set up each company that you want to consolidate data from as a business unit. Before you run a consolidation and generate your consolidation report, it's a good idea to verify the financial data in each business unit.
 
-A big part of setting up the business unit is to specify how the unit will share it's financial data with the consolidated company. There are manual and automated options:
+A significant part of setting up the business unit is to specify how the unit shares it's financial data with the consolidated company. There are manual and automated options:
 
 * To use a manual process, for [!INCLUDE [prod_short](includes/prod_short.md)] online and on-premises, you can export an .xml file that contains the unit's general ledger entries. Then import the file in the consolidated company.
 * To automate the data exchange, for [!INCLUDE [prod_short](includes/prod_short.md)] online you can use an API that [!INCLUDE [prod_short](includes/prod_short.md)] provides to share data across environments. If your companies are in the same environment, you can use the **Database** option.
@@ -77,9 +77,9 @@ A big part of setting up the business unit is to specify how the unit will share
 
 #### Set up business unit currencies
 
-When you run consolidation for business units that use a foreign currency, you must pay special attention to the exchange rates that various parts of the process use, and even more so when you rerun consolidation. To do that, use the **Set Up Business Unit Currencies** page to easily keep track of the rates.
+When you run consolidation for business units in a foreign currency, pay attention to the exchange rates that various parts of the process use. This is especially true when you rerun consolidation. Use the **Set Up Business Unit Currencies** page to easily keep track of the rates.
 
-The **Set Up Business Unit Currencies** page gives you the last rates for average, closing, and last closing rate. You can look up the exchange rates in the currency exchange rate table, which makes it easier to validate rates. You can change the rates for the current run by entering the values or copying them from previous runs. To copy rates, choose **Select from previous consolidation**. This page is particularly valuable when you want to rerun a previous consolidation, where you need to use a previous closing rate. This is required to correctly revaluate your balance sheet items. The **Select from previous consolidation** page is also useful if you just want to view the rates that were used, for example, when you're troubleshooting. The page is filtered to runs that included the selected business unit.
+The **Set Up Business Unit Currencies** page gives you the last rates for average, closing, and last closing rate. You can look up the exchange rates in the currency exchange rate table, which makes it easier to validate rates. You can change the rates for the current run by entering the values or copying them from previous runs. To copy rates, choose **Select from previous consolidation**. This page is valuable when you want to rerun a previous consolidation and use a previous closing rate. This step helps to correctly revaluate your balance sheet items. The **Select from previous consolidation** page is also useful if you just want to view the rates that were used, for example, when you're troubleshooting. The page is filtered to runs that included the selected business unit.
 
 You start the **Run Consolidation** batch job from the **Business Units** list page. You can also find the **Set Up Business Unit Currencies** page by choosing the **Exchange Rates** action.
 
@@ -94,7 +94,7 @@ You start the **Run Consolidation** batch job from the **Business Units** list p
 
     > [!IMPORTANT]
     > When you fill in the **Starting Date** and **Ending Date** fields, make sure you comply with GAAP rules concerning the fiscal periods of the business unit versus the parent company.
-4. On the **Data Import** FastTab, in the **Default Data Import** field, specify how you'll share general ledger entries with the consolidated company:
+4. On the **Data Import** FastTab, in the **Default Data Import** field, specify how you share general ledger entries with the consolidated company:
 
    * To share data between companies in the same environment, choose **Database**.
    * To share data between companies in different environments, choose **API**, and then fill in the **API's Endpoint** field.
@@ -104,7 +104,7 @@ You start the **Run Consolidation** batch job from the **Business Units** list p
 
 ### <a name="glacc"></a>Prepare general ledger accounts for consolidation
 
-The chart of accounts for a company that will be consolidated must specify accounts for consolidation. For each posting general ledger account in each company, you must specify the general ledger account in the consolidated company to transfer the balance to. This mapping lets you consolidate companies that have different charts of accounts.
+The chart of accounts for a company that you will consolidate must specify accounts for consolidation. For each posting general ledger account in each company, you must specify the general ledger account in the consolidated company to transfer the balance to. This mapping lets you consolidate companies that have different charts of accounts.
 
 If the chart of accounts in the business unit differs from the consolidated company, you must prepare general ledger accounts for consolidation. You can specify the accounts to post debits and credits to, and the method to use to translate currencies in the consolidated company.
 
@@ -144,7 +144,7 @@ You can consolidate dimension information and general ledger accounts.
 
 * On the dimensions, specify the **Consolidation Code** field, or leave it blank.
   * To exclude a dimension in the consolidation, leave the **Consolidation Code** field blank on the dimension, and don't choose dimensions in the **Copy Dimensions** fields in any consolidation functions or reports.
-  * To include dimension information in the consolidation, leave the **Consolidation Code** field blank. However, the consolidation will only work if the dimension values in the business unit are the same as the consolidated company.
+  * To include dimension information in the consolidation, leave the **Consolidation Code** field blank. However, the consolidation works only if the dimension values in the business unit are the same as the consolidated company.
   * To consolidate the dimension value code in the business unit with a different dimension value code in the consolidated company, fill in the **Consolidation Code** field on the dimensions.  
 * Add the dimensions to the general ledger accounts.
 

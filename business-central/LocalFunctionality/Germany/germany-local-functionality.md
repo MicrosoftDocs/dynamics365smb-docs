@@ -5,11 +5,12 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
-ms.date: 02/07/2024
+ms.date: 06/11/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
+
 # Germany local functionality
 
 The following articles describe local functionality that is unique to the German version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
@@ -56,10 +57,11 @@ The following articles describe local functionality that is unique to the German
 
 ## Future legislation requirements being investigated
 
-* GDPdU/GoDB Update **Planned for 2024 release wave 2**
-* Receiving E-Documents **Planned for January 2025**
+* GDPdU/GoDB update **Planned for 2024 release wave 2**s
+* Adding XRechnung e-invoicing format **Planned for December 2024**
+* Receiving e-documents via Peppol network **Planned for December 2024**
 
-If you're aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See also
 

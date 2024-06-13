@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 04/15/2024
+ms.date: 06/13/2024
 ms.custom: bap-template 
 ---
 

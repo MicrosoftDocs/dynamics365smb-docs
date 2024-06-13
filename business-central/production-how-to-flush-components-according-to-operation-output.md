@@ -1,14 +1,14 @@
 ---
-    title: Flush components according to operation output
-    description: This article describes how to flush components according to operation output and other flushing methods involved.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 12/13/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: Flush components according to operation output
+description: This article describes how to flush components according to operation output and other flushing methods involved.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 12/13/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Flush components according to operation output

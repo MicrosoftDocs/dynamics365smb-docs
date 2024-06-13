@@ -1,5 +1,5 @@
 ---
-title: Record purchases with purchase invoices (contains video)
+title: Record purchases with purchase invoices
 description: Describes how to purchase inventory, noninventory items, or resources by creating and posting purchase invoices or orders.
 author: brentholtorf
 ms.topic: conceptual

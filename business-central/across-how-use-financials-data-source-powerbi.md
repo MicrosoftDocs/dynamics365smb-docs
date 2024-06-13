@@ -174,7 +174,7 @@ There are a couple ways to get reports to your coworkers and others:
     Reports are stored on your computer as .pbix files. You can distribute the report .pbix file to users, like any other file. Then, users can upload the file to their Power BI Service. See [Upload reports from files](across-working-with-powerbi.md#upload).
 
     > [!NOTE]
-    > Distributing reports in this manner means that refreshing data for reports will be done individually by each user. This situation might impact [!INCLUDE[prod_short](includes/prod_short.md)] performance.
+    > Distributing reports in this manner means that refreshing data for reports is done individually by each user. This situation might impact [!INCLUDE[prod_short](includes/prod_short.md)] performance.
 
 - Share report from your Power BI service
 
@@ -191,21 +191,19 @@ When you connect to Business Central online from Power BI, or when you install a
 If you get an error similar to "Expression.Error: The environment 'Production' does not exist.", follow these steps to troubleshoot:
 
 1. Make sure you are using the right credentials to access Business Central. These might not be the same credentials you use to access Power BI. [How do I change or clear the account I'm currently using to connect to Business Central from Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
-2. If your environment is an embed ISV environment, you need to specify the embed ISV name in parenthesis as part of the environment name. For example, if you want to connect to an environment named Production from the embed ISV named Fabrikam, you will have to specify "PRODUCTION (fabrikam)" as environment name.
-
+2. If your environment is an embed ISV environment, you need to specify the embed ISV name in parenthesis as part of the environment name. For example, if you want to connect to an environment named Production from the embed ISV named Fabrikam, you have to specify "PRODUCTION (fabrikam)" as environment name.
 
 ### "Can't insert a record. Current connection intent is Read-Only." error connecting to custom API page
 
 > **APPLIES TO:** Business Central online
 
-By default, reports that use Business Central data connect to a read-only replica of the Business Central database. In rare cases, depending on the page design, you might get an error when you try to connect to and get data from the page. The error will look like this:
+By default, reports that use Business Central data connect to a read-only replica of the Business Central database. In rare cases, depending on the page design, you might get an error when you try to connect to and get data from the page. The error looks like this:
 
    *Dynamics365BusinessCentral: Request failed: The remote server returned an error: (400) Bad Request. (Can't insert a record. Current connection intent is Read-Only. CorrelationId: [...])".*
 
 If you are using a custom API page, we recommend you rework the page to make sure it does not make database modifications when it's just reading data. But in case your scenario requires it, you can [configure the connector to use a read-write connection instead](/dynamics365/business-central/across-how-use-financials-data-source-powerbi#advancedopts).
 
-
-## See Also
+## See also
 
 [Enabling Your Business Data for Power BI](admin-powerbi-setup.md)  
 [Business Intelligence](bi.md)  

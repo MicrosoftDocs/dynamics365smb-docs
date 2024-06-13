@@ -1,14 +1,14 @@
 ---
-    title: Print balance sheet reports [AU]
-    description: You can use the Balance Sheet report to view the company's balance sheet in the Australian version.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 11/07/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: Print balance sheet reports [AU]
+description: You can use the Balance Sheet report to view the company's balance sheet in the Australian version.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/07/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Print balance sheet reports in the Australian version
 

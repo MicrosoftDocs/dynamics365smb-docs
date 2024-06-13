@@ -1,15 +1,15 @@
 ---
-    title: Design details - Non-deductible VAT
-    description: This article provides information about non-deductible value-added tax (VAT) that's payable by a purchaser, but that isn't deductible from the purchaser's own VAT liability.
-    author: altotovi
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 07/04/2023
-    ms.author: altotovi
+title: Design details - Non-deductible VAT
+description: This article provides information about non-deductible value-added tax (VAT) that's payable by a purchaser, but that isn't deductible from the purchaser's own VAT liability.
+author: altotovi
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 07/04/2023
+ms.author: altotovi
 
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Design details: Non-deductible VAT

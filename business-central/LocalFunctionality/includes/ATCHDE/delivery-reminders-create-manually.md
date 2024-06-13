@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 11/21/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 In [!INCLUDE[prod_short](../../../includes/prod_short.md)], you can create delivery reminders when a purchase isn't delivered as expected. You can create a single delivery reminder manually, or you can generate delivery reminders for all overdue deliveries.  

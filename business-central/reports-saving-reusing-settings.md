@@ -9,6 +9,7 @@ ms.date: 12/21/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Manage Saved Settings for Reports and Batch Jobs
 

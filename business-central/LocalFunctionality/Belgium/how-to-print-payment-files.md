@@ -1,13 +1,14 @@
 ---
-    title: Export Payment Files in the Belgian Version
-    description: After you have printed a test report and corrected all errors, you can print the payment journal lines to a payment file in the Belgian Version of Business Central.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.search.form: 2000001
-    ms.date: 01/10/2022
-    ms.author: bholtorf
+title: Export Payment Files in the Belgian Version
+description: After you have printed a test report and corrected all errors, you can print the payment journal lines to a payment file in the Belgian Version of Business Central.
+author: brentholtorf
+ms.topic: conceptual
+ms.search.form: 2000001
+ms.date: 01/10/2022
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Export Payment Files in the Belgian Version
 

@@ -1,15 +1,16 @@
 ---
-    title: Correct VAT Reports [DE]
-    description: If you have to submit a corrective VAT report or delete a submitted VAT report, you must create a new VAT report. 
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.search.form: 26101
-    ms.date: 06/18/2021
-    ms.author: bholtorf
+title: Correct VAT Reports [DE]
+description: If you have to submit a corrective VAT report or delete a submitted VAT report, you must create a new VAT report. 
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.search.form: 26101
+ms.date: 06/18/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Correct VAT Reports in the German Version
 

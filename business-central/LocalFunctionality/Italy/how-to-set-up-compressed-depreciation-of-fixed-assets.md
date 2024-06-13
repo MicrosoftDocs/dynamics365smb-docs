@@ -1,15 +1,14 @@
 ---
-    title: compressed depreciation of fixed assets [IT]
-    description: You can compress fixed asset depreciation into subclasses and choose to display only the total sum by subclass.
-    services: project-madeira 
-    documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 12/07/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: compressed depreciation of fixed assets [IT]
+description: You can compress fixed asset depreciation into subclasses and choose to display only the total sum by subclass.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 12/07/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set up compressed depreciation of fixed assets

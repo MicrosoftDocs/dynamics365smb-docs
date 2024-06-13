@@ -1,15 +1,14 @@
 ---
-    title: Transaction numbers
-    description: Transaction numbers allow you to group entries with the same document number and date, so that you can balance them together.
-    services: project-madeira 
-    documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 12/11/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: Transaction numbers
+description: Transaction numbers allow you to group entries with the same document number and date, so that you can balance them together.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 12/11/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Transaction numbers
 Transaction numbers allow you to group entries with the same document number and date, so that you can balance them together. Transaction numbers usually begin with the number 2 each year. The number 1 is reserved for the opening transaction, which is automatically created each year. The only exception is for the first accounting period in the first year. In this case, the opening transaction is the number 1.  

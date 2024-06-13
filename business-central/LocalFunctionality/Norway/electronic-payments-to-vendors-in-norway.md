@@ -1,15 +1,14 @@
 ---
-    title: Electronic Payments to Vendors in Norway
-    description: Norwegian enhancements include automatically making payments to vendors in the Norwegian version of Business Central.
-    services: project-madeira 
-    documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: Electronic Payments to Vendors in Norway
+description: Norwegian enhancements include automatically making payments to vendors in the Norwegian version of Business Central.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/18/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Electronic Payments to Vendors in Norway
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includes Norwegian enhancements for automatically making payments to vendors. This reduces errors that occur from manual data entry. You can use this functionality to perform the following operations:  

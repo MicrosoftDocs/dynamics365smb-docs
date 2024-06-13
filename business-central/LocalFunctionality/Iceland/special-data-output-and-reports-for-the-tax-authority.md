@@ -1,14 +1,15 @@
 ---
-    title: Special data output and reports for the tax authorities in Iceland
-    description: In Iceland, it's a legal requirement to send a data file in a specific format to the tax authorities.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 11/21/2023
-    ms.author: bholtorf
+title: Special data output and reports for the tax authorities in Iceland
+description: In Iceland, it's a legal requirement to send a data file in a specific format to the tax authorities.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/21/2023
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Special data output and reports for the Icelandic tax authority
 

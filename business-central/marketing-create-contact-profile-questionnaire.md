@@ -9,6 +9,7 @@ ms.search.form: 5109, 5110
 ms.author: bholtorf
 ms.date: 05/20/2022
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Use Profile Questionnaires to Classify Business Contacts

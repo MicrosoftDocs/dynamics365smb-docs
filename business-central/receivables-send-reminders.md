@@ -9,6 +9,7 @@ ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ms.reviewer: bholtorf
 ---
 # Send reminders of outstanding balances
 

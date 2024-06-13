@@ -14,7 +14,7 @@ ms.search.keywords: copilot, AI, chat
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-These frequently asked questions (FAQ) describe the AI impact of Chat with Copilot in [!INCLUDE[prod_short](includes/prod_short.md)]. If you're intrested in general questions about using the feature, see [FAQ for chat with Copilot](chat-with-copilot-faq.md).
+These frequently asked questions (FAQ) describe the AI impact of Chat with Copilot in [!INCLUDE[prod_short](includes/prod_short.md)]. If you're interested in general questions about using the feature, see [FAQ for chat with Copilot](chat-with-copilot-faq.md).
 
 ## What is Chat with Copilot?
 

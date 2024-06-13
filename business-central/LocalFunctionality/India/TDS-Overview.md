@@ -1,17 +1,18 @@
 ---
-    title: Setting up Tax Deducted at Source, as per the provisions of the Income Tax Act, 1961
-    description: Describes the basic setups that are required by the provisions of the Income Tax Act, 1961.
+title: Setting up Tax Deducted at Source, as per the provisions of the Income Tax Act, 1961
+description: Describes the basic setups that are required by the provisions of the Income Tax Act, 1961.
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: overview
-    ms.devlang: al
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: overview
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Setting Up Tax Deducted at Source (TDS), as per the Provisions of the Income Tax Act, 1961
 

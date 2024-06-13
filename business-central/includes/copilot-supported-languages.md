@@ -1,11 +1,12 @@
 ---
 author: jswymer
 ms.topic: include
-ms.date: 11/01/2023
+ms.date: 06/10/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-Marketing text suggestions are only supported in the following languages and locales:
+This Copilot feature was validated in the following languages only:
 
 |Language|Locales|
 |-|-|
@@ -17,3 +18,5 @@ Marketing text suggestions are only supported in the following languages and loc
 |Dutch|nl-NL, nl-BE|
 |Italian|it-IT, it-CH|
 |Japanese|ja-JP|
+
+While it can be used in other languages, it may not function as intended. Language quality may vary based on the user’s interaction or system settings which may impact accuracy and the user experience.

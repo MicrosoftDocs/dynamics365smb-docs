@@ -1,17 +1,18 @@
 ---
-    title: GST Credit and GST Liability adjustment for open Reverse Charge Goods and Services Invoices
-    description: GST Credit and GST Liability adjustment for open Reverse Charge Services Invoices
+title: GST Credit and GST Liability adjustment for open Reverse Charge Goods and Services Invoices
+description: GST Credit and GST Liability adjustment for open Reverse Charge Services Invoices
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # GST Credit and GST Liability Adjustment for Open Reverse Charge Goods and Services Invoices
 

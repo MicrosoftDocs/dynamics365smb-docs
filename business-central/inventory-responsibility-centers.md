@@ -9,6 +9,7 @@ ms.search.forms: 5714, 5715
 ms.date: 03/09/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Work with Responsibility Centers
 

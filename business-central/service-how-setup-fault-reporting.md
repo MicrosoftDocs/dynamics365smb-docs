@@ -1,14 +1,15 @@
 ---
-    title: Set Up Fault Reporting in Service Management
-    description: Fault reporting lets you establish standards for recording fault information for service items with fault codes and more.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/23/2021
-    ms.author: bholtorf
+title: Set Up Fault Reporting in Service Management
+description: Fault reporting lets you establish standards for recording fault information for service items with fault codes and more.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/23/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set Up Fault Reporting

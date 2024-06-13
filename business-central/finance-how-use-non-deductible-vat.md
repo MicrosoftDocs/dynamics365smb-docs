@@ -9,7 +9,7 @@ ms.search.keywords: VAT, non-deductible, return, settlement
 ms.search.form: 50, 51, 52, 161, 187, 317, 403, 6640, 9401
 ms.date: 04/26/2023
 ms.custom: bap-template
-
+ms.reviewer: bholtorf
 ---
 
 # Use non-deductible VAT

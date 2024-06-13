@@ -7,6 +7,7 @@ ms.search.keywords:
 ms.date: 11/27/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Update VAT transactions data
 Before you create the first VAT transaction report, you should prepare the existing data by running the **Update VAT Transaction Data** report. You should also run this report if you make changes to the setup based on new requirements from the tax authorities.  

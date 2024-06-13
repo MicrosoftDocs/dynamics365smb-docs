@@ -1,13 +1,14 @@
 ---
-    title: Setting up service management | Microsoft Docs
-    description: Overview of tasks to set up Service Management to suit the way that your organizations manages its services.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords: service, service items, repairs, maintenance, fix
-    ms.date: 03/20/2024
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: Setting up service management | Microsoft Docs
+description: Overview of tasks to set up Service Management to suit the way that your organizations manages its services.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: service, service items, repairs, maintenance, fix
+ms.date: 03/20/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Setting up service management

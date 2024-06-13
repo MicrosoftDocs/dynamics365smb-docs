@@ -9,6 +9,7 @@ ms.search.form: 315, 466, 467, 468, 469
 ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Use Tax and Purchase Tax in the US Version
 

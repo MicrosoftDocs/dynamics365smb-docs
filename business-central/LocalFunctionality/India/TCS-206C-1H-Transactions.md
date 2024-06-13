@@ -1,17 +1,18 @@
 ---
-    title: TCS calculation and transactions as per Section 206C(1H)
-    description: TCS calculation and transactions as per Section 206C(1H)
+title: TCS calculation and transactions as per Section 206C(1H)
+description: TCS calculation and transactions as per Section 206C(1H)
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: article
-    ms.devlang: al
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # TCS Calculation and Transactions as per Section 206C(1H)
 

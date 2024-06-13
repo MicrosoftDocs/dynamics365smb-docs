@@ -9,6 +9,7 @@ ms.date: 03/08/2023
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Batch Post Output and Run Times
 

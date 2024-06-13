@@ -1,14 +1,15 @@
 ---
-    title: Process an LSV collection [CH]
-    description: You can use LSV journals to create and process payments from Lastschrift Verfahren (LSV+) customers. 
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
-    ms.date: 11/24/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: Process an LSV collection [CH]
+description: You can use LSV journals to create and process payments from Lastschrift Verfahren (LSV+) customers. 
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
+ms.date: 11/24/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Process an LSV collection in the Swiss version
 You can use the **LSV Journal** page to create and process payments from Lastschrift Verfahren (LSV+) customers. You can register these payments in the cash receipt journal, create an LSV file, and then print the collection order. For more information, see the Cash Receipt Journal page and [Export Payments Using LSV](how-to-export-payments-using-lsv.md).  

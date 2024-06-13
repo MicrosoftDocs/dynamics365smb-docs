@@ -55,16 +55,17 @@ Bank account reconciliation assist was tested by using combinations of synthetic
 
 Bank account reconciliation assist performs best when G/L account names, ledger entry descriptions, and bank transaction descriptions are all in the same language. Mixed languages or mixed languages for transaction descriptions often result in fewer matches and suggestions.
 
-The suggested ledger accounts feature performs best in the English language. Although this feature can be operated in any of the available [!INCLUDE[prod_short](includes/prod_short.md)] languages, users might experience fewer transaction matches and fewer suggested ledger accounts in other languages.
-<!--
+Suggested ledger accounts performs best in one of the supported languages (see the next section for a list of languages). Users might experience fewer transaction matches and fewer suggested ledger accounts in other languages.
 
-## What operational factors and settings allow for effective and responsible use of the feature?
+## In which geographies and languages is bank reconciliation assist available? 
 
--->
+- Available geographies
 
-## In which geographies and languages is bank reconciliation assist available?
+  Bank account reconciliation assist is available in all supported [Business Central countries/regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). For customer environments located in countries/regions where Azure OpenAI Service isn't deployed, administrators must consent to allowing their data to move across boundaries for [!INCLUDE [prod_short](includes/prod_short.md)] to connect to Azure OpenAI service. Learn more at [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
-Bank account reconciliation assist is available to any environment country/region localization and in any user language. For customer environments in countries/regions where Azure OpenAI Service isn't deployed, administrators must consent to allow the movement of data across boundaries. Otherwise, [!INCLUDE[prod_short](includes/prod_short.md)] can't connect to Azure OpenAI service, and this capability isn't available.
+- Available languages
+
+  [!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
 
 For more information about languages, see the previous question about limitations.
 

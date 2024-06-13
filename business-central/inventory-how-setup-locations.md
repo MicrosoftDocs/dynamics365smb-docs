@@ -1,16 +1,17 @@
 ---
-title: Set Up a Location Card and Define Transfer Routes (contains video)
+title: Set up a location card and define transfer routes
 description: If you buy, store, or sell items in more than one place, you can set up each place as a location. 
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
-ms.date: 03/25/2023
-ms.author: bholtorf
+ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Set Up Locations
+# Set up locations
 
 Locations are places such as warehouses where you buy, store, or sell items. [!INCLUDE [prod_short](includes/prod_short.md)] uses locations to help keep track of inventory in both simple and complex warehouse processes.
 

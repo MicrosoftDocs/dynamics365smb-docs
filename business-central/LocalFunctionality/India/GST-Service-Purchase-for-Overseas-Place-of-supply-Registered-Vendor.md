@@ -1,17 +1,18 @@
 ---
-    title: Purchase of Services for Overseas Place of Supply from Registered Vendor
-    description: Purchase of Services for Overseas Place of Supply from Registered Vendor
+title: Purchase of Services for Overseas Place of Supply from Registered Vendor
+description: Purchase of Services for Overseas Place of Supply from Registered Vendor
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Purchase of Services for Overseas Place of Supply from Registered Vendor
 

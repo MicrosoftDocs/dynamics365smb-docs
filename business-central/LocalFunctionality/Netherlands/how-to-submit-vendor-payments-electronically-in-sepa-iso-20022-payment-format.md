@@ -1,13 +1,14 @@
 ---
-    title: Submit Vendor Payments Electronically in SEPA ISO 20022 Format (NL)
-    description: In the Dutch version of Business Central, you can create and submit Single Euro Payments Area (SEPA) ISO 20022 vendor payments electronically.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: Submit Vendor Payments Electronically in SEPA ISO 20022 Format (NL)
+description: In the Dutch version of Business Central, you can create and submit Single Euro Payments Area (SEPA) ISO 20022 vendor payments electronically.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format
 

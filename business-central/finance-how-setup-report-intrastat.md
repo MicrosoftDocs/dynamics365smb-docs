@@ -6,7 +6,7 @@ ms.author: altotovi
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 04/05/2023
+ms.date: 05/29/2024
 ms.custom: bap-template
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077
@@ -267,7 +267,7 @@ If there's a reason to exclude a specific item or fixed asset from Intrastat rep
 
 #### Set up tariff numbers
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tariff Numbers**, and then select the related link.  
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Tariff Numbers**, and then select the related link.  
 2. On the **Tariff Numbers** page, enter information in the fields described in the following table.
 
     | Field | Description |  
@@ -280,7 +280,7 @@ If there's a reason to exclude a specific item or fixed asset from Intrastat rep
 
 > [!NOTE]
 > If you add a supplementary unit of measure, [!INCLUDE [prod_short](includes/prod_short.md)] asks whether you want to update related items. If you choose to update related items, the **Unit of Measure** value on the **Item Units of Measure** page is updated for all items that have the same tariff number.
-> 
+>
 > When you add a tariff number that has a defined **Unit of Measure** value to the item, [!INCLUDE [prod_short](includes/prod_short.md)] automatically adds a new unit of measure to the **Item Units of Measure** value for the item. The **Qty. per Unit of Measure** value is based on the **Quantity Rounding Precision** field.
 
 ## Enter country/region Intrastat settings

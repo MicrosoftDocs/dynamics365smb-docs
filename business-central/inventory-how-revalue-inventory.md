@@ -11,6 +11,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Revalue Inventory
 If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.

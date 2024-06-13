@@ -40,7 +40,7 @@ With the Shopify Connector, businesses can link their Shopify stores with [!INCL
   - Use specific country/region templates when creating customers, which helps ensure that tax settings are correct.  
 - Import orders from Shopify
   - Include orders created in various sales channels, such as online store, **Shopify POS** or **B2B**.
-  - Shipping costs, gift cards, tips, shipping and payment methods, transactions, and risk of fraud.  
+  - Shipping costs, gift cards, tips, shipping and payment methods, transactions, and risk of fraud, return, refund or cancelation information.
   - During import, you can automatically create customers in [!INCLUDE [prod_short](../includes/prod_short.md)] or decide to manage the customers in Shopify.  
   - Receive payout information from Shopify Payments.
 - Track fulfillment information
@@ -54,11 +54,13 @@ With the Shopify Connector, businesses can link their Shopify stores with [!INCL
 
 ## Which Microsoft products work with the Shopify Connector?
 
-The connector is available only for [!INCLUDE[prod_short](../includes/prod_short.md)] online, starting with version 20.1. It isn't available for on-premises deployments. The connector is preinstalled for new environments. Organizations with existing environments can download and install the connector from AppSource. The organization must have both a [!INCLUDE [prod_short](../includes/prod_short.md)] license and a Shopify license to use the connector. To learn more about supported countries/regions, languages, and editions of [!INCLUDE[prod_short](../includes/prod_short.md)], go to [Shopify Connector on the AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
+The connector is available only for [!INCLUDE[prod_short](../includes/prod_short.md)] online. The connector is preinstalled for new environments. Organizations with existing environments can download and install the connector from AppSource. The organization must have both a [!INCLUDE [prod_short](../includes/prod_short.md)] license and a Shopify license to use the connector. To learn more about supported countries/regions, languages, and editions of [!INCLUDE[prod_short](../includes/prod_short.md)], go to [Shopify Connector on the AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
+
+It isn't available for on-premises deployments.
 
 The Shopify connector doesn't work for [Embed App](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), where the client URL has the `https://[application name].bc.dynamics.com` format.
 
-The Shopify Connector doesn't work with other products in the Dynamics 365 portfolio.
+The Shopify connector doesn't work with other Dynamics 365 applications, like Dynamics 365 Sales or Dynamics 365 Supply Chain Management.
 
 ## What support is offered for the Shopify Connector?
 

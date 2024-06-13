@@ -10,6 +10,7 @@ ms.date: 04/05/2023
 ms.author: soalex
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # QR-Bill Management in the Swiss Version of Business Central
 

@@ -8,6 +8,7 @@ ms.date: 04/01/2021
 ms.search.form: 
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Manage Notifications
 

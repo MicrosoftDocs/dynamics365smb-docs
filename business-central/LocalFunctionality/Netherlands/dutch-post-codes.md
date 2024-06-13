@@ -1,13 +1,14 @@
 ---
-    title: Dutch Post Codes
-    description: Subscribe to getting post codes and post code updates for your business. These updates are important for marketing and relationship management activities.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: Dutch Post Codes
+description: Subscribe to getting post codes and post code updates for your business. These updates are important for marketing and relationship management activities.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/18/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Dutch Post Codes
 

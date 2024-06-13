@@ -9,6 +9,7 @@ ms.search.keywords:
 ms.date: 11/23/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set up withholding tax in the New Zealand version
 

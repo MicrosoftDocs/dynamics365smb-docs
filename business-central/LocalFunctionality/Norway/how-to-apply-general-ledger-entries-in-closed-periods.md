@@ -1,13 +1,14 @@
 ---
-    title: How to Apply General Ledger Entries in Closed Periods
-    description: You can post entries after a posting period is closed, even if no actual posting is performed during that period.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: How to Apply General Ledger Entries in Closed Periods
+description: You can post entries after a posting period is closed, even if no actual posting is performed during that period.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Apply General Ledger Entries in Closed Periods
 [!INCLUDE[prod_short](../../includes/prod_short.md)] allows you to post entries after a posting period is closed, even if no actual posting is performed during that period. You can also choose the users who will make these entries.  

@@ -200,7 +200,7 @@ ms.service: dynamics-365-business-central
 #### [Touch and pen gestures](touch-gestures.md)
 ### [Troubleshoot: Access camera and location](ui-troubleshooting-camera-location.md)
 ### [Intelligent insights (online only)](about-intelligent-cloud.md)
-## Frequently Asked Questions
+## Troubleshooting and FAQs
 ### [Frequently Asked Questions](across-faq.yml)
 ### [Chat with Copilot FAQ (preview)](chat-with-copilot-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
@@ -211,6 +211,7 @@ ms.service: dynamics-365-business-central
 ### [Teams FAQ](teams-faq.md)
 ### [Electronic invoice FAQ](faq-electronic-invoicing.yml)
 ### [Minimum requirements](product-requirements.md)
+### [Troubleshooting in Business Central](/troubleshoot/dynamics-365/business-central/welcome-business-central)
 
 ## Help and Support
 ### [Resources for help and support](product-help-and-support.md)
@@ -459,6 +460,9 @@ ms.service: dynamics-365-business-central
 #### [Sustainability setup](finance-sustainability-setup.md)
 #### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
 #### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
+#### Sustainability analytics
+##### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
+##### [Built-in sustainability reports](sustainability-reports.md)
 
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
 #### Consolidate financial data from multiple companies
@@ -600,7 +604,7 @@ ms.service: dynamics-365-business-central
 #### [Fixed assets analytics overview](fa-analytics-overview.md)
 #### [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)
 #### Built-in fixed assets analytics tools
-##### [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)
 ##### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
 ##### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
@@ -1857,6 +1861,7 @@ ms.service: dynamics-365-business-central
 #### [Key financial reports](finance-reports.md)
 #### [Accounts receivable reports](receivables-reports.md)
 #### [Accounts payable reports](payables-reports.md)
+#### [Sustainability reports](sustainability-reports.md)
 
 ### [Sales reports](sales-reports.md)
 ### [Purchase reports](purchase-reports.md)

@@ -36,7 +36,7 @@ For the end-user, the installation experience is different for the two deploymen
 
 - With Centralized Deployment, the first time users choose the **Edit in Excel** action, the add-in is automatically installed in Excel from Centralized Deployment; not the Office Store. The only thing users have to do is sign in to [!INCLUDE[prod_short](includes/prod_short.md)]
 
-With both these deployment options, the add-in is automatically configured to connect to [!INCLUDE[prod_short](includes/prod_short.md)].A third deployment option is a manual installation of the add-in directly from Excel. With this option, users will need to configure the add-in to connect to [!INCLUDE[prod_short](includes/prod_short.md)]
+With both these deployment options, the add-in is automatically configured to connect to [!INCLUDE[prod_short](includes/prod_short.md)]. A third deployment option is a manual installation of the add-in directly from Excel. With this option, users will need to configure the add-in to connect to [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### <a name="switch"></a>Switching from individual acquisition to Centralized Deployment or the other way around
 

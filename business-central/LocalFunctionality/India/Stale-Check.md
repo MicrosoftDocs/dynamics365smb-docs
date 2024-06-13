@@ -1,14 +1,14 @@
 ---
-    title: Setting up and how to stale check
-    description: Specifies Basic Setups and Process of how to stale check
-    author: v-debapd
-    ms.topic: article
-    ms.devlang: al
-    ms.search.keywords: India, local, IN, English
-    ms.date: 12/08/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: Setting up and how to stale check
+description: Specifies Basic Setups and Process of how to stale check
+author: v-debapd
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 12/08/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Setting up stale check

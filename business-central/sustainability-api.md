@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, API, REST
 ms.search.form: 
-ms.date: 06/12/2024
+ms.date: 06/13/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -93,7 +93,7 @@ Represents the *Sustainability Accounts* in [!INCLUDE[prod_short](includes/prod_
 
 ## sustainabilityJournalLine  
 
-Represents a **Sustainability Journal Lines** in Business Central.  
+Represents a *Sustainability Journal Lines* in Business Central.  
 
 | Method | Return Type|Description |
 |:--------------------|:-----------|:-------------------------|

@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900, 
-ms.date: 02/09/2023
+ms.date: 06/13/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ---

@@ -562,7 +562,7 @@ additionalContent:
 #        - title: Dynamics 365
 #          summary: "Learn how to deploy, customize, manage, and use other Microsoft Dynamics 365 services and applications. Get documentation, sample code, tutorials, and more."
 #          url: /dynamics365/index
-#        - title: Microsoft Power Platform
+#        -title: Microsoft Power Platform
  #         summary: "Analyze data, build solutions, automate processes, and create virtual agents"
  #         url: /power-platform/index
 #        - title: Dynamics 365 App for Outlook

@@ -1,15 +1,15 @@
 ---
-    title: Switzerland local functionality
-    description: The following articles describe all of the local functionality that is unique to the Swiss version of Business Central.
-    author: sorenfriisalexandersen
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.search.form: 35561, 35562, 35563, 3010541, 3010542, 3010543
-    ms.date: 02/09/2024
-    ms.author: soalex
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: Switzerland local functionality
+description: The following articles describe all of the local functionality that is unique to the Swiss version of Business Central.
+author: sorenfriisalexandersen
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.search.form: 35561, 35562, 35563, 3010541, 3010542, 3010543
+ms.date: 02/09/2024
+ms.author: soalex
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Switzerland local functionality
 

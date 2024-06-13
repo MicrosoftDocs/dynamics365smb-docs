@@ -1,17 +1,17 @@
 ---
-    title: Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
-    description: Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
+title: Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
+description: Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Calculation of TCS as per the Income Tax Act, 1961 and GST on Sales Transactions
 

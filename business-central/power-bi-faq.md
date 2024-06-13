@@ -2,11 +2,10 @@
 title: Power BI FAQ
 description: Get answers for some typical questions about working with Power BI and Business Central.
 author: jswymer
-
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: Power BI, reports, faq, errors
-ms.date: 04/22/2021
+ms.date: 06/13/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -32,14 +31,14 @@ No. These apps are currently only available in English.
 Yes. For more information, see [Download a report from the Power BI service to Power BI Desktop](/power-bi/create-reports/service-export-to-pbix).  
 
 <!-- 27 -->
-### Can I download the apps as pbix files? 
+### Can I download the apps as pbix files?
 
 No. Currently, we don’t offer downloading pbix files for the official Power BI apps, because they're published on AppSource.
 
 ## [License](#tab/license)
 
 <!-- 14 -->
-### Do I need a Power BI Pro license to publish reports? 
+### Do I need a Power BI Pro license to publish reports?
 
 <!-- todo What does " or for every user that consults the published report" mean? fixed -->
 No. A Pro license isn't needed to publish reports. The standard (free) Power BI license is enough. For more information, see [Power BI Licensing](admin-powerbi-setup.md#license).
@@ -59,7 +58,7 @@ We don't have control over this requirement. This requirement is set by Power BI
 <!-- 7 -->
 ### Does the connector work with pages exposed as web services?
 
-Web services are an old technology and are not recommended to use with Power BI. The Power BI connector supports both Business Central web services and API pages, but API pages have in general better performances and are more suited for making data available to other systems. For more information, see [Enable Power BI connector to work with Business Central APIs, instead of with web services only](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
+Web services are an old technology and aren't recommended to use with Power BI. The Power BI connector supports both Business Central web services and API pages, but API pages generally have better performances and are more suited for making data available to other systems. For more information, see [Enable Power BI connector to work with Business Central APIs, instead of with web services only](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
 
 ### Can I build a Power BI report using the Sales Invoice Lines or Journal Lines APIs?
 
@@ -144,13 +143,13 @@ There is currently no way of adding a new field to a web service. API pages offe
 <!-- 28 --> 
 ### Can I connect Power BI to a read-only database server of [!INCLUDE [prod_short](includes/prod_short.md)] online? 
 
-By default, the Power BI connector reads data from a read-only replica of the Business Central database. This has been the case for all reports created after February 2022. This causes your reports to refresh faster, and has less impact on performances if you're using Business Central while a report is refreshing. We still recommend, whenever possible, that you schedule your reports to refresh outside of normal working hours.
+By default, the Power BI connector reads data from a read-only replica of the Business Central database, which has been the case for all reports created after February 2022. This behavior causes your reports to refresh faster and has less impact on performance if you're using Business Central while a report is refreshing. We still recommend that you schedule your reports to refresh outside of normal working hours whenever possible.
 
-If you have old reports based on Business Central data, they won't connect to the read-only database replica. In this case, consider re-creating the query inside Power BI so that it uses the latest defaults.
+If you have old reports based on Business Central data, they won't connect to the read-only database replica. In this case, consider recreating the query inside Power BI so that it uses the latest defaults.
 
 ### <a name="databasemods"></a>When I use the Power BI connector to connect to my custom [!INCLUDE [prod_short](includes/prod_short.md)] API page, I get the error "Cannot insert a record. Current connection intent is Read-Only.". How can I fix it?
 
-Reports that use Business Central data connect to a read-only replica of the Business Central database by default. In rare cases, this might cause the error "Current connection intent is Read-Only". This typically happens because your custom API is making modifications to Business Central records while Power BI tries to get the data. In particular, it happens as part of the AL triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord, and OnAfterGetCurrRecord.
+Reports that use Business Central data connect to a read-only replica of the Business Central database by default. In rare cases, this behavior might cause the error "Current connection intent is Read-Only". This error typically happens because your custom API is making modifications to Business Central records while Power BI tries to get the data. In particular, it happens as part of the AL triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord, and OnAfterGetCurrRecord.
 
 To fix this issue by forcing the Business Central connector to allow this behavior, see [Building Power BI Reports to Display Business Central Data - Fixing Problems](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 

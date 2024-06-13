@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: conceptual
 ms.collection:
   - bap-ai-copilot
-ms.date: 05/17/2024
+ms.date: 06/13/2024
 ms.custom: bap-template jswymer
 ---
 # Chat with Copilot FAQ

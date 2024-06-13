@@ -1,22 +1,23 @@
 ---
-title: Report Selection in Business Central
+title: Report selection in Business Central
 description: Learn about how to set up the reports that you use to print various types of documents in Business Central.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
-ms.date: 06/09/2022
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
----
-# Report Selection for Documents in Business Central
 
-You can set up default reports to use to print sales, purchases, and service documents, such as orders, quotes, and invoices. For example, if you have a specific layout for sales invoices, you can specify that report in the **Report Selections - Sales** page so that it will be used to send or print sales invoices.  
+---
+# Report selection for documents in Business Central
+
+You can set up default reports to use to print sales, purchases, and service documents, such as orders, quotes, and invoices. For example, if you have a specific layout for sales invoices, you can specify that report in the **Report Selections - Sales** page so that it's used to send or print sales invoices.  
 
 ## Available report selections
 
-The **Report Selections** pages specify which report will be printed in different situations. [!INCLUDE [prod_short](includes/prod_short.md)] provides default configurations, but you can change them if needed. You can also add reports to the **Report Selection** pages if you want to print more than one report per document type, for example. 
+The **Report Selections** pages specify the reports to print in different situations. [!INCLUDE [prod_short](includes/prod_short.md)] provides default configurations, but you can change them if needed. You can also add reports to the **Report Selection** pages if you want to print more than one report per document type, for example. 
 
 The following table describes where you can find information about the different pages.  
 
@@ -33,13 +34,15 @@ The following table describes where you can find information about the different
 The default version of [!INCLUDE [prod_short](includes/prod_short.md)] includes the following **Report Selection** pages:
 
 * **Report Selection - Sales**  
+* **Report Selection - Project**  
+* **Report Selection - Service**
 * **Report Selection - Purchase**  
-* **Report Selection - Inventory**  
 * **Report Selection - Cash Flow**  
 * **Report Selection - Warehouse**  
+* **Report Selection - Inventory**  
 * **Report Selection - Bank Account**  
-* **Report Selection - Job**  
-* **Report Selection - Service**
+* **Report Selection - Production Order**  
+* **Report Selection - Reminder/Finance Charge**  
 
 ## Example: Report selection for sales documents
 

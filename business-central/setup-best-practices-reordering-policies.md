@@ -1,21 +1,21 @@
 ---
-title: Setup Best Practices - Reordering Policies | Microsoft Docs
+title: Setup best practices - Reordering policies | Microsoft Docs
 description: The Reordering Policy field on item cards offers four different planning methods that determine how the individual planning parameters interact.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
-ms.date: 04/01/2021
-ms.author: bholtorf
-
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+
 ---
-# Setup Best Practices: Reordering Policies
+# Setup best practices: Reordering policies
 
 The **Reordering Policy** field on item cards offers four different planning methods that determine how the individual planning parameters interact.  
 
-One best-practice foundation for selecting a reordering policy is the item’s ABC classification. When you use ABC classification for inventory control and supply planning, items are managed according to three different classes depending on their value and volume relative to the total stock. The value-volume distribution of the three classes is shown in the following table.
+One best-practice foundation for selecting a reordering policy is the item’s ABC classification. When you use ABC classification for inventory control and supply planning, items are managed according to three different classes depending on their value and volume relative to the total stock. The following table shows the value-volume distribution of the three classes.
 
 |Class|Percent of total stock volume|Percent of total stock value|
 |-----|-----------------------------|----------------------------|

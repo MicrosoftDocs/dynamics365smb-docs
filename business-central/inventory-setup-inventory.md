@@ -1,18 +1,19 @@
 ---
-title: Setting Up Inventory
+title: Setting up inventory
 description: Describes how to set up your stock and inventory processes, including transfer routes and locations, such as warehouses.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: warehouse, stock
 ms.search.form: 30, 461
-ms.date: 04/01/2021
-ms.author: bholtorf
-
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+
 ---
-# Setting Up Inventory
+# Setting up inventory
+
 Before you can manage warehouse activities and inventory costing, you must configure the rules and values that define the company's inventory policies.
 
 You can provide better customer service and optimize your supply chain by organizing your inventory at different addresses. You can then buy, store, or sell items at different locations and transfer inventory between them.
@@ -33,7 +34,7 @@ When you have set up your inventory, you can manage various processes related to
 |Import multiple item pictures in one go from a zip file where the files are named according to item numbers.|[Import Multiple Item Pictures](inventory-how-import-item-pictures.md)|
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
 
-## See Also
+## See also
 
 [Managing Inventory](inventory-manage-inventory.md)  
 [Managing Purchasing](purchasing-manage-purchasing.md)  

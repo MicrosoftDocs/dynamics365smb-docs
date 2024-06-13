@@ -36,20 +36,20 @@ Then, when you create a sales document and add the item, you can specify the var
 
 ## Require use of variants
 
-Starting in 2022 release wave 2, admins can require that users specify the variant in documents and journals for items that have variants. To activate the capability, navigate to the **Inventory Setup** page, and then select the **Variant Mandatory if Exists** field. You can override this global setting for specific items.  
+Starting in 2022 release wave 2, admins can require that users specify the variant in documents and journals for items that have variants. To activate the capability, on the **Inventory Setup** page, and select the **Variant Mandatory if Exists** field. You can override this global setting for specific items.  
 
 On item cards, the **Variant Mandatory if Exists** field has the following options:
 
 |Field value |Description|
 |---------|----|
-|Default| The setting from **Inventory Setup** applies to this item.|
+|Default (No)| The setting from **Inventory Setup** applies to this item.|
 |No| Users aren't required to specify a variant for this item.|
 |Yes| If the item has one or more variants, users must specify the relevant variant. If they don't, they'll be blocked from posting the transaction.|
 
 > [!NOTE]
-> These settings don't affect items that have no variants.
+> These settings don't affect items that don't have variants.
 
-If the capability is switched on, users can't post an entry if the variant isn't specified.
+If the capability is switched on, you can't post an entry if the variant isn't specified.
 
 ## Categories, attributes, and variants
 

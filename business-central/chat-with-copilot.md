@@ -99,7 +99,7 @@ Prompt: `Show me customer ledger entries for Adatum from about three weeks ago`
 
 In this example, you ask copilot to solve a common date puzzle that typically requires you to open a calendar for reference, or to use advanced date range filters. Copilot can usually understand common expressions and business terms.
 
-Prompt: `How does I save my filters for later?`
+Prompt: `How does I save my filterrings for later?`
 
 In this example, you ask Copilot for guidance on how to perform some task in Business Central. Copilot can usually understand the intent of your question, even if there are a few grammatical errors, spelling mistakes or abbreviations.
 

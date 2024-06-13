@@ -1,16 +1,16 @@
 ---
-    title: Assign delivery reminder codes to vendors [DE]
-    description: In order to enable delivery reminders for overdue purchases, you must assign delivery reminder terms to vendors in the German version.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.search.form: 5005270, 5005272
-    ms.date: 11/14/2023
-    ms.author: bholtorf
+title: Assign delivery reminder codes to vendors [DE]
+description: In order to enable delivery reminders for overdue purchases, you must assign delivery reminder terms to vendors in the German version.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.search.form: 5005270, 5005272
+ms.date: 11/14/2023
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Assign delivery reminder codes to vendors in the German version
 

@@ -1,14 +1,14 @@
 ---
-    title: Italy local functionality
-    description: The following outlined articles describe the local functionality in the Italian version of Business Central.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 02/09/2024
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: Italy local functionality
+description: The following outlined articles describe the local functionality in the Italian version of Business Central.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 02/09/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Italy local functionality
 

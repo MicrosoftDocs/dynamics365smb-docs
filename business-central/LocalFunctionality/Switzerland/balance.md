@@ -1,15 +1,15 @@
 ---
-    title: G/L balance [CH]
-    description: This article explains how to use the General Ledger Acc. Provisional Balance page to view posted ledger entries.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.search.form: 11500
-    ms.date: 12/11/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: G/L balance [CH]
+description: This article explains how to use the General Ledger Acc. Provisional Balance page to view posted ledger entries.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.search.form: 11500
+ms.date: 12/11/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # General ledger balance in the Swiss version
 

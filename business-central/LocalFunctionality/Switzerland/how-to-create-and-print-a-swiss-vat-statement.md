@@ -1,15 +1,15 @@
 ---
-    title: Create and print a Swiss VAT statement [CH]
-    description: This article explains how to create and print a Swiss VAT Statement based on information you specify on the VAT Posting Setup page.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.search.form: 11023, 11024
-    ms.date: 02/08/2024
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: Create and print a Swiss VAT statement [CH]
+description: This article explains how to create and print a Swiss VAT Statement based on information you specify on the VAT Posting Setup page.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.search.form: 11023, 11024
+ms.date: 02/08/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Create and print a Swiss VAT statement in the Swiss version
 Based on the information that you have specified on the **VAT Posting Setup** page, [!INCLUDE[prod_short](../../includes/prod_short.md)] can automatically create a new VAT Statement Setup for realized VAT reporting. Before proceeding with the procedures in this article, make sure that you have set up VAT posting setup with values specified for the sales and purchase cipher fields.  

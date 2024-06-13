@@ -1,15 +1,15 @@
 ---
-    title: How to Generate Delivery Reminders [DE]
-    description: In the German version of Business Central, you can create delivery reminders when a purchase has not been delivered as expected.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+title: How to Generate Delivery Reminders [DE]
+description: In the German version of Business Central, you can create delivery reminders when a purchase has not been delivered as expected.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Generate Delivery Reminders in the German Version
 

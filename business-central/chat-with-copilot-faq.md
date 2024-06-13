@@ -63,7 +63,7 @@ Copilot only searches for records in the company you're currently signed into. I
 
 ## What can I do if the chat pane doesn't show?
 
-Check that your user language in My Settings is set to English, and that your environment is of version 24.0 or later. On the Copilot and AI Capabilities page, make sure the administrators has switched on consent for data across geographies and has activated chat. Also, make sure your environment localization isn't Canada.
+Check that your user language in My Settings is set to English, and that your environment is of version 24.0 or later. On the Copilot and AI Capabilities page, make sure the administrator has switched on consent for data across geographies and has activated chat. Also, make sure your environment localization isn't Canada.
 
 If you still don't see the chat with Copilot feature, it's possible that Microsoft is still rolling the feature out to your region. Copilot rolled out to US customers first in April 2024, and then over the course of weeks will roll out to other country/region localizations.
 

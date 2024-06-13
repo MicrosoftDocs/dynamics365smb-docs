@@ -1,15 +1,15 @@
 ---
-    title: How to Set Up Work Hours and Service Hours
-    description: Learn how to set up the work and service hours used to calculate the response date and time for service orders and quotes.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/23/2021
-    ms.author: bholtorf
+title: How to Set Up Work Hours and Service Hours
+description: Learn how to set up the work and service hours used to calculate the response date and time for service orders and quotes.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/23/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Work Hours and Service Hours
 Typically, a service management system tracks resource hours and service order status in order to forecast workloads and service needs. [!INCLUDE[prod_short](includes/prod_short.md)] has built-in tools that you can customize to record this kind of information.  

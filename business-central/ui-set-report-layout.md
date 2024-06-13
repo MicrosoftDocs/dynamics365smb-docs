@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 08/12/2022
+ms.date: 06/13/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Setting the Layout Used by a Report
+# Set the layout used by a report
 
 > **APPLIES TO:** Business Central online, Business Central on-premises 2022 release wave 1 and later. For earlier versions, go [here](ui-how-change-layout-currently-used-report.md).
 

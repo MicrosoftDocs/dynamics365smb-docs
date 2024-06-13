@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 01/22/2024
+ms.date: 06/13/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -145,13 +145,10 @@ The Power BI connector allows you to specify some advanced options when connecti
 
 8. You can customize one or more of the following options:
 
-   a. **UseReadOnlyReplica** (default: true): Control whether the connection to Business Central will use the more peformant and recommended read-only database replica .
-
-   b. **Timeout** (default: 00:08:00): Sets the timeout for each single API call to Business Central; notice: this cannot be higher than the timeout enforced by Business Central, which is 10 minutes.
-
-   c. **ODataMaxPageSize** (default: 5000): Sets the maximum number of records to return for each page when calling an API. For example, if your table Customers has 13000 records and ODataMaxPageSize is set to 5000, Power BI will make 3 API calls to get your customers (the first will get 5000 records, the next one will get 5000 more, and the last one the remaining 3000). This cannot be higher than the max page size enforced by Business Central, which is 20000.
-
-   d. **AcceptLanguage** (default: not specified): Sets the language in which the Business Central API session will run in. This influences the language of error messages, formatted values in AL, and other values that depend on language or culture.
+   - **UseReadOnlyReplica** (default: true): Control whether the connection to Business Central uses the more peformant and recommended read-only database replica.
+   - **Timeout** (default: 00:08:00): Sets the timeout for each single API call to Business Central. This option can't be higher than the timeout enforced by Business Central, which is 10 minutes.
+   - **ODataMaxPageSize** (default: 5000): Sets the maximum number of records to return for each page when calling an API. For example, if your table **Customers** has 13000 records and ODataMaxPageSize is set to 5000, Power BI makes 3 API calls to get your customers. The first call gets 5000 records, the next one gets 5000 more, and the last call gets the remaining 3000. This option can't be higher than the maximum page size enforced by Business Central, which is 20000.
+   - **AcceptLanguage** (default: not specified): Sets the language in which the Business Central API session runs in. This option influences the language of error messages, formatted values in AL, and other values that depend on language or culture.
 
 9. Add a Power Query record with your desired options as the fourth parameter, for example:
 

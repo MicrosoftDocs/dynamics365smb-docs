@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900, 
-ms.date: 02/09/2023
+ms.date: 06/13/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
@@ -16,7 +16,7 @@ ms.reviewer: jswymer
 After printers have been set up in Business Central, you can then specify which printer you want to use by default. There are a couple of ways to specify printers to be used by default for reports and other print jobs. A default printer is useful if you work with different reports that require different printers because of their placement in the company or their output capabilities.
 
 > [!IMPORTANT]
-> The only printers that you can specify as default are **Microsoft Print to PDF** and cloud printers that have already been set up for use in Business Central, like Email printers and Universal Print printers. Cloud printers are typically set up by an admin. For more information, see [Printer Setup and Management](admin-printer-setup-overview.md).   
+> The only printers that you can specify as default are **Microsoft Print to PDF** and cloud printers that have already been set up for use in Business Central, like Email printers and Universal Print printers. Cloud printers are typically set up by an admin. For more information, see [Printer Setup and Management](admin-printer-setup-overview.md).
 
 ## Set a printer as a default printer for all print jobs
 

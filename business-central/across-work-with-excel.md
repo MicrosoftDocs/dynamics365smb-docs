@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Viewing and editing in Excel from Business Central
+# View and edit in Excel from Business Central
 
 With pages that display a list of records in rows and columns, like a list of customers, sale orders, or invoices, you can export the list to Microsoft Excel, and view it there. Depending on the page, you have two options for viewing in Excel. Both options are available from the **Share** icon ![Share a page in another app.](media/share-icon.png) at the top of a page. You can either select the **Open in Excel** action or the **Edit in Excel** action on the page. This article explains the two actions.
 
@@ -24,8 +24,9 @@ With the **Open in Excel** action, you can make changes to the records in Excel,
 - This action works on both on Windows and macOS.
 - [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
+<!-- 
 > [!IMPORTANT]
-> For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the **Open in Excel** action is available by default. However, if you set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for editing data in Excel, then the **Open in Excel** action is replaced by the **Edit in Excel** action.
+> For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the **Open in Excel** action is available by default. However, if you set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for editing data in Excel, then the **Open in Excel** action is replaced by the **Edit in Excel** action.-->
 
 [!INCLUDE [send-report-excel](includes/send-report-excel.md)] 
 

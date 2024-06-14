@@ -2,13 +2,11 @@
 title: Using Business Central with Outlook
 description: This service has deep integration with Microsoft 365 enabling you to manage all your business interactions and mail with customers and vendors directly in Outlook.
 author: jswymer
-
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/21/2022
 ms.author: jswymer
-
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
@@ -34,7 +32,7 @@ ms.reviewer: jswymer
 
 2. With the add-in installed, you can access the **[!INCLUDE[prod_short](includes/prod_short.md)]** add-in from any new or existing email message or calendar appointment in Outlook.
 
-    Start by signing in to Outlook and opening an email message. Then, if you're using the Outlook app, go to the ribbon, and look for **[!INCLUDE[prod_short](includes/prod_short.md)]**.  Or if you're using Outlook on the web, at the top or bottom of the email message, look for ![Business Central add-in icon in Outlook.](media/outlook-business-central-icon.png) or go to the more actions ![Show more actions for an email in Outlook.](media/outlook-more-actions-button.png) button.
+    Start by signing in to Outlook and opening an email message. Then, if you're using the Outlook app, go to the ribbon, and look for **[!INCLUDE[prod_short](includes/prod_short.md)]**.  Or if you're using Outlook on the web, at the top the email message, select **Apps** ![Shows the apps button in Outlook.](media/apps-icon.png) > **Business Central** ![Business Central add-in icon in Outlook.](media/outlook-business-central-icon.png) or go to the more actions ![Show more actions for an email in Outlook.](media/outlook-more-actions-button.png) button.
 
     ![Access Business Central add-ins in Outlook.](media/outlook-business-central-addin.png)
 
@@ -64,7 +62,7 @@ The following sections lead you through some basic tasks to give you a general u
 ### Look up a business contact when composing an email
 
 1. Create a new email message.
-2. In the ribbon, go to **[!INCLUDE[prod_short](includes/prod_short.md)]** and choose **Contact Insights**. Or if you're using Outlook on the web, go to the bottom of the message, choose ![Business Central add-in icon in Outlook.](media/outlook-business-central-icon.png) > **Contact Insights**.
+2. In the ribbon, go to **[!INCLUDE[prod_short](includes/prod_short.md)]** and choose **Contact Insights**. Or if you're using Outlook on the web, at the top of the message, select **Apps** ![Shows the apps button in Outlook.](media/apps-icon.png) > **Business Central** ![Business Central add-in icon in Outlook.](media/outlook-business-central-icon.png) > **Contact Insights**.
 3. In the **[!INCLUDE[prod_short](includes/prod_short.md)]** add-in pane that opens, scan for and choose the contact you want.
 
     An overview of the contact displays in the pane and the contact is added in the **To** line of the email.

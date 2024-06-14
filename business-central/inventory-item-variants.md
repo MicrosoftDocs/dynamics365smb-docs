@@ -24,7 +24,7 @@ It's easy enough to define variants for an item.
 
 ### To add variants
 
-1. Open [the **Items List** page](https://businesscentral.dynamics.com/?page=31), open the relevant item.  
+1. Open [the **Items List** page](https://businesscentral.dynamics.com/?page=31), and then open the relevant item.  
 2. On the **Item Card** page, choose the **Variants** action.  
 3. In the **Item Variants** page, list the variants.  
 
@@ -44,7 +44,7 @@ On item cards, the **Variant Mandatory if Exists** field has the following optio
 |---------|----|
 |Default (No)| The setting from **Inventory Setup** applies to this item.|
 |No| Users aren't required to specify a variant for this item.|
-|Yes| If the item has one or more variants, users must specify the relevant variant. If they don't, they'll be blocked from posting the transaction.|
+|Yes| If the item has one or more variants, users must specify the relevant variant. If they don't, they're blocked from posting the transaction.|
 
 > [!NOTE]
 > These settings don't affect items that don't have variants.

@@ -16,17 +16,15 @@ ms.service: dynamics-365-business-central
 
 You use assembly bills of materials (BOMs) to structure parent items that must be assembled from components with little to no resource use. An assembly BOM can be used, for example, to sell a parent item as a kit consisting of component items.
 
-You use assembly orders for making end items from components in a simple process that can be performed by one or more basic resources, which are not machine or work centers, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and then pack them as a gift item.  
+Use assembly orders to make finished items from components in a process that one or more basic resources can perform, which aren't machine or work centers, or without any resources. For example, an assembly process could be to pick two wine bottles and one coffee sack and pack them as a gift item.  
 
-An assembly BOM is the master data that defines which component items go into an assembled end item and which resources are used to assemble the assembly item. When you enter an assembly item and a quantity in the header of a new assembly order, then the assembly order lines are automatically filled according to the assembly BOM with one assembly order line per component or resource. Learn more at [Assembly Management](assembly-assemble-items.md).
+An assembly BOM is the master data that defines which component items go into an assembled end item and which resources are used to assemble the assembly item. When you enter an assembly item and a quantity on an assembly order, the assembly order lines are filled in according to the assembly BOM. The order has one assembly order line per component or resource. Learn more at [Assembly Management](assembly-assemble-items.md).
 
-[!INCLUDE[prod_short](includes/prod_short.md)] also supports production BOMs. Production BOMs differ from assembly BOMs by involving more complex procedures, including resource usage, production routing and work or machine centers. Learn more about the differences at [Work with Bills of Material](inventory-how-work-BOMs.md) and [Create Production BOMs](production-how-to-create-production-boms.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] also supports production BOMs. Production BOMs differ from assembly BOMs because they involve more complex procedures, such as resource usage, production routing, and work or machine centers. Learn more about the differences at [Work with Bills of Material](inventory-how-work-BOMs.md) and [Create Production BOMs](production-how-to-create-production-boms.md).
 
 ## To create an assembly BOM
 
-To define a parent item that consists of other items, and potentially of resources required to put the parent together, you must create an assembly BOM.  
-
-Assembly BOMs usually contain items but can also contain one or more resources that are required to put the assembly item together.
+To define an item that consists of other items, and perhaps the resources that assemble the item, you must create an assembly BOM.  
 
 Assembly BOMs can have multiple levels, which means that a component on the assembly BOM can be an assembly item itself. In that case, the **Assembly BOM** field on the assembly BOM line contains **Yes**.
 
@@ -48,7 +46,7 @@ There are two parts to creating an assembly BOM:
 
 ## To edit assembly BOMs
 
-You can edit the lines on an assembly BOM at any time. But be aware that the BOM might be in use by ongoing sales or assemblies of the parent. Changing the BOM might affect those activities. Choose the **Where-Used** action to explore the items that use it and whether sales or assembly orders might be affected.
+You can edit the lines on an assembly BOM at any time. However, the BOM might be in use by ongoing sales or assemblies of the parent. Changing the BOM might affect those activities. Choose the **Where-Used** action to explore the items that use it and whether sales or assembly orders might be affected.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, then choose the related link.
 2. Choose the **Yes** value in the **Assembly BOM** column.

@@ -19,7 +19,7 @@ As companies operate in increasingly more countries/regions, it becomes more imp
 > [!NOTE]  
 > In [!INCLUDE[prod_short](includes/prod_short.md)], if you're looking for real time information about foreign exchange (FX) rates or historical rates, it's referred to as currency. In addition to this article, see also [Update Currency Exchange Rates](finance-how-update-currencies.md).
 
-Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a current exchange rate assigned. By designating a second currency as an additional reporting currency (ACY), [!INCLUDE[prod_short](includes/prod_short.md)] automatically records amounts in both LCY and this additional reporting currency on each G/L entry and other entries, such as VAT entries.
+Your general ledger is set up to use your local currency (LCY), but you can set it up to also use another currency with a current exchange rate assigned. If you designate a second currency as an additional reporting currency (ACY), [!INCLUDE[prod_short](includes/prod_short.md)] automatically records amounts in both LCY and ACY on each G/L entry and other entries, such as VAT entries.
 
 > [!Warning]
 > You shouldn't use the ACY feature as a basis for financial statement translation unless you understand its limitations. It can't translate foreign subsidiary financial statements as part of a company consolidation. The ACY can only be used to prepare reports in another currency, as if that currency was the company's LCY.
@@ -46,7 +46,7 @@ To set up an ACY, follow these steps:
 - Specify general ledger accounts for posting exchange rate adjustments.  
 - Specify the exchange rate adjustment method for all general ledger accounts.  
 - Specify the exchange rate adjustment method for VAT entries.  
-- Activate the additional reporting currency.  
+- Activate the ACY.  
 
 ### To specify general ledger accounts for posting exchange rate adjustments  
 
@@ -73,9 +73,9 @@ For each general ledger account, you must specify how general ledger amounts for
 
     If you post in an ACY, in the **Exchange Rate Adjustment** field, specify how this general ledger account is adjusted for exchange-rate fluctuations between LCY and the ACY. The following table describes the options.  
 
-    |Field|Decription|  
+    |Field|Description|  
     |----------------------------------|---------------------------------------|  
-    |**No Adjustment**|No exchange rate adjustment is made to the general ledger account. This is the default option.<br /><br /> **NOTE:** Select this option if the exchange rate between the LCY and ACY is always fixed.|  
+    |**No Adjustment**|No exchange rate adjustment is made to the general ledger account. This setting is the default option.<br /><br /> **NOTE:** Select this option if the exchange rate between the LCY and ACY is always fixed.|  
     |**Adjust Amount**|The LCY amount is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Amount** field and to the accounts you specified for gains or losses in the **Realized G/L Gains Account** and **Realized G/L Losses Account** fields on the **Currencies** page.|  
     |**Adjust Additional-Currency Amount**|The ACY is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Additional-Currency Amount** field and to the accounts you specified for gains or losses in the **Realized G/L Gains Account** and **Realized G/L Losses Account** fields on the **Currencies** page.|  
 
@@ -95,19 +95,19 @@ For each general ledger account, you must specify how general ledger amounts for
 
     |Field|Description|  
     |----------------------------------|---------------------------------------|  
-    |**No Adjustment**|No exchange rate adjustment is made to the general ledger account. This is the default option.|  
+    |**No Adjustment**|No exchange rate adjustment is made to the general ledger account. This setting is the default option.|  
     |**Adjust Amount**|The LCY amount is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Amount** field and to the accounts you specified for gains or losses in the **Realized G/L Gains Account** and **Realized G/L Losses Account** fields on the **Currencies** page.|  
     |**Adjust Additional-Currency Amount**|The ACY is adjusted for any exchange rate gains or losses. Exchange rate gains or losses are posted to the general ledger account in the **Additional-Currency Amount** field and to the accounts you specified for gains or losses in the **Realized G/L Gains Account** and **Realized G/L Losses Account** fields on the **Currencies** page.|  
 
 ### To activate the ACY  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
-2. On the **General Ledger Setup** page, choose the **Additional Reporting Currency** field to select the additional currency that you want to report in.  
+2. On the **General Ledger Setup** page, in the **Additional Reporting Currency** field, choose the additional currency that you want to report in.  
 3. When you leave the field, [!INCLUDE[prod_short](includes/prod_short.md)] displays a confirmation message describing the effects of activating the ACY.  
 4. Choose the **Yes** button to confirm that you want to activate the currency.  
 5. The **Adjust Add. Reporting Currency** batch job opens.
 
-    This batch job converts LCY amounts on existing entries to the ACY. The batch job uses a default exchange rate copied from the exchange rate that is valid on the work date on the **Currency Exchange Rates** page. Residual amounts that occur on conversion of LCY to additional reporting currency are posted to the residual gains and losses accounts specified on the **Currencies** page. The posting date and document number for these entries are the same as for the original general ledger entry. After all these residual entries are posted, the batch job posts a rounding entry on the closing date of each closed year to the retained earnings account. This is to make sure that the ending balance of the income accounts for each closed year is 0 in both LCY and the additional reporting currency.
+    This batch job converts LCY amounts on existing entries to the ACY. The batch job uses a default exchange rate copied from the exchange rate that is valid on the work date on the **Currency Exchange Rates** page. Residual amounts that occur on conversion of LCY to ACY are posted to the residual gains and losses accounts specified on the **Currencies** page. The posting date and document number for these entries are the same as for the original general ledger entry. After you post all residual entries, the batch job posts a rounding entry on the closing date of each closed year to the retained earnings account. This posting makes sure that the ending balance of the income accounts for each closed year is 0 in both LCY and the ACY.
 6. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
 7. Choose the **OK** button to run the batch job.  
 

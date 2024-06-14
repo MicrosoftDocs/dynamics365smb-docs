@@ -18,7 +18,7 @@ You must regularly reconcile your bank, receivables, and payables accounts by ap
 
 You can perform this task on the **Payment Reconciliation Journal** page, for example, by importing a bank statement file or feed to quickly register the payments. Payments are applied to open customer or vendor ledger entries based on matches between payment text and entry information. You can review and change automatic applications before you post the journal. You can choose to close any open bank account ledger entries related to the applied ledger entries when you post the journal. The bank account is automatically reconciled when all payments are applied.
 
-The logic that governs how payment text is automatically matched with entry information is set up on the **Payment Application Rules** page as a number of prioritized rules that you can edit.
+On the **Payment Application Rules** page, you can set up prioritized rules that govern how payment text is automatically matched with entry information.
 
 You can also reconcile bank accounts without simultaneously applying payments. You perform this work on the **Bank Acc. Reconciliation** page. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
 
@@ -33,9 +33,9 @@ The following table describes a sequence of tasks, with links to articles that d
 
 | To | See |
 | --- | --- |
-| Apply payments to open customer or vendor ledger entries by importing a bank statement, and reconcile the bank account when all payments are applied. |[Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md) |
+| Apply payments to open customer or vendor ledger entries by importing a bank statement, and then reconcile the bank account after you apply all payments. |[Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md) |
 | Manually apply payments by viewing detailed information about matched data and suggestions for candidate open entries to apply payments to. |[Review or Apply Payments After Automatic Application](receivables-how-review-apply-payments-auto-application.md) |
-| Resolve payments that cannot be applied automatically to their related open ledger entries. For example because the amounts differ, or because a related ledger entry does not exist. |[Reconcile Payments that Cannot be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md) |
+| Resolve payments that can't be applied automatically to their related open ledger entries. For example because the amounts differ, or because a related ledger entry doesn't exist. |[Reconcile Payments that Can't be Applied Automatically](receivables-how-reconcile-payments-cannot-apply-auto.md) |
 | Link text on payments to specific customer, vendor, or general ledger accounts to always post recurring cash receipts or expenses to those accounts when no documents exist to apply to. |[Map Text on Recurring Payments to Accounts for Automatic Reconciliation](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Set up the rules to govern how payments/bank transactions should be automatically applied to their related open ledger entries when you use the **Apply Automatically** function on the **Payment Reconciliation Journal** page.|[Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md)|
 

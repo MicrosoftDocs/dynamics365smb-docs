@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 ---
 # Report selection for documents in Business Central
 
-You can set up default reports to use to print sales, purchases, and service documents, such as orders, quotes, and invoices. For example, if you have a specific layout for sales invoices, you can specify that report in the **Report Selections - Sales** page so that it's used to send or print sales invoices.  
+You can set up default reports to use to print sales, purchases, and service documents, such as orders, quotes, and invoices. For example, if you have a specific layout for sales invoices, you can specify that report in the **Report Selections - Sales** page. You can then use the report when you send or print sales invoices.  
 
 ## Available report selections
 
@@ -23,7 +23,7 @@ The following table describes where you can find information about the different
 
 |Area or task  |Learn more|
 |--------------|----------|
-|Example of how report selection works (sales)|[Report selection for sales documents](#example-report-selection-for-sales-documents) found below|
+|Example of how report selection works (sales)|[Report selection for sales documents](#example-report-selection-for-sales-documents)|
 |Default layout for emails with sales and purchase documents  |[Set Up Reusable Email Texts and Layouts for Sales and Purchase Documents](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts) |
 |Define check layouts     |[Select a Check Layout](finance-how-define-check-layouts.md) |
 |Define reports for value-added tax (VAT) reporting (Germany)|[Set Up Reports for VAT and Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
@@ -50,7 +50,7 @@ The **Report Selection - Sales** page offers default reports to use in different
 
 [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-You can't send all document types as email attachments. For those you can, the **Report Selection** page contains extra fields.  
+You can't send all document types as email attachments. For the document types you can, the **Report Selection** page contains extra fields.  
 
 For example, on the **Report Selection - Sales** and **Report Selection - Purchase** pages, the following fields help you set up email:
 

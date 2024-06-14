@@ -69,15 +69,17 @@ In the **Ending Book Value** field on the **FA Depreciation Books** page, you ca
 > If the last depreciation means that the **Book Value** field on the **Fixed Asset Card** page is zero, the last depreciation is automatically reduced by this amount.<br /><br />
 > If the value in the **Book Value** field is greater than zero after the last depreciation,  for example because of a rounding problem or because a salvage value exists, the value in the **Ending Book Value** field on the **FA Depreciation Books** page is ignored. For more information, see [To post the salvage value together with the acquisition cost](fa-how-acquire.md#to-post-the-salvage-value-together-with-the-acquisition-cost).
 
-## To calculate allocations in the fixed asset G/L journal
+## To calculate allocations for a Fixed Asset
 
-If a fixed asset is used by several departments, periodic depreciation can be automatically allocated to these departments according to a user-defined allocation table.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.  
-2. Create an initial line and fill in the fields as necessary.
-3. In the **FA Posting Type** field, select **Allocation**.  
-4. Choose the **Insert FA Bal. Account** action. A second journal line is created for the balancing account that is set up for allocation posting.  
-5. Choose the **Post** action to post the journal.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Posting Groups**, and then choose the related link.
+2. Choose **Related**, **Posting Group**, **Allocations** and select the Depreciation Book
+3. Fill in the G/L accounts and the corresponding allocation percentages for each posting group
+4. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Asset G/L Journals**, and then choose the related link.
+5. Enter the Fixed Asset and the corresponding FA Posting Group and Depreciation book will determine the allocation lines
+6. Choose the **Post** action to post the journal.
+
+If a fixed asset is used by several departments, you can select the dimension on the Fixed Asset G/l Journal Line
 
 ## Use duplication lists to prepare to post to multiple depreciation books
 

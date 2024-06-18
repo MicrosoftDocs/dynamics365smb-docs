@@ -3,14 +3,17 @@ title: VAT Registration No. for Intrastat [DK]
 description: Learn how to set up a VAT registration number as specified by the Danish Intrastat requirements.
 author: altotovi
 
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: 328
 ms.date: 05/09/2022
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
 ---
 # VAT Registration Number Setup for Intrastat in the Danish Version
+
+[!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
 In Denmark, the VAT-VIES requirements mean that you specify a unique VAT number in the **VAT Registration No** field on the customer or vendor cards. But reporting for Intrastat requires a VAT registration number in the submitted files that consists of the country code and the VAT registration number.
 
@@ -28,8 +31,9 @@ You can choose between the following options:
 
 Depending on your choices, the relevant numbers will be concatenated from the values of the **VAT Reg. No.** and **EU Country Code** fields.  
 
-## See Also
+## See also
 
 [Denmark Local Functionality](denmark-local-functionality.md)  
+[Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

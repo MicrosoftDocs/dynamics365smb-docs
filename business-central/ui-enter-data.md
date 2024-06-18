@@ -4,13 +4,13 @@ description: There are many general features that help you enter data easier, fa
 author: jswymer
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 03/23/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Entering Data
 
@@ -38,20 +38,20 @@ Some editable fields provide a picker to help you specify a value.
 
 To modify the value of a field, you must first set focus to that field. You set focus by doing the following actions:
 
-- Use the **Tab** key. The action selects the entire value.
+- Use the <kbd>Tab</kbd> key. The action selects the entire value.
 - Left-click your mouse or similar input device. This action will only select the entire field value if the field is in a list.  
 
 When you interact with fields in the user interface, [!INCLUDE[prod_short](includes/prod_short.md)] typically favors selecting the entire field value to make it easier for you to replace that value.
 
 When the entire field value is selected:
-- Replace the value by just typing to specify a new value. If the field offers a picker, you can activate it using the **Alt+Arrow-down** keyboard shortcut.
-- Use the **Delete** or **Backspace** key to clear the value.
+- Replace the value by just typing to specify a new value. If the field offers a picker, you can activate it using the <kbd>Alt</kbd>+<kbd>Down Arrow</kbd> keyboard shortcut.
+- Use the <kbd>Delete</kbd> or <kbd>Backspace</kbd> key to clear the value.
 
-Press the **F2** key to toggle between selecting the entire field value or placing the cursor after the field's value. Placing the cursor at the end of the value makes it easier for you to append to the existing value.
+select the <kbd>F2</kbd> key to toggle between selecting the entire field value or placing the cursor after the field's value. Placing the cursor at the end of the value makes it easier for you to append to the existing value.
 
 When the cursor is shown at the end of the field value:
 - Add to the value by just typing.
-- Use the **Home**, **End**, **Left-arrow**, and **Right-arrow** keys to move the cursor within the value. If you're editing a field in a list, pressing the **Left-arrow** key again when the cursor is at the beginning of the value will set focus to the previous field. Similarly, pressing the **Right-arrow** key again when the cursor is at the end of the value will set focus to the next field.
+- Use the <kbd>Home</kbd>, <kbd>End</kbd>, <kbd>Left Arrow</kbd>, and <kbd>Right Arrow</kbd> keys to move the cursor within the value. If you're editing a field in a list, selecting the <kbd>Left Arrow</kbd> key again when the cursor is at the beginning of the value will set focus to the previous field. Similarly, selecting the <kbd>Right Arrow</kbd> key again when the cursor is at the end of the value will set focus to the next field.
 
 > [!NOTE]
 > After you specify a value, Business Central will only check that it's valid after you click outside the field or set focus to another element, such as the next field.  
@@ -68,13 +68,13 @@ For more information about shortcuts, see [Keyboard Shortcuts](keyboard-shortcut
 
 Quick Entry is a feature designed for data entry when using the keyboard. Quick Entry works on fields (like on card pages) and in lists (rows and columns). It's beneficial when doing repetitive typing tasks that require creating multiple records in sequence. Examples include a batch of sales orders or registering new items.
 
-You can use the Tab key to navigate from one field on a page to the next editable field. A disadvantage of using Tab is that it always goes sequentially to the next field. <!-- even if the field is non-editable or seldom filled it in.-->Quick Entry lets you change this path. With Quick Entry, you use the Enter key to navigate through only those fields that you're interested in. Quick Entry skips non-editable fields and fields that you typically don't fill in. You might have already noticed this behavior on some pages. This behavior is because the fields to include when pressing Enter and which ones to skip have been predefined. You can customize Quick Entry by personalizing your workspace and optimizing how you enter data on each page.
+You can use the Tab key to navigate from one field on a page to the next editable field. A disadvantage of using Tab is that it always goes sequentially to the next field. <!-- even if the field is non-editable or seldom filled it in.-->Quick Entry lets you change this path. With Quick Entry, you use the <kbd>Enter</kbd> key to navigate through only those fields that you're interested in. Quick Entry skips non-editable fields and fields that you typically don't fill in. You might have already noticed this behavior on some pages. This behavior is because the fields to include when pressing Enter and which ones to skip have been predefined. You can customize Quick Entry by personalizing your workspace and optimizing how you enter data on each page.
 
 ### How Quick Entry Works
 
-Every field can be marked as either *included in Quick Entry* or *excluded from Quick Entry*. Fields that are included in Quick Entry will be included in the path when you press Enter. Fields that are excluded from Quick Entry won't.
+Every field can be marked as either *included in Quick Entry* or *excluded from Quick Entry*. Fields that are included in Quick Entry will be included in the path when you select <kbd>Enter</kbd>. Fields that are excluded from Quick Entry won't.
 
-When you're finished entering data in a field, you simply press Enter to confirm the changes and go to the next field. If you want to reverse direction, and go the previous field, press Shift+Enter. For more information about shortcuts, see [Quick Entry Shortcuts for Fields](keyboard-shortcuts.md#QuickEntry).
+When you're finished entering data in a field, you simply select <kbd>Enter</kbd> to confirm the changes and go to the next field. If you want to reverse direction, and go the previous field, select <kbd>Shift</kbd>+<kbd>Enter</kbd>. For more information about shortcuts, see [Quick Entry Shortcuts for Fields](keyboard-shortcuts.md#QuickEntry).
 
 #### Tips and Tricks
 
@@ -82,7 +82,7 @@ The following list provides some useful information about using Quick Entry.
 
 - It's available for any editable fields.
 - It also works across columns and rows.
-- It doesn't prevent accessing other elements of a page, such as actions. These elements are still accessible by using Tab and Shift+Tab.  
+- It doesn't prevent accessing other elements of a page, such as actions. These elements are still accessible by using <kbd>Tab</kbd> and <kbd>Shift</kbd>+<kbd>Tab</kbd>.  
 - It's not required that FastTabs are expanded for Quick Entry to work. If the next Quick Entry field is located in a collapsed FastTab, that FastTab will automatically expand and focus on the chosen field. [!INCLUDE[prod_short](includes/prod_short.md)] will remember that the FastTab should be expanded next time you visit the page.  
 - Quick Entry works no matter whether fields are mandatory. So it's a good idea to ensure that mandatory fields are included in Quick Entry.
 - By default, most fields are automatically included in Quick Entry. So initially your task will most likely be excluding fields from Quick Entry.
@@ -114,15 +114,15 @@ Although a field is mandatory, you aren't forced to fill the field before you co
 
 ## Copying and Pasting FAQ Fields and Lines
 
-You can copy one or more rows from a list or a single field on a page. Then paste what you copied into the same page, another page, or an external document. You could, for example, paste to Microsoft Excel or Outlook email. In short, to copy, press CTRL+C (cmd+C in macOS) on your keyboard. To paste, press CTRL+V or cmd+V in macOS.
+You can copy one or more rows from a list or a single field on a page. Then paste what you copied into the same page, another page, or an external document. You could, for example, paste to Microsoft Excel or Outlook email. In short, to copy, select <kbd>Ctrl</kbd>+<kbd>C</kbd> (cmd+C in macOS) on your keyboard. To paste, select <kbd>Ctrl</kbd>+<kbd>V</kbd> or <kbd>cmd+V</kbd> in macOS.
 
-In a list, to copy the field in the same column of the row above, and paste it into the current row, just press F8.
+In a list, to copy the field in the same column of the row above, and paste it into the current row, just select <kbd>F8</kbd>.
 
 For more information, see [Copying and Pasting FAQ](faq-copy-paste.yml).
 
 ## Filtering Line Items
 
-To start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or press Shift+F3 to open the filter pane. You work with the filter pane as you do on any other list. For more information, see [Filtering](ui-enter-criteria-filters.md#filtering).
+To start filtering, select ![Filter pane icon](media/open-filter-pane-icon.png "Filter pane icon") at the top of the list or select <kbd>Shift</kbd>+<kbd>F3</kbd> to open the filter pane. You work with the filter pane as you do on any other list. For more information, see [Filtering](ui-enter-criteria-filters.md#filtering).
 
 Filtering is especially helpful when viewing and analyzing longer documents. Imagine you open a posted sales invoice. Then, you filter the line items to display all line items that have an individual discount above 5%. Or, you filter to display only bike accessories with 'pro' in the name.
 
@@ -134,9 +134,9 @@ You'll benefit particularly when you work with large line item lists and you wan
 
 ### Switching the Focus On and Off
 
-To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon.](media/focus-mode.png "Focus mode icon") in the upper right corner, or press Ctrl+Shift+F12.
+To focus on lines items, select anywhere in the line item part, and then choose ![Focus Mode icon.](media/focus-mode.png "Focus mode icon") in the upper right corner, or select <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd>.
 
-To switch back to the normal view, choose ![Focus Mode icon.](media/focus-mode.png "Focus mode icon") or press Ctrl+Shift+F12 again.
+To switch back to the normal view, choose ![Focus Mode icon.](media/focus-mode.png "Focus mode icon") or select <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd> again.
 
 ## Multitasking Across Multiple Pages
 
@@ -146,12 +146,11 @@ You can open a card or document page in a new window. Opening a new window lets 
 - Manage interruptions to the current task, such as taking an incoming call.
 - Keep a window open for an ongoing task while you start or complete another task in windows.
 
-To open the current card or document in a new window, choose ![Open New Window.](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
+To open the current card or document in a new window, choose ![Open New Window.](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or select <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>W</kbd>.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-To open the current card or document in a new window, choose ![Open New Window.](media/open-new-window-icon.png "Open new window icon") in the upper right corner, or press Alt+Shift+W.
 
 > [!NOTE]
 > When you open other pages from a card or document that is opened in a new window, those pages will open in a new window even though you don't choose ![Open New Window.](media/open-new-window-icon.png "Open new window icon").
@@ -270,14 +269,12 @@ Here are some examples.
 
 ## <a name="decimal"></a>Setting the decimal separator used by numeric keyboards
 
-When using the decimal separator key on a numeric keypad to enter data, the actual decimal separator that's entered in the field is determined by your region setting in Business Central. Most regions use the period (.) or comma (,) symbol as a separator for decimal values, as you would typically see in currency amounts. The decimal key on your keypad adapts to your region. It's often different to the period or comma keys on the rest of your keyboard. You set the region in Business Central on the **My Settings**  page.
+When using the <kbd>Decimal Separator</kbd> key on a numeric keypad to enter data, the actual decimal separator that's entered in the field is determined by your region setting in Business Central. Most regions use the period (.) or comma (,) symbol as a separator for decimal values, as you would typically see in currency amounts. The decimal key on your keypad adapts to your region. It's often different to the period or comma keys on the rest of your keyboard. You set the region in Business Central on the **My Settings**  page.
 
-For example, suppose you're using a numeric keyboard that uses a period (.) as the decimal separator key. But you're entering data for a regional language that uses a comma (**,**) for the decimal separator, like French (France). So, you want decimals like "1.23" to be entered as "1,23". In this case, you can go to the **My Settings** page and set the **Region** to the target regional language to **French (France)**. For more information, see [Change Basic Settings](ui-change-basic-settings.md#region).
+For example, suppose you're using a numeric keyboard that uses a period (.) as the <kbd>Decimal Separator</kbd> key. But you're entering data for a regional language that uses a comma (**,**) for the decimal separator, like French (France). So, you want decimals like "1.23" to be entered as "1,23". In this case, you can go to the **My Settings** page and set the **Region** to the target regional language to **French (France)**. For more information, see [Change Basic Settings](ui-change-basic-settings.md#region).
 
 > [!TIP]
-> There may be occasions when you want to use the decimal separator to enter a period (.). For example, suppose you were entering a date range in a filter, like `01/01/2022..04/01/2022`, or anything that requires a period. To accommodate this case, press the 'Alt+Decimal Separator' keys on the numeric keyboard. This key combination switches the decimal separator between outputting a period and the decimal separator as determined by the **Region** setting.
-
-## See related [Microsoft training](/training/modules/explore-modify-info-dynamics-365-business-central/)
+> There may be occasions when you want to use the decimal separator to enter a period (.). For example, suppose you were entering a date range in a filter, like `01/01/2022..04/01/2022`, or anything that requires a period. To accommodate this case, select the <kbd>Alt</kbd>+<kbd>Decimal Separator</kbd> keys on the numeric keyboard. This key combination switches the decimal separator between outputting a period and the decimal separator as determined by the **Region** setting.
 
 ## See also
 

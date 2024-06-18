@@ -1,17 +1,15 @@
 ---
 title: Posting date on value entries
 description: Learn how the Adjust Cost - Item Entries batch job identifies and assigns a posting date to the value entries that the batch job is about to create.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.date: 09/17/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Design Details: Posting Date on Adjustment Value Entry
 

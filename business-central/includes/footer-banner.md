@@ -1,12 +1,10 @@
 ---
-author: edupont04
-
+author: brentholtorf
 ms.topic: include
-ms.date: 08/02/2022
-ms.author: edupont
+ms.date: 11/01/2022
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 [Find free e-learning modules for Business Central here](/training/dynamics365/business-central)
 
-## Help us understand
-
-We want to learn more about how people use the Microsoft [custom Help toolkit](https://github.com/microsoft/dynamics365smb-custom-help). Take the survey (in English) and help us understand: [https://forms.office.com/r/A4cUJgjkD1](https://forms.office.com/r/A4cUJgjkD1).  

@@ -1,19 +1,18 @@
 ---
 title: Posting Documents and Journals
 description: This topic outlines posting actions and the ways you can post documents and journals in the various company ledgers.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 06/24/2021
 ms.search.form: 
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Posting Documents and Journals
+
 Posting represents the accounting action of recording business transactions in the various company ledgers.
 
 Practically every document and journal in [!INCLUDE[prod_short](includes/prod_short.md)] offers a **Posting** group from which you can choose between different posting actions, such as **Post**, **Preview Posting**, **Post and Send**, **Post and Email**.
@@ -29,10 +28,11 @@ The following table describes related tasks, with links to the topics that descr
 | Preview, in a page, the entries that will be created when you post. |[Preview Posting Results](ui-how-preview-post-results.md) |
 | Preview, in a report, the entries that will be created when you post. |[View Test Reports Before Posting](ui-how-view-test-reports-posting.md) |
 
-## See Also
-[Edit Posted Documents](across-edit-posted-document.md)  
-[General Business Functionality](ui-across-business-areas.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## See also
 
+[Edit Posted Documents](across-edit-posted-document.md)  
+[Find Related Entries for Documents](ui-find-entries.md)  
+[General Business Functionality](ui-across-business-areas.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

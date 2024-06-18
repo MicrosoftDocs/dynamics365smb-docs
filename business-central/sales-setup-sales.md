@@ -1,20 +1,19 @@
 ---
-title: Overview of Tasks to Configure Sales Processes
+title: Overview of tasks to configure sales processes
 description: Overview of tasks required to set up rules and values that define your sales policies and processes including general set-up and finance related sales set-up.
-author: SorenGP
-
-
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: trade, sell, configure
 ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
-ms.date: 06/23/2021
-ms.author: edupont
+ms.date: 06/06/2024
+ms.service: dynamics-365-business-central
 
 ---
-# Setting Up Sales
+# Setting up sales
+
 Before you can manage sales processes, you must configure the rules and values that define the company's sales policies.
 
 You must define the general setup on the **Sales & Receivables** page, such as which sales documents are required, how their values are posted, and the type of lines to create by default. This general setup is typically performed once during the initial implementation.
@@ -35,8 +34,7 @@ Finance-related sales setup, such as payment methods and currencies, are covered
 |Define the different incoterms that you offer to customers or that your vendors offer you.|[Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)|
 |Enter information about the different transportation vendors you use, including a link to their package tracking service.|[Set Up Shipping Agents](sales-how-to-set-up-shipping-agents.md)|
 |Specify default reports to be used for different document types.|[Report Selection in Business Central](across-report-selections.md)|
-
-## See related [Microsoft training](/training/paths/trade-get-started-dynamics-365-business-central/)
+|Specify whether users are allowed to post sales invoices, and whether they must post them together with a shipment. |[Define an invoice posting policy for users](admin-setup-invoice-posting-policy.md)|
 
 ## See Also
 [Sales](sales-manage-sales.md)  

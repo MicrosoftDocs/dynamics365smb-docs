@@ -1,84 +1,100 @@
 ---
-title: Move Items Ad Hoc in Basic Warehouse Configs
-description: This topic explains ad hoc movements performed when you need to move items between internal bins without a specific demand from a source document. 
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords:
+title: Move Items Unplanned in Basic Warehouse Configurations
+description: This article explains unplanned internal movements between bins without a demand from a source document. 
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.topic: how-to
+ms.date: 12/16/2022
+ms.custom: bap-template
 ms.search.form: 393, 7382
-ms.date: 06/25/2021
-ms.author: edupont
-
 ---
-# Move Items Ad Hoc in Basic Warehouse Configurations
+# Move Items Internally in Basic Warehouse Configurations
 
-You may occasionally need to move items between internal bins, not receiving or shipping bins, without a specific demand from a source document. You may perform these ad hoc movements, for example, to reorganize the warehouse, to bring items to an inspection area, or to move additional items to and from a production area without a system relation to the production order source document.  
+You might want to move items between bins without a demand from a source document. For example, as part of the following activities:
 
-In basic warehouse configurations, that is locations that use the **Bin Mandatory** setup field and possibly the **Require Pick** and the **Require Put-away** setup fields, you can register ad hoc movements without source documents in the following ways:  
+* Reorganize your warehouse.
+* Bring items to an inspection area.
+* Move extra items to and from a production area. 
 
-- With the **Internal Movement** page.  
-- With the **Item Reclassification Journal** page.  
+How you move items depends on how your warehouse is set up as a location. Learn more at [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
-> [!NOTE]  
->  In advanced warehouse configurations, that is locations that use the **Directed Put-away and Pick** setup field, you use the **Movement Worksheet** page or the **Internal Whse. Pick** or the **Internal Whse. Put-away** pages to move items ad hoc between bins.  
+In warehouse configurations where the **Bin Mandatory** setup toggle is turned on, but not **Directed Pick and Put-away** you can register unplanned movements on the following pages:  
 
-## To move items as an internal movement
+* On the **Internal Movement** page.
+* On the **Item Reclassification Journal** page.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Internal Movement**, and then choose the related link.  
-2.  On the **General** FastTab, fill in the **No.** field, either by leaving the field or by choosing the **AssistEdit** button to select from the number series.  
-3.  In the **Location Code** field, enter the location where the movement takes place.  
+## Internal movements
 
-    If the location is set up as your default location as a warehouse employee, the location code is inserted automatically.  
-4.  In the **To Bin Code** field, enter a code for the bin that you want to move the item to. For production purposes, this could be the open shop floor bin code, for example, as defined on the location card or work center.  
-5.  In the **Due Date** field, enter the date by which the movement must be completed.  
-6.  On the **Lines** FastTab, choose the **Item No.** field to open the **Bin Contents List** page, and then select the item to move based on its availability in bins. Alternatively, choose the **Get Bin Contents** action to fill the internal movement lines based on your filters. For more information, see the tooltip for the **Get Bin Content** action.  
+The **Internal Movements** page lets you specify Take and Place lines when there isn't a demand from a source document. The Internal Movement page is like a worksheet for organizing things. You can't process the actual movement directly from it. When a line is filled in, use the **Create Inventory Movement** action to send the line to the **Inventory Movement** page, which is where you process and register the movement.
 
-    When you have selected the item, the **From Bin Code** field is automatically filled according to the selected bin content, but you can change it to any other bin where the item is available.  
+### To move items as an internal movement
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Internal Movements**, and then choose the related link.  
+2. Choose **New** action. Make sure that the **No.** field on the **General** FastTab is filled in.
+3. In the **Location Code** field, enter the location where the movement takes place.  
+
+    If the location is your default location as a warehouse employee, the location code is added automatically.  
+4. In the **To Bin Code** field, enter the code for the bin that you want to move the items to.
+
+    For example, in production, the bin could be the open shop floor bin defined on the location card or work center.  
+5. In the **Due Date** field, enter the date by which to complete the movement.  
+6. On each line, fill in the fields as necessary. Internal movement documents have one line per movement. The line contains both the take and the place actions.
+7. Choose the **Item No.** field to open the **Bin Contents List** page. Select the item to move based on its availability in bins. You can also choose the **Get Bin Contents** action to fill the internal movement lines based on your filters.  
+
+    After you select the item, the **From Bin Code** field is automatically filled in according to the selected bin content. You can choose any bin where the item is available. The **Item No.** and **From Bin Code** fields are related. Changing the value in one field might change the value in the other.  
+
+    The **To Bin Code** field is filled in with the value you entered on the header. You can change it on the line to any other bin code that isn’t blocked or dedicated for special purposes. Learn more at [The Dedicated field](warehouse-how-to-create-individual-bins.md#the-dedicated-field).  
+
+8. After you define which bins you want to move the items from and to, enter the quantity to move in the **Quantity** field.  
 
     > [!NOTE]  
-    >  Because the **Item No.** field and the **From Bin Code** field are connected, their values may change interdependently when you edit either field.  
+    > The quantity must be available in the bin specified in the **From Bin Code** field.  
 
-    The **To Bin Code** field is filled with the value you entered on the header, but you can change it on the line to any other bin code that isn’t blocked or dedicated to special purposes. For more information about making bins dedicated, see Dedicated.  
-7.  When you have defined which bins you want to move the item from and to, enter the quantity to move in the **Quantity** field.  
-
-    > [!NOTE]  
-    >  Quantity must be available in the From Bin code.  
-
-8.  When you are ready to process the internal movement, choose the **Create Inventory Movement** action.  
+9. When you're ready to process the movement, choose the **Create Inventory Movement** action.  
 
     > [!NOTE]  
-    >  When you have created the inventory movement, the internal movement lines are deleted.  
+    >  After you create the movement, the internal movement lines are deleted.  
 
-    You perform the remainder of the ad hoc movement on the **Inventory Movement** page in the same way as you would for a movement based on source documents. For more information, see for example [Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+Perform the rest of the unplanned movement on the **Inventory Movement** page in the same way as you would for a movement based on source documents.
+
+### To record the inventory movement
+
+1. On the **Inventory Movement** page, open the document to record the movement for.  
+2. In the **Bin Code** field on the movement lines, the bin where the items must be picked from is where the item is available. You can change the bin if needed.
+3. Perform the move and enter the information for the moved quantity in the **Qty. to Handle** field. The value on the Take and the Place lines must be the same. Otherwise, you can't register the movement.
+
+    If you must take the items for a line from more than one bin, for example because the full quantity isn't in the bin, use the **Split Line** action on the **Lines** FastTab. The action creates a line for the remaining quantity to handle.  
+4. Choose the **Register Invt. Movement** action.  
+
+The following happens during the posting process:
+
+* Warehouse entries indicate that the quantity is transferred from the take bins to the place bins.
 
 ## To move items with the item reclassification journal
 
-In stead of using warehouse movement documents, you can record the moving of items by reclassifying their bin codes. For more information, see [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).
+Instead of using movement documents, you can record movements by reclassifying bin codes on items. Learn more at [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journal**, and then choose the related link.  
-2.  On each journal line, define the bins from which and to which you want to move items by filling in the **Bin Code** and the **New Bin Code** fields.  
+> [!NOTE]  
+> Movements posted with reclassification journals don't make the movement documents ready to move.  
 
-    1.  To move a bin's entire contents to another bin, choose the **Get Bin Contents** action.  
-    2.  Fill in the filters to find the bin whose contents you would like to move and then choose the **OK** button. The journal lines are filled with the contents of the bin.  
-3.  Fill in the remaining fields on each journal line.   
-4.  Post the reclassification journal.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journal**, and then choose the related link.  
+2. On each journal line, define the bins to move the items from and to by filling in the **Bin Code** and the **New Bin Code** fields.  
 
-    > [!NOTE]  
-    >  Unlike with movement documents, a movement posted with the reclassification journal does not create a warehouse request to perform the physical task.  
+    1. To move a bin's entire contents to another bin, choose the **Get Bin Contents** action.  
+    2. Use the filters to find the bin that contains the items you'd like to move, and then choose **OK**. The journal lines are filled with the contents of the bin.  
+3. Fill in the remaining fields on each journal line.
+4. Post the reclassification journal.  
 
-## See related [Microsoft training](/training/modules/manage-internal-warehouse-processes/)
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## See also
 
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)  
 [Assembly Management](assembly-assemble-items.md)  
-[Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -1,16 +1,15 @@
 ---
 title: Privacy Notices Status in Business Central
 description: An overview of the Privacy Notices Status page in Business Central
-author: javariya
-
-ms.service: dynamics365-business-central
+author: brentholtorf
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords:
 ms.search.form: 1565
 audience: 
-ms.author: a-jaaamir
+ms.author: bholtorf
 ms.date: 07/21/2022
-
+ms.reviewer: bholtorf
 ---
 
 # Privacy Notices Status in [!INCLUDE[prod_long](includes/prod_long.md)]

@@ -2,13 +2,12 @@
 title: Advance Payments and Invoices [CZ]
 description: This section describes Czech local functionality and document types in the Advance payments and invoices feature.
 author: ACMartinKunes
-
-
 ms.topic: conceptual
 ms.search.keywords: Czech, Advance payment, Advance invoices, Payables, Finance, CZ, Cash
 ms.date: 06/24/2021
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-makune
+ms.service: dynamics-365-business-central
 ---
 
 # Advance Payments and Invoices in the Czech Version
@@ -61,7 +60,7 @@ An advance invoice has its own life cycle, which is defined by states:
 - The Advance Invoice mode without a tax document allows VAT to be applied only on the final invoice, provided that its performance meets the conditions of Section 28 of the Value Added Tax Act.
 - The tax document for the released payment can be charged only on the basis of the received document from the creditor, therefore the purchase advance invoice allows the change of the regime with / without VAT also during its processing.
 - Calculation of VAT on advance invoices based on the Value Added Tax Act (§ 37a, § 92).
-- The new module also works with VAT in the payer registration mode in another EU country.
+- The new module also works with VAT in the payer registration mode in another EU country/region.
 
 ## Deduction of Advance
 

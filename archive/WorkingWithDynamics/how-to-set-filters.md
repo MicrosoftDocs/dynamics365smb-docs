@@ -3,7 +3,7 @@
     description: You use filters to display certain accounts, customers, entries, or other records by specifying criteria for fields in a table. Only records that match the criteria are displayed. If you specify criteria for multiple fields, then records must match all criteria to be displayed.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

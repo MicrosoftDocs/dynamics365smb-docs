@@ -1,24 +1,21 @@
 ---
 title: Send Remittance Advice Extension | Microsoft Docs
 description: Describes the Send Remittance Advice extension, which allows emailing and resending remittance advice from the payment journal and vendor ledger entries.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
 ms.date: 07/06/2021
-ms.author: edupont
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Send Remittance Advice
 
 Where remittance advice is used to notify vendors of payments being made, you can now email remittance advice in bulk from the payment journal as well as resend after payments are made from vendor ledger entries by using document sending profiles.
 
 > [!NOTE]
-> This functionality is only supported in Business Central online and on-premises in following countries: United Kingdom, United States, Canada, Australia, New Zealand, and South Africa.  
+> This functionality is only supported in Business Central online and on-premises in following countries/regions: United Kingdom, United States, Canada, Australia, New Zealand, and South Africa.  
 
 You can send remittance advice in two different ways:
 

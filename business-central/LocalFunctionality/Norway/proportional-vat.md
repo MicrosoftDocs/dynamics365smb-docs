@@ -1,18 +1,15 @@
 ---
 title: Proportional VAT [NO]
 description: Norwegian enhancements allow you to calculate VAT when there is both deductible and non-deductible VAT.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 10602, 10697, 10698, 10604
 ms.date: 04/01/2021
-ms.author: edupont
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Proportional VAT in Norway
 [!INCLUDE[prod_short](../../includes/prod_short.md)] allows you to calculate VAT when there is both deductible and non-deductible VAT. Because it is difficult to know where and how an item is used, you will have to contact the Norwegian tax authorities to determine whether a specified percentage of the VAT is deductible based on historical data.  

@@ -1,17 +1,14 @@
 ---
 title: SEPA Direct Debit in Business Central
 description: With your customer's consent, you can collect payments directly from the customer's bank account according to the SEPA format.
-author: SorenGP
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: how-to
 ms.search.form: 371, 423, 424, 427, 1208, 1207, 1230
-ms.date: 06/16/2021
-ms.author: edupont
-
+ms.date: 02/20/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Collect Payments with SEPA Direct Debit
 
@@ -47,7 +44,7 @@ Before you can process customer payments electronically by exporting direct debi
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2. Open the bank account that you want to use for direct debit.  
-3. On the **Transfer** FastTab, in the **SEPA Direct Debit Export Format** field, choose the option for SEPA direct debit.  
+3. On the **General** FastTab, in the **SEPA Direct Debit Export Format** field, choose the option for SEPA direct debit.  
 
 ### To set up the customer's payment method for SEPA direct debit
 

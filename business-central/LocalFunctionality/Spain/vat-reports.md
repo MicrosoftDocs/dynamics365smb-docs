@@ -1,20 +1,14 @@
 ---
-    title: VAT Reports [ES]
-    description: VAT is charged on transactions involving goods and services in Spain or goods imported into Spain. The following provides details about VAT functionality.
-
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/21/2021
-    ms.author: edupont
-
+title: VAT Reports [ES]
+description: VAT is charged on transactions involving goods and services in Spain or goods imported into Spain. The following provides details about VAT functionality.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/21/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # VAT Reports in the Spanish Version
 VAT is charged on transactions that involve goods and services in Spain or goods imported into Spain. The following information provides more details about VAT functionality.  
@@ -43,7 +37,7 @@ There are two report template types in the **VAT Statement Name** table:
 
 ### VAT-VIES Declaration
 
-You can report VAT on sales to other countries in the European Union (EU). For more information, see [Report VAT to Tax Authorities](../../finance-how-report-vat.md).  
+You can report VAT on sales to other countries/regions in the European Union (EU). For more information, see [Report VAT to Tax Authorities](../../finance-how-report-vat.md).  
 
 [!INCLUDE [finance-ecsaleslist](../../includes/finance-ecsaleslist.md)]
 

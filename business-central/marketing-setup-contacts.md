@@ -1,17 +1,15 @@
 ---
 title: Set Up Information for Contacts| Microsoft Docs
 description: Outlines the tasks to specify information and codes, for example, about industry groups and business relationships, before you set up contacts.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Contacts
 When creating contacts, you can enter specific information, such as the industry that the contact belong to and your business relationship with the contacts.

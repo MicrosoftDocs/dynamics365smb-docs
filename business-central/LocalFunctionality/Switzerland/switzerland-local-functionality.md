@@ -1,24 +1,21 @@
 ---
-    title: Switzerland Local Functionality
-    description: The following topics describe all of the local functionality that is unique to the Swiss version of Business Central.
-    author: sorenfriisalexandersen
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.search.form: 35561, 35562, 35563, 3010541, 3010542, 3010543
-    ms.date: 06/21/2021
-    ms.author: soalex
-
+title: Switzerland local functionality
+description: The following articles describe all of the local functionality that is unique to the Swiss version of Business Central.
+author: sorenfriisalexandersen
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.search.form: 35561, 35562, 35563, 3010541, 3010542, 3010543
+ms.date: 02/09/2024
+ms.author: soalex
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Switzerland Local Functionality
+# Switzerland local functionality
 
-The following topics describe local functionality that is unique to the Swiss version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following articles describe local functionality that is unique to the Swiss version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Feature Availability
+## Feature availability
 
 * VAT
     * [Create and print a Swiss VAT Statement](how-to-create-and-print-a-swiss-vat-statement.md) **Available Now**
@@ -65,7 +62,11 @@ The following topics describe local functionality that is unique to the Swiss ve
     * [Import Swiss Post Codes](how-to-import-swiss-post-codes.md) **Available Now**
     * [Swiss Purchase Documents and Sales Orders](swiss-purchase-documents-and-sales-documents.md) **Available Now**
 
-## See Also
+## Future legislation requirements being investigated
+
+There are currently no planned regulatory features. If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
+## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

@@ -1,23 +1,23 @@
 ---
-    title: GST on Advance Payment made to Vendor, with reverse charge
-    description: GST on Advance Payment made to Vendor, with reverse charge
+title: GST on Advance Payment made to Vendor, with reverse charge
+description: GST on Advance Payment made to Vendor, with reverse charge
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # GST on Advance Payment Made to Vendor, with Reverse Charge
 
 
-The tax needs to be paid if supplier gets the payment first, therefore we need to calculate GST at the time of advance payment made to the vendor. However, when ‘supplier of goods’ receives advance payment, he is not required to pay GST at the time of the receipt of advance payment, while GST is required to be paid in case of supply of services.
+The tax needs to be paid if supplier gets the payment first, therefore we need to calculate GST at the time of advance payment made to the vendor. However, when ‘supplier of goods’ receives advance payment, they aren't required to pay GST at the time of the receipt of advance payment, while GST is required to be paid in case of supply of services.
 
 The process of GST calculation on advance payment to vendor has been explained in this document.
 

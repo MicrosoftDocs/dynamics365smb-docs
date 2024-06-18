@@ -1,22 +1,19 @@
 ---
-    title: Field Mapping When Importing SEPA CAMT Files | Microsoft Docs
-    description: In European markets, you can import bank statement files in the regional SEPA standards (Single Euro Payments Area).
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
-
+title: Field Mapping When Importing SEPA CAMT Files | Microsoft Docs
+description: In European markets, you can import bank statement files in the regional SEPA standards (Single Euro Payments Area).
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.topic: conceptual
+ms.date: 01/06/2023
+ms.custom: bap-template
 ---
 # Field Mapping When Importing SEPA CAMT Files
+
 [!INCLUDE[prod_short](includes/prod_short.md)] supports the regional SEPA standards (Single Euro Payments Area) for importing SEPA bank statements (CAMT format). For more information, see [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).  
 
- The SEPA CAMT standard itself has local variations. Therefore, you may have to modify the generic data exchange definition (represented by the **SEPA CAMT** code on the **Posting Exchange Definitions** page) to adapt it to a local variation of the standard. The following tables show the element-to-field mapping for tables 81, 273, and 274 in the SEPA CAMT implementation in [!INCLUDE[prod_short](includes/prod_short.md)].  
+ The SEPA CAMT standard itself has local variations. Therefore, you may have to modify the generic data exchange definition (represented by the **SEPA CAMT** code on the **Data Exchange Definitions** page) to adapt it to a local variation of the standard. The following tables show the element-to-field mapping for tables 81, 273, and 274 in the SEPA CAMT implementation in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  For information about creating or adjusting a data exchange definition, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -59,9 +56,10 @@
 > In an import of CAMT bank statements, [!INCLUDE[prod_short](includes/prod_short.md)] expects each transaction to be unique, which means that the **Transaction ID** field that comes from the *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* tag in the CAMT file, must be unique within the open bank account reconciliation. If the information is not present, [!INCLUDE[prod_short](includes/prod_short.md)] ignores the payment. If an earlier bank reconciliation on the same bank account was posted with the same transaction ID as on the current import, the current transaction will not automatically reconcile but can still be imported.
 
 ## See Also  
+
 [Setting Up Data Exchange](across-set-up-data-exchange.md)  
 [Exchanging Data Electronically](across-data-exchange.md)  
-[Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)   
+[Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md)  
 [Use XML Schemas to Prepare Data Exchange Definitions](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md)  
 

@@ -3,7 +3,7 @@
     description: If you are trying to upload a large image file that is larger than 30 MB, such as a high-resolution photo, [!INCLUDE[d365fin](includes/d365fin_md.md)] will give you an error message that says that the file that you are trying to upload is too large. This behavior can be changed by modifying the IIS configuration to support large file uploads.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

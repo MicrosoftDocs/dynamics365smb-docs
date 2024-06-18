@@ -3,7 +3,7 @@
     description: Errors for background posting are easy to determine. [!INCLUDE[d365fin](includes/d365fin_md.md)] provides several options for you to access this information.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

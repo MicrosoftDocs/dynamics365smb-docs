@@ -1,19 +1,18 @@
 ---
-    title: Setup Best Practices - Planning Parameters
-    description: This topic outlines best practices on how to set up selected planning parameter fields with the Planning FastTab on the item card.
-    author: SorenGP
+title: Setup Best Practices - Planning Parameters
+description: This topic outlines best practices on how to set up selected planning parameter fields with the Planning FastTab on the item card.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/23/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/23/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Setup Best Practices: Planning Parameters
+
 The **Planning** FastTab on the item card is the center of a company’s supply chain. Setting the correct planning parameters is very important for cost-effective inventory control and high customer service.  
 
  The following table provides best practices on how to set up selected planning parameter fields. For more information about a field, choose the link in the **Setup field** column.  
@@ -32,16 +31,16 @@ The **Planning** FastTab on the item card is the center of a company’s supply 
 |Rounding Precision|In expensive manufacturing, set to 0.00001.|Large rounding quantities of scrap or material consumption can amount to very large inventory costs. It may therefore be relevant to set the smallest rounding precision to minimize this potential cost.|  
 
 > [!NOTE]  
->  The best practices for planning parameters on item cards also apply to the same fields on SKU cards.  
->   
->  If companies plan for demand at different locations, then it is strongly advised to define SKUs for each location and that all demand is created by using a value in the **Location Code** field. For more information, see [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md).  
+> The best practices for planning parameters on item cards also apply to the same fields on SKU cards.  
+>
+> If companies plan for demand at different locations, then it is strongly advised to define SKUs for each location and that all demand is created by using a value in the **Location Code** field. Learn more at [Design Details: Planning With or Without Locations](production-planning-with-without-locations.md).  
 
 ## See Also  
- [Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)   
- [Design Details: Supply Planning](design-details-supply-planning.md)   
- [Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
- [Design Details: Demand at Blank Location](design-details-demand-at-blank-location.md)  
- [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Setup Best Practices: Supply Planning](setup-best-practices-supply-planning.md)  
+[Design Details: Supply Planning](design-details-supply-planning.md)  
+[Set Up Complex Application Areas Using Best Practices](set-up-complex-application-areas-using-best-practices.md)  
+[Design Details: Planning With or Without Locations](production-planning-with-without-locations.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

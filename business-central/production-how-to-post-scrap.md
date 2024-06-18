@@ -1,17 +1,15 @@
 ---
 title: Post Scrap Manually
 description: If scrap is produced during processing, it can be entered in the output journal. Note that the scrap quantity does not increase the output quantity.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 99000823
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 03/08/2023
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Post Scrap Manually
 
@@ -27,6 +25,8 @@ If scrap is produced during processing, it can be entered in the output journal.
 3. In the **Scrapped Quantity** field, enter the scrap quantity.  
 4. In the **Scrap Code** field, enter the scrap code.  
 5. Choose the **Post** action to post the specified scrap per operation.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
 ## See Also
 

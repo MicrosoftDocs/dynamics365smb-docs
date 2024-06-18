@@ -8,6 +8,8 @@ ms.search.keywords: administration, admin, key, optional, feature management, ea
 ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Enabling New and Upcoming Features Ahead of Time
@@ -17,8 +19,6 @@ Some new features can be enabled ahead of time, letting you take advantage of th
 When Microsoft releases features or feature design improvements as part of minor updates, some of the features aren't immediately enabled. Administrators can enable each feature from the **Feature Management** page. After a feature is enabled, it becomes available for all users on that environment no matter how they access [!INCLUDE[prod_short](includes/prod_short.md)]. Features can be safely turned off again. These features are only optional for a while.
 
 Learn more about [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).  
-
-## See related [Microsoft training](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## See also
 

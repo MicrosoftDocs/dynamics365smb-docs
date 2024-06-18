@@ -1,18 +1,15 @@
 ---
-    title: Set Up PAC Web Services
-    description: Before you can send invoices and credit memos electronically, you must specify one or more providers of the electronic stamp that must be included in invoices in Mexico.
-    author: edupont04
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.search.form: 10455, 10456
-    ms.date: 02/16/2022
-    ms.author: edupont
-
+title: Set Up PAC Web Services
+description: Before you can send invoices and credit memos electronically, you must specify one or more providers of the electronic stamp that must be included in invoices in Mexico.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.search.form: 10455, 10456
+ms.date: 02/16/2022
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up PAC Web Services
 Before you can send invoices and credit memos electronically, you must specify one or more providers of the electronic stamp that must be included in invoices in Mexico.  
@@ -28,7 +25,7 @@ Before you can set up the web services, you must upload two certificates:
 * A PAC .pfx file
 * A SAT .pfx file
 
-These certificates are used by the communication component and configured in the **General Ledger Setup** page. For more information, see [To set up general ledger information](how-to-set-up-electronic-invoicing.md#to-set-up-general-ledger-information).  
+These certificates are used by the communication component and configured in the **General Ledger Setup** page. For more information, see [To set up general ledger information](how-to-set-up-electronic-invoicing.md#set-up-general-ledger-information).  
 
 ## To add the certificates
 

@@ -3,22 +3,21 @@ title: Making Tax Digital - Submitting VAT Returns
 description: Business Central includes features to manage your VAT and comply with Making Tax Digital. This article describes how to set up and use these features.
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: making tax digital, vat, vat return, submit vat, making tax digital software, hmrc, tax
 ms.search.form: 743, 10530, 10531, 10532, 10537, 10538, 10539, 
-ms.date: 02/16/2022
-ms.author: soalex
-
+ms.date: 09/28/2023
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Making Tax Digital in the United Kingdom
 
-Her Majesty's Revenue and Customs (HMRC) has implemented the first steps of *Making Tax Digital*, which imposes new requirements on VAT registered businesses above the VAT threshold. [!INCLUDE [prod_short](../../includes/prod_short.md)] supports the first rounds of *Making Tax Digital*, which took effect in April 2019:
+His Majesty's Revenue and Customs (HMRC) has implemented the first steps of *Making Tax Digital*, which imposes new requirements on VAT registered businesses above the VAT threshold. [!INCLUDE [prod_short](../../includes/prod_short.md)] supports the first rounds of *Making Tax Digital*, which took effect in April 2019:
 
 * Keeping records digitally
 
-  Businesses must now keep all their records digitally. For users of finance systems, such as [!INCLUDE [prod_short](../../includes/prod_short.md)], this requirement will not have any impact since they already keep their records digitally in these systems.  
+  Businesses must now keep all their records digitally. For users of finance systems, such as [!INCLUDE [prod_short](../../includes/prod_short.md)], this requirement is already met because they already keep their records digitally.  
 * Submit VAT return electronically using [software recognized by HMRC](https://www.gov.uk/guidance/software-for-sending-income-tax-updates).  
 
 Since 2021, the electronic statements must also include information that helps prevent fraud. For more information, see [Send Fraud Prevention Data](fraud-prevention-data.md).  
@@ -27,7 +26,7 @@ Since 2021, the electronic statements must also include information that helps p
 
 ## Making Tax Digital for VAT capabilities in Dynamics 365 Business Central
 
-In [!INCLUDE[prod_short](../../includes/prod_short.md)] you can use the VAT Return report for creating VAT reports. The Making Tax Digital VAT features extend this capability to communicate with HMRC. For example, the Making Tax Digital VAT extension lets you:
+In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can use the VAT Return report for creating VAT reports. The Making Tax Digital VAT features extend this capability to communicate with HMRC. For example, the Making Tax Digital VAT extension lets you:
 
 * Retrieve VAT obligations from HMRC
 * Get reminded about VAT obligations that are approaching or already past due
@@ -41,18 +40,14 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)] you can use the VAT Retu
 The *Making Tax Digital* integration uses a service connection to communicate with HMRC. To make it easy to establish communications, [!INCLUDE[prod_short](../../includes/prod_short.md)] provides the **HMRC VAT Setup** service connection, which contains most of the information needed to communicate with HMRC. To finish the connection, you must give the **Dynamics 365 Business Central MTD VAT** application the authority to interact with HMRC on your behalf. Microsoft manages the **Dynamics 365 Business Central MTD VAT** application on the HMRC web site, and the application is a requirement for the connection. You give permission by requesting an authorization code from HMRC, and then copying the code to the service connection. The following steps describe how to set up the service connection.  
   
 > [!NOTE]
-> If you are using [!INCLUDE [prod_short](../../includes/prod_short.md)] on-premises, there are some additional steps to set up the features for Making Tax Digital. In [!INCLUDE [prod_short](../../includes/prod_short.md)] online, these happen automatically. For more information, see the [Additional Setup Requirements for On-Premises Versions](#additional-setup-requirements-for-on-premises-versions) section.
+> The following procedure describes the steps to set up Making Tax Digital in [!INCLUDE [prod_short](../../includes/prod_short.md)] online. If you're using [!INCLUDE [prod_short](../../includes/prod_short.md)] on-premises, there are some additional steps. For more information, see the [Setup requirements for on-premises versions](#setup-requirements-for-on-premises-versions) section before you start to set up the service connection.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Connections**, and then choose the related link.  
 2. On the **Service Connections** page, choose **HMRC VAT Setup**.
-
-    > [!NOTE]
-    > If you use [!INCLUDE[prod_short](../../includes/prod_short.md)] on-premises, you must also provide a client ID and client secret. If you are not sure what these are, contact your partner.  
-
 3. To open a GOV.UK website and request an authorization code, choose **Process**, then **Request Authorization Code**, and then choose **Continue**.  
 4. Sign in with your HMRC credentials. To allow the **Dynamics 365 Business Central MTD VAT** application to interact with HMRC on your behalf, choose **Grant authority**.
 5. A confirmation page displays "Authorization granted" and an authorization code. To copy the authorization code, choose **Copy**.
-6. Return to the service connection you are setting up, and paste the authorization code in the **Enter Authorization Code** field. Then choose **Enter**. Note, that the authorization code is valid for 10 minutes and must be entered into [!INCLUDE[prod_short](../../includes/prod_short.md)] before expiry in order to set up the connection correctly.
+6. Return to the service connection you are setting up, and paste the authorization code in the **Enter Authorization Code** field. Then choose **Enter**. Note that the authorization code is valid for 10 minutes. To set up the connection, you must enter the code in [!INCLUDE[prod_short](../../includes/prod_short.md)] before it expires.
 
     > [!NOTE]
     > [!INCLUDE[prod_short](../../includes/prod_short.md)] will use the authorization code to test whether the service connection can communicate with HMRC. If the connection is successful, a confirmation page prompts you to verify your VAT registration number. To open the **Company Information** page and verify the number is correct, and the one you have used to register with HMRC, choose **Yes**.
@@ -62,7 +57,7 @@ You must also fill in the fields on the **VAT Report Setup** page. [!INCLUDE [to
 > [!IMPORTANT]
 > Starting in March 2022, the **User IP Address Service** must specify an endpoint for the service that your company uses to extract and submit the IP address of the user who sends the VAT report. For more information, see [IP addresses](fraud-prevention-data.md#ip-addresses).
 
-### Additional setup requirements for on-premises versions
+### Setup requirements for on-premises versions
 
 1. You must add a VAT report configuration on the **VAT Reports Configuration** page.  
   
@@ -82,6 +77,12 @@ You must also fill in the fields on the **VAT Report Setup** page. [!INCLUDE [to
     d. In the **Receive Submitted Return Codeunit ID** field, choose codeunit **10536**.  
     e. Optional: If you want to automatically update the information about VAT obligations, specify how often to do so in the **Update Period Job Frequency** field, and then specify codeunit **10535** in the **Auto Receive Codeunit ID** field.  
     f. Fill in the remaining fields as necessary. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
+
+3. Create an application registration for Business Central in Azure portal. For more information, see [Registering Business Central On-Premises in Microsoft Entra ID for Integrating with Other Services](/dynamics365/business-central/dev-itpro/administration/register-app-azure). When you set up the service connection in [!INCLUDE [prod_short](../../includes/prod_short.md)], you'll need the following information from the registration:
+
+    * Client ID
+    * Client Secret
+    * Redirect URL
 
 ## VAT obligations
 
@@ -103,7 +104,7 @@ The VAT obligations are now retrieved from HMRC and you can view them on the **V
 
 ## VAT Returns
 
-Use this report to submit VAT for sales and purchase documents, such as purchase and sales orders, invoices, and credit memos.
+Use this report to submit VAT for sales and purchase documents. For example, purchase and sales orders, invoices, and credit memos.
 
 ### To create and submit a VAT return
 
@@ -124,6 +125,20 @@ A successful submission of the VAT Return will result in a status of *Accepted* 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
 2. On the **VAT Return Periods** page, choose the relevant VAT return period.
 3. On the **VAT Return Period Card** page, choose the **Receive Submitted VAT Returns** action.
+
+### VAT Return Statuses
+
+Dependding on where they are in the process, VAT returns can have one of the following statuses:
+
+| Status | Description |
+|------------|-------------------------|
+| Open | When you create a new **VAT Return**. This status lets you run the **Suggest Lines** action. If you need to correct values, run the **Suggest Lines** action again. You can't submit a **VAT Return** with this status. |
+| Released | Status will be changed when you manually run the **Release** action. The **Errors and Warnings** FastTab is available. You can't make changes or run the **Suggest Lines** action. To make changes, you must reopen this **VAT Return**. |
+| Rejected | If your submission was not successful (for example, if authentication failed), the **VAT Return** status will be changed to **Rejected**. You Can't reopen the **VAT Return** from this status. |
+| Submitted | **VAT Return** is submitted using the **Submit** action or it is marked as submitted using the **Mark as Submitted** action. |
+| Accepted | **VAT Return** will get this status if the report is marked with the **Mark as Accepted** action. The **Accepted** status can be assigned automatically after user sends the VAT Return to the tax authority (Business Central calls the **Get VAT Returns** method and checks whether the VAT return is in the response). If the **VAT Return** report is marked as **Accepted**, you can run the **Calculate and Post VAT Settlement** action. |
+| Partially Accepted | Business Central can assign the **Partially Accepted** status related to GovTalk information that was collected using the **Get VAT Returns** method.
+| Closed | When request called Get VAT obligations check whether the obligation for which the user created the VAT return is closed. Business Central automatically marks the **VAT Return** as **Closed**. |
 
 ## VAT liabilities and payments
 
@@ -151,10 +166,10 @@ This integration to HMRC and support of Making Tax Digital for VAT does not incl
 
 * Group VAT scenarios
 
-  If your [!INCLUDE[prod_short](../../includes/prod_short.md)] submits VAT on behalf of a group of companies that share a VAT registration number (Group VAT), there is no built in mechanism for retrieving VAT entries from other companies in the group. There are currently no plans to support Group VAT, and we refer to Microsoft partners to add this functionality.
+  If you submit VAT on behalf of a group of companies that share a VAT registration number (Group VAT), there isn't a built-in way to retrieve VAT entries from companies in the group. There are currently no plans to support Group VAT, and we refer to Microsoft partners to add this functionality.
 * Agent services
 
-  Agents can submit VAT returns on behalf of their customers and HMRC has solutions for that. This is currently not supported by [!INCLUDE[prod_short](../../includes/prod_short.md)].
+  Agents can submit VAT returns on behalf of their customers, and HMRC has agent services. [!INCLUDE[prod_short](../../includes/prod_short.md)] does not support agent services.
 
 ## Connection errors with HMRC
 
@@ -164,7 +179,7 @@ If you experience "The operation has timed out" errors on an on-premises install
 
 Due to a limitation at HMRC, it is not possible to send test submissions of VAT Returns and test the integration in non-production scenarios. You can only send real VAT returns.  
 
-Certain online documentation at HMRC refers to the term *Sandbox*. This term refers to an environment for software developers such as Microsoft and others for testing their features during development. This environment is not intended for customer testing, and it is unrelated to [!INCLUDE[prod_short](../../includes/prod_short.md)] sandboxes.
+Some online documentation at HMRC uses the term *Sandbox*. A sandbox is an environment that software developers, such as Microsoft and others, can use to test features during development. This environment is not intended for customer testing, and it isn't related to [!INCLUDE[prod_short](../../includes/prod_short.md)] sandboxes.
 
 ## See also
 

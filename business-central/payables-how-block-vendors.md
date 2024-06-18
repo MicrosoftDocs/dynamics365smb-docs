@@ -1,19 +1,15 @@
 ---
 title: Block Vendors
 description: Read about how to block vendors from being included in any transactions, or just how to block new payments to them.
-
 author: brentholtorf
-
-
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 27
 ms.date: 06/22/2021
 ms.author: bholtorf
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Block Vendors
 You can block a vendor, for example because of insolvency, so that the vendor cannot be added to purchase documents or so that no payments can be posted for the vendor.

@@ -1,18 +1,14 @@
 ---
-    title: Netherlands Local Functionality [NL]
-    description: The following topics describe the various local functionality in the Dutch version of Business Central.
-
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: edupont
-
+title: Netherlands Local Functionality [NL]
+description: The following topics describe the various local functionality in the Dutch version of Business Central.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/18/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Netherlands Local Functionality
 
@@ -58,6 +54,10 @@ The following topics describe local functionality that is unique to the Dutch ve
     * [Dutch Postal Codes](dutch-post-codes.md) **Available Now**
     * [Import Postal Codes](how-to-import-post-codes.md) **Available Now**
     * [Import Postal Code Updates](how-to-import-post-code-updates.md) **Available Now**  
+
+## Future legislation requirements being investigated
+
+Currently, there are no upcoming regulatory features or requirements. If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See Also
 

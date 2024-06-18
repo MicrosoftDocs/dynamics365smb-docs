@@ -1,17 +1,14 @@
 ---
-    title: Scenario 3 - Foreign Payment (LCY to FCY) [NL]
-    description: This topic describes a scenario where you can use telebanking for trade with domestic and foreign customers and vendors.
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/25/2021
-    ms.author: edupont
-
+title: Scenario 3 - Foreign Payment (LCY to FCY) [NL]
+description: This topic describes a scenario where you can use telebanking for trade with domestic and foreign customers and vendors.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/25/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Payment Scenario 3 - Foreign Payment (LCY  to FCY) in the Dutch Version
 You can use telebanking for trade with domestic and foreign customers and vendors. This topic describes a scenario where the trade is with foreign customers and vendors that use a different currency than your local currency.  
@@ -38,7 +35,7 @@ You can use telebanking for trade with domestic and foreign customers and vendor
 >  In order to be able to enter a bank account in the **Bank Account** vendor/customer bank accounts must be available. See below.  
 
 ### Example  
-Hernandez Ortiz (code **ORTIZ**) is one of our Mexican vendors. Purchase invoices will be paid through our national bank account (code **ABN**) to his bank account (code **HOBA**). While our bank account ABN is denominated in local currency (LCY), Hernandez Ortiz's bank account HOBA is denominated in Mexican peso (MXN). Therefore, on Hernandez Ortiz's vendor card, we set the **Currency Code** field to **MXN**, fill the **Transaction Mode** field with **ABN** that is linked to our bank account, ABN, and set the **Bank Account** field to **HOBA**.  
+Hernandez Ortiz (code **ORTIZ**) is one of our Mexican vendors. Purchase invoices will be paid through our national bank account (code **ABN**) to their bank account (code **HOBA**). While our bank account ABN is denominated in local currency (LCY), Hernandez Ortiz's bank account HOBA is denominated in Mexican peso (MXN). Therefore, on Hernandez Ortiz's vendor card, we set the **Currency Code** field to **MXN**, fill the **Transaction Mode** field with **ABN** that is linked to our bank account, ABN, and set the **Bank Account** field to **HOBA**.  
 
 ## Create Vendor/Customer Bank Account  
 Create vendor/customer bank account and enter all necessary information. Special attention should be paid to the following fields:  

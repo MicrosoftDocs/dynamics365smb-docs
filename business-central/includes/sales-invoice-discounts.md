@@ -1,23 +1,28 @@
 ---
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 10/05/2022
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-When all the items have been entered as lines, you can calculate the invoice discount for the entire sales document by choosing the **Calculate Invoice Discount** action.
+After you've added all the items on lines you can calculate the invoice discount for the entire sales document by choosing the **Calculate Invoice Discount** action.
 
-The discount is calculated based on all the lines in the sales document for items where the **Allow Invoice Disc.** field on the sales order line contains **Yes**. This is the default setting for items. Lines with item charges, for example, are not included in the calculation of the invoice discount. If you want to apply a discount to such lines, you must set the **Line Discount %** field on the relevant lines.  
+The discount is calculated based on all lines on the sales document where the **Allow Invoice Disc.** checkbox is chosen. By default, invoice discounts are allowed. However, lines with item charges, for example, are not included in the calculation of the invoice discount. To apply a discount to such lines, enter a value in the **Line Discount Amount** field on the lines.  
+
+> [!NOTE]
+> By default, the **Allow Invoice Disc.** and **Line Discount Amount** fields are hidden on lines. If the fields aren't available, you can add them by personalizing the page. For more information, see [Personalize Your Workspace](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 > [!TIP]
-> If the **Calc. Inv. Discount** field is selected in the **Sales and Receivables Setup** page, then the invoice discount is calculated automatically when you do either of the following on a sales document:
+> If the **Calc. Inv. Discount** field is selected in the **Sales & Receivables Setup** page, the invoice discount is calculated automatically. When the calculation happens differs, depending on the type of sales document you're using.
+>
+> If you're using a sales order, the discount is calculated when you add a line. For all other sales documents, such as sales invoices, the discount is calculated when you do any of the following actions:
 >
 > * View statistics
 > * View a test report
 > * Print
 > * Post
 
-The invoice discount terms for a customer are defined in the **Cust. Invoice Discounts** page for the customer. The currency code on the sales document is used to find the invoice discount terms in the corresponding currency.
+You define invoice discount terms for a customer on the **Cust. Invoice Discounts** page. The currency code on the sales document is used to find the invoice discount terms in the corresponding currency.
 
-If invoice discounts have not been defined for foreign currencies, then the invoice discount terms defined in the **Cust. Invoice Discounts** page with amounts in your local currency and the exchange rate on the posting date on the sales document are used to calculate the invoice discount in the foreign currency.
+If you haven't defined invoice discounts for foreign currencies, the discount terms on the **Cust. Invoice Discounts** page are used to calculate the discount. The calculation uses your local currency and the exchange rate that was valid on the document's posting date.

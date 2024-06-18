@@ -1,18 +1,16 @@
 ---
 title: Reconcile Inventory Costs with the General Ledger
 description: At the end of accounting periods a sequence of cost control and auditing tasks must be performed to report a correct and balanced inventory value. 
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: warehouse, stock
 ms.search.form: 9297
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Reconcile Inventory Costs with the General Ledger
 

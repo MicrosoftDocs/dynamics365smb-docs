@@ -1,17 +1,15 @@
 ---
-    title: Selling, Assembling, and Shipping Kits
-    description: To support just-in-time inventory, assembly orders can be automatically created and linked as soon as the sales order line is created. 
-    author: SorenGP
+title: Selling, Assembling, and Shipping Kits
+description: To support just-in-time inventory, assembly orders can be automatically created and linked as soon as the sales order line is created. 
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/24/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/24/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Walkthrough: Selling, Assembling, and Shipping Kits
 
@@ -115,29 +113,29 @@ Remove the default lead time for internal processes by following these steps:
 
 ## Story
 
-On January 23, Susan, the sales order processor takes an order from The Device Shop for three units of Kit B, which is an ATO item. All three units are customized and must contain the strong graphics card and an extra RAM block. The disc drives are upgraded to DWD because the CD drives are unavailable. Susan knows that the units can be assembled immediately, so she leaves the suggested shipment date of January 23.  
+On January 23, Susan, the sales order processor takes an order from The Device Shop for three units of Kit B, which is an ATO item. All three units are customized and must contain the strong graphics card and an extra RAM block. The disc drives are upgraded to DWD because the CD drives are unavailable. Susan knows that the units can be assembled immediately, and leaves the suggested shipment date of January 23.  
 
-At the same time, the customer orders fifteen units of Kit A with a special request that five units be customized to contain the strong graphics card. Although Kit A is typically an assemble-to-stock item, the order processor combines the sales line quantities to sell ten units from stock and assemble five customized units to the order. The ten units of Kit A are unavailable and must first be supplied to inventory by an assembly order according to the item's assembly policy. Susan learns from the assembly department that Kit A units cannot be completed in the current week. She sets the shipment date of the second sales order line, for the mixed ATO and inventory quantity, to January 27 and informs the customer that the 15 units of Kit A will be shipped four days later than the three units of Kit B. To signal to the shipping department that this sales order requires assembly processing, Susan creates the warehouse shipment document from the sales order.  
+At the same time, the customer orders fifteen units of Kit A with a special request that five units be customized to contain the strong graphics card. Although Kit A is typically an assemble-to-stock item, the order processor combines the sales line quantities to sell ten units from stock and assemble five customized units to the order. The ten units of Kit A are unavailable and must first be supplied to inventory by an assembly order according to the item's assembly policy. Susan learns from the assembly department that Kit A units cannot be completed in the current week. Susan sets the shipment date of the second sales order line, for the mixed ATO and inventory quantity, to January 27 and informs the customer that the 15 units of Kit A will be shipped four days later than the three units of Kit B. To signal to the shipping department that this sales order requires assembly processing, Susan creates the warehouse shipment document from the sales order.  
 
 Eduardo, the planner, runs the planning worksheet and generates an assembly order for ten standard units of Kit A with an internal due date of January 27.  
 
-Sammy, who is responsible for shipping, gets three warehouse shipment lines for the sales order: One line for the three pure ATO units, one line for the five ATO units on the mixed sales order line, and one line for the ten ATS units on the mixed sale order line. He creates a warehouse pick document for all the assembly components that are needed to assemble the total of eight ATO units on the warehouse shipment document.  
+Sammy, who is responsible for shipping, gets three warehouse shipment lines for the sales order: One line for the three pure ATO units, one line for the five ATO units on the mixed sales order line, and one line for the ten ATS units on the mixed sale order line. Sammy creates a warehouse pick document for all the assembly components that are needed to assemble the total of eight ATO units on the warehouse shipment document.  
 
-John, the picker, retrieves components for all the ATO quantities on the warehouse shipment document and brings them to the assembly area. He enters the quantity to handle and registers the warehouse pick.  
+John, the picker, retrieves components for all the ATO quantities on the warehouse shipment document and brings them to the assembly area. John enters the quantity to handle and registers the warehouse pick.  
 
-Linda assembles the three ATO units of Kit B. The components are already picked, and she does not record output and consumption quantities or post the order, because both of these actions are performed automatically through the related warehouse shipment lines.  
+Linda assembles the three ATO units of Kit B. The components are already picked, and Linda does not record output and consumption quantities or post the order, because both of these actions are performed automatically through the related warehouse shipment lines.  
 
 Sammy records the assembled quantity on the warehouse shipment line and posts the shipment of the three units of Kit B. The first line on the sales order is updated as shipped. The linked assembly order remains open until the sales order is fully invoiced. The two warehouse shipment lines, one ATO and one ATS, for Kit A with due dates on January 27 remain open.  
 
-On January 27, Linda processes two assembly orders for Kit A. The first order is the ATO order for five units, which she processes differently than the ATO order for Kit B that she processed on January 23. On this order, she is authorized to access the warehouse shipment line herself to record the completed assembly work. The needed components are ready in the assembly department, as they were picked together with components for Kit B.  
+On January 27, Linda processes two assembly orders for Kit A. The first order is the ATO order for five units, which Linda processes differently than the ATO order for Kit B processed on January 23. On this order, Linda is authorized to access the warehouse shipment line herself to record the completed assembly work. The needed components are ready in the assembly department, as they were picked together with components for Kit B.  
 
-The second assembly order is the ATS order for ten units that were created by the planning system. On this ATS order, Linda performs all involved actions from the assembly order. She creates a warehouse pick document for the assembly components that are needed to assemble the ten units. When the PCs are assembled, Linda posts the assembly order and thereby signals that the items are available in inventory and can be picked for shipment.  
+The second assembly order is the ATS order for ten units that were created by the planning system. On this ATS order, Linda performs all involved actions from the assembly order. Linda creates a warehouse pick document for the assembly components that are needed to assemble the ten units. When the PCs are assembled, Linda posts the assembly order and thereby signals that the items are available in inventory and can be picked for shipment.  
 
 Sammy creates a warehouse pick document for any quantities that remain before the warehouse shipment can be posted. A pick document is created for the ten units of Kit A that have just finished. The components needed to assemble the five units of Kit A to order where picked on January 23.  
 
 John brings the ten units of Kit A from the warehouse to the specified shipping area, records the quantity to handle, and then registers the pick.  
 
-Sammy packs the ten ATS units with the five ATO units that Linda assembled earlier in the day. He fills in the quantity to ship on both lines and then posts the last shipment for The Device Shop. The related assembly order for five units of Kit A is automatically posted. The second line on the sales order is updated as shipped. Two linked assembly order remains open until the sales order is invoiced and closed.  
+Sammy packs the ten ATS units with the five ATO units that Linda assembled earlier in the day. Sammy fills in the quantity to ship on both lines and then posts the last shipment for The Device Shop. The related assembly order for five units of Kit A is automatically posted. The second line on the sales order is updated as shipped. Two linked assembly order remains open until the sales order is invoiced and closed.  
 
 When the sales order is later posted as fully invoiced, the sales order and the linked assembly orders are removed.  
 
@@ -438,8 +436,6 @@ When the sales order is later posted as fully invoiced, the sales order and the 
     Notice that the **Quantity Shipped** field contains the full quantity on both lines.  
 
     When the Device Shop pays for their receipt of the 18 PCs from CRONUS, the sales order and its linked assembly orders are removed.  
-
-## See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## See also
 

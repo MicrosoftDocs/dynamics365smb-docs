@@ -3,7 +3,7 @@
     description: After you have set your preferred filters in a list place, such as the **Sales Orders** window, you can save the list as a special view that you can access from the navigation pane. This is a form of personalization that defines how data is displayed, unlike customization, which defines how user interface components are displayed.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

@@ -1,21 +1,18 @@
 ---
-    title: How to Allocate Resources | Microsoft Docs
-    description: You can change the annual amount of the service contract or contract quote to correct the amount that will be invoiced annually.
-    author: brentholtorf
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-
+title: How to Allocate Resources | Microsoft Docs
+description: You can change the annual amount of the service contract or contract quote to correct the amount that will be invoiced annually.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Allocate Resources
-The key element to service management is the people who supply service. You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to assign the appropriate people to the appropriate jobs. Assignments can be based on service zones where the people are located or where the service occurs. In addition, you can group resources together when responding to service requests. For more information, see [Set Up Resource Allocation](service-how-setup-resource-allocation.md).
+The key element to service management is the people who supply service. You can set up [!INCLUDE[prod_short](includes/prod_short.md)] to assign the appropriate people to the appropriate projects. Assignments can be based on service zones where the people are located or where the service occurs. In addition, you can group resources together when responding to service requests. For more information, see [Set Up Resource Allocation](service-how-setup-resource-allocation.md).
 
 You can allocate resources, for example, technicians, by using the **Dispatch Board**, or from a service order. You can use resource availability to allocate resources to perform the service tasks in the orders or quotes.
 
@@ -26,10 +23,10 @@ You may often need to see the list of service orders or service quotes that meet
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dispatch Board**, and then choose the related link.  
 2. In the **Document Filter** field, choose the type of the documents you want to see.
-3. To get a list of documents that contain service tasks a certain resource or resource group is allocated to, fill in the **Resource Filter** and **Resource Group Filter** fields and press Enter.  
-4. To get a list of documents with a certain response date or response dates within a certain date period, fill in the **Response Date Filter** field and press **Enter**.  
-5. To get a list of documents with a specified allocation state or document status, fill in the **Allocation Filter/Status Filter** field and press **Enter**.  
-6. To get a list of documents that belong to a certain contract, customer, or zone, fill in the **Contract Filter/Customer Filter/Zone Filter** field and press **Enter**.  
+3. To get a list of documents that contain service tasks a certain resource or resource group is allocated to, fill in the **Resource Filter** and **Resource Group Filter** fields and select <kbd>Enter</kbd>.  
+4. To get a list of documents with a certain response date or response dates within a certain date period, fill in the **Response Date Filter** field and select <kbd>Enter</kbd>.  
+5. To get a list of documents with a specified allocation state or document status, fill in the **Allocation Filter/Status Filter** field and select <kbd>Enter</kbd>.  
+6. To get a list of documents that belong to a certain contract, customer, or zone, fill in the **Contract Filter/Customer Filter/Zone Filter** field and select <kbd>Enter</kbd>.  
 7. Choose a line that corresponds to a service order or service quote, and then choose the **Show Document** action.  
 
     The **Service Order** or **Service Quote** page opens, and you can work with the document. To return to the **Dispatch Board** page, choose **OK**.
@@ -79,7 +76,7 @@ You can reallocate resources directly from a service order or service quote when
 2. Open the relevant service order.  
 3. Select the service item line corresponding to the service task you want to allocate a resource to, and then choose the **Resource Allocations** action.  
 4. On the **Resource Allocations** page, select an allocation entry with the service task you want to reallocate the resource to. In the **Resource No.** field, select the relevant resource. This overwrites the resource number already in the field.  
-5. Press the Enter key. A dialog box opens, asking whether you want to reallocate this entry. Fill in the **Reason Code** field if appropriate and choose the **Yes** button to confirm the reallocation.  
+5. Select <kbd>Enter</kbd>. A dialog box opens, asking whether you want to reallocate this entry. Fill in the **Reason Code** field if appropriate and choose the **Yes** button to confirm the reallocation.  
 6. Fill in the **Allocation Date** and **Allocated Hours** fields. The entry now contains the new resource and its status is **Active**.
 
 ## To reallocate a resource using the dispatch board  
@@ -90,7 +87,7 @@ If the resource allocated to a service task cannot accomplish the work, it means
 3. Select the relevant service order, and then choose the **Resource Allocations** action. The **Resource Allocations** page opens.  
 4. Select the allocation entry with the service task you want to reallocate a resource to.  
 5. In the **Resource No.** field, select the relevant resource. It overwrites the resource number already in the field.  
-6. Press Enter. The **Reallocation Entry Reasons** dialog box opens, asking whether you want to reallocate this entry. Fill in the **Reason Code** field if appropriate and choose the **Yes** button to confirm the reallocation.  
+6. Select <kbd>Enter</kbd>. The **Reallocation Entry Reasons** dialog box opens, asking whether you want to reallocate this entry. Fill in the **Reason Code** field if appropriate and choose the **Yes** button to confirm the reallocation.  
 7.  Fill in the **Allocation Date** and **Allocated Hours** fields. The entry now contains the new resource and its status is **Active**.  
 
     > [!NOTE]  

@@ -1,73 +1,77 @@
 ---
-title: Czech Local Functionality - Intrastat
-description: This section describes local functionality for Intrastat, Intrastat Engine Setup, Intrastat Tables and additional features.
-author: ACMartinKunes
-
-
-ms.topic: conceptual
-ms.search.keywords: Czech, Intrastat, Payables, Finance, CZ, Cash
-ms.date: 06/17/2021
-ms.reviewer: v-pejano
+title: Czech local functionality - Intrastat
+description: Learn about local functionality for Intrastat, Intrastat Engine Setup, Intrastat Tables, and other features.
+author: ACMartinKunes 
 ms.author: v-makune
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.topic: conceptual
+ms.date: 03/02/2023
+ms.custom: bap-template
+ms.search.keywords: Czech, Intrastat, Payables, Finance, CZ, Cash
 ---
 
-# Intrastat in the Czech Version
+# Intrastat in the Czech version
 
-The standard Intrastat feature does not transfer all and only valid transactions into Intrastat journal. This results into a lot of manual work necessary to exclude/include the excess/missing transactions, often rendering a lot of errors. According to the requirements of the Czech Republic, the following improvements are needed for the Intrastat feature:
+The standard Intrastat feature doesn't transfer all and only valid transactions into the Intrastat journal. The result is a lot of manual work to exclude and include excess and missing transactions, which often causes errors. According to the requirements of the Czech Republic, the standard Intrastat feature needs the following improvements:
 
-- Particular options in the Intrastat engine need to be parameterized
-- Handling of supplementary measure units needs to be improved
-- Calculation of Intrastat amount and statistical amounts must be improved
-- The **Get Intrastat Entries** batch needs to be improved
-- Exporting of Intrastat reports to .csv files according to local requirements
+- Particular options in the Intrastat engine need to be parameterized.
+- Handling of supplementary measure units needs to be improved.
+- Calculating Intrastat amount and statistical amounts must be improved.
+- The **Get Intrastat Entries** batch needs to be improved.
+- Export of Intrastat reports to .csv files according to local requirements.
 
-This feature adds improvement of data transferred into Intrastat journal and prepares the environment for correct Intrastat reporting.
+This feature improves the data transferred into the Intrastat journal and prepares the environment for correct Intrastat reporting.
 
-## Intrastat Engine Setup
+## Intrastat engine setup
 
-Additional Intrastat engine general parameters setup allows to:
+Extra Intrastat engine general parameters setup allows you to:
 
-- Set mandatory fields of Intrastat transactions in sales, purchase, and transfer transaction
-- Set where the particular parts on Intrastat data related to items should be taken from (item or posted entry) and which item attributes will be mandatory in sales, purchase, and transfer transaction
-- Set if any item charges related to sales, purchase, and transfer transaction will be ignored by the system (i.e. not including them in Intrastat or statistical amounts)
-- Define if the statistical amount is calculated and calculation method for it
-- Select Intrastat rounding type to set how Intrastat and statistical amounts will be rounded
-- Set foreign currency exchange rate for Intrastat reporting
-- Set object for Intrastat report export
+- Set mandatory fields of Intrastat transactions in sales, purchase, and transfer transactions.
+- Set where the particular parts of Intrastat data related to items should be taken from, either item or posted entry and which item attributes are mandatory in sales, purchase, and transfer transactions.
+- Specify whether the system should ignore item charges related to sales, purchase, and transfer transactions. For example, not including them in Intrastat or statistical amounts.
+- Define whether and how the statistical amount is calculated.
+- Select Intrastat rounding type to set how Intrastat and statistical amounts are rounded.
+- Set foreign currency exchange rates for Intrastat reporting.
+- Set the object for the Intrastat report export.
 
-### New Setup Tables Added for:
+### New setup tables 
 
-- Statistic Indications
-- Specific Movements
-- Intrastat Delivery Groups
+New setup tables are added for the following:
 
-### Additional Setup for Intrastat Enables:
+- Statistic indications
+- Specific movements
+- Intrastat delivery groups
 
-- Set a country/region code for Entry/Exit Point
-- Set Tariff Number Supplementary Units of Measure if Tariff numbers have to be reported in Supplementary Units of Measure
-- Set if particular item charges have to be included in either Intrastat Amount or Intrastat Statistical Value or both
-- Set Intrastat behavior for Shipment Methods – select if item charges should be included/excluded for particular Shipment Methods and Intrastat Delivery Group for reporting
-- Set Area value in Location Card
-- Set default values and enforce company policies following additional Intrastat data available on Customer and Vendor Cards
-- Define on the Item Card additional Intrastat data – Statistic indication and Specific movement
-- Make special foreign Currency Exchange Rate setup and object for export setup for each Registration Country
+### More setup for Intrastat 
 
-## Posting Sales, Purchase or Transfer Transaction
+More setup for Intrastat enables you to define the following settings:
 
-To identify and enter attributes of sales transaction that will be used in Intrastat reporting user, follows these steps:
+- Set a country/region code for entry and exit points.
+- Set Tariff number supplementary units of measure if you have to report Tariff numbers in supplementary units of measure.
+- Set whether specific item charges must be included in Intrastat amount or Intrastat statistical value or both.
+- Set Intrastat behavior for shipment methods. Select to include or exclude item charges for specific shipment methods and Intrastat delivery groups for reporting.
+- Set an area value in a Location card.
+- Set default values and enforce company policies for extra Intrastat data available on Customer and Vendor cards.
+- Define and add Intrastat data that includes statistic indication and specific movement on the Item card.
+- Create a special foreign currency exchange rate setup and object for the export setup for each Registration country/region.
 
-- User verifies Intrastat data (Transaction Type, Specification and Transport Method, etc.) on the Foreign Trade tab. These were transferred to the document header from the relevant Customer or Vendor card and can be manually edited.
-- Intrastat Transaction field (non-editable) informs the user whether the particular transaction is qualified as Intrastat transaction.
-- Identification of the Physical Movement in the correction (Credit-Memo) documents using the Physical Transfer field.
-- User can manually exclude an Intrastat Transaction from Intrastat reporting using the Intrastat Exclude field.
-- User verifies Intrastat Data (Tariff No., Statistic Indication, Country/Region of Origin and Net Weight) in the document lines. These were transferred to the line from the relevant Item card and can be manually edited.
-- User assigns Item Charge to the sales line and includes/excludes its value to Intrastat Amount and Statistical Amount.
-- During the posting, system transfers all Intrastat relevant information to Item Ledger Entry.
-- During the posting, system displays an error if any Intrastat field set as mandatory in Stat. Reporting Setup form is not filled in. This will prevent the user from posting the transaction.
+## Post sales, purchase, or transfer transactions
 
-## Preparing Intrastat Journal
+To identify and enter attributes of sales transactions that are in Intrastat reporting, you need to follow these steps:
 
-The Intrastat Journal contains the following new fields and functionalities:
+- Verify Intrastat data (Transaction Type, Specification and Transport Method, etc.) on the Foreign Trade tab. This data is transferred to the document header from the relevant Customer or Vendor card and can be manually edited.
+- Intrastat Transaction field (noneditable) informs the user whether the particular transaction is qualified as Intrastat transaction.
+- Identify the Physical Movement in the correction (Credit-Memo) documents using the Physical Transfer field.
+- You can manually exclude an Intrastat Transaction from Intrastat reporting using the Intrastat Exclude field.
+- Verify Intrastat Data (Tariff No., Statistic Indication, Country/Region of Origin and Net Weight) in the document lines. These were transferred to the line from the relevant Item card and can be manually edited.
+- Assign Item Charge to the sales line and include/exclude its value to Intrastat Amount and Statistical Amount.
+- During the posting, the system transfers all Intrastat relevant information to Item Ledger Entry.
+- During the posting, the system displays an error if any mandatory Intrastat field in Stat. Reporting Setup form isn't filled in. This error prevents the user from posting the transaction.
+
+## Prepare the Intrastat journal
+
+The Intrastat journal contains the following new fields and functionalities:
 
 - Shipment Method Code
 - Statistic Indication
@@ -75,27 +79,28 @@ The Intrastat Journal contains the following new fields and functionalities:
 - Supplementary Units of Measure Calculation
 - Declaration Numbering
 - Declaration types for Statement Classification – Primary, Null, Replacing, Deleting
-- Registration Country entries filtering
+- Registration Country/Region entries filtering
 
-The fastest way to prepare the Intrastat journal and make sure all the rules set in the previous steps are followed is by using the **Get Entries** batch job. During the execution of the Get Entries batch job, the system will take care of the following:
+The fastest way to prepare the Intrastat journal and make sure all the rules set in the previous steps are followed is by using the **Get Entries** batch job. During the execution of the Get Entries batch job, the following occurs:
 
-- System considers Item and Job Ledger Entries created by transaction identified as Intrastat transactions
-- System ignores sales and purchase Intrastat transactions with the EU-3 Party Trade flag
-- System makes sure to include Intrastat transactions with Entry/Exit Points in EU Country
-- System makes sure to include sales and purchase documents (i.e. Credit Memos) posted with the **Correction** check box as inserted in the Intrastat journal with the same type as documents they are correcting, but with opposite sign for Non-physical Transfer documents and with the opposite type for documents marked as Physical Transfer
-- System makes sure the reversed Intrastat transactions (i.e. using Undo Receipt/Shipment) are excluded from reporting (both revered and reversing Intrastat transactions)
-- System makes sure the Item Charges are (not) included, adjusted and calculated in Intrastat Amount and Statistical Amount according to the user’s setup in Stat. Reporting Setup, Item Charges, Shipment Methods and Item Charge Assignments
-- System makes sure the Supplementary Units of Measure are used while preparing Intrastat Journal lines
-- System makes sure the correct data source is used for Tariff No., Net Weight and Country/Region of Origin according to Stat. Reporting Setup
+- The system considers the Item and Project Ledger Entries created by transactions identified as Intrastat transactions.
+- The system ignores sales and purchase Intrastat transactions with the EU-3 Party Trade flag.
+- The system includes Intrastat transactions with entry and exit points in EU countries/regions.
+- The system includes sales and purchase documents, such as credit memos that are posted with the **Correction** check box as inserted in the Intrastat journal. These documents are the same type as the documents they're correcting, but with the opposite sign for nonphysical transfer documents and the opposite type for documents marked as physical transfer.
+- The system excludes the reversed Intrastat transactions (using Undo Receipt/Shipment) from reporting.
+- The system ensures the item charges are (not) included, adjusted, and calculated in Intrastat Amount and Statistical Amount according to the user's settings in Stat. Reporting Setup, Item Charges, Shipment Methods, and Item Charge Assignments.
+- The system ensures the use of the Supplementary units of measure while preparing the Intrastat journal lines.
+- The system makes sure the correct data source is used for Tariff number, Net weight, and Country/Region of origin according to Stat. Reporting setup.
 
-## Intrastat Report Export to CSV Format
+## Export Intrastat report to CSV format
 
-Export of Intrastat reports to .csv files according to local requirements (for INSTATDESK and INSTATONLINE applications) was added to Intrastat Journal.
-Export use object for export based on setup in Stat. Reporting Setup or Registration Country.
+Exporting Intrastat reports to .csv files according to local requirements (for INSTATDESK and INSTATONLINE applications) was added to the Intrastat journal.
+Export use object for export based on setup in Stat. Reporting Setup or Registration Country/Region.
 
-## See Also
+## See also
+
 [Czech Local Functionality](czech-local-functionality.md)  
+[Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
 [Finance](finance.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,22 +1,21 @@
 ---
-title: Set Up a Location Card and Define Transfer Routes (contains video)
+title: Set up a location card and define transfer routes
 description: If you buy, store, or sell items in more than one place, you can set up each place as a location. 
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
-ms.date: 07/05/2022
-ms.author: bholtorf
-
+ms.date: 06/06/2024
+ms.service: dynamics-365-business-central
 ---
-# Set Up Locations
+# Set up locations
 
 Locations are places such as warehouses where you buy, store, or sell items. [!INCLUDE [prod_short](includes/prod_short.md)] uses locations to help keep track of inventory in both simple and complex warehouse processes.
 
-You can then create document lines for a specific location, view availability by location, and transfer inventory between locations. For more information, see [Manage Inventory](inventory-manage-inventory.md).
+You can then create document lines for a specific location, view availability by location, and transfer inventory between locations. To learn more, go to [Manage Inventory](inventory-manage-inventory.md).
 <br><br>  
   
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
@@ -39,11 +38,11 @@ Choose the **Zones** or **Bins** actions to view information about zones and bin
 4. Repeat steps 2 and 3 for every location where you want to keep inventory.
 
 > [!NOTE]  
-> Many fields on the Location Card page are related to the handling of items in inbound and outbound warehouse processes. These fields are not relevant for companies that do not require complex warehouse functionality. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
+> Many fields on the Location Card page are related to the handling of items in inbound and outbound warehouse processes. These fields are not relevant for companies that do not require complex warehouse functionality. To learn more, go to [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
 You can change the configuration of a location as long as it doesn't have item ledger entries.  
 
-If you have multiple locations, you can define transfer routes between locations. For more information, see [To create a transfer route](inventory-how-setup-locations.md#to-create-a-transfer-route).
+If you have multiple locations, you can define transfer routes between locations. To learn more about transfer routes, go to [To create a transfer route](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
 ### To create a transfer route
 
@@ -51,26 +50,59 @@ If you have multiple locations, you can define transfer routes between locations
 2. Choose the **New** action.
 4. On the **Location Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-You can now transfer inventory items between two locations. For more information, see [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).    
+You can now transfer inventory items between two locations. To learn more about transfers, go to [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).
 
 ## Bins
 
-Bins represent the basic warehouse structure and can suggest where to put items. Your bins can have contents, or be floating bins without specific contents. 
+Bins represent the basic warehouse structure and can suggest where to put items. Your bins can have contents, or be floating bins without specific contents.
 
 To use the bin functionality at a location, on the **Location Card** page, on the **Warehouse** FastTab, turn on the **Bin Mandatory** toggle. You can design the item flow at the location by specifying bin codes in the fields for the warehouse processes on the **Bins** and **Bin Policies** FastTabs.
 
 > [!NOTE]
-> Before you can specify bin codes on a location, you must create bin codes. For more information, see [Create Bins](warehouse-how-to-create-individual-bins.md) and [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).  
+> Before you can specify bin codes on a location, you must create bin codes. To learn more about bins, go to [Create Bins](warehouse-how-to-create-individual-bins.md) and [Set Up Bin Types](warehouse-how-to-set-up-bin-types.md).  
 
 ## Zones
 
-If you want to structure your bins under zones, you can do that in the **Zones** page. When you assign a zone to bins, [!INCLUDE [prod_short](includes/prod_short.md)] copies information from the zone to the bins. You can also choose to set up one zone and use bins alone to organize your warehouse. For more information, see [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
+If you want to structure your bins under zones, you can do that in the **Zones** page. When you assign a zone to bins, [!INCLUDE [prod_short](includes/prod_short.md)] copies information from the zone to the bins. You can also choose to set up one zone and use bins alone to organize your warehouse. To learn more about zones, go to [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
 
 ## Default Dimensions for Locations
 
-You set default dimensions for a location on the **Location Card** page by choosing **Dimensions**. Afterward, the location's default dimensions are assigned to documents when you choose the location on a line. If needed, you can delete or change the dimension on the line. In the **Value Posting** field, you can require people to specify dimensions for locations before they can post an entry. If you want to allow people to choose only certain dimension values, you can specify the values in the **Allowed Values Filter** field. You can also include location dimension values on the **Default Dimension Priorities** page, and for combinations of priority and dimension rules on the **Dimension Combinations** page.
+Dimensions are values that categorize entries so you can track and analyze them using various reporting tools. For example, dimensions can indicate the department or project an entry came from. Having default dimensions helps people avoid making mistakes and having to enter dimensions manually on the transaction level if all goods come from a single location and department.
 
-## See related training at [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+You set default dimensions for a location on the **Location Card** page by choosing **Dimensions**. Afterward, the location's default dimensions are assigned to the following documents when you choose the location on a line.
+
+* Transfer orders
+* Physical inventory orders
+* Inventory shipments
+* Inventory receipts
+* Item journals
+
+If needed, you can delete or change the dimension on the line. In the **Value Posting** field, you can require people to specify dimensions for locations before they can post an entry. If you want to allow people to choose only certain dimension values, you can specify the values in the **Allowed Values Filter** field. You can also include location dimension values on the **Default Dimension Priorities** page, and for combinations of priority and dimension rules on the **Dimension Combinations** page.
+
+Because transfer order documents and reclassification journals deal with more than one location, the order in which you enter data is important. Default dimensions are copied from the last location field (the in-transit location is ignored).
+
+### Example of default dimensions on locations
+
+The following examples illustrate how the default dimension is used.
+
+You have the following dimension settings:
+
+* Location EAST. Department dimension is ADM
+* Location WEST. Department dimension is PROD
+
+You specify the location on a transfer order as follows:
+
+1. From Location = EAST
+2. To Location = WEST
+
+The PROD dimension will be copied from location WEST.
+
+You fill in the fields in the opposite order, as follows:
+
+1. To Location = WEST
+2. From Location = EAST
+
+The ADM dimension will be copied from location EAST.
 
 ## See also
 

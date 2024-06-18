@@ -1,18 +1,16 @@
 ---
-    title: Belgian VAT
-    description: Belgian enhancements of the VAT reporting feature enable you to easily print VAT transaction details.
-    author: SorenGP
+title: Belgian VAT
+description: Belgian enhancements of the VAT reporting feature enable you to easily print VAT transaction details.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.search.form: 11300, 11301,11303,11306,11307,11308
+ms.date: 03/02/2022
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.search.form: 11300, 11301,11303,11306,11307,11308
-    ms.date: 03/02/2022
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Belgian VAT
 
@@ -26,7 +24,7 @@
 
 - EC sales list
 
-    This report is used to report the sales of goods to other countries in the European Union. For more information, see [About the EC Sales List Report](../../finance-how-report-vat.md#ecsaleslist).  
+    This report is used to report the sales of goods to other countries/regions in the European Union. For more information, see [About the EC Sales List Report](../../finance-how-report-vat.md#ecsaleslist).  
 
 You are also required to provide a printed statement detailing the VAT transactions to the Belgian tax authorities. For more information, see VAT Statement.  
 

@@ -3,7 +3,7 @@
     description: When you enter data on pages in ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->, certain fields are marked with a red asterisk. The red asterisk means that the field must be filled to complete a certain process that uses the field, such as posting a transaction that uses the value in the field.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

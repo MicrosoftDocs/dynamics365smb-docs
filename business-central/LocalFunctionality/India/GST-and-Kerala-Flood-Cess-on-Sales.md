@@ -1,20 +1,23 @@
 ---
-    title: GST and Kerala Flood Cess on Sales Transaction
-    description: GST and Kerala Flood Cess on Sales Transaction
+title: GST and Kerala Flood Cess on Sales Transaction
+description: GST and Kerala Flood Cess on Sales Transaction
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # GST and Kerala Flood Cess on Sales Transaction
+
+> [!IMPORTANT]
+> Because Kerala Flood CESS (KFC) is no longer applicable, the content in this article is no longer needed and will be removed in the coming months. 
 
 
 Kerala Flood CESS (KFC) is applicable on all intra-state supplies of goods and/or services, made by taxable person to an unregistered person i.e. B2C supplies. Kerala Flood CESS is required to be shown separately on the invoice.
@@ -51,18 +54,6 @@ For example, there is a sales invoice for INR 10,000 and 18% GST (i.e. 9% CGST a
 
 > [!TIP]
 > System will automatically update 'Nature of Supply' B2C for Unregistered Customer.
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## See Also 
 [Exempted Sales](GST-Exempted-Sales.md)

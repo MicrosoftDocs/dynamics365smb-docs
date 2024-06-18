@@ -3,11 +3,12 @@ title: Opening Business Central Files in OneDrive
 description: Learn how you can share Business Central data through OneDrive for Business. 
 author: jswymer
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords:
 ms.date: 08/03/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Opening and Sharing Business Central Files in Microsoft OneDrive
 
@@ -59,10 +60,9 @@ The sharing feature in Business Central is based on OneDrive. Learn more about O
 When you use the **Open in OneDrive** or **Share** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following things:
 
 1. Opens the **Please review terms and conditions** page. Read the page, and if you agree with the terms and conditions, select **Agree** to continue.
-2. Opens the **Pick an account** page. Select your account or **use another account** if you don't see your own, then enter the appropriate user name and password when prompted.
-3. Creates a folder named [!INCLUDE[prod_short](includes/prod_short.md)] in OneDrive. 
-4. Within the [!INCLUDE[prod_short](includes/prod_short.md)] folder, it creates a folder with the same name as the company you're working in. If you work in more than one company, [!INCLUDE[prod_short](includes/prod_short.md)] creates a folder for each company you're working in when you use the **Open in OneDrive** or **Share** action. 
-5. Puts a copy of the file you selected in the company name folder, and then opens the file. 
+2. Creates a folder named [!INCLUDE[prod_short](includes/prod_short.md)] in OneDrive. 
+3. Within the [!INCLUDE[prod_short](includes/prod_short.md)] folder, it creates a folder with the same name as the company you're working in. If you work in more than one company, [!INCLUDE[prod_short](includes/prod_short.md)] creates a folder for each company you're working in when you use the **Open in OneDrive** or **Share** action. 
+4. Puts a copy of the file you selected in the company name folder, and then opens the file. 
 
 Then, the next time you use the **Open in OneDrive** or **Share** action, [!INCLUDE[prod_short](includes/prod_short.md)] only copies and opens the file. 
 
@@ -78,10 +78,10 @@ If a file with the same name already exists in OneDrive, you'll be given the fol
   
 - **Replace**
   
-  This option replaces the existing file in OneDrive with the file you selected from Business Central. The original file isn't lost&mdash;you can see and restore it using the version history in OneDrive. Learn more at [Restore a previous version of a file stored in OneDrive](https://support.microsoft.com/office/restore-a-previous-version-of-a-file-stored-in-onedrive).
+  This option replaces the existing file in OneDrive with the file you selected from Business Central. The original file isn't lost&mdash;you can see and restore it using the version history in OneDrive. Learn more at [Restore a previous version of a file stored in OneDrive](https://support.microsoft.com/office/restore-a-previous-version-of-a-file-stored-in-onedrive-159cad6d-d76e-4981-88ef-de6e96c93893).
 
 - **Keep both**
- 
+
   This option keeps the existing file as-is and saves the file you selected from Business Central under a different name. The new name is similar to the existing name, except with a suffix number such  “Items (2).xlsx”.
 
 ## About your Business Central folder on OneDrive

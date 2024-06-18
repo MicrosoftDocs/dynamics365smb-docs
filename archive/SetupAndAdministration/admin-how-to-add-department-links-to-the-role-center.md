@@ -3,8 +3,7 @@
     description: Sometimes you may find a link on a **Departments** page that you want to add to your Role Center. The link can appear in one of the following menus:
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
-
+    author: brentholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -12,8 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/01/2017
-    ms.author: sgroespe
-
+    ms.author: bholtorf
 ---
 # Add Department Links to the Role Center
 Sometimes you may find a link on a **Departments** page that you want to add to your Role Center. The link can appear in one of the following menus:  

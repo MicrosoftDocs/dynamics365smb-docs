@@ -1,18 +1,16 @@
 ---
 title: Automatic Account Codes in the Finnish version
 description: You can use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents in the Finnish version.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 11207, 11208
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Automatic Account Codes in the Finnish Version
 

@@ -3,7 +3,7 @@
     description: In Business Central, there are many predefined reports that you can find in different ways:
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

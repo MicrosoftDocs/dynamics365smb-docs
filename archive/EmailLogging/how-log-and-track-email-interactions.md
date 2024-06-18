@@ -3,8 +3,7 @@
     description: Email logging in [!INCLUDE[d365fin](includes/d365fin_md.md)] contacts.
     services: project-madeira
     documentationcenter: ''
-    author: bholtorf
-
+    author: brentholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -13,7 +12,6 @@
     ms.search.keywords: logging, email, interactions, contacts
     ms.date: 09/05/2017
     ms.author: bholtorf
-
 ---
 # Log and Track Email Interactions
 Email logging is designed to capture interactions between senders and the recipients on the **To:** line of email messages. It captures the interactions that have been successfully concluded; interactions that are in a postponed state are not tracked.  

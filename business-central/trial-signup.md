@@ -1,18 +1,20 @@
 ---
 title: Sign up for a free trial
 description: Learn how to quickly sign up for and start a free Dynamics 365 Business Central trial. Explore the app with tours and videos, and find more learning resources.
-author: edupont04
+author: brentholtorf
 ms.topic: get-started
 ms.custom: template-trial-setup
-ms.author: edupont
-ms.date: 05/25/2022
+ms.author: bholtorf
+ms.date: 01/17/2024
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Sign up for a free Dynamics 365 Business Central trial
 
-Business Central offers a free trial. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data. If you want to try out things with your own data, you'll switch to a free 30-day trial. [Learn more about Business Central features](across-business-functionality.md).  
+Business Central offers a free trial that you can find it on the **[Dynamics 365 Business Central product](https://www.microsoft.com/en-us/dynamics-365/products/business-central)** page. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data. If you want to try out things with your own data, you'll switch to a free 30-day trial. [Learn more about Business Central features](across-business-functionality.md).  
 
-## To sign up for the trial
+<!--## To sign up for the trial-->
 
 [!INCLUDE [trial-get](includes/trial-get.md)]
 
@@ -37,8 +39,6 @@ You can also contact the [[!INCLUDE[prod_short](includes/prod_short.md)] Sales t
 > [!INCLUDE [admin-license-trial](includes/admin-license-trial.md)]
 
 For more information about what you can do with [!INCLUDE [prod_short](includes/prod_short.md)], see [Getting Ready for Doing Business](ui-get-ready-business.md) and [Business Functionality](across-business-functionality.md).  
-
-## See related [Microsoft training](/training/modules/trial-dynamics-365-business-central/)
 
 ## Additional resources
 

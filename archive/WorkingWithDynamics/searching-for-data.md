@@ -3,7 +3,7 @@
     description: In the ADD INCLUDE<!--[!INCLUDE[nav_web](../../includes/nav_phone_md.md)]-->, you can use the Search functionality to limit a data set across columns on lists. Search is enabled by entering criteria in search box. The search is cleared by selecting the cross next to the search box.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

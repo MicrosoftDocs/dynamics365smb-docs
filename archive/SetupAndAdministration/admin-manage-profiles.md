@@ -3,7 +3,7 @@
     description: You use profiles to link Role Centers to users. Like Role Centers, profiles align with the roles and responsibilities in your organization. [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a set of default profiles, which each correspond to and link to a Role Center. Administrators can modify existing profiles or create new ones.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

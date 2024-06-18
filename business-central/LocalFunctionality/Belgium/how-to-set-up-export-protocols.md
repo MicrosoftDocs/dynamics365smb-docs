@@ -1,20 +1,17 @@
 ---
-    title: How to Set Up Export Protocols [BE]
-    description: Before using electronic banking, you must set up export protocols that define the file format generated when you export payment history processed by the bank.
+title: How to Set Up Export Protocols [BE]
+description: Before using electronic banking, you must set up export protocols that define the file format generated when you export payment history processed by the bank.
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.search.form: 2000005
+ms.date: 06/17/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/17/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Export Protocols in the Belgian Version
 Before you can use electronic banking, you must set up export protocols. Export protocols define the file format that is generated when you export payment history to be processed by the bank. Each line contains an export protocol identified by a code and a description. You can set up as many export protocols as necessary. You must set up an export protocol for domestic payments, international payments, SEPA payments, and non-Euro SEPA payments.  
@@ -47,6 +44,7 @@ Before you can use electronic banking, you must set up export protocols. Export 
     |**Export Object Type**|Specify the type of the object that defines the export format of the payment file export. After you select the **Export Object ID**, this field will display the **Export Object Type**.<br /><br /> **NOTE:** To set the export protocol up for SEPA pain.001.001.03, select **XMLPort**.|  
     |**Export Object ID**|Specify the identification number of the object that defines the export format of the payment file export. For example, if you select **2000002**, the export format for the payment file will be **File International Payments**.<br /><br /> **NOTE:** To set up the export protocol for SEPA pain.001.001.03, select XMLport **1000**.|  
     |**Export No. Series**|Specify the number series that is used to assign identification numbers to the payment file export.|  
+    |**Grouped Payment**|Specifies if this export protocol is used for grouped payments.|  
 
 4.  Choose the **OK** button.  
 

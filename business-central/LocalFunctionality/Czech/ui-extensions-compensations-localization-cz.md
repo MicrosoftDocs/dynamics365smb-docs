@@ -1,21 +1,19 @@
 ---
-title: Compensation Localization for Czech
+title: Compensation localization for Czech
 description: The application provides functionality for offsetting receivables and payables in Business Central for the Czech Republic.
 author: v-pejano
-
-
 ms.topic: conceptual
 ms.search.keywords: Czech, Compensation, Finance, CZ, Cash
-ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.date: 11/23/2023
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 
-# Compensation Localization for Czech (Extension)
+# Compensation localization for Czech (extension)
 
 The Compensation solution helps companies for offsetting receivables and payables. Compensations are used when the company's customer is also its supplier.  
 Entries to be counted can be entered manually or automatically from the Compensation Card. In addition, there are functions to mark entries to count and recalculating the balance.  
-There is also a print-out of the Agreement on Mutual Settlement of Receivables and Payables under Czech legislation.
+There's also a print-out of the Agreement on Mutual Settlement of Receivables and Payables under Czech legislation.
 
 ## Key features
 
@@ -26,7 +24,7 @@ There is also a print-out of the Agreement on Mutual Settlement of Receivables a
 - **Agreement on Mutual Settlement of Receivables and Payables** printout,
 - **Compensation posting** – posted Compensation is created, entries application is posted.
 
-## See Also
+## See also
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)  

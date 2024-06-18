@@ -1,17 +1,14 @@
 ---
 title: How to Set Up Item Units of Measure| Microsoft Docs
 description: You can set up multiple units of measure for an item so that you can assign units of measure to the item.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: UOM
-ms.date: 04/01/2021
-ms.author: edupont
-
+ms.date: 10/16/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Units of Measure
 
@@ -31,7 +28,7 @@ Another tool that makes it easier to work with multiple units of measure for ite
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measure**, and then choose the related link.  
 2. Choose the **New** action. A new empty line is inserted.  
 3. Fill in the fields. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
-4. If you know that your organization will sell items with this unit of measure to customers in other countries, you can add translations.  
+4. If you know that your organization will sell items with this unit of measure to customers in other countries/regions, you can add translations.  
     1. Select the code for which you want to set up translations, and then choose the **Translations** action.
     2. In the **Language Code** field, select the drop-down arrow to see a list of available language codes. Select the language code for which you want to enter a translation, and then choose the OK button to copy the code to the field.
     3. In the **Description** field, enter the appropriate text.
@@ -76,8 +73,6 @@ If you usually buy or sell in units different from the base unit of measure, you
 3. For sales, on the **Invoicing** FastTab, in the **Sales Unit of Measure** field, open the **Item Units of Measure** page.
 4. For purchasing, on the **Replenishment** FastTab, in the **Purch. Unit of Measure** field, open the **Item Units of Measure** page.
 5. Select the code you want to set up as the default unit of measure for sales or purchasing respectively, and then choose the **OK** button.
-
-## See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## See also
 

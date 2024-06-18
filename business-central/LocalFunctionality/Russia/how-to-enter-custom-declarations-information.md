@@ -1,18 +1,17 @@
 ---
 title: Entering custom declaration information in Russia
 description: Russian enhancements include custom declarations.
-author: AndreiPanko
-
-
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
-ms.author: andreipa
+ms.reviewer: bholtorf
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Custom declaration
-Russian legislation requires companies to record and track the customs declaration number for all imported goods. If a company sells imported goods, it must print the customs declaration number and the country of origin on invoices.
+Russian legislation requires companies to record and track the customs declaration number for all imported goods. If a company sells imported goods, it must print the customs declaration number and the country/region of origin on invoices.
 
 ## Setup
 > [!NOTE]

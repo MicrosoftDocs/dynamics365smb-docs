@@ -1,16 +1,15 @@
 ---
-    title: How to Block Sales to Customers
-    description: If needed, you can block a customer from being included on sales documents and other sales transactions.
-    author: SorenGP
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+title: How to Block Sales to Customers
+description: If needed, you can block a customer from being included on sales documents and other sales transactions.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Block Customers
 You can block a customer, for example because of insolvency, so that the customer cannot be added to sales documents or so that no transactions can be posted for the customer.

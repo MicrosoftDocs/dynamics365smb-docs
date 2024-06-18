@@ -1,17 +1,14 @@
 ---
 title: Fields Required to Complete Processes
 description: Learn about fields marked with a red asterisk, which indicates that they're required and must be filled in to complete a process.
-author: SusanneWindfeldPedersen
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 
 ms.date: 04/01/2021
-ms.author: solsen
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Detecting Mandatory Fields
 

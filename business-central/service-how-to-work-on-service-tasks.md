@@ -1,17 +1,15 @@
 ---
-    title: How to Work on Service Tasks
-    description: This topic covers the different ways to work on service tasks. The Service Tasks page gives an overview of all the service items that need attention.
-    author: SorenGP
+title: How to Work on Service Tasks
+description: This topic covers the different ways to work on service tasks. The Service Tasks page gives an overview of all the service items that need attention.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/25/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/25/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Work on Service Tasks
 After you have created a service order or service quote, registered service item lines, and allocated resources to the service items in the order or quote, you can start repairing and maintaining the service items.  
@@ -22,9 +20,9 @@ To track changes and get a graphical view of your service business, use [!INCLUD
 
 ## To work on a service task  
 1. Choose the ![Lightbulb that opens the Tell Me feature 1.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Tasks**, and then choose the related link.
-2. If you want a list of service tasks a certain resource or resource group is allocated to, fill in the **Resource Filter** or **Resource Group Filter** field and press Enter.  
-3. If you want a list of service tasks with a certain response date or response dates within a certain time period, fill in the **Response Date Filter** field and press Enter.  
-4. If you want a list of service tasks with a certain allocation status or repair status, fill in the **Allocation Status Filter** or **Repair Status Code Filter** field and press Enter.  
+2. If you want a list of service tasks a certain resource or resource group is allocated to, fill in the **Resource Filter** or **Resource Group Filter** field and select <kbd>Enter</kbd>.  
+3. If you want a list of service tasks with a certain response date or response dates within a certain time period, fill in the **Response Date Filter** field and select <kbd>Enter</kbd>.  
+4. If you want a list of service tasks with a certain allocation status or repair status, fill in the **Allocation Status Filter** or **Repair Status Code Filter** field and select <kbd>Enter</kbd>.  
 5. Select the service task you want to work on. Choose the **Item Worksheet** action. The **Service Item Worksheet** page opens.  
 6. Register standard texts, spare parts, resource hours, and costs as appropriate using the corresponding options in the **Type** field:  \<Blank\>, **Item**, **Resource**, and **Cost**.  
 7. In the **Repair Status** field, select the appropriate status.  
@@ -69,7 +67,7 @@ When you service a service item that is composed of components, you may need to 
 3. Enter a new service line.  
 4. In the **Type** field, choose **Item**.  
 5. In the **No.** field, choose the component to replace.  
-6. Press **Enter**. A dialog box opens with three options: **Replace Component**, **New Component**, and **Ignore**. The following table describes the options.  
+6. Select <kbd>Enter</kbd>. A dialog box opens with three options: **Replace Component**, **New Component**, and **Ignore**. The following table describes the options.  
 
     |Option | Description|  
     |----------------------------------|---------------------------------------|  

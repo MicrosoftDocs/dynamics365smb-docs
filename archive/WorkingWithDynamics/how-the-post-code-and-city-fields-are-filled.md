@@ -3,7 +3,7 @@
     description: If you fill in **Post Code** field with a post code that is linked to a single city in the **Post Code** table, ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> displays a list of the relevant cities for you to choose from. If the post code is not set up in the **Post Code** table, you must enter the city manually.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

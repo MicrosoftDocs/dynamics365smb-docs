@@ -1,17 +1,14 @@
-﻿---
-    title: Business Central for Multi-Site and International Organizations | Microsoft Docs
-    description: Business Central provides capabilities that support a hub-and-spoke business model.
-    author: brentholtorf
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
-    ms.date: 10/01/2020
-    ms.author: bholtorf
-
+---
+title: Business Central for Multi-Site and International Organizations | Microsoft Docs
+description: Business Central provides capabilities that support a hub-and-spoke business model.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
+ms.date: 10/01/2020
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Business Central for Multi-Site and International Organizations
@@ -35,8 +32,8 @@ Business needs at sites often differ based on industry, business methods, or the
 
 For multi-national organizations, [!INCLUDE[prod_short](includes/prod_short.md)] supports local legal requirements and business practices.
 
-* For online versions, there are more than [40 localized country versions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) that you can install as extensions from Microsoft AppSource.  
-* For on-premises versions, [country versions](/azure/architecture/solution-ideas/articles/business-central) are available either as Microsoft-localized versions or partner-led add-on localizations.
+* For online versions, there are more than [40 localized country/region versions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) that you can install as extensions from Microsoft AppSource.  
+* For on-premises versions, [country/region versions](/azure/architecture/solution-ideas/articles/business-central) are available either as Microsoft-localized versions or partner-led add-on localizations.
 
 A network of more than 4,000 Microsoft partners world-wide provides local expertise.
 
@@ -64,7 +61,7 @@ Align the organization with your business goals by providing a common understand
 
 | **Business requirement** | **How Business Central supports it** | **Learn more** |
 |-------------------------|-------------------------|-------------------------|
-| Share insights with sites without extensive IT support. | Create KPIs and business intelligence dashboards in Power BI based on your data. | [Work with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md) |
+| Share insights with sites without extensive IT support. | Create KPIs and business intelligence dashboards in Power BI based on your data. | [Connect to Power BI from Business Central on-premises](across-working-with-business-central-in-powerbi.md) |
 | Develop custom financial reports. | Generate parameter-based financial reports. | [Business Intelligence](bi.md) |
 | Align on the facts. | Generate, view, and share reports with internal and external stakeholders. | [Financial Reports](finance-reports.md) |
 | Analyze data in Excel. | Fact-find, troubleshoot, and do ad hoc analyses in Microsoft Excel. | [Analyze Financial Statements in Excel](finance-analyze-excel.md) |

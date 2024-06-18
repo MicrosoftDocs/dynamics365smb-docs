@@ -1,119 +1,130 @@
 ---
-    title: Design Details - Internal Warehouse Flows
-    description: Flow between bins centers on picking components and putting away end items for assembly or production orders and ad-hoc movements, without source documents.
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/15/2021
-    ms.author: edupont
-
+title: Design Details - Flows for Production, Assembly, and Projects
+description: Learn about the flow between bins for picking components and putting away end items for assembly, production, or project orders.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.topic: conceptual
+ms.date: 02/05/2024
+ms.custom: bap-template
 ---
-# Design Details: Internal Warehouse Flows
-The flow of items between bins at a company location centers on picking components and putting away end items for assembly or production orders and ad-hoc movements, such as bin replenishments, without a relation to source documents. The scope and nature of the involved activities vary between basic and advanced warehousing.  
+# Flows for production, assembly, and projects
 
- Some internal flows overlap with inbound or outbound flows. Some of this overlap is shown as steps 4 and 5 in the graphical diagrams for advanced inbound and outbound flows respectively. For more information, see [Design Details: Inbound Warehouse Flow](design-details-outbound-warehouse-flow.md).  
+Internal flows, such as picking components and putting away end items for assembly, projects, and production orders are similar to inbound or outbound flows. So, many of the processes might seen familiar. This article provides information about how to work with internal warehouse flows with various levels of complexity.
 
-## Internal Flows in Basic Warehousing  
- In basic warehouse configuration, the flow of items between bins inside the company centers on picking component and putting away end items for production or assembly orders and ad-hoc movements, such as bin replenishments, without relation to source documents.  
+## Overview of different configuration options
 
-### Flows to and from Production  
- The main integration between production orders and basic warehouse activities is represented by the ability to pick production components with the **Inventory Pick** or the **Inventory Movement** pages.  
+You can configure warehouse features in various ways. It's important that the options you choose improve your processes without causing overhead. The following tables describe typical configurations for dealing with physical goods for production, projects, and assembly orders.
 
-> [!NOTE]  
->  On the **Inventory Pick** page, the component consumption is posted together with the pick posting. By using the **Inventory Movement** page, only bin adjustments are registered, no item ledger posting occurs.  
+### Inbound flow (put-away)
 
- In addition to component handling, the integration is represented by the ability to put produced items away with the **Inventory Put-away** page.  
+|Complexity Level|Description|Settings|Bin Code|Inbound Flow of Production Order|Inbound Flow of Assembly Order|Inbound Flow of Projects|  
+|---|----------------|----------|---------|------------------|------------------|------------------|
+|No dedicated warehouse activity.|Posting from orders and journals.||Optional. Controlled by the **Bin Code is Mandatory** toggle.|Production Journal -> Output Journal</br><br/> **NOTE**: You can post output using **Production Journal**.|Assembly Order|Put-away is not applicable for projects|  
+|Basic|Order-by-order.|Require Put-away. </br><br/> **NOTE**: Although the setting is called **Require Put-away**, you can still post output from the source documents at locations where you select this checkbox. |Optional. Controlled by the **Bin Code is Mandatory** toggle.|Production Order -> Inventory Put-away|Assembly Order|Put-away is not applicable for projects|
+|Advanced|Consolidated put-away activities for multiple source documents.|Require Receipt + Require Put-away|Optional. Controlled by the **Bin Code is Mandatory** toggle.|Production Order(s) -> Output Journal|Assembly order(s) ->  internal movements | Put-away is not applicable for projects|
+|Advanced|Same as above + Directed pick/put-away activities|Directed Pick and Put-away (dependent toggles will be enabled automatically)|Mandatory|Same as above|Same as above| Put-away is not applicable for projects|
 
- The **To-Production Bin Code**, **From-Production Bin Code**, and **Open Shop Floor Bin Code** fields on the location card or the machine/work center cards define default flows to and from production areas.  
+Some configurations don't allow you use dedicated warehouse documents to register put-aways. However, if your location uses bins you can use generic movement documents to move produced or assembled items to warehouse. Learn more at [Move Items Internally in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
- For more information about how component consumption is flushed from the To-Production or Open Shop Floor bins, see the "Flushing Production Components in the Warehouse" section in this topic.  
+### Outbound flow (pick)
 
-### Flows to and from Assembly  
- The main integration between assembly orders and basic warehouse activities is represented by the ability to move assembly components to the assembly area.  
+|Complexity Level|Description|Settings|Bin Code|Outbound Flow of Production Order|Outbound Flow of Assembly Order|Outbound Flow of Projects|  
+|---|----------------|----------|---------|------------------|------------------|------------------|
+|No dedicated warehouse activity.|Posting from orders and journals.||Optional. Controlled by the **Bin Code is Mandatory** toggle.|Production Journal -> Consumption Journal </br><br/> **NOTE**: You can post consumption using a **Production Journal**.|Assembly Order|Project -> Project Journal|  
+|Basic|Order-by-order.|Require Pick. </br><br/> **NOTE**: Although the setting is called **Require Pick**, you can still post output from the source documents at locations where you select this checkbox. <!-- ToDo Test prod output-->|Optional. Controlled by the **Bin Code is Mandatory** toggle.|Production Order -> Inventory Pick|Assembly Order -> Inventory movement</br><br/>The **Inventory Movement** can be used only with bins.|Project -> Inventory Pick|
+|Advanced|Consolidated pick activities for multiple source documents.|Require Shipment + Require Pick|Optional. Controlled by the Bin Code is Mandatory toggle|Production Order(s) -> Warehouse Pick -> Consumption Journal |Assembly order(s) -> Warehouse Pick| Project(s) -> Warehouse Pick -> Project  Journal |
+|Advanced|Same as above + Directed pick/put-away activities|Directed Pick and Put-away (dependent toggles will be enabled automatically)|Mandatory|Same as above|Same as above| Directed pick and Put-away is not supported for projects|
 
- While no specific warehouse functionality exists for putting assembly items away, the bin code on the assembly order header may be set to a default put-away bin. Posting the assembly order then functions like posting a put-away. The warehouse activity to move assembly items into the warehouse can be managed on the **Internal Movement** page, with no relation to the assembly order.  
+Similar to the inbound flow, some configurations don't allow you use dedicated warehouse documents to register put-aways. If your location uses bins, you can use generic movement documents to move produced or assembled items. Learn more at [Moving Items](warehouse-move-items.md).
 
- The following assembly flows exist.  
+## Warehouses without dedicated warehouse activity
 
-|Flow|Description|  
-|----------|---------------------------------------|  
-|Assemble-to-stock|The components are needed on an assembly order where the output is stored in the warehouse.<br /><br /> This warehouse flow is managed on the **Inventory Movement** page. One take line specifies where to take the components. One place line specifies where to place the components.|  
-|Assemble-to-order|The components are needed on an assembly order that is linked to a sales order that is shipped when the sold item is assembled.|  
+Even if you don't have dedicated warehouse activities, you'll probably still want to keep track of things like consumption and production output. The following articles provide information about how to process receipts for source documents.
 
-> [!NOTE]  
->  If items are assembled to order, then the inventory pick of the linked sales order triggers an inventory movement for all the involved assembly components, not just for the sold item as when shipping inventory items.  
+* [Register Consumption and Output for One Released Production order line](production-how-to-register-consumption-and-output.md)
+* [Assemble Items](assembly-how-to-assemble-items.md)
+* [Record Consumption or Usage for Projects](projects-how-record-job-usage.md)
 
- The **To-Assembly Bin Code**, **From-Assembly Bin Code**, and **Asm.-to-Order Shpt. Bin Code** fields on the location card define default flows to and from assembly areas.  
+## Basic warehouse configuration
 
-> [!NOTE]  
->  The **Asm.-to-Order Shpt. Bin Code** field functions as the from-assembly bin in assemble-to-order scenarios.  
+The inbound and outbound flows in a basic warehouse configuration involve the following settings on the **Location Card** page for the location:
 
-### Ad-Hoc Movements  
- In basic warehousing, the movement of items from bin to bin without relation to source documents is performed on the **Internal Movement** page, which functions together with the **Inventory Movement** page.  
+* For the inbound flow (put-away), turn on the **Require Put-away** toggle, but turn off the **Require Receipt** toggle.
+* For the outbound flow (pick), turn on the **Require Pick** toggle, but turn off the **Require Shipment** toggle.
 
- Another way to move items ad hoc between bins is to post positive entries in the **New Bin Code** field on the **Item Reclass. Journal** page.  
+### Flows to and from production in a basic warehouse configuration  
 
-## Internal Flows in Advanced Warehousing  
- In advanced warehouse configurations, the flow of items between bins inside the company centers on picking component and putting away end items for production orders and picking components for assembly orders. In addition, internal flows occur as ad-hoc movements, such as bin replenishments, without relation to source documents.  
+Use **Inventory Pick** documents to pick production components in the flow to production. To put away the products you produce, use **Inventory Put-away** documents.
 
-### Flows To and From Production  
- The main integration between production orders and advanced warehouse activities is represented by the ability to pick production components, on the **Warehouse Pick** page and the **Pick Worksheet** page, and the ability to put produced items away with the **Whse. Internal-Put-away** page.  
+For locations that use bins, inventory movement documents are especially useful for component flushing. To learn more about how component consumption is flushed from To-Production or Open Shop Floor bins, go to [Flushing production components in the warehouse](warehouse-how-to-pick-for-production.md#flushing-production-components-in-a-basic-warehouse-configuration).
 
- Another integration point in production is provided with the **Warehouse Movement** page, together with the Movement Worksheet page, which enables you to place components and take produced items for released production orders.  
+   > [!NOTE]
+   > Inventory movements are important documents if you're using **Pick + Forward** or **Pick + Backward** flushing methods. Learn more at [Flushing methods](production-how-to-flush-components-according-to-operation-output.md#flushing-methods).
 
- The **To-Production Bin Code**, **From-Production Bin Code**, and **Open Shop Floor Bin Code** fields on the location card or the machine/work center cards define default flows to and from production areas.  
+* The **To-Production Bin Code**, **From-Production Bin Code**, and **Open Shop Floor Bin Code** fields on the location or the machine/work center define the default flows to and from production areas.
+* Manage the movement of produced items on the **Internal Movement** page without a relation to a production order.
 
- For more information about how component consumption is flushed from the To-Production or Open Shop Floor Bins, see the "Flushing Production Components in the Warehouse" section in this topic.  
+### Flows to and from assembly in a basic warehouse configuration  
 
-### Flows to and from Assembly  
- The main integration between assembly orders and advanced warehouse activities is represented by the ability to pick assembly components, both with the **Warehouse Pick** page and the **Pick Worksheet** page. This functionality works just like when picking components for production orders.  
+Post assembly output and consumption directly from an assembly order.
 
- While no specific warehouse functionality exists for putting assembly items away, the bin code on the assembly order header may be set to a default put-away bin. Posting the assembly order then functions like posting a put-away. The warehouse activity to move assembly items into the warehouse can be managed on the **Movement Worksheet** page or the **Whse. Internal Put-away** page, with no relation to the assembly order.  
+> [!NOTE]
+> **Inventory Pick** and **Inventory Put-away** documents aren't supported for assembly orders.
 
-> [!NOTE]  
->  If items are assembled to order, then the warehouse shipment of the linked sales order triggers a warehouse pick for all the involved assembly components, not just for the sold item as when shipping inventory items.  
+For locations that use bins:
 
- The **To-Assembly Bin Code** and **From-Assembly Bin Code** fields on the location card define default flows to and from assembly areas.  
+* Use **Inventory Movement** documents to move assembly components to the assembly area.
+* The **To-Assembly Bin Code**, **From-Assembly Bin Code** fields on the location card define default flows to and from assembly areas.
+* Manage the movement of assembled items on the **Internal Movement** page, without a relation to an assembly order.
 
-### Ad-Hoc Movements  
- In advanced warehousing, the movement of items from bin to bin without relation to source documents is managed on the **Movement Worksheet** page and registered in the Warehouse Movement page.  
+[!INCLUDE [prod_short](includes/prod_short.md)] supports assemble-to-stock and assemble-to-order assembly flows. Learn more at [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock). In relation to warehouse management, assemble-to-stock is part of the internal warehouse flow, and assemble-to-order is in the outbound warehouse flow. Learn more at [Handling Assemble-to-Order Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## Flushing Production Components in the Warehouse  
- If set up on the item card, components picked with warehouse picks are posted as consumed by the production order when the warehouse pick is registered. By using the **Pick + Forward** method and the **Pick + Backward** flushing method, the pick registration triggers the related consumption posting when the first operation starts or when the last operation finishes, respectively.  
+### Flows for project management in a basic warehouse configuration
 
- Consider the following scenario based on the [!INCLUDE[prod_short](includes/prod_short.md)] demonstration database.  
+Use **Inventory Pick** documents to pick project components in the flow to project management.
 
- A production order for 15 PCS of item LS-100 exists. Some of the items on the component list must be flushed manually in a consumption journal, and other items on the list can be picked and flushed automatically using the **Pick + Backward** flushing method.  
+For a location that uses bins, the **To-Project Bin Code** field on the location defines the default flows to project management.
 
-> [!NOTE]  
->  **Pick + Forward** only works if the second production routing line operation uses a routing link code. Releasing a planned production order initiates forward flushing of components set to **Pick + Forward**. However, the flushing cannot take place until the pick of the components is registered, which again can only take place when the order is released.  
+## Advanced warehouse configurations  
 
- The following steps describe the involved actions by different users and the related response:  
+The inbound and outbound flows in an advanced warehouse configuration involve the following settings on the **Location Card** page for the location:
 
-1.  The shop floor supervisor releases the production order. Items with **Forward** flushing method and no routing link code are deducted from the open shop floor bin.  
-2.  The shop floor supervisor chooses the **Create Warehouse Pick** button on the production order. A warehouse pick document is created pick for items with **Manual**, **Pick + Backward**, and **Pick + Forward** flushing methods. These items are placed in the To-Production bin.  
-3.  The warehouse manager assigns the picks to a warehouse worker.  
-4.  The warehouse worker picks the items from appropriate bins and places them in the To-Production bin or in the bin specified on the warehouse pick, which may be a work center or machine center bin.  
-5.  The warehouse worker registers the pick. The quantity is subtracted from the pick bins and added to the consumption bin. The **Qty. Picked** field on the component list for all picked items is updated.  
+* For the inbound flow (put-away), turn on the **Require Receipt** and **Require Put-away** toggles.
+* For the outbound flow (pick), turn on the **Require Ship** and **Require Receipt** toggles.
 
-    > [!NOTE]  
-    >  Only the quantity that is picked can be consumed.  
+### Flows to and from production in advanced warehouse configurations
 
-6.  The machine operator informs the production manager that the end items are finished.  
-7.  The shop floor supervisor uses the consumption journal or production journal to post the consumption of component items that use either **Manual** flushing method or **Forward** or **Pick + Forward** flushing methods together with routing link codes.  
-8.  The production manager posts the output of the production order and changes status to **Finished**. The quantity of component items that use **Backward** flushing method is deducted from the open shop floor bin, and the quantity of component items that use **Pick + Backward** flushing method is deducted from the To-Production bin.  
+Use the **Warehouse Pick** documents and the **Pick Worksheet** page to pick components for production.
 
- The following illustration shows when the **Bin Code** field on the component list is filled according to your location or machine/work center setup.  
+For locations that use bins:
 
- ![Overview of when/how the Bin Code field is filled in.](media/binflow.png "Overview of when/how the Bin Code field is filled in")  
+* **Warehouse Movement** documents and the **Movement Worksheet** page are especially useful for component flushing. Learn more at [Flushing production components in the warehouse](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md#flushing-production-components-in-an-advanced-warehouse-configuration).
+* The **To-Production Bin Code**, **From-Production Bin Code**, and **Open Shop Floor Bin Code** fields on the location or machine/work center define the default flows to and from production areas. 
+* Manage the movement of produced items on the **Movement Worksheet** or **Whse. Internal Put-away** pages, without a relation to a production order.
 
-## See Also  
- [Design Details: Warehouse Management](design-details-warehouse-management.md)
+### Flows to and from assembly in advanced warehouse configurations
 
+Use **Warehouse Pick** documents and the **Pick Worksheet** page to pick components for assembly.
+
+For locations that use bins:
+
+* The **To-Assembly Bin Code** and **From-Assembly Bin Code** fields on the location define the default flows to and from assembly areas.
+* Manage the movement of assembly items on the **Movement Worksheet** or **Whse. Internal Put-away** pages, without a relation to an assembly order.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] supports assemble-to-stock and assemble-to-order assembly flows. Learn more at [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock). 
+
+Assemble-to-stock is part of the internal warehouse flow, and assemble-to-order is in the outbound warehouse flow. Learn more at [Handling Assemble-to-Order Items in Warehouse Shipments](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
+
+### Flows to project management in advanced warehouse configurations
+
+Use **Warehouse Pick** documents and the **Pick Worksheet** page to pick components in the flow to project management.
+
+For locations that use bins, the **To-Projects Bin Code** field on the location defines the default flows to the project area.
+
+## See also  
+
+[Warehouse Management Overview](design-details-warehouse-management.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

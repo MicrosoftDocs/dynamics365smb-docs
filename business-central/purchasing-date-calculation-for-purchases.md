@@ -1,18 +1,17 @@
 ---
-    title: Calculate Dates for Purchases
-    description: This article describes how you can calculate dates for purchases. 
-    author: brentholtorf    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
-    ms.search.forms: 
-    ms.date: 02/06/2022
-    ms.author: bholtorf
-
+title: Calculate Dates for purchases
+description: This article describes how you can calculate dates for purchases. 
+author: brentholtorf 
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
+ms.search.forms: 
+ms.date: 04/20/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Calculate Dates for Purchases
+# Calculate Dates for purchases
 
 If you want to have items in inventory on a certain date, [!INCLUDE[prod_short](includes/prod_short.md)] can automatically calculate the date on which you must order them. 
 
@@ -39,9 +38,9 @@ If you specify a requested receipt date on a purchase order line, that date is a
 > [!NOTE]
 > If your process is based on backward calculation, for example, if you use the requested receipt date to get the order date, we recommend that you use date formulas that have fixed durations, such as "5D" for five days or "1W" for one week. Date formulas without fixed durations, such as "CW" for current week or CM for current month, can result in incorrect date calculations. For more information about date formulas, see [Work with Calendar Dates and Times](ui-enter-date-ranges.md).
 
-## Calculating without a requested delivery date
+## Calculating without a requested receipt date
 
-If you enter a purchase order line without a requested delivery date, the **Order Date** field on the line shows the date in the **Order Date** field on the purchase order header. This date is either the date you entered or the work date. The dates are then calculated for the purchase order line, with the order date as the starting point, as follows:  
+If you enter a purchase order line without a requested receipt date, the **Order Date** field on the line shows the date in the **Order Date** field on the purchase order header. This date is either the date you entered or the work date. The dates are then calculated for the purchase order line, with the order date as the starting point, as follows:  
 
 - order date + lead time calculation = planned receipt date  
 - planned receipt date + inbound whse. handling time + safety lead time = expected receipt date  
@@ -58,8 +57,6 @@ You can manually specify the date formula on lines. Otherwise, [!INCLUDE[prod_sh
 2. Item Card
 3. Stockkeeping Unit Card
 4. Vendor Card
-
-## See related [Microsoft training](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
 
 ## See also
 

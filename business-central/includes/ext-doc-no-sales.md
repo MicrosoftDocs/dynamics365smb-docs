@@ -1,10 +1,10 @@
 ---
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: include
 ms.date: 05/27/2021
-ms.author: edupont
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 On sales documents and journals, you can specify a document number that refers to the customer's numbering system. <!--You can enter a maximum of ten characters, both numbers and letters.--> Use this field to record the number that the customer assigned to the order, invoice, or credit memo. You can then use the number later if, for some reason, you need to search for the posted entry using this number.  

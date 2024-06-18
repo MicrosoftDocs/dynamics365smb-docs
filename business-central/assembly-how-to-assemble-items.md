@@ -1,80 +1,72 @@
 ---
 title: Assemble Items
-description: If the Replenishment System field on the item card contains Assembly the default method of supplying the item is to assemble it from defined components.
-author: SorenGP
-
-    
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+description: Learn about assemble-to-order and assemble-to-stock processes in Business Central.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.topic: how-to
+ms.date: 11/23/2022
 ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
-ms.date: 06/14/2021
-ms.author: edupont
-
+ms.custom: bap-template
 ---
 # Assemble Items
 
-If the **Replenishment System** field on the item card contains **Assembly**, then the default method of supplying the item is to assemble it from defined components and potentially by a defined resource.  
+If the **Replenishment System** field on the item card contains **Assembly**, the default method of supplying the item is to assemble it according to an assembly BOM, and potentially by a specific resource. Learn more at [Work with Assembly BOMs](assembly-how-work-assembly-boms.md). Learn more about how to set up an assembly item at [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-The components and resources that go into this kind of an assembly item must be defined in an assembly BOM. For more information, see [Work with Bills of Material](inventory-how-work-BOMs.md).  
+You can set up assembly items for two assembly processes.
 
-Assembly items can be set up for two different assembly processes:  
-
--   Assemble to stock.  
--   Assemble to order.  
-
-You typically use **Assemble to Stock** for items that you want to assemble ahead of sales, such as to prepare for a kit campaign, and keep in stock until they are ordered. These items are usually standard items such as packaged kits that you do not offer to customize to customer requests.  
-
-You typically use **Assemble to Order** for items that you do not want to stock because you expect to customize them to customer requests or because you want to minimize the inventory carrying cost by supplying them just in time. For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).  
-
-For more information about how to set up an assembly item, see [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).  
-
-These setup options are default settings that manage how sales and assembly order lines are initially processed. You can depart from these defaults and supply the assembly item in the most optimal way when processing a sale. For more information, see [Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) and [Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
+|Process  |Description  |
+|---------|---------|
+|Assemble to stock     | Items that you assemble and stock for future sales. For example, kits for an upcoming sales campaign. The items aren't related to a sales order, at least not yet. Typically, these items aren't customized for customer requests.        |
+|Assemble to order     | Items that you don't want to stock. For example, because they're customized based on customer orders or to reduce the cost of on-hand inventory. |
+  
+This article describes the standard settings for assemble to stock. There might be other ways that are more suited for your business though. Learn more at [Sell Inventory Items in Assemble-to-Order Flows](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) and [Sell Assemble-to-Order Items and Inventory Items Together](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
 
 > [!NOTE]  
-> Assembly components are handled in a special way in basic warehouse configurations. For more information, see the “Handling Assemble-to-Order Items in Inventory Picks” section in [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md).   
+> Assembly components are handled in a special way in basic warehouse configurations. Learn more at [Handling Assemble-to-Order Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-In this procedure, you create and process an assembly order for items that are assembled to stock, which means without a linked sales order. The steps include initiating the assembly order, handling potential component availability issues, and partially posting assembly item output.
+## To assemble an item to stock
 
-## To assemble an item
+Follow the steps in this procedure to assemble an item to stock. To learn about assemble to order, go to [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assembly Orders**, and then choose the related link.  
-2.  Choose the **New** action. The **New Assembly Order** page opens.  
-3.  Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  In the **Item No.** field, select the assembly item that you want to process. The field is filtered to show only items that are set up for assembly, which means that they have assembly BOMs assigned.  
-5.  In the **Quantity** field, enter how many units of the item that you want assembled.  
-
-    > [!NOTE]  
-    >  If one or more components are not available to fulfill the entered assembly item quantity on the defined due date, then the **Assembly Availability** page automatically opens to provide detailed information about how many assembly items can be assembled based on component availability. For more information, see [View the Availability of Items](inventory-how-availability-overview.md). When you close the page, the assembly order is created with availability alerts on the affected component lines.  
-
-    The assembly order lines are automatically filled with the contents of the assembly BOM and with line quantities according to the assembly order header.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assembly Orders**, and then choose the related link.  
+2. Choose the **New** action. The **New Assembly Order** page opens.  
+3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. In the **Item No.** field, select the item that you want to assemble. You can select items that are set up for assembly and have an assembly BOM, or items without an assembly BOM. The latter is useful for unplanned assemblies or scenarios when you want to use item reclassification and track costs.  
+5. In the **Quantity** field, enter how many units of the item that you want assembled.  
 
     > [!NOTE]  
-    >  If the **Assembly Availability** page opened when you filled in the assembly order header, then each affected assembly order line contains a **Yes** in the **Avail. Warning** field with a link to detailed availability information. For more information, see Check Availability. You can resolve a component availability issue by postponing the starting date, replacing the component with another item, or selecting an available substitution if one is defined.  
+    >  If one or more components are not available to fulfill quantity on the due date, the **Assembly Availability** page opens. The page shows how many assembly items can be assembled based on component availability. Learn more at [View the Availability of Items](inventory-how-availability-overview.md). When you close the page, the assembly order is created with availability alerts on the lines for the affected components.  
 
-6.  In the **Quantity to Assemble** field, enter how many units of the assembly item that you want to post as output the next time that you post the assembly order. This quantity can be lower than the value in the **Quantity** field to reflect a partial output posting.  
+    The lines contain the contents of the assembly BOM and the specified quantities.  
+
+    > [!NOTE]  
+    >  If the **Assembly Availability** page opened when you filled in the assembly order header, each affected assembly order line contains a **Yes** in the **Avail. Warning** field with a link to detailed availability information. <!--check whether this field help is useful For more information, see Check Availability.--> You can resolve a component availability issue by:
+
+    > * Postponing the starting date.
+    > * Replacing the component with another item.
+    > * Selecting an available substitution if one is defined.  
+
+6. In the **Quantity to Assemble** field, enter how many units of the assembly item that you want to post as output the next time you post the assembly order. This quantity can be lower than the value in the **Quantity** field to reflect a partial output posting.  
 
     > [!NOTE]  
     >  To make sure that component consumption posting matches the assembly item output posting, the quantity fields in the assembly order lines automatically adjust to the value that you enter in the **Quantity to Assemble** field.  
-7.  On assembly order lines of type **Item** or **Resource**, in the **Quantity to Consume** field, specify how many units you want to post as consumed the next time that you post the assembly order.
-8.  When you are ready to partially or fully post, choose the **Post** action.  
+7. On assembly order lines of type **Item** or **Resource**, in the **Quantity to Consume** field, specify how many units you want to post as consumed the next time that you post the assembly order.
+8. When you are ready to partially or fully post, choose the **Post** action.  
 
     > [!NOTE]  
-    >  If warnings are still present in any of the assembly order lines, then the posting is blocked. A message about which component or components are not in inventory is displayed.  
+    >  If warnings are still present in the assembly order lines, you can't post the order. A message displays the component or components that are not in inventory.  
 
 After posting succeeds, the assembly item is posted as output to the location code and potential bin code that are defined on the assembly order. For manually created assembly orders, the location may be copied from the **Default Location for Orders** setup field. For assemble-to-order flows, the location code may be copied from the sales order line.  
-
-## See related [Microsoft training](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## See also
 
 [Assembly Management](assembly-assemble-items.md)  
-[Work with Bills of Material](inventory-how-work-BOMs.md)  
+[Work with Assembly BOMs](assembly-how-work-assembly-boms.md)  
 [Inventory](inventory-manage-inventory.md)  
-[Design Details: Warehouse Management](design-details-warehouse-management.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Warehouse Management Overview](design-details-warehouse-management.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

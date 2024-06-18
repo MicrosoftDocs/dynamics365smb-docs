@@ -1,17 +1,15 @@
 ---
-    title: How to Set Up Shipping Agents
-    description: Learn how to set up a code for each of your shipping agents and enter descriptive information about each of them and the services they provide.
-    author: SorenGP
+title: How to Set Up Shipping Agents
+description: Learn how to set up a code for each of your shipping agents and enter descriptive information about each of them and the services they provide.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/23/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/23/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Shipping Agents
 You can set up a code for each of your shipping agents and enter information about them.  
@@ -35,11 +33,10 @@ When you have assigned a shipping agent service to a sales order line, the shipp
 ## See Also
 [Set Up Shipment Methods](sales-how-set-up-shipment-methods.md)  
 [Track Packages](sales-how-track-packages.md)    
-[Warehouse Management](warehouse-manage-warehouse.md)  
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Inventory](inventory-manage-inventory.md)  
 [Setting Up Warehouse Management](warehouse-setup-warehouse.md)     
 [Assembly Management](assembly-assemble-items.md)    
-[Design Details: Warehouse Management](design-details-warehouse-management.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

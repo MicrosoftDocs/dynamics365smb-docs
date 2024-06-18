@@ -1,27 +1,29 @@
 ---
-    title: OIOUBL Electronic Invoicing Overview | Microsoft Docs
-    description: Learn about how Business Central support you in the requirement for sending sales documents to the Danish public sector electronically in the OIOUBL format.
-    author: edupont04
+title: OIOUBL Electronic Invoicing Overview | Microsoft Docs
+description: Learn about how Business Central support you in the requirement for sending sales documents to the Danish public sector electronically in the OIOUBL format.
+author: brentholtorf
 
     
-    ms.topic: overview
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
+ms.topic: overview
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/11/2022
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # OIOUBL Electronic Invoicing Overview
+
 Companies must send sales invoices, credit memos, finance charge memos, and reminders to the Danish public sector electronically in the Offentlig Information Online UBL (OIOUBL) format. If a company does not send these documents electronically, the authorities can deny payment.  
 
-For more information about OIOUBL electronic invoicing, see [oioubl.info](http://www.oioubl.info/classes/da/index.html).  
+Learn more about OIOUBL electronic invoicing at [oioubl.info](http://www.oioubl.info/classes/da/index.html).  
 
 ## Implementation in [!INCLUDE[prod_short](../../includes/prod_short.md)]  
-The current requirements for sending electronic invoices are based on OIOUBL, which is based on the Universal Business Language (UBL) version 2.0 standard. For more information, see the [OASIS UBL](https://aka.ms/OasisUblSite) web site. The generated XML documents can then be sent to the customer.  
 
-To send documents electronically, you must assign European Article Numbering (EAN) location numbers and account codes to the relevant customers on the **Customer Card** page. For more information, see [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md). These numbers are the included when you create documents, and post or issue them. After the documents have been posted or issued, you can create electronic versions to be sent to the customer. You can submit the following types of documents:  
+The current requirements for sending electronic invoices are based on OIOUBL, which is based on the Universal Business Language (UBL) version 2.0 standard. Learn more at [OASIS UBL](https://aka.ms/OasisUblSite) web site. The generated XML documents can then be sent to the customer.  
+
+To send documents electronically, you must assign European Article Numbering (EAN) location numbers and account codes to the relevant customers on the **Customer Card** page. Learn more at [Set Up Customers for OIOUBL](how-to-set-up-customers-for-oioubl.md). These numbers are the included when you create documents, and post or issue them. After the documents have been posted or issued, you can create electronic versions to be sent to the customer. You can submit the following types of documents:  
 
 - Sales invoice  
 - Service invoice  
@@ -30,7 +32,7 @@ To send documents electronically, you must assign European Article Numbering (EA
 - Finance charge memo  
 - Reminder  
 
-The electronic documents are stored in the locations that are defined in the Sales & Receivables Setup.  
+In the online version of [!INCLUDE [prod_short](../../includes/prod_short.md)] and the web client for on-premises versions, the XML file is created in your Downloads folder. For on-premises versions, the XML file is stored in the location defined on the Sales & Receivables Setup page.  
 
 ## OIOUBL Profiles
 

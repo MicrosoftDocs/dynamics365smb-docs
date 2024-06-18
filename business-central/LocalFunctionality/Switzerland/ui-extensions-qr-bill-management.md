@@ -3,14 +3,14 @@ title: QR-Bill Management [CH]
 description: This article describes the enhancements for the QR-Bill Management extension and how you can use Business Central to easily generate, send, and import your QR-bills.
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: QR-bill, invoice, incoming documents, payment reference
 ms.search.form: 11502, 11510, 11511, 11512, 11513, 11514, 11515, 11516, 11517, 11518
-ms.date: 03/22/2022
+ms.date: 04/05/2023
 ms.author: soalex
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # QR-Bill Management in the Swiss Version of Business Central
 
@@ -102,7 +102,38 @@ Receiving a QR-bill through incoming documents is especially useful when the pro
 From the incoming document you can create a purchase journal or a purchase invoice, and the payment reference from the QR-bill is assigned to both. Learn more at [Working with Incoming Documents](../../across-income-documents.md).
 
 > [!NOTE]
-> When you import QR-bills, [!INCLUDE[prod_short](../../includes/prod_short.md)] will try to find a vendor bank account that has a matching IBAN or QR-IBAN. When you import QR-bills on incoming documents, a document or purchase journal is created and the vendor bank account will determine the vendor to use. The incoming document approach helps ensure that the correct vendor is assigned.
+> When you import QR-bills, [!INCLUDE[prod_short](../../includes/prod_short.md)] will look for a vendor bank account that has a matching IBAN or QR-IBAN. When you import QR-bills on incoming documents, a document or purchase journal is created and the vendor bank account determines the vendor to use. The incoming document approach helps ensure that the correct vendor is assigned. 
+
+#### Receiving through the Kofax OCR service
+
+> [!NOTE]
+> If existing companies in [!INCLUDE[prod_short](../../includes/prod_short.md)] want a QR reference to be returned when they use the Kofax OCR service, they must update the existing data exchange definition that's used as **Data Exchange Type** for processing invoices in incoming documents.  
+
+Complete the following steps to update an existing data exchange definition. 
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Exchange Definitions**, and then select the related link. 
+2. In the **Data Exchange Definitions** list, find the line you want to update, and open the card. 
+3. On the **Line Definitions** FastTab, select **OCRINVHEADER**.  
+4. On the **Column Definitions** FastTab, create a new line, and enter the following values.
+
+    | Field | Value |
+    |-------|-------|
+    | **Column No.** | 11513 |
+    | **Name** | Swiss QR-Bill Reference No. |
+    | **Description** | Swiss QR-Bill Reference No. |
+    | **Path** | /Document/HeaderFields/HeaderField\[Type\[text()='qrreference'\]\]/Text |
+    
+5. On the **Line Definitions** FastTab, select **Field Mapping**.  
+6. On the **Field Mapping** page, create a new line, and enter the following values.
+
+    | Field | Value |
+    |-------|-------|
+    | **Column No.** | 11513 |
+    | **Target Table ID** | 38 |
+    | **Target Field ID** | 171 |
+    | **Validate Only** | False |
+
+7. Close the pages.  
 
 ### Receiving a QR-bill through purchase orders or purchase invoices
 
@@ -110,7 +141,9 @@ Receiving a QR-bill through a purchase order or purchase invoice validates the i
 
 * To add a QR-bill to an existing purchase document, select the target document and then choose either the **Scan QR-Bill** or the **Import Scanned QR-Bill File** action on either the **Purchase Orders** or **Purchase Invoices** page.
 
-When the QR-bill is scanned or imported to the purchase document, the amount, payment reference, and other information from the QR-bill are added. This data is used for validation before posting the purchase document. Posting will be blocked if the amount on the order or invoice does not match the amount on the QR-bill. Validation also happens when you scan or import the QR-bill. If the payment reference is already in use on a vendor ledger entry for a vendor, an error displays. Vendors cannot issue multiple QR-bills with the same payment reference. Similarly, an error displays if the QR-bill and payment reference have already been imported to an open purchase document.
+When the QR-bill is scanned or imported to the purchase document, the amount, payment reference, and other information from the QR-bill are added. This data is used to validate the purchase document before it's posted. Posting is blocked if the amount on the order or invoice doesn't match the amount on the QR-bill. Validation also happens when you scan or import the QR-bill. If you upload the QR-Bill that doesn't contain the **Amount**, for example if the decoded QR-Bill has a blank line where amount should be, after you upload, the **QR-Bill** section is shown on the **Purchase Invoice** page. The **Amount** field of the **QR-Bill** section can be edited and you can add the appropriate amount to this field. If an uploaded QR-Bill does have value in the **Amount** field, it's automatically set to the **Amount** field of the **QR-Bill** section, but the field can still be edited.  
+
+If the payment reference is already in use on a vendor ledger entry for a vendor, an error occurs. Vendors can't issue multiple QR-bills with the same payment reference. Similarly, an error occurs if the QR-bill and payment reference have already been imported to an open purchase document.
 
 ### Receiving a QR-bill through a purchase journal
 

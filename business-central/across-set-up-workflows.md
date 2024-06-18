@@ -1,17 +1,16 @@
 ---
-title: Set Up Approval Workflows (contains video)
+title: Set up approval workflows
 description: Set up workflows, workflow users and approval users to connect business-process system tasks performed by these different users.
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords:
-ms.date: 09/13/2022
-ms.author: edupont
-
+ms.date: 05/07/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Set Up Approval Workflows
+# Set up approval workflows
 
 You can set up and use workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps. Learn more at [Use Approval Workflows](across-use-workflows.md).
 
@@ -42,8 +41,6 @@ This video shows how to set up a workflow requiring a user to request someone el
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
-
-## See related [Microsoft training](/training/modules/create-workflows/)
 
 ## See also
 

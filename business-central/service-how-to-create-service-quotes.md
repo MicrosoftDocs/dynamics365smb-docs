@@ -1,17 +1,15 @@
 ---
-    title: How to Create Service Quotes
-    description: Learn how to use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.
-    author: SorenGP
+title: How to Create Service Quotes
+description: Learn how to use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/23/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/23/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Create Service Quotes
 You can think of service quotes as the basis for service orders. In fact, they are almost identical. They both contain information such as who the customer is, the type of order, the item that needs service, billing and shipping information, and information about the actual service work.
@@ -21,7 +19,7 @@ You can use a service quote as a preliminary draft for a service order, and then
 ## To create a service quote  
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Quotes**, and then choose the related link.  
 2. Create a new service quote.  
-3. In the **No.** field, enter a number for the service quote. Alternatively, if you have set up a number series for service quotes on the **Service Mgt. Setup** page, you can press Enter to select the next available service quote number.  
+3. In the **No.** field, enter a number for the service quote. Alternatively, if you have set up a number series for service quotes on the **Service Mgt. Setup** page, you can select <kbd>Enter</kbd> to select the next available service quote number.  
 4. In the **Customer No.**  field, select the relevant customer from the list.  
 
   > [!Note]  

@@ -1,17 +1,15 @@
 ---
 title: Defining and Allocating Costs
 description: Cost allocations move costs and revenues between cost types, cost centers, and cost objects. You can define as many allocations as you need.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 1102, 1105, 1106, 1107, 1109, 1114
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Defining and Allocating Costs
 
@@ -59,7 +57,7 @@ The dynamic allocation method is based on changeable values. For example, the nu
 
 ### Setting Filters
 
-The following table shows which filters are possible for different allocation bases and which values are valid in the **No. Filter** and **Group Filter** fields. Press F1 in the **Date Filter Code** field to read detailed descriptions.  
+The following table shows which filters are possible for different allocation bases and which values are valid in the **No. Filter** and **Group Filter** fields. Select <kbd>F1</kbd> in the **Date Filter Code** field to read detailed descriptions.  
 
 |**Base**|**No. Filter**|**Date Filter Code**|**Cost Center Filter**|**Cost Object Filter**|**Group Filter**|  
 |--------------|----------------------------------------|----------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------|  
@@ -86,7 +84,7 @@ This topic describes how to define three new allocation target cost objects for 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocation**, and then choose the related link.  
 2. On the **Cost Allocation** page, choose the **New** action.  
-3. In the **ID** field, press Enter or enter an ID.  
+3. In the **ID** field, select <kbd>Enter</kbd> or enter an ID.  
 4. In the **Level** field, enter **1**.  
 5. In the **Valid From** and **Valid To** fields, enter appropriate dates.  
 6. In the **Cost Center Code** field, enter **PROD**.  
@@ -124,7 +122,7 @@ This topic shows an example of how to define allocations by using the dynamic al
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cost Allocations**, and then choose the related link.  
 2. On the **Cost Allocation** page, choose the **New** action.  
-3. In the **ID** field, press Enter or enter an ID.  
+3. In the **ID** field, select <kbd>Enter</kbd> or enter an ID.  
 4. In the **Level** field, enter **1**.  
 5. In the **Valid From** and **Valid To** fields, enter appropriate dates.  
 6. In the **Cost Center Code** field, enter **SALES**.  
@@ -139,8 +137,6 @@ This topic shows an example of how to define allocations by using the dynamic al
 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] uses the previous years’ sales figures to calculate a share of 1596.50 LCY with 100 percent for the IT EQUIPMENT packages. This means that all of the items sold last year will be allocated to the cost object IT EQUIPMENT.
-
-## See related [Microsoft training](/training/modules/allocate-costs-dynamics-365-business-central/)
 
 ## See also
 

@@ -1,27 +1,26 @@
 ---
-title: Mexico Local Functionality
-description: The following topics provide descriptions of the local functionality in the Mexican version of Business Central.
-author: SorenGP
-
-
+title: Mexico local functionality
+description: The following articles provide descriptions of the local functionality in the Mexican version of Business Central.
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 10/14/2021
-ms.author: edupont
-
+ms.date: 02/05/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Mexico Local Functionality
+# Mexico local functionality
 
-The following topics describe local functionality that is unique to the Mexican version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following articles describe local functionality that is unique to the Mexican version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Feature Availability  
+## Feature availability  
 
 * Tax
     * [Set Up and Generate DIOT Reports](ui-extensions-setup-and-generate-diot-report-mx.md) **Available Now**
     * [Tax Identification Types for Mexico](tax-identification-types-for-mexico.md) **Available Now**
     * [VAT Recalculation](vat-recalculation.md) **Available Now**
 
-* Electronic Invoicing (updated to CFDI 4.0)
+* Electronic invoicing (updated to CFDI 4.0)
     * [Electronic Invoicing](electronic-invoicing.md) **Available Now**
     * [Set Up Electronic Invoicing](how-to-set-up-electronic-invoicing.md) **Available Now**
     * [Generate Electronic Invoices](how-to-generate-electronic-invoices.md) **Available Now**
@@ -33,10 +32,18 @@ The following topics describe local functionality that is unique to the Mexican 
     * [Print Troubleshooting Reports](how-to-print-troubleshooting-reports.md) **Available Now**
     * [Create Deposits](how-to-create-deposits.md) **Available Now**
 
-## See Also
+## Future legislation requirements being investigated
+
+* Carta Porte Complement 3.0 update **Planned for 23.4**
+* Rounding in electronic invoice documents **Planned for 24.1**  
+
+If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
+## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
 

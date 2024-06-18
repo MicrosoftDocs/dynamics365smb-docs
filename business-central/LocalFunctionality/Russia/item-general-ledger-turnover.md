@@ -7,8 +7,9 @@ author: DianaMalina
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Item General Ledger Turnover
@@ -51,7 +52,7 @@ The window contains fields with the information listed in the following table. Y
 
 To display the selected item card
 
-- Choose the **Item** button and then **Card** (Shift+F5 Hot Key).
+- Choose the **Item** button and then **Card** (<kbd>Shift</kbd>+<kbd>F5</kbd> key).
 
 To print the **Item Turnover (Qty.)** or **Item Turnover Checklist** reports.
 

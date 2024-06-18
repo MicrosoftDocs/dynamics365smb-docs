@@ -1,19 +1,20 @@
 ---
-title: Set up and use the IRS 1099 Form [US]
+title: Set up and use the IRS 1099 form [US]
 description: Learn how to set up the 1099 tax form boxes so that you can submit the required reports.
 author: altotovi
-
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: local, 1099
 ms.search.form: 26, 29, 50, 51, 10015, 10016, 10018, 10900
-ms.date: 06/10/2022
+ms.date: 03/28/2024
 ms.author: altotovi
-ms.reviewer: edupont
-
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# Set Up and Use the IRS 1099 Form in the US Version
+# Set up and use the IRS 1099 form
+
+> [!IMPORTANT]
+> From version 24.0, you can start using this new 1099 functionality for better transparency, integration, and automation. To do this, you must enable this new feature using the **Feature Management** page. You can find more details [here](introduction-to-the-irs-forms.md). If you do not enable it earlier, [!INCLUDE[prod_short](../../includes/prod_short.md)] will automatically do it with the version 27.0, so we recommend to start using the new version right now.  
 
 The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax form for payments to vendors. Copies of these forms must be sent to vendors annually on or before the last day of January. On your purchase documents, you can specify that the document is 1099 liable, and you can specify the 1099 code for the vendor.
 
@@ -21,12 +22,15 @@ The Internal Revenue Service (IRS) requires one or more versions of the 1099 tax
 
 Before you start using [!INCLUDE[prod_short](../../includes/prod_short.md)], you must set up **1099 Form Boxes** and **Vendors** as 1099 liable. The most common 1099 codes are already set up for you, and they're defined on the **1099 Form Box** page, where you can also add new 1099 codes. Before you prepare your reporting for the new year, you must first update your [!INCLUDE[prod_short](../../includes/prod_short.md)] to handle the new requirements.
 
-### To update the 1099 Form Boxes
+### To update the 1099 form boxes
 
 In order to support the form changes by the IRS, [!INCLUDE[prod_short](../../includes/prod_short.md)] offers the **Update Form Boxes** action to include new codes and other requirements in the 1099 form. For more information, see [Regulatory 1099 Format Changes and Details](tax-1099-changes.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **1099 Form Boxes**, and then choose the related link.
 2. Choose the **Update Form Boxes** action.  
+
+> [!NOTE] 
+> Don't fill out the 1099 form boxes manually. Instead, select **Update Form Boxes**.
 
 > [!IMPORTANT]
 > Running the action **Update Form Boxes** makes reporting for the previous year impossible, since some boxes change their meaning. Make sure that you have done all your reporting for the previous year before you update the form boxes to prepare your system for reporting for the new year.
@@ -86,7 +90,7 @@ Once the document is posted, you can go to the **Vendor Ledger Entries** list pa
    - **Vendor 1099 Div** - Prints the federal form 1099-DIV for dividends and distribution. You can print all or specific 1099-DIV forms. The report uses the codes that apply to the DIV form amount boxes from the **1099 Form Boxes** page.
    - **Vendor 1099 Int** - Prints the federal form 1099-INT for interest income. You can print all or specific 1099-INT forms. The report uses the codes that apply to the INT form amount boxes from the **1099 Form Boxes** page.
    - **Vendor 1099 Misc** - Prints the federal form 1099-MISC for miscellaneous income. You can print all or specific 1099-MISC forms. The report uses the codes that apply to the MISC form amount boxes from the **1099 Form Boxes** page.
-   - **Vendor 1099 Nec** – Prints the federal form 1099-NEC for non-employee compensation. You can print all or specific 1099-NEC forms. The report uses the codes that apply to the NEC form amount boxes from the **1099 Form Boxes** page.
+   - **Vendor 1099 Nec** – Prints the federal form 1099-NEC for nonemployee compensation. You can print all or specific 1099-NEC forms. The report uses the codes that apply to the NEC form amount boxes from the **1099 Form Boxes** page.
 
 > [!NOTE]
 > Regulatory changes affecting this report and the table data are generally handled in end-of-year updates. For more information, see [Regulatory 1099 Form Box Changes](tax-1099-changes.md).

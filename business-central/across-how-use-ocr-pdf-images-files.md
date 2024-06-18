@@ -2,17 +2,14 @@
 title: Use OCR to Turn PDF into E-Invoices
 description: Describes how you can use an OCR service to convert incoming PDF or image files to electronic documents.
 documentationcenter: ''
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/14/2022
-ms.author: edupont
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Use OCR to Turn PDF and Image Files into Electronic Documents
 
@@ -47,7 +44,7 @@ From your email application, you can forward an email to the OCR service provide
 Since no incoming document record exists for the file, a new record will be created automatically on the **Incoming Documents** page when the OCR service sends the resulting electronic document. For more information, see [Create Incoming Document Records](across-how-create-income-document-records.md).
 
 > [!NOTE]  
-> If you work on a tablet or phone, you can send the file to the OCR service as soon as you have taken a photo of the document, or you can create an incoming document directly. For more information, see [Create an incoming document record by taking a photo](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
+> If you work on a tablet or phone, you can send the file to the OCR service as soon as you have taken a photo of the document, or you can create an incoming document directly. For more information, see [Create an incoming document record by taking a photo](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo).
 
 ## To receive the resulting electronic document from the OCR service
 
@@ -122,8 +119,6 @@ The **OCR Data Correction** page, which you open from the **Incoming Document** 
 7. To save the corrections, close the **OCR Data Correction** page.
 
 The fields on the **Financial Information** FastTab on the **Incoming Document** page are updated with any new values that you entered in step 4.
-
-## See related [Microsoft training](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## See also
 

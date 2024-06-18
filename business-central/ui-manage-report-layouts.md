@@ -3,14 +3,12 @@ title: Managing Report and Document Layouts
 description: Use report layouts to customize documents, for example, to personalize the font, logo, or page settings of PDF files you send to customers.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9652, 9650
-ms.date: 04/01/2021
+ms.search.form: 9652, 9650, 9660
+ms.date: 01/18/2024
 ms.author: jswymer
-
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Report and Document Layouts Overview
 
@@ -88,7 +86,7 @@ In addition to the type, layouts are further divided into three categories, base
 
 * Custom layouts
 
-  Custom layouts are also layouts that are created by users. The difference is that these layouts are created from the legacy **Custom Report Layouts** page, and they can only be Word and RDLC type. Although you can still create custom layouts, they're being phased out in favor of user-defined layouts.
+  Custom layouts are also layouts that are created by users. The difference is that these layouts are created from the legacy **Custom Report Layouts** page, and they can only be Word and RDLC type. Although you can still create custom layouts, they're being phased out in favor of user-defined layouts (see above).
 
   For more information, see [(Legacy) Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md).
 
@@ -118,11 +116,6 @@ Deciding on whether to use a Word, Excel, or RDLC layout type will depend on how
 For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
 
 -->
-
-
-
-## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## See Also
 
 [Update Custom Report Layouts](ui-update-report-layouts.md)  

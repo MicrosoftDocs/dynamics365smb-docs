@@ -1,135 +1,121 @@
 ---
-    title: Design Details - Outbound Warehouse Flow
-    description: This topic talks about the sequence of the outbound warehouse flow from released source documents to ready-to-ship items.
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/15/2021
-    ms.author: edupont
-
+title: Outbound Warehouse Process Overview
+description: This article describes the outbound warehouse workflow.
+author: brentholtorf
+ms.author: bholtorf 
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.topic: conceptual
+ms.date: 02/05/2024
+ms.custom: bap-template    
 ---
-# Design Details: Outbound Warehouse Flow
+# Outbound Warehouse Processes
 
-The outbound flow in the warehouse begins with a request from released source documents to bring the items out of the warehouse location, either to be shipped to an external party or to another company location. From the storage area, warehouse activities are performed at different complexity levels to bring the items out to the shipping docks.  
+Outbound processes in warehouses start when you release a source document to take items out of a warehouse location. For example, either to ship the items somewhere or to move them to another company location. You can ship physical and non-inventory items. To learn more about receiving non-inventory items, go to [Post non-inventory items](#post-non-inventory-items). 
 
- Each item is identified and matched to a corresponding inbound source document. The following outbound source documents exist:  
+In principle, the process of shipping outbound orders consists of two activities:
 
-- Sales order  
-- Outbound transfer order  
-- Purchase return order  
-- Service order  
+* Picking items from the shelves.
+* Shipping items out of the warehouse.
 
-In addition, the following internal source documents exist that function like outbound sources:  
+The source documents for outbound warehouse flow are:  
 
-- Production order with component need  
-- Assembly order with component need  
+* Sales order  
+* Outbound transfer order  
+* Purchase return order  
+* Service order  
 
- The last two documents represent outbound flows from the warehouse to internal operation areas. For more information about warehouse handling for internal inbound and outbound processes, see [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md).  
+> [!NOTE]
+> Production and assembly orders with component needs also represent outbound source documents. Production and assembly orders are a little different because they're typically internal processes that don't involve shipping. Instead, they're used to put-away produced items or move the components needed to assemble an item to an assembly area. Learn more about these processes at [Design Details: Internal Warehouse Flows](design-details-internal-warehouse-flows.md).  
 
- Processes and UI documents in outbound warehouse flows are different for basic and advanced warehouse configurations. The main difference is that activities are performed order-by-order in basic warehouse configurations, and they are consolidated for multiple orders in advanced warehouse configurations. For more information about different warehouse complexity levels, see [Design Details: Warehouse Overview](design-details-warehouse-setup.md).  
+In [!INCLUDE[prod_short](includes/prod_short.md)], you pick and ship items using one of four methods, as described in the following table.
 
- In [!INCLUDE[prod_short](includes/prod_short.md)], the outbound processes of picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
+|Method|Outbound Process|Require Pick|Require Shipment|Complexity Level (Learn more at [Warehouse Management Overview](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Post the pick and shipment from the order line|||No dedicated warehouse activity.|  
+|B|Post the pick and shipment from an inventory pick document|Turned on||Basic: Order-by-order.|  
+|C|Post the pick and shipment from a warehouse shipment document||Turned on|Basic: Consolidated receive/ship posting for multiple orders.|  
+|D|Post the pick from a warehouse pick document, and post the shipment from a warehouse shipment document|Turned on|Turned on|Advanced|  
 
-|Method|Outbound Process|Bins|Picks|Shipments|Complexity Level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
-|------|----------------|----|-----|---------|-------------------------------------------------------------------------------------|  
-|A|Post pick and shipment from the order line|X|||2|  
-|B|Post pick and shipment from an inventory pick document||X||3|  
-|C|Post pick and shipment from a warehouse shipment document|||X|4/5/6|  
-|D|Post pick from a warehouse pick document and post shipment from a warehouse shipment document||X|X|4/5/6|  
+The approach to choose depends on your warehouse practices and level of organizational complexity. The following are some examples that might help you decide.
 
- Selecting an approach depends on the company's accepted practices and the level of their organizational complexity. In an order-by-order environment with straightforward processes and simple bin structure, method A, picking and shipping from the order line is appropriate. In other order-by-order companies where items for one order line might come from more than one bin or where warehouse workers cannot work with order documents, the use of separate pick documents is appropriate, method B. Where a company's picking and shipping processes involve multiple order handling and therefore require greater control and overview, the company might choose to use a warehouse shipment document and warehouse pick document to separate the picking and shipping tasks, methods C and D.  
+* In an order-by-order environment with straightforward processes and a simple bin structure, method A, picking and shipping from the order line is appropriate.
+* If items for an order line come from more than one bin, or if warehouse workers can't work with order documents, the use of separate pick documents is appropriate, method B.
+* If your picking and shipping processes involve multiple orders and require greater control and overview, you might choose to use a warehouse shipment document and warehouse pick document to separate the picking and shipping tasks, methods C and D.  
 
- In methods A, B, and C, the actions of picking and shipping are combined in one step when posting the corresponding document as shipped. In method D, the pick is first registered, and then the shipment is posted at a later time from a different document.  
+In methods A, B, and C, picking and shipping activities are combined in one step when posting the document as shipped. In method D, you first register the pick, and then post the shipment later from a different document.
 
-## Basic Warehouse Configurations
+> [!NOTE]
+> While warehouse picks and inventory picks sound similar, they're different documents and are used in different processes.
+> * The inventory pick used in method B, together with registering picking information, also posts the shipment of the source document.
+> * The warehouse pick used in method D can't be posted and only registers the pick. The registration makes the items available for the warehouse shipment but doesn't post the shipment. In the outbound flow, the warehouse pick requires a warehouse shipment.
 
- The following diagram illustrates the outbound warehouse flows by document type in basic warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
+## No dedicated warehouse activity
 
- ![Outbound flow in basic warehouse configurations.](media/design_details_warehouse_management_outbound_basic_flow.png "Outbound flow in basic warehouse configurations")  
+The following articles provide information about how to process receipts for source documents if you don't have dedicated warehouse activities.
 
-### 1: Release Source Document / Create Inventory Pick or Movement
+* [Sell Product](sales-how-sell-products.md)
+* [Transfer Orders](inventory-how-transfer-between-locations.md)
+* [Process Purchase Returns or Cancellations](purchasing-how-process-purchase-returns-cancellations.md)
+* [Create Service Orders](service-how-to-create-service-orders.md)
 
- When a user who is responsible for source documents, such as a sales order processor or production planner, is ready for the outbound warehouse activity, he or she releases the source document to signal to warehouse workers that sold items or components can be picked and placed in the specified bins. Alternatively, the user creates inventory pick or movement documents for the individual order lines, in a push fashion, based on specified bins and quantities to handle.  
+## Basic warehouse configurations
 
-> [!NOTE]  
-> Inventory movements are used to move items to internal operation areas in basic warehouse configurations, based on source documents or on an ad hoc basis.  
+The following diagram illustrates the outbound warehouse processes for different types of documents in basic warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
 
-### 2: Create Outbound Request
+:::image type="content" source="media/design-details-warehouse-management-outbound-basic-flow.png" alt-text="Shows the steps in a basic outbound flow in a warehouse.":::
 
- When the outbound source document is released, an outbound warehouse request is created automatically. It contains references to the source document type and number and is not visible to the user.  
+### 1: Release a source document
 
-### 3: Create Inventory Pick or Movement
+When you use the **Release** action on a source document, such as a sales or transfer order, the items on the document are ready to be handled in the warehouse. For example, picked and put in the bin specified on the document. Alternatively, you can create inventory pick documents for individual lines on orders, in a push fashion, based on specified bins and quantities to handle.  
 
- In the **Inventory Pick** or **Inventory Movement** page, the warehouse worker retrieves, in a pull fashion, the pending source document lines based on outbound warehouse requests. Alternatively, the inventory pick lines are already created, in a push fashion, by the user who is responsible for the source document.  
+### 2: Create an inventory pick
 
-### 4: Post Inventory Pick or Register Inventory Movement
+On the **Inventory Pick** page, the warehouse worker retrieves, in a pull fashion, the source document lines. Alternatively, the inventory pick lines are already created, in a push fashion, by the user who is responsible for the source document.  
 
- On each line for items that have been picked or moved, partially or fully, the warehouse worker fills in the **Quantity** field, and then posts the inventory pick or registers the inventory movement. Source documents related to the inventory pick are posted as shipped or consumed. Source documents related to inventory movements are not posted.  
+### 3: Post an inventory pick
 
- For inventory picks, negative item ledger entries are created, warehouse entries are created, and the pick request is deleted, if fully handled. For example, the **Quantity Shipped** field on the outbound source document line is updated. A posted shipment document is created  that reflects the sales order, for example, and the shipped items.  
+On each line for items that have been picked or moved, partially or fully, fill in the **Quantity** field, and then post the inventory pick. Source documents related to the inventory pick are posted as shipped or consumed.  
 
-## Advanced Warehouse Configurations
+For inventory picks, negative item ledger entries are created, warehouse entries are created, and the pick request is deleted, if fully handled. For example, the **Quantity Shipped** field on the outbound source document line is updated. A posted shipment document is created  that reflects the sales order, for example, and the shipped items.  
 
- The following diagram illustrates the outbound warehouse flow by document type in advanced warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
+## Advanced warehouse configurations
 
- ![Outbound flow in advanced warehouse configurations.](media/design_details_warehouse_management_outbound_advanced_flow.png "Outbound flow in advanced warehouse configurations")  
+The following diagram illustrates the outbound warehouse processes for different types of documents in advanced warehouse configurations. The numbers in the diagram correspond with the steps in the sections following the diagram.  
 
-### 1: Release Source Document
+:::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Shows the steps in an advanced outbound warehouse flow.":::
 
- When a user who is responsible for source documents, such as a sales order processor or production planner, is ready for the outbound warehouse activity, he or she releases the source document to signal to warehouse workers that sold items or components can be picked and placed in the specified bins.  
+### 1: Release a source document
 
-### 2: Create Outbound Request (2)
+Releasing a source document in advanced configurations does the same thing as for basic configurations. The items become available for handling in the warehouse. For example, they can be included in a shipment.  
 
- When the outbound source document is released, an outbound warehouse request is created automatically. It contains references to the source document type and number and is not visible to the user.  
+### 2: Create a warehouse shipment
 
-### 3: Create Warehouse Shipment
+On the **Warehouse Shipment** page, get the lines from the released source document. You can combine lines from several source document in one warehouse shipment.  
 
- On the **Warehouse Shipment** page, the shipping worker who is responsible retrieves pending source document lines based on the outbound warehouse request. Several source document lines can be combined in one warehouse shipment document.  
+### 3: Create a warehouse pick
 
-### 4: Release Shipment / Create Warehouse Pick
+On the **Warehouse Shipment** page, create warehouse pick activities for warehouse shipments in one of two ways:
 
- The shipping worker who is responsible releases the warehouse shipment, so that warehouse workers can  create or coordinate warehouse picks for the shipment in question.  
+- In a push fashion, where you use the **Create Pick** action. Select the lines to be picked and prepare the picks by specifying, for example, which bins to take from and place in, and how many units to handle. The bins can be predefined for the warehouse location or resource.
+- In a pull fashion, where you use the **Release** action. On the **Pick Worksheet** page, warehouse workers can use the **Get Warehouse Documents** action to get their assigned picks. When the warehouse picks are fully registered, the lines in the **Pick Worksheet** are deleted.
 
- Alternatively, the user creates warehouse pick document for individual shipment lines, in a push fashion, based on specified bins and quantities to handle.  
+### 4: Register a warehouse pick
 
-### 5: Release Internal Operation / Create Warehouse Pick
+On the **Warehouse Pick** page, a warehouse worker fills in the **Quantity** field for each line that they've fully or partially picked, and then registers the pick.
 
- The user who is responsible for internal operations releases an internal source document, such as a production and assembly order, so that warehouse workers can create or coordinate warehouse picks for the internal operation in question.  
+Warehouse entries are created, and the warehouse pick lines are deleted if the full quantity was picked. The warehouse pick document remains open until the full quantity of the warehouse shipment is registered. The **Qty. Picked** field on the warehouse shipment lines is updated accordingly.  
 
- Alternatively, the user creates warehouse pick documents for the individual production or assembly order, in a push fashion, based on specified bins and quantities to handle.  
+### 5: Post the warehouse shipment
 
-### 6: Create Pick Request
+When all items on the warehouse shipment document are registered as picked, the warehouse worker posts the shipment. Posting updates the item ledger entries to reflect the reduction in inventory. For example, the **Quantity Shipped** field on the outbound source document line is updated.  
 
- When the outbound source document is released, a warehouse pick request is created automatically. It contains references to the source document type and number and is not visible to the user. Depending on the setup, consumption from a production and assembly order also creates a pick request to pick the needed components from inventory.  
+## Post non-inventory items
 
-### 7: Generate Pick Worksheet Lines
+[!INCLUDE [post-non-inventory-items](includes/post-non-inventory-items.md)]
 
- The user who is responsible for coordinating picks, retrieves warehouse pick lines in the **Pick Worksheet** based on pick requests from warehouse shipments or internal operations with component consumption. The user selects the lines to be picked and prepares the picks by specifying which bins to take from, which bins to place in, and how many units to handle. The bins may be predefined by setup of the warehouse location or operation resource.  
+## See also
 
- The user specifies picking methods for optimized warehouse handling and then uses a function to create the corresponding warehouse pick documents, which are assigned to different warehouse workers who perform warehouse picks. When the warehouse picks are fully assigned, the lines in the **Pick Worksheet** are deleted.  
-
-### 8: Create Warehouse Pick Documents
-
- The warehouse worker who perform picks create a warehouse pick document, in a pull fashion, based on the released source document. Alternatively, the warehouse pick document is created and assigned to the warehouse worker in a push fashion.  
-
-### 9: Register Warehouse Pick
-
- On each line for items that have been picked, partially or fully, the warehouse worker fills in the **Quantity** field on the **Warehouse Pick** page and then registers the warehouse pick.  
-
- Warehouse entries are created, and the warehouse pick lines are deleted, if fully handled. The warehouse pick document remains open until the full quantity of the related warehouse shipment is registered. The **Qty. Picked** field on the warehouse shipment lines is updated accordingly.  
-
-### 10: Post Warehouse Shipment
-
- When all items on the warehouse shipment document are registered as picked to the specified shipment bins, the shipping worker who is responsible posts the warehouse shipment. Negative item ledger entries are created. For example, the **Quantity Shipped** field on the outbound source document line is updated.  
-
-## See Also
-
-[Design Details: Warehouse Management](design-details-warehouse-management.md)  
-
+[Warehouse Management](design-details-warehouse-management.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

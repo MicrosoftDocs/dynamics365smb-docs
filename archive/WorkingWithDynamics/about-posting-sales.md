@@ -3,7 +3,7 @@
     description: In the **Posting** group on a sales document, you can choose between the following posting functions:
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

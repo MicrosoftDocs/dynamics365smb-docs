@@ -3,8 +3,7 @@
     description: The concept of UI customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] is divided in two:
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
-
+    author: brentholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -12,8 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/01/2017
-    ms.author: sgroespe
-
+    ms.author: bholtorf
 ---
 # Customize the User Interface
 The concept of user interface (UI) customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] is divided in two:  

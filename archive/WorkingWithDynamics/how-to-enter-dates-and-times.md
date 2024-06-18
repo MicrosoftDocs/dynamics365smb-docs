@@ -3,7 +3,7 @@
     description: You can enter dates and times in all the fields that are specifically assigned to dates (date fields).
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

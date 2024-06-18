@@ -1,13 +1,13 @@
 ---
-author: jill-kotel-andersson
-
-
+author: brentholtorf
 ms.topic: include
 ms.date: 09/24/2021
-ms.author: edupont
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 22.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature 22.](../media/ui-search/search_small.png "Search magnifying glass") icon, enter **Items**, and then choose the related link.  
 2. On the **Items** page, choose the **New** action.
 
     If only one item template exists, then a new item card opens with some fields filled with information from the template.

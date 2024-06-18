@@ -1,17 +1,14 @@
 ---
-    title: Walkthrough - Tracing Serial-Lot Numbers
-    description: This topic describes the actions that are needed to take to prevent selling a defective item, and also how to trace and recall items when needed.
-    author: brentholtorf
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/24/2021
-    ms.author: bholtorf
-
+title: Walkthrough - Tracing Serial-Lot Numbers
+description: This topic describes the actions that are needed to take to prevent selling a defective item, and also how to trace and recall items when needed.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/24/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Walkthrough: Tracing Serial/Lot Numbers
 
@@ -56,7 +53,7 @@ Ricardo, the quality controller, is acting on a sales return of item 1002, Racin
 - Which lot of racing frames was faulty.  
 - On which purchase order the faulty lot was received.  
 
-From the sales department, the quality controller knows that the returned racing bike, item 1002, had the serial number SN1. By using this basic information, he must determine where the finished racing bike was last used, and then he must trace backward to the earliest origin to establish which lot number the faulty component, the racing frame, came from.  
+From the sales department, the quality controller knows that the returned racing bike, item 1002, had the serial number SN1. By using this basic information, they must determine where the finished racing bike was last used, and then they must trace backward to the earliest origin to establish which lot number the faulty component, the racing frame, came from.  
 
 The results of this first item tracking task identify which racing frames were defective and which vendor supplied them. Afterward, but in the same overall tracking process, the quality controller must find all the sold racing bikes that contain racing frames from the faulty lot so that those orders can be stopped or recalled. Lastly, the quality controller must find any open documents where the faulty lot is used so that no additional transactions are made.  
 
@@ -228,7 +225,7 @@ Then you must create various purchase, production, and sales transactions with t
 
 ## Tracing from Usage to Origin
 
- From the sales department, the quality controller knows that the returned racing bike, item 1002, has the serial number SN1. By using this basic information, he can determine where the finished racing bike was last used, in this case, on the sales shipment to Selangorian Ltd.. Then, the quality controller must trace backward to the earliest origin to establish which lot number the faulty racing frame came from and which vendor supplied it.  
+ From the sales department, the quality controller knows that the returned racing bike, item 1002, has the serial number SN1. By using this basic information, they can determine where the finished racing bike was last used, in this case, on the sales shipment to Selangorian Ltd.. Then, the quality controller must trace backward to the earliest origin to establish which lot number the faulty racing frame came from and which vendor supplied it.  
 
 ### To determine which lot included the faulty frame and who supplied it
 
@@ -250,7 +247,7 @@ Then you must create various purchase, production, and sales transactions with t
     - The next posted document backward after that is the consumption posting from the first released production order. Here the quality controller sees that a racing frame from LOT1 was used.  
     - The lowest posted document in this chain is the posted purchase receipt on which racing frames with LOT1 entered inventory.  
 
-    The quality controller has now established which lot of racing frames was faulty and he can search for the last trace line to see which vendor supplied them, namely Custom Metals Incorporated.  
+    The quality controller has now established which lot of racing frames was faulty and they can search for the last trace line to see which vendor supplied them, namely Custom Metals Incorporated.  
 
     > [!NOTE]  
     >  Do not make any additional modifications to the trace result, as you will use it in the next section.  
@@ -259,7 +256,7 @@ Then you must create various purchase, production, and sales transactions with t
 
 ## Tracing from Origin to Usage
 
- The quality controller has established that the faulty racing frames came from LOT1. He must now find any other racing bikes that contain racing frames from the faulty lot so that those bikes can be stopped or recalled.  
+ The quality controller has established that the faulty racing frames came from LOT1. They must now find any other racing bikes that contain racing frames from the faulty lot so that those bikes can be stopped or recalled.  
 
  One way to prepare this trace task on the **Item Tracing** page is to manually enter LOT1 in the **Lot No. Filter** field and 2000 in the **Item Filter** field. However, this walkthrough will use the **Trace Opposite - from Line** function.  
 
@@ -277,13 +274,13 @@ Then you must create various purchase, production, and sales transactions with t
 
     The quality controller immediately informs the sales department so that they can initiate a recall of the defective racing bike from the customer, Cannon Group PLC.  
 
-    At the same time, he can see from the last three trace lines that another two items, SN3 and SN4, have been produced based on racing frames from LOT1. He takes action to block these end items in inventory.  
+    At the same time, they can see from the last three trace lines that another two items, SN3 and SN4, have been produced based on racing frames from LOT1. They take action to block these end items in inventory.  
 
     This completes the second defects management task using the **Item Tracing** page for defects management. Since the **Item Tracing** page is based on posted entries only, the quality controller must continue to the **Find entries** page to make sure that LOT1 is not used in non-posted documents.  
 
 ## Finding All Records of a Serial/Lot Number
 
- With the **Item Tracing** page, the quality controller learned that LOT1 contained the faulty racing frames, which vendor supplied them, and in which posted transaction they have been used. He must now determine whether LOT1 is in any open documents by integrating from the trace result to the **Find entries** page where he can perform a search through all database records.  
+ With the **Item Tracing** page, the quality controller learned that LOT1 contained the faulty racing frames, which vendor supplied them, and in which posted transaction they have been used. They must now determine whether LOT1 is in any open documents by integrating from the trace result to the **Find entries** page where they can perform a search through all database records.  
 
 ### To find all occurrences of LOT1 in non-posted records, such as open orders  
 
@@ -296,11 +293,9 @@ Then you must create various purchase, production, and sales transactions with t
 
 3.  To open the sales line record, select the second Find Entries line, choose the **Show** action. Alternatively, choose the value in the **No. of Records** field.  
 
-    Here the quality controller sees one open sales line for the faulty racing frames. He immediately suggests to the sales department that this order be canceled and a new production order, based on good racing frames, be initiated.  
+    Here the quality controller sees one open sales line for the faulty racing frames. They immediately suggest to the sales department that this order be canceled and a new production order, based on good racing frames, be initiated.  
 
  This completes the walkthrough of how to use the **Find entries** page for defects management in integration with the **Item Tracing** page.  
-
-## See related [Microsoft training](/training/paths/use-serial-lot-numbers/)
 
 ## See also
 

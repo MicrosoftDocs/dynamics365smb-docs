@@ -2,17 +2,14 @@
 title: Make Payments with AMC Banking (US) or SEPA Credit Transfer (EU)
 description: Process payments to your vendors by exporting a file (EFT) together with the payment information from the journal lines.
 author: brentholtorf
-
-
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
 ms.date: 07/06/2021
 ms.author: bholtorf
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Make Payments with the AMC Banking 365 Fundamentals extension or SEPA Credit Transfer
 

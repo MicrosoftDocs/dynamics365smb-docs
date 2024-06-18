@@ -3,7 +3,7 @@
     description: ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> contains fields called FlowFields. These are fields whose contents are constantly changing. The value of the contents of a FlowField is calculated each time you open the window containing the field. FlowFilters are used to determine how information is included when the contents of FlowFields are calculated.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

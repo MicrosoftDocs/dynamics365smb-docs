@@ -3,7 +3,7 @@
     description: General journals are used to post to general ledger, bank, customer, vendor, and fixed assets accounts.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

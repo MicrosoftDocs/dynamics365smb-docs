@@ -1,20 +1,17 @@
 ---
-title: Working with Dimensions to Track and Analyze Data Easily
-description: You use dimensions to categorize entries, such as by department or project, so you can more easily track and analyze data to help you make good business decisions.
-author: edupont04
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+title: Working with dimensions to track and analyze data
+description: Use dimensions to categorize entries, such as by department or project, so you can more easily track and analyze data to help you make good business decisions.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.topic: how-to
+ms.date: 04/26/2024
+ms.custom: bap-template
 ms.search.keywords: analysis, history, track, business intelligence
 ms.search.form: 408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253
-ms.date: 08/24/2022
-ms.author: edupont
-
 ---
-# Work with Dimensions
+# Work with dimensions
 
 Dimensions are values that categorize entries so you can track and analyze them on documents, such as sales orders. Dimensions can, for example, indicate the project or department an entry came from.  
 
@@ -59,7 +56,27 @@ When dimensions and values are set up, you can define global and shortcut dimens
 
 ### To set up default dimensions for customers, vendors, and other accounts
 
-You can assign a default dimension for a specific account. The dimension is copied to the journal or document when you enter the account number on a line, but you can delete or change the code on the line if appropriate. You can also require a dimension for posting an entry in a specific type of account.  
+You can assign a default dimension for a specific account. The dimension is copied to the journal or document when you enter the account number on a line, but you can delete or change the code on the line if appropriate. You can also require a dimension for posting an entry in a specific type of account. > 
+
+> [!NOTE]
+> Default dimension priorities open up for scenarios in sales and purchases that you might want to pay special attention to. When you use default dimension priorities on sales and purchase documents, [!INCLUDE [prod_short](includes/prod_short.md)] always considers the dimensions in the header as coming from the customer or vendor. This is true for dimensions that you set manually or by default, and is especially relevant when you use default dimensions on locations and items but not on customers or vendors.
+>
+> **Example**
+>
+> You have a scenario with the following dimension settings:
+>
+> * A customer without default dimensions
+> * An item with ADM as the dimension value for the DEPARTMENT dimension
+> * A location with PROD as the dimension value the DEPARTMENT dimension
+> * Default dimension priorities are set as Customer > Item > Location
+>
+> When you create a new document in this scenario, dimensions are used as follows:
+>
+> * If you create a new document and add a location, the default value for new lines will be PROD. When you add lines with items, [!INCLUDE [prod_short](includes/prod_short.md)] will keep PROD because it comes from the header of the document.
+>
+> * If you create a new document and add items that have the ADM dimension value, and then specify a location in the header of the document, [!INCLUDE [prod_short](includes/prod_short.md)] will ask whether you want to overwrite the existing lines because there's a conflict.
+>
+> We recommend that you to test your default dimensions setup, dimension priorities, and the order in which you enter data in documents.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dimensions**, then choose the related link.  
 2. On the **Dimensions** page, select the relevant dimension, then choose the **Account Type Default Dim** action.  
@@ -220,8 +237,6 @@ In a ledger entry page, you can see whether there are global dimensions for the 
 
 > [!NOTE]  
 > The **Ledger Entry Dimensions** page displays the dimensions one ledger entry at a time. You'll see as you scroll through the ledger entries, the content on the **Ledger Entry Dimensions** page changes accordingly.
-
-## See related [Microsoft training](/training/modules/dimensions-dynamics-365-business-central/index)
 
 ## See also
 

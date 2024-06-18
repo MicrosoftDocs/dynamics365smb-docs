@@ -1,18 +1,16 @@
 ---
 title: Use Allocation Keys in General Journals
 description: You can allocate an entry in a general journal to several different accounts when you post the journal.
-author: edupont04
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: cost accounting
 ms.search.form: 283, 284
 ms.date: 06/29/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Use Allocation Keys in General Journals
 You can allocate an entry in a general journal to several different accounts when you post the journal. The allocation can be made by quantity, percentage, or amount.

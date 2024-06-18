@@ -3,11 +3,13 @@ metadata:
   title: Copy and paste data FAQ
   description: Get answers to frequently asked questions about copying and pasting data from fields and rows from Business Central pages.
   ms.topic: faq
-title: Copy and Paste FAQ
+  ms.date: 04/26/2024
+  ms.service: dynamics-365-business-central
+title: Copy and paste FAQ
 summary: |
   You can copy one or more rows (records) from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email).  
 
-  In short, to copy, you press CTRL+C (cmd+C in macOS) on your keyboard. To paste, you press CTRL+V (cmd+V in macOS). There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these, see [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows). This article answers common questions you might have about copying and pasting.  
+  In short, to copy, you select <kbd>Ctrl</kbd>+<kbd>C</kbd> (cmd+C in macOS) on your keyboard. To paste, you select <kbd>Ctrl</kbd>+<kbd>V</kbd> (<kbd>Cmd</kbd>+<kbd>V</kbd> in macOS). There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these, see [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows). This article answers common questions you might have about copying and pasting.  
 sections:
   - name: General
     questions:
@@ -25,17 +27,17 @@ sections:
 
       - question: How do I copy a row?
         answer: |
-          To copy a single row, select it, and then press Ctrl+C.
+          To copy a single row, select it, and then select <kbd>Ctrl</kbd>+<kbd>C</kbd>.
 
           If you want to copy more rows, you can:
-          - Press Ctrl+Click on another row or press Shift+Click to select the row and all rows in between. See [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows) for more mouse and keyboard combinations for selecting rows.
-          - Select ![Show more options](media/show-more-options-icon.png "Show more options icon") in the first column, choose **Select More**, select the check box next to each row that you want to copy, and then press Ctrl+C.
+          - select <kbd>Ctrl</kbd>+Click on another row or select <kbd>Shift</kbd>+Click to select the row and all rows in between. See [Keyboard Shortcuts](keyboard-shortcuts.md#CopyRows) for more mouse and keyboard combinations for selecting rows.
+          - Select ![Show more options](media/show-more-options-icon.png "Show more options icon") in the first column, choose **Select More**, select the check box next to each row that you want to copy, and then select <kbd>Ctrl</kbd>+<kbd>C</kbd>.
 
       - question: How do I paste rows?
         answer: |
-          Select an empty row, with focus in any cell, and then press Crtl+V.
+          Select an empty row, with focus in any cell, and then select <kbd>Ctrl</kbd>+<kbd>V</kbd>.
 
-          If you want to replace existing rows, select the rows, and then press Crtl+V. In this case, you can only paste the same number of rows that you selected.
+          If you want to replace existing rows, select the rows, and then select <kbd>Ctrl</kbd>+<kbd>V</kbd>. In this case, you can only paste the same number of rows that you selected.
 
           > [!NOTE]
           > The list that you are pasting into must be editable.

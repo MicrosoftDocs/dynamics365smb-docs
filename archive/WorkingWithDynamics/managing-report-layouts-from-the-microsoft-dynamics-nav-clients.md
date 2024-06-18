@@ -3,7 +3,7 @@
     description: A report layout controls content and format of the report, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more. From the ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> clients, you can change which layout is used on a report, create new layout, or modify the existing layouts.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

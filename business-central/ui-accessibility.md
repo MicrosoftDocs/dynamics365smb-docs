@@ -4,14 +4,14 @@ description: This article provides information about keyboard shortcuts and othe
 author: jswymer
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Accessibility and Keyboard Shortcuts
 
@@ -30,9 +30,9 @@ This article provides information about the features that make [!INCLUDE[prod_sh
 
 ## <a name="Navigation"></a> Navigation
   
-You can use different combinations of the Tab, Shift, and arrow keys of your keyboard to move between elements on a page. Elements include actions, fields and columns, parts, and other controls. In general, press Tab or Shift+Tab to move to the next or previous element.
+You can use different combinations of the Tab, Shift, and arrow keys of your keyboard to move between elements on a page. Elements include actions, fields and columns, parts, and other controls. In general, select <kbd>Tab</kbd> or <kbd>Shift</kbd>+<kbd>Tab</kbd> to move to the next or previous element.
 
-When you focus on an area that contains actions, like the navigation bar on the top of role center or action bar on other pages, use the arrows keys to move through the different actions and groups. Press Enter on a group to open its underlying actions, and then continue using the arrows keys. Press Tab or Shift+Tab to move out of the action area.
+When you focus on an area that contains actions, like the navigation bar on the top of role center or action bar on other pages, use the arrows keys to move through the different actions and groups. Select <kbd>Enter</kbd> on a group to open its underlying actions, and then continue using the arrows keys. Select <kbd>Tab</kbd> or <kbd>Shift</kbd>+<kbd>Tab</kbd> to move out of the action area.
 
 By using the tab order, you can also switch between the main browser page and dialog boxes that request confirmation, for example, or the sign-in page.  
 
@@ -62,7 +62,7 @@ Tooltips are accessed in different ways, depending on the client (web or mobile)
 
 |Element|Mouse action for web client|Keyboard shortcut for web client|Touch gesture on tablet/phone for mobile app|Screen reader support|
 |-------|-----------------|------------|--------------------------|---------------------|
-|Page fields and column headings|Hover over or click the field caption or column heading|Move focus to the field or column heading, and press Alt+Up Arrow keys|Tap the field caption |yes|
+|Page fields and column headings|Hover over or click the field caption or column heading|Move focus to the field or column heading, and select <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> keys|Tap the field caption |yes|
 |Charts elements, like a bar, line, pie slice|Hover over the element|Move focus to element, for example, by using arrow keys|Tap and hold the element|yes|
 |Actions|Hover over the action|none|none |no|
 |Cue tiles|Hover over the tile |none|none|no|

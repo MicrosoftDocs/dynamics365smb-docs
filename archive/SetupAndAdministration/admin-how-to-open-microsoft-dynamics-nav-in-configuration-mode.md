@@ -3,7 +3,7 @@
     description: To configure a profile, for example to customize the profile’s user interface, you must open the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]--> in configuration mode.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

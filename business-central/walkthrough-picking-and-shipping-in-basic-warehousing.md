@@ -1,32 +1,27 @@
 ---
-    title: Picking and Shipping in Basic Warehouse Config
-    description: In Business Central, the outbound processes for picking and shipping can be performed in the following four ways depending on the warehouse complexity level.
-    author: jill-kotel-andersson
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/24/2021
-    ms.author: edupont
-
+title: Picking and Shipping in Basic Warehouse Configurations
+description: This article describes various levels of complexity in picking and shipping processes.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.date: 02/27/2023
+ms.custom: bap-template
+ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
+ms.service: dynamics-365-business-central
 ---
 # Walkthrough: Picking and Shipping in Basic Warehouse Configurations
 
-<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)] -->
+In [!INCLUDE[prod_short](includes/prod_short.md)], you pick and ship items using one of four methods, as described in the following table.
 
-In [!INCLUDE[prod_short](includes/prod_short.md)], the outbound processes for picking and shipping can be performed in four ways using different functionalities depending on the warehouse complexity level.  
+|Method|Outbound Process|Require Pick|Require Shipment|Complexity Level (Learn more at [Warehouse Management Overview](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Post the pick and shipment from the order line|||No dedicated warehouse activity.|  
+|B|Post the pick and shipment from an inventory pick document|Turned on||Basic: Order-by-order.|  
+|C|Post the pick and shipment from a warehouse shipment document||Turned on|Basic: Consolidated receive/ship posting for multiple orders.|  
+|D|Post the pick from a warehouse pick document, and post the shipment from a warehouse shipment document|Turned on|Turned on|Advanced|  
 
-|Method|Inbound process|Bins|Picks|Shipments|Complexity level (See [Design Details: Warehouse Setup](design-details-warehouse-setup.md))|  
-|------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
-|A|Post pick and shipment from the order line|X|||2|  
-|B|Post pick and shipment from an inventory pick document||X||3|  
-|C|Post pick and shipment from a warehouse shipment document|||X|4/5/6|  
-|D|Post pick from a warehouse pick document and post shipment from a warehouse shipment document||X|X|4/5/6|  
-
-For more information, see [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md).  
+Learn more at [Outbount Warehouse Flow](design-details-outbound-warehouse-flow.md).
 
 The following walkthrough demonstrates method B in the previous table.  
 
@@ -95,7 +90,7 @@ To make item 1928-S available at the SOUTH location follow these steps:
         |Positive Adjmt.|1928-S|SOUTH|S-01-0001|20|  
         |Positive Adjmt.|1928-S|SOUTH|S-01-0002|20|  
 
-        By default, the **Bin Code** field on the sales lines are hidden, so you must display it. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+        By default, the **Bin Code** field on the sales lines are hidden, so you must display it. To do this you need to personalize the page. For more information, see [To start personalizing a page through the Personalizing banner](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
   3. Choose **Actions**, then **Posting**, and then choose **Post**.  
   4. Select the **Yes** button.  
@@ -141,14 +136,11 @@ On the **Inventory Pick** page, you can manage all outbound warehouse activities
 
     The 30 Amsterdam Lamps are now registered as picked from bins S-01-0001 and S-01-0002, and a negative item ledger entry is created reflecting the posted sales shipment.  
 
-## See related [Microsoft training](/training/paths/pick-ship-items-business-central/)
-
 ## See also
 
 [Pick Items with Inventory Picks](warehouse-how-to-pick-items-with-inventory-picks.md)  
 [Pick Items for Warehouse Shipment](warehouse-how-to-pick-items-for-warehouse-shipment.md)  
 [Set Up Basic Warehouses with Operations Areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  
-[Move Components to an Operation Area in Basic Warehouse Configurations](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md)  
 [Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  
 [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  

@@ -1,19 +1,18 @@
 ---
-    title: Export Intrastat Third-Party Declarations [BE]
-    description: In Belgium, you must have a third-party declarant fill out the Intrastat declaration. The third-party declarant must be an external person or company.
-    author: sorenfriisalexandersen
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/17/2021
-    ms.author: soalex
-
+title: Export intrastat third-party declarations [BE]
+description: In Belgium, you must have a third-party declarant fill out the Intrastat declaration. The third-party declarant must be an external person or company.
+author: sorenfriisalexandersen    
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/22/2023
+ms.author: soalex
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Export Intrastat Third-Party Declarations in the Belgian Version
+# Export intrastat third-party declarations in the Belgian version
+
+[!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
 In Belgium, you must have a third-party declarant fill out the Intrastat declaration. The third-party declarant must be an external person or company.  
 
@@ -27,7 +26,7 @@ Before you export the file, it's a good idea to preview the report. For more inf
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Nihil declaration**|Select if you do not have any trade transactions with European Union (EU) countries/regions and want to send an empty declaration.|  
+    |**Nihil declaration**|Select if you don't have any trade transactions with European Union (EU) countries/regions and want to send an empty declaration.|  
     |**Counter party info**|Check this field to include counter party information in the Intrastat file (new requirement from 2019). The counter party information added to the file is taken from the **Country/Region of Origin Code** and **Partner ID** fields from the Intrastat Journal.|  
     |**Enterprise No./VAT Reg. No.**|Enter the enterprise or VAT registration number.|  
 
@@ -35,13 +34,13 @@ Before you export the file, it's a good idea to preview the report. For more inf
 
 Next, submit the declaration to the OneGate portal.  
 
-## See Also
+## See also
 
- [Belgian Intrastat Reporting](belgian-intrastat-reporting.md)   
- [Set Up Declaration Types](how-to-set-up-declaration-types.md)   
- [Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)   
- [Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)   
- [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)
-
+[Belgian Intrastat Reporting](belgian-intrastat-reporting.md)  
+[Set Up Declaration Types](how-to-set-up-declaration-types.md)  
+[Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md)  
+[Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md)  
+[Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md)  
+[Set Up Intrastat Reporting](../../finance-how-setup-report-intrastat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

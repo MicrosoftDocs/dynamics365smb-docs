@@ -1,17 +1,15 @@
 ---
-    title: Set Up Service Contracts
-    description: Learn how to set up service contracts with required prerequisites including service contract groups, contract templates and customer templates.
-    author: SorenGP
+title: Set Up Service Contracts
+description: Learn how to set up service contracts with required prerequisites including service contract groups, contract templates and customer templates.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: service, cost, service order
+ms.date: 06/23/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: service, cost, service order
-    ms.date: 06/23/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set Up Service Contracts
@@ -39,7 +37,7 @@ Before you can work with contracts, you must set up the following:
 2. Create a new service contract template.  
 3. In the **No.** field, enter a number for the contract template.  
   
-     Alternatively, if you have set up number series for contract templates on the **Service Mgt. Setup** page, you can press the Enter key to enter the next available contract template number. Fill in the other fields if appropriate.  
+     Alternatively, if you have set up number series for contract templates on the **Service Mgt. Setup** page, you can select the <kbd>Enter</kbd> key to enter the next available contract template number. Fill in the other fields if appropriate.  
   
 4. On the **Invoice** FastTab, fill in the **Serv. Contract Acc. Group Code** field, the **Invoice Period**, and so on. Fill in the other fields if appropriate.  
 5. Choose the **Service Discounts** action to add contract discounts.  

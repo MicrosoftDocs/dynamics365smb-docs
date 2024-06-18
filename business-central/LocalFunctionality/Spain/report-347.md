@@ -1,21 +1,17 @@
 ---
-    title: Report 347 [ES]
-    description: Report 347 is a required annual report sent by all companies to the tax authorities to reflect the sales or purchases in a given period. 
-
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/21/2021
-    ms.author: edupont
-
+title: Report 347 [ES]
+description: Report 347 is a required annual report sent by all companies to the tax authorities to reflect the sales or purchases in a given period. 
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/21/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Report 347 in the Spanish Version
-The **Report 347** report is a required annual report sent by all companies to the tax authorities to reflect the sales or purchases in a given period. This report also includes entries such as payment in cash that was received in the period. The **Report 347** report is generated in a format that is approved by the tax authorities. This file can be uploaded to the Spanish Tax Agency website or submitted on CD-ROM. For more information, see the [Spanish Tax Agency](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio.shtml) website.  
+The **Report 347** report is a required annual report sent by all companies to the tax authorities to reflect the sales or purchases in a given period, based on **VAT Date**. This report also includes entries such as payment in cash that was received in the period. The **Report 347** report is generated in a format that is approved by the tax authorities. This file can be uploaded to the Spanish Tax Agency website or submitted on CD-ROM. For more information, see the [Spanish Tax Agency](https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio.shtml) website.  
 
 ## File Format for Report 347  
 The file format for **Report 347** includes at least one responsible company, a deponent, and a customer/vendor register. A responsible company is a company that submits the information to the Spanish Tax Agency. Deponent information comes from the **Company Information** table and the request form. Customer information comes from the **Customer** table, the **Cust. Ledger Entry** table, and the **G/L Entry** table. Vendor information comes from the **Vendor** table and the **Vendor Ledger Entry** table.  

@@ -1,17 +1,15 @@
 ---
-    title: Design Details - Expected Cost Posting
-    description: Expected costs represent the estimation of, for example, a purchased item’s cost that you record before you receive the invoice for the item.
-    author: SorenGP
+title: Design Details - Expected Cost Posting
+description: Expected costs represent the estimation of, for example, a purchased item’s cost that you record before you receive the invoice for the item.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 07/20/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/20/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Design Details: Expected Cost Posting
 Expected costs represent the estimation of, for example, a purchased item’s cost that you record before you receive the invoice for the item.  

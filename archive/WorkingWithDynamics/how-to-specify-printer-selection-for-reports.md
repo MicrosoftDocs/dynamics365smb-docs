@@ -3,7 +3,7 @@
     description: You can set up reports so that they must be printed on a specific printer from the ADD INCLUDE<!--[!INCLUDE[nav_windows](../../includes/nav_windows_md.md)]-->. The following are some uses of printer selection:
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

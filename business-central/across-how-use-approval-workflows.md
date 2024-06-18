@@ -1,15 +1,17 @@
 ---
-title: Approve or Reject Documents in Workflows
+title: Approve or reject documents in workflows
 description: Request, reject, or delegate an approval of, for example, a purchase or sales document, as part of a workflow.
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.search.form: 654, 662, 1500, 
-ms.date: 09/12/2022
-ms.author: edupont
+ms.date: 05/07/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# How To Use Approval Workflows
+# How to use approval workflows
 
 When a record, such as a purchase document or a customer card, needs to be approved by someone in your organization, you send an approval request as part of a workflow. Based on how the workflow is set up, the appropriate approver is then notified that the record requires their approval.
 
@@ -77,8 +79,6 @@ The **Send Overdue Approval Notifications** function checks for all open approva
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Overdue Approval Requests**, and then choose the related link.
 2. On the **Overdue Approval Requests** page, choose the **Send Overdue Approval Notifications** action.
-
-## See related [Microsoft training](/training/modules/use-approval-workflows/)
 
 ## See also
 

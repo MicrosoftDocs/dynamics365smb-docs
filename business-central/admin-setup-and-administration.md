@@ -1,17 +1,13 @@
 ---
 title: Administrative tasks in Business Central
 description: Some tasks in Business Central requires central administration and setup. See what they are and learn what to do.
-author: SorenGP
-
-
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords:
-ms.date: 07/23/2021
-ms.author: edupont
-
+ms.date: 01/11/2023
+ms.custom: bap-template
 ---
 # Administration Tasks
 
@@ -55,10 +51,8 @@ Internal and delegated admins have access to the [!INCLUDE [prod_short](includes
 |------------|-------------|
 |Learn about the tools that are available to you to help you troubleshoot.|[Technical Support](/dynamics365/business-central/dev-itpro/technical-support)|
 |Monitor usage and troubleshoot sessions|[Environment Telemetry in the Business Central administration center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
-|Manage user sessions, including canceling a session if the user is blocked.|[Manage Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|
+|Manage user sessions, including canceling a session if the user is blocked.|[Manage Sessions](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Configure the tenant to send telemetry data to Azure Application Insights for better analysis and troubleshooting.|[Enable Sending Telemetry to Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
-
-## See related [Microsoft training](/training/paths/deploy-configure-dynamics-365-business-central/)
 
 ## See Also
 

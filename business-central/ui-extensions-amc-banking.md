@@ -3,14 +3,13 @@ title: Using the AMC Banking 365 Fundamentals Extension
 description: Learn how to easily exchange data with your banks by transforming data into the format that they require.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: bank, format, data
 ms.search.form: 20100, 20101, 20102, 20105, 20106, 20107, 20109, 
 ms.date: 09/20/2022
 ms.author: bholtorf
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Use the AMC Banking 365 Fundamentals Extension
@@ -45,9 +44,9 @@ Before people can use this extension, your administrator must copy the following
 * **D365 Read**
 * **IntelligentCloudBC**
 
-For more information, see [To copy a permission set](ui-define-granular-permissions.md#to-copy-a-permission-set).
+For more information, see [To copy a permission set](ui-define-granular-permissions.md#copy-a-permission-set).
 
-For each new permission set, grant only the **Read** permission for the **AMC Banking Setup table (20101)**. For more information, see [To create or modify permissions manually](ui-define-granular-permissions.md#to-create-a-permission-set).
+For each new permission set, grant only the **Read** permission for the **AMC Banking Setup table (20101)**. For more information, see [To create or modify permissions manually](ui-define-granular-permissions.md#create-a-permission-set).
 
 ### To connect the extension to AMC Banking
 

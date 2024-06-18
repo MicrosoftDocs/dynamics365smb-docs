@@ -1,18 +1,18 @@
 ---
-    title: Withholding Tax in the New Zealand version
-    description: Describes the various scenarios when withholding tax (WHT) occurs and how to address it in New Zealand.
-    author: brentholtorf
+title: Withholding Tax in the New Zealand version
+description: Describes the various scenarios when withholding tax (WHT) occurs and how to address it in New Zealand.
+author: brentholtorf
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.search.form: 11600, 28040,28041,28042,28043,28044, 28164,28165,28166,28167
-    ms.date: 06/18/2021
-    ms.author: bholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.search.form: 11600, 28040,28041,28042,28043,28044, 28164,28165,28166,28167
+ms.date: 06/18/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Withholding Tax in the New Zealand Version
 
@@ -21,7 +21,7 @@ Withholding Tax (WHT) is tax withheld by a company when making a payment to a ve
 The New Zealand government requires taxes to be withheld from payment to vendors under the following circumstances:  
 
 * The vendor is a local supplier who has not supplied an New Zealand Inland Revenue Department number (IRD) before the payment is processed, and the individual transaction amount is greater than the specified threshold amount.  
-* The vendor is a non-resident supplier and the payment is to be made to this non-resident entity in the form of interest, royalty, or dividend payments. Currently, there is no minimum threshold amount. Withholding rates may vary due to payment, or international tax treaties existing between New Zealand and the vendor's country.  
+* The vendor is a non-resident supplier and the payment is to be made to this non-resident entity in the form of interest, royalty, or dividend payments. Currently, there is no minimum threshold amount. Withholding rates may vary due to payment, or international tax treaties existing between New Zealand and the vendor's country/region.  
 
 Fields within **WHT Business Posting Groups** and **WHT Product Posting Groups** must be set up on the **WHT Posting Setup** page so that the correct WHT calculations are made for each vendor.  
 

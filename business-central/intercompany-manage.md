@@ -1,69 +1,70 @@
 ---
 title: Managing intercompany transactions
-description: With the Intercompany functionality, you can simplify business processes and transactions between companies within the same organization.  
-author: SorenGP
-
-
+description: With the Intercompany functionality, you can simplify business processes and transactions between companies within the same organization.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 05/24/2024
+ms.custom: bap-template
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 605
-ms.date: 08/11/2021
-ms.author: edupont
-
+ms.search.form: 605,
+ms.service: dynamics-365-business-central
 ---
-# Managing Intercompany Transactions
+# Managing intercompany transactions
 
-The intercompany transactions capabilities are designed for users who control more than one legal business entity and have set up multiple companies to separate the accounting functions of each of these entities. This broad description applies to many users, especially those operating in international markets or regions with widely disparate business cultures and regulatory environments.
+Businesses with more than one legal entity with separate accounting functions can benefit from intercompany transactions. For example, it's useful for businesses that have subsidiaries in multiple international markets or regions. Or, an organization might have several companies but lack the equivalent number of accounting and administrative teams. Intercompany transactions simplify and streamline business processes and transactions between companies in the intercompany partnership.
 
-Your organization may consist of several companies, but might not have the equivalent number of accounting and administrative teams. Intercompany transactions lets you simplify and streamline business processes and transactions between all of these entities.
+After you specify the customer and vendor relationships for intercompany transactions, partners enter information one time in sales and purchase documents. A corresponding document is created at the other partner involved in the transaction. Mapping the chart of accounts and dimensions helps ensure that information appears in the right places.  
 
-Once you start using intercompany transactions, doing business with your subsidiary and internal partner organizations becomes as simple as engaging with your external vendors and customers. You enter intercompany transaction information only once in the appropriate documents. You can use the functionality you are already familiar with, such as receivables and payables management. Mapping facilities for the chart of accounts and dimensions help ensure that information appears in the right places.  
+There are four main benefits to the intercompany functionality:  
 
-There are four main benefits to the Intercompany functionality:  
+* Increased productivity as a result of time saved and simplified transactions  
+* Minimized mistakes with one-time entry of information and system-wide, automated updates  
+* Transparent audit trail and full visibility into business activities and transaction histories  
+* Efficient transactions with affiliate and subsidiary companies  
 
-- Increased productivity as a result of time saved and simplified transactions  
-- Minimized error potential with one-time entry of information and system-wide, automated updates  
-- Complete audit trail and full visibility into business activities and transaction histories  
-- Efficient, cost-effective transactions with affiliate and subsidiary companies  
+## Streamline the flow of business activities  
 
-## Streamlining the Flow of Business Activities  
+Intercompany transactions let you distribute sales and purchasing documents and general journal entries to all of your satellite offices, sales offices, or subsidiary companies. Distributing transactions saves time and increases efficiency throughout the organization by reducing data entry. It cuts down on the need to send, receive, print, and archive sales and purchasing documents.  
 
-Intercompany transactions lets you distribute sales and purchasing documents, as well as General Journal entries to all of your satellite offices, sales offices, or subsidiary companies, from within the program. Savings of time and increased efficiencies result throughout the organization as you eliminate redundant data entry and the sending, receiving, printing, and archiving of the sales and purchasing documents on paper.  
+You're in full control of all transaction documents. For example, you can reject a document sent to you and use the **Reverse Journal Postings** and **Undo Receipts/Shipments** actions to make corrections. Or, when making a purchase from a partner or subsidiary company, you can update the purchase order as long as the selling company hasn't shipped the goods.  
 
-You are in full control of all transaction documents. For example, you can reject a document sent to you and, in this way, Reverse Journal Postings and Undo Receipts/Shipments that were incorrect. Or, when making a purchase from a partner or subsidiary company, you can update the purchase order as long as the selling company has not shipped any goods.  
+When you enter a transaction, you don't need to specify the accounts to use. You just choose the intercompany partner. The intercompany functionality creates general journal lines that balance the books of both companies involved in the transaction. In receivables and payables, you assign an intercompany partner code to any customer or vendor. From that moment on, all orders and invoices for transactions between these companies produce corresponding documents in the partner company. The result is correctly balanced accounts.  
 
-When you enter a transaction, you do not need to specify the accounts for an individual set of books, but simply give the identification of the partner company. The intercompany functionality creates general journal lines that result in the balancing of the books of both companies involved in a transaction. In receivables and payables, you assign an intercompany partner code to any customer or vendor. From that moment on, all orders and invoices generated pertaining to transactions with these companies will produce corresponding documents in the partner company, resulting in correct balancing of the accounts.  
+Intercompany focuses on sales and purchase documents and general journal lines, and allows transactions between multiple [!INCLUDE [prod_short](includes/prod_short.md)] databases. For example:
 
-Intercompany transactions functionality focuses on supporting intercompany transactions with sales and purchasing documents, and with General Journal lines. Within this area, intercompany transactions allows intercompany transactions between multiple [!INCLUDE [prod_short](includes/prod_short.md)] databases, for example, in different countries/regions, as well as multiple currencies, different charts of accounts, different dimensions, and different item numbering.  
+* Different countries/regions
+* Multiple currencies
+* Different charts of accounts
+* Different dimensions
+* Different item numbers  
 
-Intercompany transactions uses a number of entries and documents in intercompany transactions:  
+Intercompany transactions use several types of entries and documents:  
 
-- General Journal entries
-- Purchase and sales orders
-- Purchase and sales invoices
-- Credit memos
-- Return orders
+* General journal entries
+* Purchase and sales orders
+* Purchase and sales invoices
+* Credit memos
+* Return orders
 
-When you set up intercompany transactions, you create a list of intercompany partners, called IC Partners, and an intercompany chart of accounts. Following these steps, you can perform intercompany general journal transactions. You set up dimensions – if needed – separately.  
+When you set up intercompany transactions, you create a list of intercompany partners, an intercompany chart of accounts, and intercompany dimensions. Afterward, you can create transactions in intercompany general journals.
 
 > [!NOTE]
-> The general journal by itself does not include currency functionality, but converts all amounts at the applicable rate to the local currency.
+> The general journal by itself doesn't include currencies. It converts all amounts to the local currency at the current exchange rate.
 
-After you set up business partners as customers and vendors in the system, and assign them intercompany partner codes, it is possible to exchange intercompany purchase and sales documents, including items and item charges. [!INCLUDE [prod_short](includes/prod_short.md)] supports intercompany transactions between multiple databases, for example, in different countries/regions, as well as multiple currencies, different charts of accounts, different dimensions, and different item numbering.  
+After you set up business partners as customers and vendors, and assign them intercompany partner codes, they can exchange intercompany purchase and sales documents, including items and item charges. 
 
 > [!NOTE]
-> Not all types of data can be exchanged between companies in this way. Purchase invoices are not submitted to business partners through intercompany processes. But sales invoices that are submitted through intercompany processes will be created as purchase invoices in the receiving company.
+> Companies can't use intercompany to exchange all types of data. Purchase invoices are not submitted to business partners through intercompany processes. However, sales invoices that are submitted through intercompany processes will be created as purchase invoices in the receiving company.
 
-Consolidating financial data may especially be relevant for intercompany processes. For more information, see [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md).
+Consolidating financial data might be relevant for intercompany processes. For more information, see [Consolidating Financial Data from Multiple Companies](finance-consolidated-company-reporting.md).
 
 The following table describes a sequence of tasks, with links to the articles that describe them.
 
 |To |See|
 |---|---|
-|Create your intercompany vendors and customers as so-called intercompany partners, and set up an intercompany chart of accounts.|[Set Up Intercompany](intercompany-how-setup.md)|
+|Create your intercompany vendors and customers as partners, and set up an intercompany chart of accounts.|[Set Up Intercompany](intercompany-how-setup.md)|
 |Use intercompany documents or journals to post transactions with your intercompany partners.|[Work with Intercompany Documents and Journals](intercompany-how-work-documents-journals.md)|
 |Organize and process incoming and outgoing transactions that you exchange with your intercompany partners.|[Manage the Intercompany Inbox and Outbox](intercompany-how-manage-intercompany-inbox.md)|
 |Use intercompany transactions to distribute costs between partner companies.|[Allocate Costs to Intercompany Partners](intercompany-allocate-costs.md)|

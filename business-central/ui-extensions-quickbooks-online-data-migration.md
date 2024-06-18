@@ -3,14 +3,13 @@ title: QuickBooks Online Data Migration Extension
 description: Describes how to use the extension to migrate customers, vendors, items, and accounts from QuickBooks Online to Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: extension, migrate, data, QuickBooks, import
 ms.search.form: 1830, 
 ms.date: 06/24/2021
 ms.author: bholtorf
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # The QuickBooks Online Data Migration Extension
@@ -62,8 +61,6 @@ There are a few things in particular that you should do:
 * If the transactions in QuickBooks Online had markup or discount amounts, you must manually add the amounts to the related transactions in [!INCLUDE[prod_short](includes/prod_short.md)] before you post them.
 * If you are using value added tax (VAT), you may need to add a business posting group and a product posting group to the posting setup so that you can post VAT amounts.
 * Verify the beginning balances for accounts in the general ledger. QuickBooks Online does not store the current balance for all accounts, so you might need to correct beginning balances.
-
-## See related [Microsoft training](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## See also
 

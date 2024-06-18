@@ -1,18 +1,17 @@
 ---
 title: Set Up Electronic Invoicing [MX]
 description: Before you can send electronic documents in Mexico, you must set up Business Central to ensure that the required identification numbers are in place for CFDI.
-author: edupont04
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.date: 05/19/2022
-ms.author: edupont
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# Set Up Electronic Invoicing in the Mexican Version
+# Set up Electronic invoicing - Mexico
 
 Before you can send electronic documents, you must set up [!INCLUDE[prod_short](../../includes/prod_short.md)] to ensure that the tax identification number (RFC), personal identification number (CURP), and state inscription IDs are available for your company and all your customers and vendors. You also need to set up the parameters that are needed for sending electronic invoices to customers and vendors. These parameters include the certificate thumbprint, which is the certificate that you received from the Mexico tax authority (SAT).  
 
@@ -21,7 +20,7 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
 >
 > Your company must also have SMTP mail set up for emailing electronic invoices. Depending on the configuration in your company, you may need to grant explicit SMTP permissions to each relevant user and computer. The documents will be sent from the address that is specified on the **Company Information** page.  
 
-## To set up company information  
+## Set up company information  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.  
 2. On the **Company Information** page, fill in the relevant fields. For more information, see [Company Information Quick Start](../../quick-start-company-information.md).
@@ -32,7 +31,7 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
 
     |Field|Description|  
     |------------------------------------|---------------------------------------|
-    |**SCT Permission Type** and **SCT Permission Name**|These fields specify a permission that has been provided by the Secretaría de Comunicaciones y Transportes. The permission must correspond to the type of motor transport that the company uses for the transfer of goods or merchandise if you transport goods and merchandise in the national territory.|
+    |**SCT Permission Type** and **SCT Permission Name**|These fields specify a permission that has been provided by the Secretaría de Comunicaciones y Transportes. The permission must correspond to the type of motor transport that the company uses for the transfer of goods or merchandise if you transport goods and merchandise in the national/regional territory.|
 4. On the **Tax** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] The following table describes some of the complex CFDI-related fields.  
 
     |Field|Description|  
@@ -43,7 +42,7 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
     |**CURP No.**|Enter the unique fiscal card identification number. The Cédula de identification fiscal con clave única de registro de población (CURP) tax identification type can only be applied to people. A CURP number is 18 characters.|
     |**State Inscription**|Enter the tax ID number that is assigned by state tax authorities to every person or corporation.|
 
-## To set up general ledger information  
+## Set up general ledger information  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 2. On the **General Ledger Setup** page, on the **Electronic Invoice** FastTab, fill in the fields as described in the following table.  
@@ -58,7 +57,7 @@ Before you can send electronic documents, you must set up [!INCLUDE[prod_short](
 
 Optionally, you can ask your Microsoft Certified Partner to modify the text that is included in the email that is sent when you send electronic invoices. The text is stored as text variables in codeunit 10145, which can be [extended by a developer](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview).  
 
-## To set up customer and vendor information
+## Set up customer and vendor information
 
 You also must add information about your customers and vendors. The following section describes how to specify this information to customers and vendors.
 
@@ -71,7 +70,7 @@ You also must add information about your customers and vendors. The following se
     |------------------------------------|---------------------------------------|
     |**CFDI Purpose**|Enter the CFDI purpose required for reporting to the Mexican tax authorities (SAT).|
     |**CFDI Relation**|Enter the relation of the CFDI document.|
-    |**CFDI Export Code**|Enter a code to indicate if the customer is typically used for exports to other countries.|
+    |**CFDI Export Code**|Enter a code to indicate if the customer is typically used for exports to other countries/regions.|
     |**SAT Tax Regime Classification**|Enter the tax scheme required for reporting to the Mexican tax authorities (SAT).|
 
 3. On the **Invoicing** FastTab, fill in the fields. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)] The following table describes some of the complex CFDI-related fields.  
@@ -101,7 +100,7 @@ You also must add information about your customers and vendors. The following se
     |**State Inscription**|Enter the tax ID number that is assigned by state tax authorities to every person or corporation.|
 4. Repeat steps 2-3 for all other vendors.  
 
-## To set up location information
+## Set up location information
 
 Finally, you must add information about locations you use. The following section describes how to specify this information to locations.
 
@@ -117,7 +116,16 @@ Finally, you must add information about locations you use. The following section
     |**SAT Postal Code**|Enter the SAT postal code where the domicile of the origin or destination of the goods or merchandise that are moved in the different means of transport is located.|
 3. Repeat step 2 for all other locations.  
 
-## To map key data to the CFDI fields
+## Set up cancellation reasons
+
+1. Select the ![A third lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **CFDI Cancellation Reasons**, and then select the related link.  
+2. Select **New** to create new cancellation reason or select **Edit** to make changes an existing one.
+3. In the **Code** field, enter a value that corresponds to the SAT cancellation reason definition.
+4. In the **Description** field enter a brief summary according to the SAT cancellation reason definition.
+5. In the **Substitution Number Required** field, specify whether a substitution number is required for the entry according to the SAT cancellation reason definition. If you choose code 01, specify the document that substitutes the canceled document in the **Substitution Document No.** field.
+6. Close the page.
+
+## Map key data to the CFDI fields
 
 You can let [!INCLUDE [prod_short](../../includes/prod_short.md)] map relevant fields to the data structure that is required by CFDI by using the **Set up Mexican CFDI information** assisted setup guide, or you can map the fields manually.  
 
@@ -136,30 +144,30 @@ If you prefer to map the fields yourself, then you must update the following pag
 - **Payment Methods**  
 - **Payment Terms**  
 
-#### To map your country codes to the values that SAT requires
+#### Map your country codes to the values that SAT requires
 
 1. Choose the ![A fifth lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Countries/Regions**, and then choose the related link.
 2. In the **SAT Country Code** field, specify the country code required for reporting to the Mexican tax authorities (SAT).
 3. Repeat steps 1-2 for all country codes.
 
-#### To map your units of measure to the values that SAT requires
+#### Map your units of measure to the values that SAT requires
 
 1. Choose the ![A sixth lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Units of Measure**, and then choose the related link.
 2. In the **SAT UofM Classification** field, specify the unit of measure required for reporting to the Mexican tax authorities (SAT).
 3. Repeat steps 1-2 for all units of measure.
 
-#### To configure SAT Tax Regime Classification
+#### Configure SAT Tax Regime Classification
 
 1. Choose the ![A seventh lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SAT Tax Schemas**, and then choose the related link.
 2. Fill in the fields as appropriate. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
-#### To map your payment methods to the values that SAT requires
+#### Map your payment methods to the values that SAT requires
 
 1. Choose the ![An eight lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.
 2. In the **SAT Method of Payment** field, specify the payment method for paying the Mexican tax authorities (SAT).
 3. Repeat steps 1-2 for all payment methods.
 
-#### To map your payment terms to the values that SAT requires
+#### Map your payment terms to the values that SAT requires
 
 1. Choose the ![A ninth lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Terms**, and then choose the related link.
 2. In the **SAT Payment Form** field, specify the number of the SAT payment form.

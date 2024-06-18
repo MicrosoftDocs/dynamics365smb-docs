@@ -1,19 +1,15 @@
 ---
-title: Set Up Financial Processes
+title: Set up financial processes
 description: Learn about the tasks required to set up finance in your business to suit all your accounting, auditing, or bookkeeping needs.
-author: edupont04
-
-
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 08/19/2022
-ms.author: edupont
-
+ms.date: 05/07/2024
+ms.service: dynamics-365-business-central
 ---
-# Setting Up Finance
+# Setting up finance
 
 Before you can begin to run your business, you must specify how you want to manage company finance processes. First, you set up the core of the company's accounting records: the chart of accounts (COA). Then you set up posting groups, which make the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.
 
@@ -53,8 +49,6 @@ The following table describes a sequence of tasks, with links to the topics that
 
 > [!TIP]
 > Depending on your geographical location, some Business Central pages may contain fields that are not described in the articles listed above because they apply to local functionality or customizations. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-## See related [Microsoft training](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## See also
 

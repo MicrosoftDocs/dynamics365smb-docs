@@ -1,19 +1,16 @@
 ---
-    title: How to Combine Shipments on a Single Invoice | Microsoft Docs
-    description: If you want to invoice more than one shipment at a time, you can use the combined shipments feature.
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 12/16/2021
-    ms.author: edupont
-
+title: How to combine shipments on a single invoice | Microsoft Docs
+description: If you want to invoice more than one shipment at a time, you can use the combined shipments feature.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 03/05/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Combine Shipments on a Single Invoice
+# Combine shipments on a single invoice
 
 If you want to invoice more than one shipment at a time, you can use the combined shipments feature.  
 
@@ -30,7 +27,7 @@ Before you can create a combined shipment, more than one sales shipment for the 
     - To insert all lines, select all lines and choose the **OK** button.  
     - To insert specific lines, select the lines and choose the **OK** button. You can use the Ctrl key to select multiple nonsequential lines.  
 
-    If an incorrect shipment line was selected or you want to start over, you can simply delete the lines on the invoice and re-run the **Get Shipment Lines** function.  
+    If an incorrect shipment line was selected or you want to start over, you can delete the lines on the invoice and rerun the **Get Shipment Lines** function.  
 7. To post the invoice, choose the **Post** action.  
 
 > [!TIP]  
@@ -61,8 +58,6 @@ When you invoice shipments in this way, the orders from which the shipments were
 Alternatively, delete individual sales orders manually.  
 
 Repeat steps 1 through 3 for any other affected documents, such as blanket sales orders.
-
-## See related [Microsoft training](/training/modules/invoicing-customers-dynamics-365-business-central/)
 
 ## See also
 

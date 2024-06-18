@@ -1,35 +1,33 @@
 ---
-title: France Local Functionality
-description: The following topics describe the various local functionality in the French version of Business Central.
+title: France local functionality
+description: This article describes the various local functionalities in the French version of Business Central.
 author: sorenfriisalexandersen
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords:
-ms.date: 06/18/2021
 ms.author: soalex
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.topic: conceptual
+ms.date: 02/09/2024
+ms.custom: bap-template
 ---
 
-# France Local Functionality
+# France local functionality
 
-The following topics describe local functionality that is unique to the French version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following articles describe local functionality that is unique to the French version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Feature Availability
+## Feature availability
 
 * VAT
+    * [New Audit Export functionality](export-french-audit-file.md) **Available Now**
     * [Export General Ledger Entries for Tax Audits](how-to-export-general-ledger-entries-for-tax-audits.md) **Available Now**
     * [Export General Ledger Entries to an XML File](how-to-export-general-ledger-entries-to-an-xml-file.md) **Available Now**
     * [Requirements for Reporting Declaration of Trade in Goods](requirements-for-reporting-declaration-of-trade-in-goods.md) **Available Now**
-    * Reporting Declaration of Services DES **2022 release wave 2**
-
+    * [Reporting Declaration of Services DES](../../finance-how-setup-use-service-declaration.md) **Available Now**
+   
 * Banking & Payments
     * [Set Up Payment Addresses](how-to-set-up-payment-addresses.md) **Available Now**
-    * [Set Up Payment Statuses](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes) **Available Now**
-    * [Set Up Payment Steps](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes) **Available Now**
-    * [Set Up Payment Classes](how-to-set-up-payment-classes.md) **Available Now**
+    * [Set Up Payment Statuses](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes#to-set-up-payment-statuses-for-a-payment-class) **Available Now**
+    * [Set Up Payment Steps](/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes#to-set-up-payment-steps-for-a-payment-class) **Available Now**
+    * [Set Up Payment Classes](how-to-set-up-payment-classes.md#to-set-up-a-payment-class) **Available Now**
     * [Archive Payment Slips](how-to-archive-payment-slips.md) **Available Now**
     * [Create Payment Slips](how-to-create-payment-slips.md) **Available Now**
     * [Export Payments](how-to-export-payments.md) **Available Now**
@@ -54,12 +52,24 @@ The following topics describe local functionality that is unique to the French v
     * [Specify Posting Periods](how-to-specify-posting-periods.md) **Available Now**
     * [View Ledger Reconciliations](how-to-view-ledger-reconciliations.md) **Available Now**
 
+* Sales
+    * [Deliver sales invoice with French specifics](finance-sales-invoice-specifics.md) **Available Now**
+
 * Fixed Assets
     * [Set Up Accelerated Depreciation](how-to-set-up-accelerated-depreciation.md) **Available Now**
     * [Accelerated Depreciation](accelerated-depreciation.md) **Available Now**
     * [Calculate Accelerated Depreciation](how-to-calculate-accelerated-depreciation.md) **Available Now**
 
-## See Also
+## Future legislation requirements being investigated
+
+* Electronic invoicing - **Planned for 2025 release wave 1**
+* New VAT declaration format in demo data - **Planned for 2024 release wave 2**
+* Prepayments regulatory update - **Planned for 2024 release wave 2**
+
+
+If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).  
+
+## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

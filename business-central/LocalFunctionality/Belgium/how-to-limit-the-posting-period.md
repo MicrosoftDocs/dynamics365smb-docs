@@ -1,18 +1,16 @@
 ---
-    title: How to Limit the Posting Period [BE]
-    description: You can limit the period by which posting is permitted on three different levels, by company, by user, and by template.
+title: How to Limit the Posting Period [BE]
+description: You can limit the period by which posting is permitted on three different levels, by company, by user, and by template.
 
-    author: SorenGP
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/17/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/17/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Limit the Posting Period in the Belgian Version
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can limit the period by which posting is permitted on three different levels: **by company**, **by user**, and **by template**.  

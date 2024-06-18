@@ -3,8 +3,7 @@
     description: You cancel you basic UI changes and decisions for handling of files and automation objects by opening the **Reset User-Specified Settings** window from your Role Center.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
-
+    author: brentholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -12,8 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/01/2017
-    ms.author: sgroespe
-
+    ms.author: bholtorf
 ---
 # Cancel Basic UI Changes and File Handling Decisions
 You cancel you basic UI changes and decisions for handling of files and automation objects by opening the **Reset User-Specified Settings** window from your Role Center.  

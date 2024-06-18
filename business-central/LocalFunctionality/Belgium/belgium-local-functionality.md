@@ -1,20 +1,19 @@
 ---
-title: Belgium Local Functionality
-description: The following topics describe the various local functionality in the Belgian version of Business Central.
-author: sorenfriisalexandersen
-
-
+title: Belgium local functionality
+description: The following articles describe the various local functionalities in the Belgian version of Business Central.
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 06/17/2021
-ms.author: soalex
-
+ms.date: 02/08/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Belgium Local Functionality
+# Belgium local functionality
 
-The following topics describe local functionality that is unique to the Belgian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following articles describe local functionality that is unique to the Belgian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Feature Availability
+## Feature availability
 
 * VAT
     * [Belgian VAT](belgian-vat.md) **Available Now**
@@ -27,7 +26,7 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md) **Available Now**
     * [Set Up Declaration Types](how-to-set-up-declaration-types.md) **Available Now**
     * [Export Intrastat Third-Party Declarations](how-to-export-intrastat-third-party-declararations.md) **Available Now**
-    * Service Declarations F01DGS and F02CMS **2022 release wave 2**
+    * [Service Declarations F01DGS](../../finance-how-setup-use-service-declaration.md) **Available Now**
 
 * Banking & Payments
     * [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md) **Available Now**
@@ -45,30 +44,41 @@ The following topics describe local functionality that is unique to the Belgian 
     * [Generate Payment Suggestions](how-to-generate-payment-suggestions.md) **Available Now**
     * [Import CODA Statements](how-to-import-coda-statements.md) **Available Now**
     * [Manually Transfer and Post CODA Statements](how-to-manually-transfer-and-post-coda-statements.md) **Available Now**
-    * [Print Payment Files](how-to-print-payment-files.md) **Available Now**
-    * [Activate SEPA Payments](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments) **Available Now**
-    * [File Non-Euro SEPA Payments](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments) **Available Now**
+    * [Print Payment Files](how-to-print-payment-files.md#to-print-a-payment-file) **Available Now**
+    * [Activate SEPA Payments](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments#activate-sepa-payments-in-the-belgian-version) **Available Now**
+    * [File Non-Euro SEPA Payments](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments#file-non-euro-sepa-payments) **Available Now**
     * [Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md) **Available Now**
-    * [Set Up Domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
-    * [Edit and Delete Domiciliation Lines](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
-    * [Test Domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
-    * [Export and Post Domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
-    * [Generate Domiciliation Suggestions](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Available Now**
+    * [Set Up Domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#set-up-domiciliations) **Available Now**
+    * [Edit and Delete Domiciliation Lines](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#edit-and-delete-domiciliation-lines) **Available Now**
+    * [Test Domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#test-domiciliations) **Available Now**
+    * [Export and Post Domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#export-and-post-domiciliations) **Available Now**
+    * [Generate Domiciliation Suggestions](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#generate-domiciliation-suggestions) **Available Now**
     * [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md) **Available Now**
-    
-* Core Finance
+
+* Electronic Invoicing
+    * [Electronic Invoicing in Belgium via PEPPOL access point](../../finance-how-setup-edocuments-external.md) **Available Now**
+  
+* Core finance
     * [Apply and Unapply General Ledger Entries](how-to-apply-and-unapply-general-ledger-entries.md) **Available Now**
     * [Create Financial Journals](how-to-create-financial-journals.md) **Available Now**
     * [Export to Accon](how-to-export-to-accon.md) **Available Now**
-    * [[Make Journal Templates Mandatory]](specify-journal-template-mandatory.md) **Available Now**
+    * [Make Journal Templates Mandatory](specify-journal-template-mandatory.md) **Available Now**
 
 * General
     * [Enterprise Numbers and Branch Numbers](enterprise-numbers-and-branch-numbers.md) **Available Now**
     * [Limit the Posting Period](how-to-limit-the-posting-period.md) **Available Now**
     * [Set the Work Date as the Posting Date](how-to-set-the-work-date-as-the-posting-date.md) **Available Now**
     * [Make Journal Templates Mandatory](specify-journal-template-mandatory.md) **Available Now**
+    * [Deferrals in Sales Ledger and Purchase Ledger reports](how-to-use-deferrals.md) **Available Now**
 
-## See Also
+## Future legislation requirements being investigated
+
+* Redesigned and upgraded non-deductible VAT **Planned for 2024 release wave 2**
+
+If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
+
+## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

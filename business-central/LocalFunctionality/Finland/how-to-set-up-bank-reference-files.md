@@ -1,18 +1,16 @@
 ---
 title: Set Up Bank Reference Files (FI)
 description: To process electronic payments in the Finnish version, you must first set up bank reference files to determine how payment data should be imported or exported.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 32000000, 32000001, 32000002, 32000004, 32000005, 32000006
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Bank Reference Files in the Finnish Version
 To process electronic payments, you must first set up bank reference files to determine how payment data should be imported or exported.  

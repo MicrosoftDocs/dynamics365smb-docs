@@ -1,19 +1,16 @@
 ---
-title: Working with Accounting Periods and Fiscal Years
+title: Working with accounting periods and fiscal years
 description: Learn how to work with accounting periods to define when your company reports financial performance.
 author: brentholtorf
-
-
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 100
-ms.date: 08/25/2022
 ms.author: bholtorf
-
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.form: 100,
+ms.date: 05/07/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Work with Accounting Periods and Fiscal Years
+# Work with accounting periods and fiscal years
 
 Accounting periods, also known as reporting periods, are periods of time for which a company or organization reports financial performance by generating, for example, their income statement or balance sheet. Typically, accounting periods refer to the company's fiscal year, which can contain several accounting periods, such as months or quarters.
 

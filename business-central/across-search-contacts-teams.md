@@ -2,14 +2,13 @@
 title: Searching for Contacts from Microsoft Teams 
 description: Learn how to look up Business Central customers, vendors, and other contacts from Microsoft Teams.
 author: jswymer
-
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: get-started
+ms.devlang: al
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
-ms.date: 04/12/2021
+ms.date: 04/16/2024
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
 # Searching for Customers, Vendors, and Other Contacts from Microsoft Teams
@@ -35,9 +34,9 @@ ms.author: jswymer
 
 The command box is at the top of every screen in Teams. It lets you search, take quick actions, or launch apps, like the [!INCLUDE [prod_short](includes/prod_short.md)] app. Searching from the command box is great for quickly looking up contacts and their related data for your own use. For example, suppose you want to look up an email address of a vendor to set up a calendar meeting. Or maybe you want to look up interaction history during a meeting with a customer.
 
-1. In the command box, type **@Business Central**, then select the Business Central app from the results.
+1. In the command box, type **/Business Central**, then select the Business Central app from the results.
 
-    ![Open Business Central app  to search for contacts from command box.](media/teams-contacts-command-1.png)
+    ![Open Business Central app  to search for contacts from command box.](media/teams-contacts-command-1a.png)
 
 2. In the **Business Central** box, start typing search text, like a name, address, or phone number.
 
@@ -74,11 +73,12 @@ The advantage of using the message compose box is that you can add a contact car
     > [!NOTE]
     > The contact card isn't sent to the conversation right away for others to see. You have the opportunity to review the contents of the card, and add text before or after it as you like. Then, send your message to the chat when ready.
 
+<!--
 ### Here's another way
 
 1. Instead of using the **Business Central** icon, type **@Business Central** directly in the message compose box.
 2. Enter your search terms in the box.
-3. Use the up and down arrow keys on the keyboard to choose a contact, then press Enter to select it.
+3. Use the up and down arrow keys on the keyboard to choose a contact, then select <kbd>Enter</kbd> to select it.-->
 
 ## Viewing contact card details
 

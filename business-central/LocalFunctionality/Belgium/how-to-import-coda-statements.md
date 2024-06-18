@@ -1,18 +1,16 @@
 ---
-    title: How to Import CODA Statements [BE]
-    description: When you receive a CODA statement from your bank, you must import it into Business Central with Import CODA File.
+title: How to Import CODA Statements [BE]
+description: When you receive a CODA statement from your bank, you must import it into Business Central with Import CODA File.
 
-    author: SorenGP
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/17/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/17/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Import CODA Statements in the Belgian Version
 When you receive a CODA statement from your bank, you must import it into [!INCLUDE[prod_short](../../includes/prod_short.md)]. For more information, see [Set Up Bank Accounts for CODA](how-to-set-up-bank-accounts-for-coda.md).  

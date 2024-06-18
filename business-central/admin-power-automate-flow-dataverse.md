@@ -1,23 +1,18 @@
 ---
-title: Use a Power Automate Flow for Alerts to Entity Changes
+title: Use a Power Automate flow to timely synchronize Dataverse entity changes
 description: Learn how to create a flow in Power Automate that will alert you when an entity is changed in Dataverse environment. 
 author: brentholtorf
-
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: Power Automate, Flow, Dataverse
 ms.search.form: 
 ms.date: 09/05/2022
 ms.author: bholtorf
-ROBOTS: NOINDEX, NOFOLLOW
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Use a Power Automate Flow for Alerts to Dataverse Entity Changes
-
-> [!IMPORTANT]
-> This article describes functionality that will become available in 2022 release wave 2. Until that release is available, you can't use a Power Automate flow to be alerted when an entity in Dataverse is changed.
+# Use a Power Automate flow to timely synchronize Dataverse entity changes
 
 Administrators can create an automated flow in Power Automate that notifies your [!INCLUDE[prod_short](includes/prod_short.md)] about changes to records in your [!INCLUDE [cds_long_md](includes/cds_long_md.md)] organization.
 
@@ -93,6 +88,6 @@ When you add, delete, or modify an account in your [!INCLUDE [cds_long_md](inclu
 ## See Also
 
 [Use Business Central in Power Automate Flows](across-how-use-financials-data-source-flow.md)  
-[Set Up Automated Workflows](/business-central/dev-itpro/powerplatform/automate-workflows)  
+[Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows)  
 [Integrating with Microsoft Dataverse](admin-common-data-service.md)  
 [Synchronizing Data in Business Central with Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)  

@@ -1,17 +1,15 @@
 ---
-    title: How to Create Service Orders
-    description: Learn the different tasks involved in creating service orders in Business Central such as creating a new service order or orders based on a service contract.
-    author: SorenGP
+title: How to Create Service Orders
+description: Learn the different tasks involved in creating service orders in Business Central such as creating a new service order or orders based on a service contract.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/23/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/23/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Create Service Orders
 You can use the **Service Order** page to create documents where you enter information about a service, such as repairs and maintenance, on service items by customer request.  
@@ -23,7 +21,7 @@ When creating a service order, you only have to fill in a few fields. Some field
 2. Create a new service order.  
 3. In the **No.** field, enter a number for the service order.  
 
-     Alternatively, if you have set up number series for service orders on the **Service Management Setup** page, you can press Enter to select the next available service order number.  
+     Alternatively, if you have set up number series for service orders on the **Service Management Setup** page, you can select <kbd>Enter</kbd> to select the next available service order number.  
 
 4. In the **Customer No.** field, select the relevant customer from the list. The customer-relevant fields are filled in with information from the **Customer** table.  
 

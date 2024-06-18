@@ -1,20 +1,15 @@
 ---
-    title: How to Export Payments
-    description: The Payment Management module allows you to export your payments electronically via a text file or XMLport.
+title: How to Export Payments
+description: The Payment Management module allows you to export your payments electronically via a text file or XMLport.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
 
-    services: project-madeira 
-    documentationcenter: ''
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Export Payments
 The Payment Management module allows you to export your payments electronically via a text file or XMLport.  

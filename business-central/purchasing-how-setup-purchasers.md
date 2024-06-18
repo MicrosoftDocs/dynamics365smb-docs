@@ -1,17 +1,15 @@
 ---
-title: Set Up Purchasers and Assign Purchasers to Vendors (contains video)
+title: Set Up Purchasers and Assign Purchasers to Vendors
 description: If several purchasers, or purchasing agents, work at your company, you can organize them for statistical analysis.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: purchasing agent
 ms.search.form: 14, 5116
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Purchasers
 
@@ -30,8 +28,6 @@ If several purchasers work at your company, you can set them up in a page and as
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.
 2. Open the relevant vendor card for the vendor that will be assigned a purchaser.
 3. In the **Purchaser Code** field, select the applicable purchaser code and then close the page.
-
-## See related [Microsoft training](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## See also
 

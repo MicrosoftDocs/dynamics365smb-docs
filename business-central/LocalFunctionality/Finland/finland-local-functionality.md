@@ -5,14 +5,14 @@ author: sorenfriisalexandersen
 
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 32000006
 ms.date: 06/18/2021
 ms.author: soalex
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Finland Local Functionality
 
@@ -36,6 +36,12 @@ The following topics describe local functionality that is unique to the Finnish 
     * [Set Up Automatic Account Posting Groups](how-to-set-up-automatic-account-posting-groups.md) **Available Now**
     * [Automatic Account Codes](automatic-account-codes.md) **Available Now**
     * [Posting Depreciation Differences](posting-depreciation-differences.md) **Available Now**
+
+## Future legislation requirements being investigated
+
+* Automatic account codes delivered as an app **2023 Wave 1**
+
+If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See Also
 

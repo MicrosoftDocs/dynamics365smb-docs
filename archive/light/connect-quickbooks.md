@@ -1,16 +1,14 @@
 ---
 title: Connect to QuickBooks | Invoicing
 description: Use Intuit QuickBooks as the accounting backend for Invoicing.
-author: edupont04
-
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/18/2018
-ms.author: edupont
-
+ms.author: bholtorf
 ---
 # Use [!INCLUDE[d365inv_long](includes/d365inv_long.md)] with Intuit QuickBooks
 

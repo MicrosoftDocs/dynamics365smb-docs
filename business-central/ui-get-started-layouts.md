@@ -3,14 +3,14 @@ title: Get Started Creating Layouts
 description: Learn how to create layouts to personalize the appearance of a report when viewed, printed, or saved.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/23/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Get Started Creating Report Layouts
 
@@ -118,8 +118,9 @@ Copying is a quick way to create a new layout that's the same as an existing lay
    |Description| Type more detailed information the layout. |no|
    |Format Options|Set this field to match the type of the layout, like Word, Excel, or RDLC.|yes|
 
-6. Select **OK** > **Choose** to open file explorer on your device.
-7. Find and select the Excel file, then select **Open**.
+6. Select **OK**, then do one of the following steps to upload the layout file for the report:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    The selected file is uploaded to the layout, and you return to the **Report Layouts** page.
 
@@ -178,8 +179,6 @@ Follow these steps if you want to change the name and description of a user-defi
     > [!TIP]
     > To help you find the layout, use the **Search** box, **Filter** pane, and columns sorting.
 3. Change the **Layout Name**, then select **OK**.
-
-## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## See Also
 

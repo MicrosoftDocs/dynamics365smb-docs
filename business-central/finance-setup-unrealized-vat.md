@@ -2,17 +2,14 @@
 title: Set Up Unrealized Value Added Tax
 description: If you're using cash-based accounting, you can specify how to handle unrealized VAT for sales and purchases.
 author: brentholtorf
-
-
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.search.form: 118, 472, 473
 ms.date: 04/01/2021
 ms.author: bholtorf
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set Up Unrealized VAT for Cash-Based Accounting

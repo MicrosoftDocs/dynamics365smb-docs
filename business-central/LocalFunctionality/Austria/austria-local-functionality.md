@@ -1,17 +1,17 @@
 ---
-    title: Austria Local Functionality
-    description: The following topics describe the various local functionality in the Austrian version of Business Central.
-    author: sorenfriisalexandersen
+title: Austria Local Functionality
+description: The following topics describe the various local functionality in the Austrian version of Business Central.
+author: sorenfriisalexandersen
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/17/2021
-    ms.author: soalex
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 03/17/2023
+ms.author: soalex
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Austria Local Functionality
 The following topics describe local functionality that is unique to the Austrian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
@@ -37,6 +37,12 @@ The following topics describe local functionality that is unique to the Austrian
 
 * General
     * [Print General Ledger Setup Information](how-to-print-general-ledger-setup-information.md) **Available Now**
+
+## Future legislation requirements being investigated
+
+* SAF-T reporting in Austria **2024 release wave 2**
+
+If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See Also
 

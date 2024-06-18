@@ -1,17 +1,14 @@
 ---
 title: Print Checks for APACS
 description: The Association for Payment Clearing Services (APACS) specification defines a standard layout for fields on checks in the UK. The Check report uses this specification.
-author: SorenGP
-
-    
+author: brentholtorf 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 256
 ms.date: 04/01/2021
-ms.author: edupont
-
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Print Checks for APACS
 

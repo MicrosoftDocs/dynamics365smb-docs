@@ -1,26 +1,26 @@
 ---
 title: Application Compliance
-description: This topic explains application compliance in relation to Business Central, such as International Financial Reporting Standards, local functionality, and GDPR.
+description: This article explains how Business Central complies with international financial reporting standards, local functionality, and privacy laws and regulations.
 author: sorenfriisalexandersen
-documentationcenter: ''
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords:
-ms.date: 08/25/2022
 ms.author: soalex
-
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.date: 06/18/2024
+ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
+
 # Application Compliance
 
-This content contains information about application compliance in relation to [!INCLUDE[prod_short](../includes/prod_short.md)], such as the International Financial Reporting Standards, local functionality, and the General Data Protection Regulation (GDPR)<!--note from editor: You don't need "and more" when you've used "such as."-->. Confidence in a business management solution is key to running an efficient business. With Business Central, companies are empowered to streamline business processes while consistently and cost-effectively complying with increasing regulation and reporting requirements.
+This article provides information about how [!INCLUDE [prod_short](../includes/prod_short.md)] empowers companies to streamline business processes while consistently and cost-effectively complying with increasing regulation and reporting requirements.
 
 ## Data privacy
 
-Business Central supports data privacy initiatives like the GDPR, which went into effect on May 25, 2018. Read more about how [Business Central supports GDPR](../admin-responding-to-requests-about-personal-data.md).  
+[!INCLUDE [prod_short](../includes/prod_short.md)] supports data privacy laws and regulations. [Learn how to respond to data subject requests in Business Central](../admin-responding-to-requests-about-personal-data.md).
 
-If you're a developer for Business Central extensions, you must know about classifying data. See<!--note from editor: About using "please," see https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=28832. About using "this page," see https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=34905--> [Classifying Data in Dynamics 365](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data). If you want to learn more about the GDPR from a broader Dynamics 365 perspective, see [this list of white papers](/dynamics365/get-started/gdpr/).
+If you develop [!INCLUDE [prod_short](../includes/prod_short.md)] extensions, you need to know [how data is classified in Dynamics 365](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
+
+[Learn more about data privacy in Dynamics 365](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## Accounting processes and controls to aid compliance
 
@@ -36,7 +36,7 @@ Compliance depends not only on accurate information and appropriate accounting p
 
 ## Realize the benefits of an integrated business management solution
 
-Business Central delivers real-time, integrated operational and financial information from across your organization, so you can:
+[!INCLUDE [prod_short](../includes/prod_short.md)] delivers real-time, integrated operational and financial information from across your organization, so you can:
 
 - Track financial data by using custom account schedules for cash flow, revenue, balance sheets, fixed assets, capital structure, key performance indicators, and more.
 - Help safeguard accuracy with role-based security and configurable application controls that prevent invalid or duplicate data entry.
@@ -45,7 +45,7 @@ Business Central delivers real-time, integrated operational and financial inform
 
 ## Gain control of critical information, processes, and reports
 
-Business Central improves control of key functions and information critical to the successful financial operation of your business.
+[!INCLUDE [prod_short](../includes/prod_short.md)] improves control of key functions and information critical to the successful financial operation of your business.
 
 ### Manage compliance to the standards that matter
 
@@ -82,18 +82,19 @@ Integrated information, aligned processes, and easy-to-use tools help your peopl
 
 ## Compliance and local functionality
 
-Microsoft builds localized versions of Business Central for a limited number of markets. These localizations primarily focus on regulatory features in the tax and financial areas, but can sometimes involve other parts of the solution. If you want to see what is built in<!--note from editor: Don't use possessive with "Microsoft".--> localized versions of Business Central, go to [Local Functionality in Dynamics 365 Business Central](../about-localization.md) and choose a country or region<!--note from editor: There don't seem to be any "regions" in this section, but maybe it would be safest to use this wording in advance of any future controversies.--> to learn about local functionality.  
+Microsoft builds localized versions of Business Central for a limited number of markets. These localizations primarily focus on regulatory features in the tax and financial areas but can sometimes involve other parts of the solution. If you want to see what is built in Microsoft's localized versions of Business Central, see **Local Functionality** in the menu on this website and choose a country/region. Learn more at [Local Functionality](../about-localization.md).  
 
 <!--note from editor: The Note format doesn't work for the following paragraphs. If you think the H3 tags don't look different enough from the H2, you can find an acceptable workaround in the Docs Contributor Guide https://review.learn.microsoft.com/en-us/help/contribute/text-formatting-guidelines?branch=main#using-h4-headings-in-place-of-h3-headings.-->
-#### Sarbanes-Oxley: Validating data and processes
 
-The Sarbanes-Oxley Act establishes standards for all US public company boards, management, and public accounting firms, including evaluation and disclosure of the adequacy of the company's internal financial reporting controls. Documenting and testing critical manual and automated controls represents a huge commitment of time and resources for companies. Business Central is especially suited for subsidiaries of larger organizations, and can help support small to medium-sized<!--note from editor: Via MWSG.--> businesses in complying with Sarbanes-Oxley.
+#### Sarbanes-Oxley: Validating Data and Processes
+ 
+The Sarbanes-Oxley Act establishes standards for all U.S. public company boards, management, and public accounting firms, including evaluation and disclosure of the adequacy of the company's internal financial reporting controls. Documenting and testing critical manual and automated controls represents a huge commitment of time and resources for companies. Business Central is especially suited for subsidiaries of larger organizations, and can help support small to mid-sized businesses in complying with Sarbanes-Oxley.
 
-#### IAS/IFRS: Recognition and measurement standards
+#### IAS/IFRS: Recognition and Measurement Standards
+  
+Depending on the current local GAAPs, one of the major recognition and measurement changes for IAS/IFRS is the extended use of fair-value principles instead of historical cost. [!INCLUDE [prod_short](../includes/prod_short.md)] can help companies calculate fair value and net present value (NPV) concepts, which are focused on current and expected cash flow streams rather than historical purchase price. On the reporting side, it can provide segment reporting by business unit and geographical location.
 
-Depending on the current local generally accepted accounting practices, one of the major recognition and measurement changes for IAS/IFRS is the extended use of fair-value principles instead of historical cost. Business Central can help companies with fair value and net present value (NPV) calculations<!--note from editor: Calculating a concept doesn't seem possible.-->, which are focused on current and expected cash flow streams rather than historical purchase price. On the reporting side, Business Central<!--note from editor: Is this what "it" refers to here?--> can provide segment reporting by business unit and geographical location.
-
-#### Basel II: Implications for reporting and analysis 
+#### Basel II: Implications for reporting and analysis
 
 Basel II, developed by the Bank for International Settlements, helps ensure safety and security in the financial system in three key areas: minimum capital requirements, supervisory review process, and market discipline. Although the accord applies to financial institutions and doesn't target small and medium-sized businesses, Basel II might have some implications for these organizations in reporting and analysis.
 
@@ -103,8 +104,6 @@ Basel II, developed by the Bank for International Settlements, helps ensure safe
 [Service Compliance](compliance-service-compliance.md)  
 [Certifications](compliance-certifications.md)  
 
- ## [!INCLUDE[free_trial_md](../includes/free_trial_md.md)]  
- 
-
+## [!INCLUDE[free_trial_md](../includes/free_trial_md.md)]  
 
 [!INCLUDE[footer-banner](../includes/footer-banner.md)]

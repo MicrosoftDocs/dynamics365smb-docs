@@ -1,24 +1,20 @@
 ---
-    title: Italy Local Functionality
-    description: The following outlined topics describe the local functionality in the Italian version of Business Central.
-
-    author: SorenGP
-
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: edupont
-
+title: Italy local functionality
+description: The following outlined articles describe the local functionality in the Italian version of Business Central.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/11/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Italy Local Functionality
+# Italy local functionality
 
-The following topics describe local functionality that is unique to the Italian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following articles describe local functionality that is unique to the Italian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Feature Availability
+## Feature availability
 
 * VAT & Withholding Tax
     * [Italian VAT](italian-vat.md)
@@ -31,8 +27,8 @@ The following topics describe local functionality that is unique to the Italian 
     * [Prepare for VAT Transactions Reports](how-to-prepare-for-vat-transactions-reports.md) **Available Now**
     * [Print and Reprint G/L Books and VAT Registers](how-to-print-and-reprint-g-l-books-and-vat-registers.md) **Available Now**
     * [Print Intrastat Reports for Italy](how-to-print-intrastat-reports-for-italy.md) **Available Now**
-    * Intrastat for Services **2022 release wave 2**
     * [Print Withholding Reports](how-to-print-withholding-tax-reports.md) **Available Now**
+    * [Intrastat for Services in Italy](../../finance-how-setup-use-service-declaration.md) **Available Now**
 
 * Banking & Payments
     * [Set Up Payment Terms](how-to-set-up-payment-terms.md) **Available Now**
@@ -61,8 +57,18 @@ The following topics describe local functionality that is unique to the Italian 
     * [Set Up Company Information](how-to-set-up-company-information.md) **Available Now**
     * [Italian Subcontracting](italian-subcontracting.md) **Available Now**
     * [Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md) **Available Now**
+    * [Italian Electronic Invoicing](electronic-invoicing.md) **Available Now**
 
-## See Also
+## Future legislation requirements being investigated
+
+* Fiscal restrictions for vendors **Planned for 24.4**
+* Allow Calc and Post VAT Settlement to be posted by Activity Code **Planned for 24.4**
+* Redesigned and upgraded non-deductible VAT **Planned for 2025 release wave 1**  
+* Updated electronic invoicing with new e-documents framework (SDI) **Planned for 2025 release wave 1**  
+
+If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
+## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

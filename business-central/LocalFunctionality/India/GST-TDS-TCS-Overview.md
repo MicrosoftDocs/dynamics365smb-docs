@@ -1,18 +1,18 @@
 ---
-    title: Setting up for GST TDS and GST TCS
-    description: Setting up for GST TDS and GST TCS
+title: Setting up for GST TDS and GST TCS
+description: Setting up for GST TDS and GST TCS
 
-    author: v-debapd
+author: v-debapd
 
     
-    ms.topic: overview
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: overview
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Setup for GST TDS and GST TCS 
 
@@ -21,7 +21,7 @@ This topic explains the requirement and the process of setting up GST TDS and GS
 
 ## GST TDS 
 
-As per Section 51 of CGST Act, recipient of goods and services shall deduct TDS of 2% on payment amount where contract amount exceeds INR 250000. The recipient will issue a certificate for the tax amount deducted against the payment made for contract to supplier. Recipient will pay the deducted amount to government and the same is reflected in supplier’s electronic ledger entry, which he can further adjust it against liability.
+As per Section 51 of CGST Act, recipient of goods and services shall deduct TDS of 2% on payment amount where contract amount exceeds INR 250000. The recipient will issue a certificate for the tax amount deducted against the payment made for contract to supplier. Recipient will pay the deducted amount to government and the same is reflected in supplier’s electronic ledger entry, which the supplier can further adjust against liability.
 
 ## GST TCS
 

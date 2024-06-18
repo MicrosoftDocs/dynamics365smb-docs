@@ -1,86 +1,86 @@
 ---
-title: Analyze Data by Dimensions
-description: This topic describes how to analyze various business data by dimensions. Dimensions give you greater insight into your business so you can evaluate information.
-author: edupont
-
-
+title: Analyze data by dimensions
+description: This article describes how you can analyze business data by dimensions to gain greater insight into your business.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 545, 555, 556, 557, 558, 9372, 9370, 9371
-ms.date: 06/14/2021
-ms.author: edupont
-
+ms.date: 04/19/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-#  Analyze Data by Dimensions
-In financial analysis, a dimension is data that you can add to an entry as a kind of marker. This data is used to group entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Dimensions can be used on entries in journals, documents, and budgets. The term dimension describes how analysis occurs. A two-dimensional analysis, for example, would be sales per area. However, by using more than two dimensions when creating an entry, you can carry out a more complex analysis, such as sales per sales campaign per customer group per area. For more information, see [Work with Dimensions](finance-dimensions.md).
 
-Analyzing data by dimensions gives you greater insight into your business, so you can evaluate information, such as how well your business is operating, where it is thriving and where it is not, and where more resources should be allocated.
+# Analyze data by dimensions
+
+In financial analysis, a dimension is data you add to an entry as a kind of marker to group entries with similar characteristics. For example, dimensions often group entries for customers, regions, products, and salespeople. The groups let you easily retrieve data about them for analysis. You can use dimensions on entries in journals, documents, and budgets.
+
+Each dimension describes the focus of analysis. So, a two-dimensional analysis, for example, would be sales per area. By using more than two dimensions when you create an entry, you can carry out a more complex analysis. An example of a complex analysis is exploring sales per sales campaign per customer group per area. That gives you greater insight into your business, such as how well your business is operating, where it is or isn't thriving, and where you should allocate more resources. That insight helps you make more informed business decisions. Learn more at [Work with Dimensions](finance-dimensions.md).
 
 > [!TIP]
-> As a quick way to analyze transactional data by dimensions, you can filter totals in the chart of accounts and entries in all **Entries** pages by dimensions. Look for the **Set Dimension Filter** action.
+> As a quick way to analyze transactional data by dimensions, you can filter totals in the chart of accounts (COA) and entries in all **Entries** pages by dimensions. Look for the **Set Dimension Filter** action.
 
 > [!NOTE]
-> If you discover that an incorrect dimension has been used on posted general ledger entries, you can correct the dimension values and update your analysis views. For more information, see [Troubleshooting and Correcting Dimensions](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting)
+> If you discover that an incorrect dimension value was used on posted general ledger entries, you can correct it and update your analysis views. To learn more, go to [Troubleshooting and Correcting Dimensions](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## To set up an analysis view  
-An analysis by dimensions displays a selected combination of dimensions. You can store and retrieve each analysis you have set up. The information for setting up an analysis is stored on an **Analysis View** card to simplify future analysis.  
+## Set up an analysis view
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, and then choose the related link.  
+An analysis by dimensions uses a selected combination of dimensions. You store, retrieve, and update that dimension set by creating an **Analysis View** card.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, then choose the related link.  
 2. On the **Analysis View List** page, choose the **New** action.
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. To add other dimension codes in addition to the four on the **Dimensions** FastTab, choose the **Filter** action, fill in the fields, and then choose the **OK** button.  
+4. To add other dimension codes in addition to the four on the **Dimensions** FastTab, choose the **Filter** action, fill in the fields, then choose the **OK** button.  
 5. To update the view, choose the **Update** action.
 
-## To analyze by dimensions
-You can use the **Analysis by Dimensions** matrix to view the amounts in your general ledger by using the analysis views that you have already set up. You fill on the **Analysis by Dimensions** page to define what will be shown in the matrix, and then you choose the **Show Matrix** action to view the matrix.  
+## Analyze by dimensions
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, and then choose the related link.  
-2. Select the relevant analysis view,  and then choose the **Analysis by Dimensions** action.
-3. On the **Analysis by Dimensions** page, fill in the fields to define which data is shown and how.
-4. Choose the **Show Matrix** action to open the respective matrix page for the defined analysis view.
-5. To see a specification of an amount shown in the matrix page, choose the amount to drill down.  
+Use analysis views you've already set up with the **Analysis by Dimensions** matrix to view the amounts in your general ledger.
 
-- The leftmost columns contain information based on what you have selected in the **Show as Lines** field in the header.  
-- The rightmost columns contain information based on to what you have selected in the **Show as Columns** field in the header.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, then choose the related link.  
+2. Select the relevant analysis view, then choose the **Analysis by Dimensions** action.
+3. On the **Analysis by Dimensions** page, fill in the fields to define what data to show, and how.
+4. Choose the **Show Matrix** action to open the matrix page for the analysis view.
+5. To access details of an amount in the matrix page, choose the amount.  
+
+- The columns on the left contain information based on what you've selected in the **Show as Lines** field in the header.  
+- The columns on the right contain information based on what you've selected in the **Show as Columns** field in the header.
 
 > [!IMPORTANT]  
->   You cannot select a period length shorter than the period specified for the date compression on the **Analysis View** card. The **Next Set** and **Previous Set** commands are inactive if you have selected **Period** in either the **Show as Lines** or the **Show as Columns** field.  
+> You can't select a period length that's shorter than the period specified for the date compression on the **Analysis View** card. The **Next Set** and **Previous Set** actions aren't available if you've selected **Period** in either the **Show as Lines** or **Show as Columns** fields.  
 
 > [!NOTE]  
->   You can use the **Dimensions - Detail** report to display a detailed classification of how dimensions have been used on entries over a selected period. You can use the **Dimensions - Total** report to display only the total amounts.  
+> You can use the **Dimensions - Detail** report to display a detailed classification of how dimensions have been used on entries over a selected period. You can use the **Dimensions - Total** report to display only the total amounts.  
 
 > [!TIP]  
->   You can also change the view by changing the contents of the **Show as Lines** field and **Show as Columns** field. To reverse a view setting, choose the **Reverse Lines and Columns** action.
+> You can also change the view by changing the contents of the **Show as Lines** and **Show as Columns** fields. To reverse a view setting, choose the **Reverse Lines and Columns** action.
 
-## To update an analysis view  
-The amounts that are displayed on the **Analysis by Dimensions** page give you a picture of the company’s state at the time of the last update. To get a picture of the current state, you must update the analysis view by running the update function.
+## Update an analysis view
 
-The following procedure is for updating an analysis view from the **Analysis by Dimensions** page. The steps are similar from the **Analysis View Card** and the **Analysis View List** pages.  
+The amounts on the **Analysis by Dimensions** page give you a picture of the company's state at the time of the last update. To get the current state, run the update action to update the analysis view.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, and then choose the related link.
-2. Select the relevant analysis view,  and then choose the **Analysis by Dimensions** action.
-2. On the **Analysis by Dimensions** page, choose the **Analysis View Code** field.  
-3. Select the line with the relevant analysis view.  
-4. On the **Analysis Views** page, select the analysis view, and then choose the **Update** action.  
+Use the following procedure to update an analysis view from the **Analysis by Dimensions** page. The steps are similar to those for updating the **Analysis View Card** and **Analysis View List** pages.  
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Analysis Views**, then choose the related link.
+2. Select the relevant analysis view, then choose the **Analysis by Dimensions** action.
+3. On the **Analysis by Dimensions** page, choose the **Analysis View Code** field.  
+4. Select the line with the relevant analysis view.  
+5. On the **Analysis Views** page, select the analysis view, then choose the **Update** action.  
 
 > [!TIP]  
->   If you select the **Update on Posting** check box on an analysis view card, the view is automatically updated when an involved transaction is posted.
+> If you select the **Update on Posting** checkbox on an analysis view card, the view automatically updates when someone posts an associated transaction.
 
 > [!NOTE]  
->   To update some or all analysis views at the same time, you must use the **Update Analysis Views** batch job.  
+> To update some or all analysis views at the same time, use the **Update Analysis Views** batch job.  
 
-## See related [Microsoft training](/training/modules/dimensions-financial-reports-dynamics-365-business-central/index)
+## See also
 
-## See Also
-[Business Intelligence](bi.md)  
+[Financial Business Intelligence](bi.md)  
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Work with Dimensions](finance-dimensions.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

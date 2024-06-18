@@ -2,14 +2,13 @@
 title: Managing Microsoft Teams Integration with Business Central| Microsoft Docs
 description: Manage Business Central integration with Microsoft Teams.
 author: jswymer
-
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: overview
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 04/12/2021
+ms.date: 02/03/2023
 ms.author: jswymer
+ms.reviewer: jswymer
+ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
 # Managing Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
@@ -83,7 +82,7 @@ The Microsoft Teams admin center is where you configure Teams app setup policies
 > [!NOTE]
 > To set up Centralized Deployment, your Teams account must have the **Teams Service admin**  role or the **Global admin** role.
 
-1. In Business Central, choose the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Teams App Centralized Deployment**, and then choose the related link. Or, select [here](https://businesscentral.dynamics.com/?page=1833) to open the page directly.
+1. In Business Central, choose the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Teams App Centralized Deployment**, and then choose the related link. Or select [here](https://businesscentral.dynamics.com/?page=1833) to open the page directly.
 2. Read the information on the **Set up the Business Central app for Teams**, then choose **Next** when ready.
 3. Open the [Teams admin center](https://go.microsoft.com/fwlink/?linkid=2163970), and complete the following steps.
     1. Go to **Teams apps** > **Setup policies**.
@@ -92,10 +91,10 @@ The Microsoft Teams admin center is where you configure Teams app setup policies
     4. Choose **Add**.
 
        Business Central should now appear under **Installed apps** for the policy.
-    5. Configure any additional settings, then choose **Save**.
+    5. Configure more settings as needed, then choose **Save**.
 
     For more information about setup policies in Teams, see [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) in the Teams documentation.
-4. Go back to **Teams App Centralized Deployment** in Business Central, and select **Done**.
+4. Go back to **Teams App Centralized Deployment** in Business Central and select **Done**.
 
 > [!IMPORTANT]
 > It can take up to 24 hours for the app set up policy to be applied and the app deployed to users.
@@ -127,7 +126,27 @@ Content search and eDiscovery compliance features in the Microsoft 365 Security 
 
 Because card data in Teams is a copy of data in [!INCLUDE [prod_short](includes/prod_short.md)], you can also use [!INCLUDE [prod_short](includes/prod_short.md)] features to export a customer’s data if requested. For more information about privacy in [!INCLUDE [prod_short](includes/prod_short.md)], see [Privacy FAQ for Business Central Customers](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
+## Show or hide record data on cards
+
+When a record is shared with others in a Teams chat or channel, a card with fields that contain data about the record is shown. All recipients can view this data (or record summary) by default, regardless of their license or permissions in Business Central. If you're an admin, you can use the **Card Settings** assisted setup guide to hide the record summary from appearing on cards in Teams. Hiding the record summary removes all fields and images but continues to show the **Details** button and other non-record information on the card.
+
+|Record summary on|Record summary off|
+|-|-|
+|![Image that shows a card in Teams when the record summery is turned on.](media/card-settings-example-on.png)|![Image that shows a card in Teams when the record summery is turned off.](media/card-settings-example-off.png)|
+
+You configure the setting per environment. So when you turn the record summary on or off, it will affect all companies in the environment.
+
+1. In Business Central, open the environment that you want to change.
+
+   > [!TIP]
+   > To switch the environment, select <kbd>Ctrl</kbd>+<kbd>O</kbd>.
+2. Choose the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Card Settings**, and then choose the related link. <!--Or, select [here](https://businesscentral.dynamics.com/?page=1833) to open the page directly.-->
+3. Read the information on the **Card Settings**, then choose **Next** when ready.
+4. On the **Data Visibility** page, turn on the **Show record summary** switch to display data on the cards or off to hide the data.
+5. Select **Next** and follow the instructions to complete the setup guide.
+
 ## See Also
+
 [[!INCLUDE [prod_short](includes/prod_short.md)] and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  
 [Teams FAQ](teams-faq.md)  

@@ -2,17 +2,16 @@
 title: Create New Value Entries for Items in the Inventory| Microsoft Docs
 description: Describes how to appreciate or depreciate the value entries of one or more items in inventory by posting their current, calculated value.
 documentationcenter: ''
-author: SorenGP
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: costing, inventory cost, value entries
 ms.search.forms: 5803,
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Revalue Inventory
 If you want to appreciate or depreciate an item or a specific item ledger entry, you must use the revaluation journal.

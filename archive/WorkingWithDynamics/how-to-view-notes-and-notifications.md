@@ -3,7 +3,7 @@
     description: Business Central enables you and your colleagues to attach notes to records in the application. For example, if your colleague wants to give you extra information about a sales order that is not covered by the fields on the sales order page, they can write a note and send it to you as a notification on your Role Center.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
+    author: brentholtorf
 
     ms.service: dynamics365-financials
     ms.topic: article

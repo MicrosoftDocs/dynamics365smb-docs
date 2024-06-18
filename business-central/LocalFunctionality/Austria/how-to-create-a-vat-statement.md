@@ -1,17 +1,15 @@
 ---
-    title: How to Create a VAT Statement
-    description: You can submit a periodic report of VAT transactions. The VAT statement is submitted as an FDF file that corresponds with an editable PDF file from the tax authorities.
-    author: SorenGP
+title: How to Create a VAT Statement
+description: You can submit a periodic report of VAT transactions. The VAT statement is submitted as an FDF file that corresponds with an editable PDF file from the tax authorities.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Create a VAT Statement
 [!INCLUDE[prod_short](../../includes/prod_short.md)] allows you to submit a periodic report of VAT transactions. The VAT statement is submitted as an FDF file that corresponds with an editable PDF file from the tax authorities.  
@@ -29,6 +27,7 @@
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
+    |**Period Date Type**|Specifies the type of date used for the period from which VAT entries are processed in the batch job.|
     |**Starting Date**|Specifies the start date of the VAT period.|  
     |**Ending Date**|Specifies the end date of the VAT period.|  
     |**Include VAT Entries**|Specifies if you want to include VAT entries that are either open or closed, or both open and closed entries.|  

@@ -3,13 +3,13 @@ title: Power BI FAQ
 description: Get answers for some typical questions about working with Power BI and Business Central.
 author: jswymer
 
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: get-started
+ms.devlang: al
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Power BI  FAQ
 
@@ -242,11 +242,6 @@ We're looking into this feature. Power BI offers rich APIs to control report dep
 
 Some API pages, including most API v2.0 pages, have fields based on [AL Enum objects](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Fields based on AL enum objects must have names that are consistent and always the same, so that filters on the report always work&mdash;no matter the language or operating system you're using. For this reason, the fields based on AL enums aren't translated and are encoded to avoid any special character, including the space. In particular, whenever there's an empty option in the AL Enum object, it's encoded to "_x0020_". You can always apply a transformation to your data on Power BI if you want to display some different value for these fields, for example "Empty".
 
-
----
-
-## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/)
-
 ## See also
 
 [Power BI Licensing](admin-powerbi-setup.md#license)  
@@ -254,7 +249,7 @@ Some API pages, including most API v2.0 pages, have fields based on [AL Enum obj
 [Power BI Integration Overview](admin-powerbi-overview.md)  
 [Enabling Power BI in Business Central](admin-powerbi-setup.md)  
 [Work with Power BI Reports in Business Central](across-working-with-powerbi.md)  
-[Work with Business Central Data in Power BI](across-working-with-business-central-in-powerbi.md)  
+[Connect to Power BI from Business Central on-premises](across-working-with-business-central-in-powerbi.md)  
 [Building Power BI Reports to Display Business Central Data](across-how-use-financials-data-source-powerbi.md)  
 [Power BI documentation](/power-bi/)  
 

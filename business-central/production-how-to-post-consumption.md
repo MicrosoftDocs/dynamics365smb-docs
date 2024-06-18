@@ -1,24 +1,22 @@
 ---
 title: Batch Post Consumption
 description: If the flushing method is Manual, you must post the components manually, using a consumption journal.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 99000846, 99000850
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 03/08/2023
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Batch Post Production Consumption
 
-If the flushing method is **Manual**, you must post the components manually, using a consumption journal.  
+If the flushing method is **Manual**, use a consumption journal to post the components manually.  
 
->[!NOTE]
-> If you have placed a check mark in the **Require Pick** field on the location card to indicate that the location requires inventory pick processing, then you do not need to use this batch job. [!INCLUDE[prod_short](includes/prod_short.md)] will handle consumption when you post the inventory pick. For more information, see [Pick for Production in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md#pick-for-production-in-basic-warehouse-configurations).  
+> [!NOTE]
+> If you have placed a check mark in the **Require Pick** field on the location card to indicate that the location requires inventory pick processing, then you do not need to use this batch job. [!INCLUDE[prod_short](includes/prod_short.md)] will handle consumption when you post the inventory pick. For more information, see [Pick for Production in Basic Warehouse Configurations](warehouse-how-to-pick-for-production.md).  
 
 You can also set up [!INCLUDE[prod_short](includes/prod_short.md)] to automatically post (*flush*) components when you start or finish production orders. For more information, see [Enable Flushing of Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).
 
@@ -33,6 +31,8 @@ You can also set up [!INCLUDE[prod_short](includes/prod_short.md)] to automatica
     > If you configured the location card to require warehouse pick processing, then only quantities that are already picked through a warehouse activity can be entered in the **Quantity** field in the **Consumption Journal** page, not any calculated quantity. For more information, see [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 3. Choose the **Post** action to post the consumption. The related inventories are reduced.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## See Also
 

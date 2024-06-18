@@ -1,16 +1,16 @@
 ---
 title: VAT Reporting in the German version
 description: You can report VAT electronically to the tax authorities in the German version.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 
 ms.search.form: 11016, 11017, 11019, 11025, 11026, 11027, 11028
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # VAT Reporting in the German version
 
@@ -20,7 +20,7 @@ You can print the following local VAT reports.
 
 |Report|Description|  
 |------------|---------------------------------------|  
-|**VAT Statement Germany**|A simple VAT report. The main VAT reporting is handled by the ELSTER functionality. The amounts are differentiated by taxable base and taxable amount.<br /><br /> Serves as the basis for VAT registration for a selected period, and is printed according to the VAT statement in the VAT Statement Line table.<br /><br /> Use this report in conjunction with VAT correction.|  
+|**VAT Statement Germany**|A simple VAT report. The main VAT reporting is handled by the ELSTER functionality. The amounts are differentiated by taxable base and taxable amount.<br /><br /> Serves as the basis for VAT registration for a selected period, and is printed according to the VAT statement in the VAT Statement Line table. Use the **Period Date Type** to specifiy the type of date used for the period from which VAT entries are processed in the batch job. Based on your choice, the statement can be based on **Posting Date**, **Document Date**, or **VAT Date**.<br /><br /> Use this report together with VAT corrections.|  
 |**Sales VAT Adv. Not. Acc. Proof**|Confirms that entries in the VAT statement form are also posted in general ledger accounts.<br /><br /> To verify VAT in sales VAT advance notifications, select the same settings for the VAT statement form and the sales VAT advance notification.|  
 |**VAT Statement Schedule**|This report can be retrieved from the **VAT Statement** page.<br /><br /> Prints the settings in the VAT statement. Using this report, you can print the characteristics of the **Sales VAT Adv. Not. Acc. Proof**.|  
 

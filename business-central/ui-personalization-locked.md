@@ -1,18 +1,16 @@
 ---
 title: Why a Page is Locked from Personalization
 description: You might be blocked from personalizing a page. Read here about what you can do to unlock it so you can personalize it.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.search.form: 
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Why a Page is Locked from Personalization
 

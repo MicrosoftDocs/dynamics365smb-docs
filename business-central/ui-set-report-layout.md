@@ -3,15 +3,15 @@ title: Setting the Report Layout
 description: Learn how to set the layout that's used on a report when previewing and printing.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 08/12/2022
+ms.date: 06/13/2024
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-# Setting the Layout Used by a Report
+# Set the layout used by a report
 
 > **APPLIES TO:** Business Central online, Business Central on-premises 2022 release wave 1 and later. For earlier versions, go [here](ui-how-change-layout-currently-used-report.md).
 
@@ -25,7 +25,7 @@ There are a few ways to set which layout a report uses. Each way has advantages,
 
 - From the report request page
 
-  When setting up a report to run, the report request page includes the **Reports Layout** field that shows the current default layout used by the report. You can use this field to temporarily switch to another available layout the report you're running. After you run the report, the layout will revert to the default layout again. For more information, see [Run and Print Reports](ui-work-report.md#switching-the-report-layout).
+  When setting up a report to run, the report request page includes the **Reports Layout** field that shows the current default layout used by the report. You can use this field to temporarily switch to another available layout the report you're running. After you run the report, the layout will revert to the default layout again. For more information, see [Run and Print Reports](ui-work-report.md#switch-the-report-layout).
 
 - From the **Report Layout Selection** page
 
@@ -58,8 +58,6 @@ There are a few ways to set which layout a report uses. Each way has advantages,
 ## Revert to the original default layout
 
 Reports are designed to use a layout by default. You can switch back to the original default layout from **Report Layout Selection** page. Just select the report, then select the **Restore Default Selection** action at the top of the page.
-
-## See related [Microsoft training](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## See Also
 

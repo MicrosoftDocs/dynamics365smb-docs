@@ -3,8 +3,7 @@
     description: When managing your relationships with contacts, it can help to keep track of email correspondence. Learn about email logging in [!INCLUDE[d365fin](includes/d365fin_md.md)] and Microsoft Exchange Server.
     services: project-madeira
     documentationcenter: ''
-    author: bholtorf
-
+    author: brentholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -13,7 +12,6 @@
     ms.search.keywords: email, log, logging, interactions
     ms.date: 09/01/2017
     ms.author: bholtorf
-
 ---
 # Walkthrough: Logging Email Interactions in the Database
 In managing your relationships with contacts, it helps keep track of email correspondence. Email logging in [!INCLUDE[d365fin](includes/d365fin_md.md)] and Microsoft Exchange Server. For example, you can send an email message to a contact about an upcoming event. The contact replies, and confirms interest in participating. Both messages are logged on the contact card. Or, you might receive a complaint from a contact via an email message. You can track that contact's message and your response to it by using email logging.  
@@ -170,7 +168,7 @@ For your company, you set up a job queue that you want to run every day. You als
 4. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Queue Log Entries**, and then choose the related link. To verify that the job queue is working, note whether an entry is logged every five minutes.  
 
 ## To test email logging  
-Before you put a system into production, you can try some simple tests to see whether it is working as expected. The following procedure is representative of how a salesperson and his manager would use the system. The task has several prerequisites to make testing easy. First, you should set the email address of a test salesperson so that it is the same email account that you used for autodiscovery. The test salesperson should have an email address that you can use for testing. Next, set up a test contact that has an email address that you can verify receives mail.  
+Before you put a system into production, you can try some simple tests to see whether it is working as expected. The following procedure is representative of how a salesperson and their manager would use the system. The task has several prerequisites to make testing easy. First, you should set the email address of a test salesperson so that it is the same email account that you used for autodiscovery. The test salesperson should have an email address that you can use for testing. Next, set up a test contact that has an email address that you can verify receives mail.  
 
 In your tests and in production, we recommend that you copy mail messages, and not move them. This makes sure that all mails from customers are seen, even if they contain invalid data that prevents email logging from processing them.  
 

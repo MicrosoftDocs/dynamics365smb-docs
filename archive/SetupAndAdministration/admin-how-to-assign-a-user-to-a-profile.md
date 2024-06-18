@@ -3,8 +3,7 @@
     description: You use the **User Personalization** page to assign a user to a profile.
     services: project-madeira
     documentationcenter: ''
-    author: SorenGP
-
+    author: brentholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -12,8 +11,7 @@
     ms.workload: na
     ms.search.keywords:
     ms.date: 07/01/2017
-    ms.author: sgroespe
-
+    ms.author: bholtorf
 ---
 # Assign a User to a Profile
 You use the **User Personalization** page to assign a user to a profile.  

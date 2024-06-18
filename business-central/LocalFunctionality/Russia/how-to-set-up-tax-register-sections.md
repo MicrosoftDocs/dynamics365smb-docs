@@ -7,8 +7,9 @@ author: DianaMalina
 ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Set Up Tax Register Sections
@@ -46,7 +47,7 @@ The following procedure shows how to set up tax register sections.
 8. In the **Tax Register Names**window, you can add new registers to the list. To create a new tax register, do one of the following:
 
    1. Place the cursor in an empty line at the end of the register list and enter the information on the new register.
-   2. Place the cursor on the register you want to create the new one after. Then press F3 and enter the information on the new register.
+   2. Place the cursor on the register you want to create the new one after. Then select <kbd>F3</kbd> and enter the information on the new register.
 
 9. Enter the fields described in the following table.
 

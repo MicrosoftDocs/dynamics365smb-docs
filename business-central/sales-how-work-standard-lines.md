@@ -1,20 +1,18 @@
 ---
-title: Standard Recurring Sales Lines
+title: Standard recurring sales lines
 description: Set up frequently used sales lines to insert them on sales documents and quickly fill the lines with standard information.
-author: SorenGP
-
-
+author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: trade, sell, replenishment
 ms.search.form: 172
-ms.date: 07/06/2022
-ms.author: edupont
+ms.date: 02/14/2024
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Create Recurring Sales
+# Create recurring sales
 
 If you often need to create sales lines with similar information, you can set up standard lines that you can then insert on recurring sales documents, for example, for recurring replenishment orders.  
 
@@ -49,12 +47,12 @@ Assign one or more recurring sales lines to a customer so that they are availabl
 |Option|Description|
 |------|-----------|
 |**Manual**|You must manually look up and insert a recurring sales line that exists for the customer.|
-|**Automatic**|If multiple recurring sales lines exist for the customer, you will get a notification from where you can pick which one to insert. If only one recurring sales line exists, it will be inserted automatically.<br /><br />This only works if the new document was created from a document list, for example by choosing the **New** action on the **Sales Orders** page. It does not work if the document was created from a customer card, for example.|
+|**Automatic**|If multiple recurring sales lines exist for the customer, you'll get a notification from where you can pick which one to insert. If only one recurring sales line exists, it will be inserted automatically.<br /><br />This only works if the new document was created from a document list, for example by choosing the **New** action on the **Sales Orders** page. It doesn't work if the document was created from a customer card, for example.|
 |**Always Ask**|A notification appears and all existing recurring sales lines are shown so that you can select one.
 
 ## Insert recurring sales lines on a sales invoice
 
-If recurring sales lines exist for the customer, you can insert them, or have them inserted, on all types of sales documents, such as a sales invoice. If you have activated the **Always Ask** options while assigning recurring sales lines to customers, you will be informed if recurring sales lines exist.
+If recurring sales lines exist for the customer, you can insert them, or have them inserted, on all types of sales documents, such as a sales invoice. If you have activated the **Always Ask** options while assigning recurring sales lines to customers, you'll be informed if recurring sales lines exist.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Invoices**, and then choose the related link.
 2. Open the sales invoice that you want to insert one or more standard sales lines on.
@@ -72,8 +70,6 @@ You can use the **Create Recurring Sales Invoices** batch job to create sales in
 4. Choose the **OK** button.
 
 Sales invoices are created for the customers with the specified standard customer sales code, and any specified direct-debit information, for posting on the specified date.
-
-## See related [Microsoft training](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## See also
 

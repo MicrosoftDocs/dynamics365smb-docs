@@ -3,8 +3,7 @@
     description: You set up email logging in the **Marketing Setup** window. Setup requires an email account that has a valid email address on Exchange. It also requires that you use public folders. This enables you to share and log information and email in a company.
     services: project-madeira
     documentationcenter: ''
-    author: bholtorf
-
+    author: brentholtorf
     ms.service: dynamics365-financials
     ms.topic: article
     ms.devlang: na
@@ -13,7 +12,6 @@
     ms.search.keywords: email, log, logging, marketing, interaction
     ms.date: 09/01/2017
     ms.author: bholtorf
-
 ---
 # Set Up Email Logging
 You set up email logging in the **Marketing Setup** window. Setup requires an email account that has a valid email address on Exchange. It also requires that you use public folders. This enables you to share and log information and email in a company.  
@@ -84,12 +82,12 @@ To use email logging, you must be connected to Microsoft Exchange Server and hav
 ## Connecting On-Premises Versions
 To connect Business Central on-premises to Exchange for email logging, you must specify some information on the **Marketing Setup** page, or run the assisted setup guide for email logging.
 
-If you want to connect using an Azure Active Directory (Azure AD) account, you must register an application in Azure AD, and provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection.md). If you are setting up your server to have a different home page, you can always change the URL. The client secret will be saved as an encrypted string in your database.
+If you want to connect using a Microsoft Entra ID  account, you must register an application in Microsoft Entra ID, and provide the application ID, key vault secret, and the redirect URL to use. The redirect URL is pre-populated and should work for most installations. You must set up your installation to use HTTPS. For more information, see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection.md). If you are setting up your server to have a different home page, you can always change the URL. The client secret will be saved as an encrypted string in your database.
 
 ### Connecting Business Central to Microsoft Exchange
-The following steps assume that you use Azure Active Directory to manage identities and access. 
+The following steps assume that you use Microsoft Entra ID to manage identities and access. 
 
-To connect Business Central on-premesis to Microsoft Exchange, you must register an application in Azure Active Directory. For more information, see see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app.md). If you do not use Azure Active Directory, see [Using Another Identity and Access Management Service](how-to-set-up-email-logging.md#using-another-identity-and-access-management-service).
+To connect Business Central on-premesis to Microsoft Exchange, you must register an application in Microsoft Entra ID. For more information, see see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app.md). If you do not use Microsoft Entra ID, see [Using Another Identity and Access Management Service](how-to-set-up-email-logging.md#using-another-identity-and-access-management-service).
 
 1.	In the Azure Portal, under **Manage** on the Navigation Pane, choose **Authentication**.
 2.	Under **Redirect URL**, add the redirect URL that is suggested on the **Marketing Setup** page in Business Central. If the redirect URL on the Marketing Setup page is empty, then find the suggested redirect URL on the **Email Logging Assisted Setup** page.
@@ -105,13 +103,13 @@ To connect Business Central on-premesis to Microsoft Exchange, you must register
     * Provide the URL for your Exchange Service. Typically, this is the domain that you specified in the user's email address.
     * Provide **Queue Folder Path** and **Storage Folder Path**.
 11.	To start logging email, turn on the **Enabled** toggle.
-12.	Sign in with your administrator account for Azure Active Directory (this account must have a valid license for Exchange and be an administrator in your Exchange). After you sign in you will be prompted to allow your registered application to sign in to Exchange on behalf of the organization. You must give consent to complete the setup.
+12.	Sign in with your administrator account for Microsoft Entra ID (this account must have a valid license for Exchange and be an administrator in your Exchange). After you sign in you will be prompted to allow your registered application to sign in to Exchange on behalf of the organization. You must give consent to complete the setup.
 
    > [!NOTE]
    > If you are not prompted to sign in with your administrator account, it is probably because pop ups are blocked. To sign in, allow pop-ups from https://login.microsoftonline.com.
 
 ### Using Another Identity and Access Management Service
-If you are not using Azure Active Directory to manage identities and access, you will need some help from a developer. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the OnGetEmailLoggingClientId and OnGetEmailLoggingClientSecret events in codeunit 1641 "Setup Email Logging".
+If you are not using Microsoft Entra ID to manage identities and access, you will need some help from a developer. If you prefer to store the app ID and secret in a different location, you can leave the Client ID and Client Secret fields blank and write an extension to fetch the ID and secret from the location. You can provide the secret at runtime by subscribing to the OnGetEmailLoggingClientId and OnGetEmailLoggingClientSecret events in codeunit 1641 "Setup Email Logging".
 
 
 ## See Also  

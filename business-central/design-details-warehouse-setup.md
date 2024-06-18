@@ -1,17 +1,15 @@
 ---
-    title: Design Details - Warehouse Setup
-    description: Warehouse functionality contains different levels of complexity, which is largely defined by the bin setup on location cards.
-    author: SorenGP
+title: Design Details - Warehouse Setup
+description: Warehouse functionality contains different levels of complexity, which is largely defined by the bin setup on location cards.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/15/2021
+ms.author: bholtorf
 
-    
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/15/2021
-    ms.author: edupont
-
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Design Details: Warehouse Setup
 
@@ -135,7 +133,7 @@ The put-away template can be assigned to an item and to a location. The put-away
 
 ## See Also
 
-[Design Details: Warehouse Management](design-details-warehouse-management.md)   
+[Warehouse Management Overview](design-details-warehouse-management.md)
 [Design Details: Availability in the Warehouse](design-details-availability-in-the-warehouse.md)
 
 

@@ -1,27 +1,24 @@
 ---
-title: Set Up Prices and Discounts
+title: Set up prices and discounts
 description: Describes how to define standard and special price and discount agreements for sales and purchases.
 author: brentholtorf
-
-
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
-ms.date: 04/01/2021
-ms.author: bholtorf
-
+ms.date: 05/07/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Set Up Prices and Discounts
+# Set up prices and discounts
 
 > [!NOTE]
 > In 2020 release wave 2, we released streamlined processes for setting up and managing prices and discounts. If you're a new customer using that version, you're using the new experience. If you're an existing customer, whether you are using the new experience depends on whether your administrator has enabled the **New sales pricing experience** feature update on the **Feature Management** page. For more information, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Price and discount strategies for the purchase and sale of items and services are fundamental tools for successful businesses. After you set up the items and services your company buys and sells, you can define what you pay or charge for them, and those amounts will be automatically added to sales and purchase documents. 
 
-## Setting Up Prices and Discounts
+## Setting up prices and discounts
 
 Before you create price lists, you must define your pricing and discount strategies on the **Sales & Receivables Setup** and **Purchase & Payables Setup** pages.
 
@@ -37,11 +34,11 @@ Because sales prices and sales line discounts are based on a combination of item
 > [!TIP]  
 > If an item should never be sold with a discount, leave the discount fields on the item page empty, and do not include the item in any line discount setups.
 
-## About Price Lists
+## About price lists
 
 Price lists are flexible and let you specify the business partner or activity that they apply to. For example, you can set up one price list that applies to all vendors and customers, or offer special prices or discounts for each business partner, perhaps based on a minimum quantity on purchase or sales orders, or a certain combination of customer, item, minimum quantity, unit of measure, or periods of time. The prices and discounts you define are automatically applied to purchase and sales documents. 
 
-## Set Up Prices
+## Set up prices
 
 These steps differ, depending on whether your administrator has turned on the **New sales pricing experience** feature update. 
 
@@ -101,7 +98,7 @@ These steps differ, depending on whether your administrator has turned on the **
 
 ---
 
-## Work with Invoice Discounts and Service Charges
+## Work with invoice discounts and service charges
 
 When you use invoice discounts, the size of the invoice amount determines the size of the discount that is granted. On the **Invoice Discounts** page, you can also add a service charge to invoices over a certain amount.  <!--The Invoice Discounts page is hard to find.-->
 
@@ -198,17 +195,14 @@ To update prices for multiple items, you must create a new price list, and then 
 
 ---
 
-## Calculating the Best Price
+## Calculating the best price
 
 When you have recorded special prices and line discounts for sales and purchases, [!INCLUDE[d365fin](includes/d365fin_md.md)] ensures that your profit on item trade is always optimal by automatically calculating the best price on sales and purchase documents, and on job and item journal lines. For more information, see [Best Price Calculation](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
-
-## See related [Microsoft training](/training/modules/customer-discounts-dynamics-365-business-central/)
 
 ## See also
 
 [Setting Up Sales](sales-setup-sales.md)  
 [Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

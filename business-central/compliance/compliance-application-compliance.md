@@ -26,7 +26,7 @@ If you develop [!INCLUDE [prod_short](../includes/prod_short.md)] extensions, yo
 
 Companies face increasing financial accounting challenges each year. Depending on industry, markets, geographic location, and finance needs, an organization might be subject to local generally accepted accounting principles<!--note from editor: I assume that "local" means that you're not talking about the standard adopted by the SEC in the US. If this is true, you don't want to use the abbreviation because GAAP is an actual standard, which will need to be spelled out with title caps at first mention.--> and one or more of the following:
 
-- The Sarbanes-Oxley Act (SOX)<!--note from editor: If you don't use an abbreviation again in an article (which you don't, even though the full name appears several times later in the article), you don't have to supply it, unless the reader is as likely to recognize the abbreviation as the spelled-out term (like GDPR). I assume "SOX" is very recognizable to your readers? And if so, is there a reason not to use it later?-->, a US law passed in 2002 to help protect investors by improving the accuracy and reliability of corporate disclosures.
+- The Sarbanes-Oxley Act (SOX), a US law passed in 2002 to help protect investors by improving the accuracy and reliability of corporate disclosures.
 - The International Financial Reporting Standards section of the European Union's International Accounting Standards (IAS/IFRS), which went into effect in 2005 and sets forth international accounting standards for recognition, measurement, consolidation, and reporting.
 - Basel II: The New Basel Capital Accord, enacted in 2004 to address issues of financial institution risk and to promote greater stability in the overall financial system.
 

@@ -464,7 +464,7 @@ ms.service: dynamics-365-business-central
 ##### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
 ##### [Built-in sustainability reports](sustainability-reports.md)
 #### Sustainability APIs
-##### [Use sustainability APIs](sustainability-api.md)
+##### [Use sustainability APIs](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
 #### Consolidate financial data from multiple companies

@@ -82,9 +82,7 @@ Integrated information, aligned processes, and easy-to-use tools help your peopl
 
 ## Compliance and local functionality
 
-Microsoft builds localized versions of Business Central for a limited number of markets. These localizations primarily focus on regulatory features in the tax and financial areas but can sometimes involve other parts of the solution. If you want to see what is built in Microsoft's localized versions of Business Central, see **Local Functionality** in the menu on this website and choose a country/region. Learn more at [Local Functionality](../about-localization.md).  
-
-<!--note from editor: The Note format doesn't work for the following paragraphs. If you think the H3 tags don't look different enough from the H2, you can find an acceptable workaround in the Docs Contributor Guide https://review.learn.microsoft.com/en-us/help/contribute/text-formatting-guidelines?branch=main#using-h4-headings-in-place-of-h3-headings.-->
+Microsoft builds localized versions of Business Central for a limited number of markets. These localizations primarily focus on regulatory features in the tax and financial areas but can sometimes involve other parts of the solution. If you want to see what is built in Microsoft's localized versions of Business Central, see **Local Functionality** in the menu on this website and choose a country/region. Learn more at [Local Functionality](../about-localization.md). 
 
 #### Sarbanes-Oxley: Validating Data and Processes
  

@@ -38,7 +38,7 @@ Compliance depends not only on accurate information and appropriate accounting p
 
 [!INCLUDE [prod_short](../includes/prod_short.md)] delivers real-time, integrated operational and financial information from across your organization, so you can:
 
-- Track financial data by using custom account schedules for cash flow, revenue, balance sheets, fixed assets, capital structure, key performance indicators, and more.
+- Track financial data by using custom financial reports for cash flow, revenue, balance sheets, fixed assets, capital structure, key performance indicators, and more.
 - Help safeguard accuracy with role-based security and configurable application controls that prevent invalid or duplicate data entry.
 - Quickly and easily generate financial reports in accordance with applicable regulatory standards.
 - Maintain comprehensive audit trails with drill-down and drill-through functionality and change logs.

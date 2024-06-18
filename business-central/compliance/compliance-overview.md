@@ -12,9 +12,9 @@ ms.service: dynamics-365-business-central
 
 # Compliance Overview
 
-This content contains information about compliance in relation to [!INCLUDE[prod_long](../includes/prod_long.md)].<!--note from editor: Because this is the first article in the TOC section, recommend using the long product name to make the association with Dynamics 365.-->
+This content contains information about compliance in relation to [!INCLUDE[prod_long](../includes/prod_long.md)].
 
-Compliance is a topic of increasing interest to organizations. Throughout the evolution of Business Central we've ensured that the product empowers customers and partners on a broad scale, and doesn't impose any blockers in regard to<!--note from editor: Edit based on American Heritage Dictionary usage note for "regard."--> compliance. On the contrary, Business Central contains functionality&mdash;and is built on a platform&mdash;that makes it easy for customers to comply with regulatory legislation.
+Compliance is a topic of increasing interest to organizations. Throughout the evolution of Business Central we've ensured that the product empowers customers and partners on a broad scale, and doesn't impose any blockers in regard to compliance. On the contrary, Business Central contains functionality&mdash;and is built on a platform&mdash;that makes it easy for customers to comply with regulatory legislation.
 
 In this section you can read more about our approach to compliance from the perspective of application, service, and local requirements.
 

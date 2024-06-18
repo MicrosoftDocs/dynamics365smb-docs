@@ -54,7 +54,7 @@ Integrated information, aligned processes, and easy-to-use tools help your peopl
 ### Tailor financial reports to your needs
 
 - Define the structure of your company's chart of accounts based on business requirements and applicable regulatory standards.
-- Create accounts and handle complex processes related to a range of business activities, including inventory valuation, foreign currencies, segment reporting, and departures from local generally accepted accounting principles.
+- Create accounts and handle complex processes related to a range of business activities, including inventory valuation, foreign currencies, segment reporting, and departures from local GAAPs (generally accepted accounting principles).
 - Control the level of detail for each recorded transaction and select detailed registration for specific types of transactions, such as fixed assets and accounts payable.
 - Tailor scheduled calculations and displays for financial reporting, or export the information to Microsoft Excel for further analysis.
 

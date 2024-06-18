@@ -9,6 +9,7 @@ ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Wo
 ms.search.form:
 ms.date: 06/13/2024
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
 # Run and print reports in Business Central

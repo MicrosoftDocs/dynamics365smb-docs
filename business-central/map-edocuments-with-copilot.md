@@ -18,7 +18,7 @@ As procurement processes become more digital, the e-documents feature in Busines
 
 > [!IMPORTANT]
 > - This is a production ready preview feature for production and sandbox environments in any country localization<!-- with the exception of Canada -->.
-> - Production ready previews are subject to supplemental terms of use. More information: [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274)
+> - Production ready previews are subject to supplemental terms of use. More information: [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2189520)
 > - AI-generated content may be incorrect.
 
 In the initial release of the **e-document** app, we introduced fundamental scenarios for e-documents for the entire sales process. However, there's a need for enhancements and automation in handling the received documents, especially in the context of purchase processes. Copilot refines how you manage e-documents in the purchase process, particularly with respect to purchase orders. The e-documents framework lets you specify the type of purchase document to create for each vendor when you receive e-invoices from them. Previously, the only option was to create a purchase invoice, either as a document or a general ledger journal.

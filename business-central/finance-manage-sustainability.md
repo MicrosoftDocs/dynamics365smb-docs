@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD
 ms.search.form: 
-ms.date: 05/08/2024
+ms.date: 06/19/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -17,7 +17,7 @@ ms.reviewer: bholtorf
 > [!IMPORTANT]
 > This feature will be available in Business Central from **2024 release wave 1**. All reference links will be enabled after they are available.
 
-Business Central offers a sustainability management feature that helps you monitor and manage your organization's impact on the environment. This feature is designed to oversee and regulate an organization's environmental footprint by tracking various greenhouse gas (GHG) emissions. In this way, it facilitates proper insights. The feature supports the basic process of collecting emission data via sustainability journals. You can either manually enter known data or use built-in methods for calculating emissions footprints.
+Business Central offers a sustainability management feature that helps you monitor and manage your organization's and its effect on the environment. This feature is designed to oversee and regulate an organization's environmental footprint by tracking various greenhouse gas (GHG) emissions. In this way, it facilitates proper insights. The feature supports the basic process of collecting emission data via sustainability journals. You can either manually enter known data or use built-in methods for calculating emissions footprints.
 
 > [!NOTE]
 > This initial release serves as foundation and is entirely independent of other Business Central features. However, future releases will aim for closer integration and might automate some manual processes.
@@ -45,19 +45,19 @@ To get started with sustainability management, use the following articles.
 | [Record sustainability entries](finance-sustainability-journal.md) | Use this article to learn how to work with all types of sustainability journals. |
 | **Reporting** |             |
 | [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md) | This article provides information about how to use ad-hoc analysis to analyze sustainability data directly from list pages and queries. |
-| [Sustainability reports and analytics in Business Central](sustainability-reports.md) | This article provides information about how to use integrated reports and analytics related to Sustainability in Business Centra. |
+| [Sustainability reports and analytics in Business Central](sustainability-reports.md) | This article provides information about how to use integrated reports and analytics related to Sustainability in Business Central. |
 | **Integrations** |             |
-| [Sustainability API](dev-itpro/api-sustainability/sustainability-api.md) | Use this article to learn how to create connected apps that establish a point-to-point connection between Business Central and third-party sustainability solutions or services using APIs. |
+| [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json) | Use this article to learn how to create connected apps that establish a point-to-point connection between Business Central and non-Microsoft sustainability solutions or services using APIs. |
 
 ## See also
 
-[Sustainability setup](finance-sustainability-setup.md)  
-[Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)  
-[Record sustainability entries](finance-sustainability-journal.md)  
-[Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)  
-[Sustainability reports and analytics in Business Central](sustainability-reports.md) 
-[Sustainability API](dev-itpro/api-sustainability/sustainability-api.md)   
-[Finance](finance.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Sustainability setup](finance-sustainability-setup.md)    
+[Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)    
+[Record sustainability entries](finance-sustainability-journal.md)    
+[Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)    
+[Sustainability reports and analytics in Business Central](sustainability-reports.md)   
+[Sustainability API](dev-itpro/api-sustainability/sustainability-api.md)     
+[Finance](finance.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

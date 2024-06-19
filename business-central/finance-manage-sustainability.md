@@ -41,7 +41,7 @@ To get started with sustainability management, use the following articles.
 |---------|-------------|
 | **Feature** |             |
 | [Sustainability setup](finance-sustainability-setup.md) | This article provides information to help you correctly configure the whole Sustainability module. |
-| [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md) | This article provides information about how to correctly set up chart of sustainability accounts (CoSA), account categories, and subcategories, and how to analyze information in sustainability ledger entries. |
+| [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md) | This article provides information on how to set up charts of sustainability accounts (CoSA), account categories, and subcategories. And also, how to analyze information in sustainability ledger entries. |
 | [Record sustainability entries](finance-sustainability-journal.md) | Use this article to learn how to work with all types of sustainability journals. |
 | **Reporting** |             |
 | [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md) | This article provides information about how to use ad-hoc analysis to analyze sustainability data directly from list pages and queries. |

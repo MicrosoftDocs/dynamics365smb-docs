@@ -56,7 +56,7 @@ To get started with sustainability management, use the following articles.
 [Record sustainability entries](finance-sustainability-journal.md)    
 [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)    
 [Sustainability reports and analytics in Business Central](sustainability-reports.md)   
-[Sustainability API](dev-itpro/api-sustainability/sustainability-api.md)     
+[Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)    
 [Finance](finance.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 

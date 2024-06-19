@@ -3,12 +3,12 @@ title: About Copilot in Business Central
 description: This article answers common questions about Copilot in Business Central.
 author: mikebc
 ms.author: mikebc
-ms.reviewer: bholtorf
+ms.reviewer: jswymer
 ms.topic: overview 
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 06/13/2024
+ms.date: 06/19/2024
 ms.custom: bap-template
 ---
 

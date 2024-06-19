@@ -15,11 +15,11 @@ ms.collection: bap-ai-copilot
 
 # Suggest lines on sales documents with Copilot (preview)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 This article explains how to create sales documents faster by letting Copilot suggest the items to add to lines on sales documents for your customers.
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## About sales line suggestions with Copilot
 

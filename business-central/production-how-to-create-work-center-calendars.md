@@ -1,15 +1,15 @@
 ---
-    title: Set Up Shop Calendars
-    description: Creating and enabling a work center calendar involves several tasks including setting up shop calendars and creating work shifts.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
-    ms.date: 06/22/2021
-    ms.author: bholtorf
+title: Set Up Shop Calendars
+description: Creating and enabling a work center calendar involves several tasks including setting up shop calendars and creating work shifts.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
+ms.date: 06/22/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Shop Calendars
 

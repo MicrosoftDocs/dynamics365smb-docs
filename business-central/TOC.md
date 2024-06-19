@@ -460,6 +460,11 @@ ms.service: dynamics-365-business-central
 #### [Sustainability setup](finance-sustainability-setup.md)
 #### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
 #### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
+#### Sustainability analytics
+##### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
+##### [Built-in sustainability reports](sustainability-reports.md)
+#### Sustainability APIs
+##### [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
 #### Consolidate financial data from multiple companies
@@ -1858,6 +1863,7 @@ ms.service: dynamics-365-business-central
 #### [Key financial reports](finance-reports.md)
 #### [Accounts receivable reports](receivables-reports.md)
 #### [Accounts payable reports](payables-reports.md)
+#### [Sustainability reports](sustainability-reports.md)
 
 ### [Sales reports](sales-reports.md)
 ### [Purchase reports](purchase-reports.md)

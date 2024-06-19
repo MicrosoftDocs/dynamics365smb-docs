@@ -2,18 +2,19 @@
 title: Set up payment terms
 description: Use payment terms to manage due dates and payment discounts. 
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: 4,
-ms.date: 09/05/2023
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+
 ---
 # Set up payment terms
 
-Payment terms determine how you manage due dates and payment discounts. You can set up any number of payment term codes and use date formulas to define the payment terms. When you first sign up for [!INCLUDE [prod_short](includes/prod_short.md)], the demonstration company provides a few payment methods that businesses often use. You can, however, add as many as you need.  
+Payment terms determine how you manage due dates and payment discounts. You can use date formulas to define the payment terms. When you first sign up for [!INCLUDE [prod_short](includes/prod_short.md)], the demonstration company provides a few payment methods that businesses often use. You can, however, add as many as you need.  
 
-If you assign payment terms to customers and vendors, the same terms are always used on the sales and purchase documents you create for them. The document dates on sales and purchase documents, not their posting dates, are used to calculate due dates for payments. If needed, you can change the terms on the sales or purchase document, such as if you want a particular customer to pay you within 7 days rather than the default 14 days. Changing the terms on the document doesn't change the default payment term assigned to the customer. The same payment terms are available for sales and purchase documents.
+If you assign payment terms to customers and vendors, the same terms are always used on the sales and purchase documents you create for them. The document dates on sales and purchase documents, not their posting dates, are used to calculate due dates for payments. If needed, you can change the terms on the sales or purchase document. For example, if you want a particular customer to pay you within seven days rather than the default 14 days. Changing the terms on the document doesn't change the default payment term assigned to the customer. The same payment terms are available for sales and purchase documents.
 
 When you post an invoice, [!INCLUDE [prod_short](includes/prod_short.md)] calculates the payment discounts based on the payment terms. The payment discount date is the last date that the customer can receive a discount. The date is also calculated when you post an invoice.  
 
@@ -29,11 +30,11 @@ If you want to send your customers reminders of overdue payments, you must set u
 After you set up the payment terms, you assign them to customers and vendors. Optionally, assign payment terms to your payment methods.  
 
 > [!TIP]
-> In the base version of [!INCLUDE [prod_short](includes/prod_short.md)], payment terms with partial payments are not supported. Instead, you must use the prepayments functionality. To learn more about prepayments, go to [Set Up Prepayments](finance-set-up-prepayments.md).
+> In the base version of [!INCLUDE [prod_short](includes/prod_short.md)], payment terms don't support partial payments. Instead, you must use the prepayments functionality. To learn more about prepayments, go to [Set Up Prepayments](finance-set-up-prepayments.md).
 >
 > In some countries/regions, you *can* set up payment terms with partial payments. To learn whether your country/region supports this capability, go to the **Local Functionality** section in the table of contents on the left side of a [Microsoft Learn](about-localization.md) article.
 
-## See Also
+## See also
 
 [Set Up Payment Methods](finance-payment-methods.md)  
 [Set Up Prepayments](finance-set-up-prepayments.md)  

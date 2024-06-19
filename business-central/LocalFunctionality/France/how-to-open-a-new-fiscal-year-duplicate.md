@@ -1,15 +1,15 @@
 ---
-    title: Open a New Fiscal Year [FR]
-    description: Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+title: Open a New Fiscal Year [FR]
+description: Before you can post in a fiscal year, you must open the fiscal year and define its accounting periods.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Open a New Fiscal Year in the French Version
 

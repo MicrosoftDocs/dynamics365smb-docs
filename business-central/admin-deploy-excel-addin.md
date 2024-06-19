@@ -2,18 +2,16 @@
 title: Getting the Business Central Add-in for Excel
 description: Learn about how to get users the Business Central add-in for Excel. 
 author: jswymer
-
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 1480
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 10/07/2021
+ms.date: 06/13/2024
 ms.author: jswymer
-
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Get the Business Central Add-in for Excel
+# Get the Business Central add-in for Excel
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes an add-in for Excel that lets users select a **Edit in Excel** action on certain pages to open the data in an Excel worksheet. This action is different than the **Open in Excel** action because it lets users make changes in Excel, then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -36,7 +34,7 @@ For the end-user, the installation experience is different for the two deploymen
 
 - With Centralized Deployment, the first time users choose the **Edit in Excel** action, the add-in is automatically installed in Excel from Centralized Deployment; not the Office Store. The only thing users have to do is sign in to [!INCLUDE[prod_short](includes/prod_short.md)]
 
-With both these deployment options, the add-in is automatically configured to connect to [!INCLUDE[prod_short](includes/prod_short.md)].A third deployment option is a manual installation of the add-in directly from Excel. With this option, users will need to configure the add-in to connect to [!INCLUDE[prod_short](includes/prod_short.md)]
+With both these deployment options, the add-in is automatically configured to connect to [!INCLUDE[prod_short](includes/prod_short.md)]. A third deployment option is a manual installation of the add-in directly from Excel. With this option, users will need to configure the add-in to connect to [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### <a name="switch"></a>Switching from individual acquisition to Centralized Deployment or the other way around
 
@@ -95,8 +93,8 @@ When finished, you can always change the deployment in Microsoft 365 admin cente
 In most cases, when you open Excel from Business Central, the add-in will either be installed automatically for you or you'll be prompted to install it. There might be cases, however, where you have to manually install the add-in.
 
 1. Open Excel, then open any Excel workbook.
-2. On the **Insert** menu, choose **Add-ins** > **Get add-ins**
-3. Go to **Admin managed** and look for **Microsoft Dynamics Office Add-In**. If you see there, select it, then choose **Add**. If you don't see it, go to **Store**, then search for *Microsoft Dynamics Office Add-In* and follow the instruction on screen to add it.
+1. On the **Home** tab, select **Add-ins** > **More Add-ins**.
+1. Go to **Admin managed** and look for **Microsoft Dynamics Office Add-In**. If you see there, select it, then choose **Add**. If you don't see it, go to **Store**, then search for *Microsoft Dynamics Office Add-In* and follow the instruction on screen to add it.
 
 When the add-in is installed, it shows up as a panel in Excel. Next, configure the connection.
 
@@ -105,7 +103,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, configure t
 If a user can't connect automatically, you can unblock them by asking them to follow these steps:
 
 1. In the **Microsoft Dynamics** add-in pane in Excel, choose **Add server information**. If you don't see it, choose the ![More option button in Excel.](media/cogwheel.png) icon at the top to open the options dialog. 
-2. For [!INCLUDE[prod_short](includes/prod_short.md)] online, set **Server URL** to `https://exceladdinprovider.smb.dynamics.com`. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, set it the URL of the web client, like `https://myBCserver/190`.
+2. For [!INCLUDE[prod_short](includes/prod_short.md)] online, set **Server URL** to `https://exceladdinprovider.smb.dynamics.com`. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, set it the URL of the web client, like `https://myBCserver/240`.
 3. Choose **OK**, and then confirm that the app reloads.
 4. When prompted, sign in with your Business Central user name and password.
 5. Optionally, choose the environment and company that you want to connect to.

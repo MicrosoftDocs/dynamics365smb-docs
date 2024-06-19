@@ -1,14 +1,14 @@
 ---
-    title: Setting up Gate Entry tracking
-    description: Specifies Basic Setups required to keep track of entrance and exit of materials or other entities, to and from the organization’s premises.
-    author: v-debapd
-    ms.topic: article
-    ms.devlang: al
-    ms.search.keywords: India, local, IN, English
-    ms.date: 12/12/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: Setting up Gate Entry tracking
+description: Specifies Basic Setups required to keep track of entrance and exit of materials or other entities, to and from the organization’s premises.
+author: v-debapd
+ms.topic: article
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 12/12/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Setting up Gate Entry Tracking

@@ -1,14 +1,14 @@
 ---
-    title: CMR Notes [NL]
-    description: Claims with complete CMR note information are easily processed. Use the Dutch feature to follow the CRM Convention with standard CRM notes.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: CMR Notes [NL]
+description: Claims with complete CMR note information are easily processed. Use the Dutch feature to follow the CRM Convention with standard CRM notes.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/18/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # CMR Notes in the Dutch Version
 A CMR note is a bill of lading or an international consignment note defined under the 1956 United Nations Convention for the Contract of the International Carriage of Goods by Road. This is also known as the CMR Convention.  

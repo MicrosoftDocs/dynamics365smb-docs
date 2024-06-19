@@ -8,7 +8,6 @@ ms.topic: conceptual
 ms.search.keywords:
 ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
 ---
 
 # Error message: "Posting Date is not within your range of allowed posting dates…"

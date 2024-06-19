@@ -1,15 +1,15 @@
 ---
-    title: Remove and Reapply Item Entries
-    description: You can view and manually change certain item application entries that are created automatically during inventory transactions.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.form: 506, 521, 9125
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+title: Remove and Reapply Item Entries
+description: You can view and manually change certain item application entries that are created automatically during inventory transactions.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.form: 506, 521, 9125
+ms.date: 04/01/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Remove and Reapply Item Ledger Entries
 On the **Application Worksheet** page, you can view and manually change certain item application entries that are created automatically during inventory transactions.  

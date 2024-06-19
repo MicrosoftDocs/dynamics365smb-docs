@@ -2,18 +2,16 @@
 title: Get the Business Central Add-in for Outlook
 description: Learn how to install the Business Central add-in for Outlook for your organization or for your own use. 
 author: jswymer
-
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832
-ms.date: 04/27/2022
+ms.date: 06/14/2024
 ms.author: jswymer
-
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Get the Business Central Add-in for Outlook
+# Get the Business Central add-in for Outlook
 
 With [!INCLUDE[prod_short](includes/prod_short.md)], you can manage business interactions with your customers and vendors, directly in Microsoft Outlook. With the [!INCLUDE[prod_short](includes/prod_short.md)] Outlook add-in, you'll  see financial data related to customers and vendors. You can also create and send financial documents, such as quotes and invoices.  
 
@@ -58,27 +56,28 @@ Centralized Deployment is a feature in Microsoft 365 admin center that you use t
 ### Deploy the add-in
 
 1. In Business Central, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Assisted Setup**, and then choose the related link.
-2. Choose **Outlook Add-in Centralized Deployment** to start the assisted setup guide.
-3. Review the first page and choose **Next** to open the page for downloading the add-ins.
-4. In the **Deploy** column, select the check box for the add-ins that you want to deploy, then choose **Download and Continue**.
+1. Choose **Outlook Add-in Centralized Deployment** to start the assisted setup guide.
+1. Review the first page and choose **Next** to open the page for downloading the add-ins.
+1. In the **Deploy** column, select the check box for the add-ins that you want to deploy, then choose **Download and Continue**.
 
     A file with the name *OutlookAddins.zip* is downloaded to your device.
 
-5. At this point, you're finished with the work you need to do in Business Central, so you can choose **Done**.
+1. At this point, you're finished with the work you need to do in Business Central, so you can choose **Done**.
 
    >[!TIP]
    > Before you choose **Next**, select the **Go to Microsoft 365 (opens in a new window)** link to open and sign in to the Microsoft 365 admin center in a new browser window. You'll have to go to the Microsoft 365 admin center in a later step anyways.
 
-6. Go the folder where the OutlookAddins.zip was downloaded, and extract the **Contact Insights.xml** and **Document View.xml** files from the .zip to a folder of your choice.
+1. Go the folder where the OutlookAddins.zip was downloaded, and extract the **Contact Insights.xml** and **Document View.xml** files from the .zip to a folder of your choice.
 
     For more information, see [Zip and Unzip files and folders](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-7. Sign in to the Microsoft 365 admin center, then go to [Integrated Apps](https://go.microsoft.com/fwlink/?linkid=2163967).
+1. Sign in to the Microsoft 365 admin center, then go to [Integrated Apps](https://go.microsoft.com/fwlink/?linkid=2163967).
 
-8. Choose **Upload custom apps**.
-9. On the **Upload Apps to deploy** page, choose **Upload manifest file (.xml) from device** > **Choose file**.
-10. Select one of the add-files you extracted earlier, for example, **Contact Insights.xml**.
-11. Follow the instructions to assign users and deploy the add-in.
-12. Repeat step 9 through 11 for the other add-in file if you want.
+1. Choose **Upload custom apps**.
+1. On the **Upload Apps to deploy** page, set **App type** to **Office Add-in**.
+1. Select **Upload manifest file (.xml) from device** > **Choose file**.
+1. Select one of the add-in files **Context Insights.xml** or **Documents.xml** that you extracted earlier.
+1. Follow the instructions to assign users and deploy the add-in.
+1. Repeat step 9 through 11 for the other add-in file if you want.
 
 > [!IMPORTANT]
 > A green check mark appears when the add-in is deployed to the admin center. However, it can take up to 24 hours before users see the add-in in Outlook app. Users might have to restart Outlook as well.
@@ -118,7 +117,7 @@ If you're using Business Central on-premises, installing the add-in may be sligh
 
 You're now ready to start using the add-in in Outlook.
 
-## See Also
+## See also
 
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
 [Getting Business Central on my Mobile Device](install-mobile-app.md)  

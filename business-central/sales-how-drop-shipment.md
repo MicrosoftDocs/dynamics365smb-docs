@@ -70,6 +70,9 @@ After the vendor ships the items, you can post the sales order as shipped. You c
 4. Choose the **Post** or **Post and Send** action.
 5. Choose either the **Ship** option to invoice later, or the **Ship and Invoice** option to invoice immediately.
 
+> [!TIP]
+> Don't forget that you need to post the purchase order invoice.
+
 ## See also
 
 [Create Special Orders](sales-how-to-create-special-orders.md)  

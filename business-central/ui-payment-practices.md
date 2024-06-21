@@ -13,7 +13,7 @@ ms.reviewer: bholtorf
 
 # Payment practices report  
 
-Authorities in some countries/regions require large companies to report their payment practices and performance regarding how quickly they pay their vendors. For example, each year Swedish companies with 250 or more employees must report to the Swedish Companies Registration Office the payment times they have for purchases from smaller companies. Similar acts exist in the United Kingdom, Australia, and New Zealand. The legislation is intended to protect smaller businesses from bearing financial burdens that late payments cause.
+Authorities in some country/regions require large companies to report their payment practices and performance regarding how quickly they pay their vendors. For example, each year Swedish companies with 250 or more employees must report to the Swedish Companies Registration Office the payment times they have for purchases from smaller companies. Similar acts exist in the United Kingdom, Australia, and New Zealand. The legislation is intended to protect smaller businesses from bearing financial burdens that late payments cause.
 
 > [!NOTE]
 > Only some countries currently require this type of reporting. Because the requirements are largely the same, this is a global feature that all countries/regions can use.  
@@ -37,7 +37,7 @@ To run the **Payment Practices** report, use the following steps:
    | Field | Description |
    |---------|-----------------------------------|
    | No. | Specify the number of the entry or record for the report. |
-   | Aggregation Type | Specify how data is aggregated. If you choose the option **Period** the report is based on different periods. If you choose **Company Size**, the report is based on the number of employees in the vendor company. **Note:** To use the **Company Size** option, you must first create sizes in the **Company Sizes** page and assign them to the relevant vendors in the **Company Size Code** field on the **Vendor Card** page.  |
+   | Aggregation Type | Specify how data is aggregated. If you choose **Period**, the report is covers the period defined in the **Starting Date** and **Ending Date** fields. If you choose **Company Size**, the report is based on the number of employees in the vendor company. **Note:** To use the **Company Size** option, you must first create sizes in the **Company Sizes** page and assign them to the relevant vendors in the **Company Size Code** field on the **Vendor Card** page.  |
    | Header Type | Specifies the source for entries in the payment practice, and you can choose Vendors, Customers or both. |
    | Starting Date | Specifies the starting date of the payment practice. |
    | Ending Date | Specifies the ending date of the payment practice. |
@@ -48,7 +48,7 @@ When you generate the report, [!INCLUDE [prod_short](includes/prod_short.md)] fi
 
 ## Edit the results
 
-Based on the selection in the **Aggregation Type** field, you'll get different lines. You can change the values on the lines. If you do, the report is marked as **Modified Manually**.
+Based on the selection in the **Aggregation Type** field, you get different lines. You can change the values on the lines. If you do, the report is marked as **Modified Manually**.
 
 ## Review the calculations
 

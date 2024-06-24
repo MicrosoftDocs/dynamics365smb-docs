@@ -13,32 +13,18 @@ ms.service: dynamics-365-business-central
 
 # Manage AppSource apps
  
-From inside [!INCLUDE[prod_short](includes/prod_short.md)], you can discover, view, sort, and filter available AppSource apps that integrate with [!INCLUDE[prod_short](includes/prod_short.md)] through the **Microsoft AppSource Apps** page.
+From inside [!INCLUDE[prod_short](includes/prod_short.md)], you can discover, view, sort, and filter available AppSource apps that integrate with [!INCLUDE[prod_short](includes/prod_short.md)].
 
-> [!NOTE]
-> The **Microsoft AppSource Apps** page replaces the embedded AppSource experience, which is deprecated. 
+On the **Microsoft AppSource Apps** page, you can filter available AppSource apps by name, publisher name, install state, popularity, average rating, number of ratings, and last modified date. You can also select a given app and see the details for that specific app.
 
+In [!INCLUDE[prod_short](includes/prod_short.md)], find the **Microsoft AppSource Apps** page, by choosing the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, then enter **Microsoft AppSource Apps**, and then choose the related link.
 
- 
-From this page, you can view, sort, and filter available AppSource apps by name, publisher name, install state, popularity, average rating, number of ratings, and last modified date.
- 
-You can select a given app and see the details for that app.
- 
-![<!--alt text start -->Example of app details, a Shopify app from Microsoft<!--alt text end -->](media/app-card-small.png "Example of app details, a Shopify app from Microsoft")
- 
-You'll also find the following actions: 
+On the page, you'll find the following actions: 
  
 - **View AppSource** to open the online AppSource marketplace in a browser. 
 - **View in AppSource** to open and view a selected app in the online AppSource Marketplace. 
 - **Refresh list from Microsoft AppSource** to force a refresh of the list of all apps to AppSource marketplace content—for example, if you're looking for a newly submitted AppSource app.
  
-As with other list pages, you get support for Analysis Mode—for example, so that you can group apps by publisher.
- 
-![<!--alt text start -->Analysis Mode for AppSource Apps page<!--alt text end -->](media/analysis-mode-small.png "Analysis Mode for AppSource Apps page")
- 
-You can even use Copilot to create the Analysis Mode view for you.
- 
-![<!--alt text start -->Using Copilot Analyze List option to create Analysis view for AppSource apps<!--alt text end -->](media/copilot-analyze-list-small.png "Using Copilot Analyze List option to create Analysis view for AppSource apps")
-
+As with other list pages, you get support for Analysis Mode, for example, so that you can group apps by publisher. Use Copilot to create the **Analysis Mode** view for you.
 
 ## See also

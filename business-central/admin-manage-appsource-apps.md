@@ -17,7 +17,7 @@ From inside [!INCLUDE[prod_short](includes/prod_short.md)], you can discover, vi
 
 On the **Microsoft AppSource Apps** page, you can filter available AppSource apps by name, publisher name, install state, popularity, average rating, number of ratings, and last modified date. You can also select a given app and see the details for that specific app.
 
-In [!INCLUDE[prod_short](includes/prod_short.md)], find the **Microsoft AppSource Apps** page, by choosing the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, then enter **Microsoft AppSource Apps**, and then choose the related link.
+In [!INCLUDE[prod_short](includes/prod_short.md)], locate the page, by choosing the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, then enter **Microsoft AppSource Apps**, and then choose the related link.
 
 On the page, you'll find the following actions: 
  

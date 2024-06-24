@@ -126,7 +126,9 @@ You can use an external service to keep your currency exchange rates up to date.
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currency Exchange Rate Services**, and then select the related link.
 2. Select the **New** action.
 3. On the **Currency Exchange Rate Service** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Turn on the **Enabled** toggle to enable the service.
+4. Map the fields from the XML file to the currency exchange rates table in the source field.
+5. Apply any necessary transformation rules.
+6. Turn on the **Enabled** toggle to enable the service.
 
 > [!NOTE]
 > The following video shows how you can connect to a currency exchange rate service, using the European Central Bank as an example. In the segment that describes how to set up field mappings, the setting in the **Source** column for the **Parent Node for Currency Code**  only returns the first currency found. The setting should be `/gesmes:Envelope/Code/Code/Code`.

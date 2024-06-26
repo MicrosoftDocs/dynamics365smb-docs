@@ -8,8 +8,6 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
-ms.collection:
-  - bap-ai-copilot
 ---
 
 # Synchronize items and inventory

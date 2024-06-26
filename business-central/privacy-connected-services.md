@@ -5,11 +5,9 @@ author: jswymer
 ms.topic: overview
 ms.service: dynamics-365-business-central
 ms.search.keywords: privacy, trial, Microsoft services
-ms.date: 12/12/2023
+ms.date: 04/14/2024
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.collection:
-  - bap-ai-copilot
 ---
 # Trial features that connect to other Microsoft services 
 
@@ -22,7 +20,7 @@ The following table indicates the connections to Microsoft services that are aut
 |Microsoft Teams|Yes|No|**Share to Teams** action on **Item** card |[Managing Teams Integration with Business Central](admin-teams-integration.md)|  
 |Microsoft OneDrive for Business|Yes|No|**Open in OneDrive** action on **Item** attachments |[Managing OneDrive Integration with Business Central](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
 | Microsoft Power Automate |Yes|No|**Automate** actions on **Item** card |[Set Up Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
-| Microsoft Azure OpenAI Automate |Yes |No|**Copilot (preview)** |[Configure AI-powered item marketing text with Copilot](enable-ai.md)|
+| Microsoft Azure OpenAI Service |Yes |No|**Copilot** |[Configure AI-powered item marketing text with Copilot](enable-ai.md)|
 
 > [!NOTE]
 > By using features that connect to these services: 

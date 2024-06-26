@@ -6,9 +6,10 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice
 ms.search.form: 359, 360, 6103, 6133
-ms.date: 10/05/2023
+ms.date: 05/02/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set up e-documents
@@ -21,12 +22,12 @@ ms.service: dynamics-365-business-central
 
 The first step in the configuration of electronic documents (e-documents) is to set up the E-Documents Service where you configure the complete behavior of your system as it's related to e-document communication.
 
-## Set up the E-Document Service
+## Set up the e-document service
 
 Follow these steps to set up the E-Document Service.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
-2. Select **New**, and then, on the **E-Document Service** page, on the **General** FastTab, configure the fields as described in the following table.
+2. Select **New**, and then, on the **E-Document Services** page, on the **General** FastTab, configure the fields as described in the following table.
 
     | Field | Description |
     |-------|-------------|
@@ -73,13 +74,14 @@ If you don't use the **Data Exchange Definition** format, you can create and con
 
 ### Supported document types 
 
-Supported document types are based on the chosen **Document Format**. To check which document types are supported, on the **E-Document Service** page, run the **Supported Document Types** action. The **E-Document Service Supported Source Document Types** opens and in the **Source Document Type** column, you can find all the supported document types.  
+Supported document types are based on the chosen **Document Format**. To check which document types are supported, on the **E-Document Services** page, choose the **Supported Document Types** action. The **E-Document Service Supported Source Document Types** opens, and in the **Source Document Type** column, you can choose different document types to make them as supported for the format you're planning to use. 
+Make sure not to use the document type if that document isn't selected in this page.   
 
 ## Set up a document sending profile
 
-You can set up a preferred method of sending sales documents for each customer. In this way, you don't have to select a sending option every time that you select the **Post and Send** action. On the **Document Sending Profiles** page, you can set up different sending profiles and then select among them in the **Document Sending Profile** field on a customer card. You can select the **Default** checkbox to specify that a document sending profile is the default profile for all customers, except customers where the **Document Sending Profile** field is set to a different sending profile.
+You can set up a preferred method of sending sales documents for each customer. In this way, you don't have to choose a sending option every time when you choose the **Post and Send** action. On the **Document Sending Profiles** page, you can set up different sending profiles and then select among them in the **Document Sending Profile** field on a customer card. You can select the **Default** checkbox to specify that a document sending profile is the default profile for all customers, except customers where the **Document Sending Profile** field is set to a different sending profile.
 
-This functionality is used to set up electronic invoicing automation. When you select **Post and Send** on a sales document, the **Post and Send Confirmation** dialog box shows the sending profile that's used: either the profile that's set up for the customer or the default profile for all customers.
+This functionality is used to set up electronic invoicing automation. When you choose **Post and Send** on a sales document, the **Post and Send Confirmation** dialog box shows the sending profile that's used: either the profile that's set up for the customer or the default profile for all customers.
 
 Follow these steps to set up a document sending profile.
 
@@ -104,17 +106,17 @@ Follow these steps to set up the workflow that's used in e-document functionalit
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflow Templates**, and then select the related link.
 2. If you can't find **E-Document Workflow Templates** on the **Workflow Templates** page, select **Reset Microsoft Templates**. **E-Document Workflow Templates** should then appear. Close the page.
 3. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then select the related link.
-4. Run the **New Workflow from Template** action to select a template for the e-documents process. The available templates are **Send to one service** and **Send to multiple services**.
+4. Choose the **New Workflow from Template** action to select a template for the e-documents process. The available templates are **Send to one service** and **Send to multiple services**.
 5. Select **OK** to finish the workflow setup.
 6. In the **Then Response** field, select **Send E-Document using setup** to configure the workflow responses.
-7. Select the E-Document Service that you created as an option, select **OK**, and then enable the workflow.
+7. Select the E-Document Service that you created as an option, choose **OK**, and then enable the workflow.
 
 > [!NOTE]
 > You can create your own workflow for e-documents without using predefined workflow templates. If you have more services, you can use different workflows.
 
 To use more workflows, configure them through the document sending profiles for different customers. When you set up the workflow, specify the document sending profile in the **On Condition** column on the **Workflow Steps** FastTab, because you can't have two services that use the same document sending profile in workflows.
 
-When you configure your workflow on the **Workflow** page, point to the **On Condition** field on the **Workflow Steps** FastTab. On the **Event Conditions** page, in the **Filter** field, select the document sending profile that you want to use.
+When you configure your workflow on the **Workflows** page, point to the **On Condition** field on the **Workflow Steps** FastTab. On the **Event Conditions** page, in the **Filter** field, select the document sending profile that you want to use.
 
 ## Set up a retention policy for e-documents
 
@@ -122,7 +124,7 @@ E-documents can be a subject of different local legislations that are related to
 
 To set up e-document-related retention policies, follow these steps.
 
-1. On the **E-Document Services** page, run the **Retention Policy** action.
+1. On the **E-Document Services** page, choose the **Retention Policy** action.
 2. When the action is completed, select one of the following retention policies to set up:
 
     - E-Document Log
@@ -130,13 +132,29 @@ To set up e-document-related retention policies, follow these steps.
     - E-Document Mapping Log
     - E-Document Data Storage
 
+## E-Documents demo data  
+
+> [!NOTE]
+> From Business Central version 24.0, it is possible to set up demo data for E-Documents.
+
+To provide easier ways of testing and demonstrating capabilities of **E-Documents**, Microsoft created a new demo module for electronic documents. To enable this module, follow the steps:  
+
+1.	Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contoso Demo Tool**, and then select the related link.  
+2.	Before enabling the **E-Document Contoso Module**, because of dependencies you must have enabled the following modules: **Common Module** and **Warehouse Module**. 
+3.	After enabling these modules, select the **E-Documents Contoso Module**, and then choose the **Generate** action. 
+4.	Follow the steps.  
+5.	Close the page.   
+
+Once you have an enabled module, you would have created new demo items, imported six electronic documents (based on Peppol BIS 3), and already configured **E-Document Services** with created workflows.  
+
 ## See also
 
-[How to use e-documents in Business Central](finance-how-use-edocuments.md)  
-[How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
-[Financial Management](finance.md)  
-[Invoice Sales](sales-how-invoice-sales.md)  
-[Record Purchases with Purchase Invoices and Orders](purchasing-how-record-purchases.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[How to use e-documents in sales](finance-how-use-edocuments.md)    
+[How to use e-documents in purchase](finance-how-use-edocuments-purchase.md)  
+[How to extend e-documents in Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)    
+[Financial Management](finance.md)    
+[Invoice Sales](sales-how-invoice-sales.md)    
+[Record Purchases with Purchase Invoices and Orders](purchasing-how-record-purchases.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Personalizing pages (contains video)
+title: Personalizing pages
 description: Learn how to customize the user interface and personalize your workspace to suit your way of working and personal preferences in Business Central.
 author: jswymer
 ms.topic: conceptual
@@ -140,7 +140,7 @@ You can clear all personalization changes that you have made within a single par
 
 ## <a name="fields"></a> Work with fields and columns
 
-When personalizing a page, you use **Add field to page** pane to include fields or columns on the page that are currently hidden from view. To open this pane, select the **+ Field** action near the top of the page. Unlike other hidden elements, hidden fields aren't indicated on the page itself in personalization mode. However, you can identify hidden fields by using the **Add field to page** pane.
+When personalizing a page, you use the **Add field to page** pane to include fields or columns on the page that are currently hidden from view. To open this pane, select the **+ Field** action near the top of the page. Unlike other hidden elements, hidden fields aren't indicated on the page itself in personalization mode. However, you can identify hidden fields by using the **Add field to page** pane.
 
 Here are some general guidelines to follow when using the **Add field to page** pane:
 

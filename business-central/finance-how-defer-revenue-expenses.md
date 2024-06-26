@@ -1,23 +1,24 @@
 ---
 title: Defer Revenues and Expenses
-description: To recognize revenues and expenses in periods when the transaction was not posted, you can automatically defer or postpone them over a specified schedule.
+description: Learn how to automatically defer or postpone revenues and expenses in periods when the transaction wasn't posted, or postpone them over a specified schedule.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
-ms.topic: conceptual
+ms.reviewer: bholtorf
+ms.topic: how-to
 ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
-ms.date: 12/06/2023
+ms.date: 03/13/2024
 ms.custom: bap-template
-
-
 ms.service: dynamics-365-business-central
 ---
-# Defer Revenues and Expenses
+# Defer revenues and expenses
 
-To recognize a revenue or an expense in a period other than the period in which the transaction was posted, you can use functionality to automatically defer revenues and expenses over a specified schedule.
+To recognize a revenue or an expense in a period other than the period in which the transaction was posted, you can automatically defer revenues and expenses over a specified schedule.
 
 To distribute revenues or expenses on the involved accounting periods, you set up a deferral template for the resource, item, or G/L account that the revenue or expense will be posted for. When you post the related sales or purchase document, the revenue or expense are deferred to the involved accounting periods, according to a deferral schedule that is governed by settings in the deferral template and the posting date.
+
+> [!NOTE]
+> Sales and purchase journals validate the source code. The validation requires that the source code for sales and sales journals, and purchase and purchase journals respectively, aren't identical when you're using deferrals. If it's set up to be identical, you can work around this limitation by creating a template and batch that use another source code.
 
 ## To set up a G/L account for deferral
 

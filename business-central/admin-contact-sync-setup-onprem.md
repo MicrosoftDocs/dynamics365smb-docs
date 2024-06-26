@@ -57,7 +57,7 @@ Complete the following steps to set up contact sync. If you're running [!INCLUDE
      PasswordRequired := AzureADMgt.GetAccessToken(AzureADMgt.GetO365Resource,AzureADMgt.GetO365ResourceName,TRUE) = '';
      ```
 
-   - Set up Power BI by following the instructions at [Set up Business Central on-premises for Power BI integration](admin-powerbi-setup.md#setup).
+   - Set up Power BI by following the instructions at [Set up Business Central on-premises for Power BI integration](across-working-with-business-central-in-powerbi.md).
 
    After the solution you choose is in place, ask users to either run the new/modified page or [connect to Power BI](across-working-with-powerbi.md#connect). They'll only need to do this step once.
 

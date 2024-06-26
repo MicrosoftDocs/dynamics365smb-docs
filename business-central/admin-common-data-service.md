@@ -3,9 +3,9 @@ title: Integrate with Microsoft Dataverse via data sync
 description: Introduction to how to integrate and use Microsoft Dataverse and its components to connect to other Dynamics 365 applications.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 06/28/2023
+ms.date: 03/08/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -70,6 +70,12 @@ Currency synchronization is unidirectional, from [!INCLUDE [prod_short](includes
 
 * Amounts in the [!INCLUDE[prod_short](includes/cds_long_md.md)] base currency convert to the [!INCLUDE [prod_short](includes/prod_short.md)] local currency based on the latest exchange rate synchronized from [!INCLUDE [prod_short](includes/prod_short.md)].
 * Amounts in the [!INCLUDE [prod_short](includes/prod_short.md)] local currency synchronize with the [!INCLUDE [prod_short](includes/prod_short.md)] local currency in one of the other (non-base) currencies in [!INCLUDE[prod_short](includes/cds_long_md.md)].
+
+## What happens when you copy a company
+
+You can safely copy companies that integrate with [!INCLUDE[prod_short](includes/cds_long_md.md)] or [!INCLUDE[crm_md](includes/crm_md.md)]. Copying companies helps reduce the risk of data inconsistencies and can save you valuable time. To learn more about copying companies, go to [Copy a company](about-new-company.md#copy-a-company).
+
+[!INCLUDE [dataverse-copy-company](includes/dataverse-copy-company.md)]
 
 ## See also
 

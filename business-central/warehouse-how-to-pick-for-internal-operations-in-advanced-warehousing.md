@@ -3,10 +3,10 @@ title: Pick for internal operations in advanced warehouse configurations
 description: If your locations use picking and shipping, pick components for production, assembly, and job activities on the Warehouse Pick page.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 12/13/2023
+ms.date: 04/23/2024
 ms.custom: bap-template    
 ms.service: dynamics-365-business-central
 ---
@@ -21,8 +21,8 @@ When the location is set up to require warehouse pick processing and warehouse s
 
 You can't create a warehouse pick document from scratch. Picks are part of a workflow where a person who is processing an order creates them in a push fashion, or the warehouse employee creates them in a pull fashion:
 
-- In a push fashion, where you use the **Create Pick** action in the **Production Order**, **Assembly Order**, **Job Card** page. Select the lines to pick and prepare the picks by specifying, for example, which bins to take from and place in, and how many units to handle. Bins can be predefined for the warehouse location or resource.
-- In a pull fashion, where you release **Production Order**, **Assembly Order**, **Job Card** to warehouse making the items available for picking. Then, on the **Pick Worksheet** page, warehouse employees can use the **Get Warehouse Documents** action to pull their assigned picks.
+- In a push fashion, where you use the **Create Pick** action in the **Production Order**, **Assembly Order**, **Project Card** page. Select the lines to pick and prepare the picks by specifying, for example, which bins to take from and place in, and how many units to handle. Bins can be predefined for the warehouse location or resource.
+- In a pull fashion, where you release **Production Order**, **Assembly Order**, **Project Card** to warehouse making the items available for picking. Then, on the **Pick Worksheet** page, warehouse employees can use the **Get Warehouse Documents** action to pull their assigned picks.
 
 To pick or move components for source documents in a pull fashion, you must release the source document to make it ready for picking. Release source documents for internal operations in the following ways.  
 
@@ -52,7 +52,7 @@ Use **Warehouse Pick** documents to move assembly components to the assembly are
 Use **Warehouse Pick** documents to pick job components in the flow to project management.
 
 > [!NOTE]
-> The ability to pick components for job planning lines was added to [!INCLUDE[d365fin](includes/d365fin_md.md)] in 2022 release wave 2. To start using the capability, an administrator must turn on **Feature Update: Enable inventory and warehouse pick from Jobs** on the **Feature Management** page.
+> The ability to pick components for project planning lines was added to [!INCLUDE[d365fin](includes/d365fin_md.md)] in 2022 release wave 2. To start using the capability, an administrator must turn on **Feature Update: Enable inventory and warehouse pick from Jobs** on the **Feature Management** page.
 >
 > Jobs don't support advanced configurations where the **Directed pick and Put-away** toggle is turned on.
 
@@ -133,13 +133,21 @@ Use **Warehouse Pick** documents to pick job components in the flow to project m
     > [!NOTE]
     > If you must pick or place the items for one line in more than one bin, for example because the designated bin is full, use the **Split Line** action on the **Lines** FastTab. The action creates a line for the remaining quantity to handle.
 
+      You can sort the pick lines by various criteria, for example, by item, shelf number, or due date. Sorting can help optimize the put-away process, for example:
+
+    * If the take and place lines for each shipment line don't immediately follow one another, and you want them to, sort the lines by selecting **Item** in the **Sorting Method** field.  
+    * If bin rankings reflect the physical layout of the warehouse, use the **Bin Ranking** sorting method to organize the work by bin locations.
+
+  > [!NOTE]  
+  > Lines are sorted in ascending order by the selected criteria. If you sort by document, sorting is done first by document type based on the **Warehouse Activity Source Document** field. If you sort by ship-to, sorting is done first by destination type based on the **Warehouse Destination Type** field.
+
 4. After you pick and place the items in the production, assembly or job area or bin, choose the **Register Pick** action.  
 
-    You can now bring the items to the respective area and post the usage or consumption of the picked components by posting consumption journal, assembly order, or job journal. The following articles provide more information:
+    You can now bring the items to the respective area and post the usage or consumption of the picked components by posting consumption journal, assembly order, or project journal. The following articles provide more information:
 
     * [Register Consumption and Output for One Released Production order line](production-how-to-register-consumption-and-output.md)
     * [Assemble Items](assembly-how-to-assemble-items.md)
-    * [Record Consumption or Usage for Jobs](projects-how-record-job-usage.md)
+    * [Record Consumption or Usage for Projects](projects-how-record-job-usage.md)
 
 ## Flushing production components in an advanced warehouse configuration
 
@@ -171,6 +179,14 @@ The following steps describe the actions that different people take and the rela
 The following illustration shows when the **Bin Code** field on the component list is filled according to your location or machine/work center setup.  
 
 :::image type="content" source="media/binflow.png" alt-text="Overview of when and how the Bin Code field is filled in.":::
+
+## Make-to-Order (MTO) production components in an advanced warehouse configuration
+
+In scenarios where a produced item consists of raw materials and semi-finished items with the manufacturing policy set to **Make-to-order**, the warehouse pick for those semi-finished components is added to the same production order with the **Planning Level Code** field filled in. It's expected that the semi-finished items are available for consumption immediately and won't require pick so they aren't included in the warehouse pick document. The created warehouse picks only include raw materials for produced item and for semi-finished items.
+
+However, if semi-finished items are available on stock, the planning system suggests that you consume those instead of producing the whole quantity. For example, a produced item requires five semi-finished components, but three are already in stock. In this case, five semi-finished items are listed in the production order components, but only two are produced in the same production order as a separate production order line.
+Such a setup isn't compatible with warehouse picks and, depending on frequency, you must either change the manufacturing policy for such semi-finished items to **Make-to-stock** or manually split the production order component line when you need to pick the semi-finished items produced earlier.
+
 
 ## See also
 

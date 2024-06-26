@@ -1,16 +1,17 @@
 ---
-    title: Calculate Dates for Purchases
-    description: This article describes how you can calculate dates for purchases. 
-    author: brentholtorf 
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
-    ms.search.forms: 
-    ms.date: 10/28/2022
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: Calculate Dates for purchases
+description: This article describes how you can calculate dates for purchases. 
+author: brentholtorf 
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
+ms.search.forms: 
+ms.date: 04/20/2024
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Calculate Dates for Purchases
+# Calculate Dates for purchases
 
 If you want to have items in inventory on a certain date, [!INCLUDE[prod_short](includes/prod_short.md)] can automatically calculate the date on which you must order them. 
 

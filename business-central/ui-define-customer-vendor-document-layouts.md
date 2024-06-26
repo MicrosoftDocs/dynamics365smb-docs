@@ -1,17 +1,16 @@
 ---
-title: Assign Document Layouts to Customers or Vendors
+title: Assign document layouts to customers or vendors
 description: Use document layouts to control the appearance and format of documents such as invoices and orders that you send to customers and vendors.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 21, 9650
-ms.date: 04/07/2022
-ms.author: bholtorf
-
+ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# Define Document Layouts for Customers and Vendors
+# Define document layouts for customers and vendors
 
 Document layouts use report layouts to define the look and feel of documents that you send to customers and vendors. Business Central provides standard layouts, but you can also tailor custom layouts for each of your business partners. For more information, see [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md). You select standard and custom document layouts from customer and vendor cards by choosing the **Document Layouts** action. The value in the **Usage** field defines the process for which the document layout is used. For example, for customers, you might use **Reminder**, **Shipment**, and **Confirmation** types of document layouts.
 

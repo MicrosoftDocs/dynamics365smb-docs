@@ -1,18 +1,17 @@
 ---
-title: Set Up or Change the Chart of Accounts (contains video)
-description: Learn about setting up your chart of accounts (COA) to show the ledger accounts that store your financial data.
+title: Set up or change the Chart of Accounts
+description: Learn about setting up your chart of accounts (COA) with the ledger accounts that store your financial data.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: COA, cha of acc
 ms.search.form: 16, 17, 18, 118, 386, 391
-ms.date: 12/19/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
-
 ms.service: dynamics-365-business-central
 ---
-# Set Up or Change the Chart of Accounts
+# Set up or change the Chart of Accounts
 
 The chart of accounts (COA) shows the ledger accounts that store your financial data. [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard COA that is ready to support your business. You can, however, change the default accounts, and you can add new accounts.
 <br><br>  
@@ -25,14 +24,14 @@ From the COA, you can open each general ledger (G/L) account and add or change s
 
 If necessary, you can use more than one line for a general ledger account name. On the **G/L Account Card** page, in the **Account** group, choose **Extended Texts**, and then fill in one or more lines with the account name and copied text.  
 
-For accounts of the **Total** account type, you must fill in the **Totaling** field. For **End-Total** accounts, this field is filled in automatically by the Indent function. After you have set up all the accounts, choose the **Process** action, then choose **Indent Chart of Accounts**.  
+For accounts of the **Total** account type, you must fill in the **Totaling** field. For **End-Total** accounts, this field is filled in automatically by the Indent function. After you set up the accounts, choose the **Process** action, then choose **Indent Chart of Accounts**.  
 
 > [!IMPORTANT]
 > If you have entered definitions in the **Totaling** fields for **End-Total** accounts before executing the indent function, you must enter them again because the function overwrites the values in all **End-Total** fields.
 
 ## Delete accounts
 
-You can delete a general ledger account. However, before you delete it, the following must be true:  
+You can delete a general ledger account. However, before you delete it, the following conditions must be true:  
 
 * The balance on the account must be zero.  
 * The **Allow G/L Acc. Deletion Before** field must be set on the **General Ledger Setup** page, and the account must not have ledger entries on or after that date.  
@@ -50,7 +49,11 @@ This video shows how to specify whether, and when, people can delete G/L account
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## See Also
+## Learning path: Set up the chart of accounts in Dynamics 365 Business Central
+
+Want to learn how to set up the chart of accounts in [!INCLUDE [prod_short](includes/prod_short.md)]? Then start on the following learning path [Set up the chart of accounts in Dynamics 365 Business Central](/training/modules/chart-accounts-dynamics-365-business-central).
+
+## See also
 
 [The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
 [Reconciling Bank Accounts](bank-manage-bank-accounts.md)  

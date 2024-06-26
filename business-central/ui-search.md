@@ -1,5 +1,5 @@
 ---
-title: Finding Pages and Information (contains video)
+title: Finding Pages and Information
 description: This article describes how to use search to find actions, pages, reports, documentation, and data, and other apps and consulting services.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,6 +8,7 @@ ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 90
 ms.date: 06/14/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Finding Pages and Information with Tell Me
 

@@ -1,18 +1,16 @@
 ---
-title: Power BI Integration Component and Architecture Overview for Business Central| Microsoft Docs
+title: Power BI integration component and architecture overview for Business Central| Microsoft Docs
 description: Learn about the different aspects of Power BI integration with Business Central.
 author: jswymer
-
-ms.topic: overview
-ms.devlang: al
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.reviewer: bholtorf
-ms.date: 04/01/2021
 ms.author: jswymer
-
+ms.reviewer: jswymer
+ms.topic: overview
+ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
+ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]
+# Power BI integration component and architecture overview
 
 In this article, you'll learn about the different aspects of Power BI integration with [!INCLUDE[prod_short](includes/prod_short.md)] to help you understand its implementation and use.
 

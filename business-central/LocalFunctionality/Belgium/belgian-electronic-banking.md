@@ -1,14 +1,15 @@
 ---
-    title: Belgian Electronic Banking
-    description: Electronic banking allows you to electronically exchange data with Belgian financial institutions. This ensures faster processing times and avoids errors.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.form: 11308
-    ms.date: 01/10/2022
-    ms.author: bholtorf
+title: Belgian Electronic Banking
+description: Electronic banking allows you to electronically exchange data with Belgian financial institutions. This ensures faster processing times and avoids errors.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.form: 11308
+ms.date: 01/10/2022
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Belgian Electronic Banking
 

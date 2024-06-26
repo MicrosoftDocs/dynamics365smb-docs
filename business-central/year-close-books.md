@@ -1,17 +1,15 @@
 ---
-title: Overview of the Tasks for Closing the Books
+title: Closing the Books
 description: Learn about the process of closing the books for a fiscal year or period, and what happens after you close at the end of a year.
 author: jswymer
-
-
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 m.search.form: 100
-ms.date: 04/01/2021
+ms.date: 06/14/2024
 ms.author: jswymer
-
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Closing the Books
 After you ensure that all your accounts are up-to-date, and you allocate costs and income, then you can close the books for a fiscal year or period.
@@ -40,17 +38,18 @@ The process for closing the book includes these main tasks:
 
     For more information, see [Post Year-End Closing Entry](year-how-post-year-end-close-entry.md).
 
-## What Happens When You Close
+## What happens when you close
+
 When you close at the end of the year, the system moves your earnings from calculated earnings to the Retained Earnings account. The system also marks the fiscal year as "closed," and marks all subsequent entries for the closed year as "prior year entries."
 
 The system then generates a closing entry, but it does not post the entry automatically. You are given the opportunity to make the offsetting equity account entry or entries, which allows you to decide how to allocate your closing entry. For example, if your company has several divisions, you can let the system generate a single closing entry for all the divisions, and you can then make an offsetting entry for each division's equity account.
 
 You can post in a previous fiscal year, even after the income statement accounts have been closed, if you run the Close Income Statement batch job again afterward.
 
-## See Also
+## See also
 
-[Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with accounting periods and fiscal years](finance-accounting-periods-and-fiscal-years.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

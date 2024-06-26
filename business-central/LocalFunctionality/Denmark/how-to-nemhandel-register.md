@@ -6,10 +6,10 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: nemhandel, nemhandelsregisteret, notification, registration, denmark
 ms.search.form: 1
-ms.date: 11/17/2023
+ms.date: 03/29/2024
 ms.author: altotovi
-
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Notification and registration for the NemHandelsregisteret in Denmark
@@ -20,7 +20,7 @@ In addition, if the company isn't registered with the NemHandelsregisteret, a no
 
 ## Notification about not being registered
 
-If the company isn't registered with the NemHandelsregisteret, you receive the following notification: "Your accounting software is not registered in Nemhandelsregisteret." You can complete the registration process directly from the notification, by selecting either the **Register in Nemhandelsregisteret** link or the **Open registration guide** link. Both links direct you to the external Nemhandel content.
+If the company isn't registered with the NemHandelsregisteret, you receive the following notification: "Your accounting software isn't registered in Nemhandelsregisteret." You can complete the registration process directly from the notification, by selecting either the **Register in Nemhandelsregisteret** link or the **Open registration guide** link. Both links direct you to the external Nemhandel content.
 
 If the company is already registered, and if a valid Central Business Register (CVR) number is entered in the **Registration No.** field on the **Company Information** page, the notification doesn't appear.
 
@@ -45,7 +45,7 @@ Additionally, when you select **Copy** on the **Companies** page, the new compan
 > [!NOTE]
 > These limitations work only if the environment is a production environment. In a sandbox environment, you can delete the company without limitations. 
 >
-> If you don't enter a valid CVR number in the **Registration No.** field, you can use e-documents in Denmark.
+> If you don't enter a valid CVR number in the **Registration No.** field, you can't use e-documents in Denmark.
 
 ## See also
 

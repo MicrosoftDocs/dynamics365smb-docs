@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 12/13/2023
+ms.date: 06/10/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -28,15 +28,13 @@ With Copilot, you quickly get a text suggestion that's automatically generated f
 
 Copilot is designed to save you time and help you write creative and engaging text that reflects your brand and is consistent across your product line. Start by generating a suggestion, then change the suggested text as needed.
 
+### Available languages
+
+[!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+
 ### Prerequisites
 
-- Marketing text suggestions feature is enabled and activated on your environment. This task is typically done by an admin. For more information, go to [Configure Copilot and AI capabilities](enable-ai.md).
-- You're using one of the languages currently supported by the marketing text suggestions.
-
-  [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
-
-  To change the language, in the upper-right corner, select the **Settings** icon ![Settings.](media/ui-experience/settings_icon_small.png "Settings icon for role center") > **My Settings** > **Language**. For more information, go to [Change Basic Settings](ui-change-basic-settings.md#language).
-- Review the [FAQ for marketing text suggestions](faqs-marketing-text.md) to learn how AI is applied.
+Marketing text suggestions feature is activated on your environment. This task is typically done by an admin. For more information, go to [Configure Copilot and AI capabilities](enable-ai.md).
 
 ### Create first draft with Copilot
 
@@ -48,26 +46,26 @@ Complete the following steps to add marketing text to an existing item. To learn
 
    - Double-click the item or select its value in the **No.** column.
 
+1. From the item card, there are two ways to get started writing marketing text with Copilot: from the **Marketing Text** FactBox or using the **Marketing text** action. These methods are indicated in the following figure of an item card.  
+
    [![Shows an item card with Marketing Text pane](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
-2. From the item card, there are two ways to get started writing marketing text with Copilot. Do one of the following steps:
+   To create the first draft for an item, do one of the following steps:
 
    - In the **Marketing Text** pane in the FactBox on the right side of the page, select **Draft with Copilot**. 
-   
-     Copilot starts to draft the marketing text. 
+
+     Copilot starts to draft the marketing text.
 
    - At the top of the page, select the **Marketing Text** action, then select **Draft with Copilot** on the **Edit Marketing Text** window.  The **Draft Marketing Text with Copilot** windows appears and lists all available attributes for the item.
-   
-     ![Shows the edit marketing text window](media/marketing-text-copilot-attributes.svg)
+1. Select the attributes you want Copilot base suggestions on, then select **Generate**. You can change the selected attributes and other options later. Copilot starts to draft the marketing text. 
 
-     Select the attributes you want Copilot base suggestions on, then select **Generate**. You can change the selected attributes and other options later. Copilot starts to draft the marketing text. 
-     
-3. When Copilot completes the draft, the text appears in the Copilot editor window for you to review and edit. 
+   ![Shows the edit marketing text window](media/marketing-text-copilot-attributes.svg)
+
+1. When Copilot completes the draft, the text appears in the Copilot editor window for you to review and edit.
 
    [![Shows the create with Copilot windows](media/create-with-copilot-window.svg)](media/create-with-copilot-window.svg#lightbox)
 
    You can now get more suggestions, try to improve the suggestions you get, edit text, and more. Go to [Review, edit, and save](#review-edit-and-save-text) for details.
-
 
 ### Review, edit, and save text
 

@@ -1,13 +1,14 @@
 ---
-    title: FIK details in the payment reconciliation journal
-    description: The Transaction Text field shows information about the automatic application of payments using the Danish FIK standard.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 12/12/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: FIK details in the payment reconciliation journal
+description: The Transaction Text field shows information about the automatic application of payments using the Danish FIK standard.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 12/12/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # FIK details in the payment reconciliation journal
 The **Transaction Text** field on the **Payment Reconciliation Journal** page shows information about the automatic application of payments using the Danish FIK standard. For more information, see [Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md).  

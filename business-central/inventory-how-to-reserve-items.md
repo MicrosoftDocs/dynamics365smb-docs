@@ -3,11 +3,11 @@ title: How to Reserve Items
 description: Learn about reserving items for sales orders, purchase orders, and production orders.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.search.forms: 498, 497
-ms.date: 09/19/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 
 ms.service: dynamics-365-business-central
@@ -19,7 +19,7 @@ You can reserve items for sales orders, purchase orders, service orders, assembl
 Each line you open to reserve items on the **Reservation** page displays information about one type of line (sales, purchase, or journal) or inventory entry. The lines describe how many items are available to be reserved from each type of line or entry.
 
 > [!TIP]
-> Based on the quantities you’ve reserved in inventory, [!INCLUDE [prod_short](includes/prod_short.md)] displays a status on the documents so that you’re quickly aware of the next step. For example, to indicate that you can ship a sales order or start to work on a job, assembly, or production order. The status also helps reduce the risk of accidental partial shipments or hold-ups due to missing stock for production and assembly orders.
+> Based on the quantities you’ve reserved in inventory, [!INCLUDE [prod_short](includes/prod_short.md)] displays a status on the documents so that you’re quickly aware of the next step. For example, to indicate that you can ship a sales order or start to work on a project, assembly, or production order. The status also helps reduce the risk of accidental partial shipments or hold-ups due to missing stock for production and assembly orders.
 >
 > The **Reserved from stock** field can help you understand whether you can ship or pick for a specific order or order line. For lines, the Reserved from stock field is available on FactBoxes. To access the information for the entire order, the field is on the **Statistics** page.
 
@@ -80,13 +80,13 @@ Use the **Reservation Worksheet** page to reserve and allocate incoming goods in
 2. Choose the **Get Demand** action, and then specify the kind of demand you want to reserve from available inventory.
 3. Fill in the filters as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 4. Optional: To allocate the items right away, choose the **Allocate** action.
-5. On the **Allocation Policy** page, choose a policy for each step
+5. On the **Allocation Policy** page, choose a policy for each step.
 
    |Allocation policy  |Description  |
    |---------|---------|
    |Basic     | Allocates stock to a demand if there are no conflicts and the demand can be fully covered. For example, you have sales order A with a quantity of 10, and a job with a quantity of 7. If you have 20 in stock, both demands receive full quantity. If your stock is 12, no stock is allocated. You must manually allocate the quantity.        |
    |Equally    | Distributes available stock to demand equally. For example, you have a sales order with a quantity of 10, and a job with a quantity of 7. If your stock level is 20, then both demands will receive full quantity. If your stock is 12, then both demands will get 6.        |
-   |By Customer Priority|Distribution based on Priority field in the customer card. In cases of insufficient quantities, the system will prioritize supplying customers with the highest priority.|
+   |By Customer Priority|Distribution based on the **Priority** field on the **Customer Card** page. In cases of low inventory quantities, Business Central supplies higher-priority customers first.|
 
 6. To reserve all lines where **Accept** is turned on, choose the **Make reservation** action.
     

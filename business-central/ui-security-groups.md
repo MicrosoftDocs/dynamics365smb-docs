@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: access, right, security, permissions
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862
-ms.date: 11/29/2023
+ms.date: 04/15/2024
 ms.service: dynamics-365-business-central
 ---
 
@@ -47,7 +47,8 @@ Afterward, create a corresponding security group in [!INCLUDE [prod_short](inclu
 1. Assign permissions in the following ways:
 
     * To assign permission sets individually, in the **Permission Set** field, choose the permissions to assign.
-    * To assign multiple permission sets, choose the **Select Permission Sets** action, and then choose the sets to assign.
+    * To assign multiple permission sets, choose the **Add multiple** action, and then choose the sets to assign.
+1. If you want the permission sets to apply only to a specific company, set the **Company** column to that company. If you want the permission set to apply to all companies, leave the **Company** column blank. [Learn more](ui-define-granular-permissions.md#control-access-to-specific-companies).
 
 ## Review the permissions in a security group
 

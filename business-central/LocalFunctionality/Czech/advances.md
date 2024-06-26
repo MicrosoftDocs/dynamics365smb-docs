@@ -5,7 +5,7 @@ author: ACMartinKunes
 ms.topic: conceptual
 ms.search.keywords: Czech, Advance payment, Advance invoices, Payables, Finance, CZ, Cash
 ms.date: 06/24/2021
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-makune
 ms.service: dynamics-365-business-central
 ---

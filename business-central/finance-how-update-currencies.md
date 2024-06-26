@@ -1,15 +1,14 @@
 ---
-title: Update Currency Exchange Rates (contains video)
+title: Update currency exchange rates
 description: Learn how to use Business Central to adjust exchange rates for amounts in different currencies.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 11/13/2023
+ms.date: 05/03/2024
 ms.custom: bap-template
-
 ms.service: dynamics-365-business-central
 ---
 # Update currency exchange rates
@@ -119,7 +118,7 @@ The adjustment entries are assigned the default dimensions from the accounts the
 
 ## Set up a currency exchange rate service
 
-You can use an external service to keep your currency exchange rates up to date, such as FloatRates. 
+You can use an external service to keep your currency exchange rates up to date.
 
 > [!NOTE]
 > Most exchange rate services provide data that is compatible with the import process in [!INCLUDE[prod_short](includes/prod_short.md)]. However, sometimes the data is formatted differently and you need to customize your import process. You can use the data exchange framework to do that by adding your own codeunit. You'll probably need some help from a developer to do that. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).
@@ -127,7 +126,9 @@ You can use an external service to keep your currency exchange rates up to date,
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currency Exchange Rate Services**, and then select the related link.
 2. Select the **New** action.
 3. On the **Currency Exchange Rate Service** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Turn on the **Enabled** toggle to enable the service.
+4. Map the fields from the XML file to the currency exchange rates table in the source field.
+5. Apply any necessary transformation rules.
+6. Turn on the **Enabled** toggle to enable the service.
 
 > [!NOTE]
 > The following video shows how you can connect to a currency exchange rate service, using the European Central Bank as an example. In the segment that describes how to set up field mappings, the setting in the **Source** column for the **Parent Node for Currency Code**  only returns the first currency found. The setting should be `/gesmes:Envelope/Code/Code/Code`.
@@ -149,8 +150,6 @@ Every now and then you might need to correct a mistake in a payment transaction 
 
 > [!NOTE]
 > When you unapply and reverse a payment for an entry that had currency exchange rate adjustments associated with it, the reversal posts reversal entries for the adjustments. You might have to run the currency exchange rate adjustment again to get the correct current balance.
-
-## See Also
 
 ## See also
 

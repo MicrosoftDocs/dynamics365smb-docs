@@ -4,11 +4,12 @@ description: A print-friendly reference sheet containing the most popular keyboa
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 09/11/2023
+ms.date: 06/13/2024
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ms.reviewer: jswymer
 ---
 
 # Keyboard quick reference - PC only

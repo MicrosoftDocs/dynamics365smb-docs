@@ -3,11 +3,11 @@ title: Create a customer sales order and sell products
 description: Describes how to create a sales order to record your agreement with a customer to sell or trade products under specific terms.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: soalex
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: trade, partial deliveries, customer sales order, shipping advice, partial shipments, 
 ms.search.form: 42, 48, 9305
-ms.date: 02/01/2024
+ms.date: 02/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -30,7 +30,7 @@ You can even create directly paid orders for unregistered customers by first set
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, then choose the related link.
 2. Select **New** to create a new entry.
-3. In the **Customer** field, enter the name of an existing customer.
+3. In the **Customer Name** field, enter the name of an existing customer.
 
     Other fields on the **Sales Order** page are now filled with standard information about the selected customer.  
 
@@ -71,7 +71,7 @@ You can even create directly paid orders for unregistered customers by first set
     >
     > To check the amounts that will actually post, use the **Statistics** page, which takes into account the rounding calculations. Also, if you choose the **Release** action, the totals fields will be updated to include rounding calculations.  
 
-11. Optionally, in the **Invoice Discount Amount** field, enter the amount to be deducted from the value shown in the **Total Incl. Tax** field.
+11. Optionally, in the **Inv. Discount Amount** field, enter the amount to be deducted from the value shown in the **Total Incl. Tax** field.
 
     If you set up invoice discounts for the customer, and upon meeting the criteria, the specified percentage value is automatically inserted in the **Invoice Discount %** field. And the related amount is inserted in the **Inv. Discount Amount Excl. Tax** field. Learn more at [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 12. To ship only part of the order quantity, enter that quantity in the **Qty. to Ship** field. The value automatically copies to the **Qty. to Invoice** field.

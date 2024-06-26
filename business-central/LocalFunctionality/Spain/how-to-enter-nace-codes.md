@@ -1,15 +1,14 @@
 ---
-    title: How to Enter NACE Codes [ES]
-    description: Learn about how to enter the Nomenclature génerale des Activités économiques dans les Communautés Européennes (NACE) codes with the Spanish version.
-    services: project-madeira 
-    documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/21/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: How to Enter NACE Codes [ES]
+description: Learn about how to enter the Nomenclature génerale des Activités économiques dans les Communautés Européennes (NACE) codes with the Spanish version.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/21/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Enter NACE Codes in the Spanish Version
 Nomenclature génerale des Activités économiques dans les Communautés Européennes (NACE) codes represent the statistical classification of economic activities within the European Union (EU).  

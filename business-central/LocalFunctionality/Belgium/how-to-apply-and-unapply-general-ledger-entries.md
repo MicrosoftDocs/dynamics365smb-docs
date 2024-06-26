@@ -9,6 +9,7 @@ ms.date: 03/06/2023
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Apply and Unapply General Ledger Entries in the Belgian Version
 

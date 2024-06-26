@@ -1,15 +1,15 @@
 ---
-title: Undo a Posting by Posting a Reversing Entry
+title: Undo a posting by posting a reversing entry
 description: If you find a mistake in a posted general journal, you can use the Reverse Transaction action to undo the posting with a correct audit trail.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/28/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Reverse Journal Postings and Undo Receipts/Shipments
+# Reverse journal postings and undo receipts/shipments
 
 Reverse journal postings are useful, for example, for correcting errors and for clearing out an old accruals entry before entering a new one. A reverse entry is the same as the original entry, but has an opposite sign in the **Amount** field. The reverse entry must have the same document number and posting date as the original entry. After you reverse an entry, you must make the correct entry.
 
@@ -27,8 +27,6 @@ You can reverse entries from all **Ledger Entries** pages. The following procedu
 
 > [!NOTE]
 > The entry must originate from a journal posting.
->
-> Also, you can't reverse entries that have been posted with information from a job, or which have realized gains and losses within the same transaction.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Entries**, and then choose the related link.
 2. Select the entry that you want to reverse, and then choose the **Reverse Transaction** action.
@@ -84,7 +82,18 @@ The steps are similar for posted return receipts.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-## See Also
+## Reverse a customer and vendor ledger entry with a realized gain or loss entry
+
+You can use the **Reverse transaction** action to reverse payments that were applied to entries that originated in foreign currencies and were adjusted using the Exchange Rate Adjustment batch job. The feature works for both purchases and sales.
+
+The following is a simple scenario that illustrates how it works:
+
+1. Post a sales invoice for a customer using a foreign currency.
+2. Adjust the exchange rate for that currency.
+3. Post a payment applied to the invoice.
+4. Unapply and reverse the payment transaction, for example, from the **Customer Ledger Entries** page.
+
+## See also
 
 [Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)  
 [Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  

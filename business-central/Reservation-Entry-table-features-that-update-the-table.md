@@ -10,7 +10,9 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
+
 # Reservation Entry table - Introduction
+
 This technical whitepaper provides guidance to help you understand and troubleshoot data inconsistency issues in the *Reservation Entry* table (Table 337) in Microsoft Dynamics NAV. The first part is an introduction to the features that generate or modify data in this table. It also covers several fields in the *Reservation Entry* table that are worth pointing out in relation to these features. The second part demonstrates through examples how entries in the *Reservation Entry* table are generated, deleted, or modified when transfer orders are processed or planning features are executed.
 
 The *Reservation Entry* table is used to handle and store information concerning reservation, item tracking, and order tracking.
@@ -185,7 +187,7 @@ When Planning is executed, Microsoft Dynamics NAV marks this field and sets the 
   - **Order Tracking Policy**: None
 2. Create a sales order. Set the following fields:
   - **Item**: 80001
-  - **Location**: <blank>
+  - **Location**: Blank/None
   - **Quantity**: 10
   - **Shipment Date**: 2/15/2014
 3. Open the **Requisition Worksheets** and run the **Calculate Plan** batch job for Item 80001.

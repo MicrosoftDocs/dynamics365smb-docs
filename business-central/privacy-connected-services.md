@@ -8,8 +8,6 @@ ms.search.keywords: privacy, trial, Microsoft services
 ms.date: 04/14/2024
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.collection:
-  - bap-ai-copilot
 ---
 # Trial features that connect to other Microsoft services 
 

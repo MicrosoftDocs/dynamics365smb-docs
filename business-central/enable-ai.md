@@ -131,7 +131,7 @@ To grant or deny access to specific non-Microsoft copilot and AI capabilities, c
 
 ## Requirements for being an administrator
 
-You must have either SUPER permissions in your Business Central user account or one of the following Business Central entitlements:
+You must have either SUPER permissions in your Business Central user account or one of the following Business Central licenses:
 
 - Delegated Admin agent - Partner
 - Delegated Helpdesk agent - Partner

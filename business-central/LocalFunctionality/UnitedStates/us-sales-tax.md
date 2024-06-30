@@ -1,5 +1,5 @@
 ---
-title: Reporting Sales Tax in the US Version
+title: Sales Tax in the US Version
 description: Learn about how sales tax is set up, and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work.
 author: brentholtorf
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Reporting Sales Tax in the US
+# Sales Tax in the US
 
 [!INCLUDE [sales-tax](../includes/CAMXUS/sales-tax-setup.md)]
 

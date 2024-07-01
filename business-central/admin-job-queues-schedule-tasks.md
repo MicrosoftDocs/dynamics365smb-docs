@@ -14,17 +14,17 @@ ms.service: dynamics-365-business-central
 
 Use the **Job Queue Entries** page to schedule and run specific reports and codeunits. You can set jobs to run one time, or on a recurring basis. For example, you might want to run the **Salesperson * Sales Statistics** report weekly to track sales by salesperson each week, or run the **Delegate Approval Requests** codeunit daily to prevent documents from piling up.
 
-The Job Queue Entries page lists all existing jobs. If you add a new job queue entry that will run on a schedule, you must provide some information. For example:
+The **Job Queue Entries** page lists all existing jobs. If you add a job queue entry that runs on a schedule, you must provide some information. For example:
 
-* The type of object to run, such as a report or codeunit. You must have permission to run the particular report or codeunit.
+* The type of object to run, such as a report or codeunit. You must have permission to run the report or codeunit.
 * The name and object ID of the object.
 * Parameters to specify the behavior of the job queue entry. For example, you can add a parameter to only send posted sales orders.
-* When, and how often, the job queue entry will run.
+* The schedule for when, and how often, the job queue entry runs.
 
 > [!IMPORTANT]  
 > If you're assigned the SUPER permissions set that comes with [!INCLUDE[prod_short](includes/prod_short.md)], you have permission to run all objects included in your license. If you have the Delegated Admin role, you can create and schedule job queue entries, but only administrators and licensed users can run them.
 
-After a job finishes successfully it's removed from the list of job queue entries, unless it's a recurring job. For recurring jobs, the **Earliest Start Time** field is adjusted to show the next time that the job will run.
+After a job finishes successfully, [!INCLUDE [prod_short](includes/prod_short.md)] removes it from the list of job queue entries, unless it's a recurring job. For recurring jobs, the **Earliest Start Time** field is adjusted to show the next time that the job will run.
 
 ## Important for scheduling recurring jobs
 
@@ -35,7 +35,7 @@ After a job finishes successfully it's removed from the list of job queue entrie
 
 The value in the **Earliest Start Date/Time** field on the **Job Queue Entry Card** page shows the next time the job will run. There are several factors that can affect whether a job queue entry actually runs at that time.
 
-The most common factors are the number of job queue entries in an environment, and the overall number of scheduled tasks. To protect performance levels, there are operational limits. If you have a lot of entries in the queue and, for example, one of them fails or the entries just take longer than expected, the next job might not start at the expected time. If you have codeunits that are generating 100,000 or more scheduled tasks, you should investigate whether you actually need all of those tasks. You can access the list of all scheduled tasks on the **Scheduled Tasks** page.
+The most common factors are the number of job queue entries in an environment, and the overall number of scheduled tasks. To protect performance levels, there are operational limits. If you have many entries and, for example, one of them fails or takes longer than expected, the next job might not start at the expected time. If you have codeunits that are generating 100,000 or more scheduled tasks, you should investigate whether you actually need all of those tasks. You can access the list of all scheduled tasks on the **Scheduled Tasks** page.
 
 To learn more about monitoring the status of job queue entries, go to [To view status for any job](#to-view-status-for-any-job). To learn more about operational limits, go to [Asynchronous task limits](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
 
@@ -51,7 +51,7 @@ The following table describes the values of the **Status** field.
 |--|--|
 | Ready | The job queue entry is ready to be run. |
 | In Process | The job queue entry is in process. This field updates while the job queue is running. |
-| On Hold | The default status of the job queue entry when it's created. Choose the **Set Status to Ready** action to change the status to **Ready**. Choose the **Set On Hold** action to revert the status to **On Hold**. For more information, refer to [About On Hold](#about-on-hold).|
+| On Hold | The default status of the job queue entry when you create it. Choose the **Set Status to Ready** action to change the status to **Ready**. Choose the **Set On Hold** action to revert the status to **On Hold**. To learn more, go to [About On Hold](#about-on-hold).|
 | On Hold Due to Inactivity | Used primarily for job queue entries that schedule synchronization between [!INCLUDE [prod_short](includes/prod_short.md)] and another application, such as [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. To learn more about this status, go to [About inactivity timeouts](/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries#about-inactivity-timeouts). |
 |Waiting | Only relevant for job queue entries that are assigned a category code. Indicates that the job is scheduled, but the underlying scheduled task isn't active. After the job queue entry that's currently running and is in the same category finishes, the status of the next job in the category with the status Waiting becomes Ready. |
 | Error | Something went wrong. Choose **Show Error** to show the error message. |
@@ -62,7 +62,8 @@ The following table describes the values of the **Status** field.
 
 ### About On Hold
 
-Setting a job queue entry to **On Hold** doesn't affect a jog that's already running. Once a job has started in the job queue, it continues to run until completion, regardless of any subsequent changes made to the job queue entry, such as putting it on hold.<br><br>The **On Hold** status is typically used to prevent a job from automatically starting when it reaches its scheduled start time. It allows you to temporarily pause the execution of a job before it begins processing. However, once a job is already running, changing the status to 'On Hold' will not interrupt or impact the job's execution.<br><br>If you need to stop or cancel a running job, you can do so by manually intervening in the process, such as terminating the corresponding session or process responsible for executing the job.
+Setting a job queue entry to **On Hold** doesn't affect a job that's already running. After a job starts, it continues to run until completion, regardless of any subsequent changes made to the job queue entry, such as putting it on hold.<br><br>The **On Hold** status is typically used to prevent a job from automatically starting when it reaches its scheduled start time. It allows you to temporarily pause a job before it begins processing. <br><br>If you need to stop or cancel a running job, you can manually intervene in the process. For example, you can stop the corresponding session or process.
+
 ### To view status for any job
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Job Queue Entries**, and then choose the related link.
@@ -82,7 +83,7 @@ For example, all scheduled tasks stop if the company is in an environment that's
 
 ## The My Job Queue part
 
-The **My Job Queue** part on your Role Center shows the job queues entries that you've started but aren't finished. By default the part isn't displayed, but you can add it to your Role Center. To learn more about personalization, go to [Personalize Your Workspace](ui-personalization-user.md).  
+The **My Job Queue** part on your Role Center shows the job queues entries that you started but aren't finished. By default the part isn't displayed, but you can add it to your Role Center. To learn more about personalization, go to [Personalize Your Workspace](ui-personalization-user.md).  
 
 The part shows the following information:
 
@@ -100,13 +101,13 @@ The My Job Queue part also lets you cancel a document posting.
 
 ### Schedule reports
 
-You can schedule a report or batch job to run at a specific date and time. Scheduled reports and batch jobs are entered in the job queue and processed at the scheduled time, similar to other jobs. You choose the **Schedule** option after you choose the **Send to** action, and then you enter information such as printer, time and date, recurrence.  
+You can schedule a report or batch job to run at a specific date and time. Scheduled reports and batch jobs are entered in the job queue and processed at the scheduled time, similar to other jobs. You choose the **Schedule** option after you choose the **Send to** action, and then you enter information such as printer, time, date, and recurrence.  
 
 To learn more about scheduling, go to [Scheduling a Report to Run](ui-work-report.md#ScheduleReport)
 
 ### Schedule synchronization between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-If you've integrated [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[prod_short](includes/cds_long_md.md)], the job queue lets you schedule when to synchronize data. Depending on the direction and rules you've defined, the job queue entry can create records in one app to match records in the other. A good example is when you register a contact in [!INCLUDE[crm_md](includes/crm_md.md)], the job queue entry can set up that contact for you in [!INCLUDE[prod_short](includes/prod_short.md)]. To learn more about scheduling, go to [Scheduling a Synchronization between Business Central and Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
+If you integrate [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[prod_short](includes/cds_long_md.md)], the job queue lets you schedule when to synchronize data. Depending on the direction and rules you define, the job queue entry can create records in one app to match records in the other. A good example is when you register a contact in [!INCLUDE[crm_md](includes/crm_md.md)], the job queue entry can set up that contact for you in [!INCLUDE[prod_short](includes/prod_short.md)]. To learn more about scheduling, go to [Scheduling a Synchronization between Business Central and Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
 ### Schedule when to post sales and purchase orders
 

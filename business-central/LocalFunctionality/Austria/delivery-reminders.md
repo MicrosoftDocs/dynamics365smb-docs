@@ -1,14 +1,15 @@
 ---
-    title: Delivery reminders in the Austrian version
-    description: Delivery reminders are used to track overdue vendor shipments and to remind vendors about overdue deliveries in the Austrian version.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.search.form: 5005270, 5005272, 5005273, 5005274, 5005275, 5005276, 5005280
-    ms.date: 11/07/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: Delivery reminders in the Austrian version
+description: Delivery reminders are used to track overdue vendor shipments and to remind vendors about overdue deliveries in the Austrian version.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.search.form: 5005270, 5005272, 5005273, 5005274, 5005275, 5005276, 5005280
+ms.date: 11/07/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Delivery reminders in the Austrian version
 

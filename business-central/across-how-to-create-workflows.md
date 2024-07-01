@@ -1,15 +1,16 @@
 ---
-title: Create Approval Workflows to Connect Tasks
+title: Create approval workflows to connect tasks
 description: Learn how to create workflows that connect tasks performed by different people in business processes.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 04/24/2023
+ms.date: 05/29/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+
 ---
-# Create Workflows to Connect Tasks in Business Processes
+# Create workflows to connect tasks in business processes
 
 You can create workflows that connect tasks in business processes that are performed by different users. You can include system tasks, such as automatic posting, as steps in workflows that are preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.  
 

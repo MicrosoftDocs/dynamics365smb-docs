@@ -1,6 +1,6 @@
 ---
 title: Ad-hoc analysis of sales data
-description: Learn how to use the data analysis mode in Business central to analyze sales data.
+description: Learn how to use the data analysis mode to analyze sales data.
 author: brentholtorf
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -27,7 +27,7 @@ Use the following list pages for ad-hoc analysis of sales processes:
 
 ## Sales ad-hoc analysis scenarios
 
-Use the **Analyze Data** feature for quick fact checking and ad-hoc analysis:
+Use the **Data Analysis** feature for quick fact checking and ad-hoc analysis:
 
 - If you don't want to run a report.
 - If a report for your specific need doesn't exist.

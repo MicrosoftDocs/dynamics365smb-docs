@@ -3,7 +3,7 @@ title: Change which features are displayed
 description: Learn what the Essential and Premium user experience tiers mean for the user interface, application areas, and your company.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: essential, basic, user interface, application area, experience
 ms.search.form: 1,

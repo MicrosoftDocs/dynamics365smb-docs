@@ -3,7 +3,7 @@ title: Pick items for warehouse shipment
 description: Learn about using warehouse pick documents to create and process pick information prior to posting a warehouse shipment.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 04/23/2024

@@ -9,6 +9,7 @@ ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38
 ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Manage inventory
@@ -23,6 +24,16 @@ To enhance your overview of items and to help you find them, you can categorize 
 > The physical handling of items is referred to as warehouse activities. Learn more at [Warehouse Management Overview](design-details-warehouse-management.md).
 
 Planning for items to fulfill demand is covered as part of supply planning functionality. Learn more at [Planning](production-planning.md).  
+
+## Inventory analytics
+
+This section describes the analytical tools you can use to get insights into your inventory data.
+
+| To... | See |
+| --- | --- |
+| Learn about capabilities for analyzing inventory data. | [Sales analytics overview](inventory-analytics-overview.md) |
+| Do ad-hoc analysis of inventory data directly on list pages and queries. | [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md) |
+| Explore built-in inventory reports. | [Built-in inventory and warehouse reports](inventory-WMS-reports.md) |
 
 ## Inventory reconciliation
 

@@ -7,11 +7,11 @@ ms.search.keywords: local, 1099, tax, taxes, IRS
 ms.search.form: 50, 51, 132, 10036, 10037, 10049
 ms.date: 04/01/2024
 ms.author: altotovi
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Use the IRS 1099 forms in the US version  
+# Use the IRS 1099 forms
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] will calculate 1099 forms only for vendors whose **Purchase Invoice** includes information about **IRS 1099 Form No.** and **IRS 1099 Form Box No.** on the document header and if the payment is posted and applied to this invoice.  
 

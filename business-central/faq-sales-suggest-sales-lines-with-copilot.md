@@ -3,7 +3,7 @@ title: FAQ for suggest sales lines with Copilot
 description: This FAQ provides information about the AI technology used in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: article
 ms.search.form:
 ms.date: 02/02/2024
@@ -14,11 +14,11 @@ ms.custom: responsible-ai-faqs
 
 # FAQ for Sales Line Suggestions with Copilot (preview)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 These frequently asked questions (FAQ) describe the AI impact of the sales line suggestions feature in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## What is Sales Line Suggestions with Copilot?
 
@@ -115,7 +115,13 @@ For products, the following table lists the tables and fields that Copilot searc
 
 ## In which geographies and languages is Sales lines suggestions available?
 
-With the exception of Canada, this feature is available to all environment country/region localization and in all supported languages. Due to limited language support, the feature won't initially be available to Canadian customers due to regulatory language compliance. For this capability to be available for customer environments located in countries/regions where Azure OpenAI Service isn't deployed, administrators must first consent to allowing their data to move across boundaries for [!INCLUDE [prod_short](includes/prod_short.md)] to connect to Azure OpenAI service.  
+- Available geographies
+
+   This Copilot feature is available in all supported [Business Central countries/regions](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). However, for customer environments located in countries/regions where Azure OpenAI Service isn't deployed, administrators must first consent to allowing their data to move across boundaries for [!INCLUDE [prod_short](includes/prod_short.md)] to connect to Azure OpenAI service. Learn more at [Copilot data movement across geographies](ai-copilot-data-movement.md).
+
+- Available languages
+
+   [!INCLUDE[sales-lines-suggestions-language-support](includes/sales-lines-suggestions-language-support.md)]
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
@@ -125,9 +131,9 @@ AI-powered suggestions might sometimes be incorrect or incomplete. You should al
 
 Each individual users chooses whether or not to use **Sales lines suggestions**. Even when the feature is enabled by administrators and available, you can choose to use it always, sometimes, or never.  
 
-Administrators make the overall decision on whether to use Copilot capabilities in [!INCLUDE [prod_short](includes/prod_short.md)]. If administrators enable Copilot, they should be sure to grant access to the appropriate users.   
+Administrators make the overall decision on whether to use Copilot capabilities in [!INCLUDE [prod_short](includes/prod_short.md)]. If administrators enable Copilot, they should be sure to grant access to the appropriate users.
 
-> [NOTE!]
+> [!NOTE]
 > - We don't support this feature in [!INCLUDE [prod_short](includes/prod_short.md)] on-premises or private cloud.
 > - Partner's can't extend this feature. That means partner developers can't modify, replace, or extend it.
 

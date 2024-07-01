@@ -1,13 +1,14 @@
 ---
-    title: How to Set Up Recurring Groups
-    description: Recurring Group Code field in the Blanket Sales Order page defines date formulas that can be used both as a template and to create sales orders based on date intervals.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: How to Set Up Recurring Groups
+description: Recurring Group Code field in the Blanket Sales Order page defines date formulas that can be used both as a template and to create sales orders based on date intervals.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Recurring Groups
 The **Recurring Group Code** field on the **Blanket Sales Order** page defines date formulas that can be used both as a template and to create sales orders based on date intervals. You must set up recurring groups before you can set up recurring orders.  

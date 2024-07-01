@@ -1,14 +1,15 @@
 ---
-    title: Close Years [FR]
-    description: When a fiscal year is over, close the periods that it comprises using the Accounting Periods feature.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/18/2021
-    ms.author: bholtorf
+title: Close Years [FR]
+description: When a fiscal year is over, close the periods that it comprises using the Accounting Periods feature.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/18/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Close Years in the French Version
 When a fiscal year is over, you must close the periods that it comprises.  

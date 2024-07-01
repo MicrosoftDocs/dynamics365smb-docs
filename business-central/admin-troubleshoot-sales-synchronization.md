@@ -7,7 +7,7 @@ ms.devlang: al
 ms.search.keywords:
 ms.date: 04/04/2024
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---

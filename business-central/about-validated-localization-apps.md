@@ -1,16 +1,14 @@
 ---
-title: Development of Validated Localization apps
+title: Development of validated localization apps
 description: Comply with regulatory requirements in Dynamics 365 Business Central as a Validated Localization App.
 author: altotovi
-ms.custom: na
-ms.date: 04/10/2024
-ms.reviewer: solsen
+ms.date: 06/04/2024
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.author: altotovi
 ---
 
-
-# Development of Validated Localization apps
+# Development of validated localization apps
 
 This article describes the requirements and guidelines for developing a Validated Localization app for [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -28,7 +26,6 @@ Apps in the validated localization pilot program contain a set of functionalitie
 - **Regulatory requirements** - local functionality that helps businesses fulfill their legal requirements, such as tax reporting, local E-invoicing formats, local GAAP, and other regulatory requirements.
 - **National standards requirement** – local functionality that addresses local standards, such as address formats, national banking formats, or local interpretations of global standards.
 - **Local language** - local language in the localization app, but also for a base app if this language isn't currently on the list of [supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
-- **Local language** - local language in a localization app, but also for a base app if this language isn't currently on the list of [supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
 > [!NOTE]
 > Local market needs or industry requirements should not be included in the preferred localization apps. If apps contain these functionalities, the apps can't be approved as Validated Localization apps.
@@ -39,14 +36,10 @@ Apps in the validated localization pilot program contain a set of functionalitie
 ## Validated Localization app business requirements  
 
 - The Validated Localization app provider complies with all requirements to be a CSP indirect provider.  
-- The Validated Localization app provider brings to market a min. of offerings across five countries/regions, which bundle Dynamics 365 Business Central with a Validated Localization app. 
+- The Validated Localization app provider brings to market a minimum of offerings across five countries/regions, which bundle Dynamics 365 Business Central with a Validated Localization app. 
 - The Validated Localization app provider has a minimum of 10 [!INCLUDE[prod_short](includes/prod_short.md)] online customers with production environments, which are actively using the Validated Localization app. 
 - The Validated Localization app provider submits a business plan on a yearly basis to the program v-team. This includes planned marketing and readiness activities to promote the bundled offering with the CSP Indirect Resellers in applicable countries/regions. Plan can be submitted at the start of each quarter to [Microsoft localization team](mailto:d365bcloc@microsoft.com).  
-- Validated Localization apps are made available to all customers and partners who want to benefit from it.  
-- The Validated Localization app provider brings to market a minimum of offerings across five countries/regions, which bundle Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)] with a Validated Localization app. 
-- The Validated Localization app provider has a minimum of 10 [!INCLUDE[prod_short](includes/prod_short.md)] online customers with production environments, which are actively using the Validated Localization app. 
-- The Validated Localization app provider submits a business plan on a yearly basis to the program v-team. This includes planned marketing and readiness activities to promote the bundled offering with the CSP Indirect Resellers in applicable countries/regions. Plan can be submitted by each start of a quarter to the [Microsoft localization team](mailto:d365bcloc@microsoft.com).  
-- Validated Localization apps are made available to all customers and partners who want to benefit from it.  
+- Validated Localization apps are made available to all customers and partners who want to benefit from it.     
 - The Validated Localization App provider engages in recurring workstreams with Microsoft.
 
 ## Validated Localization app functional and technical requirements  
@@ -75,9 +68,6 @@ Apart from fulfilling the technical requirements for the preferred localization 
 - All features must be designed to keep simplified user interface, note that they're intended primarily for the SMB market.  
 - Avoid building new features if the same or similar functionalities already exist in the base app, such as electronic invoicing, audit exports, VAT features, data exchange, and others where most functionality is common to all countries/regions but there are some local rules or business formats that are extensions of global frameworks or formats. Instead of building new features, extend existing ones.  
 - Prepare setup guides (wizards) for areas that are complex to set up to help users enable, discover, and have good first experience using your localization app.  
-- All features must be designed to keep simplified user interface, keeping in mind that they're intended primarily for the SMB market.  
-- Avoid building new features if the same or similar functionalities already exist in the base app, such as electronic invoicing, audit exports, VAT features, data exchange and others where most functionality is common to all countries/regions but there are some local rules or business formats that are extensions of global frameworks or formats. Instead of building new features, extend existing ones.    
-- Prepare setup guides (wizards) for areas that are complex to set up to help users enable, discover, and have good first experience using your localization app.  
 - Partners must provide functional documentation for all aspects of their localization.  
 
 ### Technical requirements  
@@ -93,8 +83,6 @@ In the following, you find a list of requirements that you must meet before subm
 - The Validated Localization app providers should add new events if required by the market (other implementation partners or customers) if it makes reasonable business sense, following Microsoft policy and practice. Otherwise, the validated localization app providers must provide response to such inquiries with proper justification why it doesn't make reasonable business sense to add. 
 - The Validated Localization app providers must provide written test scenarios in English and enable Microsoft to do manual testing if required by Microsoft.  
 - If a Validated Localization app(s) is extending the [!INCLUDE[prod_short](includes/prod_short.md)] data model with new tables and/or fields, the Validated Localization app provider must set the **DataClassification** property correctly.
-- The Validated Localization app providers must build the Validated Localization app based on the W1 base app.  
-- The Validated Localization app providers must follow the Microsoft lifecycle and support policies.   
 
 > [!NOTE]  
 > You can also create an integration if you find it beneficial to have some functionality placed outside the [!INCLUDE[prod_short](includes/prod_short.md)] environment and instead connect to [!INCLUDE[prod_short](includes/prod_short.md)] using for example APIs or web services.

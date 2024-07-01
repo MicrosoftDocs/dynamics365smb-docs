@@ -73,7 +73,7 @@ ms.service: dynamics-365-business-central
 ##### [Design details: Inventory valuation](design-details-inventory-valuation.md)  
 ##### [Design details: Revaluation](design-details-revaluation.md)
 #### Design details: Posting date on adjustment value entry
-##### [Posting date on adjustment value entry verview](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Posting date on adjustment value entry overview](design-details-inventory-adjustment-value-entry-posting-date.md)  
 ##### [Error message "Posting date is not within your range of allowed posting dates"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
 ##### [Posting date on adjustment value entry compared to the source entry](design-details-inventory-adjustment-value-entry-source-entry.md)
 #### Design details: Dimension set entries
@@ -174,7 +174,7 @@ ms.service: dynamics-365-business-central
 #### [Manage saved settings](reports-saving-reusing-settings.md)
 #### [View test reports before posting](ui-how-view-test-reports-posting.md)
 #### [Run batch jobs and XML ports](ui-how-run-batch-jobs.md)
-### Change the look of externally-facing documents
+### Change the look of externally facing documents
 #### [About report and document layouts](ui-manage-report-layouts.md)
 #### [Get started create layouts](ui-get-started-layouts.md)
 #### [Work with Word layouts](ui-how-add-fields-word-report-layout.md)
@@ -200,9 +200,9 @@ ms.service: dynamics-365-business-central
 #### [Touch and pen gestures](touch-gestures.md)
 ### [Troubleshoot: Access camera and location](ui-troubleshooting-camera-location.md)
 ### [Intelligent insights (online only)](about-intelligent-cloud.md)
-## Frequently Asked Questions
+## Troubleshooting and FAQs
 ### [Frequently Asked Questions](across-faq.yml)
-### [Chat with Copliot FAQ (preview)](chat-with-copilot-faq.md)
+### [Chat with Copilot FAQ (preview)](chat-with-copilot-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
 ### [Search and filter FAQ](ui-search-filter-faq.yml)
 ### [List views FAQ](ui-views-faq.yml)
@@ -211,6 +211,7 @@ ms.service: dynamics-365-business-central
 ### [Teams FAQ](teams-faq.md)
 ### [Electronic invoice FAQ](faq-electronic-invoicing.yml)
 ### [Minimum requirements](product-requirements.md)
+### [Troubleshooting in Business Central](/troubleshoot/dynamics-365/business-central/welcome-business-central)
 
 ## Help and Support
 ### [Resources for help and support](product-help-and-support.md)
@@ -351,7 +352,7 @@ ms.service: dynamics-365-business-central
 #### [Bank reconciliation overview](bank-manage-bank-accounts.md)
 #### [Reconcile bank accounts](bank-how-reconcile-bank-accounts-separately.md)
 #### [Reconcile bank accounts using Copilot (preview)](bank-reconciliation-with-copilot.md)
-#### [Applying payments automatically and reconcile bank accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+#### [Applying payments automatically and reconciling bank accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 #### [Transfer bank funds](bank-how-transfer-bank-funds.md)
 #### [Create bank deposits](bank-create-bank-deposits.md)
 
@@ -446,12 +447,24 @@ ms.service: dynamics-365-business-central
 #### [Validate VAT registration numbers](finance-how-validate-vat-registration-number.md)
 #### [Convert service contracts that include VAT amounts](service-how-to-convert-service-contracts.md)
 
-### Setup and use E-documents
+### Set up and use e-documents
 #### [E-Documents overview](finance-edocuments-overview.md)
-#### [Set up E-documents](finance-how-setup-edocuments.md)
-#### [Use e-documents in sales and purchases](finance-how-use-edocuments.md)
-#### [Set the E-Documents connector with external endpoints](finance-how-setup-edocuments-external.md)
+#### [Set up e-documents](finance-how-setup-edocuments.md)
+#### [Use e-documents in sales](finance-how-use-edocuments.md)
+#### [Use e-documents in purchases](finance-how-use-edocuments-purchase.md)
+#### [Set the e-documents connector with external endpoints](finance-how-setup-edocuments-external.md)
 #### [Extending e-documents functionality](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
+### Sustainability management
+#### [Sustainability management overview](finance-manage-sustainability.md)
+#### [Sustainability setup](finance-sustainability-setup.md)
+#### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
+#### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
+#### Sustainability analytics
+##### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
+##### [Built-in sustainability reports](sustainability-reports.md)
+#### Sustainability APIs
+##### [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
 #### Consolidate financial data from multiple companies
@@ -479,7 +492,7 @@ ms.service: dynamics-365-business-central
 #### [Analyze data with statistical accounts](bi-use-statistical-accounts.md)
 #### [Analyze data by dimensions](bi-how-analyze-data-dimension.md)
 
-<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)
 
 ### Built-in finance analysis tools
 #### [Analyze finance data from the Chart of Accounts](finance-general-ledger.md)
@@ -527,7 +540,10 @@ ms.service: dynamics-365-business-central
 
 ## Purchasing
 ### [Purchasing overview](purchasing-manage-purchasing.md)
-### [Purchasing reports](purchase-reports.md)
+### Purchasing analytics 
+#### [Purchasing analytics overview](purchasing-analytics-overview.md)
+#### [Ad-hoc analysis of purchasing data](ad-hoc-analysis-purchasing.md)
+#### [Built-in purchasing reports](purchase-reports.md)
 ### [Walkthrough: Set up and use a purchase approval workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Record purchases](purchasing-how-record-purchases.md)
 ### [Request quotes](purchasing-how-request-quotes.md)
@@ -546,7 +562,10 @@ ms.service: dynamics-365-business-central
 
 ## Inventory
 ### [Inventory overview](inventory-manage-inventory.md)
-### [Inventory and warehouse reports](inventory-WMS-reports.md)
+### Inventory analytics 
+#### [Inventory analytics overview](inventory-analytics-overview.md)
+#### [Ad-hoc analysis of inventory data](ad-hoc-analysis-inventory.md)
+#### [Built-in inventory and warehouse reports](inventory-WMS-reports.md)
 ### [Register new items](inventory-how-register-new-items.md)
 ### [Work with bills of material](inventory-how-work-BOMs.md)
 ### [Categorize items](inventory-how-categorize-items.md)
@@ -582,24 +601,27 @@ ms.service: dynamics-365-business-central
 
 ## Fixed assets
 ### [Fixed assets overview](fa-manage.md)
+
 ### Fixed assets analytics
 #### [Fixed assets analytics overview](fa-analytics-overview.md)
+#### [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)
 #### Built-in fixed assets analytics tools
-##### [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)
 ##### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
 ##### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 ##### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 #### [Built-in fixed assets reports](fa-reports.md)
+
 ### [Set up fixed assets](fa-setup.md)
 ### [Depreciation methods](fa-depreciation-methods.md)
 ### [Manage budgets for fixed assets](fa-how-manage-budgets.md)
 ### [Acquire fixed assets](fa-how-acquire.md)
+### [Depreciate or amortize fixed assets](fa-how-depreciate-amortize.md)
 ### [Maintain fixed assets](fa-how-maintain.md)
 ### [Insure fixed assets](fa-how-insure.md)
 ### [Transfer, split, or combine fixed assets](fa-how-trans-split-combine.md)
 ### [Revalue fixed assets](fa-how-revalue.md)
-### [Depreciate or amortize fixed assets](fa-how-depreciate-amortize.md)
 ### [Dispose of or retire fixed assets](fa-how-dispose-retire.md)
 ### [Troubleshooting FA ledger entries](fa-troubleshooting-fa-ledger-entries.md)
 
@@ -647,7 +669,7 @@ ms.service: dynamics-365-business-central
 ### [Create a forecast](production-how-to-create-a-forecast.md)
 ### [Create production orders from sales orders](production-how-to-create-production-orders-from-sales-orders.md)
 ### [Plan for new demand order by order](production-how-to-plan-for-new-demand.md)
-### [Run full planning, MPS or MRP](production-how-to-run-mps-and-mrp.md)
+### [Run full planning, MPS, or MRP](production-how-to-run-mps-and-mrp.md)
 ### [Replan or refresh production orders directly](production-how-to-replan-refresh-production-orders.md)
 ### [Track relations between demand and supply](production-how-track-demand-supply.md)
 ### [Requisition worksheet](production-about-planning-functionality.md#requisition-worksheet)
@@ -695,8 +717,8 @@ ms.service: dynamics-365-business-central
 #### [Find your work assignments](warehouse-how-to-find-your-warehouse-assignments.md) 
 #### [Receive items](warehouse-how-receive-items.md)
 <!-- #### [Put Items Away](warehouse-put-away-items.md) -->
-#### [Put items away with inventory put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
-#### [Put items away with warehouse put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)
+#### [Put away items with inventory put-aways](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
+#### [Put away items with warehouse put-aways](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)
 <!-- #### [Plan Bulk Put-Aways Using Worksheets](warehouse-how-to-plan-put-aways-in-worksheets.md) -->
 #### [Cross-dock items](warehouse-how-to-cross-dock-items.md)
 #### [Walkthrough: Receive and put away in basic warehouse configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
@@ -773,6 +795,7 @@ ms.service: dynamics-365-business-central
 <!--LF-->
 ## Local functionality
 ### [Local functionality overview](about-localization.md)
+### [Development of validated localization apps](about-validated-localization-apps.md)
 
 ### Australia
 #### [Overview of the Australian version](LocalFunctionality/Australia/australia-local-functionality.md)
@@ -926,25 +949,25 @@ ms.service: dynamics-365-business-central
 ##### [Compensations](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
 #### Inventory
 ##### [Round Accounting in Inventory](LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md)
-##### [Inventory General Ledger Reconciliation Enhacements](LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md)
+##### [Inventory General Ledger Reconciliation Enhancements](LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md)
 ##### [Advanced Feature of Physical Inventory](LocalFunctionality/Czech/advanced-features-physical-inventory.md)
 ##### [Inventory Counting Documents](LocalFunctionality/Czech/how-to-use-inventory-counting-documents.md)
-##### [Inventory Operations Documemt](LocalFunctionality/Czech/how-to-use-inventory-operations-document.md)
+##### [Inventory Operations Document](LocalFunctionality/Czech/how-to-use-inventory-operations-document.md)
 ##### [Posting Groups in Transfer Orders](LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders.md)
 #### General
 ##### [Extended User Control](LocalFunctionality/Czech/general.md)
 ##### [Control of Posting Group Changes](LocalFunctionality/Czech/check-of-posting-group-changing.md)
 ##### [Control of Output Inventory Time Sequence](LocalFunctionality/Czech/check-output-inventory-time-sequence.md)
 ##### [Inventory Movement Templates](LocalFunctionality/Czech/inventory-movement-templates.md)
-##### [Stockkeeping Unit Templates](LocalFunctionality/Czech/stockkeeping-unit-templates.md)
+##### [Stock keeping Unit Templates](LocalFunctionality/Czech/stockkeeping-unit-templates.md)
 ##### [Mandatory Exact Cost Return in Manufacturing](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
 ##### [Default Bus Post Group in Manufacturing](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-manufacturing.md)
 ##### [Default Bus Post Group in Assembly Orders](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-assembly-orders.md)
 ##### [Automatic Creation and Update Dimensions](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
 ##### [Add Fields in Item Entries](LocalFunctionality/Czech/how-to-use-add-fields-item-entries.md)
-##### [General Production Posting Group in Stockkeeping Unit](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
-##### [Skip Update for Stockkeeping Unit at Posting](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
-##### [Nonstock Item Nummbering](LocalFunctionality/Czech/how-to-setup-nonstock-item-numbering.md)
+##### [General Production Posting Group in Stock keeping Unit](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
+##### [Skip Update for Stock keeping Unit at Posting](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
+##### [Nonstock Item Numbering](LocalFunctionality/Czech/how-to-setup-nonstock-item-numbering.md)
 
 ### Denmark
 #### [Local functionality in the Danish version](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1141,9 +1164,9 @@ ms.service: dynamics-365-business-central
 ###### [GST input credit adjustment](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
 ###### [GST settlement](LocalFunctionality/India/GST-Settelement.md)
 ###### [GST e-invoice](LocalFunctionality/India/GST-E-Invoice.md)
-##### GST cess
-###### [GST cess basic setup](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
-###### [GST cess calculation](LocalFunctionality/India/GST-Cess-Calculations.md)
+##### GST Cess
+###### [GST Cess basic setup](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
+###### [GST Cess calculation](LocalFunctionality/India/GST-Cess-Calculations.md)
 ##### GST on service management
 ###### [GST on service management](LocalFunctionality/India/GST-Service-Management.md)
 ##### GST input service distribution
@@ -1402,7 +1425,7 @@ ms.service: dynamics-365-business-central
 ##### [Account for the cost to dispose a fixed asset](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md)
 ##### [Undepreciable fixed assets](LocalFunctionality/Russia/Undepreciable-Fixed-Assets.md)
 #### VAT
-##### [VAT in the russian version](LocalFunctionality/Russia/VAT.md)
+##### [VAT in the Russian version](LocalFunctionality/Russia/VAT.md)
 ##### [Set up VAT ledgers](LocalFunctionality/Russia/How-to-Set-Up-VAT-Ledgers.md)  
 ##### [Prepare and post VAT entries](LocalFunctionality/Russia/How-to-Prepare-VAT-Entries-for-Posting.md)  
 ##### [VAT settlement](LocalFunctionality/Russia/Settlement-VAT.md)  
@@ -1564,7 +1587,11 @@ ms.service: dynamics-365-business-central
 #### [Local functionality in the US version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Tax
 ##### [Basic tax setup](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Reporting sales Tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)  
+##### [Reporting sales Tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Introduction to the IRS 1099 forms and its functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+##### [Set up and use the IRS 1099 form for version 24 (2024 release wave 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
+#### [Use the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-use.md)
+#### [Submit and report the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
 ##### [Set up and use the IRS 1099 form](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Regulatory 1099 format changes and details](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Set up and use the IRS 1096 form](LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md)
@@ -1648,7 +1675,7 @@ ms.service: dynamics-365-business-central
 #### [Create new items by copying existing items](inventory-how-copy-items.md)
 #### [About item types](inventory-about-item-types.md)
 #### [Set up units of measure](inventory-how-setup-units-of-measure.md)
-#### [Set up stockkeeping units](inventory-how-to-set-up-stockkeeping-units.md)
+#### [Set up stock keeping units](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Categorize items](inventory-how-categorize-items.md)
 #### [Import multiple item pictures](inventory-how-import-item-pictures.md)
 ### Set up project management
@@ -1676,7 +1703,7 @@ ms.service: dynamics-365-business-central
 #### [Convert existing locations to warehouse locations](warehouse-how-to-convert-existing-locations-to-warehouse-locations.md)
 #### [Set up basic warehouses with operations areas](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)
 #### [Set up items and locations for directed put-away and pick](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
-#### [Enable automatic breakbulk with directed put-away and pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
+#### [Enable automatic break bulk with directed put-away and pick](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
 #### [Enable FEFO method to pick items](warehouse-picking-by-fefo.md)
 <!-- #### [Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md) -->
 #### [Restructure warehouses](warehouse-how-to-restructure-warehouses.md)
@@ -1707,7 +1734,7 @@ ms.service: dynamics-365-business-central
 #### [Set up statuses for service orders and repairs](service-order-repair-status.md)
 #### [Set up a loaner program](service-how-setup-loaner-program.md)
 #### [Set up service contracts](service-how-setup-service-contracts.md)
-### Setup best practices for complex application areas 
+### Set up best practices for complex application areas 
 #### [Setup best practices](set-up-complex-application-areas-using-best-practices.md)
 #### Setup best practices: supply planning
 ##### [Setup supply planning](setup-best-practices-supply-planning.md)
@@ -1799,8 +1826,23 @@ ms.service: dynamics-365-business-central
 # Analytics, business intelligence, and reporting 
 
 ## [Analytics overview](reports-bi-reporting.md)
-## [Using key performance indicators (KPIs) to meet your business goals](./analytics-about-kpis.md)
-## [Using financial reporting](bi-how-work-account-schedule.md)
+## [Analytics by functional area](analytics-by-functional-area.md)
+
+## KPIs, dashboards, and financial reports
+### [Using key performance indicators (KPIs) to meet your business goals](analytics-about-kpis.md)
+### [Introduction to Business Central and Power BI](admin-powerbi.md)
+### [Work with Power BI reports](across-working-with-powerbi.md)
+### [Track KPIs with Power BI metrics](track-kpis-with-power-bi-metrics.md)
+### [Using Financial Reporting](bi-how-work-account-schedule.md)
+
+## Ad-hoc data analysis
+### [Overview](reports-adhoc-analysis.md)
+### [Sort, search, and filter](ui-enter-criteria-filters.md)
+### [Search and filter FAQ](ui-search-filter-faq.yml)
+### [Analyze page data in Excel](across-work-with-excel.md)
+### [Analyze report data with Excel](report-analyze-excel.md)
+### [Analyze list and query data with analysis mode](analysis-mode.md)
+### [Ad-hoc data analysis by functional area](ad-hoc-data-analysis-by-functional-area.md)
 
 ## Use reports in daily work
 ### [Overview](reports-use-reports.md)
@@ -1817,44 +1859,22 @@ ms.service: dynamics-365-business-central
 ## Built-in reports
 ### [Report overview](reports-available-reports.md)
 ### Finance
-#### [Financial business intelligence](bi.md)
-#### [Analyze financial statements with Excel](finance-analyze-excel.md)
+#### [Prepare financial reporting](bi-how-work-account-schedule.md)
 #### [Key financial reports](finance-reports.md)
 #### [Accounts receivable reports](receivables-reports.md)
 #### [Accounts payable reports](payables-reports.md)
-#### [Cash flow analysis](finance-setup-cash-flow-analyses.md)
-#### [Consolidate financial data from multiple companies](finance-consolidated-company-reporting.md)
+#### [Sustainability reports](sustainability-reports.md)
 
-### Sales
-#### [Sales reports](sales-reports.md)
-#### [Blanket sales order status](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
-#### [Package tracking](sales-how-track-packages.md)
-#### [View unposted and posted blanket sales order lines](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
-
-### Purchases
-#### [Purchase reports](purchase-reports.md)
-#### [View purchase ledger entries](purchasing-how-record-purchases.md#viewing-ledger-entries)
-
-### Inventory and warehouse
-#### [Inventory and warehouse reports](inventory-wms-reports.md)
-#### [Item availability](inventory-how-availability-overview.md)
-#### [Track items with serial, lot, and package numbers](inventory-how-work-item-tracking.md)
-#### [Trace item-tracked items](inventory-how-to-trace-item-tracked-items.md)
-#### [Audit the reconciliation between the inventory ledger and the general ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [View cross-docked items in a shipment or pick worksheet](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+### [Sales reports](sales-reports.md)
+### [Purchase reports](purchase-reports.md)
+### [Inventory and warehouse reports](inventory-wms-reports.md)
 
 ### Project
 #### [Project reports](project-reports.md)
 #### [View project usage estimates](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
 #### [Monitor project progress and performance](projects-how-monitor-progress-performance.md)
 
-### Fixed assets
-#### [Fixed assets reports](fa-reports.md)
-#### [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
-#### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
-#### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-#### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-#### [View projected disposal values](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+### [Fixed assets reports](fa-reports.md)
 
 ### Assembly management
 #### [Assembly Management Reports](assembly-reports.md)
@@ -1871,32 +1891,8 @@ ms.service: dynamics-365-business-central
 #### [Service quotes overview](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Posted service document overview](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
-## Ad-hoc data analysis
-### [Overview](reports-adhoc-analysis.md)
-### [Sort, search, and filter](ui-enter-criteria-filters.md)
-### [Search and filter FAQ](ui-search-filter-faq.yml)
-### [Analyze page data in Excel](across-work-with-excel.md)
-### [Analyze report data with Excel](report-analyze-excel.md)
-### [Analyze list and query data with analysis mode](analysis-mode.md)
-### [Financial business intelligence](bi.md)
-
-## Built-in analytics 
-### [Overview](reports-built-in-analytics.md)
-### [Intelligent insights](about-intelligent-cloud.md)
-### [Work with Power BI reports](across-working-with-powerbi.md)
-### [Financial business intelligence](bi.md)
-### [Analyze financial statements with excel](finance-analyze-excel.md)
-### [Consolidate financial data from multiple companies](finance-consolidated-company-reporting.md)
 ### [Report usage telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 
-
-## Analyze data in business intelligence tools
-### [Overview](reports-external-analysis.md)
-### [Microsoft Fabric and Business Central](admin-fabric.md)
-### [Use Power BI with Business Central](admin-powerbi.md)
-### [Analyze financial statements with Excel](finance-analyze-excel.md)
-### [Extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
-### [Read data with the Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
 
 ## Develop reports
 ### [Overview](reports-develop-reports.md)
@@ -1915,6 +1911,14 @@ ms.service: dynamics-365-business-central
 ### Develop report datasets
 #### [Report development guide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Report performance tuning guide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+## Analyze data in business intelligence tools
+### [Overview](reports-external-analysis.md)
+### [Microsoft Fabric and Business Central](admin-fabric.md)
+### [Extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Read data with the Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+### [Intelligent insights (on-premises)](about-intelligent-cloud.md)
+
 
 # Security, privacy, and compliance
 ## Security and protection
@@ -2123,6 +2127,7 @@ ms.service: dynamics-365-business-central
 ### [FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
+## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
 ## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)

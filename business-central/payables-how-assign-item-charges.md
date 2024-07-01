@@ -1,5 +1,5 @@
 ---
-title: Assign Item Charges to Sales and Purchases (contains video)
+title: Assign Item Charges to Sales and Purchases
 description: Assign item charges when you need inventory items to carry added costs, such as freight and physical handling.
 author: brentholtorf
 ms.topic: conceptual
@@ -9,6 +9,7 @@ ms.search.form: 5709, 5800, 5805, 5814
 ms.date: 11/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Use item charges to account for additional trade costs
 

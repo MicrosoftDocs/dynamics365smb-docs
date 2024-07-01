@@ -10,6 +10,7 @@ ms.date: 04/19/2024
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Understanding the General Ledger and Chart of Accounts
 

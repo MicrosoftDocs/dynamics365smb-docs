@@ -1,13 +1,14 @@
 ---
-    title: Submit electronic VAT & ICP declarations [NL]
-    description: With the eXtensible Business Reporting Language (XBRL) reporter, you can submit the ICP declaration or the VAT declaration in the required XML format.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 12/12/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: Submit electronic VAT & ICP declarations [NL]
+description: With the eXtensible Business Reporting Language (XBRL) reporter, you can submit the ICP declaration or the VAT declaration in the required XML format.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 12/12/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Submitting electronic VAT and ICP declarations in the Dutch version
 Companies must submit periodic VAT and Intracommunautaire leveringen (ICP) declarations to the tax authorities.  
@@ -21,7 +22,7 @@ For a transaction to qualify for ICP, it is required that the merchandise have c
 
 You can submit the VAT declarations and ICP declarations in the following ways:  
 
-- Sign in to the website of the Dutch tax office and enter the information manually. For more information, see the [website](https://go.microsoft.com/fwlink/?LinkID=223151) of the Dutch tax office.  
+- Sign in to the website of the Dutch tax office and enter the information manually. For more information, see the [website](https://go.microsoft.com/fwlink/?linkid=223151) of the Dutch tax office.  
 
 - Create an electronic declaration and submit the encrypted file through the Digipoort channel to the Dutch tax office. Digipoort is the electronic post office provided by the Dutch government for companies. It provides the common infrastructure for the communication of information between companies and the government, including VAT declarations. The reports are in the eXtensible Business Reporting Language (XBRL) format. For more information, see [Create Reports with XBRL](../../bi-create-reports-with-xbrl.md).
 
@@ -32,7 +33,7 @@ Before you can send electronic declarations to the tax authorities, you must per
 
     - Obtain a PKIoverheid certificate for the company if you don't have one already. A list of certificate providers can be found here: [https://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps](https://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps).  
 
-    - Register a user of Digipoort, which can be done here: [https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw](https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw).
+    - Register a user of Digipoort, which can be done here: [https://aansluiten.procesinfrastructuur.nl](https://aansluiten.procesinfrastructuur.nl).
 
     - Obtain a **Digipoort Service certificate**, which can be obtained at the Dutch Tax Administration website: [https://aansluiten.procesinfrastructuur.nl](https://aansluiten.procesinfrastructuur.nl).
 

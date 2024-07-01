@@ -3,7 +3,7 @@ title: Set Up Intercompany Transaction Posting
 description: Learn how to set up an intercompany partnership. 
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse 
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 09/27/2023
 ms.custom: bap-template
@@ -63,7 +63,7 @@ If one or more partners' [!INCLUDE [prod_short](includes/prod_short.md)] is in a
 
 * Set up [!INCLUDE [prod_short](includes/prod_short.md)] as a registered app in Azure portal.
 * Add and enable the app registration in [!INCLUDE [prod_short](includes/prod_short.md)].
-* Exchange information about their intercompany setups. Each partner can get this information from the **IC Partner Cross-Environment Setup** assisted setup guide.
+* Exchange information about their intercompany setups. Each partner can get this information from the **Intercompany Setup**, **Actions**, **Connection Details**.
 
    |Copy from the partner's setup  |Copy to your setup  |
    |---------|---------|
@@ -79,14 +79,14 @@ If one or more partners' [!INCLUDE [prod_short](includes/prod_short.md)] is in a
   * Token endpoint
   * Redirect URL
 
-Run the **IC Partner Cross-Environment Setup** assisted setup guide in all companies to specify the information. To start the guide, on the **Intercompany Partner** page, use the **Connect Externally Setup** action.
+Run the  **Intercompany Setup**, **Actions**, **Connection Details** in all companies to specify the information. 
 
 #### Create a registered app in Azure portal
 
 This process is only necessary if you want to connect with a partners whose [!INCLUDE [prod_short](includes/prod_short.md)] is in a different tenant or environment.
 
 > [!TIP]
-> It's a good idea to have a text editor open, such as Notepad, while you create your registered app. You'll need some of the information when you run the **IC Partner Cross-Environment Setup** assisted setup guide, so it's nice to have the information handy.
+> It's a good idea to have a text editor open, such as Notepad, while you create your registered app. You'll need some of the information when you run the **Intercompany Setup**, **Actions**, **Connection Details**, so it's nice to have the information handy.
 
 1. Go to [Azure portal](https://portal.azure.com/#home).
 2. Choose the **Microsoft Entra ID** service.
@@ -126,7 +126,7 @@ This process is only necessary if you want to connect with a partners whose [!IN
 2. Fill in the fields as necessary. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 3. In the **State** field, choose **Enabled**. 
 4. Choose the **Grant Consent** action. 
-5. In the **Permission Set** field, choose **API - Cross Environment Intercompany** permission set.
+5. In the **Permission Set** field, choose **D365 INTERCOMPANY CE & DATA ACCESS IC CE** permission sets.
 
 ## Set up the intercompany charts of accounts
 

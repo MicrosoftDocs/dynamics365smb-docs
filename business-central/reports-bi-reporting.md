@@ -40,7 +40,7 @@ The Financial Reports feature gives you insight into the financial data stored i
 
 :::image type="content" source="media/acc_schedule_13_columns.jpg" alt-text="Screenshot of a financial report." lightbox="media/acc_schedule_13_columns.jpg":::
 
-Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis. Among other purposes, you use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
+Dimensions play an important role in business intelligence. A dimension is data that you can add to an entry as a parameter. Dimensions let you group entries that have similar characteristics. For example, groups of customers, regions, products, and salesperson. Groups make it easier to retrieve data for analysis. Among other purposes, you use dimensions when you define analysis views and create financial reports. Learn more at [Work with Dimensions](finance-dimensions.md).
 
 To learn more about financial statements and KPIs, go to [Using Financial reporting to produce financial statements and KPIs](bi.md).
 
@@ -61,7 +61,7 @@ To learn more about KPIs, go to [Using key performance indicators to meet your b
 
 ## Ad-hoc data analysis
 
-Sometimes you might just want to check whether the numbers add up correctly, quickly confirm or debunk a hypothesis about the business, or maybe look for anomalies in your financial data. For ad-hoc analyses, you might not have a built-in report that helps answer your questions. For ad-hoc analyses, use these two features:
+You might just want to check whether the numbers add up correctly, quickly confirm or debunk a hypothesis about the business, or maybe look for anomalies in your financial data. For ad-hoc analyses, you might not have a built-in report that helps answer your questions. For ad-hoc analyses, use these two features:
 
 - Data analysis on ledger list pages
 - Open in Excel
@@ -77,7 +77,7 @@ Similarly, you can use the **Open in Excel** action to open a list page, optiona
 > [!TIP]
 > If you configure OneDrive for system features, the Excel workbook opens in your browser by using Excel for the web.
 
-To learn more about ad-how analyses, go to [Ad-hoc data analysis](reports-adhoc-analysis.md).
+To learn more about ad-how analyses, go to [Ad hoc data analysis](reports-adhoc-analysis.md).
 
 ## Reports
 
@@ -93,7 +93,7 @@ For aged accounts receivables, [!INCLUDE[prod_short](includes/prod_short.md)] al
 
 [!INCLUDE[prod_short](includes/prod_short.md)] comes with more than 300 built-in reports that you can use to support your business processes with data-driven insights. To get a quick overview of all the reports that are available for your role, you can open the report explorer from the role center and all list pages and from **Tell Me**.
 
-:::image type="content" source="media/report-explorer-finance.png" alt-text="Example of how the report explorer show all reports for a role." lightbox="media/report-explorer-finance.png":::
+:::image type="content" source="media/report-explorer-finance.png" alt-text="Example of how the report explorer shows all reports for a role." lightbox="media/report-explorer-finance.png":::
 
 To learn more about using the report explorer to see all built-in reports, go to [Exploring reports per Role](ui-role-explorer.md).
 
@@ -107,7 +107,7 @@ The following table lists articles about how to use built-in reports in [!INCLUD
 
 ## External business intelligence and reporting tools
 
-If you prefer to use business intelligence tools that aren't embedded in [!INCLUDE[prod_short](includes/prod_short.md)], the following table provides links to guidance on tools and ways to use external tools.
+If you prefer, you can use business intelligence tools that aren't embedded in [!INCLUDE[prod_short](includes/prod_short.md)]. The following table provides links to guidance and ways to use external tools.
 
 | To  | See |
 | --- | --- |
@@ -116,6 +116,18 @@ If you prefer to use business intelligence tools that aren't embedded in [!INCLU
 | Extract data to data warehouses or data lakes| [How to extract data to data warehouses or data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses) |
 | Analyze Business Central data with Microsoft Fabric| [Introduction to Microsoft Fabric and Business Central](admin-fabric.md) |
 | Read data from Business Central using APIs | [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
+
+## Analytics by functional area
+
+The content in this general article is also available in special versions for many functional areas in [!INCLUDE[prod_short](includes/prod_short.md)].
+
+| If you work with... | See |
+| --- | --- |
+| Finance | [Financial analytics](bi.md) |
+| Sales | [Sales analytics](sales-analytics-overview.md) |
+| Purchasing | [Purchasing analytics](purchasing-analytics-overview.md) |
+| Fixed Assets Management | [Fixed assets analytics](fa-analytics-overview.md) |
+
 
 ## See also
 

@@ -8,6 +8,7 @@ ms.search.keywords:
 ms.date: 04/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # External document numbers on purchase documents
 

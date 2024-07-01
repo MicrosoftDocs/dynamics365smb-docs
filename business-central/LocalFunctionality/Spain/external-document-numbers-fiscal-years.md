@@ -1,16 +1,16 @@
 ---
-    title: External Document Numbers and Fiscal Years (ES)
-    description: Setup option to decide if it should be possible to reuse External Document Numbers across fiscal years in the Spanish version of Business Central.
-    author: sorenfriisalexandersen
+title: External Document Numbers and Fiscal Years (ES)
+description: Setup option to decide if it should be possible to reuse External Document Numbers across fiscal years in the Spanish version of Business Central.
+author: sorenfriisalexandersen
 
     
-    ms.topic: conceptual
-    ms.reviewer: bholtorf
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: soalex
+ms.topic: conceptual
+ms.reviewer: bholtorf
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: soalex
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
 ---
 # Use the same External Document Numbers across fiscal years
 

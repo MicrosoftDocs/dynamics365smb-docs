@@ -3,10 +3,10 @@ title: Set Up Universal Print Printers #Required; page title displayed in search
 description: Learn how you can use Universal Print to provide cloud printing in Business Central. #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
 author: jswymer #Required; your GitHub user alias, with correct capitalization.
 ms.author: jswymer #Required; your Microsoft alias; optional team alias.
-ms.reviewer: jswymer #Required; Microsoft alias of content publishing team member.
-ms.service: dynamics-365-business-central #Required; per approved Microsoft taxonomy (https://taxonomy.docs.microsoft.com/TaxonomyServiceAdminPage/#/taxonomy/detail/2022-04-07T09:00:02.5587920Z!a892accc-6925-4c06-8723-fb5e30ba7ca3/product).
-ms.topic: how-to #Required; don't change.
-ms.date: 01/26/2023
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.topic: how-to
+ms.date: 06/14/2024
 ms.custom: bap-template #Required; don't change.
 ---
 

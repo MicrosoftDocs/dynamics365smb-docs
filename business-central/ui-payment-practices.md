@@ -8,6 +8,7 @@ ms.search.keywords: payment, practices, vendor, customer, report
 ms.search.form: 686, 687, 689 
 ms.date: 04/23/2024
 ms.author: altotovi
+ms.reviewer: bholtorf
 --- 
 
 # Payment practices report  

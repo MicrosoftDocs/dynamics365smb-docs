@@ -95,22 +95,17 @@ If your processes don't match the standard model, you can use the extension but 
 
 ## <a name="AnchorText"> </a>Create and use your own predictive web service for late payment prediction
 
-You can also create your own predictive web service based on a public model named **Prediction Experiment for Dynamics 365 Business Central**. This predictive model is available online in the Azure AI Gallery. To use the model, follow these steps:  
+For [!INCLUDE[prod_short](includes/prod_short.md)] online, the model is published by Microsoft and connected to the Microsoft subscription. For other deployment options, you have to create Machine Learning resources in your own Azure subscription. You can find sample steps in the [sample repo](https://github.com/microsoft/BCTech/tree/master/samples/MachineLearning). The purpose of this task is to get the API URI and API key.
 
-1. Open a browser and go to the [Azure AI Gallery](https://go.microsoft.com/fwlink/?linkid=2086310).  
-2. Search for **Prediction Experiment for Dynamics 365 Business Central**, and then open the model in Azure Machine Learning studio.  
-3. Use your Microsoft account to sign up for a workspace, and then copy the model.  
-4. Run the model, and publish it as a web service.  
-5. Make a note of the API URL and API key. You will use these credentials for a cash flow setup.  
-6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
-7. Choose the **Use My Azure Subscription** check box.
-8. On the **My Model Credentials** FastTab, enter the API URL and API key for your model.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
+2. Choose the **Use My Azure Subscription** check box.
+3. On the **My Model Credentials** FastTab, enter the API URL and API key for your model.  
 
 ## See also
 
-[Azure Machine Learning studio Documentation](/azure/machine-learning/classic/)  
 [Customizing Business Central Using Extensions](ui-extensions.md)  
 [Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)  
 [Use Artificial Intelligence in Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
+[Prediction API overview](/dynamics365/business-central/dev-itpro/developer/ml-prediction-api-overview)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

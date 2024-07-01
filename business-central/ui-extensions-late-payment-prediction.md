@@ -1,17 +1,17 @@
 ---
-title: Predict Late Payments for Sales Documents
-description: This article explains how to use our predictive model to predict whether an invoice will be paid on time.
+title: Predict late payments for sales documents
+description: This article explains how to use our predictive model to predict whether a customer will pay an invoice on time.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.search.form: 1950, 1951, 
-ms.date: 12/06/2023
+ms.date: 07/01/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# The Late Payment Prediction Extension
+# The Late Payment Prediction extension
 
 Effectively managing receivables is important to the overall financial health of a business. To reduce outstanding receivables and help you fine-tune your collections strategy, the extension predicts whether to expect late payments. For example, if a payment is predicted to be late, you might decide to adjust the terms of payment or the payment method for the customer.
 
@@ -36,7 +36,7 @@ If you enable the extension, a **Payments Predicted to be Late** tile is availab
 * **Prediction Confidence %** - Shows the actual percentage behind the confidence rating. By default, this column is hidden, but you can add it if you want. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 > [!TIP]
-> The Customer Ledger Entries page shows a FactBox on the right. While you're reviewing predictions, the information in the **Customer Details** section can be helpful. When you choose the invoice in the list, the section shows information about the customer. It also lets you take immediate action. For example, if a customer frequently misplaces their wallet, you can open the Customer card from the FactBox and block the customer for future sales.  
+> The Customer Ledger Entries page shows a FactBox. While you're reviewing predictions, the information in the **Customer Details** section can be helpful. When you choose the invoice in the list, the section shows information about the customer. It also lets you take immediate action. For example, if a customer frequently misplaces their wallet, you can open the Customer card from the FactBox and block the customer for future sales.  
 
 ## Design details
 
@@ -57,9 +57,9 @@ These web services are stateless, meaning they use data only to calculate predic
 
 For each **Customer ledger entry** that has a related **Posted Sales Invoice**:
 
-* Amount (LCY) including tax
+* Amount in local currency, including tax
 * Payment terms in days are calculated as **Due Date** minus **Posting Date**
-* Whether there is an applied credit memo
+* Whether there's an applied credit memo
 
 Additionally, the record has aggregated data from other invoices that are related to the same customer.
 
@@ -80,7 +80,7 @@ Additionally, the record has aggregated data from other invoices that are relate
 
 The Late Payment Prediction extension's predictive model is trained on data that represents a range of small to medium-sized businesses. When you start posting invoices and receiving payments, [!INCLUDE[prod_short](includes/prod_short.md)] evaluates whether the standard model fits your business flow.
 
-If your processes don't match the standard model, you can use the extension but you'll need to get more data. Just continue to use [!INCLUDE[prod_short](includes/prod_short.md)].
+If your processes don't match the standard model, you can use the extension but you need to get more data. Just continue to use [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
 > We use a bit of your compute time each week when we evaluate and re-train the model.

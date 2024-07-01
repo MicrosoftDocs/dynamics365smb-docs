@@ -1,12 +1,12 @@
 ---
-title: Using the Sales and Inventory Forecast extension to manage inventory | Microsoft Docs
+title: Using the Sales and Inventory Forecast extension to manage inventory
 description: This extension helps you predict sales, get a clear overview of expected stock-outs, and even helps you create replenishment requests to vendors.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: app, add-in, manifest, customize, budget
 ms.search.form: 1850, 1851, 1853, 
-ms.date: 12/13/2023
+ms.date: 07/01/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -27,7 +27,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], the connection to [Azure AI](
 
 The extension uses Azure AI to predict future sales based on your sales history to help you avoid inventory shortage. For example, when you choose an item on the **Items** page, the chart in the **Item Forecast** pane shows the estimated sales of this item in the coming period. This way you can see if you're likely to run out of stock of the item soon.  
 
-You can also use the extension to suggest when to stock up on inventory. For example, if you create a purchase order for Fabrikam because you want to buy their new desk chair, the Sales and Inventory Forecast extension suggest that you also restock on the LONDON swivel chair that you usually buy from this vendor. This is because the extension forecasts that you run out of stock of the LONDON swivel chair in the coming two months, so you might want to order more chairs already now.  
+You can also use the extension to suggest when to stock up on inventory. For example, you might create a purchase order for Fabrikam to buy their new desk chair. The Sales and Inventory Forecast extension might suggest that you also restock on the LONDON swivel chair that you usually buy from this vendor. The extension can forecast that you'll soon run out of stock of the LONDON swivel chair, so you might order more chairs already now.  
 
 ## Design details
 
@@ -45,11 +45,11 @@ To make predictions about future sales, the web service requires quantitative da
 - The entry type is "Sale."
 - The posting date is between the date that is calculated based on the values in the **Historical Periods** and **Period Type** fields on the **Sales and Inventory Forecast Setup** page and the work date.
 
-Before using the web service [!INCLUDE[prod_short](includes/prod_short.md)] compresses transactions by **Item No.** and **Posting Date** based on the value in the **Period Type** field in the **Sales and Inventory Forecast Setup** page.
+Before is uses the web service, [!INCLUDE[prod_short](includes/prod_short.md)] compresses transactions by **Item No.** and **Posting Date** based on the value in the **Period Type** field in the **Sales and Inventory Forecast Setup** page.
 
 ## <a name="AnchorText"> </a>Create and use your own predictive web service for sales and inventory forecasts
 
-For [!INCLUDE[prod_short](includes/prod_short.md)] online, the model is published by Microsoft and connected to the Microsoft subscription. For other deployment options, you have to create Machine Learning resources in your own Azure subscription. You can find sample steps in the [sample repo](https://github.com/microsoft/BCTech/tree/master/samples/MachineLearning). The purpose of this task is to get the API URI and API key.
+For [!INCLUDE[prod_short](includes/prod_short.md)] online, the model is published by Microsoft and connected to the Microsoft subscription. For other deployment options, you must create Machine Learning resources in your own Azure subscription. You can find sample steps in the [sample repo](https://github.com/microsoft/BCTech/tree/master/samples/MachineLearning). The purpose of this task is to get the API URI and API key.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales and Inventory Forecast Setup**, and then choose the related link.  
 2. Expand the **General** FastTab, and then fill in the API URL and API key fields.  

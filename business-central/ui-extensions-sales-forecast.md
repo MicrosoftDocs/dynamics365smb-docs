@@ -49,15 +49,10 @@ Before using the web service [!INCLUDE[prod_short](includes/prod_short.md)] comp
 
 ## <a name="AnchorText"> </a>Create and use your own predictive web service for sales and inventory forecasts
 
-You can also create your own predictive web service based on a public model named **Forecasting model for Microsoft Business Central**. This predictive model is available online in the Azure AI Gallery. To use the model, follow these steps:  
+For [!INCLUDE[prod_short](includes/prod_short.md)] online, the model is published by Microsoft and connected to the Microsoft subscription. For other deployment options, you have to create Machine Learning resources in your own Azure subscription. You can find sample steps in the [sample repo](https://github.com/microsoft/BCTech/tree/master/samples/MachineLearning). The purpose of this task is to get the API URI and API key.
 
-1. Open a browser and go to the [Azure AI Gallery](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Search for **Forecasting Model for Microsoft Business Central**, and then open the model in Azure Machine Learning Studio.  
-3. Use your Microsoft account to sign up for a workspace, and then copy the model.  
-4. Run the model, and publish it as a web service.  
-5. Make a note of the API URL and API key. You use these credentials for a cash flow setup.  
-6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales and Inventory Forecast Setup**, and then choose the related link.  
-7. Expand the **General** FastTab, and then fill in the API URL and API key fields.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales and Inventory Forecast Setup**, and then choose the related link.  
+2. Expand the **General** FastTab, and then fill in the API URL and API key fields.  
 
 ## See also
 
@@ -65,5 +60,6 @@ You can also create your own predictive web service based on a public model name
 [Inventory](inventory-manage-inventory.md)  
 [Customizing [!INCLUDE[prod_short](includes/prod_short.md)] Using Extensions](ui-extensions.md)  
 [Use Artificial Intelligence in Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
+[Forecasting API overview](/dynamics365/business-central/dev-itpro/developer/ml-forecasting-api-overview)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -21,6 +21,9 @@ ms.reviewer: bholtorf
 3. On the **Transaction Mode Card** page, on the **Paym. Proposal** FastTab, in the **Export Protocol** field, select the SEPA export protocol that you have created, such as **SEPA ISO20022**.  
 4. Choose the **OK** button.  
 
+> [!NOTE]
+> If you want to use **SEPA DD 008.001.08** and **SEPA CT Pain 001.001.09**, you need to set up new reports **11000015** for Pain 008.001.08" and **11000014** for Pain 001.001.09" that can be chosen as **Export Protocols** to export files in the corresponding formats.  
+
 ## To verify vendor payment transaction modes for SEPA  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  

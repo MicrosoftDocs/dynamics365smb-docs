@@ -17,7 +17,7 @@ When you interact with the Business Central web client to optimize your workspac
 - Local personalization is stored in your browser and only affects your experience when using different browser tabs in that same browser. It does not affect your Business Central experience on other devices, browsers, or browser profiles. UI adjustments that are saved locally are typically those that users frequently do and redo as they work in Business Central. Clearing your browser history may discard and reset any local personalization.  
 
 > [!TIP]
-> Clearing your browser history permanently deletes any local personalization. To avoid deleting local personalization, you can uncheck… <ADD BASED ON EDGE BROWSER> 
+> Clearing your browser history permanently deletes any local personalization. To avoid deleting local personalization, you can uncheck… <ADD BASED ON EDGE BROWSER> https://support.google.com/chrome/answer/2392709?hl=en&co=GENIE.Platform=Desktop#zippy=%2Cdata-that-can-be-deleted
 
 The following table indicates which UI adjustments are local or roaming. 
 

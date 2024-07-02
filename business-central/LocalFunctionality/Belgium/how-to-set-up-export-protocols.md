@@ -24,6 +24,7 @@ Before you can use electronic banking, you must set up export protocols. Export 
 |2000003 Check International Payments|Report 2000002 File International Payments|  
 |2000004 Check SEPA Payments|Report 2000005 File SEPA Payments|  
 |2000005 Check Non Euro SEPA Payments|Report 2000006 File Non Euro SEPA Payments|  
+|2000007 Check SEPA 001.001.09 Payments|Report 2000008 File FCY SEPA 001.001.09 Payments|
 |If you do not want this option, set it to zero; otherwise, select another option.|XMLport 1000 (SEPA pain.001.001.03 Payments)|  
 
  After you have set up export protocols, you can use them in your electronic banking payment journals.  

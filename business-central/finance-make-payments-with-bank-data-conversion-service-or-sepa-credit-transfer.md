@@ -40,6 +40,8 @@ Before you can process payment electronically by exporting payment files in the 
 * Set up the related general journal batch to enable payment export from the **Payment Journal** page  
 * Connect the data exchange definition for one or more payment types with the relevant payment method or methods  
 
+> [!NOTE]
+> Business Central supports both SEPA format CT pain.001.001.03 and CT pain.001.001.09. User can configure which one wants to use on the **Bank Account** card.  
 > [!TIP]
 > This article applies to the generic version of [!INCLUDE [prod_short](includes/prod_short.md)]. In your country or region, additional required fields may have been added to the various pages. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
@@ -47,7 +49,7 @@ Before you can process payment electronically by exporting payment files in the 
 
 1. In the **Search** box, enter **Bank Accounts**, and then choose the related link.  
 2. Open the card of the bank account from which you will export payment files in the SEPA Credit Transfer format.  
-3. On the **Transfer** FastTab, in the **Payment Export Format** field, choose **SEPACT**.  
+3. On the **Transfer** FastTab, in the **Payment Export Format** field, choose the SEPA format you want to use.  
 4. On the **General** FastTab, in the **Credit Transfer Msg. Nos.** field, choose a number series from which numbers are assigned to SEPA credit transfer entries.  
 5. Make sure the **IBAN** field is filled.  
 

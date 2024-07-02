@@ -23,7 +23,10 @@ You can set up standard customer sales codes with the direct-debit payment metho
 When payments are successfully processed, as communicated by your bank, you can post the payment receipts either directly from the **Direct Debit Collect. Entries** page or by moving the payment lines to the journal where you post payment receipts, such as the **Cash Receipt Journal** page. Alternatively, depending on your cash management process, you can wait and just apply the payments as a part of bank reconciliation.  
 
 > [!NOTE]  
-> To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.  
+> To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.
+
+> [!NOTE]
+> Business Central supports both SEPA DD pain.008.001.02 and DD pain.008.001.08. User can configure which one wants to use on the **Bank Account** card.  
 
 ## Setting Up SEPA Direct Debit
 

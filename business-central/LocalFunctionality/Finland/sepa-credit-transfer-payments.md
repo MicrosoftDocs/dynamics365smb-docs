@@ -15,7 +15,7 @@ ms.reviewer: bholtorf
 [!INCLUDE[prod_short](../../includes/prod_short.md)] includes Finnish enhancements to allow you to create Single Euro Payments Area (SEPA) credit transfer files to send vendor payments to banks. A SEPA credit transfer is a payment that is transferred according to the file format specified by the European Payments Commission.  
 
 > [!NOTE]
-> Users have the option to use new SEPA formats. To do this, the user needs to use a new codeunit **13413** "Exp. SEPA CT pain.001.001.09" and report **13413** "Exp. SEPA CT pain.001.001.09" that can export files in a new format.  
+> Users have the option to use new SEPA formats. To do this, the user needs to use a new codeunit *13413* "Exp. SEPA CT pain.001.001.09" and report *13413* "Exp. SEPA CT pain.001.001.09" that can export files in a new format.  
 
 ## See also
 

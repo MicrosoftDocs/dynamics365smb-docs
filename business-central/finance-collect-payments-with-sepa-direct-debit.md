@@ -26,7 +26,7 @@ When payments are successfully processed, as communicated by your bank, you can 
 > To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.
 
 > [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)] supports both SEPA DD pain.008.001.02 and DD pain.008.001.08. You can choose any format on the **Bank Account Card**.  
+> [!INCLUDE[prod_short](includes/prod_short.md)] supports both SEPA DD pain.008.001.02 and DD pain.008.001.08. You can choose any format on the **Bank Account Card** page.  
 
 ## Setting Up SEPA Direct Debit
 

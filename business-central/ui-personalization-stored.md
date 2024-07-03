@@ -11,9 +11,9 @@ ms.date: 07/02/2024
 
 # Where is personalization stored?
 
-When you interact with the Business Central web client to optimize your workspace, some UI adjustments are automatically saved and roam with you across devices and browsers, while others only affect your current browser. 
+When you interact with the Business Central web client to optimize your workspace, some UI adjustments are automatically saved and roam with you across devices and browsers, while others only affect your current browser.
 
-- Roaming personalization is stored in the Business Central service, and affects your experience no matter which device or browser you sign into. Personalizing in one browser or device immediately affects other browsers or devices that you use. Roaming personalization is typically infrequent, more permanent, or time-consuming to recreate. Roaming settings can only be reset by clearing personalization from the Business Central web client. 
+- Roaming personalization is stored in the Business Central service, and affects your experience no matter which device or browser you sign into. Personalizing in one browser or device immediately affects other browsers or devices that you use. Roaming personalization is typically infrequent, more permanent, or time-consuming to recreate. Roaming settings can only be reset by clearing personalization from the Business Central web client.
 - Local personalization is stored in your browser and only affects your experience when using different browser tabs in that same browser. It doesn't affect your Business Central experience on other devices, browsers, or browser profiles. UI adjustments that are saved locally are typically those adjustments that users frequently do and redo as they work in Business Central. Clearing your browser history might discard and reset any local personalization.  
 
 > [!TIP]
@@ -23,7 +23,7 @@ The following table indicates which UI adjustments are local or roaming.
 
 |UI Element|Options|Roaming|Local|
 |-|-|-|-|
-|Fields|Re-order or move to another group|X||
+|Fields|Reorder or move to another group|X||
 ||Hide or show|X||
 ||Add or remove|X||
 ||Lock or unlock editing|X||

@@ -2,13 +2,13 @@
 title: Integrating with Dynamics 365 Sales
 description: Learn how to get Dynamics 365 Business Central ready to integrate with Dynamics 365 Sales.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 12/15/2023
-ms.author: bholtorf
+ms.date: 07/02/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
 ---
 # Integrating with Dynamics 365 Sales
 
@@ -17,7 +17,7 @@ ms.reviewer: bholtorf
 The sales person role is often considered as one the most outward-facing jobs in a business. However, it can be helpful for sales people to be able to look inward in the business and see what is happening on the back end. By integrating [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[crm_md](includes/crm_md.md)], you can give your sales people that insight. The integration will let people view information in [!INCLUDE[prod_short](includes/prod_short.md)] while they're working in [!INCLUDE[crm_md](includes/crm_md.md)]. For example, when preparing a sales quote it could be useful to know whether you have enough inventory to fulfill the order. For more information, see [Use Dynamics 365 Sales from Business Central](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
-> This topic describes the process of integrating the online versions of [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)] through [!INCLUDE[prod_short](includes/cds_long_md.md)]. For information about on-premises configuration, see [Preparing Dynamics 365 Sales for Integration on-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> This article describes the process of integrating the online versions of [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[prod_short](includes/prod_short.md)] through [!INCLUDE[prod_short](includes/cds_long_md.md)]. For information about on-premises configuration, see [Preparing Dynamics 365 Sales for Integration on-premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 ## Integrate through Dataverse
 
@@ -63,6 +63,9 @@ You can use an assisted setup guide to quickly set up the connection and specify
 |**Enable Dynamics 365 Sales Connection** | Enable the connection to [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Dynamics 365 SDK Version** | This is relevant only if you're integrating with an on-premises version of [!INCLUDE[crm_md](includes/crm_md.md)]. This SDK is the Dynamics 365 software development kit (also referred to as Xrm) you use to connect [!INCLUDE[prod_short](includes/prod_short.md)] to [!INCLUDE[crm_md](includes/crm_md.md)]. The version must be compatible with the SDK version that is used by [!INCLUDE[crm_md](includes/crm_md.md)], and equal to or newer than the version used by [!INCLUDE[crm_md](includes/crm_md.md)]. |
 |**Bidirectional Synch of Sales Orders**|Synchronize sales orders in both directions. To learn more about this option, go go [Single and bi-directional synchronization of sales orders](#single-and-bi-directional-synchronization-of-sales-orders).<br><br>**Note:** You can't use this option if you use the **Enable Legacy Sales Order Integration** option. The two settings are mutually exclusive.|
+
+> [!TIP]
+> If you also want to integrate with Microsoft Dynamics 365 Field Service, the guide provides an optional step that can help. To learn more about integrating with Field Service, go to [Integrate with Microsoft Dynamics 365 Field Service](admin-integrate-field-service.md).
 
 ### Connection settings on the Microsoft Dynamics 365 Connection Setup page
 

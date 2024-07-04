@@ -6,24 +6,27 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 371, 423, 424, 427, 1208, 1207, 1230
-ms.date: 02/20/2024
+ms.date: 07/03/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Collect Payments with SEPA Direct Debit
+# Collect payments with SEPA Direct Debit
 
 With your customer's consent, you can collect payments directly from the customer's bank account according to the SEPA format.  
 
 First, set up the export format of the bank file that instructs your bank to perform a direct debit. Then, set up the customer's payment method. Last, set up the direct-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.  
 
-To instruct the bank to transfer the payment amount from the customer's bank account to your company's account, you create a direct-debit collection entry, which holds information about bank accounts, the affected sales invoices, and the direct-debit mandate. You then export an XML file that is based on the collection entry, which you send to your bank for processing. Any payments that could not be processed will be communicated to you by your bank, and you must then manually reject the direct debit-collection entries in question.  
+To instruct the bank to transfer the payment amount from the customer's bank account to your company's account, you create a direct-debit collection entry, which holds information about bank accounts, the affected sales invoices, and the direct-debit mandate. You then export an XML file that is based on the collection entry, which you send to your bank for processing. Any payments that couldn't be processed will be communicated to you by your bank, and you must then manually reject the direct debit-collection entries in question.  
 
 You can set up standard customer sales codes with the direct-debit payment method and mandate information. You can then use the **Create Standard Cust. Invoices** batch job to generate multiple sales invoices with the direct-debit information prefilled. This is can be done manually or automatically, according to the payment due date.  
 
 When payments are successfully processed, as communicated by your bank, you can post the payment receipts either directly from the **Direct Debit Collect. Entries** page or by moving the payment lines to the journal where you post payment receipts, such as the **Cash Receipt Journal** page. Alternatively, depending on your cash management process, you can wait and just apply the payments as a part of bank reconciliation.  
 
 > [!NOTE]  
-> To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.  
+> To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.
+
+> [!NOTE]
+> [!INCLUDE[prod_short](includes/prod_short.md)] supports both SEPA DD pain.008.001.02 and DD pain.008.001.08. You can choose any format on the **Bank Account Card** page.  
 
 ## Setting Up SEPA Direct Debit
 
@@ -32,7 +35,7 @@ From the **Direct Debit Collections** page, you can export instructions to your 
 > [!NOTE]
 > The global version of [!INCLUDE[prod_short](includes/prod_short.md)] supports the SEPA direct debit format only. Your country/region version may support other formats for electronic payment. See under **Local Functionality** in the table of contents.  
 
-To enable export of a bank file formats that are not supported out of the box in [!INCLUDE[prod_short](includes/prod_short.md)], you can set up a data exchange definition by using the data exchange framework. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
+To enable export of a bank file format that aren't supported out of the box in [!INCLUDE[prod_short](includes/prod_short.md)], you can set up a data exchange definition by using the data exchange framework. For more information, see [Set Up Data Exchange Definitions](across-how-to-set-up-data-exchange-definitions.md).  
 
 Before you can process customer payments electronically by exporting direct debit instructions in the SEPA Direct Debit format, you must perform the following setup steps:  
 
@@ -83,7 +86,7 @@ Before you can process customer payments electronically by exporting direct debi
     |**Sequence Type**|Specify if the agreement covers multiple (**Recurring**) or a single (**One Off**) direct debit collection.|  
     |**Expected Number of Debits**|Specify how many direct debit collections you expect to make. This field is only relevant if you selected **Recurring** in the **Sequence Type** field.|  
     |**Debit Counter**|Specifies how many direct debit collections have been made using this direct\-debit mandate. This field is automatically updated.|  
-    |**Blocked**|Specify that direct debit collections cannot be made using this direct\-debit mandate.|  
+    |**Blocked**|Specify that direct debit collections can't be made using this direct\-debit mandate.|  
 
 6. Repeat steps 1 through 5 for all customers that you want to set up for SEPA direct debits.  
 
@@ -91,7 +94,7 @@ Before you can process customer payments electronically by exporting direct debi
 
 ## Creating SEPA Direct Debit Collection Entries and Export to a Bank File
 
-To instruct the bank to transfer the payment amount from the customer's bank account to your company's account, you create a direct-debit collection, which holds information about the customer's bank account, the affected sales invoices, and the direct-debit mandate. From the resulting direct-debit collection entry, you then export an XML file that you send or upload to your electronic bank for processing. Any payments that could not be processed by the bank will be communicated to you by your bank, and you must then manually reject the direct debit-collection entries in question.  
+To instruct the bank to transfer the payment amount from the customer's bank account to your company's account, you create a direct-debit collection, which holds information about the customer's bank account, the affected sales invoices, and the direct-debit mandate. From the resulting direct-debit collection entry, you then export an XML file that you send or upload to your electronic bank for processing. Any payments that couldn't be processed by the bank will be communicated to you by your bank, and you must then manually reject the direct debit-collection entries in question.  
 
  > [!NOTE]  
  > To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.  
@@ -107,7 +110,7 @@ To instruct the bank to transfer the payment amount from the customer's bank acc
     |**From Due Date**|Specify the earliest payment due date on sales invoices that you want to create a direct-debit collection for.|  
     |**To Due Date**|Specify the latest payment due date on sales invoices that you want to create a direct-debit collection for.|  
     |**Partner Type**|Specify if the direct-debit collection is made for customers of type **Company** or **Person**.|  
-    |**Only Customers With Valid Mandate**|Specify if a direct-debit collection is created for customers who have a valid direct-debit mandate. **Note:**  A direct-debit collection is created even if the **Direct Debit Mandate ID** field is not filled on the sales invoice.|  
+    |**Only Customers With Valid Mandate**|Specify if a direct-debit collection is created for customers who have a valid direct-debit mandate. **Note:**  A direct-debit collection is created even if the **Direct Debit Mandate ID** field isn't filled on the sales invoice.|  
     |**Only Invoices With Valid Mandate**|Specify if a direct-debit collection is only created for sales invoices if a valid direct-debit mandate is selected in the **Direct Debit Mandate ID** field on the sales invoice.|  
     |**Bank Account No.**|Specify which of your company's bank accounts the collected payment will be transferred to from the customer's bank account.|  
     |**Bank Account Name**|Specifies the name of the bank account that you select in the **Bank Account No.** field. This field is filled automatically.|  
@@ -124,11 +127,11 @@ A direct-debit collection is added to the **Direct Debit Collections** page, and
 
       On the **Direct Debit Collect. Entries** page, the **Direct Debit Collection Status** field is changed to File Created. On the **SEPA Direct Debit Mandates** page, the **Debit Counter** field is updated with one count.  
 
- If the exported file cannot be processed, for example because the customer is insolvent, you can reject the direct-debit collection entry. If the exported file is successfully processed by the bank, the due payments of the involved sales invoices are automatically collected from the involved customers. In that case you can close the collection.  
+ If the exported file can't be processed, for example because the customer is insolvent, you can reject the direct-debit collection entry. If the exported file is successfully processed by the bank, the due payments of the involved sales invoices are automatically collected from the involved customers. In that case you can close the collection.  
 
 ### To reject a direct-debit collection entry  
 
-* On the **Direct Debit Collect. Entries** page, select the entry that was not successfully processed, and then choose the **Reject Entry** action.  
+* On the **Direct Debit Collect. Entries** page, select the entry that wasn't successfully processed, and then choose the **Reject Entry** action.  
 
     The value in the **Status** field on the **Direct Debit Collect. Entries** page is changed to **Rejected**.  
 
@@ -158,11 +161,11 @@ You can post the payment receipt directly from the **Direct Debit Collections** 
     |**Direct Debit Collection No.**|Specify the direct debit collection that you want to post payment receipt for.|  
     |**General Journal Template**|Specify which general journal template to use for posting the payment receipt, such as the template for cash receipts.|  
     |**General Journal Batch Name**|Specify which general journal batch to use for posting the payment receipt.|  
-    |**Create Journal Only**|Select this check box if you do not want to post the payment receipt when you choose the **OK** button. The payment receipt will be prepared in the specified journal and will not be posted until someone posts the journal lines in question.|  
+    |**Create Journal Only**|Select this check box if you don't want to post the payment receipt when you choose the **OK** button. The payment receipt will be prepared in the specified journal and won't be posted until someone posts the journal lines in question.|  
 
 5. Choose the **OK** button.
 
-## See Also
+## See also
 
 [Managing Receivables](receivables-manage-receivables.md)  
 [Service Management](service-service.md)

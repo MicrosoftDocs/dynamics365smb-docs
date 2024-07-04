@@ -4,7 +4,7 @@ description: The following articles provide descriptions of the local functional
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 02/05/2024
+ms.date: 07/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf

@@ -51,7 +51,7 @@ Centralized Deployment is a feature in Microsoft 365 admin center that you use t
 
 - A Microsoft 365 subscription  
 - Users are assigned a Microsoft 365 license  
-- Your Microsoft 365 account has the *Global Administrator* or *Exchange Administrator* role
+- Your Microsoft 365 account has at least the [Exchange Administrator](/entra/identity/role-based-access-control/permissions-reference#exchange-administrator] role
 
 ### Deploy the add-in
 

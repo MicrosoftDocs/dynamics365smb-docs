@@ -31,8 +31,8 @@ The sales order taker agent offers various capabilities that help manage heavy, 
 
 ## What is the intended use of the sales order taker agent?
 
-- **Increase the speed of sales order data entry by finding product:** Intended to answer users' inquiries to find product based on vague, incomplete, or non-accurate description.
-- **Increase the speed of Sales Order data entry by Finding document by reference:** Intended to answer users' inquiries to find existing sales documents for specific customer using partial or approximate information.
+- **Increase the speed of sales order data entry by finding product:** Intended to answer users' inquiries to find a product based on vague, incomplete, or inaccurate description.
+- **Increase the speed of Sales Order data entry by Finding document by reference:** Intended to answer users' inquiries to find existing sales documents for a specific customer by using partial or approximate information.
 
 ## How was sales order taker agent evaluated? What metrics are used to measure performance?
 
@@ -40,9 +40,10 @@ The sales order taker agent offers various capabilities that help manage heavy, 
 
 ## What are the limitations of sales order taker agent? How can users minimize the impact of the sales order taker agent limitations when using the system?
 
-- The system has been tested with item names and item descriptions that are both in English language. Mixed language input may result in lesser-quality output, as the system will still work based on pure string similarity, but semantic part of the matching may or may not work.
+- The system has been tested with item names and item descriptions that are both in English. Mixed language inputs may result in lesser-quality output, 
+- as the system will still work based on pure string similarity, but semantic part of the matching may or may not work.
 
-- Due to limited language support, the system will not be available initially to Canadian customers due to regulatory language compliance as both English and French languages as mandatory. 
+- Due to limited language support, the system will not be available initially to Canadian customers due to regulatory language compliance as both English and French languages as mandatory.
 
 - Sales Lines Suggestions has following limitations regarding complete BC functionality:
 

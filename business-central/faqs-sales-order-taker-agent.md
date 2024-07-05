@@ -65,6 +65,5 @@ The sales order taker agent offers various capabilities that help manage heavy, 
 
 ## See also
 
-- [Feature page]([Link])
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](includes/footer-banner.md)]

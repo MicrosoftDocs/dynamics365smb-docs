@@ -23,6 +23,9 @@ Even if the feature is preinstalled as an extension, it isn't activated by defau
 2. In the list, find and select **Feature update: Replace the existing EU 3-Party Purchase functionality with the new EU 3-Party Trade Purchase extension**.
 3. In the **Enabled for** column, select **All users**.
 
+> [!NOTE]
+> If you are using the German or Italian localization, you will not be eligible to enable this app, as it is incompatible with certain VAT features in these localizations.  
+
 ## Enable EU third-party trade functionality for a purchase
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Setup**, and then select the related link.

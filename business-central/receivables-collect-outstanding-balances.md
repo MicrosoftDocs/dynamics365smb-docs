@@ -1,5 +1,5 @@
 ---
-title: Collect Outstanding Balances
+title: Collect outstanding balances
 description: Learn how to remind your customers of outstanding payments. Send a customer statement, issue a reminder, or send a finance charge memo.
 author: brentholtorf
 ms.author: bholtorf
@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 6, 25, 440, 443, 448, 452
-ms.date: 03/13/2024
+ms.date: 07/01/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -39,7 +39,7 @@ From the customer card, you can create a statement for customer's transactions w
 
 ## Finance charges
 
-When a customer does not pay by the due date, you can have finance charges calculated automatically and add them to the overdue amounts on the customer's account. You can inform customers of the added charges by sending finance charge memos.  
+When a customer doesn't pay by the due date, you can have finance charges calculated automatically and add them to the overdue amounts on the customer's account. You can inform customers of the added charges by sending finance charge memos.  
 
 > [!NOTE]  
 > You use finance charge memos to calculate interest and finance charges and to inform your customers about interest and finance charges without reminding them of overdue payments. Alternatively, you can calculate interest on overdue payments when you create reminders.  
@@ -48,7 +48,7 @@ Before you can create finance charge memos, you must set up terms. For more info
 
 You can manually create a finance charge memo for an individual customer, and fill in the lines automatically. Alternatively, you can use the **Create Finance Charge Memos** function to create finance charge memos for all or selected customers with overdue balances.  
 
-After you create the finance charge memos, you can modify them. The text that appears at the beginning and end of the finance charge memo is determined by the finance charge terms, and can be seen in the **Description** column on the lines. If a calculated amount has been inserted automatically in the beginning or ending text, the text will not be adjusted if you delete lines. Then you must use the **Update Finance Charge Text** function.  
+After you create the finance charge memos, you can modify them. The text that appears at the beginning and end of the finance charge memo is determined by the finance charge terms, and can be seen in the **Description** column on the lines. If a calculated amount has been inserted automatically in the beginning or ending text, the text won't be adjusted if you delete lines. Then you must use the **Update Finance Charge Text** function.  
 
 After you have created finance charge memos and made any needed modifications, you can either print test reports or issue the finance charge memos, typically as email.
 
@@ -67,7 +67,7 @@ A finance charge memo is similar to an invoice. You can fill in a header manuall
 
 ### To update finance charge memo texts
 
-In some cases, you may want to modify the beginning and ending text that you have set up for the finance charge terms. If you do this at a time when you have created, but not yet issued, finance charge memos, you can update the memos with the modified text.
+In some cases, you might want to modify the beginning and ending text that you have set up for the finance charge terms. If you do this at a time when you have created, but not yet issued, finance charge memos, you can update the memos with the modified text.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Finance Charge Memo**, and then choose the related link.  
 2. open the finance charge memo that you want to change text for, and then choose the **Update Finance Charge Text** action.
@@ -95,11 +95,11 @@ Also, issuing the finance charge memo might result in VAT entries.
 3. On the **Issue Finance Charge Memos** page, fill in the fields as necessary.
 4. Choose the **OK** button
 
-The finance charge memo is either printed for sent to an specified email as a PDF attachment.
+The finance charge memo is either printed for sent to a specified email as a PDF attachment.
 
 ### To cancel an issued finance charge memo
 
-If finance charge memos were issued in error, you can cancel them before they are sent out. You can do this either one by one or as a batch.
+If finance charge memos were issued in error, you can cancel them before they're sent out. You can do this either one by one or as a batch.
 
 1. On the **Issued Finance Charge Memos** page, select one or more lines for issued finance charge memos that you want to cancel, and then choose the **Cancel** action.
 2. On the **Cancel Issued Fin. Charge Memos** page, fill in the fields as necessary, and then choose the **OK** button.

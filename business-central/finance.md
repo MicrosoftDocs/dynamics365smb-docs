@@ -1,9 +1,5 @@
 ---
-<<<<<<< Updated upstream
-title: Financial Management
-=======
 title: Financial management (contains video)
->>>>>>> Stashed changes
 description: Learn how Business Central supports your needs for financial management, accounting, auditing, and bookkeeping.
 author: brentholtorf
 ms.author: bholtorf

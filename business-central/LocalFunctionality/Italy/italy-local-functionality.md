@@ -58,10 +58,10 @@ The following articles describe local functionality that is unique to the Italia
     * [Italian Subcontracting](italian-subcontracting.md) **Available Now**
     * [Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md) **Available Now**
     * [Italian Electronic Invoicing](electronic-invoicing.md) **Available Now**
+    * [Vendors from Fiscal Denied Countries or Regions](fiscal-deny-list.md) **Available Now**
 
 ## Future legislation requirements being investigated
 
-* Fiscal restrictions for vendors **Planned for 24.4**
 * Allow Calc and Post VAT Settlement to be posted by Activity Code **Planned for 24.4**
 * Redesigned and upgraded non-deductible VAT **Planned for 2025 release wave 1**  
 * Updated electronic invoicing with new e-documents framework (SDI) **Planned for 2025 release wave 1**  

@@ -1,14 +1,13 @@
 ---
 title: EU third-party purchase transactions
-description: This article topic explains how to set up and use European Union (EU) third-party purchase transactions.
+description: This article article explains how to set up and use European Union (EU) third-party purchase transactions.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 50, 51, 52, 187, 317
 ms.search.keywords: EU3P, EU 3-P, EU 3-Party
-ms.date: 07/07/2023
+ms.date: 07/05/2024
 ms.author: altotovi
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
@@ -22,6 +21,9 @@ Even if the feature is preinstalled as an extension, it isn't activated by defau
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, go to the **Feature Management** workspace, and then select the related link.
 2. In the list, find and select **Feature update: Replace the existing EU 3-Party Purchase functionality with the new EU 3-Party Trade Purchase extension**.
 3. In the **Enabled for** column, select **All users**.
+
+> [!NOTE]
+> If you use the German or Italian localization, you won't be able to enable this app because it's not compatible with certain VAT features in those localizations.  
 
 ## Enable EU third-party trade functionality for a purchase
 

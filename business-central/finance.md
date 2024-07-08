@@ -1,5 +1,9 @@
 ---
+<<<<<<< Updated upstream
 title: Financial Management
+=======
+title: Financial management (contains video)
+>>>>>>> Stashed changes
 description: Learn how Business Central supports your needs for financial management, accounting, auditing, and bookkeeping.
 author: brentholtorf
 ms.author: bholtorf
@@ -7,18 +11,18 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 05/01/2024
+ms.date: 05/17/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Financial Management
+# Financial management
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes a standard configuration for most financial processes, but you can change it to suit your business needs. Learn more at [Setting Up Finance](finance-setup-finance.md).
 
 The default configuration includes a chart of accounts and standard posting groups, which make the process of assigning default general ledger posting accounts to customers, vendors, and items more efficient.  
 
-The following sections describe a sequence of tasks, with links to the topics that describe them.  
+The following sections describe a sequence of tasks, with links to the articles that describe them.  
 
 ## Take a video tour
 

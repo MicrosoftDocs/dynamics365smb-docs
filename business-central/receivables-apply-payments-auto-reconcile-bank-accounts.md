@@ -8,28 +8,45 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.search.form: 1290, 1291, 1293, 1294
+<<<<<<< Updated upstream
 ms.date: 06/13/2024
+=======
+ms.date: 05/22/2024
+ms.author: bholtorf
+>>>>>>> Stashed changes
 ms.service: dynamics-365-business-central
 
 ---
+<<<<<<< Updated upstream
 # Applying payments automatically and reconciling bank accounts
 
+=======
+# Apply payments automatically and reconciling bank accounts
+>>>>>>> Stashed changes
 You must regularly reconcile your bank, receivables, and payables accounts by applying payments recorded in the bank to their related open (unpaid) invoices and credit memos or other open entries in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 You can perform this task on the **Payment Reconciliation Journal** page, for example, by importing a bank statement file or feed to quickly register the payments. Payments are applied to open customer or vendor ledger entries based on matches between payment text and entry information. You can review and change automatic applications before you post the journal. You can choose to close any open bank account ledger entries related to the applied ledger entries when you post the journal. The bank account is automatically reconciled when all payments are applied.
 
 On the **Payment Application Rules** page, you can set up prioritized rules that govern how payment text is automatically matched with entry information.
 
+<<<<<<< Updated upstream
 You can also reconcile bank accounts without simultaneously applying payments. You perform this work on the **Bank Acc. Reconciliation** page. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
+=======
+You can also reconcile bank accounts without simultaneously applying payments. You perform this work on the **Bank Acc. Reconciliation** page. For more information, see [reconcile bank accounts](bank-how-reconcile-bank-accounts-separately.md).   
+>>>>>>> Stashed changes
 
-To import bank statements as a bank feed, you must first set up and enable the Envestnet Yodlee Bank Feed service, and then link your bank accounts to the related online bank accounts. For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).  
+To import bank statements as a bank feed, you must first set up and enable the Envestnet Yodlee Bank Feed service, and then link your bank accounts to the related online bank accounts. For more information, see [set up the Envestnet Yodlee bank feeds service](bank-how-setup-bank-statement-service.md).  
 
 > [!TIP]
 > You can also import bank statement files in comma or semicolon delimited format (.CSV). Use the **Set up a bank statement file format** assisted setup to define bank statement import formats and attach the format to a bank account. You can then use these formats when you import bank statements in the **Bank Account Reconciliation** page.
 
-Alternatively, you can use the AMC Banking 365 Fundamentals extension to convert a bank statement file, from any format, to a data stream that you can import into [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Use the AMC Banking 365 Fundamentals extension](ui-extensions-amc-banking.md).  
+Alternatively, you can use the AMC Banking 365 Fundamentals extension to convert a bank statement file, from any format, to a data stream that you can import into [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [use the AMC banking 365 fundamentals extension](ui-extensions-amc-banking.md).  
 
+<<<<<<< Updated upstream
 The following table describes a sequence of tasks, with links to articles that describe them.  
+=======
+The following table describes a sequence of tasks, with links to the articles that describe them.  
+>>>>>>> Stashed changes
 
 | To | See |
 | --- | --- |
@@ -40,7 +57,10 @@ The following table describes a sequence of tasks, with links to articles that d
 |Set up the rules to govern how payments/bank transactions should be automatically applied to their related open ledger entries when you use the **Apply Automatically** function on the **Payment Reconciliation Journal** page.|[Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md)|
 
 ## See also
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md)  
 [Managing Receivables](receivables-manage-receivables.md)  
 [Sales](sales-manage-sales.md)  

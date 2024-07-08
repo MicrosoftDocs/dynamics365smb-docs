@@ -1,7 +1,11 @@
 ---
 author: brentholtorf
 ms.topic: include
+<<<<<<< Updated upstream
 ms.date: 06/12/2024
+=======
+ms.date: 05/20/2024
+>>>>>>> Stashed changes
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf

@@ -5,11 +5,10 @@ author: altotovi
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: India, Indian, local, IN, English
-ms.date: 06/09/2023
+ms.date: 07/08/2024
 ms.author: altotovi
-
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+ms.reviewer: solsen
 ---
 
 # Audit trail and edit logs for accounting software in India
@@ -38,11 +37,11 @@ Additionally, the rules state that the audit trail feature should meet the follo
 
 Under new guidelines of the Companies Act that specify how account books must be kept in electronic format, every company that uses accounting software to maintain its books of accounts must use only accounting software that has a feature for recording an audit trail. For compliance, the system must record and trace the data sources in the audit trail.
 
-[!INCLUDE[prod_short](../../includes/prod_short.md)] is fully compliant with the requirement to record accounting data. The **G/L Register** page provides non-editable details about each transaction, including the register number (the **No.** field not possible to be renumbered), the creation date and time (the **Created At** field), the **User ID** of who created the transaction, and its **Source Code** and **Journal Batch Name** as additional information. Even if this transaction represents the reversing, user can find the **Reversed** field marked as **Yes**, so there are transparent information about every reversed transaction. The **General Ledger** function on the **G/L Register** page fetches the financial transaction entries that have been posted in the general ledger (G/L). This function opens the **General Ledger Entries** page that's related to the specific G/L register and shows transaction details. So, all required information exists in these tables providing full transaction and audit log.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] is fully compliant with the requirement to record accounting data. The **G/L Register** page provides noneditable details about each transaction, including the register number (the **No.** field not possible to be renumbered), the creation date and time (the **Created At** field), the **User ID** of who created the transaction, and its **Source Code** and **Journal Batch Name** as additional information. Even if this transaction represents the reversing, users can find the **Reversed** field marked as **Yes**, so there's transparent information about every reversed transaction. The **General Ledger** function on the **G/L Register** page fetches the financial transaction entries that have been posted in the general ledger (G/L). This function opens the **General Ledger Entries** page that's related to the specific G/L register and shows transaction details. So, all required information exists in these tables providing full transaction and audit log.  
 
 Additionally, you can run the **Find Entries** function to show all other related entries and source documents. For more information, see [Design Details: Accounts in General Ledger](../../design-details-accounts-in-the-general-ledger.md) and [Voucher Transaction](voucher-interface-transactions.md).
 
-For other data, you can use the **Change Log** function to track specific types of changes that are made to tables and fields. Changes that can be tracked include *inserting*, *modifying*, and *deleting* key operations. Note that when you enable change tracking for any table, the impact on performance might vary, depending on the table's category. Change tracking can also increase the size of the database. When you track changes for a table or field, a record of every change to that table or field is stored on the **Change Log Entries** page. You can use this feature to track changes in any data in the system. For example, companies that use [!INCLUDE[prod_short](../../includes/prod_short.md)] to maintain books of accounts are fully compliant with the new notifications and can track transaction data to the source. For more information, see [Auditing Changes in Business Central](../../across-log-changes.md).
+For other data, you can use the **Change Log** function to track specific types of changes that are made to tables and fields. Changes that can be tracked include *inserting*, *modifying*, and *deleting* key operations. When you enable change tracking for any table, the impact on performance might vary, depending on the table's category. Change tracking can also increase the size of the database. When you track changes for a table or field, a record of every change to that table or field is stored on the **Change Log Entries** page. You can use this feature to track changes in any data in the system. For example, companies that use [!INCLUDE[prod_short](../../includes/prod_short.md)] to maintain books of accounts are fully compliant with the new notifications and can track transaction data to the source. For more information, see [Auditing Changes in Business Central](../../across-log-changes.md).
 
 > [!NOTE]
 > This guideline is a general guideline and can vary, depending on the specific business scenario.
@@ -56,10 +55,10 @@ The books of accounts and other relevant books and papers are retained in one of
 
 The information in the electronic records will remain complete and unaltered.
 
-Transactions that are posted in [!INCLUDE[prod_short](../../includes/prod_short.md)] remain complete and in the format that they were initially generated in. Therefore, [!INCLUDE[prod_short](../../includes/prod_short.md)] includes no process for changing the format or content of a posted transaction. That means user or administrator cannot change or delete any transaction using user interface.  
+Transactions that are posted in [!INCLUDE[prod_short](../../includes/prod_short.md)] remain complete and in the format that they were initially generated in. Therefore, [!INCLUDE[prod_short](../../includes/prod_short.md)] includes no process for changing the format or content of a posted transaction. That means that the user or administrator can't change or delete any transaction using the user interface.  
 
 > [!NOTE]
-> Direct access to the database in [!INCLUDE[prod_short](../../includes/prod_short.md)] technically is not possible, so users cannot make any change directly in the databse. Access using the API in [!INCLUDE[prod_short](../../includes/prod_short.md)] is not direct database access. Instead, the API provides a controlled and secure way to interact with the [!INCLUDE[prod_short](../../includes/prod_short.md)] application layer, which enforces business rules and validations. So, in [!INCLUDE[prod_short](../../includes/prod_short.md)], when a user enters or modifies information via API, the same business logic and validation rules apply as when the user does it through the user interface.
+> Direct access to the database in [!INCLUDE[prod_short](../../includes/prod_short.md)] technically isn't possible, so users can't make any change directly in the databse. Access using the API in [!INCLUDE[prod_short](../../includes/prod_short.md)] isn't direct database access. Instead, the API provides a controlled and secure way to interact with the [!INCLUDE[prod_short](../../includes/prod_short.md)] application layer, which enforces business rules and validations. So, in [!INCLUDE[prod_short](../../includes/prod_short.md)], when a user enters or modifies information via API, the same business logic and validation rules apply as when the user does it through the user interface.
 
 > [!NOTE]
 > Audit trail for using APIs in [!INCLUDE[prod_short](../../includes/prod_short.md)] is absolutely the same as for the direct work using user interface, so audit trail will exist in both situations as described in previous topic.  
@@ -72,7 +71,7 @@ In [!INCLUDE[prod_short](../../includes/prod_short.md)], changes can't be made t
 
 ### Compliance 4: Display electronic records in a legible format
 
-The information in the electronic record of the document is shown in [!INCLUDE[prod_short](../../includes/prod_short.md)]. [!INCLUDE[prod_short](../../includes/prod_short.md)] enables at least one output component per file. Typically, [!INCLUDE[prod_short](../../includes/prod_short.md)] contains multiple file output components of different types. Examples include XML, XLSX, DOCX, JSON, TXT, and PDF.
+The information in the electronic record of the document is shown in [!INCLUDE[prod_short](../../includes/prod_short.md)]. [!INCLUDE[prod_short](../../includes/prod_short.md)] and enables at least one output component per file. Typically, [!INCLUDE[prod_short](../../includes/prod_short.md)] contains multiple file output components of different types. Examples include XML, XLSX, DOCX, JSON, TXT, and PDF.
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] ensures that, at the very least, every transaction record can be exported or opened in Microsoft Excel format. By using a configurator in the [Data Exchange Framework](../../across-how-to-set-up-data-exchange-definitions.md), users can define which file format is used for specific entries.
 

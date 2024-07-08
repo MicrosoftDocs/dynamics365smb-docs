@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: payment process, cash receipts
 ms.search.form: 1290, 1294, 1287
-ms.date: 04/31/2024
+ms.date: 07/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf

@@ -7,12 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: customer payment, debtor, balance due, AR
-<<<<<<< Updated upstream
-ms.date: 06/10/2024
-=======
-ms.date: 05/20/2024
-ms.author: bholtorf
->>>>>>> Stashed changes
+ms.date: 07/08/2024
 ms.service: dynamics-365-business-central
 
 ---
@@ -27,11 +22,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)], one of the fastest ways to re
 Other pages exist where you can either apply payments or reconcile bank accounts:
 
 * The **Bank Account Reconciliations** page, where you reconcile bank accounts by matching imported bank statement lines with your system bank account ledger entries. Here, you can also reconcile check payments. For more information, see [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md). Here, you can't apply payments.
-<<<<<<< Updated upstream
 * The **Payment Registration** page, where you can manually apply payments received as cash, check, or bank transaction against a generated list of unpaid sales documents. This functionality is available only for sales documents. Here, you can't apply outgoing payments, and you can't reconcile bank accounts.
-=======
-* The **Payment Registration** page, where you can manually apply payments received as cash, check, or bank transaction against a generated list of unpaid sales documents. Note that this functionality is available only for sales documents. Here, you can't apply outgoing payments, and you can't reconcile bank accounts.
->>>>>>> Stashed changes
 * The **Cash Receipt Journal** page, where you manually post receipts to the relevant general ledger, customer, or other account by entering a payment line. You can either apply the receipt or refund to one or more open entries before you post the cash receipt journal, or from the customer ledger entries. Here, you can't reconcile bank accounts.
 
 The **Payment Reconciliation Journal** page uses automatic matching logic that you can set up on the **Payment Application Rules** page. For more information, see [Set Up Rules for Automatic Application of Payments](receivables-how-set-up-payment-application-rules.md).  
@@ -49,17 +40,9 @@ The following table describes a sequence of tasks, with links to the articles th
 |With your customer’s consent, collect payments directly from the customer’s bank account according, in the Euro currency only.|[Collect Payments with SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)|
 |Block a customer from being entered on documents or from posting, for example because of insolvency.|[Block Customers](receivables-how-block-customers.md)|
 |Set up a tolerance by which the system closes an invoice even though the payment, including any discount, doesn't fully cover the amount on the invoice.|[Work with Payment Tolerances and Payment Discount Tolerances](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-<<<<<<< Updated upstream
 | Predict when payments will be late for sales documents. | [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md) |
 
 ## See also
-
-=======
-| Predict when payments will be made
- late for sales documents. | [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md) |
-
-## See also
->>>>>>> Stashed changes
 [Sales](sales-manage-sales.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

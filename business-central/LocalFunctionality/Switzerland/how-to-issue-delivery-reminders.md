@@ -1,13 +1,14 @@
 ---
-    title: How to issue delivery reminders [CH]
-    description: After you create delivery reminders, you must issue and print them so that you can send reminders to vendors. 
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 11/21/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: How to issue delivery reminders [CH]
+description: After you create delivery reminders, you must issue and print them so that you can send reminders to vendors. 
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/21/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Issue delivery reminders in the Swiss version
 

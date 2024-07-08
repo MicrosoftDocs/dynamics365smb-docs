@@ -8,6 +8,7 @@ ms.search.form: 10019, 10020, 10021
 ms.date: 02/09/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set up and use the IRS 1096 form in the US version

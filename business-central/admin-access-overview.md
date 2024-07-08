@@ -3,7 +3,7 @@ title: Manage Access to Business Central
 description: Administrators use a layered approach to controlling access to Business Central and its capabilities.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.date: 04/04/2023
 ms.custom: bap-template

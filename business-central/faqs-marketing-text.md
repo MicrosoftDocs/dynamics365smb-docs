@@ -1,6 +1,6 @@
 ---
 title: FAQ for marketing text suggestions
-description: This FAQ provides information about the AI technology used in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+description: This FAQ provides information about the AI technology used in marketing text suggestions in Business Central, along with key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 10/07/2023
 ms.custom: 
   - responsible-ai-faqs
@@ -72,7 +72,7 @@ Microsoft has various systems in place to ensure Copilot capabilities remain ope
 
 As part of providing the Azure OpenAI service, Microsoft will process and store customer data submitted to the service, as well as output content, for purposes of monitoring for and preventing abusive or harmful uses or outputs of the service; and for developing, testing, and improving capabilities designed to prevent abusive use of or harmful outputs from the service. 
 
-Authorized Microsoft personnel may review data that has triggered our automated systems to investigate and verify potential abuse, and may engage in limited random sampling of terms that aren't flagged by our automated systems to ensure the systems are working properly. Authorized Microsoft personnel may also access and use this data to improve our systems that monitor for and prevent abusive or harmful uses or outputs of the service. Read more on [preview terms](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
+Authorized Microsoft personnel may review data that has triggered our automated systems to investigate and verify potential abuse, and may engage in limited random sampling of terms that aren't flagged by our automated systems to ensure the systems are working properly. Authorized Microsoft personnel may also access and use this data to improve our systems that monitor for and prevent abusive or harmful uses or outputs of the service. Read more on [preview terms](https://go.microsoft.com/fwlink/?linkid=2189520).
 
 For Microsoft to safeguard the service and its customers, it's not possible to opt out of logging and human review processes.
 
@@ -85,9 +85,10 @@ The capability also collects data from the feedback user's can provide using the
 ## What are the limitations of [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? How can users minimize the impact of the [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] limitations when using the system?
 
 - Because the underlying technology behind the feature uses AI that has been trained on a wide range of sources, the generated content isn't always factual or suitable. Some suggestions may even include questionable or inappropriate content. It's your responsibility to review and edit generated suggestions to ensure it's accurate and appropriate.
-- [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
-  Inaccurate responses might be returned when users interact with the system in languages other than the supported languages. Also, inaccurate text might be generated when the user's language and primary data language in the [!INCLUDE[prod_short](includes/prod_short.md)] database aren't identical.
+- Available languages
+  
+   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
 ## What operational factors and settings allow for effective and responsible use of the system?
 

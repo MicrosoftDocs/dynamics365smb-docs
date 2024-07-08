@@ -10,6 +10,7 @@ ms.date: 06/18/2021
 ms.author: bholtorf
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Electronic Banking in Finland
 The [!INCLUDE[prod_short](../../includes/prod_short.md)] electronic banking feature allows you to process electronic customer and vendor payments. This feature supports domestic payments (LM03) and foreign payments (LUM2) for transferring electronic bank payments. To export or import electronic payments, you must first set up bank reference files to determine how payment files are processed.  

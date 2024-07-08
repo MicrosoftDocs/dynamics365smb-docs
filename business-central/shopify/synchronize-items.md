@@ -7,15 +7,14 @@ ms.search.form: 30116, 30117, 30126, 30127,
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.collection:
-  - bap-ai-copilot
+ms.custom: bap-template
 ---
 
 # Synchronize items and inventory
 
-The **Items** in [!INCLUDE[prod_short](../includes/prod_short.md)] are equivalent to the *products* in Shopify and include physical goods, digital downloads, services, and gift cards that you sell. There are two main reasons to synchronize items:
+**Items** in [!INCLUDE[prod_short](../includes/prod_short.md)] are equivalent to **products** in Shopify. They're the physical goods, digital downloads, services, and gift cards that you sell. There are two main reasons to synchronize items:
 
-1. Data management primarily happens in [!INCLUDE[prod_short](../includes/prod_short.md)]. You need to export all or some data from there into Shopify and make it visible. You can export the item name, description, image, prices, availability, variants, vendor details, and barcode. Once exported, you can review the items or have them made visible immediately.
+1. When you primarily manage data in [!INCLUDE[prod_short](../includes/prod_short.md)]. You need to export all or some data from there into Shopify and make it visible. You can export the item name, description, image, prices, availability, variants, vendor details, and barcode. Once exported, you can review the items or make them visible immediately.
 2. When an order from Shopify is imported, the information about items is vital to further document processing in [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 The preceding two scenarios are always enabled.
@@ -32,7 +31,7 @@ A third scenario is to manage data in Shopify but import those items in bulk to 
    |Option|Description|
    |------|-----------|
    |**Blank**| Products are imported together with the importing of orders. Products are exported to Shopify if a user runs the **Add Item** action from the **Shopify Products** page. This option is the default process.|
-   |**To Shopify**| Select this option if, after the initial sync is triggered by the **Add Item** action, you plan to update products manually using the **Sync Product** action or using the job queue for recurring updates. Remember to enable the **Can Update Shopify Product** field. If it's not enabled, it equals the **Blank** (default process) option. Learn more in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify) section.|
+   |**To Shopify**| Select this option if, after the initial sync is triggered by the **Add Item** action, you plan to update products manually using the **Sync Product** action or using the job queue for recurring updates. Remember to enable the **Can Update Shopify Product** field. If it isn't enabled, it equals the **Blank** (default process) option. Learn more in the [Export items to Shopify](synchronize-items.md#export-items-to-shopify) section.|
    |**From Shopify**| Choose this option if you plan to import products from Shopify in bulk, either manually using the **Sync Product** action or using the job queue for recurring updates. Learn more in the [Import items from Shopify](synchronize-items.md#import-items-from-shopify) section.|
 
    > [!NOTE]
@@ -44,13 +43,13 @@ First, import items either in bulk from Shopify or together with orders to add t
 
 |Field|Description|
 |------|-----------|
-|**Auto create unknown items**|When Shopify products and variants are imported into [!INCLUDE[prod_short](../includes/prod_short.md)], the [!INCLUDE[prod_short](../includes/prod_short.md)] function first tries to find the matching record in the item list. **SKU Mapping** impacts how the matching is performed and creates a new item and/or item variant. Enable this option if you want to create a new item or when a matching record doesn't exist. The new item is created using imported data and the **Item Template Code**. If this option isn't enabled, you'll need to create an item manually and use the **Map Product** action on the **Shopify Products** page.|
+|**Auto create unknown items**|When Shopify products and variants are imported into [!INCLUDE[prod_short](../includes/prod_short.md)], the [!INCLUDE[prod_short](../includes/prod_short.md)] function first tries to find the matching record in the item list. **SKU Mapping** impacts how the matching is performed and creates a new item and/or item variant. Enable this option if you want to create a new item or when a matching record doesn't exist. The new item is created using imported data and the **Item Template Code**. If this option isn't enabled, create an item manually and use the **Map Product** action on the **Shopify Products** page.|
 |**Item Template Code**|Use this field with the **Auto create unknown items** toggle.<br>Choose the template you want to use for automatically created items.|
 |**SKU Mapping**|Choose how you want to use the **SKU** value imported from Shopify during the item/variant mapping and creation. Learn more in the [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central) section.|
-|**SKU Field Separator**|Use this field with **SKU Mapping** set to the **[Item. No + Variant Code](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)** option.<br>Define a separator to be used to split the SKU.<br>So, if in Shopify you create the variant with the SKU '1000/001', you'd type '/' in the **SKU Field Separator** field to make the item number in [!INCLUDE[prod_short](../includes/prod_short.md)] '1000' and the item variant code '001'. Note that if you create the variant with the SKU '1000/001/111' in Shopify, the item number in [!INCLUDE[prod_short](../includes/prod_short.md)] will be'1000' and the item variant code '001'. The '111' part is ignored. |
-|**Variant Prefix**|Use together with **SKU Mapping** set to either the **Variant Code** or **Item No. + Variant Code** option as a fallback function when the SKU coming from Shopify is empty.<br>If you want to create the item variant in [!INCLUDE[prod_short](../includes/prod_short.md)] automatically, you'll need to enter a value in **Code**. By default, the value defined in the SKU field imported from Shopify is used. However, if the SKU is empty, it will generate code starting with the defined variant prefix and '001'.|
+|**SKU Field Separator**|Use this field with **SKU Mapping** set to the **[Item. No + Variant Code](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)** option.<br>Define a separator to be used to split the SKU.<br>So, if in Shopify you create the variant with the SKU '1000/001', you'd type '/' in the **SKU Field Separator** field to make the item number in [!INCLUDE[prod_short](../includes/prod_short.md)] '1000' and the item variant code '001'. If you create the variant with the SKU '1000/001/111' in Shopify, the item number in [!INCLUDE[prod_short](../includes/prod_short.md)] is '1000' and the item variant code is '001'. The '111' part is ignored. |
+|**Variant Prefix**|Use together with **SKU Mapping** set to either the **Variant Code** or **Item No. + Variant Code** option as a fallback function when the SKU coming from Shopify is empty.<br>If you want to create the item variant in [!INCLUDE[prod_short](../includes/prod_short.md)] automatically, you to enter a value in **Code**. By default, the value defined in the SKU field imported from Shopify is used. However, if the SKU is empty, it generates code starting with the defined variant prefix and '001.'|
 |**Shopify Can Update Item**|Choose this option if you want to update items and/or variants automatically.|
-|**UoM as Variant**| Choose this option if you want all item units of measure to be exported as separate variants. Personalize the page to add the field. Learn more in the [Unit of Measure as Variant](synchronize-items.md#unit-of-measure-as-variant) section.|
+|**UoM as Variant**| Choose this option if you want all item units of measure to be exported as separate variants. To add the field, personalize the page. Learn more in the [Unit of Measure as Variant](synchronize-items.md#unit-of-measure-as-variant) section.|
 |**Variant Option Name for UoM**| Use this field with **UoM as Variant** to specify under which option to add variants that represent units of measure. The default value is *Unit of Measure*. Use personalization to add the field to the page.|
 
 ## Export items to Shopify
@@ -62,6 +61,8 @@ There are multiple ways to export items to Shopify:
 * Run item synchronization once or repeatedly with automation.
 
 No matter how you export items, specific item information is transferred to the Shopify products list depending on your choice of settings for item synchronization.
+
+Before it exports an item to Shopify, the connector checks whether an item already exists. First, it checks whether there's a product or variant with a barcode, because it's defined in the **Item References** entry of a barcode type. If the **SKU Mapping** field is populated, the connector checks whether there's a product or variant with the SKU populated. To learn more, go to [Effect of Shopify product SKUs and barcodes on mapping and creating items and variants in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).
 
 > [!IMPORTANT]
 > The product is added only to the **Online Store** sales channel. You need to publish products to other sales channels, like Shopify POS, from Shopify.
@@ -117,7 +118,7 @@ The following table outlines the effects of the **Barcode** field.
 |------|-----------------|-----------------|
 |Status|According to the **Status for Created Products** field in the **Shopify Shop Card**. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
 |Title | **Description**. If the language code is defined and a corresponding item translation exists, the item translation will be used instead of the description.|**Description**|
-|Variant title | **Variant Code**.|**Description** of variant|
+|Variant title | **Variant Code**.<br>The reason to use **Code** and not **Description** is because Shopify requires unique variant titles per product. In [!INCLUDE[prod_short](../includes/prod_short.md)] the **Code** is unique, while **Description** is not. Not unique descriptions will lead to issues during product export.|**Description** of variant|
 |Description|Combines extended texts, marketing text, and attributes if you enable the corresponding toggles on the Shopify shop card. Respects the language code.|Not used.|
 |SEO page title|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
 |SEO meta description|Fixed value: empty. Learn more in the [Ad hoc updates of Shopify products](synchronize-items.md#ad-hoc-updates-of-shopify-products) section.|Not used.|
@@ -151,9 +152,9 @@ To enable this capability use the **UoM as Variant** and **Variant Option Name**
 
 **Unit of measure as variant remarks**
 
-* When product imported into [!INCLUDE[prod_short](../includes/prod_short.md)], connector will create units of measure. You will need to update **Qty. per Unit of Measure**.
-* When dealing with matrix of variants, for example Color and UoM and you want to import products, you should set *Item No. + Variant Code* in the **SKU Mapping** field and make sure that **SKU** field in Shopify has same value for all units of measure and include both item no. and variant code.
-* In [!INCLUDE[prod_short](../includes/prod_short.md)] availability is calculated per item/item variant and not by unit of measure. It means same availability will be assigned to each variant representing unit of measure (with respect to **Qty. per Unit of Measure**), that can lead to cases when avaialble quantity in Shopify is not accurate. Example: Item that is sold in PCS and Box of 6. The inventory in [!INCLUDE[prod_short](../includes/prod_short.md)] is 6 PCS. Item exported to Shopify as PRoduct with two variants. Once inventory sync executed the inventory level in Shopify will be 6 for varaint PCS and 1 for variant BOX. Buyer can explore only store and see that product is available in both options and place order for 1 BOX. The next buyer will see that BOX is not avaialble, but there are still 6 PCS. This will be fixed after with next inventory sync.
+* When dealing with matrix of variants, for example Color and UoM and you want to import products into [!INCLUDE[prod_short](../includes/prod_short.md)], you should set *Item No. + Variant Code* in the **SKU Mapping** field and make sure that **SKU** field in Shopify has same value for all units of measure and include both item no. and variant code.
+* In [!INCLUDE[prod_short](../includes/prod_short.md)] availability is calculated per item/item variant and not by unit of measure. It means same availability will be assigned to each variant representing unit of measure (with respect to **Qty. per Unit of Measure**), that can lead to cases when avaialble quantity in Shopify is not accurate. Example: Item that is sold in PCS and Box of 6. The inventory in [!INCLUDE[prod_short](../includes/prod_short.md)] is 6 PCS. Item exported to Shopify as Product with two variants. Once inventory sync executed the inventory level in Shopify will be 6 for varaint PCS and 1 for variant BOX. Buyer can explore only store and see that product is available in both options and place order for 1 BOX. The next buyer will see that BOX is not avaialble, but there are still 6 PCS. This will be fixed with the next inventory sync.
+* You won't be able to add Unit of measure option to existing products with variants (specific result depends on other setting, like **SKU Mapping**).
 
 ### URL and Preview URL
 
@@ -306,6 +307,14 @@ There are 10 pieces of item A available on hand and two outstanding sales orders
 |------|-----------------|-----------------|
 |Tuesday|9|Inventory 10 minus sales order set to ship on Monday|
 |Friday|7|Inventory 10 minus both sales orders|
+
+####  Example of calculation of free inventory (not reserved)
+
+There are 10 pieces of item A available on hand and three outstanding sales orders. One order with quantity *1* reserved from item ledger entry, one with quantity *2* not reserved, and one with quantity *3* reserved from a purchase order. For this method, the date of synchronization isn't important.
+
+|Value used to update stock level|Comment|
+|-----------------|-----------------|
+|9|Inventory 10 minus the sales order with reserved inventory from item ledger entry. Other sales orders are ignored.|
 
 ### Two approaches to manage fulfillments
 

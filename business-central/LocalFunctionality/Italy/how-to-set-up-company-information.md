@@ -1,14 +1,15 @@
 ---
-    title: How to set up company information
-    description: Fiscal documents must contain all company information. You can enter all relevant data on the Company Information page when setting up a company.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 12/12/2023
-    ms.author: bholtorf
+title: How to set up company information
+description: Fiscal documents must contain all company information. You can enter all relevant data on the Company Information page when setting up a company.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 12/12/2023
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set up company information
 Fiscal documents must contain all company information. You can enter all relevant data on the **Company Information** page when setting up a company. This data is included in all reports and fiscal documents.  

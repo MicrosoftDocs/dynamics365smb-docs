@@ -3,10 +3,10 @@ title: Set Up Universal Print Printers #Required; page title displayed in search
 description: Learn how you can use Universal Print to provide cloud printing in Business Central. #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
 author: jswymer #Required; your GitHub user alias, with correct capitalization.
 ms.author: jswymer #Required; your Microsoft alias; optional team alias.
-ms.reviewer: jswymer #Required; Microsoft alias of content publishing team member.
-ms.service: dynamics-365-business-central #Required; per approved Microsoft taxonomy (https://taxonomy.docs.microsoft.com/TaxonomyServiceAdminPage/#/taxonomy/detail/2022-04-07T09:00:02.5587920Z!a892accc-6925-4c06-8723-fb5e30ba7ca3/product).
-ms.topic: how-to #Required; don't change.
-ms.date: 01/26/2023
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
+ms.topic: how-to
+ms.date: 06/14/2024
 ms.custom: bap-template #Required; don't change.
 ---
 
@@ -35,9 +35,9 @@ The complete setup requires you work in both Microsoft Azure, using the [Azure p
 
     Learn more at [License Universal Print](/universal-print/fundamentals/universal-print-license).
 
-  - You have the **Printer Administrator** (or Printer Manager) and **Global Administrator** roles in Azure.
+  - You have at least the [Printer Administrator](/entra/identity/role-based-access-control/permissions-reference#printer-administrator) role in Microsoft Entra ID.
 
-    To manage Universal Print, your account must have **Printer Administrator** (or Printer Manager) and **Global Administrator** roles in Microsoft Entra ID. These roles are only needed for managing Universal Print. They aren't required by people setting up and  the printers from [!INCLUDE[prod_short](includes/prod_short.md)].
+    To manage Universal Print, your account must have at least the [Printer Administrator](/entra/identity/role-based-access-control/permissions-reference#printer-administrator) role in Microsoft Entra ID. These roles are only needed for managing Universal Print. They aren't required by people setting up and  the printers from [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - [!INCLUDE[prod_short](includes/prod_short.md)] online and on-premises:
 

@@ -1,15 +1,16 @@
 ---
-    title: GDPdU Filter Examples [DE]
-    description: The following topic provides examples of how you can use and combine different filter types when you set up your GPDdU exports.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.search.form: 11002, 11003, 11004, 11007, 11008, 11009, 11014, 11026, 11027
-    ms.date: 06/18/2021
-    ms.author: bholtorf
+title: GDPdU Filter Examples [DE]
+description: The following topic provides examples of how you can use and combine different filter types when you set up your GPDdU exports.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.search.form: 11002, 11003, 11004, 11007, 11008, 11009, 11014, 11026, 11027
+ms.date: 06/18/2021
+ms.author: bholtorf
 
-    ms.service: dynamics-365-business-central
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # GDPdU Filter Examples in the German Version
 

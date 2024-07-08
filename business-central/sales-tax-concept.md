@@ -10,6 +10,7 @@ ms.date: 07/21/2022
 ms.author: altotovi
 
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Sales Tax in the Default Version of Business Central

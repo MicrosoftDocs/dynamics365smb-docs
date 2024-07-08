@@ -3,7 +3,7 @@ title: Defer Revenues and Expenses
 description: Learn how to automatically defer or postpone revenues and expenses in periods when the transaction wasn't posted, or postpone them over a specified schedule.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707

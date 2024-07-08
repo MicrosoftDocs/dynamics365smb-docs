@@ -200,7 +200,7 @@ ms.service: dynamics-365-business-central
 #### [Touch and pen gestures](touch-gestures.md)
 ### [Troubleshoot: Access camera and location](ui-troubleshooting-camera-location.md)
 ### [Intelligent insights (online only)](about-intelligent-cloud.md)
-## Frequently Asked Questions
+## Troubleshooting and FAQs
 ### [Frequently Asked Questions](across-faq.yml)
 ### [Chat with Copilot FAQ (preview)](chat-with-copilot-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
@@ -211,6 +211,7 @@ ms.service: dynamics-365-business-central
 ### [Teams FAQ](teams-faq.md)
 ### [Electronic invoice FAQ](faq-electronic-invoicing.yml)
 ### [Minimum requirements](product-requirements.md)
+### [Troubleshooting in Business Central](/troubleshoot/dynamics-365/business-central/welcome-business-central)
 
 ## Help and Support
 ### [Resources for help and support](product-help-and-support.md)
@@ -459,6 +460,11 @@ ms.service: dynamics-365-business-central
 #### [Sustainability setup](finance-sustainability-setup.md)
 #### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
 #### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
+#### Sustainability analytics
+##### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
+##### [Built-in sustainability reports](sustainability-reports.md)
+#### Sustainability APIs
+##### [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
 #### Consolidate financial data from multiple companies
@@ -600,7 +606,7 @@ ms.service: dynamics-365-business-central
 #### [Fixed assets analytics overview](fa-analytics-overview.md)
 #### [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)
 #### Built-in fixed assets analytics tools
-##### [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)
 ##### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
 ##### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
@@ -1857,6 +1863,7 @@ ms.service: dynamics-365-business-central
 #### [Key financial reports](finance-reports.md)
 #### [Accounts receivable reports](receivables-reports.md)
 #### [Accounts payable reports](payables-reports.md)
+#### [Sustainability reports](sustainability-reports.md)
 
 ### [Sales reports](sales-reports.md)
 ### [Purchase reports](purchase-reports.md)
@@ -2120,6 +2127,7 @@ ms.service: dynamics-365-business-central
 ### [FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
+## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
 ## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)

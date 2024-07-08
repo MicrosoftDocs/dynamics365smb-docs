@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/07/2024
+ms.date: 05/17/2024
 ms.service: dynamics-365-business-central
 ---
 # Setting up finance

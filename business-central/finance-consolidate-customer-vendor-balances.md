@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: payment process, cash receipt
 ms.search.form: 5052, 21, 5050 
-ms.date: 10/11/2023
+ms.date: 06/27/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -39,11 +39,11 @@ The following steps describe how to link a customer and a vendor through a conta
 You can create a new vendor from an existing customer, or a new customer from a vendor. From the **Customer** or **Vendor** pages, open the **Contact** page. Choose the **Create as** action, and then either the **Customer** or **Vendor** options. 
 
 ## Create a new customer or vendor and link them through a vendor or customer contact
-1. Create a new customer or vendor. For more information, see [Register New Customers](sales-how-register-new-customers.md) or [Register New Customers](sales-how-register-new-customers.md).
+1. Create a new customer or vendor. For more information, see [Register New Customers](sales-how-register-new-customers.md).
 2. After you set up the customer or vendor, choose the **Create** action, and then choose either the **Customer** or **Vendor** options. 
 
 ## To consolidate the customer and vendor balances for a contact company
-On the **Payment Journal** page, use the **Net Customer/Vendor Balances** action to consolidate the customer and vendor balances into a single net amount. The action creates, but does not post, payment journal lines that contain the net balances.
+On the **Payment Journal** page, use the **Net Customer/Vendor Balances** action to consolidate the customer and vendor balances into a single net amount. The action creates, but doesn't post, payment journal lines that contain the net balances.
 
 > [!NOTE]
 > If the customer or vendor balances contain amounts that are in different currencies, a line is created for the amount in each currency.

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, access-point, endpoint, nemhandel, denmark, dk
 ms.search.form: 359, 360, 6103, 6133
-ms.date: 12/13/2023
+ms.date: 07/09/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -28,7 +28,7 @@ In Danish E-Documents functionality, you can select OIOUBL and PEPPOL BIS 3 as d
 ## E-Document Services setup
 
 > [!NOTE]
-> These connections requires communication with external service providers that might be subject to additional payment and require contracts with them. To get all the necessary credentials, contact the service providers.
+> To establish these connections, it is necessary to communicate with external service providers, who may require additional payment and contracts. To obtain all the necessary credentials, contact the service providers.
 
 To set up services, complete the following steps:   
 

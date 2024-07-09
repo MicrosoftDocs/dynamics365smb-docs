@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: 371, 423, 424, 427, 1208, 1207, 1230
-ms.date: 07/03/2024
+ms.date: 07/04/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -23,12 +23,9 @@ You can set up standard customer sales codes with the direct-debit payment metho
 When payments are successfully processed, as communicated by your bank, you can post the payment receipts either directly from the **Direct Debit Collect. Entries** page or by moving the payment lines to the journal where you post payment receipts, such as the **Cash Receipt Journal** page. Alternatively, depending on your cash management process, you can wait and just apply the payments as a part of bank reconciliation.  
 
 > [!NOTE]  
-> To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.
+> To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.  
 
-> [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)] supports both SEPA DD pain.008.001.02 and DD pain.008.001.08. You can choose any format on the **Bank Account Card** page.  
-
-## Setting Up SEPA Direct Debit
+## How to set up SEPA Direct Debit
 
 From the **Direct Debit Collections** page, you can export instructions to your electronic bank to perform a direct debit collection from the customer's bank account to your bank account according to the SEPA Direct Debit format.
 
@@ -43,13 +40,13 @@ Before you can process customer payments electronically by exporting direct debi
 * Set up the customer's payment method.  
 * Set up the direct-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.  
 
-### To set up your bank account for SEPA direct debit
+### To set up your bank account for SEPA Direct Debit
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2. Open the bank account that you want to use for direct debit.  
-3. On the **General** FastTab, in the **SEPA Direct Debit Export Format** field, choose the option for SEPA direct debit.  
+3. On the **General** FastTab, in the **SEPA Direct Debit Exp. Format** field, choose the option for SEPA Direct Debit.  
 
-### To set up the customer's payment method for SEPA direct debit
+### To set up the customer's payment method for SEPA Direct Debit
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Methods**, and then choose the related link.  
 2. Choose the **New** action.  
@@ -57,24 +54,24 @@ Before you can process customer payments electronically by exporting direct debi
 
     |Field|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Direct Debit**|Specify if the payment method is for SEPA direct debit collection.|  
-    |**Direct Debit Pmt. Terms Code**|Specify the payment terms, such as DON'T PAY, that are displayed on sales invoices that are paid with SEPA direct debit to indicate to the customer that the payment will be collected automatically. Alternatively, leave the field empty.|  
+    |**Direct Debit**|Specify if the payment method is for SEPA Direct Debit collection.|  
+    |**Direct Debit Pmt. Terms Code**|Specify the payment terms, such as DON'T PAY, that are displayed on sales invoices that are paid with SEPA Direct Debit to indicate to the customer that the payment will be collected automatically. Alternatively, leave the field empty.|  
 
     > [!NOTE]  
     >  Do not enter a value in the **Bal. Account No.** field.  
 
 4. Choose the **OK** button to close the **Payment Methods** page.  
 5. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
-6. Open the customer card for the customer that you want to set up for SEPA direct debit collection.  
+6. Open the customer card for the customer that you want to set up for SEPA Direct Debit collection.  
 7. Choose the **Payment Method Code** field, and then select the payment method code that you specified in step 3.  
-8. Repeat steps 6 and 7 for all customers that you want to set up for SEPA direct debit collection.  
+8. Repeat steps 6 and 7 for all customers that you want to set up for SEPA Direct Debit collection.  
 
 #### To set up the direct-debit mandate that represents the customer agreement
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
-2. Open the card for the customer that you want to set up for SEPA direct debits.  
+2. Open the card for the customer that you want to set up for SEPA Direct Debits.  
 3. Choose the **Bank Accounts** action.  
-4. On the **Customer Bank Account List** page, select the customer bank account that will use direct debits, and then choose the **Direct Debit Mandates** action.  
+4. On the **Customer Bank Account List** page, select the customer bank account that will use direct debits, and then choose the **Direct Debit Mandates** action from **New**.  
 5. On the **SEPA Direct Debit Mandates** page, fill in the fields as described in the following table.  
 
     |Field|Description|  
@@ -83,12 +80,12 @@ Before you can process customer payments electronically by exporting direct debi
     |**Valid From**|Specify the date when the direct\-debit mandate starts.|  
     |**Valid To**|Specify the date when the direct\-debit mandate ends.|  
     |**Date of Signature**|Specify the date when the customer signed the direct\-debit mandate.|  
-    |**Sequence Type**|Specify if the agreement covers multiple (**Recurring**) or a single (**One Off**) direct debit collection.|  
+    |**Type of Payment**|Specify if the agreement covers multiple (**Recurring**) or a single (**One Off**) direct debit collection.|  
     |**Expected Number of Debits**|Specify how many direct debit collections you expect to make. This field is only relevant if you selected **Recurring** in the **Sequence Type** field.|  
     |**Debit Counter**|Specifies how many direct debit collections have been made using this direct\-debit mandate. This field is automatically updated.|  
     |**Blocked**|Specify that direct debit collections can't be made using this direct\-debit mandate.|  
 
-6. Repeat steps 1 through 5 for all customers that you want to set up for SEPA direct debits.  
+6. Repeat steps 1 through 5 for all customers that you want to set up for SEPA Direct Debits.  
 
  The direct-debit mandate is automatically inserted in the **Direct Debit Mandate ID** field when you create a sales invoice for the customer that you selected in step 2. For more information, see [Create Recurring Sales and Purchase Lines](sales-how-work-standard-lines.md).
 

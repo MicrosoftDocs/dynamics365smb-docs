@@ -16,7 +16,7 @@ This article provides information on how to set up fiscally denied countries and
 ## To set up countries that are facing fiscal challenges  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Countries/Regions**, and then choose the related link.
-2. To confirm that chosen country or region that is in the fiscally denial list (blacklisted), select appropriate country or region and select the **On Deny List** field.
+2. To confirm that chosen country or region that is in the fiscally denial list (blocklisted), select appropriate country or region and select the **On Deny List** field.
 3. Close the page.
 
 ## To print the list of fiscally denied vendors  

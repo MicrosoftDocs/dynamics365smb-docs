@@ -5,13 +5,13 @@ author: jswymer
 
 
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
 ms.date: 08/29/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Overview of Tasks to Close Accounting Periods
 

@@ -3,12 +3,13 @@ title: Set Up Email Logging
 description: Learn how to turn email interactions between salespeople and customers into real sales opportunities.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: dcenic
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 09/18/2023
 ms.custom: bap-template
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.search.form: 1680, 1811, 5076
+ms.service: dynamics-365-business-central
 ---
 # Track Email Message Exchanges Between Salespeople and Contacts
 

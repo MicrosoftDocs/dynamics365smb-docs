@@ -4,14 +4,14 @@ description: Describes how to define sales stages, from initial contact to closi
 author: brentholtorf
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5122, 5121, 5120, 5175, 5119, 5098, 5096
 ms.date: 05/27/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Set Up Opportunity Sales Cycles and Cycle Stages
 

@@ -3,14 +3,14 @@ title: Accounting and bookkeeping
 description: This article provides information that will help you use Microsoft Dynamics 365 Business Central to correctly perform accounting and bookkeeping for your company.
 author: altotovi
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: accounting, bookkeeping
 ms.search.form: 16, 39, 108
 ms.date: 03/14/2023
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Accounting and bookkeeping

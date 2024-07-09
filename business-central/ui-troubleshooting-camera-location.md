@@ -4,12 +4,10 @@ description: "This article describes how to troubleshoot access to camera and lo
 author: brentholtorf
 ms.author: bholtorf
 ms.date: 04/01/2021
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
 ms.topic: conceptual
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Troubleshooting: Accessing Camera and Location

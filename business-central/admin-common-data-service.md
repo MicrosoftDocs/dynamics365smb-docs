@@ -1,15 +1,16 @@
 ---
-title: Using Microsoft Dataverse
+title: Integrate with Microsoft Dataverse via data sync
 description: Introduction to how to integrate and use Microsoft Dataverse and its components to connect to other Dynamics 365 applications.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 06/28/2023
+ms.date: 03/08/2024
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
-# Integrate with Microsoft Dataverse
+# Integrate with Microsoft Dataverse via data sync
 
 Business apps often use data from more than one source. [!INCLUDE[prod_short](includes/cds_long_md.md)] combines data into a single set of logic that makes it easier to connect [!INCLUDE[prod_short](includes/prod_short.md)] to other Dynamics 365 applications. For example, [!INCLUDE[crm_md](includes/crm_md.md)] or your own application built on [!INCLUDE[prod_short](includes/cds_long_md.md)]. To learn more about [!INCLUDE[prod_short](includes/cds_long_md.md)], go to [What is Dataverse?](/powerapps/maker/common-data-service/data-platform-intro).
 
@@ -40,9 +41,7 @@ You can synchronize data either to or from one Dynamics 365 business app to anot
 
 The Base Integration Solution is a key component of the integration. The solution adds the required roles and access levels to the user accounts for the integration, and it creates tables needed to map [!INCLUDE[prod_short](includes/prod_short.md)] company to business unit in [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
 
-By default, the **Set up [!INCLUDE[prod_short](includes/cds_long_md.md)] connection** assisted setup guide imports the solution. To do that, the setup guide uses an administrator user account that you specify. This account must be a valid user in [!INCLUDE[prod_short](includes/cds_long_md.md)] with the following security role:
-
-* System Administrator  
+By default, the **Set up [!INCLUDE[prod_short](includes/cds_long_md.md)] connection** assisted setup guide imports the solution. To do that, the setup guide uses an administrator user account that you specify. This account must be a valid user in [!INCLUDE[prod_short](includes/cds_long_md.md)] with the **System Administrator** security role.  
 
 To learn more about user accounts, go to the following articles:
 
@@ -51,15 +50,9 @@ To learn more about user accounts, go to the following articles:
 
 The administrator account is used only one time during the setup for the configuration changes that the Base Integration Solution makes in [!INCLUDE[prod_short](includes/cds_long_md.md)]. After the solution imports, the account is no longer needed. Integration will continue to use the user account that is automatically created specifically for the integration.
 
-In addition to customizing [!INCLUDE[prod_short](includes/cds_long_md.md)], the solution also creates the following roles in [!INCLUDE[prod_short](includes/cds_long_md.md)] for the integration:
+In addition to customizing [!INCLUDE [cds_long_md](includes/cds_long_md.md)], the solution also creates a security role in [!INCLUDE [cds_long_md](includes/cds_long_md.md)] for the integration:
 
-* **Integration Administrator** - Allows users to manage the connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)]. Typically, this role is assigned only to the user account that's automatically created for synchronization.  
-* **Integration User** - Allows users to access synchronized data. Typically, you assign this role to the following user accounts:
-
-  * The user accounts that's automatically created for synchronization.
-  * Other users who need access to the synchronized data.
-
-To learn more about each role, such as the permissions and access levels, go to [Setting Up User Accounts for Integrating with [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md).
+* **Business Central Dataverse Integration** - Allows you to manage the connection between [!INCLUDE [prod_short](includes/prod_short.md)] and [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Typically, this role is assigned only to the user account that's automatically created for synchronization. To learn more about this role, go to [Setting Up User Accounts for Integrating with [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md).
 
 When you set up the connection, you create the integration table mappings that you need to synchronize data. Entities in [!INCLUDE[prod_short](includes/cds_long_md.md)] are mapped to tables and table fields in [!INCLUDE [prod_short](includes/prod_short.md)] through integration tables. To learn more about mappings, go to [Standard Entity Mapping for Synchronization](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
@@ -77,6 +70,12 @@ Currency synchronization is unidirectional, from [!INCLUDE [prod_short](includes
 
 * Amounts in the [!INCLUDE[prod_short](includes/cds_long_md.md)] base currency convert to the [!INCLUDE [prod_short](includes/prod_short.md)] local currency based on the latest exchange rate synchronized from [!INCLUDE [prod_short](includes/prod_short.md)].
 * Amounts in the [!INCLUDE [prod_short](includes/prod_short.md)] local currency synchronize with the [!INCLUDE [prod_short](includes/prod_short.md)] local currency in one of the other (non-base) currencies in [!INCLUDE[prod_short](includes/cds_long_md.md)].
+
+## What happens when you copy a company
+
+You can safely copy companies that integrate with [!INCLUDE[prod_short](includes/cds_long_md.md)] or [!INCLUDE[crm_md](includes/crm_md.md)]. Copying companies helps reduce the risk of data inconsistencies and can save you valuable time. To learn more about copying companies, go to [Copy a company](about-new-company.md#copy-a-company).
+
+[!INCLUDE [dataverse-copy-company](includes/dataverse-copy-company.md)]
 
 ## See also
 

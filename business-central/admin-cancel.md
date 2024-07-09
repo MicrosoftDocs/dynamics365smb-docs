@@ -3,12 +3,12 @@ title: Unsubscribe or Remove Business Central
 description: Learn how to remove or delete your Business Central experience if you have a trial subscription, or if you have a paid subscription.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: remove, delete
 ms.date: 06/08/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Unsubscribe or Remove [!INCLUDE[prod_short](includes/prod_short.md)]
 

@@ -3,7 +3,7 @@ title: Set Up New Capacity
 description: Walkthrough to learn how to set up a new work center with a capacity calendar for a single shift in Business Central.
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---

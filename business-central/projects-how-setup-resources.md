@@ -2,23 +2,22 @@
 title: Set Up Project Resource Costs, Prices, and Capacity
 description: To use resources and facilitate project management, you specify costs and prices for individual resources or resource groups, and set the resource capacity.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
-ms.date: 04/01/2021
-ms.author: bholtorf
-
+ms.date: 02/22/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Set Up Resources for Projects
+# Set up resources for projects
 
-To correctly manage resource activities, you must set up your resources and the related costs and prices. The job-related prices, discounts, and cost factor rules are set up on the job card. You can specify the costs and prices for individual resources, resource groups, or all available resources of the company.
+To correctly manage resource activities, you must set up your resources and the related costs and prices. The project-related prices, discounts, and cost factor rules are set up on the project card. You can specify the costs and prices for individual resources, resource groups, or all available resources of the company.
 
-When resources are used or sold in a job, the prices and costs associated with them are retrieved from the information that you set up.
+When resources are used or sold in a project, the prices and costs associated with them are retrieved from the information that you set up.
 
-You specify the default amount per hour when the resource is created. For example, if you use a specific machine on a job for five hours, the job would be calculated based on the amount per hour.
+You specify the default amount per hour when the resource is created. For example, if you use a specific machine on a project for five hours, the project would be calculated based on the amount per hour.
 
 > [!NOTE]
 > You can purchase external resources, for example, to invoice a vendor for work delivered. For more information, see [Record Purchases](purchasing-how-record-purchases.md).<br /><br />
@@ -44,7 +43,7 @@ You can combine several resources in one resource group. All capacities and budg
 
 ## To set capacity for a resource
 
-To calculate how much time a resource can spend on jobs, their capacity must first be set up as available time per period on the work calendar. This setup is used when you fill in job planning lines that contain the resource. For more information, see [Create Jobs](projects-how-create-jobs.md).
+To calculate how much time a resource can spend on projects, their capacity must first be set up as available time per period on the work calendar. This setup is used when you fill in project planning lines that contain the resource. For more information, see [Create Projects](projects-how-create-jobs.md).
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.
 2. Open the relevant resource card, and then choose the **Resource Capacity** action.
@@ -68,7 +67,7 @@ In addition to the cost specified on the resource card, you can set up alternate
 
 ## To set up alternate resource prices
 
-In addition to price specified on the resource card, you can set up alternate prices for each resource. These alternate prices can be conditional. They can depend on whether the resource is used with a specific job or work type.
+In addition to price specified on the resource card, you can set up alternate prices for each resource. These alternate prices can be conditional. They can depend on whether the resource is used with a specific project or work type.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resources**, and then choose the related link.
 2. Select the resource for that you want to set up one or more alternate prices for, and then choose the **Prices** action.

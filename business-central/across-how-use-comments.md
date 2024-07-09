@@ -3,13 +3,13 @@ title: Add Comments to Cards and Documents
 description: Add extra information to accounts, customers cards, or sales orders to communicate agreements, such as a special price or delivery method, to other users.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: tasks, work
 ms.search.form: 124, 30
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Add Comments to Cards and Documents
 

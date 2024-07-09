@@ -3,14 +3,14 @@ title: Manage FA Budgets
 description: You set up information about future investments, disposals, and depreciation of fixed assets to help prepare budgets and forecasts.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: forecast
 ms.search.form: 5610, 5611
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Manage Budgets for Fixed Assets
 
@@ -58,6 +58,7 @@ You can use the **Fixed Asset - Projected Value** report to calculate future dep
 ## See also
 
 [Fixed Assets](fa-manage.md)  
+[Fixed assets analytics overview](fa-analytics-overview.md)   
 [Setting Up Fixed Assets](fa-setup.md)  
 [Finance](finance.md)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  

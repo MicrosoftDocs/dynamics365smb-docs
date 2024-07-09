@@ -3,6 +3,8 @@ author: brentholtorf
 ms.topic: include
 ms.date: 03/14/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 |Field|Description|  
 |-------------|---------------------------------------|  

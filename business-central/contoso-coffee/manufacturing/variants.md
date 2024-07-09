@@ -3,7 +3,7 @@ title: Variants
 description: Walkthrough to learn how to update demand forecast for each variant of a product in Business Central. 
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---

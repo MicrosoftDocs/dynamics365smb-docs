@@ -3,14 +3,14 @@ title: Get Started Creating Layouts
 description: Learn how to create layouts to personalize the appearance of a report when viewed, printed, or saved.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/23/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Get Started Creating Report Layouts
 

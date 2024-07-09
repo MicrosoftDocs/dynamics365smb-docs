@@ -6,6 +6,8 @@ ms.topic: conceptual
 ms.search.keywords:
 ms.date: 06/25/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Validation of Purchase Amounts in the Dutch Version
 In [!INCLUDE[prod_short](../../includes/prod_short.md)], you can activate the **Check Doc. Total Amounts** function to validate the total amount of purchase documents before posting a purchase invoice and purchase credit memo. By default, the purchase document total amount is validated when you post. The total amount of the inserted purchase lines must be equal to the amount including VAT and the VAT amount. To validate the purchase document amount automatically, you must enter the document amount including VAT and the document amount VAT in the **Purchase Invoice** or **Purchase Credit Memo** page.  

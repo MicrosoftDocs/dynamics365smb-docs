@@ -1,19 +1,17 @@
 ---
-    title: Map IRS Numbers to Chart of Accounts [IS]
-    description: This topic explains how to map predefined Internal Revenue Service (IRS) account codes to general ledger accounts.
-    services: project-madeira 
-    documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/25/2021
-    ms.author: bholtorf
+title: Map IRS numbers to chart of accounts [IS]
+description: This article explains how to map predefined Internal Revenue Service (IRS) account codes to general ledger accounts.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/24/2023
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Map IRS Numbers to Chart of Accounts in the Icelandic Version
+# Map IRS numbers to chart of accounts in the Icelandic version
 Companies in Iceland are required to send the tax authority a data file in a predefined format. Before you can do this, you must map predefined Internal Revenue Service (IRS) account codes to general ledger accounts.  
 
 ## To create an Internal Revenue Service number  
@@ -30,7 +28,7 @@ Companies in Iceland are required to send the tax authority a data file in a pre
 2.  Select a general ledger account that has an **Account Type** of **Posting**.  
 3.  In the **IRS Number** field, select an IRS number from the list.  
 
-## See Also  
+## See also  
  [Special Data Output and Reports for the Tax Authority](special-data-output-and-reports-for-the-tax-authority.md) 
 
 

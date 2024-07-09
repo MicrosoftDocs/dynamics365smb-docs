@@ -1,13 +1,16 @@
 ---
-title: Enabling Power BI Integration With Business Central
+title: Enabling Power BI integration with Business Central
 description: Learn how to set up the connection to Power BI. With Power BI reports, you can get insights, business intelligence, and KPIs from your Business Central data.
 author: jswymer
 ms.topic: get-started
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 09/28/2023
+ms.date: 01/28/2024
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
+ms.reviewer: jswymer
 ---
-# Enabling Power BI Integration With [!INCLUDE[prod_short](includes/prod_short.md)]
+# Enabling Power BI integration with [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -51,9 +54,9 @@ To learn about what you can do to ensure the best performance of web services, a
 
 ### Choosing whether to use API pages or OData web services
 
-Whenever possible, you're encouraged to use API pages instead of OData web service. API pages are generally faster at loading data in Power BI reports than OData web services. Plus, they're more flexible because they let you get data from table fields that aren't defined in a page object.
+Whenever possible, you're encouraged to use API pages instead of OData web service. API pages are faster at loading data in Power BI reports than OData web services. Plus, they're more flexible because they let you get data from table fields that aren't defined in a page object.
 
-## <a name="setup"></a>Set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for Power BI integration
+<!--## <a name="setup"></a>Set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for Power BI integration
 
 This section explains the requirements for a [!INCLUDE[prod_short](includes/prod_short.md)] on-premises deployment to integrate with Power BI.
 
@@ -76,7 +79,7 @@ This section explains the requirements for a [!INCLUDE[prod_short](includes/prod
     > [!IMPORTANT]
     > With [!INCLUDE[prod_short](../developer/includes/prod_short.md)] online, the use of access keys (Basic Auth) for web service authentication is [deprecated](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#accesskeys). We recommend that you use OAuth2 instead. For more information, see [Use OAuth to Authorize Business Central Web Services](/dynamics365/business-central/dev-itpro/webservices/authenticate-web-services-using-oauth).-->
 
-4. Create an application registration for [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure.
+<!--4. Create an application registration for [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure.
 
     To view Power BI reports embedded in [!INCLUDE[prod_short](includes/prod_short.md)] pages, an application must be registered for [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Azure. The registered application needs permission to Power BI services. At a minimum, the app requires  **User.ReadWrite.All** permission. For users to view reports from shared Power BI workspaces, the app requires **Workspace.Read.All** permission. For more information, see [Registering [!INCLUDE[prod_short](includes/prod_short.md)] On-Premises in Microsoft Entra ID for Integrating with Other Services](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
@@ -84,13 +87,19 @@ This section explains the requirements for a [!INCLUDE[prod_short](includes/prod
     > If your deployment uses NavUserPassword authentication, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the same Power BI service for all users. You'll specify this service account as part of registering the application. With Microsoft Entra authentication, [!INCLUDE[prod_short](includes/prod_short.md)] connects to the Power BI service associated with the individual user accounts.
 
     <!-- Windows authentication can also be used but you can't get data from BC in Power BI -->
-5. Make the initial connection from Business Central to Power BI.
+<!--5. Make the initial connection from Business Central to Power BI.
 
     Before end-users can use Power BI in [!INCLUDE[prod_short](includes/prod_short.md)], an Azure application administrator will have to give consent to the Power BI service.
 
-    To make the initial connection, open [!INCLUDE[prod_short](includes/prod_short.md)], and run **Get Started with Power BI** from the Home page. This action will lead you through the consent process, and check your Power BI license. When prompted sign in using an Microsoft Entra admin account. For more information, see [Connect to Power BI - one time only](across-working-with-powerbi.md#connect).
+    To make the initial connection, open [!INCLUDE[prod_short](includes/prod_short.md)], and run **Get Started with Power BI** from the Home page. This action will lead you through the consent process, and check your Power BI license. When prompted sign in using an Microsoft Entra admin account. For more information, see [Connect to Power BI - one time only](across-working-with-powerbi.md#connect).-->
 
-## See Also
+## Setting up Dataflows
+
+Dataflows enable you to ingest, transform, and load data into a Power BI workspace and then use the data as the basis for your reports. These dataflows can in some cases experience transient errors while doing a scheduled refresh. The error message looks like this: `DataSource.Error: OData: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.` 
+
+Using PowerAutomate, you can set up retries for this situation. For more information, see [Automatically retry a dataflow on failure](/power-query/dataflows/automatically-retry-dataflow).
+
+## See also
 
 [Business Central and Power BI](admin-powerbi.md)  
 [Power BI Integration Component and Architecture Overview for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

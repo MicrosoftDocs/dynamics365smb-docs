@@ -7,6 +7,8 @@ ms.search.keywords:
 ms.search.form: 12100, 12104, 12105, 12111, 12112, 12113, 12122, 12126, 12127, 12133, 12135, 12151, 12158, 12187, 12189, 12198, 12199, 12202
 ms.date: 06/18/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Italian VAT
 

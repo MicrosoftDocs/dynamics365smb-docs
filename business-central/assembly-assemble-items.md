@@ -5,10 +5,11 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 02/21/2023
+ms.date: 04/26/2024
 ms.custom: bap-template
 ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.service: dynamics-365-business-central
 ---
 # Assembly Management
 

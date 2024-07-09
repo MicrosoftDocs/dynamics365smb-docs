@@ -1,15 +1,15 @@
 ---
-    title: Close an LSV Collection [CH]
-    description: You must close Lastschrift Verfahren (LSV+) collections to write LSV files that can be sent to the bank for payment collection. 
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
-    ms.date: 06/21/2021
-    ms.author: bholtorf
+title: Close an LSV Collection [CH]
+description: You must close Lastschrift Verfahren (LSV+) collections to write LSV files that can be sent to the bank for payment collection. 
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
+ms.date: 06/21/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Close an LSV Collection in the Swiss Version
 You must close Lastschrift Verfahren (LSV+) collections to write LSV files that can be sent to the bank for payment collection. When you close a collection, the collection is complete, and the postings in the LSV journal are combined.  

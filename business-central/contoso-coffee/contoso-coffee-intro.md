@@ -3,10 +3,10 @@ title: Introduction to Contoso Coffee Demo Data
 description: Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the capabilities in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.date: 09/20/2023
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: 5194,
 ms.custom: bap-template
 
@@ -18,11 +18,11 @@ Contoso Coffee is a fictitious company that produces consumer and commercial cof
 
 ## Set up Contoso Coffee data
 
-[!INCLUDE [contoso-coffee-app-install](contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../includes/contoso-coffee-app-install.md)]
 
 When the apps are installed, on the **Contoso Demo Tool** page, use the **Configure** action to prepare the following modules. You can choose to install all available data, which includes set up and production data, or setup data only.
 
- - The **Common Module** to prepare general settings that [!INCLUDE [prod_short](../includes/prod_short.md)] requires. For example, things like number series. 
+ - The **Common Module** to prepare general settings that [!INCLUDE [prod_short](../includes/prod_short.md)] requires. For example, things like number series. Note that **Common Module** contains supplementary data for the Warehouse, Manufacturing, Service scenarios only. It is not recommended to run it in isolation.
 
 The following table describes the settings:  
 

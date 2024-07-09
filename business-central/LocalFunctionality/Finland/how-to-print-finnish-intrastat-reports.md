@@ -5,12 +5,12 @@ services: project-madeira
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.date: 06/18/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Print Finnish Intrastat Reports
 

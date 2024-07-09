@@ -3,8 +3,8 @@ title: Electronic VAT and ICP Declarations [NL]
 description: This article describes how to Set Up Electronic VAT and ICP Declarations in the Dutch Version.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: altotovi
-ms.service: dynamics365-business-central
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 12/01/2022
 ms.custom: bap-template

@@ -1,15 +1,15 @@
 ---
-    title: Set Up Service Offerings
-    description: When you set up service management, you must decide what services to offer customers and the schedule for those services.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: components, service item, service
-    ms.date: 06/23/2021
-    ms.author: bholtorf
+title: Set Up Service Offerings
+description: When you set up service management, you must decide what services to offer customers and the schedule for those services.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: components, service item, service
+ms.date: 06/23/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set Up Service Offerings

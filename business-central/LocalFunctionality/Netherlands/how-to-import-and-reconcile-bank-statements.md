@@ -1,16 +1,16 @@
 ---
-    title: How to Import and Reconcile Bank Statements
-    description: Banks provide electronic bank statements for all your financial interactions. You can import these statements into the bank or giro journals.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+title: How to import and reconcile bank statements
+description: Banks provide electronic bank statements for all your financial interactions. You can import these statements into the bank or giro journals.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 12/13/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Import and Reconcile Bank Statements
+# Import and reconcile bank statements
 Banks provide electronic bank statements for all your financial interactions. You can import these statements into the bank or giro journals.  
 
 The import bank statement is supported by the following protocols:  
@@ -34,7 +34,7 @@ The import bank statement is supported by the following protocols:
 
 The electronic bank statement is imported into the bank or giro journals. For more information, see [Dutch Electronic Banking](dutch-electronic-banking.md).  
 
-## See Also  
+## See also  
 [Dutch Electronic Banking](dutch-electronic-banking.md)   
 [Applying Payments Automatically and Reconciling Bank Accounts](../../receivables-apply-payments-auto-reconcile-bank-accounts.md)
 

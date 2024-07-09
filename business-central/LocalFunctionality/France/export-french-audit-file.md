@@ -3,14 +3,14 @@ title: Export entries for tax audits
 description: This article describes how to prepare and export audit files to comply with the specified tax regulations in France.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 
 ms.date: 06/13/2023
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Export General Ledger entries for tax audits

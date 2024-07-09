@@ -1,17 +1,17 @@
 ---
-title: Create Interactions on Contacts and Segments
+title: Create interactions on contacts and segments
 description: Learn how to create interactions in Business Central for communication that you have with your contacts and segments.
 author: brentholtorf
 ms.author: bholtorf
 ms.topic: conceptual
-ms.reviewer: ivkoleti
-ms.date: 04/01/2021
+ms.reviewer: bholtorf
+ms.date: 12/13/2023
 ms.custom: bap-template
 ms.search.keywords: relationship, prospect
 ms.search.forms: 5077, 5078, 5074, 5076, 5186, 5075, 5079
-
+ms.service: dynamics-365-business-central
 ---
-# Create Interactions on Contacts and Segments
+# Create interactions on contacts and segments
 
 You can create interactions to track the communications you have with a single contact, or with multiple contacts in your segments. To make it easy to create interactions, [!INCLUDE [prod_short](includes/prod_short.md)] provides the **Create Interaction** assisted setup guide. The guide helps you capture the important details about the interaction.
 
@@ -46,7 +46,7 @@ An interaction is recorded for each contact within the segment in the **Interact
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Postponed Interactions**, and then choose the related link.
 2. Choose the interaction you want to finish, and then choose the **Resume** action.
 
-## See Also
+## See also
 
 [Recording Interactions](marketing-interactions.md)  
 [Managing Contacts](marketing-contacts.md)  

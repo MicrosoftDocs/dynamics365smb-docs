@@ -3,8 +3,8 @@ title: User Access Flow for Microsoft 365 Licenses
 description: Get an overview of what happens when a user accesses Business Central data using their Microsoft 365 license for the first time.
 author: mikebc
 ms.author: mikebc
-ms.reviewer: jswymer 
-ms.service: dynamics365-business-central
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 11/03/2022
 ms.custom: bap-template

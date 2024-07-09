@@ -3,14 +3,14 @@ title: Accelerated Depreciation [FR]
 description: The following topic explains how to use the accelerated depreciation method to post the extra tax amounts if they meet specified criteria in the French version.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 5610, 5611, 5612
 ms.date: 06/18/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Accelerated Depreciation in the French Version
 

@@ -1,16 +1,17 @@
 ---
-title: Synchronization and Data Integration | Microsoft Docs
+title: Synchronization and data integration
 description: The synchronization copies data between Microsoft Dataverse tables and Business Central records, and keeps the data in both systems up-to-date.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 03/31/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
+ms.service: dynamics-365-business-central
 ---
 
-# Synchronizing Data in Business Central with Microsoft Dataverse
+# Synchronizing data in Business Central with Microsoft Dataverse
 
 When you integrate [!INCLUDE[prod_short](includes/cds_long_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)], you can decide whether to synchronize data in selected fields of [!INCLUDE[prod_short](includes/prod_short.md)] (such as customers, contacts, and sales people) with equivalent rows in [!INCLUDE[prod_short](includes/cds_long_md.md)] (such as accounts, contacts, and users). Depending on the type of row, you can synchronize data from [!INCLUDE[prod_short](includes/cds_long_md.md)] to [!INCLUDE[prod_short](includes/prod_short.md)], or vice versa. For more information, see [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
@@ -70,7 +71,7 @@ A virtual table is a custom table that has columns and rows that contain data fr
 To learn more about virtual tables, go to the following articles:
 
 * [Create and edit virtual tables that contain data from an external data source](/power-apps/maker/data-platform/create-edit-virtual-entities) (Power Apps documentation)
-* [Business Central Virtual Table for Microsoft Dataverse Admin Reference](/business-central/dev-itpro/powerplatform/powerplat-admin-reference) ([!INCLUDE [prod_short](includes/prod_short.md)] documentation)
+* [Business Central Virtual Table for Microsoft Dataverse Admin Reference](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-admin-reference) ([!INCLUDE [prod_short](includes/prod_short.md)] documentation)
 
 To use virtual tables, you must install the **Business Central Virtual Entity** app from [AppSource](https://appsource.microsoft.com/en-US/product/dynamics-365/microsoftdynsmb.businesscentral_virtualentity). 
 
@@ -100,10 +101,10 @@ If you enable multi-company support on an integration table mapping, we recommen
 
 If your number series doesn't guarantee that primary key values are unique to each company, we recommend that you use prefixes. To start using prefixes, create a transformation rule on the integration field mapping. To learn more about transformation rules, go to [Handle differences in field values](admin-how-to-modify-table-mappings-for-synchronization.md#handle-differences-in-field-values).
 
-## See Also  
+## See also  
 
 [Couple and Synchronize Records Manually](admin-how-to-couple-and-synchronize-records-manually.md)   
-[Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
+[Schedule a Synchronization](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [Integrating with Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

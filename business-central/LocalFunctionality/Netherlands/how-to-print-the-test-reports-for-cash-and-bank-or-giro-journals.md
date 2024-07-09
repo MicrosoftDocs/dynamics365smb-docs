@@ -6,6 +6,8 @@ ms.topic: conceptual
 ms.search.keywords:
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Print the Test Reports for Cash and Bank or Giro Journals
 You can use the **CBG Posting - Test** report to edit the statement lines and see the effect of posting before you post cash journals and bank or giro journals.  

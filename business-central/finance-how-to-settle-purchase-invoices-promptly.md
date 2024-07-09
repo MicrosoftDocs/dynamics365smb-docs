@@ -6,6 +6,8 @@ ms.topic: conceptual
 ms.search.form: 51, 9308
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Settle Purchase Invoices Promptly
 

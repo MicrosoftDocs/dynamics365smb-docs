@@ -1,16 +1,18 @@
 ---
-title: Set up email in Business Central (contains video)
+title: Set up email in Business Central
 description: Describes how to connect email accounts to Business Central so that you can send outbound messages without having to open another app.
 author: brentholtorf
 ms.author: bholtorf
 ms.topic: get-started
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 09/13/2023
+ms.date: 06/03/2024
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# Set Up Email
+# Set up email
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -30,7 +32,7 @@ There are a couple of requirements for setting up and using the email features.
 * To set up email, you must have the **EMAIL SETUP** permission set. For more information, see [Assign Permissions to Users and Groups](ui-define-granular-permissions.md).
 * Everyone who will use the email features must be a fully-licensed [!INCLUDE [prod_short](includes/prod_short.md)]. For example, delegated admins and guest users can't use the tenant's email account.
 
-## Add Email Accounts
+## Add email accounts
 
 You add email accounts through extensions that enable accounts from different providers to connect to [!INCLUDE[prod_short](includes/prod_short.md)]. The standard extensions let you use accounts from Microsoft Exchange Online. However, other extensions that let you connect accounts from other providers, such as Gmail, might be available.
 
@@ -44,10 +46,19 @@ The following table describes the email extensions that are available by default
 |**Current User Connector**|Everyone sends email from the account they used to sign in to [!INCLUDE[prod_short](includes/prod_short.md)].|Allow communications from individual accounts.|
 |**SMTP Connector**|Use SMTP protocol to send emails.|Allow communications through your SMTP mail server. |
 
-> [!NOTE]
-> The **Microsoft 365 Connector** and **Current User Connector** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Microsoft 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. Additionally, in sandbox environments, these extensions require that the **Allow HttpClient Requests** setting is enabled. To check whether it is enabled for these extensions, go to the **Extension Management** page, choose the extension, and then choose the **Configure** option.
+The **Microsoft 365 Connector** and **Current User Connector** extensions use the accounts you set up for users in the Microsoft 365 admin center for your Microsoft 365 subscription. To send email using the extensions, users must have a valid license for Exchange Online. Additionally, in sandbox environments, these extensions, including the **Outlook REST API** extension, require that the **Allow HttpClient Requests** setting is enabled. To check whether it is enabled for these extensions, go to the **Extension Management** page, choose the extension, and then choose the **Configure** option.
 
-> External users, such as delegated admins and external accountants, cannot use these extensions to send email messages from [!INCLUDE[prod_short](includes/prod_short.md)].
+External users, such as delegated admins and external accountants, can't use these extensions to send email messages from [!INCLUDE[prod_short](includes/prod_short.md)].
+
+> [!NOTE]
+> If you’re using service-to-service (S2S) authentication, the Microsoft 365 and Current user connectors can’t authenticate the user when they send a sales or purchase document by email. When someone sends a document, the following error message displays:
+>
+> “You are not authorized to access this resource: https:\//graph.microsoft.com/.default. Contact your system administrator."
+>
+> The problem is caused by the bound actions on the document APIs that send email. To learn more about the bound actions, go to [Bound Actions](/dynamics365/business-central/dev-itpro/api-reference/v2.0/resources/dynamics_salesinvoice#bound-actions). 
+>
+> If you want to use S2S authentication and the email features, use the SMTP connector option.
+<br><br>
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
@@ -56,7 +67,7 @@ The following table describes the email extensions that are available by default
 If you want to use SMTP protocol to send emails from [!INCLUDE[prod_short](includes/prod_short.md)], you can use the SMTP Connector extension. When you set up an account that uses SMTP, the **Sender Type** field is important. If you choose **Specific User**, emails will be sent using the name and other information from the account you're setting up. However, if you choose **Current User**, emails will be sent from the email account specified for each user's account. Current User is similar to the Send As feature. For more information, see [Use a Substitute Sender Address on Outbound Email Messages](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you can use OAuth 2.0 protocol for authentication. To use OAuth for SMTP, all users must be on the same Microsoft Entra tenant. 
+> To use OAuth for SMTP, all users must be on the same Microsoft Entra tenant. 
 > 
 > You must create an application registration in the Azure portal, and then run the **Set up Microsoft Entra ID** assisted setup guide in [!INCLUDE[prod_short](includes/prod_short.md)] to connect to Microsoft Entra ID. For more information, see [Create an App Registration for Business Central in Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
@@ -221,6 +232,7 @@ The settings that are specific to the email capabilities are the delegated permi
 |Microsoft Graph / Mail.ReadWrite |Delegated|Compose email messages.         |
 |Microsoft Graph / Mail.Send|Delegated|Send email messages.         |
 |Microsoft Graph / offline_access|Delegated|Maintain data access consent.|
+|Microsoft Graph / Mail.Send.Shared|Delegated|Shared Mailbox|
 
 If you're using the SMTP Connector and want to use OAuth 2.0 for authentication, the permissions are slightly different. The following table lists the permissions.
 
@@ -276,7 +288,7 @@ After you register your application in Azure portal, in [!INCLUDE[prod_short](in
 
 -->
 
-## See Also
+## See also
 
 [Shared mailboxes in Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

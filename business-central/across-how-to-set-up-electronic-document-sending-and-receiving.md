@@ -1,16 +1,20 @@
 ---
-    title: How to Set Up Electronic Document Sending and Receiving | Microsoft Docs
-    description: As an alternative to emailing as file attachments, you can send and receive business documents electronically.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+title: How to Set Up Electronic Document Sending and Receiving | Microsoft Docs
+description: As an alternative to emailing as file attachments, you can send and receive business documents electronically.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Electronic Document Sending and Receiving
+
+> [!NOTE]
+> The content in this article is only applicable for versions of Dynamics 365 Business Central that were released before 2023 release wave 2. In 2023 release wave 2, new functionality for E-Documents is included. To learn more, see [Set up e-documents](finance-how-setup-edocuments.md). 
+
 
 As an alternative to emailing as file attachments, you can send and receive business documents electronically. By electronic document is meant a standard\-compliant file representing a business document, such as an invoice from a vendor that can be received and converted to a purchase invoice in [!INCLUDE[prod_short](includes/prod_short.md)]. The exchange of electronic documents between two trading partners is performed by an external provider of document exchange services. The generic version of [!INCLUDE[prod_short](includes/prod_short.md)] supports sending and receiving electronic invoices and credit memos in the PEPPOL format, which is supported by the largest providers of document exchange services. A major provider of document exchange services is preconfigured and ready to be set up for your company.  
 

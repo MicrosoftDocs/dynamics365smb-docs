@@ -4,14 +4,14 @@ description: This article provides information about keyboard shortcuts and othe
 author: jswymer
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Accessibility and Keyboard Shortcuts
 

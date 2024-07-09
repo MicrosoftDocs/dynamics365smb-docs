@@ -3,12 +3,12 @@ title: Set up data exchange to send and receive files
 description: Set up the data exchange framework in order to exchange data with external files; to send and receive electronic documents or import and export bank files.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.date: 06/11/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Setting Up Data Exchange
 

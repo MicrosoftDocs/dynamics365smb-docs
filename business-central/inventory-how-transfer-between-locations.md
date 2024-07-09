@@ -1,21 +1,23 @@
 ---
-title: Transfer Items Between Warehouse Locations
+title: Transfer items between warehouse locations
 description: Learn how to move inventory from one place or warehouse to another, either with the reclassification journal or with transfer orders.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 02/21/2023
+ms.date: 07/08/2024
 ms.custom: bap-template
 ms.search.keywords: move, warehouse
 ms.search.forms: 5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755
+ms.service: dynamics-365-business-central
 ---
-# Transfer Inventory Between Locations
+
+# Transfer inventory between locations
 
 You can transfer inventory items between locations by creating transfer orders. Alternatively, you can use the item reclassification journal.
 
 > [!NOTE]
-> To transfer items, you must set up locations and transfer routes. To learn more about setting up locations, go to [Set Up Locations](inventory-how-setup-locations.md). You can't use transfer orders for *blank* locations.
+> To transfer items, you must set up locations and transfer routes. To learn more about setting up locations, go to [Set up locations](inventory-how-setup-locations.md). You can't use transfer orders for *blank* locations.
 
 ## Transfer orders
 
@@ -24,16 +26,18 @@ You can ship an outbound transfer from one location and receive an inbound trans
 * Track a quantity in transit
 * Define calendars, routings, and inbound and outbound handling times for date calculation and planning. To learn more about planning, go to [About Planning Functionality](production-about-planning-functionality.md).
 * Use different warehouse features for inbound and outbound locations.
-* With some limitations, you can use transfer orders for direct transfers.
+* Use transfer orders for direct transfers, with some limitations.
 
 ## Item reclassification journals
 
-* Simple, direct transfer of items between locations.
+You can use the **Item Reclassification Journals** page to:
+
+* Direct transfer of items between locations.
 * Move items between bins. To learn more about transferring items between bins, go to [Move Items Unplanned in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
 * Change a lot or serial number to a new lot or serial number. To learn more about reclassifying serial and lot numbers, go to [Reclassify serial or lot numbers](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
-* Chang the expiration date to a new date.
-* Reclassify items from a *blank* location to an actual location.
-* Warehouse activities are not managed. Warehouse entries will be created.
+* Change the expiration date to a new date.
+* Reclassify items from a blank location to an actual location.
+* Create warehouse entries if you don't manage warehouse activities.
 
 ## To transfer items with a transfer order
 
@@ -50,14 +54,14 @@ You can ship an outbound transfer from one location and receive an inbound trans
     |Option  |Description  |
     |---------|---------|
     |Manually     | On the **Lines** FastTab, fill in a line for an item, or use the **Select items** action to choose multiple items.        |
-    |Automatically     | * Choose the **Get Bin Content** action to select existing items from a specific bin at the location.<br><br>* Choose the **Get Receipt Lines** to select items that have just arrived at the transfer-from location.        |
+    |Automatically     | * Choose the **Get Bin Content** action to select existing items from a specific bin at the location.<br><br>* Choose the **Get Receipt Lines** to select items that just arrived at the transfer-from location.        |
 
     You can now ship the items.
 4. Choose the **Post** action, choose the **Ship** option, and then choose the **OK** button.
 
-    The items are now in transit between the specified locations, according to the specifies transfer route.
+    The items are now in transit between the specified locations according to the transfer route.
 
-    As a warehouse worker at the transfer-from location, proceed to receive the items. The transfer order lines are the same as when shipped and cannot be edited.
+    As a warehouse worker at the transfer-from location, proceed to receive the items. The transfer order lines are the same as when shipped and can't be edited.
 5. Choose the **Post** action, choose the **Receive** option, and then choose the **OK** button.
 
 ### Post multiple transfer orders in a batch
@@ -68,7 +72,7 @@ The following procedure explains how to post transfer orders in a batch.
 2. On the **Transfer Orders** page, select the orders to post.
 3. In the **No.** field, open the context menu and choose **Select More**.
 4. Select the checkbox for the lines for each order that you want to post.
-5. Choose the **Posting** action, and then choose **Post Batch**.
+5. Choose the **Post** action, and then choose **Post Batch**.
 6. On the **Batch Post Transfer Order** page, fill in the fields as necessary.
 
    > [!TIP]
@@ -117,8 +121,8 @@ The following procedure shows how to set up the **Batch Post Transfer Orders** r
 
 If you find a mistake in a quantity on a posted transfer order, as long as the shipment isn't received you can easily correct the quantity. On the **Poster Transfer Shipment** page, the **Undo Shipment** action creates corrective lines, as follows:
 
-* The value in the **Quantity Shipped** field is decreased by the quantity you've undone.
-* The value in the **Qty. to Ship** field is increased by the quantity you've undone.
+* The value in the **Quantity Shipped** field is decreased by the undone quantity.
+* The value in the **Qty. to Ship** field is increased by the undone quantity.
 * The **Correction** checkbox is selected for the lines.
 
 If the quantity was shipped in a warehouse shipment, a corrective line is created in the posted warehouse shipment.

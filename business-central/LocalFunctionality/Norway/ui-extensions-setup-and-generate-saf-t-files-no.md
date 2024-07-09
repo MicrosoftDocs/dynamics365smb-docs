@@ -3,13 +3,13 @@ title: Setup and generate SAF-T files
 description: Use this extension to setup and generate SAF-T files for the Norwegian authorities in Business Central.
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: extension, saf-t, authorities, export, compliance
 ms.search.form: 10670, 10671, 10672, 10673, 10674, 10675, 10677, 10678, 10679, 10680, 10685, 10686, 10687, 10688, 10689, 10690, 10691, 
 ms.date: 09/18/2023
 ms.author: soalex
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Standard audit files - tax

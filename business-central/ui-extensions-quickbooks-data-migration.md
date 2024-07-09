@@ -3,13 +3,13 @@ title: QuickBooks Data Migration Extension
 description: Describes how to use the extension to import customers, vendors, items, and accounts from QuickBooks Desktop to Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: app, add-in, manifest, customize, import, implement
 ms.search.form: 1911, 1912, 1913, 1914, 1915, 1916, 1918, 1919
 ms.date: 06/24/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # The QuickBooks Data Migration Extension

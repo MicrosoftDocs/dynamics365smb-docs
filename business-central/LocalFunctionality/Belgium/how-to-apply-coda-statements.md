@@ -3,13 +3,13 @@ title: Apply CODA Statements [BE]
 description: After a CODA statement has been imported, the statement lines can be accessed from the Bank Account Card page. 
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 2000040
 ms.date: 06/25/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Apply CODA Statements in the Belgian Version
 

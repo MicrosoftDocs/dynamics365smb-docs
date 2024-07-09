@@ -3,11 +3,11 @@ title: Czech Local Functionality - Customers/Vendors Reconciliations
 description: The following topics describe the local functionality Customers/Vendors Reconciliations in the Czech version of Business Central.
 author: v-pejano
 
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Payables, Localization, CZ
 ms.date: 06/17/2021
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

@@ -2,12 +2,13 @@
 title: Status Field on Documents
 description: Learn about the 'Open' and 'Released' status on quote, order, or credit memo documents.
 author: brentholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: document, status, quote, order, credit memo, released, open, pending approval, pending prepayment,
 ms.search.form: 
 ms.date: 09/19/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
 # Status Field on Documents
 

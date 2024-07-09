@@ -3,12 +3,12 @@ title: Troubleshoot Issues with Self-Service Sign-Up | Microsoft Docs
 description: Learn about the most common reasons why you may not be able to complete the signup to Business Central, and ways to work around them.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Troubleshooting Self-Service Sign-Up
 Signing up for [!INCLUDE[prod_short](includes/prod_short.md)] is easy and can be done very quickly. You can create a free account even if you are an existing organization. This article addresses issues that you may have during signup.

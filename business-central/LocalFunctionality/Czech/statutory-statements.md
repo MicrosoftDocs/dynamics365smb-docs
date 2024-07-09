@@ -3,11 +3,11 @@ title: Czech Local Functionality - Statutory Statements [CZ]
 description: This feature provides the reports - Balance Sheet, Income Statement.
 author: v-makune
 
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 08/26/2022
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

@@ -8,6 +8,8 @@ ms.search.keywords: administration, admin, key, optional, feature management, ea
 ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Enabling New and Upcoming Features Ahead of Time

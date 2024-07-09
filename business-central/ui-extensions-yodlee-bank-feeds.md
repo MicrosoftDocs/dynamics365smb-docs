@@ -3,14 +3,14 @@ title: Payment Reconciliation With the Envestnet Yodlee Bank Feeds Extension
 description: Describes the Envestnet Yodlee Bank Feeds extension, which links to bank accounts so you can and quickly reconcile payments.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.search.form: 1450, 1451, 1452, 1453, 1454, 1458, 1460, 
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # The Envestnet Yodlee Bank Feeds Extension
 

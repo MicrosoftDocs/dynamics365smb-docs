@@ -1,15 +1,15 @@
 ---
-title: Sales Quick Start (contains video)
+title: Sales Quick Start
 description: Learn how to fill in the first critical fields about products and customers in Business Central so that you can start your sales processes.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Sales Quick Start

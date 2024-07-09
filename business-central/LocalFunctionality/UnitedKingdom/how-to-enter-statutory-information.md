@@ -3,12 +3,12 @@ title: Enter Statutory Information [UK]
 description: To comply with legal requirements, statutory information is available on the Statutory FastTab on the Company Information page.
 author: brentholtorf  
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Enter Statutory Information in the British Version
 

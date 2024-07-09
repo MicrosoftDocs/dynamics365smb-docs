@@ -9,6 +9,7 @@ ms.search.keywords:
 ms.date: 08/26/2022
 ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Define a Financial Report Constant

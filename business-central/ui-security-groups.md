@@ -7,7 +7,8 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: access, right, security, permissions
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862
-ms.date: 02/08/2023
+ms.date: 04/15/2024
+ms.service: dynamics-365-business-central
 ---
 
 # Control Access to Business Central Using Security Groups
@@ -21,7 +22,7 @@ Security groups make it easier for administrators to manage user permissions. Fo
 You can use security groups for the online and on-premises versions of [!INCLUDE [prod_short](includes/prod_short.md)]. Depending on your version, create groups in one of the following ways:
 
 * For the online version, use Microsoft Entra security groups. To learn more about creating the group, go to [Create, edit, or delete a security group in the Microsoft 365 admin center](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
-* For on-premises, use Windows Active Directory groups. To learn more, go to [Create a Group Account in Microsoft Entra ID](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory).
+* For on-premises, security groups are only supported if the deployment is using Windows authentication. To create security groups for on-premises, use Windows Active Directory groups. To learn more, go to [Create a Group Account in Windows Active Directory](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory). 
 
 Afterward, create a corresponding security group in [!INCLUDE [prod_short](includes/prod_short.md)], and then link it to the group you created. To learn more, go to [Add a security group in Business Central](#add-a-security-group-in-business-central).
 
@@ -46,7 +47,8 @@ Afterward, create a corresponding security group in [!INCLUDE [prod_short](inclu
 1. Assign permissions in the following ways:
 
     * To assign permission sets individually, in the **Permission Set** field, choose the permissions to assign.
-    * To assign multiple permission sets, choose the **Select Permission Sets** action, and then choose the sets to assign.
+    * To assign multiple permission sets, choose the **Add multiple** action, and then choose the sets to assign.
+1. If you want the permission sets to apply only to a specific company, set the **Company** column to that company. If you want the permission set to apply to all companies, leave the **Company** column blank. [Learn more](ui-define-granular-permissions.md#control-access-to-specific-companies).
 
 ## Review the permissions in a security group
 

@@ -8,6 +8,8 @@ ms.search.form: Report_5871, Report_5872, Report_99000753, Report_99000756, Repo
 ms.date: 06/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Production Reports and Analytics in Business Central
 

@@ -3,14 +3,14 @@ title: Deferrals in Sales ledger and Purchase ledger reports
 description: Learn how to set up and use deferrals in Sales ledger and Purchase ledger reports in the Belgian version of Business Central.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: deferral, sales ledger, purchase ledger
 ms.search.form: 279, 1700, 1701
 ms.date: 03/13/2023
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Deferrals in Sales ledger and Purchase ledger reports

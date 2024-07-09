@@ -9,6 +9,7 @@ ms.date: 09/28/2023
 ms.author: bholtorf
 ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # Brexit Impact on Business Central
 

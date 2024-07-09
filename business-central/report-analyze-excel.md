@@ -4,13 +4,13 @@ description: Learn how to use Excel and XML to analyze a report dataset.
 author: jswymer
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.date: 03/16/2022
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Analyzing Report Data with Excel and XML
 

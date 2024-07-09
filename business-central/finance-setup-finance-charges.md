@@ -3,14 +3,14 @@ title: Set Up Finance Charge Terms
 description: Learn how to set up Business Central so that you can inform customers of added charges by sending finance charge memos.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: payment due, debt, overdue, fee, charge
 ms.search.form: 6, 494
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Finance Charge Terms
 

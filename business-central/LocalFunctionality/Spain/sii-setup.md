@@ -3,13 +3,13 @@ title: Set up SII for VAT reporting [ES]
 description: This article explains how to submit documents through SII in the Spanish version of Microsoft Dynamics 365 Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 10740, 10751, 10752, 10753, 10770, 10771, 747, 473, 472
-ms.date: 05/01/2023
+ms.date: 04/25/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up SII for VAT Reporting in the Spanish Version
 
@@ -44,7 +44,7 @@ You can always manually submit documents that have a *Pending* status by selecti
 
 ## Specify customers without a registered NIF with AEAT
 
-If a customer's NIF number is not yet registered in the AEAT database, document submissions will be rejected. In this case, you can select the **Not in AEAT** option and resubmit the document.
+If a customer's NIF number isn't yet registered in the AEAT database, document submissions will be rejected. In this case, you can select the **Not in AEAT** option and resubmit the document.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.  
 2. Choose the relevant customer to open the **Customer Card**.
@@ -70,9 +70,18 @@ If you decide to close some entries for **VAT Posting Setup**, the system automa
 > [!NOTE]
 > You can generate the **VAT Declaration** on the **VAT Statements** page. Select **Preview** on the **VAT Statements** page to view the result for the option **Include VAT Entries** = **Open**. This option also works for **No Taxable Entries**. Printing of the **VAT Statement** report also supports the **Include VAT Entries** option for the same values (**Open**, **Closed**, and **Open and Closed**) for both **VAT Entries** and **No Taxable Entries**.
 
+## Ignoring invoice lines for SII 
+
+In some situations, the user must use a line in the invoice, but not report it to SII. To make a setup for this requirement, follow these steps:
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then select the related link. 
+1. Open the **VAT Posting Setup Card** where you want to configure this exemption and choose the **Ignore in SII** field for this posting group.  
+
+When you have configured **VAT Posting Setup**, and after you create sales or purchase invoice, you can select **Item** and/or **G/L Account** with the certain **VAT Posting Setup**, and the line with this setup will be ignored when you report it to SII. This line exists in the **VAT Entry**, but this entry will have *Yes* in the **Ignore in SII** field.  
+
 ## See also
 
-[SII - Invoice and Credit Memo Types in Sales and Purchase Documents](SII-invoice-types-sales-purchase-documents.md)  
-[Spain Local Functionality](spain-local-functionality.md)
+[SII - Invoice and Credit Memo Types in Sales and Purchase Documents](SII-invoice-types-sales-purchase-documents.md)    
+[Spain Local Functionality](spain-local-functionality.md)    
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

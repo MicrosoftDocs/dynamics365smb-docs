@@ -1,15 +1,15 @@
 ---
-    title: Set Up Vendors for Automatic Payment Suggestions [BE]
-    description: You can set up each vendor so that unpaid invoices from that vendor are automatically included in payment suggestions.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/17/2021
-    ms.author: bholtorf
+title: Set Up Vendors for Automatic Payment Suggestions [BE]
+description: You can set up each vendor so that unpaid invoices from that vendor are automatically included in payment suggestions.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/17/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Vendors for Automatic Payment Suggestions in the Belgian Version
 

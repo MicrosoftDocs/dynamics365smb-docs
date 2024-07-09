@@ -3,13 +3,13 @@ title: Financial Information Quick Start
 description: Get your company ready for business by setting up the financial information in Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: 
 ms.date: 08/25/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Financial Information Quick Start

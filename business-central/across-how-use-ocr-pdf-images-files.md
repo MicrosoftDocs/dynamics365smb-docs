@@ -4,12 +4,12 @@ description: Describes how you can use an OCR service to convert incoming PDF or
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/14/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Use OCR to Turn PDF and Image Files into Electronic Documents
 

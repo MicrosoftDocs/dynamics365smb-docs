@@ -7,6 +7,7 @@ ms.topic: conceptual
 ms.search.keywords: user-depreciation
 ms.date: 07/05/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Set Up Fixed Assets with User-Defined Depreciation Methods

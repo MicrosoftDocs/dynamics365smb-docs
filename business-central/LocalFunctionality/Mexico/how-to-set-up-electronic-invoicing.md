@@ -3,12 +3,12 @@ title: Set Up Electronic Invoicing [MX]
 description: Before you can send electronic documents in Mexico, you must set up Business Central to ensure that the required identification numbers are in place for CFDI.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.date: 05/19/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set up Electronic invoicing - Mexico

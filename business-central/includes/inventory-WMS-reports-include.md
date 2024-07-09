@@ -1,8 +1,10 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/13/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 The following table describes some of the key reports in inventory and warehouse management.
@@ -10,7 +12,7 @@ The following table describes some of the key reports in inventory and warehouse
 | Report | Description | ID | 
 |---------|---------|---------|
 |[Inventory Availability Plan](https://businesscentral.dynamics.com?report=707)|Get an overview of specific items and stock-keeping units, and their availability. This report shows accumulated values such as gross requirements, scheduled and planned receipts, inventory, and so on. |707|
-|[Inventory Valuation](https://businesscentral.dynamics.com?report=1001)|Displays inventory valuation for selected items in your inventory. The report also shows information about the value of increases and decreases in inventory over time.|1001|
+|[Inventory Valuation](https://businesscentral.dynamics.com?report=1001)|Displays inventory valuation for selected items in your inventory. The report also shows information about the value of increases and decreases in inventory over time.<br><br>The report will also print the expected cost of entries that have been posted as received or shipped, depending on whether you enable the **Include Expected Cost** toggle.<br><br>If you enable **Include Expected Cost**, the report groups entries and shows a group total of invoiced and expected costs for each Inventory Posting Group.<br><br>You can also narrow your report output with the Location and Variant Filters. However, as the report is built on top of a value entry, you can't use Bin Filter.<br><br>To ensure that the **Inventory Valuation** report is up-to-date, it's recommended to run the **Adjust Cost - Item Entries** batch job prior to running this report.<br><br>In the US, Canada, and Mexico, this report isn't available. Instead, use the localized version of Inventory Valuation (10139) report.|1001|
 |[Item Expiration - Quantity](https://businesscentral.dynamics.com?report=5809)|Get an overview of the quantities of selected items in inventory with expiration dates in a certain period. The list shows the number of units of the selected item that will expire in a given time period. For each of the items you specify, the report shows the number of units that will expire during each of three periods of equal length and the total inventory quantity.<br><br>Use filters to specify what the report includes. If you don't set filters, the report will include all your records. The quantities in the report reflect only the quantities of the item for which expiration dates are defined.|5809|
 |[Item Age Composition - Quantity](https://businesscentral.dynamics.com?report=5807)|Get an overview of the current age composition of selected items in your inventory. This report categorizes the on-hand quantity for selected items into three period buckets. You can specify the end date of the last bucket and duration of time buckets (period). The report analyzes the remaining quantity of open item ledger entries that are usually a result of purchases, output, or positive adjustments.|5807|
 |[Item Age Composition - Value](https://businesscentral.dynamics.com?report=5808)|Get an overview of the current age composition of selected items in your inventory. This report categorizes of on-hand value for selected items into three period buckets. You can specify the end date of the last bucket and duration of time buckets (period). The report analyzes the remaining quantity of open item ledger entries that are usually a result of purchases, output, or positive adjustments.|5808|

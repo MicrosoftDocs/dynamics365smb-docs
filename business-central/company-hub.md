@@ -8,6 +8,8 @@ ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 09/28/2023
 ms.author: bholtorf
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Manage Work across Multiple Companies in the Company Hub

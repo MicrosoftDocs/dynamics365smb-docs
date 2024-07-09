@@ -2,7 +2,7 @@
 title: Meet Microsoft Invoicing | Invoicing
 description: Microsoft Invoicing is no longer available.
 author: brentholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na

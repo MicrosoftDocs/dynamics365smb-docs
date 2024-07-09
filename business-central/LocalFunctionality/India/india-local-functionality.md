@@ -1,15 +1,15 @@
 ---
-    title: India Local Functionality | Microsoft Docs
-    description: This section describes local functionality in India.
-    author: v-debapd
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+title: India Local Functionality | Microsoft Docs
+description: This section describes local functionality in India.
+author: v-debapd
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # India Local Functionality
 

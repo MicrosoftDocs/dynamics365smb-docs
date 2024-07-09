@@ -4,7 +4,7 @@ description: Share Business Central records directly in a Teams conversation.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: overview
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 09/22/2022

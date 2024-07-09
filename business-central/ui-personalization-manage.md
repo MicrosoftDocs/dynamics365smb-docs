@@ -5,10 +5,10 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.search.form: 9171
-ms.date: 08/25/2023
+ms.date: 06/13/2024
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 # Customize pages for profiles
@@ -94,12 +94,15 @@ Use the filter button above the list to change what category of fields are prese
  
 ### Add table field that's not on the page object
 
-If you want to make a table-only field available on a page to users, you must first add it to the page. Once you've added the field, users can choose to show or hide the field as they like using personalization. There are couple ways to add a field.
+If you want to make a table-only field available on a page to users, you must first add it to the page. Once you've added the field, users can choose to show or hide the field by using personalization. There are couple ways to add a field.
 
 - One way is to drag it from  **Add field to page** pane to the desired position.
 - Another way is to select the field in the pane to display the recommended location on the page. Then go to the field location on the pages, select the arrowhead, then select **Add**. 
 
-Once the field has been added, the tooltip for the field in the  **Add field to page** pane switches to **Defined by the page**. The added field is locked from editing and can't be unlocked.
+Once the field has been added, the tooltip for the field in the  **Add field to page** pane switches to **Defined by the page**.
+
+> [!NOTE]
+> The added field is locked from editing and can't be unlocked.
 
 ## Remove a field
 
@@ -120,9 +123,9 @@ Customization allows you to lock (allow editing) or unlock editing (prevent edit
 
 
 <!--However, whatever option you choose for a field, users can always change the setting on their own workspace using personalization. For this reason, it's important to consider locking as a deterrence measure and not a preventative measure.--> 
-## Important information and tips 
+## Important information and tips
 
-- Not all table fields may be available for customization from the **Add field to page** pane. The developer of a table can choose to prevent a field from appearing in customization by setting the field's [AllowInCustomization property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-allowincustomizations-property) to `false`.
+- Not all table fields may be available for customization from the **Add field to page** pane. The developer of a table can choose to prevent a field from appearing in customization by setting the field's [AllowInCustomization property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-allowincustomizations-property) to `Never`.
 - You can't customize a page that's in [analysis mode](analysis-mode.md). The **Analyze** switch is deactivated. If you switch to customization mode while the page is in analysis mode, then analyze mode is automatically switched off. 
 - Some pages have multiple page fields that map to the same source table. The **Add field to page** pane shows all of these page fields independently. You can show, hide, or move these fields independently without affecting the others.
 - If a part or group is hidden, you can still identify hidden fields inside the part or group, but you can't add, move or show fields in the part or group until they're made visible. 

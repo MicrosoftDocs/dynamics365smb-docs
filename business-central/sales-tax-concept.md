@@ -3,14 +3,14 @@ title: Sales Tax in the Default Version
 description: Learn about how the base version of Business Central supports sales tax, and get a description of the basic concept.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: tax, posting, sales tax
 ms.search.form: 10, 315, 466, 467, 468, 469, 10015, 10016, 10101
 ms.date: 07/21/2022
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Sales Tax in the Default Version of Business Central

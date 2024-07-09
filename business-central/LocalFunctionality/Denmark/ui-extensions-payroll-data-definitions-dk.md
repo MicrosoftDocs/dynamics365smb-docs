@@ -3,14 +3,14 @@ title: Payroll Data Definitions [DK]
 description: This topic explains how the payroll data definitions extension makes it easy to exchange data with payroll service providers in Denmark.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 13640
 ms.date: 06/25/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # The Payroll Data Definitions (DK) Extension

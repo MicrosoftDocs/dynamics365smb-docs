@@ -1,17 +1,17 @@
 ---
-title: Working with Dimensions to Track and Analyze Data
+title: Working with dimensions to track and analyze data
 description: Use dimensions to categorize entries, such as by department or project, so you can more easily track and analyze data to help you make good business decisions.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 01/27/2023
+ms.date: 04/26/2024
 ms.custom: bap-template
 ms.search.keywords: analysis, history, track, business intelligence
 ms.search.form: 408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253
 ---
-# Work with Dimensions
+# Work with dimensions
 
 Dimensions are values that categorize entries so you can track and analyze them on documents, such as sales orders. Dimensions can, for example, indicate the project or department an entry came from.  
 

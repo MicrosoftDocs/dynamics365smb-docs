@@ -3,13 +3,13 @@ title: Batch Post Production Output and Run Times
 description: The output quantity represents the work progress in the form of the finished quantity and used capacity of work or machine center.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 99000773, 99000778, 99000823, 99000827
 ms.date: 03/08/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Batch Post Output and Run Times
 

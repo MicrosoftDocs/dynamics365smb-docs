@@ -3,14 +3,14 @@ title: Register Employees and Modify Information
 description: Describes how to use the Human Resources functionality to register new personnel or edit employee information for existing staff.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5221, 5228
 ms.date: 06/16/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Register Employees
 

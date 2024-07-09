@@ -3,14 +3,14 @@ title: Set up and generate DIOT reports | Microsoft Docs
 description: Use this extension to setup and generate DIOT declarations in Business Central for the Mexican authorities.
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: extension, diot, authorities, export, compliance
 ms.search.form: 27030, 27031, 27032, 27033, 27034
 ms.date: 06/24/2021
 ms.author: soalex
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set Up and Generate DIOT Reports

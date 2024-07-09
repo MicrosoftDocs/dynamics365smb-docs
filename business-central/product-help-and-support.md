@@ -1,24 +1,36 @@
 ---
-title: Resources for Help and Support
-description: Find product Help, guidance, troubleshooting tips, and assistance, and learn how to get technical support for Business Central.
+title: Resources for help and support
+description: Learn how to get help and support for Business Central, including chat with Copilot, in-product tips, Help pane, Help & Support page, product documentation, and community forums.
 author: brentholtorf
-ms.reviewer: na
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
-ms.author: bholtorf
-ms.date: 09/28/2023
+ms.date: 06/13/2024
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
-# Resources for Help and Support
+# Resources for help and support
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
-Organizations that use [!INCLUDE[prod_long](includes/prod_long.md)] can get technical support for any issues that they may experience. In this article, we show you the following information and many other tips for how to use [!INCLUDE[prod_short](includes/prod_short.md)]:
+Organizations that use [!INCLUDE[prod_long](includes/prod_long.md)] can get technical support for any issues that they might experience. In this article, we show you the following information and many other tips for how to use [!INCLUDE[prod_short](includes/prod_short.md)]:
 
+- Learn how your AI-powered assistant [can guide and explain](#chat-with-copilot)
 - Learn how to [get unblocked](#in-product-tips)  
-- Learn where to [learn more](#help-pane)    
-- Learn how to find [the technical information](#help--support-page) you need to submit a support request    
+- Learn where to [learn more](#help-pane)
+- Learn how to find [the technical information](#help--support-page) you need to submit a support request
+
+## Chat with Copilot
+
+[!INCLUDE [online_only](includes/online_only.md)]
+
+Chat with Copilot is an AI-powered tool that answers questions and finds business data related to Business Central. You can access it from any page by selecting the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon in the upper-right corner. [Learn more about chat with Copilot](chat-with-copilot.md).
+
+### Help with fields
+
+Copilot can help you understand the purpose and typical use of individual fields. When you choose **Ask Copilot** in a tooltip for a field, chat opens with an Explain prompt for the field name and Copilot provides information about it. Copilot links to the articles it referenced, so you can verify the description.
 
 ## In-product tips
 
@@ -34,14 +46,9 @@ In [!INCLUDE [prod_short](includes/prod_short.md)], the Help menu item (the ques
 
 The following list describes how you can access the Help pane and whether cards are added to it:
 
-- Choose the *Learn more* link on a tooltip for a field
-
-  The following card is added to the Help pane:
-
-  - The field's tooltip
-- Choose the *Learn more* link on a tooltip for an action
 - Choose the Help menu item (the question mark in the top-right corner)
-- Use the <kbd>Ctrl</kbd>+<kbd>F1</kbd> keyboard shortcut from anywhere
+- Use the <kbd>Ctrl</kbd>+<kbd>F1</kbd> keyboard shortcut from anywhere in Business Central.
+- Choose the *Learn more* link on a tooltip for a field, if available. The *Learn more* link is only available in the mobile app or on custom fields (that is, fields from non-Mocrosoft extensions) in the web client.
 
 > [!TIP]
 > When you choose a link, the target article opens in a new browser tab. You can choose to un-dock the browser tab, then, so that you can view the relevant information side-by-side with [!INCLUDE [prod_short](includes/prod_short.md)]. The pane remains open while you navigate through [!INCLUDE [prod_short](includes/prod_short.md)] so that content you searched for remains visible.  
@@ -75,7 +82,7 @@ This section outlines the resources available to you in the different sections o
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-### Find Answers
+### Find answers
 
 The **Find it** section provides links to the most common places to find answers to your questions. The links fall into four categories and are explained in the following subsections. Your [!INCLUDE[prod_short](includes/prod_short.md)] partner can configure some of the links, and as a result the behavior can be slightly different.  
 
@@ -99,7 +106,7 @@ If you don't yet have a partner, the Community can also help you get unblocked i
 
 #### Blog
 
-We talk about new capabilities on [the Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), including if there are special considerations.  
+We talk about new capabilities on [the Dynamics 365 Blog](https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/product/dynamics-365-business-central/), including any special considerations.  
 
 #### Capabilities coming soon
 
@@ -139,7 +146,7 @@ As the internal administrator, you have access to the admin center where you can
 
 ### Report a problem
 
-Your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner helps you with technical support. This section makes it easy for you to contact your reselling partner, if they've submitted their support contact details. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then can't resolve the problem, they raise a support ticket with Microsoft.  
+Your [!INCLUDE[prod_short](includes/prod_short.md)] reselling partner helps you with technical support. This section makes it easy for you to contact your reselling partner, if they submit their support contact details. If your [!INCLUDE[prod_short](includes/prod_short.md)] partner then can't resolve the problem, they raise a support ticket with Microsoft.  
 
 For more information, see [Escalating support issues to Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) in the administration content.  
 
@@ -181,14 +188,14 @@ From inside the product, you can access this content either through the *Learn m
 
 The navigation panel shows the table of contents that groups articles by business area. For example, you read the article [Purchase Items for a Sale](purchasing-how-purchase-products-sale.md), and then the table of contents shows you that there's also an article called [Correct or Cancel Unpaid Purchase Invoices](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Both articles are in the group called *Purchasing*, which bundles articles that are related to the Purchasing module in [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-The table of contents includes a group of content that describes [local functionality](about-localization.md) for the countries/regions that Microsoft supports. If you don't see your country or region listed there, it's probably because your country or region is localized by a partner. Learn more at [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+The table of contents includes a group of content that describes [local functionality](about-localization.md) for the countries/regions that Microsoft supports. If you don’t see your country or region listed there, it’s probably because a partner localizes your country or region. Learn more at [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 The local functionality content describes the capabilities in [!INCLUDE [prod_short](includes/prod_short.md)] that can help you be compliant in the supported markets, such as tax statements and other reports. In some cases, the difference between the default version and the specific country/region version is invisible to users. In other cases, users must set up reporting or electronic invoicing in a specific way. If you can't find a description of a certain button or action in the general section, you can hopefully find it in the *Local Functionality* section.  
 
 > [!TIP]
 > On the learn.microsoft.com site as well as in the in-product search field and in the Help pane, the search results show some context for the target article. The context includes the link that might show the name of a country, or a short description that calls out a certain capability or a country, for example.
 
-### Finding other content
+### Find other content
 
 If you land on an article that doesn't answer your question, you can find other content in two ways on Microsoft Learn:
 
@@ -196,10 +203,10 @@ If you land on an article that doesn't answer your question, you can find other 
 
   This way, you can filter by words used in the titles of the various articles. For example, type *invoice*, and then choose one of the offered links, such as [Set Up Invoice Rounding](finance-set-up-invoice-rounding.md) or [Create Prepayment Invoices](finance-how-to-create-prepayment-invoices.md).  
 
-  Underneath each link,  you can see where that article is in the table of contents. That way, you can easily see if the article is in the Purchasing section or in the section for Australian local functionality, for example.  
+  Underneath each link, you can see where that article is in the table of contents. That way, you can easily see if the article is in the Purchasing section or in the section for Australian local functionality, for example.  
 - Use the **Search** field in the top-right corner of the website
 
-  This way, you can search for any term. The site will then search all the content for that term or expression. Search for *invoice* again, and scroll through the list of hundreds of articles in the [!INCLUDE [prod_short](includes/prod_short.md)] content that uses that word somewhere in the text.  
+  This way, you can search for any term. The site then searches all the content for that term or expression. Search for *invoice* again, and scroll through the list of hundreds of articles in the [!INCLUDE [prod_short](includes/prod_short.md)] content that uses that word somewhere in the text.  
 
 ### Languages
 
@@ -219,12 +226,12 @@ On Microsoft Learn, each article shows a pane with links to other articles. The 
 
 With Microsoft Learn, each article has two buttons at the end of the article. The *This product* button sends you to the Ideas site, and the **This page** button lets you submit feedback about the content through GitHub. In both cases, you must create an account if you don't already have one. For *product feedback*, you must sign in with your work or organizational email account. For *access to GitHub*, you can use any email address when you create an account.  
 
-We welcome your contributions, both as pull requests with suggestions or corrections to the content, and as GitHub Issues with bugs or questions. But please be mindful that feedback and contributions to the *dynamics365smb-docs* repo is about the content, not about the product.  
+We welcome your contributions, both as pull requests with suggestions or corrections to the content, and as GitHub Issues with bugs or questions. But be mindful that feedback and contributions to the *dynamics365smb-docs* repo is about the content, not about the product.  
 
 > [!IMPORTANT]
 > Microsoft accepts pull requests to the *dynamics365smb-docs* repo only, not the language-specific repos. If you have feedback about translations, you can report a GitHub issue in the relevant repo.  
 
-### Navigating to other parts of the site
+### Navigate to other parts of the site
 
 Microsoft Learn hosts content for other products and other types of content. Use the links at the top of the site to navigate to [Microsoft training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) site or to the [Dynamics 365 release plans](/dynamics365/release-plans/), for example. You can also find a link to the
 [Dynamics 365 Community](https://community.dynamics.com/) site, for example.  
@@ -235,17 +242,17 @@ If your [!INCLUDE [prod_short](includes/prod_short.md)] includes functionality t
 
 The same applies if you use [!INCLUDE [prod_short](includes/prod_short.md)] on-premises.  
 
-## See Also
+## See also
 
-[Business Central Learning Catalog](readiness/readiness-learning-catalog.md)  
-[Business Central Quick Starts](quick-start-business-central.md)  
-[How do I find a reselling partner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
-[Help System (available in English only)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
-[Leave us feedback](/dynamics365/get-started/feedback)  
-[Blog post: Find the right resources and provide feedback](https://community.dynamics.com/blogs/post/?postid=22e164ac-b804-4ac9-9e57-3e8c4fd24cbd)  
-[Business Central developer and administration docs](/dynamics365/business-central/dev-itpro/)  
-[Resources for Help and Support for Partners](/dynamics365/business-central/dev-itpro/help-and-support)  
-[Technical Support](/dynamics365/business-central/dev-itpro/technical-support)  
-[Microsoft Learn site](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+- [Business Central training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+- [Business Central Quick Starts](quick-start-business-central.md)  
+- [How do I find a reselling partner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
+- [Help System (available in English only)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
+- [Leave us feedback](/dynamics365/get-started/feedback)  
+- [Blog post: Find the right resources and provide feedback](https://community.dynamics.com/blogs/post/?postid=22e164ac-b804-4ac9-9e57-3e8c4fd24cbd)  
+- [Business Central developer and administration docs](/dynamics365/business-central/dev-itpro/)  
+- [Resources for Help and Support for Partners](/dynamics365/business-central/dev-itpro/help-and-support)  
+- [Technical Support](/dynamics365/business-central/dev-itpro/technical-support)  
+- [Microsoft Learn site](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

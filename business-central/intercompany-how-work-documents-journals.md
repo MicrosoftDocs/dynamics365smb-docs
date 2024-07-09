@@ -3,12 +3,13 @@ title: Post Intercompany Documents and Journals
 description: This topic explains how you use intercompany documents or journals to post transactions with your intercompany partners.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/06/2023
 ms.custom: bap-template
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary, bank-to-bank
 ms.search.form: 600, 610
+ms.service: dynamics-365-business-central
 ---
 # Work with Intercompany Documents and Journals
 

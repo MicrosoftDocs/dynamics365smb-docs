@@ -3,13 +3,13 @@ title: Posting Date on Adjustment Value Entry Compared to the Source Entry
 description: Learn about scenario "Posting Date on Adjustment Value Entry versus Posting Date on entry causing the adjustment such as Revaluation or Item charge" when running the Adjust Cost - Item Entries batch job identifies.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.date: 09/17/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Posting Date on Adjustment Value Entry Compared to the Source Entry

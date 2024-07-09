@@ -3,14 +3,14 @@ title: Export accounting data to Regnskab Basis in Denmark
 description: This article describes how to upload a comma-separated values (CSV) file that contains accounting data to Regnskab Basis in Denmark.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 5264, 5266, 5267, 5270, 
 ms.date: 08/23/2023
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Export accounting data to Regnskab Basis in Denmark

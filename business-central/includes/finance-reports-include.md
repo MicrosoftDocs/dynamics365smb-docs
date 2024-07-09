@@ -1,16 +1,18 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 09/22/2022
+ms.date: 06/12/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 The following table describes some key financial reports.
 
-| Report | Description | ID | 
+| Report | Description | ID |
 |--|--|--|
 | [Trial Balance](https://businesscentral.dynamics.com?report=6) | Shows the chart of accounts with balances and net changes. You can choose to see a trial balance for selected dimensions or use the report at the close of an accounting period or fiscal year. | 6 |
-| [Trial Balance by Period](https://businesscentral.dynamics.com?report=38) | Shows the opening balance by general ledger account, the movements in the selected period of month, quarter, or year, and the resulting closing balance. <br>Tip: Can be used to display profit and loss (P&L) with a total for each month.| 38 |
+| [Trial Balance by Period](https://businesscentral.dynamics.com?report=38) | Shows the opening balance by general ledger account, the movements in the selected period of month, quarter, or year, and the resulting closing balance. <br>Tip: The report can display profit and loss (P&L) with a total for each month.| 38 |
 | [Trial Balance/Budget](https://businesscentral.dynamics.com?report=9) | Shows a trial balance in comparison to a budget. You can choose to see a trial balance for selected dimensions. Use this report at the close of an accounting period or fiscal year. | 9 |
 | [Detailed Trial Balance](https://businesscentral.dynamics.com?report=4) | Shows a detailed trial balance for selected general ledger accounts. You can define which accounts are included in the report by setting filters. Use this report at the close of an accounting period or fiscal year. | 4 |
 | [Trial Balance/Previous Year](https://businesscentral.dynamics.com?report=7) | Shows a trial balance in comparison to the previous year's figures. You can choose to see a trial balance for selected dimensions. Use this report at the close of an accounting period or fiscal year. *The previous year* means the same period one calendar year earlier. | 7 | 

@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.date: 02/23/2023
 ms.custom: bap-template
 ms.search.keywords: design, supply, planning, reordering, replenishment
+ms.service: dynamics-365-business-central
 ---
 # Design Details: Supply Planning
 

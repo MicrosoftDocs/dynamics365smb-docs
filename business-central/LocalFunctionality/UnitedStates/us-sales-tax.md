@@ -1,15 +1,15 @@
 ---
-    title: Reporting Sales Tax in the US Version
-    description: Learn about how sales tax is set up, and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: local
-    ms.search.form: 315, 466, 467, 468, 469, 10015, 10016, 10101
-    ms.date: 04/27/2021
-    ms.author: bholtorf
+title: Reporting Sales Tax in the US Version
+description: Learn about how sales tax is set up, and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: local
+ms.search.form: 315, 466, 467, 468, 469, 10015, 10016, 10101
+ms.date: 04/27/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Reporting Sales Tax in the US
 

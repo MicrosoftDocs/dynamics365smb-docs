@@ -4,7 +4,7 @@ description: Learn about assemble-to-order and assemble-to-stock processes in Bu
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
 ms.search.keywords: kit, kitting

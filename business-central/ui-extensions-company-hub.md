@@ -3,14 +3,14 @@ title: Using the Company Hub
 description: Provides information about the Company Hub extension that you can use to manage work across multiple companies in Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms. search.keywords: 
 ms.search.form: 1151, 1152, 1153, 1154, 1155, 1165, 1166, 1167, 
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # The Company Hub for Business Central Extension
 

@@ -1,24 +1,24 @@
 ---
-title: Norway Local Functionality [NO]
-description: The following topics describe all the local functionality in the Norwegian version of Business Central.
+title: Norway local functionality [NO]
+description: The following articles describe all the local functionality in the Norwegian version of Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
-ms.date: 06/21/2021
+ms.date: 06/11/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Norway Local Functionality in the Norwegian Version
+# Norway local functionality
 
-The following topics describe local functionality that is unique to the Norwegian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following articles describe local functionality that is unique to the Norwegian version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Feature Availability
+## Feature availability
 
 * VAT
     * [Norwegian Standard Audit File - Tax (SAF-T) Management](ui-extensions-setup-and-generate-saf-t-files-no.md) **Available Now**
-    * [Norwegian VAT Reporting](norwegian-vat-reporting.md) **Available Now**
+    * [Norwegian VAT Reporting - new ID-porten system update](norwegian-vat-reporting.md) **Available Now**
     * [Norwegian VAT Codes](norwegian-vat-codes.md) **Available Now**  
     * [How to Use One VAT Code in Journals](how-to-use-one-vat-code-in-journals.md) **Available Now**
     * [Proportional VAT](proportional-vat.md) **Available Now**
@@ -77,13 +77,14 @@ The following topics describe local functionality that is unique to the Norwegia
  
 ## Future legislation requirements being investigated 
 
-* Migrate Norwegian Electronic VAT submission solution to the new ID-porten system **planned for 23.2** 
-* Redesigned and upgraded non-deductible VAT **planned for 23.4**   
+* SAF-T 1.3 format **Planned for January 2025**
+* Redesigned and upgraded non-deductible VAT **Planned for 2025 release wave 1**
+* E-invoicing based on new e-document framework that needs to be investigated
 
-If you are aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 
-## See Also
+## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

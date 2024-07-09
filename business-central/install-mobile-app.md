@@ -1,14 +1,14 @@
 ---
-title: Get Business Central on Your Mobile Device (contains video)
-description: This topic describes the various ways you can view and edit your Business Central data, send to Excel and more on your phone or tablet.
+title: Get Business Central on your mobile device
+description: This article describes the various ways you can view and edit your Business Central data, send to Excel and more on your phone or tablet.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: desktop, Windows, app
-ms.date: 09/11/2023
+ms.date: 12/13/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
 # Getting Business Central on your mobile device
@@ -28,7 +28,7 @@ Access your [!INCLUDE[prod_short](includes/prod_short.md)] data from your mobile
 2. Launch the app from your mobile device.
 3. Enter your user name and password that you created during sign-up for [!INCLUDE[prod_short](includes/prod_short.md)] and follow the instructions on the screen.
 
-    If your [!INCLUDE [prod_short](includes/prod_short.md)] has more than one production environment, then you will be asked to choose the environment that you want to access (requires Business Central 2020 release wave 2 and later).
+    If your [!INCLUDE [prod_short](includes/prod_short.md)] has more than one production environment, then you'll be asked to choose the environment that you want to access (requires Business Central 2020 release wave 2 and later).
 
 You should now have access to [!INCLUDE[prod_short](includes/prod_short.md)] and can view and edit data.  
 
@@ -48,7 +48,7 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you 
 4. On the next page, in the **Service name** box, enter the web address that you use to open [!INCLUDE[prod_short](includes/prod_short.md)], such as *https://mybusinesscentral:443/BC170*. If you're not sure, ask your administrator.
 5. Next, enter your user name and password for accessing Business Central.
 
-   When completed, the Business Central App will open.
+   When completed, the Business Central App opens.
 
 > [!NOTE]
 > If you're having problems getting the app to work properly, talk to your administrator. It could be a missing prerequisite or an incomplete configuration. For more information, see  [Preparing the environment for the mobile app](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) or [Troubleshooting the Business Central Mobile App On-Premises](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
@@ -57,7 +57,7 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you 
 
 [Mobile Apps FAQ](ui-mobile-faq.yml)  
 [Getting Ready for Doing Business](ui-get-ready-business.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

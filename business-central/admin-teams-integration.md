@@ -8,7 +8,7 @@ ms.date: 02/03/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.custom: bap-template
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ---
 
 # Managing Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]
@@ -80,7 +80,7 @@ For more information, see the following articles in the Microsoft Teams document
 The Microsoft Teams admin center is where you configure Teams app setup policies for the organization. In the Teams admin center, you can use the Centralized Deployment feature to automatically install the Business Central app in Teams for all users in your organization, specific groups, or individual users.
 
 > [!NOTE]
-> To set up Centralized Deployment, your Teams account must have the **Teams Service admin**  role or the **Global admin** role.
+> To set up Centralized Deployment, your Teams account must have at least the [Teams Administrator](/entra/identity/role-based-access-control/permissions-reference#teams-administrator] role.
 
 1. In Business Central, choose the ![Magnifying glass that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Teams App Centralized Deployment**, and then choose the related link. Or select [here](https://businesscentral.dynamics.com/?page=1833) to open the page directly.
 2. Read the information on the **Set up the Business Central app for Teams**, then choose **Next** when ready.

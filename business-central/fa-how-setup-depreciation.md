@@ -8,6 +8,8 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Set Up Fixed Asset Depreciation

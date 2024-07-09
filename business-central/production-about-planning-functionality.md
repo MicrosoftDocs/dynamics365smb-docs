@@ -3,11 +3,12 @@ title: About Planning Functionality
 description: Learn how planning uses demand and supply data to suggest how to balance supply to meet demand.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: 5430,
 ms.date: 09/19/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # About Planning Functionality
 
@@ -101,7 +102,8 @@ The **Warning** information field on the **Planning Worksheet** page informs you
 - Emergency
 - Exception
 - Attention
-- Emergency
+
+### Emergency
 
 The emergency warning displays in two situations:
 

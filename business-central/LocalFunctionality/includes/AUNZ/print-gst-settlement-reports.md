@@ -1,8 +1,10 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 12/07/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 You must submit a periodic report of goods and services tax (GST) settlement. You can create this settlement from the **BAS Calc. Schedule List** page.  
 
@@ -15,7 +17,7 @@ You must submit a periodic report of goods and services tax (GST) settlement. Yo
     |---------------------------------|---------------------------------------|  
     |**Settlement Account Type**|The settlement account type.|  
     |**Settlement Account No.**|The general ledger account number or vendor number, based on the type selected in the **Settlement Account Type** field.|  
-    |**Rounding G/L Account No.**|The account to which the truncated cents will be posted.|  
+    |**Rounding G/L Account No.**|The account to which the truncated cents are posted.|  
     |**Posting Date**|The posting date for the settlement entries.|  
     |**Document No.**|The document number of the settlement entries.|  
     |**Description**|The settlement description.|  

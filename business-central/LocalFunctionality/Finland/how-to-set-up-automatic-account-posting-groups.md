@@ -3,14 +3,14 @@ title: Set Up Automatic Account Posting Groups [FI]
 description: To use automatic account codes in the Finnish version, you must create an automatic account posting group.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 11207, 11208
 ms.date: 06/25/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Automatic Account Posting Groups in the Finnish Version
 

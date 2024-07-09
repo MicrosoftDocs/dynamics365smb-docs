@@ -8,6 +8,8 @@ ms.topic: conceptual
 ms.search.keywords: allocate, allocation, accounts
 ms.search.form: 39, 2673, 2670, 2674, 
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Allocate revenue and costs to multiple general ledger accounts
@@ -22,8 +24,8 @@ The following table introduces the allocation methods you can use.
 
 |Allocation Method  |Description  |
 |---------|---------|
-|Fixed     | When you want to split up expenses in a way that's repeated over a longer period of time, you can use a fixed allocation. A fixed allocation let's you define the allocation split. This split will only change when you change the setup on the **Allocation Account** page.        |
-|Variable     | To distribute revenue or expenses based on values that change over time, use the variable allocation method. Variable allocations let you specify the sources to use to calculate the allocation percentages. This method is useful, for example, for splitting employee costs that according to varying headcounts in department or divisions. Another example is the distributing the cost of rent based on production floor footage that might vary per production line over time. Variable allocations use a combination of dimensions and statistical accounts to determine how amounts distribute for a period of time. To learn more about statistical accounts, go to [Analyze Data with Statistical Accounts](bi-use-statistical-accounts.md). To learn more about dimensions, go to [Work with Dimensions](finance-dimensions.md).        |
+|Fixed     | When you want to split up expenses in a way that's repeated over a longer period of time, you can use a fixed allocation. A fixed allocation lets you define the allocation split. This split will only change when you change the setup on the **Allocation Account** page.        |
+|Variable     | To distribute revenue or expenses based on values that change over time, use the variable allocation method. Variable allocations let you specify the sources to use to calculate the allocation percentages. This method is useful, for example, for splitting employee costs that according to varying headcounts in departments or divisions. Another example is the distributing the cost of rent based on production floor footage that might vary per production line over time. Variable allocations use a combination of dimensions and statistical accounts to determine how amounts distribute for a period of time. To learn more about statistical accounts, go to [Analyze Data with Statistical Accounts](bi-use-statistical-accounts.md). To learn more about dimensions, go to [Work with Dimensions](finance-dimensions.md).        |
 
 ## Use a fixed share or percentage method to allocate amounts
 
@@ -55,7 +57,7 @@ The following table introduces the allocation methods you can use.
 
 ## Allocate amounts on the fly
 
-You create allocation accounts to split revenue and costs for G/L accounts and bank accounts. Automating allocation can save you a lot of time. However, if you want to use allocation accounts, but you don't want to create them for each G/L account, you can save even more time.
+You create allocation accounts to split revenue and costs for G/L accounts and bank accounts. Automating allocation can save time. However, if you want to use allocation accounts, but you don't want to create them for each G/L account, you can save even more time.
 
 The Inherit from parent option lets you use the allocation account to split amounts for any G/L account on a line on a document or journal. In the **Account Type** field on a document or journal line, you choose a G/L account, and then choose the allocation account in the **Allocation Account No.** field. The amount on the line is split for the G/L account according to the setup in your allocation account. It's a less transparent way of allocating, but you don't have to create an allocation account specifically for the G/L account.
 
@@ -66,7 +68,7 @@ Ad-hoc allocations are easy to set up. Instead of specifying a bank or G/L accou
 There are a couple of ways to verify that amounts distribute correctly:
 
 * On the **Allocation Account** page, choose the **Test Allocation** action. Use the **Amount to Allocate** field to test different amounts.
-* On the **General Ledger Journals** page, choose the journal, and the use the **Posting Preview** action.
+* On the **General Ledger Journals** page, choose the journal, and then use the **Posting Preview** action.
 
 ## Adjust the distribution
 
@@ -90,7 +92,6 @@ The following steps describe how to post an allocation transaction from a genera
     1. In the **Account No.** field, choose the G/L account.
     1. In the **Allocation Account No.** field, choose the allocation account that's set up to use the Inherit from parent option. 
 1. Choose **Post**.
-1. 
 
 ## See Also
 

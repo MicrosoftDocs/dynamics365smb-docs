@@ -8,6 +8,8 @@ ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Posting the Year-End Closing Entry
 

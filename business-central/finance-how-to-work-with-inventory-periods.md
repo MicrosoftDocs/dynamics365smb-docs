@@ -3,14 +3,14 @@ title: Work with Inventory Periods
 description: You can control the timeframe in which people can post post changes to inventory by defining inventory periods.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: inventory, periods
 ms.search.form: 5828
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Work with Inventory Periods
 

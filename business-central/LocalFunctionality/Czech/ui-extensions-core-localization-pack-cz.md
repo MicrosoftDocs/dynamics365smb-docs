@@ -1,20 +1,21 @@
 ---
-title: Core Localization Pack for Czech
+title: Core localization pack for Czech
 description: This section describes Core Localization Application Pack for Czech extension functionality.
 author: brentholtorf
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 05/31/2022
-ms.reviewer: v-pejano
+ms.date: 11/07/2023
+ms.reviewer: bholtorf
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# Core Localization Pack for Czech (Extension)
+# Core localization pack for Czech (extension)
 
 This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)] that help companies meet the requirements of Czech accounting and tax legislation and best practices.
 
-## Feature Availability
+## Feature availability
 
 - **Finance**
   - [Corrections Posting (red storno)](how-to-use-corrections-posting.md) **Available Now**
@@ -40,11 +41,11 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [VAT Reports](vat-reports-cz.md) **Available Now**
   - [VAT correction in Local Currency](how-to-setup-vat-correction-local-currency.md) **Available Now**
 
-- **Banking and Payments**
+- **Banking and payments**
   - [Electronic registration of sales (EET)](eet.md) **Available Now**
   - Local Banking Feature - symbols and payments  **Available Now**
 
-- **Payables and Receivables**
+- **Payables and receivables**
   - [Exchange Rates Adjustment feature](how-to-use-exchange-rates-adjustment-feature.md) **Available Now**
   - [Multiple payables/receivables accounts](how-to-use-multiple-payables-receivables-accounts.md) **Available Now**
   - [Customers/Vendors Reconciliations](customers-vendors-reconciliations.md) **Available Now**
@@ -73,7 +74,7 @@ This extension adds features to [!INCLUDE[d365fin](../../includes/d365fin_md.md)
   - [Inventory Movement Templates](inventory-movement-templates.md) **Available Now**
   - [Templates for inventory Operations – Stockkeeping Unit Templates](stockkeeping-unit-templates.md) **Available Now**
 
-## See Also
+## See also
 
 [Czech Local Functionality](czech-local-functionality.md)  
 [Finance](../../finance.md)

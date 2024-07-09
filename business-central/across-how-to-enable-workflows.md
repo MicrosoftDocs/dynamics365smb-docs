@@ -3,12 +3,12 @@ title: How to Enable Approval Workflows
 description: When you've created a workflow and are sure that it's ready to start, you must enable the workflow.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.date: 09/08/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Enable Approval Workflows
 

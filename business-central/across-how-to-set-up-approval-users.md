@@ -1,16 +1,16 @@
 ---
-title: Set Up Approval Users
+title: Set up approval users
 description: Before you can create workflows that involve approval steps, you must set up the workflow users involved in the approval processes.
 author: brentholtorf
-ms.topic: how-to
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 663,
-ms.date: 05/31/2023
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: how-to
+ms.search.form: 663,
+ms.date: 05/29/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Set Up Approval Users
+# Set up approval users
 
 Before you can create workflows that involve approval steps, you must set up the users who are involved in approval processes on the **Approval User Setup** page. You can also set amount limits for different types of requests, define substitute approvers, and set up notifications.  
 

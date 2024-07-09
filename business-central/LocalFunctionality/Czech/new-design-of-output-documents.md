@@ -3,11 +3,11 @@ title: Czech Local Functionality - New design of output documents
 description: This section describes local functionality - New design of output documents.
 author: v-makune
 
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 06/17/2021
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

@@ -1,18 +1,18 @@
 ---
-    title: How to Post LSV+ Payments
-    description: You can post payments after you have received Lastschrift Verfahren (LSV+) payment advice from the bank.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+title: How to Post LSV+ payments
+description: You can post payments after you receive Lastschrift Verfahren (LSV+) payment advice from the bank.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.search.form: 3010830, 3010831, 3010832,3010834, 3010835
+ms.date: 11/27/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Post LSV+ Payments
-You can post payments after you have received Lastschrift Verfahren (LSV+) payment advice from the bank.  
+# Post LSV+ payments
+You can post payments after you receive Lastschrift Verfahren (LSV+) payment advice from the bank.  
 
 ## To post LSV+ payments  
 
@@ -32,11 +32,11 @@ You can post payments after you have received Lastschrift Verfahren (LSV+) payme
 
     The LSV journal line is imported into the cash receipt journal. The value in the **LSV Status** field on the **LSV Journal List** page changes from **File Created** to **Finished**.  
 
-    You can check the imported payments, and compare them with your bank payment advice on the **Cash Receipt Journal** page. You can also delete the payment lines that could not be processed by the bank, and for which you must follow up with the customer manually.  
+    You can check the imported payments, and compare them with your bank payment advice on the **Cash Receipt Journal** page. You can also delete the payment lines that the bank doesn't process, and for which you must follow up with the customer manually.  
 
 6.  Choose the **Post** action.  
 
-## See Also  
+## See also  
  [Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md)   
  [Process an LSV Collection](how-to-process-an-lsv-collection.md)   
  [Close an LSV Collection](how-to-close-an-lsv-collection.md)   

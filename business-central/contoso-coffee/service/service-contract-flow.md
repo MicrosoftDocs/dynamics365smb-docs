@@ -1,14 +1,16 @@
 ---
-title: Walkthrough of Service Contracts for Service Items
+title: Walkthrough of service contracts for service items
 description: This article guides you through various scenarios involving service items and contracts.
 author: andreipanko
 ms.author: andreipa
 ms.topic: how-to
-ms.date: 05/31/2023
+ms.date: 11/08/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# Walkthrough of Service Contracts for Service Items
+# Walkthrough of service contracts for service items
 
 This walkthrough demonstrates several core processes:
 
@@ -19,7 +21,7 @@ This walkthrough demonstrates several core processes:
 - Complete the time entry for the Service Order
 - Post and Invoice the Contract Service Order
 
-## Creation of Service Items
+## Creation of service items
 
 ### Scenario  
 
@@ -41,9 +43,9 @@ Susan, the order processor, posts a sales order selling an Item configured to ge
 
 ### Results
 
-- A Service Item will be created for Customer 10000
+- A Service Item is created for Customer 10000
 
-##  Invoicing a Service Contract
+##  Invoicing a service contract
 
 ### Scenario
 
@@ -62,7 +64,7 @@ Charles, the service manager, then creates a Service Contract to invoice for reg
     |SV000001|6000|
 
     7. Choose the **Sign Contract** action and confirm the signing.
-    8. Choose **Yes** to confirm creation of a Service Invoice. You'll receive a confirmation message with the Service Invoice number.
+    8. Choose **Yes** to confirm creation of a Service Invoice. You receive a confirmation message with the Service Invoice number.
 
 3. Post the Service Invoice
    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Invoices**, and then choose the related link.
@@ -70,26 +72,26 @@ Charles, the service manager, then creates a Service Contract to invoice for reg
 
 ### Results
 
-- A Signed Service Contract will be created, with Ledger Entries
-- A Posted Service Invoice will be created
+- A Signed Service Contract is created, with Ledger Entries
+- A Posted Service Invoice is created
 
-## Creating a Service Order for a Service Contract and Assign Resources
+## Create a service order for a service contract and assign resources
 
 ### Scenario  
 
-Charles, the service manager, will create the Service Orders for regular maintenance orders under Service Contract, then review the Dispatch Board to assign them.
+Charles, the service manager, creates the Service Orders for regular maintenance orders under Service Contract, then review the Dispatch Board to assign them.
 
 ### Steps
 
-1. Run the Service Orders that will fulfill the obligations of active Service Contracts.
+1. Run the Service Orders that fulfill the obligations of active Service Contracts.
    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Contract Service Orders**, and then choose the related link.
    2. Enter the beginning and ending dates of the month in the Starting Date and Ending Date fields in the Options FastTab
-   3. Choose **OK** to confirm creation of Service Orders. You'll receive a confirmation message with number of created Service Orders.
+   3. Choose **OK** to confirm creation of Service Orders. You receive a confirmation message with number of created Service Orders.
 
 2. Review the Orders awaiting assignment via the Dispatch Board
    1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Dispatch Board**, and then choose the related link.
-   2. The Dispatch Board will show all open Service Orders, along with the **No. of Allocations** to show if the Service Orders have been assigned to a Resource.
-   3. Choosing the **Show Documents** action to open a Service Order.  You will see that the Service Item Lines FactBox will show which Resources are skilled at working with this item.
+   2. The Dispatch Board shows all open Service Orders, along with the **No. of Allocations** to show if the Service Orders are assigned to a Resource.
+   3. Choosing the **Show Documents** action to open a Service Order.  You see that the Service Item Lines FactBox shows which Resources are skilled at working with this item.
 
 3. Assign a Resource to the Service Order
    1. From the Service Order, choose the Line action **Resource Allocations**
@@ -99,19 +101,19 @@ Charles, the service manager, will create the Service Orders for regular mainten
     |----------------|------------|---------------|---------------|  
     |SV000001|RESOURCE1|t|1|
 
-    3. The Allocation will be changed to a Status to Active.
-    4. Refreshing the Dispatch Board will show the **No of Allocations** changed from 0 to 1 for the Service Order.
+    3. The Allocation is changed to a Status to Active.
+    4. Refreshing the Dispatch Board shows the **No of Allocations** changed from 0 to 1 for the Service Order.
 
 ### Results
 
-- Service Orders will be created for the Service Contracts
-- The Service Orders will be allocated to a resource to complete the work
+- Service Orders are created for the Service Contracts
+- The Service Orders are allocated to a resource to complete the work
 
-## Complete the time entry for the Service Order and Post the Service Order
+## Complete the time entry for the service order and post the service order
 
 ### Scenario  
 
-The service technician will register their time directly against the Service Order, then mark order as finished.
+The service technician registers their time directly against the Service Order, then mark order as finished.
 
 > [!NOTE]
 > Time Entry for Service Orders can be entered via Time Sheets. For more information, see [link to Timesheet if this note makes sense].
@@ -133,6 +135,9 @@ The service technician will register their time directly against the Service Ord
 
 ### Results
 
-- Service Ledger Entries will be created associated with the Service Item, Service Contract, and Resource
+- Service Ledger Entries are created associated with the Service Item, Service Contract, and Resource
 
 ## See also
+
+[Introduction to Contoso Coffee Demo Data](../../contoso-coffee/contoso-coffee-intro.md)  
+[About Production Orders](../../production-about-production-orders.md)

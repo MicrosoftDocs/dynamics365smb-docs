@@ -7,11 +7,13 @@ ms.reviewer: nikolak
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 1070, 1071, 1073, 1074
-ms.date: 10/06/2023
+ms.date: 07/09/2024
 ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# The PayPal Payments Standard Extension
+# The PayPal Payments Standard extension
 
 The PayPal Payments Standard extension can help you increase your customer service levels by making it easier for your customers to pay their bills.
 
@@ -24,8 +26,8 @@ The PayPal Payments Standard service provides the following benefits:
 * PayPal offers a trustworthy payment service, which customers prefer to entering credit card information on web sites.
 * PayPal offers multiple ways of handling payments, including credit card processing, PayPal accounts, and other sources.
 * The PayPal link can be added automatically to sales documents or manually by the user.
-* The PayPal Payments Standard service does not involve monthly fees or setup fees.
-* Because it is an extension, you can easily enable the PayPal Payment Standard service when and if your business requires it.  
+* The PayPal Payments Standard service doesn't involve monthly fees or setup fees.
+* Because it's an extension, you can easily enable the PayPal Payment Standard service when and if your business requires it.  
 
 To learn more about how to set up the extension, go to [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md).
 

@@ -3,13 +3,13 @@ title: Change the Way a Report Looks by Selecting a Different Layout
 description: You can use different layouts for a report, and switch between layouts to change how a report looks.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 03/07/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # (Legacy) Set the Layout Used by a Report
 

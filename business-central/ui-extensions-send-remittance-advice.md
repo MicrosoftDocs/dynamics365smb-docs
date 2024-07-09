@@ -3,12 +3,12 @@ title: Send Remittance Advice Extension | Microsoft Docs
 description: Describes the Send Remittance Advice extension, which allows emailing and resending remittance advice from the payment journal and vendor ledger entries.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
 ms.date: 07/06/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Send Remittance Advice
 

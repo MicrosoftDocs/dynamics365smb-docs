@@ -1,17 +1,19 @@
 ---
-title: New Zealand Local Functionality
-description: The following topics describe the local functionality in the New Zealand version of Business Central.
+title: New Zealand local functionality
+description: The following articles describe the local functionality in the New Zealand version of Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: New Zealand, local functionality
-ms.date: 04/01/2021
+ms.date: 02/08/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# New Zealand Local Functionality
+# New Zealand local functionality
 
-The following topics describe local functionality that is unique to the New Zealand version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+The following articles describe local functionality that is unique to the New Zealand version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Feature Availability
+## Feature availability
 
 * Tax  
     * [Withholding Tax](withholding-tax.md)
@@ -27,14 +29,14 @@ The following topics describe local functionality that is unique to the New Zeal
     * [Calculate Goods and Services Tax on Prepayments](how-to-calculate-goods-and-services-tax-on-prepayments.md) **Available Now**
     * [Print Goods and Services Tax Settlement Reports](how-to-print-goods-and-service-tax-settlement-reports.md) **Available Now**
 
-* Banking & Payments
+* Banking & payments
     * [Compare Bank Cash Flow](how-to-compare-bank-cash-flow.md) **Available Now**
     * [Create Check Installments](how-to-create-check-installments.md) **Available Now**
     * [Electronic Funds Transfer](electronic-funds-transfer-eft-.md) **Available Now**
     * [Print Deposit Slip Reports](how-to-print-deposit-slip-reports.md) **Available Now**
     * [Print Bank Account Reconciliation Reports](how-to-print-bank-account-reconciliation-reports.md) **Available Now**
 
-* Core Finance
+* Core finance
     * [Calculating Distribution Amounts](calculating-distribution-amounts.md) **Available Now**
     * [Print Balance Sheet Reports](how-to-print-balance-sheet-reports.md) **Available Now**
     * [Print Income Statements](how-to-print-income-statements.md) **Available Now**
@@ -47,11 +49,12 @@ The following topics describe local functionality that is unique to the New Zeal
 
 ## Future legislation requirements being investigated
 
-* Payment Times Reporting Bill Compliance - planned for **22.3**
+* ANZ Peppol format for E-Documents **Planned for 2024 release wave 2**  
+* Payment Times Reporting Bill Compliance **Planned for 2024 release wave 2**  
 
-If you are aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+If you're aware of any upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## See Also
+## See also
 
 [Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

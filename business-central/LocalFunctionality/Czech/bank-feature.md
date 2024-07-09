@@ -7,8 +7,9 @@ author: ACMartinKunes
 ms.topic: conceptual
 ms.search.keywords: Czech, Bank, Finance, CZ, Bank feature
 ms.date: 06/17/2021
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-makune
+ms.service: dynamics-365-business-central
 ---
 
 # Local Banking Feature in the Czech Version

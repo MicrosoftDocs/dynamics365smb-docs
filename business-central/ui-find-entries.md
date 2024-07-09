@@ -4,13 +4,13 @@ description: Learn how to find documents, business contacts, and item entries th
 author: jswymer
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: find
 ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Finding Related Entries for Documents
 

@@ -8,6 +8,7 @@ ms.search.keywords:
 ms.date: 04/01/2022
 ms.reviewer: bholtorf
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
 # Bill of Lading in the Russian Version

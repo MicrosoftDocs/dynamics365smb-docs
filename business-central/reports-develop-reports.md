@@ -5,13 +5,12 @@ author: kennieNP
 
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: kepontop
+ms.service: dynamics-365-business-central
 ---
 
 # Developing Business Central Report Layouts and Datasets

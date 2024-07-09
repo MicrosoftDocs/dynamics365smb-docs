@@ -3,12 +3,12 @@ title: Troubleshooting Microsoft Teams Integration
 description: Learn about what you can do as an administrator to control Microsoft Teams integration.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 09/19/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
 # Troubleshoot Microsoft Teams Integration with [!INCLUDE [prod_short](includes/prod_short.md)]

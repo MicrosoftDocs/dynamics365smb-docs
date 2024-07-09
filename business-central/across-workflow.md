@@ -4,27 +4,27 @@ description: Use built-in workflow capabilities to set up approval workflows to 
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 10/10/2022
+ms.date: 06/13/2024
 ms.custom: bap-template 
 ---
-# Workflows in Dynamics 365 Business Central
+# Workflows in Business Central
 
 You can set up and use workflows to connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows. System tasks can be preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.
 
-The default version of [!INCLUDE [prod_short](includes/prod_short.md)] supports three types of workflows:
+The default version of [!INCLUDE [prod_short](includes/prod_short.md)] supports these types of workflows:
   
 * Power Automate flows
 
   * Automated flows that are triggered by events (such as record or document creation, modification, or deletion) in [!INCLUDE[prod_short](includes/prod_short.md)]. Also included are approval flows created in Power Automate that trigger when an approval is requested in [!INCLUDE[prod_short](includes/prod_short.md)].
-  * Instant flows that are manually triggered by from the **Automate** action menu on lists, cards, and document pages.
+  * Instant flows that are manually triggered from the **Automate** action menu on lists, cards, and document pages.
 
     Create and manually trigger a Power Automate flow on a [!INCLUDE[prod_short](includes/prod_short.md)] record, such as a customer, item, or sales order, with options to manipulate information both internally and externally (using integrated tools).
 
 * Approval workflows based on built-in workflow templates
 
-  On the **Workflow Templates** page, you can see all available workflows. The trial version of [!INCLUDE[prod_short](includes/prod_short.md)] includes many pre-configured workflows represented by workflow templates you can copy to create new ones. When you open a template from the **Workflow Templates** page, and the workflow name starts with *MS-*, then the template was added by Microsoft.
+  On the **Workflow Templates** page, you can see all available workflows. The trial version of [!INCLUDE[prod_short](includes/prod_short.md)] includes many preconfigured workflows represented by workflow templates you can copy to create new ones. When you open a template from the **Workflow Templates** page, and the workflow name starts with *MS-*, then the template was added by Microsoft.
 
 ## Power Automate flows
 
@@ -45,7 +45,7 @@ Create an approval workflow by defining what starts the workflow and what happen
 
 To define workflow steps, fill in fields on workflow lines using the event and response values that represent supported scenarios.
 
-Examples of approval workflows events include the creation of sales or purchase orders/quotes/invoices, price changes, vendor or customer edits, and more.
+Examples of approval workflow events include the creation of sales or purchase orders/quotes/invoices, price changes, vendor or customer edits, and more.
 
 [!INCLUDE[workflow](includes/workflow.md)]
 

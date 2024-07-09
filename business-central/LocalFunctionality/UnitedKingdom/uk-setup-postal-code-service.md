@@ -4,14 +4,14 @@ description: Learn how to configure the GetAddress.io extension in the British v
 author: brentholtorf
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: getaddress.io, postcodes, extension
 ms.search.form: 9142
 ms.date: 06/25/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up the GetAddress.io UK Postcodes Extension in the British Version
 

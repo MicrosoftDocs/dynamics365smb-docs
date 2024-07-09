@@ -3,13 +3,13 @@ title: Set Up Standard Tasks for Operations
 description: Learn about how to set up standard tasks and add standard tasks to operations to simplify the maintenance of routings.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 99000799, 99000803, 99000804, 99000805, 99000807
 ms.date: 06/22/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Standard Routing Lines
 

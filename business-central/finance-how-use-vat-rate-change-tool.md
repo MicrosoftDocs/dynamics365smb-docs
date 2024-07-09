@@ -1,16 +1,16 @@
 ---
 title: Managing VAT Rate changes
 description: Learn how to use the VAT Rate Change tool for Dynamics 365 Business Central for changing VAT rates based on local legislation.
-author: andregu
+author: jswymer
 
 ms.topic: conceptual
-ms.reviewer: bholtorf
-ms.workload: na
+ms.reviewer: jswymer
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.search.form: 550, 
 ms.date: 06/16/2021
-ms.author: andregu
+ms.author: jswymer
 
+ms.service: dynamics-365-business-central
 ---
 
 # Managing VAT Rate Changes

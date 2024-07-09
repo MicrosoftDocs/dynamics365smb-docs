@@ -1,17 +1,17 @@
 ---
-title: Czech Local Functionality - Fixed assets location/responsible history report
+title: Czech local functionality - Fixed assets location/responsible history report
 description: This feature provides users with the ability to track changes to the location and responsible employee for fixed assets.
-author: v-pejano
-
-ms-service: dynamics365-business-central
+author: bholtorf
+ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
-ms.date: 06/18/2021
-ms.reviewer: v-pejano
-ms.author: v-pejano
+ms.date: 12/08/2023
+ms.reviewer: bholtorf
+ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
-# Fixed Asset Location/Responsible History Report in the Czech Version
+# Fixed asset location/responsible history report in the Czech version
 
 This feature provides users with the ability to track changes to the location and responsible employee for fixed assets.
 

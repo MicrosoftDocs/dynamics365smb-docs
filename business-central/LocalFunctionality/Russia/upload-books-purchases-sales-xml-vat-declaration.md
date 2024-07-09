@@ -9,6 +9,7 @@ ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Upload Books of Purchases and Sales and the VAT Declaration in XML Format

@@ -2,12 +2,13 @@
 title: Basic Tax Setup in the US Version
 description: Learn how to set basic tax data and apply default accounts for posting calculated tax information.
 author: brentholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: tax, setup
 ms.search.form: 485
 ms.date: 09/21/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
 # Basic Tax Setup in the US Version
 
@@ -23,7 +24,7 @@ To ensure compliance with local tax reporting, use the **Tax Setup** page to def
    * On the **Default Accounts** FastTab, specify the general ledger (G/L) accounts to use for posting calculated tax on different transactions. Learn more about how to set up or edit G/L accounts at [Set Up or Change the Chart of Accounts](../../finance-setup-chart-accounts.md).
 
 > [!TIP]
-> If you are in the US, we recommend running the **Tax Setup** together with the **Set Up Sales Tax** assisted guide. Learn more about the guide and other important pages and fields to set up at [Reporting Sales Tax in the US](us-sales-tax.md).
+> If you are in the US, we recommend running the **Tax Setup** together with the **Set Up Sales Tax** assisted guide. Learn more about the guide and other important pages and fields to set up at [Sales Tax in the US](us-sales-tax.md).
 
 ## See also
 

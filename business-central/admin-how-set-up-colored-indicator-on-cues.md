@@ -5,13 +5,13 @@ author: jswymer
 
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 9701, 9702
 ms.date: 04/01/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Set Up a Colored Indicator on Cues for the Company or Individual Users
 

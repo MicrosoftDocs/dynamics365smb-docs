@@ -1,10 +1,10 @@
 ﻿---
 title: Introduction to Contoso Coffee Manufacturing
 description: Overview of scenarios for how Contoso Coffee demo data can help you learn how to use the manufacturing capabilities in Business Central.
-ms.date: 04/01/2022
+ms.date: 04/01/2023
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.search.form: 4765
+ms.service: dynamics-365-business-central
+ms.search.form: 4765,
 author: brentholtorf
 ms.author: bholtorf
 ---
@@ -38,7 +38,7 @@ The manufacturing activities for all scenarios use the *MAIN* location.
 
 ## Set up Contoso Coffee Manufacturing data
 
-[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
 |Field  |Description  |
 |---------|---------|

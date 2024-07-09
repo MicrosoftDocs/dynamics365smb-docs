@@ -5,14 +5,16 @@ author: brentholtorf
 ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: bholtorf
-ms.date: 05/25/2022
+ms.date: 01/17/2024
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Sign up for a free Dynamics 365 Business Central trial
 
-Business Central offers a free trial. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data. If you want to try out things with your own data, you'll switch to a free 30-day trial. [Learn more about Business Central features](across-business-functionality.md).  
+Business Central offers a free trial that you can find it on the **[Dynamics 365 Business Central product](https://www.microsoft.com/en-us/dynamics-365/products/business-central)** page. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data. If you want to try out things with your own data, you'll switch to a free 30-day trial. [Learn more about Business Central features](across-business-functionality.md).  
 
-## To sign up for the trial
+<!--## To sign up for the trial-->
 
 [!INCLUDE [trial-get](includes/trial-get.md)]
 

@@ -3,16 +3,19 @@ title: Create Electronic Documents in an OIOUBL format
 description: When you sell goods or services to a customer in the Danish public sector, you must submit documents electronically.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 
 ms.search.form: 
 ms.date: 11/11/2022
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Create Electronic Documents by Using OIOUBL
+
+> [!NOTE]
+> This feature isn't related to the new E-documents framework and requirments related to the new Danish bookkeeping act. For new functionality and updated OIOUBL 3.0, you can find updated content in **Electronic invoicing with NemHandel**.   
 
 When you sell goods or services to a customer in the public sector, you must submit documents electronically. You can create the following electronic documents: 
 

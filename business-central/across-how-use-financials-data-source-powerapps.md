@@ -3,10 +3,11 @@ title: Use Your Data to Create an App| Microsoft Docs
 description: You can make your Business Central data available as a data source and specify an OData URL of your web services to build a business app using Power Apps.
 author: jswymer
 ms.topic: conceptual
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.keywords: OData, Power App, SOAP
 ms.date: 05/15/2023
 ms.author: jswymer
+ms.reviewer: jswymer
 ---
 # Connecting to Your Business Central Data to Build a Business App Using Power Apps
 

@@ -1,14 +1,16 @@
 ---
-title: How to Block Items or Item Variants from Sales or Purchasing
-description: You can block items and item variants from being entered on lines in sales or purchase documents, as well as from being posted in a transaction. 
+title: How to block items or item variants from sales or purchasing
+description: You can block items and item variants from being entered on lines in sales or purchase documents, and from being posted in a transaction. 
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: item, variant, product
-ms.date: 08/22/2023
+ms.date: 05/16/2024
+ms.service: dynamics-365-business-central
 ---
-# Block Items or Item Variants from Sales or Purchasing
+
+# Block items or item variants from sales or purchasing
 
 You can block items and item variants from being entered on lines in sales or purchase documents, and you can block them from being posted in transactions. For example, this is useful when an item has a known defect. If someone chooses a blocked item or variant on a sales or purchase document a message will inform them that the item is blocked.
 
@@ -41,7 +43,7 @@ When you use the **Copy from Document** action to create new documents based on 
     * **Sales Blocked**
     * **Purchasing Blocked**
 
-## See Also  
+## See also  
 
 [Register New Items](inventory-how-register-new-items.md)  
 [Inventory](inventory-manage-inventory.md)  

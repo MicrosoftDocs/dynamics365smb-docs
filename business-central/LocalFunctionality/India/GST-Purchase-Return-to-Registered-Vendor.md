@@ -1,16 +1,16 @@
 ---
-    title: Purchase Return to Registered Vendor
-    description: Purchase Return to Registered Vendor
-    author: v-debapd
+title: Purchase Return to Registered Vendor
+description: Purchase Return to Registered Vendor
+author: v-debapd
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords: India, local, IN, English
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords: India, local, IN, English
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Purchase Return to Registered Vendor
 

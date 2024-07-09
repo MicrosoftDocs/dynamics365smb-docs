@@ -3,8 +3,8 @@ title: Access with Microsoft 365 Licenses FAQ
 description: Get answers to common questions about accessing Business Central with Microsoft 365 licenses. 
 author: mikebc
 ms.author: mikebc
-ms.reviewer: jswymer 
-ms.service: dynamics365-business-central
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: faq
 ms.date: 09/28/2023
 ms.custom: bap-template 

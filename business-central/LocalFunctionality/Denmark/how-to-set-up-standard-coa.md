@@ -3,14 +3,14 @@ title: Standard chart of accounts in Denmark
 description: This article explains how to set up a standard chart of accounts in Denmark.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 5264, 5266, 5267, 5270, 
 ms.date: 08/23/2023
 ms.author: altotovi
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Standard chart of accounts in Denmark

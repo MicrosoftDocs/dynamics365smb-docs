@@ -3,13 +3,13 @@ title: Let Business Central suggest values
 description: To avoid manual calculations and complete tasks quickly and accurately, you can set up automatic data entry so that Business Central fills in selected fields.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 39, 251, 981
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Letting [!INCLUDE[prod_short](includes/prod_short.md)] Suggest Values
 [!INCLUDE[prod_short](includes/prod_short.md)] can help you complete tasks quicker and more correctly by prefilling fields or complete lines with data that you would otherwise have to calculate and enter yourself. Although such automatic data entry is always correct, you can change it afterwards if you want to.

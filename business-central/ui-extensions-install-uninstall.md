@@ -3,12 +3,13 @@ title: Install and Uninstall Apps
 description: Learn how you can install and uninstall apps and extensions in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: solsen
 ms.topic: conceptual
-ms.date: 09/07/2023
+ms.date: 06/26/2024
 ms.custom: bap-template
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.search.form: 2500, 2514, 20350
+ms.service: dynamics-365-business-central
 ---
 
 # Install and Uninstall Extensions (Apps) in Business Central
@@ -31,7 +32,7 @@ You can get new apps from the marketplace at [AppSource.microsoft.com](https://g
 > [!NOTE]  
 > Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for [!INCLUDE[prod_short](includes/prod_short.md)]. Use the same email account for other services and products for a smooth experience.  
 
-You can also get to AppSource from [!INCLUDE[prod_short](includes/prod_short.md)]. On the **Extension Management** page, you can see the apps that are currently installed, and you can open the **Extension Marketplace** page that shows the [!INCLUDE[prod_short](includes/prod_short.md)] apps that are currently available in AppSource. If you choose the *More apps* link, you're taken to [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
+You can also get to AppSource from [!INCLUDE[prod_short](includes/prod_short.md)]. On the **Extension Management** page, you can see the apps that are currently installed, and you can open the **Microsoft AppSource Apps** page that shows the [!INCLUDE[prod_short](includes/prod_short.md)] apps that are currently available in AppSource. If you choose the **View AppSource** action, you're taken to [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). For more information, see [Manage AppSource apps](admin-manage-appsource-apps.md).  
 
 Choose an app to learn about what it does, and you can access Help for the app to learn more. When you choose to get an app, you must agree to its terms of use. If you get the app from the AppSource website, you'll be signed in to [!INCLUDE[prod_short](includes/prod_short.md)] to complete the installation.  
 
@@ -98,6 +99,7 @@ If you want to keep the data for an uninstalled app, you can delete the data lat
 
 [Customize Business Central](ui-customizing-overview.md)  
 [Business Central Extensions by Other Providers](ui-extensions-other.md)  
+[Manage AppSource apps](admin-manage-appsource-apps.md)  
 [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md)  
 [Enable Customer Payment Through PayPal](sales-how-enable-payment-service-extensions.md)  
 [Migrate Business Data from Other Finance Systems](across-import-data-configuration-packages.md)  

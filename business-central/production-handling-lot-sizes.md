@@ -1,14 +1,14 @@
 ---
-    title: Handling Lot Sizes
-    description: This topic describes different ways to handle lot sizes. 
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.form:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+title: Handling Lot Sizes
+description: This topic describes different ways to handle lot sizes. 
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.form:
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Handling Lot Sizes in Production

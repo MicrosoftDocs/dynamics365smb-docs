@@ -1,14 +1,14 @@
 ---
-    title: Apply and Unapply General Ledger Entries [NL]
-    description: Applying temporary general ledger entries allows companies to work with temporary and transfer accounts in the general ledger.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/25/2021
-    ms.author: bholtorf
+title: Apply and Unapply General Ledger Entries [NL]
+description: Applying temporary general ledger entries allows companies to work with temporary and transfer accounts in the general ledger.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/25/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Apply and Unapply General Ledger Entries in the Dutch Version
 

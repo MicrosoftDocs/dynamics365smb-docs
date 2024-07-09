@@ -3,11 +3,11 @@ title: Czech Local Functionality - Classification codes for fixed assets
 description: The new Classification Code table and the Classification Code field are added. The field is used for FA classification to the tax group.
 author: v-pejano
 
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Fixed Asset, Localization, CZ
 ms.date: 06/18/2021
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

@@ -4,7 +4,7 @@ description: This article describes how to show the financial-report KPI data ba
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 12/16/2022
 ms.custom: bap-template

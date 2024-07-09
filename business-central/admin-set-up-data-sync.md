@@ -1,17 +1,17 @@
 ---
-title: Set Up Companies to Synchronize Master Data
+title: Set up companies to synchronize master data
 description: Learn how to set up one or more companies to synchronize master data.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
-ms.service: dynamics365-business-central
+ms.reviewer: bholtorf
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 01/25/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
 ms.search.form: 7230, 7233, 5338, 7236, 672, 7234
 ---
 
-# Get Ready to Synchronize Master Data
+# Get ready to synchronize master data
 
 When two or more companies use some of the same master data, you can synchronize the data rather than add it manually in each company. For example, synchronizing data is useful when you're setting up new subsidiary companies.
 

@@ -1,15 +1,15 @@
 ---
-title: Set Up Preferred Methods of Sending Sales Documents (contains video) | Microsoft Docs
+title: Set Up Preferred Methods of Sending Sales Documents | Microsoft Docs
 description: Describes how to set up each customer's preferred method of sending sales documents, for example, email, PDF, electronic document, and so on.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Document Sending Profiles
 You can set each customer up with a preferred method of sending sales documents, so that you do not have to select a sending option every time you choose the **Post and Send** action.

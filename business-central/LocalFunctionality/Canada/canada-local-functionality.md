@@ -1,17 +1,17 @@
 ---
-    title: Canada Local Functionality 
-    description: The following topics describe the local functionality unique to the Canadian version of Business Central.
-    author: sorenfriisalexandersen
+title: Canada Local Functionality 
+description: The following topics describe the local functionality unique to the Canadian version of Business Central.
+author: sorenfriisalexandersen
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 06/17/2021
-    ms.author: soalex
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/17/2021
+ms.author: soalex
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Local Functionality in the Canadian Version
 

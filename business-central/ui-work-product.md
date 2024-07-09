@@ -1,14 +1,15 @@
 ---
-title: Working with Business Central  (contains video)
+title: Working with Business Central
 description: Describes how to interact with data in Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 09/19/2023
 ms.custom: bap-template
 
+ms.service: dynamics-365-business-central
 ---
 # Work with [!INCLUDE[prod_short](includes/prod_short.md)]
 

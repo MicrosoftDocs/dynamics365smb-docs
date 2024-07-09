@@ -5,13 +5,13 @@ author: jswymer
 
 
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: jswymer
 
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Create Sales Opportunities
 You can create opportunities for the sales opportunities you have on your contacts. All opportunities must be assigned to a salesperson or purchaser and must have a contact.

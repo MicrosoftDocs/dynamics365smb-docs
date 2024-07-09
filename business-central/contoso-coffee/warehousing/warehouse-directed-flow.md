@@ -1,18 +1,18 @@
 ---
-title: Receiving, Puting-away, Moving, Picking and Shipping in Advanced Warehouse Configuration with Directed Pick and Put-Away
+title: Receiving, putting-away, moving, picking and shipping in advanced warehouse configuration
 description: Inbound and outbound processes can be performed in different ways depending on the warehouse complexity level.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords:
 ms.search.form: 
-ms.date: 04/01/2021
+ms.date: 12/07/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# Walkthrough of inbound and outbound flow in Advanced Warehouse Configuration with Directed Put-away and Pick
+# Walkthrough of inbound and outbound flow in advanced warehouse Configuration
 
 This walkthrough demonstrates how to complete inbound and outbound flows in the Advanced: Directed Put-away and Pick configuration. For more information, see [Overview of different configuration options](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
@@ -36,7 +36,7 @@ Ellen, the warehouse manager utilizes cross-dock and bin replenishment functiona
     3. Choose the **Create Warehouse Shipment** action to create warehouse shipment for selected sales order.
     4. Choose the **Release** action to notify the warehouse that the sales shipment is ready for warehouse handling.  
 
-2. Define bins for the item to control where it is put-away 
+2. Define bins for the item to control where it's put-away 
 
     1.  Choose the ![Lightbulb that opens the Tell Me feature 3.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
     2.  Select the *WRB-1000* and then choose the **Bin Contents** action.  
@@ -55,7 +55,7 @@ Ellen, the warehouse manager utilizes cross-dock and bin replenishment functiona
 
 
 4. Check if there are outgoing orders that need received items and post receipt
-    1. Choose the **Calculate Cross-Dock** action. This will populate a column **Qty. to Cross-Dock**.
+    1. Choose the **Calculate Cross-Dock** action. This populates a column **Qty. to Cross-Dock**.
     2. Enter 0 into the **Qty. to Cross Dock** field in the line with item *WRB-1000* as you don't plan to repack in the receiving area.
     3. Choose the **Post Receipt** action.
 
@@ -64,12 +64,12 @@ Ellen, the warehouse manager utilizes cross-dock and bin replenishment functiona
     2. Locate the warehouse put-away document created from your Warehouse Receipt and open it
     3. On the **Warehouse Put-Away** page, review the **Lines** section
 
-    At this stage, the bin capacity logic is revealed. the warehouse put-away lines will have three lines for item *WRB-1000*:
+    At this stage, the bin capacity logic is revealed. the warehouse put-away lines have three lines for item *WRB-1000*:
     - A Take line to move the received quantities from the receiving bin (W-08-0001)
-    - A Place line that will move a one BAG into the one of configured fixed bins (W-05-0001)
-    - A Place line that will move another BAG into another fixed bins (W-05-0002). This is because single fixed bin can't contain the full receipt quantity.
+    - A Place line that moves a one BAG into the one of configured fixed bins (W-05-0001)
+    - A Place line that moves another BAG into another fixed bins (W-05-0002). This is because single fixed bin can't contain the full receipt quantity.
 
-    Because this put-away contains cross-dock lines, you’ll see three  lines for item *WRB-1001*:
+    Because this put-away contains cross-dock lines, you see three  lines for item *WRB-1001*:
     -  A Take line to move the received quantities from the receiving bin (W-08-0001)
     -  A Place line for the 2 into the cross-dock bin
     -  A Place line for the remaining quantity in storage bin
@@ -77,7 +77,7 @@ Ellen, the warehouse manager utilizes cross-dock and bin replenishment functiona
     4. Choose the **Register Put-away** action.
 
 
-6. Define a pick bins for the item to control where it is picked from 
+6. Define a pick bins for the item to control where it's picked from 
 
     1.  Choose the ![Lightbulb that opens the Tell Me feature 6.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Locations**, and then choose the related link.  
     2.  Open the *WHITE* location card.  
@@ -120,7 +120,7 @@ Ellen, the warehouse manager utilizes cross-dock and bin replenishment functiona
     4. Choose the **Create Pick** action.
     5. Confirm any of the pick settings needed, for example, enable **Per From Zone** toggle. Choose the **OK** button.
     
-    You'll receive a confirmation message with the pick numbers. There are two picks as some items are located in the cross-dock zone, close to shipping area, and it would make sense to process them separately.
+    You receive a confirmation message with the pick numbers. There are two picks as some items are located in the cross-dock zone, close to shipping area, and it would make sense to process them separately.
 
 9.  Register the warehouse picks
     1. Choose the ![Lightbulb that opens the Tell Me feature 10.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Warehouse Picks** and choose the related link.
@@ -150,7 +150,7 @@ Ellen, the warehouse manager utilizes cross-dock and bin replenishment functiona
 
 
 
-## See Also
+## See also
 [Receive Items](../../warehouse-how-receive-items.md) 
 [Design Details: Inbound Warehouse Flow](../../design-details-inbound-warehouse-flow.md) 
 [Ship Items](../../warehouse-how-ship-items.md) 

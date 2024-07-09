@@ -1,18 +1,16 @@
 ---
-    title: How to Export VAT Statements in XML Format
-    description: You can export a VAT statement in XML format and then submit it electronically to the tax authorities.
-    services: project-madeira 
-    documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+title: How to export VAT statements in XML format
+description: You can export a VAT statement in XML format and then submit it electronically to the tax authorities.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 12/07/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# Export VAT Statements in XML Format
+# Export VAT statements in XML format
 You can export a VAT statement in XML format and then submit it electronically to the tax authorities.  
 
 For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwlink/?LinkID=238181) website.  
@@ -43,7 +41,7 @@ For more information, see the [Spanish Tax Agency](https://go.microsoft.com/fwli
 
 You can open or save the generated XML file. You can now submit the VAT statement to the tax authorities.  
 
-## See Also  
+## See also  
  [Create Templates for Telematic VAT Statements in XML File Format](how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)   
  [Export VAT Statements in Text Format](how-to-export-vat-statements-in-text-format.md)
 

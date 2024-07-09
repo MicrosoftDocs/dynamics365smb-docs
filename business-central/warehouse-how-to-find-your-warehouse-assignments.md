@@ -3,13 +3,13 @@ title: Find Your Warehouse Assignments
 description: This topic explains how to find the warehouse assignments assigned to you on the Item Card page when instructions have been created for you.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 9000
 ms.date: 06/24/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Find Your Warehouse Assignments
 

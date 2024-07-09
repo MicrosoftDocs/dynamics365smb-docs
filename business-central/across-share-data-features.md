@@ -3,10 +3,11 @@ title: Sharing Data
 description: Learn about the different ways to share business data from Business Central. 
 author: jswymer
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords:
 ms.date: 09/21/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Sharing Business Data from Business Central
 
@@ -20,7 +21,7 @@ With all these features, access to data is protected by the license and permissi
 
 From any page, you can copy the page's URL, then paste and distribute it in other forms of media like emails, Teams chats, or text messages. The easiest way to copy a link is by selecting **Share** > **Copy Link** from the top of the page. Another way is to copy the URL directly from the browser's address box.
 
-When you paste the URL into a rich text editor, like Word, Outlook, or Teams, instead of displaying the full URL, the link is given a more readable name that clearly indicates context of the target. The name and pattern vary depending on what page you're linking to. Consider the following examples:
+When you paste the URL into a rich text editor like Word, Outlook, or Teams, instead of displaying the full URL, the link is given a more readable name that clearly indicates context of the target. The name and pattern vary depending on what page you're linking to. Consider the following examples:
 
 |Pattern|Page example|Link name|
 |-|-|-|
@@ -80,7 +81,7 @@ You can share one or more records in a list. Just select the <kbd>Ctrl</kbd>+<kb
 
 [Learn more about copy and paste in theFAQ](faq-copy-paste.yml).
 
-## See Also
+## See also
 
 [Business Central and OneDrive Integration](across-onedrive-overview.md)  
 [Managing OneDrive Integration with Business Central](admin-onedrive-integration.md)  

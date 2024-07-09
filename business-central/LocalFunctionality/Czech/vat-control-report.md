@@ -3,11 +3,11 @@ title: VAT Control Report [CZ]
 description: Czech companies registered for VAT in the Czech Republic (with assigned CZ VAT ID number) have the obligation to submit the VAT Control Report.
 author: v-pejano
 
-ms-service: dynamics365-business-central
+ms-service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: CZ, Czech, local, Finance, VAT, Control Report
 ms.date: 04/01/2021
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

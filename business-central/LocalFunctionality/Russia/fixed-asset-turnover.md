@@ -1,5 +1,5 @@
 ---
-title: Fixed asset turnoverin Russia
+title: Fixed asset turnover in Russia
 description: Russian enhancements include fixed asset turnover.
 author: DianaMalina
 
@@ -9,6 +9,7 @@ ms.search.keywords:
 ms.date: 04/01/2021
 ms.reviewer: bholtorf
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
 
 # Fixed Asset Turnover

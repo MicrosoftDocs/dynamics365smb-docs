@@ -3,14 +3,14 @@ title: Customizing Business Central
 description: Read about the different ways of customizing Business Central to improve access to functionality and features you need most as suits your daily work.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: personalize, add-in, extend, customize
 ms.search.form: 2500, 2502
 ms.date: 06/23/2021
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Customize Business Central
 

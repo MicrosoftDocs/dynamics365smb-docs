@@ -4,9 +4,9 @@ description: This article describes the outbound warehouse workflow.
 author: brentholtorf
 ms.author: bholtorf 
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 11/25/2022
+ms.date: 02/05/2024
 ms.custom: bap-template    
 ---
 # Outbound Warehouse Processes
@@ -43,11 +43,11 @@ The approach to choose depends on your warehouse practices and level of organiza
 * If items for an order line come from more than one bin, or if warehouse workers can't work with order documents, the use of separate pick documents is appropriate, method B.
 * If your picking and shipping processes involve multiple orders and require greater control and overview, you might choose to use a warehouse shipment document and warehouse pick document to separate the picking and shipping tasks, methods C and D.  
 
-In methods A, B, and C, picking and shipping activities are combined in one step when posting the a document as shipped. In method D, you first register the pick, and then post the shipment later from a different document.
+In methods A, B, and C, picking and shipping activities are combined in one step when posting the document as shipped. In method D, you first register the pick, and then post the shipment later from a different document.
 
 > [!NOTE]
 > While warehouse picks and inventory picks sound similar, they're different documents and are used in different processes.
-> * The inventory pick used in method B, together with registering picking information, also posts the shipment of the souece document.
+> * The inventory pick used in method B, together with registering picking information, also posts the shipment of the source document.
 > * The warehouse pick used in method D can't be posted and only registers the pick. The registration makes the items available for the warehouse shipment but doesn't post the shipment. In the outbound flow, the warehouse pick requires a warehouse shipment.
 
 ## No dedicated warehouse activity
@@ -114,7 +114,7 @@ When all items on the warehouse shipment document are registered as picked, the 
 
 [!INCLUDE [post-non-inventory-items](includes/post-non-inventory-items.md)]
 
-## See Also
+## See also
 
 [Warehouse Management](design-details-warehouse-management.md)  
 

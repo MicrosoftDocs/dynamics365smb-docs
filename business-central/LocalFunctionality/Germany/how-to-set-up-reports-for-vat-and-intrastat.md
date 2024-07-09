@@ -1,18 +1,18 @@
 ---
-    title: How to Set Up Reports for VAT and Intrastat
-    description: You can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.
+title: How to Set Up Reports for VAT and Intrastat
+description: You can specify which reports to use to create the documents that you must submit to the authorities, such as the VAT statement and the Intrastat form.
 
-    author: brentholtorf
+author: brentholtorf
 
     
-    ms.topic: conceptual
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 04/01/2021
-    ms.author: bholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 04/01/2021
+ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up Reports for VAT and Intrastat
 

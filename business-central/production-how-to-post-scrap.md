@@ -3,13 +3,13 @@ title: Post Scrap Manually
 description: If scrap is produced during processing, it can be entered in the output journal. Note that the scrap quantity does not increase the output quantity.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 99000823
 ms.date: 03/08/2023
 ms.author: bholtorf
 
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Post Scrap Manually
 

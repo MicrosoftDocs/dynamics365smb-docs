@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316
-ms.date: 04/26/2024
+ms.date: 05/21/2024
 ms.service: dynamics-365-business-central
 ---
 # Accounts receivable reports and analytics

@@ -1,5 +1,5 @@
 ---
-title: Count and Adjust Inventory
+title: Count and adjust inventory
 description: Describes how to count physical inventory and use inventory documents to adjust on-hand inventory.
 author: brentholtorf
 ms.author: bholtorf
@@ -38,7 +38,7 @@ To create the physical inventory order lines, you typically use the **Calculate 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Orders**, and then choose the related link.
 2. Choose the **New** action.
 3. Fill in the required fields on the **General** FastTab. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Choose the **Calculate Lines** action.
+4. On the **Actions** tab, in the **Functions** group, choose **Other**, and then choose **Calculate Lines**.
 5. Select options as necessary.
 6. Set filters, for example, to only include a subset of items to count with the first recording.
 
@@ -66,15 +66,16 @@ By default, a recording is created for all the lines on the related physical inv
 
 For manual counting, you can print the **Phys. Invt. Recording** report, which has an empty column where warehouse employees can write the counted quantities. When counting is complete, you enter the recorded quantities on the related lines on the **Phys. Inventory Recording** page. Lastly, you transfer the recorded quantities to the related physical inventory order by setting the status to **Finished**.
 
-1. On a **Physical Inventory Order** page that contains lines for the items to be counted in one recording, choose the **Make New Recording** action.
-2. Select options and set filters as necessary.
-3. Choose the **OK** button.
-4. For every set of items to be counted, load them on the related physical inventory order and repeat steps 1 through 3 with the **Only Lines Not in Recordings** checkbox selected.
-5. Choose the **Recordings** action to open the **Phys. Inventory Recording List** page.
-6. Open the relevant recording.
-7. On the **General** FastTab, fill in the fields as necessary.
-8. For items that use item tracking, create an additional line for each lot number or serial number code by choosing the **Functions** action, and then the **Copy Line** action. To learn more, go to [Handle item tracking when counting inventory](#handle-item-tracking-when-counting-inventory).  
-9. Choose the **Print** action to prepare the physical document that employees can use to note the quantities they count.
+1. On a **Physical Inventory Order** page that contains lines for the items to be counted in one recording, you need to choose the **Make New Recording** action.
+1. On the **Actions** tab, in the **Functions** group, choose **Other**, and then choose **Make New Recording**.
+1. Select options and set filters as necessary.
+1. Choose the **OK** button.
+1. For every set of items to be counted, load them on the related physical inventory order and repeat steps 1 through 3 with the **Only Lines Not in Recordings** checkbox selected.
+1. On the **Related** tab, choose **Order**, and then choose the **Recordings** action to open the **Phys. Inventory Recording List** page.
+1. Open the relevant recording.
+1. On the **General** FastTab, fill in the fields as necessary.
+1. For items that use item tracking, create an additional line for each lot number or serial number code by choosing the **Functions** action, and then the **Copy Line** action. To learn more, go to [Handle item tracking when counting inventory](#handle-item-tracking-when-counting-inventory).  
+1. Choose the **Print** action to prepare the physical document that employees can use to note the quantities they count.
 
 ## To finish a physical inventory recording
 
@@ -94,7 +95,7 @@ After employees count the quantities, record the quantities in [!INCLUDE [prod_s
 
 ## To complete a physical inventory order
 
-After you finish a physical inventory recording, the **Qty. Recorder (Base)** field on the related physical inventory order is updated with the counted (recorded) values, and the **On Recording** checkbox is selected. If a counted quantity differs from the expected quantity, the the **Pos Qty. (Base)** and **Neg Qty. (Base)** fields show the difference.
+After you finish a physical inventory recording, the **Qty. Recorder (Base)** field on the related physical inventory order is updated with the counted (recorded) values, and the **On Recording Lines** checkbox is selected. If a counted quantity differs from the expected quantity, the **Pos Qty. (Base)** and **Neg Qty. (Base)** fields show the difference.
 
 To access the expected quantities and any recorded differences for items with item tracking, choose the **Lines** action, and then choose **Item Tracking Lines** to select various views for the serial and lot numbers in the physical inventory count.
 
@@ -104,7 +105,7 @@ You can also choose the **Phys. Inventory Order Diff.** action to view any diffe
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Orders**, and then choose the related link.
 2. Open the physical inventory order to view duplicate lines for.
-3. Choose the **Show Duplicate Lines** action.
+1. On the **Related** tab, choose **Other**, and then choose **Show Duplicate Lines**.
 
 Duplicate physical inventory order lines display so that you can delete them and keep only one line with a unique set of values in the **Item No.**, **Variant Code**, **Location Code**, and **Bin Code** fields.
 
@@ -135,7 +136,7 @@ After posting, the physical inventory order is deleted and you can view and eval
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Posted Phys. Invt. Orders**, and then choose the related link.
 2. On the **Posted Phys. Invt. Orders** page, select the posted inventory order to view, and then choose the **View** action.
-3. To view a list of related physical inventory recordings, choose the **Recordings** action.
+3. On the **Related** tab, choose **Order**, and then choose the **Recordings** action to view a list of related physical inventory recordings.  
 
 ## Handle item tracking when counting inventory
 
@@ -202,7 +203,7 @@ The following types of documents are useful for managing your warehouse:
 * Use **inventory receipts** to register positive adjustments of items based on the quality, quantity, and cost.
 * Use **inventory shipments** to write off missing or damaged goods.
 
-You can print these documents at any stage, release and reopen them, and assign common values such as dimensions in the header. To reprint the documents after they're posted, use the **Posted Inventory Receipt** and **Posted Inventory Shipment** pages.
+You can print these documents at any stage, release, and reopen them, and assign common values such as dimensions in the header. To reprint the documents after they're posted, use the **Posted Inventory Receipt** and **Posted Inventory Shipment** pages.
 
 > [!NOTE]
 > Before you can use these documents, you must specify a number series to create their identifiers. To learn more, go to [To set up numbering for inventory documents](#to-set-up-numbering-for-inventory-documents).
@@ -214,21 +215,21 @@ The following procedure shows how to set up numbering for inventory documents.
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.
 2. On the **Numbering** FastTab, specify in the following fields the series of numbers for documents:
 
-   - **Inventory Receipt Nos.**  
-   - **Posted Inventory Receipt Nos.**  
-   - **Inventory Shipment Nos.**  
-   - **Posted Inventory Shipment Nos.**  
+   - **Invt. Receipt Nos.**  
+   - **Posted Invt. Receipt Nos.**  
+   - **Invt. Shipment Nos.**  
+   - **Posted Invt. Shipment Nos.**  
 
 ### To create and post an inventory document
 
 The following procedure shows how to create, print, and post an inventory receipt. The steps are similar for inventory shipments.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Receipts**, and then choose the related link.  
-2. In the header of the **Inventory Receipt** page, choose the location in the **Location Code** field, and then fill in the remaining fields as necessary.
+2. In the header of the **Invt. Receipt** page, choose the location in the **Location Code** field, and then fill in the remaining fields as necessary.
 3. On the **Lines** FastTab, in the **Item** field, choose the inventory item. In the **Quantity** field, enter the number of items to add.
-4. To print an **Inventory Receipt** report from the **Inventory Receipt** page, choose the **Print** action.
+4. To print an **Inventory Receipt** report from the **Invt. Receipt** page, choose the **Print** action.
 
-The following functions are available on the **Inventory Receipt** page:
+The following functions are available on the **Invt. Receipt** page:
 
 - Choose the **Release** or **Reopen** actions to set the status for the next processing stage.  
 - Choose the **Post** action to post the inventory receipt, or choose **Post and Print** to post the receipt and print the test report.  
@@ -249,13 +250,13 @@ You can specify the reports that must be printed at different stages by choosing
 
 ## See also
 
-[Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)  
-[Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)  
-[Inventory](inventory-manage-inventory.md)  
-[Warehouse Management Overview](design-details-warehouse-management.md)  
-[Sales](sales-manage-sales.md)  
-[Purchasing](purchasing-manage-purchasing.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md)    
+[Work with Serial and Lot Numbers](inventory-how-work-item-tracking.md)    
+[Inventory](inventory-manage-inventory.md)    
+[Warehouse Management Overview](design-details-warehouse-management.md)    
+[Sales](sales-manage-sales.md)    
+[Purchasing](purchasing-manage-purchasing.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

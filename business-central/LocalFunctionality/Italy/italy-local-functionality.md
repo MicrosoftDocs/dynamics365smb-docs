@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
-ms.date: 06/11/2024
+ms.date: 07/09/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -58,7 +58,7 @@ The following articles describe local functionality that is unique to the Italia
     * [Italian Subcontracting](italian-subcontracting.md) **Available Now**
     * [Set Up Journal Templates and Batches](how-to-set-up-journal-templates-and-batches.md) **Available Now**
     * [Italian Electronic Invoicing](electronic-invoicing.md) **Available Now**
-    * [Vendors from Fiscal Denied Countries or Regions](fiscal-deny-list.md) **Available Now**
+    * [Vendors from Fiscally Denied Countries or Regions](fiscal-deny-list.md) **Available Now**
 
 ## Future legislation requirements being investigated
 

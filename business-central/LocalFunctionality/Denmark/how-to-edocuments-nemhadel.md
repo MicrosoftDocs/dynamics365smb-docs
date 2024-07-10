@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, access-point, endpoint, nemhandel, denmark, dk
 ms.search.form: 359, 360, 6103, 6133
-ms.date: 07/09/2024
+ms.date: 07/10/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -28,7 +28,7 @@ In Danish E-Documents functionality, you can select OIOUBL and PEPPOL BIS 3 as d
 ## E-Document Services setup
 
 > [!NOTE]
-> To establish these connections, it is necessary to communicate with external service providers, who may require additional payment and contracts. To obtain all the necessary credentials, contact the service providers.
+> To establish these connections, it's necessary to communicate with external service providers, who may require additional payment and contracts. To obtain all the necessary credentials, contact the service providers.
 
 To set up services, complete the following steps:   
 
@@ -51,7 +51,7 @@ To set up services, complete the following steps:
 6. Select **Setup Service Integration**, and follow the instructions for [using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md). Then close the page.
 
 > [!NOTE]
-> If you do not have a **GLN No.** specified in the **Company Setup**, then export of all electronic documents will be using the company's **VAT Registration No.** as identifier in the electronic documents. In this case the **VAT Scheme** using for electronic documents in Denmark has been set to 0184. You can check the **VAT Scheme** value in the **Country/Region** page for each of countries. It means this value is used in all nodes when applicable. It is also added a prefix DK to **VAT Registration No.** when applicable.  
+> If you don't have a **GLN No.** specified in the **Company Setup**, then export of all electronic documents will be using the company's **VAT Registration No.** as identifier in the electronic documents. In this case the **VAT Scheme** using for electronic documents in Denmark is set to 0184. You can check the **VAT Scheme** value in the **Country/Region** page for each of countries. It means this value is used in all nodes when applicable. It's also added a prefix DK to **VAT Registration No.** when applicable.  
 
 To configure workflows, customers, and vendors, see [How to set up E-Documents](../../finance-how-setup-edocuments.md) and [Set the E-Documents connector with external endpoints](../../finance-how-setup-edocuments-external.md). 
 

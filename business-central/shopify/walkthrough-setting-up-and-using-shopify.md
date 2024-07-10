@@ -159,7 +159,7 @@ In [!INCLUDE[prod_short](../includes/prod_short.md)], do the following:
 5. Select **OK** and wait until initial synchronization of customers is completed.
 
 In **Shopify Admin**, notice that both the Company and the customer was imported. Open the customers and notice the Company fact box with link to Company, location and assigned permissions. 
-Select **[...]** in the **Copmany fact box, then select **Send B2B access email** to invite the customer.
+Select **[...]** in the **Company** fact box, then select **Send B2B access email** to invite the customer.
 
 ## Walkthrough: Fine-tuning of item management
 

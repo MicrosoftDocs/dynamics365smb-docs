@@ -486,6 +486,8 @@ ms.service: dynamics-365-business-central
 ### Financial reporting (Implementing financial statements and KPIs)
 #### [Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)
 #### [Prepare financial reporting](bi-how-work-account-schedule.md)
+#### [Organize report data using account categories](bi-account-categories.md)
+#### [Design your own financial reports](bi-design-financial-reports.md)
 #### [Row definitions in financial reporting](bi-row-definitions.md)
 #### [Column definitions in financial reporting](bi-column-definitions.md)
 #### [Walkthrough: Use financial reporting to make a cash flow forecasts](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)

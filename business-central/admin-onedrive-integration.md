@@ -72,7 +72,7 @@ As part of a disaster recovery exercise, administrators might need to restore a 
 
 ## Governance
 
-The SharePoint admin center provides extensive control over policies that govern the use of OneDrive throughout the organization. Global Admins, or users who have the SharePoint Admin role, can set up policies that determine who can access OneDrive, where data resides, the content lifecycle, and much more. The following links provide information about often-used features and settings that may enhance your integration with [!INCLUDE[prod_short](includes/prod_short.md)]. 
+The SharePoint admin center provides extensive control over policies that govern the use of OneDrive throughout the organization. Users who have at least the [SharePoint administrator](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) role can set up policies that determine who can access OneDrive, where data resides, the content lifecycle, and much more. The following links provide information about often-used features and settings that may enhance your integration with [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 * [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off)
 * [Use information barriers with SharePoint](/sharepoint/information-barriers)

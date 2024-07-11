@@ -1,13 +1,12 @@
 ---
-title: Exploring and Navigating Pages and Reports per Role
+title: Exploring and navigating pages and reports per role
 description: You can get an overview of all the business features that are available for your role, and for other roles, with the Role Explorer.
 author: jswymer
-
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: role explorer, find features, navigate
 ms.search.form: RoleExplorer, 9020, 9022, 9027, 9024
-ms.date: 08/01/2021
+ms.date: 05/21/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -47,7 +46,7 @@ The actions that open pages or reports are organized under nodes named after the
 
 ## Search for features
 
-To quickly locate features, select **Find**, then enter a word or phrase for the feature your trying to find. The role center highlights any matching text. If a feature is hidden in a collapsed node, the collapsed node is marked with a dot. 
+To quickly locate features, select **Find**, then enter a word or phrase for the feature you're trying to find. The role center highlights any matching text. If a feature is hidden in a collapsed node, the collapsed node is marked with a dot. 
 
 ## Explore other roles
 
@@ -98,7 +97,7 @@ The actions that open pages are organized under nodes named after the features o
   - Select the <kbd>Ctrl</kbd>+<kbd>Shift</kbd> keys while you choose the **Expand** or **Collapse** action in the top-right corner.
   - Choose **...** in the top-right corner, then choose the **Expand All** or **Collapse All** action.
 
-## See Also
+## See also
 
 [Finding Pages and Information with Tell Me](ui-search.md)  
 [Manage Profiles](admin-users-profiles-roles.md)  

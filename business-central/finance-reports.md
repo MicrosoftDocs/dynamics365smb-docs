@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
-ms.date: 05/03/2024
+ms.date: 05/20/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---

@@ -46,7 +46,7 @@ Depending on your warehouse setup, count physical inventory in one of the follow
 ### To calculate expected inventory in basic warehouse configurations
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Physical Inventory Journals**, and then choose the related link.
-2. Choose the **Calculate Inventory** action.
+2. Choose the **Calculate Inventory** action from **Prepare**.
 3. On the **Calculate Inventory** page, specify the conditions to use to create the journal lines, such as whether to include items that have zero recorded inventory.
 4. Set filters if you only want to calculate inventory for certain items, bins, locations, or dimensions.
 5. Choose the **OK** button.
@@ -56,8 +56,8 @@ Depending on your warehouse setup, count physical inventory in one of the follow
 
 ### To print the report to be used when counting
 
-1. On the **Physical Inventory Journal** page containing the calculated expected inventory, Choose the **Print** action.
-2. On the **Warehouse Physical Inventory List** page, specify whether the report shows the calculated quantity and inventory items by serial and lot numbers.
+1. On the **Physical Inventory Journals** page containing the calculated expected inventory, Choose the **Print** action from **Home**.
+2. On the **Physical Inventory List** page, specify whether the report will show the calculated quantity and inventory items by serial and lot numbers.
 3. Set filters if you only want to print the report for certain items, bins, locations, or dimensions.
 4. Choose **Print**.
 
@@ -68,17 +68,18 @@ Warehouse employees can now count inventory and record any differences on the pr
 
 ### To enter and post the actual counted inventory in basic warehouse configurations
 
-1. On each line on the **Physical Inventory Journal** page where the actual inventory on hand, as determined by the physical count, differs from the calculated quantity, enter the actual inventory on hand in the **Qty. (Phys. Inventory)** field.
+1. On each line on the **Physical Inventory Journals** page where the actual inventory on hand, as determined by the physical count, differs from the calculated quantity, enter the actual inventory on hand in the **Qty. (Phys. Inventory)** field.
   
   > [!NOTE]  
   > If the physical count reveals differences caused by items posted with incorrect locations, don't enter the differences in the physical inventory journal. Instead, use a reclassification journal or a transfer order to redirect the items to the correct locations. 
 
-2. To adjust the calculated quantities to the actual counted quantities, choose the **Post** action.
+2. To adjust the calculated quantities to the actual counted quantities, choose the **Post** action from **Home**.
 
-    Posting creates item ledger entries and physical inventory ledger entries. Open the Item Card page for the item to find its physical inventory ledger entries. <!--Where are they shown on an item?-->
+    Posting creates item ledger entries and physical inventory ledger entries. Open the Item Card page for the item to find its physical inventory ledger entries.
 
 3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
-4. To verify the count, open the Item Card page for the item, and choose the **Phys. Inventory Ledger Entries** action. <!--I don't see this action -->
+4. To verify the count, open the **Item Card** page for the item, and choose the **Phys. Inventory Ledger Entries** action from **Item**
+1. .
 
 ### To calculate the expected inventory in advanced warehouse configurations
 
@@ -172,7 +173,7 @@ You can also use the **Adjust Inventory** action as an easy way to add purchased
 
 ### To adjust the quantities of multiple items in basic warehouse configurations
 
-On the **Item Journal** page, you can post item transactions directly to adjust inventory for purchases, sales, and positive or negative changes without using documents.
+On the **Item Journals** page, you can post item transactions directly to adjust inventory for purchases, sales, and positive or negative changes without using documents.
 
 If you often use the item journal to post the same or similar journal lines, for example, for material consumption, the **Standard Item Journal** page can make this recurring work easier. For more information, see [Work with Standard Journals](ui-work-general-journals.md#work-with-standard-journals).
 

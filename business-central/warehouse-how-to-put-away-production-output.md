@@ -14,12 +14,13 @@ ms.search.forms: 9326, 99000831, 9315, 7375
 
 How you put away your output from production depends on how your warehouse is set up as a location. Learn more at [Setting Up Warehouse Management](warehouse-setup-warehouse.md).  
 
-In basic warehouse configurations where the location requires put-away processing, use the **Inventory Put-away** document to post production output and record put-aways for it.  
+In a basic warehouse configuration for the inbound flow (put-away), on the **Location Card** page for the location, activate following settings:
 
-> [!NOTE]  
-> Assembly processes don't support inventory put-aways. You post an assembly order to register output. If you use bins, you can move items between the bins later. Learn more at [Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).  
+* Production, select the *Inventory Put-away* in the **Prod. Output Whse. Handling** field.
+* Assembly processes don't support inventory put-aways. You post an assembly order to register output. If you use bins, you can move items between the bins later. Learn more at [Move Items Ad Hoc in Basic Warehouse Configurations](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).  
+* Projects, put-away is not applicable for projects.
 
-In advanced warehouse configurations where a location requires both put-away and receipt processing, create either an internal put-away document or a movement document to put away the output.  
+In advanced warehouse configurations where a location requires both put-away, create either an internal put-away document or a movement document to put away the output.  
 
 ## To put away production output with an inventory put-away
 

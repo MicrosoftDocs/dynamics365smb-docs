@@ -29,7 +29,7 @@ The following table describes a sequence of tasks, with links to the topics that
 | Purchase supplies for a project, either on purchase orders or invoices, and record item and time usage. |[Manage Project Supplies](projects-how-manage-project-supplies.md) |
 | Learn about WIP (Work in Process), a feature that ensures correct financial statements and enables you to estimate the financial value of projects that are ongoing. |[Understanding WIP Methods](projects-understanding-wip.md) |
 | Post the consumption of materials, resources, and other expenses of project work in process (WIP) to monitor its financial value and to maintain correct financial statements even though you post project expenses before invoicing the project. |[Monitor Project Progress and Performance](projects-how-monitor-progress-performance.md) |
-| Record project costs for resource usage, materials, and project-related purchases on an on-going basis and invoice the customer, either when the project is finished or according to an invoicing schedule. |[Invoice Project](projects-how-invoice-jobs.md) |
+| Invoice the customer, either when the project is finished or according to an invoicing schedule. |[Invoice Project](projects-how-invoice-jobs.md) |
 
 ## Get started with projects
 

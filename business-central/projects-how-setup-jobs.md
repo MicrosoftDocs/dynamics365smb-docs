@@ -28,7 +28,7 @@ For each project, specify various information:
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> The **Apply Usage Link by Default** toggle on the **Projects Setup** page indicates whether project ledger entries are linked to project planning lines by default. Turn on the toggle to apply this setting to all new projects. You can enable or disable project usage tracking for a specific project by turning the **Apply Usage Link** toggle on or off on the **Project Card** page. The **Apply Usage Link** toggle also activates warehouse handling, planning, item tracking and reservation capabilities.
+> The **Apply Usage Link by Default** toggle on the **Projects Setup** page indicates whether project ledger entries are linked to project planning lines by default. Turn on the toggle to apply this setting to all new projects. You can enable or disable project usage tracking for a specific project by turning the **Apply Usage Link** toggle on or off on the **Project Card** page. The **Apply Usage Link** toggle also activates warehouse handling, planning, assembly-to-order, item tracking and reservation capabilities for project.
 
 ### To set up project usage tracking
 

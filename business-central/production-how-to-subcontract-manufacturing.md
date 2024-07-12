@@ -84,6 +84,9 @@ When the purchase is posted as received, then an output journal entry is automat
 
 When the purchase order is posted as invoiced, then the direct cost of the purchase order is posted to the production.  
 
+> [!NOTE]  
+>  Expected costs are only managed for item transactions. Expected costs are not for immaterial transaction types, such as capacity posted via subcontract purchase order. Don't be confused by the fact that posting of receipt might trigger posting of output, these transactions are separated and expected cost of output is calculated independently.  
+
 ## See Also  
 [Manufacturing](production-manage-manufacturing.md)    
 [Setting Up Manufacturing](production-configure-production-processes.md)  

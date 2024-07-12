@@ -13,16 +13,12 @@ ms.service: dynamics-365-business-central
 # Invoice Projects
 
 During the project, project costs from resource usage, materials, and project-related purchases can accumulate. As the project progresses, these transactions get posted to the project journal. It is important that all costs get recorded in the project journal before you invoice the customer.
+Invoicing can be done after the project is finished or at certain intervals during the project's progress based on an invoicing schedule.
 
-> [!NOTE]
-> You can also purchase external resources unrelated to a project, for example, to invoice a vendor for work delivered. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
-
-You can invoice the whole project from the **Project Task Lines** page or only invoice selected billable lines from the **Project Planning Lines** page. Invoicing can be done after the project is finished or at certain intervals during the project's progress based on an invoicing schedule.
-
-> [!NOTE]  
-> If you select **Billable** in the **Project Line Type** field on the purchase documents for project-related purchases, then project planning lines that are ready to be invoiced to the customer are created. For more information, see [Manage Project Supplies](projects-how-manage-project-supplies.md).
-
-You can also invoice a company that is not the end customer. Sometimes the party that a project is for is different from the party that is paying the bill. On the **Projects** page, you can specify the customer who will benefit from the project in the **Sell-to** fields, and the party to invoice in the **Bill-to** fields.
+You can invoice:
+* Multiple projects using **Project Create Sales Invoice** task
+* Whole projects, some projects withing project, or individual project planning lines using relevant action in the project pages.
+* Combine multiple project planning lines from different project into single sales invoice using **Get Project Planning Lines** action in the **Sales Invoice** page. 
 
 ## To create multiple project sales invoices
 
@@ -38,7 +34,7 @@ The following procedure shows how to use a batch job to invoice multiple project
 You can review and post created invoices in the **Sales Invoices** window.
 
 > [!NOTE]
-> Alternatively, invoice a customer by selecting the project, and then choosing the **Create Sales Invoice** action. 
+> Alternatively, invoice a customer by selecting the project, and then choosing the **Create Project Sales Invoice** action in the project or **Create Sales Invoice** action in the project tasks. 
 
 ## To create and post project sales invoice from project planning lines
 
@@ -58,6 +54,25 @@ You can create an invoice from a project planning lines, and indicate at that ti
 
 > [!NOTE]  
 > The above procedure is similar for creating, reviewing, and posting a project-related sales credit memo.
+
+## Invoice one customer for multiple project tasks
+
+You can simplify your invoicing process by sending one invoice to a customer for multiple projects. Add project planning lines from multiple projects to a sales invoice in one go. This process is similar to creating a sales invoice from a project planning line and entering a value in the **Append to Sales Invoice No.** field.
+
+Here's an overview of the process.
+
+1. Create a new sales invoice, and fill in the **Sell-to Customer No.** field. If needed, also fill in the **Bill-to Customer No.** and **Currency Code** fields.
+2. On the **Lines** FastTab, choose the **Get Project Planning Lines** action. The **Get Project Planning Lines** page shows billable project planning lines from projects for the sell-to customer, bill-to customer, and invoicing currency where the quantity to invoice is more than zero. 
+3. Choose the lines you want to add to the invoice, and then choose **OK**.
+
+Repeat these steps if you want to add another set of project planning lines. You can also delete the invoice or its lines and start over.
+
+> [!NOTE]
+> There are a couple of limitations:
+>
+> * The **Get Project Planning Lines** action isn't available on sales orders or sales quotes.
+> * You can't filter on the **Ship-to Code** or **Contact No.** fields.
+
 
 ## See also
 

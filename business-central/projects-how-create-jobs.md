@@ -24,36 +24,6 @@ The layer structure enables you to divide the project into smaller tasks, and th
 > [!TIP]
 > Choose the **New Project** action on the **Project Manager** Role Center to launch an assisted setup guide that takes you through the steps of creating a project with integrated tasks and planning lines. The following procedure describes how to perform the steps manually. <!-- For an example of how to create a project manually, go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).-->
 
-## Invoice one or more customers for project tasks
-
-Sometimes the party that is receiving a service is different from the party that'll pay the bill. Also, sometimes you might need to invoice multiple customers for tasks in the project. On the **Project Card** page, use the **Task Billing Method** field to specify whether you're billing one customer, or multiple customers.
-
-If the customer who is receiving the service will also pay the bill, in the **Bill-to** and **Ship-to** fields, choose **Default (Customer)** and **Default (Sell-to Address)**.
-
-If you're billing multiple customers, you can specify the customer who will receive the service and the customer to invoice for each task in the project. You can also provide the following information:
-
-* Where the work will happen by selecting from a list of ship-to addresses for the customer.
-* Add information about external references to simplify communication about the project.
-* Overwrite the standard financial terms of the project.
-
-## Invoice one customer for multiple project tasks
-
-You can simplify your invoicing process by sending one invoice to a customer for multiple projects. Add project planning lines from multiple projects to a sales invoice in one go. This process is similar to creating a sales invoice from a project planning line and entering a value in the **Append to Sales Invoice No.** field.
-
-Here's an overview of the process.
-
-1. Create a new sales invoice, and fill in the **Sell-to Customer No.** field. If needed, also fill in the **Bill-to Customer No.** and **Currency Code** fields.
-2. On the **Lines** FastTab, choose the **Get Project Planning Lines** action. The **Get Project Planning Lines** page shows billable project planning lines from projects for the sell-to customer, bill-to customer, and invoicing currency where the quantity to invoice is more than zero. 
-3. Choose the lines you want to add to the invoice, and then choose **OK**.
-
-Repeat these steps if you want to add another set of project planning lines. You can also delete the invoice or its lines and start over.
-
-> [!NOTE]
-> There are a couple of limitations:
->
-> * The **Get Project Planning Lines** action isn't available on sales orders or sales quotes.
-> * You can't filter on the **Ship-to Code** or **Contact No.** fields.
-
 ## To create a project card
 
 You create a project card and then create project task lines and project planning lines for it.
@@ -83,6 +53,18 @@ A key part of creating a project is to specify the various tasks involved in the
 4. To indent tasks and create a hierarchy, Choose the **Tasks** action, the then choose **Indent Project Tasks** action.
 5. Repeat steps 3 and 4 for all the tasks that you need for the project.
 6. To specify the project tasks with information on other project tasks, choose the **Copy Project Tasks from** action, fill in the fields as necessary, and then choose the **OK** button.
+
+## Invoice one or more customers for project tasks
+
+Sometimes the party that is receiving a service is different from the party that'll pay the bill. Also, sometimes you might need to invoice multiple customers for tasks in the project. On the **Project Card** page, use the **Task Billing Method** field to specify whether you're billing one customer, or multiple customers.
+
+If the customer who is receiving the service will also pay the bill, in the **Bill-to** and **Ship-to** fields, choose **Default (Customer)** and **Default (Sell-to Address)**.
+
+If you're billing multiple customers, you can specify the customer who will receive the service and the customer to invoice for each task in the project. You can also provide the following information:
+
+* Where the work will happen by selecting from a list of ship-to addresses for the customer.
+* Add information about external references to simplify communication about the project.
+* Overwrite the standard financial terms of the project.
 
 ## To create planning lines for a project
 

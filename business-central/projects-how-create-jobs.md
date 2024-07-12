@@ -30,10 +30,13 @@ You create a project card and then create project task lines and project plannin
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. To base the project on information from another project, choose the **Copy Project** action, fill in the fields as necessary, and then choose the **OK** button.
+4. To base the project on information from another project, choose the **Copy Project** action, fill in the fields as necessary, and then choose the **OK** button.
 
 > [!NOTE]  
 > If you are using time sheets with your project, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the project. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
+
+> [!NOTE]  
+> The **Apply Usage Link** toggle indicates whether project ledger entries are linked to project planning lines. The **Apply Usage Link** toggle also activates warehouse handling, planning, assembly-to-order, item tracking and reservation capabilities for project.
 
 Optionally, mark actions on project as blocked using the **Blocked** field. the following table describes the effect of the options for this field.
 
@@ -65,6 +68,20 @@ If you're billing multiple customers, you can specify the customer who will rece
 * Where the work will happen by selecting from a list of ship-to addresses for the customer.
 * Add information about external references to simplify communication about the project.
 * Overwrite the standard financial terms of the project.
+
+## Specify a default location for project items
+
+You can save time on data entry by specifying a default location and bin for projects on the **Project Card** page. When you create project tasks, project planning lines, and project journal lines for the project, the default location and bin are automatically assigned. You can, however, change the location code and bin on tasks and lines if needed.
+
+If you define a **To-Project Bin Code** on the location, the bin code is populated when you select the location code. If your warehouse flow requires warehouse picks, you can also define other bins from which to consume items.
+
+These fields are the defaults when you create project tasks. Existing project tasks don't change.
+
+There are a few things to know about using default locations:
+
+* For project tasks, if you define a **To-Project Bin Code** on the location, the bin code is assigned when you select the location code. If your warehouse flow requires warehouse picks, you can also define other bins from which to consume items.
+* For project planning lines, the **Location Code** is based on the value selected on the project planning line when you select an item. If a bin code isn't defined for the project task, the bin from the default bin content is selected. You can change both values manually.
+* For project journal lines, the **Location Code** is based on the value selected on the job journal line when you select an item. If a bin code isn't defined for the project task, the bin from default bin content is selected. You can change both values manually.
 
 ## To create planning lines for a project
 

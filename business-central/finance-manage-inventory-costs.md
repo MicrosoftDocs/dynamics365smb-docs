@@ -33,8 +33,7 @@ Central principles to understand are that costing methods define how items are v
 |**To**|**See**|  
 |------------|-------------|  
 |Ensure that you know the cost of shipped items by assigning added item costs, such as freight, physical handling, insurance, and transportation that you incur after selling.|[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
-|Read why standard costs are often used by manufacturing companies as a valuation base for components and end items.|[About Calculating Standard Cost](finance-about-calculating-standard-cost.md)|
-|Periodically update the standard costs of components, in assembly or production BOMs, and roll the new costs up to the parent item.|[Update Standard Costs](finance-how-to-update-standard-costs.md)|
+|Read why standard costs are often used by manufacturing companies as a valuation base for components and end items and how to periodically update the standard costs of components, in assembly or production BOMs, and roll the new costs up to the parent item.|[About Calculating Standard Cost](finance-about-calculating-standard-cost.md)|
 |Appreciate or depreciate the value of one or more items in inventory by posting their current, calculated value.|[Revalue Inventory](inventory-how-revalue-inventory.md)|
 |Use special costing functions for every-day item transactions in the item operations.|[Handling Inventory and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)|  
 |View and manually change certain item application entries that are created automatically during inventory transactions.|[Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)|

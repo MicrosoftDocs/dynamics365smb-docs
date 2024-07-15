@@ -113,6 +113,20 @@ The internal controller then uses the [**Copy Standard Cost Worksheet**](#copy-s
 
 The [**Implement Standard Cost Change**](#implement-standard-cost-change) batch job is used to implement the standard cost changes, which updates the standard costs on the item cards of the items that are included in the worksheet. It also creates revaluation journal lines so that you can update the items in stock with the new standard cost.
 
+### To update standard costs
+
+1.  Run the **Adjust Cost-Item Entries** batch job. To start the batch job, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Cost-Item Entries**, and then choose the related link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Review the results and make changes as necessary.  
+2.  Run the **Post Inventory Cost to G/L** batch job. To start the batch job, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Inventory Cost to G/L**, and then choose the related link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Review the results and make changes as necessary.  
+3.  Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Standard Cost Worksheet**, and then use one or more of the following actions:
+    1.  Run the **Suggest Item Standard Cost** batch job.  
+    2.  Review the results and make changes as necessary.  
+    3.  Run the **Suggest Capacity Standard Cost** batch job.  
+    4.  Review the results and make changes as necessary.
+    5. Run the **Roll Up Standard Cost** batch job.
+    6.  Review the results and make changes as necessary.
+    7.  Run the **Implement Standard Cost Changes** batch job.  
+4.  Review and post the **Revaluation Journal** page, which has been populated with entries from the previous steps in this process.  
+
 ### Suggest Item Standard Cost
 
 Creates suggestions for changing the costs and cost shares of standard costs on item cards. When the batch job has completed, you can see the result in the **Standard Cost Worksheet** page.

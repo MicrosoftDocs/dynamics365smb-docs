@@ -371,7 +371,7 @@ ms.service: dynamics-365-business-central
 <!-- #### [About inventory costs](finance-learn-about-costing.md)  //same as above or referst to design details. merging into finance-manage-inventory-costs.md  ; ok to remove file-->
 #### [Use item charges to account for additional trade costs](payables-how-assign-item-charges.md)
 #### [About standard cost calculation](finance-about-calculating-standard-cost.md)
-#### [About unit cost calculation](finance-about-calculating-unit-cost.md)
+<!-- #### [About unit cost calculation](finance-about-calculating-unit-cost.md)  //merged into finance-about-calculating-standard-cost.md; ok to remove file -->
 <!-- #### [Set up inventory valuation and costs](finance-set-up-inventory-valuation-and-costing.md)  //merged into finance-manage-inventory-costs.md, also content moved to inventory-how-setup-general.md ; ok to remove file -->
 #### [Revalue inventory](inventory-how-revalue-inventory.md)
 #### [Track item cost adjustments](finance-track-inventory-costs.md)

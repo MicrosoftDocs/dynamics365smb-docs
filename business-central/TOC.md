@@ -380,13 +380,16 @@ ms.service: dynamics-365-business-central
 #### [Remove and reapply item ledger entries](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Close open item ledger entries that result from fixed application in the item journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Report inventory costs and reconcile with the general ledger
-##### [Work with inventory periods](finance-how-to-work-with-inventory-periods.md) <!-- moved into folder as this is more "close period" task -->
-##### [Adjust item costs](inventory-how-adjust-item-costs.md)  <!-- moved into folder as this is more "close period" task --> 
+##### [Work with inventory periods](finance-how-to-work-with-inventory-periods.md) 
+<!-- line above: moved into folder as this is more "close period" task -->
+##### [Adjust item costs](inventory-how-adjust-item-costs.md) 
+<!-- line above: moved into folder as this is more "close period" task --> 
 <!-- ##### [Report costs](finance-report-costs-and-reconcile-with-the-general-ledger.md) looks like this one is already removed and redirects to finance-how-to-post-inventory-costs-to-the-general-ledger.md  -->
 ##### [Reconcile inventory costs with the general ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)   
 <!-- ##### [Monitor job progress and performance](projects-how-monitor-progress-performance.md)   //removing link, as this is Project related WIP. Article is available from Prjoect folder -->
 ##### [Adjust and reconcile inventory cost with general ledger with job queue](finance-adjust-reconcile-inventory-cost-job-queue.md)
-#### [Design details: Inventory costs](design-details-inventory-costing.md) <!-- just moving down -->
+#### [Design details: Inventory costs](design-details-inventory-costing.md) 
+<!-- line above: just moving down -->
 
 ### Manage cash flow
 #### [Cash flow overview](finance-cash-flow-overview.md)

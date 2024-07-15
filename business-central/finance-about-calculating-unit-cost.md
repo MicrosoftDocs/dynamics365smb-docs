@@ -13,13 +13,11 @@ ms.date: 04/19/2024
 
 Each item has a unit cost that is calculated based on the company's costing method and other factors. As a rule, with the *Standard* costing method, the **Unit Cost** field value is based on the standard cost for the item. For all other costing methods (*FIFO*, *LIFO*, *Specific*, and *Average*), the unit cost is calculated based on the average unit cost across a period of time.  
 
-For more information, see [Managing Inventory Costs](finance-manage-inventory-costs.md).  
-
-## When is the unit cost field updated
+## When is the unit cost field updated for item
 
 The chosen costing method influences when the **Unit Cost** field is updated.
 
-When the costing method is set as *Standard*, the **Unit Cost** field is updated whenever the standard cost is changed, and users can't edit the **Unit Cost** field. For more information, see [Updating Standard Costs](finance-how-to-update-standard-costs.md).
+When the costing method is set as *Standard*, the **Unit Cost** field is updated whenever the standard cost is changed, and users can't edit the **Unit Cost** field. For more information, see [About Calculating Standard Cost](finance-about-calculating-standard-cost.md).
 
 If the costing method is *FIFO*, *LIFO*, *Specific*, or *Average*, then the **Unit Cost** is updated in the following cases:
 
@@ -35,29 +33,32 @@ If one of these conditions is true, then the **Unit Cost** field is updated with
 
 In the **Unit Cost** field on the item card, you can drill down to view the history of transactions that the average cost of units on hand is calculated from in the **Average Cost Calc. Overview** window.
 
-## Unit cost calculation for purchases
+## Impact of unit cost field on purchases and sales
+How the contents of the **Costing Method** field influence the unit cost calculation for purchases and sales is described in more detail in the following sections.
+
+### Unit cost calculation for purchases
 
 When you purchase items, the value in the **Last Direct Cost** field on the item card is copied to the **Direct Unit Cost** field on a purchase line or to the **Unit Amount** line on an item journal line.
 
 What you select in the **Costing Method** field influences how [!INCLUDE[prod_short](includes/prod_short.md)] calculates the contents of the **Unit Cost** field on the lines.
 
-### Costing method FIFO, LIFO, Specific, or Average
+#### Costing method FIFO, LIFO, Specific, or Average
 
 [!INCLUDE[prod_short](includes/prod_short.md)] calculates the contents of the **Unit Cost (LCY)** field on the purchase line or the contents of the **Unit Cost** field on the item journal line according to the following formula:
 
 *Unit Cost (LCY) = (Direct Unit Cost – (Discount Amount / Quantity)) x (1 + Indirect Cost % / 100) + Overhead Rate*
 
-### Costing method Standard
+#### Costing method Standard
 
 The **Unit Cost (LCY)** field on the purchase line or the **Unit Cost** field is filled on the item journal line by copying the value in the **Unit Cost** field on the item card. By using costing method set as *Standard*, this value is always based on the standard cost.
 
 When you post the purchase, [!INCLUDE[prod_short](includes/prod_short.md)] uses the unit cost from the purchase line or item journal line to the purchase item invoice entry. You can see it on the entry list for the item.
 
-### All costing methods
+#### All costing methods
 
 The unit cost from the source document line is used to calculate the contents of the **Cost Amount (Actual)** field, or if applicable, the **Cost Amount (Expected)** field that relates to this item entry, regardless of the costing method of the item.
 
-## Unit cost calculation for sales
+### Unit cost calculation for sales
 
 When you sell items, the unit cost is copied from the **Unit Cost** field on the item card to the sales line or the item journal line.
 

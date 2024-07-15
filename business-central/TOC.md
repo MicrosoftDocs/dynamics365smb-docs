@@ -371,12 +371,12 @@ ms.service: dynamics-365-business-central
 <!-- #### [About inventory costs](finance-learn-about-costing.md)  //same as above or referst to design details. merging into finance-manage-inventory-costs.md  ; ok to remove file-->
 #### [Use item charges to account for additional trade costs](payables-how-assign-item-charges.md)
 #### [About standard cost calculation](finance-about-calculating-standard-cost.md)
-<!-- #### [About unit cost calculation](finance-about-calculating-unit-cost.md)  //merged into finance-about-calculating-standard-cost.md; ok to remove file -->
+#### [About unit cost calculation](finance-about-calculating-unit-cost.md)  
 <!-- #### [Set up inventory valuation and costs](finance-set-up-inventory-valuation-and-costing.md)  //merged into finance-manage-inventory-costs.md, also content moved to inventory-how-setup-general.md ; ok to remove file -->
 #### [Revalue inventory](inventory-how-revalue-inventory.md)
 #### [Track item cost adjustments](finance-track-inventory-costs.md)
 #### [Handle inventory and manufacturing costs](finance-handle-inventory-and-manufacturing-costs.md)
-#### [Update standard costs](finance-how-to-update-standard-costs.md)
+<!-- #### [Update standard costs](finance-how-to-update-standard-costs.md)  //merged into finance-about-calculating-standard-cost.md; ok to remove file -->
 #### [Remove and reapply item ledger entries](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Close open item ledger entries that result from fixed application in the item journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Report inventory costs and reconcile with the general ledger

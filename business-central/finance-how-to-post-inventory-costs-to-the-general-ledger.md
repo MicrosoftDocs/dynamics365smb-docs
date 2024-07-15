@@ -14,19 +14,31 @@ ms.reviewer: bholtorf
 ---
 # Reconcile Inventory Costs with the General Ledger
 
-When you post inventory transactions, such as sales shipments, purchase invoices, or inventory adjustments, the changed item costs are recorded in item value entries. To reflect this change of inventory value in your financial books, the inventory costs are automatically posted to the related inventory accounts in the general ledger. For each inventory transaction that you post, the appropriate values are posted to the inventory account, adjustment account, and COGS account in the general ledger.
+When you post inventory transactions, such as sales shipments, purchase invoices, or inventory adjustments, the changed item costs are recorded in item value entries. To reflect this change of inventory value in your financial books, the inventory costs also need to be posted to the related inventory accounts in the general ledger, such as the inventory account, adjustment account, and COGS account in the general ledger.
 
-Automatic cost posting is defined by the **Automatic Cost Posting** field on the **Inventory Setup** page.
+Unless you have selected the **Automatic Cost Posting** check box in the **Inventory Setup** window, inventory costs aren't recorded dynamically in the general ledger, and COGS isn't calculated with a sale. Therefore, you must post to the general ledger manually by running the **Post Inventory Cost to G/L** batch job to update the general ledger and potentially print a report of the value entries that are posted.
 
-Even though inventory costs are automatically posted to the general ledger, it is still necessary to ensure that the costs of goods are forwarded to the related outbound sales transaction, especially in situations where you sell goods before you invoice the purchase of those goods. This is referred to as cost adjustment. Item costs are automatically adjusted when you post item transactions, but you can also adjust item costs manually. For more information, see [Adjust Item Costs](inventory-how-adjust-item-costs.md).
+> [!IMPORTANT]  
+> Before you use this batch job, you should run the **Adjust Cost - Item Entries** batch job. This ensures that, when you run this batch job, the costs that will be posted to the general ledger are up to date. This is referred to as cost adjustment. For more information, see [Adjust Item Costs](inventory-how-adjust-item-costs.md).
 
 ## To post inventory costs manually
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Post Inventory Cost to G/L**, and then choose the related link.
-2. Post inventory costs to the general ledger manually by running the batch job. When you run this batch job, general ledger entries are created on the basis of value entries. You can post the entries so that they are summarized per posting group.
+
+2. Post inventory costs to the general ledger manually by running the batch job. When you run this batch job, general ledger entries are created on the basis of value entries. To calculate the value to post, it uses the difference between the **Cost Amount (Actual)** field and the **Cost Posted to G/L** field in the value entries. If you have selected the **Expected Cost Posting to G/L** check box in the **Inventory Setup** window, then the batch job also posts the difference between the **Cost Amount (Expected)** field and the **Exp. Cost Posted to G/L** field to interim accounts in the general ledger. You can post the entries so that they are summarized per posting group.
+
+#### Options
+
+|Option  |Description  |
+|--------------|---------|
+|**Posting Method**|The batch job can either post inventory value to the general ledger per posting group or per posted entry. If you post per entry, you achieve a detailed specification of how the inventory affects the general ledger, but you also get numerous G/L entries. If you post per posting group, the batch job creates a general ledger entry per posting date per posting group combination. This means that a general ledger entry is created for each combination of posting date, general business posting group, general product posting group, inventory posting group, and location code. In addition, the batch job creates separate general ledger entries for costs with different signs.|
+|**Document No.**|In this field, you can enter a document number if you have chosen the *Post per Inventory Posting Group* option. The document number appears on posted entries.|
+|**Post**|Select this field if you want the batch job to post to the general ledger automatically. If you don't choose to post the inventory cost to G/L, the batch job will only print a test report showing the values that can be posted to the general ledger, and on the report will appear: **Test Report (not posted)**.|
+
 
 > [!NOTE]  
 > When you run this batch job, you might encounter errors having to do with missing setup or incompatible dimension setup. If the batch job encounters errors in the dimension setup, it overrides these errors and uses the dimensions of the value entry. For any other errors, the batch job skips posting the value entries and lists them at the end of the report in a section titled “Skipped Entries.” To post these entries, you must fix the errors.
+> For example if you have not selected the **Expected Cost Posting to G/L** check box in the **Inventory Setup** window, then the last section of the report will list value entries that are skipped because they represent expected costs.
 
 To see a list of errors before running the posting batch job, you can run the **Post Invt. Cost to G/L - Test** report. The test report lists all the errors encountered during a test posting. You can then fix the errors, and run the inventory cost posting batch job without skipping any entries.
 

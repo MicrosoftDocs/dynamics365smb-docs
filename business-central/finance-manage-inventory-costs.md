@@ -37,7 +37,7 @@ Central principles to understand are that costing methods define how items are v
 |View and manually change certain item application entries that are created automatically during inventory transactions.|[Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)|
 |Adjust item costs, either automatically or manually, to forward cost changes from inbound entries to their related outbound entries.|[Adjust Item Costs](inventory-how-adjust-item-costs.md)|
 |Perform period-end control and reporting tasks, such as calculate the value of inventory and post costs to the general ledger.|[Reporting Costs and Reconciling with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|
-|Learn how you can use the job queue to move the tasks for adjusting inventory cost or reconciling it with the general ledger to the background.|[Adjust and Reconcile Inventory Cost with General Ledger with Job Queue](finance-manage-inventory-costs.md)|
+|Learn how you can use the job queue to move the tasks for adjusting inventory cost or reconciling it with the general ledger to the background.|[Adjust and Reconcile Inventory Cost with General Ledger with Job Queue](finance-adjust-reconcile-inventory-cost-job-queue.md)|
 |Use the **Applies-from Entry** field in the item journal to manually create a fixed application between an inbound transaction and the original outbound transaction.|[Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
 Use special costing functions for every-day item transactions in the item operations.

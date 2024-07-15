@@ -20,9 +20,7 @@ The following table describes a sequence of tasks, with links to the topics that
 
 |**To**|**See**|  
 |------------|-------------|  
-|Read various conceptual information to understand the principles and definitions that govern the inventory costing accounting functionality in [!INCLUDE[prod_short](includes/prod_short.md)].|[About Inventory Costing](finance-learn-about-costing.md)|  
 |Ensure that you know the cost of shipped items by assigning added item costs, such as freight, physical handling, insurance, and transportation that you incur after selling.|[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
-|Learn about all mechanisms in the costing system.|[Design Details: Inventory Costing](design-details-inventory-costing.md)|
 |Read how inventory periods help a company to control inventory value over time by defining shorter periods that can be closed for posting as the fiscal year progresses.|[Work with Inventory Periods](finance-how-to-work-with-inventory-periods.md)|
 |Read why standard costs are often used by manufacturing companies as a valuation base for components and end items.|[About Calculating Standard Cost](finance-about-calculating-standard-cost.md)|
 |Set up inventory periods, costing methods, and rounding methods.|[Setting Up Inventory Valuation and Costing](finance-set-up-inventory-valuation-and-costing.md)|
@@ -33,6 +31,26 @@ The following table describes a sequence of tasks, with links to the topics that
 |View and manually change certain item application entries that are created automatically during inventory transactions.|[Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)|
 |Perform period-end control and reporting tasks, such as calculate the value of inventory and post costs to the general ledger.|[Reporting Costs and Reconciling with the General Ledger](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Learn how you can use the job queue to move the tasks for adjusting inventory cost or reconciling it with the general ledger to the background.|[Adjust and Reconcile Inventory Cost with General Ledger with Job Queue](finance-manage-inventory-costs.md)|
+|Understand how the value of inventory is reflected in the general ledger.|[Reconcile Inventory Costs with the General Ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+
+Read various conceptual information to understand the principles and definitions that govern the inventory costing accounting functionality in [!INCLUDE[prod_short](includes/prod_short.md)]. 
+
+|**To**|**See**|  
+|------------|-------------|  
+|Understand all mechanisms in the costing engine, including what happens when you post assembly and production transactions.|[Design Details: Inventory Costing](design-details-inventory-costing.md)|  
+|Distinguish the five different costing methods and their effect on cost flows.|[Design Details: Costing Methods](design-details-costing-methods.md)|  
+|Learn how item application entries dynamically link inventory decreases with increases to keep control of cost flows.|[Design Details: Item Application](design-details-item-application.md)|  
+|Understand the cost adjustment mechanism, which ensures that costs are brought forward even if inventory transactions happen in a random manner.|[Design Details: Cost Adjustment](design-details-cost-adjustment.md)|  
+|Distinguish expected cost (not yet invoiced) from actual cost and learn how it is managed in the general ledger.|[Design Details: Expected Cost Posting](design-details-expected-cost-posting.md)|  
+|Learn how an item's average cost is dynamically calculated according to the selected average cost period.|[Design Details: Average Cost](design-details-average-cost.md)|  
+
+
+
+
+## See Also
+[Managing Inventory Costs](finance-manage-inventory-costs.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
 
 ## See Also  
  [Finance](finance.md)  

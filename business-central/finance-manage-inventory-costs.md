@@ -33,18 +33,20 @@ Central principles to understand are that costing methods define how items are v
 |**To**|**See**|  
 |------------|-------------|  
 |Ensure that you know the cost of shipped items by assigning added item costs, such as freight, physical handling, insurance, and transportation that you incur after selling.|[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
-|Read why standard costs are often used by manufacturing companies as a valuation base for components and end items and how to periodically update the standard costs of components, in assembly or production BOMs, and roll the new costs up to the parent item.|[About Calculating Standard Cost](finance-about-calculating-standard-cost.md)|
 |Appreciate or depreciate the value of one or more items in inventory by posting their current, calculated value.|[Revalue Inventory](inventory-how-revalue-inventory.md)|
-|Use special costing functions for every-day item transactions in the item operations.|[Handling Inventory and Manufacturing Costs](finance-handle-inventory-and-manufacturing-costs.md)|  
 |View and manually change certain item application entries that are created automatically during inventory transactions.|[Remove and Reapply Item Ledger Entries](finance-how-to-remove-and-reapply-item-entries.md)|
 |Adjust item costs, either automatically or manually, to forward cost changes from inbound entries to their related outbound entries.|[Adjust Item Costs](inventory-how-adjust-item-costs.md)|
 |Perform period-end control and reporting tasks, such as calculate the value of inventory and post costs to the general ledger.|[Reporting Costs and Reconciling with the General Ledger](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger.md)|
 |Learn how you can use the job queue to move the tasks for adjusting inventory cost or reconciling it with the general ledger to the background.|[Adjust and Reconcile Inventory Cost with General Ledger with Job Queue](finance-manage-inventory-costs.md)|
-|Calculate the unit cost of a BOM item based on the unit costs of its underlying components.|[Work with Bills of Material](inventory-how-work-BOMs.md) |  
-|Complete the costing life cycle of a produced item by adjusting the costs and reconciling the value entries with the general ledger.|[About Finished Production Order Costs](finance-about-finished-production-order-costs.md)|  
 |Use the **Applies-from Entry** field in the item journal to manually create a fixed application between an inbound transaction and the original outbound transaction.|[Close Open Item Ledger Entries Resulting from Fixed Application in the Item Journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
+Use special costing functions for every-day item transactions in the item operations.
 
+|**To**|**See**|  
+|------------|-------------|  
+|Read why standard costs are often used by manufacturing companies as a valuation base for components and end items and how to periodically update the standard costs of components, in assembly or production BOMs, and roll the new costs up to the parent item.|[About Calculating Standard Cost](finance-about-calculating-standard-cost.md)|
+|Calculate the unit cost of a BOM item based on the unit costs of its underlying components.|[Work with Bills of Material](inventory-how-work-BOMs.md) |  
+|Complete the costing life cycle of a produced item by adjusting the costs and reconciling the value entries with the general ledger.|[About Finished Production Order Costs](finance-about-finished-production-order-costs.md)|  
 
 Read various conceptual information to understand the principles and definitions that govern the inventory costing accounting functionality in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 

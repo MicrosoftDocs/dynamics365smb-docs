@@ -368,7 +368,7 @@ ms.service: dynamics-365-business-central
 
 ### Manage inventory costs
 #### [Inventory cost overview](finance-manage-inventory-costs.md)
-#### [About inventory costs](finance-learn-about-costing.md)
+<!-- #### [About inventory costs](finance-learn-about-costing.md)  //same as above or referst to design details. merging into Inv Cost overview  -->
 #### [Use item charges to account for additional trade costs](payables-how-assign-item-charges.md)
 #### [About standard cost calculation](finance-about-calculating-standard-cost.md)
 #### [About unit cost calculation](finance-about-calculating-unit-cost.md)
@@ -385,7 +385,7 @@ ms.service: dynamics-365-business-central
 #### Report Costs and Reconcile with the General Ledger
 ##### [Report costs](finance-report-costs-and-reconcile-with-the-general-ledger.md)
 ##### [Reconcile inventory costs with the general ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
-##### [Monitor job progress and performance](projects-how-monitor-progress-performance.md)
+<!-- ##### [Monitor job progress and performance](projects-how-monitor-progress-performance.md)   //remove, as this is Project related WIP -->
 #### [Adjust and reconcile inventory cost with general ledger with job queue](finance-adjust-reconcile-inventory-cost-job-queue.md)
 
 ### Manage cash flow

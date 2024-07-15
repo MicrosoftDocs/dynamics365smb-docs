@@ -64,6 +64,22 @@ When you sell items, the unit cost is copied from the **Unit Cost** field on the
 
 When you post, the unit cost is copied to the sales invoice item entry, and it can be seen on the entry list for the item. [!INCLUDE[prod_short](includes/prod_short.md)] uses the unit cost from the source document line to calculate the contents of the **Cost Amount (Actual)** field, or if applicable, the **Cost Amount (Expected)** field in the value entry related to this item entry.
 
+<!--
+## To make general changes in the last direct unit cost
+
+If you need to change the direct unit cost for several items, you can use the **Adjust Item Costs/Prices** batch job.  
+
+The batch job changes the contents in the **Unit Price** field on the item card. The batch job changes the content of the field in the same way for all items or selected items. The batch job multiplies the value in the field by an adjustment factor that you specify.  
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Adjust Item Costs/Prices**, and then choose the related link.  
+2. In the **Adjust Field** field, specify which item or SKU card field you want to adjust.  
+3. In the **Adjustment Factor** field, specify the factor by which to adjust the value. For example, enter **1.5** to increase the value by 50%.  
+4. On the **Item** FastTab, set filters to specify, for example, which items to process with the batch job.  
+5. Choose the **OK** button.  
+
+-->
+
+
 ## See also
 
 [Managing Inventory Costs](finance-manage-inventory-costs.md)  

@@ -50,7 +50,7 @@ Before you can set up a routing, the following setups must be in place:
 15. You can now attach the new routing to the card of the production item in question, by filling in the **Routing No.** field. To learn more, go to [Register New Items](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
-> Remember to recalculate the item's standard cost from the **Item** card. Choose the **Manufacturing** action, the **Calc. Standard Cost** action, and then choose the **All Levels** action.  
+> Remember to recalculate the item's standard cost from the **Item** card. Choose the **Production** action, the **Calc. Production Std. Cost** action, and then choose the **All Levels** action.  
 
 ## To create routing links
 

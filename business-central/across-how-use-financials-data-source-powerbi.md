@@ -162,7 +162,7 @@ Starting in August 2024, the [!INCLUDE [prod_short](includes/prod_short.md)] Pow
 The following parameters are supported:
 
 - AcceptLanguage
-- MaxPageSize (note that you cannot exceed the MaxPageSize defined on the service)
+- ODataMaxPageSize (note that you cannot exceed the MaxPageSize defined on the service)
 - Timeout (note that you cannot exceed the timeout defined on the service)
 - UseReadOnlyReplica 
 
@@ -173,7 +173,7 @@ To set the properties, do as follows:
 3. On a query, select **Advanced Editor** from the ribbon.
 8. In the line that starts with **Source =**, insert the fourth parameter in Dynamics365BusinessCentral.ApiContentsWithOptions with a list of properties, for example
    ```
-   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false, MaxPageSize=5000])
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = true, Timeout = Duration.From("00:07:00"), ODataMaxPageSize = 10000, AcceptLanguage = "it-it"])
    ```
 
 

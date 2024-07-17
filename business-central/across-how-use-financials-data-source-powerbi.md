@@ -155,6 +155,28 @@ To set up a query to load data for multiple companies, follow these steps:
 1. Take the PowerQuery query that loads data for a single company. Convert it to a custom Power Query function that takes the company ID (or maybe the environment name) as parameters. To learn more, go to [Using custom Power Query functions](/power-query/custom-function).
 1. Now use the new custom function in a PowerQuery query, where you map the function over a list of companies and then merge the datasets using the [Table.Combine](/powerquery-m/table-combine) Power Query function.
 
+## Advanced Power BI connector properties
+
+Starting in August 2024, the [!INCLUDE [prod_short](includes/prod_short.md)] Power BI connector supports a number of advanced properties that you can set in your Power Query queries. 
+
+The following parameters are supported:
+
+- AcceptLanguage
+- MaxPageSize (note that you cannot exceed the MaxPageSize defined on the service)
+- Timeout (note that you cannot exceed the timeout defined on the service)
+- UseReadOnlyReplica 
+
+To set the properties, do as follows:
+
+1. Start Power BI Desktop.
+2. In the ribbon, Select **Transform Data** to open the **Power Query Editor**.
+3. On a query, select **Advanced Editor** from the ribbon.
+8. In the line that starts with **Source =**, insert the fourth parameter in Dynamics365BusinessCentral.ApiContentsWithOptions with a list of properties, for example
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false, MaxPageSize=5000])
+   ```
+
+
 ## Fixing problems
 
 ### "Can't insert a record. Current connection intent is Read-Only." error connecting to custom API page

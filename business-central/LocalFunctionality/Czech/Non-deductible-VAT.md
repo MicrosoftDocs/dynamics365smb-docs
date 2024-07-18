@@ -6,7 +6,7 @@ author: v-pejano
 ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Non-Deductible VAT, Localization
-ms.date: 05/01/2024
+ms.date: 07/01/2024
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---

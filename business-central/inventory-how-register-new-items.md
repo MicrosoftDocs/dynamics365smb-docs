@@ -15,30 +15,7 @@ ms.custom: bap-template
 
 Items, among other products, are the basis of your business, the goods, or services that you trade in. Each item must be registered as an item card.
 
-* **Inventory** specifies that the item is a physical unit that you manage and track in inventory.
-* **Non-Inventory** are physical units that you don't manage or track in inventory.
-* **Service** items are a labor time unit, typically used in service management.
-
-To learn more about these types of items, go to [About Item Types](inventory-about-item-types.md).
-
-> [!TIP]
-> There are also catalog items, which are similar to non-inventory items in that they're items that you offer to customers but don't manage until you sell them. To learn more, go to [Work with Catalog Items](inventory-how-work-nonstock-items.md).  
-
-## Primary and alternate vendors
-
-If you purchase the same item from more than one vendor, you can connect those vendors to the item. Use the **Vendors** action on the **Item Card** page to open the **Item Vendor Catalog** page. The page displays the vendors you buy the item from, so you can easily create or select an alternate vendor when you create a purchase order.
-
-## Use item templates
-
-To reuse settings for different types of items when you create new items, you can save items as item templates. Item templates help speed-up the process of adding new items, and increase consistency in your item data. When you register a new item, a page appears that lets you choose a template. After you choose a template, its settings are filled in for you on the item you're creating. If you only have one item template, new items always use that template. To learn how to set up an item template, go to [Save an item card as an item template](#save-an-item-card-as-an-item-template).
-
-<br/>
-
-## Include items in bills of materials
-
-You can structure hierarchies that have a main item with underlying component items in assembly and production bills of materials (BOM). To learn more about BOMs, go to [Work with Bills of Material](inventory-how-work-BOMs.md).
-
-## To create a new item card
+### To create a new item card
 
 The following video shows how to set up an item on the Item Card page. However, you can also set up new items by copying existing ones. To learn more, go to [Copy Existing Items to Create New Items](inventory-how-copy-items.md).  
 
@@ -46,12 +23,10 @@ The following video shows how to set up an item on the Item Card page. However, 
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
-> [!NOTE]
-> In the **Costing Method** field, you set up how the item's unit cost is calculated by making assumptions about the flow of physical items through your company. Five costing methods are available, depending on the type of item. To learn more about costing, go to [Design Details: Costing Methods](design-details-costing-methods.md).
->
-> If you select **Average**, the item's unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** field on the **Average Cost Calc. Overview** page to view the transactions that were used to calculate the average cost.
 
-You can use special prices or discounts that you or your vendor grant for the item based on certain criteria. For example, criteria include the customer, minimum order quantity, or ending date. You set up special prices by choosing the **Set Special Prices** or **Set Special Discounts** actions. Each row on, for example, the **Sales Prices** page represents a special price. Each column represents a criterion that must apply to grant a customer the special price that you enter in the **Unit Price** field on the **Sales Prices** page. To learn more about pricing, go to [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md) or [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+## Use item templates
+
+To reuse settings for different types of items when you create new items, you can save items as item templates. Item templates help speed-up the process of adding new items, and increase consistency in your item data. When you register a new item, a page appears that lets you choose a template. After you choose a template, its settings are filled in for you on the item you're creating. If you only have one item template, new items always use that template. 
 
 ### Save an item card as an item template
 
@@ -63,22 +38,31 @@ You can use special prices or discounts that you or your vendor grant for the it
 
 The item template is added to the list of item templates, so that you can use it to create new item cards.
 
-### Items used in production orders
 
-If you want to register items that are used in production orders, you specify the replenishment system as *Prod. order* on the **Replenishment** FastTab. For more information, see [About Production Orders](production-about-production-orders.md).  
+## Types of items
+In the Type field on the **Item Card** page, you can select what the item is used for in your business, which affects the degree to which you can manage the item in inventory.
 
-## To set up multiple vendors for an item
+* **Inventory** specifies that the item is a physical unit that you manage and track in inventory.
+* **Non-Inventory** are physical units that you don't manage or track in inventory.
+* **Service** items are a labor time unit, typically used to register sells or purchase of services.
 
-If you purchase the same item from more than one vendor, you must enter information about each vendor of the item, such as prices, lead time, discounts, and so on.  
+To learn more about these types of items, go to [About Item Types](inventory-about-item-types.md).
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
-2. Select the relevant item, and then choose the **Edit** action.  
-3. Choose the **Vendors** action.  
-4. Choose the **No.** field, and then select the vendor that you want to set up for the item.  
-5. Optionally, fill in the remaining fields.  
-6. Repeat steps 2 through 5 for each vendor that you want to buy the item from.
+> [!TIP]
+> There are also catalog items, which are similar to non-inventory items in that they're items that you offer to customers but don't manage until you sell them. To learn more, go to [Work with Catalog Items](inventory-how-work-nonstock-items.md).  
 
-The vendors appear on the **Item Vendor Catalog** page, which you open from the item card, so that you can easily select an alternate vendor.
+## Inventory Costing
+
+In the **Costing Method** field, you set up how the item's unit cost is calculated by making assumptions about the flow of physical items through your company. Five costing methods are available, depending on the type of item. To learn more about costing, go to [Design Details: Costing Methods](design-details-costing-methods.md).
+
+> [!NOTE]
+> If you select **Average**, the item's unit cost is calculated as the average unit cost at each point in time after a purchase. Inventory is valuated with the assumption that all inventories are sold simultaneously. With this setting, you can choose the **Unit Cost** field on the **Average Cost Calc. Overview** page to view the transactions that were used to calculate the average cost.
+
+## Categories, attributes, and variants
+
+[!INCLUDE[inventory_variant](includes/inventory_variant.md)]
+
+Learn more about variants at [Manage Product Variants](inventory-item-variants.md).  
 
 ## Set up item substitutions
 
@@ -97,15 +81,41 @@ When the requested quantity exceeds the quantity that is available in inventory,
 > [!NOTE]  
 > Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.
 
-## Categories, attributes, and variants
 
-[!INCLUDE[inventory_variant](includes/inventory_variant.md)]
+## Prices and discounts
 
-Learn more about variants at [Manage Product Variants](inventory-item-variants.md).  
+You can use special prices or discounts that you grant for the item based on certain criteria. For example, criteria include the customer, minimum order quantity, or ending date. You set up special prices by choosing the **Set Special Prices** or **Set Special Discounts** actions. Each row on, for example, the **Sales Prices** page represents a special price. Each column represents a criterion that must apply to grant a customer the special price that you enter in the **Unit Price** field on the **Sales Prices** page. To learn more about pricing, go to [Record Sales Price, Discount, and Payment Agreements](sales-how-record-sales-price-discount-payment-agreements.md).
 
-## Delete item cards
+## Replenishment
 
-If you post a transaction for an item, you can't delete the card because the ledger entries might be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.  
+You can specifies how these items are supplied:
+* **Purch. Order** if you want to buy
+* **Assembly order** or **Production order** if this item will be produced in-house.
+
+There are number of extra setting that compliment these selections.
+
+### Include items in bills of materials
+
+You can structure hierarchies that have a main item with underlying component items in assembly and production bills of materials (BOM). To learn more about BOMs, go to [Work with Bills of Material](inventory-how-work-BOMs.md).
+
+### Items used in production orders
+
+If you want to register items that are used in production orders, you specify the replenishment system as *Prod. order* on the **Replenishment** FastTab. For more information, see [About Production Orders](production-about-production-orders.md).  
+
+### Primary and alternate vendors
+
+If you purchase the same item from more than one vendor, you can connect those vendors to the item. Use the **Vendors** action on the **Item Card** page to open the **Item Vendor Catalog** page. 
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
+2. Select the relevant item, and then choose the **Edit** action.  
+3. Choose the **Vendors** action.  
+4. Choose the **No.** field, and then select the vendor that you want to set up for the item.  
+5. Optionally, fill in the remaining fields.  
+6. Repeat steps 2 through 5 for each vendor that you want to buy the item from.
+
+The vendors appear on the **Item Vendor Catalog** page, which you open from the item card, so that you can easily select an alternate vendor.
+
+If you purchase the same item from more than one vendor additionally you can set up prices and discounts discounts.  For more information, see [Record Special Purchase Prices and Discounts](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
 ## Manage inventory in warehouses
 
@@ -118,6 +128,10 @@ If your organization later sets up warehouse management, we recommend that you m
 When your company uses the supply planning processes in [!INCLUDE [prod_short](includes/prod_short.md)], you must fill in the relevant fields on the **Planning** FastTab. For an introduction to the planning area, see [Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md).  
 
 For examples of how you can use the fields on the **Planning** FastTab, see [Setup Best Practices: Planning Parameters](setup-best-practices-planning-parameters.md).  
+
+## Delete item cards
+
+If you post a transaction for an item, you can't delete the card because the ledger entries might be needed for inventory valuation or auditing. To delete item cards with ledger entries, contact to Microsoft partner to do so through code.  
 
 ## See also
 

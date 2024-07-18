@@ -58,7 +58,11 @@ When you have completed a task, simply mark it as completed.
 
 If you want to bulk delete all or some user tasks, you can use the **Delete User Tasks** report. In the request page, you can set filters to determine which tasks must be deleted.  
 
+## Contributors
 
+*This article is maintained by Microsoft. Parts of the examples were originally written by the following contributors.*
+
+* [Cynthia Priebe](https://www.linkedin.com/in/cynthia-priebe-dcp/) | Microsoft MVP
 
 ## See Also
 

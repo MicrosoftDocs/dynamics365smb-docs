@@ -132,7 +132,9 @@ Sometimes, users run into problems with the Excel add-in. This section gives som
 
 |Page  |Limitation| Comments  |
 |-------|---------|---------|
-|Sales Orders|Error message: 'Microsoft Dynamics 365 Business Central Data Services attempted to issue a client callback to run page 301 Ship-to Address List as modal. Client callbacks are not supported on Microsoft Dynamics 365 Business Central Data Services. | The **Ship-to Code** on the **Sales Order** page is editable only with specific Ship-to option. Attempt to set *Alternate Shipping Address* to **Ship-to**  opens **Ship-to Address List** modal dialog.|  
+|Sales Orders|Error message: 'Microsoft Dynamics 365 Business Central Data Services attempted to issue a client callback to run page 301 Ship-to Address List as modal. Client callbacks are not supported on Microsoft Dynamics 365 Business Central Data Services. | The **Ship-to Code** on the **Sales Order** page is editable only with specific Ship-to option. Attempt to set *Alternate Shipping Address* to **Ship-to**  opens **Ship-to Address List** modal dialog, which is not compatible with Edit in Excel.|  
+|Project Journal|Update of the **Unit Price** field doesn't trigger update of the **Line Amount**, instead it updates **Line Discount**.| Via web client you can update fields in any order - price, amount, line discount. Other fields will be updated automatically. To avoid cascade updates the fields have some advanced logic that relies on xRec, which behaves differently when called via APIs.|
+
 
 
 <!--

@@ -43,6 +43,8 @@ After you install the app, you can use the **Print Label** action to print 1D an
 
 > [!NOTE]
 > Some printers and barcode/QR code formats require a specific implementation. You might need to upload a different Word template or clone the report to create your own customized version.
+>
+> Check with suppliers of equipment how to print MS Word documents.  
 
 
 ## Explore inventory reports with Report Explorer

@@ -3,7 +3,7 @@ title: Non-Deductible VAT
 description: This section describes Non-Deductible VAT for Czech.
 author: v-pejano
 
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Non-Deductible VAT, Localization
 ms.date: 05/01/2024
@@ -32,7 +32,7 @@ The value of the VAT reduction coefficient can be set for the whole company in o
 - Not applicable for purchase advance invoices
 - Not connected to VAT Report Setup or VAT Returns.
 
-# Activation of non-deductible VAT
+## Activation of non-deductible VAT
 
 The activation of the non-deductible VAT functionality starts on the page **VAT Setup** by selecting the **Enable Non-Deductible VAT** field. If you have the **Core Localization Pack for Czech** application installed, the standard non-deductible VAT functionality is automatically extended for Czech posting and reporting purposes.
 
@@ -207,6 +207,6 @@ If the coefficients differ in the completed period, it is possible to use the ba
 
 [Core Localization pack for Czech](ui-extensions-core-localization-pack-cz.md)  
 [Czech Local Functionality](czech-local-functionality.md)  
-[VAT Control Report](how-to-create-vat-control-report.md)  
+[VAT Control Report](vat-control-report.md)  
 [VAT Date](how-to-setup-vat-date.md)  
 [Finance](../../finance.md)  

@@ -1,5 +1,5 @@
 ---
-title: Design details - reservation, order tracking, and zction messaging | Microsoft Docs
+title: Design details - reservation, order tracking, and action messaging | Microsoft Docs
 description: The reservations system is comprehensive and includes the interrelated and parallel features of Order Tracking and Action Messaging.
 author: brentholtorf
 ms.topic: conceptual
@@ -24,9 +24,10 @@ The reservation system interacts with the planning system by creating action mes
  The reservations system also forms the structural foundation for the item tracking system. For more information, see [Design Details: Item Tracking](design-details-item-tracking.md).  
 
  <!--For more detailed information about how the reservation system works, see the _Reservation Entry Table_ white paper on [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  -->
-
+<!--
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+-->
 
 ## Reservation  
 
@@ -38,11 +39,11 @@ The reservation system interacts with the planning system by creating action mes
 
  Reservations are made against available item quantities. Item availability is calculated in basic terms as follows:  
 
- available quantity = inventory + scheduled receipts - gross requirements  
+ `available quantity = inventory + scheduled receipts - gross requirements`
 
  The following table shows the details of the order network entities that are part of the availability calculation.  
 
-||Field in T27|Source table|Table filter|Source field|  
+||Field in T27 Item|Source table|Table filter|Source field|  
 |-|------------------|------------------|------------------|------------------|  
 |**Inventory**|Inventory|Item Ledger Entry|N/A|Quantity|  
 |**Scheduled receipts**|FP Order Receipt (Qty.)|Prod. Order Line|=Firm Planned|Remaining Qty. (Base)|  
@@ -85,9 +86,9 @@ The following table shows when and which modifications may occur:
 
 - A production order created from a sales order with the **Sales Order Planning** function is linked to the sales order with an automatic reservation.  
 
-- An assembly order created automatically for a sales order line to fulfill the quantity in the **($ T_37_900 Qty. to Assemble to Order $)** field. This automatic reservation links the sales demand and the assembly supply so that sales order processors can customize and promise the assembly item to the customer directly. In addition, the reservation links the assembly output to the sales order line through to the shipping activity that fulfills the customer order.  
+- An assembly order created automatically for a sales order line to fulfill the quantity in the ****Qty. to Assemble to Order** field. This automatic reservation links the sales demand and the assembly supply so that sales order processors can customize and promise the assembly item to the customer directly. In addition, the reservation links the assembly output to the sales order line through to the shipping activity that fulfills the customer order.  
 
-In the case of supply or demand that is not allocated, the planning system automatically assigns a reservation status of type **Surplus**. This could result from demand that is due to forecasted quantities or user-entered planning parameters. This is legitimate surplus, which the system recognizes, and it does not give rise to action messages. Surplus could also be genuine, excess supply or demand that remains untracked. This is an indication of an imbalance in the order network, which causes the system to issue action messages. Note that an action message that suggests a change in quantity always refers to type **Surplus**. For more information, see the "Example: Order Tracking in Sales, Production, and Transfers" section in this topic.  
+In the case of supply or demand that is not allocated, the planning system automatically assigns a reservation status of type **Surplus**. This could result from demand that is due to forecasted quantities or user-entered planning parameters. This is legitimate surplus, which the system recognizes, and it does not give rise to action messages. Surplus could also be genuine, excess supply or demand that remains untracked. This is an indication of an imbalance in the order network, which causes the system to issue action messages. Note that an action message that suggests a change in quantity always refers to type **Surplus**. For more information, see the [Example: Order Tracking in Sales, Production, and Transfers](#example-order-tracking-in-sales-production-and-transfers) section in this topic.  
 
 Automatic reservations that are created during the planning run are handled in the following ways:  
 
@@ -103,7 +104,7 @@ Order Tracking helps the planner maintain a valid supply plan by providing an ov
 > The order tracking system offsets available stock as orders are entered into the order network. This implies that the system does not prioritize orders that may be more urgent in terms of their due date. It is therefore up to the logic of the planning system or the wisdom of the planner to rearrange these priorities in a meaningful way.  
 
 > [!NOTE]  
-> Order tracking policy and the Get Action Messages function are not integrated with Jobs. That means that demand related to a project is not automatically tracked. Because it is not tracked, it could cause the use of an existing replenishment with project information to be tracked to another demand, for example, a sales order. Consequently, you may encounter the situation in which your information about available inventory is out of sync.  
+> Order tracking policy and the Get Action Messages function are not integrated with Projects. That means that demand related to a project is not automatically tracked. Because it is not tracked, it could cause the use of an existing replenishment with project information to be tracked to another demand, for example, a sales order. Consequently, you may encounter the situation in which your information about available inventory is out of sync.  
 
 ### The order network  
 
@@ -117,7 +118,7 @@ To increase the transparency of calculations in the planning system, the **Untra
 
 In contrast to reservations, which can only be made against available item quantities, order tracking is possible against all order network entities that are part of  the net requirements calculation of the planning system. The net requirements are calculated as follows:  
 
-*net requirements = gross requirements + reorder point - scheduled receipts - planned receipts - projected available balance  
+`net requirements = gross requirements + reorder point - scheduled receipts - planned receipts - projected available balance`  
 
 > [!NOTE]  
 > Demand that is related to forecasts or planning parameters is not order tracked.  
@@ -128,67 +129,107 @@ The following scenario shows which order tracking entries are created in the **R
 
 Assume the following data for two items that are set up for order tracking.  
 
-|Item 1|Name|"Component"|
+|Item|Parameter|Detail|
 |-|-|-|
-||Availability|100 units in WEST location<br /><br />- 30 units of LOTA<br />- 70 units of LOTB|  
+|Item 1|Name|"Component"|
+||Availability|100 units in EAST location<br /><br />- 30 units of LOTA<br />- 70 units of LOTB|  
 |Item 2|Name|"Produced Item"|
 ||Production BOM|1 qty. per of "Component"|  
-||Demand|Sale for 100 units at EAST location|  
+||Demand|Sale for 100 units at WEST location|  
 ||Supply|Released production order (generated with the **Sales Order Planning** function for the sale of 100 units)|  
 
-On the **Manufacturing Setup** page, the **Components at Location** field is set to **RED**.
+On the **Manufacturing Setup** page, the **Components at Location** field is set to *EAST*.
 
 The following order tracking entries exist in the **Reservation Entry** table based on the data in the table.  
 
- ![First example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+<!--![First example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  -->
+**Reservation entries**
+|Entry No.|Positive|Item No.|Location Code|Quantity|Reservation Status|Description|Lot No.|Source Type|Source ID|Binding|  
+|---------|--------|--------|-------------|--------|------------------|-----------|-------|-----------|---------|-------| 
+|8||COMPONENT|EAST|-70|Tracking|Component||5407|101004|| 
+|8|Yes|COMPONENT|EAST|70|Tracking|Component|LOTB|32||| 
+|9||COMPONENT|EAST|-30|Tracking|Component||5407|1001004|| 
+|9|Yes|COMPONENT|EAST|30|Tracking|Component|LOTA|32||| 
+|10||PRODUCED ITEM|WEST|-100|Reservation|Produced Item||37|1001|Order-to-Order|
+|10|Yes|PRODUCED ITEM|WEST|100|Reservation|Produced Item||5406|101004|Order-to-Order|
 
-### Entry numbers 8 and 9  
+
+#### Entry numbers 8 and 9  
 
 For the component need for LOTA and LOTB respectively, order tracking links are created from the demand in table 5407, **Prod. Order Component**, to the supply in table 32, **Item Ledger Entry**. The **Reservation Status** field contains **Tracking** to indicate that these entries are dynamic order tracking links between supply and demand.  
 
 > [!NOTE]  
 > The **Lot No.** field is empty on the demand lines, because the lot numbers are not specified on the component lines of the released production order.  
 
-### Entry number 10  
+#### Entry number 10  
 
-From the sales demand in table 37, **Sales Line**, an order tracking link is created to the supply in table 5406, **Prod. Order Line**. The **Reservation Status** field contains **Reservation**, and the **Binding** field contains **Order-to-Order**. This is because the released production order was generated specifically for the sales order and must remain linked unlike order tracking links with a reservation status of **Tracking**, which are created and changed dynamically. For more information, see the "Automatic Reservations" section in this topic.  
+From the sales demand in table 37, **Sales Line**, an order tracking link is created to the supply in table 5406, **Prod. Order Line**. The **Reservation Status** field contains **Reservation**, and the **Binding** field contains **Order-to-Order**. This is because the released production order was generated specifically for the sales order and must remain linked unlike order tracking links with a reservation status of **Tracking**, which are created and changed dynamically. For more information, see the [Automatic Reservations](#automatic-reservations) section in this topic.  
 
- At this point in the scenario, the 100 units of LOTA and LOTB are transferred to EAST location by a transfer order.  
+ At this point in the scenario, the 100 units of LOTA and LOTB are transferred to WEST location by a transfer order.  
 
 > [!NOTE]  
 > Only the transfer order shipment is posted at this point, not the receipt.  
 
  Now the following order tracking entries exist in the **Reservation Entry** table.  
 
- ![Second example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+<!-- ![Second example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  -->
+**Reservation entries**
+|Entry No.|Positive|Item No.|Location Code|Quantity|Reservation Status|Description|Lot No.|Source Type|Source ID|Binding|  
+|---------|--------|--------|-------------|--------|------------------|-----------|-------|-----------|---------|-------| 
+|8||COMPONENT|EAST|-70|Surplus|Component||5407|101004|| 
+|9||COMPONENT|EAST|-30|Surplus|Component||5407|1001004|| 
+|10||PRODUCED ITEM|WEST|-100|Reservation|Produced Item||37|1001|Order-to-Order|
+|10|Yes|PRODUCED ITEM|WEST|100|Reservation|Produced Item||5406|101004|Order-to-Order|
+|12|Yes|COMPONENT|WEST|70|Surplus|Component|LOTB|5741|1011|| 
+|14|Yes|COMPONENT|WEST|30|Surplus|Component|LOTA|5741|1011|| 
+|15|Yes|COMPONENT|OUT.LOG.|70|Surplus|Component|LOTB|32||| 
+|16|Yes|COMPONENT|OUT.LOG.|30|Surplus|Component|LOTA|32||| 
 
-### Entry numbers 8 and 9  
+#### Entry numbers 8 and 9  
 
 Order tracking entries for the two lots of the component reflecting demand in table 5407 are changed from a reservation status of **Tracking** to **Surplus**. The reason is that the supplies that they were linked to before, in table 32, have been used by the shipment of the transfer order.  
 
 Genuine surplus, as in this case, reflects excess supply or demand that remains untracked. It is an indication of imbalance in the order network, which will generate an action message by the planning system unless it is resolved dynamically.  
 
-### Entry numbers 12 to 16  
+#### Entry numbers 12 to 16  
 
 Because the two lots of the component are posted on the transfer order as shipped but not received, all related positive order tracking entries are of reservation type **Surplus**, indicating that they are not allocated to any demands. For each lot number, one entry relates to table 5741, **Transfer Line**, and one entry relates to the item ledger entry at the in-transit location where the items now exist.  
 
-At this point in the scenario, the transfer order of the components from EAST to WEST location is posted as received.  
+At this point in the scenario, the transfer order of the components from *EAST* to *WEST* location is posted as received.  
 
 Now the following order tracking entries exist in the **Reservation Entry** table.  
 
- ![Third example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+<!-- ![Third example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3") -->
+ **Reservation entries**
+|Entry No.|Positive|Item No.|Location Code|Quantity|Reservation Status|Description|Lot No.|Source Type|Source ID|Binding|  
+|---------|--------|--------|-------------|--------|------------------|-----------|-------|-----------|---------|-------| 
+|8||COMPONENT|EAST|-70|Surplus|Component||5407|101004|| 
+|9||COMPONENT|EAST|-30|Surplus|Component||5407|1001004|| 
+|10||PRODUCED ITEM|WEST|-100|Reservation|Produced Item||37|1001|Order-to-Order|
+|10|Yes|PRODUCED ITEM|WEST|100|Reservation|Produced Item||5406|101004|Order-to-Order|
+|17|Yes|COMPONENT|WEST|70|Surplus|Component|LOTB|32||| 
+|18|Yes|COMPONENT|WEST|30|Surplus|Component|LOTA|32||| 
 
-The order tracking entries are now similar to the first point in the scenario, before the transfer order was posted as shipped only, except entries for the component are now of reservation status **Surplus**. This is because the component need is still at WEST location, reflecting that the **Location Code** field on the production order component line contains **WEST** as set up in the **Components at Location** setup field. The supply that was allocated to this demand before has been transferred to EAST location and cannot now be fully tracked unless the component need on the production order line is changed to EAST location.  
+The order tracking entries are now similar to the first point in the scenario, before the transfer order was posted as shipped only, except entries for the component are now of reservation status **Surplus**. This is because the component need is still at *EAST* location, reflecting that the **Location Code** field on the production order component line contains *EAST* as set up in the **Components at Location** setup field. The supply that was allocated to this demand before has been transferred to *WEST* location and cannot now be fully tracked unless the component need on the production order line is changed to *WEST* location.  
 
-At this point in the scenario, the **Location Code** on the production order line is set to **EAST**. In addition, on the **Item Tracking Lines** page, the 30 units of LOTA and the 70 units of LOTB are assigned to the production order line.  
+At this point in the scenario, the **Location Code** on the production order component line is set to *WEST*. In addition, on the **Item Tracking Lines** page, the 30 units of LOTA and the 70 units of LOTB are assigned to the production order component line.  
 
 Now the following order tracking entries exist in the **Reservation Entry** table.  
 
- ![Fourth example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+<!-- ![Fourth example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")   -->
+ **Reservation entries**
+|Entry No.|Positive|Item No.|Location Code|Quantity|Reservation Status|Description|Lot No.|Source Type|Source ID|Binding|  
+|---------|--------|--------|-------------|--------|------------------|-----------|-------|-----------|---------|-------| 
+|10||PRODUCED ITEM|WEST|-100|Reservation|Produced Item||37|1001|Order-to-Order|
+|10|Yes|PRODUCED ITEM|WEST|100|Reservation|Produced Item||5406|101004|Order-to-Order|
+|21||COMPONENT|WEST|-70|Tracking|Component|LOTB|5407|101004|| 
+|21|Yes|COMPONENT|WEST|70|Tracking|Component|LOTB|32||| 
+|22||COMPONENT|WEST|-30|Tracking|Component|LOTA|5407|1001004|| 
+|22|Yes|COMPONENT|WEST|30|Tracking|Component|LOTA|32||| 
 
-### Entry numbers 21 and 22  
+#### Entry numbers 21 and 22  
 
-Since the component need has been changed to EAST location, and the supply is available as item ledger entries at EAST location, all order tracking entries for the two lot numbers are now fully tracked, indicated by the reservation status of **Tracking**.  
+Since the component need has been changed to *WEST* location, and the supply is available as item ledger entries at *WEST* location, all order tracking entries for the two lot numbers are now fully tracked, indicated by the reservation status of **Tracking**.  
 
 The **Lot No.** field is now filled in the order tracking entry for table 5407, because the lot numbers were assigned to the production order component lines.  
 

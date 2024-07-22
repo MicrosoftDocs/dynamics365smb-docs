@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 04/29/2024
+ms.date: 07/16/2024
 ms.custom: bap-template
 ms.search.form: 672, 673, 674, 671
 ms.service: dynamics-365-business-central
@@ -121,7 +121,7 @@ If a restart doesn't help, the issue might be in the code. You can find the owne
 
 If you contact your Microsoft partner or Microsoft for support, provide the following information:
 
-* The ID of the job queue entry run where the error occurred
+* The ID of the job queue entry runs where the error occurred
 * The timestamp of when the error occurred
 * Your timezone
 

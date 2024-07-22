@@ -43,6 +43,7 @@ The following topics describe the local functionality in the Czech version of [!
   * [VAT Control Report](vat-control-report.md) **Available Now**
   * [VAT Reports](vat-reports-cz.md) **Available Now**
   * [VAT Correction in Local Currency](how-to-setup-vat-correction-local-currency.md) **Available Now**
+  * [Non-deductible VAT](non-deductible-VAT.md) **Available Now**
   * [Intrastat CZ](intrastat.md) **Available Now**
   * [Intrastat Localization for Czech (Extension)](ui-extensions-intrastat-localization-cz.md) **Available Now**
 

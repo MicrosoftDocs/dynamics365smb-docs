@@ -39,9 +39,6 @@ In cost accounting, you work with cost budgets in a similar way. Learn more at [
 
 You can export data on budget pages to Microsoft Excel for further processing or analysis and then import budget data back in [!INCLUDE[prod_short](includes/prod_short.md)].
 
-> [!NOTE]
-> The chart of accounts, which general ledger (G/L) budgets are based on, has lines of the account type Heading. These lines contain the total of the lines below it. When you export a G/L budget, you export data on all lines regardless of the account type. However, you can only import data on lines of the Posting account type. Similarly, when you import a G/L budget, any values on Heading lines are deleted. They're deleted to avoid incorrect totals after you import data that was created or edited in Excel.
-
 ### Exporting G/L budgets to Excel
 
 Exporting a G/L budget to an Excel workbook allows you to work offline and leverage Excel's powerful data manipulation features. Do as follows to export the budget to Excel:
@@ -71,13 +68,16 @@ After filling out budget numbers in a local Excel workbook, the next step is to 
 1. Choose the Excel file from your local drive. You will be given the option to choose which budget you are uploading to and if you would like to add or replace the entries. The **add** action will add the entries from Excel to any entries already existing. The **replace** action will overwrite any entries all ready in the budget. 
 1. If everything looks correct, choose **OK** to complete the import process. [!INCLUDE[prod_short](includes/prod_short.md)] will then update the budget with the imported data.
 
-### Scenario
+### Scenario example: setting budget targets for payroll expenses
 
-You know that the new budgeted salaries cost is going to be local currency (LCY) 1.200.000. You want to enable the Salaries department to budget for the three specific lines (of the Posting account type) for full-time employees, part-time employees, and temp help. The three lines are grouped under a Salaries heading line.
+You know that the new budgeted salaries cost is going to be 1.200.000 local currency (LCY). You want to enable the Salaries department to budget for the three specific lines (of the Posting account type) for full-time employees, part-time employees, and temp help. The three lines are grouped under a Salaries heading line.
 
 You enter 1.200.000 on the Heading line, export the budget to Excel, then send it to the Salaries department, telling them to distribute the LCY 1.200.000.
 
 The Salaries department distributes the amount on the three posting accounts. When you import back into the G/L budget, the three accounts are filled in with the new Excel data, summing to LCY 1.200.000, and the Heading line is blank.
+
+> [!NOTE]
+> The chart of accounts, which general ledger (G/L) budgets are based on, has lines of the account type Heading. These lines contain the total of the lines below it. When you export a G/L budget, you export data on all lines regardless of the account type. However, you can only import data on lines of the Posting account type. Similarly, when you import a G/L budget, any values on Heading lines are deleted. They're deleted to avoid incorrect totals after you import data that was created or edited in Excel.
 
 ## Tips for Effective Budget Management
 

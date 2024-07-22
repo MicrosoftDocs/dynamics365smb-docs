@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.search.form: 1950, 1951, 
-ms.date: 07/01/2024
+ms.date: 07/05/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---

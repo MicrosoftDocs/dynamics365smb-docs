@@ -930,6 +930,7 @@ ms.service: dynamics-365-business-central
 ##### [VAT Control Report](LocalFunctionality/Czech/vat-control-report.md)
 ##### [VAT Reports](LocalFunctionality/Czech/vat-reports-cz.md)
 ##### [VAT Correction in Local Currency](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [Non-Deductible VAT](LocalFunctionality/Czech/non-deductible-VAT.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
 ##### [Intrastat for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Fixed Assets
@@ -1587,7 +1588,7 @@ ms.service: dynamics-365-business-central
 #### [Local functionality in the US version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Tax
 ##### [Basic tax setup](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Reporting sales Tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Sales tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Introduction to the IRS 1099 forms and its functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
 ##### [Set up and use the IRS 1099 form for version 24 (2024 release wave 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 #### [Use the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-use.md)

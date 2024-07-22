@@ -14,7 +14,7 @@ ms.service: dynamics-365-business-central
 ---
 # Work with item attributes
 
-When customers inquire about an item, either in correspondence or in an integrated web shop, they might ask or search according to characteristics, such as height and model year. To provide this customer service, you can assign item attribute values of different types to your items. The attributes can serve as search keywords.
+When customers inquire about an item, either in correspondence or in an integrated web shop, they might ask or search according to characteristics, such as height and model year. To provide this customer service, you can assign item attribute values of different types to your items, which can then be used when searching for items.
 
 You can also assign item attributes to item categories, which then apply to the items that use the item categories. For more information, see [Categorize Item](inventory-how-categorize-items.md).
 
@@ -78,10 +78,10 @@ The items on the **Items** page are filtered by the specified item attribute val
 
 ## See also
 
-[Categorize Items](inventory-how-categorize-items.md)  
-[Register New Items](inventory-how-register-new-items.md)  
+[Categorize Items](inventory-how-categorize-items.md)    
+[Register New Items](inventory-how-register-new-items.md)    
 [Inventory](inventory-manage-inventory.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

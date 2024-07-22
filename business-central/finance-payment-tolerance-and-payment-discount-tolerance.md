@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 118, 314, 395
-ms.date: 06/10/2024
+ms.date: 07/05/2024
 ms.service: dynamics-365-business-central
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -49,13 +49,13 @@ To set up tolerance you have to set up various tolerance accounts, specify both 
 6. On the **Vendor Posting Groups** page, set up a debit and a credit payment tolerance account.  
 7. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.  
 8. Open the **General Ledger Setup** page.  
-9. On the **Application** FastTab, fill in the **Payment Discount Tolerance Posting**, **Payment Discount Grace Period** and **Payment Tolerance Posting** fields.   
+9. On the **Application** FastTab, fill in the **Payment Disc. Tolerance Posting**, **Payment Discount Grace Period** and **Payment Tolerance Posting** fields.   
 10. Choose the **Change Payment Tolerance** action.
 
     > [!NOTE]
     > When you choose **Apply to Oldest** in the **Application Method** field on a **Customer Card** page, [!INCLUDE[prod_short](includes/prod_short.md)] will not automatically post payment tolerances, even when they're within the thresholds set on the **General Ledger Setup** page. [!INCLUDE[prod_short](includes/prod_short.md)] assumes that  the Apply to Oldest setting indicates that the customer (or you as a customer of your vendor) has an account with you where they regularly pay the balance. Therefore, remaining amounts shouldn't be removed by posting a payment tolerance entry.
 
-11. On the **Change Payment Tolerance** page, fill in the **Payment Tolerance %** and **Max Payment Tolerance Amount** fields, and then choose the **OK** button.
+11. On the **Change Payment Tolerance** page, fill in the **Payment Tolerance %** and **Max Pmt. Tolerance Amount** fields, and then choose the **OK** button.
 
 > [!IMPORTANT]  
 > You have now set up tolerance for local currency only. If you want [!INCLUDE[prod_short](includes/prod_short.md)] to handle tolerance on payments, credit memos, and refunds in a foreign currency, you must run the **Change Payment Tolerance** batch job with a value in the **Currency Code** field.  

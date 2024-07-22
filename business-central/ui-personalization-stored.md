@@ -8,7 +8,6 @@ ms.topic: conceptual
 ms.custom: bap-template 
 ms.date: 07/22/2024
 ---
-
 # Where is personalization stored?
 
 When you interact with the Business Central web client to optimize your workspace, some UI adjustments are automatically saved and roam with you across devices and browsers, while others are local and only affect your current browser.
@@ -63,3 +62,8 @@ The following table indicates which UI adjustments are local or roaming.
 ||Collapse or expand page inspection pane||X|
 ||Collapse or expand part on a page||X|
 ||Show or hide teaching tips|X||
+
+## See also
+
+[Personalize your workspace](ui-personalization-user.md)  
+[Why a Page is Locked from Personalization](ui-personalization-locked.md)  

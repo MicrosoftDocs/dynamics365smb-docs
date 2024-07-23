@@ -5,18 +5,19 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 05/24/2024
+ms.date: 07/08/2024
 ms.custom: bap-template
 ms.search.keywords: move, warehouse
 ms.search.forms: 5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755
 ms.service: dynamics-365-business-central
 ---
+
 # Transfer inventory between locations
 
 You can transfer inventory items between locations by creating transfer orders. Alternatively, you can use the item reclassification journal.
 
 > [!NOTE]
-> To transfer items, you must set up locations and transfer routes. To learn more about setting up locations, go to [Set Up Locations](inventory-how-setup-locations.md). You can't use transfer orders for *blank* locations.
+> To transfer items, you must set up locations and transfer routes. To learn more about setting up locations, go to [Set up locations](inventory-how-setup-locations.md). You can't use transfer orders for *blank* locations.
 
 ## Transfer orders
 
@@ -71,7 +72,7 @@ The following procedure explains how to post transfer orders in a batch.
 2. On the **Transfer Orders** page, select the orders to post.
 3. In the **No.** field, open the context menu and choose **Select More**.
 4. Select the checkbox for the lines for each order that you want to post.
-5. Choose the **Posting** action, and then choose **Post Batch**.
+5. Choose the **Post** action, and then choose **Post Batch**.
 6. On the **Batch Post Transfer Order** page, fill in the fields as necessary.
 
    > [!TIP]

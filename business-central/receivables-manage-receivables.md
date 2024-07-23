@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 06/10/2024
+ms.date: 07/08/2024
 ms.service: dynamics-365-business-central
 
 ---
@@ -43,7 +43,6 @@ The following table describes a sequence of tasks, with links to the articles th
 | Predict when payments will be late for sales documents. | [The Late Payment Prediction Extension](ui-extensions-late-payment-prediction.md) |
 
 ## See also
-
 [Sales](sales-manage-sales.md)  
 [Managing Payables](payables-manage-payables.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

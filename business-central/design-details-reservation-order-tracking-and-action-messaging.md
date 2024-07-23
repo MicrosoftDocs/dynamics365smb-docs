@@ -147,11 +147,11 @@ The following order tracking entries exist in the *Reservation Entry* table base
 
 |Entry No.|Positive|Item No.|Location Code|Quantity|Reservation Status|Description|Lot No.|Source Type|Source ID|Binding|  
 |--------|--------|--------|-------------|--------|------------------|-----------|-------|-----------|---------|-------| 
-|8|COMPONENT|-|EAST|-70|Tracking|Component|-|5407|101004|-|
+|8||COMPONENT|EAST|-70|Tracking|Component|-|5407|101004|-|
 |8|Yes|COMPONENT|EAST|70|Tracking|Component|LOTB|32|-|-| 
-|9|COMPONENT|-|EAST|-30|Tracking|Component|-|5407|1001004|-| 
+|9||COMPONENT|EAST|-30|Tracking|Component|-|5407|1001004|-| 
 |9|Yes|COMPONENT|EAST|30|Tracking|Component|LOTA|32|-|-| 
-|10|PRODUCED ITEM|-|WEST|-100|Reservation|Produced Item|-|37|1001|Order-to-Order|
+|10||PRODUCED ITEM|WEST|-100|Reservation|Produced Item|-|37|1001|Order-to-Order|
 |10|Yes|PRODUCED ITEM|WEST|100|Reservation|Produced Item|-|5406|101004|Order-to-Order|
 
 
@@ -178,8 +178,8 @@ From the sales demand in table 37, *Sales Lines*, an order tracking link is crea
 
 |Entry No.|Positive|Item No.|Location Code|Quantity|Reservation Status|Description|Lot No.|Source Type|Source ID|Binding|  
 |---------|--------|--------|-------------|--------|------------------|-----------|-------|-----------|---------|-------| 
-|9|COMPONENT|-|EAST|-30|Surplus|Component|-|5407|1001004|-| 
-|10|PRODUCED ITEM|-|WEST|-100|Reservation|Produced Item|-|37|1001|Order-to-Order|
+|9||COMPONENT|EAST|-30|Surplus|Component|-|5407|1001004|-| 
+|10||PRODUCED ITEM|WEST|-100|Reservation|Produced Item|-|37|1001|Order-to-Order|
 |10|Yes|PRODUCED ITEM|WEST|100|Reservation|Produced Item|-|5406|101004|Order-to-Order|
 |12|Yes|COMPONENT|WEST|70|Surplus|Component|LOTB|5741|1011|-| 
 |14|Yes|COMPONENT|WEST|30|Surplus|Component|LOTA|5741|1011|-| 
@@ -205,9 +205,9 @@ Now the following order tracking entries exist in the *Reservation Entry* table.
 
 |Entry No.|Positive|Item No.|Location Code|Quantity|Reservation Status|Description|Lot No.|Source Type|Source ID|Binding|  
 |---------|--------|--------|-------------|--------|------------------|-----------|-------|-----------|---------|-------| 
-|8|COMPONENT|-|EAST|-70|Surplus|Component|-|5407|101004|-| 
-|9|COMPONENT|-|EAST|-30|Surplus|Component|-|5407|1001004|-|
-|10|PRODUCED ITEM|-|WEST|-100|Reservation|Produced Item|-|37|1001|Order-to-Order|
+|8||COMPONENT|EAST|-70|Surplus|Component|-|5407|101004|-| 
+|9||COMPONENT|EAST|-30|Surplus|Component|-|5407|1001004|-|
+|10||PRODUCED ITEM|WEST|-100|Reservation|Produced Item|-|37|1001|Order-to-Order|
 |10|Yes|PRODUCED ITEM|WEST|100|Reservation|Produced Item|-|5406|101004|Order-to-Order|
 |17|Yes|COMPONENT|WEST|70|Surplus|Component|LOTB|32|-|-| 
 |18|Yes|COMPONENT|WEST|30|Surplus|Component|LOTA|32|-|-| 
@@ -223,11 +223,11 @@ Now the following order tracking entries exist in the *Reservation Entry* table.
 
 |Entry No.|Positive|Item No.|Location Code|Quantity|Reservation Status|Description|Lot No.|Source Type|Source ID|Binding|  
 |---------|--------|--------|-------------|--------|------------------|-----------|-------|-----------|---------|-------| 
-|10|PRODUCED ITEM|-|WEST|-100|Reservation|Produced Item|-|37|1001|Order-to-Order|
+|10||PRODUCED ITEM|WEST|-100|Reservation|Produced Item|-|37|1001|Order-to-Order|
 |10|Yes|PRODUCED ITEM|WEST|100|Reservation|Produced Item|-|5406|101004|Order-to-Order|
-|21|COMPONENT|-|WEST|-70|Tracking|Component|LOTB|5407|101004|-| 
+|21||COMPONENT|WEST|-70|Tracking|Component|LOTB|5407|101004|-| 
 |21|Yes|COMPONENT|WEST|70|Tracking|Component|LOTB|32|-|-| 
-|22|COMPONENT|-|WEST|-30|Tracking|Component|LOTA|5407|1001004|-| 
+|22||COMPONENT|WEST|-30|Tracking|Component|LOTA|5407|1001004|-| 
 |22|Yes|COMPONENT|WEST|30|Tracking|Component|LOTA|32|-|-| 
 
 #### Entry numbers 21 and 22  

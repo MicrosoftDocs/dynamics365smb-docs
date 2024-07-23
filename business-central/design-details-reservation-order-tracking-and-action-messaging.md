@@ -220,14 +220,15 @@ Now the following order tracking entries exist in the *Reservation Entry* table.
 
 <!-- ![Fourth example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")   -->
  **Reservation entries**
+
 |Entry No.|Positive|Item No.|Location Code|Quantity|Reservation Status|Description|Lot No.|Source Type|Source ID|Binding|  
 |---------|--------|--------|-------------|--------|------------------|-----------|-------|-----------|---------|-------| 
-|10|PRODUCED ITEM|-|WEST|-100|Reservation|Produced Item|37|1001|-|Order-to-Order|
+|10|PRODUCED ITEM|-|WEST|-100|Reservation|Produced Item|-|37|1001|Order-to-Order|
 |10|Yes|PRODUCED ITEM|WEST|100|Reservation|Produced Item|-|5406|101004|Order-to-Order|
 |21|COMPONENT|-|WEST|-70|Tracking|Component|LOTB|5407|101004|-| 
-|21|Yes|COMPONENT|-|WEST|70|Tracking|Component|LOTB|32|-|-| 
-|22|COMPONENT|WEST|-30|Tracking|Component|LOTA|5407|1001004|-| 
-|22|Yes|COMPONENT|-|WEST|30|Tracking|Component|LOTA|32|-|-| 
+|21|Yes|COMPONENT|WEST|70|Tracking|Component|LOTB|32|-|-| 
+|22|COMPONENT|-|WEST|-30|Tracking|Component|LOTA|5407|1001004|-| 
+|22|Yes|COMPONENT|WEST|30|Tracking|Component|LOTA|32|-|-| 
 
 #### Entry numbers 21 and 22  
 

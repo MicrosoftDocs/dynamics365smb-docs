@@ -40,8 +40,8 @@ You can customize page layouts for a profile so that all users assigned the prof
 
 If you can't copy an existing profile, you can create a new one manually.
 
-1. Choose the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles (Roles)**, and then choose the related link.  
-2. On the **Profiles (Roles)** page, choose the **New** action.  
+1. Select the ![Search for Page or Report.](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Profiles (Roles)**, and then select the related link.  
+2. On the **Profiles (Roles)** page, select the **New** action.  
 3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
@@ -53,8 +53,8 @@ To save time, you can create a new profile by copying an existing one. Copy one 
 
 When you copy a profile, all the involved page customizations are copied as well, both the user-created and those derived from extensions.
 
-1. On the **Profiles (Roles)** page, select the line for the profile that you want to copy, and then choose the **Copy Profile** action.
-2. Fill in the **Profile ID** and **Display Name** fields, and then choose the **OK** button.
+1. On the **Profiles (Roles)** page, select the line for the profile that you want to copy, and then select the **Copy Profile** action.
+2. Fill in the **Profile ID** and **Display Name** fields, and then select the **OK** button.
 3. On the **Profiles (Roles)** page, open the newly created profile card, and then edit other fields as necessary.
 
 ## Edit a profile
@@ -68,8 +68,8 @@ You can edit a profile by changing the fields on the **Profiles (Roles)** page. 
 
 Users can assign themselves a role (representing a profile) by choosing the **Role** field on the **My Settings** page. As an administrator, you can do the same through the **Profiles (Roles)** page.
 
-1. On the **Profiles (Roles)** page, select the profile that you want to assign, and then choose the **User Personalization List** action.
-2. On the **User Settings** page, select the user that you want to assign the profile to, and then choose the **Edit** action.
+1. On the **Profiles (Roles)** page, select the profile that you want to assign, and then select the **User Personalization List** action.
+2. On the **User Settings** page, select the user that you want to assign the profile to, and then select the **Edit** action.
 3. In the **Profile ID** field, select the relevant profile.
 
 If you assign another profile to a user, any personalizations made by the user with the previous profile are preserved.
@@ -80,8 +80,8 @@ On the **My Settings** page, users can define basic behavior of their account, s
 
 As an administrator, you can define settings for a profile. The settings apply to all users assigned to the role.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.
-2. Select the line for the profile that you want to change user settings for, and then choose the **User Personalizations List** action.
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then select the related link.
+2. Select the line for the profile that you want to change user settings for, and then select the **User Personalizations List** action.
 3. On the **User Personalizations** page, open the card for the user whose settings you want to change.
 4. On the **User Personalization Card** page, edit the fields as necessary.
 
@@ -100,7 +100,7 @@ On the **Profiles (Roles)** page, select the following checkboxes:
 
 You can export profiles from [!INCLUDE[prod_short](includes/prod_short.md)] and reuse them in another tenant. The profiles are exported to a zip file that contains Application Language (AL) files. You can reuse the AL files to develop extensions. For more information about exporting profiles, see [Use the Client to Create Profiles and Page Customizations](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
-* On the **Profiles (Roles)** page, choose the **Export Profiles** action.
+* On the **Profiles (Roles)** page, select the **Export Profiles** action.
 
     This action exports a zip file that contains AL files for all profiles.
 
@@ -108,11 +108,11 @@ You can export profiles from [!INCLUDE[prod_short](includes/prod_short.md)] and 
 
 You can import profiles that are exported from Business Central. The steps are more or less the opposite of the steps to export profiles.
 
-1. On the **Profiles (Roles)** page, choose the **Import Profiles** action.
+1. On the **Profiles (Roles)** page, select the **Import Profiles** action.
 1. Follow the steps on the **Import Profiles** wizard.
 
     If you only want to import selected profiles, use the **Selected** checkbox to indicate which to import.
-1. Choose the **Import Selected** button.
+1. Select the **Import Selected** button.
 
     This action imports a zip file that contains AL files for the selected profiles.
 
@@ -130,7 +130,7 @@ You can delete a profile by choosing the **Delete** action on the **Profiles (Ro
 
 You can delete all changes that a user makes to any pages, which reverts the pages to the the original layout. Personalizations aren't associated with a profile (role). If a user personalizes a page, then they experience the personalizations on the page no matter which role they are using.<!--Deleting changes can be useful, for example, if an employee changes role and no longer needs them. The profile defines the page layout and deletions restore it back to that definition.--> 
 
-1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Settings**, and then choose the related link.
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Settings**, and then select the related link.
 
     The **User Settings** page lists all users<!--who make personalizations-->.
 
@@ -145,13 +145,13 @@ You can also delete all page customizations for a profile. For more information,
 
 You can delete personalizations that one or more users make to specific pages. Deleting personalizations can be useful, for example, if a business process change means that a personalization can't be used. Deletions restore the page layout back to what the profile defines.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Personalized Pages**, and then choose the related link.
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Personalized Pages**, and then select the related link.
 
     The **Personalized Pages** page lists all the pages that are personalized and the user that they belong to.
 
     <!--A checkmark in the **Legacy Personalization** field indicates that the personalization was done in an older version of [!INCLUDE[prod_short](includes/prod_short.md)], which handled personalization differently. Users who try to personalize these pages are locked from doing so unless they choose to unlock the page.-->
 
-2. Select the line for the page personalization that you want to delete, and then choose the **Delete** action.
+2. Select the line for the page personalization that you want to delete, and then select the **Delete** action.
 
 The user will see the changes the next time they sign-in.  
 

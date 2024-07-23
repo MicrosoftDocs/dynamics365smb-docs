@@ -15,7 +15,7 @@ ms.service: dynamics-365-business-central
 
 As an administrator, you can configure user settings in [!INCLUDE[prod_short](includes/prod_short.md)], similar to how individual users can manage their own preferences in the **My Settings** page.  
 
-Get an overview of all users in the **Users** list, and change individual settings by choosing the **User Settings** action for the relevant user.
+Get an overview of all users in the **Users** list, and change individual settings by selecting the **User Settings** action for the relevant user.
 
 > [!TIP]
 > The **User Settings** list shows the current settings for each user. To view or edit individual users, select the **View** or **Edit** action.

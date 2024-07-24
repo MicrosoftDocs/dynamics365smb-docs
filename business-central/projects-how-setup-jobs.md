@@ -48,6 +48,16 @@ After you set up usage tracking by turning on the **Apply Usage Link by Default*
 
 When projects involve multiple customers, billing the right customers for the right tasks can be challenging. [!INCLUDE [prod_short](includes/prod_short.md)] makes billing less complex by letting you specify the bill-to and sell-to customers on each project task line, so you can automatically generate invoices for the correct customers.  Use the **Default Task Billing Method** field to specify whether you're billing one customer, or multiple customers by default. You can change task billing method for a specific project by using the **Task Billing Method** field on the **Project Card** page. To learn more about invoicing multiple customers, go to [Invoice one or more customers for project tasks](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
+### Synchronize cost of used items
+The cost of an item (inventory value) that you purchase and later use in project might change during its lifetime, for example because a freight cost is added to its purchase cost after you post the usage of item. 
+
+In Business Central, item costs can be manually or automatically adjusted and this adjustment will be reflected in the Value Entries and G/L. For more infomartion, see [Managing Inventory Cost](finance-manage-inventory-costs.md)
+
+In relation to projects, you also have two option how to reflect those adjustments.
+Enable the **Automatic Update Project Item Cost** toggle to ensure that the cost changes are automatically adjusted in project each time the **Adjust Cost - Item Entries** batch job is run. 
+
+If you keep it off, remember to run the **Update Job Project Cost** task manually or via Job Queue.
+
 ## To set up prices for resources, items, and general ledger accounts for projects
 
 > [!NOTE]

@@ -230,6 +230,8 @@ Warehouse activities in all pick and movement documents are sorted according to 
 
 When picking by FEFO, items that expire first are gathered in a temporary item tracking list based on the expiration date. If two items have the same expiration date, the item with the lowest lot or serial number is picked first. If the lot or serial numbers are the same, the item that was registered first is selected first. Standard criteria for selecting items in pick bins, such as Bin Ranking and Break Bulk, are applied to the temporary FEFO item tracking list.  
 
+Learn more at [Enable Picking Items by FEFO](warehouse-picking-by-fefo.md).
+
 #### Put-away template
 
 Put-away templates specify a set of prioritized rules that apply when you create put-aways. For example, a put-away template can require you to place items in a bin with bin content that has the same UOM. If a similar bin with enough capacity can't be found, the item must be placed in an empty bin. You assign a put-away template to an item and a location.  

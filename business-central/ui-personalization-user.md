@@ -24,7 +24,7 @@ It applies to all design modes, not just personalization.
 You can make various changes, such as move or hide fields, columns, actions, and entire parts, and add new fields. Most personalization must be done by first activating the **Personalizing** banner. You can make simple adjustments, such as the column width, immediately on any list.
 
 > [!NOTE]
-> Administrators can make the same layout changes as users by customizing profile (role) that multiple users are assigned. To learn more about pages for Roles, go to [Customize Pages for Roles](ui-personalization-manage.md)<br /><br />
+> Administrators can make the same layout changes as users by customizing a profile (role), which can be assigned to multiple users. To learn more about pages for Roles, go to [Customize Pages for Roles](ui-personalization-manage.md)<br /><br />
 Administrators can also override or disable users' personalization, and they can define which features are even available for users to see in all or specific companies. For more information, see [Customizing Business Central](ui-customizing-overview.md).
 
 ## Video
@@ -174,7 +174,7 @@ At some point, you might want to undo some or all of the personalization changes
 > Clearing personalization can't be undone.
 
 |Option|What it does|
-|------|------------
+|------|------------|
 |**Only Navigation Menu**|Clears any personalization changes that you have ever made to the navigation menu that is shared across the Role Center and other pages. Such changes include any new actions that were added as bookmarks, and any changes to links and groups in the menu.|  
 |**Only Actions**|Clears any personalization changes that you have ever made on the navigation or action bars on the page.|
 |**Only Fields and Columns**|Clears any personalization changes that you have ever made to the page except changes on the navigation or action bar. Such changes include changes to fields, columns, parts, and tiles. |

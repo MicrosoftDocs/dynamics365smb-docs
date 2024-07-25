@@ -1,18 +1,18 @@
 ---
-title: Export Positive Pay Files
+title: Export Positive Pay files
 description: You can ensure your bank only clears validated checks and amounts by exporting a Positive Pay file that contains vendor and payment information.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: check, clearing
 ms.search.form: 1231, 1232, 1233, 1234
-ms.date: 04/01/2021
+ms.date: 07/18/2024
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Export a Positive Pay File
+
+# Export a Positive Pay file
 To make sure that your bank only clears validated checks and amounts, you can export a Positive Pay file that contains vendor information, check number, and payment amount, which you send to the bank for reference when you process payments.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] is preconfigured to support Positive Pay files for Bank of America and City Bank.
@@ -29,13 +29,13 @@ To make sure that your bank only clears validated checks and amounts, you can ex
 3. Choose **Positive Pay Export** action.
 
     The **Positive Pay Export** page opens displaying payments that have been made for the bank account since the last upload date, as shown in the **Last Upload Date** and **Last Upload Time** fields.
-4. In the **Cutoff Upload Date** field, specify a date before which payments are not included in the exported file.
+4. In the **Cutoff Upload Date** field, specify a date before which payments aren't included in the exported file.
 5. Choose the **Export** action.
 6. On the **Export File** page, choose the **Save** button, and then save the file to a convenient location.
 7. Upload the file to your electronic bank site.
 8. Write down or copy the confirmation number that is displayed when the file upload is successful.
 
-To view exported Positive Pay records
+## To view exported Positive Pay records
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Select the bank account that you want to view Positive Pay export records for.
@@ -45,7 +45,7 @@ To view exported Positive Pay records
 4. In the **Confirmation Number** field, enter, for each export record, the confirmation number that you receive when the file upload to the bank is successful.
 5. To view the related payment lines, choose the **Positive Pay Entry Details** action.
 
-To reexport Positive Pay files
+## To reexport Positive Pay files
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.
 2. Select the bank account that you want to reexport Positive Pay files for.
@@ -53,7 +53,7 @@ To reexport Positive Pay files
 4. Select the line for the Positive Pay export file that you want to reexport.
 5. On the **Positive Pay Entries** page, choose the **Reexport Positive Pay to File** action.
 
-## See Also
+## See also
 [Finance](finance.md)  
 [Setting Up Finance](finance-setup-finance.md)  
 [Work with General Journals](ui-work-general-journals.md)  

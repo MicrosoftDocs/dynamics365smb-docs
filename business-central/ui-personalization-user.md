@@ -19,7 +19,7 @@ You can personalize your workspace to suit your work and preferences. Change pag
 > Due to restrictions on design capabilities in the web client, it's currently not possible to customize or personalize the controls within the `grid` and `fixed` syntax.
 It applies to all design modes, not just personalization.
 
-[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+<!--[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]-->
 
 You can make various changes, such as move or hide fields, columns, actions, and entire parts, and add new fields. Most personalization must be done by first activating the **Personalizing** banner. You can make simple adjustments, such as the column width, immediately on any list.
 
@@ -27,11 +27,13 @@ You can make various changes, such as move or hide fields, columns, actions, and
 > Administrators can make the same layout changes as users by customizing a profile (role), which can be assigned to multiple users. To learn more about pages for Roles, go to [Customize Pages for Roles](ui-personalization-manage.md)<br /><br />
 Administrators can also override or disable users' personalization, and they can define which features are even available for users to see in all or specific companies. For more information, see [Customizing Business Central](ui-customizing-overview.md).
 
-## Video
+## Video and training
 
 The following video shows some of the ways in which you can personalize your Role Center.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
+
+For online training, go to [Personalize the Microsoft Dynamics 365 Business Central user interface](/training/modules/personalize-ui-dynamics-365-business-central/).
 
 ## Change the width of a column
 

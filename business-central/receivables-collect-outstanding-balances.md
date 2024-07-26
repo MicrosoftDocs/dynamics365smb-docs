@@ -13,7 +13,7 @@ ms.custom: bap-template
 ---
 # Collect outstanding balances
 
-When customer payments have been registered and reconciled the collections process often involves one or more of the following steps to collect outstanding balances with customers, depending on the way you want this process to work in your business. All of these jobs are supported by [!INCLUDE[prod_short](includes/prod_short.md)]:
+When customer payments have been registered and reconciled, the collections process often involves one or more of the following steps to collect outstanding balances with customers, depending on the way you want this process to work in your business. All of these jobs are supported by [!INCLUDE[prod_short](includes/prod_short.md)]:
 - Sending reminders (dunning letters) to customers to remind them about outstanding balances. See [Reminders](#reminders). 
 - Sending out statements that informs the customers about the state of their account with potentially overdue amounts. See [Statements](#statements)
 - Sending out finance charge memos to claim interest fees for overdue amounts. See [Finance Charges](#finance-charges)

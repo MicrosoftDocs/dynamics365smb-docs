@@ -64,6 +64,18 @@ You can use the **Item Reclassification Journals** page to:
     As a warehouse worker at the transfer-from location, proceed to receive the items. The transfer order lines are the same as when shipped and can't be edited.
 5. Choose the **Post** action, choose the **Receive** option, and then choose the **OK** button.
 
+### Undo a transfer shipment
+
+If you find a mistake in a quantity on a posted transfer order, as long as the shipment isn't received you can easily correct the quantity. On the **Poster Transfer Shipment** page, the **Undo Shipment** action creates corrective lines, as follows:
+
+* The value in the **Quantity Shipped** field is decreased by the undone quantity.
+* The value in the **Qty. to Ship** field is increased by the undone quantity.
+* The **Correction** checkbox is selected for the lines.
+
+If the quantity was shipped in a warehouse shipment, a corrective line is created in the posted warehouse shipment.
+
+To complete the correction, reopen the transfer order, enter the correct quantity, and then post the order. If you're using a warehouse shipment to ship the order, create and post a new warehouse shipment.
+
 ### Post multiple transfer orders in a batch
 
 The following procedure explains how to post transfer orders in a batch.
@@ -104,6 +116,44 @@ The following procedure shows how to set up the **Batch Post Transfer Orders** r
 8. In the **Starting Time** field, enter **4 PM**.
 9. Choose the **Set Status to Ready** action.
 
+### Comparison of different setting for transfer orders
+
+You can use transfer orders can be posted in different modes. With or without in-transit location. Disable the **Direct Transfer** toggle and select the temporary location in the **In Transit Code** field on the **Transfer Order** page. When shipment of the transfer order that is configured to use it-transit location, is posted, the items on the line are no longer available at one of your locations but are in transit. Direct posting ensures doesn't use an in-transit location and shipment and receipt are processed similtaneously. The exact behavior of direct posting might can be different based on value selected in the **Direct Transfer Posting** in the **Inventory Setup** page.
+
+The table below demonstrates differences of available combinations:
+
+|Capability|The **Direct Transfer** field is disabled in the **Transfer Order** page|The **Direct Transfer** is enabled in the **Transfer Order** page,</br>the **Direct Transfer Posting** set to *Direct Transfer* in the **Inventory Setup** page|The **Direct Transfer** is enabled in the **Transfer Order** page,</br>the **Direct Transfer Posting** set to *Receipt and Shipment* in the **Inventory Setup** page|
+|---|---|---|---|
+|Use in-transit location|Yes|No|No|
+|Can post receipt without shipment.</br>Can use **Undo receipt**.|Yes|No|No|
+|Partial posting|Yes|No|Yes|
+|Item ledger entries|4:</br>Transfer from From-Location,</br>Transfer to In-Transit,</br>Transfer from In-Transit,</br>Transfer to To-Location.|2:</br>Transfer from From-Location,</br>Transfer to To-Location.|4:</br>Transfer from From-Location,</br>Transfer to *blank*,</br>Transfer from *blank*,</br>Transfer to To-Location.|
+|Posted documents|Posted transfer shipment,</br>Posted transfer receipt.|Posted direct transfer|Posted transfer shipment,</br>Posted transfer receipt.|
+|Reservation: inbound and outbound|Yes|Yes|Yes|
+|Item Charges - assign to posted transfer receipt|Yes|No|Yes|
+|Warehouse handling|Full|No|Limited, see below|
+
+
+Warehouse handling matrix for configuration: the **Direct Transfer** is enabled in the **Transfer Order** page and the **Direct Transfer Posting** set to *Direct Transfer* in the **Inventory Setup** page.
+
+
+|From \ To|To: No warehouse handling|To: Warehouse receipt|To: Inventory Put-away|To: Directed put-away and pick|
+|-|-|-|-|-|
+|**From: No warehouse handling**|1|Not supported|1, 4|Not supported|
+|**From: Warehouse shipment**|1, 2|Not supported|1,2,4|Not supported|
+|**From: Inventory put-away**|1, 3|Not supported|1,3,4|Not supported|
+|**From: Directed put-away and pick**|2|Not supported|2|Not supported|
+
+The numbers in cells show supported posting options:
+1. Post from transfer order. For some combinations you might need to populate the **Qty. to Ship** field.
+2. Create and post warehouse shipment
+3. Create and post inventory pick
+4. Create and post inventory put-away. For some combinations you might need to populate the **Qty. to Ship** field.
+   
+Regardless of method both shipment and receipt transaction will be performed. For example you can create transfer order from location that requires inventory-pick to location that requires inventory put-away. You can create and post inventory put-away. Both shipment and receipt transactions will be created. Notice that you can also post such document from transfer order or via inventory pick.  
+
+For more information about warehouse handling, see [Warehouse management overview](design-details-warehouse-management.md).
+
 ## To transfer items with the item reclassification journal
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journals**, and then choose the related link.
@@ -117,17 +167,6 @@ The following procedure shows how to set up the **Batch Post Transfer Orders** r
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Undo a transfer shipment
-
-If you find a mistake in a quantity on a posted transfer order, as long as the shipment isn't received you can easily correct the quantity. On the **Poster Transfer Shipment** page, the **Undo Shipment** action creates corrective lines, as follows:
-
-* The value in the **Quantity Shipped** field is decreased by the undone quantity.
-* The value in the **Qty. to Ship** field is increased by the undone quantity.
-* The **Correction** checkbox is selected for the lines.
-
-If the quantity was shipped in a warehouse shipment, a corrective line is created in the posted warehouse shipment.
-
-To complete the correction, reopen the transfer order, enter the correct quantity, and then post the order. If you're using a warehouse shipment to ship the order, create and post a new warehouse shipment.
 
 ## See also
 

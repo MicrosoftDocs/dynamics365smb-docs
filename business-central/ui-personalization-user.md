@@ -42,6 +42,10 @@ You can easily resize columns on any list. Just drag the boundary between two co
 
 As for other personalization, the changes you make to column width are stored on your account and follow you no matter which device you sign into.
 
+## Pin the action bar
+
+Pinning the action bar on a page ensures that the action bar remains visible and accessible wheneven the page is open.  providing quick access to important actions without the need to pin it each time the page is opened. This feature is particularly useful for frequently used actions, allowing for a more efficient workflow by reducing the number of clicks needed to access these actions
+
 ## Start personalizing by using the personalization mode
 
 1. Open any page that you want to personalize.

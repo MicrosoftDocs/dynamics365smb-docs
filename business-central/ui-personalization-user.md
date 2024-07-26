@@ -8,7 +8,7 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 01/15/2024
+ms.date: 07/26/2024
 ms.author: jswymer
 ---
 # Personalize your workspace

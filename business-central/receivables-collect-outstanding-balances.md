@@ -17,7 +17,7 @@ When customer payments have been registered and reconciled, the collections proc
 - Sending reminders (dunning letters) to customers to remind them about outstanding balances. See [Reminders](#reminders). 
 - Sending out statements that informs the customers about the state of their account with potentially overdue amounts. See [Statements](#statements)
 - Sending out finance charge memos to claim interest fees for overdue amounts. See [Finance Charges](#finance-charges)
-- Communicating with customers over the phone or e-mail regarding overdue balances and managing potential misunderstanings and disputes, or simply to remind customers to balance their accounts in a more direct manner. See [Use Copilot for Finance in Outlook to streamline manual collections work](use-copilot-forinance-in-outlook-to-streamline-manual-collections-work)
+- Communicating with customers over the phone or e-mail regarding overdue balances and managing potential misunderstanings and disputes, or simply to remind customers to balance their accounts in a more direct manner. See [Use Copilot for Finance in Outlook to streamline manual collections work]([use-copilot-forinance-in-outlook-to-streamline-manual-collections-work](use-copilot-for-finance-in-outlook-to-streamline-manual-collections-work))
 
 Managing receivables includes checking whether amounts due are paid on time. If customers have overdue payments, you can begin by sending the **Customer Statement** report as a reminder. Alternatively, you can issue reminders.
 

@@ -16,8 +16,8 @@ This document will describe the available feature to support the processes for c
 
 When customer payments have been registered and reconciled, the collections process often involves one or more of the following steps to collect outstanding balances with customers, depending on the way you want this process to work in your business.
 All of these jobs are supported by [!INCLUDE[prod_short](includes/prod_short.md)]:
-- Sending reminders (dunning letters) to customers to remind them about outstanding balances. Use reminders to alert customers to overdue amounts. You can also use reminders to calculate finance charges, such as interest or fees and include them on the reminder. See [Reminders](#reminders). 
 - Sending out statements that informs the customers about the state of their account with potentially overdue amounts. If customers have overdue payments, you can begin by sending the Customer Statement report as a reminder. See [Statements](#statements).
+- Sending reminders (dunning letters) to customers to remind them about outstanding balances. Use reminders to alert customers to overdue amounts. You can also use reminders to calculate finance charges, such as interest or fees and include them on the reminder. See [Reminders](#reminders). 
 - Sending out finance charge memos to claim interest fees for overdue amounts. Use finance charge memos if you want to debit customers for interest or fees without reminding them of overdue amounts. See [Finance Charges](#finance-charges).
 - Communicating with customers over the phone or e-mail regarding overdue balances and managing potential misunderstanings and disputes, or simply to remind customers to balance their accounts in a more direct manner. See [Use Copilot for Finance in Outlook to streamline manual collections work](use-copilot-for-finance-in-outlook-to-streamline-manual-collections-work).
 

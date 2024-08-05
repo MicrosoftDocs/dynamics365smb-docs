@@ -44,6 +44,9 @@ If you use on-premises [!INCLUDE [prod_short](../../includes/prod_short.md)] ver
 2. Select **New** to create a _client certificate_. This certificate is a company certificate (VOCES3) that's issued by MitID Erhverv (OCES3). It must include a private key for signing.
 3. Select **New** to create a _server certificate_. This certificate is a certificate that NemVirksomhed provides to verify response XML.
 
+> [!NOTE]
+> If you are using the online option, you need to use the Microsoft Denmark A/S **CVR number** to authorize your Business Central in your company's _skat.dk_ profile. This allows Business Central to submit VAT drafts, as Microsoft already provides a default certificate for connecting with _skat.dk_.
+
 ### Set up electronic VAT declaration 
 
 Follow these steps to configure the electronic VAT declaration:

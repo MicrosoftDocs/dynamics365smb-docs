@@ -6,9 +6,8 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: vat, return, statement, electronic, denmark, submission, skat
 ms.search.form: 
-ms.date: 04/24/2024
+ms.date: 08/06/2024
 ms.author: altotovi
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
@@ -45,7 +44,7 @@ If you use on-premises [!INCLUDE [prod_short](../../includes/prod_short.md)] ver
 3. Select **New** to create a _server certificate_. This certificate is a certificate that NemVirksomhed provides to verify response XML.
 
 > [!NOTE]
-> If you are using the online option, you need to use the Microsoft Denmark A/S **CVR number** to authorize your Business Central in your company's _skat.dk_ profile. This allows Business Central to submit VAT drafts, as Microsoft already provides a default certificate for connecting with _skat.dk_.
+> If you opt for the online option, the Microsoft Denmark A/S *CVR number* must be used to authorize your [!INCLUDE [prod_short](../../includes/prod_short.md)] in your company's _skat.dk_ profile. This allows the [!INCLUDE [prod_short](../../includes/prod_short.md)] to submit VAT drafts, as Microsoft already provides a default certificate for connecting to the _skat.dk_.
 
 ### Set up electronic VAT declaration 
 
@@ -100,6 +99,6 @@ You can download a **Response** message by selecting **Download**. If the status
 ## See also
 
 [Financial Management](../../finance.md)    
-[VAT Management Overview](../../finance-manage-vat.md)  
+[VAT Management Overview](../../finance-manage-vat.md)    
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

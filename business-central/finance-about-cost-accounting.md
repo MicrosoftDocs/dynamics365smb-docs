@@ -6,10 +6,11 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
-ms.date: 05/24/2024
+ms.date: 07/25/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
+
 # About cost accounting
 
 Cost accounting can help you understand the costs of running a business. Cost accounting information is designed to analyze:  

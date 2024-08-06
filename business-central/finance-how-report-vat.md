@@ -1,20 +1,20 @@
 ---
-title: Submit VAT Reports to Tax Authorities
-description: Learn how to prepare reports that lists VAT from sales during a period, or from sales and purchases, and submit the report to a tax authority.
+title: Submit VAT reports to tax authorities
+description: Learn how to prepare reports that list VAT from sales during a period, or from sales and purchases, and submit the report to a tax authority.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
-ms.date: 01/31/2022
+ms.date: 08/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Report VAT to Tax Authorities
+# Report VAT to tax authorities
 
-This topic describes the reports in [!INCLUDE[prod_short](includes/prod_short.md)] that you can use to submit information about value-added tax (VAT) amounts for sales and purchases to tax authorities in your region. Depending on the specific country/region, the reports may include specific information, or there might be additional reports that you must submit. Check the articles for your country/region in the [Local Functionality](about-localization.md) section.  
+This article describes the reports in [!INCLUDE[prod_short](includes/prod_short.md)] that you can use to submit information about value-added tax (VAT) amounts for sales and purchases to tax authorities in your region. Depending on the specific country/region, the reports might include specific information, or there might be additional reports that you must submit. Check the articles for your country/region in the [Local Functionality](about-localization.md) section.  
 
 You can use the following built-in reports:
 
@@ -47,7 +47,7 @@ The report includes one line for each type of transaction with the customer, and
 
 *B2B* goods and services specify whether you sold a good or a service, and are controlled by the **EU Service** setting in the VAT posting setup. *B2B Triangulated Goods* indicate whether you engaged in trade with a 3rd party, and are controlled by the **EU 3-Party Trade** setting on sales documents, such as sales orders, invoices, credit memos, and so on.  
 
-After the tax authority reviews your report, they will send an email to the contact person for your company. In [!INCLUDE[prod_short](includes/prod_short.md)], the contact person is specified on the **Company Information** page. Before you submit the report, make sure that a contact person is chosen.  
+After the tax authority reviews your report, they'll send an email to the contact person for your company. In [!INCLUDE[prod_short](includes/prod_short.md)], the contact person is specified on the **Company Information** page. Before you submit the report, make sure that a contact person is chosen.  
 
 ### Submit an EC sales list report
 
@@ -63,7 +63,7 @@ For the VAT return, you can specify the entries to include:
 * Submit only entries from the specified periods, or also include entries from previous periods. This is useful for updating a VAT return that you have already submitted, for example, if a vendor sends you a late invoice.    
 
 ## To connect to your tax authority's web service
-[!INCLUDE[prod_short](includes/prod_short.md)] provides service connections to tax authority websites. For example, if you are in the UK, you can enable the **GovTalk** service connection to submit the EC Sales List and VAT Return reports electronically. If you want to submit the report manually, for example by entering your data on the tax authority's website, this is not required.   
+[!INCLUDE[prod_short](includes/prod_short.md)] provides service connections to tax authority websites. For example, if you are in the UK, you can enable the **GovTalk** service connection to submit the EC Sales List and VAT Return reports electronically. If you want to submit the report manually, for example by entering your data on the tax authority's website, this isn't required.   
 
 To report VAT to a tax authority electronically, you need to connect [!INCLUDE[prod_short](includes/prod_short.md)] to the tax authority's web service. This requires that you set up an account with your tax authority. When you have an account, you can enable a service connection that we provide in [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -79,7 +79,7 @@ To report VAT to a tax authority electronically, you need to connect [!INCLUDE[p
 
 ### To set up VAT return periods
 
-Optionally, if your business is not located in the UK, use the **VAT Returns Periods** page to set up scheduled VAT returns. if your business is located in the UK, see [Making Tax Digital in the United Kingdom](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md).  
+Optionally, if your business isn't located in the UK, use the **VAT Returns Periods** page to set up scheduled VAT returns. If your business is located in the UK, see [Making Tax Digital in the United Kingdom](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md).  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Return Periods**, and then choose the related link.  
 2. On the **VAT Return Periods** page, fill in the fields to set up the first period. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)].  
@@ -89,7 +89,7 @@ Now, when the time has come to submit a VAT report for a VAT return period, choo
 
 ## To prepare and submit a VAT report
 
-1. Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **EC Sales List** or **VAT Return**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **EC Sales List** or **VAT Returns**, and then choose the related link.  
 2. Choose **New**, and then fill in the required fields. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. To generate the content of the report, choose the **Suggest Lines** action.  
 
@@ -112,9 +112,9 @@ VAT returns can have different statuses, as described in the following table.
 |------------|-------------------------|
 | Open | When you create a new VAT return. You can run the **Suggest Lines** action. If you need to correct values, you can run the **Suggest Lines** action again. You can't submit a VAT return that has this status. |
 | Released | Status will be changed when you use the **Release** action. [!INCLUDE[prod_short](includes/prod_short.md)] will show the **Errors and Warnings** FastTab. You can't make changes or use the **Suggest Lines** action. To make changes, you must reopen the VAT return. |
-| Rejected | If your submission was not successful (for example, if authentication failed), the status will change to **Rejected**. You can't reopen a VAT Return that has this status. |
+| Rejected | If your submission wasn't successful (for example, if authentication failed), the status will change to **Rejected**. You can't reopen a VAT Return that has this status. |
 | Submitted | The VAT return is submitted using the **Submit** action, or it's marked as submitted by using the **Mark as Submitted** action. |
-| Accepted | The VAT return has this status if the report is marked as acceptec by using the **Mark as Accepted** action. If the **VAT Return** report is marked as **Accepted**, you can run the **Calculate and Post VAT Settlement** action. |
+| Accepted | The VAT return has this status if the report is marked as accepted by using the **Mark as Accepted** action. If the **VAT Return** report is marked as **Accepted**, you can run the **Calculate and Post VAT Settlement** action. |
 
 ## Viewing communications with your tax authority
 
@@ -140,7 +140,7 @@ The following table describes the codeunits that you must create for your report
 | Codeunit | What it must do |
 |----|-----|
 |Suggest Lines| Fetch information from the **VAT Entries** table, and display it in lines on the VAT report.|
-|Content | Control the format of the report. For example, whether it is XML or JSON. The format to use depends on the requirements of your tax authority's web service. |
+|Content | Control the format of the report. For example, whether it's XML or JSON. The format to use depends on the requirements of your tax authority's web service. |
 |Submission | Control how, and when, you submit the report based on the requirements of your tax authority. |
 |Response Handler | Handle the return from the tax authority. For example, it might send an email message to your company's contact person. |
 |Cancel | Send a cancellation of a VAT report that was submitted earlier to your tax authority. |  
@@ -150,10 +150,10 @@ The following table describes the codeunits that you must create for your report
 
 ## See also
 
-[Set Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)  
-[Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
-[Set Up Sales](sales-setup-sales.md)  
-[Invoice Sales](sales-how-invoice-sales.md)  
+[Set Up Calculations and Posting Methods for Value-Added Tax](finance-setup-vat.md)    
+[Work with VAT on Sales and Purchases](finance-work-with-vat.md)    
+[Set Up Sales](sales-setup-sales.md)    
+[Invoice Sales](sales-how-invoice-sales.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

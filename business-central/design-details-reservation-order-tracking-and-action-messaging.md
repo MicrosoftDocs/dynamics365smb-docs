@@ -5,11 +5,12 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: design, replenishment, reordering
-ms.date: 07/26/2024
+ms.date: 08/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
+
 # Design details: reservation, order tracking, and action messaging
 
 The comprehensive reservation system includes the interrelated and parallel features of Order Tracking and Action Messaging.  
@@ -78,7 +79,7 @@ The following table shows when and which modifications might occur:
 
 The item card can be set up to automatically reserve items based on demand, such as sales orders. In that case, reservation is made against inventory, purchase orders, assembly orders, and production orders. A warning is issued if the supply is insufficient.  
 
-In addition, various planning functions automatically reserve items items to keep a demand linked to a specific supply. The order tracking entries for such planning links contain **Reservation** in the **Reservation Status** field in the *Reservation Entry* table. Automatic reservations are created in the following situations:  
+In addition, various planning functions automatically reserve items to keep a demand linked to a specific supply. The order tracking entries for such planning links contain **Reservation** in the **Reservation Status** field in the *Reservation Entry* table. Automatic reservations are created in the following situations:  
 
 - A multilevel production order where the **Manufacturing Policy** field of the involved parent and child items is set to **Make-to-Order**. The planning system creates reservations between the parent production order and the underlying production order to ensure they process together. This reservation binding overrides the item's default costing and application method.  
 
@@ -252,7 +253,7 @@ The following table shows the action messages that exist.
 |**New**|Creates a new order if demand can't be fulfilled by either of the previous action messages.|  
 |**Cancel**|Cancels an existing order.|  
 
-The order tracking system always attempts to resolve an imbalance in the existing order network. If this isn't possible, it issues an action message to create a new order. Following is the prioritized list that the order tracking system uses when it determines how to restore balance. If an additional demand enteres the order network, the system seeks to order track through the following checks:  
+The order tracking system always attempts to resolve an imbalance in the existing order network. If this isn't possible, it issues an action message to create a new order. Following is the prioritized list that the order tracking system uses when it determines how to restore balance. If an additional demand enters the order network, the system seeks to order track through the following checks:  
 
 1. Check for any excess supply in the existing order tracking record for this demand.  
 1. Check for planned and scheduled receipts in order of receipt date. The latest possible date is selected.  

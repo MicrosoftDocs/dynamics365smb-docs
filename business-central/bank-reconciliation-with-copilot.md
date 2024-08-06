@@ -54,7 +54,7 @@ Copilot in bank account reconciliation is intended to supplement the automatch o
 
 You can use two approaches to reconcile bank accounts with Copilot:
 
-- Use Copilot to start a new reconciliation on a bank account, directly from the **Bank Account Reconciliation** list.
+- Use Copilot to start a new reconciliation on a bank account, directly from the **Bank Account Reconciliations** list.
 - Use Copilot on a new or existing reconciliation on a **Bank Acc. Reconciliation** card.
 
 # [From the Bank Account Reconciliation list](#tab/fromlist)

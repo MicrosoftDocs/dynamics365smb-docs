@@ -52,7 +52,7 @@ The following table shows the Azure OpenAI Service's geography used by Copilot, 
 > Once an Azure OpenAI Service becomes available in your Business Central geography, your environment will automatically transition to use the Azure OpenAI Service and opting in isn't required or even possible.
 <!--
 
-BC geos base on https://dynamics.microsoft.com/en-us/availability-reports/georeport/
+BC geos base on https://releaseplans.microsoft.com/availability-reports/?report=productgeoreport/
 case "AUSTRALIAEAST":
             case "AUSTRALIASOUTHEAST":
                 return new CapiRegion("au", 2);

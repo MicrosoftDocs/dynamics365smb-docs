@@ -106,7 +106,7 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
 
     Universal Print renders content for print in XPS format. Some legacy in-market printers don't support XPS content rendering&mdashin many cases, only PDF format. Printing to these printers will fail unless Universal Print is set up to convert documents to the printer-supported format.
 
-    Learn more at [Document Conversion Overview](/universal-print/portal/document-conversion).
+    Learn more at [Document Conversion Overview](/universal-print/reference/portal/settings#2-document-conversion).
 
 Now, you're ready to add the printers to [!INCLUDE[prod_short](includes/prod_short.md)], set up default printers for reports, and print.  
 

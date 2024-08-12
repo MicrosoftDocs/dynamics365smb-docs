@@ -38,7 +38,7 @@ Business Central offers numerous AI-powered features. Some features, such as sal
 
 ## Is Copilot in Business Central available worldwide?
 
-Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Each Copilot capability defines its own list of supported regions and supported languages. Although most features might be available only in English at first, we aim to unlock more languages and regions over time. Learn more about which Copilot languages and regions that are available for business applications in [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
+Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Each Copilot capability defines its own list of supported regions and supported languages. Although most features might be available only in English at first, we aim to unlock more languages and regions over time. Learn more in [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external).
 
 ## Is Copilot aware of my environment customizations?
 
@@ -50,9 +50,9 @@ Copilot in Business Central relies on powerful AI foundation models that are cou
 
 ## Can I develop my own copilots for Business Central?
 
-You can extend and enhance Copilot in Business Central by using tools that are part of Business Central's standard development platform. Learn more about how to integrate AI in [Integrating AI using Developer Tools for Copilot](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page).
+You can extend and enhance Copilot in Business Central by using tools that are part of Business Central's standard development platform. Learn more in [Integrating AI using Developer Tools for Copilot](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page).
 
-You can also connect copilots by using Copilot Studio. In addition, you can implement your own standalone AI-powered apps and services that connect to Business Central. Learn more about how to develop or customize copilot experiences across the Microsoft Cloud in [Adopt, extend and build Copilot experiences across the Microsoft Cloud](/microsoft-cloud/dev/copilot/overview).
+You can also connect copilots by using Copilot Studio. In addition, you can implement your own standalone AI-powered apps and services that connect to Business Central. Learn more in [Adopt, extend and build Copilot experiences across the Microsoft Cloud](/microsoft-cloud/dev/copilot/overview).
 
 ## How do I stay up with the latest news about Copilot in Business Central?
 

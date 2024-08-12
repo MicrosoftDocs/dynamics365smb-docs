@@ -1,12 +1,12 @@
 ---
-title: Design Details - Flows for Production, Assembly, and Projects
+title: Design details - flows for production, assembly, and projects
 description: Learn about the flow between bins for picking components and putting away end items for assembly, production, or project orders.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 02/05/2024
+ms.date: 08/12/2024
 ms.custom: bap-template
 ---
 # Flows for production, assembly, and projects
@@ -50,8 +50,9 @@ Even if you don't have dedicated warehouse activities, you'll probably still wan
 ### Flows to and from production in a basic warehouse configuration  
 
 The inbound and outbound flows in a basic warehouse configuration involve the following settings on the **Location Card** page for the location:
-* For the inbound flow (put-away), select the *Inventory Put-away* in the **Prod. Output Whse. Handling** field.
-* For the outbound flow (pick), select the *Inventory Pick/Movement* in the **Prod. Consumption Whse. Handling** toggle.
+
+* For the inbound flow (put-away), in the **Prod. Output Whse. Handling** field, select **Inventory Put-away**.
+* For the outbound flow (pick) in the **Prod. Consumption Whse. Handling** field, select **Inventory Pick/Movement**.
 
 Use **Inventory Pick** documents to pick production components in the flow to production. To put away the products you produce, use **Inventory Put-away** documents.
 
@@ -66,7 +67,8 @@ For locations that use bins, inventory movement documents are especially useful 
 ### Flows to and from assembly in a basic warehouse configuration  
 
 The outbound flow in a basic warehouse configuration involve the following settings on the **Location Card** page for the location:
-* For the outbound flow (pick), select the *Inventory Movement* in the **Asm. Consumption Whse. Handling** toggle.
+
+* For the outbound flow (pick), in the **Asm. Consumption Whse. Handling** field, select **Inventory Movement**.
 
 Use **Inventory Movement** documents to pick assembly components in the flow to assembly. Post assembly output and consumption directly from an assembly order.
 
@@ -84,7 +86,8 @@ For locations that use bins:
 ### Flows for project management in a basic warehouse configuration
 
 The outbound flow in a basic warehouse configuration involve the following settings on the **Location Card** page for the location:
-* For the outbound flow (pick), select the *Inventory Pick* in the **Project Consumption Whse. Handling** toggle.
+
+* For the outbound flow (pick), in the **Project Consumption Whse. Handling** field, select **Inventory Pick**.
 
 Use **Inventory Pick** documents to pick project components in the flow to project management.
 
@@ -95,12 +98,13 @@ For a location that uses bins, the **To-Project Bin Code** field on the location
 ### Flows to and from production in advanced warehouse configurations
 
 The outbound flow in an advanced warehouse configuration involve the following settings on the **Location Card** page for the location:
-* For the outbound flow (pick), select the  *Warehouse Pick (optional)* or *Warehouse Pick (mandatory)* in the **Prod. Consumption Whse. Handling** toggle.
+
+* For the outbound flow (pick), in the **Prod. Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**.
 
 Use the **Warehouse Pick** documents and the **Pick Worksheet** page to pick components for production.
 
 > [!NOTE]
-> **Warehouse Put-away** document isn't supported for production output.
+> **Warehouse Put-away** documents aren't supported for production output.
 
 For locations that use bins:
 
@@ -111,7 +115,8 @@ For locations that use bins:
 ### Flows to and from assembly in advanced warehouse configurations
 
 The outbound flow in an advanced warehouse configuration involve the following settings on the **Location Card** page for the location:
-* For the outbound flow (pick), select the  *Warehouse Pick (optional)* or *Warehouse Pick (mandatory)* in the **Asm. Consumption Whse. Handling** toggle.
+
+* For the outbound flow (pick), in the **Asm. Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**. 
 
 Use **Warehouse Pick** documents and the **Pick Worksheet** page to pick components for assembly.
 
@@ -130,7 +135,8 @@ Assemble-to-stock is part of the internal warehouse flow, and assemble-to-order 
 ### Flows to project management in advanced warehouse configurations
 
 The outbound flow in an advanced warehouse configuration involve the following settings on the **Location Card** page for the location:
-* For the outbound flow (pick), select the  *Warehouse Pick (optional)* or *Warehouse Pick (mandatory)* in the **Project Consumption Whse. Handling** toggle.
+
+* For the outbound flow (pick), in the **Project Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**.
 
 Use **Warehouse Pick** documents and the **Pick Worksheet** page to pick components in the flow to project management.
 

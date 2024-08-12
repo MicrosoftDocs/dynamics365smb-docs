@@ -100,13 +100,13 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
     Any printer you want to use in [!INCLUDE[prod_short](includes/prod_short.md)] will need to be added to a *printer share* in Universal Print. Any user who needs access to the printer must be added as a member of the printer share. Learn more at [Share a Printer](/universal-print/portal/share-printers).
 
     > [!TIP]
-    > You can always add or remover users later. Learn more at [Printer Permissions](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+    > You can always add or remover users later. Learn more at [Configure user permssions for printer share](/universal-print/reference/portal/share-printers#configure-user-permissions-for-a-printer-share).
 
 6. Enable document conversion.
 
     Universal Print renders content for print in XPS format. Some legacy in-market printers don't support XPS content rendering&mdashin many cases, only PDF format. Printing to these printers will fail unless Universal Print is set up to convert documents to the printer-supported format.
 
-    Learn more at [Document Conversion Overview](/universal-print/portal/document-conversion).
+    Learn more at [Document Conversion Overview](/universal-print/reference/portal/settings#2-document-conversion).
 
 Now, you're ready to add the printers to [!INCLUDE[prod_short](includes/prod_short.md)], set up default printers for reports, and print.  
 

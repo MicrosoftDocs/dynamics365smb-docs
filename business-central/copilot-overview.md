@@ -22,7 +22,7 @@ Copilot is the AI-powered assistant that helps spark creativity, boost productiv
 
 ## Where can I find the list of Copilot features in Business Central?
 
-Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. [Learn more about Copilot and other AI features in Business Central](https://aka.ms/BCAI).
+Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Learn more about Copilot and other AI features in [Work smarter with Microsoft Copilot in Dynamics 365 Business Central](https://aka.ms/BCAI).
 
 ## Is Copilot free?
 
@@ -38,7 +38,7 @@ Business Central offers numerous AI-powered features. Some features, such as sal
 
 ## Is Copilot in Business Central available worldwide?
 
-Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Each Copilot capability defines its own list of supported regions and supported languages. Although most features might be available only in English at first, we aim to unlock more languages and regions over time. [Get an overview of the Copilot languages and regions that are available for business applications](https://aka.ms/bapcopilot-intl-report-external).
+Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Each Copilot capability defines its own list of supported regions and supported languages. Although most features might be available only in English at first, we aim to unlock more languages and regions over time. Get an overview of the Copilot languages and regions that are available for business applications](https://aka.ms/bapcopilot-intl-report-external).
 
 ## Is Copilot aware of my environment customizations?
 

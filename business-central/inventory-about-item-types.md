@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords:
 ms.search.form: 9297, 5845, 30, 
-ms.date: 05/24/2024
+ms.date: 08/12/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -46,8 +46,7 @@ Customer items that you service, such as a printer, are called service items. Se
 
 ## Resources
 
-The sales and purchase documents in addition to type *Item* also allow using *Resource*. Like items, resources support dimensions, price lists and units of measure. With introduction of types *Service* and *Non-Inventory* we do not have any intention to add any extra capabilities for type Resource in purchase and sales processes. We recommend using items of applicable type instead. Resources will continue get new functionality to track the time and effort that is involved with performing and providing services and will stay important part of project and service management. Since many partner solutions use resources, we do not plan to deprecate them in the sales or purchase documents.
-
+In addition to the item type *Item*, sales and purchase documents also allow you to use the item type *Resource*. Like items, resources support dimensions, price lists, and units of measure. <!--With introduction of types *Service* and *Non-Inventory* we do not have any intention to add any extra capabilities for type Resource in purchase and sales processes. We recommend using items of applicable type instead. Resources will continue get new functionality to track the time and effort that is involved with performing and providing services and will stay important part of project and service management. Because many partner solutions use resources, we do not plan to deprecate them in the sales or purchase documents.-->
 
 ## See also
 

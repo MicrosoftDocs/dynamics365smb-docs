@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 05/24/2024
+ms.date: 08/12/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -15,14 +15,13 @@ ms.custom: bap-template
 
 Items, among other products, are the basis of your business, the goods, or services that you trade in. Each item must be registered as an item card.
 
-### To create a new item card
+## To create a new item card
 
 The following video shows how to set up an item on the Item Card page. However, you can also set up new items by copying existing ones. To learn more, go to [Copy Existing Items to Create New Items](inventory-how-copy-items.md).  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
-
 
 ## Use item templates
 
@@ -38,9 +37,9 @@ To reuse settings for different types of items when you create new items, you ca
 
 The item template is added to the list of item templates, so that you can use it to create new item cards.
 
-
 ## Types of items
-In the Type field on the **Item Card** page, you can select what the item is used for in your business, which affects the degree to which you can manage the item in inventory.
+
+In the **Type** field on the **Item Card** page, you can select what the item is used for in your business, which affects the degree to which you can manage the item in inventory.
 
 * **Inventory** specifies that the item is a physical unit that you manage and track in inventory.
 * **Non-Inventory** are physical units that you don't manage or track in inventory.
@@ -51,7 +50,7 @@ To learn more about these types of items, go to [About Item Types](inventory-abo
 > [!TIP]
 > There are also catalog items, which are similar to non-inventory items in that they're items that you offer to customers but don't manage until you sell them. To learn more, go to [Work with Catalog Items](inventory-how-work-nonstock-items.md).  
 
-## Inventory Costing
+## Inventory costing
 
 In the **Costing Method** field, you set up how the item's unit cost is calculated by making assumptions about the flow of physical items through your company. Five costing methods are available, depending on the type of item. To learn more about costing, go to [Design Details: Costing Methods](design-details-costing-methods.md).
 
@@ -76,11 +75,10 @@ You can set up items to have replacements, such as other items that can be used 
 4. Choose the **Substitute No.** field, and then select the replacement item from the list.
 5. Fill in or change other fields on the page as necessary.
 
-When the requested quantity exceeds the quantity that is available in inventory, then a message appears to inform you that substitute items exist.
+When the requested quantity exceeds the quantity that is available in inventory, a message appears to inform you that substitute items exist.
 
 > [!NOTE]  
 > Be aware that item substitutions will not automatically cause an item to be replaced by another item, for example when creating a sales order or in a BOM. Instead, you will be alerted to the fact that a substitution is available to you.
-
 
 ## Prices and discounts
 
@@ -88,11 +86,12 @@ You can use special prices or discounts that you grant for the item based on cer
 
 ## Replenishment
 
-You can specifies how these items are supplied:
-* **Purch. Order** if you want to buy
-* **Assembly order** or **Production order** if this item will be produced in-house.
+You can specify how items are supplied:
 
-There are number of extra setting that compliment these selections.
+* **Purchase Order** if you want to buy items.
+* **Assembly order** or **Production order** if you produce the items in-house.
+
+There are other settings that compliment these selections.
 
 ### Include items in bills of materials
 
@@ -100,7 +99,7 @@ You can structure hierarchies that have a main item with underlying component it
 
 ### Items used in production orders
 
-If you want to register items that are used in production orders, you specify the replenishment system as *Prod. order* on the **Replenishment** FastTab. For more information, see [About Production Orders](production-about-production-orders.md).  
+To register items that you use in production orders, specify the replenishment system as **Prod. order** on the **Replenishment** FastTab. For more information, see [About Production Orders](production-about-production-orders.md).  
 
 ### Primary and alternate vendors
 

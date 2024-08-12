@@ -95,4 +95,4 @@ In the following, you find a list of requirements that you must meet before subm
 [What is Local Functionality in Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]?](about-localization.md)  
 [International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Compliance overview](compliance/compliance-overview.md)  
-[Geographical availability for Dynamics 365](https://dynamics.microsoft.com/en-us/availability-reports/georeport/)  
+[Geographical availability for Dynamics 365](https://releaseplans.microsoft.com/availability-reports/?report=productgeoreport/)  

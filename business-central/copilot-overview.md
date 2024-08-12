@@ -22,7 +22,7 @@ Copilot is the AI-powered assistant that helps spark creativity, boost productiv
 
 ## Where can I find the list of Copilot features in Business Central?
 
-Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Learn more about Copilot and other AI features in [Work smarter with Microsoft Copilot in Dynamics 365 Business Central](https://aka.ms/BCAI).
+Copilot includes a constantly expanding set of capabilities that help users in different roles and tasks. Learn more in [Work smarter with Microsoft Copilot in Dynamics 365 Business Central](https://aka.ms/BCAI).
 
 ## Is Copilot free?
 

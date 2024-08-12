@@ -9,8 +9,8 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
-
 ---
+
 # Set up prepayments
 
 You use prepayments when:
@@ -68,14 +68,14 @@ If you don't already have general ledger accounts for prepayments, you can open 
 For an item, you can set up a default prepayment percentage for all customers, a specific customer, or a customer price group. If you don't want to apply the same prepayment percentage to all customers, you must specify which customers or which customer price groups the prepayment percentage applies to.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.
-2. Select an item, and then choose the **Prepayment Percentages** action.  
+2. Select an item, and then choose the **Sales Prepayment Percentages** action.  
 3. On the **Sales Prepayment Percentages** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 For a customer or vendor, you can set up one default prepayment percentage for all items and all types of sales lines. You enter the percentage on the customer or vendor card. The following procedure shows how to specify a prepayment percentage for a customer, but similar steps apply to vendors.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the card for a customer.
-3. Fill in the **Prepayment %** field.
+3. On the **Payments** FastTab, fill in the **Prepayment %** field.
 4. Repeat the steps for other customers or for vendors.  
 
 > [!TIP]

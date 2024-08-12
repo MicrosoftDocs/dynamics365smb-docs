@@ -8,10 +8,10 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 161, 254, 256, 347, 574, 599, 9002
-ms.date: 06/06/2024
+ms.date: 07/12/2024
 ms.service: dynamics-365-business-central
-
 ---
+
 # Managing payables
 
 A large part of managing accounts payable is paying your vendors, or reimbursing your employees for expenses. You can use functions to add payments lines for purchase invoices that are due on the **Payment Journal** page. To send transactions to your bank, you can export multiple payment journal lines to a file, and then upload the file to your bank. You can also make payments by check, including transmitting checks as electronic payments.
@@ -30,12 +30,12 @@ The following table describes a sequence of tasks within accounts payable, with 
 |Ensure correct inventory valuation by assigning added item costs, such as freight, physical handling, insurance, and transportation that you incur when purchasing.|[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)|
 |Reimburse employees for personal expenses during business activities by making payment to their bank account.|[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)|
 
-## See Also
-[Purchasing](purchasing-manage-purchasing.md)  
-[Managing Receivables](receivables-manage-receivables.md)  
-[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)  
-[General Business Functionality](ui-across-business-areas.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## See also
+[Purchasing](purchasing-manage-purchasing.md)    
+[Managing Receivables](receivables-manage-receivables.md)    
+[Use Item Charges to Account for Additional Trade Costs](payables-how-assign-item-charges.md)    
+[General Business Functionality](ui-across-business-areas.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

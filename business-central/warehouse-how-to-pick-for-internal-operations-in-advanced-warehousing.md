@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 04/23/2024
+ms.date: 08/12/2024
 ms.custom: bap-template    
 ms.service: dynamics-365-business-central
 ---
@@ -15,11 +15,11 @@ ms.service: dynamics-365-business-central
 
 How you pick components for production, projects, or assembly orders depend on how your warehouse is set up as a location. Learn more at [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
-In an advanced warehouse configuration for the outbound flow (pick), on the **Location Card** page for the location, activate following settings:
+In an advanced warehouse configuration for the outbound flow (pick), on the **Location Card** page for the location, use the following settings:
 
-* Production, select the *Warehouse Pick (optional)* or *Warehouse Pick (mandatory)* in the **Prod. Consumption Whse. Handling** field.
-* Assembly, select the *Warehouse Pick (optional)* or *Warehouse Pick (mandatory)* in the **Asm. Consumption Whse. Handling** toggle.
-* Project management, select the *Warehouse Pick (optional)* or *Warehouse Pick (mandatory)* in the **Project Consumption Whse. Handling** toggle.
+* Production, in the **Prod. Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**.
+* Assembly, in the **Asm. Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**.
+* Project management, in the **Project Consumption Whse. Handling** field, select **Warehouse Pick (optional)** or **Warehouse Pick (mandatory)**.
 
 When the location is set up to require warehouse pick processing, use warehouse pick documents to create and process pick information before you post the usage or consumption of components.  
 
@@ -65,10 +65,9 @@ Use **Warehouse Pick** documents to pick project components in the flow to proje
 ## To create pick documents in bulk with the pick worksheet
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Pick Worksheet**, and then choose the related link.  
-
 2. Choose the **Get Warehouse Documents** action.  
 
-    The list shows the released production, projects, assembly orders that have been forwarded to the pick function. The orders include those for which pick instructions have already been created. Documents with pick lines that have been picked and registered aren't shown on this list.  
+    The list shows the released production, projects, and assembly orders that have been forwarded to the pick function. The orders include those for which pick instructions are already created. Documents with pick lines that have been picked and registered aren't shown on this list.  
 3. Select the orders for which you want to prepare a pick.
 
     > [!NOTE]  
@@ -101,7 +100,7 @@ Use **Warehouse Pick** documents to pick project components in the flow to proje
     |Per Bin|Creates separate pick documents for each bin that you take the items from.|
     |Per Due Date|Creates separate pick documents for source documents that have the same due date.|
 
-    Specify how to create the pick documents by selecting from the following options.  
+    Use the following options to specify how to create the pick documents.  
 
     |Option|Description|
     |-|-|
@@ -115,7 +114,7 @@ Use **Warehouse Pick** documents to pick project components in the flow to proje
 
 8. Choose the **OK** button.  
 
-## To pick items for a productions order, assembly order, project
+## To pick items for a production order, assembly order, or project
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Picks**, and then choose the related link.  
 

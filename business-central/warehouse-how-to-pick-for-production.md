@@ -1,33 +1,34 @@
 ---
-title: Pick or Move Items for Production, Assembly, or Jobs in Basic Warehouse Configurations
+title: Pick or move items for production,aAssembly, or projects in basic warehouse configurations
 description: When your warehouse location requires that you process picks but not shipments, use the Inventory Pick page to record that components were picked.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 12/16/2022
+ms.date: 08/12/2024
 ms.custom: bap-template
 ms.search.forms: 9330, 931, 990008, 89, 900, 902
 ---
-# Pick for Production, Assembly, or Projects in Basic Warehouse Configurations
+# Pick for production, assembly, or projects in basic warehouse configurations
 
-How you pick components for production, project, or assembly orders depends on how your warehouse is set up as a location. Learn more at [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
+How you pick components for production, projects, or assembly orders depends on how your warehouse is set up as a location. Learn more at [Setting Up Warehouse Management](warehouse-setup-warehouse.md).
 
 In a basic warehouse configuration for the outbound flow (pick), on the **Location Card** page for the location, activate following settings:
 
-* Production, select the *Inventory Pick/Movement* in the **Prod. Consumption Whse. Handling** field.
-* Assembly, select the *Inventory Movement* in the **Asm. Consumption Whse. Handling** toggle.
-* Project management, select the *Inventory Pick* in the **Project Consumption Whse. Handling** toggle.
+* Production, select **Inventory Pick/Movement** in the **Prod. Consumption Whse. Handling** field.
+* Assembly, select **Inventory Movement** in the **Asm. Consumption Whse. Handling** field.
+* Project management, select **Inventory Pick** in the **Project Consumption Whse. Handling** field.
 
 Use the following documents for internal operations:
 
-* Inventory Pick
-* Inventory Movement
+* Inventory pick
+* Inventory movement
 
 ## Inventory picks
 
 * When you register an inventory pick for an internal operation, such as production or a project, the consumption of the picked components is posted at the same time.
+
 * The **Bin Mandatory** toggle on the **Location Card** page is optional.
 * When you use inventory picks, the **Bin Code** field on a production order component line or project planning lines defines the *take* bin. Components are decreased in the take bin when you post consumption.
 

@@ -100,7 +100,7 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
     Any printer you want to use in [!INCLUDE[prod_short](includes/prod_short.md)] will need to be added to a *printer share* in Universal Print. Any user who needs access to the printer must be added as a member of the printer share. Learn more at [Share a Printer](/universal-print/reference/portal/share-printers).
 
     > [!TIP]
-    > You can always add or remover users later. Learn more at [Printer Permissions](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+    > You can always add or remover users later. Learn more at [Configure user permssions for printer share](/universal-print/reference/portal/share-printers#configure-user-permissions-for-a-printer-share).
 
 6. Enable document conversion.
 

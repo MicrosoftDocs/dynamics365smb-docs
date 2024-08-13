@@ -6,10 +6,9 @@ ms.topic: get-started
 ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
-ms.search.form: 9204,
+ms.search.form: 9204,9200
 ms.date: 04/01/2021
 ms.author: soalex
-
 ms.service: dynamics-365-business-central
 ---
 # Manage user settings and preferences

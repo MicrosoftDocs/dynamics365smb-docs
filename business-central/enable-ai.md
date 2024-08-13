@@ -10,6 +10,7 @@ ms.custom: bap-template
 ms.search.form: 7775
 ms.collection:
   - bap-ai-copilot
+ms.search.form: 7771,7772,7775
 ---
 
 # Configure Copilot and AI capabilities

@@ -12,13 +12,9 @@ ms.date: 06/13/2024
 ms.custom: bap-template 
 ---
 
-# Reconcile bank accounts with Copilot (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+# Reconcile bank accounts with Copilot
 
 This article explains how bank account reconciliation assist can help you reconcile bank transactions with ledger entries in Microsoft Dynamics 365 Business Central.
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## About bank account reconciliation assist
 

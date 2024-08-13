@@ -1,16 +1,14 @@
 ---
-    title: Scenario 1 Domestic payments (LCY to LCY) [NL]
-    description: This article describes a scenario 1 where you can use telebanking for trade with domestic and foreign customers and vendors.
-    documentationcenter: ''
-    author: brentholtorf
-    services: project-madeira
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 11/29/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: Scenario 1 Domestic payments (LCY to LCY) [NL]
+description: This article describes a scenario 1 where you can use telebanking for trade with domestic and foreign customers and vendors.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/29/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Payment Scenario 1 - Domestic payments (LCY to LCY) in the Dutch version
 You can use telebanking for trade with domestic and foreign customers and vendors. This article describes a scenario where the trade is with domestic customers and vendors.  

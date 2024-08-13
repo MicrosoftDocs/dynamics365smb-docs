@@ -460,6 +460,11 @@ ms.service: dynamics-365-business-central
 #### [Sustainability setup](finance-sustainability-setup.md)
 #### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
 #### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
+#### Sustainability analytics
+##### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
+##### [Built-in sustainability reports](sustainability-reports.md)
+#### Sustainability APIs
+##### [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
 #### Consolidate financial data from multiple companies
@@ -925,6 +930,7 @@ ms.service: dynamics-365-business-central
 ##### [VAT Control Report](LocalFunctionality/Czech/vat-control-report.md)
 ##### [VAT Reports](LocalFunctionality/Czech/vat-reports-cz.md)
 ##### [VAT Correction in Local Currency](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [Non-Deductible VAT](LocalFunctionality/Czech/non-deductible-VAT.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
 ##### [Intrastat for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Fixed Assets
@@ -1582,7 +1588,7 @@ ms.service: dynamics-365-business-central
 #### [Local functionality in the US version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Tax
 ##### [Basic tax setup](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Reporting sales Tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Sales tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Introduction to the IRS 1099 forms and its functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
 ##### [Set up and use the IRS 1099 form for version 24 (2024 release wave 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 #### [Use the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-use.md)
@@ -1858,6 +1864,7 @@ ms.service: dynamics-365-business-central
 #### [Key financial reports](finance-reports.md)
 #### [Accounts receivable reports](receivables-reports.md)
 #### [Accounts payable reports](payables-reports.md)
+#### [Sustainability reports](sustainability-reports.md)
 
 ### [Sales reports](sales-reports.md)
 ### [Purchase reports](purchase-reports.md)
@@ -2121,6 +2128,7 @@ ms.service: dynamics-365-business-central
 ### [FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
+## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
 ## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)

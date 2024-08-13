@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: OneDrive, share, browser
-ms.date: 02/28/2022
+ms.date: 06/13/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -52,7 +52,7 @@ OneDrive integration is configured per environment, that is, your settings will 
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **OneDrive Setup**, and then choose the related link. 
 2. The first time you run the assisted setup, you'll see the **Your privacy**. Read the information on the page, and if you agree to the terms choose **Agree** to continue.
-3. On the **Configure file handling** page, you have the following options to choose from:
+3. On the **Configure OneDrive file handling** page, you have the following options to choose from:
 
    [!INCLUDE[onedrive-feature-options](includes/onedrive-feature-options.md)]
 4. Choose **Next**>**Done**.
@@ -72,7 +72,7 @@ As part of a disaster recovery exercise, administrators might need to restore a 
 
 ## Governance
 
-The SharePoint admin center provides extensive control over policies that govern the use of OneDrive throughout the organization. Global Admins, or users who have the SharePoint Admin role, can set up policies that determine who can access OneDrive, where data resides, the content lifecycle, and much more. The following links provide information about often-used features and settings that may enhance your integration with [!INCLUDE[prod_short](includes/prod_short.md)]. 
+The SharePoint admin center provides extensive control over policies that govern the use of OneDrive throughout the organization. Users who have at least the [SharePoint administrator](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) role can set up policies that determine who can access OneDrive, where data resides, the content lifecycle, and much more. The following links provide information about often-used features and settings that may enhance your integration with [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 * [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off)
 * [Use information barriers with SharePoint](/sharepoint/information-barriers)

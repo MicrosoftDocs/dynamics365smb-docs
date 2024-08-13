@@ -2,18 +2,16 @@
 title: Getting the Business Central Add-in for Excel
 description: Learn about how to get users the Business Central add-in for Excel. 
 author: jswymer
-
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 1480
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 10/07/2021
+ms.date: 06/13/2024
 ms.author: jswymer
-
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Get the Business Central Add-in for Excel
+# Get the Business Central add-in for Excel
 
 [!INCLUDE[prod_short](includes/prod_short.md)] includes an add-in for Excel that lets users select a **Edit in Excel** action on certain pages to open the data in an Excel worksheet. This action is different than the **Open in Excel** action because it lets users make changes in Excel, then publish the changes back to [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -36,7 +34,7 @@ For the end-user, the installation experience is different for the two deploymen
 
 - With Centralized Deployment, the first time users choose the **Edit in Excel** action, the add-in is automatically installed in Excel from Centralized Deployment; not the Office Store. The only thing users have to do is sign in to [!INCLUDE[prod_short](includes/prod_short.md)]
 
-With both these deployment options, the add-in is automatically configured to connect to [!INCLUDE[prod_short](includes/prod_short.md)].A third deployment option is a manual installation of the add-in directly from Excel. With this option, users will need to configure the add-in to connect to [!INCLUDE[prod_short](includes/prod_short.md)]
+With both these deployment options, the add-in is automatically configured to connect to [!INCLUDE[prod_short](includes/prod_short.md)]. A third deployment option is a manual installation of the add-in directly from Excel. With this option, users will need to configure the add-in to connect to [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### <a name="switch"></a>Switching from individual acquisition to Centralized Deployment or the other way around
 
@@ -95,8 +93,8 @@ When finished, you can always change the deployment in Microsoft 365 admin cente
 In most cases, when you open Excel from Business Central, the add-in will either be installed automatically for you or you'll be prompted to install it. There might be cases, however, where you have to manually install the add-in.
 
 1. Open Excel, then open any Excel workbook.
-2. On the **Insert** menu, choose **Add-ins** > **Get add-ins**
-3. Go to **Admin managed** and look for **Microsoft Dynamics Office Add-In**. If you see there, select it, then choose **Add**. If you don't see it, go to **Store**, then search for *Microsoft Dynamics Office Add-In* and follow the instruction on screen to add it.
+1. On the **Home** tab, select **Add-ins** > **More Add-ins**.
+1. Go to **Admin managed** and look for **Microsoft Dynamics Office Add-In**. If you see there, select it, then choose **Add**. If you don't see it, go to **Store**, then search for *Microsoft Dynamics Office Add-In* and follow the instruction on screen to add it.
 
 When the add-in is installed, it shows up as a panel in Excel. Next, configure the connection.
 
@@ -105,7 +103,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, configure t
 If a user can't connect automatically, you can unblock them by asking them to follow these steps:
 
 1. In the **Microsoft Dynamics** add-in pane in Excel, choose **Add server information**. If you don't see it, choose the ![More option button in Excel.](media/cogwheel.png) icon at the top to open the options dialog. 
-2. For [!INCLUDE[prod_short](includes/prod_short.md)] online, set **Server URL** to `https://exceladdinprovider.smb.dynamics.com`. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, set it the URL of the web client, like `https://myBCserver/190`.
+2. For [!INCLUDE[prod_short](includes/prod_short.md)] online, set **Server URL** to `https://exceladdinprovider.smb.dynamics.com`. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, set it the URL of the web client, like `https://myBCserver/240`.
 3. Choose **OK**, and then confirm that the app reloads.
 4. When prompted, sign in with your Business Central user name and password.
 5. Optionally, choose the environment and company that you want to connect to.
@@ -129,6 +127,15 @@ Sometimes, users run into problems with the Excel add-in. This section gives som
 |For some list pages, editing multiple lines in Excel consistently causes errors. This condition can occur if OData calls include FlowFields and fields outside of the repeater control.|On the **Web Services** page, select the **Exclude Non-Editable FlowFields** and **Exclude Fields Outside of the Repeater** check boxes for the published page. Selecting these check boxes excludes non-editable FlowFields and field from the eTag calculation. |These check boxes are hidden by default. To show them on the **Web Services** page, use [personalization](/dynamics365/business-central/ui-personalization-user). |
 |Users can no longer sign in to the add-in. When they try to sign in, the process stops without completing.| This problem might be caused by an update that we made to the add-in, sometime in July 2022. For more information and a fix, see [Modify the Excel Add-in Configuration to Support July 2022 Update](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Applies to [!INCLUDE [prod_short](includes/prod_short.md)] on-premises only|
 | The add-in communicates using the API v2.0 for Dynamics 365 Business Central, and any limitations of this API are automatically inherited. An example limitation is if you try to edit a list and the underlying card uses a confirmation dialog in its AL logic, for example, as its validation logic. | Sometimes there's nothing to do because it's a design choice that the user must explicitly confirm the change. If the confirmation is negligible when using **Edit in Excel**, then you can wrap the confirmation dialog call in an if-conditional statement that checks whether the client type is different from ODataV4, for example, `if SESSION.CurrentClientType() <> ClientType::ODataV4 then`. | There might be other clients that you want to remove the confirmation dialog from, such as OData and SOAP. |
+
+## Known limitations in business logic
+
+|Page  |Limitation| Comments  |
+|-------|---------|---------|
+|Sales Orders|Error message: 'Microsoft Dynamics 365 Business Central Data Services attempted to issue a client callback to run page 301 Ship-to Address List as modal'. Client callbacks aren't supported on Microsoft Dynamics 365 Business Central Data Services. | The **Ship-to Code** on the **Sales Order** page is editable only with specific Ship-to options. Setting **Alternate Shipping Address** to **Ship-to** opens the **Ship-to Address List** modal dialog, which isn't compatible with Edit in Excel.|  
+|Project Journal|Update of the **Unit Price** field doesn't trigger an update of the **Line Amount**. Instead, it updates **Line Discount**.| Using the web client, you can update fields in any order&;price, amount, line discount. Other fields are updated automatically. To avoid cascade updates, the fields have some advanced logic that relies on xRec, which behaves differently when called via APIs.|
+
+
 
 <!--
 ## Deploy the Excel add-in for Business Central online

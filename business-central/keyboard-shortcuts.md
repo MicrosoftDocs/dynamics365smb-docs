@@ -4,7 +4,7 @@ description: The complete list of keyboard shortcut combinations to work efficie
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/19/2024
+ms.date: 08/13/2024
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
@@ -44,7 +44,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 
 |Select these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
-|<kbd>Alt</kbd>|Show access keys for selecting actions in the action bar and navigation menu on the page. For more information, go to [Access keys](#access-keys-for-action-bar-and-navigation-menu).|
+|<kbd>Alt</kbd>|Show access keys for selecting actions in the action bar and navigation menu on the page. Learn more in [Access keys](#access-keys-for-action-bar-and-navigation-menu).|
 |<kbd>Alt</kbd>+<kbd>Down Arrow</kbd>|Open a drop-down list or look up a value for a field.|
 |<kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>Down Arrow</kbd>|Open a related record's card or list page filtered to the value in the lookup or assist edit field.|
 |<kbd>Alt</kbd>+<kbd>Up Arrow</kbd>|Show tooltip for a field or a column header of a table. If the field has validation errors, select <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> to show the validation error. Select <kbd>Esc</kbd> or <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> to close the tooltip.|
@@ -52,21 +52,21 @@ The following table describes keyboard shortcuts for navigating and accessing di
 |<kbd>Alt</kbd>+<kbd>F2</kbd>|Show and hide the FactBox pane.|
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F2</kbd>|<kbd>Shift</kbd> between **Details** and **Attachments** in the FactBox pane.|
 |<kbd>Alt</kbd>+<kbd>O</kbd>|Add a new note for the selected record, even if the FactBox pane isn't open.|
-|<kbd>Alt</kbd>+<kbd>Q</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>Q</kbd>)|Open the **Tell Me** window. For more information, see [Finding pages and information with Tell Me](ui-search.md).|
-|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>Cmd</kbd>+<kbd>Q</kbd>)|Open the **Find Entries** page to find documents and entries related to each other based on common information, like document number or posting date. For more information, see [Finding related entires for posted documents](ui-find-entries.md)|
+|<kbd>Alt</kbd>+<kbd>Q</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>Q</kbd>)|Open the **Tell Me** window. Learn more in [Finding pages and information with Tell Me](ui-search.md).|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>Cmd</kbd>+<kbd>Q</kbd>)|Open the **Find Entries** page to find documents and entries related to each other based on common information, like document number or posting date. Learn more in [Finding related entires for posted documents](ui-find-entries.md)|
 |<kbd>Alt</kbd>+<kbd>N</kbd> |Open a page to create a new record. (Similar to choosing the **New** and **+** actions.)|
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> |Close a newly created page and open a new one to create a new record. Similarly, <kbd>Alt</kbd>+<kbd>F9</kbd> posts a document and creates a new one.|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|Open the **My Settings** page.|
 |<kbd>Alt</kbd>+<kbd>Right Arrow</kbd>|Look up additional information or underlying values for a field that contains the ![AssistEdit.](media/assist-edit-icon.png "AssistEdit button") button. Used when the usual drop-down button (<kbd>Alt</kbd>+<kbd>Down Arrow</kbd>) in the same field is used for another purpose.|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>|Display information in the company badge. As of the Business Central 2022 release wave 2 (version 21), this shortcut is no longer supported and replaced by <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
-|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />For more information, see [Inspecting pages](across-inspect-page.md).|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>|Open and close the page inspection pane. The page inspection pane shows information about the page, like its source table, fields, filters, extensions, and more.<br /><br />Learn more in [Inspecting pages](across-inspect-page.md).|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd> |Copy the value of field. If the field is in focus, and the text isn't selected in the field, then the entire value is copied. If you select any text in the field, then the selected text is copied.|
 |<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Open the [help pane](product-help-and-support.md#help-pane) or a Business Central help article on [Microsoft Learn](/dynamics365/business-central/), depending on your Business Central version.|
 |<kbd>Ctrl</kbd>+<kbd>F12</kbd>|Switch between wide and narrow layout view.|
-|<kbd>Ctrl</kbd>+select|Navigate during personalizing or customizing when the action is highlighted with an arrowhead. For more information, see [Personalize your workspace](ui-personalization-user.md).|  
+|<kbd>Ctrl</kbd>+select|Navigate during personalizing or customizing when the action is highlighted with an arrowhead. Learn more in [Personalize your workspace](ui-personalization-user.md).|  
 |<kbd>Ctrl</kbd>+<kbd>F5</kbd>|Reload the [!INCLUDE[prod_short](includes/prod_short.md)] application. (Similar to selecting refresh/reload in the browser.)|
 |<kbd>F5</kbd>|Refresh the data on the current page.<br /><br />Use this key to ensure that the data on the page is updated with any changes made by others while you're working.|
-|<kbd>Ctrl</kbd>+<kbd>O</kbd>|Open the **Available Companies** pane for switching to another company or environment. For more information, see [Switching to another company or environment](ui-organization-switch.md).|
+|<kbd>Ctrl</kbd>+<kbd>O</kbd>|Open the **Available Companies** pane for switching to another company or environment. Learn more in [Switching to another company or environment](ui-organization-switch.md).|
 |<kbd>Enter</kbd>|Enable or access the element or control that is in focus.|
 |<kbd>Esc</kbd>|Close the current page or drop-down list.|
 |<kbd>Tab</kbd>|Move focus to the next control or element on a page, such as actions, buttons, fields, or list headings.|
@@ -76,10 +76,7 @@ The following table describes keyboard shortcuts for navigating and accessing di
 ## Keyboard shortcuts in lists
 
 The following table describes the keyboard shortcuts that you can use on a list page. The shortcut action is slightly different depending on whether the page is shown in the list view or tile view.
-<!--
-> [!Note]
-> In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
--->
+
 ### General
 
 |Select these keys<br />(in macOS)|To do this in a list view|To do this in a tile view |
@@ -159,7 +156,7 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 |<kbd>Alt</kbd>+<kbd>G</kbd>|Open the **Find Entries** page for finding entries related to the posted document. Works on lists also.|
 |<kbd>Alt</kbd>+<kbd>N</kbd> |Open a page to create a new record; the same way as choosing the **New** action. |
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> |Close a page and open a new one to create a new record; the same way as selecting the **OK & New** action. |
-|<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>W</kbd> |Open the current card or document in a new window. For more information, see [Multitasking across multiple pages](ui-enter-data.md#multitasking-across-multiple-pages).|
+|<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>W</kbd> |Open the current card or document in a new window. Learn more in [Multitasking across multiple pages](ui-enter-data.md#multitasking-across-multiple-pages).|
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Save and close the page.|
 |<kbd>Ctrl</kbd>+<kbd>Down Arrow</kbd>|Open the next record for an entity.|
 |<kbd>Ctrl</kbd>+<kbd>Up Arrow</kbd> |Open the previous record for an entity.|
@@ -167,7 +164,7 @@ The following shortcuts are available on card pages, such as **Customer Card**, 
 |<kbd>Ctrl</kbd>+<kbd>Delete</kbd> |Delete the line, in documents, journals, and worksheets.|
 |<kbd>Ctrl</kbd>+<kbd>F7</kbd>|Open ledger entries, logs entries, cost entries, and so on.|
 |<kbd>Ctrl</kbd>+<kbd>F9</kbd>|Release document.|
-|<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd> |Maximize the line items part on a document page. Select the keys again to return to the normal display. For more information, see [Focusing on Line Items](ui-enter-data.md#Focus).|
+|<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd> |Maximize the line items part on a document page. Select the keys again to return to the normal display. Learn more in [Focusing on Line Items](ui-enter-data.md#Focus).|
 |<kbd>F6</kbd>|Move to the next FastTab or part (subpage).|
 |<kbd>F7</kbd>|Open statistics.|
 |<kbd>F9</kbd>|Post, issue, register, or reverse document.|
@@ -209,7 +206,7 @@ When setting a date field, you can either enter the date manually or open a cale
 |Select these keys<br />(in macOS)|To do this|
 |--------------------------------|----------|
 |<kbd>t</kbd>|Enter the current date. "T" stands for "today".|
-|<kbd>w</kbd>|Enter the work date. For more information, see [Work Date](ui-change-basic-settings.md#work-date)|
+|<kbd>w</kbd>|Enter the work date. Learn more in [Work Date](ui-change-basic-settings.md#work-date)|
 
 ## <a name="reportpreviewshortcuts"></a>Keyboard shortcuts in the report preview
 
@@ -235,7 +232,7 @@ When setting a date field, you can either enter the date manually or open a cale
 
 ## <a name="roleexplorer"></a>Keyboard shortcuts for role explorer
 
-Role explorer gives you an overview and quick access to all the business features that are available for your role. For more information, see [Finding pages with the Role Explorer](ui-role-explorer.md).
+Role explorer gives you an overview and quick access to all the business features that are available for your role. Learn more in [Finding pages with the Role Explorer](ui-role-explorer.md).
 
 |Select these keys<br/>(in macOS)|To do this|
 |--------------------------------|----------|
@@ -255,7 +252,7 @@ The following table describes the shortcuts on a numeric keypad.
 
 ## Access keys for action bar and navigation menu
 
-Access keys are keyboard shortcuts that allow you to select specific actions on the action bar and menu for easier navigation, similar to access keys in Excel and Word. However, they're only available in the Business Central web client when the display language is set to English.
+Access keys are keyboard shortcuts that allow you to select specific actions on the action bar and menu for easier navigation, similar to access keys in Excel and Word. Access keys are only available in the Business Central web client when the display language is set to one of the [supported languages](#supported-languages).
 
 To use access keys on a page, first select the <kbd>Alt</kbd> key to display *key tips*, which are letters in small boxes next to the actions in the action bar and navigation menu. 
 
@@ -265,6 +262,27 @@ To select an action, select the key combination displayed in the key tip, for ex
 
 - If the action opens to a submenu of other actions, the keys tips for the submenu are shown, allowing you to continue using access keys if you like.
 - If the action opens a different page, then key tips are turned off. To show them again, select <kbd>Alt</kbd> key.
+
+### Supported languages
+
+Access keys are only available when the **Language** option in the **My Settings** page is set to one of the following languages:
+
+- English
+- Danish
+- Dutch
+- Italian
+- French
+- German
+- Spanish
+- Portuguese
+- Swedish
+- Finnish
+- Norwegian
+- Polish
+- Czech
+- Icelandic
+
+Learn more about changing the display language in [Change basic settings](ui-change-basic-settings.md#language).
 
 ## See also
 

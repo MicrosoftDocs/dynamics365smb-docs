@@ -16,7 +16,7 @@ ms.service: dynamics-365-business-central
 
 Budgets play an important role in business intelligence. Examples include a financial statement based on financial reports that include budget entries or when analyzing budgeted versus actual amounts in the chart of accounts. Learn more at [Financial Reporting](bi.md).
  
-You can create budgets for any given time period but most often businesses set up budgets covering their fiscal year. You can create multiple budgets for the same period so you can work with multiple budget versions or revisions if needed. Budgets can be created for dimensions too, so you can analyses budget variances per dimension. You can work with up to 4 dimensions in a budget. Learn more at [Work with Dimensions](finance-dimensions.md).
+You can create budgets for any given time period but most often businesses set up budgets covering their fiscal year. You can create multiple budgets for the same period so you can work with multiple budget versions or revisions if needed. Budgets can be created for dimensions too, so you can analyses budget variances per dimension. You can work with up to 4 dimensions in a budget. Learn more in [Work with Dimensions](finance-dimensions.md).
 
 In cost accounting, you work with cost budgets in a similar way. Learn more at [Creating Cost Budgets](finance-create-cost-budgets.md).  
 

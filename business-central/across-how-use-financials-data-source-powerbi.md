@@ -157,14 +157,12 @@ To set up a query to load data for multiple companies, follow these steps:
 
 ## Advanced Power BI connector properties
 
-Starting in August 2024, the [!INCLUDE [prod_short](includes/prod_short.md)] Power BI connector supports a number of advanced properties that you can set in your Power Query queries. 
+Starting in August 2024, the Power BI connector for [!INCLUDE [prod_short](includes/prod_short.md)] supports several advanced properties that you can set in your Power Query queries:
 
-The following parameters are supported:
-
-- AcceptLanguage
-- ODataMaxPageSize (note that you cannot exceed the MaxPageSize defined on the service)
-- Timeout (note that you cannot exceed the timeout defined on the service)
-- UseReadOnlyReplica 
+- **AcceptLanguage**: This parameter allows you to specify preferred languages for responses, ensuring users receive messages and translatable strings in their desired language. This improves user satisfaction and makes the data more accessible and relevant.
+- **ODataMaxPageSize**: By limiting the number of entities per results page, this parameter allows for more flexibility when connecting to large datasets or using complex queries. It ensures efficient and responsive data retrieval, leading to faster insights and decision-making. You can't exceed the maximum page size defined on the service.
+- **Timeout**: This parameter defines the maximum duration for a request before cancellation. It helps manage system resources effectively and prevents long-running queries from impacting overall system performance. Users experience minimal delays and interruptions, ensuring a smoother workflow. You can't exceed the timeout defined on the service.
+- **UseReadOnlyReplica**: This parameter determines whether requests target the primary database or a read-only replica. Offloading read operations from the primary database can significantly boost performance. This leads to faster data retrieval and improved system stability, especially during peak usage times.
 
 To set the properties, do as follows:
 

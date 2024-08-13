@@ -37,7 +37,7 @@ This task applies only if the **Allow data movement** option appears near the to
 
 ![Screenshot that shows the Allow data movement option on the Copilot & AI capabilities page.](media/allow-data-movement-v2.png)
 
-The presence of the **Allow data movement** option indicates that the location of your Business Central environment (that is, the geography where data is processed and stored) differs from the Azure OpenAI Service geography that Copilot uses. To enable Copilot, you must allow data movement between geographies. [Learn more about data movement](ai-copilot-data-movement.md).
+The presence of the **Allow data movement** option indicates that the location of your Business Central environment (that is, the geography where data is processed and stored) differs from the Azure OpenAI Service geography that Copilot uses. To enable Copilot, you must allow data movement between geographies. Learn more in [Copilot data movement across geographies](ai-copilot-data-movement.md).
 
 To allow data movement outside your geographical region, follow these steps:
 
@@ -45,7 +45,7 @@ To allow data movement outside your geographical region, follow these steps:
 1. Turn on the **Allow data movement** option.
 
     > [!NOTE]
-    > For environments in the West Europe and North Europe Azure regions, the **Allow data movement** option is turned on by default.
+    > The **Allow data movement** option is turned on by default.
 
 To opt out of data movement, turn off the **Allow data movement** option.
 
@@ -65,7 +65,7 @@ All Copilot and AI capabilities are active by default when they are made availab
 
 ## Granting user access
 
-Copilot and AI capabilities can offer functionality that is intended for any users across your organization or for specific user roles. Most Copilot and AI capabilities offer access control through permissions and permission sets in Business Central's permission management system. [Learn more about permissions and permission sets](ui-define-granular-permissions.md).
+Copilot and AI capabilities can offer functionality that is intended for any users across your organization or for specific user roles. Most Copilot and AI capabilities offer access control through permissions and permission sets in Business Central's permission management system. Learn more about permissions and permission sets in [Assign permissions to users and groups](ui-define-granular-permissions.md).
 
 The following table lists the permissions that are required to use the Copilot features that Business Central provides.
 

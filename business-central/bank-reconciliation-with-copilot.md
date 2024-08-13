@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 06/13/2024
+ms.date: 08/13/2024
 ms.custom: bap-template 
 ---
 
@@ -38,9 +38,9 @@ Bank account reconciliation assist is a set of AI-powered features that help you
 
 ## Prerequisites
 
-- Bank account reconciliation assist is activated. An administrator must complete this task. [Learn more about how to configure Copilot and AI capabilities](enable-ai.md).
+- Bank account reconciliation assist is activated. An administrator must complete this task. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
 - The bank accounts in Business Central that you want to reconcile are linked to an online bank account, or they are set up with a bank statement import format.
-- You're familiar with bank account reconciliation in Business Central, as described in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
+- You're familiar with bank account reconciliation in Business Central. Leran more in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
 
 ## Reconcile bank accounts with Copilot
 
@@ -58,7 +58,7 @@ You can use two approaches to reconcile bank accounts with Copilot:
 For this approach, you create and reconcile a new bank account reconciliation from scratch. This approach requires that you select the bank account. If the bank account isn't linked to an online account, you must also import the bank statement file.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Account Reconciliations**, and then select the related link.
-1. Select **Reconcile with Copilot** to open the **Reconcile with Copilot** window.
+1. Select ![Shows the copilot icon](media/copilot-icon.png) **Start a Copilot prompt action** > **Reconcile** to open the **Reconcile with Copilot** window.
 1. Set the **Perform reconciliation for this bank account** field to the bank account that you want to reconcile.
 
     ![Screenshot that shows the Reconcile with Copilot window for reconciling from scratch.](media/reconcile-bank-accounts-new-copilot.svg)
@@ -109,7 +109,7 @@ The following table describes the fields in the upper section.
 In the **Match proposals** section, review the proposed matches line by line. Then take the appropriate action:
 
 - To discard a single proposed match, select it in the list, and then select **Delete Line**.
-- To discard all proposed matches and close the **Reconcile with Copilot** window, select the discard (trash can) button ![Discard button.](media/copilot-delete-trash-can.png) next to the **Keep it** button at the bottom of the window.
+- To discard all proposed matches and close the **Reconcile with Copilot** window, select the ![Discard button.](media/copilot-delete-trash-can.png) **Discard it** button next to the **Keep it** button at the bottom of the window.
 - To automatically post the fully matched reconciliation when you save it, turn on the **Post if fully applied** option.
 - To save the matches that are currently shown in the **Reconcile with Copilot** window, select **Keep it**.
 
@@ -144,7 +144,7 @@ This section explains how to use Copilot to post unreconciled bank account state
 
 1. Discard or save proposals.
 
-    - To discard a specific proposal, select it in the list, and then select **Delete Line**. To discard all proposals and close Copilot, select the discard (trash can) button ![Discard button.](media/copilot-delete-trash-can.png) next to the **Keep it** button at the bottom of the window.
+    - To discard a specific proposal, select it in the list, and then select **Delete Line**. To discard all proposals and close Copilot, select the ![Discard button.](media/copilot-delete-trash-can.png) **Discard it** button next to the **Keep it** button at the bottom of the window.
     - If the proposals meet your requirements, and you want to save them, select **Keep it**.
 
          This step confirms the transfer of the currently selected proposals from the bank account ledger to the G/L account. It posts new payments to the proposed G/L accounts and applies corresponding lines to the resulting bank account ledger entries.

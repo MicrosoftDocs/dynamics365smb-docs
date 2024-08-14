@@ -17,7 +17,7 @@ ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365
 
 In Teams, tabs appear at the top of channels and chats, giving participants quick access to pertinent information. This article explains different ways to add a tab that displays [!INCLUDE [prod_short](includes/prod_short.md)] data.
 
-![Tabs in Teams](media/teams-tabs-border-2.png)
+![Tabs in Teams](media/teams-tab-border-2.png)
 
 ## About Business Central tabs
 

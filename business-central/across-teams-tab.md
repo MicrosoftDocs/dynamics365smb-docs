@@ -34,12 +34,12 @@ To add a [!INCLUDE [prod_short](includes/prod_short.md)] tab, the following requ
 
 - You have access to Microsoft Teams.
 - You have a [!INCLUDE [prod_short](includes/prod_short.md)] license.
-- You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. For more information, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
+- You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. Learn more in [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md).
 
 To view [!INCLUDE [prod_short](includes/prod_short.md)] tab that was added by another participant in the channel or chat, the following requirements must be met:
 
 - You have access to Microsoft Teams.
-- You have a [!INCLUDE [prod_short](includes/prod_short.md)] license or limited access to Business Central with a Microsoft 365 license only. For more information, see [Business Central Access with Microsoft 365 Licenses](admin-access-with-m365-license.md).
+- You have a [!INCLUDE [prod_short](includes/prod_short.md)] license or limited access to Business Central with a Microsoft 365 license only. Learn more in [Business Central Access with Microsoft 365 Licenses](admin-access-with-m365-license.md).
 - You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams.
 
 ## Add tab using recommended content
@@ -73,7 +73,7 @@ Another way to add a tab by using a link (URL) to the page that you want to show
 4. Go to [!INCLUDE [prod_short](includes/prod_short.md)], and open the page that you want to display in the tab.
 5. Copy the link to the page.
 
-   There are two ways to copy the link. The easiest and preferred way is to select **Share** ![Share icon in Business Central](media/share-icon.png) > **Copy Link**. The other way is to copy the entire URL from the browser's address bar. To learn more about this step, see [Sharing Business Central Records and Page Links](across-working-with-teams.md).
+   There are two ways to copy the link. The easiest and preferred way is to select **Share** ![Share icon in Business Central](media/share-icon.png) > **Copy Link**. The other way is to copy the entire URL from the browser's address bar. Learn more in [Sharing Business Central Records and Page Links](across-working-with-teams.md).
 
 6. Go back to Teams and paste the link in the **URL** box.
 7. In the **Tab name** box, enter a name that displays on the tab.
@@ -90,7 +90,7 @@ As for the content of a tab, you can modify the data, if you have permission. If
 
 You can also change your view of the page and its data, like sorting and switching the layout between list and tile views. When you make these kinds of changes, they won't affect what others see. They see what you originally posted, until they make similar changes themselves.
 
-## See also
+## Related information
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  

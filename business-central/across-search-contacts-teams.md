@@ -24,7 +24,7 @@ ms.reviewer: jswymer
 ## Prerequisites
 
 - You have access to Microsoft Teams.
-- You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. For more information, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)
+- You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. Learn more in [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)
 - You've got a [!INCLUDE [prod_short](includes/prod_short.md)] account with access to contacts in at least one company.
 
 > [!NOTE]
@@ -49,7 +49,7 @@ The command box is at the top of every screen in Teams. It lets you search, take
 
 4. If you want to add the contact card into a conversation, go to the upper right corner of the card, select **... (More options)** > **Copy**. Then, paste the copy in the message compose box of a conversation.  
 
-Learn more about the Teams command box in [Teams - Use the command box](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
+Learn more about the Teams command box at [Teams - Use the command box](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
 ## Look up contacts from the message compose box
 
@@ -77,12 +77,12 @@ The contact card in Teams gives you a quick overview of the customer, vendor, or
 
 The **Details** button opens a window within Teams that displays more information about the contact, but not as much as you'd see in [!INCLUDE [prod_short](includes/prod_short.md)]. To see all the information about a contact in [!INCLUDE [prod_short](includes/prod_short.md)], select **Pop-out**.
 
-The contact card works just like cards for records, like items, customers, or sales orders. For more information about cards, see [View card details](across-working-with-teams.md#view-card-details).
+The contact card works just like cards for records, like items, customers, or sales orders. Learn more in [View card details](across-working-with-teams.md#view-card-details).
 
 > [!NOTE]
-> All participants in a Teams conversation will be able to view cards for Business Central contact that you submit to a conversation. But to view more details about records, by using the **Details** or **Pop out** buttons on a card, they'll need access to [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Managing Microsoft Teams Integration](admin-teams-integration.md#minimum-requirements-1).
+> All participants in a Teams conversation will be able to view cards for Business Central contact that you submit to a conversation. But to view more details about records, by using the **Details** or **Pop out** buttons on a card, they'll need access to [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more in [Managing Microsoft Teams Integration](admin-teams-integration.md#minimum-requirements-1).
 
-## See also
+## Related information
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  

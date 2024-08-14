@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: get-started
 ms.devlang: al
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
-ms.date: 04/16/2024
+ms.date: 08/14/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -36,49 +36,40 @@ The command box is at the top of every screen in Teams. It lets you search, take
 
 1. In the command box, type **/Business Central**, then select the Business Central app from the results.
 
-    ![Open Business Central app  to search for contacts from command box.](media/teams-contacts-command-1a.png)
+    ![Open Business Central app  to search for contacts from command box.](media/teams-contacts-command-1b.png)
 
 2. In the **Business Central** box, start typing search text, like a name, address, or phone number.
 
     As you type, matching results will appear.
 
-    ![Search Business Central contacts from command box in Teams.](media/teams-contacts-command-2.png)
+    ![Search Business Central contacts from command box in Teams.](media/teams-contacts-command-3.png)
 3. Select a contact from the results.
 
     The contact card appears beneath the command box.
 
 4. If you want to add the contact card into a conversation, go to the upper right corner of the card, select **... (More options)** > **Copy**. Then, paste the copy in the message compose box of a conversation.  
 
-For more general information about the command box in Teams, see [Teams - Use the command box](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
+Learn more about the Teams command box in [Teams - Use the command box](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
 ## Look up contacts from the message compose box
 
 The advantage of using the message compose box is that you can add a contact card directly to a conversation, for others to see.
 
-1. Beneath to message compose box, select the **Business Central** icon to launch the app.
+1. Next to the message compose box, select **+** > **Business Central** to launch the app.
 
-    If you don't see the **Business Central** icon, select **... (Messaging extensions)**.
-
-    ![Open Business Central app to search for contacts from message box.](media/teams-contacts-message-box.png)
+    ![Open Business Central app to search for contacts from message box.](media/teams-contacts-message-box-2.png)
 
 2. In the **Business Central** box, start typing search text, like a name, address, or phone number.
 
     As you type, matching results will appear.
 
-    ![Search for Business Central contacts from message box.](media/teams-contacts-5.png)
+    ![Search for Business Central contacts from message box.](media/teams-contacts-6.png)
 3. Select a contact from the results.
 
     The contact card appears in the message compose box.
 
-    > [!NOTE]
-    > The contact card isn't sent to the conversation right away for others to see. You have the opportunity to review the contents of the card, and add text before or after it as you like. Then, send your message to the chat when ready.
-
-<!--
-### Here's another way
-
-1. Instead of using the **Business Central** icon, type **@Business Central** directly in the message compose box.
-2. Enter your search terms in the box.
-3. Use the up and down arrow keys on the keyboard to choose a contact, then select <kbd>Enter</kbd> to select it.-->
+> [!NOTE]
+> The contact card isn't sent to the conversation right away for others to see. You have the opportunity to review the contents of the card, and add text before or after it as you like. Then, send your message to the chat when ready.
 
 ## Viewing contact card details
 

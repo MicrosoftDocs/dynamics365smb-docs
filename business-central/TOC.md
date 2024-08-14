@@ -477,6 +477,32 @@ ms.service: dynamics-365-business-central
 ##### [Manage the intercompany inbox and outbox](intercompany-how-manage-intercompany-inbox.md)
 ##### [Allocate costs to intercompany partners](intercompany-allocate-costs.md)
 ### [Accountant experiences in Business Central](finance-accounting.md)
+### Subscriptions and recurring billing
+#### [Welcome to DYCE Subscription & Recurring Billing](SRB/welcome.md)
+#### [First steps](SRB/first-steps.md)
+#### [Recurring Billing](SRB/recurring-billing.md)
+#### [Bundles and formatting](SRB/bundles.md)
+#### [Posting Documents](SRB/posting-documents.md)
+#### [Purchasing](SRB/purchases.md)
+#### [Pricing and billing](SRB/monetization.md)
+#### [Evaluations](SRB/controlling.md)
+#### [Updates, bug fixes and new features](SRB/changelog.md)
+#### Sales
+##### [Sales process](SRB/sales/sales-service-commitments.md)
+##### [Procurement in connection with a Sales Order](SRB/sales/sales-related-procurement.md)
+##### [Price determination of Service Commitments](SRB/sales/price-calculation.md)
+##### [Dealing with currencies](SRB/sales/dealing-with-currencies.md)
+##### [Credit Memos](SRB/sales/credit-memo-cancellation.md)
+#### Contracts
+##### [Customer Contracts](SRB/working-with-contracts/customer-contracts.md)
+##### [Vendor Contracts](SRB/working-with-contracts/vendor-contracts.md)
+##### [Managing Contracts, Service Objects and Services Commitments](SRB/working-with-contracts/contracts-services-mgmt.md)
+##### [Service Objects](SRB/working-with-contracts/service-objects.md)
+##### [Service Commitments](SRB/working-with-contracts/so-service-commitments.md)
+##### [Price Update](SRB/working-with-contracts/price-update.md)
+##### [Contract Renewal](SRB/working-with-contracts/contract-renewal.md)
+##### [Contract Deferrals](SRB/working-with-contracts/contract-deferrals.md)
+##### [Termination of Contract components](SRB/working-with-contracts/service-commitment-cancellation.md)
 
 ## Financial analytics 
 ### [Financial analytics overview](bi.md)
@@ -1635,6 +1661,18 @@ ms.service: dynamics-365-business-central
 #### [Set up cash customers](finance-how-to-set-up-cash-customers.md)
 #### [Set up Intrastat reporting](finance-how-setup-report-intrastat.md)
 #### [Use allocation keys in general journals](ui-how-use-allocation-keys-general-journals.md)
+#### Subscriptions and recurring billing
+##### Overview
+##### [General Setup](SRB/setup/general.md)
+##### [Permissions](SRB/setup/permissions.md)
+##### [Contract Types](SRB/setup/contract-types.md)
+##### [Import of Contracts and Contract lines](SRB/setup/import.md)
+##### [Job Queue](SRB/setup/job-queue.md)
+##### [Service Commitments at Items](SRB/masterdata/items.md)
+##### [Service Commitments](SRB/masterdata/service-commitments.md)
+#### Usage based billing
+##### Overview
+##### [General Setup](UBB/setup/general.md)
 ### Set up banking
 #### [Set up banking](bank-setup-banking.md)
 #### [Set up bank accounts](bank-how-setup-bank-accounts.md)

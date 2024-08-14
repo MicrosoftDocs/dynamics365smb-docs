@@ -4,7 +4,7 @@ description: Describes how to add users to Business Central online or on-premise
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: access, right, security
-ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
+ms.search.form: 119, 6300, 6301, 6302, 8930, 9800_Primary, 9807_Primary, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173, 774_Primary
 ms.date: 05/03/2024
 ms.author: jswymer
 ms.reviewer: jswymer

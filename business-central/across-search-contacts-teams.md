@@ -55,7 +55,7 @@ Learn more about the Teams command box in [Teams - Use the command box](https://
 
 The advantage of using the message compose box is that you can add a contact card directly to a conversation, for others to see.
 
-1. Next to the message compose box, select **+**, and then select **Business Central** from the list to launch the app.
+1. Next to the message compose box, select **+** and then select **Business Central** from the list to launch the app.
 
     ![Open Business Central app to search for contacts from message box.](media/teams-contacts-message-box-2.png)
 

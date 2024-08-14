@@ -84,7 +84,7 @@ Another way to add a tab by using a link (URL) to the page that you want to show
 
 After a tab has been added, you can make certain changes to the tab. For example, you can rename the tab, move it, and remove it. You find these actions in the tab options that are available by selecting the down arrow on the tab.
 
-![Shows the Business Central tab configuration window in Teams and the tab options menu](media/teams-bc-tab-config-window-options.png)
+![Shows the Business Central tab configuration window in Teams and the tab options menu](media/teams-bc-tab-config-window-options-2.png)
 
 As for the content of a tab, you can modify the data, if you have permission. If you change the data, others won't see the changes until they leave the tab and come back. The same is true for you if someone else makes changes to data. You can't change the page that displays on the tab, so just remove the tab and add another one the suits.
 

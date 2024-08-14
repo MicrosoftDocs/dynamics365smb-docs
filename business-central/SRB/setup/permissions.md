@@ -1,11 +1,19 @@
 ---
 title: Permissions
-hide_title: true
-sidebar_label: Permissions
-slug: /srb/setup/permissions
+description: Learn about the permission settings for subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
 ---
 
+
 # Permissions
+
 This chapter takes a deeper look at the supplied permission sets. To check the permissions contained in the permission sets in detail, please open the **Permission Sets** page (*Alt+Q*) and then call the **Permissions** action. <br/>
 For more information about permission sets, see <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/ui-define-granular-permissions/" title= "Assign Permissions to Users and Groups">this part</a> of the Microsoft documentation.
 

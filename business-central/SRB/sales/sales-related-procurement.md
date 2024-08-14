@@ -1,11 +1,18 @@
 ---
-title: Sales-related Procurement
-hide_title: true
-sidebar_label: Sales-related Procurement
-slug: /srb/sales/sales-related-procurement
+title: Sales-related procurement
+description: You can use sales related procurement in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
 ---
 
-# Procurement in connection with a Sales Order
+# Procurement in connection with a sales order
+
 In Business Central, there are several ways to create Purchase Orders for retail items. The most common are the <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/production-planning" title="Requisition Worksheets">Requisition Worksheets</a> (from the manufactoring module) and the functionality to create a <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/purchasing-how-purchase-products-sale" title="Purchasing Items for a Sale">Purchase Order</a> from a Sales Order. However, if retail items are needed explicitly for a specific Sales Order, these two options fall short. <br/>
 In both cases, the goods are not ordered on an order-by-order basis. Thus, the reservation of the required quantity in the Sales Order line must be done manually. Especially in the second case, both the order (here: Sales Order line) lacks the link to the Purchase Order (here: Purchase Order line) expected by the user and vice versa.
 

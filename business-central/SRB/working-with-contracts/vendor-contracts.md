@@ -1,11 +1,19 @@
 ---
-title: Vendor Contracts
-hide_title: true
-sidebar_label: Vendor Contracts
-slug: /srb/working-with-contracts/vendor-contracts
+title: Vendor contracts
+description: You can use vendor contracts in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Vendor Contracts
+# Vendor contracts
+
 A Vendor Contract maps liabilities to suppliers or manufacturers. It is structured similarly to a purchase order. The fields in the **General** fast tab contain information about the contract partner, i.e. the supplier's contact person for this contract. The lines contain detailed information about the billing of the components of the contract.
 
 In the **Payment** info tab, a different payee (from the contract partner) can be stored.

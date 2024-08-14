@@ -1,8 +1,14 @@
 ---
 title: Currencies
-hide_title: true
-sidebar_label: Currencies
-slug: /srb/sales/dealing-with-currencies
+description: You can use currencies in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
 ---
 
 # Dealing with currencies

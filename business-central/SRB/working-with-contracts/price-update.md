@@ -1,11 +1,20 @@
 ---
-title: Price Update
-hide_title: true
-sidebar_label: Price Update
-slug: /srb/working-with-contracts/price-update
+title: Price update
+description: You can update prices in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Price Update
+
+# Price update
+
 Regular price updates of contractually agreed, recurring Service Commitments are completely normal in times of subscription models. With **DYCE Subscription & Recurring Billing**, price updates for contractual Service Commitments can be easily planned and applied. <br/>
 Contract prices can be updated in three different ways:
 * Increase (or decrease) the price to a percentage

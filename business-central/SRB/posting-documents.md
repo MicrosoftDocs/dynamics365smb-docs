@@ -1,11 +1,18 @@
 ---
-title: Posting Documents
-hide_title: true
-sidebar_label: Posting Documents
-slug: /srb/posting-documents
+title: Posting documents
+description: Learn about posted documents in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
+# Posting documents
 
-# Posting Documents
 Posting Documents are invoices and credit memos because these documents can be posted. When creating these documents via **[Recurring Billing](/docs/srb/recurring-billing.md)**, the system recognizes whether an invoice or a credit memo is to be created based on the amounts to be settled. If the total amount over all lines to be billed is positive, an invoice is created, otherwise a credit memo is created. This applies to both Customer Contracts and Vendor Contracts.
 The Posting Documents created are then available for calling up in the respective contract under **Related**. There are separate calls for documents that have not yet been posted and documents that have already been posted. Sales documents are created from Customer Contracts and purchasing documents from Vendor Contracts. The documents can also be called using the following methods:
 * **Sales Invoices** (Role Center or Alt+Q) <br/>.

@@ -1,10 +1,19 @@
 ---
-title: First Steps
-sidebar_label: First Steps
-slug: /srb/first-steps
+title: First steps
+description: Learn about what to do first to start using subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # First steps
+
 By signing a contract, both partners assume obligations. In DYCE, these obligations are referred to as Service Commitments. Agreements with periodic billing are called **Customer Contracts** on the customer side and **Vendor Contracts** on the supplier side.
 
 Service Commitments can already be offered to the prospect or customer during the [sales phase](/docs/srb/sales/sales-service-commitments.md). For this purpose, additional Service Commitments can be added to the offered items which can then be offered simultaneously or sold at the same time.

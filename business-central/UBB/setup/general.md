@@ -1,11 +1,19 @@
 ---
-title: General Setup
-hide_title: true
-sidebar_label: Setup general
-slug: /ubb/setup/general
+title: General setup 
+description: There are a few general things to set up before you use usage based billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# General Setup
+# General setup
+
 In the **Service Contract Setup** page, general settings and default values for creating and managing Customer and Vendor Contracts (such as number series) are made.
 
 

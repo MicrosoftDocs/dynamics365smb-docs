@@ -1,11 +1,19 @@
 ---
-title: Welcome to Usage Based Billing
-hide_title: true
-sidebar_label: Welcome
-slug: /ubb
+title: Welcome to Usage Based Billing 
+description: Get an overview of the features available for usage based billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Welcome to DYCE Usage Based Billing
+# Welcome to Usage Based Billing
+
 The demand-based provision of services requires a high degree of flexibility in both the creation and billing of Services. Thanks to the automated usage data import of **DYCE Usage Based Billing**, all steps - from the import of billing data to invoicing - are combined in one interface. Would you like to organize your services on the basis of suitable contracts? **DYCE Usage Based Billing** provides the solution.
 
 Since the provision of services is usually associated with a duration, the term *subscription* is often used in this context. Depending on the pricing model, a monthly basic fee plus a usage-dependent fee (e.g. per user, per transaction, etc.) can be charged for use. In addition, prices can often also vary depending on the quantity (graduated prices).

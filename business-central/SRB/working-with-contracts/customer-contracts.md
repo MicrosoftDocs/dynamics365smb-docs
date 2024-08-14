@@ -1,11 +1,19 @@
 ---
-title: Customer Contracts
-hide_title: true
-sidebar_label: Customer Contracts
-slug: /srb/working-with-contracts/customer-contracts
+title: Customer contracts
+description: You can use customer contracts in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Customer Contracts
+# Customer contracts
+
 A Customer Contract represents the obligations towards a customer. It is structured similarly to a sales order. The fields in the **General** fast tab contain information about the Contractor, i.e. the contact person for this contract. The lines contain detailed information about the billing of the components of the contract.
 In the **Delivery and Billing** fast tab, different delivery and billing recipients (from the Contractor) can be stored.
 

@@ -1,11 +1,19 @@
 ---
 title: Suppliers
-hide_title: true
-sidebar_label: Suppliers
-slug: /ubb/masterdata/suppliers
+description: You can use suppliers in usage based billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Usage data suppliers
+
 A **Usage Data Supplier** is the business partner who provides the usage data for subsequent processing. This is usually the provider of the services for subsequent processing. <br/>
 In the page of the same name new suppliers can be created or already created suppliers can be adapted. In addition to a unique, self-assigned **No.** an explanatory **Description** can be entered. <br/>
 The **Vendor Name** can be used to connect to a vendor. This is especially relevant for the [import and processing](/docs/pli/price-list.md#supplier-reference-for-usage-data) of CSP/NCE price lists. <br/>

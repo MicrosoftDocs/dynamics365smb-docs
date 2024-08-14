@@ -1,12 +1,19 @@
 ---
-title: Data Exchange Definitions
-hide_title: true
-sidebar_label: Data Exchange Definitions
-slug: /ubb/masterdata/dataexchangedefinitions
+title: Data exchange definitions
+description: You can use data exchange definitions in usage based billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
+# Data exchange definitions
 
-# Data Exchange Definitions
-This is a standard functionality of Business Central, which is explained in <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-to-set-up-data-exchange-definitions" title="Set Up Data Exchange Definitions">this part</a> of the Microsoft documentation. However, since it is fundamental to the import and subsequent processing of usage data, at least the aspects relevant to **DYCE Usage Base Billing** will be summarized again here.
+Data exchange is a standard functionality of Business Central, which is explained in <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-to-set-up-data-exchange-definitions" title="Set Up Data Exchange Definitions">this part</a> of the Microsoft documentation. However, since it is fundamental to the import and subsequent processing of usage data, at least the aspects relevant to **DYCE Usage Base Billing** will be summarized again here.
 
 :::info Example
 The Data Exchange Definition described here as an example refers to an import file for usage data, which is a CSV file in UTF-8 encoding with column separators as semicolons. <br/>

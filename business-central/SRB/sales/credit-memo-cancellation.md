@@ -1,11 +1,18 @@
 ---
-title: Credit Memos and Cancellation
-hide_title: true
-sidebar_label: Credit Memos
-slug: /srb/sales/credit-memo-cancellation
+title: Credit memos and cancellation
+description: You can use items in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
 ---
 
-# Credit Memos
+# Credit memos
+
 If a contract invoice contains incorrect information, such as incorrect customer information due to a name change, the invoice can be credited. Once credited, the information in the contract can be corrected and the invoice recreated.
 If a customer cancels a service, this can be maintained in the contract line. Once the contract line is terminated, it will no longer be billed.
 If [deferrals](/docs/srb/working-with-contracts/contract-deferrals.md) have been created by a contract invoice, they will automatically be fully released on the **Posting Date of Credit Memo** when the contract invoice is credited.

@@ -1,11 +1,19 @@
 ---
 title: Purchasing
-hide_title: true
-sidebar_label: Purchasing
-slug: /srb/purchases
+description: Learn about purchasing in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Purchasing
+
 The unique [purchase](https://learn.microsoft.com/en-us/dynamics365/business-central/purchasing-manage-purchasing) of items with Service Commitments is no different than that in Microsoft Dynamics 365 Business Central. <br/>
 Recurring purchasing (e.g., rental, maintenance, or subscription) is mapped with Service Commitments. Service Commitments receive *Vendor* as **Partner** in the Service Commitment Package. A Service Commitment Package can have both Customer and Vendor Service Commitments.
 

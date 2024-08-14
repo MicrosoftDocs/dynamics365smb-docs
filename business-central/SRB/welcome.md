@@ -1,12 +1,20 @@
 ---
-title: Welcome to Subscription & Recurring Billing
-hide_title: true
-sidebar_label: Welcome
-slug: /srb
+title: Welcome to subscription and recurring billing 
+description: Get an overview of the features available for subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Welcome to DYCE Subscription & Recurring Billing
-The **DYCE Subscription & Recurring Billing** app enables you to bill for contractually agreed Service Commitments on a recurring basis. The integrated flexible billing models support you and also take into account terms and notice periods.
+# Overview of subscription and recurring billing
+
+The **Subscription & Recurring Billing** app enables you to bill for contractually agreed Service Commitments on a recurring basis. The integrated flexible billing models support you and also take into account terms and notice periods.
 
 Do you want to create accurate invoices for different price and subscription models in just a few steps? At the same time, do you want to minimize sources of error and bring transparency into the processes? All this is possible with **DYCE Subscription & Recurring Billing**.
 

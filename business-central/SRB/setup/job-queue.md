@@ -1,11 +1,18 @@
 ---
-title: Job Queue
-hide_title: true
-sidebar_label: Job Queue
-slug: /srb/setup/job-queue
+title: Job queue
+description: You can use job queue entries in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
 ---
 
-# Job Queue
+# Job queue
+
 For recurring tasks, in Business Central the Job Queue is used. For details on how the Job Queue works and how to configure it, please refer to <a href="https://learn.microsoft.com/en-us/dynamics365/business-central/admin-job-queues-schedule-tasks" title="Job Queue">this</a> part of the Microsoft documentation.
 
 When **DYCE Subscription & Recurring Billing** is installed, the following entries are automatically created in the Job Queue:

@@ -1,11 +1,19 @@
 ---
-title: Recurring Billing
-hide_title: true
-sidebar_label: Recurring Billing
-slug: /srb/recurring-billing
+title: Recurring billing
+description: You can use recurring billing in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Recurring Billing
+# Recurring billing
+
 Contracts are billed via the **Recurring Billing** page. First a Billing Proposal is created, based on which the **[Posting Documents](/docs/srb/posting-documents.md)** (invoices and credit memos) are created in a second step. The billing or the creation of the Billing Proposal is based on the contract lines, taking into account the **Next Billing Date** field (see [Overview of Fields in Service Commitments/Contract Lines](/docs/srb/working-with-contracts/contracts-services-mgmt.md)).
 
 

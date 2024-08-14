@@ -1,11 +1,19 @@
 ---
-title: Cancelling Service Commitments
-hide_title: true
-sidebar_label: Cancelling Service Commitments
-slug: /srb/working-with-contracts/service-commitment-cancellation
+title: Canceling service commitments
+description: You can use cancel service commitments in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Termination of Contract components
+# Termination of contract components
+
 All contract lines contain information about their validity and termination dates. Thus, they can be terminated before the expiry or termination dates can be changed. If validity and notice periods are not set, the contract lines are valid indefinitely or can be terminated at any time.
 
 

@@ -1,11 +1,18 @@
 ---
-title: Extend Contract
-hide_title: true
-sidebar_label: Extend Contract
-slug: /ubb/processing-usage-data/extend-contract
+title: Extend contract 
+description: You can extend contracts in usage based billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-
 # Extend contract
+
 To be able to extend a contract quickly and easily, the action **Extend Contract** is available. The basic functionality is explained in [this](/docs/srb/working-with-contracts/customer-contracts.md#extend-contract) part of the DYCE documentation. Therefore, only the differences or the extensions are discussed here.
 
 

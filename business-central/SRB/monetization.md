@@ -1,11 +1,19 @@
 ---
-title: Pricing and Billing
-hide_title: true
-sidebar_label: Pricing and Billing
-slug: /srb/monetization
+title: Pricing and billing
+description: You can use pricing and billing in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Pricing and billing
+
 The use of **DYCE Subscription & Recurring Billing** is billed based on usage including a monthly fee. However, it is possible to test the full functionality for a limited time in advance. Please refer to the <a href="https://www.singhammer.com/en/solutions/subscription-recurring-billing/" title="DYCE Subscription & Recurring Billing">DYCE Subscription & Recurring Billing website</a> for current pricing. Regardless of this, the pricing is based on the claim to make it as fair as possible. This includes, above all, only charging for the actual benefit or added value.
 
 Activation is done using the app called **DYCE Monetization**. This application manages usage data for all DYCE subscriptions. Once activated, it continuously determines both activation status and usage data (e.g., number of users or transaction volume).

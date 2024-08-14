@@ -1,11 +1,19 @@
 ---
-title: Imports and Processing
-hide_title: true
-sidebar_label: Imports and Processing
-slug: /ubb/processing-usage-data/imports-processing
+title: Imports and processing 
+description: You can use imports and processing in usage based billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Imports and processing
+
 This section explains the import and processing of usage data. It also discusses the different [methods for pricing](#methods-for-pricing) of usage data.
 
 

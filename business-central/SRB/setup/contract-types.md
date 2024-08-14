@@ -1,11 +1,18 @@
 ---
-title: Contrat Types
-hide_title: true
-sidebar_label: Contract Types
-slug: /srb/setup/contract-types
+title: Contract types
+description: You can use different types of contracts in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
 ---
 
-# Contract Types
+# Contract types
+
 The **Contract Types** page defines which different types of contracts exist. They are used to manage and organize Customer and Vendor Contracts and can be used as filters for this purpose - e.g. also for billing. Examples can be maintenance or support contracts, but also insurances or other types of recurring incoming and outgoing invoices.
 
 For each Contract Type, an appropriate description should be entered in addition to a unique code. The description is further used as an info line in the posting documents for the contracts.

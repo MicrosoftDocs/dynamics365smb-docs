@@ -1,11 +1,18 @@
 ---
 title: Data migration
-hide_title: true
-sidebar_label: Data migration
-slug: /srb/setup/import
+description: You can use import contracts and contract lines in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
 ---
 
-# Import of Contracts and Contract lines
+# Import of contracts and contract lines
+
 Before Contracts and Contract lines can be set up, some data must first be created or imported. In addition to Customers, Vendors, and Items, you need to create Service Commitment Packages, Service Commitment Package lines, and more. The import is done via configuration packages. The Customer Contracts, Contract lines, Service Objects and Service Commitments are imported into tables created specifically for processing the data.
 
 

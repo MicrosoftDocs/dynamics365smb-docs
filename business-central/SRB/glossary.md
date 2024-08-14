@@ -1,11 +1,19 @@
 ---
-title: Glossary
-hide_title: true
-sidebar_label: Glossary
-slug: /srb/glossary
+title: Glossary 
+description: Explore terminology in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Glossary
+
 The most important DYCE terms can be looked up in this glossary.
 
 ## A

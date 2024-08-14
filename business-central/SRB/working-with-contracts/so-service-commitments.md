@@ -1,11 +1,19 @@
 ---
-title: Service Commitments in Service Objects
-hide_title: true
-sidebar_label: Service Commitments in Service Objects
-slug: /srb/working-with-contracts/so-service-commitments
+title: Service commitments in service objects
+description: You can use service commitments in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Service Commitments
+# Service commitments
+
 Service Commitments describe the monetary content of agreements with customers and suppliers as well as termination dates. In order for a Service Commitments to be billed recurrently, it must be assigned to a contract.
 
 A Service Commitment is valid if **Invoicing via** is set to *Contract* and the **Service End Date** is either blank or the **Next Billing Date** has not reached the Service End Date. Service Commitments with Invoicing via *Sales* are used to store information and are not billed on a recurring basis.

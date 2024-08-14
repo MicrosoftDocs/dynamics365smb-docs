@@ -1,11 +1,18 @@
 ---
-title: Sales with Service Commitments
-hide_title: true
-sidebar_label: Sales with Service Commitments
-slug: /srb/sales/sales-service-commitments
+title: Sales with service commitments
+description: You can use sales with service commitments in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
 ---
 
 # Sales process
+
 Create a Sales Quote or Sales Order (hereafter *Sales Document*) with Service Commitments to record your monetary agreements with the customer. Service Commitments are printed on the documents and can be delivered from the order to be billed on a recurring basis.
 
 

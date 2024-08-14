@@ -1,11 +1,18 @@
 ---
-title: Sales Price Calculation
-hide_title: true
-sidebar_label: Sales Price Calculation
-slug: /srb/sales/price-calculation
+title: Sales price calculation
+description: You can use sales price calculation in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
 ---
 
 # Price determination of Service Commitments
+
 The price of a Service Commitment is automatically determined based on [Setup](/docs/srb/masterdata/service-commitments.md). Editing **Calculation Base Amount** and **Calculation Base %** is possible to change the price manually.
 
 * **Calculation Base Amount**.

@@ -1,11 +1,19 @@
 ---
-title: Customers & Subscriptions
-hide_title: true
-sidebar_label: Customers & Subscriptions
-slug: /ubb/masterdata/customers-subscriptions
+title: Customers and subscriptions 
+description: You can use customer subscriptions in usage based billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Customers & Subscriptions
+# Customers and subscriptions
+
 In addition to the usage data that changes per import, there is also data that has more the character of master data, since it does not change. This includes both the customers for whom the usage data is imported and the subscriptions on the basis of which the link to the Service Commitments to be billed is established. In the case of the customers, this is supporting but not necessary data, whereas without a subscription, no billing of usage data is possible.
 
 

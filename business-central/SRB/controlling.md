@@ -1,8 +1,15 @@
 ---
 title: Controlling
-hide_title: true
-sidebar_label: Controlling
-slug: /srb/controlling
+description: You can use controlling in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Evaluations

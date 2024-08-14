@@ -1,11 +1,19 @@
 ---
-title: Service Objects
-hide_title: true
-sidebar_label: Service Objects
-slug: /srb/working-with-contracts/service-objects
+title: Service objects
+description: You can use service objects in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Service Objects
+# Service objects
+
 Service Objects represent a history of products sold to a customer. They contain all information related to the delivered item, such as <br/>.
 * master data (Item No., Description).
 * Details of the sale (customer, delivery recipient, invoice recipient)

@@ -1,11 +1,19 @@
 ---
-title: Service Commitments
-hide_title: true
-sidebar_label: Service Commitments
-slug: /ubb/masterdata/service-commitments
+title: Service commitments
+description: You can use service commitments in usage based billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# Extension of Service Commitments
+# Extension of service commitments
+
 Since **DYCE Usage Based Billing** is an [extension](/docs/ubb/purpose.md) of **[DYCE Subscription & Recurring Billing](/docs/srb/welcome.md)**, only the differences are discussed here. For more information on Service Commitments and how to set them up, please see [this](/docs/srb/masterdata/service-commitments.md) part of the DYCE documentation.
 
 

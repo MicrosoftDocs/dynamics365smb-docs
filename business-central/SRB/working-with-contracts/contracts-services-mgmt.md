@@ -1,11 +1,18 @@
 ---
-title: Contracts and Services Management
-hide_title: true
-sidebar_label: Contracts & Services
-slug: /srb/working-with-contracts/contracts-services-mgmt
+title: Contracts and services management
+description: You can manage contracts and services in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
 ---
 
-# Managing Contracts, Service Objects and Services Commitments
+# Managing contracts, service objects, and services commitments
+
 Contracts, Service Objects and Services are required to perform recurring billing.
 
 **[Service Commitments](/docs/srb/masterdata/service-commitments.md)** describe the monetary content of agreements with customers and suppliers, as well as termination dates. They can only be created in a **[Service Object](/docs/srb/working-with-contracts/service-objects.md)**. The Service Object defines the essential information about the End User and the actual content, which is to be billed on a recurring basis.

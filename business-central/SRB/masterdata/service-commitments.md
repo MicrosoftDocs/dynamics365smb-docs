@@ -1,8 +1,14 @@
 ---
-title: Service Commitments
-hide_title: true
-sidebar_label: Service Commitments
-slug: /srb/masterdata/service-commitments
+title: Service commitments
+description: You can use service commitments in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
 ---
 
 # Service Commitments

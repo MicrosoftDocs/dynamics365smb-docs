@@ -1,11 +1,18 @@
 ---
-title: Contract Renewal
-hide_title: true
-sidebar_label: Contract Renewal
-slug: /srb/working-with-contracts/contract-renewal
+title: Contract renewal
+description: You can renew contracts in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
 ---
 
-# Contract Renewal
+# Contract renewal
+
 Some Contract lines are set to end at a certain date. These Contract lines can be extended with a Contract Renewal Quote. By using the Contract Renewal, a renewal period can be specified and a Sales Quote created subsequently. The **Service End Date** (in the Service Commitment / Contract line) will be extended once the Sales Quote is turned into a Sales Order and shipped.
 
 

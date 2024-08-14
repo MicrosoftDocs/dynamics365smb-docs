@@ -1,11 +1,19 @@
 ---
 title: Bundles
-hide_title: true
-sidebar_label: Bundles
-slug: /srb/bundles
+description: You can use bundles in subscription and recurring billing.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 
+ms.search.form: 
+ms.date: 08/14/2024
+ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
 # Bundles and formatting
+
 Bundles can be used in **Sales Quotes**, **Sales Orders** (from here on called *sales documents*) and in **Customer Contracts**. This is an aggregation of individual components into a standalone product. In addition, formatting can be used to control what content and how that content is output on print documents. Bundles and formatting are part of the app **[DYCE Easy Bundle Seller](/docs/ht/welcome.md)**, which comes with **DYCE Subscription & Recurring Billing**. <br/>
 Bundles can be predefined based on [master data](/docs/ebs/bundles.md#master-data-for-bundles) or created [individually (on-the-fly)](/docs/ebs/bundles.md#creating-a-custom-bundle).
 

@@ -27,11 +27,11 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams offers the fol
 
 No matter where you are in Teams, you can look up details about customers, vendors, and other [!INCLUDE [prod_short](includes/prod_short.md)] contacts. This feature not only lets you view general information about contacts, but also gives access to interaction history, related documents, and more.
 
- [![Look up Business Central contacts from Teams command box.](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
+ [![Look up Business Central contacts from Teams command box.](media/teams-contacts-overview-2.png)](media/teams-contacts-overview-2.png#lightbox)
 
 You can also share contact details in a conversation. From there, participants have access to even more details about the contact as well.
 
- [![Look up Business Central contacts from Teams compose box.](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
+ [![Look up Business Central contacts from Teams compose box.](media/teams-contacts-2.png)](media/teams-contacts-2.png#lightbox)
 
 For more information, see [Searching for Contacts from Microsoft Teams](across-search-contacts-teams.md).
 
@@ -39,7 +39,7 @@ For more information, see [Searching for Contacts from Microsoft Teams](across-s
 
 Copy a link to any Business Central record and paste it into a Teams conversation to share with your coworkers. The app will then expand the link into a compact, interactive card that displays information about the record.
 
-[![Teams integration with Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
+[![Teams integration with Business Central.](media/teams-intro-vBC24.png)](media/teams-intro-vBC24.png#lightbox)
 
 Once in the conversation, you and coworkers can view more details about the record, edit data, and take action - without leaving Teams.
 
@@ -59,7 +59,7 @@ For more information, see [Share Records and Page Links in Microsoft Teams](acro
 
 With the Business Central app for Teams installed, you can add a tab in a channel or chat the shows Business Central data from lists and card pages.
 
-![Tabs in Teams](media/teams-tabs-border.png)
+![Tabs in Teams](media/teams-tab-border-2.png)
 
 For more information, see [Add a Business Central tab in Teams](across-teams-tab.md).
 

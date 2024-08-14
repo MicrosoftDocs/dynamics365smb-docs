@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 12/12/2023
+ms.date: 08/14/2024
 ms.custom: bap-template
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records, tab
 ---
@@ -17,16 +17,16 @@ ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365
 
 In Teams, tabs appear at the top of channels and chats, giving participants quick access to pertinent information. This article explains different ways to add a tab that displays [!INCLUDE [prod_short](includes/prod_short.md)] data.
 
-![Tabs in Teams](media/teams-tabs-border.png)
+![Tabs in Teams](media/teams-tabs-border-2.png)
 
 ## About Business Central tabs
 
 A [!INCLUDE [prod_short](includes/prod_short.md)] tab provides a focused view of [!INCLUDE [prod_short](includes/prod_short.md)] list and card pages. The tab doesn't display the full [!INCLUDE [prod_short](includes/prod_short.md)] web client. There's no browser border, [!INCLUDE [prod_short](includes/prod_short.md)] banner (for example with Tell Me, search, help) or top navigation menu&mdash;just page content and its actions. The content is interactive, meaning that you can select actions and links, change data, and more. You're limited to what you see and can do by the same permissions assigned to your account in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-To learn about who can view the content in a [!INCLUDE [prod_short](includes/prod_short.md)] tab, see [Who can see the content of a tab?](/dynamics365/business-central/teams-faq?tabs=tabs#who-can-view).
+Learn more about who can view the content of a [!INCLUDE [prod_short](includes/prod_short.md)] tab in [Who can see the content of a tab?](/dynamics365/business-central/teams-faq?tabs=tabs#who-can-view).
 
 > [!TIP]
-> Are you a developer? You can also add tabs programmatically using the Microsoft Graph API. For more information, see [Add Business Central Tabs to Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tabs).  
+> Are you a developer? You can also add tabs programmatically using the Microsoft Graph API. Learn more in [Add Business Central Tabs to Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tabs).  
 
 ## Prerequisites
 
@@ -44,7 +44,7 @@ To view [!INCLUDE [prod_short](includes/prod_short.md)] tab that was added by an
 
 ## Add tab using recommended content
 
-Use these steps to add a tab by choosing what to display from a readily available list of recommended content that's based your role center&mdash;without leaving Teams. To learn more about the content that you can choose from, see [Where does the recommended content come from?](/dynamics365/business-central/teams-faq?tabs=tabs#where-does-the-recommended-content-come-from).
+Use these steps to add a tab by choosing what to display from a readily available list of recommended content that's based your role center&mdash;without leaving Teams. Learn more about the content that you can choose from in [Where does the recommended content come from?](/dynamics365/business-central/teams-faq?tabs=tabs#where-does-the-recommended-content-come-from).
 
 1. At the top of a channel or chat in Teams, select **+ Add a tab**.
 2. In the **Search** box, type *business central*, then select the **[!INCLUDE [prod_short](includes/prod_short.md)]** icon and wait for the [!INCLUDE [prod_short](includes/prod_short.md)] tab configuration window to appear.
@@ -57,7 +57,7 @@ Use these steps to add a tab by choosing what to display from a readily availabl
    <!-- The list shows all pages that are bookmarked on your role center in [!INCLUDE [prod_short](includes/prod_short.md)]. To learn more about the content that you can choose from, see [Where does the recommended content come from?](teams-faq.md#recommended-content).-->
 5. Some pages may include different views, which are variations of the page that's filtered to show specific data. To change the view for the content, select the down arrow for the **Preferred view** option and choose the view from the list.
 
-   For more information about views, see [Save and Personalize Views](ui-views.md).
+   Learn more in [Save and Personalize Views](ui-views.md).
 6. Select **Post to the channel about this tab** to automatically post an announcement in the Teams channel or chat to let participants know that you've added this tab.
 7. Select **Save**.
 
@@ -79,13 +79,6 @@ Another way to add a tab by using a link (URL) to the page that you want to show
 7. In the **Tab name** box, enter a name that displays on the tab.
 8. Select **Post to the channel about this tab** to automatically post an announcement in the Teams channel or chat to let participants know that you've added this tab.
 9. Select **Save**.
-
-## Add tab by pinning card details
-
-Use these steps to add a tab for a record that was shared or pasted in a Teams channel or chat. To learn how to share records and page links in Teams, see [Share Records and Page Links in Teams](across-working-with-teams.md).
-
-1. In Teams, select the **Details** button on the card.
-2. In the upper-right corner of the card details, select **Pin to top of chat** ![Pin icon for adding Teams tab in Business Central](media/pin-teams.png) icon.
 
 ## Change a tab and its content
 

@@ -8,17 +8,19 @@ ms.reviewer: jswymer
 ---
 This Copilot feature was validated and is supported in the following languages only:
 
+- Chinese (simplified)
 - Czech
+- Danish
+- Dutch
 - English
 - Finnish
 - French
 - German
 - Greek
-- Danish
-- Dutch
 - Italian
 - Japanese
 - Korean
+- Norwegian (Bokmål)
 - Polish
 - Portuguese (Brazil)
 - Russian

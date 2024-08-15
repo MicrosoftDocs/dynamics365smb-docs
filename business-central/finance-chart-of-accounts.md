@@ -5,7 +5,7 @@ author: kennienp
 ms.topic: conceptual
 ms.search.keywords: analysis, history, track
 ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
-ms.date: 04/17/2024
+ms.date: 08/06/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -107,9 +107,9 @@ Here are some best practices that you might consider when you develop and mainta
 
 ## See also
 
-[Set Up or Changing the Chart of Accounts](finance-setup-chart-accounts.md)  
-[Understand the general ledger](finance-general-ledger.md)
-[Financial analytics](bi.md)  
-[Finance overview](finance.md)  
+[Set Up or Changing the Chart of Accounts](finance-setup-chart-accounts.md)    
+[Understand the general ledger](finance-general-ledger.md)  
+[Financial analytics](bi.md)    
+[Finance overview](finance.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

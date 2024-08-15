@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: direct posting, general ledger
 ms.search.form: 39, 251
-ms.date: 06/13/2024
+ms.date: 08/06/2024
 ms.service: dynamics-365-business-central
-
 ---
+
 # Post transactions directly to the general ledger
 
 You use general journals to post financial transactions directly to general ledger accounts and other accounts, such as bank, customer, vendor, and employee accounts.  
@@ -38,10 +38,10 @@ Entries that you post with documents require a credit memo process. However, you
 
 ## See also
 
-[Work with General Journals](ui-work-general-journals.md)  
-[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)  
-[Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)  
-[Finance](finance.md)  
+[Work with General Journals](ui-work-general-journals.md)    
+[Record and Reimburse Employees' Expenses](finance-how-record-reimburse-employee-expenses.md)    
+[Reverse Journal Postings and Undo Receipts/Shipments](finance-how-reverse-journal-posting.md)    
+[Finance](finance.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,7 +6,7 @@ ms.author: mikebc
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: overview
-ms.date: 06/06/2024
+ms.date: 08/12/2024
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
 ---
@@ -98,11 +98,9 @@ This section describes the minimum requirements that must be met for your organi
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] online (SaaS).
 
-- Environments must be of platform version 21.1 or later.
-
 ### Requirements for individual users to access data in Teams
 
-- Data must be accessed using the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams. Users must have the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams installed and must use one of the supported Teams clients. For a list of Teams clients supported by [!INCLUDE [prod_short](includes/prod_short.md)], see [Minimum Requirements for Using Business Central](product-requirements.md#teams).
+- Data must be accessed using the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams. Users must have the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams installed and must use one of the supported Teams clients. Get a list of Teams clients supported by [!INCLUDE [prod_short](includes/prod_short.md)] in [Minimum Requirements for Using Business Central](product-requirements.md#teams).
 
 - Users must be internal to the organization, meaning that a user identity originates from the same home tenant where [!INCLUDE [prod_short](includes/prod_short.md)] is deployed and where access is enabled. External identities aren't supported. [!INCLUDE [prod_short](includes/prod_short.md)] automatically prevents access to guests.
 
@@ -124,6 +122,7 @@ This section describes the minimum requirements that must be met for your organi
   |Office 365 F2|131fd665-5752-4995-a628-bcba5c889745|
   |Office 365 F3|4b585984-651b-448a-9e53-3b10f069cf7f|
   |Microsoft Teams Essentials (Microsoft Entra Identity) |3ab6abff-666f-4424-bfb7-f0bc274ec7bc|
+  |Microsoft Teams EEA|7e74bd05-2c47-404e-829a-ba95c66fe8e5|
   
   Most offers based on these plans are also supported. For example, if you subscribe to Microsoft 365 Business Premium (Nonprofit Staff Pricing), it's a specific offer for not-for-profit organizations based on the Microsoft 365 Business Premium plan, and is therefore supported.
 
@@ -140,11 +139,10 @@ This section describes the minimum requirements that must be met for your organi
 
 ## Next steps
 
-- Get an understanding of the user access flow to help plan your approach and configuration of Business Central to match the business needs. See [User Access Flow](admin-access-with-m365-license-flow.md).
-- Set up your environment and users for access with with Microsoft 365 licenses. See [Set Up Access with Microsoft 365 Licenses ](admin-access-with-m365-license-setup.md).
-- For troubleshooting tips, see [Business Central troubleshooting](/troubleshoot/dynamics-365/business-central/welcome-business-central).
+- Get an understanding of the user access flow to help plan your approach and configuration of Business Central to match the business needs. Learn more in [User Access Flow](admin-access-with-m365-license-flow.md).
+- Set up your environment and users for access with with Microsoft 365 licenses. Learn more in [Set Up Access with Microsoft 365 Licenses ](admin-access-with-m365-license-setup.md).
+- For troubleshooting tips, visit [Business Central troubleshooting](/troubleshoot/dynamics-365/business-central/welcome-business-central).
 
 ## See also
 
 [Business Central and Microsoft Teams Integration](across-teams-overview.md)  
-

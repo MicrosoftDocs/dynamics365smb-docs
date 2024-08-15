@@ -4,7 +4,7 @@ description: Manage Business Central integration with Microsoft Teams.
 author: jswymer
 ms.topic: overview
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 0814/2024
+ms.date: 08/14/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.custom: bap-template

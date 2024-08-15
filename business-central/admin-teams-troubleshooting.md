@@ -104,7 +104,7 @@ This problem can be caused by a couple of things: lack of permissions in [!INCLU
 
 When using [!INCLUDE [prod_short](includes/prod_short.md)] features in the details window that require access to your location or device camera, you must first give your consent for Teams to access these device capabilities.  
 
-- For Teams in the browser, make sure that your browser settings allow access to camera and location for https://teams.microsoft.com. 
+- For Teams in the browser, make sure that your browser settings allow access to camera and location for [https://teams.microsoft.com](https://teams.microsoft.com).
 
 - For Teams for iOS or Android, make sure that your device settings allow access to camera and location for the Teams mobile app. 
 

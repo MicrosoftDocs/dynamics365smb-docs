@@ -9,6 +9,7 @@ ms.topic: overview
 ms.date: 08/12/2024
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
+ms.search.form: 1978
 ---
 
 # Business Central access with Microsoft 365 licenses

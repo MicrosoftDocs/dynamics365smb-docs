@@ -107,7 +107,7 @@ The **License Configuration** page in Business Central displays the different ty
 
 ### Do I need to acquire a new type of Microsoft 365 license for this feature to work?  
 
-Microsoft hasn't created new licenses or new plans to power this feature. This feature relies entirely on existing Microsoft 365 plans and licenses. If you already subscribe to one of the supported Microsoft 365 plans, then you already have this new use right. Otherwise, if you don't subscribe to Microsoft 365 today, you can sign up for Microsoft 365 Business Premium or similar plans here. 
+Microsoft hasn't created new licenses or new plans to power this feature. This feature relies entirely on existing Microsoft 365 plans and licenses. If you already subscribe to one of the supported Microsoft 365 plans, then you already have this new use right. Learn more about the supported plans in [Business Central access with Microsoft 365 licenses](admin-access-with-m365-license.md#requirements-for-individual-users-to-access-data-in-teams). Otherwise, if you don't subscribe to Microsoft 365 today, you can sign up for Microsoft 365 Business Premium or similar plan. Learn more in [Try or buy a Microsoft 365 for business subscription](/microsoft-365/commerce/try-or-buy-microsoft-365).
 
 ### How do I find out which users have only a Microsoft 365 license?
 

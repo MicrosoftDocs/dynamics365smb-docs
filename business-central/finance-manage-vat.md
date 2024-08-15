@@ -1,19 +1,19 @@
 ---
-title: VAT Management overview
+title: VAT management overview
 description: Learn how to manage VAT with the listed information and resources.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: VAT
 ms.search.form: 118, 472, 737, 743
-ms.date: 01/31/2023
+ms.date: 08/12/2024
 ms.author: altotovi
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
+
 # VAT management overview
-Value Added Tax (VAT) is an indirect tax on the consumption of goods and services. VAT is levied at each stage of the supply chain where value is added from initial production to the point of sale. To get started with VAT management, see the following topics.  
+Value Added Tax (VAT) is an indirect tax on the consumption of goods and services. VAT is levied at each stage of the supply chain where value is added from initial production to the point of sale. To get started with VAT management, see the following articles.  
 
 |  Article  |  Description  |  
 |--------|--------------|  
@@ -30,9 +30,9 @@ Value Added Tax (VAT) is an indirect tax on the consumption of goods and service
 | [Validate VAT Registration Numbers](finance-how-validate-vat-registration-number.md) | This article explains how to use Business Central validation for VAT registration numbers for your contacts, customers, and vendors based on the EU VIES VAT Number Validation service.|
 
 
-## See Also  
-[Finance](finance.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## See also  
+[Finance](finance.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

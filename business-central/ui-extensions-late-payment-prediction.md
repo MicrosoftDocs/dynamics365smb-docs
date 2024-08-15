@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.search.form: 1950, 1951, 
-ms.date: 07/05/2024
+ms.date: 07/11/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -99,13 +99,13 @@ For [!INCLUDE[prod_short](includes/prod_short.md)] online, the model is publishe
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
 2. Choose the **Use My Azure Subscription** check box.
-3. On the **My Model Credentials** FastTab, enter the API URL and API key for your model.  
+3. On the **Use My Azure Subscription** FastTab, enter the API URL and API key for your model.  
 
 ## See also
 
-[Customizing Business Central Using Extensions](ui-extensions.md)  
-[Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)  
-[Use Artificial Intelligence in Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
-[Prediction API overview](/dynamics365/business-central/dev-itpro/developer/ml-prediction-api-overview)
+[Customizing Business Central Using Extensions](ui-extensions.md)    
+[Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)    
+[Use Artificial Intelligence in Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)    
+[Prediction API overview](/dynamics365/business-central/dev-itpro/developer/ml-prediction-api-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

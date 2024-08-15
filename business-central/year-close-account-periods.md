@@ -7,9 +7,10 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.search.form: 100,
-ms.date: 05/07/2024
+ms.date: 08/05/2024
 ms.service: dynamics-365-business-central
 ---
+
 # Close accounting periods
 
 When a fiscal year is over, you must close the periods that comprise it.
@@ -22,7 +23,7 @@ When a fiscal year is over, you must close the periods that comprise it.
     If more than one fiscal year is open, the earliest one is automatically selected to be closed. A message identifies the year that will close and the results of its closing.
 3. To close the year, choose the **Yes** button.
 
-The fiscal year is closed, and the **Closed** and **Date Locked** fields for all the periods in the year are selected. The fiscal year cannot be opened again and you cannot remove the check mark from the **Closed** or **Date Locked** fields.
+The fiscal year is closed, and the **Closed** and **Date Locked** fields for all the periods in the year are selected. The fiscal year can't be opened again and you can't remove the check mark from the **Closed** or **Date Locked** fields.
 
 > [!NOTE]  
 > You can't close a fiscal year before you create a new one. Notice that after a fiscal year is closed, you can't change the starting date of the following fiscal year.
@@ -33,10 +34,10 @@ After a fiscal year is closed, you must close the income statement accounts and 
 
 ## See also
 
-[Closing Books](year-close-books.md)  
-[Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)  
-[Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Closing Books](year-close-books.md)    
+[Post the Year-End Closing Entry](year-how-post-year-end-close-entry.md)    
+[Work with Accounting Periods and Fiscal Years](finance-accounting-periods-and-fiscal-years.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,10 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
-ms.date: 02/23/2024
+ms.date: 08/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
+
 # Set up posting groups
 
 Posting groups map entities to general ledger accounts. Examples of entities are customers, vendors, items, resources, and sales and purchase documents. Posting groups save time and help avoid mistakes when you post transactions. The transaction values go to the accounts specified in the posting group for that particular entity. The only requirement is that you have a chart of accounts. For more information, see [Set Up the Chart of Accounts](finance-setup-chart-accounts.md).  
@@ -138,9 +139,9 @@ When something is wrong, [!INCLUDE[prod_short](includes/prod_short.md)] will dis
 
 ## See also
 
-[The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
-[Setting Up Finance](finance-setup-finance.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[The General Ledger and the Chart of Accounts](finance-general-ledger.md)    
+[Setting Up Finance](finance-setup-finance.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

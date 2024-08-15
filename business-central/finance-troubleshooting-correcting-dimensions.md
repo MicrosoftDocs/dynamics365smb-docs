@@ -79,7 +79,7 @@ You can manually select one or more general ledger entries, or use filters to se
    |Manage Selection Criteria     |Keep track of the selection process, and undo selections if needed.         |
 
 4. On the **Dimension Correction Changes** FastTab, choose the dimension that you want to change in the **Dimension Code** field, and the new value in the **New Dimension Value Code** field.
-5. To validate that the correction, choose **Validate Dimension Changes**. For more information, see [Validating Dimension Corrections](finance-troubleshooting-correcting-dimensions.md#validating-dimension-corrections).
+5. To validate that the correction, choose **Validate Dimension Changes**. For more information, see [Validating Dimension Corrections](finance-troubleshooting-correcting-dimensions.md#validate-dimension-corrections).
 6. Choose **Run**.
 
 ### Validate dimension corrections

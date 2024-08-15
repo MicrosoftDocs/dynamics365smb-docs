@@ -5,10 +5,11 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 05/07/2024
+ms.date: 08/07/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
+
 # Reverse journal postings and undo receipts/shipments
 
 Reverse journal postings are useful, for example, for correcting errors and for clearing out an old accruals entry before entering a new one. A reverse entry is the same as the original entry, but has an opposite sign in the **Amount** field. The reverse entry must have the same document number and posting date as the original entry. After you reverse an entry, you must make the correct entry.
@@ -95,10 +96,10 @@ The following is a simple scenario that illustrates how it works:
 
 ## See also
 
-[Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)  
-[Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)  
-[Work with General Journals](ui-work-general-journals.md)  
-[Finance](finance.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Undo Assembly Posting](assembly-how-to-undo-assembly-posting.md)    
+[Post Transactions Directly to the General Ledger](finance-how-post-transactions-directly.md)    
+[Work with General Journals](ui-work-general-journals.md)    
+[Finance](finance.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

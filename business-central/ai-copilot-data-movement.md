@@ -50,64 +50,7 @@ The following table shows the Azure OpenAI Service's geography used by Copilot, 
 
 > [!NOTE]
 > Once an Azure OpenAI Service becomes available in your Business Central geography, your environment will automatically transition to use the Azure OpenAI Service and opting in isn't required or even possible.
-<!--
 
-BC geos base on https://releaseplans.microsoft.com/availability-reports/?report=productgeoreport/
-case "AUSTRALIAEAST":
-            case "AUSTRALIASOUTHEAST":
-                return new CapiRegion("au", 2);
-            case "BRAZILSOUTH":
-                return new CapiRegion("br", 2);
-            case "CANADACENTRAL":
-            case "CANADAEAST":
-                return new CapiRegion("ca", 2);
-            case "CENTRALINDIA":
-            case "SOUTHINDIA":
-                return new CapiRegion("in", 1);
-            case "EASTASIA":
-                return new CapiRegion("as", 2);
-            case "EASTUS":
-            case "EASTUS2":
-            case "SOUTHCENTRALUS":
-            case "CENTRALUS":
-            case "NORTHCENTRALUS":
-            case "WESTUS":
-            case "US":
-                return new CapiRegion("us", 9, HasGpt4InGeo: true, HasTurboInGeo: true);
-            case "FRANCECENTRAL":
-            case "FRANCESOUTH":
-                return new CapiRegion("fr", 1);
-            case "GERMANYNORTH":
-            case "GERMANYWESTCENTRAL":
-                return new CapiRegion("de", 1);
-            case "JAPANEAST":
-            case "JAPANWEST":
-                return new CapiRegion("jp", 1);
-            case "KOREACENTRAL":
-            case "KOREASOUTH":
-                return new CapiRegion("kr", 1);
-            case "NORWAYEAST":
-            case "NORWAYWEST":
-                return new CapiRegion("no", 1);
-            case "SOUTHAFRICANORTH":
-            case "SOUTHWESTAFRICA":
-                return new CapiRegion("za", 1);
-            case "SOUTHEASTASIA":
-                return new CapiRegion("sg", 1);
-            case "SWITZERLANDNORTH":
-            case "SWITZERLANDWEST":
-                return new CapiRegion("ch", 1, HasTurboInGeo: true);
-            case "UKSOUTH":
-            case "UKWEST":
-                return new CapiRegion("uk", 2);
-            case "NORTHEUROPE":
-            case "WESTEUROPE":
-                return new CapiRegion("eu", 10);
-            case "UAENORTH":
-            case "UAECENTRAL":
-                return new CapiRegion("ae", 1);
-
--->
 
 ## Next steps
 

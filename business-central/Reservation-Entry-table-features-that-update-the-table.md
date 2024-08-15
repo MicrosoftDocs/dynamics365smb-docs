@@ -13,7 +13,7 @@ ms.reviewer: bholtorf
 
 # Reservation Entry table - Introduction
 
-This technical whitepaper provides guidance to help you understand and troubleshoot data inconsistency issues in the *Reservation Entry* table (Table 337) in Microsoft Dynamics NAV. The first part is an introduction to the features that generate or modify data in this table. It also covers several fields in the *Reservation Entry* table that are worth pointing out in relation to these features. The second part demonstrates through examples how entries in the *Reservation Entry* table are generated, deleted, or modified when transfer orders are processed or planning features are executed.
+This technical whitepaper provides guidance to help you understand and troubleshoot data inconsistency issues in the *Reservation Entry* table (Table 337) in [!INCLUDE[prod_short](includes/prod_short.md)]. The first part is an introduction to the features that generate or modify data in this table. It also covers several fields in the *Reservation Entry* table that are worth pointing out in relation to these features. The second part demonstrates through examples how entries in the *Reservation Entry* table are generated, deleted, or modified when transfer orders are processed or planning features are executed.
 
 The *Reservation Entry* table is used to handle and store information concerning reservation, item tracking, and order tracking.
 
@@ -32,20 +32,20 @@ In general terms, the data generated in the *Reservation Entry* table depends on
 
 ### Order Tracking policy
 
-If the **Order Tracking Policy** field on an item is set to None, Microsoft Dynamics NAV will never create reservation entries in the *Reservation Entry* table, unless the Net Change Plan or Regenerative Plan, Reservation, or Item Tracking is executed. Additionally, without order tracking enabled, you can have reservation entries when using the Manufacturing-to-Order or Assembly-to-Order policies.
+If the **Order Tracking Policy** field on an item is set to None, [!INCLUDE[prod_short](includes/prod_short.md)] will never create reservation entries in the *Reservation Entry* table, unless the Net Change Plan or Regenerative Plan, Reservation, or Item Tracking is executed. Additionally, without order tracking enabled, you can have reservation entries when using the Manufacturing-to-Order or Assembly-to-Order policies.
 
 You can consider setting the **Order Tracking Policy** to None if you won't require tracking on the fly a demand against a supply or vice versa. The tracking of supply against a demand is handled by the order tracking functionality or the planning engine. We don't recommend that you use order tracking together with planning functionality.
 
-When you set the **Order Tracking Policy** field to Tracking Only, Microsoft Dynamics NAV will always create entries in table 337 whenever an order is created for the item, but the **Reservation Status** in table 337 isn't always strictly set to Tracking. Consider the following scenario:
+When you set the **Order Tracking Policy** field to Tracking Only, [!INCLUDE[prod_short](includes/prod_short.md)] will always create entries in table 337 whenever an order is created for the item, but the **Reservation Status** in table 337 isn't always strictly set to Tracking. Consider the following scenario:
 
 > [!NOTE]  
 > The work date is set as 01/23/2014 (MM/DD/YYYY) for all examples. 
   
 1. Create an item with **Order Tracking Policy** field set to Tracking Only.  
-1. Create a purchase order. Microsoft Dynamics NAV will create a reservation entry with the **Reservation Status** of Surplus, since the purchase order isn't yet allocated to a demand.
-1. Create a sales order. Microsoft Dynamics NAV will now create another reservation entry with a **Reservation Status** of Tracking.
+1. Create a purchase order. [!INCLUDE[prod_short](includes/prod_short.md)] will create a reservation entry with the **Reservation Status** of Surplus, since the purchase order isn't yet allocated to a demand.
+1. Create a sales order. [!INCLUDE[prod_short](includes/prod_short.md)] will now create another reservation entry with a **Reservation Status** of Tracking.
 
-The **Reservation Status** created in step 2 will be updated to Tracking; this is handled by Microsoft Dynamics NAV automatically. This concept is called Dynamic Tracking.
+The **Reservation Status** created in step 2 will be updated to Tracking; this is handled by [!INCLUDE[prod_short](includes/prod_short.md)] automatically. This concept is called Dynamic Tracking.
 By setting the **Order Tracking Policy** field on the item to Tracking Only, an end user can make use of the order tracking feature to get an overview of which supply the demand is allocated to and vice versa.
 
 > [!NOTE]  
@@ -61,7 +61,7 @@ The **Source ID** field contains the ID of the document in the table referenced 
 
 The **Source Ref. No.** field contains a reference number for the line, which the reservation **Entry No.** is related to. If the entry is related to a sale or purchase line, a journal line, or a requisition line, information in this field is copied from the **Line No.** field. If it's related to an entry in the *Item Ledger Entry* table (Table 32), information in this field is copied from the **Entry No.** field of the *Item Ledger Entry* table.
 
-When you use the reservation policy option Always in combination with order tracking, both are normally in sync. However, when the reservation is removed or the receipt date of supply is moved forward past the demand due date, the order tracking will be removed. You can also encounter an error message, in which Microsoft Dynamics NAV asks what to do with existing reservations. This scenario is illustrated in the following example:
+When you use the reservation policy option Always in combination with order tracking, both are normally in sync. However, when the reservation is removed or the receipt date of supply is moved forward past the demand due date, the order tracking will be removed. You can also encounter an error message, in which [!INCLUDE[prod_short](includes/prod_short.md)] asks what to do with existing reservations. This scenario is illustrated in the following example:
 
 1. Create a new item called COMP. Set the following fields:
   - **Replenishment System**: Purchase
@@ -98,7 +98,7 @@ When you use the reservation policy option Always in combination with order trac
 9. Open the components list and look up Item COMP.
 
 > [!NOTE]  
-> No reservation or order tracking is created by Microsoft Dynamics NAV. The reason is that a reservation already exists against the sales order created in Step 6.
+> No reservation or order tracking is created by [!INCLUDE[prod_short](includes/prod_short.md)]. The reason is that a reservation already exists against the sales order created in Step 6.
 
 Suppose, due to business reasons, the item is needed more urgently on the released production order created in Step 7. So next, in the following steps we cancel the reservation from the sales order that was created in Step 6 and notice how order tracking is handled.
 
@@ -111,14 +111,14 @@ Suppose, due to business reasons, the item is needed more urgently on the releas
 
 13. Change the **Expected Receipt Date** field on the purchase order header at Step 5 from 01/24/2014 to 02/05/2014.
 
-Microsoft Dynamics NAV will display the following warning message:
+[!INCLUDE[prod_short](includes/prod_short.md)] will display the following warning message:
 
    Reservations exist for this Order. These reservations will be cancelled if a data conflict is caused by this change. Do you want to continue?
 
 14. Choose Yes. Look up the reservation and order tracking entries from the purchase order.
 
 > [!NOTE]  
-> The existing reservation is cancelled and would need to be recreated manually. The order, however, is dynamic and has been recreated by Microsoft Dynamics NAV to exist between the purchase order and the sales order. The reason is the demand of the released production order (02/01/2014) is before the expected receipt date of the supply.
+> The existing reservation is cancelled and would need to be recreated manually. The order, however, is dynamic and has been recreated by [!INCLUDE[prod_short](includes/prod_short.md)] to exist between the purchase order and the sales order. The reason is the demand of the released production order (02/01/2014) is before the expected receipt date of the supply.
 
 This concludes the demonstration of the interaction between using automatic reservations and order tracking. The examples also show what happens when you modify due dates and the error message that is triggered when there's a reservation conflict.
 
@@ -126,7 +126,7 @@ This concludes the demonstration of the interaction between using automatic rese
 
 Planning done using order planning, the requisition worksheet, or the planning worksheet will generate entries in the *Reservation Entry* table with the **Reservation Status** field set to Tracking, Reservation, or Surplus. There should always be a matching pair with same Entry No. of positive and negative value in the **Quantity (Base)** field when the status is Tracking or Reservation. The **Source Type** field will be the demand type, that is, table 37 for the negative quantity and a planning table, for example, table 246, for the positive quantity. The **Source ID** field will be PLANNING.
 
-In the case of non-allocated supply or demand, Microsoft Dynamics NAV will set the **Reservation Status** field to Surplus. For example, you can have a reservation status of Surplus when the existing inventory is below the safety stock quantity or demand is linked to forecast.
+In the case of non-allocated supply or demand, [!INCLUDE[prod_short](includes/prod_short.md)] will set the **Reservation Status** field to Surplus. For example, you can have a reservation status of Surplus when the existing inventory is below the safety stock quantity or demand is linked to forecast.
 
 The *Untracked Planning Element* table (Table 99000855) holds information about untracked quantities displayed when the user does a lookup from the order tracking page to see untracked quantities or chooses a Warning Icon in the planning worksheet. The table contains entries that account for an untracked surplus quantity in the order tracking network.
 
@@ -147,29 +147,29 @@ In the *Reservation Entry* table, as on the Purchase, Transfer and Production or
 
 ### Reordering and manufacturing policy
 
-If a planning feature is executed for an item set with the Reordering Policy set to Order, Microsoft Dynamics NAV will create entries in the *Reservation Entry* table with the reservation status of type Reservation instead of Tracking.
+If a planning feature is executed for an item set with the Reordering Policy set to Order, [!INCLUDE[prod_short](includes/prod_short.md)] will create entries in the *Reservation Entry* table with the reservation status of type Reservation instead of Tracking.
 
-The **Source Type** and **Source ID** fields will have the equivalent treatment of other reordering policies. However, in the **Binding** field in the *Reservation Entry* table, Microsoft Dynamics NAV will enter Order-to-Order.
+The **Source Type** and **Source ID** fields will have the equivalent treatment of other reordering policies. However, in the **Binding** field in the *Reservation Entry* table, [!INCLUDE[prod_short](includes/prod_short.md)] will enter Order-to-Order.
 
 The **Binding** field is filled in to control supply orders that are bound to specific demand, for example, production orders that are created directly from a sales order. The field displays Order-to-Order when the entry is tied specifically to a demand or a supply (Automatic Reservation). The demand can be related to sales or component need.
 
 ### Item tracking and prospect reservation entry
 
-The Prospect reservation status can be created by Microsoft Dynamics NAV in the *Reservation Entry* table when you aren't using any order network entities, that is, Order Tracking. For example, on a consumption journal line you assign Item tracking to the component. However, if the item is already order tracked, Microsoft Dynamics NAV might create more Prospect reservation entries. This is demonstrated in theEXAMPLE 2 related to transfer orders in the second part of this document.
+The Prospect reservation status can be created by [!INCLUDE[prod_short](includes/prod_short.md)] in the *Reservation Entry* table when you aren't using any order network entities, that is, Order Tracking. For example, on a consumption journal line you assign Item tracking to the component. However, if the item is already order tracked, [!INCLUDE[prod_short](includes/prod_short.md)] might create more Prospect reservation entries. This is demonstrated in theEXAMPLE 2 related to transfer orders in the second part of this document.
 
 When you view or modify the **Item tracking lines** page, the collective contents of the *Tracking Specification* table (Table 336) and *Reservation Entry* table are presented in a temporary version of table 336. This ensures that historic and active item tracking data is accessed as one.
 
 Reservations fall into two categories: Nonspecific reservations, where lot and serial numbers aren't specified at the time of reservation, and Specific reservations, where you reserve specific lot or serial numbers from inventory.
 
-On a Nonspecific reservation, the **Lot No.** or **Serial No.** field is blank in the **Entry No.** of table 337 pointing at the demand (for instance, the sale). Because of the structure of the reservation logic in Microsoft Dynamics NAV, when you place a Nonspecific reservation on an item-tracked item in inventory, Microsoft Dynamics NAV must nevertheless select specific item ledger entries to reserve against.
+On a Nonspecific reservation, the **Lot No.** or **Serial No.** field is blank in the **Entry No.** of table 337 pointing at the demand (for instance, the sale). Because of the structure of the reservation logic in [!INCLUDE[prod_short](includes/prod_short.md)], when you place a Nonspecific reservation on an item-tracked item in inventory, [!INCLUDE[prod_short](includes/prod_short.md)] must nevertheless select specific item ledger entries to reserve against.
 
-Since the item ledger entries carry the item tracking information, the reservation indirectly reserves specific lot or serial numbers, even though the user didn't intend this. However, with Late Binding, Microsoft Dynamics NAV still reserves against specific entries, but then uses a reshuffling mechanism in Microsoft Dynamics NAV when posting.
+Since the item ledger entries carry the item tracking information, the reservation indirectly reserves specific lot or serial numbers, even though the user didn't intend this. However, with Late Binding, [!INCLUDE[prod_short](includes/prod_short.md)] still reserves against specific entries, but then uses a reshuffling mechanism in [!INCLUDE[prod_short](includes/prod_short.md)] when posting.
 
-For further information, review the Microsoft Dynamics NAV Technical Whitepapers listed in the Additional Resources at the end of this document.
+For further information, review the [!INCLUDE[prod_short](includes/prod_short.md)] Technical Whitepapers listed in the Additional Resources at the end of this document.
 
 ### Source Subtype, Suppressed Action Msg., Action Message Adjustment, and Disallow Cancellation fields
 
-The **Source Subtype**, **Suppressed Action Msg.**, **Action Message Adjustment**, and **Disallow Cancellation** fields in the *Reservation Entry* table are described in this section. Scenarios are provided to demonstrate the use of the **Suppressed Action Msg.**, **Action Message Adjustment** and **Disallow Cancellation** fields. The **Action Message Adjustment** field is used for the order tracking policy feature Tracking and Action Message. The **Disallow Cancellation** field is used for the Assembly-to-Order feature in Microsoft Dynamics NAV 2013.
+The **Source Subtype**, **Suppressed Action Msg.**, **Action Message Adjustment**, and **Disallow Cancellation** fields in the *Reservation Entry* table are described in this section. Scenarios are provided to demonstrate the use of the **Suppressed Action Msg.**, **Action Message Adjustment** and **Disallow Cancellation** fields. The **Action Message Adjustment** field is used for the order tracking policy feature Tracking and Action Message. The **Disallow Cancellation** field is used for the Assembly-to-Order feature in [!INCLUDE[prod_short](includes/prod_short.md)] 2013.
 
 #### Source Subtype
 
@@ -179,7 +179,7 @@ The **Source Subtype** field indicates which Source Subtype the reservation entr
 
 The **Suppressed Action Msg.** field records when an existing supply has already been partially processed, for example, when a purchase order has already been partially received or a production order has consumptions posted against it.
 
-When Planning is executed, Microsoft Dynamics NAV marks this field and sets the **Reservation Entry Status** field to *Surplus8. The following example serves as an illustration:
+When Planning is executed, [!INCLUDE[prod_short](includes/prod_short.md)] marks this field and sets the **Reservation Entry Status** field to *Surplus8. The following example serves as an illustration:
 
 1. Open Item 80001. Set the following fields:
   - **Reordering Policy**: Lot-for-Lot
@@ -206,7 +206,7 @@ The status information in table 337 is shown in the following illustration.
 
 Entry No. 28 in table 337 has reservation status Tracking to match the existing inventory recorded on Item Ledger Entry 318 for 2 units and the outstanding demand in the Sales Order table 37. The subsequent Entry No. 29 also has reservation status Tracking and links the remaining quantity of 8 units between the demand in Sales Order table 37 and the suggested supply in the Requisition Line table 246.
 
-Entry No. 30 is the existing purchase order that has been partially received with quantity 2. As a result, the **Reservation Status** field is Surplus, and Microsoft Dynamics NAV sets the **Quantity (Base)** field to *8* (remaining balance) and the **Suppressed Action Msg.** field is enabled.
+Entry No. 30 is the existing purchase order that has been partially received with quantity 2. As a result, the **Reservation Status** field is Surplus, and [!INCLUDE[prod_short](includes/prod_short.md)] sets the **Quantity (Base)** field to *8* (remaining balance) and the **Suppressed Action Msg.** field is enabled.
 
 #### Action Message Adjustment
 
@@ -221,8 +221,8 @@ The **Action Message Adjustment** field displays the change in the supply side o
 4. Select the sales order from Step 2 and run the **Make Orders** batch job.
 5. On the sales order from Step 2, change the **Quantity** field from 100 to 105.
 The status information in table 337 is shown in the following illustration.
-6. Entry No. 34 has the field **Action Message Adjustment** in table 337 enabled for 5 units with reservation status Surplus. As the sales order was increased at Step 5, Microsoft Dynamics NAV created this reservation because more supply is required.
-7. Open the **Planning Worksheets** page and on the **Home** tab, in the **Process** group, choose **Get Action Messages**. Microsoft Dynamics NAV will suggest increasing the Purchase Order quantity from 100 to 105.
+6. Entry No. 34 has the field **Action Message Adjustment** in table 337 enabled for 5 units with reservation status Surplus. As the sales order was increased at Step 5, [!INCLUDE[prod_short](includes/prod_short.md)] created this reservation because more supply is required.
+7. Open the **Planning Worksheets** page and on the **Home** tab, in the **Process** group, choose **Get Action Messages**. [!INCLUDE[prod_short](includes/prod_short.md)] will suggest increasing the Purchase Order quantity from 100 to 105.
 
 #### Disallow Cancellation
 
@@ -253,15 +253,15 @@ The status information in table 337 is shown in the following illustration.
 
 Entry No. 82 has Reservation Status Surplus as 9 units of the Assemble Comp on inventory and has no demand. Entry No. 84 are tracking reservation entries between the demand on the *Assembly Line* table 901 and its supply on item ledger entry 346.
 
-Entry No. 86 has Binding Order-to-Order with Reservation Status Reservation. Additionally the **Disallow Cancellation** field is enabled as the assembly policy is set as Assemble to Order for item Assembly FG. Finally, the **Planning Flexibility** field is set to None, as Microsoft Dynamics NAV doesn't permit the planning logic to delete the reservation.
+Entry No. 86 has Binding Order-to-Order with Reservation Status Reservation. Additionally the **Disallow Cancellation** field is enabled as the assembly policy is set as Assemble to Order for item Assembly FG. Finally, the **Planning Flexibility** field is set to None, as [!INCLUDE[prod_short](includes/prod_short.md)] doesn't permit the planning logic to delete the reservation.
 
 #### Quantity available to pick and reservations
 
-The **Reserved Pick & Ship Qty.** field in table 337 that exists in versions prior to Microsoft Dynamics NAV 2013 controls item availability within a managed warehouse. In any installation of Microsoft Dynamics NAV warehouse management, item quantities exist both as warehouse entries and as item ledger entries. These two entry types contain different information about where items exist and whether they're available. Warehouse entries define an item’s availability by bin and bin type, which is called bin content. Item ledger entries define an item’s availability by its reservation to outbound documents. Special functionality exists in the picking algorithm to calculate the quantity that is available to pick when bin content is coupled with reservations. The picking algorithm subtracts quantities that are reserved for other outbound documents, quantities on existing pick documents, and quantities that are picked but not yet shipped or consumed. The result is displayed in the **Available Qty. to Pick** field in the **Pick Worksheet** page, where the field is calculated dynamically. The value is also calculated when a user creates warehouse picks directly from outbound documents such as sales orders, production consumption, or outbound transfers.
+The **Reserved Pick & Ship Qty.** field in table 337 that exists in versions prior to [!INCLUDE[prod_short](includes/prod_short.md)] 2013 controls item availability within a managed warehouse. In any installation of [!INCLUDE[prod_short](includes/prod_short.md)] warehouse management, item quantities exist both as warehouse entries and as item ledger entries. These two entry types contain different information about where items exist and whether they're available. Warehouse entries define an item’s availability by bin and bin type, which is called bin content. Item ledger entries define an item’s availability by its reservation to outbound documents. Special functionality exists in the picking algorithm to calculate the quantity that is available to pick when bin content is coupled with reservations. The picking algorithm subtracts quantities that are reserved for other outbound documents, quantities on existing pick documents, and quantities that are picked but not yet shipped or consumed. The result is displayed in the **Available Qty. to Pick** field in the **Pick Worksheet** page, where the field is calculated dynamically. The value is also calculated when a user creates warehouse picks directly from outbound documents such as sales orders, production consumption, or outbound transfers.
 
 *Quantity available to pick = quantity in pick bins - quantity on picks and movements – (reserved quantity in pick bins + reserved quantity on picks and movements).*
 
-The following example provides an illustration of how the value in the quantity available to pick is calculated in Microsoft Dynamics NAV:
+The following example provides an illustration of how the value in the quantity available to pick is calculated in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 1. Create a new item called Warehouse Item. Set the following fields:
   - **Base Unit of Measure**: PCS
@@ -305,9 +305,9 @@ The reason is that available quantity to pick is zero. This is calculated as fol
    Total reserved against sales orders is 110
    Quantity available to pick = 100 – 110 = zero.
 
-When the warehouse put-away is registered in Step 7, that enables the creation of the warehouse pick in Step 11. In versions prior to Microsoft Dynamics NAV 2013, the Reserved **Pick & Ship Qty.** field in table 337 is populated against the reservation for quantity 10.
+When the warehouse put-away is registered in Step 7, that enables the creation of the warehouse pick in Step 11. In versions prior to [!INCLUDE[prod_short](includes/prod_short.md)] 2013, the Reserved **Pick & Ship Qty.** field in table 337 is populated against the reservation for quantity 10.
 
-The following illustration is taken from Microsoft Dynamics NAV 2009 R2.
+The following illustration is taken from [!INCLUDE[prod_short](includes/prod_short.md)] 2009 R2.
 
 ## Illustrations using transfer orders and planning
 
@@ -317,7 +317,7 @@ When using transfer orders and the item is shipped but not fully received, in th
 
 The **Source Ref. No.** field is calculated by the last Line Entry Number + Line Entry Number of the Item on the posted Transfer Shipment.
 
-When order tracking is activated and there's no demand (sales order or consumption), Microsoft Dynamics NAV creates two entries in table 337 with reservation status Surplus. One is against the *Transfer Line* table 5741 and the other is against the Item Ledger Entry table 32.
+When order tracking is activated and there's no demand (sales order or consumption), [!INCLUDE[prod_short](includes/prod_short.md)] creates two entries in table 337 with reservation status Surplus. One is against the *Transfer Line* table 5741 and the other is against the Item Ledger Entry table 32.
 
 This is demonstrated in the first example.
 
@@ -454,7 +454,7 @@ This completes the section how order tracking entries in the **Reservation Entry
 
 ### Planning calculated
 
-When using planning features, that is, the **Requisition Worksheet**, **Planning Worksheet**, or **Order Planning**, then reservation entries on **Reservation Entry** table 337 might be modified or added depending on the planning suggestion given by the logic in Microsoft Dynamics NAV. Example 3 will use **Reordering Policy** Order with **Manufacturing Policy** Make-to Order for a produced Item. The component will use **Reordering Policy** Fixed Reorder Quantity.
+When using planning features, that is, the **Requisition Worksheet**, **Planning Worksheet**, or **Order Planning**, then reservation entries on **Reservation Entry** table 337 might be modified or added depending on the planning suggestion given by the logic in [!INCLUDE[prod_short](includes/prod_short.md)]. Example 3 will use **Reordering Policy** Order with **Manufacturing Policy** Make-to Order for a produced Item. The component will use **Reordering Policy** Fixed Reorder Quantity.
 
 #### Example 3
 
@@ -493,7 +493,7 @@ Assign the Production BOM to the Parent Item 70061.
 
 The following planning suggestions are given.
 
-The first planning suggestion is to create a new planned production order to supply the outstanding demand of the sales order for quantity 40 of the Parent Item 70061. Review order tracking and Microsoft Dynamics NAV will show the outstanding sales order. Order tracking is activated as it is generated by the planning engine.
+The first planning suggestion is to create a new planned production order to supply the outstanding demand of the sales order for quantity 40 of the Parent Item 70061. Review order tracking and [!INCLUDE[prod_short](includes/prod_short.md)] will show the outstanding sales order. Order tracking is activated as it is generated by the planning engine.
 
 The second line is to bring the Inventory above Reorder Point (25). So taking into account Reorder Quantity (50), a quantity of 50 units is suggested by the planning logic. The third line is to bring the Inventory to Safety Stock Level (10).
 

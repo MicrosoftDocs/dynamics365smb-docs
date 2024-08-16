@@ -16,9 +16,7 @@ ms.service: dynamics-365-business-central
 
 With the work in process (WIP) feature you can estimate the financial value of ongoing projects in the general ledger.
 
-As a project progresses, materials and resources are consumed and expenses incurred that must be posted to the project. In many cases, you might post expenses for a project before invoicing. But if only expenses have been posted, your financial statement is inaccurate. To track the actual value of the project, calculate WIP and post it to the general ledger. Learn more at [Understanding WIP Methods](projects-understanding-wip.md).
-
-You can calculate WIP based on the following:
+As a project progresses, materials and resources are consumed and expenses incurred that must be posted to the project. In many cases, you might post expenses for a project before invoicing. But if only expenses have been posted, your financial statement is inaccurate. To track the actual value of the project, calculate WIP and post it to the general ledger. Following WIP methods are available out of the box:
 
 * Cost value
 * Sales value
@@ -26,21 +24,11 @@ You can calculate WIP based on the following:
 * Percentage of completion
 * Completed contract
 
-<!--If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.-->
-<!--Unhide the above paragraph?-->
+You can also create  WIP method that meets the needs of your organization and set it as the default.  
 
-## Create a project WIP method
+Learn more at [Understanding WIP Methods](projects-understanding-wip.md).
 
-Create a project WIP method that meets the needs of your organization and set it as the default.  
-
-> [!NOTE]
-> After you've used your new method to create WIP entries, you cannot modify or delete that method.  
-
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **project wip methods**, then choose the related link.  
-2. Choose the **New** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Close the page.   
-4. To make this new method the default, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **projects setup**, then choose the related link.  
-5. In the **Default WIP Method** field, choose the method from the list.
+If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.
 
 ## Define a WIP method for a project
 
@@ -106,6 +94,22 @@ You can determine the WIP amount to post to balance sheet accounts for the perio
 
 > [!NOTE]  
 > The batch project only calculates the WIP, it does not post it to the general ledger. To post it, run the **Post WIP to G/L** batch project after you've calculated the WIP. Learn more in the following procedure.
+
+### Review warnings
+
+If in result for calculation of WIP you received *WIP was calculated with warnings.* message, you might want to review them.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **project wip cockpit**,  then choose the related link.  
+2. Select the project for wich you want to review warninings. Projects that have WIP warnings have the **WIP Warnings** toggle enabled.
+3. Choose the **Show Warning** action.
+
+### Delete WIP Entries
+
+If you want to try different WIP method to see if that fits better, you might get *The Project Task cannot be modified because the project has associated project WIP entries.* error. To be able to check WIP method, you need to existing WIP entries.
+
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **project wip cockpit**,  then choose the related link.  
+2. Select the project for wich you want to delete WIP entries.
+3. Choose the **Delete WIP Entries** action.
 
 ## Post WIP
 

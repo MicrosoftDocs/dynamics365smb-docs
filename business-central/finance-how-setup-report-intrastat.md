@@ -283,9 +283,53 @@ If there's a reason to exclude a specific item or fixed asset from Intrastat rep
 >
 > When you add a tariff number that has a defined **Unit of Measure** value to the item, [!INCLUDE [prod_short](includes/prod_short.md)] automatically adds a new unit of measure to the **Item Units of Measure** value for the item. The **Qty. per Unit of Measure** value is based on the **Quantity Rounding Precision** field.
 
+## Automate inheritance of Country of Origin for Items 
+
+> [!NOTE]
+> If user want to use inheritance for Country of Origin from the purchase document to the sale invoice, this is possible only using Item Tracking Lines. Othewise, system will use default value.
+
+### Set Up  
+
+#### Intrastat Report 
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report Setup**, and then select the related link. 
+2. In the **Intrastat Report Setup** in the **Default Country Code for Item Tracking** field, choose the **Purchase Headers** option.  
+
+#### Item  
+
+To use this automated feature, you must enable item tracking for these items, eather serial numbers, lots, or both of them. To enable item tracking for the item, follow these steps.
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item**, and then select the related link.
+2. Choose the item you want to configure.
+3. On the **Item Tracking** FastTab, select one of item tracking codes using the **Item Tracking Code** field.
+4. When selecting, you can see how item tracking codes are configured.
+5. Select the one you want and click **OK**.
+
+### Use in the Purchase documents 
+
+Once you have selected the item with enable **Item Tracking Code** in the purchase line, you need to follow these steps.  
+
+1. Select **Related Information** and run the **Item Tracking Lines** action.
+2. On the **Item Tracking Lines** page after adding **Serial No.** or **Lot No.** and value in its **Quantity (Basse)** field, choose one of these options:  
+   1. The **Lot No. Information Card** action if you are using lots.   
+   2. The **Serial No. Information Card** action if you are using serial numbers.  
+3.  When you have opened the **Lot No. Information Card** or **Serial No. Information Card** page, click **New** (**+**) to create new information card. 
+4.  The **Country/Region Code** will be populated with the **Country/Region Code** from your document **Purchase Header**.
+5.  If you want to change **Country/Region Code**, you can do it manually.
+6.  Close the page
+7.  Repeat this process for each of lines on the **Item Tracking Lines** page.
+8.  Close the **Item Tracking Lines** page and repeat this process for all lines in your documents where you have configured item trackings.
+
+When you wark with the **Sales Invoice**, Business Central will automatically collect this **Country/Region Code** for any lot or serial number you choose. You can always check the code using the **Item Tracking Lines** from the sales lines.  
+
+These **Country/Region Codes** will be automatically populated in the **Country/Region of Origin Code** fild in the **Intrastat Report Lines**.  
+
 ## Enter country/region Intrastat settings
 
 Intrastat requirements are similar in all member states of the EU, though there are important exceptions. In theory, the rules should be uniformly applied in all member states. However, there are differences in implementations, because some member states provide guidelines about how to apply the principles in specific situations (for example, commercial samples and returns of goods). These guidelines can produce different results for various situations. Therefore, the information that countries/regions must enter can differ, as can the file format that they must use for reporting.
+
+> [!NOTE]
+> If user didn't create the **Lot No. Information Card** or **Serial No. Information Card** for specific lot or serul number, system will not use the **Country/Region Code** from the purchase header, and instead of that system will use the **Country/Region Code** from the **Item** card.  
 
 ### Austria
 

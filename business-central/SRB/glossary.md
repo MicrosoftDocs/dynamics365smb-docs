@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Glossary
 
-The most important DYCE terms can be looked up in this glossary.
+The most important terms can be looked up in this glossary.
 
 ## A
 * **Additional Service Commitments** <br/> Service Commitments that can be selected in addition to the standard Service Commitments.

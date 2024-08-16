@@ -36,11 +36,12 @@ In order to be able to react to different needs regarding the order of the outpu
 
 
 ## Invoice and Credit Memo Preview
-In addition to the **Preview Posting** from Business Central, DYCE also provides a [Print Preview](/docs/general/essentials/print-preview.md) for Sales invoices and credit memos that have not yet been posted.
 
+In addition to the **Preview Posting**, there's also a [Print Preview](/docs/general/essentials/print-preview.md) for Sales invoices and credit memos that have not yet been posted.
 
 ## Post document
-Posting Documents for contracts can be posted and printed individually or in batches, as is usual in the purchasing and sales areas. Especially in the case of a large number of contracts, it makes sense to check the Posting Documents by batch after they have been generated, to post them in the batch and to print them in the batch. In addition, **[Contract Details](/docs/srb/working-with-contracts/customer-contracts.md#details-for-contract-invoices)** can be output per customer contract invoice. These show the details relevant to the customer's contract invoice broken down in an understandable way.
+
+Posting Documents for contracts can be posted and printed individually or in batches, as is usual in the purchasing and sales areas. Especially in the case of a large number of contracts, it makes sense to check the Posting Documents by batch after they have been generated, to post them in the batch and to print them in the batch. In addition, [Details for contract invoices](working-with-contracts/customer-contracts.md#details-for-contract-invoices) can be output per customer contract invoice. These show the details relevant to the customer's contract invoice broken down in an understandable way.
 
 When a document is posted, the associated billing lines are archived. These can be subsequently accessed via the posted document line (call **Archived Billing Lines** in the line menu via *Manage*) or the corresponding contract line (call **Archived Billing Lines** in the line menu via *Contract line*).
 

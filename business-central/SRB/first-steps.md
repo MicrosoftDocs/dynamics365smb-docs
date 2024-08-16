@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # First steps
 
-By signing a contract, both partners assume obligations. In DYCE, these obligations are referred to as Service Commitments. Agreements with periodic billing are called **Customer Contracts** on the customer side and **Vendor Contracts** on the supplier side.
+By signing a contract, both partners assume obligations. These obligations are referred to as Service Commitments. Agreements with periodic billing are called **Customer Contracts** on the customer side and **Vendor Contracts** on the supplier side.
 
 Service Commitments can already be offered to the prospect or customer during the [sales phase](/docs/srb/sales/sales-service-commitments.md). For this purpose, additional Service Commitments can be added to the offered items which can then be offered simultaneously or sold at the same time.
 

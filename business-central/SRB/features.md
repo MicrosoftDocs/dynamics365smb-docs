@@ -5,7 +5,7 @@ sidebar_label: Features
 slug: /srb/features
 ---
 
-# Features of DYCE Subscription & Recurring Billing
+# Features of Subscription & Recurring Billing
 
 ## Master data
 
@@ -25,8 +25,8 @@ slug: /srb/features
 * Editing Service Commitments in sales process
 * Creation of bundles on-the-fly
 * Formatting of sales lines
-* DYCE layouts for standard reports with output of Service Commitments when printing
-* DYCE layouts support formatting and bundles
+* Layouts for standard reports with output of Service Commitments when printing
+* Layouts support formatting and bundles
 * Automatic creation of Service Objects on shipment
 * Position numbers in sales documents
 * Print preview of unposted sales documents

@@ -141,7 +141,7 @@ The following fields only need to be considered if a currency different from the
 |Date Currency Factor (Date)|Indicates the date when the currency factor was last updated.|Optional|
 |Calculation Base Amount (MW) (Decimal)|Indicates the basis on which the price in local currency is calculated.|Optional|
 
-The following fields only need to be considered if billing is to take place with **[DYCE Usage Based Billing](/docs/ubb/welcome.md)**:
+The fields in the following table only need to be considered if billing is to take place with [Usage Based Billing](../../UBB/welcome.md) .
 
 |Name|Description|To be filled|
 |:--|:--|:--|

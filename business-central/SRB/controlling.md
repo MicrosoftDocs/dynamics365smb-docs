@@ -48,9 +48,3 @@ In the **[Sales & Receivables Setup](/docs/srb/setup/general.md#sales--receivabl
     * It is possible via the action **Update Dimensions in Deferrals** to update the dimensions in all Contract Deferrals for a contract that have not yet been released, e.g. if the dimensions of a contract line has been changed.
 * **Archived Billing Lines** <br/>
     * There are no dimensions in the Archived Billing Lines.
-
-
-## Info box Contribution Margin
-To answer the question whether a contract with a customer is profitable, the contribution margin of the contract has to be considered. ***In the near future*** it will be possible in DYCE that this consideration of the economic viability per Customer Contract will be displayed clearly in the form of an info box. Furthermore, it will also be possible to cumulatively transfer this view to all Customer Contracts of the customer.
-
-Further evaluations of contracts will follow.

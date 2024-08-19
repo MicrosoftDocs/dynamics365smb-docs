@@ -1,7 +1,7 @@
 ---
 
 title: Monitor project progress and performance
-description: Describes how you can create a work in process (WIP) method and calculate WIP to estimate the financial value of projects while they are ongoing.
+description: Describes how you can create a work in process (WIP) method and calculate WIP to estimate the financial value of projects while they're ongoing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 With the work in process (WIP) feature you can estimate the financial value of ongoing projects in the general ledger.
 
-As a project progresses, materials and resources are consumed and expenses incurred that must be posted to the project. In many cases, you might post expenses for a project before invoicing. But if only expenses have been posted, your financial statement is inaccurate. To track the actual value of the project, calculate WIP and post it to the general ledger. Following WIP methods are available out of the box:
+As a project progresses, materials and resources are consumed and expenses incurred that must be posted to the project. In many cases, you might post expenses for a project before invoicing. But if only post expenses, your financial statement is inaccurate. To track the actual value of the project, calculate WIP and post it to the general ledger. Following WIP methods are available out of the box:
 
 * Cost value
 * Sales value
@@ -43,7 +43,7 @@ When you create a new project, you must specify which project WIP method applies
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, then choose the related link.
 2. Choose the **New** action. Learn more at [Create Projects](projects-how-create-jobs.md).  
-3. On the **Project Card** page, in the **WIP Method** field from the **Posting** FastTab, select a WIP method from the list. If a default method has been defined, you can select another option if needed.  
+3. On the **Project Card** page, in the **WIP Method** field from the **Posting** FastTab, select a WIP method from the list. If a default method is defined, you can select another option if needed.  
 
 ### Define a WIP method for a project task
 
@@ -83,14 +83,14 @@ In the following example, project tasks are divided into two WIP total groupings
 |1310|.    Error correction|Posting|\<blank\>|
 |1399|Total error correction|End-Total|**Total**|
 
-You'll notice:
+You notice:
 
 * For *1000* through *1299*, WIP is calculated separately for this group of project tasks. Note, however, that two of the tasks, 1010 and 1110, are excluded from the WIP calculation because their project task type is **Posting**.
 * For *1300* through *1399*, WIP is calculated separately for this group of project tasks.
 
 ## Calculate WIP
 
-You can determine the WIP amount to post to balance sheet accounts for the period end reporting. Use the **Project Calculate WIP** batch project to do this.  
+You can determine the WIP amount to post to balance sheet accounts for the period end reporting by using the **Project Calculate WIP** batch job.  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Calculate WIP**, then choose the related link.  
 2. Choose the **Calculate WIP** action.
@@ -102,7 +102,7 @@ You can determine the WIP amount to post to balance sheet accounts for the perio
 
 ### Review warnings
 
-If your WIP calculation results in a *WIP was calculated with warnings.* message, you might want to review the warnings.
+If your WIP calculation results in a *WIP was calculated with warnings* message, you might want to review the warnings.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project WIP Cockpit**, and then choose the related link.  
 2. Select the project for which you want to review warnings. The **WIP Warnings** toggle is enabled for projects that have WIP warnings.
@@ -110,15 +110,15 @@ If your WIP calculation results in a *WIP was calculated with warnings.* message
 
 ### Delete WIP entries
 
-If you want to try different WIP methods, you might get the *The Project Task cannot be modified because the project has associated project WIP entries.* error. To be able to check WIP method, you need to delete existing WIP entries.
+If you want to try different WIP methods, you might get a *The Project Task cannot be modified because the project has associated project WIP entries* error. To be able to check WIP method, delete existing WIP entries.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **project wip cockpit**,  then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project WIP Cockpit**, and then choose the related link.  
 2. Select the project for which you want to delete WIP entries.
 3. Choose the **Delete WIP Entries** action.
 
 ## Post WIP
 
-When you've calculated WIP, you can post it to balance sheet accounts for the period end reporting. Use the **Project Post WIP to G/L** batch job.
+When you calculate WIP, you can post it to balance sheet accounts for the period end reporting. Use the **Project Post WIP to G/L** batch job.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Post WIP to G/L**, and then choose the related link.  
 2. On the **Project Post WIP to G/L** page, fill in the fields as necessary.  
@@ -126,7 +126,7 @@ When you've calculated WIP, you can post it to balance sheet accounts for the pe
 
 ## Calculate and post project completion entries
 
-When you have completed all activities for a project, including usage posting and invoicing, you must update the project's status to **Completed**. Then, you must reverse any WIP that has been posted to the general ledger.
+After you complete all activities for a project, including posting usage and invoicing, you must update the project's status to **Completed**. Then, you must reverse any WIP that was posted to the general ledger.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, then choose the related link.  
 2. Select an open project, and then choose the **Edit** action.
@@ -135,11 +135,11 @@ When you have completed all activities for a project, including usage posting an
 5. Choose the **Calculate WIP** action.
 6. On the **Project Calculate WIP** page, fill in the fields as necessary.  
 
-     The project WIP entries created by running the batch job will have the **Project Complete** checkbox selected to show that they're completion entries.  
+     The project WIP entries created by running the batch job have the **Project Complete** checkbox selected to show that they're completion entries.  
 7. Choose the **Post WIP to G/L** action.
 8. On the **Project Post WIP to G/L** page, fill in the fields as necessary.  
 
-     The project WIP general ledger entries created by running the batch project will have the **Project Complete** checkbox selected to show they're completion entries.
+     The project WIP general ledger entries created by running the batch project have the **Project Complete** checkbox selected to show that they're completion entries.
 
 ## View project ledger entries
 
@@ -148,7 +148,7 @@ All project-related entries are recorded in project registers and sequentially n
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Registers**, and choose the related link.
 2. Select a relevant register, and then choose **Project Ledger** action.
 
-On the **Project Ledger Entries** page you can review the entries that are associated with any project.  
+On the **Project Ledger Entries** page, you can review the entries that are associated with any project.  
 
 ## See also
 

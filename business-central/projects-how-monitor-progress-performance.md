@@ -137,7 +137,7 @@ When you have completed all activities for a project, including usage posting an
 
 ## View project ledger entries
 
-All project-related entries are recorded in project registers and sequentially numbered, starting with 1. From the project register, you can get an overview of all project ledger entries.    
+All project-related entries are recorded in project registers and sequentially numbered, starting with 1. From the project register, you can get an overview of all project ledger entries.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Registers**, and choose the related link.
 2. Select a relevant register, and then choose **Project Ledger** action.
@@ -153,6 +153,5 @@ On the **Project Ledger Entries** page you can review the entries that are assoc
 [Purchasing](purchasing-manage-purchasing.md)  
 [Sales](sales-manage-sales.md)  
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

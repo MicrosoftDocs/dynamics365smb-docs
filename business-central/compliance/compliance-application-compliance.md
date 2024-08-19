@@ -20,7 +20,7 @@ This article provides information about how [!INCLUDE [prod_short](../includes/p
 
 If you develop [!INCLUDE [prod_short](../includes/prod_short.md)] extensions, you need to know [how data is classified in Dynamics 365](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
 
-[Learn more about data privacy in Dynamics 365](https://privacy.microsoft.com/en-us/privacystatement).
+[Learn more about data privacy in Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=521839)<!--(https://privacy.microsoft.com/en-us/privacystatement)-->.
 
 ## Accounting processes and controls to aid compliance
 

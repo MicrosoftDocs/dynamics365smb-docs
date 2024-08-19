@@ -1,19 +1,19 @@
 ---
-title: Correct Prepayments
+title: Correct prepayments
 description: You can make a correction to an order after you have posted a prepayment invoice for the order and add new lines to an order after issuing a prepayment.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 44, 48, 42, 50, 52, 9305, 9307
-ms.date: 06/16/2021
+ms.date: 07/24/2024
 ms.author: bholtorf
-
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Correct Prepayments
 
-You can make a correction to an order after you have posted a prepayment invoice for the order. You can add new lines to an order after issuing a prepayment, and then you can post another prepayment invoice, but you cannot delete a line from an order after a prepayment has been invoiced for the line.  
+# Correct prepayments
+
+You can make a correction to an order after you have posted a prepayment invoice for the order. You can add new lines to an order after issuing a prepayment, and then you can post another prepayment invoice, but you can't delete a line from an order after a prepayment has been invoiced for the line.  
 
 > [!TIP]
 > If you have posted a prepayment invoice for a sales invoice that you then correct or cancel, you must correct or cancel the prepayment as well.

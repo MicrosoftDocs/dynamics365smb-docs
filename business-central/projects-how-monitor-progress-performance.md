@@ -12,6 +12,7 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
 ms.service: dynamics-365-business-central
 ---
+
 # Monitor project progress and performance
 
 With the work in process (WIP) feature you can estimate the financial value of ongoing projects in the general ledger.
@@ -30,13 +31,19 @@ Learn more at [Understanding WIP Methods](projects-understanding-wip.md).
 
 If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you can calculate WIP. The value isn't automatically posted to the general ledger. After you calculate WIP using the method you prefer, you can post to the general ledger.
 
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project WIP Methods**, then choose the related link.  
+2. Choose the **New** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Close the page.   
+4. To make this new method the default, choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects Setup**, then choose the related link.  
+5. In the **Default WIP Method** field, choose the method from the list.
+
 ## Define a WIP method for a project
 
 When you create a new project, you must specify which project WIP method applies. In some cases, the project WIP method you use is already set as the default.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, then choose the related link.
 2. Choose the **New** action. Learn more at [Create Projects](projects-how-create-jobs.md).  
-3. On the **Project Card** page, in the **WIP Method** field, select a WIP method from the list. If a default method has been defined, you can select another option if needed.  
+3. On the **Project Card** page, in the **WIP Method** field from the **Posting** FastTab, select a WIP method from the list. If a default method has been defined, you can select another option if needed.  
 
 ### Define a WIP method for a project task
 
@@ -79,14 +86,13 @@ In the following example, project tasks are divided into two WIP total groupings
 You'll notice:
 
 * For *1000* through *1299*, WIP is calculated separately for this group of project tasks. Note, however, that two of the tasks, 1010 and 1110, are excluded from the WIP calculation because their project task type is **Posting**.
-
 * For *1300* through *1399*, WIP is calculated separately for this group of project tasks.
 
 ## Calculate WIP
 
 You can determine the WIP amount to post to balance sheet accounts for the period end reporting. Use the **Project Calculate WIP** batch project to do this.  
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **project calculate wip**,  then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Calculate WIP**, then choose the related link.  
 2. Choose the **Calculate WIP** action.
 3. On the **Project Calculate WIP** page, fill in the fields as necessary.
 4. Choose the **OK** button.  
@@ -124,16 +130,16 @@ When you have completed all activities for a project, including usage posting an
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, then choose the related link.  
 2. Select an open project, and then choose the **Edit** action.
-3. In the **Status** field, select **Completed**.
+3. On the **Posting** FastTab, in the **Status** field, select **Completed**.
 4. Follow the assistance steps to calculate and post the WIP, or follow steps 5 and 6 to do so manually.  
 5. Choose the **Calculate WIP** action.
 6. On the **Project Calculate WIP** page, fill in the fields as necessary.  
 
-     The project WIP entries created by running the batch job will have the **Project Complete** checkbox selected to show that they are completion entries.  
+     The project WIP entries created by running the batch job will have the **Project Complete** checkbox selected to show that they're completion entries.  
 7. Choose the **Post WIP to G/L** action.
 8. On the **Project Post WIP to G/L** page, fill in the fields as necessary.  
 
-     The project WIP general ledger entries created by running the batch project will have the **Project Complete** checkbox selected to show they are completion entries.
+     The project WIP general ledger entries created by running the batch project will have the **Project Complete** checkbox selected to show they're completion entries.
 
 ## View project ledger entries
 
@@ -146,12 +152,12 @@ On the **Project Ledger Entries** page you can review the entries that are assoc
 
 ## See also
 
-[Walkthrough - Calculating Work in Process for a Project](walkthrough-calculating-work-in-process-for-a-job.md)
-[Managing Projects](projects-manage-projects.md)  
-[Managing Inventory Costs](finance-manage-inventory-costs.md)  
-[Finance](finance.md)  
-[Purchasing](purchasing-manage-purchasing.md)  
-[Sales](sales-manage-sales.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Walkthrough - Calculating Work in Process for a Project](walkthrough-calculating-work-in-process-for-a-job.md)    
+[Managing Projects](projects-manage-projects.md)    
+[Managing Inventory Costs](finance-manage-inventory-costs.md)    
+[Finance](finance.md)    
+[Purchasing](purchasing-manage-purchasing.md)    
+[Sales](sales-manage-sales.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

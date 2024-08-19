@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877, 
-ms.date: 05/24/2024
+ms.date: 08/12/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -62,7 +62,7 @@ To set up a default value for a VAT date, follow these steps:
 > [!NOTE]
 > By default, the **Default VAT Date** is the **Posting Date**.
 
-### Enabling or disabling the VAT Date feature
+### Enable or disable the VAT Date feature
 
 Some countries/regions require that businesses use a specific VAT date, but other countries/regions don't. Some countries/regions also require businesses to change the VAT date in specific situations after they post documents, but other countries/regions don't allow changes to VAT dates. To allow for different contexts, you can choose whether you want to use this functionality and, if so, to what degree.
 
@@ -214,7 +214,7 @@ The following sections describe how to assign VAT posting groups to individual e
 ### To assign VAT posting groups to individual general ledger accounts
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 6.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Chart of Accounts**, and then choose the related link.  
-2. Open the **G/L Account** card for the account.  
+2. Open the **G/L Account Card** for the account.  
 3. On the **Posting** FastTab, in the **Gen. Posting Type** field, choose either **Sale** or **Purchase**.  
 4. Choose the VAT posting groups to use for the sales or purchase account.  
 
@@ -222,14 +222,14 @@ The following sections describe how to assign VAT posting groups to individual e
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 7.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customer** or **Vendor**, and then choose the related link.  
 2. On the **Customer** or **Vendor** card, expand the **Invoicing** FastTab.  
-3. Choose the VAT business posting group.  
+3. Choose the **VAT Bus. Posting Group**.  
 
 ### To assign VAT product posting groups to individual items and resources
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 8.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item** or **Resource**, and then choose the related link.  
 2. Do one of the following steps:  
 
-    * On the **Item** card, expand the **Price & Posting** FastTab, and then choose **Show more** to display the **VAT Product Posting Group** field.  
+    * On the **Item** card, expand the **Price & Posting** FastTab, and then choose **Show more** to display the **VAT Prod. Posting Group** field.  
     * On the **Resource** card, expand the **Invoicing** FastTab.  
 3. Choose the VAT product posting group.  
 
@@ -257,7 +257,7 @@ You can modify or delete a VAT clause, and your modifications are reflected in a
 ### To assign a VAT clause to a VAT posting setup
 
 1. Choose the ![Lightbulb that opens the Tell Me feature 10.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Posting Setup**, and then choose the related link.  
-2. In the **VAT Clause** column, choose the clause to use for each VAT posting setup it applies to.  
+2. In the **VAT Clause Code** column, choose the clause to use for each VAT posting setup it applies to.  
 
 ### To specify translations for VAT clauses
 
@@ -332,21 +332,21 @@ You must set up information about how the tax authorities in your country or reg
 
 ## See also
 
-[Set Up VAT Statement Templates and VAT Statement Names](finance-how-setup-vat-statement.md)  
-[Set Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)  
-[Report VAT to a Tax Authority](finance-how-report-vat.md)  
-[Work with VAT on Sales and Purchases](finance-work-with-vat.md)  
-[Work with the VAT Rate Change Tool](finance-how-use-vat-rate-change-tool.md)  
-[Verify VAT registration numbers](finance-how-validate-vat-registration-number.md)  
-[Local functionality in Business Central](about-localization.md)  
-[VAT Reporting in the German version](LocalFunctionality/Germany/vat-reporting.md)  
-[Belgian VAT](LocalFunctionality/Belgium/belgian-vat.md)  
-[Italian VAT](LocalFunctionality/Italy/italian-vat.md)  
-[Set Up Electronic VAT and ICP Declarations in the Dutch Version](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)  
-[VAT Reports in the Spanish Version](LocalFunctionality/Spain/vat-reports.md)  
-[Set Up Goods and Services Tax Posting in the Australian Version](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)  
-[VAT in the Czech Version](LocalFunctionality/Czech/finance-vat.md)  
-[VAT Reporting in the Norwegian Version](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
-[Reporting Goods/Services Tax and Harmonized Sales Tax in Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)  
+[Set Up VAT Statement Templates and VAT Statement Names](finance-how-setup-vat-statement.md)    
+[Set Up Unrealized Value Added Tax](finance-setup-unrealized-vat.md)    
+[Report VAT to a Tax Authority](finance-how-report-vat.md)    
+[Work with VAT on Sales and Purchases](finance-work-with-vat.md)    
+[Work with the VAT Rate Change Tool](finance-how-use-vat-rate-change-tool.md)    
+[Verify VAT registration numbers](finance-how-validate-vat-registration-number.md)    
+[Local functionality in Business Central](about-localization.md)    
+[VAT Reporting in the German version](LocalFunctionality/Germany/vat-reporting.md)    
+[Belgian VAT](LocalFunctionality/Belgium/belgian-vat.md)    
+[Italian VAT](LocalFunctionality/Italy/italian-vat.md)    
+[Set Up Electronic VAT and ICP Declarations in the Dutch Version](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)    
+[VAT Reports in the Spanish Version](LocalFunctionality/Spain/vat-reports.md)    
+[Set Up Goods and Services Tax Posting in the Australian Version](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)    
+[VAT in the Czech Version](LocalFunctionality/Czech/finance-vat.md)    
+[VAT Reporting in the Norwegian Version](LocalFunctionality/Norway/norwegian-vat-reporting.md)    
+[Reporting Goods/Services Tax and Harmonized Sales Tax in Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

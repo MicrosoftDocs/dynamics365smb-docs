@@ -1,5 +1,5 @@
 ---
-title: Create a Project Sales Invoice to Invoice a Project
+title: Create a project sales invoice to invoice a project
 description: Describes how to invoice customers for project expenses as a project progresses and costs accumulate.
 author: brentholtorf
 ms.author: bholtorf
@@ -10,15 +10,16 @@ ms.search.form: 1002, 1007,
 ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ---
-# Invoice Projects
+# Invoice projects
 
 During the project, project costs from resource usage, materials, and project-related purchases can accumulate. As the project progresses, these transactions get posted to the project journal. It is important that all costs get recorded in the project journal before you invoice the customer.
 Invoicing can be done after the project is finished or at certain intervals during the project's progress based on an invoicing schedule.
 
 You can invoice:
-* Multiple projects using **Project Create Sales Invoice** task
-* Whole projects, some projects withing project, or individual project planning lines using relevant action in the project pages.
-* Combine multiple project planning lines from different project into single sales invoice using **Get Project Planning Lines** action in the **Sales Invoice** page. 
+
+* Multiple projects using a **Project Create Sales Invoice** task.
+* Whole projects, some projects withing project, or individual project planning lines using the relevant action in the project pages.
+* Combine multiple project planning lines from different projects into a single sales invoice using **Get Project Planning Lines** action on the **Sales Invoice** page.
 
 ## To create multiple project sales invoices
 
@@ -31,10 +32,10 @@ The following procedure shows how to use a batch job to invoice multiple project
 3. Set filters if you want to limit the projects that the batch job will process.
 4. Choose the **OK** button to create the invoices.  
 
-You can review and post created invoices in the **Sales Invoices** window.
+You can review and post created invoices on the **Sales Invoices** page.
 
 > [!NOTE]
-> Alternatively, invoice a customer by selecting the project, and then choosing the **Create Project Sales Invoice** action in the project or **Create Sales Invoice** action in the project tasks. 
+> Alternatively, invoice a customer by selecting the project, and then choosing the **Create Project Sales Invoice** action, or use the **Create Sales Invoice** action in the project tasks.
 
 ## To create and post project sales invoice from project planning lines
 

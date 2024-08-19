@@ -1,12 +1,12 @@
 ---
 
-title: Monitor Project Progress and Performance
+title: Monitor project progress and performance
 description: Describes how you can create a work in process (WIP) method and calculate WIP to estimate the financial value of projects while they are ongoing.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 02/22/2024
+ms.date: 08/19/2024
 ms.custom: bap-template
 ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
@@ -28,7 +28,7 @@ You can also create  WIP method that meets the needs of your organization and se
 
 Learn more at [Understanding WIP Methods](projects-understanding-wip.md).
 
-If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.
+If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you can calculate WIP. The value isn't automatically posted to the general ledger. After you calculate WIP using the method you prefer, you can post to the general ledger.
 
 ## Define a WIP method for a project
 
@@ -40,18 +40,17 @@ When you create a new project, you must specify which project WIP method applies
 
 ### Define a WIP method for a project task
 
-You can define a WIP method for a project task, exclude project tasks from WIP calcualtion, or group tasks to be calculated together. 
+You can define a WIP method for a project task, exclude project tasks from WIP calculation, or group tasks to be calculated together.
 
 If you want to calculate WIP for each project task individually, WIP posting provides defined dimensions for the specific tasks.
 
 The **WIP-Total** specifies project tasks you want to group together when calculating WIP and recognition. In any group of tasks, there needs to be one task that satisfies two conditions:
 <!--But doesn't the parenthetical below contradict this -* if there is no total, the application sets the total for you, meaning the condition does not HAVE to be satisfied, right? Or am I missing something?-->
 
-* Has a **WIP-Total** set to *Total*. (If there are no project tasks with **WIP-Total** set to *Total*, *Total* is set automatically on the last project task line when WIP is calculated for the first time.)
+* **WIP-Total** is set to **Total**. If there are no project tasks with **WIP-Total** set to Total, Total is set automatically on the last project task line when WIP is calculated for the first time.
+* The number in the **Project Task No.** field is the final one in the group or range of project tasks.
 
-* Has a **Project Task No.** number that's the final one in the group or range of project tasks.
-
-The following table describes the three options:
+The following table describes the options:
 
 | Field | Description |
 |--|--|
@@ -79,9 +78,9 @@ In the following example, project tasks are divided into two WIP total groupings
 
 You'll notice:
 
-* *1000* through *1299*: WIP are calculated separately for this group of project tasks. Note however, that two of the tasks, 1010 and 1110, are excluded from the WIP calculation because their project task type is **Posting**.
+* For *1000* through *1299*, WIP is calculated separately for this group of project tasks. Note, however, that two of the tasks, 1010 and 1110, are excluded from the WIP calculation because their project task type is **Posting**.
 
-* *1300* through *1399*: WIP are calculated separately for this group of project tasks.
+* For *1300* through *1399*, WIP is calculated separately for this group of project tasks.
 
 ## Calculate WIP
 
@@ -93,29 +92,29 @@ You can determine the WIP amount to post to balance sheet accounts for the perio
 4. Choose the **OK** button.  
 
 > [!NOTE]  
-> The batch project only calculates the WIP, it does not post it to the general ledger. To post it, run the **Post WIP to G/L** batch project after you've calculated the WIP. Learn more in the following procedure.
+> The batch job only calculates the WIP, it doesn't post it to the general ledger. To post WIP, run the **Post WIP to G/L** batch job after you've calculated the WIP. Learn more in the following procedure.
 
 ### Review warnings
 
-If in result for calculation of WIP you received *WIP was calculated with warnings.* message, you might want to review them.
+If your WIP calculation results in a *WIP was calculated with warnings.* message, you might want to review the warnings.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **project wip cockpit**,  then choose the related link.  
-2. Select the project for wich you want to review warninings. Projects that have WIP warnings have the **WIP Warnings** toggle enabled.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project WIP Cockpit**, and then choose the related link.  
+2. Select the project for which you want to review warnings. The **WIP Warnings** toggle is enabled for projects that have WIP warnings.
 3. Choose the **Show Warning** action.
 
-### Delete WIP Entries
+### Delete WIP entries
 
-If you want to try different WIP method to see if that fits better, you might get *The Project Task cannot be modified because the project has associated project WIP entries.* error. To be able to check WIP method, you need to existing WIP entries.
+If you want to try different WIP methods, you might get the *The Project Task cannot be modified because the project has associated project WIP entries.* error. To be able to check WIP method, you need to delete existing WIP entries.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **project wip cockpit**,  then choose the related link.  
-2. Select the project for wich you want to delete WIP entries.
+2. Select the project for which you want to delete WIP entries.
 3. Choose the **Delete WIP Entries** action.
 
 ## Post WIP
 
-When you've calculated WIP, you can post it to balance sheet accounts for the period end reporting. You use the **Project Post WIP to G/L** batch project to do this.
+When you've calculated WIP, you can post it to balance sheet accounts for the period end reporting. Use the **Project Post WIP to G/L** batch job.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Post WIP to G/L**,  then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Project Post WIP to G/L**, and then choose the related link.  
 2. On the **Project Post WIP to G/L** page, fill in the fields as necessary.  
 3. Choose the **OK** button.
 

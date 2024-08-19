@@ -1,11 +1,11 @@
 ---
-title: Record and Adjust Resource Usage and Prices
+title: Record and adjust resource usage and prices
 description: Describes how you can record the resource usage or consumption associated with a project, to keep track and manage costs, prices, and work types.
 author: brentholtorf
 ms.topic: how-to
 ms.search.keywords: project management, capacity, staff
 ms.search.form: 201,206, 207, 271, 493
-ms.date: 02/22/2024
+ms.date: 08/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template

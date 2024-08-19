@@ -1,5 +1,5 @@
 ---
-title: Set Up Project Resource Costs, Prices, and Capacity
+title: Set up project resource costs, prices, and capacity
 description: To use resources and facilitate project management, you specify costs and prices for individual resources or resource groups, and set the resource capacity.
 author: brentholtorf
 ms.author: bholtorf
@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
-ms.date: 02/22/2024
+ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -20,7 +20,7 @@ When resources are used or sold in a project, the prices and costs associated wi
 You specify the default amount per hour when the resource is created. For example, if you use a specific machine on a project for five hours, the project would be calculated based on the amount per hour.
 
 > [!NOTE]
-> You cannot purchase external resources for specific project. We recommend to use items of type service instead.
+> You can't purchase external resources for a specific project. We recommend that you use items of the type Service instead.
 
 ## To set up a resource
 
@@ -60,7 +60,8 @@ In addition to the cost specified on the resource card, you can set up alternate
 3. On the **Resource Costs** page, fill in the fields on a line as necessary.  
 4. Repeat step 3 for each alternate resource cost that you want to set up.
 
-**Note**. To set up resource costs that will apply to all resources and resource groups, open the **Resource Costs** page and fill in the fields.
+> [!NOTE]
+> To set up resource costs that apply to all resources and resource groups, open the **Resource Costs** page and fill in the fields.
 
 ## To set up alternate resource prices
 
@@ -79,11 +80,11 @@ If you want to change costs or prices for a large number of resources, you can u
 2. Fill in the fields on a line as necessary, and then choose the **OK** button.
 
 > [!NOTE]  
-> This batch job does not create or adjust alternate costs or prices for resources. It only changes the contents of the field on the resource card for the **Adjust Field** field that you selected in the batch job. The adjustment will take effect immediately for resources, so check your adjustment factors before you run the batch job.
+> This batch job doesn't create or adjust alternate costs or prices for resources. It only changes the contents of the field on the resource card for the **Adjust Field** field that you selected in the batch job. The adjustment takes effect immediately for resources, so check your adjustment factors before you run the batch job.
 
 ## To get resource price change suggestions based on existing alternate prices
 
-If you have already set up alternate resource price for some resources, you can use a batch job to set up multiple alternate resource prices.
+If you already set up alternate resource prices for some resources, you can use a batch job to set up multiple alternate resource prices.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Resource Price Changes**, and then choose the related link.
 2. Choose the **Suggest Res. Price Chg. (Price)** action, and then fill in the fields as necessary.

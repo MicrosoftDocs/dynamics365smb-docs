@@ -1,19 +1,19 @@
 ---
-title: Set Up Projects, Prices, and Project Posting Groups
+title: Set up projects, prices, and project posting groups
 description: Describes how to set up general information about projects.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 02/22/2024
+ms.date: 08/19/2024
 ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: 211, 463, 1012
 ms.service: dynamics-365-business-central
 ---
-# Set Up projects, prices, and project posting groups
+# Set up projects, prices, and project posting groups
 
-As a project manager, you can set up projects that define each of the projects that you manage in [!INCLUDE[prod_short](includes/prod_short.md)]. Use the **Project Setup** page to define how you'll use project features.
+As a project manager, you can set up each of the projects that you manage in [!INCLUDE[prod_short](includes/prod_short.md)]. Use the **Project Setup** page to define how you'll use project features.
 
 For each project, specify various information:
 
@@ -28,7 +28,7 @@ For each project, specify various information:
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> The **Apply Usage Link by Default** toggle on the **Projects Setup** page indicates whether project ledger entries are linked to project planning lines by default. Turn on the toggle to apply this setting to all new projects. You can enable or disable project usage tracking for a specific project by turning the **Apply Usage Link** toggle on or off on the **Project Card** page. The **Apply Usage Link** toggle also activates warehouse handling, planning, assembly-to-order, item tracking and reservation capabilities for project.
+> The **Apply Usage Link by Default** toggle on the **Projects Setup** page indicates whether project ledger entries are linked to project planning lines by default. Turn on the toggle to apply this setting to all new projects. You can enable or disable project usage tracking for a specific project by turning the **Apply Usage Link** toggle on or off on the **Project Card** page. The **Apply Usage Link** toggle also activates warehouse handling, planning, assembly-to-order, item tracking, and reservation capabilities for project.
 
 ### To set up project usage tracking
 
@@ -44,19 +44,21 @@ After you set up usage tracking by turning on the **Apply Usage Link by Default*
 > [!IMPORTANT]
 > If you don't specify a value in the **Line Type** field on the project journal line or purchase line, project planning lines aren't created when you post the project journal or purchase document.
 
-### Invoice multiple customers for project tasks 
+### Invoice multiple customers for project tasks
 
 When projects involve multiple customers, billing the right customers for the right tasks can be challenging. [!INCLUDE [prod_short](includes/prod_short.md)] makes billing less complex by letting you specify the bill-to and sell-to customers on each project task line, so you can automatically generate invoices for the correct customers.  Use the **Default Task Billing Method** field to specify whether you're billing one customer, or multiple customers by default. You can change task billing method for a specific project by using the **Task Billing Method** field on the **Project Card** page. To learn more about invoicing multiple customers, go to [Invoice one or more customers for project tasks](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
-### Synchronize cost of used items
-The cost of an item (inventory value) that you purchase and later use in project might change during its lifetime, for example because a freight cost is added to its purchase cost after you post the usage of item. 
+### Synchronize the cost of used items
 
-In Business Central, item costs can be manually or automatically adjusted and this adjustment will be reflected in the Value Entries and G/L. For more infomartion, see [Managing Inventory Cost](finance-manage-inventory-costs.md)
+The cost of an item (inventory value) that you purchase and later use in project might change during its lifetime. For example, because a freight cost is added to its purchase cost after you post the usage of the item.
 
-In relation to projects, you also have two option how to reflect those adjustments.
-Enable the **Automatic Update Project Item Cost** toggle to ensure that the cost changes are automatically adjusted in project each time the **Adjust Cost - Item Entries** batch job is run. 
+In [!INCLUDE [prod_short](includes/prod_short.md)], you can manually or automatically adjust item costs. The adjustment is reflected in the value entries and general ledger. To learn more, go to [Managing Inventory Cost](finance-manage-inventory-costs.md)
 
-If you keep it off, remember to run the **Update Job Project Cost** task manually or via Job Queue.
+In relation to projects, you also have options for how to reflect those adjustments.
+
+To ensure that cost changes automatically adjust in a project each time the **Adjust Cost - Item Entries** batch job is run, turn on the **Automatic Update Project Item Cost** toggle.
+
+If you keep it off, remember to run the **Update Job Project Cost** task manually or by using a job queue entry.
 
 ## To set up prices for resources, items, and general ledger accounts for projects
 

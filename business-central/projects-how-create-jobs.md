@@ -1,5 +1,5 @@
 ---
-title: Create a Project Card for a Project and Specify Tasks
+title: Create a project card for a project and specify tasks
 description: For a new project, you create a project card that contains project tasks and planning lines, to help you manage progress and budgets.
 author: brentholtorf
 ms.author: bholtorf
@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
-ms.date: 02/22/2024
+ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -30,20 +30,20 @@ You create a project card and then create project task lines and project plannin
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Projects**, and then choose the related link.  
 2. Choose the **New** action, and then fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. To base the project on information from another project, choose the **Copy Project** action, fill in the fields as necessary, and then choose the **OK** button.
+3. To base the project on information from another project, choose the **Copy Project** action, fill in the fields as necessary, and then choose the **OK** button.
 
 > [!NOTE]  
-> If you are using time sheets with your project, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the project. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
+> If you're using time sheets with your project, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the project. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
 
 > [!NOTE]  
-> The **Apply Usage Link** toggle indicates whether project ledger entries are linked to project planning lines. The **Apply Usage Link** toggle also activates warehouse handling, planning, assembly-to-order, item tracking and reservation capabilities for project.
+> The **Apply Usage Link** toggle indicates whether project ledger entries are linked to project planning lines. The **Apply Usage Link** toggle also activates warehouse handling, planning, assembly-to-order, item tracking, and reservation capabilities for a project.
 
-Optionally, mark actions on project as blocked using the **Blocked** field. the following table describes the effect of the options for this field.
+Optionally, mark actions on project as blocked using the **Blocked** field. The following table describes the effect of the options for this field.
 
 |Option  |Description  |
 |---------|---------|
 |Blank |All actions are allowed.|
-|Posting    |You can work with planning lines, but the project is blocked for posting. Choosing this option means that you cannot post any usage or sale on the project.|
+|Posting    |You can work with planning lines, but the project is blocked for posting. You can't post usage or sales for the project.|
 |All  |All actions are blocked.|
 
 ## To create tasks for a project
@@ -65,7 +65,7 @@ If the customer who is receiving the service will also pay the bill, in the **Bi
 
 If you're billing multiple customers, you can specify the customer who will receive the service and the customer to invoice for each task in the project. You can also provide the following information:
 
-* Where the work will happen by selecting from a list of ship-to addresses for the customer.
+* Select the ship-to address for the customer where the work will happen.
 * Add information about external references to simplify communication about the project.
 * Overwrite the standard financial terms of the project.
 

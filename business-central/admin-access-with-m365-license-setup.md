@@ -6,7 +6,7 @@ ms.author: mikebc
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central 
 ms.topic: how-to
-ms.date: 09/28/2023
+ms.date: 08/12/2024
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
 ms.search.form: 9061,
@@ -75,13 +75,13 @@ Access with Microsoft 365 licenses is off by default. Access must be enabled for
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
-In the Business Center admin center, an environment can be assigned to one or more security groups to control access. You can assign a Microsoft Entra group to the environment. By assigning a Microsoft Entra group to an environment, only direct and indirect members of the group are granted access to the environment. Indirect members are users in another group, which itself is a member of the group assigned to the environment. Although all licensed users in Microsoft Entra ID will be added to the environment when it's synchronized with Microsoft 365, only group members can sign in. To learn more, go to [Manage access using Microsoft Entra groups](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) in the developer and IT pro help.
+In the Business Center admin center, an environment can be assigned to one or more security groups to control access. You can assign a Microsoft Entra group to the environment. By assigning a Microsoft Entra group to an environment, only direct and indirect members of the group are granted access to the environment. Indirect members are users in another group, which itself is a member of the group assigned to the environment. Although all licensed users in Microsoft Entra ID will be added to the environment when it's synchronized with Microsoft 365, only group members can sign in. Learn more in [Manage access using Microsoft Entra groups](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) in the developer and IT pro help.
+
+People in the security group must also have an applicable Microsoft 365 license to access Business Central from within Microsoft Teams. Get a list of applicable licenses in [Business Central access with Microsoft 365 licenses](admin-access-with-m365-license.md#requirements-for-individual-users-to-access-data-in-teams).
 
 ## Deploy the Business Central app for Teams
 
-For [!INCLUDE [prod_short](includes/prod_short.md)] license holders to share data in Teams, and for Microsoft 365 license holders to access that data, each must have the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams installed. Although users can install the app by themselves, it's recommended that administrators use centralized deployment. Centralized deployment lets you roll out the app to a broader audience across the organization and minimize individual user effort. 
-
-To learn how to centrally deploy the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams, see [Installing the Business Central app by using Centralized Deployment](admin-teams-integration.md#installing-the-business-central-app-by-using-centralized-deployment).
+For [!INCLUDE [prod_short](includes/prod_short.md)] license holders to share data in Teams, and for Microsoft 365 license holders to access that data, each must have the [!INCLUDE [prod_short](includes/prod_short.md)] app for Teams installed. Although users can install the app by themselves, it's recommended that administrators use centralized deployment. Centralized deployment lets you roll out the app to a broader audience across the organization and minimize individual user effort. Laern more in [Installing the Business Central app by using Centralized Deployment](admin-teams-integration.md#installing-the-business-central-app-by-using-centralized-deployment).
 
 > [!NOTE]
 > If you have run centralized deployment before and only deployed the app to the security group of licensed [!INCLUDE [prod_short](includes/prod_short.md)] users, you'll need to run it again to deploy to additional groups or the whole organization, depending on how you are configuring access.
@@ -111,7 +111,7 @@ To verify that your setup is ready for production, the following steps will help
    2. In the message sent by test user A, select the Details button on the card. If the [!INCLUDE [prod_short](includes/prod_short.md)] client is displayed and is read-only, your setup was successful.
 
 > [!TIP]
-> Something went wrong? Check out [Business Central troubleshooting](/troubleshoot/dynamics-365/business-central/welcome-business-central).
+> Something went wrong? Learn more in [Business Central troubleshooting](/troubleshoot/dynamics-365/business-central/welcome-business-central).
 
 ## See also
 

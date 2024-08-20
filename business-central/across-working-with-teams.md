@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
-ms.date: 12/12/2023
+ms.date: 08/14/2024
 ms.author: jswymer
 ms.custom: bap-template
 ---
@@ -17,22 +17,9 @@ ms.custom: bap-template
 
 [!INCLUDE [prod_short](includes/prod_short.md)] offers a couple ways to share data from Business Central directly in a Microsoft Teams conversation:
 
-<!-- 
-## Overview
-In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
-The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
-[!INCLUDE [prod_short](includes/prod_short.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)], so you can quickly share details across team members and respond faster to inquiries. In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
-
--->
 - With the [!INCLUDE [prod_short](includes/prod_short.md)] app installed in Teams, you can include an interactive card of Business Central record in a Teams conversation.
 
-<!--   Copy a link from any Business Central record, like a customer or sales order, then paste the link into a Teams conversation. The app connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)]. It then expands the link into a compact, interactive card that displays information about the record. Once in the conversation, you and coworkers can view more details about the record, edit data, and take action&mdash;without leaving Teams.
-
-  [![Teams integration with Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)-->
-
 - With or without the [!INCLUDE [prod_short](includes/prod_short.md)] app installed, you can share a link from pages in Business Central to a Teams conversation.
-
-  <!-- ![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")-->
 
 The following sections describe the different ways in detail.
 
@@ -40,7 +27,7 @@ The following sections describe the different ways in detail.
 
 With the Business Central app for Teams, you can copy a link from any Business Central record, like a customer or sales order, and paste the link into a Teams conversation. The app connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)]\. It then expands the link into a compact, interactive card that displays information about the record. Once in the conversation, you and coworkers can view more details about the record, edit data, and take action&mdash;without leaving Teams.
 
-[![Teams integration with Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
+[![Teams integration with Business Central.](media/teams-intro-vBC24.png)](media/teams-intro-vBC24.png#lightbox)
 
 ### Prerequisites
 
@@ -48,7 +35,7 @@ With the Business Central app for Teams, you can copy a link from any Business C
 - You've installed the [!INCLUDE [prod_short](includes/prod_short.md)] app in Teams. For more information, see [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)
 
 > [!NOTE]
-> All participants in a Teams conversation will be able to view cards for Business Central records that you submit to the conversation. But to view more details about records, by using the **Details** or **Pop out** buttons on a card, they'll need access to [!INCLUDE [prod_short](includes/prod_short.md)]. For more information, see [Managing Microsoft Teams Integration](admin-teams-integration.md#minimum-requirements-1).
+> All participants in a Teams conversation will be able to view cards for Business Central records that you submit to the conversation. But to view more details about records, by using the **Details** or **Pop out** buttons on a card, they'll need access to [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more in [Managing Microsoft Teams Integration](admin-teams-integration.md#minimum-requirements-1).
 
 ### Include a Business Central card in a Teams conversation
 
@@ -64,7 +51,7 @@ With the Business Central app for Teams, you can copy a link from any Business C
 4. Go to Teams and start a conversation, which can be chat with a person, group of persons, or a team channel.
 5. Paste the link (URL) in the message box where you compose a message.
 
-    ![Paste Business Central URL in Teams.](media/teams-paste-url-v2.png)
+    ![Paste Business Central URL in Teams.](media/teams-paste-url-v3.png)
 
     > [!TIP]
     > If you get a message like: *Business Central wants to show a preview of this link.*, it means that you don't have the Business Central app for Teams installed. To install the app, select **Show Preview** and follow the instructions.
@@ -90,7 +77,7 @@ Here are a couple things to keep in mind when working with the card details:
 - To open the card details, users must have permission on the page and its data in [!INCLUDE [prod_short](includes/prod_short.md)]\.
 - Cards in Teams chats aren't automatically updated to changes. Any changes you save to a record in the details window are saved in [!INCLUDE [prod_short](includes/prod_short.md)]\. But the card in Teams won't show the changes in the conversion, until you paste the link again.
 
-To learn more about working with cards and card details, see [Teams FAQ](teams-faq.md).
+Learn more about working with cards and card details in [Teams FAQ](teams-faq.md).
 
 ## <a name="share-link"></a>Share a link to page from Business Central to Teams
 
@@ -116,7 +103,7 @@ Directly from most collection pages, like the **Items** page, and details pages,
    Add any more information if you like, then choose **Share**.
 6. The link has now been shared. If you want to go to the conversation, choose **Go to Teams**.
 
-## See also
+## Related information
 
 [Business Central and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  

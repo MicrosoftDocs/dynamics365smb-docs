@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 08/02/2024
+ms.date: 08/12/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -31,7 +31,7 @@ You can specify the currency codes in the **Currencies** list, including extra i
 
 ## Exchange rates
 
-The exchange rates are the tool to calculate the local currency value (LCY) of each currency transaction. The **Exchange Rates** page includes the following fields:
+The exchange rates are the tool to calculate the local currency value (LCY) of each currency transaction. The **Currency Exchange Rates** page includes the following fields:
 
 |Field|Description|  
 |---------------------------------|---------------------------------------|  
@@ -154,10 +154,10 @@ Every now and then you might need to correct a mistake in a payment transaction 
 
 ## See also
 
-[Currencies in Business Central](finance-currencies.md)  
-[Set Up Currencies](finance-set-up-currencies.md)  
-[Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)  
-[Closing Years and Periods](year-close-years-periods.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Currencies in Business Central](finance-currencies.md)    
+[Set Up Currencies](finance-set-up-currencies.md)    
+[Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)    
+[Closing Years and Periods](year-close-years-periods.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

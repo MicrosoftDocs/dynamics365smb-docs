@@ -7,9 +7,9 @@ ms.reviewer: jswymer
 ms.topic: how-to
 ms.date: 08/13/2024
 ms.custom: bap-template
-ms.search.form: 7775
 ms.collection:
   - bap-ai-copilot
+ms.search.form: 7771,7772_Primary,7775_Primary
 ---
 
 # Configure Copilot and AI capabilities

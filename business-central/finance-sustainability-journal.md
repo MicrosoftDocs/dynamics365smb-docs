@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, journal
 ms.search.form: 6216, 6219, 6220
-ms.date: 05/07/2024
+ms.date: 08/19/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -14,11 +14,10 @@ ms.reviewer: bholtorf
 
 # Record sustainability entries
 
-
-Users can record greenhouse gas (GHG) emissions in the sustainability ledger manually using the sustainability journals or using purchase documents.  
+Users can manually record greenhouse gas (GHG) emissions in the sustainability ledger manually using sustainability journals or any kind of purchase-related documents.  
 
 > [!NOTE]
-> Using purchase document for recording greenhouse gas (GHG) emissions is available starting with 2024 release wave 2.  
+> Using any kind of purchase-related documents to record greenhouse gas (GHG) emissions is available starting with the *2024 release wave 2*.  
 
 ## Sustainability journals
 
@@ -43,7 +42,7 @@ When you enable the validation, the **Journal Check** FactBox shows issues on th
 
 ### Work with sustainability journals
 
-To start to work with sustainability journals, follow these steps:
+To work with sustainability journals, follow the steps:
 
 1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Journal**, and then select the related link.
 2. On the **Sustainability Journal** page, enter as many lines as you plan to post in the same batch.
@@ -76,38 +75,38 @@ The **Expiration Date** field determines the date when the line will be posted f
 
 ## Purchase documents  
 
-To enable recording the greengouse gas (GHG) emissions with the purchase documents, you must have enabled it selecting the **Use Emissions in Purchase Documents** in the **Sustainability Setup** page.  
+To enable recording of greenhouse gas (GHG) emissions in any purchase-related documents, you must select the **Use Emissions in Purchase Documents** on the **Sustainability Setup** page.  
 
-To start to work with purchase documents, follow these steps:
+To work with any purchase-related documents, follow the steps:
 
 1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon and:  
-   1. Enter **Purchase Invoices** if you want to start with the invoice as a document type, and then select the related link.  
-   2. Enter **Purchase Orders** if you want to start with the order as a document type, and then select the related link.  
-2. Populate header and lines based on the following instruction [how to work with purchase documents](purchasing-how-record-purchases.md).
-3. If you have information about emission on the invoice you have from your vendor, choose appropriate **Sustainability Account No.** in the document lines and add emissions values using one of the following fields (based on what you want to track and emission you have on your physical invoice): **Emission CO2**, **Emission CH4**, or **Emission N2O**.
+   1. Enter **Purchase Invoices** if you want invoice as a **Document Type**, and then select the related link.  
+   2. Enter **Purchase Orders** if you want order as a **Document Type**, and then select the related link.  
+2. Populate header and lines based on the following instruction [how to work with purchase invoices and orders](purchasing-how-record-purchases.md).
+3. If you have information about emission on the invoice you have from vendor, choose appropriate **Sustainability Account No.** in the document lines and add emissions values using one of the following fields (based on what you want to track and emission you have on your physical invoice): **Emission CO2**, **Emission CH4**, or **Emission N2O**.
 
     > [!NOTE]
-    > Values you enter in the emission fields are fixe amounts per line and they will not be multiplied with the **Quantity** field. You can use **Sustainability Account No.** only in a cases when the **Type** field is **Item** or **G/L Account**.  
+    > The values you enter in the emission fields are fixed amounts per line and they will not be multiplied with the **Quantity** field. You can use **Sustainability Account No.** only when the **Type** field (**Option Values**) is **Item** or **G/L Account**. You can't use **Resource** or **Charge (Item)** **Option Values**. 
 
-4. If you want to see total emissions before posting, you can open the statistic page and find total posted emissions and emissions for posting per this document in the **Sustainability** FastTab.   
+4. If you want to see total emissions before posting, you can open the statistic page and find total posted emissions and emissions for posting per document (any purchase-related documents) in the **Sustainability** FastTab.   
 5. Post the documents and open new **Posted Purchase Invoice**.
-6. Select **Find Entries** action and you will see that you have **Sustainability Ledger Entry** as one of the related entries on the **Find entries** page.
+6. Select **Find Entries** action and you'll see that you have **Sustainability Ledger Entry** as one of the related entries on the **Find entries** page.
 
 > [!NOTE]
 > When you post the document, for each of the purchase lines where you have **Sustanability Account No.** system will create independent **Sustainability Ledger Entry** with the **Invoice** as a **Document Type** and the same **Document No.**
 
 > [!NOTE]
-> You can also create and post **Purchase Credit Memo**. You can do it manually or using some of options: **Cancel**, **Correct**, or **Create Corrective Credit Memo** in which case system will copy existing values from the posted invoice.  
+> You can also create and post **Purchase Credit Memo**. You can do it manually or using some of the following options: **Cancel**, **Correct**, or **Create Corrective Credit Memo** in which case the system will copy the existing values from the posted invoice.  
 
 ## See also
 
-[Finance](finance.md)  
-[Sustainability management overview](finance-manage-sustainability.md)  
-[Sustainability Setup](finance-sustainability-setup.md)  
-[Chart of Sustainability Accounts and Ledger](finance-sustainability-accounts-ledger.md)  
+[Finance](finance.md)    
+[Sustainability management overview](finance-manage-sustainability.md)    
+[Sustainability Setup](finance-sustainability-setup.md)    
+[Chart of Sustainability Accounts and Ledger](finance-sustainability-accounts-ledger.md)    
 [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)    
 [Sustainability reports and analytics in Business Central](sustainability-reports.md)   
 [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)    
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

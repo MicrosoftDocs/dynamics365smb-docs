@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to 
-ms.date: 06/13/2024
+ms.date: 08/20/2024
 ms.custom: bap-template 
 ms.collection:
   - bap-ai-copilot
@@ -60,6 +60,8 @@ Using chat with Copilot streamlines your workflow by bypassing traditional navig
 1. Review the answers displayed in the Copilot pane ![Shows callout number 6](media/callout-number-6.svg).
 
    Depending on your question, the answer can contain text, links to records or pages in Business Central, and links to Business Central help articles on Microsoft Learn.
+
+   To provide you with the best assistance, Chat might ask for more details about your question.
 
 1. Ask another question to refine the answer.
 

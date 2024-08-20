@@ -43,7 +43,7 @@ The **Printer Management** page shows you the printers currently set up. The pag
 
 If you use the Email Printer extension, all or some print jobs are sent to the email address configured for the printer. We strongly recommend that a unique email ID is tied to a printer device using only the official services provided by the hardware manufacturer, such as HP ePrint, KonicaMinolta EveryonePrint, or Epson Email Print.
 
-Take all necessary privacy precautions, including ensuring that the email printing solution has properly configured permissions, privacy settings, and retention policies. It is your responsibility to provide a correct, verified, and operational email address. Learn more at [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
+Take all necessary privacy precautions, including ensuring that the email printing solution has properly configured permissions, privacy settings, and retention policies. It is your responsibility to provide a correct, verified, and operational email address. Learn more at [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839)<!--(https://privacy.microsoft.com/privacystatement)-->.
 
 ## Next steps
 

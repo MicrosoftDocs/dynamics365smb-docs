@@ -80,7 +80,7 @@ For this approach, you use Copilot either on a new bank account reconciliation t
     - Select **New** to start a new reconciliation.
     - Select and open an existing reconciliation in the list.
 
-1. On the **Bank Acc. Reconciliation** card, select **Reconcile with Copilot**.
+1. On the **Bank Acc. Reconciliation** card, select ![Shows the Copilot icon](media/copilot-icon-rainbow.png) > **Reconcile with Copilot** in the upper-right corner.
 
     ![Screenshot that shows the Reconcile with Copilot button on a Bank Acc. Reconciliation card.](media/bank-reconciliation-copilot-card.png)
 

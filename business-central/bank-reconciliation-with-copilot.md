@@ -82,7 +82,7 @@ For this approach, you use Copilot either on a new bank account reconciliation t
 
 1. On the **Bank Acc. Reconciliation** card, select **Reconcile with Copilot**.
 
-    ![Screenshot that shows the Reconcile with Copilot button on a Bank Acc. Reconciliation card.](media/bank-reconciliation-copilot-card.svg)
+    ![Screenshot that shows the Reconcile with Copilot button on a Bank Acc. Reconciliation card.](media/bank-reconciliation-copilot-card.png)
 
     Copilot starts to generate proposed matches. When it has finished, the **Reconcile with Copilot** window shows the results of the matching process.
 

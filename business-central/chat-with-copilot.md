@@ -45,7 +45,7 @@ Using chat with Copilot streamlines your workflow by bypassing traditional navig
 1. In the upper-right corner of the screen, select the ![Shows the icon for chat with Copilot](media/chat-copilot-icon.png) **Copilot** icon ![Shows cllour number 1](media/callout-number-1.svg).
 
    The **Copilot** pane appears as shown in the image:
-   
+
     ![Shows the icon for chat with Copilot pane with callouts](media/chat-with-copilot-pane.svg)
 
 1. In the **Ask a question** box at the bottom ![Shows callout number 2](media/callout-number-2.svg), enter your question, and then select the arrowhead or press <kbd>Enter</kbd> to get an answer.
@@ -61,7 +61,7 @@ Using chat with Copilot streamlines your workflow by bypassing traditional navig
 
    Depending on your question, the answer can contain text, links to records or pages in Business Central, and links to Business Central help articles on Microsoft Learn.
 
-   To provide you with the best assistance, Chat might ask for more details about your question.
+   To assist you better, Chat might ask for more details about your prompt and offer you to choose from a few options. In some instances, Chat follows an answer with related prompt suggestions for you to choose from ![Shows callout number 5](media/callout-number-5.svg).
 
 1. Ask another question to refine the answer.
 
@@ -73,7 +73,9 @@ If you want to switch to a different topic of conversation with Copilot, select 
 
 The chat also clears if you close or sign out of Business Central.
 
-## Tips for better questions
+## Guidelines and techniques for effective prompting
+
+### Basic techniques to improve the answers
 
 Here are some ways you can improve the answers you get from Copilot:
 
@@ -85,7 +87,11 @@ Here are some ways you can improve the answers you get from Copilot:
 - If the initial response doesn't fully answer your questions, ask follow-up questions or rephrase the last question.
 - If you're asking a question on a different subject matter than previous question, clear the current chat session to start over.
 
-## Example prompts
+### Prompting for organizing and analyzing data
+
+
+If you want to prompt Chat about records on the current page, you can omit 
+### Example prompts
 
 Your questions to Copilot vary depending on your role, current task, the processes that your organization follows, and how you express yourself in words. The following are examples that show different ways of asking questions in the chat pane that can inspire you to write your own questions based on your situation.
 

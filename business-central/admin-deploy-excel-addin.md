@@ -137,6 +137,84 @@ Sometimes, users run into problems with the Excel add-in. This section gives som
 
 
 
+## Known Limitations in Metadata Generation
+
+When using the _Edit in Excel_ feature in Business Central, either by clicking the _Edit in Excel_ button or when the add-in loads after opening an _Edit in Excel_ workbook, you may encounter the following error: _Metadata was unable to be retrieved for entity \<entity name\> as it was not found_.
+
+This error occurs when the page you are attempting to modify becomes too complex for _Edit in Excel_ to process effectively. The primary cause is the installation of multiple extensions that add fields with identical field names to the same parent page, leading to conflicts.
+
+To resolve this issue, there are two potential solutions:
+
+1. **Disable Extensions**: You can disable extensions one at a time that affect the problematic page, identifying which extension is causing the conflict. However, this approach may not be ideal if the extensions in question are necessary for your business processes.
+
+2. **Modify Extension Code**: The second solution involves analyzing the root cause of the issue and addressing it by modifying the code of the conflicting extensions. 
+
+To better understand this issue, consider the following example involving the _Customer Card (21)_ page. When you are on the _Customer List (22)_ page and select _Edit in Excel_, a web service is generated in the background that exposes the fields from the _Customer Card (21)_ page. This web service will include all page fields defined on the _Customer Card (21)_ page, while table fields will only be exposed if they correspond to a page field or are part of the primary key.
+
+When an extension is installed that extends the _Customer Card (21)_ page, the fields added by the extension will also be exposed in the web service. While extensions cannot create page fields with the same names as those already existing on the _Customer Card (21)_ page, conflicts can still arise when multiple extensions add fields with identical names.
+
+For example, suppose the following extension, referred to as _A_, is installed:
+
+```AL
+using Microsoft.Sales.Customer;
+
+// Extension A
+pageextension 50101 CustomerCardExtA extends "Customer Card"
+{
+    layout
+    {
+        addLast(General)
+        {
+            field("ShoeSize"; Rec.ShoeSize)
+            {
+                ApplicationArea = ALL;
+                Caption = 'ShoeSize';
+            }
+        }
+    }
+}
+
+tableextension 50101 CustomerTableExtension extends Customer
+{
+    fields
+    {
+        field(50100; ShoeSize; Integer) { }
+    }
+}
+```
+Now, consider that another extension, referred to as B, is installed, which also modifies the Customer Card (21) page:
+
+```AL
+using Microsoft.Sales.Customer;
+
+// Extension B
+pageextension 50102 CustomerCardExtB extends "Customer Card"
+{
+    layout
+    {
+        addLast(General)
+        {
+            field("ShoeSize"; Rec.ShoeSizeField)
+            {
+                ApplicationArea = ALL;
+                Caption = 'ShoeSize';
+            }
+        }
+    }
+}
+
+tableextension 50102 CustomerTableExtension extends Customer
+{
+    fields
+    {
+        field(50105; ShoeSizeField; Integer) { }
+    }
+}
+```
+In this scenario, both extensions A and B add a page field named "ShoeSize" to the Customer Card (21) page. This results in a conflict, leading to a metadata generation failure for the Customer Card (21) page.
+
+To resolve this issue, you will need access to the code of at least one of the extensions and modify the conflicting page field names to avoid collisions.
+
 <!--
 ## Deploy the Excel add-in for Business Central online
 

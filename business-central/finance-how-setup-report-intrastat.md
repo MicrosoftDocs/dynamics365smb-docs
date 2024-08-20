@@ -284,10 +284,10 @@ If there's a reason to exclude a specific item or fixed asset from Intrastat rep
 >
 > When you add a tariff number that has a defined **Unit of Measure** value to the item, [!INCLUDE [prod_short](includes/prod_short.md)] automatically adds a new unit of measure to the **Item Units of Measure** value for the item. The **Qty. per Unit of Measure** value is based on the **Quantity Rounding Precision** field.
 
-## Automate the process of inheriting the  Country of Origin for Items 
+## Automate the process of inheriting the Country of Origin for Items 
 
 > [!NOTE]
-> If the user wants to use the *Country of Origin* inheritance from the purchase document to the sale invoice, this is only possible using *Item Tracking Lines*. Othewise, the system will use the default value.
+> If the user wants to use the *Country of Origin* inheritance from the purchase document to the sales invoice, this is only possible using *Item Tracking Lines*. Otherwise, the system won't use the default value.
 
 ### How to set up  
 
@@ -301,14 +301,14 @@ If there's a reason to exclude a specific item or fixed asset from Intrastat rep
 To use this automated feature, you must enable item tracking for these items, either serial numbers, lots, or both of them. To enable item tracking for the item, follow the steps.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item**, and then select the related link.
-2. Choose the item you want to configure.
+2. Choose the item that you want to configure.
 3. On the **Item Card** page, on the **Item Tracking** FastTab, select one of item tracking codes using the **Item Tracking Code** field.
 4. When selecting, you can see how item tracking codes are configured.
 5. Select the one you want and select **OK**.
 
 ### Use the Item in any of the Purchase documents 
 
-Once you select the item that has an **Item Tracking Code** enabled in the purchase line, you need to follow the steps.  
+Once you select the item that has an **Item Tracking Code** enabled in the purchase line, you must follow the steps.  
 
 1. Om the **Lines** FastTab, choose **Line**, and run the **Item Tracking Lines** action.
 2. On the **Item Tracking Lines** page after adding **Serial No.** or **Lot No.**, and entering value in **Quantity (Base)** field, choose one of the following options:  
@@ -321,7 +321,7 @@ Once you select the item that has an **Item Tracking Code** enabled in the purch
 7.  Repeat this process for each line on the **Item Tracking Lines** page where you have configured item tracking.
 8.  Close the **Item Tracking Lines** page.
 
-When you work with **Sales Invoice**, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically collect **Country/Region Code** for any lot or serial number you may choose. You can always check the code using the **Item Tracking Lines** from the sales lines.  
+When you work with **Sales Invoice**, [!INCLUDE[prod_short](includes/prod_short.md)] automatically collects the **Country/Region Code** for any lot or serial number you may choose. You can always check the code using the **Item Tracking Lines** from the sales lines.  
 
 These **Country/Region Codes** are automatically populated in the **Country/Region of Origin Code** field in the **Intrastat Report Lines**.  
 

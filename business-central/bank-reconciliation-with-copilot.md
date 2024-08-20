@@ -125,7 +125,7 @@ This section explains how to use Copilot to post unreconciled bank account state
 
     Copilot focuses on the selected lines to post new payments to the G/L account.
 
-1. Select **Post Difference to G/L Account** to start the process.
+1. Select ![Shows the Copilot icon](media/copilot-icon-rainbow.png) > **Post Difference to G/L Account** to start the process.
 
     ![Screenshot that shows the Post Difference to G/L Account button on the Bank Acc. Reconciliation card.](media/bank-reconciliation-transfer-gl-copilot-card.png)
 

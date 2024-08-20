@@ -40,7 +40,7 @@ Bank account reconciliation assist is a set of AI-powered features that help you
 
 - Bank account reconciliation assist is activated. An administrator must complete this task. Learn more in [Configure Copilot and AI capabilities](enable-ai.md).
 - The bank accounts in Business Central that you want to reconcile are linked to an online bank account, or they are set up with a bank statement import format.
-- You're familiar with bank account reconciliation in Business Central. Leran more in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
+- You're familiar with bank account reconciliation in Business Central. Learn more in [Reconcile Bank Accounts](bank-how-reconcile-bank-accounts-separately.md).
 
 ## Reconcile bank accounts with Copilot
 

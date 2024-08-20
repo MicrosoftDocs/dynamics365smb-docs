@@ -1,5 +1,5 @@
 ---
-title: Working with carbon credits
+title: Work with carbon credits
 description: Learn how to set up and purchase carbon credit.
 author: altotovi
 ms.topic: conceptual
@@ -20,7 +20,8 @@ In general, carbon credits are permits that allow the owner to emit a certain am
 
 ## Set up the carbon credit  
 
-Carbon Credit in [!INCLUDE[prod_short](includes/prod_short.md)] can be set as the **Item**. To set up the **Item** as a carbon credit, follow the steps:  
+Carbon Credit in [!INCLUDE[prod_short](includes/prod_short.md)] can be set as the **Item**. To set up the **Item** as a carbon credit, follow the steps:
+  
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then select the related link. 
 2. [Create new item as explained](inventory-how-register-new-items.md).   
 3. Once the item is created, select the **GHG Credit** field on the **Sustainability** FastTab and add the value of carbon credit using the **Carbon Credit Per UOM** field.
@@ -35,12 +36,12 @@ Carbon Credit in [!INCLUDE[prod_short](includes/prod_short.md)] can be set as th
 
 ### Purchase documents 
 
-To work with purchase documents, follow the steps:
+To work with any purchase-related documents, follow the steps:
 
 1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon and:  
-   1. Enter **Purchase Invoices** if you invoice as a **Document Type**, and then select the related link.  
+   1. Enter **Purchase Invoices** if you want invoice as a **Document Type**, and then select the related link.  
    2. Enter **Purchase Orders** if you want order as a **Document Type**, and then select the related link.   
-2. Populate document header based on the following instruction [how to work with purchase documents](purchasing-how-record-purchases.md). 
+2. Populate document header based on the following instruction [how to work with purchase invoices and orders](purchasing-how-record-purchases.md). 
 3. Choose the item configure as a carbon credit in the **No.** field in the purchase document lines, and add appropriate **Quantity** and **Direct Unit Cost**. 
 4. Add the **Sustainability Account No.** you would use for decreasing your carbon dioxide (CO₂) value. System will automatically populate the value in the **Emission CO2** field based on the value you have configured in the **Carbon Credit Per UOM** field on the **Item** card.
 5. Post the document.

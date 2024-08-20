@@ -9,7 +9,7 @@ ms.search.form:
 ms.date: 08/20/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
-ms.reviewer: 
+ms.reviewer: solsen
 ---
 
 # Work with carbon credit  
@@ -46,7 +46,7 @@ To work with purchase documents, follow the steps:
 5. Post the document.
 
 > [!NOTE]
-> Although carbon credit will decrease the value of entries, you will see a positive amount of value in the **Emission CO2**. But once you post the document, you will see a value with a negative sign in the **Sustainability Ledger Entry** with the **GHG Credit** as a **Document Type**.  
+> Although carbon credit will decrease the value of entries, you'll see a positive amount of value in the **Emission CO2**. But once you post the document, you'll see a value with a negative sign in the **Sustainability Ledger Entry** with the **GHG Credit** as a **Document Type**.  
 
 ### Sustainability journals 
 

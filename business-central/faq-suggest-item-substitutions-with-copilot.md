@@ -20,7 +20,7 @@ These frequently asked questions (FAQ) describe the AI impact of the sales line 
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## What is suggest item substitutions with Copilot? 
+## What is suggest item substitutions with Copilot?
 
 In a business landscape that changes fast, companies often need to evolve the portfolio of products they sell. Whether it's adding new products, changing existing products, or adding entire new product lines and categories, it's often time consuming to create and manage product (item) information.  
 

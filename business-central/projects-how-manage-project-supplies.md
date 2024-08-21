@@ -20,13 +20,13 @@ If the purchase process doesn't require you to record the physical transaction s
 
 ## Manual or semi-automated replenishment
 
-If you already know which supplies you need to replenish for a project, you can create a purchase order. To learn more, go to [To manually purchase items or services for a project](#to-manually-purchase-items-or-services-for-a-project).
+If you already know which supplies you need to replenish for a project, you can create a purchase order. To learn more, go to [To manually purchase items or services for a project](#manually-purchase-items-or-services-for-a-project).
 
 However, if you aren't sure what you're missing, you can use a semi-automated process where you create a purchase order directly from a project. [!INCLUDE [prod_short](includes/prod_short.md)] helps by listing all items and shows whether they're available or unavailable. You can adjust the quantities to replenish on the lines.  
 
-The semi-automated process creates a purchase order for each vendor from which you purchase the items on the project, including any quantity changes that you made on the **Create Purchase Orders** page. You can continue to process the purchase order or orders, for example, by editing or adding purchase order lines.
+The semi-automated process creates a purchase order for each vendor from which you purchase the items, including any quantity changes that you made on the **Create Purchase Orders** page. You can continue to process the purchase order or orders, for example, by editing or adding purchase order lines. 
 
-Later, you can review the purchase lines linked to the project either from the **Project Card** page or **Project Planning Lines** by choosing the **Purchase Lines** action.
+Later, you can review the purchase lines linked to the project either from the **Project Card** page or **Project Planning Lines** by choosing the **Purchase Lines** action. To learn more, go to [Use a semi-automated replenishment process for a project](#use-a-semi-automated-replenishment-process-for-a-project).
 
 > [!NOTE]
 > As in other cases that involve advanced inventory processes, such as reservation, warehousing, and assemble-to-order, the project's status must be **Open** and the **Apply Usage Link** toggle must be turned on.
@@ -36,7 +36,7 @@ Later, you can review the purchase lines linked to the project either from the *
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.
 2. Open a project that you want to purchase items for.
 3. Choose the **Create Purchase Orders** action.
-4. The **Create Purchase Orders** page opens and shows a line for each item on the project. Lines for both fully available quantities and unavailable quantities show by default. To show only unavailable quantities, choose the **Show Unavailable** action.
+4. The **Create Purchase Orders** page shows a line for each item on the project. Lines for both fully available quantities and unavailable quantities show by default. To show only unavailable quantities, choose the **Show Unavailable** action.
 5. The **Quantity to Purchase** field contains the unavailable quantity. To purchase a different quantity, edit the value in the field. <!--You can also turn on the **Reserve** toggle if you want to reserve the quantity on the purchase line against demand. I DON'T SEE THIS TOGGLE ON THE CREATE PURCHASE ORDERS PAGE-->
 
    > [!Note]
@@ -52,9 +52,9 @@ The following procedure shows how to use a purchase invoice to purchase products
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.  
 2. Choose the **New** action and fill in the fields as necessary. For more information, see [Record Purchases](purchasing-how-record-purchases.md).
-3. In the **Project No.** and **Project Task No.** fields, select the information of the project that you want to purchase items or services for. Use the personalization tools if a field isn't visible. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
+3. In the **Project No.** and **Project Task No.** fields, select the information of the project that you want to purchase items or services for. Use the personalization tools if a field isn't visible. To learn more, go to [Personalize Your Workspace](ui-personalization-user.md).
 
-    The value that you select in the **Project Line Type** field defines whether a planning line is created when you post the usage of the item. If the field contains **Billable**, then project planning lines that are ready to be invoiced to the customer are created. For more information, see [Invoice Projects](projects-how-invoice-jobs.md).
+    The value that you select in the **Project Line Type** field defines whether a planning line is created when you post the usage of the item. If the field contains **Billable**, then project planning lines that are ready to be invoiced to the customer are created. To learn more, go to [Invoice Projects](projects-how-invoice-jobs.md).
 4. Choose the **Post** action.
 
 ## To view the value of purchases for a project

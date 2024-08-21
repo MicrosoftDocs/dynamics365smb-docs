@@ -13,11 +13,11 @@ ms.custom: bap-template
 ---
 # Add extended text
 
-Use extended text to communicate information about special prices, terms, or instructions for items, stock-keeping units, general ledger accounts, project planning lines, and resources. You provide the information by adding extra lines as extended text. You can also set up conditions for use of the extra lines.  
+Use extended texts to communicate additional information for items, stock-keeping units, general ledger accounts, project planning lines, and resources. For example, the extra details might be about special prices, terms, or handling instructions. Provide the information by adding extra lines as extended text. You can also set up conditions for use of the extra lines.  
 
 The following section describes how to add extended text to a description of an item. The same steps apply to stock-keeping units, general ledger accounts, project planning lines, and resources.  
 
-## To define extended text for an description
+## To define extended text for a description
 
 1. Open the card for an item that you want to add extended text to, and then choose the **Extended Text** action.
 2. Fill in the **Code** and **Description** fields.

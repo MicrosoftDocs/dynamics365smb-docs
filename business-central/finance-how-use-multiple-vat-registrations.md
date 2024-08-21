@@ -20,7 +20,7 @@ For businesses with warehouses in multiple EU countries, managing VAT (Value Add
 
 ## How to set up the alternative VAT registration numbers  
 
-To set up the alternative VAT registration numbers for different countries/regions, follow the steps: 
+To set up the alternative VAT registration numbers for different countries/regions, follow these steps: 
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Alternative Customer VAT Registration**, and then select the related link. 
 2. Add the customer in the **Customer No** field and country/region related to this VAT registration in the **VAT Country/Region Code**.  
@@ -54,9 +54,9 @@ You can create new [sales invoice](sales-how-invoice-sales.md) or [sales order](
 6. Select **OK** to confirm.   
 
 > [!NOTE]
-> If you do not want to confirm such a choice anymore, you can select the **Don't show again** field and in the future you will not see this type of notification about changes. But if you want to enable it again, you can do it by enabling the **Confirm Alternative VAT Registration** field on the **VAT Setup**.  
+> If you don't want to confirm such a choice anymore, you can select the **Don't show again** field and in the future you won't see this type of notification about changes. But if you want to enable it again, you can do it by enabling the **Confirm Alternative VAT Registration** field on the **VAT Setup**.  
    
-7. Once you confirm, the values will be overwritten with the values from the **Alternative Customer VAT Registration** setup. You can check all the VAT related fields that are under the **Invoice Details** FastTab.  
+7. Once you confirm, the values are overwritten with the values from the **Alternative Customer VAT Registration** setup. You can check all the VAT related fields that are under the **Invoice Details** FastTab.  
 8. Post the document.  
 
 ### Custom address  

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: Sustainability, ESG, emission, GHG, CSRD, equivalent, CO2e, CO2, carbon, role center, fees
 ms.search.form: 6221, 6235, 6245
-ms.date: 05/08/2024
+ms.date: 08/22/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -20,14 +20,14 @@ To set up the Sustainability module, follow the steps:
 
 ## Role center  
 
-For individuals whose primary responsibilities involve sustainability processes, it is recommended to utilize the **Sustainability Manager** role center. To configure this role center, follow the steps:  
+For individuals whose primary responsibilities involve sustainability processes, it's recommended to utilize the *Sustainability Manager* role center. To configure this role center, follow the steps:  
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **My settings**, and then select the related link.
-2. From the **Role** field, point to the **Available Roles** page.
-3. Choose the **Sustainability Manager** line
-4. Click **OK**.
+2. In the **Role** field, select the **Available Roles** page.
+3. Choose the **Sustainability Manager** line.
+4. Select **OK**.
 
-The **Sustainability Manager** role center facilitates efficient management of all key areas related to sustainability. It encompasses core sustainability features, as well as finance and procurement processes. Additionally, it provides visibility into the most critical sustainability-related KPIs.
+The *Sustainability Manager* role center facilitates efficient management of all key areas related to sustainability. It encompasses core sustainability features, as well as finance and procurement processes. Additionally, it provides visibility into the most critical sustainability-related KPIs.
 
 ## Sustainability setup  
 
@@ -77,24 +77,25 @@ The **Sustainability Manager** role center facilitates efficient management of a
 To track internal carbon fees or calculate your emissions using carbon dioxide (CO2) equivalents, you need to configure the **Emission Fees** page. To set up this information, follow these steps:  
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Emission Fees**, and then select the related link. 
-2. In the **Emission Type** field, choos the GHG emission you want to configure: CO2, CH4, or N2O. This option is mandatory.   
-3. You can firther specify the **Scope Type**. If you leave this field blank it will apply to all scopes, but you can configure it per scope.  
+2. In the **Emission Type** field, choose the GHG emission you want to configure: **CO2**, **CH4**, or **N2O**. This option is mandatory.   
+3. You can further specify the **Scope Type**. If you leave this field blank, it will apply to all scopes, but you can configure for each scope.  
 4. You can configure **Starting Date** and **Ending Date**. That particullary means you can use different configurations for different period. 
-5. The **Country/Region Code** and **Responsibility Code** are optional fields and you can choose if you want to use them. These fields can be useful as this is possible to have different carbon fee per country or to use different conversions to the CO2e per country or facility (reponsibility center).  
-6. The **Carbon Fee** field represents the internal carbon fee that a company charges itself for each unit of CO2 equivalent that it emits. It can be used based on some local or regional regulations, but also for internal calculation. **Carbon Fee** will be calculated every time when you post emissions and this information will be visible in the **Sustainability Ledger Entries**, without any additional posting in i.e. **G/L Ledger**. You can set up **Carbon Fee** per unit of measure  you have in the **Sustainability Setup** and it can be populated only for the line where the **Emission Type** is **CO2**. 
-7. The **Carbon Equivalent Factor** specifies the coefficient that converts the impact of various greenhouse gases into the equivalent amount of carbon dioxide based on their global warming potential. If the **Emission Type** is CO2, the **Carbon Equivalent Factor** will always be 1 and you cannot modify this value, because CO2 is the reference gas used for calculating the global warming potential (GWP) of other greenhouse gases; since CO2 is the baseline, its GWP is set to 1. For other GHG gases, user must configure vale manually. To make proper calculation you can use the following example: If we assume that 1 kilogram of N2O is equivalent to 298 kilograms of CO2, you need to calculate 1/298 and the result you need to populate will be 0.00336.  
+5. The **Country/Region Code** and **Responsibility Code** are optional fields and you can choose if you want to use them. These fields can be useful as it's possible to have different carbon fees per country or to use different conversions to the CO2e per country or per facility (responsibility center).  
+6. The **Carbon Fee** field represents the internal carbon fee that a company charges itself for each unit of CO2 equivalent that it emits. It can be used based on some local or regional regulations, but also for internal calculations. **Carbon Fee** will be calculated every time when you post emissions and this information will be visible on the **Sustainability Ledger Entries**, without any additional posting on **G/L Ledger**. You can set up **Carbon Fee** per unit of measure that you have in the **Sustainability Setup** and it can be populated only for the line where the **Emission Type** is **CO2**. 
+7. The **Carbon Equivalent Factor** specifies the coefficient that converts the impact of various greenhouse gases into the equivalent amount of carbon dioxide based on their global warming potential. If the **Emission Type** is CO2, the **Carbon Equivalent Factor** will always be *1* and you can't modify this value, because CO2 is the reference gas used for calculating the global warming potential (GWP) of other greenhouse gases; since CO2 is the baseline, its GWP is set to *1*. For other GHG gases, users must configure the values manually. 
+To make proper calculation, you can use the following example: If we assume that 1 kilogram of N2O is equivalent to 298 kilograms of CO2, you need to calculate 1/298 and the result you need to populate will be 0.00336.  
 
 > [!NOTE]
-> Carbon Fee field in the **Sustainability Ledger Entries** will not be calculated based on the **CO2 Emission** values. Instead of that as foundation for this formula Business Central will use the **CO2e Emission** field. **CO2e Emission** field will be calculated based on all emissions posted to entry and the **Carbon Equivalent Factor** configured for each of gases in the **Emission Fees** page.  
+> **Carbon Fee** field on the **Sustainability Ledger Entries** will not be calculated based on the **CO2 Emission** values. Instead, as a foundation for this formula, [!INCLUDE[prod_short](includes/prod_short.md)] will use the **CO2e Emission** field. **CO2e Emission** field will be calculated based on all the emissions posted to entry and the **Carbon Equivalent Factor** configured for each of the gases on the **Emission Fees** page.  
 
-If you didn't configure **Emission Fees** before you started with posting your sustainability entries and you want to calculate your carbon fees and CO2e retroactively, you need to run the **Calculate Emission Fees** action to update values in the **Sustainability Ledger Entries**.  
+If you didn't configure the **Emission Fees** before posting your sustainability entries, and you want to calculate your carbon fees and CO2e retroactively, you need to run the **Calculate Emission Fees** action to update values on the **Sustainability Ledger Entries**.  
 
 ## See also
 
-[Finance](finance.md)  
-[Sustainability management overview](finance-manage-sustainability.md)  
-[Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)  
-[Record sustainability entries](finance-sustainability-journal.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Finance](finance.md)    
+[Sustainability management overview](finance-manage-sustainability.md)    
+[Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)    
+[Record sustainability entries](finance-sustainability-journal.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

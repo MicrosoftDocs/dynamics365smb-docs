@@ -1,13 +1,13 @@
 ---
-title: Create a Project Card for a Project and Specify Tasks
+title: Create a project card for a project and specify tasks
 description: For a new project, you create a project card that contains project tasks and planning lines, to help you manage progress and budgets.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
-ms.date: 02/22/2024
+ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -24,36 +24,6 @@ The layer structure enables you to divide the project into smaller tasks, and th
 > [!TIP]
 > Choose the **New Project** action on the **Project Manager** Role Center to launch an assisted setup guide that takes you through the steps of creating a project with integrated tasks and planning lines. The following procedure describes how to perform the steps manually. <!-- For an example of how to create a project manually, go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).-->
 
-## Invoice one or more customers for project tasks
-
-Sometimes the party that is receiving a service is different from the party that'll pay the bill. Also, sometimes you might need to invoice multiple customers for tasks in the project. On the **Project Card** page, use the **Task Billing Method** field to specify whether you're billing one customer, or multiple customers.
-
-If the customer who is receiving the service will also pay the bill, in the **Bill-to** and **Ship-to** fields, choose **Default (Customer)** and **Default (Sell-to Address)**.
-
-If you're billing multiple customers, you can specify the customer who will receive the service and the customer to invoice for each task in the project. You can also provide the following information:
-
-* Where the work will happen by selecting from a list of ship-to addresses for the customer.
-* Add information about external references to simplify communication about the project.
-* Overwrite the standard financial terms of the project.
-
-## Invoice one customer for multiple project tasks
-
-You can simplify your invoicing process by sending one invoice to a customer for multiple projects. Add project planning lines from multiple projects to a sales invoice in one go. This process is similar to creating a sales invoice from a project planning line and entering a value in the **Append to Sales Invoice No.** field.
-
-Here's an overview of the process.
-
-1. Create a new sales invoice, and fill in the **Sell-to Customer No.** field. If needed, also fill in the **Bill-to Customer No.** and **Currency Code** fields.
-2. On the **Lines** FastTab, choose the **Get Project Planning Lines** action. The **Get Project Planning Lines** page shows billable project planning lines from projects for the sell-to customer, bill-to customer, and invoicing currency where the quantity to invoice is more than zero. 
-3. Choose the lines you want to add to the invoice, and then choose **OK**.
-
-Repeat these steps if you want to add another set of project planning lines. You can also delete the invoice or its lines and start over.
-
-> [!NOTE]
-> There are a couple of limitations:
->
-> * The **Get Project Planning Lines** action isn't available on sales orders or sales quotes.
-> * You can't filter on the **Ship-to Code** or **Contact No.** fields.
-
 ## To create a project card
 
 You create a project card and then create project task lines and project planning lines for it.
@@ -63,14 +33,17 @@ You create a project card and then create project task lines and project plannin
 3. To base the project on information from another project, choose the **Copy Project** action, fill in the fields as necessary, and then choose the **OK** button.
 
 > [!NOTE]  
-> If you are using time sheets with your project, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the project. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
+> If you're using time sheets with your project, you must also designate a person responsible. This person can approve time sheets for the employee tasks associated with the project. For more information, see [Set Up Time Sheets](projects-how-setup-time-sheets.md).
 
-Optionally, mark actions on project as blocked using the **Blocked** field. the following table describes the effect of the options for this field.
+> [!NOTE]  
+> The **Apply Usage Link** toggle indicates whether project ledger entries are linked to project planning lines. The **Apply Usage Link** toggle also activates warehouse handling, planning, assembly-to-order, item tracking, and reservation capabilities for a project.
+
+Optionally, mark actions on project as blocked using the **Blocked** field. The following table describes the effect of the options for this field.
 
 |Option  |Description  |
 |---------|---------|
 |Blank |All actions are allowed.|
-|Posting    |You can work with planning lines, but the project is blocked for posting. Choosing this option means that you cannot post any usage or sale on the project.|
+|Posting    |You can work with planning lines, but the project is blocked for posting. You can't post usage or sales for the project.|
 |All  |All actions are blocked.|
 
 ## To create tasks for a project
@@ -83,6 +56,32 @@ A key part of creating a project is to specify the various tasks involved in the
 4. To indent tasks and create a hierarchy, Choose the **Tasks** action, the then choose **Indent Project Tasks** action.
 5. Repeat steps 3 and 4 for all the tasks that you need for the project.
 6. To specify the project tasks with information on other project tasks, choose the **Copy Project Tasks from** action, fill in the fields as necessary, and then choose the **OK** button.
+
+## Invoice one or more customers for project tasks
+
+Sometimes the party that is receiving a service is different from the party that'll pay the bill. Also, sometimes you might need to invoice multiple customers for tasks in the project. On the **Project Card** page, use the **Task Billing Method** field to specify whether you're billing one customer, or multiple customers.
+
+If the customer who is receiving the service will also pay the bill, in the **Bill-to** and **Ship-to** fields, choose **Default (Customer)** and **Default (Sell-to Address)**.
+
+If you're billing multiple customers, you can specify the customer who will receive the service and the customer to invoice for each task in the project. You can also provide the following information:
+
+* Select the ship-to address for the customer where the work will happen.
+* Add information about external references to simplify communication about the project.
+* Overwrite the standard financial terms of the project.
+
+## Specify a default location for project items
+
+You can save time on data entry by specifying a default location and bin for projects on the **Project Card** page. When you create project tasks, project planning lines, and project journal lines for the project, the default location and bin are automatically assigned. You can, however, change the location code and bin on tasks and lines if needed.
+
+If you define a **To-Project Bin Code** on the location, the bin code is populated when you select the location code. If your warehouse flow requires warehouse picks, you can also define other bins from which to consume items.
+
+These fields are the defaults when you create project tasks. Existing project tasks don't change.
+
+There are a few things to know about using default locations:
+
+* For project tasks, if you define a **To-Project Bin Code** on the location, the bin code is assigned when you select the location code. If your warehouse flow requires warehouse picks, you can also define other bins from which to consume items.
+* For project planning lines, the **Location Code** is based on the value selected on the project planning line when you select an item. If a bin code isn't defined for the project task, the bin from the default bin content is selected. You can change both values manually.
+* For project journal lines, the **Location Code** is based on the value selected on the job journal line when you select an item. If a bin code isn't defined for the project task, the bin from default bin content is selected. You can change both values manually.
 
 ## To create planning lines for a project
 

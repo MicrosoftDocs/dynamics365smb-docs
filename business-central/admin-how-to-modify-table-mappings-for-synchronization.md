@@ -1,16 +1,16 @@
 ---
-title: Mapping the Tables and Fields to Synchronize
+title: Mapping the tables and fields to synchronize
 description: Learn how to map tables and fields for synchronizing data between Business Central and Microsoft Dataverse.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 03/31/2023
+ms.date: 08/07/2024
 ms.custom: bap-template
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.service: dynamics-365-business-central
 ---
-# Mapping the Tables and Fields to Synchronize
+# Mapping the tables and fields to synchronize
 
 The basis of synchronizing data is mapping the tables and fields in [!INCLUDE[prod_short](includes/prod_short.md)] with tables and columns in [!INCLUDE[prod_short](includes/cds_long_md.md)], so they can exchange the data. Mapping happens through integration tables.
 
@@ -28,9 +28,32 @@ When you create the connection between the apps, [!INCLUDE[prod_short](includes/
 >
 > To avoid slow performance, on the **Integration Table Mappings** page, you can enable or disable event-based data synchronization for any table. By default, event-based synchronization is turned on so that existing integrations aren’t affected. Your administrator can turn it on or off for specific tables.
 
-### Additional mappings
+### Add table and field mappings to existing integration tables
 
-Payment terms, shipment methods, and shipping agents can change, and it can be important to be able to adjust them. If you enable the **Feature Update: Map to option sets in Dataverse without code** feature on the [Feature Management](https://businesscentral.dynamics.com/?page=2610) page, you can manually add integration table mappings for payment terms (PAYMENT TERMS), shipment methods (SHIPMENT METHOD), and shipping agents (SHIPPING AGENT). This mapping can help ensure that your policies are the same for these setups in [!INCLUDE[prod_short](includes/cds_long_md.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+On the **Integration Table Mappings** page, you can use the New Table Mapping action to add new table mappings to integration tables. The action starts the **Create new integration mappings** assisted setup guide, which helps you set up new integration table and field mappings.
+
+The guide lets you map the tables in [!INCLUDE [prod_short](includes/prod_short.md)] with existing integration tables in Dataverse. You can also specify the Dataverse table's unique identifier in **Integration Table Unique Identifier Field Name** and the **Integration Table Modified on Field Name**, which are needed for data synchronization to work.
+
+> [!NOTE]
+> The lookup on the Table column shows all [!INCLUDE [prod_short](includes/prod_short.md)] tables, including custom tables, that aren't yet mapped. It excludes those that already exist on your Integration Table Mappings page. The lookup on the Integration Table column shows only Dataverse tables (AL Proxy Tables) that are part of out-of-the-box integrations. To add additional or custom Dataverse tables, you'll need help from a developer to create and deploy them through an extension.
+
+The Advanced action opens additional table mapping settings that you can set up. In the **Advanced** section, the **Table Filter** field lets you specify filters for [!INCLUDE [prod_short](includes/prod_short.md)]. Use the **Integration Table Filter** field for Dataverse data to consider in data synchronization together with the configuration template codes in **Table Config. Template Code** and **Int. Tbl. Config. Code** to prefill missing data when new data comes from either application.
+
+The guide also helps you specify the fields you want the new mapping to contain. You can match a [!INCLUDE [prod_short](includes/prod_short.md)] field in the **Field Name** column with a Dataverse field name in the **Integration Field Name** column. You can also specify a **Direction**, whether the field always has the same value in the **Constant** column, and whether validations or transformations need to be applied during field mapping.
+
+> [!NOTE]
+> To reduce errors, the lookup for the **Integration Table Field** column filters to a list of available fields. To map fields that the filters don't include, you'll need help from a developer.
+>
+> * Fields must be enabled.
+> * You can't use the guide to map FlowField and FlowFilter fields.
+> * You can only map fields of the type BigInteger, Boolean, Code, Date, DateFormula, DateTime, Decimal, Duration, GUID, Integer, Option, and Text.
+
+> [!TIP]
+> You can also add new field mappings to existing integration table mappings through the **Integration Field Mappings** list page, which you can access by choosing **Fields** on the **Integration Table Mappings** page.
+>
+> Simply choose **New Field Mapping** to open the field mapping step of the **Create new integration mappings** assisted setup guide, and then proceed as described in this article.
+
+New field mappings you add to an existing table mapping are in a Disabled state. You can choose **Edit List** to enable them later.
 
 ### Synchronization rules
 

@@ -1,5 +1,5 @@
 ---
-title: Update currency exchange rates (contains video)
+title: Update currency exchange rates
 description: Learn how to use Business Central to adjust exchange rates for amounts in different currencies.
 author: brentholtorf
 ms.author: bholtorf
@@ -7,10 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 05/03/2024
+ms.date: 08/12/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
+
 # Update currency exchange rates
 
 If you trade in different currencies, you need to keep track of the changes in currency exchange rates. [!INCLUDE [prod_short](includes/prod_short.md)] helps you manage and update the exchange rates manually or automatically and set up a currency exchange rate service.
@@ -30,7 +31,7 @@ You can specify the currency codes in the **Currencies** list, including extra i
 
 ## Exchange rates
 
-The exchange rates are the tool to calculate the local currency value (LCY) of each currency transaction. The **Exchange Rates** page includes the following fields:
+The exchange rates are the tool to calculate the local currency value (LCY) of each currency transaction. The **Currency Exchange Rates** page includes the following fields:
 
 |Field|Description|  
 |---------------------------------|---------------------------------------|  
@@ -126,7 +127,9 @@ You can use an external service to keep your currency exchange rates up to date.
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Currency Exchange Rate Services**, and then select the related link.
 2. Select the **New** action.
 3. On the **Currency Exchange Rate Service** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Turn on the **Enabled** toggle to enable the service.
+4. Map the fields from the XML file to the currency exchange rates table in the source field.
+5. Apply any necessary transformation rules.
+6. Turn on the **Enabled** toggle to enable the service.
 
 > [!NOTE]
 > The following video shows how you can connect to a currency exchange rate service, using the European Central Bank as an example. In the segment that describes how to set up field mappings, the setting in the **Source** column for the **Parent Node for Currency Code**  only returns the first currency found. The setting should be `/gesmes:Envelope/Code/Code/Code`.
@@ -144,17 +147,17 @@ Follow the steps given to update the currency exchange rates through a service:
 
 ## Correct mistakes
 
-Every now and then you might need to correct a mistake in a payment transaction that's associated with adjustments to foreign currency gains and losses. You can use the **Reverse transaction** action on the **Bank Ledger Entries**, **Customer Ledger Entries**, and **Vendor Ledger Entries** pages to unapply and reverse the payment transaction.
+Every now and then you might need to correct a mistake in a payment transaction that's associated with adjustments to foreign currency gains and losses. You can use the **Reverse transaction** action on the **Bank Account Ledger Entries**, **Customer Ledger Entries**, and **Vendor Ledger Entries** pages to unapply and reverse the payment transaction.
 
 > [!NOTE]
 > When you unapply and reverse a payment for an entry that had currency exchange rate adjustments associated with it, the reversal posts reversal entries for the adjustments. You might have to run the currency exchange rate adjustment again to get the correct current balance.
 
 ## See also
 
-[Currencies in Business Central](finance-currencies.md)  
-[Set Up Currencies](finance-set-up-currencies.md)  
-[Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)  
-[Closing Years and Periods](year-close-years-periods.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Currencies in Business Central](finance-currencies.md)    
+[Set Up Currencies](finance-set-up-currencies.md)    
+[Set Up an Additional Reporting Currency](finance-how-setup-additional-currencies.md)    
+[Closing Years and Periods](year-close-years-periods.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

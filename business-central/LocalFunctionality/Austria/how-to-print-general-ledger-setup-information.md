@@ -1,13 +1,14 @@
 ---
-    title: Print general ledger setup information [AT]
-    description: Before you use the Austrian version for daily business tasks, you can run the G/L Setup Information report to display the master data that you set up.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 11/22/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: Print general ledger setup information [AT]
+description: Before you use the Austrian version for daily business tasks, you can run the G/L Setup Information report to display the master data that you set up.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/22/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Print general ledger setup information in the Austrian version
 

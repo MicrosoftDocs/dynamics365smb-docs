@@ -1,13 +1,14 @@
 ---
-    title: How to Set Up a Document Exchange Service | Microsoft Docs
-    description: You use an external service provider to exchange electronic documents with your trading partners.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 06/11/2021
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
+title: How to Set Up a Document Exchange Service | Microsoft Docs
+description: You use an external service provider to exchange electronic documents with your trading partners.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 06/11/2021
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Set Up a Document Exchange Service
 

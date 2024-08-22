@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 12/07/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 You must submit a periodic report of goods and services tax (GST) settlement. You can create this settlement from the **BAS Calc. Schedule List** page.  
 

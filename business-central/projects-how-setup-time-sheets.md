@@ -1,13 +1,13 @@
 ---
 title: Set up time sheets and their approval
 description: Learn how to use time sheets to track time for projects and resources.
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 author: brentholtorf
 ms.author: bholtorf
 mw.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: project management, capacity, staff, resource, time sheet
-ms.search.form: 977, 462, 76, 77, 462
+ms.search.form: 977, 462, 76, 77, 462, 946_Primary, 949_Primary
 ms.date: 07/27/2023
 ms.service: dynamics-365-business-central
 ms.custom: bap-template

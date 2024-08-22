@@ -200,7 +200,7 @@ ms.service: dynamics-365-business-central
 #### [Touch and pen gestures](touch-gestures.md)
 ### [Troubleshoot: Access camera and location](ui-troubleshooting-camera-location.md)
 ### [Intelligent insights (online only)](about-intelligent-cloud.md)
-## Frequently Asked Questions
+## Troubleshooting and FAQs
 ### [Frequently Asked Questions](across-faq.yml)
 ### [Chat with Copilot FAQ (preview)](chat-with-copilot-faq.md)
 ### [Tell Me FAQ](ui-search-faq.md)
@@ -211,6 +211,7 @@ ms.service: dynamics-365-business-central
 ### [Teams FAQ](teams-faq.md)
 ### [Electronic invoice FAQ](faq-electronic-invoicing.yml)
 ### [Minimum requirements](product-requirements.md)
+### [Troubleshooting in Business Central](/troubleshoot/dynamics-365/business-central/welcome-business-central)
 
 ## Help and Support
 ### [Resources for help and support](product-help-and-support.md)
@@ -459,6 +460,11 @@ ms.service: dynamics-365-business-central
 #### [Sustainability setup](finance-sustainability-setup.md)
 #### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
 #### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
+#### Sustainability analytics
+##### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
+##### [Built-in sustainability reports](sustainability-reports.md)
+#### Sustainability APIs
+##### [Sustainability API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
 ### [Multi-site and international organizations](finance-multi-site-organizations.md)
 #### Consolidate financial data from multiple companies
@@ -600,7 +606,7 @@ ms.service: dynamics-365-business-central
 #### [Fixed assets analytics overview](fa-analytics-overview.md)
 #### [Ad-hoc analysis of fixed assets data](ad-hoc-analysis-fa.md)
 #### Built-in fixed assets analytics tools
-##### [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)
 ##### [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
 ##### [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
@@ -611,11 +617,11 @@ ms.service: dynamics-365-business-central
 ### [Depreciation methods](fa-depreciation-methods.md)
 ### [Manage budgets for fixed assets](fa-how-manage-budgets.md)
 ### [Acquire fixed assets](fa-how-acquire.md)
+### [Depreciate or amortize fixed assets](fa-how-depreciate-amortize.md)
 ### [Maintain fixed assets](fa-how-maintain.md)
 ### [Insure fixed assets](fa-how-insure.md)
 ### [Transfer, split, or combine fixed assets](fa-how-trans-split-combine.md)
 ### [Revalue fixed assets](fa-how-revalue.md)
-### [Depreciate or amortize fixed assets](fa-how-depreciate-amortize.md)
 ### [Dispose of or retire fixed assets](fa-how-dispose-retire.md)
 ### [Troubleshooting FA ledger entries](fa-troubleshooting-fa-ledger-entries.md)
 
@@ -924,6 +930,7 @@ ms.service: dynamics-365-business-central
 ##### [VAT Control Report](LocalFunctionality/Czech/vat-control-report.md)
 ##### [VAT Reports](LocalFunctionality/Czech/vat-reports-cz.md)
 ##### [VAT Correction in Local Currency](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [Non-Deductible VAT](LocalFunctionality/Czech/non-deductible-VAT.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
 ##### [Intrastat for Czech (Extension)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Fixed Assets
@@ -1581,7 +1588,7 @@ ms.service: dynamics-365-business-central
 #### [Local functionality in the US version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Tax
 ##### [Basic tax setup](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Reporting sales Tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Sales tax in the US](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Introduction to the IRS 1099 forms and its functionality](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
 ##### [Set up and use the IRS 1099 form for version 24 (2024 release wave 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 #### [Use the IRS 1099 forms](LocalFunctionality/UnitedStates/how-to-1099-use.md)
@@ -1857,6 +1864,7 @@ ms.service: dynamics-365-business-central
 #### [Key financial reports](finance-reports.md)
 #### [Accounts receivable reports](receivables-reports.md)
 #### [Accounts payable reports](payables-reports.md)
+#### [Sustainability reports](sustainability-reports.md)
 
 ### [Sales reports](sales-reports.md)
 ### [Purchase reports](purchase-reports.md)
@@ -2120,6 +2128,7 @@ ms.service: dynamics-365-business-central
 ### [FAQ for mapping e-documents with purchase orders using Copilot](faqs-map-edocuments.md)
 # Responsible AI
 ## [Overview](responsible-ai-overview.md)
+## [FAQ for Copilot data security and privacy](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [FAQ for analysis assist (preview)](faqs-analysis-assist.md)
 ## [FAQ for bank reconciliation assist (preview)](faqs-bank-reconciliation.md)
 ## [FAQ for chat with Copilot (preview)](faqs-chat-with-copilot.md)

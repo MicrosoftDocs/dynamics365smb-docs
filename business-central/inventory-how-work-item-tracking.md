@@ -1,12 +1,12 @@
 ---
-title: Track Items with Serial, Lot, and Package Numbers
+title: Track items with serial, lot, and package numbers
 description: You can add serial numbers, lot numbers, and package numbers to any outbound or inbound document, and its posted item tracking entries are displayed in the related item ledger entries.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.forms: 6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 6505, 6508, 9126, 6526, 6516, 6511, 6504, 6509, 163, 6550, 
-ms.date: 03/13/2024
+ms.date: 05/16/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -14,7 +14,7 @@ ms.service: dynamics-365-business-central
 
 You can assign serial numbers, lot numbers, and package numbers to any outbound or inbound document, and its posted item tracking entries display on the related item ledger entries. You track items on the **Item Tracking Lines** page, which you can open from inbound or outbound documents.
 
-The quantity fields at the top of the **Item Tracking Lines** page display the quantities and sums of item tracking numbers that are defined on the lines. The quantities must correspond to those on the document lines, which is indicated by 0 in the **Undefined** fields.
+The quantity fields at the top of the **Item Tracking Lines** page display the quantities and sums of item tracking numbers that are defined on the lines. The quantities must correspond to those on the document lines, which is indicated by *0* in the **Undefined** fields.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] updates the availability information on the **Item Tracking Lines** page when you open the page. It doesn't update the information while you have the page open, even if changes occur in inventory or on other documents during that time.
 
@@ -40,7 +40,7 @@ The **Lot No./Serial No.-List**, **Lot No./Serial No.-Availability**, and the **
 |**Current Requested Quantity**|The number of items that are requested that will be used on the current document|
 |**Total Available Quantity**|The total number of items in inventory, minus the quantity of the item that's requested on this and other documents (total requested quantity), and minus the quantity that's requested but not yet posted on this document (current pending quantity).|
 
-If you work on the **Item Tracking Lines** page for a long time, or if there's a lot of activity with the item you're working with, you can choose the **Refresh Availability** action. Also, the availability of the item is automatically rechecked when you close the page to confirm that there aren't availability problems.
+If you work on the **Item Tracking Lines** page for a long time, or if there's a lot of activities with the item you're working with, you can choose the **Refresh Availability** action. Also, the availability of the item is automatically rechecked when you close the page to confirm that there aren't availability problems.
 
 ## To assign serial or lot numbers during an inbound transaction
 
@@ -190,7 +190,7 @@ You can modify created serial or lot information cards later.
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.  
 2. Select an item that has an item tracking code and has serial or lot number information.
-3. From the **Item Card** page, choose the **Entries** action, and then choose **Ledger Entries**.
+3. From the **Item Card** page, choose the **Related** action, choose the **Related** action, choose the **Entries** action, and then choose **Ledger Entries**.
 4. Choose the **Lot No.** or **Serial No.** field. If information exists for the item tracking number, then the **Lot No. Information List** or **Serial No. Information List** page opens.  
 5. Select a card, and then choose the **Lot No./Serial No. Information Card** action.  
 6. Modify the short description text, the comment record, or the **Blocked** field.  
@@ -204,10 +204,10 @@ Reclassifying item tracking for an item means changing a lot or serial number to
 > [!NOTE]
 > [!INCLUDE [prod_short](includes/prod_short.md)] verifies that each line has a unique combination of serial, lot, and/or package numbers. If you want to split a lot, package, or a lot and package into several lots or packages, you must use multiple journal lines.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclass. Journal**, and then choose the related link.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Reclassification Journals**, and then choose the related link.  
 2. Fill in the line with the relevant information. For more information, see [Count Inventory Using Documents](inventory-how-count-inventory-with-documents.md) or [Count, Adjust, and Reclassify Inventory Using Journals](inventory-how-count-adjust-reclassify.md).
 3. Choose the **Item Tracking Lines** action.  
-4. In the **Serial No.** or **Lot No.** field, select the current serial or lot number.  
+4. In the **Serial Nos.** or **Lot Nos.** field, select the current serial or lot number.  
 5. If you want to enter a new item tracking number, enter it in the **New Serial No.** or **New Lot No.** field. If you want, you can merge one or more lots to one new or existing lot.  
 
     > [!NOTE]  
@@ -241,7 +241,7 @@ The following tables list the pages that support barcode scanning for item track
 |Page  |Field values you can scan  |
 |---------|---------|
 |Item Tracking Lines     |* Serial No.<br><br>* New Serial No.<br><br>* Lot No.<br><br>* New Lot No.<br><br>* Package No.<br><br>* New Package No.|
-|Whse. Item Tracking Lines     |* Serial No.<br><br>* New Serial No.<br><br>* Lot No.<br><br>* New Lot No.<br><br>* Package No.<br><br>* New Package No.|
+|Warehouse Item Tracking Lines     |* Serial No.<br><br>* New Serial No.<br><br>* Lot No.<br><br>* New Lot No.<br><br>* Package No.<br><br>* New Package No.|
 |Item Tracing     |* Serial No. Filter<br><br>* Lot No. Filter<br><br>* Package No. Filter |
 |Item Journal     |* Serial No.<br><br>* Lot No.<br><br>* Package No.     |
 |Warehouse Activity Line     |* Serial No.<br><br>* Lot No.<br><br>* Package No.<br><br>**Note**: The following pages use the Warehouse Activity Line page:<br><br>* page 5780 "Whse. Pick Subform"<br><br>* page 7378 "Invt. Pick Subform"<br><br>* page 5771 "Whse. Putaway Subform"<br><br>* page 7316 "Warehouse Movement Subform"<br><br>* page 7376 "Invt. Putaway Subform"<br><br>* page 7383 "Invt. Movement Subform"        |

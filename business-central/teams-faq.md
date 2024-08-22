@@ -5,9 +5,10 @@ author: jswymer
 ms.author: jswymer
 ms.topic: faq
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 09/28/2022
+ms.date: 08/14/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 # Teams FAQ
 
@@ -46,7 +47,7 @@ Yes. The app is intended to work with any localization of [!INCLUDE [prod_short.
 Two things determine the language used for cards and card details in Teams:
 
 1. Your language in Teams, which you can see from your account settings in Teams. 
-2. Your language in [!INCLUDE [prod_short.md](includes/prod_short.md)], which you can see in the [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client (see [Change Basic Setting - Language](ui-change-basic-settings.md#language)).
+2. Your language in [!INCLUDE [prod_short.md](includes/prod_short.md)], which you can see in the [!INCLUDE [prod_short.md](includes/prod_short.md)] Web client (learn more in [Change Basic Setting - Language](ui-change-basic-settings.md#language)).
 
 The following table explains how the experience differs for message authors and recipients, depending on language settings and availability of languages.
 
@@ -55,24 +56,26 @@ The following table explains how the experience differs for message authors and 
 |Message author |Displays in the language that's specified for you in Teams. If [!INCLUDE [prod_short.md](includes/prod_short.md)] doesn't offer that same language, the card is displayed in English. |Displayed in the language that's specified for you in [!INCLUDE [prod_short.md](includes/prod_short.md)], which may include languages from language apps provided by partners. |
 |Message recipient |Displays in the language of the message author. |Displays in the language that's specified for you in [!INCLUDE [prod_short.md](includes/prod_short.md)]. |
 
-For the list of supported languages for [!INCLUDE [prod_short.md](includes/prod_short.md)], see [Supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
+Get a list of supported languages for [!INCLUDE [prod_short.md](includes/prod_short.md)] in [Supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
 
 ### Does the [!INCLUDE [prod_short.md](includes/prod_short.md)] app work with industry solutions?
 
-Yes. But only some features of the app work with [Embed apps](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview):
+Yes. But only some features of the app work with Embed apps:
 
 - The app works with links based on the **\*.bc.dynamics.com** pattern that's typically used with Embed apps.
 - Contact search isn't available for Embed apps that replace the base application from Microsoft.
 
+Learn more about emdeb apps in [Embed apps](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview).
+
 ### Does [!INCLUDE [prod_short.md](includes/prod_short.md)] work with the Teams mobile app?
 
-Yes. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app can be installed from the Teams desktop app or browser, or by an administrator for all users. Once installed, the [!INCLUDE [prod_short.md](includes/prod_short.md)] app is automatically available in Teams for iOS and Android. On mobile devices, you can only view cards sent by others, access details, or pop out the card to the full experience in the [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile app. You can't paste links that expand into cards when composing messages or searching for contacts. Learn more about minimum requirements for mobile at [Minimum Requirements for Using Business Central](product-requirements.md).
+Yes. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app can be installed from the Teams desktop app or browser, or by an administrator for all users. Once installed, the [!INCLUDE [prod_short.md](includes/prod_short.md)] app is automatically available in Teams for iOS and Android. On mobile devices, you can only view cards sent by others, access details, or pop out the card to the full experience in the [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile app. You can't paste links that expand into cards when composing messages or searching for contacts. Learn more about minimum requirements for mobile in [Minimum Requirements for Using Business Central](product-requirements.md).
 
 ### Is the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams the same as the [!INCLUDE [prod_short.md](includes/prod_short.md)] app for iOS and Android?
 
 No. The app for Teams is an add-in to Microsoft Teams and exclusively designed for collaboration within Teams. Alternatively, the [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile app delivers a rich experience for you to work with [!INCLUDE [prod_short.md](includes/prod_short.md)] data on your mobile devices.
 
-Mobile users are encouraged to install both the mobile app and the app for Teams to get the most out of [!INCLUDE [prod_short.md](includes/prod_short.md)]. With both installed, you can choose the **Pop out** action on a card in Teams to open the card details in the [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile app. To learn more about installing the [!INCLUDE [prod_short.md](includes/prod_short.md)] and Teams mobile apps, see:
+Mobile users are encouraged to install both the mobile app and the app for Teams to get the most out of [!INCLUDE [prod_short.md](includes/prod_short.md)]. With both installed, you can choose the **Pop out** action on a card in Teams to open the card details in the [!INCLUDE [prod_short.md](includes/prod_short.md)] mobile app. Learn more about installing the [!INCLUDE [prod_short.md](includes/prod_short.md)] and Teams mobile apps in:
 
 - [Get Business Central on Your Mobile Device](install-mobile-app.md)
 - [Get the Teams Mobile App](https://support.microsoft.com/office/download-the-mobile-app-for-teams-5940ebdc-0082-4fb1-83c4-751edc23dcb5) in Microsoft Support
@@ -81,9 +84,9 @@ Mobile users are encouraged to install both the mobile app and the app for Teams
 
 No. The [!INCLUDE [prod_short.md](includes/prod_short.md)] app for Teams isn't supported when installed as a package for macOS or Linux. On those platforms, you access Teams using a supported browser instead.
 
-For minimum requirements in [!INCLUDE [prod_short.md](includes/prod_short.md)], see [Minimum Requirements for Using Business Central](product-requirements.md#teams).
+Learn more about minimum requirements in [Minimum Requirements for Using Business Central](product-requirements.md#teams).
 
-To learn more about the choice of Teams clients and how to install them, see [Get clients for Microsoft Teams](/microsoftteams/get-clients) in the Teams documentation.
+Learn more about the choice of Teams clients and how to install them at [Get clients for Microsoft Teams](/microsoftteams/get-clients) in the Teams documentation.
 
 ### Which Teams client is best for [!INCLUDE [prod_short.md](includes/prod_short.md)]?
 
@@ -91,7 +94,7 @@ There are only minor differences and limitations between Teams clients that may 
 
 - The camera and location can't be accessed from the details window in the Teams desktop app.
 - Phone numbers can't be activated from the details window in Teams for iOS, Android, or in the browser.
-- Using Microsoft Edge with Teams in the browser lets you easily work across multiple identities and accounts by signing in to Teams from different profiles. To learn about using profiles in Microsoft Edge, see [Sign in and create multiple profiles in Microsoft Edge](https://support.microsoft.com/office/sign-in-and-create-multiple-profiles-in-microsoft-edge-df94e622-2061-49ae-ad1d-6f0e43ce6435) in Microsoft Support.
+- Using Microsoft Edge with Teams in the browser lets you easily work across multiple identities and accounts by signing in to Teams from different profiles. Learn more about using profiles in Microsoft Edge at [Sign in and create multiple profiles in Microsoft Edge](https://support.microsoft.com/office/sign-in-and-create-multiple-profiles-in-microsoft-edge-df94e622-2061-49ae-ad1d-6f0e43ce6435) in Microsoft Support.
 
 ### What is the best way for me to demonstrate [!INCLUDE [prod_short.md](includes/prod_short.md)] and Microsoft Teams to prospective customers?
 
@@ -158,7 +161,7 @@ Specifically, recommended content includes:
 - Any list pages you've bookmarked.
 - If a list page offers different views, including any views you created, you also get to choose from those views
 
-You can add list pages to the recommended content by adding bookmarks. You can also remove recommended content by deleting bookmarks. To learn how to add or delete bookmarks, see [Bookmark a Page or Report on Your Role Center](ui-bookmarks.md).
+You can add list pages to the recommended content by adding bookmarks. You can also remove recommended content by deleting bookmarks. Learn more in [Bookmark a Page or Report on Your Role Center](ui-bookmarks.md).
 
 If you switch the environment or company on the tab option, the recommended content will changed based on the Role Center and bookmarks for the environment and company you switch to.
 
@@ -302,7 +305,7 @@ Yes. You can also look up contacts and contact details if you have a delegated a
 
 ### Is contact search affected by API limits?
 
-Yes. Searching for contacts from Teams is based on [!INCLUDE [prod_short.md](includes/prod_short.md)] v2.0 APIs and subject to any API limits that manage usage. You can learn more about the limits at [Current API Limits](/dynamics-nav/api-reference/v2.0/dynamics-current-limits).
+Yes. Searching for contacts from Teams is based on [!INCLUDE [prod_short.md](includes/prod_short.md)] v2.0 APIs and subject to any API limits that manage usage. Learn more about the limits in [Current API Limits](/dynamics-nav/api-reference/v2.0/dynamics-current-limits).
 
 ### Why does it sometimes ask me to set up the app?
 
@@ -440,7 +443,7 @@ At this time, Share to Teams is available in the desktop web client, in the deta
 The **Share to Teams action** can be found in the **Share** menu on all pages, such as card and document pages, list or worksheet pages, including custom pages. The action isn't available on dialog boxes or pages shown as dialog boxes, such as lookup pages or wizards.
 
 ---
-## See Also
+## Related information
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] and Microsoft Teams Integration Overview](across-teams-overview.md)  
 [Install the [!INCLUDE [prod_short](includes/prod_short.md)] App for Microsoft Teams](across-install-app-for-teams.md)  

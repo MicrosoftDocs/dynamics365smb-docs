@@ -5,7 +5,7 @@ ms.date: 02/21/2024
 ms.topic: article
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
 
@@ -22,6 +22,8 @@ By integrating [!INCLUDE [prod_short](includes/prod_short.md)] with [!INCLUDE [f
 ## Prerequisites
 
 Because [!INCLUDE [field-service-short](includes/field-service-short.md)] is built on top of Dynamics 365 Sales, you must [set up a connection to Dataverse](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#to-use-the-dataverse-connection-setup-assisted-setup-guide) and [enable integration to Dynamics 365 Sales](/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration#connection-settings-in-the-setup-guide).
+
+You must download the Field Service Integration app from [AppSource](https://go.microsoft.com/fwlink/?linkid=2277917), and install it in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ### Permissions and security roles for user accounts
 
@@ -72,7 +74,12 @@ On the **Field Service Setting** page, make the following changes:
 
 ## Set up the integration in Business Central
 
-After you have a connection to Dataverse and Sales, you can set up your integration to [!INCLUDE [field-service-short](includes/field-service-short.md)]. On the **Assisted Setup** page in [!INCLUDE [prod_short](includes/prod_short.md)], choose **Set up integration to Dynamics 365 Field Service** to run the assisted setup guide. This section describes the key settings in the guide.
+After you have a connection to Dataverse and Sales, you can set up your integration to [!INCLUDE [field-service-short](includes/field-service-short.md)].
+
+* Download and install the Field Service Integration app from [AppSource](https://go.microsoft.com/fwlink/?linkid=2277917). Afterward, on the **Extension Management** page, find the Field Service Integration app, and choose the **Set up** action to run the assisted setup guide.
+* On the **Assisted Setup** page in [!INCLUDE [prod_short](includes/prod_short.md)], choose **Set up integration to Dynamics 365 Field Service** to run the assisted setup guide.
+
+This section describes the key settings in the guide.
 
 To let people post consumption of items and services in [!INCLUDE [field-service-short](includes/field-service-short.md)] work orders, specify the **Project Journal Template** and **Project Journal Batch** to use to post consumption of products and services.
 

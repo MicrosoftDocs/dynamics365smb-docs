@@ -6,7 +6,7 @@ ms-service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization, CZ
 ms.date: 11/09/2023
-ms.reviewer: v-pejano
+ms.reviewer: bholtorf
 ms.author: v-pejano
 ---
 

@@ -4,7 +4,7 @@ description: Describes how to add users to Business Central online or on-premise
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: access, right, security
-ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
+ms.search.form: 119, 6300, 6301, 6302, 8930, 9800_Primary, 9807_Primary, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173, 774_Primary
 ms.date: 05/03/2024
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -106,12 +106,14 @@ After you add users or change user information in the Microsoft 365 Admin Center
 > Running the synchronization of users from Microsoft 365 using the **Update Users from Microsoft 365** guide, requires the SUPER permission set.
 
 > [!NOTE]
-> The **Update Users from Microsoft 365** guide doesn't update users that are not assigned a license, such as someone who is Global Admin and Dynamics 365 Admin. Those users will update the next time they sign in to the environment.
+> The **Update Users from Microsoft 365** guide doesn't update users that are not assigned a license, such as someone who is a [Dynamics 365 administrator](/entra/identity/role-based-access-control/permissions-reference#dynamics-365-administrator). Those users will update the next time they sign in to the environment.
 
 The next step for newly created users is to assign user groups and permissions. Go to [Assign Permissions to Users and Groups](ui-define-granular-permissions.md) for information. If you update a user with a license change, [!INCLUDE [prod_short](includes/prod_short.md)] assigns users to the appropriate user group and updates their permission sets. For more information, see [To manage permissions through user groups](ui-define-granular-permissions.md).  
 
 > [!NOTE]
-> All users in an environment must be assigned to the same license, either Essentials or Premium. For more information about licensing, go to [Business Central](https://dynamics.microsoft.com/business-central/overview/) website.
+> With 2024 release wave 1, a Premium license user can sign in to a company where the **User Experience** field is set to **Essentials** on the **Company Information** page. However, the Premium user can't use any of the features that the Premium license provides. This doesn't work in the opposite direction. Users who have an Essentials license can't sign in to a company where the **User Experience** is set to **Premium** on the **Company Information** page. For more information about licensing, go to [Business Central](https://dynamics.microsoft.com/business-central/overview/) website.
+
+If you use an external accountant to manage your books and financial reporting, you can invite them to your [!INCLUDE[prod_short](includes/prod_short.md)] so they can work with you on your fiscal data. For more information, see [Inviting Your External Accountant to Your Business Central](finance-accounting.md#inviteaccountant).
 
 For more information about synchronizing user information with Microsoft 365, go to the [Synchronization with Microsoft 365](#m365) section.
 

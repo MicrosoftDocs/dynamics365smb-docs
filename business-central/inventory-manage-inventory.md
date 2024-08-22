@@ -9,6 +9,7 @@ ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38
 ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Manage inventory
@@ -62,7 +63,6 @@ The following table outlines related tasks.
 |Set up a vendor's or customer's own item description on your item card so you can quickly insert their item description on trade documents.|[Use Item References](inventory-how-use-item-cross-refs.md)|
 |Block items from being entered on sales or purchase lines or from being posted in any transaction.|[Block Items](inventory-how-block-items.md)|
 |Manage business operations in sales offices, purchasing departments, or plant planning offices across multiple locations.|[Work with Responsibility Centers](inventory-responsibility-centers.md)|
-|Use resources with specific functions for various services and service items.|[Set Up Resource Allocation](service-how-setup-resource-allocation.md)|
 
 ## See also
 

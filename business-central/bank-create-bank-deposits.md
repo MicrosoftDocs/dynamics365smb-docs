@@ -1,18 +1,18 @@
 ---
-title: Create Bank Deposits
+title: Create bank deposits
 description: You can make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: bank, deposit
 ms.search.form: 10140, 10141, 10143, 10144, 10146, 10147, 10148, 36646
-ms.date: 09/04/2023
-ms.custom: bap-template
-    
+ms.date: 07/25/2024
+ms.custom: bap-template    
 ---
-# Create Bank Deposits
+
+# Create bank deposits
 
 > [!NOTE]
 > The ability to create bank deposits is new in Business Central 2022 release wave 1 for a lot of country/region versions. If you were using Business Central in the United States, Canada, or Mexico before that release, you might be using the earlier capabilities. You can continue, but the new capabilities will replace the old ones in a future release. To start using the new features described in this article, your administrator can go to the **Feature Management** page and turn on **Feature Update: Standardized bank reconciliation and deposits**.  
@@ -73,7 +73,7 @@ The lines on the bank deposit will automatically use the default dimensions you 
 5. In the **Total Deposit Amount** field, enter the total amount of the deposit. This total must be the sum of the amounts on all lines.
 6. Fill in the remaining fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
-    The date in the **Posting Date** field and the dimensions in the **Department Code** and **Customer group Code** fields will be assigned to the lines that you create for the bank deposit. You can change them if needed.
+    The date in the **Posting Date** field and the dimensions in the **Department Code** and **Customergroup Code** fields will be assigned to the lines that you create for the bank deposit. You can change them if needed.
 
 7. Depending on whether you want to post the bank deposit as lump sum or each line individually to the bank ledger, turn the **Post as Lump Sum** toggle on or off. The default setting comes from the same toggle on the **Sales & Receivables Setup** page.
 

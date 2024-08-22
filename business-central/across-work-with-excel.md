@@ -1,18 +1,17 @@
 ---
-title: Viewing and Editing in Excel From Business Central (contains video)
+title: Viewing and Editing in Excel From Business Central
 description: Learn about how you can open the pages in Microsoft Excel from Business Central for better data analysis.
 author: jswymer
-
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 1480
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2021
+ms.date: 06/13/2024
 ms.author: jswymer
-
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-# Viewing and Editing in Excel From Business Central
+# View and edit in Excel from Business Central
 
 With pages that display a list of records in rows and columns, like a list of customers, sale orders, or invoices, you can export the list to Microsoft Excel, and view it there. Depending on the page, you have two options for viewing in Excel. Both options are available from the **Share** icon ![Share a page in another app.](media/share-icon.png) at the top of a page. You can either select the **Open in Excel** action or the **Edit in Excel** action on the page. This article explains the two actions.
 
@@ -25,14 +24,14 @@ With the **Open in Excel** action, you can make changes to the records in Excel,
 - This action works on both on Windows and macOS.
 - [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
+<!-- 
 > [!IMPORTANT]
-> For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the **Open in Excel** action is available by default. However, if you set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for editing data in Excel, then the **Open in Excel** action is replaced by the **Edit in Excel** action.
+> For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the **Open in Excel** action is available by default. However, if you set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for editing data in Excel, then the **Open in Excel** action is replaced by the **Edit in Excel** action.-->
 
 [!INCLUDE [send-report-excel](includes/send-report-excel.md)] 
 
 > [!NOTE]
 > In Excel, whole numbers in columns will have a decimal symbol at the end (like a period `.` or comma `,`) even though the decimal symbol isn't shown in Business Central. The decimal symbol depends on your device's region settings. For example, `10` in Business Central could appear as `10.` or `10,` in Excel. You can change the format in Excel by selecting the values, then selecting <kbd>Ctrl</kbd>+<kbd>1</kbd>. To learn more about changing the number format in Excel, go to [Format Numbers](https://support.microsoft.com/office/format-numbers-f27f865b-2dc5-4970-b289-5286be8b994a).
-
 
 ## Edit in Excel
 
@@ -63,7 +62,7 @@ If you make changes to the add-in, you must reload it to update the connection. 
 >
 > For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, the **Edit in Excel** action is only available if the Excel add-in has been configured by your administrator, and only available for the Web client. For administrators, if you want to learn how to install the Excel add-in, see [Setting up the Excel Add-In for Editing Business Central Data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
-### Limits when using Excel for the web 
+### Limits when using Excel for the web
 
 When **Edit in Excel** is used on list pages for tables with many columns, the resulting workbook may have too many columns for the file to be viewed in Excel for the web. [!INCLUDE[prod_short](includes/prod_short.md)] automatically limits the exported workbook to 100 columns when OneDrive is configured for system features. 
 
@@ -72,7 +71,7 @@ When **Edit in Excel** is used on list pages for tables with many columns, the r
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]-->
 
-## See Also
+## See also
 
 [Analyzing Financial Statements in Microsoft Excel](finance-analyze-excel.md)  
 [Work with Business Central](ui-work-product.md)  

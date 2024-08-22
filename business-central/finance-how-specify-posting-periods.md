@@ -7,10 +7,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: user setup
 ms.search.form: 118
-ms.date: 12/05/2023
+ms.date: 08/02/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
+
 # Specify posting periods
 
 Use posting periods to specify when users can post to the general ledger.  

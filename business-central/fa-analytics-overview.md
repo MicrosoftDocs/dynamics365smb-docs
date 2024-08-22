@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 5601, 5600, 5615, 5616, 5617
-ms.date: 04/27/2024
+ms.date: 05/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -17,8 +17,8 @@ ms.custom: bap-template
 Businesses with fixed assets capture a lot of data about them during daily activities. That data supports valuable business intelligence (BI) for fixed assets managers:
 
 - Asset acquisitions
-- Asset deprecations
-- Insurance and repairs
+- Asset deprecation
+- Insurance and maintenance
 - Asset budgets
 
 [!INCLUDE[prod_short](includes/prod_short.md)] provides features to help you gather, analyze, and share data about your organization's fixed assets:
@@ -30,7 +30,7 @@ Businesses with fixed assets capture a lot of data about them during daily activ
 - Built-in fixed assets reports
 
 > [!NOTE]
-> Analytics for fixed assets is a little different than other areas. You need to analyze data that's already present, such as asset acquisitions, deprecations, and insurance, but also data about future, such as depreciations and asset retirements. For the latter type of analysis, [!INCLUDE[prod_short](includes/prod_short.md)] has built-in reports that can calculate these numbers.
+> Analytics for fixed assets is a little different than other areas. You need to analyze data that's already present, such as asset acquisitions, deprecation, and insurance, but also data about future (projected) data, such as depreciation and asset retirements. For the latter type of analysis, [!INCLUDE[prod_short](includes/prod_short.md)] has built-in reports that can calculate these numbers.
 
 Each feature has its advantages and disadvantages, depending on the type of data analysis and the role of the user. To learn more, go to [Analytics, business intelligence, and reporting overview](reports-bi-reporting.md).
 
@@ -114,7 +114,7 @@ For more information about reports that are relevant for fixed assets, see [Buil
 [!INCLUDE [prod_short](includes/prod_short.md)] has several pages that give you fixed assets overviews and tasks to do. Here are some examples to get you started:
 
 - [Calculate depreciation, post depreciation, and analyze depreciation](fa-how-depreciate-amortize.md)
-- [Monitor maintenance costs](fa-how-maintain.md#to-monitor-maintenance-costs)
+- [Monitor maintenance costs](fa-how-maintain.md#monitor-maintenance-costs)
 - [Monitor insurance coverage](fa-how-insure.md#to-monitor-insurance-coverage)
 - [View changed depreciation book values](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 - [View disposal ledger entries](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)

@@ -3,14 +3,13 @@ title: Set up nondeductible VAT
 description: This article explains how to configure nondeductible VAT in Microsoft Dynamics 365 Business Central.
 author: altotovi
 ms.author: altotovi
-ms.reviewer: 
 ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: VAT, non-deductible, setup
 ms.search.form: 187, 472, 473
-ms.date: 04/26/2023
+ms.date: 08/13/2024
 ms.custom: bap-template
-
+ms.reviewer: bholtorf
 ---
 
 # Set up nondeductible VAT
@@ -49,9 +48,9 @@ Because it can be difficult to know where and how an item is used, contact the l
 
     | Field | Description |
     |-------|-------------|
-    | Allow Non-Deductible VAT | Specify whether the nondeductible VAT is considered for the current combination of a VAT business posting group and a VAT product posting group. |
-    | Non-Deductible VAT % | Specify the percentage of the transaction amount that VAT isn't applied to. |
-    | Non- Deductible Purchase VAT Account | Specify the account associated with the VAT amount that isn't deducted because of the type of goods or services that are purchased. |
+    | **Allow Non-Deductible VAT** | Specify whether the nondeductible VAT is considered for the current combination of a VAT business posting group and a VAT product posting group. |
+    | **Non-Deductible VAT %** | Specify the percentage of the transaction amount that VAT isn't applied to. |
+    | **Non- Deductible Purchase VAT Account** | Specify the account associated with the VAT amount that isn't deducted because of the type of goods or services that are purchased. |
 
     > [!NOTE]
     > To have general ledger (G/L) entries that use the dedicated account instead of the sales/purchase account, you can either leave the **Non-Deductible Purchase VAT Account** field blank or set the **G/L Account** field.

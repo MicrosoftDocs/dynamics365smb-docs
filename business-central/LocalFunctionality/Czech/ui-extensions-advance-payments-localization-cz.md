@@ -6,7 +6,7 @@ author: v-pejano
 
 ms.topic: article
 ms.search.keywords: Czech, Finance, Localization
-ms.date: 09/01/2021
+ms.date: 06/01/2024
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
@@ -35,6 +35,7 @@ The Advance Payments functionality allows you to receive Advance Invoices from s
 - Working with foreign currency, exchange rate differences between Advance Payment and Invoice
 - Possibility to unassign payment to Advance Invoice or additional linking
 - Option to unlink final invoice to Advance Payment or additional linking
+- Support for Responsibility Center for Advance Documents to display only documents relevant to a specific user
 - Reports for recapitulation of payments and drawdown of advances, reports for recapitulation of VAT on advances
 
 ## See Also

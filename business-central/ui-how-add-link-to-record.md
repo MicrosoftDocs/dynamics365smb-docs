@@ -3,10 +3,11 @@ title: Add Attachments, Links, and Notes on Records
 description: Attach a hyperlink to a document or a website to a specific record, such as a customer or document.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 09/15/2023
 ms.custom: bap-template
+ms.search.form: 8896
 ms-service: dynamics-365-business-central
 ms.service: dynamics-365-business-central
 ---

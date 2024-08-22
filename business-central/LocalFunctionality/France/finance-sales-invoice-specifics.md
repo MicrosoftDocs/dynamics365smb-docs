@@ -3,7 +3,7 @@ title: Deliver sales invoices with French specifics
 description: Learn how to set up and work with France-specific information in French sales invoices.
 author: altotovi
 ms.author: altotovi
-ms.reviewer: kfend
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 05/26/2023

@@ -9,6 +9,7 @@ ms.search.form:
 ms.date: 02/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Walkthrough of inbound and outbound flow in Basic Warehouse Configurations

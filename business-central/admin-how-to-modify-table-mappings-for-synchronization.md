@@ -120,7 +120,7 @@ For example, the SALESPEOPLE - Dynamics 365 Sales synchronization job uses the t
 
 ## Use configuration templates on table mappings
 
-You can assign configuration templates to table mappings to use for new records or rows that are created in [!INCLUDE[prod_short](includes/prod_short.md)] or [!INCLUDE[prod_short](includes/cds_long_md.md)]. For each table mapping, you can specify a configuration template to use for new [!INCLUDE[prod_short](includes/prod_short.md)] records and another template to use new [!INCLUDE[prod_short](includes/cds_long_md.md)] rows.  
+You can specify one or more configuration templates to use for new [!INCLUDE[prod_short](includes/prod_short.md)] records, and another template to use new [!INCLUDE[prod_short](includes/cds_long_md.md)] rows.  
 
 If you install the default synchronization setup, most of the time, two configuration templates are automatically created and used on the table mapping for [!INCLUDE[prod_short](includes/prod_short.md)] customers and [!INCLUDE[crm_md](includes/crm_md.md)] accounts: **CDSCUST** and **CDSACCOUNT**.  
 
@@ -137,6 +137,13 @@ You can add more templates, and use filters to define conditions under which [!I
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.
 2. In the table mapping entry in the list, in the **Table Config Templates** field, choose to the configuration template to use for new records in [!INCLUDE[prod_short](includes/prod_short.md)].  
 3. If you have multiple templates, to define the conditions that determine when to use the template, enter criteria in the **Integration Table Filter** field, and then enter a number in the **Priority** field. The priority determines the order in which [!INCLUDE [prod_short](includes/prod_short.md)] evaluates whether to use the templates.
+
+   > [!NOTE]
+   > The **Table Config Template Code** and **Int. Tbl. Config Template Code** fields show different values depending on the number of templates that you configure for a specific integration table mapping:
+   >
+   > * If you configure a single configuration template, the name of the configuration template shows in order to stay compatible with current capabilities.
+   > * If you configure multiple configuration templates, the number of configured configuration templates shows.
+
 4. Set the **Int. Tbl. Config Template Code** field to the configuration template to use for new records in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 ## See also  

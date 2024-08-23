@@ -1,33 +1,32 @@
 ---
 title: Assigning and managing tasks
-description: Learn how to assign tasks to users, including your accountant, in Business Central, and how you pick up and complete tasks.
+description: Learn how to assign tasks to users, including your accountant, and how to pick up and complete tasks.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: tasks, work
 ms.search.form:  1164, 1170, 1171, 1172, 1175, 1176, 1177
-ms.date: 04/01/2021
+ms.date: 08/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Define User Tasks
+# Define user tasks
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], you can create tasks to remind you of work to be done. You can create tasks for yourself, but you can also assign tasks to others or be assigned a task by someone else in your organization.  
 
 Some usage scenarios for User Tasks are 
 
-| If you work with... | Setup user tasks to track or follow-up on... |
+| If you work with... | Set up user tasks to track or follow-up on... |
 | ------------------- | ---------------------------- |
-| Finance             | Month-end Checklist activities, such as Adjust cost, Set Posting Date range, Close inventory period, Reconcile Accounts Payable (AP), Reconcile Accounts Receivable (AR), Recurring Journals, and Bank Reconciliation. |
-| Finance             | Year-close Checklist activities, such as Financial Reporting (prepare and finalize annual financial statements), audit preparation (gather necessary documents and information for external auditors), budget review (compare actual performance against budget and analyze variances), budget planning (develop the budget for the next fiscal year), accounts receivable (follow up on outstanding invoices for the fiscal year and write off bad debts if necessary), accounts payable (ensure all bills and expenses for the fiscal year have been recorded and paid), and checking that fixed assets depreciations for the fiscal year has been posted. |
-| Sales               | Daily/weekly follow-ups on lead generation (identifying and contacting potential customers), keeping track of communications with potential customers, sales calls/meetings (scheduling and conducting meetings with prospects), proposal and quote creation (preparing and sending pricing and service details to prospects), sales closing (finalizing deals and signing contracts), and on Customer Relationship Management (maintaining relationships with existing customers for upselling or cross-selling opportunities), 
-| Sales               | Daily/weekly follow-ups on sales target tracking (monitoring progress towards sales goals), and following up on sales activites, such as recurring updates on sales targets. |
-| Sales               | Weekly/Monthly follow-ups on revenue forecasting (predicting future sales based on current data), competitor analysis (keeping an eye on competitors’ products, prices, and marketing strategies), and on sales reporting (preparing sales reports for management review). |
-| Sales               | Monthly/Quarterly follow-ups on market research (understanding industry trends and customer needs) and on training and development (Improving sales skills and product knowledge.) |
+| Finance             | Month-end checklist activities, such as adjust cost, set a posting date range, close an inventory period, reconcile accounts payable (AP), reconcile accounts receivable (AR), recurring journals, and bank reconciliation. |
+| Finance             | Year-close checklist activities, such as financial reporting (prepare and finalize annual financial statements), audit preparation (gather necessary documents and information for external auditors), budget review (compare actual performance against budget and analyze variances), budget planning (develop the budget for the next fiscal year), accounts receivable (follow up on outstanding invoices for the fiscal year and write off bad debts if necessary), accounts payable (ensure all bills and expenses for the fiscal year have been recorded and paid), and check that fixed assets depreciations for the fiscal year are posted. |
+| Sales               | Daily/weekly follow-ups on lead generation (identifying and contacting potential customers), keeping track of communications with potential customers, sales calls/meetings (scheduling and conducting meetings with prospects), proposal and quote creation (preparing and sending pricing and service details to prospects), sales closing (finalizing deals and signing contracts), and on Customer Relationship Management (maintaining relationships with existing customers for up-selling or cross-selling opportunities).
+| Sales               | Daily/weekly follow-ups on sales target tracking (monitoring progress towards sales goals), and following up on sales activities such as recurring updates on sales targets. |
+| Sales               | Weekly/Monthly follow-ups on revenue forecasting (predicting future sales based on current data), competitor analysis (keeping an eye on competitor products, prices, and marketing strategies), and on sales reporting (preparing sales reports for management review). |
+| Sales               | Monthly/Quarterly follow-ups on market research (understanding industry trends and customer needs) and on training and development (improving sales skills and product knowledge.) |
 
-
-The list of example user tasks for sales in the table was generated by AI using Microsoft Copilot. If you want to generate similar lists for your work domain, consider copying and modifying the following prompt:
+The list of sample user tasks for sales in the table was generated by AI using Microsoft Copilot. If you want to generate similar lists for your work domain, consider copying and modifying the following prompt:
 
 ```Copilot prompt
 Come up with a list of common tasks for people working in a sales team that would be useful to track in a system. 
@@ -35,11 +34,11 @@ Come up with a list of common tasks for people working in a sales team that woul
 Format the list in bullet form
 ```
 
-## Managing User Task Groups
+## Managing user task groups
 
-You can use **User Task Groups** to group related tasks and assign them to a group of users instead of individual users. For example, you could create a group for “Month-end” activities and then assign membership to users in the accounting department. This way, all tasks that need to be completed can be picked up by anyone in the team.
+You can use **User Task Groups** to group related tasks and assign them to a group of users instead of individual users. For example, you could create a group for "Month-end" activities and then assign membership to users in the accounting department. This way, all tasks that need to be completed can be picked up by anyone in the team.
 
-## Managing User Tasks
+## Managing user tasks
 
 The **User Tasks** page shows all tasks, and you can easily create and assign new tasks. When you create a task, you can specify the start date and due date, and you can add a link to the page or report in [!INCLUDE[prod_short](includes/prod_short.md)] where the user must do the work.  
 
@@ -50,17 +49,17 @@ For example, you can create a task for yourself or a coworker to view all posted
 > [!TIP]  
 > Use the look-up in the **Page** field and then use the **Search** field to find the page that you want.  
 >
-> You can link to any page, but you cannot link to individual entries, so make the description as explicit as possible, such as writing "Please take a look at customer no. 10000 and make sure they don't have overdue payments.".
+> You can link to any page, but you can't link to individual entries, so make the description as explicit as possible. For example, write "Please take a look at customer no. 10000 and make sure they don't have overdue payments.".
 
-### Picking Up User Tasks
+### Picking up user tasks
 
 In the Business Manager, Bookkeeper, and Accountant Role Centers, a tile shows pending tasks that are assigned to that user. To pick up a task, simply choose it from the list of pending user tasks. In the ribbon, the link **Go to Task Item** opens the page where you can do the work.  
 
-When you have completed a task, simply mark it as completed.  
+When you have completed a task, mark it as completed.  
 
-### Deleting User Tasks
+### Deleting user tasks
 
-If you want to bulk delete all or some user tasks, you can use the **Delete User Tasks** report. In the request page, you can set filters to determine which tasks must be deleted.  
+If you want to bulk delete all or some user tasks, use the **Delete User Tasks** report. In the request page, you can set filters to determine which tasks to delete.  
 
 ## Contributors
 
@@ -68,7 +67,7 @@ If you want to bulk delete all or some user tasks, you can use the **Delete User
 
 * [Cynthia Priebe](https://www.linkedin.com/in/cynthia-priebe-dcp/) | Microsoft MVP
 
-## See Also
+## See also
 
 [Searching for a Page or Report](ui-search.md)  
 [Accountant Experiences in [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  

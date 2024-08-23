@@ -30,6 +30,8 @@ When you create the connection between the apps, [!INCLUDE[prod_short](includes/
 
 ### Add table and field mappings to existing integration tables
 
+[!INCLUDE [preview](includes/preview.md)]
+
 On the **Integration Table Mappings** page, you can use the New Table Mapping action to add new table mappings to integration tables. The action starts the **Create new integration mappings** assisted setup guide, which helps you set up new integration table and field mappings.
 
 The guide lets you map the tables in [!INCLUDE [prod_short](includes/prod_short.md)] with existing integration tables in Dataverse. You can also specify the Dataverse table's unique identifier in **Integration Table Unique Identifier Field Name** and the **Integration Table Modified on Field Name**, which are needed for data synchronization to work.

@@ -6,7 +6,7 @@ ms.author: altotovi
 ms.reviewer: solsen
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 07/10/2024
+ms.date: 07/11/2024
 ---
 
 # Fiscal denial list in the Italian version  

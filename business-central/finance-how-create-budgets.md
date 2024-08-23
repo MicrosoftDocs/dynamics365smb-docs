@@ -1,5 +1,5 @@
 ---
-title: Creating G/L budgets
+title: Create G/L budgets
 description: Describes how to create G/L budgets to forecast different financial activities and assign dimensions for business intelligence purposes.
 author: brentholtorf
 ms.author: bholtorf
@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: postpone
 ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
-ms.date: 06/10/2024
+ms.date: 08/07/2024
 ms.service: dynamics-365-business-central
-
 ---
+
 # Create G/L budgets
 
 Budgets play an important role in business intelligence. Examples include a financial statement based on financial reports that include budget entries or when analyzing budgeted versus actual amounts in the chart of accounts. Learn more at [Financial Reporting](bi.md).
@@ -95,11 +95,11 @@ When working with budgets, here are some tips for effective budget management:
 
 ## See also
 
-[Exporting Your Business Data to Excel](about-export-data.md)  
-[Finance](finance.md)  
-[Business Intelligence](bi.md)  
-[Setting Up Finance](finance-setup-finance.md)  
-[The General Ledger and the Chart of Accounts](finance-general-ledger.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Exporting Your Business Data to Excel](about-export-data.md)    
+[Finance](finance.md)    
+[Business Intelligence](bi.md)    
+[Setting Up Finance](finance-setup-finance.md)    
+[The General Ledger and the Chart of Accounts](finance-general-ledger.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

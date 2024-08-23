@@ -37,12 +37,13 @@ Later, you can review the purchase lines linked to the project either from the *
 2. Open a project that you want to purchase items for.
 3. Choose the **Create Purchase Orders** action.
 4. The **Create Purchase Orders** page shows a line for each item on the project. Lines for both fully available quantities and unavailable quantities show by default. To show only unavailable quantities, choose the **Show Unavailable** action.
-5. The **Quantity to Purchase** field contains the unavailable quantity. To purchase a different quantity, edit the value in the field. <!--You can also turn on the **Reserve** toggle if you want to reserve the quantity on the purchase line against demand. I DON'T SEE THIS TOGGLE ON THE CREATE PURCHASE ORDERS PAGE-->
+5. The **Quantity to Purchase** field contains the unavailable quantity. To purchase a different quantity, edit the value in the field. 
 
    > [!Note]
    > You can also change the **Quantity to Purchase** field on unavailable lines, even though they represent fully available quantities.
 
-6. Select **OK**.
+6. You can also turn on the **Reserve** toggle if you want to reserve the quantity on the purchase line against a demand ninstead of filling out the **Project No.** and **Project Task NO.** fields on the purchase line. By default, the **Reserve** toggle is hidden on the page. You can personalize the page to add the toggle. To learn more, go to [Personalize your workspace](ui-personalization-user.md).
+7. Select **OK**.
 
 You can review the purchase lines linked to the project either from the **Project Card** page or **Project Planning Lines** by choosing the **Purchase Lines** action.
 

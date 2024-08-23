@@ -120,19 +120,22 @@ For example, the SALESPEOPLE - Dynamics 365 Sales synchronization job uses the t
 
 You can assign configuration templates to table mappings to use for new records or rows that are created in [!INCLUDE[prod_short](includes/prod_short.md)] or [!INCLUDE[prod_short](includes/cds_long_md.md)]. For each table mapping, you can specify a configuration template to use for new [!INCLUDE[prod_short](includes/prod_short.md)] records and another template to use new [!INCLUDE[prod_short](includes/cds_long_md.md)] rows.  
 
-If you install the default synchronization setup, most of the time, two configuration templates will be automatically created and used on the table mapping for [!INCLUDE[prod_short](includes/prod_short.md)] customers and [!INCLUDE[crm_md](includes/crm_md.md)] accounts: **CDSCUST** and **CDSACCOUNT**.  
+If you install the default synchronization setup, most of the time, two configuration templates are automatically created and used on the table mapping for [!INCLUDE[prod_short](includes/prod_short.md)] customers and [!INCLUDE[crm_md](includes/crm_md.md)] accounts: **CDSCUST** and **CDSACCOUNT**.  
 
 * **CDSCUST** creates and synchronizes new customers in [!INCLUDE[prod_short](includes/prod_short.md)] based on accounts in [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-     Create this template by copying an existing configuration template for customers. The **CDSCUST** is created only if there is an existing configuration template and the **Currency Code** field in the template is blank. If a field in the configuration template contains a value, the value will be used instead of the value in the mapped column for the [!INCLUDE[prod_short](includes/cds_long_md.md)] account. For example, if the **Country/Region** column in an account in [!INCLUDE[prod_short](includes/cds_long_md.md)] contains *U.S.* and the **Country/Region** field in the configuration template is **GB**, then **GB** is used as the **Country/Region** for the customer in [!INCLUDE[prod_short](includes/prod_short.md)].  
+     To create this template, copy an existing configuration template for customers. The **CDSCUST** is created only if there is an existing configuration template and the **Currency Code** field in the template is blank. If a field in the configuration template contains a value, it's used instead of the value in the mapped column for the [!INCLUDE[prod_short](includes/cds_long_md.md)] account. For example, if the **Country/Region** column in an account in [!INCLUDE[prod_short](includes/cds_long_md.md)] contains *U.S.* and the **Country/Region** field in the configuration template is **GB**, then **GB** is used as the **Country/Region** for the customer in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 * **CDSACCOUNT** creates and synchronizes new accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)] based on an account in [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+You can add more templates, and use filters to define conditions under which [!INCLUDE [prod_short](includes/prod_short.md)] applies them. The templates apply to data moving in either direction. For example, you might specify that you use one template for domestic customers in the United States, and another for international customers in the European Union, or vice versa. In that case, when the data synchronizes, [!INCLUDE [prod_short](includes/prod_short.md)] uses the country/region code for the customer to apply the appropriate template.
 
 ### To specify configuration templates on a table mapping  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Integration Table Mappings**, and then choose the related link.
-2. In the table mapping entry in the list, in the **Table Config Template Code** field, choose to the configuration template to use for new records in [!INCLUDE[prod_short](includes/prod_short.md)].  
-3. Set the **Int. Tbl. Config Template Code** field to the configuration template to use for new records in [!INCLUDE[prod_short](includes/cds_long_md.md)].
+2. In the table mapping entry in the list, in the **Table Config Templates** field, choose to the configuration template to use for new records in [!INCLUDE[prod_short](includes/prod_short.md)].  
+3. If you have multiple templates, to define the conditions that determine when to use the template, enter criteria in the **Integration Table Filter** field, and then enter a number in the **Priority** field. The priority determines the order in which [!INCLUDE [prod_short](includes/prod_short.md)] evaluates whether to use the templates.
+4. Set the **Int. Tbl. Config Template Code** field to the configuration template to use for new records in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 ## See also  
 

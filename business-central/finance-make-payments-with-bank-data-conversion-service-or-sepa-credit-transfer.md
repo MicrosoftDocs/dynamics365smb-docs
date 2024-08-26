@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
 ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
-ms.date: 07/17/2024
+ms.date: 08/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -21,7 +21,9 @@ On the **Payment Journals** page, you can process payments to your vendors by ex
  To enable SEPA credit transfers, you must first set up a bank account, a vendor, and the general journal batch that the payment journal is based on. You then prepare payments to vendors by automatically filling the **Payment Journals** page with due payments with specified posting dates.  
 
 > [!NOTE]  
-> When you have verified that the payments are successfully processed by the bank, you can proceed to post the payment journal lines.  
+> When you set up the bank account, it's important to specify a currency code and an ISO currency. If you don't fill in those fields, EFT export might not work correctly.
+
+When you have verified that the payments are successfully processed by the bank, you can proceed to post the payment journal lines.  
 
 ## Setting Up the AMC Banking 365 Fundamentals Extension
 

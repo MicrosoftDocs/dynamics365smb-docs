@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: numbers, numbering
-ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
+ms.search.form: 456_Primary, 457_Primary, 458_Primary, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template

@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256, 404, 
-ms.date: 05/07/2024
+ms.date: 07/17/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -20,7 +20,7 @@ The following procedure shows how to pay a vendor with a computer checks by appl
 You can pay with two types of checks. For both types, the **Bal. Account Type** or the **Account Type** field must contain **Bank Account**.
 
 - **Computer Check**: Select this option if you want to print a check for the amount on the payment journal line. You must print the checks before you can post the journal lines.
-- **Manual Check**: Select this option if you have created a check manually and want to create a corresponding check ledger entry for this amount. By using this option, you cannot print the check.
+- **Manual Check**: Select this option if you have created a check manually and want to create a corresponding check ledger entry for this amount. By using this option, you can't print the check.
 
 > [!NOTE]  
 > To make sure that your bank only clears validated checks and amounts, you can send them a file that contains vendor, check, and payment information. For more information, see [Export a Positive Pay file](finance-how-positive-pay.md).
@@ -50,7 +50,7 @@ Fully applied vendor ledger entries and bank ledger entries are created.
 > [!NOTE]  
 > If you want to print and pay checks in more than one currency from different bank accounts, you must run the **Print Check** batch job separately for each currency and specify the appropriate bank account.
 
-## To cancel printed checks that are not posted
+## To cancel printed checks that aren't posted
 
 You can cancel non-posted checks after they have been printed by using the **Void Check** action on the **Payment Journal** page.
 

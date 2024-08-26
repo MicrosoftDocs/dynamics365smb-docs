@@ -1,16 +1,17 @@
 ---
-title: About Calculating Standard Cost
+title: About calculating standard cost
 description: A standard cost system determines inventory unit cost based on reasonable historical or expected cost.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 5841
 ms.author: bholtorf
-ms.date: 10/10/2023
+ms.date: 07/26/2024
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# About Calculating Standard Cost
+
+# About calculating standard cost
 
 Many manufacturing companies select a valuation base of standard cost. This also applies to companies that perform light manufacturing, such as assembly and kitting. A standard cost system determines inventory unit cost based on some reasonable historical or expected cost. Studies of past and estimated future cost data can then provide the basis for standard costs. These costs are frozen until a decision is made to change them. The actual cost to produce a product can differ from the estimated standard costs. For management control, the actual cost is compared to the standard cost for a specific item and differences, or *variances*, are identified and analyzed.  
 
@@ -22,7 +23,7 @@ Standard costs can be maintained for items that are replenished through purchase
 |**Assembly**|Direct material cost, direct or fixed labor cost, and overhead cost.|  
 |**Prod. Order**|Direct material cost, labor cost, subcontractor cost, and overhead cost.|  
 
-## Setting Up standard costs
+## Set up standard costs
 
 Because the standard cost of a produced or assembled item can consist of multiple cost elements, including material, capacity (labor) and direct and overhead subcontractor costs, standard costs must be established for each of these elements.  
 
@@ -160,11 +161,12 @@ When you have run the batch job and want to see the impact on your production or
 **Overhead Rate**: Enter the adjustment factor you want to use to update the overhead rate. You can also select a rounding method for the new overhead rate. You have to fill in the field using a decimal for the percentage increase, for example 1.1.
 
 ### Copy Standard Cost Worksheet
-Copies standard cost worksheets from several sources into the **Standard Cost Worksheet** page. 
+
+Copies standard cost worksheets from several sources into the **Standard Cost Worksheet** page.
 
 You can only copy one worksheet at a time. The lines from the copied worksheets will be placed below each other in the consolidated worksheet. Item lines are listed first, then work/machine center lines are listed, and resource lines are listed last.
 
-### Roll Up Standard Cost
+### Roll up standard cost
 
 Rolls up the standard costs of assembled and manufactured items. These are influenced by the change in standard costs of components suggested by the **Suggest Item Standard Cost** batch job. In addition, they're influenced by the change in standard cost of production capacity and assembly resources suggested by the **Suggest Work/Mach Ctr Std Cost** batch job.
 
@@ -179,7 +181,7 @@ This batch job only creates suggestions. It doesn't implement the suggested chan
 
 **Calculation Date**: Enter the date that applies to the production BOM version you want to do the roll-up for.
  
-### Implement Standard Cost Change
+### Implement standard cost change
 
 Updates the changes in the standard cost in the **Item** table with the ones in the **Standard Cost Worksheet** page. The standard cost change suggestions can be created with the **Suggest Item Standard Cost** and/or the **Suggest Work/Mach Ctr Std Cost** batch job, and they can also be modified. The contents of all the fields in the standard cost change suggestions are transferred. When you implement suggestions of changes to standard costs, you can see them on the item card and/or on the work/machine center cards. A revaluation journal is also created for you to update the value of existing stock.
 
@@ -187,7 +189,7 @@ Updates the changes in the standard cost in the **Item** table with the ones in 
 
 **Posting Date**: Enter the date that the revaluation should take place.
 
-**Document No.**:Enter the number of the revaluation journal lines. If there's a number series set up on the item journal batch name, the document number follows the ledger entries made by the posting of the revaluation journal. Otherwise, you can manually enter a number.
+**Document No.**: Enter the number of the revaluation journal lines. If there's a number series set up on the item journal batch name, the document number follows the ledger entries made by the posting of the revaluation journal. Otherwise, you can manually enter a number.
 
 **Item Journal Template**: Enter the name of the revaluation journal template.
 

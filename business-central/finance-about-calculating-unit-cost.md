@@ -6,9 +6,9 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: article
-ms.date: 04/19/2024
-
+ms.date: 07/29/2024
 ---
+
 # About unit cost calculation
 
 Each item has a unit cost that is calculated based on the company's costing method and other factors. As a rule, with the *Standard* costing method, the **Unit Cost** field value is based on the standard cost for the item. For all other costing methods (*FIFO*, *LIFO*, *Specific*, and *Average*), the unit cost is calculated based on the average unit cost across a period of time.  
@@ -82,15 +82,15 @@ The batch job changes the contents in the **Unit Price** field on the item card.
 
 ## See also
 
-[Managing Inventory Costs](finance-manage-inventory-costs.md)  
-[Registering New Items](inventory-how-register-new-items.md)  
-[About Inventory Costing](finance-learn-about-costing.md)  
-[Inventory](inventory-manage-inventory.md)  
-[Sales](sales-manage-sales.md)  
-[Purchasing](purchasing-manage-purchasing.md)  
-[Design details: Non-deductible VAT](design-details-nondeductible-vat.md)
-[Setup Best Practices: Costing Method](setup-best-practices-costing-method.md)  
-[Design Details: Costing Methods](design-details-costing-methods.md)  
-[Design Details: Cost Adjustment](design-details-cost-adjustment.md)  
+[Managing Inventory Costs](finance-manage-inventory-costs.md)    
+[Registering New Items](inventory-how-register-new-items.md)    
+[About Inventory Costing](finance-learn-about-costing.md)    
+[Inventory](inventory-manage-inventory.md)   
+[Sales](sales-manage-sales.md)    
+[Purchasing](purchasing-manage-purchasing.md)    
+[Design details: Non-deductible VAT](design-details-nondeductible-vat.md)  
+[Setup Best Practices: Costing Method](setup-best-practices-costing-method.md)    
+[Design Details: Costing Methods](design-details-costing-methods.md)    
+[Design Details: Cost Adjustment](design-details-cost-adjustment.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

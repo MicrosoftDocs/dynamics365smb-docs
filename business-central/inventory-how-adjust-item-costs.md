@@ -1,15 +1,16 @@
 ---
-title: Manually Adjust the Costs of Items
+title: Manually adjust the costs of items
 description: You can adjust the inventory valuation of an item using the FIFO or Average costing methods when the costs of products change.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 03/08/2024
+ms.date: 07/29/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
+
 # Adjust item costs
 
 The cost of an item (inventory value) that you purchase and later sell might change during its lifetime, for example because a freight cost is added to its purchase cost after you sell the item. Cost adjustment is especially relevant in situations where you sell goods before you invoice the purchase of those goods. To always know the correct inventory value, you should regularly adjust item costs. Correct costs help ensure that sales and profit statistics are up to date and that financial KPIs are correct. For more information, see [Design Details: Cost Adjustment](design-details-cost-adjustment.md).
@@ -36,7 +37,7 @@ Cost adjustment processes only value entries that aren't adjusted. In a situatio
 
 ## Track item cost adjustments
 
-Item costs can change for a lot of reasons, so it's important that you can keep track of cost adjustments. Use the **Inventory Cost Adjustment** page to manage and monitor the cost adjustment process. This page displays items along with their costing parameters and cost adjustment status. You can filter the list to focus on items that require adjustment or that are excluded from the cost adjustment process. To learn more about tracking cost adjustments, go to [Track item cost adjustments](finance-track-inventory-costs.md).
+Item costs can change for many reasons, so it's important that you can keep track of cost adjustments. Use the **Inventory Cost Adjustment** page to manage and monitor the cost adjustment process. This page displays items along with their costing parameters and cost adjustment status. You can filter the list to focus on items that require adjustment or that are excluded from the cost adjustment process. To learn more about tracking cost adjustments, go to [Track item cost adjustments](finance-track-inventory-costs.md).
 
 ## See also
 

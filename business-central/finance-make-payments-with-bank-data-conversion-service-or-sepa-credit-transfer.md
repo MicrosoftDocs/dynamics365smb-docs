@@ -20,10 +20,7 @@ On the **Payment Journals** page, you can process payments to your vendors by ex
 
  To enable SEPA credit transfers, you must first set up a bank account, a vendor, and the general journal batch that the payment journal is based on. You then prepare payments to vendors by automatically filling the **Payment Journals** page with due payments with specified posting dates.  
 
-> [!NOTE]  
-> When you set up the bank account, it's important to specify a currency code and an ISO currency. If you don't fill in those fields, EFT export might not work correctly.
-
-When you have verified that the payments are successfully processed by the bank, you can proceed to post the payment journal lines.  
+After you verify that the payments are successfully processed by the bank, you can proceed to post the payment journal lines.  
 
 ## Setting Up the AMC Banking 365 Fundamentals Extension
 
@@ -44,19 +41,22 @@ Before you can process payment electronically by exporting payment files in the 
 
 > [!NOTE]
 > Business Central supports both SEPA format CT pain.001.001.03 and CT pain.001.001.09. You can choose any format on the **Bank Account Card** page.  
+
 > [!TIP]
 > This article applies to the generic version of [!INCLUDE [prod_short](includes/prod_short.md)]. In your country or region, additional required fields may have been added to the various pages. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### To set up a bank account for SEPA Credit Transfer
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
-2. Open the card of the bank account from which you'll export payment files in the SEPA Credit Transfer format.  
-3. On the **Account Holder** FastTab, in the **Payment Export Format** field, choose the SEPA format you want to use.  
-4. On the **General** FastTab, in the **Credit Transfer Msg. Nos.** field, choose a number series from which numbers are assigned to SEPA credit transfer entries.  
-5. Make sure the **IBAN** field is filled.  
+2. Choose the bank account from which you'll export payment files in the SEPA Credit Transfer format.
+3. On the **General** FastTab, in the **Credit Transfer Msg. Nos.** field, choose a number series from which numbers are assigned to SEPA credit transfer entries.
+4. On the **Posting** FastTab, in the **Currency Code** field, specify the currency for the bank account.  
 
-    > [!NOTE]  
-    > The **Currency Code** field must be set to **EUR**, because SEPA credit transfers can only be made in the EURO currency.  
+   > [!NOTE]  
+   > The **Currency Code** field must be set to **EUR**, because SEPA credit transfers can only be made in the EURO currency.  
+
+5. On the **Transfer** FastTab, in the **Payment Export Format** field, choose the SEPA format you want to use.  
+6. In the **IBAN** field, specify the international bank account number for the account.  
 
 ### To set up a vendor card for SEPA Credit Transfer
 

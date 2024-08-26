@@ -123,6 +123,9 @@ Integration with [!INCLUDE [field-service-short](includes/field-service-short.md
 * **SVCITEM-CUSTASSET** - (Premium Experience only) Maps service items in [!INCLUDE [prod_short](includes/prod_short.md)] to customer assets in [!INCLUDE [field-service-short](includes/field-service-short.md)].
 * **LOCATIONS** - Maps locations in [!INCLUDE [prod_short](includes/prod_short.md)] to warehouses in [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
+> [!NOTE]
+> The LOCATIONS integration table mapping is available only if the **Location Mandatory** toggle on the **Inventory Setup** page is turned on.
+
 ## Use data in both applications
 
 The following sections describe the features where you can use the data that comes from [!INCLUDE [prod_short](includes/prod_short.md)] and [!INCLUDE [field-service-short](includes/field-service-short.md)].

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 07/16/2024
+ms.date: 08/26/2024
 ms.custom: bap-template
 ms.search.form: 672, 673, 674, 671
 ms.service: dynamics-365-business-central
@@ -25,6 +25,22 @@ The **Job Queue Entries** page lists all existing jobs. If you add a job queue e
 > If you're assigned the SUPER permissions set that comes with [!INCLUDE[prod_short](includes/prod_short.md)], you have permission to run all objects included in your license. If you have the Delegated Admin role, you can create and schedule job queue entries, but only administrators and licensed users can run them.
 
 After a job finishes successfully, [!INCLUDE [prod_short](includes/prod_short.md)] removes it from the list of job queue entries, unless it's a recurring job. For recurring jobs, the **Earliest Start Time** field is adjusted to show the next time that the job will run.
+
+## Examples of what you can schedule using job queue entries
+
+### Schedule reports
+
+You can schedule a report or batch job to run at a specific date and time. Scheduled reports and batch jobs are entered in the job queue and processed at the scheduled time, similar to other jobs. You choose the **Schedule** option after you choose the **Send to** action, and then you enter information such as printer, time, date, and recurrence.  
+
+To learn more about scheduling, go to [Scheduling a Report to Run](ui-work-report.md#ScheduleReport)
+
+### Schedule synchronization between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)]
+
+If you integrate [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[prod_short](includes/cds_long_md.md)], the job queue lets you schedule when to synchronize data. Depending on the direction and rules you define, the job queue entry can create records in one app to match records in the other. A good example is when you register a contact in [!INCLUDE[crm_md](includes/crm_md.md)], the job queue entry can set up that contact for you in [!INCLUDE[prod_short](includes/prod_short.md)]. To learn more about scheduling, go to [Scheduling a Synchronization between Business Central and Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
+
+### Schedule when to post sales and purchase orders
+
+You can use job queue entries to schedule business processes to run in the background. For example, background tasks are useful when multiple users post sales orders at the same time, but only one order can be processed at a time. To learn more about background posting, go to [To set up background posting with job queues](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
 
 ## Important for scheduling recurring jobs
 
@@ -97,22 +113,6 @@ The My Job Queue part also lets you cancel a document posting.
 1. On an entry with the status **Error**, choose the **Show Error** action.
 2. Review the error message and fix the problem.
 
-## Examples of what you can schedule using job queue entries
-
-### Schedule reports
-
-You can schedule a report or batch job to run at a specific date and time. Scheduled reports and batch jobs are entered in the job queue and processed at the scheduled time, similar to other jobs. You choose the **Schedule** option after you choose the **Send to** action, and then you enter information such as printer, time, date, and recurrence.  
-
-To learn more about scheduling, go to [Scheduling a Report to Run](ui-work-report.md#ScheduleReport)
-
-### Schedule synchronization between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)]
-
-If you integrate [!INCLUDE[prod_short](includes/prod_short.md)] with [!INCLUDE[prod_short](includes/cds_long_md.md)], the job queue lets you schedule when to synchronize data. Depending on the direction and rules you define, the job queue entry can create records in one app to match records in the other. A good example is when you register a contact in [!INCLUDE[crm_md](includes/crm_md.md)], the job queue entry can set up that contact for you in [!INCLUDE[prod_short](includes/prod_short.md)]. To learn more about scheduling, go to [Scheduling a Synchronization between Business Central and Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
-
-### Schedule when to post sales and purchase orders
-
-You can use job queue entries to schedule business processes to run in the background. For example, background tasks are useful when multiple users post sales orders at the same time, but only one order can be processed at a time. To learn more about background posting, go to [To set up background posting with job queues](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
-
 ## Handle job queue entry issues
 
 If a job queue entry shows an error, your first option to resolve the issue is to restart the job queue entry. You can set the status of the job queue entry to **On Hold** and then to **Ready**, or just restart it.
@@ -136,6 +136,24 @@ If you contact your Microsoft partner or Microsoft for support, provide the foll
 Administrators can use [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview) to gather and analyze telemetry that helps identify problems. To learn more about telemetry, go to [Monitoring and Analyzing Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) and [Analyzing Job Queue Lifecycle Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
 Telemetry lets administrators set up alerts on job queue issues that send a text message, email, or a message in Teams if something isn't right. To learn more about these alerts, go to [Alert on Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
+
+## Get notified when a job queue entry fails
+
+Sometimes tasks, reports, or batch processes can take a long time to complete. To keep people productive in the meantime, companies often use Business Central's ability to run processes in the background. If something goes wrong and an important background process stops, or isn't scheduled for some reason, being notified of the issue can help you react quickly to resolve it.
+
+To be notified when there are issues with job queue processing, you can subscribe to external business events that are emitted when:
+
+* Job queue processing fails after a number of retries.
+* Job queue processing fails to schedule.
+
+The **When a business event occurs** trigger in a Power Automate flow can catch external business events when they're emitted. To give you flexibility, you can choose from a couple of built-in Power Automate templates that we're shipping with this feature. 
+
+You can also create a Power Automate flow to set up a notification mechanism that's best for your business. For example:
+
+* Notify the user whose credentials the job queue uses to run.
+* Notify the notification recipients you set up in the Business Central admin center.
+
+Additional job queue APIs allow such an automation to react to specific job queue issues by restarting or rescheduling the job queue.
 
 ## See also
 

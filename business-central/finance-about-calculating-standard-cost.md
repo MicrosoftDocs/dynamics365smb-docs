@@ -4,16 +4,17 @@ description: A standard cost system determines inventory unit cost based on reas
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
-ms.search.form: 5841
+ms.search.form: 5841,
 ms.author: bholtorf
 ms.date: 07/26/2024
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 
 # About calculating standard cost
 
-Many manufacturing companies select a valuation base of standard cost. This also applies to companies that perform light manufacturing, such as assembly and kitting. A standard cost system determines inventory unit cost based on some reasonable historical or expected cost. Studies of past and estimated future cost data can then provide the basis for standard costs. These costs are frozen until a decision is made to change them. The actual cost to produce a product can differ from the estimated standard costs. For management control, the actual cost is compared to the standard cost for a specific item and differences, or *variances*, are identified and analyzed.  
+Many manufacturing companies select a valuation base of standard cost. This choice also applies to companies that do light manufacturing, such as assembly and kitting. A standard cost system determines inventory unit cost based on some reasonable historical or expected cost. Studies of past and estimated future cost data can provide the basis for standard costs. These costs are frozen until a decision is made to change them. The actual cost to produce a product can differ from the estimated standard costs. For management control, the actual cost is compared to the standard cost for a specific item and differences, or *variances*, are identified and analyzed.  
 
 Standard costs can be maintained for items that are replenished through purchase, assembly, and production. For each replenishment method, standard costs can consist of the following elements.  
 

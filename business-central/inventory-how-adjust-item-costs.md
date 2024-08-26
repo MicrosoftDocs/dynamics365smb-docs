@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 The cost of an item (inventory value) that you purchase and later sell might change during its lifetime, for example because a freight cost is added to its purchase cost after you sell the item. Cost adjustment is especially relevant in situations where you sell goods before you invoice the purchase of those goods. To always know the correct inventory value, you should regularly adjust item costs. Correct costs help ensure that sales and profit statistics are up to date and that financial KPIs are correct. For more information, see [Design Details: Cost Adjustment](design-details-cost-adjustment.md).
 
-The value in the **Unit Cost** field on the item card is based on the standard cost for items with the Standard costing method. For items with any other costing method, the value is based on the calculation of available inventory (invoiced costs and expected costs) divided by the quantity on hand. For more information, see [Understanding Unit Cost Calculation](inventory-how-adjust-item-costs.md#understanding-unit-cost-calculation).
+The value in the **Unit Cost** field on the item card is based on the standard cost for items with the Standard costing method. For items with any other costing method, the value is based on the calculation of available inventory (invoiced costs and expected costs) divided by the quantity on hand.
 
 In [!INCLUDE[prod_short](includes/prod_short.md)], item costs are automatically adjusted every time that an inventory transaction occurs, such as when posting a purchase invoice for an item.
 

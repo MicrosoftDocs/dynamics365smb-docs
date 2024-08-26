@@ -33,7 +33,7 @@ The feature isn't a general-purpose chat, but a highly specific and integrated e
 
 * Create new number series
 
-   Use natural language to effortlessly set up new number series. Provide examples or masks to define how you envision your set up, and have Copilot draft suggestions for you to build upon.
+   Use natural language to effortlessly set up new number series. Provide examples or masks to define how you envision your setup, and have Copilot draft suggestions for you to build upon.
 
 * Modify existing number series
 
@@ -45,11 +45,11 @@ The Suggest Number Series capability is intended for system administrators who s
 
 ## How was Suggest No. Series evaluated? What metrics are used to measure performance?
 
-The feature underwent extensive testing where numerous prompts in US English representing both typical use and use by bad actors. Testing was based on Business Central's demonstration data and a large labelled product catalogue available as open source.
+The feature underwent extensive testing where numerous prompts in US English representing both typical use and use by bad actors. Testing was based on Business Central's demonstration data and a large labeled product catalog available as open source.
 
 This feature is built in accordance with Microsoft's Responsible AI Standard. [Learn more about responsible AI from Microsoft](https://aka.ms/RAI).
 
-## What are the limitations of Suggest No. Series? How can users minimize the impact of the Suggest No. Series limitations when using the system?
+## What are the limitations of Suggest Number Series? How can users minimize the effect of the limitations when using the system?
 
 The feature works best when you use terminology known to [!INCLUDE [prod_short](includes/prod_short.md)]. Using alternative terminology might produce results that aren't useful.
 
@@ -67,7 +67,7 @@ AI-powered suggestions might be incorrect or incomplete. You should always revie
 
 ### What is expected of administrators and end-users when using Sales lines suggestions?
 
-Each individual users chooses whether or not to use **Suggest Number Series**. Even when the feature is enabled by administrators and available, you can choose to use it always, sometimes, or never.  
+Each individual user chooses whether or not to use **Suggest Number Series**. Even when the feature is enabled by administrators and available, you can choose to use it always, sometimes, or never.  
 
 Administrators make the overall decision on whether to use Copilot capabilities in [!INCLUDE [prod_short](includes/prod_short.md)]. If administrators enable Copilot, they should be sure to grant access to the appropriate users.
 

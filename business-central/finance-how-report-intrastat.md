@@ -6,11 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077
-ms.date: 07/12/2024
+ms.date: 08/26/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
+
 # Work with Intrastat reporting
 
 All companies in the European Union (EU) must report their trade with other EU countries/regions. You must report the movement of goods to the statistics authorities in your country/region every month, and the report must be delivered to the tax authorities. Intrastat is the system for collecting trade statistics of goods within these countries/regions. You use **Intrastat Report** to complete periodic Intrastat reporting (typically monthly), collecting, recording, and reporting trade of goods as per local government legislation.
@@ -60,7 +61,7 @@ After you fill in the **Intrastat Report**, you can run the **Checklist Report**
 
 Run the **Intrastat Report Checklist** report to check Intrastat lines before they're exported to the required format. The check is run inside the **Intrastat Report**.
 
-## Recalculating weight or supplementary unit of measure
+## Recalculate weight or supplementary unit of measure
 
 If you got the error message *'Total Weight' in Intrastat Report Line must not be blank*, it's probably because you didn't set the **Net Weight** field on the used source, item, or fixed asset. In this case, search for the item or fixed asset card and add the required value. After that, you just need to reopen the **Intrastat Report** and follow these steps:
 
@@ -140,9 +141,9 @@ When you enable this option, the system uses the following rules, but only if yo
 
 ## See also
 
-[Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)  
-[Financial Management](finance.md)  
-[Drop Shipment](sales-how-drop-shipment.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Set Up Intrastat Reporting](finance-how-setup-report-intrastat.md)    
+[Financial Management](finance.md)    
+[Drop Shipment](sales-how-drop-shipment.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -18,36 +18,30 @@ All companies in the European Union (EU) must report their trade with other EU c
 
 Intrastat reporting is based on basic EU regulations that apply to all countries/regions. However, there are differences within the individual countries/regions. Each country/region has its rules about what and how to report.
 
-> [!NOTE]
-> Intrastat information doesn't apply to the movement of services between countries/regions. Instead, the information applies only to goods such as items and fixed assets. If your government requires you to register the movement of services between countries/regions, use the **Service Declaration** feature.
+> [!NOTE]  
+> Intrastat information doesn't apply to the movement of services between countries/regions, but only goods (Items and Fixed Assets). If the local government requires registering  the movement of services between countries/regions, it can be done using the **Service Declaration** feature.
 >
-> This feature is available as an app that you can download from [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). To use this feature, install it on the **Extension Management** page.
+> This features is available as an app at [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). At that time, to use it, you must first install it on the **Extension Management** page. Learn more about this functionality [here](finance-how-setup-use-service-declaration.md).  
 
-> [!IMPORTANT]
-> This article covers the new Intrastat experience that's available from [!INCLUDE[prod_short](includes/prod_short.md)] version 21. Consult your administrator to learn which version your company is using and whether you should enable the new functionality.
->
-> Read the previous version's Intrastat setup and usage article, [Set Up and Report Intrastat](finance-how-setup-report-intrastat-v20.md).
+> [!IMPORTANT]  
+> This article describes the new Intrastat experience available in [!INCLUDE[prod_short](includes/prod_short.md)] starting in the 2022 release wave 2, which includes extended features, but if you didn't upgrade your solution, read the previous version's Intrastat setup and usage article at [Set Up and Report Intrastat](finance-how-setup-report-intrastat-v20.md).
 
-## Enable the new Intrastat experience
 
-In 2022 release wave 2, [!INCLUDE[prod_short](includes/prod_short.md)] includes a redesigned Intrastat experience that provides extended features. If the new Intrastat functionality isn't enabled in your environment, an administrator can enable it on the **Feature Management** page.
+## Assisted setup
 
-> [!IMPORTANT]
-> You can't use the old and new experiences in parallel. Before you activate the extension in a production environment, we recommend that you test it in a sandbox environment by using a copy of your production data. After you activate a new user experience in your production environment, you can't revert to the old Intrastat functionality.
+To use assisted setup for the Intrastat, follow next steps:  
 
-1. Select the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Feature Management**, and then select the related link.
-2. On the **Feature Management** page, select the line for **Feature Update: Replace the existing Intrastat functionality with the new Intrastat extension**. To learn more about feature management, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
-3. In the **Enable for** column, select **All Users**.
-4. Read the explanation about how the system will be upgraded, and then select **Yes** to agree.
-5. Select **Next**. You will get the basic setup for Intrastat. To read more about the Intrastat setup, see the [Intrastat configuration](#intrastat-configuration) section later in this article.
-6. After the setup is completed, select **Finish** to start to use the new Intrastat experience.
+1. Select the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Assisted Setup**, and then select the related link. 
+2. On the **Assisted Setup** page, select the line for **Set up Intrastat reporting** in the **Report of financial health** group.  
+3. Follow the instructions for the basic setup for Intrastat. To read more about the Intrastat setup, see the [Intrastat configuration](#intrastat-configuration) section later in this article.
+4. After the setup is completed, select **Finish** to start to use the new Intrastat experience.
 
     > [!NOTE]
-    > Depending on your company location, it will be enough to enable the previously described feature. For countries/regions that have specific features for Intrastat reporting, enable the country/region specific Intrastat app in addition to the core extension.
+    > Intrastat Reporting Core app can be installe in any base app regardless if this is the EU or not, but as this feature is intended for regulatory reporting in the EU countries, Microsoft provides full regulatory support only in the EU countries with Microsoft localizations. For other countries, Microsoft does not provide regulatory support. In a case of other EU countries where Microsoft doe not provide localization, you need to find partner-based localization, and for other countries you can use without support. Keep in mind you the most probably need to have installed the country/region specific Intrastat app in addition to the core extension to fufill local requirements. Local apps can be installed only on base apps for the country as this localization is intended.  
 
 ## Intrastat configuration
 
-Before you can use Intrastat reports, there are several configurations that must be set up.
+Before you can use Intrastat reports, there are several configurations that must be set up.  
 
 ### Intrastat reporting setup
 

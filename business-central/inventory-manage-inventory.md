@@ -63,13 +63,13 @@ The following table outlines related tasks.
 |Set up a vendor's or customer's own item description on your item card so you can quickly insert their item description on trade documents.|[Use Item References](inventory-how-use-item-cross-refs.md)|
 |Block items from being entered on sales or purchase lines or from being posted in any transaction.|[Block Items](inventory-how-block-items.md)|
 |Manage business operations in sales offices, purchasing departments, or plant planning offices across multiple locations.|[Work with Responsibility Centers](inventory-responsibility-centers.md)|
-|Use resources with specific functions for various services and service items.|[Set Up Resource Allocation](service-how-setup-resource-allocation.md)|
 
 ## See also
 
 [Warehouse Management Overview](design-details-warehouse-management.md)    
 [Purchasing](purchasing-manage-purchasing.md)    
 [Sales](sales-manage-sales.md)    
+[Managing Inventory Costs](finance-manage-inventory-costs.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [General Business Functionality](ui-across-business-areas.md)    
 

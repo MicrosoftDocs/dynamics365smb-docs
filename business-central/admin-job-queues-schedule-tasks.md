@@ -73,9 +73,6 @@ The following table describes the values of the **Status** field.
 | Error | Something went wrong. Choose **Show Error** to show the error message. |
 | Finished | The job queue entry is complete. |
 
- > [!TIP]  
-> Job queue entries stop running when there's an error. For example, this can be a problem when an entry connects to an external service, such as a bank feed. If the service is temporarily not available and the job queue entry can't connect, the entry will show an error and stop running. You'll have to manually restart the job queue entry. However, the **Maximum No. of Attempts** and **Rerun Delay (sec.)** fields can help you avoid this situation. The **Maximum No. of Attempts** field lets you specify how many times the job queue entry can fail before it stops trying to run. The **Rerun Delay (sec.)** field lets you specify the amount of time, in seconds, between attempts. The combination of these two fields might keep the job queue entry running until the external service becomes available.
-
 ### About On Hold
 
 Setting a job queue entry to **On Hold** doesn't affect a job that's already running. After a job starts, it continues to run until completion, regardless of any subsequent changes made to the job queue entry, such as putting it on hold.<br><br>The **On Hold** status is typically used to prevent a job from automatically starting when it reaches its scheduled start time. It allows you to temporarily pause a job before it begins processing. <br><br>If you need to stop or cancel a running job, you can manually intervene in the process. For example, you can stop the corresponding session or process.
@@ -99,7 +96,7 @@ For example, all scheduled tasks stop if the company is in an environment that's
 
 ## The My Job Queue part
 
-The **My Job Queue** part on your Role Center shows the job queues entries that you started but aren't finished. By default the part isn't displayed, but you can add it to your Role Center. To learn more about personalization, go to [Personalize Your Workspace](ui-personalization-user.md).  
+The **My Job Queue** part on your home page shows the job queues entries that you started but aren't finished. By default the part isn't displayed, but you can add it to your home page. To learn more about personalization, go to [Personalize Your Workspace](ui-personalization-user.md).  
 
 The part shows the following information:
 
@@ -108,12 +105,27 @@ The part shows the following information:
 
 The My Job Queue part also lets you cancel a document posting.
 
+> [!TIP]
+> Another useful feature is the **Job Queue Tasks** part on your home page. The part makes it easy to monitor job queue entries based on their status. To learn more, go to [The Job Queue Tasks part](#the-job-queue-tasks-part).
+
 ### To view an error from the My Job Queue part
 
 1. On an entry with the status **Error**, choose the **Show Error** action.
 2. Review the error message and fix the problem.
 
+## The Job Queue Tasks part
+
+The **Job Queue Tasks** part on your home page makes it easy to keep an eye on your job queue entries. The part shows tiles for three statuses:
+
+* Tasks Failed: These tasks need attention.
+* Tasks in Process: These tasks are running.
+* Tasks in Queue: These tasks are waiting their turn.
+
+You can configure the **Job Queue Tasks** part by choosing **Set Up Cues**. You can specify thresholds that control the color of each tile so it's easy to know when one needs attention. Use the **Threshold 1** and **Threshold 2** fields to specify ranges for each status. Use the **Low Range Style**, **Middle Range Style**, and **High Range Style** fields to specify the color for tiles when its number of job queue entries is below, within, or above the threshold range. From low to high, businesses typically use green, yellow, and red.
+
 ## Handle job queue entry issues
+
+Job queue entries stop running when there's an error. For example, this can be a problem when an entry connects to an external service, such as a bank feed. If the service is temporarily not available and the job queue entry can't connect, the entry will show an error and stop running. You'll have to manually restart the job queue entry. However, the **Maximum No. of Attempts** and **Rerun Delay (sec.)** fields can help you avoid this situation. The **Maximum No. of Attempts** field lets you specify how many times the job queue entry can fail before it stops trying to run. The **Rerun Delay (sec.)** field lets you specify the amount of time, in seconds, between attempts. The combination of these two fields might keep the job queue entry running until the external service becomes available.
 
 If a job queue entry shows an error, your first option to resolve the issue is to restart the job queue entry. You can set the status of the job queue entry to **On Hold** and then to **Ready**, or just restart it.
 
@@ -131,29 +143,28 @@ If you contact your Microsoft partner or Microsoft for support, provide the foll
 > * For earlier versions, provide a screenshot of the **Job Queue Log Entries** page.
 > * For later versions, use the **Copy details** action on the Job Queue Log Entries page to copy the information (job queue ID, timestamp, and your timezone).
 
+### Get notified when a job queue entry fails
+
+If something goes wrong and a job queue entry fails, or isn't scheduled for some reason, you might want to be notified so you can react quickly. You can set up notifications to alert you, your job queue administrator, or both. The notification lets you:
+
+* Restart the job queue entry, which is typically the first thing to try.
+* Go directly to details about the failure.
+
+You can only access job queue entries that you started, but administrators can access all failed job queue entries. Your notification settings apply only to you. Other users aren't affected.
+
+To set up notifications for job queue entry failures, start the **Set Up Job Queue Notifications** assisted setup guide from the **Assisted Setup** page. Use the guide to enter the following settings:
+
+* Who to notify about a failure. You can notify the person who started the job queue entry, or job queue entry administrators, or both.
+* How you want to be notified. You can turn on in-product notifications that show at the top of your home page, or use a Power Automate flow.
+* When you want to be notified. You can choose to be notified immediately, or specify thresholds to be notified only after a number of job queue entries fail.
+
+After you set up notifications, you can always turn them on or off. On the **My Notifications** page, for the **Job Queue Failed Notification**, select or clear the **Enabled** checkbox.
+
 ## Monitor the job queue with telemetry
 
 Administrators can use [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview) to gather and analyze telemetry that helps identify problems. To learn more about telemetry, go to [Monitoring and Analyzing Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) and [Analyzing Job Queue Lifecycle Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
 Telemetry lets administrators set up alerts on job queue issues that send a text message, email, or a message in Teams if something isn't right. To learn more about these alerts, go to [Alert on Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
-
-## Get notified when a job queue entry fails
-
-Sometimes tasks, reports, or batch processes can take a long time to complete. To keep people productive in the meantime, companies often use Business Central's ability to run processes in the background. If something goes wrong and an important background process stops, or isn't scheduled for some reason, being notified of the issue can help you react quickly to resolve it.
-
-To be notified when there are issues with job queue processing, you can subscribe to external business events that are emitted when:
-
-* Job queue processing fails after a number of retries.
-* Job queue processing fails to schedule.
-
-The **When a business event occurs** trigger in a Power Automate flow can catch external business events when they're emitted. To give you flexibility, you can choose from a couple of built-in Power Automate templates that we're shipping with this feature. 
-
-You can also create a Power Automate flow to set up a notification mechanism that's best for your business. For example:
-
-* Notify the user whose credentials the job queue uses to run.
-* Notify the notification recipients you set up in the Business Central admin center.
-
-Additional job queue APIs allow such an automation to react to specific job queue issues by restarting or rescheduling the job queue.
 
 ## See also
 

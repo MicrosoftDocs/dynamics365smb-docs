@@ -50,13 +50,18 @@ Before you can process payment electronically by exporting payment files in the 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Accounts**, and then choose the related link.  
 2. Choose the bank account from which you'll export payment files in the SEPA Credit Transfer format.
 3. On the **General** FastTab, in the **Credit Transfer Msg. Nos.** field, choose a number series from which numbers are assigned to SEPA credit transfer entries.
-4. On the **Posting** FastTab, in the **Currency Code** field, specify the currency for the bank account.  
+4. On the **Communication** FastTab, enter address and contact information for the bank. 
+
+   > [!NOTE]
+   > You must fill in the **Country/Region Code** field. If the field is blank, you can't export payments for the account.
+
+5. On the **Posting** FastTab, in the **Currency Code** field, specify the currency for the bank account.  
 
    > [!NOTE]  
    > The **Currency Code** field must be set to **EUR**, because SEPA credit transfers can only be made in the EURO currency.  
 
-5. On the **Transfer** FastTab, in the **Payment Export Format** field, choose the SEPA format you want to use.  
-6. In the **IBAN** field, specify the international bank account number for the account.  
+6. On the **Transfer** FastTab, in the **Payment Export Format** field, choose the SEPA format you want to use.  
+7. In the **IBAN** field, specify the international bank account number for the account.  
 
 ### To set up a vendor card for SEPA Credit Transfer
 

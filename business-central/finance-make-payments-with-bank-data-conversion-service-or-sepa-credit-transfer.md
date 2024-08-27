@@ -53,7 +53,7 @@ Before you can process payment electronically by exporting payment files in the 
 4. On the **Communication** FastTab, enter address and contact information for the bank. 
 
    > [!NOTE]
-   > You must fill in the **Country/Region Code** field. If the field is blank, you can't export payments for the account.
+   > You must fill in the **Country/Region Code** field. If the field is blank, you can't export payments for the account. Also, the country/region must have a valid ISO Code.
 
 5. On the **Posting** FastTab, in the **Currency Code** field, specify the currency for the bank account.  
 

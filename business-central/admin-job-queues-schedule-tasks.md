@@ -106,22 +106,22 @@ The part shows the following information:
 The My Job Queue part also lets you cancel a document posting.
 
 > [!TIP]
-> Another useful feature is the **Job Queue Tasks** part on your home page. The part makes it easy to monitor job queue entries based on their status. To learn more, go to [The Job Queue Tasks part](#the-job-queue-tasks-part).
+> Another useful feature is the **Job Queue Tasks** cue on your home page. The cue makes it easy to monitor job queue entries based on their status. To learn more, go to [The Job Queue Tasks cue](#the-job-queue-tasks-cue).
 
 ### To view an error from the My Job Queue part
 
 1. On an entry with the status **Error**, choose the **Show Error** action.
 2. Review the error message and fix the problem.
 
-## The Job Queue Tasks part
+## The Job Queue Tasks cue
 
-The **Job Queue Tasks** part on your home page makes it easy to keep an eye on your job queue entries. The part shows tiles for three statuses:
+The **Job Queue Tasks** cue on your home page makes it easy to keep an eye on your job queue entries. The cue shows tiles for three statuses:
 
-* Tasks Failed: These tasks need attention.
+* Tasks Failed: These tasks need attention. Tasks display in this tile after they exceed the maximum number of attempts to run that you specified for the job queue entry. To learn more, go to [Handle job queue entry issues](#handle-job-queue-entry-issues).
 * Tasks in Process: These tasks are running.
 * Tasks in Queue: These tasks are waiting their turn.
 
-You can configure the **Job Queue Tasks** part by choosing **Set Up Cues**. You can specify thresholds that control the color of each tile so it's easy to know when one needs attention. Use the **Threshold 1** and **Threshold 2** fields to specify ranges for each status. Use the **Low Range Style**, **Middle Range Style**, and **High Range Style** fields to specify the color for tiles when its number of job queue entries is below, within, or above the threshold range. From low to high, businesses typically use green, yellow, and red.
+You can configure the **Job Queue Tasks** cue to use color indicators, so it's easy to know when job queue entries need attention. To learn more about color indicators for cues, go to [Set Up a Colored Indicator on Cues for the Company or Individual Users](admin-how-set-up-colored-indicator-on-cues.md).
 
 ## Handle job queue entry issues
 
@@ -150,12 +150,10 @@ If something goes wrong and a job queue entry fails, or isn't scheduled for some
 * Restart the job queue entry, which is typically the first thing to try.
 * Go directly to details about the failure.
 
-You can only access job queue entries that you started, but administrators can access all failed job queue entries. Your notification settings apply only to you. Other users aren't affected.
-
 To set up notifications for job queue entry failures, start the **Set Up Job Queue Notifications** assisted setup guide from the **Assisted Setup** page. Use the guide to enter the following settings:
 
 * Who to notify about a failure. You can notify the person who started the job queue entry, or job queue entry administrators, or both.
-* How you want to be notified. You can turn on in-product notifications that show at the top of your home page, or use a Power Automate flow.
+* How you want to be notified. You can turn on in-product notifications that show at the top of your home page, or use [external business events](/dynamics365/business-central/dev-itpro/developer/business-events-overview#query-business-central-catalog-of-business-events-in-dataverse) to start a Power Automate flow. You can specify when, how, and who to notify for the flow. Your Power Automate flow must subscribe to the **Job queue task failed** event.
 * When you want to be notified. You can choose to be notified immediately, or specify thresholds to be notified only after a number of job queue entries fail.
 
 After you set up notifications, you can always turn them on or off. On the **My Notifications** page, for the **Job Queue Failed Notification**, select or clear the **Enabled** checkbox.

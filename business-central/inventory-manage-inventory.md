@@ -69,6 +69,7 @@ The following table outlines related tasks.
 [Warehouse Management Overview](design-details-warehouse-management.md)    
 [Purchasing](purchasing-manage-purchasing.md)    
 [Sales](sales-manage-sales.md)    
+[Managing Inventory Costs](finance-manage-inventory-costs.md)    
 [Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [General Business Functionality](ui-across-business-areas.md)    
 

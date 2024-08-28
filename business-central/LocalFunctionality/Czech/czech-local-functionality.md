@@ -30,6 +30,7 @@ The following topics describe the local functionality in the Czech version of [!
   * [General Ledger Entries Application](general-ledger-entries-application.md) **Available Now**
   * [Exchange Rate Updating](exchange-rate-update.md) **Available Now**
   * [Multi-circuit Accounting](how-to-use-multi-circuit-accounting.md) **Available Now**
+  * [Functional Currency – Czechia](functional-currency.md) **Available Now**
 
 * VAT
   * [VAT Date](how-to-setup-vat-date.md) **Available Now** 
@@ -96,3 +97,5 @@ If you are aware of any upcoming regulatory features, submit a [Regulatory Featu
 [Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

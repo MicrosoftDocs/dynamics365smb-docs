@@ -6,14 +6,14 @@ author: v-pejano
 ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Non-Deductible VAT, Localization
-ms.date: 07/01/2024
+ms.date: 08/28/2024
 ms.reviewer: v-pejano
 ms.author: v-pejano
 ---
 
-# Non-deductible VAT for Czech
+# Non-Deductible VAT for Czech
 
-## Non-deductible VAT
+## Non-Deductible VAT
 
 If the VAT payer uses the received taxable supplies within his economic activities both for supplies eligible for tax deduction and for tax-exempt, he is entitled to deduct tax only in the reduced amount. VAT on input must be reduced by the calculated coefficient. Non-deductible VAT functionality allows the application of a shortening coefficient to accounting cases.
 
@@ -21,7 +21,7 @@ The value of the VAT reduction coefficient can be set for the whole company in o
 
 ### The module functionality includes
 
-- Setting non-deductible VAT at a reduced or full amount
+- Setting Non-Deductible VAT at a reduced or full amount
 - Adjustment of input VAT postings, inclusion of non-deductible VAT in related accounts, the purchase price of items or assets
 - Adjustment of VAT Reports and VAT Control Reports
 - Reports for VAT reconciliation
@@ -32,9 +32,9 @@ The value of the VAT reduction coefficient can be set for the whole company in o
 - Not applicable for purchase advance invoices
 - Not connected to VAT Report Setup or VAT Returns.
 
-## Activation of non-deductible VAT
+## Activation of Non-Deductible VAT
 
-The activation of the non-deductible VAT functionality starts on the page **VAT Setup** by selecting the **Enable Non-Deductible VAT** field. If you have the **Core Localization Pack for Czech** application installed, the standard non-deductible VAT functionality is automatically extended for Czech posting and reporting purposes.
+The activation of the Non-Deductible VAT functionality starts on the page **VAT Setup** by selecting the **Enable Non-Deductible VAT** field. If you have the **Core Localization Pack for Czech** application installed, the standard non-deductible VAT functionality is automatically extended for Czech posting and reporting purposes.
 
 Switch the value of the field **Enable Non-Deductible VAT** to YES, the other related fields are activated. By running functionality, new fields in the tables are automatically activated, enabling them is irreversible.
 
@@ -67,11 +67,11 @@ This batch job goes through all VAT entries of the specified period with combina
 
 ## Non-deductible VAT Setup
 
-To work with the non-deductible VAT functionality, you need to carry out specific setup:
+To work with the Non-Deductible VAT functionality, you need to carry out specific setup:
 
-### Setting the range of use non-deductible VAT
+### Setting the range of use Non-Deductible VAT
 
-The functionality of non-deductible VAT is automatically applied when posting accounting cases with direct posting to financial accounts. You can also use it when posting the item cost, for job costs or fixed assets cost.
+The functionality of Non-Deductible VAT is automatically applied when posting accounting cases with direct posting to financial accounts. You can also use it when posting the item cost, for job costs or fixed assets cost.
 
 On the **VAT Setup** page, activate the fields as required
 
@@ -115,7 +115,7 @@ The VAT statement must be supplemented with the newly established VAT Posting Gr
 
 ![VAT Statement](Media/VAT-Statement.png "VAT Statement")  
 
-## Posting of non-deductible VAT in documents
+## Posting of Non-Deductible VAT in documents
 
 The examples below assume the previous setup of non-deductible VAT, the created combinations of VAT Posting Groups and the setup of the advance coefficient for the selected accounting period - see paragraph Non-Deductible VAT Setup.
 

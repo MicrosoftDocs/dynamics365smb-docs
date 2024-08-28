@@ -7,7 +7,7 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: payment process, cash receipt
 ms.search.form: 25, 255
-ms.date: 05/17/2024
+ms.date: 06/21/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -16,14 +16,14 @@ ms.custom: bap-template
 When you receive a cash payment from a customer or give a cash refund, you can apply the payment or refund to close open debits or credits. You can specify the amount to apply. For example, you can apply partial payments to customer ledger entries. Closing customer ledger entries keeps customer statistics, account statements, finance charges, and so on, up-to-date.
 
 > [!TIP]  
-> On the **Customer Ledger Entries** page, red font means that the related payment is past its due date. If overdue payments are becoming a problem, we can help you reduce their frequency. You can enable the **Late Payment Predictions** extension, which uses a predictive model that we built in Azure Machine Learning to predict the timing of payments. These predictions help you reduce outstanding receivables and fine-tune your collections strategy. For example, if a payment is predicted to be late, you can adjust the terms of payment or the payment method for the customer. For more information, see [Late Payment Predictions](ui-extensions-late-payment-prediction.md).  
+> On the **Customer Ledger Entries** page, red font means that the related payment is past its due date. If overdue payments are becoming a problem, we can help you reduce their frequency. You can enable the **Late Payment Prediction Setup** extension, which uses a predictive model that we built in Azure Machine Learning to predict the timing of payments. These predictions help you reduce outstanding receivables and fine-tune your collections strategy. For example, if a payment is predicted to be late, you can adjust the terms of payment or the payment method for the customer. For more information, see [Late Payment Predictions](ui-extensions-late-payment-prediction.md).  
 
 You can apply customer ledger entries in several ways:
 
 * Enter information on the following pages:
-   * The **Payment Reconciliation Journal** page. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
-   * The **Payment Registration** page. For more information, see [Reconcile Customer Payments from a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
-   * The **Cash Receipt Journal** page. For more information, see [To fill and post a cash receipt journal](#to-fill-and-post-a-cash-receipt-journal).
+   * The **Payment Reconciliation Journals** page. For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+   * The **Payment Registration Setup** page. For more information, see [Reconcile Customer Payments from a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+   * The **Cash Receipt Journals** page. For more information, see [To fill and post a cash receipt journal](#to-fill-and-post-a-cash-receipt-journal).
 * By filling in the **Applies-to Doc. No.** field on sales credit memo documents. For more information, see [To apply a credit memo to a single customer ledger entry](#to-apply-a-credit-memo-to-a-single-customer-ledger-entry).
 * By using the **Set Applies-to ID** action on a customer ledger entry. For more information, see [To apply a payment to a single customer ledger entry](#to-apply-a-payment-to-a-single-customer-ledger-entry).
 * By using the **Apply Entries** action on the **Bank Deposit** page, and then entering the invoice number in the **Applies-to ID** field. For more information, see [Create Bank Deposits](bank-create-bank-deposits.md).
@@ -35,7 +35,7 @@ You can apply customer ledger entries in several ways:
 
 A cash receipt journal is a type of general journal. You can use it to post transactions to general ledger, bank, customer, vendor, and fixed assets accounts. You can apply the payment to one or more debit entries when you post the payment. You can also apply from the posted entries later.
 
-1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journal**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Cash Receipt Journals**, and then choose the related link.
 2. Choose the **Edit Journal** action.
 3. Select the relevant batch in the **Batch Name** field.
 4. Fill in the **Posting Date** field.  
@@ -50,8 +50,8 @@ A cash receipt journal is a type of general journal. You can use it to post tran
 7. In the **Account Type** field, select **Customer**.
 8. In the **Account No.** field, select the customer.
 9. To post the application at the same time as you post the journal, fill in the following fields:
-   1. In the **Balancing Account Type** field, select **G/L Account** for cash payments, and **Bank Account** for other payments.
-   2. In the **Balancing Account No.** field, select the cash account for cash payments, or the relevant bank account for other payments.
+   1. In the **Bal. Account Type** field, select **G/L Account** for cash payments, and **Bank Account** for other payments.
+   2. In the **Bal. Account No.** field, select the cash account for cash payments, or the relevant bank account for other payments.
 10. Post the journal.
 
 ## To apply a payment to a single customer ledger entry
@@ -114,7 +114,7 @@ A cash receipt journal is a type of general journal. You can use it to post tran
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Customers**, and then choose the related link.
 2. Open the customer card for the customer with entries that you want to apply.
-3. Choose the **Ledger Entries** action, and then select the line with the entry that is the applying entry.
+3. Choose the **Ledger Entries** action from the **Related** tab, and then select the line with the entry that is the applying entry.
 4. Choose the **Apply Entries** action. The **Apply Customer Entries** page opens showing the open entries for the customer.
 5. Select the lines with the entries that you want the applying entry to be applied to, and then choose the **Set Applies-to ID.** action.
 6. For each line in the **Amount to Apply** field, enter the amount you want to apply to the individual entry. If you don't enter an amount, the maximum amount is applied.  

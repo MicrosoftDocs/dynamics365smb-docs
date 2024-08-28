@@ -1,6 +1,6 @@
 ---
 title: Add marketing text to items
-description: Write marketing text for items in Business Central
+description: Write marketing text for items in Business Central.
 author: jswymer
 ms.author: jswymer 
 ms.reviewer: jswymer
@@ -9,6 +9,7 @@ ms.date: 06/10/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
+ms.search.form: 5839_Primary
 ---
 
 # Add marketing text to items

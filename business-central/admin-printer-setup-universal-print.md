@@ -35,9 +35,9 @@ The complete setup requires you work in both Microsoft Azure, using the [Azure p
 
     Learn more at [License Universal Print](/universal-print/fundamentals/universal-print-license).
 
-  - You have the **Printer Administrator** (or Printer Manager) and **Global Administrator** roles in Azure.
+  - You have at least the [Printer Administrator](/entra/identity/role-based-access-control/permissions-reference#printer-administrator) role in Microsoft Entra ID.
 
-    To manage Universal Print, your account must have **Printer Administrator** (or Printer Manager) and **Global Administrator** roles in Microsoft Entra ID. These roles are only needed for managing Universal Print. They aren't required by people setting up and  the printers from [!INCLUDE[prod_short](includes/prod_short.md)].
+    To manage Universal Print, your account must have at least the [Printer Administrator](/entra/identity/role-based-access-control/permissions-reference#printer-administrator) role in Microsoft Entra ID. These roles are only needed for managing Universal Print. They aren't required by people setting up and  the printers from [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - [!INCLUDE[prod_short](includes/prod_short.md)] online and on-premises:
 
@@ -93,20 +93,20 @@ For detailed instructions on how to get set up, see [Get started: Set up Univers
 
     After a printer is registered, you can view and modify printer properties, such as default preferences.
 
-    Learn more at [Managing Printer Settings using the Universal Print Portal](/universal-print/portal/configure-printer-settings).
+    Learn more at [Managing Printer Settings using the Universal Print Portal](/universal-print/reference/portal/printer-settings).
 
 5. Share the printers with users.
 
-    Any printer you want to use in [!INCLUDE[prod_short](includes/prod_short.md)] will need to be added to a *printer share* in Universal Print. Any user who needs access to the printer must be added as a member of the printer share. Learn more at [Share a Printer](/universal-print/portal/share-printers).
+    Any printer you want to use in [!INCLUDE[prod_short](includes/prod_short.md)] will need to be added to a *printer share* in Universal Print. Any user who needs access to the printer must be added as a member of the printer share. Learn more at [Share a Printer](/universal-print/reference/portal/share-printers).
 
     > [!TIP]
-    > You can always add or remover users later. Learn more at [Printer Permissions](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+    > You can always add or remover users later. Learn more at [Configure user permssions for printer share](/universal-print/reference/portal/share-printers#configure-user-permissions-for-a-printer-share).
 
 6. Enable document conversion.
 
     Universal Print renders content for print in XPS format. Some legacy in-market printers don't support XPS content rendering&mdashin many cases, only PDF format. Printing to these printers will fail unless Universal Print is set up to convert documents to the printer-supported format.
 
-    Learn more at [Document Conversion Overview](/universal-print/portal/document-conversion).
+    Learn more at [Document conversion](/universal-print/reference/portal/settings#2-document-conversion).
 
 Now, you're ready to add the printers to [!INCLUDE[prod_short](includes/prod_short.md)], set up default printers for reports, and print.  
 

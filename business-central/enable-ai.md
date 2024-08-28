@@ -5,11 +5,11 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 04/16/2024
+ms.date: 06/28/2024
 ms.custom: bap-template
-ms.search.form: 7775
 ms.collection:
   - bap-ai-copilot
+ms.search.form: 7771,7772_Primary,7775_Primary
 ---
 
 # Configure Copilot and AI capabilities
@@ -133,11 +133,11 @@ To grant or deny access to specific non-Microsoft copilot and AI capabilities, c
 
 You must have either SUPER permissions in your Business Central user account or one of the following Business Central licenses:
 
-- Delegated Admin
-- Delegated Helpdesk
-- Global Admin
-- BC Admin
-- D365 Admin
+- Delegated Admin agent - Partner
+- Delegated Helpdesk agent - Partner
+- Internal Admin
+- Internal BC Administrator
+- Dynamics 365 Administrator
 
 Business Central doesn't yet offer granular, object-level permissions so that only specific administrators can configure Copilot.
 

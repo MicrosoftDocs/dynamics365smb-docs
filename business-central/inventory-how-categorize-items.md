@@ -10,8 +10,8 @@ ms.search.keywords: category, search, attribute, facet
 ms.search.form: 5730, 5733, 5401
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
-
 ---
+
 # Categorize items
 
 To maintain an overview of your items and to help you sort and find items, it's useful to organize your items in item categories.
@@ -47,11 +47,11 @@ If you change your mind about an item category, you can delete it. However, if t
 
 ## See also
 
-[Work with Item Attributes](inventory-how-work-item-attributes.md)  
-[Manage Product Variants](inventory-item-variants.md)  
-[Register New Items](inventory-how-register-new-items.md)  
-[Inventory](inventory-manage-inventory.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Work with Item Attributes](inventory-how-work-item-attributes.md)    
+[Manage Product Variants](inventory-item-variants.md)    
+[Register New Items](inventory-how-register-new-items.md)    
+[Inventory](inventory-manage-inventory.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

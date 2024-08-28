@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: electronic document, electronic invoice, e-document, e-invoice, access-point, endpoint, nemhandel, denmark, dk
 ms.search.form: 359, 360, 6103, 6133
-ms.date: 12/13/2023
+ms.date: 07/10/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -27,7 +27,12 @@ In Danish E-Documents functionality, you can select OIOUBL and PEPPOL BIS 3 as d
 
 ## E-Document Services setup
 
-To set up services, complete the following steps:
+> [!NOTE]
+> To establish these connections, it's necessary to communicate with external service providers, who may require additional payment and contracts. To obtain all the necessary credentials, contact the service providers.
+
+To set up services, complete the following steps:   
+
+### To use OIOUBL format  
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
 2. Select **New** to create the OIOUBL service.
@@ -35,16 +40,20 @@ To set up services, complete the following steps:
 4. In the **Document Format** field, select **OIOUBL** as the export format of the electronic export setup.
 5. In the **Service Integration** field, specify the service access point that you want to use.
 6. Select **Setup Service Integration**, and follow the instructions for [using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md). Then close the page.
-7. Select **New** to create the PEPPOL service.
-8. Fill in all the data as explained in [Set the E-Documents connector with external endpoints](../../finance-how-setup-edocuments-external.md).
-9. In the **Document Format** field, select **PEPPOL BIS 3.0** as the export format of the electronic export setup.
-10. In the **Service Integration** field, specify the service access point that you want to use.
-11. Select **Setup Service Integration**, and follow the instructions for [using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md). Then close the page.
+
+### To use Peppol format  
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **E-Document Services**, and then select the related link.
+2. Select **New** to create the PEPPOL service.
+3. Fill in all the data as explained in [Set the E-Documents connector with external endpoints](../../finance-how-setup-edocuments-external.md).
+4. In the **Document Format** field, select **PEPPOL BIS 3.0** as the export format of the electronic export setup.
+5. In the **Service Integration** field, specify the service access point that you want to use.
+6. Select **Setup Service Integration**, and follow the instructions for [using E-Documents Connector with External Endpoints](../../finance-how-setup-edocuments-external.md). Then close the page.
 
 > [!NOTE]
-> This connection requires communication with external service providers that might be subject to additional payment and require contracts with them. To get all the necessary credentials, contact the service providers.
+> If you don't have a **GLN No.** specified in the **Company Setup**, then export of all electronic documents will be using the company's **VAT Registration No.** as identifier in the electronic documents. In this case the **VAT Scheme** using for electronic documents in Denmark is set to 0184. You can check the **VAT Scheme** value in the **Country/Region** page for each of countries. It means this value is used in all nodes when applicable. It's also added a prefix DK to **VAT Registration No.** when applicable.  
 
-To configure workflows, customers, and vendors, see [How to set up E-Documents](../../finance-how-setup-edocuments.md) and [Set the E-Documents connector with external endpoints](../../finance-how-setup-edocuments-external.md).
+To configure workflows, customers, and vendors, see [How to set up E-Documents](../../finance-how-setup-edocuments.md) and [Set the E-Documents connector with external endpoints](../../finance-how-setup-edocuments-external.md). 
 
 ## See also
 

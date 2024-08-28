@@ -1,16 +1,16 @@
 ---
-title: Activate SEPA Payments in the Dutch Version
+title: Activate SEPA payments in the Dutch version
 description: To submit vendor payments electronically in Single Euro Payments Area (SEPA) ISO 20022 payment format, you must set up prerequisites for enabling SEPA payments.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
-ms.date: 04/01/2021
+ms.date: 07/03/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Activate SEPA Payments in the Dutch Version
+# Activate SEPA payments in the Dutch version
 
 [!INCLUDE [activate-sepa-payments](../includes/BENL/activate-sepa-payments.md)]
 
@@ -21,6 +21,9 @@ ms.reviewer: bholtorf
 3. On the **Transaction Mode Card** page, on the **Paym. Proposal** FastTab, in the **Export Protocol** field, select the SEPA export protocol that you have created, such as **SEPA ISO20022**.  
 4. Choose the **OK** button.  
 
+> [!NOTE]
+> If you want to use *SEPA DD 008.001.08* and *SEPA CT Pain 001.001.09*, you must set up new reports *11000015* for Pain 008.001.08" and *11000014* for Pain 001.001.09" that can be selected in the **Export Protocol** field to export files in the corresponding formats.  
+
 ## To verify vendor payment transaction modes for SEPA  
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.  
@@ -28,7 +31,7 @@ ms.reviewer: bholtorf
 3. On the **Payments** FastTab, in the **Transaction Mode Code** field, verify that the vendor payment transaction mode is one that has been enabled for SEPA.  
 4. Choose the **OK** button.  
 
-## See Also  
+## See also  
 
 [Single EURO Payments Area (SEPA)](single-euro-payments-area-sepa-.md)  
 [Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format](how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)  

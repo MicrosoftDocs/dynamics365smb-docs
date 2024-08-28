@@ -6,7 +6,7 @@ ms.author: altotovi
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 08/19/2024
+ms.date: 08/28/2024
 ms.custom: bap-template
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077
@@ -19,25 +19,25 @@ All companies in the European Union (EU) must report their trade with other EU c
 Intrastat reporting is based on basic EU regulations that apply to all countries/regions. However, there are differences within the individual countries/regions. Each country/region has its rules about what and how to report.
 
 > [!NOTE]  
-> Intrastat information doesn't apply to the movement of services between countries/regions, but only goods (Items and Fixed Assets). If the local government requires registering  the movement of services between countries/regions, it can be done using the **Service Declaration** feature.
+> Intrastat information doesn't apply to the movement of services between countries/regions, but only goods (Items and Fixed Assets). If the local government requires registering the movement of services between countries/regions, it can be done using the **Service Declaration** feature.
 >
-> This features is available as an app at [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). At that time, to use it, you must first install it on the **Extension Management** page. Learn more about this functionality [here](finance-how-setup-use-service-declaration.md).  
+> This features is available as an app at [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). ATo use this feature, you must first install it on the **Extension Management** page. Learn more about this functionality [here](finance-how-setup-use-service-declaration.md).  
 
 > [!IMPORTANT]  
-> This article describes the new Intrastat experience available in [!INCLUDE[prod_short](includes/prod_short.md)] starting in the 2022 release wave 2, which includes extended features, but if you didn't upgrade your solution, read the previous version's Intrastat setup and usage article at [Set Up and Report Intrastat](finance-how-setup-report-intrastat-v20.md).
+> This article describes the new Intrastat experience available in [!INCLUDE[prod_short](includes/prod_short.md)] starting in the 2022 release wave 2, which includes extended features. If you haven't upgraded your solution, read the previous version's Intrastat setup and usage article at [Set Up and Report Intrastat](finance-how-setup-report-intrastat-v20.md).
 
 
 ## Assisted setup
 
-To use assisted setup for the Intrastat, follow next steps:  
+To use assisted setup for the Intrastat, follow these steps:  
 
 1. Select the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Assisted Setup**, and then select the related link. 
-2. On the **Assisted Setup** page, select the line for **Set up Intrastat reporting** in the **Report of financial health** group.  
+2. On the **Assisted Setup** page, select the line for **Set up Intrastat reporting** in the **Report on financial health** group.  
 3. Follow the instructions for the basic setup for Intrastat. To read more about the Intrastat setup, see the [Intrastat configuration](#intrastat-configuration) section later in this article.
 4. After the setup is completed, select **Finish** to start to use the new Intrastat experience.
 
     > [!NOTE]
-    > Intrastat Reporting Core app can be installe in any base app regardless if this is the EU or not, but as this feature is intended for regulatory reporting in the EU countries, Microsoft provides full regulatory support only in the EU countries with Microsoft localizations. For other countries, Microsoft does not provide regulatory support. In a case of other EU countries where Microsoft doe not provide localization, you need to find partner-based localization, and for other countries you can use without support. Keep in mind you the most probably need to have installed the country/region specific Intrastat app in addition to the core extension to fufill local requirements. Local apps can be installed only on base apps for the country as this localization is intended.  
+    > Intrastat Reporting Core app can be installed on any base app, regardless of whether it is the EU or not, but this feature is intended for regulatory reporting in EU countries, Microsoft provides full regulatory and localization support only in EU countries. If you're in EU countries where Microsoft does'nt provide localization support, you must find partner-based localization support, and for other countries you can use without support. You might have to install a country/region-specific Intrastat app in addition to the core extension to meet the local requirements. The country-specific apps can only be installed on base apps as they are intednded for localization purposes, unlike Intrastat, which has one core app and local apps (the country-specific ones).  
 
 ## Intrastat configuration
 
@@ -379,8 +379,8 @@ The process of working with Intrastat reports is the same as in global feature.
 
 ## See also
 
-[Intrastat Reporting in Business Central](finance-how-report-intrastat.md)  
-[Financial Management](finance.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Intrastat Reporting in Business Central](finance-how-report-intrastat.md)    
+[Financial Management](finance.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

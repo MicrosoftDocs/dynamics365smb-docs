@@ -54,7 +54,7 @@ The following topics describe the local functionality in the Czech version of [!
 * Banking and Payments
   * [Banking Documents Localization for Czech (Extension)](ui-extensions-banking-documents-localization-cz.md)**Available Now**
   * [Cash Desk Localization for Czech (Extension)](ui-extensions-cash-desk-localization-cz.md) **Available Now**
-  * [Registration of Sales (EET)](eet.md) **Available Now**
+<!--   * [Registration of Sales (EET)](eet.md) **Available Now** -->
   * [Advance Payments Localization for Czech (Extension)](ui-extensions-advance-payments-localization-cz.md) **Available Now**
 
 * Payables and Receivables

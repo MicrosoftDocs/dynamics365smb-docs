@@ -54,6 +54,14 @@ For [!INCLUDE[prod_short](includes/prod_short.md)] online, the model is publishe
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales and Inventory Forecast Setup**, and then choose the related link.  
 2. Expand the **General** FastTab, and then fill in the API URL and API key fields.  
 
+## What are the limitations of the Sales and Inventory Forecast extension
+
+The Sales and Inventory Forecast extension produces aggregated forecast for all locations and variants. If you have multiple locations, for example representing the different stores, you can not get forecast for each location and will need to distribute afterwards.
+
+Throutput. We stimate that approximatelly 50000 items can be processed during 12 hours, defined as *Max Execution Timeout*. The exact number depends on data and setting of extensions. 
+For more information on report limits in Business Central and how they are configured in the online service, see [Report limits in Business Central](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Reports).
+The Sales and Inventory Forecast extension doesn't support filtering, means you can not split items in separate batches.
+
 ## See also
 
 [Sales](sales-manage-sales.md)  

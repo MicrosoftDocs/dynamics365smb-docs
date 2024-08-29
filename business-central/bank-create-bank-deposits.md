@@ -8,14 +8,14 @@ ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: bank, deposit
 ms.search.form: 10140, 10141, 10143, 10144, 10146, 10147, 10148, 36646
-ms.date: 07/25/2024
+ms.date: 08/29/2024
 ms.custom: bap-template    
 ---
 
 # Create bank deposits
 
 > [!NOTE]
-> The ability to create bank deposits is new in Business Central 2022 release wave 1 for a lot of country/region versions. If you were using Business Central in the United States, Canada, or Mexico before that release, you might be using the earlier capabilities. You can continue, but the new capabilities will replace the old ones in a future release. To start using the new features described in this article, your administrator can go to the **Feature Management** page and turn on **Feature Update: Standardized bank reconciliation and deposits**.  
+> The ability to create bank deposits is new in [!INCLUDE [prod_short](includes/prod_short.md)] 2022 release wave 1 for a lot of country/region versions. If you were using [!INCLUDE [prod_short](includes/prod_short.md)] in the United States, Canada, or Mexico before that release, you might be using the earlier capabilities. You can continue, but the new capabilities will replace the old ones in a future release. To start using the new features described in this article, your administrator can go to the **Feature Management** page and turn on **Feature Update: Standardized bank reconciliation and deposits**.  
 
 Use the **Bank Deposits** page to register deposits as a single document that posts one or more entries to a bank account. Typically, bank deposits are used to register cash deposits. The Bank Deposits page is available on the **Cash Management** menu on the Business Manager Role Center, and other Role Centers that deal with cash management.
 
@@ -94,8 +94,11 @@ The lines on the bank deposit will automatically use the default dimensions you 
 11. If you're depositing a cash payment for a specific customer invoice, choose the **Apply Entries** action, and then enter the invoice number in the **Applies-to ID** field.
 12. If you're ready to post the bank deposit, choose the **Post** action.
 
+    > [!NOTE]
+    > If the bank account has default dimensions where the **Value Posting** field contains **Code Mandatory**, **Same Code**, or **No Code**, you must post the deposit as a lump sum. If you don't post as a lump sum, posting might fail because the dimension values of the accounts on the bank deposit lines violate the value posting rules of the bank account.
+
     > [!TIP]
-    > Before you post the deposit you can use the **Test Report** action to review your data. The report will show whether there are any issues, such as missing data, that will prevent posting.  
+    > Before you post the deposit, you can use the **Test Report** action to review your data. The report shows whether there are any issues, such as missing data, that might prevent posting.  
 
 ## Find posted bank deposits
 

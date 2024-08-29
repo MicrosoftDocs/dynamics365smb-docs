@@ -1,5 +1,5 @@
 ---
-title: Working with Business Central  (contains video)
+title: Working with Business Central
 description: Describes how to interact with data in Business Central.
 author: brentholtorf
 ms.author: bholtorf

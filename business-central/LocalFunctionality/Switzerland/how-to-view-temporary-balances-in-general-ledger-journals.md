@@ -1,15 +1,15 @@
 ---
-    title: View temporary balances in GL journals [CH]
-    description: You can view temporary balances that show how the general ledger account balances would be affected by posting a new transaction in the general journal.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.search.form: 11500
-    ms.date: 12/08/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: View temporary balances in GL journals [CH]
+description: You can view temporary balances that show how the general ledger account balances would be affected by posting a new transaction in the general journal.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.search.form: 11500
+ms.date: 12/08/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # View temporary balances in general ledger journals in the Swiss version
 

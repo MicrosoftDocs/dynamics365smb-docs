@@ -1,18 +1,18 @@
 ---
-title: Create and Manage Catalog Items
+title: Create and manage catalog items
 description: Learn how to sell items that you don't keep in your list of items.
 author: brentholtorf 
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/08/2023
+ms.date: 04/16/2024
 ms.custom: bap-template
 ms.search.keywords: non-inventoriable
 ms.search.forms: 5725, 5726, 5732
 ms.service: dynamics-365-business-central
 ---
 
-# Work with Catalog Items
+# Work with catalog items
 
 Catalog items are items that you don't manage in [!INCLUDE[prod_short](includes/prod_short.md)] until you sell them. When you use the **Select Catalog Item** action to add a catalog item to a line on a sales order, quote, or blanket sales order, the catalog item is converted to a regular item.
 
@@ -27,8 +27,8 @@ A catalog item typically has the item number of the vendor who supplies it. Befo
 ## Create a catalog item
 
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Catalog Items**, and then choose the related link.
-2. Choose the **New** action.
-3. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. On the **Catalog Items** page, choose the **New** action.
+3. On the **Catalog Item Card** page, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## Specify how catalog item numbers are converted to your own numbering
 
@@ -61,10 +61,10 @@ The following process uses a sales order, but the steps are the same for blanket
 
 ## See also
 
-[Register New Items](inventory-how-register-new-items.md)  
-[Create Special Orders](sales-how-to-create-special-orders.md)  
-[Inventory](inventory-manage-inventory.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Register New Items](inventory-how-register-new-items.md)    
+[Create Special Orders](sales-how-to-create-special-orders.md)    
+[Inventory](inventory-manage-inventory.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

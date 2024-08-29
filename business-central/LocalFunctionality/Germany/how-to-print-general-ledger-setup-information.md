@@ -1,14 +1,14 @@
 ---
-    title: Print general ledger setup information [DE]
-    description: Before using the German version of Business Central, you can run the G/L Setup Information report to display the master data that you set up.
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 11/24/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: Print general ledger setup information [DE]
+description: Before using the German version of Business Central, you can run the G/L Setup Information report to display the master data that you set up.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/24/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 # Print general ledger setup information in the German version

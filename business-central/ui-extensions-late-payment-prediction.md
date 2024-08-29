@@ -1,17 +1,17 @@
 ---
-title: Predict Late Payments for Sales Documents
-description: This article explains how to use our predictive model to predict whether an invoice will be paid on time.
+title: Predict late payments for sales documents
+description: This article explains how to use our predictive model to predict whether a customer will pay an invoice on time.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.search.form: 1950, 1951, 
-ms.date: 12/06/2023
+ms.date: 07/11/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# The Late Payment Prediction Extension
+# The Late Payment Prediction extension
 
 Effectively managing receivables is important to the overall financial health of a business. To reduce outstanding receivables and help you fine-tune your collections strategy, the extension predicts whether to expect late payments. For example, if a payment is predicted to be late, you might decide to adjust the terms of payment or the payment method for the customer.
 
@@ -36,7 +36,7 @@ If you enable the extension, a **Payments Predicted to be Late** tile is availab
 * **Prediction Confidence %** - Shows the actual percentage behind the confidence rating. By default, this column is hidden, but you can add it if you want. For more information, see [Personalize Your Workspace](ui-personalization-user.md).
 
 > [!TIP]
-> The Customer Ledger Entries page shows a FactBox on the right. While you're reviewing predictions, the information in the **Customer Details** section can be helpful. When you choose the invoice in the list, the section shows information about the customer. It also lets you take immediate action. For example, if a customer frequently misplaces their wallet, you can open the Customer card from the FactBox and block the customer for future sales.  
+> The Customer Ledger Entries page shows a FactBox. While you're reviewing predictions, the information in the **Customer Details** section can be helpful. When you choose the invoice in the list, the section shows information about the customer. It also lets you take immediate action. For example, if a customer frequently misplaces their wallet, you can open the Customer card from the FactBox and block the customer for future sales.  
 
 ## Design details
 
@@ -57,9 +57,9 @@ These web services are stateless, meaning they use data only to calculate predic
 
 For each **Customer ledger entry** that has a related **Posted Sales Invoice**:
 
-* Amount (LCY) including tax
+* Amount in local currency, including tax
 * Payment terms in days are calculated as **Due Date** minus **Posting Date**
-* Whether there is an applied credit memo
+* Whether there's an applied credit memo
 
 Additionally, the record has aggregated data from other invoices that are related to the same customer.
 
@@ -80,7 +80,7 @@ Additionally, the record has aggregated data from other invoices that are relate
 
 The Late Payment Prediction extension's predictive model is trained on data that represents a range of small to medium-sized businesses. When you start posting invoices and receiving payments, [!INCLUDE[prod_short](includes/prod_short.md)] evaluates whether the standard model fits your business flow.
 
-If your processes don't match the standard model, you can use the extension but you'll need to get more data. Just continue to use [!INCLUDE[prod_short](includes/prod_short.md)].
+If your processes don't match the standard model, you can use the extension but you need to get more data. Just continue to use [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
 > We use a bit of your compute time each week when we evaluate and re-train the model.
@@ -95,22 +95,17 @@ If your processes don't match the standard model, you can use the extension but 
 
 ## <a name="AnchorText"> </a>Create and use your own predictive web service for late payment prediction
 
-You can also create your own predictive web service based on a public model named **Prediction Experiment for Dynamics 365 Business Central**. This predictive model is available online in the Azure AI Gallery. To use the model, follow these steps:  
+For [!INCLUDE[prod_short](includes/prod_short.md)] online, the model is published by Microsoft and connected to the Microsoft subscription. For other deployment options, you have to create Machine Learning resources in your own Azure subscription. You can find sample steps in the [sample repo](https://github.com/microsoft/BCTech/tree/master/samples/MachineLearning). The purpose of this task is to get the API URI and API key.
 
-1. Open a browser and go to the [Azure AI Gallery](https://go.microsoft.com/fwlink/?linkid=2086310).  
-2. Search for **Prediction Experiment for Dynamics 365 Business Central**, and then open the model in Azure Machine Learning studio.  
-3. Use your Microsoft account to sign up for a workspace, and then copy the model.  
-4. Run the model, and publish it as a web service.  
-5. Make a note of the API URL and API key. You will use these credentials for a cash flow setup.  
-6. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
-7. Choose the **Use My Azure Subscription** check box.
-8. On the **My Model Credentials** FastTab, enter the API URL and API key for your model.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Late Payment Prediction Setup**, and then choose the related link.  
+2. Choose the **Use My Azure Subscription** check box.
+3. On the **Use My Azure Subscription** FastTab, enter the API URL and API key for your model.  
 
 ## See also
 
-[Azure Machine Learning studio Documentation](/azure/machine-learning/classic/)  
-[Customizing Business Central Using Extensions](ui-extensions.md)  
-[Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)  
-[Use Artificial Intelligence in Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
+[Customizing Business Central Using Extensions](ui-extensions.md)    
+[Welcome to [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)    
+[Use Artificial Intelligence in Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)    
+[Prediction API overview](/dynamics365/business-central/dev-itpro/developer/ml-prediction-api-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

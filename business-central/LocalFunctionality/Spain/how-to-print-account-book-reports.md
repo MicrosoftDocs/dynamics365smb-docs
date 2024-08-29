@@ -1,16 +1,14 @@
 ---
-    title: How to print account book reports [ES]
-    description: Learn how to print the Official Account Book report and the Official Account Summarize Book report with the Spanish version of Business Central.
-    services: project-madeira 
-    documentationcenter: ''
-    author: brentholtorf
-    ms.topic: conceptual
-    ms.devlang: al
-    ms.search.keywords:
-    ms.date: 11/22/2023
-    ms.author: bholtorf
-    ms.service: dynamics-365-business-central
-    ms.reviewer: bholtorf
+title: How to print account book reports [ES]
+description: Learn how to print the Official Account Book report and the Official Account Summarize Book report with the Spanish version of Business Central.
+author: brentholtorf
+ms.topic: conceptual
+ms.devlang: al
+ms.search.keywords:
+ms.date: 11/22/2023
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 # Print account book reports in the Spanish version
 Account book reports display all the general ledger entries created in a specific period. The two account book reports are:  

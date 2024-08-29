@@ -3,13 +3,12 @@ title: Customizing Business Central online using apps
 description: Learn all about adding functionality and customizing Business Central by installing apps in this article.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: solsen
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 2500, 2502, 20350, 20353
-ms.date: 05/24/2024
+ms.date: 06/27/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
 ---
 # Customizing Business Central online using apps
 
@@ -36,7 +35,7 @@ You manage the apps on the **Extension Management** page. You can access this pa
 > [!NOTE]  
 > Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for [!INCLUDE[prod_short](includes/prod_short.md)] online. Use the same email account for other services and products for a smooth experience.  
 
-You can also get to the marketplace from inside [!INCLUDE[prod_short](includes/prod_short.md)]. On the **Extension Management** page, you can see the apps that are currently installed, and you can open the **Extension Marketplace** page that shows the [!INCLUDE[prod_short](includes/prod_short.md)] apps that are currently available in AppSource. If you choose the *More apps* link, you're taken to [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  
+You can also get to AppSource from [!INCLUDE[prod_short](includes/prod_short.md)]. On the **Extension Management** page, you can see the apps that are currently installed, and you can open the **Microsoft AppSource Apps** page that shows the [!INCLUDE[prod_short](includes/prod_short.md)] apps that are currently available in AppSource. If you choose the **View AppSource** action, you're taken to [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). For more information, see [Manage AppSource apps](admin-manage-appsource-apps.md).
 
 If you choose an app, you can read about what the app does, and you can access Help for the app to learn more. When you choose to get an app, you must agree to the terms of use. If you get the app from the AppSource website, sign in to [!INCLUDE[prod_short](includes/prod_short.md)] to complete the installation.  
 

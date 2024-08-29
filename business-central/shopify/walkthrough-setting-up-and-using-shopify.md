@@ -258,7 +258,7 @@ In the **Shopify online store**, open the product catalog and find the *ATHENS D
 
 You can configure connector to create and assign catalog for exported Companies automatically. The steps below are useful if you want more precise control of what is available for B2B customers.
 
-In **Shopify Admin** Create and assign catalog.
+In **Shopify Admin**, create and assign catalog.
 
 1. Select **Products** and then **Catalogs** in the sidebar of **Shopify admin**.
 2. Create catalog for Specific products. Give in title 'B2B'. 
@@ -295,7 +295,7 @@ Prepare data.
 
 In **Shopify Admin**, explore prices for *B2B* catalog.
 
-In the **Shopify online store**, open the product catalog and find the *ATHENS Desk* product. Note prices are discount information.
+In the **Shopify online store**, open the product catalog and find the *ATHENS Desk* product. Note prices and discount information.
 
 ## Walkthrough: Check out and order synchronization for Individual buyer and Company representative
 This is a continuation of [Walkthrough: Start selling products online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). You can also try with your own data—for example, your Shopify store or sandbox.

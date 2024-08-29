@@ -27,7 +27,7 @@ Amounts on bank deposits can come from several sources:
 
 Bank deposit lines contain information about individual deposits, such as checks from customers. The total of the amounts on the lines must add up to the total amount of the deposit.
 
-After you fill in the deposit information and lines, you must post it. Posting will update the relevant ledgers. These ledgers include the general ledger, and the bank, customer, and vendor ledgers. Posted deposits are stored for future reference on the **Posted Bank Deposits** page.
+After you fill in the deposit information and lines, you must post it. Posting updates the relevant ledgers, including the general ledger, and the bank, customer, and vendor ledgers. Posted deposits are stored for future reference on the **Posted Bank Deposits** page.
 
 The **Bank Deposit** report displays customer and vendor deposits with the original deposit amount, the amount of the deposit that remains open, and the amount applied. The report also shows the total posted deposit amount to reconcile.
 
@@ -45,13 +45,13 @@ Also on the **Sales & Receivables Setup** page, to post deposits as lump sums ra
 
 You must also create a general journal template for deposits. You use general journals to post entries to bank, customer, vendor, fixed asset, and general ledger accounts. The journal templates design the general journal to suit the purpose of your work. That is, the fields on the journal template are exactly the ones you need.
 
-The deposits will be cash receipts, so you might want to reuse your number series for cash receipt journals. Alternatively, if you need to distinguish between bank deposit and cash receipt journal entries, use a different number series.
+The deposits are cash receipts, so you might want to reuse your number series for cash receipt journals. Alternatively, if you need to distinguish between bank deposit and cash receipt journal entries, use a different number series.
 
-You'll also need to create a batch job for the template. To create a batch job, on the **General Journal Templates** page, choose the **Batches** action. To learn more about batches, go to [Using Journal Templates and Batches](ui-work-general-journals.md#use-journal-templates-and-batches).
+You also need to create a batch job for the template. To create a batch job, on the **General Journal Templates** page, choose the **Batches** action. To learn more about batches, go to [Using Journal Templates and Batches](ui-work-general-journals.md#use-journal-templates-and-batches).
 
 ## Dimensions on bank deposit lines
 
-The lines on the bank deposit will automatically use the default dimensions you specified in the **Department Code** and **Customer group Code** fields. When you choose **Customer** or **Vendor** in the **Account Type** field, the dimensions that are specified for the customer or vendor will replace the defaults. You can change the dimensions on the lines, if needed.
+The lines on the bank deposit use the default dimensions you specified in the **Department Code** and **Customer group Code** fields. When you choose **Customer** or **Vendor** in the **Account Type** field, the dimensions for the customer or vendor replace the defaults. You can change the dimensions on the lines, if needed.
 
 > [!TIP]
 > Dimension on lines are set according to Default Dimension Priorities. Line dimensions prioritized over header dimensions. To avoid conflicts, you can create rules that prioritize when to use a dimension depending on the source. If you want to change how dimensions are prioritized, you can change their rankings on the **Default Dimension Priorities** page. For more information, see [To set up default dimension priorities](finance-dimensions.md#to-set-up-default-dimension-priorities).
@@ -73,7 +73,7 @@ The lines on the bank deposit will automatically use the default dimensions you 
 5. In the **Total Deposit Amount** field, enter the total amount of the deposit. This total must be the sum of the amounts on all lines.
 6. Fill in the remaining fields as necessary. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
-    The date in the **Posting Date** field and the dimensions in the **Department Code** and **Customergroup Code** fields will be assigned to the lines that you create for the bank deposit. You can change them if needed.
+    The date in the **Posting Date** field and the dimensions in the **Department Code** and **Customergroup Code** fields are assigned to the lines that you create for the bank deposit. You can change them if needed.
 
 7. Depending on whether you want to post the bank deposit as lump sum or each line individually to the bank ledger, turn the **Post as Lump Sum** toggle on or off. The default setting comes from the same toggle on the **Sales & Receivables Setup** page.
 
@@ -104,7 +104,7 @@ The lines on the bank deposit will automatically use the default dimensions you 
 
 The **Posted Bank Deposits** page lists your company's previous deposits. In the list, you can review the comments and dimensions that were specified for the deposits. You can open the bank deposit to view more details, and from there you can investigate further. For example, you can choose the **Find entries** action to view the posted bank ledger entries. From the bank ledger entry, you can find its corresponding posted general ledger entry.
 
-If you want to look up all general ledger entries for the posted deposit lines, go to the **G/L Register** page and use the **General Ledger** action. There you'll find all of the general ledger entries, including the entries for customers and vendors.
+If you want to look up all general ledger entries for the posted deposit lines, go to the **G/L Register** page and use the **General Ledger** action. The action shows all of the general ledger entries, including the entries for customers and vendors.
 
 ## Reverse a posted bank deposit
 

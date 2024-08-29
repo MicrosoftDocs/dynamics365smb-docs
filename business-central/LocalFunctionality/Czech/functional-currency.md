@@ -3,7 +3,7 @@ title: Functional Currency – Czechia
 description: This document explains the concept of functional currency and its application in Business Central.
 author: v-pejano
 ms.author: v-pejano
-ms.reviewer: v-pejano
+ms.reviewer: solsen
 ms.search.keywords: CZ, Czech, Currency, Finance, Accounting, Functional Currency, Exchange Rates
 ms.topic: article
 ms.date: 08/28/2024

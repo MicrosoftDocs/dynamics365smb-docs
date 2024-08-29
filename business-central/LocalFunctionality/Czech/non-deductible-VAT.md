@@ -2,12 +2,11 @@
 title: Non-Deductible VAT 
 description: This section describes Non-Deductible VAT for Czech.
 author: v-pejano
-
 ms.service: dynamics-365-business-central
 ms.topic: article
 ms.search.keywords: Czech, Non-Deductible VAT, Localization
 ms.date: 08/28/2024
-ms.reviewer: v-pejano
+ms.reviewer: solsen
 ms.author: v-pejano
 ---
 
@@ -15,7 +14,7 @@ ms.author: v-pejano
 
 ## Non-Deductible VAT
 
-If the VAT payer uses the received taxable supplies within his economic activities both for supplies eligible for tax deduction and for tax-exempt, he is entitled to deduct tax only in the reduced amount. VAT on input must be reduced by the calculated coefficient. Non-deductible VAT functionality allows the application of a shortening coefficient to accounting cases.
+If the VAT payer uses the received taxable supplies within their economic activities both for supplies eligible for tax deduction and for tax-exempt, they are entitled to deduct tax only in the reduced amount. VAT on input must be reduced by the calculated coefficient. Non-deductible VAT functionality allows the application of a shortening coefficient to accounting cases.
 
 The value of the VAT reduction coefficient can be set for the whole company in one place. The value will be applied to all marked combinations of VAT posting groups. In addition to the input tax reduction through the shortening coefficient, it is also possible to set a 100% tax reduction in the VAT account group combination, i.e. the case when there is no entitlement to apply VAT on the input side, but the output side (in the case of transactions under the reverse charge regime) has to report VAT in full. The VAT reduction is also applies to the VAT Report and the VAT Control Reports, which include the entire unreduced amounts. After the end of the calendar year, it is possible, on the basis of the calculated settlement coefficient, recalculate all VAT entries from period and post the difference between the originally applied and the settlement coefficient.
 

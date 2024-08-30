@@ -4,7 +4,7 @@ description: The following articles describe the various local functionalities i
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 02/08/2024
+ms.date: 08/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -55,7 +55,7 @@ The following articles describe local functionality that is unique to the Belgia
     * [Generate Domiciliation Suggestions](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#generate-domiciliation-suggestions) **Available Now**
     * [Summarizing Payment Lines and General Journal Lines](summarizing-payment-lines-and-general-journal-lines.md) **Available Now**
 
-* Electronic Invoicing
+* Electronic invoicing
     * [Electronic Invoicing in Belgium via PEPPOL access point](../../finance-how-setup-edocuments-external.md) **Available Now**
   
 * Core finance

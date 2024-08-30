@@ -57,7 +57,7 @@ The following articles describe the local functionality in the Danish version of
 
 ## Future legislation requirements being investigated
 
-Currently, there are no additional upcoming regulatory features or requirements, outside of the new Danish bookkeeping act already mentioned in [**Feature Availability**](#feature-availability). If you're aware of any additional upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+Currently, there are no additional upcoming regulatory features or requirements. If you're aware of any additional upcoming regulatory features, submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 ## See Also
 

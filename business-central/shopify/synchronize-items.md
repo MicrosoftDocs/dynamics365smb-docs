@@ -1,7 +1,7 @@
 ---
 title: Synchronize items and inventory
 description: Set up and run synchronizations of items between Shopify and Business Central
-ms.date: 04/28/2024
+ms.date: 08/30/2024
 ms.topic: article
 ms.search.form: 30116, 30117, 30126, 30127, 
 author: brentholtorf
@@ -237,14 +237,14 @@ Image synchronization can be initialized in the two ways described below.
 
 ## Sync prices with Shopify
 
-The Connector can send one main price and one non-discounted price to Shopify. They will become the **Price** and **Compare at Price** fields in the Shopify Product (Shopify Variant).
+The Connector can send one main price and one non-discounted price to Shopify. The prices show in the **Price** and **Compare at Price** fields on the Shopify Product (Shopify Variant) page.
 
-You manage the process of defining and exporting prices using these settings:
+The following table describes the settings you can use to manage the process of defining and exporting prices.
 
 |Field|Description|
 |------|-----------|
-|**Customer Price Group**|Determine the price for an item in Shopify. The sales price of this customer price group is taken. If no group is specified, the price on the item card is used. Connector won't use the customer price group from the Customer card.|
-|**Customer Discount Group**|Determine the discount to use when calculating the price of an item in Shopify. Discounted prices are stored in the **Price** field and the full price is stored in the **Compare at Price** field. Connector won't use the customer discount group from the Customer card.|
+|**Customer Price Group**|Determine the price for an item in Shopify. The sales price of this customer price group is taken. If no group is specified, the price on the item card is used. The Connector won't use the customer price group from the customer.|
+|**Customer Discount Group**|Determine the discount to use when calculating the price of an item in Shopify. Discounted prices are stored in the **Price** field and the full price is stored in the **Compare at Price** field. The Connector won't use the customer discount group from the customer.|
 |**Allow Line Disc.**|Specifies whether you allow a line discount when calculating prices for Shopify. This setting applies only for prices on the item. Prices for the customer price group have their own toggle on lines.|
 |**Prices including VAT**|Specifies whether price calculations for Shopify include VAT. Learn more at [Set up Taxes](setup-taxes.md).|
 |**VAT Business Posting Group**|Specifies which VAT business posting group is used to calculate prices in Shopify. This should be the group you use for domestic customers. Learn more at [Set up Taxes](setup-taxes.md).|
@@ -264,15 +264,17 @@ You can export prices for synchronized items in the two ways described below.
 * The connector sends a request to update prices in Shopify if the price in [!INCLUDE[prod_short](../includes/prod_short.md)] has changed. For example, if you synchronized products and prices and then changed a price in Shopify, choosing the **Sync Prices to Shopify** action won't have any impact on the price in the Shopify because the new price calculated by the connector is the same as the price stored in the Shopify Variant from the previous sync. The **Compare at Price** is updated only if the main price has changed.
 
 ### Price synchronization for B2B
+
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
-If you use Shopify B2B then you can configure Connector to synchronize prices for Shopify Catalogues linked to B2B customers.
+If you use Shopify B2B, you can configure the Connector to synchronize prices for Shopify Catalogs linked to B2B customers.
 
-#### Sync catalogues from the Shopify
+#### Synchronize catalogs from the Shopify
+
 1. Select the ![Lightbulb that opens the Tell Me feature.](../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Shopify Catalogs**, and select the related link.
 2. Select **Get Catalogs**.
 
-You will see only catalogues linked to B2B Companies. For more information, see [B2B Companies](synchronize-customers.md#b2b-companies).  Note that catalogues don't contain products. You manage content of catalog in Shopify Admin.
+You can only access catalogs linked to B2B companies. For more information, see [B2B Companies](synchronize-customers.md#b2b-companies). Note that catalogues don't contain products. You manage catalog content in Shopify Admin.
 
 #### Sync prices for B2B Catalog
 

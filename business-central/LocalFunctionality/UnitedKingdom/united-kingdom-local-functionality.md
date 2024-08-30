@@ -38,8 +38,8 @@ The following articles describe local functionality that is unique to the United
 
 ## Future legislation requirements being investigated
 
-* Delocalization of GB base app **Planned for 2024 release wave 2**
-* Functionality to resubmit a VAT Return **Planned for 2025 release wave 1**
+* Delocalization of GB base app **Planned during 2025**
+* Functionality to resubmit a VAT Return **Planned for 2025 release wave 2**
 
 If you're aware of any upcoming regulatory features, please submit a [Regulatory Feature Alert](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 

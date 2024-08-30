@@ -14,6 +14,9 @@ ms.reviewer: bholtorf
 
 Mexican companies must be able to print and send Carta de Porte-compliant packing slips and transfer orders electronically as Comprobante Fiscal Digital por Internet (CFDI) files. As of December 1, 2021, the Waybill (Carta de Porte) complement is mandatory for taxpayers who transport goods and merchandise in the national territory. [!INCLUDE[prod_short](../../includes/prod_short.md)] supports CFDI and Carta de Porte so that you can print packing slips and transfer orders that have the required digital signature. The driver can then show the printed document if they're requested to do so.  
 
+> [!NOTE]
+> The **Carta de Porte** feature in the Mexican Business Central localization is currently at version **3.1**, effective from version 24.4.  
+
 > [!IMPORTANT]
 > The documents must include a digital signature, which requires a connection to a PAC, which is an authorized service provider appointed by the Mexican tax authorities (SAT). For more information, see [Set Up PAC Web Services](how-to-set-up-pac-web-services.md).  
 >

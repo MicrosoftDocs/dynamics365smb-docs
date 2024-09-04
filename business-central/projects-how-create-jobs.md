@@ -83,25 +83,8 @@ There are a few things to know about using default locations:
 * For project planning lines, the **Location Code** is based on the value selected on the project planning line when you select an item. If a bin code isn't defined for the project task, the bin from the default bin content is selected. You can change both values manually.
 * For project journal lines, the **Location Code** is based on the value selected on the job journal line when you select an item. If a bin code isn't defined for the project task, the bin from default bin content is selected. You can change both values manually.
 
-## Use locations that have directed warehouse flows
-
-The processes businesses use to pick items in their warehouses differ, depending on whether they use basic or advanced warehouse configurations. To learn more about the options for warehouse configuration, go to [Overview of different configuration options](design-details-warehouse-management.md#overview-of-different-configuration-options).
-
-Locations with advanced configurations have the **Directed Put-Away and Pick** toggle turned on. In short, this setting can make pick and put processes more efficient by moving items into, within, and out of the warehouse through a series of predefined bins and zones. To learn more about using advanced configurations, go to [Set Up Items and Locations for Directed Put-away and Pick](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md).
-
-When you want to specify either a default **Location Code** on the **Project** and **Project Task Lines** pages, or enter a **Location Code** on **Project Planning Lines**, your project can use locations where the **Directed Put-Away and Pick** toggle is turned on.
-
-To create or register a pick document, on the **Projects** or **Project Card** pages, you can use the **Create warehouse pick** action under the following conditions:
-
-* The **Status** of the project is **Open**.
-* The **Line Type** of the project planning line is **Budget** or **Both Budget and Billable**.
-* The **Type** of the project planning line is **Item**.
-* The **Project Consump. Whse. Handling** is **Warehouse Pick (mandatory)**, which is available when **Directed Pick and Put-away** is selected on the location.
-
-You can also create warehouse picks using a pick worksheet. The pick worksheet lets you organize pick information before you create warehouse pick instructions. You must fill in the **To-Project Bin Code** field on the **Location Card** page. To learn more about pick worksheets, go to [To create pick documents in bulk with the pick worksheet](warehouse-how-to-pick-items-for-warehouse-shipment.md#to-create-pick-documents-in-bulk-with-the-pick-worksheet).
-
 > [!NOTE]
-> You can't use the **Project No.** and **Project Task No.** fields in a purchase order together with locations where the **Directed Put-Away and Pick** toggle is turned on. You must post receipts and consumption separately with the fully directed warehouse flow.
+> The processes businesses use to pick items in their warehouses differ, depending on whether they use basic or advanced warehouse configurations. To learn more about the options for warehouse configuration, go to [Overview of different configuration options](design-details-warehouse-management.md#overview-of-different-configuration-options).
 
 ## To create planning lines for a project
 

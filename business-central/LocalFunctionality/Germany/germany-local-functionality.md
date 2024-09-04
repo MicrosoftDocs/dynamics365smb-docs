@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords:
-ms.date: 06/11/2024
+ms.date: 09/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -65,9 +65,9 @@ If you're aware of any upcoming regulatory features, submit a [Regulatory Featur
 
 ## See also
 
-[Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)  
-[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
-[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+[Certification of Business Central for German market (document is in German)](https://go.microsoft.com/fwlink/?linkid=875256)    
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)    
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)    
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
 

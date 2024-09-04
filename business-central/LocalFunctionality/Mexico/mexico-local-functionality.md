@@ -4,11 +4,12 @@ description: The following articles provide descriptions of the local functional
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords:
-ms.date: 07/04/2024
+ms.date: 09/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
+
 # Mexico local functionality
 
 The following articles describe local functionality that is unique to the Mexican version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  

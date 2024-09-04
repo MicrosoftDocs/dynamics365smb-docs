@@ -4,11 +4,12 @@ description: The following articles describe the local functionality in the New 
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: New Zealand, local functionality
-ms.date: 02/08/2024
+ms.date: 09/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
+
 # New Zealand local functionality
 
 The following articles describe local functionality that is unique to the New Zealand version of [!INCLUDE[prod_short](../../includes/prod_short.md)].  
@@ -56,8 +57,8 @@ If you're aware of any upcoming regulatory features, submit a [Regulatory Featur
 
 ## See also
 
-[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
-[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+[Work with [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)    
+[Country/regional availability and supported languages](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)    
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
 

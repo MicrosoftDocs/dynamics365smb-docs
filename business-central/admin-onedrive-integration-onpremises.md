@@ -4,7 +4,7 @@ description: Learn about how to set up Business Central on-premises to integrate
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: OneDrive, share, browser
-ms.date: 06/13/2024
+ms.date: 09/01/2024
 ms.author: jswymer
 ms.service: dynamics-365-op
 ms.reviewer: jswymer
@@ -138,7 +138,7 @@ The **OneDrive Setup** assisted setup will always use the app that's configured 
 
    In **OneDrive Setup** while making the switch, you get a message similar to the following text:
 
-    `The Microsoft Entra application used for authentication will be configured for all Business Central integrations. This has already been configured with the same client id (5F78CADE-19C0-49BF-AF84-306D0579B50E).`
+    `The Microsoft Entra application used for authentication will be configured for all Business Central integrations. This has already been configured with the same client id (aaaabbbb-0000-cccc-1111-dddd2222eeee).`
 
 - If there's no app configured in the **Set up your Microsoft Entra accounts** setup, the OneDrive integration uses the same app as before.
 

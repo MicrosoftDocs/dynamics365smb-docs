@@ -34,8 +34,8 @@ Some configurations don't let you use dedicated warehouse documents to register 
 |---|----------------|----------|---------|------------------|------------------|------------------|
 |No dedicated warehouse activity.|Posting from orders and journals.||Optional. Controlled by the **Bin Code is Mandatory** toggle.|Production Journal -> Consumption Journal </br><br/> **NOTE**: You can post consumption using a **Production Journal**.|Assembly Order|Project -> Project Journal|  
 |Basic|Order-by-order.|Production, Assembly, Projects: Inventory Pick, Inventory Movement </br><br/> **NOTE**: You can still post consumption directly from the source documents at locations where you activated these settings.|Optional. Controlled by the **Bin Code is Mandatory** toggle.|Production Order -> Inventory Pick|Assembly Order -> Inventory movement</br><br/>The **Inventory Movement** can be used only with bins.|Project -> Inventory Pick|
-|Advanced|Consolidated pick activities for multiple source documents.|Production, Assembly, Projects: Warehouse Pick|Optional. Controlled by the Bin Code is Mandatory toggle|Production Order(s) -> Warehouse Pick -> Consumption Journal |Assembly order(s) -> Warehouse Pick| Project(s) -> Warehouse Pick -> Project  Journal |
-|Advanced|Same as above + Directed pick/put-away activities|Directed Pick and Put-away (dependent toggles are enabled automatically)|Mandatory|Same as above|Same as above| Directed pick and Put-away isn't supported for projects|
+|Advanced|Consolidated pick activities for multiple source documents.|Production, Assembly, Projects: Warehouse Pick|Optional. Controlled by the Bin Code is Mandatory toggle|Production Order(s) -> Warehouse Pick -> Consumption Journal |Assembly order(s) -> Warehouse Pick| Project(s) -> Warehouse Pick -> Project Journal |
+|Advanced|Same as above + Directed pick/put-away activities|Directed Pick and Put-away (dependent toggles are enabled automatically)|Mandatory|Same as above|Same as above| Same as above|
 
 ## Warehouses without dedicated warehouse activity
 

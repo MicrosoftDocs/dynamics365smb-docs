@@ -59,19 +59,19 @@ A key part of creating a project is to specify the various tasks involved in the
 
 ## Invoice one or more customers for project tasks
 
-Sometimes the party that is receiving a service is different from the party that'll pay the bill. Also, sometimes you might need to invoice multiple customers for tasks in the project. On the **Project Card** page, use the **Task Billing Method** field to specify whether you're billing one customer, or multiple customers.
+Sometimes the party that is receiving a service is different from the party that pays the bill. Also, sometimes you might need to invoice multiple customers for tasks in the project. On the **Project Card** page, use the **Task Billing Method** field to specify whether you're billing one customer, or multiple customers.
 
-If the customer who is receiving the service will also pay the bill, in the **Bill-to** and **Ship-to** fields, choose **Default (Customer)** and **Default (Sell-to Address)**.
+If the customer who is receiving the service also pays the bill, in the **Bill-to** and **Ship-to** fields, choose **Default (Customer)** and **Default (Sell-to Address)**.
 
-If you're billing multiple customers, you can specify the customer who will receive the service and the customer to invoice for each task in the project. You can also provide the following information:
+If you're billing multiple customers, you can specify the customer who receives the service and the customer to invoice for each task in the project. You can also provide the following information:
 
-* Select the ship-to address for the customer where the work will happen.
+* Select the ship-to address for the customer where the work happens.
 * Add information about external references to simplify communication about the project.
 * Overwrite the standard financial terms of the project.
 
 ## Specify a default location for project items
 
-You can save time on data entry by specifying a default location and bin for projects on the **Project Card** page. When you create project tasks, project planning lines, and project journal lines for the project, the default location and bin are automatically assigned. You can, however, change the location code and bin on tasks and lines if needed.
+You can save time on data entry by specifying a default location and bin for projects on the **Project Card** page. When you create tasks, project planning lines, and project journal lines for the project, [!INCLUDE [prod_short](includes/prod_short.md)] assigns the default location. You can, however, change the location code and bin on tasks and lines if needed.
 
 If you define a **To-Project Bin Code** on the location, the bin code is populated when you select the location code. If your warehouse flow requires warehouse picks, you can also define other bins from which to consume items.
 
@@ -98,7 +98,7 @@ To create or register a pick document, on the **Projects** or **Project Card** p
 * The **Type** of the project planning line is **Item**.
 * The **Project Consump. Whse. Handling** is **Warehouse Pick (mandatory)**, which is available when **Directed Pick and Put-away** is selected on the location.
 
-You can also create warehouse picks using a pick worksheet. The pick worksheet lets you organize pick information before you create warehouse pick instructions. You'll need to fill in the a **To-Project Bin Code** field on the **Location Card** page. To learn more about pick worksheets, go to [To create pick documents in bulk with the pick worksheet](warehouse-how-to-pick-items-for-warehouse-shipment.md#to-create-pick-documents-in-bulk-with-the-pick-worksheet).
+You can also create warehouse picks using a pick worksheet. The pick worksheet lets you organize pick information before you create warehouse pick instructions. You must fill in the **To-Project Bin Code** field on the **Location Card** page. To learn more about pick worksheets, go to [To create pick documents in bulk with the pick worksheet](warehouse-how-to-pick-items-for-warehouse-shipment.md#to-create-pick-documents-in-bulk-with-the-pick-worksheet).
 
 > [!NOTE]
 > You can't use the **Project No.** and **Project Task No.** fields in a purchase order together with locations where the **Directed Put-Away and Pick** toggle is turned on. You must post receipts and consumption separately with the fully directed warehouse flow.

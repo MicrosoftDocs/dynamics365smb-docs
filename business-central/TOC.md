@@ -368,25 +368,28 @@ ms.service: dynamics-365-business-central
 
 ### Manage inventory costs
 #### [Inventory cost overview](finance-manage-inventory-costs.md)
-#### [About inventory costs](finance-learn-about-costing.md)
+<!-- #### [About inventory costs](finance-learn-about-costing.md)  //same as above or referst to design details. merging into finance-manage-inventory-costs.md  ; ok to remove file-->
 #### [Use item charges to account for additional trade costs](payables-how-assign-item-charges.md)
 #### [About standard cost calculation](finance-about-calculating-standard-cost.md)
-#### [About unit cost calculation](finance-about-calculating-unit-cost.md)
-#### [Design details: Inventory costs](design-details-inventory-costing.md)
-#### [Work with inventory periods](finance-how-to-work-with-inventory-periods.md)
-#### [Set up inventory valuation and costs](finance-set-up-inventory-valuation-and-costing.md)
+#### [About unit cost calculation](finance-about-calculating-unit-cost.md)  
+<!-- #### [Set up inventory valuation and costs](finance-set-up-inventory-valuation-and-costing.md)  //merged into finance-manage-inventory-costs.md, also content moved to inventory-how-setup-general.md ; ok to remove file -->
 #### [Revalue inventory](inventory-how-revalue-inventory.md)
-#### [Adjust item costs](inventory-how-adjust-item-costs.md)
 #### [Track item cost adjustments](finance-track-inventory-costs.md)
-#### [Handle inventory and manufacturing costs](finance-handle-inventory-and-manufacturing-costs.md)
-#### [Update standard costs](finance-how-to-update-standard-costs.md)
+<!-- #### [Handle inventory and manufacturing costs](finance-handle-inventory-and-manufacturing-costs.md) //merged into finance-manage-inventory-costs.md, also content moved to inventory-how-setup-general.md ; ok to remove file -->
+<!-- #### [Update standard costs](finance-how-to-update-standard-costs.md)  //merged into finance-about-calculating-standard-cost.md; ok to remove file -->
 #### [Remove and reapply item ledger entries](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Close open item ledger entries that result from fixed application in the item journal](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### Report Costs and Reconcile with the General Ledger
-##### [Report costs](finance-report-costs-and-reconcile-with-the-general-ledger.md)
-##### [Reconcile inventory costs with the general ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
-##### [Monitor job progress and performance](projects-how-monitor-progress-performance.md)
-#### [Adjust and reconcile inventory cost with general ledger with job queue](finance-adjust-reconcile-inventory-cost-job-queue.md)
+#### Report inventory costs and reconcile with the general ledger
+##### [Work with inventory periods](finance-how-to-work-with-inventory-periods.md) 
+<!-- line above: moved into folder as this is more "close period" task -->
+##### [Adjust item costs](inventory-how-adjust-item-costs.md) 
+<!-- line above: moved into folder as this is more "close period" task --> 
+<!-- ##### [Report costs](finance-report-costs-and-reconcile-with-the-general-ledger.md) looks like this one is already removed and redirects to finance-how-to-post-inventory-costs-to-the-general-ledger.md  -->
+##### [Reconcile inventory costs with the general ledger](finance-how-to-post-inventory-costs-to-the-general-ledger.md)   
+<!-- ##### [Monitor job progress and performance](projects-how-monitor-progress-performance.md)   //removing link, as this is Project related WIP. Article is available from Prjoect folder -->
+##### [Adjust and reconcile inventory cost with general ledger with job queue](finance-adjust-reconcile-inventory-cost-job-queue.md)
+#### [Design details: Inventory costs](design-details-inventory-costing.md) 
+<!-- line above: just moving down -->
 
 ### Manage cash flow
 #### [Cash flow overview](finance-cash-flow-overview.md)
@@ -460,6 +463,8 @@ ms.service: dynamics-365-business-central
 #### [Sustainability setup](finance-sustainability-setup.md)
 #### [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md)
 #### [How to record greenhouse gas (GHG) emissions](finance-sustainability-journal.md)
+#### [Sustainability scorecards and goals overview](sustainability-scorecards-goals.md)
+#### [Work with carbon credit](sustainability-carbon-credit.md)
 #### Sustainability analytics
 ##### [Ad-hoc analysis of sustainability data](ad-hoc-analysis-sustainability.md)
 ##### [Built-in sustainability reports](sustainability-reports.md)

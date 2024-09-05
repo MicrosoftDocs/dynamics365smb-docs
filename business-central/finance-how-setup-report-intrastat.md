@@ -6,53 +6,48 @@ ms.author: altotovi
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 05/29/2024
+ms.date: 08/28/2024
 ms.custom: bap-template
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077
 ---
+
 # Set up Intrastat reporting
 
 All companies in the European Union (EU) must report their trade with other EU countries/regions. Companies must report the movement of goods to the statistics authorities in their country/region every month, and the report must be delivered to the tax authorities. Intrastat is the system that's used to collect trade statistics about goods within these countries/regions. Use the Intrastat report to complete periodic Intrastat reporting by collecting, recording, and reporting the trade of goods according to local legislation.
 
 Intrastat reporting is based on basic EU regulations that apply to all countries/regions. However, there are differences within the individual countries/regions. Each country/region has its rules about what and how to report.
 
-> [!NOTE]
-> Intrastat information doesn't apply to the movement of services between countries/regions. Instead, the information applies only to goods such as items and fixed assets. If your government requires you to register the movement of services between countries/regions, use the **Service Declaration** feature.
+> [!NOTE]  
+> Intrastat information doesn't apply to the movement of services between countries/regions, but only goods (Items and Fixed Assets). If the local government requires registering the movement of services between countries/regions, it can be done using the **Service Declaration** feature.
 >
-> This feature is available as an app that you can download from [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). To use this feature, install it on the **Extension Management** page.
+> This features is available as an app at [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). ATo use this feature, you must first install it on the **Extension Management** page. Learn more about this functionality [here](finance-how-setup-use-service-declaration.md).  
 
-> [!IMPORTANT]
-> This article covers the new Intrastat experience that's available from [!INCLUDE[prod_short](includes/prod_short.md)] version 21. Consult your administrator to learn which version your company is using and whether you should enable the new functionality.
->
-> Read the previous version's Intrastat setup and usage article, [Set Up and Report Intrastat](finance-how-setup-report-intrastat-v20.md).
+> [!IMPORTANT]  
+> This article describes the new Intrastat experience available in [!INCLUDE[prod_short](includes/prod_short.md)] starting in the 2022 release wave 2, which includes extended features. If you haven't upgraded your solution, read the previous version's Intrastat setup and usage article at [Set Up and Report Intrastat](finance-how-setup-report-intrastat-v20.md).
 
-## Enable the new Intrastat experience
 
-In 2022 release wave 2, [!INCLUDE[prod_short](includes/prod_short.md)] includes a redesigned Intrastat experience that provides extended features. If the new Intrastat functionality isn't enabled in your environment, an administrator can enable it on the **Feature Management** page.
+## Assisted setup
 
-> [!IMPORTANT]
-> You can't use the old and new experiences in parallel. Before you activate the extension in a production environment, we recommend that you test it in a sandbox environment by using a copy of your production data. After you activate a new user experience in your production environment, you can't revert to the old Intrastat functionality.
+To use assisted setup for the Intrastat, follow these steps:  
 
-1. Select the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Feature Management**, and then select the related link.
-2. On the **Feature Management** page, select the line for **Feature Update: Replace the existing Intrastat functionality with the new Intrastat extension**. To learn more about feature management, see [Enabling Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
-3. In the **Enable for** column, select **All Users**.
-4. Read the explanation about how the system will be upgraded, and then select **Yes** to agree.
-5. Select **Next**. You will get the basic setup for Intrastat. To read more about the Intrastat setup, see the [Intrastat configuration](#intrastat-configuration) section later in this article.
-6. After the setup is completed, select **Finish** to start to use the new Intrastat experience.
+1. Select the :::image type="icon" source="media/ui-search/search_small.png" border="false"::: icon, enter **Assisted Setup**, and then select the related link. 
+2. On the **Assisted Setup** page, select the line for **Set up Intrastat reporting** in the **Report on financial health** group.  
+3. Follow the instructions for the basic setup for Intrastat. To read more about the Intrastat setup, see the [Intrastat configuration](#intrastat-configuration) section later in this article.
+4. After the setup is completed, select **Finish** to start to use the new Intrastat experience.
 
     > [!NOTE]
-    > Depending on your company location, it will be enough to enable the previously described feature. For countries/regions that have specific features for Intrastat reporting, enable the country/region specific Intrastat app in addition to the core extension.
+    > Intrastat Reporting Core app can be installed on any base app, regardless of whether it is the EU or not, but this feature is intended for regulatory reporting in EU countries, Microsoft provides full regulatory and localization support only in EU countries. If you're in EU countries where Microsoft does'nt provide localization support, you must find partner-based localization support, and for other countries you can use without support. You might have to install a country/region-specific Intrastat app in addition to the core extension to meet the local requirements. The country-specific apps can only be installed on base apps as they are intednded for localization purposes, unlike Intrastat, which has one core app and local apps (the country-specific ones).  
 
 ## Intrastat configuration
 
-Before you can use Intrastat reports, there are several configurations that must be set up.
+Before you can use Intrastat reports, there are several configurations that must be set up.  
 
 ### Intrastat reporting setup
 
 Use the **Intrastat Reporting Setup** page to enable and set the default behavior for Intrastat reporting. You can specify whether you need to report Intrastat from shipments (dispatches), receipts (arrivals), or both, depending on thresholds that are set by your local regulations. You can also set default transaction types for the regular and return documents that are used for transaction reporting.
 
-Follow these steps to set up Intrastat reporting.
+Follow the steps to set up Intrastat reporting.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report Setup**, and then select the related link.
 2. On the **General** FastTab, select or enter field information as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] The following table describes some of the key fields.
@@ -119,11 +114,11 @@ Follow these steps to set up Intrastat reporting.
 
 In some countries/regions, the authorities require that Intrastat reports include, for example, the shipment method for purchases or other values when sales are over a certain threshold.
 
-To set mandatory fields or values on the **Intrastat Report** page, follow these steps.
+To set mandatory fields or values on the **Intrastat Report** page, follow the steps.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report Setup**, and then select the related link.
 2. Select **Intrastat Report Checklist**.
-3. Follow these steps to add the necessary lines for checking:
+3. Follow the steps to add the necessary lines for checking:
    1. Set the **Field No.** field to a field that must be checked for a non-empty value.
    2. Enter a value in the **Filter Expression** field if needed, based on the following rules:
 
@@ -141,7 +136,7 @@ To set mandatory fields or values on the **Intrastat Report** page, follow these
 
 ## Use custom codeunits in Intrastat reporting
 
-If you want to change how Intrastat works, and the default configuration isn't enough, you can customize the system by extending the standard features. If you need to further change the Intrastat behavior, you can develop your own codeunits. When you create codeunits, you need to make additional changes to use them. To configure the system to use your own objects, follow these steps.
+If you want to change how Intrastat works, and the default configuration isn't enough, you can customize the system by extending the standard features. If you need to further change the Intrastat behavior, you can develop your own codeunits. When you create codeunits, you need to make additional changes to use them. To configure the system to use your own objects, follow the steps.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **VAT Reports Configuration**, and then select the related link.
 2. On the **VAT Reports Configuration** page, add a new line.
@@ -209,7 +204,7 @@ Before you use the Intrastat reporting feature, you must define fields on the it
 
 #### Item cards
 
-Follow these steps to set up all the necessary information that's related to Intrastat on item cards.
+Follow the steps to set up all the necessary information that's related to Intrastat on item cards.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then select the related link.
 2. Select the item you want to configure.
@@ -283,16 +278,60 @@ If there's a reason to exclude a specific item or fixed asset from Intrastat rep
 >
 > When you add a tariff number that has a defined **Unit of Measure** value to the item, [!INCLUDE [prod_short](includes/prod_short.md)] automatically adds a new unit of measure to the **Item Units of Measure** value for the item. The **Qty. per Unit of Measure** value is based on the **Quantity Rounding Precision** field.
 
+## Automate the process of inheriting the Country of Origin for Items 
+
+> [!NOTE]
+> If the user wants to use the *Country of Origin* inheritance from the purchase document to the sales invoice, this is only possible using *Item Tracking Lines*. Otherwise, the system won't use the default value.
+
+### How to set up  
+
+#### Intrastat report 
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report Setup**, and then select the related link. 
+2. In the **Intrastat Report Setup** in the **Default Country Code for Item Tracking** field, choose the **Purchase Headers** option.  
+
+#### Item  
+
+To use this automated feature, you must enable item tracking for these items, either serial numbers, lots, or both of them. To enable item tracking for the item, follow the steps.
+
+1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item**, and then select the related link.
+2. Choose the item that you want to configure.
+3. On the **Item Card** page, on the **Item Tracking** FastTab, select one of item tracking codes using the **Item Tracking Code** field.
+4. When selecting, you can see how item tracking codes are configured.
+5. Select the one you want and select **OK**.
+
+### Use the Item in any of the Purchase documents 
+
+Once you select the item that has an **Item Tracking Code** enabled in the purchase line, you must follow the steps.  
+
+1. Om the **Lines** FastTab, choose **Line**, and run the **Item Tracking Lines** action.
+2. On the **Item Tracking Lines** page after adding **Serial No.** or **Lot No.**, and entering value in **Quantity (Base)** field, choose one of the following options:  
+   1. The **Lot No. Information Card** action if you're using lots.   
+   2. The **Serial No. Information Card** action if you're using serial numbers.  
+3.  You can choose **New** (**+**) to create new information card on the **Lot No. Information Card** or **Serial No. Information Card** page. 
+4.  The **Country/Region Code** will be populated with the **Country/Region Code** from your document **Purchase Header**.
+5.  If you want to change **Country/Region Code**, you can do it manually.
+6.  Close the page.
+7.  Repeat this process for each line on the **Item Tracking Lines** page where you have configured item tracking.
+8.  Close the **Item Tracking Lines** page.
+
+When you work with **Sales Invoice**, [!INCLUDE[prod_short](includes/prod_short.md)] automatically collects the **Country/Region Code** for any lot or serial number you may choose. You can always check the code using the **Item Tracking Lines** from the sales lines.  
+
+These **Country/Region Codes** are automatically populated in the **Country/Region of Origin Code** field in the **Intrastat Report Lines**.  
+
 ## Enter country/region Intrastat settings
 
 Intrastat requirements are similar in all member states of the EU, though there are important exceptions. In theory, the rules should be uniformly applied in all member states. However, there are differences in implementations, because some member states provide guidelines about how to apply the principles in specific situations (for example, commercial samples and returns of goods). These guidelines can produce different results for various situations. Therefore, the information that countries/regions must enter can differ, as can the file format that they must use for reporting.
 
+> [!NOTE]
+> If the user doesn't create the **Lot No. Information Card** or **Serial No. Information Card** for any specific lot or serial number, the system will not use the **Country/Region Code** from the purchase header, and instead, the system will use the **Country/Region Code** from the **Item** card.  
+
 ### Austria
 
-Intrastat reporting in Austria requires two different files for receipts and shipments. To verify that your setup is correct, follow these steps.
+Intrastat reporting in Austria requires two different files for receipts and shipments. To verify that your setup is correct, follow the steps.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report Setup**, and then select the related link.  
-2. On the **Reporting** FastTab, check whether **Split Receipts/Shipments Files** is selected. If it is, you will find two separate **Data Exch. Def. Code**  values configured. 
+2. On the **Reporting** FastTab, check whether **Split Receipts/Shipments Files** is selected. If it is, you'll find two separate **Data Exch. Def. Code**  values configured. 
 3. Verify that the **Zip File(-s)** field is selected, to ensure that report files will be added to the zip file.
 
 The process of working with Intrastat reports is the same as the global feature.
@@ -305,7 +344,7 @@ The new Intrastat report experience for the Czech Republic will be available in 
 
 ### Finland
 
-In Finland, there are a few additional steps to set up Intrastat. Intrastat reporting in Finland requires two different files for receipts and shipments. You will also find that there are two separate **Data Exch. Def. Code** values configured.
+In Finland, there are a few additional steps to set up Intrastat. Intrastat reporting in Finland requires two different files for receipts and shipments. You'll also find that there are two separate **Data Exch. Def. Code** values configured.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report Setup**, and then select the related link.  
 2. On the **Intrastat Report Setup** page, on the **File Setup** FastTab, enter the field information as described in the following table.
@@ -329,10 +368,10 @@ A new Intrastat report experience for Italy will be available starting in Februa
 
 ### Sweden
 
-Intrastat reporting in Sweden requires two different files for receipts and shipments. To verify that your setup is correct, follow these steps.
+Intrastat reporting in Sweden requires two different files for receipts and shipments. To verify that your setup is correct, follow the steps.
 
 1. Select the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Intrastat Report Setup**, and then select the related link.  
-2. On the **Reporting** FastTab, verify that **Split Receipts/Shipments Files** is selected. If it is, you will find two separate **Data Exch. Def. Code** values configured.
+2. On the **Reporting** FastTab, verify that **Split Receipts/Shipments Files** is selected. If it is, you'll find two separate **Data Exch. Def. Code** values configured.
 
 The process of working with Intrastat reports is the same as in global feature.
 
@@ -340,8 +379,8 @@ The process of working with Intrastat reports is the same as in global feature.
 
 ## See also
 
-[Intrastat Reporting in Business Central](finance-how-report-intrastat.md)  
-[Financial Management](finance.md)  
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Intrastat Reporting in Business Central](finance-how-report-intrastat.md)    
+[Financial Management](finance.md)    
+[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

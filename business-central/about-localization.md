@@ -8,7 +8,7 @@ ms.topic: overview
 ms.search.keywords: availability, localization
 ms.search.form: 
 ms.date: 09/05/2023
-ms.custom: bap-template
+ms.custom: bap-template, references_regions
 
 ms.service: dynamics-365-business-central
 ---

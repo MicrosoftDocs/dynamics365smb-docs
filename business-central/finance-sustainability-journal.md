@@ -46,13 +46,13 @@ To work with sustainability journals, follow the steps:
 
 1. Select the ![Lightbulb that opens the Tell Me feature 3.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sustainability Journal**, and then select the related link.
 2. On the **Sustainability Journal** page, enter as many lines as you plan to post in the same batch.
-3. You can leave the **Document Type** field blank, or you can select **Invoice** or **Credit Memo**.
+3. You can leave the **Document Type** field blank if this is internal document, or you can select **Invoice** or **Credit Memo** if needed.
 4. In the **Account No.** field, you can select only non-blocked sustainability accounts where the **Direct Posting** field is selected and the **Accounting Type** field is set to **Posting**. The accounts must also be configured with a category and a subcategory.
 
     > [!NOTE]
     > If you use a batch where the emission scope is configured, the **Emission Scope** value in the sustainability account must equal the **Emission Scope** value in the batch.
 
-5. You can either manually post the amounts or use formulas.
+5. You can either manually fill in the emission amounts or use formulas.
 
     - If you have accurate information about the emission and want to post it (that is, if you have the information on the received invoice), select the **Manual Input** field to indicate that you'll manually enter the amounts. In this case, you can't enter your data directly in the **Fuel/Electricity**, **Distance**, **Custom Amount**, **Installation Multiplier**, and **Time Factor** fields, because they become noneditable. However, the **Emission CO2**, **Emission CH4**, and **Emission N2O** fields remain editable, and you can enter your data directly in them.
     - If you don't have accurate knowledge of the emission and must calculate it, don't select the **Manual Input** field. In this case, the **Emission CO2**, **Emission CH4**, and **Emission N2O** fields become noneditable. However, you can enter your calculation details based on the formula that you're using. Learn more about the formulas that are and defined in the **sustainability account category** in [Chart of sustainability accounts and ledger](finance-sustainability-accounts-ledger.md#account-categories).
@@ -60,6 +60,13 @@ To work with sustainability journals, follow the steps:
 6. To post the journal, select the **Post** action. When you post in a sustainability journal, entries are generated in the sustainability ledger.
 
 If your formula is based on the **Calculate from General Ledger** option in the sustainability account category, you must use the **Collect Amount from G/L Entries** action before you post the journal, to calculate emissions based on this data source. Additionally, if you made changes to the emission factors after the journal lines were populated, you must select the **Recalculate** action to get the proper amount in the journal.
+
+### Changing Account Subcategories in the journal line  
+
+It is important to know that you can have more than one **Account Subcategory** related to one **Sustainability Account**, but only one can be set as a default value and you must have default value all the time for the account if yoy want to use this account for posting. Everytime when you want to use different subcategory for each account, you can easily change this value on the **Sustainability Journal** line, but you can choose only subcategores already connected to the spceific account and account category.   
+
+> [!TIP]
+> If you want to use i.e. one account for business cars, but you have different car types with different emissions, you can set one **Account** and create as many **Account Subcategories** as you have cars with different emission factors. When you work in your **Sustanability Journal**, you can easily change your **Account Subcategory** based on the car type you want to use for recording emissions.  
 
 ### Recurring journals
 

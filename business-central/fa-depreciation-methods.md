@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: write down, depreciate, depreciation
-ms.search.form: 5629, 5633
+ms.search.form: 5611, 5629, 5633
 ms.date: 03/25/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central

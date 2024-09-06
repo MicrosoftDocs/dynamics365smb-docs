@@ -114,6 +114,11 @@ To review sustainability account subcategories, follow the steps:
 > [!NOTE]
 > The **Import Data** and **Import From** fields are intended for potential integration with external systems that are used to collect emission factors. However, in **2024 release wave 1**, these fields can't be used as a feature by default.
 
+It is important to know that you can have more than one **Account Subcategory** related to one **Sustainability Account**, but only one can be set as a default value and you must have default value all the time for the account if yoy want to use this account for posting.  
+
+> [!TIP]
+> If you want to use i.e. one account for business cars, but you have different car types with different emissions, you can set one **Account** and create as many **Account Subcategories** as you have cars with different emission factors. When you work in your **Sustanability Journal**, you can easily change your **Account Subcategory** based on the car type you want to use for recording emissions.  
+
 ## Sustainability ledger entries
 
 The sustainability ledger stores the history of all posted sustainability transactions and organizes all emission data according to the CoSA. When a user posts the sustainability journal, all crucial data is recorded there. All active reports are generated based on the sustainability ledger entries.

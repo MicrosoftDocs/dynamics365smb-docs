@@ -14,49 +14,53 @@ ms.service: dynamics-365-business-central
 
 # Design your own financial reports
 
-If you want more complex reports, financial reporting can also create customized reports. If you already have established financial reporting, choose this option. 
+You can use financial reporting to create custom reports. For example, if you want more complex reports.
 
-To create a completely new financial report, choose New. You will then be able to give the new report a Name and Description. Once you have created them, you can also assign default Row Definition, Column Definition, and Analysis Views to the report. 
+To create a new financial report, choose the **New** action. You can then give the report a name and add a description. Afterward, you can specify default settings for the report, such as:
+
+* **Row Definition**
+* **Column Definition**
+* **Analysis Views**
 
 ## Copy an existing report
 
-Any existing report may be copied using Copy Financial Report. When choosing this option, you can rename the copied report. Individual Row Definitions and Column Definitions can also be copied and renamed.  
+To copy an existing report, use the **Copy Financial Report** action. When you choose this option, you can rename the copied report. You can also copy and rename individual row definitions and column definitions.  
 
 ## Create your own row definition
 
-To create your own row definition, choose Edit Row Definition. Drill into the Name field to see all existing row definitions. Choose New and give the new row definition a Name and Description. 
+To create your own row definition, choose **Edit Row Definition**. To explore existing row definitions, choose the **Name** field. Choose **New**, and give the row definition a name and description.
 
-You will now have a blank row definition that you can use to build your new report.  
+You now have a blank row definition that you can use to build your new report.  
 
 > [!TIP]
-> Take a moment to personalize your screen by showing only the **Row No.**, **Description**, **Totaling Type**, **Totaling**, **Row Type**, and **Bold** columns. These columns are recommended as the minimum necessary columns needed to use for a basic row definition. There are many additional columns available which can be used as you become more familiar with creating more advanced financial reporting in Business Central.
+> Take a moment to personalize your screen to show only the **Row No.**, **Description**, **Totaling Type**, **Totaling**, **Row Type**, and **Bold** columns. These columns are recommended as the minimum columns needed for a basic row definition. There are many columns available, which can be used as you become familiar with creating more advanced financial reports in [!INCLUDE [prod_short](includes/prod_short.md)].
 
 When getting started with financial reporting, there are a few choices we recommended in fields. The following table describes the recommended choices.
 
 |Field  |Option  |
 |---------|---------|
 |Row No.     |Alpha, numeric, or alphanumeric codes are used here to identify rows in formulas.         |
-|Description  |Used to hold the words to label each row of the report.         |
-|Totaling Type    |Many choices, with Posting Accounts and Formulas used most commonly.         |
-|Totaling     | Together with Totaling Type of Posting Accounts, maps general ledger accounts to the report, either individually or in ranges.<br><br> Together with Totaling Type of Formula, uses row references to Row No. to calculate basic addition, subtraction, multiplication, or division.          |
-|Row Type     |**Net Change** is used for Income Statement reports.<br><br>**Balance at Date** is used for Balance Sheet reports.<br><br>**Beginning Balance** is used for Cash Flow Statements.          |
+|Description  |Specifies the words to label each row of the report.         |
+|Totaling Type    |The **Posting Accounts** and **Formulas** options are often used.         |
+|Totaling     | Together with the **Totaling Type** of **Posting Accounts**, maps general ledger accounts to the report, either individually or in ranges.<br><br> Together with **Totaling Type** of the **Formula**, uses row references to the **Row No.** field to do basic addition, subtraction, multiplication, or division.          |
+|Row Type     |**Net Change** is used for income statement reports.<br><br>**Balance at Date** is used for balance sheet reports.<br><br>**Beginning Balance** is used for cash flow statements.          |
 |Bold     |  Simple formatting to apply to headers, subtotals, and other elements of the report that you want to emphasize.       |
 
 ## When to show the opposite sign in rows and columns
 
-The formatting option Show Opposite Sign is used for accounts to show the opposite sign in a naturally occurring credit balance account, like revenue, for presentational formatting of reports to be presented to non-accounting readers. 
+Use the **Show Opposite Sign** option to show the opposite sign in a credit balance account, such as revenue, for reports you present to people who aren't accountants.
 
 > [!TIP]
-> It's important to remember that Show Opposite Sign should be used on the Posting Account line for the account where the sign needs to be flipped. Using Show Opposite Sign on a formula like Gross Margin, where both Revenue and Cost of Good Sold are represented, will cause an incorrect result to occur in the final calculation. Extra attention must be paid to formulas when using Show Opposite Sign to ensure the calculation is still giving the correct result.
+> It's important to remember that you should use the **Show Opposite Sign** option on the posting account line for the account where the sign needs to be flipped. If you use the option on a formula such as gross margin, where both revenue and cost of goods sold are represented, the calculation will be incorrect. Pay extra attention when you use the setting in formulas.
 
 ## Create your own column definition
 
-To create your own column definition, choose Edit Column Definition. Drill into the Name field to see all existing column definitions. Choose New and give the new column definition a Name and Description.
+To create your own column definition, choose **Edit Column Definition**. To explore existing definitions, choose the **Name** field. Choose **New**, and give the new column definition a name and a description.
 
-You will now have a blank column definition that you can use to build your new report.  
+You now have a blank column definition that you can use to build your new report.  
 
 > [!TIP]
-> Take a moment to personalize your screen to show only the **Column No.**, **Column Header**, **Column Type**, **Ledger Entry Type**, **Budget Name**, **Formula**, and **Comparison Period Formula** columns. These columns are recommended as the minimum necessary columns needed to use for a basic column definition. There are many additional columns available which can be used as you become more familiar with creating more advanced financial reporting in Business Central.
+> Take a moment to personalize your screen to show only the **Column No.**, **Column Header**, **Column Type**, **Ledger Entry Type**, **Budget Name**, **Formula**, and **Comparison Period Formula** columns. These columns are recommended as the minimum needed for a basic column definition. There are many columns available, which you can use as you become more familiar with creating advanced financial reports.
 
 When getting started with financial reporting, there are a few field choices we recommended. The following table describes the recommendations.
 
@@ -64,22 +68,28 @@ When getting started with financial reporting, there are a few field choices we 
 |---------|---------|
 |Column No.     |Alpha, numeric, or alphanumeric codes are used here to identify columns in formulas.         |
 |Column Header     |Used to hold the words used to label each column of the report.         |
-|Column Type     |Many choices, with Net Change, Balance at Date, and Formula used most commonly.<br><br>**Net Change** is used for Income Statement reports.<br><br>**Balance at Date** is used for Balance Sheet reports. 
-
-Formula uses row references to Column No. to calculate basic addition, subtraction, multiplication, and division.          |
-|Ledger Entry Type     |Entries are used for general ledger entries.<br><br>Budget Entries are used for budget entry comparisons.         |
-|Budget Name     |When using Budget Entries, selects which Budget to use.         |
-|Formula     | Formula uses row references to Column No. to calculate basic addition, subtraction, multiplication, and division.        |
-|Comparison Period Formula     | Holds various period related formulas to designate which period will be reported when combined with the date filter when viewing the report.        |
+|Column Type     |The often used options are **Net Change**, **Balance at Date**, and **Formula**.<br><br>**Net Change** is used for income statement reports.<br><br>**Balance at Date** is used for balance sheet reports.<br><br>**Formula** uses row references to Column No. to do basic addition, subtraction, multiplication, and division.          |
+|Ledger Entry Type     |Entries are used for general ledger entries.<br><br>**Budget Entries** are used for budget entry comparisons.         |
+|Budget Name     |When using budget entries, select the budget to use.         |
+|Formula     | Formula uses row references to Column No. to do basic addition, subtraction, multiplication, and division.        |
+|Comparison Period Formula     | Holds various period-related formulas that determine the period for the report combined with the date filter.        |
 
 ## When to use a comparison period formula and comparison date formula in a column definition
 
-There are two options for column definition comparisons for periods of time: comparison period formula and comparison date formula.  
+There are two options for column definition comparisons for periods of time: 
 
-Comparison Period Formula is most appropriately used for reports created to show monthly, quarterly, or annual time periods. In most cases, financial reports use these increments of time, so the comparison period is used most frequently in financial reporting design.  
+* Comparison period formula
+* Comparison date formula
 
-Comparison Date Formula is used for reports created to show weekly or daily time periods. These increments of time are more appropriate for operational reporting, like daily sales or weekly invoicing.
+Comparison period formula is most often used for reports that show monthly, quarterly, or annual time periods. In most cases, financial reports use these increments of time, so the comparison period is used most often in financial reports.  
+
+Comparison date formula is used for reports that show weekly or daily time periods. These increments of time are appropriate for operational reporting, such as daily sales or weekly invoicing.
 
 ### Column definitions that include budgets
 
-Budgets can be included on any report when included on the column definition. By selecting a ledger entry type of Budget Entries, and entering the Budget Name for the selected budget, comparisons of actual to budget can be easily incorporated to reports.
+Budgets can be included on any report when included on the column definition. By selecting a ledger entry type of **Budget Entries**, and entering the **Budget Name** for the selected budget, you can easily show comparisons of actual to budget in reports.
+
+# See also
+
+[Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)  
+[Organize report data using account categories](bi-account-categories.md)  

@@ -14,39 +14,40 @@ ms.service: dynamics-365-business-central
 
 # Organize report data using account categories
 
-The **G/L Account Categories** page lets you create simple, out of the box financial reports based on your chart of accounts.  
+The **G/L Account Categories** page lets you create simple financial reports based on your chart of accounts.  
 
-By identifying categories, subcategories, and providing account mapping to your chart of accounts, Business Central includes basic financial reporting out of the box. If you do not yet have established financial reporting, choose this option. 
+By providing categories, subcategories, and account mapping to your chart of accounts, [!INCLUDE [prod_short](includes/prod_short.md)] includes basic financial reporting out of the box. If you're just getting started with financial reporting, the standard reports are excellent options until you become more established. 
 
 ## Use G/L account categories 
 
-By designating the Account Category for each general ledger account, the first layer of financial reporting is created. You can use six categories: 
+You create the first layer of a financial report by selecting an account category for each general ledger account. There are six categories:
 
 * Assets
 * Liabilities
 * Equity
 * Income
 * Cost of Goods
-* Expense 
+* Expense
 
-These can be designated on the G/L Account Card or on the G/L Account Categories page. Their purpose is to identify the major sections of primary financial reports like the Balance Sheet and Income Statement.  
+You specify categories on the **G/L Account Card** or **G/L Account Categories** pages. The purpose is to identify the major sections of primary financial reports, such as the Balance Sheet and Income Statement reports.  
 
 ## Use account subcategories
 
-Subcategories can also be identified for each account to aid in mapping more detail for accounts in each category. The subcategories can also be designated on the G/L Account Card or on the G/L Account Categories page. Their purpose is to identify the subsections of primary financial reports like the Balance Sheet and Income Statement. Subcategories are more flexible than categories and can be defined by the user.  
+You can also create subcategories for each account. Subcategories help add more details to the mapping for accounts in each category. You also specify subcategories on the **G/L Account Card** or **G/L Account Categories** pages. The purpose is to identify the subsections of primary financial reports, such as the Balance Sheet and Income Statement reports. Subcategories are more flexible than categories because you can define them.  
 
 ## Map general ledger accounts
 
-The most important feature of the out-of-the-box financial reports is mapping of the GL Accounts to the Category. Every account in the chart of accounts should be listed in the selected category and subcategory so the automated generation of financial reports will include all mapped accounts.  
+The most important feature of the out-of-the-box financial reports is mapping G/L accounts to categories. All accounts in the chart of accounts should be listed in a selected category and subcategory, so when you generate financial reports you include all mapped accounts.  
 
 ## Generate financial reports
 
-Once the categories and subcategories have been set up, and all accounts on the chart of accounts have been mapped, choose Generate Financial Reports. This action will be run briefly and financial reports with the M- prefix will be updated with the mapping provided to your chart of accounts.  
+After you set up categories and subcategories have and map all accounts on the chart of accounts, choose **Generate Financial Reports**. This action updates financial reports with the M- prefix with the mapping provided for your chart of accounts.  
 
-To control which reports are updated when generate financial reports is run, update the fields in the reporting section of the general ledger setup.  
+To control which reports update when you generate financial reports, update the fields in the **Reporting** section of the **General Ledger Setup** page.  
 
-These reports can be remapped or updated at any time. If you choose to regenerate them at any time, you may choose to keep the original reports and create copies with the new mapping.
-
-Keep in mind that if you decide to manually make changes to any of these system generated reports, you will get the following message.  
+You can remap and update these reports at any time. If you choose to regenerate them, you can choose to keep the original reports and create copies with the new mapping.
 
 ## See also
+
+[Primary capabilities of financial reporting](finance-financial-reporting-capabilities.md)  
+[Design your own financial reports](bi-design-financial-reports.md)
